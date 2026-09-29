@@ -29,6 +29,7 @@ import {
   SpellCheck, Blocks, ClipboardCheck, BookOpen, Lightbulb, Play,
 } from 'lucide-react'
 import MisconceptionPanel from '@/components/learn/MisconceptionPanel'
+import PoemLab from '@/components/sandbox/PoemLab'
 import {
   fetchEnrichment, fetchNodeRemediation,
   type EnrichmentData, type DiagnosticQuestion,
@@ -83,7 +84,7 @@ function Panel({ diag }: { diag: Diagnosis | null }) {
 
 // ----------------------------------------------------------- main shell --
 
-type Tab = 'drills' | 'assemble' | 'formats' | 'rct' | 'vocab'
+type Tab = 'drills' | 'assemble' | 'formats' | 'rct' | 'vocab' | 'poemlab'
 
 const TAB_META: Record<LangSubject, Record<Tab, { label: string; icon: any }>> = {
   en: {
@@ -92,6 +93,7 @@ const TAB_META: Record<LangSubject, Record<Tab, { label: string; icon: any }>> =
     formats: { label: 'Format checkers', icon: ClipboardCheck },
     rct: { label: 'Literature RCT', icon: BookOpen },
     vocab: { label: 'Word builders', icon: Lightbulb },
+    poemlab: { label: 'Literature Lab', icon: Play },
   },
   hi: {
     drills: { label: 'व्याकरण अभ्यास', icon: SpellCheck },
@@ -99,6 +101,7 @@ const TAB_META: Record<LangSubject, Record<Tab, { label: string; icon: any }>> =
     formats: { label: 'प्रारूप-जाँच', icon: ClipboardCheck },
     rct: { label: 'साहित्य (पंक्ति-बोध)', icon: BookOpen },
     vocab: { label: 'शब्द-भंडार', icon: Lightbulb },
+    poemlab: { label: 'छंद लैब', icon: Play },
   },
 }
 
@@ -226,6 +229,7 @@ export default function LanguageGym() {
         {tab === 'formats' && <FormatTab subject={subject} onPractise={markExplored} />}
         {tab === 'rct' && <RctTab topic={topic} onPractise={markExplored} />}
         {tab === 'vocab' && <VocabTab topic={topic} onPractise={markExplored} />}
+        {tab === 'poemlab' && <PoemLab subject={subject} />}
       </div>
     </div>
   )

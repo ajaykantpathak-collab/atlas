@@ -80,6 +80,7 @@ interface Enrichment {
   examples: string | null;
   cognitive_level: string | null;
   difficulty: string | null;
+  mastery_criteria: string | null;
 }
 
 interface DiagnosticQuestion {
@@ -421,6 +422,7 @@ function cleanEnrichment(e: Enrichment): Enrichment {
     common_misconception: cleanCorpusText(e.common_misconception),
     on_failure: Array.isArray(e.on_failure) ? e.on_failure.map(cleanCorpusText) : cleanCorpusText(e.on_failure),
     examples: cleanCorpusText(e.examples),
+    mastery_criteria: cleanCorpusText(e.mastery_criteria),
     diagnostic_questions: (e.diagnostic_questions || []).map(q => ({
       question: cleanCorpusText(q.question),
       answer: cleanCorpusText(q.answer),
@@ -916,6 +918,29 @@ function StoryStage({
             {/* ── 1 · HOOK — eli5 in big type over the hero ── */}
             {scene.kind === 'hook' && (
               <motion.div variants={stagger} initial="hidden" animate="show">
+                {/* ── 0 · FEED-UP — the objective BEFORE anything else
+                    (BATCH_PLAN 3.1). Zero-wrong: renders only when the
+                    corpus carries MASTERY_CRITERIA; the corpus has no
+                    why-matters section, so no why line is ever invented. */}
+                {enrichment.mastery_criteria && (
+                  <motion.div
+                    variants={riseItem}
+                    className="mb-5 rounded-2xl border border-sky-500/25 bg-sky-500/[0.05] p-4 sm:p-5"
+                    data-testid="feedup-header"
+                  >
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-sky-300 mb-1.5">
+                      Your objective
+                    </p>
+                    <p className="text-sm sm:text-[15px] leading-relaxed text-slate-200">
+                      {enrichment.mastery_criteria}
+                    </p>
+                    {boardTrace && (
+                      <p className="mt-2 text-[11px] font-semibold text-gold-300">
+                        Board proof: {boardTrace.marks !== null ? boardTrace.marks : `up to ${boardTrace.maxMarks}`} real board questions on this exact topic
+                      </p>
+                    )}
+                  </motion.div>
+                )}
                 <motion.div variants={riseItem}>
                   <VisualBoundary resetKey="hero" fallback={<GoldHero subject={subjectName(enrichment.subject)} classLevel={enrichment.class_level} title={title} />}>
                     {Hero
