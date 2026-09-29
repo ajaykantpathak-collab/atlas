@@ -107,6 +107,11 @@ GRADE_MAP_FILENAME = "_grade_map.json"
 _FILENAME_PATTERNS = (
     # c10_bio_cbse_01_001  (subject may be multi-token: c12_hin_al_cbse_03_011)
     re.compile(r"^c(?P<cls>\d+)_(?P<subj>.+)_cbse_(?P<chap>\d+)_(?P<num>\d+)$"),
+    # c9_eng_icse_07_005  (ICSE corpus — cisce_nodes_v2)
+    re.compile(r"^c(?P<cls>\d+)_(?P<subj>.+?)_icse_(?P<chap>\d+)_(?P<num>\d+)$"),
+    # c11_hist_isc_03_007  (ISC corpus — cisce_nodes_v2 classes 11-12; same
+    # shape as ICSE but the generator emits the `_isc_` board token)
+    re.compile(r"^c(?P<cls>\d+)_(?P<subj>.+?)_isc_(?P<chap>\d+)_(?P<num>\d+)$"),
     # c6_biology_ch06_001 / c8_math_ch12_003
     re.compile(r"^c(?P<cls>\d+)_(?P<subj>.+?)_ch0*(?P<chap>\d+)_(?P<num>\d+)$"),
     # c6_english_u1_001  (unit-indexed)
@@ -127,7 +132,9 @@ def parse_filename(stem: str) -> Optional[Dict]:
             return {
                 "class": int(m.group("cls")),
                 "subject": m.group("subj"),
-                "board": "cbse" if "_cbse_" in stem else "",
+                "board": ("isc" if "_isc_" in stem else
+                          ("icse" if "_icse_" in stem else
+                           ("cbse" if "_cbse_" in stem else ""))),
                 "chapter": int(m.group("chap")),
                 "node_num": int(m.group("num")),
             }
@@ -760,6 +767,22 @@ def get_md_dir() -> str:
     return os.environ.get("ENHANCED_NODES_MD_DIR", DEFAULT_MD_DIR)
 
 
+# Dual-corpus serving (2026-09-29): the CISCE corpus ships as its own md dir
+# next to the CBSE one. The loader scans BOTH so ICSE/ISC nodes serve through
+# the same enrichment/search/teach paths. Ids never collide (board token is
+# part of every stem); either dir missing is tolerated.
+DEFAULT_CISCE_DIR = os.path.join(_REPO_ROOT, "content", "cisce_nodes_v2")
+
+
+def get_md_dirs() -> List[str]:
+    base = os.environ.get("ENHANCED_NODES_MD_DIR", DEFAULT_MD_DIR)
+    dirs = [base]
+    extra = os.environ.get("CISCE_NODES_MD_DIR", DEFAULT_CISCE_DIR)
+    if extra not in dirs and os.path.isdir(extra):
+        dirs.append(extra)
+    return dirs
+
+
 def _cache_path() -> str:
     return os.environ.get(
         "ENHANCED_NODES_CACHE_PATH",
@@ -857,21 +880,21 @@ def dir_fingerprint(md_dir: str) -> Dict:
     return fp
 
 
-def build_index(md_dir: str) -> EnhancedNodesIndex:
-    """Scan ``md_dir`` and parse every node + companion file.  Tolerates
+def build_index(md_dirs: List[str]) -> EnhancedNodesIndex:
+    """Scan every md_dir and parse every node + companion file.  Tolerates
     malformed files -- they are counted as skipped in ``index.stats``."""
     t0 = time.time()
-    files = _md_files(md_dir)
+    pairs = [(d, f) for d in md_dirs for f in _md_files(d)]
     nodes: List[Dict] = []
     companions: List[Dict] = []
     skipped: Dict[str, str] = {}
     degraded = 0
     companions_degraded = 0
-    for fname in files:
+    for d, fname in pairs:
         stem = os.path.splitext(fname)[0]
         is_comp = stem.endswith(COMP_SUFFIX)
         parser = parse_companion_file if is_comp else parse_node_file
-        node, reason = parser(os.path.join(md_dir, fname))
+        node, reason = parser(os.path.join(d, fname))
         if node is None:
             skipped[fname] = reason or "unknown"
             continue
@@ -884,11 +907,14 @@ def build_index(md_dir: str) -> EnhancedNodesIndex:
     # GRADE-MAP P1: metadata-only remap of misgraded nodes (before the
     # class/subject grouping index is built, so every consumer -- catalog,
     # search, teach lane, enrichment -- sees the corrected coordinates)
-    grade_map = load_grade_map(md_dir)
+    grade_map: Dict[str, Dict] = {}
+    for d in md_dirs:
+        for k, v in load_grade_map(d).items():
+            grade_map.setdefault(k, v)
     grade_stats = apply_grade_map(nodes, grade_map)
     stats = {
-        "md_dir": md_dir,
-        "files_found": len(files),
+        "md_dir": ",".join(md_dirs),
+        "files_found": len(pairs),
         "parsed": len(nodes),
         "companions": len(companions),
         "companions_degraded": companions_degraded,
@@ -1011,14 +1037,17 @@ def load_index(force: bool = False,
         if _INDEX is not None and not force and md_dir is None:
             return _INDEX
         directory = md_dir or get_md_dir()
-        if not os.path.isdir(directory):
-            raise RuntimeError(
-                "enhanced-nodes md dir not found: %r (set "
-                "ENHANCED_NODES_MD_DIR)" % directory)
-        fingerprint = dir_fingerprint(directory)
+        dirs = [directory] if md_dir else get_md_dirs()
+        for d in dirs:
+            if not os.path.isdir(d):
+                raise RuntimeError(
+                    "enhanced-nodes md dir not found: %r (set "
+                    "ENHANCED_NODES_MD_DIR / CISCE_NODES_MD_DIR)" % d)
+        fingerprint = "|".join(
+            json.dumps(dir_fingerprint(d), sort_keys=True) for d in dirs)
         index = None if force else _read_cache(fingerprint)
         if index is None:
-            index = build_index(directory)
+            index = build_index(dirs)
             _write_cache(index, fingerprint)
         _INDEX = index
         return index
