@@ -423,7 +423,18 @@ async def solve_deterministic(body: SolveTextRequest):
 
     result = pipeline_answer(body.text)
     verified = result.label in ("VERIFIED", "VERIFIED_WITH_ASSUMPTIONS")
-    return {
+    # SOLVER CONTRACT: map the truth label onto SolverStatus and publish
+    # the audit fields (additive only -- existing keys untouched).
+    # `answer`/`numeric` stay withheld on every non-verified tier.
+    outcome = None
+    try:
+        from backend.its.solver.contract import (outcome_from_pipeline,
+                                                 emit_solver_metrics)
+        outcome = outcome_from_pipeline(result)
+        emit_solver_metrics(outcome, lane="verified_practice_solve")
+    except Exception:
+        outcome = None
+    payload = {
         "tier": result.label,
         "solved": result.label in ("VERIFIED", "VERIFIED_WITH_ASSUMPTIONS",
                                    "VERIFIED_OFFICIAL"),
@@ -437,6 +448,12 @@ async def solve_deterministic(body: SolveTextRequest):
         "refusal_reason": result.refusal_reason,
         "elapsed_ms": result.audit.elapsed_ms,
     }
+    if outcome is not None:
+        payload["status"] = outcome.status.value
+        payload["route"] = outcome.route
+        payload["solver_version"] = outcome.solver_version
+        payload["llm_used"] = outcome.llm_used
+    return payload
 
 
 # --------------------------------------------------------------------------- #

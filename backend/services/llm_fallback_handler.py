@@ -109,6 +109,27 @@ class LLMFallbackHandler:
             logger.warning("Unknown trigger reason: %s", trigger_reason)
             trigger_reason = TRIGGER_NOVEL_PROBLEM
 
+        # POLICY GATE (solver contract): the LLM fallback lane exists ONLY
+        # in fallback mode.  Any other SOLVER_LLM_MODE (off / parse_only /
+        # explain_only) degrades straight to the template fallback — the
+        # LLM is never contacted.  Enforced HERE (not only at the caller)
+        # so every entry point inherits the policy.
+        try:
+            from backend.its.solver.policy import llm_mode
+            mode = getattr(llm_mode(), "value", str(llm_mode()))
+        except Exception:  # pragma: no cover — policy import must never break the lane
+            mode = "off"  # fail closed: no LLM contact
+        if mode != "fallback":
+            logger.info(
+                "LLM fallback disabled by policy (SOLVER_LLM_MODE=%s) — "
+                "template fallback", getattr(mode, "value", mode))
+            template = self._template_fallback(
+                problem_text, trigger_reason,
+                error="llm_fallback_disabled_by_policy")
+            template["policy_blocked"] = True
+            template["policy_mode"] = getattr(mode, "value", str(mode))
+            return template
+
         # Circuit breaker check
         if self._circuit_open:
             logger.info("LLM circuit breaker open — returning template fallback")

@@ -690,10 +690,12 @@ async def finish_chapter_test(
         sess["completed"] = True
         sess["report"] = await _build_report(db, sess)
         await _save(sess)
-        # honest mastery propagation for the chapter's nodes
+        # honest mastery propagation for the chapter's nodes — through the
+        # ONE ledger (one-record rule): dual-writes mastery_records +
+        # mastery_state, exactly-once per (session, question).
         try:
-            from backend.services.mastery_sync import get_shared_service
-            sync = await get_shared_service()
+            from backend.services.mastery_ledger import record_assessment
+
             for q in sess["questions"]:
                 key = sess["keys"].get(q["question_id"], {})
                 node = key.get("node_id")
@@ -702,10 +704,12 @@ async def finish_chapter_test(
                 rec = sess["answers"][q["question_id"]]
                 ok = grade_answer(str(rec.get("answer") or ""),
                                   key.get("correct_answer", ""))
-                await sync.update_on_attempt(
-                    student_id=str(user.id), topic_id=node, correct=ok,
+                await record_assessment(
+                    db, user_id=str(user.id), node_id=node, is_correct=ok,
+                    source="chapter_test",
                     time_ms=int((rec.get("time") or 0) * 1000),
                     subject=sess.get("subject") or "general",
+                    client_token=f"chaptest:{sess.get('id')}:{q['question_id']}",
                 )
         except Exception as exc:
             logger.warning("[chapter-tests] mastery propagation failed: %s", exc)

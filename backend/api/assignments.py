@@ -732,21 +732,24 @@ async def assignment_submit(
     except Exception as exc:
         logger.warning("assignment practice-session row failed: %s", exc)
 
-    # Mastery via the same BKT sync the practice submit path uses (keyed on
-    # the students-table id, exactly like practice).
+    # Mastery via the ONE ledger (one-record rule, owner plan 2026-09):
+    # keyed on the students-table id exactly like practice, dual-writes
+    # mastery_records + mastery_state, exactly-once per (assignment, item).
     try:
         if students_row_id:
-            from backend.services.mastery_sync import get_shared_service
+            from backend.services.mastery_ledger import record_assessment
 
-            sync = await get_shared_service()
             for r in results:
                 try:
-                    await sync.update_on_attempt(
-                        student_id=students_row_id,
-                        topic_id=asgmt.node_id,
-                        correct=r["isCorrect"],
+                    await record_assessment(
+                        db,
+                        user_id=str(students_row_id),
+                        node_id=str(asgmt.node_id),
+                        is_correct=bool(r["isCorrect"]),
+                        source="assignment",
                         time_ms=0,
                         subject=asgmt.subject or "general",
+                        client_token=f"assign:{asgmt.id}:{user.id}:{r.get('questionId', '')}",
                     )
                 except Exception:
                     break

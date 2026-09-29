@@ -704,6 +704,34 @@ class DiagnosticService:
         }
         session.responses_list = session.responses_list + [response_entry]
 
+        # ── one-record rule (owner plan 2026-09): diagnostics ARE assessment
+        # ── the verdict feeds the SAME server-backed mastery record as
+        # practice, via the mastery ledger (same node keying + 0-1 BKT
+        # scale). Exactly-once: the session-index guard above already
+        # rejects a replayed submit, and the ledger's persistent token
+        # (session, question) protects against a crash between grading and
+        # commit. Best-effort: a ledger hiccup never fails the diagnostic.
+        try:
+            from backend.services.mastery_ledger import record_assessment
+
+            _diag_node = (
+                canonical_q.get("node_id")
+                or (canonical_q.get("node_tags") or [None])[0]
+                or f"diag::{subskill}"
+            )
+            await record_assessment(
+                self.db,
+                user_id=str(session.student_id),
+                node_id=str(_diag_node),
+                is_correct=bool(evaluation["is_correct"]),
+                source="diagnostic",
+                time_ms=float(time_ms or 0),
+                difficulty=float(answered_q.get("difficulty") or 0.5),
+                client_token=f"diag:{session.id}:{question_id}",
+            )
+        except Exception as exc:
+            logger.warning("diagnostic mastery sync failed: %s", exc)
+
         # ── persist misconception if detected ───────────────────────────────
         if evaluation.get("misconception"):
             mc_entry = {

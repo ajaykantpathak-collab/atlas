@@ -953,15 +953,33 @@ def _ask_sync(question: str, class_level: Optional[int] = None) -> dict:
     socratic = getattr(r, "socratic", None)
     if not isinstance(socratic, str):
         socratic = None
-    return {
+    # SOLVER CONTRACT: status/route/llm_used/solver_version ride as
+    # additive fields; the answer is released through the contract gate
+    # (VERIFIED tier only -- the pipeline already withholds elsewhere).
+    outcome = None
+    try:
+        from backend.its.solver.contract import (outcome_from_pipeline,
+                                                 emit_solver_metrics)
+        outcome = outcome_from_pipeline(r)
+        emit_solver_metrics(outcome, lane="tutor_ask")
+    except Exception:
+        outcome = None
+    payload = {
         "verified": r.label == "VERIFIED",
         "label": r.label,
-        "answer": r.answer,
+        "answer": outcome.released_answer() if outcome is not None
+        else r.answer,
         "steps": [s for s in (r.steps or [])[:8]
                   if isinstance(s, str)],
         "refusal_reason": getattr(r, "refusal_reason", None),
         "socratic": socratic,
     }
+    if outcome is not None:
+        payload["status"] = outcome.status.value
+        payload["route"] = outcome.route
+        payload["solver_version"] = outcome.solver_version
+        payload["llm_used"] = outcome.llm_used
+    return payload
 
 
 def _guided_fallback(refusal_reason: str,

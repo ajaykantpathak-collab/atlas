@@ -143,6 +143,33 @@ def classify(text: str) -> str:
 # --------------------------------------------------------------------------- #
 
 
+def _independent_sweep(text: str, audit: AuditTrail):
+    """Registry-sweep helper: model_problem + the independent second-path
+    verifier (independent_verifier.py).  Fail-closed: a FAILed check
+    downgrades the family answer (matched=False, answers suppressed) so
+    it is never promoted; a PASS bumps confidence and appends the proof
+    line; unregistered routes pass through unchanged."""
+    from backend.its.solver.independent_verifier import \
+        VERIFIERS, verified_model_problem
+    try:
+        syll = verified_model_problem(text)
+    except Exception:
+        # verifier infrastructure must never crash the answer path --
+        # fall back to the plain sweep (still guarded downstream)
+        from backend.its.solver.modeling_layer import model_problem
+        syll = model_problem(text)
+    registered = (getattr(syll, "structure", "") or "") in VERIFIERS
+    if registered and syll.matched:
+        audit.route.append("independent_verifier:pass")
+    elif registered:
+        withheld = "withheld" in (getattr(syll, "note", "") or "")
+        if withheld:
+            audit.route.append("independent_verifier:withheld")
+            audit.assumptions.append(
+                f"independent check: {getattr(syll, 'note', '')}")
+    return syll
+
+
 def _lane_a(text: str, audit: AuditTrail) -> PipelineResult:
     from backend.its.solver.router import solve_text
 
@@ -160,8 +187,7 @@ def _lane_a(text: str, audit: AuditTrail) -> PipelineResult:
     # formal-looking questions ("solve 5x-3 > 3x-5") can belong to a
     # family whose triggers the kernel does not cover (mirror of Lane
     # B's full-registry sweep, same promotion gate and polarity guard)
-    from backend.its.solver.modeling_layer import model_problem
-    syll = model_problem(text)
+    syll = _independent_sweep(text, audit)
     if syll.matched and "GROWING" in syll.structure.upper() \
             and re.search(r"\b(shrink\w*|shrank|shrunk|contract\w*|"
                           r"shorten\w*|narrow\w*|reduc\w*(?:\s+the)?\s+"
@@ -271,8 +297,7 @@ def _lane_b(text: str, audit: AuditTrail) -> PipelineResult:
     # falling to Lane A's kernel/CAS.  This ensures the compound
     # interest, depreciation, and every other family gets a chance
     # regardless of which lane the classifier picked.
-    from backend.its.solver.modeling_layer import model_problem
-    syll = model_problem(text)
+    syll = _independent_sweep(text, audit)
     # L2 POLARITY GUARD (sweep-level mirror of modeling_layer's D2
     # rule): the registry gains families every batch, so the promotion
     # gate itself must enforce the invariant -- a shrinking/contracting
@@ -875,8 +900,7 @@ def _answer_core(text: str) -> PipelineResult:
         # a turn -- classify() is a heuristic and plenty of computational
         # questions land here ("Is 1188 a perfect cube? ...").  Same
         # promotion gate as the Lane A sweep (never wrong, only guided).
-        from backend.its.solver.modeling_layer import model_problem
-        syll = model_problem(text)
+        syll = _independent_sweep(text, audit)
         if syll.matched and "GROWING" in syll.structure.upper() \
                 and re.search(r"\b(shrink\w*|shrank|shrunk|contract\w*|"
                               r"shorten\w*|narrow\w*|reduc\w*(?:\s+the)?\s+"

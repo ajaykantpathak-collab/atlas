@@ -11,7 +11,7 @@ import secrets
 
 from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import AliasChoices, BaseModel, Field
-from sqlalchemy import delete, select
+from sqlalchemy import delete, select, func
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from backend.database import get_db
@@ -215,7 +215,7 @@ async def forgot_password(
     payload: ForgotPasswordRequest, db: AsyncSession = Depends(get_db)
 ):
     """Mint a password-reset token.  Always 200 (no account enumeration)."""
-    result = await db.execute(select(User).where(User.email == payload.email))
+    result = await db.execute(select(User).where(func.lower(User.email) == func.lower(payload.email)))
     user = result.scalar_one_or_none()
 
     resp: dict = {"status": "ok", "delivery": "demo"}

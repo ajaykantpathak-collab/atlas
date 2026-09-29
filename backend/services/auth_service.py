@@ -1145,7 +1145,7 @@ class AuthService:
         from backend.security import hash_password
 
         result = await db.execute(
-            select(RealUser).where(RealUser.email == payload.email)
+            select(RealUser).where(func.lower(RealUser.email) == func.lower(payload.email))
         )
         if result.scalar_one_or_none() is not None:
             raise ValueError("An account with this email already exists")
@@ -1191,7 +1191,7 @@ class AuthService:
         from backend.models.user import User as RealUser
         from backend.security import verify_password
 
-        result = await db.execute(select(RealUser).where(RealUser.email == email))
+        result = await db.execute(select(RealUser).where(func.lower(RealUser.email) == func.lower(email)))
         user = result.scalar_one_or_none()
         if user is None:
             raise ValueError("Invalid email or password")

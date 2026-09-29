@@ -11,6 +11,7 @@ available=false so the sandbox UI can grey out that mode honestly.
 """
 from __future__ import annotations
 
+import time
 from typing import Any, Dict, List, Optional
 
 from fastapi import APIRouter
@@ -119,20 +120,73 @@ class SolveResponse(BaseModel):
     quantities: Dict[str, float] = {}
     governing_equation: str = ""
     note: str = ""
+    # ---- solver contract (additive; existing clients unaffected) ----
+    status: Optional[str] = None          # SolverStatus value
+    route: List[str] = []
+    solver_version: Optional[str] = None
+    llm_used: Optional[bool] = False
+    refusal_reason: Optional[str] = None
+    # ---- student-facing verification receipt ----
+    verification: Optional[Dict[str, Any]] = None
 
 
-def _serialize(subject: str, result) -> SolveResponse:
+def _verification_receipt(result, question: str = "") -> Optional[Dict[str, Any]]:
+    """Independent-verifier receipt for the student-facing answer card.
+    Returns None for unregistered routes (honest absence)."""
+    route = getattr(result, "structure", "") or ""
+    if not route:
+        return None
+    try:
+        from backend.its.solver.independent_verifier import (
+            verify_independent)
+        ok, proof = verify_independent(route, question, result)
+        if proof:
+            return {"independent": bool(ok), "proof": proof}
+    except Exception:
+        pass
+    return None
+
+
+def _serialize(subject: str, result, outcome=None, verification=None) -> SolveResponse:
+    """Serialize a ModelResult under the strict solver contract:
+    `final_answer` is surfaced ONLY when the outcome is VERIFIED (the
+    family's verification beat ran + passed — the promotion gate);
+    otherwise the method/steps ship as GUIDED with an honest note."""
+    if outcome is None:
+        return SolveResponse(
+            subject=subject,
+            structure=getattr(result, "structure", "") or "",
+            matched=bool(getattr(result, "matched", False)),
+            available=True,
+            final_answer=getattr(result, "final_answer", "") or "",
+            numeric_answer=getattr(result, "numeric_answer", None),
+            steps=list(getattr(result, "steps", []) or []),
+            quantities=dict(getattr(result, "quantities", {}) or {}),
+            governing_equation=getattr(result, "governing_equation", "") or "",
+            note=getattr(result, "note", "") or "",
+            verification=verification,
+        )
+    verified = outcome.answer_released
     return SolveResponse(
         subject=subject,
         structure=getattr(result, "structure", "") or "",
         matched=bool(getattr(result, "matched", False)),
         available=True,
-        final_answer=getattr(result, "final_answer", "") or "",
-        numeric_answer=getattr(result, "numeric_answer", None),
+        # CONTRACT: answer only on the VERIFIED tier.
+        final_answer=(getattr(result, "final_answer", "") or "")
+        if verified else "",
+        numeric_answer=getattr(result, "numeric_answer", None)
+        if verified else None,
         steps=list(getattr(result, "steps", []) or []),
         quantities=dict(getattr(result, "quantities", {}) or {}),
         governing_equation=getattr(result, "governing_equation", "") or "",
         note=getattr(result, "note", "") or "",
+        status=outcome.status.value
+        if hasattr(outcome.status, "value") else str(outcome.status),
+        route=list(outcome.route or []),
+        solver_version=outcome.solver_version,
+        llm_used=bool(outcome.llm_used),
+        refusal_reason=outcome.refusal_reason,
     )
 
 
@@ -141,9 +195,13 @@ def sandbox_solve(req: SolveRequest):
     # plain `def` -> thread pool: _get_model may lazily import a solver
     # family / ML model (seconds of sync work); async def here blocked the
     # event loop (the 2026-09-29 worker-wedge class of bug).
+    t0 = time.perf_counter()
     subject = (req.subject or "").strip().lower()
     fn = _get_model(subject)
     if fn is None:
+        _emit_metrics(subject, "UNSUPPORTED", [], False,
+                      (time.perf_counter() - t0) * 1000,
+                      f"solver families for '{subject}' are not installed yet")
         return SolveResponse(
             subject=subject, structure="", matched=False, available=False,
             final_answer="", note=f"solver families for '{subject}' are not installed yet",
@@ -151,11 +209,85 @@ def sandbox_solve(req: SolveRequest):
     try:
         result = fn(req.text)
     except Exception as e:
+        _emit_metrics(subject, "UNSUPPORTED", [subject], False,
+                      (time.perf_counter() - t0) * 1000,
+                      f"solver error: {e}")
         return SolveResponse(
             subject=subject, structure="", matched=False, available=True,
             final_answer="", note=f"solver error: {e}",
         )
-    return _serialize(subject, result)
+    # SOLVER CONTRACT: wrap the family's ModelResult at this boundary —
+    # VERIFIED only when the family's own verification beat passed (the
+    # answer_pipeline promotion gate); anything else ships GUIDED method
+    # or UNSUPPORTED, never an unverified answer.
+    from backend.its.solver.contract import (SolverOutcome,
+                                             SolverStatus, promotion_gate,
+                                             emit_solver_metrics)
+    try:
+        outcome = SolverOutcome.from_model_result(
+            result, verified=promotion_gate(result),
+            route=[subject], llm_used=False,
+            latency_ms=(time.perf_counter() - t0) * 1000)
+    except Exception:
+        outcome = None
+    try:
+        if outcome is not None:
+            emit_solver_metrics(outcome, lane="sandbox", subject=subject)
+    except Exception:
+        pass
+    # telemetry loop: verified/refused/family counters + latency window
+    try:
+        from backend.its.solver.solver_telemetry import record as _tel
+        latency = (time.perf_counter() - t0) * 1000
+        refused = not getattr(result, "matched", False)
+        _tel(getattr(result, "structure", "") or subject, verified=bool(
+            getattr(result, "matched", False)), refused=refused,
+            latency_ms=latency)
+    except Exception:
+        pass
+    receipt = _verification_receipt(result, req.text) if getattr(
+        result, "matched", False) else None
+    return _serialize(subject, result, outcome, receipt)
+
+
+@router.get("/metrics/solver")
+async def solver_metrics_snapshot():
+    """Live per-solve telemetry: verified/refused/family counts, latency
+    window, SLO state. Internal operational surface (nginx /metrics is
+    locked to private ranges; this one is read-only counters)."""
+    from backend.its.solver.solver_telemetry import snapshot
+    return snapshot()
+
+
+def _emit_metrics(subject: str, status: str, route: List[str],
+                  llm_used: bool, latency_ms: float,
+                  refusal_reason: Optional[str]) -> None:
+    """solver_metrics for the degrade paths (no model / solver error)."""
+    try:
+        import json as _json
+        import logging as _logging
+        _logging.getLogger("solver.metrics").info(_json.dumps({
+            "event": "solver_metrics",
+            "route": route or [subject],
+            "solver_version": _solver_version(),
+            "status": status,
+            "llm_used": llm_used,
+            "latency_ms": round(latency_ms, 2),
+            "refusal_reason": refusal_reason,
+            "lane": "sandbox",
+            "subject": subject,
+        }, ensure_ascii=False, default=str))
+    except Exception:
+        pass
+
+
+def _solver_version() -> str:
+    try:
+        from backend.its.solver.contract import SOLVER_VERSION
+        return SOLVER_VERSION
+    except Exception:
+        import os
+        return os.getenv("SOLVER_VERSION", "dev")
 
 
 @router.get("/subjects")

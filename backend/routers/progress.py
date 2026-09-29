@@ -7,6 +7,9 @@ review queue, and offline content management.
 
 from typing import List, Optional
 
+import logging
+import uuid
+
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -27,6 +30,8 @@ from backend.schemas.progress import (
     WeeklyActivitySchema,
 )
 from backend.services.progress_service import ProgressService
+
+logger = logging.getLogger("atlas.progress")
 
 router = APIRouter(prefix="/api/progress", tags=["progress"])
 
@@ -393,27 +398,19 @@ async def record_sim_result(
     user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
-    """Record a completed simulation run for the current user.
+    """Acknowledge a completed simulation run for the current user.
 
-    One call per sim completion: updates BKT mastery for every node the
-    sim covers and emits a ``student_answer`` event onto the intelligence
-    bus so misconception/remediation persistence actually fires.
-
-    ``correct`` is derived from score (>= 70) — the sims engine reports
-    a single aggregate score per run.
+    OWNER DECISION (2026-09): simulations are EXPLORATION, not assessment —
+    a sim run must NOT move the mastery record. This endpoint used to write
+    BKT mastery for every node the sim covered (and the client masteryStore
+    fed every sim here), letting sim completion inflate mastery. That write
+    is deliberately GONE. Only the intelligence-bus telemetry below is kept
+    (misconception/remediation persistence is diagnostic, not mastery).
+    If sims ever gain a real assessment mode, it must go through
+    services.mastery_ledger.record_assessment with its own source and a
+    product decision behind it.
     """
     correct = payload.score >= 70.0
-    mastery: dict = {}
-    updated: list = []
-
-    for node_id in payload.node_ids:
-        p = await ProgressService.update_mastery_bkt(
-            db, user_id=str(user.id), node_id=node_id, is_correct=correct
-        )
-        mastery[node_id] = p
-        updated.append(node_id)
-
-    await db.commit()
 
     # Feed the intelligence layer — this is what actually persists
     # InteractionOutcome + drives remediation/misconception tracking.
@@ -428,7 +425,7 @@ async def record_sim_result(
     except Exception:
         pass  # never break a sim result on telemetry
 
-    return SimResultResponse(updated=updated, mastery=mastery, correct=correct)
+    return SimResultResponse(updated=[], mastery={}, correct=correct)
 
 
 class GameResultRequest(BaseModel):
@@ -442,6 +439,9 @@ class GameResultRequest(BaseModel):
     title: Optional[str] = None
     sim_id: Optional[str] = None
     time_taken_seconds: Optional[float] = None
+    # Client clock when the run finished — makes the mastery apply below
+    # exactly-once (the offline outbox flush re-posts the same payload).
+    client_ts: Optional[float] = None
 
 
 class GameResultResponse(BaseModel):
@@ -460,9 +460,12 @@ async def record_game_result(
     Junior mastery was previously localStorage-only — invisible to the
     streak system, daily goals, weekly parent digest, and teacher view.
     This endpoint writes an ``activity_log`` row (activity_type
-    ``junior_game``) so the whole engagement pipeline sees real play.
-    Best-effort: the client swallows failures — a dropped log never
-    breaks the game.
+    ``junior_game``) so the whole engagement pipeline sees real play, AND —
+    one-record rule (owner plan 2026-09) — applies the score to the SAME
+    server-backed mastery record as practice/diagnostics, via the mastery
+    ledger (node key ``junior::<game_file>``, 0-1 BKT scale, exactly-once
+    via the client timestamp token). Best-effort on both: a dropped log or
+    a ledger hiccup never breaks the game.
     """
     await ProgressService.log_activity(
         db,
@@ -480,6 +483,30 @@ async def record_game_result(
             "time_taken_seconds": payload.time_taken_seconds,
         },
     )
+
+    # One-record rule: junior games ARE assessment — they contribute to the
+    # same mastery record (a score >= 70 counts as a correct observation,
+    # the same bar the old sims path used for "pass").
+    try:
+        from backend.services.mastery_ledger import junior_node_key, record_assessment
+
+        await record_assessment(
+            db,
+            user_id=str(user.id),
+            node_id=junior_node_key(payload.game_file),
+            is_correct=payload.score >= 70.0,
+            source="junior_game",
+            time_ms=float((payload.time_taken_seconds or 0) * 1000),
+            subject=payload.subject or "general",
+            client_token=(
+                f"jgame:{payload.game_file}:{payload.score}:{payload.client_ts}"
+                if payload.client_ts is not None
+                else f"jgame:{uuid.uuid4()}"  # no client clock → dedup by run id
+            ),
+        )
+    except Exception as exc:  # a ledger hiccup never breaks the child's play
+        logger.warning("junior game mastery apply failed: %s", exc)
+
     await db.commit()
     return GameResultResponse(recorded=True)
 

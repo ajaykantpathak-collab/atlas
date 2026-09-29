@@ -509,11 +509,16 @@ class ProgressService:
         record = await ProgressService.get_mastery_record(db, user_id, node_id)
 
         if record is None:
+            # Prior aligned with the live mastery_state store
+            # (services/mastery_sync.MasteryState.bkt_p_know = 0.1) so BOTH
+            # stores compute IDENTICAL trajectories from the same evidence —
+            # the one-record rule (owner plan 2026-09) is a property of the
+            # numbers, not just the keying.
             record = MasteryRecord(
                 user_id=user_id,
                 node_id=node_id,
-                mastery_probability=0.0,
-                p_known=0.0,
+                mastery_probability=0.1,
+                p_known=0.1,
                 p_transit=BKT_P_TRANSIT,
                 p_slip=BKT_P_SLIP,
                 p_guess=BKT_P_GUESS,

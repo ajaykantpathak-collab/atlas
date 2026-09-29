@@ -1334,8 +1334,42 @@ class JuniorService:
             logger.warning("Session persist failed (non-fatal): %s", exc)
 
     async def _sync_mastery(self, student_id: str, skill: str, delta: float) -> None:
+        """One-record rule (owner plan 2026-09): junior lesson answers are
+        real assessment — they contribute to the SAME server-backed mastery
+        record as practice/diagnostics via the mastery ledger, namespaced
+        ``junior::<subject>:<topic>`` (same 0-1 BKT semantics).
+
+        The old bridge called ``BKTModel.increment(...)`` — a method that
+        never existed on mastery_sync.BKTModel — so every junior lesson
+        contribution died right here in this except block, silently.
+        Only correct answers reach the ledger (delta >= 0.05 here); the
+        small partial-answer bumps (0.02) stay display-only so BKT evidence
+        stays honest.
+        """
+        if delta < 0.05:
+            return
         try:
-            await self._mastery.increment(student_id, skill, delta)
+            import uuid as _uuid
+
+            _uuid.UUID(str(student_id))  # ledger's ORM mirror needs a real user id
+        except (ValueError, AttributeError, TypeError):
+            logger.debug("Mastery sync skipped (non-UUID student %s)", student_id)
+            return
+        try:
+            from backend.services.mastery_ledger import junior_node_key, record_assessment
+            from database import async_session_maker
+
+            async with async_session_maker() as db:
+                await record_assessment(
+                    db,
+                    user_id=str(student_id),
+                    node_id=junior_node_key(skill),
+                    is_correct=True,
+                    source="junior_lesson",
+                    time_ms=0.0,
+                    subject=skill.split(":", 1)[0] if ":" in skill else "general",
+                )
+                await db.commit()
         except Exception as exc:
             logger.debug("Mastery sync skipped: %s", exc)
 

@@ -144,6 +144,33 @@ class Settings(BaseSettings):
     neo4j_database: str = Field(default="neo4j")
 
     # ------------------------------------------------------------------ #
+    # Solver LLM-usage policy (the central contract knobs — enforced in
+    # backend/its/solver/policy.py + backend/its/solver/contract.py)
+    # ------------------------------------------------------------------ #
+    solver_llm_mode: str = Field(
+        default="parse_only",
+        description=("Solver LLM policy: off | parse_only | fallback | "
+                     "explain_only. parse_only allows slot EXTRACTION "
+                     "only (competency canonicalizer); fallback additionally "
+                     "enables the LLM fallback handler; answers always stay "
+                     "deterministic. Invalid values fail closed to off."),
+    )
+    solver_require_verification: bool = Field(
+        default=True,
+        description=("Solver results must pass their verification beat to "
+                     "carry an answer; unverified fallback results return "
+                     "UNSUPPORTED."),
+    )
+    solver_allow_unverified_answer: bool = Field(
+        default=False,
+        description=("Relaxation switch: when false (default), an unverified "
+                     "fallback result ships NO answer (UNSUPPORTED). Only "
+                     "when true AND verification is not required may an "
+                     "unverified answer ride — status still never claims "
+                     "VERIFIED."),
+    )
+
+    # ------------------------------------------------------------------ #
     # Feature Flags
     # ------------------------------------------------------------------ #
     feature_photo_input: bool = Field(default=True)
@@ -338,6 +365,14 @@ class Settings(BaseSettings):
                 except Exception:
                     pass
         return ""
+
+    @field_validator("solver_llm_mode", mode="before")
+    @classmethod
+    def normalize_solver_llm_mode(cls, v: Any) -> str:
+        """Lowercase/trim.  Invalid values are NOT rejected here —
+        policy.llm_mode() fails closed to `off` at read time so a typo
+        can never enable an unexpected LLM lane."""
+        return str(v or "").strip().lower()
 
     @field_validator("env", mode="before")
     @classmethod

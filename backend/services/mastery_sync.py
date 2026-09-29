@@ -35,7 +35,10 @@ class MasteryState:
     subject: str
     bkt_p_know: float = 0.1
     bkt_p_learn: float = 0.3
-    bkt_p_guess: float = 0.25
+    # P(guess) aligned with ProgressService.BKT_P_GUESS (0.2) so the ORM
+    # mastery_records store and this live store compute IDENTICAL BKT
+    # trajectories from the same evidence — one-record rule (2026-09).
+    bkt_p_guess: float = 0.2
     bkt_p_slip: float = 0.1
     bkt_p_transit: float = 0.1
     irt_theta: float = 0.0
@@ -324,7 +327,7 @@ class MasterySyncService:
             subject         TEXT    NOT NULL,
             bkt_p_know      FLOAT   NOT NULL DEFAULT 0.1,
             bkt_p_learn     FLOAT   NOT NULL DEFAULT 0.3,
-            bkt_p_guess     FLOAT   NOT NULL DEFAULT 0.25,
+            bkt_p_guess     FLOAT   NOT NULL DEFAULT 0.2,
             bkt_p_slip      FLOAT   NOT NULL DEFAULT 0.1,
             bkt_p_transit   FLOAT   NOT NULL DEFAULT 0.1,
             irt_theta       FLOAT   NOT NULL DEFAULT 0.0,

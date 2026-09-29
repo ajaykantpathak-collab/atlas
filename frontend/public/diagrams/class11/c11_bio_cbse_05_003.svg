@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 560" font-family="Helvetica,Arial,sans-serif">
+<rect width="940" height="560" fill="#ffffff"/>
+<text x="470" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#233">Parts of a leaf (morphology)</text>
+<!-- petiole + lamina -->
+<path d="M300 480 C 305 430, 315 390, 330 350" stroke="#7a5230" stroke-width="14" fill="none" stroke-linecap="round"/>
+<path d="M330 350 C 200 330, 150 220, 190 110 C 300 60, 460 90, 470 200 C 470 300, 410 340, 330 350 Z" fill="#8fc866" stroke="#4a7c2f" stroke-width="3"/>
+<!-- midrib and veins -->
+<path d="M330 348 C 300 280, 280 190, 250 118" stroke="#4a7c2f" stroke-width="5" fill="none"/>
+<g stroke="#4a7c2f" stroke-width="2" fill="none" opacity="0.85">
+<path d="M320 300 C 250 285, 210 260, 175 215"/><path d="M312 255 C 245 240, 210 215, 185 170"/>
+<path d="M300 210 C 245 195, 220 175, 205 140"/><path d="M282 168 C 240 155, 225 140, 215 120"/>
+<path d="M320 300 C 380 290, 430 265, 452 225"/><path d="M310 252 C 375 245, 425 220, 455 180"/>
+<path d="M296 205 C 355 195, 410 172, 448 138"/><path d="M278 165 C 330 155, 385 132, 420 105"/>
+</g>
+<!-- leaf base + stipules + axillary bud -->
+<path d="M300 480 C 288 466, 276 458, 262 452 L 272 486 Z" fill="#7a5230"/>
+<path d="M304 482 C 316 466, 330 458, 344 454 L 332 488 Z" fill="#7a5230"/>
+<circle cx="345" cy="438" r="12" fill="#b7dd9a" stroke="#4a7c2f" stroke-width="2"/>
+<!-- callouts -->
+<g font-size="17" fill="#233">
+<line x1="255" y1="150" x2="80" y2="120" stroke="#555"/><text x="20" y="112">Lamina (leaf blade)</text>
+<line x1="288" y1="230" x2="80" y2="230" stroke="#555"/><text x="20" y="224">Midrib</text>
+<line x1="360" y1="180" x2="560" y2="140" stroke="#555"/><text x="566" y="134">Veins (reticulate venation)</text>
+<line x1="322" y1="452" x2="560" y2="360" stroke="#555"/><text x="566" y="356">Petiole (leaf stalk)</text>
+<line x1="268" y1="470" x2="560" y2="420" stroke="#555"/><text x="566" y="416">Leaf base with stipules</text>
+<line x1="352" y1="436" x2="560" y2="474" stroke="#555"/><text x="566" y="470">Axillary bud (in the axil)</text>
+</g>
+<!-- insets: venation + phyllotaxy -->
+<g font-size="15" fill="#233">
+<text x="700" y="80" font-weight="bold">Venation</text>
+<rect x="660" y="92" width="120" height="84" fill="#f4f9ee" stroke="#999"/>
+<path d="M720 100 C 690 120, 690 150, 720 172 M720 100 C 750 120, 750 150, 720 172 M700 125 C 720 132, 722 140, 722 168 M740 125 C 722 132, 718 140, 718 168 M706 110 C 722 118, 738 118, 734 168" stroke="#4a7c2f" fill="none" stroke-width="2"/>
+<text x="660" y="192">Reticulate (dicot)</text>
+<rect x="800" y="92" width="120" height="84" fill="#f4f9ee" stroke="#999"/>
+<path d="M810 170 L 826 96 M835 170 L 851 96 M860 170 L 876 96 M885 170 L 901 96" stroke="#4a7c2f" fill="none" stroke-width="2"/>
+<text x="800" y="192">Parallel (monocot)</text>
+<text x="700" y="240" font-weight="bold">Phyllotaxy</text>
+<g stroke="#7a5230" stroke-width="4" fill="none"><path d="M672 320 C 672 280, 672 260, 672 252"/></g>
+<ellipse cx="672" cy="316" rx="9" ry="20" fill="#8fc866" stroke="#4a7c2f" transform="rotate(-40 672 316)"/>
+<ellipse cx="672" cy="290" rx="9" ry="20" fill="#8fc866" stroke="#4a7c2f" transform="rotate(40 672 290)"/>
+<ellipse cx="672" cy="262" rx="9" ry="20" fill="#8fc866" stroke="#4a7c2f" transform="rotate(-40 672 262)"/>
+<text x="648" y="344">Alternate</text>
+<g stroke="#7a5230" stroke-width="4" fill="none"><path d="M782 322 C 782 282, 782 262, 782 254"/></g>
+<ellipse cx="770" cy="314" rx="9" ry="19" fill="#8fc866" stroke="#4a7c2f" transform="rotate(-45 770 314)"/>
+<ellipse cx="794" cy="314" rx="9" ry="19" fill="#8fc866" stroke="#4a7c2f" transform="rotate(45 794 314)"/>
+<ellipse cx="770" cy="286" rx="9" ry="19" fill="#8fc866" stroke="#4a7c2f" transform="rotate(-45 770 286)"/>
+<ellipse cx="794" cy="286" rx="9" ry="19" fill="#8fc866" stroke="#4a7c2f" transform="rotate(45 794 286)"/>
+<text x="762" y="344">Opposite</text>
+<g stroke="#7a5230" stroke-width="4" fill="none"><path d="M900 322 C 900 282, 900 262, 900 254"/></g>
+<ellipse cx="884" cy="312" rx="9" ry="19" fill="#8fc866" stroke="#4a7c2f" transform="rotate(-55 884 312)"/>
+<ellipse cx="900" cy="308" rx="9" ry="19" fill="#8fc866" stroke="#4a7c2f"/>
+<ellipse cx="916" cy="312" rx="9" ry="19" fill="#8fc866" stroke="#4a7c2f" transform="rotate(55 916 312)"/>
+<ellipse cx="884" cy="284" rx="9" ry="19" fill="#8fc866" stroke="#4a7c2f" transform="rotate(-55 884 284)"/>
+<ellipse cx="900" cy="280" rx="9" ry="19" fill="#8fc866" stroke="#4a7c2f"/>
+<ellipse cx="916" cy="284" rx="9" ry="19" fill="#8fc866" stroke="#4a7c2f" transform="rotate(55 916 284)"/>
+<text x="882" y="344">Whorled</text>
+</g>
+<text x="470" y="540" text-anchor="middle" font-size="13" fill="#667">Original diagram created from node curriculum content (CC0), Atlas wave-T 2026-09-29</text>
+</svg>

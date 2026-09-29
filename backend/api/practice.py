@@ -953,21 +953,6 @@ async def submit_answer(
 ) -> SubmitAnswerResponse:
     """Submit an answer, get correctness feedback, explanation, and next question."""
 
-    # ── Idempotency guard (offline replay support) ──
-    if req.idempotency_key:
-        try:
-            existing = await db.execute(
-                select(Attempt).where(
-                    Attempt.session_id == session_id,
-                    Attempt.question_id == req.question_id,
-                )
-            )
-            prev = existing.scalar_one_or_none()
-            if prev and prev.answer == str(req.answer):
-                logger.debug("Idempotent replay for session=%s q=%s", session_id, req.question_id)
-        except Exception:
-            pass  # DB unavailable — non-fatal
-
     # ── Validate session ──
     session = await _get_active_session(session_id, db)
     _enforce_session_owner(session, caller_sub)
@@ -997,22 +982,67 @@ async def submit_answer(
     is_correct = await _evaluate_answer(question, str(answer))
     marks = (_q_attr(question, "marks", 1) or 1) if is_correct else 0
 
-    # ── Update mastery via BKT/IRT model ──
-    mastery_delta: dict[str, Any] = {}
+    # ── Idempotency guard (offline replay support) ──
+    # A retried submit — flaky network, double-tap, or an offline-queue
+    # flush racing a live retry — must apply mastery/XP/attempts EXACTLY
+    # ONCE. (session_id, question_seed, answer) identifies one logical
+    # attempt: /start and the submit chain never re-ask a question inside
+    # a session. The old guard queried a non-existent Attempt.question_id
+    # column, so every replay silently double-counted mastery and XP.
+    _replay = False
     try:
-        sync = await get_shared_service()
-        result = await sync.update_on_attempt(
-            student_id=str(session.student_id),
-            topic_id=_q_attr(question, "node_id", None)
-                     or _q_attr(question, "topic", "") or qid_requested,
-            correct=is_correct,
-            time_ms=time_ms,
-            subject=_meta_get(session, "subject", "general"),
-        )
-        mastery_delta = result if isinstance(result, dict) else {"mastery_before": 0.0, "mastery_after": 0.0}
+        _prev = (
+            await db.execute(
+                select(Attempt)
+                .where(
+                    Attempt.session_id == session_id,
+                    Attempt.question_seed == qid_requested,
+                )
+                .order_by(Attempt.created_at.desc())
+                .limit(1)
+            )
+        ).scalar_one_or_none()
+        if _prev is not None and (_prev.answer or {}).get("value") == str(answer):
+            _replay = True
+            logger.info(
+                "Replay (idempotency_key=%s) session=%s q=%s — side effects skipped",
+                req.idempotency_key, session_id, qid_requested,
+            )
     except Exception as exc:
-        logger.warning("MasterySyncService.update_on_attempt failed: %s", exc)
-        mastery_delta = {"error": str(exc), "mastery_before": 0.0, "mastery_after": 0.0}
+        logger.debug("Replay guard lookup failed (non-fatal): %s", exc)
+
+    # ── Update mastery via the ONE ledger (BKT, both stores) ──
+    # One-record rule: practice is an assessment surface, so its verdict
+    # goes through mastery_ledger.record_assessment — same node keying and
+    # 0-1 BKT scale as diagnostics/junior/quizzes, dual-writing
+    # mastery_records (galaxy/dashboard) AND mastery_state (selector/
+    # reviews). The ledger's persistent token makes the apply exactly-once
+    # even if this request retries after the attempt row landed.
+    mastery_delta: dict[str, Any] = {}
+    if not _replay:
+        try:
+            from backend.services.mastery_ledger import record_assessment
+
+            _ledger = await record_assessment(
+                db,
+                user_id=str(session.student_id),
+                node_id=(_q_attr(question, "node_id", None)
+                         or _q_attr(question, "topic", "") or qid_requested),
+                is_correct=is_correct,
+                source="practice",
+                time_ms=float(time_ms or 0),
+                subject=_meta_get(session, "subject", "general"),
+                client_token=f"prac:{session.id}:{qid_requested}",
+            )
+            mastery_delta = {
+                "mastery_before": _ledger.get("live_before", 0.0),
+                "mastery_after": _ledger.get("live_after", 0.0),
+            }
+        except Exception as exc:
+            logger.warning("Mastery ledger write failed: %s", exc)
+            mastery_delta = {"error": str(exc), "mastery_before": 0.0, "mastery_after": 0.0}
+    else:
+        mastery_delta = {"replayed": True, "mastery_before": 0.0, "mastery_after": 0.0}
 
     # ── Record attempt ──
     # Skip persistence entirely when the session's student_id isn't a UUID
@@ -1024,7 +1054,7 @@ async def submit_answer(
         uuid.UUID(str(session.id))
     except (ValueError, AttributeError, TypeError):
         _sid_ok = False
-    if _sid_ok:
+    if _sid_ok and not _replay:
         try:
             attempt = Attempt(
                 session_id=session.id,
@@ -1070,44 +1100,47 @@ async def submit_answer(
             )
 
     # ── Emit analytics event to ClickHouse ──
-    try:
-        analytics = AnalyticsService()
-        analytics.emit_question_answered(
-            user_id=str(session.student_id),
-            question_id=qid_requested,
-            node_id=_q_attr(question, "node_id", None)
-                    or _q_attr(question, "topic", ""),
-            subject=_meta_get(session, "subject", "general"),
-            class_level=0,
-            is_correct=is_correct,
-            marks_awarded=float(marks),
-            max_marks=_q_attr(question, "marks", 1) or 1,
-            time_spent_seconds=req.time_ms // 1000,
-            question_type=_q_attr(question, "question_type", "text"),
-            mastery_before=mastery_delta.get("mastery_before", 0.0) if isinstance(mastery_delta, dict) else 0.0,
-            mastery_after=mastery_delta.get("mastery_after", 0.0) if isinstance(mastery_delta, dict) else 0.0,
-        )
-    except Exception as exc:
-        logger.debug("Analytics emission failed: %s", exc)
+    # (skipped on replay — a retried submit must not double-count)
+    if not _replay:
+        try:
+            analytics = AnalyticsService()
+            analytics.emit_question_answered(
+                user_id=str(session.student_id),
+                question_id=qid_requested,
+                node_id=_q_attr(question, "node_id", None)
+                        or _q_attr(question, "topic", ""),
+                subject=_meta_get(session, "subject", "general"),
+                class_level=0,
+                is_correct=is_correct,
+                marks_awarded=float(marks),
+                max_marks=_q_attr(question, "marks", 1) or 1,
+                time_spent_seconds=req.time_ms // 1000,
+                question_type=_q_attr(question, "question_type", "text"),
+                mastery_before=mastery_delta.get("mastery_before", 0.0) if isinstance(mastery_delta, dict) else 0.0,
+                mastery_after=mastery_delta.get("mastery_after", 0.0) if isinstance(mastery_delta, dict) else 0.0,
+            )
+        except Exception as exc:
+            logger.debug("Analytics emission failed: %s", exc)
 
     # ── Emit to intelligence bus — drives remediation + concept gaps ──
-    try:
-        from backend.services.intelligence_bus import (
-            emit_student_answer, emit_hint,
-        )
-        emit_student_answer(
-            problem_type_id=_q_attr(question, "topic", "") or qid_requested,
-            correct=is_correct,
-            student_id=str(session.student_id),
-        )
-        for _ in range(req.hints_used or 0):
-            emit_hint(
+    if not _replay:
+        try:
+            from backend.services.intelligence_bus import (
+                emit_student_answer, emit_hint,
+            )
+            emit_student_answer(
                 problem_type_id=_q_attr(question, "topic", "") or qid_requested,
-                rung=1,
+                correct=is_correct,
                 student_id=str(session.student_id),
             )
-    except Exception as exc:
-        logger.debug("Intelligence bus emission failed: %s", exc)
+            for _ in range(req.hints_used or 0):
+                emit_hint(
+                    problem_type_id=_q_attr(question, "topic", "") or qid_requested,
+                    rung=1,
+                    student_id=str(session.student_id),
+                )
+        except Exception as exc:
+            logger.debug("Intelligence bus emission failed: %s", exc)
 
     # ── Update session counters (stored in session_meta) ──
     answered = _meta_inc(session, "answered_count")
@@ -2142,3 +2175,131 @@ async def _compute_reviews(
         key=lambda r: ({"overdue": 0, "due_soon": 1, "fresh": 2}[r.urgency], -r.mastery_level)
     )
     return reviews[:limit]
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# Offline recovery — /api/sync/answer reconciliation
+# ════════════════════════════════════════════════════════════════════════════
+# The practice page queues answers made offline (offlineCache syncQueue) and
+# flushes them to POST /api/sync/answer on reconnect. That endpoint used to
+# merely LOG the payload — offline practice never reached the attempts table
+# or the mastery record. apply_offline_answer() is the real reconciliation:
+# server-side re-grade + exactly-once mastery apply + attempt persistence.
+
+
+async def apply_offline_answer(payload: dict, user_id: str) -> dict:
+    """Reconcile one offline-practiced answer (one-record rule, offline path).
+
+    Payload (sent by the web client's offlineCache queue):
+      {sessionId, questionId, selectedIndex, isCorrect(local belief), timestamp}
+
+    The server — not the client — decides correctness: the question is
+    re-graded here with the same evaluator the live path uses, the verdict
+    goes through mastery_ledger (source="practice_offline") with a
+    deterministic token derived from the payload, so a queue flushed twice
+    (retry, reconnect storm, two tabs) applies exactly once.
+    """
+    from fastapi import HTTPException as _HTTPException
+
+    session_id = str(payload.get("sessionId") or "").strip()
+    question_id = str(payload.get("questionId") or "").strip()
+    timestamp = payload.get("timestamp")
+    if not session_id or not question_id:
+        return {"ok": False, "reason": "missing session/question id"}
+
+    # Deterministic replay token — identical payload = identical token.
+    from backend.services.mastery_ledger import event_token
+
+    client_token = event_token(
+        "offline", user_id, session_id, question_id,
+        payload.get("selectedIndex"), timestamp,
+    )
+
+    from database import async_session_maker
+
+    try:
+        async with async_session_maker() as db:
+            session = await _get_session_any(session_id, db)
+            _enforce_session_owner(session, caller_sub=user_id)
+
+            question = await _get_question(question_id, db, session)
+            if question is None:
+                return {"ok": False, "reason": f"question '{question_id}' not found"}
+
+            # The queued client answer is an option INDEX — map it back to
+            # the answer text the grader expects.
+            opts = _q_attr(question, "options", None) or []
+            idx = payload.get("selectedIndex")
+            if isinstance(idx, int) and 0 <= idx < len(opts):
+                answer_text = str(opts[idx])
+            else:
+                answer_text = str(payload.get("answerText") or "")
+
+            is_correct = await _evaluate_answer(question, answer_text) if answer_text else False
+
+            from backend.services.mastery_ledger import record_assessment
+
+            ledger = await record_assessment(
+                db,
+                user_id=str(session.student_id),
+                node_id=(_q_attr(question, "node_id", None)
+                         or _q_attr(question, "topic", "") or question_id),
+                is_correct=is_correct,
+                source="practice_offline",
+                time_ms=0.0,
+                subject=_meta_get(session, "subject", "general"),
+                client_token=client_token,
+            )
+            if ledger.get("duplicate"):
+                await db.commit()
+                return {"ok": True, "duplicate": True,
+                        "is_correct": is_correct}
+
+            # Persist the attempt (skip when one already exists — the live
+            # path may have landed it before the queue flushed).
+            sid_ok = True
+            try:
+                uuid.UUID(str(session.student_id))
+                uuid.UUID(str(session.id))
+            except (ValueError, AttributeError, TypeError):
+                sid_ok = False
+            if sid_ok:
+                existing = (
+                    await db.execute(
+                        select(Attempt).where(
+                            Attempt.session_id == session.id,
+                            Attempt.question_seed == question_id,
+                        ).limit(1)
+                    )
+                ).scalar_one_or_none()
+                if existing is None:
+                    db.add(Attempt(
+                        session_id=session.id,
+                        question_seed=question_id,
+                        student_id=session.student_id,
+                        answer={"value": answer_text, "question_id": question_id,
+                                "offline": True},
+                        correct=is_correct,
+                        marks_awarded=1 if is_correct else 0,
+                        time_ms=0,
+                        created_at=datetime.now(timezone.utc),
+                    ))
+                    try:
+                        from backend.services.progress_service import ProgressService
+                        await ProgressService.award_xp(
+                            db, str(session.student_id), 10 if is_correct else 2)
+                    except Exception as exc:  # XP is best-effort on replayed work
+                        logger.debug("offline XP award skipped: %s", exc)
+            await db.commit()
+            return {
+                "ok": True,
+                "duplicate": False,
+                "is_correct": is_correct,
+                "mastery": ledger.get("mastery"),
+                "live_after": ledger.get("live_after"),
+            }
+    except _HTTPException as exc:
+        return {"ok": False, "reason": str(exc.detail)}
+    except Exception as exc:
+        logger.warning("offline answer reconciliation failed: %s", exc)
+        return {"ok": False, "reason": str(exc)}

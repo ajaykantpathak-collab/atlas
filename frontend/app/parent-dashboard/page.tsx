@@ -18,6 +18,47 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useAuthStore } from '@/stores/authStore';
 import WeeklyDigest from '@/components/engagement/WeeklyDigest';
+import {
+  BookOpen, Ear, Trophy, MoonStar, Clock,
+} from 'lucide-react';
+
+interface TonightPractice {
+  kind: 'review' | 'ready_to_learn' | 'repair_first';
+  title: string;
+  reason: string;
+  due_date?: string;
+  overdue_days?: number;
+}
+
+interface TonightMisconception {
+  title: string;
+  listen_for: string | null;
+  seen_at?: string;
+}
+
+interface TonightWin {
+  kind: 'mastered_topic' | 'streak';
+  title: string;
+  detail: string;
+}
+
+interface TonightChild {
+  student_id: string;
+  name: string;
+  has_data: boolean;
+  message?: string;
+  practice: TonightPractice | null;
+  misconception: TonightMisconception | null;
+  win: TonightWin | null;
+  expected_minutes: number;
+}
+
+interface TonightDigest {
+  date: string;
+  has_data: boolean;
+  message?: string;
+  children: TonightChild[];
+}
 
 interface RecentAttempt {
   title: string;
@@ -99,6 +140,7 @@ export default function ParentDashboardPage() {
   const [topics, setTopics] = useState<TopicMastery[]>([]);
   const [insights, setInsights] = useState<Insight[]>([]);
   const [alerts, setAlerts] = useState<Alert[]>([]);
+  const [tonight, setTonight] = useState<TonightDigest | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -125,6 +167,11 @@ export default function ParentDashboardPage() {
       setChildren(pd.children ?? []);
       setInsights(pd.insights ?? []);
       setAlerts(pd.alerts ?? []);
+      // "Tonight" digest — computed server-side per linked child; a section
+      // with no recorded data is absent, never fabricated.
+      getJson<TonightDigest>('/api/guidance/parent/tonight', headers)
+        .then((t) => { if (!cancelled) setTonight(t); })
+        .catch(() => { if (!cancelled) setTonight(null); });
       const first = (pd.children ?? [])[0] ?? null;
       setChild(first);
       if (first) {
@@ -156,6 +203,10 @@ export default function ParentDashboardPage() {
   const sortedTopics = useMemo(
     () => [...topics].sort((a, b) => a.mastery_score - b.mastery_score),
     [topics],
+  );
+  const tonightChild = useMemo(
+    () => tonight?.children?.find((c) => c.student_id === child?.student_id) ?? null,
+    [tonight, child?.student_id],
   );
   const weakTopics = sortedTopics.filter((t) => t.mastery_score < 70).slice(0, 5);
   const strongTopics = [...sortedTopics].reverse().filter((t) => t.mastery_score >= 70).slice(0, 5);
@@ -266,6 +317,10 @@ export default function ParentDashboardPage() {
               : 'No activity recorded yet'}
           </p>
         </div>
+
+        {/* Tonight — the one 10-minute plan for this child (server-computed;
+            every line is a real recorded fact, honest when there is none) */}
+        <TonightCard child={tonightChild} />
 
         {/* Weekly digest — real last-7-day summary (questions, accuracy,
             XP, strongest/weakest topic) from recorded practice */}
@@ -458,6 +513,104 @@ function Header({ name }: { name?: string | null }) {
       <p className="text-slate-400">
         {name ? `Signed in as ${name} · ` : ''}Follow your child&apos;s learning progress
       </p>
+    </div>
+  );
+}
+
+/**
+ * TonightCard — "what to help with tonight": one topic to practise together,
+ * one misconception to listen for (the corpus's authored wrong-answer
+ * phrasing), one specific win to celebrate. Golden-black brand, one screen,
+ * no charts. Every line is computed server-side from real records; when a
+ * section has no recorded data it says so — nothing is invented.
+ */
+function TonightCard({ child }: { child: TonightChild | null }) {
+  if (!child) return null;
+
+  return (
+    <div className="rounded-2xl border border-gold-500/30 bg-gradient-to-br from-gold-500/10 via-slate-900/40 to-transparent p-6 mb-8">
+      <div className="flex items-start justify-between gap-3 mb-4">
+        <div className="flex items-center gap-2">
+          <MoonStar className="w-5 h-5 text-gold-400" />
+          <h2 className="text-lg font-bold text-gold-300">
+            Tonight with {child.name.split(' ')[0]}
+          </h2>
+        </div>
+        {child.has_data && (
+          <span className="inline-flex items-center gap-1 rounded-full bg-gold-500/15 border border-gold-500/30 px-3 py-1 text-xs font-semibold text-gold-200 whitespace-nowrap">
+            <Clock className="w-3.5 h-3.5" /> ~{child.expected_minutes} min
+          </span>
+        )}
+      </div>
+
+      {!child.has_data ? (
+        <p className="text-slate-400 text-sm">
+          {child.message ||
+            'Not enough recorded learning data yet — the tonight plan appears after the first practice sessions.'}
+        </p>
+      ) : (
+        <div className="space-y-4">
+          {child.practice ? (
+            <div className="flex items-start gap-3">
+              <span className="mt-0.5 rounded-lg bg-gold-500/15 border border-gold-500/30 p-2">
+                <BookOpen className="w-4 h-4 text-gold-300" />
+              </span>
+              <div className="min-w-0">
+                <p className="text-sm font-bold text-slate-100">
+                  Practise together: {child.practice.title}
+                </p>
+                <p className="text-xs text-slate-400 mt-0.5">
+                  {child.practice.reason}
+                  {typeof child.practice.overdue_days === 'number' && child.practice.overdue_days > 0
+                    ? ` (was due ${child.practice.due_date})`
+                    : ''}
+                  {' · ask them to explain their answer out loud'}
+                </p>
+              </div>
+            </div>
+          ) : null}
+
+          {child.misconception ? (
+            <div className="flex items-start gap-3">
+              <span className="mt-0.5 rounded-lg bg-gold-500/15 border border-gold-500/30 p-2">
+                <Ear className="w-4 h-4 text-gold-300" />
+              </span>
+              <div className="min-w-0">
+                <p className="text-sm font-bold text-slate-100">
+                  Listen for: {child.misconception.title}
+                </p>
+                <p className="text-xs text-slate-400 mt-0.5">
+                  {child.misconception.listen_for ||
+                    'Their latest recorded mistake was in this topic — ask them to walk you through one problem from it.'}
+                </p>
+              </div>
+            </div>
+          ) : (
+            <div className="flex items-start gap-3">
+              <span className="mt-0.5 rounded-lg bg-slate-800 border border-slate-700 p-2">
+                <Ear className="w-4 h-4 text-slate-500" />
+              </span>
+              <p className="text-xs text-slate-500 mt-1">
+                No misconception recorded yet — nothing specific to listen for tonight.
+              </p>
+            </div>
+          )}
+
+          {child.win ? (
+            <div className="flex items-start gap-3">
+              <span className="mt-0.5 rounded-lg bg-gold-500/15 border border-gold-500/30 p-2">
+                <Trophy className="w-4 h-4 text-gold-300" />
+              </span>
+              <div className="min-w-0">
+                <p className="text-sm font-bold text-slate-100">
+                  Celebrate: {child.win.title}
+                </p>
+                <p className="text-xs text-slate-400 mt-0.5">{child.win.detail}</p>
+              </div>
+            </div>
+          ) : null}
+        </div>
+      )}
     </div>
   );
 }

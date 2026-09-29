@@ -757,6 +757,12 @@ def _llm_canonicalize(text: str, concept: Dict) -> Optional[Dict[str, float]]:
     are accepted only if they are required vars or share an alias class
     with exactly one required var.  Returns None on any failure so the
     caller falls back honestly."""
+    # Explicit opt-in: the default truth-core path is deterministic-only.
+    # Legacy tutor deployments can set SOLVER_LLM_MODE=fallback when they
+    # intentionally want this parser assist.
+    from backend.its.solver.policy import llm_mode, llm_used_is_allowed
+    if not llm_used_is_allowed(mode=llm_mode(), purpose="parse"):
+        return None
     if _LLM_BUDGET.get() <= 0:
         return None
     try:
@@ -970,32 +976,6 @@ def model_competency(text: str) -> ModelResult:
             exec_res = _exec2(alt, alt_slots, text)
         except Exception:
             exec_res = None
-        if exec_res is not None and getattr(exec_res, "ok", False):
-            value = exec_res.value
-            steps = list(getattr(exec_res, "steps", []) or [])
-            steps.append(f"ANSWER: {value:.6g}")
-            return ModelResult(
-                structure=f"COMPETENCY:{alt.get('id')}",
-                matched=True, confidence=0.85,
-                quantities={**alt_slots, "result": float(value)},
-                governing_equation=alt.get("formula", ""),
-                final_answer=f"{value:.6g}",
-                numeric_answer=float(value),
-                steps=steps,
-                note=(f"competency:{alt.get('id')} "
-                      f"({alt.get('title')}) via catalog steps "
-                      f"[slots llm-canonicalized, alt-route]"))
-            if alt.get("id") == cid:
-                continue
-            alt_slots = _llm_canonicalize(text, alt)
-            if not alt_slots:
-                continue
-            try:
-                from backend.its.solver.catalog_executor import (
-                    execute_concept as _exec2)
-                exec_res = _exec2(alt, alt_slots, text)
-            except Exception:
-                exec_res = None
             if exec_res is not None and getattr(exec_res, "ok", False):
                 value = exec_res.value
                 steps = list(getattr(exec_res, "steps", []) or [])

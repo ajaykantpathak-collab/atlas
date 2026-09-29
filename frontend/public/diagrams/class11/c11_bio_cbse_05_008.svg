@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 520" font-family="Helvetica,Arial,sans-serif">
+<rect width="940" height="520" fill="#ffffff"/>
+<text x="470" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#233">Seed structure: dicotyledon vs monocotyledon</text>
+<!-- DICOT (left) -->
+<text x="250" y="72" text-anchor="middle" font-size="18" font-weight="bold" fill="#233">Dicot seed (e.g. gram, pea)</text>
+<ellipse cx="250" cy="300" rx="150" ry="180" fill="#e8c48f" stroke="#9c6b2f" stroke-width="4"/>
+<ellipse cx="250" cy="300" rx="128" ry="158" fill="#f6e3bf" stroke="#9c6b2f" stroke-width="2"/>
+<!-- two cotyledons -->
+<path d="M250 150 C 175 190, 160 300, 205 430 C 235 445, 250 430, 250 300 Z" fill="#d9eeb0" stroke="#6f9b3d" stroke-width="2.5"/>
+<path d="M250 150 C 325 190, 340 300, 295 430 C 265 445, 250 430, 250 300 Z" fill="#cfe69c" stroke="#6f9b3d" stroke-width="2.5"/>
+<!-- embryo axis -->
+<ellipse cx="250" cy="255" rx="16" ry="24" fill="#f2a9bc" stroke="#b04a68" stroke-width="2"/>
+<path d="M250 280 L 250 350" stroke="#b04a68" stroke-width="7" stroke-linecap="round"/>
+<path d="M250 350 C 250 392, 232 410, 216 418" stroke="#b04a68" stroke-width="7" fill="none" stroke-linecap="round"/>
+<g font-size="15" fill="#233">
+<line x1="250" y1="240" x2="330" y2="140" stroke="#555"/><text x="80" y="128" text-anchor="start">Embryo: plumule</text>
+<text x="80" y="148" text-anchor="start">(embryonic shoot)</text>
+<line x1="252" y1="330" x2="330" y2="300" stroke="#555"/><text x="60" y="296" text-anchor="start">Embryonal axis</text>
+<line x1="222" y1="410" x2="330" y2="430" stroke="#555"/><text x="60" y="426" text-anchor="start">Radicle (embryonic root)</text>
+<line x1="196" y1="300" x2="150" y2="344" stroke="#555"/><text x="24" y="352" text-anchor="start">Cotyledons (two,</text>
+<text x="24" y="372" text-anchor="start">fleshy, store food)</text>
+<line x1="116" y1="234" x2="100" y2="224" stroke="#555"/><text x="24" y="216" text-anchor="start">Seed coat</text>
+<text x="24" y="236" text-anchor="start">(testa + tegmen)</text>
+</g>
+<!-- MONOCOT (right) -->
+<text x="700" y="72" text-anchor="middle" font-size="18" font-weight="bold" fill="#233">Monocot seed (e.g. maize)</text>
+<ellipse cx="700" cy="330" rx="130" ry="165" fill="#e8c48f" stroke="#9c6b2f" stroke-width="4"/>
+<ellipse cx="700" cy="330" rx="108" ry="145" fill="#f7ecc8" stroke="#9c6b2f" stroke-width="2"/>
+<rect x="640" y="150" width="120" height="20" rx="8" fill="#e9d089" stroke="#9c6b2f" stroke-width="2"/>
+<ellipse cx="748" cy="290" rx="36" ry="84" fill="#d9eeb0" stroke="#6f9b3d" stroke-width="2.5"/>
+<ellipse cx="668" cy="300" rx="21" ry="36" fill="#f2a9bc" stroke="#b04a68" stroke-width="2"/>
+<path d="M668 340 C 672 378, 684 402, 698 412" stroke="#b04a68" stroke-width="6" fill="none" stroke-linecap="round"/>
+<rect x="652" y="250" width="30" height="13" rx="6" fill="#b8d5f0" stroke="#46749f" stroke-width="2"/>
+<g font-size="15" fill="#233">
+<line x1="700" y1="160" x2="640" y2="118" stroke="#555"/><text x="470" y="112" text-anchor="start">Aleurone layer</text>
+<line x1="742" y1="268" x2="810" y2="180" stroke="#555"/><text x="816" y="176" text-anchor="start">Scutellum</text>
+<text x="816" y="196" text-anchor="start">(single cotyledon)</text>
+<line x1="668" y1="262" x2="600" y2="210" stroke="#555"/><text x="470" y="204" text-anchor="start">Plumule in coleoptile</text>
+<line x1="652" y1="304" x2="600" y2="300" stroke="#555"/><text x="470" y="296" text-anchor="start">Embryo axis</text>
+<line x1="692" y1="404" x2="640" y2="420" stroke="#555"/><text x="470" y="418" text-anchor="start">Radicle in coleorhiza</text>
+<line x1="748" y1="352" x2="812" y2="352" stroke="#555"/><text x="818" y="348" text-anchor="start">Endosperm (bulk,</text>
+<text x="818" y="368" text-anchor="start">stores food)</text>
+<line x1="600" y1="250" x2="580" y2="150" stroke="#555"/><text x="470" y="144" text-anchor="start">Fused seed coat</text>
+<text x="470" y="164" text-anchor="start">+ fruit wall</text>
+</g>
+<text x="470" y="502" text-anchor="middle" font-size="13" fill="#667">Original diagram created from node curriculum content (CC0), Atlas wave-T 2026-09-29</text>
+</svg>

@@ -171,6 +171,43 @@ async def sync_action(
 ) -> dict:
     payload = await _json_body(request)
     sid = _student_id(user)
+
+    # ── Offline recovery: practice answers are RECONCILED, not just logged ──
+    # The practice page queues every answer made offline and flushes it here
+    # on reconnect. This used to only append a JSONL log line — offline
+    # practice never reached the attempts table or the mastery record.
+    # apply_offline_answer re-grades server-side and applies mastery through
+    # the one ledger exactly once (persistent dedup token from the payload),
+    # so a retried flush can never double-count.
+    if action_type == "answer":
+        # Status-code contract with the client's processSyncQueue(): it only
+        # deletes a queued item on 2xx, retries on 5xx (max 5), and drops on
+        # 4xx. So: unrecoverable = 4xx (item dropped, honestly), transient =
+        # 5xx (item kept for the next flush), success/duplicate = 200.
+        if user is None or sid == "guest":
+            # No/expired token — the item must survive until the student is
+            # logged in again, so this is a RETRY, not a drop.
+            from fastapi import HTTPException as _HX
+            from fastapi import status as _status
+            raise _HX(_status.HTTP_503_SERVICE_UNAVAILABLE,
+                      detail="login required to sync offline answers")
+        from backend.api.practice import apply_offline_answer
+
+        outcome = await apply_offline_answer(payload, user_id=sid)
+        if outcome.get("ok"):
+            return {"ok": True, "action_type": action_type,
+                    "applied": not outcome.get("duplicate", False),
+                    "duplicate": outcome.get("duplicate", False),
+                    "is_correct": outcome.get("is_correct")}
+        reason = str(outcome.get("reason") or "sync-failed")
+        if "not found" in reason:
+            # session/question genuinely gone — no retry will ever fix it
+            from fastapi import HTTPException as _HX
+            from fastapi import status as _status
+            raise _HX(_status.HTTP_404_NOT_FOUND, detail=reason)
+        from fastapi import HTTPException as _HX
+        raise _HX(503, detail=reason)  # transient — keep the item queued
+
     routed = False
     # Best-effort: route into the tutoring interaction capture (replayable
     # by the ITS stack), mirroring the sync sink it replaces.

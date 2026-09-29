@@ -20,6 +20,7 @@ from backend.models.assessment import (
     QuizQuestion,
 )
 from backend.services.progress_service import ProgressService
+from backend.services.mastery_ledger import record_assessment
 
 
 class AssessmentService:
@@ -65,9 +66,24 @@ class AssessmentService:
         is_correct = user_answer.lower() == question.correct_answer.strip().lower()
         marks_awarded = float(question.marks) if is_correct else 0.0
 
-        # Update mastery via BKT
-        updated_mastery = await ProgressService.update_mastery_bkt(
-            db, user_id, question.node_id, is_correct
+        # Update mastery through the shared ledger (ONE RECORD RULE):
+        # source="quiz" dual-writes mastery_records (galaxy/dashboard) AND
+        # mastery_state (practice selector/reviews) with identical BKT
+        # semantics — the old bare ORM-only write here left the live store
+        # behind. Quiz submits are user-initiated POSTs, so no dedup token
+        # (one call = one observation, same as before).
+        _ledger_out = await record_assessment(
+            db,
+            user_id=str(user_id),
+            node_id=str(question.node_id or ""),
+            is_correct=is_correct,
+            source="quiz",
+            time_ms=float(data.get("time_taken_seconds") or 0) * 1000.0,
+        )
+        updated_mastery = (
+            float(_ledger_out["mastery"])
+            if isinstance(_ledger_out, dict) and _ledger_out.get("mastery") is not None
+            else 0.0
         )
 
         # Award XP
@@ -256,11 +272,18 @@ class AssessmentService:
                         }
                     )
 
-                # Update mastery for the node if available
+                # Update mastery for the node through the shared ledger
+                # (ONE RECORD RULE): source="exam" keeps both mastery stores
+                # in lockstep; exam submissions are one user-initiated POST,
+                # so no dedup token (one call = one observation).
                 node_id = qdata.get("node_id")
                 if node_id:
-                    await ProgressService.update_mastery_bkt(
-                        db, user_id, node_id, is_correct
+                    await record_assessment(
+                        db,
+                        user_id=str(user_id),
+                        node_id=str(node_id),
+                        is_correct=is_correct,
+                        source="exam",
                     )
             else:
                 submission.is_correct = False

@@ -8,6 +8,7 @@ from backend.routers.graph import router as graph_router
 from backend.routers.solver import router as solver_router
 from backend.routers.sandbox import router as sandbox_router
 from backend.routers.learning_upgrades import router as learning_upgrades_router
+from backend.routers.guidance import router as guidance_router
 from backend.routers.paper_generator import router as paper_generator_router
 from backend.api.verified_practice import router as verified_practice_router
 from backend.api.competency_tutor import router as competency_tutor_router
@@ -32,6 +33,7 @@ from backend.api.preboard import router as preboard_router
 
 __all__ = [
     "auth_router",
+    "guidance_router",
     "content_router",
     "assessment_router",
     "tutor_router",

@@ -54,6 +54,7 @@ from backend.routers import (
     solver_router,
     sandbox_router,
     learning_upgrades_router,
+    guidance_router,
     paper_generator_router,
     verified_practice_router,
     competency_tutor_router,
@@ -309,6 +310,7 @@ app.include_router(graph_router)
 app.include_router(solver_router)
 app.include_router(sandbox_router)
 app.include_router(learning_upgrades_router)
+app.include_router(guidance_router)
 app.include_router(paper_generator_router)
 app.include_router(verified_practice_router)
 app.include_router(competency_tutor_router)

@@ -34,7 +34,7 @@ def test_verified_answer_is_preserved_and_marked_verified():
     original = service.answer
     service.answer = lambda question: fake
     try:
-        result = service.solve_deterministically("Solve for x: 2x + 8 = 16")
+        result = service.solve_deterministically("novel question")
     finally:
         service.answer = original
 

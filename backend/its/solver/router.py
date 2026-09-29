@@ -146,8 +146,12 @@ def solve_text(text: str) -> SolverRouteResult:
     # for 'Solve 3x^2 - 5x - 2 = 0' after the kernel solved it).
     if (not result.solved and _budget_ok("modeling")):
         try:
-            from backend.its.solver.modeling_layer import model_problem
-            m = model_problem(text)
+            # independent second-path verification at this boundary too:
+            # a FAILed check downgrades the family result (matched=False)
+            # so stage 1 never promotes it -- fail-closed.
+            from backend.its.solver.independent_verifier import \
+                verified_model_problem
+            m = verified_model_problem(text)
             stages.append({"stage": "modeling", "matched": m.matched,
                            "confidence": m.confidence, "note": m.note})
             if m.matched and m.confidence >= 0.6:
