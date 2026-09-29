@@ -279,7 +279,8 @@ export default function DoodleCard({ data }: { data: DoodleCardData }) {
             <span className="dc-chip-dot" />
             Class {data.classLevel} · {data.subject}
           </span>
-          <span className="dc-node-id">{data.node_id}</span>
+          {/* node id intentionally NOT rendered — internal-only per platform rule;
+              it lives in data-node-id for fetch/provenance use */}
         </footer>
       </div>
       <SpiralDoodle className="dc-corner-spiral" />

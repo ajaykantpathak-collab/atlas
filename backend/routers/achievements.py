@@ -7,8 +7,10 @@ and retrieving achievement statistics.
 from typing import Optional
 
 from fastapi import APIRouter, Depends, HTTPException, Query, status
+from fastapi.responses import RedirectResponse
 from pydantic import BaseModel, ConfigDict
 from pydantic.alias_generators import to_camel
+from sqlalchemy.exc import StatementError
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from backend.database import get_db
@@ -43,12 +45,15 @@ class AchievementStatsResponse(BaseModel):
 # --------------------------------------------------------------------------- #
 # Endpoints
 # --------------------------------------------------------------------------- #
-# Both "" and "/" are registered: Next's dev rewrite normalizes the trailing
-# slash before proxying, so browser calls arrive as /api/achievements (no
-# slash). Without the "" route FastAPI's redirect_slashes answers with an
-# absolute Location (http://localhost:8001/...) and the browser's cross-origin
-# follow-up fails CORS preflight — the badge wall silently emptied on :3000.
-@router.get("/", response_model=AchievementListResponse)
+# One canonical handler serves GET /api/achievements (no slash). The trailing
+# slash form is NOT a duplicate registration: Next's dev rewrite normalizes
+# the slash before proxying, so browser calls arrive slash-less, while legacy
+# links/bookmarks still hit the slash form. Redirecting it ourselves (307,
+# RELATIVE Location) keeps both forms working without FastAPI's built-in
+# redirect_slashes answer, whose absolute Location
+# (http://localhost:8001/api/achievements) made the browser's follow-up a
+# cross-origin request that failed CORS preflight — the badge wall silently
+# emptied on :3000.
 @router.get("", response_model=AchievementListResponse)
 async def get_achievements(
     filter: Optional[str] = Query(
@@ -99,6 +104,16 @@ async def get_achievements(
     )
 
 
+@router.get("/", include_in_schema=False)
+async def get_achievements_trailing_slash() -> RedirectResponse:
+    """307 the legacy trailing-slash form onto the canonical slash-less route.
+
+    Relative Location keeps the browser's follow-up same-origin (through
+    nginx / the Next dev proxy), unlike redirect_slashes' absolute one.
+    """
+    return RedirectResponse("/api/achievements", status_code=307)
+
+
 @router.get("/stats", response_model=AchievementStatsResponse)
 async def get_achievement_stats(
     user: User = Depends(get_current_user),
@@ -127,6 +142,14 @@ async def get_achievement(
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail=str(exc),
+        )
+    except StatementError:
+        # A non-UUID achievement_id reaches the UUID primary-key probe inside
+        # the service; SQLAlchemy wraps the ValueError in StatementError,
+        # which used to escape as a 500. Same 404 contract as ValueError.
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Achievement '{achievement_id}' not found",
         )
 
     if isinstance(achievement, AchievementSchema):

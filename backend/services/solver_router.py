@@ -37,6 +37,50 @@ class SolverRouter:
         """Route the problem to the best solver (sync)."""
         return self._solve_internal(problem_text, sync=True, **kwargs)
 
+    def _solve_internal(self, problem_text: str, *, sync: bool = True,
+                        **kwargs) -> PipelineResult:
+        """Run the synchronous deterministic cascade.
+
+        ``solve()`` previously called this method without it existing, which
+        made the last facade backend fail closed with ``AttributeError``.
+        Keep this path strictly deterministic; the async path owns the
+        optional, explicitly configured LLM fallback.
+        """
+        calc_result = self._try_core_calculus(problem_text)
+        if calc_result and calc_result.problem.solved \
+                and calc_result.problem.confidence >= self.legacy_confidence_threshold:
+            calc_result.pipeline_stages.insert(0, "core_calculus_engine")
+            return calc_result
+
+        units_result = self._try_stem_units(problem_text)
+        if units_result and units_result.problem.solved:
+            units_result.pipeline_stages.insert(0, "stem_units_solver")
+            return units_result
+
+        new_result = self._run_pipeline(problem_text, sync=sync, **kwargs)
+        if new_result and new_result.problem.solved:
+            return new_result
+
+        legacy_result = self._try_legacy(problem_text)
+        if legacy_result and legacy_result.problem.solved:
+            legacy_result.pipeline_stages.insert(0, "legacy_fallback")
+            return legacy_result
+
+        # Return the richest deterministic refusal, preserving its stages and
+        # diagnostics for the audit trail. Never invent an answer here.
+        if new_result is not None:
+            return new_result
+        return PipelineResult(
+            problem=STEMProblem(
+                raw_text=problem_text,
+                final_answer="",
+                solved=False,
+                confidence=0.0,
+                backend_used="deterministic_router",
+            ),
+            pipeline_stages=["deterministic_router:refused"],
+        )
+
     async def solve_async(self, problem_text: str, **kwargs) -> PipelineResult:
         """Route the problem to the best solver (async — uses main event loop for enrichment).
 
@@ -70,11 +114,14 @@ class SolverRouter:
             legacy_result.pipeline_stages.insert(0, "legacy_fallback")
             return legacy_result
 
-        # ── Step 4: Try LLM fallback (local model, strict guardrails) ──
-        llm_result = await self._try_llm_fallback(problem_text, new_result)
-        if llm_result and llm_result.problem.solved:
-            llm_result.pipeline_stages.insert(0, "llm_fallback")
-            return llm_result
+        # ── Step 4: Optional LLM fallback, explicitly opt-in ──────────
+        # Deterministic mode is the production default for the truth core.
+        from backend.its.solver.policy import llm_allowed_for_fallback
+        if llm_allowed_for_fallback():
+            llm_result = await self._try_llm_fallback(problem_text, new_result)
+            if llm_result and llm_result.problem.solved:
+                llm_result.pipeline_stages.insert(0, "llm_fallback")
+                return llm_result
 
         # ── Step 5: Return best effort ──
         if legacy_result and legacy_result.problem.solved:

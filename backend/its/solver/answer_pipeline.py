@@ -417,8 +417,15 @@ def _official_key_lookup(text: str) -> Optional[Dict]:
     global _KEY_CONN
     try:
         if _KEY_CONN is None:
-            _KEY_CONN = sqlite3.connect(
-                r"D:\platform\cbse_data\question_bank.db", check_same_thread=False)
+            data_dir = os.environ.get("CBSE_DATA_DIR")
+            if not data_dir:
+                data_dir = os.path.join(
+                    os.path.dirname(__file__), "..", "..", "..", "cbse_data"
+                )
+            bank_path = os.path.join(os.path.normpath(data_dir), "question_bank.db")
+            if not os.path.exists(bank_path):
+                return None
+            _KEY_CONN = sqlite3.connect(bank_path, check_same_thread=False)
         fp = canonical_hash(text)
         sig = "|".join(numeric_signature(text))
         rows = _KEY_CONN.execute(

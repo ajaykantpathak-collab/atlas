@@ -11,6 +11,8 @@ from typing import Any, Literal
 from fastapi import APIRouter, Depends, HTTPException, Path, Query, status
 from pydantic import BaseModel, Field, field_validator, model_validator
 
+from backend.deps import require_self_or_staff
+
 # ---------------------------------------------------------------------------
 # Enums
 # ---------------------------------------------------------------------------
@@ -228,15 +230,42 @@ class AccessibilitySummaryResponse(BaseModel):
 
 
 # ---------------------------------------------------------------------------
-# Database dependency  (injected from existing app factory)
+# Database dependency  (platform async session — backend.database)
 # ---------------------------------------------------------------------------
+
+_TABLES_READY = False
+_TABLES_LOCK = None  # created lazily (asyncio.Lock binds to no loop until awaited)
+
 
 async def get_db_session():
     """
-    Yield an async SQLAlchemy session.
-    Provided by the platform's existing database.py / app.py.
+    Yield an async SQLAlchemy session from the platform engine.
+
+    BUGFIX (pillar-6): this used to import ``services.database`` /
+    ``services.models`` — modules that do not exist in this codebase — so
+    every DB-backed call on these endpoints raised ModuleNotFoundError and
+    the route 500'd. The real session maker and model are used now.
     """
-    from services.database import async_session_maker
+    global _TABLES_READY, _TABLES_LOCK
+    from backend.database import async_session_maker, Base
+    from backend.models.accessibility import AccessibilityPreferencesModel
+
+    if not _TABLES_READY:
+        if _TABLES_LOCK is None:
+            _TABLES_LOCK = __import__("asyncio").Lock()
+        async with _TABLES_LOCK:
+            if not _TABLES_READY:
+                from backend.database import engine
+
+                async with engine.begin() as conn:
+                    await conn.run_sync(
+                        lambda sync_conn: Base.metadata.create_all(
+                            sync_conn,
+                            tables=[AccessibilityPreferencesModel.__table__],
+                        )
+                    )
+                _TABLES_READY = True
+
     async with async_session_maker() as session:
         yield session
 
@@ -618,7 +647,7 @@ APPLICATION_DEADLINE_GUIDANCE = (
 async def get_student_preferences(db_session, student_id: str) -> AccessibilityPreferences:
     """Fetch the persisted preferences for a student from the database."""
     from sqlalchemy import select
-    from services.models import AccessibilityPreferencesModel
+    from backend.models.accessibility import AccessibilityPreferencesModel
 
     result = await db_session.execute(
         select(AccessibilityPreferencesModel).where(
@@ -650,8 +679,11 @@ async def get_student_preferences(db_session, student_id: str) -> AccessibilityP
         break_time_allowed=row.break_time_allowed,
         large_print_required=row.large_print_required,
         preferred_language=row.preferred_language,
-        created_at=row.created_at,
-        updated_at=row.updated_at,
+        # NOTE: the accessibility_preferences table has no created_at /
+        # updated_at columns (see model) — read them defensively so a row
+        # read never AttributeErrors.
+        created_at=getattr(row, "created_at", None),
+        updated_at=getattr(row, "updated_at", None),
     )
 
 
@@ -660,7 +692,7 @@ async def upsert_student_preferences(
 ) -> AccessibilityPreferences:
     """Create or update preferences for a student (upsert)."""
     from sqlalchemy import select, update, insert
-    from services.models import AccessibilityPreferencesModel
+    from backend.models.accessibility import AccessibilityPreferencesModel
 
     result = await db_session.execute(
         select(AccessibilityPreferencesModel).where(
@@ -675,8 +707,9 @@ async def upsert_student_preferences(
         # Build defaults
         defaults: dict[str, Any] = {
             "student_id": student_id,
-            "created_at": now,
-            "updated_at": now,
+            # NOTE: no created_at/updated_at here — the table has no such
+            # columns (the old values made INSERT raise CompileError
+            # "Unconsumed column names" and every PUT returned 500).
             "font_size": FontSize.MEDIUM.value,
             "color_theme": ColorTheme.DEFAULT.value,
             "screen_reader_enabled": False,
@@ -725,7 +758,7 @@ async def upsert_student_preferences(
             break_time_allowed=insert_values["break_time_allowed"],
             large_print_required=insert_values["large_print_required"],
             preferred_language=insert_values["preferred_language"],
-            created_at=insert_values["created_at"],
+            created_at=now,
             updated_at=now,
         )
 
@@ -754,11 +787,12 @@ async def upsert_student_preferences(
             break_time_allowed=row.break_time_allowed,
             large_print_required=row.large_print_required,
             preferred_language=row.preferred_language,
-            created_at=row.created_at,
-            updated_at=row.updated_at,
+            created_at=getattr(row, "created_at", None),
+            updated_at=getattr(row, "updated_at", None),
         )
 
-    patch["updated_at"] = now
+    # NOTE: no updated_at in the patch — the column does not exist on the
+    # table (it used to make the UPDATE raise and the PUT return 500).
     stmt = (
         update(AccessibilityPreferencesModel)
         .where(AccessibilityPreferencesModel.student_id == student_id)
@@ -1029,21 +1063,26 @@ router = APIRouter(prefix="/api/accessibility", tags=["Accessibility"])
 async def get_accessibility(
     student_id: str,
     db_session=Depends(get_db_session),
+    scoped_student_id: str = Depends(require_self_or_staff),
 ) -> AccessibilityPreferences:
-    """GET /api/accessibility/{student_id}"""
+    """GET /api/accessibility/{student_id}
+
+    B16-pattern guard: only the student themselves or staff may read a
+    preference set (was fully anonymous — IDOR)."""
+    student_id = scoped_student_id
     try:
         return await get_student_preferences(db_session, student_id)
     except LookupError:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
-            detail=f"No accessibility preferences found for student '{student_id}'. "
+            detail="No accessibility preferences found for this student. "
                    "Please configure preferences via PUT first.",
         )
-    except Exception as exc:
+    except Exception:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Failed to retrieve preferences: {exc}",
-        ) from exc
+            detail="Failed to retrieve preferences",
+        )
 
 
 @router.put(
@@ -1065,8 +1104,13 @@ async def update_accessibility(
     student_id: str,
     payload: AccessibilityPreferencesUpdate,
     db_session=Depends(get_db_session),
+    scoped_student_id: str = Depends(require_self_or_staff),
 ) -> AccessibilityPreferences:
-    """PUT /api/accessibility/{student_id}"""
+    """PUT /api/accessibility/{student_id}
+
+    Same ownership guard as GET: self or staff only (was anonymous —
+    an unauthenticated write to any student's record)."""
+    student_id = scoped_student_id
     try:
         prefs = await upsert_student_preferences(db_session, student_id, payload)
         return prefs
@@ -1075,11 +1119,11 @@ async def update_accessibility(
             status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
             detail=str(exc),
         ) from exc
-    except Exception as exc:
+    except Exception:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Failed to update preferences: {exc}",
-        ) from exc
+            detail="Failed to update preferences",
+        )
 
 
 @router.post(
@@ -1103,11 +1147,11 @@ async def adapt_content_endpoint(
     """POST /api/accessibility/adapt"""
     try:
         return adapt_content(request)
-    except Exception as exc:
+    except Exception:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Content adaptation failed: {exc}",
-        ) from exc
+            detail="Content adaptation failed",
+        )
 
 
 @router.get(

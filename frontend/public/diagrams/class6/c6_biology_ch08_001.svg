@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="870" height="650">
+  <g stroke="black" stroke-width="1">
+    <path d="M 373.16932,127.00456 A 289.13043,289.13043 0 0 1 637.95733,359.28951 L 354.34784,415.52173 z" transform="matrix(1.003008,0,0,1.003008,-25.36483,-101.8202)" fill="purple"/>
+    <path d="M 356.94446,126.40296 A 289.13043,289.13043 0 0 1 373.6922,127.03914 L 354.34784,415.52173 z" transform="matrix(1.003008,0,0,1.003008,-25.36495,-101.8203)" fill="#656565"/>
+    <path d="M 617.02024,378.74275 A 286.95651,286.95651 0 1 1 334.57962,149.22031 L 335.86957,436.17392 z" transform="matrix(1.000151,0,0,1.000151,-23.37174,-98.7883)" fill="#FF6F00"/>
+    <path d="M 355.32927,126.39296 A 289.13043,289.13043 0 0 1 356.9534,126.40304 L 354.34784,415.52173 z" transform="matrix(1.003008,0,0,1.003008,-25.36483,-101.8202)" fill="teal"/>
+    <path d="M 354.11628,126.39139 A 289.13043,289.13043 0 0 1 355.32181,126.39294 L 354.34784,415.52173 z" transform="matrix(1.003008,0,0,1.003008,-25.36483,-101.8202)" fill="navy"/>
+    <rect width="169" height="223" x="675.5" y="205.5" fill="white"/>
+    <rect width="24" height="25" x="684.5" y="216.5" fill="#FF6F00"/>
+    <rect width="24" height="25" x="684.5" y="253.5" fill="purple"/>
+    <rect width="24" height="25" x="684.5" y="291.5" fill="#656565"/>
+    <rect width="24" height="25" x="684.5" y="328.5" fill="teal"/>
+    <rect width="24" height="25" x="684.5" y="394.5" fill="navy"/>
+  </g>
+  <g font-family="Arial" font-size="26">
+    <switch><text x="720" y="238" id="trsvg7-ast" systemLanguage="ast"><tspan id="trsvg1-ast">Nitróxenu</tspan></text><text x="720" y="238" id="trsvg7-my" systemLanguage="my"><tspan id="trsvg1-my">နိုက်ထရိုဂျင်</tspan></text><text x="720" y="238" id="trsvg7"><tspan id="trsvg1">Nitrogen</tspan></text></switch>
+    <switch><text x="720" y="275" id="trsvg8-ast" systemLanguage="ast"><tspan id="trsvg2-ast">Oxíxenu</tspan></text><text x="720" y="275" id="trsvg8-my" systemLanguage="my"><tspan id="trsvg2-my">အောက်ဆီဂျင်</tspan></text><text x="720" y="275" id="trsvg8"><tspan id="trsvg2">Oxygen</tspan></text></switch>
+    <switch><text x="720" y="312" id="trsvg9-ast" systemLanguage="ast"><tspan id="trsvg3-ast">Argón</tspan></text><text x="720" y="312" id="trsvg9-my" systemLanguage="my"><tspan id="trsvg3-my">အာဂွန်</tspan></text><text x="720" y="312" id="trsvg9"><tspan id="trsvg3">Argon</tspan></text></switch>
+    <switch><text x="720" y="349" id="trsvg10-ast" systemLanguage="ast"><tspan id="trsvg4-ast">Dióxidu de</tspan><tspan x="720" y="378" id="trsvg5-ast">carbonu</tspan></text><text x="720" y="349" id="trsvg10-my" systemLanguage="my"><tspan id="trsvg4-my">ကာဗွန်</tspan><tspan x="720" y="378" id="trsvg5-my">ဒိုင်အောက်ဆိုဒ်</tspan></text><text x="720" y="349" id="trsvg10"><tspan id="trsvg4">Carbon</tspan><tspan x="720" y="378" id="trsvg5">dioxide</tspan></text></switch>
+    <switch><text x="720" y="415" id="trsvg11-ast" systemLanguage="ast"><tspan id="trsvg6-ast">Otros gases</tspan></text><text x="720" y="415" id="trsvg11-my" systemLanguage="my"><tspan id="trsvg6-my">အခြားဓါတ်ငွေ့</tspan></text><text x="720" y="415" id="trsvg11"><tspan id="trsvg6">Other gases</tspan></text></switch>
+  </g>
+</svg>
+<!-- Translated to English by SVGTranslate 1.05 -->

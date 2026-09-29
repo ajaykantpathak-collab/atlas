@@ -12,7 +12,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from backend.config import get_settings
 from backend.database.neo4j import close_neo4j
 from backend.database.redis import close_redis
-from backend.observability import init_sentry, install_rate_limit, setup_logging
+from backend.observability import (
+    init_sentry,
+    install_heavy_rate_limit,
+    install_rate_limit,
+    setup_logging,
+)
 
 # Console logs are structured from the very first line (LOG_FORMAT=json).
 setup_logging()
@@ -72,6 +77,7 @@ from backend.routers import (
     preboard_router,
 )
 from backend.api.assignments import router as assignments_router
+from backend.api.vision import router as vision_router
 
 settings = get_settings()
 
@@ -242,25 +248,59 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+# Rate limiters are registered BEFORE CORS. Starlette's add_middleware
+# inserts at index 0, so the LAST-added middleware is the OUTERMOST —
+# registering CORS last puts it outside the limiters, and a 429 from either
+# limiter then passes OUTWARD through CORS on its way to the client and
+# carries the CORS headers a browser needs to read the response body.
+# (Registered the other way round, 429s silently lost those headers.)
+install_rate_limit(app)
+
+# Strict per-IP per-minute buckets for the three UNAUTHENTICATED CPU-bound
+# endpoints (paper-generator/generate, sandbox/solve, tutor/ask). Guests keep
+# full access; only abusive burst rates get a 429 + Retry-After. Added after
+# the global limiter so it sits OUTSIDE it: a heavy 429 short-circuits before
+# the flood counter is even consulted.
+install_heavy_rate_limit(app)
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.cors_origins_list,
-    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    allow_credentials=True,
 )
-
-# Per-client rate limit (ATLAS_10x10_PLAN.md §3 item 2). Registered after CORS
-# so it runs OUTSIDE it: a 429 from the limiter then still carries the CORS
-# headers the browser needs to read the response body.
-install_rate_limit(app)
 
 # Optional error reporting; no-op unless SENTRY_DSN is set.
 init_sentry(app)
 
+# A client-supplied id that reaches a UUID-typed column (e.g. a malformed
+# achievement/session id) makes SQLAlchemy raise StatementError. Without this
+# handler every such request was a 500 + full traceback in the logs instead of
+# a client error. 400 (malformed request), never 404 — we didn't look it up.
+# Only StatementError is mapped: connection/transaction failures must stay 500.
+from sqlalchemy.exc import StatementError
+
+
+@app.exception_handler(StatementError)
+async def _db_statement_error_handler(request, exc: StatementError):
+    import logging
+
+    logging.getLogger(__name__).warning(
+        "DB bind error on %s %s: %s", request.method, request.url.path,
+        str(getattr(exc, "orig", exc))[:200],
+    )
+    from fastapi.responses import JSONResponse
+
+    return JSONResponse(
+        status_code=400,
+        content={"detail": "Invalid identifier format"},
+    )
+
 # Include all API routers
 app.include_router(auth_router)
 app.include_router(content_router)
+app.include_router(vision_router)
 app.include_router(assessment_router)
 app.include_router(tutor_router)
 app.include_router(progress_router)

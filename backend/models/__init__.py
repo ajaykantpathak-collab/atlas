@@ -24,6 +24,7 @@ from backend.models.progress import (
 from backend.models.achievement import Achievement, UserAchievement, StreakRecord
 from backend.models.solver_template import SolverTemplate
 from backend.models.telemetry import AttemptLog
+from backend.models.accessibility import AccessibilityPreferencesModel
 
 # Intelligence tables — wired to the real Base so init_db creates them
 from backend.services.intelligence_schema import (
@@ -64,6 +65,7 @@ __all__ = [
     "StreakRecord",
     "SolverTemplate",
     "AttemptLog",
+    "AccessibilityPreferencesModel",
     # Intelligence tables
     "EnrichmentNode",
     "InteractionOutcome",

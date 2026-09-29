@@ -136,6 +136,54 @@ const LanguageGym = dynamic(
     },
 )
 
+const ChemPracticalLab = dynamic(
+    () => import('@/components/sandbox/ChemPracticalLab'),
+    {
+        ssr: false,
+        loading: () => (
+            <div className="rounded-2xl border border-slate-700 bg-slate-900/60 p-10 text-center text-sm text-slate-500">
+                loading the chemistry practicals bench…
+            </div>
+        ),
+    },
+)
+
+const BusinessCaseSim = dynamic(
+    () => import('@/components/sandbox/BusinessCaseSim'),
+    {
+        ssr: false,
+        loading: () => (
+            <div className="rounded-2xl border border-slate-700 bg-slate-900/60 p-10 text-center text-sm text-slate-500">
+                loading the business studies case lab…
+            </div>
+        ),
+    },
+)
+
+const VirtualCompany = dynamic(
+    () => import('@/components/sandbox/VirtualCompany'),
+    {
+        ssr: false,
+        loading: () => (
+            <div className="rounded-2xl border border-slate-700 bg-slate-900/60 p-10 text-center text-sm text-slate-500">
+                incorporating the virtual company…
+            </div>
+        ),
+    },
+)
+
+const EntrepreneurshipLab = dynamic(
+    () => import('@/components/sandbox/EntrepreneurshipLab'),
+    {
+        ssr: false,
+        loading: () => (
+            <div className="rounded-2xl border border-slate-700 bg-slate-900/60 p-10 text-center text-sm text-slate-500">
+                loading the entrepreneurship lab…
+            </div>
+        ),
+    },
+)
+
 const LAB2D_EMOJI: Record<string, string> = {
     heart: '❤️', cell: '🔬', supply: '📈', equilibrium: '⚖️', moon: '🌕', graph: '📊',
     nephron: '🫘', mitosis: '🧫', vector: '➡️', timeline: '📜', flow: '🔄',
@@ -155,6 +203,10 @@ function SandboxInner() {
     const isGeo = lab === 'geo';
     const isHist = lab === 'histciv';
     const isLangym = lab === 'langym';
+    const isPractical = lab === 'chempractical';
+    const isBsCase = lab === 'bscase';
+    const isVirtComp = lab === 'virtualcompany';
+    const isEntrep = lab === 'entrepreneurship';
     const is3D = LABS3D.some(l => l.key === lab);
     const keys2D = Object.keys(LABS).filter(k => !LABS3D.some(l => l.key === k));
 
@@ -197,6 +249,36 @@ function SandboxInner() {
                     <span className="text-left">
                         <span className="block text-sm font-black text-amber-200">Accountancy Sandbox</span>
                         <span className="block text-[11px] text-slate-400 font-semibold">journal workbench · ledger → trial balance · 3D equation pans · depreciation SLM/WDV lab · final accounts · BRS — classes 9 to 12</span>
+                    </span>
+                </button>
+
+                {/* business studies case lab — E4: corpus-grounded management decision cases */}
+                <button onClick={() => setLab('bscase')}
+                    className={`w-full rounded-2xl p-3.5 mb-4 flex items-center gap-3 border-2 transition ${isBsCase ? 'bg-amber-500/15 border-amber-400/60 shadow-[0_0_20px_rgba(251,191,36,0.15)]' : 'bg-slate-800/60 border-slate-700 hover:border-slate-500'}`}>
+                    <span className="text-3xl">💼</span>
+                    <span className="text-left">
+                        <span className="block text-sm font-black text-amber-200">Business Studies Case Lab</span>
+                        <span className="block text-[11px] text-slate-400 font-semibold">management principles · marketing · finance decisions — classes 11-12</span>
+                    </span>
+                </button>
+
+                {/* virtual company — E7 flagship: one continuous firm, journal to ratios */}
+                <button onClick={() => setLab('virtualcompany')}
+                    className={`w-full rounded-2xl p-3.5 mb-4 flex items-center gap-3 border-2 transition ${isVirtComp ? 'bg-amber-500/15 border-amber-400/60 shadow-[0_0_20px_rgba(251,191,36,0.15)]' : 'bg-slate-800/60 border-slate-700 hover:border-slate-500'}`}>
+                    <span className="text-3xl">🏢</span>
+                    <span className="text-left">
+                        <span className="block text-sm font-black text-amber-200">Virtual Company</span>
+                        <span className="block text-[11px] text-slate-400 font-semibold">run one firm: journal → ledger → trial balance → final accounts → ratios — classes 11-12</span>
+                    </span>
+                </button>
+
+                {/* entrepreneurship — E1 parameter labs: break-even · unit economics · cash-flow · working capital */}
+                <button onClick={() => setLab('entrepreneurship')}
+                    className={`w-full rounded-2xl p-3.5 mb-4 flex items-center gap-3 border-2 transition ${isEntrep ? 'bg-gold-500/15 border-gold-400/60 shadow-[0_0_20px_rgba(251,191,36,0.15)]' : 'bg-slate-800/60 border-slate-700 hover:border-slate-500'}`}>
+                    <span className="text-3xl">🚀</span>
+                    <span className="text-left">
+                        <span className="block text-sm font-black text-gold-200">Entrepreneurship Lab</span>
+                        <span className="block text-[11px] text-slate-400 font-semibold">break-even · unit economics · cash-flow · working capital — classes 11-12</span>
                     </span>
                 </button>
 
@@ -270,6 +352,16 @@ function SandboxInner() {
                     </span>
                 </button>
 
+                {/* chemistry practicals — E3: deterministic titration · salt analysis · gas tests */}
+                <button onClick={() => setLab('chempractical')}
+                    className={`w-full rounded-2xl p-3.5 mb-4 flex items-center gap-3 border-2 transition ${isPractical ? 'bg-gold-500/15 border-gold-400/60 shadow-[0_0_20px_rgba(251,191,36,0.15)]' : 'bg-slate-800/60 border-slate-700 hover:border-slate-500'}`}>
+                    <span className="text-3xl">🧪</span>
+                    <span className="text-left">
+                        <span className="block text-sm font-black text-gold-200">Chemistry Practicals</span>
+                        <span className="block text-[11px] text-slate-400 font-semibold">titration · salt analysis · gas tests — classes 9-12</span>
+                    </span>
+                </button>
+
                 {/* flagship 3D labs */}
                 <p className="text-[10px] font-black text-gold-300 uppercase tracking-widest mb-2">⚗️ flagship 3D labs</p>
                 <div className="grid grid-cols-3 sm:grid-cols-5 gap-2 mb-6">
@@ -318,7 +410,15 @@ function SandboxInner() {
                                                     ? <HistTimeline key="histciv" />
                                                     : isLangym
                                                         ? <LanguageGym key="langym" />
-                                                        : is3D ? <Sandbox3D key={lab} labKey={lab} /> : <SandboxLab key={lab} labKey={lab} />}
+                                                        : isPractical
+                                                            ? <ChemPracticalLab key="chempractical" />
+                                                                : isBsCase
+                                                                    ? <BusinessCaseSim key="bscase" />
+                                                                    : isVirtComp
+                                                                        ? <VirtualCompany key="virtualcompany" />
+                                                                        : isEntrep
+                                                                            ? <EntrepreneurshipLab key="entrepreneurship" />
+                                                                            : is3D ? <Sandbox3D key={lab} labKey={lab} /> : <SandboxLab key={lab} labKey={lab} />}
             </div>
         </div>
     );

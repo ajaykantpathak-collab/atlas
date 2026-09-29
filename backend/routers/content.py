@@ -5,7 +5,10 @@ nodes, enrichment content (DEFINITION, TEXT_WALKTHROUGH, ELI5, etc.),
 board questions, class-level content, recommendations, and search.
 """
 
-from typing import List, Optional
+import hashlib
+import re
+import time as _time
+from typing import Dict, List, Optional
 
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -70,6 +73,133 @@ def _subject_to_schema(subject: Subject) -> dict:
         "color": subject.color or "#6366f1",
         "topics_count": None,
         "mastery_percentage": None,
+    }
+
+
+# --------------------------------------------------------------------------- #
+# Slug layer — keep internal node ids out of public URLs
+# --------------------------------------------------------------------------- #
+# The learn page serves /learn/<slug> and needs two lookups:
+#   GET /api/content/slugmap?ids=a,b,c  -> {node_id: {slug, title}}
+#   GET /api/content/resolve/{slug}     -> {node_id, slug, title}
+# Slugs are DERIVED deterministically from the enrichment title (no schema
+# change, no migration): every worker iterates the enrichment table in the
+# same node_id order and applies the same collision rule, so both workers —
+# and restarts — always build the identical bidirectional map. A title edit
+# is the only thing that can move a slug; the frontend treats any topic id
+# that is not a slug as a raw node id, so old id links keep working.
+_SLUG_NON_ALNUM = re.compile(r"[^a-z0-9]+")
+_SLUG_CACHE_TTL = 300.0  # seconds between rebuilds
+_slug_cache: Dict[str, object] = {"at": 0.0, "by_node": {}, "by_slug": {}}
+
+
+def _slugify(title: str) -> str:
+    s = _SLUG_NON_ALNUM.sub("-", (title or "").strip().lower()).strip("-")
+    return s[:80] or "topic"
+
+
+def _slug_stem(node_id: str) -> str:
+    """Stable per-node disambiguator (hash() is process-randomized, md5 is
+    not — the two workers must always agree)."""
+    return hashlib.md5(node_id.encode("utf-8")).hexdigest()[:6]
+
+
+async def _slug_maps(db: AsyncSession) -> tuple[Dict[str, dict], Dict[str, str]]:
+    """Return (node_id -> {slug,title}, slug -> node_id), rebuilt at most
+    once per TTL. DB failure degrades to an empty map (caller decides)."""
+    now = _time.monotonic()
+    if now - float(_slug_cache["at"]) < _SLUG_CACHE_TTL and _slug_cache["by_node"]:
+        return _slug_cache["by_node"], _slug_cache["by_slug"]  # type: ignore[return-value]
+
+    from sqlalchemy import select as _select
+
+    rows = (
+        await db.execute(
+            _select(
+                EnrichmentContent.node_id,
+                EnrichmentContent.title,
+                EnrichmentContent.class_level,
+                EnrichmentContent.subject,
+            ).order_by(EnrichmentContent.node_id)
+        )
+    ).all()
+
+    by_node: Dict[str, dict] = {}
+    by_slug: Dict[str, str] = {}
+    seen: Dict[str, str] = {}
+    for node_id, title, class_level, subject in rows:
+        if not node_id or not title:
+            continue
+        base = _slugify(title)
+        cand = base
+        if cand in seen:
+            # First tie-break: append class + subject ("Real Numbers" exists
+            # in several classes). Second: a stable id digest.
+            cand = _slugify(f"{base}-c{class_level}-{subject}")[:90] or base
+        if cand in seen and seen[cand] != node_id:
+            cand = _slugify(f"{base}-{_slug_stem(node_id)}")[:90] or base
+        if cand in seen and seen[cand] != node_id:
+            continue  # pathological 3-way collision — leave that node slugless
+        seen[cand] = node_id
+        by_node[node_id] = {"slug": cand, "title": title}
+        by_slug[cand] = node_id
+
+    _slug_cache["at"] = now
+    _slug_cache["by_node"] = by_node
+    _slug_cache["by_slug"] = by_slug
+    return by_node, by_slug
+
+
+@router.get("/slugmap")
+async def slug_map(
+    ids: str = Query(
+        ..., min_length=1, description="Comma-separated node ids (max 500)"
+    ),
+    db: AsyncSession = Depends(get_db),
+):
+    """Map node ids to their public slugs (learn-page related links).
+
+    Unknown ids are simply absent from the result — the caller falls back
+    to the raw id. Never leaks anything beyond slug + title."""
+    wanted = [i.strip() for i in ids.split(",") if i.strip()]
+    if not wanted:
+        raise HTTPException(
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            detail="ids must contain at least one node id",
+        )
+    if len(wanted) > 500:
+        raise HTTPException(
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            detail="too many ids (max 500)",
+        )
+    try:
+        by_node, _ = await _slug_maps(db)
+    except Exception:
+        return {}  # catalog unavailable — frontend degrades to raw ids
+    return {nid: entry for nid in wanted if (entry := by_node.get(nid))}
+
+
+@router.get("/resolve/{slug}")
+async def resolve_slug(slug: str, db: AsyncSession = Depends(get_db)):
+    """Resolve a public slug back to its internal node id (learn-page entry)."""
+    try:
+        _, by_slug = await _slug_maps(db)
+    except Exception:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="slug catalog temporarily unavailable",
+        )
+    node_id = by_slug.get(slug.strip().lower())
+    if not node_id:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"unknown slug: {slug!r}",
+        )
+    entry = _slug_cache["by_node"][node_id]  # type: ignore[index]
+    return {
+        "node_id": node_id,
+        "slug": slug.strip().lower(),
+        "title": entry.get("title"),
     }
 
 
@@ -455,7 +585,8 @@ async def get_node_enrichment(
     diagnostics = node.get("diagnostics") or []
     subj = str(node.get("subject") or "").strip().capitalize()
     chap = node.get("chapter")
-    display_title = node.get("title") or (
+    from backend.services.enhanced_nodes import _derive_title
+    display_title = node.get("title") or _derive_title(node) or (
         f"{subj} · Chapter {chap}" if subj and chap else node_id)
 
     # DB carries fields the md index doesn't (examples, on_failure,

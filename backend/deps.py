@@ -1,3 +1,5 @@
+import uuid
+
 from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -8,6 +10,26 @@ from backend.models.user import User
 from backend.security import decode_access_token
 
 security = HTTPBearer(auto_error=False)
+
+
+def canonical_user_id(value: object) -> str:
+    """Validate a client-supplied user/student id and return its canonical form.
+
+    Every ``user_id``/``student_id`` column is a GUID — a native UUID on
+    PostgreSQL.  A non-UUID string that reached a query used to blow up inside
+    ``db_types.GUID.process_bind_param`` with
+    ``ValueError: badly formed hexadecimal UUID string`` and 500 the endpoint
+    (seen live on ``/api/passport/{id}`` and ``/api/review/queue/me`` before
+    the ``/me`` routes existed).  The boundary contract is now: malformed id
+    -> 422 here, never a database-layer crash.
+    """
+    try:
+        return str(uuid.UUID(str(value)))
+    except (ValueError, AttributeError, TypeError):
+        raise HTTPException(
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            detail="user id must be a valid UUID",
+        )
 
 
 async def get_current_user(
@@ -28,6 +50,16 @@ async def get_current_user(
         )
     user_id = payload.get("sub")
     if not user_id:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid token payload",
+        )
+    # A token whose ``sub`` is not a UUID (stale/garbage client token) used to
+    # 500 on the GUID bind below; reject it as an invalid token instead.
+    # 401, not 422: a malformed subject is a credential problem.
+    try:
+        user_id = canonical_user_id(user_id)
+    except HTTPException:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid token payload",
@@ -59,6 +91,10 @@ async def get_current_user_optional(
         return None
     user_id = payload.get("sub")
     if not user_id:
+        return None
+    try:
+        user_id = canonical_user_id(user_id)
+    except HTTPException:
         return None
     result = await db.execute(select(User).where(User.id == user_id))
     return result.scalar_one_or_none()
@@ -103,10 +139,17 @@ async def require_self_or_staff(
 
     A wrong id yields 403 rather than 404: a 404 that differs from a 403
     would confirm which student ids exist, which is itself a leak.
+
+    A MALFORMED id (not a UUID) yields 422: it can never match any row, and
+    letting it through used to crash the GUID bind in db_types with
+    ``ValueError: badly formed hexadecimal UUID string`` (500).  The value is
+    also normalized to canonical form so id comparisons are exact regardless
+    of the case/brace style the client used.
     """
+    student_id = canonical_user_id(student_id)
     if is_staff(user):
         return student_id
-    if str(student_id) != str(user.id):
+    if student_id != str(user.id):
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Not authorized for this student record",

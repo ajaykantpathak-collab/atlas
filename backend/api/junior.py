@@ -226,7 +226,7 @@ async def start_lesson(
         raise HTTPException(status_code=422, detail=str(exc))
     except Exception as exc:  # engine down — fail loudly, no fabricated data
         logger.exception("junior start_lesson failed")
-        raise HTTPException(status_code=500, detail=f"Activity engine error: {exc}")
+        raise HTTPException(status_code=500, detail="Activity engine error")
 
     activities = lesson.activities
     if not activities:
@@ -284,7 +284,7 @@ async def submit_voice_answer(
         raise HTTPException(status_code=404, detail=str(exc))
     except Exception as exc:
         logger.exception("junior voice-answer failed")
-        raise HTTPException(status_code=500, detail=f"Grading error: {exc}")
+        raise HTTPException(status_code=500, detail="Grading error")
 
     vr = out.voice_response
     feedback_type = _RESULT_TO_FEEDBACK.get(out.result, "try_again")
@@ -456,7 +456,7 @@ async def generate_story(
         raise HTTPException(status_code=422, detail=str(exc))
     except Exception as exc:
         logger.exception("junior story generation failed")
-        raise HTTPException(status_code=500, detail=f"Story engine error: {exc}")
+        raise HTTPException(status_code=500, detail="Story engine error")
 
     if not problems:
         raise HTTPException(status_code=503, detail="NO_STORY_AVAILABLE")

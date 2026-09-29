@@ -67,8 +67,22 @@ def parse_file(path: Path) -> dict | None:
             r"^([A-Z][^.;:]{3,55}?)\s+(?:is|are|refers|means|can be|"
             r"denotes|consists|represents|occurs|was|were|has|have|also)",
             sections.get("DEFINITION", "").strip())
-        title = (m.group(1).title() if m
-                 else f"{subject.title()} · Ch {chapter}")
+        if m:
+            title = m.group(1).title()
+        else:
+            # Hindi/verbose definitions: leading term before an em-dash,
+            # colon or sentence break ("प्रमुख घटनाएँ — ..." → "प्रमुख घटनाएँ").
+            head = sections.get("DEFINITION", "").strip().split("\n")[0].strip()
+            title = ""
+            for sep in (" — ", " – ", ": ", "।", "."):
+                if sep in head:
+                    cand = head.split(sep, 1)[0].strip()
+                    if 3 <= len(cand) <= 60:
+                        title = cand
+                        break
+            if not title:
+                title = (head[:57].rstrip() + "…") if len(head) > 60 \
+                    else (head or f"{subject.title()} · Ch {chapter}")
 
     return {
         "node_id": path.stem,

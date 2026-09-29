@@ -240,7 +240,7 @@ async def irt_sync(user: Any = Depends(_require_staff)) -> dict:
         }
     except Exception as exc:
         logger.error("IRT sync failed: %s", exc, exc_info=True)
-        raise HTTPException(status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(exc))
+        raise HTTPException(status.HTTP_500_INTERNAL_SERVER_ERROR, detail="IRT sync failed")
 
 
 @router.get("/irt/report", response_model=dict,
@@ -252,7 +252,8 @@ async def irt_report(user: Any = Depends(_require_staff)) -> dict:
         loop = IRTFeedbackLoop()
         return loop.get_sync_report()
     except Exception as exc:
-        raise HTTPException(status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(exc))
+        logger.error("IRT report failed: %s", exc, exc_info=True)
+        raise HTTPException(status.HTTP_500_INTERNAL_SERVER_ERROR, detail="IRT report failed")
 
 
 

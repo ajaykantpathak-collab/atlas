@@ -22,6 +22,7 @@ Pillar-6 contract fixes:
     foreign user_id (inline body check, same pattern as
     api.intelligence.record_confidence).
 """
+import uuid
 from typing import List, Optional
 
 from fastapi import APIRouter, Depends, HTTPException
@@ -130,7 +131,10 @@ async def review_upcoming(
 
 
 class GradeBody(BaseModel):
-    user_id: str
+    # UUID-typed on purpose: apply_grade() seeds a ReviewItem row under this
+    # id, so a malformed user_id must be rejected at validation time (422),
+    # not crash the GUID bind (500) or reach an INSERT.
+    user_id: uuid.UUID
     node_id: str
     quality: int  # 0-5 SM-2 grade
 

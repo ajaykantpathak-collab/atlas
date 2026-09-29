@@ -12,6 +12,15 @@ Endpoints (all GET, read-only, no DB):
     /api/nodes/stats                       corpus + load statistics
 
 Deterministic: parsing/indexing is regex + filesystem only.
+
+Pillar-6 runtime fix: every handler here used to be ``async def`` calling
+the index (and, when cold, the FULL ~14k-file corpus parse) synchronously —
+pure-Python work running directly on the event loop. One cold search froze
+the whole gunicorn worker (even /health) for minutes, exhausting gunicorn's
+600s worker timeout (WORKER TIMEOUT + SIGKILL, 2026-09-29 incident). All
+index calls are now offloaded to the thread pool via ``run_in_threadpool``,
+so a slow index build/search degrades that one request instead of the
+worker. (backend.services.enhanced_nodes itself stays untouched.)
 """
 from __future__ import annotations
 
@@ -19,6 +28,7 @@ import logging
 from typing import Optional
 
 from fastapi import APIRouter, HTTPException, Query
+from fastapi.concurrency import run_in_threadpool
 
 from backend.services.enhanced_nodes import (
     EnhancedNodesIndex,
@@ -80,7 +90,7 @@ def _node_sim_index() -> dict:
 @router.get("/{node_id}/sims")
 async def sims_for_node(node_id: str):
     """Sims whose nodeIds include this node (learn-page launcher)."""
-    return _node_sim_index().get(node_id, [])
+    return await run_in_threadpool(_node_sim_index().get, node_id, [])
 
 
 @router.get("/node")
@@ -93,7 +103,7 @@ async def get_node(node_id: str = Query(..., min_length=1,
     resolve too -- they carry parent_node_id + seed questions instead
     of the teaching sections."""
     idx = get_index()
-    node = idx.get(node_id)
+    node = await run_in_threadpool(idx.get, node_id)
     if node is None:
         raise HTTPException(404, f"unknown node_id: {node_id!r}")
     from backend.services.enhanced_nodes import _derive_title
@@ -109,7 +119,7 @@ async def by_class_subject(
 ):
     """List teaching nodes for one class + subject (summaries)."""
     idx = get_index()
-    all_nodes = idx.by_class_subject(cls, subject)
+    all_nodes = await run_in_threadpool(idx.by_class_subject, cls, subject)
     if not all_nodes:
         raise HTTPException(
             404, f"no teaching nodes for class={cls} subject={subject!r}")
@@ -134,7 +144,8 @@ async def graph(
     """Nodes + prereq links for the knowledge-graph explorer."""
     idx = get_index()
     effective_cls = cls if cls is not None else class_level
-    return idx.graph(cls=effective_cls, subject=subject, limit=limit)
+    return await run_in_threadpool(
+        idx.graph, cls=effective_cls, subject=subject, limit=limit)
 
 
 @router.get("/search")
@@ -147,7 +158,8 @@ async def search(
     """Scored full-text search over node ids, definitions and
     teaching bodies (walkthrough / mastery / diagnostics)."""
     idx = get_index()
-    results = idx.search(q, limit=limit, cls=cls, subject=subject)
+    results = await run_in_threadpool(
+        idx.search, q, limit=limit, cls=cls, subject=subject)
     return {
         "q": q,
         "count": len(results),
@@ -164,12 +176,16 @@ async def stats():
     the teaching count is never inflated.
     """
     idx = get_index()
-    return {
-        "nodes": idx.node_count(),
-        "companions": idx.companion_count(),
-        "classes": idx.classes(),
-        "subjects": idx.subjects(),
-        "per_class": idx.per_class_counts(),
-        "per_class_subject": idx.per_class_subject_counts(),
-        "load_stats": idx.stats,
-    }
+
+    def _collect() -> dict:
+        return {
+            "nodes": idx.node_count(),
+            "companions": idx.companion_count(),
+            "classes": idx.classes(),
+            "subjects": idx.subjects(),
+            "per_class": idx.per_class_counts(),
+            "per_class_subject": idx.per_class_subject_counts(),
+            "load_stats": idx.stats,
+        }
+
+    return await run_in_threadpool(_collect)

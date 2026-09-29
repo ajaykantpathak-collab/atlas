@@ -268,7 +268,7 @@ async def quick_question(payload: QuickQuestionRequest):
         return QuickQuestionResponse(**result)
     except Exception as exc:
         logger.exception(f"Quick question error: {exc}")
-        raise HTTPException(status_code=500, detail=str(exc))
+        raise HTTPException(status_code=500, detail="Quick question failed")
 
 
 # ── ITS session reply (with deterministic orchestrator intelligence) ─────────

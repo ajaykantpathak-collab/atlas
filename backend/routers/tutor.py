@@ -180,7 +180,7 @@ async def reply_to_session(
         logging.getLogger(__name__).error(f"Tutor error: {exc}", exc_info=True)
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Internal error: {str(exc)[:200]}",
+            detail="Internal error",
         )
 
     if isinstance(result, dict):

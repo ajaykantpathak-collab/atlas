@@ -9,6 +9,8 @@ import logging
 import os
 from typing import Any, Optional
 
+from fastapi.concurrency import run_in_threadpool
+
 logger = logging.getLogger(__name__)
 
 try:
@@ -34,22 +36,40 @@ class GraphService:
         self._driver = None
 
     async def check_connection(self) -> bool:
-        """Check if Neo4j is reachable and return node count."""
+        """Check if Neo4j is reachable and return node count.
+
+        Result is cached for 60s: this used to run a full ``count(n)`` over
+        the ~15k-node graph on EVERY node read (get_node calls it first),
+        on the event loop. Both problems fixed: the query is offloaded to a
+        worker thread and repeated calls hit the short-lived cache."""
         if not HAS_NEO4J:
             return False
+        import time as _time
+
+        now = _time.monotonic()
+        cached = getattr(self, "_conn_cache", None)
+        if cached and now - cached[0] < 60.0:
+            return cached[1]
         try:
             if self._driver is None:
                 self._driver = GraphDatabase.driver(
                     self._uri, auth=(self._user, self._password)
                 )
-            with self._driver.session() as session:
-                result = session.run("MATCH (n) RETURN count(n) as count")
-                record = result.single()
-                count = record["count"] if record else 0
-                logger.info("Neo4j connected: %d nodes", count)
-                return count > 0
+
+            def _probe() -> bool:
+                with self._driver.session() as session:
+                    result = session.run("MATCH (n) RETURN count(n) as count")
+                    record = result.single()
+                    count = record["count"] if record else 0
+                    logger.info("Neo4j connected: %d nodes", count)
+                    return count > 0
+
+            ok = await run_in_threadpool(_probe)
+            self._conn_cache = (now, ok)
+            return ok
         except Exception as e:
             logger.error("Neo4j connection failed: %s", e)
+            self._conn_cache = (now, False)
             return False
 
     async def get_graph(self, subject: str, class_level: Any) -> dict[str, Any]:
@@ -588,21 +608,31 @@ class GraphService:
 
     @staticmethod
     async def _run_cypher(cypher: str, **params) -> list[dict[str, Any]]:
-        """Run a read-only cypher query on the singleton; [] on any failure."""
+        """Run a read-only cypher query on the singleton; [] on any failure.
+
+        The neo4j driver here is the SYNC one; session.run used to execute
+        directly on the event loop, so deep traversals (PREREQUISITE_OF*1..20)
+        froze the whole worker for their duration (observed: /api/graph/unlocks
+        multi-second freezes). The blocking block is offloaded to a worker
+        thread."""
         svc = get_graph_service()
-        try:
+
+        def _query() -> list[dict[str, Any]]:
             if not HAS_NEO4J:
                 return []
-            if svc._driver is None:
-                svc._driver = GraphDatabase.driver(
-                    svc._uri, auth=(svc._user, svc._password)
-                )
-            with svc._driver.session() as session:
-                result = session.run(cypher, **params)
-                return [dict(record) for record in result]
-        except Exception as e:
-            logger.warning("graph query failed: %s", e)
-            return []
+            try:
+                if svc._driver is None:
+                    svc._driver = GraphDatabase.driver(
+                        svc._uri, auth=(svc._user, svc._password)
+                    )
+                with svc._driver.session() as session:
+                    result = session.run(cypher, **params)
+                    return [dict(record) for record in result]
+            except Exception as e:
+                logger.warning("graph query failed: %s", e)
+                return []
+
+        return await run_in_threadpool(_query)
 
     @staticmethod
     async def get_nodes_by_class(
@@ -676,15 +706,56 @@ class GraphService:
 
     @staticmethod
     async def get_all_unlocks(node_id: str, max_depth: int = 10) -> list[dict[str, Any]]:
-        cypher = """
-            MATCH (n:Node {node_id: $node_id})<-[:PREREQUISITE_OF*1..%d]-(unlock:Node)
-            RETURN DISTINCT unlock.node_id as node_id, unlock.node_id as name,
-                   unlock.subject as subject
-            LIMIT 100
-        """ % max(1, min(int(max_depth), 20))
-        rows = await GraphService._run_cypher(cypher, node_id=node_id)
-        if rows:
-            return rows
+        """Recursive forward unlocks — level-by-level BFS.
+
+        The previous single variable-length expansion
+        (``<-[:PREREQUISITE_OF*1..N]-``) is exponential on popular roots:
+        Neo4j must enumerate every path before DISTINCT collapses the
+        multiplicity, so deep roots on the 150k-edge graph ran minutes and
+        hung the endpoint (60s+ client timeouts, 2026-09-29). BFS expands
+        one hop per query — every query is an index seek on the unique
+        ``node_id`` index — and caps both the frontier and the result.
+        Returns depth-ordered rows shaped exactly like the old query:
+        ``{node_id, name, subject}``.
+        """
+        depth = max(1, min(int(max_depth), 20))
+        MAX_NODES = 1000  # hard result cap (old query LIMIT 100)
+        LEVEL_CAP = 400   # max ids per UNWIND batch
+        try:
+            frontier: list[str] = [node_id]
+            seen: set[str] = {node_id}
+            out: list[dict[str, Any]] = []
+            while frontier and len(out) < MAX_NODES and depth > 0:
+                depth -= 1
+                rows = await GraphService._run_cypher(
+                    """
+                    UNWIND $ids AS id
+                    MATCH (n:Node {node_id: id})<-[:PREREQUISITE_OF]-(m:Node)
+                    WHERE m.node_id IS NOT NULL AND NOT m.node_id IN $seen
+                    RETURN DISTINCT m.node_id AS node_id, m.subject AS subject
+                    LIMIT $cap
+                    """,
+                    ids=frontier[:LEVEL_CAP],
+                    seen=sorted(seen),
+                    cap=MAX_NODES - len(out),
+                )
+                nxt: list[str] = []
+                for r in rows:
+                    nid = r.get("node_id")
+                    if not nid or nid in seen:
+                        continue
+                    seen.add(nid)
+                    out.append({
+                        "node_id": nid,
+                        "name": nid,
+                        "subject": r.get("subject"),
+                    })
+                    nxt.append(nid)
+                frontier = nxt
+            if out:
+                return out
+        except Exception as e:
+            logger.warning("graph unlocks BFS failed: %s", e)
         try:
             return await _sqlite_fb.get_all_unlocks(node_id, max_depth)
         except Exception as e:

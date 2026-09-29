@@ -671,7 +671,8 @@ class ContentService:
             "accountancy": ["acc"], "acc": ["acc"],
             "business_studies": ["bs"], "bs": ["bs"],
             "civics": ["civ", "civics"], "civ": ["civ", "civics"],
-            "hindi": ["hin_ar", "hin_a", "hin_v", "hin_al", "hindi"],
+            "hindi": ["hin", "hin_ar", "hin_a", "hin_v", "hin_al",
+                      "hin_ga", "hin_kr", "hin_ks", "hin_sp", "hindi"],
             "science": ["bio", "phy", "chem", "sci", "science"],
             # PLUMB (C7 audit [STUDENT-C7][P1 LEARN-NAV]): the /learn Grammar
             # tab queries subject=grammar, but the corpus codes are "gram"

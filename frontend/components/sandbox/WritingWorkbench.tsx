@@ -18,14 +18,16 @@
  * Wrong drafts surface the node's authored misconception through
  * remediation.ts → MisconceptionPanel (closed-world, honest degradation).
  *
- * Central wiring into app/(student)/sandbox/page.tsx happens post-hoc
- * via the exported WRITING_WORKBENCH_TAB config.
+ * Wired as the Language Gym's "Writing workbench" tab (en + hi): when the
+ * gym shell passes `subject`, the internal language toggle hides and the
+ * task list follows the gym's subject picker (the FormatTab contract); the
+ * shared langym progress key still tracks completed drafts.
  */
 import { useEffect, useMemo, useState } from 'react'
 import { PenLine, Check } from 'lucide-react'
 import MisconceptionPanel from '@/components/learn/MisconceptionPanel'
 import { fetchEnrichment, type EnrichmentData } from '@/components/learn/remediation'
-import { FORMAT_SPECS, type FormatSpec } from './langGymTopics'
+import { FORMAT_SPECS, type FormatSpec, type LangSubject } from './langGymTopics'
 
 const PROGRESS_KEY = 'langym_explored_v1'
 
@@ -164,9 +166,15 @@ function budgetCheck(spec: FormatSpec, draft: string): { label: string; hit: boo
   return null
 }
 
-export default function WritingWorkbench() {
-  const [lang, setLang] = useState<'en' | 'hi'>('en')
+export default function WritingWorkbench({ subject, onPractise }: {
+  /** Inside LanguageGym the gym shell owns the subject picker (FormatTab contract). */
+  subject?: LangSubject
+  /** Fired when a draft satisfies the full authored mark scheme. */
+  onPractise?: (key: string) => void
+} = {}) {
+  const [langState, setLangState] = useState<'en' | 'hi'>(subject ?? 'en')
   const [taskId, setTaskId] = useState('w_notice')
+  const lang = subject ?? langState
   const [draft, setDraft] = useState('')
   const [checked, setChecked] = useState(false)
   const [enrichment, setEnrichment] = useState<EnrichmentData | null>(null)
@@ -193,6 +201,9 @@ export default function WritingWorkbench() {
 
   useEffect(() => { setDraft(''); setChecked(false); setEnrichment(null) }, [taskId])
 
+  // keep the selected task on the active subject (gym-controlled or standalone)
+  useEffect(() => { setTaskId(lang === 'hi' ? 'w_notice_hi' : 'w_notice') }, [lang])
+
   const fieldHits = useMemo(
     () => spec.fields.map(f => ({ spec: f, hit: f.patterns.some(re => re.test(draft)) })),
     [spec, draft])
@@ -210,8 +221,10 @@ export default function WritingWorkbench() {
 
   const runCheck = async () => {
     setChecked(true)
-    if (allGood) markPractised(task.id)
-    else if (spec.nodeId) {
+    if (allGood) {
+      markPractised(task.id)
+      onPractise?.(task.id)
+    } else if (spec.nodeId) {
       try { setEnrichment(await fetchEnrichment(spec.nodeId)) } catch { setEnrichment(null) }
     }
   }
@@ -232,14 +245,16 @@ export default function WritingWorkbench() {
             completed {practised.size ? [...practised].filter(k => k.startsWith('w_')).length : 0}/{TASKS.length} tasks
           </span>
         </div>
-        <div className="flex gap-1.5 flex-wrap mb-1.5">
-          {(['en', 'hi'] as const).map(s => (
-            <button key={s} onClick={() => { setLang(s); setTaskId(s === 'en' ? 'w_notice' : 'w_notice_hi') }}
-              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${s === lang ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
-              {s === 'en' ? 'English' : 'हिंदी'}
-            </button>
-          ))}
-        </div>
+        {!subject && (
+          <div className="flex gap-1.5 flex-wrap mb-1.5">
+            {(['en', 'hi'] as const).map(s => (
+              <button key={s} onClick={() => { setLangState(s); setTaskId(s === 'en' ? 'w_notice' : 'w_notice_hi') }}
+                className={`px-3 py-1 rounded-full text-xs font-bold border transition ${s === lang ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
+                {s === 'en' ? 'English' : 'हिंदी'}
+              </button>
+            ))}
+          </div>
+        )}
         <div className="flex gap-1.5 flex-wrap">
           {tasks.map(x => (
             <button key={x.id} onClick={() => setTaskId(x.id)}

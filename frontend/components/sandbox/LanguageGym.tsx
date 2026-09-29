@@ -16,7 +16,8 @@
  *   panel renders nothing (honest degradation).
  *
  * Tabs: grammar drill trainer · sentence-assembly workbench · ICSE format
- * checkers (notice/e-mail/letter/पत्र/नोटिस) · literature RCT trainer ·
+ * checkers (notice/e-mail/letter/पत्र/नोटिस) · writing workbench (guided
+ * composition against the authored mark scheme) · literature RCT trainer ·
  * vocabulary builders. Class bands mirror the corpus: 6-10 for both
  * subjects (11-12 language nodes do not exist in cisce_nodes_v2 yet).
  *
@@ -26,10 +27,11 @@
  */
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import {
-  SpellCheck, Blocks, ClipboardCheck, BookOpen, Lightbulb, Play,
+  SpellCheck, Blocks, ClipboardCheck, BookOpen, Lightbulb, Play, PenLine,
 } from 'lucide-react'
 import MisconceptionPanel from '@/components/learn/MisconceptionPanel'
 import PoemLab from '@/components/sandbox/PoemLab'
+import WritingWorkbench from '@/components/sandbox/WritingWorkbench'
 import {
   fetchEnrichment, fetchNodeRemediation,
   type EnrichmentData, type DiagnosticQuestion,
@@ -84,13 +86,14 @@ function Panel({ diag }: { diag: Diagnosis | null }) {
 
 // ----------------------------------------------------------- main shell --
 
-type Tab = 'drills' | 'assemble' | 'formats' | 'rct' | 'vocab' | 'poemlab'
+type Tab = 'drills' | 'assemble' | 'formats' | 'writing' | 'rct' | 'vocab' | 'poemlab'
 
 const TAB_META: Record<LangSubject, Record<Tab, { label: string; icon: any }>> = {
   en: {
     drills: { label: 'Grammar trainer', icon: SpellCheck },
     assemble: { label: 'Sentence assembly', icon: Blocks },
     formats: { label: 'Format checkers', icon: ClipboardCheck },
+    writing: { label: 'Writing workbench', icon: PenLine },
     rct: { label: 'Literature RCT', icon: BookOpen },
     vocab: { label: 'Word builders', icon: Lightbulb },
     poemlab: { label: 'Literature Lab', icon: Play },
@@ -99,6 +102,7 @@ const TAB_META: Record<LangSubject, Record<Tab, { label: string; icon: any }>> =
     drills: { label: 'व्याकरण अभ्यास', icon: SpellCheck },
     assemble: { label: 'वाक्य-संरचना', icon: Blocks },
     formats: { label: 'प्रारूप-जाँच', icon: ClipboardCheck },
+    writing: { label: 'लेखन कार्यशाला', icon: PenLine },
     rct: { label: 'साहित्य (पंक्ति-बोध)', icon: BookOpen },
     vocab: { label: 'शब्द-भंडार', icon: Lightbulb },
     poemlab: { label: 'छंद लैब', icon: Play },
@@ -227,6 +231,7 @@ export default function LanguageGym() {
         {tab === 'drills' && <DrillsTab topic={topic} onPractise={markExplored} />}
         {tab === 'assemble' && <AssemblyTab topic={topic} onPractise={markExplored} />}
         {tab === 'formats' && <FormatTab subject={subject} onPractise={markExplored} />}
+        {tab === 'writing' && <WritingWorkbench subject={subject} onPractise={markExplored} />}
         {tab === 'rct' && <RctTab topic={topic} onPractise={markExplored} />}
         {tab === 'vocab' && <VocabTab topic={topic} onPractise={markExplored} />}
         {tab === 'poemlab' && <PoemLab subject={subject} />}

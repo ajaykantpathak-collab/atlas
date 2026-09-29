@@ -905,16 +905,15 @@ async def start_session(
     for pq in planned:
         d = _format_question(pq).model_dump()
         d["id"] = d.get("question_id", "")
-        # web client expects options + correct_option index for MCQs.
+        # The client renders choices but never grades them: the answer key
+        # stays server-side (session_meta["questions"]) and /submit returns
+        # the verdict — no correct_option leaves this endpoint.
         # GUARD: only real string lists qualify — some generator adapters
-        # emit options as a dict, and dict.index 500s the whole start.
+        # emit options as a dict, which would break the client mapping.
         pq_opts = _q_attr(pq, "options", None)
         if isinstance(pq_opts, list) and pq_opts and \
                 all(isinstance(o, str) for o in pq_opts):
             d["options"] = pq_opts
-            ca = str(_q_attr(pq, "correct_answer", "") or "")
-            d["correct_option"] = (
-                pq_opts.index(ca) if ca in pq_opts else 0)
         planned_dicts.append(d)
     return {
         "id": str(session_id),

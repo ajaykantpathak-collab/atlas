@@ -22,7 +22,7 @@ from pydantic import BaseModel, Field
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, func, desc
 
-from backend.deps import get_current_user_optional  # noqa: E402
+from backend.deps import canonical_user_id, get_current_user_optional  # noqa: E402
 from backend.services.honesty_metrics import (
     rounded_minutes,
     weighted_overall_mastery,
@@ -786,6 +786,10 @@ def _require_self_or_staff(user, target_id: str, target_role: str):
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Authentication required",
         )
+    # Malformed target ids can never match a row; letting them through used to
+    # 500 on the GUID bind (ValueError: badly formed hexadecimal UUID string)
+    # once a staff/parent token passed the role checks below. Reject as 422.
+    target_id = canonical_user_id(target_id)
     if str(getattr(user, "id", "")) == str(target_id):
         return
     role = str(getattr(user, "role", "") or "").lower()

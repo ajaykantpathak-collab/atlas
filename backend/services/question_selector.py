@@ -1194,7 +1194,8 @@ class QuestionSelector:
         "accountancy": ["acc"], "acc": ["acc"],
         "business_studies": ["bs"], "bs": ["bs"],
         "civics": ["civ", "civics"], "civ": ["civ", "civics"],
-        "hindi": ["hin_ar", "hin_a", "hin_v", "hin_al"],
+        "hindi": ["hin", "hin_ar", "hin_a", "hin_v", "hin_al",
+                    "hin_ga", "hin_kr", "hin_ks", "hin_sp", "hindi"],
         # Electives that exist in board_questions but were missing here:
         # without an alias the fallback list (e.g. ["psychology"]) matches
         # nothing, so their diagnostics silently fill with off-subject
@@ -1213,7 +1214,8 @@ class QuestionSelector:
         # disciplines under their own tags — "soc"/"social_science"/"sst"
         # match zero rows, so SST plans fell through to unfiltered
         # generator content (accountancy HRM items in a class-7 SST run).
-        "social_science": ["hist", "geo", "civ", "eco", "soc", "sst"],
+        "social_science": ["hist", "history", "geo", "geography", "civ", "civics",
+                        "eco", "economics", "soc", "sst"],
         "soc": ["soc"],
         "physical_education": ["ps"], "ps": ["ps"],
         "general": None,  # no subject filter

@@ -590,6 +590,14 @@ class FacadeIdentifyRequest(BaseModel):
     class_level: str = Field("", max_length=20, description="Optional class level")
 
 
+class DeterministicSolveRequest(BaseModel):
+    """Question for the no-LLM truth-core endpoint."""
+    question: str = Field(..., min_length=1, max_length=5000)
+    subject: str = Field("", max_length=50)
+    class_level: str = Field("", max_length=20)
+    board: str = Field("", max_length=20)
+
+
 @router.post("/v2/solve/step")
 def facade_solve_step(req: FacadeSolveStepRequest):
     """UNIFIED: Solve one structured step. Tries backends in priority order.
@@ -721,6 +729,24 @@ def facade_identify(req: FacadeIdentifyRequest):
     return result.model_dump()
 
 
+@router.post("/v3/deterministic")
+def deterministic_solve(req: DeterministicSolveRequest):
+    """Official deterministic-only end-to-end solve endpoint.
+
+    The answer pipeline is allowed to return a final answer only when its
+    verification gates pass. Guided, ambiguous, and unsupported questions
+    never carry an answer. No LLM fallback is reachable from this endpoint.
+    """
+    from backend.its.solver.deterministic_service import solve_deterministically
+
+    return solve_deterministically(
+        req.question,
+        subject=req.subject,
+        class_level=req.class_level,
+        board=req.board,
+    )
+
+
 @router.get("/v2/problem-types")
 async def facade_problem_types(topic: Optional[str] = None):
     """UNIFIED: List problem types (lightweight)."""
@@ -728,8 +754,12 @@ async def facade_problem_types(topic: Optional[str] = None):
 
 
 @router.get("/v2/health")
-async def facade_health():
-    """UNIFIED: Facade health — shows all backends and circuit states."""
+def facade_health():
+    """UNIFIED: Facade health — shows all backends and circuit states.
+
+    plain `def` → thread pool: the first call can lazily build the solver
+    facade (registry load). An async def here blocked the event loop and,
+    under a cold facade, wedged the whole worker (2026-09-29 incident)."""
     health = _facade.health()
     # Include the process-pool routing state (adaptive solve routing)
     try:

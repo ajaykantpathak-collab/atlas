@@ -380,22 +380,34 @@ async def paper_catalog(
     user: User = Depends(get_current_user),
 ):
     catalog = []
-    for (subject, cls), bp in _BLUEPRINTS.items():
-        if cls != class_level:
-            continue
-        codes = _CODES[subject]
-        need = sum(s.count for s in bp["sections"])
+    blueprints = [(subject, cls, bp) for (subject, cls), bp in _BLUEPRINTS.items()
+                  if cls == class_level]
+    # ONE grouped COUNT instead of one full-pool COUNT per subject: each
+    # per-subject count scanned the 233k-row board_questions table, so the
+    # catalog took >40s in production (2026-09). Grouped once, the pool is
+    # scanned a single time.
+    all_codes = sorted({code for subject, _cls, bp in blueprints
+                        for code in _CODES[subject]})
+    counts: dict = {}
+    if all_codes:
         try:
-            total = (await db.execute(
-                sa_select(sa_func.count())
+            rows = (await db.execute(
+                sa_select(BoardQuestion.subject,
+                          sa_func.count())
                 .select_from(BoardQuestion)
-                .where(BoardQuestion.subject.in_(codes))
-                .where(BoardQuestion.class_level == cls)
+                .where(BoardQuestion.subject.in_(all_codes))
+                .where(BoardQuestion.class_level == class_level)
                 .where(BoardQuestion.correct_answer.isnot(None))
                 .where(BoardQuestion.correct_answer != "")
-            )).scalar() or 0
+                .group_by(BoardQuestion.subject)
+            )).all()
+            counts = {subject: int(n) for subject, n in rows}
         except Exception:
-            total = 0
+            counts = {}
+    for subject, cls, bp in blueprints:
+        codes = _CODES[subject]
+        need = sum(s.count for s in bp["sections"])
+        total = sum(counts.get(code, 0) for code in codes)
         sections = [{
             "sectionId": s.sid, "title": s.title, "note": s.note,
             "questions": s.count, "marksEach": s.marks,

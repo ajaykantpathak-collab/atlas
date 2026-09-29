@@ -137,7 +137,10 @@ def _serialize(subject: str, result) -> SolveResponse:
 
 
 @router.post("/solve", response_model=SolveResponse)
-async def sandbox_solve(req: SolveRequest):
+def sandbox_solve(req: SolveRequest):
+    # plain `def` -> thread pool: _get_model may lazily import a solver
+    # family / ML model (seconds of sync work); async def here blocked the
+    # event loop (the 2026-09-29 worker-wedge class of bug).
     subject = (req.subject or "").strip().lower()
     fn = _get_model(subject)
     if fn is None:
@@ -156,8 +159,10 @@ async def sandbox_solve(req: SolveRequest):
 
 
 @router.get("/subjects")
-async def sandbox_subjects():
-    """Which sandbox modes are live right now (honest grey-out for the UI)."""
+def sandbox_subjects():
+    """Which sandbox modes are live right now (honest grey-out for the UI).
+
+    plain `def` -> thread pool: probes every solver module import (sync)."""
     out = {}
     for subject in _SUBJECT_MODELS:
         fn = _get_model(subject)
