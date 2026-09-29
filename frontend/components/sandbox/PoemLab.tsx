@@ -212,8 +212,12 @@ export default function PoemLab({ subject }: { subject: Subject }) {
                   </tbody>
                 </table>
               </div>
-              {poem.rhyme && (
-                <p className="mt-2 text-xs text-slate-400">Rhyme scheme: {String(poem.rhyme)}</p>
+              {(poem.stanzas ?? []).map((st: any, si: number) =>
+                st.rhyme ? (
+                  <p key={`rh-${si}`} className="mt-1 text-xs text-slate-400">
+                    Stanza {si + 1} rhyme: {String(st.rhyme)}
+                  </p>
+                ) : null,
               )}
             </>
           )}

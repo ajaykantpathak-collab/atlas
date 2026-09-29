@@ -361,7 +361,18 @@ function dohaSorathaCharan(cm: VerseLine[]): ScanResult {
       citations: [...TAUGHT_CHHANDS.soratha.citations, ...TAUGHT_CHHANDS.rola.citations],
     };
   }
-  return decline(nearestMiss([l.matras], 'एकल चरण'), matraTableNotes(cm));
+  // scope fix (2026-09-29): `decline` is local to scanHindiVerse — this
+  // fallthrough previously called it across function bounds (ReferenceError
+  // on any single-charan verse matching neither the 13- nor 11-splits; the
+  // .mjs twin was correct, which is why the harness stayed green).
+  return {
+    chhand: null,
+    confidence: 0,
+    lines: cm,
+    declined_reason: nearestMiss([l.matras], 'एकल चरण'),
+    notes: matraTableNotes(cm),
+    citations: [],
+  };
 }
 
 /** Honest nearest-miss reason: shows which taught signatures were closest. */
