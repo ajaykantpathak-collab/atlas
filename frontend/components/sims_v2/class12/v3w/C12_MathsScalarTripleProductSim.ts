@@ -6,13 +6,13 @@ import C12_MathsScalarTripleProductSim from '../../../simulations/three/C12_Math
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathsscalartripleproductsim: SimDef = {
     id: 'v3w_c12_mathsscalartripleproductsim',
-    title: 'Scalar Triple Product',
+    title: 'Scalar (Dot) Product of Two Vectors',
     subtitle: 'This node covers the definition, geometric interpretation, algebraic computation,.',
     classLevel: 12, subject: 'mathematics', topic: 'Scalar (Dot) Product of Two Vectors',
     chapters: [],
     nodeIds: ['c12_math_cbse_10_004', 'c12_math_cbse_10_005', 'c12_math_cbse_10_006', 'c12_math_cbse_10_007', 'c12_math_cbse_10_008', 'c12_math_cbse_10_001', 'c12_math_cbse_10_002', 'c12_math_cbse_10_003', 'c12_math_cbse_03_004', 'c12_math_cbse_03_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a kite flying in the sky — the wind exerts a force \\(\\vec{F}\\) on the kite, but the kite moves only.', goal: 'Master Scalar Triple Product.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a kite flying in the sky — the wind exerts a force \\(\\vec{F}\\) on the kite, but the kite moves only.', goal: 'Master Scalar (Dot) Product of Two Vectors.' },
     discovery: {
         question: 'Two vectors **a** and **b** are drawn in a plane. **a** starts at (1,2) and ends at (4,6). **b** starts at (-2,-1) and ends at (1,3).',
         options: ['Yes, **a** and **b** are equal', 'No, because they start at different points', 'Yes, because both have magnitude 5'],
@@ -79,7 +79,7 @@ export const w_c12_mathsscalartripleproductsim: SimDef = {
             { text: '(iv) Unit vector in direction of **a** = **â** = **a**/|**a**|.', faded: true, blankAnswer: '(i) **a** is a non-zero, non-unit free vector. (ii) **a**.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_10_005', title: 'Identify each idea',
-          dissect: { specimen: 'Scalar Triple Product', spots: [
+          dissect: { specimen: 'Scalar (Dot) Product of Two Vectors', spots: [
             { id: 's1', label: 'The scalar dot product of', prompt: 'Which idea is this? — The scalar (dot) product of two non-zero vectors \\(\\vec{a}\\) and \\(\\vec{b}\\), denoted by.', answer: 'The scalar dot product of', options: ['The scalar dot product of', 'The vector cross product of', 'The projection of a vector', 'The section formula for vectors'] },
             { id: 's2', label: 'The vector cross product of', prompt: 'Which idea is this? — The vector (cross) product of two non-zero vectors **a** and **b**, denoted by **a** ×.', answer: 'The vector cross product of', options: ['The vector cross product of', 'The scalar dot product of', 'The projection of a vector', 'The section formula for vectors'] },
             { id: 's3', label: 'The projection of a vector', prompt: 'Which idea is this? — The projection of a vector $\\vec{a}$ on another vector $\\vec{b}$ is the vector component.', answer: 'The projection of a vector', options: ['The projection of a vector', 'The scalar dot product of', 'The vector cross product of', 'The section formula for vectors'] },
@@ -88,7 +88,7 @@ export const w_c12_mathsscalartripleproductsim: SimDef = {
             { id: 's6', label: 'A vector is a quantity', prompt: 'Which idea is this? — A vector is a quantity that possesses both magnitude (a non-negative real number.', answer: 'A vector is a quantity', options: ['A vector is a quantity', 'The scalar dot product of', 'The vector cross product of', 'The projection of a vector'] }
           ] } }
     ],
-    explore: { component: C12_MathsScalarTripleProductSim, prompt: 'Explore the interactive — Scalar Triple Product' },
+    explore: { component: C12_MathsScalarTripleProductSim, prompt: 'Explore the interactive — Scalar (Dot) Product of Two Vectors' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_10_004', difficulty: 'standard',
           question: 'The scalar (dot) product of two non-zero vectors \\(\\vec{a}\\) and \\(\\vec{b}\\),.',

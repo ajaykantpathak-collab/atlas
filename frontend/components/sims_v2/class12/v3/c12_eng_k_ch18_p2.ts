@@ -19,7 +19,7 @@ export const c12_eng_k_ch18_p2: SimDef = {
         hook: 'This isn\'t a pride parade of \'Indians love to argue\' — Sen is an economist building evidence: a nine-hour UN speech, an epic seven times the Iliad and Odyssey combined, Gargi\'s interrogations. He critiques exclusions too — who was allowed to argue matters as much as that they argued.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes in a non-fiction essay are the supporting ideas that run alongside the primary argument, enriching the text by exploring related dimensions such as gender, caste, class, historical.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Argumentative Indian\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_18_007', title: 'Your mission',
@@ -29,32 +29,32 @@ export const c12_eng_k_ch18_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_18_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re in a debate competition and your opponent says, "India\'s tradition of argument was only for elite men — it has nothing to do with democracy.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Argumentative Indian\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'List the four women interlocutors from ancient texts whom Sen explicitly names as participants in India\'s argumentative tradition, and the.', options: [
                 { text: 'Gargi (Brihadaranyaka Upanishad), Maitreyi (Brihadaranyaka Upanishad), Draupadi', outcome: 'Gargi (Brihadaranyaka Upanishad), Maitreyi (Brihadaranyaka Upanishad), Draupadi (Mahabharata.' },
                 { text: 'only modern figures like Sarojini Naidu or omitting the textual source', outcome: 'Not quite — Students often treat "secondary themes" as a random list of topics Sen mentions.', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_18_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are reading Sen\'s essay and stumble on the phrase "rutting elephant tearing off his garland with his trunk" — why does a serious economist use such.',
+          caseStudy: { intro: 'Find the lines in \'The Argumentative Indian\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'What is the *literal* meaning of the metaphor "fare forward" as used by T.S.', options: [
                 { text: 'Correct answer: "Fare forward" literally means to continue one\'s journey or voyage ahead,', outcome: 'Correct answer: "Fare forward" literally means to continue one\'s journey or voyage ahead, without.' },
                 { text: 'fare well means to succeed', outcome: 'Not quite — Students often treat imagery and metaphor as *decorative flourishes* — "Sen uses beautiful language.', reveals: 'students-often-treat-imagery-and' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_18_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you\'re reading a modern op-ed where the writer cites a 1945 nuclear scientist quoting a 2000-year-old Sanskrit text to critique *both* — that jarring.',
+          caseStudy: { intro: 'Look in \'The Argumentative Indian\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define \'situational irony\' and \'symbol\' in the specific context of non-fiction argumentative prose like Sen\'s essay.', options: [
                 { text: 'Situational irony in non-fiction occurs when a historical outcome or intellectual', outcome: 'Situational irony in non-fiction occurs when a historical outcome or intellectual position.' },
                 { text: 'irony is sarcasm', outcome: 'Not quite — Students conflate **verbal irony/sarcasm** ("saying the opposite") with the **structural/historical.', reveals: 'students-conflate-verbal-irony-sarcasm' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_18_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading a dense opinion piece in *The Hindu* or *The Wire* and hit a word like "heterodoxy" — do you skip it, guess wildly, or decode it?',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Argumentative Indian\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the meaning of "prolixity" as used in the opening paragraph of the essay, and what context clue type (definition, example.', options: [
                 { text: '"Prolixity" means excessive wordiness or lengthiness in speech/writing', outcome: '"Prolixity" means excessive wordiness or lengthiness in speech/writing.' },
                 { text: 'fluency', outcome: 'Not quite — Students treat vocabulary-in-context as "guess the dictionary definition" and ignore *connotation*.', reveals: 'students-treat-vocabulary-in-context' },
                 { text: 'eloquence', outcome: 'Not quite — Students treat vocabulary-in-context as "guess the dictionary definition" and ignore *connotation*.', reveals: 'students-treat-vocabulary-in-context' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_18_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading a newspaper editorial where the writer says "The policy is largely successful" instead of "The policy is successful." Why add.',
+          caseStudy: { intro: 'Read \'The Argumentative Indian\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'From the first two paragraphs of the essay, list three words (other than "prolixity") that belong to the semantic field of speaking.', options: [
                 { text: 'Correct answers include: loquaciousness, speak, dialogues, debates, arguments,', outcome: 'Correct answers include: loquaciousness, speak, dialogues, debates, arguments, counterarguments.' },
                 { text: 'Kashmir', outcome: 'Not quite — Students equate "qualification" (hedging) with weakness or vagueness, believing strong writing.', reveals: 'students-equate-qualification-hedging-with' }
@@ -78,7 +78,7 @@ export const c12_eng_k_ch18_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_007', difficulty: 'standard',
-          question: 'Secondary themes in a non-fiction essay are the supporting ideas that run.',
+          question: 'Secondary themes in \'The Argumentative Indian\' — the supporting ideas and.',
           hint: 'If unclear on primary vs secondary, return to c12_eng_k_cbse_18_006 and write the primary.',
           misconception: 'Students often treat "secondary themes" as a random list of topics Sen mentions.',
           parts: [
@@ -89,18 +89,18 @@ export const c12_eng_k_ch18_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-secondary-themes': { steps: ['If the student cannot distinguish primary vs secondary themes or link evidence to argument: (1) Re-read node.', '(2) Create a two-column table: Column A = Misconception Sen targets (e.g., "argument was male-only"), Column.', '(3) Practice writing one PEEL paragraph per secondary theme using the table.', '(4) Re-attempt Diagnostic Question 4 to test if the structural link is clear.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'The Argumentative Indian\' — the vivid, sensory language that.',
           hint: 'If stuck on vehicle/tenor mapping, revisit Class 11 Hornbill Chapter 1 (The Portrait of.',
           misconception: 'Students often treat imagery and metaphor as *decorative flourishes* — "Sen uses beautiful language to make the essay.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Imagery is the use of vivid, sensory language that appeals to the five senses (sight,',
-                  options: ['Imagery is the use of vivid, sensory language that appeals to the five senses (sight,', '"Before You Read: Context and Background" for Amartya Sen\'s "The Argumentative Indian" is', 'In a non-fiction argumentative essay like "The Argumentative Indian," **plot and', 'In non-fiction argumentative prose, **setting** refers to the historical, cultural,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Imagery in \'The Argumentative Indian\'',
+                  options: ['Imagery in \'The Argumentative Indian\'', '\'The Argumentative Indian\' (Kaleidoscope, ch', 'The plot/narrative arc of \'The Argumentative Indian\'', 'The setting of \'The Argumentative Indian\''],
                   hint: 'If stuck on vehicle/tenor mapping, revisit Class 11 Hornbill Chapter 1 (The Portrait of a Lady).',
                   misconception: 'Students often treat imagery and metaphor as *decorative flourishes* — "Sen uses beautiful language to make the essay interesting." This.' }
           ],
             remediations: { 'students-often-treat-imagery-and': { steps: ['If a student cannot move beyond "imagery creates a picture," do this 3-step remediation: (1) Give them the "rutting.', '(2) Have them complete a two-column table: Column A = Image phrase; Column B = What this image *proves* about Sen\'s.', '(3) Re-attempt Diagnostic Question 3 with a new passage (e.g., "weapon of mass destruction" for Oppenheimer).', 'Only proceed when they can articulate *proof*, not just *picture*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_009', difficulty: 'standard',
-          question: 'Irony in non-fiction argumentative writing is a rhetorical strategy where the.',
+          question: 'Irony and paradox in \'The Argumentative Indian\' — where opposite things are.',
           hint: 'If unable to distinguish irony types or symbol vs metaphor, re-do the worked examples.',
           misconception: 'Students conflate **verbal irony/sarcasm** ("saying the opposite") with the **structural/historical irony** Sen employs.',
           parts: [
@@ -111,7 +111,7 @@ export const c12_eng_k_ch18_p2: SimDef = {
           ],
             remediations: { 'students-conflate-verbal-irony-sarcasm': { steps: ['**Revisit definitions**: Use Class 11 node `c11_eng_h_cbse_01_009` (Irony & Symbolism in Hornbill Ch.1) to relearn the.', '**Micro-practice**: Take a 2-paragraph op-ed (e.g., from *The Hindu* editorial page).', 'Highlight every historical reference.', 'Ask: "Is this used literally or as a symbol for X?" Flag any outcome that contradicts an earlier stated goal — label.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'The Argumentative Indian\' — the words and phrases you must.',
           hint: 'If unsure about context-clue types, review the "Language Work" section of Class 11.',
           misconception: 'Students treat vocabulary-in-context as "guess the dictionary definition" and ignore *connotation* and *argumentative.',
           parts: [
@@ -141,7 +141,7 @@ export const c12_eng_k_ch18_p2: SimDef = {
           ],
             remediations: { 'students-treat-vocabulary-in-context': { steps: ['Re-read the **exact paragraph** where the target word appears (use the NCERT text provided).', 'Highlight the **clue words** (e.g., for "heterodoxy": "toleration of intellectual heterodoxy", "persistent arguments".', 'Complete a **Frayer Model** for 3 troublesome words: Definition (in context), Characteristics, Examples (from essay).', 'Re-attempt Diagnostic Questions 2 and 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the systematic analysis of how.',
+          question: 'Language and style in \'The Argumentative Indian\' — how the writer chose words.',
           hint: 'If unable to segment noun phrases, revisit c11_eng_h_cbse_01_011 (Language Work sections.',
           misconception: 'Students equate "qualification" (hedging) with weakness or vagueness, believing strong writing means absolute.',
           parts: [
@@ -160,7 +160,7 @@ export const c12_eng_k_ch18_p2: SimDef = {
           ],
             remediations: { 'students-equate-qualification-hedging-with': { steps: ['Have the student re-read the "Language Work" section (NCERT pp.', '188-189) and physically mark every qualification phrase in the essay with a highlighter.', 'Give them five simple absolute sentences ("Democracy is good." "The Gita supports duty.") and ask them to rewrite each.', 'Use the noun phrase from Worked Example 1 — have them build three variants by adding/removing pre-modifiers.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require retrieving information directly stated.',
+          question: 'Literal comprehension of \'The Argumentative Indian\' — questions answered.',
           hint: 'If stuck, re-read the "Stop and Think" boxes in the NCERT text (pp.179, 185) — they are.',
           misconception: 'Students treat ALL comprehension questions as "find the answer in the text." They don\'t realize inferential questions.',
           parts: [

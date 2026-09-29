@@ -19,7 +19,7 @@ export const c10_engl_ch10_p2: SimDef = {
         hook: 'The \'triumph of surgery\' is ironic — no surgery ever happens. Love expressed as unlimited treats made Tricki ill, and simple discipline cured him.',
     },
     teaching: [
-        { title: 'Character Analysis: Mr Herriot as a Wise and Practical Veterinary Surgeon', text: 'Character analysis of Mr. Herriot involves examining his traits, actions, decisions, and interactions in "A Triumph of Surgery" to understand how he embodies wisdom and practicality as a veterinary.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Character Analysis: Mr Herriot as a Wise and Practical Veterinary Surgeon', text: 'From \'A Triumph of Surgery\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c10_engl_cbse_10_007', title: 'Your mission',
@@ -59,7 +59,7 @@ export const c10_engl_ch10_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_engl_cbse_10_007', difficulty: 'standard',
-          question: 'Character analysis of Mr. Herriot involves examining his traits, actions.',
+          question: 'From \'A Triumph of Surgery\': the skill or concept this node teaches, applied.',
           hint: 'Review PEEL structure from c9_engl_ch1_2 and re-read the first three pages of the story.',
           misconception: 'Students often write: "Mr. Herriot is kind because he loves animals." This is vague and earns partial marks.',
           parts: [
@@ -81,7 +81,7 @@ export const c10_engl_ch10_p2: SimDef = {
           ],
             remediations: { 'students-often-write-mr': { steps: ['If a student writes generic traits, do this: 1) Have them re-read the first two pages and highlight every *action*.', '2) For each action, ask: "What professional quality does this show?" 3) Force them to write one PEEL paragraph per.', '4) Check that each "Evidence" is a specific textual detail, not a plot summary.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_engl_cbse_10_008', difficulty: 'standard',
-          question: 'Irony in literature occurs when there is a contrast between expectation and.',
+          question: 'From \'A Triumph of Surgery\': the skill or concept this node teaches, applied.',
           hint: 'Review c10_engl_cbse_10_004 (Mrs Pumphrey\'s Extravagance) to recall the exact textual.',
           misconception: 'Students often confuse *verbal irony* (saying the opposite of what you mean) with *situational irony* (outcome opposite.',
           parts: [

@@ -19,7 +19,7 @@ export const c12_hin_al_ch03_p3: SimDef = {
         hook: 'This isn\'t nostalgia — it\'s evidence: 128 years of rainfall data, drought years defined, oak loss breaking the water cycle. Shivani was a rights-based journalist; her personal memory of mountain air is testimony in a case against ecologically blind development.',
     },
     teaching: [
-        { title: 'अपना मालवा-खाऊ-उजाड़ू सभ्यता में — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन: पाठ का गहरा विश्लेषण करके उसके विषय, पात्र-चित्रण, भाषा-प्रयोग और साहित्यिक युक्तियों को समझना, और उनके आधार पर तर्कसंगत निष्कर्ष निकालना।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'अपना मालवा-खाऊ-उजाड़ू सभ्यता में — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'कंकाल में टमाटर की खेती\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_al_cbse_03_013', title: 'Your mission',
@@ -28,11 +28,20 @@ export const c12_hin_al_ch03_p3: SimDef = {
         context: 'Stand where the springs dried: read the rainfall record as indictment, follow oak loss to thermal shift to sensory death, and try on Shivani\'s inversion — development as the soil\'s incapacity.',
         labels: ['अपना मालवा-खाऊ-उजाड़ू सभ्यता में'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c12_hin_al_cbse_03_014', title: 'Identify each idea',
-          dissect: { specimen: 'अपना मालवा-खाऊ-उजाड़ू सभ्यता में · Part 3/3', spots: [
-            { id: 's1', label: '-- -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ से साक्ष्य निकालकर, उसकी व्याख्या.', answer: '-- -', options: ['-- -', '-- - -'] },
-            { id: 's2', label: '-- - -', prompt: 'Which idea is this? — \'वाचन-श्रवण: चर्चा-बिंदु\' एक सहभागितापूर्ण भाषा-कौशल गतिविधि है जिसमें शिक्षार्थी पाठ का.', answer: '-- - -', options: ['-- - -', '-- -'] }
-          ] } },
+        { type: 'case', nodeId: 'c12_hin_al_cbse_03_013', title: 'अपना मालवा-खाऊ-उजाड़ू सभ्यता में — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या',
+          caseStudy: { intro: '\'कंकाल में टमाटर की खेती\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।',
+            decisions: [{ prompt: 'Define "critical analysis" in the context of studying a Hindi prose memoir like "कक्का और मटकमा में".', options: [
+                { text: 'Critical analysis means breaking down the text\'s components', outcome: 'Critical analysis means breaking down the text\'s components — such as contrast, imagery, irony.' },
+                { text: 'I think pollution is bad', outcome: 'Not quite — Students often believe critical analysis means expressing their personal opinion about the topic.', reveals: 'critical-analysis-means-expressing-their' },
+                { text: 'interpretation', outcome: 'Not quite — Students often believe critical analysis means expressing their personal opinion about the topic.', reveals: 'critical-analysis-means-expressing-their' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_al_cbse_03_015', title: 'अपना मालवा-खाऊ-उजाड़ू सभ्यता में — वाचन-श्रवण: चर्चा-बिंदु',
+          caseStudy: { intro: '\'कंकाल में टमाटर की खेती\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'What is the central conflict presented in \'अपना देश\' that can serve as a discussion prompt for a class debate?', options: [
+                { text: 'The central conflict is the tension between industrial/technological development', outcome: 'The central conflict is the tension between industrial/technological development (represented.' },
+                { text: 'the author dislikes his hometown', outcome: 'Not quite — Students think "discussion points" means listing topics (e.g., "pollution, nostalgia.', reveals: 'discussion-points-means-listing-topics' },
+                { text: 'discussion points', outcome: 'Not quite — Students think "discussion points" means listing topics (e.g., "pollution, nostalgia.', reveals: 'discussion-points-means-listing-topics' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_al_cbse_03_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Back in your hill hometown for a family wedding, you find the oak ridge replaced by a concrete parking strip and the spring your grandmother drew from now dry. A cousin shrugs: \'That\'s just nostalgia — the road and hotels are development.\'',
             decisions: [{ prompt: 'How would Shivani\'s framing in \'अपना मालवा\' answer him?', options: [
@@ -52,38 +61,57 @@ export const c12_hin_al_ch03_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_03_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन: पाठ का गहरा विश्लेषण करके उसके विषय, पात्र-चित्रण.',
-          hint: 'यदि फंस रहे हैं तो कक्षा 11 के नोड c11_hin_a_cbse_03_013 का पुनः अध्ययन करें, जहाँ.',
-          misconception: 'छात्र अक्सर पाठ के विश्लेषण में केवल घटनाओं का क्रम वर्णन कर देते हैं और मान लेते हैं कि यही आलोचनात्मक चिंतन है—जैसे.',
+          question: '\'कंकाल में टमाटर की खेती\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
+          hint: 'If stuck, revisit the comprehension node (c12_hin_al_cbse_03_012) to ensure factual.',
+          misconception: 'Students often believe critical analysis means expressing their personal opinion about the topic (e.g., "I think.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन: पाठ का गहरा विश्लेषण करके उसके विषय, पात्र-चित्रण, भाषा-प्रयोग और',
-                  options: ['आलोचनात्मक चिंतन: पाठ का गहरा विश्लेषण करके उसके विषय, पात्र-चित्रण, भाषा-प्रयोग और', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-आर्थिक परिस्थितियों, युग के', 'कथानक (Plot) घटनाओं का कारण-कार्य शृंखला में व्यवस्थित क्रमिक प्रस्तुतीकरण है, जबकि', 'पाठ्य-परिवेश वह भाषा, शैली, संरचना और शब्दचयन है जिसमें कहानी लिखी गई है, जबकि वातावरण वह'],
-                  hint: 'यदि फंस रहे हैं तो कक्षा 11 के नोड c11_hin_a_cbse_03_013 का पुनः अध्ययन करें, जहाँ आलोचनात्मक चिंतन.',
-                  misconception: 'छात्र अक्सर पाठ के विश्लेषण में केवल घटनाओं का क्रम वर्णन कर देते हैं और मान लेते हैं कि यही आलोचनात्मक चिंतन है—जैसे कि "पहले मालवा में.' }
+                { id: 'a', prompt: 'Define "critical analysis" in the context of studying a Hindi prose memoir like "कक्का और मटकमा में". How does it differ from writing a summary?', answer: 'Critical analysis means breaking down the text\'s components',
+                  options: ['Critical analysis means breaking down the text\'s components', 'I think pollution is bad', 'interpretation', 'reaction'],
+                  hint: 'If stuck, revisit the comprehension node (c12_hin_al_cbse_03_012) to ensure factual clarity, then.',
+                  misconception: 'Students often believe critical analysis means expressing their personal opinion about the topic (e.g., "I think pollution is bad") rather.' },
+                { id: 'b', prompt: 'The author writes: "पहले के गाँव में नदी थी, हरियाली थी, पक्षी थे...', answer: 'The contrast does not just list differences',
+                  options: ['The contrast does not just list differences', 'it shows the village changed', 'I think pollution is bad', 'interpretation'],
+                  hint: 'If stuck, revisit the comprehension node (c12_hin_al_cbse_03_012) to ensure factual clarity, then.',
+                  misconception: 'Students often believe critical analysis means expressing their personal opinion about the topic (e.g., "I think pollution is bad") rather.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक कमजोर उत्तर जैसे "मालवा बदल गया" को कैसे मजबूत बनाया जाए: पहले उसे कहानी से दो विशिष्ट उदाहरण.', 'अंत में उसे कहिए कि लेखक के शब्द चयन (जैसे उजाड़ू, खाऊ) से ये भाव कैसे मजबूत होते हैं। इस 3-चरणीय प्रक्रिया से उसे समझ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-expressing-their': { steps: ['If a student conflates opinion with analysis: 1) Give them a single paragraph (e.g., the description of the dried.', '2) Ask: "Circle every adjective and verb the author uses.', 'Now, what *pattern* do you see?" (e.g., words of death: सूखा, मरा, खत्म, कंक्रीट).', '3) Ask: "If he wanted to just inform, he\'d say \'the river is dry.\' Why choose \'मरा हुआ\'?" 4) Guide them to write: "The.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_al_cbse_03_013', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often believe critical analysis means expressing their personal opinion about the topic (e.g., "I think.',
+          parts: [
+                { id: 'a', prompt: 'Write a 4-5 sentence paragraph from the perspective of the बांकस नदी (Bankas River) describing its own transformation from the author\'s childhood to the.', answer: 'A strong answer might read: "I was once the village\'s heartbeat',
+                  options: ['A strong answer might read: "I was once the village\'s heartbeat', 'I think pollution is bad', 'interpretation', 'reaction'],
+                  hint: 'If stuck, revisit the comprehension node (c12_hin_al_cbse_03_012) to ensure factual clarity, then.',
+                  misconception: 'Students often believe critical analysis means expressing their personal opinion about the topic (e.g., "I think pollution is bad") rather.' }
+          ],
+            remediations: { 'critical-analysis-means-expressing-their': { steps: ['If a student conflates opinion with analysis: 1) Give them a single paragraph (e.g., the description of the dried.', '2) Ask: "Circle every adjective and verb the author uses.', 'Now, what *pattern* do you see?" (e.g., words of death: सूखा, मरा, खत्म, कंक्रीट).', '3) Ask: "If he wanted to just inform, he\'d say \'the river is dry.\' Why choose \'मरा हुआ\'?" 4) Guide them to write: "The.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_03_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ से साक्ष्य निकालकर, उसकी.',
+          question: '\'कंकाल में टमाटर की खेती\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की.',
           hint: 'यदि छात्र PEEL में Evidence और Explanation के बीच के अंतर को नहीं समझ पा रहा है, तो उसे.',
           misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर में केवल उदाहरण दोहराना या पाठ से सीधी प्रतिलिपि बनाना पर्याप्त है, क्योंकि.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ से साक्ष्य निकालकर, उसकी व्याख्या',
-                  options: ['पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ से साक्ष्य निकालकर, उसकी व्याख्या', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-आर्थिक परिस्थितियों, युग के', 'कथानक (Plot) घटनाओं का कारण-कार्य शृंखला में व्यवस्थित क्रमिक प्रस्तुतीकरण है, जबकि', 'पाठ्य-परिवेश वह भाषा, शैली, संरचना और शब्दचयन है जिसमें कहानी लिखी गई है, जबकि वातावरण वह'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंकाल में टमाटर की खेती\' पर पाठ-आधारित लेखन',
+                  options: ['\'कंकाल में टमाटर की खेती\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंकाल में टमाटर की खेती\' का कथानक', '\'कंकाल में टमाटर की खेती\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि छात्र PEEL में Evidence और Explanation के बीच के अंतर को नहीं समझ पा रहा है, तो उसे कक्षा 11 के.',
                   misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर में केवल उदाहरण दोहराना या पाठ से सीधी प्रतिलिपि बनाना पर्याप्त है, क्योंकि वे मानते हैं कि.' }
           ],
             remediations: { 'wrong-idea': { steps: ['इस गलती को सुधारने के लिए, छात्र को पहले एक कमजोर उत्तर (जैसे केवल उदाहरण देना) दिखाइए और पूछिए, "इस उत्तर में क्या कम.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_03_015', difficulty: 'standard',
-          question: '\'वाचन-श्रवण: चर्चा-बिंदु\' एक सहभागितापूर्ण भाषा-कौशल गतिविधि है जिसमें.',
-          hint: 'यदि चर्चा में बोलते समय शब्द न सूझें या तर्क न बने, तो तुरंत पाठ खोलकर **सूरजमल के किसी.',
-          misconception: 'छात्र अक्सर समझते हैं कि \'वाचन-श्रवण: चर्चा-बिंदु\' का अर्थ है **शिक्षक प्रश्न पूछे, छात्र उत्तर दें** — यह \'प्रश्नोत्तर.',
+          question: '\'कंकाल में टमाटर की खेती\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'If stuck, return to c12_hin_al_cbse_03_013 (Critical Thinking) and re-do the \'identify.',
+          misconception: 'Students think "discussion points" means listing topics (e.g., "pollution, nostalgia, development").',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वाचन-श्रवण: चर्चा-बिंदु\' एक सहभागितापूर्ण भाषा-कौशल गतिविधि है जिसमें शिक्षार्थी पाठ का',
-                  options: ['\'वाचन-श्रवण: चर्चा-बिंदु\' एक सहभागितापूर्ण भाषा-कौशल गतिविधि है जिसमें शिक्षार्थी पाठ का', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-आर्थिक परिस्थितियों, युग के', 'कथानक (Plot) घटनाओं का कारण-कार्य शृंखला में व्यवस्थित क्रमिक प्रस्तुतीकरण है, जबकि', 'पाठ्य-परिवेश वह भाषा, शैली, संरचना और शब्दचयन है जिसमें कहानी लिखी गई है, जबकि वातावरण वह'],
-                  hint: 'यदि चर्चा में बोलते समय शब्द न सूझें या तर्क न बने, तो तुरंत पाठ खोलकर **सूरजमल के किसी एक संवाद**.',
-                  misconception: 'छात्र अक्सर समझते हैं कि \'वाचन-श्रवण: चर्चा-बिंदु\' का अर्थ है **शिक्षक प्रश्न पूछे, छात्र उत्तर दें** — यह \'प्रश्नोत्तर सत्र\' (Q&A) है.' }
+                { id: 'a', prompt: 'What is the central conflict presented in \'अपना देश\' that can serve as a discussion prompt for a class debate?', answer: 'The central conflict is the tension between industrial/technological development',
+                  options: ['The central conflict is the tension between industrial/technological development', 'the author dislikes his hometown', 'discussion points', 'pollution, nostalgia, development'],
+                  hint: 'If stuck, return to c12_hin_al_cbse_03_013 (Critical Thinking) and re-do the \'identify stakeholder.',
+                  misconception: 'Students think "discussion points" means listing topics (e.g., "pollution, nostalgia, development").' },
+                { id: 'b', prompt: 'Compare the author\'s description of Banksa\'s past (clean river, birds, cool breeze) with its present (polluted river, noise, heat).', answer: 'The before/after contrast functions as empirical evidence for the argument that',
+                  options: ['The before/after contrast functions as empirical evidence for the argument that', 'It shows the author likes the past better', 'discussion points', 'pollution, nostalgia, development'],
+                  hint: 'If stuck, return to c12_hin_al_cbse_03_013 (Critical Thinking) and re-do the \'identify stakeholder.',
+                  misconception: 'Students think "discussion points" means listing topics (e.g., "pollution, nostalgia, development").' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र को पाठ का कोई **एक छोटा अंश (5-6 पंक्तियाँ)** दें और कहें — "इसे तीन बार पढ़ो: पहली बार अर्थ के लिए, दूसरी.', 'क्या स्वर में भाव था?" चरण 4: यही प्रक्रिया सप्ताह में दो बार दोहराएँ, हर बार अंश बदलें। 3 सप्ताह में \'साक्ष्य-आधारित.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'discussion-points-means-listing-topics': { steps: ['If a student produces topic-lists instead of discussion frames: (1) Have them pick ONE theme (e.g., \'river\'), (2) Find.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

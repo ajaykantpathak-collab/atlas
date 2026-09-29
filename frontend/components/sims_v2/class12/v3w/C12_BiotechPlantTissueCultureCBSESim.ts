@@ -6,13 +6,13 @@ import C12_BiotechPlantTissueCultureCBSESim from '../../../simulations/c6_12_new
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biotechplanttissueculturecbsesim: SimDef = {
     id: 'v3w_c12_biotechplanttissueculturecbsesim',
-    title: 'Plant Tissue Culture CBSE',
+    title: 'History and Milestones of Plant Tissue Culture',
     subtitle: 'This node covers the historical progression from Haberlandt\'s totipotency concept (1902).',
     classLevel: 12, subject: 'biotechnology', topic: 'History and Milestones of Plant Tissue Culture',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_06_002', 'c12_biotech_cbse_06_003', 'c12_biotech_cbse_06_004', 'c12_biotech_cbse_06_005', 'c12_biotech_cbse_06_007', 'c12_biotech_cbse_06_008', 'c12_biotech_cbse_06_011', 'c12_biotech_cbse_07_001', 'c12_biotech_cbse_07_003', 'c12_biotech_cbse_07_005', 'c12_biotech_cbse_07_006', 'c12_biotech_cbse_07_010', 'c12_biotech_cbse_06_001', 'c12_biotech_cbse_06_006', 'c12_biotech_cbse_07_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a plant breeder in 1900 trying to propagate a rare medicinal plant that produces seeds only.', goal: 'Master Plant Tissue Culture CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a plant breeder in 1900 trying to propagate a rare medicinal plant that produces seeds only.', goal: 'Master History and Milestones of Plant Tissue Culture.' },
     discovery: {
         question: 'A student prepares MS medium but forgets to add the iron source (FeSO₄·7H₂O and Na₂EDTA).',
         options: ['Iron is immobile in plants', 'iron deficiency causes general yellowing of all leaves', 'iron is mobile so old leaves turn yellow first'],
@@ -79,7 +79,7 @@ export const w_c12_biotechplanttissueculturecbsesim: SimDef = {
             { text: 'Verify with literature: Standard brinjal shoot induction uses 2 mg/L BAP + 0.1 mg/L NAA — prediction matches.', faded: true, blankAnswer: '[BAP] = 8.88 μM, [NAA] = 0.54 μM, Ratio = 16.4:1 → Shoot.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_biotech_cbse_06_003', title: 'Identify each idea',
-          dissect: { specimen: 'Plant Tissue Culture CBSE', spots: [
+          dissect: { specimen: 'History and Milestones of Plant Tissue Culture', spots: [
             { id: 's1', label: 'The history and milestones of', prompt: 'Which idea is this? — The history and milestones of plant tissue culture trace the chronological development of.', answer: 'The history and milestones of', options: ['The history and milestones of', 'Murashige and Skoog MS medium', 'Auxins and cytokinins are the', 'Explant selection is the process'] },
             { id: 's2', label: 'Murashige and Skoog MS medium', prompt: 'Which idea is this? — Murashige and Skoog (MS) medium is a chemically defined, widely used plant tissue culture.', answer: 'Murashige and Skoog MS medium', options: ['Murashige and Skoog MS medium', 'The history and milestones of', 'Auxins and cytokinins are the', 'Explant selection is the process'] },
             { id: 's3', label: 'Auxins and cytokinins are the', prompt: 'Which idea is this? — Auxins and cytokinins are the two primary classes of plant growth regulators used in.', answer: 'Auxins and cytokinins are the', options: ['Auxins and cytokinins are the', 'The history and milestones of', 'Murashige and Skoog MS medium', 'Explant selection is the process'] },
@@ -88,7 +88,7 @@ export const w_c12_biotechplanttissueculturecbsesim: SimDef = {
             { id: 's6', label: 'Organogenesis in plant tissue culture', prompt: 'Which idea is this? — Organogenesis in plant tissue culture is the process by which organized structures.', answer: 'Organogenesis in plant tissue culture', options: ['Organogenesis in plant tissue culture', 'The history and milestones of', 'Murashige and Skoog MS medium', 'Auxins and cytokinins are the'] }
           ] } }
     ],
-    explore: { component: C12_BiotechPlantTissueCultureCBSESim, prompt: 'Explore the interactive — Plant Tissue Culture CBSE' },
+    explore: { component: C12_BiotechPlantTissueCultureCBSESim, prompt: 'Explore the interactive — History and Milestones of Plant Tissue Culture' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_biotech_cbse_06_002', difficulty: 'standard',
           question: 'The history and milestones of plant tissue culture trace the chronological.',

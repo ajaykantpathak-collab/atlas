@@ -6,13 +6,13 @@ import C12_EconomicsCrossElasticityDemandSim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_economicscrosselasticitydemandsim: SimDef = {
     id: 'v3w_c12_economicscrosselasticitydemandsim',
-    title: 'Cross Elasticity Demand',
+    title: 'Price Elasticity of Demand: Geometric (Point) Method on Linear Demand Curve',
     subtitle: 'This node covers ONLY the geometric (point) method for measuring price elasticity of.',
     classLevel: 12, subject: 'economics', topic: 'Price Elasticity of Demand: Geometric (Point) Method on Linear Demand Curve',
     chapters: [],
     nodeIds: ['c12_eco_cbse_02_011', 'c12_eco_cbse_02_012', 'c12_eco_cbse_04_009', 'c12_eco_cbse_02_008', 'c12_eco_cbse_02_009', 'c12_eco_cbse_02_010', 'c12_eco_cbse_10_006', 'c12_eco_cbse_04_001', 'c12_eco_cbse_04_002', 'c12_eco_cbse_04_008', 'c12_eco_cbse_06_002', 'c12_eco_cbse_06_005', 'c12_eco_cbse_06_006', 'c12_eco_cbse_06_008', 'c12_eco_cbse_06_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re a vegetable vendor in Delhi\'s Azadpur mandi selling onions.', goal: 'Master Cross Elasticity Demand.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re a vegetable vendor in Delhi\'s Azadpur mandi selling onions.', goal: 'Master Price Elasticity of Demand: Geometric (Point) Method on Linear Demand Curve.' },
     discovery: {
         question: 'On a linear demand curve, elasticity is 1 at the midpoint, greater than 1 above the midpoint, and less than 1 below the midpoint.',
         options: ['Ed = (Lower segment)/(Upper segment)', 'elasticity equals slope', 'elasticity is constant on a straight line'],
@@ -81,7 +81,7 @@ export const w_c12_economicscrosselasticitydemandsim: SimDef = {
             { text: 'Total revenue analysis: TR₁ = 55 × 10,000 = ₹5,50,000. TR₂ = 60 × 9,200 = ₹5,52,000. Revenue INCREASED by ₹2,000.', faded: true, blankAnswer: 'Ed = -0.88 (Inelastic demand). Daily total revenue rises.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_eco_cbse_02_012', title: 'Identify each idea',
-          dissect: { specimen: 'Cross Elasticity Demand', spots: [
+          dissect: { specimen: 'Price Elasticity of Demand: Geometric (Point) Method on Linear Demand Curve', spots: [
             { id: 's1', label: 'Price Elasticity of Demand Ed', prompt: 'Which idea is this? — Price Elasticity of Demand (Ed) at a specific point on a linear demand curve is measured.', answer: 'Price Elasticity of Demand Ed', options: ['Price Elasticity of Demand Ed', 'Price Elasticity of Demand PED', 'Price elasticity of supply Es', 'Demand in economics refers to'] },
             { id: 's2', label: 'Price Elasticity of Demand PED', prompt: 'Which idea is this? — Price Elasticity of Demand (PED) measures the responsiveness of quantity demanded to a.', answer: 'Price Elasticity of Demand PED', options: ['Price Elasticity of Demand PED', 'Price Elasticity of Demand Ed', 'Price elasticity of supply Es', 'Demand in economics refers to'] },
             { id: 's3', label: 'Price elasticity of supply Es', prompt: 'Which idea is this? — Price elasticity of supply (Es) measures the responsiveness of quantity supplied of a.', answer: 'Price elasticity of supply Es', options: ['Price elasticity of supply Es', 'Price Elasticity of Demand Ed', 'Price Elasticity of Demand PED', 'Demand in economics refers to'] },
@@ -89,7 +89,7 @@ export const w_c12_economicscrosselasticitydemandsim: SimDef = {
             { id: 's5', label: 'Movement along the demand curve', prompt: 'Which idea is this? — Movement along the demand curve occurs when quantity demanded changes solely due to a.', answer: 'Movement along the demand curve', options: ['Movement along the demand curve', 'Price Elasticity of Demand Ed', 'Price Elasticity of Demand PED', 'Price elasticity of supply Es'] }
           ] } }
     ],
-    explore: { component: C12_EconomicsCrossElasticityDemandSim, prompt: 'Explore the interactive — Cross Elasticity Demand' },
+    explore: { component: C12_EconomicsCrossElasticityDemandSim, prompt: 'Explore the interactive — Price Elasticity of Demand: Geometric (Point) Method on Linear Demand Curve' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eco_cbse_02_011', difficulty: 'standard',
           question: 'Price Elasticity of Demand (Ed) at a specific point on a linear demand curve is.',

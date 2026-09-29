@@ -6,13 +6,13 @@ import C9_HistoryCivicsCausesRiseJainismSim from '../../../simulations/c6_12/C9_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_historycivicscausesrisejainismsim: SimDef = {
     id: 'v3w_c9_historycivicscausesrisejainismsim',
-    title: 'Causes Rise Jainism',
+    title: 'Vedic Society: Early and Later Vedic Periods',
     subtitle: 'This node covers the internal transformation of Vedic society from c.',
     classLevel: 9, subject: 'history', topic: 'Vedic Society: Early and Later Vedic Periods',
     chapters: [],
     nodeIds: ['c9_hist_ch3_1', 'c9_hist_ch3_2', 'c9_hist_ch3_3', 'c9_hist_ch3_4', 'c9_hist_ch1_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are at a village festival in Haryana where priests chant Rigvedic hymns around a fire altar—those.', goal: 'Master Causes Rise Jainism.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are at a village festival in Haryana where priests chant Rigvedic hymns around a fire altar—those.', goal: 'Master Vedic Society: Early and Later Vedic Periods.' },
     discovery: {
         question: 'Name the three political assemblies mentioned in the Rigveda and state one primary function of each in the Early Vedic period.',
         options: ['The three assemblies are Sabha, Samiti, and Vidatha', 'Sabha elected the king', 'upper house'],
@@ -67,7 +67,7 @@ export const w_c9_historycivicscausesrisejainismsim: SimDef = {
             { text: 'Hypothesize reasons. Different rulers? Copyist error in one source? Different events (accession vs. death)?', faded: true, blankAnswer: 'The dates differ by ~29 years (1144 CE vs. 1173 CE). They.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_hist_ch3_2', title: 'Identify each idea',
-          dissect: { specimen: 'Causes Rise Jainism', spots: [
+          dissect: { specimen: 'Vedic Society: Early and Later Vedic Periods', spots: [
             { id: 's1', label: 'The Vedic Society spans two', prompt: 'Which idea is this? — The Vedic Society spans two distinct phases: the Early Vedic (Rigvedic) period (c.', answer: 'The Vedic Society spans two', options: ['The Vedic Society spans two', 'The Sabha Samiti and Vidatha', 'Janapadas and Mahajanapadas were the', 'Magadhas rise to power and'] },
             { id: 's2', label: 'The Sabha Samiti and Vidatha', prompt: 'Which idea is this? — The Sabha, Samiti, and Vidatha were the three principal political assemblies of the.', answer: 'The Sabha Samiti and Vidatha', options: ['The Sabha Samiti and Vidatha', 'The Vedic Society spans two', 'Janapadas and Mahajanapadas were the', 'Magadhas rise to power and'] },
             { id: 's3', label: 'Janapadas and Mahajanapadas were the', prompt: 'Which idea is this? — Janapadas and Mahajanapadas were the territorial states of ancient India (c.', answer: 'Janapadas and Mahajanapadas were the', options: ['Janapadas and Mahajanapadas were the', 'The Vedic Society spans two', 'The Sabha Samiti and Vidatha', 'Magadhas rise to power and'] },
@@ -75,7 +75,7 @@ export const w_c9_historycivicscausesrisejainismsim: SimDef = {
             { id: 's5', label: 'Timeline and chronology in historical', prompt: 'Which idea is this? — Timeline and chronology in historical study refers to the systematic arrangement of past.', answer: 'Timeline and chronology in historical', options: ['Timeline and chronology in historical', 'The Vedic Society spans two', 'The Sabha Samiti and Vidatha', 'Janapadas and Mahajanapadas were the'] }
           ] } }
     ],
-    explore: { component: C9_HistoryCivicsCausesRiseJainismSim, prompt: 'Explore the interactive — Causes Rise Jainism' },
+    explore: { component: C9_HistoryCivicsCausesRiseJainismSim, prompt: 'Explore the interactive — Vedic Society: Early and Later Vedic Periods' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_hist_ch3_1', difficulty: 'standard',
           question: 'The Vedic Society spans two distinct phases: the Early Vedic (Rigvedic) period.',

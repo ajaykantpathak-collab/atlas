@@ -6,16 +6,16 @@ import C11_BiologyExcretionNitrogenousWastesSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologyexcretionnitrogenouswastessim: SimDef = {
     id: 'v3w_c11_biologyexcretionnitrogenouswastessim',
-    title: 'Excretion Nitrogenous Wastes',
+    title: 'Composition of Urine',
     subtitle: 'Covers: normal physical characteristics (volume, color, pH, specific gravity, odor),.',
     classLevel: 11, subject: 'biology', topic: 'Composition of Urine',
     chapters: [],
     nodeIds: ['c11_bio_cbse_16_006', 'c11_bio_cbse_07_009', 'c11_bio_cbse_16_003', 'c11_bio_cbse_16_007', 'c11_bio_cbse_16_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a routine urinalysis report from a local pathology lab — notice how a simple "dipstick test" reveals.', goal: 'Master Excretion Nitrogenous Wastes.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a routine urinalysis report from a local pathology lab — notice how a simple "dipstick test" reveals.', goal: 'Master Composition of Urine.' },
     discovery: {
         question: 'An APPLY level question: A patient\'s 24-hour urine shows: volume 1.2 L, urea 18 g, creatinine 0.8 g, glucose 45 g, ketones positive.',
-        options: ['Correct answer: Diabetes mellitus (uncontrolled)', 'urine composition is fixed', '"urine composition is fixed"'],
+        options: ['Diabetes mellitus (uncontrolled)', 'urine composition is fixed', '"urine composition is fixed"'],
         answer: 'Diabetes mellitus (uncontrolled)',
         hook: 'Students believe that "urine composition is fixed" — i.e., the kidney produces urine of constant composition regardless.',
     },
@@ -70,7 +70,7 @@ export const w_c11_biologyexcretionnitrogenouswastessim: SimDef = {
             { text: 'Conclude that lungs provide rapid (minutes) CO₂/pH control; kidneys provide slow (days) HCO₃⁻ regeneration —.', faded: true, blankAnswer: 'Impaired CO₂ excretion → elevated PₐCO₂ → right-shift of.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_07_009', title: 'Identify each idea',
-          dissect: { specimen: 'Excretion Nitrogenous Wastes', spots: [
+          dissect: { specimen: 'Composition of Urine', spots: [
             { id: 's1', label: 'Urine composition refers to the', prompt: 'Which idea is this? — Urine composition refers to the quantitative and qualitative profile of dissolved solutes.', answer: 'Urine composition refers to the', options: ['Urine composition refers to the', 'The frogs nervous system comprises', 'Glomerular filtration is the passive', 'Kidney stones renal calculi are'] },
             { id: 's2', label: 'The frogs nervous system comprises', prompt: 'Which idea is this? — The frog\'s nervous system comprises a central nervous system (brain and spinal cord), a.', answer: 'The frogs nervous system comprises', options: ['The frogs nervous system comprises', 'Urine composition refers to the', 'Glomerular filtration is the passive', 'Kidney stones renal calculi are'] },
             { id: 's3', label: 'Glomerular filtration is the passive', prompt: 'Which idea is this? — Glomerular filtration is the passive, non-selective process where blood plasma is forced.', answer: 'Glomerular filtration is the passive', options: ['Glomerular filtration is the passive', 'Urine composition refers to the', 'The frogs nervous system comprises', 'Kidney stones renal calculi are'] },
@@ -78,7 +78,7 @@ export const w_c11_biologyexcretionnitrogenouswastessim: SimDef = {
             { id: 's5', label: 'Accessory excretory organs are non-renal', prompt: 'Which idea is this? — Accessory excretory organs are non-renal structures (lungs, liver, skin) that eliminate.', answer: 'Accessory excretory organs are non-renal', options: ['Accessory excretory organs are non-renal', 'Urine composition refers to the', 'The frogs nervous system comprises', 'Glomerular filtration is the passive'] }
           ] } }
     ],
-    explore: { component: C11_BiologyExcretionNitrogenousWastesSim, prompt: 'Explore the interactive — Excretion Nitrogenous Wastes' },
+    explore: { component: C11_BiologyExcretionNitrogenousWastesSim, prompt: 'Explore the interactive — Composition of Urine' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_16_006', difficulty: 'standard',
           question: 'Urine composition refers to the quantitative and qualitative profile of.',

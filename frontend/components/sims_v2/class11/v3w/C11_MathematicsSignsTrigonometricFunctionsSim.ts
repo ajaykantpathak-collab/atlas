@@ -6,13 +6,13 @@ import C11_MathematicsSignsTrigonometricFunctionsSim from '../../../simulations/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathematicssignstrigonometricfunctionssim: SimDef = {
     id: 'v3w_c11_mathematicssignstrigonometricfunctionssim',
-    title: 'Signs Trigonometric Functions',
+    title: 'Conversion Between Degrees and Radians',
     subtitle: 'This node covers the bidirectional conversion between degree measure (including degrees,.',
     classLevel: 11, subject: 'mathematics', topic: 'Conversion Between Degrees and Radians',
     chapters: [],
     nodeIds: ['c11_math_cbse_03_002', 'c11_math_cbse_03_003', 'c11_math_cbse_03_006', 'c11_math_cbse_03_008', 'c11_math_cbse_02_009', 'c11_math_cbse_03_001', 'c11_math_cbse_03_004', 'c11_math_cbse_03_005', 'c11_math_cbse_03_007', 'c11_math_cbse_03_009', 'c11_math_cbse_03_010', 'c11_math_cbse_03_011', 'c11_math_cbse_03_012', 'c11_math_cbse_03_013', 'c11_math_cbse_03_014'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a Ferris wheel for a Diwali mela. The wheel has a radius of 10 metres, and the.', goal: 'Master Signs Trigonometric Functions.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a Ferris wheel for a Diwali mela. The wheel has a radius of 10 metres, and the.', goal: 'Master Conversion Between Degrees and Radians.' },
     discovery: {
         question: 'State the exact conversion factor to change an angle from degrees to radians, and write the formula for converting 150° to radians in terms of π.',
         options: ['The conversion factor is π/180', 'radians per degree', 'degrees per radian'],
@@ -80,7 +80,7 @@ export const w_c11_mathematicssignstrigonometricfunctionssim: SimDef = {
             { text: 'Substitute π = 22/7: l = 28/3 × 22/7 = (28 × 22) / (3 × 7) = (4 × 22) / 3 = 88/3 = 29 1/3 cm ≈ 29.33 cm.', faded: true, blankAnswer: '88/3 cm or 29 1/3 cm (≈ 29.33 cm)' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_03_003', title: 'Identify each idea',
-          dissect: { specimen: 'Signs Trigonometric Functions', spots: [
+          dissect: { specimen: 'Conversion Between Degrees and Radians', spots: [
             { id: 's1', label: 'The conversion between degree measure', prompt: 'Which idea is this? — The conversion between degree measure and radian measure is based on the equivalence of a.', answer: 'The conversion between degree measure', options: ['The conversion between degree measure', 'For any angle x measured', 'The sign of a trigonometric', 'The Pythagorean identities are three'] },
             { id: 's2', label: 'For any angle x measured', prompt: 'Which idea is this? — For any angle \\(x\\) measured in radians, let \\(P(a, b)\\) be the point on the unit circle.', answer: 'For any angle x measured', options: ['For any angle x measured', 'The conversion between degree measure', 'The sign of a trigonometric', 'The Pythagorean identities are three'] },
             { id: 's3', label: 'The sign of a trigonometric', prompt: 'Which idea is this? — The sign of a trigonometric function in a given quadrant is determined by the signs of.', answer: 'The sign of a trigonometric', options: ['The sign of a trigonometric', 'The conversion between degree measure', 'For any angle x measured', 'The Pythagorean identities are three'] },
@@ -89,7 +89,7 @@ export const w_c11_mathematicssignstrigonometricfunctionssim: SimDef = {
             { id: 's6', label: 'An angle is a measure', prompt: 'Which idea is this? — An angle is a measure of rotation of a ray about its initial point, where the amount of.', answer: 'An angle is a measure', options: ['An angle is a measure', 'The conversion between degree measure', 'For any angle x measured', 'The sign of a trigonometric'] }
           ] } }
     ],
-    explore: { component: C11_MathematicsSignsTrigonometricFunctionsSim, prompt: 'Explore the interactive — Signs Trigonometric Functions' },
+    explore: { component: C11_MathematicsSignsTrigonometricFunctionsSim, prompt: 'Explore the interactive — Conversion Between Degrees and Radians' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_03_002', difficulty: 'standard',
           question: 'The conversion between degree measure and radian measure is based on the.',

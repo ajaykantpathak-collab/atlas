@@ -66,6 +66,9 @@ def _is_referenced(name: str, source: str) -> bool:
         rf"from\s+{name}\s+import",
         rf"import\s+{name}\b",
         rf"from\s+\.\s*{name}\b",
+        # parenthesized multi-line form:  from backend.services import (
+        #                                     some_service as alias,
+        rf"import\s*\([^)]*\b{name}\b",
     )
     return any(re.search(p, source) for p in patterns)
 

@@ -6,13 +6,13 @@ import C12_BiologyEvolutionNaturalSelectionSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologyevolutionnaturalselectionsim: SimDef = {
     id: 'v3w_c12_biologyevolutionnaturalselectionsim',
-    title: 'Evolution Natural Selection',
+    title: 'Theory of Natural Selection: Darwin\'s Postulates',
     subtitle: 'Covers Darwin\'s four postulates (overproduction, variation, struggle for existence,.',
     classLevel: 12, subject: 'biology', topic: 'Theory of Natural Selection: Darwin\'s Postulates',
     chapters: [],
     nodeIds: ['c12_bio_cbse_07_002', 'c12_bio_cbse_07_006', 'c12_bio_cbse_07_007', 'c12_bio_cbse_13_003', 'c12_bio_cbse_07_005', 'c12_bio_cbse_07_008', 'c12_bio_cbse_04_002', 'c12_bio_cbse_11_005', 'c12_bio_cbse_07_001', 'c12_bio_cbse_07_003', 'c12_bio_cbse_07_004', 'c12_bio_cbse_07_009', 'c12_bio_cbse_13_006', 'c12_bio_cbse_09_004', 'c12_bio_cbse_01_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a bacterial culture on an agar plate with an antibiotic gradient: most bacteria die near the.', goal: 'Master Evolution Natural Selection.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a bacterial culture on an agar plate with an antibiotic gradient: most bacteria die near the.', goal: 'Master Theory of Natural Selection: Darwin\'s Postulates.' },
     discovery: {
         question: 'A population of mosquitoes is exposed to a new insecticide. After 10 generations, 95% are resistant.',
         options: ['Step 1: Overproduction', 'mosquitoes developed resistance', 'survival of the fittest'],
@@ -79,7 +79,7 @@ export const w_c12_biologyevolutionnaturalselectionsim: SimDef = {
             { text: 'Conclude that the population\'s average beak depth increased due to natural selection acting on heritable variation.', faded: true, blankAnswer: 'The drought selected for deeper beaks because only birds.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_07_006', title: 'Identify each idea',
-          dissect: { specimen: 'Evolution Natural Selection', spots: [
+          dissect: { specimen: 'Theory of Natural Selection: Darwin\'s Postulates', spots: [
             { id: 's1', label: 'Darwins theory of natural selection', prompt: 'Which idea is this? — Darwin\'s theory of natural selection proposes that evolution occurs through the.', answer: 'Darwins theory of natural selection', options: ['Darwins theory of natural selection', 'Microevolution is the change in', 'Speciation is the evolutionary process', 'An adaptation is a heritable'] },
             { id: 's2', label: 'Microevolution is the change in', prompt: 'Which idea is this? — Microevolution is the change in allele frequencies within a population over successive.', answer: 'Microevolution is the change in', options: ['Microevolution is the change in', 'Darwins theory of natural selection', 'Speciation is the evolutionary process', 'An adaptation is a heritable'] },
             { id: 's3', label: 'Speciation is the evolutionary process', prompt: 'Which idea is this? — Speciation is the evolutionary process by which populations of a single species diverge.', answer: 'Speciation is the evolutionary process', options: ['Speciation is the evolutionary process', 'Darwins theory of natural selection', 'Microevolution is the change in', 'An adaptation is a heritable'] },
@@ -88,7 +88,7 @@ export const w_c12_biologyevolutionnaturalselectionsim: SimDef = {
             { id: 's6', label: 'Adaptive radiation is the process', prompt: 'Which idea is this? — Adaptive radiation is the process by which a single ancestral species rapidly diversifies.', answer: 'Adaptive radiation is the process', options: ['Adaptive radiation is the process', 'Darwins theory of natural selection', 'Microevolution is the change in', 'Speciation is the evolutionary process'] }
           ] } }
     ],
-    explore: { component: C12_BiologyEvolutionNaturalSelectionSim, prompt: 'Explore the interactive — Evolution Natural Selection' },
+    explore: { component: C12_BiologyEvolutionNaturalSelectionSim, prompt: 'Explore the interactive — Theory of Natural Selection: Darwin\'s Postulates' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_07_002', difficulty: 'standard',
           question: 'Darwin\'s theory of natural selection proposes that evolution occurs through the.',

@@ -6,13 +6,13 @@ import C12_BiologyBiodiversityAndConservationSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologybiodiversityandconservationsim: SimDef = {
     id: 'v3w_c12_biologybiodiversityandconservationsim',
-    title: 'Biodiversity And Conservation',
+    title: 'Abiotic Factors: Temperature, Water, Light',
     subtitle: 'Covers temperature (eurythermal/stenothermal, thermal stratification), water (osmotic.',
     classLevel: 12, subject: 'biology', topic: 'Abiotic Factors: Temperature, Water, Light',
     chapters: [],
     nodeIds: ['c12_bio_cbse_13_002', 'c12_bio_cbse_06_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine standing in the Thar Desert at noon — the sand burns your feet (temperature), your throat is parched.', goal: 'Master Biodiversity And Conservation.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine standing in the Thar Desert at noon — the sand burns your feet (temperature), your throat is parched.', goal: 'Master Abiotic Factors: Temperature, Water, Light.' },
     discovery: {
         question: 'Define the term \'stenothermal\' and give one example each of a stenothermal animal and a stenothermal plant from Indian ecosystems.',
         options: ['Stenothermal organisms tolerate only a narrow temperature range', 'polar bear in India', 'cactus'],
@@ -42,12 +42,12 @@ export const w_c12_biologybiodiversityandconservationsim: SimDef = {
             { text: 'The product is an extremely small number (e.g., ~1 in 10^15). Conclude that the chance of a random unrelated individual.', faded: true, blankAnswer: 'RMP ≈ 1.2 × 10⁻¹⁵ (example value). Interpretation: The.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_06_010', title: 'Identify each idea',
-          dissect: { specimen: 'Biodiversity And Conservation', spots: [
+          dissect: { specimen: 'Abiotic Factors: Temperature, Water, Light', spots: [
             { id: 's1', label: 'Abiotic factors are the non-living', prompt: 'Which idea is this? — Abiotic factors are the non-living physical and chemical components of an ecosystem —.', answer: 'Abiotic factors are the non-living', options: ['Abiotic factors are the non-living', 'DNA fingerprinting is a molecular'] },
             { id: 's2', label: 'DNA fingerprinting is a molecular', prompt: 'Which idea is this? — DNA fingerprinting is a molecular technique that identifies individuals by detecting.', answer: 'DNA fingerprinting is a molecular', options: ['DNA fingerprinting is a molecular', 'Abiotic factors are the non-living'] }
           ] } }
     ],
-    explore: { component: C12_BiologyBiodiversityAndConservationSim, prompt: 'Explore the interactive — Biodiversity And Conservation' },
+    explore: { component: C12_BiologyBiodiversityAndConservationSim, prompt: 'Explore the interactive — Abiotic Factors: Temperature, Water, Light' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_13_002', difficulty: 'standard',
           question: 'Abiotic factors are the non-living physical and chemical components of an.',

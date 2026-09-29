@@ -6,13 +6,13 @@ import C11_BiologyAnimalKingdomOrganizationSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologyanimalkingdomorganizationsim: SimDef = {
     id: 'v3w_c11_biologyanimalkingdomorganizationsim',
-    title: 'Animal Kingdom Organization',
+    title: 'Cellular Organisation and Consciousness',
     subtitle: 'Covers cellular organisation as a defining characteristic of life (cell theory, levels of.',
     classLevel: 11, subject: 'biology', topic: 'Cellular Organisation and Consciousness',
     chapters: [],
     nodeIds: ['c11_bio_cbse_01_003', 'c11_bio_cbse_04_005', 'c11_bio_cbse_01_005', 'c11_bio_cbse_04_001', 'c11_bio_cbse_04_002', 'c11_bio_cbse_04_007', 'c11_bio_cbse_04_008', 'c11_bio_cbse_04_009', 'c11_bio_cbse_04_010', 'c11_bio_cbse_04_011', 'c11_bio_cbse_04_013', 'c11_bio_cbse_02_001', 'c11_bio_cbse_02_008', 'c11_bio_cbse_03_004', 'c11_bio_cbse_04_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a drop of stagnant pond water under a microscope — you see Paramecium, a single cell performing.', goal: 'Master Animal Kingdom Organization.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a drop of stagnant pond water under a microscope — you see Paramecium, a single cell performing.', goal: 'Master Cellular Organisation and Consciousness.' },
     discovery: {
         question: 'Evaluate this claim: "Viruses show cellular organisation because they contain genetic material (DNA/RNA) enclosed in a protein coat, and they respond to host.',
         options: ['Incorrect', 'having genetic material', 'being cellularly organised'],
@@ -84,7 +84,7 @@ export const w_c11_biologyanimalkingdomorganizationsim: SimDef = {
             { text: 'Combine: pseudocoelomate + complete gut + unsegmented + bilateral + triploblastic = Phylum Aschelminthes.', faded: true, blankAnswer: 'Phylum Aschelminthes. Justification: (1) Pseudocoelomate.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_04_005', title: 'Identify each idea',
-          dissect: { specimen: 'Animal Kingdom Organization', spots: [
+          dissect: { specimen: 'Cellular Organisation and Consciousness', spots: [
             { id: 's1', label: 'Cellular organisation is the defining', prompt: 'Which idea is this? — Cellular organisation is the defining structural hierarchy of life where cells (the basic.', answer: 'Cellular organisation is the defining', options: ['Cellular organisation is the defining', 'Phylum Ctenophora comprises exclusively marine', 'Taxonomic hierarchy is the systematic', 'Symmetry refers to the geometric'] },
             { id: 's2', label: 'Phylum Ctenophora comprises exclusively marine', prompt: 'Which idea is this? — Phylum Ctenophora comprises exclusively marine, radially symmetrical, diploblastic.', answer: 'Phylum Ctenophora comprises exclusively marine', options: ['Phylum Ctenophora comprises exclusively marine', 'Cellular organisation is the defining', 'Taxonomic hierarchy is the systematic', 'Symmetry refers to the geometric'] },
             { id: 's3', label: 'Taxonomic hierarchy is the systematic', prompt: 'Which idea is this? — Taxonomic hierarchy is the systematic arrangement of organisms into a ranked series of.', answer: 'Taxonomic hierarchy is the systematic', options: ['Taxonomic hierarchy is the systematic', 'Cellular organisation is the defining', 'Phylum Ctenophora comprises exclusively marine', 'Symmetry refers to the geometric'] },
@@ -93,7 +93,7 @@ export const w_c11_biologyanimalkingdomorganizationsim: SimDef = {
             { id: 's6', label: 'Phylum Aschelminthes Nemathelminthes comprises bilaterally', prompt: 'Which idea is this? — Phylum Aschelminthes (Nemathelminthes) comprises bilaterally symmetrical, triploblastic,.', answer: 'Phylum Aschelminthes Nemathelminthes comprises bilaterally', options: ['Phylum Aschelminthes Nemathelminthes comprises bilaterally', 'Cellular organisation is the defining', 'Phylum Ctenophora comprises exclusively marine', 'Taxonomic hierarchy is the systematic'] }
           ] } }
     ],
-    explore: { component: C11_BiologyAnimalKingdomOrganizationSim, prompt: 'Explore the interactive — Animal Kingdom Organization' },
+    explore: { component: C11_BiologyAnimalKingdomOrganizationSim, prompt: 'Explore the interactive — Cellular Organisation and Consciousness' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_01_003', difficulty: 'standard',
           question: 'Cellular organisation is the defining structural hierarchy of life where cells.',

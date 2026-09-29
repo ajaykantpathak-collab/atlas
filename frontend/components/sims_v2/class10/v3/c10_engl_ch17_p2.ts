@@ -71,7 +71,7 @@ export const c10_engl_ch17_p2: SimDef = {
           ],
             remediations: { 'students-equate-education-in-bholi': { steps: ['Re-read the three key scenes (first day, study months, wedding) with a highlighter marking only words showing *Bholi\'s.', 'Make a two-column table: Column A = "What education gave her" (voice, literacy, awareness); Column B = "What she did.', 'Practice one PEEL paragraph using only Column A→B pairs.', 'Verify each Point starts with "Education gave her..." not "The teacher gave her..."'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_engl_cbse_17_008', difficulty: 'standard',
-          question: 'Character analysis of a supporting character involves examining the teacher\'s.',
+          question: 'From \'simpleton\': the skill or concept this node teaches, applied to the actual.',
           hint: 'If stuck, re-read the **first day scene** (node 003) and list every adjective used for.',
           misconception: 'Students conflate "the teacher taught her to read/write" with "the teacher transformed her." They write: *"The teacher.',
           parts: [

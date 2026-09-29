@@ -6,13 +6,13 @@ import C11_AccountancyFromExtractBothSim from '../../../simulations/c6_12/C11_Ac
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_accountancyfromextractbothsim: SimDef = {
     id: 'v3w_c11_accountancyfromextractbothsim',
-    title: 'From Extract Both',
+    title: 'Preparation of Trial Balance: Totals Method and Balances Method',
     subtitle: 'This node covers the two primary methods of preparing a Trial Balance (Totals Method and.',
     classLevel: 11, subject: 'accountancy', topic: 'Preparation of Trial Balance: Totals Method and Balances Method',
     chapters: [],
     nodeIds: ['c11_acc_cbse_06_002', 'c11_acc_cbse_08_006', 'c11_acc_cbse_02_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re helping your uncle reconcile his shop\'s books at month-end.', goal: 'Master From Extract Both.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re helping your uncle reconcile his shop\'s books at month-end.', goal: 'Master Preparation of Trial Balance: Totals Method and Balances Method.' },
     discovery: {
         question: 'Two students marshall the same Balance Sheet differently. Student A uses Order of Permanence: Land → Building → Machinery → Furniture → Debtors → Cash.',
         options: ['Both orders are acceptable', 'one correct format', 'Stock ₹30,000'],
@@ -51,13 +51,13 @@ export const w_c11_accountancyfromextractbothsim: SimDef = {
             { text: 'Verify: The loss of ₹8,000 (200 × ₹40) is recognised immediately in the current period\'s profit & loss, while the.', faded: true, blankAnswer: '₹92,000 (200 units × ₹460 NRV)' }
             ] } },
         { type: 'dissect', nodeId: 'c11_acc_cbse_08_006', title: 'Identify each idea',
-          dissect: { specimen: 'From Extract Both', spots: [
+          dissect: { specimen: 'Preparation of Trial Balance: Totals Method and Balances Method', spots: [
             { id: 's1', label: 'A Trial Balance is a', prompt: 'Which idea is this? — A Trial Balance is a statement that lists all ledger accounts with their respective debit.', answer: 'A Trial Balance is a', options: ['A Trial Balance is a', 'A Balance Sheet is a', 'The Conservatism Prudence Concept requires'] },
             { id: 's2', label: 'A Balance Sheet is a', prompt: 'Which idea is this? — A Balance Sheet is a positional statement prepared at a specific date (typically the end.', answer: 'A Balance Sheet is a', options: ['A Balance Sheet is a', 'A Trial Balance is a', 'The Conservatism Prudence Concept requires'] },
             { id: 's3', label: 'The Conservatism Prudence Concept requires', prompt: 'Which idea is this? — The **Conservatism (Prudence) Concept** requires that anticipated losses be recognised.', answer: 'The Conservatism Prudence Concept requires', options: ['The Conservatism Prudence Concept requires', 'A Trial Balance is a', 'A Balance Sheet is a'] }
           ] } }
     ],
-    explore: { component: C11_AccountancyFromExtractBothSim, prompt: 'Explore the interactive — From Extract Both' },
+    explore: { component: C11_AccountancyFromExtractBothSim, prompt: 'Explore the interactive — Preparation of Trial Balance: Totals Method and Balances Method' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_acc_cbse_06_002', difficulty: 'standard',
           question: 'A Trial Balance is a statement that lists all ledger accounts with their.',

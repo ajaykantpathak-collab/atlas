@@ -6,13 +6,13 @@ import C11_BiologyNephronFiltrationSim from '../../../simulations/three/C11_Biol
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologynephronfiltrationsim: SimDef = {
     id: 'v3w_c11_biologynephronfiltrationsim',
-    title: 'Nephron Filtration',
+    title: 'Human Excretory System: Kidney Structure',
     subtitle: 'This node covers the gross and microscopic anatomy of the human kidney and excretory.',
     classLevel: 11, subject: 'biology', topic: 'Human Excretory System: Kidney Structure',
     chapters: [],
     nodeIds: ['c11_bio_cbse_16_001', 'c11_bio_cbse_16_002', 'c11_bio_cbse_16_004', 'c11_bio_cbse_16_005', 'c11_bio_cbse_16_003', 'c11_bio_cbse_16_006', 'c11_bio_cbse_16_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to place their hands on their lower back, just below the rib cage — this is where.', goal: 'Master Nephron Filtration.' },
+    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to place their hands on their lower back, just below the rib cage — this is where.', goal: 'Master Human Excretory System: Kidney Structure.' },
     discovery: {
         question: 'A patient has a congenital defect where the tight junctions between PCT epithelial cells are "leaky" (abnormally high paracellular permeability).',
         options: ['glucose reabsorption, (', 'The loop of Henle *concentrates* the filtrate throughout its length', 'filtrate gets progressively more concentrated'],
@@ -81,7 +81,7 @@ export const w_c11_biologynephronfiltrationsim: SimDef = {
             { text: 'Interpretation: Urea clearance (37.5) < GFR (110) because urea is partially reabsorbed (~50% typically; here 66% due to.', faded: true, blankAnswer: '(a) 44 mg/min, (b) 15 mg/min, (c) 65.9%, (d) 37.5 mL/min..' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_16_002', title: 'Identify each idea',
-          dissect: { specimen: 'Nephron Filtration', spots: [
+          dissect: { specimen: 'Human Excretory System: Kidney Structure', spots: [
             { id: 's1', label: 'The human excretory system consists', prompt: 'Which idea is this? — The human excretory system consists of a pair of bean-shaped kidneys located.', answer: 'The human excretory system consists', options: ['The human excretory system consists', 'A nephron is the microscopic', 'Tubular reabsorption is the selective', 'Regulation of kidney function refers'] },
             { id: 's2', label: 'A nephron is the microscopic', prompt: 'Which idea is this? — A nephron is the microscopic structural and functional unit of the kidney, composed of a.', answer: 'A nephron is the microscopic', options: ['A nephron is the microscopic', 'The human excretory system consists', 'Tubular reabsorption is the selective', 'Regulation of kidney function refers'] },
             { id: 's3', label: 'Tubular reabsorption is the selective', prompt: 'Which idea is this? — Tubular reabsorption is the selective process by which the renal tubules reclaim.', answer: 'Tubular reabsorption is the selective', options: ['Tubular reabsorption is the selective', 'The human excretory system consists', 'A nephron is the microscopic', 'Regulation of kidney function refers'] },
@@ -90,7 +90,7 @@ export const w_c11_biologynephronfiltrationsim: SimDef = {
             { id: 's6', label: 'Urine composition refers to the', prompt: 'Which idea is this? — Urine composition refers to the quantitative and qualitative profile of dissolved solutes.', answer: 'Urine composition refers to the', options: ['Urine composition refers to the', 'The human excretory system consists', 'A nephron is the microscopic', 'Tubular reabsorption is the selective'] }
           ] } }
     ],
-    explore: { component: C11_BiologyNephronFiltrationSim, prompt: 'Explore the interactive — Nephron Filtration' },
+    explore: { component: C11_BiologyNephronFiltrationSim, prompt: 'Explore the interactive — Human Excretory System: Kidney Structure' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_16_001', difficulty: 'standard',
           question: 'The human excretory system consists of a pair of bean-shaped kidneys located.',

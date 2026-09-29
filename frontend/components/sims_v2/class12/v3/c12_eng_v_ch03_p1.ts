@@ -19,49 +19,49 @@ export const c12_eng_v_ch03_p1: SimDef = {
         hook: 'This isn\'t a travelogue — it\'s a geological argument wearing a journey\'s clothes. Antarctica\'s ice cores hold half a million years of carbon records; Gondwana\'s breakup rearranged the climate once, and our emissions are rearranging it again — the same scale of forcing, at a thousand times the speed.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'The "Before You Read" section is a pre-reading pedagogical tool that activates prior knowledge, establishes essential historical-geographical context (Gondwana, Antarctic climate records), and sets.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Journey to the End of the Earth\' (Vistas, ch. 3) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_03_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Join Students on Ice at the bottom of the world: read the continent as archive — Gondwana\'s drift, the circumpolar current, the frozen carbon diary — and weigh why teenagers, not tourists, were taken there.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_03_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re a student in Chennai (13°N) planning a virtual expedition to the South Pole — what would you need to know before you "go"?',
+          caseStudy: { intro: 'Start with the author of \'Journey to the End of the Earth\', then the period, then the literary context — background turns a text from a puzzle into a story you.',
             decisions: [{ prompt: 'What is the single sentence in the "Before You Read" box, and what does it claim about Antarctica\'s value for understanding Earth?', options: [
                 { text: 'The box reads: "If you want to know more about the planet\'s past, present and future, the', outcome: 'The box reads: "If you want to know more about the planet\'s past, present and future, the.' },
                 { text: 'It\'s about a trip to Antarctica', outcome: 'Not quite — Students treat "Before You Read" as a skippable summary or a simple travel introduction.', reveals: 'students-treat-before-you-read' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_03_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are planning a trip to a remote place and want to write about it not just as a diary but as a story that changes how readers see the world.',
+          caseStudy: { intro: 'Trace \'Journey to the End of the Earth\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the narrative point of view used in "Journey to the End of the Earth" and how does it shape the reader\'s experience of the.', options: [
                 { text: 'The text uses a first-person reflective point of view ("I found myself aboard...", "my', outcome: 'The text uses a first-person reflective point of view ("I found myself aboard...", "my first.' },
                 { text: 'third-person omniscient', outcome: 'Not quite — Students often treat this text as a linear travel diary and write plot summaries that go: "She.', reveals: 'students-often-treat-this-text' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_03_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine standing on a frozen ocean where the only sounds are your breath and a distant ice shelf cracking — no trees, buildings, or human markers for.',
+          caseStudy: { intro: 'Identify where and when \'Journey to the End of the Earth\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'Define "setting" and "atmosphere" in a literary context. How are they different?', options: [
                 { text: 'Setting is the concrete time, place, and physical environment (e.g., "Antarctica, austral', outcome: 'Setting is the concrete time, place, and physical environment (e.g., "Antarctica, austral summer.' },
                 { text: 'setting is the mood', outcome: 'Not quite — Students treat "setting" as a static backdrop (listing where/when) and "atmosphere" as a single.', reveals: 'students-treat-setting-as-a' },
                 { text: 'how does the author create atmosphere?', outcome: 'Not quite — Students treat "setting" as a static backdrop (listing where/when) and "atmosphere" as a single.', reveals: 'students-treat-setting-as-a' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_03_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'ve just returned from a school trip to Ladakh — the freezing wind, the stark mountains, the silence that makes you hear your own heartbeat.',
+          caseStudy: { intro: 'Pick the central figure in \'Journey to the End of the Earth\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the narrator\'s stated profession or primary identity as implied in the text, and how does it shape her perspective on Antarctica?', options: [
                 { text: 'The narrator identifies as a "sun-worshipping South Indian" and a writer/poet (implied by', outcome: 'The narrator identifies as a "sun-worshipping South Indian" and a writer/poet (implied by her.' },
                 { text: 'she is a climate scientist', outcome: 'Not quite — Students often treat the narrator as a transparent window — "just the author telling what happened".', reveals: 'students-often-treat-the-narrator' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_03_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re watching a documentary about a school trip to Antarctica — the narrator is the filmmaker, but the teacher leading the trip, the ship\'s captain.',
+          caseStudy: { intro: 'Spot the secondary figures in \'Journey to the End of the Earth\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'Name the three main supporting human characters or character-groups in "Journey to the End of the Earth" and state one key action.', options: [
                 { text: 'Correct answer: (1) Geoff Green — Canadian head of Students on Ice, "got tired of carting', outcome: 'Correct answer: (1) Geoff Green — Canadian head of Students on Ice, "got tired of carting.' },
                 { text: 'got tired of carting celebrities and retired, rich, curiosity-seekers', outcome: 'Not quite — Students consistently treat supporting characters as "minor characters" who need less analysis.', reveals: 'students-consistently-treat-supporting-character' },
                 { text: 'new understanding and respect for our planet', outcome: 'Not quite — Students consistently treat supporting characters as "minor characters" who need less analysis.', reveals: 'students-consistently-treat-supporting-character' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_03_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are a Class 12 student who has heard "climate change is real" a hundred times but feels disconnected from it because you live in a bustling Indian.',
+          caseStudy: { intro: 'Ask what \'Journey to the End of the Earth\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the central geological event referenced in the chapter that explains the historical connection between India and Antarctica?', options: [
                 { text: 'The central geological event is the existence and breakup of Gondwana, a southern', outcome: 'The central geological event is the existence and breakup of Gondwana, a southern supercontinent.' },
                 { text: 'the formation of the Himalayas', outcome: 'Not quite — Students often reduce the primary theme to "climate change is dangerous" or "Antarctica.', reveals: 'students-often-reduce-the-primary' },
@@ -81,21 +81,21 @@ export const c12_eng_v_ch03_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_001', difficulty: 'standard',
-          question: 'The "Before You Read" section is a pre-reading pedagogical tool that activates.',
+          question: '\'Journey to the End of the Earth\' (Vistas, ch. 3) — the context and background.',
           hint: 'If stuck, revisit c11_eng_h_cbse_01_001 (thesis-first reading) and c9_engl_ch3_7.',
           misconception: 'Students treat "Before You Read" as a skippable summary or a simple travel introduction.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The "Before You Read" section is a pre-reading pedagogical tool that activates prior',
-                  options: ['The "Before You Read" section is a pre-reading pedagogical tool that activates prior', 'Plot and narrative structure in a non-fiction travelogue like "Journey to the End of the', 'Setting refers to the time, place, and physical environment where a narrative unfolds', 'Character analysis of the protagonist in a first-person non-fiction travelogue involves'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'Journey to the End of the Earth\' (Vistas, ch',
+                  options: ['\'Journey to the End of the Earth\' (Vistas, ch', 'The plot/narrative arc of \'Journey to the End of the Earth\'', 'The setting of \'Journey to the End of the Earth\'', 'Character analysis in \'Journey to the End of the Earth\''],
                   hint: 'If stuck, revisit c11_eng_h_cbse_01_001 (thesis-first reading) and c9_engl_ch3_7 (expository.',
                   misconception: 'Students treat "Before You Read" as a skippable summary or a simple travel introduction.' }
           ],
-            remediations: { 'students-treat-before-you-read': { steps: ['Re-read only the "Before You Read" box and the first two pages (up to "Human impact").', 'Create a three-column table: Column A = Claim in the box ("past, present, future"), Column B = Evidence in text.', 'Orally explain each row to a peer.', 'Re-attempt Diagnostic Question 2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-before-you-read': { steps: ['Re-read only the "Before You Read" box and the first two pages (up to "Human impact").', 'Create a three-column table: Column A = Claim in the box ("past, present, future"), Column B = Evidence in text.', 'Orally explain each row to a peer.', 'Re-attempt Diagnostic Question 2.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_001', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -106,9 +106,9 @@ export const c12_eng_v_ch03_p1: SimDef = {
                   hint: 'If stuck, revisit c11_eng_h_cbse_01_001 (thesis-first reading) and c9_engl_ch3_7 (expository.',
                   misconception: 'Students treat "Before You Read" as a skippable summary or a simple travel introduction.' }
           ],
-            remediations: { 'students-treat-before-you-read': { steps: ['Re-read only the "Before You Read" box and the first two pages (up to "Human impact").', 'Create a three-column table: Column A = Claim in the box ("past, present, future"), Column B = Evidence in text.', 'Orally explain each row to a peer.', 'Re-attempt Diagnostic Question 2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-before-you-read': { steps: ['Re-read only the "Before You Read" box and the first two pages (up to "Human impact").', 'Create a three-column table: Column A = Claim in the box ("past, present, future"), Column B = Evidence in text.', 'Orally explain each row to a peer.', 'Re-attempt Diagnostic Question 2.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_002', difficulty: 'standard',
-          question: 'Plot and narrative structure in a non-fiction travelogue like "Journey to the.',
+          question: 'The plot/narrative arc of \'Journey to the End of the Earth\' — what happens,.',
           hint: 'Review Class 11 Hornbill Chapter 1 "The Portrait of a Lady" or Snapshot Chapter 1 "The.',
           misconception: 'Students often treat this text as a linear travel diary and write plot summaries that go: "She travelled, saw Gondwana.',
           parts: [
@@ -117,9 +117,9 @@ export const c12_eng_v_ch03_p1: SimDef = {
                   hint: 'Review Class 11 Hornbill Chapter 1 "The Portrait of a Lady" or Snapshot Chapter 1 "The Summer.',
                   misconception: 'Students often treat this text as a linear travel diary and write plot summaries that go: "She travelled, saw Gondwana history, learned.' }
           ],
-            remediations: { 'students-often-treat-this-text': { steps: ['If a student cannot map the non-linear structure: (1) Have them draw a timeline with two parallel tracks: "Author\'s.', '(2) Ask them to label each paragraph with its *function* (e.g., "hook", "geological reframing", "diagnosis".', '(3) Re-read only the first and last paragraphs to see the circular structure.', '(4) Re-attempt Diagnostic Question 3 and 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-this-text': { steps: ['If a student cannot map the non-linear structure: (1) Have them draw a timeline with two parallel tracks: "Author\'s.', '(2) Ask them to label each paragraph with its *function* (e.g., "hook", "geological reframing", "diagnosis".', '(3) Re-read only the first and last paragraphs to see the circular structure.', '(4) Re-attempt Diagnostic Question 3 and 5.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and physical environment where a narrative.',
+          question: 'The setting of \'Journey to the End of the Earth\' — the place, time and.',
           hint: 'If stuck, revisit Class 7 "Atmosphere: Heat, Silence and Anticipation in the Jungle".',
           misconception: 'Students treat "setting" as a static backdrop (listing where/when) and "atmosphere" as a single label (e.g., "scary,".',
           parts: [
@@ -128,20 +128,20 @@ export const c12_eng_v_ch03_p1: SimDef = {
                   hint: 'If stuck, revisit Class 7 "Atmosphere: Heat, Silence and Anticipation in the Jungle".',
                   misconception: 'Students treat "setting" as a static backdrop (listing where/when) and "atmosphere" as a single label (e.g., "scary," "peaceful").' }
           ],
-            remediations: { 'students-treat-setting-as-a': { steps: ['Have the student re-read paragraphs 1, 3, 5, and 7 with a two-column table: Column A = "Exact sensory detail from text".', 'Ask them to draw arrows showing how Column B shifts across paragraphs.', 'Practice with a familiar local place (Class 7 node c7_engl_ch04_005 "Atmosphere: Heat, Silence and Anticipation in the.', 'Re-attempt Diagnostic Question 4 after the table exercise.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-setting-as-a': { steps: ['Have the student re-read paragraphs 1, 3, 5, and 7 with a two-column table: Column A = "Exact sensory detail from text".', 'Ask them to draw arrows showing how Column B shifts across paragraphs.', 'Practice with a familiar local place (Class 7 node c7_engl_ch04_005 "Atmosphere: Heat, Silence and Anticipation in the.', 'Re-attempt Diagnostic Question 4 after the table exercise.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a first-person non-fiction travelogue.',
+          question: 'Character analysis in \'Journey to the End of the Earth\' — the central.',
           hint: 'If stuck, review "First-person narrative perspective in non-fiction" from Class 11.',
           misconception: 'Students often treat the narrator as a transparent window — "just the author telling what happened" — and miss that she.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist in a first-person non-fiction travelogue involves',
-                  options: ['Character analysis of the protagonist in a first-person non-fiction travelogue involves', 'The "Before You Read" section is a pre-reading pedagogical tool that activates prior', 'Plot and narrative structure in a non-fiction travelogue like "Journey to the End of the', 'Setting refers to the time, place, and physical environment where a narrative unfolds'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis in \'Journey to the End of the Earth\'',
+                  options: ['Character analysis in \'Journey to the End of the Earth\'', '\'Journey to the End of the Earth\' (Vistas, ch', 'The plot/narrative arc of \'Journey to the End of the Earth\'', 'The setting of \'Journey to the End of the Earth\''],
                   hint: 'If stuck, review "First-person narrative perspective in non-fiction" from Class 11.',
                   misconception: 'Students often treat the narrator as a transparent window — "just the author telling what happened" — and miss that she is a crafted.' }
           ],
-            remediations: { 'students-often-treat-the-narrator': { steps: ['Re-read paragraphs 1, 4, and 7 marking every first-person pronoun and verb ("I found," "I was," "I thought").', 'Create a two-column table: left column = personal/physical reactions; right column = intellectual/moral reflections.', 'Draw arrows showing how each left-column item leads to a right-column expansion (e.g., physical cold → imaginative.', 'Re-attempt Diagnostic Question 4 using this table.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-narrator': { steps: ['Re-read paragraphs 1, 4, and 7 marking every first-person pronoun and verb ("I found," "I was," "I thought").', 'Create a two-column table: left column = personal/physical reactions; right column = intellectual/moral reflections.', 'Draw arrows showing how each left-column item leads to a right-column expansion (e.g., physical cold → imaginative.', 'Re-attempt Diagnostic Question 4 using this table.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_005', difficulty: 'standard',
-          question: 'Supporting characters in "Journey to the End of the Earth" are the individuals.',
+          question: 'Supporting characters in \'Journey to the End of the Earth\' — the secondary.',
           hint: 'If confused, review "Character Analysis: Protagonist" (c12_eng_v_cbse_03_004) and note.',
           misconception: 'Students consistently treat supporting characters as "minor characters" who need less analysis, writing answers like.',
           parts: [
@@ -150,18 +150,18 @@ export const c12_eng_v_ch03_p1: SimDef = {
                   hint: 'If confused, review "Character Analysis: Protagonist" (c12_eng_v_cbse_03_004) and note how the.',
                   misconception: 'Students consistently treat supporting characters as "minor characters" who need less analysis, writing answers like "Geoff Green runs the.' }
           ],
-            remediations: { 'students-consistently-treat-supporting-character': { steps: ['If a student cannot distinguish character-function from character-description: Step 1 — Have them reread only the.', 'Step 2 — Ask: "What argument does each verb make?" (Green: "got tired," "offers," "foster" → moral choice; Captain.', 'Step 3 — Have them complete a two-column table: Character | Action Verbs | Theme Advanced.', 'Step 4 — Re-attempt Diagnostic Question 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-consistently-treat-supporting-character': { steps: ['If a student cannot distinguish character-function from character-description: Step 1 — Have them reread only the.', 'Step 2 — Ask: "What argument does each verb make?" (Green: "got tired," "offers," "foster" → moral choice; Captain.', 'Step 3 — Have them complete a two-column table: Character | Action Verbs | Theme Advanced.', 'Step 4 — Re-attempt Diagnostic Question 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_006', difficulty: 'standard',
-          question: 'The primary theme of "Journey to the End of the Earth" is the.',
+          question: 'The primary theme of \'Journey to the End of the Earth\' — the central idea the.',
           hint: 'If stuck, revisit c11_eng_h_cbse_01_006 (Theme: Primary Theme and Message in Hornbill.',
           misconception: 'Students often reduce the primary theme to "climate change is dangerous" or "Antarctica is beautiful and we should.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of "Journey to the End of the Earth" is the interconnectedness of',
-                  options: ['The primary theme of "Journey to the End of the Earth" is the interconnectedness of', 'The "Before You Read" section is a pre-reading pedagogical tool that activates prior', 'Plot and narrative structure in a non-fiction travelogue like "Journey to the End of the', 'Setting refers to the time, place, and physical environment where a narrative unfolds'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of \'Journey to the End of the Earth\'',
+                  options: ['The primary theme of \'Journey to the End of the Earth\'', '\'Journey to the End of the Earth\' (Vistas, ch', 'The plot/narrative arc of \'Journey to the End of the Earth\'', 'The setting of \'Journey to the End of the Earth\''],
                   hint: 'If stuck, revisit c11_eng_h_cbse_01_006 (Theme: Primary Theme and Message in Hornbill Chapter 1).',
                   misconception: 'Students often reduce the primary theme to "climate change is dangerous" or "Antarctica is beautiful and we should protect it." This misses.' }
           ],
-            remediations: { 'students-often-reduce-the-primary': { steps: ['Re-read the "Part of history" and "Human impact" sections of the text, underlining every reference to time scales (650.', 'Create a three-column table: Geological Past | Human Present | Planetary Future — fill each with textual evidence.', 'Explain the phytoplankton metaphor to a peer in your own words without using the word "small." 4.', 'Re-attempt Diagnostic Question 4 to verify you can trace the perspective shift.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-reduce-the-primary': { steps: ['Re-read the "Part of history" and "Human impact" sections of the text, underlining every reference to time scales (650.', 'Create a three-column table: Geological Past | Human Present | Planetary Future — fill each with textual evidence.', 'Explain the phytoplankton metaphor to a peer in your own words without using the word "small." 4.', 'Re-attempt Diagnostic Question 4 to verify you can trace the perspective shift.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

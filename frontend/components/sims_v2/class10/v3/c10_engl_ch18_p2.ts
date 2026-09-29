@@ -104,7 +104,7 @@ export const c10_engl_ch18_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-stage-directions': { steps: ['Give the student a one‑page excerpt from the play with all stage directions highlighted in yellow and dialogue in pink.', 'Ask them to read only the highlighted stage directions aloud and act them out (e.g., "hold book upside down," "wave.', 'Have them match each action to the dialogue that follows and state the character trait revealed (e.g., "upside‑down.', 'Finally, ask them to rewrite a previous answer inserting one stage‑direction reference using the PEEL structure.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c10_engl_cbse_18_009', difficulty: 'standard',
-          question: 'Irony in literature is a contrast between expectation and reality, where the.',
+          question: 'From \'English chapter c10_engl_cbse_18\': the skill or concept this node.',
           hint: 'Review c10_engl_cbse_18_008 (Drama as a Genre) for dialogue/stage direction analysis, and.',
           misconception: 'Students often think "irony" just means "funny coincidence" or "sarcasm." In board exams, they write "It\'s ironic that.',
           parts: [

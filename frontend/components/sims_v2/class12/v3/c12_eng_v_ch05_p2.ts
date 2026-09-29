@@ -19,49 +19,49 @@ export const c12_eng_v_ch05_p2: SimDef = {
         hook: 'The \'before you read\' label calls Derry \'defiant\' — yet his first lines are pure panic. Hold context lightly: the play isn\'t about a tin leg or a scar, it\'s about the loneliness both carried into the garden and the friendship neither expected.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas, messages, or motifs that support, complicate, or run parallel to the primary theme of a literary work.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'On the Face of It\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_05_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Sit in Mr Lamb\'s garden through one afternoon: track how crab-apple talk, bees and open gates dismantle a boy\'s defences — and decide what the title\'s \'face of it\' really judges.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_05_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re listening to a friend talk about a bad day — they mention the traffic (surface), but underneath they\'re really saying "I feel powerless" (deeper.',
+          caseStudy: { intro: 'Look beneath the main theme of \'On the Face of It\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'Define "secondary theme" in the context of a play, and distinguish it from the primary theme using one example from "On the Face of It."', options: [
                 { text: 'A secondary theme is a recurring idea that supports or runs parallel to the primary theme', outcome: 'A secondary theme is a recurring idea that supports or runs parallel to the primary theme but.' },
                 { text: 'disability', outcome: 'Not quite — Students often treat "loneliness," "disability," and "friendship" as themes themselves.', reveals: 'students-often-treat-loneliness' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_05_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you\'re standing in Mr. Lamb\'s garden: you hear bees "singing," see "orange and golden" crab apples, feel the "long grass" underfoot.',
+          caseStudy: { intro: 'Find the lines in \'On the Face of It\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define imagery and metaphor in your own words, then identify ONE example of each from the opening of Scene One (before Derry speaks about.', options: [
                 { text: 'Imagery: "occasional sound of birdsong and of tree leaves rustling" (auditory), "long', outcome: 'Imagery: "occasional sound of birdsong and of tree leaves rustling" (auditory), "long grass".' },
                 { text: 'empty house', outcome: 'Not quite — Students confuse imagery with metaphor, treating ANY descriptive language as metaphor.', reveals: 'students-confuse-imagery-with-metaphor' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_05_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you\'re scrolling through social media and see a post: "Just got rejected from my dream college — best day of my life!" Your brain pauses.',
+          caseStudy: { intro: 'Look in \'On the Face of It\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define situational irony and give ONE example from "On the Face of It" where the outcome is the opposite of what the characters or audience.', options: [
                 { text: 'Situational irony occurs when the actual outcome of a situation is sharply contrary to', outcome: 'Situational irony occurs when the actual outcome of a situation is sharply contrary to what was.' },
                 { text: 'Derry\'s face is ugly so people stare', outcome: 'Not quite — Students often confuse *symbolism* with *metaphor* and treat every object as a symbol.', reveals: 'students-often-confuse-symbolism-with' },
                 { text: 'something sad or unfair', outcome: 'Not quite — Students often confuse *symbolism* with *metaphor* and treat every object as a symbol.', reveals: 'students-often-confuse-symbolism-with' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_05_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading Scene One and hit the word "**tentatively**" describing Derry\'s footsteps.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'On the Face of It\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'Define the term "connotation" and give one example from the play where a word\'s connotation differs from its dictionary definition.', options: [
                 { text: 'Connotation is the emotional, cultural, or associative meaning a word carries beyond its', outcome: 'Connotation is the emotional, cultural, or associative meaning a word carries beyond its literal.' },
                 { text: 'windfalls just means fallen apples', outcome: 'Not quite — **Misconception**: "Vocabulary in context means guessing the meaning from surrounding words — like.', reveals: 'misconception-vocabulary-in-context-means' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_05_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you\'re overhearing two strangers talk in a park — one speaks in calm, complete sentences; the other answers in sharp, broken fragments.',
+          caseStudy: { intro: 'Read \'On the Face of It\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the punctuation mark used repeatedly in the play to indicate pauses, hesitation, or trailing thoughts in Derry\'s speech, and give.', options: [
                 { text: 'The ellipsis (…) is used repeatedly to show Derry\'s hesitation, emotional pauses, and', outcome: 'The ellipsis (…) is used repeatedly to show Derry\'s hesitation, emotional pauses, and incomplete.' },
                 { text: 'I....there....I thought this was an empty place', outcome: 'Not quite — Students believe "grammar in literature" means finding errors or labeling parts of speech (noun.', reveals: 'grammar-in-literature-means-finding' },
                 { text: 'grammar in literature', outcome: 'Not quite — Students believe "grammar in literature" means finding errors or labeling parts of speech (noun.', reveals: 'grammar-in-literature-means-finding' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_05_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re sitting in the exam hall and the first question reads: "Why does Derry climb the garden wall instead of using the gate?" A literal question.',
+          caseStudy: { intro: 'Answer \'On the Face of It\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify whether the following question is literal or inferential: "What does Mr Lamb say about the gate to his garden?" Explain your.', options: [
                 { text: 'This is a **literal** question', outcome: 'This is a **literal** question because it asks for a direct quotation or paraphrase of Mr Lamb\'s.' },
                 { text: 'inferential', outcome: 'Not quite — Students believe "inferential" means "guessing" or "giving your opinion".', reveals: 'inferential-means-guessing-or-giving' },
@@ -81,12 +81,12 @@ export const c12_eng_v_ch05_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_05_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas, messages, or motifs that support.',
+          question: 'Secondary themes in \'On the Face of It\' — the supporting ideas and motifs that.',
           hint: 'If stuck, return to c12_eng_v_cbse_05_006 (Primary Theme) and c12_eng_v_cbse_05_004/005.',
           misconception: 'Students often treat "loneliness," "disability," and "friendship" as themes themselves. These are TOPICS.',
           parts: [
@@ -99,7 +99,7 @@ export const c12_eng_v_ch05_p2: SimDef = {
                   hint: 'If stuck, return to c12_eng_v_cbse_05_006 (Primary Theme) and c12_eng_v_cbse_05_004/005 (Character.',
                   misconception: 'Students often treat "loneliness," "disability," and "friendship" as themes themselves. These are TOPICS.' }
           ],
-            remediations: { 'students-often-treat-loneliness': { steps: ['If a student cannot distinguish topic from theme: 1) Give them three topics from the play (loneliness, appearance.', '2) Ask them to write one opinion sentence about each that Susan Hill might agree with.', '3) Have them find two pieces of evidence per sentence.', 'If they miss stage-direction themes: 1) Photocopy Scene 3\'s stage directions only.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-loneliness': { steps: ['If a student cannot distinguish topic from theme: 1) Give them three topics from the play (loneliness, appearance.', '2) Ask them to write one opinion sentence about each that Susan Hill might agree with.', '3) Have them find two pieces of evidence per sentence.', 'If they miss stage-direction themes: 1) Photocopy Scene 3\'s stage directions only.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_05_007', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -110,9 +110,9 @@ export const c12_eng_v_ch05_p2: SimDef = {
                   hint: 'If stuck, return to c12_eng_v_cbse_05_006 (Primary Theme) and c12_eng_v_cbse_05_004/005 (Character.',
                   misconception: 'Students often treat "loneliness," "disability," and "friendship" as themes themselves. These are TOPICS.' }
           ],
-            remediations: { 'students-often-treat-loneliness': { steps: ['If a student cannot distinguish topic from theme: 1) Give them three topics from the play (loneliness, appearance.', '2) Ask them to write one opinion sentence about each that Susan Hill might agree with.', '3) Have them find two pieces of evidence per sentence.', 'If they miss stage-direction themes: 1) Photocopy Scene 3\'s stage directions only.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-loneliness': { steps: ['If a student cannot distinguish topic from theme: 1) Give them three topics from the play (loneliness, appearance.', '2) Ask them to write one opinion sentence about each that Susan Hill might agree with.', '3) Have them find two pieces of evidence per sentence.', 'If they miss stage-direction themes: 1) Photocopy Scene 3\'s stage directions only.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_05_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'On the Face of It\' — the vivid, sensory language that creates.',
           hint: 'If stuck on metaphor identification, review the "Thing A is Thing B because Shared.',
           misconception: 'Students confuse imagery with metaphor, treating ANY descriptive language as metaphor.',
           parts: [
@@ -125,9 +125,9 @@ export const c12_eng_v_ch05_p2: SimDef = {
                   hint: 'If stuck on metaphor identification, review the "Thing A is Thing B because Shared Quality" frame.',
                   misconception: 'Students confuse imagery with metaphor, treating ANY descriptive language as metaphor.' }
           ],
-            remediations: { 'students-confuse-imagery-with-metaphor': { steps: ['Have the student list 10 sensory details from Scene One (sight, sound, touch, smell, taste) — label each "I" for.', 'Have them find 5 comparisons where Thing A is described AS Thing B — label each "M" for metaphor.', 'For each "M," complete the frame: "_____ (Thing A) is _____ (Thing B) because _____ (shared quality)."', 'Re-read the "weeds/flowers" and "bees/sing" passages and complete the frame aloud.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-confuse-imagery-with-metaphor': { steps: ['Have the student list 10 sensory details from Scene One (sight, sound, touch, smell, taste) — label each "I" for.', 'Have them find 5 comparisons where Thing A is described AS Thing B — label each "M" for metaphor.', 'For each "M," complete the frame: "_____ (Thing A) is _____ (Thing B) because _____ (shared quality)."', 'Re-read the "weeds/flowers" and "bees/sing" passages and complete the frame aloud.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_05_009', difficulty: 'standard',
-          question: 'Irony in literature is a contrast between expectation and reality — what.',
+          question: 'Irony and paradox in \'On the Face of It\' — where opposite things are both true.',
           hint: 'If stuck, return to **c12_eng_v_cbse_05_004** (Derry\'s character) and.',
           misconception: 'Students often confuse *symbolism* with *metaphor* and treat every object as a symbol.',
           parts: [
@@ -136,9 +136,9 @@ export const c12_eng_v_ch05_p2: SimDef = {
                   hint: 'If stuck, return to **c12_eng_v_cbse_05_004** (Derry\'s character) and **c12_eng_v_cbse_05_005** (Mr.',
                   misconception: 'Students often confuse *symbolism* with *metaphor* and treat every object as a symbol.' }
           ],
-            remediations: { 'students-often-confuse-symbolism-with': { steps: ['If the student cannot distinguish irony from coincidence or symbolism from arbitrary association: 1.', 'Revisit **c12_eng_v_cbse_05_008** (Imagery and Metaphor) — practice identifying *literal* vs *figurative* language.', 'Use the "Irony Triangle" tool: For any moment, write (a) What is expected?', '(b) What actually happens?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-symbolism-with': { steps: ['If the student cannot distinguish irony from coincidence or symbolism from arbitrary association: 1.', 'Revisit **c12_eng_v_cbse_05_008** (Imagery and Metaphor) — practice identifying *literal* vs *figurative* language.', 'Use the "Irony Triangle" tool: For any moment, write (a) What is expected?', '(b) What actually happens?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_05_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'On the Face of It\' — the words and phrases you must know.',
           hint: 'If unsure how a word functions thematically, return to **c12_eng_v_cbse_05_006 (Theme.',
           misconception: '**Misconception**: "Vocabulary in context means guessing the meaning from surrounding words — like.',
           parts: [
@@ -151,9 +151,9 @@ export const c12_eng_v_ch05_p2: SimDef = {
                   hint: 'If unsure how a word functions thematically, return to **c12_eng_v_cbse_05_006 (Theme: Primary.',
                   misconception: '**Misconception**: "Vocabulary in context means guessing the meaning from surrounding words — like a fill-in-the-blank." **Why it\'s.' }
           ],
-            remediations: { 'misconception-vocabulary-in-context-means': { steps: ['If a student cannot distinguish denotation/connotation or link words to themes: 1.', '**Revisit c12_eng_v_cbse_05_004 (Character Analysis: Protagonist)** — trace Derry\'s key speeches; highlight 5 words.', '**Revisit c12_eng_v_cbse_05_008 (Literary Devices: Imagery and Metaphor)** — identify 3 metaphors where word choice.', '**Re-diagnostic**: Give the student Mr Lamb\'s "weed" speech (Scene One) and ask: "List 3 words whose connotation shifts.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'misconception-vocabulary-in-context-means': { steps: ['If a student cannot distinguish denotation/connotation or link words to themes: 1.', '**Revisit c12_eng_v_cbse_05_004 (Character Analysis: Protagonist)** — trace Derry\'s key speeches; highlight 5 words.', '**Revisit c12_eng_v_cbse_05_008 (Literary Devices: Imagery and Metaphor)** — identify 3 metaphors where word choice.', '**Re-diagnostic**: Give the student Mr Lamb\'s "weed" speech (Scene One) and ask: "List 3 words whose connotation shifts.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_05_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the analysis of grammatical structures.',
+          question: 'Language and style in \'On the Face of It\' — how the writer chose words.',
           hint: 'If stuck, review Class 11 Hornbill Chapter 1 "Grammar: Language Usage in the Text".',
           misconception: 'Students believe "grammar in literature" means finding errors or labeling parts of speech (noun, verb, tense).',
           parts: [
@@ -162,9 +162,9 @@ export const c12_eng_v_ch05_p2: SimDef = {
                   hint: 'If stuck, review Class 11 Hornbill Chapter 1 "Grammar: Language Usage in the Text".',
                   misconception: 'Students believe "grammar in literature" means finding errors or labeling parts of speech (noun, verb, tense).' }
           ],
-            remediations: { 'grammar-in-literature-means-finding': { steps: ['Have the student read aloud Derry\'s first 10 speeches — physically hearing the fragments and ellipses makes the pattern.', 'Give them a "translated" version where all fragments are corrected to standard sentences; ask them to compare emotional.', 'Assign: "Find three places where a character interrupts their own sentence with \'...\' and explain what the character.', 'Re-test with Diagnostic Question 3 (rewrite task) — if they still only fix grammar, repeat step 2 with a new passage.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'grammar-in-literature-means-finding': { steps: ['Have the student read aloud Derry\'s first 10 speeches — physically hearing the fragments and ellipses makes the pattern.', 'Give them a "translated" version where all fragments are corrected to standard sentences; ask them to compare emotional.', 'Assign: "Find three places where a character interrupts their own sentence with \'...\' and explain what the character.', 'Re-test with Diagnostic Question 3 (rewrite task) — if they still only fix grammar, repeat step 2 with a new passage.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_05_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve information.',
+          question: 'Literal comprehension of \'On the Face of It\' — questions answered straight from.',
           hint: 'If stuck on "where is this in the text?", return to c12_eng_v_cbse_05_002 (Plot) and.',
           misconception: 'Students believe "inferential" means "guessing" or "giving your opinion".',
           parts: [
@@ -181,7 +181,7 @@ export const c12_eng_v_ch05_p2: SimDef = {
                   hint: 'If stuck on "where is this in the text?", return to c12_eng_v_cbse_05_002 (Plot) and rebuild the.',
                   misconception: 'Students believe "inferential" means "guessing" or "giving your opinion".' }
           ],
-            remediations: { 'inferential-means-guessing-or-giving': { steps: ['If a student cannot distinguish question types or builds inferences without textual anchors: 1.', '**Revisit c12_eng_v_cbse_05_002 (Plot) and c12_eng_v_cbse_05_004 (Protagonist)** — map every major event to the exact.', '**Practice the "Three-Column Drill"**: Column A = Question, Column B = Literal Quote(s), Column C = Inference Chain.', 'Do this for all 4 NCERT "Reading with Insight" questions.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'inferential-means-guessing-or-giving': { steps: ['If a student cannot distinguish question types or builds inferences without textual anchors: 1.', '**Revisit c12_eng_v_cbse_05_002 (Plot) and c12_eng_v_cbse_05_004 (Protagonist)** — map every major event to the exact.', '**Practice the "Three-Column Drill"**: Column A = Question, Column B = Literal Quote(s), Column C = Inference Chain.', 'Do this for all 4 NCERT "Reading with Insight" questions.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

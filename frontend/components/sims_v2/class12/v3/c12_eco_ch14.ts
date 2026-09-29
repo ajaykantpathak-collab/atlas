@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_eco_ch14: SimDef = {
     id: 'v3_c12_eco_ch14',
-    title: 'The **Goals of the Five-Year Plans** (also.',
+    title: 'Goals of the Five-Year Plans',
     subtitle: '* **Includes**: The four core goals (Growth, Modernization, Self-reliance, Equity).',
-    classLevel: 12, subject: 'economics', topic: 'The **Goals of the Five-Year Plans** (also.',
+    classLevel: 12, subject: 'economics', topic: 'Goals of the Five-Year Plans',
     chapters: ['c12_eco_ch14'],
     nodeIds: ['c12_eco_cbse_14_001', 'c12_eco_cbse_14_002', 'c12_eco_cbse_14_003', 'c12_eco_cbse_14_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

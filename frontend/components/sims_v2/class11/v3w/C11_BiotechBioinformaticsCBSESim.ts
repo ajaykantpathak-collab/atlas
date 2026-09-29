@@ -6,13 +6,13 @@ import C11_BiotechBioinformaticsCBSESim from '../../../simulations/c6_12_new/C11
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biotechbioinformaticscbsesim: SimDef = {
     id: 'v3w_c11_biotechbioinformaticscbsesim',
-    title: 'Bioinformatics CBSE',
+    title: 'Bioinformatics: Definition and Scope',
     subtitle: 'This node covers the definition, historical evolution, interdisciplinary nature, and.',
     classLevel: 11, subject: 'biotechnology', topic: 'Bioinformatics: Definition and Scope',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_09_001', 'c11_biotech_cbse_09_002', 'c11_biotech_cbse_11_001', 'c11_biotech_cbse_11_002', 'c11_biotech_cbse_11_003', 'c11_biotech_cbse_11_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a doctor trying to diagnose a rare genetic disorder in a patient from a small village in.', goal: 'Master Bioinformatics CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a doctor trying to diagnose a rare genetic disorder in a patient from a small village in.', goal: 'Master Bioinformatics: Definition and Scope.' },
     discovery: {
         question: 'Critique the following statement: "Since AI tools like AlphaFold can now predict protein structures with near-experimental accuracy, experimental structure.',
         options: ['The statement is overconfident', 'using BLAST', 'searching databases'],
@@ -85,7 +85,7 @@ export const w_c11_biotechbioinformaticscbsesim: SimDef = {
             { text: 'Run script mentally: Match 1: `$-[0]=0`, `$+[0]=15` → start=1, end=15, len=15. Output: "ORF 1: 1-15 (15 bp)".', faded: true, blankAnswer: 'ORF 1: Start=1, End=15, Length=15 bp' }
             ] } },
         { type: 'dissect', nodeId: 'c11_biotech_cbse_09_002', title: 'Identify each idea',
-          dissect: { specimen: 'Bioinformatics CBSE', spots: [
+          dissect: { specimen: 'Bioinformatics: Definition and Scope', spots: [
             { id: 's1', label: 'Bioinformatics is an interdisciplinary field', prompt: 'Which idea is this? — Bioinformatics is an interdisciplinary field that integrates computational, mathematical,.', answer: 'Bioinformatics is an interdisciplinary field', options: ['Bioinformatics is an interdisciplinary field', 'Primary databases store raw experimental', 'Programming in bioinformatics refers to', 'Python for Bioinformatics refers to'] },
             { id: 's2', label: 'Primary databases store raw experimental', prompt: 'Which idea is this? — Primary databases store raw experimental data submitted directly by researchers (e.g.,.', answer: 'Primary databases store raw experimental', options: ['Primary databases store raw experimental', 'Bioinformatics is an interdisciplinary field', 'Programming in bioinformatics refers to', 'Python for Bioinformatics refers to'] },
             { id: 's3', label: 'Programming in bioinformatics refers to', prompt: 'Which idea is this? — Programming in bioinformatics refers to the use of computational languages and algorithms.', answer: 'Programming in bioinformatics refers to', options: ['Programming in bioinformatics refers to', 'Bioinformatics is an interdisciplinary field', 'Primary databases store raw experimental', 'Python for Bioinformatics refers to'] },
@@ -94,7 +94,7 @@ export const w_c11_biotechbioinformaticscbsesim: SimDef = {
             { id: 's6', label: 'Perl regular expressions regex are', prompt: 'Which idea is this? — Perl regular expressions (regex) are a powerful pattern-matching syntax used to search,.', answer: 'Perl regular expressions regex are', options: ['Perl regular expressions regex are', 'Bioinformatics is an interdisciplinary field', 'Primary databases store raw experimental', 'Programming in bioinformatics refers to'] }
           ] } }
     ],
-    explore: { component: C11_BiotechBioinformaticsCBSESim, prompt: 'Explore the interactive — Bioinformatics CBSE' },
+    explore: { component: C11_BiotechBioinformaticsCBSESim, prompt: 'Explore the interactive — Bioinformatics: Definition and Scope' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_biotech_cbse_09_001', difficulty: 'standard',
           question: 'Bioinformatics is an interdisciplinary field that integrates computational,.',

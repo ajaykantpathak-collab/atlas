@@ -105,7 +105,7 @@ export const c9_engl_ch06_p2: SimDef = {
           misconception: 'Students believe dramatic tension requires loud arguments, shouting, or explicit threats.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Dialogue in drama is the spoken exchange between characters that simultaneously reveals',
-                  options: ['Dialogue in drama is the spoken exchange between characters that simultaneously reveals', 'A play summary condenses the narrative arc of a dramatic work into a coherent overview', 'The values of pursuing passion and respecting tradition refer to the ethical and', 'Character analysis is the systematic examination of a literary character\'s personality'],
+                  options: ['Dialogue in drama is the spoken exchange between characters that simultaneously reveals', 'A play summary condenses the narrative arc of a dramatic work into a coherent overview', 'The values of pursuing passion and respecting tradition refer to the ethical and', 'From \'English chapter c9_engl_ch6\': the skill or concept this node teaches, applied to'],
                   hint: 'Review c9_engl_ch6_4 (stage directions) and c9_engl_ch6_1 (plot summary) to relocate each dialogue.',
                   misconception: 'Students believe dramatic tension requires loud arguments, shouting, or explicit threats.' }
           ],

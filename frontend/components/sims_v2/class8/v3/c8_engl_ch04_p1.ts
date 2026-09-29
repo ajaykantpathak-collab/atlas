@@ -19,7 +19,7 @@ export const c8_engl_ch04_p1: SimDef = {
         hook: 'Setting isn\'t a painted poster behind the action — it\'s an active opponent. In Mussoorie, the cold winds and stony soil fight the little tree, and that fight is exactly what makes its survival feel like a miracle.',
     },
     teaching: [
-        { title: 'Setting: Mussoorie in the Himalayan Foothills', text: 'Setting refers to the physical environment, geographical location, climate, and time period in which a narrative occurs; in "The Cherry Tree," the rugged setting of Mussoorie in the Himalayan.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Setting: Mussoorie in the Himalayan Foothills', text: 'From \'English chapter c8_engl_ch4\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c8_engl_ch4_1', title: 'Your mission',
@@ -74,12 +74,12 @@ export const c8_engl_ch04_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_engl_ch4_1', difficulty: 'standard',
-          question: 'Setting refers to the physical environment, geographical location, climate, and.',
+          question: 'From \'English chapter c8_engl_ch4\': the skill or concept this node teaches.',
           hint: 'If stuck, review c7_engl_ch04_001 to practice identifying how environmental features and.',
           misconception: 'Students often treat "setting" as merely a named town (e.g., "Mussoorie") or a passive backdrop, failing to realize.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting refers to the physical environment, geographical location, climate, and time',
-                  options: ['Setting refers to the physical environment, geographical location, climate, and time', 'Comprehension of the narrative journey from seed to fruit-bearing tree involves', 'In literary analysis, examining "luck in the context of effort" means critically', 'Writing a clear, ordered description of how a plant changes from seed to mature plant,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c8_engl_ch4\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c8_engl_ch4\': the skill or concept this node teaches, applied to', 'Comprehension of the narrative journey from seed to fruit-bearing tree involves', 'In literary analysis, examining "luck in the context of effort" means critically', 'Writing a clear, ordered description of how a plant changes from seed to mature plant,'],
                   hint: 'If stuck, review c7_engl_ch04_001 to practice identifying how environmental features and physical.',
                   misconception: 'Students often treat "setting" as merely a named town (e.g., "Mussoorie") or a passive backdrop, failing to realize that geography and.' }
           ],
@@ -112,7 +112,7 @@ export const c8_engl_ch04_p1: SimDef = {
           misconception: 'Students often confuse "luck" with "pure random chance" (like winning a lottery).',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'In literary analysis, examining "luck in the context of effort" means critically',
-                  options: ['In literary analysis, examining "luck in the context of effort" means critically', 'Setting refers to the physical environment, geographical location, climate, and time', 'Comprehension of the narrative journey from seed to fruit-bearing tree involves', 'Writing a clear, ordered description of how a plant changes from seed to mature plant,'],
+                  options: ['In literary analysis, examining "luck in the context of effort" means critically', 'From \'English chapter c8_engl_ch4\': the skill or concept this node teaches, applied to', 'Comprehension of the narrative journey from seed to fruit-bearing tree involves', 'Writing a clear, ordered description of how a plant changes from seed to mature plant,'],
                   hint: 'If stuck, review `c8_engl_ch4_4` (Plot: Growing a Cherry Tree from a Seed) to list every action.',
                   misconception: 'Students often confuse "luck" with "pure random chance" (like winning a lottery).' }
           ],
@@ -134,7 +134,7 @@ export const c8_engl_ch04_p1: SimDef = {
           misconception: 'Students often view stanzas in a poem as isolated chunks of text rather than connected stages of a continuous narrative.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'A stanza-by-stanza summary breaks down a poem section by section, identifying the core',
-                  options: ['A stanza-by-stanza summary breaks down a poem section by section, identifying the core', 'Setting refers to the physical environment, geographical location, climate, and time', 'Comprehension of the narrative journey from seed to fruit-bearing tree involves', 'In literary analysis, examining "luck in the context of effort" means critically'],
+                  options: ['A stanza-by-stanza summary breaks down a poem section by section, identifying the core', 'From \'English chapter c8_engl_ch4\': the skill or concept this node teaches, applied to', 'Comprehension of the narrative journey from seed to fruit-bearing tree involves', 'In literary analysis, examining "luck in the context of effort" means critically'],
                   hint: 'If stuck, review `c7_engl_ch04_011` to practice picking out key action words from short poetic.',
                   misconception: 'Students often view stanzas in a poem as isolated chunks of text rather than connected stages of a continuous narrative or argument.' }
           ],

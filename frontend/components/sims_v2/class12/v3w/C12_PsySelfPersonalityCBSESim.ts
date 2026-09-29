@@ -6,13 +6,13 @@ import C12_PsySelfPersonalityCBSESim from '../../../simulations/c6_12_new/C12_Ps
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_psyselfpersonalitycbsesim: SimDef = {
     id: 'v3w_c12_psyselfpersonalitycbsesim',
-    title: 'Psy Self Personality CBSE',
+    title: 'Concept of Self: Personal and Social Identity, Self as Subject and Object',
     subtitle: 'This node covers: definition of self, personal vs social identity, self as subject vs.',
     classLevel: 12, subject: 'science', topic: 'Concept of Self: Personal and Social Identity, Self as Subject and Object',
     chapters: [],
     nodeIds: ['c12_psy_cbse_02_001', 'c12_psy_cbse_02_002', 'c12_psy_cbse_02_003', 'c12_psy_cbse_02_006', 'c12_psy_cbse_02_011', 'c12_psy_cbse_02_012', 'c12_psy_cbse_03_009', 'c12_psy_cbse_03_011', 'c12_psy_cbse_03_012', 'c12_psy_cbse_05_001', 'c12_psy_cbse_01_002', 'c12_psy_cbse_07_002', 'c12_psy_cbse_02_004', 'c12_psy_cbse_02_005', 'c12_psy_cbse_02_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are filling out a college application form that asks: "Describe yourself in 50 words." You write:.', goal: 'Master Psy Self Personality CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are filling out a college application form that asks: "Describe yourself in 50 words." You write:.', goal: 'Master Concept of Self: Personal and Social Identity, Self as Subject and Object.' },
     discovery: {
         question: 'Explain in your own words what it means to say "the self is both a subject and an object." Give a real-life example that shows both roles operating.',
         options: ['As a subject, the self is the active agent', 'self is what I know about myself', 'differentiate'],
@@ -80,7 +80,7 @@ export const w_c12_psyselfpersonalitycbsesim: SimDef = {
             { text: 'Formulate integrated recommendation — Recommend careers leveraging social strengths while suggesting interventions.', faded: true, blankAnswer: 'The 16PF reveals a socially confident, warm, and relaxed.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_psy_cbse_02_002', title: 'Identify each idea',
-          dissect: { specimen: 'Psy Self Personality CBSE', spots: [
+          dissect: { specimen: 'Concept of Self: Personal and Social Identity, Self as Subject and Object', spots: [
             { id: 's1', label: 'The self is the totality', prompt: 'Which idea is this? — The self is the totality of an individual\'s conscious experiences, ideas, thoughts, and.', answer: 'The self is the totality', options: ['The self is the totality', 'Self-esteem is an individuals overall', 'The cultural perspective on self', 'Eysencks theory proposes three biologically-based'] },
             { id: 's2', label: 'Self-esteem is an individuals overall', prompt: 'Which idea is this? — Self-esteem is an individual\'s overall subjective evaluation of their own worth and.', answer: 'Self-esteem is an individuals overall', options: ['Self-esteem is an individuals overall', 'The self is the totality', 'The cultural perspective on self', 'Eysencks theory proposes three biologically-based'] },
             { id: 's3', label: 'The cultural perspective on self', prompt: 'Which idea is this? — The cultural perspective on self refers to how culture shapes the way individuals define.', answer: 'The cultural perspective on self', options: ['The cultural perspective on self', 'The self is the totality', 'Self-esteem is an individuals overall', 'Eysencks theory proposes three biologically-based'] },
@@ -89,7 +89,7 @@ export const w_c12_psyselfpersonalitycbsesim: SimDef = {
             { id: 's6', label: 'Personality assessment refers to standardized', prompt: 'Which idea is this? — Personality assessment refers to standardized procedures used to evaluate and.', answer: 'Personality assessment refers to standardized', options: ['Personality assessment refers to standardized', 'The self is the totality', 'Self-esteem is an individuals overall', 'The cultural perspective on self'] }
           ] } }
     ],
-    explore: { component: C12_PsySelfPersonalityCBSESim, prompt: 'Explore the interactive — Psy Self Personality CBSE' },
+    explore: { component: C12_PsySelfPersonalityCBSESim, prompt: 'Explore the interactive — Concept of Self: Personal and Social Identity, Self as Subject and Object' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_psy_cbse_02_001', difficulty: 'standard',
           question: 'The self is the totality of an individual\'s conscious experiences, ideas,.',

@@ -5,16 +5,16 @@ import type { SimDef } from '../../engine/types';
 export const c6_hin_ch04_p2: SimDef = {
     id: 'v3_c6_hin_ch04_p2',
     title: 'पाठ 4 · Part 2/3',
-    subtitle: 'इस नोड में गौण विषय की पहचान, मुख्य विषय से उसका संबंध, और रचना-निर्माण में उसकी भूमिका.',
+    subtitle: 'यह नोड केवल गौण विषयों तक सीमित है — बिंब/विरोध अगले नोड्स में।',
     classLevel: 6, subject: 'hin', topic: 'पाठ 4 · Part 2/3',
     chapters: ['c6_hin_ch04'],
     nodeIds: ['c6_hin_cbse_04_007', 'c6_hin_cbse_04_008', 'c6_hin_cbse_04_009', 'c6_hin_cbse_04_010', 'c6_hin_cbse_04_011', 'c6_hin_cbse_04_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 6 learner', intro: 'क्या तुमने कभी गौर किया है कि तुम्हारी पसंदीदा कार्टून सीरीज़ में, हीरो के दुनिया बचाने के साथ-साथ, उसका अपने.', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 6 learner', intro: 'गौण-मानचित्र: प्रेम (\'बिना रह न सकूँगा\') → मोह-त्याग (सब छोड़ा) → लालच-संतोष (खड्गसिंह-बाबा) → पश्चाताप (रात.', goal: 'Master every idea in this chapter.' },
     // discovery omitted — no cleanly extractable hook in this chapter
     teaching: [
-        { title: 'पाठ 4 — गौण विषय', text: 'गौण विषय (Sub-theme) वह सहायक विचार या कथानक है जो मुख्य विषय के समानांतर चलता है, उसे सहारा देता है, पात्रों के विभिन्न पहलू उजागर करता है और रचना में गहराई लाता है।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 4 — गौण विषय', text: 'गौण विषय — (1) प्रेम की निर्भीकता (\'मैं सुलतान के बिना नहीं रह सकूँगा\'); (2) मोह-त्याग (सब कुछ छोड़कर मंदिर में); (3) लालच बनाम संतोष (खड्गसिंह बनाम बाबा); (4) पश्चाताप की शक्ति (रात में वापसी); (5).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c6_hin_cbse_04_007', title: 'Your mission',
@@ -24,8 +24,8 @@ export const c6_hin_ch04_p2: SimDef = {
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'dissect', nodeId: 'c6_hin_cbse_04_008', title: 'Identify each idea',
           dissect: { specimen: 'पाठ 4 · Part 2/3', spots: [
-            { id: 's1', label: '4 -', prompt: 'Which idea is this? — भाषा-प्रयोग (Language Usage) refers to the conscious selection of vocabulary (शब्दावली).', answer: '4 -', options: ['4 -', '4 - -'] },
-            { id: 's2', label: '4 - -', prompt: 'Which idea is this? — वस्तुनिष्ठ प्रश्न (Objective questions) test literal comprehension — the answer.', answer: '4 - -', options: ['4 - -', '4 -'] }
+            { id: 's1', label: '4 -', prompt: 'Which idea is this? — भाषा-प्रयोग — प्रेमचंद की सरल, लोक-हिंदी: तृतीय-पुरुष वर्णन (\'बाबा भारती उसे सुलतान कहकर.', answer: '4 -', options: ['4 -', '4 - -'] },
+            { id: 's2', label: '4 - -', prompt: 'Which idea is this? — वस्तुनिष्ठ प्रश्न — तथ्य पाठ से सीधे: (1) लेखक प्रेमचंद; (2) बाबा भारती का घोड़ा.', answer: '4 - -', options: ['4 - -', '4 -'] }
           ] } },
         { type: 'case', nodeId: 'c6_hin_cbse_04_012', title: 'The bigger picture',
           caseStudy: { intro: 'You just worked through पाठ 4 like a real scientist — observed, predicted, tested, retried.',
@@ -39,71 +39,71 @@ export const c6_hin_ch04_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_hin_cbse_04_007', difficulty: 'standard',
-          question: 'गौण विषय (Sub-theme) वह सहायक विचार या कथानक है जो मुख्य विषय के समानांतर चलता.',
-          hint: 'यदि अटका हुआ लगे तो c6_hin_cbse_04_006 (मुख्य विषय) और c6_hin_cbse_04_002 (कथानक) दोहराएँ।',
-          misconception: '**विशिष्ट भ्रम**: छात्र गौण विषय को \'उपकथा\' (sub-plot) समझ लेते हैं और सोचते हैं कि हर उपकथा गौण विषय है। **गलत तर्क**.',
+          question: 'गौण विषय — (1) प्रेम की निर्भीकता (\'मैं सुलतान के बिना नहीं रह सकूँगा\'); (2).',
+          hint: 'यदि अटका हुआ महसूस हो तो: मुख्य विषय लिखिए, फिर दो ऐसी घटनाएँ जो अलग भाव देती हैं — वही.',
+          misconception: 'छात्र बाबा के \'सब छोड़ने\' को \'मजबूरी\' मानते हैं — वह मोह-त्याग/वैराग्य था; प्रेम केवल सुलतान पर केंद्रित।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme) वह सहायक विचार या कथानक है जो मुख्य विषय के समानांतर चलता है, उसे',
-                  options: ['गौण विषय (Sub-theme) वह सहायक विचार या कथानक है जो मुख्य विषय के समानांतर चलता है, उसे', '\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक और', 'कथानक वह क्रम है जिसमें कहानी की घटनाएं होती हैं, जबकि आख्यान-संरचना कहानी को शुरू, मध्य', 'पाठ्य-परिवेश (Setting) कहानी घटित होने का समग्र संदर्भ है जिसमें स्थान (भौगोलिक/भौतिक),'],
-                  hint: 'यदि अटका हुआ लगे तो c6_hin_cbse_04_006 (मुख्य विषय) और c6_hin_cbse_04_002 (कथानक) दोहराएँ।',
-                  misconception: '**विशिष्ट भ्रम**: छात्र गौण विषय को \'उपकथा\' (sub-plot) समझ लेते हैं और सोचते हैं कि हर उपकथा गौण विषय है। **गलत तर्क**: "उपकथा = घटनाओं का.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय — (1) प्रेम की निर्भीकता (\'मैं सुलतान के बिना नहीं रह सकूँगा\')',
+                  options: ['गौण विषय — (1) प्रेम की निर्भीकता (\'मैं सुलतान के बिना नहीं रह सकूँगा\')', 'मुंशी प्रेमचंद (1880–1936)', 'कथानक — बाबा भारती घोड़े सुलतान से प्रेम करते हैं (\'इसके बिना मैं रह न सकूँगा\')', 'पाठ्य-परिवेश — गाँव-जीवन: बाबा भारती का छोटा-सा मंदिर गाँव से बाहर, असतबल (घुड़साल) जहाँ'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: मुख्य विषय लिखिए, फिर दो ऐसी घटनाएँ जो अलग भाव देती हैं — वही गौण विषय।',
+                  misconception: 'छात्र बाबा के \'सब छोड़ने\' को \'मजबूरी\' मानते हैं — वह मोह-त्याग/वैराग्य था; प्रेम केवल सुलतान पर केंद्रित।' }
           ],
-            remediations: { 'sub-plot': { steps: ['1) छात्र से कहो: "पाठ 4 की कोई एक घटना चुनो जो मुख्य कहानी से अलग लगे।" 2) पूछो: "इस घटना से लेखक क्या **संदेश/विचार**.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) मुख्य विषय से गौण विषय अलग करो। (2) \'मोह-त्याग\' का अर्थ समझाओ। (3) \'लोग गरीबों पर विश्वास न करेंगे\' का.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_hin_cbse_04_008', difficulty: 'standard',
-          question: '**बिंब (Imagery)** शब्दों द्वारा पाठक की इंद्रियों (दृष्टि, श्रवण, स्पर्श, गंध.',
-          hint: 'यदि अटके तो **उपमा के 5-6 सरल उदाहरण** लिखवाओ और प्रत्येक में "जैसे/वैसा" शब्द घेरवाओ.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र **उपमा (Simile) में "जैसे/वैसा" शब्द देखते ही उसे रूपक मान लेते हैं** यदि तुलना "गहरी" या.',
+          question: 'बिंब — \'मोर घटा को देखकर नाच रहा हो\' (सुलतान की चाल), \'बकरा कसाई की ओर देखता.',
+          hint: 'यदि अटका हुआ महसूस हो तो: एक पंक्ति पढ़िए, आँखें बंद करके देखिए — \'मोर-नाच\' या.',
+          misconception: 'छात्र \'साँप लोट गया\' को \'सच्चा साँप\' मानते हैं — यह मानसिक बिंब है; खड्गसिंह के हृदय में लालच का साँप-सा घेराव।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery)** शब्दों द्वारा पाठक की इंद्रियों (दृष्टि, श्रवण, स्पर्श, गंध, स्वाद) को',
-                  options: ['**बिंब (Imagery)** शब्दों द्वारा पाठक की इंद्रियों (दृष्टि, श्रवण, स्पर्श, गंध, स्वाद) को', '\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक और', 'कथानक वह क्रम है जिसमें कहानी की घटनाएं होती हैं, जबकि आख्यान-संरचना कहानी को शुरू, मध्य', 'पाठ्य-परिवेश (Setting) कहानी घटित होने का समग्र संदर्भ है जिसमें स्थान (भौगोलिक/भौतिक),'],
-                  hint: 'यदि अटके तो **उपमा के 5-6 सरल उदाहरण** लिखवाओ और प्रत्येक में "जैसे/वैसा" शब्द घेरवाओ; फिर वही.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र **उपमा (Simile) में "जैसे/वैसा" शब्द देखते ही उसे रूपक मान लेते हैं** यदि तुलना "गहरी" या "असामान्य" लगे।.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बिंब — \'मोर घटा को देखकर नाच रहा हो\' (सुलतान की चाल), \'बकरा कसाई की ओर देखता है\' (बाबा की',
+                  options: ['बिंब — \'मोर घटा को देखकर नाच रहा हो\' (सुलतान की चाल), \'बकरा कसाई की ओर देखता है\' (बाबा की', 'मुंशी प्रेमचंद (1880–1936)', 'कथानक — बाबा भारती घोड़े सुलतान से प्रेम करते हैं (\'इसके बिना मैं रह न सकूँगा\')', 'पाठ्य-परिवेश — गाँव-जीवन: बाबा भारती का छोटा-सा मंदिर गाँव से बाहर, असतबल (घुड़साल) जहाँ'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: एक पंक्ति पढ़िए, आँखें बंद करके देखिए — \'मोर-नाच\' या \'बकरा-कसाई\' का दृश्य.',
+                  misconception: 'छात्र \'साँप लोट गया\' को \'सच्चा साँप\' मानते हैं — यह मानसिक बिंब है; खड्गसिंह के हृदय में लालच का साँप-सा घेराव।' }
           ],
-            remediations: { 'simile-5': { steps: ['**चरण 1 — यांत्रिक अभ्यास (Mechanical Drill):** 10 वाक्य दो (मिश्रित उपमा/रूपक)। छात्र को केवल **"जैसे/वैसा/समान" शब्द.', '**चरण 2 — रूपांतरण अभ्यास:** उन्हीं 10 वाक्यों में से 5 उपमा वाले वाक्यों को रूपक में बदलवाओ (शब्द हटाकर "है" लगाकर)।.', '**चरण 3 — बिंब जोड़ो:** प्रत्येक रूपक वाक्य में एक **स्पर्श/श्रव्य/घ्राण बिंब** जोड़ने को कहो (उदाहरण: "वह सिंह है" →.', '**चरण 4 — मौखिक तर्क:** पूछो "अब बताओ, \'जैसे\' हटाने से तस्वीर कैसे बदली?" — छात्र स्वयं बोलेगा "सीधी/तेज/भारी लगी"। यही.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) पाँच बिंब सूची बनवाओ। (2) \'साँप लोटना\' का मानसिक अर्थ समझाओ। (3) \'बकरा-कसाई\' का भय-भाव दिखाओ।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_hin_cbse_04_009', difficulty: 'standard',
-          question: 'विरोधाभास दो विपरीत बातों का एक साथ होना है जो सोचने पर मजबूर करता है, जबकि.',
-          hint: 'यदि फंसें तो रूपक और बिंब (c6_hin_cbse_04_008) की पहचान करने की अभ्यास करें, जैसे कि.',
-          misconception: 'छात्र अक्सर विरोधाभास को प्रतीक से मिला देते हैं और मानते हैं कि यदि कोई बात विपरीत लग रही है तो वह जरूर प्रतीक है।.',
+          question: 'विरोधाभास — \'हार की जीत\' (शीर्षक ही विरोध); बाबा घोड़ा हारकर भी जीते; खड्गसिंह.',
+          hint: 'यदि अटका हुआ महसूस हो तो: \'हार की जीत\' का दोहरा अर्थ लिखिए — बाबा हारा-जीता, खड्गसिंह.',
+          misconception: 'छात्र \'हार की जीत\' को \'हारने वाले की जीत\' समझते हैं — यह \'हार के भीतर छिपी जीत\' है; हारने वाला भी जीत सकता है।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'विरोधाभास दो विपरीत बातों का एक साथ होना है जो सोचने पर मजबूर करता है, जबकि प्रतीक कोई',
-                  options: ['विरोधाभास दो विपरीत बातों का एक साथ होना है जो सोचने पर मजबूर करता है, जबकि प्रतीक कोई', '\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक और', 'कथानक वह क्रम है जिसमें कहानी की घटनाएं होती हैं, जबकि आख्यान-संरचना कहानी को शुरू, मध्य', 'पाठ्य-परिवेश (Setting) कहानी घटित होने का समग्र संदर्भ है जिसमें स्थान (भौगोलिक/भौतिक),'],
-                  hint: 'यदि फंसें तो रूपक और बिंब (c6_hin_cbse_04_008) की पहचान करने की अभ्यास करें, जैसे कि "उसकी हँसी.',
-                  misconception: 'छात्र अक्सर विरोधाभास को प्रतीक से मिला देते हैं और मानते हैं कि यदि कोई बात विपरीत लग रही है तो वह जरूर प्रतीक है। उदाहरण के लिए, वे सोचते.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'विरोधाभास — \'हार की जीत\' (शीर्षक ही विरोध)',
+                  options: ['विरोधाभास — \'हार की जीत\' (शीर्षक ही विरोध)', 'मुंशी प्रेमचंद (1880–1936)', 'कथानक — बाबा भारती घोड़े सुलतान से प्रेम करते हैं (\'इसके बिना मैं रह न सकूँगा\')', 'पाठ्य-परिवेश — गाँव-जीवन: बाबा भारती का छोटा-सा मंदिर गाँव से बाहर, असतबल (घुड़साल) जहाँ'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: \'हार की जीत\' का दोहरा अर्थ लिखिए — बाबा हारा-जीता, खड्गसिंह जीता-हारा.',
+                  misconception: 'छात्र \'हार की जीत\' को \'हारने वाले की जीत\' समझते हैं — यह \'हार के भीतर छिपी जीत\' है; हारने वाला भी जीत सकता है।' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दो अलग-अलग रंग के कार्ड दें: एक पर "विरोधाभास" लिखा हो, दूसरे पर "प्रतीक"। फिर उसे semplicी वाक्य दें जैसे "वह.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) \'हार की जीत\' का दोहरा अर्थ समझाओ। (2) बाबा हारा-जीता और खड्गसिंह जीता-हारा का विरोध दिखाओ। (3) \'बकरा\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_hin_cbse_04_010', difficulty: 'standard',
-          question: 'पदावली: मुख्य शब्द का अर्थ है किसी वाक्य, पद या पाठ में से उन **महत्वपूर्ण.',
-          hint: 'If stuck, review **पद-परिचय (Parts of Speech)** using color-coded flashcards: red for.',
-          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि **"विशेषण (adjective) हमेशा मुख्य शब्द होता है"** — लेकिन वे भूल जाते हैं कि.',
+          question: 'पदावली — मुख्य शब्द: असतबल (घुड़साल), ललचाई (लालसा/इच्छा), खरहरा करना (घोड़े को.',
+          hint: 'यदि अटका हुआ महसूस हो तो: शब्द को टुकड़ों में तोड़िए — \'असतबल\' = अश्व-स्थल = घुड़साल.',
+          misconception: 'छात्र \'पश्चाताप\' को \'पश्चिम\' से जोड़ते हैं — \'पश्चाताप\' = पछतावा/अपराध-भाव; \'पश्चिम\' से अलग शब्द।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली: मुख्य शब्द का अर्थ है किसी वाक्य, पद या पाठ में से उन **महत्वपूर्ण शब्दों को',
-                  options: ['पदावली: मुख्य शब्द का अर्थ है किसी वाक्य, पद या पाठ में से उन **महत्वपूर्ण शब्दों को', '\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक और', 'कथानक वह क्रम है जिसमें कहानी की घटनाएं होती हैं, जबकि आख्यान-संरचना कहानी को शुरू, मध्य', 'पाठ्य-परिवेश (Setting) कहानी घटित होने का समग्र संदर्भ है जिसमें स्थान (भौगोलिक/भौतिक),'],
-                  hint: 'If stuck, review **पद-परिचय (Parts of Speech)** using color-coded flashcards: red for.',
-                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि **"विशेषण (adjective) हमेशा मुख्य शब्द होता है"** — लेकिन वे भूल जाते हैं कि **कारक चिह्न लगा विशेषण.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली — मुख्य शब्द: असतबल (घुड़साल), ललचाई (लालसा/इच्छा), खरहरा करना (घोड़े को खुरचना),',
+                  options: ['पदावली — मुख्य शब्द: असतबल (घुड़साल), ललचाई (लालसा/इच्छा), खरहरा करना (घोड़े को खुरचना),', 'मुंशी प्रेमचंद (1880–1936)', 'कथानक — बाबा भारती घोड़े सुलतान से प्रेम करते हैं (\'इसके बिना मैं रह न सकूँगा\')', 'पाठ्य-परिवेश — गाँव-जीवन: बाबा भारती का छोटा-सा मंदिर गाँव से बाहर, असतबल (घुड़साल) जहाँ'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: शब्द को टुकड़ों में तोड़िए — \'असतबल\' = अश्व-स्थल = घुड़साल; \'पश्चाताप\'.',
+                  misconception: 'छात्र \'पश्चाताप\' को \'पश्चिम\' से जोड़ते हैं — \'पश्चाताप\' = पछतावा/अपराध-भाव; \'पश्चिम\' से अलग शब्द।' }
           ],
-            remediations: { 'adjective-postpositional-adjective-phrase': { steps: ['**दृश्य सहारा (Visual scaffold):** वाक्य को कार्ड पर लिखें, प्रत्येक शब्द को अलग कार्ड पर काटें। छात्र से कहें: "केवल.', '— नहीं, \'लड़का\' चाहिए।" 2.', '**रंग-कोडिंग (Color coding):** मुख्य शब्द = लाल, सहायक = नीला। पहले 5 वाक्य शिक्षक करे, अगले 5 छात्र करे, फिर तुलना। 3.', '**मौखिक तर्क (Oral reasoning):** प्रत्येक चुने शब्द के लिए छात्र बोले: "यह मुख्य है क्योंकि यह बताता है ______।" — इससे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) घोड़े-शब्द (असतबल, खरहरा, बाँका, हिनहिनाना) का अर्थ बताओ। (2) \'पश्चाताप\' बनाम \'पश्चिम\' का अंतर दिखाओ।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_hin_cbse_04_011', difficulty: 'standard',
-          question: 'भाषा-प्रयोग (Language Usage) refers to the conscious selection of vocabulary.',
-          hint: 'If stuck, review **पदावली: मुख्य शब्द (c6_hin_cbse_04_010)** and Class 5 grammar.',
-          misconception: 'Students believe that **"Formal Hindi = Difficult Sanskrit words (तत्सम) and Informal Hindi = Easy Hindi words.',
+          question: 'भाषा-प्रयोग — प्रेमचंद की सरल, लोक-हिंदी: तृतीय-पुरुष वर्णन (\'बाबा भारती उसे.',
+          hint: 'यदि अटका हुआ महसूस हो तो: एक संवाद पढ़िए (\'मुझ पर दया करो\'), उसका भाव बोलिए — भाषा का असर.',
+          misconception: 'छात्र \'मुझ पर दया करो\' को \'सच्ची प्रार्थना\' मानते हैं — यह वेष की किरदारी है; खड्गसिंह ने दया का दुरुपयोग किया।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'भाषा-प्रयोग (Language Usage) refers to the conscious selection of vocabulary (शब्दावली),',
-                  options: ['भाषा-प्रयोग (Language Usage) refers to the conscious selection of vocabulary (शब्दावली),', '\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक और', 'कथानक वह क्रम है जिसमें कहानी की घटनाएं होती हैं, जबकि आख्यान-संरचना कहानी को शुरू, मध्य', 'पाठ्य-परिवेश (Setting) कहानी घटित होने का समग्र संदर्भ है जिसमें स्थान (भौगोलिक/भौतिक),'],
-                  hint: 'If stuck, review **पदावली: मुख्य शब्द (c6_hin_cbse_04_010)** and Class 5 grammar on **सर्वनाम.',
-                  misconception: 'Students believe that **"Formal Hindi = Difficult Sanskrit words (तत्सम) and Informal Hindi = Easy Hindi words (तद्भव)"**.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'भाषा-प्रयोग — प्रेमचंद की सरल, लोक-हिंदी: तृतीय-पुरुष वर्णन (\'बाबा भारती उसे सुलतान कहकर',
+                  options: ['भाषा-प्रयोग — प्रेमचंद की सरल, लोक-हिंदी: तृतीय-पुरुष वर्णन (\'बाबा भारती उसे सुलतान कहकर', 'मुंशी प्रेमचंद (1880–1936)', 'कथानक — बाबा भारती घोड़े सुलतान से प्रेम करते हैं (\'इसके बिना मैं रह न सकूँगा\')', 'पाठ्य-परिवेश — गाँव-जीवन: बाबा भारती का छोटा-सा मंदिर गाँव से बाहर, असतबल (घुड़साल) जहाँ'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: एक संवाद पढ़िए (\'मुझ पर दया करो\'), उसका भाव बोलिए — भाषा का असर समझ आएगा।',
+                  misconception: 'छात्र \'मुझ पर दया करो\' को \'सच्ची प्रार्थना\' मानते हैं — यह वेष की किरदारी है; खड्गसिंह ने दया का दुरुपयोग किया।' }
           ],
-            remediations: { 'formal-hindi-difficult-sanskrit-words': { steps: ['** Take a **real-life audio clip** (1 min) — a news anchor (formal), a grandma telling a story (literary/colloquial).', '** Give **two versions of the same message** (e.g., "Come tomorrow at 10" — formal letter vs WhatsApp text).', '** **Role-play**: "You are the character from Ch 4. Talk to your friend (informal). Now talk to the Principal (formal).', '** Return to Ch 4 text — now student *hears* the shifts they couldn\'t *see* before.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) प्रत्यक्ष संवाद के 3 उदाहरण दिखाओ। (2) \'दया करो\' का वेष-भाव समझाओ। (3) \'बकरा-कसाई\' जैसी उपमा का कार्य.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_hin_cbse_04_012', difficulty: 'standard',
-          question: 'वस्तुनिष्ठ प्रश्न (Objective questions) test literal comprehension — the answer.',
-          hint: 'यदि अटके तो c6_hin_cbse_04_002 (कथानक) और c6_hin_cbse_04_004 (नायक चरित्र) दोबारा पढ़ें.',
-          misconception: 'विद्यार्थी समझते हैं कि "आशय-सूचक प्रश्न का उत्तर पाठ में \'छिपा\' होता है और उसे ढूंढना पड़ता है" — जैसे कोई खजाना खोज.',
+          question: 'वस्तुनिष्ठ प्रश्न — तथ्य पाठ से सीधे: (1) लेखक प्रेमचंद; (2) बाबा भारती का.',
+          hint: 'यदि अटका हुआ महसूस हो तो: प्रश्न का मुख्य शब्द (जैसे \'अपाहिज\') पाठ में खोजिए — उत्तर वहीं.',
+          misconception: 'छात्र \'अपाहिज\' को \'बूढ़ा\' या \'बीमार\' मानते हैं — यहाँ \'अपाहिज\' = लंगड़ा; खड्गसिंह ने लंगड़े का वेष धरा था।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न (Objective questions) test literal comprehension',
-                  options: ['वस्तुनिष्ठ प्रश्न (Objective questions) test literal comprehension', '\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक और', 'कथानक वह क्रम है जिसमें कहानी की घटनाएं होती हैं, जबकि आख्यान-संरचना कहानी को शुरू, मध्य', 'पाठ्य-परिवेश (Setting) कहानी घटित होने का समग्र संदर्भ है जिसमें स्थान (भौगोलिक/भौतिक),'],
-                  hint: 'यदि अटके तो c6_hin_cbse_04_002 (कथानक) और c6_hin_cbse_04_004 (नायक चरित्र) दोबारा पढ़ें — घटनाक्रम.',
-                  misconception: 'विद्यार्थी समझते हैं कि "आशय-सूचक प्रश्न का उत्तर पाठ में \'छिपा\' होता है और उसे ढूंढना पड़ता है" — जैसे कोई खजाना खोज रहे हों। वास्तव में.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न',
+                  options: ['वस्तुनिष्ठ प्रश्न', 'मुंशी प्रेमचंद (1880–1936)', 'कथानक — बाबा भारती घोड़े सुलतान से प्रेम करते हैं (\'इसके बिना मैं रह न सकूँगा\')', 'पाठ्य-परिवेश — गाँव-जीवन: बाबा भारती का छोटा-सा मंदिर गाँव से बाहर, असतबल (घुड़साल) जहाँ'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: प्रश्न का मुख्य शब्द (जैसे \'अपाहिज\') पाठ में खोजिए — उत्तर वहीं है.',
+                  misconception: 'छात्र \'अपाहिज\' को \'बूढ़ा\' या \'बीमार\' मानते हैं — यहाँ \'अपाहिज\' = लंगड़ा; खड्गसिंह ने लंगड़े का वेष धरा था।' }
           ],
-            remediations: { 'wrong-idea': { steps: ['विद्यार्थी के सामने एक छोटा पाठांश (4-5 वाक्य) रखें जिसमें पात्र की भावना स्पष्ट न लिखी हो, केवल कार्य/संवाद/विवरण हो।.', 'पूछें: "पात्र कैसा महसूस कर रहा है?" — जब विद्यार्थी उत्तर दे, तब पूछें: "पाठ में कौन सा शब्द यह बताता है?" — जब वह.', 'मिलकर उन वाक्यों को तीर (→) से जोड़कर निष्कर्ष तक पहुँचें। 4.', 'फिर विद्यार्थी से कहें: "अब तुम अपने शब्दों में लिखो: पहला सुराग यह, दूसरा सुराग यह, इसलिए निष्कर्ष यह।" — यही PEEL का.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) तथ्य-प्रश्न पाठ से निकलवाओ। (2) \'अपाहिज\' = लंगड़ा बताओ। (3) \'घटना प्रकट न करना\' का उद्देश्य समझाओ।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

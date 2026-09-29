@@ -6,13 +6,13 @@ import C11_InformaticsPracticesDatabaseConceptsSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_informaticspracticesdatabaseconceptssim: SimDef = {
     id: 'v3w_c11_informaticspracticesdatabaseconceptssim',
-    title: 'Informatics Practices Database Concepts',
+    title: 'Introduction to Data, Database and Database Management System',
     subtitle: 'This node covers: data vs information, file system limitations (redundancy,.',
     classLevel: 11, subject: 'science', topic: 'Introduction to Data, Database and Database Management System',
     chapters: [],
     nodeIds: ['c11_ip_cbse_07_001', 'c11_ip_cbse_07_005', 'c11_ip_cbse_07_002', 'c11_ip_cbse_07_003', 'c11_ip_cbse_07_004', 'c11_ip_cbse_07_006', 'c11_ip_cbse_07_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine your school library still uses paper registers: one register for book details, another for student.', goal: 'Master Informatics Practices Database Concepts.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine your school library still uses paper registers: one register for book details, another for student.', goal: 'Master Introduction to Data, Database and Database Management System.' },
     discovery: {
         question: 'Explain why "data inconsistency" is a more dangerous problem than "data redundancy" in a file system, using the example of a student\'s name correction across.',
         options: ['Redundancy wastes storage', 'redundancy uses more disk space', 'Primary Key = Unique Identifier'],
@@ -84,7 +84,7 @@ export const w_c11_informaticspracticesdatabaseconceptssim: SimDef = {
             { text: 'Add CHECK constraint for DOB: `ALTER TABLE STUDENTS ADD CONSTRAINT chk_dob CHECK (DOB > \'2000-01-01\');` (Note: MySQL.', faded: true, blankAnswer: 'Sequence of 8 statements as above; existing data preserved.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_ip_cbse_07_005', title: 'Identify each idea',
-          dissect: { specimen: 'Informatics Practices Database Concepts', spots: [
+          dissect: { specimen: 'Introduction to Data, Database and Database Management System', spots: [
             { id: 's1', label: 'A Database Management System DBMS', prompt: 'Which idea is this? — A Database Management System (DBMS) is a software system that enables users to define,.', answer: 'A Database Management System DBMS', options: ['A Database Management System DBMS', 'The CREATE TABLE command is', 'In the Relational Data Model', 'A Candidate Key is a'] },
             { id: 's2', label: 'The CREATE TABLE command is', prompt: 'Which idea is this? — The CREATE TABLE command is a Data Definition Language (DDL) statement used to define a.', answer: 'The CREATE TABLE command is', options: ['The CREATE TABLE command is', 'A Database Management System DBMS', 'In the Relational Data Model', 'A Candidate Key is a'] },
             { id: 's3', label: 'In the Relational Data Model', prompt: 'Which idea is this? — In the Relational Data Model, a **relation** (table) is a two-dimensional structure that.', answer: 'In the Relational Data Model', options: ['In the Relational Data Model', 'A Database Management System DBMS', 'The CREATE TABLE command is', 'A Candidate Key is a'] },
@@ -93,7 +93,7 @@ export const w_c11_informaticspracticesdatabaseconceptssim: SimDef = {
             { id: 's6', label: 'ALTER TABLE is a DDL', prompt: 'Which idea is this? — ALTER TABLE is a DDL command used to modify the structure of an existing table by adding,.', answer: 'ALTER TABLE is a DDL', options: ['ALTER TABLE is a DDL', 'A Database Management System DBMS', 'The CREATE TABLE command is', 'In the Relational Data Model'] }
           ] } }
     ],
-    explore: { component: C11_InformaticsPracticesDatabaseConceptsSim, prompt: 'Explore the interactive — Informatics Practices Database Concepts' },
+    explore: { component: C11_InformaticsPracticesDatabaseConceptsSim, prompt: 'Explore the interactive — Introduction to Data, Database and Database Management System' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_ip_cbse_07_001', difficulty: 'standard',
           question: 'A Database Management System (DBMS) is a software system that enables users to.',
@@ -178,8 +178,8 @@ export const w_c11_informaticspracticesdatabaseconceptssim: SimDef = {
                   options: ['This is the **Schema Navigator** (or Navigator panel)', 'Query Editor', 'data inside tables'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think **MySQL Workbench *is* the database** (the actual data storage).' },
-                { id: 'c', prompt: 'You have connected to the MySQL server in Workbench. You want to see the structure (column names, data types) of the `STUDENT` table in the `school_db` schema.', answer: 'Steps: 1) In Navigator panel, ensure `Schemas` tab is selected',
-                  options: ['Steps: 1) In Navigator panel, ensure `Schemas` tab is selected', 'write `DESC STUDENT;` in query editor', 'I uninstalled Workbench, is my data gone?'],
+                { id: 'c', prompt: 'You have connected to the MySQL server in Workbench. You want to see the structure (column names, data types) of the `STUDENT` table in the `school_db` schema.', answer: 'In Navigator panel, ensure `Schemas` tab is selected',
+                  options: ['In Navigator panel, ensure `Schemas` tab is selected', 'write `DESC STUDENT;` in query editor', 'I uninstalled Workbench, is my data gone?'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think **MySQL Workbench *is* the database** (the actual data storage).' }
           ],

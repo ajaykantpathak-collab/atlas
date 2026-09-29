@@ -100,7 +100,7 @@ export const c9_engl_ch08_p2: SimDef = {
           ],
             remediations: { 'students-treat-metaphor-and-anecdote': { steps: ['Give student two highlighters: one for metaphors (mark tenor/vehicle), one for anecdotes (bracket the narrative).', 'For each highlight, complete: "This metaphor makes abstract idea X concrete by comparing it to Y because..." and "This.', 'Practice with a non-text example: a coach\'s halftime speech.', 'Require oral explanation before written analysis.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c9_engl_ch8_8', difficulty: 'standard',
-          question: 'Vocabulary in Context: Words of Aspiration and Determination refers to the.',
+          question: 'From \'s core message, the writer\': the skill or concept this node teaches.',
           hint: 'If stuck, re-read the letter (c9_engl_ch8_1) and highlight every word related.',
           misconception: 'Students believe "vocabulary in context" means guessing a word\'s *dictionary meaning* from surrounding sentences.',
           parts: [

@@ -6,13 +6,13 @@ import C11_BiologyPlantTransportTranspirationSim from '../../../simulations/thre
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologyplanttransporttranspirationsim: SimDef = {
     id: 'v3w_c11_biologyplanttransporttranspirationsim',
-    title: 'Plant Transport Transpiration',
+    title: 'Plant Tissues: Meristematic and Permanent',
     subtitle: 'This node covers the fundamental classification of plant tissues, characteristics of.',
     classLevel: 11, subject: 'biology', topic: 'Plant Tissues: Meristematic and Permanent',
     chapters: [],
     nodeIds: ['c11_bio_cbse_06_001', 'c11_bio_cbse_06_003', 'c11_bio_cbse_13_003', 'c11_bio_cbse_03_004', 'c11_bio_cbse_06_002', 'c11_bio_cbse_06_004', 'c11_bio_cbse_06_005', 'c11_bio_cbse_06_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a young mango sapling in your garden: its stem thickens each year, new leaves appear at the tip, and.', goal: 'Master Plant Transport Transpiration.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a young mango sapling in your garden: its stem thickens each year, new leaves appear at the tip, and.', goal: 'Master Plant Tissues: Meristematic and Permanent.' },
     discovery: {
         question: 'Design a simple experiment using a potted herbaceous plant (e.g., *Coleus* or *Balsam*) and a water-soluble dye (e.g., eosin) to demonstrate that xylem, not.',
         options: ['**Procedure**: (1) Cut the stem underwater to avoid air entry', 'check phloem for dye', 'use radioactive carbon for water transport'],
@@ -80,7 +80,7 @@ export const w_c11_biologyplanttransporttranspirationsim: SimDef = {
             { text: 'Conclude that mustard\'s dicot root anatomy provides higher hydraulic conductivity and plasticity, delaying wilting.', faded: true, blankAnswer: 'Mustard (dicot) roots have fewer but wider xylem vessels.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_06_003', title: 'Identify each idea',
-          dissect: { specimen: 'Plant Transport Transpiration', spots: [
+          dissect: { specimen: 'Plant Tissues: Meristematic and Permanent', spots: [
             { id: 's1', label: 'Plant tissues are groups of', prompt: 'Which idea is this? — Plant tissues are groups of structurally and functionally similar cells that originate.', answer: 'Plant tissues are groups of', options: ['Plant tissues are groups of', 'Complex tissues are heterogeneous tissues', 'Auxins are a class of', 'Bryophytes are non-vascular terrestrial embryophytes'] },
             { id: 's2', label: 'Complex tissues are heterogeneous tissues', prompt: 'Which idea is this? — Complex tissues are heterogeneous tissues composed of more than one type of cell that.', answer: 'Complex tissues are heterogeneous tissues', options: ['Complex tissues are heterogeneous tissues', 'Plant tissues are groups of', 'Auxins are a class of', 'Bryophytes are non-vascular terrestrial embryophytes'] },
             { id: 's3', label: 'Auxins are a class of', prompt: 'Which idea is this? — Auxins are a class of plant growth regulators (phytohormones) chemically characterized as.', answer: 'Auxins are a class of', options: ['Auxins are a class of', 'Plant tissues are groups of', 'Complex tissues are heterogeneous tissues', 'Bryophytes are non-vascular terrestrial embryophytes'] },
@@ -89,7 +89,7 @@ export const w_c11_biologyplanttransporttranspirationsim: SimDef = {
             { id: 's6', label: 'The root anatomy of dicotyledonous', prompt: 'Which idea is this? — The root anatomy of dicotyledonous and monocotyledonous plants refers to the internal.', answer: 'The root anatomy of dicotyledonous', options: ['The root anatomy of dicotyledonous', 'Plant tissues are groups of', 'Complex tissues are heterogeneous tissues', 'Auxins are a class of'] }
           ] } }
     ],
-    explore: { component: C11_BiologyPlantTransportTranspirationSim, prompt: 'Explore the interactive — Plant Transport Transpiration' },
+    explore: { component: C11_BiologyPlantTransportTranspirationSim, prompt: 'Explore the interactive — Plant Tissues: Meristematic and Permanent' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_06_001', difficulty: 'standard',
           question: 'Plant tissues are groups of structurally and functionally similar cells that.',
@@ -207,8 +207,8 @@ export const w_c11_biologyplanttransporttranspirationsim: SimDef = {
                   options: ['The claim is not necessarily true', 'polyarch', 'more vascular bundles'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that the "polyarch" condition in monocot roots means they have "more vascular bundles" like monocot stems.' },
-                { id: 'b', prompt: 'Design a simple microscopic experiment using temporary mounts to distinguish between a dicot and monocot root from unlabelled slides.', answer: 'Steps: (1) Cut thin transverse sections of both roots using a razor blade',
-                  options: ['Steps: (1) Cut thin transverse sections of both roots using a razor blade', 'polyarch', 'more vascular bundles'],
+                { id: 'b', prompt: 'Design a simple microscopic experiment using temporary mounts to distinguish between a dicot and monocot root from unlabelled slides.', answer: '(1) Cut thin transverse sections of both roots using a razor blade',
+                  options: ['(1) Cut thin transverse sections of both roots using a razor blade', 'polyarch', 'more vascular bundles'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that the "polyarch" condition in monocot roots means they have "more vascular bundles" like monocot stems.' }
           ],

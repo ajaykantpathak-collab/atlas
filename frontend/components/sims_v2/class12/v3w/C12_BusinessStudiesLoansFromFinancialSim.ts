@@ -6,13 +6,13 @@ import C12_BusinessStudiesLoansFromFinancialSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_businessstudiesloansfromfinancialsim: SimDef = {
     id: 'v3w_c12_businessstudiesloansfromfinancialsim',
-    title: 'Loans From Financial',
+    title: 'Financing Decision: Debt vs Equity and Capital Structure',
     subtitle: 'This node covers: meaning of financing decision, sources of long-term finance (owners\' vs.',
     classLevel: 12, subject: 'business_studies', topic: 'Financing Decision: Debt vs Equity and Capital Structure',
     chapters: [],
     nodeIds: ['c12_bs_cbse_09_004', 'c12_bs_cbse_09_008', 'c12_bs_cbse_10_002', 'c12_bs_cbse_09_001', 'c12_bs_cbse_09_002', 'c12_bs_cbse_09_003', 'c12_bs_cbse_09_005', 'c12_bs_cbse_09_006', 'c12_bs_cbse_09_007', 'c12_bs_cbse_09_009', 'c12_bs_cbse_09_010', 'c12_bs_cbse_10_001', 'c12_bs_cbse_10_003', 'c12_bs_cbse_10_005', 'c12_bs_cbse_10_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the CFO of a growing Indian manufacturing company planning a ₹500 crore expansion.', goal: 'Master Loans From Financial.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the CFO of a growing Indian manufacturing company planning a ₹500 crore expansion.', goal: 'Master Financing Decision: Debt vs Equity and Capital Structure.' },
     discovery: {
         question: 'A company has ₹20 crore equity share capital and ₹10 crore 12% debentures. What is its debt-equity ratio and debt-to-total-capital ratio?',
         options: ['Debt-equity ratio = Debt/Equity = 10/20 = 0.5 or 1:2', 'Trading on Equity', 'using debt to increase EPS'],
@@ -80,7 +80,7 @@ export const w_c12_businessstudiesloansfromfinancialsim: SimDef = {
             { text: 'Interpretation: NPV > 0, PI > 1, ARR > cost of capital (12%), Payback < life → Accept project.', faded: true, blankAnswer: '(a) Payback Period = 2.85 years; (b) NPV = ₹12.432 lakh;.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bs_cbse_09_008', title: 'Identify each idea',
-          dissect: { specimen: 'Loans From Financial', spots: [
+          dissect: { specimen: 'Financing Decision: Debt vs Equity and Capital Structure', spots: [
             { id: 's1', label: 'Financing decision refers to the', prompt: 'Which idea is this? — Financing decision refers to the process of determining the optimal mix of long-term.', answer: 'Financing decision refers to the', options: ['Financing decision refers to the', 'Capital structure refers to the', 'The money market is a', 'Financial Management is the process'] },
             { id: 's2', label: 'Capital structure refers to the', prompt: 'Which idea is this? — Capital structure refers to the mix between owners\' funds (equity share capital,.', answer: 'Capital structure refers to the', options: ['Capital structure refers to the', 'Financing decision refers to the', 'The money market is a', 'Financial Management is the process'] },
             { id: 's3', label: 'The money market is a', prompt: 'Which idea is this? — The money market is a segment of the financial market where short-term funds (maturity up.', answer: 'The money market is a', options: ['The money market is a', 'Financing decision refers to the', 'Capital structure refers to the', 'Financial Management is the process'] },
@@ -89,7 +89,7 @@ export const w_c12_businessstudiesloansfromfinancialsim: SimDef = {
             { id: 's6', label: 'Capital Budgeting is the process', prompt: 'Which idea is this? — Capital Budgeting is the process of evaluating and selecting long-term investment.', answer: 'Capital Budgeting is the process', options: ['Capital Budgeting is the process', 'Financing decision refers to the', 'Capital structure refers to the', 'The money market is a'] }
           ] } }
     ],
-    explore: { component: C12_BusinessStudiesLoansFromFinancialSim, prompt: 'Explore the interactive — Loans From Financial' },
+    explore: { component: C12_BusinessStudiesLoansFromFinancialSim, prompt: 'Explore the interactive — Financing Decision: Debt vs Equity and Capital Structure' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bs_cbse_09_004', difficulty: 'standard',
           question: 'Financing decision refers to the process of determining the optimal mix of.',

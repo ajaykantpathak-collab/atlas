@@ -6,13 +6,13 @@ import C12_ComputerScienceJavaProjectBankingSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_computersciencejavaprojectbankingsim: SimDef = {
     id: 'v3w_c12_computersciencejavaprojectbankingsim',
-    title: 'Java Project Banking',
+    title: 'Phishing, Identity Theft and Cyberbullying',
     subtitle: 'This node covers the definitions, mechanisms, recognition techniques, and prevention.',
     classLevel: 12, subject: 'computer_science', topic: 'Phishing, Identity Theft and Cyberbullying',
     chapters: [],
     nodeIds: ['c12_cs_cbse_12_003', 'c12_cs_cbse_04_006', 'c12_cs_cbse_04_007', 'c12_cs_cbse_13_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you receive an SMS: "Your SBI account will be closed in 2 hours.', goal: 'Master Java Project Banking.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you receive an SMS: "Your SBI account will be closed in 2 hours.', goal: 'Master Phishing, Identity Theft and Cyberbullying.' },
     discovery: {
         question: 'A student receives an email claiming to be from "CBSE Board" with sender address "cbse.results@gov.in.biz" and subject "URGENT: Your Class 12 Marksheet Error -.',
         options: ['Correct indicators: (1) Sender domain "gov.in.biz" is a subdomain of "biz"', 'the email has spelling mistakes', 'Dear Customer'],
@@ -59,7 +59,7 @@ export const w_c12_computersciencejavaprojectbankingsim: SimDef = {
                 { text: 'computers', outcome: 'Not quite — Students conflate "technology impact" with "listing features of a gadget".', reveals: 'students-conflate-technology-impact-with' }
             ] }] } }
     ],
-    explore: { component: C12_ComputerScienceJavaProjectBankingSim, prompt: 'Explore the interactive — Java Project Banking' },
+    explore: { component: C12_ComputerScienceJavaProjectBankingSim, prompt: 'Explore the interactive — Phishing, Identity Theft and Cyberbullying' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_cs_cbse_12_003', difficulty: 'standard',
           question: 'Phishing is a cyber attack where attackers impersonate legitimate entities via.',

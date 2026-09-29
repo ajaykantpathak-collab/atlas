@@ -6,13 +6,13 @@ import C12_PoliticalScienceSalientFeaturesIndianSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_politicalsciencesalientfeaturesindiansim: SimDef = {
     id: 'v3w_c12_politicalsciencesalientfeaturesindiansim',
-    title: 'Salient Features Indian',
+    title: 'Congress as the Dominant Party: Organisation and Social Coalition',
     subtitle: 'This node covers: (1) Congress\'s organisational evolution from 1885 to 1952, (2) its.',
     classLevel: 12, subject: 'political_science', topic: 'Congress as the Dominant Party: Organisation and Social Coalition',
     chapters: [],
     nodeIds: ['c12_ps_cbse_09_001', 'c12_ps_cbse_15_001', 'c12_ps_cbse_13_001', 'c12_ps_cbse_02_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are watching a news debate where a political analyst says, "The Congress party ruled India for.', goal: 'Master Salient Features Indian.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are watching a news debate where a political analyst says, "The Congress party ruled India for.', goal: 'Master Congress as the Dominant Party: Organisation and Social Coalition.' },
     discovery: {
         question: 'Evaluate the statement: "The end of the Congress system weakened Indian democracy because coalition governments are inherently unstable and ineffective." Use.',
         options: ['The statement is **refutable**', 'accommodation within one party', '**"the Congress system ended'],
@@ -60,14 +60,14 @@ export const w_c12_politicalsciencesalientfeaturesindiansim: SimDef = {
             { text: 'Conclude — the editorial’s “mathematical impossibility” is a **necessary but not sufficient** explanation; the.', faded: true, blankAnswer: 'The claim is **reductionist**. While the economic.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_ps_cbse_15_001', title: 'Identify each idea',
-          dissect: { specimen: 'Salient Features Indian', spots: [
+          dissect: { specimen: 'Congress as the Dominant Party: Organisation and Social Coalition', spots: [
             { id: 's1', label: 'The Indian National Congress emerged', prompt: 'Which idea is this? — The Indian National Congress emerged as the dominant political party in the first three.', answer: 'The Indian National Congress emerged', options: ['The Indian National Congress emerged', 'The Congress system refers to', 'Popular movements are collective actions', 'The Soviet System refers to'] },
             { id: 's2', label: 'The Congress system refers to', prompt: 'Which idea is this? — The "Congress system" refers to the period (1947–1989) when the Indian National Congress.', answer: 'The Congress system refers to', options: ['The Congress system refers to', 'The Indian National Congress emerged', 'Popular movements are collective actions', 'The Soviet System refers to'] },
             { id: 's3', label: 'Popular movements are collective actions', prompt: 'Which idea is this? — Popular movements are collective actions by citizens to address public issues, demand.', answer: 'Popular movements are collective actions', options: ['Popular movements are collective actions', 'The Indian National Congress emerged', 'The Congress system refers to', 'The Soviet System refers to'] },
             { id: 's4', label: 'The Soviet System refers to', prompt: 'Which idea is this? — The Soviet System refers to the political and economic structure of the Union of Soviet.', answer: 'The Soviet System refers to', options: ['The Soviet System refers to', 'The Indian National Congress emerged', 'The Congress system refers to', 'Popular movements are collective actions'] }
           ] } }
     ],
-    explore: { component: C12_PoliticalScienceSalientFeaturesIndianSim, prompt: 'Explore the interactive — Salient Features Indian' },
+    explore: { component: C12_PoliticalScienceSalientFeaturesIndianSim, prompt: 'Explore the interactive — Congress as the Dominant Party: Organisation and Social Coalition' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_ps_cbse_09_001', difficulty: 'standard',
           question: 'The Indian National Congress emerged as the dominant political party in the.',

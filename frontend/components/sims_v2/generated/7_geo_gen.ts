@@ -9,7 +9,7 @@ import type { SimDef } from '../engine/types';
 export const C7_GEO_GEN: SimDef[] = [
  {
   "id": "gen_c7_geo_ch01",
-  "title": "India's Location, Latitude, Longitude, And",
+  "title": "India's Location, Latitude, Longitude,",
   "subtitle": "Geography · Chapter 1",
   "classLevel": 7,
   "mode": "senior",
@@ -49,7 +49,7 @@ export const C7_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "India's Location, Latitude, Longitude, And",
+    "title": "India's Location: Latitude, Longitude",
     "text": "India's location, latitude, longitude, and extent refer to its precise geographical coordinates on the globe, spanning roughly 8°4'N to 37°6'North latitudes and 68°7'E to 97°25'East longitudes, which shape its vast mainland area, tropical-to-temperate",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -67,7 +67,7 @@ export const C7_GEO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Himalayan Mountain Range Forms The",
+    "title": "Himalayan Mountain Range Forms",
     "text": "The Himalayan Mountain Range forms the majestic northern boundary of India, stretching in a massive arc over 2,400 kilometres from the Indus gorge in the west to the Brahmaputra gorge in the east.",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1012,7 +1012,7 @@ export const C7_GEO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Onset And Progress Of The",
+    "title": "Onset And Progress",
     "text": "The onset and progress of the Southwest Monsoon refer to the arrival of rain-bearing moisture-laden winds in mainland India around early June and their gradual advancement across the country in distinct branches until mid-July.",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1054,7 +1054,7 @@ export const C7_GEO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Preparing For Natural Disasters Linked To",
+    "title": "Preparing For Natural Disasters Linked",
     "text": "Preparing for natural disasters linked to climate involves identifying regions vulnerable to extreme weather events like floods, droughts, and cyclones, and creating proactive community plans, evacuation routes, and resilient infrastructure to minimize loss",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1647,7 +1647,7 @@ export const C7_GEO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Modern Farming Techniques Refer To The",
+    "title": "Modern Farming Techniques",
     "text": "Modern farming techniques refer to the application of advanced technological inputs—such as mechanized tractors for rapid tillage, controlled irrigation systems (like drip and sprinkler) for precise water delivery, and high-yielding variety (HYV) hybrid",
     "emoji": "🌍",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2199,7 +2199,7 @@ export const C7_GEO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Shared History And Geography Of",
+    "title": "Shared History And Geography",
     "text": "The shared history and geography of India and Pakistan encompasses contiguous Himalayan and Thar desert terrain, common trans-boundary river systems originating in the Indus basin, and deeply intertwined cultural heritage zones along the Punjab and Sindh",
     "emoji": "🌍",
     "bgColor": "from-rose-400 to-pink-500"

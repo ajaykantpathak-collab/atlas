@@ -83,7 +83,7 @@ export const C6_CIV_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Government In India Operates At",
+    "title": "Government In India Operates",
     "text": "The government in India operates at three distinct levels—local, state, and national—to ensure that the vast and diverse needs of the country are managed efficiently at the appropriate scale.",
     "emoji": "⚖️",
     "bgColor": "from-violet-400 to-purple-500"

@@ -142,6 +142,10 @@ export const c12_acc_ch05_p1: SimDef = {
                 { id: 'b', prompt: 'A company issues 5,000 shares of ₹100 each at a premium of ₹20, payable ₹30 on application, ₹50 (including premium) on allotment, and the balance on call.', answer: 'Share Capital represents the nominal (face) value of shares issued',
                   options: ['Share Capital represents the nominal (face) value of shares issued', 'capital received', 'share capital'],
                   hint: 'If stuck, review Class 11 Journal entries (c11_acc_cbse_03_007) and the Accounting Equation.',
+                  misconception: 'Students often think that when shares are issued at a discount, the Share Capital account is credited with the net amount received (issue.' },
+                { id: 'c', prompt: 'Pass journal entries for the issue of 2,000, 10% preference shares of ₹100 each at a discount of 10%, payable ₹25 on application, ₹40 on allotment, and ₹25.', answer: 'Bank Dr',
+                  options: ['Bank Dr', 'capital received', 'share capital', 'discount reduces share capital'],
+                  hint: 'If stuck, review Class 11 Journal entries (c11_acc_cbse_03_007) and the Accounting Equation.',
                   misconception: 'Students often think that when shares are issued at a discount, the Share Capital account is credited with the net amount received (issue.' }
           ],
             remediations: { 'when-shares-are-issued-at': { steps: ['Revisit the accounting equation: Assets = Liabilities + Capital.', 'Share Capital is part of Capital (equity) and must equal number of shares × face value.', 'Review Class 11 node c11_acc_cbse_03_004 (Rules of Debit/Credit) to recall that capital accounts are credited for.', 'Practice the "face value always" rule: write 10 entries where you deliberately separate face value, premium, and.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },

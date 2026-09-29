@@ -19,7 +19,7 @@ export const c12_eng_k_ch15_p3: SimDef = {
         hook: 'Woolf believed life is \'a luminous halo,\' not a chain of episodes — so stream of consciousness isn\'t first-person rambling but the deliberate music of a mind moving. The mark, the fire, the tree are just launchpads; the real action is thought itself.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation for "The Mark on the Wall" is the ability to deconstruct Virginia Woolf\'s stream-of-consciousness essay by tracing how a trivial sensory detail (the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Mark on the Wall\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_15_013', title: 'Your mission',
@@ -29,20 +29,20 @@ export const c12_eng_k_ch15_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_15_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are sitting in your room and notice a small stain on the wall; your mind instantly jumps from wondering what caused it to a memory of a similar.',
+          caseStudy: { intro: 'Analyse \'The Mark on the Wall\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the primary narrative technique Virginia Woolf employs in "The Mark on the Wall," and how does it differ from a conventional linear.', options: [
                 { text: 'The primary technique is stream of consciousness', outcome: 'The primary technique is stream of consciousness, which presents thoughts as they arise.' },
                 { text: 'first-person narration', outcome: 'Not quite — Students believe the essay is *about* the mark (or the snail) and hunt for a "hidden meaning".', reveals: 'the-essay-is-about-the' },
                 { text: 'flashback', outcome: 'Not quite — Students believe the essay is *about* the mark (or the snail) and hunt for a "hidden meaning".', reveals: 'the-essay-is-about-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_15_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing a 6-mark question: "How does Woolf use the mark on the wall to explore the nature of human thought?" Most students.',
+          caseStudy: { intro: 'For written answers on \'The Mark on the Wall\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the primary narrative technique Virginia Woolf employs in "The Mark on the Wall," and how does it differ from traditional linear.', options: [
                 { text: 'The primary technique is **stream of consciousness**', outcome: 'The primary technique is **stream of consciousness** — a modernist mode that presents thoughts.' },
                 { text: 'first-person narration', outcome: 'Not quite — **Students treat "Writing Skills" as "summarizing the story in their own words."** They write.', reveals: 'students-treat-writing-skills-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_15_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a book club and someone says: "The mark is just a snail — the whole essay is pointless." How do you respond?',
+          caseStudy: { intro: 'Talk through \'The Mark on the Wall\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the four key discussion stems used to build on a peer\'s idea in a literary discussion, and why is each necessary for.', options: [
                 { text: 'The four key stems are: "I agree with X because..." (forces evidence), "Building on X\'s', outcome: 'The four key stems are: "I agree with X because..." (forces evidence), "Building on X\'s point...".' },
                 { text: 'I agree', outcome: 'Not quite — Students think "discussion" means sharing personal opinions about the story ("I liked the tree.', reveals: 'discussion-means-sharing-personal-opinions' },
@@ -67,7 +67,7 @@ export const c12_eng_k_ch15_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_15_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation for "The Mark on the Wall".',
+          question: 'Critical thinking on \'The Mark on the Wall\' — analysing the text to reach.',
           hint: 'If the thought-clusters feel like a blur, return to c12_eng_k_cbse_15_012 (Comprehension).',
           misconception: 'Students believe the essay is *about* the mark (or the snail) and hunt for a "hidden meaning" behind the object.',
           parts: [
@@ -89,7 +89,7 @@ export const c12_eng_k_ch15_p3: SimDef = {
           ],
             remediations: { 'the-essay-is-about-the': { steps: ['If a student cannot move beyond plot summary: (1) Have them re-read only the first three paragraphs and list every noun.', '(2) Ask: "What do these have in common?" (They are all triggered *by* the mark but are not the mark.) (3) Direct them.', '(4) Assign a 5-minute free-writing exercise: stare at a spot on the wall and write *exactly* what comes to mind without.', 'Compare the result to Woolf\'s moves.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_15_014', difficulty: 'standard',
-          question: 'Writing Skills for "The Mark on the Wall" involves crafting structured.',
+          question: 'Writing skills from \'The Mark on the Wall\' — using the text as a model.',
           hint: 'If stuck on writing analytical claims, revisit **c12_eng_k_cbse_15_013 (Critical.',
           misconception: '**Students treat "Writing Skills" as "summarizing the story in their own words."** They write: "First the narrator sees.',
           parts: [
@@ -108,7 +108,7 @@ export const c12_eng_k_ch15_p3: SimDef = {
           ],
             remediations: { 'students-treat-writing-skills-as': { steps: ['If a student submits a summary instead of analysis: 1.', '**Highlight** every sentence that merely recounts content (e.g., "She thinks of the fire," "She remembers the.', '**Ask**: "What is the *function* of this detail in Woolf\'s argument about thought?" 3.', '**Model** the conversion: "She remembers the fire" → "The fire\'s \'steady film of yellow light\' anchors the narrator.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_15_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to structured oral activities.',
+          question: 'Discussion points on \'The Mark on the Wall\' — speaking and listening around the.',
           hint: 'If stuck, review c12_eng_k_cbse_15_013 (Critical Thinking) for analysis models and.',
           misconception: 'Students think "discussion" means sharing personal opinions about the story ("I liked the tree part").',
           parts: [

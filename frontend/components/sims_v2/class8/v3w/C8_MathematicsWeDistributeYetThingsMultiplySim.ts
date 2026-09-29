@@ -6,13 +6,13 @@ import C8_MathematicsWeDistributeYetThingsMultiplySim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicswedistributeyetthingsmultiplysim: SimDef = {
     id: 'v3w_c8_mathematicswedistributeyetthingsmultiplysim',
-    title: 'We Distribute Yet Things Multiply',
+    title: 'Distributive Property of Multiplication Over Addition',
     subtitle: 'This node covers the distributive property in the form \\(a(b + c) = ab + ac\\) for all.',
     classLevel: 8, subject: 'mathematics', topic: 'Distributive Property of Multiplication Over Addition',
     chapters: [],
     nodeIds: ['c8_math_ch6_1', 'c8_math_ch6_10', 'c8_math_ch6_2', 'c8_math_ch6_4', 'c8_math_ch6_6'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you are buying supplies for your classroom: each student needs 1 notebook (₹12) and 1 pen (₹8).', goal: 'Master We Distribute Yet Things Multiply.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you are buying supplies for your classroom: each student needs 1 notebook (₹12) and 1 pen (₹8).', goal: 'Master Distributive Property of Multiplication Over Addition.' },
     discovery: {
         question: 'What is the algebraic expression for the total area of a rectangle divided into four smaller rectangles with dimensions a × c, a × d, b × c, and b × d?',
         options: ['The total area is ac + ad + bc + bd', 'ac + bd', 'only the diagonal rectangles matter, missing the cross terms ad and bc'],
@@ -69,13 +69,13 @@ export const w_c8_mathematicswedistributeyetthingsmultiplysim: SimDef = {
             { text: 'Add the results: \\(176 + (-105) = 176 - 105 = 71\\).', faded: true, blankAnswer: '₹71 profit' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch6_10', title: 'Identify each idea',
-          dissect: { specimen: 'We Distribute Yet Things Multiply', spots: [
+          dissect: { specimen: 'Distributive Property of Multiplication Over Addition', spots: [
             { id: 's1', label: 'The distributive property of multiplication', prompt: 'Which idea is this? — The distributive property of multiplication over addition states that for any three.', answer: 'The distributive property of multiplication', options: ['The distributive property of multiplication', 'The distributive property states that', 'Expanding a 1b'] },
             { id: 's2', label: 'The distributive property states that', prompt: 'Which idea is this? — The distributive property states that multiplying a sum by a number gives the same result.', answer: 'The distributive property states that', options: ['The distributive property states that', 'The distributive property of multiplication', 'Expanding a 1b'] },
             { id: 's3', label: 'Expanding a 1b', prompt: 'Which idea is this? — Expanding (a + 1)(b + 1) means applying the distributive property twice: each term in the.', answer: 'Expanding a 1b', options: ['Expanding a 1b', 'The distributive property of multiplication', 'The distributive property states that'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsWeDistributeYetThingsMultiplySim, prompt: 'Explore the interactive — We Distribute Yet Things Multiply' },
+    explore: { component: C8_MathematicsWeDistributeYetThingsMultiplySim, prompt: 'Explore the interactive — Distributive Property of Multiplication Over Addition' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch6_1', difficulty: 'standard',
           question: 'The distributive property of multiplication over addition states that for any.',

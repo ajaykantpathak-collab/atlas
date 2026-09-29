@@ -6,16 +6,16 @@ import C10_GeographyTopographicalMapsInterpretationSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_geographytopographicalmapsinterpretationsim: SimDef = {
     id: 'v3w_c10_geographytopographicalmapsinterpretationsim',
-    title: 'Topographical Maps Interpretation',
+    title: 'Conservation of Minerals and Energy Resources: Need and Methods',
     subtitle: 'Covers the need for conservation (finite nature, increasing demand, environmental impact).',
     classLevel: 10, subject: 'geography', topic: 'Conservation of Minerals and Energy Resources: Need and Methods',
     chapters: [],
     nodeIds: ['c10_geo_cbse_05_008', 'c10_geo_cbse_05_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you are in a household in Jharkhand where electricity cuts are frequent, and you see diesel.', goal: 'Master Topographical Maps Interpretation.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you are in a household in Jharkhand where electricity cuts are frequent, and you see diesel.', goal: 'Master Conservation of Minerals and Energy Resources: Need and Methods.' },
     discovery: {
         question: 'State the primary geological reason why minerals like haematite and bauxite are considered non-renewable resources.',
-        options: ['Correct answer: Minerals like haematite and bauxite form through extremely slow', 'they are deep underground', 'we use them fast'],
+        options: ['Minerals like haematite and bauxite form through extremely slow', 'they are deep underground', 'we use them fast'],
         answer: 'Minerals like haematite and bauxite form through extremely slow',
         hook: 'Students think "conservation of minerals" means only "do not use them" or "recycle paper/plastic", missing that mineral.',
     },
@@ -43,12 +43,12 @@ export const w_c10_geographytopographicalmapsinterpretationsim: SimDef = {
             { text: 'Rank and justify: 1st Jaisalmer (best balance of high GHI, land, grid, proven tech); 2nd Leh (highest GHI but.', faded: true, blankAnswer: 'Jaisalmer (Rajasthan) is the optimal site — it combines the.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_geo_cbse_05_006', title: 'Identify each idea',
-          dissect: { specimen: 'Topographical Maps Interpretation', spots: [
+          dissect: { specimen: 'Conservation of Minerals and Energy Resources: Need and Methods', spots: [
             { id: 's1', label: 'Conservation of minerals and energy', prompt: 'Which idea is this? — Conservation of minerals and energy resources refers to the planned and sustainable.', answer: 'Conservation of minerals and energy', options: ['Conservation of minerals and energy', 'Non-conventional energy sources are renewable'] },
             { id: 's2', label: 'Non-conventional energy sources are renewable', prompt: 'Which idea is this? — Non-conventional energy sources are renewable, inexhaustible energy resources that do not.', answer: 'Non-conventional energy sources are renewable', options: ['Non-conventional energy sources are renewable', 'Conservation of minerals and energy'] }
           ] } }
     ],
-    explore: { component: C10_GeographyTopographicalMapsInterpretationSim, prompt: 'Explore the interactive — Topographical Maps Interpretation' },
+    explore: { component: C10_GeographyTopographicalMapsInterpretationSim, prompt: 'Explore the interactive — Conservation of Minerals and Energy Resources: Need and Methods' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_geo_cbse_05_008', difficulty: 'standard',
           question: 'Conservation of minerals and energy resources refers to the planned and.',

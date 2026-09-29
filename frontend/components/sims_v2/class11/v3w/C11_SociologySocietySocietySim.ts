@@ -6,13 +6,13 @@ import C11_SociologySocietySocietySim from '../../../simulations/c6_12/C11_Socio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_sociologysocietysocietysim: SimDef = {
     id: 'v3w_c11_sociologysocietysocietysim',
-    title: 'Society Society',
+    title: 'Individual and Society: The Dialectic Relationship',
     subtitle: 'This node covers the core concept of the individual-society dialectic, Mills\'.',
     classLevel: 11, subject: 'sociology', topic: 'Individual and Society: The Dialectic Relationship',
     chapters: [],
     nodeIds: ['c11_soc_cbse_01_001', 'c11_soc_cbse_01_003', 'c11_soc_cbse_01_005', 'c11_soc_cbse_01_006', 'c11_soc_cbse_01_007', 'c11_soc_cbse_01_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Start with the relatable scenario: "You\'re choosing subjects for Class 11.', goal: 'Master Society Society.' },
+    scenario: { role: 'a class 11 learner', intro: 'Start with the relatable scenario: "You\'re choosing subjects for Class 11.', goal: 'Master Individual and Society: The Dialectic Relationship.' },
     discovery: {
         question: 'A student says: "Unemployment is a personal trouble because the person didn\'t study hard enough." Using C.',
         options: ['Common sense sees unemployment as individual failure (laziness, bad choices)', 'individual vs society', 'The dialectic means society forces you to conform but you can rebel'],
@@ -80,7 +80,7 @@ export const w_c11_sociologysocietysocietysim: SimDef = {
             { text: 'Conclude with one sentence on sociology\'s unique contribution: it traces the *mutual constitution* of economic.', faded: true, blankAnswer: '(Sample 150-word analysis) "An economist would model the.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_soc_cbse_01_003', title: 'Identify each idea',
-          dissect: { specimen: 'Society Society', spots: [
+          dissect: { specimen: 'Individual and Society: The Dialectic Relationship', spots: [
             { id: 's1', label: 'The dialectical relationship between individual', prompt: 'Which idea is this? — The dialectical relationship between individual and society refers to the ongoing,.', answer: 'The dialectical relationship between individual', options: ['The dialectical relationship between individual', 'Sociology is the systematic and', 'The Enlightenment late 17th18th century', 'Capitalism is an economic system'] },
             { id: 's2', label: 'Sociology is the systematic and', prompt: 'Which idea is this? — Sociology is the systematic and scientific study of human society, social relationships,.', answer: 'Sociology is the systematic and', options: ['Sociology is the systematic and', 'The dialectical relationship between individual', 'The Enlightenment late 17th18th century', 'Capitalism is an economic system'] },
             { id: 's3', label: 'The Enlightenment late 17th18th century', prompt: 'Which idea is this? — The Enlightenment (late 17th–18th century European intellectual movement emphasizing.', answer: 'The Enlightenment late 17th18th century', options: ['The Enlightenment late 17th18th century', 'The dialectical relationship between individual', 'Sociology is the systematic and', 'Capitalism is an economic system'] },
@@ -89,7 +89,7 @@ export const w_c11_sociologysocietysocietysim: SimDef = {
             { id: 's6', label: 'Sociology is the systematic study', prompt: 'Which idea is this? — Sociology is the systematic study of human social life, groups, and societies that.', answer: 'Sociology is the systematic study', options: ['Sociology is the systematic study', 'The dialectical relationship between individual', 'Sociology is the systematic and', 'The Enlightenment late 17th18th century'] }
           ] } }
     ],
-    explore: { component: C11_SociologySocietySocietySim, prompt: 'Explore the interactive — Society Society' },
+    explore: { component: C11_SociologySocietySocietySim, prompt: 'Explore the interactive — Individual and Society: The Dialectic Relationship' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_soc_cbse_01_001', difficulty: 'standard',
           question: 'The dialectical relationship between individual and society refers to the.',

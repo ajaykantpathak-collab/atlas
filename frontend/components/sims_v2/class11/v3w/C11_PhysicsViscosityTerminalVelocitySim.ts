@@ -6,13 +6,13 @@ import C11_PhysicsViscosityTerminalVelocitySim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsviscosityterminalvelocitysim: SimDef = {
     id: 'v3w_c11_physicsviscosityterminalvelocitysim',
-    title: 'Viscosity Terminal Velocity',
+    title: 'Stokes\' Law and Terminal Velocity',
     subtitle: 'Covers Stokes\' Law for viscous drag on a sphere, derivation of terminal velocity using.',
     classLevel: 11, subject: 'physics', topic: 'Stokes\' Law and Terminal Velocity',
     chapters: [],
     nodeIds: ['c11_phy_cbse_09_010', 'c11_phy_cbse_09_009', 'c11_phy_cbse_09_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Watch a raindrop falling on a window pane during monsoon — it doesn\'t accelerate indefinitely but reaches a.', goal: 'Master Viscosity Terminal Velocity.' },
+    scenario: { role: 'a class 11 learner', intro: 'Watch a raindrop falling on a window pane during monsoon — it doesn\'t accelerate indefinitely but reaches a.', goal: 'Master Stokes\' Law and Terminal Velocity.' },
     discovery: {
         question: 'A student measures terminal velocity of a 2 mm radius glass bead (\\(\\rho = 2500\\) kg/m³) in a liquid of unknown viscosity. They get \\(v_t = 4.2\\) cm/s.',
         options: ['The calculated viscosity is an OVERESTIMATE (incorrectly high)', 'underestimate', 'no effect'],
@@ -53,13 +53,13 @@ export const w_c11_physicsviscosityterminalvelocitysim: SimDef = {
             { text: 'Verify physical reasonableness: Water in a 1.5 cm pipe at ~14 L/min is a typical household tap flow —.', faded: true, blankAnswer: 'Re ≈ 3520 (transitional flow, tending toward turbulent)' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_09_009', title: 'Identify each idea',
-          dissect: { specimen: 'Viscosity Terminal Velocity', spots: [
+          dissect: { specimen: 'Stokes\' Law and Terminal Velocity', spots: [
             { id: 's1', label: 'Stokes Law states that the', prompt: 'Which idea is this? — Stokes\' Law states that the viscous drag force \\(F\\) on a small sphere of radius \\(a\\).', answer: 'Stokes Law states that the', options: ['Stokes Law states that the', 'The coefficient of viscosity', 'Reynolds number Re is a'] },
             { id: 's2', label: 'The coefficient of viscosity', prompt: 'Which idea is this? — The coefficient of viscosity (η) is a scalar physical quantity that measures a fluid\'s.', answer: 'The coefficient of viscosity', options: ['The coefficient of viscosity', 'Stokes Law states that the', 'Reynolds number Re is a'] },
             { id: 's3', label: 'Reynolds number Re is a', prompt: 'Which idea is this? — Reynolds number (Re) is a dimensionless quantity that predicts the flow regime of a fluid.', answer: 'Reynolds number Re is a', options: ['Reynolds number Re is a', 'Stokes Law states that the', 'The coefficient of viscosity'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsViscosityTerminalVelocitySim, prompt: 'Explore the interactive — Viscosity Terminal Velocity' },
+    explore: { component: C11_PhysicsViscosityTerminalVelocitySim, prompt: 'Explore the interactive — Stokes\' Law and Terminal Velocity' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_09_010', difficulty: 'standard',
           question: 'Stokes\' Law states that the viscous drag force \\(F\\) on a small sphere of.',

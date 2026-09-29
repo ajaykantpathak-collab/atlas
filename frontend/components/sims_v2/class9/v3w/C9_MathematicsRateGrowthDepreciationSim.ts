@@ -6,13 +6,13 @@ import C9_MathematicsRateGrowthDepreciationSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_mathematicsrategrowthdepreciationsim: SimDef = {
     id: 'v3w_c9_mathematicsrategrowthdepreciationsim',
-    title: 'Rate Growth Depreciation',
+    title: 'Growth and Decay as Linear Relationships',
     subtitle: 'This node covers only linear (constant rate) growth and decay, including discrete and.',
     classLevel: 9, subject: 'mathematics', topic: 'Growth and Decay as Linear Relationships',
     chapters: [],
     nodeIds: ['c9_math_ch2_4'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine Rohan saves ₹50 every week from his pocket money. He already has ₹200 in his piggy bank.', goal: 'Master Rate Growth Depreciation.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine Rohan saves ₹50 every week from his pocket money. He already has ₹200 in his piggy bank.', goal: 'Master Growth and Decay as Linear Relationships.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'A linear growth or decay relationship occurs.', text: 'A linear growth or decay relationship occurs when a quantity changes by a constant absolute amount for each unit increase in the independent variable (usually time).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -28,7 +28,7 @@ export const w_c9_mathematicsrategrowthdepreciationsim: SimDef = {
             { text: 'Find when V = 0: 0 = 10000 - 250d => 250d = 10000 => d = 40 days.', faded: true, blankAnswer: 'Volume after 12 days = 7000 litres; pond dries after 40.' }
             ] } }
     ],
-    explore: { component: C9_MathematicsRateGrowthDepreciationSim, prompt: 'Explore the interactive — Rate Growth Depreciation' },
+    explore: { component: C9_MathematicsRateGrowthDepreciationSim, prompt: 'Explore the interactive — Growth and Decay as Linear Relationships' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_math_ch2_4', difficulty: 'standard',
           question: 'A linear growth or decay relationship occurs when a quantity changes by a.',

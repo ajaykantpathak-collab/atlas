@@ -6,16 +6,16 @@ import C12_MathematicsContinuityAndDifferentiabilitySim from '../../../simulatio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicscontinuityanddifferentiabilitysim: SimDef = {
     id: 'v3w_c12_mathematicscontinuityanddifferentiabilitysim',
-    title: 'Continuity And Differentiability',
+    title: 'Continuity of a Function: Definition',
     subtitle: 'This node covers the definition of continuity at a point, continuity on an interval, and.',
     classLevel: 12, subject: 'mathematics', topic: 'Continuity of a Function: Definition',
     chapters: [],
     nodeIds: ['c12_math_cbse_05_001', 'c12_math_cbse_05_002', 'c12_math_cbse_05_003', 'c12_math_cbse_05_004', 'c12_math_cbse_05_005', 'c12_math_cbse_07_009', 'c12_math_cbse_05_006', 'c12_math_cbse_05_007', 'c12_math_cbse_05_008', 'c12_math_cbse_05_009', 'c12_math_cbse_05_010', 'c12_math_cbse_05_011', 'c12_math_cbse_05_012', 'c12_math_cbse_05_013', 'c12_math_cbse_07_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a prepaid metro card: you tap in, the balance decreases smoothly as you travel, but if the machine.', goal: 'Master Continuity And Differentiability.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a prepaid metro card: you tap in, the balance decreases smoothly as you travel, but if the machine.', goal: 'Master Continuity of a Function: Definition.' },
     discovery: {
         question: 'Compare the continuity of \\(f(x) = |x|\\) and \\(g(x) = \\frac{1}{|x|}\\) at \\(x=0\\). Why does the algebra of continuous functions give different conclusions?',
-        options: ['Correct answer: \\(f(x)=|x|\\) is continuous at \\(0\\) (Example 3, NCERT)', '\\(1/|x|\\) is discontinuous at 0', 'not continuous'],
+        options: ['\\(f(x)=|x|\\) is continuous at \\(0\\) (Example 3, NCERT)', '\\(1/|x|\\) is discontinuous at 0', 'not continuous'],
         answer: '\\(f(x)=|x|\\) is continuous at \\(0\\) (Example 3, NCERT)',
         hook: 'Students often believe that if \\(f\\) and \\(g\\) are continuous, then \\(\\frac{f}{g}\\) is continuous **everywhere** \\(f\\).',
     },
@@ -78,14 +78,14 @@ export const w_c12_mathematicscontinuityanddifferentiabilitysim: SimDef = {
             { text: 'Subtract: displacement = \\( s(3) - s(1) = 60 - 0 = 60 \\) m.', faded: true, blankAnswer: '60 m' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_05_002', title: 'Identify each idea',
-          dissect: { specimen: 'Continuity And Differentiability', spots: [
+          dissect: { specimen: 'Continuity of a Function: Definition', spots: [
             { id: 's1', label: 'A real-valued function f is', prompt: 'Which idea is this? — A real-valued function \\(f\\) is **continuous at a point** \\(c\\) in its domain if.', answer: 'A real-valued function f is', options: ['A real-valued function f is', 'A function f', 'The algebra of continuous functions', 'The Second Fundamental Theorem of'] },
             { id: 's2', label: 'A function f', prompt: 'Which idea is this? — A function \\( f \\) is continuous at a point \\( x = c \\) if and only if the left-hand.', answer: 'A function f', options: ['A function f', 'A real-valued function f is', 'The algebra of continuous functions', 'The Second Fundamental Theorem of'] },
             { id: 's3', label: 'The algebra of continuous functions', prompt: 'Which idea is this? — The algebra of continuous functions states that if \\(f\\) and \\(g\\) are two real-valued.', answer: 'The algebra of continuous functions', options: ['The algebra of continuous functions', 'A real-valued function f is', 'A function f', 'The Second Fundamental Theorem of'] },
             { id: 's4', label: 'The Second Fundamental Theorem of', prompt: 'Which idea is this? — The Second Fundamental Theorem of Calculus states that if \\( f \\) is a continuous.', answer: 'The Second Fundamental Theorem of', options: ['The Second Fundamental Theorem of', 'A real-valued function f is', 'A function f', 'The algebra of continuous functions'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsContinuityAndDifferentiabilitySim, prompt: 'Explore the interactive — Continuity And Differentiability' },
+    explore: { component: C12_MathematicsContinuityAndDifferentiabilitySim, prompt: 'Explore the interactive — Continuity of a Function: Definition' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_05_001', difficulty: 'standard',
           question: 'A real-valued function \\(f\\) is **continuous at a point** \\(c\\) in its domain.',

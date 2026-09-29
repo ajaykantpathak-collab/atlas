@@ -92,6 +92,10 @@ export const c6_english_ch01_p1: SimDef = {
                 { id: 'b', prompt: 'Why is the riverbank in this story considered a "liminal" or border space?', answer: 'It is a boundary between the familiar village and the vast, unknown world',
                   options: ['It is a boundary between the familiar village and the vast, unknown world', 'setting', 'it is sunny', 'the "setting" is only the weather or the scenery (e'],
                   hint: 'Review "Narrative Arc" or basic story sequencing.',
+                  misconception: 'Students often think the "setting" is only the weather or the scenery (e.g., "it is sunny").' },
+                { id: 'c', prompt: 'If the story took place in a crowded classroom instead of a quiet riverbank, how might Jahnavi\'s experience change?', answer: 'Identify the current setting\'s impact (solitude/reflection)',
+                  options: ['Identify the current setting\'s impact (solitude/reflection)', 'setting', 'it is sunny', 'the "setting" is only the weather or the scenery (e'],
+                  hint: 'Review "Narrative Arc" or basic story sequencing.',
                   misconception: 'Students often think the "setting" is only the weather or the scenery (e.g., "it is sunny").' }
           ],
             remediations: { 'the-setting-is-only-the': { steps: ['Ask the student to describe a place where they feel calm.', 'Ask them to describe a place where they feel energetic.', 'Explain that these feelings are part of the "setting." 4.', 'Apply this to the story by asking: "Why did the author choose a place where Jahnavi feels calm to have the \'big\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
@@ -107,7 +111,7 @@ export const c6_english_ch01_p1: SimDef = {
           ],
             remediations: { 'the-setting-is-only-the': { steps: ['Ask the student to describe a place where they feel calm.', 'Ask them to describe a place where they feel energetic.', 'Explain that these feelings are part of the "setting." 4.', 'Apply this to the story by asking: "Why did the author choose a place where Jahnavi feels calm to have the \'big\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_english_u1_002', difficulty: 'standard',
-          question: 'Character analysis is the process of looking at what a character says, does.',
+          question: 'From \'is the sequence of events that make up a story\': the skill or concept.',
           hint: 'Review the "Let us discuss" sections of the chapter to identify basic plot points before.',
           misconception: 'Students often confuse a character\'s "wishes" with their "personality traits." For example, they might say "Jahnavi.',
           parts: [
@@ -161,7 +165,7 @@ export const c6_english_ch01_p1: SimDef = {
           misconception: 'Students often confuse metaphors with similes. They think any comparison is a metaphor, even when it uses "like".',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Poetic devices are creative tools like rhyme, metaphor, and imagery that poets use to',
-                  options: ['Poetic devices are creative tools like rhyme, metaphor, and imagery that poets use to', 'The "plot" is the sequence of events that make up a story\'s action, while the "setting"', 'Character analysis is the process of looking at what a character says, does, and feels to', 'A theme is the central, underlying message or "big idea" about life that an author'],
+                  options: ['Poetic devices are creative tools like rhyme, metaphor, and imagery that poets use to', 'The "plot" is the sequence of events that make up a story\'s action, while the "setting"', 'From \'is the sequence of events that make up a story\': the skill or concept this node', 'A theme is the central, underlying message or "big idea" about life that an author'],
                   hint: 'Review the difference between "fact" and "opinion/comparison."',
                   misconception: 'Students often confuse metaphors with similes. They think any comparison is a metaphor, even when it uses "like" or "as." For example, if.' }
           ],

@@ -6,13 +6,13 @@ import C11_PhysicsGravitationSim from '../../../simulations/c6_12/C11_PhysicsGra
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsgravitationsim: SimDef = {
     id: 'v3w_c11_physicsgravitationsim',
-    title: 'Gravitation',
+    title: 'Kepler\'s Laws of Planetary Motion',
     subtitle: 'This node covers the *statement, geometric meaning, and basic application* of Kepler\'s.',
     classLevel: 11, subject: 'physics', topic: 'Kepler\'s Laws of Planetary Motion',
     chapters: [],
     nodeIds: ['c11_phy_cbse_07_001', 'c11_phy_cbse_07_002', 'c11_phy_cbse_07_003', 'c11_phy_cbse_07_004', 'c11_phy_cbse_07_005', 'c11_phy_cbse_07_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe the night sky over several weeks (or use a free planetarium app like.', goal: 'Master Gravitation.' },
+    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe the night sky over several weeks (or use a free planetarium app like.', goal: 'Master Kepler\'s Laws of Planetary Motion.' },
     discovery: {
         question: 'State the exact formula for acceleration due to gravity at a height \\(h\\) above the Earth\'s surface in terms of \\(g\\), \\(R_E\\), and \\(h\\).',
         options: ['Exact formula: \\(g_h = g \\left(\\frac{R_E}{R_E + h}\\right)^2\\)', 'zero gravity', '"zero gravity" exists in orbit'],
@@ -76,7 +76,7 @@ export const w_c11_physicsgravitationsim: SimDef = {
             { text: 'Percentage decrease = \\(\\frac{g - g(d)}{g} \\times 100\\% = \\frac{d}{R_E} \\times 100\\% = 0.05\\%\\).', faded: true, blankAnswer: '\\(g(d) = 9.7951\\) m/s²; percentage decrease = 0.05%.' }
             ] } }
     ],
-    explore: { component: C11_PhysicsGravitationSim, prompt: 'Explore the interactive — Gravitation' },
+    explore: { component: C11_PhysicsGravitationSim, prompt: 'Explore the interactive — Kepler\'s Laws of Planetary Motion' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_07_001', difficulty: 'standard',
           question: 'Kepler\'s laws of planetary motion are three empirical principles describing the.',

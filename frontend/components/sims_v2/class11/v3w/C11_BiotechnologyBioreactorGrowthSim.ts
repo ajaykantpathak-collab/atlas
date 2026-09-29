@@ -6,13 +6,13 @@ import C11_BiotechnologyBioreactorGrowthSim from '../../../simulations/c6_12/C11
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biotechnologybioreactorgrowthsim: SimDef = {
     id: 'v3w_c11_biotechnologybioreactorgrowthsim',
-    title: 'nology Bioreactor Growth',
+    title: 'Cell Culture: Animal and Plant Cell Culture Techniques',
     subtitle: 'This node covers: (1) Animal cell culture — primary culture vs cell lines, culture media.',
     classLevel: 11, subject: 'biotechnology', topic: 'Cell Culture: Animal and Plant Cell Culture Techniques',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_12_011', 'c11_biotech_cbse_01_007', 'c11_biotech_cbse_01_008', 'c11_biotech_cbse_01_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you need to produce a life-saving monoclonal antibody for cancer treatment — you cannot extract it.', goal: 'Master nology Bioreactor Growth.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you need to produce a life-saving monoclonal antibody for cancer treatment — you cannot extract it.', goal: 'Master Cell Culture: Animal and Plant Cell Culture Techniques.' },
     discovery: {
         question: 'A student prepares MS medium for plant tissue culture but forgets to add agar. The medium remains liquid after autoclaving.',
         options: ['Without agar, the medium lacks a solid support matrix', 'nutrients not absorbed', 'animal cells need serum, plant cells need hormones'],
@@ -63,14 +63,14 @@ export const w_c11_biotechnologybioreactorgrowthsim: SimDef = {
             { text: 'Synthesize recommendation — **E. coli BL21(DE3) with periplasmic secretion (pelB signal peptide) or cytoplasmic.', faded: true, blankAnswer: 'E. coli BL21(DE3) with periplasmic targeting or SHuffle.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_biotech_cbse_01_007', title: 'Identify each idea',
-          dissect: { specimen: 'nology Bioreactor Growth', spots: [
+          dissect: { specimen: 'Cell Culture: Animal and Plant Cell Culture Techniques', spots: [
             { id: 's1', label: 'Cell culture is the laboratory', prompt: 'Which idea is this? — Cell culture is the laboratory technique of growing and maintaining animal or plant.', answer: 'Cell culture is the laboratory', options: ['Cell culture is the laboratory', 'Industrial fermentation is the controlled', 'Environmental Biotechnology is the application', 'Biotechnology in medicine Red Biotechnology'] },
             { id: 's2', label: 'Industrial fermentation is the controlled', prompt: 'Which idea is this? — Industrial fermentation is the controlled, large-scale cultivation of microorganisms.', answer: 'Industrial fermentation is the controlled', options: ['Industrial fermentation is the controlled', 'Cell culture is the laboratory', 'Environmental Biotechnology is the application', 'Biotechnology in medicine Red Biotechnology'] },
             { id: 's3', label: 'Environmental Biotechnology is the application', prompt: 'Which idea is this? — Environmental Biotechnology is the application of biotechnological tools (microorganisms,.', answer: 'Environmental Biotechnology is the application', options: ['Environmental Biotechnology is the application', 'Cell culture is the laboratory', 'Industrial fermentation is the controlled', 'Biotechnology in medicine Red Biotechnology'] },
             { id: 's4', label: 'Biotechnology in medicine Red Biotechnology', prompt: 'Which idea is this? — Biotechnology in medicine (Red Biotechnology) encompasses the application of recombinant.', answer: 'Biotechnology in medicine Red Biotechnology', options: ['Biotechnology in medicine Red Biotechnology', 'Cell culture is the laboratory', 'Industrial fermentation is the controlled', 'Environmental Biotechnology is the application'] }
           ] } }
     ],
-    explore: { component: C11_BiotechnologyBioreactorGrowthSim, prompt: 'Explore the interactive — nology Bioreactor Growth' },
+    explore: { component: C11_BiotechnologyBioreactorGrowthSim, prompt: 'Explore the interactive — Cell Culture: Animal and Plant Cell Culture Techniques' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_biotech_cbse_12_011', difficulty: 'standard',
           question: 'Cell culture is the laboratory technique of growing and maintaining animal or.',

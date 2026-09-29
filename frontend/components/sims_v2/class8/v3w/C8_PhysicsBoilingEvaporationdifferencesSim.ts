@@ -6,13 +6,13 @@ import C8_PhysicsBoilingEvaporationdifferencesSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_physicsboilingevaporationdifferencessim: SimDef = {
     id: 'v3w_c8_physicsboilingevaporationdifferencessim',
-    title: 'Boiling Evaporationdifferences',
+    title: 'Separation of Solutions: Evaporation and Distillation',
     subtitle: 'Covers simple evaporation (open container heating) and simple distillation (using a.',
     classLevel: 8, subject: 'physics', topic: 'Separation of Solutions: Evaporation and Distillation',
     chapters: [],
     nodeIds: ['c8_physics_ch5_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you have a glass of saltwater from the Arabian Sea and you want to get both the salt and the water.', goal: 'Master Boiling Evaporationdifferences.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you have a glass of saltwater from the Arabian Sea and you want to get both the salt and the water.', goal: 'Master Separation of Solutions: Evaporation and Distillation.' },
     discovery: {
         question: 'What is the main difference between evaporation and distillation in terms of what is collected at the end of the process?',
         options: ['In evaporation, only the solid solute is collected as residue', 'both collect the solvent', 'distillation separates *any* mixture, e'],
@@ -33,7 +33,7 @@ export const w_c8_physicsboilingevaporationdifferencessim: SimDef = {
             { text: 'Verify: 500 mL is 5 times 100 mL, so salt = 5 × 3.5 g = 17.5 g. Physically reasonable for a shallow dish evaporation.', faded: true, blankAnswer: '17.5 g of salt. The water vapour is not collected because.' }
             ] } }
     ],
-    explore: { component: C8_PhysicsBoilingEvaporationdifferencesSim, prompt: 'Explore the interactive — Boiling Evaporationdifferences' },
+    explore: { component: C8_PhysicsBoilingEvaporationdifferencesSim, prompt: 'Explore the interactive — Separation of Solutions: Evaporation and Distillation' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch5_9', difficulty: 'standard',
           question: 'Evaporation is a separation technique where a soluble solid is recovered from a.',

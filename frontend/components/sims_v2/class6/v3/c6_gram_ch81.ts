@@ -24,7 +24,7 @@ export const c6_gram_ch81: SimDef = {
             { id: 's3', label: 'Numbers singular means one plural', prompt: 'Which idea is this? — Numbers: singular means one, plural means more than one — but English pluralizes in five.', answer: 'Numbers singular means one plural', options: ['Numbers singular means one plural', 'Nouns sort into families by', 'A pronoun replaces a noun'] }
           ] } },
         { type: 'build', nodeId: 'c6_gram_cbse_81_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Can senses detect it? → no = abstract, yes = common.', 'Is it a name of one specific thing? → proper (capitalise).', 'Does it name a group as one word? → collective.'], answer: 'Is it a name of one specific thing? → proper (capitalise). Does it name a group as one word? → collective. Can senses detect it? → no = abstract, yes = common.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Can senses detect it? → no = abstract, yes = common.', 'Does it name a group as one word? → collective.', 'Is it a name of one specific thing? → proper (capitalise).'], answer: 'Is it a name of one specific thing? → proper (capitalise). Does it name a group as one word? → collective. Can senses detect it? → no = abstract, yes = common.' } },
         { type: 'case', nodeId: 'c6_gram_cbse_81_003', title: 'You made it',
           caseStudy: { intro: 'You finished Nouns sort into families by what they name. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

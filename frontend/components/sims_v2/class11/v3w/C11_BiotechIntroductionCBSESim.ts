@@ -6,13 +6,13 @@ import C11_BiotechIntroductionCBSESim from '../../../simulations/c6_12_new/C11_B
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biotechintroductioncbsesim: SimDef = {
     id: 'v3w_c11_biotechintroductioncbsesim',
-    title: 'Introduction CBSE',
+    title: 'Ethical Issues in Biotechnology: Bioethics',
     subtitle: 'This node covers the four core bioethical principles, their application to GM crops, gene.',
     classLevel: 11, subject: 'biotechnology', topic: 'Ethical Issues in Biotechnology: Bioethics',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_01_009', 'c11_biotech_cbse_01_010', 'c11_biotech_cbse_01_011', 'c11_biotech_cbse_07_003', 'c11_biotech_cbse_01_001', 'c11_biotech_cbse_01_002', 'c11_biotech_cbse_01_003', 'c11_biotech_cbse_01_004', 'c11_biotech_cbse_01_006', 'c11_biotech_cbse_01_007', 'c11_biotech_cbse_01_008', 'c11_biotech_cbse_07_001', 'c11_biotech_cbse_07_002', 'c11_biotech_cbse_07_006', 'c11_biotech_cbse_07_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a 17-year-old student in Punjab reads about "Golden Rice" engineered to produce beta-carotene to.', goal: 'Master Introduction CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a 17-year-old student in Punjab reads about "Golden Rice" engineered to produce beta-carotene to.', goal: 'Master Ethical Issues in Biotechnology: Bioethics.' },
     discovery: {
         question: 'A student claims: "Since *E. coli* K-12 is a Risk Group 1 organism, any recombinant DNA experiment using this host can be performed at BSL-1 without IBSC.',
         options: ['The statement is incorrect', 'rDNA technology use', 'Biosafety Level'],
@@ -85,7 +85,7 @@ export const w_c11_biotechintroductioncbsesim: SimDef = {
             { text: 'Synthesize: History shows "long gestation of fundamental knowledge, rapid deployment once enabling technology matures."', faded: true, blankAnswer: 'Chronological order: (a) 1917, (b) 1952, (c) 1953, (d).' }
             ] } },
         { type: 'dissect', nodeId: 'c11_biotech_cbse_01_010', title: 'Identify each idea',
-          dissect: { specimen: 'Introduction CBSE', spots: [
+          dissect: { specimen: 'Ethical Issues in Biotechnology: Bioethics', spots: [
             { id: 's1', label: 'Bioethics in biotechnology is the', prompt: 'Which idea is this? — Bioethics in biotechnology is the systematic study of ethical principles—autonomy,.', answer: 'Bioethics in biotechnology is the', options: ['Bioethics in biotechnology is the', 'Biosafety refers to the principles', 'Intellectual Property Rights IPR in', 'RNA polymerase is a DNA-dependent'] },
             { id: 's2', label: 'Biosafety refers to the principles', prompt: 'Which idea is this? — Biosafety refers to the principles, practices, and containment measures applied to.', answer: 'Biosafety refers to the principles', options: ['Biosafety refers to the principles', 'Bioethics in biotechnology is the', 'Intellectual Property Rights IPR in', 'RNA polymerase is a DNA-dependent'] },
             { id: 's3', label: 'Intellectual Property Rights IPR in', prompt: 'Which idea is this? — Intellectual Property Rights (IPR) in biotechnology are legal rights that protect.', answer: 'Intellectual Property Rights IPR in', options: ['Intellectual Property Rights IPR in', 'Bioethics in biotechnology is the', 'Biosafety refers to the principles', 'RNA polymerase is a DNA-dependent'] },
@@ -94,7 +94,7 @@ export const w_c11_biotechintroductioncbsesim: SimDef = {
             { id: 's6', label: 'Historical Development of Biotechnology is', prompt: 'Which idea is this? — Historical Development of Biotechnology is the chronological progression from ancient.', answer: 'Historical Development of Biotechnology is', options: ['Historical Development of Biotechnology is', 'Bioethics in biotechnology is the', 'Biosafety refers to the principles', 'Intellectual Property Rights IPR in'] }
           ] } }
     ],
-    explore: { component: C11_BiotechIntroductionCBSESim, prompt: 'Explore the interactive — Introduction CBSE' },
+    explore: { component: C11_BiotechIntroductionCBSESim, prompt: 'Explore the interactive — Ethical Issues in Biotechnology: Bioethics' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_biotech_cbse_01_009', difficulty: 'standard',
           question: 'Bioethics in biotechnology is the systematic study of ethical.',

@@ -6,13 +6,13 @@ import C12_ChemistryTransitionmetalstrendsSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_chemistrytransitionmetalstrendssim: SimDef = {
     id: 'v3w_c12_chemistrytransitionmetalstrendssim',
-    title: 'Transitionmetalstrends',
+    title: 'Position of d-Block Elements in Periodic Table',
     subtitle: 'This node covers only the **position** of d- and f-block elements in the periodic table:.',
     classLevel: 12, subject: 'chemistry', topic: 'Position of d-Block Elements in Periodic Table',
     chapters: [],
     nodeIds: ['c12_chem_cbse_04_001', 'c12_chem_cbse_04_002', 'c12_chem_cbse_04_003', 'c12_chem_cbse_04_004', 'c12_chem_cbse_04_009', 'c12_chem_cbse_04_010', 'c12_chem_cbse_05_007', 'c12_chem_cbse_04_005', 'c12_chem_cbse_04_006', 'c12_chem_cbse_04_007', 'c12_chem_cbse_05_004', 'c12_chem_cbse_05_005', 'c12_chem_cbse_05_006', 'c12_chem_cbse_07_006', 'c12_chem_cbse_05_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Start with a familiar observation: the metallic objects around you — iron nails, copper wires, gold.', goal: 'Master Transitionmetalstrends.' },
+    scenario: { role: 'a class 12 learner', intro: 'Start with a familiar observation: the metallic objects around you — iron nails, copper wires, gold.', goal: 'Master Position of d-Block Elements in Periodic Table.' },
     discovery: {
         question: 'On the modern periodic table, the d-block elements are located in which groups and how many periods (rows) do they span?',
         options: ['The d-block occupies Groups 3–12 and spans four periods (Periods 4, 5, 6, 7),', 'Groups 1–10', 'three periods'],
@@ -78,7 +78,7 @@ export const w_c12_chemistrytransitionmetalstrendssim: SimDef = {
             { text: 'Conclude: U achieves +6 because 5f electrons are higher in energy (less tightly held) and can be ionised; 5f also.', faded: true, blankAnswer: 'U atom: [Rn] 5f³ 6d¹ 7s²; U⁶⁺ in UO₂²⁺: [Rn] 5f⁰. U.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_chem_cbse_04_002', title: 'Identify each idea',
-          dissect: { specimen: 'Transitionmetalstrends', spots: [
+          dissect: { specimen: 'Position of d-Block Elements in Periodic Table', spots: [
             { id: 's1', label: 'The d-block elements occupy Groups', prompt: 'Which idea is this? — The d-block elements occupy Groups 3–12 of the modern periodic table, where the (n−1)d.', answer: 'The d-block elements occupy Groups', options: ['The d-block elements occupy Groups', 'The d-block elements Groups 312', 'Atomic radius of a transition', 'Ionisation enthalpy of a transition'] },
             { id: 's2', label: 'The d-block elements Groups 312', prompt: 'Which idea is this? — The d-block elements (Groups 3–12) are those in which the (n−1)d orbitals are.', answer: 'The d-block elements Groups 312', options: ['The d-block elements Groups 312', 'The d-block elements occupy Groups', 'Atomic radius of a transition', 'Ionisation enthalpy of a transition'] },
             { id: 's3', label: 'Atomic radius of a transition', prompt: 'Which idea is this? — Atomic radius of a transition element is the distance from the nucleus to the outermost.', answer: 'Atomic radius of a transition', options: ['Atomic radius of a transition', 'The d-block elements occupy Groups', 'The d-block elements Groups 312', 'Ionisation enthalpy of a transition'] },
@@ -87,7 +87,7 @@ export const w_c12_chemistrytransitionmetalstrendssim: SimDef = {
             { id: 's6', label: 'Actinoids are the 14 inner', prompt: 'Which idea is this? — Actinoids are the 14 inner transition elements from Thorium (Z=90) to Lawrencium (Z=103).', answer: 'Actinoids are the 14 inner', options: ['Actinoids are the 14 inner', 'The d-block elements occupy Groups', 'The d-block elements Groups 312', 'Atomic radius of a transition'] }
           ] } }
     ],
-    explore: { component: C12_ChemistryTransitionmetalstrendsSim, prompt: 'Explore the interactive — Transitionmetalstrends' },
+    explore: { component: C12_ChemistryTransitionmetalstrendsSim, prompt: 'Explore the interactive — Position of d-Block Elements in Periodic Table' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_chem_cbse_04_001', difficulty: 'standard',
           question: 'The d-block elements occupy Groups 3–12 of the modern periodic table, where the.',

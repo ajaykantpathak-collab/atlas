@@ -5,16 +5,16 @@ import type { SimDef } from '../../engine/types';
 export const c8_hin_ch10_p1: SimDef = {
     id: 'v3_c8_hin_ch10_p1',
     title: 'तरुण के स्वप्न · Part 1/3',
-    subtitle: 'यह नोड **केवल** शिवमूर्ति का संक्षिप्त जीवन परिचय, उनकी रचना-प्रक्रिया की विशेषताएँ.',
+    subtitle: 'यह नोड \'स्वाधीन समाज का सपना (नेताजी)\' (मल्हार कक्षा 6, सुभाष चंद्र बोस) के इस पहलू तक.',
     classLevel: 8, subject: 'hin', topic: 'तरुण के स्वप्न · Part 1/3',
     chapters: ['c8_hin_ch10'],
     nodeIds: ['c8_hin_cbse_10_001', 'c8_hin_cbse_10_002', 'c8_hin_cbse_10_003', 'c8_hin_cbse_10_004', 'c8_hin_cbse_10_005', 'c8_hin_cbse_10_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 8 learner', intro: 'मान लो तुमने अख़बार में पढ़ा कि किसी गाँव में एक दलित युवक को सिर्फ़ इसलिए पीटा गया क्योंकि उसने ऊँची जाति के.', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 8 learner', intro: 'पहले रचनाकार: सुभाष चंद्र बोस। फिर काल और परिवेश। फिर \'स्वाधीन समाज का सपना (नेताजी)\' का विषय — नेताजी का.', goal: 'Master every idea in this chapter.' },
     // discovery omitted — no cleanly extractable hook in this chapter
     teaching: [
-        { title: 'तरुण के स्वप्न — पृष्ठभूमि और रचनाकार परिचय', text: '"पृष्ठभूमि और रचनाकार परिचय" वह साहित्यिक विश्लेषण का आधारभूत चरण है जिसमें रचनाकार के जीवन वृत्त, रचनाकालीन सामाजिक-राजनीतिक परिस्थितियों, और रचना के उद्देश्य का व्यवस्थित अध्ययन किया जाता है ताकि.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'तरुण के स्वप्न — पृष्ठभूमि और रचनाकार परिचय', text: '\'स्वाधीन समाज का सपना (नेताजी)\' का पृष्ठभूमि और रचनाकार परिचय — सुभाष चंद्र बोस द्वारा रचित गद्य (उद्बोधन)। रचनाकार का जीवन, काल और साहित्यिक संदर्भ पाठ की व्याख्या की कुंजी है।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c8_hin_cbse_10_001', title: 'Your mission',
@@ -22,6 +22,8 @@ export const c8_hin_ch10_p1: SimDef = {
             instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
         labels: ['तरुण के स्वप्न —'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'build', nodeId: 'c8_hin_cbse_10_001', title: 'Put the steps in order',
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['पाठ का विषय नेताजी का स्वप्न — स्वाधीन, संपन्न, समतामूलक.', 'रचनाकार सुभाष चंद्र बोस का काल/परिचय।', 'जुड़ाव — कवि का अनुभव पाठ में झलकता है।'], answer: 'रचनाकार सुभाष चंद्र बोस का काल/परिचय। पाठ का विषय नेताजी का स्वप्न — स्वाधीन, संपन्न, समतामूलक. जुड़ाव — कवि का अनुभव पाठ में झलकता है।' } },
         { type: 'case', nodeId: 'c8_hin_cbse_10_006', title: 'The bigger picture',
           caseStudy: { intro: 'You just worked through तरुण के स्वप्न like a real scientist — observed, predicted, tested, retried.',
             decisions: [{ prompt: 'What comes next? तरुण के स्वप्न · Part 2/3 picks up right here.', options: [
@@ -34,71 +36,71 @@ export const c8_hin_ch10_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_hin_cbse_10_001', difficulty: 'standard',
-          question: '"पृष्ठभूमि और रचनाकार परिचय" वह साहित्यिक विश्लेषण का आधारभूत चरण है जिसमें.',
-          hint: 'यदि अटका हुआ महसूस हो तो: कक्षा 7 के नोड **c7_hin_cbse_10_001 (मीरा के पद — कवि परिचय और.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "पृष्ठभूमि और रचनाकार परिचय" = **तथ्यों की सूची** (जन्मतिथि, जन्मस्थान.',
+          question: '\'स्वाधीन समाज का सपना (नेताजी)\' का पृष्ठभूमि और रचनाकार परिचय — सुभाष चंद्र बोस.',
+          hint: 'Work step by step.',
+          misconception: 'छात्र \'स्वाधीन समाज का सपना (नेताजी)\' को बिना कवि-परिचय के पढ़ते हैं — रचनाकार का संदर्भ ही पाठ के इरादे को खोलता है।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"पृष्ठभूमि और रचनाकार परिचय" वह साहित्यिक विश्लेषण का आधारभूत चरण है जिसमें रचनाकार के',
-                  options: ['"पृष्ठभूमि और रचनाकार परिचय" वह साहित्यिक विश्लेषण का आधारभूत चरण है जिसमें रचनाकार के', 'कथानक (plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम (cause-effect) क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the concrete, descriptive details of time,', 'पात्र-चित्रण (Character Sketch) का अर्थ है किसी पात्र के बाह्य रूप, स्वभाव, विचारों,'],
-                  hint: 'यदि अटका हुआ महसूस हो तो: कक्षा 7 के नोड **c7_hin_cbse_10_001 (मीरा के पद — कवि परिचय और.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "पृष्ठभूमि और रचनाकार परिचय" = **तथ्यों की सूची** (जन्मतिथि, जन्मस्थान, पुरस्कार, प्रमुख कृतियाँ)।.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'स्वाधीन समाज का सपना (नेताजी)\' का पृष्ठभूमि और रचनाकार परिचय',
+                  options: ['\'स्वाधीन समाज का सपना (नेताजी)\' का पृष्ठभूमि और रचनाकार परिचय', '\'स्वाधीन समाज का सपना (नेताजी)\' का कथानक/पाठ', '\'स्वाधीन समाज का सपना (नेताजी)\' का पाठ्य-परिवेश', '\'स्वाधीन समाज का सपना (नेताजी)\' का पात्र/केंद्रीय विचार'],
+                  hint: 'Recall the definition.',
+                  misconception: 'छात्र \'स्वाधीन समाज का सपना (नेताजी)\' को बिना कवि-परिचय के पढ़ते हैं — रचनाकार का संदर्भ ही पाठ के इरादे को खोलता है।' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**पहला चरण (5 मिनट):** छात्र से पूछो — "अगर तुम अपने गाँव/मोहल्ले की कहानी लिखोगे, तो तुम्हारी जाति/धर्म/आर्थिक स्थिति.', '**दूसरा चरण (10 मिनट):** कहानी का एक छोटा अंश (जहाँ तरुण कुएँ पर जाता है) पढ़वाओ और पूछो — "यह दृश्य लिखने के लिए लेखक.', '**तीसरा चरण (गृहकार्य):** शिवमूर्ति का कोई साक्षात्कार (यूट्यूब/पत्रिका) दिखाओ जहाँ वे अपनी रचना-प्रक्रिया बताते हों।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) संबंधित पंक्ति/घटना दोबारा पढ़वाओ। (2) शब्द-अर्थ मिलकर निकालो। (3) भाव अपने शब्दों में बुलवाओ। (4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c8_hin_cbse_10_002', difficulty: 'standard',
-          question: 'कथानक (plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम (cause-effect) क्रम है.',
-          hint: 'अगर अटके तो कक्षा 7 के \'कथानक और आख्यान-संरचना\' नोड (c7_hin_cbse_02_002) का \'पाँच सोपान\'.',
-          misconception: 'विद्यार्थी अक्सर समझते हैं कि \'कथानक\' और \'आख्यान-संरचना\' एक ही हैं — क्योंकि दोनों \'कहानी कैसे चली\' बताते लगते हैं। असल.',
+          question: '\'स्वाधीन समाज का सपना (नेताजी)\' का कथानक/पाठ — नेताजी सुभाष चंद्र बोस का 29.',
+          hint: 'Work step by step.',
+          misconception: 'छात्र कथानक को केवल घटना-क्रम मानते हैं — \'स्वाधीन समाज का सपना (नेताजी)\' में क्रम ही भाव बनाता है।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम (cause-effect) क्रम है, जबकि',
-                  options: ['कथानक (plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम (cause-effect) क्रम है, जबकि', '"पृष्ठभूमि और रचनाकार परिचय" वह साहित्यिक विश्लेषण का आधारभूत चरण है जिसमें रचनाकार के', 'पाठ्य-परिवेश (Textual Environment) refers to the concrete, descriptive details of time,', 'पात्र-चित्रण (Character Sketch) का अर्थ है किसी पात्र के बाह्य रूप, स्वभाव, विचारों,'],
-                  hint: 'अगर अटके तो कक्षा 7 के \'कथानक और आख्यान-संरचना\' नोड (c7_hin_cbse_02_002) का \'पाँच सोपान\' और.',
-                  misconception: 'विद्यार्थी अक्सर समझते हैं कि \'कथानक\' और \'आख्यान-संरचना\' एक ही हैं — क्योंकि दोनों \'कहानी कैसे चली\' बताते लगते हैं। असल में कथानक = *क्या.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'स्वाधीन समाज का सपना (नेताजी)\' का कथानक/पाठ',
+                  options: ['\'स्वाधीन समाज का सपना (नेताजी)\' का कथानक/पाठ', '\'स्वाधीन समाज का सपना (नेताजी)\' का पृष्ठभूमि और रचनाकार परिचय', '\'स्वाधीन समाज का सपना (नेताजी)\' का पाठ्य-परिवेश', '\'स्वाधीन समाज का सपना (नेताजी)\' का पात्र/केंद्रीय विचार'],
+                  hint: 'Recall the definition.',
+                  misconception: 'छात्र कथानक को केवल घटना-क्रम मानते हैं — \'स्वाधीन समाज का सपना (नेताजी)\' में क्रम ही भाव बनाता है।' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: विद्यार्थी से कहो: "कहानी की 5 मुख्य घटनाएँ कागज़ पर क्रम से लिखो (यही कथानक है)।" चरण 2: फिर पूछो: "लेखक ने.', 'पहली घटना जो पाठ में आती है, वह कहानी की पहली घटना है क्या?" चरण 3: एक टेबल बनवाओ: बायाँ कॉलम \'कथानक क्रम\' (घटनाओं का.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) संबंधित पंक्ति/घटना दोबारा पढ़वाओ। (2) शब्द-अर्थ मिलकर निकालो। (3) भाव अपने शब्दों में बुलवाओ। (4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c8_hin_cbse_10_003', difficulty: 'standard',
-          question: 'पाठ्य-परिवेश (Textual Environment) refers to the concrete, descriptive details.',
-          hint: 'If stuck, review **\'Show, Don\'t Tell\' (दिखाओ, बताओ मत)** technique from Class 7 Creative.',
-          misconception: '**विशिष्ट भ्रम:** विद्यार्थी समझते हैं कि **\'पाठ्य-परिवेश = स्थान का नाम\' (जैसे: गाँव, शहर)** और **\'वातावरण = विशेषण\'.',
+          question: '\'स्वाधीन समाज का सपना (नेताजी)\' का पाठ्य-परिवेश — गद्य (उद्बोधन) किस स्थान, समय.',
+          hint: 'Work step by step.',
+          misconception: 'छात्र परिवेश को \'पीछे की सजावट\' मानते हैं — परिवेश पाठ के भाव का हिस्सा है।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश (Textual Environment) refers to the concrete, descriptive details of time,',
-                  options: ['पाठ्य-परिवेश (Textual Environment) refers to the concrete, descriptive details of time,', '"पृष्ठभूमि और रचनाकार परिचय" वह साहित्यिक विश्लेषण का आधारभूत चरण है जिसमें रचनाकार के', 'कथानक (plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम (cause-effect) क्रम है, जबकि', 'पात्र-चित्रण (Character Sketch) का अर्थ है किसी पात्र के बाह्य रूप, स्वभाव, विचारों,'],
-                  hint: 'If stuck, review **\'Show, Don\'t Tell\' (दिखाओ, बताओ मत)** technique from Class 7 Creative Writing.',
-                  misconception: '**विशिष्ट भ्रम:** विद्यार्थी समझते हैं कि **\'पाठ्य-परिवेश = स्थान का नाम\' (जैसे: गाँव, शहर)** और **\'वातावरण = विशेषण\' (जैसे: अच्छा, बुरा.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'स्वाधीन समाज का सपना (नेताजी)\' का पाठ्य-परिवेश',
+                  options: ['\'स्वाधीन समाज का सपना (नेताजी)\' का पाठ्य-परिवेश', '\'स्वाधीन समाज का सपना (नेताजी)\' का पृष्ठभूमि और रचनाकार परिचय', '\'स्वाधीन समाज का सपना (नेताजी)\' का कथानक/पाठ', '\'स्वाधीन समाज का सपना (नेताजी)\' का पात्र/केंद्रीय विचार'],
+                  hint: 'Recall the definition.',
+                  misconception: 'छात्र परिवेश को \'पीछे की सजावट\' मानते हैं — परिवेश पाठ के भाव का हिस्सा है।' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**चरण 1 (दृश्यीकरण):** विद्यार्थी से कहें: "आँख बंद करो। पाठ के पहले पैराग्राम का *कोई एक* दृश्य मन में बनाओ — दीवार का.', '**चरण 2 (पृथक्करण):** एक टेबल बनाएँ: बाएँ कॉलम में **\'पाठ में लिखे शब्द\'** (उद्धरण), दाएँ में **\'मेरे मन में उठा.', '**चरण 3 (सामान्यीकरण):** पूछें: "क्या सभी विवरण एक ही भाव दे रहे हैं?', 'किन्हीं दो विवरणों में तनाव (Tension) है?" 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) संबंधित पंक्ति/घटना दोबारा पढ़वाओ। (2) शब्द-अर्थ मिलकर निकालो। (3) भाव अपने शब्दों में बुलवाओ। (4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c8_hin_cbse_10_004', difficulty: 'standard',
-          question: 'पात्र-चित्रण (Character Sketch) का अर्थ है किसी पात्र के बाह्य रूप, स्वभाव.',
-          hint: 'यदि फँस जाएँ तो c7_hin_cbse_01_004 (पात्र-चित्रण की चरणबद्ध विधि) और c8_hin_cbse_10_002.',
-          misconception: 'छात्र प्रायः मान लेते हैं कि \'स्वप्न देखने वाला पात्र\' = \'अव्यावहारिक/कल्पनालोक में जीने वाला\'। तरुण के प्रसंग में यह.',
+          question: '\'स्वाधीन समाज का सपना (नेताजी)\' का पात्र/केंद्रीय विचार — नेताजी सुभाष बोस.',
+          hint: 'Work step by step.',
+          misconception: 'छात्र मुख्य पात्र को केवल \'किरदार\' मानते हैं — \'स्वाधीन समाज का सपना (नेताजी)\' में नेताजी सुभाष बोस पाठ की आत्मा है।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण (Character Sketch) का अर्थ है किसी पात्र के बाह्य रूप, स्वभाव, विचारों,',
-                  options: ['पात्र-चित्रण (Character Sketch) का अर्थ है किसी पात्र के बाह्य रूप, स्वभाव, विचारों,', '"पृष्ठभूमि और रचनाकार परिचय" वह साहित्यिक विश्लेषण का आधारभूत चरण है जिसमें रचनाकार के', 'कथानक (plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम (cause-effect) क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the concrete, descriptive details of time,'],
-                  hint: 'यदि फँस जाएँ तो c7_hin_cbse_01_004 (पात्र-चित्रण की चरणबद्ध विधि) और c8_hin_cbse_10_002 (स्वप्नों.',
-                  misconception: 'छात्र प्रायः मान लेते हैं कि \'स्वप्न देखने वाला पात्र\' = \'अव्यावहारिक/कल्पनालोक में जीने वाला\'। तरुण के प्रसंग में यह भ्रांति इसलिए होती है.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'स्वाधीन समाज का सपना (नेताजी)\' का पात्र/केंद्रीय विचार',
+                  options: ['\'स्वाधीन समाज का सपना (नेताजी)\' का पात्र/केंद्रीय विचार', '\'स्वाधीन समाज का सपना (नेताजी)\' का पृष्ठभूमि और रचनाकार परिचय', '\'स्वाधीन समाज का सपना (नेताजी)\' का कथानक/पाठ', '\'स्वाधीन समाज का सपना (नेताजी)\' का पाठ्य-परिवेश'],
+                  hint: 'Recall the definition.',
+                  misconception: 'छात्र मुख्य पात्र को केवल \'किरदार\' मानते हैं — \'स्वाधीन समाज का सपना (नेताजी)\' में नेताजी सुभाष बोस पाठ की आत्मा है।' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र से कहें: "पाठ खोलो और तरुण के तीन स्वप्नों के तुरंत बाद के पैराग्राफ पढ़ो — प्रत्येक में उसने क्या **किया**?".', 'फिर पूछें: "क्या कोई स्वप्न ऐसा है जिसके बाद उसने कुछ **नहीं** किया?" (नहीं — हर स्वप्न कर्म को जन्म देता है)। 3.', 'अब समझाएँ: "स्वप्न उसके लिए **मानसिक पूर्वाभ्यास** (mental rehearsal) हैं, जैसे खिलाड़ी मैच से पहले विजुअलाइज़ करता.', 'अंत में पुनः पात्र-चित्रण लिखने को कहें, इस बार \'स्वप्न → क्रिया\' तालिका बनाकर।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) संबंधित पंक्ति/घटना दोबारा पढ़वाओ। (2) शब्द-अर्थ मिलकर निकालो। (3) भाव अपने शब्दों में बुलवाओ। (4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c8_hin_cbse_10_005', difficulty: 'standard',
-          question: 'सहायक पात्र-चित्रण का अर्थ है कहानी के गौण पात्रों (पिता, माँ, शिक्षक, मित्र.',
-          hint: 'यदि अटके, तो कक्षा 7 के किसी भी पाठ (जैसे c7_hin_cbse_05_005) का सहायक पात्र-चित्रण.',
-          misconception: 'छात्र सहायक पात्रों को **\'अच्छे\' या \'बुरे\'** के खांचे में डाल देते हैं — पिता \'बुरे\' क्योंकि विरोध करते हैं, माँ.',
+          question: '\'स्वाधीन समाज का सपना (नेताजी)\' के सहायक पात्र/तत्व — युवक, देशबंधु चित्तरंजन.',
+          hint: 'Work step by step.',
+          misconception: 'छात्र सहायक पात्र को \'कमज़ोर\' मानते हैं — वे मुख्य पात्र के शक्ति-दर्पण हैं।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र-चित्रण का अर्थ है कहानी के गौण पात्रों (पिता, माँ, शिक्षक, मित्र आदि) के',
-                  options: ['सहायक पात्र-चित्रण का अर्थ है कहानी के गौण पात्रों (पिता, माँ, शिक्षक, मित्र आदि) के', '"पृष्ठभूमि और रचनाकार परिचय" वह साहित्यिक विश्लेषण का आधारभूत चरण है जिसमें रचनाकार के', 'कथानक (plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम (cause-effect) क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the concrete, descriptive details of time,'],
-                  hint: 'यदि अटके, तो कक्षा 7 के किसी भी पाठ (जैसे c7_hin_cbse_05_005) का सहायक पात्र-चित्रण दोबारा पढ़ें और.',
-                  misconception: 'छात्र सहायक पात्रों को **\'अच्छे\' या \'बुरे\'** के खांचे में डाल देते हैं — पिता \'बुरे\' क्योंकि विरोध करते हैं, माँ \'अच्छी\' क्योंकि चुपचाप साथ.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'स्वाधीन समाज का सपना (नेताजी)\' के सहायक पात्र/तत्व',
+                  options: ['\'स्वाधीन समाज का सपना (नेताजी)\' के सहायक पात्र/तत्व', '\'स्वाधीन समाज का सपना (नेताजी)\' का पृष्ठभूमि और रचनाकार परिचय', '\'स्वाधीन समाज का सपना (नेताजी)\' का कथानक/पाठ', '\'स्वाधीन समाज का सपना (नेताजी)\' का पाठ्य-परिवेश'],
+                  hint: 'Recall the definition.',
+                  misconception: 'छात्र सहायक पात्र को \'कमज़ोर\' मानते हैं — वे मुख्य पात्र के शक्ति-दर्पण हैं।' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र से पूछो: "पिता तरुण को डांटते हैं — क्या वे उससे नफरत करते हैं?', 'पाठ से एक पंक्ति ढूंढो जो उनका प्रेम दिखाती हो।" (उत्तर: "तुम्हारे भविष्य की चिंता है मुझे") 2.', 'फिर माँ के लिए: "माँ बोलती क्यों नहीं?', 'पाठ से एक कार्य ढूंढो जो उसकी ताकत दिखाता हो।" (उत्तर: पिता के क्रोध से तरुण को बचाना, अलग दूध रखना) 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) संबंधित पंक्ति/घटना दोबारा पढ़वाओ। (2) शब्द-अर्थ मिलकर निकालो। (3) भाव अपने शब्दों में बुलवाओ। (4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c8_hin_cbse_10_006', difficulty: 'standard',
-          question: '**मुख्य विषय (Central Theme):** कहानी का वह केंद्रीय विचार या भाव जो पूरी रचना.',
-          hint: 'यदि अटके तो कक्षा 7 के \'मुख्य विषय और संदेश\' (c7_hin_cbse_01_006) का अभ्यास दोहराएँ.',
-          misconception: '**विशिष्ट भ्रम**: छात्र अक्सर **\'तरुण का सपना\' (वैज्ञानिक बनना)** को ही **मुख्य विषय** मान लेते हैं। वे लिखते हैं.',
+          question: '\'स्वाधीन समाज का सपना (नेताजी)\' का मुख्य विषय — नेताजी का स्वप्न — स्वाधीन.',
+          hint: 'Work step by step.',
+          misconception: 'छात्र विषय को कथानक मान लेते हैं — \'स्वाधीन समाज का सपना (नेताजी)\' की घटनाएँ कथानक हैं, नेताजी का स्वप्न विषय।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**मुख्य विषय (Central Theme):** कहानी का वह केंद्रीय विचार या भाव जो पूरी रचना में',
-                  options: ['**मुख्य विषय (Central Theme):** कहानी का वह केंद्रीय विचार या भाव जो पूरी रचना में', '"पृष्ठभूमि और रचनाकार परिचय" वह साहित्यिक विश्लेषण का आधारभूत चरण है जिसमें रचनाकार के', 'कथानक (plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम (cause-effect) क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the concrete, descriptive details of time,'],
-                  hint: 'यदि अटके तो कक्षा 7 के \'मुख्य विषय और संदेश\' (c7_hin_cbse_01_006) का अभ्यास दोहराएँ — विशेषकर विषय.',
-                  misconception: '**विशिष्ट भ्रम**: छात्र अक्सर **\'तरुण का सपना\' (वैज्ञानिक बनना)** को ही **मुख्य विषय** मान लेते हैं। वे लिखते हैं: "मुख्य विषय है — तरुण.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'स्वाधीन समाज का सपना (नेताजी)\' का मुख्य विषय',
+                  options: ['\'स्वाधीन समाज का सपना (नेताजी)\' का मुख्य विषय', '\'स्वाधीन समाज का सपना (नेताजी)\' का पृष्ठभूमि और रचनाकार परिचय', '\'स्वाधीन समाज का सपना (नेताजी)\' का कथानक/पाठ', '\'स्वाधीन समाज का सपना (नेताजी)\' का पाठ्य-परिवेश'],
+                  hint: 'Recall the definition.',
+                  misconception: 'छात्र विषय को कथानक मान लेते हैं — \'स्वाधीन समाज का सपना (नेताजी)\' की घटनाएँ कथानक हैं, नेताजी का स्वप्न विषय।' }
           ],
-            remediations: { '1': { steps: ['**स्पष्ट करो**: "विषय = कहानी का \'दिल\' (बार-बार धड़कने वाला विचार), कथानक = कहानी का \'शरीर\' (घटनाओं का क्रम)।" 2.', '**तुलना कराओ**: दो वाक्य लिखवाओ — (क) "तरुण वैज्ञानिक बनना चाहता था" (घटना) (ख) "सपने यथार्थ से टकराते हैं" (विषय).', '**पाठ से प्रमाण माँगो**: "कहानी में तीन जगह ढूँढ़ो जहाँ सपना और यथार्थ आमने-सामने आएँ (परीक्षा, पिता की बात, शिक्षक का.', '**सामान्यीकरण कराओ**: "अब अपने शब्दों में लिखो — इस कहानी का विषय एक पंक्ति में क्या है?" — इससे अमूर्त अवधारणा ठोस.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) संबंधित पंक्ति/घटना दोबारा पढ़वाओ। (2) शब्द-अर्थ मिलकर निकालो। (3) भाव अपने शब्दों में बुलवाओ। (4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -6,13 +6,13 @@ import C6_BiologyLeafStructureTypesSim from '../../../simulations/c6_12/C6_Biolo
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_biologyleafstructuretypessim: SimDef = {
     id: 'v3w_c6_biologyleafstructuretypessim',
-    title: 'Leaf Structure Types',
+    title: 'How Do Plants Make Food? Understanding Photosynthesis',
     subtitle: 'This node covers the fundamental concept and the basic ingredients/products of.',
     classLevel: 6, subject: 'biology', topic: 'How Do Plants Make Food? Understanding Photosynthesis',
     chapters: [],
     nodeIds: ['c6_biology_ch10_002', 'c6_biology_ch10_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why you need to eat lunch to have energy to play, but the tree in your garden just.', goal: 'Master Leaf Structure Types.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why you need to eat lunch to have energy to play, but the tree in your garden just.', goal: 'Master How Do Plants Make Food? Understanding Photosynthesis.' },
     discovery: {
         question: 'If a plant is kept in a completely dark room for a long time, why does it struggle to survive?',
         options: ['The plant cannot perform photosynthesis', 'thirsty', 'needs space'],
@@ -38,7 +38,7 @@ export const w_c6_biologyleafstructuretypessim: SimDef = {
                 { text: 'nectar', outcome: 'Not quite — Students often think that the "dust" (pollen) is "dirt" or "waste" that the plant wants to get rid.', reveals: 'the-dust-pollen-is-dirt' }
             ] }] } }
     ],
-    explore: { component: C6_BiologyLeafStructureTypesSim, prompt: 'Explore the interactive — Leaf Structure Types' },
+    explore: { component: C6_BiologyLeafStructureTypesSim, prompt: 'Explore the interactive — How Do Plants Make Food? Understanding Photosynthesis' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_biology_ch10_002', difficulty: 'standard',
           question: 'Photosynthesis is the process by which green plants use sunlight, water, and.',

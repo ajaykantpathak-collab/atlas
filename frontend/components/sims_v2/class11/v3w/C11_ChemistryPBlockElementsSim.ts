@@ -6,13 +6,13 @@ import C11_ChemistryPBlockElementsSim from '../../../simulations/c6_12/C11_Chemi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_chemistrypblockelementssim: SimDef = {
     id: 'v3w_c11_chemistrypblockelementssim',
-    title: 'PBlock Elements',
+    title: 'Need for Classification: Mendeleev\'s Periodic Table',
     subtitle: 'This node covers the historical development up to Mendeleev\'s 1905 table: Dobereiner\'s.',
     classLevel: 11, subject: 'chemistry', topic: 'Need for Classification: Mendeleev\'s Periodic Table',
     chapters: [],
     nodeIds: ['c11_chem_cbse_03_001', 'c11_chem_cbse_03_002', 'c11_chem_cbse_03_003', 'c11_chem_cbse_03_004', 'c11_chem_cbse_03_005', 'c11_chem_cbse_03_006', 'c11_chem_cbse_03_008', 'c11_chem_cbse_03_009', 'c11_chem_cbse_03_011', 'c11_chem_cbse_03_012', 'c11_chem_cbse_03_013', 'c11_chem_cbse_09_006', 'c11_chem_cbse_03_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are in a typical Indian chemistry laboratory with dozens of reagent bottles: sodium, potassium,.', goal: 'Master PBlock Elements.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are in a typical Indian chemistry laboratory with dozens of reagent bottles: sodium, potassium,.', goal: 'Master Need for Classification: Mendeleev\'s Periodic Table.' },
     discovery: {
         question: 'Why did Mendeleev leave gaps in his periodic table and assign temporary names like eka-aluminium and eka-silicon?',
         options: ['Mendeleev left gaps', 'he left gaps for aesthetic symmetry', 'he used atomic number to predict'],
@@ -81,7 +81,7 @@ export const w_c11_chemistrypblockelementssim: SimDef = {
             { text: 'Verify trend consistency: Each step adds one proton (+1 Z) and one valence electron (+0.35 σ), net ΔZ_eff ≈ +0.65 per.', faded: true, blankAnswer: 'Atomic radius decreases across Period 3 because Z_eff.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_chem_cbse_03_002', title: 'Identify each idea',
-          dissect: { specimen: 'PBlock Elements', spots: [
+          dissect: { specimen: 'Need for Classification: Mendeleev\'s Periodic Table', spots: [
             { id: 's1', label: 'Mendeleevs Periodic Table arranges the', prompt: 'Which idea is this? — Mendeleev\'s Periodic Table arranges the known chemical elements in order of increasing.', answer: 'Mendeleevs Periodic Table arranges the', options: ['Mendeleevs Periodic Table arranges the', 'The Modern Periodic Law states', 'In the Modern Periodic Table', 'Electronic configuration is the distribution'] },
             { id: 's2', label: 'The Modern Periodic Law states', prompt: 'Which idea is this? — The Modern Periodic Law states that the physical and chemical properties of elements are.', answer: 'The Modern Periodic Law states', options: ['The Modern Periodic Law states', 'Mendeleevs Periodic Table arranges the', 'In the Modern Periodic Table', 'Electronic configuration is the distribution'] },
             { id: 's3', label: 'In the Modern Periodic Table', prompt: 'Which idea is this? — In the Modern Periodic Table, **periods** are the seven horizontal rows (numbered 1 to 7).', answer: 'In the Modern Periodic Table', options: ['In the Modern Periodic Table', 'Mendeleevs Periodic Table arranges the', 'The Modern Periodic Law states', 'Electronic configuration is the distribution'] },
@@ -90,7 +90,7 @@ export const w_c11_chemistrypblockelementssim: SimDef = {
             { id: 's6', label: 'Atomic radius is the distance', prompt: 'Which idea is this? — Atomic radius is the distance from the nucleus to the outermost electron cloud boundary.', answer: 'Atomic radius is the distance', options: ['Atomic radius is the distance', 'Mendeleevs Periodic Table arranges the', 'The Modern Periodic Law states', 'In the Modern Periodic Table'] }
           ] } }
     ],
-    explore: { component: C11_ChemistryPBlockElementsSim, prompt: 'Explore the interactive — PBlock Elements' },
+    explore: { component: C11_ChemistryPBlockElementsSim, prompt: 'Explore the interactive — Need for Classification: Mendeleev\'s Periodic Table' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_chem_cbse_03_001', difficulty: 'standard',
           question: 'Mendeleev\'s Periodic Table arranges the known chemical elements in order of.',

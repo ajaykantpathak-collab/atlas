@@ -11,7 +11,7 @@ export const c11_hin_a_ch13_p3: SimDef = {
     nodeIds: ['c11_hin_a_cbse_13_013', 'c11_hin_a_cbse_13_014', 'c11_hin_a_cbse_13_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 11 learner', intro: 'You sit in the exam hall, staring at a 3-mark question: *"निम्नलिखित पंक्तियों का आशय स्पष्ट कीजिए..."*.', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 11 learner', intro: '\'जाग तुझको दूर जाना\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।', goal: 'Master every idea in this chapter.' },
     discovery: {
         question: 'कविता के तीसरे पद में "पथिक" शब्द का प्रयोग \'राही\' या \'यात्री\' के बजाय क्यों किया गया होगा? वाचन के समय इस शब्द पर आप कैसा ठहराव (पॉज़) लेंगे?',
         options: ['\'पथिक\' में \'पथ\' (मार्ग) + \'इक\' (संबंध) का भाव है', 'reading aloud correctly without mistakes', 'answering the questions given at the end of the chapter'],
@@ -19,7 +19,7 @@ export const c11_hin_a_ch13_p3: SimDef = {
         hook: 'Students believe वाचन-पाठ means "reading aloud correctly without mistakes" and चर्चा-बिंदु means "answering the.',
     },
     teaching: [
-        { title: 'जाग तुझको दूर जाना — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण (Explanation of Purport) is the critical-exegetical process of interpreting a specific poetic stanza or line by identifying the **context (प्रसंग)**, **literal meaning (शाब्दिक.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'जाग तुझको दूर जाना — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: '\'जाग तुझको दूर जाना\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_a_cbse_13_013', title: 'Your mission',
@@ -28,7 +28,7 @@ export const c11_hin_a_ch13_p3: SimDef = {
         labels: ['जाग तुझको दूर जाना'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c11_hin_a_cbse_13_015', title: 'जाग तुझको दूर जाना — वाचन-पाठ और चर्चा-बिंदु',
-          caseStudy: { intro: 'Have you ever noticed how a song feels completely different when you hum it yourself versus just hearing it on your phone?',
+          caseStudy: { intro: '\'जाग तुझको दूर जाना\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
             decisions: [{ prompt: '"जाग तुझको दूर जाना" कविता का पहला पद पढ़ते समय \'जाग\' शब्द पर बल देने का क्या उद्देश्य है?', options: [
                 { text: '\'जाग\' पर बल देने से कविता का आदेशात्मक/उत्साहवर्धक स्वर (imperative/hortative tone) उभरता', outcome: '\'जाग\' पर बल देने से कविता का आदेशात्मक/उत्साहवर्धक स्वर (imperative/hortative tone) उभरता है — यह.' },
                 { text: 'reading aloud correctly without mistakes', outcome: 'Not quite — Students believe वाचन-पाठ means "reading aloud correctly without mistakes" and चर्चा-बिंदु means.', reveals: 'means-reading-aloud-correctly-without' },
@@ -46,29 +46,29 @@ export const c11_hin_a_ch13_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_a_cbse_13_013', difficulty: 'standard',
-          question: 'आशय-स्पष्टीकरण (Explanation of Purport) is the critical-exegetical process.',
+          question: '\'जाग तुझको दूर जाना\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'If stuck on the \'Explanation\' step (E2), immediately revisit **c11_hin_a_cbse_13_006.',
           misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'आशय-स्पष्टीकरण\' का अर्थ है \'कठिन शब्दों के अर्थ लिखना\' + \'पंक्तियों का.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण (Explanation of Purport) is the critical-exegetical process of',
-                  options: ['आशय-स्पष्टीकरण (Explanation of Purport) is the critical-exegetical process of', '\'कवि परिचय और पृष्ठभूमि\' वह साहित्यिक विश्लेषण-कौशल है जिसमें कवि के जीवन-वृत्त,', 'पद्यांश-वार भावार्थ का अर्थ है', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'जाग तुझको दूर जाना\' का आलोचनात्मक चिंतन',
+                  options: ['\'जाग तुझको दूर जाना\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'जाग तुझको दूर जाना\' का कथानक', '\'जाग तुझको दूर जाना\' का पाठ्य-परिवेश (setting)'],
                   hint: 'If stuck on the \'Explanation\' step (E2), immediately revisit **c11_hin_a_cbse_13_006 (Alankar)**.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'आशय-स्पष्टीकरण\' का अर्थ है \'कठिन शब्दों के अर्थ लिखना\' + \'पंक्तियों का क्रमबद्ध अनुवाद करना\'.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**लक्षित उपचार (Targeted Remediation):** 1.', '**\'क्या\' vs \'क्यों\' का अभ्यास (5 मिनट):** छात्र को एक पंक्ति दें (जैसे: "जलाकर दीप, तू ज्योति बन जा")। दो कॉलम बनवाएं.', '(उत्तर: सक्रिय त्याग दर्शाने हेतु)। \'दीप\' और \'ज्योति\' में क्रमिकता क्यों?', '(उत्तर: कारण-कार्य भाव)।" जब तक कॉलम B, कॉलम A से लंबा न हो, आशय-स्पष्टीकरण अधूरा है। 2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_a_cbse_13_014', difficulty: 'standard',
-          question: 'परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) वह **संरचनात्मक प्रक्रिया**.',
+          question: '\'जाग तुझको दूर जाना\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि **Point (P) बनाने में अटकें** → **c11_hin_a_cbse_13_004 (केंद्रीय भाव)** और.',
           misconception: '**विशिष्ट भ्रांति**: **"अच्छा उत्तर = अच्छा हिंदी + पाठ का सही ज्ञान"** — छात्र मानते हैं कि यदि उनकी **भाषा शुद्ध.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) वह **संरचनात्मक प्रक्रिया** है जिसमें',
-                  options: ['परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) वह **संरचनात्मक प्रक्रिया** है जिसमें', '\'कवि परिचय और पृष्ठभूमि\' वह साहित्यिक विश्लेषण-कौशल है जिसमें कवि के जीवन-वृत्त,', 'पद्यांश-वार भावार्थ का अर्थ है', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'जाग तुझको दूर जाना\' पर पाठ-आधारित लेखन',
+                  options: ['\'जाग तुझको दूर जाना\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'जाग तुझको दूर जाना\' का कथानक', '\'जाग तुझको दूर जाना\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि **Point (P) बनाने में अटकें** → **c11_hin_a_cbse_13_004 (केंद्रीय भाव)** और.',
                   misconception: '**विशिष्ट भ्रांति**: **"अच्छा उत्तर = अच्छा हिंदी + पाठ का सही ज्ञान"** — छात्र मानते हैं कि यदि उनकी **भाषा शुद्ध (Correct Language)** है.' }
           ],
             remediations: { 'correct-language-memorized-text': { steps: ['**चरणबद्ध उपचार (Stepwise Remediation)**: 1.', '**\'कमांड वर्ड मैपिंग\' ड्रिल (Command Word Mapping Drill)**: 10 पूर्व-परीक्षा प्रश्न लें — प्रत्येक में **कमांड वर्ड.', '**\'पीईईएल टेम्पलेट\' पर 5 उत्तर लिखें (Write 5 Answers on PEEL Template)**: एक A4 शीट पर **PEEL के 4 कॉलम (Columns)**.', '**\'उद्धरण एम्बेडिंग\' अभ्यास (Quote Embedding Practice)**: पाठ से **5 प्रमुख पंक्तियाँ चुनें** — प्रत्येक को **अपने.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_a_cbse_13_015', difficulty: 'standard',
-          question: 'वाचन-पाठ और चर्चा-बिंदु refers to the integrated pedagogical practice of (1).',
+          question: '\'जाग तुझको दूर जाना\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
           hint: 'If stuck, return to c11_hin_a_cbse_13_004 (केंद्रीय भाव और रस) and c11_hin_a_cbse_13_005.',
           misconception: 'Students believe वाचन-पाठ means "reading aloud correctly without mistakes" and चर्चा-बिंदु means "answering the.',
           parts: [

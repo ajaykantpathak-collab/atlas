@@ -3,58 +3,7 @@
   "generator": "backend/its/competency/simdef_compiler.py",
   "note": "Nodes deliberately NOT force-generated (purity guard)."
  },
- "total": 6,
- "by_reason": {
-  "only 0 usable diagnostics": 6
- },
- "nodes": [
-  {
-   "node_id": "c6_math_ch02_017",
-   "class": 6,
-   "subject": "math",
-   "chapter": 2,
-   "verdict": "PARTIAL",
-   "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
-  },
-  {
-   "node_id": "c6_math_ch02_018",
-   "class": 6,
-   "subject": "math",
-   "chapter": 2,
-   "verdict": "PARTIAL",
-   "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
-  },
-  {
-   "node_id": "c6_math_ch03_037",
-   "class": 6,
-   "subject": "math",
-   "chapter": 3,
-   "verdict": "PARTIAL",
-   "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
-  },
-  {
-   "node_id": "c6_math_ch04_048",
-   "class": 6,
-   "subject": "math",
-   "chapter": 4,
-   "verdict": "PARTIAL",
-   "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
-  },
-  {
-   "node_id": "c6_math_ch06_069",
-   "class": 6,
-   "subject": "math",
-   "chapter": 6,
-   "verdict": "PARTIAL",
-   "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
-  },
-  {
-   "node_id": "c6_math_ch11_120",
-   "class": 6,
-   "subject": "math",
-   "chapter": 11,
-   "verdict": "PARTIAL",
-   "reason": "only 0 usable diagnostics (need 1 for PARTIAL)"
-  }
- ]
+ "total": 0,
+ "by_reason": {},
+ "nodes": []
 }

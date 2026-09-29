@@ -19,7 +19,7 @@ export const c10_engl_ch06_p2: SimDef = {
         hook: 'Mijbil wasn\'t a whim; he was a decision with steps. And his settling in wasn\'t a straight line — joy one day, panic the next, like any wild thing learning a house.',
     },
     teaching: [
-        { title: 'Character Analysis: Maxwell as a Patient and Observant Pet Owner', text: 'Character analysis of Maxwell in "Mijbil the Otter" involves examining how the narrator\'s actions, observations, and reflections reveal his patience and attentiveness as a pet owner, using textual.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Character Analysis: Maxwell as a Patient and Observant Pet Owner', text: 'From \'English chapter c10_engl_cbse_06\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c10_engl_cbse_06_007', title: 'Your mission',
@@ -60,7 +60,7 @@ export const c10_engl_ch06_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_engl_cbse_06_007', difficulty: 'standard',
-          question: 'Character analysis of Maxwell in "Mijbil the Otter" involves examining how the.',
+          question: 'From \'English chapter c10_engl_cbse_06\': the skill or concept this node.',
           hint: 'If stuck, review c10_engl_cbse_06_003 (Mijbil\'s behaviors) and c10_engl_cbse_06_005.',
           misconception: 'Students often write: "Maxwell is patient because he loves Mijbil." This treats patience as a feeling rather than.',
           parts: [

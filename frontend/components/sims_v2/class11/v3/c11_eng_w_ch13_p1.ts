@@ -19,7 +19,7 @@ export const c11_eng_w_ch13_p1: SimDef = {
         hook: 'He addresses the Christian God while damning the Christian-age marketplace — the creed he\'d swap is \'getting and spending,\' not worship itself.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" provides the historical, biographical, and literary framework necessary to interpret William Wordsworth\'s sonnet "The World is too Much With Us," including.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The World is too Much With Us\' (Woven Words, ch. 13) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_13_001', title: 'Your mission',
@@ -29,35 +29,35 @@ export const c11_eng_w_ch13_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_13_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are standing on a busy Delhi metro platform at rush hour — everyone staring at phones, rushing to work, buying coffee, checking stocks.',
+          caseStudy: { intro: 'Start with the author of \'The World is too Much With Us\', then the period, then the literary context — background turns a text from a puzzle into a story you.',
             decisions: [{ prompt: 'Who was William Wordsworth, and what is his significance in English literary history?', options: [
                 { text: 'William Wordsworth (1770–1850) was a major English Romantic poet who, with Samuel Taylor', outcome: 'William Wordsworth (1770–1850) was a major English Romantic poet who, with Samuel Taylor Coleridge.' },
                 { text: 'in this poem means', outcome: 'Not quite — Students often think "Pagan" in this poem means "atheist" or "non-religious" in the modern sense.', reveals: 'pagan-in-this-poem-means' },
                 { text: 'non-religious', outcome: 'Not quite — Students often think "Pagan" in this poem means "atheist" or "non-religious" in the modern sense.', reveals: 'pagan-in-this-poem-means' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_13_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are reading a poem for the first time and feel lost because it doesn\'t tell a story like a novel.',
+          caseStudy: { intro: 'Trace \'The World is too Much With Us\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the defining structural feature of a Petrarchan sonnet that distinguishes it from a Shakespearean sonnet?', options: [
                 { text: 'A Petrarchan sonnet consists of an octave (8 lines) followed by a sestet (6 lines) with a', outcome: 'A Petrarchan sonnet consists of an octave (8 lines) followed by a sestet (6 lines) with a volta.' },
                 { text: 'both have 14 lines so they are the same', outcome: 'Not quite — Students often believe "plot" only applies to stories with characters and events, so they say this.', reveals: 'plot-only-applies-to-stories' },
                 { text: 'only applies to stories with characters and events, so they say this poem', outcome: 'Not quite — Students often believe "plot" only applies to stories with characters and events, so they say this.', reveals: 'plot-only-applies-to-stories' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_13_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you overhear someone standing at a busy Delhi metro station during rush hour, muttering, "Everyone\'s staring at screens, nobody looks at the sky.',
+          caseStudy: { intro: 'Pick the central figure in \'The World is too Much With Us\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'Who is the protagonist in a lyric poem such as "The World is too Much With Us"?', options: [
                 { text: 'The protagonist is the **speaker or persona**', outcome: 'The protagonist is the **speaker or persona** — the constructed voice that delivers the poem\'s.' },
                 { text: 'William Wordsworth himself', outcome: 'Not quite — Students often treat the speaker as **Wordsworth himself** — assuming every "I" in a poem.', reveals: 'students-often-treat-the-speaker' },
                 { text: 'Nature', outcome: 'Not quite — Students often treat the speaker as **Wordsworth himself** — assuming every "I" in a poem.', reveals: 'students-often-treat-the-speaker' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_13_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are scrolling through social media and see a post saying "I wish I lived in a time when people believed rivers had gods." That feeling — that.',
+          caseStudy: { intro: 'Spot the secondary figures in \'The World is too Much With Us\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List the five supporting figures explicitly named or personified in the poem\'s sestet (lines 9-14) and give their mythological or symbolic.', options: [
                 { text: 'The five supporting figures are: 1) Sea', outcome: 'The five supporting figures are: 1) Sea — personified female force baring her bosom to the moon; 2).' },
                 { text: 'Nature', outcome: 'Not quite — Students often treat Proteus and Triton as mere "Greek mythology references" to be memorized for.', reveals: 'students-often-treat-proteus-and' },
                 { text: 'Great God!', outcome: 'Not quite — Students often treat Proteus and Triton as mere "Greek mythology references" to be memorized for.', reveals: 'students-often-treat-proteus-and' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_13_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re scrolling through social media at 11 PM, exhausted after a day of tuition classes and homework, realizing you haven\'t seen the sunset in weeks.',
+          caseStudy: { intro: 'Ask what \'The World is too Much With Us\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the precise definition of "primary theme" in poetry, and how does it differ from a "subject" or "topic"?', options: [
                 { text: 'The primary theme is the central insight or argument the poem makes about its subject', outcome: 'The primary theme is the central insight or argument the poem makes about its subject — a complete.' },
                 { text: 'the theme is nature', outcome: 'Not quite — Students believe the poem\'s theme is simply "nature is better than cities" or "we should protect.', reveals: 'the-poem-s-theme-is' },
@@ -82,12 +82,12 @@ export const c11_eng_w_ch13_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_13_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" provides the historical.',
+          question: '\'The World is too Much With Us\' (Woven Words, ch. 13) — the context and.',
           hint: 'If stuck, review the Petrarchan sonnet structure (c8_engl_ch4_14) and the concept.',
           misconception: 'Students often think "Pagan" in this poem means "atheist" or "non-religious" in the modern sense, and therefore.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" provides the historical, biographical, and',
-                  options: ['"Before You Read: Context and Background" provides the historical, biographical, and', 'In poetry, "plot and narrative structure" refers to the organized progression of ideas,', 'Setting in poetry refers to the constructed time, place, and social environment evoked', 'In poetry, the protagonist is the **speaker or persona**'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'The World is too Much With Us\' (Woven Words, ch',
+                  options: ['\'The World is too Much With Us\' (Woven Words, ch', 'The plot/narrative arc of \'The World is too Much With Us\'', 'The setting of \'The World is too Much With Us\'', 'Character analysis in \'The World is too Much With Us\''],
                   hint: 'If stuck, review the Petrarchan sonnet structure (c8_engl_ch4_14) and the concept of nature.',
                   misconception: 'Students often think "Pagan" in this poem means "atheist" or "non-religious" in the modern sense, and therefore interpret the sestet.' }
           ],
@@ -104,7 +104,7 @@ export const c11_eng_w_ch13_p1: SimDef = {
           ],
             remediations: { 'pagan-in-this-poem-means': { steps: ['If a student equates "Pagan" with "atheist," do three things: (1) Show the dictionary definition provided in the NCERT.', '(2) Point to the two named figures: Proteus and Triton are *gods* — the pagan "creed" is a theology of nature deities.', '(3) Ask: "If Wordsworth wanted no religion, why would he invoke *gods* rising from the sea and blowing horns?" Guide.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_13_002', difficulty: 'standard',
-          question: 'In poetry, "plot and narrative structure" refers to the organized progression.',
+          question: 'The plot/narrative arc of \'The World is too Much With Us\' — what happens,.',
           hint: 'Review the sonnet structure lesson from Class 10 (or the "Poetry Form: Narrative Poetry".',
           misconception: 'Students often believe "plot" only applies to stories with characters and events, so they say this poem "has no plot.".',
           parts: [
@@ -115,18 +115,18 @@ export const c11_eng_w_ch13_p1: SimDef = {
           ],
             remediations: { 'plot-only-applies-to-stories': { steps: ['Have the student reread only lines 1-8 and summarize the speaker\'s complaint in one sentence.', 'Then read lines 9-14 and summarize the speaker\'s wish.', 'Ask: "What single word or phrase marks the switch from complaint to wish?" (Answer: "Great God!").', 'Explain that in lyric poetry, the "plot" is the movement of the speaker\'s mind, and the volta is the hinge.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_13_003', difficulty: 'standard',
-          question: 'Setting in poetry refers to the constructed time, place, and social environment.',
+          question: 'The setting of \'The World is too Much With Us\' — the place, time and atmosphere.',
           hint: 'If stuck, review the sonnet structure explanation in node 002 and the Wordsworth.',
           misconception: 'Students believe the "world" in line 1 means only the physical planet, so they miss that "The World" functions as.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting in poetry refers to the constructed time, place, and social environment evoked',
-                  options: ['Setting in poetry refers to the constructed time, place, and social environment evoked', '"Before You Read: Context and Background" provides the historical, biographical, and', 'In poetry, "plot and narrative structure" refers to the organized progression of ideas,', 'In poetry, the protagonist is the **speaker or persona**'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'The World is too Much With Us\'',
+                  options: ['The setting of \'The World is too Much With Us\'', '\'The World is too Much With Us\' (Woven Words, ch', 'The plot/narrative arc of \'The World is too Much With Us\'', 'Character analysis in \'The World is too Much With Us\''],
                   hint: 'If stuck, review the sonnet structure explanation in node 002 and the Wordsworth biography in node.',
                   misconception: 'Students believe the "world" in line 1 means only the physical planet, so they miss that "The World" functions as a personified antagonist.' }
           ],
             remediations: { 'the-world-in-line-1': { steps: ['If the student cannot distinguish the two settings: (1) Have them draw a two-column table: "Human World" vs "Natural.', '(2) Ask them to read only the octave aloud — what emotion rises?', 'Then read only the sestet — what changes?', '(3) Give them the definition of "volta" and have them locate the exact word where the turn happens ("Great God!").'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_13_004', difficulty: 'standard',
-          question: 'In poetry, the protagonist is the **speaker or persona** — the voice behind the.',
+          question: 'Character analysis in \'The World is too Much With Us\' — the central figure(s).',
           hint: 'Review the concept of **persona** using a clear counter-example: Robert Browning\'s "My.',
           misconception: 'Students often treat the speaker as **Wordsworth himself** — assuming every "I" in a poem is autobiographical.',
           parts: [
@@ -137,7 +137,7 @@ export const c11_eng_w_ch13_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-the-speaker': { steps: ['If a student writes "Wordsworth says..." instead of "The speaker says...", do this: (1) Hand them a different poem.', '(2) Ask: "Who is speaking?', 'Is it Browning?" (3) Return to Wordsworth: "Highlight every word that *builds* this speaker — \'sordid\', \'forlorn\'.', 'Did Wordsworth *choose* each?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_13_005', difficulty: 'standard',
-          question: 'In poetry, supporting characters are personified natural forces, mythological.',
+          question: 'Supporting characters in \'The World is too Much With Us\' — the secondary.',
           hint: 'Review the definitions and mythological roles of Proteus (prophetic sea-god who changes.',
           misconception: 'Students often treat Proteus and Triton as mere "Greek mythology references" to be memorized for exams, rather than.',
           parts: [
@@ -148,7 +148,7 @@ export const c11_eng_w_ch13_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-proteus-and': { steps: ['Have the student re-read only the sestet (lines 9-14) and underline every verb associated with the supporting figures.', 'Ask: "What *experience* do these verbs promise the speaker?" (Answer: direct sensory communion — glimpses, sight.', 'Provide a two-column table: left column = modern actions ("getting and spending," "lay waste," "given our hearts.', 'Guide the student to articulate: "The supporting characters are not characters in a story; they are *experiences the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_13_006', difficulty: 'standard',
-          question: 'The primary theme of a poem is its central, unifying idea that the poet.',
+          question: 'The primary theme of \'The World is too Much With Us\' — the central idea the.',
           hint: 'Review node 13_001 (Romantic context) and 13_002 (sonnet structure) — specifically the.',
           misconception: 'Students believe the poem\'s theme is simply "nature is better than cities" or "we should protect the environment." This.',
           parts: [

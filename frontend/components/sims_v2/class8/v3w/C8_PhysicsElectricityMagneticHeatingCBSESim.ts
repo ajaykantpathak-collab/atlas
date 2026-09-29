@@ -6,13 +6,13 @@ import C8_PhysicsElectricityMagneticHeatingCBSESim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_physicselectricitymagneticheatingcbsesim: SimDef = {
     id: 'v3w_c8_physicselectricitymagneticheatingcbsesim',
-    title: 'Electricity Magnetic Heating CBSE',
+    title: 'Applications of Heating Effect: Electric Heater, Iron, Bulb',
     subtitle: 'Covers the working principle and material selection for electric heaters, electric irons,.',
     classLevel: 8, subject: 'physics', topic: 'Applications of Heating Effect: Electric Heater, Iron, Bulb',
     chapters: [],
     nodeIds: ['c8_physics_ch2_8', 'c8_physics_ch2_1', 'c8_physics_ch2_3', 'c8_physics_ch2_4', 'c8_physics_ch2_5', 'c8_physics_ch2_10', 'c8_physics_ch2_6', 'c8_physics_ch2_7', 'c8_physics_ch2_9', 'c8_physics_ch2_2', 'c8_physics_ch2_11', 'c8_physics_ch3_8', 'c8_physics_ch1_3'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Observe a room heater glowing red in winter or an electric iron pressing clothes – both get hot because.', goal: 'Master Electricity Magnetic Heating CBSE.' },
+    scenario: { role: 'a class 8 learner', intro: 'Observe a room heater glowing red in winter or an electric iron pressing clothes – both get hot because.', goal: 'Master Applications of Heating Effect: Electric Heater, Iron, Bulb.' },
     discovery: {
         question: 'Name the material commonly used for the heating element in an electric iron and state ONE property that makes it suitable.',
         options: ['Nichrome (nickel-chromium alloy) is used', 'copper', 'thicker wire produces more heat'],
@@ -78,7 +78,7 @@ export const w_c8_physicselectricitymagneticheatingcbsesim: SimDef = {
             { text: 'Verify reasonableness: Incandescent bulbs are typically 10-15% efficient, so 13.33% is plausible.', faded: true, blankAnswer: 'Efficiency = 13.33%, Electrical energy consumed = 0.24 kWh.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_physics_ch2_1', title: 'Identify each idea',
-          dissect: { specimen: 'Electricity Magnetic Heating CBSE', spots: [
+          dissect: { specimen: 'Applications of Heating Effect: Electric Heater, Iron, Bulb', spots: [
             { id: 's1', label: 'The heating effect of electric', prompt: 'Which idea is this? — The heating effect of electric current is utilized in appliances like electric heaters,.', answer: 'The heating effect of electric', options: ['The heating effect of electric', 'When an electric current flows', 'An electromagnet is a temporary', 'The strength of an electromagnet'] },
             { id: 's2', label: 'When an electric current flows', prompt: 'Which idea is this? — When an electric current flows through a conducting wire, it produces a magnetic field.', answer: 'When an electric current flows', options: ['When an electric current flows', 'The heating effect of electric', 'An electromagnet is a temporary', 'The strength of an electromagnet'] },
             { id: 's3', label: 'An electromagnet is a temporary', prompt: 'Which idea is this? — An electromagnet is a temporary magnet created by passing an electric current through a.', answer: 'An electromagnet is a temporary', options: ['An electromagnet is a temporary', 'The heating effect of electric', 'When an electric current flows', 'The strength of an electromagnet'] },
@@ -87,7 +87,7 @@ export const w_c8_physicselectricitymagneticheatingcbsesim: SimDef = {
             { id: 's6', label: 'Efficiency of a light bulb', prompt: 'Which idea is this? — Efficiency of a light bulb is the ratio of useful light energy output to the total.', answer: 'Efficiency of a light bulb', options: ['Efficiency of a light bulb', 'The heating effect of electric', 'When an electric current flows', 'An electromagnet is a temporary'] }
           ] } }
     ],
-    explore: { component: C8_PhysicsElectricityMagneticHeatingCBSESim, prompt: 'Explore the interactive — Electricity Magnetic Heating CBSE' },
+    explore: { component: C8_PhysicsElectricityMagneticHeatingCBSESim, prompt: 'Explore the interactive — Applications of Heating Effect: Electric Heater, Iron, Bulb' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch2_8', difficulty: 'standard',
           question: 'The heating effect of electric current is utilized in appliances like electric.',

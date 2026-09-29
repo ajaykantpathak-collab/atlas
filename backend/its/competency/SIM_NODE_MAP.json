@@ -1,1163 +1,1219 @@
 [
-  {
-    "simId": "cell-ultrastructure",
-    "file": "frontend/components/simulations/three/C11_BiologyCellUltrastructureSim.tsx",
-    "class": 11,
-    "subject": "biology",
-    "chapter": "CellUltrastructure",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_bio_cbse_02_002"
-    ],
-    "matchStrength": "strong",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class11_biology_ch108.json",
-        "chapterTitle": "Cell: The Unit of Life",
-        "nodeChapter": 8,
-        "overlap": 0.5
-      },
-      {
-        "catalog": "catalog_class11_biology_kebo108.json",
-        "chapterTitle": "Cell: The Unit of Life",
-        "nodeChapter": 8,
-        "overlap": 0.5
-      },
-      {
-        "catalog": "catalog_class11_geography_kegy302.json",
-        "chapterTitle": "Map Scale",
-        "nodeChapter": null,
-        "overlap": 0.5
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 0.5553,
-      "chapterCoverage": 0.472,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.5261
-    }
-  },
-  {
-    "simId": "heart-chambers-flow",
-    "file": "frontend/components/simulations/three/C11_BiologyBodyFluidsHeartSim.tsx",
-    "class": 11,
-    "subject": "biology",
-    "chapter": "BodyFluidsHeart",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_bio_cbse_15_005",
-      "c11_bio_cbse_15_003",
-      "c11_bio_cbse_15_004",
-      "c11_bio_cbse_15_007",
-      "c11_bio_cbse_15_006"
-    ],
-    "matchStrength": "strong",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class11_biology_ch115.json",
-        "chapterTitle": "Body Fluids and Circulation",
-        "nodeChapter": 15,
-        "overlap": 0.6667
-      },
-      {
-        "catalog": "catalog_class11_biology_kebo115.json",
-        "chapterTitle": "Body Fluids and Circulation",
-        "nodeChapter": 15,
-        "overlap": 0.6667
-      },
-      {
-        "catalog": "catalog_class11_computer_science_kecs106.json",
-        "chapterTitle": "Flow of Control",
-        "nodeChapter": null,
-        "overlap": 0.5
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 0.8022,
-      "chapterCoverage": 0.9375,
-      "catalogHint": true,
-      "familyFocused": false,
-      "topScore": 0.9496
-    }
-  },
-  {
-    "simId": "lipid-bilayer-membrane",
-    "file": "frontend/components/simulations/three/C11_BiologyLipidBilayerMembraneSim.tsx",
-    "class": 11,
-    "subject": "biology",
-    "chapter": "LipidBilayerMembrane",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_bio_cbse_08_003",
-      "c11_bio_cbse_08_005",
-      "c11_bio_cbse_08_010"
-    ],
-    "matchStrength": "strong",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 0.675,
-      "chapterCoverage": 0.95,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.7712
-    }
-  },
-  {
-    "simId": "mitosis-spindle",
-    "file": "frontend/components/simulations/three/C11_BiologyMitosisSpindleSim.tsx",
-    "class": 11,
-    "subject": "biology",
-    "chapter": "MitosisSpindle",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_bio_cbse_10_003",
-      "c11_bio_cbse_10_004",
-      "c11_bio_cbse_10_001",
-      "c11_bio_cbse_10_002",
-      "c11_bio_cbse_10_005",
-      "c11_bio_cbse_10_007"
-    ],
-    "matchStrength": "strong",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 0.7167,
-      "chapterCoverage": 0.7393,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.7246
-    }
-  },
-  {
-    "simId": "nephron-filtration",
-    "file": "frontend/components/simulations/three/C11_BiologyNephronFiltrationSim.tsx",
-    "class": 11,
-    "subject": "biology",
-    "chapter": "NephronFiltration",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_bio_cbse_16_001",
-      "c11_bio_cbse_16_002",
-      "c11_bio_cbse_16_004",
-      "c11_bio_cbse_16_005",
-      "c11_bio_cbse_16_003",
-      "c11_bio_cbse_16_006",
-      "c11_bio_cbse_16_007"
-    ],
-    "matchStrength": "exact",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 1.0,
-      "chapterCoverage": 0.9375,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.9781
-    }
-  },
-  {
-    "simId": "neuron-synapse",
-    "file": "frontend/components/simulations/three/C11_BiologyNeuronSynapseSim.tsx",
-    "class": 11,
-    "subject": "biology",
-    "chapter": "NeuronSynapse",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_bio_cbse_18_003",
-      "c11_bio_cbse_07_004",
-      "c11_bio_cbse_18_001",
-      "c11_bio_cbse_18_002",
-      "c11_bio_cbse_18_005",
-      "c11_bio_cbse_18_006",
-      "c11_bio_cbse_18_007"
-    ],
-    "matchStrength": "exact",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 1.0,
-      "chapterCoverage": 0.8333,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.9417
-    }
-  },
-  {
-    "simId": "transpiration-xylem-pull",
-    "file": "frontend/components/simulations/three/C11_BiologyPlantTransportTranspirationSim.tsx",
-    "class": 11,
-    "subject": "biology",
-    "chapter": "PlantTransportTranspiration",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_bio_cbse_06_001",
-      "c11_bio_cbse_06_003",
-      "c11_bio_cbse_13_003",
-      "c11_bio_cbse_03_004",
-      "c11_bio_cbse_06_002",
-      "c11_bio_cbse_06_004",
-      "c11_bio_cbse_06_005",
-      "c11_bio_cbse_06_010"
-    ],
-    "matchStrength": "weak",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class11_biology_ch103.json",
-        "chapterTitle": "Plant Kingdom",
-        "nodeChapter": 3,
-        "overlap": 0.5
-      },
-      {
-        "catalog": "catalog_class11_biology_ch112.json",
-        "chapterTitle": "Respiration in Plants",
-        "nodeChapter": 12,
-        "overlap": 0.5
-      },
-      {
-        "catalog": "catalog_class11_biology_kebo112.json",
-        "chapterTitle": "Respiration in Plants",
-        "nodeChapter": 12,
-        "overlap": 0.5
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 0.3695,
-      "chapterCoverage": 0.3511,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.3631
-    }
-  },
-  {
-    "simId": "hybridization-orbitals",
-    "file": "frontend/components/simulations/three/C11_ChemistryHybridizationOrbitalsSim.tsx",
-    "class": 11,
-    "subject": "chemistry",
-    "chapter": "HybridizationOrbitals",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_chem_cbse_02_014",
-      "c11_chem_cbse_11_004",
-      "c11_chem_cbse_04_006",
-      "c11_chem_cbse_04_007"
-    ],
-    "matchStrength": "strong",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 0.812,
-      "chapterCoverage": 0.6811,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.7661
-    }
-  },
-  {
-    "simId": "vsepr-molecular-shapes",
-    "file": "frontend/components/simulations/three/C11_ChemistryVSEPRShapesSim.tsx",
-    "class": 11,
-    "subject": "chemistry",
-    "chapter": "VSEPRShapes",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_chem_cbse_04_001",
-      "c11_chem_cbse_04_003",
-      "c11_chem_cbse_04_005",
-      "c11_chem_cbse_04_012",
-      "c11_chem_cbse_04_007",
-      "c11_chem_cbse_10_001",
-      "c11_chem_cbse_09_007",
-      "c11_chem_cbse_02_014"
-    ],
-    "matchStrength": "weak",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 0.3684,
-      "chapterCoverage": 0.5563,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.4342
-    }
-  },
-  {
-    "simId": "conic-sections-cone",
-    "file": "frontend/components/simulations/three/C11_MathsConicSectionsConeSim.tsx",
-    "class": 11,
-    "subject": "mathematics",
-    "chapter": "ConicSectionsCone",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_math_cbse_11_001",
-      "c11_math_cbse_11_003",
-      "c11_math_cbse_11_004",
-      "c11_math_cbse_11_010"
-    ],
-    "matchStrength": "exact",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class11_maths_ch110.json",
-        "chapterTitle": "Conic Sections",
-        "nodeChapter": 11,
-        "overlap": 1.0
-      },
-      {
-        "catalog": "catalog_class11_maths_kemh110.json",
-        "chapterTitle": "Conic Sections",
-        "nodeChapter": 11,
-        "overlap": 1.0
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 1.0,
-      "chapterCoverage": 0.7,
-      "catalogHint": true,
-      "familyFocused": false,
-      "topScore": 0.995
-    }
-  },
-  {
-    "simId": "direction-cosines-lab",
-    "file": "frontend/components/simulations/three/C11_MathsDirectionCosinesLabSim.tsx",
-    "class": 11,
-    "subject": "mathematics",
-    "chapter": "DirectionCosinesLab",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_math_cbse_12_001",
-      "c11_math_cbse_12_002",
-      "c11_math_cbse_12_006"
-    ],
-    "matchStrength": "weak",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 0.5339,
-      "chapterCoverage": 0.4004,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.4872
-    }
-  },
-  {
-    "simId": "probability-dice-tower",
-    "file": "frontend/components/simulations/three/C11_MathsProbabilityDiceTowerSim.tsx",
-    "class": 11,
-    "subject": "mathematics",
-    "chapter": "ProbabilityDiceTower",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_math_cbse_01_008",
-      "c11_math_cbse_01_010",
-      "c11_math_cbse_01_014"
-    ],
-    "matchStrength": "weak",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class11_applied_maths_am11_009_probability.json",
-        "chapterTitle": "Probability",
-        "nodeChapter": 1,
-        "overlap": 1.0
-      },
-      {
-        "catalog": "catalog_class11_maths_ch114.json",
-        "chapterTitle": "Probability",
-        "nodeChapter": 1,
-        "overlap": 1.0
-      },
-      {
-        "catalog": "catalog_class11_maths_kemh114.json",
-        "chapterTitle": "Probability",
-        "nodeChapter": 1,
-        "overlap": 1.0
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 0.2139,
-      "chapterCoverage": 0.2066,
-      "catalogHint": true,
-      "familyFocused": false,
-      "topScore": 0.3113
-    }
-  },
-  {
-    "simId": "vectors-dot-cross",
-    "file": "frontend/components/simulations/three/C11_MathsVectorsDotCrossSim.tsx",
-    "class": 11,
-    "subject": "mathematics",
-    "chapter": "VectorsDotCross",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_math_cbse_10_005"
-    ],
-    "matchStrength": "strong",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 0.6129,
-      "chapterCoverage": 0.4788,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.566
-    }
-  },
-  {
-    "simId": "centre-of-mass-composite",
-    "file": "frontend/components/simulations/three/C11_PhysicsCentreOfMassSim.tsx",
-    "class": 11,
-    "subject": "physics",
-    "chapter": "CentreOfMass",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_phy_cbse_07_011"
-    ],
-    "matchStrength": "strong",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 0.4416,
-      "chapterCoverage": 0.7436,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.5473
-    }
-  },
-  {
-    "simId": "gyroscope-precession",
-    "file": "frontend/components/simulations/three/C11_PhysicsGyroscopePrecessionSim.tsx",
-    "class": 11,
-    "subject": "physics",
-    "chapter": "GyroscopePrecession",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_phy_cbse_06_005",
-      "c11_phy_cbse_06_013"
-    ],
-    "matchStrength": "strong",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 0.6201,
-      "chapterCoverage": 0.496,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.5767
-    }
-  },
-  {
-    "simId": "shm-circular-projection",
-    "file": "frontend/components/simulations/three/C11_PhysicsSHMCircularProjectionSim.tsx",
-    "class": 11,
-    "subject": "physics",
-    "chapter": "SHMCircularProjection",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_phy_cbse_13_010"
-    ],
-    "matchStrength": "weak",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class11_geography_kegy304.json",
-        "chapterTitle": "Map Projections",
-        "nodeChapter": null,
-        "overlap": 0.5
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 0.3393,
-      "chapterCoverage": 0.3137,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.3303
-    }
-  },
-  {
-    "simId": "straight-line-motion",
-    "file": "frontend/components/simulations/three/C11_PhysicsStraightLineMotionSim.tsx",
-    "class": 11,
-    "subject": "physics",
-    "chapter": "StraightLineMotion",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_phy_cbse_02_001",
-      "c11_phy_cbse_02_005",
-      "c11_phy_cbse_02_009",
-      "c11_phy_cbse_02_011",
-      "c11_phy_cbse_04_001",
-      "c11_phy_cbse_04_002",
-      "c11_phy_cbse_04_007",
-      "c11_phy_cbse_03_009"
-    ],
-    "matchStrength": "weak",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class11_applied_maths_am11_012_coordinate_geometry.json",
-        "chapterTitle": "Straight Line",
-        "nodeChapter": 3,
-        "overlap": 1.0
-      },
-      {
-        "catalog": "catalog_class11_maths_ch109.json",
-        "chapterTitle": "STRAIGHT LINES",
-        "nodeChapter": 3,
-        "overlap": 1.0
-      },
-      {
-        "catalog": "catalog_class11_maths_kemh109.json",
-        "chapterTitle": "Straight Lines",
-        "nodeChapter": 3,
-        "overlap": 1.0
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 0.3829,
-      "chapterCoverage": 0.3655,
-      "catalogHint": true,
-      "familyFocused": false,
-      "topScore": 0.4768
-    }
-  },
-  {
-    "simId": "transverse-longitudinal-waves",
-    "file": "frontend/components/simulations/three/C11_PhysicsWaveTypesSim.tsx",
-    "class": 11,
-    "subject": "physics",
-    "chapter": "WaveTypes",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c11_phy_cbse_14_001",
-      "c11_phy_cbse_14_012",
-      "c11_phy_cbse_14_002",
-      "c11_phy_cbse_14_005",
-      "c11_phy_cbse_14_010",
-      "c11_phy_cbse_14_008",
-      "c11_phy_cbse_14_009"
-    ],
-    "matchStrength": "strong",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class11_physics_ch207.json",
-        "chapterTitle": "Waves",
-        "nodeChapter": 14,
-        "overlap": 1.0
-      },
-      {
-        "catalog": "catalog_class11_physics_keph207.json",
-        "chapterTitle": "Waves",
-        "nodeChapter": 14,
-        "overlap": 1.0
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 0.6934,
-      "chapterCoverage": 0.6934,
-      "catalogHint": true,
-      "familyFocused": false,
-      "topScore": 0.7934
-    }
-  },
-  {
-    "simId": "dna-double-helix",
-    "file": "frontend/components/simulations/three/C12_BiologyDNAHelixSim.tsx",
-    "class": 12,
-    "subject": "biology",
-    "chapter": "DNAHelix",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_bio_cbse_06_002",
-      "c12_bio_cbse_06_003",
-      "c12_bio_cbse_06_004"
-    ],
-    "matchStrength": "exact",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 1.0,
-      "chapterCoverage": 0.85,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.9475
-    }
-  },
-  {
-    "simId": "protein-structure-levels",
-    "file": "frontend/components/simulations/three/C12_BiologyProteinStructureSim.tsx",
-    "class": 12,
-    "subject": "biology",
-    "chapter": "ProteinStructure",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_bio_cbse_07_004",
-      "c12_bio_cbse_11_008",
-      "c12_bio_cbse_11_002",
-      "c12_bio_cbse_06_001",
-      "c12_bio_cbse_06_003",
-      "c12_bio_cbse_06_006",
-      "c12_bio_cbse_06_007",
-      "c12_bio_cbse_06_008"
-    ],
-    "matchStrength": "weak",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class12_geography_legy104.json",
-        "chapterTitle": "Primary Activities",
-        "nodeChapter": null,
-        "overlap": 0.5
-      },
-      {
-        "catalog": "catalog_class12_sociology_lesy201.json",
-        "chapterTitle": "Structural Change",
-        "nodeChapter": 7,
-        "overlap": 0.5
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 0.3373,
-      "chapterCoverage": 0.3958,
-      "catalogHint": true,
-      "familyFocused": false,
-      "topScore": 0.4578
-    }
-  },
-  {
-    "simId": "definite-integral-riemann",
-    "file": "frontend/components/simulations/three/C12_MathsDefiniteIntegralRiemannSim.tsx",
-    "class": 12,
-    "subject": "mathematics",
-    "chapter": "DefiniteIntegralRiemann",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_math_cbse_07_007",
-      "c12_math_cbse_07_009",
-      "c12_math_cbse_08_001",
-      "c12_math_cbse_07_006",
-      "c12_math_cbse_07_001",
-      "c12_math_cbse_07_002",
-      "c12_math_cbse_07_004",
-      "c12_math_cbse_07_005",
-      "c12_math_cbse_07_008",
-      "c12_math_cbse_07_010",
-      "c12_math_cbse_07_011",
-      "c12_math_cbse_08_002",
-      "c12_math_cbse_08_003",
-      "c12_math_cbse_08_004",
-      "c12_math_cbse_08_005"
-    ],
-    "matchStrength": "exact",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class12_maths_lemh201.json",
-        "chapterTitle": "Integrals",
-        "nodeChapter": 7,
-        "overlap": 1.0
-      },
-      {
-        "catalog": "catalog_class12_applied_maths_am12_003b_integration_applications.json",
-        "chapterTitle": "Integration and Its Application",
-        "nodeChapter": 7,
-        "overlap": 0.5
-      },
-      {
-        "catalog": "catalog_class12_maths_lemh202.json",
-        "chapterTitle": "Application of Integrals",
-        "nodeChapter": 8,
-        "overlap": 0.5
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 1.0,
-      "chapterCoverage": 1.0,
-      "catalogHint": true,
-      "familyFocused": false,
-      "topScore": 1.1
-    }
-  },
-  {
-    "simId": "lines-planes-space",
-    "file": "frontend/components/simulations/three/C12_MathsLinesPlanesSpaceSim.tsx",
-    "class": 12,
-    "subject": "mathematics",
-    "chapter": "LinesPlanesSpace",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_math_cbse_11_002",
-      "c12_math_cbse_11_003",
-      "c12_math_cbse_11_004",
-      "c12_math_cbse_11_007",
-      "c12_math_cbse_11_008",
-      "c12_math_cbse_11_009",
-      "c12_math_cbse_11_010",
-      "c12_math_cbse_11_005",
-      "c12_math_cbse_11_006",
-      "c12_math_cbse_10_001",
-      "c12_math_cbse_10_002",
-      "c12_math_cbse_10_008",
-      "c12_math_cbse_11_001"
-    ],
-    "matchStrength": "exact",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 1.0,
-      "chapterCoverage": 1.0,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 1.0
-    }
-  },
-  {
-    "simId": "matrix-transforms",
-    "file": "frontend/components/simulations/three/C12_MathsMatrixTransformsSim.tsx",
-    "class": 12,
-    "subject": "mathematics",
-    "chapter": "MatrixTransforms",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_math_cbse_03_010",
-      "c12_math_cbse_03_001",
-      "c12_math_cbse_03_005",
-      "c12_math_cbse_03_008",
-      "c12_math_cbse_07_005",
-      "c12_math_cbse_09_006",
-      "c12_math_cbse_04_003",
-      "c12_math_cbse_04_006",
-      "c12_math_cbse_04_008",
-      "c12_math_cbse_04_009",
-      "c12_math_cbse_04_010",
-      "c12_math_cbse_03_002",
-      "c12_math_cbse_03_003",
-      "c12_math_cbse_03_004",
-      "c12_math_cbse_03_006"
-    ],
-    "matchStrength": "exact",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class12_maths_lemh206.json",
-        "chapterTitle": "Linear Programming",
-        "nodeChapter": 12,
-        "overlap": 0.5
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 1.0,
-      "chapterCoverage": 1.0,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 1.0
-    }
-  },
-  {
-    "simId": "maxima-minima-surfaces",
-    "file": "frontend/components/simulations/three/C12_MathsMaximaMinimaSurfacesSim.tsx",
-    "class": 12,
-    "subject": "mathematics",
-    "chapter": "MaximaMinimaSurfaces",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_math_cbse_06_001",
-      "c12_math_cbse_06_002",
-      "c12_math_cbse_06_003",
-      "c12_math_cbse_06_006",
-      "c12_math_cbse_06_007",
-      "c12_math_cbse_06_008",
-      "c12_math_cbse_05_011"
-    ],
-    "matchStrength": "weak",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 0.3661,
-      "chapterCoverage": 0.3203,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.3501
-    }
-  },
-  {
-    "simId": "plane-through-3-points",
-    "file": "frontend/components/simulations/three/C12_MathsPlaneThrough3PointsSim.tsx",
-    "class": 12,
-    "subject": "mathematics",
-    "chapter": "PlaneThrough3Points",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_math_cbse_11_006",
-      "c12_math_cbse_11_007",
-      "c12_math_cbse_11_009",
-      "c12_math_cbse_10_008",
-      "c12_math_cbse_11_003",
-      "c12_math_cbse_11_001",
-      "c12_math_cbse_11_002",
-      "c12_math_cbse_11_004",
-      "c12_math_cbse_11_008",
-      "c12_math_cbse_11_010",
-      "c12_math_cbse_10_003",
-      "c12_math_cbse_12_002",
-      "c12_math_cbse_12_003",
-      "c12_math_cbse_12_004",
-      "c12_math_cbse_12_005"
-    ],
-    "matchStrength": "exact",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 1.0,
-      "chapterCoverage": 1.0,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 1.0
-    }
-  },
-  {
-    "simId": "scalar-triple-product",
-    "file": "frontend/components/simulations/three/C12_MathsScalarTripleProductSim.tsx",
-    "class": 12,
-    "subject": "mathematics",
-    "chapter": "ScalarTripleProduct",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_math_cbse_10_004",
-      "c12_math_cbse_10_005",
-      "c12_math_cbse_10_006",
-      "c12_math_cbse_10_007",
-      "c12_math_cbse_10_008",
-      "c12_math_cbse_10_001",
-      "c12_math_cbse_10_002",
-      "c12_math_cbse_10_003",
-      "c12_math_cbse_03_004",
-      "c12_math_cbse_03_007"
-    ],
-    "matchStrength": "exact",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class12_economics_leec203.json",
-        "chapterTitle": "Production and Costs",
-        "nodeChapter": null,
-        "overlap": 0.5
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 1.0,
-      "chapterCoverage": 1.0,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 1.0
-    }
-  },
-  {
-    "simId": "band-gap-conductors-insulators",
-    "file": "frontend/components/simulations/three/C12_PhysicsBandGapSim.tsx",
-    "class": 12,
-    "subject": "physics",
-    "chapter": "BandGap",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_phy_cbse_14_001",
-      "c12_phy_cbse_14_002",
-      "c12_phy_cbse_14_003",
-      "c12_phy_cbse_14_004"
-    ],
-    "matchStrength": "exact",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 1.0,
-      "chapterCoverage": 0.8,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.93
-    }
-  },
-  {
-    "simId": "bohr-atom",
-    "file": "frontend/components/simulations/three/C12_PhysicsBohrAtomSim.tsx",
-    "class": 12,
-    "subject": "physics",
-    "chapter": "BohrAtom",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_phy_cbse_12_002",
-      "c12_phy_cbse_12_003",
-      "c12_phy_cbse_12_004",
-      "c12_phy_cbse_12_005",
-      "c12_phy_cbse_12_001"
-    ],
-    "matchStrength": "strong",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class12_physics_leph204.json",
-        "chapterTitle": "Atoms",
-        "nodeChapter": 12,
-        "overlap": 1.0
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 0.75,
-      "chapterCoverage": 0.75,
-      "catalogHint": true,
-      "familyFocused": false,
-      "topScore": 0.85
-    }
-  },
-  {
-    "simId": "current-loop-magnetic-field",
-    "file": "frontend/components/simulations/three/C12_PhysicsCurrentLoopFieldSim.tsx",
-    "class": 12,
-    "subject": "physics",
-    "chapter": "CurrentLoopField",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_phy_cbse_04_004",
-      "c12_phy_cbse_04_005",
-      "c12_phy_cbse_04_001",
-      "c12_phy_cbse_04_007",
-      "c12_phy_cbse_04_008",
-      "c12_phy_cbse_04_006",
-      "c12_phy_cbse_04_002",
-      "c12_phy_cbse_04_009",
-      "c12_phy_cbse_04_010"
-    ],
-    "matchStrength": "exact",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class12_physics_leph103.json",
-        "chapterTitle": "Current Electricity",
-        "nodeChapter": 3,
-        "overlap": 0.5
-      },
-      {
-        "catalog": "catalog_class12_physics_leph107.json",
-        "chapterTitle": "Alternating Current",
-        "nodeChapter": 7,
-        "overlap": 0.5
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 1.0,
-      "chapterCoverage": 1.0,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 1.0
-    }
-  },
-  {
-    "simId": "electric-dipole-field",
-    "file": "frontend/components/simulations/three/C12_PhysicsElectricDipoleSim.tsx",
-    "class": 12,
-    "subject": "physics",
-    "chapter": "ElectricDipole",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_phy_cbse_01_011",
-      "c12_phy_cbse_05_001",
-      "c12_phy_cbse_01_004",
-      "c12_phy_cbse_01_012",
-      "c12_phy_cbse_02_006",
-      "c12_phy_cbse_02_004",
-      "c12_phy_cbse_05_002",
-      "c12_phy_cbse_01_005",
-      "c12_phy_cbse_01_006",
-      "c12_phy_cbse_01_007",
-      "c12_phy_cbse_01_009",
-      "c12_phy_cbse_04_009",
-      "c12_phy_cbse_05_003",
-      "c12_phy_cbse_04_001",
-      "c12_phy_cbse_02_001"
-    ],
-    "matchStrength": "exact",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class12_physics_leph101.json",
-        "chapterTitle": "Electric Charges and Fields",
-        "nodeChapter": 1,
-        "overlap": 0.6667
-      },
-      {
-        "catalog": "catalog_class12_physics_leph103.json",
-        "chapterTitle": "Current Electricity",
-        "nodeChapter": 3,
-        "overlap": 0.5
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 1.0,
-      "chapterCoverage": 1.0,
-      "catalogHint": true,
-      "familyFocused": false,
-      "topScore": 1.1
-    }
-  },
-  {
-    "simId": "em-wave-propagation",
-    "file": "frontend/components/simulations/three/C12_PhysicsEMWavePropagationSim.tsx",
-    "class": 12,
-    "subject": "physics",
-    "chapter": "EMWavePropagation",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_phy_cbse_08_004",
-      "c12_phy_cbse_10_008"
-    ],
-    "matchStrength": "strong",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class12_physics_leph108.json",
-        "chapterTitle": "Electromagnetic Waves",
-        "nodeChapter": 8,
-        "overlap": 0.5
-      },
-      {
-        "catalog": "catalog_class12_physics_leph202.json",
-        "chapterTitle": "Wave Optics",
-        "nodeChapter": 10,
-        "overlap": 0.5
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 0.5334,
-      "chapterCoverage": 0.5334,
-      "catalogHint": true,
-      "familyFocused": false,
-      "topScore": 0.6334
-    }
-  },
-  {
-    "simId": "huygens-wavefronts",
-    "file": "frontend/components/simulations/three/C12_PhysicsHuygensWavefrontsSim.tsx",
-    "class": 12,
-    "subject": "physics",
-    "chapter": "HuygensWavefronts",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_phy_cbse_10_001",
-      "c12_phy_cbse_10_002"
-    ],
-    "matchStrength": "strong",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 0.7611,
-      "chapterCoverage": 0.5852,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.6996
-    }
-  },
-  {
-    "simId": "pn-junction-diode",
-    "file": "frontend/components/simulations/three/C12_PhysicsPNJunctionDiodeSim.tsx",
-    "class": 12,
-    "subject": "physics",
-    "chapter": "PNJunctionDiode",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_phy_cbse_14_003",
-      "c12_phy_cbse_14_004",
-      "c12_phy_cbse_14_002",
-      "c12_phy_cbse_14_008",
-      "c12_phy_cbse_14_009",
-      "c12_phy_cbse_14_007",
-      "c12_phy_cbse_14_001",
-      "c12_phy_cbse_14_005",
-      "c12_phy_cbse_14_006"
-    ],
-    "matchStrength": "exact",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class12_political_science_ch14.json",
-        "chapterTitle": "Regional Aspirations",
-        "nodeChapter": null,
-        "overlap": 0.5
-      },
-      {
-        "catalog": "catalog_class12_political_science_leps207.json",
-        "chapterTitle": "Regional Aspirations",
-        "nodeChapter": null,
-        "overlap": 0.5
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 1.0,
-      "chapterCoverage": 0.95,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.9825
-    }
-  },
-  {
-    "simId": "prism-refraction",
-    "file": "frontend/components/simulations/three/C12_PhysicsPrismRefractionSim.tsx",
-    "class": 12,
-    "subject": "physics",
-    "chapter": "PrismRefraction",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_phy_cbse_09_003",
-      "c12_phy_cbse_09_004"
-    ],
-    "matchStrength": "strong",
-    "catalogRefs": [],
-    "signals": {
-      "tokenCoverage": 0.544,
-      "chapterCoverage": 0.4567,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.5135
-    }
-  },
-  {
-    "simId": "rutherford-scattering",
-    "file": "frontend/components/simulations/three/C12_PhysicsRutherfordScatteringSim.tsx",
-    "class": 12,
-    "subject": "physics",
-    "chapter": "RutherfordScattering",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_phy_cbse_12_001"
-    ],
-    "matchStrength": "strong",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class12_informatics_practices_leip106.json",
-        "chapterTitle": "Societal Impacts",
-        "nodeChapter": null,
-        "overlap": 0.5
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 0.8404,
-      "chapterCoverage": 0.5119,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.7254
-    }
-  },
-  {
-    "simId": "young-double-slit",
-    "file": "frontend/components/simulations/three/C12_PhysicsYoungDoubleSlitSim.tsx",
-    "class": 12,
-    "subject": "physics",
-    "chapter": "YoungDoubleSlit",
-    "source": "3d_lab",
-    "nodeIds": [
-      "c12_phy_cbse_10_004",
-      "c12_phy_cbse_10_005",
-      "c12_phy_cbse_10_006",
-      "c12_phy_cbse_10_007"
-    ],
-    "matchStrength": "exact",
-    "catalogRefs": [
-      {
-        "catalog": "catalog_class12_applied_maths_am12_003a_differentiation_applications.json",
-        "chapterTitle": "Differentiation and Its Applications",
-        "nodeChapter": null,
-        "overlap": 0.5
-      },
-      {
-        "catalog": "catalog_class12_maths_lemh105.json",
-        "chapterTitle": "Continuity and Differentiability",
-        "nodeChapter": null,
-        "overlap": 0.5
-      },
-      {
-        "catalog": "catalog_class12_maths_lemh203.json",
-        "chapterTitle": "Chapter 9 Differential Equations",
-        "nodeChapter": 3,
-        "overlap": 0.5
-      }
-    ],
-    "signals": {
-      "tokenCoverage": 1.0,
-      "chapterCoverage": 0.8125,
-      "catalogHint": false,
-      "familyFocused": false,
-      "topScore": 0.9344
-    }
+ {
+  "simId": "cell-ultrastructure",
+  "file": "frontend/components/simulations/three/C11_BiologyCellUltrastructureSim.tsx",
+  "class": 11,
+  "subject": "biology",
+  "chapter": "CellUltrastructure",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_bio_cbse_02_002"
+  ],
+  "matchStrength": "strong",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class11_biology_ch108.json",
+    "chapterTitle": "Cell: The Unit of Life",
+    "nodeChapter": 8,
+    "overlap": 0.5
+   },
+   {
+    "catalog": "catalog_class11_biology_kebo108.json",
+    "chapterTitle": "Cell: The Unit of Life",
+    "nodeChapter": 8,
+    "overlap": 0.5
+   },
+   {
+    "catalog": "catalog_class11_geography_kegy302.json",
+    "chapterTitle": "Map Scale",
+    "nodeChapter": null,
+    "overlap": 0.5
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 0.5553,
+   "chapterCoverage": 0.472,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.5261
   }
+ },
+ {
+  "simId": "heart-chambers-flow",
+  "file": "frontend/components/simulations/three/C11_BiologyBodyFluidsHeartSim.tsx",
+  "class": 11,
+  "subject": "biology",
+  "chapter": "BodyFluidsHeart",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_bio_cbse_15_005",
+   "c11_bio_cbse_15_003",
+   "c11_bio_cbse_15_004",
+   "c11_bio_cbse_15_007",
+   "c11_bio_cbse_15_006"
+  ],
+  "matchStrength": "strong",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class11_biology_ch115.json",
+    "chapterTitle": "Body Fluids and Circulation",
+    "nodeChapter": 15,
+    "overlap": 0.6667
+   },
+   {
+    "catalog": "catalog_class11_biology_kebo115.json",
+    "chapterTitle": "Body Fluids and Circulation",
+    "nodeChapter": 15,
+    "overlap": 0.6667
+   },
+   {
+    "catalog": "catalog_class11_computer_science_kecs106.json",
+    "chapterTitle": "Flow of Control",
+    "nodeChapter": null,
+    "overlap": 0.5
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 0.8022,
+   "chapterCoverage": 0.9375,
+   "catalogHint": true,
+   "familyFocused": false,
+   "topScore": 0.9496
+  }
+ },
+ {
+  "simId": "lipid-bilayer-membrane",
+  "file": "frontend/components/simulations/three/C11_BiologyLipidBilayerMembraneSim.tsx",
+  "class": 11,
+  "subject": "biology",
+  "chapter": "LipidBilayerMembrane",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_bio_cbse_08_003",
+   "c11_bio_cbse_08_005",
+   "c11_bio_cbse_08_010"
+  ],
+  "matchStrength": "strong",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 0.675,
+   "chapterCoverage": 0.95,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.7712
+  }
+ },
+ {
+  "simId": "mitosis-spindle",
+  "file": "frontend/components/simulations/three/C11_BiologyMitosisSpindleSim.tsx",
+  "class": 11,
+  "subject": "biology",
+  "chapter": "MitosisSpindle",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_bio_cbse_10_003",
+   "c11_bio_cbse_10_004",
+   "c11_bio_cbse_10_001",
+   "c11_bio_cbse_10_002",
+   "c11_bio_cbse_10_005",
+   "c11_bio_cbse_10_007"
+  ],
+  "matchStrength": "strong",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 0.7167,
+   "chapterCoverage": 0.7393,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.7246
+  }
+ },
+ {
+  "simId": "nephron-filtration",
+  "file": "frontend/components/simulations/three/C11_BiologyNephronFiltrationSim.tsx",
+  "class": 11,
+  "subject": "biology",
+  "chapter": "NephronFiltration",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_bio_cbse_16_001",
+   "c11_bio_cbse_16_002",
+   "c11_bio_cbse_16_004",
+   "c11_bio_cbse_16_005",
+   "c11_bio_cbse_16_003",
+   "c11_bio_cbse_16_006",
+   "c11_bio_cbse_16_007"
+  ],
+  "matchStrength": "exact",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 1.0,
+   "chapterCoverage": 0.9375,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.9781
+  }
+ },
+ {
+  "simId": "neuron-synapse",
+  "file": "frontend/components/simulations/three/C11_BiologyNeuronSynapseSim.tsx",
+  "class": 11,
+  "subject": "biology",
+  "chapter": "NeuronSynapse",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_bio_cbse_18_003",
+   "c11_bio_cbse_07_004",
+   "c11_bio_cbse_18_001",
+   "c11_bio_cbse_18_002",
+   "c11_bio_cbse_18_005",
+   "c11_bio_cbse_18_006",
+   "c11_bio_cbse_18_007"
+  ],
+  "matchStrength": "exact",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 1.0,
+   "chapterCoverage": 0.8333,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.9417
+  }
+ },
+ {
+  "simId": "transpiration-xylem-pull",
+  "file": "frontend/components/simulations/three/C11_BiologyPlantTransportTranspirationSim.tsx",
+  "class": 11,
+  "subject": "biology",
+  "chapter": "PlantTransportTranspiration",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_bio_cbse_06_001",
+   "c11_bio_cbse_06_003",
+   "c11_bio_cbse_13_003",
+   "c11_bio_cbse_03_004",
+   "c11_bio_cbse_06_002",
+   "c11_bio_cbse_06_004",
+   "c11_bio_cbse_06_005",
+   "c11_bio_cbse_06_010"
+  ],
+  "matchStrength": "weak",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class11_biology_ch103.json",
+    "chapterTitle": "Plant Kingdom",
+    "nodeChapter": 3,
+    "overlap": 0.5
+   },
+   {
+    "catalog": "catalog_class11_biology_ch112.json",
+    "chapterTitle": "Respiration in Plants",
+    "nodeChapter": 12,
+    "overlap": 0.5
+   },
+   {
+    "catalog": "catalog_class11_biology_kebo112.json",
+    "chapterTitle": "Respiration in Plants",
+    "nodeChapter": 12,
+    "overlap": 0.5
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 0.3695,
+   "chapterCoverage": 0.3511,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.3631
+  }
+ },
+ {
+  "simId": "hybridization-orbitals",
+  "file": "frontend/components/simulations/three/C11_ChemistryHybridizationOrbitalsSim.tsx",
+  "class": 11,
+  "subject": "chemistry",
+  "chapter": "HybridizationOrbitals",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_chem_cbse_02_014",
+   "c11_chem_cbse_11_004",
+   "c11_chem_cbse_04_006",
+   "c11_chem_cbse_04_007"
+  ],
+  "matchStrength": "strong",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 0.812,
+   "chapterCoverage": 0.6811,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.7661
+  }
+ },
+ {
+  "simId": "vsepr-molecular-shapes",
+  "file": "frontend/components/simulations/three/C11_ChemistryVSEPRShapesSim.tsx",
+  "class": 11,
+  "subject": "chemistry",
+  "chapter": "VSEPRShapes",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_chem_cbse_04_001",
+   "c11_chem_cbse_04_003",
+   "c11_chem_cbse_04_005",
+   "c11_chem_cbse_04_012",
+   "c11_chem_cbse_04_007",
+   "c11_chem_cbse_10_001",
+   "c11_chem_cbse_09_007",
+   "c11_chem_cbse_02_014"
+  ],
+  "matchStrength": "weak",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 0.3684,
+   "chapterCoverage": 0.5563,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.4342
+  }
+ },
+ {
+  "simId": "conic-sections-cone",
+  "file": "frontend/components/simulations/three/C11_MathsConicSectionsConeSim.tsx",
+  "class": 11,
+  "subject": "mathematics",
+  "chapter": "ConicSectionsCone",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_math_cbse_11_001",
+   "c11_math_cbse_11_003",
+   "c11_math_cbse_11_004",
+   "c11_math_cbse_11_010"
+  ],
+  "matchStrength": "exact",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class11_maths_ch110.json",
+    "chapterTitle": "Conic Sections",
+    "nodeChapter": 11,
+    "overlap": 1.0
+   },
+   {
+    "catalog": "catalog_class11_maths_kemh110.json",
+    "chapterTitle": "Conic Sections",
+    "nodeChapter": 11,
+    "overlap": 1.0
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 1.0,
+   "chapterCoverage": 0.7,
+   "catalogHint": true,
+   "familyFocused": false,
+   "topScore": 0.995
+  }
+ },
+ {
+  "simId": "direction-cosines-lab",
+  "file": "frontend/components/simulations/three/C11_MathsDirectionCosinesLabSim.tsx",
+  "class": 11,
+  "subject": "mathematics",
+  "chapter": "DirectionCosinesLab",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_math_cbse_12_001",
+   "c11_math_cbse_12_002",
+   "c11_math_cbse_12_006"
+  ],
+  "matchStrength": "weak",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 0.5339,
+   "chapterCoverage": 0.4004,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.4872
+  }
+ },
+ {
+  "simId": "probability-dice-tower",
+  "file": "frontend/components/simulations/three/C11_MathsProbabilityDiceTowerSim.tsx",
+  "class": 11,
+  "subject": "mathematics",
+  "chapter": "ProbabilityDiceTower",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_math_cbse_01_008",
+   "c11_math_cbse_01_010",
+   "c11_math_cbse_01_014"
+  ],
+  "matchStrength": "weak",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class11_applied_maths_am11_009_probability.json",
+    "chapterTitle": "Probability",
+    "nodeChapter": 1,
+    "overlap": 1.0
+   },
+   {
+    "catalog": "catalog_class11_maths_ch114.json",
+    "chapterTitle": "Probability",
+    "nodeChapter": 1,
+    "overlap": 1.0
+   },
+   {
+    "catalog": "catalog_class11_maths_kemh114.json",
+    "chapterTitle": "Probability",
+    "nodeChapter": 1,
+    "overlap": 1.0
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 0.2139,
+   "chapterCoverage": 0.2066,
+   "catalogHint": true,
+   "familyFocused": false,
+   "topScore": 0.3113
+  }
+ },
+ {
+  "simId": "vectors-dot-cross",
+  "file": "frontend/components/simulations/three/C11_MathsVectorsDotCrossSim.tsx",
+  "class": 11,
+  "subject": "mathematics",
+  "chapter": "VectorsDotCross",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_math_cbse_10_005"
+  ],
+  "matchStrength": "strong",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 0.6129,
+   "chapterCoverage": 0.4788,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.566
+  }
+ },
+ {
+  "simId": "centre-of-mass-composite",
+  "file": "frontend/components/simulations/three/C11_PhysicsCentreOfMassSim.tsx",
+  "class": 11,
+  "subject": "physics",
+  "chapter": "CentreOfMass",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_phy_cbse_07_011"
+  ],
+  "matchStrength": "strong",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 0.4416,
+   "chapterCoverage": 0.7436,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.5473
+  }
+ },
+ {
+  "simId": "gyroscope-precession",
+  "file": "frontend/components/simulations/three/C11_PhysicsGyroscopePrecessionSim.tsx",
+  "class": 11,
+  "subject": "physics",
+  "chapter": "GyroscopePrecession",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_phy_cbse_06_005",
+   "c11_phy_cbse_06_013"
+  ],
+  "matchStrength": "strong",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 0.6201,
+   "chapterCoverage": 0.496,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.5767
+  }
+ },
+ {
+  "simId": "shm-circular-projection",
+  "file": "frontend/components/simulations/three/C11_PhysicsSHMCircularProjectionSim.tsx",
+  "class": 11,
+  "subject": "physics",
+  "chapter": "SHMCircularProjection",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_phy_cbse_13_010"
+  ],
+  "matchStrength": "weak",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class11_geography_kegy304.json",
+    "chapterTitle": "Map Projections",
+    "nodeChapter": null,
+    "overlap": 0.5
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 0.3393,
+   "chapterCoverage": 0.3137,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.3303
+  }
+ },
+ {
+  "simId": "straight-line-motion",
+  "file": "frontend/components/simulations/three/C11_PhysicsStraightLineMotionSim.tsx",
+  "class": 11,
+  "subject": "physics",
+  "chapter": "StraightLineMotion",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_phy_cbse_02_001",
+   "c11_phy_cbse_02_005",
+   "c11_phy_cbse_02_009",
+   "c11_phy_cbse_02_011",
+   "c11_phy_cbse_04_001",
+   "c11_phy_cbse_04_002",
+   "c11_phy_cbse_04_007",
+   "c11_phy_cbse_03_009"
+  ],
+  "matchStrength": "weak",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class11_applied_maths_am11_012_coordinate_geometry.json",
+    "chapterTitle": "Straight Line",
+    "nodeChapter": 3,
+    "overlap": 1.0
+   },
+   {
+    "catalog": "catalog_class11_maths_ch109.json",
+    "chapterTitle": "STRAIGHT LINES",
+    "nodeChapter": 3,
+    "overlap": 1.0
+   },
+   {
+    "catalog": "catalog_class11_maths_kemh109.json",
+    "chapterTitle": "Straight Lines",
+    "nodeChapter": 3,
+    "overlap": 1.0
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 0.3829,
+   "chapterCoverage": 0.3655,
+   "catalogHint": true,
+   "familyFocused": false,
+   "topScore": 0.4768
+  }
+ },
+ {
+  "simId": "transverse-longitudinal-waves",
+  "file": "frontend/components/simulations/three/C11_PhysicsWaveTypesSim.tsx",
+  "class": 11,
+  "subject": "physics",
+  "chapter": "WaveTypes",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c11_phy_cbse_14_001",
+   "c11_phy_cbse_14_012",
+   "c11_phy_cbse_14_002",
+   "c11_phy_cbse_14_005",
+   "c11_phy_cbse_14_010",
+   "c11_phy_cbse_14_008",
+   "c11_phy_cbse_14_009"
+  ],
+  "matchStrength": "strong",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class11_physics_ch207.json",
+    "chapterTitle": "Waves",
+    "nodeChapter": 14,
+    "overlap": 1.0
+   },
+   {
+    "catalog": "catalog_class11_physics_keph207.json",
+    "chapterTitle": "Waves",
+    "nodeChapter": 14,
+    "overlap": 1.0
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 0.6934,
+   "chapterCoverage": 0.6934,
+   "catalogHint": true,
+   "familyFocused": false,
+   "topScore": 0.7934
+  }
+ },
+ {
+  "simId": "dna-double-helix",
+  "file": "frontend/components/simulations/three/C12_BiologyDNAHelixSim.tsx",
+  "class": 12,
+  "subject": "biology",
+  "chapter": "DNAHelix",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_bio_cbse_06_002",
+   "c12_bio_cbse_06_003",
+   "c12_bio_cbse_06_004"
+  ],
+  "matchStrength": "exact",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 1.0,
+   "chapterCoverage": 0.85,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.9475
+  }
+ },
+ {
+  "simId": "protein-structure-levels",
+  "file": "frontend/components/simulations/three/C12_BiologyProteinStructureSim.tsx",
+  "class": 12,
+  "subject": "biology",
+  "chapter": "ProteinStructure",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_bio_cbse_07_004",
+   "c12_bio_cbse_11_008",
+   "c12_bio_cbse_11_002",
+   "c12_bio_cbse_06_001",
+   "c12_bio_cbse_06_003",
+   "c12_bio_cbse_06_006",
+   "c12_bio_cbse_06_007",
+   "c12_bio_cbse_06_008"
+  ],
+  "matchStrength": "weak",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class12_geography_legy104.json",
+    "chapterTitle": "Primary Activities",
+    "nodeChapter": null,
+    "overlap": 0.5
+   },
+   {
+    "catalog": "catalog_class12_sociology_lesy201.json",
+    "chapterTitle": "Structural Change",
+    "nodeChapter": 7,
+    "overlap": 0.5
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 0.3373,
+   "chapterCoverage": 0.3958,
+   "catalogHint": true,
+   "familyFocused": false,
+   "topScore": 0.4578
+  }
+ },
+ {
+  "simId": "c12_chemistrychemicalkinetics",
+  "file": "frontend/components/simulations/c6_12/C12_ChemistryChemicalKineticsSim.tsx",
+  "class": 12,
+  "subject": "chemistry",
+  "chapter": "ChemicalKinetics",
+  "source": "c6_12_gameRegistry",
+  "nodeIds": [
+   "c12_chem_cbse_03_001",
+   "c12_chem_cbse_03_002",
+   "c12_chem_cbse_03_003",
+   "c12_chem_cbse_03_004",
+   "c12_chem_cbse_03_005",
+   "c12_chem_cbse_03_006",
+   "c12_chem_cbse_03_007",
+   "c12_chem_cbse_03_008",
+   "c12_chem_cbse_03_009",
+   "c12_chem_cbse_03_010"
+  ],
+  "matchStrength": "strong",
+  "note": "hand-reconciled (simsfix 2026-09): master teaches Chemical Kinetics (ch3); a stale map entry previously baked a ch01/03/06/10 mix into the v3w wrapper"
+ },
+ {
+  "simId": "c9_physicsohmsresistance",
+  "file": "frontend/components/simulations/c6_12/C9_PhysicsOhmsResistanceSim.tsx",
+  "class": 9,
+  "subject": "physics",
+  "chapter": "OhmsResistance",
+  "source": "c6_12_gameRegistry",
+  "nodeIds": [
+   "c10_phy_cbse_01_003",
+   "c10_phy_cbse_01_004",
+   "c10_phy_cbse_01_001",
+   "c10_phy_cbse_01_002",
+   "c10_phy_cbse_01_006"
+  ],
+  "matchStrength": "strong",
+  "note": "hand-reconciled (simsfix 2026-09): master teaches Ohm's law / resistance / current / potential / series resistors (legacy name says class 9; the current corpus holds this content in class-10 Electricity ch1). A stale fallback mapped it to water-cycle nodes, producing the audit's 'Water Cycle topic on an Ohm's-law sim' flag."
+ },
+ {
+  "simId": "c9_sciencehowforcesaffectmotion",
+  "file": "frontend/components/simulations/c6_12/C9_ScienceHowForcesAffectMotionSim.tsx",
+  "class": 9,
+  "subject": "science",
+  "chapter": "HowForcesAffectMotion",
+  "source": "c6_12_gameRegistry",
+  "nodeIds": [
+   "c9_physics_ch4_3",
+   "c9_physics_ch4_2",
+   "c9_physics_ch4_7",
+   "c10_phy_cbse_01_004",
+   "c9_physics_ch5_3"
+  ],
+  "matchStrength": "strong",
+  "note": "hand-reconciled (simsfix 2026-09): master teaches the Work-Energy Theorem / zero-work / mechanical energy plus one resistance and one sound-wave beat. Legacy ids pointed the title beat at Simple Machines and the resistance beat at c9_physics_ch6_8 (now a Carbon Cycle node after a corpus renumber), producing a 'Simple Machines' title on a work-energy sim."
+ },
+ {
+  "simId": "definite-integral-riemann",
+  "file": "frontend/components/simulations/three/C12_MathsDefiniteIntegralRiemannSim.tsx",
+  "class": 12,
+  "subject": "mathematics",
+  "chapter": "DefiniteIntegralRiemann",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_math_cbse_07_007",
+   "c12_math_cbse_07_009",
+   "c12_math_cbse_08_001",
+   "c12_math_cbse_07_006",
+   "c12_math_cbse_07_001",
+   "c12_math_cbse_07_002",
+   "c12_math_cbse_07_004",
+   "c12_math_cbse_07_005",
+   "c12_math_cbse_07_008",
+   "c12_math_cbse_07_010",
+   "c12_math_cbse_07_011",
+   "c12_math_cbse_08_002",
+   "c12_math_cbse_08_003",
+   "c12_math_cbse_08_004",
+   "c12_math_cbse_08_005"
+  ],
+  "matchStrength": "exact",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class12_maths_lemh201.json",
+    "chapterTitle": "Integrals",
+    "nodeChapter": 7,
+    "overlap": 1.0
+   },
+   {
+    "catalog": "catalog_class12_applied_maths_am12_003b_integration_applications.json",
+    "chapterTitle": "Integration and Its Application",
+    "nodeChapter": 7,
+    "overlap": 0.5
+   },
+   {
+    "catalog": "catalog_class12_maths_lemh202.json",
+    "chapterTitle": "Application of Integrals",
+    "nodeChapter": 8,
+    "overlap": 0.5
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 1.0,
+   "chapterCoverage": 1.0,
+   "catalogHint": true,
+   "familyFocused": false,
+   "topScore": 1.1
+  }
+ },
+ {
+  "simId": "lines-planes-space",
+  "file": "frontend/components/simulations/three/C12_MathsLinesPlanesSpaceSim.tsx",
+  "class": 12,
+  "subject": "mathematics",
+  "chapter": "LinesPlanesSpace",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_math_cbse_11_002",
+   "c12_math_cbse_11_003",
+   "c12_math_cbse_11_004",
+   "c12_math_cbse_11_007",
+   "c12_math_cbse_11_008",
+   "c12_math_cbse_11_009",
+   "c12_math_cbse_11_010",
+   "c12_math_cbse_11_005",
+   "c12_math_cbse_11_006",
+   "c12_math_cbse_10_001",
+   "c12_math_cbse_10_002",
+   "c12_math_cbse_10_008",
+   "c12_math_cbse_11_001"
+  ],
+  "matchStrength": "exact",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 1.0,
+   "chapterCoverage": 1.0,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 1.0
+  }
+ },
+ {
+  "simId": "matrix-transforms",
+  "file": "frontend/components/simulations/three/C12_MathsMatrixTransformsSim.tsx",
+  "class": 12,
+  "subject": "mathematics",
+  "chapter": "MatrixTransforms",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_math_cbse_03_010",
+   "c12_math_cbse_03_001",
+   "c12_math_cbse_03_005",
+   "c12_math_cbse_03_008",
+   "c12_math_cbse_07_005",
+   "c12_math_cbse_09_006",
+   "c12_math_cbse_04_003",
+   "c12_math_cbse_04_006",
+   "c12_math_cbse_04_008",
+   "c12_math_cbse_04_009",
+   "c12_math_cbse_04_010",
+   "c12_math_cbse_03_002",
+   "c12_math_cbse_03_003",
+   "c12_math_cbse_03_004",
+   "c12_math_cbse_03_006"
+  ],
+  "matchStrength": "exact",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class12_maths_lemh206.json",
+    "chapterTitle": "Linear Programming",
+    "nodeChapter": 12,
+    "overlap": 0.5
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 1.0,
+   "chapterCoverage": 1.0,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 1.0
+  }
+ },
+ {
+  "simId": "maxima-minima-surfaces",
+  "file": "frontend/components/simulations/three/C12_MathsMaximaMinimaSurfacesSim.tsx",
+  "class": 12,
+  "subject": "mathematics",
+  "chapter": "MaximaMinimaSurfaces",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_math_cbse_06_001",
+   "c12_math_cbse_06_002",
+   "c12_math_cbse_06_003",
+   "c12_math_cbse_06_006",
+   "c12_math_cbse_06_007",
+   "c12_math_cbse_06_008",
+   "c12_math_cbse_05_011"
+  ],
+  "matchStrength": "weak",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 0.3661,
+   "chapterCoverage": 0.3203,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.3501
+  }
+ },
+ {
+  "simId": "plane-through-3-points",
+  "file": "frontend/components/simulations/three/C12_MathsPlaneThrough3PointsSim.tsx",
+  "class": 12,
+  "subject": "mathematics",
+  "chapter": "PlaneThrough3Points",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_math_cbse_11_006",
+   "c12_math_cbse_11_007",
+   "c12_math_cbse_11_009",
+   "c12_math_cbse_10_008",
+   "c12_math_cbse_11_003",
+   "c12_math_cbse_11_001",
+   "c12_math_cbse_11_002",
+   "c12_math_cbse_11_004",
+   "c12_math_cbse_11_008",
+   "c12_math_cbse_11_010",
+   "c12_math_cbse_10_003",
+   "c12_math_cbse_12_002",
+   "c12_math_cbse_12_003",
+   "c12_math_cbse_12_004",
+   "c12_math_cbse_12_005"
+  ],
+  "matchStrength": "exact",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 1.0,
+   "chapterCoverage": 1.0,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 1.0
+  }
+ },
+ {
+  "simId": "scalar-triple-product",
+  "file": "frontend/components/simulations/three/C12_MathsScalarTripleProductSim.tsx",
+  "class": 12,
+  "subject": "mathematics",
+  "chapter": "ScalarTripleProduct",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_math_cbse_10_004",
+   "c12_math_cbse_10_005",
+   "c12_math_cbse_10_006",
+   "c12_math_cbse_10_007",
+   "c12_math_cbse_10_008",
+   "c12_math_cbse_10_001",
+   "c12_math_cbse_10_002",
+   "c12_math_cbse_10_003",
+   "c12_math_cbse_03_004",
+   "c12_math_cbse_03_007"
+  ],
+  "matchStrength": "exact",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class12_economics_leec203.json",
+    "chapterTitle": "Production and Costs",
+    "nodeChapter": null,
+    "overlap": 0.5
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 1.0,
+   "chapterCoverage": 1.0,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 1.0
+  }
+ },
+ {
+  "simId": "band-gap-conductors-insulators",
+  "file": "frontend/components/simulations/three/C12_PhysicsBandGapSim.tsx",
+  "class": 12,
+  "subject": "physics",
+  "chapter": "BandGap",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_phy_cbse_14_001",
+   "c12_phy_cbse_14_002",
+   "c12_phy_cbse_14_003",
+   "c12_phy_cbse_14_004"
+  ],
+  "matchStrength": "exact",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 1.0,
+   "chapterCoverage": 0.8,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.93
+  }
+ },
+ {
+  "simId": "bohr-atom",
+  "file": "frontend/components/simulations/three/C12_PhysicsBohrAtomSim.tsx",
+  "class": 12,
+  "subject": "physics",
+  "chapter": "BohrAtom",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_phy_cbse_12_002",
+   "c12_phy_cbse_12_003",
+   "c12_phy_cbse_12_004",
+   "c12_phy_cbse_12_005",
+   "c12_phy_cbse_12_001"
+  ],
+  "matchStrength": "strong",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class12_physics_leph204.json",
+    "chapterTitle": "Atoms",
+    "nodeChapter": 12,
+    "overlap": 1.0
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 0.75,
+   "chapterCoverage": 0.75,
+   "catalogHint": true,
+   "familyFocused": false,
+   "topScore": 0.85
+  }
+ },
+ {
+  "simId": "current-loop-magnetic-field",
+  "file": "frontend/components/simulations/three/C12_PhysicsCurrentLoopFieldSim.tsx",
+  "class": 12,
+  "subject": "physics",
+  "chapter": "CurrentLoopField",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_phy_cbse_04_004",
+   "c12_phy_cbse_04_005",
+   "c12_phy_cbse_04_001",
+   "c12_phy_cbse_04_007",
+   "c12_phy_cbse_04_008",
+   "c12_phy_cbse_04_006",
+   "c12_phy_cbse_04_002",
+   "c12_phy_cbse_04_009",
+   "c12_phy_cbse_04_010"
+  ],
+  "matchStrength": "exact",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class12_physics_leph103.json",
+    "chapterTitle": "Current Electricity",
+    "nodeChapter": 3,
+    "overlap": 0.5
+   },
+   {
+    "catalog": "catalog_class12_physics_leph107.json",
+    "chapterTitle": "Alternating Current",
+    "nodeChapter": 7,
+    "overlap": 0.5
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 1.0,
+   "chapterCoverage": 1.0,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 1.0
+  }
+ },
+ {
+  "simId": "electric-dipole-field",
+  "file": "frontend/components/simulations/three/C12_PhysicsElectricDipoleSim.tsx",
+  "class": 12,
+  "subject": "physics",
+  "chapter": "ElectricDipole",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_phy_cbse_01_011",
+   "c12_phy_cbse_05_001",
+   "c12_phy_cbse_01_004",
+   "c12_phy_cbse_01_012",
+   "c12_phy_cbse_02_006",
+   "c12_phy_cbse_02_004",
+   "c12_phy_cbse_05_002",
+   "c12_phy_cbse_01_005",
+   "c12_phy_cbse_01_006",
+   "c12_phy_cbse_01_007",
+   "c12_phy_cbse_01_009",
+   "c12_phy_cbse_04_009",
+   "c12_phy_cbse_05_003",
+   "c12_phy_cbse_04_001",
+   "c12_phy_cbse_02_001"
+  ],
+  "matchStrength": "exact",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class12_physics_leph101.json",
+    "chapterTitle": "Electric Charges and Fields",
+    "nodeChapter": 1,
+    "overlap": 0.6667
+   },
+   {
+    "catalog": "catalog_class12_physics_leph103.json",
+    "chapterTitle": "Current Electricity",
+    "nodeChapter": 3,
+    "overlap": 0.5
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 1.0,
+   "chapterCoverage": 1.0,
+   "catalogHint": true,
+   "familyFocused": false,
+   "topScore": 1.1
+  }
+ },
+ {
+  "simId": "em-wave-propagation",
+  "file": "frontend/components/simulations/three/C12_PhysicsEMWavePropagationSim.tsx",
+  "class": 12,
+  "subject": "physics",
+  "chapter": "EMWavePropagation",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_phy_cbse_08_004",
+   "c12_phy_cbse_10_008"
+  ],
+  "matchStrength": "strong",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class12_physics_leph108.json",
+    "chapterTitle": "Electromagnetic Waves",
+    "nodeChapter": 8,
+    "overlap": 0.5
+   },
+   {
+    "catalog": "catalog_class12_physics_leph202.json",
+    "chapterTitle": "Wave Optics",
+    "nodeChapter": 10,
+    "overlap": 0.5
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 0.5334,
+   "chapterCoverage": 0.5334,
+   "catalogHint": true,
+   "familyFocused": false,
+   "topScore": 0.6334
+  }
+ },
+ {
+  "simId": "huygens-wavefronts",
+  "file": "frontend/components/simulations/three/C12_PhysicsHuygensWavefrontsSim.tsx",
+  "class": 12,
+  "subject": "physics",
+  "chapter": "HuygensWavefronts",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_phy_cbse_10_001",
+   "c12_phy_cbse_10_002"
+  ],
+  "matchStrength": "strong",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 0.7611,
+   "chapterCoverage": 0.5852,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.6996
+  }
+ },
+ {
+  "simId": "pn-junction-diode",
+  "file": "frontend/components/simulations/three/C12_PhysicsPNJunctionDiodeSim.tsx",
+  "class": 12,
+  "subject": "physics",
+  "chapter": "PNJunctionDiode",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_phy_cbse_14_003",
+   "c12_phy_cbse_14_004",
+   "c12_phy_cbse_14_002",
+   "c12_phy_cbse_14_008",
+   "c12_phy_cbse_14_009",
+   "c12_phy_cbse_14_007",
+   "c12_phy_cbse_14_001",
+   "c12_phy_cbse_14_005",
+   "c12_phy_cbse_14_006"
+  ],
+  "matchStrength": "exact",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class12_political_science_ch14.json",
+    "chapterTitle": "Regional Aspirations",
+    "nodeChapter": null,
+    "overlap": 0.5
+   },
+   {
+    "catalog": "catalog_class12_political_science_leps207.json",
+    "chapterTitle": "Regional Aspirations",
+    "nodeChapter": null,
+    "overlap": 0.5
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 1.0,
+   "chapterCoverage": 0.95,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.9825
+  }
+ },
+ {
+  "simId": "prism-refraction",
+  "file": "frontend/components/simulations/three/C12_PhysicsPrismRefractionSim.tsx",
+  "class": 12,
+  "subject": "physics",
+  "chapter": "PrismRefraction",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_phy_cbse_09_003",
+   "c12_phy_cbse_09_004"
+  ],
+  "matchStrength": "strong",
+  "catalogRefs": [],
+  "signals": {
+   "tokenCoverage": 0.544,
+   "chapterCoverage": 0.4567,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.5135
+  }
+ },
+ {
+  "simId": "rutherford-scattering",
+  "file": "frontend/components/simulations/three/C12_PhysicsRutherfordScatteringSim.tsx",
+  "class": 12,
+  "subject": "physics",
+  "chapter": "RutherfordScattering",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_phy_cbse_12_001"
+  ],
+  "matchStrength": "strong",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class12_informatics_practices_leip106.json",
+    "chapterTitle": "Societal Impacts",
+    "nodeChapter": null,
+    "overlap": 0.5
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 0.8404,
+   "chapterCoverage": 0.5119,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.7254
+  }
+ },
+ {
+  "simId": "young-double-slit",
+  "file": "frontend/components/simulations/three/C12_PhysicsYoungDoubleSlitSim.tsx",
+  "class": 12,
+  "subject": "physics",
+  "chapter": "YoungDoubleSlit",
+  "source": "3d_lab",
+  "nodeIds": [
+   "c12_phy_cbse_10_004",
+   "c12_phy_cbse_10_005",
+   "c12_phy_cbse_10_006",
+   "c12_phy_cbse_10_007"
+  ],
+  "matchStrength": "exact",
+  "catalogRefs": [
+   {
+    "catalog": "catalog_class12_applied_maths_am12_003a_differentiation_applications.json",
+    "chapterTitle": "Differentiation and Its Applications",
+    "nodeChapter": null,
+    "overlap": 0.5
+   },
+   {
+    "catalog": "catalog_class12_maths_lemh105.json",
+    "chapterTitle": "Continuity and Differentiability",
+    "nodeChapter": null,
+    "overlap": 0.5
+   },
+   {
+    "catalog": "catalog_class12_maths_lemh203.json",
+    "chapterTitle": "Chapter 9 Differential Equations",
+    "nodeChapter": 3,
+    "overlap": 0.5
+   }
+  ],
+  "signals": {
+   "tokenCoverage": 1.0,
+   "chapterCoverage": 0.8125,
+   "catalogHint": false,
+   "familyFocused": false,
+   "topScore": 0.9344
+  }
+ }
 ]

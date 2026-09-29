@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_ca_ch04: SimDef = {
     id: 'v3_c12_ca_ch04',
-    title: 'OVERVIEW OF',
+    title: 'Graphs And Charts',
     subtitle: 'The pie chart that hid five years of decline',
-    classLevel: 12, subject: 'computerised_accounting', topic: 'OVERVIEW OF',
+    classLevel: 12, subject: 'computerised_accounting', topic: 'Graphs And Charts',
     chapters: ['c12_ca_ch04'],
     nodeIds: ['c12_ca_cbse_04_001', 'c12_ca_cbse_04_002', 'c12_ca_cbse_04_003', 'c12_ca_cbse_04_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

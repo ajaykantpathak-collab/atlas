@@ -122,7 +122,7 @@ export const c8_engl_ch03_p2: SimDef = {
           misconception: 'Students often commit "quote dropping" (also known as "isolated quotes"), where they state a point in one sentence.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Embedding quotes in poetry answers means seamlessly integrating brief, specific text',
-                  options: ['Embedding quotes in poetry answers means seamlessly integrating brief, specific text', 'Character analysis involves examining a fictional character\'s traits, motivations, and', 'Evidence consists of verifiable, explicit facts, clues, or direct quotes provided', 'An anagram is a word play technique where the letters of a word or phrase are rearranged'],
+                  options: ['Embedding quotes in poetry answers means seamlessly integrating brief, specific text', 'From \'English chapter c8_engl_ch3\': the skill or concept this node teaches, applied to', 'Evidence consists of verifiable, explicit facts, clues, or direct quotes provided', 'An anagram is a word play technique where the letters of a word or phrase are rearranged'],
                   hint: 'If stuck, practice extracting just 2 or 3 essential words from a line of poetry instead of copying.',
                   misconception: 'Students often commit "quote dropping" (also known as "isolated quotes"), where they state a point in one sentence, paste a quote.' }
           ],

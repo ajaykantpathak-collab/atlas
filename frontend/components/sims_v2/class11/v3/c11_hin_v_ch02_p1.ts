@@ -19,7 +19,7 @@ export const c11_hin_v_ch02_p1: SimDef = {
         hook: 'The pond is the easy part — historically the dominant castes controlled the water; revival worked only when women\'s jal sabhas rewrote the sharing rules.',
     },
     teaching: [
-        { title: 'पाठ 2 — पृष्ठभूमि और रचनाकार परिचय', text: 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक अनुशासन है जिसमें किसी रचना के रचयिता के जीवन-वृत्त, साहित्यिक योगदान, विचारधारा तथा रचना-काल की सामाजिक-सांस्कृतिक-राजनीतिक परिस्थितियों का व्यवस्थित अध्ययन.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 2 — पृष्ठभूमि और रचनाकार परिचय', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_v_cbse_02_001', title: 'Your mission',
@@ -28,8 +28,20 @@ export const c11_hin_v_ch02_p1: SimDef = {
         context: 'Compute a catchment-to-command ratio for a village, then follow the chapter\'s escalation from grain-share to cash wage to piece-rate labour.',
         labels: ['पाठ 2 — पृष्ठभूमि', 'पाठ 2 — कथानक', 'पाठ 2 — पाठ्य-परिवेश', 'पाठ 2 — पात्र-चित्रण', 'पाठ 2 — मुख्य'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c11_hin_v_cbse_02_001', title: 'पाठ 2 — पृष्ठभूमि और रचनाकार परिचय',
+          caseStudy: { intro: 'वितान भाग-1 खोलिए और पाठ 02 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: 'What is the literal meaning of the term *johad* as used in the context of traditional water management in Rajasthan, and which geographical.', options: [
+                { text: 'A *johad* is a crescent-shaped earthen check-dam built across a slope to capture and', outcome: 'A *johad* is a crescent-shaped earthen check-dam built across a slope to capture and store monsoon.' },
+                { text: 'rainwater harvesting techniques', outcome: 'Not quite — Students often believe the chapter is primarily about "rainwater harvesting techniques" and.', reveals: 'the-chapter-is-primarily-about' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_v_cbse_02_002', title: 'पाठ 2 — कथानक और आख्यान-संरचना',
+          caseStudy: { intro: '\'वितान भाग-1 — पाठ 2\' का क्रम: शुरुआत पाठ-2 से, घटनाएँ बढ़ती हैं, अंत \'वितान भाग-1 पर।',
+            decisions: [{ prompt: 'Identify the three distinct structural phases in the opening section (pages 9-11) where the author moves from immediate sensory observation.', options: [
+                { text: 'Correct answer: (1) Visceral Scene-Setting (the canal-digging tableau), (2)', outcome: 'Correct answer: (1) Visceral Scene-Setting (the canal-digging tableau), (2).' },
+                { text: 'introduction, body, conclusion', outcome: 'Not quite — Students treat "plot" in non-fiction as a chronological timeline of events described in the text.', reveals: 'students-treat-plot-in-non' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_02_004', title: 'पाठ 2 — पात्र-चित्रण: नायक/प्रमुख पात्र',
-          caseStudy: { intro: 'Think of the last time you described a friend to someone — you didn\'t just say "nice person"; you shared that time they missed their bus to help an elderly.',
+          caseStudy: { intro: 'मुख्य पात्र की पहचान, कार्य और विकास — \'वितान भाग-1 — पाठ 2\' में पाठ-2 से पात्र उभरता है।',
             decisions: [{ prompt: 'पाठ 2 के नायक की किन्हीं दो बाह्य विशेषताओं (physical/external traits) का उल्लेख करें जो पाठ में सीधे वर्णित हैं।', options: [
                 { text: 'Correct answer: [Specific to Vitan Ch 2 text', outcome: 'Correct answer: [Specific to Vitan Ch 2 text — e.g., "नायक की झुकी हुई कमर और फटे कुर्ते की बाँहें".' },
                 { text: 'वह गरीब है', outcome: 'Not quite — Students believe character analysis = listing adjectives with one quote each ("He is honest.', reveals: 'character-analysis-listing-adjectives-with' },
@@ -54,40 +66,63 @@ export const c11_hin_v_ch02_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_02_001', difficulty: 'standard',
-          question: 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक अनुशासन है जिसमें किसी रचना के रचयिता.',
-          hint: 'यदि छात्र \'रचनाकार की दृष्टि\' और \'रचना की दृष्टि\' का संबंध नहीं बना पा रहा हो, तो आचार्य.',
-          misconception: '**विशिष्ट भ्रांति:** "पृष्ठभूमि और रचनाकार परिचय का अर्थ है — लेखक का जन्म-मृत्यु वर्ष, शिक्षा, प्रमुख रचनाओं की सूची.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, review Class 11 Geography Chapter "Water Resources" (watershed management.',
+          misconception: 'Students often believe the chapter is primarily about "rainwater harvesting techniques" and therefore focus only on the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक अनुशासन है जिसमें किसी रचना के रचयिता के',
-                  options: ['पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक अनुशासन है जिसमें किसी रचना के रचयिता के', 'कथानक (Plot) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कहानी के \'क्या हुआ\' को दर्शाता', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं का भौगोलिक, ऐतिहासिक, सामाजिक और सांस्कृतिक संदर्भ', 'पात्र-चित्रण (Character portrayal) नायक/प्रमुख पात्र के व्यक्तित्व, चरित्र, संवाद,'],
-                  hint: 'यदि छात्र \'रचनाकार की दृष्टि\' और \'रचना की दृष्टि\' का संबंध नहीं बना पा रहा हो, तो आचार्य रामचंद्र.',
-                  misconception: '**विशिष्ट भ्रांति:** "पृष्ठभूमि और रचनाकार परिचय का अर्थ है — लेखक का जन्म-मृत्यु वर्ष, शिक्षा, प्रमुख रचनाओं की सूची रट लेना।".' }
+                { id: 'a', prompt: 'A village in Alwar district receives 600 mm annual rainfall. Using the concept of *johad* catchment-to-command ratio described in the background, calculate the.', answer: 'Step 1: Crop water need = 10 ha × 500 mm = 50,000 m³',
+                  options: ['Step 1: Crop water need = 10 ha × 500 mm = 50,000 m³', 'rainwater harvesting techniques'],
+                  hint: 'If stuck, review Class 11 Geography Chapter "Water Resources" (watershed management section) and.',
+                  misconception: 'Students often believe the chapter is primarily about "rainwater harvesting techniques" and therefore focus only on the engineering.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**पहला कदम:** छात्र से कहें — "श्रीलाल शुक्ल की कोई एक कहानी/उपन्यास अंश पढ़ें (जैसे: \'पहला पड़ाव\' या \'राग दरबारी\' का.', '**दूसरा कदम:** 1960 के दशक के ग्रामीण भारत की किन्हीं दो सरकारी योजनाओं (जैसे: सामुदायिक विकास कार्यक्रम, पंचायती राज.', '**तीसरा कदम:** छात्र को \'रचनाकार परिचय\' के नोट्स को \'तथ्य-सूची\' से \'कारण-कार्य तालिका\' में बदलने को कहें — कॉलम 1: लेखक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-chapter-is-primarily-about': { steps: ['If a student cannot articulate the socio-ecological frame, conduct a 3-step remediation: (1) Show two 2-minute clips.', '(2) Give a one-paragraph excerpt from the chapter where the author describes a *gram sabha* conflict over water.', '(3) Assign a mini-inquiry: "Interview one elder in your neighborhood about how water decisions were made 30 years ago.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_v_cbse_02_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often believe the chapter is primarily about "rainwater harvesting techniques" and therefore focus only on the.',
+          parts: [
+                { id: 'a', prompt: 'Critique the statement: "Reviving *johads* is only a technical fix for water scarcity; it does not require social restructuring." Use evidence from the.', answer: 'The statement is invalid',
+                  options: ['The statement is invalid', 'rainwater harvesting techniques'],
+                  hint: 'If stuck, review Class 11 Geography Chapter "Water Resources" (watershed management section) and.',
+                  misconception: 'Students often believe the chapter is primarily about "rainwater harvesting techniques" and therefore focus only on the engineering.' },
+                { id: 'b', prompt: 'Design a 3-minute podcast script for Class 11 students that introduces the chapter\'s context using a "Then vs Now" narrative structure.', answer: 'A strong script opens with the sound of a dry hand-pump vs',
+                  options: ['A strong script opens with the sound of a dry hand-pump vs', 'rainwater harvesting techniques'],
+                  hint: 'If stuck, review Class 11 Geography Chapter "Water Resources" (watershed management section) and.',
+                  misconception: 'Students often believe the chapter is primarily about "rainwater harvesting techniques" and therefore focus only on the engineering.' }
+          ],
+            remediations: { 'the-chapter-is-primarily-about': { steps: ['If a student cannot articulate the socio-ecological frame, conduct a 3-step remediation: (1) Show two 2-minute clips.', '(2) Give a one-paragraph excerpt from the chapter where the author describes a *gram sabha* conflict over water.', '(3) Assign a mini-inquiry: "Interview one elder in your neighborhood about how water decisions were made 30 years ago.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_02_002', difficulty: 'standard',
-          question: 'कथानक (Plot) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कहानी के \'क्या हुआ\'.',
-          hint: 'यदि छात्र घटनाओं का कालक्रम नहीं बना पाता, तो उसे **कहानी का घटना-चित्र (story.',
-          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि \'कथानक का विश्लेषण\' का अर्थ केवल घटनाओं को क्रम से लिखना है (समरी/सार लिखना)। वे.',
+          question: '\'वितान भाग-1 — पाठ 2\' का कथानक — \'वितान भाग-1 — पाठ 2\' — वितान भाग-1 का पाठ।.',
+          hint: 'Review "rhetorical modes" (narration, description, exposition, argumentation) and.',
+          misconception: 'Students treat "plot" in non-fiction as a chronological timeline of events described in the text (e.g., "first canals.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कहानी के \'क्या हुआ\' को दर्शाता',
-                  options: ['कथानक (Plot) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कहानी के \'क्या हुआ\' को दर्शाता', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक अनुशासन है जिसमें किसी रचना के रचयिता के', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं का भौगोलिक, ऐतिहासिक, सामाजिक और सांस्कृतिक संदर्भ', 'पात्र-चित्रण (Character portrayal) नायक/प्रमुख पात्र के व्यक्तित्व, चरित्र, संवाद,'],
-                  hint: 'यदि छात्र घटनाओं का कालक्रम नहीं बना पाता, तो उसे **कहानी का घटना-चित्र (story map/flowchart)**.',
-                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि \'कथानक का विश्लेषण\' का अर्थ केवल घटनाओं को क्रम से लिखना है (समरी/सार लिखना)। वे नहीं समझते कि बोर्ड.' }
+                { id: 'a', prompt: 'Identify the three distinct structural phases in the opening section (pages 9-11) where the author moves from immediate sensory observation to systemic.', answer: 'Correct answer: (1) Visceral Scene-Setting (the canal-digging tableau), (2)',
+                  options: ['Correct answer: (1) Visceral Scene-Setting (the canal-digging tableau), (2)', 'introduction, body, conclusion'],
+                  hint: 'Review "rhetorical modes" (narration, description, exposition, argumentation) and practice labeling.',
+                  misconception: 'Students treat "plot" in non-fiction as a chronological timeline of events described in the text (e.g., "first canals were built, then.' },
+                { id: 'b', prompt: 'The author inserts a detailed description of the \'johad\' (traditional check-dam) construction process on pages 14-15.', answer: 'Correct answer: The sequencing follows a "failure-before-alternative" rhetorical',
+                  options: ['Correct answer: The sequencing follows a "failure-before-alternative" rhetorical', 'chronological order', 'traditional comes first historically'],
+                  hint: 'Review "rhetorical modes" (narration, description, exposition, argumentation) and practice labeling.',
+                  misconception: 'Students treat "plot" in non-fiction as a chronological timeline of events described in the text (e.g., "first canals were built, then.' },
+                { id: 'c', prompt: 'On page 16, the author describes how laborers\' payment shifted from "annual grain share" to "cash wages" to "contract-based piece rates." Map this progression.', answer: 'Correct answer: Escalation (specifically, escalating alienation)',
+                  options: ['Correct answer: Escalation (specifically, escalating alienation)', 'contrast', 'parallelism', 'framing'],
+                  hint: 'Review "rhetorical modes" (narration, description, exposition, argumentation) and practice labeling.',
+                  misconception: 'Students treat "plot" in non-fiction as a chronological timeline of events described in the text (e.g., "first canals were built, then.' }
           ],
-            remediations: { 'structural-functionality': { steps: ['**चरण 1 — दृश्यीकरण (Visualization):** छात्र से कहें: "किसी फिल्म/सीरियल का कोई दृश्य याद करो जहाँ कहानी अचानक अतीत में.', '**चरण 2 — माइक्रो-टेक्स्ट अभ्यास:** 5-6 वाक्यों का एक पैराग्राफ दो जिसमें फ्लैशबैक हो। छात्र से दोनों क्रम लिखवाएँ। फिर.', '**चरण 3 — प्रभाव-प्रश्न (Effect-question):** हर फ्लैशबैक/फोरशैडोइंग के लिए तीन प्रश्न पूछने का अभ्यास कराएँ: (क) यह कब.', '**चरण 4 — बोर्ड-शैली उत्तर:** PEEL संरचना (Point-Evidence-Explanation-Link) में एक नमूना उत्तर लिखकर दिखाएँ जहाँ संरचना.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-plot-in-non': { steps: ['Give the student a 3-paragraph op-ed on a परिचित topic (e.g., "Why Delhi\'s odd-even scheme fails").', 'Have them physically cut and reorder the paragraphs—ask "Does the argument still work? Why/why not?"', 'Map this to the textbook: identify the "hook" paragraph (page 9 canal scene), the "evidence" section (pages 10-13.', 'Explicitly name the principle: "Non-fiction plot = the minimum number of pieces that must stay in this order for the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_02_003', difficulty: 'standard',
-          question: 'पाठ्य-परिवेश (Setting) कथा में घटनाओं का भौगोलिक, ऐतिहासिक, सामाजिक और.',
+          question: '\'वितान भाग-1 — पाठ 2\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण.',
           hint: 'अगर अटके तो \'कथानक और आख्यान-संरचना\' (नोड 002) के \'घटना-परिवेश संबंध\' खंड को दोबारा पढ़ें.',
           misconception: 'छात्र प्रायः समझते हैं कि **\'वातावरण\' लेखक द्वारा सीधे बताई गई भावना है** (जैसे "माहौल उदास था") और **\'परिवेश\' केवल.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश (Setting) कथा में घटनाओं का भौगोलिक, ऐतिहासिक, सामाजिक और सांस्कृतिक संदर्भ',
-                  options: ['पाठ्य-परिवेश (Setting) कथा में घटनाओं का भौगोलिक, ऐतिहासिक, सामाजिक और सांस्कृतिक संदर्भ', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक अनुशासन है जिसमें किसी रचना के रचयिता के', 'कथानक (Plot) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कहानी के \'क्या हुआ\' को दर्शाता', 'पात्र-चित्रण (Character portrayal) नायक/प्रमुख पात्र के व्यक्तित्व, चरित्र, संवाद,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-1 — पाठ 2\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित',
+                  options: ['\'वितान भाग-1 — पाठ 2\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-1 — पाठ 2\' का कथानक — \'वितान भाग-1 — पाठ 2\' — वितान भाग-1 का पाठ। पाठ का', '\'वितान भाग-1 — पाठ 2\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
                   hint: 'अगर अटके तो \'कथानक और आख्यान-संरचना\' (नोड 002) के \'घटना-परिवेश संबंध\' खंड को दोबारा पढ़ें — विशेषकर.',
                   misconception: 'छात्र प्रायः समझते हैं कि **\'वातावरण\' लेखक द्वारा सीधे बताई गई भावना है** (जैसे "माहौल उदास था") और **\'परिवेश\' केवल स्थान का नाम है** (जैसे.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**चरण 1 (अवधारणा स्पष्टीकरण):** छात्र को दो वाक्य दें — एक तथ्यात्मक (परिवेश), एक बिंबात्मक (वातावरण) — और पूछें: "पहला.', 'दूसरा तुम्हें क्या *महसूस* कराता है?" 2.', '**चरण 2 (बिंब खोज):** किसी ज्ञात पाठ (जैसे \'नमक का दारोगा\' का बाज़ार दृश्य) से 5 संवेदी बिंब (दृश्य, श्रव्य, घ्राण.', '**चरण 3 (मैपिंग):** प्रत्येक बिंब के सामने लिखवाएं: यह परिवेश का कौन-सा तत्व दर्शाता है?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_02_004', difficulty: 'standard',
-          question: 'पात्र-चित्रण (Character portrayal) नायक/प्रमुख पात्र के व्यक्तित्व, चरित्र.',
+          question: '\'वितान भाग-1 — पाठ 2\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
           hint: 'If stuck: Review "Show vs. Tell" distinction using a familiar film scene (e.g., *Masaan*.',
           misconception: 'Students believe character analysis = listing adjectives with one quote each ("He is honest [quote], poor [quote].',
           parts: [
@@ -97,35 +132,24 @@ export const c11_hin_v_ch02_p1: SimDef = {
                   misconception: 'Students believe character analysis = listing adjectives with one quote each ("He is honest [quote], poor [quote], brave [quote]").' }
           ],
             remediations: { 'character-analysis-listing-adjectives-with': { steps: ['Give the student a 50-word character description *without* the character\'s name (e.g., "A man who mends his own shoes.', 'Ask: "What *one word* captures the tension between these behaviors?" (Expected: dignity/self-respect/swabhiman).', 'Now open the text: "Find *three moments* where this tension *plays out* — not where it\'s described, where it *happens*."', 'Have them write one PEEL paragraph for *just one moment*. This shifts focus from labeling to *evidence-first reasoning*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_v_cbse_02_004', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe character analysis = listing adjectives with one quote each ("He is honest [quote], poor [quote].',
-          parts: [
-                { id: 'a', prompt: 'नायक की दृष्टि से एक डायरी-प्रविष्टि लिखें जो पाठ में *नहीं* आई किसी घटना (जैसे: रात को नींद न आना, पुरानी चिट्ठी पढ़ना) को कल्पित करे, लेकिन उसके स्थापित.', answer: 'Expected criteria: (1) Voice matches protagonist\'s diction/tone from text',
-                  options: ['Expected criteria: (1) Voice matches protagonist\'s diction/tone from text', 'He is honest [quote], poor [quote], brave [quote]'],
-                  hint: 'If stuck: Review "Show vs. Tell" distinction using a familiar film scene (e.g., *Masaan* — Deepak.',
-                  misconception: 'Students believe character analysis = listing adjectives with one quote each ("He is honest [quote], poor [quote], brave [quote]").' }
-          ],
-            remediations: { 'character-analysis-listing-adjectives-with': { steps: ['Give the student a 50-word character description *without* the character\'s name (e.g., "A man who mends his own shoes.', 'Ask: "What *one word* captures the tension between these behaviors?" (Expected: dignity/self-respect/swabhiman).', 'Now open the text: "Find *three moments* where this tension *plays out* — not where it\'s described, where it *happens*."', 'Have them write one PEEL paragraph for *just one moment*. This shifts focus from labeling to *evidence-first reasoning*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_02_005', difficulty: 'standard',
-          question: 'सहायक पात्र (Supporting Characters) वे पात्र हैं जो नायक/प्रमुख पात्र के.',
+          question: '\'वितान भाग-1 — पाठ 2\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को.',
           hint: 'यदि अटके तो c11_hin_v_cbse_02_004 (पात्र-चित्रण: नायक/प्रमुख पात्र) के \'आंतरिक द्वंद्व\'.',
           misconception: 'छात्र मानते हैं कि सहायक पात्र का विश्लेषण केवल \'वह नायक की मदद करता है/नहीं करता\' तक सीमित है। वे पात्र के \'आंतरिक.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे पात्र हैं जो नायक/प्रमुख पात्र के समानांतर या',
-                  options: ['सहायक पात्र (Supporting Characters) वे पात्र हैं जो नायक/प्रमुख पात्र के समानांतर या', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक अनुशासन है जिसमें किसी रचना के रचयिता के', 'कथानक (Plot) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कहानी के \'क्या हुआ\' को दर्शाता', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं का भौगोलिक, ऐतिहासिक, सामाजिक और सांस्कृतिक संदर्भ'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-1 — पाठ 2\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते',
+                  options: ['\'वितान भाग-1 — पाठ 2\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-1 — पाठ 2\' का कथानक — \'वितान भाग-1 — पाठ 2\' — वितान भाग-1 का पाठ। पाठ का', '\'वितान भाग-1 — पाठ 2\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके तो c11_hin_v_cbse_02_004 (पात्र-चित्रण: नायक/प्रमुख पात्र) के \'आंतरिक द्वंद्व\' और \'चरित्र.',
                   misconception: 'छात्र मानते हैं कि सहायक पात्र का विश्लेषण केवल \'वह नायक की मदद करता है/नहीं करता\' तक सीमित है। वे पात्र के \'आंतरिक द्वंद्व\' (internal.' }
           ],
             remediations: { 'internal-conflict': { steps: ['चरण 1: छात्र से कहें — \'पाठ के किसी सहायक पात्र के तीन संवाद चुनें जो नायक से संबंधित न हों (अपने परिवार, अपने सपने.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_02_006', difficulty: 'standard',
-          question: 'मुख्य विषय (Central Theme) किसी साहित्यिक रचना में निहित वह **सार्वभौमिक.',
+          question: '\'वितान भाग-1 — पाठ 2\' का मुख्य विषय — \'वितान भाग-1 — पाठ 2\' का केंद्रीय भाव और.',
           hint: 'यदि अटके तो **नोड 002 (कथानक संरचना)** के \'चरमोत्कर्ष\' और \'उपसंहार\' भाग को दोबारा पढ़ें.',
           misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर मानते हैं कि **"मुख्य विषय = लेखक का व्यक्तिगत मत" (Author\'s Personal Opinion)** — वे.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य विषय (Central Theme) किसी साहित्यिक रचना में निहित वह **सार्वभौमिक केंद्रीय विचार',
-                  options: ['मुख्य विषय (Central Theme) किसी साहित्यिक रचना में निहित वह **सार्वभौमिक केंद्रीय विचार', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक अनुशासन है जिसमें किसी रचना के रचयिता के', 'कथानक (Plot) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कहानी के \'क्या हुआ\' को दर्शाता', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं का भौगोलिक, ऐतिहासिक, सामाजिक और सांस्कृतिक संदर्भ'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-1 — पाठ 2\' का मुख्य विषय — \'वितान भाग-1 — पाठ 2\' का केंद्रीय भाव और संदेश',
+                  options: ['\'वितान भाग-1 — पाठ 2\' का मुख्य विषय — \'वितान भाग-1 — पाठ 2\' का केंद्रीय भाव और संदेश', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-1 — पाठ 2\' का कथानक — \'वितान भाग-1 — पाठ 2\' — वितान भाग-1 का पाठ। पाठ का', '\'वितान भाग-1 — पाठ 2\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके तो **नोड 002 (कथानक संरचना)** के \'चरमोत्कर्ष\' और \'उपसंहार\' भाग को दोबारा पढ़ें — विषय का.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर मानते हैं कि **"मुख्य विषय = लेखक का व्यक्तिगत मत" (Author\'s Personal Opinion)** — वे सोचते हैं लेखक जो.' }
           ],

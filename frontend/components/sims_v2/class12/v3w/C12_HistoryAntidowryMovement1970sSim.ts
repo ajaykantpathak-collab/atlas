@@ -6,13 +6,13 @@ import C12_HistoryAntidowryMovement1970sSim from '../../../simulations/c6_12/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_historyantidowrymovement1970ssim: SimDef = {
     id: 'v3w_c12_historyantidowrymovement1970ssim',
-    title: 'Antidowry Movement1970s',
+    title: 'The Nath Tradition, Jogis and the Syncretic Sant Parampara',
     subtitle: 'Covers: Nath Panth origins (Gorakhnath/Matsyendranath), Jogi identity as Nath yogis,.',
     classLevel: 12, subject: 'history', topic: 'The Nath Tradition, Jogis and the Syncretic Sant Parampara',
     chapters: [],
     nodeIds: ['c12_hist_cbse_06_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you visit the Gorakhnath Temple in Gorakhpur or see a Jogi with split ears (kanphata) at a village.', goal: 'Master Antidowry Movement1970s.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you visit the Gorakhnath Temple in Gorakhpur or see a Jogi with split ears (kanphata) at a village.', goal: 'Master The Nath Tradition, Jogis and the Syncretic Sant Parampara.' },
     discovery: {
         question: 'Why did the Nath-Jogi-Siddha leaders, despite their popularity among artisans and peasants, fail to secure sustained patronage from Rajput ruling elites before.',
         options: ['Rajput states relied on Brahmanas for ritual and administrative legitimacy', 'lack of temples', 'foreign origin'],
@@ -34,7 +34,7 @@ export const w_c12_historyantidowrymovement1970ssim: SimDef = {
             { text: 'Contrast with Chishti Sufis — similar pattern (Akbar at Ajmer), but Jogis represented a distinct "Hindu" yogic lineage,.', faded: true, blankAnswer: 'Aurangzeb\'s letter demonstrates Mughal "sulh-i-kul".' }
             ] } }
     ],
-    explore: { component: C12_HistoryAntidowryMovement1970sSim, prompt: 'Explore the interactive — Antidowry Movement1970s' },
+    explore: { component: C12_HistoryAntidowryMovement1970sSim, prompt: 'Explore the interactive — The Nath Tradition, Jogis and the Syncretic Sant Parampara' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hist_cbse_06_008', difficulty: 'standard',
           question: 'The Nath Tradition (Nath Panth), Jogis, and Siddhas were interconnected yogic.',

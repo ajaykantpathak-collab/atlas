@@ -6,13 +6,13 @@ import C11_PsyHumanDevelopmentCBSESim from '../../../simulations/c6_12_new/C11_P
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_psyhumandevelopmentcbsesim: SimDef = {
     id: 'v3w_c11_psyhumandevelopmentcbsesim',
-    title: 'Psy Human Development CBSE',
+    title: 'Life-Span Perspective on Development: Continuous Process',
     subtitle: 'This node covers the seven assumptions of Life-Span Perspective as presented in NCERT.',
     classLevel: 11, subject: 'science', topic: 'Life-Span Perspective on Development: Continuous Process',
     chapters: [],
     nodeIds: ['c11_psy_cbse_03_002', 'c11_psy_cbse_03_011', 'c11_psy_cbse_01_008', 'c11_psy_cbse_04_003', 'c11_psy_cbse_04_004', 'c11_psy_cbse_04_008', 'c11_psy_cbse_03_001', 'c11_psy_cbse_03_003', 'c11_psy_cbse_03_004', 'c11_psy_cbse_03_005', 'c11_psy_cbse_03_006', 'c11_psy_cbse_03_007', 'c11_psy_cbse_03_008', 'c11_psy_cbse_03_009', 'c11_psy_cbse_03_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine your 68-year-old grandmother decides to learn digital painting on a tablet, while your 14-year-old.', goal: 'Master Psy Human Development CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine your 68-year-old grandmother decides to learn digital painting on a tablet, while your 14-year-old.', goal: 'Master Life-Span Perspective on Development: Continuous Process.' },
     discovery: {
         question: 'A 60-year-old retired professor decides to learn Spanish using a language app, practicing 30 minutes daily.',
         options: ['Step 1: Plasticity', 'age-related decline', 'LSP means we keep developing until we die'],
@@ -88,7 +88,7 @@ export const w_c11_psyhumandevelopmentcbsesim: SimDef = {
             { text: 'Verify against brief exposure: Proximity + Similarity + Continuity converge on the same grouping, making it robust at.', faded: true, blankAnswer: 'Zone 1 — three white chevrons ▲▲▲ spaced 30 cm apart along.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_psy_cbse_03_011', title: 'Identify each idea',
-          dissect: { specimen: 'Psy Human Development CBSE', spots: [
+          dissect: { specimen: 'Life-Span Perspective on Development: Continuous Process', spots: [
             { id: 's1', label: 'Life-Span Perspective LSP is a', prompt: 'Which idea is this? — Life-Span Perspective (LSP) is a comprehensive theoretical framework that conceptualises.', answer: 'Life-Span Perspective LSP is a', options: ['Life-Span Perspective LSP is a', 'Adulthood and old age represent', 'Psychoanalysis is a comprehensive theory', 'Visual sensation is the process'] },
             { id: 's2', label: 'Adulthood and old age represent', prompt: 'Which idea is this? — Adulthood and old age represent the final two major stages of the human life-span,.', answer: 'Adulthood and old age represent', options: ['Adulthood and old age represent', 'Life-Span Perspective LSP is a', 'Psychoanalysis is a comprehensive theory', 'Visual sensation is the process'] },
             { id: 's3', label: 'Psychoanalysis is a comprehensive theory', prompt: 'Which idea is this? — Psychoanalysis is a comprehensive theory of personality and a therapeutic method.', answer: 'Psychoanalysis is a comprehensive theory', options: ['Psychoanalysis is a comprehensive theory', 'Life-Span Perspective LSP is a', 'Adulthood and old age represent', 'Visual sensation is the process'] },
@@ -97,7 +97,7 @@ export const w_c11_psyhumandevelopmentcbsesim: SimDef = {
             { id: 's6', label: 'Perceptual organisation refers to the', prompt: 'Which idea is this? — Perceptual organisation refers to the innate tendency of the human perceptual system to.', answer: 'Perceptual organisation refers to the', options: ['Perceptual organisation refers to the', 'Life-Span Perspective LSP is a', 'Adulthood and old age represent', 'Psychoanalysis is a comprehensive theory'] }
           ] } }
     ],
-    explore: { component: C11_PsyHumanDevelopmentCBSESim, prompt: 'Explore the interactive — Psy Human Development CBSE' },
+    explore: { component: C11_PsyHumanDevelopmentCBSESim, prompt: 'Explore the interactive — Life-Span Perspective on Development: Continuous Process' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_psy_cbse_03_002', difficulty: 'standard',
           question: 'Life-Span Perspective (LSP) is a comprehensive theoretical framework that.',

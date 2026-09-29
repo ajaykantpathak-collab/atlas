@@ -19,37 +19,37 @@ export const c12_eng_k_ch07_p2: SimDef = {
         hook: 'Biography traps readers who don\'t check dates. These are a sighted 22-year-old\'s poems: Time as \'envious\' Cronos devouring its children, hours dragged by a clock\'s \'heavy plummets,\' and Shakespeare needing no monument because his \'easie numbers\' live in readers\' hearts — merit over marble.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas that support or complement the primary theme, often exploring related but distinct aspects of the human experience — such as the contrast between temporal.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'On Time\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_07_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Read Milton young: feel time crawl in leaden plummet-steps, hear why the poem calls Time envious, and weigh the claim that a writer\'s true pyramid is built inside his readers.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_07_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'ve just identified the main message of a poem — say, "Time is defeated by Eternity." Your teacher then asks, "What else is the poem saying?',
+          caseStudy: { intro: 'Look beneath the main theme of \'On Time\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'List two secondary themes from Milton\'s "On Time".', options: [
                 { text: 'Correct answer: The contrast between temporal things (described as \'false and vain\',', outcome: 'Correct answer: The contrast between temporal things (described as \'false and vain\', \'mortal.' },
                 { text: 'Time is defeated', outcome: 'Not quite — Students often confuse secondary themes with literary devices (e.g., writing "personification" as.', reveals: 'students-often-confuse-secondary-themes' },
                 { text: 'personification of Time', outcome: 'Not quite — Students often confuse secondary themes with literary devices (e.g., writing "personification" as.', reveals: 'students-often-confuse-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_07_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are scrolling through Instagram and a reel shows a time-lapse of a flower blooming and withering in seconds — you instantly *feel* the rush.',
+          caseStudy: { intro: 'Find the lines in \'On Time\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define imagery and metaphor in your own words, giving one example of each from everyday language (not from the poems).', options: [
                 { text: '**Correct answer:** Imagery is descriptive language that appeals to the senses (e.g.,', outcome: '**Correct answer:** Imagery is descriptive language that appeals to the senses (e.g., "The rain.' },
                 { text: 'Time is *like* a thief', outcome: 'Not quite — Students often think "identifying" a metaphor or image is the same as "analysing" it.', reveals: 'identifying-a-metaphor-or-image' },
                 { text: 'identifying', outcome: 'Not quite — Students often think "identifying" a metaphor or image is the same as "analysing" it.', reveals: 'identifying-a-metaphor-or-image' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_07_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading "On Time" and stumble on "leaden-stepping hours" — you know "lead" is heavy, but why "stepping"?',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'On Time\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'Define "etymology" and explain why the NCERT note on "entomb\'d" traces it to late Middle English and French origin.', options: [
                 { text: 'Etymology is the study of a word\'s historical development, including its origin and', outcome: 'Etymology is the study of a word\'s historical development, including its origin and changes.' },
                 { text: 'etymology means dictionary definition', outcome: 'Not quite — Students treat archaic words as "old-fashioned synonyms" — e.g., thinking "conceaving" just means.', reveals: 'students-treat-archaic-words-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_07_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re sitting in the CBSE board exam and see a question: "Why does Milton call Time \'envious\' in \'On Time\'?" A literal question would ask "What does.',
+          caseStudy: { intro: 'Answer \'On Time\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify whether the following question is literal or inferential: "According to the poem \'On Time,\' what does Time\'s \'womb\' devour?"', options: [
                 { text: 'This is a **literal** comprehension question', outcome: 'This is a **literal** comprehension question. The answer is explicitly stated in lines 5-6: "what.' },
                 { text: 'A student who labels this inferential confuses', outcome: 'Not quite — Students believe inferential questions are "opinion questions" where any personal interpretation.', reveals: 'inferential-questions-are-opinion-questions' },
@@ -69,12 +69,12 @@ export const c12_eng_k_ch07_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_07_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas that support or complement the.',
+          question: 'Secondary themes in \'On Time\' — the supporting ideas and motifs that deepen the.',
           hint: 'If stuck, revisit node 006 (Primary Theme) and practice identifying abstract nouns and.',
           misconception: 'Students often confuse secondary themes with literary devices (e.g., writing "personification" as a theme) or treat.',
           parts: [
@@ -83,9 +83,9 @@ export const c12_eng_k_ch07_p2: SimDef = {
                   hint: 'If stuck, revisit node 006 (Primary Theme) and practice identifying abstract nouns and contrasts.',
                   misconception: 'Students often confuse secondary themes with literary devices (e.g., writing "personification" as a theme) or treat them as unrelated.' }
           ],
-            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If the student cannot distinguish theme from device, have them list all abstract nouns in both poems (Time, Eternity.', 'Then group them into \'temporal/material\' and \'eternal/spiritual/artistic\' columns.', 'This visual clustering reveals thematic oppositions.', 'Revisit node c12_eng_k_cbse_07_006 (Primary Theme) to see how the primary theme was derived, then practice identifying.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If the student cannot distinguish theme from device, have them list all abstract nouns in both poems (Time, Eternity.', 'Then group them into \'temporal/material\' and \'eternal/spiritual/artistic\' columns.', 'This visual clustering reveals thematic oppositions.', 'Revisit node c12_eng_k_cbse_07_006 (Primary Theme) to see how the primary theme was derived, then practice identifying.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_07_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'On Time\' — the vivid, sensory language that creates word-pictures.',
           hint: 'If stuck, review the "Metaphor Triangle" (tenor, vehicle, ground).',
           misconception: 'Students often think "identifying" a metaphor or image is the same as "analysing" it.',
           parts: [
@@ -98,7 +98,7 @@ export const c12_eng_k_ch07_p2: SimDef = {
                   hint: 'If stuck, review the "Metaphor Triangle" (tenor, vehicle, ground) in c11_eng_h_cbse_01_008 Worked.',
                   misconception: 'Students often think "identifying" a metaphor or image is the same as "analysing" it.' }
           ],
-            remediations: { 'identifying-a-metaphor-or-image': { steps: ['Revisit **c11_eng_h_cbse_01_008** (Class 11 Imagery and Metaphor) and re-do its Worked Example 2, focusing on the.', 'Take any 4 lines from "On Time," draw a two-column table: **Image/Metaphor** | **Sense/Comparison** | **Thematic.', 'Ask a peer to read your table and ask "So what?" for each row — if you can\'t answer, the analysis is incomplete.', 'Re-attempt Diagnostic Question 4 with this table method.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'identifying-a-metaphor-or-image': { steps: ['Revisit **c11_eng_h_cbse_01_008** (Class 11 Imagery and Metaphor) and re-do its Worked Example 2, focusing on the.', 'Take any 4 lines from "On Time," draw a two-column table: **Image/Metaphor** | **Sense/Comparison** | **Thematic.', 'Ask a peer to read your table and ask "So what?" for each row — if you can\'t answer, the analysis is incomplete.', 'Re-attempt Diagnostic Question 4 with this table method.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_07_008', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -113,20 +113,20 @@ export const c12_eng_k_ch07_p2: SimDef = {
                   hint: 'If stuck, review the "Metaphor Triangle" (tenor, vehicle, ground) in c11_eng_h_cbse_01_008 Worked.',
                   misconception: 'Students often think "identifying" a metaphor or image is the same as "analysing" it.' }
           ],
-            remediations: { 'identifying-a-metaphor-or-image': { steps: ['Revisit **c11_eng_h_cbse_01_008** (Class 11 Imagery and Metaphor) and re-do its Worked Example 2, focusing on the.', 'Take any 4 lines from "On Time," draw a two-column table: **Image/Metaphor** | **Sense/Comparison** | **Thematic.', 'Ask a peer to read your table and ask "So what?" for each row — if you can\'t answer, the analysis is incomplete.', 'Re-attempt Diagnostic Question 4 with this table method.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'identifying-a-metaphor-or-image': { steps: ['Revisit **c11_eng_h_cbse_01_008** (Class 11 Imagery and Metaphor) and re-do its Worked Example 2, focusing on the.', 'Take any 4 lines from "On Time," draw a two-column table: **Image/Metaphor** | **Sense/Comparison** | **Thematic.', 'Ask a peer to read your table and ask "So what?" for each row — if you can\'t answer, the analysis is incomplete.', 'Re-attempt Diagnostic Question 4 with this table method.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_07_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning is opposite to the.',
+          question: 'Irony and paradox in \'On Time\' — where opposite things are both true,.',
           hint: 'If stuck, review the metaphor analysis in c12_eng_k_cbse_07_008 and practice breaking.',
           misconception: 'Students often confuse irony with mere surprise or coincidence.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where the intended meaning is opposite to the literal meaning,',
-                  options: ['Irony is a literary device where the intended meaning is opposite to the literal meaning,', '"Before You Read: Context and Background" for Milton\'s poems provides the essential', 'In poetry, plot and narrative structure refers to the organized progression of ideas,', 'Setting in poetry refers to the temporal, spatial, and metaphysical context in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'On Time\'',
+                  options: ['Irony and paradox in \'On Time\'', '\'On Time\' (Kaleidoscope, ch', 'The plot/narrative arc of \'On Time\'', 'The setting of \'On Time\''],
                   hint: 'If stuck, review the metaphor analysis in c12_eng_k_cbse_07_008 and practice breaking down "Time".',
                   misconception: 'Students often confuse irony with mere surprise or coincidence.' }
           ],
-            remediations: { 'students-often-confuse-irony-with': { steps: ['If a student cannot distinguish irony from surprise, have them revisit c10_engl_cbse_01_007 (Irony in \'A Letter.', 'Then practice: give three situations (one ironic, one coincidental, one surprising) and ask them to label.', 'For symbolism, go back to c8_engl_ch4_008 (Symbolism of the Cherry Tree) and c10_engl_cbse_03_007 (Symbolism: Flight.', 'Ask them to complete a table: Symbol | Literal Meaning | Abstract Idea | Poem Line.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-irony-with': { steps: ['If a student cannot distinguish irony from surprise, have them revisit c10_engl_cbse_01_007 (Irony in \'A Letter.', 'Then practice: give three situations (one ironic, one coincidental, one surprising) and ask them to label.', 'For symbolism, go back to c8_engl_ch4_008 (Symbolism of the Cherry Tree) and c10_engl_cbse_03_007 (Symbolism: Flight.', 'Ask them to complete a table: Symbol | Literal Meaning | Abstract Idea | Poem Line.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_07_010', difficulty: 'standard',
-          question: 'Vocabulary in context refers to the skill of determining the meaning.',
+          question: 'Key vocabulary of \'On Time\' — the words and phrases you must know to read the.',
           hint: 'If stuck on etymology, review Class 9 node c9_engl_ch1_008 (vocabulary from "How I Taught.',
           misconception: 'Students treat archaic words as "old-fashioned synonyms" — e.g., thinking "conceaving" just means "conceiving" with.',
           parts: [
@@ -135,9 +135,9 @@ export const c12_eng_k_ch07_p2: SimDef = {
                   hint: 'If stuck on etymology, review Class 9 node c9_engl_ch1_008 (vocabulary from "How I Taught.',
                   misconception: 'Students treat archaic words as "old-fashioned synonyms" — e.g., thinking "conceaving" just means "conceiving" with an old spelling.' }
           ],
-            remediations: { 'students-treat-archaic-words-as': { steps: ['Have the student list 5 archaic words from the poems.', 'For each, use the OED (online) or NCERT etymology note to trace: original language → Middle English form → Milton\'s.', 'Ask: "What physical action or image does the root word evoke?" (e.g., *entomb* → *tombe* (tomb) → putting in a tomb).', 'Re-read the line substituting the literal root image ("put in a tomb" for "entomb\'d") and discuss how the metaphor.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-archaic-words-as': { steps: ['Have the student list 5 archaic words from the poems.', 'For each, use the OED (online) or NCERT etymology note to trace: original language → Middle English form → Milton\'s.', 'Ask: "What physical action or image does the root word evoke?" (e.g., *entomb* → *tombe* (tomb) → putting in a tomb).', 'Re-read the line substituting the literal root image ("put in a tomb" for "entomb\'d") and discuss how the metaphor.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_07_011', difficulty: 'standard',
-          question: 'Language usage in poetry refers to the deliberate grammatical, syntactic, and.',
+          question: 'Language and style in \'On Time\' — how the writer chose words, sentences and.',
           hint: 'If stuck, review "Subject-Verb Agreement" and "Pronoun Case" from Class 9-10 grammar.',
           misconception: 'Students treat archaic forms (\'thou\', \'hast\', \'dost\', \'-d\' contractions) as interchangeable "old-timey" decoration.',
           parts: [
@@ -146,9 +146,9 @@ export const c12_eng_k_ch07_p2: SimDef = {
                   hint: 'If stuck, review "Subject-Verb Agreement" and "Pronoun Case" from Class 9-10 grammar, then practice.',
                   misconception: 'Students treat archaic forms (\'thou\', \'hast\', \'dost\', \'-d\' contractions) as interchangeable "old-timey" decoration, ignoring that they form.' }
           ],
-            remediations: { 'students-treat-archaic-forms-thou': { steps: ['Have the student list every \'odd\' word in both poems in a two-column table: Column A = word, Column B = modern.', 'Group Column A words by category (pronoun, verb ending, contraction, spelling).', 'For each group, state the grammatical rule (e.g., "thou + verb-st = 2nd person singular present").', 'Re-read "On Time" aloud, tapping the meter, and note where elisions (\'entomb\'d\') preserve the iambic beat.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-archaic-forms-thou': { steps: ['Have the student list every \'odd\' word in both poems in a two-column table: Column A = word, Column B = modern.', 'Group Column A words by category (pronoun, verb ending, contraction, spelling).', 'For each group, state the grammatical rule (e.g., "thou + verb-st = 2nd person singular present").', 'Re-read "On Time" aloud, tapping the meter, and note where elisions (\'entomb\'d\') preserve the iambic beat.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_07_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve explicitly stated.',
+          question: 'Literal comprehension of \'On Time\' — questions answered straight from the text.',
           hint: 'If stuck on parsing syntax: revisit c12_eng_k_cbse_07_011 (Grammar).',
           misconception: 'Students believe inferential questions are "opinion questions" where any personal interpretation is valid.',
           parts: [
@@ -157,7 +157,7 @@ export const c12_eng_k_ch07_p2: SimDef = {
                   hint: 'If stuck on parsing syntax: revisit c12_eng_k_cbse_07_011 (Grammar).',
                   misconception: 'Students believe inferential questions are "opinion questions" where any personal interpretation is valid.' }
           ],
-            remediations: { 'inferential-questions-are-opinion-questions': { steps: ['If a student cannot distinguish literal from inferential questions: (1) Give them 5 questions from the NCERT.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'inferential-questions-are-opinion-questions': { steps: ['If a student cannot distinguish literal from inferential questions: (1) Give them 5 questions from the NCERT.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

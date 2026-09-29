@@ -6,13 +6,13 @@ import C12_MathematicsTypesVectorsequalSim from '../../../simulations/c6_12/C12_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicstypesvectorsequalsim: SimDef = {
     id: 'v3w_c12_mathematicstypesvectorsequalsim',
-    title: 'Types Vectorsequal',
+    title: 'Vectors: Definition and Types',
     subtitle: 'This node covers: definition of vector, directed line segment, magnitude, and the six.',
     classLevel: 12, subject: 'mathematics', topic: 'Vectors: Definition and Types',
     chapters: [],
     nodeIds: ['c12_math_cbse_10_001', 'c12_math_cbse_03_001', 'c12_math_cbse_03_002', 'c12_math_cbse_10_002', 'c12_math_cbse_10_003', 'c12_math_cbse_10_004', 'c12_math_cbse_10_005', 'c12_math_cbse_10_006', 'c12_math_cbse_10_007', 'c12_math_cbse_10_008', 'c12_math_cbse_05_012', 'c12_math_cbse_04_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a cricket bowler running up to deliver the ball. The scoreboard shows his speed: 140 km/h — that\'s a.', goal: 'Master Types Vectorsequal.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a cricket bowler running up to deliver the ball. The scoreboard shows his speed: 140 km/h — that\'s a.', goal: 'Master Vectors: Definition and Types.' },
     discovery: {
         question: 'Two vectors **a** and **b** are drawn in a plane. **a** starts at (1,2) and ends at (4,6). **b** starts at (-2,-1) and ends at (1,3).',
         options: ['Yes, **a** and **b** are equal', 'No, because they start at different points', 'Yes, because both have magnitude 5'],
@@ -79,7 +79,7 @@ export const w_c12_mathematicstypesvectorsequalsim: SimDef = {
             { text: 'Verify units: N × m = J. The magnitude is small, consistent with the drone\'s small displacement.', faded: true, blankAnswer: '-5 J' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_03_001', title: 'Identify each idea',
-          dissect: { specimen: 'Types Vectorsequal', spots: [
+          dissect: { specimen: 'Vectors: Definition and Types', spots: [
             { id: 's1', label: 'A vector is a quantity', prompt: 'Which idea is this? — A vector is a quantity that possesses both magnitude (a non-negative real number.', answer: 'A vector is a quantity', options: ['A vector is a quantity', 'A matrix is an ordered', 'A matrix is classified by', 'The position vector of a'] },
             { id: 's2', label: 'A matrix is an ordered', prompt: 'Which idea is this? — A matrix is an ordered rectangular array of numbers or functions arranged in rows and.', answer: 'A matrix is an ordered', options: ['A matrix is an ordered', 'A vector is a quantity', 'A matrix is classified by', 'The position vector of a'] },
             { id: 's3', label: 'A matrix is classified by', prompt: 'Which idea is this? — A matrix is classified by its shape: a **row matrix** has exactly one row (order 1 × n),.', answer: 'A matrix is classified by', options: ['A matrix is classified by', 'A vector is a quantity', 'A matrix is an ordered', 'The position vector of a'] },
@@ -88,7 +88,7 @@ export const w_c12_mathematicstypesvectorsequalsim: SimDef = {
             { id: 's6', label: 'The scalar dot product of', prompt: 'Which idea is this? — The scalar (dot) product of two non-zero vectors \\(\\vec{a}\\) and \\(\\vec{b}\\), denoted by.', answer: 'The scalar dot product of', options: ['The scalar dot product of', 'A vector is a quantity', 'A matrix is an ordered', 'A matrix is classified by'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsTypesVectorsequalSim, prompt: 'Explore the interactive — Types Vectorsequal' },
+    explore: { component: C12_MathematicsTypesVectorsequalSim, prompt: 'Explore the interactive — Vectors: Definition and Types' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_10_001', difficulty: 'standard',
           question: 'A vector is a quantity that possesses both magnitude (a non-negative real.',

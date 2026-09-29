@@ -6,13 +6,13 @@ import C12_HomeScienceSpecialDietsFeverSim from '../../../simulations/c6_12/C12_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_homesciencespecialdietsfeversim: SimDef = {
     id: 'v3w_c12_homesciencespecialdietsfeversim',
-    title: 'Home Science Special Diets Fever',
+    title: 'Nutritional Requirements During Fever and Infections',
     subtitle: 'Covers metabolic changes during fever/infection, calculation of increased RDA for energy.',
     classLevel: 12, subject: 'science', topic: 'Nutritional Requirements During Fever and Infections',
     chapters: [],
     nodeIds: ['c12_hs_cbse_09_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine your younger sibling has a high fever (39.5°C) for three days and refuses to eat — "I\'m not hungry,.', goal: 'Master Home Science Special Diets Fever.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine your younger sibling has a high fever (39.5°C) for three days and refuses to eat — "I\'m not hungry,.', goal: 'Master Nutritional Requirements During Fever and Infections.' },
     discovery: {
         question: 'Explain why protein requirement increases disproportionately (50-100% above RDA) compared to energy (10-15%) during infection, and name two specific amino.',
         options: ['Protein increases more', 'protein builds muscle', 'starve a fever'],
@@ -33,7 +33,7 @@ export const w_c12_homesciencespecialdietsfeversim: SimDef = {
             { text: 'Verify: Energy 2250 kcal (vs normal ~2400 for sedentary male — slightly lower due to bed rest but fever compensates),.', faded: true, blankAnswer: 'Energy: 2250 kcal/day; Protein: 125 g/day; Fluid: 3700.' }
             ] } }
     ],
-    explore: { component: C12_HomeScienceSpecialDietsFeverSim, prompt: 'Explore the interactive — Home Science Special Diets Fever' },
+    explore: { component: C12_HomeScienceSpecialDietsFeverSim, prompt: 'Explore the interactive — Nutritional Requirements During Fever and Infections' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hs_cbse_09_010', difficulty: 'standard',
           question: 'Nutritional requirements during fever and infections refer to the increased and.',

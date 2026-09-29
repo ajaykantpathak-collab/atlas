@@ -124,7 +124,7 @@ export const c8_geo_ch01_p2: SimDef = {
                   hint: 'Recall the definition.',
                   misconception: 'Students frequently believe that "renewable" means a resource can never run out, no matter how much of it humans consume or how fast they.' }
           ],
-            remediations: { 'students-frequently-believe-that-renewable': { steps: ['The common error: Students frequently believe that "renewable" means a resource can never run out, no matter how much of.', 'Go back to the interactive and check each idea.', 'Then answer the question again — slowly.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-frequently-believe-that-renewable': { steps: ['Re-read the WALKTHROUGH above, then retry the diagnostic.', 'If it still feels unclear, open the prerequisite lesson linked on this page.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c8_geo_ch1_8', difficulty: 'standard',
           question: 'Over-exploitation of resources is the extraction and consumption of natural.',
           hint: 'If you are struggling, review the classification of renewable and non-renewable resources.',

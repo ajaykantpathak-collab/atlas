@@ -6,13 +6,13 @@ import C6_MathematicsCollectionOrganisationDataSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_mathematicscollectionorganisationdatasim: SimDef = {
     id: 'v3w_c6_mathematicscollectionorganisationdatasim',
-    title: 'Collection Organisation Data',
+    title: 'Introduction to Data',
     subtitle: 'This node covers the definition of data, collection methods, tally marks, frequency.',
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Data',
     chapters: [],
     nodeIds: ['c6_math_ch09_095', 'c6_math_ch09_096', 'c6_math_ch09_102', 'c6_math_ch09_097'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you want to find out the favourite fruit of everyone in your class.', goal: 'Master Collection Organisation Data.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you want to find out the favourite fruit of everyone in your class.', goal: 'Master Introduction to Data.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Data is a collection of facts, numbers,.', text: 'Data is a collection of facts, numbers, measures, or observations that provide information about a specific topic.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -53,13 +53,13 @@ export const w_c6_mathematicscollectionorganisationdatasim: SimDef = {
             { text: 'Draw bars for each day at the calculated heights with equal widths and gaps.', faded: true, blankAnswer: 'A bar graph with bars of heights 4, 7, 5, 6, and 8 units.' }
             ] } },
         { type: 'dissect', nodeId: 'c6_math_ch09_096', title: 'Identify each idea',
-          dissect: { specimen: 'Collection Organisation Data', spots: [
+          dissect: { specimen: 'Introduction to Data', spots: [
             { id: 's1', label: 'Data is a collection of', prompt: 'Which idea is this? — Data is a collection of facts, numbers, measures, or observations that provide.', answer: 'Data is a collection of', options: ['Data is a collection of', 'Data handling is the process', 'The mode is the value'] },
             { id: 's2', label: 'Data handling is the process', prompt: 'Which idea is this? — Data handling is the process of collecting, organizing, and summarizing raw information.', answer: 'Data handling is the process', options: ['Data handling is the process', 'Data is a collection of', 'The mode is the value'] },
             { id: 's3', label: 'The mode is the value', prompt: 'Which idea is this? — The mode is the value in a data set that appears the most often.', answer: 'The mode is the value', options: ['The mode is the value', 'Data is a collection of', 'Data handling is the process'] }
           ] } }
     ],
-    explore: { component: C6_MathematicsCollectionOrganisationDataSim, prompt: 'Explore the interactive — Collection Organisation Data' },
+    explore: { component: C6_MathematicsCollectionOrganisationDataSim, prompt: 'Explore the interactive — Introduction to Data' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_math_ch09_095', difficulty: 'standard',
           question: 'Data is a collection of facts, numbers, measures, or observations that provide.',

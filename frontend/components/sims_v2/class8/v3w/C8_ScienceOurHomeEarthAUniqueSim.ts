@@ -6,13 +6,13 @@ import C8_ScienceOurHomeEarthAUniqueSim from '../../../simulations/c6_12/C8_Scie
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_scienceourhomeearthauniquesim: SimDef = {
     id: 'v3w_c8_scienceourhomeearthauniquesim',
-    title: 'Our Home Earth AUnique',
+    title: 'Earth as a Unique Planet: Conditions for Life',
     subtitle: 'This node covers the overview of life-sustaining conditions on Earth (temperature, water,.',
     classLevel: 8, subject: 'science', topic: 'Earth as a Unique Planet: Conditions for Life',
     chapters: [],
     nodeIds: ['c8_physics_ch9_1', 'c8_physics_ch9_2'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Look up at the night sky from your terrace in Delhi or a village in Kerala — you see the Moon, maybe Venus or.', goal: 'Master Our Home Earth AUnique.' },
+    scenario: { role: 'a class 8 learner', intro: 'Look up at the night sky from your terrace in Delhi or a village in Kerala — you see the Moon, maybe Venus or.', goal: 'Master Earth as a Unique Planet: Conditions for Life.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Earth is a unique planet in our solar system.', text: 'Earth is a unique planet in our solar system because it possesses a specific combination of physical conditions — including a stable temperature range allowing liquid water, a protective atmosphere.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -37,12 +37,12 @@ export const w_c8_scienceourhomeearthauniquesim: SimDef = {
             { text: 'Verify reasonableness: Crust is less than 1% of radius for both, continental ~5× thicker than oceanic.', faded: true, blankAnswer: 'Continental crust = 0.55% of Earth\'s radius; Oceanic crust.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_physics_ch9_2', title: 'Identify each idea',
-          dissect: { specimen: 'Our Home Earth AUnique', spots: [
+          dissect: { specimen: 'Earth as a Unique Planet: Conditions for Life', spots: [
             { id: 's1', label: 'Earth is a unique planet', prompt: 'Which idea is this? — Earth is a unique planet in our solar system because it possesses a specific combination.', answer: 'Earth is a unique planet', options: ['Earth is a unique planet', 'Earths crust is the outermost'] },
             { id: 's2', label: 'Earths crust is the outermost', prompt: 'Which idea is this? — Earth\'s crust is the outermost solid rocky layer of our planet, averaging only 30 km in.', answer: 'Earths crust is the outermost', options: ['Earths crust is the outermost', 'Earth is a unique planet'] }
           ] } }
     ],
-    explore: { component: C8_ScienceOurHomeEarthAUniqueSim, prompt: 'Explore the interactive — Our Home Earth AUnique' },
+    explore: { component: C8_ScienceOurHomeEarthAUniqueSim, prompt: 'Explore the interactive — Earth as a Unique Planet: Conditions for Life' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch9_1', difficulty: 'standard',
           question: 'Earth is a unique planet in our solar system because it possesses a specific.',

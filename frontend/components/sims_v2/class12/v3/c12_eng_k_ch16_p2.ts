@@ -19,7 +19,7 @@ export const c12_eng_k_ch16_p2: SimDef = {
         hook: 'Bergman insists film is closer to music than literature — it hits emotion through rhythm and montage, not intellect. That\'s why he calls the script \'a very imperfect technical basis\': dialogue survives translation, but a film\'s breathing — its moods, tones, tensions — never fits into words.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the supporting ideas, motifs, and concerns that run beneath the primary theme of a text, enriching its meaning by exploring related but distinct aspects of the human experience.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Film-Making\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_16_007', title: 'Your mission',
@@ -29,42 +29,42 @@ export const c12_eng_k_ch16_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re watching a film where the main plot is a director struggling to finish a movie — that\'s the primary theme.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Film-Making\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the difference between a primary theme and a secondary theme in a non-fiction essay like Bergman\'s "Film-Making"?', options: [
                 { text: 'A primary theme is the central, unifying idea that the entire text revolves around (here:', outcome: 'A primary theme is the central, unifying idea that the entire text revolves around (here.' },
                 { text: 'both are just main ideas', outcome: 'Not quite — Students often treat every topic Bergman mentions (childhood, religion, mentors, music, literature.', reveals: 'students-often-treat-every-topic' },
                 { text: 'discuss the themes', outcome: 'Not quite — Students often treat every topic Bergman mentions (childhood, religion, mentors, music, literature.', reveals: 'students-often-treat-every-topic' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you\'re watching a film where the director shows a close-up of rain on a windowpane, then cuts to a character\'s tear-streaked face — you instantly feel.',
+          caseStudy: { intro: 'Find the lines in \'Film-Making\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Identify the sensory imagery in this sentence from the text: "The landscape there is rugged, and our company was working by a little lake.', options: [
                 { text: '**Correct answer:** Visual imagery: "rugged landscape," "little lake," "grey, rain-dimmed', outcome: '**Correct answer:** Visual imagery: "rugged landscape," "little lake," "grey, rain-dimmed sky,".' },
                 { text: 'snowflakes', outcome: 'Not quite — Students treat imagery and metaphor as *identification exercises* ("spot the metaphor") rather than.', reveals: 'students-treat-imagery-and-metaphor' },
                 { text: 'rugged', outcome: 'Not quite — Students treat imagery and metaphor as *identification exercises* ("spot the metaphor") rather than.', reveals: 'students-treat-imagery-and-metaphor' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Have you ever noticed how a filmmaker might say "I\'m just a conjurer" while actually claiming profound artistic authority?',
+          caseStudy: { intro: 'Look in \'Film-Making\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define irony and symbolism as literary devices. Give one generic example of each (not from the text).', options: [
                 { text: 'Irony: a contrast between expectation and reality (e.g., a fire station burning down)', outcome: 'Irony: a contrast between expectation and reality (e.g., a fire station burning down).' },
                 { text: 'it rained on my wedding day', outcome: 'Not quite — Students often think any comparison is a symbol, or that irony is just "something funny.', reveals: 'any-comparison-is-a-symbol' },
                 { text: 'the crane is a metaphor for freedom', outcome: 'Not quite — Students often think any comparison is a symbol, or that irony is just "something funny.', reveals: 'any-comparison-is-a-symbol' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re watching a classic Indian film like *Pather Panchali* without subtitles—you grasp the story through visuals, music, and actors\' expressions even.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Film-Making\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What are the four main types of context clues that help determine word meaning in a text? Give a one-sentence description of each.', options: [
                 { text: 'The four main types are: 1) Definition/Explanation clues', outcome: 'The four main types are: 1) Definition/Explanation clues — the author directly defines or restates.' },
                 { text: 'dictionary', outcome: 'Not quite — Students believe vocabulary-in-context means guessing a word\'s meaning from the single sentence.', reveals: 'vocabulary-in-context-means-guessing' },
                 { text: 'guessing', outcome: 'Not quite — Students believe vocabulary-in-context means guessing a word\'s meaning from the single sentence.', reveals: 'vocabulary-in-context-means-guessing' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are a film editor watching raw footage — you need to identify each shot\'s role (close-up, wide, cutaway) to assemble a coherent scene.',
+          caseStudy: { intro: 'Read \'Film-Making\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the Subject, Verb, and Object in this sentence from the text: "The film was a great success and was projected every night until.', options: [
                 { text: 'Correct analysis', outcome: 'Correct analysis: This is a compound predicate sentence with two clauses joined by "and".' },
                 { text: 'a great success', outcome: 'Not quite — Students consistently treat every noun phrase after a verb as an "Object", ignoring linking verbs.', reveals: 'students-consistently-treat-every-noun' },
                 { text: 'in Uppsala', outcome: 'Not quite — Students consistently treat every noun phrase after a verb as an "Object", ignoring linking verbs.', reveals: 'students-consistently-treat-every-noun' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re sitting in the CBSE board exam and see a question: "Why does Bergman compare film-making to conjuring?" You might panic because the answer isn\'t.',
+          caseStudy: { intro: 'Answer \'Film-Making\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify whether the following question is literal or inferential: "What childhood memory does Bergman associate with the \'magic lantern\'?"', options: [
                 { text: '**Literal.** The text explicitly states: "This is where my magic lantern came in', outcome: '**Literal.** The text explicitly states: "This is where my magic lantern came in.' },
                 { text: 'A student who labels this', outcome: 'Not quite — Students treat "inferential" as "guess the author\'s hidden thoughts" and write answers like.', reveals: 'students-treat-inferential-as-guess' },
@@ -89,7 +89,7 @@ export const c12_eng_k_ch16_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_007', difficulty: 'standard',
-          question: 'Secondary themes are the supporting ideas, motifs, and concerns that run.',
+          question: 'Secondary themes in \'Film-Making\' — the supporting ideas and motifs that deepen.',
           hint: 'If stuck, return to node 006 and re-do its Worked Example 3 (thematic statement.',
           misconception: 'Students often treat every topic Bergman mentions (childhood, religion, mentors, music, literature, industry) as.',
           parts: [
@@ -100,7 +100,7 @@ export const c12_eng_k_ch16_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-every-topic': { steps: ['If the student cannot distinguish topics from developed themes: (1) Have them re-read the essay with four colored.', '(2) For each color, they must find ≥3 separated passages.', '(3) If a color has <3 passages, it\'s a topic, not a theme — discard or merge.', '(4) For each surviving color, write one "theme statement" (complete sentence) and one "connection sentence" linking.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Film-Making\' — the vivid, sensory language that creates.',
           hint: 'If stuck, revisit Class 11 Hornbill/Snapshots/Woven Words "Literary Devices: Imagery and.',
           misconception: 'Students treat imagery and metaphor as *identification exercises* ("spot the metaphor") rather than *interpretive.',
           parts: [
@@ -115,12 +115,12 @@ export const c12_eng_k_ch16_p2: SimDef = {
           ],
             remediations: { 'students-treat-imagery-and-metaphor': { steps: ['Have the student re-read the "Split Second Impressions" and "Rhythm of a Film" sections aloud, marking every phrase.', 'For each highlighted phrase, ask: "What sense?', 'What abstract idea is this concrete image carrying?" — fill a two-column table.', 'Take the "conjurer" metaphor: have them list 5 qualities of a conjurer, then map each to film-making.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_009', difficulty: 'standard',
-          question: 'Irony is a literary device where there is a contrast between expectation and.',
+          question: 'Irony and paradox in \'Film-Making\' — where opposite things are both true,.',
           hint: 'Review the distinction between metaphor and symbol using the magic lantern vs.',
           misconception: 'Students often think any comparison is a symbol, or that irony is just "something funny or coincidental." In this text.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where there is a contrast between expectation and reality, or',
-                  options: ['Irony is a literary device where there is a contrast between expectation and reality, or', 'This node provides the essential historical, biographical, and conceptual background', 'Plot and Narrative Structure in a non-fiction film essay refers to the author\'s', 'In non-fiction prose like Bergman\'s essay, **setting** refers to the specific physical,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'Film-Making\'',
+                  options: ['Irony and paradox in \'Film-Making\'', '\'Film-Making\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Film-Making\'', 'The setting of \'Film-Making\''],
                   hint: 'Review the distinction between metaphor and symbol using the magic lantern vs.',
                   misconception: 'Students often think any comparison is a symbol, or that irony is just "something funny or coincidental." In this text, they may label the.' }
           ],
@@ -141,7 +141,7 @@ export const c12_eng_k_ch16_p2: SimDef = {
           ],
             remediations: { 'any-comparison-is-a-symbol': { steps: ['Re-read the opening crane scene (paragraphs 1-3) and the cathedral passage (paragraphs 12-14) aloud.', 'For each, complete a two-column table: Column A = Literal Description (what is physically happening), Column.', 'For irony, locate three statements where Bergman says something negative about himself/film-making and ask: "Does the.', 'Re-attempt Diagnostic Questions 3 and 4 using the table.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the precise meaning of words.',
+          question: 'Key vocabulary of \'Film-Making\' — the words and phrases you must know to read.',
           hint: 'If stuck, review the four types of context clues using a simpler text (e.g., Class 10 \'A.',
           misconception: 'Students believe vocabulary-in-context means guessing a word\'s meaning from the single sentence it appears in.',
           parts: [
@@ -160,7 +160,7 @@ export const c12_eng_k_ch16_p2: SimDef = {
           ],
             remediations: { 'vocabulary-in-context-means-guessing': { steps: ['Re-read the exact paragraph where the target word appears.', 'Identify the subject (film-making) and author\'s purpose (explaining craft/industry).', 'Hunt for signal phrases: "by which I mean," "that is," "for example," "however," "like." 4.', 'Break the word into morphemes (e.g., ir-rational = not rational).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_011', difficulty: 'standard',
-          question: 'Sentence analysis in the context of "Film-Making" involves identifying the core.',
+          question: 'Language and style in \'Film-Making\' — how the writer chose words, sentences and.',
           hint: 'If stuck, review "Finite vs Non-finite Verbs" and "Transitive vs Intransitive vs Linking.',
           misconception: 'Students consistently treat every noun phrase after a verb as an "Object", ignoring linking verbs (be, seem, become).',
           parts: [
@@ -179,7 +179,7 @@ export const c12_eng_k_ch16_p2: SimDef = {
           ],
             remediations: { 'students-consistently-treat-every-noun': { steps: ['Revisit the Class 6 node c6_english_u4_038 (Sentence Structure and Types of Sentences) to relearn Subject/Predicate.', 'Use the Class 11 Hornbill grammar nodes (e.g., c11_eng_h_cbse_01_011) to practice SVC vs SVO distinction with textbook.', 'Do a focused drill: take 10 sentences from the chapter, mark the verb, decide transitive/linking, then label everything.', 'Re-attempt Diagnostic Questions 1, 3, and 5.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve information.',
+          question: 'Literal comprehension of \'Film-Making\' — questions answered straight from the.',
           hint: 'If stuck on "where to find evidence", revisit c12_eng_k_cbse_16_002 (Plot/Narrative.',
           misconception: 'Students treat "inferential" as "guess the author\'s hidden thoughts" and write answers like "Bergman feels sad about.',
           parts: [

@@ -6,13 +6,13 @@ import C7_SocialScienceHumanEnvironmentTropicalSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_socialsciencehumanenvironmenttropicalsim: SimDef = {
     id: 'v3w_c7_socialsciencehumanenvironmenttropicalsim',
-    title: 'Social Science Human Environment Tropical',
+    title: 'Challenges Faced by Indian Farmers',
     subtitle: 'Covers the socio-economic and environmental challenges faced by Indian farmers and their.',
     classLevel: 7, subject: 'science', topic: 'Challenges Faced by Indian Farmers',
     chapters: [],
     nodeIds: ['c7_geo_ch04_010', 'c7_geo_ch03_010', 'c7_geo_ch04_004', 'c7_geo_ch04_002', 'c7_geo_ch04_001', 'c7_geo_ch04_011', 'c7_geo_ch03_006', 'c7_geo_ch03_007', 'c7_geo_ch03_008', 'c7_geo_ch03_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'When you look at fields in your nearest village or read about farmers in the news, you might notice that.', goal: 'Master Social Science Human Environment Tropical.' },
+    scenario: { role: 'a class 7 learner', intro: 'When you look at fields in your nearest village or read about farmers in the news, you might notice that.', goal: 'Master Challenges Faced by Indian Farmers.' },
     discovery: {
         question: 'What term describes a farming plot that has been divided into very small, scattered pieces across generations among family members?',
         options: ['The correct term is a fragmented or marginal landholding', 'commercial farm', 'large estate'],
@@ -78,7 +78,7 @@ export const w_c7_socialsciencehumanenvironmenttropicalsim: SimDef = {
             { text: 'Verify that the combined approach reduces groundwater extraction while maintaining crop yield.', faded: true, blankAnswer: 'The integrated plan uses organic mulch to trap existing.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_geo_ch03_010', title: 'Identify each idea',
-          dissect: { specimen: 'Social Science Human Environment Tropical', spots: [
+          dissect: { specimen: 'Challenges Faced by Indian Farmers', spots: [
             { id: 's1', label: 'Challenges faced by Indian farmers', prompt: 'Which idea is this? — Challenges faced by Indian farmers refer to the severe economic, environmental, and.', answer: 'Challenges faced by Indian farmers', options: ['Challenges faced by Indian farmers', 'Climate change refers to long-term', 'This topic explores the geographical', 'Types of farming in India'] },
             { id: 's2', label: 'Climate change refers to long-term', prompt: 'Which idea is this? — Climate change refers to long-term shifts in temperature, precipitation patterns, and.', answer: 'Climate change refers to long-term', options: ['Climate change refers to long-term', 'Challenges faced by Indian farmers', 'This topic explores the geographical', 'Types of farming in India'] },
             { id: 's3', label: 'This topic explores the geographical', prompt: 'Which idea is this? — This topic explores the geographical requirements, regional distribution, and.', answer: 'This topic explores the geographical', options: ['This topic explores the geographical', 'Challenges faced by Indian farmers', 'Climate change refers to long-term', 'Types of farming in India'] },
@@ -87,7 +87,7 @@ export const w_c7_socialsciencehumanenvironmenttropicalsim: SimDef = {
             { id: 's6', label: 'Sustainable farming integrates traditional ecological', prompt: 'Which idea is this? — Sustainable farming integrates traditional ecological knowledge with contemporary.', answer: 'Sustainable farming integrates traditional ecological', options: ['Sustainable farming integrates traditional ecological', 'Challenges faced by Indian farmers', 'Climate change refers to long-term', 'This topic explores the geographical'] }
           ] } }
     ],
-    explore: { component: C7_SocialScienceHumanEnvironmentTropicalSim, prompt: 'Explore the interactive — Social Science Human Environment Tropical' },
+    explore: { component: C7_SocialScienceHumanEnvironmentTropicalSim, prompt: 'Explore the interactive — Challenges Faced by Indian Farmers' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_geo_ch04_010', difficulty: 'standard',
           question: 'Challenges faced by Indian farmers refer to the severe economic, environmental,.',

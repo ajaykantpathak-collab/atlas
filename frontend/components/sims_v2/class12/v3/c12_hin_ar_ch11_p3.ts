@@ -19,7 +19,7 @@ export const c12_hin_ar_ch11_p3: SimDef = {
         hook: 'This is the psychoanalytic turn in Hindi fiction — after Premchand\'s social realism came Jainendra\'s probe of the unconscious, where blindness is imposed by power and kept by utilitarian logic. The beggar isn\'t a pitiable character; he\'s the site where ideology does its violence.',
     },
     teaching: [
-        { title: 'बाज़ार दर्शन — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) एक ऐसी विश्लेषणात्मक प्रक्रिया है जिसमें पाठ के घटकों (कथानक, पात्र, भाषा, शिल्प) को अलग-अलग करके उनके पारस्परिक संबंध, लेखकीय उद्देश्य, और पाठक पर पड़ने वाले.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'बाज़ार दर्शन — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'करुणा का नायक\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_11_013', title: 'Your mission',
@@ -28,6 +28,13 @@ export const c12_hin_ar_ch11_p3: SimDef = {
         context: 'Look past the beggar\'s eyes: decode the \'familiar well\' that traps the sighted, test utilitarian arguments against lived faces, and separate spiritual darkness from manufactured blindness.',
         labels: ['बाज़ार दर्शन — आलोचनात्मक', 'बाज़ार दर्शन — लेखन', 'बाज़ार दर्शन — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_11_014', title: 'बाज़ार दर्शन — लेखन कौशल: पाठ-आधारित',
+          caseStudy: { intro: '\'करुणा का नायक\' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।',
+            decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing structured answers for literature questions?', options: [
+                { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
+                { text: 'Paragraph, Example, Explanation, Line', outcome: 'Not quite — Students believe "writing skills based on the chapter" means **retelling the story in their own.', reveals: 'writing-skills-based-on-the' },
+                { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe "writing skills based on the chapter" means **retelling the story in their own.', reveals: 'writing-skills-based-on-the' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_11_013', title: 'Use it in the wild',
           caseStudy: { intro: 'A classmate pays a \'career guru\' who diagnoses his low marks as a family curse and prescribes an absurd regime — copying his ancestors\' names 500 times. He complied for a month, then quietly stopped going. He\'s still failing.',
             decisions: [{ prompt: 'What does Nirala\'s \'खुजली उखाड़ जासा\' read in this episode?', options: [
@@ -47,34 +54,42 @@ export const c12_hin_ar_ch11_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_11_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) एक ऐसी विश्लेषणात्मक प्रक्रिया है जिसमें.',
+          question: '\'करुणा का नायक\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'यदि PEEL का **Explanation** चरण अटकता है (साक्ष्य मिल गया पर यह न बता पाएँ कि यह बिंदु.',
           misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि "आलोचनात्मक चिंतन" = "पाठ में कमियाँ निकालना" (fault-finding)। **वास्तविकता:**.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) एक ऐसी विश्लेषणात्मक प्रक्रिया है जिसमें पाठ के',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) एक ऐसी विश्लेषणात्मक प्रक्रिया है जिसमें पाठ के', '\'बाज़ार दर्शन\' हिंदी के प्रख्यात कथाकार **शेखर जोशी** द्वारा रचित एक व्यंग्यात्मक कहानी', 'कथानक (प्लॉट) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध से बंधा होता', 'पाठ्य-परिवेश और वातावरण का अर्थ है कहानी/उपन्यास में चित्रित वह भौगोलिक, सामाजिक,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'करुणा का नायक\' का आलोचनात्मक चिंतन',
+                  options: ['\'करुणा का नायक\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'करुणा का नायक\' का कथानक', '\'करुणा का नायक\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि PEEL का **Explanation** चरण अटकता है (साक्ष्य मिल गया पर यह न बता पाएँ कि यह बिंदु कैसे सिद्ध.',
                   misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि "आलोचनात्मक चिंतन" = "पाठ में कमियाँ निकालना" (fault-finding)। **वास्तविकता:** आलोचनात्मक चिंतन.' }
           ],
             remediations: { 'fault-finding': { steps: ['**पहला कदम:** छात्र से कहें — "पाठ का कोई **एक वाक्य** चुनो जो तुम्हें **महत्वपूर्ण** लगे। अब बताओ: **लेखक ने ठीक यहीं.', 'अगर हटा दें तो क्या बदलेगा?**" — यह **लेखकीय चयन (authorial choice)** पर ध्यान ले जाता है। 2.', '**दूसरा कदम:** उसी वाक्य पर **PEEL** लिखने को कहें — पहले मौखिक, फिर लिखित। शिक्षक साथ बैठकर **Explanation** और.', 'और यह पाठ के **बड़े संदेश** से कैसे जुड़ता है?" 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_11_014', difficulty: 'standard',
-          question: 'लेखन कौशल: पाठ-आधारित का अर्थ है — \'बाज़ार दर्शन\' पाठ के कथ्य, पात्र, विषय.',
-          hint: 'यदि PEEL संरचना में फँसें, तो c11_hin_ar_cbse_11_014 (कक्षा 11 का लेखन कौशल) के कार्य.',
-          misconception: 'छात्र समझते हैं कि \'पाठ-आधारित लेखन\' का अर्थ है पाठ का भावानुवाद या सारांश लिख देना। वे PEEL के \'E\' और \'E\' (Evidence.',
+          question: '\'करुणा का नायक\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+          hint: 'If stuck, return to c12_hin_ar_cbse_11_012 (Comprehension) for evidence-location practice.',
+          misconception: 'Students believe "writing skills based on the chapter" means **retelling the story in their own words**.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'लेखन कौशल: पाठ-आधारित का अर्थ है',
-                  options: ['लेखन कौशल: पाठ-आधारित का अर्थ है', '\'बाज़ार दर्शन\' हिंदी के प्रख्यात कथाकार **शेखर जोशी** द्वारा रचित एक व्यंग्यात्मक कहानी', 'कथानक (प्लॉट) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध से बंधा होता', 'पाठ्य-परिवेश और वातावरण का अर्थ है कहानी/उपन्यास में चित्रित वह भौगोलिक, सामाजिक,'],
-                  hint: 'यदि PEEL संरचना में फँसें, तो c11_hin_ar_cbse_11_014 (कक्षा 11 का लेखन कौशल) के कार्य उदाहरणों को.',
-                  misconception: 'छात्र समझते हैं कि \'पाठ-आधारित लेखन\' का अर्थ है पाठ का भावानुवाद या सारांश लिख देना। वे PEEL के \'E\' और \'E\' (Evidence, Explanation) को.' }
+                { id: 'a', prompt: 'What does the acronym PEEL stand for in the context of writing structured answers for literature questions?', answer: 'PEEL stands for Point, Evidence, Explanation, Link',
+                  options: ['PEEL stands for Point, Evidence, Explanation, Link', 'Paragraph, Example, Explanation, Line', 'writing skills based on the chapter'],
+                  hint: 'If stuck, return to c12_hin_ar_cbse_11_012 (Comprehension) for evidence-location practice and.',
+                  misconception: 'Students believe "writing skills based on the chapter" means **retelling the story in their own words**.' },
+                { id: 'b', prompt: 'In the story "चकती का नक्शा", the man repeatedly says "थडा थोडा थोडा थोडा" while measuring the land.', answer: 'The answer states an observation (careful) but misses the *implication*',
+                  options: ['The answer states an observation (careful) but misses the *implication*', 'writing skills based on the chapter'],
+                  hint: 'If stuck, return to c12_hin_ar_cbse_11_012 (Comprehension) for evidence-location practice and.',
+                  misconception: 'Students believe "writing skills based on the chapter" means **retelling the story in their own words**.' },
+                { id: 'c', prompt: 'Compare the man\'s "चकती का नक्शा" (cadastral map) and the woman\'s "इप्सित कोज" (desired island) as two competing epistemologies of land.', answer: 'The man\'s map is a **bureaucratic epistemology**',
+                  options: ['The man\'s map is a **bureaucratic epistemology**', 'writing skills based on the chapter'],
+                  hint: 'If stuck, return to c12_hin_ar_cbse_11_012 (Comprehension) for evidence-location practice and.',
+                  misconception: 'Students believe "writing skills based on the chapter" means **retelling the story in their own words**.' }
           ],
-            remediations: { 'peel-e-e-evidence': { steps: ['चरण 1: c12_hin_ar_cbse_11_012 (बोध-प्रश्न) के वस्तुनिष्ठ प्रश्नों को हल करें — वे साक्ष्य-चयन का अभ्यास कराते हैं। चरण.', 'क्या व्याख्या बिंदु से आगे जाती है?', 'चरण 3: किसी सहपाठी या शिक्षक से केवल \'E\' और \'E\' चरणों पर फीडबैक लें। चरण 4: दोबारा लिखें। यह चक्र तब तक दोहराएँ जब तक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['**Identify the command word** in the question (विश्लेषण, चर्चा, समीक्षा, वर्णन — each demands a different structure).', '**Revisit c12_hin_ar_cbse_11_012 (Comprehension)** and practice converting 3 literal questions into 1 analytical PEEL.', '**Use the "Evidence Highlight" drill**: Photocopy one page of the story; highlight every line that *could* serve.', 'Write 1-sentence Explanations for 5 highlights.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_11_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु एक संरचित शैक्षिक गतिविधि है जिसमें विद्यार्थी किसी.',
+          question: '\'करुणा का नायक\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का.',
           hint: 'यदि फंसे हों, तो पहले नोड c12_hin_ar_cbse_11_006 (मुख्य विषय) और c12_hin_ar_cbse_11_013.',
           misconception: 'छात्र समझते हैं कि \'चर्चा-बिंदु\' का अर्थ है पाठ पर अपनी \'राय\' (opinion) देना — जैसे "मुझे नायक पसंद नहीं आया" या "कहानी.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु एक संरचित शैक्षिक गतिविधि है जिसमें विद्यार्थी किसी साहित्यिक पाठ',
-                  options: ['वाचन-श्रवण: चर्चा-बिंदु एक संरचित शैक्षिक गतिविधि है जिसमें विद्यार्थी किसी साहित्यिक पाठ', '\'बाज़ार दर्शन\' हिंदी के प्रख्यात कथाकार **शेखर जोशी** द्वारा रचित एक व्यंग्यात्मक कहानी', 'कथानक (प्लॉट) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध से बंधा होता', 'पाठ्य-परिवेश और वातावरण का अर्थ है कहानी/उपन्यास में चित्रित वह भौगोलिक, सामाजिक,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'करुणा का नायक\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'करुणा का नायक\' पर वाचन-श्रवण और चर्चा-बिंदु', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'करुणा का नायक\' का कथानक', '\'करुणा का नायक\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फंसे हों, तो पहले नोड c12_hin_ar_cbse_11_006 (मुख्य विषय) और c12_hin_ar_cbse_11_013 (आलोचनात्मक.',
                   misconception: 'छात्र समझते हैं कि \'चर्चा-बिंदु\' का अर्थ है पाठ पर अपनी \'राय\' (opinion) देना — जैसे "मुझे नायक पसंद नहीं आया" या "कहानी दुखद है"। वे नहीं.' }
           ],

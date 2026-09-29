@@ -6,13 +6,13 @@ import C10_EconomicsDeterminantsDemandNonpriceSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_economicsdeterminantsdemandnonpricesim: SimDef = {
     id: 'v3w_c10_economicsdeterminantsdemandnonpricesim',
-    title: 'Determinants Demand Nonprice',
+    title: 'Loan Activities of Banks: Deposits and Lending Mechanism',
     subtitle: 'Covers the mechanics of deposit mobilisation, lending process, interest rate.',
     classLevel: 10, subject: 'economics', topic: 'Loan Activities of Banks: Deposits and Lending Mechanism',
     chapters: [],
     nodeIds: ['c10_eco_cbse_03_003', 'c10_eco_cbse_03_002', 'c10_eco_cbse_05_002', 'c10_eco_cbse_05_004', 'c10_eco_cbse_05_006', 'c10_eco_cbse_03_008', 'c10_eco_cbse_02_003', 'c10_eco_cbse_02_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you deposit ₹10,000 from your summer internship earnings into a savings account at a local bank.', goal: 'Master Determinants Demand Nonprice.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you deposit ₹10,000 from your summer internship earnings into a savings account at a local bank.', goal: 'Master Loan Activities of Banks: Deposits and Lending Mechanism.' },
     discovery: {
         question: 'Riya has ₹50,000 in her savings account. She writes a cheque for ₹12,000 to Rohan. Rohan deposits the cheque in his current account.',
         options: ['Step 1: Identify initial demand deposits – Riya: ₹50,000', 'Money in my bank account is just a record', 'Bank deposits are not money, they are just claims'],
@@ -80,7 +80,7 @@ export const w_c10_economicsdeterminantsdemandnonpricesim: SimDef = {
             { text: 'Compare: Moneylender = ₹6,000; Bank = ₹583.33. Ratio = 10.3x. Yet sharecropper chooses moneylender because: (a) no land.', faded: true, blankAnswer: 'Moneylender interest = ₹6,000; Bank interest = ₹583.33;.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_eco_cbse_03_002', title: 'Identify each idea',
-          dissect: { specimen: 'Determinants Demand Nonprice', spots: [
+          dissect: { specimen: 'Loan Activities of Banks: Deposits and Lending Mechanism', spots: [
             { id: 's1', label: 'Loan activities of banks refer', prompt: 'Which idea is this? — Loan activities of banks refer to the process where banks accept deposits from the public.', answer: 'Loan activities of banks refer', options: ['Loan activities of banks refer', 'Modern forms of money in', 'The four fundamental consumer rights', 'The Consumer Disputes Redressal Forums'] },
             { id: 's2', label: 'Modern forms of money in', prompt: 'Which idea is this? — Modern forms of money in India consist of **currency** (paper notes and coins) issued by.', answer: 'Modern forms of money in', options: ['Modern forms of money in', 'Loan activities of banks refer', 'The four fundamental consumer rights', 'The Consumer Disputes Redressal Forums'] },
             { id: 's3', label: 'The four fundamental consumer rights', prompt: 'Which idea is this? — The four fundamental consumer rights — Safety, Information, Choice, and Redressal — are.', answer: 'The four fundamental consumer rights', options: ['The four fundamental consumer rights', 'Loan activities of banks refer', 'Modern forms of money in', 'The Consumer Disputes Redressal Forums'] },
@@ -89,7 +89,7 @@ export const w_c10_economicsdeterminantsdemandnonpricesim: SimDef = {
             { id: 's6', label: 'Informal credit dependence refers to', prompt: 'Which idea is this? — Informal credit dependence refers to the reliance of low-income households on.', answer: 'Informal credit dependence refers to', options: ['Informal credit dependence refers to', 'Loan activities of banks refer', 'Modern forms of money in', 'The four fundamental consumer rights'] }
           ] } }
     ],
-    explore: { component: C10_EconomicsDeterminantsDemandNonpriceSim, prompt: 'Explore the interactive — Determinants Demand Nonprice' },
+    explore: { component: C10_EconomicsDeterminantsDemandNonpriceSim, prompt: 'Explore the interactive — Loan Activities of Banks: Deposits and Lending Mechanism' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_eco_cbse_03_003', difficulty: 'standard',
           question: 'Loan activities of banks refer to the process where banks accept deposits from.',

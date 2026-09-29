@@ -65,7 +65,7 @@ export const C8_BIO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Cell Membrane Acts As a",
+    "title": "Cell Membrane Acts As",
     "text": "The cell membrane acts as a selective barrier enclosing the cell contents, the cytoplasm provides a jelly-like matrix where metabolic reactions occur and organelles are suspended, and the nucleus serves as the control center housing genetic material (DNA)",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -89,7 +89,7 @@ export const C8_BIO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Levels Of Organisation Refer To The",
+    "title": "Levels Of Organisation",
     "text": "Levels of organisation refer to the hierarchical arrangement of structural units in living organisms, progressing from the basic building block (cell) to tissues, organs, organ systems, and finally the complete living organism.",
     "emoji": "🌿",
     "bgColor": "from-violet-400 to-purple-500"

@@ -19,7 +19,7 @@ export const c11_eng_w_ch06_p2: SimDef = {
         hook: 'The narrator isn\'t Lahiri, and the moon isn\'t trivia — both are deliberate architecture: a flag on the moon lets two strangers share a country.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying, often interwoven ideas in a literary work that support, complicate, or contrast with the primary theme.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Third and Final Continent\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_06_007', title: 'Your mission',
@@ -29,42 +29,42 @@ export const c11_eng_w_ch06_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_06_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are the narrator, standing on Massachusetts Avenue thirty years later, pointing out Mrs. Croft\'s house to your son.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Third and Final Continent\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'Identify one secondary theme in the story and quote a single line of dialogue or narration that signals this theme.', options: [
                 { text: 'One secondary theme is the dignity of aging, signaled by Mrs', outcome: 'One secondary theme is the dignity of aging, signaled by Mrs. Croft\'s declaration: "There is.' },
                 { text: 'There is an American flag on the moon!', outcome: 'Not quite — Students often treat secondary themes as "sub-plots" or "minor topics" (e.g., "the moon landing,".', reveals: 'students-often-treat-secondary-themes' },
                 { text: 'Say \'splendid\'!', outcome: 'Not quite — Students often treat secondary themes as "sub-plots" or "minor topics" (e.g., "the moon landing,".', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_06_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you\'re sitting in your board exam and the question asks: *"How does Lahiri use imagery and metaphor to convey the narrator\'s emotional journey from.',
+          caseStudy: { intro: 'Find the lines in \'The Third and Final Continent\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "extended metaphor" and give one example from "The Third and Final Continent" without quoting more than five words from the text.', options: [
                 { text: '**Correct answer:** An extended metaphor is a comparison sustained across multiple', outcome: '**Correct answer:** An extended metaphor is a comparison sustained across multiple sentences or.' },
                 { text: 'the library was a fort', outcome: 'Not quite — **Students believe "imagery = adjectives" and "metaphor = any comparison."** Specifically: (1) They.', reveals: 'students-believe-imagery-adjectives-and' },
                 { text: 'imagery = adjectives', outcome: 'Not quite — **Students believe "imagery = adjectives" and "metaphor = any comparison."** Specifically: (1) They.', reveals: 'students-believe-imagery-adjectives-and' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_06_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are telling a friend about the old lady who makes you say "Splendid!" about a flag on the moon every night — it sounds absurd, yet it becomes.',
+          caseStudy: { intro: 'Look in \'The Third and Final Continent\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define situational irony and give one example from "The Third and Final Continent" where the outcome of a situation is the opposite of what.', options: [
                 { text: 'Situational irony occurs when the actual outcome of a situation is starkly different from', outcome: 'Situational irony occurs when the actual outcome of a situation is starkly different from what was.' },
                 { text: 'it\'s ironic that she is old', outcome: 'Not quite — Students often confuse irony with mere coincidence or bad luck (e.g., "It\'s ironic that it rained.', reveals: 'students-often-confuse-irony-with' },
                 { text: 'It\'s ironic that it rained on my wedding day', outcome: 'Not quite — Students often confuse irony with mere coincidence or bad luck (e.g., "It\'s ironic that it rained.', reveals: 'students-often-confuse-irony-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_06_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading the story and encounter the phrase "Grundig reel-to-reel" in the London house scene.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Third and Final Continent\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What does the phrase "Grundig reel-to-reel" refer to in the context of the narrator\'s life in Finsbury Park, and which specific textual.', options: [
                 { text: 'It refers to a brand of tape recorder/player used for playing music (Mukesh songs)', outcome: 'It refers to a brand of tape recorder/player used for playing music (Mukesh songs).' },
                 { text: 'a type of radio', outcome: 'Not quite — Students often treat "vocabulary in context" as "find a synonym that fits the blank" rather than.', reveals: 'students-often-treat-vocabulary-in' },
                 { text: 'a kitchen appliance', outcome: 'Not quite — Students often treat "vocabulary in context" as "find a synonym that fits the blank" rather than.', reveals: 'students-often-treat-vocabulary-in' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_06_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are listening to a friend who has just moved from a small town in India to a bustling city abroad.',
+          caseStudy: { intro: 'Read \'The Third and Final Continent\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the narrative tense predominantly used in the story and name the grammatical term for the tense used when the narrator recalls his.', options: [
                 { text: 'The predominant narrative tense is the simple past (e.g., "I left," "I lived," "I', outcome: 'The predominant narrative tense is the simple past (e.g., "I left," "I lived," "I attended").' },
                 { text: 'past continuous', outcome: 'Not quite — Students often think "language usage" means only identifying parts of speech (nouns, verbs).', reveals: 'language-usage-means-only-identifying' },
                 { text: 'present perfect', outcome: 'Not quite — Students often think "language usage" means only identifying parts of speech (nouns, verbs).', reveals: 'language-usage-means-only-identifying' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_06_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and see a question: "Why did the narrator feel \'mortified\' when he learned Mrs Croft\'s age?" You might panic because.',
+          caseStudy: { intro: 'Answer \'The Third and Final Continent\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the basic difference between a literal comprehension question and an inferential comprehension question?', options: [
                 { text: 'A literal question asks for information directly stated in the text (e.g., "Where did the', outcome: 'A literal question asks for information directly stated in the text (e.g., "Where did the narrator.' },
                 { text: 'questions about the story', outcome: 'Not quite — Students often treat inferential questions as "opinion questions" where any personal feeling.', reveals: 'students-often-treat-inferential-questions' }
@@ -88,7 +88,7 @@ export const c11_eng_w_ch06_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying, often interwoven ideas in a literary work.',
+          question: 'Secondary themes in \'The Third and Final Continent\' — the supporting ideas and.',
           hint: 'If stuck, review node 06_006 (Primary Theme) and node 06_002 (Plot) to re-anchor the.',
           misconception: 'Students often treat secondary themes as "sub-plots" or "minor topics" (e.g., "the moon landing," "Mrs.',
           parts: [
@@ -114,7 +114,7 @@ export const c11_eng_w_ch06_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student lists topics instead of themes, use the "Topic → Theme" ladder: 1) Pick a recurring topic (e.g., the rent.', '2) Ask: "What does the story *say* about this topic?" (e.g., "Rituals of payment create order and dignity in chaos").', '3) Phrase as a universal statement: "The theme is the human need for ritual to impose dignity on transactional.', '(Rent envelope, bench routine, flag ritual, Mala\'s knitting).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_008', difficulty: 'standard',
-          question: '**Imagery** is the use of vivid, sensory language that appeals to the five.',
+          question: 'Imagery in \'The Third and Final Continent\' — the vivid, sensory language that.',
           hint: 'If stuck, review **c11_eng_w_cbse_06_003 (Setting and Atmosphere)** — specifically the.',
           misconception: '**Students believe "imagery = adjectives" and "metaphor = any comparison."** Specifically: (1) They underline.',
           parts: [
@@ -125,7 +125,7 @@ export const c11_eng_w_ch06_p2: SimDef = {
           ],
             remediations: { 'students-believe-imagery-adjectives-and': { steps: ['** Give the student a single paragraph (e.g., the YMCA noise passage). Ask: *"Which sense does each verb appeal to?', '** Provide two columns: **Image** | **What it does**. Student fills: "furious drone of engine" | "links ship noise.', '** For metaphor, use the **"X is Y but not literally"** test. Write: "The piano killed her hands." Ask: *Is the piano.', '** Assign a **micro-essay (150 words)**: "Trace the \'milk\' imagery from London to the apartment.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_009', difficulty: 'standard',
-          question: 'Irony is a literary device where there is a contradiction between expectation.',
+          question: 'Irony and paradox in \'The Third and Final Continent\' — where opposite things.',
           hint: 'Review the Class 10 irony node (c10_engl_cbse_01_007) for situational irony structure.',
           misconception: 'Students often confuse irony with mere coincidence or bad luck (e.g., "It\'s ironic that it rained on my wedding day".',
           parts: [
@@ -140,18 +140,18 @@ export const c11_eng_w_ch06_p2: SimDef = {
           ],
             remediations: { 'students-often-confuse-irony-with': { steps: ['If a student conflates irony with coincidence: 1) Have them complete the sentence frame: "I expected ___, but ___.', 'Croft: "I expected a 103-year-old to be helpless, but she commands the narrator, which is opposite because age usually.', '4) Practice with the piano: appearances (first visit, nightly ritual, Helen\'s explanation, final scene) + condition.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'The Third and Final Continent\' — the words and phrases you.',
           hint: 'If stuck, review the "Context Clue Types" chart (Definition, Synonym, Antonym, Example.',
           misconception: 'Students often treat "vocabulary in context" as "find a synonym that fits the blank" rather than "analyze how the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context is the skill of determining the precise meaning of unfamiliar words',
-                  options: ['Vocabulary in Context is the skill of determining the precise meaning of unfamiliar words', '"Before You Read: Context and Background" provides the essential historical, cultural,', 'Plot is the sequence of causally linked events that form the narrative arc of a story,', 'Setting in literature refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Key vocabulary of \'The Third and Final Continent\'',
+                  options: ['Key vocabulary of \'The Third and Final Continent\'', '\'The Third and Final Continent\' (Woven Words, ch', 'The plot/narrative arc of \'The Third and Final Continent\'', 'The setting of \'The Third and Final Continent\''],
                   hint: 'If stuck, review the "Context Clue Types" chart (Definition, Synonym, Antonym, Example, Inference).',
                   misconception: 'Students often treat "vocabulary in context" as "find a synonym that fits the blank" rather than "analyze how the author\'s specific word.' }
           ],
             remediations: { 'students-often-treat-vocabulary-in': { steps: ['Have the student re-read the *exact paragraph* containing the word, not just the sentence.', 'Ask: "What is happening physically/emotionally in this scene?', 'What is the narrator feeling?" 3.', 'Identify the *clue type*: Is there a definition ("a flask, he informed me, was used to store whiskey")?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the systematic analysis of grammatical.',
+          question: 'Language and style in \'The Third and Final Continent\' — how the writer chose.',
           hint: 'Review Class 10 reported speech rules (backshifting of tenses, pronoun changes.',
           misconception: 'Students often think "language usage" means only identifying parts of speech (nouns, verbs) or listing British/American.',
           parts: [
@@ -162,7 +162,7 @@ export const c11_eng_w_ch06_p2: SimDef = {
           ],
             remediations: { 'language-usage-means-only-identifying': { steps: ['If a student cannot move beyond labeling, guide them through a "grammar-to-meaning" drill: 1) Pick one sentence (e.g.', '2) Change the tense to simple past ("I did not think of her...").', '(The past perfect emphasizes the duration of not-thinking up to the moment of the obituary; the simple past makes it.', 'Repeat with imperative vs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require retrieving information explicitly.',
+          question: 'Literal comprehension of \'The Third and Final Continent\' — questions answered.',
           hint: 'If stuck, review "Identifying Main Ideas and Supporting Details" from Class 10 reading.',
           misconception: 'Students often treat inferential questions as "opinion questions" where any personal feeling is valid.',
           parts: [

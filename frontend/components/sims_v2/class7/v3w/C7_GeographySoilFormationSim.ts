@@ -6,13 +6,13 @@ import C7_GeographySoilFormationSim from '../../../simulations/c6_12/C7_Geograph
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_geographysoilformationsim: SimDef = {
     id: 'v3w_c7_geographysoilformationsim',
-    title: 'Soil Formation',
+    title: 'Agriculture in India: Importance and Characteristics',
     subtitle: 'Covers the fundamental importance and general physical/human characteristics of farming.',
     classLevel: 7, subject: 'geography', topic: 'Agriculture in India: Importance and Characteristics',
     chapters: [],
     nodeIds: ['c7_geo_ch04_001', 'c7_geo_ch04_005', 'c7_geo_ch01_003', 'c7_geo_ch01_005', 'c7_geo_ch04_003', 'c7_geo_ch04_004', 'c7_geo_ch04_006', 'c7_geo_ch04_007', 'c7_geo_ch04_009', 'c7_geo_ch04_011', 'c7_geo_ch01_004', 'c7_geo_ch01_006', 'c7_geo_ch01_007', 'c7_geo_ch01_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Look out of your classroom window or recall a journey through your state; you likely see green fields,.', goal: 'Master Soil Formation.' },
+    scenario: { role: 'a class 7 learner', intro: 'Look out of your classroom window or recall a journey through your state; you likely see green fields,.', goal: 'Master Agriculture in India: Importance and Characteristics.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Agriculture in India is the cultivation of.', text: 'Agriculture in India is the cultivation of crops, raising of livestock, and management of natural resources that forms the primary economic backbone of the country, deeply influenced by monsoonal.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -73,7 +73,7 @@ export const w_c7_geographysoilformationsim: SimDef = {
             { text: 'Verify that winter temperature and moderate moisture align perfectly with wheat physiology.', faded: true, blankAnswer: 'Wheat should be planted in winter because its physiological.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_geo_ch04_005', title: 'Identify each idea',
-          dissect: { specimen: 'Soil Formation', spots: [
+          dissect: { specimen: 'Agriculture in India: Importance and Characteristics', spots: [
             { id: 's1', label: 'Agriculture in India is the', prompt: 'Which idea is this? — Agriculture in India is the cultivation of crops, raising of livestock, and management of.', answer: 'Agriculture in India is the', options: ['Agriculture in India is the', 'Cash crops are agricultural products', 'The physical divisions of India', 'The Northern Plains of India'] },
             { id: 's2', label: 'Cash crops are agricultural products', prompt: 'Which idea is this? — Cash crops are agricultural products grown specifically for commercial sale in domestic.', answer: 'Cash crops are agricultural products', options: ['Cash crops are agricultural products', 'Agriculture in India is the', 'The physical divisions of India', 'The Northern Plains of India'] },
             { id: 's3', label: 'The physical divisions of India', prompt: 'Which idea is this? — The physical divisions of India refer to the broad structural landform units—namely the.', answer: 'The physical divisions of India', options: ['The physical divisions of India', 'Agriculture in India is the', 'Cash crops are agricultural products', 'The Northern Plains of India'] },
@@ -82,7 +82,7 @@ export const w_c7_geographysoilformationsim: SimDef = {
             { id: 's6', label: 'This topic explores the geographical', prompt: 'Which idea is this? — This topic explores the geographical requirements, regional distribution, and.', answer: 'This topic explores the geographical', options: ['This topic explores the geographical', 'Agriculture in India is the', 'Cash crops are agricultural products', 'The physical divisions of India'] }
           ] } }
     ],
-    explore: { component: C7_GeographySoilFormationSim, prompt: 'Explore the interactive — Soil Formation' },
+    explore: { component: C7_GeographySoilFormationSim, prompt: 'Explore the interactive — Agriculture in India: Importance and Characteristics' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_geo_ch04_001', difficulty: 'standard',
           question: 'Agriculture in India is the cultivation of crops, raising of livestock, and.',

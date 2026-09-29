@@ -6,13 +6,13 @@ import C7_ScienceTheWorldOfMetalsAndSim from '../../../simulations/c6_12/C7_Scie
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_sciencetheworldofmetalsandsim: SimDef = {
     id: 'v3w_c7_sciencetheworldofmetalsandsim',
-    title: 'The World Of Metals And',
+    title: 'Introduction to Metals and Non-metals: Examples',
     subtitle: 'Covers the identification, basic categorization, and common examples of metals and.',
     classLevel: 7, subject: 'science', topic: 'Introduction to Metals and Non-metals: Examples',
     chapters: [],
     nodeIds: ['c7_chem_ch01_001', 'c7_chem_ch01_008', 'c7_chem_ch01_002', 'c7_chem_ch01_003', 'c7_chem_ch01_004', 'c7_chem_ch01_005', 'c7_chem_ch01_006', 'c7_chem_ch01_007', 'c7_chem_ch01_009', 'c7_chem_ch01_010', 'c7_chem_ch01_011', 'c7_chem_ch01_012', 'c7_physics_ch01_004', 'c7_physics_ch01_008', 'c7_physics_ch01_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'When walking through your school kitchen or examining household utensils in India, you notice that pressure.', goal: 'Master The World Of Metals And.' },
+    scenario: { role: 'a class 7 learner', intro: 'When walking through your school kitchen or examining household utensils in India, you notice that pressure.', goal: 'Master Introduction to Metals and Non-metals: Examples.' },
     discovery: {
         question: 'Which of the following is a liquid non-metal commonly found in laboratory thermometers?',
         options: ['Bromine is the correct answer', 'Mercury', 'all shiny materials are metals and all dull materials are non-metals'],
@@ -77,7 +77,7 @@ export const w_c7_sciencetheworldofmetalsandsim: SimDef = {
             { text: 'Conclude that aluminium should be used for the inner container and cork for the outer jacket.', faded: true, blankAnswer: 'Aluminium for the inner container (thermal conductor) and.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_chem_ch01_008', title: 'Identify each idea',
-          dissect: { specimen: 'The World Of Metals And', spots: [
+          dissect: { specimen: 'Introduction to Metals and Non-metals: Examples', spots: [
             { id: 's1', label: 'Metals are naturally occurring chemical', prompt: 'Which idea is this? — Metals are naturally occurring chemical elements that are typically lustrous, malleable,.', answer: 'Metals are naturally occurring chemical', options: ['Metals are naturally occurring chemical', 'Corrosion is the gradual destruction', 'Malleability is the physical property', 'Ductility is the physical property'] },
             { id: 's2', label: 'Corrosion is the gradual destruction', prompt: 'Which idea is this? — Corrosion is the gradual destruction or degradation of metals through chemical or.', answer: 'Corrosion is the gradual destruction', options: ['Corrosion is the gradual destruction', 'Metals are naturally occurring chemical', 'Malleability is the physical property', 'Ductility is the physical property'] },
             { id: 's3', label: 'Malleability is the physical property', prompt: 'Which idea is this? — Malleability is the physical property of a substance that allows it to be beaten, rolled,.', answer: 'Malleability is the physical property', options: ['Malleability is the physical property', 'Metals are naturally occurring chemical', 'Corrosion is the gradual destruction', 'Ductility is the physical property'] },
@@ -86,7 +86,7 @@ export const w_c7_sciencetheworldofmetalsandsim: SimDef = {
             { id: 's6', label: 'Thermal conduction is the process', prompt: 'Which idea is this? — Thermal conduction is the process by which heat energy is transferred through a substance.', answer: 'Thermal conduction is the process', options: ['Thermal conduction is the process', 'Metals are naturally occurring chemical', 'Corrosion is the gradual destruction', 'Malleability is the physical property'] }
           ] } }
     ],
-    explore: { component: C7_ScienceTheWorldOfMetalsAndSim, prompt: 'Explore the interactive — The World Of Metals And' },
+    explore: { component: C7_ScienceTheWorldOfMetalsAndSim, prompt: 'Explore the interactive — Introduction to Metals and Non-metals: Examples' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_chem_ch01_001', difficulty: 'standard',
           question: 'Metals are naturally occurring chemical elements that are typically lustrous,.',

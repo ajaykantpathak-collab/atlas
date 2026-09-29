@@ -6,13 +6,13 @@ import C12_PhysicsElectricDipoleSim from '../../../simulations/three/C12_Physics
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicselectricdipolesim: SimDef = {
     id: 'v3w_c12_physicselectricdipolesim',
-    title: 'Electric Dipole',
+    title: 'Electric Dipole: Field and Torque',
     subtitle: 'This node covers: definition of electric dipole and dipole moment; derivation of electric.',
     classLevel: 12, subject: 'physics', topic: 'Electric Dipole: Field and Torque',
     chapters: [],
     nodeIds: ['c12_phy_cbse_01_011', 'c12_phy_cbse_05_001', 'c12_phy_cbse_01_004', 'c12_phy_cbse_01_012', 'c12_phy_cbse_02_006', 'c12_phy_cbse_02_004', 'c12_phy_cbse_05_002', 'c12_phy_cbse_01_005', 'c12_phy_cbse_01_006', 'c12_phy_cbse_01_007', 'c12_phy_cbse_01_009', 'c12_phy_cbse_04_009', 'c12_phy_cbse_05_003', 'c12_phy_cbse_04_001', 'c12_phy_cbse_02_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: a comb run through dry hair attracts tiny paper bits.', goal: 'Master Electric Dipole.' },
+    scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: a comb run through dry hair attracts tiny paper bits.', goal: 'Master Electric Dipole: Field and Torque.' },
     discovery: {
         question: 'Design a simple experiment using only a bar magnet, a small compass needle, a sheet of paper, and a pencil to plot the magnetic field lines of the bar magnet.',
         options: ['**Procedure:** 1', 'sprinkle iron filings', 'compass points to geographic north'],
@@ -80,7 +80,7 @@ export const w_c12_physicselectricdipolesim: SimDef = {
             { text: 'Check units: C·V = J. Answer is positive energy, magnitude 3.2×10⁻¹⁷ J.', faded: true, blankAnswer: '(a) Four parallel planes at x = 0, 0.00667 m, 0.0133 m,.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_05_001', title: 'Identify each idea',
-          dissect: { specimen: 'Electric Dipole', spots: [
+          dissect: { specimen: 'Electric Dipole: Field and Torque', spots: [
             { id: 's1', label: 'An electric dipole consists of', prompt: 'Which idea is this? — An electric dipole consists of two equal and opposite point charges (+q and –q) separated.', answer: 'An electric dipole consists of', options: ['An electric dipole consists of', 'A bar magnet is a', 'Electric field at a point', 'Continuous charge distribution describes a'] },
             { id: 's2', label: 'A bar magnet is a', prompt: 'Which idea is this? — A bar magnet is a rectangular piece of ferromagnetic material (such as iron, steel, or.', answer: 'A bar magnet is a', options: ['A bar magnet is a', 'An electric dipole consists of', 'Electric field at a point', 'Continuous charge distribution describes a'] },
             { id: 's3', label: 'Electric field at a point', prompt: 'Which idea is this? — Electric field at a point in space is defined as the electrostatic force per unit.', answer: 'Electric field at a point', options: ['Electric field at a point', 'An electric dipole consists of', 'A bar magnet is a', 'Continuous charge distribution describes a'] },
@@ -89,7 +89,7 @@ export const w_c12_physicselectricdipolesim: SimDef = {
             { id: 's6', label: 'An equipotential surface is a', prompt: 'Which idea is this? — An equipotential surface is a three-dimensional surface in an electrostatic field where.', answer: 'An equipotential surface is a', options: ['An equipotential surface is a', 'An electric dipole consists of', 'A bar magnet is a', 'Electric field at a point'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsElectricDipoleSim, prompt: 'Explore the interactive — Electric Dipole' },
+    explore: { component: C12_PhysicsElectricDipoleSim, prompt: 'Explore the interactive — Electric Dipole: Field and Torque' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_01_011', difficulty: 'standard',
           question: 'An electric dipole consists of two equal and opposite point charges (+q and –q).',
@@ -107,8 +107,8 @@ export const w_c12_physicselectricdipolesim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think the torque on a dipole in a uniform field is τ = pE (without sinθ) because they memorise the.',
           parts: [
-                { id: 'a', prompt: 'Design a simple experiment using a charged rod, a light neutral object (e.g., a small piece of aluminium foil), and a stand to demonstrate that a neutral.', answer: 'Steps: (1) Charge a plastic rod by rubbing with wool',
-                  options: ['Steps: (1) Charge a plastic rod by rubbing with wool', 'the foil gets charged by induction and then attracts'],
+                { id: 'a', prompt: 'Design a simple experiment using a charged rod, a light neutral object (e.g., a small piece of aluminium foil), and a stand to demonstrate that a neutral.', answer: '(1) Charge a plastic rod by rubbing with wool',
+                  options: ['(1) Charge a plastic rod by rubbing with wool', 'the foil gets charged by induction and then attracts'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think the torque on a dipole in a uniform field is τ = pE (without sinθ) because they memorise the maximum torque formula.' }
           ],

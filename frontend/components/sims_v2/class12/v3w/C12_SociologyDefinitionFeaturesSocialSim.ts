@@ -6,13 +6,13 @@ import C12_SociologyDefinitionFeaturesSocialSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_sociologydefinitionfeaturessocialsim: SimDef = {
     id: 'v3w_c12_sociologydefinitionfeaturessocialsim',
-    title: 'Definition Features Social',
+    title: 'Social Movements: Definition, Features and the Difference from Collective Behaviour',
     subtitle: 'This node covers the NCERT definition and five defining features of social movements.',
     classLevel: 12, subject: 'sociology', topic: 'Social Movements: Definition, Features and the Difference from Collective Behaviour',
     chapters: [],
     nodeIds: ['c12_soc_cbse_15_001', 'c12_soc_cbse_15_011', 'c12_soc_cbse_03_001', 'c12_soc_cbse_09_001', 'c12_soc_cbse_13_002', 'c12_soc_cbse_01_008', 'c12_soc_cbse_10_001', 'c12_soc_cbse_10_002', 'c12_soc_cbse_01_001', 'c12_soc_cbse_04_004', 'c12_soc_cbse_04_001', 'c12_soc_cbse_03_002', 'c12_soc_cbse_03_006', 'c12_soc_cbse_03_010', 'c12_soc_cbse_09_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Begin by asking students: "You enjoy an 8-hour workday, weekends off, and the right to vote — did these just.', goal: 'Master Definition Features Social.' },
+    scenario: { role: 'a class 12 learner', intro: 'Begin by asking students: "You enjoy an 8-hour workday, weekends off, and the right to vote — did these just.', goal: 'Master Social Movements: Definition, Features and the Difference from Collective Behaviour.' },
     discovery: {
         question: 'Critique the statement: “Purity and pollution are merely religious beliefs; they have no material consequences for caste hierarchy today.” Use the NCERT link.',
         options: ['The statement is false', 'There are four castes in India', 'Jati is just a sub-caste of varna'],
@@ -81,7 +81,7 @@ export const w_c12_sociologydefinitionfeaturessocialsim: SimDef = {
             { text: 'Draw conclusion — the slum is not just a "diverse community" but a **stratified social space** where plurality and.', faded: true, blankAnswer: 'The slum exhibits high plurality (12 state groups, 6.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_soc_cbse_15_011', title: 'Identify each idea',
-          dissect: { specimen: 'Definition Features Social', spots: [
+          dissect: { specimen: 'Social Movements: Definition, Features and the Difference from Collective Behaviour', spots: [
             { id: 's1', label: 'A social movement is a', prompt: 'Which idea is this? — A social movement is a sustained, organised collective action with shared objectives and.', answer: 'A social movement is a', options: ['A social movement is a', 'New Social Movements NSMs are', 'The caste system is a', 'Modernisation is a sociological process'] },
             { id: 's2', label: 'New Social Movements NSMs are', prompt: 'Which idea is this? — New Social Movements (NSMs) are collective actions that emerged post-1960s, characterised.', answer: 'New Social Movements NSMs are', options: ['New Social Movements NSMs are', 'A social movement is a', 'The caste system is a', 'Modernisation is a sociological process'] },
             { id: 's3', label: 'The caste system is a', prompt: 'Which idea is this? — The caste system is a hereditary, endogamous, and hierarchical social institution unique.', answer: 'The caste system is a', options: ['The caste system is a', 'A social movement is a', 'New Social Movements NSMs are', 'Modernisation is a sociological process'] },
@@ -90,7 +90,7 @@ export const w_c12_sociologydefinitionfeaturessocialsim: SimDef = {
             { id: 's6', label: 'The distinctive features of Indian', prompt: 'Which idea is this? — The distinctive features of Indian society refer to its **plurality** (coexistence of.', answer: 'The distinctive features of Indian', options: ['The distinctive features of Indian', 'A social movement is a', 'New Social Movements NSMs are', 'The caste system is a'] }
           ] } }
     ],
-    explore: { component: C12_SociologyDefinitionFeaturesSocialSim, prompt: 'Explore the interactive — Definition Features Social' },
+    explore: { component: C12_SociologyDefinitionFeaturesSocialSim, prompt: 'Explore the interactive — Social Movements: Definition, Features and the Difference from Collective Behaviour' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_soc_cbse_15_001', difficulty: 'standard',
           question: 'A social movement is a sustained, organised collective action with shared.',

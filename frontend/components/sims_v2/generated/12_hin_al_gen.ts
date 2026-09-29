@@ -9,15 +9,13 @@ import type { SimDef } from '../engine/types';
 export const C12_HIN_AL_GEN: SimDef[] = [
  {
   "id": "gen_c12_hin_al_ch01",
-  "title": "\"Before You Read",
+  "title": "सूरदास की झोंपड़ी — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch1: \"Before You Read"
-  ],
+  "topic": "सूरदास की झोंपड़ी — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch1: सूरदास की झोंपड़ी — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c12_hin_al_cbse_01_001",
    "c12_hin_al_cbse_01_002",
@@ -42,7 +40,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is \"Before You Read more about facts, or about reasoning?",
+   "question": "Is सूरदास की झोंपड़ी — पृष्ठभूमि और more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -53,7 +51,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" is the preparatory phase where students investigate the author's biography, the historical period, the cultural setting (rural Bihar, 1950s), and the specific custom of 'साईँ' (auction of a dead body to recover debt)",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
@@ -810,25 +808,23 @@ export const C12_HIN_AL_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about सूरदास की झोंपड़ी — पृष्ठभूमि और रचनाकार परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "सूरदास की झोंपड़ी — पृष्ठभूमि mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_al_ch02",
-  "title": "\"Before You Read",
+  "title": "बस्किोहर की माटी — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch2: \"Before You Read"
-  ],
+  "topic": "बस्किोहर की माटी — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch2: बस्किोहर की माटी — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c12_hin_al_cbse_02_001",
    "c12_hin_al_cbse_02_002",
@@ -853,7 +849,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses \"Before You Read in real working life?",
+   "question": "Who uses बस्किोहर की माटी — पृष्ठभूमि और in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -864,7 +860,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" for Chapter 2 (फुलचंद की एकवह) prepares students to engage with the autobiographical sketch by providing essential information about the author (Upendranath Ashk), the genre (आत्मकथात्मक रेखाचित्र), the socio-cultural",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1715,25 +1711,23 @@ export const C12_HIN_AL_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about बस्किोहर की माटी — पृष्ठभूमि और रचनाकार परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "बस्किोहर की माटी — पृष्ठभूमि mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_al_ch03",
-  "title": "\"Before You Read",
+  "title": "अपना मालवा-खाऊ-उजाड़ू सभ्यता में — पृष्ठभूमि और",
   "subtitle": "Hindi · Chapter 3",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch3: \"Before You Read"
-  ],
+  "topic": "अपना मालवा-खाऊ-उजाड़ू सभ्यता में — पृष्ठभूमि और",
+  "chapters": ["Hindi Ch3: अपना मालवा-खाऊ-उजाड़ू सभ्यता में — पृष्ठभूमि और"],
   "nodeIds": [
    "c12_hin_al_cbse_03_001",
    "c12_hin_al_cbse_03_002",
@@ -1757,7 +1751,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses \"Before You Read in real working life?",
+   "question": "Who uses अपना मालवा-खाऊ-उजाड़ू सभ्यता में in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -1768,13 +1762,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "The \"Before You Read: Context and Background\" section provides essential historical, geographical, biographical, and thematic framing for the chapter \"viuk ekyok\" (My Country) by Shivani (izkHkk\"k tks'kh), enabling students to situate the author's nostalgic",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Plot And Narrative Structure In",
+    "title": "'कंकाल में टमाटर की खेती' का",
     "text": "Plot and narrative structure in a non-fictional memoir like \"viuk ekyok\" refers to the chronological and thematic arrangement of events, memories, and reflections that the author uses to depict the transformation of a village over time — moving from a past of",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2273,11 +2267,11 @@ export const C12_HIN_AL_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about अपना मालवा-खाऊ-उजाड़ू सभ्यता में — पृष्ठभूमि और?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "अपना मालवा-खाऊ-उजाड़ू सभ्यता mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

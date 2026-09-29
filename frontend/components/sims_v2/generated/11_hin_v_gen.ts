@@ -9,15 +9,13 @@ import type { SimDef } from '../engine/types';
 export const C11_HIN_V_GEN: SimDef[] = [
  {
   "id": "gen_c11_hin_v_ch01",
-  "title": "\"Before You Read",
+  "title": "पाठ 1 — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 1",
   "classLevel": 11,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch1: \"Before You Read"
-  ],
+  "topic": "पाठ 1 — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch1: पाठ 1 — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c11_hin_v_cbse_01_001",
    "c11_hin_v_cbse_01_002",
@@ -42,7 +40,7 @@ export const C11_HIN_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does \"Before You Read actually explain?",
+   "question": "In one line -- what does पाठ 1 — पृष्ठभूमि और रचनाकार परिचय actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -53,7 +51,7 @@ export const C11_HIN_V_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" provides the historical, cultural, and literary framework necessary to understand the essay \"Hkkjrh; xkf;dkvksa esa cstksM+µyrk eaxs'kdj\" by Agyeya.",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
@@ -916,25 +914,23 @@ export const C11_HIN_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about पाठ 1 — पृष्ठभूमि और रचनाकार परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "पाठ 1 — पृष्ठभूमि और रचनाकार mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_hin_v_ch02",
-  "title": "Before You Read",
+  "title": "पाठ 2 — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 2",
   "classLevel": 11,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "Before You Read",
-  "chapters": [
-   "Hindi Ch2: Before You Read"
-  ],
+  "topic": "पाठ 2 — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch2: पाठ 2 — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c11_hin_v_cbse_02_001",
    "c11_hin_v_cbse_02_002",
@@ -959,7 +955,7 @@ export const C11_HIN_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Before You Read suddenly stops working?",
+   "question": "What happens if पाठ 2 — पृष्ठभूमि और रचनाकार परिचय suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -970,7 +966,7 @@ export const C11_HIN_V_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Before You Read",
+    "title": "पाठ 2 — पृष्ठभूमि और रचनाकार परिचय",
     "text": "Before You Read: Context and Background is a pre-reading strategy that equips students with the historical, geographical, cultural, and thematic knowledge necessary to comprehend a text deeply.",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
@@ -994,7 +990,7 @@ export const C11_HIN_V_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Supporting Characters In \"जक्तLFkku Dh Jtr",
+    "title": "'वितान भाग-1 — पाठ 2' के",
     "text": "Supporting characters in \"जक्तLFkku dh jtr cw¡nas\" are the collective voices—पस्तकाथ (laborers), क्लकस्यह (traditional knowledge-holder), and the village community—that embody indigenous water wisdom, sustain the protagonist's (author-narrator's) inquiry, and",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1749,21 +1745,19 @@ export const C11_HIN_V_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read mastered! 🎯",
+  "successLine": "पाठ 2 — पृष्ठभूमि और रचनाकार परिचय mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_hin_v_ch03",
-  "title": "\"Before You Read",
+  "title": "पाठ 3 — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 3",
   "classLevel": 11,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch3: \"Before You Read"
-  ],
+  "topic": "पाठ 3 — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch3: पाठ 3 — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c11_hin_v_cbse_03_001",
    "c11_hin_v_cbse_03_002",
@@ -1788,7 +1782,7 @@ export const C11_HIN_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses \"Before You Read in real working life?",
+   "question": "Who uses पाठ 3 — पृष्ठभूमि और रचनाकार परिचय in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -1799,7 +1793,7 @@ export const C11_HIN_V_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" provides the essential historical, social, biographical, and literary framework needed to comprehend Krishna Sobti's autobiographical narrative \"व्यक्ति\" (Vyakti), enabling students to situate the text within",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2627,25 +2621,23 @@ export const C11_HIN_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about पाठ 3 — पृष्ठभूमि और रचनाकार परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "पाठ 3 — पृष्ठभूमि और रचनाकार mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_hin_v_ch04",
-  "title": "\"Before You Read",
+  "title": "पाठ 4 — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 4",
   "classLevel": 11,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch4: \"Before You Read"
-  ],
+  "topic": "पाठ 4 — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch4: पाठ 4 — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c11_hin_v_cbse_04_001",
    "c11_hin_v_cbse_04_002",
@@ -2670,7 +2662,7 @@ export const C11_HIN_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet \"Before You Read outside the classroom?",
+   "question": "Quick guess -- where do you meet पाठ 4 — पृष्ठभूमि और रचनाकार परिचय outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -2681,13 +2673,13 @@ export const C11_HIN_V_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "The \"Before You Read: Context and Background\" section provides the historical, cultural, and conceptual framework necessary to understand the chapter on Indian arts (Hkkjrh; dyk,¡), establishing the distinction between folk/tribal arts (yksddyk) and classical",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Plot And Narrative Structure In An",
+    "title": "'वितान भाग-1 — पाठ 4' का",
     "text": "Plot and narrative structure in an expository text refers to the logical organization of ideas — how the author sequences information (introduction, development, conclusion), uses transitions, and employs structural devices like classification, comparison, or",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2699,7 +2691,7 @@ export const C11_HIN_V_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist In",
+    "title": "'वितान भाग-1 — पाठ 4' का",
     "text": "Character analysis of the protagonist in this expository chapter involves identifying the collective \"Indian artist\" (folk or classical) as the central figure who embodies the continuity, evolution, and living tradition of Indian art forms, and analyzing",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2759,7 +2751,7 @@ export const C11_HIN_V_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Writing Skills Based On The",
+    "title": "'वितान भाग-1 — पाठ 4' पर",
     "text": "Writing skills based on the chapter \"Hkkjrh; xkf;dkvksa esa cstksM+yrk\" refers to the ability to construct structured, evidence-based responses that analyze the evolution, characteristics, and cultural significance of Indian folk and classical arts (painting,",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
@@ -3440,25 +3432,23 @@ export const C11_HIN_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about पाठ 4 — पृष्ठभूमि और रचनाकार परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "पाठ 4 — पृष्ठभूमि और रचनाकार mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_hin_v_ch05",
-  "title": "\"Before You Read",
+  "title": "पाठ 5 — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 5",
   "classLevel": 11,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch5: \"Before You Read"
-  ],
+  "topic": "पाठ 5 — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch5: पाठ 5 — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c11_hin_v_cbse_05_001",
    "c11_hin_v_cbse_05_002",
@@ -3483,7 +3473,7 @@ export const C11_HIN_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is \"Before You Read more about facts, or about reasoning?",
+   "question": "Is पाठ 5 — पृष्ठभूमि और रचनाकार परिचय more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -3494,13 +3484,13 @@ export const C11_HIN_V_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" is a pre-reading strategy that equips students with the historical, cultural, and biographical knowledge necessary to access a text's deeper layers.",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Plot And Narrative Structure Refer To",
+    "title": "'वितान भाग-1 — पाठ 5' का",
     "text": "Plot and narrative structure refer to the sequence of events in a story and the framework that organizes them, including exposition, rising action, climax, falling action, and resolution, as well as techniques like flashback, foreshadowing, and narrative",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4041,11 +4031,11 @@ export const C11_HIN_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about पाठ 5 — पृष्ठभूमि और रचनाकार परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "पाठ 5 — पृष्ठभूमि और रचनाकार mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

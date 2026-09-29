@@ -87,12 +87,12 @@ export const c10_engl_ch14_p2: SimDef = {
           ],
             remediations: { 'the-theme-is-science-is': { steps: ['Have the student re-read the summary of Nodes 001–006 and highlight every verb that shows Griffin *choosing* an action.', 'Ask: "If Griffin had the same power but chose differently at *each* highlighted moment, what would change?" Write two.', 'Guide them to formulate the theme sentence: "When a scientific discovery is **misused** (choice), it leads.', 'Practice writing one PEEL paragraph using the fire incident: Point → Evidence (quote/action) → Explanation (why it\'s.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_engl_cbse_14_008', difficulty: 'standard',
-          question: 'Character analysis of Griffin involves examining his personality traits.',
+          question: 'From \'English chapter c10_engl_cbse_14\': the skill or concept this node.',
           hint: 'If stuck on evidence selection, review c10_engl_cbse_14_002 (arson), 004 (store theft).',
           misconception: 'Students often write: "Griffin is a tragic hero because society rejected him." This is wrong because the text gives.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of Griffin involves examining his personality traits, motivations,',
-                  options: ['Character analysis of Griffin involves examining his personality traits, motivations,', 'Griffin\'s discovery of invisibility is a fictional scientific process in', 'Griffin\'s act of setting fire to his landlord\'s house is a pivotal plot event in', 'This node covers the pivotal plot event in H.G'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c10_engl_cbse_14\': the skill or concept this node teaches, applied',
+                  options: ['From \'English chapter c10_engl_cbse_14\': the skill or concept this node teaches, applied', 'Griffin\'s discovery of invisibility is a fictional scientific process in', 'Griffin\'s act of setting fire to his landlord\'s house is a pivotal plot event in', 'This node covers the pivotal plot event in H.G'],
                   hint: 'If stuck on evidence selection, review c10_engl_cbse_14_002 (arson), 004 (store theft), 005.',
                   misconception: 'Students often write: "Griffin is a tragic hero because society rejected him." This is wrong because the text gives **zero evidence**.' }
           ],

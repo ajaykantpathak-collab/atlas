@@ -6,13 +6,13 @@ import C6_SocialScienceRuralLivelihoodsSim from '../../../simulations/c6_12/C6_S
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_socialsciencerurallivelihoodssim: SimDef = {
     id: 'v3w_c6_socialsciencerurallivelihoodssim',
-    title: 'Social Science Rural Livelihoods',
+    title: 'What is Grassroots Democracy?',
     subtitle: 'This node covers the fundamental concept of local self-governance and the role of.',
     classLevel: 6, subject: 'science', topic: 'What is Grassroots Democracy?',
     chapters: [],
     nodeIds: ['c6_civics_ch12_015', 'c6_civics_ch12_020', 'c6_civics_ch12_018', 'c6_civics_ch12_019', 'c6_history_ch09_038'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine your school playground has a broken fence that makes it unsafe for students to play.', goal: 'Master Social Science Rural Livelihoods.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine your school playground has a broken fence that makes it unsafe for students to play.', goal: 'Master What is Grassroots Democracy?.' },
     discovery: {
         question: 'Why is it better for a village to decide on fixing a local road rather than waiting for the national government?',
         options: ['Local villagers know exactly', 'Grassroots Democracy', '"Grassroots Democracy" is just about voting for leaders once every five years'],
@@ -58,7 +58,7 @@ export const w_c6_socialsciencerurallivelihoodssim: SimDef = {
                 { text: 'everyday', outcome: 'Not quite — Students often think the Mughal Empire was purely a military state and ignore the "everyday".', reveals: 'the-mughal-empire-was-purely' }
             ] }] } }
     ],
-    explore: { component: C6_SocialScienceRuralLivelihoodsSim, prompt: 'Explore the interactive — Social Science Rural Livelihoods' },
+    explore: { component: C6_SocialScienceRuralLivelihoodsSim, prompt: 'Explore the interactive — What is Grassroots Democracy?' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_civics_ch12_015', difficulty: 'standard',
           question: 'Grassroots democracy is a system where governance happens at the local level,.',

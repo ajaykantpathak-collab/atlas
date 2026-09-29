@@ -91,8 +91,8 @@ export const c10_math_ch07_p2: SimDef = {
           hint: 'If stuck, review the derivation of the area formula in node c10_math_cbse_07_007 and.',
           misconception: '**Misconception 1: Forgetting the absolute value bars.** Students compute \\(x_1(y_2-y_3)+...\\) and get a negative.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The area of a triangle with vertices \\(A(x_1, y_1)\\), \\(B(x_2, y_2)\\), and \\(C(x_3,',
-                  options: ['The area of a triangle with vertices \\(A(x_1, y_1)\\), \\(B(x_2, y_2)\\), and \\(C(x_3,', 'The distance between two points \\(P(x_1, y_1)\\) and \\(Q(x_2, y_2)\\) in the Cartesian', 'The distance formula calculates the straight-line distance between two points P(x₁, y₁)', 'The distance between two points lying on the same axis (x-axis or y-axis) is the absolute'],
+                { id: 'a', prompt: 'Why do we take the absolute value in the area formula? Explain what would happen if we omitted it for the triangle with vertices \\((0,0)\\), \\((4,0)\\).', answer: 'The absolute value ensures the area is non-negative',
+                  options: ['The absolute value ensures the area is non-negative', 'absolute value makes it positive'],
                   hint: 'If stuck, review the derivation of the area formula in node c10_math_cbse_07_007 and practice.',
                   misconception: '**Misconception 1: Forgetting the absolute value bars.** Students compute \\(x_1(y_2-y_3)+...\\) and get a negative number (e.g., -12) and.' }
           ],

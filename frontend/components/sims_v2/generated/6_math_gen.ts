@@ -990,7 +990,7 @@ export const C6_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Fraction Represents a Part Of",
+    "title": "Fraction Represents a Part",
     "text": "A fraction represents a part of a whole. A Proper fraction has a numerator smaller than the denominator (value < 1), an Improper fraction has a numerator greater than or equal to the denominator (value ≥ 1), and a Mixed number expresses an improper fraction",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1753,7 +1753,7 @@ export const C6_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Algebra Uses Letters (like $x, y",
+    "title": "Algebra Uses Letters As",
     "text": "Algebra uses letters (like $x, y, n$) as placeholders for unknown numbers, allowing us to write general rules or \"recipes\" for solving real-life problems.",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -3868,7 +3868,7 @@ export const C6_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Letter Or Number Has a",
+    "title": "Letter Or Number Has",
     "text": "A letter or number has a line of symmetry if it can be folded along a straight line such that the two halves perfectly overlap, like a mirror image. This line acts as a \"fold\" or \"divider\" that splits the figure into two identical, matching parts.",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -4289,13 +4289,13 @@ export const C6_MATH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Constructing Triangles Using SSS And",
+    "title": "Constructing Triangles Using SSS",
     "text": "Constructing triangles using SSS (Side-Side-Side) and SAS (Side-Angle-Side) criteria involves using a ruler, a compass, and a protractor to draw a unique triangle when specific measurements are provided.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Constructing Triangles Using ASA And",
+    "title": "Constructing Triangles Using ASA",
     "text": "Constructing triangles using ASA (Angle-Side-Angle) and RHS (Right-angle-Hypotenuse-Side) criteria allows us to draw a unique triangle by precisely replicating two angles and the included side, or a right angle, the hypotenuse, and one other side.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"

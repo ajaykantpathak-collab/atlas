@@ -19,7 +19,7 @@ export const c7_engl_ch04_p2: SimDef = {
         hook: 'Setting is an experience built from senses, not a label on a map. Here three elements do the work — the wild jungle, the human-made railway slicing through it, and a tunnel that swallows light and sound like a quiet antagonist.',
     },
     teaching: [
-        { title: 'Vocabulary in Context: shimmered, embankment, scrub-covered, instinctively', text: 'Vocabulary in Context is the skill of determining the precise meaning of unfamiliar words by examining the surrounding sentences, clues, and overall situation (such as *shimmered*, *embankment*.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Vocabulary in Context: shimmered, embankment, scrub-covered, instinctively', text: 'From \'English chapter c7_engl_ch04\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c7_engl_ch04_007', title: 'Your mission',
@@ -79,12 +79,16 @@ export const c7_engl_ch04_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_engl_ch04_007', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the precise meaning.',
+          question: 'From \'English chapter c7_engl_ch04\': the skill or concept this node teaches.',
           hint: 'Review c6_english_u4_037 to practice basic context-clue extraction techniques before.',
           misconception: 'Students often confuse *scrub-covered* with manicured garden lawns or dense rainforests because they focus only on the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context is the skill of determining the precise meaning of unfamiliar words',
-                  options: ['Vocabulary in Context is the skill of determining the precise meaning of unfamiliar words', 'The setting of a story encompasses the physical landscape, time period, and social', 'Character analysis of Suraj in "The Tunnel" examines his traits, motivations, actions,', 'Plot is the sequence of events and actions that make up a story, structured around a'],
+                { id: 'a', prompt: 'Read this sentence: "The goat scrambled up the steep, scrub-covered hill." Based on the context, what does *scrub-covered* tell you about the hill\'s vegetation?', answer: 'Identify the target compound adjective (*scrub-covered*)',
+                  options: ['Identify the target compound adjective (*scrub-covered*)', 'covered'],
+                  hint: 'Review c6_english_u4_037 to practice basic context-clue extraction techniques before tackling.',
+                  misconception: 'Students often confuse *scrub-covered* with manicured garden lawns or dense rainforests because they focus only on the word "covered".' },
+                { id: 'b', prompt: 'Analyze how the word *instinctively* functions in this sentence: "When the loud train whistle blew, Suraj *instinctively* stepped back from the edge." What.', answer: 'Isolate the target adverb (*instinctively*)',
+                  options: ['Isolate the target adverb (*instinctively*)', 'covered', 'the character planned a deliberate, slow maneuver'],
                   hint: 'Review c6_english_u4_037 to practice basic context-clue extraction techniques before tackling.',
                   misconception: 'Students often confuse *scrub-covered* with manicured garden lawns or dense rainforests because they focus only on the word "covered".' }
           ],
@@ -114,18 +118,22 @@ export const c7_engl_ch04_p2: SimDef = {
           misconception: 'Students often believe that Suraj\'s discovery is only about seeing the physical train, ignoring the emotional and.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Comprehension of what Suraj discovers at the tunnel involves analyzing the literal events',
-                  options: ['Comprehension of what Suraj discovers at the tunnel involves analyzing the literal events', 'The setting of a story encompasses the physical landscape, time period, and social', 'Character analysis of Suraj in "The Tunnel" examines his traits, motivations, actions,', 'Plot is the sequence of events and actions that make up a story, structured around a'],
+                  options: ['Comprehension of what Suraj discovers at the tunnel involves analyzing the literal events', 'The setting of a story encompasses the physical landscape, time period, and social', 'From \'English chapter c7_engl_ch04\': the skill or concept this node teaches, applied to', 'Plot is the sequence of events and actions that make up a story, structured around a'],
                   hint: 'Review c7_engl_ch04_002 on character analysis and c7_engl_ch04_003 on plot sequence to reconnect.',
                   misconception: 'Students often believe that Suraj\'s discovery is only about seeing the physical train, ignoring the emotional and psychological shift.' }
           ],
             remediations: { 'suraj-s-discovery-is-only': { steps: ['To fix this misconception, guide the student to look at two specific moments: Suraj before entering the tunnel and.', 'Ask: "How does Suraj feel in his chest before the train roars past?', 'How does he feel after?" Help them see that the physical sight of the train is just the vehicle for his inner discovery.', 'Have them rewrite their answer using the PEEL structure (Point, Evidence, Explanation, Link).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c7_engl_ch04_010', difficulty: 'standard',
-          question: 'Critical thinking in the context of adventure literature involves evaluating.',
+          question: 'From \'English chapter c7_engl_ch04\': the skill or concept this node teaches.',
           hint: 'Review c7_engl_ch04_004 to reconnect with how authors build themes of exploration and.',
           misconception: 'Students often believe that "courage" in stories means a character never feels scared or hesitant.',
           parts: [
-                { id: 'a', prompt: 'Read this scenario: A character hears a strange sound inside a dark cave, feels terrified, but decides to step inside anyway.', answer: 'Steps: (1) Examine the character\'s emotional state (terrified)',
-                  options: ['Steps: (1) Examine the character\'s emotional state (terrified)', 'foolishness', 'courage', '"courage" in stories means a character never feels scared or hesitant'],
+                { id: 'a', prompt: 'Analyze the role of curiosity in driving Suraj\'s adventure. If he felt only fear and no curiosity, how would the outcome of his journey change?', answer: '(1) Identify Suraj\'s core motivation (desire to see what lies inside the tunnel)',
+                  options: ['(1) Identify Suraj\'s core motivation (desire to see what lies inside the tunnel)', 'courage', '"courage" in stories means a character never feels scared or hesitant'],
+                  hint: 'Review c7_engl_ch04_004 to reconnect with how authors build themes of exploration and unknown.',
+                  misconception: 'Students often believe that "courage" in stories means a character never feels scared or hesitant.' },
+                { id: 'b', prompt: 'Read this scenario: A character hears a strange sound inside a dark cave, feels terrified, but decides to step inside anyway.', answer: '(1) Examine the character\'s emotional state (terrified)',
+                  options: ['(1) Examine the character\'s emotional state (terrified)', 'foolishness', 'courage', '"courage" in stories means a character never feels scared or hesitant'],
                   hint: 'Review c7_engl_ch04_004 to reconnect with how authors build themes of exploration and unknown.',
                   misconception: 'Students often believe that "courage" in stories means a character never feels scared or hesitant.' }
           ],
@@ -135,8 +143,8 @@ export const c7_engl_ch04_p2: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often believe that "courage" in stories means a character never feels scared or hesitant.',
           parts: [
-                { id: 'a', prompt: 'Can a character display true courage without an object of curiosity to draw them forward? Defend your position using literary reasoning.', answer: 'Steps: (1) Define courage in adventure contexts (facing hardship or danger)',
-                  options: ['Steps: (1) Define courage in adventure contexts (facing hardship or danger)', 'courage', '"courage" in stories means a character never feels scared or hesitant'],
+                { id: 'a', prompt: 'Can a character display true courage without an object of curiosity to draw them forward? Defend your position using literary reasoning.', answer: '(1) Define courage in adventure contexts (facing hardship or danger)',
+                  options: ['(1) Define courage in adventure contexts (facing hardship or danger)', 'courage', '"courage" in stories means a character never feels scared or hesitant'],
                   hint: 'Review c7_engl_ch04_004 to reconnect with how authors build themes of exploration and unknown.',
                   misconception: 'Students often believe that "courage" in stories means a character never feels scared or hesitant.' },
                 { id: 'b', prompt: 'Write a short paragraph analyzing how a fictional character\'s internal conflict between fear and curiosity shapes their growth during an exploration.', answer: 'A strong response must describe a specific internal struggle, show how curiosity',
@@ -150,8 +158,8 @@ export const c7_engl_ch04_p2: SimDef = {
           hint: 'Review c6_english_u1_005 to practice identifying basic poetic imagery and structure.',
           misconception: 'Students often believe that summarizing a poem stanza by stanza means rewriting every single line in simpler words (a.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'A stanza-by-stanza summary is a systematic breakdown of a poem\'s narrative and',
-                  options: ['A stanza-by-stanza summary is a systematic breakdown of a poem\'s narrative and', 'The setting of a story encompasses the physical landscape, time period, and social', 'Character analysis of Suraj in "The Tunnel" examines his traits, motivations, actions,', 'Plot is the sequence of events and actions that make up a story, structured around a'],
+                { id: 'a', prompt: 'Read these two lines from a poem about a train journey: "The iron tracks stretch far and wide / Through dusty plains and countryside." If you are writing.', answer: 'Identify the subject (iron tracks, plains)',
+                  options: ['Identify the subject (iron tracks, plains)', 'The train is going very fast to Mumbai'],
                   hint: 'Review c6_english_u1_005 to practice identifying basic poetic imagery and structure before.',
                   misconception: 'Students often believe that summarizing a poem stanza by stanza means rewriting every single line in simpler words (a line-by-line.' }
           ],

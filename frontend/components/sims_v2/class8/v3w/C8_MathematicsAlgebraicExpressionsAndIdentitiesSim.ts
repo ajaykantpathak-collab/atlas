@@ -6,13 +6,13 @@ import C8_MathematicsAlgebraicExpressionsAndIdentitiesSim from '../../../simulat
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicsalgebraicexpressionsandidentitiessim: SimDef = {
     id: 'v3w_c8_mathematicsalgebraicexpressionsandidentitiessim',
-    title: 'Algebraic Expressions And Identities',
+    title: 'Applications of Algebraic Identities in Simplifying Expressions',
     subtitle: 'Covers simplification of algebraic expressions using the three standard binomial.',
     classLevel: 8, subject: 'mathematics', topic: 'Applications of Algebraic Identities in Simplifying Expressions',
     chapters: [],
     nodeIds: ['c8_math_ch6_11', 'c8_math_ch6_5', 'c8_math_ch6_6', 'c8_math_ch6_7', 'c8_math_ch6_8', 'c8_math_ch6_9', 'c8_math_ch6_10', 'c8_math_ch6_4', 'c8_math_ch6_1', 'c8_math_ch6_2', 'c8_math_ch1_6', 'c8_math_ch1_12', 'c8_math_ch1_3', 'c8_math_ch5_6', 'c8_math_ch5_7'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you are tiling a square floor whose side length is (2x + 3) metres.', goal: 'Master Algebraic Expressions And Identities.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you are tiling a square floor whose side length is (2x + 3) metres.', goal: 'Master Applications of Algebraic Identities in Simplifying Expressions.' },
     discovery: {
         question: 'If we have two numbers where the first number is larger than the second (a > b), and we increase the first by 1 while decreasing the second by 1, will the.',
         options: ['The product will decrease', 'increase', '+1 and -1 cancel out'],
@@ -78,7 +78,7 @@ export const w_c8_mathematicsalgebraicexpressionsandidentitiessim: SimDef = {
             { text: 'Substitute \\(x = 5\\): \\(16(25) - 56(5) + 49 = 400 - 280 + 49 = 169\\) sq m.', faded: true, blankAnswer: 'Area = \\(16x^2 - 56x + 49\\) sq m; when \\(x = 5\\) m, area =.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch6_5', title: 'Identify each idea',
-          dissect: { specimen: 'Algebraic Expressions And Identities', spots: [
+          dissect: { specimen: 'Applications of Algebraic Identities in Simplifying Expressions', spots: [
             { id: 's1', label: 'Applications of algebraic identities involve', prompt: 'Which idea is this? — Applications of algebraic identities involve recognizing algebraic expressions that match.', answer: 'Applications of algebraic identities involve', options: ['Applications of algebraic identities involve', 'When one factor in a', 'The distributive property of multiplication', 'The algebraic identity a'] },
             { id: 's2', label: 'When one factor in a', prompt: 'Which idea is this? — When one factor in a product is increased by 1 and the other factor is decreased by 1,.', answer: 'When one factor in a', options: ['When one factor in a', 'Applications of algebraic identities involve', 'The distributive property of multiplication', 'The algebraic identity a'] },
             { id: 's3', label: 'The distributive property of multiplication', prompt: 'Which idea is this? — The distributive property of multiplication over addition (and subtraction) holds for all.', answer: 'The distributive property of multiplication', options: ['The distributive property of multiplication', 'Applications of algebraic identities involve', 'When one factor in a', 'The algebraic identity a'] },
@@ -86,7 +86,7 @@ export const w_c8_mathematicsalgebraicexpressionsandidentitiessim: SimDef = {
             { id: 's5', label: 'The algebraic identity a -', prompt: 'Which idea is this? — The algebraic identity \\((a - b)(a - b) = a^2 - 2ab + b^2\\) states that the square of the.', answer: 'The algebraic identity a -', options: ['The algebraic identity a -', 'Applications of algebraic identities involve', 'When one factor in a', 'The distributive property of multiplication'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsAlgebraicExpressionsAndIdentitiesSim, prompt: 'Explore the interactive — Algebraic Expressions And Identities' },
+    explore: { component: C8_MathematicsAlgebraicExpressionsAndIdentitiesSim, prompt: 'Explore the interactive — Applications of Algebraic Identities in Simplifying Expressions' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch6_11', difficulty: 'standard',
           question: 'Applications of algebraic identities involve recognizing algebraic expressions.',

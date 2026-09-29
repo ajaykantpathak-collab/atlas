@@ -6,13 +6,13 @@ import C12_EVSModernSchoolsEcologicalSim from '../../../simulations/c6_12/C12_EV
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_evsmodernschoolsecologicalsim: SimDef = {
     id: 'v3w_c12_evsmodernschoolsecologicalsim',
-    title: 'Modern Schools Ecological',
+    title: 'Major Schools of Human Geography: Determinism',
     subtitle: 'This node covers only Environmental Determinism: its definition, historical context, key.',
     classLevel: 12, subject: 'evs', topic: 'Major Schools of Human Geography: Determinism',
     chapters: [],
     nodeIds: ['c12_geo_cbse_01_004', 'c12_geo_cbse_01_001', 'c12_geo_cbse_01_003', 'c12_geo_cbse_01_005', 'c12_geo_cbse_01_006', 'c12_geo_cbse_01_007', 'c12_geo_cbse_01_008', 'c12_geo_cbse_01_010', 'c12_geo_cbse_01_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a tribal hamlet in the Abujh Maad region of Chhattisgarh where families practice shifting cultivation.', goal: 'Master Modern Schools Ecological.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a tribal hamlet in the Abujh Maad region of Chhattisgarh where families practice shifting cultivation.', goal: 'Master Major Schools of Human Geography: Determinism.' },
     discovery: {
         question: 'A student argues: "The Inuit in the Arctic and the Bedouins in the Sahara both practice determinism because they wear fur and live in tents respectively.".',
         options: ['Step 1: Identify the determinist claim', 'adaptation', 'determination'],
@@ -81,7 +81,7 @@ export const w_c12_evsmodernschoolsecologicalsim: SimDef = {
             { text: 'Verify — all fields are from NCERT Table 1.2; no school of thought or physical geography branch is incorrectly used.', faded: true, blankAnswer: 'Primary field: Gender Geography (interfaces: Sociology,.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_geo_cbse_01_001', title: 'Identify each idea',
-          dissect: { specimen: 'Modern Schools Ecological', spots: [
+          dissect: { specimen: 'Major Schools of Human Geography: Determinism', spots: [
             { id: 's1', label: 'Environmental Determinism is the school', prompt: 'Which idea is this? — Environmental Determinism is the school of thought in human geography which asserts that.', answer: 'Environmental Determinism is the school', options: ['Environmental Determinism is the school', 'Human Geography is the synthetic', 'Human geography and physical geography', 'Possibilism is the school of'] },
             { id: 's2', label: 'Human Geography is the synthetic', prompt: 'Which idea is this? — Human Geography is the synthetic study of the dynamic relationship between human.', answer: 'Human Geography is the synthetic', options: ['Human Geography is the synthetic', 'Environmental Determinism is the school', 'Human geography and physical geography', 'Possibilism is the school of'] },
             { id: 's3', label: 'Human geography and physical geography', prompt: 'Which idea is this? — Human geography and physical geography are inseparable components of geography that study.', answer: 'Human geography and physical geography', options: ['Human geography and physical geography', 'Environmental Determinism is the school', 'Human Geography is the synthetic', 'Possibilism is the school of'] },
@@ -90,7 +90,7 @@ export const w_c12_evsmodernschoolsecologicalsim: SimDef = {
             { id: 's6', label: 'Major fields of human geography', prompt: 'Which idea is this? — Major fields of human geography are the broad thematic categories (Social, Cultural,.', answer: 'Major fields of human geography', options: ['Major fields of human geography', 'Environmental Determinism is the school', 'Human Geography is the synthetic', 'Human geography and physical geography'] }
           ] } }
     ],
-    explore: { component: C12_EVSModernSchoolsEcologicalSim, prompt: 'Explore the interactive — Modern Schools Ecological' },
+    explore: { component: C12_EVSModernSchoolsEcologicalSim, prompt: 'Explore the interactive — Major Schools of Human Geography: Determinism' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_01_004', difficulty: 'standard',
           question: 'Environmental Determinism is the school of thought in human geography which.',

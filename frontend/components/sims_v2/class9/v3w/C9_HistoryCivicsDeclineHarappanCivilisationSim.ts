@@ -6,13 +6,13 @@ import C9_HistoryCivicsDeclineHarappanCivilisationSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_historycivicsdeclineharappancivilisationsim: SimDef = {
     id: 'v3w_c9_historycivicsdeclineharappancivilisationsim',
-    title: 'Decline Harappan Civilisation',
+    title: 'Mehrgarh: Early Agricultural Settlement',
     subtitle: 'This node covers the archaeological phases of Mehrgarh (Periods I–III), the evidence for.',
     classLevel: 9, subject: 'history', topic: 'Mehrgarh: Early Agricultural Settlement',
     chapters: [],
     nodeIds: ['c9_hist_ch2_6', 'c9_hist_ch2_7', 'c9_hist_ch2_8', 'c9_hist_ch2_10', 'c9_hist_ch2_5', 'c9_hist_ch2_9', 'c9_hist_ch2_11'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are visiting a museum and see a display of tiny, charred wheat grains and a clay figurine from a.', goal: 'Master Decline Harappan Civilisation.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are visiting a museum and see a display of tiny, charred wheat grains and a clay figurine from a.', goal: 'Master Mehrgarh: Early Agricultural Settlement.' },
     discovery: {
         question: 'A newly excavated Harappan site shows a citadel mound but no grid streets in the lower town — instead, lanes curve organically.',
         options: ['It does not fit the mature Harappan model', 'local variation', 'all identical clones'],
@@ -78,7 +78,7 @@ export const w_c9_historycivicsdeclineharappancivilisationsim: SimDef = {
             { text: 'Conclude—writing emerges where *institutional complexity* (temple-state) meets *exchange complexity* (long-distance.', faded: true, blankAnswer: 'Cuneiform arose from the intersection of Mesopotamia\'s.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_hist_ch2_7', title: 'Identify each idea',
-          dissect: { specimen: 'Decline Harappan Civilisation', spots: [
+          dissect: { specimen: 'Mehrgarh: Early Agricultural Settlement', spots: [
             { id: 's1', label: 'Mehrgarh is a Neolithic archaeological', prompt: 'Which idea is this? — Mehrgarh is a Neolithic archaeological site located in the Kachi Plain of Balochistan,.', answer: 'Mehrgarh is a Neolithic archaeological', options: ['Mehrgarh is a Neolithic archaeological', 'The Harappan Sindhu-Sarasvati Civilisations urban', 'The Harappan Civilisation c 26001900', 'Egyptian Civilisation c 310030 BCE'] },
             { id: 's2', label: 'The Harappan Sindhu-Sarasvati Civilisations urban', prompt: 'Which idea is this? — The Harappan (Sindhu-Sarasvati) Civilisation\'s urban planning (c.', answer: 'The Harappan Sindhu-Sarasvati Civilisations urban', options: ['The Harappan Sindhu-Sarasvati Civilisations urban', 'Mehrgarh is a Neolithic archaeological', 'The Harappan Civilisation c 26001900', 'Egyptian Civilisation c 310030 BCE'] },
             { id: 's3', label: 'The Harappan Civilisation c 26001900', prompt: 'Which idea is this? — The Harappan Civilisation (c. 2600–1900 BCE), flourishing in the Indus-Ghaggar-Hakra.', answer: 'The Harappan Civilisation c 26001900', options: ['The Harappan Civilisation c 26001900', 'Mehrgarh is a Neolithic archaeological', 'The Harappan Sindhu-Sarasvati Civilisations urban', 'Egyptian Civilisation c 310030 BCE'] },
@@ -87,7 +87,7 @@ export const w_c9_historycivicsdeclineharappancivilisationsim: SimDef = {
             { id: 's6', label: 'Mesopotamian Civilisation c 3500500 BCE', prompt: 'Which idea is this? — Mesopotamian Civilisation (c. 3500–500 BCE) emerged in the fertile river valleys of the.', answer: 'Mesopotamian Civilisation c 3500500 BCE', options: ['Mesopotamian Civilisation c 3500500 BCE', 'Mehrgarh is a Neolithic archaeological', 'The Harappan Sindhu-Sarasvati Civilisations urban', 'The Harappan Civilisation c 26001900'] }
           ] } }
     ],
-    explore: { component: C9_HistoryCivicsDeclineHarappanCivilisationSim, prompt: 'Explore the interactive — Decline Harappan Civilisation' },
+    explore: { component: C9_HistoryCivicsDeclineHarappanCivilisationSim, prompt: 'Explore the interactive — Mehrgarh: Early Agricultural Settlement' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_hist_ch2_6', difficulty: 'standard',
           question: 'Mehrgarh is a Neolithic archaeological site located in the Kachi Plain of.',

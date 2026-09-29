@@ -6,16 +6,16 @@ import C12_BiologyDrugAlcoholAbuseSim from '../../../simulations/c6_12/C12_Biolo
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologydrugalcoholabusesim: SimDef = {
     id: 'v3w_c12_biologydrugalcoholabusesim',
-    title: 'Drug Alcohol Abuse',
+    title: 'Drug and Alcohol Abuse: Effects on Health',
     subtitle: 'Covers: classification of commonly abused drugs (depressants, stimulants, hallucinogens,.',
     classLevel: 12, subject: 'biology', topic: 'Drug and Alcohol Abuse: Effects on Health',
     chapters: [],
     nodeIds: ['c12_bio_cbse_08_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a person who consumes alcohol daily: initially they feel relaxed, but over time they need more to get.', goal: 'Master Drug Alcohol Abuse.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a person who consumes alcohol daily: initially they feel relaxed, but over time they need more to get.', goal: 'Master Drug and Alcohol Abuse: Effects on Health.' },
     discovery: {
         question: 'Name the neurotransmitter primarily involved in the brain\'s reward pathway that is hijacked by almost all addictive drugs, and state the specific brain region.',
-        options: ['Correct answer: Dopamine is the key neurotransmitter', 'serotonin', 'adrenaline'],
+        options: ['Dopamine is the key neurotransmitter', 'serotonin', 'adrenaline'],
         answer: 'Dopamine is the key neurotransmitter',
         hook: 'Students often believe "addiction is just a lack of willpower" and that "withdrawal is only psychological." The exact.',
     },
@@ -33,7 +33,7 @@ export const w_c12_biologydrugalcoholabusesim: SimDef = {
             { text: 'Timeline: 6-12h: tremor, anxiety, insomnia (autonomic hyperactivity); 12-24h: hallucinations (visual, auditory);.', faded: true, blankAnswer: 'He will experience autonomic hyperactivity within 6-12h,.' }
             ] } }
     ],
-    explore: { component: C12_BiologyDrugAlcoholAbuseSim, prompt: 'Explore the interactive — Drug Alcohol Abuse' },
+    explore: { component: C12_BiologyDrugAlcoholAbuseSim, prompt: 'Explore the interactive — Drug and Alcohol Abuse: Effects on Health' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_08_009', difficulty: 'standard',
           question: 'Drug and alcohol abuse refers to the chronic, non-medical use of psychoactive.',

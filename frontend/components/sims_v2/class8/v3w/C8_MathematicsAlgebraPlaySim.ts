@@ -6,13 +6,13 @@ import C8_MathematicsAlgebraPlaySim from '../../../simulations/c6_12/C8_Mathemat
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicsalgebraplaysim: SimDef = {
     id: 'v3w_c8_mathematicsalgebraplaysim',
-    title: 'Algebra Play',
+    title: 'Think of a Number Tricks: Algebraic Explanation',
     subtitle: 'This node covers explaining given number tricks using algebra (single variable, linear.',
     classLevel: 8, subject: 'mathematics', topic: 'Think of a Number Tricks: Algebraic Explanation',
     chapters: [],
     nodeIds: ['c8_math_ch13_1', 'c8_math_ch13_4', 'c8_math_ch5_11'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine your friend says: "Think of a number. Multiply it by 3. Add 6. Divide by 3.', goal: 'Master Algebra Play.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine your friend says: "Think of a number. Multiply it by 3. Add 6. Divide by 3.', goal: 'Master Think of a Number Tricks: Algebraic Explanation.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'A "Think of a Number" trick is a sequence of.', text: 'A "Think of a Number" trick is a sequence of arithmetic operations performed on an unknown number (represented by a variable) that always produces a predictable result regardless of the starting.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -46,13 +46,13 @@ export const w_c8_mathematicsalgebraplaysim: SimDef = {
             { text: 'Check if additional constraints narrow it down. Since the problem states "distinct digits" but gives no further.', faded: true, blankAnswer: 'A + B = 11. With the constraint "A is prime," A = 2, B = 9..' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch13_4', title: 'Identify each idea',
-          dissect: { specimen: 'Algebra Play', spots: [
+          dissect: { specimen: 'Think of a Number Tricks: Algebraic Explanation', spots: [
             { id: 's1', label: 'A Think of a Number', prompt: 'Which idea is this? — A "Think of a Number" trick is a sequence of arithmetic operations performed on an.', answer: 'A Think of a Number', options: ['A Think of a Number', 'A number pyramid is a', 'A cryptarithm is a mathematical'] },
             { id: 's2', label: 'A number pyramid is a', prompt: 'Which idea is this? — A number pyramid is a triangular arrangement of numbers where each number in a higher row.', answer: 'A number pyramid is a', options: ['A number pyramid is a', 'A Think of a Number', 'A cryptarithm is a mathematical'] },
             { id: 's3', label: 'A cryptarithm is a mathematical', prompt: 'Which idea is this? — A cryptarithm is a mathematical puzzle where digits in an arithmetic operation (addition,.', answer: 'A cryptarithm is a mathematical', options: ['A cryptarithm is a mathematical', 'A Think of a Number', 'A number pyramid is a'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsAlgebraPlaySim, prompt: 'Explore the interactive — Algebra Play' },
+    explore: { component: C8_MathematicsAlgebraPlaySim, prompt: 'Explore the interactive — Think of a Number Tricks: Algebraic Explanation' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch13_1', difficulty: 'standard',
           question: 'A "Think of a Number" trick is a sequence of arithmetic operations performed on.',

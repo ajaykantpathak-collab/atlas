@@ -19,7 +19,7 @@ export const c6_english_ch03_p1: SimDef = {
         hook: 'Sequence is not just a list of events. It is a chain of causes and effects — build, fail, react — that teaches readers to expect the next disaster.',
     },
     teaching: [
-        { title: 'Story: "My Brother\'s Great Invention" -- Plot and Sequence', text: 'Plot and sequence refer to the organization of events in a story: the "plot" is what happens, and the "sequence" is the order in which those events occur to create a clear beginning, middle, and end.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Story: "My Brother\'s Great Invention" -- Plot and Sequence', text: 'From \'English chapter c6_english_u3\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c6_english_u3_021', title: 'Your mission',
@@ -82,18 +82,18 @@ export const c6_english_ch03_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_english_u3_021', difficulty: 'standard',
-          question: 'Plot and sequence refer to the organization of events in a story: the "plot".',
+          question: 'From \'English chapter c6_english_u3\': the skill or concept this node teaches.',
           hint: 'Review the concept of "Cause and Effect" before attempting to sequence a full plot.',
           misconception: 'Students often confuse "plot" (the full story) with "sequence" (the specific order of time).',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot and sequence refer to the organization of events in a story: the "plot" is what',
-                  options: ['Plot and sequence refer to the organization of events in a story: the "plot" is what', 'Character analysis is the process of examining a character\'s traits, motivations, and', 'The spirit of innovation is the drive to question, experiment, and persist despite failure', '"Paper Boats" is a poem that uses imagery—mental pictures created by words—to describe a'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c6_english_u3\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c6_english_u3\': the skill or concept this node teaches, applied to', 'The spirit of innovation is the drive to question, experiment, and persist despite failure', '"Paper Boats" is a poem that uses imagery—mental pictures created by words—to describe a', 'Poetic devices are tools used by poets to create deeper meaning and musical effects,'],
                   hint: 'Review the concept of "Cause and Effect" before attempting to sequence a full plot.',
                   misconception: 'Students often confuse "plot" (the full story) with "sequence" (the specific order of time).' }
           ],
             remediations: { 'students-often-confuse-plot-the': { steps: ['First, ask the student to draw a "story map" with three boxes: Start, Middle, and End.', 'Ask them to place one invention in each box.', 'If they struggle, ask: "What happened right after the water bag alarm?" guiding them to find the next chronological.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_english_u3_022', difficulty: 'standard',
-          question: 'Character analysis is the process of examining a character\'s traits.',
+          question: 'From \'English chapter c6_english_u3\': the skill or concept this node teaches.',
           hint: 'Review the definitions of personality traits (e.g., curious, stubborn, confident).',
           misconception: 'Students often confuse "what a character does" with "who a character is." They might say "Anand is an inventor" instead.',
           parts: [
@@ -119,6 +119,10 @@ export const c6_english_ch03_p1: SimDef = {
                 { id: 'b', prompt: 'If an experiment fails to produce the desired result, why is it still considered a valuable part of the innovation process?', answer: 'A failed experiment provides evidence of what does not work',
                   options: ['A failed experiment provides evidence of what does not work', 'useless', 'innovation', '"innovation" only refers to high-tech, expensive machines or gadgets'],
                   hint: 'Review the \'Let us think and reflect\' sections to practice asking questions about the text.',
+                  misconception: 'Students often believe that "innovation" only refers to high-tech, expensive machines or gadgets.' },
+                { id: 'c', prompt: 'A student wants to fix a wobbly table. How can they apply the spirit of innovation to this task?', answer: 'Identify why it wobbles (the problem)',
+                  options: ['Identify why it wobbles (the problem)', 'innovation', '"innovation" only refers to high-tech, expensive machines or gadgets'],
+                  hint: 'Review the \'Let us think and reflect\' sections to practice asking questions about the text.',
                   misconception: 'Students often believe that "innovation" only refers to high-tech, expensive machines or gadgets.' }
           ],
             remediations: { 'innovation-only-refers-to-high': { steps: ['Ask the student to think of one thing they improved in their own life, like organizing their school bag or sharpening.', 'Point out that this small improvement is an "innovation." Explain that big inventions are just these small, repeated.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
@@ -135,7 +139,11 @@ export const c6_english_ch03_p1: SimDef = {
                   options: ['The flowers represent gifts, hopes, or messages the child is sending away', 'to clean the water', 'a poem is only about what is physically happening (literal level)'],
                   hint: 'Review "Let us learn" sections regarding descriptive adjectives.',
                   misconception: 'Students often think a poem is only about what is physically happening (literal level).' },
-                { id: 'c', prompt: 'How does the reflection of the clouds in the water change the "mood" of the poem?', answer: 'The reflection adds a sense of vastness and wonder, making the small stream feel',
+                { id: 'c', prompt: 'If you were writing a poem, what object would you use to represent a "dream" or "secret wish"?', answer: 'Identify a small, portable object (like a kite or a paper bird)',
+                  options: ['Identify a small, portable object (like a kite or a paper bird)', 'a poem is only about what is physically happening (literal level)'],
+                  hint: 'Review "Let us learn" sections regarding descriptive adjectives.',
+                  misconception: 'Students often think a poem is only about what is physically happening (literal level).' },
+                { id: 'd', prompt: 'How does the reflection of the clouds in the water change the "mood" of the poem?', answer: 'The reflection adds a sense of vastness and wonder, making the small stream feel',
                   options: ['The reflection adds a sense of vastness and wonder, making the small stream feel', 'imagery', 'a poem is only about what is physically happening (literal level)'],
                   hint: 'Review "Let us learn" sections regarding descriptive adjectives.',
                   misconception: 'Students often think a poem is only about what is physically happening (literal level).' }

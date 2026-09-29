@@ -6,13 +6,13 @@ import C10_ScienceControlAndCoordinationSim from '../../../simulations/c6_12/C10
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_sciencecontrolandcoordinationsim: SimDef = {
     id: 'v3w_c10_sciencecontrolandcoordinationsim',
-    title: 'Control And Coordination',
+    title: 'Control and Coordination in Animals vs Plants: Overview',
     subtitle: 'This node covers the fundamental comparison between animal and plant coordination systems.',
     classLevel: 10, subject: 'science', topic: 'Control and Coordination in Animals vs Plants: Overview',
     chapters: [],
     nodeIds: ['c10_bio_cbse_02_001', 'c10_bio_cbse_02_010', 'c10_bio_cbse_02_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Observe a mimosa plant (touch-me-not) folding its leaves when touched and compare it to instantly pulling.', goal: 'Master Control And Coordination.' },
+    scenario: { role: 'a class 10 learner', intro: 'Observe a mimosa plant (touch-me-not) folding its leaves when touched and compare it to instantly pulling.', goal: 'Master Control and Coordination in Animals vs Plants: Overview.' },
     discovery: {
         question: 'Name the three major divisions of the human brain and give one main function of each.',
         options: ['The three divisions are: (1) Forebrain', 'cerebrum controls breathing', 'midbrain'],
@@ -51,13 +51,13 @@ export const w_c10_sciencecontrolandcoordinationsim: SimDef = {
             { text: 'Cerebrum (frontal lobe) initiates voluntary response — Riya decides to run cold water over the burn.', faded: true, blankAnswer: 'The reflex withdrawal is spinal (no brain). Pain perception.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_bio_cbse_02_010', title: 'Identify each idea',
-          dissect: { specimen: 'Control And Coordination', spots: [
+          dissect: { specimen: 'Control and Coordination in Animals vs Plants: Overview', spots: [
             { id: 's1', label: 'Control and coordination is the', prompt: 'Which idea is this? — Control and coordination is the biological process by which organisms detect changes.', answer: 'Control and coordination is the', options: ['Control and coordination is the', 'The adrenal glands are a', 'The human brain is the'] },
             { id: 's2', label: 'The adrenal glands are a', prompt: 'Which idea is this? — The adrenal glands are a pair of endocrine glands located on top of each kidney,.', answer: 'The adrenal glands are a', options: ['The adrenal glands are a', 'Control and coordination is the', 'The human brain is the'] },
             { id: 's3', label: 'The human brain is the', prompt: 'Which idea is this? — The human brain is the central control center of the nervous system, divided into three.', answer: 'The human brain is the', options: ['The human brain is the', 'Control and coordination is the', 'The adrenal glands are a'] }
           ] } }
     ],
-    explore: { component: C10_ScienceControlAndCoordinationSim, prompt: 'Explore the interactive — Control And Coordination' },
+    explore: { component: C10_ScienceControlAndCoordinationSim, prompt: 'Explore the interactive — Control and Coordination in Animals vs Plants: Overview' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_bio_cbse_02_001', difficulty: 'standard',
           question: 'Control and coordination is the biological process by which organisms detect.',

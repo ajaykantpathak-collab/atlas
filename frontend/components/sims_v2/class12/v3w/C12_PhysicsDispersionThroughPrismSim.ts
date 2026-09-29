@@ -6,13 +6,13 @@ import C12_PhysicsDispersionThroughPrismSim from '../../../simulations/c6_12/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsdispersionthroughprismsim: SimDef = {
     id: 'v3w_c12_physicsdispersionthroughprismsim',
-    title: 'Dispersion Through Prism',
+    title: 'Prism: Refraction Through Prism and Dispersion',
     subtitle: 'This node covers: (a) Geometry of refraction through a triangular prism, derivation of δ.',
     classLevel: 12, subject: 'physics', topic: 'Prism: Refraction Through Prism and Dispersion',
     chapters: [],
     nodeIds: ['c12_phy_cbse_09_008', 'c12_phy_cbse_09_003', 'c12_phy_cbse_09_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a triangular glass prism on a sunny windowsill — you see a rainbow spectrum projected on the floor.', goal: 'Master Dispersion Through Prism.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a triangular glass prism on a sunny windowsill — you see a rainbow spectrum projected on the floor.', goal: 'Master Prism: Refraction Through Prism and Dispersion.' },
     discovery: {
         question: 'A ray of light is incident on one face of a prism of refracting angle A = 60° at an angle of incidence i = 45°.',
         options: ['δ = i + e - A = 45° + 55° - 60° = 40°', 'minimum deviation occurs when the ray passes through the prism symmetrically', 'symmetric passage'],
@@ -55,13 +55,13 @@ export const w_c12_physicsdispersionthroughprismsim: SimDef = {
             { text: 'State final answers with units: Critical angle ic = 48.6° (or 0.848 rad). Radius of escape circle R = 2.27 m.', faded: true, blankAnswer: 'Critical angle ic = 48.6° (or sin⁻¹(0.75) ≈ 0.848 rad)..' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_09_003', title: 'Identify each idea',
-          dissect: { specimen: 'Dispersion Through Prism', spots: [
+          dissect: { specimen: 'Prism: Refraction Through Prism and Dispersion', spots: [
             { id: 's1', label: 'A prism is a transparent', prompt: 'Which idea is this? — A prism is a transparent optical medium bounded by two plane refracting surfaces inclined.', answer: 'A prism is a transparent', options: ['A prism is a transparent', 'Refraction is the bending of', 'Total Internal Reflection TIR is'] },
             { id: 's2', label: 'Refraction is the bending of', prompt: 'Which idea is this? — Refraction is the bending of a light ray when it passes obliquely from one transparent.', answer: 'Refraction is the bending of', options: ['Refraction is the bending of', 'A prism is a transparent', 'Total Internal Reflection TIR is'] },
             { id: 's3', label: 'Total Internal Reflection TIR is', prompt: 'Which idea is this? — Total Internal Reflection (TIR) is the phenomenon where a light ray traveling in an.', answer: 'Total Internal Reflection TIR is', options: ['Total Internal Reflection TIR is', 'A prism is a transparent', 'Refraction is the bending of'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsDispersionThroughPrismSim, prompt: 'Explore the interactive — Dispersion Through Prism' },
+    explore: { component: C12_PhysicsDispersionThroughPrismSim, prompt: 'Explore the interactive — Prism: Refraction Through Prism and Dispersion' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_09_008', difficulty: 'standard',
           question: 'A prism is a transparent optical medium bounded by two plane refracting.',

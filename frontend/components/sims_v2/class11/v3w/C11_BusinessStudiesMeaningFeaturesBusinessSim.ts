@@ -6,13 +6,13 @@ import C11_BusinessStudiesMeaningFeaturesBusinessSim from '../../../simulations/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_businessstudiesmeaningfeaturesbusinesssim: SimDef = {
     id: 'v3w_c11_businessstudiesmeaningfeaturesbusinesssim',
-    title: 'Meaning Features Business',
+    title: 'Private Sector and Public Sector: Meaning and Distinction',
     subtitle: 'This node covers the fundamental meaning, distinguishing features, and classification of.',
     classLevel: 11, subject: 'business_studies', topic: 'Private Sector and Public Sector: Meaning and Distinction',
     chapters: [],
     nodeIds: ['c11_bs_cbse_03_001', 'c11_bs_cbse_08_001', 'c11_bs_cbse_08_006', 'c11_bs_cbse_10_003', 'c11_bs_cbse_02_003', 'c11_bs_cbse_05_006', 'c11_bs_cbse_05_007', 'c11_bs_cbse_03_007', 'c11_bs_cbse_08_007', 'c11_bs_cbse_10_001', 'c11_bs_cbse_11_001', 'c11_bs_cbse_11_004', 'c11_bs_cbse_11_005', 'c11_bs_cbse_11_006', 'c11_bs_cbse_05_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are reading a news headline: "Government to sell 51% stake in BPCL to private players." You.', goal: 'Master Meaning Features Business.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are reading a news headline: "Government to sell 51% stake in BPCL to private players." You.', goal: 'Master Private Sector and Public Sector: Meaning and Distinction.' },
     discovery: {
         question: 'Compare and contrast "Owner\'s funds" and "Borrowed funds" on the following dimensions: (a) Claim on assets during liquidation, (b) Cost to the business, (c).',
         options: ['| Dimension | Owner\'s Funds (Equity/Retained Earnings) | Borrowed Funds', 'owner\'s funds have no cost', 'borrowed funds always dilute control'],
@@ -82,7 +82,7 @@ export const w_c11_businessstudiesmeaningfeaturesbusinesssim: SimDef = {
             { text: 'Check strategic risk: 6-month contract allows exit; SLA includes 99% on-time delivery penalty clause.', faded: true, blankAnswer: 'Yes, outsource. Monthly saving ₹180,000; gains cold-chain.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bs_cbse_08_001', title: 'Identify each idea',
-          dissect: { specimen: 'Meaning Features Business', spots: [
+          dissect: { specimen: 'Private Sector and Public Sector: Meaning and Distinction', spots: [
             { id: 's1', label: 'The private sector comprises business', prompt: 'Which idea is this? — The private sector comprises business enterprises owned, controlled, and managed by.', answer: 'The private sector comprises business', options: ['The private sector comprises business', 'Business finance refers to the', 'A debenture is a written', 'Retail trade refers to the'] },
             { id: 's2', label: 'Business finance refers to the', prompt: 'Which idea is this? — Business finance refers to the monetary resources required by a business enterprise to.', answer: 'Business finance refers to the', options: ['Business finance refers to the', 'The private sector comprises business', 'A debenture is a written', 'Retail trade refers to the'] },
             { id: 's3', label: 'A debenture is a written', prompt: 'Which idea is this? — A debenture is a written instrument acknowledging a debt issued by a company under its.', answer: 'A debenture is a written', options: ['A debenture is a written', 'The private sector comprises business', 'Business finance refers to the', 'Retail trade refers to the'] },
@@ -91,7 +91,7 @@ export const w_c11_businessstudiesmeaningfeaturesbusinesssim: SimDef = {
             { id: 's6', label: 'Outsourcing is the strategic business', prompt: 'Which idea is this? — Outsourcing is the strategic business practice of contracting out non-core or routine.', answer: 'Outsourcing is the strategic business', options: ['Outsourcing is the strategic business', 'The private sector comprises business', 'Business finance refers to the', 'A debenture is a written'] }
           ] } }
     ],
-    explore: { component: C11_BusinessStudiesMeaningFeaturesBusinessSim, prompt: 'Explore the interactive — Meaning Features Business' },
+    explore: { component: C11_BusinessStudiesMeaningFeaturesBusinessSim, prompt: 'Explore the interactive — Private Sector and Public Sector: Meaning and Distinction' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bs_cbse_03_001', difficulty: 'standard',
           question: 'The private sector comprises business enterprises owned, controlled, and.',

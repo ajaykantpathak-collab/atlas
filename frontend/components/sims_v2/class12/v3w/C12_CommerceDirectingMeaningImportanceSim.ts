@@ -6,13 +6,13 @@ import C12_CommerceDirectingMeaningImportanceSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_commercedirectingmeaningimportancesim: SimDef = {
     id: 'v3w_c12_commercedirectingmeaningimportancesim',
-    title: 'Directing Meaning Importance',
+    title: 'Directing: Meaning, Nature and Importance',
     subtitle: 'This node covers the meaning, characteristics, importance, and principles of directing as.',
     classLevel: 12, subject: 'business_studies', topic: 'Directing: Meaning, Nature and Importance',
     chapters: [],
     nodeIds: ['c12_bs_cbse_07_001', 'c12_bs_cbse_07_003', 'c12_bs_cbse_07_007', 'c12_bs_cbse_01_001', 'c12_bs_cbse_01_008', 'c12_bs_cbse_05_009', 'c12_bs_cbse_07_006', 'c12_bs_cbse_07_008', 'c12_bs_cbse_01_004', 'c12_bs_cbse_05_001', 'c12_bs_cbse_05_010', 'c12_bs_cbse_06_001', 'c12_bs_cbse_06_007', 'c12_bs_cbse_09_006', 'c12_bs_cbse_05_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the captain of a cricket team: you have a game plan (planning), assigned fielding positions.', goal: 'Master Directing Meaning Importance.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the captain of a cricket team: you have a game plan (planning), assigned fielding positions.', goal: 'Master Directing: Meaning, Nature and Importance.' },
     discovery: {
         question: 'Design a mini-case (3-4 sentences) showing a manager applying the principle "Appropriateness of direction technique" for two employees with different.',
         options: ['Example: "Rohan, a junior analyst, is driven by money', 'give both a bonus', 'Directing = Communication'],
@@ -79,7 +79,7 @@ export const w_c12_commercedirectingmeaningimportancesim: SimDef = {
             { text: 'Conclude: GM cannot escape accountability by blaming PM. The contract may be voidable due to excess authority, but GM.', faded: true, blankAnswer: 'The GM is accountable to the company; the PM acted beyond.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bs_cbse_07_003', title: 'Identify each idea',
-          dissect: { specimen: 'Directing Meaning Importance', spots: [
+          dissect: { specimen: 'Directing: Meaning, Nature and Importance', spots: [
             { id: 's1', label: 'Directing is the managerial function', prompt: 'Which idea is this? — Directing is the managerial function of instructing, guiding, counselling, motivating,.', answer: 'Directing is the managerial function', options: ['Directing is the managerial function', 'Supervision is the process of', 'Motivation is the process of', 'Management is the process of'] },
             { id: 's2', label: 'Supervision is the process of', prompt: 'Which idea is this? — Supervision is the process of overseeing, guiding, and directing the efforts of employees.', answer: 'Supervision is the process of', options: ['Supervision is the process of', 'Directing is the managerial function', 'Motivation is the process of', 'Management is the process of'] },
             { id: 's3', label: 'Motivation is the process of', prompt: 'Which idea is this? — Motivation is the process of stimulating people to action to accomplish desired.', answer: 'Motivation is the process of', options: ['Motivation is the process of', 'Directing is the managerial function', 'Supervision is the process of', 'Management is the process of'] },
@@ -88,7 +88,7 @@ export const w_c12_commercedirectingmeaningimportancesim: SimDef = {
             { id: 's6', label: 'Delegation is the process by', prompt: 'Which idea is this? — Delegation is the process by which a manager (superior) transfers authority to a.', answer: 'Delegation is the process by', options: ['Delegation is the process by', 'Directing is the managerial function', 'Supervision is the process of', 'Motivation is the process of'] }
           ] } }
     ],
-    explore: { component: C12_CommerceDirectingMeaningImportanceSim, prompt: 'Explore the interactive — Directing Meaning Importance' },
+    explore: { component: C12_CommerceDirectingMeaningImportanceSim, prompt: 'Explore the interactive — Directing: Meaning, Nature and Importance' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bs_cbse_07_001', difficulty: 'standard',
           question: 'Directing is the managerial function of instructing, guiding, counselling,.',

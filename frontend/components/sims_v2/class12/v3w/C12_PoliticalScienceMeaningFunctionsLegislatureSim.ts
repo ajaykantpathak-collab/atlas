@@ -6,13 +6,13 @@ import C12_PoliticalScienceMeaningFunctionsLegislatureSim from '../../../simulat
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_politicalsciencemeaningfunctionslegislaturesim: SimDef = {
     id: 'v3w_c12_politicalsciencemeaningfunctionslegislaturesim',
-    title: 'Meaning Functions Legislature',
+    title: 'Environmental Movements and the Politics of Development',
     subtitle: 'Covers: Chipko (1973), Silent Valley (1970s-80s), Narmada Bachao Andolan (1985+), Appiko,.',
     classLevel: 12, subject: 'political_science', topic: 'Environmental Movements and the Politics of Development',
     chapters: [],
     nodeIds: ['c12_ps_cbse_13_008', 'c12_ps_cbse_02_001', 'c12_ps_cbse_09_008', 'c12_ps_cbse_12_008', 'c12_ps_cbse_08_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re a Class 12 student reading a news report about a new highway cutting through a tiger reserve.', goal: 'Master Meaning Functions Legislature.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re a Class 12 student reading a news report about a new highway cutting through a tiger reserve.', goal: 'Master Environmental Movements and the Politics of Development.' },
     discovery: {
         question: 'Evaluate the claim: "The Forest Rights Act 2006 resolved the historical injustice against forest-dwelling communities." Use *three* specific implementation.',
         options: ['**Claim is false', 'success', 'policy = outcome'],
@@ -69,7 +69,7 @@ export const w_c12_politicalsciencemeaningfunctionslegislaturesim: SimDef = {
             { text: 'To address illiteracy, the Commission assigned a unique symbol to each candidate/party (e.g., bullocks for Congress,.', faded: true, blankAnswer: 'The Commission used house-to-house enumeration, refugee.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_ps_cbse_02_001', title: 'Identify each idea',
-          dissect: { specimen: 'Meaning Functions Legislature', spots: [
+          dissect: { specimen: 'Environmental Movements and the Politics of Development', spots: [
             { id: 's1', label: 'Environmental Movements and the Politics', prompt: 'Which idea is this? — Environmental Movements and the Politics of Development refers to the contested terrain.', answer: 'Environmental Movements and the Politics', options: ['Environmental Movements and the Politics', 'The Soviet System refers to', 'Opposition parties in the 1950s', 'The 1977 general elections were'] },
             { id: 's2', label: 'The Soviet System refers to', prompt: 'Which idea is this? — The Soviet System refers to the political and economic structure of the Union of Soviet.', answer: 'The Soviet System refers to', options: ['The Soviet System refers to', 'Environmental Movements and the Politics', 'Opposition parties in the 1950s', 'The 1977 general elections were'] },
             { id: 's3', label: 'Opposition parties in the 1950s', prompt: 'Which idea is this? — Opposition parties in the 1950s refer to the diverse non-Congress political parties.', answer: 'Opposition parties in the 1950s', options: ['Opposition parties in the 1950s', 'Environmental Movements and the Politics', 'The Soviet System refers to', 'The 1977 general elections were'] },
@@ -77,7 +77,7 @@ export const w_c12_politicalsciencemeaningfunctionslegislaturesim: SimDef = {
             { id: 's5', label: 'The First General Elections of', prompt: 'Which idea is this? — The First General Elections of 1951-52 were the inaugural nationwide elections held under.', answer: 'The First General Elections of', options: ['The First General Elections of', 'Environmental Movements and the Politics', 'The Soviet System refers to', 'Opposition parties in the 1950s'] }
           ] } }
     ],
-    explore: { component: C12_PoliticalScienceMeaningFunctionsLegislatureSim, prompt: 'Explore the interactive — Meaning Functions Legislature' },
+    explore: { component: C12_PoliticalScienceMeaningFunctionsLegislatureSim, prompt: 'Explore the interactive — Environmental Movements and the Politics of Development' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_ps_cbse_13_008', difficulty: 'standard',
           question: 'Environmental Movements and the Politics of Development refers to the contested.',

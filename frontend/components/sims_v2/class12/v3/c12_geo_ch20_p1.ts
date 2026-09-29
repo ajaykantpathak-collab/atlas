@@ -126,8 +126,8 @@ export const c12_geo_ch20_p1: SimDef = {
           hint: 'If unsure whether a variable is continuous or discrete, ask: "Can I meaningfully.',
           misconception: 'Students believe "bar diagrams are only for discrete categories and line graphs only for time" — they fail to recognize.',
           parts: [
-                { id: 'a', prompt: 'Construct a simple bar diagram for the following data: Rice production (lakh tonnes) in major states 2020–21 — West Bengal 155, Uttar Pradesh 142, Punjab 128.', answer: 'Steps: (1) Draw X-Y axes',
-                  options: ['Steps: (1) Draw X-Y axes', 'draw bars', 'bar diagrams are only for discrete categories and line graphs only for time'],
+                { id: 'a', prompt: 'Construct a simple bar diagram for the following data: Rice production (lakh tonnes) in major states 2020–21 — West Bengal 155, Uttar Pradesh 142, Punjab 128.', answer: '(1) Draw X-Y axes',
+                  options: ['(1) Draw X-Y axes', 'draw bars', 'bar diagrams are only for discrete categories and line graphs only for time'],
                   hint: 'If unsure whether a variable is continuous or discrete, ask: "Can I meaningfully interpolate.',
                   misconception: 'Students believe "bar diagrams are only for discrete categories and line graphs only for time" — they fail to recognize that line graphs.' }
           ],

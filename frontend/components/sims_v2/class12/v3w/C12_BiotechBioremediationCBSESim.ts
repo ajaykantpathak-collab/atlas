@@ -6,13 +6,13 @@ import C12_BiotechBioremediationCBSESim from '../../../simulations/c6_12_new/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biotechbioremediationcbsesim: SimDef = {
     id: 'v3w_c12_biotechbioremediationcbsesim',
-    title: 'Bioremediation CBSE',
+    title: 'Biotechnology Industry: Scope and Major Sectors',
     subtitle: 'This node covers the **scope and classification of major biotechnology sectors** as.',
     classLevel: 12, subject: 'biotechnology', topic: 'Biotechnology Industry: Scope and Major Sectors',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_12_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Class 12 student asked: "Biotechnology is everywhere — from the insulin a diabetic relative.', goal: 'Master Bioremediation CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Class 12 student asked: "Biotechnology is everywhere — from the insulin a diabetic relative.', goal: 'Master Biotechnology Industry: Scope and Major Sectors.' },
     discovery: {
         question: 'Compare and contrast **organoids** and **spheroids** as 3D culture models for drug screening.',
         options: ['the cellular origin of each, (', 'both need Matrigel', 'both come from stem cells'],
@@ -33,7 +33,7 @@ export const w_c12_biotechbioremediationcbsesim: SimDef = {
             { text: 'Interpret — the 3:1 methanol:oil molar ratio is stoichiometric; industrially 6:1 (2x excess) is used to drive.', faded: true, blankAnswer: 'Acid-catalysed (H₂SO₄) trans-esterification is suitable for.' }
             ] } }
     ],
-    explore: { component: C12_BiotechBioremediationCBSESim, prompt: 'Explore the interactive — Bioremediation CBSE' },
+    explore: { component: C12_BiotechBioremediationCBSESim, prompt: 'Explore the interactive — Biotechnology Industry: Scope and Major Sectors' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_biotech_cbse_12_001', difficulty: 'standard',
           question: 'The biotechnology industry encompasses the commercial application of biological.',

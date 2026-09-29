@@ -6,13 +6,13 @@ import C8_MathematicsDirectAndInverseProportionsIntroductionSim from '../../../s
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicsdirectandinverseproportionsintroductionsim: SimDef = {
     id: 'v3w_c8_mathematicsdirectandinverseproportionsintroductionsim',
-    title: 'Direct And Inverse Proportions Introduction',
+    title: 'Unitary Method: Finding One Unit Then Scaling',
     subtitle: 'This node covers the unitary method for direct proportion problems with whole numbers,.',
     classLevel: 8, subject: 'mathematics', topic: 'Unitary Method: Finding One Unit Then Scaling',
     chapters: [],
     nodeIds: ['c8_math_ch7_6', 'c8_math_ch7_8', 'c8_math_ch7_9', 'c8_math_ch10_1', 'c8_math_ch10_10', 'c8_math_ch10_6', 'c8_math_ch10_7', 'c8_math_ch10_9', 'c8_math_ch7_1', 'c8_math_ch7_4', 'c8_math_ch7_5', 'c8_math_ch7_7', 'c8_math_ch10_4', 'c8_math_ch10_5', 'c8_math_ch10_8'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you are at a vegetable market in Delhi: 3.5 kg of tomatoes cost ₹105.', goal: 'Master Direct And Inverse Proportions Introduction.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you are at a vegetable market in Delhi: 3.5 kg of tomatoes cost ₹105.', goal: 'Master Unitary Method: Finding One Unit Then Scaling.' },
     discovery: {
         question: 'A car travels a fixed distance of 240 km. Explain why the speed of the car and the time taken are in inverse proportion, using the concept of constant product.',
         options: ['For a fixed distance, speed \\(\\times\\) time = distance (constant)', 'both change', 'any relationship'],
@@ -78,7 +78,7 @@ export const w_c8_mathematicsdirectandinverseproportionsintroductionsim: SimDef 
             { text: 'Verify: 30 litres × 15 km/litre = 450 km. Answer makes sense — more distance needs more petrol.', faded: true, blankAnswer: '(a) 15 km/litre, (b) d = 15p, (c) 30 litres' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch7_8', title: 'Identify each idea',
-          dissect: { specimen: 'Direct And Inverse Proportions Introduction', spots: [
+          dissect: { specimen: 'Unitary Method: Finding One Unit Then Scaling', spots: [
             { id: 's1', label: 'The unitary method is a', prompt: 'Which idea is this? — The unitary method is a technique for solving proportional problems by first finding the.', answer: 'The unitary method is a', options: ['The unitary method is a', 'Two quantities are in direct', 'Direct proportion describes a relationship', 'The cross-multiplication method states that'] },
             { id: 's2', label: 'Two quantities are in direct', prompt: 'Which idea is this? — Two quantities are in direct proportion if they increase or decrease together in such a.', answer: 'Two quantities are in direct', options: ['Two quantities are in direct', 'The unitary method is a', 'Direct proportion describes a relationship', 'The cross-multiplication method states that'] },
             { id: 's3', label: 'Direct proportion describes a relationship', prompt: 'Which idea is this? — Direct proportion describes a relationship between two quantities where an increase (or.', answer: 'Direct proportion describes a relationship', options: ['Direct proportion describes a relationship', 'The unitary method is a', 'Two quantities are in direct', 'The cross-multiplication method states that'] },
@@ -86,7 +86,7 @@ export const w_c8_mathematicsdirectandinverseproportionsintroductionsim: SimDef 
             { id: 's5', label: 'Two quantities x and y', prompt: 'Which idea is this? — Two quantities x and y are in direct proportion if their ratio x/y remains constant,.', answer: 'Two quantities x and y', options: ['Two quantities x and y', 'The unitary method is a', 'Two quantities are in direct', 'Direct proportion describes a relationship'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsDirectAndInverseProportionsIntroductionSim, prompt: 'Explore the interactive — Direct And Inverse Proportions Introduction' },
+    explore: { component: C8_MathematicsDirectAndInverseProportionsIntroductionSim, prompt: 'Explore the interactive — Unitary Method: Finding One Unit Then Scaling' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch7_6', difficulty: 'standard',
           question: 'The unitary method is a technique for solving proportional problems by first.',

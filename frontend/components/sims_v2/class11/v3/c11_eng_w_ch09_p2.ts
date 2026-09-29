@@ -19,45 +19,45 @@ export const c11_eng_w_ch09_p2: SimDef = {
         hook: 'The poem doesn\'t pretend the peacock is in the room — it\'s a \'blue shadow\' falling on someone reading, glimpsed across a gap the poem refuses to hide.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying, supporting ideas in a literary work that complement the primary theme by adding layers of meaning, exploring related concepts, or providing alternative.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Peacock\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_09_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Order the sensory signals that announce the bird — shadow, wind, silenced bees, stretching cat — then judge whether free verse mimics its darting.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_09_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are sitting on a veranda with your favourite book, completely absorbed, when suddenly the world around you shifts — the wind turns, insects fall.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Peacock\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'List three specific sensory details from the poem that change when the peacock approaches, and state what each detail literally describes.', options: [
                 { text: 'Correct answer: (1) "The wind will change direction"', outcome: 'Correct answer: (1) "The wind will change direction" — literal shift in air current; (2) "The.' },
                 { text: 'patience reveals beauty', outcome: 'Not quite — Students often confuse *motifs* (recurring images like colours, eyes, books) with *themes* (ideas.', reveals: 'students-often-confuse-motifs-recurring' },
                 { text: 'art frames nature', outcome: 'Not quite — Students often confuse *motifs* (recurring images like colours, eyes, books) with *themes* (ideas.', reveals: 'students-often-confuse-motifs-recurring' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_09_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you\'re sitting on a veranda reading a book when suddenly the air goes quiet — bees stop humming, a cat stretches, a shadow crosses your page.',
+          caseStudy: { intro: 'Find the lines in \'The Peacock\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define imagery and metaphor in your own words, giving one example of each from daily life (not from the poem).', options: [
                 { text: 'Imagery: Language that appeals to senses, e.g., "The aroma of frying onions made my', outcome: 'Imagery: Language that appeals to senses, e.g., "The aroma of frying onions made my stomach growl".' },
                 { text: 'Imagery is just description', outcome: 'Not quite — Students often think "imagery" means only visual description and "metaphor" means any poetic.', reveals: 'imagery-means-only-visual-description' },
                 { text: 'Metaphor uses like/as', outcome: 'Not quite — Students often think "imagery" means only visual description and "metaphor" means any poetic.', reveals: 'imagery-means-only-visual-description' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_09_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading a nature article and encounter: "The bird\'s **iridescent** feathers flashed **emerald** and **azure**." You don\'t know \'iridescent\'.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Peacock\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What does the word \'turquoise\' refer to in the line "Then, a flash of turquoise in the pipal tree"?', options: [
                 { text: 'Correct answer: \'Turquoise\' refers to a bright blue-green colour, specifically describing', outcome: 'Correct answer: \'Turquoise\' refers to a bright blue-green colour, specifically describing the.' },
                 { text: 'a type of bird', outcome: 'Not quite — Students often think \'turquoise\' is just a colour name without realising it specifically describes.', reveals: 'turquoise-is-just-a-colour' },
                 { text: 'a sound', outcome: 'Not quite — Students often think \'turquoise\' is just a colour name without realising it specifically describes.', reveals: 'turquoise-is-just-a-colour' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_09_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are describing a lightning strike to a friend: you\'d use present tense ("It flashes!") to make it feel like it\'s happening *now*, not past tense.',
+          caseStudy: { intro: 'Read \'The Peacock\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the tense and mood of the verb phrase "have to sit" in the line "you have to sit in the veranda".', options: [
                 { text: 'The verb phrase "have to sit" is in the present tense, semi-modal structure expressing', outcome: 'The verb phrase "have to sit" is in the present tense, semi-modal structure expressing external.' },
                 { text: 'past tense', outcome: 'Not quite — Students treat grammar as a labeling exercise ("This is present tense", "This is a preposition").', reveals: 'students-treat-grammar-as-a' },
                 { text: 'imperative mood', outcome: 'Not quite — Students treat grammar as a labeling exercise ("This is present tense", "This is a preposition").', reveals: 'students-treat-grammar-as-a' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_09_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re sitting in your veranda reading your favorite novel, just like the poem describes.',
+          caseStudy: { intro: 'Answer \'The Peacock\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify one literal detail from the poem about the peacock\'s physical appearance that is explicitly stated.', options: [
                 { text: 'The poem explicitly states "a flash of turquoise" and "dark glowing eyes, violet fringed', outcome: 'The poem explicitly states "a flash of turquoise" and "dark glowing eyes, violet fringed with.' },
                 { text: 'a flash of turquoise', outcome: 'Not quite — Students treat "inferential" as "guessing" — they offer personal opinions ("I think the peacock.', reveals: 'students-treat-inferential-as-guessing' },
@@ -77,12 +77,12 @@ export const c11_eng_w_ch09_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_09_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying, supporting ideas in a literary work that.',
+          question: 'Secondary themes in \'The Peacock\' — the supporting ideas and motifs that deepen.',
           hint: 'Review node 006\'s worked examples on primary theme formulation; practice converting.',
           misconception: 'Students often confuse *motifs* (recurring images like colours, eyes, books) with *themes* (ideas like "patience.',
           parts: [
@@ -95,7 +95,7 @@ export const c11_eng_w_ch09_p2: SimDef = {
                   hint: 'Review node 006\'s worked examples on primary theme formulation; practice converting topics.',
                   misconception: 'Students often confuse *motifs* (recurring images like colours, eyes, books) with *themes* (ideas like "patience reveals beauty" or "art.' }
           ],
-            remediations: { 'students-often-confuse-motifs-recurring': { steps: ['If a student lists images instead of themes: (1) Have them write each image on a sticky note.', '(2) Ask: "What does this image *say* about life, perception, or art?" (3) Guide them to complete the sentence: "The.', 'Repeat for three images to yield three secondary themes.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-motifs-recurring': { steps: ['If a student lists images instead of themes: (1) Have them write each image on a sticky note.', '(2) Ask: "What does this image *say* about life, perception, or art?" (3) Guide them to complete the sentence: "The.', 'Repeat for three images to yield three secondary themes.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_09_007', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -106,9 +106,9 @@ export const c11_eng_w_ch09_p2: SimDef = {
                   hint: 'Review node 006\'s worked examples on primary theme formulation; practice converting topics.',
                   misconception: 'Students often confuse *motifs* (recurring images like colours, eyes, books) with *themes* (ideas like "patience reveals beauty" or "art.' }
           ],
-            remediations: { 'students-often-confuse-motifs-recurring': { steps: ['If a student lists images instead of themes: (1) Have them write each image on a sticky note.', '(2) Ask: "What does this image *say* about life, perception, or art?" (3) Guide them to complete the sentence: "The.', 'Repeat for three images to yield three secondary themes.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-motifs-recurring': { steps: ['If a student lists images instead of themes: (1) Have them write each image on a sticky note.', '(2) Ask: "What does this image *say* about life, perception, or art?" (3) Guide them to complete the sentence: "The.', 'Repeat for three images to yield three secondary themes.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_09_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'The Peacock\' — the vivid, sensory language that creates.',
           hint: 'Review the PEEL paragraph structure (Point, Evidence, Explanation, Link) from.',
           misconception: 'Students often think "imagery" means only visual description and "metaphor" means any poetic comparison.',
           parts: [
@@ -117,20 +117,20 @@ export const c11_eng_w_ch09_p2: SimDef = {
                   hint: 'Review the PEEL paragraph structure (Point, Evidence, Explanation, Link) from c7_engl_ch01_015 and.',
                   misconception: 'Students often think "imagery" means only visual description and "metaphor" means any poetic comparison.' }
           ],
-            remediations: { 'imagery-means-only-visual-description': { steps: ['Have the student close eyes and listen to a 30-second audio of a garden; list every sense triggered.', 'Give two sentences: "The exam was a nightmare" vs "The exam was like a nightmare"; ask which is metaphor and why.', 'Return to the poem: circle every sensory word, then draw arrows from each metaphor\'s vehicle to tenor.', 'Ask: "If we replaced \'blue shadow\' with \'the peacock appeared,\' what is lost?" Forces attention to function over.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'imagery-means-only-visual-description': { steps: ['Have the student close eyes and listen to a 30-second audio of a garden; list every sense triggered.', 'Give two sentences: "The exam was a nightmare" vs "The exam was like a nightmare"; ask which is metaphor and why.', 'Return to the poem: circle every sensory word, then draw arrows from each metaphor\'s vehicle to tenor.', 'Ask: "If we replaced \'blue shadow\' with \'the peacock appeared,\' what is lost?" Forces attention to function over.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_09_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'The Peacock\' — where opposite things are both true,.',
           hint: 'Review the irony in "The Necklace" (c10_engl_cbse_16_008) and the symbolism of the cherry.',
           misconception: 'Students often confuse the peacock\'s "eyes" on its tail as literal eyes and miss the symbolic paradox.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where the intended meaning of words or events is opposite to',
-                  options: ['Irony is a literary device where the intended meaning of words or events is opposite to', '"Before You Read: Context and Background" is a preparatory literary skill where students', 'In poetry, narrative structure refers to the organized sequence of events, images, and', 'Setting in poetry refers to the time, place, and physical environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'The Peacock\'',
+                  options: ['Irony and paradox in \'The Peacock\'', '\'The Peacock\' (Woven Words, ch', 'The plot/narrative arc of \'The Peacock\'', 'The setting of \'The Peacock\''],
                   hint: 'Review the irony in "The Necklace" (c10_engl_cbse_16_008) and the symbolism of the cherry tree.',
                   misconception: 'Students often confuse the peacock\'s "eyes" on its tail as literal eyes and miss the symbolic paradox.' }
           ],
-            remediations: { 'students-often-confuse-the-peacock': { steps: ['Ask the student to list the literal events in the poem (speaker sits, reads, peacock appears).', 'For each event, ask "What is the opposite of what you\'d expect?" to surface irony.', 'For each striking image (blue shadow, tail eyes, changed wind), ask "What could this stand for beyond itself?".', 'Have them write one PEEL paragraph on one device, using the template: Point (device), Evidence (lines), Explanation.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-the-peacock': { steps: ['Ask the student to list the literal events in the poem (speaker sits, reads, peacock appears).', 'For each event, ask "What is the opposite of what you\'d expect?" to surface irony.', 'For each striking image (blue shadow, tail eyes, changed wind), ask "What could this stand for beyond itself?".', 'Have them write one PEEL paragraph on one device, using the template: Point (device), Evidence (lines), Explanation.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_09_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the meaning of unfamiliar.',
+          question: 'Key vocabulary of \'The Peacock\' — the words and phrases you must know to read.',
           hint: 'Review context-clue strategies from Class 10 (c10_engl_cbse_02_009) and re-read the poem.',
           misconception: 'Students often think \'turquoise\' is just a colour name without realising it specifically describes the blue-green flash.',
           parts: [
@@ -139,20 +139,20 @@ export const c11_eng_w_ch09_p2: SimDef = {
                   hint: 'Review context-clue strategies from Class 10 (c10_engl_cbse_02_009) and re-read the poem summary.',
                   misconception: 'Students often think \'turquoise\' is just a colour name without realising it specifically describes the blue-green flash of the peacock\'s.' }
           ],
-            remediations: { 'turquoise-is-just-a-colour': { steps: ['Re-read the exact lines containing the target word.', 'Identify the word\'s part of speech (noun, verb, adjective).', 'Circle the words immediately before and after it – these are your primary clues.', 'Substitute a simple synonym (e.g., \'blue-green\' for \'turquoise\', \'shoots\' for \'darts\') and check if the sentence still.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'turquoise-is-just-a-colour': { steps: ['Re-read the exact lines containing the target word.', 'Identify the word\'s part of speech (noun, verb, adjective).', 'Circle the words immediately before and after it – these are your primary clues.', 'Substitute a simple synonym (e.g., \'blue-green\' for \'turquoise\', \'shoots\' for \'darts\') and check if the sentence still.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_09_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the analysis of how specific.',
+          question: 'Language and style in \'The Peacock\' — how the writer chose words, sentences and.',
           hint: 'Review Class 10 grammar workbook exercises on conditional sentences (Type 0, 1) and.',
           misconception: 'Students treat grammar as a labeling exercise ("This is present tense", "This is a preposition") and stop there.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Grammar: Language Usage in the Text refers to the analysis of how specific grammatical',
-                  options: ['Grammar: Language Usage in the Text refers to the analysis of how specific grammatical', '"Before You Read: Context and Background" is a preparatory literary skill where students', 'In poetry, narrative structure refers to the organized sequence of events, images, and', 'Setting in poetry refers to the time, place, and physical environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language and style in \'The Peacock\'',
+                  options: ['Language and style in \'The Peacock\'', '\'The Peacock\' (Woven Words, ch', 'The plot/narrative arc of \'The Peacock\'', 'The setting of \'The Peacock\''],
                   hint: 'Review Class 10 grammar workbook exercises on conditional sentences (Type 0, 1) and article usage.',
                   misconception: 'Students treat grammar as a labeling exercise ("This is present tense", "This is a preposition") and stop there.' }
           ],
-            remediations: { 'students-treat-grammar-as-a': { steps: ['Give the student a "grammar swap" exercise: rewrite stanza 2 entirely in past tense ("You had to sit...', 'Ask: "Does the peacock feel more or less alive?', 'Guide them to notice past tense makes it a memory; present/conditional makes it a repeatable recipe.', 'Have them annotate the original with "FUNCTION" arrows: e.g., "present simple → immediate sensory evidence".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-grammar-as-a': { steps: ['Give the student a "grammar swap" exercise: rewrite stanza 2 entirely in past tense ("You had to sit...', 'Ask: "Does the peacock feel more or less alive?', 'Guide them to notice past tense makes it a memory; present/conditional makes it a repeatable recipe.', 'Have them annotate the original with "FUNCTION" arrows: e.g., "present simple → immediate sensory evidence".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_09_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'The Peacock\' — questions answered straight from the.',
           hint: 'Review c11_eng_w_cbse_09_008 (Imagery and Metaphor) to recognize how figurative language.',
           misconception: 'Students treat "inferential" as "guessing" — they offer personal opinions ("I think the peacock is shy") without.',
           parts: [
@@ -161,7 +161,7 @@ export const c11_eng_w_ch09_p2: SimDef = {
                   hint: 'Review c11_eng_w_cbse_09_008 (Imagery and Metaphor) to recognize how figurative language creates.',
                   misconception: 'Students treat "inferential" as "guessing" — they offer personal opinions ("I think the peacock is shy") without anchoring in textual cues.' }
           ],
-            remediations: { 'students-treat-inferential-as-guessing': { steps: ['Have student highlight every explicit fact in the poem in one colour (literal).', 'In another colour, mark every clause starting with "seems," "might," "if you look up in time" — these signal inference.', 'Practice converting each literal fact into an inferential question: "The bees stop humming" → "What does the silence.', 'Require written answers to follow: "The text says ____, which suggests ____ because ____."'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-inferential-as-guessing': { steps: ['Have student highlight every explicit fact in the poem in one colour (literal).', 'In another colour, mark every clause starting with "seems," "might," "if you look up in time" — these signal inference.', 'Practice converting each literal fact into an inferential question: "The bees stop humming" → "What does the silence.', 'Require written answers to follow: "The text says ____, which suggests ____ because ____."'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

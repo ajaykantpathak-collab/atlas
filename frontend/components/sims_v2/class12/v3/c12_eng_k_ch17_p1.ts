@@ -19,45 +19,45 @@ export const c12_eng_k_ch17_p1: SimDef = {
         hook: '\'Man alive\' isn\'t a casual phrase — it\'s Lawrence\'s term for the integrated, sensing, contradictory organism, opposed to the \'dead man in life\' who runs on fixed ideas. And books themselves are \'tremulations on the ether\': dead vibrations until a living reader quivers into response.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" prepares students to engage with D.H.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Why the Novel Matters\' (Kaleidoscope, ch. 17) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_17_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Fight the fragmenters: pit the novel against soul, mind and mechanism, decode what \'tremulations on the ether\' means for every book you\'ll ever read, and test Lawrence\'s war on absolutes.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_17_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re trying to convince a skeptical friend that a video game isn\'t just entertainment but a way to experience a "whole life" in miniature.',
+          caseStudy: { intro: 'Trace \'Why the Novel Matters\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the central thesis of Lawrence\'s essay "Why the Novel Matters"?', options: [
                 { text: 'The central thesis is that the novel is the "one bright book of life"', outcome: 'The central thesis is that the novel is the "one bright book of life" because it alone can make the.' },
                 { text: 'the novel is the best form of storytelling', outcome: 'Not quite — Students often believe "plot and narrative structure" applies only to fiction with events.', reveals: 'plot-and-narrative-structure-applies' },
                 { text: 'man alive', outcome: 'Not quite — Students often believe "plot and narrative structure" applies only to fiction with events.', reveals: 'plot-and-narrative-structure-applies' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_17_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Have you ever read an essay and felt like you were *inside* a particular mental world — not a room or a landscape, but a way of thinking that has its own.',
+          caseStudy: { intro: 'Identify where and when \'Why the Novel Matters\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the "intellectual setting" of a non-fiction essay, and how does it differ from the physical setting of a novel or short story?', options: [
                 { text: 'The intellectual setting is the conceptual landscape', outcome: 'The intellectual setting is the conceptual landscape — the existing ideas, debates, and positions.' },
                 { text: 'the setting is England in the 1920s', outcome: 'Not quite — Students believe "setting and atmosphere" only apply to fiction (time, place, weather, mood).', reveals: 'setting-and-atmosphere-only-apply' },
                 { text: 'setting and atmosphere', outcome: 'Not quite — Students believe "setting and atmosphere" only apply to fiction (time, place, weather, mood).', reveals: 'setting-and-atmosphere-only-apply' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_17_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine reading a passionate opinion article where the writer says, "I know better than priests, scientists, and philosophers because I\'m a novelist." You\'d.',
+          caseStudy: { intro: 'Pick the central figure in \'Why the Novel Matters\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the primary identity Lawrence claims for himself in the essay, and which two groups does he explicitly say he considers himself.', options: [
                 { text: 'Lawrence identifies himself as a "novelist" and states he considers himself superior to', outcome: 'Lawrence identifies himself as a "novelist" and states he considers himself superior to "the saint.' },
                 { text: 'novelist', outcome: 'Not quite — Students often treat Lawrence as a fictional character in a story, looking for "character.', reveals: 'students-often-treat-lawrence-as' },
                 { text: 'the saint, the scientist, the philosopher, and the poet', outcome: 'Not quite — Students often treat Lawrence as a fictional character in a story, looking for "character.', reveals: 'students-often-treat-lawrence-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_17_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re watching a debate on "What makes us truly human?" — a priest quotes scripture, a scientist shows a brain scan, a philosopher talks about the.',
+          caseStudy: { intro: 'Spot the secondary figures in \'Why the Novel Matters\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List the five supporting archetypes Lawrence explicitly names in the essay and state the one-word label he gives each (e.g., "parson,".', options: [
                 { text: 'The five archetypes are: the Parson, the Philosopher, the Scientist, the Saint', outcome: 'The five archetypes are: the Parson, the Philosopher, the Scientist, the Saint (exemplified by St.' },
                 { text: 'the novelist', outcome: 'Not quite — Students often treat these archetypes as **straw men** — unfair caricatures Lawrence knocks down.', reveals: 'students-often-treat-these-archetypes' },
                 { text: 'the reader', outcome: 'Not quite — Students often treat these archetypes as **straw men** — unfair caricatures Lawrence knocks down.', reveals: 'students-often-treat-these-archetypes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_17_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re scrolling through social media and see a reel titled "Your Body Is Just a Meat Suit for Your Brain." Lawrence would hate that reel.',
+          caseStudy: { intro: 'Ask what \'Why the Novel Matters\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'State Lawrence\'s one-sentence definition of "man alive" as implied in the essay\'s opening paragraphs.', options: [
                 { text: '**Correct answer:** "Man alive" is the living, integrated whole of a human being', outcome: '**Correct answer:** "Man alive" is the living, integrated whole of a human being — every cell.' },
                 { text: 'man alive means the soul living in the body', outcome: 'Not quite — **Misconception:** "Lawrence is saying the novel is better because it\'s more *emotional*.', reveals: 'misconception-lawrence-is-saying-the' },
@@ -77,23 +77,23 @@ export const c12_eng_k_ch17_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_17_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" prepares students to engage with D.H.',
+          question: '\'Why the Novel Matters\' (Kaleidoscope, ch. 17) — the context and background.',
           hint: 'If stuck, revisit c11_eng_w_cbse_01_001 (Before You Read for Woven Words Chapter 1) and.',
           misconception: 'Students consistently misread Lawrence\'s \'man alive\' as a gendered term (\'man\' = male) or a vague synonym for \'human.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" prepares students to engage with D.H',
-                  options: ['"Before You Read: Context and Background" prepares students to engage with D.H', 'In the context of D.H', 'In a non-fiction essay, **setting** refers to the intellectual and conceptual landscape', 'Character analysis of the protagonist in a non-fiction essay involves examining the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'Why the Novel Matters\' (Kaleidoscope, ch',
+                  options: ['\'Why the Novel Matters\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Why the Novel Matters\'', 'The setting of \'Why the Novel Matters\'', 'Character analysis in \'Why the Novel Matters\''],
                   hint: 'If stuck, revisit c11_eng_w_cbse_01_001 (Before You Read for Woven Words Chapter 1) and practice.',
                   misconception: 'Students consistently misread Lawrence\'s \'man alive\' as a gendered term (\'man\' = male) or a vague synonym for \'human being.\' In fact, \'man.' }
           ],
-            remediations: { 'students-consistently-misread-lawrence-s': { steps: ['If a student cannot articulate the \'man alive\' vs.', '\'parts\' distinction after reading the walkthrough: (1) Have them re-read paragraphs 3-7 aloud, circling every.', '(2) Ask them to draw a quick diagram: a stick figure labeled \'MAN ALIVE\' with arrows pointing to \'hand\', \'nose\'.', '(3) Give them this prompt: \'Lawrence says "I am greater than my soul." Write one sentence explaining how that is *not*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-consistently-misread-lawrence-s': { steps: ['If a student cannot articulate the \'man alive\' vs.', '\'parts\' distinction after reading the walkthrough: (1) Have them re-read paragraphs 3-7 aloud, circling every.', '(2) Ask them to draw a quick diagram: a stick figure labeled \'MAN ALIVE\' with arrows pointing to \'hand\', \'nose\'.', '(3) Give them this prompt: \'Lawrence says "I am greater than my soul." Write one sentence explaining how that is *not*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_17_002', difficulty: 'standard',
-          question: 'In the context of D.H. Lawrence\'s argumentative essay "Why the Novel Matters,".',
+          question: 'The plot/narrative arc of \'Why the Novel Matters\' — what happens, in what.',
           hint: 'Review Class 11 non-fiction chapters (e.g., Hornbill "The Portrait of a Lady" structure.',
           misconception: 'Students often believe "plot and narrative structure" applies only to fiction with events, characters, and a timeline.',
           parts: [
@@ -110,7 +110,7 @@ export const c12_eng_k_ch17_p1: SimDef = {
                   hint: 'Review Class 11 non-fiction chapters (e.g., Hornbill "The Portrait of a Lady" structure analysis).',
                   misconception: 'Students often believe "plot and narrative structure" applies only to fiction with events, characters, and a timeline.' }
           ],
-            remediations: { 'plot-and-narrative-structure-applies': { steps: ['If the student cannot distinguish the essay\'s argumentative structure, have them first outline the essay paragraph.', 'Ask: "What is the *function* of each paragraph?', 'Does it introduce a new idea, give an example, refute an opponent, or draw a conclusion?" Map these functions to.', 'Then re-attempt Diagnostic Question 4 with this diagram.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'plot-and-narrative-structure-applies': { steps: ['If the student cannot distinguish the essay\'s argumentative structure, have them first outline the essay paragraph.', 'Ask: "What is the *function* of each paragraph?', 'Does it introduce a new idea, give an example, refute an opponent, or draw a conclusion?" Map these functions to.', 'Then re-attempt Diagnostic Question 4 with this diagram.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_17_002', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -125,9 +125,9 @@ export const c12_eng_k_ch17_p1: SimDef = {
                   hint: 'Review Class 11 non-fiction chapters (e.g., Hornbill "The Portrait of a Lady" structure analysis).',
                   misconception: 'Students often believe "plot and narrative structure" applies only to fiction with events, characters, and a timeline.' }
           ],
-            remediations: { 'plot-and-narrative-structure-applies': { steps: ['If the student cannot distinguish the essay\'s argumentative structure, have them first outline the essay paragraph.', 'Ask: "What is the *function* of each paragraph?', 'Does it introduce a new idea, give an example, refute an opponent, or draw a conclusion?" Map these functions to.', 'Then re-attempt Diagnostic Question 4 with this diagram.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'plot-and-narrative-structure-applies': { steps: ['If the student cannot distinguish the essay\'s argumentative structure, have them first outline the essay paragraph.', 'Ask: "What is the *function* of each paragraph?', 'Does it introduce a new idea, give an example, refute an opponent, or draw a conclusion?" Map these functions to.', 'Then re-attempt Diagnostic Question 4 with this diagram.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_17_003', difficulty: 'standard',
-          question: 'In a non-fiction essay, **setting** refers to the intellectual and conceptual.',
+          question: 'The setting of \'Why the Novel Matters\' — the place, time and atmosphere the.',
           hint: 'If stuck, return to **c11_eng_h_cbse_01_003** and re-do the atmosphere annotation.',
           misconception: 'Students believe "setting and atmosphere" only apply to fiction (time, place, weather, mood).',
           parts: [
@@ -140,9 +140,9 @@ export const c12_eng_k_ch17_p1: SimDef = {
                   hint: 'If stuck, return to **c11_eng_h_cbse_01_003** and re-do the atmosphere annotation exercise on.',
                   misconception: 'Students believe "setting and atmosphere" only apply to fiction (time, place, weather, mood).' }
           ],
-            remediations: { 'setting-and-atmosphere-only-apply': { steps: ['Revisit **c11_eng_h_cbse_01_003** or **c11_eng_s_cbse_01_003** (Class 11 Setting and Atmosphere) — practice identifying.', 'Do a *rhetorical annotation* of one Lawrence paragraph: underline every verb, circle every sensory noun, mark sentence.', 'Ask: "What does this *feel* like in the mouth/mind?" 3.', 'Re-read the **Walkthrough** above and apply its three steps (debate → voice → metaphorical spaces) to a simpler essay.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'setting-and-atmosphere-only-apply': { steps: ['Revisit **c11_eng_h_cbse_01_003** or **c11_eng_s_cbse_01_003** (Class 11 Setting and Atmosphere) — practice identifying.', 'Do a *rhetorical annotation* of one Lawrence paragraph: underline every verb, circle every sensory noun, mark sentence.', 'Ask: "What does this *feel* like in the mouth/mind?" 3.', 'Re-read the **Walkthrough** above and apply its three steps (debate → voice → metaphorical spaces) to a simpler essay.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_17_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a non-fiction essay involves examining.',
+          question: 'Character analysis in \'Why the Novel Matters\' — the central figure(s), their.',
           hint: 'Review "narrative voice vs authorial persona" in c11_eng_h_cbse_01_004 and practice on.',
           misconception: 'Students often treat Lawrence as a fictional character in a story, looking for "character development" or "plot arc.".',
           parts: [
@@ -155,9 +155,9 @@ export const c12_eng_k_ch17_p1: SimDef = {
                   hint: 'Review "narrative voice vs authorial persona" in c11_eng_h_cbse_01_004 and practice on a short.',
                   misconception: 'Students often treat Lawrence as a fictional character in a story, looking for "character development" or "plot arc." They miss that this.' }
           ],
-            remediations: { 'students-often-treat-lawrence-as': { steps: ['If the student conflates fictional and non-fictional character analysis: 1) Re-read the essay\'s first three paragraphs.', '2) Create a two-column table: "Fictional Character Traits" vs "Rhetorical Persona Traits" and fill it using the text.', '3) Re-attempt Diagnostic Question 2, focusing on "persona" not "character." 4) Consult c11_eng_h_cbse_01_004 (Class 11.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-lawrence-as': { steps: ['If the student conflates fictional and non-fictional character analysis: 1) Re-read the essay\'s first three paragraphs.', '2) Create a two-column table: "Fictional Character Traits" vs "Rhetorical Persona Traits" and fill it using the text.', '3) Re-attempt Diagnostic Question 2, focusing on "persona" not "character." 4) Consult c11_eng_h_cbse_01_004 (Class 11.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_17_005', difficulty: 'standard',
-          question: 'In a non-fiction essay, supporting characters are the representative figures.',
+          question: 'Supporting characters in \'Why the Novel Matters\' — the secondary figures who.',
           hint: 'If the distinction between "partial truth" and "whole error" is unclear, revisit the.',
           misconception: 'Students often treat these archetypes as **straw men** — unfair caricatures Lawrence knocks down easily.',
           parts: [
@@ -170,9 +170,9 @@ export const c12_eng_k_ch17_p1: SimDef = {
                   hint: 'If the distinction between "partial truth" and "whole error" is unclear, revisit the "Scientist".',
                   misconception: 'Students often treat these archetypes as **straw men** — unfair caricatures Lawrence knocks down easily.' }
           ],
-            remediations: { 'students-often-treat-these-archetypes': { steps: ['**Re-read the "Stop and Think" sections** in the NCERT text (pp.', '166, 171) — they explicitly ask you to distinguish animate/inanimate and reconcile inconsistency with integrity; these.', '**Make a two-column table**: Column A = Archetype; Column B = "What they get right (partial truth)" / "What they deny.', '**Re-attempt Diagnostic Questions 2 & 4** using this table.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-these-archetypes': { steps: ['**Re-read the "Stop and Think" sections** in the NCERT text (pp.', '166, 171) — they explicitly ask you to distinguish animate/inanimate and reconcile inconsistency with integrity; these.', '**Make a two-column table**: Column A = Archetype; Column B = "What they get right (partial truth)" / "What they deny.', '**Re-attempt Diagnostic Questions 2 & 4** using this table.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_17_006', difficulty: 'standard',
-          question: 'The primary theme of "Why the Novel Matters" is D.H. Lawrence\'s assertion that.',
+          question: 'The primary theme of \'Why the Novel Matters\' — the central idea the whole text.',
           hint: 'If stuck on "what is the theme?", return to the **hand passage (para 2)** and the.',
           misconception: '**Misconception:** "Lawrence is saying the novel is better because it\'s more *emotional* or *realistic*." **Why it\'s.',
           parts: [
@@ -181,7 +181,7 @@ export const c12_eng_k_ch17_p1: SimDef = {
                   hint: 'If stuck on "what is the theme?", return to the **hand passage (para 2)** and the.',
                   misconception: '**Misconception:** "Lawrence is saying the novel is better because it\'s more *emotional* or *realistic*." **Why it\'s wrong:** Lawrence.' }
           ],
-            remediations: { 'misconception-lawrence-is-saying-the': { steps: ['If the student conflates "wholeness" with "emotional depth" or "realistic detail": 1.', '**Re-read paragraphs 5–8** aloud.', 'Circle every noun Lawrence uses for the "parts" the rivals master (soul, spirit, infinity, pure spirit, heart, liver.', '**Ask:** "Which of these parts does Lawrence say *he* is?" Answer: *N/A.* He says "I flatly deny that I am a soul, or.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'misconception-lawrence-is-saying-the': { steps: ['If the student conflates "wholeness" with "emotional depth" or "realistic detail": 1.', '**Re-read paragraphs 5–8** aloud.', 'Circle every noun Lawrence uses for the "parts" the rivals master (soul, spirit, infinity, pure spirit, heart, liver.', '**Ask:** "Which of these parts does Lawrence say *he* is?" Answer: *N/A.* He says "I flatly deny that I am a soul, or.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

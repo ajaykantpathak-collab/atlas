@@ -137,7 +137,7 @@ export const c9_engl_ch01_p1: SimDef = {
           ],
             remediations: { 'respect-for-elders-in-the': { steps: ['Ask the student to list every time the granddaughter speaks to or about her grandmother—highlight words like "Avva,".', 'Separate these into "ritual respect" (cultural norms) and "earned respect" (responding to grandmother\'s choices).', 'Have them find one piece of advice the grandmother gives that changes the granddaughter\'s perspective.', 'Rewrite their answer using the template: "The text shows [action] which proves [value] because [explanation linking.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c9_engl_ch1_2', difficulty: 'standard',
-          question: 'Character analysis is the systematic examination of a literary character\'s.',
+          question: 'From \'How I Taught My Grandmother to Read\': the skill or concept this node.',
           hint: 'If stuck, review c6_english_u4_032 (Suraj character analysis) — it models the exact.',
           misconception: 'Students treat character analysis as listing personality adjectives (kind, determined, old) without proving them from.',
           parts: [

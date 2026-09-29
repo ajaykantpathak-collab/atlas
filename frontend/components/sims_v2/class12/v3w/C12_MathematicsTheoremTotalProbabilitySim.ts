@@ -6,13 +6,13 @@ import C12_MathematicsTheoremTotalProbabilitySim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicstheoremtotalprobabilitysim: SimDef = {
     id: 'v3w_c12_mathematicstheoremtotalprobabilitysim',
-    title: 'Theorem Total Probability',
+    title: 'Conditional Probability: Definition and Formula',
     subtitle: 'This node covers the definition, formula, and direct computation of conditional.',
     classLevel: 12, subject: 'mathematics', topic: 'Conditional Probability: Definition and Formula',
     chapters: [],
     nodeIds: ['c12_math_cbse_13_001', 'c12_math_cbse_13_002', 'c12_math_cbse_13_003', 'c12_math_cbse_13_004', 'c12_math_cbse_13_005', 'c12_math_cbse_13_006', 'c12_math_cbse_13_007', 'c12_math_cbse_13_008', 'c12_math_cbse_13_009', 'c12_math_cbse_13_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Class 12 student in Delhi preparing for board exams.', goal: 'Master Theorem Total Probability.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Class 12 student in Delhi preparing for board exams.', goal: 'Master Conditional Probability: Definition and Formula.' },
     discovery: {
         question: 'A bag contains 5 red and 7 blue balls. Two balls are drawn one after another without replacement.',
         options: ['The probability changes', 'it\'s still 5/12 because symmetry', 'it\'s 4/11 or 5/11 depending on first draw'],
@@ -81,7 +81,7 @@ export const w_c12_mathematicstheoremtotalprobabilitysim: SimDef = {
             { text: 'Substitute and compute: P(A) = (0.7 × 0.8) + (0.3 × 0.9) = 0.56 + 0.27 = 0.83.', faded: true, blankAnswer: '0.83 or 83%' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_13_002', title: 'Identify each idea',
-          dissect: { specimen: 'Theorem Total Probability', spots: [
+          dissect: { specimen: 'Conditional Probability: Definition and Formula', spots: [
             { id: 's1', label: 'Conditional probability of an event', prompt: 'Which idea is this? — Conditional probability of an event E given that event F has already occurred, denoted.', answer: 'Conditional probability of an event', options: ['Conditional probability of an event', 'The properties of conditional probability', 'The Multiplication Theorem on Probability', 'Two events E and F'] },
             { id: 's2', label: 'The properties of conditional probability', prompt: 'Which idea is this? — The properties of conditional probability are rules that allow us to manipulate.', answer: 'The properties of conditional probability', options: ['The properties of conditional probability', 'Conditional probability of an event', 'The Multiplication Theorem on Probability', 'Two events E and F'] },
             { id: 's3', label: 'The Multiplication Theorem on Probability', prompt: 'Which idea is this? — The Multiplication Theorem on Probability states that for any two events E and F.', answer: 'The Multiplication Theorem on Probability', options: ['The Multiplication Theorem on Probability', 'Conditional probability of an event', 'The properties of conditional probability', 'Two events E and F'] },
@@ -90,7 +90,7 @@ export const w_c12_mathematicstheoremtotalprobabilitysim: SimDef = {
             { id: 's6', label: 'If E E E', prompt: 'Which idea is this? — If {E₁, E₂, ..., Eₙ} is a partition of the sample space S (i.e., the events are pairwise.', answer: 'If E E E', options: ['If E E E', 'Conditional probability of an event', 'The properties of conditional probability', 'The Multiplication Theorem on Probability'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsTheoremTotalProbabilitySim, prompt: 'Explore the interactive — Theorem Total Probability' },
+    explore: { component: C12_MathematicsTheoremTotalProbabilitySim, prompt: 'Explore the interactive — Conditional Probability: Definition and Formula' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_13_001', difficulty: 'standard',
           question: 'Conditional probability of an event E given that event F has already occurred,.',

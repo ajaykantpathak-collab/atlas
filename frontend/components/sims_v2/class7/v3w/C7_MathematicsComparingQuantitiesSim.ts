@@ -6,13 +6,13 @@ import C7_MathematicsComparingQuantitiesSim from '../../../simulations/c6_12/C7_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicscomparingquantitiessim: SimDef = {
     id: 'v3w_c7_mathematicscomparingquantitiessim',
-    title: 'Comparing Quantities',
+    title: 'Real-Life Applications of Large Numbers (Population, Distance)',
     subtitle: 'Covers the interpretation, estimation, and arithmetic operations (addition, subtraction,.',
     classLevel: 7, subject: 'mathematics', topic: 'Real-Life Applications of Large Numbers (Population, Distance)',
     chapters: [],
     nodeIds: ['c7_math_ch01_009', 'c7_math_ch03_007', 'c7_math_ch02_003', 'c7_math_ch02_009', 'c7_math_ch01_005', 'c7_math_ch03_001', 'c7_math_ch03_005', 'c7_math_ch03_008', 'c7_math_ch03_009', 'c7_math_ch09_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine your school headmaster announces that a massive cricket stadium in Mumbai can hold $1,00,000$ people,.', goal: 'Master Comparing Quantities.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine your school headmaster announces that a massive cricket stadium in Mumbai can hold $1,00,000$ people,.', goal: 'Master Real-Life Applications of Large Numbers (Population, Distance).' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Real-life applications of large numbers.', text: 'Real-life applications of large numbers involve using numbers in lakhs and crores to quantify and interpret massive quantities from the physical world, such as national populations, inter-city.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -73,7 +73,7 @@ export const w_c7_mathematicscomparingquantitiessim: SimDef = {
             { text: 'Combine the whole number and the fractional part to write the complete measurement as $1\\frac{7}{10}$ meters, noting.', faded: true, blankAnswer: '$1\\frac{7}{10}$ meters' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch03_007', title: 'Identify each idea',
-          dissect: { specimen: 'Comparing Quantities', spots: [
+          dissect: { specimen: 'Real-Life Applications of Large Numbers (Population, Distance)', spots: [
             { id: 's1', label: 'Real-life applications of large numbers', prompt: 'Which idea is this? — Real-life applications of large numbers involve using numbers in lakhs and crores to.', answer: 'Real-life applications of large numbers', options: ['Real-life applications of large numbers', 'Comparing and ordering decimals involves', 'Comparing arithmetic expressions involves evaluating', 'Relational reasoning without computing full'] },
             { id: 's2', label: 'Comparing and ordering decimals involves', prompt: 'Which idea is this? — Comparing and ordering decimals involves determining the relative magnitude of two or.', answer: 'Comparing and ordering decimals involves', options: ['Comparing and ordering decimals involves', 'Real-life applications of large numbers', 'Comparing arithmetic expressions involves evaluating', 'Relational reasoning without computing full'] },
             { id: 's3', label: 'Comparing arithmetic expressions involves evaluating', prompt: 'Which idea is this? — Comparing arithmetic expressions involves evaluating two separate expressions using the.', answer: 'Comparing arithmetic expressions involves evaluating', options: ['Comparing arithmetic expressions involves evaluating', 'Real-life applications of large numbers', 'Comparing and ordering decimals involves', 'Relational reasoning without computing full'] },
@@ -82,7 +82,7 @@ export const w_c7_mathematicscomparingquantitiessim: SimDef = {
             { id: 's6', label: 'The need for smaller units', prompt: 'Which idea is this? — The need for smaller units arises when whole numbers and standard large measurement units.', answer: 'The need for smaller units', options: ['The need for smaller units', 'Real-life applications of large numbers', 'Comparing and ordering decimals involves', 'Comparing arithmetic expressions involves evaluating'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsComparingQuantitiesSim, prompt: 'Explore the interactive — Comparing Quantities' },
+    explore: { component: C7_MathematicsComparingQuantitiesSim, prompt: 'Explore the interactive — Real-Life Applications of Large Numbers (Population, Distance)' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch01_009', difficulty: 'standard',
           question: 'Real-life applications of large numbers involve using numbers in lakhs and.',

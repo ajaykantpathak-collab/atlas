@@ -6,13 +6,13 @@ import C11_PhysicsUnitsAndMeasurementSim from '../../../simulations/c6_12/C11_Ph
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsunitsandmeasurementsim: SimDef = {
     id: 'v3w_c11_physicsunitsandmeasurementsim',
-    title: 'Units And Measurement',
+    title: 'Introduction to Units and Measurement',
     subtitle: 'This node covers the conceptual foundation of measurement: the need for units,.',
     classLevel: 11, subject: 'physics', topic: 'Introduction to Units and Measurement',
     chapters: [],
     nodeIds: ['c11_phy_cbse_01_001', 'c11_phy_cbse_01_002', 'c11_phy_cbse_01_003', 'c11_phy_cbse_01_004', 'c11_phy_cbse_09_001', 'c11_phy_cbse_01_005', 'c11_phy_cbse_01_010', 'c11_phy_cbse_01_012', 'c11_phy_cbse_01_013', 'c11_phy_cbse_10_001', 'c11_phy_cbse_01_011', 'c11_phy_cbse_01_014', 'c11_phy_cbse_10_006', 'c11_phy_cbse_10_007', 'c11_phy_cbse_10_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Look at the ceiling fan in your classroom — its blades rotate at a certain speed.', goal: 'Master Units And Measurement.' },
+    scenario: { role: 'a class 11 learner', intro: 'Look at the ceiling fan in your classroom — its blades rotate at a certain speed.', goal: 'Master Introduction to Units and Measurement.' },
     discovery: {
         question: 'A student measures the length of a lab table and records it as "2.5". The teacher says the measurement is incomplete.',
         options: ['The measurement is incomplete', 'the number is enough', 'add the instrument name'],
@@ -79,7 +79,7 @@ export const w_c11_physicsunitsandmeasurementsim: SimDef = {
             { text: 'V = (4/3) × π × 11.54 = 48.34... mm³. The final result is limited by the 3 significant figures of the radius.', faded: true, blankAnswer: 'Mean diameter = 4.52 mm (3 significant figures); Volume =.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_01_002', title: 'Identify each idea',
-          dissect: { specimen: 'Units And Measurement', spots: [
+          dissect: { specimen: 'Introduction to Units and Measurement', spots: [
             { id: 's1', label: 'Measurement is the process of', prompt: 'Which idea is this? — Measurement is the process of comparing a physical quantity with a chosen standard called.', answer: 'Measurement is the process of', options: ['Measurement is the process of', 'The International System of Units', 'Significant figures are the digits', 'Significant figures in calculations refer'] },
             { id: 's2', label: 'The International System of Units', prompt: 'Which idea is this? — The International System of Units (SI) is the globally accepted coherent system of.', answer: 'The International System of Units', options: ['The International System of Units', 'Measurement is the process of', 'Significant figures are the digits', 'Significant figures in calculations refer'] },
             { id: 's3', label: 'Significant figures are the digits', prompt: 'Which idea is this? — Significant figures are the digits in a measured value that are known reliably plus the.', answer: 'Significant figures are the digits', options: ['Significant figures are the digits', 'Measurement is the process of', 'The International System of Units', 'Significant figures in calculations refer'] },
@@ -88,7 +88,7 @@ export const w_c11_physicsunitsandmeasurementsim: SimDef = {
             { id: 's6', label: 'Rounding off significant figures is', prompt: 'Which idea is this? — Rounding off significant figures is the process of reducing the number of digits in a.', answer: 'Rounding off significant figures is', options: ['Rounding off significant figures is', 'Measurement is the process of', 'The International System of Units', 'Significant figures are the digits'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsUnitsAndMeasurementSim, prompt: 'Explore the interactive — Units And Measurement' },
+    explore: { component: C11_PhysicsUnitsAndMeasurementSim, prompt: 'Explore the interactive — Introduction to Units and Measurement' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_01_001', difficulty: 'standard',
           question: 'Measurement is the process of comparing a physical quantity with a chosen.',

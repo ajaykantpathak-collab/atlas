@@ -6,13 +6,13 @@ import C12_CommerceDigitalMarketingSocialSim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_commercedigitalmarketingsocialsim: SimDef = {
     id: 'v3w_c12_commercedigitalmarketingsocialsim',
-    title: 'Digital Marketing Social',
+    title: 'Technological Environment: Impact on Business Operations',
     subtitle: 'This node covers the technological environment as a dimension of the general business.',
     classLevel: 12, subject: 'business_studies', topic: 'Technological Environment: Impact on Business Operations',
     chapters: [],
     nodeIds: ['c12_bs_cbse_03_005', 'c12_bs_cbse_10_008', 'c12_bs_cbse_11_008', 'c12_bs_cbse_03_004', 'c12_bs_cbse_03_008', 'c12_bs_cbse_11_001', 'c12_bs_cbse_11_011', 'c12_bs_cbse_03_001', 'c12_bs_cbse_03_002', 'c12_bs_cbse_03_003', 'c12_bs_cbse_03_006', 'c12_bs_cbse_03_010', 'c12_bs_cbse_03_007', 'c12_bs_cbse_03_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you own a small neighbourhood bookstore. A new app-based platform starts delivering books within two.', goal: 'Master Digital Marketing Social.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you own a small neighbourhood bookstore. A new app-based platform starts delivering books within two.', goal: 'Master Technological Environment: Impact on Business Operations.' },
     discovery: {
         question: 'Compare and contrast: Demat account vs. Trading account vs. Bank account. Which account is debited/credited when you buy shares on the NSE?',
         options: ['- Demat account: holds securities (electronic storage)', 'trading account holds shares', 'bank account receives shares'],
@@ -80,7 +80,7 @@ export const w_c12_commercedigitalmarketingsocialsim: SimDef = {
             { text: 'Conclude — advertising (promotion) is only the 5th step; doing it first wastes budget on an unvalidated offering.', faded: true, blankAnswer: '(1) Market research on learner pain points, (2) Feature.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bs_cbse_10_008', title: 'Identify each idea',
-          dissect: { specimen: 'Digital Marketing Social', spots: [
+          dissect: { specimen: 'Technological Environment: Impact on Business Operations', spots: [
             { id: 's1', label: 'The technological environment comprises forces', prompt: 'Which idea is this? — The technological environment comprises forces relating to scientific improvements and.', answer: 'The technological environment comprises forces', options: ['The technological environment comprises forces', 'A depository system is an', 'Promotion refers to the communication', 'Social Environment refers to the'] },
             { id: 's2', label: 'A depository system is an', prompt: 'Which idea is this? — A depository system is an electronic infrastructure that holds securities (shares, bonds,.', answer: 'A depository system is an', options: ['A depository system is an', 'The technological environment comprises forces', 'Promotion refers to the communication', 'Social Environment refers to the'] },
             { id: 's3', label: 'Promotion refers to the communication', prompt: 'Which idea is this? — Promotion refers to the communication process used by marketers to inform, persuade, and.', answer: 'Promotion refers to the communication', options: ['Promotion refers to the communication', 'The technological environment comprises forces', 'A depository system is an', 'Social Environment refers to the'] },
@@ -89,7 +89,7 @@ export const w_c12_commercedigitalmarketingsocialsim: SimDef = {
             { id: 's6', label: 'Marketing is a social and', prompt: 'Which idea is this? — Marketing is a social and managerial process by which individuals and groups obtain what.', answer: 'Marketing is a social and', options: ['Marketing is a social and', 'The technological environment comprises forces', 'A depository system is an', 'Promotion refers to the communication'] }
           ] } }
     ],
-    explore: { component: C12_CommerceDigitalMarketingSocialSim, prompt: 'Explore the interactive — Digital Marketing Social' },
+    explore: { component: C12_CommerceDigitalMarketingSocialSim, prompt: 'Explore the interactive — Technological Environment: Impact on Business Operations' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bs_cbse_03_005', difficulty: 'standard',
           question: 'The technological environment comprises forces relating to scientific.',

@@ -101,18 +101,18 @@ export const c8_engl_ch04_p3: SimDef = {
           misconception: 'Students frequently believe that the "reward" in the story is the physical harvest—eating a basket of sweet, delicious.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The theme of "The Reward of Nurturing Life" explores the deep emotional fulfillment,',
-                  options: ['The theme of "The Reward of Nurturing Life" explores the deep emotional fulfillment,', 'Setting refers to the physical environment, geographical location, climate, and time', 'Comprehension of the narrative journey from seed to fruit-bearing tree involves', 'In literary analysis, examining "luck in the context of effort" means critically'],
+                  options: ['The theme of "The Reward of Nurturing Life" explores the deep emotional fulfillment,', 'From \'English chapter c8_engl_ch4\': the skill or concept this node teaches, applied to', 'Comprehension of the narrative journey from seed to fruit-bearing tree involves', 'In literary analysis, examining "luck in the context of effort" means critically'],
                   hint: 'If stuck, review the plot summary in node c8_engl_ch4_4 to refresh how Rakesh reacted each time the.',
                   misconception: 'Students frequently believe that the "reward" in the story is the physical harvest—eating a basket of sweet, delicious cherries.' }
           ],
             remediations: { 'students-frequently-believe-that-the': { steps: ['Direct the student to reread the paragraph describing the first fruit: "It was sour...', 'but Rakesh knew it was a real cherry." 2.', 'Ask: "If the fruit tasted sour and unpleasant, why was Rakesh still thrilled?" 3.', 'Guide them to trace his emotional journey from tossing a seed to shielding a fragile stem, helping them define "reward".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c8_engl_ch4_7', difficulty: 'standard',
-          question: 'Imagery is a literary device that uses descriptive language to appeal to the.',
+          question: 'From \'English chapter c8_engl_ch4\': the skill or concept this node teaches.',
           hint: 'If stuck, review how to identify sensory details in descriptions (from c7_engl_ch01_008.',
           misconception: 'Students often think that imagery only involves visual descriptions (what you see) and ignore other senses like touch.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Imagery is a literary device that uses descriptive language to appeal to the senses and',
-                  options: ['Imagery is a literary device that uses descriptive language to appeal to the senses and', 'Setting refers to the physical environment, geographical location, climate, and time', 'Comprehension of the narrative journey from seed to fruit-bearing tree involves', 'In literary analysis, examining "luck in the context of effort" means critically'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c8_engl_ch4\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c8_engl_ch4\': the skill or concept this node teaches, applied to', 'Comprehension of the narrative journey from seed to fruit-bearing tree involves', 'In literary analysis, examining "luck in the context of effort" means critically', 'Writing a clear, ordered description of how a plant changes from seed to mature plant,'],
                   hint: 'If stuck, review how to identify sensory details in descriptions (from c7_engl_ch01_008: Literary.',
                   misconception: 'Students often think that imagery only involves visual descriptions (what you see) and ignore other senses like touch, sound, or smell.' }
           ],

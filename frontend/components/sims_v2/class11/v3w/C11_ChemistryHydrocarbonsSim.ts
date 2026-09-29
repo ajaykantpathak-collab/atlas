@@ -6,13 +6,13 @@ import C11_ChemistryHydrocarbonsSim from '../../../simulations/c6_12/C11_Chemist
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_chemistryhydrocarbonssim: SimDef = {
     id: 'v3w_c11_chemistryhydrocarbonssim',
-    title: 'Hydrocarbons',
+    title: 'Preparation of Dihydrogen: Laboratory and Industrial',
     subtitle: 'Covers laboratory preparation using Zn/HCl, Zn/NaOH, Fe/steam, and industrial preparation.',
     classLevel: 11, subject: 'chemistry', topic: 'Preparation of Dihydrogen: Laboratory and Industrial',
     chapters: [],
     nodeIds: ['c11_chem_cbse_09_003', 'c11_chem_cbse_09_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a kitchen gas stove: the blue flame comes from combustion of methane, but the hydrogen in methane can.', goal: 'Master Hydrocarbons.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a kitchen gas stove: the blue flame comes from combustion of methane, but the hydrogen in methane can.', goal: 'Master Preparation of Dihydrogen: Laboratory and Industrial.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Dihydrogen (H₂) is prepared in the.', text: 'Dihydrogen (H₂) is prepared in the laboratory by the reaction of metals (Zn, Fe) with dilute acids (H₂SO₄, HCl) or with aqueous alkalis (NaOH), and by the reaction of metals (Mg, Fe) with steam.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -37,12 +37,12 @@ export const w_c11_chemistryhydrocarbonssim: SimDef = {
             { text: 'Actual energy at 80% efficiency = 0.80 × 470.4 kJ = 376.3 kJ. Convert to kWh: 376.3 kJ / 3600 = 0.1045 kWh.', faded: true, blankAnswer: '(a) 22.2 L O₂ at STP; (b) 376 kJ or 0.105 kWh electrical.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_chem_cbse_09_004', title: 'Identify each idea',
-          dissect: { specimen: 'Hydrocarbons', spots: [
+          dissect: { specimen: 'Preparation of Dihydrogen: Laboratory and Industrial', spots: [
             { id: 's1', label: 'Dihydrogen H is prepared in', prompt: 'Which idea is this? — Dihydrogen (H₂) is prepared in the laboratory by the reaction of metals (Zn, Fe) with.', answer: 'Dihydrogen H is prepared in', options: ['Dihydrogen H is prepared in', 'Dihydrogen H is the molecular'] },
             { id: 's2', label: 'Dihydrogen H is the molecular', prompt: 'Which idea is this? — Dihydrogen (H₂) is the molecular form of hydrogen element, existing as a colorless,.', answer: 'Dihydrogen H is the molecular', options: ['Dihydrogen H is the molecular', 'Dihydrogen H is prepared in'] }
           ] } }
     ],
-    explore: { component: C11_ChemistryHydrocarbonsSim, prompt: 'Explore the interactive — Hydrocarbons' },
+    explore: { component: C11_ChemistryHydrocarbonsSim, prompt: 'Explore the interactive — Preparation of Dihydrogen: Laboratory and Industrial' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_chem_cbse_09_003', difficulty: 'standard',
           question: 'Dihydrogen (H₂) is prepared in the laboratory by the reaction of metals (Zn,.',

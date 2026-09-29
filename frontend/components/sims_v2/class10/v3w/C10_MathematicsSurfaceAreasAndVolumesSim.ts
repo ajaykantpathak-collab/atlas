@@ -6,13 +6,13 @@ import C10_MathematicsSurfaceAreasAndVolumesSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_mathematicssurfaceareasandvolumessim: SimDef = {
     id: 'v3w_c10_mathematicssurfaceareasandvolumessim',
-    title: 'Surface Areas And Volumes',
+    title: 'Area of a Combination of Plane Figures (Circle + Polygon)',
     subtitle: 'This node covers composite figures made of circles (or sectors/segments) combined with.',
     classLevel: 10, subject: 'mathematics', topic: 'Area of a Combination of Plane Figures (Circle + Polygon)',
     chapters: [],
     nodeIds: ['c10_math_cbse_11_008', 'c10_math_cbse_12_005', 'c10_math_cbse_12_009', 'c10_math_cbse_12_010', 'c10_math_cbse_11_010', 'c10_math_cbse_12_001', 'c10_math_cbse_12_002', 'c10_math_cbse_12_006', 'c10_math_cbse_12_007', 'c10_math_cbse_12_003', 'c10_math_cbse_12_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine a circular park with a square fountain built inside it.', goal: 'Master Surface Areas And Volumes.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine a circular park with a square fountain built inside it.', goal: 'Master Area of a Combination of Plane Figures (Circle + Polygon).' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'The area of a combination of plane figures.', text: 'The area of a combination of plane figures (such as a circle and a polygon) is found by adding or subtracting the areas of the individual component shapes.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -78,7 +78,7 @@ export const w_c10_mathematicssurfaceareasandvolumessim: SimDef = {
             { text: 'Sum exposed areas. Total TSA = 220 + 38.5 + 77 = **335.5 cm²**.', faded: true, blankAnswer: '** 335.5 cm²' }
             ] } },
         { type: 'dissect', nodeId: 'c10_math_cbse_12_005', title: 'Identify each idea',
-          dissect: { specimen: 'Surface Areas And Volumes', spots: [
+          dissect: { specimen: 'Area of a Combination of Plane Figures (Circle + Polygon)', spots: [
             { id: 's1', label: 'The area of a combination', prompt: 'Which idea is this? — The area of a combination of plane figures (such as a circle and a polygon) is found by.', answer: 'The area of a combination', options: ['The area of a combination', 'When a solid is melted', 'Word problems on surface area', 'Word problems on area of'] },
             { id: 's2', label: 'When a solid is melted', prompt: 'Which idea is this? — When a solid is melted and recast into a different shape (or multiple shapes), the volume.', answer: 'When a solid is melted', options: ['When a solid is melted', 'The area of a combination', 'Word problems on surface area', 'Word problems on area of'] },
             { id: 's3', label: 'Word problems on surface area', prompt: 'Which idea is this? — Word problems on surface area and volume of combined solids require translating a.', answer: 'Word problems on surface area', options: ['Word problems on surface area', 'The area of a combination', 'When a solid is melted', 'Word problems on area of'] },
@@ -86,7 +86,7 @@ export const w_c10_mathematicssurfaceareasandvolumessim: SimDef = {
             { id: 's5', label: 'The surface area of a', prompt: 'Which idea is this? — The surface area of a combination of solids is the total area of all **exposed outer.', answer: 'The surface area of a', options: ['The surface area of a', 'The area of a combination', 'When a solid is melted', 'Word problems on surface area'] }
           ] } }
     ],
-    explore: { component: C10_MathematicsSurfaceAreasAndVolumesSim, prompt: 'Explore the interactive — Surface Areas And Volumes' },
+    explore: { component: C10_MathematicsSurfaceAreasAndVolumesSim, prompt: 'Explore the interactive — Area of a Combination of Plane Figures (Circle + Polygon)' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_math_cbse_11_008', difficulty: 'standard',
           question: 'The area of a combination of plane figures (such as a circle and a polygon) is.',

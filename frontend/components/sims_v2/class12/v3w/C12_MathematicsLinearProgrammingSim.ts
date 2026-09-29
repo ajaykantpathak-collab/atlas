@@ -6,13 +6,13 @@ import C12_MathematicsLinearProgrammingSim from '../../../simulations/c6_12/C12_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicslinearprogrammingsim: SimDef = {
     id: 'v3w_c12_mathematicslinearprogrammingsim',
-    title: 'Linear Programming',
+    title: 'Linear Programming Problem: Definition and Formulation',
     subtitle: 'This node covers only the **definition and mathematical formulation** of a Linear.',
     classLevel: 12, subject: 'mathematics', topic: 'Linear Programming Problem: Definition and Formulation',
     chapters: [],
     nodeIds: ['c12_math_cbse_12_001', 'c12_math_cbse_12_002', 'c12_math_cbse_12_003', 'c12_math_cbse_12_004', 'c12_math_cbse_12_005', 'c12_math_cbse_12_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a small bakery owner in Delhi who makes two types of cakes: Chocolate (profit ₹120 per cake) and.', goal: 'Master Linear Programming.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a small bakery owner in Delhi who makes two types of cakes: Chocolate (profit ₹120 per cake) and.', goal: 'Master Linear Programming Problem: Definition and Formulation.' },
     discovery: {
         question: 'A student formulates the following LPP for a factory producing two products A and B: Maximise \\(Z = 50x + 40y\\) Subject to: \\(2x + 3y \\ge 100\\) (machine hours).',
         options: ['The formulation is **incorrect**', 'minimum requirement', 'resource availability'],
@@ -85,7 +85,7 @@ export const w_c12_mathematicslinearprogrammingsim: SimDef = {
             { text: 'Interpret: Make 20 Chocolate and 10 Vanilla cakes for maximum profit ₹2200.', faded: true, blankAnswer: 'Maximum profit ₹2200 by making 20 Chocolate cakes and 10.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_12_002', title: 'Identify each idea',
-          dissect: { specimen: 'Linear Programming', spots: [
+          dissect: { specimen: 'Linear Programming Problem: Definition and Formulation', spots: [
             { id: 's1', label: 'A Linear Programming Problem LPP', prompt: 'Which idea is this? — A Linear Programming Problem (LPP) is the mathematical formulation of an optimisation.', answer: 'A Linear Programming Problem LPP', options: ['A Linear Programming Problem LPP', 'The graphical method for solving', 'The feasible region of a', 'A feasible region in a'] },
             { id: 's2', label: 'The graphical method for solving', prompt: 'Which idea is this? — The graphical method for solving a Linear Programming Problem (LPP) in two variables.', answer: 'The graphical method for solving', options: ['The graphical method for solving', 'A Linear Programming Problem LPP', 'The feasible region of a', 'A feasible region in a'] },
             { id: 's3', label: 'The feasible region of a', prompt: 'Which idea is this? — The feasible region of a Linear Programming Problem (LPP) is the set of all points in the.', answer: 'The feasible region of a', options: ['The feasible region of a', 'A Linear Programming Problem LPP', 'The graphical method for solving', 'A feasible region in a'] },
@@ -93,7 +93,7 @@ export const w_c12_mathematicslinearprogrammingsim: SimDef = {
             { id: 's5', label: 'In a Linear Programming Problem', prompt: 'Which idea is this? — In a Linear Programming Problem (LPP), maximisation or minimisation refers to finding the.', answer: 'In a Linear Programming Problem', options: ['In a Linear Programming Problem', 'A Linear Programming Problem LPP', 'The graphical method for solving', 'The feasible region of a'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsLinearProgrammingSim, prompt: 'Explore the interactive — Linear Programming' },
+    explore: { component: C12_MathematicsLinearProgrammingSim, prompt: 'Explore the interactive — Linear Programming Problem: Definition and Formulation' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_12_001', difficulty: 'standard',
           question: 'A Linear Programming Problem (LPP) is the mathematical formulation of an.',

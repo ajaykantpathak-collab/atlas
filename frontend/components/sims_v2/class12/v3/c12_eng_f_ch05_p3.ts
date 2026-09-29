@@ -19,31 +19,31 @@ export const c12_eng_f_ch05_p3: SimDef = {
         hook: 'Champaran began as humanitarian relief — peasants forced to grow indigo on 3/20 of their land, then charged compensation when synthetic dye made it worthless — and became political only under repression. It was a satyagraha template, not a lawsuit.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking analysis and interpretation in literature is the systematic process of examining a text\'s deeper layers — themes, character motivations, narrative strategies, historical context.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Indigo\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_05_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Reconstruct the first satyagraha: decode the tinkathia trap and the synthetic-indigo squeeze, weigh the professor who dared shelter Gandhi, then watch fearlessness — not litigation — bend an empire.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_05_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re a journalist in 1917 Champaran watching Gandhi refuse bail and tell the court he\'s obeying a "higher law of our being." Why does this moment.',
+          caseStudy: { intro: 'Analyse \'Indigo\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the primary difference between literal comprehension and critical analysis when studying a historical narrative like "Indigo"?', options: [
                 { text: 'Literal comprehension retrieves facts (who, what, where, when)', outcome: 'Literal comprehension retrieves facts (who, what, where, when); critical analysis interrogates.' },
                 { text: 'finding hidden meanings', outcome: 'Not quite — Students believe critical analysis means "finding hidden meanings" or "giving your opinion.".', reveals: 'critical-analysis-means-finding-hidden' },
                 { text: 'giving your opinion', outcome: 'Not quite — Students believe critical analysis means "finding hidden meanings" or "giving your opinion.".', reveals: 'critical-analysis-means-finding-hidden' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_05_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall and the question reads: "Write an article on \'Freedom from fear is more important than legal justice for the poor\' based.',
+          caseStudy: { intro: 'For written answers on \'Indigo\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the correct format for a CBSE Class 12 article writing task based on a literature chapter, and what are the three mandatory.', options: [
                 { text: 'Correct format: Headline (centered, catchy), Byline (name/designation), Body', outcome: 'Correct format: Headline (centered, catchy), Byline (name/designation), Body (Introduction with.' },
                 { text: 'just write paragraphs about the story', outcome: 'Not quite — Students believe "writing based on the chapter" means retelling the story in their own words.', reveals: 'writing-based-on-the-chapter' },
                 { text: 'writing based on the chapter', outcome: 'Not quite — Students believe "writing based on the chapter" means retelling the story in their own words.', reveals: 'writing-based-on-the-chapter' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_05_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a Model UN simulation where delegates must debate: "Is freedom from fear more critical than legal justice for marginalized communities?" You.',
+          caseStudy: { intro: 'Talk through \'Indigo\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the TWO discussion prompts given under "Talking about the text" in the NCERT chapter "Indigo"?', options: [
                 { text: 'The two prompts are: (1) "Freedom from fear is more important than legal justice for the', outcome: 'The two prompts are: (1) "Freedom from fear is more important than legal justice for the poor.' },
                 { text: 'and (2)', outcome: 'Not quite — Students believe "Speaking and Listening" means *informal chatting* about the story — sharing.', reveals: 'speaking-and-listening-means-informal' },
@@ -63,12 +63,12 @@ export const c12_eng_f_ch05_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_05_013', difficulty: 'standard',
-          question: 'Critical thinking analysis and interpretation in literature is the systematic.',
+          question: 'Critical thinking on \'Indigo\' — analysing the text to reach evidence-based.',
           hint: 'If stuck, return to c12_eng_f_cbse_05_012 and redo the "inferential questions" exercise.',
           misconception: 'Students believe critical analysis means "finding hidden meanings" or "giving your opinion." In reality, literary.',
           parts: [
@@ -77,7 +77,7 @@ export const c12_eng_f_ch05_p3: SimDef = {
                   hint: 'If stuck, return to c12_eng_f_cbse_05_012 and redo the "inferential questions" exercise — practice.',
                   misconception: 'Students believe critical analysis means "finding hidden meanings" or "giving your opinion." In reality, literary analysis.' }
           ],
-            remediations: { 'critical-analysis-means-finding-hidden': { steps: ['If a student conflates summary with analysis: (1) Give them a 3-sentence summary of the Motihari court scene.', '(2) Ask: "Which sentence could be proven by a photograph?', 'Which requires reading Gandhi\'s mind?" (3) Have them rewrite the opinion sentence using only observable textual.', '(4) Practice with the 25% settlement: list 3 facts, then 3 analytical claims each tied to a specific quote.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-finding-hidden': { steps: ['If a student conflates summary with analysis: (1) Give them a 3-sentence summary of the Motihari court scene.', '(2) Ask: "Which sentence could be proven by a photograph?', 'Which requires reading Gandhi\'s mind?" (3) Have them rewrite the opinion sentence using only observable textual.', '(4) Practice with the 25% settlement: list 3 facts, then 3 analytical claims each tied to a specific quote.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_05_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -88,9 +88,9 @@ export const c12_eng_f_ch05_p3: SimDef = {
                   hint: 'If stuck, return to c12_eng_f_cbse_05_012 and redo the "inferential questions" exercise — practice.',
                   misconception: 'Students believe critical analysis means "finding hidden meanings" or "giving your opinion." In reality, literary analysis.' }
           ],
-            remediations: { 'critical-analysis-means-finding-hidden': { steps: ['If a student conflates summary with analysis: (1) Give them a 3-sentence summary of the Motihari court scene.', '(2) Ask: "Which sentence could be proven by a photograph?', 'Which requires reading Gandhi\'s mind?" (3) Have them rewrite the opinion sentence using only observable textual.', '(4) Practice with the 25% settlement: list 3 facts, then 3 analytical claims each tied to a specific quote.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-finding-hidden': { steps: ['If a student conflates summary with analysis: (1) Give them a 3-sentence summary of the Motihari court scene.', '(2) Ask: "Which sentence could be proven by a photograph?', 'Which requires reading Gandhi\'s mind?" (3) Have them rewrite the opinion sentence using only observable textual.', '(4) Practice with the 25% settlement: list 3 facts, then 3 analytical claims each tied to a specific quote.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_05_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter "Indigo" involve composing structured.',
+          question: 'Writing skills from \'Indigo\' — using the text as a model or springboard for.',
           hint: 'If stuck, return to c12_eng_f_cbse_05_013 (Critical Thinking) and re-do the "Talking.',
           misconception: 'Students believe "writing based on the chapter" means retelling the story in their own words.',
           parts: [
@@ -107,9 +107,9 @@ export const c12_eng_f_ch05_p3: SimDef = {
                   hint: 'If stuck, return to c12_eng_f_cbse_05_013 (Critical Thinking) and re-do the "Talking about the.',
                   misconception: 'Students believe "writing based on the chapter" means retelling the story in their own words.' }
           ],
-            remediations: { 'writing-based-on-the-chapter': { steps: ['If a student cannot move beyond plot summary: (1) Give them a specific prompt: "Write a speech on \'Leadership is about.', '(3) For each, write one PEEL paragraph on a separate sheet.', '(4) Assemble into speech format with address and conclusion.', '(5) Re-diagnose: ask them to highlight where each paragraph uses "Point," "Evidence," "Explanation," "Link" — if any.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-based-on-the-chapter': { steps: ['If a student cannot move beyond plot summary: (1) Give them a specific prompt: "Write a speech on \'Leadership is about.', '(3) For each, write one PEEL paragraph on a separate sheet.', '(4) Assemble into speech format with address and conclusion.', '(5) Re-diagnose: ask them to highlight where each paragraph uses "Point," "Evidence," "Explanation," "Link" — if any.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_05_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Indigo\' — speaking and listening around the text.',
           hint: 'If stuck on textual evidence retrieval: Revisit **c12_eng_f_cbse_05_012** (Comprehension).',
           misconception: 'Students believe "Speaking and Listening" means *informal chatting* about the story — sharing whether they "liked".',
           parts: [
@@ -118,7 +118,7 @@ export const c12_eng_f_ch05_p3: SimDef = {
                   hint: 'If stuck on textual evidence retrieval: Revisit **c12_eng_f_cbse_05_012** (Comprehension) for.',
                   misconception: 'Students believe "Speaking and Listening" means *informal chatting* about the story — sharing whether they "liked" Gandhi or found the.' }
           ],
-            remediations: { 'speaking-and-listening-means-informal': { steps: ['If a student cannot move beyond opinion to evidence-based argument: (1) Assign a "Text-to-Talk" scaffold: Give them.', '(2) Have them practice *only* the "Evidence → Explanation" link for 3 prompts using the sentence stem: "The text states.', 'If still stuck, revisit **c12_eng_f_cbse_05_006** (Primary Theme) and **c12_eng_f_cbse_05_013** (Critical Thinking).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'speaking-and-listening-means-informal': { steps: ['If a student cannot move beyond opinion to evidence-based argument: (1) Assign a "Text-to-Talk" scaffold: Give them.', '(2) Have them practice *only* the "Evidence → Explanation" link for 3 prompts using the sentence stem: "The text states.', 'If still stuck, revisit **c12_eng_f_cbse_05_006** (Primary Theme) and **c12_eng_f_cbse_05_013** (Critical Thinking).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

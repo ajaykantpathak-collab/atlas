@@ -19,7 +19,7 @@ export const c12_hin_ar_ch13_p3: SimDef = {
         hook: 'Dwivedi pioneered experimental fiction in Hindi — folk speech, oral rhythm, the lives of common people rendered with documentary warmth. The story isn\'t nostalgia for kings; it stages the collision where \'the system\' replaced \'the sovereign\' — and nobody told the artist.',
     },
     teaching: [
-        { title: 'पहलवान की ढोलक — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) इस पाठ में पाठ्य-सामग्री के पार जाकर लेखक के अंतर्निहित उद्देश्य, प्रतीकों की बहु-स्तरीय व्याख्या, पात्रों के मनोवैज्ञानिक द्वंद्व और सामाजिक यथार्थ की पड़ताल.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पहलवान की ढोलक — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'आरोह भाग-2 — पाठ 13\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_13_013', title: 'Your mission',
@@ -28,6 +28,8 @@ export const c12_hin_ar_ch13_p3: SimDef = {
         context: 'Watch a folk artist meet the new order: weigh the king\'s court against bureaucratic law, track how art becomes \'profession\' under pressure, and find where dignity survives the transition.',
         labels: ['पहलवान की ढोलक —'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'build', nodeId: 'c12_hin_ar_cbse_13_013', title: 'Put the steps in order',
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Identify all occurrences of the syllables in the text.', 'Link to thesis: The syllables\' persistence across regimes.', 'Formulate an arguable Point: The syllables function as.', 'Explain each: (a) establishes baseline — art belongs.', 'Select Evidence for each occurrence: (a) "gaon ke log mil.'], answer: 'Identify all occurrences of the syllables in the text. Formulate an arguable Point: The syllables function as. Select Evidence for each occurrence: (a) "gaon ke log mil. Explain each: (a) establishes baseline — art belongs. Link to thesis: The syllables\' persistence across regimes.' } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_13_013', title: 'Use it in the wild',
           caseStudy: { intro: 'A folk singer from your district gets signed by a big label that drops her dialect, renames her, and reworks her songs into a commercial formula. Two years later she returns to perform in a hometown she barely recognises — and only family gathers to listen.',
             decisions: [{ prompt: 'How does \'युगुक की ढोलकी\' / the flautist\'s tale frame her trajectory?', options: [
@@ -47,38 +49,38 @@ export const c12_hin_ar_ch13_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_13_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) इस पाठ में पाठ्य-सामग्री के पार जाकर लेखक.',
-          hint: 'यदि प्रतीक व्याख्या में अटके: c12_hin_ar_cbse_13_008 (बिंब और रूपक) और.',
-          misconception: 'छात्र अक्सर \'आलोचनात्मक चिंतन\' को \'नकारात्मक आलोचना\' (fault-finding) समझ बैठते हैं और पाठ में केवल कमियाँ गिनाने लगते.',
+          question: '\'आरोह भाग-2 — पाठ 13\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
+          hint: 'If stuck, return to c12_hin_ar_cbse_13_012 (Comprehension) and c12_hin_ar_cbse_13_008-009.',
+          misconception: '**"Analysis means finding hidden symbols" — students hunt for "secret meanings" (e.g., "the fire represents passion").',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) इस पाठ में पाठ्य-सामग्री के पार जाकर लेखक के',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) इस पाठ में पाठ्य-सामग्री के पार जाकर लेखक के', '\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण बिहार के', 'कथानक (Plot) कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम वाला क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण किसी रचना में कथानक के घटित होने का समग्र संदर्भ है जिसमें'],
-                  hint: 'यदि प्रतीक व्याख्या में अटके: c12_hin_ar_cbse_13_008 (बिंब और रूपक) और c12_hin_ar_cbse_13_009.',
-                  misconception: 'छात्र अक्सर \'आलोचनात्मक चिंतन\' को \'नकारात्मक आलोचना\' (fault-finding) समझ बैठते हैं और पाठ में केवल कमियाँ गिनाने लगते हैं (जैसे: \'लेखक ने.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 13\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+                  options: ['\'आरोह भाग-2 — पाठ 13\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 13\' का कथानक — \'आरोह भाग-2 — पाठ 13\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 13\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'If stuck, return to c12_hin_ar_cbse_13_012 (Comprehension) and c12_hin_ar_cbse_13_008-009 (Literary.',
+                  misconception: '**"Analysis means finding hidden symbols" — students hunt for "secret meanings" (e.g., "the fire represents passion") instead of analyzing.' }
           ],
-            remediations: { 'fault-finding': { steps: ['चरण 1: छात्र से कहें — "पाठ का कोई एक वाक्य चुनो जो तुम्हें \'अजीब\' या \'विरोधाभासी\' लगा हो (जैसे: बलवान पहलवान नाचता.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'analysis-means-finding-hidden-symbols': { steps: ['If a student cannot move beyond plot summary or device-spotting: 1.', '**Return to node 012 (Comprehension):** Have them list 5 *specific* textual moments (with page/line refs) where the.', 'No interpretation — just evidence collection.', '**Return to nodes 008-009 (Literary Devices):** For each moment, name *one* device at work (motif, parallelism.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_13_014', difficulty: 'standard',
-          question: '"लेखन कौशल: पाठ-आधारित" का अर्थ है NCERT पाठ "पहलवान की ढोलक" के कथ्य, पात्र.',
+          question: '\'आरोह भाग-2 — पाठ 13\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि PEEL संरचना लागू करने में अटके → **c11_hin_ar_cbse_13_014** (कक्षा 11 का समान नोड) पर.',
           misconception: '**विशिष्ट भ्रांति:** *"पाठ-आधारित लेखन का अर्थ है पाठ की बातें अपने शब्दों में दोहराना (paraphrasing)।"*.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"लेखन कौशल: पाठ-आधारित" का अर्थ है NCERT पाठ "पहलवान की ढोलक" के कथ्य, पात्र, शिल्प,',
-                  options: ['"लेखन कौशल: पाठ-आधारित" का अर्थ है NCERT पाठ "पहलवान की ढोलक" के कथ्य, पात्र, शिल्प,', '\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण बिहार के', 'कथानक (Plot) कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम वाला क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण किसी रचना में कथानक के घटित होने का समग्र संदर्भ है जिसमें'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 13\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+                  options: ['\'आरोह भाग-2 — पाठ 13\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 13\' का कथानक — \'आरोह भाग-2 — पाठ 13\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 13\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि PEEL संरचना लागू करने में अटके → **c11_hin_ar_cbse_13_014** (कक्षा 11 का समान नोड) पर लौटें.',
                   misconception: '**विशिष्ट भ्रांति:** *"पाठ-आधारित लेखन का अर्थ है पाठ की बातें अपने शब्दों में दोहराना (paraphrasing)।"* **वास्तविकता:** बोर्ड/प्रतियोगी.' }
           ],
             remediations: { 'paraphrasing-1-2': { steps: ['**चरणबद्ध उपचार (यदि छात्र उपरोक्त भ्रांति में फँसा है):** 1.', '**पुनः पाठ पढ़ें — पर इस बार "पेंसिल से"**: हर उस वाक्य/शब्द को **अंडरलाइन/हाइलाइट** करें जो — (क) चरित्र-परिवर्तन.', '**एक प्रश्न चुनें** (जैसे: "शीर्षक की सार्थकता") और **केवल 3 साक्ष्य** ढूंढें — पूरा उत्तर न लिखें, केवल **साक्ष्य.', '**PEEL का केवल Point और Evidence लिखें** — Explanation और Link बाद में। 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_13_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु एक सहयोगी शिक्षण प्रक्रिया है जिसमें विद्यार्थी पाठ का.',
-          hint: 'यदि अटका महसूस हो तो c12_hin_ar_cbse_13_006 (मुख्य विषय) और c12_hin_ar_cbse_13_008.',
-          misconception: 'विद्यार्थी समझते हैं कि "वाचन-श्रवण: चर्चा-बिंदु" का अर्थ है **शिक्षक द्वारा पूछे गए प्रश्नों के उत्तर रटना** या **पाठ.',
+          question: '\'आरोह भाग-2 — पाठ 13\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'If stuck, return to c12_hin_ar_cbse_13_013 and re-do the "Theme Tracking Table" exercise.',
+          misconception: 'Students treat "discussion points" as a list of opinions to memorize ("Yagyu is brave," "King is cruel") rather than.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु एक सहयोगी शिक्षण प्रक्रिया है जिसमें विद्यार्थी पाठ का सस्वर वाचन',
-                  options: ['वाचन-श्रवण: चर्चा-बिंदु एक सहयोगी शिक्षण प्रक्रिया है जिसमें विद्यार्थी पाठ का सस्वर वाचन', '\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण बिहार के', 'कथानक (Plot) कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम वाला क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण किसी रचना में कथानक के घटित होने का समग्र संदर्भ है जिसमें'],
-                  hint: 'यदि अटका महसूस हो तो c12_hin_ar_cbse_13_006 (मुख्य विषय) और c12_hin_ar_cbse_13_008 (बिंब-रूपक) पर.',
-                  misconception: 'विद्यार्थी समझते हैं कि "वाचन-श्रवण: चर्चा-बिंदु" का अर्थ है **शिक्षक द्वारा पूछे गए प्रश्नों के उत्तर रटना** या **पाठ का अनुवाद करना**।.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 13\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।',
+                  options: ['\'आरोह भाग-2 — पाठ 13\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 13\' का कथानक — \'आरोह भाग-2 — पाठ 13\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 13\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'If stuck, return to c12_hin_ar_cbse_13_013 and re-do the "Theme Tracking Table" exercise — map each.',
+                  misconception: 'Students treat "discussion points" as a list of opinions to memorize ("Yagyu is brave," "King is cruel") rather than a framework for.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['विद्यार्थी को पाठ के **तीन भाव-शिखर** (पहलवान का परिचय, ढोलक संग अकेलापन, अंतिम विदाई) चिह्नित कराकर प्रत्येक का.', 'कक्षा में **\'विचार-विनिमय वृत्त\' (थिंक-पेयर-शेयर)** चलाएँ: पहले अकेले सोचें, फिर जोड़ी में बाँटें, फिर पूरे समूह में.', 'पुनः निदान: पैरा 6 का वाचन कराकर पूछें "यहाँ पहलवान की आवाज़ में क्या सुनाई देता है — गर्व, पीड़ा, या दोनों?" — यदि.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-discussion-points-as': { steps: ['If a student cannot move beyond opinion-sharing: Step 1 — Give them a "Claim-Evidence-Reasoning" template card.', 'Step 2 — Practice with a non-literary topic first (e.g., "Should street vendors need licenses?") to isolate the skill.', 'Step 3 — Return to the text: assign *one* claim ("Yagyu\'s art is political") and require three distinct textual.', 'Step 4 — Record their 2-minute response; playback and self-score using the CBSE speaking rubric (fluency, coherence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

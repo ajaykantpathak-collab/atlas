@@ -6,16 +6,16 @@ import C9_SocialScienceStateSociety1000CESim from '../../../simulations/c6_12/C9
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_socialsciencestatesociety1000cesim: SimDef = {
     id: 'v3w_c9_socialsciencestatesociety1000cesim',
-    title: 'Social Science State Society1000CE',
+    title: 'Governance and Society: Interconnection of Politics and People',
     subtitle: 'This node covers the conceptual framework linking governance and society across Indian.',
     classLevel: 9, subject: 'science', topic: 'Governance and Society: Interconnection of Politics and People',
     chapters: [],
     nodeIds: ['c9_hist_ch1_8', 'c9_hist_ch2_10', 'c9_hist_ch3_1', 'c9_eco_ch1_1', 'c9_eco_ch1_2', 'c9_hist_ch1_1', 'c9_hist_ch1_10', 'c9_hist_ch1_2', 'c9_hist_ch1_3', 'c9_hist_ch1_5', 'c9_hist_ch1_6', 'c9_hist_ch3_12', 'c9_hist_ch3_3', 'c9_hist_ch3_4', 'c9_hist_ch3_6'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are visiting the Qutb Minar complex in Delhi. You see the Iron Pillar (Gupta period), the.', goal: 'Master Social Science State Society1000CE.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are visiting the Qutb Minar complex in Delhi. You see the Iron Pillar (Gupta period), the.', goal: 'Master Governance and Society: Interconnection of Politics and People.' },
     discovery: {
         question: 'Why did Alauddin Khalji\'s market control regulations (fixing grain prices, regulating merchants) provoke resistance not only from traders but also from rural.',
-        options: ['Correct answer: Price ceilings forced peasants to sell at below-market rates to', 'trader greed', 'governance affects society'],
+        options: ['Price ceilings forced peasants to sell at below-market rates to', 'trader greed', 'governance affects society'],
         answer: 'Price ceilings forced peasants to sell at below-market rates to',
         hook: 'Students often think "governance affects society" is a one-way top-down process: the state makes laws, society obeys.',
     },
@@ -80,7 +80,7 @@ export const w_c9_socialsciencestatesociety1000cesim: SimDef = {
             { text: 'Synthesise — both reasons show *methodological rigour*: transparent evidence, logical inference, and openness to.', faded: true, blankAnswer: 'Social Science is systematic because (1) History uses.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_hist_ch2_10', title: 'Identify each idea',
-          dissect: { specimen: 'Social Science State Society1000CE', spots: [
+          dissect: { specimen: 'Governance and Society: Interconnection of Politics and People', spots: [
             { id: 's1', label: 'Governance and society represent a', prompt: 'Which idea is this? — Governance and society represent a dialectical relationship where political structures.', answer: 'Governance and society represent a', options: ['Governance and society represent a', 'Egyptian Civilisation c 310030 BCE', 'The Vedic Society spans two', 'Scarcity is the fundamental economic'] },
             { id: 's2', label: 'Egyptian Civilisation c 310030 BCE', prompt: 'Which idea is this? — Egyptian Civilisation (c. 3100–30 BCE) was a Bronze Age civilisation centred along the.', answer: 'Egyptian Civilisation c 310030 BCE', options: ['Egyptian Civilisation c 310030 BCE', 'Governance and society represent a', 'The Vedic Society spans two', 'Scarcity is the fundamental economic'] },
             { id: 's3', label: 'The Vedic Society spans two', prompt: 'Which idea is this? — The Vedic Society spans two distinct phases: the Early Vedic (Rigvedic) period (c.', answer: 'The Vedic Society spans two', options: ['The Vedic Society spans two', 'Governance and society represent a', 'Egyptian Civilisation c 310030 BCE', 'Scarcity is the fundamental economic'] },
@@ -89,7 +89,7 @@ export const w_c9_socialsciencestatesociety1000cesim: SimDef = {
             { id: 's6', label: 'Social Science is the systematic', prompt: 'Which idea is this? — Social Science is the systematic study of human society, social relationships, and.', answer: 'Social Science is the systematic', options: ['Social Science is the systematic', 'Governance and society represent a', 'Egyptian Civilisation c 310030 BCE', 'The Vedic Society spans two'] }
           ] } }
     ],
-    explore: { component: C9_SocialScienceStateSociety1000CESim, prompt: 'Explore the interactive — Social Science State Society1000CE' },
+    explore: { component: C9_SocialScienceStateSociety1000CESim, prompt: 'Explore the interactive — Governance and Society: Interconnection of Politics and People' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_hist_ch1_8', difficulty: 'standard',
           question: 'Governance and society represent a dialectical relationship where political.',

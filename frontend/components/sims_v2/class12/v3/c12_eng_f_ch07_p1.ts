@@ -19,45 +19,45 @@ export const c12_eng_f_ch07_p1: SimDef = {
         hook: 'The interview is both \'supremely serviceable\' and an \'ordeal\' — Carroll feared being lionised, Kipling called it assault, yet the same medium lets Eco unpack semiotics on a Sunday. It\'s a genre with two faces, and this chapter is a commentary on the genre itself.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'The "Before You Read: Context and Background" section for "The Interview" provides the historical, cultural, and literary framework necessary to understand Christopher Silvester\'s introduction.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Interview\' (Flamingo, ch. 7) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_07_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Dissect the interview as a form: weigh 130 years of celebrity objections against Denis Brian\'s defence, then run Eco\'s \'interstices\' over your own day — and script an interview with signallers that actually flows.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_07_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are watching a press conference with Virat Kohli after a cricket match — the journalist asks, he answers, millions watch.',
+          caseStudy: { intro: 'Start with the author of \'The Interview\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'What is the approximate historical period since the interview was invented, according to Christopher Silvester?', options: [
                 { text: 'The interview was invented a little over 130 years ago (from the time of writing, roughly', outcome: 'The interview was invented a little over 130 years ago (from the time of writing, roughly late 19th.' },
                 { text: '50 years', outcome: 'Not quite — Students often treat this chapter as *just* an interview with Umberto Eco, overlooking that Part.', reveals: 'students-often-treat-this-chapter' },
                 { text: 'ancient times', outcome: 'Not quite — Students often treat this chapter as *just* an interview with Umberto Eco, overlooking that Part.', reveals: 'students-often-treat-this-chapter' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_07_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you open a magazine and see two pieces side by side: a long article about the history of interviews, and right next to it, an actual interview with.',
+          caseStudy: { intro: 'Trace \'The Interview\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What are the two main structural parts of the chapter "The Interview" and what is the primary purpose of each part?', options: [
                 { text: 'The two parts are: Part I', outcome: 'The two parts are: Part I — an expository essay that surveys the history, definitions, and.' },
                 { text: 'both parts are interviews', outcome: 'Not quite — Students often treat "plot" as a fiction-only term and assume non-fiction has no narrative.', reveals: 'students-often-treat-plot-as' },
                 { text: 'Part I is a story', outcome: 'Not quite — Students often treat "plot" as a fiction-only term and assume non-fiction has no narrative.', reveals: 'students-often-treat-plot-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_07_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re watching a talk show: the studio lights, the host\'s desk, the guest\'s chair — that\'s the physical setting.',
+          caseStudy: { intro: 'Identify where and when \'The Interview\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the primary setting of Part I of "The Interview" — the introduction by Christopher Silvester?', options: [
                 { text: 'The primary setting of Part I is the historical and cultural landscape of journalism over', outcome: 'The primary setting of Part I is the historical and cultural landscape of journalism over ~130.' },
                 { text: 'a newspaper office', outcome: 'Not quite — Students treat "setting" as only physical location (e.g., "Bologna university," "newspaper office").', reveals: 'students-treat-setting-as-only' },
                 { text: 'Silvester\'s study', outcome: 'Not quite — Students treat "setting" as only physical location (e.g., "Bologna university," "newspaper office").', reveals: 'students-treat-setting-as-only' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_07_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re watching a podcast with your favorite author — you listen not just for *what* they say, but *how* they say it: their humility, humor.',
+          caseStudy: { intro: 'Pick the central figure in \'The Interview\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: '**REMEMBER:** What specific phrase does Umberto Eco use to describe his primary professional identity in the interview?', options: [
                 { text: '**Correct answer:** "I am a professor who writes novels on Sundays." **Why wrong answers', outcome: '**Correct answer:** "I am a professor who writes novels on Sundays." **Why wrong answers reveal.' },
                 { text: 'I am a professor who writes novels on Sundays', outcome: 'Not quite — **Misconception:** *"Eco is arrogant/intellectually elitist because he dismisses mass appeal.', reveals: 'misconception-eco-is-arrogant-intellectually' },
                 { text: 'novelist', outcome: 'Not quite — **Misconception:** *"Eco is arrogant/intellectually elitist because he dismisses mass appeal.', reveals: 'misconception-eco-is-arrogant-intellectually' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_07_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re watching a viral celebrity interview where the star looks uncomfortable answering personal questions — you wonder: is this journalism.',
+          caseStudy: { intro: 'Ask what \'The Interview\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of the chapter "The Interview" as presented in the NCERT textbook?', options: [
                 { text: 'The primary theme is the interview as a communication genre', outcome: 'The primary theme is the interview as a communication genre — its history, its contradictory.' },
                 { text: 'Umberto Eco\'s writing habits', outcome: 'Not quite — Students often think the primary theme is "Umberto Eco\'s life and work" because Part II dominates.', reveals: 'the-primary-theme-is-umberto' },
@@ -77,12 +77,12 @@ export const c12_eng_f_ch07_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_001', difficulty: 'standard',
-          question: 'The "Before You Read: Context and Background" section for "The Interview".',
+          question: '\'The Interview\' (Flamingo, ch. 7) — the context and background to this text.',
           hint: 'Review "Text Type: Interview Format and Its Structure" (c9_engl_ch5_4) and "Before You.',
           misconception: 'Students often treat this chapter as *just* an interview with Umberto Eco, overlooking that Part I is a *critical essay.',
           parts: [
@@ -91,7 +91,7 @@ export const c12_eng_f_ch07_p1: SimDef = {
                   hint: 'Review "Text Type: Interview Format and Its Structure" (c9_engl_ch5_4) and "Before You Read".',
                   misconception: 'Students often treat this chapter as *just* an interview with Umberto Eco, overlooking that Part I is a *critical essay on the genre* by.' }
           ],
-            remediations: { 'students-often-treat-this-chapter': { steps: ['If the student cannot distinguish the two authors/parts: (1) Have them physically draw a line in the textbook between.', '(2) Create a two-column table: Column A = Silvester\'s Essay (history, theory, celebrity quotes), Column B = Eco\'s.', '(3) Re-read the "About the Author" boxes aloud.', '(4) Re-attempt Diagnostic Question 4, which forces the distinction.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-this-chapter': { steps: ['If the student cannot distinguish the two authors/parts: (1) Have them physically draw a line in the textbook between.', '(2) Create a two-column table: Column A = Silvester\'s Essay (history, theory, celebrity quotes), Column B = Eco\'s.', '(3) Re-read the "About the Author" boxes aloud.', '(4) Re-attempt Diagnostic Question 4, which forces the distinction.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_001', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -102,9 +102,9 @@ export const c12_eng_f_ch07_p1: SimDef = {
                   hint: 'Review "Text Type: Interview Format and Its Structure" (c9_engl_ch5_4) and "Before You Read".',
                   misconception: 'Students often treat this chapter as *just* an interview with Umberto Eco, overlooking that Part I is a *critical essay on the genre* by.' }
           ],
-            remediations: { 'students-often-treat-this-chapter': { steps: ['If the student cannot distinguish the two authors/parts: (1) Have them physically draw a line in the textbook between.', '(2) Create a two-column table: Column A = Silvester\'s Essay (history, theory, celebrity quotes), Column B = Eco\'s.', '(3) Re-read the "About the Author" boxes aloud.', '(4) Re-attempt Diagnostic Question 4, which forces the distinction.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-this-chapter': { steps: ['If the student cannot distinguish the two authors/parts: (1) Have them physically draw a line in the textbook between.', '(2) Create a two-column table: Column A = Silvester\'s Essay (history, theory, celebrity quotes), Column B = Eco\'s.', '(3) Re-read the "About the Author" boxes aloud.', '(4) Re-attempt Diagnostic Question 4, which forces the distinction.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_002', difficulty: 'standard',
-          question: 'Narrative structure in non-fiction refers to the organizational framework that.',
+          question: 'The plot/narrative arc of \'The Interview\' — what happens, in what order, and.',
           hint: 'Review the "Noticing discourse linkers and signallers" section in the NCERT textbook.',
           misconception: 'Students often treat "plot" as a fiction-only term and assume non-fiction has no narrative structure.',
           parts: [
@@ -117,42 +117,42 @@ export const c12_eng_f_ch07_p1: SimDef = {
                   hint: 'Review the "Noticing discourse linkers and signallers" section in the NCERT textbook (pages 72-73).',
                   misconception: 'Students often treat "plot" as a fiction-only term and assume non-fiction has no narrative structure.' }
           ],
-            remediations: { 'students-often-treat-plot-as': { steps: ['Re-read Part I and draw a flowchart: Box 1 = Invention & spread of interviews; Box 2 = Conflicting views (truth/art.', 'Re-read Part II and highlight every signaller phrase in one colour, every linker in another.', 'Write one sentence explaining the difference in function.', 'Re-attempt Diagnostic Questions 2 and 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-plot-as': { steps: ['Re-read Part I and draw a flowchart: Box 1 = Invention & spread of interviews; Box 2 = Conflicting views (truth/art.', 'Re-read Part II and highlight every signaller phrase in one colour, every linker in another.', 'Write one sentence explaining the difference in function.', 'Re-attempt Diagnostic Questions 2 and 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_003', difficulty: 'standard',
-          question: 'In non-fiction texts like "The Interview," **setting** refers to the contextual.',
+          question: 'The setting of \'The Interview\' — the place, time and atmosphere the text.',
           hint: 'Review c11_eng_h_cbse_01_003: practice mapping setting-atmosphere in "The Portrait of.',
           misconception: 'Students treat "setting" as only physical location (e.g., "Bologna university," "newspaper office") and "atmosphere".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'In non-fiction texts like "The Interview," **setting** refers to the contextual framework',
-                  options: ['In non-fiction texts like "The Interview," **setting** refers to the contextual framework', 'The "Before You Read: Context and Background" section for "The Interview" provides the', 'Narrative structure in non-fiction refers to the organizational framework that arranges', 'Character analysis of the protagonist involves examining the personality traits,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'The Interview\'',
+                  options: ['The setting of \'The Interview\'', '\'The Interview\' (Flamingo, ch', 'The plot/narrative arc of \'The Interview\'', 'Character analysis in \'The Interview\''],
                   hint: 'Review c11_eng_h_cbse_01_003: practice mapping setting-atmosphere in "The Portrait of a Lady".',
                   misconception: 'Students treat "setting" as only physical location (e.g., "Bologna university," "newspaper office") and "atmosphere" as generic mood labels.' }
           ],
-            remediations: { 'students-treat-setting-as-only': { steps: ['Re-read Part I listing only the *names* cited (Naipaul, Carroll, Kipling, Wells, Bellow, Brian).', 'Ask: "What *conversation* are they having across time?" That conversation *is* the setting.', 'Re-read Part II highlighting every "(Laughs)", "Aah", "shrugs", and metaphor ("interstices", "Chinese wise man").', 'Ask: "If this were a play, what stage directions would the director write?" Those directions *are* the atmosphere.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-setting-as-only': { steps: ['Re-read Part I listing only the *names* cited (Naipaul, Carroll, Kipling, Wells, Bellow, Brian).', 'Ask: "What *conversation* are they having across time?" That conversation *is* the setting.', 'Re-read Part II highlighting every "(Laughs)", "Aah", "shrugs", and metaphor ("interstices", "Chinese wise man").', 'Ask: "If this were a play, what stage directions would the director write?" Those directions *are* the atmosphere.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the personality.',
+          question: 'Character analysis in \'The Interview\' — the central figure(s), their traits.',
           hint: 'If stuck on speaker attribution: Review `c12_eng_f_cbse_07_002` (Plot and Narrative.',
           misconception: '**Misconception:** *"Eco is arrogant/intellectually elitist because he dismisses mass appeal (\'people like trash\') and.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist involves examining the personality traits,',
-                  options: ['Character analysis of the protagonist involves examining the personality traits,', 'The "Before You Read: Context and Background" section for "The Interview" provides the', 'Narrative structure in non-fiction refers to the organizational framework that arranges', 'In non-fiction texts like "The Interview," **setting** refers to the contextual framework'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis in \'The Interview\'',
+                  options: ['Character analysis in \'The Interview\'', '\'The Interview\' (Flamingo, ch', 'The plot/narrative arc of \'The Interview\'', 'The setting of \'The Interview\''],
                   hint: 'If stuck on speaker attribution: Review `c12_eng_f_cbse_07_002` (Plot and Narrative Structure) —.',
                   misconception: '**Misconception:** *"Eco is arrogant/intellectually elitist because he dismisses mass appeal (\'people like trash\') and corrects the.' }
           ],
-            remediations: { 'misconception-eco-is-arrogant-intellectually': { steps: ['**Re-read only Eco\'s lines** (ignore interviewer\'s questions) — highlight every "I" statement.', '**Sort highlights into 3 columns:** Identity | Work Habit | Philosophy.', '**Revisit node `c11_eng_h_cbse_01_004` (Character Analysis: Protagonist)** — practice the same 3-column method on.', '**Re-diagnostic:** Answer Diagnostic Question 2 again, now requiring *two* pieces of evidence per trait.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'misconception-eco-is-arrogant-intellectually': { steps: ['**Re-read only Eco\'s lines** (ignore interviewer\'s questions) — highlight every "I" statement.', '**Sort highlights into 3 columns:** Identity | Work Habit | Philosophy.', '**Revisit node `c11_eng_h_cbse_01_004` (Character Analysis: Protagonist)** — practice the same 3-column method on.', '**Re-diagnostic:** Answer Diagnostic Question 2 again, now requiring *two* pieces of evidence per trait.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_005', difficulty: 'standard',
-          question: 'Supporting characters in a non-fiction interview text are the secondary voices.',
+          question: 'Supporting characters in \'The Interview\' — the secondary figures who move the.',
           hint: 'If unclear on why these six specific writers were chosen, revisit c12_eng_f_cbse_07_001.',
           misconception: 'Students treat "supporting characters" in this non-fiction text as merely "people mentioned" and write descriptive.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in a non-fiction interview text are the secondary voices',
-                  options: ['Supporting characters in a non-fiction interview text are the secondary voices', 'The "Before You Read: Context and Background" section for "The Interview" provides the', 'Narrative structure in non-fiction refers to the organizational framework that arranges', 'In non-fiction texts like "The Interview," **setting** refers to the contextual framework'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in \'The Interview\'',
+                  options: ['Supporting characters in \'The Interview\'', '\'The Interview\' (Flamingo, ch', 'The plot/narrative arc of \'The Interview\'', 'The setting of \'The Interview\''],
                   hint: 'If unclear on why these six specific writers were chosen, revisit c12_eng_f_cbse_07_001 (Context.',
                   misconception: 'Students treat "supporting characters" in this non-fiction text as merely "people mentioned" and write descriptive summaries (e.g.' }
           ],
-            remediations: { 'students-treat-supporting-characters-in': { steps: ['Re-read Part I and create a two-column table: Column A = Name, Column B = Exact phrase showing their view on interviews.', 'Group the six views into clusters (e.g., "violation of self," "necessary evil," "powerful medium").', 'Ask: "Why did Silvester order them this way? What does the sequence Naipaul → Carroll → Kipling → Wells → Bellow →.', 'Re-attempt Diagnostic Question 2. If still stuck, review node c12_eng_f_cbse_07_002 (Plot and Narrative Structure).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-supporting-characters-in': { steps: ['Re-read Part I and create a two-column table: Column A = Name, Column B = Exact phrase showing their view on interviews.', 'Group the six views into clusters (e.g., "violation of self," "necessary evil," "powerful medium").', 'Ask: "Why did Silvester order them this way? What does the sequence Naipaul → Carroll → Kipling → Wells → Bellow →.', 'Re-attempt Diagnostic Question 2. If still stuck, review node c12_eng_f_cbse_07_002 (Plot and Narrative Structure).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_006', difficulty: 'standard',
-          question: 'The primary theme of a text is its central, unifying idea or message that the.',
+          question: 'The primary theme of \'The Interview\' — the central idea the whole text returns.',
           hint: 'If stuck, revisit c12_eng_f_cbse_07_002 (Plot and Narrative Structure) and map the two.',
           misconception: 'Students often think the primary theme is "Umberto Eco\'s life and work" because Part II dominates the page count and.',
           parts: [
@@ -161,7 +161,7 @@ export const c12_eng_f_ch07_p1: SimDef = {
                   hint: 'If stuck, revisit c12_eng_f_cbse_07_002 (Plot and Narrative Structure) and map the two parts: Part.',
                   misconception: 'Students often think the primary theme is "Umberto Eco\'s life and work" because Part II dominates the page count and feels more concrete.' }
           ],
-            remediations: { 'the-primary-theme-is-umberto': { steps: ['If the student conflates the case study (Eco) with the theme (the interview genre), do this 3-step remediation: (1).', '(2) Ask: "What do ALL these voices have in common?" Guide them to: "They are all *about the interview itself*." (3).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'the-primary-theme-is-umberto': { steps: ['If the student conflates the case study (Eco) with the theme (the interview genre), do this 3-step remediation: (1).', '(2) Ask: "What do ALL these voices have in common?" Guide them to: "They are all *about the interview itself*." (3).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

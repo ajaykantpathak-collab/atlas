@@ -6,13 +6,13 @@ import C11_ChemistryThermodynamicsCBSESim from '../../../simulations/c6_12/C11_C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_chemistrythermodynamicscbsesim: SimDef = {
     id: 'v3w_c11_chemistrythermodynamicscbsesim',
-    title: 'Thermodynamics CBSE',
+    title: 'Thermodynamic Terms: System, Surroundings, State',
     subtitle: 'Covers: definitions of system, surroundings, boundary; types of systems (open, closed,.',
     classLevel: 11, subject: 'chemistry', topic: 'Thermodynamic Terms: System, Surroundings, State',
     chapters: [],
     nodeIds: ['c11_chem_cbse_06_001', 'c11_chem_cbse_06_002', 'c11_chem_cbse_06_003', 'c11_chem_cbse_06_007', 'c11_chem_cbse_06_008', 'c11_chem_cbse_06_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a pressure cooker whistling on a gas stove — the steam inside is the **system**, the metal pot and.', goal: 'Master Thermodynamics CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a pressure cooker whistling on a gas stove — the steam inside is the **system**, the metal pot and.', goal: 'Master Thermodynamic Terms: System, Surroundings, State.' },
     discovery: {
         question: 'Classify each as open, closed, or isolated system: (a) a sealed soda bottle before opening, (b) an earthen pot (matka) cooling water by evaporation, (c) a.',
         options: ['a sealed soda bottle before opening, (', 'sealed', 'thermally insulated'],
@@ -79,7 +79,7 @@ export const w_c11_chemistrythermodynamicscbsesim: SimDef = {
             { text: 'Since S(0)=0, S(10 K) = 0.667 J K⁻¹ mol⁻¹. Verify units: C_p/T has units J K⁻¹ mol⁻¹ / K = J K⁻² mol⁻¹, multiplied by.', faded: true, blankAnswer: '0.667 J K⁻¹ mol⁻¹' }
             ] } },
         { type: 'dissect', nodeId: 'c11_chem_cbse_06_002', title: 'Identify each idea',
-          dissect: { specimen: 'Thermodynamics CBSE', spots: [
+          dissect: { specimen: 'Thermodynamic Terms: System, Surroundings, State', spots: [
             { id: 's1', label: 'In thermodynamics a system is', prompt: 'Which idea is this? — In thermodynamics, a **system** is the specific portion of the universe (e.g., reactants.', answer: 'In thermodynamics a system is', options: ['In thermodynamics a system is', 'Internal energy U is the', 'Enthalpy H is a thermodynamic', 'Gibbs energy change G is'] },
             { id: 's2', label: 'Internal energy U is the', prompt: 'Which idea is this? — Internal energy (U) is the total energy stored within a thermodynamic system arising from.', answer: 'Internal energy U is the', options: ['Internal energy U is the', 'In thermodynamics a system is', 'Enthalpy H is a thermodynamic', 'Gibbs energy change G is'] },
             { id: 's3', label: 'Enthalpy H is a thermodynamic', prompt: 'Which idea is this? — Enthalpy (H) is a thermodynamic state function defined as the sum of a system\'s internal.', answer: 'Enthalpy H is a thermodynamic', options: ['Enthalpy H is a thermodynamic', 'In thermodynamics a system is', 'Internal energy U is the', 'Gibbs energy change G is'] },
@@ -88,7 +88,7 @@ export const w_c11_chemistrythermodynamicscbsesim: SimDef = {
             { id: 's6', label: 'The Third Law of Thermodynamics', prompt: 'Which idea is this? — The Third Law of Thermodynamics states that the entropy of a perfect crystalline.', answer: 'The Third Law of Thermodynamics', options: ['The Third Law of Thermodynamics', 'In thermodynamics a system is', 'Internal energy U is the', 'Enthalpy H is a thermodynamic'] }
           ] } }
     ],
-    explore: { component: C11_ChemistryThermodynamicsCBSESim, prompt: 'Explore the interactive — Thermodynamics CBSE' },
+    explore: { component: C11_ChemistryThermodynamicsCBSESim, prompt: 'Explore the interactive — Thermodynamic Terms: System, Surroundings, State' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_chem_cbse_06_001', difficulty: 'standard',
           question: 'In thermodynamics, a **system** is the specific portion of the universe (e.g.,.',

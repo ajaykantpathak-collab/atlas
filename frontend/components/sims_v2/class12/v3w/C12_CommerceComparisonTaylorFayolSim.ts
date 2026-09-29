@@ -6,16 +6,16 @@ import C12_CommerceComparisonTaylorFayolSim from '../../../simulations/c6_12/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_commercecomparisontaylorfayolsim: SimDef = {
     id: 'v3w_c12_commercecomparisontaylorfayolsim',
-    title: 'Comparison Taylor Fayol',
+    title: 'Taylor\'s Techniques: Time Study, Motion Study and Functional Foremanship',
     subtitle: 'This node covers the seven techniques explicitly listed in the NCERT text for Taylor\'s.',
     classLevel: 12, subject: 'business_studies', topic: 'Taylor\'s Techniques: Time Study, Motion Study and Functional Foremanship',
     chapters: [],
     nodeIds: ['c12_bs_cbse_02_003', 'c12_bs_cbse_02_005', 'c12_bs_cbse_02_007', 'c12_bs_cbse_02_001', 'c12_bs_cbse_02_008', 'c12_bs_cbse_02_009', 'c12_bs_cbse_02_002', 'c12_bs_cbse_02_004', 'c12_bs_cbse_02_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the production manager of a bicycle factory in Ludhiana where workers assemble 50 frames per.', goal: 'Master Comparison Taylor Fayol.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the production manager of a bicycle factory in Ludhiana where workers assemble 50 frames per.', goal: 'Master Taylor\'s Techniques: Time Study, Motion Study and Functional Foremanship.' },
     discovery: {
         question: 'A company has two divisions — one manufacturing electric scooters and another manufacturing electric bicycles.',
-        options: ['Correct answer: This illustrates Unity of Direction', 'it shows Unity of Command', 'Unity of Direction means each employee should have only one boss'],
+        options: ['This illustrates Unity of Direction', 'it shows Unity of Command', 'Unity of Direction means each employee should have only one boss'],
         answer: 'This illustrates Unity of Direction',
         hook: 'Students often confuse Unity of Direction with Unity of Command, writing "Unity of Direction means each employee should.',
     },
@@ -79,7 +79,7 @@ export const w_c12_commercecomparisontaylorfayolsim: SimDef = {
             { text: 'Monitor and iterate — Track metrics quarterly: ideas submitted per employee, implementation rate, savings generated,.', faded: true, blankAnswer: 'A 4-step Initiative Charter system with defined autonomy.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bs_cbse_02_005', title: 'Identify each idea',
-          dissect: { specimen: 'Comparison Taylor Fayol', spots: [
+          dissect: { specimen: 'Taylor\'s Techniques: Time Study, Motion Study and Functional Foremanship', spots: [
             { id: 's1', label: 'Taylors Techniques of Scientific Management', prompt: 'Which idea is this? — Taylor\'s Techniques of Scientific Management are specific, standardized procedures — Time.', answer: 'Taylors Techniques of Scientific Management', options: ['Taylors Techniques of Scientific Management', 'Unity of Direction states that', 'Fayol vs Taylor comparison is', 'Principles of management are broad'] },
             { id: 's2', label: 'Unity of Direction states that', prompt: 'Which idea is this? — Unity of Direction states that each group of activities having the same objective must.', answer: 'Unity of Direction states that', options: ['Unity of Direction states that', 'Taylors Techniques of Scientific Management', 'Fayol vs Taylor comparison is', 'Principles of management are broad'] },
             { id: 's3', label: 'Fayol vs Taylor comparison is', prompt: 'Which idea is this? — Fayol vs Taylor comparison is the systematic analysis of differences between Henri.', answer: 'Fayol vs Taylor comparison is', options: ['Fayol vs Taylor comparison is', 'Taylors Techniques of Scientific Management', 'Unity of Direction states that', 'Principles of management are broad'] },
@@ -87,7 +87,7 @@ export const w_c12_commercecomparisontaylorfayolsim: SimDef = {
             { id: 's5', label: 'Fayols Principle of Initiative states', prompt: 'Which idea is this? — Fayol\'s Principle of Initiative states that employees at all levels should be encouraged.', answer: 'Fayols Principle of Initiative states', options: ['Fayols Principle of Initiative states', 'Taylors Techniques of Scientific Management', 'Unity of Direction states that', 'Fayol vs Taylor comparison is'] }
           ] } }
     ],
-    explore: { component: C12_CommerceComparisonTaylorFayolSim, prompt: 'Explore the interactive — Comparison Taylor Fayol' },
+    explore: { component: C12_CommerceComparisonTaylorFayolSim, prompt: 'Explore the interactive — Taylor\'s Techniques: Time Study, Motion Study and Functional Foremanship' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bs_cbse_02_003', difficulty: 'standard',
           question: 'Taylor\'s Techniques of Scientific Management are specific, standardized.',

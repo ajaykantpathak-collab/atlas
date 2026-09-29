@@ -6,13 +6,13 @@ import C12_BiotechnologyGeneCloningSim from '../../../simulations/c6_12/C12_Biot
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biotechnologygenecloningsim: SimDef = {
     id: 'v3w_c12_biotechnologygenecloningsim',
-    title: 'nology Gene Cloning',
+    title: 'Gene Cloning: Definition and Step-by-Step Overview',
     subtitle: 'This node covers the definition of gene cloning, the 7-step conceptual workflow, and the.',
     classLevel: 12, subject: 'biotechnology', topic: 'Gene Cloning: Definition and Step-by-Step Overview',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_03_001', 'c12_biotech_cbse_03_003', 'c12_biotech_cbse_03_004', 'c12_biotech_cbse_03_006', 'c12_biotech_cbse_03_007', 'c12_biotech_cbse_03_008', 'c12_biotech_cbse_03_010', 'c12_biotech_cbse_03_011', 'c12_biotech_cbse_01_002', 'c12_biotech_cbse_01_007', 'c12_biotech_cbse_01_008', 'c12_biotech_cbse_01_011', 'c12_biotech_cbse_01_012', 'c12_biotech_cbse_04_001', 'c12_biotech_cbse_04_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a biotechnologist at Bharat Biotech tasked with producing human insulin for diabetes patients.', goal: 'Master nology Gene Cloning.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a biotechnologist at Bharat Biotech tasked with producing human insulin for diabetes patients.', goal: 'Master Gene Cloning: Definition and Step-by-Step Overview.' },
     discovery: {
         question: 'A research team wants to clone a **eukaryotic gene with 5 introns** into *E. coli* for protein production.',
         options: ['**Option B (cDNA) will yield functional protein', 'genomic DNA has the complete gene', 'complete gene'],
@@ -78,7 +78,7 @@ export const w_c12_biotechnologygenecloningsim: SimDef = {
             { text: 'Verify: N = 5.56 means the library covers the genome 5.56 times → a single-copy gene should appear ~5.56 times. Matches.', faded: true, blankAnswer: 'Probability = 99.6%; Expected positive colonies ≈ 5-6.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_biotech_cbse_03_003', title: 'Identify each idea',
-          dissect: { specimen: 'nology Gene Cloning', spots: [
+          dissect: { specimen: 'Gene Cloning: Definition and Step-by-Step Overview', spots: [
             { id: 's1', label: 'Gene cloning is the process', prompt: 'Which idea is this? — Gene cloning is the process of creating multiple identical copies (clones) of a specific.', answer: 'Gene cloning is the process', options: ['Gene cloning is the process', 'A cDNA library is a', 'A genomic library is a', 'The introduction of recombinant DNA'] },
             { id: 's2', label: 'A cDNA library is a', prompt: 'Which idea is this? — A cDNA library is a collection of cloned complementary DNA (cDNA) fragments inserted into.', answer: 'A cDNA library is a', options: ['A cDNA library is a', 'Gene cloning is the process', 'A genomic library is a', 'The introduction of recombinant DNA'] },
             { id: 's3', label: 'A genomic library is a', prompt: 'Which idea is this? — A genomic library is a collection of cloned DNA fragments representing the entire genome.', answer: 'A genomic library is a', options: ['A genomic library is a', 'Gene cloning is the process', 'A cDNA library is a', 'The introduction of recombinant DNA'] },
@@ -87,7 +87,7 @@ export const w_c12_biotechnologygenecloningsim: SimDef = {
             { id: 's6', label: 'Colony hybridization is a nucleic', prompt: 'Which idea is this? — Colony hybridization is a nucleic acid screening technique where bacterial colonies (or.', answer: 'Colony hybridization is a nucleic', options: ['Colony hybridization is a nucleic', 'Gene cloning is the process', 'A cDNA library is a', 'A genomic library is a'] }
           ] } }
     ],
-    explore: { component: C12_BiotechnologyGeneCloningSim, prompt: 'Explore the interactive — nology Gene Cloning' },
+    explore: { component: C12_BiotechnologyGeneCloningSim, prompt: 'Explore the interactive — Gene Cloning: Definition and Step-by-Step Overview' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_biotech_cbse_03_001', difficulty: 'standard',
           question: 'Gene cloning is the process of creating multiple identical copies (clones) of a.',

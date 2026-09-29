@@ -6,13 +6,13 @@ import C12_GeographyIndustriesAgrobasedSim from '../../../simulations/c6_12/C12_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_geographyindustriesagrobasedsim: SimDef = {
     id: 'v3w_c12_geographyindustriesagrobasedsim',
-    title: 'Industries Agrobased',
+    title: 'Secondary Activities: Definition and Importance',
     subtitle: 'Covers the definition, characteristics, economic importance (value addition, employment,.',
     classLevel: 12, subject: 'geography', topic: 'Secondary Activities: Definition and Importance',
     chapters: [],
     nodeIds: ['c12_geo_cbse_06_001', 'c12_geo_cbse_06_002', 'c12_geo_cbse_06_005', 'c12_geo_cbse_06_009', 'c12_geo_cbse_14_001', 'c12_geo_cbse_14_003', 'c12_geo_cbse_14_004', 'c12_geo_cbse_11_004', 'c12_geo_cbse_11_008', 'c12_geo_cbse_06_010', 'c12_geo_cbse_06_011', 'c12_geo_cbse_14_005', 'c12_geo_cbse_14_006', 'c12_geo_cbse_14_007', 'c12_geo_cbse_14_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Look around your classroom — the desk, chair, fan, window glass, and even the pen in your hand are all.', goal: 'Master Industries Agrobased.' },
+    scenario: { role: 'a class 12 learner', intro: 'Look around your classroom — the desk, chair, fan, window glass, and even the pen in your hand are all.', goal: 'Master Secondary Activities: Definition and Importance.' },
     discovery: {
         question: 'Define \'value addition\' in manufacturing and give one example each of a weight-losing industry and a weight-gaining industry.',
         options: ['Value addition is the increase in economic value of a product at each stage of', 'textile is weight-losing', 'manufacturing = factory production'],
@@ -80,7 +80,7 @@ export const w_c12_geographyindustriesagrobasedsim: SimDef = {
             { text: 'Synthesize — raw-material saving ≈ ₹2/kg cotton, but market-access penalty + power downtime + humidification cost +.', faded: true, blankAnswer: 'The claim is incomplete; Adilabad suits ginning/pressing,.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_geo_cbse_06_002', title: 'Identify each idea',
-          dissect: { specimen: 'Industries Agrobased', spots: [
+          dissect: { specimen: 'Secondary Activities: Definition and Importance', spots: [
             { id: 's1', label: 'Secondary activities involve the processing', prompt: 'Which idea is this? — Secondary activities involve the processing of raw materials obtained from the primary.', answer: 'Secondary activities involve the processing', options: ['Secondary activities involve the processing', 'Manufacturing is the process of', 'Large-scale industries are manufacturing units', 'Agro-based industries are manufacturing industries'] },
             { id: 's2', label: 'Manufacturing is the process of', prompt: 'Which idea is this? — Manufacturing is the process of transforming raw materials extracted from the primary.', answer: 'Manufacturing is the process of', options: ['Manufacturing is the process of', 'Secondary activities involve the processing', 'Large-scale industries are manufacturing units', 'Agro-based industries are manufacturing industries'] },
             { id: 's3', label: 'Large-scale industries are manufacturing units', prompt: 'Which idea is this? — Large-scale industries are manufacturing units that employ a large workforce (typically.', answer: 'Large-scale industries are manufacturing units', options: ['Large-scale industries are manufacturing units', 'Secondary activities involve the processing', 'Manufacturing is the process of', 'Agro-based industries are manufacturing industries'] },
@@ -88,7 +88,7 @@ export const w_c12_geographyindustriesagrobasedsim: SimDef = {
             { id: 's5', label: 'The cotton textile industry is', prompt: 'Which idea is this? — The cotton textile industry is an agro-based industry that processes raw cotton into.', answer: 'The cotton textile industry is', options: ['The cotton textile industry is', 'Secondary activities involve the processing', 'Manufacturing is the process of', 'Large-scale industries are manufacturing units'] }
           ] } }
     ],
-    explore: { component: C12_GeographyIndustriesAgrobasedSim, prompt: 'Explore the interactive — Industries Agrobased' },
+    explore: { component: C12_GeographyIndustriesAgrobasedSim, prompt: 'Explore the interactive — Secondary Activities: Definition and Importance' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_06_001', difficulty: 'standard',
           question: 'Secondary activities involve the processing of raw materials obtained from the.',

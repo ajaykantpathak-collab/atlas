@@ -2911,7 +2911,7 @@ export const C11_STAT_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Simple Index Number Measures The",
+    "title": "Simple Index Number Measures",
     "text": "A simple index number measures the average relative change in a variable (price or quantity) of a group of items over time, without assigning weights to individual items.",
     "emoji": "📊",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2959,7 +2959,7 @@ export const C11_STAT_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Limitations Of Index Numbers Refer To",
+    "title": "Limitations Of Index Numbers",
     "text": "Limitations of index numbers refer to the inherent constraints and potential sources of error that prevent index numbers from being perfect measures of relative changes in economic variables over time or across regions, including issues like base year",
     "emoji": "📊",
     "bgColor": "from-rose-400 to-pink-500"

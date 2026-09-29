@@ -6,13 +6,13 @@ import C11_ChemistryHydrogenbondingSim from '../../../simulations/c6_12/C11_Chem
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_chemistryhydrogenbondingsim: SimDef = {
     id: 'v3w_c11_chemistryhydrogenbondingsim',
-    title: 'Hydrogenbonding',
+    title: 'Hydrogen Bonding: Intermolecular and Intramolecular',
     subtitle: 'This node covers: the electronic origin of hydrogen bonding (charge separation in polar.',
     classLevel: 11, subject: 'chemistry', topic: 'Hydrogen Bonding: Intermolecular and Intramolecular',
     chapters: [],
     nodeIds: ['c11_chem_cbse_04_010', 'c11_chem_cbse_09_001', 'c11_chem_cbse_09_002', 'c11_chem_cbse_09_004', 'c11_chem_cbse_09_005', 'c11_chem_cbse_09_006', 'c11_chem_cbse_09_007', 'c11_chem_cbse_08_002', 'c11_chem_cbse_05_001', 'c11_chem_cbse_05_002', 'c11_chem_cbse_05_003', 'c11_chem_cbse_05_013', 'c11_chem_cbse_02_009', 'c11_chem_cbse_04_001', 'c11_chem_cbse_04_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe that water boils at 100 °C while hydrogen sulfide (H₂S, molar mass 34 g mol⁻¹, similar to water\'s 18.', goal: 'Master Hydrogenbonding.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe that water boils at 100 °C while hydrogen sulfide (H₂S, molar mass 34 g mol⁻¹, similar to water\'s 18.', goal: 'Master Hydrogen Bonding: Intermolecular and Intramolecular.' },
     discovery: {
         question: 'Write the electronic configuration of hydrogen and state the two ions it can form by losing or gaining one electron.',
         options: ['Electronic configuration: 1s¹', 'hydrogen is a metal', 'hydrogen is a non-metal'],
@@ -80,7 +80,7 @@ export const w_c11_chemistryhydrogenbondingsim: SimDef = {
             { text: 'Balanced equation: SrH₂ + 2H₂O → Sr(OH)₂ + 2H₂↑. Verify: Sr(OH)₂ is strong base → basic solution.', faded: true, blankAnswer: 'Metal is Strontium (Sr), assuming experimental mass was.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_chem_cbse_09_001', title: 'Identify each idea',
-          dissect: { specimen: 'Hydrogenbonding', spots: [
+          dissect: { specimen: 'Hydrogen Bonding: Intermolecular and Intramolecular', spots: [
             { id: 's1', label: 'Hydrogen bonding is a special', prompt: 'Which idea is this? — Hydrogen bonding is a special type of dipole-dipole interaction that occurs when a.', answer: 'Hydrogen bonding is a special', options: ['Hydrogen bonding is a special', 'Hydrogen H Z1 is the', 'Isotopes of hydrogen are atoms', 'Dihydrogen H is the molecular'] },
             { id: 's2', label: 'Hydrogen H Z1 is the', prompt: 'Which idea is this? — Hydrogen (H, Z=1) is the only element with electronic configuration 1s¹ that exhibits.', answer: 'Hydrogen H Z1 is the', options: ['Hydrogen H Z1 is the', 'Hydrogen bonding is a special', 'Isotopes of hydrogen are atoms', 'Dihydrogen H is the molecular'] },
             { id: 's3', label: 'Isotopes of hydrogen are atoms', prompt: 'Which idea is this? — Isotopes of hydrogen are atoms with the same atomic number (Z = 1) but different mass.', answer: 'Isotopes of hydrogen are atoms', options: ['Isotopes of hydrogen are atoms', 'Hydrogen bonding is a special', 'Hydrogen H Z1 is the', 'Dihydrogen H is the molecular'] },
@@ -88,7 +88,7 @@ export const w_c11_chemistryhydrogenbondingsim: SimDef = {
             { id: 's5', label: 'Hydrides are binary compounds of', prompt: 'Which idea is this? — Hydrides are binary compounds of hydrogen with other elements (except noble gases),.', answer: 'Hydrides are binary compounds of', options: ['Hydrides are binary compounds of', 'Hydrogen bonding is a special', 'Hydrogen H Z1 is the', 'Isotopes of hydrogen are atoms'] }
           ] } }
     ],
-    explore: { component: C11_ChemistryHydrogenbondingSim, prompt: 'Explore the interactive — Hydrogenbonding' },
+    explore: { component: C11_ChemistryHydrogenbondingSim, prompt: 'Explore the interactive — Hydrogen Bonding: Intermolecular and Intramolecular' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_chem_cbse_04_010', difficulty: 'standard',
           question: 'Hydrogen bonding is a special type of dipole-dipole interaction that occurs.',

@@ -28,7 +28,7 @@ export const c10_hin_kr_ch13_p3: SimDef = {
         labels: ['माता का अँचल —'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c10_hin_kr_cbse_13_015', title: 'माता का अँचल — वाचन-श्रवण: चर्चा-बिंदु',
-          caseStudy: { intro: 'कक्षा में कल्पना कीजिए कि आपका दोस्त आपको कोई नई गाना सुनाकर उसके बोलों के अर्थ पूछता है; आप पहले गाना ध्यान से सुनते हैं, फिर शब्दों के भाव, दोहराव वाली लाइन.',
+          caseStudy: { intro: '\'माता का अँचल\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
             decisions: [{ prompt: 'वाचन-श्रवण: चर्चा-बिंदु का अर्थ क्या है?', options: [
                 { text: 'वाचन-श्रवण: चर्चा-बिंदु का अर्थ वह बिंदु या विषय है जिस पर पाठ के पढ़ने और सुनने के दौरान', outcome: 'वाचन-श्रवण: चर्चा-बिंदु का अर्थ वह बिंदु या विषय है जिस पर पाठ के पढ़ने और सुनने के दौरान चर्चा की.' },
                 { text: 'What is the name of the child?', outcome: 'Not quite — Students often think that discussion points for listening-speaking are merely asking factual recall.', reveals: 'discussion-points-for-listening-speaking' },
@@ -48,27 +48,27 @@ export const c10_hin_kr_ch13_p3: SimDef = {
         { type: 'subpart', nodeId: 'c10_hin_kr_cbse_13_013', difficulty: 'standard',
           question: 'आलोचनात्मक चिंतन (critical thinking) वह प्रक्रिया है जिसमें पाठ के तथ्यों को.',
           hint: 'यदि विश्लेषण में कठिनाई हो तो ‘मुख्य विषय और संदेश’ (node 006) और ‘साहित्यिक युक्तियाँ.',
-          misconception: 'छात्र अक्सर मानते हैं कि ‘विश्लेषण’ का मतलब केवल पाठ के eventos का क्रमबद्ध वर्णन करना है, अर्थात ‘क्या हुआ?’ का जवाब.',
+          misconception: 'छात्र अक्सर मानते हैं कि ‘विश्लेषण’ का मतलब केवल पाठ के घटनाओं का क्रमबद्ध वर्णन करना है, अर्थात ‘क्या हुआ?’ का जवाब.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (critical thinking) वह प्रक्रिया है जिसमें पाठ के तथ्यों को तोड़कर उनके',
-                  options: ['आलोचनात्मक चिंतन (critical thinking) वह प्रक्रिया है जिसमें पाठ के तथ्यों को तोड़कर उनके', '**पृष्ठभूमि और रचनाकार परिचय** का अर्थ है', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम वाला क्रम है जो संघर्ष (conflict) से आरंभ', 'पाठ्य-परिवेश और वातावरण से तात्पर्य उस भौतिक, सामाजिक, सांस्कृतिक और भावनात्मक पृष्ठभूमि'],
+                  options: ['आलोचनात्मक चिंतन (critical thinking) वह प्रक्रिया है जिसमें पाठ के तथ्यों को तोड़कर उनके', '\'माता का अँचल\' का रचनाकार-परिचय और पृष्ठभूमि का अर्थ है', '\'माता का अँचल\' का कथानक', '\'माता का अँचल\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि विश्लेषण में कठिनाई हो तो ‘मुख्य विषय और संदेश’ (node 006) और ‘साहित्यिक युक्तियाँ: बिंब और.',
-                  misconception: 'छात्र अक्सर मानते हैं कि ‘विश्लेषण’ का मतलब केवल पाठ के eventos का क्रमबद्ध वर्णन करना है, अर्थात ‘क्या हुआ?’ का जवाब देना, जबकि वास्तव में.' }
+                  misconception: 'छात्र अक्सर मानते हैं कि ‘विश्लेषण’ का मतलब केवल पाठ के घटनाओं का क्रमबद्ध वर्णन करना है, अर्थात ‘क्या हुआ?’ का जवाब देना, जबकि वास्तव में.' }
           ],
-            remediations: { 'eventos': { steps: ['छात्र को दिए गए वाक्य को दो भागों में बाँटने को कहें: (a) घटना (what) (b) उसके पीछे का कारण या प्रभाव (why).', 'फिर पूछें: “इस घटना से पाठ का कौन‑सा विषय या भाव जुड़ता है?” 3.', 'अंत में, छात्र को अपने उत्तर में एक साहित्यिक उपकरण (उदाहरण: रूपक, प्रतीक) का उल्लेख करने के लिए प्रेरित करें, जिससे वह.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['छात्र को दिए गए वाक्य को दो भागों में बाँटने को कहें: (a) घटना (what) (b) उसके पीछे का कारण या प्रभाव (why).', 'फिर पूछें: “इस घटना से पाठ का कौन‑सा विषय या भाव जुड़ता है?” 3.', 'अंत में, छात्र को अपने उत्तर में एक साहित्यिक उपकरण (उदाहरण: रूपक, प्रतीक) का उल्लेख करने के लिए प्रेरित करें, जिससे वह.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_hin_kr_cbse_13_014', difficulty: 'standard',
-          question: 'लेखन कौशल: पाठ‑आधारित का अर्थ है पाठ्य material से साक्ष्य चुनकर.',
+          question: '\'माता का अँचल\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि फंसे हों तो c10_hin_kr_cbse_13_012 (बोध‑प्रश्न: वस्तुनिष्ठ और आशय‑सूचक) पर वापस जाएं.',
           misconception: 'छात्र अक्सर मानते हैं कि पाठ‑आधारित उत्तर में बस प्रश्न के प्रश्नवाचक शब्द को दोहराना और कहानी की कोई भी पंक्ति लिख.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'लेखन कौशल: पाठ‑आधारित का अर्थ है पाठ्य material से साक्ष्य चुनकर,',
-                  options: ['लेखन कौशल: पाठ‑आधारित का अर्थ है पाठ्य material से साक्ष्य चुनकर,', '**पृष्ठभूमि और रचनाकार परिचय** का अर्थ है', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम वाला क्रम है जो संघर्ष (conflict) से आरंभ', 'पाठ्य-परिवेश और वातावरण से तात्पर्य उस भौतिक, सामाजिक, सांस्कृतिक और भावनात्मक पृष्ठभूमि'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'माता का अँचल\' पर पाठ-आधारित लेखन',
+                  options: ['\'माता का अँचल\' पर पाठ-आधारित लेखन', '\'माता का अँचल\' का रचनाकार-परिचय और पृष्ठभूमि का अर्थ है', '\'माता का अँचल\' का कथानक', '\'माता का अँचल\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फंसे हों तो c10_hin_kr_cbse_13_012 (बोध‑प्रश्न: वस्तुनिष्ठ और आशय‑सूचक) पर वापस जाएं और पाठ से.',
                   misconception: 'छात्र अक्सर मानते हैं कि पाठ‑आधारित उत्तर में बस प्रश्न के प्रश्नवाचक शब्द को दोहराना और कहानी की कोई भी पंक्ति लिख देना काफी है; वे.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को पहले यह दिखाएँ कि एक कमजोर उत्तर क्या lacks है: एक सरल वाक्य लिखवाएँ, फिर पूछें कि इसमें क्याmissing है (बिंदु.', 'link?)। फिर PEEL के प्रत्येक चरण को रंग‑कोडेड उदाहरण से समझाएँ — जैसे बिंदु हरे, प्रमाण नीले, विवेचन गुलाबी, link.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_hin_kr_cbse_13_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु का अर्थ वह विशिष्ट विषय, प्रश्न या अवलोकन है जिसे पाठ.',
+          question: '\'माता का अँचल\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का.',
           hint: 'Review the techniques of theme analysis and character sketch from nodes.',
           misconception: 'Students often think that discussion points for listening-speaking are merely asking factual recall questions like.',
           parts: [

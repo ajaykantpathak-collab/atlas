@@ -19,7 +19,7 @@ export const c12_hin_v_ch03_p2: SimDef = {
         hook: 'Don\'t mistake it for a romantic travelogue — the writer records workers\' quarters, graded housing and cheap labour inside the glory. \'Prachin\' signals reconstruction: read the architecture as evidence for a lost urban order, caste-free craft zoning and planned water — not just ornament.',
     },
     teaching: [
-        { title: 'अतीत में दबे पाँव — गौण विषय', text: 'गौण विषय (Sub-theme) वह द्वितीयक कथ्य या प्रसंग है जो पाठ के मुख्य विषय के समानांतर चलता हुआ, उसे स्पष्ट, समृद्ध या विस्तारित करता है, परंतु स्वतंत्र रूप से पाठ का केंद्रीय संदेश नहीं होता।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'अतीत में दबे पाँव — गौण विषय', text: '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_v_cbse_03_007', title: 'Your mission',
@@ -28,6 +28,25 @@ export const c12_hin_v_ch03_p2: SimDef = {
         context: 'Walk the ghost capital like an archaeologist: cluster the proper nouns into rulers, monuments and events, weigh the planned-city claim against the labour it cost, and measure ruins against the boast.',
         labels: ['अतीत में दबे पाँव'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_v_cbse_03_008', title: 'अतीत में दबे पाँव — साहित्यिक युक्तियाँ: बिंब और रूपक',
+          caseStudy: { intro: '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' में बिंब ढूँढिए — वखत-खि-अगवत्स-नमकस-और-गालिब-की-पूर्व — ये दृश्य पाठ को जीवंत बनाते हैं।',
+            decisions: [{ prompt: 'What is the difference between a simile and a metaphor, and which one does the author use when describing the Great Bath as "flaèkq ?kkVh.', options: [
+                { text: 'A simile compares two things using "like" or "as" (e.g., "the ruins *are like* a book")', outcome: 'A simile compares two things using "like" or "as" (e.g., "the ruins *are like* a book"); a metaphor.' },
+                { text: '*any* descriptive detail is imagery', outcome: 'Not quite — Students consistently confuse **imagery** with **description** — they think *any* descriptive.', reveals: 'students-consistently-confuse-imagery-with' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_v_cbse_03_010', title: 'अतीत में दबे पाँव — पदावली: मुख्य शब्द',
+          caseStudy: { intro: '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' के मुख्य शब्द: वखत-खि-अगवत्स-नमकस-और-गालिब-की-पूर्व — इनका अर्थ जानिए।',
+            decisions: [{ prompt: 'Identify the semantic field (category of meaning) to which the word "लरवि" belongs in the context of this chapter, and quote the specific.', options: [
+                { text: 'Correct answer: "लरवि" belongs to the architectural/urban planning semantic field', outcome: 'Correct answer: "लरवि" belongs to the architectural/urban planning semantic field.' },
+                { text: 'historical period', outcome: 'Not quite — Students treat "vocabulary in context" as "guess the meaning from surrounding words" and write.', reveals: 'students-treat-vocabulary-in-context' },
+                { text: 'cultural practice', outcome: 'Not quite — Students treat "vocabulary in context" as "guess the meaning from surrounding words" and write.', reveals: 'students-treat-vocabulary-in-context' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_v_cbse_03_011', title: 'अतीत में दबे पाँव — व्याकरण: पाठ में भाषा-प्रयोग',
+          caseStudy: { intro: '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' की भाषा देखिए — NCERT पाठ्यपुस्तक का शब्द-चयन और शैली भाव बनाती है।',
+            decisions: [{ prompt: 'Identify the predominant verb voice used in the descriptive passages of the chapter (e.g., "खुदाई की गई", "अवशेष मिले") and state its.', options: [
+                { text: 'The predominant voice is कर्मण्य प्रयोग (passive voice), formed with past participle +', outcome: 'The predominant voice is कर्मण्य प्रयोग (passive voice), formed with past participle + auxiliary.' },
+                { text: 'कर्तृ प्रयोग', outcome: 'Not quite — Students treat "language usage" as merely identifying word meanings or spotting figures of speech.', reveals: 'students-treat-language-usage-as' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_v_cbse_03_007', title: 'Use it in the wild',
           caseStudy: { intro: 'At a smart-city meeting in your town, a planner pitches clearing an old quarter for a parking complex: \'It\'s just decayed walls — real progress is glass and concrete, not ruins.\'',
             decisions: [{ prompt: 'How does the Rajgir chapter answer that pitch?', options: [
@@ -47,67 +66,78 @@ export const c12_hin_v_ch03_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_03_007', difficulty: 'standard',
-          question: 'गौण विषय (Sub-theme) वह द्वितीयक कथ्य या प्रसंग है जो पाठ के मुख्य विषय के.',
+          question: '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' के गौण विषय — मुख्य विषय के साथ चलने.',
           hint: 'यदि अटका हुआ महसूस हो, तो **c12_hin_v_cbse_03_006 (मुख्य विषय और संदेश)** पर लौटें.',
           misconception: '**विशिष्ट भ्रांति:** "गौण विषय = कम अंक वाला विषय / वैकल्पिक विषय / केवल प्रसंगों की सूची।" **वास्तविकता:** CBSE बोर्ड.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme) वह द्वितीयक कथ्य या प्रसंग है जो पाठ के मुख्य विषय के समानांतर चलता',
-                  options: ['गौण विषय (Sub-theme) वह द्वितीयक कथ्य या प्रसंग है जो पाठ के मुख्य विषय के समानांतर चलता', '\'अतीत में दबे पाँव\' कुबेरनाथ राय द्वारा लिखित एक **स्मृति-चित्रात्मक निबंध** (memoir', 'कथानक (plot) किसी आख्यान की घटनाओं का क्रमबद्ध और कारण-परिणाम से जुड़ा विन्यास है, जबकि', 'पाठ्य-परिवेश (Setting/Context) कथा के घटित होने का भौगोलिक, ऐतिहासिक, सामाजिक और'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' के गौण विषय',
+                  options: ['\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' के गौण विषय', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' का कथानक', '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटका हुआ महसूस हो, तो **c12_hin_v_cbse_03_006 (मुख्य विषय और संदेश)** पर लौटें — मुख्य विषय को.',
                   misconception: '**विशिष्ट भ्रांति:** "गौण विषय = कम अंक वाला विषय / वैकल्पिक विषय / केवल प्रसंगों की सूची।" **वास्तविकता:** CBSE बोर्ड में गौण विषय पर.' }
           ],
             remediations: { 'cbse-4-6': { steps: ['**पुनः पठन (Re-read):** पाठ के वे 3-4 प्रसंग चिह्नित करें जो मुख्य कथानक (लेखक की स्मृति-यात्रा) से सीधे नहीं जुड़े.', '**तालिका बनाएं:** तीन कॉलम — (क) गौण विषय का नाम, (ख) पाठ्य-साक्ष्य (पंक्ति/प्रसंग), (ग) मुख्य विषय से संबंध.', '**PEEL अभ्यास:** प्रत्येक गौण विषय के लिए एक PEEL अनुच्छेद लिखें। 4.', '**पुनः निदान (Re-diagnostic):** DIAGNOSTIC_QUESTION_2 और 4 को दोबारा हल करें — यदि अब उत्तर में \'कार्यात्मक विश्लेषण\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_03_008', difficulty: 'standard',
-          question: 'बिंब (Imagery) वह साहित्यिक युक्ति है जिसमें शब्दों के माध्यम से पाठक की.',
-          hint: 'यदि अटका हुआ लगे तो कक्षा 11 का नोड **c11_hin_v_cbse_03_008** (बिंब और रूपक) दोबारा.',
-          misconception: 'छात्र समझते हैं कि **बिंब = केवल दृश्य वर्णन (visual description)** और **रूपक = सजावटी भाषा (ornamental language)**।.',
+          question: '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' में बिंब (imagery) — शब्दों से बने जीवंत.',
+          hint: 'If stuck, return to Class 11 Aroh Chapter 3 (c11_hin_ar_cbse_03_008) and re-do the.',
+          misconception: 'Students consistently confuse **imagery** with **description** — they think *any* descriptive detail is imagery.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बिंब (Imagery) वह साहित्यिक युक्ति है जिसमें शब्दों के माध्यम से पाठक की इंद्रियों',
-                  options: ['बिंब (Imagery) वह साहित्यिक युक्ति है जिसमें शब्दों के माध्यम से पाठक की इंद्रियों', '\'अतीत में दबे पाँव\' कुबेरनाथ राय द्वारा लिखित एक **स्मृति-चित्रात्मक निबंध** (memoir', 'कथानक (plot) किसी आख्यान की घटनाओं का क्रमबद्ध और कारण-परिणाम से जुड़ा विन्यास है, जबकि', 'पाठ्य-परिवेश (Setting/Context) कथा के घटित होने का भौगोलिक, ऐतिहासिक, सामाजिक और'],
-                  hint: 'यदि अटका हुआ लगे तो कक्षा 11 का नोड **c11_hin_v_cbse_03_008** (बिंब और रूपक) दोबारा पढ़ें, विशेषकर.',
-                  misconception: 'छात्र समझते हैं कि **बिंब = केवल दृश्य वर्णन (visual description)** और **रूपक = सजावटी भाषा (ornamental language)**। **वास्तविकता:** बिंब.' }
+                { id: 'a', prompt: 'The author writes: "ekSle tkM+s dk Fkk ij nqigj dh èkwi cgqr dM+h FkhA lkjs vkye dks tSls ,d iQhosQ jax esa jaxus dh dksf\'k\'k djrh gqbZ" (The evening sun.', answer: '**Visual imagery** dominates',
+                  options: ['**Visual imagery** dominates', 'tactile', 'auditory', 'explain the effect'],
+                  hint: 'If stuck, return to Class 11 Aroh Chapter 3 (c11_hin_ar_cbse_03_008) and re-do the "sense-mapping".',
+                  misconception: 'Students consistently confuse **imagery** with **description** — they think *any* descriptive detail is imagery.' }
           ],
-            remediations: { 'visual-description-ornamental-language': { steps: ['छात्र से कहें: "आँख बंद करो। मैं \'बारिश\' कहूँगा — तुम्हें क्या **सूँघाई** देता है?', 'त्वचा पर क्या **महसूस** होता है?" — पाँचों इंद्रियों के बिंब अलग-अलग लिखवाएँ। 2.', 'रूपक के लिए: दो असंबद्ध वस्तुएँ दें (जैसे: \'समय\' और \'नदी\') — छात्र से कहें **"समय नदी है" लिखकर 3 समानताएँ निकालो**.', 'पुनः निदान: Diagnostic Q2 और Q5 दोहराएँ — अब छात्र उपमान/उपमेय क्रम और रूपक/उपमा भेद सही कर पाएगा।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-consistently-confuse-imagery-with': { steps: ['**Re-teach the sense-test**: Give the student 5 sentences from the text (e.g., "nwljh eaf"ky ij f[kM+fd;k¡" — visual.', 'Ask: *Which sense organ receives this?* If they cannot name the organ, it\'s not imagery.', '**Metaphor surgery**: Take a simile from the text ("tSls lqcg yksx" — like naked people) and convert it to metaphor.', 'Ask: *What changed in meaning?* The shift from comparison to identity is the lesson.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_v_cbse_03_008', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students consistently confuse **imagery** with **description** — they think *any* descriptive detail is imagery.',
+          parts: [
+                { id: 'a', prompt: 'Create a 4-line poetic response (in Hindi or English) from the perspective of a Harappan brick, using **one metaphor** and **two distinct types of imagery**.', answer: '**Example response:** "I am the *backbone* of a city that forgot its name',
+                  options: ['**Example response:** "I am the *backbone* of a city that forgot its name', 'I am *like* a backbone', '*any* descriptive detail is imagery'],
+                  hint: 'If stuck, return to Class 11 Aroh Chapter 3 (c11_hin_ar_cbse_03_008) and re-do the "sense-mapping".',
+                  misconception: 'Students consistently confuse **imagery** with **description** — they think *any* descriptive detail is imagery.' }
+          ],
+            remediations: { 'students-consistently-confuse-imagery-with': { steps: ['**Re-teach the sense-test**: Give the student 5 sentences from the text (e.g., "nwljh eaf"ky ij f[kM+fd;k¡" — visual.', 'Ask: *Which sense organ receives this?* If they cannot name the organ, it\'s not imagery.', '**Metaphor surgery**: Take a simile from the text ("tSls lqcg yksx" — like naked people) and convert it to metaphor.', 'Ask: *What changed in meaning?* The shift from comparison to identity is the lesson.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_03_009', difficulty: 'standard',
-          question: 'विरोधाभास (Paradox) एक ऐसी साहित्यिक युक्ति है जिसमें दो परस्पर विरोधी लगने.',
-          hint: 'यदि अटके तो Class 11 वितान पाठ-3 के नोड **c11_hin_v_cbse_03_009** के कार्य-उदाहरण (Worked.',
-          misconception: 'विद्यार्थी प्रायः **विरोधाभास को \'विरोधाभासी कथन\' (Contradictory statement) मान लेते हैं** — जैसे \'वह रोता हुआ हँस रहा.',
+          question: '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' में विरोधाभास — विपरीत बातें मिलकर गहरा.',
+          hint: 'If stuck, re-read the "Before You Read" context (node c12_hin_v_cbse_03_001) and the.',
+          misconception: 'Students often confuse irony with mere coincidence or sadness.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'विरोधाभास (Paradox) एक ऐसी साहित्यिक युक्ति है जिसमें दो परस्पर विरोधी लगने वाले कथन या',
-                  options: ['विरोधाभास (Paradox) एक ऐसी साहित्यिक युक्ति है जिसमें दो परस्पर विरोधी लगने वाले कथन या', '\'अतीत में दबे पाँव\' कुबेरनाथ राय द्वारा लिखित एक **स्मृति-चित्रात्मक निबंध** (memoir', 'कथानक (plot) किसी आख्यान की घटनाओं का क्रमबद्ध और कारण-परिणाम से जुड़ा विन्यास है, जबकि', 'पाठ्य-परिवेश (Setting/Context) कथा के घटित होने का भौगोलिक, ऐतिहासिक, सामाजिक और'],
-                  hint: 'यदि अटके तो Class 11 वितान पाठ-3 के नोड **c11_hin_v_cbse_03_009** के कार्य-उदाहरण (Worked Examples).',
-                  misconception: 'विद्यार्थी प्रायः **विरोधाभास को \'विरोधाभासी कथन\' (Contradictory statement) मान लेते हैं** — जैसे \'वह रोता हुआ हँस रहा था\' — और समझते हैं.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' में विरोधाभास',
+                  options: ['\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' में विरोधाभास', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' का कथानक', '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, re-read the "Before You Read" context (node c12_hin_v_cbse_03_001) and the "Setting and.',
+                  misconception: 'Students often confuse irony with mere coincidence or sadness.' }
           ],
-            remediations: { 'contradictory-statement': { steps: ['विद्यार्थी को पाठ के **तीन विशिष्ट अंश** दें जहाँ विरोधाभास स्पष्ट हो (जैसे: घर का आकार, नीम का पेड़, चाबी-ताला) और.', 'तीसरी कौन-सी बात उभरती है जो दोनों से बड़ी है?" 2.', 'प्रतीक के लिए: एक **प्रतीक-मानचित्र** (Symbol Map) बनवाएँ — केंद्र में वस्तु (नीम), चार दिशाओं में: भौतिक गुण.', 'पुनः निदान: DIAGNOSTIC_QUESTION_3 और 4 फिर से करवाएँ; यदि अब भी \'सतही अर्थ\' पर अटका है, तो Class 11 के नोड.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-irony-with': { steps: ['Re-read the opening and closing paragraphs of the chapter aloud; mark every phrase that contrasts past and present.', 'For each marked phrase, ask: "Is there a contradiction between expectation (from the name, original purpose, or past.', 'List every physical object described in detail (stupa, pillars, lion capital, museum, pathways).', 'For each, write one abstract noun it could represent (e.g., stupa → continuity; broken pillar → fragility of empire).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_03_010', difficulty: 'standard',
-          question: 'पदावली (Vocabulary/Glossary) refers to the set of key domain-specific words.',
-          hint: 'यदि अटका हुआ महसूस हो तो: कक्षा 11 वितान के "पदावली: मुख्य शब्द" नोड.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि पदावली प्रश्नों में "शब्दार्थ" (dictionary meaning) लिख देना पर्याप्त है — वे.',
+          question: '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' की पदावली — मुख्य शब्द और प्रयोग जो.',
+          hint: 'If stuck on a word, apply the "Modifier Hunt" technique: locate the word in the text.',
+          misconception: 'Students treat "vocabulary in context" as "guess the meaning from surrounding words" and write single-word synonyms.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली (Vocabulary/Glossary) refers to the set of key domain-specific words, technical',
-                  options: ['पदावली (Vocabulary/Glossary) refers to the set of key domain-specific words, technical', '\'अतीत में दबे पाँव\' कुबेरनाथ राय द्वारा लिखित एक **स्मृति-चित्रात्मक निबंध** (memoir', 'कथानक (plot) किसी आख्यान की घटनाओं का क्रमबद्ध और कारण-परिणाम से जुड़ा विन्यास है, जबकि', 'पाठ्य-परिवेश (Setting/Context) कथा के घटित होने का भौगोलिक, ऐतिहासिक, सामाजिक और'],
-                  hint: 'यदि अटका हुआ महसूस हो तो: कक्षा 11 वितान के "पदावली: मुख्य शब्द" नोड (c11_hin_v_cbse_03_010) के.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि पदावली प्रश्नों में "शब्दार्थ" (dictionary meaning) लिख देना पर्याप्त है — वे *संदर्भगत प्रकार्य*.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' की पदावली',
+                  options: ['\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' की पदावली', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' का कथानक', '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck on a word, apply the "Modifier Hunt" technique: locate the word in the text, copy the full.',
+                  misconception: 'Students treat "vocabulary in context" as "guess the meaning from surrounding words" and write single-word synonyms (e.g., लरवि = किला).' }
           ],
-            remediations: { 'dictionary-meaning-contextual-function': { steps: ['**पुनः पाठ-पठन (Re-reading):** छात्र को पाठ के वे 5-6 पैराग्राफ पढ़ने को कहें जहाँ प्रमुख पदावली प्रयुक्त हुई हैं.', '**तुलनात्मक सारणी (Comparative Table):** एक सारणी बनाएँ: स्तंभ 1 = पद, स्तंभ 2 = शब्दकोश अर्थ, स्तंभ 3 = पाठ में.', '**लघु-लेखन (Micro-writing):** प्रत्येक पद के लिए 2-3 वाक्यों में लिखें: "लेखक ने ______ शब्द क्यों चुना?', '______ जैसे सरल शब्द से क्या भिन्न प्रभाव पड़ता?" 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-vocabulary-in-context': { steps: ['Have the student re-read the "लरवि" paragraph (page 39) and physically underline every adjective, verb, and.', 'Ask them to sort these modifiers into "physical description" vs. "functional significance" columns.', 'Model the inference: "Because the text says \'लरवि के दोनों ओर द्वार हैं...', 'Assign the same exercise for "ओककक" and "खखखख" as homework; require a 3-sentence justification per word citing specific.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_03_011', difficulty: 'standard',
-          question: 'पाठ में भाषा-प्रयोग का अर्थ है रचनाकार द्वारा अपने विचारों, भावों और परिवेश को.',
-          hint: 'यदि पद-परिचय या वाक्य-भेद पहचानने में अटकें, तो कक्षा 10/11 की हिंदी व्याकरण पुस्तक के.',
-          misconception: 'छात्र प्रायः मानते हैं कि \'भाषा-प्रयोग\' का अर्थ केवल \'कठिन/तत्सम शब्दों की पहचान\' या \'अलंकारों की सूची बनाना\' है। वे.',
+          question: '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने.',
+          hint: 'If stuck on participle identification, review Class 11 Vitan grammar nodes.',
+          misconception: 'Students treat "language usage" as merely identifying word meanings or spotting figures of speech.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग का अर्थ है रचनाकार द्वारा अपने विचारों, भावों और परिवेश को व्यक्त',
-                  options: ['पाठ में भाषा-प्रयोग का अर्थ है रचनाकार द्वारा अपने विचारों, भावों और परिवेश को व्यक्त', '\'अतीत में दबे पाँव\' कुबेरनाथ राय द्वारा लिखित एक **स्मृति-चित्रात्मक निबंध** (memoir', 'कथानक (plot) किसी आख्यान की घटनाओं का क्रमबद्ध और कारण-परिणाम से जुड़ा विन्यास है, जबकि', 'पाठ्य-परिवेश (Setting/Context) कथा के घटित होने का भौगोलिक, ऐतिहासिक, सामाजिक और'],
-                  hint: 'यदि पद-परिचय या वाक्य-भेद पहचानने में अटकें, तो कक्षा 10/11 की हिंदी व्याकरण पुस्तक के \'पद-परिचय\'.',
-                  misconception: 'छात्र प्रायः मानते हैं कि \'भाषा-प्रयोग\' का अर्थ केवल \'कठिन/तत्सम शब्दों की पहचान\' या \'अलंकारों की सूची बनाना\' है। वे \'दबे पाँव\' को मुहावरा.' }
+                { id: 'a', prompt: 'Explain why the author uses तत्सम (Sanskrit-derived) compounds like "पुरातात्त्विक", "ऐतिहासिक", "सांस्कृतिक" instead of their तद्भव or देशज equivalents in the.', answer: 'These तत्सम words establish an academic, authoritative register appropriate for',
+                  options: ['These तत्सम words establish an academic, authoritative register appropriate for', 'they sound more difficult', 'the author wanted to show off vocabulary'],
+                  hint: 'If stuck on participle identification, review Class 11 Vitan grammar nodes (c11_hin_v_cbse_01_011.',
+                  misconception: 'Students treat "language usage" as merely identifying word meanings or spotting figures of speech.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से पाठ के पहले दो अनुच्छेद जोर से पढ़वाएँ और पूछें: \'कौन-से शब्द तुम्हारे कानों को अलग लगे?', 'क्यों?\' — इससे ध्वनि-बोध जगेगा। चरण 2: शीर्षक \'अतीत में दबे पाँव\' को बोर्ड पर लिखें; \'दबे\' और \'पाँव\' को अलग-अलग रंग से.', 'यदि "पाँव" हट जाए तो?\' — इससे पदबंध-कार्य स्पष्ट होगा। चरण 3: एक वाक्य लें: \'इतिहास दबे पाँव आता है।\' इसे कर्मणी वाच्य.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-language-usage-as': { steps: ['Have the student highlight every verb in two paragraphs — color-code: red for passive, blue for active, green for.', 'Ask: "Who does the action in red verbs?', 'Read a colloquial version of the same paragraph aloud — have them list *exact* grammatical differences (tense, voice.', 'Revisit c11_hin_v_cbse_01_011 (Class 11 Grammar node) for participle identification drill.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_03_012', difficulty: 'standard',
-          question: 'बोध-प्रश्न पाठ की समझ जांचने के दो प्रकार के प्रश्न होते हैं: **वस्तुनिष्ठ.',
+          question: '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में.',
           hint: 'यदि छात्र आशय-सूचक प्रश्नों में \'क्या\' (What) और \'क्यों\' (Why) का अंतर नहीं कर पा रहा, तो.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'आशय-सूचक प्रश्नों का उत्तर पाठ की पंक्तियों को ज्यों-का-त्यों उद्धृत (Quote).',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बोध-प्रश्न पाठ की समझ जांचने के दो प्रकार के प्रश्न होते हैं: **वस्तुनिष्ठ प्रश्न**',
-                  options: ['बोध-प्रश्न पाठ की समझ जांचने के दो प्रकार के प्रश्न होते हैं: **वस्तुनिष्ठ प्रश्न**', '\'अतीत में दबे पाँव\' कुबेरनाथ राय द्वारा लिखित एक **स्मृति-चित्रात्मक निबंध** (memoir', 'कथानक (plot) किसी आख्यान की घटनाओं का क्रमबद्ध और कारण-परिणाम से जुड़ा विन्यास है, जबकि', 'पाठ्य-परिवेश (Setting/Context) कथा के घटित होने का भौगोलिक, ऐतिहासिक, सामाजिक और'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' के वस्तुनिष्ठ प्रश्न',
+                  options: ['\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' के वस्तुनिष्ठ प्रश्न', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' का कथानक', '\'वखत खि अगवत्स-नमकस और गालिब की पूर्व\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि छात्र आशय-सूचक प्रश्नों में \'क्या\' (What) और \'क्यों\' (Why) का अंतर नहीं कर पा रहा, तो तुरंत.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'आशय-सूचक प्रश्नों का उत्तर पाठ की पंक्तियों को ज्यों-का-त्यों उद्धृत (Quote) करके या उनका हिंदी.' }
           ],

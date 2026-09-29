@@ -6,13 +6,13 @@ import C12_AccountancyDisclosureShareCapitalSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_accountancydisclosuresharecapitalsim: SimDef = {
     id: 'v3w_c12_accountancydisclosuresharecapitalsim',
-    title: 'Disclosure Share Capital',
+    title: 'Presentation of Share Capital in Balance Sheet (Schedule III, Part I)',
     subtitle: 'Covers only the presentation/disclosure requirements of Share Capital in the Balance.',
     classLevel: 12, subject: 'accountancy', topic: 'Presentation of Share Capital in Balance Sheet (Schedule III, Part I)',
     chapters: [],
     nodeIds: ['c12_acc_cbse_05_010', 'c12_acc_cbse_07_004', 'c12_acc_cbse_07_005', 'c12_acc_cbse_05_001', 'c12_acc_cbse_05_003', 'c12_acc_cbse_05_005', 'c12_acc_cbse_05_006', 'c12_acc_cbse_05_007', 'c12_acc_cbse_05_009', 'c12_acc_cbse_09_008', 'c12_acc_cbse_07_009', 'c12_acc_cbse_09_003', 'c12_acc_cbse_09_007', 'c12_acc_cbse_06_002', 'c12_acc_cbse_06_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the accountant of "TechNova Ltd." which has just completed its IPO.', goal: 'Master Disclosure Share Capital.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the accountant of "TechNova Ltd." which has just completed its IPO.', goal: 'Master Presentation of Share Capital in Balance Sheet (Schedule III, Part I).' },
     discovery: {
         question: 'Why does Schedule III require separate disclosure of "Subscribed and fully paid‑up" and "Subscribed but not fully paid‑up" under Subscribed Capital?',
         options: ['Schedule III demands this split', 'it\'s just for detail', 'Paid‑up Capital'],
@@ -87,7 +87,7 @@ export const w_c12_accountancydisclosuresharecapitalsim: SimDef = {
             { text: 'Year-end transfer: Interest on Calls in Arrears A/c Dr. 850 To Profit & Loss A/c 850. Profit & Loss A/c Dr.', faded: true, blankAnswer: 'Journal entries as above. Balance Sheet extract: Share.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_acc_cbse_07_004', title: 'Identify each idea',
-          dissect: { specimen: 'Disclosure Share Capital', spots: [
+          dissect: { specimen: 'Presentation of Share Capital in Balance Sheet (Schedule III, Part I)', spots: [
             { id: 's1', label: 'Presentation of Share Capital in', prompt: 'Which idea is this? — Presentation of Share Capital in the Balance Sheet as per Schedule III, Part I of the.', answer: 'Presentation of Share Capital in', options: ['Presentation of Share Capital in', 'Calls in Arrears refers to', 'Unclaimed Dividend refers to the', 'A share is a unit'] },
             { id: 's2', label: 'Calls in Arrears refers to', prompt: 'Which idea is this? — Calls in Arrears refers to the amount of call money not paid by shareholders by the due.', answer: 'Calls in Arrears refers to', options: ['Calls in Arrears refers to', 'Presentation of Share Capital in', 'Unclaimed Dividend refers to the', 'A share is a unit'] },
             { id: 's3', label: 'Unclaimed Dividend refers to the', prompt: 'Which idea is this? — Unclaimed Dividend refers to the dividend declared by a company that remains unpaid or.', answer: 'Unclaimed Dividend refers to the', options: ['Unclaimed Dividend refers to the', 'Presentation of Share Capital in', 'Calls in Arrears refers to', 'A share is a unit'] },
@@ -95,7 +95,7 @@ export const w_c12_accountancydisclosuresharecapitalsim: SimDef = {
             { id: 's5', label: 'Issue of shares at par', prompt: 'Which idea is this? — Issue of shares at par means shares are issued at a price equal to their face (nominal).', answer: 'Issue of shares at par', options: ['Issue of shares at par', 'Presentation of Share Capital in', 'Calls in Arrears refers to', 'Unclaimed Dividend refers to the'] }
           ] } }
     ],
-    explore: { component: C12_AccountancyDisclosureShareCapitalSim, prompt: 'Explore the interactive — Disclosure Share Capital' },
+    explore: { component: C12_AccountancyDisclosureShareCapitalSim, prompt: 'Explore the interactive — Presentation of Share Capital in Balance Sheet (Schedule III, Part I)' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_acc_cbse_05_010', difficulty: 'standard',
           question: 'Presentation of Share Capital in the Balance Sheet as per Schedule III, Part I.',

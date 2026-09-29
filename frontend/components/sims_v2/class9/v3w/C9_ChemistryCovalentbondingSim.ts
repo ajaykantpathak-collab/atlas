@@ -6,13 +6,13 @@ import C9_ChemistryCovalentbondingSim from '../../../simulations/c6_12/C9_Chemis
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_chemistrycovalentbondingsim: SimDef = {
     id: 'v3w_c9_chemistrycovalentbondingsim',
-    title: 'Covalentbonding',
+    title: 'Formula Unit Mass: Calculation for Ionic Compounds',
     subtitle: 'Covers calculation of formula unit mass for binary and polyatomic ionic compounds (e.g.,.',
     classLevel: 9, subject: 'chemistry', topic: 'Formula Unit Mass: Calculation for Ionic Compounds',
     chapters: [],
     nodeIds: ['c9_chem_ch3_10', 'c9_chem_ch3_4', 'c9_chem_ch3_5', 'c9_chem_ch3_8', 'c9_chem_ch3_6', 'c9_chem_ch3_7', 'c9_chem_ch3_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you have a pinch of common salt (NaCl) from your kitchen.', goal: 'Master Covalentbonding.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you have a pinch of common salt (NaCl) from your kitchen.', goal: 'Master Formula Unit Mass: Calculation for Ionic Compounds.' },
     discovery: {
         question: 'Compare the electron transfer process in NaCl formation vs MgO formation.',
         options: ['NaCl: Na (23 u) loses 1e⁻ → Na⁺', 'MgO should be heavier', 'transferred electrons add mass, but electron mass is negligible'],
@@ -78,7 +78,7 @@ export const w_c9_chemistrycovalentbondingsim: SimDef = {
             { text: 'Verify charge neutrality: 2 × (+3) = +6; 3 × (-2) = -6; Sum = 0. The formula is correct.', faded: true, blankAnswer: 'Al₂(SO₄)₃' }
             ] } },
         { type: 'dissect', nodeId: 'c9_chem_ch3_4', title: 'Identify each idea',
-          dissect: { specimen: 'Covalentbonding', spots: [
+          dissect: { specimen: 'Formula Unit Mass: Calculation for Ionic Compounds', spots: [
             { id: 's1', label: 'Formula unit mass is the', prompt: 'Which idea is this? — Formula unit mass is the sum of the atomic masses of all atoms present in a formula unit.', answer: 'Formula unit mass is the', options: ['Formula unit mass is the', 'A covalent bond is a', 'Ionic bonding is the electrostatic', 'Ionic compounds are crystalline solids'] },
             { id: 's2', label: 'A covalent bond is a', prompt: 'Which idea is this? — A covalent bond is a chemical bond formed by the mutual sharing of one or more pairs of.', answer: 'A covalent bond is a', options: ['A covalent bond is a', 'Formula unit mass is the', 'Ionic bonding is the electrostatic', 'Ionic compounds are crystalline solids'] },
             { id: 's3', label: 'Ionic bonding is the electrostatic', prompt: 'Which idea is this? — Ionic bonding is the electrostatic attraction between positively charged metal cations.', answer: 'Ionic bonding is the electrostatic', options: ['Ionic bonding is the electrostatic', 'Formula unit mass is the', 'A covalent bond is a', 'Ionic compounds are crystalline solids'] },
@@ -87,7 +87,7 @@ export const w_c9_chemistrycovalentbondingsim: SimDef = {
             { id: 's6', label: 'Chemical formulae of common compounds', prompt: 'Which idea is this? — Chemical formulae of common compounds represent the fixed ratio of atoms of each element.', answer: 'Chemical formulae of common compounds', options: ['Chemical formulae of common compounds', 'Formula unit mass is the', 'A covalent bond is a', 'Ionic bonding is the electrostatic'] }
           ] } }
     ],
-    explore: { component: C9_ChemistryCovalentbondingSim, prompt: 'Explore the interactive — Covalentbonding' },
+    explore: { component: C9_ChemistryCovalentbondingSim, prompt: 'Explore the interactive — Formula Unit Mass: Calculation for Ionic Compounds' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_chem_ch3_10', difficulty: 'standard',
           question: 'Formula unit mass is the sum of the atomic masses of all atoms present in a.',

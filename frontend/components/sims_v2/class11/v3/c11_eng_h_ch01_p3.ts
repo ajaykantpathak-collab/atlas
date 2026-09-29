@@ -19,7 +19,7 @@ export const c11_eng_h_ch01_p3: SimDef = {
         hook: 'She isn\'t \'backward\' — she\'s a representative figure of a vanishing world, and her silences carry a whole generation\'s rules.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation in literature is the disciplined process of examining a text\'s structural, linguistic, and thematic layers to construct evidence-based interpretations.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Portrait of a Lady\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_01_013', title: 'Your mission',
@@ -29,14 +29,14 @@ export const c11_eng_h_ch01_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_01_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re sitting in the exam hall and the question reads: "Write a character sketch of the grandmother highlighting her spirituality and strength." Most.',
+          caseStudy: { intro: 'For written answers on \'The Portrait of a Lady\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing literature answers?', options: [
                 { text: 'PEEL stands for Point (topic sentence), Evidence (textual detail/quote), Explanation', outcome: 'PEEL stands for Point (topic sentence), Evidence (textual detail/quote), Explanation (analysis.' },
                 { text: 'Paragraph, Example, Explanation, Line', outcome: 'Not quite — Students believe "writing based on the chapter" means retelling the story in their own words.', reveals: 'writing-based-on-the-chapter' },
                 { text: 'writing based on the chapter', outcome: 'Not quite — Students believe "writing based on the chapter" means retelling the story in their own words.', reveals: 'writing-based-on-the-chapter' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_01_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine your teacher says, "Form groups of four and discuss: \'Was the grandmother\'s resistance to English education justified?\' You have five minutes." Your.',
+          caseStudy: { intro: 'Talk through \'The Portrait of a Lady\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of using textual evidence in a literature discussion?', options: [
                 { text: 'The primary purpose is to ground interpretive claims in verifiable details from the text', outcome: 'The primary purpose is to ground interpretive claims in verifiable details from the text so that.' },
                 { text: 'to prove you read the chapter', outcome: 'Not quite — Students believe a "good discussion" means speaking frequently, sharing personal feelings,.', reveals: 'a-good-discussion-means-speaking' },
@@ -61,7 +61,7 @@ export const c11_eng_h_ch01_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation in literature is the disciplined.',
+          question: 'Critical thinking on \'The Portrait of a Lady\' — analysing the text to reach.',
           hint: 'If stuck, reconstruct the three-phase timeline from node 002 and the theme evidence from.',
           misconception: 'Students equate "critical analysis" with theme-listing (identifying "old age," "tradition," "death") and treat the.',
           parts: [
@@ -87,7 +87,7 @@ export const c11_eng_h_ch01_p3: SimDef = {
           ],
             remediations: { 'students-equate-critical-analysis-with': { steps: ['Have student create a two-column table: Column A = every explicit action the grandmother takes (not author\'s.', 'Color-code actions by phase (village/city/university).', 'Ask: "Which actions are responses to marginalization?', 'Which create new centers of meaning?" 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter refers to the ability to compose.',
+          question: 'Writing skills from \'The Portrait of a Lady\' — using the text as a model.',
           hint: 'If stuck, return to c11_eng_h_cbse_01_004 (Character Analysis: Protagonist) and re-do the.',
           misconception: 'Students believe "writing based on the chapter" means retelling the story in their own words.',
           parts: [
@@ -102,7 +102,7 @@ export const c11_eng_h_ch01_p3: SimDef = {
           ],
             remediations: { 'writing-based-on-the-chapter': { steps: ['Have the student highlight every detail about the grandmother in the text using three colors: physical description.', 'Give a prompt like "Grandmother\'s spirituality" and ask them to pick only the highlighted details that fit.', 'Practice writing one PEEL paragraph together using just those details.', 'Gradually release to independent writing with a new prompt ("Grandmother\'s relationship with nature"), insisting on the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_015', difficulty: 'standard',
-          question: 'Speaking and Listening Discussion Points are structured oral communication.',
+          question: 'Discussion points on \'The Portrait of a Lady\' — speaking and listening around.',
           hint: 'If stuck, review c11_eng_h_cbse_01_004 (grandmother\'s character traits) and.',
           misconception: 'Students believe a "good discussion" means speaking frequently, sharing personal feelings, or agreeing with peers to.',
           parts: [

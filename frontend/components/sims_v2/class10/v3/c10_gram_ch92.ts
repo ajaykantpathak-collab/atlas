@@ -25,7 +25,7 @@ export const c10_gram_ch92: SimDef = {
             { id: 's4', label: 'Obligation modals encode the SOURCE', prompt: 'Which idea is this? — Obligation modals encode the SOURCE of the duty: \'must\' = the speaker imposes (\'You must.', answer: 'Obligation modals encode the SOURCE', options: ['Obligation modals encode the SOURCE', 'Modals are function words', 'Modal have past', 'Modals mark degrees of certainty'] }
           ] } },
         { type: 'build', nodeId: 'c10_gram_cbse_92_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Ask what the sentence is DOING — advising? permitting?', 'Pick the modal whose function matches, not the first modal.', 'For near-pairs, name the strength difference out loud.'], answer: 'Ask what the sentence is DOING — advising? permitting? Pick the modal whose function matches, not the first modal. For near-pairs, name the strength difference out loud.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Pick the modal whose function matches, not the first modal.', 'Ask what the sentence is DOING — advising? permitting?', 'For near-pairs, name the strength difference out loud.'], answer: 'Ask what the sentence is DOING — advising? permitting? Pick the modal whose function matches, not the first modal. For near-pairs, name the strength difference out loud.' } },
         { type: 'case', nodeId: 'c10_gram_ch92_004', title: 'You made it',
           caseStudy: { intro: 'You finished Modals are function words — each encodes. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

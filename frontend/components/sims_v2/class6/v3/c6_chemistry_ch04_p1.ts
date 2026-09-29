@@ -97,6 +97,21 @@ export const c6_chemistry_ch04_p1: SimDef = {
                 { id: 'b', prompt: 'If you have a steel spoon and a wooden spoon, why might you classify them differently in a "shiny vs. dull" test?', answer: 'Steel is lustrous (shiny), whereas wood is non-lustrous (dull)',
                   options: ['Steel is lustrous (shiny), whereas wood is non-lustrous (dull)', 'appearance', 'lustre', 'transparent'],
                   hint: 'Review the definitions of adjectives describing physical appearance and texture.',
+                  misconception: 'Students often confuse "transparent" with "colorless." They might think a colored glass is opaque because it isn\'t perfectly clear.' },
+                { id: 'c', prompt: 'You need to make a window. Why would you choose glass instead of cardboard?', answer: 'Identify the purpose (to see outside)',
+                  options: ['Identify the purpose (to see outside)', 'transparent', 'colorless', 'a colored glass is opaque'],
+                  hint: 'Review the definitions of adjectives describing physical appearance and texture.',
+                  misconception: 'Students often confuse "transparent" with "colorless." They might think a colored glass is opaque because it isn\'t perfectly clear.' }
+          ],
+            remediations: { 'students-often-confuse-transparent-with': { steps: ['First, ask the student to look through a piece of colored cellophane paper at a light source.', 'Ask: "Can you see the light even though it is colored?" Explain that if light passes through, it is transparent.', 'Then, have them compare this to a piece of wood, which blocks all light, to solidify the difference between transparent.'], labTask: { instruction: 'On the interactive: set radius to 60 — how does the volume respond? — then check.', widget: 'solid', validate: 'solid:radius=60' } } } },
+        { type: 'subpart', nodeId: 'c6_chemistry_ch04_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often confuse "transparent" with "colorless." They might think a colored glass is opaque because it isn\'t.',
+          parts: [
+                { id: 'a', prompt: 'Design a simple experiment to test if a new material is soluble in water.', answer: 'Fill a glass with water',
+                  options: ['Fill a glass with water', 'transparent', 'colorless', 'a colored glass is opaque'],
+                  hint: 'Review the definitions of adjectives describing physical appearance and texture.',
                   misconception: 'Students often confuse "transparent" with "colorless." They might think a colored glass is opaque because it isn\'t perfectly clear.' }
           ],
             remediations: { 'students-often-confuse-transparent-with': { steps: ['First, ask the student to look through a piece of colored cellophane paper at a light source.', 'Ask: "Can you see the light even though it is colored?" Explain that if light passes through, it is transparent.', 'Then, have them compare this to a piece of wood, which blocks all light, to solidify the difference between transparent.'], labTask: { instruction: 'On the interactive: set radius to 60 — how does the volume respond? — then check.', widget: 'solid', validate: 'solid:radius=60' } } } },
@@ -119,21 +134,6 @@ export const c6_chemistry_ch04_p1: SimDef = {
                   misconception: 'Students often think that if a material is hard, it must be metal, or if it is soft, it cannot be a metal.' },
                 { id: 'd', prompt: 'Compare a piece of iron and a piece of rubber. Which one is harder, and how do you know?', answer: 'Iron is harder than rubber',
                   options: ['Iron is harder than rubber', 'if a material is hard, it must be metal, or if it is soft, it cannot be a metal'],
-                  hint: 'Review the activity of listing objects around you and identifying the material they are made of.',
-                  misconception: 'Students often think that if a material is hard, it must be metal, or if it is soft, it cannot be a metal.' }
-          ],
-            remediations: { 'if-a-material-is-hard': { steps: ['Ask the student to find a piece of metal that is soft (like a thin aluminum foil) and a non-metal that is hard (like.', 'Have them press the foil and try to scratch the wood.', 'Explain that properties like "hard" or "soft" are specific to the material\'s reaction to force, not whether it is.'], labTask: { instruction: 'On the interactive: set radius to 60 — how does the volume respond? — then check.', widget: 'solid', validate: 'solid:radius=60' } } } },
-        { type: 'subpart', nodeId: 'c6_chemistry_ch04_002', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often think that if a material is hard, it must be metal, or if it is soft, it cannot be a metal.',
-          parts: [
-                { id: 'a', prompt: 'Your friend wants to make a boat out of paper, but you want to make one out of metal. Which material is more suitable for staying in water for a long time?', answer: 'The metal boat is more suitable',
-                  options: ['The metal boat is more suitable', 'if a material is hard, it must be metal, or if it is soft, it cannot be a metal'],
-                  hint: 'Review the activity of listing objects around you and identifying the material they are made of.',
-                  misconception: 'Students often think that if a material is hard, it must be metal, or if it is soft, it cannot be a metal.' },
-                { id: 'b', prompt: 'Imagine a new material that is opaque, very hard, and insoluble in water. Suggest one object you could make with it.', answer: 'An example would be a construction brick or a heavy-duty hammer head',
-                  options: ['An example would be a construction brick or a heavy-duty hammer head', 'if a material is hard, it must be metal, or if it is soft, it cannot be a metal'],
                   hint: 'Review the activity of listing objects around you and identifying the material they are made of.',
                   misconception: 'Students often think that if a material is hard, it must be metal, or if it is soft, it cannot be a metal.' }
           ],

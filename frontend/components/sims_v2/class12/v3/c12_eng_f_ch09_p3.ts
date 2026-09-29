@@ -19,7 +19,7 @@ export const c12_eng_f_ch09_p3: SimDef = {
         hook: 'The poem\'s engine isn\'t the airport drive — it\'s the thought she \'put away.\' Confessional poetry runs on suppression and eruption: the old familiar ache, the smile that says \'see you soon\' while fearing otherwise. Kerala\'s matrilineal bond is the cultural weight under every line.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining a text beyond its literal meaning to evaluate the author\'s choices, interpret the significance of literary devices, and synthesize how form.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'My Mother at Sixty-six\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_09_013', title: 'Your mission',
@@ -29,21 +29,21 @@ export const c12_eng_f_ch09_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_09_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are at an airport saying goodbye to a parent you suddenly realize has become frail.',
+          caseStudy: { intro: 'Analyse \'My Mother at Sixty-six\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the sentence structure of the poem "My Mother at Sixty-six," and what does the NCERT textbook note about its significance?', options: [
                 { text: 'The poem is written as a single sentence punctuated by commas', outcome: 'The poem is written as a single sentence punctuated by commas.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students often treat the poem as a simple narrative: "The poet drives to the airport, sees her.', reveals: 'students-often-treat-the-poem' },
                 { text: 'It is a sonnet', outcome: 'Not quite — Students often treat the poem as a simple narrative: "The poet drives to the airport, sees her.', reveals: 'students-often-treat-the-poem' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_09_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you open your CBSE English paper and see: "The poet\'s smile at the end is a mask. Do you agree?',
+          caseStudy: { intro: 'For written answers on \'My Mother at Sixty-six\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does PEEL stand for in the context of writing literature answers for CBSE Class 12?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explain, Line', outcome: 'Not quite — Students believe "writing skills based on the chapter" means memorising a few sample answers for.', reveals: 'writing-skills-based-on-the' },
                 { text: 'Point, Example, Evaluation, Link', outcome: 'Not quite — Students believe "writing skills based on the chapter" means memorising a few sample answers for.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_09_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are at a family gathering and notice your grandmother struggling to read a menu; the moment mirrors the poet\'s sudden realization of her mother\'s.',
+          caseStudy: { intro: 'Talk through \'My Mother at Sixty-six\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of a "discussion point" in a literature classroom speaking-listening activity?', options: [
                 { text: 'A discussion point is a specific, open-ended prompt derived from the text that invites', outcome: 'A discussion point is a specific, open-ended prompt derived from the text that invites varied.' },
                 { text: 'to test if students remember the plot', outcome: 'Not quite — Students often treat speaking-listening discussion as "sharing feelings" without textual anchoring.', reveals: 'students-often-treat-speaking-listening' }
@@ -67,7 +67,7 @@ export const c12_eng_f_ch09_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_09_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining a text beyond its.',
+          question: 'Critical thinking on \'My Mother at Sixty-six\' — analysing the text to reach.',
           hint: 'If stuck, review the imagery node (c12_eng_f_cbse_09_008) for the two similes, the.',
           misconception: 'Students often treat the poem as a simple narrative: "The poet drives to the airport, sees her mother looking old.',
           parts: [
@@ -82,7 +82,7 @@ export const c12_eng_f_ch09_p3: SimDef = {
           ],
             remediations: { 'students-often-treat-the-poem': { steps: ['Re-read the poem **aloud**, pausing only at commas.', 'Feel how the sentence refuses to stop.', 'Revisit **c12_eng_f_cbse_09_008** (Imagery and Metaphor) to re-analyze the two similes for the mother and the verbs for.', 'Revisit **c12_eng_f_cbse_09_009** (Irony and Symbolism) to re-examine the "late winter\'s moon" and the smile as ironic.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_09_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter "My Mother at Sixty-six" refer to the.',
+          question: 'Writing skills from \'My Mother at Sixty-six\' — using the text as a model.',
           hint: 'If stuck, review the "Think it out" questions in the NCERT (especially Q1, Q2, Q4, Q5).',
           misconception: 'Students believe "writing skills based on the chapter" means memorising a few sample answers for predicted questions.',
           parts: [
@@ -112,12 +112,12 @@ export const c12_eng_f_ch09_p3: SimDef = {
           ],
             remediations: { 'writing-skills-based-on-the': { steps: ['If a student cannot produce a PEEL paragraph after the walkthrough: 1.', '**Revisit Node c12_eng_f_cbse_09_008 (Imagery/Metaphor) and 009 (Irony/Symbolism)** — they must be able to *name* the.', '**Do a "Device Hunt" drill:** Give the student the poem text (or key lines) and ask them to highlight and label 5.', 'No writing, just identification.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_09_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points for "My Mother at Sixty-six" refers.',
+          question: 'Discussion points on \'My Mother at Sixty-six\' — speaking and listening around.',
           hint: 'If stuck, return to c12_eng_f_cbse_09_008 and re-annotate the poem for images; then.',
           misconception: 'Students often treat speaking-listening discussion as "sharing feelings" without textual anchoring, believing personal.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points for "My Mother at Sixty-six" refers to',
-                  options: ['Speaking and Listening: Discussion Points for "My Mother at Sixty-six" refers to', '"Before You Read: Context and Background" is a pre-reading strategy that prepares', 'Plot and narrative structure in poetry refers to the sequence of events and the', 'Setting in poetry refers to the time, place, and physical environment where the poem'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'My Mother at Sixty-six\'',
+                  options: ['Discussion points on \'My Mother at Sixty-six\'', '\'My Mother at Sixty-six\' (Flamingo, ch', 'The plot/narrative arc of \'My Mother at Sixty-six\'', 'The setting of \'My Mother at Sixty-six\''],
                   hint: 'If stuck, return to c12_eng_f_cbse_09_008 and re-annotate the poem for images; then practice.',
                   misconception: 'Students often treat speaking-listening discussion as "sharing feelings" without textual anchoring, believing personal anecdotes alone.' }
           ],

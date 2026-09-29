@@ -6,13 +6,13 @@ import C12_MathematicsAreaUnderSimpleSim from '../../../simulations/c6_12/C12_Ma
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicsareaundersimplesim: SimDef = {
     id: 'v3w_c12_mathematicsareaundersimplesim',
-    title: 'Area Under Simple',
+    title: 'Area Under Simple Curves: Definition',
     subtitle: 'This node covers the definition and geometric interpretation of area under a simple curve.',
     classLevel: 12, subject: 'mathematics', topic: 'Area Under Simple Curves: Definition',
     chapters: [],
     nodeIds: ['c12_math_cbse_08_001', 'c12_math_cbse_07_007', 'c12_math_cbse_05_010', 'c12_math_cbse_04_002', 'c12_math_cbse_08_002', 'c12_math_cbse_08_003', 'c12_math_cbse_08_004', 'c12_math_cbse_08_005', 'c12_math_cbse_08_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are designing a curved garden bed along the side of a rectangular plot in your school.', goal: 'Master Area Under Simple.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are designing a curved garden bed along the side of a rectangular plot in your school.', goal: 'Master Area Under Simple Curves: Definition.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'The area under a simple curve y = f(x) from.', text: 'The area under a simple curve y = f(x) from x = a to x = b (with f(x) ≥ 0 on [a,b]) is defined as the definite integral ∫_a^b f(x) dx, which represents the limit of the sum of areas of.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -73,7 +73,7 @@ export const w_c12_mathematicsareaundersimplesim: SimDef = {
             { text: 'Evaluate from 0 to 3: [-2(27)/3 + 3(9)] - [0] = [-18 + 27] = 9 square units.', faded: true, blankAnswer: '9 square units' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_07_007', title: 'Identify each idea',
-          dissect: { specimen: 'Area Under Simple', spots: [
+          dissect: { specimen: 'Area Under Simple Curves: Definition', spots: [
             { id: 's1', label: 'The area under a simple', prompt: 'Which idea is this? — The area under a simple curve y = f(x) from x = a to x = b (with f(x) ≥ 0 on [a,b]) is.', answer: 'The area under a simple', options: ['The area under a simple', 'The definite integral of a', 'If two variables x and', 'The determinant of a 22'] },
             { id: 's2', label: 'The definite integral of a', prompt: 'Which idea is this? — The definite integral of a continuous function \\(f(x)\\) on \\([a, b]\\) is defined as the.', answer: 'The definite integral of a', options: ['The definite integral of a', 'The area under a simple', 'If two variables x and', 'The determinant of a 22'] },
             { id: 's3', label: 'If two variables x and', prompt: 'Which idea is this? — If two variables \\(x\\) and \\(y\\) are expressed as functions of a third variable \\(t\\).', answer: 'If two variables x and', options: ['If two variables x and', 'The area under a simple', 'The definite integral of a', 'The determinant of a 22'] },
@@ -82,7 +82,7 @@ export const w_c12_mathematicsareaundersimplesim: SimDef = {
             { id: 's6', label: 'The area between two curves', prompt: 'Which idea is this? — The area between two curves y = f(x) and y = g(x) from x = a to x = b, where f(x) ≥ g(x).', answer: 'The area between two curves', options: ['The area between two curves', 'The area under a simple', 'The definite integral of a', 'If two variables x and'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsAreaUnderSimpleSim, prompt: 'Explore the interactive — Area Under Simple' },
+    explore: { component: C12_MathematicsAreaUnderSimpleSim, prompt: 'Explore the interactive — Area Under Simple Curves: Definition' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_08_001', difficulty: 'standard',
           question: 'The area under a simple curve y = f(x) from x = a to x = b (with f(x) ≥ 0 on.',

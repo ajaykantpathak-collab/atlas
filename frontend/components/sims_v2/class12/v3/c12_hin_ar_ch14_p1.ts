@@ -19,7 +19,7 @@ export const c12_hin_ar_ch14_p1: SimDef = {
         hook: 'The state guards the flag\'s display rules; the author asks whether it still embodies justice — ritualistic patriotism versus ethical substance. For him no science, politics or religion outranks humanity; the flag is a moral contract, not a protocol object.',
     },
     teaching: [
-        { title: 'शरिीष के फूल — पृष्ठभूमि और रचनाकार परिचय', text: '\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध** है जो ग्रामीण भारतीय जीवन की सहजता, परंपराओं की गहराई और आधुनिकता के आघात से उत्पन्न विघटन को लेखक के व्यक्तिगत अनुभवों.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'शरिीष के फूल — पृष्ठभूमि और रचनाकार परिचय', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_14_001', title: 'Your mission',
@@ -28,6 +28,39 @@ export const c12_hin_ar_ch14_p1: SimDef = {
         context: 'Read the flag as the nation\'s pulse: trace its arc from tryst-with-destiny to faded neglect, weigh reverence against ritual, and ask what a torn tricolor diagnoses.',
         labels: ['शरिीष के फूल —'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_14_001', title: 'शरिीष के फूल — पृष्ठभूमि और रचनाकार परिचय',
+          caseStudy: { intro: 'आरोह भाग-2 खोलिए और पाठ 14 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: 'Who is the author of "f\'kjh\\"k ds Qwy" and what is his most notable literary award?', options: [
+                { text: 'The author is Gatikhj Izlkn F}osnh (born 1907, Churu, Rajasthan)', outcome: 'The author is Gatikhj Izlkn F}osnh (born 1907, Churu, Rajasthan).' },
+                { text: 'Premchand or confusing the award with Jnanpith', outcome: 'Not quite — Students treat "Before You Read" as optional background trivia — they memorize the author\'s birth.', reveals: 'students-treat-before-you-read' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_14_002', title: 'शरिीष के फूल — कथानक और आख्यान-संरचना',
+          caseStudy: { intro: '\'फकीर धुनी\' का क्रम: शुरुआत फकीर-धुनी से, घटनाएँ बढ़ती हैं, अंत \'फकीर धुनी\' का केंद्रीय भाव और संदेश पर।',
+            decisions: [{ prompt: 'What is the primary narrative perspective used in "फखरुद्दीन की खाट", and what is the immediate effect of this choice on the reader\'s.', options: [
+                { text: 'The story uses a first-person narrative perspective ("मैं")', outcome: 'The story uses a first-person narrative perspective ("मैं"). This limits the reader\'s knowledge.' },
+                { text: 'third-person omniscient', outcome: 'Not quite — Students often confuse "plot summary" with "narrative structure analysis".', reveals: 'students-often-confuse-plot-summary' },
+                { text: 'plot summary', outcome: 'Not quite — Students often confuse "plot summary" with "narrative structure analysis".', reveals: 'students-often-confuse-plot-summary' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_14_004', title: 'शरिीष के फूल — पात्र-चित्रण: नायक/प्रमुख पात्र',
+          caseStudy: { intro: 'मुख्य पात्र की पहचान, कार्य और विकास — \'फकीर धुनी\' में फकीर-धुनी से पात्र उभरता है।',
+            decisions: [{ prompt: 'What is the primary role of the narrator-protagonist in "फख़्हक़ के क़याम"? Answer in one sentence.', options: [
+                { text: 'The narrator-protagonist serves as a reflective consciousness that uses the pen as a', outcome: 'The narrator-protagonist serves as a reflective consciousness that uses the pen as a metaphor.' },
+                { text: 'He is a pen collector', outcome: 'Not quite — Students often treat the pen as the protagonist because the title focuses on it.', reveals: 'students-often-treat-the-pen' },
+                { text: 'He tells a story about a pen', outcome: 'Not quite — Students often treat the pen as the protagonist because the title focuses on it.', reveals: 'students-often-treat-the-pen' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_14_005', title: 'शरिीष के फूल — पात्र-चित्रण: सहायक पात्र',
+          caseStudy: { intro: '\'फकीर धुनी\' में सहायक पात्र पहचानिए — जो मुख्य पात्र की सहायता करते हैं।',
+            decisions: [{ prompt: 'Name the painter\'s internal conflict as revealed in the text and state the specific line that shows his unwillingness to flatter the fool.', options: [
+                { text: 'The painter (चित्रकार) is torn between artistic integrity (वुक्लृद ;क्सह) and survival', outcome: 'The painter (चित्रकार) is torn between artistic integrity (वुक्लृद ;क्सह) and survival.' },
+                { text: 'fear of king', outcome: 'Not quite — Students treat supporting characters as "minor" and write one-line descriptions (e.g., "painter.', reveals: 'students-treat-supporting-characters-as' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_14_006', title: 'शरिीष के फूल — मुख्य विषय और संदेश',
+          caseStudy: { intro: 'सब घटनाएँ \'फकीर धुनी\' में \'फकीर धुनी\' का केंद्रीय भाव और संदेश की ओर ले जाती हैं — यही मुख्य विषय है।',
+            decisions: [{ prompt: 'What is the literal meaning of \'voèkwr\' (व्यतिक्र) as used by Dwivedi ji in the context of f\'kjh"k grass, and how does he redefine.', options: [
+                { text: 'Literal meaning: \'voèkwr\' means \'perversion\' or \'deviation from norm\' (from vi + atikram)', outcome: 'Literal meaning: \'voèkwr\' means \'perversion\' or \'deviation from norm\' (from vi + atikram).' },
+                { text: 'voèkwr means struggle', outcome: 'Not quite — Students treat "f\'kjh"k" as merely a *symbol of strength* (like "oak tree" in English poetry) and.', reveals: 'students-treat-f-kjh-k' },
+                { text: 'resilience', outcome: 'Not quite — Students treat "f\'kjh"k" as merely a *symbol of strength* (like "oak tree" in English poetry) and.', reveals: 'students-treat-f-kjh-k' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_14_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Your college\'s broken hostel bench gets a fresh coat of paint for inspection day — splinters and all — and the warden declares the issue \'resolved.\' The repair request you filed months ago is still \'under process.\'',
             decisions: [{ prompt: 'What does \'फखरुद्दीन की खाट\' see in the painted bench?', options: [
@@ -47,71 +80,94 @@ export const c12_hin_ar_ch14_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_14_001', difficulty: 'standard',
-          question: '\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध**.',
-          hint: 'यदि विधा-भेद अस्पष्ट है, तो तुरंत **c11_hin_ar_cbse_01_001** और.',
-          misconception: '**विशिष्ट भ्रांति:** *"शरीष के फूल एक कहानी (short story) है क्योंकि इसमें पात्र, संवाद और घटनाक्रम है।"* **क्यों गलत.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, revisit c11_hin_ar_cbse_14_001 and practice the "3-Column Pre-Read Table".',
+          misconception: 'Students treat "Before You Read" as optional background trivia — they memorize the author\'s birth year and award name.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध** है जो',
-                  options: ['\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध** है जो', '**कथानक** क्रमबद्ध घटनाओं का वह ताना-बाना है जो कहानी का आधार बनता है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है', '\'शरीष के फूल\' कहानी का नायक **शरीष** एक संवेदनशील, स्वाभिमानी और अंतर्मुखी ग्रामीण युवक'],
-                  hint: 'यदि विधा-भेद अस्पष्ट है, तो तुरंत **c11_hin_ar_cbse_01_001** और **c11_hin_ar_cbse_02_001** के.',
-                  misconception: '**विशिष्ट भ्रांति:** *"शरीष के फूल एक कहानी (short story) है क्योंकि इसमें पात्र, संवाद और घटनाक्रम है।"* **क्यों गलत है:** छात्र.' }
+                { id: 'a', prompt: 'Who is the author of "f\'kjh\\"k ds Qwy" and what is his most notable literary award?', answer: 'The author is Gatikhj Izlkn F}osnh (born 1907, Churu, Rajasthan)',
+                  options: ['The author is Gatikhj Izlkn F}osnh (born 1907, Churu, Rajasthan)', 'Premchand or confusing the award with Jnanpith'],
+                  hint: 'If stuck, revisit c11_hin_ar_cbse_14_001 and practice the "3-Column Pre-Read Table": Column 1.',
+                  misconception: 'Students treat "Before You Read" as optional background trivia — they memorize the author\'s birth year and award name but miss the.' },
+                { id: 'b', prompt: 'In your own words, explain why the author calls the flag a "voèkwr" (living being) rather than a mere symbol. Use one detail from the introductory passage.', answer: 'The author calls the flag a voèkwr',
+                  options: ['The author calls the flag a voèkwr', 'voèkwr'],
+                  hint: 'If stuck, revisit c11_hin_ar_cbse_14_001 and practice the "3-Column Pre-Read Table": Column 1.',
+                  misconception: 'Students treat "Before You Read" as optional background trivia — they memorize the author\'s birth year and award name but miss the.' }
           ],
-            remediations: { 'short-story': { steps: ['छात्र को **c11_hin_ar_cbse_01_001** (कक्षा 11 आरोह पाठ 1 — पृष्ठभूमि और रचनाकार परिचय) पर ले जाएँ — वहाँ \'नमक का.', 'उनसे पूछें: *"कहानी में \'कथानक\' प्रधान होता है या \'विचार\'?', 'निबंध में क्या प्रधान होता है?"* — उत्तर लिखवाएँ। 3.', 'फिर \'शरीष के फूल\' का पहला पैराग्राफ पढ़वाएँ और पूछें: *"लेखक यहाँ क्या कर रहे हैं — कहानी सुना रहे हैं या अपना.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-before-you-read': { steps: ['Re-read the author bio in the textbook and list *three* life-events that shaped his flag-view (e.g., village.', 'Draw a two-column table: "State\'s Flag" (protocol, material, occasions) vs.', '"Author\'s Flag" (breathing, suffering, moral witness).', 'Write one paragraph explaining how the author\'s *scholar-activist* identity bridges these columns.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_14_002', difficulty: 'standard',
-          question: '**कथानक** क्रमबद्ध घटनाओं का वह ताना-बाना है जो कहानी का आधार बनता है, जबकि.',
-          hint: 'यदि फ्लैशबैक/पूर्वाभास अस्पष्ट हों तो कक्षा ११ के नोड **c11_hin_ar_cbse_14_002** के.',
-          misconception: 'छात्र प्रायः समझते हैं कि **\'कथानक = घटनाओं का क्रम\' और \'आख्यान-संरचना = वही क्रम लिखना\'** — यानी दोनों पर्यायवाची हैं।.',
+          question: '\'फकीर धुनी\' का कथानक — \'फकीर धुनी\' — आरोह भाग-2 का पाठ। पाठ का कथानक, पात्र और.',
+          hint: 'Review "frame narrative" and "flashback" in Class 11 node c11_hin_ar_cbse_01_002 with the.',
+          misconception: 'Students often confuse "plot summary" with "narrative structure analysis".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**कथानक** क्रमबद्ध घटनाओं का वह ताना-बाना है जो कहानी का आधार बनता है, जबकि',
-                  options: ['**कथानक** क्रमबद्ध घटनाओं का वह ताना-बाना है जो कहानी का आधार बनता है, जबकि', '\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध** है जो', 'पाठ्य-परिवेश और वातावरण का अर्थ है', '\'शरीष के फूल\' कहानी का नायक **शरीष** एक संवेदनशील, स्वाभिमानी और अंतर्मुखी ग्रामीण युवक'],
-                  hint: 'यदि फ्लैशबैक/पूर्वाभास अस्पष्ट हों तो कक्षा ११ के नोड **c11_hin_ar_cbse_14_002** के \'साहित्यिक.',
-                  misconception: 'छात्र प्रायः समझते हैं कि **\'कथानक = घटनाओं का क्रम\' और \'आख्यान-संरचना = वही क्रम लिखना\'** — यानी दोनों पर्यायवाची हैं। असल में \'शरीष के.' }
+                { id: 'a', prompt: 'What is the primary narrative perspective used in "फखरुद्दीन की खाट", and what is the immediate effect of this choice on the reader\'s access to events?', answer: 'The story uses a first-person narrative perspective ("मैं")',
+                  options: ['The story uses a first-person narrative perspective ("मैं")', 'third-person omniscient', 'plot summary', 'narrative structure analysis'],
+                  hint: 'Review "frame narrative" and "flashback" in Class 11 node c11_hin_ar_cbse_01_002 with the "नमक का.',
+                  misconception: 'Students often confuse "plot summary" with "narrative structure analysis".' },
+                { id: 'b', prompt: 'The story opens with the narrator describing the cot in the present, then shifts to the poet\'s memory of the bureaucrat painting the cot.', answer: 'The shift is a flashback',
+                  options: ['The shift is a flashback', 'plot summary', 'narrative structure analysis'],
+                  hint: 'Review "frame narrative" and "flashback" in Class 11 node c11_hin_ar_cbse_01_002 with the "नमक का.',
+                  misconception: 'Students often confuse "plot summary" with "narrative structure analysis".' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण १: छात्र से कहें — "पाठ की **१० प्रमुख घटनाएँ** काग़ज़ पर **वास्तविक कालक्रम** (जैसे जीवन में घटीं) में लिखो।" चरण.', 'क्यों?" चरण ४: इस तुलना से निकले अंतर को ही **\'आख्यान-संरचना की युक्ति\'** नाम दें। यदि फिर न समझ आए तो **कक्षा ११ के.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-plot-summary': { steps: ['Give them a 5-event strip from the story (e.g., 1. Cot made, 2. Bureaucrat paints, 3. Poet sees it, 4.', 'Ask them to arrange in story-time (chronological) and then in text-order (narrated).', 'Have them label each shift (flashback, frame, digression).', 'Re-attempt Diagnostic Question 3. If still stuck, revisit Class 11 node c11_hin_ar_cbse_01_002 (Plot and Narrative.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_14_002', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often confuse "plot summary" with "narrative structure analysis".',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the effectiveness of the story\'s ending: the narrator\'s final rhetorical question ("गाड़ी ज्यों की त्यों धरी रह गई") after the cot\'s anti-climactic.', answer: 'The open-ended closure strengthens the satire',
+                  options: ['The open-ended closure strengthens the satire', 'plot summary', 'narrative structure analysis'],
+                  hint: 'Review "frame narrative" and "flashback" in Class 11 node c11_hin_ar_cbse_01_002 with the "नमक का.',
+                  misconception: 'Students often confuse "plot summary" with "narrative structure analysis".' },
+                { id: 'b', prompt: 'Create a one-paragraph alternate ending for "फखरुद्दीन की खाट" that retains the first-person frame but changes the narrative structure to a linear.', answer: 'Alternate ending (linear): "Fakhruddin bought the cot in 1940',
+                  options: ['Alternate ending (linear): "Fakhruddin bought the cot in 1940', 'plot summary', 'narrative structure analysis'],
+                  hint: 'Review "frame narrative" and "flashback" in Class 11 node c11_hin_ar_cbse_01_002 with the "नमक का.',
+                  misconception: 'Students often confuse "plot summary" with "narrative structure analysis".' }
+          ],
+            remediations: { 'students-often-confuse-plot-summary': { steps: ['Give them a 5-event strip from the story (e.g., 1. Cot made, 2. Bureaucrat paints, 3. Poet sees it, 4.', 'Ask them to arrange in story-time (chronological) and then in text-order (narrated).', 'Have them label each shift (flashback, frame, digression).', 'Re-attempt Diagnostic Question 3. If still stuck, revisit Class 11 node c11_hin_ar_cbse_01_002 (Plot and Narrative.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_14_003', difficulty: 'standard',
-          question: 'पाठ्य-परिवेश और वातावरण का अर्थ है — कहानी/उपन्यास में वह स्थानिक, कालिक.',
+          question: '\'फकीर धुनी\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित.',
           hint: 'यदि परिवेश के सामाजिक-आर्थिक आयाम पकड़ में न आएँ तो कक्षा 11 के नोड.',
           misconception: 'छात्र अक्सर \'परिवेश\' और \'वातावरण\' को समानार्थी मानकर केवल भौतिक परिवेश (पहाड़, नदी, मौसम) पर लिख देते हैं और.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश और वातावरण का अर्थ है',
-                  options: ['पाठ्य-परिवेश और वातावरण का अर्थ है', '\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध** है जो', '**कथानक** क्रमबद्ध घटनाओं का वह ताना-बाना है जो कहानी का आधार बनता है, जबकि', '\'शरीष के फूल\' कहानी का नायक **शरीष** एक संवेदनशील, स्वाभिमानी और अंतर्मुखी ग्रामीण युवक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'फकीर धुनी\' का पाठ्य-परिवेश (setting)',
+                  options: ['\'फकीर धुनी\' का पाठ्य-परिवेश (setting)', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फकीर धुनी\' का कथानक', '\'फकीर धुनी\' का पात्र-चित्रण'],
                   hint: 'यदि परिवेश के सामाजिक-आर्थिक आयाम पकड़ में न आएँ तो कक्षा 11 के नोड c11_hin_ar_cbse_14_003.',
                   misconception: 'छात्र अक्सर \'परिवेश\' और \'वातावरण\' को समानार्थी मानकर केवल भौतिक परिवेश (पहाड़, नदी, मौसम) पर लिख देते हैं और सामाजिक-सांस्कृतिक-आर्थिक.' }
           ],
             remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें — "उपन्यास के किन्हीं दो पन्ने खोलो जहाँ केवल प्रकृति वर्णन न हो, बल्कि लोग बात कर रहे हों, काम कर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_14_004', difficulty: 'standard',
-          question: '\'शरीष के फूल\' कहानी का नायक **शरीष** एक संवेदनशील, स्वाभिमानी और अंतर्मुखी.',
-          hint: 'यदि छात्र अटका हुआ है, तो वह **c11_hin_ar_cbse_14_004** के \'पात्र-चित्रण के चरण\' खंड को.',
-          misconception: '**विशिष्ट भ्रांति:** "शरीष एक **निष्क्रिय (passive)** पात्र है क्योंकि वह ठाकुर के विरुद्ध खुला विद्रोह नहीं करता.',
+          question: '\'फकीर धुनी\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+          hint: 'If stuck, re-read the "Before You Read" (node 001) for author context, then list 10 "I".',
+          misconception: 'Students often treat the pen as the protagonist because the title focuses on it.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'शरीष के फूल\' कहानी का नायक **शरीष** एक संवेदनशील, स्वाभिमानी और अंतर्मुखी ग्रामीण युवक',
-                  options: ['\'शरीष के फूल\' कहानी का नायक **शरीष** एक संवेदनशील, स्वाभिमानी और अंतर्मुखी ग्रामीण युवक', '\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध** है जो', '**कथानक** क्रमबद्ध घटनाओं का वह ताना-बाना है जो कहानी का आधार बनता है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
-                  hint: 'यदि छात्र अटका हुआ है, तो वह **c11_hin_ar_cbse_14_004** के \'पात्र-चित्रण के चरण\' खंड को दोहराए.',
-                  misconception: '**विशिष्ट भ्रांति:** "शरीष एक **निष्क्रिय (passive)** पात्र है क्योंकि वह ठाकुर के विरुद्ध खुला विद्रोह नहीं करता, अदालत नहीं जाता, संगठन.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'फकीर धुनी\' का पात्र-चित्रण',
+                  options: ['\'फकीर धुनी\' का पात्र-चित्रण', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फकीर धुनी\' का कथानक', '\'फकीर धुनी\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, re-read the "Before You Read" (node 001) for author context, then list 10 "I" statements.',
+                  misconception: 'Students often treat the pen as the protagonist because the title focuses on it.' }
           ],
-            remediations: { 'passive': { steps: ['**चरण 1:** छात्र को कहानी के **तीन प्रमुख प्रसंग** (मजदूरी न मिलना, फूल न तोड़ना, अंत में फूलों का खिलना) फिर से.', '**क्यों**?" **चरण 2:** एक **तुलनात्मक सारणी** बनवाएँ: स्तंभ 1 — ठाकुर का व्यवहार, स्तंभ 2 — शरीष की प्रतिक्रिया, स्तंभ.', 'वास्तव में क्या लिखा है?" — इस अंतर को स्वयं खोजने दें। **चरण 4:** पुनः निदान: DIAGNOSTIC_QUESTION_4 दुबारा पूछें; यदि.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-pen': { steps: ['Ask them to highlight every sentence with "मैं" (I) in the text.', 'Have them list what the "I" does, thinks, feels, remembers.', 'Show how each "I" statement builds a portrait of a specific intellectual personality.', 'Assign a rewrite: "Write a character sketch of the person holding the pen, using only evidence from the \'I\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_14_005', difficulty: 'standard',
-          question: 'सहायक पात्र (Supporting Characters) वे पात्र हैं जो नायक/प्रमुख पात्र के.',
-          hint: 'यदि नायक के गुण स्पष्ट न हों, तो **नोड 004 के WORKED_EXAMPLE_1** को दोहराएँ जहाँ नायक के.',
-          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि "पात्र-चित्रण" का अर्थ है — पात्र का **नाम, जाति, पहनावा, बोली, स्वभाव** लिख देना.',
+          question: '\'फकीर धुनी\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते.',
+          hint: 'Review "Character Analysis: Supporting Characters" from Class 11 Chapter 1.',
+          misconception: 'Students treat supporting characters as "minor" and write one-line descriptions (e.g., "painter paints portrait").',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे पात्र हैं जो नायक/प्रमुख पात्र के समानांतर या',
-                  options: ['सहायक पात्र (Supporting Characters) वे पात्र हैं जो नायक/प्रमुख पात्र के समानांतर या', '\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध** है जो', '**कथानक** क्रमबद्ध घटनाओं का वह ताना-बाना है जो कहानी का आधार बनता है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
-                  hint: 'यदि नायक के गुण स्पष्ट न हों, तो **नोड 004 के WORKED_EXAMPLE_1** को दोहराएँ जहाँ नायक के गुणों को.',
-                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि "पात्र-चित्रण" का अर्थ है — पात्र का **नाम, जाति, पहनावा, बोली, स्वभाव** लिख देना (जैसे: "मास्टर साहब.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'फकीर धुनी\' के सहायक पात्र',
+                  options: ['\'फकीर धुनी\' के सहायक पात्र', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फकीर धुनी\' का कथानक', '\'फकीर धुनी\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'Review "Character Analysis: Supporting Characters" from Class 11 Chapter 1 (c11_hin_ar_cbse_01_005).',
+                  misconception: 'Students treat supporting characters as "minor" and write one-line descriptions (e.g., "painter paints portrait").' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**पुनः पाठ पढ़ें** — केवल उन पृष्ठों को जहाँ सहायक पात्र **बोलते या कार्य करते** हैं (नायक के वर्णन वाले अंश छोड़ें)। 2.', '**तालिका बनाएँ** — स्तंभ: पात्र | प्रसंग/पृष्ठ | संवाद/कार्य | नायक पर प्रभाव | प्रतीकात्मक अर्थ। 3.', '**नोड 004 (नायक चित्रण) दोहराएँ** — नायक के गुणों की सूची बनाएँ, फिर मिलाएँ कि कौन-सा सहायक पात्र कौन-सा गुण उभारता है।.', '**पुनः निदान:** उपरोक्त DIAGNOSTIC_QUESTION_4 को फिर से हल करें — अबकी बार **दोनों पात्रों को एक फ्रेम में** रखकर उत्तर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-supporting-characters-as': { steps: ['Re-read the text marking every speech/action by painter, king, queen, courtiers, people.', 'For each, complete: "This character ______ (verb) which ______ (effect on fool\'s paradise)." 3.', 'Group the verbs: flatter, reward, categorize, pretend, endure.', 'Write one PEEL paragraph per group showing how that verb *sustains the central irony*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_14_006', difficulty: 'standard',
-          question: 'मुख्य विषय (Central Theme) वह **मूल विचार या केंद्रीय भाव** है जिसे रचनाकार.',
-          hint: 'अगर अटके तो c12_hin_ar_cbse_14_004 (नायक पात्र-चित्रण) दोबारा पढ़ें — विशेषकर \'आंतरिक.',
-          misconception: '**विषय = कथानक का निचोड़** — 70% छात्र यही लिखते हैं। वे सोचते हैं: *"कहानी क्या हुई, वही विषय हुआ।"* जबकि विषय.',
+          question: '\'फकीर धुनी\' का मुख्य विषय — \'फकीर धुनी\' का केंद्रीय भाव और संदेश',
+          hint: 'If stuck: Revisit c12_hin_ar_cbse_14_002 (narrative structure) to map the essay\'s three.',
+          misconception: 'Students treat "f\'kjh"k" as merely a *symbol of strength* (like "oak tree" in English poetry) and write: "The grass.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य विषय (Central Theme) वह **मूल विचार या केंद्रीय भाव** है जिसे रचनाकार पूरी रचना के',
-                  options: ['मुख्य विषय (Central Theme) वह **मूल विचार या केंद्रीय भाव** है जिसे रचनाकार पूरी रचना के', '\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध** है जो', '**कथानक** क्रमबद्ध घटनाओं का वह ताना-बाना है जो कहानी का आधार बनता है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
-                  hint: 'अगर अटके तो c12_hin_ar_cbse_14_004 (नायक पात्र-चित्रण) दोबारा पढ़ें — विशेषकर \'आंतरिक द्वंद्व\' खंड',
-                  misconception: '**विषय = कथानक का निचोड़** — 70% छात्र यही लिखते हैं। वे सोचते हैं: *"कहानी क्या हुई, वही विषय हुआ।"* जबकि विषय **अमूर्त, सार्वभौमिक.' }
+                { id: 'a', prompt: 'Analyze how Dwivedi ji uses the first-person narrative shift ("eSa lksprk gw¡", "eSa f\'kjh"k osQ iwQyksa dks ns[kdj dgrk gw¡") to transform a botanical.', answer: 'Shift 1: "eSa lksprk gw¡ fd iqjkus dh ;g vfèkdkj&fyIlk D;ksa ugha le; jgrs"',
+                  options: ['Shift 1: "eSa lksprk gw¡ fd iqjkus dh ;g vfèkdkj&fyIlk D;ksa ugha le; jgrs"', 'resilience', 'heroism'],
+                  hint: 'If stuck: Revisit c12_hin_ar_cbse_14_002 (narrative structure) to map the essay\'s three movements.',
+                  misconception: 'Students treat "f\'kjh"k" as merely a *symbol of strength* (like "oak tree" in English poetry) and write: "The grass represents strong.' }
           ],
-            remediations: { '70': { steps: ['छात्र से कहें: **"कहानी भूल जाओ। केवल वह भाव बताओ जो पढ़ते समय तुम्हारे सीने में उठा।"** — उसे एक शब्द में लिखवाएं.', 'फिर पूछें: **"पाठ में वह भाव कहाँ-कहाँ दिखा?', 'तीन जगह पेंसिल से चिह्नित करो।"** 3.', 'अब कहें: **"उन तीनों जगहों में साझा क्या है?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-f-kjh-k': { steps: ['Re-read the opening paragraph ("tgk¡ cSB osQ ;g ys[k fy[k jgk gw¡...") aloud — notice the physical posture: "nk,¡&ck,¡".', 'List 5 adjectives Dwivedi ji uses for f\'kjh"k — N/A mean "strong/heroic."', 'Rewrite your theme statement replacing "strength" with "endurance against erasure."', 'Re-attempt Diagnostic Q2 with this corrected lens.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

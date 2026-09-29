@@ -6,13 +6,13 @@ import C11_GeographyOceanWaterSalinitySim from '../../../simulations/c6_12/C11_G
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geographyoceanwatersalinitysim: SimDef = {
     id: 'v3w_c11_geographyoceanwatersalinitysim',
-    title: 'Ocean Water Salinity',
+    title: 'Evolution of the Hydrosphere and Formation of Oceans',
     subtitle: 'Covers the origin of Earth\'s water (degassing, extraterrestrial delivery), condensation.',
     classLevel: 11, subject: 'geography', topic: 'Evolution of the Hydrosphere and Formation of Oceans',
     chapters: [],
     nodeIds: ['c11_geo_cbse_02_007', 'c11_geo_cbse_12_005', 'c11_geo_cbse_07_004', 'c11_geo_cbse_11_003', 'c11_geo_cbse_02_005', 'c11_geo_cbse_02_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a glass of cold water on a hot Indian summer day — water droplets form on the outside.', goal: 'Master Ocean Water Salinity.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a glass of cold water on a hot Indian summer day — water droplets form on the outside.', goal: 'Master Evolution of the Hydrosphere and Formation of Oceans.' },
     discovery: {
         question: 'Explain why the early oceans were likely more acidic and less saline than modern oceans, linking this to the composition of the primordial atmosphere and the.',
         options: ['The primordial atmosphere was rich in CO₂ (from volcanic outgassing)', 'less evaporation', 'Earth\'s water came from space'],
@@ -79,7 +79,7 @@ export const w_c11_geographyoceanwatersalinitysim: SimDef = {
             { text: 'Conclude — these are plausible early chemosynthetic or anaerobic photosynthetic organisms in a hydrothermal setting,.', faded: true, blankAnswer: 'The microfossils are consistent with early prokaryotic life.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_geo_cbse_12_005', title: 'Identify each idea',
-          dissect: { specimen: 'Ocean Water Salinity', spots: [
+          dissect: { specimen: 'Evolution of the Hydrosphere and Formation of Oceans', spots: [
             { id: 's1', label: 'The evolution of the hydrosphere', prompt: 'Which idea is this? — The evolution of the hydrosphere refers to the geological process by which water vapor.', answer: 'The evolution of the hydrosphere', options: ['The evolution of the hydrosphere', 'Black Soil Regur is a', 'A delta is a depositional', 'A tsunami is a series'] },
             { id: 's2', label: 'Black Soil Regur is a', prompt: 'Which idea is this? — Black Soil (Regur) is a clay-rich, dark-coloured soil formed *in situ* from the.', answer: 'Black Soil Regur is a', options: ['Black Soil Regur is a', 'The evolution of the hydrosphere', 'A delta is a depositional', 'A tsunami is a series'] },
             { id: 's3', label: 'A delta is a depositional', prompt: 'Which idea is this? — A delta is a depositional landform formed at a river\'s mouth where sediment-laden water.', answer: 'A delta is a depositional', options: ['A delta is a depositional', 'The evolution of the hydrosphere', 'Black Soil Regur is a', 'A tsunami is a series'] },
@@ -88,7 +88,7 @@ export const w_c11_geographyoceanwatersalinitysim: SimDef = {
             { id: 's6', label: 'The origin of life on', prompt: 'Which idea is this? — The origin of life on Earth refers to the natural process by which non-living matter.', answer: 'The origin of life on', options: ['The origin of life on', 'The evolution of the hydrosphere', 'Black Soil Regur is a', 'A delta is a depositional'] }
           ] } }
     ],
-    explore: { component: C11_GeographyOceanWaterSalinitySim, prompt: 'Explore the interactive — Ocean Water Salinity' },
+    explore: { component: C11_GeographyOceanWaterSalinitySim, prompt: 'Explore the interactive — Evolution of the Hydrosphere and Formation of Oceans' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_02_007', difficulty: 'standard',
           question: 'The evolution of the hydrosphere refers to the geological process by which.',

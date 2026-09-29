@@ -6,13 +6,13 @@ import C9_ScienceExploringMixturesAndTheirSeparationSim from '../../../simulatio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_scienceexploringmixturesandtheirseparationsim: SimDef = {
     id: 'v3w_c9_scienceexploringmixturesandtheirseparationsim',
-    title: 'Exploring Mixtures And Their Separation',
+    title: 'Mixtures: Definition and Types (Homogeneous and Heterogeneous)',
     subtitle: 'Covers definition of mixture, classification into homogeneous and heterogeneous based on.',
     classLevel: 9, subject: 'science', topic: 'Mixtures: Definition and Types (Homogeneous and Heterogeneous)',
     chapters: [],
     nodeIds: ['c9_chem_ch1_1', 'c9_chem_ch1_4', 'c9_chem_ch1_5', 'c9_chem_ch1_6', 'c9_chem_ch1_8'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Observe a glass of nimbu pani (lemonade) and a glass of sand-water mixture side by side.', goal: 'Master Exploring Mixtures And Their Separation.' },
+    scenario: { role: 'a class 9 learner', intro: 'Observe a glass of nimbu pani (lemonade) and a glass of sand-water mixture side by side.', goal: 'Master Mixtures: Definition and Types (Homogeneous and Heterogeneous).' },
     discovery: {
         question: 'What is the fundamental physical property that allows distillation to separate a mixture of two miscible liquids?',
         options: ['The fundamental property is the difference in boiling points of the two liquids', 'difference in density', 'difference in solubility'],
@@ -69,7 +69,7 @@ export const w_c9_scienceexploringmixturesandtheirseparationsim: SimDef = {
             { text: 'Verify: Test a crystal with starch solution — blue-black colour confirms iodine. Sand shows no colour change.', faded: true, blankAnswer: 'Pure iodine crystals collected on funnel walls; sand.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_chem_ch1_4', title: 'Identify each idea',
-          dissect: { specimen: 'Exploring Mixtures And Their Separation', spots: [
+          dissect: { specimen: 'Mixtures: Definition and Types (Homogeneous and Heterogeneous)', spots: [
             { id: 's1', label: 'A mixture is a material', prompt: 'Which idea is this? — A mixture is a material composed of two or more substances (elements or compounds).', answer: 'A mixture is a material', options: ['A mixture is a material', 'Crystallisation is a separation technique', 'Distillation is a physical separation', 'Chromatography is a separation technique'] },
             { id: 's2', label: 'Crystallisation is a separation technique', prompt: 'Which idea is this? — Crystallisation is a separation technique used to obtain pure solid crystals of a solute.', answer: 'Crystallisation is a separation technique', options: ['Crystallisation is a separation technique', 'A mixture is a material', 'Distillation is a physical separation', 'Chromatography is a separation technique'] },
             { id: 's3', label: 'Distillation is a physical separation', prompt: 'Which idea is this? — Distillation is a physical separation technique used to separate components of a.', answer: 'Distillation is a physical separation', options: ['Distillation is a physical separation', 'A mixture is a material', 'Crystallisation is a separation technique', 'Chromatography is a separation technique'] },
@@ -77,7 +77,7 @@ export const w_c9_scienceexploringmixturesandtheirseparationsim: SimDef = {
             { id: 's5', label: 'Sublimation is a physical change', prompt: 'Which idea is this? — Sublimation is a physical change of state in which a solid transforms directly into a gas.', answer: 'Sublimation is a physical change', options: ['Sublimation is a physical change', 'A mixture is a material', 'Crystallisation is a separation technique', 'Distillation is a physical separation'] }
           ] } }
     ],
-    explore: { component: C9_ScienceExploringMixturesAndTheirSeparationSim, prompt: 'Explore the interactive — Exploring Mixtures And Their Separation' },
+    explore: { component: C9_ScienceExploringMixturesAndTheirSeparationSim, prompt: 'Explore the interactive — Mixtures: Definition and Types (Homogeneous and Heterogeneous)' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_chem_ch1_1', difficulty: 'standard',
           question: 'A mixture is a material composed of two or more substances (elements or.',

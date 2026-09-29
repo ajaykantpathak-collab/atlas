@@ -6,13 +6,13 @@ import C10_SocialScienceOutcomesOfDemocracySim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_socialscienceoutcomesofdemocracysim: SimDef = {
     id: 'v3w_c10_socialscienceoutcomesofdemocracysim',
-    title: 'Social Science Outcomes Of Democracy',
+    title: 'Accountable, Responsive and Legitimate Government Under Democracy',
     subtitle: 'This node covers the *meaning*, *significance*, and *institutional mechanisms* of.',
     classLevel: 10, subject: 'science', topic: 'Accountable, Responsive and Legitimate Government Under Democracy',
     chapters: [],
     nodeIds: ['c10_civ_cbse_05_001', 'c10_civ_cbse_05_002', 'c10_civ_cbse_05_003', 'c10_civ_cbse_05_005', 'c10_civ_cbse_05_006', 'c10_civ_cbse_05_007', 'c10_civ_cbse_04_006', 'c10_civ_cbse_05_004', 'c10_civ_cbse_04_001', 'c10_civ_cbse_04_002', 'c10_civ_cbse_04_003', 'c10_civ_cbse_04_004', 'c10_civ_cbse_04_005', 'c10_civ_cbse_04_007', 'c10_civ_cbse_04_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you applied for a scholarship under a government scheme but the money never reached your bank.', goal: 'Master Social Science Outcomes Of Democracy.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you applied for a scholarship under a government scheme but the money never reached your bank.', goal: 'Master Accountable, Responsive and Legitimate Government Under Democracy.' },
     discovery: {
         question: 'A municipal corporation fails to collect garbage in a ward for three months despite repeated complaints.',
         options: ['**Missing attribute:** Responsiveness', 'vote them out next election', 'write to the Mayor'],
@@ -79,7 +79,7 @@ export const w_c10_socialscienceoutcomesofdemocracysim: SimDef = {
             { text: 'Conclude — the claim commits **single-criterion fallacy** (growth) and **procedural fallacy** (elections).', faded: true, blankAnswer: 'The claim is **incomplete and potentially misleading**..' }
             ] } },
         { type: 'dissect', nodeId: 'c10_civ_cbse_05_002', title: 'Identify each idea',
-          dissect: { specimen: 'Social Science Outcomes Of Democracy', spots: [
+          dissect: { specimen: 'Accountable, Responsive and Legitimate Government Under Democracy', spots: [
             { id: 's1', label: 'In a democracy an accountable', prompt: 'Which idea is this? — In a democracy, an **accountable government** is one where rulers are answerable to.', answer: 'In a democracy an accountable', options: ['In a democracy an accountable', 'Economic Growth and Development Under', 'Reduction of inequality and poverty', 'Dignity and Freedom of Citizens'] },
             { id: 's2', label: 'Economic Growth and Development Under', prompt: 'Which idea is this? — Economic Growth and Development Under Democracy refers to the relationship between.', answer: 'Economic Growth and Development Under', options: ['Economic Growth and Development Under', 'In a democracy an accountable', 'Reduction of inequality and poverty', 'Dignity and Freedom of Citizens'] },
             { id: 's3', label: 'Reduction of inequality and poverty', prompt: 'Which idea is this? — Reduction of inequality and poverty in democracies refers to the expectation that.', answer: 'Reduction of inequality and poverty', options: ['Reduction of inequality and poverty', 'In a democracy an accountable', 'Economic Growth and Development Under', 'Dignity and Freedom of Citizens'] },
@@ -88,7 +88,7 @@ export const w_c10_socialscienceoutcomesofdemocracysim: SimDef = {
             { id: 's6', label: 'Assessing democracys outcomes means evaluating', prompt: 'Which idea is this? — Assessing democracy\'s outcomes means evaluating the performance of a democratic system.', answer: 'Assessing democracys outcomes means evaluating', options: ['Assessing democracys outcomes means evaluating', 'In a democracy an accountable', 'Economic Growth and Development Under', 'Reduction of inequality and poverty'] }
           ] } }
     ],
-    explore: { component: C10_SocialScienceOutcomesOfDemocracySim, prompt: 'Explore the interactive — Social Science Outcomes Of Democracy' },
+    explore: { component: C10_SocialScienceOutcomesOfDemocracySim, prompt: 'Explore the interactive — Accountable, Responsive and Legitimate Government Under Democracy' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_civ_cbse_05_001', difficulty: 'standard',
           question: 'In a democracy, an **accountable government** is one where rulers are.',

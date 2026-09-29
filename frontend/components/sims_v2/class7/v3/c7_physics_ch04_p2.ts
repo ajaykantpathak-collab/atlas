@@ -106,7 +106,11 @@ export const c7_physics_ch04_p2: SimDef = {
                   options: ['The motion is non-uniform', 'just moving'],
                   hint: 'Review c7_physics_ch04_006 to ensure you can calculate speed correctly before comparing multiple.',
                   misconception: 'Students often believe that if an object is moving forward in a straight line, its motion is automatically uniform because it is "just.' },
-                { id: 'c', prompt: 'Analyze the following distance-time data for a bicycle moving in a straight line: At t=0s, d=0m; at t=2s, d=10m; at t=4s, d=25m; at t=6s, d=45m.', answer: 'The motion is non-uniform',
+                { id: 'c', prompt: 'A toy train travels along a straight track. It covers 12 meters in the first 3 seconds, 12 meters in the next 3 seconds, and 12 meters in the final 3 seconds.', answer: 'Identify given values for each interval: Distance ($d$) = 12 m, Time ($t$) = 3 s',
+                  options: ['Identify given values for each interval: Distance ($d$) = 12 m, Time ($t$) = 3 s', 'just moving'],
+                  hint: 'Review c7_physics_ch04_006 to ensure you can calculate speed correctly before comparing multiple.',
+                  misconception: 'Students often believe that if an object is moving forward in a straight line, its motion is automatically uniform because it is "just.' },
+                { id: 'd', prompt: 'Analyze the following distance-time data for a bicycle moving in a straight line: At t=0s, d=0m; at t=2s, d=10m; at t=4s, d=25m; at t=6s, d=45m.', answer: 'The motion is non-uniform',
                   options: ['The motion is non-uniform', 'just moving'],
                   hint: 'Review c7_physics_ch04_006 to ensure you can calculate speed correctly before comparing multiple.',
                   misconception: 'Students often believe that if an object is moving forward in a straight line, its motion is automatically uniform because it is "just.' }

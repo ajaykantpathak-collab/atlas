@@ -6,7 +6,7 @@ import C10_EconApplicationsRoleCommercialBanksSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_econapplicationsrolecommercialbankssim: SimDef = {
     id: 'v3w_c10_econapplicationsrolecommercialbankssim',
-    title: 'Role of Commercial Banks',
+    title: 'Modern Forms of Money: Currency and Bank Deposits',
     subtitle: 'Covers: (1) Currency – RBI issuance, legal tender status, denominations, fiat nature; (2).',
     classLevel: 10, subject: 'economics', topic: 'Modern Forms of Money: Currency and Bank Deposits',
     chapters: [],

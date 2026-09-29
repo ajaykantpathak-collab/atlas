@@ -19,7 +19,7 @@ export const c11_hin_ar_ch01_p3: SimDef = {
         hook: 'Premchand wrote 1856 from inside 1924 — the \'polite\' annexation mirrors the reformist colonial rhetoric of his own time.',
     },
     teaching: [
-        { title: 'पाठ 1 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) साहित्यिक पाठ का वह विश्लेषणात्मक दृष्टिकोण है जिसमें पाठक पाठ की सतही अर्थ-परत से आगे जाकर उसकी अंतर्निहित मान्यताओं, भाषाई संरचना, विचारधारात्मक अंतर्वस्तु और.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 1 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'इजसेपन\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_01_013', title: 'Your mission',
@@ -28,11 +28,26 @@ export const c11_hin_ar_ch01_p3: SimDef = {
         context: 'Hold the three timelines — 1856 Lucknow, 1924 India, today — and weigh whether shrinking Wajid Ali Shah to a caged bird is a historical error or an artistic necessity.',
         labels: ['पाठ 1 — आलोचनात्मक', 'पाठ 1 — लेखन', 'पाठ 1 — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_01_014', title: 'Identify each idea',
-          dissect: { specimen: 'पाठ 1 · Part 3/3', spots: [
-            { id: 's1', label: '1 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल वह क्षमता है जिसमें छात्र दिए गए गद्य/पद्य अंश का सटीक बोध करके.', answer: '1 -', options: ['1 -', '1 - -'] },
-            { id: 's2', label: '1 - -', prompt: 'Which idea is this? — **वाचन-श्रवण: चर्चा-बिंदु** एक संरचित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी किसी पाठ का.', answer: '1 - -', options: ['1 - -', '1 -'] }
-          ] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_01_013', title: 'पाठ 1 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या',
+          caseStudy: { intro: '\'इजसेपन\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।',
+            decisions: [{ prompt: 'What is the central conflict in "Ud ka Nankshik" between Dr. Vyaksihnhu and the bureaucratic system represented by Aakhaji?', options: [
+                { text: 'The central conflict is between Dr', outcome: 'The central conflict is between Dr. Vyaksihnhu\'s idealistic commitment to genuine service and the.' },
+                { text: 'it\'s about building a hospital', outcome: 'Not quite — Students often think "critical analysis" means finding faults with the story or criticizing.', reveals: 'critical-analysis-means-finding-faults' },
+                { text: 'they dislike each other', outcome: 'Not quite — Students often think "critical analysis" means finding faults with the story or criticizing.', reveals: 'critical-analysis-means-finding-faults' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_01_014', title: 'पाठ 1 — लेखन कौशल: पाठ-आधारित',
+          caseStudy: { intro: '\'इजसेपन\' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।',
+            decisions: [{ prompt: 'What does the \'P\' in PEEL stand for, and what is its specific function in a board exam answer for Hindi literature?', options: [
+                { text: '\'P\' stands for **Point** - a clear, one-sentence thesis statement that directly answers', outcome: '\'P\' stands for **Point** - a clear, one-sentence thesis statement that directly answers the.' },
+                { text: 'Point means the main idea of the story', outcome: 'Not quite — Students believe "good writing" in Hindi literature means using **difficult Sanskritised.', reveals: 'good-writing-in-hindi-literature' },
+                { text: 'good writing', outcome: 'Not quite — Students believe "good writing" in Hindi literature means using **difficult Sanskritised.', reveals: 'good-writing-in-hindi-literature' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_01_015', title: 'पाठ 1 — वाचन-श्रवण: चर्चा-बिंदु',
+          caseStudy: { intro: '\'इजसेपन\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'What is the primary purpose of a \'discussion point\' in a Class 11 speaking and listening activity based on a literary text?', options: [
+                { text: 'A discussion point is a focused, arguable claim about the text that', outcome: 'A discussion point is a focused, arguable claim about the text that a student prepares in advance.' },
+                { text: 'It\'s just my opinion on the story', outcome: 'Not quite — Students believe a discussion is a series of isolated speeches where each person states their.', reveals: 'a-discussion-is-a-series' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_01_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your class is staging a reading of Premchand\'s \'Shatranj ke Khiladi\'. The director wants to stage it as \'a comedy about two chess-obsessed nobles in old Lucknow — period fun, nothing more.\' You sense the 1856 setting is doing heavier work.',
             decisions: [{ prompt: 'What reading should the production take?', options: [
@@ -52,38 +67,53 @@ export const c11_hin_ar_ch01_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) साहित्यिक पाठ का वह विश्लेषणात्मक.',
-          hint: 'यदि अटका हुआ महसूस हो तो **\'बिंब और रूपक\' (c11_hin_ar_cbse_01_008)** और **\'विरोधाभास और.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि आलोचनात्मक चिंतन में **"अपनी राय देना" (giving personal opinion)** ही मुख्य.',
+          question: '\'इजसेपन\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+          hint: 'Review the distinction between "what the text says" vs "what the text means" using.',
+          misconception: 'Students often think "critical analysis" means finding faults with the story or criticizing characters\' decisions.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) साहित्यिक पाठ का वह विश्लेषणात्मक दृष्टिकोण है',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) साहित्यिक पाठ का वह विश्लेषणात्मक दृष्टिकोण है', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो'],
-                  hint: 'यदि अटका हुआ महसूस हो तो **\'बिंब और रूपक\' (c11_hin_ar_cbse_01_008)** और **\'विरोधाभास और प्रतीक\'.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि आलोचनात्मक चिंतन में **"अपनी राय देना" (giving personal opinion)** ही मुख्य कार्य है — जैसे "मुझे.' }
+                { id: 'a', prompt: 'What is the central conflict in "Ud ka Nankshik" between Dr. Vyaksihnhu and the bureaucratic system represented by Aakhaji?', answer: 'The central conflict is between Dr',
+                  options: ['The central conflict is between Dr', 'it\'s about building a hospital', 'they dislike each other', 'critical analysis'],
+                  hint: 'Review the distinction between "what the text says" vs "what the text means" using a simple fable.',
+                  misconception: 'Students often think "critical analysis" means finding faults with the story or criticizing characters\' decisions. They write "Dr.' }
           ],
-            remediations: { 'giving-personal-opinion-textual-evidence': { steps: ['**चरण 1 — भेद स्पष्ट करें:** छात्र से कहें: "दो वाक्य लिखो: (अ) \'मुझे यह कविता पसंद नहीं आई\' (ब) \'कविता की छंद-मुक्त.', 'लेखक ने *यही* शब्द क्यों चुना, उसका पर्यायवाची क्यों नहीं?', 'यदि यह शब्द बदल दिया जाए तो अर्थ कैसे बदलेगा?" — इससे \'राय\' की आदत \'विश्लेषण\' की आदत में बदलती है।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-finding-faults': { steps: ['Clarify the meaning of "critical" in academic context—it means analytical, not negative.', 'Model the difference: Show a "criticism" ("I didn\'t like the ending") vs.', '"critical analysis" ("The ending serves to highlight the impossibility of integrity in a corrupt system").', 'Practice with a परिचित text (e.g., a well-known movie scene)—ask "What is the filmmaker trying to say?" not "Was this.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_013', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often think "critical analysis" means finding faults with the story or criticizing characters\' decisions.',
+          parts: [
+                { id: 'a', prompt: 'Critique the story\'s ending: Is Dr. Vyaksihnhu\'s resignation a moral victory or a practical failure? Defend your position with textual evidence.', answer: 'It is a moral victory',
+                  options: ['It is a moral victory', 'critical analysis', 'critical', 'critical thinking'],
+                  hint: 'Review the distinction between "what the text says" vs "what the text means" using a simple fable.',
+                  misconception: 'Students often think "critical analysis" means finding faults with the story or criticizing characters\' decisions. They write "Dr.' }
+          ],
+            remediations: { 'critical-analysis-means-finding-faults': { steps: ['Clarify the meaning of "critical" in academic context—it means analytical, not negative.', 'Model the difference: Show a "criticism" ("I didn\'t like the ending") vs.', '"critical analysis" ("The ending serves to highlight the impossibility of integrity in a corrupt system").', 'Practice with a परिचित text (e.g., a well-known movie scene)—ask "What is the filmmaker trying to say?" not "Was this.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल वह क्षमता है जिसमें छात्र दिए गए गद्य/पद्य अंश का सटीक बोध.',
-          hint: 'यदि फँसें तो **c11_hin_ar_cbse_01_013 (आलोचनात्मक चिंतन)** के \'बिंब/प्रतीक विश्लेषण\' और.',
-          misconception: '**विशिष्ट भ्रांति:** "पाठ-आधारित उत्तर लिखने का अर्थ है पाठ के महत्त्वपूर्ण अंशों को **याद करके हूबहू उतार देना** (rote.',
+          question: '\'इजसेपन\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+          hint: 'If stuck, review c11_hin_ar_cbse_01_013 (Critical Thinking) to practice extracting.',
+          misconception: 'Students believe "good writing" in Hindi literature means using **difficult Sanskritised vocabulary** (e.g., "प्रतिफल".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह क्षमता है जिसमें छात्र दिए गए गद्य/पद्य अंश का सटीक बोध करके,',
-                  options: ['पाठ-आधारित लेखन कौशल वह क्षमता है जिसमें छात्र दिए गए गद्य/पद्य अंश का सटीक बोध करके,', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो'],
-                  hint: 'यदि फँसें तो **c11_hin_ar_cbse_01_013 (आलोचनात्मक चिंतन)** के \'बिंब/प्रतीक विश्लेषण\' और \'विषय.',
-                  misconception: '**विशिष्ट भ्रांति:** "पाठ-आधारित उत्तर लिखने का अर्थ है पाठ के महत्त्वपूर्ण अंशों को **याद करके हूबहू उतार देना** (rote reproduction)।".' }
+                { id: 'a', prompt: 'Apply the PEEL framework to answer: "उद का नक्शा में व्याकुल व्यासिंह का चरित्र-चित्रण कीजिए।" Write only the **Point** and **Evidence** sentences for the.', answer: '**Point:** व्याकुल व्यासिंह का चरित्र निडरता और स्वाभिमान की प्रतिमूर्ति है।',
+                  options: ['**Point:** व्याकुल व्यासिंह का चरित्र निडरता और स्वाभिमान की प्रतिमूर्ति है।', 'वह बहुत बहादुर थे', 'good writing', 'प्रतिफल'],
+                  hint: 'If stuck, review c11_hin_ar_cbse_01_013 (Critical Thinking) to practice extracting analytical.',
+                  misconception: 'Students believe "good writing" in Hindi literature means using **difficult Sanskritised vocabulary** (e.g., "प्रतिफल" instead of "परिणाम".' },
+                { id: 'b', prompt: 'Compare these two Explanation sentences for the same evidence (Vyaksihnhu quitting job): (A) "इससे पता चलता है कि वे डरे नहीं।" (B) "नौकरी त्यागकर व्यासिंह ने.', answer: '**(B)** meets Class 11 depth',
+                  options: ['**(B)** meets Class 11 depth', 'good writing', 'प्रतिफल', 'परिणाम'],
+                  hint: 'If stuck, review c11_hin_ar_cbse_01_013 (Critical Thinking) to practice extracting analytical.',
+                  misconception: 'Students believe "good writing" in Hindi literature means using **difficult Sanskritised vocabulary** (e.g., "प्रतिफल" instead of "परिणाम".' }
           ],
-            remediations: { 'rote-reproduction-10': { steps: ['**चरणबद्ध उपचार:** 1) छात्र से कहें: "पाठ बंद करो। प्रश्न को तीन बार पढ़ो और की-वर्ड (विश्लेषण/तुलना/समीक्षा) को घेरे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'good-writing-in-hindi-literature': { steps: ['**Diagnose:** Ask the student to underline every "fancy word" in their last answer and replace each with the simplest.', 'If meaning stays intact, the fancy word was decorative, not analytical.', '**Retrain:** Give a 3-sentence weak answer loaded with Sanskritised words.', 'Have the student rewrite it using *only* words from the NCERT textbook glossary (शब्द-कोश) - this forces precision over.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_015', difficulty: 'standard',
-          question: '**वाचन-श्रवण: चर्चा-बिंदु** एक संरचित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी.',
-          hint: 'यदि अटके हों तो **c11_hin_ar_cbse_01_013 (आलोचनात्मक चिंतन)** के \'व्याख्या बनाम राय\'.',
-          misconception: '**विशिष्ट भ्रांति:** *"चर्चा-बिंदु का अर्थ है — पाठ पर अपनी \'राय\' (opinion) दे देना। साक्ष्य की आवश्यकता नहीं; जो मन.',
+          question: '\'इजसेपन\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।',
+          hint: 'If stuck, review the \'Critical Thinking: Analysis and Interpretation\' node.',
+          misconception: 'Students believe a discussion is a series of isolated speeches where each person states their opinion.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**वाचन-श्रवण: चर्चा-बिंदु** एक संरचित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी किसी पाठ का',
-                  options: ['**वाचन-श्रवण: चर्चा-बिंदु** एक संरचित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी किसी पाठ का', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो'],
-                  hint: 'यदि अटके हों तो **c11_hin_ar_cbse_01_013 (आलोचनात्मक चिंतन)** के \'व्याख्या बनाम राय\' अभ्यास और.',
-                  misconception: '**विशिष्ट भ्रांति:** *"चर्चा-बिंदु का अर्थ है — पाठ पर अपनी \'राय\' (opinion) दे देना। साक्ष्य की आवश्यकता नहीं; जो मन में आए बोल दो।"* **यह.' }
+                { id: 'a', prompt: 'What is the primary purpose of a \'discussion point\' in a Class 11 speaking and listening activity based on a literary text?', answer: 'A discussion point is a focused, arguable claim about the text that',
+                  options: ['A discussion point is a focused, arguable claim about the text that', 'It\'s just my opinion on the story'],
+                  hint: 'If stuck, review the \'Critical Thinking: Analysis and Interpretation\' node (c11_hin_ar_cbse_01_013).',
+                  misconception: 'Students believe a discussion is a series of isolated speeches where each person states their opinion.' }
           ],
-            remediations: { 'opinion': { steps: ['**लक्षित उपचार (4 चरण):** 1.', '**भेद स्पष्ट करें:** छात्र को दो कथन दें — (क) *"मुझे यह पसंद नहीं आया"* (राय), (ख) *"लेखक ने रूपक X का प्रयोग कर.', '**साक्ष्य-खोज अभ्यास:** पाठ 1 का एक विवादास्पद प्रसंग दें (जैसे: नायक का पत्र फाड़ना)। कहें: *"पाठ से **ठीक दो वाक्य**.', '**तर्क-मानचित्रण:** श्यामपट पर T-चार्ट बनाएं — बाएँ स्तंभ में \'दावा\', दाएँ में \'पाठ्य-साक्ष्य + तर्क\'। छात्र से अपने.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-discussion-is-a-series': { steps: ['Model a 3-turn mini-discussion with a volunteer: You make a claim with evidence → Student responds by referencing your.', 'Give the student a \'Discussion Tracker\' sheet with columns: \'Peer\'s Point\', \'Evidence They Used\', \'My Response.', 'Practice with a low-stakes topic (e.g., "Should the village have supported Vyaksihnhu?") using the tracker.', 'Debrief: "Notice how your response changed when you had to write down their evidence first."'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

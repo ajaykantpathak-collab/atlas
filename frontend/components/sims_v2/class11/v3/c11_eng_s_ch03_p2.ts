@@ -19,7 +19,7 @@ export const c11_eng_s_ch03_p2: SimDef = {
         hook: 'The body-swap isn\'t magic solving a problem — it\'s the visible shape of a decision: \'this is where your foot goes down.\'',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the supporting ideas in a literary work that complement the primary theme by exploring specific aspects of human experience, social structures, or character dynamics;.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Mother\'s Day\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_s_cbse_03_007', title: 'Your mission',
@@ -29,28 +29,28 @@ export const c11_eng_s_ch03_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_03_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are directing a stage production of "Mother\'s Day". The script says Mrs. Pearson speaks in a "light, flurried sort of tone" while Mrs.',
+          caseStudy: { intro: 'Find the lines in \'Mother\'s Day\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Identify the **type of imagery** in the stage direction: "Mrs Fitzgerald is older, heavier and a strong and sinister personality.', options: [
                 { text: '**Answer:** Visual imagery ("older, heavier"), tactile/kinesthetic implication', outcome: '**Answer:** Visual imagery ("older, heavier"), tactile/kinesthetic implication ("strong"), and.' },
                 { text: 'visual', outcome: 'Not quite — **Misconception:** "Imagery is only descriptive writing that paints a picture; metaphor is only.', reveals: 'misconception-imagery-is-only-descriptive' },
                 { text: 'smoking', outcome: 'Not quite — **Misconception:** "Imagery is only descriptive writing that paints a picture; metaphor is only.', reveals: 'misconception-imagery-is-only-descriptive' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_03_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading the play and encounter "sinister" describing Mrs.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Mother\'s Day\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the primary purpose of analyzing vocabulary in context when studying a play like "Mother\'s Day"?', options: [
                 { text: 'The primary purpose is to understand how word choices reveal character personality,', outcome: 'The primary purpose is to understand how word choices reveal character personality, social.' },
                 { text: 'to memorize definitions for the exam', outcome: 'Not quite — Students believe "vocabulary in context" means guessing a word\'s dictionary definition from nearby.', reveals: 'vocabulary-in-context-means-guessing' },
                 { text: 'vocabulary in context', outcome: 'Not quite — Students believe "vocabulary in context" means guessing a word\'s dictionary definition from nearby.', reveals: 'vocabulary-in-context-means-guessing' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_03_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Think about how your tone changes when you ask a sibling for a favor versus when a teacher gives an instruction. In "Mother\'s Day," J.B.',
+          caseStudy: { intro: 'Read \'Mother\'s Day\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the sentence type of Mrs Fitzgerald\'s line: "Put your foot down, once an\' for all, an\' be the mistress of your own house an\' the.', options: [
                 { text: 'Imperative sentence (command)', outcome: 'Imperative sentence (command). A wrong answer (e.g., "declarative" or "interrogative") reveals the.' },
                 { text: 'declarative', outcome: 'Not quite — Students treat "grammar in literature" as labeling parts of speech (noun, verb, adjective) rather.', reveals: 'students-treat-grammar-in-literature' },
                 { text: 'interrogative', outcome: 'Not quite — Students treat "grammar in literature" as labeling parts of speech (noun, verb, adjective) rather.', reveals: 'students-treat-grammar-in-literature' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_03_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are asked: "Why does Mrs Pearson suddenly start smoking and playing cards?" A literal answer would quote the stage direction; an inferential answer.',
+          caseStudy: { intro: 'Answer \'Mother\'s Day\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the primary difference between a literal comprehension question and an inferential comprehension question?', options: [
                 { text: 'A literal question\'s answer is directly stated in the text (e.g., "What is Mrs Pearson', outcome: 'A literal question\'s answer is directly stated in the text (e.g., "What is Mrs Pearson doing when.' },
                 { text: 'inferential questions are just opinions', outcome: 'Not quite — Students often think inferential questions have no "right" answer and that any personal opinion.', reveals: 'inferential-questions-have-no-right' }
@@ -74,12 +74,12 @@ export const c11_eng_s_ch03_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_007', difficulty: 'standard',
-          question: 'Secondary themes are the supporting ideas in a literary work that complement.',
+          question: 'Secondary themes in \'Mother\'s Day\' — the supporting ideas and motifs that.',
           hint: 'Review the primary theme node (c11_eng_s_cbse_03_006) and re-read the character analysis.',
           misconception: 'Students often treat any recurring topic (e.g., "smoking," "card games," "the club") as a secondary theme.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the supporting ideas in a literary work that complement the primary',
-                  options: ['Secondary themes are the supporting ideas in a literary work that complement the primary', '"Before You Read: Context and Background" refers to the essential historical, social, and', 'Plot and narrative structure in drama refers to the organized sequence of events and the', 'Setting refers to the time, place, and physical environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes in \'Mother\'s Day\'',
+                  options: ['Secondary themes in \'Mother\'s Day\'', '\'Mother\'s Day\' (Snapshots, ch', 'The plot/narrative arc of \'Mother\'s Day\'', 'The setting of \'Mother\'s Day\''],
                   hint: 'Review the primary theme node (c11_eng_s_cbse_03_006) and re-read the character analysis of Mrs.',
                   misconception: 'Students often treat any recurring topic (e.g., "smoking," "card games," "the club") as a secondary theme.' }
           ],
@@ -96,7 +96,7 @@ export const c11_eng_s_ch03_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-any-recurring': { steps: ['Give the student a two-column table: Column A = Recurring Topics (smoking, cards, club, stout, ironing), Column.', 'Ask them to match each topic to an insight using the sentence frame: "The play suggests that [topic] represents.', 'Have them write one paragraph explaining how the matched insight supports the primary theme.', 'This moves them from noun-hunting to thematic reasoning.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Mother\'s Day\' — the vivid, sensory language that creates.',
           hint: 'If stuck on metaphor mechanics, review **c10_engl_cbse_16_007** (The Necklace: "diamond.',
           misconception: '**Misconception:** "Imagery is only descriptive writing that paints a picture; metaphor is only a fancy comparison.',
           parts: [
@@ -119,18 +119,18 @@ export const c11_eng_s_ch03_p2: SimDef = {
           ],
             remediations: { 'misconception-imagery-is-only-descriptive': { steps: ['**Re-teach device clustering:** Give the student the "servant" passage (lines 1–2 of Mrs.', 'Fitzgerald\'s first long speech).', 'Ask them to: (a) underline every sensory word, (b) circle the comparison, (c) draw an arrow from sensory words to the.', '**Model the "transfer" question:** "What does \'servant\' carry over?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_009', difficulty: 'standard',
-          question: 'Irony is a literary device where there is a contrast between expectation and.',
+          question: 'Irony and paradox in \'Mother\'s Day\' — where opposite things are both true,.',
           hint: 'Review the definitions and Class 10/8 examples in c10_engl_cbse_01_007 and c8_engl_ch4_8.',
           misconception: 'Students often treat the body-swap as mere supernatural fantasy and therefore miss its function as *sustained dramatic.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where there is a contrast between expectation and reality,',
-                  options: ['Irony is a literary device where there is a contrast between expectation and reality,', '"Before You Read: Context and Background" refers to the essential historical, social, and', 'Plot and narrative structure in drama refers to the organized sequence of events and the', 'Setting refers to the time, place, and physical environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'Mother\'s Day\'',
+                  options: ['Irony and paradox in \'Mother\'s Day\'', '\'Mother\'s Day\' (Snapshots, ch', 'The plot/narrative arc of \'Mother\'s Day\'', 'The setting of \'Mother\'s Day\''],
                   hint: 'Review the definitions and Class 10/8 examples in c10_engl_cbse_01_007 and c8_engl_ch4_8; practice.',
                   misconception: 'Students often treat the body-swap as mere supernatural fantasy and therefore miss its function as *sustained dramatic irony*: every scene.' }
           ],
             remediations: { 'students-often-treat-the-body': { steps: ['Re-read the swap scene (pp.', '17–18) and highlight every stage direction showing *both* women\'s physical reactions — this grounds the magic in bodily.', 'Make a two-column table: Column A = "What the family thinks is happening", Column B = "What the audience knows" — fill.', 'For symbols, use the "object → abstract idea → thematic function" template on three objects (cards, cigarettes, rummy.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the precise meaning of words.',
+          question: 'Key vocabulary of \'Mother\'s Day\' — the words and phrases you must know to read.',
           hint: 'Review c11_eng_s_cbse_03_004 and c11_eng_s_cbse_03_005 to recall each character\'s.',
           misconception: 'Students believe "vocabulary in context" means guessing a word\'s dictionary definition from nearby sentences.',
           parts: [
@@ -145,7 +145,7 @@ export const c11_eng_s_ch03_p2: SimDef = {
           ],
             remediations: { 'vocabulary-in-context-means-guessing': { steps: ['If a student cannot distinguish contextual meaning from dictionary meaning: 1) Have them create a three-column chart.', '2) For each word, ask: "How does the body-swap change what this word *does* in the scene?" 3) Practice with.', 'Pearson before swap) — same character, opposite stances.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_011', difficulty: 'standard',
-          question: 'Language usage analysis examines how grammatical choices—sentence types, modal.',
+          question: 'Language and style in \'Mother\'s Day\' — how the writer chose words, sentences.',
           hint: 'Review Class 6-8 grammar: sentence types (c6_english_u4_038) and modal verbs.',
           misconception: 'Students treat "grammar in literature" as labeling parts of speech (noun, verb, adjective) rather than analyzing how.',
           parts: [
@@ -156,7 +156,7 @@ export const c11_eng_s_ch03_p2: SimDef = {
           ],
             remediations: { 'students-treat-grammar-in-literature': { steps: ['Give the student two columns: "Form" (grammatical structure) and "Force" (what it does in context).', 'Have them fill it for 5 key exchanges from the play (e.g., Doris\'s "Mum—you\'ll have to..." → Form: semi-modal.', 'Ask: "If we change Form X to Form Y, how does Force change?" (e.g., "You\'ll have to" → "Could you please").', 'Require them to rewrite one scene swapping all modality (can\'t→won\'t, must→might) and discuss the character.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'Mother\'s Day\' — questions answered straight from the.',
           hint: 'If stuck, review the "Character Analysis: Protagonist" (node 004) and "Literary Devices.',
           misconception: 'Students often think inferential questions have no "right" answer and that any personal opinion counts.',
           parts: [

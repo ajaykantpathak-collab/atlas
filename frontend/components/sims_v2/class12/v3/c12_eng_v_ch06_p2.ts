@@ -19,44 +19,44 @@ export const c12_eng_v_ch06_p2: SimDef = {
         hook: 'The haircut was cultural annihilation, not hygiene — among her people only mourners and captured cowards were shingled. And the packet carried by its string was pollution theory performed in public. Each scene is evidence, not anecdote; read the system inside the memory.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the supporting ideas, motifs, and concerns that run alongside the primary theme in a literary work, enriching its texture and providing multiple layers of meaning; in "Memories.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Memories of Childhood\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_06_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Cross two worlds of enforced shame: decode the Carlisle school\'s bells and scissors beside a Tamil village\'s rules of touch — and weigh Judewin\'s submission against Annan\'s counsel to study and fight.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_06_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re sitting in the examination hall and the question asks: "Compare how the theme of \'education as a tool of liberation\' appears in both extracts.".',
+          caseStudy: { intro: 'Look beneath the main theme of \'Memories of Childhood\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'List any three secondary themes present in both "The Cutting of My Long Hair" and "We Too Are Human Beings."', options: [
                 { text: 'Correct answer: Cultural erasure/loss of identity (hair cutting / caste pollution rules),', outcome: 'Correct answer: Cultural erasure/loss of identity (hair cutting / caste pollution rules), childhood.' },
                 { text: 'little animals driven by a herder', outcome: 'Not quite — Students consistently treat "secondary themes" as "minor themes" — assuming they are less important.', reveals: 'students-consistently-treat-secondary-themes' },
                 { text: 'pollution', outcome: 'Not quite — Students consistently treat "secondary themes" as "minor themes" — assuming they are less important.', reveals: 'students-consistently-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_06_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are watching a film of your own most painful childhood memory — what do you *see* (the colour of the walls), *hear* (the sound of a bell), *feel*.',
+          caseStudy: { intro: 'Find the lines in \'Memories of Childhood\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "imagery" and "metaphor" in your own words. Give one example of each from *any* text you have studied previously (Class 6–11).', options: [
                 { text: '**Correct Answer:** Imagery is descriptive language that appeals to the senses (sight,', outcome: '**Correct Answer:** Imagery is descriptive language that appeals to the senses (sight, sound.' },
                 { text: 'like a thief', outcome: 'Not quite — **Students think "imagery" means only visual description (pictures in the mind) and that "metaphor".', reveals: 'students-think-imagery-means-only' },
                 { text: 'imagery', outcome: 'Not quite — **Students think "imagery" means only visual description (pictures in the mind) and that "metaphor".', reveals: 'students-think-imagery-means-only' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_06_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are reading Bama\'s description of the elder carrying the vadai packet by its string — at first it looks funny, but your brother explains it\'s.',
+          caseStudy: { intro: 'Look in \'Memories of Childhood\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define situational irony and give one example from Zitkala-Sa\'s narrative where the outcome is the opposite of what the character intends.', options: [
                 { text: 'Situational irony occurs when actions produce an outcome contrary to what was intended or', outcome: 'Situational irony occurs when actions produce an outcome contrary to what was intended or expected.' },
                 { text: 'the hair cutting is sad', outcome: 'Not quite — Students often confuse irony with coincidence or bad luck. For example, they label Zitkala-Sa\'s.', reveals: 'students-often-confuse-irony-with' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_06_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Have you ever noticed how a writer\'s choice of "I was dragged" instead of "They dragged me" makes you feel the victim\'s helplessness more sharply?',
+          caseStudy: { intro: 'Read \'Memories of Childhood\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the tense and voice of the verb phrase "had been stripped" in the sentence "my blanket had been stripped from my shoulders" from.', options: [
                 { text: 'The verb phrase "had been stripped" is in the past perfect passive voice', outcome: 'The verb phrase "had been stripped" is in the past perfect passive voice.' },
                 { text: 'simple past passive', outcome: 'Not quite — Students often treat "grammar analysis" as labelling parts of speech or tenses without linking.', reveals: 'students-often-treat-grammar-analysis' },
                 { text: 'past perfect active', outcome: 'Not quite — Students often treat "grammar analysis" as labelling parts of speech or tenses without linking.', reveals: 'students-often-treat-grammar-analysis' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_06_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you receive a text from a friend: "I\'m fine." The **literal** meaning is exactly those words.',
+          caseStudy: { intro: 'Answer \'Memories of Childhood\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the **explicit reason** Zitkala-Sa gives for hiding under the bed on her first day at the Carlisle school?', options: [
                 { text: 'Correct answer: She hides', outcome: 'Correct answer: She hides because her friend Judewin warned her that the authorities plan to cut.' },
                 { text: 'She was scared of the bell', outcome: 'Not quite — Students treat inferential questions as **"write your opinion"** and give answers like "Zitkala-Sa.', reveals: 'students-treat-inferential-questions-as' },
@@ -76,12 +76,12 @@ export const c12_eng_v_ch06_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_06_007', difficulty: 'standard',
-          question: 'Secondary themes are the supporting ideas, motifs, and concerns that run.',
+          question: 'Secondary themes in \'Memories of Childhood\' — the supporting ideas and motifs.',
           hint: 'If stuck, return to c12_eng_v_cbse_06_006 and re-do the "Theme-Evidence Mapping" exercise.',
           misconception: 'Students consistently treat "secondary themes" as "minor themes" — assuming they are less important or less examinable.',
           parts: [
@@ -90,9 +90,9 @@ export const c12_eng_v_ch06_p2: SimDef = {
                   hint: 'If stuck, return to c12_eng_v_cbse_06_006 and re-do the "Theme-Evidence Mapping" exercise for the.',
                   misconception: 'Students consistently treat "secondary themes" as "minor themes" — assuming they are less important or less examinable.' }
           ],
-            remediations: { 'students-consistently-treat-secondary-themes': { steps: ['If a student cannot distinguish primary from secondary themes or finds no textual evidence: (1) Have them re-read both.', '(2) Use the "Theme-Evidence Table" template: Column A = Theme Name, Column B = Zitkala-Sa quote, Column C = Bama quote.', '(3) Assign a micro-task: "Find three moments where a child notices something an adult ignores" — this unlocks the.', '(4) Re-diagnose with Diagnostic Question 2 after 48 hours to check retention.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-consistently-treat-secondary-themes': { steps: ['If a student cannot distinguish primary from secondary themes or finds no textual evidence: (1) Have them re-read both.', '(2) Use the "Theme-Evidence Table" template: Column A = Theme Name, Column B = Zitkala-Sa quote, Column C = Bama quote.', '(3) Assign a micro-task: "Find three moments where a child notices something an adult ignores" — this unlocks the.', '(4) Re-diagnose with Diagnostic Question 2 after 48 hours to check retention.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_06_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Memories of Childhood\' — the vivid, sensory language that creates.',
           hint: 'If unsure about tenor/vehicle or sensory modes, review **c11_eng_h_cbse_01_008** (Class.',
           misconception: '**Students think "imagery" means only visual description (pictures in the mind) and that "metaphor" is just decorative.',
           parts: [
@@ -105,7 +105,7 @@ export const c12_eng_v_ch06_p2: SimDef = {
                   hint: 'If unsure about tenor/vehicle or sensory modes, review **c11_eng_h_cbse_01_008** (Class 11 Imagery.',
                   misconception: '**Students think "imagery" means only visual description (pictures in the mind) and that "metaphor" is just decorative language.** *Why.' }
           ],
-            remediations: { 'students-think-imagery-means-only': { steps: ['**Revisit sensory classification:** Take the Zitkala-Sa extract (para 1) and highlight every word appealing to sound.', '**Metaphor surgery:** Pick one metaphor (e.g., "bedlam").', 'Write: Tenor = ___; Vehicle = ___; Ground (shared quality) = ___; Cultural baggage of vehicle = ___.', '**Re-diagnostic:** Retry Diagnostic Questions 2 and 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-think-imagery-means-only': { steps: ['**Revisit sensory classification:** Take the Zitkala-Sa extract (para 1) and highlight every word appealing to sound.', '**Metaphor surgery:** Pick one metaphor (e.g., "bedlam").', 'Write: Tenor = ___; Vehicle = ___; Ground (shared quality) = ___; Cultural baggage of vehicle = ___.', '**Re-diagnostic:** Retry Diagnostic Questions 2 and 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_06_008', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -116,31 +116,31 @@ export const c12_eng_v_ch06_p2: SimDef = {
                   hint: 'If unsure about tenor/vehicle or sensory modes, review **c11_eng_h_cbse_01_008** (Class 11 Imagery.',
                   misconception: '**Students think "imagery" means only visual description (pictures in the mind) and that "metaphor" is just decorative language.** *Why.' }
           ],
-            remediations: { 'students-think-imagery-means-only': { steps: ['**Revisit sensory classification:** Take the Zitkala-Sa extract (para 1) and highlight every word appealing to sound.', '**Metaphor surgery:** Pick one metaphor (e.g., "bedlam").', 'Write: Tenor = ___; Vehicle = ___; Ground (shared quality) = ___; Cultural baggage of vehicle = ___.', '**Re-diagnostic:** Retry Diagnostic Questions 2 and 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-think-imagery-means-only': { steps: ['**Revisit sensory classification:** Take the Zitkala-Sa extract (para 1) and highlight every word appealing to sound.', '**Metaphor surgery:** Pick one metaphor (e.g., "bedlam").', 'Write: Tenor = ___; Vehicle = ___; Ground (shared quality) = ___; Cultural baggage of vehicle = ___.', '**Re-diagnostic:** Retry Diagnostic Questions 2 and 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_06_009', difficulty: 'standard',
-          question: 'Irony is a literary device where there is a contrast between expectation and.',
+          question: 'Irony and paradox in \'Memories of Childhood\' — where opposite things are both.',
           hint: 'If stuck, review Class 11 Hornbill Chapter 1 Literary Devices: Irony and Symbolism.',
           misconception: 'Students often confuse irony with coincidence or bad luck. For example, they label Zitkala-Sa\'s hair cutting.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where there is a contrast between expectation and reality',
-                  options: ['Irony is a literary device where there is a contrast between expectation and reality', 'The "Before You Read: Context and Background" section for "Memories of Childhood"', 'Plot and Narrative Structure refers to the sequence of events in a story and the', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'Memories of Childhood\'',
+                  options: ['Irony and paradox in \'Memories of Childhood\'', '\'Memories of Childhood\' (Vistas, ch', 'The plot/narrative arc of \'Memories of Childhood\'', 'The setting of \'Memories of Childhood\''],
                   hint: 'If stuck, review Class 11 Hornbill Chapter 1 Literary Devices: Irony and Symbolism.',
                   misconception: 'Students often confuse irony with coincidence or bad luck. For example, they label Zitkala-Sa\'s hair cutting as "ironic" simply because.' }
           ],
-            remediations: { 'students-often-confuse-irony-with': { steps: ['Revisit the definitions: write one sentence each for situational, dramatic, and verbal irony with a non-text example.', 'Reread the two key scenes (hair cutting, vadai packet) and annotate: "What did the character expect?" vs "What.', 'Practice with a simpler text: use the Class 10 "A Letter to God" (c10_engl_cbse_01_007) where Lencho\'s faith brings him.', 'Return to "Memories of Childhood" and write a 4-sentence PEEL paragraph for one irony and one symbol.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-irony-with': { steps: ['Revisit the definitions: write one sentence each for situational, dramatic, and verbal irony with a non-text example.', 'Reread the two key scenes (hair cutting, vadai packet) and annotate: "What did the character expect?" vs "What.', 'Practice with a simpler text: use the Class 10 "A Letter to God" (c10_engl_cbse_01_007) where Lencho\'s faith brings him.', 'Return to "Memories of Childhood" and write a 4-sentence PEEL paragraph for one irony and one symbol.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_06_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the meaning of unfamiliar.',
+          question: 'Key vocabulary of \'Memories of Childhood\' — the words and phrases you must know.',
           hint: 'If stuck, review Class 11 Hornbill Chapter 1 "The Portrait of a Lady" vocabulary node.',
           misconception: 'Students treat vocabulary-in-context questions as "find the synonym" exercises.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context is the skill of determining the meaning of unfamiliar words by',
-                  options: ['Vocabulary in Context is the skill of determining the meaning of unfamiliar words by', 'The "Before You Read: Context and Background" section for "Memories of Childhood"', 'Plot and Narrative Structure refers to the sequence of events in a story and the', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Key vocabulary of \'Memories of Childhood\'',
+                  options: ['Key vocabulary of \'Memories of Childhood\'', '\'Memories of Childhood\' (Vistas, ch', 'The plot/narrative arc of \'Memories of Childhood\'', 'The setting of \'Memories of Childhood\''],
                   hint: 'If stuck, review Class 11 Hornbill Chapter 1 "The Portrait of a Lady" vocabulary node.',
                   misconception: 'Students treat vocabulary-in-context questions as "find the synonym" exercises.' }
           ],
-            remediations: { 'students-treat-vocabulary-in-context': { steps: ['Have the student re-read the "bedlam" paragraph aloud, circling every sensory word (metallic, clatter, clash.', 'Ask: "Which sense does each word appeal to?', 'How does the pile-up of sensory words create the meaning of \'bedlam\'?" 2.', 'For "shingled," have them draw two quick sketches: one of "short hair" (neutral) and one of "shingled hair" (blunt.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-vocabulary-in-context': { steps: ['Have the student re-read the "bedlam" paragraph aloud, circling every sensory word (metallic, clatter, clash.', 'Ask: "Which sense does each word appeal to?', 'How does the pile-up of sensory words create the meaning of \'bedlam\'?" 2.', 'For "shingled," have them draw two quick sketches: one of "short hair" (neutral) and one of "shingled hair" (blunt.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_06_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the systematic analysis of how.',
+          question: 'Language and style in \'Memories of Childhood\' — how the writer chose words.',
           hint: 'If stuck on tense/voice identification, review the verb phrase structure table.',
           misconception: 'Students often treat "grammar analysis" as labelling parts of speech or tenses without linking to authorial intent.',
           parts: [
@@ -149,9 +149,9 @@ export const c12_eng_v_ch06_p2: SimDef = {
                   hint: 'If stuck on tense/voice identification, review the verb phrase structure table in c6_english_u2_018.',
                   misconception: 'Students often treat "grammar analysis" as labelling parts of speech or tenses without linking to authorial intent.' }
           ],
-            remediations: { 'students-often-treat-grammar-analysis': { steps: ['Revisit the distinction between tense (time) and aspect (viewpoint on time) using c6_english_u2_018 (Tenses) and.', 'Practice converting 5 active sentences from the text to passive and vice versa, then articulate the shift.', 'Complete a focused exercise: highlight every verb in a 50-word segment, label tense/voice, and write one sentence per.', 'Re-attempt Diagnostic Question 4 as a check.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-grammar-analysis': { steps: ['Revisit the distinction between tense (time) and aspect (viewpoint on time) using c6_english_u2_018 (Tenses) and.', 'Practice converting 5 active sentences from the text to passive and vice versa, then articulate the shift.', 'Complete a focused exercise: highlight every verb in a 50-word segment, label tense/voice, and write one sentence per.', 'Re-attempt Diagnostic Question 4 as a check.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_06_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve information.',
+          question: 'Literal comprehension of \'Memories of Childhood\' — questions answered straight.',
           hint: 'Review **c12_eng_v_cbse_06_002 (Plot)** for event mapping and **c12_eng_v_cbse_06_004.',
           misconception: 'Students treat inferential questions as **"write your opinion"** and give answers like "Zitkala-Sa hid because she was.',
           parts: [
@@ -168,7 +168,7 @@ export const c12_eng_v_ch06_p2: SimDef = {
                   hint: 'Review **c12_eng_v_cbse_06_002 (Plot)** for event mapping and **c12_eng_v_cbse_06_004 (Character)**.',
                   misconception: 'Students treat inferential questions as **"write your opinion"** and give answers like "Zitkala-Sa hid because she was a rebellious child".' }
           ],
-            remediations: { 'students-treat-inferential-questions-as': { steps: ['**Re-read** the two extracts with two highlighters: **yellow** for explicit facts (who, what, when, where), **pink**.', '**Practice classification**: Take the "Reading with Insight" questions at chapter-end and label each L or I.', '**Write one-sentence answers** for three literal questions using **only quoted phrases**.', '**Write one inferential answer** using the template: "The text shows _____ (clue 1) and _____ (clue 2), so it suggests.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-inferential-questions-as': { steps: ['**Re-read** the two extracts with two highlighters: **yellow** for explicit facts (who, what, when, where), **pink**.', '**Practice classification**: Take the "Reading with Insight" questions at chapter-end and label each L or I.', '**Write one-sentence answers** for three literal questions using **only quoted phrases**.', '**Write one inferential answer** using the template: "The text shows _____ (clue 1) and _____ (clue 2), so it suggests.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -19,29 +19,29 @@ export const c12_eng_f_ch07_p3: SimDef = {
         hook: 'The interview is both \'supremely serviceable\' and an \'ordeal\' — Carroll feared being lionised, Kipling called it assault, yet the same medium lets Eco unpack semiotics on a Sunday. It\'s a genre with two faces, and this chapter is a commentary on the genre itself.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the systematic process of examining a text\'s explicit and implicit meanings, evaluating the author\'s perspectives and techniques, and synthesizing evidence.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Interview\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_07_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Dissect the interview as a form: weigh 130 years of celebrity objections against Denis Brian\'s defence, then run Eco\'s \'interstices\' over your own day — and script an interview with signallers that actually flows.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_07_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re watching a talk show where a celebrity suddenly gets defensive when asked a personal question — why do some people see interviews as "assault".',
+          caseStudy: { intro: 'Analyse \'The Interview\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'In Part I, Silvester writes: "Some might make quite extravagant claims for it as being, in its highest form, a source of truth, and, in its.', options: [
                 { text: 'Correct answer: The phrase "in its highest form" suggests a conditional or idealized view', outcome: 'Correct answer: The phrase "in its highest form" suggests a conditional or idealized view.' },
                 { text: 'The author believes all interviews are truthful', outcome: 'Not quite — Students equate "critical thinking" with "giving my opinion" or "finding faults." In "The.', reveals: 'students-equate-critical-thinking-with' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_07_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are a journalist who just interviewed your favorite author, but your editor says: "We only have 200 words — give me a report, not the transcript.".',
+          caseStudy: { intro: 'For written answers on \'The Interview\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the primary difference between a verbatim interview transcript and an interview report?', options: [
                 { text: 'A verbatim transcript reproduces every word spoken by both interviewer and interviewee in', outcome: 'A verbatim transcript reproduces every word spoken by both interviewer and interviewee in exact.' },
                 { text: 'report is just shorter', outcome: 'Not quite — Students treat the writing task as "summarize the interview" by deleting sentences from the.', reveals: 'students-treat-the-writing-task' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_07_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re watching a televised interview where the celebrity suddenly walks out — was the interviewer too intrusive, or is that the price of fame?',
+          caseStudy: { intro: 'Talk through \'The Interview\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'Define "discourse linkers" and "signallers" in the context of a structured conversation like an interview, and give one example of each.', options: [
                 { text: 'Discourse linkers are cohesive devices (reference pronouns like "that," "this," "which"', outcome: 'Discourse linkers are cohesive devices (reference pronouns like "that," "this," "which" or lexical.' },
                 { text: 'I think interviews are bad', outcome: 'Not quite — Students treat "Speaking and Listening: Discussion Points" as informal chat where they share.', reveals: 'students-treat-speaking-and-listening' },
@@ -61,34 +61,34 @@ export const c12_eng_f_ch07_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the systematic process of examining.',
+          question: 'Critical thinking on \'The Interview\' — analysing the text to reach.',
           hint: 'If stuck, return to node c12_eng_f_cbse_07_012 (Comprehension) and practice writing one.',
           misconception: 'Students equate "critical thinking" with "giving my opinion" or "finding faults." In "The Interview," they write: "I.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis is the systematic process of examining a text\'s',
-                  options: ['Critical thinking in literary analysis is the systematic process of examining a text\'s', 'The "Before You Read: Context and Background" section for "The Interview" provides the', 'Narrative structure in non-fiction refers to the organizational framework that arranges', 'In non-fiction texts like "The Interview," **setting** refers to the contextual framework'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'The Interview\'',
+                  options: ['Critical thinking on \'The Interview\'', '\'The Interview\' (Flamingo, ch', 'The plot/narrative arc of \'The Interview\'', 'The setting of \'The Interview\''],
                   hint: 'If stuck, return to node c12_eng_f_cbse_07_012 (Comprehension) and practice writing one PEEL.',
                   misconception: 'Students equate "critical thinking" with "giving my opinion" or "finding faults." In "The Interview," they write: "I think Eco is arrogant".' }
           ],
-            remediations: { 'students-equate-critical-thinking-with': { steps: ['Have the student re-read Part I and highlight every evaluative adjective used to describe interviews (e.g.', 'Ask: "Which words belong to Silvester?', 'Which belong to the people he quotes?" — this separates the author\'s voice from reported voices.', 'In Part II, have them circle every metaphor Eco uses (interstices, thumbprints on windpipe, Chinese wise man) and write.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-equate-critical-thinking-with': { steps: ['Have the student re-read Part I and highlight every evaluative adjective used to describe interviews (e.g.', 'Ask: "Which words belong to Silvester?', 'Which belong to the people he quotes?" — this separates the author\'s voice from reported voices.', 'In Part II, have them circle every metaphor Eco uses (interstices, thumbprints on windpipe, Chinese wise man) and write.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_014', difficulty: 'standard',
-          question: 'Interview report writing is the skill of condensing a verbatim interview into.',
+          question: 'Writing skills from \'The Interview\' — using the text as a model or springboard.',
           hint: 'If stuck on selecting salient points, revisit node 013 (Critical Thinking) questions.',
           misconception: 'Students treat the writing task as "summarize the interview" by deleting sentences from the transcript.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Interview report writing is the skill of condensing a verbatim interview into a concise,',
-                  options: ['Interview report writing is the skill of condensing a verbatim interview into a concise,', 'The "Before You Read: Context and Background" section for "The Interview" provides the', 'Narrative structure in non-fiction refers to the organizational framework that arranges', 'In non-fiction texts like "The Interview," **setting** refers to the contextual framework'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing skills from \'The Interview\'',
+                  options: ['Writing skills from \'The Interview\'', '\'The Interview\' (Flamingo, ch', 'The plot/narrative arc of \'The Interview\'', 'The setting of \'The Interview\''],
                   hint: 'If stuck on selecting salient points, revisit node 013 (Critical Thinking) questions on Eco\'s.',
                   misconception: 'Students treat the writing task as "summarize the interview" by deleting sentences from the transcript.' }
           ],
-            remediations: { 'students-treat-the-writing-task': { steps: ['Give the student a 5-sentence verbatim exchange and ask them to rewrite it as ONE reported-speech paragraph using "When.', 'Provide the Eco interview segmented into 4 thematic chunks (Identity, Time Management, Academic Style, Fiction.', 'Assemble paragraphs into full report with headline/byline.', 'Compare their report with a model — highlight where they kept Q&A format or direct speech.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-the-writing-task': { steps: ['Give the student a 5-sentence verbatim exchange and ask them to rewrite it as ONE reported-speech paragraph using "When.', 'Provide the Eco interview segmented into 4 thematic chunks (Identity, Time Management, Academic Style, Fiction.', 'Assemble paragraphs into full report with headline/byline.', 'Compare their report with a model — highlight where they kept Q&A format or direct speech.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to structured oral activities.',
+          question: 'Discussion points on \'The Interview\' — speaking and listening around the text.',
           hint: 'If stuck, review c12_eng_f_cbse_07_013 (Critical Thinking) for evidence-use practice and.',
           misconception: 'Students treat "Speaking and Listening: Discussion Points" as informal chat where they share personal opinions without.',
           parts: [
@@ -101,7 +101,7 @@ export const c12_eng_f_ch07_p3: SimDef = {
                   hint: 'If stuck, review c12_eng_f_cbse_07_013 (Critical Thinking) for evidence-use practice and the.',
                   misconception: 'Students treat "Speaking and Listening: Discussion Points" as informal chat where they share personal opinions without textual anchoring.' }
           ],
-            remediations: { 'students-treat-speaking-and-listening': { steps: ['If a student cannot anchor opinions in textual evidence or use discourse markers: (1) Have them re-read the "Noticing.', '(2) Practice a 2-minute "PEEL drill": give a prompt (e.g., "Should celebrities be interviewed?"), require one textual.', '(3) Record and replay their attempt — they self-identify missing elements.', '(4) Revisit c12_eng_f_cbse_07_013 (Critical Thinking) to strengthen evidence-use before re-attempting discussion.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-speaking-and-listening': { steps: ['If a student cannot anchor opinions in textual evidence or use discourse markers: (1) Have them re-read the "Noticing.', '(2) Practice a 2-minute "PEEL drill": give a prompt (e.g., "Should celebrities be interviewed?"), require one textual.', '(3) Record and replay their attempt — they self-identify missing elements.', '(4) Revisit c12_eng_f_cbse_07_013 (Critical Thinking) to strengthen evidence-use before re-attempting discussion.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_015', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -112,7 +112,7 @@ export const c12_eng_f_ch07_p3: SimDef = {
                   hint: 'If stuck, review c12_eng_f_cbse_07_013 (Critical Thinking) for evidence-use practice and the.',
                   misconception: 'Students treat "Speaking and Listening: Discussion Points" as informal chat where they share personal opinions without textual anchoring.' }
           ],
-            remediations: { 'students-treat-speaking-and-listening': { steps: ['If a student cannot anchor opinions in textual evidence or use discourse markers: (1) Have them re-read the "Noticing.', '(2) Practice a 2-minute "PEEL drill": give a prompt (e.g., "Should celebrities be interviewed?"), require one textual.', '(3) Record and replay their attempt — they self-identify missing elements.', '(4) Revisit c12_eng_f_cbse_07_013 (Critical Thinking) to strengthen evidence-use before re-attempting discussion.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-speaking-and-listening': { steps: ['If a student cannot anchor opinions in textual evidence or use discourse markers: (1) Have them re-read the "Noticing.', '(2) Practice a 2-minute "PEEL drill": give a prompt (e.g., "Should celebrities be interviewed?"), require one textual.', '(3) Record and replay their attempt — they self-identify missing elements.', '(4) Revisit c12_eng_f_cbse_07_013 (Critical Thinking) to strengthen evidence-use before re-attempting discussion.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

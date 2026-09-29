@@ -6,13 +6,13 @@ import C12_GeographyGraphicalRepresentationSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_geographygraphicalrepresentationsim: SimDef = {
     id: 'v3w_c12_geographygraphicalrepresentationsim',
-    title: 'Graphical Representation',
+    title: 'Graphical Representation: Need and General Rules for Construction',
     subtitle: 'This node covers the *need* for graphical representation and the *general rules*.',
     classLevel: 12, subject: 'geography', topic: 'Graphical Representation: Need and General Rules for Construction',
     chapters: [],
     nodeIds: ['c12_geo_cbse_20_001', 'c12_geo_cbse_20_004', 'c12_geo_cbse_20_006', 'c12_geo_cbse_20_007', 'c12_geo_cbse_20_008', 'c12_geo_cbse_20_010', 'c12_geo_cbse_20_011', 'c12_geo_cbse_18_001', 'c12_geo_cbse_19_003', 'c12_geo_cbse_19_005', 'c12_geo_cbse_20_002', 'c12_geo_cbse_20_003', 'c12_geo_cbse_20_005', 'c12_geo_cbse_20_009', 'c12_geo_cbse_20_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Open any newspaper and you will see a temperature–rainfall graph for your city, a bar chart of state-wise.', goal: 'Master Graphical Representation.' },
+    scenario: { role: 'a class 12 learner', intro: 'Open any newspaper and you will see a temperature–rainfall graph for your city, a bar chart of state-wise.', goal: 'Master Graphical Representation: Need and General Rules for Construction.' },
     discovery: {
         question: 'State the formula used to calculate the central angle of a sector in a pie diagram when the data are given as percentages.',
         options: ['The formula is: Angle = Percentage × 3.6 (since 360°/100 = 3.6)', 'Angle = Percentage × 360', 'percentage'],
@@ -81,7 +81,7 @@ export const w_c12_geographygraphicalrepresentationsim: SimDef = {
             { text: 'Locate N/2 = 20 on Y-axis, draw horizontal line to meet curve, drop perpendicular to X-axis. Read median ≈ 60 cm.', faded: true, blankAnswer: 'Median rainfall ≈ 60 cm.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_geo_cbse_20_004', title: 'Identify each idea',
-          dissect: { specimen: 'Graphical Representation', spots: [
+          dissect: { specimen: 'Graphical Representation: Need and General Rules for Construction', spots: [
             { id: 's1', label: 'Graphical representation is the transformation', prompt: 'Which idea is this? — Graphical representation is the transformation of numerical or spatial data into visual.', answer: 'Graphical representation is the transformation', options: ['Graphical representation is the transformation', 'A cube diagram is a', 'Bar diagrams are one-dimensional graphical', 'A pie diagram or divided'] },
             { id: 's2', label: 'A cube diagram is a', prompt: 'Which idea is this? — A cube diagram is a three-dimensional graphical representation where the volume of a cube.', answer: 'A cube diagram is a', options: ['A cube diagram is a', 'Graphical representation is the transformation', 'Bar diagrams are one-dimensional graphical', 'A pie diagram or divided'] },
             { id: 's3', label: 'Bar diagrams are one-dimensional graphical', prompt: 'Which idea is this? — Bar diagrams are one-dimensional graphical representations where rectangular bars of.', answer: 'Bar diagrams are one-dimensional graphical', options: ['Bar diagrams are one-dimensional graphical', 'Graphical representation is the transformation', 'A cube diagram is a', 'A pie diagram or divided'] },
@@ -90,7 +90,7 @@ export const w_c12_geographygraphicalrepresentationsim: SimDef = {
             { id: 's6', label: 'A cumulative frequency curve ogive', prompt: 'Which idea is this? — A cumulative frequency curve (ogive) is a graphical representation of cumulative.', answer: 'A cumulative frequency curve ogive', options: ['A cumulative frequency curve ogive', 'Graphical representation is the transformation', 'A cube diagram is a', 'Bar diagrams are one-dimensional graphical'] }
           ] } }
     ],
-    explore: { component: C12_GeographyGraphicalRepresentationSim, prompt: 'Explore the interactive — Graphical Representation' },
+    explore: { component: C12_GeographyGraphicalRepresentationSim, prompt: 'Explore the interactive — Graphical Representation: Need and General Rules for Construction' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_20_001', difficulty: 'standard',
           question: 'Graphical representation is the transformation of numerical or spatial data.',

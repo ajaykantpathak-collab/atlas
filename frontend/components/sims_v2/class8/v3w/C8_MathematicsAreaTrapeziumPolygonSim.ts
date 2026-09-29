@@ -6,13 +6,13 @@ import C8_MathematicsAreaTrapeziumPolygonSim from '../../../simulations/c6_12/C8
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicsareatrapeziumpolygonsim: SimDef = {
     id: 'v3w_c8_mathematicsareatrapeziumpolygonsim',
-    title: 'Area Trapezium Polygon',
+    title: 'Area of a Triangle from a Parallelogram',
     subtitle: 'This node covers deriving the triangle area formula from the parallelogram area formula.',
     classLevel: 8, subject: 'mathematics', topic: 'Area of a Triangle from a Parallelogram',
     chapters: [],
     nodeIds: ['c8_math_ch14_4', 'c8_math_ch14_9', 'c8_math_ch14_1', 'c8_math_ch14_6', 'c8_math_ch14_10', 'c8_math_ch14_7', 'c8_math_ch14_8', 'c8_math_ch4_2', 'c8_math_ch4_12', 'c8_math_ch11_7'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you are helping a tailor in Delhi cut triangular patches from a rectangular cloth of length 40 cm and.', goal: 'Master Area Trapezium Polygon.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you are helping a tailor in Delhi cut triangular patches from a rectangular cloth of length 40 cm and.', goal: 'Master Area of a Triangle from a Parallelogram.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'The area of any triangle is exactly half the.', text: 'The area of any triangle is exactly half the area of a parallelogram formed by duplicating the triangle and joining them along a corresponding side.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -74,7 +74,7 @@ export const w_c8_mathematicsareatrapeziumpolygonsim: SimDef = {
             { text: 'Interpret: The square design gives 25 m² more planting area even though both use exactly 100 m of fencing.', faded: true, blankAnswer: 'Design A (square) gives 25 m² more area than Design B.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch14_9', title: 'Identify each idea',
-          dissect: { specimen: 'Area Trapezium Polygon', spots: [
+          dissect: { specimen: 'Area of a Triangle from a Parallelogram', spots: [
             { id: 's1', label: 'The area of any triangle', prompt: 'Which idea is this? — The area of any triangle is exactly half the area of a parallelogram formed by.', answer: 'The area of any triangle', options: ['The area of any triangle', 'The area of a compound', 'The area of a rectangle', 'A trapezium is a quadrilateral'] },
             { id: 's2', label: 'The area of a compound', prompt: 'Which idea is this? — The area of a compound shape is found by decomposing it into simpler, non-overlapping.', answer: 'The area of a compound', options: ['The area of a compound', 'The area of any triangle', 'The area of a rectangle', 'A trapezium is a quadrilateral'] },
             { id: 's3', label: 'The area of a rectangle', prompt: 'Which idea is this? — The area of a rectangle is the measure of the two-dimensional space enclosed within its.', answer: 'The area of a rectangle', options: ['The area of a rectangle', 'The area of any triangle', 'The area of a compound', 'A trapezium is a quadrilateral'] },
@@ -83,7 +83,7 @@ export const w_c8_mathematicsareatrapeziumpolygonsim: SimDef = {
             { id: 's6', label: 'Perimeter is the total length', prompt: 'Which idea is this? — Perimeter is the total length of the boundary of a closed shape, while area is the.', answer: 'Perimeter is the total length', options: ['Perimeter is the total length', 'The area of any triangle', 'The area of a compound', 'The area of a rectangle'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsAreaTrapeziumPolygonSim, prompt: 'Explore the interactive — Area Trapezium Polygon' },
+    explore: { component: C8_MathematicsAreaTrapeziumPolygonSim, prompt: 'Explore the interactive — Area of a Triangle from a Parallelogram' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch14_4', difficulty: 'standard',
           question: 'The area of any triangle is exactly half the area of a parallelogram formed by.',

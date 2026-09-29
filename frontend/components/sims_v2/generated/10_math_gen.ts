@@ -9,15 +9,13 @@ import type { SimDef } from '../engine/types';
 export const C10_MATH_GEN: SimDef[] = [
  {
   "id": "gen_c10_math_ch01",
-  "title": "If p",
+  "title": "If p Is a Prime Number And p Divides A²",
   "subtitle": "Mathematics · Chapter 1",
   "classLevel": 10,
   "mode": "senior",
   "subject": "maths",
-  "topic": "If p",
-  "chapters": [
-   "Mathematics Ch1: If p"
-  ],
+  "topic": "If p Is a Prime Number And p Divides A²",
+  "chapters": ["Mathematics Ch1: If p Is a Prime Number And p Divides A²"],
   "nodeIds": [
    "c10_math_cbse_01_005",
    "c10_math_cbse_01_008"
@@ -29,7 +27,7 @@ export const C10_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses If p in real working life?",
+   "question": "Who uses If p Is a Prime Number And p in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -40,7 +38,7 @@ export const C10_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "If p",
+    "title": "If p Is a Prime Number And p Divides A²",
     "text": "If p is a prime number and p divides a² (where a is a positive integer), then p must also divide a. In other words, if a prime number divides the square of an integer, it necessarily divides the integer itself.",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -369,7 +367,7 @@ export const C10_MATH_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "If p mastered! 🎯",
+  "successLine": "If p Is a Prime Number And p mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -956,7 +954,7 @@ export const C10_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Complement Of An Event E, Denoted E' Or",
+    "title": "Probability of Complement: Finding P(not E)",
     "text": "The complement of an event E, denoted E' or \"not E\", is the event that E does NOT occur. The probability of the complement is P(not E) = 1 − P(E).",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500",

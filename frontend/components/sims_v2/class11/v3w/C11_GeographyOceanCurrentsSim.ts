@@ -6,13 +6,13 @@ import C11_GeographyOceanCurrentsSim from '../../../simulations/c6_12/C11_Geogra
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geographyoceancurrentssim: SimDef = {
     id: 'v3w_c11_geographyoceancurrentssim',
-    title: 'Ocean Currents',
+    title: 'Continental Drift Theory: Wegener\'s Hypothesis',
     subtitle: 'This node covers Wegener\'s original 1912 hypothesis, its supporting evidence, and its.',
     classLevel: 11, subject: 'geography', topic: 'Continental Drift Theory: Wegener\'s Hypothesis',
     chapters: [],
     nodeIds: ['c11_geo_cbse_04_001', 'c11_geo_cbse_04_003', 'c11_geo_cbse_04_008', 'c11_geo_cbse_11_007', 'c11_geo_cbse_04_005', 'c11_geo_cbse_04_006', 'c11_geo_cbse_04_007', 'c11_geo_cbse_04_011', 'c11_geo_cbse_11_003', 'c11_geo_cbse_08_004', 'c11_geo_cbse_19_007', 'c11_geo_cbse_08_002', 'c11_geo_cbse_08_005', 'c11_geo_cbse_08_007', 'c11_geo_cbse_19_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Look at a physical world map and notice how the eastern coastline of South America fits remarkably well into.', goal: 'Master Ocean Currents.' },
+    scenario: { role: 'a class 11 learner', intro: 'Look at a physical world map and notice how the eastern coastline of South America fits remarkably well into.', goal: 'Master Continental Drift Theory: Wegener\'s Hypothesis.' },
     discovery: {
         question: 'State the name of the supercontinent and the global ocean in Wegener\'s theory, and give the approximate geological time when Pangaea began to break apart.',
         options: ['Pangaea (supercontinent) and Panthalassa (global ocean)', 'Gondwana and Laurasia', '100 million years'],
@@ -81,7 +81,7 @@ export const w_c11_geographyoceancurrentssim: SimDef = {
             { text: 'Square both sides: t ≈ (7.14)² ≈ 51 Myr.', faded: true, blankAnswer: 'The crust is approximately 51 million years old.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_geo_cbse_04_003', title: 'Identify each idea',
-          dissect: { specimen: 'Ocean Currents', spots: [
+          dissect: { specimen: 'Continental Drift Theory: Wegener\'s Hypothesis', spots: [
             { id: 's1', label: 'Continental Drift Theory proposed by', prompt: 'Which idea is this? — Continental Drift Theory, proposed by Alfred Wegener in 1912, states that all present-day.', answer: 'Continental Drift Theory proposed by', options: ['Continental Drift Theory proposed by', 'The jigsaw fit of coastlines', 'Lithospheric plates are rigid segments', 'Tropical cyclones in India are'] },
             { id: 's2', label: 'The jigsaw fit of coastlines', prompt: 'Which idea is this? — The jigsaw fit of coastlines refers to the remarkable geometric complementarity between.', answer: 'The jigsaw fit of coastlines', options: ['The jigsaw fit of coastlines', 'Continental Drift Theory proposed by', 'Lithospheric plates are rigid segments', 'Tropical cyclones in India are'] },
             { id: 's3', label: 'Lithospheric plates are rigid segments', prompt: 'Which idea is this? — Lithospheric plates are rigid segments of the Earth\'s lithosphere (crust and uppermost.', answer: 'Lithospheric plates are rigid segments', options: ['Lithospheric plates are rigid segments', 'Continental Drift Theory proposed by', 'The jigsaw fit of coastlines', 'Tropical cyclones in India are'] },
@@ -90,7 +90,7 @@ export const w_c11_geographyoceancurrentssim: SimDef = {
             { id: 's6', label: 'Ocean floor mapping is the', prompt: 'Which idea is this? — Ocean floor mapping is the scientific process of charting the topography of the seabed.', answer: 'Ocean floor mapping is the', options: ['Ocean floor mapping is the', 'Continental Drift Theory proposed by', 'The jigsaw fit of coastlines', 'Lithospheric plates are rigid segments'] }
           ] } }
     ],
-    explore: { component: C11_GeographyOceanCurrentsSim, prompt: 'Explore the interactive — Ocean Currents' },
+    explore: { component: C11_GeographyOceanCurrentsSim, prompt: 'Explore the interactive — Continental Drift Theory: Wegener\'s Hypothesis' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_04_001', difficulty: 'standard',
           question: 'Continental Drift Theory, proposed by Alfred Wegener in 1912, states that all.',

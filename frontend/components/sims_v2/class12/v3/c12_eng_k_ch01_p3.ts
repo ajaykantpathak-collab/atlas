@@ -19,30 +19,30 @@ export const c12_eng_k_ch01_p3: SimDef = {
         hook: 'Magical realism isn\'t fantasy — the impossible is told in a reporter\'s flat voice. Marquez was a journalist; the Havana disaster opens like a news dispatch, and Frau Frieda\'s prophetic dreams are treated as ordinary employment. Blur that register and you misread the whole story.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the process of actively evaluating a text by questioning its assumptions, interpreting its symbols and themes, analyzing the author\'s narrative choices, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'I Sell My Dreams\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_01_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Straddle two worlds — spy-ring Vienna and hurricane-hit Havana: map the frame narrative, weigh Neruda\'s rationality against Frau Frieda\'s gift, and decide whether her dreams are prophecy or survival strategy.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_01_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you read a horoscope that says "avoid travel today," so you cancel a trip — and later hear the train derailed.',
+          caseStudy: { intro: 'Analyse \'I Sell My Dreams\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the central symbol in "I Sell My Dreams" that connects the three main encounters (Vienna, Barcelona, Havana), and what does.', options: [
                 { text: 'The central symbol is the gold serpent ring with emerald eyes', outcome: 'The central symbol is the gold serpent ring with emerald eyes.' },
                 { text: 'the ring represents evil', outcome: 'Not quite — Students often believe the story *proves* Frau Frieda\'s dreams were genuinely prophetic because the.', reveals: 'the-story-proves-frau-frieda' },
                 { text: 'the ring is just jewelry', outcome: 'Not quite — Students often believe the story *proves* Frau Frieda\'s dreams were genuinely prophetic because the.', reveals: 'the-story-proves-frau-frieda' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_01_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you just finished reading *I Sell My Dreams* and your teacher asks: "Write a paragraph explaining how the snake ring functions as a symbol." You might.',
+          caseStudy: { intro: 'For written answers on \'I Sell My Dreams\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing analytical paragraphs for literature?', options: [
                 { text: 'PEEL stands for **Point** (topic sentence stating the argument), **Evidence** (a quote or', outcome: 'PEEL stands for **Point** (topic sentence stating the argument), **Evidence** (a quote or specific.' },
                 { text: 'Point, Example, Explain, Conclusion', outcome: 'Not quite — Students treat "writing skills based on the chapter" as **plot retelling with adjectives**.', reveals: 'students-treat-writing-skills-based' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_01_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a CUET interview panel discussing how literature blurs reality and fantasy — you need to speak confidently about Marquez\'s story while.',
+          caseStudy: { intro: 'Talk through \'I Sell My Dreams\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of a literary group discussion in the Class 12 English Board examination context?', options: [
                 { text: 'The primary purpose is to assess a student\'s ability to articulate interpretations of a', outcome: 'The primary purpose is to assess a student\'s ability to articulate interpretations of a text.' },
                 { text: 'to summarize the plot', outcome: 'Not quite — Students often think a "good discussion" means speaking the most or impressing with vocabulary.', reveals: 'a-good-discussion-means-speaking' },
@@ -62,12 +62,12 @@ export const c12_eng_k_ch01_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_01_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the process of actively evaluating.',
+          question: 'Critical thinking on \'I Sell My Dreams\' — analysing the text to reach.',
           hint: 'If stuck, return to node 009 (Irony and Symbolism) to re-examine the serpent ring and the.',
           misconception: 'Students often believe the story *proves* Frau Frieda\'s dreams were genuinely prophetic because the author obeys her.',
           parts: [
@@ -88,7 +88,7 @@ export const c12_eng_k_ch01_p3: SimDef = {
                   hint: 'If stuck, return to node 009 (Irony and Symbolism) to re-examine the serpent ring and the final.',
                   misconception: 'Students often believe the story *proves* Frau Frieda\'s dreams were genuinely prophetic because the author obeys her and the brother chokes.' }
           ],
-            remediations: { 'the-story-proves-frau-frieda': { steps: ['If a student insists the dreams are proven true: 1) Have them re-read the choking scene (paragraph 4 of story) and.', '2) Ask: "Who tells us the dream meant \'don\'t eat sweets\'?" Answer: Frau Frieda.', '3) Compare with the Neruda episode: Neruda dreams *about* her dreaming — a literary mirror, not a confirmation.', '4) Assign a 100-word response: "Why does the author say \'just in case\' if he knows it\'s a stratagem?" This forces.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-story-proves-frau-frieda': { steps: ['If a student insists the dreams are proven true: 1) Have them re-read the choking scene (paragraph 4 of story) and.', '2) Ask: "Who tells us the dream meant \'don\'t eat sweets\'?" Answer: Frau Frieda.', '3) Compare with the Neruda episode: Neruda dreams *about* her dreaming — a literary mirror, not a confirmation.', '4) Assign a 100-word response: "Why does the author say \'just in case\' if he knows it\'s a stratagem?" This forces.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_01_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -99,29 +99,29 @@ export const c12_eng_k_ch01_p3: SimDef = {
                   hint: 'If stuck, return to node 009 (Irony and Symbolism) to re-examine the serpent ring and the final.',
                   misconception: 'Students often believe the story *proves* Frau Frieda\'s dreams were genuinely prophetic because the author obeys her and the brother chokes.' }
           ],
-            remediations: { 'the-story-proves-frau-frieda': { steps: ['If a student insists the dreams are proven true: 1) Have them re-read the choking scene (paragraph 4 of story) and.', '2) Ask: "Who tells us the dream meant \'don\'t eat sweets\'?" Answer: Frau Frieda.', '3) Compare with the Neruda episode: Neruda dreams *about* her dreaming — a literary mirror, not a confirmation.', '4) Assign a 100-word response: "Why does the author say \'just in case\' if he knows it\'s a stratagem?" This forces.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-story-proves-frau-frieda': { steps: ['If a student insists the dreams are proven true: 1) Have them re-read the choking scene (paragraph 4 of story) and.', '2) Ask: "Who tells us the dream meant \'don\'t eat sweets\'?" Answer: Frau Frieda.', '3) Compare with the Neruda episode: Neruda dreams *about* her dreaming — a literary mirror, not a confirmation.', '4) Assign a 100-word response: "Why does the author say \'just in case\' if he knows it\'s a stratagem?" This forces.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_01_014', difficulty: 'standard',
-          question: 'Writing skills based on a literary chapter involve the ability to compose.',
+          question: 'Writing skills from \'I Sell My Dreams\' — using the text as a model.',
           hint: 'If stuck on evidence selection, return to c12_eng_k_cbse_01_012 (Comprehension) and.',
           misconception: 'Students treat "writing skills based on the chapter" as **plot retelling with adjectives**.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing skills based on a literary chapter involve the ability to compose structured,',
-                  options: ['Writing skills based on a literary chapter involve the ability to compose structured,', '"Before You Read: Context and Background" is a preparatory section that provides', 'Plot refers to the sequence of events as presented in the narrative, while narrative', 'Setting in "I Sell My Dreams" refers to the specific geographical locations (Havana,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing skills from \'I Sell My Dreams\'',
+                  options: ['Writing skills from \'I Sell My Dreams\'', '\'I Sell My Dreams\' (Kaleidoscope, ch', 'The plot/narrative arc of \'I Sell My Dreams\'', 'The setting of \'I Sell My Dreams\''],
                   hint: 'If stuck on evidence selection, return to c12_eng_k_cbse_01_012 (Comprehension) and practice "Find.',
                   misconception: 'Students treat "writing skills based on the chapter" as **plot retelling with adjectives**. They write: "The wave was huge and scary.' }
           ],
-            remediations: { 'students-treat-writing-skills-based': { steps: ['**Identify the gap**: Ask the student to highlight every sentence in their answer that states a plot fact vs.', 'every sentence that explains *significance*.', 'If >70% are plot facts, they are summarizing.', '**Revisit Node c12_eng_k_cbse_01_013 (Critical Thinking)**: Review how to move from literal to inferential.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-writing-skills-based': { steps: ['**Identify the gap**: Ask the student to highlight every sentence in their answer that states a plot fact vs.', 'every sentence that explains *significance*.', 'If >70% are plot facts, they are summarizing.', '**Revisit Node c12_eng_k_cbse_01_013 (Critical Thinking)**: Review how to move from literal to inferential.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_01_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'I Sell My Dreams\' — speaking and listening around the.',
           hint: 'If stuck, revisit c12_eng_k_cbse_01_013 (Critical Thinking) and practice the.',
           misconception: 'Students often think a "good discussion" means speaking the most or impressing with vocabulary.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to the structured oral communication',
-                  options: ['Speaking and Listening: Discussion Points refers to the structured oral communication', '"Before You Read: Context and Background" is a preparatory section that provides', 'Plot refers to the sequence of events as presented in the narrative, while narrative', 'Setting in "I Sell My Dreams" refers to the specific geographical locations (Havana,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'I Sell My Dreams\'',
+                  options: ['Discussion points on \'I Sell My Dreams\'', '\'I Sell My Dreams\' (Kaleidoscope, ch', 'The plot/narrative arc of \'I Sell My Dreams\'', 'The setting of \'I Sell My Dreams\''],
                   hint: 'If stuck, revisit c12_eng_k_cbse_01_013 (Critical Thinking) and practice the.',
                   misconception: 'Students often think a "good discussion" means speaking the most or impressing with vocabulary.' }
           ],
-            remediations: { 'a-good-discussion-means-speaking': { steps: ['If a student exhibits the above misconception: (1) Show a 2-minute video of a model ASL discussion (available on CBSE.', '(3) Provide a checklist rubric (Content, Coherence, Collaboration, Textual Evidence) and have them self-score.', '(4) Revisit c12_eng_k_cbse_01_013 (Critical Thinking) to reinforce evidence-based reasoning, then re-attempt a full.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-good-discussion-means-speaking': { steps: ['If a student exhibits the above misconception: (1) Show a 2-minute video of a model ASL discussion (available on CBSE.', '(3) Provide a checklist rubric (Content, Coherence, Collaboration, Textual Evidence) and have them self-score.', '(4) Revisit c12_eng_k_cbse_01_013 (Critical Thinking) to reinforce evidence-based reasoning, then re-attempt a full.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

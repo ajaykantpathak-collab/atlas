@@ -93,7 +93,7 @@ export const C12_ACC_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "In The Dissolution Of a",
+    "title": "In The Dissolution Of a Partnership",
     "text": "In the dissolution of a partnership firm, a Partner's Loan to the Firm is a liability owed by the firm to a partner (distinct from capital) and must be repaid after external creditors but before any capital repayment.",
     "emoji": "🧾",
     "bgColor": "from-rose-400 to-pink-500"
@@ -117,7 +117,7 @@ export const C12_ACC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Journal Entries For Dissolution Of a",
+    "title": "Journal Entries for Dissolution",
     "text": "Journal entries for dissolution of a partnership firm are the systematic accounting records that capture the closure of the firm's books by transferring all assets and liabilities to a Realisation Account, recording the sale of assets, settlement of",
     "emoji": "🧾",
     "bgColor": "from-amber-400 to-orange-500"
@@ -814,7 +814,7 @@ export const C12_ACC_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Writing Off Discount/loss On Issue Of",
+    "title": "Writing off Discount/Loss on Issue",
     "text": "Writing off discount/loss on issue of debentures is the systematic allocation of the capital loss arising from issuing debentures at a discount or at a loss (e.",
     "emoji": "🧾",
     "bgColor": "from-amber-400 to-orange-500"
@@ -838,7 +838,7 @@ export const C12_ACC_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Journal Entries For Issue And Redemption Of",
+    "title": "Journal Entries for Issue and Redemption",
     "text": "Journal entries for issue and redemption of debentures are systematic double-entry records that capture the creation, servicing, and extinguishment of a company's long-term debt obligation, reflecting the inflow/outflow of resources, premium/discount",
     "emoji": "🧾",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1335,7 +1335,7 @@ export const C12_ACC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "The Balance Sheet Of a",
+    "title": "The Balance Sheet Of a Company",
     "text": "The Balance Sheet of a Company as per Schedule III, Part I of the Companies Act 2013 is a standardized financial statement format that presents the financial position of a company at a specific date by classifying all assets and liabilities into current and",
     "emoji": "🧾",
     "bgColor": "from-rose-400 to-pink-500"

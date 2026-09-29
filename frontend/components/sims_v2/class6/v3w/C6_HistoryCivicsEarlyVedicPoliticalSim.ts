@@ -6,13 +6,13 @@ import C6_HistoryCivicsEarlyVedicPoliticalSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_historycivicsearlyvedicpoliticalsim: SimDef = {
     id: 'v3w_c6_historycivicsearlyvedicpoliticalsim',
-    title: 'Early Vedic Political',
+    title: 'The Birth of Indian Nationalism',
     subtitle: 'This node covers the emergence of nationalism as a unified consciousness.',
     classLevel: 6, subject: 'history', topic: 'The Birth of Indian Nationalism',
     chapters: [],
     nodeIds: ['c6_history_ch11_045', 'c6_history_ch11_049', 'c6_history_ch12_051', 'c6_history_ch04_001', 'c6_history_ch04_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you are part of a team where everyone has different ideas, but you all decide to work together.', goal: 'Master Early Vedic Political.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you are part of a team where everyone has different ideas, but you all decide to work together.', goal: 'Master The Birth of Indian Nationalism.' },
     discovery: {
         question: 'What was the primary method Subhas Chandra Bose believed was necessary to gain independence, contrasting with the non-violent approach?',
         options: ['Bose believed that armed struggle was necessary', 'against', 'Bose was "against" Gandhi, implying personal hatred'],
@@ -53,7 +53,7 @@ export const w_c6_historycivicsearlyvedicpoliticalsim: SimDef = {
                 { text: 'recently', outcome: 'Not quite — Students often think the Harappan Civilisation was "destroyed" or "conquered" in a single war.', reveals: 'the-harappan-civilisation-was-destroyed' }
             ] }] } }
     ],
-    explore: { component: C6_HistoryCivicsEarlyVedicPoliticalSim, prompt: 'Explore the interactive — Early Vedic Political' },
+    explore: { component: C6_HistoryCivicsEarlyVedicPoliticalSim, prompt: 'Explore the interactive — The Birth of Indian Nationalism' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_history_ch11_045', difficulty: 'standard',
           question: 'The birth of Indian nationalism refers to the late 19th-century process where.',

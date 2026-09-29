@@ -6,13 +6,13 @@ import C11_SociologyEmergenceSociologyAnthropologySim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_sociologyemergencesociologyanthropologysim: SimDef = {
     id: 'v3w_c11_sociologyemergencesociologyanthropologysim',
-    title: 'Emergence Sociology Anthropology',
+    title: 'Colonial Context and the Specificity of Indian Modernity',
     subtitle: 'This node covers the colonial context as the structural condition shaping Indian.',
     classLevel: 11, subject: 'sociology', topic: 'Colonial Context and the Specificity of Indian Modernity',
     chapters: [],
     nodeIds: ['c11_soc_cbse_10_002', 'c11_soc_cbse_01_003', 'c11_soc_cbse_01_005', 'c11_soc_cbse_01_010', 'c11_soc_cbse_01_006', 'c11_soc_cbse_01_007', 'c11_soc_cbse_01_008', 'c11_soc_cbse_01_009', 'c11_soc_cbse_10_001', 'c11_soc_cbse_10_003', 'c11_soc_cbse_10_004', 'c11_soc_cbse_10_006', 'c11_soc_cbse_10_009', 'c11_soc_cbse_03_009', 'c11_soc_cbse_05_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a university student in 1920s Bombay, told to study "sociology" — a new subject imported from.', goal: 'Master Emergence Sociology Anthropology.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a university student in 1920s Bombay, told to study "sociology" — a new subject imported from.', goal: 'Master Colonial Context and the Specificity of Indian Modernity.' },
     discovery: {
         question: 'What is the fundamental difference between the emergence of modernity in Western Europe and its emergence in colonial India, as stated in the NCERT text?',
         options: ['In Western Europe, modernity emerged endogenously through industrialisation,', 'modernity came later to India', 'India lacked industry'],
@@ -81,7 +81,7 @@ export const w_c11_sociologyemergencesociologyanthropologysim: SimDef = {
             { text: 'Connect to sociology — early Indian sociologists (e.g., D.N. Majumdar, S.C.', faded: true, blankAnswer: 'The "unchanging village" was a colonial discursive.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_soc_cbse_01_003', title: 'Identify each idea',
-          dissect: { specimen: 'Emergence Sociology Anthropology', spots: [
+          dissect: { specimen: 'Colonial Context and the Specificity of Indian Modernity', spots: [
             { id: 's1', label: 'The colonial context of Indian', prompt: 'Which idea is this? — The colonial context of Indian modernity refers to the historical condition where India\'s.', answer: 'The colonial context of Indian', options: ['The colonial context of Indian', 'Sociology is the systematic and', 'The Enlightenment late 17th18th century', 'Feminist interventions in sociology refer'] },
             { id: 's2', label: 'Sociology is the systematic and', prompt: 'Which idea is this? — Sociology is the systematic and scientific study of human society, social relationships,.', answer: 'Sociology is the systematic and', options: ['Sociology is the systematic and', 'The colonial context of Indian', 'The Enlightenment late 17th18th century', 'Feminist interventions in sociology refer'] },
             { id: 's3', label: 'The Enlightenment late 17th18th century', prompt: 'Which idea is this? — The Enlightenment (late 17th–18th century European intellectual movement emphasizing.', answer: 'The Enlightenment late 17th18th century', options: ['The Enlightenment late 17th18th century', 'The colonial context of Indian', 'Sociology is the systematic and', 'Feminist interventions in sociology refer'] },
@@ -90,7 +90,7 @@ export const w_c11_sociologyemergencesociologyanthropologysim: SimDef = {
             { id: 's6', label: 'The growth of sociology in', prompt: 'Which idea is this? — The growth of sociology in India refers to the historical process through which sociology.', answer: 'The growth of sociology in', options: ['The growth of sociology in', 'The colonial context of Indian', 'Sociology is the systematic and', 'The Enlightenment late 17th18th century'] }
           ] } }
     ],
-    explore: { component: C11_SociologyEmergenceSociologyAnthropologySim, prompt: 'Explore the interactive — Emergence Sociology Anthropology' },
+    explore: { component: C11_SociologyEmergenceSociologyAnthropologySim, prompt: 'Explore the interactive — Colonial Context and the Specificity of Indian Modernity' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_soc_cbse_10_002', difficulty: 'standard',
           question: 'The colonial context of Indian modernity refers to the historical condition.',

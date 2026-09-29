@@ -88,13 +88,13 @@ export const C7_CIV_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Influence Of Civilisational Heritage On The",
+    "title": "Influence of Civilisational Heritage",
     "text": "The influence of civilisational heritage on the Indian Constitution refers to how ancient Indian philosophical traditions, cultural values of pluralism, ethics of non-violence, and historical practices of community self-governance shaped the ideals,",
     "emoji": "⚖️",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Sources Of Authority Refer To",
+    "title": "Sources Of Authority",
     "text": "The sources of authority refer to the foundational origins and justifications from which a government derives its right to rule, make laws, and exercise political power over its citizens.",
     "emoji": "⚖️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -118,7 +118,7 @@ export const C7_CIV_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Comparison Of Different Types Of",
+    "title": "Comparison Of Different Types",
     "text": "A comparison of different types of government involves systematically analyzing how political systems—such as democracy, monarchy, and dictatorship—differ in their sources of authority, citizen participation, and protection of rights.",
     "emoji": "⚖️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -678,13 +678,13 @@ export const C7_CIV_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "How Citizens Engage With Government In",
+    "title": "How Citizens Engage with Government",
     "text": "How citizens engage with government in daily life refers to the various ways ordinary people interact with, utilize, or influence public institutions, services, and officials outside of just voting in elections.",
     "emoji": "⚖️",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Making Government Work For The",
+    "title": "Making Government Work For The People",
     "text": "Making government work for the people through citizen participation refers to the active, ongoing involvement of citizens in public decision-making, monitoring government actions, and holding public officials accountable beyond just voting in elections, as",
     "emoji": "⚖️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -696,7 +696,7 @@ export const C7_CIV_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Accountability And Transparency In",
+    "title": "Accountability and Transparency",
     "text": "Accountability and transparency in governance refer to the legal and institutional mechanisms through which elected representatives and public officials must justify their decisions, actions, and use of public funds to the citizens they serve.",
     "emoji": "⚖️",
     "bgColor": "from-amber-400 to-orange-500"

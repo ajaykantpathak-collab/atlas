@@ -6,13 +6,13 @@ import C6_ScienceBeyondEarthSim from '../../../simulations/c6_12/C6_ScienceBeyon
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_sciencebeyondearthsim: SimDef = {
     id: 'v3w_c6_sciencebeyondearthsim',
-    title: 'Beyond Earth',
+    title: 'Revolution of the Earth: The Year',
     subtitle: 'This node covers the Earth\'s orbital period and the concept of a leap year.',
     classLevel: 6, subject: 'science', topic: 'Revolution of the Earth: The Year',
     chapters: [],
     nodeIds: ['c6_physics_ch12_046', 'c6_physics_ch12_049', 'c6_physics_ch12_045', 'c6_physics_ch12_047', 'c6_physics_ch12_048', 'c6_physics_ch12_050', 'c6_physics_ch12_051'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Think about your birthday—it happens every year, but have you ever wondered why we suddenly have an extra day.', goal: 'Master Beyond Earth.' },
+    scenario: { role: 'a class 6 learner', intro: 'Think about your birthday—it happens every year, but have you ever wondered why we suddenly have an extra day.', goal: 'Master Revolution of the Earth: The Year.' },
     discovery: {
         question: 'What three celestial objects must align in a straight line for a solar eclipse to happen?',
         options: ['The Sun, the Moon, and the Earth must align in that specific order', 'goes out', 'vanishes'],
@@ -61,7 +61,7 @@ export const w_c6_sciencebeyondearthsim: SimDef = {
                 { text: 'blocker', outcome: 'Not quite — Students often confuse lunar and solar eclipses, thinking the Moon blocks the Sun in both.', reveals: 'students-often-confuse-lunar-and' }
             ] }] } }
     ],
-    explore: { component: C6_ScienceBeyondEarthSim, prompt: 'Explore the interactive — Beyond Earth' },
+    explore: { component: C6_ScienceBeyondEarthSim, prompt: 'Explore the interactive — Revolution of the Earth: The Year' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_physics_ch12_046', difficulty: 'standard',
           question: 'The revolution of the Earth is its movement in an elliptical orbit around the.',

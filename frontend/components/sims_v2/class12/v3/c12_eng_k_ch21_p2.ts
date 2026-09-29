@@ -19,42 +19,42 @@ export const c12_eng_k_ch21_p2: SimDef = {
         hook: 'Karnad lived both tongues — Jnanpith laureate in Kannada and English — so the play\'s real debate is deeper than language: money, envy and who owns \'authentic Indian-ness.\' The studio\'s plasma screens aren\'t décor; the mediated self is the stage. Eliot\'s \'heap of broken images\' is the thesis.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes in a literary work are the subordinate but significant thematic strands that run parallel to the primary theme, enriching the text by exploring complementary human experiences.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Broken Images\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_21_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Run the interrogation Manjula can\'t escape: weigh the announcer\'s roll-call of bilingual Kannada greats, decode what the Image wants, and judge whether writing in English is betrayal — or inheritance.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_21_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are watching a talk show where a celebrity gives a polished, rehearsed speech — but then the broadcast ends, the camera *supposedly* turns off, and.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Broken Images\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the difference between a primary theme and a secondary theme in a literary text, and why can a play have multiple secondary themes.', options: [
                 { text: 'A primary theme is the central, unifying idea that structures the entire work', outcome: 'A primary theme is the central, unifying idea that structures the entire work — every major plot.' },
                 { text: 'secondary themes are less important so we can ignore them', outcome: 'Not quite — Students often treat "secondary themes" as a *list of topics* (disability, marriage, fame) rather.', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_21_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are watching a play where the only "action" is a woman talking to a TV screen — and then the screen talks back.',
+          caseStudy: { intro: 'Find the lines in \'Broken Images\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "organic imagery" and give one example from Manjula\'s description of her sister Malini\'s illness in the play.', options: [
                 { text: 'Organic imagery describes internal bodily sensations (hunger, thirst, nausea, pain,', outcome: 'Organic imagery describes internal bodily sensations (hunger, thirst, nausea, pain, fatigue).' },
                 { text: 'wheel-chair', outcome: 'Not quite — Students often treat *every* descriptive phrase as "imagery" and *every* comparison as "metaphor.".', reveals: 'students-often-treat-every-descriptive' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_21_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine watching a celebrity interview where the star claims "I don\'t care about fame" while checking their phone for Twitter mentions.',
+          caseStudy: { intro: 'Look in \'Broken Images\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define **dramatic irony** and give one example from *Broken Images* where the audience knows something that Manjula does not initially.', options: [
                 { text: 'Dramatic irony occurs when the audience possesses information that a character lacks', outcome: 'Dramatic irony occurs when the audience possesses information that a character lacks.' },
                 { text: 'dramatic irony', outcome: 'Not quite — Students often treat the "Image" as a supernatural ghost or a sci-fi glitch rather than.', reveals: 'students-often-treat-the-image' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_21_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you\'re watching Manjula\'s TV interview — she speaks in polished, complete sentences with rhetorical flourishes ("The advance she received...',
+          caseStudy: { intro: 'Read \'Broken Images\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the grammatical term for the sentence structure in Manjula\'s line: "My speech will last exactly ten minutes. I have timed it...', options: [
                 { text: 'The structure exemplifies **ellipsis** (omission of understood words) and **fragmented', outcome: 'The structure exemplifies **ellipsis** (omission of understood words) and **fragmented syntax**.' },
                 { text: 'simple sentences', outcome: 'Not quite — Students often believe "language usage in a play" means identifying figures of speech (metaphor.', reveals: 'language-usage-in-a-play' },
                 { text: 'language usage in a play', outcome: 'Not quite — Students often believe "language usage in a play" means identifying figures of speech (metaphor.', reveals: 'language-usage-in-a-play' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_21_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re watching Manjula Nayak on television — she says she "loves her sister" but her Image on screen asks, "Was it love or guilt?" How do you answer.',
+          caseStudy: { intro: 'Answer \'Broken Images\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify the two question types: "What reason does Manjula give for writing her novel in English?" and "Why does the playwright make.', options: [
                 { text: 'First question is literal (text states: "it burst out in English', outcome: 'First question is literal (text states: "it burst out in English... surprised even me").' },
                 { text: 'inferential', outcome: 'Not quite — Students treat "inferential" as "guessing" and write opinions like "I feel Manjula is jealous".', reveals: 'students-treat-inferential-as-guessing' },
@@ -74,12 +74,12 @@ export const c12_eng_k_ch21_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_21_007', difficulty: 'standard',
-          question: 'Secondary themes in a literary work are the subordinate but significant.',
+          question: 'Secondary themes in \'Broken Images\' — the supporting ideas and motifs that.',
           hint: 'If stuck, revisit the "Topic vs. Theme" mini-lesson in c11_eng_h_cbse_01_007 and practise.',
           misconception: 'Students often treat "secondary themes" as a *list of topics* (disability, marriage, fame) rather than *thematic.',
           parts: [
@@ -92,7 +92,7 @@ export const c12_eng_k_ch21_p2: SimDef = {
                   hint: 'If stuck, revisit the "Topic vs. Theme" mini-lesson in c11_eng_h_cbse_01_007 and practise.',
                   misconception: 'Students often treat "secondary themes" as a *list of topics* (disability, marriage, fame) rather than *thematic arguments* the play makes.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student cannot distinguish topic from theme, assign this 3-step remediation: (1) Re-read the Image–Manjula.', '232–233 (Malini\'s "best of everything" vs.', 'Manjula\'s "reconciled to being second best").', '(2) Complete a two-column table: Column A = "What the play *shows* about disability/family" (evidence), Column.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student cannot distinguish topic from theme, assign this 3-step remediation: (1) Re-read the Image–Manjula.', '232–233 (Malini\'s "best of everything" vs.', 'Manjula\'s "reconciled to being second best").', '(2) Complete a two-column table: Column A = "What the play *shows* about disability/family" (evidence), Column.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_21_007', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -103,31 +103,31 @@ export const c12_eng_k_ch21_p2: SimDef = {
                   hint: 'If stuck, revisit the "Topic vs. Theme" mini-lesson in c11_eng_h_cbse_01_007 and practise.',
                   misconception: 'Students often treat "secondary themes" as a *list of topics* (disability, marriage, fame) rather than *thematic arguments* the play makes.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student cannot distinguish topic from theme, assign this 3-step remediation: (1) Re-read the Image–Manjula.', '232–233 (Malini\'s "best of everything" vs.', 'Manjula\'s "reconciled to being second best").', '(2) Complete a two-column table: Column A = "What the play *shows* about disability/family" (evidence), Column.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student cannot distinguish topic from theme, assign this 3-step remediation: (1) Re-read the Image–Manjula.', '232–233 (Malini\'s "best of everything" vs.', 'Manjula\'s "reconciled to being second best").', '(2) Complete a two-column table: Column A = "What the play *shows* about disability/family" (evidence), Column.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_21_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Broken Images\' — the vivid, sensory language that creates.',
           hint: 'If stuck, review the "sensory modality checklist" (V/A/T/O/G) from c7_engl_ch01_008 and.',
           misconception: 'Students often treat *every* descriptive phrase as "imagery" and *every* comparison as "metaphor." In *Broken Images*.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Imagery is the use of vivid, sensory language that appeals to the five senses (sight,',
-                  options: ['Imagery is the use of vivid, sensory language that appeals to the five senses (sight,', '"Before You Read: Context and Background" is a preparatory section that equips students', 'Plot and narrative structure in "Broken Images" refers to the deliberate arrangement of', 'Setting in drama refers to the time, place, and physical environment where the action'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Imagery in \'Broken Images\'',
+                  options: ['Imagery in \'Broken Images\'', '\'Broken Images\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Broken Images\'', 'The setting of \'Broken Images\''],
                   hint: 'If stuck, review the "sensory modality checklist" (V/A/T/O/G) from c7_engl_ch01_008 and practice.',
                   misconception: 'Students often treat *every* descriptive phrase as "imagery" and *every* comparison as "metaphor." In *Broken Images*, "I was a long jump.' }
           ],
-            remediations: { 'students-often-treat-every-descriptive': { steps: ['Re-read the opening stage directions and Manjula\'s first speech.', 'Highlight **only** words triggering sight/sound/touch/smell/taste/internal sensation.', 'For each highlighted word, label the sense modality (V/A/T/O/G).', 'Revisit c6_english_u1_005 (Poetic Devices: Metaphor, Imagery) and c7_engl_ch01_008 (Literary Devices: Imagery and.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-every-descriptive': { steps: ['Re-read the opening stage directions and Manjula\'s first speech.', 'Highlight **only** words triggering sight/sound/touch/smell/taste/internal sensation.', 'For each highlighted word, label the sense modality (V/A/T/O/G).', 'Revisit c6_english_u1_005 (Poetic Devices: Metaphor, Imagery) and c7_engl_ch01_008 (Literary Devices: Imagery and.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_21_009', difficulty: 'standard',
-          question: 'Irony in *Broken Images* is a literary device where the intended meaning.',
+          question: 'Irony and paradox in \'Broken Images\' — where opposite things are both true,.',
           hint: 'If stuck, revisit the definition of dramatic irony in Class 11 Hornbill Chapter 1 (node.',
           misconception: 'Students often treat the "Image" as a supernatural ghost or a sci-fi glitch rather than a **dramatized symbol.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony in *Broken Images* is a literary device where the intended meaning of words or',
-                  options: ['Irony in *Broken Images* is a literary device where the intended meaning of words or', '"Before You Read: Context and Background" is a preparatory section that equips students', 'Plot and narrative structure in "Broken Images" refers to the deliberate arrangement of', 'Setting in drama refers to the time, place, and physical environment where the action'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'Broken Images\'',
+                  options: ['Irony and paradox in \'Broken Images\'', '\'Broken Images\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Broken Images\'', 'The setting of \'Broken Images\''],
                   hint: 'If stuck, revisit the definition of dramatic irony in Class 11 Hornbill Chapter 1 (node.',
                   misconception: 'Students often treat the "Image" as a supernatural ghost or a sci-fi glitch rather than a **dramatized symbol of Manjula\'s divided self**.' }
           ],
-            remediations: { 'students-often-treat-the-image': { steps: ['Re-read the "Thinking about the Play" questions in the textbook (pp.', '237-238), focusing on Q1 (genuineness of love) and Q3 (Image\'s comment on Malini).', 'Review node **c12_eng_k_cbse_21_004** (Protagonist analysis) to re-establish Manjula\'s psychology.', 'Watch a 5-minute clip of the NSD staging (YouTube: "Broken Images Girish Karnad") to see the Image performed as.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-image': { steps: ['Re-read the "Thinking about the Play" questions in the textbook (pp.', '237-238), focusing on Q1 (genuineness of love) and Q3 (Image\'s comment on Malini).', 'Review node **c12_eng_k_cbse_21_004** (Protagonist analysis) to re-establish Manjula\'s psychology.', 'Watch a 5-minute clip of the NSD staging (YouTube: "Broken Images Girish Karnad") to see the Image performed as.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_21_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the ability to determine the meaning.',
+          question: 'Key vocabulary of \'Broken Images\' — the words and phrases you must know to read.',
           hint: 'If stuck, return to c12_eng_k_cbse_21_002 (Plot) and map the 5 key vocabulary words.',
           misconception: 'Students often treat "Vocabulary in Context" as **memorizing definitions of difficult words** (e.g., "meningomyelocele.',
           parts: [
@@ -140,9 +140,9 @@ export const c12_eng_k_ch21_p2: SimDef = {
                   hint: 'If stuck, return to c12_eng_k_cbse_21_002 (Plot) and map the 5 key vocabulary words to the 5.',
                   misconception: 'Students often treat "Vocabulary in Context" as **memorizing definitions of difficult words** (e.g., "meningomyelocele = spinal defect").' }
           ],
-            remediations: { 'students-often-treat-vocabulary-in': { steps: ['**Re-read the play** marking every word that feels "heavy," "foreign," or "deliberate" (not just unknown words — also.', '**For each marked word**, write: (a) Dictionary meaning, (b) What the *character* means by it in that moment, (c) What.', '**Revisit node c12_eng_k_cbse_21_009 (Irony and Symbolism)** and c12_eng_k_cbse_21_006 (Primary Theme) to see how.', '**Re-diagnostic:** Take Diagnostic Questions 2, 4, and 5 again — they test the exact shift from definition to dramatic.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-vocabulary-in': { steps: ['**Re-read the play** marking every word that feels "heavy," "foreign," or "deliberate" (not just unknown words — also.', '**For each marked word**, write: (a) Dictionary meaning, (b) What the *character* means by it in that moment, (c) What.', '**Revisit node c12_eng_k_cbse_21_009 (Irony and Symbolism)** and c12_eng_k_cbse_21_006 (Primary Theme) to see how.', '**Re-diagnostic:** Take Diagnostic Questions 2, 4, and 5 again — they test the exact shift from definition to dramatic.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_21_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the specific grammatical patterns.',
+          question: 'Language and style in \'Broken Images\' — how the writer chose words, sentences.',
           hint: 'If stuck on register analysis, revisit c11_eng_h_cbse_01_011 (Portrait of a Lady — formal.',
           misconception: 'Students often believe "language usage in a play" means identifying figures of speech (metaphor, irony) and overlook.',
           parts: [
@@ -151,9 +151,9 @@ export const c12_eng_k_ch21_p2: SimDef = {
                   hint: 'If stuck on register analysis, revisit c11_eng_h_cbse_01_011 (Portrait of a Lady — formal vs.',
                   misconception: 'Students often believe "language usage in a play" means identifying figures of speech (metaphor, irony) and overlook **syntax.' }
           ],
-            remediations: { 'language-usage-in-a-play': { steps: ['If the student cannot distinguish register shift from mere "tone change," have them: (1) Transcribe 5 lines each from.', '(2) Color-code: passive verbs (blue), imperatives (red), first-person pronouns (green), contractions (yellow), Kannada.', '(3) Count frequencies per speaker.', '(4) Write one claim per color: "The Announcer uses 4 passives; Manjula uses 0 in her monologue → institutional vs.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'language-usage-in-a-play': { steps: ['If the student cannot distinguish register shift from mere "tone change," have them: (1) Transcribe 5 lines each from.', '(2) Color-code: passive verbs (blue), imperatives (red), first-person pronouns (green), contractions (yellow), Kannada.', '(3) Count frequencies per speaker.', '(4) Write one claim per color: "The Announcer uses 4 passives; Manjula uses 0 in her monologue → institutional vs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_21_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve explicitly stated.',
+          question: 'Literal comprehension of \'Broken Images\' — questions answered straight from the.',
           hint: 'If stuck on inferential leaps, revisit c12_eng_k_cbse_21_009 (Irony and Symbolism) — the.',
           misconception: 'Students treat "inferential" as "guessing" and write opinions like "I feel Manjula is jealous" without anchoring in the.',
           parts: [
@@ -170,7 +170,7 @@ export const c12_eng_k_ch21_p2: SimDef = {
                   hint: 'If stuck on inferential leaps, revisit c12_eng_k_cbse_21_009 (Irony and Symbolism) — the Image\'s.',
                   misconception: 'Students treat "inferential" as "guessing" and write opinions like "I feel Manjula is jealous" without anchoring in the Image\'s line "What.' }
           ],
-            remediations: { 'students-treat-inferential-as-guessing': { steps: ['If a student cannot separate literal from inferential: Step 1 — Give them the Announcer\'s speech (lines 1-30).', 'Ask: "Highlight every FACT (literal) in yellow, every OPINION/ACCUSATION (inferential trigger) in pink." Step 2 — For.', 'Step 3 — Model answering one using only yellow highlights as evidence.', 'Step 4 — Assign node c12_eng_k_cbse_21_002 (Plot) and c12_eng_k_cbse_21_004 (Protagonist) for re-study, then re-attempt.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-inferential-as-guessing': { steps: ['If a student cannot separate literal from inferential: Step 1 — Give them the Announcer\'s speech (lines 1-30).', 'Ask: "Highlight every FACT (literal) in yellow, every OPINION/ACCUSATION (inferential trigger) in pink." Step 2 — For.', 'Step 3 — Model answering one using only yellow highlights as evidence.', 'Step 4 — Assign node c12_eng_k_cbse_21_002 (Plot) and c12_eng_k_cbse_21_004 (Protagonist) for re-study, then re-attempt.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

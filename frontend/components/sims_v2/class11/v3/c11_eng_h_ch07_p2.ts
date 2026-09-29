@@ -19,7 +19,7 @@ export const c11_eng_h_ch07_p2: SimDef = {
         hook: 'Not time travel but a sidestep — many-worlds says another \'now\' exists where Panipat went the other way.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas or messages in a literary work that support, complement, or contrast with the primary theme; they emerge through recurring motifs, character dialogues.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Laburnum Top\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_07_007', title: 'Your mission',
@@ -29,27 +29,27 @@ export const c11_eng_h_ch07_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_07_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re discussing "The Adventure" with a friend who says, "It\'s just a story about a professor dreaming of a different Battle of Panipat." You know.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Laburnum Top\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'Name any two secondary themes present in "The Adventure" besides the primary theme of alternate history.', options: [
                 { text: 'Two secondary themes are: (1) The role of chance and contingency in shaping historical', outcome: 'Two secondary themes are: (1) The role of chance and contingency in shaping historical outcomes.' },
                 { text: 'the Battle of Panipat', outcome: 'Not quite — Students often confuse secondary themes with "subplots" or "minor topics." For example, they list.', reveals: 'students-often-confuse-secondary-themes' },
                 { text: 'Professor Gaitonde\'s journey', outcome: 'Not quite — Students often confuse secondary themes with "subplots" or "minor topics." For example, they list.', reveals: 'students-often-confuse-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_07_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you\'re reading a history textbook and suddenly the Battle of Panipat has a different winner — that\'s the shock Professor Gaitonde experiences.',
+          caseStudy: { intro: 'Look in \'The Laburnum Top\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define situational irony and give one example from "The Adventure" where Professor Gaitonde\'s expectations about history are contradicted.', options: [
                 { text: 'Situational irony occurs when the outcome of a situation is sharply different from what', outcome: 'Situational irony occurs when the outcome of a situation is sharply different from what was.' },
                 { text: 'the train is a metaphor for life\'s journey', outcome: 'Not quite — Students often confuse *symbolism* with *metaphor* — they say "the train is a metaphor for life\'s.', reveals: 'students-often-confuse-symbolism-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_07_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading "The Adventure" and encounter the phrase "catastrophe theory" — you know both words separately, but together they signal a specific.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Laburnum Top\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'Define "contextual meaning" and explain how it differs from "denotative meaning" using one example from any text you have studied.', options: [
                 { text: 'Contextual meaning is the specific sense a word acquires from its surrounding linguistic', outcome: 'Contextual meaning is the specific sense a word acquires from its surrounding linguistic.' },
                 { text: 'The Adventure', outcome: 'Not quite — Students treat "vocabulary in context" as "find the meaning of difficult words" and hunt for.', reveals: 'students-treat-vocabulary-in-context' },
                 { text: 'transition', outcome: 'Not quite — Students treat "vocabulary in context" as "find the meaning of difficult words" and hunt for.', reveals: 'students-treat-vocabulary-in-context' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_07_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and see a question: "Why did Professor Gaitonde decide to go to the library in the alternate Bombay?" — you scan the.',
+          caseStudy: { intro: 'Answer \'The Laburnum Top\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the defining difference between a literal comprehension question and an inferential comprehension question in the CBSE Class 11.', options: [
                 { text: 'A literal question\'s answer is explicitly stated in the text and can be located in one or', outcome: 'A literal question\'s answer is explicitly stated in the text and can be located in one or two.' },
                 { text: 'inferential means guessing', outcome: 'Not quite — Students believe "inferential" means "any answer I think makes sense" and therefore write opinions.', reveals: 'inferential-means-any-answer-i' },
@@ -74,7 +74,7 @@ export const c11_eng_h_ch07_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas or messages in a literary work that.',
+          question: 'Secondary themes in \'The Laburnum Top\' — the supporting ideas and motifs that.',
           hint: 'If stuck, return to c11_eng_h_cbse_07_006 and re-do the "theme statement + three.',
           misconception: 'Students often confuse secondary themes with "subplots" or "minor topics." For example, they list "the Azad Maidan.',
           parts: [
@@ -100,7 +100,7 @@ export const c11_eng_h_ch07_p2: SimDef = {
           ],
             remediations: { 'students-often-confuse-secondary-themes': { steps: ['If a student lists plot events as themes: (1) Have them write the event as a noun phrase (e.g., "the train journey").'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'The Laburnum Top\' — the vivid, sensory language that creates.',
           hint: 'If stuck, review c11_eng_h_cbse_07_002 (Plot) focusing on the sequence of reality-tests.',
           misconception: 'Students often treat imagery as merely "descriptive writing" and metaphor as merely "decoration." In "The Adventure,".',
           parts: [
@@ -111,7 +111,7 @@ export const c11_eng_h_ch07_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-imagery-as': { steps: ['Have the student reread the Victoria Terminus arrival scene (first 3 paragraphs) with three highlighters: one for each.', 'Ask: "If you removed all highlighted phrases, what would Gaitonde *know* about where he is?" Guide them to see that.', 'For metaphor, give the sentence "The train of history had jumped the tracks." Have them draw the two domains.', 'history/events) and list three mappings (tracks = predetermined course, jumping = sudden divergence, derailment.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_009', difficulty: 'standard',
-          question: 'Irony is a literary device where there is a contrast between expectation and.',
+          question: 'Irony and paradox in \'The Laburnum Top\' — where opposite things are both true.',
           hint: 'If stuck, review c11_eng_h_cbse_07_008 (Imagery and Metaphor) — the step from.',
           misconception: 'Students often confuse *symbolism* with *metaphor* — they say "the train is a metaphor for life\'s journey" — but.',
           parts: [
@@ -122,7 +122,7 @@ export const c11_eng_h_ch07_p2: SimDef = {
           ],
             remediations: { 'students-often-confuse-symbolism-with': { steps: ['Have the student list 3 moments where Gaitonde\'s expectations fail — then label each as situational, dramatic,.', 'Give them two columns: "Literal Object" and "Abstract Idea" — match train, books, lecture chair, Azad Maidan.', 'Ask: "If this object were removed, would the theme still be clear?" — if yes, it\'s not a central symbol.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'The Laburnum Top\' — the words and phrases you must know.',
           hint: 'If stuck on register identification: Review Class 10 "Nelson Mandela" vocabulary node.',
           misconception: 'Students treat "vocabulary in context" as "find the meaning of difficult words" and hunt for obscure terms (e.g.',
           parts: [
@@ -137,7 +137,7 @@ export const c11_eng_h_ch07_p2: SimDef = {
           ],
             remediations: { 'students-treat-vocabulary-in-context': { steps: ['Give the student a 100-word excerpt from the story\'s climax.', 'Ask them to highlight every word that refers to "reality/existence" (real, world, history, book, experience, fact.', 'Have them write the contextual definition for each IN THAT EXCERPT ONLY.', 'Compare with dictionary definitions.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the systematic analysis of how.',
+          question: 'Language and style in \'The Laburnum Top\' — how the writer chose words.',
           hint: 'Review Class 10 reported speech rules (backshift, pronoun change, time/place adverbials).',
           misconception: 'Students treat grammar in literature as \'correctness\' rather than \'choice\', assuming past tense is just \'how stories.',
           parts: [
@@ -148,7 +148,7 @@ export const c11_eng_h_ch07_p2: SimDef = {
           ],
             remediations: { 'students-treat-grammar-in-literature': { steps: ['Give the student a 5-sentence excerpt with all verbs blanked; ask them to fill in tenses based on time markers (e.g.', 'Have them physically map the story\'s three time zones (1761, 20th-century \'real\', 20th-century \'alternate\') on.', 'Practice converting 5 direct-speech lines to reported speech with backshift, highlighting how the reporting verb.', 'Finally, ask them to rewrite one paragraph changing all passives to actives and discuss what is lost (scientific.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'The Laburnum Top\' — questions answered straight from.',
           hint: 'If stuck, re-read the Rajendra Deshpande dialogue sections (catastrophe theory.',
           misconception: 'Students believe "inferential" means "any answer I think makes sense" and therefore write opinions unsupported by the.',
           parts: [

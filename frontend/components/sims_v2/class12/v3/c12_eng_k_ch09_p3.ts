@@ -19,7 +19,7 @@ export const c12_eng_k_ch09_p3: SimDef = {
         hook: 'Coleridge\'s aim was \'presenting the supernatural as real\' — Xanadu\'s dome, the sacred river, the demon-lover told flat as fact. Where Wordsworth made the ordinary strange, Coleridge made the strange ordinary. The fragment isn\'t broken; it\'s a glimpse of infinity the page couldn\'t hold.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves evaluating a text\'s deeper meanings by examining how language, structure, and context interact to produce effects, rather than merely summarizing.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Kubla Khan\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_09_013', title: 'Your mission',
@@ -29,20 +29,20 @@ export const c12_eng_k_ch09_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are asked: "Why does Coleridge end \'Kubla Khan\' with a warning — \'Beware!',
+          caseStudy: { intro: 'Analyse \'Kubla Khan\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the subtitle of the poem "Kubla Khan" as given in the NCERT text, and what does it suggest about the poem\'s composition?', options: [
                 { text: 'The subtitle is "A Vision in a Dream: A Fragment"', outcome: 'The subtitle is "A Vision in a Dream: A Fragment". It suggests the poem originated in a dream state.' },
                 { text: 'A Vision in a Dream: A Complete Poem', outcome: 'Not quite — Students often treat "Kubla Khan" as a straightforward narrative about a historical emperor and his.', reveals: 'students-often-treat-kubla-khan' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing a 6-mark question: "Analyse how Coleridge uses contrasting imagery to present the creative process in Kubla Khan." Your.',
+          caseStudy: { intro: 'For written answers on \'Kubla Khan\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing literature answers, and what is the purpose of each component?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. Point states the main argument; Evidence.' },
                 { text: 'Point, Example, Explain, Leave', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarising the poem\'s story.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarising the poem\'s story.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a literature circle discussing "The World Is Too Much With Us" and a classmate says, "Wordsworth just hates cities." How do you move beyond.',
+          caseStudy: { intro: 'Talk through \'Kubla Khan\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of a \'discussion point\' in a Class 12 literature speaking-listening task?', options: [
                 { text: 'A discussion point is a prepared, textually anchored observation or question designed to', outcome: 'A discussion point is a prepared, textually anchored observation or question designed to deepen.' },
                 { text: 'sharing what I feel about the poem', outcome: 'Not quite — Students believe a good discussion contribution is a long, fluent speech expressing personal.', reveals: 'a-good-discussion-contribution-is' }
@@ -66,7 +66,7 @@ export const c12_eng_k_ch09_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves evaluating a text\'s deeper.',
+          question: 'Critical thinking on \'Kubla Khan\' — analysing the text to reach evidence-based.',
           hint: 'If stuck, return to c12_eng_k_cbse_09_008 (Literary Devices: Imagery and Metaphor) and.',
           misconception: 'Students often treat "Kubla Khan" as a straightforward narrative about a historical emperor and his palace, ignoring.',
           parts: [
@@ -77,7 +77,7 @@ export const c12_eng_k_ch09_p3: SimDef = {
           ],
             remediations: { 'students-often-treat-kubla-khan': { steps: ['If the student cannot move beyond plot summary: (1) Have them re-read only the final stanza and answer: "Who is \'I\'?', 'What is the \'dome in air\'?', 'Why \'Beware\'?" (2) Map the poem\'s pronouns on paper: circle every "he/his" (Kubla) and "I/me" (poet).', '(3) Ask: "Which builder succeeds — Kubla or the poet?" The answer (the poet, through the poem) reveals the meta-theme.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter refers to the ability to compose.',
+          question: 'Writing skills from \'Kubla Khan\' — using the text as a model or springboard for.',
           hint: 'If stuck, return to c12_eng_k_cbse_09_008 (Imagery and Metaphor) and practice converting.',
           misconception: 'Students believe "writing skills based on the chapter" means summarising the poem\'s story or listing poetic devices.',
           parts: [
@@ -103,12 +103,12 @@ export const c12_eng_k_ch09_p3: SimDef = {
           ],
             remediations: { 'writing-skills-based-on-the': { steps: ['If a student cannot move beyond feature-spotting: (1) Give them a weak answer (device-listing) and a strong answer.', '(2) Model the "So what?" drill: after every quote, ask "So what does this *do* for the reader?" until they articulate.', '(3) Assign a 6-mark question requiring zero device names — only effects and interpretations.', '(4) Revisit c12_eng_k_cbse_09_008 (Imagery and Metaphor) and c12_eng_k_cbse_09_009 (Irony and Symbolism) to rebuild.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured practice.',
+          question: 'Discussion points on \'Kubla Khan\' — speaking and listening around the text.',
           hint: 'If stuck, revisit the "Critical Thinking: Analysis and Interpretation" node.',
           misconception: 'Students believe a good discussion contribution is a long, fluent speech expressing personal admiration for the poem\'s.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to the structured practice of orally',
-                  options: ['Speaking and Listening: Discussion Points refers to the structured practice of orally', '"Before You Read: Context and Background" for *Kubla Khan* provides the essential', 'Plot and narrative structure in poetry refers to the deliberate arrangement of events,', 'Setting in poetry refers to the time, place, and social environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'Kubla Khan\'',
+                  options: ['Discussion points on \'Kubla Khan\'', '\'Kubla Khan\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Kubla Khan\'', 'The setting of \'Kubla Khan\''],
                   hint: 'If stuck, revisit the "Critical Thinking: Analysis and Interpretation" node (c12_eng_k_cbse_09_013).',
                   misconception: 'Students believe a good discussion contribution is a long, fluent speech expressing personal admiration for the poem\'s beauty.' }
           ],

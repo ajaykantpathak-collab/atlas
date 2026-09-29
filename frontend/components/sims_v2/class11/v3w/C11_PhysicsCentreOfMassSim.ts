@@ -6,13 +6,13 @@ import C11_PhysicsCentreOfMassSim from '../../../simulations/three/C11_PhysicsCe
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicscentreofmasssim: SimDef = {
     id: 'v3w_c11_physicscentreofmasssim',
-    title: 'Centre Of Mass',
+    title: 'Orbital Velocity and Period of Satellite',
     subtitle: 'Covers circular orbits only; elliptical orbits are addressed in Kepler\'s laws node.',
     classLevel: 11, subject: 'physics', topic: 'Orbital Velocity and Period of Satellite',
     chapters: [],
     nodeIds: ['c11_phy_cbse_07_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Watch a video of the International Space Station passing overhead — it moves at about 7.7 km/s at 400 km.', goal: 'Master Centre Of Mass.' },
+    scenario: { role: 'a class 11 learner', intro: 'Watch a video of the International Space Station passing overhead — it moves at about 7.7 km/s at 400 km.', goal: 'Master Orbital Velocity and Period of Satellite.' },
     discovery: {
         question: 'What is the orbital velocity of a satellite in a circular orbit just above Earth\'s surface (h ≈ 0)?',
         options: ['v₀ = √(gR_E) = √(9.8 × 6.4×10⁶) ≈ 7920 m/s ≈ 7.92 km/s', 'space has no gravity', 'satellites float'],
@@ -33,7 +33,7 @@ export const w_c11_physicscentreofmasssim: SimDef = {
             { text: 'Verify reasonableness: ISS at 400 km has v ≈ 7.7 km/s, T ≈ 93 min. Higher altitude → lower v, longer T.', faded: true, blankAnswer: 'v = 7.44 km/s, T = 101.1 minutes (6065 s)' }
             ] } }
     ],
-    explore: { component: C11_PhysicsCentreOfMassSim, prompt: 'Explore the interactive — Centre Of Mass' },
+    explore: { component: C11_PhysicsCentreOfMassSim, prompt: 'Explore the interactive — Orbital Velocity and Period of Satellite' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_07_011', difficulty: 'standard',
           question: 'Orbital velocity is the minimum horizontal velocity required for a satellite to.',

@@ -6,13 +6,13 @@ import C10_MathematicsConstructionTangentsCircleSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_mathematicsconstructiontangentscirclesim: SimDef = {
     id: 'v3w_c10_mathematicsconstructiontangentscirclesim',
-    title: 'Construction Tangents Circle',
+    title: 'Number of Tangents from a Point Outside the Circle',
     subtitle: 'Covers the existence and number of tangents from an external point (exactly two), the.',
     classLevel: 10, subject: 'mathematics', topic: 'Number of Tangents from a Point Outside the Circle',
     chapters: [],
     nodeIds: ['c10_math_cbse_10_005', 'c10_math_cbse_10_007', 'c10_math_cbse_10_009', 'c10_math_cbse_10_001', 'c10_math_cbse_10_002', 'c10_math_cbse_10_003', 'c10_math_cbse_10_004', 'c10_math_cbse_10_006', 'c10_math_cbse_10_008', 'c10_math_cbse_10_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you are standing 10 metres away from a circular fountain of radius 3 metres in your school courtyard.', goal: 'Master Construction Tangents Circle.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you are standing 10 metres away from a circular fountain of radius 3 metres in your school courtyard.', goal: 'Master Number of Tangents from a Point Outside the Circle.' },
     discovery: {
         question: 'A student claims: "From a point outside a circle, we can draw three tangents if the point is far enough away." Evaluate this claim and explain the error.',
         options: ['The claim is false', 'tangent', 'line through the point intersecting the circle'],
@@ -80,7 +80,7 @@ export const w_c10_mathematicsconstructiontangentscirclesim: SimDef = {
             { text: 'OT = √625 = 25 m. The distance from the garden\'s centre to the gate is 25 m.', faded: true, blankAnswer: '25 m' }
             ] } },
         { type: 'dissect', nodeId: 'c10_math_cbse_10_007', title: 'Identify each idea',
-          dissect: { specimen: 'Construction Tangents Circle', spots: [
+          dissect: { specimen: 'Number of Tangents from a Point Outside the Circle', spots: [
             { id: 's1', label: 'From a point outside a', prompt: 'Which idea is this? — From a point outside a circle, exactly two tangents can be drawn to the circle.', answer: 'From a point outside a', options: ['From a point outside a', 'The tangent from an external', 'A triangle or quadrilateral is', 'A tangent to a circle'] },
             { id: 's2', label: 'The tangent from an external', prompt: 'Which idea is this? — The tangent from an external point to a circle is proved to have specific properties.', answer: 'The tangent from an external', options: ['The tangent from an external', 'From a point outside a', 'A triangle or quadrilateral is', 'A tangent to a circle'] },
             { id: 's3', label: 'A triangle or quadrilateral is', prompt: 'Which idea is this? — A triangle or quadrilateral is said to **circumscribe** a circle (or the circle is.', answer: 'A triangle or quadrilateral is', options: ['A triangle or quadrilateral is', 'From a point outside a', 'The tangent from an external', 'A tangent to a circle'] },
@@ -89,7 +89,7 @@ export const w_c10_mathematicsconstructiontangentscirclesim: SimDef = {
             { id: 's6', label: 'The tangent to a circle', prompt: 'Which idea is this? — The tangent to a circle at any point P is perpendicular to the radius OP drawn to the.', answer: 'The tangent to a circle', options: ['The tangent to a circle', 'From a point outside a', 'The tangent from an external', 'A triangle or quadrilateral is'] }
           ] } }
     ],
-    explore: { component: C10_MathematicsConstructionTangentsCircleSim, prompt: 'Explore the interactive — Construction Tangents Circle' },
+    explore: { component: C10_MathematicsConstructionTangentsCircleSim, prompt: 'Explore the interactive — Number of Tangents from a Point Outside the Circle' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_math_cbse_10_005', difficulty: 'standard',
           question: 'From a point outside a circle, exactly two tangents can be drawn to the circle.',

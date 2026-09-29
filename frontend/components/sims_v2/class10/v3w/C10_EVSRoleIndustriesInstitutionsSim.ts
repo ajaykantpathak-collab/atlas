@@ -6,13 +6,13 @@ import C10_EVSRoleIndustriesInstitutionsSim from '../../../simulations/c6_12/C10
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_evsroleindustriesinstitutionssim: SimDef = {
     id: 'v3w_c10_evsroleindustriesinstitutionssim',
-    title: 'Role Industries Institutions',
+    title: 'Manufacturing: Importance and Industrial Location Factors',
     subtitle: 'Covers the definition and economic importance of manufacturing in the Indian context and.',
     classLevel: 10, subject: 'evs', topic: 'Manufacturing: Importance and Industrial Location Factors',
     chapters: [],
     nodeIds: ['c10_geo_cbse_06_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Observe a factory near your city — perhaps a sugar mill in Uttar Pradesh or a textile unit in Tamil Nadu —.', goal: 'Master Role Industries Institutions.' },
+    scenario: { role: 'a class 10 learner', intro: 'Observe a factory near your city — perhaps a sugar mill in Uttar Pradesh or a textile unit in Tamil Nadu —.', goal: 'Master Manufacturing: Importance and Industrial Location Factors.' },
     discovery: {
         question: 'Why do sugar mills in India concentrate in the sugarcane-growing belts of Uttar Pradesh, Maharashtra, and Karnataka, even though sugar can be transported.',
         options: ['Sugarcane is a weight-losing, perishable raw material', 'raw material availability', 'weight-losing'],
@@ -33,7 +33,7 @@ export const w_c10_evsroleindustriesinstitutionssim: SimDef = {
             { text: 'Compare with moving sugar — 600 tonnes sugar needs only 30 trucks; lower freight, no perishability.', faded: true, blankAnswer: 'Daily sugar output = 600 tonnes. Relocation to Delhi is.' }
             ] } }
     ],
-    explore: { component: C10_EVSRoleIndustriesInstitutionsSim, prompt: 'Explore the interactive — Role Industries Institutions' },
+    explore: { component: C10_EVSRoleIndustriesInstitutionsSim, prompt: 'Explore the interactive — Manufacturing: Importance and Industrial Location Factors' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_geo_cbse_06_001', difficulty: 'standard',
           question: 'Manufacturing is the process of transforming raw materials into finished goods.',

@@ -6,13 +6,13 @@ import C12_ComputerScienceSecurityAspectsSim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_computersciencesecurityaspectssim: SimDef = {
     id: 'v3w_c12_computersciencesecurityaspectssim',
-    title: 'Security Aspects',
+    title: 'E-Waste Management and Disposal',
     subtitle: 'This node covers: definition and classification of e-waste, hazardous constituents and.',
     classLevel: 12, subject: 'computer_science', topic: 'E-Waste Management and Disposal',
     chapters: [],
     nodeIds: ['c12_cs_cbse_13_003', 'c12_cs_cbse_13_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine your family just upgraded from a 5-year-old CRT television to a new smart TV.', goal: 'Master Security Aspects.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine your family just upgraded from a 5-year-old CRT television to a new smart TV.', goal: 'Master E-Waste Management and Disposal.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'E-Waste (Electronic Waste) refers to.', text: 'E-Waste (Electronic Waste) refers to discarded electrical or electronic devices such as computers, mobile phones, televisions, and refrigerators that have reached the end of their useful life.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -38,12 +38,12 @@ export const w_c12_computersciencesecurityaspectssim: SimDef = {
             { text: 'Generalise — This micro-interaction illustrates how platform defaults (visible to "Everyone") force teens into constant.', faded: true, blankAnswer: 'Arjun\'s setting change is a tactical boundary negotiation.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_cs_cbse_13_007', title: 'Identify each idea',
-          dissect: { specimen: 'Security Aspects', spots: [
+          dissect: { specimen: 'E-Waste Management and Disposal', spots: [
             { id: 's1', label: 'E-Waste Electronic Waste refers to', prompt: 'Which idea is this? — E-Waste (Electronic Waste) refers to discarded electrical or electronic devices such as.', answer: 'E-Waste Electronic Waste refers to', options: ['E-Waste Electronic Waste refers to', 'Social media refers to interactive'] },
             { id: 's2', label: 'Social media refers to interactive', prompt: 'Which idea is this? — Social media refers to interactive digital platforms that enable users to create, share,.', answer: 'Social media refers to interactive', options: ['Social media refers to interactive', 'E-Waste Electronic Waste refers to'] }
           ] } }
     ],
-    explore: { component: C12_ComputerScienceSecurityAspectsSim, prompt: 'Explore the interactive — Security Aspects' },
+    explore: { component: C12_ComputerScienceSecurityAspectsSim, prompt: 'Explore the interactive — E-Waste Management and Disposal' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_cs_cbse_13_003', difficulty: 'standard',
           question: 'E-Waste (Electronic Waste) refers to discarded electrical or electronic devices.',

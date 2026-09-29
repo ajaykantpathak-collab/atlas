@@ -66,7 +66,7 @@ export const C6_CHEM_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Metals React With Air And Moisture At",
+    "title": "Effect of Air and Water on Other Metals:",
     "text": "Metals react with air and moisture at different rates: some form protective layers (like aluminium and copper) that prevent further damage, while others, like gold, are inert and do not react at all.",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -993,7 +993,7 @@ export const C6_CHEM_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Magnetic Separation Uses a Magnet To",
+    "title": "Magnetic Separation Uses a Magnet",
     "text": "Magnetic separation uses a magnet to pull magnetic materials like iron, nickel, or cobalt out of a mixture with non-magnetic materials — such as separating iron nails from sawdust or iron filings from sand.",
     "emoji": "🧪",
     "bgColor": "from-amber-400 to-orange-500"

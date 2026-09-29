@@ -6,13 +6,13 @@ import C11_HomeScienceIndividualCommunicationVerbalSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_homescienceindividualcommunicationverbalsim: SimDef = {
     id: 'v3w_c11_homescienceindividualcommunicationverbalsim',
-    title: 'Home Science Individual Communication Verbal',
+    title: 'Communication: Definition, Concept and Scope',
     subtitle: 'This node covers the definition, etymological basis, four-fold classification framework.',
     classLevel: 11, subject: 'science', topic: 'Communication: Definition, Concept and Scope',
     chapters: [],
     nodeIds: ['c11_hs_cbse_06_001', 'c11_hs_cbse_06_003', 'c11_hs_cbse_06_004', 'c11_hs_cbse_06_005', 'c11_hs_cbse_06_002', 'c11_hs_cbse_06_006', 'c11_hs_cbse_06_007', 'c11_hs_cbse_06_008', 'c11_hs_cbse_06_009', 'c11_hs_cbse_06_010', 'c11_hs_cbse_06_011', 'c11_hs_cbse_06_012', 'c11_hs_cbse_02_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re trying to explain to your grandmother how to use a UPI payment app over a phone call — she.', goal: 'Master Home Science Individual Communication Verbal.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re trying to explain to your grandmother how to use a UPI payment app over a phone call — she.', goal: 'Master Communication: Definition, Concept and Scope.' },
     discovery: {
         question: 'Classify the following scenario into the correct *level of communication*: A student lies in bed at night, mentally rehearsing answers for tomorrow\'s viva.',
         options: ['Intra-personal communication', 'inter-personal', 'reveals the student equates'],
@@ -79,7 +79,7 @@ export const w_c11_homescienceindividualcommunicationverbalsim: SimDef = {
             { text: 'Plan for Effect (Feedback) – Conduct weekly spot-checks of handwashing practice at homes and use a simple tally sheet.', faded: true, blankAnswer: 'Source = ASHA workers/village elders; Message = visual.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_hs_cbse_06_003', title: 'Identify each idea',
-          dissect: { specimen: 'Home Science Individual Communication Verbal', spots: [
+          dissect: { specimen: 'Communication: Definition, Concept and Scope', spots: [
             { id: 's1', label: 'Communication is the continuous dynamic', prompt: 'Which idea is this? — Communication is the continuous, dynamic process of creating shared understanding by.', answer: 'Communication is the continuous dynamic', options: ['Communication is the continuous dynamic', 'Levels of communication refer to', 'Mass Communication is the process', 'Verbal communication is the transmission'] },
             { id: 's2', label: 'Levels of communication refer to', prompt: 'Which idea is this? — Levels of communication refer to the categorization of communication based on the number.', answer: 'Levels of communication refer to', options: ['Levels of communication refer to', 'Communication is the continuous dynamic', 'Mass Communication is the process', 'Verbal communication is the transmission'] },
             { id: 's3', label: 'Mass Communication is the process', prompt: 'Which idea is this? — Mass Communication is the process of disseminating messages to large, heterogeneous,.', answer: 'Mass Communication is the process', options: ['Mass Communication is the process', 'Communication is the continuous dynamic', 'Levels of communication refer to', 'Verbal communication is the transmission'] },
@@ -88,7 +88,7 @@ export const w_c11_homescienceindividualcommunicationverbalsim: SimDef = {
             { id: 's6', label: 'The SMCRE model is a', prompt: 'Which idea is this? — The SMCRE model is a linear framework that describes the communication process through.', answer: 'The SMCRE model is a', options: ['The SMCRE model is a', 'Communication is the continuous dynamic', 'Levels of communication refer to', 'Mass Communication is the process'] }
           ] } }
     ],
-    explore: { component: C11_HomeScienceIndividualCommunicationVerbalSim, prompt: 'Explore the interactive — Home Science Individual Communication Verbal' },
+    explore: { component: C11_HomeScienceIndividualCommunicationVerbalSim, prompt: 'Explore the interactive — Communication: Definition, Concept and Scope' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hs_cbse_06_001', difficulty: 'standard',
           question: 'Communication is the continuous, dynamic process of creating shared.',

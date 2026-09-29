@@ -139,8 +139,8 @@ export const c12_phy_ch07_p2: SimDef = {
                   options: ['The statement is false', 'coils and iron core are present', 'a transformer works with DC'],
                   hint: 'If stuck, review c10_phy_cbse_02_008 (Faraday’s law) and c12_phy_cbse_07_001 (RMS values) with the.',
                   misconception: 'Students often think a transformer works with DC because “coils and iron core are present.” They forget that a constant current produces.' },
-                { id: 'b', prompt: 'Design a simple experiment using a low-voltage AC source (e.g., 6 V from a lab transformer), two coils of different turns, and a multimeter to verify the.', answer: 'Steps: (1) Wind two coils on a common iron rod (e.g., Np = 200, Ns = 100)',
-                  options: ['Steps: (1) Wind two coils on a common iron rod (e.g., Np = 200, Ns = 100)', 'coils and iron core are present', 'a transformer works with DC'],
+                { id: 'b', prompt: 'Design a simple experiment using a low-voltage AC source (e.g., 6 V from a lab transformer), two coils of different turns, and a multimeter to verify the.', answer: '(1) Wind two coils on a common iron rod (e.g., Np = 200, Ns =',
+                  options: ['(1) Wind two coils on a common iron rod (e.g., Np = 200, Ns =', 'coils and iron core are present', 'a transformer works with DC'],
                   hint: 'If stuck, review c10_phy_cbse_02_008 (Faraday’s law) and c12_phy_cbse_07_001 (RMS values) with the.',
                   misconception: 'Students often think a transformer works with DC because “coils and iron core are present.” They forget that a constant current produces.' }
           ],

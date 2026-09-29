@@ -19,38 +19,38 @@ export const c12_eng_k_ch02_p1: SimDef = {
         hook: 'Joyce\'s epiphany isn\'t a joyful aha — it\'s bleak clarity: the organ tune carries her mother\'s fate, and Eveline sees escape as another trap. Modernism\'s move is interiority — \'evening invade the avenue\' — her paralysis is the real plot.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" provides the essential historical, literary, and biographical framework needed to interpret James Joyce\'s short story "Eveline," including the author\'s.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Eveline\' (Kaleidoscope, ch. 2) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_02_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Sit at that window in 1904 Dublin: weigh the dusty cretonne, the seven shillings, the deathbed promise and Frank\'s tales — and judge whether Eveline\'s stillness is failure or colonised fate.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_02_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re sitting in the exam hall and the question asks: "How does Joyce\'s narrative structure in \'Eveline\' reflect the protagonist\'s inability to act?".',
+          caseStudy: { intro: 'Trace \'Eveline\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the primary narrative point of view used in "Eveline," and how does it differ from first-person narration?', options: [
                 { text: 'The story uses third-person limited narration with free indirect discourse', outcome: 'The story uses third-person limited narration with free indirect discourse.' },
                 { text: 'first person because we hear her thoughts', outcome: 'Not quite — Students believe "plot" and "narrative structure" are synonyms and that listing events in order.', reveals: 'plot-and-narrative-structure-are' },
                 { text: 'narrative structure', outcome: 'Not quite — Students believe "plot" and "narrative structure" are synonyms and that listing events in order.', reveals: 'plot-and-narrative-structure-are' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_02_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine walking into your childhood bedroom at night when you\'re about to leave for college — the familiar smells, the creak of the floorboard, the way the.',
+          caseStudy: { intro: 'Identify where and when \'Eveline\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'Define "setting" and "atmosphere" in fiction. How do they differ from each other?', options: [
                 { text: 'Setting is the spatiotemporal and social context of a narrative (when, where, and under', outcome: 'Setting is the spatiotemporal and social context of a narrative (when, where, and under what.' },
                 { text: 'where and when', outcome: 'Not quite — Students consistently treat setting as a static "background" — listing where scenes happen (house.', reveals: 'students-consistently-treat-setting-as' },
                 { text: 'how it feels', outcome: 'Not quite — Students consistently treat setting as a static "background" — listing where scenes happen (house.', reveals: 'students-consistently-treat-setting-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_02_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re a Class 12 student who has just been offered a scholarship to a university in another city — but your aging parent relies on you, and you.',
+          caseStudy: { intro: 'Pick the central figure in \'Eveline\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the name of the protagonist in James Joyce\'s "Eveline," and what is her approximate age as stated in the text?', options: [
                 { text: 'The protagonist is Eveline Hill, and she is "over nineteen" years old', outcome: 'The protagonist is Eveline Hill, and she is "over nineteen" years old.' },
                 { text: 'Frank would save her', outcome: 'Not quite — Students often believe Eveline *chooses* to stay out of love for her father or home, citing her.', reveals: 'eveline-chooses-to-stay-out' },
                 { text: 'Frank or giving an incorrect age', outcome: 'Not quite — Students often believe Eveline *chooses* to stay out of love for her father or home, citing her.', reveals: 'eveline-chooses-to-stay-out' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_02_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are Eveline, sitting at that window, smelling the dusty cretonne, hearing the street organ play the same tune that played on your mother\'s death.',
+          caseStudy: { intro: 'Ask what \'Eveline\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the precise thematic statement (not a single word) that captures the primary theme of "Eveline"? Write it in one sentence.', options: [
                 { text: 'Correct answer: "The primary theme of \'Eveline\' is the psychological paralysis that', outcome: 'Correct answer: "The primary theme of \'Eveline\' is the psychological paralysis that results from.' },
                 { text: 'A wrong answer like', outcome: 'Not quite — Students consistently write "The theme of Eveline is paralysis" or "The theme is duty" — treating.', reveals: 'students-consistently-write-the-theme' },
@@ -70,12 +70,12 @@ export const c12_eng_k_ch02_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_02_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" provides the essential historical.',
+          question: '\'Eveline\' (Kaleidoscope, ch. 2) — the context and background to this text: who.',
           hint: 'If stuck, review Class 11 Hornbill Chapter 1\'s "Before You Read" (c11_eng_h_cbse_01_001).',
           misconception: 'Students often treat "context" as a decorative preamble — a few dates and names to memorize — rather than the.',
           parts: [
@@ -84,9 +84,9 @@ export const c12_eng_k_ch02_p1: SimDef = {
                   hint: 'If stuck, review Class 11 Hornbill Chapter 1\'s "Before You Read" (c11_eng_h_cbse_01_001) for the.',
                   misconception: 'Students often treat "context" as a decorative preamble — a few dates and names to memorize — rather than the *analytical key* that unlocks.' }
           ],
-            remediations: { 'students-often-treat-context-as': { steps: ['Re-read the textbook\'s "Before You Read" page (p.', '12) aloud, underlining every proper noun (Joyce, Dubliners, 1914, epiphany, Blessed Margaret Mary Alacoque).', 'Watch a 5-minute video on "Joyce and Dubliners" (e.g., BBC\'s *In Our Time* excerpt).', 'With a partner, explain *in your own words* why the story\'s first sentence ("evening invade the avenue") is modernist.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-context-as': { steps: ['Re-read the textbook\'s "Before You Read" page (p.', '12) aloud, underlining every proper noun (Joyce, Dubliners, 1914, epiphany, Blessed Margaret Mary Alacoque).', 'Watch a 5-minute video on "Joyce and Dubliners" (e.g., BBC\'s *In Our Time* excerpt).', 'With a partner, explain *in your own words* why the story\'s first sentence ("evening invade the avenue") is modernist.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_02_002', difficulty: 'standard',
-          question: 'Plot is the sequence of events in a story organized into a causal chain.',
+          question: 'The plot/narrative arc of \'Eveline\' — what happens, in what order, and why the.',
           hint: 'Review Freytag\'s pyramid and point-of-view definitions in c11_eng_h_cbse_01_002; practice.',
           misconception: 'Students believe "plot" and "narrative structure" are synonyms and that listing events in order constitutes analysis.',
           parts: [
@@ -103,7 +103,7 @@ export const c12_eng_k_ch02_p1: SimDef = {
                   hint: 'Review Freytag\'s pyramid and point-of-view definitions in c11_eng_h_cbse_01_002; practice.',
                   misconception: 'Students believe "plot" and "narrative structure" are synonyms and that listing events in order constitutes analysis.' }
           ],
-            remediations: { 'plot-and-narrative-structure-are': { steps: ['Have them reread the first three paragraphs and highlight every verb phrase describing Eveline\'s internal state ("was.', 'Give them a two-column table: left column = present-time sensory details (cretonne, footsteps, organ), right column.', 'Ask them to rewrite the dock scene in first person ("I gripped the iron") then in omniscient third ("The narrator knew.', 'Re-attempt Diagnostic Question 3 with the table as scaffold. If still stuck, revisit c11_eng_h_cbse_01_002 (Class 11.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'plot-and-narrative-structure-are': { steps: ['Have them reread the first three paragraphs and highlight every verb phrase describing Eveline\'s internal state ("was.', 'Give them a two-column table: left column = present-time sensory details (cretonne, footsteps, organ), right column.', 'Ask them to rewrite the dock scene in first person ("I gripped the iron") then in omniscient third ("The narrator knew.', 'Re-attempt Diagnostic Question 3 with the table as scaffold. If still stuck, revisit c11_eng_h_cbse_01_002 (Class 11.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_02_002', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -114,20 +114,20 @@ export const c12_eng_k_ch02_p1: SimDef = {
                   hint: 'Review Freytag\'s pyramid and point-of-view definitions in c11_eng_h_cbse_01_002; practice.',
                   misconception: 'Students believe "plot" and "narrative structure" are synonyms and that listing events in order constitutes analysis.' }
           ],
-            remediations: { 'plot-and-narrative-structure-are': { steps: ['Have them reread the first three paragraphs and highlight every verb phrase describing Eveline\'s internal state ("was.', 'Give them a two-column table: left column = present-time sensory details (cretonne, footsteps, organ), right column.', 'Ask them to rewrite the dock scene in first person ("I gripped the iron") then in omniscient third ("The narrator knew.', 'Re-attempt Diagnostic Question 3 with the table as scaffold. If still stuck, revisit c11_eng_h_cbse_01_002 (Class 11.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'plot-and-narrative-structure-are': { steps: ['Have them reread the first three paragraphs and highlight every verb phrase describing Eveline\'s internal state ("was.', 'Give them a two-column table: left column = present-time sensory details (cretonne, footsteps, organ), right column.', 'Ask them to rewrite the dock scene in first person ("I gripped the iron") then in omniscient third ("The narrator knew.', 'Re-attempt Diagnostic Question 3 with the table as scaffold. If still stuck, revisit c11_eng_h_cbse_01_002 (Class 11.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_02_003', difficulty: 'standard',
-          question: 'Setting in fiction refers to the time, place, and social environment where.',
+          question: 'The setting of \'Eveline\' — the place, time and atmosphere the text creates.',
           hint: 'If stuck, review the "sensory imagery mapping" exercise from c11_eng_h_cbse_01_008.',
           misconception: 'Students consistently treat setting as a static "background" — listing where scenes happen (house, avenue, station).',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting in fiction refers to the time, place, and social environment where a story',
-                  options: ['Setting in fiction refers to the time, place, and social environment where a story', '"Before You Read: Context and Background" provides the essential historical, literary,', 'Plot is the sequence of events in a story organized into a causal chain (exposition,', 'Character analysis of the protagonist in a modernist short story involves examining the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'Eveline\'',
+                  options: ['The setting of \'Eveline\'', '\'Eveline\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Eveline\'', 'Character analysis in \'Eveline\''],
                   hint: 'If stuck, review the "sensory imagery mapping" exercise from c11_eng_h_cbse_01_008 — practice.',
                   misconception: 'Students consistently treat setting as a static "background" — listing where scenes happen (house, avenue, station) — and atmosphere as.' }
           ],
-            remediations: { 'students-consistently-treat-setting-as': { steps: ['If the student cannot move beyond "setting = place," do this 3-step remediation: (1) Revisit c11_eng_h_cbse_01_003.', '(2) Practice with a micro-text: give the student a 3-sentence description of a room and ask them to rewrite it three.', '(3) Return to "Eveline" and have the student trace ONE sensory thread (e.g., dust) from first paragraph to last, noting.', 'Re-diagnose with DIAGNOSTIC_QUESTION_4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-consistently-treat-setting-as': { steps: ['If the student cannot move beyond "setting = place," do this 3-step remediation: (1) Revisit c11_eng_h_cbse_01_003.', '(2) Practice with a micro-text: give the student a 3-sentence description of a room and ask them to rewrite it three.', '(3) Return to "Eveline" and have the student trace ONE sensory thread (e.g., dust) from first paragraph to last, noting.', 'Re-diagnose with DIAGNOSTIC_QUESTION_4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_02_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a modernist short story involves.',
+          question: 'Character analysis in \'Eveline\' — the central figure(s), their traits, and how.',
           hint: 'If stuck on distinguishing Eveline\'s voice from Joyce\'s narration, revisit.',
           misconception: 'Students often believe Eveline *chooses* to stay out of love for her father or home, citing her memories of his.',
           parts: [
@@ -144,29 +144,29 @@ export const c12_eng_k_ch02_p1: SimDef = {
                   hint: 'If stuck on distinguishing Eveline\'s voice from Joyce\'s narration, revisit c12_eng_k_cbse_02_002.',
                   misconception: 'Students often believe Eveline *chooses* to stay out of love for her father or home, citing her memories of his kindness (the ghost story.' }
           ],
-            remediations: { 'eveline-chooses-to-stay-out': { steps: ['Re-read the final three paragraphs (from "She stood up in a sudden impulse of terror" to the end) aloud, marking every.', 'Create a two-column table: "Memories pulling her back" vs "Reasons to leave" — fill with exact phrases.', 'Re-attempt Diagnostic Question 5, now using only the verbs and phrases from step 1 as evidence.', 'If still stuck, revisit node c12_eng_k_cbse_02_002 (Plot) to confirm the sequence of events, then c12_eng_k_cbse_02_003.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'eveline-chooses-to-stay-out': { steps: ['Re-read the final three paragraphs (from "She stood up in a sudden impulse of terror" to the end) aloud, marking every.', 'Create a two-column table: "Memories pulling her back" vs "Reasons to leave" — fill with exact phrases.', 'Re-attempt Diagnostic Question 5, now using only the verbs and phrases from step 1 as evidence.', 'If still stuck, revisit node c12_eng_k_cbse_02_002 (Plot) to confirm the sequence of events, then c12_eng_k_cbse_02_003.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_02_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves examining how secondary.',
+          question: 'Supporting characters in \'Eveline\' — the secondary figures who move the story.',
           hint: 'If stuck, re-read the \'Stop and Think\' questions in the NCERT text — they are designed.',
           misconception: 'Students often treat supporting characters as \'less important\' and write vague summaries like \'Frank is nice and wants.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of supporting characters involves examining how secondary figures in a',
-                  options: ['Character analysis of supporting characters involves examining how secondary figures in a', '"Before You Read: Context and Background" provides the essential historical, literary,', 'Plot is the sequence of events in a story organized into a causal chain (exposition,', 'Setting in fiction refers to the time, place, and social environment where a story'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in \'Eveline\'',
+                  options: ['Supporting characters in \'Eveline\'', '\'Eveline\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Eveline\'', 'The setting of \'Eveline\''],
                   hint: 'If stuck, re-read the \'Stop and Think\' questions in the NCERT text — they are designed by the.',
                   misconception: 'Students often treat supporting characters as \'less important\' and write vague summaries like \'Frank is nice and wants to save her\'.' }
           ],
-            remediations: { 'students-often-treat-supporting-characters': { steps: ['If a student cannot move beyond personality descriptions: 1) Have them reread the two \'Stop and Think\' sections in the.', '2) Assign a two-column table: Column A = Character, Column B = What this character represents *inside Eveline\'s mind*.', '3) Re-diagnose with Diagnostic Question 3 (foil exercise) — if they still describe traits instead of symbolic contrast.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-supporting-characters': { steps: ['If a student cannot move beyond personality descriptions: 1) Have them reread the two \'Stop and Think\' sections in the.', '2) Assign a two-column table: Column A = Character, Column B = What this character represents *inside Eveline\'s mind*.', '3) Re-diagnose with Diagnostic Question 3 (foil exercise) — if they still describe traits instead of symbolic contrast.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_02_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
+          question: 'The primary theme of \'Eveline\' — the central idea the whole text returns to.',
           hint: 'If stuck on thematic statement construction, revisit c11_eng_h_cbse_01_006 worked.',
           misconception: 'Students consistently write "The theme of Eveline is paralysis" or "The theme is duty" — treating a *theme topic*.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of a literary work is its central, unifying idea or insight about human',
-                  options: ['The primary theme of a literary work is its central, unifying idea or insight about human', '"Before You Read: Context and Background" provides the essential historical, literary,', 'Plot is the sequence of events in a story organized into a causal chain (exposition,', 'Setting in fiction refers to the time, place, and social environment where a story'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of \'Eveline\'',
+                  options: ['The primary theme of \'Eveline\'', '\'Eveline\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Eveline\'', 'The setting of \'Eveline\''],
                   hint: 'If stuck on thematic statement construction, revisit c11_eng_h_cbse_01_006 worked examples and the.',
                   misconception: 'Students consistently write "The theme of Eveline is paralysis" or "The theme is duty" — treating a *theme topic* (noun) as a *thematic.' }
           ],
-            remediations: { 'students-consistently-write-the-theme': { steps: ['Have the student reread the "Stop and Think" questions in the NCERT text (pages 14, 16, 17) — they are designed.', 'Ask them to complete this sentence frame: "In \'Eveline,\' James Joyce suggests that when ________, the result.', 'Compare their sentence to the worked example in WORKED_EXAMPLE_1.', 'Re-attempt DIAGNOSTIC_QUESTION_1. If still stuck, revisit c11_eng_h_cbse_01_006 (Class 11 Hornbill Chapter 1 Theme.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-consistently-write-the-theme': { steps: ['Have the student reread the "Stop and Think" questions in the NCERT text (pages 14, 16, 17) — they are designed.', 'Ask them to complete this sentence frame: "In \'Eveline,\' James Joyce suggests that when ________, the result.', 'Compare their sentence to the worked example in WORKED_EXAMPLE_1.', 'Re-attempt DIAGNOSTIC_QUESTION_1. If still stuck, revisit c11_eng_h_cbse_01_006 (Class 11 Hornbill Chapter 1 Theme.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

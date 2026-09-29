@@ -65,8 +65,8 @@ export const c7_engl_ch02_p3: SimDef = {
           hint: 'Review Class 6 poetic devices regarding imagery and practice identifying color words.',
           misconception: 'Students often believe that any descriptive word or adjective in a poem is automatically an example of "visual.',
           parts: [
-                { id: 'a', prompt: 'A poet writes about a sleeping owl: "A ball of brown feathers tucked tightly against the bark." How would you transform this into a stronger visual image using.', answer: 'Steps: (1) Identify the existing visual elements ("brown feathers", "bark")',
-                  options: ['Steps: (1) Identify the existing visual elements ("brown feathers", "bark")', 'A ball of brown feathers touched by silver moonlight against the dark bark', 'visual imagery'],
+                { id: 'a', prompt: 'A poet writes about a sleeping owl: "A ball of brown feathers tucked tightly against the bark." How would you transform this into a stronger visual image using.', answer: '(1) Identify the existing visual elements ("brown feathers", "bark")',
+                  options: ['(1) Identify the existing visual elements ("brown feathers", "bark")', 'A ball of brown feathers touched by silver moonlight against the dark bark', 'visual imagery'],
                   hint: 'Review Class 6 poetic devices regarding imagery and practice identifying color words in simple.',
                   misconception: 'Students often believe that any descriptive word or adjective in a poem is automatically an example of "visual imagery." For example, they.' }
           ],
@@ -102,8 +102,8 @@ export const c7_engl_ch02_p3: SimDef = {
           hint: 'Review c7_engl_ch02_011 for poetry tone and c7_engl_ch02_004 for prose themes before.',
           misconception: 'Students often believe that if a poem and a prose story are about the same animal, they must have the exact same.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Comparing prose and poetry on the same theme involves analyzing how different literary',
-                  options: ['Comparing prose and poetry on the same theme involves analyzing how different literary', 'Character analysis of Dr', 'Polynesia the parrot acts as a wise mentor, translator, and moral compass for Dr', 'The narrative arc that traces Dr'],
+                { id: 'a', prompt: 'Read this short prose sentence: "The old brown dog wagged his tail and hobbled toward the gate." How would you transform the core action into a poetic line.', answer: 'Identify the key action and subject (old dog, hobbling, gate)',
+                  options: ['Identify the key action and subject (old dog, hobbling, gate)', 'With heavy step and rattling chain, / The worn-out hound seeks the gate again'],
                   hint: 'Review c7_engl_ch02_011 for poetry tone and c7_engl_ch02_004 for prose themes before attempting.',
                   misconception: 'Students often believe that if a poem and a prose story are about the same animal, they must have the exact same message and tone.' }
           ],

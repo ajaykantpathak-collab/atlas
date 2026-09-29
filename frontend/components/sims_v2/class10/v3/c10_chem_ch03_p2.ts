@@ -122,8 +122,8 @@ export const c10_chem_ch03_p2: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often write "ionic compounds conduct electricity because they have free electrons" — confusing ionic.',
           parts: [
-                { id: 'a', prompt: 'Design a simple experiment using school lab equipment to prove that an unknown white crystalline solid is ionic. List steps, observations, and conclusions.', answer: 'Steps: (1) Test physical state',
-                  options: ['Steps: (1) Test physical state', 'ionic compounds conduct electricity'],
+                { id: 'a', prompt: 'Design a simple experiment using school lab equipment to prove that an unknown white crystalline solid is ionic. List steps, observations, and conclusions.', answer: '(1) Test physical state',
+                  options: ['(1) Test physical state', 'ionic compounds conduct electricity'],
                   hint: 'Revisit c10_chem_cbse_03_008 (formation of ionic compounds) and c9_chem_ch3_5 (ionic bonding).',
                   misconception: 'Students often write "ionic compounds conduct electricity because they have free electrons" — confusing ionic conduction (mobile ions) with.' }
           ],

@@ -6,13 +6,13 @@ import C12_ChemistryAdsorptionisothermsSim from '../../../simulations/c6_12/C12_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_chemistryadsorptionisothermssim: SimDef = {
     id: 'v3w_c12_chemistryadsorptionisothermssim',
-    title: 'Adsorptionisotherms',
+    title: 'General Properties: Catalytic Activity',
     subtitle: 'Covers catalytic activity of d-block transition metals (primarily first row) and their.',
     classLevel: 12, subject: 'chemistry', topic: 'General Properties: Catalytic Activity',
     chapters: [],
     nodeIds: ['c12_chem_cbse_04_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a real-world Indian context: the Contact Process for sulfuric acid production uses V₂O₅, the Haber.', goal: 'Master Adsorptionisotherms.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a real-world Indian context: the Contact Process for sulfuric acid production uses V₂O₅, the Haber.', goal: 'Master General Properties: Catalytic Activity.' },
     discovery: {
         question: 'In the Contact Process, V₂O₅ catalyzes the oxidation of SO₂ to SO₃.',
         options: ['V₂O₅ works because vanadium can shift between +5 and +4 oxidation states', 'V₂O₅ provides a surface for adsorption only', 'vanadium goes from +5 to +3'],
@@ -33,7 +33,7 @@ export const w_c12_chemistryadsorptionisothermssim: SimDef = {
             { text: 'Explain preference: V₂O₅ has high surface area, the +5/+4 redox potential matches the SO₂/SO₃ couple, and it forms a.', faded: true, blankAnswer: 'Cycle:' }
             ] } }
     ],
-    explore: { component: C12_ChemistryAdsorptionisothermsSim, prompt: 'Explore the interactive — Adsorptionisotherms' },
+    explore: { component: C12_ChemistryAdsorptionisothermsSim, prompt: 'Explore the interactive — General Properties: Catalytic Activity' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_chem_cbse_04_006', difficulty: 'standard',
           question: 'Catalytic activity of transition metals refers to their ability to accelerate.',

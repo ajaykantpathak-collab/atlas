@@ -6,13 +6,13 @@ import C11_CommerceExportDocumentsDocumentarySim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_commerceexportdocumentsdocumentarysim: SimDef = {
     id: 'v3w_c11_commerceexportdocumentsdocumentarysim',
-    title: 'Export Documents Documentary',
+    title: 'Documents Required for Export-Import Transactions',
     subtitle: 'This node covers all major documents used in Indian export-import transactions as per.',
     classLevel: 11, subject: 'business_studies', topic: 'Documents Required for Export-Import Transactions',
     chapters: [],
     nodeIds: ['c11_bs_cbse_11_008', 'c11_bs_cbse_11_001', 'c11_bs_cbse_11_002', 'c11_bs_cbse_11_003', 'c11_bs_cbse_11_004', 'c11_bs_cbse_01_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re Mr. Manchanda\'s son from the textbook case, helping your father export automobile components.', goal: 'Master Export Documents Documentary.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re Mr. Manchanda\'s son from the textbook case, helping your father export automobile components.', goal: 'Master Documents Required for Export-Import Transactions.' },
     discovery: {
         question: 'Explain why a Bill of Lading is called a "document of title" while a Shipping Bill is not, even though both are issued during export.',
         options: ['A Bill of Lading is a document of title', 'Bill of Lading', 'used at customs'],
@@ -80,7 +80,7 @@ export const w_c11_commerceexportdocumentsdocumentarysim: SimDef = {
             { text: 'Verify against definition: Trade = transfer of ownership; Internal = within national boundaries; Wholesale = to.', faded: true, blankAnswer: 'Transaction 1: Internal wholesale trade. Transaction 2:.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bs_cbse_11_001', title: 'Identify each idea',
-          dissect: { specimen: 'Export Documents Documentary', spots: [
+          dissect: { specimen: 'Documents Required for Export-Import Transactions', spots: [
             { id: 's1', label: 'Export-import documentation refers to the', prompt: 'Which idea is this? — Export-import documentation refers to the systematic set of legally mandated commercial,.', answer: 'Export-import documentation refers to the', options: ['Export-import documentation refers to the', 'International Business refers to all', 'International business arises because countries', 'Modes of entry into international'] },
             { id: 's2', label: 'International Business refers to all', prompt: 'Which idea is this? — International Business refers to all commercial activities—including trade in goods and.', answer: 'International Business refers to all', options: ['International Business refers to all', 'Export-import documentation refers to the', 'International business arises because countries', 'Modes of entry into international'] },
             { id: 's3', label: 'International business arises because countries', prompt: 'Which idea is this? — International business arises because countries cannot produce all goods and services.', answer: 'International business arises because countries', options: ['International business arises because countries', 'Export-import documentation refers to the', 'International Business refers to all', 'Modes of entry into international'] },
@@ -89,7 +89,7 @@ export const w_c11_commerceexportdocumentsdocumentarysim: SimDef = {
             { id: 's6', label: 'Trade is the branch of', prompt: 'Which idea is this? — Trade is the branch of commerce concerned with the buying, selling, and exchange of goods.', answer: 'Trade is the branch of', options: ['Trade is the branch of', 'Export-import documentation refers to the', 'International Business refers to all', 'International business arises because countries'] }
           ] } }
     ],
-    explore: { component: C11_CommerceExportDocumentsDocumentarySim, prompt: 'Explore the interactive — Export Documents Documentary' },
+    explore: { component: C11_CommerceExportDocumentsDocumentarySim, prompt: 'Explore the interactive — Documents Required for Export-Import Transactions' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bs_cbse_11_008', difficulty: 'standard',
           question: 'Export-import documentation refers to the systematic set of legally mandated.',

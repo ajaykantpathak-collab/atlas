@@ -105,6 +105,10 @@ export const c8_chem_ch02_p2: SimDef = {
                 { id: 'a', prompt: 'Why do liquids take the shape of the container they are poured into, unlike solids?', answer: 'Liquids take the container\'s shape',
                   options: ['Liquids take the container\'s shape', 'liquids are easily compressible or that they will expand to fill any size room'],
                   hint: 'Review c8_chem_ch2_6 to contrast rigid solid structures with mobile liquid structures.',
+                  misconception: 'Students often believe that liquid particles are spaced as far apart as gas particles, leading them to think that liquids are easily.' },
+                { id: 'b', prompt: 'A student pours 50 mL of water from a narrow measuring cylinder into a wide flat bowl. Compare the volume and shape of the water in both containers.', answer: 'Identify initial volume and shape in cylinder (50 mL, tall cylindrical shape)',
+                  options: ['Identify initial volume and shape in cylinder (50 mL, tall cylindrical shape)', 'liquids are easily compressible or that they will expand to fill any size room'],
+                  hint: 'Review c8_chem_ch2_6 to contrast rigid solid structures with mobile liquid structures.',
                   misconception: 'Students often believe that liquid particles are spaced as far apart as gas particles, leading them to think that liquids are easily.' }
           ],
             remediations: { 'liquid-particles-are-spaced-as': { steps: ['Remind the student of everyday kitchen observations: when you spill water, it spreads on the floor as a puddle.', 'Have them press a plunger into a water-filled syringe versus an air-filled syringe to physically feel the difference.'], labTask: { instruction: 'On the interactive: set radius to 60 — how does the volume respond? — then check.', widget: 'solid', validate: 'solid:radius=60' } } } },

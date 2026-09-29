@@ -19,24 +19,24 @@ export const c11_eng_w_ch02_p3: SimDef = {
         hook: 'Ramanand yields in round one and loses nothing real; the climax is where the stakes become irreversible.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the ability to deconstruct a literary text by examining its structural elements (plot, character, dialogue, irony, symbolism) and synthesizing them.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'A Pair of Mustachios\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_02_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Map both confrontations onto the arc, then weigh the last line — \'My father was a Sultan\' — as resolution or the cycle restarting.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_02_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re sitting in your Class 11 English exam and the question reads: "How does Mulk Raj Anand use the symbol of the moustache to critique class.',
+          caseStudy: { intro: 'For written answers on \'A Pair of Mustachios\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing analytical answers for literature?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explain, Language', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarizing the story or writing.', reveals: 'writing-skills-based-on-the' },
                 { text: 'Plan, Execute, Evaluate, Learn', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarizing the story or writing.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_02_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a group of four discussing why Mulk Raj Anand mentions "English army generals" and "King Emperor" in a story about Indian moustaches.',
+          caseStudy: { intro: 'Talk through \'A Pair of Mustachios\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the three discussion questions listed under "Talking About the Text" in the NCERT textbook for "A Pair of Mustachios"?', options: [
                 { text: 'The three questions are: (1) The episode has been narrated in a light vein', outcome: 'The three questions are: (1) The episode has been narrated in a light vein.' },
                 { text: 'sharing opinions', outcome: 'Not quite — Students believe a literary discussion is just "sharing opinions" and therefore prepare.', reveals: 'a-literary-discussion-is-just' },
@@ -56,23 +56,23 @@ export const c11_eng_w_ch02_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_02_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the ability to deconstruct.',
+          question: 'Critical thinking on \'A Pair of Mustachios\' — analysing the text to reach.',
           hint: 'Review c11_eng_w_cbse_02_009 (Irony and Symbolism) focusing on the difference between.',
           misconception: 'Students often treat the moustache as a simple "symbol of pride" and write essays about "Azam Khan\'s excessive pride.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical Thinking: Analysis and Interpretation is the ability to deconstruct a literary',
-                  options: ['Critical Thinking: Analysis and Interpretation is the ability to deconstruct a literary', '"Before You Read: Context and Background" provides the essential historical, social, and', 'Plot and Narrative Structure refers to the organized sequence of events in a story,', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'A Pair of Mustachios\'',
+                  options: ['Critical thinking on \'A Pair of Mustachios\'', '\'A Pair of Mustachios\' (Woven Words, ch', 'The plot/narrative arc of \'A Pair of Mustachios\'', 'The setting of \'A Pair of Mustachios\''],
                   hint: 'Review c11_eng_w_cbse_02_009 (Irony and Symbolism) focusing on the difference between "symbol.',
                   misconception: 'Students often treat the moustache as a simple "symbol of pride" and write essays about "Azam Khan\'s excessive pride causing his downfall.".' }
           ],
-            remediations: { 'students-often-treat-the-moustache': { steps: ['If a student writes a "pride goes before a fall" answer: 1) Ask them to list *every* transaction in the story.', '2) Have them re-read the opening paragraphs where the narrator explains the moustache taxonomy as a *class boundary.', '3) Ask: "If Azam Khan had no moustache, would Ramanand still have power over him?" (Yes—via debt/mortgage).', '4) Guide them to rewrite the topic sentence: "Anand uses the moustache conflict to expose how colonial-feudal status.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-moustache': { steps: ['If a student writes a "pride goes before a fall" answer: 1) Ask them to list *every* transaction in the story.', '2) Have them re-read the opening paragraphs where the narrator explains the moustache taxonomy as a *class boundary.', '3) Ask: "If Azam Khan had no moustache, would Ramanand still have power over him?" (Yes—via debt/mortgage).', '4) Guide them to rewrite the topic sentence: "Anand uses the moustache conflict to expose how colonial-feudal status.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_02_014', difficulty: 'standard',
-          question: 'Writing skills based on a literary chapter involve the ability to construct.',
+          question: 'Writing skills from \'A Pair of Mustachios\' — using the text as a model.',
           hint: 'Review the "summary vs. analysis" distinction using a two-column table: Column A = What.',
           misconception: 'Students believe "writing skills based on the chapter" means summarizing the story or writing a character sketch.',
           parts: [
@@ -89,7 +89,7 @@ export const c11_eng_w_ch02_p3: SimDef = {
                   hint: 'Review the "summary vs. analysis" distinction using a two-column table: Column A = What happens.',
                   misconception: 'Students believe "writing skills based on the chapter" means summarizing the story or writing a character sketch in narrative form (e.g.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits a narrative summary instead of an analytical response: (1) Highlight every sentence that merely.', 'Why did Anand include this?', 'What does it PROVE about class/pride/irony?" (3) Co-construct ONE analytical Point from their summary.', '(4) Have them find ONE quote to Evidence it.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits a narrative summary instead of an analytical response: (1) Highlight every sentence that merely.', 'Why did Anand include this?', 'What does it PROVE about class/pride/irony?" (3) Co-construct ONE analytical Point from their summary.', '(4) Have them find ONE quote to Evidence it.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_02_014', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -100,9 +100,9 @@ export const c11_eng_w_ch02_p3: SimDef = {
                   hint: 'Review the "summary vs. analysis" distinction using a two-column table: Column A = What happens.',
                   misconception: 'Students believe "writing skills based on the chapter" means summarizing the story or writing a character sketch in narrative form (e.g.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits a narrative summary instead of an analytical response: (1) Highlight every sentence that merely.', 'Why did Anand include this?', 'What does it PROVE about class/pride/irony?" (3) Co-construct ONE analytical Point from their summary.', '(4) Have them find ONE quote to Evidence it.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits a narrative summary instead of an analytical response: (1) Highlight every sentence that merely.', 'Why did Anand include this?', 'What does it PROVE about class/pride/irony?" (3) Co-construct ONE analytical Point from their summary.', '(4) Have them find ONE quote to Evidence it.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_02_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'A Pair of Mustachios\' — speaking and listening around the.',
           hint: 'Review c11_eng_w_cbse_02_013 (Critical Thinking) worked examples on constructing PEEL.',
           misconception: 'Students believe a literary discussion is just "sharing opinions" and therefore prepare by memorizing plot points.',
           parts: [
@@ -115,7 +115,7 @@ export const c11_eng_w_ch02_p3: SimDef = {
                   hint: 'Review c11_eng_w_cbse_02_013 (Critical Thinking) worked examples on constructing PEEL paragraphs.',
                   misconception: 'Students believe a literary discussion is just "sharing opinions" and therefore prepare by memorizing plot points.' }
           ],
-            remediations: { 'a-literary-discussion-is-just': { steps: ['If a student falls into this misconception: (1) Give them a two-column sheet: left column "My Point," right column.', '(2) Model "building language": "Adding to what [Peer] said about Khan\'s pride, I noticed Ramanand\'s reply in para.', '(4) Debrief by showing how their evidence-linked contributions shifted the group\'s understanding from character traits.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-literary-discussion-is-just': { steps: ['If a student falls into this misconception: (1) Give them a two-column sheet: left column "My Point," right column.', '(2) Model "building language": "Adding to what [Peer] said about Khan\'s pride, I noticed Ramanand\'s reply in para.', '(4) Debrief by showing how their evidence-linked contributions shifted the group\'s understanding from character traits.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -86,7 +86,7 @@ export const C11_ECO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Modern Industry's Limited Growth And",
+    "title": "Modern Industry: Limited Growth",
     "text": "Modern Industry's Limited Growth and Lopsided Pattern refers to the structural distortion in India's industrial sector under British rule where modern factory-based manufacturing emerged but remained quantitatively insignificant (contributing <5% to GDP),",
     "emoji": "📈",
     "bgColor": "from-violet-400 to-purple-500"
@@ -104,7 +104,7 @@ export const C11_ECO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Demographic Conditions Refer To The",
+    "title": "Demographic Conditions: High Mortality",
     "text": "Demographic conditions refer to the quantitative and qualitative characteristics of a population including birth rates, death rates, life expectancy, literacy levels, and age structure.",
     "emoji": "📈",
     "bgColor": "from-violet-400 to-purple-500"
@@ -623,15 +623,13 @@ export const C11_ECO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_eco_ch03",
-  "title": "Tax Reforms Under Liberalisation Refer To",
+  "title": "Tax Reforms Under Liberalisation",
   "subtitle": "Economics · Chapter 3",
   "classLevel": 11,
   "mode": "senior",
   "subject": "economics",
-  "topic": "Tax Reforms Under Liberalisation Refer To",
-  "chapters": [
-   "Economics Ch3: Tax Reforms Under Liberalisation Refer To"
-  ],
+  "topic": "Tax Reforms Under Liberalisation",
+  "chapters": ["Economics Ch3: Tax Reforms Under Liberalisation"],
   "nodeIds": [
    "c11_eco_cbse_03_005",
    "c11_eco_cbse_03_008",
@@ -656,7 +654,7 @@ export const C11_ECO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Tax Reforms Under Liberalisation Refer To",
+    "title": "Tax Reforms Under Liberalisation",
     "text": "Tax reforms under liberalisation refer to the systematic restructuring of India's taxation system since 1991, involving reduction in direct tax rates (income tax, corporation tax) to curb evasion and boost compliance, restructuring of indirect taxes",
     "emoji": "📈",
     "bgColor": "from-violet-400 to-purple-500"
@@ -674,7 +672,7 @@ export const C11_ECO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Assessment Of LPG Reforms On",
+    "title": "Assessment Of LPG Reforms",
     "text": "The assessment of LPG reforms on agriculture and employment evaluates how liberalisation, privatisation, and globalisation policies post-1991 altered the growth trajectory, cost structure, and trade orientation of Indian agriculture, and whether the resulting",
     "emoji": "📈",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2855,13 +2853,13 @@ export const C11_ECO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Sustainable Development Policies And",
+    "title": "Sustainable Development in India: Policies",
     "text": "Sustainable Development Policies and Programmes in India refer to the specific government interventions, regulatory frameworks, and promotional schemes designed to achieve the Brundtland goal of meeting present needs without compromising future generations'",
     "emoji": "📈",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Global Environmental Issues Refer To",
+    "title": "Global Environmental Issues: Climate Change",
     "text": "Global environmental issues refer to planetary-scale ecological disruptions—primarily anthropogenic climate change driven by greenhouse gas accumulation and stratospheric ozone depletion caused by halogenated compounds—that transcend national boundaries and",
     "emoji": "📈",
     "bgColor": "from-rose-400 to-pink-500"

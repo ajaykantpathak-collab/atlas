@@ -6,13 +6,13 @@ import C11_CommerceCooperativeOrganisationsMeaningSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_commercecooperativeorganisationsmeaningsim: SimDef = {
     id: 'v3w_c11_commercecooperativeorganisationsmeaningsim',
-    title: 'Cooperative Organisations Meaning',
+    title: 'Private Sector and Public Sector: Meaning and Distinction',
     subtitle: 'This node covers the fundamental meaning, distinguishing features, and classification of.',
     classLevel: 11, subject: 'business_studies', topic: 'Private Sector and Public Sector: Meaning and Distinction',
     chapters: [],
     nodeIds: ['c11_bs_cbse_03_001', 'c11_bs_cbse_10_001', 'c11_bs_cbse_03_009', 'c11_bs_cbse_03_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are reading a news headline: "Government to sell 51% stake in BPCL to private players." You.', goal: 'Master Cooperative Organisations Meaning.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are reading a news headline: "Government to sell 51% stake in BPCL to private players." You.', goal: 'Master Private Sector and Public Sector: Meaning and Distinction.' },
     discovery: {
         question: 'A farmer in Punjab sells wheat to a flour mill in Punjab. The flour mill sells flour to a wholesaler in Delhi. The wholesaler sells to a retailer in Mumbai.',
         options: ['All four transactions are internal trade', 'internal trade', 'local trade'],
@@ -66,14 +66,14 @@ export const w_c11_commercecooperativeorganisationsmeaningsim: SimDef = {
             { text: 'Governance restructuring – Appoint government-nominated directors; align objectives to include "supply of subsidised.', faded: true, blankAnswer: '5-step conversion via share acquisition (≥51%), RoC filing,.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bs_cbse_10_001', title: 'Identify each idea',
-          dissect: { specimen: 'Cooperative Organisations Meaning', spots: [
+          dissect: { specimen: 'Private Sector and Public Sector: Meaning and Distinction', spots: [
             { id: 's1', label: 'The private sector comprises business', prompt: 'Which idea is this? — The private sector comprises business enterprises owned, controlled, and managed by.', answer: 'The private sector comprises business', options: ['The private sector comprises business', 'Internal trade refers to the', 'Multinational Corporations MNCs are large', 'Private sector enterprises are businesses'] },
             { id: 's2', label: 'Internal trade refers to the', prompt: 'Which idea is this? — Internal trade refers to the buying and selling of goods and services within the.', answer: 'Internal trade refers to the', options: ['Internal trade refers to the', 'The private sector comprises business', 'Multinational Corporations MNCs are large', 'Private sector enterprises are businesses'] },
             { id: 's3', label: 'Multinational Corporations MNCs are large', prompt: 'Which idea is this? — Multinational Corporations (MNCs) are large industrial organisations headquartered in one.', answer: 'Multinational Corporations MNCs are large', options: ['Multinational Corporations MNCs are large', 'The private sector comprises business', 'Internal trade refers to the', 'Private sector enterprises are businesses'] },
             { id: 's4', label: 'Private sector enterprises are businesses', prompt: 'Which idea is this? — Private sector enterprises are businesses owned, controlled, and managed by private.', answer: 'Private sector enterprises are businesses', options: ['Private sector enterprises are businesses', 'The private sector comprises business', 'Internal trade refers to the', 'Multinational Corporations MNCs are large'] }
           ] } }
     ],
-    explore: { component: C11_CommerceCooperativeOrganisationsMeaningSim, prompt: 'Explore the interactive — Cooperative Organisations Meaning' },
+    explore: { component: C11_CommerceCooperativeOrganisationsMeaningSim, prompt: 'Explore the interactive — Private Sector and Public Sector: Meaning and Distinction' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bs_cbse_03_001', difficulty: 'standard',
           question: 'The private sector comprises business enterprises owned, controlled, and.',

@@ -6,13 +6,13 @@ import C9_BiologyHealthOrganizationswhoSim from '../../../simulations/c6_12/C9_B
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_biologyhealthorganizationswhosim: SimDef = {
     id: 'v3w_c9_biologyhealthorganizationswhosim',
-    title: 'Health Organizationswho',
+    title: 'Sexual Reproduction in Animals: Male and Female Systems',
     subtitle: 'This node covers the general organization and function of male and female reproductive.',
     classLevel: 9, subject: 'biology', topic: 'Sexual Reproduction in Animals: Male and Female Systems',
     chapters: [],
     nodeIds: ['c9_bio_ch3_8'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Observe a common Indian household scene: a pet dog or stray cat giving birth to puppies/kittens, or hens.', goal: 'Master Health Organizationswho.' },
+    scenario: { role: 'a class 9 learner', intro: 'Observe a common Indian household scene: a pet dog or stray cat giving birth to puppies/kittens, or hens.', goal: 'Master Sexual Reproduction in Animals: Male and Female Systems.' },
     discovery: {
         question: 'Name the primary sex organs (gonads) in male and female vertebrates and state the type of gamete each produces.',
         options: ['Male gonad: testis (produces sperm/male gamete)', 'testis produces testosterone', 'ovary produces estrogen'],
@@ -33,7 +33,7 @@ export const w_c9_biologyhealthorganizationswhosim: SimDef = {
             { text: 'Conclude the defect is likely in the seminiferous tubules (Sertoli cell dysfunction, germ cell arrest) or in the.', faded: true, blankAnswer: 'The defect is most likely in the seminiferous tubules.' }
             ] } }
     ],
-    explore: { component: C9_BiologyHealthOrganizationswhoSim, prompt: 'Explore the interactive — Health Organizationswho' },
+    explore: { component: C9_BiologyHealthOrganizationswhoSim, prompt: 'Explore the interactive — Sexual Reproduction in Animals: Male and Female Systems' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_bio_ch3_8', difficulty: 'standard',
           question: 'Sexual reproduction in animals is a biological process where two parents.',

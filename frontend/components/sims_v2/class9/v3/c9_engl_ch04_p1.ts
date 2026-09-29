@@ -119,13 +119,13 @@ export const c9_engl_ch04_p1: SimDef = {
           misconception: 'Students often treat empathy, patience, and respect as interchangeable synonyms for "being nice." They write answers.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Empathy, patience, and respect for the elderly are interconnected human values that',
-                  options: ['Empathy, patience, and respect for the elderly are interconnected human values that', 'A story summary is a concise, objective retelling of a narrative\'s essential elements', 'Character analysis of Grandpa in "Vitamin-M" involves examining how the author portrays', 'Character analysis in Class 9 board exams requires examining how an author reveals a'],
+                  options: ['Empathy, patience, and respect for the elderly are interconnected human values that', 'A story summary is a concise, objective retelling of a narrative\'s essential elements', 'From \'English chapter c9_engl_ch4\': the skill or concept this node teaches, applied to', 'From \'English chapter c9_engl_ch4\': the skill or concept this node teaches, applied to'],
                   hint: 'Review c9_engl_ch4_3 (Character Analysis: Ravi and His Mother) for PEEL modeling and c9_engl_ch4_6.',
                   misconception: 'Students often treat empathy, patience, and respect as interchangeable synonyms for "being nice." They write answers like "Ravi shows.' }
           ],
             remediations: { 'students-often-treat-empathy': { steps: ['Ask the student to act out (or describe) three micro-scenarios: (a) You see Grandpa searching for glasses — what do you.', '(empathy) (b) He asks the same question for the 6th time — what do you *do* with your irritation?', '(patience) (c) He refuses your help to button his shirt — what do you *think* about his right to refuse?', 'Map each response to the correct value label.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c9_engl_ch4_2', difficulty: 'standard',
-          question: 'Character analysis of Grandpa in "Vitamin-M" involves examining how the author.',
+          question: 'From \'English chapter c9_engl_ch4\': the skill or concept this node teaches.',
           hint: 'Review the PEEL paragraph structure practiced in c8_engl_ch4_3 (Cherry Tree Grandfather.',
           misconception: 'Students often equate Grandpa\'s independence with "stubbornness" or "denial of reality," treating it as a flaw to.',
           parts: [
@@ -144,7 +144,7 @@ export const c9_engl_ch04_p1: SimDef = {
           ],
             remediations: { 'students-often-equate-grandpa-s': { steps: ['Re-read the nurse-refusal scene aloud; ask: "What is Grandpa protecting?" (Answer: his family\'s peace, not his ego).', 'Create a two-column chart: Column A = actions that look stubborn; Column B = the loving motive behind each.', 'Practice writing one PEEL paragraph using the stem: "When Grandpa [action], it reveals he values [trait] because.', 'Compare with Cherry Tree Grandfather (c8_engl_ch4_3) to see independence as intergenerational gift, not obstacle.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c9_engl_ch4_3', difficulty: 'standard',
-          question: 'Character analysis in Class 9 board exams requires examining how an author.',
+          question: 'From \'English chapter c9_engl_ch4\': the skill or concept this node teaches.',
           hint: 'Review c6_english_u1_002 (Jahnavi character analysis) and c8_engl_ch4_2 (Rakesh character.',
           misconception: 'Students believe character analysis means listing adjectives describing a character (e.g., "Ravi is funny, Vidya.',
           parts: [

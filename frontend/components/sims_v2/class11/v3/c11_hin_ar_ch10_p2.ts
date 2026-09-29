@@ -19,7 +19,7 @@ export const c11_hin_ar_ch10_p2: SimDef = {
         hook: 'Bhakti verse plots the soul\'s trajectory, not the body\'s — \'discarding jewellery\' is the poem\'s rising action, abandonment is its climax.',
     },
     teaching: [
-        { title: 'पाठ 10 — गौण विषय', text: 'गौण विषय (Sub-theme) वह द्वितीयक कथ्य-तत्व है जो मुख्य विषय के समानांतर चलता हुआ, उसे समृद्ध, विस्तृत या जटिल बनाता है, तथा पात्रों के जीवन की बहु-आयामिता (multidimensionality) को उजागर करता है।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 10 — गौण विषय', text: '\'आरोह भाग-1 — पाठ 10\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_10_007', title: 'Your mission',
@@ -28,8 +28,15 @@ export const c11_hin_ar_ch10_p2: SimDef = {
         context: 'Trace Meera\'s stanzas from a mind fixed on Giridhar to the shedding of every social marker, and defend the poem\'s narrative arc against \'nothing happens.\'',
         labels: ['पाठ 10 — गौण', 'पाठ 10 — साहित्यिक', 'पाठ 10 — पदावली', 'पाठ 10 — व्याकरण', 'पाठ 10 — बोध-प्रश्न'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_10_010', title: 'पाठ 10 — पदावली: मुख्य शब्द',
+          caseStudy: { intro: '\'आरोह भाग-1 — पाठ 10\' के मुख्य शब्द: आरोह-भाग-1-—-पाठ-10 — इनका अर्थ जानिए।',
+            decisions: [{ prompt: 'What is the primary strategy for determining the meaning of a key word in a poem when a dictionary definition is insufficient?', options: [
+                { text: 'The primary strategy is to analyze the immediate linguistic context (surrounding words,', outcome: 'The primary strategy is to analyze the immediate linguistic context (surrounding words, syntax) and.' },
+                { text: 'look it up in a dictionary', outcome: 'Not quite — Students often think that the glossary meanings provided in the textbook (e.g., "dkfu = e;kZnk").', reveals: 'the-glossary-meanings-provided-in' },
+                { text: 'dkfu = e;kZnk', outcome: 'Not quite — Students often think that the glossary meanings provided in the textbook (e.g., "dkfu = e;kZnk").', reveals: 'the-glossary-meanings-provided-in' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_10_012', title: 'पाठ 10 — बोध-प्रश्न: वस्तुनिष्ठ और आशय-सूचक',
-          caseStudy: { intro: 'You open your Hindi exam paper and see Question 2: "लेखक ने बाजार का वर्णन क्यों किया है?" and Question 3: "बाजार में कौन-सी दुकानें थीं?" Your heart races.',
+          caseStudy: { intro: '\'आरोह भाग-1 — पाठ 10\' के तथ्य: रचनाकार NCERT पाठ्यपुस्तक, विषय \'आरोह भाग-1।',
             decisions: [{ prompt: 'पाठ 10 के संदर्भ में, \'वस्तुनिष्ठ प्रश्न\' की परिभाषा लिखिए और एक उदाहरण दीजिए जो पाठ से सीधे तथ्य पूछता हो।', options: [
                 { text: '**Correct Answer:** वस्तुनिष्ठ प्रश्न वह है जिसका उत्तर पाठ में स्पष्ट रूप से लिखित तथ्य,', outcome: '**Correct Answer:** वस्तुनिष्ठ प्रश्न वह है जिसका उत्तर पाठ में स्पष्ट रूप से लिखित तथ्य, विवरण.' },
                 { text: 'पाठ के अनुसार, नायक ने सुबह क्या खाया?', outcome: 'Not quite — **Specific Error:** Students believe "आशय-सूचक प्रश्नों के उत्तर पाठ में *छिपे* होते हैं — बस ध्यान.', reveals: 'specific-error-students-believe-this' },
@@ -54,62 +61,73 @@ export const c11_hin_ar_ch10_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_007', difficulty: 'standard',
-          question: 'गौण विषय (Sub-theme) वह द्वितीयक कथ्य-तत्व है जो मुख्य विषय के समानांतर चलता.',
+          question: '\'आरोह भाग-1 — पाठ 10\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
           hint: 'यदि अटके तो c11_hin_ar_cbse_10_006 (मुख्य विषय और संदेश) को दोबारा पढ़ें और पाठ के 3.',
           misconception: 'छात्र अक्सर \'गौण विषय\' को \'उपकथानक\' (sub-plot) या \'विवरण\' (detail) मान लेते हैं। उदाहरण: पाठ 10 में \'नायक का गाँव जाना\'.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme) वह द्वितीयक कथ्य-तत्व है जो मुख्य विषय के समानांतर चलता हुआ, उसे',
-                  options: ['गौण विषय (Sub-theme) वह द्वितीयक कथ्य-तत्व है जो मुख्य विषय के समानांतर चलता हुआ, उसे', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-1 — पाठ 10\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
+                  options: ['\'आरोह भाग-1 — पाठ 10\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-1 — पाठ 10\' का कथानक — \'आरोह भाग-1 — पाठ 10\' — आरोह भाग-1 का पाठ। पाठ का कथानक,', '\'आरोह भाग-1 — पाठ 10\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके तो c11_hin_ar_cbse_10_006 (मुख्य विषय और संदेश) को दोबारा पढ़ें और पाठ के 3 केंद्रीय.',
                   misconception: 'छात्र अक्सर \'गौण विषय\' को \'उपकथानक\' (sub-plot) या \'विवरण\' (detail) मान लेते हैं। उदाहरण: पाठ 10 में \'नायक का गाँव जाना\' एक घटना/प्रसंग है.' }
           ],
             remediations: { 'sub-plot-detail-10': { steps: ['चरण 1: छात्र से कहें — "पाठ के 5 प्रमुख प्रसंग लिखो। अब हर प्रसंग के सामने लिखो: \'यह प्रसंग किस विचार को आगे बढ़ाता.', 'कैसे?" चरण 4: जो दावेदार यह परीक्षा पास करें, उन्हें \'गौण विषय\' मानें। यह प्रक्रिया \'घटना\' और \'विचार-प्रवाह\' का भेद.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_008', difficulty: 'standard',
-          question: '**बिंब (Imagery)** काव्यभाषा की वह शक्ति है जिसके द्वारा कवि शब्दों के माध्यम.',
-          hint: 'यदि अटके तो c11_hin_ar_cbse_10_006 (मुख्य विषय और संदेश) दोहराएँ — विशेष रूप से \'भाव.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर **\'प्रतीक (Symbol)\' और \'रूपक (Metaphor)\' को एक मान लेते हैं**। उदाहरण: "कविता में.',
+          question: '\'आरोह भाग-1 — पाठ 10\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
+          hint: 'Review the definitions of imagery and metaphor with simple examples (e.g., "The classroom.',
+          misconception: 'Students often think that any descriptive word in the poem is an \'image\' and any comparison is a \'metaphor\'.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery)** काव्यभाषा की वह शक्ति है जिसके द्वारा कवि शब्दों के माध्यम से पाठक के',
-                  options: ['**बिंब (Imagery)** काव्यभाषा की वह शक्ति है जिसके द्वारा कवि शब्दों के माध्यम से पाठक के', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
-                  hint: 'यदि अटके तो c11_hin_ar_cbse_10_006 (मुख्य विषय और संदेश) दोहराएँ — विशेष रूप से \'भाव पहचान\' और.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर **\'प्रतीक (Symbol)\' और \'रूपक (Metaphor)\' को एक मान लेते हैं**। उदाहरण: "कविता में \'कबूतर शांति का प्रतीक.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-1 — पाठ 10\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
+                  options: ['\'आरोह भाग-1 — पाठ 10\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-1 — पाठ 10\' का कथानक — \'आरोह भाग-1 — पाठ 10\' — आरोह भाग-1 का पाठ। पाठ का कथानक,', '\'आरोह भाग-1 — पाठ 10\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'Review the definitions of imagery and metaphor with simple examples (e.g., "The classroom was.',
+                  misconception: 'Students often think that any descriptive word in the poem is an \'image\' and any comparison is a \'metaphor\'.' }
           ],
-            remediations: { 'symbol-metaphor-local-global': { steps: ['**चरण 1:** छात्र को दो वाक्य दें — (अ) "वह शेर है" (रूपक) और (ब) "कविता में बार-बार आने वाला \'टूटा पिंजरा\' स्वतंत्रता.', 'दूसरा कहाँ तक फैला है?" **चरण 2:** समझाएँ — रूपक = **एक प्रसंग, एक आरोप**; प्रतीक = **पूरी रचना, बहु-अर्थी उपस्थिति**।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'any-descriptive-word-in-the': { steps: ['Ask the student to list all weaving-related words in the poem (loom, shuttle, thread, cloth, weaver).', 'For each word, have them decide: is it used literally (describing the actual craft) or figuratively (representing.', 'Guide them to see that words like "शटल" (shuttle) are literal in the first stanza but become metaphorical for "breath".', 'Practice with a simpler poem where the metaphor is more explicit (e.g., "Time is a river") before returning to Kabir.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_008', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often think that any descriptive word in the poem is an \'image\' and any comparison is a \'metaphor\'.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the effectiveness of Kabir\'s use of weaving metaphors to communicate his philosophical ideas to a common audience in 15th-century India.', answer: 'The metaphors are highly effective',
+                  options: ['The metaphors are highly effective', 'just decorative', 'confusing'],
+                  hint: 'Review the definitions of imagery and metaphor with simple examples (e.g., "The classroom was.',
+                  misconception: 'Students often think that any descriptive word in the poem is an \'image\' and any comparison is a \'metaphor\'.' }
+          ],
+            remediations: { 'any-descriptive-word-in-the': { steps: ['Ask the student to list all weaving-related words in the poem (loom, shuttle, thread, cloth, weaver).', 'For each word, have them decide: is it used literally (describing the actual craft) or figuratively (representing.', 'Guide them to see that words like "शटल" (shuttle) are literal in the first stanza but become metaphorical for "breath".', 'Practice with a simpler poem where the metaphor is more explicit (e.g., "Time is a river") before returning to Kabir.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_009', difficulty: 'standard',
-          question: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में तर्क-विरुद्ध.',
-          hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_10_008 के \'रूपक के प्रकार\' और \'बिंब के वर्गीकरण\'.',
-          misconception: '**विशिष्ट भ्रांति:** विद्यार्थी मानते हैं कि **\'प्रतीक\' और \'रूपक (Metaphor)\' एक ही हैं** क्योंकि दोनों में \'एक वस्तु.',
+          question: '\'आरोह भाग-1 — पाठ 10\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+          hint: 'If stuck, review c11_hin_ar_cbse_10_006 (Theme: Primary Theme) — specifically the concept.',
+          misconception: 'Students often confuse Kabir\'s *paradoxes* with *irony* — they label every contradictory statement as "irony" without.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में तर्क-विरुद्ध, असंगत या',
-                  options: ['**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में तर्क-विरुद्ध, असंगत या', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
-                  hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_10_008 के \'रूपक के प्रकार\' और \'बिंब के वर्गीकरण\' खंड को.',
-                  misconception: '**विशिष्ट भ्रांति:** विद्यार्थी मानते हैं कि **\'प्रतीक\' और \'रूपक (Metaphor)\' एक ही हैं** क्योंकि दोनों में \'एक वस्तु दूसरी वस्तु के लिए.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-1 — पाठ 10\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+                  options: ['\'आरोह भाग-1 — पाठ 10\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-1 — पाठ 10\' का कथानक — \'आरोह भाग-1 — पाठ 10\' — आरोह भाग-1 का पाठ। पाठ का कथानक,', '\'आरोह भाग-1 — पाठ 10\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'If stuck, review c11_hin_ar_cbse_10_006 (Theme: Primary Theme) — specifically the concept.',
+                  misconception: 'Students often confuse Kabir\'s *paradoxes* with *irony* — they label every contradictory statement as "irony" without checking if there\'s.' }
           ],
-            remediations: { 'metaphor-9-10-x-is': { steps: ['**चरण 1:** विद्यार्थी से कहें: "एक वाक्य में रूपक लिखो (उदाहरण: \'कक्षा एक चिड़ियाघर है\')। अब उसी \'चिड़ियाघर\' को लेकर 5.', 'दूसरे में कहाँ तक फैला?" — इससे **सीमा (Scope) और बहु-अर्थता (Polyvalence)** का भेद स्पष्ट होगा। **चरण 3:** अब.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-kabir-s': { steps: ['Give the student three short Kabir lines — one paradox, one irony, one plain statement — and ask them to sort them.', 'For the irony, ask: "Who is being mocked here? What did they expect vs what happened?"', 'For symbols, give the same symbol (e.g., "charkha" / spinning wheel) in two different Kabir verses and ask: "Does.', 'Have them rewrite a non-ironic line into an ironic one by adding a hypocritical speaker.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_010', difficulty: 'standard',
-          question: 'पदावली के मुख्य शब्द वे **महत्वपूर्ण शब्द** होते हैं जो किसी रचना के विषय, भाव.',
-          hint: 'यदि अटके तो **\'अपठित गद्यांश/पद्यांश में शब्दों के प्रसंगगत अर्थ निकालने\'** का अभ्यास.',
-          misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि **मुख्य शब्द = कठिन/क्लिष्ट शब्द** (difficult/obscure words)। **गलत तर्क**: वे.',
+          question: '\'आरोह भाग-1 — पाठ 10\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
+          hint: 'If stuck, review the concept of "context clues" from Class 10 Hindi (or English) and.',
+          misconception: 'Students often think that the glossary meanings provided in the textbook (e.g., "dkfu = e;kZnk") are the only meanings.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली के मुख्य शब्द वे **महत्वपूर्ण शब्द** होते हैं जो किसी रचना के विषय, भाव, या कथ्य',
-                  options: ['पदावली के मुख्य शब्द वे **महत्वपूर्ण शब्द** होते हैं जो किसी रचना के विषय, भाव, या कथ्य', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
-                  hint: 'यदि अटके तो **\'अपठित गद्यांश/पद्यांश में शब्दों के प्रसंगगत अर्थ निकालने\'** का अभ्यास दोहराएँ.',
-                  misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि **मुख्य शब्द = कठिन/क्लिष्ट शब्द** (difficult/obscure words)। **गलत तर्क**: वे सोचते हैं "अनुभूति".' }
+                { id: 'a', prompt: 'In the line "valqou ty lhafp&lhafp] izse&csfy cks;h", the word "csfy" is glossed as "izse dh csy".', answer: 'The compound "izse&csfy" (evening-shadow) evokes a specific visual and temporal',
+                  options: ['The compound "izse&csfy" (evening-shadow) evokes a specific visual and temporal', 'they mean the same thing', 'dkfu = e;kZnk', 'the glossary meanings provided in the textbook (e'],
+                  hint: 'If stuck, review the concept of "context clues" from Class 10 Hindi (or English) and practice with.',
+                  misconception: 'Students often think that the glossary meanings provided in the textbook (e.g., "dkfu = e;kZnk") are the only meanings needed, and that the.' }
           ],
-            remediations: { 'difficult-obscure-words': { steps: ['छात्र से कहें: **"कोई भी सरल शब्द लो — जैसे \'चाय\' — और 3 अलग-अलग स्थितियाँ लिखो जहाँ इसका अर्थ पूरी तरह बदल जाए"**.', 'फिर पूछें: **"कौन-सी स्थिति में \'चाय\' मुख्य शब्द बनेगा और क्यों?"** — इससे प्रसंगगत अर्थ-निर्माण स्पष्ट होगा। 3.', 'अंत में: **आरोह के किसी पाठ का एक पैराग्राफ दें** और कहें: **"यहाँ 3 सरल शब्द ढूँढो जो मुख्य शब्द की तरह काम कर रहे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-glossary-meanings-provided-in': { steps: ['Have the student read the stanza aloud three times, emphasizing the key word each time.', 'Ask: "What images, sounds, or feelings come to mind when you hear this word in this line?" 3.', 'Together, list all words in the stanza that relate to the key word (e.g., for "dkfu": yksd, ykt, [kks;h).', 'Guide the student to write a "word portrait": a 3-sentence description of the word\'s personality in this poem (e.g.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_011', difficulty: 'standard',
-          question: 'पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा रचना के उद्देश्य, पात्र-चरित्र.',
+          question: '\'आरोह भाग-1 — पाठ 10\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य.',
           hint: 'यदि अटके तो नोड 004 (नायक पात्र-चित्रण) और नोड 003 (पाठ्य-परिवेश) दोबारा पढ़ें — भाषा का.',
           misconception: 'छात्र समझते हैं कि \'भाषा-प्रयोग\' का अर्थ **कठिन/सजावटी शब्दों** का प्रयोग है, जबकि पाठ 10 में लेखक सरलतम तद्भव/देशज.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा रचना के उद्देश्य, पात्र-चरित्र, परिवेश और',
-                  options: ['पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा रचना के उद्देश्य, पात्र-चरित्र, परिवेश और', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'कथानक (Plot) कहानी की घटनाओं का कारण-परिणाम (Cause-Effect) से बंधा तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश (Textual Environment) refers to the total physical, social, cultural, and'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-1 — पाठ 10\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली',
+                  options: ['\'आरोह भाग-1 — पाठ 10\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-1 — पाठ 10\' का कथानक — \'आरोह भाग-1 — पाठ 10\' — आरोह भाग-1 का पाठ। पाठ का कथानक,', '\'आरोह भाग-1 — पाठ 10\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके तो नोड 004 (नायक पात्र-चित्रण) और नोड 003 (पाठ्य-परिवेश) दोबारा पढ़ें — भाषा का \'कौन\' और.',
                   misconception: 'छात्र समझते हैं कि \'भाषा-प्रयोग\' का अर्थ **कठिन/सजावटी शब्दों** का प्रयोग है, जबकि पाठ 10 में लेखक सरलतम तद्भव/देशज शब्दों ("भौजी".' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र से कहें: "पाठ का कोई एक पृष्ठ खोलो और **लाल पेन** से हर सर्वनाम घेरो; फिर **नीले पेन** से हर क्रिया-रूप रेखांकित.', 'अब पूछें: "लाल/नीले निशानों का पैटर्न क्या बताता है पात्र के बारे में?" 3.', 'यदि फिर भी अटके, तो **दो वाक्य** लिखवाएँ — एक "मैं" से शुरू, दूसरा "हम" से — और दोनों का भावात्मक अंतर बोलकर बताने को.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_10_012', difficulty: 'standard',
-          question: '**वस्तुनिष्ठ बोध-प्रश्न (Objective Comprehension Questions)** test literal.',
+          question: '\'आरोह भाग-1 — पाठ 10\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
           hint: 'If stuck, review **c11_hin_ar_cbse_10_010 (पदावली: मुख्य शब्द)** and.',
           misconception: '**Specific Error:** Students believe "आशय-सूचक प्रश्नों के उत्तर पाठ में *छिपे* होते हैं — बस ध्यान से पढ़ना है।" This.',
           parts: [

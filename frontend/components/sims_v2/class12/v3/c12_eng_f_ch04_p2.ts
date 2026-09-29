@@ -19,45 +19,45 @@ export const c12_eng_f_ch04_p2: SimDef = {
         hook: 'Read this as realism and the plot looks contrived — a stranger mistaken for an old comrade, a crofter who shows his money. Read it as fable and everything locks in: a Nobel laureate\'s belief that love awakens human goodness, bait and trap as the human condition.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas in a literary work that support, contrast, or enrich the primary theme.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Rattrap\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_04_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Track the trap: follow the peddler from his cynical philosophy — the world as a rattrap baited with comforts — through the forest \'prison\' to the Christmas-Eve kindness that springs him free.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_04_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re telling a friend why "The Rattrap" isn\'t just a story about a thief — it\'s about why we all feel alone sometimes and how one act of kindness can.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Rattrap\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'Name two secondary themes in "The Rattrap" besides the primary rattrap metaphor, and give one textual example for each.', options: [
                 { text: 'Correct answer: (1) Human loneliness and need for bonding', outcome: 'Correct answer: (1) Human loneliness and need for bonding — the crofter lives alone, welcomes the.' },
                 { text: 'kindness', outcome: 'Not quite — Students often think "secondary themes" means "less important themes" and give them one-sentence.', reveals: 'secondary-themes-means-less-important' },
                 { text: 'secondary themes', outcome: 'Not quite — Students often think "secondary themes" means "less important themes" and give them one-sentence.', reveals: 'secondary-themes-means-less-important' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_04_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are walking through a dark Swedish forest in late December — the air bites your cheeks, pine needles crunch underfoot, and the trees seem to close.',
+          caseStudy: { intro: 'Find the lines in \'The Rattrap\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "imagery" and "metaphor" in your own words, and give one example of each from "The Rattrap" (do not use the world-as-rattrap.', options: [
                 { text: '**Correct answer:** Imagery = sensory language creating mental pictures (e.g., "the roads', outcome: '**Correct answer:** Imagery = sensory language creating mental pictures (e.g., "the roads near the.' },
                 { text: 'like/as', outcome: 'Not quite — Students treat "imagery" and "metaphor" as *identification tasks* ("find the simile in line 5").', reveals: 'students-treat-imagery-and-metaphor' },
                 { text: 'labeling', outcome: 'Not quite — Students treat "imagery" and "metaphor" as *identification tasks* ("find the simile in line 5").', reveals: 'students-treat-imagery-and-metaphor' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_04_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading "The Rattrap" and encounter "hunger gleamed in his eyes" — you don\'t have a dictionary during the exam. How do you unlock the meaning?',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Rattrap\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'List the nine expressions highlighted in the "Notice these expressions in the text" box at the start of the NCERT chapter "The Rattrap".', options: [
                 { text: 'The nine expressions are: (1) keep body and soul together, (2) hunger gleamed in his', outcome: 'The nine expressions are: (1) keep body and soul together, (2) hunger gleamed in his eyes, (3).' },
                 { text: 'cheese and pork', outcome: 'Not quite — Students believe "infer meaning from context" means guessing a synonym that *could* fit.', reveals: 'infer-meaning-from-context-means' },
                 { text: 'lion\'s den', outcome: 'Not quite — Students believe "infer meaning from context" means guessing a synonym that *could* fit.', reveals: 'infer-meaning-from-context-means' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_04_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you\'re reading a mystery novel and notice the detective says, "I myself saw the clue" versus "I saw the clue myself." The first emphasizes *who* did.',
+          caseStudy: { intro: 'Read \'The Rattrap\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: '**REMEMBER:** Define a reflexive pronoun and give one example from "The Rattrap" where it is used reflexively (action reflects back on the.', options: [
                 { text: 'A reflexive pronoun (myself, yourself, himself, etc.) is used when the subject and object', outcome: 'A reflexive pronoun (myself, yourself, himself, etc.) is used when the subject and object of a verb.' },
                 { text: 'He made them himself at odd moments', outcome: 'Not quite — Students consistently treat every -self pronoun as "reflexive" because the form is identical.', reveals: 'students-consistently-treat-every-self' },
                 { text: 'Noticing form', outcome: 'Not quite — Students consistently treat every -self pronoun as "reflexive" because the form is identical.', reveals: 'students-consistently-treat-every-self' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_04_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re sitting in the CBSE board exam hall, staring at a question: "Why did the peddler sign himself as Captain von Stahle?" Your heart races — is this.',
+          caseStudy: { intro: 'Answer \'The Rattrap\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify whether the following question is literal or inferential: "What did the crofter show the peddler to prove he had received thirty.', options: [
                 { text: 'This is a **literal comprehension question**', outcome: 'This is a **literal comprehension question**. The answer is directly stated in the text: "the old.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students believe inferential questions are "opinion questions" with no wrong answers, so they write.', reveals: 'inferential-questions-are-opinion-questions' },
@@ -77,12 +77,12 @@ export const c12_eng_f_ch04_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_04_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas in a literary work that support.',
+          question: 'Secondary themes in \'The Rattrap\' — the supporting ideas and motifs that deepen.',
           hint: 'If stuck, return to c12_eng_f_cbse_04_006 and rewrite the primary theme in your own.',
           misconception: 'Students often think "secondary themes" means "less important themes" and give them one-sentence treatment.',
           parts: [
@@ -99,7 +99,7 @@ export const c12_eng_f_ch04_p2: SimDef = {
                   hint: 'If stuck, return to c12_eng_f_cbse_04_006 and rewrite the primary theme in your own words, then.',
                   misconception: 'Students often think "secondary themes" means "less important themes" and give them one-sentence treatment.' }
           ],
-            remediations: { 'secondary-themes-means-less-important': { steps: ['If a student cannot distinguish primary vs secondary themes: (1) Have them reread node c12_eng_f_cbse_04_006 (Primary.', '(3) Ask: "What human experiences free people from the trap?" — guide them to kindness, trust, empathy.', '(4) Map each answer to a character: crofter (loneliness), ironmaster (pride), Edla (kindness), peddler (redemption).', '(5) Re-attempt Diagnostic Question 1 with this scaffold.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'secondary-themes-means-less-important': { steps: ['If a student cannot distinguish primary vs secondary themes: (1) Have them reread node c12_eng_f_cbse_04_006 (Primary.', '(3) Ask: "What human experiences free people from the trap?" — guide them to kindness, trust, empathy.', '(4) Map each answer to a character: crofter (loneliness), ironmaster (pride), Edla (kindness), peddler (redemption).', '(5) Re-attempt Diagnostic Question 1 with this scaffold.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_04_007', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -110,9 +110,9 @@ export const c12_eng_f_ch04_p2: SimDef = {
                   hint: 'If stuck, return to c12_eng_f_cbse_04_006 and rewrite the primary theme in your own words, then.',
                   misconception: 'Students often think "secondary themes" means "less important themes" and give them one-sentence treatment.' }
           ],
-            remediations: { 'secondary-themes-means-less-important': { steps: ['If a student cannot distinguish primary vs secondary themes: (1) Have them reread node c12_eng_f_cbse_04_006 (Primary.', '(3) Ask: "What human experiences free people from the trap?" — guide them to kindness, trust, empathy.', '(4) Map each answer to a character: crofter (loneliness), ironmaster (pride), Edla (kindness), peddler (redemption).', '(5) Re-attempt Diagnostic Question 1 with this scaffold.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'secondary-themes-means-less-important': { steps: ['If a student cannot distinguish primary vs secondary themes: (1) Have them reread node c12_eng_f_cbse_04_006 (Primary.', '(3) Ask: "What human experiences free people from the trap?" — guide them to kindness, trust, empathy.', '(4) Map each answer to a character: crofter (loneliness), ironmaster (pride), Edla (kindness), peddler (redemption).', '(5) Re-attempt Diagnostic Question 1 with this scaffold.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_04_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'The Rattrap\' — the vivid, sensory language that creates.',
           hint: 'If unable to distinguish tenor/vehicle in metaphor or map sensory words, review Class 11.',
           misconception: 'Students treat "imagery" and "metaphor" as *identification tasks* ("find the simile in line 5") rather than.',
           parts: [
@@ -125,20 +125,20 @@ export const c12_eng_f_ch04_p2: SimDef = {
                   hint: 'If unable to distinguish tenor/vehicle in metaphor or map sensory words, review Class 11 Hornbill.',
                   misconception: 'Students treat "imagery" and "metaphor" as *identification tasks* ("find the simile in line 5") rather than *interpretive tools*.' }
           ],
-            remediations: { 'students-treat-imagery-and-metaphor': { steps: ['**Re-read the two anchor passages** (para 2-3 for metaphor origin; para 7-8 for forest imagery) with a highlighter.', '**Make a 2-column table**: Column A = "Textual phrase," Column B = "Sense appealed to + Thematic effect." Fill 5 rows.', '**Re-attempt Diagnostic Q3** (extended metaphor trace) using your table.', 'If still stuck, revisit **c11_eng_h_cbse_01_008** (Class 11 Hornbill Ch1 Literary Devices: Imagery and Metaphor) for.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-imagery-and-metaphor': { steps: ['**Re-read the two anchor passages** (para 2-3 for metaphor origin; para 7-8 for forest imagery) with a highlighter.', '**Make a 2-column table**: Column A = "Textual phrase," Column B = "Sense appealed to + Thematic effect." Fill 5 rows.', '**Re-attempt Diagnostic Q3** (extended metaphor trace) using your table.', 'If still stuck, revisit **c11_eng_h_cbse_01_008** (Class 11 Hornbill Ch1 Literary Devices: Imagery and Metaphor) for.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_04_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'The Rattrap\' — where opposite things are both true,.',
           hint: 'If stuck, review Class 11 node c11_eng_h_cbse_01_009 for irony/symbolism definitions and.',
           misconception: 'Students often treat irony and symbolism as separate, isolated devices — identifying "this is irony" and "this is.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where the intended meaning of words or events is opposite to',
-                  options: ['Irony is a literary device where the intended meaning of words or events is opposite to', '"Before You Read: Context and Background" is a preparatory literary skill that equips', 'Plot and narrative structure refers to the organized sequence of events in a story', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'The Rattrap\'',
+                  options: ['Irony and paradox in \'The Rattrap\'', '\'The Rattrap\' (Flamingo, ch', 'The plot/narrative arc of \'The Rattrap\'', 'The setting of \'The Rattrap\''],
                   hint: 'If stuck, review Class 11 node c11_eng_h_cbse_01_009 for irony/symbolism definitions and.',
                   misconception: 'Students often treat irony and symbolism as separate, isolated devices — identifying "this is irony" and "this is a symbol" without seeing.' }
           ],
-            remediations: { 'students-often-treat-irony-and': { steps: ['If the student cannot distinguish irony types or trace symbolic evolution: (1) Return to c12_eng_f_cbse_04_008 (Imagery.', '(2) Create a three-column table: Column A = literal event/object, Column B = type of irony/symbol, Column C = thematic.', 'Fill it for 5 key moments.', '(3) Re-read the forest episode (peddler lost) and the final gift scene side-by-side; annotate how the *same object*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-irony-and': { steps: ['If the student cannot distinguish irony types or trace symbolic evolution: (1) Return to c12_eng_f_cbse_04_008 (Imagery.', '(2) Create a three-column table: Column A = literal event/object, Column B = type of irony/symbol, Column C = thematic.', 'Fill it for 5 key moments.', '(3) Re-read the forest episode (peddler lost) and the final gift scene side-by-side; annotate how the *same object*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_04_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'The Rattrap\' — the words and phrases you must know to read.',
           hint: 'If stuck, return to the "Notice these expressions" box and practice the Context Clue.',
           misconception: 'Students believe "infer meaning from context" means guessing a synonym that *could* fit.',
           parts: [
@@ -155,20 +155,20 @@ export const c12_eng_f_ch04_p2: SimDef = {
                   hint: 'If stuck, return to the "Notice these expressions" box and practice the Context Clue Strategy.',
                   misconception: 'Students believe "infer meaning from context" means guessing a synonym that *could* fit. They ignore *connotation* and *collocation*.' }
           ],
-            remediations: { 'infer-meaning-from-context-means': { steps: ['**Re-read the specific paragraph** for the target expression.', '**Annotate 3 context clues**: a preceding cause, a following effect, a descriptive detail.', '**Consult a dictionary** for 2-3 candidate meanings; eliminate those that clash with *any* clue.', '**Write a one-sentence justification** using the formula: "The word means X because the text shows Y and Z." 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'infer-meaning-from-context-means': { steps: ['**Re-read the specific paragraph** for the target expression.', '**Annotate 3 context clues**: a preceding cause, a following effect, a descriptive detail.', '**Consult a dictionary** for 2-3 candidate meanings; eliminate those that clash with *any* clue.', '**Write a one-sentence justification** using the formula: "The word means X because the text shows Y and Z." 5.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_04_011', difficulty: 'standard',
-          question: 'This node focuses on analyzing grammatical structures and language usage.',
+          question: 'Language and style in \'The Rattrap\' — how the writer chose words, sentences and.',
           hint: 'Review the syntactic test: "Can I remove the -self word without breaking the sentence?".',
           misconception: 'Students consistently treat every -self pronoun as "reflexive" because the form is identical.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'This node focuses on analyzing grammatical structures and language usage in "The',
-                  options: ['This node focuses on analyzing grammatical structures and language usage in "The', '"Before You Read: Context and Background" is a preparatory literary skill that equips', 'Plot and narrative structure refers to the organized sequence of events in a story', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language and style in \'The Rattrap\'',
+                  options: ['Language and style in \'The Rattrap\'', '\'The Rattrap\' (Flamingo, ch', 'The plot/narrative arc of \'The Rattrap\'', 'The setting of \'The Rattrap\''],
                   hint: 'Review the syntactic test: "Can I remove the -self word without breaking the sentence?" If yes →.',
                   misconception: 'Students consistently treat every -self pronoun as "reflexive" because the form is identical.' }
           ],
-            remediations: { 'students-consistently-treat-every-self': { steps: ['Emphatic Drill:** Write five simple sentences on the board (e.g., "She cut herself," "She herself cut the cake").', 'Ask the student to delete the -self word.', 'If the sentence remains grammatical → emphatic; if it becomes incomplete → reflexive.', 'Practice with the four textbook sentences until 100% accuracy.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-consistently-treat-every-self': { steps: ['Emphatic Drill:** Write five simple sentences on the board (e.g., "She cut herself," "She herself cut the cake").', 'Ask the student to delete the -self word.', 'If the sentence remains grammatical → emphatic; if it becomes incomplete → reflexive.', 'Practice with the four textbook sentences until 100% accuracy.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_04_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'The Rattrap\' — questions answered straight from the.',
           hint: 'If stuck, immediately revisit c12_eng_f_cbse_04_002 (Plot) to re-sequence events and.',
           misconception: 'Students believe inferential questions are "opinion questions" with no wrong answers, so they write vague personal.',
           parts: [
@@ -189,7 +189,7 @@ export const c12_eng_f_ch04_p2: SimDef = {
                   hint: 'If stuck, immediately revisit c12_eng_f_cbse_04_002 (Plot) to re-sequence events and.',
                   misconception: 'Students believe inferential questions are "opinion questions" with no wrong answers, so they write vague personal reactions ("I think the.' }
           ],
-            remediations: { 'inferential-questions-are-opinion-questions': { steps: ['If a student cannot distinguish literal from inferential questions, do this 3-step remediation: (1) Take 5 NCERT.', '(2) For inferential ones, have them list the 2-3 textual clues they combined (e.g., for "Why did Edla intercede?".', '(3) Re-attempt diagnostic questions 2 and 4 with this scaffold.', 'If still stuck, revisit c12_eng_f_cbse_04_002 (Plot) and c12_eng_f_cbse_04_004 (Protagonist) to rebuild event-sequence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'inferential-questions-are-opinion-questions': { steps: ['If a student cannot distinguish literal from inferential questions, do this 3-step remediation: (1) Take 5 NCERT.', '(2) For inferential ones, have them list the 2-3 textual clues they combined (e.g., for "Why did Edla intercede?".', '(3) Re-attempt diagnostic questions 2 and 4 with this scaffold.', 'If still stuck, revisit c12_eng_f_cbse_04_002 (Plot) and c12_eng_f_cbse_04_004 (Protagonist) to rebuild event-sequence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

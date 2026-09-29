@@ -6,13 +6,13 @@ import C11_GeoGeographyDisciplineCBSESim from '../../../simulations/c6_12_new/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geogeographydisciplinecbsesim: SimDef = {
     id: 'v3w_c11_geogeographydisciplinecbsesim',
-    title: 'Geo Geography Discipline CBSE',
+    title: 'Geography: Definition, Meaning and Scope',
     subtitle: 'This node covers the etymological roots, formal definition, and the broad scope of.',
     classLevel: 11, subject: 'science', topic: 'Geography: Definition, Meaning and Scope',
     chapters: [],
     nodeIds: ['c11_geo_cbse_01_001', 'c11_geo_cbse_01_002', 'c11_geo_cbse_01_004', 'c11_geo_cbse_01_006', 'c11_geo_cbse_01_008', 'c11_geo_cbse_01_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe their immediate surroundings: the school building, the road outside, the.', goal: 'Master Geo Geography Discipline CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe their immediate surroundings: the school building, the road outside, the.', goal: 'Master Geography: Definition, Meaning and Scope.' },
     discovery: {
         question: 'Explain why geography is classified as both a natural science and a social science, using the concepts of "physical geography" and "human geography."',
         options: ['Geography straddles natural and social sciences', 'geography is only about maps', 'geography is only about nature'],
@@ -80,7 +80,7 @@ export const w_c11_geogeographydisciplinecbsesim: SimDef = {
             { text: 'Formulate integrated recommendation — shift from "ponds per panchayat" (administrative targeting) to "ponds per.', faded: true, blankAnswer: 'The assessment framework integrates hydrogeological.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_geo_cbse_01_002', title: 'Identify each idea',
-          dissect: { specimen: 'Geo Geography Discipline CBSE', spots: [
+          dissect: { specimen: 'Geography: Definition, Meaning and Scope', spots: [
             { id: 's1', label: 'Geography is the scientific discipline', prompt: 'Which idea is this? — Geography is the scientific discipline that studies the Earth\'s surface as the home of.', answer: 'Geography is the scientific discipline', options: ['Geography is the scientific discipline', 'The evolution of geography traces', 'Physical Geography is the branch', 'Biogeography is the study of'] },
             { id: 's2', label: 'The evolution of geography traces', prompt: 'Which idea is this? — The evolution of geography traces the disciplinary transformation from ancient.', answer: 'The evolution of geography traces', options: ['The evolution of geography traces', 'Geography is the scientific discipline', 'Physical Geography is the branch', 'Biogeography is the study of'] },
             { id: 's3', label: 'Physical Geography is the branch', prompt: 'Which idea is this? — Physical Geography is the branch of geography that systematically studies the natural.', answer: 'Physical Geography is the branch', options: ['Physical Geography is the branch', 'Geography is the scientific discipline', 'The evolution of geography traces', 'Biogeography is the study of'] },
@@ -89,7 +89,7 @@ export const w_c11_geogeographydisciplinecbsesim: SimDef = {
             { id: 's6', label: 'Geography as an integrating discipline', prompt: 'Which idea is this? — Geography as an integrating discipline is the spatial science that synthesizes physical.', answer: 'Geography as an integrating discipline', options: ['Geography as an integrating discipline', 'Geography is the scientific discipline', 'The evolution of geography traces', 'Physical Geography is the branch'] }
           ] } }
     ],
-    explore: { component: C11_GeoGeographyDisciplineCBSESim, prompt: 'Explore the interactive — Geo Geography Discipline CBSE' },
+    explore: { component: C11_GeoGeographyDisciplineCBSESim, prompt: 'Explore the interactive — Geography: Definition, Meaning and Scope' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_01_001', difficulty: 'standard',
           question: 'Geography is the scientific discipline that studies the Earth\'s surface as the.',

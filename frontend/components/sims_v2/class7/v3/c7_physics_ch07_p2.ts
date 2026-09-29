@@ -61,7 +61,11 @@ export const c7_physics_ch07_p2: SimDef = {
                   options: ['The correct pH value of a purely neutral substance is 7', 'stronger', 'more powerful'],
                   hint: 'Review simple litmus and natural indicator tests in node c7_physics_ch07_002 before trying.',
                   misconception: 'Students often believe that higher numbers on the pH scale always indicate "stronger" or "more powerful" substances in general, treating.' },
-                { id: 'b', prompt: 'Compare two household solutions: Solution A has a pH of 3, and Solution B has a pH of 6.', answer: 'Solution B (pH 6) is closer to neutral (pH 7)',
+                { id: 'b', prompt: 'If a chemical solution in a school laboratory in Delhi has a measured pH of 11, classify the solution as acidic, basic, or neutral, and state whether it would.', answer: 'Identify the given pH value: pH =',
+                  options: ['Identify the given pH value: pH =', 'stronger', 'more powerful'],
+                  hint: 'Review simple litmus and natural indicator tests in node c7_physics_ch07_002 before trying.',
+                  misconception: 'Students often believe that higher numbers on the pH scale always indicate "stronger" or "more powerful" substances in general, treating.' },
+                { id: 'c', prompt: 'Compare two household solutions: Solution A has a pH of 3, and Solution B has a pH of 6.', answer: 'Solution B (pH 6) is closer to neutral (pH 7)',
                   options: ['Solution B (pH 6) is closer to neutral (pH 7)', 'stronger', 'more powerful'],
                   hint: 'Review simple litmus and natural indicator tests in node c7_physics_ch07_002 before trying.',
                   misconception: 'Students often believe that higher numbers on the pH scale always indicate "stronger" or "more powerful" substances in general, treating.' }

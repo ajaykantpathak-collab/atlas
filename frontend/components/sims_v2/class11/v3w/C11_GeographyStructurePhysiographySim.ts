@@ -6,13 +6,13 @@ import C11_GeographyStructurePhysiographySim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geographystructurephysiographysim: SimDef = {
     id: 'v3w_c11_geographystructurephysiographysim',
-    title: 'Structure Physiography',
+    title: 'Physiographic Divisions of India: Overview and Classification',
     subtitle: 'Covers the six-fold physiographic classification of India at 1:5 million scale, including.',
     classLevel: 11, subject: 'geography', topic: 'Physiographic Divisions of India: Overview and Classification',
     chapters: [],
     nodeIds: ['c11_geo_cbse_09_001', 'c11_geo_cbse_09_008', 'c11_geo_cbse_09_006', 'c11_geo_cbse_13_001', 'c11_geo_cbse_13_002', 'c11_geo_cbse_12_003', 'c11_geo_cbse_09_002', 'c11_geo_cbse_09_005', 'c11_geo_cbse_10_001', 'c11_geo_cbse_10_003', 'c11_geo_cbse_10_004', 'c11_geo_cbse_08_002', 'c11_geo_cbse_08_005', 'c11_geo_cbse_21_001', 'c11_geo_cbse_13_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe a physical relief map of India (or Google Earth terrain view) and.', goal: 'Master Structure Physiography.' },
+    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe a physical relief map of India (or Google Earth terrain view) and.', goal: 'Master Physiographic Divisions of India: Overview and Classification.' },
     discovery: {
         question: 'State the approximate longitudinal extent of the Indian Desert and name the hill range that forms its eastern boundary.',
         options: ['The Indian Desert extends approximately from 70°E to 75°E longitude', 'desert', 'Sahara-style sand sea'],
@@ -79,7 +79,7 @@ export const w_c11_geographystructurephysiographysim: SimDef = {
             { text: 'Verify: Both dark, but colour from different minerals (titaniferous magnetite in Black vs. organic matter in Alluvial).', faded: true, blankAnswer: 'Village A = Black soil (Regur); Village B = Alluvial soil.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_geo_cbse_09_008', title: 'Identify each idea',
-          dissect: { specimen: 'Structure Physiography', spots: [
+          dissect: { specimen: 'Physiographic Divisions of India: Overview and Classification', spots: [
             { id: 's1', label: 'Physiographic divisions of India refer', prompt: 'Which idea is this? — Physiographic divisions of India refer to the classification of the Indian landmass into.', answer: 'Physiographic divisions of India refer', options: ['Physiographic divisions of India refer', 'The Andaman-Nicobar Islands Bay of', 'The Indian Desert Thar Desert', 'Surface water in India comprises'] },
             { id: 's2', label: 'The Andaman-Nicobar Islands Bay of', prompt: 'Which idea is this? — The Andaman-Nicobar Islands (Bay of Bengal) are a tectonically active, volcanic island.', answer: 'The Andaman-Nicobar Islands Bay of', options: ['The Andaman-Nicobar Islands Bay of', 'Physiographic divisions of India refer', 'The Indian Desert Thar Desert', 'Surface water in India comprises'] },
             { id: 's3', label: 'The Indian Desert Thar Desert', prompt: 'Which idea is this? — The Indian Desert (Thar Desert) is an arid physiographic region in northwestern India,.', answer: 'The Indian Desert Thar Desert', options: ['The Indian Desert Thar Desert', 'Physiographic divisions of India refer', 'The Andaman-Nicobar Islands Bay of', 'Surface water in India comprises'] },
@@ -88,7 +88,7 @@ export const w_c11_geographystructurephysiographysim: SimDef = {
             { id: 's6', label: 'The ICAR Indian Council of', prompt: 'Which idea is this? — The ICAR (Indian Council of Agricultural Research) classification categorizes Indian.', answer: 'The ICAR Indian Council of', options: ['The ICAR Indian Council of', 'Physiographic divisions of India refer', 'The Andaman-Nicobar Islands Bay of', 'The Indian Desert Thar Desert'] }
           ] } }
     ],
-    explore: { component: C11_GeographyStructurePhysiographySim, prompt: 'Explore the interactive — Structure Physiography' },
+    explore: { component: C11_GeographyStructurePhysiographySim, prompt: 'Explore the interactive — Physiographic Divisions of India: Overview and Classification' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_09_001', difficulty: 'standard',
           question: 'Physiographic divisions of India refer to the classification of the Indian.',

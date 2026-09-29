@@ -1,5 +1,6 @@
 /** GENERATED — per-sim lazy loaders, class 12 masters. Rebuilt by tools/wrap_masters.mjs. */
 export const V3W_LOADERS: Record<string, () => Promise<Record<string, unknown>>> = {
+    'v3w_c12_chemistrychemicalkineticssim': () => import('./v3w/C12_ChemistryChemicalKineticsSim'),
     'v3w_c12_biologydnahelixsim': () => import('./v3w/C12_BiologyDNAHelixSim'),
     'v3w_c12_biologyproteinstructuresim': () => import('./v3w/C12_BiologyProteinStructureSim'),
     'v3w_c12_mathsdefiniteintegralriemannsim': () => import('./v3w/C12_MathsDefiniteIntegralRiemannSim'),

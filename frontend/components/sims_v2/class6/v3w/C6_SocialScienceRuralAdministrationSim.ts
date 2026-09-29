@@ -6,13 +6,13 @@ import C6_SocialScienceRuralAdministrationSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_socialscienceruraladministrationsim: SimDef = {
     id: 'v3w_c6_socialscienceruraladministrationsim',
-    title: 'Social Science Rural Administration',
+    title: 'State Government: Structure and Functions',
     subtitle: 'This node covers the structure (Legislature, Executive, Judiciary) and core functions of.',
     classLevel: 6, subject: 'science', topic: 'State Government: Structure and Functions',
     chapters: [],
     nodeIds: ['c6_civics_ch12_019', 'c6_civics_ch12_015', 'c6_civics_ch12_020', 'c6_civics_ch12_018', 'c6_history_ch09_038', 'c6_history_ch09_034', 'c6_history_ch09_035'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine your school needs a new playground, but the local village council doesn\'t have the money to build it.', goal: 'Master Social Science Rural Administration.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine your school needs a new playground, but the local village council doesn\'t have the money to build it.', goal: 'Master State Government: Structure and Functions.' },
     discovery: {
         question: 'Why is it better for a village to decide on fixing a local road rather than waiting for the national government?',
         options: ['Local villagers know exactly', 'Grassroots Democracy', '"Grassroots Democracy" is just about voting for leaders once every five years'],
@@ -65,7 +65,7 @@ export const w_c6_socialscienceruraladministrationsim: SimDef = {
                 { text: 'Akbar inherited a stable empire and just kept it that way', outcome: 'Not quite — Students often think Akbar inherited a stable empire and just kept it that way.', reveals: 'akbar-inherited-a-stable-empire' }
             ] }] } }
     ],
-    explore: { component: C6_SocialScienceRuralAdministrationSim, prompt: 'Explore the interactive — Social Science Rural Administration' },
+    explore: { component: C6_SocialScienceRuralAdministrationSim, prompt: 'Explore the interactive — State Government: Structure and Functions' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_civics_ch12_019', difficulty: 'standard',
           question: 'The state government is the administrative authority that manages a state\'s.',

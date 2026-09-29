@@ -19,44 +19,44 @@ export const c11_eng_w_ch12_p2: SimDef = {
         hook: 'The telephone strips away everything but voice — so the only place racism can operate is a question about shade, and the poem dismantles it there.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying, supporting ideas in a literary work that complement the primary theme by adding layers of meaning, exploring related social, psychological, or philosophical.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Telephone Conversation\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_12_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Find the pivot where a housing call becomes a racial negotiation, read the silences and capitals as structure, and judge the open ending.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_12_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re at a housing society meeting where someone says, "We don\'t want *those* people here," but refuses to say why openly.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Telephone Conversation\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a secondary theme in literature, and how does it differ from the primary theme?', options: [
                 { text: 'A secondary theme is a supporting idea that runs parallel to the primary theme, adding', outcome: 'A secondary theme is a supporting idea that runs parallel to the primary theme, adding depth and.' },
                 { text: 'minor topics', outcome: 'Not quite — Students often confuse secondary themes with "examples of the primary theme." For instance, they.', reveals: 'students-often-confuse-secondary-themes' },
                 { text: 'subplots', outcome: 'Not quite — Students often confuse secondary themes with "examples of the primary theme." For instance, they.', reveals: 'students-often-confuse-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_12_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are describing a painful phone call to a friend: you would not just say "it was racist"; you would replay the silence, the tone of voice, the.',
+          caseStudy: { intro: 'Find the lines in \'Telephone Conversation\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "imagery" and "metaphor" in your own words, giving one example of each from everyday language (not from the poem).', options: [
                 { text: 'Imagery: Language that appeals to the senses (e.g., "The kitchen smelled of frying onions', outcome: 'Imagery: Language that appeals to the senses (e.g., "The kitchen smelled of frying onions and.' },
                 { text: 'Time is like a thief', outcome: 'Not quite — Students often treat every colour word as "just description" and miss that Soyinka *clusters*.', reveals: 'students-often-treat-every-colour' },
                 { text: 'Imagery is description', outcome: 'Not quite — Students often treat every colour word as "just description" and miss that Soyinka *clusters*.', reveals: 'students-often-treat-every-colour' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_12_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you call a landlord about a flat and they suddenly ask, "HOW DARK ARE YOU?" instead of discussing rent.',
+          caseStudy: { intro: 'Look in \'Telephone Conversation\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define verbal irony and give one example from the poem where the speaker uses words that mean the opposite of what he feels.', options: [
                 { text: 'Verbal irony occurs when a speaker says one thing but means the opposite, often to', outcome: 'Verbal irony occurs when a speaker says one thing but means the opposite, often to critique.' },
                 { text: 'HOW DARK?', outcome: 'Not quite — Students often believe the landlady\'s questions ("HOW DARK?", "ARE YOU LIGHT OR VERY DARK?") are.', reveals: 'the-landlady-s-questions-how' },
                 { text: 'ARE YOU LIGHT OR VERY DARK?', outcome: 'Not quite — Students often believe the landlady\'s questions ("HOW DARK?", "ARE YOU LIGHT OR VERY DARK?") are.', reveals: 'the-landlady-s-questions-how' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_12_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you receive a text message written entirely in capital letters with no punctuation: "WHERE ARE YOU WHY NO REPLY".',
+          caseStudy: { intro: 'Read \'Telephone Conversation\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the lines in the poem where capital letters are used for entire words or phrases.', options: [
                 { text: 'Capitalized phrases include "HOW DARK ?", "ARE YOU LIGHT OR VERY DARK ?", "Button B', outcome: 'Capitalized phrases include "HOW DARK ?", "ARE YOU LIGHT OR VERY DARK ?", "Button B.' },
                 { text: 'it shows the landlady is polite', outcome: 'Not quite — Students often treat the poem\'s non-standard grammar (fragments, capitalization, missing verbs).', reveals: 'students-often-treat-the-poem' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_12_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine reading a WhatsApp message where a friend writes "I\'m fine" but their late-night timing and short replies suggest otherwise.',
+          caseStudy: { intro: 'Answer \'Telephone Conversation\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the difference between a literal comprehension question and an inferential comprehension question?', options: [
                 { text: 'Literal questions have answers directly stated in the text', outcome: 'Literal questions have answers directly stated in the text; inferential questions require drawing.' },
                 { text: 'literal means easy, inferential means hard', outcome: 'Not quite — Students often think inferential questions have no "right" answer because they are "just opinions.".', reveals: 'inferential-questions-have-no-right' },
@@ -76,12 +76,12 @@ export const c11_eng_w_ch12_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_12_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying, supporting ideas in a literary work that.',
+          question: 'Secondary themes in \'Telephone Conversation\' — the supporting ideas and motifs.',
           hint: 'Review node 006 (Primary Theme) and node 004 (Protagonist Analysis) — specifically the.',
           misconception: 'Students often confuse secondary themes with "examples of the primary theme." For instance, they list "the landlady\'s.',
           parts: [
@@ -90,9 +90,9 @@ export const c11_eng_w_ch12_p2: SimDef = {
                   hint: 'Review node 006 (Primary Theme) and node 004 (Protagonist Analysis) — specifically the speaker\'s.',
                   misconception: 'Students often confuse secondary themes with "examples of the primary theme." For instance, they list "the landlady\'s question about skin.' }
           ],
-            remediations: { 'students-often-confuse-secondary-themes': { steps: ['Have the student re-read the poem and highlight every moment the speaker *responds* (not just what the landlady does).', 'For each response, ask: "What idea is the speaker introducing here that isn\'t just \'racism is bad\'?" (e.g., when.', 'Group these ideas into 3-4 clusters.', 'Name each cluster with a noun phrase (e.g., "linguistic inadequacy," "bodily absurdity," "performative politeness").'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-secondary-themes': { steps: ['Have the student re-read the poem and highlight every moment the speaker *responds* (not just what the landlady does).', 'For each response, ask: "What idea is the speaker introducing here that isn\'t just \'racism is bad\'?" (e.g., when.', 'Group these ideas into 3-4 clusters.', 'Name each cluster with a noun phrase (e.g., "linguistic inadequacy," "bodily absurdity," "performative politeness").'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_12_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Telephone Conversation\' — the vivid, sensory language that creates.',
           hint: 'Review the "Poetic Devices" nodes from Class 6-8 (especially c6_english_u1_005 and.',
           misconception: 'Students often treat every colour word as "just description" and miss that Soyinka *clusters* colours to build opposing.',
           parts: [
@@ -101,7 +101,7 @@ export const c11_eng_w_ch12_p2: SimDef = {
                   hint: 'Review the "Poetic Devices" nodes from Class 6-8 (especially c6_english_u1_005 and c8_engl_ch4_15).',
                   misconception: 'Students often treat every colour word as "just description" and miss that Soyinka *clusters* colours to build opposing symbolic systems.' }
           ],
-            remediations: { 'students-often-treat-every-colour': { steps: ['Give the student a colour-coded highlighter task: pink for red-cluster words, yellow for gold-cluster, blue for.', 'Have them read only the highlighted words aloud in clusters to *hear* the contrasting soundscapes.', 'Ask: "Which cluster feels like a prison?', 'Which feels like a real body?" 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-every-colour': { steps: ['Give the student a colour-coded highlighter task: pink for red-cluster words, yellow for gold-cluster, blue for.', 'Have them read only the highlighted words aloud in clusters to *hear* the contrasting soundscapes.', 'Ask: "Which cluster feels like a prison?', 'Which feels like a real body?" 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_12_008', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -116,9 +116,9 @@ export const c11_eng_w_ch12_p2: SimDef = {
                   hint: 'Review the "Poetic Devices" nodes from Class 6-8 (especially c6_english_u1_005 and c8_engl_ch4_15).',
                   misconception: 'Students often treat every colour word as "just description" and miss that Soyinka *clusters* colours to build opposing symbolic systems.' }
           ],
-            remediations: { 'students-often-treat-every-colour': { steps: ['Give the student a colour-coded highlighter task: pink for red-cluster words, yellow for gold-cluster, blue for.', 'Have them read only the highlighted words aloud in clusters to *hear* the contrasting soundscapes.', 'Ask: "Which cluster feels like a prison?', 'Which feels like a real body?" 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-every-colour': { steps: ['Give the student a colour-coded highlighter task: pink for red-cluster words, yellow for gold-cluster, blue for.', 'Have them read only the highlighted words aloud in clusters to *hear* the contrasting soundscapes.', 'Ask: "Which cluster feels like a prison?', 'Which feels like a real body?" 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_12_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'Telephone Conversation\' — where opposite things are both.',
           hint: 'Review the "Irony in \'A Letter to God\'" (c10_engl_cbse_01_007) and "Symbolism in \'Two.',
           misconception: 'Students often believe the landlady\'s questions ("HOW DARK?", "ARE YOU LIGHT OR VERY DARK?") are merely insensitive.',
           parts: [
@@ -127,20 +127,20 @@ export const c11_eng_w_ch12_p2: SimDef = {
                   hint: 'Review the "Irony in \'A Letter to God\'" (c10_engl_cbse_01_007) and "Symbolism in \'Two Stories About.',
                   misconception: 'Students often believe the landlady\'s questions ("HOW DARK?", "ARE YOU LIGHT OR VERY DARK?") are merely insensitive curiosity, missing that.' }
           ],
-            remediations: { 'the-landlady-s-questions-how': { steps: ['Re-read the poem *only* for capitalised words and colour words; list them in two columns.', 'For each capitalised phrase, write: "Literal question: ___ | Actual implication: ___" to expose the verbal irony.', 'For each colour, ask: "Who assigns this colour?', 'Who is reduced by it?" to reveal symbolism as imposed labelling.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-landlady-s-questions-how': { steps: ['Re-read the poem *only* for capitalised words and colour words; list them in two columns.', 'For each capitalised phrase, write: "Literal question: ___ | Actual implication: ___" to expose the verbal irony.', 'For each colour, ask: "Who assigns this colour?', 'Who is reduced by it?" to reveal symbolism as imposed labelling.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_12_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining a word\'s nuanced meaning.',
+          question: 'Key vocabulary of \'Telephone Conversation\' — the words and phrases you must.',
           hint: 'Review c11_eng_w_cbse_12_009\'s worked examples on irony detection, focusing on the.',
           misconception: 'Students treat "raven black" as a simple colour intensifier ("very black") and miss that "raven" carries cultural.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context is the skill of determining a word\'s nuanced meaning by analyzing',
-                  options: ['Vocabulary in Context is the skill of determining a word\'s nuanced meaning by analyzing', 'Before You Read: Context and Background provides essential historical, biographical, and', 'Plot and narrative structure in poetry refers to the organized sequence of events and the', 'Setting in poetry refers to the time, place, and physical environment where the poetic'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Key vocabulary of \'Telephone Conversation\'',
+                  options: ['Key vocabulary of \'Telephone Conversation\'', '\'Telephone Conversation\' (Woven Words, ch', 'The plot/narrative arc of \'Telephone Conversation\'', 'The setting of \'Telephone Conversation\''],
                   hint: 'Review c11_eng_w_cbse_12_009\'s worked examples on irony detection, focusing on the "good-breeding".',
                   misconception: 'Students treat "raven black" as a simple colour intensifier ("very black") and miss that "raven" carries cultural baggage: in Western.' }
           ],
-            remediations: { 'students-treat-raven-black-as': { steps: ['Have the student re-read lines 25–26 aloud, stressing "raven" as a noun, not an adjective.', 'Ask: "What bird is a raven?', 'What stories know this bird?" 3.', 'Provide two 30-second micro-lectures: (a) Poe\'s raven = "Nevermore" / death omen in Gothic tradition; (b) Yoruba / West.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-raven-black-as': { steps: ['Have the student re-read lines 25–26 aloud, stressing "raven" as a noun, not an adjective.', 'Ask: "What bird is a raven?', 'What stories know this bird?" 3.', 'Provide two 30-second micro-lectures: (a) Poe\'s raven = "Nevermore" / death omen in Gothic tradition; (b) Yoruba / West.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_12_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the deliberate grammatical, syntactic, and.',
+          question: 'Language and style in \'Telephone Conversation\' — how the writer chose words.',
           hint: 'Review sentence classification (c6_english_u4_038) and active/passive transformations.',
           misconception: 'Students often treat the poem\'s non-standard grammar (fragments, capitalization, missing verbs) as "mistakes".',
           parts: [
@@ -149,9 +149,9 @@ export const c11_eng_w_ch12_p2: SimDef = {
                   hint: 'Review sentence classification (c6_english_u4_038) and active/passive transformations.',
                   misconception: 'Students often treat the poem\'s non-standard grammar (fragments, capitalization, missing verbs) as "mistakes" or "informal speech" rather.' }
           ],
-            remediations: { 'students-often-treat-the-poem': { steps: ['Give the student a two-column table: Column A – "Standard Grammar Version" (teacher provides corrected sentences).', 'Ask them to read both aloud and note differences in sound, speed, and feeling.', 'Guide them to label each difference (e.g., "capitalization = volume", "fragment = gasp", "inversion = shock").', 'Have them write one sentence explaining why the poet chose the "incorrect" version.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-poem': { steps: ['Give the student a two-column table: Column A – "Standard Grammar Version" (teacher provides corrected sentences).', 'Ask them to read both aloud and note differences in sound, speed, and feeling.', 'Guide them to label each difference (e.g., "capitalization = volume", "fragment = gasp", "inversion = shock").', 'Have them write one sentence explaining why the poet chose the "incorrect" version.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_12_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'Telephone Conversation\' — questions answered straight.',
           hint: 'If stuck, review the definitions of irony and symbolism (node c11_eng_w_cbse_12_009) and.',
           misconception: 'Students often think inferential questions have no "right" answer because they are "just opinions." They fail to see.',
           parts: [
@@ -168,7 +168,7 @@ export const c11_eng_w_ch12_p2: SimDef = {
                   hint: 'If stuck, review the definitions of irony and symbolism (node c11_eng_w_cbse_12_009) and practice.',
                   misconception: 'Students often think inferential questions have no "right" answer because they are "just opinions." They fail to see that inferences must.' }
           ],
-            remediations: { 'inferential-questions-have-no-right': { steps: ['Show the student the line "Her assent was clinical, crushing in its light / Impersonality." 2.', 'Ask: "What words show her attitude?" (clinical, crushing, impersonality).', 'Guide them to connect these words to the inference of cold prejudice.', 'Practice writing a PEEL paragraph: Point (landlady is prejudiced), Evidence ("clinical, crushing"), Explanation (words.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'inferential-questions-have-no-right': { steps: ['Show the student the line "Her assent was clinical, crushing in its light / Impersonality." 2.', 'Ask: "What words show her attitude?" (clinical, crushing, impersonality).', 'Guide them to connect these words to the inference of cold prejudice.', 'Practice writing a PEEL paragraph: Point (landlady is prejudiced), Evidence ("clinical, crushing"), Explanation (words.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

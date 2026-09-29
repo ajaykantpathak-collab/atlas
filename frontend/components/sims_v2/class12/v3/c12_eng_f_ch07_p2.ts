@@ -19,51 +19,51 @@ export const c12_eng_f_ch07_p2: SimDef = {
         hook: 'The interview is both \'supremely serviceable\' and an \'ordeal\' — Carroll feared being lionised, Kipling called it assault, yet the same medium lets Eco unpack semiotics on a Sunday. It\'s a genre with two faces, and this chapter is a commentary on the genre itself.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying, complementary ideas that run alongside the primary theme in a text, enriching its meaning by exploring related but distinct dimensions of human experience.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Interview\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_07_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Dissect the interview as a form: weigh 130 years of celebrity objections against Denis Brian\'s defence, then run Eco\'s \'interstices\' over your own day — and script an interview with signallers that actually flows.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_07_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re watching a celebrity interview on YouTube — the host asks about their new movie, but the star keeps steering the conversation toward their.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Interview\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a secondary theme in a literary text, and how does it differ from the primary theme?', options: [
                 { text: 'A secondary theme is a complementary idea that runs parallel to the primary theme,', outcome: 'A secondary theme is a complementary idea that runs parallel to the primary theme, exploring.' },
                 { text: 'secondary theme means a less important theme', outcome: 'Not quite — Students often confuse secondary themes with "minor points" or "subplots," treating them as less.', reveals: 'students-often-confuse-secondary-themes' },
                 { text: 'minor points', outcome: 'Not quite — Students often confuse secondary themes with "minor points" or "subplots," treating them as less.', reveals: 'students-often-confuse-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_07_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you\'re watching a celebrity interview on TV — the star leans back, sighs, and says, "This process feels like thumbprints on my windpipe." You instantly.',
+          caseStudy: { intro: 'Find the lines in \'The Interview\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Identify the metaphor in the phrase "thumbprints on his windpipe" (used by Saul Bellow) and state the two things being compared.', options: [
                 { text: 'The metaphor compares the experience of being interviewed to **thumbprints pressing on a', outcome: 'The metaphor compares the experience of being interviewed to **thumbprints pressing on.' },
                 { text: 'it means interviews are annoying', outcome: 'Not quite — Students routinely **confuse metaphor with simile** and **limit imagery to visual description**.', reveals: 'students-routinely-confuse-metaphor-with' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_07_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you\'re watching a celebrity on a talk show who says, "I hate interviews, they steal my soul," while simultaneously promoting their new movie *through*.',
+          caseStudy: { intro: 'Look in \'The Interview\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define verbal irony and give one example from Part I of "The Interview" where a celebrity\'s words contradict their actions.', options: [
                 { text: 'Verbal irony occurs when a speaker says the opposite of what they mean or believe, often', outcome: 'Verbal irony occurs when a speaker says the opposite of what they mean or believe, often.' },
                 { text: 'immoral', outcome: 'Not quite — Students often confuse **irony with coincidence or bad luck**.', reveals: 'students-often-confuse-irony-with' },
                 { text: 'a crime', outcome: 'Not quite — Students often confuse **irony with coincidence or bad luck**.', reveals: 'students-often-confuse-irony-with' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_07_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading the Eco interview and hit the sentence: "I work in empty spaces. I call them interstices." You don\'t know *interstices*.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Interview\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the meaning of "commonplace" as used in the opening sentence: "Since its invention a little over 130 years ago, the interview has.', options: [
                 { text: 'Correct answer: "Commonplace" here means *a usual or ordinary thing', outcome: 'Correct answer: "Commonplace" here means *a usual or ordinary thing; something that happens.' },
                 { text: 'a common place/location', outcome: 'Not quite — Students often think "vocabulary in context" means *guessing* the meaning from a vague feeling.', reveals: 'vocabulary-in-context-means-guessing' },
                 { text: 'a habitual practice', outcome: 'Not quite — Students often think "vocabulary in context" means *guessing* the meaning from a vague feeling.', reveals: 'vocabulary-in-context-means-guessing' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_07_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you\'re listening to a podcast interview with your favourite scientist.',
+          caseStudy: { intro: 'Read \'The Interview\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the linker in the following exchange from the text and name its type: Mukund: "Over 40!', options: [
                 { text: 'Correct answer: Lexical repetition (exact repetition of the noun phrase "Over 40")', outcome: 'Correct answer: Lexical repetition (exact repetition of the noun phrase "Over 40").' },
                 { text: 'reference pronoun', outcome: 'Not quite — Students treat **linkers** and **signallers** as synonyms for "conjunctions" (and, but, because).', reveals: 'students-treat-linkers-and-signallers' },
                 { text: 'conjunction', outcome: 'Not quite — Students treat **linkers** and **signallers** as synonyms for "conjunctions" (and, but, because).', reveals: 'students-treat-linkers-and-signallers' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_07_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re watching a press conference where a celebrity gives vague answers — you must separate what they actually said from what they hinted at.',
+          caseStudy: { intro: 'Answer \'The Interview\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the key difference between a literal comprehension question and an inferential comprehension question?', options: [
                 { text: 'A literal question asks for information directly stated in the text (e.g., "How many', outcome: 'A literal question asks for information directly stated in the text (e.g., "How many novels has Eco.' },
                 { text: 'questions about the text', outcome: 'Not quite — Students treat "inferential" as "guessing" and write personal opinions without textual evidence.', reveals: 'students-treat-inferential-as-guessing' },
@@ -83,12 +83,12 @@ export const c12_eng_f_ch07_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying, complementary ideas that run alongside the.',
+          question: 'Secondary themes in \'The Interview\' — the supporting ideas and motifs that.',
           hint: 'If stuck, return to the two-column table exercise in ON_FAILURE: abstract concepts.',
           misconception: 'Students often confuse secondary themes with "minor points" or "subplots," treating them as less important details.',
           parts: [
@@ -97,7 +97,7 @@ export const c12_eng_f_ch07_p2: SimDef = {
                   hint: 'If stuck, return to the two-column table exercise in ON_FAILURE: abstract concepts (Column A) from.',
                   misconception: 'Students often confuse secondary themes with "minor points" or "subplots," treating them as less important details rather than distinct.' }
           ],
-            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If the student cannot distinguish secondary themes from evidence: (1) Have them re-read Part I and Part II with.', '(2) Model the process: "Eco\'s elevator story → Column A: \'Productive use of interstices\' | Column B: \'While waiting for.', 'I have already written an article!\'" (3) Ask them to generate three Column A entries from Part I (e.g., "Intrusion.', '(4) Re-diagnose using Diagnostic Question 6 — they must now produce a Column A concept with cross-part Column.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If the student cannot distinguish secondary themes from evidence: (1) Have them re-read Part I and Part II with.', '(2) Model the process: "Eco\'s elevator story → Column A: \'Productive use of interstices\' | Column B: \'While waiting for.', 'I have already written an article!\'" (3) Ask them to generate three Column A entries from Part I (e.g., "Intrusion.', '(4) Re-diagnose using Diagnostic Question 6 — they must now produce a Column A concept with cross-part Column.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_007', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -108,9 +108,9 @@ export const c12_eng_f_ch07_p2: SimDef = {
                   hint: 'If stuck, return to the two-column table exercise in ON_FAILURE: abstract concepts (Column A) from.',
                   misconception: 'Students often confuse secondary themes with "minor points" or "subplots," treating them as less important details rather than distinct.' }
           ],
-            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If the student cannot distinguish secondary themes from evidence: (1) Have them re-read Part I and Part II with.', '(2) Model the process: "Eco\'s elevator story → Column A: \'Productive use of interstices\' | Column B: \'While waiting for.', 'I have already written an article!\'" (3) Ask them to generate three Column A entries from Part I (e.g., "Intrusion.', '(4) Re-diagnose using Diagnostic Question 6 — they must now produce a Column A concept with cross-part Column.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If the student cannot distinguish secondary themes from evidence: (1) Have them re-read Part I and Part II with.', '(2) Model the process: "Eco\'s elevator story → Column A: \'Productive use of interstices\' | Column B: \'While waiting for.', 'I have already written an article!\'" (3) Ask them to generate three Column A entries from Part I (e.g., "Intrusion.', '(4) Re-diagnose using Diagnostic Question 6 — they must now produce a Column A concept with cross-part Column.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'The Interview\' — the vivid, sensory language that creates.',
           hint: 'If unable to separate tenor from vehicle, practice on 5 simple metaphors from daily.',
           misconception: 'Students routinely **confuse metaphor with simile** and **limit imagery to visual description**.',
           parts: [
@@ -119,20 +119,20 @@ export const c12_eng_f_ch07_p2: SimDef = {
                   hint: 'If unable to separate tenor from vehicle, practice on 5 simple metaphors from daily speech (e.g.',
                   misconception: 'Students routinely **confuse metaphor with simile** and **limit imagery to visual description**.' }
           ],
-            remediations: { 'students-routinely-confuse-metaphor-with': { steps: ['**Revisit tenor/vehicle mapping**: Take three metaphors from the text (e.g., "interstices," "thumbprints on windpipe,".', 'For each, draw a two-column table: LEFT = Tenor (abstract concept), RIGHT = Vehicle (concrete image).', 'Write the *shared quality* in the middle.', '**Sense-audit imagery**: List every image in Part I.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-routinely-confuse-metaphor-with': { steps: ['**Revisit tenor/vehicle mapping**: Take three metaphors from the text (e.g., "interstices," "thumbprints on windpipe,".', 'For each, draw a two-column table: LEFT = Tenor (abstract concept), RIGHT = Vehicle (concrete image).', 'Write the *shared quality* in the middle.', '**Sense-audit imagery**: List every image in Part I.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'The Interview\' — where opposite things are both true,.',
           hint: 'If stuck on irony types, review the "Kipling vs. Twain" and "Eco: professor vs.',
           misconception: 'Students often confuse **irony with coincidence or bad luck**.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where the intended meaning of words or events contrasts',
-                  options: ['Irony is a literary device where the intended meaning of words or events contrasts', 'The "Before You Read: Context and Background" section for "The Interview" provides the', 'Narrative structure in non-fiction refers to the organizational framework that arranges', 'In non-fiction texts like "The Interview," **setting** refers to the contextual framework'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'The Interview\'',
+                  options: ['Irony and paradox in \'The Interview\'', '\'The Interview\' (Flamingo, ch', 'The plot/narrative arc of \'The Interview\'', 'The setting of \'The Interview\''],
                   hint: 'If stuck on irony types, review the "Kipling vs. Twain" and "Eco: professor vs.',
                   misconception: 'Students often confuse **irony with coincidence or bad luck**.' }
           ],
-            remediations: { 'students-often-confuse-irony-with': { steps: ['**Revisit node c11_eng_h_cbse_01_009 (Class 11 Irony and Symbolism)** — specifically the worked examples distinguishing.', '**Re-read Part I of "The Interview"** with a two-column table: Column A = Celebrity\'s *stated view*; Column B = Their.', '**Re-read Part II** and underline every occurrence of "interstice," "empty space," "waiting," "elevator," "fist,".', '**Re-diagnostic**: Attempt DIAGNOSTIC_QUESTION_3 again, now requiring the answer to use the phrase "extended metaphor".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-irony-with': { steps: ['**Revisit node c11_eng_h_cbse_01_009 (Class 11 Irony and Symbolism)** — specifically the worked examples distinguishing.', '**Re-read Part I of "The Interview"** with a two-column table: Column A = Celebrity\'s *stated view*; Column B = Their.', '**Re-read Part II** and underline every occurrence of "interstice," "empty space," "waiting," "elevator," "fist,".', '**Re-diagnostic**: Attempt DIAGNOSTIC_QUESTION_3 again, now requiring the answer to use the phrase "extended metaphor".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the meaning of unfamiliar.',
+          question: 'Key vocabulary of \'The Interview\' — the words and phrases you must know to read.',
           hint: 'If stuck on identifying clue types, review c11_eng_h_cbse_01_010 (Class 11 Vocabulary.',
           misconception: 'Students often think "vocabulary in context" means *guessing* the meaning from a vague feeling.',
           parts: [
@@ -145,20 +145,20 @@ export const c12_eng_f_ch07_p2: SimDef = {
                   hint: 'If stuck on identifying clue types, review c11_eng_h_cbse_01_010 (Class 11 Vocabulary in Context).',
                   misconception: 'Students often think "vocabulary in context" means *guessing* the meaning from a vague feeling.' }
           ],
-            remediations: { 'vocabulary-in-context-means-guessing': { steps: ['Re-read the Eco interview segment (Part II) and highlight every word Eco *explains* (interstices, semiotics, narrative.', 'Note the phrases: "I call them...", "which is...", "this is why...".', 'Make a 3-column table: Word | Context Clue Strategy (Definition/Contrast/Example/Inference) | Inferred Meaning.', 'Check dictionary *only after* filling the table.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'vocabulary-in-context-means-guessing': { steps: ['Re-read the Eco interview segment (Part II) and highlight every word Eco *explains* (interstices, semiotics, narrative.', 'Note the phrases: "I call them...", "which is...", "this is why...".', 'Make a 3-column table: Word | Context Clue Strategy (Definition/Contrast/Example/Inference) | Inferred Meaning.', 'Check dictionary *only after* filling the table.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_011', difficulty: 'standard',
-          question: 'Discourse linkers are cohesive devices (reference pronouns like.',
+          question: 'Language and style in \'The Interview\' — how the writer chose words, sentences.',
           hint: 'If stuck, review Class 10 English Grammar: "Cohesive Devices" chapter (reference.',
           misconception: 'Students treat **linkers** and **signallers** as synonyms for "conjunctions" (and, but, because).',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discourse linkers are cohesive devices (reference pronouns like \'this/that/which\',',
-                  options: ['Discourse linkers are cohesive devices (reference pronouns like \'this/that/which\',', 'The "Before You Read: Context and Background" section for "The Interview" provides the', 'Narrative structure in non-fiction refers to the organizational framework that arranges', 'In non-fiction texts like "The Interview," **setting** refers to the contextual framework'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language and style in \'The Interview\'',
+                  options: ['Language and style in \'The Interview\'', '\'The Interview\' (Flamingo, ch', 'The plot/narrative arc of \'The Interview\'', 'The setting of \'The Interview\''],
                   hint: 'If stuck, review Class 10 English Grammar: "Cohesive Devices" chapter (reference pronouns.',
                   misconception: 'Students treat **linkers** and **signallers** as synonyms for "conjunctions" (and, but, because).' }
           ],
-            remediations: { 'students-treat-linkers-and-signallers': { steps: ['Revisit **c12_eng_f_cbse_07_010** (Vocabulary in Context) to strengthen recognition of repeated lexical items across.', 'Take the Eco interview transcript (NCERT pp.', 'Highlight every reference pronoun (this/that/which/it) in **yellow**, every lexical repetition in **green**, every.', 'For each highlighted item, write a one-sentence marginal note: "Links to previous mention of X" or "Signals shift from.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-linkers-and-signallers': { steps: ['Revisit **c12_eng_f_cbse_07_010** (Vocabulary in Context) to strengthen recognition of repeated lexical items across.', 'Take the Eco interview transcript (NCERT pp.', 'Highlight every reference pronoun (this/that/which/it) in **yellow**, every lexical repetition in **green**, every.', 'For each highlighted item, write a one-sentence marginal note: "Links to previous mention of X" or "Signals shift from.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_07_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve explicitly stated.',
+          question: 'Literal comprehension of \'The Interview\' — questions answered straight from the.',
           hint: 'If stuck, review "reported speech vs. direct speech" in c12_eng_f_cbse_07_011 and.',
           misconception: 'Students treat "inferential" as "guessing" and write personal opinions without textual evidence.',
           parts: [
@@ -167,7 +167,7 @@ export const c12_eng_f_ch07_p2: SimDef = {
                   hint: 'If stuck, review "reported speech vs. direct speech" in c12_eng_f_cbse_07_011 and metaphor.',
                   misconception: 'Students treat "inferential" as "guessing" and write personal opinions without textual evidence.' }
           ],
-            remediations: { 'students-treat-inferential-as-guessing': { steps: ['Revisit c12_eng_f_cbse_07_010 (Vocabulary) to clarify words like "interstices," "depersonalised," "seminal" that carry.', 'Practice with c11_eng_h_cbse_01_012 (Class 11 Comprehension) literal/inferential drills.', 'Do a re-diagnostic: take any paragraph from Part II, write 2 literal and 2 inferential questions, and self-check using.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-inferential-as-guessing': { steps: ['Revisit c12_eng_f_cbse_07_010 (Vocabulary) to clarify words like "interstices," "depersonalised," "seminal" that carry.', 'Practice with c11_eng_h_cbse_01_012 (Class 11 Comprehension) literal/inferential drills.', 'Do a re-diagnostic: take any paragraph from Part II, write 2 literal and 2 inferential questions, and self-check using.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

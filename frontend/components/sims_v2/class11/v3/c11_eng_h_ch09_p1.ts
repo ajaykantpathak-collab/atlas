@@ -19,7 +19,7 @@ export const c11_eng_h_ch09_p1: SimDef = {
         hook: 'The poem isn\'t describing an object — it\'s a story memory tells in jumps: the day captured, the woman who laughed at it, the silence she left.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a preparatory activity that provides essential information about the poet, the historical and cultural setting, and the thematic concerns of the poem "A.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'A Photograph\' (Hornbill, ch. 9) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_09_001', title: 'Your mission',
@@ -29,26 +29,26 @@ export const c11_eng_h_ch09_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_09_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you find an old, faded photograph of your grandmother as a young girl laughing on a beach. What does that image make you feel?',
+          caseStudy: { intro: 'Start with the author of \'A Photograph\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who is the poet of "A Photograph," and what is the central object around which the poem revolves?', options: [
                 { text: 'The poet is Shirley Toulson (1924–2018), an English poet and writer', outcome: 'The poet is Shirley Toulson (1924–2018), an English poet and writer.' },
                 { text: 'a different poet or thinking the photograph is of the poet herself', outcome: 'Not quite — Students often believe the poem is primarily *about* the photograph as a physical object—its.', reveals: 'the-poem-is-primarily-about' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_09_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Start by asking the student: "Have you ever looked at an old family photograph and felt a rush of memories from different times?" Then guide them to read the.',
+          caseStudy: { intro: 'Trace \'A Photograph\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What are the three distinct time periods presented in the three stanzas of the poem "A Photograph"?', options: [
                 { text: 'The three time periods are: (1) the mother\'s childhood (the photograph scene), (2) the', outcome: 'The three time periods are: (1) the mother\'s childhood (the photograph scene), (2) the mother\'s.' },
                 { text: 'all stanzas are in the present', outcome: 'Not quite — Students often think the poem is just a description of a photograph, missing that it\'s a narrative.', reveals: 'the-poem-is-just-a' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_09_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine finding an old family photograph where everyone looks frozen in a moment — the clothes, the smiles, the background all tell a story.',
+          caseStudy: { intro: 'Spot the secondary figures in \'A Photograph\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List the four supporting characters explicitly or implicitly present in the photograph described in the poem.', options: [
                 { text: 'The four supporting characters are: the mother (as a twelve-year-old girl), the two', outcome: 'The four supporting characters are: the mother (as a twelve-year-old girl), the two cousins (Betty.' },
                 { text: 'just there to fill the frame', outcome: 'Not quite — Students often think supporting characters in a poem are "just there to fill the frame" and ignore.', reveals: 'supporting-characters-in-a-poem' },
                 { text: 'the poet or the sea', outcome: 'Not quite — Students often think supporting characters in a poem are "just there to fill the frame" and ignore.', reveals: 'supporting-characters-in-a-poem' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_09_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you find an old family photograph in a drawer: three girls laughing at a beach, frozen in 1920.',
+          caseStudy: { intro: 'Ask what \'A Photograph\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of "A Photograph" in one precise sentence? (Recall the central idea, not a plot summary.)', options: [
                 { text: 'The primary theme is the transience of human life contrasted with the enduring', outcome: 'The primary theme is the transience of human life contrasted with the enduring indifference.' },
                 { text: 'The poem is about a photograph of the poet\'s mother', outcome: 'Not quite — Students often believe the primary theme is **"photographs preserve memories"** or **"childhood.', reveals: 'the-primary-theme-is-photographs' },
@@ -73,7 +73,7 @@ export const c11_eng_h_ch09_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_09_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a preparatory activity that.',
+          question: '\'A Photograph\' (Hornbill, ch. 9) — the context and background to this text: who.',
           hint: 'Review Class 10 poetry analysis (c10_engl_cbse_04_007, c10_engl_cbse_03_007) focusing.',
           misconception: 'Students often believe the poem is primarily *about* the photograph as a physical object—its cardboard frame, the sea.',
           parts: [
@@ -84,7 +84,7 @@ export const c11_eng_h_ch09_p1: SimDef = {
           ],
             remediations: { 'the-poem-is-primarily-about': { steps: ['If a student exhibits this misconception, guide them through a "Time-Frame Mapping" exercise: Draw three columns.', 'Ask them to locate each line of the poem in one column.', 'Then ask: "Who is speaking in the final stanza?', 'Whose loss is being mourned?" This visual separation forces the recognition of the three distinct temporal layers and.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_09_002', difficulty: 'standard',
-          question: 'Plot and narrative structure in a poem refer to the sequence of events and the.',
+          question: 'The plot/narrative arc of \'A Photograph\' — what happens, in what order, and why.',
           hint: 'Review "narrative poetry" and "stanza-by-stanza summary" from Class 8 (c8_engl_ch4_13).',
           misconception: 'Students often think the poem is just a description of a photograph, missing that it\'s a narrative with a plot that.',
           parts: [
@@ -106,7 +106,7 @@ export const c11_eng_h_ch09_p1: SimDef = {
           ],
             remediations: { 'the-poem-is-just-a': { steps: ['If the student cannot see the narrative, have them create a timeline: draw three boxes labeled \'Past\', \'Recent Past\'.', 'In each, write one event from the poem.', 'Then ask: "What happens between box 1 and 2?', 'Between 2 and 3?" This makes the plot visible.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_09_003', difficulty: 'standard',
-          question: 'Setting in poetry refers to the time, place, and social environment where the.',
+          question: 'The setting of \'A Photograph\' — the place, time and atmosphere the text creates.',
           hint: 'Review "Imagery and Mood" from Class 8 (c8_engl_ch4_7) or "Setting and Natural Imagery".',
           misconception: 'Students often treat setting as merely a backdrop — a static "where and when" — and atmosphere as a single, unchanging.',
           parts: [
@@ -117,29 +117,29 @@ export const c11_eng_h_ch09_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-setting-as': { steps: ['If a student exhibits this misconception: 1.', 'Have them create a two-column table: Column A = "Past Setting (Stanza 1)", Column B = "Present Setting (Stanza 3)".', 'In each column, list *only* concrete sensory words/phrases from the text (e.g., Column A: "paddling," "transient feet,".', 'Ask: "What *feeling* does each list create in *you*?" Guide them to name the atmospheres (e.g., "lively/fleeting" vs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_09_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in poetry involves examining the central.',
+          question: 'Character analysis in \'A Photograph\' — the central figure(s), their traits, and.',
           hint: 'Review c11_eng_h_cbse_09_002 (Plot and Narrative Structure) — specifically the.',
           misconception: 'Students treat the mother in the photograph and the poet-narrator as separate characters to be analyzed in isolation.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist in poetry involves examining the central figure\'s',
-                  options: ['Character analysis of the protagonist in poetry involves examining the central figure\'s', '"Before You Read: Context and Background" is a preparatory activity that provides', 'Plot and narrative structure in a poem refer to the sequence of events and the way the', 'Setting in poetry refers to the time, place, and social environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis in \'A Photograph\'',
+                  options: ['Character analysis in \'A Photograph\'', '\'A Photograph\' (Hornbill, ch', 'The plot/narrative arc of \'A Photograph\'', 'The setting of \'A Photograph\''],
                   hint: 'Review c11_eng_h_cbse_09_002 (Plot and Narrative Structure) — specifically the stanza-by-stanza.',
                   misconception: 'Students treat the mother in the photograph and the poet-narrator as separate characters to be analyzed in isolation, missing that they.' }
           ],
             remediations: { 'students-treat-the-mother-in': { steps: ['Have the student draw a timeline: mark the mother\'s age in photo (12), mother\'s age at death (~24-30?), poet\'s present.', 'Ask: "What does the number 12 represent for EACH protagonist?" 3.', 'Read stanza 3 aloud together, emphasizing "nearly as many years as that girl lived" — make the student say the number.', 'Rewrite the final two lines as a single sentence: "The photograph\'s silence silences me because my mother has been dead.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_09_005', difficulty: 'standard',
-          question: 'Supporting characters in a poem are secondary figures who appear briefly but.',
+          question: 'Supporting characters in \'A Photograph\' — the secondary figures who move the.',
           hint: 'Review "inferential character analysis" from Class 9/10 (e.g., c9_engl_ch1_2.',
           misconception: 'Students often think supporting characters in a poem are "just there to fill the frame" and ignore them because they.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in a poem are secondary figures who appear briefly but serve',
-                  options: ['Supporting characters in a poem are secondary figures who appear briefly but serve', '"Before You Read: Context and Background" is a preparatory activity that provides', 'Plot and narrative structure in a poem refer to the sequence of events and the way the', 'Setting in poetry refers to the time, place, and social environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in \'A Photograph\'',
+                  options: ['Supporting characters in \'A Photograph\'', '\'A Photograph\' (Hornbill, ch', 'The plot/narrative arc of \'A Photograph\'', 'The setting of \'A Photograph\''],
                   hint: 'Review "inferential character analysis" from Class 9/10 (e.g., c9_engl_ch1_2, c10_engl_cbse_04_009).',
                   misconception: 'Students often think supporting characters in a poem are "just there to fill the frame" and ignore them because they don\'t speak or have.' }
           ],
             remediations: { 'supporting-characters-in-a-poem': { steps: ['Have the student physically draw the photograph as a stick-figure scene: label each figure with a line from the poem.', 'Ask: "If you cut out one figure, what disappears from the story?" 3.', 'Guide them to write one sentence per character: "Betty shows the mother had a friend." "The uncle shows someone cared.', 'Connect each sentence to the theme: "Shared past → deeper loss." This makes abstract characters concrete and functional.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_09_006', difficulty: 'standard',
-          question: 'The primary theme of a poem is its central, unifying idea that emerges from the.',
+          question: 'The primary theme of \'A Photograph\' — the central idea the whole text returns.',
           hint: 'If stuck, return to c11_eng_h_cbse_09_002 (Plot and Narrative Structure) and reconstruct.',
           misconception: 'Students often believe the primary theme is **"photographs preserve memories"** or **"childhood is innocent and.',
           parts: [

@@ -87,13 +87,13 @@ export const c9_engl_ch04_p2: SimDef = {
           misconception: 'Students often believe humour and pathos are mutually exclusive — that a scene cannot be both funny and sad — so they.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Humour in a narrative is the use of amusing situations, witty dialogue, or comic',
-                  options: ['Humour in a narrative is the use of amusing situations, witty dialogue, or comic', 'A story summary is a concise, objective retelling of a narrative\'s essential elements', 'Empathy, patience, and respect for the elderly are interconnected human values that', 'Character analysis of Grandpa in "Vitamin-M" involves examining how the author portrays'],
+                  options: ['Humour in a narrative is the use of amusing situations, witty dialogue, or comic', 'A story summary is a concise, objective retelling of a narrative\'s essential elements', 'Empathy, patience, and respect for the elderly are interconnected human values that', 'From \'English chapter c9_engl_ch4\': the skill or concept this node teaches, applied to'],
                   hint: 'Review c9_engl_ch4_2 (Grandpa\'s character) and c8_engl_ch1_8 (humour in narrative) to refresh how.',
                   misconception: 'Students often believe humour and pathos are mutually exclusive — that a scene cannot be both funny and sad — so they label moments.' }
           ],
             remediations: { 'humour-and-pathos-are-mutually': { steps: ['First, ask the student to re-read the "vitamin-M" scene and annotate: "What is funny?', 'Can both be true at once?" Second, model a think-aloud: "I laugh at the wordplay, but I also notice Grandpa avoids the.', 'Finally, guide them to write one PEEL paragraph using one row from the table.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c9_engl_ch4_8', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the meaning.',
+          question: 'From \'English chapter c9_engl_ch4\': the skill or concept this node teaches.',
           hint: 'If stuck, review the "Context Clue Types" chart from Class 8 (c8_engl_ch1_9) and practice.',
           misconception: 'Students often believe "vocabulary in context" means finding a synonym in the same sentence (e.g., *frail = weak*.',
           parts: [

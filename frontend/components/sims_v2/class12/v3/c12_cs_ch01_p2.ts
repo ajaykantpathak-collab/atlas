@@ -105,8 +105,8 @@ export const c12_cs_ch01_p2: SimDef = {
                   options: ['Mostly correct but not absolute', 'NAT is completely gone', '`::` can be used multiple times in one address (e'],
                   hint: 'Revisit hexadecimal-to-binary conversion (each hex digit = 4 bits) and CIDR prefix calculations.',
                   misconception: 'Students think `::` can be used multiple times in one address (e.g., `2001::db8::1`) to compress separate zero blocks.' },
-                { id: 'b', prompt: 'Design a compressed IPv6 address for a link-local address on interface `eth0` of a Linux host, given the interface\'s MAC address is `00:1A:2B:3C:4D:5E`.', answer: 'Steps: 1) Split MAC: `00:1A:2B` | `3C:4D:5E`',
-                  options: ['Steps: 1) Split MAC: `00:1A:2B` | `3C:4D:5E`', '`::` can be used multiple times in one address (e'],
+                { id: 'b', prompt: 'Design a compressed IPv6 address for a link-local address on interface `eth0` of a Linux host, given the interface\'s MAC address is `00:1A:2B:3C:4D:5E`.', answer: 'Split MAC: `00:1A:2B` | `3C:4D:5E`',
+                  options: ['Split MAC: `00:1A:2B` | `3C:4D:5E`', '`::` can be used multiple times in one address (e'],
                   hint: 'Revisit hexadecimal-to-binary conversion (each hex digit = 4 bits) and CIDR prefix calculations.',
                   misconception: 'Students think `::` can be used multiple times in one address (e.g., `2001::db8::1`) to compress separate zero blocks.' }
           ],

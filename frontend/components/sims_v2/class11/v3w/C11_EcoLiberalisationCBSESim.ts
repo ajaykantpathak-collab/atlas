@@ -6,13 +6,13 @@ import C11_EcoLiberalisationCBSESim from '../../../simulations/c6_12_new/C11_Eco
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_ecoliberalisationcbsesim: SimDef = {
     id: 'v3w_c11_ecoliberalisationcbsesim',
-    title: 'Liberalisation CBSE',
+    title: 'New Economic Policy: LPG Framework and Rationale',
     subtitle: 'This node covers the conceptual framework, rationale, and broad classification of NEP.',
     classLevel: 11, subject: 'economics', topic: 'New Economic Policy: LPG Framework and Rationale',
     chapters: [],
     nodeIds: ['c11_eco_cbse_03_002', 'c11_eco_cbse_03_003', 'c11_eco_cbse_03_004', 'c11_eco_cbse_03_005', 'c11_eco_cbse_03_006', 'c11_eco_cbse_03_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you run a small manufacturing unit in 1990: you need a government license to produce, cannot import.', goal: 'Master Liberalisation CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you run a small manufacturing unit in 1990: you need a government license to produce, cannot import.', goal: 'Master New Economic Policy: LPG Framework and Rationale.' },
     discovery: {
         question: 'Explain why the Narasimham Committee (1991) recommended reducing SLR and CRR *gradually* rather than abolishing them immediately, linking your answer to.',
         options: ['**Answer:** SLR financed the government\'s fiscal deficit by forcing banks to buy', 'to prevent inflation', 'to help banks earn more profit'],
@@ -82,7 +82,7 @@ export const w_c11_ecoliberalisationcbsesim: SimDef = {
             { text: 'WTO compliance check — Applied rate (40%) ≤ Bound rate (100%), so no violation.', faded: true, blankAnswer: '(a) Tariff water = 60 pp, (b) Border price = ₹2,520/q, (c).' }
             ] } },
         { type: 'dissect', nodeId: 'c11_eco_cbse_03_003', title: 'Identify each idea',
-          dissect: { specimen: 'Liberalisation CBSE', spots: [
+          dissect: { specimen: 'New Economic Policy: LPG Framework and Rationale', spots: [
             { id: 's1', label: 'The New Economic Policy NEP', prompt: 'Which idea is this? — The New Economic Policy (NEP) of 1991 is a comprehensive set of economic reforms.', answer: 'The New Economic Policy NEP', options: ['The New Economic Policy NEP', 'Industrial sector liberalisation refers to', 'Financial Sector Reforms under Liberalisation', 'Tax reforms under liberalisation refer'] },
             { id: 's2', label: 'Industrial sector liberalisation refers to', prompt: 'Which idea is this? — Industrial sector liberalisation refers to the systematic dismantling of government.', answer: 'Industrial sector liberalisation refers to', options: ['Industrial sector liberalisation refers to', 'The New Economic Policy NEP', 'Financial Sector Reforms under Liberalisation', 'Tax reforms under liberalisation refer'] },
             { id: 's3', label: 'Financial Sector Reforms under Liberalisation', prompt: 'Which idea is this? — Financial Sector Reforms under Liberalisation refer to the systematic deregulation and.', answer: 'Financial Sector Reforms under Liberalisation', options: ['Financial Sector Reforms under Liberalisation', 'The New Economic Policy NEP', 'Industrial sector liberalisation refers to', 'Tax reforms under liberalisation refer'] },
@@ -91,7 +91,7 @@ export const w_c11_ecoliberalisationcbsesim: SimDef = {
             { id: 's6', label: 'Globalisation in the Indian context', prompt: 'Which idea is this? — Globalisation in the Indian context refers to the systematic integration of the domestic.', answer: 'Globalisation in the Indian context', options: ['Globalisation in the Indian context', 'The New Economic Policy NEP', 'Industrial sector liberalisation refers to', 'Financial Sector Reforms under Liberalisation'] }
           ] } }
     ],
-    explore: { component: C11_EcoLiberalisationCBSESim, prompt: 'Explore the interactive — Liberalisation CBSE' },
+    explore: { component: C11_EcoLiberalisationCBSESim, prompt: 'Explore the interactive — New Economic Policy: LPG Framework and Rationale' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eco_cbse_03_002', difficulty: 'standard',
           question: 'The New Economic Policy (NEP) of 1991 is a comprehensive set of economic.',

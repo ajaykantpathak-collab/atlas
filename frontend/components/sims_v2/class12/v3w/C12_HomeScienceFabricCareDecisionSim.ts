@@ -6,13 +6,13 @@ import C12_HomeScienceFabricCareDecisionSim from '../../../simulations/c6_12/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_homesciencefabriccaredecisionsim: SimDef = {
     id: 'v3w_c12_homesciencefabriccaredecisionsim',
-    title: 'Home Science Fabric Care Decision',
+    title: 'Factors Influencing Career Choice: Aptitude, Interest and Personality',
     subtitle: 'This node covers the definitions, assessment methods, and interplay of aptitude,.',
     classLevel: 12, subject: 'science', topic: 'Factors Influencing Career Choice: Aptitude, Interest and Personality',
     chapters: [],
     nodeIds: ['c12_hs_cbse_01_005', 'c12_hs_cbse_01_007', 'c12_hs_cbse_01_008', 'c12_hs_cbse_01_009', 'c12_hs_cbse_04_012', 'c12_hs_cbse_14_002', 'c12_hs_cbse_14_004', 'c12_hs_cbse_14_010', 'c12_hs_cbse_04_001', 'c12_hs_cbse_14_001', 'c12_hs_cbse_14_005', 'c12_hs_cbse_14_007', 'c12_hs_cbse_14_008', 'c12_hs_cbse_14_009', 'c12_hs_cbse_01_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a Class 12 student, Priya, who loves painting (interest), scores high on spatial reasoning tests.', goal: 'Master Home Science Fabric Care Decision.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a Class 12 student, Priya, who loves painting (interest), scores high on spatial reasoning tests.', goal: 'Master Factors Influencing Career Choice: Aptitude, Interest and Personality.' },
     discovery: {
         question: 'Compare the livelihood model of Shri Mahila Griha Udyog Lijjat Papad with a typical corporate food-processing company on three dimensions: (a) ownership.',
         options: ['ownership structure, (', 'success ascertained not by profits but by social benefits and impact', 'women making papad'],
@@ -78,7 +78,7 @@ export const w_c12_homesciencefabriccaredecisionsim: SimDef = {
             { text: 'Verify: No heat before enzyme; acid after alkali (neutralize); oxidizer last on colourfast cotton.', faded: true, blankAnswer: '4-step protocol: (1) Cold enzymatic soak, (2) Warm alkaline.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_hs_cbse_01_007', title: 'Identify each idea',
-          dissect: { specimen: 'Home Science Fabric Care Decision', spots: [
+          dissect: { specimen: 'Factors Influencing Career Choice: Aptitude, Interest and Personality', spots: [
             { id: 's1', label: 'Aptitude refers to an individuals', prompt: 'Which idea is this? — Aptitude refers to an individual\'s innate or acquired potential to acquire specific.', answer: 'Aptitude refers to an individuals', options: ['Aptitude refers to an individuals', 'SWOT Analysis for career planning', 'Gender division of labour refers', 'Home Science Education is a'] },
             { id: 's2', label: 'SWOT Analysis for career planning', prompt: 'Which idea is this? — SWOT Analysis for career planning is a structured self-assessment framework where an.', answer: 'SWOT Analysis for career planning', options: ['SWOT Analysis for career planning', 'Aptitude refers to an individuals', 'Gender division of labour refers', 'Home Science Education is a'] },
             { id: 's3', label: 'Gender division of labour refers', prompt: 'Which idea is this? — Gender division of labour refers to the socially constructed allocation of tasks, roles,.', answer: 'Gender division of labour refers', options: ['Gender division of labour refers', 'Aptitude refers to an individuals', 'SWOT Analysis for career planning', 'Home Science Education is a'] },
@@ -87,7 +87,7 @@ export const w_c12_homesciencefabriccaredecisionsim: SimDef = {
             { id: 's6', label: 'A stain is a localized', prompt: 'Which idea is this? — A stain is a localized discoloration on a fabric caused by the deposition of foreign.', answer: 'A stain is a localized', options: ['A stain is a localized', 'Aptitude refers to an individuals', 'SWOT Analysis for career planning', 'Gender division of labour refers'] }
           ] } }
     ],
-    explore: { component: C12_HomeScienceFabricCareDecisionSim, prompt: 'Explore the interactive — Home Science Fabric Care Decision' },
+    explore: { component: C12_HomeScienceFabricCareDecisionSim, prompt: 'Explore the interactive — Factors Influencing Career Choice: Aptitude, Interest and Personality' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hs_cbse_01_005', difficulty: 'standard',
           question: 'Aptitude refers to an individual\'s innate or acquired potential to acquire.',

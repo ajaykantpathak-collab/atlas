@@ -6,13 +6,13 @@ import C12_SociologySocialChangeDevelopmentSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_sociologysocialchangedevelopmentsim: SimDef = {
     id: 'v3w_c12_sociologysocialchangedevelopmentsim',
-    title: 'Social Change Development',
+    title: 'Tribes and the Process of Integration: Sanskritisation, Hinduisation and Christianisation',
     subtitle: 'This node covers the three specific integration processes (Sanskritisation, Hinduisation,.',
     classLevel: 12, subject: 'sociology', topic: 'Tribes and the Process of Integration: Sanskritisation, Hinduisation and Christianisation',
     chapters: [],
     nodeIds: ['c12_soc_cbse_03_007', 'c12_soc_cbse_04_009', 'c12_soc_cbse_08_011', 'c12_soc_cbse_11_010', 'c12_soc_cbse_03_004', 'c12_soc_cbse_03_006', 'c12_soc_cbse_03_008', 'c12_soc_cbse_08_008', 'c12_soc_cbse_08_009', 'c12_soc_cbse_15_001', 'c12_soc_cbse_15_002', 'c12_soc_cbse_15_009', 'c12_soc_cbse_10_004', 'c12_soc_cbse_10_005', 'c12_soc_cbse_10_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a Gond village in Madhya Pradesh where families have stopped eating beef, started wearing the sacred.', goal: 'Master Social Change Development.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a Gond village in Madhya Pradesh where families have stopped eating beef, started wearing the sacred.', goal: 'Master Tribes and the Process of Integration: Sanskritisation, Hinduisation and Christianisation.' },
     discovery: {
         question: 'Compare the long-term consequences of Sanskritisation vs. Christianisation on tribal kinship and gender relations.',
         options: ['Sanskritisation typically *strengthens patriarchal control* and *reinforces', 'both modernise the tribe', '**Sanskritisation = Hinduisation = becoming Hindu**'],
@@ -80,7 +80,7 @@ export const w_c12_sociologysocialchangedevelopmentsim: SimDef = {
             { text: 'Formulate research hypothesis. "Development-induced displacement triggers identity assertion, but the *form* of.', faded: true, blankAnswer: 'Comparative framework with 5 analytical steps as above;.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_soc_cbse_04_009', title: 'Identify each idea',
-          dissect: { specimen: 'Social Change Development', spots: [
+          dissect: { specimen: 'Tribes and the Process of Integration: Sanskritisation, Hinduisation and Christianisation', spots: [
             { id: 's1', label: 'Tribal integration refers to the', prompt: 'Which idea is this? — Tribal integration refers to the historical and ongoing processes through which tribal.', answer: 'Tribal integration refers to the', options: ['Tribal integration refers to the', 'Commercialisation of agriculture refers to', 'Structural change after independence refers', 'Rural Development Programmes are state-led'] },
             { id: 's2', label: 'Commercialisation of agriculture refers to', prompt: 'Which idea is this? — Commercialisation of agriculture refers to the historical process during colonial rule.', answer: 'Commercialisation of agriculture refers to', options: ['Commercialisation of agriculture refers to', 'Tribal integration refers to the', 'Structural change after independence refers', 'Rural Development Programmes are state-led'] },
             { id: 's3', label: 'Structural change after independence refers', prompt: 'Which idea is this? — Structural change after independence refers to the deliberate, state-led transformation.', answer: 'Structural change after independence refers', options: ['Structural change after independence refers', 'Tribal integration refers to the', 'Commercialisation of agriculture refers to', 'Rural Development Programmes are state-led'] },
@@ -89,7 +89,7 @@ export const w_c12_sociologysocialchangedevelopmentsim: SimDef = {
             { id: 's6', label: 'Tribal societies in India are', prompt: 'Which idea is this? — Tribal societies in India are distinct communities characterised by their historical.', answer: 'Tribal societies in India are', options: ['Tribal societies in India are', 'Tribal integration refers to the', 'Commercialisation of agriculture refers to', 'Structural change after independence refers'] }
           ] } }
     ],
-    explore: { component: C12_SociologySocialChangeDevelopmentSim, prompt: 'Explore the interactive — Social Change Development' },
+    explore: { component: C12_SociologySocialChangeDevelopmentSim, prompt: 'Explore the interactive — Tribes and the Process of Integration: Sanskritisation, Hinduisation and Christianisation' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_soc_cbse_03_007', difficulty: 'standard',
           question: 'Tribal integration refers to the historical and ongoing processes through which.',

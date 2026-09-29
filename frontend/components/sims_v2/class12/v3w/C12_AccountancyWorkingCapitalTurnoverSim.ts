@@ -6,13 +6,13 @@ import C12_AccountancyWorkingCapitalTurnoverSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_accountancyworkingcapitalturnoversim: SimDef = {
     id: 'v3w_c12_accountancyworkingcapitalturnoversim',
-    title: 'Working Capital Turnover',
+    title: 'Partner\'s Salary, Commission and Interest on Partner\'s Loan',
     subtitle: 'This node covers only Partner\'s Salary, Commission, and Interest on Partner\'s Loan.',
     classLevel: 12, subject: 'accountancy', topic: 'Partner\'s Salary, Commission and Interest on Partner\'s Loan',
     chapters: [],
     nodeIds: ['c12_acc_cbse_01_008', 'c12_acc_cbse_09_001', 'c12_acc_cbse_09_005', 'c12_acc_cbse_09_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a partnership firm where two partners, A and B, run a retail business.', goal: 'Master Working Capital Turnover.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a partnership firm where two partners, A and B, run a retail business.', goal: 'Master Partner\'s Salary, Commission and Interest on Partner\'s Loan.' },
     discovery: {
         question: 'A company purchases machinery worth ₹10,00,000 by issuing equity shares of the same value. How is this transaction treated in the Cash Flow Statement?',
         options: ['This transaction is NOT shown in the Cash Flow Statement', 'Cash Flow Statement shows profit', 'Cash Flow Statement is just the cash book'],
@@ -63,14 +63,14 @@ export const w_c12_accountancyworkingcapitalturnoversim: SimDef = {
             { text: 'Net Increase in Cash = Operating ₹3,00,000 + Investing (₹4,45,000) + Financing (₹1,95,000) = (₹3,40,000).', faded: true, blankAnswer: 'Net Cash from Operating Activities: ₹3,00,000; Net Cash.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_acc_cbse_09_001', title: 'Identify each idea',
-          dissect: { specimen: 'Working Capital Turnover', spots: [
+          dissect: { specimen: 'Partner\'s Salary, Commission and Interest on Partner\'s Loan', spots: [
             { id: 's1', label: 'Partners Salary is a fixed', prompt: 'Which idea is this? — Partner\'s Salary is a fixed periodic payment to a working partner for active.', answer: 'Partners Salary is a fixed', options: ['Partners Salary is a fixed', 'A Cash Flow Statement is', 'The indirect method of ascertaining', 'A Cash Flow Statement prepared'] },
             { id: 's2', label: 'A Cash Flow Statement is', prompt: 'Which idea is this? — A Cash Flow Statement is a financial statement prepared as per Accounting Standard-3.', answer: 'A Cash Flow Statement is', options: ['A Cash Flow Statement is', 'Partners Salary is a fixed', 'The indirect method of ascertaining', 'A Cash Flow Statement prepared'] },
             { id: 's3', label: 'The indirect method of ascertaining', prompt: 'Which idea is this? — The indirect method of ascertaining cash flows from operating activities starts with net.', answer: 'The indirect method of ascertaining', options: ['The indirect method of ascertaining', 'Partners Salary is a fixed', 'A Cash Flow Statement is', 'A Cash Flow Statement prepared'] },
             { id: 's4', label: 'A Cash Flow Statement prepared', prompt: 'Which idea is this? — A Cash Flow Statement prepared under the indirect method (as per AS-3) reconciles net.', answer: 'A Cash Flow Statement prepared', options: ['A Cash Flow Statement prepared', 'Partners Salary is a fixed', 'A Cash Flow Statement is', 'The indirect method of ascertaining'] }
           ] } }
     ],
-    explore: { component: C12_AccountancyWorkingCapitalTurnoverSim, prompt: 'Explore the interactive — Working Capital Turnover' },
+    explore: { component: C12_AccountancyWorkingCapitalTurnoverSim, prompt: 'Explore the interactive — Partner\'s Salary, Commission and Interest on Partner\'s Loan' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_acc_cbse_01_008', difficulty: 'standard',
           question: 'Partner\'s Salary is a fixed periodic payment to a working partner for active.',

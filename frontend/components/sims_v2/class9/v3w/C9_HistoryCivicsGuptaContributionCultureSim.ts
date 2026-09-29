@@ -6,13 +6,13 @@ import C9_HistoryCivicsGuptaContributionCultureSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_historycivicsguptacontributionculturesim: SimDef = {
     id: 'v3w_c9_historycivicsguptacontributionculturesim',
-    title: 'Gupta Contribution Culture',
+    title: 'Vedic Society: Early and Later Vedic Periods',
     subtitle: 'This node covers the internal transformation of Vedic society from c.',
     classLevel: 9, subject: 'history', topic: 'Vedic Society: Early and Later Vedic Periods',
     chapters: [],
     nodeIds: ['c9_hist_ch3_1', 'c9_hist_ch3_12', 'c9_hist_ch3_5', 'c9_hist_ch3_6', 'c9_hist_ch3_8', 'c9_hist_ch3_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are at a village festival in Haryana where priests chant Rigvedic hymns around a fire altar—those.', goal: 'Master Gupta Contribution Culture.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are at a village festival in Haryana where priests chant Rigvedic hymns around a fire altar—those.', goal: 'Master Vedic Society: Early and Later Vedic Periods.' },
     discovery: {
         question: 'Compare the role of the *mahattara* (village headman) in Gupta administration with the *gramika* in Mauryan administration.',
         options: ['The *gramika* was a state-appointed official in a centralized hierarchy', 'both are same', 'mahattara was higher'],
@@ -78,7 +78,7 @@ export const w_c9_historycivicsguptacontributionculturesim: SimDef = {
             { text: 'Synthesise: the inscription shows varna as the *organising principle* (Brahmin donee at top, *antayaja* at bottom) but.', faded: true, blankAnswer: 'The village reflects a Brahmin-dominated *brahmadeya*.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_hist_ch3_12', title: 'Identify each idea',
-          dissect: { specimen: 'Gupta Contribution Culture', spots: [
+          dissect: { specimen: 'Vedic Society: Early and Later Vedic Periods', spots: [
             { id: 's1', label: 'The Vedic Society spans two', prompt: 'Which idea is this? — The Vedic Society spans two distinct phases: the Early Vedic (Rigvedic) period (c.', answer: 'The Vedic Society spans two', options: ['The Vedic Society spans two', 'The Gurukula system was a', 'The Mauryan administration c 322185', 'The Gupta Empire c 320550'] },
             { id: 's2', label: 'The Gurukula system was a', prompt: 'Which idea is this? — The Gurukula system was a residential mode of education in early India (c.', answer: 'The Gurukula system was a', options: ['The Gurukula system was a', 'The Vedic Society spans two', 'The Mauryan administration c 322185', 'The Gupta Empire c 320550'] },
             { id: 's3', label: 'The Mauryan administration c 322185', prompt: 'Which idea is this? — The Mauryan administration (c. 322–185 BCE) was a highly centralized bureaucratic system.', answer: 'The Mauryan administration c 322185', options: ['The Mauryan administration c 322185', 'The Vedic Society spans two', 'The Gurukula system was a', 'The Gupta Empire c 320550'] },
@@ -87,7 +87,7 @@ export const w_c9_historycivicsguptacontributionculturesim: SimDef = {
             { id: 's6', label: 'The Varna-Jati system refers to', prompt: 'Which idea is this? — The Varna-Jati system refers to the dual-layered social stratification in early India (c.', answer: 'The Varna-Jati system refers to', options: ['The Varna-Jati system refers to', 'The Vedic Society spans two', 'The Gurukula system was a', 'The Mauryan administration c 322185'] }
           ] } }
     ],
-    explore: { component: C9_HistoryCivicsGuptaContributionCultureSim, prompt: 'Explore the interactive — Gupta Contribution Culture' },
+    explore: { component: C9_HistoryCivicsGuptaContributionCultureSim, prompt: 'Explore the interactive — Vedic Society: Early and Later Vedic Periods' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_hist_ch3_1', difficulty: 'standard',
           question: 'The Vedic Society spans two distinct phases: the Early Vedic (Rigvedic) period.',

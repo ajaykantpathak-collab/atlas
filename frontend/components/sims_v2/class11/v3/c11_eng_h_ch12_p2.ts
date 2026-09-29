@@ -19,7 +19,7 @@ export const c11_eng_h_ch12_p2: SimDef = {
         hook: 'Resolution of plot and resolution of tension aren\'t the same — a shared silence can close a poem better than dialogue.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the subordinate yet significant ideas that run alongside the primary theme, enriching the text by exploring complementary dimensions of the human experience—such as silence.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Father to Son\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_12_007', title: 'Your mission',
@@ -29,42 +29,42 @@ export const c11_eng_h_ch12_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_12_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you’ve just explained the main theme of the poem to a friend: “It’s about a father and son who don’t understand each other.” Your friend asks, “Is that.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Father to Son\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a secondary theme in literature, and how does it differ from a mere topic?', options: [
                 { text: 'A secondary theme is a complete idea or statement about life that supports the primary', outcome: 'A secondary theme is a complete idea or statement about life that supports the primary theme (e.g.' },
                 { text: 'silence', outcome: 'Not quite — Students often treat secondary themes as “less important” topics and list nouns like “silence,”.', reveals: 'students-often-treat-secondary-themes' },
                 { text: 'metaphor', outcome: 'Not quite — Students often treat secondary themes as “less important” topics and list nouns like “silence,”.', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_12_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are trying to describe the exact feeling of sitting across from your father at a dinner table where neither of you has spoken for twenty minutes.',
+          caseStudy: { intro: 'Find the lines in \'Father to Son\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define imagery and metaphor. Give one example of each from daily life (not from the poem).', options: [
                 { text: '**Correct Answer:** Imagery: Descriptive language appealing to senses (e.g., "The wet', outcome: '**Correct Answer:** Imagery: Descriptive language appealing to senses (e.g., "The wet earth smelled.' },
                 { text: 'traffic is *like* a nightmare', outcome: 'Not quite — Students believe **imagery is only "visual description" (pictures in the mind)** and **metaphor.', reveals: 'imagery-is-only-visual-description' },
                 { text: 'visual description', outcome: 'Not quite — Students believe **imagery is only "visual description" (pictures in the mind)** and **metaphor.', reveals: 'imagery-is-only-visual-description' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_12_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are reading "Father to Father" and notice the father saying "I do not understand this child" while the poem itself is his attempt to understand.',
+          caseStudy: { intro: 'Look in \'Father to Son\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define irony and symbolism in your own words, giving one example of each from everyday life (not from the poem).', options: [
                 { text: 'Irony: a situation where the outcome is opposite to what was expected (e.g., a fire', outcome: 'Irony: a situation where the outcome is opposite to what was expected (e.g., a fire station burning.' },
                 { text: 'a funny coincidence', outcome: 'Not quite — Students often treat irony as any unexpected twist and symbolism as any object mentioned in the.', reveals: 'students-often-treat-irony-as' },
                 { text: 'a metaphor', outcome: 'Not quite — Students often treat irony as any unexpected twist and symbolism as any object mentioned in the.', reveals: 'students-often-treat-irony-as' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_12_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading the poem and stumble on the word "chasm" in the line describing the distance between father and son.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Father to Son\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'Define "contextual meaning" in poetry and explain how it differs from a dictionary (denotative) meaning.', options: [
                 { text: 'Contextual meaning is the specific shade of meaning a word acquires based on the', outcome: 'Contextual meaning is the specific shade of meaning a word acquires based on the surrounding words.' },
                 { text: 'they are the same', outcome: 'Not quite — Students believe "vocabulary in context" means "guessing the meaning of hard words from surrounding.', reveals: 'vocabulary-in-context-means-guessing' },
                 { text: 'vocabulary in context', outcome: 'Not quite — Students believe "vocabulary in context" means "guessing the meaning of hard words from surrounding.', reveals: 'vocabulary-in-context-means-guessing' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_12_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading a WhatsApp message from your father that says "Reached home safe" instead of "I have reached home safely." You instantly notice the.',
+          caseStudy: { intro: 'Read \'Father to Son\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the grammatical term for a sentence that lacks a main verb or subject but functions as a complete thought in poetry, such.', options: [
                 { text: 'The term is **sentence fragment** (or elliptical construction)', outcome: 'The term is **sentence fragment** (or elliptical construction).' },
                 { text: 'run-on sentence', outcome: 'Not quite — Students believe "poetic grammar" means breaking rules randomly for artistic effect.', reveals: 'poetic-grammar-means-breaking-rules' },
                 { text: 'simple sentence', outcome: 'Not quite — Students believe "poetic grammar" means breaking rules randomly for artistic effect.', reveals: 'poetic-grammar-means-breaking-rules' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_12_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and the first question reads: "Why does the father say \'We speak like strangers\'?" Your heart races — is the answer.',
+          caseStudy: { intro: 'Answer \'Father to Son\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify whether the following question is literal or inferential: "In the poem \'Father to Son\', what does the father mean when he says.', options: [
                 { text: 'This is an **inferential** question', outcome: 'This is an **inferential** question. The metaphor of "seed" and "land" is not explicitly explained.' },
                 { text: 'opinion questions', outcome: 'Not quite — Students believe inferential questions are "opinion questions" where any answer is acceptable.', reveals: 'inferential-questions-are-opinion-questions' }
@@ -88,7 +88,7 @@ export const c11_eng_h_ch12_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_007', difficulty: 'standard',
-          question: 'Secondary themes are the subordinate yet significant ideas that run alongside.',
+          question: 'Secondary themes in \'Father to Son\' — the supporting ideas and motifs that.',
           hint: 'If stuck, revisit the topic-vs-theme table in node 006 and practice converting three.',
           misconception: 'Students often treat secondary themes as “less important” topics and list nouns like “silence,” “time,”.',
           parts: [
@@ -114,7 +114,7 @@ export const c11_eng_h_ch12_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-secondary-themes': { steps: ['Give the student a two-column table: Column A = Topics from the poem (silence, seed, land, stranger, prodigal).', 'Column B = Thematic Statements.', 'Ask them to match each topic to a statement like “Silence deepens emotional distance.” 2.', 'Have them re-read the poem and write one sentence for each topic explaining *what the poet suggests about it*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Father to Son\' — the vivid, sensory language that creates.',
           hint: 'Review the "Poetic Devices" sections from Class 6 (c6_english_u1_005) and Class 8.',
           misconception: 'Students believe **imagery is only "visual description" (pictures in the mind)** and **metaphor is just "a fancy.',
           parts: [
@@ -133,18 +133,18 @@ export const c11_eng_h_ch12_p2: SimDef = {
           ],
             remediations: { 'imagery-is-only-visual-description': { steps: ['**Sensory Audit:** Give the student a 2-minute "sensory scan" of their current room: name 1 thing you smell, 1 sound, 1.', '**Metaphor Surgery:** Take a weak simile from their writing ("He was strong like a tree").', 'Convert to metaphor ("He was an oak").', 'List 5 qualities of "oak" (deep roots, rings of time, hard wood, shade, survives storms).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_009', difficulty: 'standard',
-          question: 'Irony is a literary device where there is a contrast between expectation and.',
+          question: 'Irony and paradox in \'Father to Son\' — where opposite things are both true,.',
           hint: 'If stuck, review the definitions and Class 10 examples of irony (c10_engl_cbse_01_005).',
           misconception: 'Students often treat irony as any unexpected twist and symbolism as any object mentioned in the poem.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where there is a contrast between expectation and reality,',
-                  options: ['Irony is a literary device where there is a contrast between expectation and reality,', '"Before You Read: Context and Background" provides the essential historical,', 'Plot and narrative structure in poetry refers to the organized sequence of events,', 'Setting in poetry refers to the time, place, and social environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'Father to Son\'',
+                  options: ['Irony and paradox in \'Father to Son\'', '\'Father to Son\' (Hornbill, ch', 'The plot/narrative arc of \'Father to Son\'', 'The setting of \'Father to Son\''],
                   hint: 'If stuck, review the definitions and Class 10 examples of irony (c10_engl_cbse_01_005) and.',
                   misconception: 'Students often treat irony as any unexpected twist and symbolism as any object mentioned in the poem.' }
           ],
             remediations: { 'students-often-treat-irony-as': { steps: ['Re-read the poem focusing only on the father\'s statements vs.', 'the reality they describe — list three mismatches.', 'For each mismatch, name the irony type (verbal: he says X but means Y; situational: he expects closeness but creates.', 'For symbols, trace one concrete noun ("house", "seed", "silence") across stanzas: note where it appears, what changes.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_010', difficulty: 'standard',
-          question: 'Vocabulary in Context: Key Words refers to the skill of determining the precise.',
+          question: 'Key vocabulary of \'Father to Son\' — the words and phrases you must know to read.',
           hint: 'If stuck, return to **c9_engl_ch1_8 (Vocabulary in Context: Key Words from the Story)**.',
           misconception: 'Students believe "vocabulary in context" means "guessing the meaning of hard words from surrounding sentences." They.',
           parts: [
@@ -159,7 +159,7 @@ export const c11_eng_h_ch12_p2: SimDef = {
           ],
             remediations: { 'vocabulary-in-context-means-guessing': { steps: ['**Isolate the Word:** Give the student a single line with the target word blanked out.', 'Ask them to fill it with three synonyms of increasing intensity (e.g., gap / chasm / abyss).', '**Sound & Sense:** Read the line aloud with each synonym.', 'Ask: "Which sounds like the poem?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the systematic analysis of grammatical.',
+          question: 'Language and style in \'Father to Son\' — how the writer chose words, sentences.',
           hint: 'Review "Sentence Structure and Types" (Class 6, c6_english_u4_038) and "Active and.',
           misconception: 'Students believe "poetic grammar" means breaking rules randomly for artistic effect.',
           parts: [
@@ -174,7 +174,7 @@ export const c11_eng_h_ch12_p2: SimDef = {
           ],
             remediations: { 'poetic-grammar-means-breaking-rules': { steps: ['Give the student a prose version of the poem\'s first stanza (rewrite it as standard sentences).', 'Ask them to list *every* difference — no matter how small — between the prose and poem versions.', 'For each difference, ask: "What does this change *do* to the feeling?"', 'Have them complete a table: Grammatical Feature | Prose Version | Poem Version | Effect.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve explicitly stated.',
+          question: 'Literal comprehension of \'Father to Son\' — questions answered straight from the.',
           hint: 'If stuck, review c11_eng_h_cbse_12_008 (Imagery and Metaphor) — 80% of inferential clues.',
           misconception: 'Students believe inferential questions are "opinion questions" where any answer is acceptable if they "feel" it.',
           parts: [

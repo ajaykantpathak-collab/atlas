@@ -6,13 +6,13 @@ import C9_PhysicsWeightMassComparisonSim from '../../../simulations/c6_12/C9_Phy
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_physicsweightmasscomparisonsim: SimDef = {
     id: 'v3w_c9_physicsweightmasscomparisonsim',
-    title: 'Weight Mass Comparison',
+    title: 'Distance-Time Graphs and Their Interpretation',
     subtitle: 'Covers interpretation of distance-time graphs for rectilinear motion including: straight.',
     classLevel: 9, subject: 'physics', topic: 'Distance-Time Graphs and Their Interpretation',
     chapters: [],
     nodeIds: ['c9_physics_ch2_6', 'c9_physics_ch5_6'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are standing at a railway crossing in Delhi and watch a train pass by.', goal: 'Master Weight Mass Comparison.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are standing at a railway crossing in Delhi and watch a train pass by.', goal: 'Master Distance-Time Graphs and Their Interpretation.' },
     discovery: {
         question: 'What physical quantity does the slope of a distance-time graph represent, and what are its SI units?',
         options: ['The slope represents speed, with SI units of metres per second (m/s)', 'velocity', 'acceleration'],
@@ -42,12 +42,12 @@ export const w_c9_physicsweightmasscomparisonsim: SimDef = {
             { text: 'Verify: Wavelength in water (3.06 cm) is longer than in air (0.68 cm) because speed is higher in water for the same.', faded: true, blankAnswer: 'λ_water = 0.0306 m (3.06 cm), λ_air = 0.0068 m (0.68 cm)' }
             ] } },
         { type: 'dissect', nodeId: 'c9_physics_ch5_6', title: 'Identify each idea',
-          dissect: { specimen: 'Weight Mass Comparison', spots: [
+          dissect: { specimen: 'Distance-Time Graphs and Their Interpretation', spots: [
             { id: 's1', label: 'A distance-time graph is a', prompt: 'Which idea is this? — A distance-time graph is a graphical representation plotting distance travelled (on the.', answer: 'A distance-time graph is a', options: ['A distance-time graph is a', 'Speed of sound is the'] },
             { id: 's2', label: 'Speed of sound is the', prompt: 'Which idea is this? — Speed of sound is the distance travelled per unit time by a sound wave as it propagates.', answer: 'Speed of sound is the', options: ['Speed of sound is the', 'A distance-time graph is a'] }
           ] } }
     ],
-    explore: { component: C9_PhysicsWeightMassComparisonSim, prompt: 'Explore the interactive — Weight Mass Comparison' },
+    explore: { component: C9_PhysicsWeightMassComparisonSim, prompt: 'Explore the interactive — Distance-Time Graphs and Their Interpretation' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_physics_ch2_6', difficulty: 'standard',
           question: 'A distance-time graph is a graphical representation plotting distance travelled.',

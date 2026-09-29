@@ -19,7 +19,7 @@ export const c12_hin_ar_ch14_p2: SimDef = {
         hook: 'The state guards the flag\'s display rules; the author asks whether it still embodies justice — ritualistic patriotism versus ethical substance. For him no science, politics or religion outranks humanity; the flag is a moral contract, not a protocol object.',
     },
     teaching: [
-        { title: 'शरिीष के फूल — गौण विषय', text: 'गौण विषय (Sub-theme) कथा साहित्य में वह सहायक विषय-वस्तु है जो मुख्य विषय के समानांतर चलती हुई उसे गहराई, विस्तार और विश्वसनीयता प्रदान करती है; यह स्वतंत्र कथानक नहीं होती बल्कि मुख्य कथानक के भीतर.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'शरिीष के फूल — गौण विषय', text: '\'फकीर धुनी\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_14_007', title: 'Your mission',
@@ -28,6 +28,19 @@ export const c12_hin_ar_ch14_p2: SimDef = {
         context: 'Read the flag as the nation\'s pulse: trace its arc from tryst-with-destiny to faded neglect, weigh reverence against ritual, and ask what a torn tricolor diagnoses.',
         labels: ['शरिीष के फूल —'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_14_007', title: 'शरिीष के फूल — गौण विषय',
+          caseStudy: { intro: '\'फकीर धुनी\' में फकीर-धुनी जैसे सहायक विचार आते हैं।',
+            decisions: [{ prompt: '**REMEMBER LEVEL**: Define \'secondary theme\' in your own words and give ONE example of a secondary theme from any Class 11 or 12 Hindi Aroh.', options: [
+                { text: 'A secondary theme is a significant recurring idea that supports and adds layers to the', outcome: 'A secondary theme is a significant recurring idea that supports and adds layers to the main.' },
+                { text: 'corruption', outcome: 'Not quite — **Misconception**: "Secondary themes are just \'sub-topics\' or \'minor topics\' mentioned in the.', reveals: 'misconception-secondary-themes-are-just' },
+                { text: 'corruption" is a theme', outcome: 'Not quite — **Misconception**: "Secondary themes are just \'sub-topics\' or \'minor topics\' mentioned in the.', reveals: 'misconception-secondary-themes-are-just' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_14_010', title: 'शरिीष के फूल — पदावली: मुख्य शब्द',
+          caseStudy: { intro: '\'फकीर धुनी\' के मुख्य शब्द: फकीर-धुनी — इनका अर्थ जानिए।',
+            decisions: [{ prompt: 'Define "context clue" in your own words and give one example from the story "फकीरचंद" where a word\'s meaning changes based on its.', options: [
+                { text: 'A context clue is a hint within the surrounding text (words, phrases, sentences) that', outcome: 'A context clue is a hint within the surrounding text (words, phrases, sentences) that helps infer.' },
+                { text: 'context clue means looking in a dictionary', outcome: 'Not quite — Students treat the end-of-chapter glossary ("शब्दार्थ") as the *only* authoritative meaning.', reveals: 'students-treat-the-end-of' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_14_007', title: 'Use it in the wild',
           caseStudy: { intro: 'Your college\'s broken hostel bench gets a fresh coat of paint for inspection day — splinters and all — and the warden declares the issue \'resolved.\' The repair request you filed months ago is still \'under process.\'',
             decisions: [{ prompt: 'What does \'फखरुद्दीन की खाट\' see in the painted bench?', options: [
@@ -47,67 +60,67 @@ export const c12_hin_ar_ch14_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_14_007', difficulty: 'standard',
-          question: 'गौण विषय (Sub-theme) कथा साहित्य में वह सहायक विषय-वस्तु है जो मुख्य विषय के.',
-          hint: 'यदि मुख्य विषय स्पष्ट न हो, तो c12_hin_ar_cbse_14_006 के \'मास्टरी क्राइटेरिया\' को दोहराएं.',
-          misconception: 'छात्र समझते हैं कि \'गौण विषय\' = \'कम अंक वाला विषय\'। वास्तव में बोर्ड परीक्षा में 3-4 अंक के प्रश्न अक्सर गौण विषय पर ही.',
+          question: '\'फकीर धुनी\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
+          hint: 'If stuck on distinguishing primary vs. secondary themes, review Node 006\'s worked.',
+          misconception: '**Misconception**: "Secondary themes are just \'sub-topics\' or \'minor topics\' mentioned in the chapter — like \'Urdu.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme) कथा साहित्य में वह सहायक विषय-वस्तु है जो मुख्य विषय के समानांतर',
-                  options: ['गौण विषय (Sub-theme) कथा साहित्य में वह सहायक विषय-वस्तु है जो मुख्य विषय के समानांतर', '\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध** है जो', '**कथानक** क्रमबद्ध घटनाओं का वह ताना-बाना है जो कहानी का आधार बनता है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
-                  hint: 'यदि मुख्य विषय स्पष्ट न हो, तो c12_hin_ar_cbse_14_006 के \'मास्टरी क्राइटेरिया\' को दोहराएं — मुख्य.',
-                  misconception: 'छात्र समझते हैं कि \'गौण विषय\' = \'कम अंक वाला विषय\'। वास्तव में बोर्ड परीक्षा में 3-4 अंक के प्रश्न अक्सर गौण विषय पर ही होते हैं क्योंकि वे.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'फकीर धुनी\' के गौण विषय',
+                  options: ['\'फकीर धुनी\' के गौण विषय', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फकीर धुनी\' का कथानक', '\'फकीर धुनी\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck on distinguishing primary vs. secondary themes, review Node 006\'s worked examples and.',
+                  misconception: '**Misconception**: "Secondary themes are just \'sub-topics\' or \'minor topics\' mentioned in the chapter — like \'Urdu language\', \'Old Delhi.' }
           ],
-            remediations: { '3-4': { steps: ['चरण 1: छात्र से कहें — "पाठ के 5 प्रमुख प्रसंग लिखो जहां मुख्य कथा रुकती है और कोई दूसरा मुद्दा उभरता है।" चरण 2.', '(जाति/स्त्री/प्रकृति/परंपरा)" चरण 3: उन विचारों को समूहित करें — वही गौण विषय हैं। चरण 4: प्रत्येक गौण विषय के लिए दो.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'misconception-secondary-themes-are-just': { steps: ['**Revisit Primary Theme (Node 006)**: Re-read the primary theme statement.', 'Ask: "What *other* big questions does the text ask *while* answering the primary one?" 2.', '**Topic-to-Theme Conversion Drill**: Take 3 topics from the chapter (e.g., "metro", "haveli", "craftsman").', 'For each, write a *thematic statement*: "The metro represents ______." → "The metro represents the *violent imposition.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_14_008', difficulty: 'standard',
-          question: '**बिंब (Imagery):** साहित्य में शब्दों के माध्यम से इंद्रियों (दृष्टि, श्रवण.',
+          question: '\'फकीर धुनी\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
           hint: 'यदि अटके: **c11_hin_ar_cbse_14_008** (कक्षा 11 का समान नोड) के **WORKED_EXAMPLE_1,2**.',
           misconception: '**सबसे घातक भ्रम:** छात्र **बिंब = वर्णन (description)** और **रूपक = उपमा (simile)** मानते हैं। **वास्तविकता:**.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery):** साहित्य में शब्दों के माध्यम से इंद्रियों (दृष्टि, श्रवण, घ्राण,',
-                  options: ['**बिंब (Imagery):** साहित्य में शब्दों के माध्यम से इंद्रियों (दृष्टि, श्रवण, घ्राण,', '\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध** है जो', '**कथानक** क्रमबद्ध घटनाओं का वह ताना-बाना है जो कहानी का आधार बनता है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'फकीर धुनी\' में बिंब (imagery)',
+                  options: ['\'फकीर धुनी\' में बिंब (imagery)', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फकीर धुनी\' का कथानक', '\'फकीर धुनी\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके: **c11_hin_ar_cbse_14_008** (कक्षा 11 का समान नोड) के **WORKED_EXAMPLE_1,2** दोहराओ — वहाँ.',
                   misconception: '**सबसे घातक भ्रम:** छात्र **बिंब = वर्णन (description)** और **रूपक = उपमा (simile)** मानते हैं। **वास्तविकता:** - **बिंब** वर्णन नहीं.' }
           ],
             remediations: { 'description-simile': { steps: ['**पुनः पढ़ो:** पाठ के पहले दो पैराग्राफ **धीरे-धीरे बोलकर** पढ़ो — हर वाक्य पर रुको और पूछो: "मेरी कौन-सी इंद्रिय.', '**तालिका बनाओ:** दो कॉलम — **बिंब पद** | **इंद्रिय श्रेणी**। कम से कम 5 प्रविष्टियाँ भरो। 3.', '**रूपक-शल्यक्रिया:** पाठ से 3 वाक्य चुनो जहाँ \'है/था/थी\' के बाद सीधे संज्ञा आए (जैसे "स्मृति शिरीष है")। प्रत्येक के.', '**परीक्षा-अभ्यास:** CBSE 2023-24 सैंपल पेपर के **\'आशय स्पष्ट कीजिए\'** प्रश्न (पाठ-आधारित) हल करो — उत्तर में बिंब/रूपक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_14_009', difficulty: 'standard',
-          question: '**विरोधाभास (Paradox)** एक ऐसी साहित्यिक युक्ति है जिसमें दो परस्पर विरोधी या.',
+          question: '\'फकीर धुनी\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
           hint: 'यदि फँसें तो: नोड 008 (बिंब और रूपक) के WORKED_EXAMPLE_1 व 2 को पुनः हल करें — विशेष रूप.',
           misconception: '**विशिष्ट भ्रम:** छात्र **विरोधाभास (Paradox)** और **विरोधाभास अलंकार (Oxymoron)** को एक मान लेते हैं। Oxymoron = दो.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox)** एक ऐसी साहित्यिक युक्ति है जिसमें दो परस्पर विरोधी या असंगत',
-                  options: ['**विरोधाभास (Paradox)** एक ऐसी साहित्यिक युक्ति है जिसमें दो परस्पर विरोधी या असंगत', '\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध** है जो', '**कथानक** क्रमबद्ध घटनाओं का वह ताना-बाना है जो कहानी का आधार बनता है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'फकीर धुनी\' में विरोधाभास',
+                  options: ['\'फकीर धुनी\' में विरोधाभास', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फकीर धुनी\' का कथानक', '\'फकीर धुनी\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फँसें तो: नोड 008 (बिंब और रूपक) के WORKED_EXAMPLE_1 व 2 को पुनः हल करें — विशेष रूप से \'रूपक.',
                   misconception: '**विशिष्ट भ्रम:** छात्र **विरोधाभास (Paradox)** और **विरोधाभास अलंकार (Oxymoron)** को एक मान लेते हैं। Oxymoron = दो विरोधी **शब्द** साथ.' }
           ],
             remediations: { 'paradox-oxymoron-oxymoron': { steps: ['**चरण 1 — अवधारणा स्पष्टीकरण (15 मिनट):** छात्र को दो कॉलम बनाने को कहें: Column A: Oxymoron (पद-युग्म), Column.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_14_010', difficulty: 'standard',
-          question: 'पदावली किसी पाठ के **चयनित मुख्य शब्दों** की वह सूची है जिसमें उनका **मूल.',
-          hint: 'यदि **समास विच्छेद** या **प्रतीक/रूपक भेद** में अटके, तो तुरंत **c12_hin_ar_cbse_14_008**.',
-          misconception: '**विशिष्ट भ्रांति:** *"पदावली का अर्थ है कठिन शब्दों के \'पर्यायवाची\' या \'विलोम\' रट लेना।"* **वास्तविकता:**.',
+          question: '\'फकीर धुनी\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
+          hint: 'If stuck on connotation: Revisit Class 11 Chapter 14 node 009 (Irony/Symbolism) — the.',
+          misconception: 'Students treat the end-of-chapter glossary ("शब्दार्थ") as the *only* authoritative meaning.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली किसी पाठ के **चयनित मुख्य शब्दों** की वह सूची है जिसमें उनका **मूल अर्थ**,',
-                  options: ['पदावली किसी पाठ के **चयनित मुख्य शब्दों** की वह सूची है जिसमें उनका **मूल अर्थ**,', '\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध** है जो', '**कथानक** क्रमबद्ध घटनाओं का वह ताना-बाना है जो कहानी का आधार बनता है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
-                  hint: 'यदि **समास विच्छेद** या **प्रतीक/रूपक भेद** में अटके, तो तुरंत **c12_hin_ar_cbse_14_008** (बिंब और.',
-                  misconception: '**विशिष्ट भ्रांति:** *"पदावली का अर्थ है कठिन शब्दों के \'पर्यायवाची\' या \'विलोम\' रट लेना।"* **वास्तविकता:** बोर्ड/प्रतियोगी परीक्षाएँ.' }
+                { id: 'a', prompt: 'In the sentence "फूँक मारकर उसने दीया बुझा दिया", the word "फूँक" is used. But earlier, the glossary defines "फूँक" as "वीर्यल उकेद ओक़्" (a specialized term).', answer: 'Contextual meaning: "फूँक" here means a deliberate, controlled breath',
+                  options: ['Contextual meaning: "फूँक" here means a deliberate, controlled breath', 'फूँक means wind'],
+                  hint: 'If stuck on connotation: Revisit Class 11 Chapter 14 node 009 (Irony/Symbolism) — the concept that.',
+                  misconception: 'Students treat the end-of-chapter glossary ("शब्दार्थ") as the *only* authoritative meaning.' }
           ],
-            remediations: { '6-11-lexical-12-contextual': { steps: ['**लक्षित उपचार (Targeted Remediation):** 1.', '**चरण 1 (पुनः अवलोकन):** पाठ से **केवल 3 शब्द** चुनें (जैसे: शरिीष, वितान, अनुहार)। प्रत्येक के लिए **4-स्तरीय तालिका**.', '**चरण 2 (तुलनात्मक अभ्यास):** \'प्रतिध्वनि\' vs \'अनुनाद\', \'आलोक\' vs \'प्रकाश\' — ऐसे **शब्द-युग्मों (Word Pairs)** के.', '**चरण 3 (निदानात्मक परीक्षण):** उपरोक्त **DIAGNOSTIC_QUESTION_4** को पुनः हल करें — यदि अब भी भ्रम हो, तो.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-the-end-of': { steps: ['Have them re-read the *exact paragraph* where the word appears (not the whole story).', 'Ask them to circle 3 words *adjacent* to the target word (e.g., for "नल फेर": "कर", "चला", "गया").', 'Ask: "What do these neighbors *do* to the meaning?" (e.g., "कर" makes it an action; "चला गया" adds departure).', 'Have them write: "In this paragraph, नल फेर suggests ____ because the text shows ____."'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_14_011', difficulty: 'standard',
-          question: 'पाठ में भाषा-प्रयोग का अर्थ है: रचनाकार द्वारा विषय, पात्र, प्रसंग और भाव के.',
-          hint: 'यदि शब्द-भंडार वर्गीकरण या वाक्य-भेद पहचानने में अटकें, तो कक्षा 11 के.',
-          misconception: '**विशिष्ट भ्रांति:** "भाषा-प्रयोग का विश्लेषण करने का अर्थ है पाठ से कठिन/सुंदर शब्द छाँटकर उनकी परिभाषा लिख देना।".',
+          question: '\'फकीर धुनी\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली.',
+          hint: 'If stuck on aspect identification, review Class 11 Hindi grammar chapter "Kriya ke Bhed".',
+          misconception: 'Students treat "grammar in literature" as spotting parts of speech (noun, verb, adjective) — a Class 6 skill.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग का अर्थ है: रचनाकार द्वारा विषय, पात्र, प्रसंग और भाव के अनुरूप',
-                  options: ['पाठ में भाषा-प्रयोग का अर्थ है: रचनाकार द्वारा विषय, पात्र, प्रसंग और भाव के अनुरूप', '\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध** है जो', '**कथानक** क्रमबद्ध घटनाओं का वह ताना-बाना है जो कहानी का आधार बनता है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
-                  hint: 'यदि शब्द-भंडार वर्गीकरण या वाक्य-भेद पहचानने में अटकें, तो कक्षा 11 के c11_hin_ar_cbse_14_011.',
-                  misconception: '**विशिष्ट भ्रांति:** "भाषा-प्रयोग का विश्लेषण करने का अर्थ है पाठ से कठिन/सुंदर शब्द छाँटकर उनकी परिभाषा लिख देना।" — **क्यों गलत है:**.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'फकीर धुनी\' में भाषा-प्रयोग',
+                  options: ['\'फकीर धुनी\' में भाषा-प्रयोग', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फकीर धुनी\' का कथानक', '\'फकीर धुनी\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck on aspect identification, review Class 11 Hindi grammar chapter "Kriya ke Bhed" (Verb.',
+                  misconception: 'Students treat "grammar in literature" as spotting parts of speech (noun, verb, adjective) — a Class 6 skill.' }
           ],
-            remediations: { 'cuet-x-1-2-0': { steps: ['**चरण 1:** पाठ से **एक छोटा प्रसंग (4-5 वाक्य)** चुनें जहाँ भाव तीव्र हो (तनाव, स्मृति, ग्रामीण संवाद)। **चरण 2:** उस.', 'अगर *वह* शब्द होता तो क्या फर्क पड़ता?" — इसे **\'क्या-अगर\' (what-if) विश्लेषण** कहते हैं। **चरण 3:** अपने उत्तर को इस.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-grammar-in-literature': { steps: ['Return to the text and highlight every word you would not use in a formal letter.', 'Group them: dialect nouns, aspectual verbs, idioms, inverted sentences.', 'For each group, write one sentence: "This [feature] makes the narrator sound [effect] because [reason]." 4.', 'Check c11_hin_ar_cbse_14_011 (Class 11 same-chapter grammar node) for worked examples of aspect and dialect analysis.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_14_012', difficulty: 'standard',
-          question: 'वस्तुनिष्ठ प्रश्न (Objective questions) पाठ्य सामग्री से सीधे तथ्यात्मक जानकारी.',
+          question: '\'फकीर धुनी\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
           hint: 'यदि छात्र आशय-सूचक प्रश्न का \'साक्ष्य\' चरण नहीं कर पा रहा → c12_hin_ar_cbse_14_003.',
           misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि "आशय-सूचक प्रश्न = लंबा उत्तर" और "वस्तुनिष्ठ प्रश्न = छोटा उत्तर"। इसलिए वे 2-अंक.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न (Objective questions) पाठ्य सामग्री से सीधे तथ्यात्मक जानकारी मांगते',
-                  options: ['वस्तुनिष्ठ प्रश्न (Objective questions) पाठ्य सामग्री से सीधे तथ्यात्मक जानकारी मांगते', '\'शरीष के फूल\' कन्हैयालाल मिश्र \'प्रभाकर\' द्वारा रचित एक **संस्मरणात्मक निबंध** है जो', '**कथानक** क्रमबद्ध घटनाओं का वह ताना-बाना है जो कहानी का आधार बनता है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'फकीर धुनी\' के वस्तुनिष्ठ प्रश्न',
+                  options: ['\'फकीर धुनी\' के वस्तुनिष्ठ प्रश्न', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फकीर धुनी\' का कथानक', '\'फकीर धुनी\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि छात्र आशय-सूचक प्रश्न का \'साक्ष्य\' चरण नहीं कर पा रहा → c12_hin_ar_cbse_14_003 (पाठ्य-परिवेश).',
                   misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि "आशय-सूचक प्रश्न = लंबा उत्तर" और "वस्तुनिष्ठ प्रश्न = छोटा उत्तर"। इसलिए वे 2-अंक के आशय-सूचक प्रश्न.' }
           ],

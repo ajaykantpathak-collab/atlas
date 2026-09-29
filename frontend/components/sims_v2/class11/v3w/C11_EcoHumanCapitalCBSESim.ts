@@ -6,13 +6,13 @@ import C11_EcoHumanCapitalCBSESim from '../../../simulations/c6_12_new/C11_EcoHu
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_ecohumancapitalcbsesim: SimDef = {
     id: 'v3w_c11_ecohumancapitalcbsesim',
-    title: 'Human Capital CBSE',
+    title: 'Human Capital vs Physical Capital: Meaning and Distinction',
     subtitle: 'This node covers the conceptual distinction between human capital and physical capital as.',
     classLevel: 11, subject: 'economics', topic: 'Human Capital vs Physical Capital: Meaning and Distinction',
     chapters: [],
     nodeIds: ['c11_eco_cbse_04_001', 'c11_eco_cbse_04_002', 'c11_eco_cbse_04_003', 'c11_eco_cbse_04_004', 'c11_eco_cbse_04_005', 'c11_eco_cbse_04_006', 'c11_eco_cbse_04_007', 'c11_eco_cbse_04_008', 'c11_eco_cbse_04_009', 'c11_eco_cbse_04_010', 'c11_eco_cbse_04_011', 'c11_eco_cbse_08_010', 'c11_eco_cbse_08_011', 'c11_eco_cbse_05_001', 'c11_eco_cbse_08_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine two Class 11 students: Rohan\'s father owns a textile factory with power looms worth ₹50 lakh, while.', goal: 'Master Human Capital CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine two Class 11 students: Rohan\'s father owns a textile factory with power looms worth ₹50 lakh, while.', goal: 'Master Human Capital vs Physical Capital: Meaning and Distinction.' },
     discovery: {
         question: 'Compare the mobility of physical capital and human capital across international borders.',
         options: ['Physical capital (machines, equipment) moves freely across borders barring trade', 'visa restrictions', 'human capital = educated people'],
@@ -85,7 +85,7 @@ export const w_c11_ecohumancapitalcbsesim: SimDef = {
             { text: 'Compute rate of return = (Net gain / Training cost) × 100 = (₹10,80,000 / ₹1,20,000) × 100 = 900%.', faded: true, blankAnswer: 'Net gain per engineer = ₹10,80,000; Rate of return = 900%.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_eco_cbse_04_002', title: 'Identify each idea',
-          dissect: { specimen: 'Human Capital CBSE', spots: [
+          dissect: { specimen: 'Human Capital vs Physical Capital: Meaning and Distinction', spots: [
             { id: 's1', label: 'Human capital refers to the', prompt: 'Which idea is this? — Human capital refers to the stock of knowledge, skills, competencies, and health.', answer: 'Human capital refers to the', options: ['Human capital refers to the', 'Human capital formation is the', 'Human capital and economic growth', 'Education as a source of'] },
             { id: 's2', label: 'Human capital formation is the', prompt: 'Which idea is this? — Human capital formation is the process of acquiring and increasing the stock of.', answer: 'Human capital formation is the', options: ['Human capital formation is the', 'Human capital refers to the', 'Human capital and economic growth', 'Education as a source of'] },
             { id: 's3', label: 'Human capital and economic growth', prompt: 'Which idea is this? — Human capital and economic growth share a bidirectional causal relationship: investment.', answer: 'Human capital and economic growth', options: ['Human capital and economic growth', 'Human capital refers to the', 'Human capital formation is the', 'Education as a source of'] },
@@ -94,7 +94,7 @@ export const w_c11_ecohumancapitalcbsesim: SimDef = {
             { id: 's6', label: 'On-the-job training OJT is a', prompt: 'Which idea is this? — On-the-job training (OJT) is a form of human capital investment where firms incur.', answer: 'On-the-job training OJT is a', options: ['On-the-job training OJT is a', 'Human capital refers to the', 'Human capital formation is the', 'Human capital and economic growth'] }
           ] } }
     ],
-    explore: { component: C11_EcoHumanCapitalCBSESim, prompt: 'Explore the interactive — Human Capital CBSE' },
+    explore: { component: C11_EcoHumanCapitalCBSESim, prompt: 'Explore the interactive — Human Capital vs Physical Capital: Meaning and Distinction' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eco_cbse_04_001', difficulty: 'standard',
           question: 'Human capital refers to the stock of knowledge, skills, competencies, and.',

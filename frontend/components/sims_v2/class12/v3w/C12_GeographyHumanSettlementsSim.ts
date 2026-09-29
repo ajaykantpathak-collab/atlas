@@ -6,13 +6,13 @@ import C12_GeographyHumanSettlementsSim from '../../../simulations/c6_12/C12_Geo
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_geographyhumansettlementssim: SimDef = {
     id: 'v3w_c12_geographyhumansettlementssim',
-    title: 'Human Settlements',
+    title: 'Human Geography vs Physical Geography: Interrelation',
     subtitle: 'This node covers the conceptual interrelation, historical dualism, and the holistic.',
     classLevel: 12, subject: 'geography', topic: 'Human Geography vs Physical Geography: Interrelation',
     chapters: [],
     nodeIds: ['c12_geo_cbse_01_003', 'c12_geo_cbse_04_001', 'c12_geo_cbse_04_002', 'c12_geo_cbse_04_004', 'c12_geo_cbse_04_009', 'c12_geo_cbse_04_010', 'c12_geo_cbse_10_001', 'c12_geo_cbse_04_003', 'c12_geo_cbse_04_005', 'c12_geo_cbse_04_006', 'c12_geo_cbse_04_007', 'c12_geo_cbse_04_008', 'c12_geo_cbse_01_001', 'c12_geo_cbse_01_002', 'c12_geo_cbse_01_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Begin by observing your immediate surroundings: note the natural features (trees, slope, soil, temperature).', goal: 'Master Human Settlements.' },
+    scenario: { role: 'a class 12 learner', intro: 'Begin by observing your immediate surroundings: note the natural features (trees, slope, soil, temperature).', goal: 'Master Human Geography vs Physical Geography: Interrelation.' },
     discovery: {
         question: 'Analyze the neo-determinism (stop-and-go determinism) concept using the traffic light analogy.',
         options: ['Neo-determinism: humans can create possibilities (green light) but must respect', 'technology solves everything', 'we are helpless before nature'],
@@ -79,7 +79,7 @@ export const w_c12_geographyhumansettlementssim: SimDef = {
             { text: 'Synthesise and propose improvements — Improvement 1: Mandate in-situ slum rehabilitation with tenure security and.', faded: true, blankAnswer: 'The proposal scores moderate on environment.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_geo_cbse_04_001', title: 'Identify each idea',
-          dissect: { specimen: 'Human Settlements', spots: [
+          dissect: { specimen: 'Human Geography vs Physical Geography: Interrelation', spots: [
             { id: 's1', label: 'Human geography and physical geography', prompt: 'Which idea is this? — Human geography and physical geography are inseparable components of geography that study.', answer: 'Human geography and physical geography', options: ['Human geography and physical geography', 'A human settlement is a', 'A settlement is a human', 'Rural settlements classified by function'] },
             { id: 's2', label: 'A human settlement is a', prompt: 'Which idea is this? — A human settlement is a cluster of dwellings where people live and interact,.', answer: 'A human settlement is a', options: ['A human settlement is a', 'Human geography and physical geography', 'A settlement is a human', 'Rural settlements classified by function'] },
             { id: 's3', label: 'A settlement is a human', prompt: 'Which idea is this? — A settlement is a human community with a defined spatial extent where people live, work,.', answer: 'A settlement is a human', options: ['A settlement is a human', 'Human geography and physical geography', 'A human settlement is a', 'Rural settlements classified by function'] },
@@ -88,7 +88,7 @@ export const w_c12_geographyhumansettlementssim: SimDef = {
             { id: 's6', label: 'Sustainable settlement planning is a', prompt: 'Which idea is this? — Sustainable settlement planning is a holistic approach to designing and managing human.', answer: 'Sustainable settlement planning is a', options: ['Sustainable settlement planning is a', 'Human geography and physical geography', 'A human settlement is a', 'A settlement is a human'] }
           ] } }
     ],
-    explore: { component: C12_GeographyHumanSettlementsSim, prompt: 'Explore the interactive — Human Settlements' },
+    explore: { component: C12_GeographyHumanSettlementsSim, prompt: 'Explore the interactive — Human Geography vs Physical Geography: Interrelation' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_01_003', difficulty: 'standard',
           question: 'Human geography and physical geography are inseparable components of geography.',
@@ -181,8 +181,8 @@ export const w_c12_geographyhumansettlementssim: SimDef = {
                   options: ['Correct answer: (1) All-weather road connectivity', 'lack of hospitals', 'lack of funds'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students think "rural problems are the same everywhere in India — just lack of money." They write generic answers like "villages lack.' },
-                { id: 'b', prompt: 'A village in Bundelkhand (Central India, hard rock terrain) has 1,200 population. It receives 800 mm annual rainfall (June-Sept).', answer: 'Steps: (a) Demand = 1,200 × 70 lpcd = 84,000 litres/day = 84 m³/day',
-                  options: ['Steps: (a) Demand = 1,200 × 70 lpcd = 84,000 litres/day = 84 m³/day', 'rural problems are the same everywhere in India', 'villages lack roads, hospitals, schools'],
+                { id: 'b', prompt: 'A village in Bundelkhand (Central India, hard rock terrain) has 1,200 population. It receives 800 mm annual rainfall (June-Sept).', answer: '(a) Demand = 1,200 × 70 lpcd = 84,000 litres/day = 84 m³/day',
+                  options: ['(a) Demand = 1,200 × 70 lpcd = 84,000 litres/day = 84 m³/day', 'rural problems are the same everywhere in India', 'villages lack roads, hospitals, schools'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students think "rural problems are the same everywhere in India — just lack of money." They write generic answers like "villages lack.' }
           ],

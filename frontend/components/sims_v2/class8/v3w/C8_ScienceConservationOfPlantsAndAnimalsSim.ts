@@ -6,13 +6,13 @@ import C8_ScienceConservationOfPlantsAndAnimalsSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_scienceconservationofplantsandanimalssim: SimDef = {
     id: 'v3w_c8_scienceconservationofplantsandanimalssim',
-    title: 'Conservation Of Plants And Animals',
+    title: 'Human Impact on Ecosystems: Deforestation and Habitat Loss',
     subtitle: 'This node covers the ecological consequences of deforestation: habitat fragmentation,.',
     classLevel: 8, subject: 'science', topic: 'Human Impact on Ecosystems: Deforestation and Habitat Loss',
     chapters: [],
     nodeIds: ['c8_physics_ch8_8', 'c8_physics_ch8_2', 'c8_physics_ch8_9', 'c8_physics_ch8_3', 'c8_physics_ch9_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Begin by showing students a satellite image time-lapse of a familiar Indian forest region (e.g., Corbett.', goal: 'Master Conservation Of Plants And Animals.' },
+    scenario: { role: 'a class 8 learner', intro: 'Begin by showing students a satellite image time-lapse of a familiar Indian forest region (e.g., Corbett.', goal: 'Master Human Impact on Ecosystems: Deforestation and Habitat Loss.' },
     discovery: {
         question: 'A 500 km² forest loses 2% of its area per year due to logging. If this rate continues, calculate the forest area remaining after 5 years.',
         options: ['**Calculation:** Year 1: 500 × 0.98 = 490 km²', 'deforestation only affects the trees cut down', 'animals can just move to another forest'],
@@ -70,7 +70,7 @@ export const w_c8_scienceconservationofplantsandanimalssim: SimDef = {
             { text: 'Verify: percentages sum to 100%. Reasonable.', faded: true, blankAnswer: 'Plants: 37.5%, Animals: 37.5%, Microorganisms: 25%.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_physics_ch8_2', title: 'Identify each idea',
-          dissect: { specimen: 'Conservation Of Plants And Animals', spots: [
+          dissect: { specimen: 'Human Impact on Ecosystems: Deforestation and Habitat Loss', spots: [
             { id: 's1', label: 'Deforestation is the large-scale removal', prompt: 'Which idea is this? — Deforestation is the large-scale removal of trees from forested land for human activities.', answer: 'Deforestation is the large-scale removal', options: ['Deforestation is the large-scale removal', 'An ecosystem is a functional', 'Elephant corridors are designated strips', 'Producers are organisms mainly green'] },
             { id: 's2', label: 'An ecosystem is a functional', prompt: 'Which idea is this? — An ecosystem is a functional unit where living organisms (biotic components) interact.', answer: 'An ecosystem is a functional', options: ['An ecosystem is a functional', 'Deforestation is the large-scale removal', 'Elephant corridors are designated strips', 'Producers are organisms mainly green'] },
             { id: 's3', label: 'Elephant corridors are designated strips', prompt: 'Which idea is this? — Elephant corridors are designated strips of natural habitat that connect fragmented.', answer: 'Elephant corridors are designated strips', options: ['Elephant corridors are designated strips', 'Deforestation is the large-scale removal', 'An ecosystem is a functional', 'Producers are organisms mainly green'] },
@@ -78,7 +78,7 @@ export const w_c8_scienceconservationofplantsandanimalssim: SimDef = {
             { id: 's5', label: 'Biodiversity refers to the variety', prompt: 'Which idea is this? — Biodiversity refers to the variety of life forms on Earth, including plants, animals, and.', answer: 'Biodiversity refers to the variety', options: ['Biodiversity refers to the variety', 'Deforestation is the large-scale removal', 'An ecosystem is a functional', 'Elephant corridors are designated strips'] }
           ] } }
     ],
-    explore: { component: C8_ScienceConservationOfPlantsAndAnimalsSim, prompt: 'Explore the interactive — Conservation Of Plants And Animals' },
+    explore: { component: C8_ScienceConservationOfPlantsAndAnimalsSim, prompt: 'Explore the interactive — Human Impact on Ecosystems: Deforestation and Habitat Loss' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch8_8', difficulty: 'standard',
           question: 'Deforestation is the large-scale removal of trees from forested land for human.',

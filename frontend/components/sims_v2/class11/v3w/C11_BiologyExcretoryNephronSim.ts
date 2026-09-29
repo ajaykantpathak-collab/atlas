@@ -6,13 +6,13 @@ import C11_BiologyExcretoryNephronSim from '../../../simulations/c6_12/C11_Biolo
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologyexcretorynephronsim: SimDef = {
     id: 'v3w_c11_biologyexcretorynephronsim',
-    title: 'Excretory Nephron',
+    title: 'Human Excretory System: Kidney Structure',
     subtitle: 'This node covers the gross and microscopic anatomy of the human kidney and excretory.',
     classLevel: 11, subject: 'biology', topic: 'Human Excretory System: Kidney Structure',
     chapters: [],
     nodeIds: ['c11_bio_cbse_16_001', 'c11_bio_cbse_07_009', 'c11_bio_cbse_16_002', 'c11_bio_cbse_16_004', 'c11_bio_cbse_16_005', 'c11_bio_cbse_16_008', 'c11_bio_cbse_07_005', 'c11_bio_cbse_07_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to place their hands on their lower back, just below the rib cage — this is where.', goal: 'Master Excretory Nephron.' },
+    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to place their hands on their lower back, just below the rib cage — this is where.', goal: 'Master Human Excretory System: Kidney Structure.' },
     discovery: {
         question: 'A patient has a congenital defect where the tight junctions between PCT epithelial cells are "leaky" (abnormally high paracellular permeability).',
         options: ['glucose reabsorption, (', 'The loop of Henle *concentrates* the filtrate throughout its length', 'filtrate gets progressively more concentrated'],
@@ -80,7 +80,7 @@ export const w_c11_biologyexcretorynephronsim: SimDef = {
             { text: 'Conclude that lungs provide rapid (minutes) CO₂/pH control; kidneys provide slow (days) HCO₃⁻ regeneration —.', faded: true, blankAnswer: 'Impaired CO₂ excretion → elevated PₐCO₂ → right-shift of.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_07_009', title: 'Identify each idea',
-          dissect: { specimen: 'Excretory Nephron', spots: [
+          dissect: { specimen: 'Human Excretory System: Kidney Structure', spots: [
             { id: 's1', label: 'The human excretory system consists', prompt: 'Which idea is this? — The human excretory system consists of a pair of bean-shaped kidneys located.', answer: 'The human excretory system consists', options: ['The human excretory system consists', 'The frogs nervous system comprises', 'A nephron is the microscopic', 'Tubular reabsorption is the selective'] },
             { id: 's2', label: 'The frogs nervous system comprises', prompt: 'Which idea is this? — The frog\'s nervous system comprises a central nervous system (brain and spinal cord), a.', answer: 'The frogs nervous system comprises', options: ['The frogs nervous system comprises', 'The human excretory system consists', 'A nephron is the microscopic', 'Tubular reabsorption is the selective'] },
             { id: 's3', label: 'A nephron is the microscopic', prompt: 'Which idea is this? — A nephron is the microscopic structural and functional unit of the kidney, composed of a.', answer: 'A nephron is the microscopic', options: ['A nephron is the microscopic', 'The human excretory system consists', 'The frogs nervous system comprises', 'Tubular reabsorption is the selective'] },
@@ -89,7 +89,7 @@ export const w_c11_biologyexcretorynephronsim: SimDef = {
             { id: 's6', label: 'Accessory excretory organs are non-renal', prompt: 'Which idea is this? — Accessory excretory organs are non-renal structures (lungs, liver, skin) that eliminate.', answer: 'Accessory excretory organs are non-renal', options: ['Accessory excretory organs are non-renal', 'The human excretory system consists', 'The frogs nervous system comprises', 'A nephron is the microscopic'] }
           ] } }
     ],
-    explore: { component: C11_BiologyExcretoryNephronSim, prompt: 'Explore the interactive — Excretory Nephron' },
+    explore: { component: C11_BiologyExcretoryNephronSim, prompt: 'Explore the interactive — Human Excretory System: Kidney Structure' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_16_001', difficulty: 'standard',
           question: 'The human excretory system consists of a pair of bean-shaped kidneys located.',

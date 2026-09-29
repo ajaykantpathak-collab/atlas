@@ -6,13 +6,13 @@ import C6_MathematicsConsolidatingSenseNumbernessSim from '../../../simulations/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_mathematicsconsolidatingsensenumbernesssim: SimDef = {
     id: 'v3w_c6_mathematicsconsolidatingsensenumbernesssim',
-    title: 'Consolidating Sense Numberness',
+    title: 'Problem Solving with Fractions',
     subtitle: 'This node covers basic arithmetic problem solving (addition, subtraction, and.',
     classLevel: 6, subject: 'mathematics', topic: 'Problem Solving with Fractions',
     chapters: [],
     nodeIds: ['c6_math_ch03_038'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you have a 12-litre bucket of water, and you use 2/3 of it to water your garden.', goal: 'Master Consolidating Sense Numberness.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you have a 12-litre bucket of water, and you use 2/3 of it to water your garden.', goal: 'Master Problem Solving with Fractions.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Problem solving with fractions is the.', text: 'Problem solving with fractions is the application of fraction operations—like identifying parts of a whole, comparing sizes, or calculating quantities—to find solutions for real-world situations.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -28,7 +28,7 @@ export const w_c6_mathematicsconsolidatingsensenumbernesssim: SimDef = {
             { text: 'Verify: 2/5 of 40 is 16. Since 3/5 were sold, 2/5 remain.', faded: true, blankAnswer: '16 kg' }
             ] } }
     ],
-    explore: { component: C6_MathematicsConsolidatingSenseNumbernessSim, prompt: 'Explore the interactive — Consolidating Sense Numberness' },
+    explore: { component: C6_MathematicsConsolidatingSenseNumbernessSim, prompt: 'Explore the interactive — Problem Solving with Fractions' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_math_ch03_038', difficulty: 'standard',
           question: 'Problem solving with fractions is the application of fraction operations—like.',

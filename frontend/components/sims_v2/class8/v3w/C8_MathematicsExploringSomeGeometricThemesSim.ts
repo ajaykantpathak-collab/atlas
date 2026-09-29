@@ -6,13 +6,13 @@ import C8_MathematicsExploringSomeGeometricThemesSim from '../../../simulations/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicsexploringsomegeometricthemessim: SimDef = {
     id: 'v3w_c8_mathematicsexploringsomegeometricthemessim',
-    title: 'Exploring Some Geometric Themes',
+    title: 'Placing Plus and Minus Signs Between Four Consecutive Numbers',
     subtitle: 'This node covers the exploration of sign patterns between exactly four consecutive.',
     classLevel: 8, subject: 'mathematics', topic: 'Placing Plus and Minus Signs Between Four Consecutive Numbers',
     chapters: [],
     nodeIds: ['c8_math_ch5_6'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you have four consecutive locker numbers: 12, 13, 14, 15.', goal: 'Master Exploring Some Geometric Themes.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you have four consecutive locker numbers: 12, 13, 14, 15.', goal: 'Master Placing Plus and Minus Signs Between Four Consecutive Numbers.' },
     discovery: {
         question: 'For the four consecutive numbers 5, 6, 7, 8, how many different expressions can be formed by placing + or - signs in the three gaps between them?',
         options: ['Answer: 8 expressions', 'negative first number', 'there are 4 gaps instead of 3'],
@@ -33,7 +33,7 @@ export const w_c8_mathematicsexploringsomegeometricthemessim: SimDef = {
             { text: 'Verify parity using algebraic reasoning: each expression = 7(1+s₁+s₂+s₃) + (s₁+2s₂+3s₃).', faded: true, blankAnswer: 'The 8 values are -10, -4, -2, 0, 14, 16, 18, 34. All are.' }
             ] } }
     ],
-    explore: { component: C8_MathematicsExploringSomeGeometricThemesSim, prompt: 'Explore the interactive — Exploring Some Geometric Themes' },
+    explore: { component: C8_MathematicsExploringSomeGeometricThemesSim, prompt: 'Explore the interactive — Placing Plus and Minus Signs Between Four Consecutive Numbers' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch5_6', difficulty: 'standard',
           question: 'Given four consecutive integers \\(n, n+1, n+2, n+3\\), placing plus or minus.',

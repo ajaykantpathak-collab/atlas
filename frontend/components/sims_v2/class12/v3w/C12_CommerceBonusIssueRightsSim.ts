@@ -6,13 +6,13 @@ import C12_CommerceBonusIssueRightsSim from '../../../simulations/c6_12/C12_Comm
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_commercebonusissuerightssim: SimDef = {
     id: 'v3w_c12_commercebonusissuerightssim',
-    title: 'Bonus Issue Rights',
+    title: 'Capital Market: Meaning and Components (Primary and Secondary Market)',
     subtitle: 'This node covers: meaning of capital market, its two components (primary and secondary.',
     classLevel: 12, subject: 'business_studies', topic: 'Capital Market: Meaning and Components (Primary and Secondary Market)',
     chapters: [],
     nodeIds: ['c12_bs_cbse_10_003', 'c12_bs_cbse_10_004', 'c12_bs_cbse_10_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a fast-growing Indian EV startup needs ₹500 crore to build a new battery plant — it cannot borrow.', goal: 'Master Bonus Issue Rights.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a fast-growing Indian EV startup needs ₹500 crore to build a new battery plant — it cannot borrow.', goal: 'Master Capital Market: Meaning and Components (Primary and Secondary Market).' },
     discovery: {
         question: 'A company issues bonus shares to existing shareholders. Is this a primary market or secondary market transaction? Justify your answer in two sentences.',
         options: ['Bonus issue is a **primary market** transaction', 'secondary market', 'primary'],
@@ -53,13 +53,13 @@ export const w_c12_commercebonusissuerightssim: SimDef = {
             { text: 'Timeline: Typically 15-21 days from DRF submission to credit. Once credited, shares are available for trading on T day,.', faded: true, blankAnswer: 'Process completed in 6 steps over 15-21 days; shares.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bs_cbse_10_004', title: 'Identify each idea',
-          dissect: { specimen: 'Bonus Issue Rights', spots: [
+          dissect: { specimen: 'Capital Market: Meaning and Components (Primary and Secondary Market)', spots: [
             { id: 's1', label: 'Capital Market refers to the', prompt: 'Which idea is this? — Capital Market refers to the institutional arrangement for borrowing and lending.', answer: 'Capital Market refers to the', options: ['Capital Market refers to the', 'The primary market is the', 'A depository system is an'] },
             { id: 's2', label: 'The primary market is the', prompt: 'Which idea is this? — The primary market is the segment of the capital market where new securities (equity.', answer: 'The primary market is the', options: ['The primary market is the', 'Capital Market refers to the', 'A depository system is an'] },
             { id: 's3', label: 'A depository system is an', prompt: 'Which idea is this? — A depository system is an electronic infrastructure that holds securities (shares, bonds,.', answer: 'A depository system is an', options: ['A depository system is an', 'Capital Market refers to the', 'The primary market is the'] }
           ] } }
     ],
-    explore: { component: C12_CommerceBonusIssueRightsSim, prompt: 'Explore the interactive — Bonus Issue Rights' },
+    explore: { component: C12_CommerceBonusIssueRightsSim, prompt: 'Explore the interactive — Capital Market: Meaning and Components (Primary and Secondary Market)' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bs_cbse_10_003', difficulty: 'standard',
           question: 'Capital Market refers to the institutional arrangement for borrowing and.',

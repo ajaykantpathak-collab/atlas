@@ -85,6 +85,10 @@ export const c7_geo_ch03_p1: SimDef = {
                 { id: 'a', prompt: 'Which Indian season is generally associated with the months of March to May, characterized by very high temperatures and low pressure over the northern plains?', answer: 'Summer (or Pre-Monsoon / Hot Weather Season)',
                   options: ['Summer (or Pre-Monsoon / Hot Weather Season)', 'Winter', 'Monsoon'],
                   hint: 'Review c7_geo_ch03_001 to understand how long-term climatic patterns govern annual temperature.',
+                  misconception: 'Students often think that India only has three seasons (Summer, Winter, and Monsoon) because those are the most dramatic, completely.' },
+                { id: 'b', prompt: 'A farmer in central India is planning to harvest rabi crops and prepare fields while experiencing pleasant, moderately warm days and cooling nights.', answer: 'Identify the months (February to March)',
+                  options: ['Identify the months (February to March)', 'Autumn'],
+                  hint: 'Review c7_geo_ch03_001 to understand how long-term climatic patterns govern annual temperature.',
                   misconception: 'Students often think that India only has three seasons (Summer, Winter, and Monsoon) because those are the most dramatic, completely.' }
           ],
             remediations: { 'india-only-has-three-seasons': { steps: ['Label the heavy monsoon months (June to September).', 'Mark the cold winter months (December to February).', 'Insert the peak summer months (April to May).', 'Highlight the two vital transition periods—Spring (March) and Autumn/Post-Monsoon (October to November)—noting how.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },

@@ -6,13 +6,13 @@ import C7_MathematicsLargeNumbersAroundUsSim from '../../../simulations/c6_12/C7
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicslargenumbersaroundussim: SimDef = {
     id: 'v3w_c7_mathematicslargenumbersaroundussim',
-    title: 'Large Numbers Around Us',
+    title: 'Place Value System: Extending to 6 and 7 Digits',
     subtitle: 'Covers 6-digit (lakhs) and 7-digit (ten lakhs) whole numbers within the Indian numeration.',
     classLevel: 7, subject: 'mathematics', topic: 'Place Value System: Extending to 6 and 7 Digits',
     chapters: [],
     nodeIds: ['c7_math_ch01_002', 'c7_math_ch01_003', 'c7_math_ch01_004', 'c7_math_ch01_005', 'c7_math_ch01_006', 'c7_math_ch01_008', 'c7_math_ch01_009', 'c7_math_ch01_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine the ticket collector at a busy railway station in Mumbai announces that 4,52,389 passengers traveled.', goal: 'Master Large Numbers Around Us.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine the ticket collector at a busy railway station in Mumbai announces that 4,52,389 passengers traveled.', goal: 'Master Place Value System: Extending to 6 and 7 Digits.' },
     discovery: {
         question: 'Explain why the digit \'5\' has a different value in the number 5,23,456 depending on which position it occupies.',
         options: ['The first \'5\' is in the Lakhs place, meaning it represents $5 \\times 1,00,000 =', 'face value', 'place value'],
@@ -78,7 +78,7 @@ export const w_c7_mathematicslargenumbersaroundussim: SimDef = {
             { text: 'Perform the subtraction: $111110000 - 00011111 = 111098889$ (Wait: let\'s recalculate accurately: $111110000 - 11111 =.', faded: true, blankAnswer: '₹110998889' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch01_003', title: 'Identify each idea',
-          dissect: { specimen: 'Large Numbers Around Us', spots: [
+          dissect: { specimen: 'Place Value System: Extending to 6 and 7 Digits', spots: [
             { id: 's1', label: 'The place value system extends', prompt: 'Which idea is this? — The place value system extends to 6-digit (lakhs) and 7-digit (ten lakhs) numbers in the.', answer: 'The place value system extends', options: ['The place value system extends', 'Reading and writing large numbers', 'A crore is an 8-digit', 'Comparing and ordering large numbers'] },
             { id: 's2', label: 'Reading and writing large numbers', prompt: 'Which idea is this? — Reading and writing large numbers in the Indian numbering system involves grouping digits.', answer: 'Reading and writing large numbers', options: ['Reading and writing large numbers', 'The place value system extends', 'A crore is an 8-digit', 'Comparing and ordering large numbers'] },
             { id: 's3', label: 'A crore is an 8-digit', prompt: 'Which idea is this? — A crore is an 8-digit number in the Indian numbering system equal to 100 lakhs or ten.', answer: 'A crore is an 8-digit', options: ['A crore is an 8-digit', 'The place value system extends', 'Reading and writing large numbers', 'Comparing and ordering large numbers'] },
@@ -87,7 +87,7 @@ export const w_c7_mathematicslargenumbersaroundussim: SimDef = {
             { id: 's6', label: 'Patterns in products involve discovering', prompt: 'Which idea is this? — Patterns in products involve discovering, analyzing, and generalizing regularities or.', answer: 'Patterns in products involve discovering', options: ['Patterns in products involve discovering', 'The place value system extends', 'Reading and writing large numbers', 'A crore is an 8-digit'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsLargeNumbersAroundUsSim, prompt: 'Explore the interactive — Large Numbers Around Us' },
+    explore: { component: C7_MathematicsLargeNumbersAroundUsSim, prompt: 'Explore the interactive — Place Value System: Extending to 6 and 7 Digits' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch01_002', difficulty: 'standard',
           question: 'The place value system extends to 6-digit (lakhs) and 7-digit (ten lakhs).',

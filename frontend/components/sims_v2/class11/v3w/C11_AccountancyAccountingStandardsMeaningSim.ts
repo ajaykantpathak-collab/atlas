@@ -6,13 +6,13 @@ import C11_AccountancyAccountingStandardsMeaningSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_accountancyaccountingstandardsmeaningsim: SimDef = {
     id: 'v3w_c11_accountancyaccountingstandardsmeaningsim',
-    title: 'Accounting Standards Meaning',
+    title: 'Financial Statements: Meaning and Objectives',
     subtitle: 'This node covers the meaning, objectives, and user groups of financial statements; the.',
     classLevel: 11, subject: 'accountancy', topic: 'Financial Statements: Meaning and Objectives',
     chapters: [],
     nodeIds: ['c11_acc_cbse_08_001', 'c11_acc_cbse_01_003', 'c11_acc_cbse_01_006', 'c11_acc_cbse_01_007', 'c11_acc_cbse_01_001', 'c11_acc_cbse_08_002', 'c11_acc_cbse_08_004', 'c11_acc_cbse_08_006', 'c11_acc_cbse_02_001', 'c11_acc_cbse_02_005', 'c11_acc_cbse_02_007', 'c11_acc_cbse_02_008', 'c11_acc_cbse_02_011', 'c11_acc_cbse_02_002', 'c11_acc_cbse_09_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you run a small bakery in Delhi. At year-end, your father asks "Did we make money?" your bank manager.', goal: 'Master Accounting Standards Meaning.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you run a small bakery in Delhi. At year-end, your father asks "Did we make money?" your bank manager.', goal: 'Master Financial Statements: Meaning and Objectives.' },
     discovery: {
         question: 'A student says: "Capital expenditure is any large amount spent; revenue expenditure is any small amount spent." Using the NCERT criteria (benefit period,.',
         options: ['The statement is incorrect', 'Capital Expenditure = Purchase of Fixed Assets only', 'Revenue Expenditure = All other expenses'],
@@ -83,7 +83,7 @@ export const w_c11_accountancyaccountingstandardsmeaningsim: SimDef = {
             { text: 'Draft Trading Account with proper format: Dr side — Opening Stock, Purchases (less returns), Direct Expenses; Cr side —.', faded: true, blankAnswer: 'Gross Profit = ₹2,34,000' }
             ] } },
         { type: 'dissect', nodeId: 'c11_acc_cbse_01_003', title: 'Identify each idea',
-          dissect: { specimen: 'Accounting Standards Meaning', spots: [
+          dissect: { specimen: 'Financial Statements: Meaning and Objectives', spots: [
             { id: 's1', label: 'Financial statements are formal structured', prompt: 'Which idea is this? — Financial statements are formal, structured reports prepared at the end of an accounting.', answer: 'Financial statements are formal structured', options: ['Financial statements are formal structured', 'The evolution of accounting refers', 'Accounting has evolved into three', 'Accounting serves as the language'] },
             { id: 's2', label: 'The evolution of accounting refers', prompt: 'Which idea is this? — The evolution of accounting refers to the chronological development of accounting.', answer: 'The evolution of accounting refers', options: ['The evolution of accounting refers', 'Financial statements are formal structured', 'Accounting has evolved into three', 'Accounting serves as the language'] },
             { id: 's3', label: 'Accounting has evolved into three', prompt: 'Which idea is this? — Accounting has evolved into three specialised branches—Financial Accounting, Cost.', answer: 'Accounting has evolved into three', options: ['Accounting has evolved into three', 'Financial statements are formal structured', 'The evolution of accounting refers', 'Accounting serves as the language'] },
@@ -92,7 +92,7 @@ export const w_c11_accountancyaccountingstandardsmeaningsim: SimDef = {
             { id: 's6', label: 'A Trading Account is a', prompt: 'Which idea is this? — A Trading Account is a nominal account prepared to determine the gross profit or gross.', answer: 'A Trading Account is a', options: ['A Trading Account is a', 'Financial statements are formal structured', 'The evolution of accounting refers', 'Accounting has evolved into three'] }
           ] } }
     ],
-    explore: { component: C11_AccountancyAccountingStandardsMeaningSim, prompt: 'Explore the interactive — Accounting Standards Meaning' },
+    explore: { component: C11_AccountancyAccountingStandardsMeaningSim, prompt: 'Explore the interactive — Financial Statements: Meaning and Objectives' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_acc_cbse_08_001', difficulty: 'standard',
           question: 'Financial statements are formal, structured reports prepared at the end of an.',

@@ -9,15 +9,13 @@ import type { SimDef } from '../engine/types';
 export const C12_HIN_A_GEN: SimDef[] = [
  {
   "id": "gen_c12_hin_a_ch01",
-  "title": "\"Before You Read",
+  "title": "देवसेना का गीत, कार्नेलयिा का गीत — कवि परिचय",
   "subtitle": "Hindi · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch1: \"Before You Read"
-  ],
+  "topic": "देवसेना का गीत, कार्नेलयिा का गीत — कवि परिचय",
+  "chapters": ["Hindi Ch1: देवसेना का गीत, कार्नेलयिा का गीत — कवि परिचय"],
   "nodeIds": [
    "c12_hin_a_cbse_01_001",
    "c12_hin_a_cbse_01_002",
@@ -42,7 +40,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does \"Before You Read actually explain?",
+   "question": "In one line -- what does देवसेना का गीत, कार्नेलयिा का गीत actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -53,7 +51,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" refers to the preparatory step of understanding the author's life, historical period, social milieu, literary movement, and key themes before engaging with a literary text.",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
@@ -71,7 +69,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist In",
+    "title": "'नसोल्सुक का छर' का पात्र-चित्रण",
     "text": "Character analysis of the protagonist in poetry involves examining the speaker's personality, emotions, motivations, and development through their words, imagery, and tone, to understand their role in conveying the poem's central theme.",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
@@ -706,25 +704,23 @@ export const C12_HIN_A_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about देवसेना का गीत, कार्नेलयिा का गीत — कवि परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "देवसेना का गीत, कार्नेलयिा का mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_a_ch02",
-  "title": "\"Before You Read",
+  "title": "सरोज स्मृति — कवि परिचय और पृष्ठभूमि",
   "subtitle": "Hindi · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch2: \"Before You Read"
-  ],
+  "topic": "सरोज स्मृति — कवि परिचय और पृष्ठभूमि",
+  "chapters": ["Hindi Ch2: सरोज स्मृति — कवि परिचय और पृष्ठभूमि"],
   "nodeIds": [
    "c12_hin_a_cbse_02_001",
    "c12_hin_a_cbse_02_002",
@@ -749,7 +745,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does \"Before You Read actually explain?",
+   "question": "In one line -- what does सरोज स्मृति — कवि परिचय और actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -760,7 +756,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" is a preparatory section that provides essential biographical, historical, and literary information about the author (फुज्क्यक/निराला) and the socio-cultural milieu of the chapter, enabling students to situate the",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1476,25 +1472,23 @@ export const C12_HIN_A_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about सरोज स्मृति — कवि परिचय और पृष्ठभूमि?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "सरोज स्मृति — कवि परिचय और mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_a_ch03",
-  "title": "\"Before You Read",
+  "title": "यह दीप अकेला, मैंने देखा एक बूँद — कवि परिचय और",
   "subtitle": "Hindi · Chapter 3",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch3: \"Before You Read"
-  ],
+  "topic": "यह दीप अकेला, मैंने देखा एक बूँद — कवि परिचय और",
+  "chapters": ["Hindi Ch3: यह दीप अकेला, मैंने देखा एक बूँद — कवि परिचय और"],
   "nodeIds": [
    "c12_hin_a_cbse_03_001",
    "c12_hin_a_cbse_03_002",
@@ -1519,7 +1513,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses \"Before You Read in real working life?",
+   "question": "Who uses यह दीप अकेला, मैंने देखा एक बूँद in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -1530,7 +1524,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" is a preparatory literary skill where students systematically gather and organize biographical, historical, cultural, and literary-movement information about an author and their work before engaging with the text,",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1548,7 +1542,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist In",
+    "title": "'मैंने देखा, एक चाँद' का पात्र-चित्रण",
     "text": "Character analysis of the protagonist in poetry involves examining the poetic persona (speaker) and the central human subjects portrayed — their traits, emotions, conflicts, and symbolic significance — through close reading of imagery, tone, diction, and",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2338,25 +2332,23 @@ export const C12_HIN_A_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about यह दीप अकेला, मैंने देखा एक बूँद — कवि परिचय और?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "यह दीप अकेला, मैंने देखा एक mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_a_ch04",
-  "title": "\"Before You Read",
+  "title": "बनारस, दशिा — कवि परिचय और पृष्ठभूमि",
   "subtitle": "Hindi · Chapter 4",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch4: \"Before You Read"
-  ],
+  "topic": "बनारस, दशिा — कवि परिचय और पृष्ठभूमि",
+  "chapters": ["Hindi Ch4: बनारस, दशिा — कवि परिचय और पृष्ठभूमि"],
   "nodeIds": [
    "c12_hin_a_cbse_04_001",
    "c12_hin_a_cbse_04_002",
@@ -2381,7 +2373,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is \"Before You Read more about facts, or about reasoning?",
+   "question": "Is बनारस, दशिा — कवि परिचय और more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -2392,7 +2384,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" is the preparatory step where students systematically gather information about the poet, the literary movement, the historical era, and the significance of the title *before* engaging with the poem's text, creating a",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2410,7 +2402,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of a Protagonist In",
+    "title": "'अंतरा भाग-2 — पाठ 4' का",
     "text": "Character analysis of a protagonist in poetry involves identifying the central figure (which may be a person, personified object, or abstract entity), examining how the poet constructs its identity through imagery, action, speech, and interaction with other",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3159,11 +3151,11 @@ export const C12_HIN_A_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about बनारस, दशिा — कवि परिचय और पृष्ठभूमि?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "बनारस, दशिा — कवि परिचय और mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -3855,15 +3847,13 @@ export const C12_HIN_A_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_hin_a_ch06",
-  "title": "\"Before You Read",
+  "title": "तुलसीदास — कवि परिचय और पृष्ठभूमि",
   "subtitle": "Hindi · Chapter 6",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch6: \"Before You Read"
-  ],
+  "topic": "तुलसीदास — कवि परिचय और पृष्ठभूमि",
+  "chapters": ["Hindi Ch6: तुलसीदास — कवि परिचय और पृष्ठभूमि"],
   "nodeIds": [
    "c12_hin_a_cbse_06_001",
    "c12_hin_a_cbse_06_002",
@@ -3888,7 +3878,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see \"Before You Read directly with your eyes?",
+   "question": "Can you see तुलसीदास — कवि परिचय और पृष्ठभूमि directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -3899,7 +3889,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "The \"Before You Read: Context and Background\" section provides essential historical, cultural, and literary information about the poet Raskhan (रसखान), his life, the Bhakti movement context, and the specific works included in this chapter, enabling students",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4749,25 +4739,23 @@ export const C12_HIN_A_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about तुलसीदास — कवि परिचय और पृष्ठभूमि?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "तुलसीदास — कवि परिचय और mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_a_ch07",
-  "title": "\"Before You Read",
+  "title": "बारहमासा — कवि परिचय और पृष्ठभूमि",
   "subtitle": "Hindi · Chapter 7",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch7: \"Before You Read"
-  ],
+  "topic": "बारहमासा — कवि परिचय और पृष्ठभूमि",
+  "chapters": ["Hindi Ch7: बारहमासा — कवि परिचय और पृष्ठभूमि"],
   "nodeIds": [
    "c12_hin_a_cbse_07_001",
    "c12_hin_a_cbse_07_002",
@@ -4792,7 +4780,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet \"Before You Read outside the classroom?",
+   "question": "Quick guess -- where do you meet बारहमासा — कवि परिचय और पृष्ठभूमि outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -4803,7 +4791,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" is a preparatory step where students gather essential information about the poet (Sant Eknath), the literary tradition (Abhang/Varkari Sampradaya), the historical period (15th-16th century Maharashtra), and the",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4821,7 +4809,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist In",
+    "title": "'कंजकली' का पात्र-चित्रण — मुख्य पात्र",
     "text": "Character analysis of the protagonist in Bihari's *ckjgeklk* involves examining the nayika (heroine) through her emotional states, actions, speech, and the poet's descriptive imagery across the poem's seasonal settings, revealing her as the embodiment of",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -5382,11 +5370,11 @@ export const C12_HIN_A_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about बारहमासा — कवि परिचय और पृष्ठभूमि?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "बारहमासा — कवि परिचय और mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -5454,7 +5442,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist In",
+    "title": "'अंतरा भाग-2 — पाठ 8' का",
     "text": "Character analysis of the protagonist in poetry involves systematically examining the poetic persona's emotions, motivations, inner conflicts, and spiritual journey as revealed through the speaker's own words, the imagery associated with them, and the",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
@@ -6147,15 +6135,13 @@ export const C12_HIN_A_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_hin_a_ch09",
-  "title": "\"Before You Read",
+  "title": "घनानंद — कवि परिचय और पृष्ठभूमि",
   "subtitle": "Hindi · Chapter 9",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch9: \"Before You Read"
-  ],
+  "topic": "घनानंद — कवि परिचय और पृष्ठभूमि",
+  "chapters": ["Hindi Ch9: घनानंद — कवि परिचय और पृष्ठभूमि"],
   "nodeIds": [
    "c12_hin_a_cbse_09_001",
    "c12_hin_a_cbse_09_002",
@@ -6180,7 +6166,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see \"Before You Read directly with your eyes?",
+   "question": "Can you see घनानंद — कवि परिचय और पृष्ठभूमि directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -6191,7 +6177,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" provides the essential historical, biographical, and literary framework needed to understand the poet ?",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -6209,7 +6195,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist In",
+    "title": "'अंतरा भाग-2 — पाठ 9' का",
     "text": "Character analysis of the protagonist in poetry involves examining the poetic persona (the speaker) — their emotions, motivations, conflicts, and growth — through close reading of their words, imagery, tone, and structural choices in the poem.",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -6968,25 +6954,23 @@ export const C12_HIN_A_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about घनानंद — कवि परिचय और पृष्ठभूमि?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "घनानंद — कवि परिचय और mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_a_ch10",
-  "title": "\"Before You Read",
+  "title": "प्रेमघन की छाया-स्मृति — पृष्ठभूमि और रचनाकार",
   "subtitle": "Hindi · Chapter 10",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch10: \"Before You Read"
-  ],
+  "topic": "प्रेमघन की छाया-स्मृति — पृष्ठभूमि और रचनाकार",
+  "chapters": ["Hindi Ch10: प्रेमघन की छाया-स्मृति — पृष्ठभूमि और रचनाकार"],
   "nodeIds": [
    "c12_hin_a_cbse_10_001",
    "c12_hin_a_cbse_10_002",
@@ -7011,7 +6995,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does \"Before You Read actually explain?",
+   "question": "In one line -- what does प्रेमघन की छाया-स्मृति — actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -7022,7 +7006,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" is a preparatory literary skill where students systematically gather and organize information about the author's life, the historical-social milieu, the literary movement, and the text's genesis to build a mental",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
@@ -7997,25 +7981,23 @@ export const C12_HIN_A_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about प्रेमघन की छाया-स्मृति — पृष्ठभूमि और रचनाकार?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "प्रेमघन की छाया-स्मृति — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_a_ch11",
-  "title": "\"Before You Read",
+  "title": "सुमरिनिी के मनके — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 11",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch11: \"Before You Read"
-  ],
+  "topic": "सुमरिनिी के मनके — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch11: सुमरिनिी के मनके — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c12_hin_a_cbse_11_001",
    "c12_hin_a_cbse_11_002",
@@ -8040,7 +8022,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does \"Before You Read actually explain?",
+   "question": "In one line -- what does सुमरिनिी के मनके — पृष्ठभूमि और actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -8051,7 +8033,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" is a pre-reading section that provides essential biographical, historical, and literary information about the author (Premchand) and his works to prepare students for deeper textual analysis of the three stories —",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
@@ -8651,25 +8633,23 @@ export const C12_HIN_A_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about सुमरिनिी के मनके — पृष्ठभूमि और रचनाकार परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "सुमरिनिी के मनके — पृष्ठभूमि mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_a_ch12",
-  "title": "\"Before You Read",
+  "title": "संवदयिा — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 12",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch12: \"Before You Read"
-  ],
+  "topic": "संवदयिा — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch12: संवदयिा — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c12_hin_a_cbse_12_001",
    "c12_hin_a_cbse_12_002",
@@ -8694,7 +8674,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see \"Before You Read directly with your eyes?",
+   "question": "Can you see संवदयिा — पृष्ठभूमि और रचनाकार directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -8705,13 +8685,13 @@ export const C12_HIN_A_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" is a pre-reading section that provides essential information about the author's life, the historical and social setting of the story, and key thematic concerns to prepare students for deeper textual analysis and",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Plot And Narrative Structure Refer To",
+    "title": "'अंतरा भाग-2 — पाठ 12' का",
     "text": "Plot and narrative structure refer to the sequence of events in a story and the technique used to present them, including exposition, rising action, climax, falling action, and resolution, as well as devices like flashback, dialogue, and point of view.",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -9451,25 +9431,23 @@ export const C12_HIN_A_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about संवदयिा — पृष्ठभूमि और रचनाकार परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "संवदयिा — पृष्ठभूमि और mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_a_ch13",
-  "title": "\"Before You Read",
+  "title": "गांधी, नेहरू और यासरि अराफ़ात — पृष्ठभूमि और",
   "subtitle": "Hindi · Chapter 13",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch13: \"Before You Read"
-  ],
+  "topic": "गांधी, नेहरू और यासरि अराफ़ात — पृष्ठभूमि और",
+  "chapters": ["Hindi Ch13: गांधी, नेहरू और यासरि अराफ़ात — पृष्ठभूमि और"],
   "nodeIds": [
    "c12_hin_a_cbse_13_001",
    "c12_hin_a_cbse_13_002",
@@ -9494,7 +9472,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet \"Before You Read outside the classroom?",
+   "question": "Quick guess -- where do you meet गांधी, नेहरू और यासरि अराफ़ात — outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -9505,7 +9483,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" provides essential historical, biographical, and literary context for Chapter 13 \"Hkh'e lkguh\" — a memoir by Hkh'e lkguh (1915–2003) recounting personal encounters with freedom fighters like Sakharam, Usha, and",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
@@ -10282,11 +10260,11 @@ export const C12_HIN_A_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about गांधी, नेहरू और यासरि अराफ़ात — पृष्ठभूमि और?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "गांधी, नेहरू और यासरि अराफ़ात mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -10348,7 +10326,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Setting And Atmosphere Refer To The",
+    "title": "'अंतरा भाग-2 — पाठ 14' का",
     "text": "Setting and atmosphere refer to the time, place, physical environment, and emotional mood created by the author through descriptive details, sensory imagery, and narrative tone to establish the context in which characters act and themes unfold.",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
@@ -10402,7 +10380,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Literal Comprehension Questions Ask For",
+    "title": "'अंतरा भाग-2 — पाठ 14' के",
     "text": "Literal comprehension questions ask for information explicitly stated in the text (facts, details, sequence, vocabulary meaning). Inferential comprehension questions require the reader to draw logical conclusions, interpret implied meanings, or understand",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
@@ -10946,15 +10924,13 @@ export const C12_HIN_A_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_hin_a_ch15",
-  "title": "\"Before You Read",
+  "title": "जहाँ कोई वापसी नहीं — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 15",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch15: \"Before You Read"
-  ],
+  "topic": "जहाँ कोई वापसी नहीं — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch15: जहाँ कोई वापसी नहीं — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c12_hin_a_cbse_15_001",
    "c12_hin_a_cbse_15_002",
@@ -10979,7 +10955,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet \"Before You Read outside the classroom?",
+   "question": "Quick guess -- where do you meet जहाँ कोई वापसी नहीं — पृष्ठभूमि outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -10990,7 +10966,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" is a preparatory section that provides essential information about the author (Phanishwar Nath Renu), the historical-social milieu of the story \"टेढ़ी लकीर\" (The Crooked Line), and the central conflict between",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -11765,25 +11741,23 @@ export const C12_HIN_A_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about जहाँ कोई वापसी नहीं — पृष्ठभूमि और रचनाकार परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "जहाँ कोई वापसी नहीं — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_a_ch16",
-  "title": "\"Before You Read",
+  "title": "दूसरा देवदास — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 16",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch16: \"Before You Read"
-  ],
+  "topic": "दूसरा देवदास — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch16: दूसरा देवदास — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c12_hin_a_cbse_16_001",
    "c12_hin_a_cbse_16_002",
@@ -11808,7 +11782,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does \"Before You Read actually explain?",
+   "question": "In one line -- what does दूसरा देवदास — पृष्ठभूमि और actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -11819,7 +11793,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" is a preparatory literary skill that equips students to situate a prose text within its author's life, historical period, socio-cultural milieu, and literary movement before engaging with the narrative, enabling",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
@@ -11897,7 +11871,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter \"नवल",
+    "title": "'नवलक नसोंनक़ल' पर पाठ-आधारित लेखन",
     "text": "Writing Skills based on the chapter \"नवल निरंकुश\" (or the story by निर्मल वर्मा) refers to the ability to compose structured, evidence-based responses — such as character sketches, thematic analyses, critical appreciations, and creative extensions — that",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -12440,25 +12414,23 @@ export const C12_HIN_A_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about दूसरा देवदास — पृष्ठभूमि और रचनाकार परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "दूसरा देवदास — पृष्ठभूमि और mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_a_ch17",
-  "title": "\"Before You Read",
+  "title": "कुटज — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 17",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch17: \"Before You Read"
-  ],
+  "topic": "कुटज — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch17: कुटज — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c12_hin_a_cbse_17_001",
    "c12_hin_a_cbse_17_002",
@@ -12483,7 +12455,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses \"Before You Read in real working life?",
+   "question": "Who uses कुटज — पृष्ठभूमि और रचनाकार परिचय in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -12494,7 +12466,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "The \"Before You Read: Context and Background\" section provides essential historical, biographical, and literary context for Chapter 17 \"Hkkjrh; f'k{kk\" (Indian Education) and its central text \"oqQVt\" (Aangan) by Pt.",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -12512,7 +12484,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist In An",
+    "title": "'अंतरा भाग-2 — पाठ 17' का",
     "text": "Character analysis of the protagonist in an essay refers to examining the author's persona — the narrative voice, philosophical stance, values, and worldview that emerge through their reflections, anecdotes, and arguments.",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -12572,7 +12544,7 @@ export const C12_HIN_A_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Writing Skills Based On The",
+    "title": "'अंतरा भाग-2 — पाठ 17' पर",
     "text": "Writing Skills based on the chapter \"Hkkjrh; f'k{kk\" (Indian Education) by Gajanan Madhav Muktibodh refers to the ability to compose structured, evidence-based analytical responses — including thematic essays, character sketches, critical appreciations, and",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -13324,11 +13296,11 @@ export const C12_HIN_A_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about कुटज — पृष्ठभूमि और रचनाकार परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "कुटज — पृष्ठभूमि और रचनाकार mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

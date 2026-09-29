@@ -6,13 +6,13 @@ import C12_EcoConsumerBehaviourCBSESim from '../../../simulations/c6_12_new/C12_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_ecoconsumerbehaviourcbsesim: SimDef = {
     id: 'v3w_c12_ecoconsumerbehaviourcbsesim',
-    title: 'Consumer Behaviour CBSE',
+    title: 'Relationship Between MPC and MPS',
     subtitle: 'This node covers the algebraic derivation and economic interpretation of MPC + MPS = 1,.',
     classLevel: 12, subject: 'economics', topic: 'Relationship Between MPC and MPS',
     chapters: [],
     nodeIds: ['c12_eco_cbse_10_004', 'c12_eco_cbse_01_006', 'c12_eco_cbse_01_004', 'c12_eco_cbse_07_001', 'c12_eco_cbse_07_002', 'c12_eco_cbse_03_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a farmer in Punjab receives an unexpected ₹10,000 bonus from a bumper wheat harvest.', goal: 'Master Consumer Behaviour CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a farmer in Punjab receives an unexpected ₹10,000 bonus from a bumper wheat harvest.', goal: 'Master Relationship Between MPC and MPS.' },
     discovery: {
         question: 'Explain why the Great Depression of 1929 led to the birth of macroeconomics as a separate branch of economics.',
         options: ['The Great Depression showed that the classical belief', 'because the stock market crashed', 'the distinction between micro and macro is merely about "small vs'],
@@ -79,7 +79,7 @@ export const w_c12_ecoconsumerbehaviourcbsesim: SimDef = {
             { text: 'Interpret economically: Stage I — increasing returns to labour; Stage II — diminishing but positive returns (rational.', faded: true, blankAnswer: 'MP: 8, 12, 16, 12, 7, 3, 0, -2. AP: 8, 10, 12, 12, 11,.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_eco_cbse_01_006', title: 'Identify each idea',
-          dissect: { specimen: 'Consumer Behaviour CBSE', spots: [
+          dissect: { specimen: 'Relationship Between MPC and MPS', spots: [
             { id: 's1', label: 'The relationship between Marginal Propensity', prompt: 'Which idea is this? — The relationship between Marginal Propensity to Consume (MPC) and Marginal Propensity to.', answer: 'The relationship between Marginal Propensity', options: ['The relationship between Marginal Propensity', 'Microeconomics studies the behaviour of', 'Opportunity cost is the value', 'Macroeconomics is the branch of'] },
             { id: 's2', label: 'Microeconomics studies the behaviour of', prompt: 'Which idea is this? — Microeconomics studies the behaviour of individual economic agents — households and firms.', answer: 'Microeconomics studies the behaviour of', options: ['Microeconomics studies the behaviour of', 'The relationship between Marginal Propensity', 'Opportunity cost is the value', 'Macroeconomics is the branch of'] },
             { id: 's3', label: 'Opportunity cost is the value', prompt: 'Which idea is this? — Opportunity cost is the value of the next best alternative forgone when a choice is made;.', answer: 'Opportunity cost is the value', options: ['Opportunity cost is the value', 'The relationship between Marginal Propensity', 'Microeconomics studies the behaviour of', 'Macroeconomics is the branch of'] },
@@ -87,7 +87,7 @@ export const w_c12_ecoconsumerbehaviourcbsesim: SimDef = {
             { id: 's5', label: 'Total Product TP is the', prompt: 'Which idea is this? — Total Product (TP) is the total output produced by a firm using a given quantity of.', answer: 'Total Product TP is the', options: ['Total Product TP is the', 'The relationship between Marginal Propensity', 'Microeconomics studies the behaviour of', 'Opportunity cost is the value'] }
           ] } }
     ],
-    explore: { component: C12_EcoConsumerBehaviourCBSESim, prompt: 'Explore the interactive — Consumer Behaviour CBSE' },
+    explore: { component: C12_EcoConsumerBehaviourCBSESim, prompt: 'Explore the interactive — Relationship Between MPC and MPS' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eco_cbse_10_004', difficulty: 'standard',
           question: 'The relationship between Marginal Propensity to Consume (MPC) and Marginal.',

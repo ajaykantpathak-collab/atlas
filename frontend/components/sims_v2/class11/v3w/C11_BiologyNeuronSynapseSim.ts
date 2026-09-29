@@ -6,13 +6,13 @@ import C11_BiologyNeuronSynapseSim from '../../../simulations/three/C11_BiologyN
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologyneuronsynapsesim: SimDef = {
     id: 'v3w_c11_biologyneuronsynapsesim',
-    title: 'Neuron Synapse',
+    title: 'Synapse: Transmission of Impulse',
     subtitle: 'This node covers the structural classification of synapses (electrical vs chemical), the.',
     classLevel: 11, subject: 'biology', topic: 'Synapse: Transmission of Impulse',
     chapters: [],
     nodeIds: ['c11_bio_cbse_18_003', 'c11_bio_cbse_07_004', 'c11_bio_cbse_18_001', 'c11_bio_cbse_18_002', 'c11_bio_cbse_18_005', 'c11_bio_cbse_18_006', 'c11_bio_cbse_18_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you accidentally touch a hot tawa (griddle) while making rotis – your hand jerks back before you even.', goal: 'Master Neuron Synapse.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you accidentally touch a hot tawa (griddle) while making rotis – your hand jerks back before you even.', goal: 'Master Synapse: Transmission of Impulse.' },
     discovery: {
         question: 'Name the two types of synapses classified by the mechanism of impulse transmission and state the key structural difference between them.',
         options: ['The two types are electrical synapses and chemical synapses', 'both use neurotransmitters', 'electrical synapses have a cleft'],
@@ -78,7 +78,7 @@ export const w_c11_biologyneuronsynapsesim: SimDef = {
             { text: 'Conclude that Cranial Nerve I (Olfactory) and Cranial Nerve VII (Facial) are damaged.', faded: true, blankAnswer: 'Olfactory nerve (I) and Facial nerve (VII) are damaged..' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_07_004', title: 'Identify each idea',
-          dissect: { specimen: 'Neuron Synapse', spots: [
+          dissect: { specimen: 'Synapse: Transmission of Impulse', spots: [
             { id: 's1', label: 'A synapse is a specialized', prompt: 'Which idea is this? — A synapse is a specialized junction between a pre-synaptic neuron and a post-synaptic.', answer: 'A synapse is a specialized', options: ['A synapse is a specialized', 'Neural tissue is a specialised', 'A neuron is the structural', 'The generation and conduction of'] },
             { id: 's2', label: 'Neural tissue is a specialised', prompt: 'Which idea is this? — Neural tissue is a specialised animal tissue composed of neurons (excitable cells that.', answer: 'Neural tissue is a specialised', options: ['Neural tissue is a specialised', 'A synapse is a specialized', 'A neuron is the structural', 'The generation and conduction of'] },
             { id: 's3', label: 'A neuron is the structural', prompt: 'Which idea is this? — A neuron is the structural and functional unit of the neural system, specialized for.', answer: 'A neuron is the structural', options: ['A neuron is the structural', 'A synapse is a specialized', 'Neural tissue is a specialised', 'The generation and conduction of'] },
@@ -87,7 +87,7 @@ export const w_c11_biologyneuronsynapsesim: SimDef = {
             { id: 's6', label: 'The peripheral nervous system PNS', prompt: 'Which idea is this? — The peripheral nervous system (PNS) consists of all nerves arising from the central.', answer: 'The peripheral nervous system PNS', options: ['The peripheral nervous system PNS', 'A synapse is a specialized', 'Neural tissue is a specialised', 'A neuron is the structural'] }
           ] } }
     ],
-    explore: { component: C11_BiologyNeuronSynapseSim, prompt: 'Explore the interactive — Neuron Synapse' },
+    explore: { component: C11_BiologyNeuronSynapseSim, prompt: 'Explore the interactive — Synapse: Transmission of Impulse' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_18_003', difficulty: 'standard',
           question: 'A synapse is a specialized junction between a pre-synaptic neuron and a.',

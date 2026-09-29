@@ -6,13 +6,13 @@ import C10_MathematicsTrianglesSim from '../../../simulations/c6_12/C10_Mathemat
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_mathematicstrianglessim: SimDef = {
     id: 'v3w_c10_mathematicstrianglessim',
-    title: 'Triangles',
+    title: 'Similar Figures vs Congruent Figures: Distinction',
     subtitle: 'This node covers the distinction between similar and congruent figures for all plane.',
     classLevel: 10, subject: 'mathematics', topic: 'Similar Figures vs Congruent Figures: Distinction',
     chapters: [],
     nodeIds: ['c10_math_cbse_06_001', 'c10_math_cbse_06_002', 'c10_math_cbse_06_003', 'c10_math_cbse_06_004', 'c10_math_cbse_06_005', 'c10_math_cbse_06_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you have two photographs of the Taj Mahal — one printed on a 10 cm × 15 cm postcard and another.', goal: 'Master Triangles.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you have two photographs of the Taj Mahal — one printed on a 10 cm × 15 cm postcard and another.', goal: 'Master Similar Figures vs Congruent Figures: Distinction.' },
     discovery: {
         question: 'Analyze the following statement: "If two triangles are similar, then their corresponding medians are in the same ratio as their corresponding sides." Is this.',
         options: ['**Correct answer:** Always true', 'sometimes true', 'never true'],
@@ -78,7 +78,7 @@ export const w_c10_mathematicstrianglessim: SimDef = {
             { text: 'Conclude similarity and state answer. Since all three pairs of corresponding sides are proportional (ratio 1:20), the.', faded: true, blankAnswer: 'The other two sides of the model are 4 cm and 5 cm. The.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_math_cbse_06_002', title: 'Identify each idea',
-          dissect: { specimen: 'Triangles', spots: [
+          dissect: { specimen: 'Similar Figures vs Congruent Figures: Distinction', spots: [
             { id: 's1', label: 'Two figures are similar if', prompt: 'Which idea is this? — Two figures are **similar** if they have the same shape but not necessarily the same.', answer: 'Two figures are similar if', options: ['Two figures are similar if', 'Two triangles are said to', 'If a line is drawn', 'The Converse of Basic Proportionality'] },
             { id: 's2', label: 'Two triangles are said to', prompt: 'Which idea is this? — Two triangles are said to be similar if their corresponding angles are equal and their.', answer: 'Two triangles are said to', options: ['Two triangles are said to', 'Two figures are similar if', 'If a line is drawn', 'The Converse of Basic Proportionality'] },
             { id: 's3', label: 'If a line is drawn', prompt: 'Which idea is this? — If a line is drawn parallel to one side of a triangle intersecting the other two sides at.', answer: 'If a line is drawn', options: ['If a line is drawn', 'Two figures are similar if', 'Two triangles are said to', 'The Converse of Basic Proportionality'] },
@@ -87,7 +87,7 @@ export const w_c10_mathematicstrianglessim: SimDef = {
             { id: 's6', label: 'The SSS Side-Side-Side Similarity Criterion', prompt: 'Which idea is this? — The SSS (Side-Side-Side) Similarity Criterion states that if the three sides of one.', answer: 'The SSS Side-Side-Side Similarity Criterion', options: ['The SSS Side-Side-Side Similarity Criterion', 'Two figures are similar if', 'Two triangles are said to', 'If a line is drawn'] }
           ] } }
     ],
-    explore: { component: C10_MathematicsTrianglesSim, prompt: 'Explore the interactive — Triangles' },
+    explore: { component: C10_MathematicsTrianglesSim, prompt: 'Explore the interactive — Similar Figures vs Congruent Figures: Distinction' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_math_cbse_06_001', difficulty: 'standard',
           question: 'Two figures are **similar** if they have the same shape but not necessarily the.',

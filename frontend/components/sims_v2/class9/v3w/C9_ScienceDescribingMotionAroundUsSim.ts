@@ -6,13 +6,13 @@ import C9_ScienceDescribingMotionAroundUsSim from '../../../simulations/c6_12/C9
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_sciencedescribingmotionaroundussim: SimDef = {
     id: 'v3w_c9_sciencedescribingmotionaroundussim',
-    title: 'Describing Motion Around Us',
+    title: 'Distance and Displacement: Difference',
     subtitle: 'Covers definitions, scalar/vector distinction, calculation for straight-line and.',
     classLevel: 9, subject: 'science', topic: 'Distance and Displacement: Difference',
     chapters: [],
     nodeIds: ['c9_physics_ch2_1'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine a student walking from the school gate to the library, then to the canteen, and back to the gate.', goal: 'Master Describing Motion Around Us.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine a student walking from the school gate to the library, then to the canteen, and back to the gate.', goal: 'Master Distance and Displacement: Difference.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Distance is a scalar quantity measuring the.', text: 'Distance is a scalar quantity measuring the total path length traveled by an object, with SI unit meter (m).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -28,7 +28,7 @@ export const w_c9_sciencedescribingmotionaroundussim: SimDef = {
             { text: 'Verify: Distance (7000 m) > |Displacement| (4000 m), consistent with principle.', faded: true, blankAnswer: 'Distance = 7000 m, Displacement = 4000 m north.' }
             ] } }
     ],
-    explore: { component: C9_ScienceDescribingMotionAroundUsSim, prompt: 'Explore the interactive — Describing Motion Around Us' },
+    explore: { component: C9_ScienceDescribingMotionAroundUsSim, prompt: 'Explore the interactive — Distance and Displacement: Difference' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_physics_ch2_1', difficulty: 'standard',
           question: 'Distance is a scalar quantity measuring the total path length traveled by an.',

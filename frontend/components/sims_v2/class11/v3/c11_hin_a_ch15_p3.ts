@@ -11,10 +11,10 @@ export const c11_hin_a_ch15_p3: SimDef = {
     nodeIds: ['c11_hin_a_cbse_15_013', 'c11_hin_a_cbse_15_014', 'c11_hin_a_cbse_15_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 11 learner', intro: 'You\'re staring at a 3-mark "आशय स्पष्ट कीजिए" question in the board paper, the clock ticking, and the lines.', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 11 learner', intro: '\'हस्तक्षेप\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।', goal: 'Master every idea in this chapter.' },
     // discovery omitted — no cleanly extractable hook in this chapter
     teaching: [
-        { title: 'हस्तक्षेप — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण (Explanation of Purport/Implication) is the analytical process of interpreting a specific poetic segment by establishing its literal meaning (शब्दार्थ), contextual significance.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'हस्तक्षेप — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: '\'हस्तक्षेप\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_a_cbse_15_013', title: 'Your mission',
@@ -34,34 +34,34 @@ export const c11_hin_a_ch15_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_a_cbse_15_013', difficulty: 'standard',
-          question: 'आशय-स्पष्टीकरण (Explanation of Purport/Implication) is the analytical process.',
+          question: '\'हस्तक्षेप\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'If stuck, review **प्रतीक और बिंब (c11_hin_a_cbse_15_007)** and **केंद्रीय भाव.',
           misconception: '**विशिष्ट भ्रांति:** *"आशय-स्पष्टीकरण का अर्थ है पद्यांश का \'सरल हिंदी अनुवाद\' लिख देना।"* **गलत तर्क का स्रोत:** कक्षा.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण (Explanation of Purport/Implication) is the analytical process of',
-                  options: ['आशय-स्पष्टीकरण (Explanation of Purport/Implication) is the analytical process of', 'कवि परिचय और पृष्ठभूमि का अर्थ है', '**पद्यांश-वार भावार्थ** काव्य-विश्लेषण की वह विधि है जिसमें कविता के प्रत्येक पद्यांश', 'काव्य-संरचना और पद्य-विन्यास का तात्पर्य कविता के बाह्य रूप (छंद, पद-योजना, तुक-योजना,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'हस्तक्षेप\' का आलोचनात्मक चिंतन',
+                  options: ['\'हस्तक्षेप\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'हस्तक्षेप\' का कथानक', '\'हस्तक्षेप\' का पाठ्य-परिवेश (setting)'],
                   hint: 'If stuck, review **प्रतीक और बिंब (c11_hin_a_cbse_15_007)** and **केंद्रीय भाव.',
                   misconception: '**विशिष्ट भ्रांति:** *"आशय-स्पष्टीकरण का अर्थ है पद्यांश का \'सरल हिंदी अनुवाद\' लिख देना।"* **गलत तर्क का स्रोत:** कक्षा 10 तक \'भावार्थ\'.' }
           ],
             remediations: { '10-11-suggestion': { steps: ['**लक्षित उपचार (3-चरणीय):** 1.', '**माइक्रो-ड्रिल:** छात्र को कविता के **केवल एक युग्म** (couplet) दें। कहें: *"इसका अनुवाद मत लिखो। केवल तीन प्रश्नों के.', '(ख) किन दो शब्दों में सबसे अधिक \'भार\' (weight) है और क्यों?', '(ग) यह युग्म कविता के तर्क को किस दिशा में मोड़ता है?"* — 5 मिनट में लिखवाएँ। 2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_a_cbse_15_014', difficulty: 'standard',
-          question: 'परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) हिंदी साहित्य (काव्य/गद्य).',
+          question: '\'हस्तक्षेप\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि फँसें तो **\'पद्यांश-वार भावार्थ\' (c11_hin_a_cbse_15_002)** और **\'साहित्यिक युक्तियाँ.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **"अच्छा उत्तर = कठिन शब्द + लंबे वाक्य + कविता की प्रशंसा"**। **वास्तविकता:**.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) हिंदी साहित्य (काव्य/गद्य) के',
-                  options: ['परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) हिंदी साहित्य (काव्य/गद्य) के', 'कवि परिचय और पृष्ठभूमि का अर्थ है', '**पद्यांश-वार भावार्थ** काव्य-विश्लेषण की वह विधि है जिसमें कविता के प्रत्येक पद्यांश', 'काव्य-संरचना और पद्य-विन्यास का तात्पर्य कविता के बाह्य रूप (छंद, पद-योजना, तुक-योजना,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'हस्तक्षेप\' पर पाठ-आधारित लेखन',
+                  options: ['\'हस्तक्षेप\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'हस्तक्षेप\' का कथानक', '\'हस्तक्षेप\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फँसें तो **\'पद्यांश-वार भावार्थ\' (c11_hin_a_cbse_15_002)** और **\'साहित्यिक युक्तियाँ: प्रतीक और.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **"अच्छा उत्तर = कठिन शब्द + लंबे वाक्य + कविता की प्रशंसा"**। **वास्तविकता:** CBSE परीक्षा में.' }
           ],
             remediations: { 'cbse-jargon': { steps: ['**चरणबद्ध उपचार (Remediation):** 1.', '**पहचान कराएँ:** छात्र को एक ही प्रश्न के दो उत्तर दें — एक \'भावस्पष्टीकरण\' (summary-based), दूसरा \'विश्लेषण\'.', '**PEEL का रंगीन अभ्यास:** छात्र अपने लिखे उत्तर में **चार रंगों** से हाइलाइट करे — **नीला (Point), हरा (Evidence), पीला.', '**\'क्यों\' का खेल:** छात्र द्वारा लिखे हर दावे (Point) पर शिक्षक पूछे — *"कविता में कहाँ लिखा है?"* (Evidence माँगना).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_a_cbse_15_015', difficulty: 'standard',
-          question: 'वाचन-पाठ और चर्चा-बिंदु एक **सक्रिय पठन-प्रक्रिया** है जिसमें शिक्षार्थी पाठ को.',
+          question: '\'हस्तक्षेप\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।',
           hint: 'यदि अटका हुआ महसूस हो तो **नोड 007 (प्रतीक और बिंब)** और **नोड 013 (आशय-विश्लेषण)** को.',
           misconception: 'छात्र अक्सर मान लेते हैं कि **\'वाचन-पाठ\' का अर्थ केवल \'सही उच्चारण और प्रवाह के साथ पढ़ना\' है** और \'चर्चा-बिंदु\' का.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-पाठ और चर्चा-बिंदु एक **सक्रिय पठन-प्रक्रिया** है जिसमें शिक्षार्थी पाठ को स्वर में',
-                  options: ['वाचन-पाठ और चर्चा-बिंदु एक **सक्रिय पठन-प्रक्रिया** है जिसमें शिक्षार्थी पाठ को स्वर में', 'कवि परिचय और पृष्ठभूमि का अर्थ है', '**पद्यांश-वार भावार्थ** काव्य-विश्लेषण की वह विधि है जिसमें कविता के प्रत्येक पद्यांश', 'काव्य-संरचना और पद्य-विन्यास का तात्पर्य कविता के बाह्य रूप (छंद, पद-योजना, तुक-योजना,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'हस्तक्षेप\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'हस्तक्षेप\' पर वाचन-श्रवण और चर्चा-बिंदु', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'हस्तक्षेप\' का कथानक', '\'हस्तक्षेप\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटका हुआ महसूस हो तो **नोड 007 (प्रतीक और बिंब)** और **नोड 013 (आशय-विश्लेषण)** को दोबारा देखें.',
                   misconception: 'छात्र अक्सर मान लेते हैं कि **\'वाचन-पाठ\' का अर्थ केवल \'सही उच्चारण और प्रवाह के साथ पढ़ना\' है** और \'चर्चा-बिंदु\' का अर्थ \'पाठ पर आधारित.' }
           ],

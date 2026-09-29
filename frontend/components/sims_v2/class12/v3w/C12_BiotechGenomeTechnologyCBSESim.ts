@@ -6,13 +6,13 @@ import C12_BiotechGenomeTechnologyCBSESim from '../../../simulations/c6_12_new/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biotechgenometechnologycbsesim: SimDef = {
     id: 'v3w_c12_biotechgenometechnologycbsesim',
-    title: 'Genome Technology CBSE',
+    title: 'Structural Genomics: Goals and Sequencing Methods',
     subtitle: 'This node covers: goals of structural genomics (both perspectives), sequencing.',
     classLevel: 12, subject: 'biotechnology', topic: 'Structural Genomics: Goals and Sequencing Methods',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_05_002', 'c12_biotech_cbse_12_001', 'c12_biotech_cbse_05_001', 'c12_biotech_cbse_05_003', 'c12_biotech_cbse_05_004', 'c12_biotech_cbse_05_005', 'c12_biotech_cbse_05_009', 'c12_biotech_cbse_05_010', 'c12_biotech_cbse_05_006', 'c12_biotech_cbse_04_002', 'c12_biotech_cbse_04_003', 'c12_biotech_cbse_04_004', 'c12_biotech_cbse_04_007', 'c12_biotech_cbse_04_008', 'c12_biotech_cbse_04_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are handed a 3-billion-base-pair instruction manual (the human genome) with no page numbers, no.', goal: 'Master Genome Technology CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are handed a 3-billion-base-pair instruction manual (the human genome) with no page numbers, no.', goal: 'Master Structural Genomics: Goals and Sequencing Methods.' },
     discovery: {
         question: 'Compare the *principle of base detection* in Illumina (second-generation) and Oxford Nanopore (third-generation) sequencing.',
         options: ['Illumina: sequencing-by-synthesis with reversible terminators', 'Nanopore uses fluorescence', 'Illumina measures current'],
@@ -79,7 +79,7 @@ export const w_c12_biotechgenometechnologycbsesim: SimDef = {
             { text: 'Interpret: This contig covers 1.23 Mb of chromosome 22 euchromatin; actual chromosome 22 is ~51 Mb, so many such.', faded: true, blankAnswer: '1.23 Mb' }
             ] } },
         { type: 'dissect', nodeId: 'c12_biotech_cbse_12_001', title: 'Identify each idea',
-          dissect: { specimen: 'Genome Technology CBSE', spots: [
+          dissect: { specimen: 'Structural Genomics: Goals and Sequencing Methods', spots: [
             { id: 's1', label: 'Structural genomics is the systematic', prompt: 'Which idea is this? — Structural genomics is the systematic determination and analysis of the three-dimensional.', answer: 'Structural genomics is the systematic', options: ['Structural genomics is the systematic', 'The biotechnology industry encompasses the', 'A genome is the complete', 'Functional genomics is the branch'] },
             { id: 's2', label: 'The biotechnology industry encompasses the', prompt: 'Which idea is this? — The biotechnology industry encompasses the commercial application of biological systems,.', answer: 'The biotechnology industry encompasses the', options: ['The biotechnology industry encompasses the', 'Structural genomics is the systematic', 'A genome is the complete', 'Functional genomics is the branch'] },
             { id: 's3', label: 'A genome is the complete', prompt: 'Which idea is this? — A genome is the complete set of genetic material (DNA) present in a cell of an organism,.', answer: 'A genome is the complete', options: ['A genome is the complete', 'Structural genomics is the systematic', 'The biotechnology industry encompasses the', 'Functional genomics is the branch'] },
@@ -88,7 +88,7 @@ export const w_c12_biotechgenometechnologycbsesim: SimDef = {
             { id: 's6', label: 'The Human Genome Project HGP', prompt: 'Which idea is this? — The Human Genome Project (HGP) was an international scientific research project.', answer: 'The Human Genome Project HGP', options: ['The Human Genome Project HGP', 'Structural genomics is the systematic', 'The biotechnology industry encompasses the', 'A genome is the complete'] }
           ] } }
     ],
-    explore: { component: C12_BiotechGenomeTechnologyCBSESim, prompt: 'Explore the interactive — Genome Technology CBSE' },
+    explore: { component: C12_BiotechGenomeTechnologyCBSESim, prompt: 'Explore the interactive — Structural Genomics: Goals and Sequencing Methods' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_biotech_cbse_05_002', difficulty: 'standard',
           question: 'Structural genomics is the systematic determination and analysis of the.',

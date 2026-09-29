@@ -6,13 +6,13 @@ import C11_BusinessStudiesEbankingOnlineServicesSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_businessstudiesebankingonlineservicessim: SimDef = {
     id: 'v3w_c11_businessstudiesebankingonlineservicessim',
-    title: 'Ebanking Online Services',
+    title: 'Online Transactions: Payment Mechanisms and Security',
     subtitle: 'This node covers the NCERT Class 11 Chapter 5 content on online transaction stages,.',
     classLevel: 11, subject: 'business_studies', topic: 'Online Transactions: Payment Mechanisms and Security',
     chapters: [],
     nodeIds: ['c11_bs_cbse_05_005', 'c11_bs_cbse_05_001', 'c11_bs_cbse_05_002', 'c11_bs_cbse_05_004', 'c11_bs_cbse_05_009', 'c11_bs_cbse_05_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you want to buy a smartphone online at midnight. You visit an e-commerce site, create an account.', goal: 'Master Ebanking Online Services.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you want to buy a smartphone online at midnight. You visit an e-commerce site, create an account.', goal: 'Master Online Transactions: Payment Mechanisms and Security.' },
     discovery: {
         question: 'List the three operational stages of an online transaction in their correct sequence as per NCERT.',
         options: ['The three stages in sequence are: (1) Pre-purchase/sale stage (advertising and', 'Digital Cash', 'Net-banking'],
@@ -79,7 +79,7 @@ export const w_c11_businessstudiesebankingonlineservicessim: SimDef = {
             { text: 'Verify budget fit: Month 1 hardware ₹8,000 + scanner ₹3,000 + GST SaaS ₹500 = ₹11,500 < ₹5L.', faded: true, blankAnswer: 'Hardware: Cloud VPS (₹8k/mo), CDN (free), barcode scanner.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bs_cbse_05_001', title: 'Identify each idea',
-          dissect: { specimen: 'Ebanking Online Services', spots: [
+          dissect: { specimen: 'Online Transactions: Payment Mechanisms and Security', spots: [
             { id: 's1', label: 'Online transactions in e-business refer', prompt: 'Which idea is this? — Online transactions in e-business refer to the end-to-end digital process of purchasing.', answer: 'Online transactions in e-business refer', options: ['Online transactions in e-business refer', 'E-business is the conduct of', 'E-business refers to the conduct', 'E-business vs Traditional Business comparison'] },
             { id: 's2', label: 'E-business is the conduct of', prompt: 'Which idea is this? — E-business is the conduct of industry, trade, and commerce using computer networks.', answer: 'E-business is the conduct of', options: ['E-business is the conduct of', 'Online transactions in e-business refer', 'E-business refers to the conduct', 'E-business vs Traditional Business comparison'] },
             { id: 's3', label: 'E-business refers to the conduct', prompt: 'Which idea is this? — E-business refers to the conduct of industry, trade, and commerce using computer networks.', answer: 'E-business refers to the conduct', options: ['E-business refers to the conduct', 'Online transactions in e-business refer', 'E-business is the conduct of', 'E-business vs Traditional Business comparison'] },
@@ -88,7 +88,7 @@ export const w_c11_businessstudiesebankingonlineservicessim: SimDef = {
             { id: 's6', label: 'Resources required for e-business refer', prompt: 'Which idea is this? — Resources required for e-business refer to the essential technological infrastructure.', answer: 'Resources required for e-business refer', options: ['Resources required for e-business refer', 'Online transactions in e-business refer', 'E-business is the conduct of', 'E-business refers to the conduct'] }
           ] } }
     ],
-    explore: { component: C11_BusinessStudiesEbankingOnlineServicesSim, prompt: 'Explore the interactive — Ebanking Online Services' },
+    explore: { component: C11_BusinessStudiesEbankingOnlineServicesSim, prompt: 'Explore the interactive — Online Transactions: Payment Mechanisms and Security' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bs_cbse_05_005', difficulty: 'standard',
           question: 'Online transactions in e-business refer to the end-to-end digital process of.',

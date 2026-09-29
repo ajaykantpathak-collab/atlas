@@ -19,7 +19,7 @@ export const c11_eng_h_ch01_p1: SimDef = {
         hook: 'She isn\'t \'backward\' — she\'s a representative figure of a vanishing world, and her silences carry a whole generation\'s rules.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'Before You Read: Context and Background provides the historical, cultural, and biographical framework necessary to understand the autobiographical narrative "The Portrait of a Lady" by Khushwant.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Portrait of a Lady\' (Hornbill, ch. 1) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_01_001', title: 'Your mission',
@@ -29,34 +29,34 @@ export const c11_eng_h_ch01_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_01_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to read a story about a grandmother who feeds sparrows, spins thread, and prays constantly—yet refuses to let her grandson learn music.',
+          caseStudy: { intro: 'Start with the author of \'The Portrait of a Lady\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who is the author of "The Portrait of a Lady," and what is the genre of this piece?', options: [
                 { text: 'The author is Khushwant Singh, and the genre is autobiographical narrative (a personal', outcome: 'The author is Khushwant Singh, and the genre is autobiographical narrative (a personal.' },
                 { text: 'context', outcome: 'Not quite — Students often think "context" means "summary of the story" or "list of difficult words." They.', reveals: 'context-means-summary-of-the' },
                 { text: 'summary of the story', outcome: 'Not quite — Students often think "context" means "summary of the story" or "list of difficult words." They.', reveals: 'context-means-summary-of-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_01_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are describing your relationship with a grandparent to a friend.',
+          caseStudy: { intro: 'Trace \'The Portrait of a Lady\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What are the three distinct phases of the author\'s relationship with his grandmother as explicitly structured in the narrative?', options: [
                 { text: 'The three phases are: (1) Childhood in the village, where they are constant companions', outcome: 'The three phases are: (1) Childhood in the village, where they are constant companions and she.' },
                 { text: 'feeding dogs, feeding sparrows, spinning', outcome: 'Not quite — Students often believe the narrative is a simple linear timeline of events.', reveals: 'the-narrative-is-a-simple' },
                 { text: 'lists events (e', outcome: 'Not quite — Students often believe the narrative is a simple linear timeline of events.', reveals: 'the-narrative-is-a-simple' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_01_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re standing at a railway station watching an old woman in white feed sparrows — the air is quiet except for wing-beats, the light is golden, and.',
+          caseStudy: { intro: 'Identify where and when \'The Portrait of a Lady\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What are the three distinct physical settings where the author-grandmother relationship unfolds in "The Portrait of a Lady"?', options: [
                 { text: 'The three distinct physical settings are: (1) the village', outcome: 'The three distinct physical settings are: (1) the village — including the temple-attached school.' },
                 { text: 'village and city', outcome: 'Not quite — Students confuse SETTING (where/when) with ATMOSPHERE (feeling/mood), treating them as synonyms.', reveals: 'students-confuse-setting-where-when' },
                 { text: 'home and school', outcome: 'Not quite — Students confuse SETTING (where/when) with ATMOSPHERE (feeling/mood), treating them as synonyms.', reveals: 'students-confuse-setting-where-when' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_01_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are watching a family wedding video: the bride and groom are the focus, but the grandmother adjusting her spectacles, the uncle telling jokes, and.',
+          caseStudy: { intro: 'Spot the secondary figures in \'The Portrait of a Lady\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List three supporting characters from "The Portrait of a Lady" and state one specific action each performs in the text.', options: [
                 { text: 'Correct answer: (1) Grandfather\'s portrait – hangs above mantelpiece, described as', outcome: 'Correct answer: (1) Grandfather\'s portrait – hangs above mantelpiece, described as wearing turban.' },
                 { text: 'the narrator or grandmother', outcome: 'Not quite — Students often treat supporting characters as "minor" and therefore unimportant for exams, writing.', reveals: 'students-often-treat-supporting-characters' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_01_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are looking at an old family photograph where you see yourself as a toddler holding your grandmother\'s hand, then a school photo where you stand.',
+          caseStudy: { intro: 'Ask what \'The Portrait of a Lady\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of "The Portrait of a Lady" as distinct from its plot summary?', options: [
                 { text: 'The primary theme is the **inevitability of change in human relationships contrasted with', outcome: 'The primary theme is the **inevitability of change in human relationships contrasted with the.' },
                 { text: 'the story is about a boy and his grandmother', outcome: 'Not quite — Students often think the primary theme is **"the generation gap"** or **"the author\'s guilt about.', reveals: 'the-primary-theme-is-the' },
@@ -81,7 +81,7 @@ export const c11_eng_h_ch01_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_001', difficulty: 'standard',
-          question: 'Before You Read: Context and Background provides the historical, cultural, and.',
+          question: '\'The Portrait of a Lady\' (Hornbill, ch. 1) — the context and background to this.',
           hint: 'Review c9_engl_ch1_7 (First-Person Narrative Perspective) and c9_engl_ch1_1.',
           misconception: 'Students often think "context" means "summary of the story" or "list of difficult words." They treat the grandmother\'s.',
           parts: [
@@ -103,7 +103,7 @@ export const c11_eng_h_ch01_p1: SimDef = {
           ],
             remediations: { 'context-means-summary-of-the': { steps: ['If a student reduces context to summary or vocabulary: 1) Have them list every concrete detail in the first three.', '2) Ask: "Which of these would disappear if the story were set in 2024?" 3) Guide them to see each disappearing detail.', '4) Assign a 5-minute interview with a grandparent about their school routine—then compare the two "then vs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_002', difficulty: 'standard',
-          question: 'Plot and narrative structure refer to the organized sequence of events and the.',
+          question: 'The plot/narrative arc of \'The Portrait of a Lady\' — what happens, in what.',
           hint: 'Review "narrative time vs. story time" using a simple fairy tale (e.g., Cinderella: story.',
           misconception: 'Students often believe the narrative is a simple linear timeline of events.',
           parts: [
@@ -122,7 +122,7 @@ export const c11_eng_h_ch01_p1: SimDef = {
           ],
             remediations: { 'the-narrative-is-a-simple': { steps: ['If a student cannot identify the three phases, have them reread only the first sentence of each major paragraph (topic.', 'Then ask: "What changes in the *relationship* at each marker?" not "What happens next?" If they confuse plot with.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_003', difficulty: 'standard',
-          question: 'Setting is the physical, temporal, and social environment in which a narrative.',
+          question: 'The setting of \'The Portrait of a Lady\' — the place, time and atmosphere the.',
           hint: 'If stuck, review "Atmosphere: Heat, Silence and Anticipation in the Jungle".',
           misconception: 'Students confuse SETTING (where/when) with ATMOSPHERE (feeling/mood), treating them as synonyms.',
           parts: [
@@ -145,7 +145,7 @@ export const c11_eng_h_ch01_p1: SimDef = {
           ],
             remediations: { 'students-confuse-setting-where-when': { steps: ['If the student conflates setting and atmosphere: Step 1 — Have them draw a two-column table for ONE scene (e.g.', 'Column A: "Setting Details from Text" (temple, verandah, chorus singing, scriptures, dogs, chapattis).', 'Column B: "Atmosphere Created" (sacred, communal, rhythmic, nurturing).', 'Step 2 — Ask: "If we changed ONE detail (e.g., replace temple with factory), how would Column B change?" Step 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves a systematic examination of the.',
+          question: 'Character analysis in \'The Portrait of a Lady\' — the central figure(s), their.',
           hint: 'Review Class 9 character analysis of Krishtakka (c9_engl_ch1_2) and practice PEEL.',
           misconception: 'Students often treat the grandmother as a static symbol of "tradition" or "religion," missing her agency and.',
           parts: [
@@ -156,23 +156,23 @@ export const c11_eng_h_ch01_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-the-grandmother': { steps: ['Re-read the three phases (village, city, university) and create a two-column table: Column A = Grandmother\'s Action.', 'Highlight every sentence where the author describes her *without* using adjectives (e.g., "Her lips constantly moved.', 'Write one PEEL paragraph on "The grandmother\'s silence is her loudest expression of love" using only verbs from the.', 'Discuss with a peer: "If she were merely rigid, why does she celebrate his return with a drum and song?"'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_005', difficulty: 'standard',
-          question: 'Supporting characters are secondary figures in a narrative who interact with.',
+          question: 'Supporting characters in \'The Portrait of a Lady\' — the secondary figures who.',
           hint: 'Review the "three phases" question from NCERT Understanding the Text (Q1) and the.',
           misconception: 'Students often treat supporting characters as "minor" and therefore unimportant for exams, writing one-line.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters are secondary figures in a narrative who interact with the',
-                  options: ['Supporting characters are secondary figures in a narrative who interact with the', 'Before You Read: Context and Background provides the historical, cultural, and', 'Plot and narrative structure refer to the organized sequence of events and the framework', 'Setting is the physical, temporal, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in \'The Portrait of a Lady\'',
+                  options: ['Supporting characters in \'The Portrait of a Lady\'', '\'The Portrait of a Lady\' (Hornbill, ch', 'The plot/narrative arc of \'The Portrait of a Lady\'', 'The setting of \'The Portrait of a Lady\''],
                   hint: 'Review the "three phases" question from NCERT Understanding the Text (Q1) and the grandmother\'s key.',
                   misconception: 'Students often treat supporting characters as "minor" and therefore unimportant for exams, writing one-line descriptions like "the priest.' }
           ],
             remediations: { 'students-often-treat-supporting-characters': { steps: ['Re-read the text marking every scene where a non-grandmother, non-narrator figure appears.', 'For each, complete a 3-column table: Character | Action/Dialogue | What This Reveals About Grandmother/Theme.', 'Pick the two strongest rows and practice writing a PEEL paragraph for each.', 'Verify that the "Explanation" step connects the character\'s specific behavior to a thematic idea (tradition, change.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
+          question: 'The primary theme of \'The Portrait of a Lady\' — the central idea the whole text.',
           hint: 'If stuck, review **c11_eng_h_cbse_01_004 (Character Analysis: Protagonist)** and create.',
           misconception: 'Students often think the primary theme is **"the generation gap"** or **"the author\'s guilt about leaving his.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of a literary work is its central, unifying idea or insight about human',
-                  options: ['The primary theme of a literary work is its central, unifying idea or insight about human', 'Before You Read: Context and Background provides the historical, cultural, and', 'Plot and narrative structure refer to the organized sequence of events and the framework', 'Setting is the physical, temporal, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of \'The Portrait of a Lady\'',
+                  options: ['The primary theme of \'The Portrait of a Lady\'', '\'The Portrait of a Lady\' (Hornbill, ch', 'The plot/narrative arc of \'The Portrait of a Lady\'', 'The setting of \'The Portrait of a Lady\''],
                   hint: 'If stuck, review **c11_eng_h_cbse_01_004 (Character Analysis: Protagonist)** and create.',
                   misconception: 'Students often think the primary theme is **"the generation gap"** or **"the author\'s guilt about leaving his grandmother."** This error.' }
           ],

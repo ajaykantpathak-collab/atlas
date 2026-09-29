@@ -6,13 +6,13 @@ import C11_PsyHumanMemoryCBSESim from '../../../simulations/c6_12_new/C11_PsyHum
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_psyhumanmemorycbsesim: SimDef = {
     id: 'v3w_c11_psyhumanmemorycbsesim',
-    title: 'Psy Human Memory CBSE',
+    title: 'Nature of Memory: Information Processing Model',
     subtitle: 'This node covers the Atkinson-Shiffrin Stage Model (1968) including the three memory.',
     classLevel: 11, subject: 'science', topic: 'Nature of Memory: Information Processing Model',
     chapters: [],
     nodeIds: ['c11_psy_cbse_06_001', 'c11_psy_cbse_06_008', 'c11_psy_cbse_01_008', 'c11_psy_cbse_01_010', 'c11_psy_cbse_03_011', 'c11_psy_cbse_06_002', 'c11_psy_cbse_06_003', 'c11_psy_cbse_06_004', 'c11_psy_cbse_06_005', 'c11_psy_cbse_06_006', 'c11_psy_cbse_06_007', 'c11_psy_cbse_06_009', 'c11_psy_cbse_06_010', 'c11_psy_cbse_01_007', 'c11_psy_cbse_01_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you hear a new friend’s phone number once and must dial it immediately—you repeat it frantically.', goal: 'Master Psy Human Memory CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you hear a new friend’s phone number once and must dial it immediately—you repeat it frantically.', goal: 'Master Nature of Memory: Information Processing Model.' },
     discovery: {
         question: 'Define "schema" in your own words and explain how schemas influence memory at each of the three stages: encoding, storage, and retrieval.',
         options: ['A schema is a mental framework', 'a memory', 'a category'],
@@ -78,7 +78,7 @@ export const w_c11_psyhumanmemorycbsesim: SimDef = {
             { text: 'Interpret: The difference (Condition B > Condition A) proves iconic memory has high capacity but ultra-short duration.', faded: true, blankAnswer: 'Condition A (Whole Report): ~4-5 letters. Condition B.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_psy_cbse_06_008', title: 'Identify each idea',
-          dissect: { specimen: 'Psy Human Memory CBSE', spots: [
+          dissect: { specimen: 'Nature of Memory: Information Processing Model', spots: [
             { id: 's1', label: 'The Information Processing Model Stage', prompt: 'Which idea is this? — The Information Processing Model (Stage Model) conceptualizes human memory as a system.', answer: 'The Information Processing Model Stage', options: ['The Information Processing Model Stage', 'Memory as a constructive process', 'Psychoanalysis is a comprehensive theory', 'Cognitive psychology is the scientific'] },
             { id: 's2', label: 'Memory as a constructive process', prompt: 'Which idea is this? — Memory as a constructive process refers to the understanding that memory is not a.', answer: 'Memory as a constructive process', options: ['Memory as a constructive process', 'The Information Processing Model Stage', 'Psychoanalysis is a comprehensive theory', 'Cognitive psychology is the scientific'] },
             { id: 's3', label: 'Psychoanalysis is a comprehensive theory', prompt: 'Which idea is this? — Psychoanalysis is a comprehensive theory of personality and a therapeutic method.', answer: 'Psychoanalysis is a comprehensive theory', options: ['Psychoanalysis is a comprehensive theory', 'The Information Processing Model Stage', 'Memory as a constructive process', 'Cognitive psychology is the scientific'] },
@@ -87,7 +87,7 @@ export const w_c11_psyhumanmemorycbsesim: SimDef = {
             { id: 's6', label: 'Sensory memory is the initial', prompt: 'Which idea is this? — Sensory memory is the initial, ultra-brief memory system that holds exact replicas of.', answer: 'Sensory memory is the initial', options: ['Sensory memory is the initial', 'The Information Processing Model Stage', 'Memory as a constructive process', 'Psychoanalysis is a comprehensive theory'] }
           ] } }
     ],
-    explore: { component: C11_PsyHumanMemoryCBSESim, prompt: 'Explore the interactive — Psy Human Memory CBSE' },
+    explore: { component: C11_PsyHumanMemoryCBSESim, prompt: 'Explore the interactive — Nature of Memory: Information Processing Model' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_psy_cbse_06_001', difficulty: 'standard',
           question: 'The Information Processing Model (Stage Model) conceptualizes human memory as a.',

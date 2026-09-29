@@ -102,7 +102,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Network Security Encompasses Measures To",
+    "title": "Network Security: Firewall and Encryption",
     "text": "Network security encompasses measures to protect network infrastructure and data from unauthorized access, misuse, or disruption; a firewall is a hardware or software system that monitors and controls incoming/outgoing network traffic based on predetermined",
     "emoji": "💻",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -865,7 +865,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Ring Topology Connects Each Node To",
+    "title": "Ring Topology Connects Each Node",
     "text": "Ring topology connects each node to exactly two neighbors forming a closed loop where data travels unidirectionally (or bidirectionally in dual-ring) via token passing; mesh topology connects every node directly to every other node (full mesh) or to a subset",
     "emoji": "💻",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2385,7 +2385,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "ORDER BY Clause Sorts The",
+    "title": "ORDER BY Clause Sorts",
     "text": "The ORDER BY clause sorts the result set of a query in ascending (ASC) or descending (DESC) order based on one or more columns. The GROUP BY clause aggregates rows that share identical values in specified columns into summary groups, enabling the application",
     "emoji": "💻",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2403,7 +2403,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "LEFT JOIN Returns All Rows From",
+    "title": "LEFT JOIN Returns All Rows",
     "text": "LEFT JOIN returns all rows from the left table and matching rows from the right table, with NULLs for non-matching right columns. RIGHT JOIN returns all rows from the right table and matching rows from the left table, with NULLs for non-matching left columns.",
     "emoji": "💻",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2931,7 +2931,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "CRUD Operations In Python-MySQL Refer To",
+    "title": "CRUD Operations In Python-MySQL",
     "text": "CRUD operations in Python-MySQL refer to the four fundamental database operations—Create (INSERT), Read (SELECT), Update (UPDATE), and Delete (DELETE)—executed through Python's mysql.",
     "emoji": "💻",
     "bgColor": "from-violet-400 to-purple-500"
@@ -3487,7 +3487,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Keyword Arguments Allow Passing Values To",
+    "title": "Keyword Arguments Allow Passing Values",
     "text": "Keyword arguments allow passing values to a function by explicitly naming the parameter (e.g., func(a=1, b=2)), making argument order irrelevant.",
     "emoji": "💻",
     "bgColor": "from-violet-400 to-purple-500"
@@ -5838,7 +5838,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Online Shopping And E-commerce Refer To",
+    "title": "Online Shopping And E-commerce",
     "text": "Online shopping and e-commerce refer to the buying and selling of goods and services over the internet, involving digital transactions, electronic payment systems, and virtual marketplaces that connect buyers and sellers without physical interaction.",
     "emoji": "💻",
     "bgColor": "from-amber-400 to-orange-500"

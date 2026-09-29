@@ -6,13 +6,13 @@ import C9_GeoNaturalVegetationCBSESim from '../../../simulations/c6_12_new/C9_Ge
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_geonaturalvegetationcbsesim: SimDef = {
     id: 'v3w_c9_geonaturalvegetationcbsesim',
-    title: 'Geo Natural Vegetation CBSE',
+    title: 'Weathering: Physical, Chemical and Biological',
     subtitle: 'This node covers the three weathering types, their mechanisms (e.g., frost wedging,.',
     classLevel: 9, subject: 'science', topic: 'Weathering: Physical, Chemical and Biological',
     chapters: [],
     nodeIds: ['c9_geo_ch1_7'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are standing on a hillside near Bengaluru in the Deccan Plateau and notice large, curved sheets.', goal: 'Master Geo Natural Vegetation CBSE.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are standing on a hillside near Bengaluru in the Deccan Plateau and notice large, curved sheets.', goal: 'Master Weathering: Physical, Chemical and Biological.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Weathering is the in-situ breakdown and.', text: 'Weathering is the in-situ breakdown and decomposition of rocks and minerals at or near the Earth\'s surface through physical (mechanical), chemical, and biological processes, without significant.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -28,7 +28,7 @@ export const w_c9_geonaturalvegetationcbsesim: SimDef = {
             { text: 'Verify and interpret – the residue is grus (coarse sand + clay), which forms sandy loam soils typical of the region;.', faded: true, blankAnswer: 'The dominant process is physical weathering by exfoliation.' }
             ] } }
     ],
-    explore: { component: C9_GeoNaturalVegetationCBSESim, prompt: 'Explore the interactive — Geo Natural Vegetation CBSE' },
+    explore: { component: C9_GeoNaturalVegetationCBSESim, prompt: 'Explore the interactive — Weathering: Physical, Chemical and Biological' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_geo_ch1_7', difficulty: 'standard',
           question: 'Weathering is the in-situ breakdown and decomposition of rocks and minerals at.',

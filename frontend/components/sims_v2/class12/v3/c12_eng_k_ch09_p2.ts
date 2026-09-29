@@ -19,7 +19,7 @@ export const c12_eng_k_ch09_p2: SimDef = {
         hook: 'Coleridge\'s aim was \'presenting the supernatural as real\' — Xanadu\'s dome, the sacred river, the demon-lover told flat as fact. Where Wordsworth made the ordinary strange, Coleridge made the strange ordinary. The fragment isn\'t broken; it\'s a glimpse of infinity the page couldn\'t hold.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the supporting ideas, motifs, and underlying concerns that enrich the primary theme of a poem, operating as parallel threads that deepen meaning, create tension, or offer.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Kubla Khan\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_09_007', title: 'Your mission',
@@ -29,41 +29,41 @@ export const c12_eng_k_ch09_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re watching a movie where the main plot is about a painter trying to capture a perfect sunset — that\'s your primary theme.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Kubla Khan\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is a secondary theme in literature, and how does it differ from the primary theme?', options: [
                 { text: 'A secondary theme is a supporting idea that runs parallel to the primary theme, enriching', outcome: 'A secondary theme is a supporting idea that runs parallel to the primary theme, enriching it.' },
                 { text: 'minor details', outcome: 'Not quite — Students consistently confuse **secondary themes with motifs or symbols**.', reveals: 'students-consistently-confuse-secondary-themes' },
                 { text: 'subplots', outcome: 'Not quite — Students consistently confuse **secondary themes with motifs or symbols**.', reveals: 'students-consistently-confuse-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are standing in a forest at dusk: you *see* the fading light, *hear* the rustle of leaves, *smell* damp earth, *feel* the cool air on your skin.',
+          caseStudy: { intro: 'Find the lines in \'Kubla Khan\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "imagery" and "metaphor" in your own words, and give one example of each from any Wordsworth poem you have studied.', options: [
                 { text: 'Imagery: language appealing to senses (e.g., "the green earth"', outcome: 'Imagery: language appealing to senses (e.g., "the green earth" — visual).' },
                 { text: 'like a flower', outcome: 'Not quite — Students consistently treat imagery as "only visual description" and metaphor as "just a fancy.', reveals: 'students-consistently-treat-imagery-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are reading "Kubla Khan" aloud and suddenly notice the jarring shift from the sunny pleasure dome to the "caves of ice" — that clash is your entry.',
+          caseStudy: { intro: 'Look in \'Kubla Khan\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define symbolism and give one example from "Kubla Khan" without quoting the poem.', options: [
                 { text: 'Symbolism is using a concrete object to represent an abstract idea', outcome: 'Symbolism is using a concrete object to represent an abstract idea.' },
                 { text: 'the dome is a metaphor for a house', outcome: 'Not quite — Students often think "symbolism" means "any metaphor" and "irony" means "funny coincidence.".', reveals: 'symbolism-means-any-metaphor-and' },
                 { text: 'symbolism', outcome: 'Not quite — Students often think "symbolism" means "any metaphor" and "irony" means "funny coincidence.".', reveals: 'symbolism-means-any-metaphor-and' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading "Kubla Khan" and hit the word "sinuous" in "gardens bright with sinuous rills." You could guess "curvy" from "rills" (streams), but the.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Kubla Khan\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the primary strategy for determining the meaning of an unfamiliar word in a poem like "Kubla Khan" when a dictionary is not allowed.', options: [
                 { text: 'The primary strategy is contextual analysis: using the surrounding words, imagery,', outcome: 'The primary strategy is contextual analysis: using the surrounding words, imagery, grammatical.' },
                 { text: 'guess from the first letter', outcome: 'Not quite — Students believe "vocabulary in context" means finding a synonym that fits the sentence.', reveals: 'vocabulary-in-context-means-finding' },
                 { text: 'skip the word', outcome: 'Not quite — Students believe "vocabulary in context" means finding a synonym that fits the sentence.', reveals: 'vocabulary-in-context-means-finding' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you’re reading *Kubla Khan* aloud and stumble over “A stately pleasure-dome decree” — why doesn’t it say “decreed a stately pleasure-dome”?',
+          caseStudy: { intro: 'Read \'Kubla Khan\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the grammatical term for the word order in the opening line “In Xanadu did Kubla Khan / A stately pleasure-dome decree” and state.', options: [
                 { text: 'The pattern is **subject-auxiliary inversion** (interrogative structure used', outcome: 'The pattern is **subject-auxiliary inversion** (interrogative structure used declaratively).' },
                 { text: 'passive voice', outcome: 'Not quite — Students believe **“poetic grammar = broken grammar”** — they label inversions, ellipses,.', reveals: 'poetic-grammar-broken-grammar-they' },
                 { text: 'normal order', outcome: 'Not quite — Students believe **“poetic grammar = broken grammar”** — they label inversions, ellipses,.', reveals: 'poetic-grammar-broken-grammar-they' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and see the question: "What is the \'discordant note\' heard at the end of the third stanza, and what does it suggest.',
+          caseStudy: { intro: 'Answer \'Kubla Khan\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the difference between a literal comprehension question and an inferential comprehension question?', options: [
                 { text: 'A literal question asks for information directly stated in the text (e.g., "What is the', outcome: 'A literal question asks for information directly stated in the text (e.g., "What is the name of the.' },
                 { text: 'any personal opinion', outcome: 'Not quite — Students often believe inferential questions allow "any personal opinion" as long as it sounds.', reveals: 'inferential-questions-allow-any-personal' },
@@ -88,18 +88,18 @@ export const c12_eng_k_ch09_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_007', difficulty: 'standard',
-          question: 'Secondary themes are the supporting ideas, motifs, and underlying concerns that.',
+          question: 'Secondary themes in \'Kubla Khan\' — the supporting ideas and motifs that deepen.',
           hint: 'If unable to move from image to idea, revisit the "theme statement frame" from Class 9.',
           misconception: 'Students consistently confuse **secondary themes with motifs or symbols**.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the supporting ideas, motifs, and underlying concerns that enrich',
-                  options: ['Secondary themes are the supporting ideas, motifs, and underlying concerns that enrich', '"Before You Read: Context and Background" for *Kubla Khan* provides the essential', 'Plot and narrative structure in poetry refers to the deliberate arrangement of events,', 'Setting in poetry refers to the time, place, and social environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes in \'Kubla Khan\'',
+                  options: ['Secondary themes in \'Kubla Khan\'', '\'Kubla Khan\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Kubla Khan\'', 'The setting of \'Kubla Khan\''],
                   hint: 'If unable to move from image to idea, revisit the "theme statement frame" from Class 9.',
                   misconception: 'Students consistently confuse **secondary themes with motifs or symbols**.' }
           ],
             remediations: { 'students-consistently-confuse-secondary-themes': { steps: ['If the student cannot distinguish theme from motif: (1) Give them three motifs from the poem (river, dome, dulcimer).', 'Write it as a full sentence." (2) Have them complete this frame: "The motif of ______ suggests that ______." (3) Then.', '(4) Re-diagnose using Diagnostic Question 2 — if they still name images instead of ideas, revisit Class 11 node.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Kubla Khan\' — the vivid, sensory language that creates.',
           hint: 'If stuck on sensory classification, revisit the "five senses" anchor chart from.',
           misconception: 'Students consistently treat imagery as "only visual description" and metaphor as "just a fancy comparison." They write.',
           parts: [
@@ -114,7 +114,7 @@ export const c12_eng_k_ch09_p2: SimDef = {
           ],
             remediations: { 'students-consistently-treat-imagery-as': { steps: ['If a student cannot distinguish sensory modes or identify tenor/vehicle: Step 1 — Return to c6_english_u1_005 (Poetic.', 'Step 2 — Take one stanza from "Lines Written in Early Spring" and physically highlight with five different coloured.', 'Step 3 — For every metaphor found, draw a two-column table: Tenor | Vehicle | Transferred Quality.', 'Step 4 — Re-attempt Diagnostic Questions 2 and 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_009', difficulty: 'standard',
-          question: 'Irony in poetry is a contrast between expectation and reality, often revealing.',
+          question: 'Irony and paradox in \'Kubla Khan\' — where opposite things are both true,.',
           hint: 'Review the difference between metaphor (direct comparison) and symbol (object standing.',
           misconception: 'Students often think "symbolism" means "any metaphor" and "irony" means "funny coincidence." In "Kubla Khan," they may.',
           parts: [
@@ -125,7 +125,7 @@ export const c12_eng_k_ch09_p2: SimDef = {
           ],
             remediations: { 'symbolism-means-any-metaphor-and': { steps: ['Re-read the poem focusing only on concrete nouns (dome, river, caves, damsel, milk, honeydew).', 'For each, write one abstract noun it could represent.', 'Revisit the Class 10 node c10_engl_cbse_01_007 (Irony in \'A Letter to God\') to relearn irony types.', 'Write a PEEL paragraph on one symbol and one irony, then compare with the worked examples below.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the meaning.',
+          question: 'Key vocabulary of \'Kubla Khan\' — the words and phrases you must know to read.',
           hint: 'If stuck, review "Imagery and Metaphor" (c12_eng_k_cbse_09_008) — specifically the worked.',
           misconception: 'Students believe "vocabulary in context" means finding a synonym that fits the sentence grammatically.',
           parts: [
@@ -147,7 +147,7 @@ export const c12_eng_k_ch09_p2: SimDef = {
           ],
             remediations: { 'vocabulary-in-context-means-finding': { steps: ['Have the student pick one misunderstood word (e.g., "chasm").', 'Ask them to draw the image the stanza creates around it (the slanted hill, cedarn cover, wailing woman).', 'Have them list 5 adjectives the image forces onto "chasm" (e.g., deep, terrifying, magnetic, ancient, supernatural).', 'Finally, write one sentence using "chasm" that captures *all* those adjectives without naming them.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the systematic analysis of grammatical.',
+          question: 'Language and style in \'Kubla Khan\' — how the writer chose words, sentences and.',
           hint: 'If stuck, review **Class 11 Woven Words Grammar node `c11_eng_w_cbse_01_011`** — it has.',
           misconception: 'Students believe **“poetic grammar = broken grammar”** — they label inversions, ellipses, or archaic forms.',
           parts: [
@@ -166,7 +166,7 @@ export const c12_eng_k_ch09_p2: SimDef = {
           ],
             remediations: { 'poetic-grammar-broken-grammar-they': { steps: ['**Revisit Class 11 Grammar node** `c11_eng_h_cbse_01_011` (or equivalent) on *Sentence Transformation* — practise.', '**Do a “Verb Tense Map”** of *Kubla Khan*: draw three columns (Past / Present / Conditional), list every verb, and.', '**Re-diagnostic**: Give the student a fresh 6-line excerpt (e.g., from *The Rime of the Ancient Mariner*) and ask them.', 'If they still call them “errors,” repeat step 1 with a different text.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require retrieving explicitly stated.',
+          question: 'Literal comprehension of \'Kubla Khan\' — questions answered straight from the.',
           hint: 'Review the distinction between literal and inferential questions using the Class 11.',
           misconception: 'Students often believe inferential questions allow "any personal opinion" as long as it sounds plausible.',
           parts: [

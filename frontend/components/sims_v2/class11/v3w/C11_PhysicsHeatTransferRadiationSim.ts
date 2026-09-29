@@ -6,13 +6,13 @@ import C11_PhysicsHeatTransferRadiationSim from '../../../simulations/c6_12/C11_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsheattransferradiationsim: SimDef = {
     id: 'v3w_c11_physicsheattransferradiationsim',
-    title: 'Heat Transfer Radiation',
+    title: 'Calorimetry: Principle and Method',
     subtitle: 'Covers the calorimetry principle (heat lost = heat gained), the construction and function.',
     classLevel: 11, subject: 'physics', topic: 'Calorimetry: Principle and Method',
     chapters: [],
     nodeIds: ['c11_phy_cbse_10_008', 'c11_phy_cbse_10_011', 'c11_phy_cbse_10_014', 'c11_phy_cbse_10_015', 'c11_phy_cbse_10_001', 'c11_phy_cbse_10_013', 'c11_phy_cbse_10_012', 'c11_phy_cbse_10_002', 'c11_phy_cbse_07_014', 'c11_phy_cbse_11_002', 'c11_phy_cbse_11_011', 'c11_phy_cbse_10_003', 'c11_phy_cbse_10_005', 'c11_phy_cbse_10_006', 'c11_phy_cbse_10_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine placing a hot samosa on a cold plate – the samosa cools while the plate warms until both reach the.', goal: 'Master Heat Transfer Radiation.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine placing a hot samosa on a cold plate – the samosa cools while the plate warms until both reach the.', goal: 'Master Calorimetry: Principle and Method.' },
     discovery: {
         question: 'In a calorimetry experiment to find the specific heat of a metal, a student forgets to dry the metal block after removing it from boiling water.',
         options: ['The calculated specific heat will be HIGHER than the true value', 'water equivalent', 'the droplets cool the block faster, confusing rate with total heat'],
@@ -79,7 +79,7 @@ export const w_c11_physicsheattransferradiationsim: SimDef = {
             { text: 'On an internal wall, there is no strong cold sink; the convection current is weaker and less organized, leading to.', faded: true, blankAnswer: 'The radiator under the window creates a strong convection.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_10_011', title: 'Identify each idea',
-          dissect: { specimen: 'Heat Transfer Radiation', spots: [
+          dissect: { specimen: 'Calorimetry: Principle and Method', spots: [
             { id: 's1', label: 'Calorimetry is the experimental technique', prompt: 'Which idea is this? — Calorimetry is the experimental technique of measuring heat transfer between bodies in an.', answer: 'Calorimetry is the experimental technique', options: ['Calorimetry is the experimental technique', 'Conduction is the mode of', 'Stefan-Boltzmann law states that the', 'Newtons Law of Cooling states'] },
             { id: 's2', label: 'Conduction is the mode of', prompt: 'Which idea is this? — Conduction is the mode of heat transfer between adjacent parts of a material due to a.', answer: 'Conduction is the mode of', options: ['Conduction is the mode of', 'Calorimetry is the experimental technique', 'Stefan-Boltzmann law states that the', 'Newtons Law of Cooling states'] },
             { id: 's3', label: 'Stefan-Boltzmann law states that the', prompt: 'Which idea is this? — Stefan-Boltzmann law states that the total radiant energy emitted per unit time (power.', answer: 'Stefan-Boltzmann law states that the', options: ['Stefan-Boltzmann law states that the', 'Calorimetry is the experimental technique', 'Conduction is the mode of', 'Newtons Law of Cooling states'] },
@@ -88,7 +88,7 @@ export const w_c11_physicsheattransferradiationsim: SimDef = {
             { id: 's6', label: 'Convection is a mode of', prompt: 'Which idea is this? — Convection is a mode of heat transfer in fluids (liquids and gases) where thermal energy.', answer: 'Convection is a mode of', options: ['Convection is a mode of', 'Calorimetry is the experimental technique', 'Conduction is the mode of', 'Stefan-Boltzmann law states that the'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsHeatTransferRadiationSim, prompt: 'Explore the interactive — Heat Transfer Radiation' },
+    explore: { component: C11_PhysicsHeatTransferRadiationSim, prompt: 'Explore the interactive — Calorimetry: Principle and Method' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_10_008', difficulty: 'standard',
           question: 'Calorimetry is the experimental technique of measuring heat transfer between.',

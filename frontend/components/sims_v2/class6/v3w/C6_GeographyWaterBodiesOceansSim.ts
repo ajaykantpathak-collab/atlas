@@ -6,13 +6,13 @@ import C6_GeographyWaterBodiesOceansSim from '../../../simulations/c6_12/C6_Geog
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_geographywaterbodiesoceanssim: SimDef = {
     id: 'v3w_c6_geographywaterbodiesoceanssim',
-    title: 'Water Bodies Oceans',
+    title: 'The Monsoons: India\'s Lifeline',
     subtitle: 'This node covers the basic mechanism of seasonal wind reversal and the importance of the.',
     classLevel: 6, subject: 'geography', topic: 'The Monsoons: India\'s Lifeline',
     chapters: [],
     nodeIds: ['c6_geography_ch03_016', 'c6_geography_ch03_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you are standing on a beach on a hot summer afternoon; why does the breeze feel like it’s blowing.', goal: 'Master Water Bodies Oceans.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you are standing on a beach on a hot summer afternoon; why does the breeze feel like it’s blowing.', goal: 'Master The Monsoons: India\'s Lifeline.' },
     discovery: {
         question: 'What does the word "monsoon" mean, and where does it come from?',
         options: ['It comes from the Arabic word "mausim,"', 'rainy clouds', 'the monsoon is just "rainy clouds" that appear out of nowhere'],
@@ -40,12 +40,12 @@ export const w_c6_geographywaterbodiesoceanssim: SimDef = {
             { text: 'Conclude that Ooty\'s high altitude makes it consistently cooler.', faded: true, blankAnswer: 'Ooty will be cooler because higher altitudes have lower.' }
             ] } },
         { type: 'dissect', nodeId: 'c6_geography_ch03_015', title: 'Identify each idea',
-          dissect: { specimen: 'Water Bodies Oceans', spots: [
+          dissect: { specimen: 'The Monsoons: India\'s Lifeline', spots: [
             { id: 's1', label: 'The monsoon is a seasonal', prompt: 'Which idea is this? — The monsoon is a seasonal reversal of wind patterns that brings heavy, life-sustaining.', answer: 'The monsoon is a seasonal', options: ['The monsoon is a seasonal', 'Climate is the long-term pattern'] },
             { id: 's2', label: 'Climate is the long-term pattern', prompt: 'Which idea is this? — Climate is the long-term pattern of weather conditions—such as temperature, humidity, and.', answer: 'Climate is the long-term pattern', options: ['Climate is the long-term pattern', 'The monsoon is a seasonal'] }
           ] } }
     ],
-    explore: { component: C6_GeographyWaterBodiesOceansSim, prompt: 'Explore the interactive — Water Bodies Oceans' },
+    explore: { component: C6_GeographyWaterBodiesOceansSim, prompt: 'Explore the interactive — The Monsoons: India\'s Lifeline' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_geography_ch03_016', difficulty: 'standard',
           question: 'The monsoon is a seasonal reversal of wind patterns that brings heavy,.',

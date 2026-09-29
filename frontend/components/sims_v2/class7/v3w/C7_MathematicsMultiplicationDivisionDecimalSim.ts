@@ -6,13 +6,13 @@ import C7_MathematicsMultiplicationDivisionDecimalSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsmultiplicationdivisiondecimalsim: SimDef = {
     id: 'v3w_c7_mathematicsmultiplicationdivisiondecimalsim',
-    title: 'Multiplication Division Decimal',
+    title: 'Operations with Large Numbers: Multiplication and Division',
     subtitle: 'Covers multiplication and division of whole numbers up to 8 digits (crores) in the Indian.',
     classLevel: 7, subject: 'mathematics', topic: 'Operations with Large Numbers: Multiplication and Division',
     chapters: [],
     nodeIds: ['c7_math_ch01_011', 'c7_math_ch08_003', 'c7_math_ch12_004', 'c7_math_ch12_006', 'c7_math_ch12_007', 'c7_math_ch12_008', 'c7_math_ch12_009', 'c7_math_ch12_010', 'c7_math_ch10_002', 'c7_math_ch02_002', 'c7_math_ch02_008', 'c7_math_ch01_009', 'c7_math_ch01_006', 'c7_math_ch03_001', 'c7_math_ch12_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine your city\'s municipal corporation collects water bills from 35,420 households every single month, and.', goal: 'Master Multiplication Division Decimal.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine your city\'s municipal corporation collects water bills from 35,420 households every single month, and.', goal: 'Master Operations with Large Numbers: Multiplication and Division.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Operations with large numbers:.', text: 'Operations with large numbers: multiplication and division involves finding the product of multi-digit numbers (up to 8 digits and beyond, into lakhs and crores) or sharing/distributing a large total.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -73,7 +73,7 @@ export const w_c7_mathematicsmultiplicationdivisiondecimalsim: SimDef = {
             { text: 'Interpret the result with units: The total mass is $11.5\\text{ kg}$.', faded: true, blankAnswer: '$11.5\\text{ kg}$' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch08_003', title: 'Identify each idea',
-          dissect: { specimen: 'Multiplication Division Decimal', spots: [
+          dissect: { specimen: 'Operations with Large Numbers: Multiplication and Division', spots: [
             { id: 's1', label: 'Operations with large numbers multiplication', prompt: 'Which idea is this? — Operations with large numbers: multiplication and division involves finding the product.', answer: 'Operations with large numbers multiplication', options: ['Operations with large numbers multiplication', 'Multiplying two fractions involves multiplying', 'Decimal division by a whole', 'Multiplying a decimal number by'] },
             { id: 's2', label: 'Multiplying two fractions involves multiplying', prompt: 'Which idea is this? — Multiplying two fractions involves multiplying their numerators together to form the new.', answer: 'Multiplying two fractions involves multiplying', options: ['Multiplying two fractions involves multiplying', 'Operations with large numbers multiplication', 'Decimal division by a whole', 'Multiplying a decimal number by'] },
             { id: 's3', label: 'Decimal division by a whole', prompt: 'Which idea is this? — Decimal division by a whole number is the process of splitting a decimal quantity into a.', answer: 'Decimal division by a whole', options: ['Decimal division by a whole', 'Operations with large numbers multiplication', 'Multiplying two fractions involves multiplying', 'Multiplying a decimal number by'] },
@@ -82,7 +82,7 @@ export const w_c7_mathematicsmultiplicationdivisiondecimalsim: SimDef = {
             { id: 's6', label: 'Solving word problems involving decimal', prompt: 'Which idea is this? — Solving word problems involving decimal multiplication and division requires translating.', answer: 'Solving word problems involving decimal', options: ['Solving word problems involving decimal', 'Operations with large numbers multiplication', 'Multiplying two fractions involves multiplying', 'Decimal division by a whole'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsMultiplicationDivisionDecimalSim, prompt: 'Explore the interactive — Multiplication Division Decimal' },
+    explore: { component: C7_MathematicsMultiplicationDivisionDecimalSim, prompt: 'Explore the interactive — Operations with Large Numbers: Multiplication and Division' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch01_011', difficulty: 'standard',
           question: 'Operations with large numbers: multiplication and division involves finding the.',

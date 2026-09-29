@@ -6,13 +6,13 @@ import C8_ScienceTheAmazingWorldOfSolutesSim from '../../../simulations/c6_12/C8
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_sciencetheamazingworldofsolutessim: SimDef = {
     id: 'v3w_c8_sciencetheamazingworldofsolutessim',
-    title: 'The Amazing World Of Solutes',
+    title: 'Solution: Definition and Components (Solute + Solvent)',
     subtitle: 'This node covers the definition of a solution, the distinction between solute and.',
     classLevel: 8, subject: 'science', topic: 'Solution: Definition and Components (Solute + Solvent)',
     chapters: [],
     nodeIds: ['c8_physics_ch5_1'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Observe a glass of nimbu pani (lemonade) being made at home: sugar crystals disappear when stirred into.', goal: 'Master The Amazing World Of Solutes.' },
+    scenario: { role: 'a class 8 learner', intro: 'Observe a glass of nimbu pani (lemonade) being made at home: sugar crystals disappear when stirred into.', goal: 'Master Solution: Definition and Components (Solute + Solvent).' },
     discovery: {
         question: 'Air is a solution of gases. Which gas is the solvent and which are solutes? Explain why air qualifies as a solution even though all components are gases.',
         options: ['In air, nitrogen (~78%) is the solvent', 'oxygen is the solvent', 'the solute is always the solid and the solvent is always the liquid'],
@@ -33,7 +33,7 @@ export const w_c8_sciencetheamazingworldofsolutessim: SimDef = {
             { text: 'For (d) bronze: Typically 88% copper, 12% tin. Copper is the majority. Solvent = copper, solute = tin.', faded: true, blankAnswer: '(a) Solute: CO₂, Solvent: H₂O; (b) Solute: Cu/Ag, Solvent:.' }
             ] } }
     ],
-    explore: { component: C8_ScienceTheAmazingWorldOfSolutesSim, prompt: 'Explore the interactive — The Amazing World Of Solutes' },
+    explore: { component: C8_ScienceTheAmazingWorldOfSolutesSim, prompt: 'Explore the interactive — Solution: Definition and Components (Solute + Solvent)' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch5_1', difficulty: 'standard',
           question: 'A solution is a homogeneous mixture of two or more substances where the.',

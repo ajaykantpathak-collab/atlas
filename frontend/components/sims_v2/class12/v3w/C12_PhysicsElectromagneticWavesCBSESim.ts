@@ -6,13 +6,13 @@ import C12_PhysicsElectromagneticWavesCBSESim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicselectromagneticwavescbsesim: SimDef = {
     id: 'v3w_c12_physicselectromagneticwavescbsesim',
-    title: 'Electromagnetic Waves CBSE',
+    title: 'Displacement Current: Maxwell\'s Correction',
     subtitle: 'Covers the conceptual origin of displacement current, its mathematical formulation \\( i_d.',
     classLevel: 12, subject: 'physics', topic: 'Displacement Current: Maxwell\'s Correction',
     chapters: [],
     nodeIds: ['c12_phy_cbse_08_001', 'c12_phy_cbse_08_002', 'c12_phy_cbse_08_003', 'c12_phy_cbse_08_004', 'c12_phy_cbse_08_005', 'c12_phy_cbse_11_001', 'c12_phy_cbse_11_003', 'c12_phy_cbse_11_002', 'c12_phy_cbse_11_004', 'c12_phy_cbse_11_005', 'c12_phy_cbse_11_006', 'c12_phy_cbse_06_001', 'c12_phy_cbse_06_002', 'c12_phy_cbse_06_003', 'c12_phy_cbse_06_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a mobile phone charging via a USB-C cable — current flows through the wires, but between the.', goal: 'Master Electromagnetic Waves CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a mobile phone charging via a USB-C cable — current flows through the wires, but between the.', goal: 'Master Displacement Current: Maxwell\'s Correction.' },
     discovery: {
         question: 'In a charging capacitor, the conduction current \\( i_c \\) in the connecting wires is 2.0 A.',
         options: ['The magnetic fields at P and M are equal in magnitude', 'B is zero at M', 'not real'],
@@ -81,7 +81,7 @@ export const w_c12_physicselectromagneticwavescbsesim: SimDef = {
             { text: 'Power on emitter P = I × A = (5.0 × 10⁻³) × (2.0 × 10⁻⁴) = 1.0 × 10⁻⁶ W = 1.0 × 10⁻⁶ J/s.', faded: true, blankAnswer: '(a) 2.76 eV (b) Yes, emission occurs (c) Kₘₐₓ = 0.48 eV =.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_08_002', title: 'Identify each idea',
-          dissect: { specimen: 'Electromagnetic Waves CBSE', spots: [
+          dissect: { specimen: 'Displacement Current: Maxwell\'s Correction', spots: [
             { id: 's1', label: 'Displacement current is a term', prompt: 'Which idea is this? — Displacement current is a term introduced by Maxwell to generalize Ampere\'s circuital.', answer: 'Displacement current is a term', options: ['Displacement current is a term', 'Maxwells equations in vacuum are', 'The electromagnetic spectrum is the', 'An electromagnetic wave is a'] },
             { id: 's2', label: 'Maxwells equations in vacuum are', prompt: 'Which idea is this? — Maxwell\'s equations in vacuum are a set of four fundamental equations that describe how.', answer: 'Maxwells equations in vacuum are', options: ['Maxwells equations in vacuum are', 'Displacement current is a term', 'The electromagnetic spectrum is the', 'An electromagnetic wave is a'] },
             { id: 's3', label: 'The electromagnetic spectrum is the', prompt: 'Which idea is this? — The electromagnetic spectrum is the continuous distribution of electromagnetic waves.', answer: 'The electromagnetic spectrum is the', options: ['The electromagnetic spectrum is the', 'Displacement current is a term', 'Maxwells equations in vacuum are', 'An electromagnetic wave is a'] },
@@ -90,7 +90,7 @@ export const w_c12_physicselectromagneticwavescbsesim: SimDef = {
             { id: 's6', label: 'The photoelectric effect is the', prompt: 'Which idea is this? — The photoelectric effect is the phenomenon where electrons (photoelectrons) are emitted.', answer: 'The photoelectric effect is the', options: ['The photoelectric effect is the', 'Displacement current is a term', 'Maxwells equations in vacuum are', 'The electromagnetic spectrum is the'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsElectromagneticWavesCBSESim, prompt: 'Explore the interactive — Electromagnetic Waves CBSE' },
+    explore: { component: C12_PhysicsElectromagneticWavesCBSESim, prompt: 'Explore the interactive — Displacement Current: Maxwell\'s Correction' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_08_001', difficulty: 'standard',
           question: 'Displacement current is a term introduced by Maxwell to generalize Ampere\'s.',

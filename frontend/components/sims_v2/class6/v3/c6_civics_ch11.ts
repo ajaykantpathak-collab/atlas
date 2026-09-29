@@ -95,6 +95,10 @@ export const c6_civics_ch11: SimDef = {
                 { id: 'a', prompt: 'What are the three main things a government does for its citizens?', answer: 'The government makes laws, enforces those laws, and provides public services',
                   options: ['The government makes laws, enforces those laws, and provides public services', 'protecting the country', 'making laws', 'Government'],
                   hint: 'Review the school rules chapter or discuss the "rules of a game" activity.',
+                  misconception: 'Students often believe "Government" refers only to the Prime Minister or the President.' },
+                { id: 'b', prompt: 'A new shopping mall is being built in your city. How does the government\'s role ensure the building is safe for people to visit?', answer: 'Identify the need for safety standards',
+                  options: ['Identify the need for safety standards', 'national issues, not everyday safety', 'the government only deals with "big" national issues, not everyday safety', '"Government" refers only to the Prime Minister or the President'],
+                  hint: 'Review the school rules chapter or discuss the "rules of a game" activity.',
                   misconception: 'Students often believe "Government" refers only to the Prime Minister or the President.' }
           ],
             remediations: { 'government-refers-only-to-the': { steps: ['Ask the student to name three people they saw on their way to school: a traffic police officer, a school teacher, and.', 'Explain that all three represent the government in different ways because they are providing public safety, education.', 'Reiterate that the government is the whole machine, not just the "boss."'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },

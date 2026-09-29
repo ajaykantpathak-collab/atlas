@@ -6,13 +6,13 @@ import C6_PhysicsUniformNonuniformMotionSim from '../../../simulations/c6_12/C6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_physicsuniformnonuniformmotionsim: SimDef = {
     id: 'v3w_c6_physicsuniformnonuniformmotionsim',
-    title: 'Uniform Nonuniform Motion',
+    title: 'Understanding Speed',
     subtitle: 'This node covers the definition and calculation of speed using the formula Speed =.',
     classLevel: 6, subject: 'physics', topic: 'Understanding Speed',
     chapters: [],
     nodeIds: ['c6_physics_ch08_029', 'c6_physics_ch08_031', 'c6_physics_ch08_030'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you and your friend are both running to the school gate.', goal: 'Master Uniform Nonuniform Motion.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you and your friend are both running to the school gate.', goal: 'Master Understanding Speed.' },
     discovery: {
         question: 'What is the mathematical formula used to calculate the speed of a moving object?',
         options: ['The formula is Speed = Distance / Time', 'Distance times Time', 'Time divided by Distance'],
@@ -51,13 +51,13 @@ export const w_c6_physicsuniformnonuniformmotionsim: SimDef = {
             { text: 'Result = 40 km/h.', faded: true, blankAnswer: '40 km/h' }
             ] } },
         { type: 'dissect', nodeId: 'c6_physics_ch08_031', title: 'Identify each idea',
-          dissect: { specimen: 'Uniform Nonuniform Motion', spots: [
+          dissect: { specimen: 'Understanding Speed', spots: [
             { id: 's1', label: 'Speed is a measure of', prompt: 'Which idea is this? — Speed is a measure of how fast an object changes its position, calculated by dividing the.', answer: 'Speed is a measure of', options: ['Speed is a measure of', 'Non-uniform motion is the movement', 'Uniform motion occurs when an'] },
             { id: 's2', label: 'Non-uniform motion is the movement', prompt: 'Which idea is this? — Non-uniform motion is the movement of an object where its speed changes over time,.', answer: 'Non-uniform motion is the movement', options: ['Non-uniform motion is the movement', 'Speed is a measure of', 'Uniform motion occurs when an'] },
             { id: 's3', label: 'Uniform motion occurs when an', prompt: 'Which idea is this? — Uniform motion occurs when an object moves in a straight line at a constant speed,.', answer: 'Uniform motion occurs when an', options: ['Uniform motion occurs when an', 'Speed is a measure of', 'Non-uniform motion is the movement'] }
           ] } }
     ],
-    explore: { component: C6_PhysicsUniformNonuniformMotionSim, prompt: 'Explore the interactive — Uniform Nonuniform Motion' },
+    explore: { component: C6_PhysicsUniformNonuniformMotionSim, prompt: 'Explore the interactive — Understanding Speed' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_physics_ch08_029', difficulty: 'standard',
           question: 'Speed is a measure of how fast an object changes its position, calculated by.',

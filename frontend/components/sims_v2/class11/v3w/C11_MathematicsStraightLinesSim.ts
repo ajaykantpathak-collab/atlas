@@ -6,13 +6,13 @@ import C11_MathematicsStraightLinesSim from '../../../simulations/c6_12/C11_Math
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathematicsstraightlinessim: SimDef = {
     id: 'v3w_c11_mathematicsstraightlinessim',
-    title: 'Straight Lines',
+    title: 'Distance Between Two Points',
     subtitle: 'Covers the distance formula in a 2D Cartesian coordinate system, its algebraic.',
     classLevel: 11, subject: 'mathematics', topic: 'Distance Between Two Points',
     chapters: [],
     nodeIds: ['c11_math_cbse_10_002', 'c11_math_cbse_10_007', 'c11_math_cbse_10_009', 'c11_math_cbse_10_010', 'c11_math_cbse_10_011', 'c11_math_cbse_10_012', 'c11_math_cbse_10_013', 'c11_math_cbse_11_009', 'c11_math_cbse_02_006', 'c11_math_cbse_10_001', 'c11_math_cbse_10_003', 'c11_math_cbse_10_004', 'c11_math_cbse_10_005', 'c11_math_cbse_10_006', 'c11_math_cbse_10_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at your school gate (point A) and your friend is at the bus stop (point B).', goal: 'Master Straight Lines.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at your school gate (point A) and your friend is at the bus stop (point B).', goal: 'Master Distance Between Two Points.' },
     discovery: {
         question: 'State the condition for two lines with slopes m₁ and m₂ to be (i) parallel, (ii) perpendicular. What is the slope of a line parallel to the y-axis?',
         options: ['(i) m₁ = m₂; (ii) m₁ × m₂ = -1 (provided neither is vertical)', 'm₁ = -m₂ for perpendicular', 'slope of y-axis is 0'],
@@ -81,7 +81,7 @@ export const w_c11_mathematicsstraightlinessim: SimDef = {
             { text: 'Verify: x-intercept (set y=0): x=6 ✓; y-intercept (set x=0): -y=6 → y=-6 ✓; point (4,-2): 4-(-2)=6 ✓.', faded: true, blankAnswer: 'Intercept form: \\(\\frac{x}{6} - \\frac{y}{6} = 1\\); General.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_10_007', title: 'Identify each idea',
-          dissect: { specimen: 'Straight Lines', spots: [
+          dissect: { specimen: 'Distance Between Two Points', spots: [
             { id: 's1', label: 'The distance between two points', prompt: 'Which idea is this? — The distance between two points \\(P(x_1, y_1)\\) and \\(Q(x_2, y_2)\\) in the Cartesian.', answer: 'The distance between two points', options: ['The distance between two points', 'Two non-vertical lines are parallel', 'The point-slope form of a', 'The two-point form gives the'] },
             { id: 's2', label: 'Two non-vertical lines are parallel', prompt: 'Which idea is this? — Two non-vertical lines are parallel if and only if their slopes are equal (m₁ = m₂).', answer: 'Two non-vertical lines are parallel', options: ['Two non-vertical lines are parallel', 'The distance between two points', 'The point-slope form of a', 'The two-point form gives the'] },
             { id: 's3', label: 'The point-slope form of a', prompt: 'Which idea is this? — The point-slope form of a straight line states that if a line has slope \\(m\\) and passes.', answer: 'The point-slope form of a', options: ['The point-slope form of a', 'The distance between two points', 'Two non-vertical lines are parallel', 'The two-point form gives the'] },
@@ -90,7 +90,7 @@ export const w_c11_mathematicsstraightlinessim: SimDef = {
             { id: 's6', label: 'The intercept form of a', prompt: 'Which idea is this? — The intercept form of a straight line is the equation of a line that makes non-zero.', answer: 'The intercept form of a', options: ['The intercept form of a', 'The distance between two points', 'Two non-vertical lines are parallel', 'The point-slope form of a'] }
           ] } }
     ],
-    explore: { component: C11_MathematicsStraightLinesSim, prompt: 'Explore the interactive — Straight Lines' },
+    explore: { component: C11_MathematicsStraightLinesSim, prompt: 'Explore the interactive — Distance Between Two Points' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_10_002', difficulty: 'standard',
           question: 'The distance between two points \\(P(x_1, y_1)\\) and \\(Q(x_2, y_2)\\) in the.',

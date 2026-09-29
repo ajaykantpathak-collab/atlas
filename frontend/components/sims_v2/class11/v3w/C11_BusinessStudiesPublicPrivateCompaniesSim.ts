@@ -6,13 +6,13 @@ import C11_BusinessStudiesPublicPrivateCompaniesSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_businessstudiespublicprivatecompaniessim: SimDef = {
     id: 'v3w_c11_businessstudiespublicprivatecompaniessim',
-    title: 'Public Private Companies',
+    title: 'Documents for Incorporation: Memorandum of Association (MoA)',
     subtitle: 'This node covers the definition, five clauses, prescribed forms (Tables A–E), signing.',
     classLevel: 11, subject: 'business_studies', topic: 'Documents for Incorporation: Memorandum of Association (MoA)',
     chapters: [],
     nodeIds: ['c11_bs_cbse_07_004', 'c11_bs_cbse_07_007', 'c11_bs_cbse_07_008', 'c11_bs_cbse_03_001', 'c11_bs_cbse_03_005', 'c11_bs_cbse_03_006', 'c11_bs_cbse_03_010', 'c11_bs_cbse_03_007', 'c11_bs_cbse_02_008', 'c11_bs_cbse_02_009', 'c11_bs_cbse_02_011', 'c11_bs_cbse_03_002', 'c11_bs_cbse_03_003', 'c11_bs_cbse_03_004', 'c11_bs_cbse_04_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a promoter, Avtar, who has invented a fuel-efficient carburettor and wants to incorporate.', goal: 'Master Public Private Companies.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a promoter, Avtar, who has invented a fuel-efficient carburettor and wants to incorporate.', goal: 'Master Documents for Incorporation: Memorandum of Association (MoA).' },
     discovery: {
         question: 'A public company files a prospectus and receives applications for 85% of the issue size.',
         options: ['The 90% minimum subscription rule is a statutory protection for investors', 'the company can allot proportionately', 'minimum subscription achieved = automatic allotment'],
@@ -82,7 +82,7 @@ export const w_c11_businessstudiespublicprivatecompaniessim: SimDef = {
             { text: 'Link to 1991 policy: "Bring down government equity in non-strategic PSUs to 26% or lower" — this step moves towards.', faded: true, blankAnswer: 'Disinvestment proceeds = ₹2,900 crore. This is NOT.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bs_cbse_07_007', title: 'Identify each idea',
-          dissect: { specimen: 'Public Private Companies', spots: [
+          dissect: { specimen: 'Documents for Incorporation: Memorandum of Association (MoA)', spots: [
             { id: 's1', label: 'The Memorandum of Association MoA', prompt: 'Which idea is this? — The Memorandum of Association (MoA) is the charter document of a company that defines its.', answer: 'The Memorandum of Association MoA', options: ['The Memorandum of Association MoA', 'Capital subscription is the third', 'The Certificate of Commencement of', 'The private sector comprises business'] },
             { id: 's2', label: 'Capital subscription is the third', prompt: 'Which idea is this? — Capital subscription is the third stage in the formation of a public company where it.', answer: 'Capital subscription is the third', options: ['Capital subscription is the third', 'The Memorandum of Association MoA', 'The Certificate of Commencement of', 'The private sector comprises business'] },
             { id: 's3', label: 'The Certificate of Commencement of', prompt: 'Which idea is this? — The Certificate of Commencement of Business is a legal document issued by the Registrar.', answer: 'The Certificate of Commencement of', options: ['The Certificate of Commencement of', 'The Memorandum of Association MoA', 'Capital subscription is the third', 'The private sector comprises business'] },
@@ -91,7 +91,7 @@ export const w_c11_businessstudiespublicprivatecompaniessim: SimDef = {
             { id: 's6', label: 'The changing role of the', prompt: 'Which idea is this? — The changing role of the public sector refers to the strategic shift in government policy.', answer: 'The changing role of the', options: ['The changing role of the', 'The Memorandum of Association MoA', 'Capital subscription is the third', 'The Certificate of Commencement of'] }
           ] } }
     ],
-    explore: { component: C11_BusinessStudiesPublicPrivateCompaniesSim, prompt: 'Explore the interactive — Public Private Companies' },
+    explore: { component: C11_BusinessStudiesPublicPrivateCompaniesSim, prompt: 'Explore the interactive — Documents for Incorporation: Memorandum of Association (MoA)' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bs_cbse_07_004', difficulty: 'standard',
           question: 'The Memorandum of Association (MoA) is the charter document of a company that.',

@@ -6,13 +6,13 @@ import C11_PhysicsThermalPropertiesOfMatterSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsthermalpropertiesofmattersim: SimDef = {
     id: 'v3w_c11_physicsthermalpropertiesofmattersim',
-    title: 'Thermal Properties Of Matter',
+    title: 'Temperature and Heat: Distinction',
     subtitle: 'This node covers the fundamental distinction between temperature (intensive state.',
     classLevel: 11, subject: 'physics', topic: 'Temperature and Heat: Distinction',
     chapters: [],
     nodeIds: ['c11_phy_cbse_10_001', 'c11_phy_cbse_10_012', 'c11_phy_cbse_10_009', 'c11_phy_cbse_11_002', 'c11_phy_cbse_10_003', 'c11_phy_cbse_10_004', 'c11_phy_cbse_10_005', 'c11_phy_cbse_10_011', 'c11_phy_cbse_10_013', 'c11_phy_cbse_04_002', 'c11_phy_cbse_14_002', 'c11_phy_cbse_10_002', 'c11_phy_cbse_10_006', 'c11_phy_cbse_10_014', 'c11_phy_cbse_11_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Place a steel spoon and a wooden spoon in a mug of hot tea. After 30 seconds, touch both handles — the steel.', goal: 'Master Thermal Properties Of Matter.' },
+    scenario: { role: 'a class 11 learner', intro: 'Place a steel spoon and a wooden spoon in a mug of hot tea. After 30 seconds, touch both handles — the steel.', goal: 'Master Temperature and Heat: Distinction.' },
     discovery: {
         question: 'Define temperature and heat. State their SI units. Is heat a property of a system? Justify your answer in one sentence.',
         options: ['Temperature is an intensive thermodynamic variable measuring degree of hotness', 'heat is energy stored in a body', 'heat is a form of energy stored in a body'],
@@ -81,7 +81,7 @@ export const w_c11_physicsthermalpropertiesofmattersim: SimDef = {
             { text: 'The frame (made of same steel) also has β = 2.4×10⁻⁵ K⁻¹, so its inner area expands by the same fractional amount.', faded: true, blankAnswer: '3.0072 m²; yes, it fits.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_10_012', title: 'Identify each idea',
-          dissect: { specimen: 'Thermal Properties Of Matter', spots: [
+          dissect: { specimen: 'Temperature and Heat: Distinction', spots: [
             { id: 's1', label: 'Temperature is an intensive thermodynamic', prompt: 'Which idea is this? — Temperature is an intensive thermodynamic quantity that quantifies the degree of hotness.', answer: 'Temperature is an intensive thermodynamic', options: ['Temperature is an intensive thermodynamic', 'Thermal conductivity K is a', 'Change of state is a', 'The Zeroth Law of Thermodynamics'] },
             { id: 's2', label: 'Thermal conductivity K is a', prompt: 'Which idea is this? — Thermal conductivity (K) is a material property that quantifies the ability of a.', answer: 'Thermal conductivity K is a', options: ['Thermal conductivity K is a', 'Temperature is an intensive thermodynamic', 'Change of state is a', 'The Zeroth Law of Thermodynamics'] },
             { id: 's3', label: 'Change of state is a', prompt: 'Which idea is this? — Change of state is a physical process where matter transitions between solid, liquid, and.', answer: 'Change of state is a', options: ['Change of state is a', 'Temperature is an intensive thermodynamic', 'Thermal conductivity K is a', 'The Zeroth Law of Thermodynamics'] },
@@ -90,7 +90,7 @@ export const w_c11_physicsthermalpropertiesofmattersim: SimDef = {
             { id: 's6', label: 'The coefficient of area expansion', prompt: 'Which idea is this? — The coefficient of area expansion (β) is defined as the fractional increase in area per.', answer: 'The coefficient of area expansion', options: ['The coefficient of area expansion', 'Temperature is an intensive thermodynamic', 'Thermal conductivity K is a', 'Change of state is a'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsThermalPropertiesOfMatterSim, prompt: 'Explore the interactive — Thermal Properties Of Matter' },
+    explore: { component: C11_PhysicsThermalPropertiesOfMatterSim, prompt: 'Explore the interactive — Temperature and Heat: Distinction' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_10_001', difficulty: 'standard',
           question: 'Temperature is an intensive thermodynamic quantity that quantifies the degree.',

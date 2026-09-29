@@ -47,7 +47,7 @@ export const C6_GRAM_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Sentences Do Four Jobs And Each Job Has a",
+    "title": "Sentences Do Four Jobs And Each Job Has",
     "text": "Sentences do four jobs and each job has a name: declarative (states), interrogative (asks), imperative (commands/requests), exclamatory (exclaims). The punctuation is the costume — the job is the meaning: 'Close the door.' commands; 'What a shot!' exclaims.",
     "emoji": "🎓",
     "bgColor": "from-violet-400 to-purple-500"

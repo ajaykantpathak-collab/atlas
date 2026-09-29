@@ -6,13 +6,13 @@ import C12_BiologyOriginLifeSim from '../../../simulations/c6_12/C12_BiologyOrig
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologyoriginlifesim: SimDef = {
     id: 'v3w_c12_biologyoriginlifesim',
-    title: 'Origin Life',
+    title: 'Cancer: Types and Causes',
     subtitle: 'Covers: histological classification of cancers (carcinoma, sarcoma, leukemia, lymphoma),.',
     classLevel: 12, subject: 'biology', topic: 'Cancer: Types and Causes',
     chapters: [],
     nodeIds: ['c12_bio_cbse_08_007', 'c12_bio_cbse_08_002', 'c12_bio_cbse_08_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: a family member or neighbor diagnosed with "cancer" — the word carries.', goal: 'Master Origin Life.' },
+    scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: a family member or neighbor diagnosed with "cancer" — the word carries.', goal: 'Master Cancer: Types and Causes.' },
     discovery: {
         question: 'A patient has a tumor originating from the epithelial lining of the bronchus.',
         options: ['The cancer is a carcinoma', 'cancer is a single disease', 'all cancers are caused by viruses'],
@@ -54,13 +54,13 @@ export const w_c12_biologyoriginlifesim: SimDef = {
             { text: 'Final plan — Lumpectomy + sentinel node biopsy → whole breast RT → tamoxifen × 5-10 years.', faded: true, blankAnswer: 'Stage IA (T1cN0M0), Luminal A subtype, low clinical risk..' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_08_002', title: 'Identify each idea',
-          dissect: { specimen: 'Origin Life', spots: [
+          dissect: { specimen: 'Cancer: Types and Causes', spots: [
             { id: 's1', label: 'Cancer is a group of', prompt: 'Which idea is this? — Cancer is a group of diseases characterized by uncontrolled and abnormal cell division.', answer: 'Cancer is a group of', options: ['Cancer is a group of', 'Mode of transmission refers to', 'Cancer diagnosis is the systematic'] },
             { id: 's2', label: 'Mode of transmission refers to', prompt: 'Which idea is this? — Mode of transmission refers to the specific pathway by which an infectious agent.', answer: 'Mode of transmission refers to', options: ['Mode of transmission refers to', 'Cancer is a group of', 'Cancer diagnosis is the systematic'] },
             { id: 's3', label: 'Cancer diagnosis is the systematic', prompt: 'Which idea is this? — Cancer diagnosis is the systematic process of identifying malignant neoplasms through.', answer: 'Cancer diagnosis is the systematic', options: ['Cancer diagnosis is the systematic', 'Cancer is a group of', 'Mode of transmission refers to'] }
           ] } }
     ],
-    explore: { component: C12_BiologyOriginLifeSim, prompt: 'Explore the interactive — Origin Life' },
+    explore: { component: C12_BiologyOriginLifeSim, prompt: 'Explore the interactive — Cancer: Types and Causes' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_08_007', difficulty: 'standard',
           question: 'Cancer is a group of diseases characterized by uncontrolled and abnormal cell.',

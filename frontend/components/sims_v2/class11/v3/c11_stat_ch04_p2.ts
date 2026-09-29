@@ -110,8 +110,8 @@ export const c11_stat_ch04_p2: SimDef = {
           hint: 'Revisit Class 9 Maths Chapter 3 (Coordinate Geometry) — specifically plotting points and.',
           misconception: 'Students believe that the straight line segments in an arithmetic line graph represent the *actual path* of the.',
           parts: [
-                { id: 'a', prompt: 'Given the following data for a company\'s quarterly profit (₹ crore): Q1: 12, Q2: 15, Q3: 10, Q4: 18, Q5: 14, Q6: 20.', answer: 'Steps: (1) X-axis: quarters 1-6, 1 cm = 1 quarter',
-                  options: ['Steps: (1) X-axis: quarters 1-6, 1 cm = 1 quarter', 'GDP grew steadily each month between 2019 and 2020'],
+                { id: 'a', prompt: 'Given the following data for a company\'s quarterly profit (₹ crore): Q1: 12, Q2: 15, Q3: 10, Q4: 18, Q5: 14, Q6: 20.', answer: '(1) X-axis: quarters 1-6, 1 cm = 1 quarter',
+                  options: ['(1) X-axis: quarters 1-6, 1 cm = 1 quarter', 'GDP grew steadily each month between 2019 and 2020'],
                   hint: 'Revisit Class 9 Maths Chapter 3 (Coordinate Geometry) — specifically plotting points and.',
                   misconception: 'Students believe that the straight line segments in an arithmetic line graph represent the *actual path* of the variable between.' },
                 { id: 'b', prompt: 'Two arithmetic line graphs are drawn for the same monthly temperature data (Jan-Dec): Graph A uses 1 cm = 1 month on x-axis and 1 cm = 5°C on y-axis; Graph.', answer: 'Graph A will show steeper slopes (larger visual angle)',

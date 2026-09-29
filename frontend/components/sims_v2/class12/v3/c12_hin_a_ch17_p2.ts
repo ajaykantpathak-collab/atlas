@@ -19,7 +19,7 @@ export const c12_hin_a_ch17_p2: SimDef = {
         hook: 'Mishra insists on \'aangan\' over the Sanskritised \'angana\' — the lived word carries cow-dung smell and children\'s play; the formal word is sterile. And tyag is redefined: not self-denial or heroic martyrdom but daily, uncelebrated duty — a mother\'s life as art.',
     },
     teaching: [
-        { title: 'कुटज — गौण विषय', text: 'गौण विषय (Sub-theme) वे सहायक विषय हैं जो कृति के मुख्य विषय को विस्तार देते हैं, उसे पुष्ट करते हैं, या उसके विभिन्न पहलुओं को उजागर करते हैं; ये कथा/पाठ में समानांतर चलते हुए मुख्य संदेश को गहराई.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'कुटज — गौण विषय', text: '\'अंतरा भाग-2 — पाठ 17\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_17_007', title: 'Your mission',
@@ -28,6 +28,31 @@ export const c12_hin_a_ch17_p2: SimDef = {
         context: 'Stand in a courtyard at dawn: watch the space reveal itself as process, not object; weigh name against essence; and test whether sacrifice is suffering or transcendence.',
         labels: ['कुटज — गौण विषय', 'कुटज — साहित्यिक युक्तियाँ', 'कुटज — पदावली: मुख्य', 'कुटज — व्याकरण: पाठ', 'कुटज — बोध-प्रश्न: वस्तुनिष्ठ'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_17_007', title: 'कुटज — गौण विषय',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 17\' में अंतरा-भाग-2-—-पाठ-17 जैसे सहायक विचार आते हैं।',
+            decisions: [{ prompt: 'What is the definition of a secondary theme in literature, and how does it differ from the primary theme?', options: [
+                { text: 'A secondary theme is a subordinate idea that runs through a text alongside the primary', outcome: 'A secondary theme is a subordinate idea that runs through a text alongside the primary theme.' },
+                { text: 'belonging', outcome: 'Not quite — Students often treat every topic the story touches (birds, nests, village life) as a "theme".', reveals: 'students-often-treat-every-topic' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_17_008', title: 'कुटज — साहित्यिक युक्तियाँ: बिंब और रूपक',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 17\' में बिंब ढूँढिए — अंतरा-भाग-2-—-पाठ-17 — ये दृश्य पाठ को जीवंत बनाते हैं।',
+            decisions: [{ prompt: 'Define "imagery" (बिंब) and "metaphor" (रूपक) in your own words, and give one example of each from daily life (not from the textbook).', options: [
+                { text: 'Imagery: Language that appeals to the senses to create a mental picture (e.g., "The', outcome: 'Imagery: Language that appeals to the senses to create a mental picture (e.g., "The sizzling sound.' },
+                { text: 'exam is *like* a mountain', outcome: 'Not quite — Students treat imagery and metaphor as *identification exercises* — "Find the metaphor in paragraph.', reveals: 'students-treat-imagery-and-metaphor' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_17_009', title: 'कुटज — साहित्यिक युक्तियाँ: विरोधाभास और प्रतीक',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 17\' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।',
+            decisions: [{ prompt: 'Define irony and symbolism in your own words, then give one example of each from the essay "oqQVt" (do not use the uke/:i distinction for.', options: [
+                { text: '**Correct answer:** Irony: a contrast between what is said/expected and what is', outcome: '**Correct answer:** Irony: a contrast between what is said/expected and what is meant/happens.' },
+                { text: 'the author says X means Y', outcome: 'Not quite — Students often think **symbolism = "the author says X means Y"** (a fixed code) and **irony.', reveals: 'symbolism-the-author-says-x' },
+                { text: 'saying the opposite for humor/sarcasm', outcome: 'Not quite — Students often think **symbolism = "the author says X means Y"** (a fixed code) and **irony.', reveals: 'symbolism-the-author-says-x' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_17_012', title: 'कुटज — बोध-प्रश्न: वस्तुनिष्ठ और आशय-सूचक',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 17\' के तथ्य: रचनाकार NCERT पाठ्यपुस्तक, विषय \'अंतरा भाग-2।',
+            decisions: [{ prompt: '"ओकवट" पाठ में लेखक ने ओकवट के किन दो भौतिक विशेषताओं का उल्लेख किया है? (केवल पाठ से सीधे उद्धृत करें)', options: [
+                { text: '**Correct answer:** पाठ में ओकवट की "लम्बी-लम्बी डालियाँ" और "छोटी-बड़ी पत्तियों" का सीधा', outcome: '**Correct answer:** पाठ में ओकवट की "लम्बी-लम्बी डालियाँ" और "छोटी-बड़ी पत्तियों" का सीधा उल्लेख है.' },
+                { text: ')। **What a wrong answer reveals:** If', outcome: 'Not quite — **Students treat inferential questions as "opinion questions" — they write what they *feel* the.', reveals: 'students-treat-inferential-questions-as' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_17_007', title: 'Use it in the wild',
           caseStudy: { intro: 'At a housing-for-all poster contest, a teammate\'s entry shows a glossy apartment block with the line \'shelter = square feet.\' You recall the essay that starts on a mud-walled village lane and ends in a Sanskrit verse on what makes a dwelling a home.',
             decisions: [{ prompt: 'How would the essay \'कुटिर\' reframe the poster?', options: [
@@ -47,71 +72,94 @@ export const c12_hin_a_ch17_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_17_007', difficulty: 'standard',
-          question: 'गौण विषय (Sub-theme) वे सहायक विषय हैं जो कृति के मुख्य विषय को विस्तार देते.',
-          hint: 'यदि मुख्य विषय स्पष्ट नहीं है, तो c12_hin_a_cbse_17_006 नोड के \'WORKED_EXAMPLE_1\' और.',
-          misconception: 'छात्र समझते हैं कि \'गौण विषय\' का अर्थ \'कम महत्वपूर्ण विषय\' होता है, इसलिए वे परीक्षा में केवल मुख्य विषय लिखकर पूर्णांक.',
+          question: '\'अंतरा भाग-2 — पाठ 17\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
+          hint: 'If unable to separate primary from secondary themes, review node 006\'s worked examples.',
+          misconception: 'Students often treat every topic the story touches (birds, nests, village life) as a "theme", confusing subject matter.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme) वे सहायक विषय हैं जो कृति के मुख्य विषय को विस्तार देते हैं, उसे',
-                  options: ['गौण विषय (Sub-theme) वे सहायक विषय हैं जो कृति के मुख्य विषय को विस्तार देते हैं, उसे', '\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक, ऐतिहासिक और', 'कथानक (Plot) घटनाओं का तार्किक और कारण-कार्यात्मक क्रम है जो संघर्ष से आरंभ होकर', 'पाठ्य-परिवेश वह समय, स्थान और सामाजिक परिस्थितियाँ हैं जिनमें कोई कथा घटित होती है, जबकि'],
-                  hint: 'यदि मुख्य विषय स्पष्ट नहीं है, तो c12_hin_a_cbse_17_006 नोड के \'WORKED_EXAMPLE_1\' और.',
-                  misconception: 'छात्र समझते हैं कि \'गौण विषय\' का अर्थ \'कम महत्वपूर्ण विषय\' होता है, इसलिए वे परीक्षा में केवल मुख्य विषय लिखकर पूर्णांक पाने की आशा करते.' }
+                { id: 'a', prompt: 'Choose one secondary theme from "oqQVt" (e.g., dignity of labor) and show how you would apply the PEEL structure (Point, Evidence, Explanation, Link) to write.', answer: 'Point: The story champions the dignity of manual labor',
+                  options: ['Point: The story champions the dignity of manual labor', 'belonging'],
+                  hint: 'If unable to separate primary from secondary themes, review node 006\'s worked examples and practice.',
+                  misconception: 'Students often treat every topic the story touches (birds, nests, village life) as a "theme", confusing subject matter with thematic idea.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: कुटज पाठ को फिर से पढ़ें और केवल उन प्रसंगों को चिह्नित करें जो मुख्य कथा (नायक-कुटज संवाद/स्मृति) से हटकर हैं.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-every-topic': { steps: ['Re-read the story highlighting only passages where a character *reflects* or *judges* (internal monologue, dialogue.', 'Convert each highlighted passage into a "The author suggests that..." sentence.', 'Group sentences that share the same abstract noun (identity, labor, prejudice).', 'Verify each group against the primary theme: does it support, complicate, or contrast?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_17_007', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often treat every topic the story touches (birds, nests, village life) as a "theme", confusing subject matter.',
+          parts: [
+                { id: 'a', prompt: 'Critically evaluate the statement: "The secondary theme of identity in \'oqQVt\' is ultimately resolved when the protagonist accepts his given name." Defend your.', answer: 'The statement is false; the protagonist never accepts his given name',
+                  options: ['The statement is false; the protagonist never accepts his given name', 'belonging'],
+                  hint: 'If unable to separate primary from secondary themes, review node 006\'s worked examples and practice.',
+                  misconception: 'Students often treat every topic the story touches (birds, nests, village life) as a "theme", confusing subject matter with thematic idea.' }
+          ],
+            remediations: { 'students-often-treat-every-topic': { steps: ['Re-read the story highlighting only passages where a character *reflects* or *judges* (internal monologue, dialogue.', 'Convert each highlighted passage into a "The author suggests that..." sentence.', 'Group sentences that share the same abstract noun (identity, labor, prejudice).', 'Verify each group against the primary theme: does it support, complicate, or contrast?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_17_008', difficulty: 'standard',
-          question: 'बिंब वह संवेदनात्मक विवरण है जो दृष्टि, श्रवण आदि इंद्रियों के माध्यम से भावना.',
-          hint: 'अगर बिंब-रूपक के भावनात्मक प्रभाव को समझने में कठिनाई हो, तो c11_hin_a_cbse_08_008.',
-          misconception: 'छात्र अक्सर बिंब और रूपक को सिर्फ "सुंदर भाषा" या "वर्णनात्मक अतिरिक्त" मानते हैं, और इसलिए वे इनकी पहचान तो कर लेते.',
+          question: '\'अंतरा भाग-2 — पाठ 17\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
+          hint: 'If stuck on "quality transferred," review the Class 11 metaphor worksheet.',
+          misconception: 'Students treat imagery and metaphor as *identification exercises* — "Find the metaphor in paragraph 3" — rather than.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बिंब वह संवेदनात्मक विवरण है जो दृष्टि, श्रवण आदि इंद्रियों के माध्यम से भावना या विचार',
-                  options: ['बिंब वह संवेदनात्मक विवरण है जो दृष्टि, श्रवण आदि इंद्रियों के माध्यम से भावना या विचार', '\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक, ऐतिहासिक और', 'कथानक (Plot) घटनाओं का तार्किक और कारण-कार्यात्मक क्रम है जो संघर्ष से आरंभ होकर', 'पाठ्य-परिवेश वह समय, स्थान और सामाजिक परिस्थितियाँ हैं जिनमें कोई कथा घटित होती है, जबकि'],
-                  hint: 'अगर बिंब-रूपक के भावनात्मक प्रभाव को समझने में कठिनाई हो, तो c11_hin_a_cbse_08_008 revisit करें और.',
-                  misconception: 'छात्र अक्सर बिंब और रूपक को सिर्फ "सुंदर भाषा" या "वर्णनात्मक अतिरिक्त" मानते हैं, और इसलिए वे इनकी पहचान तो कर लेते हैं लेकिन उनके.' }
+                { id: 'a', prompt: 'Identify the extended metaphor in this passage: "नाम में क्या धरा है... नाम की सार्थकता ही होती है कि उससे सामाजिक स्थिति झलकती है...', answer: 'Domain A (source): Physical label/tag (नाम',
+                  options: ['Domain A (source): Physical label/tag (नाम', 'name represents identity'],
+                  hint: 'If stuck on "quality transferred," review the Class 11 metaphor worksheet (c11_hin_ar_cbse_01_008).',
+                  misconception: 'Students treat imagery and metaphor as *identification exercises* — "Find the metaphor in paragraph 3" — rather than *argument-analysis.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को पहले एकदम सरल वाक्य दें: "वह कमरे में बैठी थी।" फिर पूछें: इस वाक्य से आपको क्या भावना आती है?', 'जब वे कहेंगे "कोई खास नहीं", तो कहें: अब देखिए — "वह टूटे हुए खिलौने से भरे कमरे में बैठी थी, खिड़की से टूटा हुआ प्रकाश.', 'इस तुलना के माध्यम से बताइए कि बिंब कैसे भावना जोड़ता है — फिर इसी तर्क को रूपक पर बढ़ाइए: "जीवन एक बंधित नदी" कहने से.', 'इस प्रकार सजावट से अर्थ तक की यात्रा को अनुभवात्मक बनाकर, छात्र को इन उपकरणों के कार्यात्मक महत्व को समझने में मदद.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-imagery-and-metaphor': { steps: ['Re-read the essay *only for sensory verbs* — circle every word indicating sight, sound, smell, touch, taste (e.g.', 'For each circled word, ask: "What abstract idea is this sensory detail *carrying*?" Write the equation: [Sensory.', 'Pick the three strongest equations and write one PEEL paragraph for each: Point (the metaphor), Evidence (quoted.', 'Compare your paragraphs with the worked examples below. If the "Explanation" step feels weak, revisit Class 11 node.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_17_009', difficulty: 'standard',
-          question: 'विरोधाभास वह साहित्यिक युक्ति है जिसमें दो विपरीत विचारों या स्थितियों को एक.',
-          hint: 'यदि विद्यार्थी प्रतीक के अर्थ को समझने में कठिनाई महसूस कर रहा है, तो उसे.',
-          misconception: 'विद्यार्थी अक्सर कुटज में प्रतीक को उसकी सांस्कृतिक या धार्मिक पहचान तक सीमित रखते हैं — जैसे कि पीपल का पत्ता केवल.',
+          question: '\'अंतरा भाग-2 — पाठ 17\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+          hint: 'If stuck, review the "upekshit" (neglected) vs "pujit" (worshipped) contrast in the.',
+          misconception: 'Students often think **symbolism = "the author says X means Y"** (a fixed code) and **irony = "saying the opposite for.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'विरोधाभास वह साहित्यिक युक्ति है जिसमें दो विपरीत विचारों या स्थितियों को एक साथ रखा जाता',
-                  options: ['विरोधाभास वह साहित्यिक युक्ति है जिसमें दो विपरीत विचारों या स्थितियों को एक साथ रखा जाता', '\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक, ऐतिहासिक और', 'कथानक (Plot) घटनाओं का तार्किक और कारण-कार्यात्मक क्रम है जो संघर्ष से आरंभ होकर', 'पाठ्य-परिवेश वह समय, स्थान और सामाजिक परिस्थितियाँ हैं जिनमें कोई कथा घटित होती है, जबकि'],
-                  hint: 'यदि विद्यार्थी प्रतीक के अर्थ को समझने में कठिनाई महसूस कर रहा है, तो उसे c12_hin_a_cbse_17_008.',
-                  misconception: 'विद्यार्थी अक्सर कुटज में प्रतीक को उसकी सांस्कृतिक या धार्मिक पहचान तक सीमित रखते हैं — जैसे कि पीपल का पत्ता केवल इसलिए प्रतीक है क्योंकि.' }
+                { id: 'a', prompt: 'Define irony and symbolism in your own words, then give one example of each from the essay "oqQVt" (do not use the uke/:i distinction for symbolism).', answer: '**Correct answer:** Irony: a contrast between what is said/expected and what is',
+                  options: ['**Correct answer:** Irony: a contrast between what is said/expected and what is', 'the author says X means Y', 'saying the opposite for humor/sarcasm', 'family'],
+                  hint: 'If stuck, review the "upekshit" (neglected) vs "pujit" (worshipped) contrast in the Rama-house.',
+                  misconception: 'Students often think **symbolism = "the author says X means Y"** (a fixed code) and **irony = "saying the opposite for humor/sarcasm."**.' },
+                { id: 'b', prompt: 'The author writes: "*uke blfy, cM+k ugha gS fd og uke gSA og blfy, cM+k gksrk gS fd mls lkekftd LohÑfr feyh gksrh gSA*" (The name is not big because it is.', answer: '**Correct answer:** The irony is that a name (uke)',
+                  options: ['**Correct answer:** The irony is that a name (uke)', 'the name is important', 'the author says X means Y', 'saying the opposite for humor/sarcasm'],
+                  hint: 'If stuck, review the "upekshit" (neglected) vs "pujit" (worshipped) contrast in the Rama-house.',
+                  misconception: 'Students often think **symbolism = "the author says X means Y"** (a fixed code) and **irony = "saying the opposite for humor/sarcasm."**.' },
+                { id: 'c', prompt: 'Analyze how the author uses the symbol of "thuk" (sacrifice) in the passage "*thuk Hkh ,d dyk gS*...', answer: '**Correct answer:** "Thuk" (sacrifice) is symbolized as both an art (dyk) and a',
+                  options: ['**Correct answer:** "Thuk" (sacrifice) is symbolized as both an art (dyk) and a', 'only as', 'the author says X means Y', 'saying the opposite for humor/sarcasm'],
+                  hint: 'If stuck, review the "upekshit" (neglected) vs "pujit" (worshipped) contrast in the Rama-house.',
+                  misconception: 'Students often think **symbolism = "the author says X means Y"** (a fixed code) and **irony = "saying the opposite for humor/sarcasm."**.' }
           ],
-            remediations: { 'hindu': { steps: ['छात्र को उपन्यास से दो विशिष्ट उदाहरण दें: एक जहाँ पीपल का पत्ता शांतिपूर्वक दिखाया गया है (जैसे पात्र उसके नीचे बैठकर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'symbolism-the-author-says-x': { steps: ['**Re-read the "uke vs :i" section (pages 132-133)** with a two-column note: left column = what society says/does (name.', '**List 5 concrete objects in the essay** (iwQy, iq"i, thuk, jkefxfj ka iq"i, ân;) and for each write: "This.', '**Find 3 moments where the author\'s tone shifts** from description to judgment — mark the ironic gap.', '**Re-attempt Diagnostic Questions 2 and 4** using these notes.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_17_010', difficulty: 'standard',
-          question: 'पदावली (vocabulary) refers to the curated set of key words, phrases, and idioms.',
+          question: '\'अंतरा भाग-2 — पाठ 17\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
           hint: 'यदि प्रतीकवाद स्पष्ट नहीं है, तो c12_hin_a_cbse_17_009 (विरोधाभास और प्रतीक) के \'प्रतीक\'.',
           misconception: '**विशिष्ट भ्रम**: छात्र \'कुटज\', \'अरण्य\', \'तपस्या\' जैसे शब्दों को *केवल* प्रतीक (symbol) मानते हैं और भूल जाते हैं कि.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली (vocabulary) refers to the curated set of key words, phrases, and idioms in a',
-                  options: ['पदावली (vocabulary) refers to the curated set of key words, phrases, and idioms in a', '\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक, ऐतिहासिक और', 'कथानक (Plot) घटनाओं का तार्किक और कारण-कार्यात्मक क्रम है जो संघर्ष से आरंभ होकर', 'पाठ्य-परिवेश वह समय, स्थान और सामाजिक परिस्थितियाँ हैं जिनमें कोई कथा घटित होती है, जबकि'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 17\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
+                  options: ['\'अंतरा भाग-2 — पाठ 17\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 17\' का कथानक — \'अंतरा भाग-2 — पाठ 17\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 17\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि प्रतीकवाद स्पष्ट नहीं है, तो c12_hin_a_cbse_17_009 (विरोधाभास और प्रतीक) के \'प्रतीक\' खंड को.',
                   misconception: '**विशिष्ट भ्रम**: छात्र \'कुटज\', \'अरण्य\', \'तपस्या\' जैसे शब्दों को *केवल* प्रतीक (symbol) मानते हैं और भूल जाते हैं कि उपन्यास में ये.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**पुनः पाठ पढ़ें** (15 मिनट): कुटज के उन 3-4 पृष्ठों को चिह्नित करें जहाँ \'कुटज\', \'अरण्य\', \'तपस्या\' शब्द आए हैं — केवल.', '**तुलना तालिका बनाएं** (10 मिनट): प्रत्येक शब्द के लिए दो कॉलम — \'शाब्दिक/यथार्थवादी प्रसंग\' और \'प्रतीकात्मक अर्थ\'।.', '**पुनः निदान** (5 मिनट): DIAGNOSTIC_QUESTION_1 और _2 को दोबारा हल करें — अब दोनों स्तरों पर उत्तर दें। यदि अभी भी केवल.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_17_011', difficulty: 'standard',
-          question: 'कुटज पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा उपयोग किए गए वाक्य संरचना.',
+          question: '\'अंतरा भाग-2 — पाठ 17\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य.',
           hint: 'यदि फंसे हुए हों, तो कुटज — पात्र-चित्रण: सहायक पात्र (c12_hin_a_cbse_17_005) और कुटज.',
           misconception: 'छात्र अक्सर कुटज पाठ में भाषा-प्रयोग के विश्लेषण को केवल "कठिन शब्दों का अर्थ निकालना" या "मुहावरों की सूची बनाना".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कुटज पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा उपयोग किए गए वाक्य संरचना, विराम चिह्न,',
-                  options: ['कुटज पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा उपयोग किए गए वाक्य संरचना, विराम चिह्न,', '\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक, ऐतिहासिक और', 'कथानक (Plot) घटनाओं का तार्किक और कारण-कार्यात्मक क्रम है जो संघर्ष से आरंभ होकर', 'पाठ्य-परिवेश वह समय, स्थान और सामाजिक परिस्थितियाँ हैं जिनमें कोई कथा घटित होती है, जबकि'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 17\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली',
+                  options: ['\'अंतरा भाग-2 — पाठ 17\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 17\' का कथानक — \'अंतरा भाग-2 — पाठ 17\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 17\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि फंसे हुए हों, तो कुटज — पात्र-चित्रण: सहायक पात्र (c12_hin_a_cbse_17_005) और कुटज — मुख्य विषय.',
                   misconception: 'छात्र अक्सर कुटज पाठ में भाषा-प्रयोग के विश्लेषण को केवल "कठिन शब्दों का अर्थ निकालना" या "मुहावरों की सूची बनाना" मानते हैं, जबकि वास्तव.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को दिए गए एक अंश में वाक्य की लंबाई और विराम चिह्नों पर ध्यान देने के लिए कहें: पहला कदम है वाक्य को पढ़कर.', 'क्या वे अनिश्चितता दिखाती हैं?" फिर मुहावरे के साथ दोहराएं: मुहावरा पहचानें, उसका शब्दार्थ अर्थ बताएं, फिर पूछें: "इस.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_17_012', difficulty: 'standard',
-          question: 'वस्तुनिष्ठ प्रश्न वे होते हैं जिनका एक निश्चित सही उत्तर होता है और जिन्हें.',
-          hint: 'यदि फंसें, तो कक्षा 11 के बोध-प्रश्न नोड (c11_hin_a_cbse_01_012) की समीक्षा करें ताकि.',
-          misconception: 'छात्र अक्सर मान लेते हैं कि यदि एक प्रश्न में "क्यों", "क्या दर्शाता है", या "कैसे" जैसे शब्द हैं, तो यह स्वचालित रूप.',
+          question: '\'अंतरा भाग-2 — पाठ 17\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
+          hint: 'If stuck on evidence-location: Revisit **c12_hin_a_cbse_17_002 (Plot and Narrative.',
+          misconception: '**Students treat inferential questions as "opinion questions" — they write what they *feel* the text means instead.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न वे होते हैं जिनका एक निश्चित सही उत्तर होता है और जिन्हें तथ्यात्मक',
-                  options: ['वस्तुनिष्ठ प्रश्न वे होते हैं जिनका एक निश्चित सही उत्तर होता है और जिन्हें तथ्यात्मक', '\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक, ऐतिहासिक और', 'कथानक (Plot) घटनाओं का तार्किक और कारण-कार्यात्मक क्रम है जो संघर्ष से आरंभ होकर', 'पाठ्य-परिवेश वह समय, स्थान और सामाजिक परिस्थितियाँ हैं जिनमें कोई कथा घटित होती है, जबकि'],
-                  hint: 'यदि फंसें, तो कक्षा 11 के बोध-प्रश्न नोड (c11_hin_a_cbse_01_012) की समीक्षा करें ताकि मूलभूत अंतर.',
-                  misconception: 'छात्र अक्सर मान लेते हैं कि यदि एक प्रश्न में "क्यों", "क्या दर्शाता है", या "कैसे" जैसे शब्द हैं, तो यह स्वचालित रूप से आशय-सूचक है, और.' }
+                { id: 'a', prompt: 'पाठ में "नाम" और "रूप" के बीच का अंतर स्पष्ट करते हुए लेखक क्या सुझाता है — कि नाम सामाजिक निर्माण है या व्यक्तिगत पहचान?', answer: '**Correct answer:** लेखक सुझाता है कि **नाम सामाजिक निर्माण है**',
+                  options: ['**Correct answer:** लेखक सुझाता है कि **नाम सामाजिक निर्माण है**', '(पैराग्राफ 4)। रूप व्यक्तिगत सत्य है (', ')। **What a wrong answer reveals:** If'],
+                  hint: 'If stuck on evidence-location: Revisit **c12_hin_a_cbse_17_002 (Plot and Narrative Structure)**.',
+                  misconception: '**Students treat inferential questions as "opinion questions" — they write what they *feel* the text means instead of what the text.' },
+                { id: 'b', prompt: 'पाठ के अंत में लेखक लिखता है: "जीवन के लिये मरना ही एकमात्र कला नहीं...', answer: '**Correct answer:** ओकवट **निःस्वार्थ दान** का मूर्त रूप है',
+                  options: ['**Correct answer:** ओकवट **निःस्वार्थ दान** का मूर्त रूप है', '(शारीरिक बलिदान), (2)', '(अंतिम पैरा', 'हिंस्यात् सर्वा भूतानि'],
+                  hint: 'If stuck on evidence-location: Revisit **c12_hin_a_cbse_17_002 (Plot and Narrative Structure)**.',
+                  misconception: '**Students treat inferential questions as "opinion questions" — they write what they *feel* the text means instead of what the text.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र से कहें कि वह प्रत्येक प्रश्न को दो बार पढ़े: एक बार यह समझने के लिए कि क्या पूछा जा रहा है, और दूसरी बार यह.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-inferential-questions-as': { steps: ['** Give the student a 3-column table: | Question | Literal/Inferential?', '** For each inferential Q, force them to write **two direct quotes** before writing *any* explanation.', '** Use the "Devil\'s Advocate" drill: they must write *one counter-inference* from the same evidence (e.g., "ओकवट.', '** Re-diagnose with Diagnostic Q4 — if they still can\'t produce dialectical evidence, loop to c12_hin_a_cbse_17_006.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

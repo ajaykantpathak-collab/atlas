@@ -6,13 +6,13 @@ import C11_MathematicsFundamentalPrincipleCountingSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathematicsfundamentalprinciplecountingsim: SimDef = {
     id: 'v3w_c11_mathematicsfundamentalprinciplecountingsim',
-    title: 'Fundamental Principle Counting',
+    title: 'Fundamental Principle of Counting',
     subtitle: 'Covers the Multiplication Principle for independent sequential events and its distinction.',
     classLevel: 11, subject: 'mathematics', topic: 'Fundamental Principle of Counting',
     chapters: [],
     nodeIds: ['c11_math_cbse_07_001', 'c11_math_cbse_07_003', 'c11_math_cbse_07_004', 'c11_math_cbse_07_006', 'c11_math_cbse_01_002', 'c11_math_cbse_07_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re packing for a school trip: you have 3 different shirts and 2 different pairs of trousers.', goal: 'Master Fundamental Principle Counting.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re packing for a school trip: you have 3 different shirts and 2 different pairs of trousers.', goal: 'Master Fundamental Principle of Counting.' },
     discovery: {
         question: 'A student solves: "How many 3-digit even numbers can be formed from digits 1, 2, 3, 4, 5 if repetition is allowed?" Their working: "Units digit must be even: 2.',
         options: ['The student\'s answer is correct', 'hundreds digit cannot be 0 so only 4 ways', 'no leading zero'],
@@ -79,7 +79,7 @@ export const w_c11_mathematicsfundamentalprinciplecountingsim: SimDef = {
             { text: 'Compute: \\(6 \\times 120 = 720\\); \\(720 \\times 24 = 17,280\\); \\(17,280 \\times 6 = 103,680\\) ways.', faded: true, blankAnswer: '103,680 ways' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_07_003', title: 'Identify each idea',
-          dissect: { specimen: 'Fundamental Principle Counting', spots: [
+          dissect: { specimen: 'Fundamental Principle of Counting', spots: [
             { id: 's1', label: 'The Fundamental Principle of Counting', prompt: 'Which idea is this? — The Fundamental Principle of Counting (Multiplication Principle) states that if an event.', answer: 'The Fundamental Principle of Counting', options: ['The Fundamental Principle of Counting', 'A permutation is an arrangement', 'A permutation of n distinct', 'The number of permutations of'] },
             { id: 's2', label: 'A permutation is an arrangement', prompt: 'Which idea is this? — A permutation is an arrangement of objects in a specific order where the order of.', answer: 'A permutation is an arrangement', options: ['A permutation is an arrangement', 'The Fundamental Principle of Counting', 'A permutation of n distinct', 'The number of permutations of'] },
             { id: 's3', label: 'A permutation of n distinct', prompt: 'Which idea is this? — A permutation of n distinct objects taken r at a time (where 0 ≤ r ≤ n) is an ordered.', answer: 'A permutation of n distinct', options: ['A permutation of n distinct', 'The Fundamental Principle of Counting', 'A permutation is an arrangement', 'The number of permutations of'] },
@@ -88,7 +88,7 @@ export const w_c11_mathematicsfundamentalprinciplecountingsim: SimDef = {
             { id: 's6', label: 'Word problems on applications of', prompt: 'Which idea is this? — Word problems on applications of permutations require translating real-world scenarios.', answer: 'Word problems on applications of', options: ['Word problems on applications of', 'The Fundamental Principle of Counting', 'A permutation is an arrangement', 'A permutation of n distinct'] }
           ] } }
     ],
-    explore: { component: C11_MathematicsFundamentalPrincipleCountingSim, prompt: 'Explore the interactive — Fundamental Principle Counting' },
+    explore: { component: C11_MathematicsFundamentalPrincipleCountingSim, prompt: 'Explore the interactive — Fundamental Principle of Counting' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_07_001', difficulty: 'standard',
           question: 'The Fundamental Principle of Counting (Multiplication Principle) states that if.',

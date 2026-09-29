@@ -6,13 +6,13 @@ import C11_GeoClimateCBSESim from '../../../simulations/c6_12_new/C11_GeoClimate
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geoclimatecbsesim: SimDef = {
     id: 'v3w_c11_geoclimatecbsesim',
-    title: 'Geo Climate CBSE',
+    title: 'Climate: Factors Affecting India\'s Climate (Latitude, Altitude, Distance)',
     subtitle: 'Covers latitude (tropical/subtropical division at Tropic of Cancer), altitude (lapse rate.',
     classLevel: 11, subject: 'science', topic: 'Climate: Factors Affecting India\'s Climate (Latitude, Altitude, Distance)',
     chapters: [],
     nodeIds: ['c11_geo_cbse_10_001', 'c11_geo_cbse_10_002', 'c11_geo_cbse_10_003', 'c11_geo_cbse_10_004', 'c11_geo_cbse_10_005', 'c11_geo_cbse_10_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe how Shimla (31°N, 2200m) is pleasant in May while Delhi (28°N, 216m) scorches at 45°C — same latitude.', goal: 'Master Geo Climate CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe how Shimla (31°N, 2200m) is pleasant in May while Delhi (28°N, 216m) scorches at 45°C — same latitude.', goal: 'Master Climate: Factors Affecting India\'s Climate (Latitude, Altitude, Distance).' },
     discovery: {
         question: 'A REMEMBER level question: State the approximate latitudinal extent of mainland India and name the parallel that divides the country into tropical and.',
         options: ['Mainland India extends from 8°4\'N to 37°6\'N latitude', 'Equator divides India', '30°N is the dividing line'],
@@ -81,7 +81,7 @@ export const w_c11_geoclimatecbsesim: SimDef = {
             { text: 'Characteristic species — Dipterocarpus indicus (Gurjan), Hopea parviflora (Ironwood), Mesua ferrea (Nagkesar); plus.', faded: true, blankAnswer: 'Tropical Evergreen Forest. Species: Dipterocarpus indicus,.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_geo_cbse_10_002', title: 'Identify each idea',
-          dissect: { specimen: 'Geo Climate CBSE', spots: [
+          dissect: { specimen: 'Climate: Factors Affecting India\'s Climate (Latitude, Altitude, Distance)', spots: [
             { id: 's1', label: 'Indias climate is controlled by', prompt: 'Which idea is this? — India\'s climate is controlled by three primary physiographic factors: **latitude** (8°4\'N.', answer: 'Indias climate is controlled by', options: ['Indias climate is controlled by', 'The Indian monsoon is a', 'The four seasons of IndiaWinter', 'Distribution of rainfall in India'] },
             { id: 's2', label: 'The Indian monsoon is a', prompt: 'Which idea is this? — The Indian monsoon is a seasonal reversal of wind systems driven by differential heating.', answer: 'The Indian monsoon is a', options: ['The Indian monsoon is a', 'Indias climate is controlled by', 'The four seasons of IndiaWinter', 'Distribution of rainfall in India'] },
             { id: 's3', label: 'The four seasons of IndiaWinter', prompt: 'Which idea is this? — The four seasons of India—Winter (December-February), Summer (March-May), Southwest.', answer: 'The four seasons of IndiaWinter', options: ['The four seasons of IndiaWinter', 'Indias climate is controlled by', 'The Indian monsoon is a', 'Distribution of rainfall in India'] },
@@ -90,7 +90,7 @@ export const w_c11_geoclimatecbsesim: SimDef = {
             { id: 's6', label: 'Natural vegetation refers to plant', prompt: 'Which idea is this? — Natural vegetation refers to plant communities that have grown naturally without human.', answer: 'Natural vegetation refers to plant', options: ['Natural vegetation refers to plant', 'Indias climate is controlled by', 'The Indian monsoon is a', 'The four seasons of IndiaWinter'] }
           ] } }
     ],
-    explore: { component: C11_GeoClimateCBSESim, prompt: 'Explore the interactive — Geo Climate CBSE' },
+    explore: { component: C11_GeoClimateCBSESim, prompt: 'Explore the interactive — Climate: Factors Affecting India\'s Climate (Latitude, Altitude, Distance)' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_10_001', difficulty: 'standard',
           question: 'India\'s climate is controlled by three primary physiographic factors:.',

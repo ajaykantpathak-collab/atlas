@@ -6,13 +6,13 @@ import C8_HistoryCivicsBattlePlassey1757Sim from '../../../simulations/c6_12/C8_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_historycivicsbattleplassey1757sim: SimDef = {
     id: 'v3w_c8_historycivicsbattleplassey1757sim',
-    title: 'Battle Plassey1757',
+    title: 'English East India Company: Trading Posts and Expansion',
     subtitle: 'Covers the period 1600–1757: the grant of royal charter, establishment of major factories.',
     classLevel: 8, subject: 'history', topic: 'English East India Company: Trading Posts and Expansion',
     chapters: [],
     nodeIds: ['c8_hist_ch3_5', 'c8_hist_ch3_6', 'c8_hist_ch3_7', 'c8_hist_ch4_1', 'c8_hist_ch3_1'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you are visiting Fort St. George in Chennai today — the first British fortress in India.', goal: 'Master Battle Plassey1757.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you are visiting Fort St. George in Chennai today — the first British fortress in India.', goal: 'Master English East India Company: Trading Posts and Expansion.' },
     discovery: {
         question: 'Why did Mughal Emperor Jahangir grant a farman to the English in 1613 allowing them to establish a factory at Surat?',
         options: ['Jahangir granted the farman', 'the English defeated the Mughals', 'Jahangir wanted to convert to Christianity'],
@@ -69,7 +69,7 @@ export const w_c8_historycivicsbattleplassey1757sim: SimDef = {
             { text: 'Evaluate significance — This created the *template*: armed trade → territorial base → maritime monopoly → political.', faded: true, blankAnswer: 'The Portuguese turned a trade mission into a colonial state.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_hist_ch3_6', title: 'Identify each idea',
-          dissect: { specimen: 'Battle Plassey1757', spots: [
+          dissect: { specimen: 'English East India Company: Trading Posts and Expansion', spots: [
             { id: 's1', label: 'The English East India Company', prompt: 'Which idea is this? — The English East India Company (EIC) established its first trading posts (factories) in.', answer: 'The English East India Company', options: ['The English East India Company', 'The Battle of Plassey 23', 'The Battle of Buxar 1764', 'Early Resistance to British Rule'] },
             { id: 's2', label: 'The Battle of Plassey 23', prompt: 'Which idea is this? — The Battle of Plassey (23 June 1757) was a decisive military engagement near Murshidabad,.', answer: 'The Battle of Plassey 23', options: ['The Battle of Plassey 23', 'The English East India Company', 'The Battle of Buxar 1764', 'Early Resistance to British Rule'] },
             { id: 's3', label: 'The Battle of Buxar 1764', prompt: 'Which idea is this? — The Battle of Buxar (1764) was a decisive military conflict fought between the English.', answer: 'The Battle of Buxar 1764', options: ['The Battle of Buxar 1764', 'The English East India Company', 'The Battle of Plassey 23', 'Early Resistance to British Rule'] },
@@ -77,7 +77,7 @@ export const w_c8_historycivicsbattleplassey1757sim: SimDef = {
             { id: 's5', label: 'Colonialism is a system where', prompt: 'Which idea is this? — Colonialism is a system where a powerful country establishes political control over a.', answer: 'Colonialism is a system where', options: ['Colonialism is a system where', 'The English East India Company', 'The Battle of Plassey 23', 'The Battle of Buxar 1764'] }
           ] } }
     ],
-    explore: { component: C8_HistoryCivicsBattlePlassey1757Sim, prompt: 'Explore the interactive — Battle Plassey1757' },
+    explore: { component: C8_HistoryCivicsBattlePlassey1757Sim, prompt: 'Explore the interactive — English East India Company: Trading Posts and Expansion' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_hist_ch3_5', difficulty: 'standard',
           question: 'The English East India Company (EIC) established its first trading posts.',

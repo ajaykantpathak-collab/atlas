@@ -112,8 +112,8 @@ export const c9_bio_ch02_p2: SimDef = {
                   options: ['The statement is incomplete', 'the statement is fully correct', 'elastic cells', 'stratified'],
                   hint: 'If stuck, revisit c8_bio_ch1_3 (Cell: Basic Unit of Life - Structure and Components) and.',
                   misconception: 'Students believe that "stratified" epithelium means the cells themselves are stacked like bricks in a wall, with each cell spanning.' },
-                { id: 'b', prompt: 'Design a simple microscopic observation activity using prepared slides that would allow a Class 9 student to distinguish between simple cuboidal epithelium.', answer: 'Steps: 1) Focus on low power to see overall tube/cyst structure',
-                  options: ['Steps: 1) Focus on low power to see overall tube/cyst structure', 'stratified'],
+                { id: 'b', prompt: 'Design a simple microscopic observation activity using prepared slides that would allow a Class 9 student to distinguish between simple cuboidal epithelium.', answer: 'Focus on low power to see overall tube/cyst structure',
+                  options: ['Focus on low power to see overall tube/cyst structure', 'stratified'],
                   hint: 'If stuck, revisit c8_bio_ch1_3 (Cell: Basic Unit of Life - Structure and Components) and.',
                   misconception: 'Students believe that "stratified" epithelium means the cells themselves are stacked like bricks in a wall, with each cell spanning.' }
           ],

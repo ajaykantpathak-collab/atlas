@@ -6,13 +6,13 @@ import C11_AppliedMathsComplexNumbersIntroductionSim from '../../../simulations/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_appliedmathscomplexnumbersintroductionsim: SimDef = {
     id: 'v3w_c11_appliedmathscomplexnumbersintroductionsim',
-    title: 'Applied Maths Complex Numbers Introduction',
+    title: 'Need for Complex Numbers: Beyond Real Numbers',
     subtitle: 'This node covers only the motivation for extending \\(\\mathbb{R}\\) to \\(\\mathbb{C}\\) by.',
     classLevel: 11, subject: 'science', topic: 'Need for Complex Numbers: Beyond Real Numbers',
     chapters: [],
     nodeIds: ['c11_math_cbse_05_001', 'c11_math_cbse_05_002', 'c11_math_cbse_05_003', 'c11_math_cbse_05_004', 'c11_math_cbse_05_005', 'c11_math_cbse_05_007', 'c11_math_cbse_05_008', 'c11_math_cbse_05_009', 'c11_math_cbse_05_010', 'c11_math_cbse_05_012', 'c11_math_cbse_09_008', 'c11_math_cbse_04_005', 'c11_math_cbse_03_007', 'c11_math_cbse_03_011', 'c11_math_cbse_03_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are solving a physics problem about a spring-mass system and arrive at the equation \\(x^2 + 9 =.', goal: 'Master Applied Maths Complex Numbers Introduction.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are solving a physics problem about a spring-mass system and arrive at the equation \\(x^2 + 9 =.', goal: 'Master Need for Complex Numbers: Beyond Real Numbers.' },
     discovery: {
         question: 'What is the conjugate of the denominator used when dividing \\(\\frac{2+3i}{4-i}\\), and why do we multiply by it?',
         options: ['The conjugate is \\(4+i\\)', '\\(4-i\\)', '\\(-4+i\\)'],
@@ -78,7 +78,7 @@ export const w_c11_appliedmathscomplexnumbersintroductionsim: SimDef = {
             { text: 'Compute conjugate: \\( \\bar{z} = -\\frac{1}{2} - \\frac{5}{2}i \\).', faded: true, blankAnswer: '\\( z = -\\frac{1}{2} + \\frac{5}{2}i \\), \\( |z| =.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_05_002', title: 'Identify each idea',
-          dissect: { specimen: 'Applied Maths Complex Numbers Introduction', spots: [
+          dissect: { specimen: 'Need for Complex Numbers: Beyond Real Numbers', spots: [
             { id: 's1', label: 'Complex numbers are an extension', prompt: 'Which idea is this? — Complex numbers are an extension of the real number system, defined as numbers of the.', answer: 'Complex numbers are an extension', options: ['Complex numbers are an extension', 'A complex number is a', 'Addition and subtraction of complex', 'The product of two complex'] },
             { id: 's2', label: 'A complex number is a', prompt: 'Which idea is this? — A complex number is a number of the form \\( z = a + ib \\), where \\( a \\) and \\( b \\) are.', answer: 'A complex number is a', options: ['A complex number is a', 'Complex numbers are an extension', 'Addition and subtraction of complex', 'The product of two complex'] },
             { id: 's3', label: 'Addition and subtraction of complex', prompt: 'Which idea is this? — Addition and subtraction of complex numbers are performed by separately adding or.', answer: 'Addition and subtraction of complex', options: ['Addition and subtraction of complex', 'Complex numbers are an extension', 'A complex number is a', 'The product of two complex'] },
@@ -87,7 +87,7 @@ export const w_c11_appliedmathscomplexnumbersintroductionsim: SimDef = {
             { id: 's6', label: 'The modulus of a complex', prompt: 'Which idea is this? — The modulus of a complex number \\( z = a + ib \\) (where \\( a, b \\in \\mathbb{R} \\)) is the.', answer: 'The modulus of a complex', options: ['The modulus of a complex', 'Complex numbers are an extension', 'A complex number is a', 'Addition and subtraction of complex'] }
           ] } }
     ],
-    explore: { component: C11_AppliedMathsComplexNumbersIntroductionSim, prompt: 'Explore the interactive — Applied Maths Complex Numbers Introduction' },
+    explore: { component: C11_AppliedMathsComplexNumbersIntroductionSim, prompt: 'Explore the interactive — Need for Complex Numbers: Beyond Real Numbers' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_05_001', difficulty: 'standard',
           question: 'Complex numbers are an extension of the real number system, defined as numbers.',

@@ -19,31 +19,31 @@ export const c12_eng_k_ch02_p3: SimDef = {
         hook: 'Joyce\'s epiphany isn\'t a joyful aha — it\'s bleak clarity: the organ tune carries her mother\'s fate, and Eveline sees escape as another trap. Modernism\'s move is interiority — \'evening invade the avenue\' — her paralysis is the real plot.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining a text beyond its surface meaning to interpret authorial choices, evaluate competing interpretations, and synthesize textual evidence into.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Eveline\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_02_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Sit at that window in 1904 Dublin: weigh the dusty cretonne, the seven shillings, the deathbed promise and Frank\'s tales — and judge whether Eveline\'s stillness is failure or colonised fate.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_02_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are standing at a railway station, ticket in hand, about to board a train that will take you to a new life in another city — but your feet feel.',
+          caseStudy: { intro: 'Analyse \'Eveline\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What narrative technique does James Joyce primarily use to present Eveline\'s thoughts and feelings in the story?', options: [
                 { text: 'Free indirect discourse (also called free indirect style), where the third-person', outcome: 'Free indirect discourse (also called free indirect style), where the third-person narrator adopts.' },
                 { text: 'first-person narration', outcome: 'Not quite — Students often believe Eveline\'s paralysis is caused solely by fear of the unknown (the sea, Buenos.', reveals: 'eveline-s-paralysis-is-caused' },
                 { text: 'stream of consciousness', outcome: 'Not quite — Students often believe Eveline\'s paralysis is caused solely by fear of the unknown (the sea, Buenos.', reveals: 'eveline-s-paralysis-is-caused' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_02_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re sitting in the CBSE Board exam and see this question: "How does Joyce use the symbol of the window to reveal Eveline\'s paralysis?" Your mind.',
+          caseStudy: { intro: 'For written answers on \'Eveline\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing analytical paragraphs for literature answers?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Point, Example.' },
                 { text: 'Point, Example, Explanation, Language', outcome: 'Not quite — Students believe "writing skills" for literature means memorising sample answers for predicted.', reveals: 'writing-skills-for-literature-means' },
                 { text: 'writing skills', outcome: 'Not quite — Students believe "writing skills" for literature means memorising sample answers for predicted.', reveals: 'writing-skills-for-literature-means' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_02_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re at a family dinner where everyone disagrees about a major life decision — like moving abroad for a job.',
+          caseStudy: { intro: 'Talk through \'Eveline\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'List the two discussion questions given in the NCERT "Talking about the Text" section for *Eveline*.', options: [
                 { text: 'The two questions are: 1) "Deciding between filial duty and the right to personal', outcome: 'The two questions are: 1) "Deciding between filial duty and the right to personal happiness.' },
                 { text: 'A wrong answer (e.g., recalling plot questions like', outcome: 'Not quite — Students believe a literary discussion is just sharing opinions ("I think Eveline should have.', reveals: 'a-literary-discussion-is-just' },
@@ -63,12 +63,12 @@ export const c12_eng_k_ch02_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_02_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining a text beyond its.',
+          question: 'Critical thinking on \'Eveline\' — analysing the text to reach evidence-based.',
           hint: 'Review c12_eng_k_cbse_02_008 (Imagery and Metaphor) for symbol tracking and.',
           misconception: 'Students often believe Eveline\'s paralysis is caused solely by fear of the unknown (the sea, Buenos Aires, Frank\'s true.',
           parts: [
@@ -77,7 +77,7 @@ export const c12_eng_k_ch02_p3: SimDef = {
                   hint: 'Review c12_eng_k_cbse_02_008 (Imagery and Metaphor) for symbol tracking and c12_eng_k_cbse_02_009.',
                   misconception: 'Students often believe Eveline\'s paralysis is caused solely by fear of the unknown (the sea, Buenos Aires, Frank\'s true character).' }
           ],
-            remediations: { 'eveline-s-paralysis-is-caused': { steps: ['Re-read the three "Stop and Think" questions embedded in the NCERT text — they are Joyce\'s own signposts for the.', 'Go to sibling node c12_eng_k_cbse_02_009 (Literary Devices: Irony and Symbolism) and re-do the exercise on the.', 'Practice identifying free indirect discourse: take the paragraph beginning "She had consented to go away..." and.', 'Write a 150-word answer to Diagnostic Question 5 using the PEEL structure (Point, Evidence, Explanation, Link) and.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'eveline-s-paralysis-is-caused': { steps: ['Re-read the three "Stop and Think" questions embedded in the NCERT text — they are Joyce\'s own signposts for the.', 'Go to sibling node c12_eng_k_cbse_02_009 (Literary Devices: Irony and Symbolism) and re-do the exercise on the.', 'Practice identifying free indirect discourse: take the paragraph beginning "She had consented to go away..." and.', 'Write a 150-word answer to Diagnostic Question 5 using the PEEL structure (Point, Evidence, Explanation, Link) and.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_02_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -88,9 +88,9 @@ export const c12_eng_k_ch02_p3: SimDef = {
                   hint: 'Review c12_eng_k_cbse_02_008 (Imagery and Metaphor) for symbol tracking and c12_eng_k_cbse_02_009.',
                   misconception: 'Students often believe Eveline\'s paralysis is caused solely by fear of the unknown (the sea, Buenos Aires, Frank\'s true character).' }
           ],
-            remediations: { 'eveline-s-paralysis-is-caused': { steps: ['Re-read the three "Stop and Think" questions embedded in the NCERT text — they are Joyce\'s own signposts for the.', 'Go to sibling node c12_eng_k_cbse_02_009 (Literary Devices: Irony and Symbolism) and re-do the exercise on the.', 'Practice identifying free indirect discourse: take the paragraph beginning "She had consented to go away..." and.', 'Write a 150-word answer to Diagnostic Question 5 using the PEEL structure (Point, Evidence, Explanation, Link) and.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'eveline-s-paralysis-is-caused': { steps: ['Re-read the three "Stop and Think" questions embedded in the NCERT text — they are Joyce\'s own signposts for the.', 'Go to sibling node c12_eng_k_cbse_02_009 (Literary Devices: Irony and Symbolism) and re-do the exercise on the.', 'Practice identifying free indirect discourse: take the paragraph beginning "She had consented to go away..." and.', 'Write a 150-word answer to Diagnostic Question 5 using the PEEL structure (Point, Evidence, Explanation, Link) and.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_02_014', difficulty: 'standard',
-          question: 'Writing Skills: Based on the Chapter refers to the ability to compose.',
+          question: 'Writing skills from \'Eveline\' — using the text as a model or springboard for.',
           hint: 'If stuck, revisit the "Stop and Think" questions in the NCERT text (pages 13, 15, 17).',
           misconception: 'Students believe "writing skills" for literature means memorising sample answers for predicted questions.',
           parts: [
@@ -103,9 +103,9 @@ export const c12_eng_k_ch02_p3: SimDef = {
                   hint: 'If stuck, revisit the "Stop and Think" questions in the NCERT text (pages 13, 15, 17) — they are.',
                   misconception: 'Students believe "writing skills" for literature means memorising sample answers for predicted questions.' }
           ],
-            remediations: { 'writing-skills-for-literature-means': { steps: ['If a student cannot produce a coherent PEEL paragraph under timed conditions: (1) Return to c12_eng_k_cbse_02_012.', '(2) Practice the "PEEL skeleton" drill: given a prompt, write only the Point and Link sentences in 2 minutes; then add.', '(3) Re-attempt a 6-mark question with the skeleton, then expand.', '(4) If still stuck, revisit c11_eng_h_cbse_01_014 (Class 11 Writing Skills) for the foundational PEEL workshop.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-for-literature-means': { steps: ['If a student cannot produce a coherent PEEL paragraph under timed conditions: (1) Return to c12_eng_k_cbse_02_012.', '(2) Practice the "PEEL skeleton" drill: given a prompt, write only the Point and Link sentences in 2 minutes; then add.', '(3) Re-attempt a 6-mark question with the skeleton, then expand.', '(4) If still stuck, revisit c11_eng_h_cbse_01_014 (Class 11 Writing Skills) for the foundational PEEL workshop.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_02_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points for "Eveline" refers to structured.',
+          question: 'Discussion points on \'Eveline\' — speaking and listening around the text.',
           hint: 'If stuck, revisit c12_eng_k_cbse_02_013 (Critical Thinking) for analytical frameworks and.',
           misconception: 'Students believe a literary discussion is just sharing opinions ("I think Eveline should have left") without textual.',
           parts: [
@@ -114,7 +114,7 @@ export const c12_eng_k_ch02_p3: SimDef = {
                   hint: 'If stuck, revisit c12_eng_k_cbse_02_013 (Critical Thinking) for analytical frameworks and.',
                   misconception: 'Students believe a literary discussion is just sharing opinions ("I think Eveline should have left") without textual anchoring, or that.' }
           ],
-            remediations: { 'a-literary-discussion-is-just': { steps: ['If a student cannot move beyond opinion: 1) Have them re-read the NCERT "Appreciation" questions (symbolism, narrative.', '2) Practice the "Evidence Sandwich" orally: Claim → Quote a phrase → Explain significance.', '3) Do a timed think-pair-share where each partner must use one piece of evidence.', '4) Debrief: "What did your partner\'s evidence add to your view?" This builds the habit of evidence-based talk.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-literary-discussion-is-just': { steps: ['If a student cannot move beyond opinion: 1) Have them re-read the NCERT "Appreciation" questions (symbolism, narrative.', '2) Practice the "Evidence Sandwich" orally: Claim → Quote a phrase → Explain significance.', '3) Do a timed think-pair-share where each partner must use one piece of evidence.', '4) Debrief: "What did your partner\'s evidence add to your view?" This builds the habit of evidence-based talk.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

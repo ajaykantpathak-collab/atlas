@@ -6,13 +6,13 @@ import C11_PhysicsConservationMechanicalEnergySim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsconservationmechanicalenergysim: SimDef = {
     id: 'v3w_c11_physicsconservationmechanicalenergysim',
-    title: 'Conservation Mechanical Energy',
+    title: 'Potential Energy of a Spring',
     subtitle: 'This node covers: Hooke\'s law ($F_s = -kx$), derivation of spring potential energy $U =.',
     classLevel: 11, subject: 'physics', topic: 'Potential Energy of a Spring',
     chapters: [],
     nodeIds: ['c11_phy_cbse_05_008', 'c11_phy_cbse_05_009', 'c11_phy_cbse_05_010', 'c11_phy_cbse_10_008', 'c11_phy_cbse_13_004', 'c11_phy_cbse_04_006', 'c11_phy_cbse_07_001', 'c11_phy_cbse_07_010', 'c11_phy_cbse_05_013', 'c11_phy_cbse_05_014', 'c11_phy_cbse_05_015', 'c11_phy_cbse_06_005', 'c11_phy_cbse_05_012', 'c11_phy_cbse_11_002', 'c11_phy_cbse_11_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a common spring balance used in Indian vegetable markets — when you hang a 1 kg tomato bag, the.', goal: 'Master Conservation Mechanical Energy.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a common spring balance used in Indian vegetable markets — when you hang a 1 kg tomato bag, the.', goal: 'Master Potential Energy of a Spring.' },
     discovery: {
         question: 'A block is moved from point A to point B along two different paths: Path 1 is a straight line, Path 2 is a longer curved path.',
         options: ['For gravity (conservative), \\( W_1 = W_2 \\)', 'work done in a specific displacement', 'work done over any closed path'],
@@ -79,7 +79,7 @@ export const w_c11_physicsconservationmechanicalenergysim: SimDef = {
             { text: 'Interpret: Astronaut recoils at 0.333 m/s opposite to tool kit (negative sign).', faded: true, blankAnswer: '\\(v_a = -0.333\\ \\text{m/s}\\) (opposite to tool kit.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_05_009', title: 'Identify each idea',
-          dissect: { specimen: 'Conservation Mechanical Energy', spots: [
+          dissect: { specimen: 'Potential Energy of a Spring', spots: [
             { id: 's1', label: 'The elastic potential energy of', prompt: 'Which idea is this? — The elastic potential energy of a spring is the energy stored in a spring due to its.', answer: 'The elastic potential energy of', options: ['The elastic potential energy of', 'A force is conservative if', 'The principle of conservation of', 'Calorimetry is the experimental technique'] },
             { id: 's2', label: 'A force is conservative if', prompt: 'Which idea is this? — A force is **conservative** if the work done by it on an object moving between two points.', answer: 'A force is conservative if', options: ['A force is conservative if', 'The elastic potential energy of', 'The principle of conservation of', 'Calorimetry is the experimental technique'] },
             { id: 's3', label: 'The principle of conservation of', prompt: 'Which idea is this? — The principle of conservation of mechanical energy states that in an isolated system.', answer: 'The principle of conservation of', options: ['The principle of conservation of', 'The elastic potential energy of', 'A force is conservative if', 'Calorimetry is the experimental technique'] },
@@ -88,7 +88,7 @@ export const w_c11_physicsconservationmechanicalenergysim: SimDef = {
             { id: 's6', label: 'The law of conservation of', prompt: 'Which idea is this? — The law of conservation of momentum states that for an isolated system (no net external.', answer: 'The law of conservation of', options: ['The law of conservation of', 'The elastic potential energy of', 'A force is conservative if', 'The principle of conservation of'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsConservationMechanicalEnergySim, prompt: 'Explore the interactive — Conservation Mechanical Energy' },
+    explore: { component: C11_PhysicsConservationMechanicalEnergySim, prompt: 'Explore the interactive — Potential Energy of a Spring' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_05_008', difficulty: 'standard',
           question: 'The elastic potential energy of a spring is the energy stored in a spring due.',

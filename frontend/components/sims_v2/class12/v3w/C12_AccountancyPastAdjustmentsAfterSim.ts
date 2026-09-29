@@ -6,13 +6,13 @@ import C12_AccountancyPastAdjustmentsAfterSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_accountancypastadjustmentsaftersim: SimDef = {
     id: 'v3w_c12_accountancypastadjustmentsaftersim',
-    title: 'Past Adjustments After',
+    title: 'Profit and Loss Appropriation Account: Preparation and Format',
     subtitle: 'This node covers the format, preparation, and journal entries for the Profit and Loss.',
     classLevel: 12, subject: 'accountancy', topic: 'Profit and Loss Appropriation Account: Preparation and Format',
     chapters: [],
     nodeIds: ['c12_acc_cbse_01_005', 'c12_acc_cbse_01_008', 'c12_acc_cbse_02_003', 'c12_acc_cbse_01_007', 'c12_acc_cbse_01_010', 'c12_acc_cbse_01_011', 'c12_acc_cbse_02_008', 'c12_acc_cbse_02_009', 'c12_acc_cbse_02_010', 'c12_acc_cbse_02_011', 'c12_acc_cbse_07_010', 'c12_acc_cbse_07_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you and two friends run a bakery partnership. At year-end, your Profit & Loss Account shows ₹5,00,000.', goal: 'Master Past Adjustments After.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you and two friends run a bakery partnership. At year-end, your Profit & Loss Account shows ₹5,00,000.', goal: 'Master Profit and Loss Appropriation Account: Preparation and Format.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'The Profit and Loss Appropriation Account is.', text: 'The Profit and Loss Appropriation Account is a nominal account prepared by partnership firms to show how the net profit (or loss) earned during an accounting period is distributed among partners.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -75,7 +75,7 @@ export const w_c12_accountancypastadjustmentsaftersim: SimDef = {
             { text: 'Verify — Total Capital + Current = Simran ₹6,07,560; Tanya ₹2,86,640. Sum = ₹8,94,200.', faded: true, blankAnswer: 'Simran Capital A/c closing ₹5,00,000 Cr; Current A/c.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_acc_cbse_01_008', title: 'Identify each idea',
-          dissect: { specimen: 'Past Adjustments After', spots: [
+          dissect: { specimen: 'Profit and Loss Appropriation Account: Preparation and Format', spots: [
             { id: 's1', label: 'The Profit and Loss Appropriation', prompt: 'Which idea is this? — The Profit and Loss Appropriation Account is a nominal account prepared by partnership.', answer: 'The Profit and Loss Appropriation', options: ['The Profit and Loss Appropriation', 'Partners Salary is a fixed', 'Goodwill valuation under the Average', 'Interest on Drawings is the'] },
             { id: 's2', label: 'Partners Salary is a fixed', prompt: 'Which idea is this? — Partner\'s Salary is a fixed periodic payment to a working partner for active.', answer: 'Partners Salary is a fixed', options: ['Partners Salary is a fixed', 'The Profit and Loss Appropriation', 'Goodwill valuation under the Average', 'Interest on Drawings is the'] },
             { id: 's3', label: 'Goodwill valuation under the Average', prompt: 'Which idea is this? — Goodwill valuation under the **Average Profit Method** computes goodwill as the product.', answer: 'Goodwill valuation under the Average', options: ['Goodwill valuation under the Average', 'The Profit and Loss Appropriation', 'Partners Salary is a fixed', 'Interest on Drawings is the'] },
@@ -84,7 +84,7 @@ export const w_c12_accountancypastadjustmentsaftersim: SimDef = {
             { id: 's6', label: 'Maintenance of Partners Capital and', prompt: 'Which idea is this? — Maintenance of Partners\' Capital and Current Accounts refers to the systematic recording.', answer: 'Maintenance of Partners Capital and', options: ['Maintenance of Partners Capital and', 'The Profit and Loss Appropriation', 'Partners Salary is a fixed', 'Goodwill valuation under the Average'] }
           ] } }
     ],
-    explore: { component: C12_AccountancyPastAdjustmentsAfterSim, prompt: 'Explore the interactive — Past Adjustments After' },
+    explore: { component: C12_AccountancyPastAdjustmentsAfterSim, prompt: 'Explore the interactive — Profit and Loss Appropriation Account: Preparation and Format' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_acc_cbse_01_005', difficulty: 'standard',
           question: 'The Profit and Loss Appropriation Account is a nominal account prepared by.',

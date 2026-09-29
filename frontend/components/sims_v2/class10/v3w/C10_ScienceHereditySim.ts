@@ -6,13 +6,13 @@ import C10_ScienceHereditySim from '../../../simulations/c6_12/C10_ScienceHeredi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_sciencehereditysim: SimDef = {
     id: 'v3w_c10_sciencehereditysim',
-    title: 'Heredity',
+    title: 'Accumulation of Variation During Reproduction: Basis of Heredity',
     subtitle: 'This node covers the origin and accumulation of variation during reproduction, focusing.',
     classLevel: 10, subject: 'science', topic: 'Accumulation of Variation During Reproduction: Basis of Heredity',
     chapters: [],
     nodeIds: ['c10_bio_cbse_04_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Observe a litter of puppies or a batch of seedlings from the same parent plant — despite having the same.', goal: 'Master Heredity.' },
+    scenario: { role: 'a class 10 learner', intro: 'Observe a litter of puppies or a batch of seedlings from the same parent plant — despite having the same.', goal: 'Master Accumulation of Variation During Reproduction: Basis of Heredity.' },
     discovery: {
         question: 'A farmer grows a crop using vegetative propagation (cuttings) for 10 years. Another farmer grows the same crop from seeds each year.',
         options: ['The seed-grown population will show far more variation', 'mutations', 'halves the chromosome number'],
@@ -33,7 +33,7 @@ export const w_c10_sciencehereditysim: SimDef = {
             { text: 'Interpret biologically: This massive combinatorial variation means even without mutations or crossing over, a single.', faded: true, blankAnswer: '128 distinct gamete types per parent; 16,384 distinct.' }
             ] } }
     ],
-    explore: { component: C10_ScienceHereditySim, prompt: 'Explore the interactive — Heredity' },
+    explore: { component: C10_ScienceHereditySim, prompt: 'Explore the interactive — Accumulation of Variation During Reproduction: Basis of Heredity' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_bio_cbse_04_001', difficulty: 'standard',
           question: 'Accumulation of variation during reproduction refers to the generation of.',

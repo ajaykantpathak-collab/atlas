@@ -6,13 +6,13 @@ import C11_HomeScienceStorageFoodsPerishableSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_homesciencestoragefoodsperishablesim: SimDef = {
     id: 'v3w_c11_homesciencestoragefoodsperishablesim',
-    title: 'Home Science Storage Foods Perishable',
+    title: 'Environmental Hygiene, Sanitation and Food Hygiene',
     subtitle: 'This node covers environmental hygiene components (water, excreta disposal, liquid/solid.',
     classLevel: 11, subject: 'science', topic: 'Environmental Hygiene, Sanitation and Food Hygiene',
     chapters: [],
     nodeIds: ['c11_hs_cbse_07_008', 'c11_hs_cbse_07_011', 'c11_hs_cbse_04_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you visit a relative\'s home in a peri-urban area where the municipal water supply runs only two hours.', goal: 'Master Home Science Storage Foods Perishable.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you visit a relative\'s home in a peri-urban area where the municipal water supply runs only two hours.', goal: 'Master Environmental Hygiene, Sanitation and Food Hygiene.' },
     discovery: {
         question: 'Critique the following statement from a municipal health report: "Our city has achieved 95% toilet coverage under Swachh Bharat Mission, so environmental.',
         options: ['The statement confuses *access to a toilet* (containment) with *safely managed', 'environmental hygiene', 'personal hygiene'],
@@ -51,13 +51,13 @@ export const w_c11_homesciencestoragefoodsperishablesim: SimDef = {
             { text: 'Compare: Intervention B saves 3.6× more total resource cost despite higher capital cost.', faded: true, blankAnswer: 'Intervention B (dishwasher) saves ₹41,792 over 5 years vs.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_hs_cbse_07_011', title: 'Identify each idea',
-          dissect: { specimen: 'Home Science Storage Foods Perishable', spots: [
+          dissect: { specimen: 'Environmental Hygiene, Sanitation and Food Hygiene', spots: [
             { id: 's1', label: 'Environmental hygiene refers to the', prompt: 'Which idea is this? — Environmental hygiene refers to the comprehensive set of practices and conditions in the.', answer: 'Environmental hygiene refers to the', options: ['Environmental hygiene refers to the', 'Work simplification is the conscious', 'Energy conservation in home management'] },
             { id: 's2', label: 'Work simplification is the conscious', prompt: 'Which idea is this? — Work simplification is the conscious seeking of the simplest, easiest, and quickest.', answer: 'Work simplification is the conscious', options: ['Work simplification is the conscious', 'Environmental hygiene refers to the', 'Energy conservation in home management'] },
             { id: 's3', label: 'Energy conservation in home management', prompt: 'Which idea is this? — Energy conservation in home management refers to the deliberate application of work.', answer: 'Energy conservation in home management', options: ['Energy conservation in home management', 'Environmental hygiene refers to the', 'Work simplification is the conscious'] }
           ] } }
     ],
-    explore: { component: C11_HomeScienceStorageFoodsPerishableSim, prompt: 'Explore the interactive — Home Science Storage Foods Perishable' },
+    explore: { component: C11_HomeScienceStorageFoodsPerishableSim, prompt: 'Explore the interactive — Environmental Hygiene, Sanitation and Food Hygiene' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hs_cbse_07_008', difficulty: 'standard',
           question: 'Environmental hygiene refers to the comprehensive set of practices and.',

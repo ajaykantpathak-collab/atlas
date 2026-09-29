@@ -6,13 +6,13 @@ import C11_PoliticalScienceFreedomSim from '../../../simulations/c6_12/C11_Polit
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_politicalsciencefreedomsim: SimDef = {
     id: 'v3w_c11_politicalsciencefreedomsim',
-    title: 'Freedom',
+    title: 'The Ideal of Freedom: Why freedom is valued',
     subtitle: 'This node covers the philosophical justification for valuing freedom, the two core.',
     classLevel: 11, subject: 'political_science', topic: 'The Ideal of Freedom: Why freedom is valued',
     chapters: [],
     nodeIds: ['c11_ps_cbse_02_001', 'c11_ps_cbse_02_002', 'c11_ps_cbse_02_003', 'c11_ps_cbse_02_004', 'c11_ps_cbse_02_005', 'c11_ps_cbse_02_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a Class 11 student, Priya, who wants to pursue a career in music, but her parents insist she prepare.', goal: 'Master Freedom.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a Class 11 student, Priya, who wants to pursue a career in music, but her parents insist she prepare.', goal: 'Master The Ideal of Freedom: Why freedom is valued.' },
     discovery: {
         question: 'According to the NCERT text, what are the two dimensions of freedom discussed in the chapter "Freedom"?',
         options: ['The two dimensions are **Negative Liberty** (freedom as the absence of external', 'Political and Economic freedom', 'Freedom of Expression'],
@@ -77,7 +77,7 @@ export const w_c11_politicalsciencefreedomsim: SimDef = {
             { text: 'Conclusion — The *objective* (preventing harm) is legitimate under the Harm Principle, but the *means* (absolute 500m.', faded: true, blankAnswer: 'The by-law\'s *purpose* satisfies the Harm Principle.' }
             ] } }
     ],
-    explore: { component: C11_PoliticalScienceFreedomSim, prompt: 'Explore the interactive — Freedom' },
+    explore: { component: C11_PoliticalScienceFreedomSim, prompt: 'Explore the interactive — The Ideal of Freedom: Why freedom is valued' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_ps_cbse_02_001', difficulty: 'standard',
           question: 'Freedom, as an ideal, is the condition that allows individuals to be in control.',

@@ -6,13 +6,13 @@ import C12_BiologyEcosystemSim from '../../../simulations/c6_12/C12_BiologyEcosy
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologyecosystemsim: SimDef = {
     id: 'v3w_c12_biologyecosystemsim',
-    title: 'Ecosystem',
+    title: 'Organism and Environment: Habitat and Niche',
     subtitle: 'This node covers definitions of habitat and niche, the concept of ecological niche.',
     classLevel: 12, subject: 'biology', topic: 'Organism and Environment: Habitat and Niche',
     chapters: [],
     nodeIds: ['c12_bio_cbse_13_001', 'c12_bio_cbse_13_002', 'c12_bio_cbse_10_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a banyan tree (Ficus benghalensis) in your neighborhood: it provides habitat for epiphytes, birds,.', goal: 'Master Ecosystem.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a banyan tree (Ficus benghalensis) in your neighborhood: it provides habitat for epiphytes, birds,.', goal: 'Master Organism and Environment: Habitat and Niche.' },
     discovery: {
         question: 'Define habitat and niche. Give one example of an organism where the habitat and niche are clearly distinct.',
         options: ['Habitat is the physical address (e.g., a pond for a frog)', 'frog\'s niche is the pond', 'niche = habitat + food'],
@@ -53,13 +53,13 @@ export const w_c12_biologyecosystemsim: SimDef = {
             { text: 'Conclude — For sustainable management, Bt spray is preferred if applied at correct larval stage and coverage; chemical.', faded: true, blankAnswer: 'Bt formulation is the better first choice for sustainable.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_13_002', title: 'Identify each idea',
-          dissect: { specimen: 'Ecosystem', spots: [
+          dissect: { specimen: 'Organism and Environment: Habitat and Niche', spots: [
             { id: 's1', label: 'Habitat is the specific physical', prompt: 'Which idea is this? — Habitat is the specific physical location or environment where an organism lives,.', answer: 'Habitat is the specific physical', options: ['Habitat is the specific physical', 'Abiotic factors are the non-living', 'Microbes as biocontrol agents are'] },
             { id: 's2', label: 'Abiotic factors are the non-living', prompt: 'Which idea is this? — Abiotic factors are the non-living physical and chemical components of an ecosystem —.', answer: 'Abiotic factors are the non-living', options: ['Abiotic factors are the non-living', 'Habitat is the specific physical', 'Microbes as biocontrol agents are'] },
             { id: 's3', label: 'Microbes as biocontrol agents are', prompt: 'Which idea is this? — Microbes as biocontrol agents are microorganisms (bacteria, fungi, viruses, protozoa).', answer: 'Microbes as biocontrol agents are', options: ['Microbes as biocontrol agents are', 'Habitat is the specific physical', 'Abiotic factors are the non-living'] }
           ] } }
     ],
-    explore: { component: C12_BiologyEcosystemSim, prompt: 'Explore the interactive — Ecosystem' },
+    explore: { component: C12_BiologyEcosystemSim, prompt: 'Explore the interactive — Organism and Environment: Habitat and Niche' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_13_001', difficulty: 'standard',
           question: 'Habitat is the specific physical location or environment where an organism.',

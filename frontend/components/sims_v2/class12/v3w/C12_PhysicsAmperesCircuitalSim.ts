@@ -6,13 +6,13 @@ import C12_PhysicsAmperesCircuitalSim from '../../../simulations/c6_12/C12_Physi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsamperescircuitalsim: SimDef = {
     id: 'v3w_c12_physicsamperescircuitalsim',
-    title: 'Amperes Circuital',
+    title: 'Electric Current: Definition and Direction',
     subtitle: 'This node covers the definition of electric current (steady and instantaneous), its SI.',
     classLevel: 12, subject: 'physics', topic: 'Electric Current: Definition and Direction',
     chapters: [],
     nodeIds: ['c12_phy_cbse_03_001', 'c12_phy_cbse_06_007', 'c12_phy_cbse_06_001', 'c12_phy_cbse_06_002', 'c12_phy_cbse_06_003', 'c12_phy_cbse_06_004', 'c12_phy_cbse_06_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a mobile phone charging: the battery icon shows a lightning bolt, indicating charge flow.', goal: 'Master Amperes Circuital.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a mobile phone charging: the battery icon shows a lightning bolt, indicating charge flow.', goal: 'Master Electric Current: Definition and Direction.' },
     discovery: {
         question: 'A student writes: "Current I = 5 C flowing through a wire." Identify the error and state the correct quantity with its unit.',
         options: ['Error: Current is a rate, not an amount of charge', 'current is a vector', '"current is a vector'],
@@ -70,7 +70,7 @@ export const w_c12_physicsamperescircuitalsim: SimDef = {
             { text: 'For (c), magnetic energy U = ½LI² = 0.5 × 5.03 × 10⁻³ × (6.0)² = 0.5 × 5.03 × 10⁻³ × 36 = 90.54 × 10⁻³ J = 90.5 mJ.', faded: true, blankAnswer: '(a) L = 5.0 mH, (b) |ε_avg| = 60.4 V, (c) U = 90.5 mJ.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_06_007', title: 'Identify each idea',
-          dissect: { specimen: 'Amperes Circuital', spots: [
+          dissect: { specimen: 'Electric Current: Definition and Direction', spots: [
             { id: 's1', label: 'Electric current is the rate', prompt: 'Which idea is this? — Electric current is the rate of flow of net charge across a cross-sectional area of a.', answer: 'Electric current is the rate', options: ['Electric current is the rate', 'Eddy currents are circulating currents', 'Faradays Law of Electromagnetic Induction', 'Lenzs Law states that the'] },
             { id: 's2', label: 'Eddy currents are circulating currents', prompt: 'Which idea is this? — Eddy currents are circulating currents induced in bulk conductors (like metal plates,.', answer: 'Eddy currents are circulating currents', options: ['Eddy currents are circulating currents', 'Electric current is the rate', 'Faradays Law of Electromagnetic Induction', 'Lenzs Law states that the'] },
             { id: 's3', label: 'Faradays Law of Electromagnetic Induction', prompt: 'Which idea is this? — Faraday\'s Law of Electromagnetic Induction states that the magnitude of the induced.', answer: 'Faradays Law of Electromagnetic Induction', options: ['Faradays Law of Electromagnetic Induction', 'Electric current is the rate', 'Eddy currents are circulating currents', 'Lenzs Law states that the'] },
@@ -79,7 +79,7 @@ export const w_c12_physicsamperescircuitalsim: SimDef = {
             { id: 's6', label: 'Self-induction is the phenomenon where', prompt: 'Which idea is this? — Self-induction is the phenomenon where a changing current in a coil induces an opposing.', answer: 'Self-induction is the phenomenon where', options: ['Self-induction is the phenomenon where', 'Electric current is the rate', 'Eddy currents are circulating currents', 'Faradays Law of Electromagnetic Induction'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsAmperesCircuitalSim, prompt: 'Explore the interactive — Amperes Circuital' },
+    explore: { component: C12_PhysicsAmperesCircuitalSim, prompt: 'Explore the interactive — Electric Current: Definition and Direction' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_03_001', difficulty: 'standard',
           question: 'Electric current is the rate of flow of net charge across a cross-sectional.',

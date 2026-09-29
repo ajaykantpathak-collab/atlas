@@ -19,7 +19,7 @@ export const c11_hin_ar_ch14_p3: SimDef = {
         hook: 'A Chhayavad-era woman wrote in Braj Bhasha so village women could read her — and the canon excluded her for decades for exactly that choice.',
     },
     teaching: [
-        { title: 'पाठ 14 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन का अर्थ है किसी साहित्यिक पाठ को गहराई से तोड़कर इसके घटकों — विषय, भाव, भाषा, युक्तियाँ — का विश्लेषण करना और फिर इन घटकों के बीच के संबंधों को समझकर एक तर्कसंगत व्याख्या प्रस्तुत.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 14 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'आरोह भाग-1 — पाठ 14\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_14_013', title: 'Your mission',
@@ -28,11 +28,20 @@ export const c11_hin_ar_ch14_p3: SimDef = {
         context: 'Read the two poems as a diptych — systemic oppression in one, a hunter\'s frozen moral crisis in the other — and judge the unresolved \'if I kill her\' ending.',
         labels: ['पाठ 14 — आलोचनात्मक', 'पाठ 14 — लेखन', 'पाठ 14 — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_14_014', title: 'Identify each idea',
-          dissect: { specimen: 'पाठ 14 · Part 3/3', spots: [
-            { id: 's1', label: '14 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र किसी दिए गए.', answer: '14 -', options: ['14 -', '14 - -'] },
-            { id: 's2', label: '14 - -', prompt: 'Which idea is this? — वाचन-श्रवण: चर्चा-बिंदु एक **संरचित शैक्षणिक प्रक्रिया** है जिसमें शिक्षार्थी पाठ का मौन.', answer: '14 - -', options: ['14 - -', '14 -'] }
-          ] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_14_014', title: 'पाठ 14 — लेखन कौशल: पाठ-आधारित',
+          caseStudy: { intro: '\'आरोह भाग-1 — पाठ 14\' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।',
+            decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing analytical answers for literature?', options: [
+                { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Essay.' },
+                { text: 'Paragraph, Essay, Explain, List', outcome: 'Not quite — Students believe "writing a good answer" means writing a detailed summary of the poem.', reveals: 'writing-a-good-answer-means' },
+                { text: 'writing a good answer', outcome: 'Not quite — Students believe "writing a good answer" means writing a detailed summary of the poem.', reveals: 'writing-a-good-answer-means' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_14_015', title: 'पाठ 14 — वाचन-श्रवण: चर्चा-बिंदु',
+          caseStudy: { intro: '\'आरोह भाग-1 — पाठ 14\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'What is the primary purpose of a literary discussion point in the CBSE Class 11 Hindi Aroh assessment framework?', options: [
+                { text: 'The primary purpose is to evaluate', outcome: 'The primary purpose is to evaluate a student\'s ability to orally analyze literary elements (theme.' },
+                { text: 'to test memory of the poem summary', outcome: 'Not quite — Students believe "discussion points" means preparing 5-6 memorized answers to likely questions.', reveals: 'discussion-points-means-preparing-5' },
+                { text: 'discussion points', outcome: 'Not quite — Students believe "discussion points" means preparing 5-6 memorized answers to likely questions.', reveals: 'discussion-points-means-preparing-5' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_14_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your literary society is debating why a Chhayavad-era queen who wrote in Braj Bhasha — imprisoned by her own husband for writing — was left out of the canon for decades. A member says: \'Probably her poems were just weaker; canon committees judge merit, not politics.\'',
             decisions: [{ prompt: 'What does her case actually reveal?', options: [
@@ -52,38 +61,53 @@ export const c11_hin_ar_ch14_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_14_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन का अर्थ है किसी साहित्यिक पाठ को गहराई से तोड़कर इसके घटकों.',
+          question: '\'आरोह भाग-1 — पाठ 14\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
           hint: 'यदि छात्र विश्लेषण में फंस जाए, तो उसे साहित्यिक युक्तियों की पहचान (नोड 008 और 009) और.',
           misconception: 'कविता के आलोचनात्मक विश्लेषण में छात्र अक्सर यह मान लेते हैं कि यदि वे एक साहित्यिक युक्ति (जैसे रूपक या प्रतीक) की.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन का अर्थ है किसी साहित्यिक पाठ को गहराई से तोड़कर इसके घटकों',
-                  options: ['आलोचनात्मक चिंतन का अर्थ है किसी साहित्यिक पाठ को गहराई से तोड़कर इसके घटकों', '\'पृष्ठभूमि और रचनाकार परिचय\' वह साहित्यिक अवधारणा है जिसमें किसी रचना के लिखे जाने के', 'कथानक किसी कहानी की घटनाओं का क्रमिक विकास है जिसमें परिचय, संघर्ष, चरमोत्कर्ष और समावेश', 'पाठ्य-परिवेश और वातावरण (Textual Setting and Atmosphere) refers to the spatiotemporal,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-1 — पाठ 14\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+                  options: ['\'आरोह भाग-1 — पाठ 14\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-1 — पाठ 14\' का कथानक — \'आरोह भाग-1 — पाठ 14\' — आरोह भाग-1 का पाठ। पाठ का कथानक,', '\'आरोह भाग-1 — पाठ 14\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि छात्र विश्लेषण में फंस जाए, तो उसे साहित्यिक युक्तियों की पहचान (नोड 008 और 009) और विषय की समझ.',
                   misconception: 'कविता के आलोचनात्मक विश्लेषण में छात्र अक्सर यह मान लेते हैं कि यदि वे एक साहित्यिक युक्ति (जैसे रूपक या प्रतीक) की पहचान कर लेते हैं, तो.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को बताइए कि साहित्यिक युक्ति की पहचान करना जैसे रसोई में मसाला पहचानना है — बस इसे नाम देना पर्याप्त नहीं है.', 'यदि मुस्कान एक फूल नहीं होती, तो कैसा अंतर पड़ता?" **चरण 3**: छात्र को उत्तर देने के लिए प्रेरित कीजिए — यदि वे फिसल.', 'क्या यह मुस्कान को नाजुक बनाता है?" **चरण 4**: अंत में, इन अवलोकनों को कविता के बड़े विषय (जैसे सुंदरता की अस्थायित्व.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_14_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र.',
-          hint: 'यदि अटका हुआ महसूस हो, तो **c11_hin_ar_cbse_14_013 (आलोचनात्मक चिंतन: विश्लेषण और.',
-          misconception: '**विशिष्ट भ्रांति:** *"पाठ-आधारित उत्तर लिखने का अर्थ है पाठ की कहानी/कविता को अपने शब्दों में दोहराना (Paraphrasing).',
+          question: '\'आरोह भाग-1 — पाठ 14\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+          hint: 'If stuck, review "Theme: Primary Theme and Message" (c11_hin_ar_cbse_14_006) and.',
+          misconception: 'Students believe "writing a good answer" means writing a detailed summary of the poem in chronological order.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र किसी दिए गए',
-                  options: ['पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र किसी दिए गए', '\'पृष्ठभूमि और रचनाकार परिचय\' वह साहित्यिक अवधारणा है जिसमें किसी रचना के लिखे जाने के', 'कथानक किसी कहानी की घटनाओं का क्रमिक विकास है जिसमें परिचय, संघर्ष, चरमोत्कर्ष और समावेश', 'पाठ्य-परिवेश और वातावरण (Textual Setting and Atmosphere) refers to the spatiotemporal,'],
-                  hint: 'यदि अटका हुआ महसूस हो, तो **c11_hin_ar_cbse_14_013 (आलोचनात्मक चिंतन: विश्लेषण और व्याख्या)** पर.',
-                  misconception: '**विशिष्ट भ्रांति:** *"पाठ-आधारित उत्तर लिखने का अर्थ है पाठ की कहानी/कविता को अपने शब्दों में दोहराना (Paraphrasing), बस थोड़ा छोटा.' }
+                { id: 'a', prompt: 'What does the acronym PEEL stand for in the context of writing analytical answers for literature?', answer: 'PEEL stands for Point, Evidence, Explanation, Link',
+                  options: ['PEEL stands for Point, Evidence, Explanation, Link', 'Paragraph, Essay, Explain, List', 'writing a good answer'],
+                  hint: 'If stuck, review "Theme: Primary Theme and Message" (c11_hin_ar_cbse_14_006) and "Literary Devices.',
+                  misconception: 'Students believe "writing a good answer" means writing a detailed summary of the poem in chronological order.' },
+                { id: 'b', prompt: 'Apply the PEEL structure to answer: "Explain the significance of the word \'pjkpj\' (flutter/wings) in the first poem." Write only the Point and Evidence steps.', answer: 'Point: The onomatopoeic word \'pjkpj\' (vks pjkpj!',
+                  options: ['Point: The onomatopoeic word \'pjkpj\' (vks pjkpj!', 'writing a good answer'],
+                  hint: 'If stuck, review "Theme: Primary Theme and Message" (c11_hin_ar_cbse_14_006) and "Literary Devices.',
+                  misconception: 'Students believe "writing a good answer" means writing a detailed summary of the poem in chronological order.' }
           ],
-            remediations: { 'paraphrasing': { steps: ['**चरण 1 — भेद स्पष्ट करें (Clarify Distinction):** छात्र के सामने **एक ही प्रश्न के दो उत्तर** रखें: एक \'सारांश-शैली\'.', 'बाकी को क्यों छोड़ा?"* इससे **प्रासंगिकता (Relevance)** की समझ बनेगी। **चरण 3 — PEEL मचान (PEEL Scaffolding):** एक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-a-good-answer-means': { steps: ['Give the student a 3-mark question and a model PEEL answer.', 'Color-code the model: Point (Blue), Evidence (Green), Explanation (Yellow), Link (Red).', 'Ask them to highlight the same colors in their own answer.', 'If a color is missing, they rewrite only that component.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_14_014', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe "writing a good answer" means writing a detailed summary of the poem in chronological order.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate this claim: "The second poem weakens the feminist message because the woman prays to a male God (pUuefYydktqZu) for freedom instead of breaking the.', answer: 'Refute',
+                  options: ['Refute', 'writing a good answer'],
+                  hint: 'If stuck, review "Theme: Primary Theme and Message" (c11_hin_ar_cbse_14_006) and "Literary Devices.',
+                  misconception: 'Students believe "writing a good answer" means writing a detailed summary of the poem in chronological order.' }
+          ],
+            remediations: { 'writing-a-good-answer-means': { steps: ['Give the student a 3-mark question and a model PEEL answer.', 'Color-code the model: Point (Blue), Evidence (Green), Explanation (Yellow), Link (Red).', 'Ask them to highlight the same colors in their own answer.', 'If a color is missing, they rewrite only that component.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_14_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु एक **संरचित शैक्षणिक प्रक्रिया** है जिसमें शिक्षार्थी.',
-          hint: 'यदि अटका हुआ महसूस हो तो **नोड 013 (आलोचनात्मक चिंतन: विश्लेषण और व्याख्या)** पर लौटें और.',
-          misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि \'चर्चा-बिंदु\' का अर्थ है **पाठ से तथ्यात्मक प्रश्न पूछना** (जैसे: "नायक का नाम.',
+          question: '\'आरोह भाग-1 — पाठ 14\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'If stuck, review c11_hin_ar_cbse_14_013\'s worked examples on converting textual.',
+          misconception: 'Students believe "discussion points" means preparing 5-6 memorized answers to likely questions (e.g., "theme of the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु एक **संरचित शैक्षणिक प्रक्रिया** है जिसमें शिक्षार्थी पाठ का मौन',
-                  options: ['वाचन-श्रवण: चर्चा-बिंदु एक **संरचित शैक्षणिक प्रक्रिया** है जिसमें शिक्षार्थी पाठ का मौन', '\'पृष्ठभूमि और रचनाकार परिचय\' वह साहित्यिक अवधारणा है जिसमें किसी रचना के लिखे जाने के', 'कथानक किसी कहानी की घटनाओं का क्रमिक विकास है जिसमें परिचय, संघर्ष, चरमोत्कर्ष और समावेश', 'पाठ्य-परिवेश और वातावरण (Textual Setting and Atmosphere) refers to the spatiotemporal,'],
-                  hint: 'यदि अटका हुआ महसूस हो तो **नोड 013 (आलोचनात्मक चिंतन: विश्लेषण और व्याख्या)** पर लौटें और वहां दिए.',
-                  misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि \'चर्चा-बिंदु\' का अर्थ है **पाठ से तथ्यात्मक प्रश्न पूछना** (जैसे: "नायक का नाम क्या है?", "घटना कब.' }
+                { id: 'a', prompt: 'What is the primary purpose of a literary discussion point in the CBSE Class 11 Hindi Aroh assessment framework?', answer: 'The primary purpose is to evaluate',
+                  options: ['The primary purpose is to evaluate', 'to test memory of the poem summary', 'discussion points', 'theme of the poem'],
+                  hint: 'If stuck, review c11_hin_ar_cbse_14_013\'s worked examples on converting textual observation into.',
+                  misconception: 'Students believe "discussion points" means preparing 5-6 memorized answers to likely questions (e.g., "theme of the poem," "character.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**चरण 1 — भ्रांति उजागर करें**: छात्र से कहें: "पाठ 14 से एक \'सही उत्तर वाला प्रश्न\' और एक \'चर्चा-बिंदु\' लिखो; फिर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'discussion-points-means-preparing-5': { steps: ['Have the student record a 2-minute solo talk on one poem, then play it back—ask: "Where did you sound like a textbook?', 'Practice "पैराफ्रेज़-फिर-जोड़ें" (paraphrase-then-add) drills: Partner states a point; student must rephrase it in own.', 'Give them a "discussion menu" card with sentence stems: "पंक्ति X से लगता है कि...", "आपके बिंदु से सहमत हूं.', 'Simulate timed group discussions (4 students, 10 minutes) with observer feedback on: evidence use, listening markers.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

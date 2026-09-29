@@ -19,30 +19,30 @@ export const c12_eng_f_ch01_p3: SimDef = {
         hook: 'The Franco-Prussian War isn\'t background trivia — it IS the plot. Berlin\'s decree banning French drives every detail: the bulletin board, the villagers\' guilt, M. Hamel\'s Sunday clothes. Read the history as the conflict, not the décor.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves moving beyond literal comprehension to examine HOW a text constructs meaning through authorial choices — narrative perspective, irony, symbolism.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Last Lesson\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_01_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Walk into that last classroom as a witness: decode how the language decree turns grammar into resistance, and trace what the pigeons, the primer and \'Vive la France!\' are really saying.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re facing a CUET question: "How does Daudet use the child narrator\'s limited understanding to critique linguistic imperialism?" You can\'t just.',
+          caseStudy: { intro: 'Analyse \'The Last Lesson\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'Define dramatic irony and identify ONE specific moment in "The Last Lesson" where it operates.', options: [
                 { text: 'Dramatic irony occurs when the audience/reader possesses knowledge that a character', outcome: 'Dramatic irony occurs when the audience/reader possesses knowledge that a character lacks, creating.' },
                 { text: 'irony is when something unexpected happens', outcome: 'Not quite — Students equate "critical analysis" with "listing literary devices" — e.g., writing "Daudet uses.', reveals: 'students-equate-critical-analysis-with' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you open your board exam paper and see: "Write a notice for your school bulletin board announcing a French language week" — you freeze because you\'ve.',
+          caseStudy: { intro: 'For written answers on \'The Last Lesson\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What are the SIX mandatory components of a formal notice as per CBSE marking scheme?', options: [
                 { text: 'The six components are: (1) Name of institution/organisation, (2) NOTICE in capitals, (3)', outcome: 'The six components are: (1) Name of institution/organisation, (2) NOTICE in capitals, (3) Date, (4).' },
                 { text: 'greeting', outcome: 'Not quite — Students believe "writing skills based on the chapter" means writing ABOUT the chapter (summary.', reveals: 'writing-skills-based-on-the' },
                 { text: 'salutation', outcome: 'Not quite — Students believe "writing skills based on the chapter" means writing ABOUT the chapter (summary.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a CUET interview panel and asked: "What does \'The Last Lesson\' teach us about language and identity today?" You freeze — not because you.',
+          caseStudy: { intro: 'Talk through \'The Last Lesson\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'Define "linguistic chauvinism" as referenced in the NCERT "Talking about the Text" section for this chapter, and give one historical.', options: [
                 { text: 'Linguistic chauvinism is aggressive, excessive pride in one\'s own language that leads to', outcome: 'Linguistic chauvinism is aggressive, excessive pride in one\'s own language that leads to imposing.' },
                 { text: 'loving your language too much', outcome: 'Not quite — Students treat "Speaking and Listening" as *performing memorized answers* rather than *thinking.', reveals: 'students-treat-speaking-and-listening' }
@@ -68,12 +68,12 @@ export const c12_eng_f_ch01_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves moving beyond literal.',
+          question: 'Critical thinking on \'The Last Lesson\' — analysing the text to reach.',
           hint: 'If stuck, review c12_eng_f_cbse_01_009 (Irony and Symbolism) for device identification.',
           misconception: 'Students equate "critical analysis" with "listing literary devices" — e.g., writing "Daudet uses irony, symbolism, and.',
           parts: [
@@ -86,7 +86,7 @@ export const c12_eng_f_ch01_p3: SimDef = {
                   hint: 'If stuck, review c12_eng_f_cbse_01_009 (Irony and Symbolism) for device identification with textual.',
                   misconception: 'Students equate "critical analysis" with "listing literary devices" — e.g., writing "Daudet uses irony, symbolism, and imagery" without.' }
           ],
-            remediations: { 'students-equate-critical-analysis-with': { steps: ['Revisit c12_eng_f_cbse_01_009 (Irony and Symbolism) — re-identify each device with its TEXTUAL LOCATION and IMMEDIATE.', 'Practice the PEEL chain on ONE device: Point = "The bulletin board symbolizes state power over language"; Evidence.', 'Re-attempt Diagnostic Question 4 with this structure.', 'If still stuck, review c12_eng_f_cbse_01_001 (Context) to strengthen historical framing.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-equate-critical-analysis-with': { steps: ['Revisit c12_eng_f_cbse_01_009 (Irony and Symbolism) — re-identify each device with its TEXTUAL LOCATION and IMMEDIATE.', 'Practice the PEEL chain on ONE device: Point = "The bulletin board symbolizes state power over language"; Evidence.', 'Re-attempt Diagnostic Question 4 with this structure.', 'If still stuck, review c12_eng_f_cbse_01_001 (Context) to strengthen historical framing.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -97,9 +97,9 @@ export const c12_eng_f_ch01_p3: SimDef = {
                   hint: 'If stuck, review c12_eng_f_cbse_01_009 (Irony and Symbolism) for device identification with textual.',
                   misconception: 'Students equate "critical analysis" with "listing literary devices" — e.g., writing "Daudet uses irony, symbolism, and imagery" without.' }
           ],
-            remediations: { 'students-equate-critical-analysis-with': { steps: ['Revisit c12_eng_f_cbse_01_009 (Irony and Symbolism) — re-identify each device with its TEXTUAL LOCATION and IMMEDIATE.', 'Practice the PEEL chain on ONE device: Point = "The bulletin board symbolizes state power over language"; Evidence.', 'Re-attempt Diagnostic Question 4 with this structure.', 'If still stuck, review c12_eng_f_cbse_01_001 (Context) to strengthen historical framing.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-equate-critical-analysis-with': { steps: ['Revisit c12_eng_f_cbse_01_009 (Irony and Symbolism) — re-identify each device with its TEXTUAL LOCATION and IMMEDIATE.', 'Practice the PEEL chain on ONE device: Point = "The bulletin board symbolizes state power over language"; Evidence.', 'Re-attempt Diagnostic Question 4 with this structure.', 'If still stuck, review c12_eng_f_cbse_01_001 (Context) to strengthen historical framing.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_014', difficulty: 'standard',
-          question: 'Writing skills based on a literary chapter involve crafting structured.',
+          question: 'Writing skills from \'The Last Lesson\' — using the text as a model.',
           hint: 'If unable to generate evidence for PEEL, return to c12_eng_f_cbse_01_008.',
           misconception: 'Students believe "writing skills based on the chapter" means writing ABOUT the chapter (summary, character sketch).',
           parts: [
@@ -108,18 +108,18 @@ export const c12_eng_f_ch01_p3: SimDef = {
                   hint: 'If unable to generate evidence for PEEL, return to c12_eng_f_cbse_01_008 (Imagery/Metaphor) and.',
                   misconception: 'Students believe "writing skills based on the chapter" means writing ABOUT the chapter (summary, character sketch).' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['Have the student re-read the NCERT "Writing" section (page 10-11) and highlight the THREE distinct tasks — notice.', 'For each task, identify the TRIGGER in the chapter: bulletin-board crowd → notice; "key to prison" quote → language.', 'Practice converting ONE trigger into its format using a template (provide notice template with 6 slots, PEEL table for.', 'Re-attempt Diagnostic Questions 3, 4, 6 with templates, then without.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['Have the student re-read the NCERT "Writing" section (page 10-11) and highlight the THREE distinct tasks — notice.', 'For each task, identify the TRIGGER in the chapter: bulletin-board crowd → notice; "key to prison" quote → language.', 'Practice converting ONE trigger into its format using a template (provide notice template with 6 slots, PEEL table for.', 'Re-attempt Diagnostic Questions 3, 4, 6 with templates, then without.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'The Last Lesson\' — speaking and listening around the text.',
           hint: 'If stuck, return to c12_eng_f_cbse_01_013 and re-do the "Talking about the Text" Q1-3.',
           misconception: 'Students treat "Speaking and Listening" as *performing memorized answers* rather than *thinking aloud with evidence*.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to the structured oral communication',
-                  options: ['Speaking and Listening: Discussion Points refers to the structured oral communication', '"Before You Read: Context and Background" provides the essential historical,', 'Plot and narrative structure refer to the organized sequence of events in a story and the', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'The Last Lesson\'',
+                  options: ['Discussion points on \'The Last Lesson\'', '\'The Last Lesson\' (Flamingo, ch', 'The plot/narrative arc of \'The Last Lesson\'', 'The setting of \'The Last Lesson\''],
                   hint: 'If stuck, return to c12_eng_f_cbse_01_013 and re-do the "Talking about the Text" Q1-3 — each answer.',
                   misconception: 'Students treat "Speaking and Listening" as *performing memorized answers* rather than *thinking aloud with evidence*.' }
           ],
-            remediations: { 'students-treat-speaking-and-listening': { steps: ['**Diagnose**: Record the student\'s 2-minute discussion attempt.', 'Check: (a) Does she cite text?', '(b) Does she reference a peer\'s point?', '(c) Is there a clear Claim-Evidence-Analysis structure?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-speaking-and-listening': { steps: ['**Diagnose**: Record the student\'s 2-minute discussion attempt.', 'Check: (a) Does she cite text?', '(b) Does she reference a peer\'s point?', '(c) Is there a clear Claim-Evidence-Analysis structure?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

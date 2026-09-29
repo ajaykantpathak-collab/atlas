@@ -6,13 +6,13 @@ import C10_ScienceLifeProcessesSim from '../../../simulations/c6_12/C10_ScienceL
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_sciencelifeprocessessim: SimDef = {
     id: 'v3w_c10_sciencelifeprocessessim',
-    title: 'Life Processes',
+    title: 'What Are Life Processes: Nutrition, Respiration, Transportation, Excretion',
     subtitle: 'This node covers the definition, classification, and functional overview of the four.',
     classLevel: 10, subject: 'science', topic: 'What Are Life Processes: Nutrition, Respiration, Transportation, Excretion',
     chapters: [],
     nodeIds: ['c10_bio_cbse_01_001', 'c10_bio_cbse_01_010', 'c10_bio_cbse_02_004', 'c10_bio_cbse_03_001', 'c10_bio_cbse_01_002', 'c10_bio_cbse_01_004', 'c10_bio_cbse_01_005', 'c10_bio_cbse_02_008', 'c10_bio_cbse_03_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Observe a Class 10 student rushing to school: they eat a paratha for breakfast (nutrition), breathe heavily.', goal: 'Master Life Processes.' },
+    scenario: { role: 'a class 10 learner', intro: 'Observe a Class 10 student rushing to school: they eat a paratha for breakfast (nutrition), breathe heavily.', goal: 'Master What Are Life Processes: Nutrition, Respiration, Transportation, Excretion.' },
     discovery: {
         question: 'A student argues: "Transportation is only needed in large animals like humans because they have a heart and blood vessels.',
         options: ['The claim is incorrect', 'blood circulation', 'plants perform photosynthesis during the day and respiration only at night'],
@@ -78,7 +78,7 @@ export const w_c10_sciencelifeprocessessim: SimDef = {
             { text: 'Note absorption site: Glucose absorbed in jejunum/ileum via active transport (SGLT1) into blood capillaries of villi.', faded: true, blankAnswer: 'Roti (starch) → Mouth: salivary amylase → maltose/dextrins;.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_bio_cbse_01_010', title: 'Identify each idea',
-          dissect: { specimen: 'Life Processes', spots: [
+          dissect: { specimen: 'What Are Life Processes: Nutrition, Respiration, Transportation, Excretion', spots: [
             { id: 's1', label: 'Life processes are the essential', prompt: 'Which idea is this? — Life processes are the essential biological activities — nutrition, respiration,.', answer: 'Life processes are the essential', options: ['Life processes are the essential', 'Blood is a specialized connective', 'The human brain is the', 'Reproduction is the biological process'] },
             { id: 's2', label: 'Blood is a specialized connective', prompt: 'Which idea is this? — Blood is a specialized connective tissue composed of a liquid matrix called plasma (55%.', answer: 'Blood is a specialized connective', options: ['Blood is a specialized connective', 'Life processes are the essential', 'The human brain is the', 'Reproduction is the biological process'] },
             { id: 's3', label: 'The human brain is the', prompt: 'Which idea is this? — The human brain is the central control center of the nervous system, divided into three.', answer: 'The human brain is the', options: ['The human brain is the', 'Life processes are the essential', 'Blood is a specialized connective', 'Reproduction is the biological process'] },
@@ -87,7 +87,7 @@ export const w_c10_sciencelifeprocessessim: SimDef = {
             { id: 's6', label: 'The human digestive system is', prompt: 'Which idea is this? — The human digestive system is an organ system comprising the alimentary canal (mouth,.', answer: 'The human digestive system is', options: ['The human digestive system is', 'Life processes are the essential', 'Blood is a specialized connective', 'The human brain is the'] }
           ] } }
     ],
-    explore: { component: C10_ScienceLifeProcessesSim, prompt: 'Explore the interactive — Life Processes' },
+    explore: { component: C10_ScienceLifeProcessesSim, prompt: 'Explore the interactive — What Are Life Processes: Nutrition, Respiration, Transportation, Excretion' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_bio_cbse_01_001', difficulty: 'standard',
           question: 'Life processes are the essential biological activities — nutrition,.',

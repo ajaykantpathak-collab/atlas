@@ -6,13 +6,13 @@ import C7_ScienceElectricityTorchlightSim from '../../../simulations/c6_12/C7_Sc
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_scienceelectricitytorchlightsim: SimDef = {
     id: 'v3w_c7_scienceelectricitytorchlightsim',
-    title: 'Electricity Torchlight',
+    title: 'Torchlight: A Simple Electric Device',
     subtitle: 'Covers the physical structure, internal electrical components, and the closed circuit.',
     classLevel: 7, subject: 'science', topic: 'Torchlight: A Simple Electric Device',
     chapters: [],
     nodeIds: ['c7_physics_ch02_002', 'c7_physics_ch02_003', 'c7_physics_ch02_001', 'c7_physics_ch02_004', 'c7_physics_ch02_005', 'c7_physics_ch02_006', 'c7_physics_ch02_007', 'c7_physics_ch02_008', 'c7_physics_ch02_009', 'c7_physics_ch02_010', 'c7_physics_ch02_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'When you slide the switch of a household torchlight in your room during a power cut, the bulb instantly.', goal: 'Master Electricity Torchlight.' },
+    scenario: { role: 'a class 7 learner', intro: 'When you slide the switch of a household torchlight in your room during a power cut, the bulb instantly.', goal: 'Master Torchlight: A Simple Electric Device.' },
     discovery: {
         question: 'What is the primary energy conversion that takes place inside the electric cell of a working torchlight before electricity reaches the lamp?',
         options: ['The electric cell converts stored chemical energy into electrical energy', 'light energy to electrical energy', 'consumed'],
@@ -78,7 +78,7 @@ export const w_c7_scienceelectricitytorchlightsim: SimDef = {
             { text: 'Verify that the circuit loop is now continuous, allowing current to flow and light the bulb.', faded: true, blankAnswer: 'The bulb stays dark because plastic insulation blocks.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_physics_ch02_003', title: 'Identify each idea',
-          dissect: { specimen: 'Electricity Torchlight', spots: [
+          dissect: { specimen: 'Torchlight: A Simple Electric Device', spots: [
             { id: 's1', label: 'A torchlight is a portable', prompt: 'Which idea is this? — A torchlight is a portable handheld lighting device that uses an electric cell, a switch,.', answer: 'A torchlight is a portable', options: ['A torchlight is a portable', 'An electric cell is a', 'Electricity and its uses in', 'A battery is a combination'] },
             { id: 's2', label: 'An electric cell is a', prompt: 'Which idea is this? — An electric cell is a device that converts chemical energy stored within it into.', answer: 'An electric cell is a', options: ['An electric cell is a', 'A torchlight is a portable', 'Electricity and its uses in', 'A battery is a combination'] },
             { id: 's3', label: 'Electricity and its uses in', prompt: 'Which idea is this? — Electricity and its uses in daily life encompass the generation, distribution, and.', answer: 'Electricity and its uses in', options: ['Electricity and its uses in', 'A torchlight is a portable', 'An electric cell is a', 'A battery is a combination'] },
@@ -87,7 +87,7 @@ export const w_c7_scienceelectricitytorchlightsim: SimDef = {
             { id: 's6', label: 'A simple electric circuit is', prompt: 'Which idea is this? — A simple electric circuit is a continuous, unbroken loop containing an energy source.', answer: 'A simple electric circuit is', options: ['A simple electric circuit is', 'A torchlight is a portable', 'An electric cell is a', 'Electricity and its uses in'] }
           ] } }
     ],
-    explore: { component: C7_ScienceElectricityTorchlightSim, prompt: 'Explore the interactive — Electricity Torchlight' },
+    explore: { component: C7_ScienceElectricityTorchlightSim, prompt: 'Explore the interactive — Torchlight: A Simple Electric Device' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_physics_ch02_002', difficulty: 'standard',
           question: 'A torchlight is a portable handheld lighting device that uses an electric cell,.',

@@ -110,7 +110,7 @@ export const C8_GEO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Resource Conservation At Individual And",
+    "title": "Conservation of Natural Resources:",
     "text": "Resource conservation at individual and community levels refers to the deliberate, collective, and personal practices—such as rainwater harvesting, community forest management, and waste reduction—aimed at protecting, preserving, and judiciously managing",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -729,13 +729,13 @@ export const C8_GEO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Major World River Systems—such As The",
+    "title": "Major World River Systems—such As",
     "text": "Major world river systems—such as the Nile, Amazon, Ganga, and Mississippi—are natural flowing watercourses that drain vast continental basins, shaping physical topography, climatic micro-environments, and human civilization patterns across different",
     "emoji": "🌍",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Global Environmental Challenges Refer To The",
+    "title": "Global Environmental Challenges",
     "text": "Global environmental challenges refer to the large-scale degradation of Earth's physical systems—the atmosphere, biosphere, hydrosphere, and lithosphere—driven by human (anthropogenic) activities.",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"

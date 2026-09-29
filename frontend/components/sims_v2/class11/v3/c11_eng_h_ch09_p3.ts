@@ -19,7 +19,7 @@ export const c11_eng_h_ch09_p3: SimDef = {
         hook: 'The poem isn\'t describing an object — it\'s a story memory tells in jumps: the day captured, the woman who laughed at it, the silence she left.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in poetry analysis involves examining the layers of meaning beneath the literal text by evaluating the poet\'s choices in structure, imagery, and language to interpret the central.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'A Photograph\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_09_013', title: 'Your mission',
@@ -29,14 +29,14 @@ export const c11_eng_h_ch09_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_09_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you open a 10-page history chapter the night before an exam and feel overwhelmed by the dense paragraphs.',
+          caseStudy: { intro: 'For written answers on \'A Photograph\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the primary purpose of sub-titling a long piece of writing according to the NCERT textbook?', options: [
                 { text: 'The primary purpose is to convey the main idea or theme of each section so the reader', outcome: 'The primary purpose is to convey the main idea or theme of each section so the reader knows at.' },
                 { text: 'to make the text look attractive', outcome: 'Not quite — Students believe sub-titling is simply labelling paragraphs with the first noun phrase they spot.', reveals: 'sub-titling-is-simply-labelling' },
                 { text: 'to summarize the whole text in one line', outcome: 'Not quite — Students believe sub-titling is simply labelling paragraphs with the first noun phrase they spot.', reveals: 'sub-titling-is-simply-labelling' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_09_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you find an old photograph of your grandmother as a child — her smile frozen in a moment decades past.',
+          caseStudy: { intro: 'Talk through \'A Photograph\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of providing discussion points for a poem like "A Photograph" in a speaking and listening activity?', options: [
                 { text: 'The primary purpose is to guide students in collaboratively analysing the poem\'s themes', outcome: 'The primary purpose is to guide students in collaboratively analysing the poem\'s themes and.' },
                 { text: 'to memorise the poem', outcome: 'Not quite — Students often believe a literary discussion is successful if everyone shares personal feelings.', reveals: 'a-literary-discussion-is-successful' },
@@ -61,7 +61,7 @@ export const c11_eng_h_ch09_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_09_013', difficulty: 'standard',
-          question: 'Critical thinking in poetry analysis involves examining the layers of meaning.',
+          question: 'Critical thinking on \'A Photograph\' — analysing the text to reach.',
           hint: 'If stuck, review the "Theme: Primary Theme and Message" node (c11_eng_h_cbse_09_006).',
           misconception: 'Students often treat the three stanzas as three separate "scenes" rather than a single, continuous psychological arc.',
           parts: [
@@ -91,7 +91,7 @@ export const c11_eng_h_ch09_p3: SimDef = {
           ],
             remediations: { 'students-often-treat-the-three': { steps: ['Have the student create a three-column timeline: Column 1 = Time Period, Column 2 = Speaker\'s Action/Feeling, Column 3.', 'Ask: "Who is the \'I\' in the last stanza?', 'Is it a different person from the one describing the holiday in Stanza 1?" Guide them to see the single speaker across.', 'Practice writing one PEEL paragraph connecting the "cardboard" in line 1 to the "silence" in the last line, forcing the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_09_014', difficulty: 'standard',
-          question: 'Sub-titling is the skill of dividing a text into logical sections and assigning.',
+          question: 'Writing skills from \'A Photograph\' — using the text as a model or springboard.',
           hint: 'If stuck, review "Identifying the Main Idea of a Paragraph" (Class 9/10 comprehension.',
           misconception: 'Students believe sub-titling is simply labelling paragraphs with the first noun phrase they spot (e.g., "Curitiba".',
           parts: [
@@ -106,7 +106,7 @@ export const c11_eng_h_ch09_p3: SimDef = {
           ],
             remediations: { 'sub-titling-is-simply-labelling': { steps: ['Give the student a short 3-paragraph text with clear shifts.', 'Ask them to draw a line between paragraphs and verbally state "What changed?" (e.g., "First paragraph gives data.', 'Have them write a one-sentence summary of each chunk.', 'Guide them to compress each summary into a 4-6 word phrase using the same grammatical form (all -ing phrases or all.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_09_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points for "A Photograph" refers to the.',
+          question: 'Discussion points on \'A Photograph\' — speaking and listening around the text.',
           hint: 'If stuck, review the poem\'s stanza-by-stanza progression and the PEEL structure for oral.',
           misconception: 'Students often believe a literary discussion is successful if everyone shares personal feelings about the poem (e.g.',
           parts: [

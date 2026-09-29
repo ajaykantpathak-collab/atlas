@@ -19,7 +19,7 @@ export const c12_eng_k_ch18_p3: SimDef = {
         hook: 'This isn\'t a pride parade of \'Indians love to argue\' — Sen is an economist building evidence: a nine-hour UN speech, an epic seven times the Iliad and Odyssey combined, Gargi\'s interrogations. He critiques exclusions too — who was allowed to argue matters as much as that they argued.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the ability to deconstruct an argumentative essay\'s structure, evaluate the validity of its claims and evidence, interpret the author\'s underlying.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Argumentative Indian\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_18_013', title: 'Your mission',
@@ -29,20 +29,20 @@ export const c12_eng_k_ch18_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_18_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re in a debate competition and the topic is "India\'s democracy is a Western import." You remember Sen\'s essay argues the opposite — that India\'s.',
+          caseStudy: { intro: 'Analyse \'The Argumentative Indian\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the central distinction Sen draws between Krishna\'s position (\'faring forward\') and Arjuna\'s position (\'faring well\') in the.', options: [
                 { text: 'Sen distinguishes Krishna\'s deontological emphasis on duty regardless of consequences', outcome: 'Sen distinguishes Krishna\'s deontological emphasis on duty regardless of consequences (\'fare.' },
                 { text: 'Krishna wins so Arjuna is wrong', outcome: 'Not quite — Students often treat Sen\'s essay as a *celebration* of India\'s argumentative past, missing his.', reveals: 'students-often-treat-sen-s' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_18_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re asked in the board exam: "Sen says \'Arjuna\'s contrary arguments are not really vanquished.\' Do you agree?',
+          caseStudy: { intro: 'For written answers on \'The Argumentative Indian\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the PEEL structure, and what does each letter stand for in the context of writing a textual answer?', options: [
                 { text: 'PEEL stands for Point (topic sentence stating the main idea), Evidence (direct quote or', outcome: 'PEEL stands for Point (topic sentence stating the main idea), Evidence (direct quote or close.' },
                 { text: 'Paragraph, Example, Explain, Line', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarising the chapter\'s content.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarising the chapter\'s content.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_18_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a CUET group discussion round where the prompt is: "Does India\'s ancient argumentative tradition strengthen or weaken modern democracy?" You.',
+          caseStudy: { intro: 'Talk through \'The Argumentative Indian\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'List two specific discussion points from the chapter that could anchor a conversation on "Argumentative Tradition and Social Justice."', options: [
                 { text: 'Correct answer: (1) The Gargi-Yajnavalkya and Maitreyi-Yajnavalkya dialogues in the', outcome: 'Correct answer: (1) The Gargi-Yajnavalkya and Maitreyi-Yajnavalkya dialogues in the Upanishads show.' },
                 { text: 'women spoke', outcome: 'Not quite — Students treat "discussion points" as a list of opinions to memorize ("Sen says democracy is good,".', reveals: 'students-treat-discussion-points-as' },
@@ -67,18 +67,18 @@ export const c12_eng_k_ch18_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the ability to deconstruct.',
+          question: 'Critical thinking on \'The Argumentative Indian\' — analysing the text to reach.',
           hint: 'If stuck, re-read the \'Stop and Think\' boxes in the NCERT text — they are the author\'s.',
           misconception: 'Students often treat Sen\'s essay as a *celebration* of India\'s argumentative past, missing his critical qualifications.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical Thinking: Analysis and Interpretation is the ability to deconstruct an',
-                  options: ['Critical Thinking: Analysis and Interpretation is the ability to deconstruct an', '"Before You Read: Context and Background" for Amartya Sen\'s "The Argumentative Indian" is', 'In a non-fiction argumentative essay like "The Argumentative Indian," **plot and', 'In non-fiction argumentative prose, **setting** refers to the historical, cultural,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'The Argumentative Indian\'',
+                  options: ['Critical thinking on \'The Argumentative Indian\'', '\'The Argumentative Indian\' (Kaleidoscope, ch', 'The plot/narrative arc of \'The Argumentative Indian\'', 'The setting of \'The Argumentative Indian\''],
                   hint: 'If stuck, re-read the \'Stop and Think\' boxes in the NCERT text — they are the author\'s own.',
                   misconception: 'Students often treat Sen\'s essay as a *celebration* of India\'s argumentative past, missing his critical qualifications: he repeatedly says.' }
           ],
             remediations: { 'students-often-treat-sen-s': { steps: ['If the student conflates \'tradition exists\' with \'tradition was inclusive/effective\', do this 3-step remediation: (1).', '180-185) and highlight every qualifying phrase: \'by and large\', \'much less pronounced\', \'not negligible\', \'did not win.', '(2) Create a two-column table: Column A = Sen\'s positive claims (e.g., \'Gargi questioned Yajnavalkya\'); Column.', '(3) Practice answering: "Sen dispels the misconception that the argumentative tradition was uniformly democratic.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_014', difficulty: 'standard',
-          question: 'Writing Skills based on "The Argumentative Indian" involve crafting structured.',
+          question: 'Writing skills from \'The Argumentative Indian\' — using the text as a model.',
           hint: 'If stuck on evidence selection, revisit c12_eng_k_cbse_18_012 (Comprehension) and.',
           misconception: 'Students believe "writing skills based on the chapter" means summarising the chapter\'s content in their own words.',
           parts: [
@@ -104,7 +104,7 @@ export const c12_eng_k_ch18_p3: SimDef = {
           ],
             remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits a descriptive summary, do NOT say "write analytically." Instead: (1) Give them a sample question.', '(2) Have them highlight *only* the sentences in their answer that directly answer "how" — they\'ll find few.', '(3) Provide a two-column template: left column = "Sen\'s claim," right column = "My explanation of how it answers the.', '(5) Re-diagnose with Diagnostic Question 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'The Argumentative Indian\' — speaking and listening around.',
           hint: 'If stuck, revisit the "Stop and Think" boxes in the chapter — they are ready-made.',
           misconception: 'Students treat "discussion points" as a list of opinions to memorize ("Sen says democracy is good," "Women argued.',
           parts: [

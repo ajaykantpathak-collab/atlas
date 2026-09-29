@@ -6,13 +6,13 @@ import C9_GeographyDenudationWindWorkSim from '../../../simulations/c6_12/C9_Geo
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_geographydenudationwindworksim: SimDef = {
     id: 'v3w_c9_geographydenudationwindworksim',
-    title: 'Denudation Wind Work',
+    title: 'Earthquakes: Causes, Measurement and Effects',
     subtitle: 'Covers causes (elastic rebound theory, plate boundaries), measurement (Richter scale.',
     classLevel: 9, subject: 'geography', topic: 'Earthquakes: Causes, Measurement and Effects',
     chapters: [],
     nodeIds: ['c9_geo_ch1_6'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you feel a sudden shaking while sitting in your classroom in Delhi — the fan swings, windows rattle,.', goal: 'Master Denudation Wind Work.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you feel a sudden shaking while sitting in your classroom in Delhi — the fan swings, windows rattle,.', goal: 'Master Earthquakes: Causes, Measurement and Effects.' },
     discovery: {
         question: 'Explain why the Richter scale is logarithmic and what it means when an earthquake of magnitude 6 releases approximately 32 times more energy than a magnitude 5.',
         options: ['The Richter scale is logarithmic (base 10 for amplitude, ~32 for energy)', 'magnitude 6 is just 1 unit bigger than 5', 'a magnitude 7 earthquake always causes more destruction than magnitude 6'],
@@ -33,7 +33,7 @@ export const w_c9_geographydenudationwindworksim: SimDef = {
             { text: 'Interpret: Despite 178× more energy, Bhuj\'s death toll was only ~2× Latur\'s because: (a) Bhuj epicenter was in sparsely.', faded: true, blankAnswer: 'Bhuj released approximately 178 times more energy than.' }
             ] } }
     ],
-    explore: { component: C9_GeographyDenudationWindWorkSim, prompt: 'Explore the interactive — Denudation Wind Work' },
+    explore: { component: C9_GeographyDenudationWindWorkSim, prompt: 'Explore the interactive — Earthquakes: Causes, Measurement and Effects' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_geo_ch1_6', difficulty: 'standard',
           question: 'An earthquake is a sudden release of accumulated strain energy in the Earth\'s.',

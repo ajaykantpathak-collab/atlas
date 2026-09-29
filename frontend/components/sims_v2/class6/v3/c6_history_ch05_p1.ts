@@ -109,7 +109,11 @@ export const c6_history_ch05_p1: SimDef = {
                   options: ['He felt deep regret', 'non-violence', 'abdication', 'weakness'],
                   hint: 'Review the definition of the Mauryan Empire and the fact that Ashoka was the third ruler.',
                   misconception: 'Students often think Ashoka stopped being a king or lost his empire after he gave up war.' },
-                { id: 'c', prompt: 'Compare the Ashoka before the Kalinga War to the Ashoka after it.', answer: 'Before, he was a conqueror focused on expansion',
+                { id: 'c', prompt: 'If Ashoka were a king today, how might his decision to give up war affect his relationship with his neighbors?', answer: 'Identify his new goal (peace)',
+                  options: ['Identify his new goal (peace)', 'giving up war', 'giving up power', 'non-violence'],
+                  hint: 'Review the definition of the Mauryan Empire and the fact that Ashoka was the third ruler.',
+                  misconception: 'Students often think Ashoka stopped being a king or lost his empire after he gave up war.' },
+                { id: 'd', prompt: 'Compare the Ashoka before the Kalinga War to the Ashoka after it.', answer: 'Before, he was a conqueror focused on expansion',
                   options: ['Before, he was a conqueror focused on expansion', 'non-violence', 'abdication', 'weakness'],
                   hint: 'Review the definition of the Mauryan Empire and the fact that Ashoka was the third ruler.',
                   misconception: 'Students often think Ashoka stopped being a king or lost his empire after he gave up war.' }
@@ -133,6 +137,10 @@ export const c6_history_ch05_p1: SimDef = {
           parts: [
                 { id: 'a', prompt: 'What materials did Ashoka use to create his edicts, and why were these choices important?', answer: 'He used rock surfaces and sandstone pillars',
                   options: ['He used rock surfaces and sandstone pillars', 'trophy room', 'Ashoka carved these edicts only to brag about his victories'],
+                  hint: 'Review the concept of "Empires" and why a large territory makes it hard for a king to speak.',
+                  misconception: 'Students often think Ashoka carved these edicts only to brag about his victories.' },
+                { id: 'b', prompt: 'If Ashoka wanted to reach villagers who could not travel to the capital, how did his choice of placing edicts on rocks help him?', answer: 'Identify the location (public spaces/routes)',
+                  options: ['Identify the location (public spaces/routes)', 'trophy room', 'messages were only for royal officials', 'Ashoka carved these edicts only to brag about his victories'],
                   hint: 'Review the concept of "Empires" and why a large territory makes it hard for a king to speak.',
                   misconception: 'Students often think Ashoka carved these edicts only to brag about his victories.' }
           ],

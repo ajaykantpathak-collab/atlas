@@ -6,16 +6,16 @@ import C12_HomeScienceSupportServicesSim from '../../../simulations/c6_12/C12_Ho
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_homesciencesupportservicessim: SimDef = {
     id: 'v3w_c12_homesciencesupportservicessim',
-    title: 'Home Science Support Services',
+    title: 'Death and Dying: Kubler-Ross Stages and Bereavement Process',
     subtitle: 'This node covers Kübler-Ross\'s five stages of dying, the dual-process model of.',
     classLevel: 12, subject: 'science', topic: 'Death and Dying: Kubler-Ross Stages and Bereavement Process',
     chapters: [],
     nodeIds: ['c12_hs_cbse_07_012', 'c12_hs_cbse_03_011', 'c12_hs_cbse_08_010', 'c12_hs_cbse_11_009', 'c12_hs_cbse_11_011', 'c12_hs_cbse_05_007', 'c12_hs_cbse_03_005', 'c12_hs_cbse_03_008', 'c12_hs_cbse_03_010', 'c12_hs_cbse_11_002', 'c12_hs_cbse_05_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a 17-year-old student whose grandmother has been diagnosed with terminal cancer.', goal: 'Master Home Science Support Services.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a 17-year-old student whose grandmother has been diagnosed with terminal cancer.', goal: 'Master Death and Dying: Kubler-Ross Stages and Bereavement Process.' },
     discovery: {
         question: 'A 45-year-old man whose wife died two months ago alternates between: (a) looking at her photos and crying intensely, and (b) focusing on repairing the house.',
-        options: ['Correct answer: (a) is loss-oriented coping (confronting grief directly), (b) is', 'stages of grief', 'he should only grieve'],
+        options: ['(a) is loss-oriented coping (confronting grief directly), (b) is', 'stages of grief', 'he should only grieve'],
         answer: '(a) is loss-oriented coping (confronting grief directly), (b) is',
         hook: 'Students believe Kübler-Ross\'s stages apply identically to both the dying person AND the bereaved family members.',
     },
@@ -78,7 +78,7 @@ export const w_c12_homesciencesupportservicessim: SimDef = {
             { text: 'State totals — Total money income = ₹85,000/month. Total real income = ₹31,500/month.', faded: true, blankAnswer: 'Money income = ₹85,000; Real income = ₹31,500; Psychic.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_hs_cbse_03_011', title: 'Identify each idea',
-          dissect: { specimen: 'Home Science Support Services', spots: [
+          dissect: { specimen: 'Death and Dying: Kubler-Ross Stages and Bereavement Process', spots: [
             { id: 's1', label: 'Death and dying in human', prompt: 'Which idea is this? — Death and dying in human development refers to the final stage of the lifespan where.', answer: 'Death and dying in human', options: ['Death and dying in human', 'Children with Special Needs CWSN', 'Fashion forecasting is the systematic', 'Housing selection involves evaluating a'] },
             { id: 's2', label: 'Children with Special Needs CWSN', prompt: 'Which idea is this? — Children with Special Needs (CWSN) refers to children who have a disability or a.', answer: 'Children with Special Needs CWSN', options: ['Children with Special Needs CWSN', 'Death and dying in human', 'Fashion forecasting is the systematic', 'Housing selection involves evaluating a'] },
             { id: 's3', label: 'Fashion forecasting is the systematic', prompt: 'Which idea is this? — Fashion forecasting is the systematic process of predicting upcoming trends in colours,.', answer: 'Fashion forecasting is the systematic', options: ['Fashion forecasting is the systematic', 'Death and dying in human', 'Children with Special Needs CWSN', 'Housing selection involves evaluating a'] },
@@ -87,7 +87,7 @@ export const w_c12_homesciencesupportservicessim: SimDef = {
             { id: 's6', label: 'Money management is the systematic', prompt: 'Which idea is this? — Money management is the systematic process of planning, organizing, controlling, and.', answer: 'Money management is the systematic', options: ['Money management is the systematic', 'Death and dying in human', 'Children with Special Needs CWSN', 'Fashion forecasting is the systematic'] }
           ] } }
     ],
-    explore: { component: C12_HomeScienceSupportServicesSim, prompt: 'Explore the interactive — Home Science Support Services' },
+    explore: { component: C12_HomeScienceSupportServicesSim, prompt: 'Explore the interactive — Death and Dying: Kubler-Ross Stages and Bereavement Process' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hs_cbse_07_012', difficulty: 'standard',
           question: 'Death and dying in human development refers to the final stage of the lifespan.',

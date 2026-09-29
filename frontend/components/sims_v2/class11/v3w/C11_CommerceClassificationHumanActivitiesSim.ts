@@ -6,13 +6,13 @@ import C11_CommerceClassificationHumanActivitiesSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_commerceclassificationhumanactivitiessim: SimDef = {
     id: 'v3w_c11_commerceclassificationhumanactivitiessim',
-    title: 'Classification Human Activities',
+    title: 'Business Risk: Nature and Causes',
     subtitle: 'This node covers the definition, nature (four characteristics), and causes (four.',
     classLevel: 11, subject: 'business_studies', topic: 'Business Risk: Nature and Causes',
     chapters: [],
     nodeIds: ['c11_bs_cbse_01_010', 'c11_bs_cbse_05_003', 'c11_bs_cbse_05_001', 'c11_bs_cbse_05_004', 'c11_bs_cbse_01_002', 'c11_bs_cbse_01_003', 'c11_bs_cbse_01_004', 'c11_bs_cbse_01_005', 'c11_bs_cbse_04_001', 'c11_bs_cbse_04_008', 'c11_bs_cbse_05_006', 'c11_bs_cbse_05_008', 'c11_bs_cbse_04_006', 'c11_bs_cbse_01_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you start a small cloud kitchen business selling biryani.', goal: 'Master Classification Human Activities.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you start a small cloud kitchen business selling biryani.', goal: 'Master Business Risk: Nature and Causes.' },
     discovery: {
         question: 'Define business risk as per NCERT Class 11. How does it differ from the general dictionary meaning of "risk"?',
         options: ['Business risk is the possibility of inadequate profits or losses due to', 'risk of losing money in stock market', 'business risk = probability of loss'],
@@ -86,7 +86,7 @@ export const w_c11_commerceclassificationhumanactivitiessim: SimDef = {
             { text: 'All seven satisfied → Classify as business.', faded: true, blankAnswer: 'Anjali\'s pickle-making is a business activity because it.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bs_cbse_05_003', title: 'Identify each idea',
-          dissect: { specimen: 'Classification Human Activities', spots: [
+          dissect: { specimen: 'Business Risk: Nature and Causes', spots: [
             { id: 's1', label: 'Business risk refers to the', prompt: 'Which idea is this? — Business risk refers to the possibility of inadequate profits or even losses due to.', answer: 'Business risk refers to the', options: ['Business risk refers to the', 'The scope of e-business is', 'E-business is the conduct of', 'E-business vs Traditional Business comparison'] },
             { id: 's2', label: 'The scope of e-business is', prompt: 'Which idea is this? — The scope of e-business is classified by the nature of transacting parties into four.', answer: 'The scope of e-business is', options: ['The scope of e-business is', 'Business risk refers to the', 'E-business is the conduct of', 'E-business vs Traditional Business comparison'] },
             { id: 's3', label: 'E-business is the conduct of', prompt: 'Which idea is this? — E-business is the conduct of industry, trade, and commerce using computer networks.', answer: 'E-business is the conduct of', options: ['E-business is the conduct of', 'Business risk refers to the', 'The scope of e-business is', 'E-business vs Traditional Business comparison'] },
@@ -95,7 +95,7 @@ export const w_c11_commerceclassificationhumanactivitiessim: SimDef = {
             { id: 's6', label: 'Business is an economic activity', prompt: 'Which idea is this? — Business is an economic activity involving the regular production, procurement, and.', answer: 'Business is an economic activity', options: ['Business is an economic activity', 'Business risk refers to the', 'The scope of e-business is', 'E-business is the conduct of'] }
           ] } }
     ],
-    explore: { component: C11_CommerceClassificationHumanActivitiesSim, prompt: 'Explore the interactive — Classification Human Activities' },
+    explore: { component: C11_CommerceClassificationHumanActivitiesSim, prompt: 'Explore the interactive — Business Risk: Nature and Causes' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bs_cbse_01_010', difficulty: 'standard',
           question: 'Business risk refers to the possibility of inadequate profits or even losses.',

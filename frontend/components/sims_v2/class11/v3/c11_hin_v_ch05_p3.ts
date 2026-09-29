@@ -19,7 +19,7 @@ export const c11_hin_v_ch05_p3: SimDef = {
         hook: 'Vishnu Prabhakar worked the Rajasthan State Archives for decades — these aren\'t fairy tales but itihaas, history as the people witnessed it.',
     },
     teaching: [
-        { title: 'पाठ 5 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के घटकों (भाषा, संरचना, युक्तियाँ) को अलग-अलग करके उनकी परस्पर क्रिया समझना (विश्लेषण) और फिर पाठ के गहन अभिप्राय, लेखकीय उद्देश्य व सामाजिक-सांस्कृतिक.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 5 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'वितान भाग-1 — पाठ 5\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_v_cbse_05_013', title: 'Your mission',
@@ -29,7 +29,7 @@ export const c11_hin_v_ch05_p3: SimDef = {
         labels: ['पाठ 5 — आलोचनात्मक', 'पाठ 5 — लेखन', 'पाठ 5 — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_05_014', title: 'पाठ 5 — लेखन कौशल: पाठ-आधारित',
-          caseStudy: { intro: 'कल्पना करें आपने परीक्षा में एक प्रश्न पढ़ा: *"पाठ में नायक की आंतरिक द्वंद्व को स्पष्ट कीजिए।"* आप तुरंत लिखना शुरू कर देते हैं — नायक का बचपन, फिर घटनाएँ.',
+          caseStudy: { intro: '\'वितान भाग-1 — पाठ 5\' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।',
             decisions: [{ prompt: 'PEEL संरचना के \'E\' (Evidence) चरण में क्या अनिवार्य रूप से शामिल होना चाहिए? एक वाक्य में उत्तर दीजिए।', options: [
                 { text: '**उत्तर:** \'E\' चरण में पाठ से लिया गया **सटीक उद्धरण (Exact Quote)** या **विशिष्ट प्रसंग', outcome: '**उत्तर:** \'E\' चरण में पाठ से लिया गया **सटीक उद्धरण (Exact Quote)** या **विशिष्ट प्रसंग संदर्भ.' },
                 { text: '* — छात्र मानते हैं कि *', outcome: 'Not quite — **विशिष्ट भ्रांति:** *"बड़े/जटिल शब्द (Sophisticated Vocabulary) और लंबे वाक्य लिखने से अंक अधिक.', reveals: 'sophisticated-vocabulary-cbse-clarity' },
@@ -54,18 +54,18 @@ export const c11_hin_v_ch05_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के घटकों (भाषा, संरचना, युक्तियाँ) को.',
+          question: '\'वितान भाग-1 — पाठ 5\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
           hint: 'यदि फँसें: **c11_hin_v_cbse_05_008 व 009** (बिंब/रूपक/विरोधाभास/प्रतीक) पर लौटें — एक-एक.',
           misconception: 'छात्र समझते हैं कि **\'आलोचनात्मक चिंतन\' = \'अपनी राय देना\' या \'पाठ की बुराई करना\'**। वास्तव में: (1) यह **व्यक्तिगत.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के घटकों (भाषा, संरचना, युक्तियाँ) को अलग-अलग',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) पाठ के घटकों (भाषा, संरचना, युक्तियाँ) को अलग-अलग', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के ऐतिहासिक, सामाजिक, सांस्कृतिक परिवेश', 'कथानक (Plot) घटनाओं का वह सार्थक और कारण-कार्यबद्ध (causal) क्रम है जो संघर्ष (conflict)', 'पाठ्य-परिवेश (Setting) कथा का वह त्रि-आयामी ढाँचा है जिसमें स्थान (भूगोल), काल (ऐतिहासिक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-1 — पाठ 5\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+                  options: ['\'वितान भाग-1 — पाठ 5\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-1 — पाठ 5\' का कथानक — \'वितान भाग-1 — पाठ 5\' — वितान भाग-1 का पाठ। पाठ का', '\'वितान भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि फँसें: **c11_hin_v_cbse_05_008 व 009** (बिंब/रूपक/विरोधाभास/प्रतीक) पर लौटें — एक-एक युक्ति को.',
                   misconception: 'छात्र समझते हैं कि **\'आलोचनात्मक चिंतन\' = \'अपनी राय देना\' या \'पाठ की बुराई करना\'**। वास्तव में: (1) यह **व्यक्तिगत पसंद/नापसंद** नहीं.' }
           ],
             remediations: { '1': { steps: ['**चरण 1 — भेद स्पष्ट करें:** छात्र से कहें — "पाठ की कोई एक पंक्ति लो। पहले बताओ: **क्या लिखा है?** (वर्णन) फिर: **कैसे.', '**चरण 2 — PEEL का अभ्यास:** एक कमजोर उत्तर दें (केवल वर्णन) और छात्र से कहें: "इसे PEEL में ढालो — Point जोड़ो.', '**चरण 3 — युक्ति-संवाद कराएँ:** दो युक्तियाँ (जैसे: बिंब + विरोधाभास) दें और पूछें: "ये दोनों *मिलकर* क्या कर रहे हैं.', '**चरण 4 — बोर्ड-उत्तर तुलना:** NCERT मार्किंग स्कीम के दो नमूना उत्तर (एक 2/5, एक 5/5) दिखाएँ और अंतर चिह्नित कराएँ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें दिए गए.',
+          question: '\'वितान भाग-1 — पाठ 5\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि फँस जाएँ तो **c11_hin_v_cbse_05_013 (आलोचनात्मक चिंतन)** और.',
           misconception: '**विशिष्ट भ्रांति:** *"बड़े/जटिल शब्द (Sophisticated Vocabulary) और लंबे वाक्य लिखने से अंक अधिक मिलते हैं।"* — छात्र.',
           parts: [
@@ -80,12 +80,12 @@ export const c11_hin_v_ch05_p3: SimDef = {
           ],
             remediations: { 'sophisticated-vocabulary-cbse-clarity': { steps: ['**\'शब्द-जाल\' तोड़ो:** छात्र से कहें — *"अगले 3 उत्तर केवल **सरल, छोटे वाक्यों** में लिखो (अधिकतम 12 शब्द/वाक्य)।.', '**PEEL रंग-कोडिंग:** छात्र के लिखे उत्तर में 4 रंगों से हाइलाइट करवाएँ: **नीला = Point, हरा = Evidence, पीला.', '**\'क्यों?\' खेल:** छात्र के हर दावे पर आप बार-बार पूछें *"पाठ में कहाँ लिखा है?', 'वह वाक्य कैसे तुम्हारी बात सिद्ध करता है?"* — जब तक वह स्वयं Evidence→Explanation जोड़ना न सीख जाए। 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु (Reading-Listening: Discussion Points) refers to the.',
+          question: '\'वितान भाग-1 — पाठ 5\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
           hint: 'यदि अटके: c11_hin_v_cbse_05_013 (आलोचनात्मक चिंतन) के \'साक्ष्य-चयन\' चरण को दोहराएँ.',
           misconception: 'छात्र अक्सर मानते हैं कि \'चर्चा-बिंदु\' का अर्थ है **शिक्षक द्वारा दिए गए प्रश्नों के \'सही उत्तर\' खोजना** — जैसे यह एक.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु (Reading-Listening: Discussion Points) refers to the pedagogical',
-                  options: ['वाचन-श्रवण: चर्चा-बिंदु (Reading-Listening: Discussion Points) refers to the pedagogical', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के ऐतिहासिक, सामाजिक, सांस्कृतिक परिवेश', 'कथानक (Plot) घटनाओं का वह सार्थक और कारण-कार्यबद्ध (causal) क्रम है जो संघर्ष (conflict)', 'पाठ्य-परिवेश (Setting) कथा का वह त्रि-आयामी ढाँचा है जिसमें स्थान (भूगोल), काल (ऐतिहासिक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-1 — पाठ 5\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।',
+                  options: ['\'वितान भाग-1 — पाठ 5\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-1 — पाठ 5\' का कथानक — \'वितान भाग-1 — पाठ 5\' — वितान भाग-1 का पाठ। पाठ का', '\'वितान भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके: c11_hin_v_cbse_05_013 (आलोचनात्मक चिंतन) के \'साक्ष्य-चयन\' चरण को दोहराएँ — विशेष रूप से.',
                   misconception: 'छात्र अक्सर मानते हैं कि \'चर्चा-बिंदु\' का अर्थ है **शिक्षक द्वारा दिए गए प्रश्नों के \'सही उत्तर\' खोजना** — जैसे यह एक मौखिक परीक्षा हो।.' }
           ],

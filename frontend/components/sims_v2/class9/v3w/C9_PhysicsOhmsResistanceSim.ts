@@ -6,13 +6,13 @@ import C9_PhysicsOhmsResistanceSim from '../../../simulations/c6_12/C9_PhysicsOh
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_physicsohmsresistancesim: SimDef = {
     id: 'v3w_c9_physicsohmsresistancesim',
-    title: 'Ohms Resistance',
+    title: 'Ohm\'s Law: Statement, Formula and V-I Graph',
     subtitle: 'Covers Ohm\'s Law (V = IR), resistance, the ohm, calculation problems, and the condition.',
-    classLevel: 9, subject: 'physics', topic: 'Water Cycle: Evaporation, Condensation, Precipitation',
+    classLevel: 9, subject: 'physics', topic: 'Ohm\'s Law: Statement, Formula and V-I Graph',
     chapters: [],
-    nodeIds: ['c9_physics_ch6_7', 'c9_physics_ch6_8', 'c9_physics_ch6_5', 'c9_physics_ch6_6', 'c9_physics_ch6_9'],
+    nodeIds: ['c10_phy_cbse_01_003', 'c10_phy_cbse_01_004', 'c10_phy_cbse_01_001', 'c10_phy_cbse_01_002', 'c10_phy_cbse_01_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Connect a 6 V battery to a resistor. Measure the current: 2 A.', goal: 'Master Ohms Resistance.' },
+    scenario: { role: 'a class 9 learner', intro: 'Connect a 6 V battery to a resistor. Measure the current: 2 A.', goal: 'Master Ohm\'s Law: Statement, Formula and V-I Graph.' },
     discovery: {
         question: 'What is the unit of resistance, and how is it defined?',
         options: ['The unit of resistance is the ohm (symbol: capital omega)', 'ohm is the unit of current', 'resistance changes with voltage or current'],
@@ -23,35 +23,35 @@ export const w_c9_physicsohmsresistancesim: SimDef = {
         { title: 'Ohm\'s Law states that the current through a.', text: 'Ohm\'s Law states that the current through a conductor is directly proportional to the potential difference across it, provided temperature and other physical conditions remain constant: V = I * R, or.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
-        { type: 'scaffold', nodeId: 'c9_physics_ch6_7', title: 'Ohm\'s Law states that the current.',
+        { type: 'scaffold', nodeId: 'c10_phy_cbse_01_003', title: 'Ohm\'s Law states that the current.',
           scaffold: { problem: 'A 6 V battery is connected across a 3 ohm resistor. Calculate the current.',
             steps: [
             { text: 'Identify the formula. I = V/R.' },
             { text: 'Substitute. I = 6/3 = 2 A.' },
             { text: 'Interpret. The current is 2 amperes.', faded: true, blankAnswer: 'I = 6/3 = 2 A. The current is 2 amperes.' }
             ] } },
-        { type: 'scaffold', nodeId: 'c9_physics_ch6_8', title: 'Resistance is the opposition a.',
+        { type: 'scaffold', nodeId: 'c10_phy_cbse_01_004', title: 'Resistance is the opposition a.',
           scaffold: { problem: 'A copper wire has resistivity 1.7e-8 ohm*m, length 5 m, and cross-sectional area 2e-6 m^2. Calculate its resistance.',
             steps: [
             { text: 'Identify the formula. R = rho * L / A.' },
             { text: 'Substitute. R = 1.7e-8 * 5 / 2e-6 = 8.5e-8 / 2e-6 = 4.25e-2 = 0.0425 ohms.' },
             { text: 'Interpret. The resistance is 0.0425 ohms — very low, as expected for copper (good conductor).', faded: true, blankAnswer: 'R = 1.7e-8 * 5 / 2e-6 = 0.0425 ohms. The resistance is.' }
             ] } },
-        { type: 'scaffold', nodeId: 'c9_physics_ch6_5', title: 'Electric current is the rate of flow of.',
+        { type: 'scaffold', nodeId: 'c10_phy_cbse_01_001', title: 'Electric current is the rate of flow of.',
           scaffold: { problem: 'A battery drives 30 coulombs of charge through a circuit in 6 seconds. Calculate the current.',
             steps: [
             { text: 'Identify the formula. I = Q/t.' },
             { text: 'Substitute. I = 30/6 = 5 A.' },
             { text: 'Interpret. The current is 5 amperes — 5 coulombs of charge pass per second.', faded: true, blankAnswer: 'I = 30/6 = 5 A. The current is 5 amperes.' }
             ] } },
-        { type: 'scaffold', nodeId: 'c9_physics_ch6_6', title: 'Electric potential at a point is the.',
+        { type: 'scaffold', nodeId: 'c10_phy_cbse_01_002', title: 'Electric potential at a point is the.',
           scaffold: { problem: 'A battery does 45 J of work to move 15 C of charge through a circuit. Calculate the potential difference.',
             steps: [
             { text: 'Identify the formula. V = W/Q.' },
             { text: 'Substitute. V = 45/15 = 3 V.' },
             { text: 'Interpret. The potential difference is 3 volts — 3 joules of work per coulomb.', faded: true, blankAnswer: 'V = 45/15 = 3 V. The potential difference is 3 volts.' }
             ] } },
-        { type: 'scaffold', nodeId: 'c9_physics_ch6_9', title: 'Series combination of resistors is a.',
+        { type: 'scaffold', nodeId: 'c10_phy_cbse_01_006', title: 'Series combination of resistors is a.',
           scaffold: { problem: 'Three resistors (2, 3, 5 ohms) are connected in series with a 10 V battery.',
             steps: [
             { text: 'Equivalent resistance. R_eq = 2 + 3 + 5 = 10 ohms.' },
@@ -59,8 +59,8 @@ export const w_c9_physicsohmsresistancesim: SimDef = {
             { text: 'Voltages. V1 = I * R1 = 1 * 2 = 2 V. V2 = I * R2 = 1 * 3 = 3 V. V3 = I * R3 = 1 * 5 = 5 V.' },
             { text: 'Verify. V1 + V2 + V3 = 2 + 3 + 5 = 10 V = V. Correct.', faded: true, blankAnswer: 'R_eq = 10 ohms. I = 1 A. V1 = 2 V, V2 = 3 V, V3 = 5 V..' }
             ] } },
-        { type: 'dissect', nodeId: 'c9_physics_ch6_8', title: 'Identify each idea',
-          dissect: { specimen: 'Ohms Resistance', spots: [
+        { type: 'dissect', nodeId: 'c10_phy_cbse_01_004', title: 'Identify each idea',
+          dissect: { specimen: 'Ohm\'s Law: Statement, Formula and V-I Graph', spots: [
             { id: 's1', label: 'Ohms Law states that the', prompt: 'Which idea is this? — Ohm\'s Law states that the current through a conductor is directly proportional to the.', answer: 'Ohms Law states that the', options: ['Ohms Law states that the', 'Resistance is the opposition a', 'Electric current is the rate', 'Electric potential at a point'] },
             { id: 's2', label: 'Resistance is the opposition a', prompt: 'Which idea is this? — Resistance is the opposition a conductor offers to electric current, measured in ohms.', answer: 'Resistance is the opposition a', options: ['Resistance is the opposition a', 'Ohms Law states that the', 'Electric current is the rate', 'Electric potential at a point'] },
             { id: 's3', label: 'Electric current is the rate', prompt: 'Which idea is this? — Electric current is the rate of flow of electric charge through a conductor, defined as I.', answer: 'Electric current is the rate', options: ['Electric current is the rate', 'Ohms Law states that the', 'Resistance is the opposition a', 'Electric potential at a point'] },
@@ -68,11 +68,11 @@ export const w_c9_physicsohmsresistancesim: SimDef = {
             { id: 's5', label: 'Series combination of resistors is', prompt: 'Which idea is this? — Series combination of resistors is a circuit arrangement where resistors are connected.', answer: 'Series combination of resistors is', options: ['Series combination of resistors is', 'Ohms Law states that the', 'Resistance is the opposition a', 'Electric current is the rate'] }
           ] } }
     ],
-    explore: { component: C9_PhysicsOhmsResistanceSim, prompt: 'Explore the interactive — Ohms Resistance' },
+    explore: { component: C9_PhysicsOhmsResistanceSim, prompt: 'Explore the interactive — Ohm\'s Law: Statement, Formula and V-I Graph' },
     challenges: [
-        { type: 'subpart', nodeId: 'c9_physics_ch6_7', difficulty: 'standard',
+        { type: 'subpart', nodeId: 'c10_phy_cbse_01_003', difficulty: 'standard',
           question: 'Ohm\'s Law states that the current through a conductor is directly proportional.',
-          hint: 'Revisit c9_physics_ch6_5 (Electric Current) and c9_physics_ch6_6 (Electric Potential) for.',
+          hint: 'Revisit c10_phy_cbse_01_001 (Electric Current) and c10_phy_cbse_01_002 (Electric Potential) for.',
           misconception: 'Students think resistance changes with voltage or current. The exact error: from V = IR, they rearrange to R = V/I and.',
           parts: [
                 { id: 'a', prompt: 'A 12 V battery produces a current of 3 A through a resistor. Calculate the resistance.', answer: 'R = V/I = 12/3 = 4 ohms',
@@ -89,7 +89,7 @@ export const w_c9_physicsohmsresistancesim: SimDef = {
                   misconception: 'Students think resistance changes with voltage or current. The exact error: from V = IR, they rearrange to R = V/I and conclude that if V.' }
           ],
             remediations: { 'resistance-changes-with-voltage-or': { steps: ['Set up a circuit with a resistor.', 'Conclude: V and I are proportional; R is constant (property of the material).', 'Practice: given any two, find the third.', 'Condition: constant temperature.'] } } },
-        { type: 'subpart', nodeId: 'c9_physics_ch6_7', difficulty: 'advanced',
+        { type: 'subpart', nodeId: 'c10_phy_cbse_01_003', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
           misconception: 'Students think resistance changes with voltage or current. The exact error: from V = IR, they rearrange to R = V/I and.',
@@ -100,9 +100,9 @@ export const w_c9_physicsohmsresistancesim: SimDef = {
                   misconception: 'Students think resistance changes with voltage or current. The exact error: from V = IR, they rearrange to R = V/I and conclude that if V.' }
           ],
             remediations: { 'resistance-changes-with-voltage-or': { steps: ['Set up a circuit with a resistor.', 'Conclude: V and I are proportional; R is constant (property of the material).', 'Practice: given any two, find the third.', 'Condition: constant temperature.'] } } },
-        { type: 'subpart', nodeId: 'c9_physics_ch6_8', difficulty: 'standard',
+        { type: 'subpart', nodeId: 'c10_phy_cbse_01_004', difficulty: 'standard',
           question: 'Resistance is the opposition a conductor offers to electric current, measured.',
-          hint: 'Revisit c9_physics_ch6_7 (Ohm\'s Law) for the definition of resistance as R = V/I.',
+          hint: 'Revisit c10_phy_cbse_01_003 (Ohm\'s Law) for the definition of resistance as R = V/I.',
           misconception: 'Students think thicker wires have more resistance because they have "more material." The exact error: they reason that.',
           parts: [
                 { id: 'a', prompt: 'A copper wire has resistivity 1.7e-8 ohm*m, length 10 m, and cross-sectional area 0.0001 m^2. Calculate its resistance.', answer: 'R = rho * L / A = 1.7e-8 * 10 / 0.0001 = 1.7e-7 / 1e-4 = 1.7e-3 = 0.0017 ohms',
@@ -115,7 +115,7 @@ export const w_c9_physicsohmsresistancesim: SimDef = {
                   misconception: 'Students think thicker wires have more resistance because they have "more material." The exact error: they reason that more material = more.' }
           ],
             remediations: { 'thicker-wires-have-more-resistance': { steps: ['Long pipe = more resistance (more friction).', 'Wide pipe = less resistance (more space).', 'L in numerator (more L = more R).', 'A in denominator (more A = less R).'] } } },
-        { type: 'subpart', nodeId: 'c9_physics_ch6_8', difficulty: 'advanced',
+        { type: 'subpart', nodeId: 'c10_phy_cbse_01_004', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
           misconception: 'Students think thicker wires have more resistance because they have "more material." The exact error: they reason that.',
@@ -130,9 +130,9 @@ export const w_c9_physicsohmsresistancesim: SimDef = {
                   misconception: 'Students think thicker wires have more resistance because they have "more material." The exact error: they reason that more material = more.' }
           ],
             remediations: { 'thicker-wires-have-more-resistance': { steps: ['Long pipe = more resistance (more friction).', 'Wide pipe = less resistance (more space).', 'L in numerator (more L = more R).', 'A in denominator (more A = less R).'] } } },
-        { type: 'subpart', nodeId: 'c9_physics_ch6_5', difficulty: 'standard',
+        { type: 'subpart', nodeId: 'c10_phy_cbse_01_001', difficulty: 'standard',
           question: 'Electric current is the rate of flow of electric charge through a conductor,.',
-          hint: 'Revisit c9_physics_ch6_1 (Introduction to Electricity) for the basic framework of.',
+          hint: 'Revisit c10_phy_cbse_01_001 (Electric Current) for the basic framework of.',
           misconception: 'Students confuse current (rate of flow) with charge (amount). The exact error: they think "more current" means "more.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Electric current is the rate of flow of electric charge through a conductor, defined as I',
@@ -141,9 +141,9 @@ export const w_c9_physicsohmsresistancesim: SimDef = {
                   misconception: 'Students confuse current (rate of flow) with charge (amount). The exact error: they think "more current" means "more charge in the wire.".' }
           ],
             remediations: { 'students-confuse-current-rate-of': { steps: ['"How much water" = charge (coulombs).', '"How fast it flows" = current (amperes).', 'Practice: given Q and t, find I; given I and t, find Q.', 'Direction: conventional current (positive to negative) vs.'] } } },
-        { type: 'subpart', nodeId: 'c9_physics_ch6_6', difficulty: 'standard',
+        { type: 'subpart', nodeId: 'c10_phy_cbse_01_002', difficulty: 'standard',
           question: 'Electric potential at a point is the electric potential energy per unit charge.',
-          hint: 'Revisit c9_physics_ch6_5 (Electric Current) for the concept of current and.',
+          hint: 'Revisit c10_phy_cbse_01_001 (Electric Current) for the concept of current and.',
           misconception: 'Students think voltage is the same as current. The exact error: they say "the voltage flows through the wire" — but.',
           parts: [
                 { id: 'a', prompt: 'Calculate the potential difference if 24 J of work moves 6 C of charge.', answer: 'V = W/Q = 24/6 = 4 V',
@@ -156,7 +156,7 @@ export const w_c9_physicsohmsresistancesim: SimDef = {
                   misconception: 'Students think voltage is the same as current. The exact error: they say "the voltage flows through the wire" — but voltage does not flow;.' }
           ],
             remediations: { 'voltage-is-the-same-as': { steps: ['Pump = battery (creates pressure/voltage).', 'Pressure difference = voltage.', 'Practice: given W and Q, find V; given V and Q, find W.', 'Emphasize: voltage is the push, current is the flow.'] } } },
-        { type: 'subpart', nodeId: 'c9_physics_ch6_6', difficulty: 'advanced',
+        { type: 'subpart', nodeId: 'c10_phy_cbse_01_002', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
           misconception: 'Students think voltage is the same as current. The exact error: they say "the voltage flows through the wire" — but.',
@@ -171,9 +171,9 @@ export const w_c9_physicsohmsresistancesim: SimDef = {
                   misconception: 'Students think voltage is the same as current. The exact error: they say "the voltage flows through the wire" — but voltage does not flow;.' }
           ],
             remediations: { 'voltage-is-the-same-as': { steps: ['Pump = battery (creates pressure/voltage).', 'Pressure difference = voltage.', 'Practice: given W and Q, find V; given V and Q, find W.', 'Emphasize: voltage is the push, current is the flow.'] } } },
-        { type: 'subpart', nodeId: 'c9_physics_ch6_9', difficulty: 'standard',
+        { type: 'subpart', nodeId: 'c10_phy_cbse_01_006', difficulty: 'standard',
           question: 'Series combination of resistors is a circuit arrangement where resistors are.',
-          hint: 'Revisit c9_physics_ch6_7 (Ohm\'s Law) for V = IR and c9_physics_ch6_8 (Resistance) for the.',
+          hint: 'Revisit c10_phy_cbse_01_003 (Ohm\'s Law) for V = IR and c10_phy_cbse_01_004 (Resistance) for the.',
           misconception: 'Students confuse the series and parallel rules: they think voltage is the same in series (it is the same in parallel).',
           parts: [
                 { id: 'a', prompt: 'In a series circuit, what is the relationship between the current through each resistor?', answer: 'The current is the same through all resistors: I = I1 = I2 = I3 =',
@@ -186,7 +186,7 @@ export const w_c9_physicsohmsresistancesim: SimDef = {
                   misconception: 'Students confuse the series and parallel rules: they think voltage is the same in series (it is the same in parallel) and current divides.' }
           ],
             remediations: { 'students-confuse-the-series-and': { steps: ['Draw a series circuit with 3 resistors.', 'Trace the current: one path, same I everywhere.', 'Add more resistors: R_eq increases.', 'Voltage divides: V = V1 + V2 + V3, where V_i = I * R_i.'] } } },
-        { type: 'subpart', nodeId: 'c9_physics_ch6_9', difficulty: 'advanced',
+        { type: 'subpart', nodeId: 'c10_phy_cbse_01_006', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
           misconception: 'Students confuse the series and parallel rules: they think voltage is the same in series (it is the same in parallel).',

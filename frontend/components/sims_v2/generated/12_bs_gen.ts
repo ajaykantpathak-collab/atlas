@@ -59,7 +59,7 @@ export const C12_BS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Levels Of Management Refer To The",
+    "title": "Levels Of Management",
     "text": "Levels of Management refer to the hierarchical arrangement of managerial positions in an organisation, typically classified into three tiers — Top Management (strategic decision-makers like CEO, Board), Middle Management (departmental heads like Production",
     "emoji": "🏢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -539,7 +539,7 @@ export const C12_BS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Fayol's Principles Of Subordination Of",
+    "title": "Fayol's Principles: Subordination",
     "text": "Fayol's principles of Subordination of Individual Interest to General Interest, Remuneration of Employees, and Stability of Personnel are three of the 14 general management guidelines that prioritize organizational goals over personal goals, ensure fair and",
     "emoji": "🏢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2463,7 +2463,7 @@ export const C12_BS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Internal Sources Of Recruitment Refer To",
+    "title": "Internal Sources Of Recruitment",
     "text": "Internal sources of recruitment refer to filling job vacancies from within the existing workforce through transfers (horizontal movement) and promotions (vertical movement), while external sources involve hiring candidates from outside the organisation",
     "emoji": "🏢",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -3778,7 +3778,7 @@ export const C12_BS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Limitations Of Controlling Refer To The",
+    "title": "Limitations Of Controlling",
     "text": "Limitations of Controlling refer to the inherent constraints that prevent the controlling function from being fully effective in all situations, including the inability to set quantitative standards for qualitative aspects, lack of control over external",
     "emoji": "🏢",
     "bgColor": "from-violet-400 to-purple-500"

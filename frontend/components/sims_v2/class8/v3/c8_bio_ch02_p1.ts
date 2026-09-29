@@ -95,7 +95,11 @@ export const c8_bio_ch02_p1: SimDef = {
                   options: ['The three dimensions are physical, mental, and social well-being', 'health'],
                   hint: 'Review how everyday objects are classified by multiple properties (appearance, hardness.',
                   misconception: 'Students often think that "health" is purely a biological or medical state where having no fever, cough, or broken bones means a person.' },
-                { id: 'b', prompt: 'Analyze the statement: "Health is an individual matter and has nothing to do with society." Why is this statement scientifically incorrect?', answer: 'This statement is incorrect',
+                { id: 'b', prompt: 'If a student eats a nutritious diet (physical) and feels calm (mental), but constantly fights with classmates and feels alienated at school (social), how does.', answer: 'Identify the dimensions present: Physical and mental well-being are supported',
+                  options: ['Identify the dimensions present: Physical and mental well-being are supported', 'health'],
+                  hint: 'Review how everyday objects are classified by multiple properties (appearance, hardness.',
+                  misconception: 'Students often think that "health" is purely a biological or medical state where having no fever, cough, or broken bones means a person.' },
+                { id: 'c', prompt: 'Analyze the statement: "Health is an individual matter and has nothing to do with society." Why is this statement scientifically incorrect?', answer: 'This statement is incorrect',
                   options: ['This statement is incorrect', 'health'],
                   hint: 'Review how everyday objects are classified by multiple properties (appearance, hardness.',
                   misconception: 'Students often think that "health" is purely a biological or medical state where having no fever, cough, or broken bones means a person.' }

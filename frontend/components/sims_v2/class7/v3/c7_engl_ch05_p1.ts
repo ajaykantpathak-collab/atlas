@@ -77,8 +77,8 @@ export const c7_engl_ch05_p1: SimDef = {
           hint: 'Review Class 6 basic letter writing templates, specifically noting the difference between.',
           misconception: 'Students often believe that letter writing is merely a set of rigid rules about where to put commas and addresses.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Letters as a form of communication serve as a personal, tangible bridge between',
-                  options: ['Letters as a form of communication serve as a personal, tangible bridge between', 'This topic explores the historical context of India\'s post-independence wars, examining', 'The National War Memorial is a monumental tribute built to honour and remember soldiers', 'The theme of patriotism and gratitude to soldiers refers to the deep emotional bond,'],
+                { id: 'a', prompt: 'Compare a historical military letter with a modern email notification.', answer: 'Examine the physical qualities of a handwritten letter (ink smudges, pressure of',
+                  options: ['Examine the physical qualities of a handwritten letter (ink smudges, pressure of', 'both mediums convey identical emotional weight'],
                   hint: 'Review Class 6 basic letter writing templates, specifically noting the difference between sender.',
                   misconception: 'Students often believe that letter writing is merely a set of rigid rules about where to put commas and addresses, completely missing the.' }
           ],

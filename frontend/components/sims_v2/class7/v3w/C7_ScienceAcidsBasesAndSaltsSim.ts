@@ -6,13 +6,13 @@ import C7_ScienceAcidsBasesAndSaltsSim from '../../../simulations/c6_12/C7_Scien
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_scienceacidsbasesandsaltssim: SimDef = {
     id: 'v3w_c7_scienceacidsbasesandsaltssim',
-    title: 'Acids Bases And Salts',
+    title: 'What Happens When Acidic and Basic Substances Mix',
     subtitle: 'Covers the qualitative outcomes, temperature effects, and general chemical nature of.',
     classLevel: 7, subject: 'science', topic: 'What Happens When Acidic and Basic Substances Mix',
     chapters: [],
     nodeIds: ['c7_physics_ch07_005', 'c7_physics_ch07_006', 'c7_physics_ch07_001', 'c7_physics_ch07_004', 'c7_physics_ch07_007', 'c7_physics_ch07_008', 'c7_physics_ch07_009', 'c7_physics_ch07_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine washing your hands with soap after accidentally touching lemon juice; you notice a sudden change in.', goal: 'Master Acids Bases And Salts.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine washing your hands with soap after accidentally touching lemon juice; you notice a sudden change in.', goal: 'Master What Happens When Acidic and Basic Substances Mix.' },
     discovery: {
         question: 'What are the two standard products always formed in a complete neutralisation reaction between an acid and a base?',
         options: ['The products are salt and water', 'acid and salt', 'only water'],
@@ -77,7 +77,7 @@ export const w_c7_scienceacidsbasesandsaltssim: SimDef = {
             { text: 'Verify the answer is physically reasonable: 25 bags is a logical amount for a large scale garden soil treatment.', faded: true, blankAnswer: '25 bags' }
             ] } },
         { type: 'dissect', nodeId: 'c7_physics_ch07_006', title: 'Identify each idea',
-          dissect: { specimen: 'Acids Bases And Salts', spots: [
+          dissect: { specimen: 'What Happens When Acidic and Basic Substances Mix', spots: [
             { id: 's1', label: 'When an acidic substance and', prompt: 'Which idea is this? — When an acidic substance and a basic substance are mixed in the correct proportions, they.', answer: 'When an acidic substance and', options: ['When an acidic substance and', 'A neutralisation reaction is a', 'Acids and bases are two', 'A neutral substance is a'] },
             { id: 's2', label: 'A neutralisation reaction is a', prompt: 'Which idea is this? — A neutralisation reaction is a chemical process in which an acid reacts completely with a.', answer: 'A neutralisation reaction is a', options: ['A neutralisation reaction is a', 'When an acidic substance and', 'Acids and bases are two', 'A neutral substance is a'] },
             { id: 's3', label: 'Acids and bases are two', prompt: 'Which idea is this? — Acids and bases are two major classes of chemical substances defined by their distinct.', answer: 'Acids and bases are two', options: ['Acids and bases are two', 'When an acidic substance and', 'A neutralisation reaction is a', 'A neutral substance is a'] },
@@ -86,7 +86,7 @@ export const w_c7_scienceacidsbasesandsaltssim: SimDef = {
             { id: 's6', label: 'Acids and bases play a', prompt: 'Which idea is this? — Acids and bases play a crucial role in our everyday lives, determining the chemical.', answer: 'Acids and bases play a', options: ['Acids and bases play a', 'When an acidic substance and', 'A neutralisation reaction is a', 'Acids and bases are two'] }
           ] } }
     ],
-    explore: { component: C7_ScienceAcidsBasesAndSaltsSim, prompt: 'Explore the interactive — Acids Bases And Salts' },
+    explore: { component: C7_ScienceAcidsBasesAndSaltsSim, prompt: 'Explore the interactive — What Happens When Acidic and Basic Substances Mix' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_physics_ch07_005', difficulty: 'standard',
           question: 'When an acidic substance and a basic substance are mixed in the correct.',

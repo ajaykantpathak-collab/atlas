@@ -5833,7 +5833,9 @@ export const LABS: Record<string, LabSpec> = {
         draggable: () => 'length',
         output: v => `Tape shows: ${Math.round(v.length / 10)}` },
     jump: { kind: 'jump', title: 'Hop the number line!',
-        sliders: [{ id: 'pos', label: 'Frog', emoji: '🐸', min: 0, max: 10, start: 0 }],
+        // max 20 (not 10): challenges hop to sums up to 20 (8+7, 4×5) — the
+        // trace axis was already drawn to 20, the slider wasn't.
+        sliders: [{ id: 'pos', label: 'Frog', emoji: '🐸', min: 0, max: 20, start: 0 }],
         trace: { label: 'position', fn: v => v.pos??0, max: 20 },
         draggable: () => 'pos',
         output: v => `Frog is on: ${v.pos}` },

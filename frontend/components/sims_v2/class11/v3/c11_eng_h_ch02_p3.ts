@@ -19,31 +19,31 @@ export const c11_eng_h_ch02_p3: SimDef = {
         hook: 'Duration isn\'t intensity — the climax is the instant death became possible, not the long labour of surviving it.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves evaluating an author\'s narrative choices, interpreting underlying themes and symbols, and synthesizing textual evidence to form reasoned judgments.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'We\'re Not Afraid to Die\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_02_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Map the three sections onto the five dramatic stages, then explain why the children\'s courage is saved for the falling action.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_02_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a journalist interviewing the Cook family ten years after their ordeal.',
+          caseStudy: { intro: 'Analyse \'We\'re Not Afraid to Die\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'Define "critical interpretation" in the context of literary analysis and distinguish it from "personal opinion."', options: [
                 { text: 'Critical interpretation is an evidence-based analysis that examines how a text\'s', outcome: 'Critical interpretation is an evidence-based analysis that examines how a text\'s structure.' },
                 { text: 'It\'s just what I feel about the story', outcome: 'Not quite — Students often believe critical interpretation means finding "hidden meanings" the author secretly.', reveals: 'critical-interpretation-means-finding-hidden' },
                 { text: 'hidden meanings', outcome: 'Not quite — Students often believe critical interpretation means finding "hidden meanings" the author secretly.', reveals: 'critical-interpretation-means-finding-hidden' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_02_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are the captain on the night of January 2, your ribs cracked, the ship flooding, and you must write a quick log entry for maritime records AND.',
+          caseStudy: { intro: 'For written answers on \'We\'re Not Afraid to Die\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What are the five mandatory conventions of a diary entry format in CBSE Class 11 English?', options: [
                 { text: 'The five mandatory conventions are: (1) Date, Day, Time at top left, (2) Salutation', outcome: 'The five mandatory conventions are: (1) Date, Day, Time at top left, (2) Salutation (e.g., "Dear.' },
                 { text: 'subject line', outcome: 'Not quite — Students treat literature-based writing tasks as *plot summary* exercises.', reveals: 'students-treat-literature-based-writing' },
                 { text: 'formal address', outcome: 'Not quite — Students treat literature-based writing tasks as *plot summary* exercises.', reveals: 'students-treat-literature-based-writing' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_02_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine your teacher says, "Form groups of four and discuss: \'What difference did you notice between the reaction of the adults and the children when faced.',
+          caseStudy: { intro: 'Talk through \'We\'re Not Afraid to Die\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of using textual evidence in a literary discussion about "We\'re Not Afraid to Die"?', options: [
                 { text: 'The primary purpose is to ground interpretations in the author\'s actual words so that', outcome: 'The primary purpose is to ground interpretations in the author\'s actual words so that claims about.' },
                 { text: 'to show the teacher you read the book', outcome: 'Not quite — Students believe a "good discussion" means speaking often, agreeing with the teacher\'s expected.', reveals: 'a-good-discussion-means-speaking' },
@@ -63,12 +63,12 @@ export const c11_eng_h_ch02_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_02_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves evaluating an author\'s.',
+          question: 'Critical thinking on \'We\'re Not Afraid to Die\' — analysing the text to reach.',
           hint: 'If stuck, review the "Three-Level Reading Guide" technique: Level 1 (Literal - what.',
           misconception: 'Students often believe critical interpretation means finding "hidden meanings" the author secretly intended, leading.',
           parts: [
@@ -76,25 +76,29 @@ export const c11_eng_h_ch02_p3: SimDef = {
                   options: ['Critical interpretation is an evidence-based analysis that examines how a text\'s', 'It\'s just what I feel about the story', 'hidden meanings'],
                   hint: 'If stuck, review the "Three-Level Reading Guide" technique: Level 1 (Literal - what happens), Level.',
                   misconception: 'Students often believe critical interpretation means finding "hidden meanings" the author secretly intended, leading them to over-read.' },
-                { id: 'b', prompt: 'Analyze the three structural sections of the narrative (preparation/voyage, disaster/survival, navigation/rescue).', answer: 'Section 1 (preparation): logbook tone, technical detail, confidence',
+                { id: 'b', prompt: 'Apply a psychological lens to interpret the children\'s reaction to danger (Jon and Sue\'s dialogue on January 5).', answer: 'Identify the children\'s exact words: "we aren\'t afraid of dying if we can all be',
+                  options: ['Identify the children\'s exact words: "we aren\'t afraid of dying if we can all be', 'hidden meanings'],
+                  hint: 'If stuck, review the "Three-Level Reading Guide" technique: Level 1 (Literal - what happens), Level.',
+                  misconception: 'Students often believe critical interpretation means finding "hidden meanings" the author secretly intended, leading them to over-read.' },
+                { id: 'c', prompt: 'Analyze the three structural sections of the narrative (preparation/voyage, disaster/survival, navigation/rescue).', answer: 'Section 1 (preparation): logbook tone, technical detail, confidence',
                   options: ['Section 1 (preparation): logbook tone, technical detail, confidence', 'hidden meanings'],
                   hint: 'If stuck, review the "Three-Level Reading Guide" technique: Level 1 (Literal - what happens), Level.',
                   misconception: 'Students often believe critical interpretation means finding "hidden meanings" the author secretly intended, leading them to over-read.' }
           ],
-            remediations: { 'critical-interpretation-means-finding-hidden': { steps: ['If a student produces unsupported interpretations: 1) Have them practice the "Claim-Evidence-Reasoning" (CER) framework.', '2) Use the textbook\'s "Understanding the text" questions as CER templates.', '3) Model a think-aloud: "I think the island symbolizes hope — where is the evidence?', 'The text calls it \'pinpricks in the vast ocean\' and \'most beautiful island in the world\' — that\'s my evidence." 4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-interpretation-means-finding-hidden': { steps: ['If a student produces unsupported interpretations: 1) Have them practice the "Claim-Evidence-Reasoning" (CER) framework.', '2) Use the textbook\'s "Understanding the text" questions as CER templates.', '3) Model a think-aloud: "I think the island symbolizes hope — where is the evidence?', 'The text calls it \'pinpricks in the vast ocean\' and \'most beautiful island in the world\' — that\'s my evidence." 4).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_02_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter involve composing structured.',
+          question: 'Writing skills from \'We\'re Not Afraid to Die\' — using the text as a model.',
           hint: 'If stuck on evidence retrieval: Re-read the "Understanding the Text" Q1 in NCERT (steps.',
           misconception: 'Students treat literature-based writing tasks as *plot summary* exercises. They write: "The captain was brave.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing skills based on the chapter involve composing structured, purpose-driven',
-                  options: ['Writing skills based on the chapter involve composing structured, purpose-driven', '"Before You Read: Context and Background" is a preparatory literary skill that equips', 'Plot and narrative structure refers to the organization of events in a story (exposition,', 'Setting refers to the time, place, physical environment, and social context in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing skills from \'We\'re Not Afraid to Die\'',
+                  options: ['Writing skills from \'We\'re Not Afraid to Die\'', '\'We\'re Not Afraid to Die\' (Hornbill, ch', 'The plot/narrative arc of \'We\'re Not Afraid to Die\'', 'The setting of \'We\'re Not Afraid to Die\''],
                   hint: 'If stuck on evidence retrieval: Re-read the "Understanding the Text" Q1 in NCERT (steps taken.',
                   misconception: 'Students treat literature-based writing tasks as *plot summary* exercises. They write: "The captain was brave. The wave hit.' }
           ],
-            remediations: { 'students-treat-literature-based-writing': { steps: ['**Format Drill:** Give the student a blank template for each of the 4 formats (diary, formal letter, article, speech).', 'Have them fill conventions from memory in 2 minutes.', '**Voice Swap:** Take a 3-sentence summary.', 'Rewrite it in 3 voices: Captain\'s log (passive, technical), Sue\'s diary (sensory, emotional), Newspaper report.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-literature-based-writing': { steps: ['**Format Drill:** Give the student a blank template for each of the 4 formats (diary, formal letter, article, speech).', 'Have them fill conventions from memory in 2 minutes.', '**Voice Swap:** Take a 3-sentence summary.', 'Rewrite it in 3 voices: Captain\'s log (passive, technical), Sue\'s diary (sensory, emotional), Newspaper report.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_02_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured practice.',
+          question: 'Discussion points on \'We\'re Not Afraid to Die\' — speaking and listening around.',
           hint: 'Review "Critical Thinking: Analysis and Interpretation" (c11_eng_h_cbse_02_013) for.',
           misconception: 'Students believe a "good discussion" means speaking often, agreeing with the teacher\'s expected answer, or sharing.',
           parts: [
@@ -103,7 +107,7 @@ export const c11_eng_h_ch02_p3: SimDef = {
                   hint: 'Review "Critical Thinking: Analysis and Interpretation" (c11_eng_h_cbse_02_013) for.',
                   misconception: 'Students believe a "good discussion" means speaking often, agreeing with the teacher\'s expected answer, or sharing personal anecdotes.' }
           ],
-            remediations: { 'a-good-discussion-means-speaking': { steps: ['Have the student re-read the January 4-5 sections and highlight every verb describing adult actions and every quote.', 'Practice the "Paraphrase-Add-Evidence" protocol: Partner A makes a claim; Partner B says "So you\'re saying [paraphrase].', 'The text shows this when [quote]." 3.', 'Use a discussion tracker: each speaker must reference a previous speaker\'s point or a new textual detail.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'a-good-discussion-means-speaking': { steps: ['Have the student re-read the January 4-5 sections and highlight every verb describing adult actions and every quote.', 'Practice the "Paraphrase-Add-Evidence" protocol: Partner A makes a claim; Partner B says "So you\'re saying [paraphrase].', 'The text shows this when [quote]." 3.', 'Use a discussion tracker: each speaker must reference a previous speaker\'s point or a new textual detail.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_02_015', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -114,7 +118,7 @@ export const c11_eng_h_ch02_p3: SimDef = {
                   hint: 'Review "Critical Thinking: Analysis and Interpretation" (c11_eng_h_cbse_02_013) for.',
                   misconception: 'Students believe a "good discussion" means speaking often, agreeing with the teacher\'s expected answer, or sharing personal anecdotes.' }
           ],
-            remediations: { 'a-good-discussion-means-speaking': { steps: ['Have the student re-read the January 4-5 sections and highlight every verb describing adult actions and every quote.', 'Practice the "Paraphrase-Add-Evidence" protocol: Partner A makes a claim; Partner B says "So you\'re saying [paraphrase].', 'The text shows this when [quote]." 3.', 'Use a discussion tracker: each speaker must reference a previous speaker\'s point or a new textual detail.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-good-discussion-means-speaking': { steps: ['Have the student re-read the January 4-5 sections and highlight every verb describing adult actions and every quote.', 'Practice the "Paraphrase-Add-Evidence" protocol: Partner A makes a claim; Partner B says "So you\'re saying [paraphrase].', 'The text shows this when [quote]." 3.', 'Use a discussion tracker: each speaker must reference a previous speaker\'s point or a new textual detail.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -6,13 +6,13 @@ import C11_BiologyCellUltrastructureSim from '../../../simulations/three/C11_Bio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologycellultrastructuresim: SimDef = {
     id: 'v3w_c11_biologycellultrastructuresim',
-    title: 'Cell Ultrastructure',
+    title: 'Kingdom Monera: Bacteria and Archaea',
     subtitle: 'Covers the defining features of Kingdom Monera, the two major groups (Archaebacteria and.',
     classLevel: 11, subject: 'biology', topic: 'Kingdom Monera: Bacteria and Archaea',
     chapters: [],
     nodeIds: ['c11_bio_cbse_02_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a bowl of curd set overnight in a typical Indian kitchen — the transformation of liquid milk into.', goal: 'Master Cell Ultrastructure.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a bowl of curd set overnight in a typical Indian kitchen — the transformation of liquid milk into.', goal: 'Master Kingdom Monera: Bacteria and Archaea.' },
     discovery: {
         question: 'State the three criteria R.H. Whittaker used to place all prokaryotes into a single Kingdom Monera.',
         options: ['Whittaker used (1) prokaryotic cell structure (no true nucleus or membrane-bound', 'unicellular body', 'absence of chlorophyll'],
@@ -33,7 +33,7 @@ export const w_c11_biologycellultrastructuresim: SimDef = {
             { text: 'Conclude that this places them in Archaebacteria, not Eubacteria, because eubacterial peptidoglycan would be unstable.', faded: true, blankAnswer: 'The organisms are archaebacteria — specifically halophilic.' }
             ] } }
     ],
-    explore: { component: C11_BiologyCellUltrastructureSim, prompt: 'Explore the interactive — Cell Ultrastructure' },
+    explore: { component: C11_BiologyCellUltrastructureSim, prompt: 'Explore the interactive — Kingdom Monera: Bacteria and Archaea' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_02_002', difficulty: 'standard',
           question: 'Kingdom Monera comprises exclusively prokaryotic organisms (bacteria and.',

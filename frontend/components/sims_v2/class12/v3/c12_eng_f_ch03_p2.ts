@@ -19,52 +19,52 @@ export const c12_eng_f_ch03_p2: SimDef = {
         hook: 'This isn\'t a swimming story — it\'s an autopsy of fear by a man who later sat 36 years on the US Supreme Court. Two events matter separately: the beach planted the aversion, the pool crystallised it. And the fear wasn\'t irrational — it was proportionate to nearly dying twice.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying thematic threads that support, complicate, or extend the primary theme of a text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Deep Water\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_03_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Trace fear\'s full anatomy: separate the beach origin from the pool trauma, watch terror \'hold him firmly in its grip\', then follow the belt-and-pulley drills that dismantled it piece by piece.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_03_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Think of a time you learned something difficult — maybe driving, swimming, or public speaking.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Deep Water\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the difference between a primary theme and a secondary theme in a literary text?', options: [
                 { text: 'A primary theme is the central, dominant message or idea that structures the entire text', outcome: 'A primary theme is the central, dominant message or idea that structures the entire text (in "Deep.' },
                 { text: 'secondary themes', outcome: 'Not quite — Students often confuse "secondary themes" with "subplots" or "minor events." They list things that.', reveals: 'students-often-confuse-secondary-themes' },
                 { text: 'subplots', outcome: 'Not quite — Students often confuse "secondary themes" with "subplots" or "minor events." They list things that.', reveals: 'students-often-confuse-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_03_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are describing a nightmare to a friend: you don\'t just say "I was scared"; you say "The walls were closing in, the air turned to syrup, my legs.',
+          caseStudy: { intro: 'Find the lines in \'Deep Water\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "imagery" and "metaphor" in your own words, giving one example of each from *Deep Water*.', options: [
                 { text: 'Imagery: Language appealing to the senses (e.g., "water that had a dirty yellow tinge to', outcome: 'Imagery: Language appealing to the senses (e.g., "water that had a dirty yellow tinge to it".' },
                 { text: 'imagery is just description', outcome: 'Not quite — Students often treat imagery as "descriptive writing" and metaphor as "a fancy comparison," hunting.', reveals: 'students-often-treat-imagery-as' },
                 { text: 'metaphor uses like/as', outcome: 'Not quite — Students often treat imagery as "descriptive writing" and metaphor as "a fancy comparison," hunting.', reveals: 'students-often-treat-imagery-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_03_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Think of a time you said "Great job!" to a friend who just spilled coffee on themselves — that\'s verbal irony: words meaning the opposite.',
+          caseStudy: { intro: 'Look in \'Deep Water\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define situational irony, dramatic irony, and verbal irony in your own words.', options: [
                 { text: 'Situational irony: outcome contradicts expectation (e.g., the big boy says "I was only', outcome: 'Situational irony: outcome contradicts expectation (e.g., the big boy says "I was only fooling".' },
                 { text: 'I was only fooling', outcome: 'Not quite — Students confuse **coincidence** with **situational irony** — e.g., labeling the big boy\'s "I was.', reveals: 'students-confuse-coincidence-with-situational' },
                 { text: 'ironic coincidence', outcome: 'Not quite — Students confuse **coincidence** with **situational irony** — e.g., labeling the big boy\'s "I was.', reveals: 'students-confuse-coincidence-with-situational' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_03_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading a medical thriller and encounter: "The patient\'s treacherous aneurysm..." — does "treacherous" mean disloyal, unstable, or deceptively.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Deep Water\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'List the five main types of context clues used to infer word meaning, giving a one-phrase example of each from everyday reading.', options: [
                 { text: 'The five main types: 1) Definition/Restatement (e.g., "treacherous, meaning dangerous"),', outcome: 'The five main types: 1) Definition/Restatement (e.g., "treacherous, meaning dangerous"), 2) Synonym.' },
                 { text: 'prefix/suffix', outcome: 'Not quite — Students believe "vocabulary in context" means "guess the approximate meaning" rather than "analyze.', reveals: 'vocabulary-in-context-means-guess' },
                 { text: 'vocabulary in context', outcome: 'Not quite — Students believe "vocabulary in context" means "guess the approximate meaning" rather than "analyze.', reveals: 'vocabulary-in-context-means-guess' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_03_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are listening to a friend recount a terrifying childhood incident.',
+          caseStudy: { intro: 'Read \'Deep Water\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the primary narrative tense used in "Deep Water" and give one example of a past perfect verb phrase from the first two paragraphs.', options: [
                 { text: 'The primary narrative tense is simple past (e.g., "happened", "decided", "was", "offered")', outcome: 'The primary narrative tense is simple past (e.g., "happened", "decided", "was", "offered").' },
                 { text: 'language usage', outcome: 'Not quite — Students often confuse "language usage" (grammar/syntax) with "literary devices" (figures.', reveals: 'students-often-confuse-language-usage' },
                 { text: 'literary devices', outcome: 'Not quite — Students often confuse "language usage" (grammar/syntax) with "literary devices" (figures.', reveals: 'students-often-confuse-language-usage' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_03_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and see a question: "Why did Douglas feel \'stark terror\'?" You might panic and write "Because he was drowning." But.',
+          caseStudy: { intro: 'Answer \'Deep Water\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Define literal comprehension and inferential comprehension in your own words.', options: [
                 { text: 'Literal comprehension is understanding information directly stated in the text', outcome: 'Literal comprehension is understanding information directly stated in the text.' },
                 { text: 'guessing', outcome: 'Not quite — Students often think inferential questions are "opinion" questions and write personal feelings.', reveals: 'inferential-questions-are-opinion-questions' },
@@ -84,12 +84,12 @@ export const c12_eng_f_ch03_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying thematic threads that support, complicate.',
+          question: 'Secondary themes in \'Deep Water\' — the supporting ideas and motifs that deepen.',
           hint: 'If stuck, review c12_eng_f_cbse_03_006 (Primary Theme) and practice the Event→Idea.',
           misconception: 'Students often confuse "secondary themes" with "subplots" or "minor events." They list things that happen (e.g.',
           parts: [
@@ -98,7 +98,7 @@ export const c12_eng_f_ch03_p2: SimDef = {
                   hint: 'If stuck, review c12_eng_f_cbse_03_006 (Primary Theme) and practice the Event→Idea abstraction.',
                   misconception: 'Students often confuse "secondary themes" with "subplots" or "minor events." They list things that happen (e.g., "Douglas went to Lake.' }
           ],
-            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If a student lists events instead of themes: (1) Give them a two-column template: Column A = "Event from text," Column.', '(3) Guide them to write Column B by completing: "This event shows the idea that ___." (4) Group similar Column.', '(5) Re-attempt Diagnostic Question 2 (the metaphor question) to verify they can now abstract from concrete details.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If a student lists events instead of themes: (1) Give them a two-column template: Column A = "Event from text," Column.', '(3) Guide them to write Column B by completing: "This event shows the idea that ___." (4) Group similar Column.', '(5) Re-attempt Diagnostic Question 2 (the metaphor question) to verify they can now abstract from concrete details.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_007', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -109,20 +109,20 @@ export const c12_eng_f_ch03_p2: SimDef = {
                   hint: 'If stuck, review c12_eng_f_cbse_03_006 (Primary Theme) and practice the Event→Idea abstraction.',
                   misconception: 'Students often confuse "secondary themes" with "subplots" or "minor events." They list things that happen (e.g., "Douglas went to Lake.' }
           ],
-            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If a student lists events instead of themes: (1) Give them a two-column template: Column A = "Event from text," Column.', '(3) Guide them to write Column B by completing: "This event shows the idea that ___." (4) Group similar Column.', '(5) Re-attempt Diagnostic Question 2 (the metaphor question) to verify they can now abstract from concrete details.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If a student lists events instead of themes: (1) Give them a two-column template: Column A = "Event from text," Column.', '(3) Guide them to write Column B by completing: "This event shows the idea that ___." (4) Group similar Column.', '(5) Re-attempt Diagnostic Question 2 (the metaphor question) to verify they can now abstract from concrete details.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Deep Water\' — the vivid, sensory language that creates.',
           hint: 'Review Class 11 Literary Devices node (c11_eng_h_cbse_01_008) and practice on a short.',
           misconception: 'Students often treat imagery as "descriptive writing" and metaphor as "a fancy comparison," hunting for them like.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Imagery is the use of vivid, sensory language that appeals to the five senses (sight,',
-                  options: ['Imagery is the use of vivid, sensory language that appeals to the five senses (sight,', 'The "Before You Read: Context and Background" section provides essential preliminary', 'Plot and narrative structure in "Deep Water" refers to the organization of events in', 'Setting refers to the time, place, and physical environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Imagery in \'Deep Water\'',
+                  options: ['Imagery in \'Deep Water\'', '\'Deep Water\' (Flamingo, ch', 'The plot/narrative arc of \'Deep Water\'', 'The setting of \'Deep Water\''],
                   hint: 'Review Class 11 Literary Devices node (c11_eng_h_cbse_01_008) and practice on a short unseen.',
                   misconception: 'Students often treat imagery as "descriptive writing" and metaphor as "a fancy comparison," hunting for them like Easter eggs without.' }
           ],
-            remediations: { 'students-often-treat-imagery-as': { steps: ['Re-read the drowning scene (paras 5-12) with a highlighter: pink for visual, blue for tactile, green for auditory.', 'List every direct comparison (X is Y) in the chapter; for each, write the tenor and vehicle in two columns.', 'Pick the three most repeated images/comparisons and trace how they change from the pool scene to the lake scene.', 'Re-attempt Diagnostic Questions 3 and 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-imagery-as': { steps: ['Re-read the drowning scene (paras 5-12) with a highlighter: pink for visual, blue for tactile, green for auditory.', 'List every direct comparison (X is Y) in the chapter; for each, write the tenor and vehicle in two columns.', 'Pick the three most repeated images/comparisons and trace how they change from the pool scene to the lake scene.', 'Re-attempt Diagnostic Questions 3 and 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'Deep Water\' — where opposite things are both true,.',
           hint: 'If unclear on metaphor vs symbol, revisit c12_eng_f_cbse_03_008 Worked Example 2.',
           misconception: 'Students confuse **coincidence** with **situational irony** — e.g., labeling the big boy\'s "I was only fooling".',
           parts: [
@@ -135,9 +135,9 @@ export const c12_eng_f_ch03_p2: SimDef = {
                   hint: 'If unclear on metaphor vs symbol, revisit c12_eng_f_cbse_03_008 Worked Example 2 (metaphor.',
                   misconception: 'Students confuse **coincidence** with **situational irony** — e.g., labeling the big boy\'s "I was only fooling" as "ironic coincidence".' }
           ],
-            remediations: { 'students-confuse-coincidence-with-situational': { steps: ['Re-read the "misadventure" scene (paragraphs 8-18) and the "instructor" scene (paragraphs 20-22) side by side.', 'Highlight every sentence where expectation clashes with outcome (irony) and every object that appears in both scenes.', 'Create a two-column table: Column A = "What the big boy / instructor says or does," Column B = "What actually happens.', 'For symbolism, list: water, pool, river, lake, rope, pulley, water wings, curtain, instructor, tiles.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-confuse-coincidence-with-situational': { steps: ['Re-read the "misadventure" scene (paragraphs 8-18) and the "instructor" scene (paragraphs 20-22) side by side.', 'Highlight every sentence where expectation clashes with outcome (irony) and every object that appears in both scenes.', 'Create a two-column table: Column A = "What the big boy / instructor says or does," Column B = "What actually happens.', 'For symbolism, list: water, pool, river, lake, rope, pulley, water wings, curtain, instructor, tiles.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the analytical skill of determining precise word.',
+          question: 'Key vocabulary of \'Deep Water\' — the words and phrases you must know to read.',
           hint: 'Review Class 11 node c11_eng_h_cbse_01_010 "Vocabulary in Context: Key Words" for the.',
           misconception: 'Students believe "vocabulary in context" means "guess the approximate meaning" rather than "analyze specific textual.',
           parts: [
@@ -150,20 +150,20 @@ export const c12_eng_f_ch03_p2: SimDef = {
                   hint: 'Review Class 11 node c11_eng_h_cbse_01_010 "Vocabulary in Context: Key Words" for the five clue.',
                   misconception: 'Students believe "vocabulary in context" means "guess the approximate meaning" rather than "analyze specific textual evidence." They write.' }
           ],
-            remediations: { 'vocabulary-in-context-means-guess': { steps: ['1) Have the student re-read the "treacherous" passage (para 2) and physically underline each clue phrase: "warned.', 'Write them down." 3) Practice with three fresh sentences from Class 11 vocabulary nodes (c11_eng_h_cbse_01_010.', '4) Re-diagnose using DIAGNOSTIC_QUESTION_3 format on a new word from "Deep Water" (e.g., "misadventure").', '5) If still stuck, revert to Class 11 node c11_eng_h_cbse_01_010 for clue-type drill with simpler texts.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'vocabulary-in-context-means-guess': { steps: ['1) Have the student re-read the "treacherous" passage (para 2) and physically underline each clue phrase: "warned.', 'Write them down." 3) Practice with three fresh sentences from Class 11 vocabulary nodes (c11_eng_h_cbse_01_010.', '4) Re-diagnose using DIAGNOSTIC_QUESTION_3 format on a new word from "Deep Water" (e.g., "misadventure").', '5) If still stuck, revert to Class 11 node c11_eng_h_cbse_01_010 for clue-type drill with simpler texts.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the study of how the author.',
+          question: 'Language and style in \'Deep Water\' — how the writer chose words, sentences and.',
           hint: 'If stuck, review Class 11 grammar nodes c11_eng_h_cbse_01_011 and c11_eng_h_cbse_03_011.',
           misconception: 'Students often confuse "language usage" (grammar/syntax) with "literary devices" (figures of speech).',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Grammar: Language Usage in the Text refers to the study of how the author employs',
-                  options: ['Grammar: Language Usage in the Text refers to the study of how the author employs', 'The "Before You Read: Context and Background" section provides essential preliminary', 'Plot and narrative structure in "Deep Water" refers to the organization of events in', 'Setting refers to the time, place, and physical environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language and style in \'Deep Water\'',
+                  options: ['Language and style in \'Deep Water\'', '\'Deep Water\' (Flamingo, ch', 'The plot/narrative arc of \'Deep Water\'', 'The setting of \'Deep Water\''],
                   hint: 'If stuck, review Class 11 grammar nodes c11_eng_h_cbse_01_011 and c11_eng_h_cbse_03_011 for worked.',
                   misconception: 'Students often confuse "language usage" (grammar/syntax) with "literary devices" (figures of speech).' }
           ],
-            remediations: { 'students-often-confuse-language-usage': { steps: ['Review the distinction between literary devices (nodes 008, 009) and grammatical structures using a two-column table.', 'Re-read the first page of "Deep Water" and highlight only verb phrases; label each tense.', 'Re-attempt Diagnostic Question 4 with a fresh excerpt (e.g., the instructor training paragraphs) focusing solely.', 'Consult Class 11 grammar nodes c11_eng_h_cbse_01_011 and c11_eng_h_cbse_03_011 for worked examples of this exact.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-language-usage': { steps: ['Review the distinction between literary devices (nodes 008, 009) and grammatical structures using a two-column table.', 'Re-read the first page of "Deep Water" and highlight only verb phrases; label each tense.', 'Re-attempt Diagnostic Question 4 with a fresh excerpt (e.g., the instructor training paragraphs) focusing solely.', 'Consult Class 11 grammar nodes c11_eng_h_cbse_01_011 and c11_eng_h_cbse_03_011 for worked examples of this exact.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require retrieving information directly stated.',
+          question: 'Literal comprehension of \'Deep Water\' — questions answered straight from the.',
           hint: 'If stuck, review the definitions of literal and inferential comprehension from Class 11.',
           misconception: 'Students often think inferential questions are "opinion" questions and write personal feelings without textual support.',
           parts: [
@@ -180,7 +180,7 @@ export const c12_eng_f_ch03_p2: SimDef = {
                   hint: 'If stuck, review the definitions of literal and inferential comprehension from Class 11.',
                   misconception: 'Students often think inferential questions are "opinion" questions and write personal feelings without textual support.' }
           ],
-            remediations: { 'inferential-questions-are-opinion-questions': { steps: ['If a student cannot distinguish literal from inferential, have them re-read the NCERT questions at the end of the.', 'Then, for each inferential question, ask them to underline the textual clues that lead to the inference.', 'Revisit node c11_eng_h_cbse_01_012 (Class 11 comprehension) for basic practice with simpler texts.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'inferential-questions-are-opinion-questions': { steps: ['If a student cannot distinguish literal from inferential, have them re-read the NCERT questions at the end of the.', 'Then, for each inferential question, ask them to underline the textual clues that lead to the inference.', 'Revisit node c11_eng_h_cbse_01_012 (Class 11 comprehension) for basic practice with simpler texts.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

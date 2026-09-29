@@ -19,29 +19,29 @@ export const c11_eng_w_ch20_p3: SimDef = {
         hook: 'The tiger king lies \'we came as friends,\' Ajamil pretends to believe him — and both know the flock pays for the handshake.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining a text beyond its literal meaning to evaluate its underlying arguments, assumptions, and implications, using textual evidence to support.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Ajamil and the Tigers\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_20_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Split fable, allegory and satire in the poem, spot the dramatic irony in the tiger king\'s lie, and judge whether the shared-pond ending resolves or merely manages the conflict.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_20_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re reading a political cartoon in a newspaper - the drawing shows animals, but you instantly understand it\'s about politicians and voters.',
+          caseStudy: { intro: 'Analyse \'Ajamil and the Tigers\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the primary allegorical correspondence in the poem: who or what do the tigers, sheep, sheepdog, and Ajamil represent in the.', options: [
                 { text: 'The tigers represent predatory politicians/powerful elites', outcome: 'The tigers represent predatory politicians/powerful elites; the sheep represent the common.' },
                 { text: 'tigers are just animals', outcome: 'Not quite — Students often interpret the poem as a simple fable about "clever compromise" or "pragmatic peace,".', reveals: 'students-often-interpret-the-poem' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_20_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re sitting in the exam hall and the question reads: "The poem \'Ajamil and the Tigers\' is a satire on political compromise.',
+          caseStudy: { intro: 'For written answers on \'Ajamil and the Tigers\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the primary purpose of using the PEEL structure when writing an analytical answer on a poem?', options: [
                 { text: 'The primary purpose of PEEL is to ensure each paragraph contains a clear Point (topic', outcome: 'The primary purpose of PEEL is to ensure each paragraph contains a clear Point (topic sentence).' },
                 { text: 'PEEL is for summarizing the poem', outcome: 'Not quite — Students believe that writing a detailed summary of the poem with a few quotes constitutes a good.', reveals: 'writing-a-detailed-summary-of' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_20_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a student council meeting discussing a controversial school policy where the administration compromises with a powerful group.',
+          caseStudy: { intro: 'Talk through \'Ajamil and the Tigers\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the central allegorical meaning of the \'tigers\' and \'sheep\' in Arun Kolatkar\'s poem "Ajamil and the Tigers"?', options: [
                 { text: 'The tigers represent predatory political powers or oppressors, while the sheep represent', outcome: 'The tigers represent predatory political powers or oppressors, while the sheep represent the.' },
                 { text: 'tigers are just animals', outcome: 'Not quite — Students often think a group discussion on literature is just sharing personal opinions ("I liked.', reveals: 'a-group-discussion-on-literature' },
@@ -61,12 +61,12 @@ export const c11_eng_w_ch20_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_20_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining a text beyond its.',
+          question: 'Critical thinking on \'Ajamil and the Tigers\' — analysing the text to reach.',
           hint: 'If stuck, review c11_eng_w_cbse_20_009 (Irony and Symbolism) to practice identifying.',
           misconception: 'Students often interpret the poem as a simple fable about "clever compromise" or "pragmatic peace," praising Ajamil for.',
           parts: [
@@ -75,7 +75,7 @@ export const c11_eng_w_ch20_p3: SimDef = {
                   hint: 'If stuck, review c11_eng_w_cbse_20_009 (Irony and Symbolism) to practice identifying verbal.',
                   misconception: 'Students often interpret the poem as a simple fable about "clever compromise" or "pragmatic peace," praising Ajamil for avoiding conflict.' }
           ],
-            remediations: { 'students-often-interpret-the-poem': { steps: ['Have the student list the tigers\' actions in chronological order (starving → threatening → attacking → captured → lying.', 'Ask: "At which point did the tigers stop being predators?"', 'Connect "have got to eat some time" to the ending\'s "fat sheep" - if tigers must eat, and sheep are the only meat, the.', 'Re-read Ajamil\'s lines with this lens: his "flute playing" is willful ignorance of the feeding schedule he authorized.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-interpret-the-poem': { steps: ['Have the student list the tigers\' actions in chronological order (starving → threatening → attacking → captured → lying.', 'Ask: "At which point did the tigers stop being predators?"', 'Connect "have got to eat some time" to the ending\'s "fat sheep" - if tigers must eat, and sheep are the only meat, the.', 'Re-read Ajamil\'s lines with this lens: his "flute playing" is willful ignorance of the feeding schedule he authorized.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_20_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -86,9 +86,9 @@ export const c11_eng_w_ch20_p3: SimDef = {
                   hint: 'If stuck, review c11_eng_w_cbse_20_009 (Irony and Symbolism) to practice identifying verbal.',
                   misconception: 'Students often interpret the poem as a simple fable about "clever compromise" or "pragmatic peace," praising Ajamil for avoiding conflict.' }
           ],
-            remediations: { 'students-often-interpret-the-poem': { steps: ['Have the student list the tigers\' actions in chronological order (starving → threatening → attacking → captured → lying.', 'Ask: "At which point did the tigers stop being predators?"', 'Connect "have got to eat some time" to the ending\'s "fat sheep" - if tigers must eat, and sheep are the only meat, the.', 'Re-read Ajamil\'s lines with this lens: his "flute playing" is willful ignorance of the feeding schedule he authorized.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-interpret-the-poem': { steps: ['Have the student list the tigers\' actions in chronological order (starving → threatening → attacking → captured → lying.', 'Ask: "At which point did the tigers stop being predators?"', 'Connect "have got to eat some time" to the ending\'s "fat sheep" - if tigers must eat, and sheep are the only meat, the.', 'Re-read Ajamil\'s lines with this lens: his "flute playing" is willful ignorance of the feeding schedule he authorized.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_20_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter "Ajamil and the Tigers" refer to the.',
+          question: 'Writing skills from \'Ajamil and the Tigers\' — using the text as a model.',
           hint: 'If stuck, review the distinction between fable, allegory, and satire (NCERT "Try This.',
           misconception: 'Students believe that writing a detailed summary of the poem with a few quotes constitutes a good analytical answer.',
           parts: [
@@ -97,9 +97,9 @@ export const c11_eng_w_ch20_p3: SimDef = {
                   hint: 'If stuck, review the distinction between fable, allegory, and satire (NCERT "Try This Out") and.',
                   misconception: 'Students believe that writing a detailed summary of the poem with a few quotes constitutes a good analytical answer.' }
           ],
-            remediations: { 'writing-a-detailed-summary-of': { steps: ['Show the student a side-by-side comparison: a 4/10 summary-heavy answer vs a 9/10 analytical answer on the same.', 'Have them highlight the Point, Evidence, Explanation, Link in the strong answer using four colored pens.', 'Give them a new question and ask them to write only the Point and Evidence sentences first; check that the Point is.', 'Gradually build to full PEEL paragraphs, insisting that every Evidence sentence is followed by an Explanation sentence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-a-detailed-summary-of': { steps: ['Show the student a side-by-side comparison: a 4/10 summary-heavy answer vs a 9/10 analytical answer on the same.', 'Have them highlight the Point, Evidence, Explanation, Link in the strong answer using four colored pens.', 'Give them a new question and ask them to write only the Point and Evidence sentences first; check that the Point is.', 'Gradually build to full PEEL paragraphs, insisting that every Evidence sentence is followed by an Explanation sentence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_20_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Ajamil and the Tigers\' — speaking and listening around.',
           hint: 'If stuck, review the allegorical mapping in node c11_eng_w_cbse_20_006 and the irony.',
           misconception: 'Students often think a group discussion on literature is just sharing personal opinions ("I liked the poem").',
           parts: [
@@ -108,7 +108,7 @@ export const c11_eng_w_ch20_p3: SimDef = {
                   hint: 'If stuck, review the allegorical mapping in node c11_eng_w_cbse_20_006 and the irony analysis.',
                   misconception: 'Students often think a group discussion on literature is just sharing personal opinions ("I liked the poem").' }
           ],
-            remediations: { 'a-group-discussion-on-literature': { steps: ['If a student falls into this misconception, have them practice converting a summary point into an analytical discussion.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-group-discussion-on-literature': { steps: ['If a student falls into this misconception, have them practice converting a summary point into an analytical discussion.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -19,7 +19,7 @@ export const c12_eng_k_ch19_p3: SimDef = {
         hook: 'Sci-fi couldn\'t exist before ~1800: only when the Industrial Revolution made change visible within one lifetime did \'the future\' become imaginable. The scientist is the priest\'s heir — both hold \'the secret of controlling the Universe\'; one through formulas, the other through laws.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation involves systematically breaking down a non-fiction text to examine its argument structure, evaluate the author\'s claims and evidence, interpret.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'On Science Fiction\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_19_013', title: 'Your mission',
@@ -29,21 +29,21 @@ export const c12_eng_k_ch19_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re reading a sci-fi novel where humans colonize Mars using technology that doesn\'t exist yet — you accept it because the story establishes.',
+          caseStudy: { intro: 'Analyse \'On Science Fiction\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is Asimov\'s fundamental criterion for distinguishing science fiction from myths and legends?', options: [
                 { text: 'Asimov distinguishes them by the governing system of their fictional universes: myths', outcome: 'Asimov distinguishes them by the governing system of their fictional universes: myths operate.' },
                 { text: 'science fiction is about the future, myths are about the past', outcome: 'Not quite — Students often think Asimov dismisses myths/legends as "inferior" to science fiction because.', reveals: 'asimov-dismisses-myths-legends-as' },
                 { text: 'inferior', outcome: 'Not quite — Students often think Asimov dismisses myths/legends as "inferior" to science fiction because.', reveals: 'asimov-dismisses-myths-legends-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re asked: "How is science fiction different from fantasy?" — a common Class 12 board question.',
+          caseStudy: { intro: 'For written answers on \'On Science Fiction\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'Define "discourse markers" and give three examples from Asimov\'s essay that signal contrast, addition, and conclusion respectively.', options: [
                 { text: 'Discourse markers (or discourse signalers) are words/phrases that connect ideas across', outcome: 'Discourse markers (or discourse signalers) are words/phrases that connect ideas across paragraphs.' },
                 { text: 'and, but, so', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarizing Asimov\'s essay.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarizing Asimov\'s essay.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a CUET group discussion round where the prompt is: "Science fiction predicts future technology — discuss with examples from Asimov\'s essay.".',
+          caseStudy: { intro: 'Talk through \'On Science Fiction\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'A student says: "Asimov thinks myths are just wrong science fiction because they used magic instead of physics." Does this accurately.', options: [
                 { text: 'No', outcome: 'No. Asimov explicitly states myths are "the equivalent of science fiction set in another kind.' },
                 { text: 'and argues we shouldn\'t', outcome: 'Not quite — Students treat "discussion" as "taking turns giving speeches." They prepare mini-essays, recite.', reveals: 'students-treat-discussion-as-taking' }
@@ -67,7 +67,7 @@ export const c12_eng_k_ch19_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation involves systematically breaking.',
+          question: 'Critical thinking on \'On Science Fiction\' — analysing the text to reach.',
           hint: 'If stuck, return to c12_eng_k_cbse_19_009 (Irony and Symbolism) and analyze the Holmes.',
           misconception: 'Students often think Asimov dismisses myths/legends as "inferior" to science fiction because he calls them.',
           parts: [
@@ -82,12 +82,12 @@ export const c12_eng_k_ch19_p3: SimDef = {
           ],
             remediations: { 'asimov-dismisses-myths-legends-as': { steps: ['Re-read the "Stop and Think" questions in the NCERT text (p.195) — they directly target the myth vs.', 'Create a two-column table: Column A = Myth/legend example from text (flying carpet, crystal ball, seven-league boots).', 'For each pair, write the governing rule: e.g., "Magic formula \'Open sesame\'" vs.', '"Remote-control signal." 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_014', difficulty: 'standard',
-          question: 'Writing skills based on "On Science Fiction" involve crafting analytical.',
+          question: 'Writing skills from \'On Science Fiction\' — using the text as a model.',
           hint: 'If stuck, re-read Section I paragraphs 5-8 (myths vs. SF comparison) and Section.',
           misconception: 'Students believe "writing skills based on the chapter" means summarizing Asimov\'s essay.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing skills based on "On Science Fiction" involve crafting analytical responses that',
-                  options: ['Writing skills based on "On Science Fiction" involve crafting analytical responses that', 'The "Before You Read: Context and Background" stage prepares students to engage with', 'In non-fiction essays like Asimov\'s "On Science Fiction," narrative structure refers to', 'Setting in a non-fiction essay refers to the conceptual or intellectual framework the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing skills from \'On Science Fiction\'',
+                  options: ['Writing skills from \'On Science Fiction\'', '\'On Science Fiction\' (Kaleidoscope, ch', 'The plot/narrative arc of \'On Science Fiction\'', 'The setting of \'On Science Fiction\''],
                   hint: 'If stuck, re-read Section I paragraphs 5-8 (myths vs. SF comparison) and Section II paragraphs 1-4.',
                   misconception: 'Students believe "writing skills based on the chapter" means summarizing Asimov\'s essay.' }
           ],
@@ -108,7 +108,7 @@ export const c12_eng_k_ch19_p3: SimDef = {
           ],
             remediations: { 'writing-skills-based-on-the': { steps: ['If a student produces summary instead of analysis: (1) Give them a sample weak summary and a strong analytical.', '(2) Have them convert three summary sentences into analytical ones by adding "This shows that..." + explanation.', '(3) Practice with a new genre pair (e.g., "Western vs.', 'Space Western") using the PEEL template.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'On Science Fiction\' — speaking and listening around the.',
           hint: 'If stuck on evidence-finding: re-read Section I (myth-tech parallels) and Section.',
           misconception: 'Students treat "discussion" as "taking turns giving speeches." They prepare mini-essays, recite them without listening.',
           parts: [

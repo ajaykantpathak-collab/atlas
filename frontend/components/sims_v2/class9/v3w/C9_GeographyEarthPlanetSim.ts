@@ -6,13 +6,13 @@ import C9_GeographyEarthPlanetSim from '../../../simulations/c6_12/C9_GeographyE
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_geographyearthplanetsim: SimDef = {
     id: 'v3w_c9_geographyearthplanetsim',
-    title: 'Earth Planet',
+    title: 'Atmosphere: Composition of Gases',
     subtitle: 'Covers the chemical composition of dry air and the role of variable gases (water vapour,.',
     classLevel: 9, subject: 'geography', topic: 'Atmosphere: Composition of Gases',
     chapters: [],
     nodeIds: ['c9_geo_ch2_1', 'c9_geo_ch2_11', 'c9_geo_ch2_2', 'c9_geo_ch2_3', 'c9_geo_ch2_4', 'c9_geo_ch2_6', 'c9_geo_ch2_9', 'c9_geo_ch1_1'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Observe the air around you on a humid monsoon afternoon in Mumbai — it feels heavy and sticky, while a winter.', goal: 'Master Earth Planet.' },
+    scenario: { role: 'a class 9 learner', intro: 'Observe the air around you on a humid monsoon afternoon in Mumbai — it feels heavy and sticky, while a winter.', goal: 'Master Atmosphere: Composition of Gases.' },
     discovery: {
         question: 'State the approximate percentage by volume of nitrogen, oxygen, and argon in dry air, and name the most abundant variable gas.',
         options: ['Nitrogen ≈ 78.08%, Oxygen ≈ 20.95%, Argon ≈ 0.93%', 'the atmosphere is mostly oxygen', 'trace gas'],
@@ -78,7 +78,7 @@ export const w_c9_geographyearthplanetsim: SimDef = {
             { text: 'Conclude: Low solar angle + short day length (calculated via hour angle formula) = less heating = winter.', faded: true, blankAnswer: 'Sun\'s altitude at solar noon in Delhi on Dec 22 = 37.9°..' }
             ] } },
         { type: 'dissect', nodeId: 'c9_geo_ch2_11', title: 'Identify each idea',
-          dissect: { specimen: 'Earth Planet', spots: [
+          dissect: { specimen: 'Atmosphere: Composition of Gases', spots: [
             { id: 's1', label: 'The Earths atmosphere is a', prompt: 'Which idea is this? — The Earth\'s atmosphere is a mixture of gases held by gravity, consisting primarily of.', answer: 'The Earths atmosphere is a', options: ['The Earths atmosphere is a', 'Human impact on climate refers', 'The atmosphere is divided into', 'Air pressure is the force'] },
             { id: 's2', label: 'Human impact on climate refers', prompt: 'Which idea is this? — Human impact on climate refers to the alteration of Earth\'s atmospheric composition and.', answer: 'Human impact on climate refers', options: ['Human impact on climate refers', 'The Earths atmosphere is a', 'The atmosphere is divided into', 'Air pressure is the force'] },
             { id: 's3', label: 'The atmosphere is divided into', prompt: 'Which idea is this? — The atmosphere is divided into five distinct layers—troposphere, stratosphere,.', answer: 'The atmosphere is divided into', options: ['The atmosphere is divided into', 'The Earths atmosphere is a', 'Human impact on climate refers', 'Air pressure is the force'] },
@@ -87,7 +87,7 @@ export const w_c9_geographyearthplanetsim: SimDef = {
             { id: 's6', label: 'Seasons are the periodic changes', prompt: 'Which idea is this? — Seasons are the periodic changes in weather patterns caused by Earth\'s revolution around.', answer: 'Seasons are the periodic changes', options: ['Seasons are the periodic changes', 'The Earths atmosphere is a', 'Human impact on climate refers', 'The atmosphere is divided into'] }
           ] } }
     ],
-    explore: { component: C9_GeographyEarthPlanetSim, prompt: 'Explore the interactive — Earth Planet' },
+    explore: { component: C9_GeographyEarthPlanetSim, prompt: 'Explore the interactive — Atmosphere: Composition of Gases' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_geo_ch2_1', difficulty: 'standard',
           question: 'The Earth\'s atmosphere is a mixture of gases held by gravity, consisting.',

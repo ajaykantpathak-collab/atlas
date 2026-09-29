@@ -6,13 +6,13 @@ import C11_PhysicsParallelPerpendicularAxesSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsparallelperpendicularaxessim: SimDef = {
     id: 'v3w_c11_physicsparallelperpendicularaxessim',
-    title: 'Parallel Perpendicular Axes',
+    title: 'Theorems of Moment of Inertia: Parallel Axis',
     subtitle: 'This node covers the statement, proof, and application of the Parallel Axis Theorem for.',
     classLevel: 11, subject: 'physics', topic: 'Theorems of Moment of Inertia: Parallel Axis',
     chapters: [],
     nodeIds: ['c11_phy_cbse_06_009', 'c11_phy_cbse_06_010', 'c11_phy_cbse_06_011', 'c11_phy_cbse_03_003', 'c11_phy_cbse_03_004', 'c11_phy_cbse_03_005', 'c11_phy_cbse_06_003', 'c11_phy_cbse_06_007', 'c11_phy_cbse_06_008', 'c11_phy_cbse_03_008', 'c11_phy_cbse_05_015', 'c11_phy_cbse_04_007', 'c11_phy_cbse_08_007', 'c11_phy_cbse_14_001', 'c11_phy_cbse_06_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a ceiling fan in an Indian household: the blades rotate about the central axis through the motor.', goal: 'Master Parallel Perpendicular Axes.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a ceiling fan in an Indian household: the blades rotate about the central axis through the motor.', goal: 'Master Theorems of Moment of Inertia: Parallel Axis.' },
     discovery: {
         question: 'State the x- and y-components of a force vector **F** = 20 N acting at an angle of 30° with the positive x-axis. Write the vector in unit vector notation.',
         options: ['Fₓ = 20 cos30° = 20 × (√3/2) = 10√3 ≈ 17.3 N, Fᵧ = 20 sin30° = 20 × 0.5 = 10 N', 'part of the vector', 'disappears'],
@@ -82,7 +82,7 @@ export const w_c11_physicsparallelperpendicularaxessim: SimDef = {
             { text: 'Express in unit-vector notation and verify. **R** = 0.598î + 2.964ĵ km.', faded: true, blankAnswer: '**R** = 3.02 km at 78.6° north of east (or 0.598î + 2.96ĵ.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_06_010', title: 'Identify each idea',
-          dissect: { specimen: 'Parallel Perpendicular Axes', spots: [
+          dissect: { specimen: 'Theorems of Moment of Inertia: Parallel Axis', spots: [
             { id: 's1', label: 'The Parallel Axis Theorem states', prompt: 'Which idea is this? — The Parallel Axis Theorem states that the moment of inertia \\(I\\) of a rigid body about.', answer: 'The Parallel Axis Theorem states', options: ['The Parallel Axis Theorem states', 'The Perpendicular Axis Theorem states', 'The moment of inertia of', 'The analytical method of vector'] },
             { id: 's2', label: 'The Perpendicular Axis Theorem states', prompt: 'Which idea is this? — The Perpendicular Axis Theorem states that for a planar lamina (a thin, flat body), the.', answer: 'The Perpendicular Axis Theorem states', options: ['The Perpendicular Axis Theorem states', 'The Parallel Axis Theorem states', 'The moment of inertia of', 'The analytical method of vector'] },
             { id: 's3', label: 'The moment of inertia of', prompt: 'Which idea is this? — The moment of inertia of a rigid body about a given axis is the sum of the products of.', answer: 'The moment of inertia of', options: ['The moment of inertia of', 'The Parallel Axis Theorem states', 'The Perpendicular Axis Theorem states', 'The analytical method of vector'] },
@@ -91,7 +91,7 @@ export const w_c11_physicsparallelperpendicularaxessim: SimDef = {
             { id: 's6', label: 'Vector addition using components is', prompt: 'Which idea is this? — Vector addition using components is the analytical method of finding the resultant of two.', answer: 'Vector addition using components is', options: ['Vector addition using components is', 'The Parallel Axis Theorem states', 'The Perpendicular Axis Theorem states', 'The moment of inertia of'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsParallelPerpendicularAxesSim, prompt: 'Explore the interactive — Parallel Perpendicular Axes' },
+    explore: { component: C11_PhysicsParallelPerpendicularAxesSim, prompt: 'Explore the interactive — Theorems of Moment of Inertia: Parallel Axis' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_06_009', difficulty: 'standard',
           question: 'The Parallel Axis Theorem states that the moment of inertia \\(I\\) of a rigid.',

@@ -19,7 +19,7 @@ export const c11_hin_v_ch03_p2: SimDef = {
         hook: 'The protagonist performs the \'good servant\' when it suits her and refuses questions when it doesn\'t — resistance here is tactical, not absolute.',
     },
     teaching: [
-        { title: 'पाठ 3 — गौण विषय', text: 'गौण विषय (Sub-theme) किसी साहित्यिक कृति में वह द्वितीयक केंद्रीय विचार या भाव-धारा है जो मुख्य विषय (Main Theme) के समानांतर चलती है, उसे विस्तार देती है, उसके विभिन्न आयामों को उजागर करती है और.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 3 — गौण विषय', text: '\'वक़्स-वहाँ\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_v_cbse_03_007', title: 'Your mission',
@@ -28,11 +28,32 @@ export const c11_hin_v_ch03_p2: SimDef = {
         context: 'Find the inciting incident — the lawyer\'s wife handing over a notebook — and defend the climax where a servant reads her own story aloud.',
         labels: ['पाठ 3 — गौण', 'पाठ 3 — साहित्यिक', 'पाठ 3 — पदावली', 'पाठ 3 — व्याकरण', 'पाठ 3 — बोध-प्रश्न'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c11_hin_v_cbse_03_007', title: 'पाठ 3 — गौण विषय',
+          caseStudy: { intro: '\'वक़्स-वहाँ\' में वक़्स-वहाँ जैसे सहायक विचार आते हैं।',
+            decisions: [{ prompt: 'List three secondary themes present in "vkyks&vk¡èkkfj" with one specific textual reference (incident or dialogue) for each.', options: [
+                { text: '**Correct Answer:** 1', outcome: '**Correct Answer:** 1. **Education/Literacy as Liberation** – The protagonist learning.' },
+                { text: 'poverty', outcome: 'Not quite — Students treat "secondary themes" as a checklist of topics (caste, gender, poverty) rather than.', reveals: 'students-treat-secondary-themes-as' },
+                { text: 'hard work', outcome: 'Not quite — Students treat "secondary themes" as a checklist of topics (caste, gender, poverty) rather than.', reveals: 'students-treat-secondary-themes-as' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_v_cbse_03_009', title: 'पाठ 3 — साहित्यिक युक्तियाँ: विरोधाभास और प्रतीक',
+          caseStudy: { intro: '\'वक़्स-वहाँ\' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।',
+            decisions: [{ prompt: 'Define situational irony and give one example from the memoir where the lawyer\'s actions contradict his professional identity as a legal.', options: [
+                { text: 'Situational irony occurs when the outcome of a situation is opposite to what is logically', outcome: 'Situational irony occurs when the outcome of a situation is opposite to what is logically.' },
+                { text: 'rain on a wedding day', outcome: 'Not quite — Students often confuse *symbolism* with *imagery* — they identify descriptive details (e.g., "the.', reveals: 'students-often-confuse-symbolism-with' },
+                { text: 'the kitchen was smoky', outcome: 'Not quite — Students often confuse *symbolism* with *imagery* — they identify descriptive details (e.g., "the.', reveals: 'students-often-confuse-symbolism-with' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_v_cbse_03_011', title: 'पाठ 3 — व्याकरण: पाठ में भाषा-प्रयोग',
+          caseStudy: { intro: '\'वक़्स-वहाँ\' की भाषा देखिए — NCERT पाठ्यपुस्तक का शब्द-चयन और शैली भाव बनाती है।',
+            decisions: [{ prompt: 'Identify the grammatical term for verb formations like "खाती-पीती", "आती-जाती", "कहती-सुनती" that appear repeatedly in the text, and.', options: [
+                { text: 'These are **compound verbs (संयुक्त क्रिया)** formed by combining two verbal stems', outcome: 'These are **compound verbs (संयुक्त क्रिया)** formed by combining two verbal stems (V1+V2) where.' },
+                { text: 'simple verbs', outcome: 'Not quite — Students believe "language usage analysis" means listing difficult vocabulary words (शब्दार्थ).', reveals: 'language-usage-analysis-means-listing' },
+                { text: 'conjunctions', outcome: 'Not quite — Students believe "language usage analysis" means listing difficult vocabulary words (शब्दार्थ).', reveals: 'language-usage-analysis-means-listing' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_03_012', title: 'पाठ 3 — बोध-प्रश्न: वस्तुनिष्ठ और आशय-सूचक',
-          caseStudy: { intro: 'You open your Board exam paper and see Question 2: "Why did the protagonist refuse the job offer?" (आशय-सूचक) and Question 1: "What was the name of the.',
-            decisions: [{ prompt: 'पाठ 3 के आधार पर: "लेखक ने जिस गाँव का वर्णन किया है, उसका नाम क्या है?" — यह किस प्रकार का प्रश्न है? अपने उत्तर का कारण स्पष्ट कीजिए।', options: [
-                { text: '**Correct Answer:** यह **वस्तुनिष्ठ प्रश्न (Objective Question)** है। कारण: इसका उत्तर', outcome: '**Correct Answer:** यह **वस्तुनिष्ठ प्रश्न (Objective Question)** है। कारण: इसका उत्तर पाठ में एक.' },
-                { text: 'आशय-सूचक', outcome: 'Not quite — **विशिष्ट भ्रांति:** "आशय-सूचक प्रश्नों का उत्तर पाठ में *कहीं न कहीं छिपा* होता है, बस सही.', reveals: 'wrong-idea' }
+          caseStudy: { intro: '\'वक़्स-वहाँ\' के तथ्य: रचनाकार NCERT पाठ्यपुस्तक, विषय \'वक़्स-वहाँ\' का केंद्रीय भाव और संदेश।',
+            decisions: [{ prompt: 'What is the primary difference between a literal comprehension question and an inferential comprehension question?', options: [
+                { text: 'A literal question asks for information directly stated in the text (e.g., "What did the', outcome: 'A literal question asks for information directly stated in the text (e.g., "What did the narrator.' },
+                { text: 'literal questions are easy and inferential are hard', outcome: 'Not quite — Students often treat inferential questions as "opinion questions" and answer with personal feelings.', reveals: 'students-often-treat-inferential-questions' }
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_03_007', title: 'Use it in the wild',
           caseStudy: { intro: 'Your reading group discusses Krishna Sobti\'s \'व्यक्ति\' — a widowed domestic worker in a lawyer\'s household narrating her own life. A member says: \'It\'s a simple sad life story — husband left, children grew, mother died. Nothing literary about it.\'',
@@ -53,71 +74,82 @@ export const c11_hin_v_ch03_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_03_007', difficulty: 'standard',
-          question: 'गौण विषय (Sub-theme) किसी साहित्यिक कृति में वह द्वितीयक केंद्रीय विचार या.',
-          hint: 'यदि मुख्य विषय स्पष्ट नहीं है, तो नोड c11_hin_v_cbse_03_006 (मुख्य विषय और संदेश) पर.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि गौण विषय = \'कहानी में आने वाले अन्य प्रसंग/सब-प्लॉट\' (sub-plots)। **गलत तर्क:**.',
+          question: '\'वक़्स-वहाँ\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
+          hint: 'If stuck, return to the Primary Theme node (006) and re-do the "Theme vs Topic" exercise.',
+          misconception: 'Students treat "secondary themes" as a checklist of topics (caste, gender, poverty) rather than as *arguable.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme) किसी साहित्यिक कृति में वह द्वितीयक केंद्रीय विचार या भाव-धारा है जो',
-                  options: ['गौण विषय (Sub-theme) किसी साहित्यिक कृति में वह द्वितीयक केंद्रीय विचार या भाव-धारा है जो', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के जीवन-वृत्त', 'कथानक किसी कहानी में घटित घटनाओं का क्रमिक序列 है, जबकि आख्यान-संरचना वह तरीका है जिससे', 'पाठ्य-परिवेश (Setting/Background) किसी रचना में कथानक घटित होने का समग्र वातावरण है'],
-                  hint: 'यदि मुख्य विषय स्पष्ट नहीं है, तो नोड c11_hin_v_cbse_03_006 (मुख्य विषय और संदेश) पर लौटकर \'थीम.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि गौण विषय = \'कहानी में आने वाले अन्य प्रसंग/सब-प्लॉट\' (sub-plots)। **गलत तर्क:** "मेले का वर्णन एक.' }
+                { id: 'a', prompt: 'List three secondary themes present in "vkyks&vk¡èkkfj" with one specific textual reference (incident or dialogue) for each.', answer: '**Correct Answer:** 1',
+                  options: ['**Correct Answer:** 1', 'poverty', 'hard work', 'women\'s issues'],
+                  hint: 'If stuck, return to the Primary Theme node (006) and re-do the "Theme vs Topic" exercise: list 5.',
+                  misconception: 'Students treat "secondary themes" as a checklist of topics (caste, gender, poverty) rather than as *arguable propositions* the text.' }
           ],
-            remediations: { 'sub-plots-event': { steps: ['**लक्षित उपचार (3 चरण):** 1.', '**भेद स्पष्ट करें:** छात्र से कहें — "पाठ से 3 घटनाएँ लिखो (क्या हुआ)। फिर प्रत्येक घटना से पूछो: \'यह घटना किस बड़े.', '**मुख्य विषय से जोड़ने का अभ्यास:** प्रत्येक पहचाने गए विचार के लिए पूछें — "यह विचार \'बाजारवाद vs मानवीयता\' मुख्य विषय.', 'समानांतर चलता है?" लिखित उत्तर लें। 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-secondary-themes-as': { steps: ['**Re-read three key chapters** (Krishnakant\'s house, Tasveer\'s house, the final room) with a highlighter: mark every.', '**Convert topics to thematic statements**: For each highlighted moment, complete: "The text suggests that [topic].', '**Map to primary theme**: Draw arrows — does this secondary theme *support*, *complicate*, or *contradict* "dignity.', '**Write one PEEL paragraph** per theme using the template: Point → Evidence (quote/incident) → Explanation (how.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_03_008', difficulty: 'standard',
-          question: 'बिंब (Imagery) शब्दों के माध्यम से पाठक की पांचों इंद्रियों (दृश्य, श्रव्य.',
+          question: '\'वक़्स-वहाँ\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
           hint: 'यदि अटके तो कक्षा 10 की \'अलंकार\' पाठ्यसामग्री के \'उपमा-रूपक भेद\' भाग को दोहराएं, विशेषकर.',
           misconception: 'छात्र प्रायः बिंब (Imagery) को \'चित्रात्मक वर्णन\' (Descriptive writing) मान लेते हैं और केवल दृश्य बिंब (Visual.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बिंब (Imagery) शब्दों के माध्यम से पाठक की पांचों इंद्रियों (दृश्य, श्रव्य, घ्राण,',
-                  options: ['बिंब (Imagery) शब्दों के माध्यम से पाठक की पांचों इंद्रियों (दृश्य, श्रव्य, घ्राण,', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के जीवन-वृत्त', 'कथानक किसी कहानी में घटित घटनाओं का क्रमिक序列 है, जबकि आख्यान-संरचना वह तरीका है जिससे', 'पाठ्य-परिवेश (Setting/Background) किसी रचना में कथानक घटित होने का समग्र वातावरण है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वक़्स-वहाँ\' में बिंब (imagery)',
+                  options: ['\'वक़्स-वहाँ\' में बिंब (imagery)', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वक़्स-वहाँ\' का कथानक', '\'वक़्स-वहाँ\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके तो कक्षा 10 की \'अलंकार\' पाठ्यसामग्री के \'उपमा-रूपक भेद\' भाग को दोहराएं, विशेषकर \'रूपक में.',
                   misconception: 'छात्र प्रायः बिंब (Imagery) को \'चित्रात्मक वर्णन\' (Descriptive writing) मान लेते हैं और केवल दृश्य बिंब (Visual imagery) पहचान पाते हैं.' }
           ],
             remediations: { 'imagery-descriptive-writing-visual-imagery': { steps: ['छात्र को 5 इंद्रियों के नाम लिखवाएं और प्रत्येक के लिए एक-एक शब्द दें जो केवल उस इंद्रिय को जगाता हो (जैसे: दृश्य-लाल.', 'फिर 3 सरल वाक्य दें: "वह फूल जैसा सुंदर है" (उपमा), "वह फूल है" (रूपक), "फूल खिला है" (साधारण कथन) — छात्र से अंतर.', 'पाठ के एक छोटे अंश में बिंब/रूपक मिलकर चिह्नित करवाएं, फिर छात्र से पूछें: "अगर यह बिंब/रूपक हटा दें तो बात कितनी कमजोर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_03_009', difficulty: 'standard',
-          question: '**विरोधाभास (Paradox)** एक ऐसा कथन या स्थिति है जो पहली दृष्टि में असंगत.',
-          hint: 'यदि अटका हुआ लगे: नोड 008 (बिंब और रूपक) के \'अन्यार्थ\' विश्लेषण चरण पर लौटें — वही कौशल.',
-          misconception: 'छात्र प्रायः **विरोधाभास को \'विरोधाभासी शब्द-युग्म\' (oxymoron) समझ लेते हैं** — जैसे "मधुर कड़वाहट" — जबकि विरोधाभास.',
+          question: '\'वक़्स-वहाँ\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+          hint: 'If stuck, return to c11_hin_v_cbse_03_008 and practice: "List 3 metaphors in the text.',
+          misconception: 'Students often confuse *symbolism* with *imagery* — they identify descriptive details (e.g., "the kitchen was smoky").',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox)** एक ऐसा कथन या स्थिति है जो पहली दृष्टि में असंगत, बेतुका या स्वयं',
-                  options: ['**विरोधाभास (Paradox)** एक ऐसा कथन या स्थिति है जो पहली दृष्टि में असंगत, बेतुका या स्वयं', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के जीवन-वृत्त', 'कथानक किसी कहानी में घटित घटनाओं का क्रमिक序列 है, जबकि आख्यान-संरचना वह तरीका है जिससे', 'पाठ्य-परिवेश (Setting/Background) किसी रचना में कथानक घटित होने का समग्र वातावरण है'],
-                  hint: 'यदि अटका हुआ लगे: नोड 008 (बिंब और रूपक) के \'अन्यार्थ\' विश्लेषण चरण पर लौटें — वही कौशल यहाँ गहरे.',
-                  misconception: 'छात्र प्रायः **विरोधाभास को \'विरोधाभासी शब्द-युग्म\' (oxymoron) समझ लेते हैं** — जैसे "मधुर कड़वाहट" — जबकि विरोधाभास पूरा **वाक्य या.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वक़्स-वहाँ\' में विरोधाभास',
+                  options: ['\'वक़्स-वहाँ\' में विरोधाभास', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वक़्स-वहाँ\' का कथानक', '\'वक़्स-वहाँ\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, return to c11_hin_v_cbse_03_008 and practice: "List 3 metaphors in the text.',
+                  misconception: 'Students often confuse *symbolism* with *imagery* — they identify descriptive details (e.g., "the kitchen was smoky") as symbols because.' }
           ],
-            remediations: { 'oxymoron': { steps: ['छात्र को **विरोधाभास** समझाने के लिए: पाठ से एक विरोधाभास कथन लें → पूछें "पहली बार पढ़कर आपको क्या लगा?', 'क्यों?" → फिर पूछें "लेखक ने ऐसा *क्यों* लिखा होगा?', 'पात्र/स्थिति के बारे में क्या नया पता चलता है?" → इस प्रक्रिया को 3-4 उदाहरणों पर दोहराएं जब तक छात्र स्वयं \'शाब्दिक.', '**प्रतीक** के लिए: पाठ की एक प्रमुख वस्तु लें → तीन कॉलम बनाएं: \'यह क्या है?\' (शाब्दिक), \'पाठ में क्या करती है?\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-symbolism-with': { steps: ['**Re-teach the distinction**: Use a two-column table — Column A: Literal/Imagery ("The pen writes"), Column.', 'Practice with 3 text objects.', '**Model irony detection**: Walk through the "lawyer as rights-expert vs.', 'rights-violator" paradox step-by-step: (a) State expected role, (b) State actual behavior, (c) Name the gap, (d) Link.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_v_cbse_03_009', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often confuse *symbolism* with *imagery* — they identify descriptive details (e.g., "the kitchen was smoky").',
+          parts: [
+                { id: 'a', prompt: 'Create a new symbolic object that could represent the narrator\'s relationship with her children, and explain how it would function in the narrative.', answer: 'A strong answer might propose: "A shared tiffin box passed between them',
+                  options: ['A strong answer might propose: "A shared tiffin box passed between them', 'the kitchen was smoky'],
+                  hint: 'If stuck, return to c11_hin_v_cbse_03_008 and practice: "List 3 metaphors in the text.',
+                  misconception: 'Students often confuse *symbolism* with *imagery* — they identify descriptive details (e.g., "the kitchen was smoky") as symbols because.' }
+          ],
+            remediations: { 'students-often-confuse-symbolism-with': { steps: ['**Re-teach the distinction**: Use a two-column table — Column A: Literal/Imagery ("The pen writes"), Column.', 'Practice with 3 text objects.', '**Model irony detection**: Walk through the "lawyer as rights-expert vs.', 'rights-violator" paradox step-by-step: (a) State expected role, (b) State actual behavior, (c) Name the gap, (d) Link.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_03_010', difficulty: 'standard',
-          question: 'पदावली: मुख्य शब्द — किसी साहित्यिक कृति में प्रयुक्त वे **महत्वपूर्ण शब्द/पद**.',
+          question: '\'वक़्स-वहाँ\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
           hint: 'यदि अटका हुआ महसूस हो तो **\'शब्द-शक्ति (अभिधा/लक्षणा/व्यंजना)\'** की अवधारणा को **कक्षा.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **"मुख्य शब्द = कठिन/अपरिचित शब्द"** और उन्हें केवल **शब्दकोश अर्थ (डिक्शनरी.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली: मुख्य शब्द',
-                  options: ['पदावली: मुख्य शब्द', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के जीवन-वृत्त', 'कथानक किसी कहानी में घटित घटनाओं का क्रमिक序列 है, जबकि आख्यान-संरचना वह तरीका है जिससे', 'पाठ्य-परिवेश (Setting/Background) किसी रचना में कथानक घटित होने का समग्र वातावरण है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वक़्स-वहाँ\' की पदावली',
+                  options: ['\'वक़्स-वहाँ\' की पदावली', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वक़्स-वहाँ\' का कथानक', '\'वक़्स-वहाँ\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटका हुआ महसूस हो तो **\'शब्द-शक्ति (अभिधा/लक्षणा/व्यंजना)\'** की अवधारणा को **कक्षा 9-10 की.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **"मुख्य शब्द = कठिन/अपरिचित शब्द"** और उन्हें केवल **शब्दकोश अर्थ (डिक्शनरी मीनिंग)** याद करना है।.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**चरणबद्ध उपचार (Remediation):** 1.', '**पुनः पाठ-पठन (Re-reading):** छात्र से कहें — *"पाठ का वह अंश जोर से पढ़ो जहाँ यह शब्द आया है। आसपास के 3-4 वाक्य.', 'किस मनःस्थिति में?"* — **प्रसंग (context) सुनिश्चित करें।** 2.', '**शब्द-शक्ति पहचान (Identify semantic power):** पूछें — *"क्या शब्द अपने सामान्य अर्थ में है?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_03_011', difficulty: 'standard',
-          question: 'पाठ में भाषा-प्रयोग का तात्पर्य लेखक द्वारा रचना के उद्देश्य, परिवेश और पात्रों.',
-          hint: 'यदि फँसें तो **\'वाच्य परिवर्तन के अर्थ-परिवर्तन\' (Semantic shift in voice alternation)**.',
-          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि \'पाठ में भाषा-प्रयोग\' का अर्थ **\'कठिन/तत्सम शब्दों का प्रयोग\'** या **\'अलंकारों की.',
+          question: '\'वक़्स-वहाँ\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली.',
+          hint: 'If stuck, review Class 10 Hindi grammar: "क्रिया के रूप और काल", "सर्वनाम और कारक".',
+          misconception: 'Students believe "language usage analysis" means listing difficult vocabulary words (शब्दार्थ) or identifying figures.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग का तात्पर्य लेखक द्वारा रचना के उद्देश्य, परिवेश और पात्रों के अनुरूप',
-                  options: ['पाठ में भाषा-प्रयोग का तात्पर्य लेखक द्वारा रचना के उद्देश्य, परिवेश और पात्रों के अनुरूप', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें रचनाकार के जीवन-वृत्त', 'कथानक किसी कहानी में घटित घटनाओं का क्रमिक序列 है, जबकि आख्यान-संरचना वह तरीका है जिससे', 'पाठ्य-परिवेश (Setting/Background) किसी रचना में कथानक घटित होने का समग्र वातावरण है'],
-                  hint: 'यदि फँसें तो **\'वाच्य परिवर्तन के अर्थ-परिवर्तन\' (Semantic shift in voice alternation)** और.',
-                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि \'पाठ में भाषा-प्रयोग\' का अर्थ **\'कठिन/तत्सम शब्दों का प्रयोग\'** या **\'अलंकारों की भरमार\'** है। **गलत.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वक़्स-वहाँ\' में भाषा-प्रयोग',
+                  options: ['\'वक़्स-वहाँ\' में भाषा-प्रयोग', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वक़्स-वहाँ\' का कथानक', '\'वक़्स-वहाँ\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, review Class 10 Hindi grammar: "क्रिया के रूप और काल", "सर्वनाम और कारक", "वाक्य के भेद".',
+                  misconception: 'Students believe "language usage analysis" means listing difficult vocabulary words (शब्दार्थ) or identifying figures of speech (अलंकार).' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**विपरीत उदाहरण दें:** पाठ 3 के दो प्रसंग रखें — एक जहाँ सरल/बोली-भाषा प्रभावी है (जैसे ग्रामीण पात्र का विलाप), दूसरा.', '**\'क्यों\' पर जोर दें:** हर पहचाने गए भाषिक लक्षण (शब्द/वाक्य/वाच्य) के लिए छात्र से **"लेखक ने *यही* रूप क्यों चुना?', '*अन्य* विकल्प क्यों नहीं?"** पूछें — जब तक वह **कार्यात्मक औचित्य (Functional justification)** न दे दे। 3.', '**लघु पुनर्लेखन करवाएँ:** एक वाक्य दें (जैसे "वह गुस्सा था") और कहें: *"इसे तीन तरह से लिखो — (क) नैदानिक/तथ्यात्मक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'language-usage-analysis-means-listing': { steps: ['If a student reduces analysis to vocabulary listing or part-of-speech labeling: (1) Give them two parallel sentences.', '(2) Show a 3-sentence excerpt with all honorifics removed; have them restore "तुम/आप/जी/बाबूजी" based.', '(3) Assign a "dialect hunt": find 5 Braj forms, identify their paradigm (e.g., "भयो" = 3rd masc.', 'perfective), and explain why Sobti chooses it *there* instead of Khari Boli "हुआ".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_03_012', difficulty: 'standard',
-          question: 'वस्तुनिष्ठ प्रश्न (Objective Questions) पाठ में स्पष्टतः लिखित तथ्यात्मक.',
-          hint: 'If stuck, review **c11_hin_v_cbse_03_009 (विरोधाभास और प्रतीक)** and.',
-          misconception: '**विशिष्ट भ्रांति:** "आशय-सूचक प्रश्नों का उत्तर पाठ में *कहीं न कहीं छिपा* होता है, बस सही पैराग्राफ ढूँढ़ना पड़ता.',
+          question: '\'वक़्स-वहाँ\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
+          hint: 'If stuck, review the chapter summary and character sketches from nodes.',
+          misconception: 'Students often treat inferential questions as "opinion questions" and answer with personal feelings ("I think she felt.',
           parts: [
-                { id: 'a', prompt: 'पाठ 3 में एक प्रसंग है जहाँ नायक चुपचाप खिड़की से बाहर देख रहा है। प्रश्न: "इस प्रसंग में नायक की चुप्पी उसके किस आंतरिक द्वंद्व की ओर संकेत करती है?" — एक.', answer: '**Correct Answer:** छात्र ने **पाठ का पुनर्कथन (Retelling)** किया है, **व्याख्या',
-                  options: ['**Correct Answer:** छात्र ने **पाठ का पुनर्कथन (Retelling)** किया है, **व्याख्या', 'किस आंतरिक द्वंद्व की ओर संकेत करती है'],
-                  hint: 'If stuck, review **c11_hin_v_cbse_03_009 (विरोधाभास और प्रतीक)** and **c11_hin_v_cbse_03_006 (मुख्य.',
-                  misconception: '**विशिष्ट भ्रांति:** "आशय-सूचक प्रश्नों का उत्तर पाठ में *कहीं न कहीं छिपा* होता है, बस सही पैराग्राफ ढूँढ़ना पड़ता है।" **गलत तर्क (Wrong.' }
+                { id: 'a', prompt: 'In the chapter, the narrator says, "eq>s lcsjs tYnh mBdj] fcuk oqQN [kk,&fi,] dke ij vkuk iM+rk Fkk." (I used to go to work for long hours without eating.', answer: 'It is a literal fact',
+                  options: ['It is a literal fact', 'inferential'],
+                  hint: 'If stuck, review the chapter summary and character sketches from nodes c11_hin_v_cbse_03_002 and.',
+                  misconception: 'Students often treat inferential questions as "opinion questions" and answer with personal feelings ("I think she felt sad") instead.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**लक्षित उपचार (Targeted Remediation — 4 Steps):** 1.', '**Trigger Word Mapping (15 मिनट):** छात्र को 10 प्रश्न दें (मिश्रित: वस्तुनिष्ठ + आशय-सूचक)। उसे **केवल ट्रिगर शब्द.', 'Inference T-Chart (20 मिनट):** एक आशय-सूचक प्रश्न लें। बाएँ कॉलम में लिखें: "पाठ में क्या लिखा है?', '(Direct Quote/Paraphrase)"। दाएँ कॉलम में: "इससे क्या निष्कर्ष निकलता है?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-inferential-questions': { steps: ['Ask the student to highlight every verb of speaking/thinking/feeling attributed to the narrator in a selected paragraph.', 'Have them label each as "Explicit" (direct quote) or "Implicit" (implied by action).', 'Practice converting an implicit label into an inferential answer stem: "The text shows X when it says Y, therefore Z.".', 'Reinforce with a mini-exercise: give three literal facts from the chapter and ask the student to generate one valid.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -6,13 +6,13 @@ import C11_AccountancyTradingAccountMeaningSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_accountancytradingaccountmeaningsim: SimDef = {
     id: 'v3w_c11_accountancytradingaccountmeaningsim',
-    title: 'Trading Account Meaning',
+    title: 'Financial Statements: Meaning and Objectives',
     subtitle: 'This node covers the meaning, objectives, and user groups of financial statements; the.',
     classLevel: 11, subject: 'accountancy', topic: 'Financial Statements: Meaning and Objectives',
     chapters: [],
     nodeIds: ['c11_acc_cbse_08_001', 'c11_acc_cbse_08_002', 'c11_acc_cbse_08_004', 'c11_acc_cbse_08_006', 'c11_acc_cbse_08_003', 'c11_acc_cbse_08_009', 'c11_acc_cbse_08_010', 'c11_acc_cbse_01_001', 'c11_acc_cbse_02_002', 'c11_acc_cbse_03_009', 'c11_acc_cbse_06_001', 'c11_acc_cbse_06_008', 'c11_acc_cbse_07_001', 'c11_acc_cbse_07_009', 'c11_acc_cbse_07_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you run a small bakery in Delhi. At year-end, your father asks "Did we make money?" your bank manager.', goal: 'Master Trading Account Meaning.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you run a small bakery in Delhi. At year-end, your father asks "Did we make money?" your bank manager.', goal: 'Master Financial Statements: Meaning and Objectives.' },
     discovery: {
         question: 'A student says: "Capital expenditure is any large amount spent; revenue expenditure is any small amount spent." Using the NCERT criteria (benefit period,.',
         options: ['The statement is incorrect', 'Capital Expenditure = Purchase of Fixed Assets only', 'Revenue Expenditure = All other expenses'],
@@ -82,7 +82,7 @@ export const w_c11_accountancytradingaccountmeaningsim: SimDef = {
             { text: 'Draft Trading Account with Opening Stock, Net Purchases, Direct Expenses on debit side; Net Sales, Closing Stock on.', faded: true, blankAnswer: 'Gross Profit ₹1,70,000. Trading Account totals ₹7,15,000.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_acc_cbse_08_002', title: 'Identify each idea',
-          dissect: { specimen: 'Trading Account Meaning', spots: [
+          dissect: { specimen: 'Financial Statements: Meaning and Objectives', spots: [
             { id: 's1', label: 'Financial statements are formal structured', prompt: 'Which idea is this? — Financial statements are formal, structured reports prepared at the end of an accounting.', answer: 'Financial statements are formal structured', options: ['Financial statements are formal structured', 'A Trading Account is a', 'The Profit and Loss Account', 'A Balance Sheet is a'] },
             { id: 's2', label: 'A Trading Account is a', prompt: 'Which idea is this? — A Trading Account is a nominal account prepared to determine the gross profit or gross.', answer: 'A Trading Account is a', options: ['A Trading Account is a', 'Financial statements are formal structured', 'The Profit and Loss Account', 'A Balance Sheet is a'] },
             { id: 's3', label: 'The Profit and Loss Account', prompt: 'Which idea is this? — The Profit and Loss Account is a nominal account prepared to ascertain the net profit.', answer: 'The Profit and Loss Account', options: ['The Profit and Loss Account', 'Financial statements are formal structured', 'A Trading Account is a', 'A Balance Sheet is a'] },
@@ -91,7 +91,7 @@ export const w_c11_accountancytradingaccountmeaningsim: SimDef = {
             { id: 's6', label: 'Closing stock represents the value', prompt: 'Which idea is this? — Closing stock represents the value of unsold goods remaining with the business at the end.', answer: 'Closing stock represents the value', options: ['Closing stock represents the value', 'Financial statements are formal structured', 'A Trading Account is a', 'The Profit and Loss Account'] }
           ] } }
     ],
-    explore: { component: C11_AccountancyTradingAccountMeaningSim, prompt: 'Explore the interactive — Trading Account Meaning' },
+    explore: { component: C11_AccountancyTradingAccountMeaningSim, prompt: 'Explore the interactive — Financial Statements: Meaning and Objectives' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_acc_cbse_08_001', difficulty: 'standard',
           question: 'Financial statements are formal, structured reports prepared at the end of an.',

@@ -19,31 +19,31 @@ export const c12_eng_f_ch03_p3: SimDef = {
         hook: 'This isn\'t a swimming story — it\'s an autopsy of fear by a man who later sat 36 years on the US Supreme Court. Two events matter separately: the beach planted the aversion, the pool crystallised it. And the fear wasn\'t irrational — it was proportionate to nearly dying twice.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining an author\'s narrative choices — perspective, structure, language, and symbolism — to interpret deeper meanings, evaluate the text\'s.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Deep Water\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_03_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Trace fear\'s full anatomy: separate the beach origin from the pool trauma, watch terror \'hold him firmly in its grip\', then follow the belt-and-pulley drills that dismantled it piece by piece.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_03_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re writing a literary review of "Deep Water" for a school magazine. You need to explain *why* this essay moves readers — not just *what* happens.',
+          caseStudy: { intro: 'Analyse \'Deep Water\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the primary difference between a literal comprehension response and a critical analysis response when discussing Douglas\'s.', options: [
                 { text: 'A literal comprehension response recounts *what happened* (e.g., "Douglas was thrown in,', outcome: 'A literal comprehension response recounts *what happened* (e.g., "Douglas was thrown in, sank.' },
                 { text: 'giving your opinion', outcome: 'Not quite — Students believe critical analysis means "giving your opinion" or "finding hidden meanings." They.', reveals: 'critical-analysis-means-giving-your' },
                 { text: 'finding hidden meanings', outcome: 'Not quite — Students believe critical analysis means "giving your opinion" or "finding hidden meanings." They.', reveals: 'critical-analysis-means-giving-your' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_03_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re sitting in the exam hall and the question asks: "Write an essay about a time you overcame fear, beginning with \'At last I felt released...\'".',
+          caseStudy: { intro: 'For written answers on \'Deep Water\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What are the three specific writing tasks prescribed in the NCERT "Writing" section for the chapter "Deep Water"?', options: [
                 { text: 'The three tasks are: (1) A five-paragraph essay recounting an experience of overcoming', outcome: 'The three tasks are: (1) A five-paragraph essay recounting an experience of overcoming fear in any.' },
                 { text: 'write a story about swimming', outcome: 'Not quite — Students believe "Writing Skills based on the chapter" means summarizing the story or copying.', reveals: 'writing-skills-based-on-the' },
                 { text: 'write a diary entry', outcome: 'Not quite — Students believe "Writing Skills based on the chapter" means summarizing the story or copying.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_03_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a CBSE ASL exam room: the examiner gives you a prompt — "Fear is a prison; courage is the key" — and asks you to discuss it with a partner.',
+          caseStudy: { intro: 'Talk through \'Deep Water\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of a "text-based discussion" in Class 12 English, as distinct from a casual conversation about the story?', options: [
                 { text: 'A text-based discussion requires every claim to be supported by specific textual evidence', outcome: 'A text-based discussion requires every claim to be supported by specific textual evidence (quotes.' },
                 { text: 'sharing what you liked', outcome: 'Not quite — Students believe "good discussion" means speaking fluently, using advanced vocabulary, or covering.', reveals: 'good-discussion-means-speaking-fluently' },
@@ -63,21 +63,21 @@ export const c12_eng_f_ch03_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining an author\'s narrative.',
+          question: 'Critical thinking on \'Deep Water\' — analysing the text to reach evidence-based.',
           hint: 'If stuck, review c12_eng_f_cbse_03_008 and c12_eng_f_cbse_03_009 device lists, then.',
           misconception: 'Students believe critical analysis means "giving your opinion" or "finding hidden meanings." They write: "I think the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis involves examining an author\'s narrative choices',
-                  options: ['Critical thinking in literary analysis involves examining an author\'s narrative choices', 'The "Before You Read: Context and Background" section provides essential preliminary', 'Plot and narrative structure in "Deep Water" refers to the organization of events in', 'Setting refers to the time, place, and physical environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'Deep Water\'',
+                  options: ['Critical thinking on \'Deep Water\'', '\'Deep Water\' (Flamingo, ch', 'The plot/narrative arc of \'Deep Water\'', 'The setting of \'Deep Water\''],
                   hint: 'If stuck, review c12_eng_f_cbse_03_008 and c12_eng_f_cbse_03_009 device lists, then practice: "In.',
                   misconception: 'Students believe critical analysis means "giving your opinion" or "finding hidden meanings." They write: "I think the water represents.' }
           ],
-            remediations: { 'critical-analysis-means-giving-your': { steps: ['Revisit c12_eng_f_cbse_03_008 (Imagery/Metaphor) and c12_eng_f_cbse_03_009 (Irony/Symbolism) to relearn how to identify.', 'Practice the PEEL structure on a single paragraph: Pick the "yellow water" passage, write one analytical paragraph.', 'Re-attempt Diagnostic Questions 3 and 4.', 'If still unable to separate device from effect, review c11_eng_h_cbse_01_013 (Class 11 Critical Thinking) for.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-giving-your': { steps: ['Revisit c12_eng_f_cbse_03_008 (Imagery/Metaphor) and c12_eng_f_cbse_03_009 (Irony/Symbolism) to relearn how to identify.', 'Practice the PEEL structure on a single paragraph: Pick the "yellow water" passage, write one analytical paragraph.', 'Re-attempt Diagnostic Questions 3 and 4.', 'If still unable to separate device from effect, review c11_eng_h_cbse_01_013 (Class 11 Critical Thinking) for.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -88,9 +88,9 @@ export const c12_eng_f_ch03_p3: SimDef = {
                   hint: 'If stuck, review c12_eng_f_cbse_03_008 and c12_eng_f_cbse_03_009 device lists, then practice: "In.',
                   misconception: 'Students believe critical analysis means "giving your opinion" or "finding hidden meanings." They write: "I think the water represents.' }
           ],
-            remediations: { 'critical-analysis-means-giving-your': { steps: ['Revisit c12_eng_f_cbse_03_008 (Imagery/Metaphor) and c12_eng_f_cbse_03_009 (Irony/Symbolism) to relearn how to identify.', 'Practice the PEEL structure on a single paragraph: Pick the "yellow water" passage, write one analytical paragraph.', 'Re-attempt Diagnostic Questions 3 and 4.', 'If still unable to separate device from effect, review c11_eng_h_cbse_01_013 (Class 11 Critical Thinking) for.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-giving-your': { steps: ['Revisit c12_eng_f_cbse_03_008 (Imagery/Metaphor) and c12_eng_f_cbse_03_009 (Irony/Symbolism) to relearn how to identify.', 'Practice the PEEL structure on a single paragraph: Pick the "yellow water" passage, write one analytical paragraph.', 'Re-attempt Diagnostic Questions 3 and 4.', 'If still unable to separate device from effect, review c11_eng_h_cbse_01_013 (Class 11 Critical Thinking) for.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_014', difficulty: 'standard',
-          question: 'Writing Skills based on "Deep Water" involves crafting structured, first-person.',
+          question: 'Writing skills from \'Deep Water\' — using the text as a model or springboard for.',
           hint: 'If stuck, re-read the "Writing" prompt in NCERT and the chapter\'s last three paragraphs.',
           misconception: 'Students believe "Writing Skills based on the chapter" means summarizing the story or copying Douglas\'s experience.',
           parts: [
@@ -103,9 +103,9 @@ export const c12_eng_f_ch03_p3: SimDef = {
                   hint: 'If stuck, re-read the "Writing" prompt in NCERT and the chapter\'s last three paragraphs — they.',
                   misconception: 'Students believe "Writing Skills based on the chapter" means summarizing the story or copying Douglas\'s experience.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['If a student produces a summary instead of a personal narrative: Step 1 — Have them re-read the "Writing" prompt.', 'Step 2 — Use the "Fear-Arc Template" from the chapter: Paragraph 1 = Origin of YOUR fear (Douglas: California beach.', 'Step 3 — Student fills template with THEIR memory (e.g., learning to drive, stage performance, cycling).', 'Step 4 — Re-diagnostic: Ask them to highlight sensory details in each paragraph — if fewer than 2 per paragraph, repeat.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['If a student produces a summary instead of a personal narrative: Step 1 — Have them re-read the "Writing" prompt.', 'Step 2 — Use the "Fear-Arc Template" from the chapter: Paragraph 1 = Origin of YOUR fear (Douglas: California beach.', 'Step 3 — Student fills template with THEIR memory (e.g., learning to drive, stage performance, cycling).', 'Step 4 — Re-diagnostic: Ask them to highlight sensory details in each paragraph — if fewer than 2 per paragraph, repeat.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Deep Water\' — speaking and listening around the text.',
           hint: 'If stuck, return to c12_eng_f_cbse_03_013 (Critical Thinking) and re-do the "Analysis and.',
           misconception: 'Students believe "good discussion" means speaking fluently, using advanced vocabulary, or covering many points.',
           parts: [
@@ -114,7 +114,7 @@ export const c12_eng_f_ch03_p3: SimDef = {
                   hint: 'If stuck, return to c12_eng_f_cbse_03_013 (Critical Thinking) and re-do the "Analysis and.',
                   misconception: 'Students believe "good discussion" means speaking fluently, using advanced vocabulary, or covering many points.' }
           ],
-            remediations: { 'good-discussion-means-speaking-fluently': { steps: ['If a student cannot generate a text-anchored discussion point: (1) Have them re-read the "Understanding the text" Q1.', '(2) Ask them to convert each detail into a "claim + evidence" sentence: "Douglas conveys panic through the visual.', '(4) Re-diagnose using DIAGNOSTIC_QUESTION_3 — if they can now ask a probing follow-up, the gap is closed.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'good-discussion-means-speaking-fluently': { steps: ['If a student cannot generate a text-anchored discussion point: (1) Have them re-read the "Understanding the text" Q1.', '(2) Ask them to convert each detail into a "claim + evidence" sentence: "Douglas conveys panic through the visual.', '(4) Re-diagnose using DIAGNOSTIC_QUESTION_3 — if they can now ask a probing follow-up, the gap is closed.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

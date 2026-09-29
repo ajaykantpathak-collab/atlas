@@ -6,13 +6,13 @@ import C11_PhysicsRotationalMotionTorqueSim from '../../../simulations/c6_12/C11
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsrotationalmotiontorquesim: SimDef = {
     id: 'v3w_c11_physicsrotationalmotiontorquesim',
-    title: 'Rotational Motion Torque',
+    title: 'Newton\'s Third Law: Action and Reaction',
     subtitle: 'This node covers the precise statement of Newton\'s Third Law, identification of.',
     classLevel: 11, subject: 'physics', topic: 'Newton\'s Third Law: Action and Reaction',
     chapters: [],
     nodeIds: ['c11_phy_cbse_04_004', 'c11_phy_cbse_04_007', 'c11_phy_cbse_04_014', 'c11_phy_cbse_06_002', 'c11_phy_cbse_06_003', 'c11_phy_cbse_06_004', 'c11_phy_cbse_06_005', 'c11_phy_cbse_06_006', 'c11_phy_cbse_06_012', 'c11_phy_cbse_06_013', 'c11_phy_cbse_06_015', 'c11_phy_cbse_04_003', 'c11_phy_cbse_06_007', 'c11_phy_cbse_06_011', 'c11_phy_cbse_06_014'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Place a heavy book on a spring balance held vertically. Observe the reading.', goal: 'Master Rotational Motion Torque.' },
+    scenario: { role: 'a class 11 learner', intro: 'Place a heavy book on a spring balance held vertically. Observe the reading.', goal: 'Master Newton\'s Third Law: Action and Reaction.' },
     discovery: {
         question: 'A student argues: "A book lying on a table is in equilibrium because the weight **mg** and the normal reaction **R** are an action-reaction pair, so they.',
         options: ['The reasoning is incorrect', 'equilibrium means no forces act on the particle', 'action-reaction pairs cancel to produce equilibrium on a single body'],
@@ -78,7 +78,7 @@ export const w_c11_physicsrotationalmotiontorquesim: SimDef = {
             { text: 'Verify: **τ** · **r** = (-7)(2) + 19(-1) + 11(3) = -14 -19 +33 = 0; **τ** · **F** = (-7)(3) + 19(4) + 11(-5) = -21 +76.', faded: true, blankAnswer: '**τ** = (-7î + 19ĵ + 11k̂) N·m; |**τ**| ≈ 23.0 N·m' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_04_007', title: 'Identify each idea',
-          dissect: { specimen: 'Rotational Motion Torque', spots: [
+          dissect: { specimen: 'Newton\'s Third Law: Action and Reaction', spots: [
             { id: 's1', label: 'Newtons Third Law states that', prompt: 'Which idea is this? — Newton\'s Third Law states that for every force exerted by body A on body B, there exists.', answer: 'Newtons Third Law states that', options: ['Newtons Third Law states that', 'Equilibrium of a particle is', 'A Free Body Diagram FBD', 'The motion of the centre'] },
             { id: 's2', label: 'Equilibrium of a particle is', prompt: 'Which idea is this? — Equilibrium of a particle is the state in which the vector sum of all external forces.', answer: 'Equilibrium of a particle is', options: ['Equilibrium of a particle is', 'Newtons Third Law states that', 'A Free Body Diagram FBD', 'The motion of the centre'] },
             { id: 's3', label: 'A Free Body Diagram FBD', prompt: 'Which idea is this? — A Free Body Diagram (FBD) is a schematic representation of an isolated body (or system).', answer: 'A Free Body Diagram FBD', options: ['A Free Body Diagram FBD', 'Newtons Third Law states that', 'Equilibrium of a particle is', 'The motion of the centre'] },
@@ -87,7 +87,7 @@ export const w_c11_physicsrotationalmotiontorquesim: SimDef = {
             { id: 's6', label: 'Torque or moment of force', prompt: 'Which idea is this? — Torque (or moment of force) is the rotational analogue of force, defined as the vector.', answer: 'Torque or moment of force', options: ['Torque or moment of force', 'Newtons Third Law states that', 'Equilibrium of a particle is', 'A Free Body Diagram FBD'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsRotationalMotionTorqueSim, prompt: 'Explore the interactive — Rotational Motion Torque' },
+    explore: { component: C11_PhysicsRotationalMotionTorqueSim, prompt: 'Explore the interactive — Newton\'s Third Law: Action and Reaction' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_04_004', difficulty: 'standard',
           question: 'Newton\'s Third Law states that for every force exerted by body A on body B,.',

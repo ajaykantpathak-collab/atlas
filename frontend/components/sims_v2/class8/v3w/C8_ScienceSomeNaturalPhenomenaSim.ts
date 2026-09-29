@@ -6,16 +6,16 @@ import C8_ScienceSomeNaturalPhenomenaSim from '../../../simulations/c6_12/C8_Sci
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_sciencesomenaturalphenomenasim: SimDef = {
     id: 'v3w_c8_sciencesomenaturalphenomenasim',
-    title: 'Some Natural Phenomena',
+    title: 'Science as Investigation: Asking Focused Questions',
     subtitle: 'Covers the skill of refining everyday curiosities into investigable questions with clear.',
     classLevel: 8, subject: 'science', topic: 'Science as Investigation: Asking Focused Questions',
     chapters: [],
     nodeIds: ['c8_physics_ch1_1', 'c8_physics_ch1_2', 'c8_physics_ch1_7', 'c8_physics_ch1_8', 'c8_physics_ch1_9', 'c8_physics_ch8_1', 'c8_physics_ch8_8', 'c8_physics_ch8_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Watch a pressure cooker whistle on a kitchen stove — steam escapes loudly, then the sound changes as pressure.', goal: 'Master Some Natural Phenomena.' },
+    scenario: { role: 'a class 8 learner', intro: 'Watch a pressure cooker whistle on a kitchen stove — steam escapes loudly, then the sound changes as pressure.', goal: 'Master Science as Investigation: Asking Focused Questions.' },
     discovery: {
         question: 'A student wonders, "Why do shadows change during the day?" Which of the following rewrites this as a focused, testable question for a Class 8 investigation?',
-        options: ['Correct answer: B', 'more detailed', 'How does the *hot* temperature affect...?'],
+        options: ['B', 'more detailed', 'How does the *hot* temperature affect...?'],
         answer: 'B',
         hook: 'Students believe a focused question is just a "more detailed" version of a broad question — they add adjectives ("How.',
     },
@@ -78,7 +78,7 @@ export const w_c8_sciencesomenaturalphenomenasim: SimDef = {
             { text: 'State the classification and interaction clearly with reasoning.', faded: true, blankAnswer: 'Biotic: mango tree, grass, ants, butterflies, frog..' }
             ] } },
         { type: 'dissect', nodeId: 'c8_physics_ch1_2', title: 'Identify each idea',
-          dissect: { specimen: 'Some Natural Phenomena', spots: [
+          dissect: { specimen: 'Science as Investigation: Asking Focused Questions', spots: [
             { id: 's1', label: 'A focused scientific question is', prompt: 'Which idea is this? — A focused scientific question is a precise, testable inquiry that identifies a specific.', answer: 'A focused scientific question is', options: ['A focused scientific question is', 'Observation in science is the', 'Iterative investigation is the scientific', 'Balancing careful observation with creative'] },
             { id: 's2', label: 'Observation in science is the', prompt: 'Which idea is this? — Observation in science is the deliberate, systematic gathering of information about a.', answer: 'Observation in science is the', options: ['Observation in science is the', 'A focused scientific question is', 'Iterative investigation is the scientific', 'Balancing careful observation with creative'] },
             { id: 's3', label: 'Iterative investigation is the scientific', prompt: 'Which idea is this? — Iterative investigation is the scientific process of repeatedly refining an experiment.', answer: 'Iterative investigation is the scientific', options: ['Iterative investigation is the scientific', 'A focused scientific question is', 'Observation in science is the', 'Balancing careful observation with creative'] },
@@ -87,7 +87,7 @@ export const w_c8_sciencesomenaturalphenomenasim: SimDef = {
             { id: 's6', label: 'A habitat is the natural', prompt: 'Which idea is this? — A habitat is the natural environment where an organism lives, providing all necessary.', answer: 'A habitat is the natural', options: ['A habitat is the natural', 'A focused scientific question is', 'Observation in science is the', 'Iterative investigation is the scientific'] }
           ] } }
     ],
-    explore: { component: C8_ScienceSomeNaturalPhenomenaSim, prompt: 'Explore the interactive — Some Natural Phenomena' },
+    explore: { component: C8_ScienceSomeNaturalPhenomenaSim, prompt: 'Explore the interactive — Science as Investigation: Asking Focused Questions' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch1_1', difficulty: 'standard',
           question: 'A focused scientific question is a precise, testable inquiry that identifies a.',

@@ -162,6 +162,10 @@ export const c6_history_ch07: SimDef = {
                 { id: 'a', prompt: 'Who was the Mongol ruler that invaded Delhi in 1398, causing great destruction?', answer: 'The ruler was Timur (also known as Tamerlane)',
                   options: ['The ruler was Timur (also known as Tamerlane)', 'the Delhi Sultanate ended abruptly with Timur’s invasion'],
                   hint: 'Review the earlier chapters on the Tughlaq dynasty\'s expansion to understand what was lost.',
+                  misconception: 'Students often think the Delhi Sultanate ended abruptly with Timur’s invasion.' },
+                { id: 'b', prompt: 'If you were a provincial governor at the time of Timur’s invasion, how would the weakened state of the Delhi government affect your loyalty to the Sultan?', answer: 'Recognize the Sultan can no longer protect your region',
+                  options: ['Recognize the Sultan can no longer protect your region', 'blind loyalty even when the central authority has failed', 'the Delhi Sultanate ended abruptly with Timur’s invasion'],
+                  hint: 'Review the earlier chapters on the Tughlaq dynasty\'s expansion to understand what was lost.',
                   misconception: 'Students often think the Delhi Sultanate ended abruptly with Timur’s invasion.' }
           ],
             remediations: { 'the-delhi-sultanate-ended-abruptly': { steps: ['Ask the student to look at a timeline of the dynasties (Tughlaq, Sayyid, Lodi).', 'Point out that the dates of the Lodi dynasty go up to 1526, long after 1398.', 'Explain that "decline" means a slow process of getting weaker, not a single event that wipes everything out instantly.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }

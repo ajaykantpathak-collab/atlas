@@ -6,13 +6,13 @@ import C12_PhysicsDualNatureRadiationCBSESim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsdualnatureradiationcbsesim: SimDef = {
     id: 'v3w_c12_physicsdualnatureradiationcbsesim',
-    title: 'Dual Nature Radiation CBSE',
+    title: 'Davisson-Germer Experiment: Electron Diffraction',
     subtitle: 'This node covers the Davisson-Germer experiment in detail: apparatus, principle (Bragg.',
     classLevel: 12, subject: 'physics', topic: 'Davisson-Germer Experiment: Electron Diffraction',
     chapters: [],
     nodeIds: ['c12_phy_cbse_11_005', 'c12_phy_cbse_11_006', 'c12_phy_cbse_11_004', 'c12_phy_cbse_11_001', 'c12_phy_cbse_11_003', 'c12_phy_cbse_08_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you shine a laser through a fine mesh and see a diffraction pattern on a wall — that\'s light behaving.', goal: 'Master Dual Nature Radiation CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you shine a laser through a fine mesh and see a diffraction pattern on a wall — that\'s light behaving.', goal: 'Master Davisson-Germer Experiment: Electron Diffraction.' },
     discovery: {
         question: 'State Heisenberg\'s Uncertainty Principle for position and momentum, giving the exact mathematical inequality with the reduced Planck constant ħ.',
         options: ['Δx Δp ≥ ħ/2, where ħ = h/(2π) = 1.055 × 10⁻³⁴ J·s', 'observer effect', 'the uncertainty principle arises'],
@@ -80,7 +80,7 @@ export const w_c12_physicsdualnatureradiationcbsesim: SimDef = {
             { text: 'Average intensity \\(I = \\frac{1}{2}\\varepsilon_0 c E_0^2 = \\frac{1}{2} \\times 8.85 \\times 10^{-12} \\times 3.00 \\times.', faded: true, blankAnswer: '(a) \\(\\mathbf{B} = 2.0 \\times 10^{-8} \\hat{\\mathbf{k}}.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_11_006', title: 'Identify each idea',
-          dissect: { specimen: 'Dual Nature Radiation CBSE', spots: [
+          dissect: { specimen: 'Davisson-Germer Experiment: Electron Diffraction', spots: [
             { id: 's1', label: 'The Davisson-Germer experiment 1927 demonstrated', prompt: 'Which idea is this? — The Davisson-Germer experiment (1927) demonstrated the wave nature of electrons by.', answer: 'The Davisson-Germer experiment 1927 demonstrated', options: ['The Davisson-Germer experiment 1927 demonstrated', 'Heisenbergs Uncertainty Principle states that', 'The de Broglie hypothesis states', 'The photoelectric effect is the'] },
             { id: 's2', label: 'Heisenbergs Uncertainty Principle states that', prompt: 'Which idea is this? — Heisenberg\'s Uncertainty Principle states that it is fundamentally impossible to.', answer: 'Heisenbergs Uncertainty Principle states that', options: ['Heisenbergs Uncertainty Principle states that', 'The Davisson-Germer experiment 1927 demonstrated', 'The de Broglie hypothesis states', 'The photoelectric effect is the'] },
             { id: 's3', label: 'The de Broglie hypothesis states', prompt: 'Which idea is this? — The de Broglie hypothesis states that every moving particle of matter with momentum \\( p.', answer: 'The de Broglie hypothesis states', options: ['The de Broglie hypothesis states', 'The Davisson-Germer experiment 1927 demonstrated', 'Heisenbergs Uncertainty Principle states that', 'The photoelectric effect is the'] },
@@ -89,7 +89,7 @@ export const w_c12_physicsdualnatureradiationcbsesim: SimDef = {
             { id: 's6', label: 'An electromagnetic wave is a', prompt: 'Which idea is this? — An electromagnetic wave is a self-propagating transverse wave consisting of mutually.', answer: 'An electromagnetic wave is a', options: ['An electromagnetic wave is a', 'The Davisson-Germer experiment 1927 demonstrated', 'Heisenbergs Uncertainty Principle states that', 'The de Broglie hypothesis states'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsDualNatureRadiationCBSESim, prompt: 'Explore the interactive — Dual Nature Radiation CBSE' },
+    explore: { component: C12_PhysicsDualNatureRadiationCBSESim, prompt: 'Explore the interactive — Davisson-Germer Experiment: Electron Diffraction' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_11_005', difficulty: 'standard',
           question: 'The Davisson-Germer experiment (1927) demonstrated the wave nature of electrons.',

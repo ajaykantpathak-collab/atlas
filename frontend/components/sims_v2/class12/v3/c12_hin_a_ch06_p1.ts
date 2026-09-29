@@ -19,7 +19,7 @@ export const c12_hin_a_ch06_p1: SimDef = {
         hook: 'One chapter holds two flavours of prem: Radha\'s virah — love through separation — and Yashoda\'s vatsalya — a mother\'s tenderness. Reading both as just \'love\' flattens Bhakti\'s emotional precision; each is a different road to the divine.',
     },
     teaching: [
-        { title: 'तुलसीदास — कवि परिचय और पृष्ठभूमि', text: 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर भक्ति आंदोलन को जनमानस तक पहुँचाया।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'तुलसीदास — कवि परिचय और पृष्ठभूमि', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_06_001', title: 'Your mission',
@@ -28,8 +28,34 @@ export const c12_hin_a_ch06_p1: SimDef = {
         context: 'Enter Braj through an outsider who became its own: trace Raskhan\'s turn from worldly life to Krishna, then weigh longing against maternal love as two bhakti grammars.',
         labels: ['तुलसीदास — कवि परिचय', 'तुलसीदास — पद्यांश-वार भावार्थ', 'तुलसीदास — काव्य-संरचना और', 'तुलसीदास — केंद्रीय भाव', 'तुलसीदास — छंद और', 'तुलसीदास — साहित्यिक युक्तियाँ'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_06_001', title: 'तुलसीदास — कवि परिचय और पृष्ठभूमि',
+          caseStudy: { intro: 'अंतरा भाग-2 खोलिए और पाठ 06 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: 'Who was Raskhan, and during which period did he live?', options: [
+                { text: 'Raskhan (रसखान) was a 16th–17th century Hindi poet (c', outcome: 'Raskhan (रसखान) was a 16th–17th century Hindi poet (c. 1532–1623) born in a Muslim family, possibly.' },
+                { text: 'He was a Mughal emperor', outcome: 'Not quite — Students often think Raskhan\'s Muslim background makes his Krishna-bhakti "unusual" or "syncretic".', reveals: 'raskhan-s-muslim-background-makes' },
+                { text: 'He wrote in Sanskrit', outcome: 'Not quite — Students often think Raskhan\'s Muslim background makes his Krishna-bhakti "unusual" or "syncretic".', reveals: 'raskhan-s-muslim-background-makes' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_06_002', title: 'तुलसीदास — पद्यांश-वार भावार्थ',
+          caseStudy: { intro: '\'हजारी-जइके\' का क्रम: शुरुआत हजारी-जइके से, घटनाएँ बढ़ती हैं, अंत \'हजारी-जइके\' का केंद्रीय भाव और संदेश पर।',
+            decisions: [{ prompt: 'What is the chronological sequence of major life events presented in the biographical sketch of Raskhan before he composed "हजारी-जइके"?', options: [
+                { text: 'Correct sequence: Birth in Kannauj (c', outcome: 'Correct sequence: Birth in Kannauj (c. 1532) → Early loss of parents → Education in Persian/Arabic.' },
+                { text: 'life journey', outcome: 'Not quite — Students treat the biographical sketch as "just facts" and the poem as "just images," missing that.', reveals: 'students-treat-the-biographical-sketch' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_06_004', title: 'तुलसीदास — केंद्रीय भाव और रस',
+          caseStudy: { intro: 'मुख्य पात्र की पहचान, कार्य और विकास — \'हजारी-जइके\' में हजारी-जइके से पात्र उभरता है।',
+            decisions: [{ prompt: 'What is the primary difference between analyzing a protagonist in a fictional narrative versus analyzing a historical-poetic figure like.', options: [
+                { text: 'In fictional narratives, the protagonist is a constructed character whose traits we infer', outcome: 'In fictional narratives, the protagonist is a constructed character whose traits we infer only from.' },
+                { text: 'Both use dialogues and actions', outcome: 'Not quite — Students treat Raskhan\'s "conversion" as a single event (Muslim → Hindu) and write: "He changed his.', reveals: 'students-treat-raskhan-s-conversion' },
+                { text: 'कहा जाता है', outcome: 'Not quite — Students treat Raskhan\'s "conversion" as a single event (Muslim → Hindu) and write: "He changed his.', reveals: 'students-treat-raskhan-s-conversion' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_06_005', title: 'तुलसीदास — छंद और लय-विधान',
+          caseStudy: { intro: '\'हजारी-जइके\' में सहायक पात्र पहचानिए — जो मुख्य पात्र की सहायता करते हैं।',
+            decisions: [{ prompt: 'Identify the two supporting characters who appear in BOTH prose excerpts (जयदेव and मैथिलीशरण गुप्त) but are absent from the poem "हरि-केसव.', options: [
+                { text: 'Correct answer: यशोदा (Krishna\'s foster mother) and रोहिणी/बलराम की माता (implied in', outcome: 'Correct answer: यशोदा (Krishna\'s foster mother) and रोहिणी/बलराम की माता (implied in second.' },
+                { text: 'गोपियाँ', outcome: 'Not quite — Students treat supporting characters as "background decoration" and write only physical.', reveals: 'students-treat-supporting-characters-as' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_06_006', title: 'तुलसीदास — साहित्यिक युक्तियाँ: अलंकार',
-          caseStudy: { intro: 'You open the Tulsidas pada and your eye catches a repetition — "राम राम राम" — and you think, "That\'s just emphasis." But wait: in the very next line, "सीय.',
+          caseStudy: { intro: 'सब घटनाएँ \'हजारी-जइके\' में \'हजारी-जइके\' का केंद्रीय भाव और संदेश की ओर ले जाती हैं — यही मुख्य विषय है।',
             decisions: [{ prompt: 'तुलसीदास के पद्यों में \'अनुप्रास अलंकार\' की पहचान करने का सबसे सीधा नियम क्या है? उदाहरण सहित बताइए।', options: [
                 { text: '**Correct answer**: अनुप्रास अलंकार तब होता है जब एक ही वर्ण (व्यंजन या स्वर) की आवृत्ति', outcome: '**Correct answer**: अनुप्रास अलंकार तब होता है जब एक ही वर्ण (व्यंजन या स्वर) की आवृत्ति बार-बार.' },
                 { text: 'कनक कनक ते सौ गुनी', outcome: 'Not quite — **Exact error**: Students memorize alankar *definitions* (e.g., "उपमा में \'जैसे/वैसे\' होता है") and.', reveals: 'exact-error-students-memorize-alankar' },
@@ -54,62 +80,89 @@ export const c12_hin_a_ch06_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_001', difficulty: 'standard',
-          question: 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की.',
-          hint: 'भक्ति आंदोलन के सामाजिक लक्ष्यों की समीक्षा करें—विशेषकर भाषा और पहुँच के मुद्दे।',
-          misconception: 'छात्र अक्सर मानते हैं कि तुलसीदास केवल एक धार्मिक कवि थे और उनका कार्य केवल राम भक्ति तक सीमित था। यह गलत है क्योंकि.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, review Class 11 Hindi *Antra* Chapter 1 "Before You Read".',
+          misconception: 'Students often think Raskhan\'s Muslim background makes his Krishna-bhakti "unusual" or "syncretic" in a superficial.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर',
-                  options: ['तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों', 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है', 'केंद्रीय भाव वह मुख्य भावना है जो कविता के समग्र अनुभव को एकत्रित करती है, जबकि रस वह'],
-                  hint: 'भक्ति आंदोलन के सामाजिक लक्ष्यों की समीक्षा करें—विशेषकर भाषा और पहुँच के मुद्दे।',
-                  misconception: 'छात्र अक्सर मानते हैं कि तुलसीदास केवल एक धार्मिक कवि थे और उनका कार्य केवल राम भक्ति तक सीमित था। यह गलत है क्योंकि उन्होंने अवधी भाषा का.' }
+                { id: 'a', prompt: 'Who was Raskhan, and during which period did he live?', answer: 'Raskhan (रसखान) was a 16th–17th century Hindi poet (c',
+                  options: ['Raskhan (रसखान) was a 16th–17th century Hindi poet (c', 'He was a Mughal emperor', 'He wrote in Sanskrit', 'unusual'],
+                  hint: 'If stuck, review Class 11 Hindi *Antra* Chapter 1 "Before You Read" (c11_hin_ar_cbse_01_001) and.',
+                  misconception: 'Students often think Raskhan\'s Muslim background makes his Krishna-bhakti "unusual" or "syncretic" in a superficial way, leading them.' },
+                { id: 'b', prompt: 'The "Before You Read" section mentions Raskhan\'s works include *dohas*, *pads*, and *savaiyas*.', answer: 'It would be a *doha*',
+                  options: ['It would be a *doha*', 'savaiya', 'unusual', 'syncretic'],
+                  hint: 'If stuck, review Class 11 Hindi *Antra* Chapter 1 "Before You Read" (c11_hin_ar_cbse_01_001) and.',
+                  misconception: 'Students often think Raskhan\'s Muslim background makes his Krishna-bhakti "unusual" or "syncretic" in a superficial way, leading them.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र से पूछें कि तुलसीदास ने क्यों संस्कृत के बजाय अवधी चुनी, फिर चर्चा करें कि भाषा का चयन किस सामाजिक संदेश को देता.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'raskhan-s-muslim-background-makes': { steps: ['Re-read the "Before You Read" box *aloud* slowly, underlining every proper noun (Raskhan, Jake Panjrekul, Vrindavan.', 'Create a two-column table: left column = facts from the text (birth, turning point, works, death), right column.', 'Watch a 5-minute video on "Bhakti Movement and Syncretism" (e.g., NCERT Class 12 History Chapter 6 summary).', 'Re-attempt Diagnostic Question 2 and 5, checking if your answers now reflect the *internal logic of bhakti* rather than.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often think Raskhan\'s Muslim background makes his Krishna-bhakti "unusual" or "syncretic" in a superficial.',
+          parts: [
+                { id: 'a', prompt: 'Critique the statement: "Raskhan\'s poetry is merely an imitation of Surdas or other Hindu Bhakti poets." Defend your judgment with evidence from the context.', answer: 'The statement is false',
+                  options: ['The statement is false', 'unusual', 'syncretic', 'He was a Muslim who wrote Hindu poems'],
+                  hint: 'If stuck, review Class 11 Hindi *Antra* Chapter 1 "Before You Read" (c11_hin_ar_cbse_01_001) and.',
+                  misconception: 'Students often think Raskhan\'s Muslim background makes his Krishna-bhakti "unusual" or "syncretic" in a superficial way, leading them.' },
+                { id: 'b', prompt: 'Write a short paragraph (4–5 lines) in Hindi or English imagining Raskhan\'s inner monologue at the moment he decided to leave his earlier life and settle.', answer: 'A strong response might be: "The verse from Jake Panjrekul echoed in my heart',
+                  options: ['A strong response might be: "The verse from Jake Panjrekul echoed in my heart', 'unusual', 'syncretic', 'He was a Muslim who wrote Hindu poems'],
+                  hint: 'If stuck, review Class 11 Hindi *Antra* Chapter 1 "Before You Read" (c11_hin_ar_cbse_01_001) and.',
+                  misconception: 'Students often think Raskhan\'s Muslim background makes his Krishna-bhakti "unusual" or "syncretic" in a superficial way, leading them.' }
+          ],
+            remediations: { 'raskhan-s-muslim-background-makes': { steps: ['Re-read the "Before You Read" box *aloud* slowly, underlining every proper noun (Raskhan, Jake Panjrekul, Vrindavan.', 'Create a two-column table: left column = facts from the text (birth, turning point, works, death), right column.', 'Watch a 5-minute video on "Bhakti Movement and Syncretism" (e.g., NCERT Class 12 History Chapter 6 summary).', 'Re-attempt Diagnostic Question 2 and 5, checking if your answers now reflect the *internal logic of bhakti* rather than.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_002', difficulty: 'standard',
-          question: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर.',
-          hint: 'यदि छात्र भावार्थ निकालते समय केवल शब्दों के अर्थ जोड़कर रुक जाता है, तो उसे कक्षा 11 के.',
-          misconception: 'छात्र अक्सर यह मान लेते हैं कि पद्यांश का भावार्थ निकालने के लिए बस प्रत्येक पंक्ति के शब्दकोश अर्थ को जोड़ देना.',
+          question: '\'हजारी-जइके\' का कथानक — \'हजारी-जइके\' — अंतरा भाग-2 का पाठ। पाठ का कथानक, पात्र.',
+          hint: 'If unable to map structure, revisit c11_hin_ar_cbse_01_002 (prose narrative arcs) and.',
+          misconception: 'Students treat the biographical sketch as "just facts" and the poem as "just images," missing that *both are carefully.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों',
-                  options: ['पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों', 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर', 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है', 'केंद्रीय भाव वह मुख्य भावना है जो कविता के समग्र अनुभव को एकत्रित करती है, जबकि रस वह'],
-                  hint: 'यदि छात्र भावार्थ निकालते समय केवल शब्दों के अर्थ जोड़कर रुक जाता है, तो उसे कक्षा 11 के साहित्यिक.',
-                  misconception: 'छात्र अक्सर यह मान लेते हैं कि पद्यांश का भावार्थ निकालने के लिए बस प्रत्येक पंक्ति के शब्दकोश अर्थ को जोड़ देना पर्याप्त है, जैसे कि "जहाँ.' }
+                { id: 'a', prompt: 'What is the chronological sequence of major life events presented in the biographical sketch of Raskhan before he composed "हजारी-जइके"?', answer: 'Correct sequence: Birth in Kannauj (c',
+                  options: ['Correct sequence: Birth in Kannauj (c', 'life journey'],
+                  hint: 'If unable to map structure, revisit c11_hin_ar_cbse_01_002 (prose narrative arcs) and.',
+                  misconception: 'Students treat the biographical sketch as "just facts" and the poem as "just images," missing that *both are carefully structured.' },
+                { id: 'b', prompt: 'Compare the narrative structure of the biographical prose (linear, chronological) with the poem\'s structure (imagistic, emotional escalation).', answer: 'Prose uses *chronological causality* (event A → event B) to establish historical',
+                  options: ['Prose uses *chronological causality* (event A → event B) to establish historical', 'linear', 'descriptive'],
+                  hint: 'If unable to map structure, revisit c11_hin_ar_cbse_01_002 (prose narrative arcs) and.',
+                  misconception: 'Students treat the biographical sketch as "just facts" and the poem as "just images," missing that *both are carefully structured.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक ही पंक्ति के दो अलग-अलग अर्थ कैसे हो सकते हैं: उदाहरण के लिए, "जहाँ मृगमरीचिक-а síरा" को पहले.', 'जब छात्र कहेंगे कि नहीं (मृगमरीचिक幻觉 है), तो समझाइए कि यहाँ शब्द प्रतीक के रूप में काम कर रहे हैं—मृगमरीचिक幻觉 जैसा झूठा.', 'क्या वह कुछ और कहना चाहता है?" इससे छात्र को समझ में आएगा कि भावार्थ निकालने में शब्दकोश अर्थ ही अंतिम उत्तर नहीं.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-the-biographical-sketch': { steps: ['Re-read the biographical sketch *only for sequence markers*: "पहले", "फिर", "बाद में", "तब" — mark each temporal.', 'Re-read the poem *stanza by stanza* asking: "What changes from previous stanza?" (Not "what is described?" but "what.', 'Complete node c11_hin_ar_cbse_01_002 (Class 11 Plot & Narrative Structure) Exercise 3 on "emotional arc as plot." 4.', 'Re-attempt Diagnostic Question 4 — if still stuck, map both texts on a two-column chart: Left = Prose Event, Right.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_003', difficulty: 'standard',
-          question: 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है — स्टैंजा की संख्या.',
+          question: '\'हजारी-जइके\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित.',
           hint: 'यदि तुकाबंदी पहचान में फँस गए हैं, तो c12_hin_a_cbse_06_002 में भावार्थ विश्लेषण पर फिर.',
           misconception: 'छात्र अक्सर यह मानते हैं कि यदि एक पद में तुकाबंदी योजना स्थिर नहीं है, तो यह खराब कविता है या तुलसीदास ने छंद नियमों.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है',
-                  options: ['काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है', 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों', 'केंद्रीय भाव वह मुख्य भावना है जो कविता के समग्र अनुभव को एकत्रित करती है, जबकि रस वह'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'हजारी-जइके\' का पाठ्य-परिवेश (setting)',
+                  options: ['\'हजारी-जइके\' का पाठ्य-परिवेश (setting)', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'हजारी-जइके\' का कथानक', '\'हजारी-जइके\' का पात्र-चित्रण'],
                   hint: 'यदि तुकाबंदी पहचान में फँस गए हैं, तो c12_hin_a_cbse_06_002 में भावार्थ विश्लेषण पर फिर से विचार.',
                   misconception: 'छात्र अक्सर यह मानते हैं कि यदि एक पद में तुकाबंदी योजना स्थिर नहीं है, तो यह खराब कविता है या तुलसीदास ने छंद नियमों का पालन नहीं किया। यह.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को एक विशिष्ट पद (जैसे रामचरितमानस से एक दुखद क्षण) दिखाइए जहाँ तुकाबंदी बदलती है। उनसे पहले स्थिर तुकाबंदी वाले.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_004', difficulty: 'standard',
-          question: 'केंद्रीय भाव वह मुख्य भावना है जो कविता के समग्र अनुभव को एकत्रित करती है, जबकि.',
-          hint: 'यदि छात्र केंद्रीय भाव नहीं पहचान पा रहा है, तो उसे c12_hin_a_cbse_06_002 (पद्यांश-वार.',
-          misconception: 'छात्र अक्सर मानते हैं कि यदि कविता में कोई दुखद घटना वर्णित है (जैसे सीता का वनवास), तो उसका रस necessarily करुण रस.',
+          question: '\'हजारी-जइके\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+          hint: 'If stuck on "how to analyze a real person as character," revisit c11_hin_v_cbse_01_004.',
+          misconception: 'Students treat Raskhan\'s "conversion" as a single event (Muslim → Hindu) and write: "He changed his religion." This.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'केंद्रीय भाव वह मुख्य भावना है जो कविता के समग्र अनुभव को एकत्रित करती है, जबकि रस वह',
-                  options: ['केंद्रीय भाव वह मुख्य भावना है जो कविता के समग्र अनुभव को एकत्रित करती है, जबकि रस वह', 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों', 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है'],
-                  hint: 'यदि छात्र केंद्रीय भाव नहीं पहचान पा रहा है, तो उसे c12_hin_a_cbse_06_002 (पद्यांश-वार भावार्थ) में.',
-                  misconception: 'छात्र अक्सर मानते हैं कि यदि कविता में कोई दुखद घटना वर्णित है (जैसे सीता का वनवास), तो उसका रस necessarily करुण रस होगा — जैसे दुख = करुण।.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'हजारी-जइके\' का पात्र-चित्रण',
+                  options: ['\'हजारी-जइके\' का पात्र-चित्रण', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'हजारी-जइके\' का कथानक', '\'हजारी-जइके\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck on "how to analyze a real person as character," revisit c11_hin_v_cbse_01_004 (Vitan.',
+                  misconception: 'Students treat Raskhan\'s "conversion" as a single event (Muslim → Hindu) and write: "He changed his religion." This is historically.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को एक तुलसीदास पद दें जिसमें स्पष्ट दुखद घटना हो (जैसे जटाट्यू धारी राम का वनवास), और पूछें: "इस घटना को पढ़कर.', 'क्या यह क्रोध लाता है, या शांति?" फिर उसके उत्तर के आधार पर बताएँ कि रस घटना के परिणामस्वरूप मन में आने वाली भावना है.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-raskhan-s-conversion': { steps: ['Have the student re-read the biographical sketch (पृष्ठ 33-34) and underline every *process verb* — "सीखा" (learnt).', 'In the poems, highlight *first-person markers* ("मेरे", "मैं", "मुझको") and *address terms* ("प्राणनाथ", "मन मंदिर").', 'Create a two-column timeline: Left column = biographical actions (external), Right column = poetic expressions.', 'Rewrite the "conversion" sentence as: "Raskhan\'s *gradual alignment* of outer life (language, location, community) with.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_005', difficulty: 'standard',
-          question: 'छंद कविता में अक्षरों की मात्रा (गuru-लघु) के predetermined पैटर्न का व्यवस्थित.',
-          hint: 'यदि छात्र मात्रा गणना में फंस रहे हैं, तो उन्हें c11_hin_a_cbse_06_011 (पद्य में.',
-          misconception: 'छात्र अक्सर मानते हैं कि यदि दो पंक्तियों का अंताक्षरी समान है (जैसे -आ, -ई), तो वे एक ही छंद में हैं। यह गलती इसलिए.',
+          question: '\'हजारी-जइके\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते.',
+          hint: 'If stuck on PEEL, revisit c12_hin_a_cbse_06_004 Worked Example 2.',
+          misconception: 'Students treat supporting characters as "background decoration" and write only physical descriptions or plot summaries.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'छंद कविता में अक्षरों की मात्रा (गuru-लघु) के predetermined पैटर्न का व्यवस्थित क्रम है,',
-                  options: ['छंद कविता में अक्षरों की मात्रा (गuru-लघु) के predetermined पैटर्न का व्यवस्थित क्रम है,', 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों', 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है'],
-                  hint: 'यदि छात्र मात्रा गणना में फंस रहे हैं, तो उन्हें c11_hin_a_cbse_06_011 (पद्य में भाषा-प्रयोग).',
-                  misconception: 'छात्र अक्सर मानते हैं कि यदि दो पंक्तियों का अंताक्षरी समान है (जैसे -आ, -ई), तो वे एक ही छंद में हैं। यह गलती इसलिए होती है क्योंकि वे छंद.' }
+                { id: 'a', prompt: 'In the second prose excerpt (मैथिलीशरण गुप्त), Yashoda sends Krishna to Vrindavan.', answer: 'Sample PEEL response: Point',
+                  options: ['Sample PEEL response: Point', 'dramatic agency'],
+                  hint: 'If stuck on PEEL, revisit c12_hin_a_cbse_06_004 Worked Example 2.',
+                  misconception: 'Students treat supporting characters as "background decoration" and write only physical descriptions or plot summaries.' },
+                { id: 'b', prompt: 'Compare the portrayal of maternal anxiety in Yashoda (prose excerpt 1) vs. the implied mother-figure in the poem "हरि-केसव की प्रीति".', answer: 'Correct answer: Prose (जयदेव) uses detailed narration',
+                  options: ['Correct answer: Prose (जयदेव) uses detailed narration', 'both show love'],
+                  hint: 'If stuck on PEEL, revisit c12_hin_a_cbse_06_004 Worked Example 2.',
+                  misconception: 'Students treat supporting characters as "background decoration" and write only physical descriptions or plot summaries.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को एक पंक्ति दीजिए और कहिए: \'इस पंक्ति को आवाज़ में पढ़िए और हर बार जब आपका बल पड़ता है, तो एक ताली बजाइए। अब इन.', 'यदि नहीं, तो किस पैटर्न में बदलाव आ रहा है?\' इस शारीरिक क्रिया के माध्यम से वे ध्वनि समानता (अंताक्षरी) से मात्रा.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-supporting-characters-as': { steps: ['Re-read node c12_hin_a_cbse_06_004 (Protagonist Analysis) to recall how Krishna\'s divinity is established.', 'Take the prose excerpt 1 (जयदेव). Highlight every verb associated with Yashoda in one color, every verb associated with.', 'For each Yashoda-verb, ask: "What does this human action reveal about the divine child?"', 'Write 3 PEEL paragraphs linking one verb each to a specific aspect of Krishna\'s divinity.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_006', difficulty: 'standard',
-          question: 'अलंकार (Alankar) in Tulsidas\'s poetry refers to the deliberate use.',
+          question: '\'हजारी-जइके\' का मुख्य विषय — \'हजारी-जइके\' का केंद्रीय भाव और संदेश',
           hint: 'If stuck on *identification*, revisit Class 11 alankar nodes (c11_hin_a_cbse_13_006 etc.).',
           misconception: '**Exact error**: Students memorize alankar *definitions* (e.g., "उपमा में \'जैसे/वैसे\' होता है") and hunt for *keywords*.',
           parts: [
@@ -119,17 +172,6 @@ export const c12_hin_a_ch06_p1: SimDef = {
                   misconception: '**Exact error**: Students memorize alankar *definitions* (e.g., "उपमा में \'जैसे/वैसे\' होता है") and hunt for *keywords* in the text.' },
                 { id: 'b', prompt: 'तुलसीदास एक ही भाव को व्यक्त करने के लिए दो अलग-अलग अलंकारों — उपमा और रूपक — का प्रयोग कब और क्यों करते हैं? एक पद से उदाहरण देकर विश्लेषण कीजिए।', answer: '**Correct answer**: - **उपमा** (explicit comparison: "जैसे...वैसे")',
                   options: ['**Correct answer**: - **उपमा** (explicit comparison: "जैसे...वैसे")', 'comparison figures'],
-                  hint: 'If stuck on *identification*, revisit Class 11 alankar nodes (c11_hin_a_cbse_13_006 etc.) and.',
-                  misconception: '**Exact error**: Students memorize alankar *definitions* (e.g., "उपमा में \'जैसे/वैसे\' होता है") and hunt for *keywords* in the text.' }
-          ],
-            remediations: { 'exact-error-students-memorize-alankar': { steps: ['Take ONE pada (e.g., "सीय राम मय सब जग जानी").', '**Read it 3 times**: (a) literal meaning, (b) theological meaning (what does Tulsidas want the bhakta to *realize*?).', '**Ask**: "If I delete this word/phrase, does the *realization* weaken?" If yes → that\'s your alankar\'s *function*.', '**Revisit Class 11 nodes**: `c11_hin_a_cbse_13_006` (जाग तुझको दूर जाना — अलंकार) and `c11_hin_a_cbse_14_006` (बादल को.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_006', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: '**Exact error**: Students memorize alankar *definitions* (e.g., "उपमा में \'जैसे/वैसे\' होता है") and hunt for *keywords*.',
-          parts: [
-                { id: 'a', prompt: '"तुलसीदास के अलंकार केवल शोभा बढ़ाते हैं, भाव नहीं गढ़ते।" इस कथन का मूल्यांकन कीजिए। प्रमाण सहित खंडन या समर्थन करें।', answer: '**Correct evaluation**: **खंडन**',
-                  options: ['**Correct evaluation**: **खंडन**', 'beauty', 'instrument'],
                   hint: 'If stuck on *identification*, revisit Class 11 alankar nodes (c11_hin_a_cbse_13_006 etc.) and.',
                   misconception: '**Exact error**: Students memorize alankar *definitions* (e.g., "उपमा में \'जैसे/वैसे\' होता है") and hunt for *keywords* in the text.' }
           ],

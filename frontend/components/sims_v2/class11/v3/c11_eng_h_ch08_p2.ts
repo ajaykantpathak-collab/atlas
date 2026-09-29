@@ -19,7 +19,7 @@ export const c11_eng_h_ch08_p2: SimDef = {
         hook: 'The old road moved fabric; Middleton\'s road moves meaning — same track, different cargo.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas, motifs, and recurring concerns in a text that support and enrich the primary theme but are not the central message.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Silk Road\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_08_007', title: 'Your mission',
@@ -29,40 +29,40 @@ export const c11_eng_h_ch08_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_08_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re trekking through the Himalayas and notice not just the destination but the changing landscape, the prayer flags fluttering at every pass, the.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Silk Road\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the difference between a primary theme and a secondary theme in a literary text? Provide a one-sentence distinction.', options: [
                 { text: 'A primary theme is the central, unifying idea that the entire text revolves around, while', outcome: 'A primary theme is the central, unifying idea that the entire text revolves around, while.' },
                 { text: 'secondary themes are less important', outcome: 'Not quite — Students often treat secondary themes as "sub-topics" or "minor ideas" and list them without.', reveals: 'students-often-treat-secondary-themes' },
                 { text: 'hospitality is a secondary theme', outcome: 'Not quite — Students often treat secondary themes as "sub-topics" or "minor ideas" and list them without.', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_08_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are scrolling through a travel blog about Ladakh: the writer describes "air so thin it feels like breathing through a straw" and "mountains.',
+          caseStudy: { intro: 'Find the lines in \'Silk Road\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "organic imagery" and give one example from *Silk Road* where the narrator describes an internal bodily sensation (e.g., nausea.', options: [
                 { text: 'Organic imagery refers to language that conveys internal physiological states', outcome: 'Organic imagery refers to language that conveys internal physiological states — hunger, thirst.' },
                 { text: 'the wind howling', outcome: 'Not quite — Students often treat imagery and metaphor as decorative "flowery language" rather than *structural*.', reveals: 'students-often-treat-imagery-and' },
                 { text: 'snow-capped peaks', outcome: 'Not quite — Students often treat imagery and metaphor as decorative "flowery language" rather than *structural*.', reveals: 'students-often-treat-imagery-and' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_08_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you\'re planning a trek to a holy mountain expecting a smooth, paved path but find yourself on a rough, icy track at 5,000 meters—this gap between.',
+          caseStudy: { intro: 'Look in \'Silk Road\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define situational irony and give one example from "Silk Road" where the narrator\'s expectations about the journey clash with reality.', options: [
                 { text: 'Situational irony occurs when the actual outcome of a situation is sharply different from', outcome: 'Situational irony occurs when the actual outcome of a situation is sharply different from what was.' },
                 { text: 'any prominent object (e', outcome: 'Not quite — Students often confuse symbolism with mere description: they think any prominent object (e.g., the.', reveals: 'students-often-confuse-symbolism-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_08_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading "Silk Road" and encounter the sentence: "The *drokba* led his flock across the *changtang*, his *prostrate* form a silhouette against.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Silk Road\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'In the sentence "The *kora* around Mount Kailash is a *circumambulation* performed by pilgrims," which context-clue type directly defines.', options: [
                 { text: 'The apposition clue: "*circumambulation* performed by pilgrims" renames *kora* with a', outcome: 'The apposition clue: "*circumambulation* performed by pilgrims" renames *kora* with a definition.' },
                 { text: 'example clue', outcome: 'Not quite — Students believe "vocabulary in context" means "guess the meaning from the sentence" and stop at.', reveals: 'vocabulary-in-context-means-guess' },
                 { text: 'contrast clue', outcome: 'Not quite — Students believe "vocabulary in context" means "guess the meaning from the sentence" and stop at.', reveals: 'vocabulary-in-context-means-guess' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_08_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you\'re reading Middleton\'s description of the "dry, cold desert" and notice he writes: "The snow-capped mountains *glistening* in the sun, we *drove*.',
+          caseStudy: { intro: 'Read \'Silk Road\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the tense and voice of the verb phrase "had been travelling" in a narrative context. What time relationship does it establish?', options: [
                 { text: 'Correct: Past perfect continuous, active voice', outcome: 'Correct: Past perfect continuous, active voice. It establishes an action that started before.' },
                 { text: 'past continuous', outcome: 'Not quite — Students treat "grammar in text" as a labeling exercise (underline the tense) rather than.', reveals: 'students-treat-grammar-in-text' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_08_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and the question asks: *"Why does the narrator describe the tea at Hor as \'the worst tea I have ever tasted\'?"*.',
+          caseStudy: { intro: 'Answer \'Silk Road\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the primary difference between a literal comprehension question and an inferential comprehension question in the context of Class.', options: [
                 { text: 'A literal question asks for information explicitly stated in the text (e.g., \'At what', outcome: 'A literal question asks for information explicitly stated in the text (e.g., \'At what altitude.' },
                 { text: 'inferential questions are answered by \'guessing\' or \'personal opinion\' (e', outcome: 'Not quite — Students believe inferential questions are answered by \'guessing\' or \'personal opinion\' (e.g., \'I.', reveals: 'inferential-questions-are-answered-by' },
@@ -87,7 +87,7 @@ export const c11_eng_h_ch08_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas, motifs, and recurring concerns in.',
+          question: 'Secondary themes in \'Silk Road\' — the supporting ideas and motifs that deepen.',
           hint: 'Review the definition of "theme" vs "topic" and practice writing theme statements using.',
           misconception: 'Students often treat secondary themes as "sub-topics" or "minor ideas" and list them without showing how they.',
           parts: [
@@ -109,7 +109,7 @@ export const c11_eng_h_ch08_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-secondary-themes': { steps: ['Have the student reread the chapter with three colored highlighters: one for landscape/environment, one for.', 'For each color, write one sentence explaining what *idea* (not event) the highlighted passages collectively suggest.', 'Take one idea and trace it across three non-consecutive pages — note how the author\'s treatment of it changes (e.g.', 'Write a 3-sentence explanation of how that idea deepens the primary theme.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Silk Road\' — the vivid, sensory language that creates word-pictures.',
           hint: 'Review the "tenor/vehicle" distinction using I.A. Richards\' terminology (standard.',
           misconception: 'Students often treat imagery and metaphor as decorative "flowery language" rather than *structural* devices that.',
           parts: [
@@ -120,18 +120,18 @@ export const c11_eng_h_ch08_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-imagery-and': { steps: ['Return to the text and physically act out the narrator\'s journey: stand up, simulate labored breathing at 5,000m, feel.', 'Create a two-column table: Column A = every metaphor in the chapter (source → target); Column B = the *single dominant.', 'For each row, answer: "At this point in the journey, why does the narrator *need* this quality?" This forces functional.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_009', difficulty: 'standard',
-          question: 'Irony is a literary device where there is a contrast between expectation and.',
+          question: 'Irony and paradox in \'Silk Road\' — where opposite things are both true,.',
           hint: 'Review the narrator\'s diary-like entries in the text (especially Day 1–3) to re-establish.',
           misconception: 'Students often confuse symbolism with mere description: they think any prominent object (e.g., the mountain) is.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where there is a contrast between expectation and reality,',
-                  options: ['Irony is a literary device where there is a contrast between expectation and reality,', '"Before You Read: Context and Background" is a preparatory section that provides', 'Plot and Narrative Structure in "Silk Road" refers to the sequence of events (plot) and', 'Setting refers to the time, place, and physical environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'Silk Road\'',
+                  options: ['Irony and paradox in \'Silk Road\'', '\'Silk Road\' (Hornbill, ch', 'The plot/narrative arc of \'Silk Road\'', 'The setting of \'Silk Road\''],
                   hint: 'Review the narrator\'s diary-like entries in the text (especially Day 1–3) to re-establish his.',
                   misconception: 'Students often confuse symbolism with mere description: they think any prominent object (e.g., the mountain) is a symbol just because it\'s.' }
           ],
             remediations: { 'students-often-confuse-symbolism-with': { steps: ['If a student misidentifies symbols or irony: (1) Have them list the narrator\'s stated expectations before each journey.', '(2) Mark where reality diverges—label each gap as situational, verbal, or dramatic.', '(3) For symbols, ask: "What does this object *stand for* in the culture or the narrator\'s mind?" Require a two-column.', 'Practice with a fresh passage from the chapter.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'Silk Road\' — the words and phrases you must know to read the.',
           hint: 'Review "context clue classification" from Class 9 (c9_engl_ch1_8) using the 5-type.',
           misconception: 'Students believe "vocabulary in context" means "guess the meaning from the sentence" and stop at a single synonym.',
           parts: [
@@ -146,7 +146,7 @@ export const c11_eng_h_ch08_p2: SimDef = {
           ],
             remediations: { 'vocabulary-in-context-means-guess': { steps: ['Give the student a 3-sentence excerpt from Silk Road with one target word bolded.', 'Ask: "What part of speech is this?', 'Prove it using only this sentence\'s grammar." 3.', 'Ask: "Find two words within 5 words left/right that relate to the target.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the systematic analysis of how.',
+          question: 'Language and style in \'Silk Road\' — how the writer chose words, sentences and.',
           hint: 'If stuck, review "Non-finite clauses as sentence compressors" (Class 10 grammar workbook.',
           misconception: 'Students treat "grammar in text" as a labeling exercise (underline the tense) rather than a *functional* analysis.',
           parts: [
@@ -157,7 +157,7 @@ export const c11_eng_h_ch08_p2: SimDef = {
           ],
             remediations: { 'students-treat-grammar-in-text': { steps: ['Give the student two minimal pairs: "We drove 5 hours" vs "We had been driving 5 hours when..." — ask: which emphasizes.', 'Show a text strip: convert all participles to relative clauses — read aloud, hear the clunky rhythm.', 'Assign: find 3 passive verbs in the monastery paragraph; for each, ask "Who does the action?', 'Have them rewrite a 5-sentence travel journal entry using at least 3 different non-finite structures.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve explicitly stated.',
+          question: 'Literal comprehension of \'Silk Road\' — questions answered straight from the.',
           hint: 'Review the \'Plot and Narrative Structure\' (c11_eng_h_cbse_08_002) and \'Setting and.',
           misconception: 'Students believe inferential questions are answered by \'guessing\' or \'personal opinion\' (e.g., \'I think the narrator.',
           parts: [

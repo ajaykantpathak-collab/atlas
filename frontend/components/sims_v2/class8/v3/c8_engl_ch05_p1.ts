@@ -85,7 +85,7 @@ export const c8_engl_ch05_p1: SimDef = {
           misconception: 'Students often treat a science fiction setting as a "decorative background" or a cool visual stage that has no real.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'In science fiction, the **setting** is the specific time and place (often futuristic or',
-                  options: ['In science fiction, the **setting** is the specific time and place (often futuristic or', 'Comprehension of how Claribel the canary survived in zero gravity involves understanding', 'Critical thinking about adapting to life in space involves evaluating the challenges', 'Imaginative writing about life in a future space station is a narrative sci-fi'],
+                  options: ['In science fiction, the **setting** is the specific time and place (often futuristic or', 'Comprehension of how Claribel the canary survived in zero gravity involves understanding', 'From \'English chapter c8_engl_ch5\': the skill or concept this node teaches, applied to', 'Imaginative writing about life in a future space station is a narrative sci-fi'],
                   hint: 'If stuck, review **c7_engl_ch04_001 (Story Setting: The Jungle, Railway and the Tunnel)**.',
                   misconception: 'Students often treat a science fiction setting as a "decorative background" or a cool visual stage that has no real impact on the.' }
           ],
@@ -125,7 +125,7 @@ export const c8_engl_ch05_p1: SimDef = {
           ],
             remediations: { 'students-read-claribel-survived-in': { steps: ['Have the student list everything Claribel needs to survive (food, water, air, shelter) and ask: "How would each work.', 'Show a diagram of a bird\'s respiratory system (air sacs) vs a human\'s and ask: "Which detects bad air faster?" This.', 'Connect to c8_engl_ch5_5 (science fiction genre): ask how the story uses real science (bird biology, zero gravity).', 'Have the student compare Claribel\'s survival with historical canary use in mines — what is the same?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c8_engl_ch5_11', difficulty: 'standard',
-          question: 'Critical thinking about adapting to life in space involves evaluating the.',
+          question: 'From \'English chapter c8_engl_ch5\': the skill or concept this node teaches.',
           hint: 'If students see only physical challenges, introduce the psychological dimension.',
           misconception: 'Students think space adaptation is purely technological — build better life support, and humans can live in space.',
           parts: [
@@ -149,7 +149,7 @@ export const c8_engl_ch05_p1: SimDef = {
           misconception: 'Students often assume that creative sci-fi writing means inventing wild fantasy events (such as alien attacks.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Imaginative writing about life in a future space station is a narrative sci-fi',
-                  options: ['Imaginative writing about life in a future space station is a narrative sci-fi', 'In science fiction, the **setting** is the specific time and place (often futuristic or', 'Comprehension of how Claribel the canary survived in zero gravity involves understanding', 'Critical thinking about adapting to life in space involves evaluating the challenges'],
+                  options: ['Imaginative writing about life in a future space station is a narrative sci-fi', 'In science fiction, the **setting** is the specific time and place (often futuristic or', 'Comprehension of how Claribel the canary survived in zero gravity involves understanding', 'From \'English chapter c8_engl_ch5\': the skill or concept this node teaches, applied to'],
                   hint: 'If stuck, review basic sci-fi setting elements from `c8_engl_ch5_1` and practice changing everyday.',
                   misconception: 'Students often assume that creative sci-fi writing means inventing wild fantasy events (such as alien attacks or magical gravity devices).' }
           ],
@@ -160,7 +160,7 @@ export const c8_engl_ch05_p1: SimDef = {
           misconception: 'Students treat the poem as a mere "verse version" of the prose story *Feathered Friend*, importing plot details (Sven.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'A poem\'s summary is a concise restatement of its content, capturing the sequence of',
-                  options: ['A poem\'s summary is a concise restatement of its content, capturing the sequence of', 'In science fiction, the **setting** is the specific time and place (often futuristic or', 'Comprehension of how Claribel the canary survived in zero gravity involves understanding', 'Critical thinking about adapting to life in space involves evaluating the challenges'],
+                  options: ['A poem\'s summary is a concise restatement of its content, capturing the sequence of', 'In science fiction, the **setting** is the specific time and place (often futuristic or', 'Comprehension of how Claribel the canary survived in zero gravity involves understanding', 'From \'English chapter c8_engl_ch5\': the skill or concept this node teaches, applied to'],
                   hint: 'Review "Stanza-by-Stanza Summary" (c7_engl_ch04_011) using a simple 3-stanza poem; practice the.',
                   misconception: 'Students treat the poem as a mere "verse version" of the prose story *Feathered Friend*, importing plot details (Sven hiding the bird, the.' }
           ],

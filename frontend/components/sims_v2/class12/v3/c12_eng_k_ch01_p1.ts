@@ -19,38 +19,38 @@ export const c12_eng_k_ch01_p1: SimDef = {
         hook: 'Magical realism isn\'t fantasy — the impossible is told in a reporter\'s flat voice. Marquez was a journalist; the Havana disaster opens like a news dispatch, and Frau Frieda\'s prophetic dreams are treated as ordinary employment. Blur that register and you misread the whole story.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a preparatory section that provides essential information about the author, the literary movement, historical setting, and key concepts to help students.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'I Sell My Dreams\' (Kaleidoscope, ch. 1) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_01_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Straddle two worlds — spy-ring Vienna and hurricane-hit Havana: map the frame narrative, weigh Neruda\'s rationality against Frau Frieda\'s gift, and decide whether her dreams are prophecy or survival strategy.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_01_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Start by asking: "Have you ever had a dream that felt so real it changed your decision the next day?" Connect to the story\'s premise of a woman who sells her.',
+          caseStudy: { intro: 'Start with the author of \'I Sell My Dreams\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who is the author of "I Sell My Dreams," and what major literary prize did he win?', options: [
                 { text: 'The author is Gabriel Garcia Marquez, a Colombian novelist, short-story writer, and', outcome: 'The author is Gabriel Garcia Marquez, a Colombian novelist, short-story writer, and journalist who.' },
                 { text: 'Before You Read', outcome: 'Not quite — Students often think "Before You Read" is just a summary of the story.', reveals: 'before-you-read-is-just' },
                 { text: 'another Latin American writer like Borges or Allende', outcome: 'Not quite — Students often think "Before You Read" is just a summary of the story.', reveals: 'before-you-read-is-just' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_01_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re watching a mystery series where the first scene shows a dramatic car crash, then jumps to a conversation from 30 years earlier, then to a lunch.',
+          caseStudy: { intro: 'Trace \'I Sell My Dreams\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the framing device in "I Sell My Dreams," and which event serves as the outer frame that opens and closes the narrative?', options: [
                 { text: 'The framing device is the Havana Riviera Hotel disaster', outcome: 'The framing device is the Havana Riviera Hotel disaster — a massive wave embedding a car in the.' },
                 { text: 'the Vienna flashback', outcome: 'Not quite — Students often believe the story has three *separate* flashbacks (Vienna, Barcelona, Havana) all.', reveals: 'the-story-has-three-separate' },
                 { text: 'the Barcelona meeting', outcome: 'Not quite — Students often believe the story has three *separate* flashbacks (Vienna, Barcelona, Havana) all.', reveals: 'the-story-has-three-separate' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_01_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are a detective trying to solve a mystery: is Frau Frieda a genuine mystic or a brilliant con artist?',
+          caseStudy: { intro: 'Pick the central figure in \'I Sell My Dreams\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the literal meaning of the name "Frau Frieda" and why do the Latin American students in Vienna give her this name?', options: [
                 { text: '"Frau Frieda" is a Germanic tongue-twister invented by the Latin American students', outcome: '"Frau Frieda" is a Germanic tongue-twister invented by the Latin American students because she.' },
                 { text: 'it\'s her birth name', outcome: 'Not quite — Students often treat Frau Frieda as either a "real witch" or a "total fraud" — a binary that misses.', reveals: 'students-often-treat-frau-frieda' },
                 { text: 'it means \'peaceful lady\'', outcome: 'Not quite — Students often treat Frau Frieda as either a "real witch" or a "total fraud" — a binary that misses.', reveals: 'students-often-treat-frau-frieda' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_01_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re telling a friend about a movie where a character claims to predict the future through dreams — you\'d naturally ask: "But did the dreams.',
+          caseStudy: { intro: 'Ask what \'I Sell My Dreams\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the single most accurate statement of the primary theme of "I Sell My Dreams"?', options: [
                 { text: 'Correct answer: The primary theme is the power of belief and superstition to shape human', outcome: 'Correct answer: The primary theme is the power of belief and superstition to shape human behaviour.' },
                 { text: 'The story is about a woman who sells her dreams to make money', outcome: 'Not quite — Students often think "identifying the theme" means spotting a *topic* like "dreams".', reveals: 'identifying-the-theme-means-spotting' },
@@ -70,21 +70,21 @@ export const c12_eng_k_ch01_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_01_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a preparatory section that.',
+          question: '\'I Sell My Dreams\' (Kaleidoscope, ch. 1) — the context and background to this.',
           hint: 'Review "Before You Read" sections from Class 11 Hornbill (c11_eng_h_cbse_01_001).',
           misconception: 'Students often think "Before You Read" is just a summary of the story.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" is a preparatory section that provides',
-                  options: ['"Before You Read: Context and Background" is a preparatory section that provides', 'Plot refers to the sequence of events as presented in the narrative, while narrative', 'Setting in "I Sell My Dreams" refers to the specific geographical locations (Havana,', 'Character analysis of the protagonist involves examining the central character\'s traits,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'I Sell My Dreams\' (Kaleidoscope, ch',
+                  options: ['\'I Sell My Dreams\' (Kaleidoscope, ch', 'The plot/narrative arc of \'I Sell My Dreams\'', 'The setting of \'I Sell My Dreams\'', 'Character analysis in \'I Sell My Dreams\''],
                   hint: 'Review "Before You Read" sections from Class 11 Hornbill (c11_eng_h_cbse_01_001) to practice.',
                   misconception: 'Students often think "Before You Read" is just a summary of the story.' }
           ],
-            remediations: { 'before-you-read-is-just': { steps: ['If a student confuses context with summary, have them re-read the textbook\'s "Introduction" (pages 1-2) and highlight.', 'Then ask: "Which of these facts would help you understand why Frau Frieda is in Vienna?" Guide them to connect "black.', 'Revisit Class 11 Hornbill\'s "Before You Read" nodes (c11_eng_h_cbse_01_001) for practice.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'before-you-read-is-just': { steps: ['If a student confuses context with summary, have them re-read the textbook\'s "Introduction" (pages 1-2) and highlight.', 'Then ask: "Which of these facts would help you understand why Frau Frieda is in Vienna?" Guide them to connect "black.', 'Revisit Class 11 Hornbill\'s "Before You Read" nodes (c11_eng_h_cbse_01_001) for practice.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_01_001', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -95,9 +95,9 @@ export const c12_eng_k_ch01_p1: SimDef = {
                   hint: 'Review "Before You Read" sections from Class 11 Hornbill (c11_eng_h_cbse_01_001) to practice.',
                   misconception: 'Students often think "Before You Read" is just a summary of the story.' }
           ],
-            remediations: { 'before-you-read-is-just': { steps: ['If a student confuses context with summary, have them re-read the textbook\'s "Introduction" (pages 1-2) and highlight.', 'Then ask: "Which of these facts would help you understand why Frau Frieda is in Vienna?" Guide them to connect "black.', 'Revisit Class 11 Hornbill\'s "Before You Read" nodes (c11_eng_h_cbse_01_001) for practice.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'before-you-read-is-just': { steps: ['If a student confuses context with summary, have them re-read the textbook\'s "Introduction" (pages 1-2) and highlight.', 'Then ask: "Which of these facts would help you understand why Frau Frieda is in Vienna?" Guide them to connect "black.', 'Revisit Class 11 Hornbill\'s "Before You Read" nodes (c11_eng_h_cbse_01_001) for practice.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_01_002', difficulty: 'standard',
-          question: 'Plot refers to the sequence of events as presented in the narrative, while.',
+          question: 'The plot/narrative arc of \'I Sell My Dreams\' — what happens, in what order, and.',
           hint: 'Review Class 11 Hornbill Chapter 1 "The Portrait of a Lady" (linear) vs.',
           misconception: 'Students often believe the story has three *separate* flashbacks (Vienna, Barcelona, Havana) all triggered from the.',
           parts: [
@@ -114,31 +114,31 @@ export const c12_eng_k_ch01_p1: SimDef = {
                   hint: 'Review Class 11 Hornbill Chapter 1 "The Portrait of a Lady" (linear) vs.',
                   misconception: 'Students often believe the story has three *separate* flashbacks (Vienna, Barcelona, Havana) all triggered from the present, missing that.' }
           ],
-            remediations: { 'the-story-has-three-separate': { steps: ['If a student cannot map the nested structure: 1.', 'Have them draw two parallel timelines on paper: one labeled "Chronological Time" (1920s→1970s), one labeled "Narrative.', 'Place 6 event cards (childhood dream, Vienna job, flight to Rome, Barcelona lunch, Havana wave, ambassador talk) on the.', 'Then move them to the narrative line in the order the story *presents* them.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-story-has-three-separate': { steps: ['If a student cannot map the nested structure: 1.', 'Have them draw two parallel timelines on paper: one labeled "Chronological Time" (1920s→1970s), one labeled "Narrative.', 'Place 6 event cards (childhood dream, Vienna job, flight to Rome, Barcelona lunch, Havana wave, ambassador talk) on the.', 'Then move them to the narrative line in the order the story *presents* them.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_01_003', difficulty: 'standard',
-          question: 'Setting in "I Sell My Dreams" refers to the specific geographical locations.',
+          question: 'The setting of \'I Sell My Dreams\' — the place, time and atmosphere the text.',
           hint: 'If confused about timeline: draw a two-column chart — "Story Order" (Havana → Vienna →.',
           misconception: 'Students treat setting as "background" — a passive stage where events happen.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting in "I Sell My Dreams" refers to the specific geographical locations (Havana,',
-                  options: ['Setting in "I Sell My Dreams" refers to the specific geographical locations (Havana,', '"Before You Read: Context and Background" is a preparatory section that provides', 'Plot refers to the sequence of events as presented in the narrative, while narrative', 'Character analysis of the protagonist involves examining the central character\'s traits,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'I Sell My Dreams\'',
+                  options: ['The setting of \'I Sell My Dreams\'', '\'I Sell My Dreams\' (Kaleidoscope, ch', 'The plot/narrative arc of \'I Sell My Dreams\'', 'Character analysis in \'I Sell My Dreams\''],
                   hint: 'If confused about timeline: draw a two-column chart — "Story Order" (Havana → Vienna → Barcelona →.',
                   misconception: 'Students treat setting as "background" — a passive stage where events happen.' }
           ],
-            remediations: { 'students-treat-setting-as-background': { steps: ['If the student cannot distinguish setting from atmosphere, or misses the magical realism blend: 1) Have them reread the.', '2) Ask: "Which of these could happen in real life?', 'Why does Marquez put them in the same sentence?" 3) Map the five settings on a timeline with atmosphere keywords for.', '4) Re-attempt Diagnostic Question 4 with this framework.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-setting-as-background': { steps: ['If the student cannot distinguish setting from atmosphere, or misses the magical realism blend: 1) Have them reread the.', '2) Ask: "Which of these could happen in real life?', 'Why does Marquez put them in the same sentence?" 3) Map the five settings on a timeline with atmosphere keywords for.', '4) Re-attempt Diagnostic Question 4 with this framework.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_01_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the central.',
+          question: 'Character analysis in \'I Sell My Dreams\' — the central figure(s), their traits.',
           hint: 'If stuck on magical realism ambiguity, review c12_eng_k_cbse_01_001\'s explanation.',
           misconception: 'Students often treat Frau Frieda as either a "real witch" or a "total fraud" — a binary that misses Marquez\'s magical.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist involves examining the central character\'s traits,',
-                  options: ['Character analysis of the protagonist involves examining the central character\'s traits,', '"Before You Read: Context and Background" is a preparatory section that provides', 'Plot refers to the sequence of events as presented in the narrative, while narrative', 'Setting in "I Sell My Dreams" refers to the specific geographical locations (Havana,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis in \'I Sell My Dreams\'',
+                  options: ['Character analysis in \'I Sell My Dreams\'', '\'I Sell My Dreams\' (Kaleidoscope, ch', 'The plot/narrative arc of \'I Sell My Dreams\'', 'The setting of \'I Sell My Dreams\''],
                   hint: 'If stuck on magical realism ambiguity, review c12_eng_k_cbse_01_001\'s explanation of Marquez\'s.',
                   misconception: 'Students often treat Frau Frieda as either a "real witch" or a "total fraud" — a binary that misses Marquez\'s magical realist core.' }
           ],
-            remediations: { 'students-often-treat-frau-frieda': { steps: ['If a student writes a binary judgment, assign this 3-step fix: (1) Re-read the Barcelona section (pages 7-8) and.', '(2) Write a T-chart: left column "Evidence she\'s a fraud" (stratagem comment, Neruda\'s disbelief), right column.', '(3) Rewrite the character sketch\'s thesis statement to: "Frau Frieda\'s power derives not from supernatural gift.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-frau-frieda': { steps: ['If a student writes a binary judgment, assign this 3-step fix: (1) Re-read the Barcelona section (pages 7-8) and.', '(2) Write a T-chart: left column "Evidence she\'s a fraud" (stratagem comment, Neruda\'s disbelief), right column.', '(3) Rewrite the character sketch\'s thesis statement to: "Frau Frieda\'s power derives not from supernatural gift.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_01_005', difficulty: 'standard',
-          question: 'Supporting characters are secondary figures in a narrative who interact with.',
+          question: 'Supporting characters in \'I Sell My Dreams\' — the secondary figures who move.',
           hint: 'Review STEAL method using the Viennese family\'s breakfast scene: find one example each.',
           misconception: 'Students often treat Frau Frieda as either a genuine prophet or a conscious fraud.',
           parts: [
@@ -155,9 +155,9 @@ export const c12_eng_k_ch01_p1: SimDef = {
                   hint: 'Review STEAL method using the Viennese family\'s breakfast scene: find one example each of Speech.',
                   misconception: 'Students often treat Frau Frieda as either a genuine prophet or a conscious fraud.' }
           ],
-            remediations: { 'students-often-treat-frau-frieda': { steps: ['Re-read the Vienna tavern scene (NCERT pp.', '3-5) and underline every verb describing Frau Frieda\'s actions vs.', 'Create a two-column table: "What Frau Frieda Does" vs.', '"What the Family Believes She Does." 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-frau-frieda': { steps: ['Re-read the Vienna tavern scene (NCERT pp.', '3-5) and underline every verb describing Frau Frieda\'s actions vs.', 'Create a two-column table: "What Frau Frieda Does" vs.', '"What the Family Believes She Does." 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_01_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
+          question: 'The primary theme of \'I Sell My Dreams\' — the central idea the whole text.',
           hint: 'If the student cannot formulate a thematic sentence, return to c11_eng_h_cbse_01_006.',
           misconception: 'Students often think "identifying the theme" means spotting a *topic* like "dreams" or "superstition" or "survival.".',
           parts: [
@@ -166,7 +166,7 @@ export const c12_eng_k_ch01_p1: SimDef = {
                   hint: 'If the student cannot formulate a thematic sentence, return to c11_eng_h_cbse_01_006 (Class 11.',
                   misconception: 'Students often think "identifying the theme" means spotting a *topic* like "dreams" or "superstition" or "survival." They write: "The theme.' }
           ],
-            remediations: { 'identifying-the-theme-means-spotting': { steps: ['If a student cannot move from topic to thematic statement: (1) Have them complete this stem: "The story shows that.', '(3) Have them write one sentence connecting those actions: "When people treat dreams as authoritative, they surrender.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'identifying-the-theme-means-spotting': { steps: ['If a student cannot move from topic to thematic statement: (1) Have them complete this stem: "The story shows that.', '(3) Have them write one sentence connecting those actions: "When people treat dreams as authoritative, they surrender.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -6,13 +6,13 @@ import C11_AppliedMathsGraphQuadraticFunctionSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_appliedmathsgraphquadraticfunctionsim: SimDef = {
     id: 'v3w_c11_appliedmathsgraphquadraticfunctionsim',
-    title: 'Applied Maths Graph Quadratic Function',
+    title: 'Polynomial Functions: Linear and Quadratic',
     subtitle: 'This node covers linear and quadratic polynomial functions as real-valued functions with.',
     classLevel: 11, subject: 'science', topic: 'Polynomial Functions: Linear and Quadratic',
     chapters: [],
     nodeIds: ['c11_math_cbse_02_007', 'c11_math_cbse_02_008', 'c11_math_cbse_06_004', 'c11_math_cbse_06_005', 'c11_math_cbse_03_004', 'c11_math_cbse_03_006', 'c11_math_cbse_03_014', 'c11_math_cbse_06_006', 'c11_math_cbse_02_004', 'c11_math_cbse_02_005', 'c11_math_cbse_02_006', 'c11_math_cbse_02_009', 'c11_math_cbse_02_011', 'c11_math_cbse_02_012', 'c11_math_cbse_06_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are tracking the height of a ball thrown upward from a building in Mumbai.', goal: 'Master Applied Maths Graph Quadratic Function.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are tracking the height of a ball thrown upward from a building in Mumbai.', goal: 'Master Polynomial Functions: Linear and Quadratic.' },
     discovery: {
         question: 'Compare the graphical representations of 2x + 1 < 5 and 2x + 1 ≤ 5. What is the only difference between the two graphs? Why does this difference matter?',
         options: ['Both have boundary at x = 2 (solving gives x < 2 and x ≤ 2)', 'no difference', 'different arrow direction'],
@@ -81,7 +81,7 @@ export const w_c11_appliedmathsgraphquadraticfunctionsim: SimDef = {
             { text: 'Verify with exact values: sin 210° = -1/2, cos 210° = -√3/2, tan 210° = 1/√3. Signs match.', faded: true, blankAnswer: 'Vertical component (sin) is negative, horizontal component.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_02_008', title: 'Identify each idea',
-          dissect: { specimen: 'Applied Maths Graph Quadratic Function', spots: [
+          dissect: { specimen: 'Polynomial Functions: Linear and Quadratic', spots: [
             { id: 's1', label: 'A polynomial function is a', prompt: 'Which idea is this? — A polynomial function is a real-valued function \\( f: \\mathbb{R} \\to \\mathbb{R} \\).', answer: 'A polynomial function is a', options: ['A polynomial function is a', 'A rational function is a', 'The graphical solution of a', 'A system of linear inequalities'] },
             { id: 's2', label: 'A rational function is a', prompt: 'Which idea is this? — A **rational function** is a real-valued function of the form \\( f(x) = \\frac{p(x)}{q(x)}.', answer: 'A rational function is a', options: ['A rational function is a', 'A polynomial function is a', 'The graphical solution of a', 'A system of linear inequalities'] },
             { id: 's3', label: 'The graphical solution of a', prompt: 'Which idea is this? — The graphical solution of a linear inequality in one variable represents the solution set.', answer: 'The graphical solution of a', options: ['The graphical solution of a', 'A polynomial function is a', 'A rational function is a', 'A system of linear inequalities'] },
@@ -90,7 +90,7 @@ export const w_c11_appliedmathsgraphquadraticfunctionsim: SimDef = {
             { id: 's6', label: 'The sign of a trigonometric', prompt: 'Which idea is this? — The sign of a trigonometric function in a given quadrant is determined by the signs of.', answer: 'The sign of a trigonometric', options: ['The sign of a trigonometric', 'A polynomial function is a', 'A rational function is a', 'The graphical solution of a'] }
           ] } }
     ],
-    explore: { component: C11_AppliedMathsGraphQuadraticFunctionSim, prompt: 'Explore the interactive — Applied Maths Graph Quadratic Function' },
+    explore: { component: C11_AppliedMathsGraphQuadraticFunctionSim, prompt: 'Explore the interactive — Polynomial Functions: Linear and Quadratic' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_02_007', difficulty: 'standard',
           question: 'A polynomial function is a real-valued function \\( f: \\mathbb{R} \\to \\mathbb{R}.',

@@ -19,7 +19,7 @@ export const c11_eng_w_ch01_p1: SimDef = {
         hook: 'The rowdy passengers are noise on the way up — in a story of character, the climax is a realisation, not a collision.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is the preparatory literary analysis step where students examine the author\'s biography, historical period, cultural setting, literary movement, and key.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Lament\' (Woven Words, ch. 1) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_01_001', title: 'Your mission',
@@ -29,26 +29,26 @@ export const c11_eng_w_ch01_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_01_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re about to watch a foreign film without subtitles — you\'d want to know the country\'s history, the director\'s style, and key cultural references.',
+          caseStudy: { intro: 'Start with the author of \'The Lament\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who was Anton Chekhov, and what two professions did he balance throughout his writing career?', options: [
                 { text: 'Anton Chekhov (1860–1904) was a Russian playwright and short story writer who', outcome: 'Anton Chekhov (1860–1904) was a Russian playwright and short story writer who simultaneously.' },
                 { text: 'he was a full-time writer', outcome: 'Not quite — Students often treat "context" as a list of memorizable facts (dates, birthplaces, definitions).', reveals: 'students-often-treat-context-as' },
                 { text: 'he was a politician', outcome: 'Not quite — Students often treat "context" as a list of memorizable facts (dates, birthplaces, definitions).', reveals: 'students-often-treat-context-as' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_01_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are a detective arriving at a crime scene: you don\'t just see "a mess"—you look for the sequence of events that led to it.',
+          caseStudy: { intro: 'Trace \'The Lament\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'Identify the inciting incident in "The Lament" and state the exact textual moment it occurs.', options: [
                 { text: 'The inciting incident is the officer\'s hail: "Cabby for Viborg Way!" (paragraph 4)', outcome: 'The inciting incident is the officer\'s hail: "Cabby for Viborg Way!" (paragraph 4).' },
                 { text: 'Iona\'s son dying', outcome: 'Not quite — Students often equate "climax" with "the most dramatic or loudest scene" and therefore identify the.', reveals: 'students-often-equate-climax-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_01_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are waiting at a bus stop on a freezing, foggy December evening in Delhi after receiving devastating news.',
+          caseStudy: { intro: 'Identify where and when \'The Lament\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What are the three main elements of setting in a short story, and which element is most emphasized in the opening paragraph of "The Lament"?', options: [
                 { text: 'The three main elements are time, place, and physical environment', outcome: 'The three main elements are time, place, and physical environment.' },
                 { text: 'time and place', outcome: 'Not quite — Students often treat setting as a static "where and when" and atmosphere as a synonym for "theme.".', reveals: 'students-often-treat-setting-as' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_01_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'ve just had the worst day of your life — maybe you failed an exam you studied weeks for, or a close friend betrayed you.',
+          caseStudy: { intro: 'Ask what \'The Lament\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of Anton Chekhov\'s "The Lament" as established by the pattern of Iona\'s interactions with his passengers?', options: [
                 { text: 'The primary theme is the profound alienation and communication breakdown in modern urban', outcome: 'The primary theme is the profound alienation and communication breakdown in modern urban society.' },
                 { text: 'death of a son', outcome: 'Not quite — Students consistently confuse the *subject* (a father grieving his son\'s death) with the *theme*.', reveals: 'students-consistently-confuse-the-subject' }
@@ -72,7 +72,7 @@ export const c11_eng_w_ch01_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_01_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is the preparatory literary analysis.',
+          question: '\'The Lament\' (Woven Words, ch. 1) — the context and background to this text.',
           hint: 'Review Class 10 "The Necklace" (c10_engl_cbse_16_001) — analyze how Maupassant\'s civil.',
           misconception: 'Students often treat "context" as a list of memorizable facts (dates, birthplaces, definitions) rather than.',
           parts: [
@@ -87,18 +87,18 @@ export const c11_eng_w_ch01_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-context-as': { steps: ['Have the student create a two-column chart: LEFT column = contextual fact (e.g., "Chekhov was a doctor"), RIGHT column.', 'Ask: "If Chekhov were a lawyer, how would the hospital scene change?" 3.', 'Require them to rewrite one paragraph of the story inserting a contextual insight as a marginal gloss.', 'Debrief: "Context isn\'t what you know — it\'s what the text makes you see."'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_01_002', difficulty: 'standard',
-          question: 'Plot is the sequence of causally connected events that form the narrative arc.',
+          question: 'The plot/narrative arc of \'The Lament\' — what happens, in what order, and why.',
           hint: 'If stuck, review the "Introduction" section of the NCERT textbook (page 1-2) which.',
           misconception: 'Students often equate "climax" with "the most dramatic or loudest scene" and therefore identify the argument with the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot is the sequence of causally connected events that form the narrative arc of a story,',
-                  options: ['Plot is the sequence of causally connected events that form the narrative arc of a story,', '"Before You Read: Context and Background" is the preparatory literary analysis step where', 'Setting refers to the time, place, and physical environment in', 'Character analysis of a protagonist involves examining the central character\'s physical'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The plot/narrative arc of \'The Lament\'',
+                  options: ['The plot/narrative arc of \'The Lament\'', '\'The Lament\' (Woven Words, ch', 'The setting of \'The Lament\'', 'Character analysis in \'The Lament\''],
                   hint: 'If stuck, review the "Introduction" section of the NCERT textbook (page 1-2) which explicitly.',
                   misconception: 'Students often equate "climax" with "the most dramatic or loudest scene" and therefore identify the argument with the three young men.' }
           ],
             remediations: { 'students-often-equate-climax-with': { steps: ['Have the student re-read only the paragraphs from "Once more he is alone..." to "Iona sees a hall porter..." and.', 'Ask: "Which of these verbs marks the moment he stops *hoping* for a human listener and *acts* on his own?" (The tug.', 'Explain: That decision—triggered by the realization that *no one will listen*—is the structural climax.', 'The young men were the last *hope*; the hall porter is the *confirmation* of hopelessness.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_01_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and physical environment in which a story.',
+          question: 'The setting of \'The Lament\' — the place, time and atmosphere the text creates.',
           hint: 'Review descriptive writing techniques from Class 10 (node c10_engl_cbse_05_003 "Coorg.',
           misconception: 'Students often treat setting as a static "where and when" and atmosphere as a synonym for "theme." They write: "The.',
           parts: [
@@ -120,7 +120,7 @@ export const c11_eng_w_ch01_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-setting-as': { steps: ['Have the student re-read only the first paragraph and underline every sensory word (visual, tactile, auditory).', 'Ask: "If you were filming this, what would the camera show?', 'What would the sound designer add?" 3.', 'Then ask: "How does each detail make you *feel*?" 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_01_004', difficulty: 'standard',
-          question: 'Character analysis of a protagonist involves examining the central character\'s.',
+          question: 'Character analysis in \'The Lament\' — the central figure(s), their traits, and.',
           hint: 'If stuck, review *indirect characterization techniques* using the Class 9 node.',
           misconception: 'Students often treat Iona\'s grief as a *static condition* ("he is sad because his son died") rather than a *dynamic.',
           parts: [
@@ -131,7 +131,7 @@ export const c11_eng_w_ch01_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-iona-s': { steps: ['If a student writes a static character sketch, do this 3-step remediation: 1.', '**Timeline mapping**: Have them draw a 4-column timeline: Opening → Officer encounter → Young men encounter → Hall.', 'In each column, write: Physical posture, Speech attempt, Response received, Internal shift (quote evidence).', '**Language evolution chart**: List Iona\'s 6 utterances in order.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_01_005', difficulty: 'standard',
-          question: 'Supporting characters in "The Lament" are the secondary figures (the officer.',
+          question: 'Supporting characters in \'The Lament\' — the secondary figures who move the.',
           hint: 'If stuck, re-read the three passenger encounters (officer, three young men, hall porter).',
           misconception: 'Students often treat supporting characters as "minor" and therefore unimportant, writing them off as plot devices.',
           parts: [
@@ -146,7 +146,7 @@ export const c11_eng_w_ch01_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-supporting-characters': { steps: ['If a student cannot distinguish the escalating pattern of indifference: 1) Have them create a three-column table.', '2) Ask them to rank the responses from "most human" to "least human." 3) Guide them to see the officer offers words but.', '4) Then ask: "Why does Chekhov order them this way?" This makes the structural intent visible.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_01_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
+          question: 'The primary theme of \'The Lament\' — the central idea the whole text returns to.',
           hint: 'If stuck, review the "episodic structure" in c11_eng_w_cbse_01_002 — specifically, map.',
           misconception: 'Students consistently confuse the *subject* (a father grieving his son\'s death) with the *theme* (societal alienation.',
           parts: [

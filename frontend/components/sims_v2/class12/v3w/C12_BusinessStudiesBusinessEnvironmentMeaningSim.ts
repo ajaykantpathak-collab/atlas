@@ -6,13 +6,13 @@ import C12_BusinessStudiesBusinessEnvironmentMeaningSim from '../../../simulatio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_businessstudiesbusinessenvironmentmeaningsim: SimDef = {
     id: 'v3w_c12_businessstudiesbusinessenvironmentmeaningsim',
-    title: 'Business Environment Meaning',
+    title: 'Business Environment: Meaning, Characteristics and Importance',
     subtitle: 'This node covers the meaning, seven characteristics (totality, specific/general forces,.',
     classLevel: 12, subject: 'business_studies', topic: 'Business Environment: Meaning, Characteristics and Importance',
     chapters: [],
     nodeIds: ['c12_bs_cbse_03_001', 'c12_bs_cbse_03_005', 'c12_bs_cbse_03_006', 'c12_bs_cbse_11_007', 'c12_bs_cbse_02_001', 'c12_bs_cbse_03_002', 'c12_bs_cbse_03_003', 'c12_bs_cbse_03_004', 'c12_bs_cbse_03_009', 'c12_bs_cbse_03_010', 'c12_bs_cbse_06_008', 'c12_bs_cbse_01_005', 'c12_bs_cbse_02_008', 'c12_bs_cbse_04_009', 'c12_bs_cbse_08_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you run a small cloud-kitchen selling millet-based snacks.', goal: 'Master Business Environment Meaning.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you run a small cloud-kitchen selling millet-based snacks.', goal: 'Master Business Environment: Meaning, Characteristics and Importance.' },
     discovery: {
         question: 'A student writes: "Specific forces affect all firms equally, while general forces affect only one firm." Explain why this statement is incorrect and give one.',
         options: ['The student has reversed the definitions', 'dimensions of business environment', 'characteristics of business environment'],
@@ -80,7 +80,7 @@ export const w_c12_businessstudiesbusinessenvironmentmeaningsim: SimDef = {
             { text: 'Summarise: No single dimension tells the full story; strategic pricing must weigh all five simultaneously.', faded: true, blankAnswer: 'Primary mapping: (i) Political, (ii) Legal & Economic,.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bs_cbse_03_005', title: 'Identify each idea',
-          dissect: { specimen: 'Business Environment Meaning', spots: [
+          dissect: { specimen: 'Business Environment: Meaning, Characteristics and Importance', spots: [
             { id: 's1', label: 'Business environment refers to the', prompt: 'Which idea is this? — Business environment refers to the sum total of all external individuals, institutions,.', answer: 'Business environment refers to the', options: ['Business environment refers to the', 'The technological environment comprises forces', 'The political environment refers to', 'Channels of distribution refer to'] },
             { id: 's2', label: 'The technological environment comprises forces', prompt: 'Which idea is this? — The technological environment comprises forces relating to scientific improvements and.', answer: 'The technological environment comprises forces', options: ['The technological environment comprises forces', 'Business environment refers to the', 'The political environment refers to', 'Channels of distribution refer to'] },
             { id: 's3', label: 'The political environment refers to', prompt: 'Which idea is this? — The political environment refers to the political conditions such as the stability of the.', answer: 'The political environment refers to', options: ['The political environment refers to', 'Business environment refers to the', 'The technological environment comprises forces', 'Channels of distribution refer to'] },
@@ -89,7 +89,7 @@ export const w_c12_businessstudiesbusinessenvironmentmeaningsim: SimDef = {
             { id: 's6', label: 'The elements of business environment', prompt: 'Which idea is this? — The elements of business environment refer to the five broad external.', answer: 'The elements of business environment', options: ['The elements of business environment', 'Business environment refers to the', 'The technological environment comprises forces', 'The political environment refers to'] }
           ] } }
     ],
-    explore: { component: C12_BusinessStudiesBusinessEnvironmentMeaningSim, prompt: 'Explore the interactive — Business Environment Meaning' },
+    explore: { component: C12_BusinessStudiesBusinessEnvironmentMeaningSim, prompt: 'Explore the interactive — Business Environment: Meaning, Characteristics and Importance' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bs_cbse_03_001', difficulty: 'standard',
           question: 'Business environment refers to the sum total of all external individuals,.',

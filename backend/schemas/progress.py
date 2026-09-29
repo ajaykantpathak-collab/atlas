@@ -1,4 +1,5 @@
 from typing import List, Optional
+from datetime import datetime
 
 from pydantic import BaseModel, ConfigDict, Field
 from pydantic.alias_generators import to_camel
@@ -18,7 +19,12 @@ class MasteryRecordSchema(BaseModel):
     mastery_probability: float = 0.0
     p_known: float = 0.0
     attempts: int = 0
-    last_attempt_at: Optional[str] = None
+    # BUGFIX (pillar-6, round 2): the ORM column is a DateTime; declaring this
+    # as ``str`` made model_validate(orm_row) raise for any user with a real
+    # attempt (500 on GET /api/progress/mastery/{node_id} and the batch
+    # variant). Pydantic serializes datetime to the same ISO-8601 JSON string,
+    # so the wire contract is unchanged.
+    last_attempt_at: Optional[datetime] = None
 
 
 class SubjectMasterySchema(BaseModel):

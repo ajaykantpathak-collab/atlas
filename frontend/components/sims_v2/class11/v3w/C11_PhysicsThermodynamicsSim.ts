@@ -6,13 +6,13 @@ import C11_PhysicsThermodynamicsSim from '../../../simulations/c6_12/C11_Physics
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsthermodynamicssim: SimDef = {
     id: 'v3w_c11_physicsthermodynamicssim',
-    title: 'Thermodynamics',
+    title: 'Thermodynamic System and Surroundings',
     subtitle: 'This node covers the definitions of system, surroundings, boundary, and the three types.',
     classLevel: 11, subject: 'physics', topic: 'Thermodynamic System and Surroundings',
     chapters: [],
     nodeIds: ['c11_phy_cbse_11_001', 'c11_phy_cbse_11_002', 'c11_phy_cbse_11_003', 'c11_phy_cbse_11_004', 'c11_phy_cbse_11_007', 'c11_phy_cbse_11_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a pressure cooker on a stove: the water and steam inside constitute the **system**, the metal pot is.', goal: 'Master Thermodynamics.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a pressure cooker on a stove: the water and steam inside constitute the **system**, the metal pot is.', goal: 'Master Thermodynamic System and Surroundings.' },
     discovery: {
         question: 'A student claims: "The human body is an isolated system because it maintains a constant temperature of 37°C." Evaluate this statement.',
         options: ['The claim is false', 'constant temperature', 'no energy/matter exchange'],
@@ -79,7 +79,7 @@ export const w_c11_physicsthermodynamicssim: SimDef = {
             { text: 'Work done ON gas W_on = n C_v (T_f - T_i) = n (R/(γ-1)) (T_f - T_i) = 0.02006 × (8.31/0.4) × (753.6 - 300) = 0.02006 ×.', faded: true, blankAnswer: '(a) T_f = 754 K, (b) P_f = 2.51 × 10⁶ Pa, (c) W_on = 189 J.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_11_002', title: 'Identify each idea',
-          dissect: { specimen: 'Thermodynamics', spots: [
+          dissect: { specimen: 'Thermodynamic System and Surroundings', spots: [
             { id: 's1', label: 'A thermodynamic system is a', prompt: 'Which idea is this? — A thermodynamic system is a specific portion of the universe (a definite quantity of.', answer: 'A thermodynamic system is a', options: ['A thermodynamic system is a', 'The Zeroth Law of Thermodynamics', 'The First Law of Thermodynamics', 'Work done in an isothermal'] },
             { id: 's2', label: 'The Zeroth Law of Thermodynamics', prompt: 'Which idea is this? — The Zeroth Law of Thermodynamics states that if two thermodynamic systems are each in.', answer: 'The Zeroth Law of Thermodynamics', options: ['The Zeroth Law of Thermodynamics', 'A thermodynamic system is a', 'The First Law of Thermodynamics', 'Work done in an isothermal'] },
             { id: 's3', label: 'The First Law of Thermodynamics', prompt: 'Which idea is this? — The First Law of Thermodynamics states that the heat energy (ΔQ) supplied to a.', answer: 'The First Law of Thermodynamics', options: ['The First Law of Thermodynamics', 'A thermodynamic system is a', 'The Zeroth Law of Thermodynamics', 'Work done in an isothermal'] },
@@ -88,7 +88,7 @@ export const w_c11_physicsthermodynamicssim: SimDef = {
             { id: 's6', label: 'An isothermal process is a', prompt: 'Which idea is this? — An isothermal process is a thermodynamic process in which the temperature of the system.', answer: 'An isothermal process is a', options: ['An isothermal process is a', 'A thermodynamic system is a', 'The Zeroth Law of Thermodynamics', 'The First Law of Thermodynamics'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsThermodynamicsSim, prompt: 'Explore the interactive — Thermodynamics' },
+    explore: { component: C11_PhysicsThermodynamicsSim, prompt: 'Explore the interactive — Thermodynamic System and Surroundings' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_11_001', difficulty: 'standard',
           question: 'A thermodynamic system is a specific portion of the universe (a definite.',

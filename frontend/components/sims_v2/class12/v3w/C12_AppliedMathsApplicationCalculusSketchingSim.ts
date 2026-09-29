@@ -6,13 +6,13 @@ import C12_AppliedMathsApplicationCalculusSketchingSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_appliedmathsapplicationcalculussketchingsim: SimDef = {
     id: 'v3w_c12_appliedmathsapplicationcalculussketchingsim',
-    title: 'Applied Maths Application Calculus Sketching',
+    title: 'Word Problems: Area Applications',
     subtitle: 'Covers word problems that reduce to finding the area bounded by standard curves (lines,.',
     classLevel: 12, subject: 'science', topic: 'Word Problems: Area Applications',
     chapters: [],
     nodeIds: ['c12_math_cbse_08_006', 'c12_math_cbse_06_008', 'c12_math_cbse_07_008', 'c12_math_cbse_07_009', 'c12_math_cbse_07_010', 'c12_math_cbse_06_007', 'c12_math_cbse_08_003', 'c12_math_cbse_08_005', 'c12_math_cbse_02_007', 'c12_math_cbse_02_008', 'c12_math_cbse_10_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a farmer in Punjab owns a field whose boundary is a river shaped like the parabola \\( y = x^2 \\) and.', goal: 'Master Applied Maths Application Calculus Sketching.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a farmer in Punjab owns a field whose boundary is a river shaped like the parabola \\( y = x^2 \\) and.', goal: 'Master Word Problems: Area Applications.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Word problems on area applications involve.', text: 'Word problems on area applications involve translating real-world scenarios (such as land area, cross‑sectional area, or region bounded by curves and lines) into a definite integral setup, evaluating.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -73,7 +73,7 @@ export const w_c12_appliedmathsapplicationcalculussketchingsim: SimDef = {
             { text: 'Check endpoints for absolute maximum: V(0) = 0, V(3) = 3 × 12² = 432 cm³, V(9) = 0.', faded: true, blankAnswer: 'Cut squares of side 3 cm. Maximum volume = 432 cm³.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_06_008', title: 'Identify each idea',
-          dissect: { specimen: 'Applied Maths Application Calculus Sketching', spots: [
+          dissect: { specimen: 'Word Problems: Area Applications', spots: [
             { id: 's1', label: 'Word problems on area applications', prompt: 'Which idea is this? — Word problems on area applications involve translating real-world scenarios (such as land.', answer: 'Word problems on area applications', options: ['Word problems on area applications', 'A critical point of a', 'The Fundamental Theorem of Calculus', 'The Second Fundamental Theorem of'] },
             { id: 's2', label: 'A critical point of a', prompt: 'Which idea is this? — A **critical point** of a function \\( f(x) \\) is a point \\( x = c \\) in the domain of \\(.', answer: 'A critical point of a', options: ['A critical point of a', 'Word problems on area applications', 'The Fundamental Theorem of Calculus', 'The Second Fundamental Theorem of'] },
             { id: 's3', label: 'The Fundamental Theorem of Calculus', prompt: 'Which idea is this? — The Fundamental Theorem of Calculus (Part 1) states that if \\( f \\) is a continuous.', answer: 'The Fundamental Theorem of Calculus', options: ['The Fundamental Theorem of Calculus', 'Word problems on area applications', 'A critical point of a', 'The Second Fundamental Theorem of'] },
@@ -82,7 +82,7 @@ export const w_c12_appliedmathsapplicationcalculussketchingsim: SimDef = {
             { id: 's6', label: 'Word problems on maxima and', prompt: 'Which idea is this? — Word problems on maxima and minima involve translating a real-world situation into a.', answer: 'Word problems on maxima and', options: ['Word problems on maxima and', 'Word problems on area applications', 'A critical point of a', 'The Fundamental Theorem of Calculus'] }
           ] } }
     ],
-    explore: { component: C12_AppliedMathsApplicationCalculusSketchingSim, prompt: 'Explore the interactive — Applied Maths Application Calculus Sketching' },
+    explore: { component: C12_AppliedMathsApplicationCalculusSketchingSim, prompt: 'Explore the interactive — Word Problems: Area Applications' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_08_006', difficulty: 'standard',
           question: 'Word problems on area applications involve translating real-world scenarios.',

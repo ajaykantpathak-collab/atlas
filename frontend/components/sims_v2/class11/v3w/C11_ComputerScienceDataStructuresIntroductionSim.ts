@@ -6,13 +6,13 @@ import C11_ComputerScienceDataStructuresIntroductionSim from '../../../simulatio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_computersciencedatastructuresintroductionsim: SimDef = {
     id: 'v3w_c11_computersciencedatastructuresintroductionsim',
-    title: 'Data Structures Introduction',
+    title: 'Introduction to Data Structures',
     subtitle: 'This node covers the conceptual foundation of data structures: definition, need,.',
     classLevel: 11, subject: 'computer_science', topic: 'Introduction to Data Structures',
     chapters: [],
     nodeIds: ['c11_cs_cbse_10_001', 'c11_cs_cbse_10_002', 'c11_cs_cbse_10_003', 'c11_cs_cbse_10_004', 'c11_cs_cbse_10_009', 'c11_cs_cbse_10_012', 'c11_cs_cbse_10_013', 'c11_cs_cbse_10_014', 'c11_cs_cbse_01_002', 'c11_cs_cbse_01_005', 'c11_cs_cbse_03_001', 'c11_cs_cbse_03_004', 'c11_cs_cbse_11_003', 'c11_cs_cbse_11_009', 'c11_cs_cbse_09_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are building a music playlist app: you need to add songs, play the most recently added song first.', goal: 'Master Data Structures Introduction.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are building a music playlist app: you need to add songs, play the most recently added song first.', goal: 'Master Introduction to Data Structures.' },
     discovery: {
         question: 'A school wants to maintain a record of students waiting to see the principal. Students join the line at the end and are called from the front.',
         options: ['Queue models this situation', 'last added served first', 'push/pop'],
@@ -93,7 +93,7 @@ export const w_c11_computersciencedatastructuresintroductionsim: SimDef = {
             { text: 'Test trace: add "Rahul" → deque([\'Rahul\']); add "Priya" → deque([\'Rahul\', \'Priya\']); add "Amit" → deque([\'Rahul\',.', faded: true, blankAnswer: '```python' }
             ] } },
         { type: 'dissect', nodeId: 'c11_cs_cbse_10_002', title: 'Identify each idea',
-          dissect: { specimen: 'Data Structures Introduction', spots: [
+          dissect: { specimen: 'Introduction to Data Structures', spots: [
             { id: 's1', label: 'A data structure is a', prompt: 'Which idea is this? — A data structure is a specialized format for organizing, processing, retrieving, and.', answer: 'A data structure is a', options: ['A data structure is a', 'A stack is a linear', 'Stack operations Push and Pop', 'Implementation of Stack Using List'] },
             { id: 's2', label: 'A stack is a linear', prompt: 'Which idea is this? — A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle,.', answer: 'A stack is a linear', options: ['A stack is a linear', 'A data structure is a', 'Stack operations Push and Pop', 'Implementation of Stack Using List'] },
             { id: 's3', label: 'Stack operations Push and Pop', prompt: 'Which idea is this? — Stack operations **Push** and **Pop** are the fundamental insertion and deletion.', answer: 'Stack operations Push and Pop', options: ['Stack operations Push and Pop', 'A data structure is a', 'A stack is a linear', 'Implementation of Stack Using List'] },
@@ -102,7 +102,7 @@ export const w_c11_computersciencedatastructuresintroductionsim: SimDef = {
             { id: 's6', label: 'A queue implemented using collectionsdeque', prompt: 'Which idea is this? — A queue implemented using `collections.deque` leverages a double-ended queue data.', answer: 'A queue implemented using collectionsdeque', options: ['A queue implemented using collectionsdeque', 'A data structure is a', 'A stack is a linear', 'Stack operations Push and Pop'] }
           ] } }
     ],
-    explore: { component: C11_ComputerScienceDataStructuresIntroductionSim, prompt: 'Explore the interactive — Data Structures Introduction' },
+    explore: { component: C11_ComputerScienceDataStructuresIntroductionSim, prompt: 'Explore the interactive — Introduction to Data Structures' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_cs_cbse_10_001', difficulty: 'standard',
           question: 'A data structure is a specialized format for organizing, processing,.',

@@ -19,52 +19,52 @@ export const c11_eng_s_ch05_p2: SimDef = {
         hook: 'The blame chain isn\'t random — each defence narrows the target until the king\'s own rule turns the noose on him.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas or messages in a literary work that support, complicate, or run parallel to the primary theme.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Tale of Melon City\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_s_cbse_05_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Trace the blame chain from builders to king, check whether the poem opens in medias res, and weigh whether the melon on the throne is earned or arbitrary.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_05_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine your school introduces a new rule: "The first student to enter the gate on Monday becomes Principal for the week." Most students would laugh, but what.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Tale of Melon City\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a \'secondary theme\' in literature, and how does it differ from the \'primary theme\'?', options: [
                 { text: 'A secondary theme is a subordinate idea that supports or runs parallel to the main', outcome: 'A secondary theme is a subordinate idea that supports or runs parallel to the main central message.' },
                 { text: 'it\'s just a less important theme', outcome: 'Not quite — Students often confuse **secondary themes** with **literary devices** (e.g., listing "irony" as.', reveals: 'students-often-confuse-secondary-themes' },
                 { text: 'as a theme) or treat them as **minor plot points** (e.g', outcome: 'Not quite — Students often confuse **secondary themes** with **literary devices** (e.g., listing "irony" as.', reveals: 'students-often-confuse-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_05_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are describing a chaotic traffic junction to a friend: you don\'t just say "it was busy"; you say "honking horns stabbed the air" (auditory imagery.',
+          caseStudy: { intro: 'Find the lines in \'The Tale of Melon City\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "metaphor" precisely using the terms "tenor" and "vehicle", and give one example from the poem where an abstract concept is the.', options: [
                 { text: 'A metaphor asserts that the tenor (subject, e.g., "justice") *is* the vehicle (image,', outcome: 'A metaphor asserts that the tenor (subject, e.g., "justice") *is* the vehicle (image, e.g., "a.' },
                 { text: 'metaphor uses like or as', outcome: 'Not quite — Students often treat *any* descriptive adjective as imagery (e.g., calling "just and placid".', reveals: 'students-often-treat-any-descriptive' },
                 { text: 'tenor/vehicle', outcome: 'Not quite — Students often treat *any* descriptive adjective as imagery (e.g., calling "just and placid".', reveals: 'students-often-treat-any-descriptive' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_05_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you\'re watching a courtroom drama where the judge, trying to be perfectly fair, ends up sentencing himself to death because his own rules trap him.',
+          caseStudy: { intro: 'Look in \'The Tale of Melon City\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define situational irony and give one example from "The Tale of Melon City" where the outcome is the opposite of what was intended.', options: [
                 { text: 'Situational irony occurs when the actual outcome of a situation is starkly different from', outcome: 'Situational irony occurs when the actual outcome of a situation is starkly different from what was.' },
                 { text: 'the king is funny', outcome: 'Not quite — Students often confuse irony with mere coincidence or bad luck.', reveals: 'students-often-confuse-irony-with' },
                 { text: 'the arch is too low', outcome: 'Not quite — Students often confuse irony with mere coincidence or bad luck.', reveals: 'students-often-confuse-irony-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_05_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading the poem and stumble on the phrase "just and placid King" – does "placid" mean calm or foolishly passive?',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Tale of Melon City\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the primary strategy for determining the meaning of an unfamiliar word in a literary text without using a dictionary?', options: [
                 { text: 'The primary strategy is to use context clues—such as surrounding words, tone, syntax, and', outcome: 'The primary strategy is to use context clues—such as surrounding words, tone, syntax, and the.' },
                 { text: 'guess from the first letter', outcome: 'Not quite — Students often think "vocabulary in context" means finding a dictionary definition that fits the.', reveals: 'vocabulary-in-context-means-finding' },
                 { text: 'skip the word', outcome: 'Not quite — Students often think "vocabulary in context" means finding a dictionary definition that fits the.', reveals: 'vocabulary-in-context-means-finding' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_05_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading the poem aloud and stumble over "The King said, \'This is a disgrace.',
+          caseStudy: { intro: 'Read \'The Tale of Melon City\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the grammatical voice used in the line "The arch was built too low" and name the tense.', options: [
                 { text: 'The line uses passive voice in the simple past tense ("was built")', outcome: 'The line uses passive voice in the simple past tense ("was built").' },
                 { text: 'active voice', outcome: 'Not quite — Students often treat grammar in poetry as "just the way poems talk" and fail to see that Seth.', reveals: 'students-often-treat-grammar-in' },
                 { text: 'past perfect', outcome: 'Not quite — Students often treat grammar in poetry as "just the way poems talk" and fail to see that Seth.', reveals: 'students-often-treat-grammar-in' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_05_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are reading a WhatsApp forward about a bizarre law passed in a kingdom — you first note exactly what the message says (literal), then you wonder.',
+          caseStudy: { intro: 'Answer \'The Tale of Melon City\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the defining difference between a literal comprehension question and an inferential comprehension question?', options: [
                 { text: 'A literal question\'s answer is directly stated in the text and can be quoted', outcome: 'A literal question\'s answer is directly stated in the text and can be quoted; an inferential.' },
                 { text: 'literal means easy, inferential means hard', outcome: 'Not quite — Students treat inferential questions as "opinion questions" and write answers based on personal.', reveals: 'students-treat-inferential-questions-as' },
@@ -84,21 +84,21 @@ export const c11_eng_s_ch05_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_05_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas or messages in a literary work that.',
+          question: 'Secondary themes in \'The Tale of Melon City\' — the supporting ideas and motifs.',
           hint: 'If stuck, review c11_eng_s_cbse_05_006 (Primary Theme) and c11_eng_s_cbse_05_002 (Plot).',
           misconception: 'Students often confuse **secondary themes** with **literary devices** (e.g., listing "irony" as a theme) or treat them.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the underlying ideas or messages in a literary work that support,',
-                  options: ['Secondary themes are the underlying ideas or messages in a literary work that support,', '"Before You Read: Context and Background" refers to the preliminary study of a text\'s', 'Plot and narrative structure refer to the organized sequence of events in a story and the', 'Setting in a narrative poem refers to the time, place, and social environment where the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes in \'The Tale of Melon City\'',
+                  options: ['Secondary themes in \'The Tale of Melon City\'', '\'The Tale of Melon City\' (Snapshots, ch', 'The plot/narrative arc of \'The Tale of Melon City\'', 'The setting of \'The Tale of Melon City\''],
                   hint: 'If stuck, review c11_eng_s_cbse_05_006 (Primary Theme) and c11_eng_s_cbse_05_002 (Plot).',
                   misconception: 'Students often confuse **secondary themes** with **literary devices** (e.g., listing "irony" as a theme) or treat them as **minor plot.' }
           ],
-            remediations: { 'students-often-confuse-secondary-themes': { steps: ['Ask the student to write the primary theme as a full sentence.', 'Have them list 3 groups in the poem (King, Ministers, Crowd, Architect, Wise Man).', 'For each group, ask: "What does this group *want*?', 'What *rule* do they follow?" 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-secondary-themes': { steps: ['Ask the student to write the primary theme as a full sentence.', 'Have them list 3 groups in the poem (King, Ministers, Crowd, Architect, Wise Man).', 'For each group, ask: "What does this group *want*?', 'What *rule* do they follow?" 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_05_007', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -113,9 +113,9 @@ export const c11_eng_s_ch05_p2: SimDef = {
                   hint: 'If stuck, review c11_eng_s_cbse_05_006 (Primary Theme) and c11_eng_s_cbse_05_002 (Plot).',
                   misconception: 'Students often confuse **secondary themes** with **literary devices** (e.g., listing "irony" as a theme) or treat them as **minor plot.' }
           ],
-            remediations: { 'students-often-confuse-secondary-themes': { steps: ['Ask the student to write the primary theme as a full sentence.', 'Have them list 3 groups in the poem (King, Ministers, Crowd, Architect, Wise Man).', 'For each group, ask: "What does this group *want*?', 'What *rule* do they follow?" 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-secondary-themes': { steps: ['Ask the student to write the primary theme as a full sentence.', 'Have them list 3 groups in the poem (King, Ministers, Crowd, Architect, Wise Man).', 'For each group, ask: "What does this group *want*?', 'What *rule* do they follow?" 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_05_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'The Tale of Melon City\' — the vivid, sensory language that creates.',
           hint: 'If stuck, review the "Poetic Devices" nodes from Class 6 (c6_english_u1_005.',
           misconception: 'Students often treat *any* descriptive adjective as imagery (e.g., calling "just and placid" imagery) and think.',
           parts: [
@@ -124,9 +124,9 @@ export const c11_eng_s_ch05_p2: SimDef = {
                   hint: 'If stuck, review the "Poetic Devices" nodes from Class 6 (c6_english_u1_005, c6_english_u4_035) for.',
                   misconception: 'Students often treat *any* descriptive adjective as imagery (e.g., calling "just and placid" imagery) and think metaphor *only* exists when.' }
           ],
-            remediations: { 'students-often-treat-any-descriptive': { steps: ['Re-read the poem *only* for sensory verbs/nouns: highlight every word implying sight, sound, touch, movement.', 'Make a two-column table: Column A = Abstract Concept (Justice, Wisdom, Authority, Law), Column B = Physical.', 'For each arrow, write one sentence: "Seth makes [Concept] tangible as [Object] to show [Satirical Point]." 4.', 'Practice explaining *why* "quivering" is kinesthetic imagery but "old" is not imagery at all.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-any-descriptive': { steps: ['Re-read the poem *only* for sensory verbs/nouns: highlight every word implying sight, sound, touch, movement.', 'Make a two-column table: Column A = Abstract Concept (Justice, Wisdom, Authority, Law), Column B = Physical.', 'For each arrow, write one sentence: "Seth makes [Concept] tangible as [Object] to show [Satirical Point]." 4.', 'Practice explaining *why* "quivering" is kinesthetic imagery but "old" is not imagery at all.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_05_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'The Tale of Melon City\' — where opposite things are both.',
           hint: 'Review the plot flowchart from c11_eng_s_cbse_05_002 and the King\'s character traits from.',
           misconception: 'Students often confuse irony with mere coincidence or bad luck.',
           parts: [
@@ -139,9 +139,9 @@ export const c11_eng_s_ch05_p2: SimDef = {
                   hint: 'Review the plot flowchart from c11_eng_s_cbse_05_002 and the King\'s character traits from.',
                   misconception: 'Students often confuse irony with mere coincidence or bad luck.' }
           ],
-            remediations: { 'students-often-confuse-irony-with': { steps: ['If a student cannot distinguish irony types, use a three-column table: Column 1 = What is expected/intended (King wants.', 'For symbolism, have them complete: "The [object] stands for [abstract idea] because [textual evidence]." Practice with.', 'Repeat until they can fill all three columns for each device without prompting.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-irony-with': { steps: ['If a student cannot distinguish irony types, use a three-column table: Column 1 = What is expected/intended (King wants.', 'For symbolism, have them complete: "The [object] stands for [abstract idea] because [textual evidence]." Practice with.', 'Repeat until they can fill all three columns for each device without prompting.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_05_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the meaning, tone, and.',
+          question: 'Key vocabulary of \'The Tale of Melon City\' — the words and phrases you must.',
           hint: 'If stuck, review the Irony and Symbolism node (c11_eng_s_cbse_05_009) to refresh how tone.',
           misconception: 'Students often think "vocabulary in context" means finding a dictionary definition that fits the sentence.',
           parts: [
@@ -150,9 +150,9 @@ export const c11_eng_s_ch05_p2: SimDef = {
                   hint: 'If stuck, review the Irony and Symbolism node (c11_eng_s_cbse_05_009) to refresh how tone shifts.',
                   misconception: 'Students often think "vocabulary in context" means finding a dictionary definition that fits the sentence.' }
           ],
-            remediations: { 'vocabulary-in-context-means-finding': { steps: ['Have the student re-read only the stanzas containing the target word, ignoring the rest of the poem.', 'Ask: "What is happening right before and after this word?', 'Guide them to list three context clues (tone, action, consequence).', 'Then ask: "If you replace the word with \'calm\' / \'fair\' / \'order\', does the irony disappear?" 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'vocabulary-in-context-means-finding': { steps: ['Have the student re-read only the stanzas containing the target word, ignoring the rest of the poem.', 'Ask: "What is happening right before and after this word?', 'Guide them to list three context clues (tone, action, consequence).', 'Then ask: "If you replace the word with \'calm\' / \'fair\' / \'order\', does the irony disappear?" 5.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_05_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the systematic analysis.',
+          question: 'Language and style in \'The Tale of Melon City\' — how the writer chose words.',
           hint: 'Review passive voice transformation rules (Class 6 node c6_english_u5_048) and reported.',
           misconception: 'Students often treat grammar in poetry as "just the way poems talk" and fail to see that Seth deliberately chooses.',
           parts: [
@@ -161,9 +161,9 @@ export const c11_eng_s_ch05_p2: SimDef = {
                   hint: 'Review passive voice transformation rules (Class 6 node c6_english_u5_048) and reported speech.',
                   misconception: 'Students often treat grammar in poetry as "just the way poems talk" and fail to see that Seth deliberately chooses passive voice, archaic.' }
           ],
-            remediations: { 'students-often-treat-grammar-in': { steps: ['Give the student three short extracts from the poem: one passive, one active imperative, one fragment.', 'Ask them to label voice and sentence type.', 'Provide a modern bureaucratic sentence ("The form must be submitted by 5 p.m.") and ask them to rewrite it in active.', 'Have them read the two versions aloud and discuss which sounds more "official" and why.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-grammar-in': { steps: ['Give the student three short extracts from the poem: one passive, one active imperative, one fragment.', 'Ask them to label voice and sentence type.', 'Provide a modern bureaucratic sentence ("The form must be submitted by 5 p.m.") and ask them to rewrite it in active.', 'Have them read the two versions aloud and discuss which sounds more "official" and why.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_05_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'The Tale of Melon City\' — questions answered straight.',
           hint: 'If stuck, review the plot summary (c11_eng_s_cbse_05_002) and character analysis of the.',
           misconception: 'Students treat inferential questions as "opinion questions" and write answers based on personal feelings ("I think the.',
           parts: [
@@ -180,7 +180,7 @@ export const c11_eng_s_ch05_p2: SimDef = {
                   hint: 'If stuck, review the plot summary (c11_eng_s_cbse_05_002) and character analysis of the King.',
                   misconception: 'Students treat inferential questions as "opinion questions" and write answers based on personal feelings ("I think the King was stupid").' }
           ],
-            remediations: { 'students-treat-inferential-questions-as': { steps: ['Give the student a two-column table: Column A = literal questions from the poem, Column B = inferential questions.', 'Ask them to sort 10 mixed questions.', 'For each inferential question, require them to fill a three-row template: Clue 1 (quote), Clue 2 (quote), Logical.', 'Practice with a think-aloud: teacher models inferring the King\'s irony using the "just and placid" label, then student.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-inferential-questions-as': { steps: ['Give the student a two-column table: Column A = literal questions from the poem, Column B = inferential questions.', 'Ask them to sort 10 mixed questions.', 'For each inferential question, require them to fill a three-row template: Clue 1 (quote), Clue 2 (quote), Logical.', 'Practice with a think-aloud: teacher models inferring the King\'s irony using the "just and placid" label, then student.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

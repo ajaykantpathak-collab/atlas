@@ -6,13 +6,13 @@ import C12_HomeSciencePrinciplesMethodsCookingSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_homescienceprinciplesmethodscookingsim: SimDef = {
     id: 'v3w_c12_homescienceprinciplesmethodscookingsim',
-    title: 'Home Science Principles Methods Cooking',
+    title: 'Food Processing: Objectives, Methods and Preservation Techniques',
     subtitle: 'This node covers objectives of food processing (safety, shelf-life extension, nutrient.',
     classLevel: 12, subject: 'science', topic: 'Food Processing: Objectives, Methods and Preservation Techniques',
     chapters: [],
     nodeIds: ['c12_hs_cbse_02_010', 'c12_hs_cbse_09_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you buy fresh tomatoes from the market — within 3 days they turn mushy and mouldy, but a bottle of.', goal: 'Master Home Science Principles Methods Cooking.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you buy fresh tomatoes from the market — within 3 days they turn mushy and mouldy, but a bottle of.', goal: 'Master Food Processing: Objectives, Methods and Preservation Techniques.' },
     discovery: {
         question: 'List the three main objectives of food processing and give one example of a product for each objective where that objective is the PRIMARY driver.',
         options: ['The three main objectives are: (1) Safety', 'nutrient retention', 'processed food = unhealthy'],
@@ -40,7 +40,7 @@ export const w_c12_homescienceprinciplesmethodscookingsim: SimDef = {
             { text: 'Compare: 7.7 g > 2.8 g allowance. Breakfast alone exceeds daily SFA limit.', faded: true, blankAnswer: 'Total fat target 45 g/day, SFA <14 g/day (<2.8 g/meal),.' }
             ] } }
     ],
-    explore: { component: C12_HomeSciencePrinciplesMethodsCookingSim, prompt: 'Explore the interactive — Home Science Principles Methods Cooking' },
+    explore: { component: C12_HomeSciencePrinciplesMethodsCookingSim, prompt: 'Explore the interactive — Food Processing: Objectives, Methods and Preservation Techniques' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hs_cbse_02_010', difficulty: 'standard',
           question: 'Food processing is the transformation of raw agricultural produce into safe,.',

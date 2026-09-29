@@ -19,7 +19,7 @@ export const c12_hin_a_ch06_p3: SimDef = {
         hook: 'One chapter holds two flavours of prem: Radha\'s virah — love through separation — and Yashoda\'s vatsalya — a mother\'s tenderness. Reading both as just \'love\' flattens Bhakti\'s emotional precision; each is a different road to the divine.',
     },
     teaching: [
-        { title: 'तुलसीदास — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें कविता के शब्दों, वाक्यों और छंदों के शाब्दिक अर्थ से आगे बढ़कर कवि के भाव, संदेश, उद्देश्य और गहरे साहित्यिक अर्थ को समझाया और विश्लेषण किया जाता है।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'तुलसीदास — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: '\'हजारी-जइके\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_06_013', title: 'Your mission',
@@ -28,6 +28,13 @@ export const c12_hin_a_ch06_p3: SimDef = {
         context: 'Enter Braj through an outsider who became its own: trace Raskhan\'s turn from worldly life to Krishna, then weigh longing against maternal love as two bhakti grammars.',
         labels: ['तुलसीदास — आशय-स्पष्टीकरण और', 'तुलसीदास — परीक्षा-उत्तर लेखन', 'तुलसीदास — वाचन-पाठ और'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_06_013', title: 'तुलसीदास — आशय-स्पष्टीकरण और विश्लेषण अभ्यास',
+          caseStudy: { intro: '\'हजारी-जइके\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।',
+            decisions: [{ prompt: 'Define \'critical interpretation\' in the context of Hindi literature and distinguish it from \'literal comprehension\'.', options: [
+                { text: 'Critical interpretation goes beyond retrieving facts (who, what, where) to analyzing how', outcome: 'Critical interpretation goes beyond retrieving facts (who, what, where) to analyzing how language.' },
+                { text: 'A wrong answer that merely summarizes the poem (', outcome: 'Not quite — Students believe "critical analysis" means criticizing the text (finding faults) or offering.', reveals: 'critical-analysis-means-criticizing-the' },
+                { text: 'critical analysis', outcome: 'Not quite — Students believe "critical analysis" means criticizing the text (finding faults) or offering.', reveals: 'critical-analysis-means-criticizing-the' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_06_013', title: 'Use it in the wild',
           caseStudy: { intro: 'A student society is profiling a beloved classical-music teacher who converted faiths midlife and then devoted himself to Krishna-bhakti poetry. A committee member wants his early Persian-Arabic training cut from the bio: \'it muddies the devotional image.\'',
             decisions: [{ prompt: 'How does the structure of the Raskhan sketch answer that edit?', options: [
@@ -47,38 +54,49 @@ export const c12_hin_a_ch06_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_013', difficulty: 'standard',
-          question: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें कविता के शब्दों, वाक्यों और छंदों के.',
-          hint: 'यदि छात्र रूपक की पहचान तो कर लेता है लेकिन उसके भावार्थ को नहीं बता पाता, तो उसे.',
-          misconception: 'छात्र अक्सर आशय-स्पष्टीकरण को केवल शब्दार्थ या भावार्थ स्पष्टीकरण समझ लेते हैं और कविता के साहित्यिक उपकरणों (अलंकार.',
+          question: '\'हजारी-जइके\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+          hint: 'If stuck, review "Imagery and Metaphor" (c12_hin_a_cbse_06_008) and "Grammar: Language.',
+          misconception: 'Students believe "critical analysis" means criticizing the text (finding faults) or offering personal opinions.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें कविता के शब्दों, वाक्यों और छंदों के शाब्दिक अर्थ',
-                  options: ['आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें कविता के शब्दों, वाक्यों और छंदों के शाब्दिक अर्थ', 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों', 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है'],
-                  hint: 'यदि छात्र रूपक की पहचान तो कर लेता है लेकिन उसके भावार्थ को नहीं बता पाता, तो उसे.',
-                  misconception: 'छात्र अक्सर आशय-स्पष्टीकरण को केवल शब्दार्थ या भावार्थ स्पष्टीकरण समझ लेते हैं और कविता के साहित्यिक उपकरणों (अलंकार, प्रतीक, छंद) के.' }
+                { id: 'a', prompt: 'Apply the concept of \'syncretism\' (fusion of Hindu-Muslim cultural elements) to analyze the opening stanza of "Hajar Jake ka Izse".', answer: 'Markers: (1) "jkepfjrekul"',
+                  options: ['Markers: (1) "jkepfjrekul"', 'he writes about Krishna', 'critical analysis', 'criticism'],
+                  hint: 'If stuck, review "Imagery and Metaphor" (c12_hin_a_cbse_06_008) and "Grammar: Language Usage".',
+                  misconception: 'Students believe "critical analysis" means criticizing the text (finding faults) or offering personal opinions unsupported by the text.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि किसी रूपक या प्रतीक की पहचान करने के बाद अगला कदम हमेशा यह पूछना है: "इसका क्या मतलब है?', 'यह कवि के भाव या संदेश से कैसे जुड़ा है?" फिर एक उदाहरण दें: "कमल" का अर्थ केवल सफेद फूल नहीं है—यह पानी में रहने के.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-criticizing-the': { steps: ['Revisit node c12_hin_a_cbse_06_008 (Imagery and Metaphor) and 009 (Irony and Symbolism) to rebuild.', 'Practice the "Quote–Effect–Link" drill: pick one line, write its literal meaning, name the device, explain its.', 'Do this for five lines from the chapter.', 'Re-attempt Diagnostic Question 3 and 4; if still unable to produce textual evidence, review Class 11 node.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_013', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe "critical analysis" means criticizing the text (finding faults) or offering personal opinions.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the claim: "Raskhan\'s use of simple, colloquial Brajbhasha (e.g., \'Bk<+s\', \'dksg\', \'fel\') makes his poetry accessible but limits its philosophical.', answer: 'Refute',
+                  options: ['Refute', 'critical analysis', 'criticism', 'critique'],
+                  hint: 'If stuck, review "Imagery and Metaphor" (c12_hin_a_cbse_06_008) and "Grammar: Language Usage".',
+                  misconception: 'Students believe "critical analysis" means criticizing the text (finding faults) or offering personal opinions unsupported by the text.' }
+          ],
+            remediations: { 'critical-analysis-means-criticizing-the': { steps: ['Revisit node c12_hin_a_cbse_06_008 (Imagery and Metaphor) and 009 (Irony and Symbolism) to rebuild.', 'Practice the "Quote–Effect–Link" drill: pick one line, write its literal meaning, name the device, explain its.', 'Do this for five lines from the chapter.', 'Re-attempt Diagnostic Question 3 and 4; if still unable to produce textual evidence, review Class 11 node.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_014', difficulty: 'standard',
-          question: 'परीक्षा-उत्तर लेखन कौशल वह प्रणालीगत प्रक्रिया है जिसमें प्रश्न के 요구를 정확히.',
-          hint: 'यदि छात्र PEEL में \'Link\' जोड़ने में कठिनाई महसूस कर रहा है, तो उसे केंद्रीय भाव और विषय.',
-          misconception: 'छात्र अक्सर मानते हैं कि परीक्षा-उत्तर में "सत्रहवीं शताब्दी के कवि तुलसीदास ने कहा..." जैसे पृष्ठभूमि विवरण जोड़ने से.',
+          question: '\'हजारी-जइके\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+          hint: 'If stuck, revisit c12_hin_a_cbse_06_012 (Comprehension) to re-extract textual evidence.',
+          misconception: 'छात्र अक्सर समझते हैं कि \'लेखन कौशल\' का अर्थ है पाठ का सारांश लिखना या पात्र का जीवन-परिचय देना। वे PEEL संरचना को.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल वह प्रणालीगत प्रक्रिया है जिसमें प्रश्न के 요구를 정확히 समझकर, पाठ से',
-                  options: ['परीक्षा-उत्तर लेखन कौशल वह प्रणालीगत प्रक्रिया है जिसमें प्रश्न के 요구를 정확히 समझकर, पाठ से', 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों', 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है'],
-                  hint: 'यदि छात्र PEEL में \'Link\' जोड़ने में कठिनाई महसूस कर रहा है, तो उसे केंद्रीय भाव और विषय (नोड 004).',
-                  misconception: 'छात्र अक्सर मानते हैं कि परीक्षा-उत्तर में "सत्रहवीं शताब्दी के कवि तुलसीदास ने कहा..." जैसे पृष्ठभूमि विवरण जोड़ने से उत्तर मजबूत हो जाता.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'हजारी-जइके\' पर पाठ-आधारित लेखन',
+                  options: ['\'हजारी-जइके\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'हजारी-जइके\' का कथानक', '\'हजारी-जइके\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_06_012 (Comprehension) to re-extract textual evidence, and.',
+                  misconception: 'छात्र अक्सर समझते हैं कि \'लेखन कौशल\' का अर्थ है पाठ का सारांश लिखना या पात्र का जीवन-परिचय देना। वे PEEL संरचना को \'पहले परिचय, फिर मध्य.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक कमजोर उत्तर (जैसे "तुलसीदास एक महान कवि थे। उन्होंने वैराग्य के बारे में लिखा।") कैसे PEEL संरचना.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'peel': { steps: ['छात्र को c12_hin_a_cbse_06_012 (बोधगम्यता) और c12_hin_a_cbse_06_013 (आलोचनात्मक चिंतन) नोड्स पर वापस भेजें: उनसे कहें.', 'फिर PEEL शीट दें: चार कॉलम (Point, Evidence, Explanation, Link) — उन्हें एक प्रश्न पर पूरा करने को कहें। 3.', 'पुनः निदान: वही प्रश्न दें जो पहले गलत हुआ था, और जाँचें कि क्या अब उत्तर में चारों चरण स्पष्ट हैं। यदि नहीं, तो चरण 2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_015', difficulty: 'standard',
-          question: 'वाचन-पाठ वह प्रक्रिया है जिसमें छात्र कविता या गद्यांश को सही उच्चारण, लय.',
-          hint: 'यदि छात्र वाचन में लय-विधान को पहचानने में फंसे हुए हैं, तो उन्हें कक्षा 11 के किसी भी.',
-          misconception: 'छात्र अक्सर मानते हैं कि वाचन-पाठ का अर्थ केवल शब्दों को सही से बोलना है, और चर्चा-बिंदुओं को वे केवल शब्दार्थी.',
+          question: '\'हजारी-जइके\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का.',
+          hint: 'यदि अटकें तो c12_hin_a_cbse_06_013 (Critical Thinking) के \'दावा-प्रमाण\' अभ्यास और.',
+          misconception: 'छात्र अक्सर समझते हैं कि \'Speaking and Listening\' में केवल पाठ का सारांश बोलना होता है। वे उद्धरण नहीं देते, अलंकार/छंद.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-पाठ वह प्रक्रिया है जिसमें छात्र कविता या गद्यांश को सही उच्चारण, लय, विराम और',
-                  options: ['वाचन-पाठ वह प्रक्रिया है जिसमें छात्र कविता या गद्यांश को सही उच्चारण, लय, विराम और', 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों', 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है'],
-                  hint: 'यदि छात्र वाचन में लय-विधान को पहचानने में फंसे हुए हैं, तो उन्हें कक्षा 11 के किसी भी पाठ के.',
-                  misconception: 'छात्र अक्सर मानते हैं कि वाचन-पाठ का अर्थ केवल शब्दों को सही से बोलना है, और चर्चा-बिंदुओं को वे केवल शब्दार्थी प्रश्नों के उत्तर मानते हैं.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'हजारी-जइके\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'हजारी-जइके\' पर वाचन-श्रवण और चर्चा-बिंदु', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'हजारी-जइके\' का कथानक', '\'हजारी-जइके\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'यदि अटकें तो c12_hin_a_cbse_06_013 (Critical Thinking) के \'दावा-प्रमाण\' अभ्यास और.',
+                  misconception: 'छात्र अक्सर समझते हैं कि \'Speaking and Listening\' में केवल पाठ का सारांश बोलना होता है। वे उद्धरण नहीं देते, अलंकार/छंद का नाम नहीं लेते.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को أولاً एक पद्यांश धीरे-धीरे सुनने के लिए कहिए (आप पढ़कर सुनाइए या ऑडियो चलाइए), फिर उससे पूछिए: "इसमें कौन-से.', 'कहाँ आपकी आवाज़ naturale रूप से रुकती है?" इससे लय-विधान का अनुभव होगा। फिर, उन शब्दों पर ध्यान केंद्रित करते हुए.', 'क्या यह शांत है, उग्र है, या आशावादी?" इससे वे भाव को अनुभव करेंगे, न कि केवल अर्थ ढूँढेंगे। इस क्रम (ध्वनि → भाव →.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'speaking-and-listening': { steps: ['चरण 1: छात्र को पाठ के किन्हीं दो पद/कवित्त पढ़कर *रिकॉर्ड* करने को कहें (मोबाइल पर)। चरण 2: रिकॉर्डिंग सुनकर स्वयं.', 'कहाँ अलंकार/छंद का नाम नहीं लिया?', 'चरण 3: उसी विषय पर 2 मिनट का *नया* रिकॉर्डिंग करें, इस बार PEEL संरचना (Point, Evidence, Explanation, Link) का पालन.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

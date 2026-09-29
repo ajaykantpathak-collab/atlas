@@ -6,13 +6,13 @@ import C6_MathematicsPerimeterAndAreaSim from '../../../simulations/c6_12/C6_Mat
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_mathematicsperimeterandareasim: SimDef = {
     id: 'v3w_c6_mathematicsperimeterandareasim',
-    title: 'Perimeter And Area',
+    title: 'Introduction to Perimeter',
     subtitle: 'This node covers the perimeter of rectangles, squares, triangles, and simple polygons.',
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Perimeter',
     chapters: [],
     nodeIds: ['c6_math_ch08_085', 'c6_math_ch08_086', 'c6_math_ch08_090', 'c6_math_ch07_073', 'c6_math_ch08_087', 'c6_math_ch08_088', 'c6_math_ch08_092', 'c6_math_ch07_074', 'c6_math_ch07_077'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you are asked to put a decorative lace around your rectangular notebook cover.', goal: 'Master Perimeter And Area.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you are asked to put a decorative lace around your rectangular notebook cover.', goal: 'Master Introduction to Perimeter.' },
     discovery: {
         question: 'If you have a wire of length 20 cm, why does bending it into different rectangular shapes change the area but keep the perimeter the same?',
         options: ['The perimeter remains constant', 'perimeter', 'area and perimeter are always linked proportionally'],
@@ -73,7 +73,7 @@ export const w_c6_mathematicsperimeterandareasim: SimDef = {
             { text: '24 ÷ 3 = 8 bags.', faded: true, blankAnswer: '8 bags' }
             ] } }
     ],
-    explore: { component: C6_MathematicsPerimeterAndAreaSim, prompt: 'Explore the interactive — Perimeter And Area' },
+    explore: { component: C6_MathematicsPerimeterAndAreaSim, prompt: 'Explore the interactive — Introduction to Perimeter' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_math_ch08_085', difficulty: 'standard',
           question: 'Perimeter is the total length of the boundary surrounding a closed 2D shape.',

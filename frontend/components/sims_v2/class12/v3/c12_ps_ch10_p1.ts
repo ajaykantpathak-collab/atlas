@@ -98,6 +98,17 @@ export const c12_ps_ch10_p1: SimDef = {
                   misconception: '**Misconception:** "The Planning Commission was a constitutional body like the Election Commission, and it had the power to implement plans.' }
           ],
             remediations: { 'misconception-the-planning-commission-was': { steps: ['If the student holds this misconception: 1.', '**Re-read the NCERT box** on p.48: "Planning Commission is not one of the many commissions...', 'set up by the Constitution...', 'set up in March 1950 by a simple resolution...'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+        { type: 'subpart', nodeId: 'c12_ps_cbse_10_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: '**Misconception:** "The Planning Commission was a constitutional body like the Election Commission, and it had the.',
+          parts: [
+                { id: 'a', prompt: 'Critically evaluate: "The Planning Commission\'s advisory role made it a weak institution that could not enforce plan priorities on states." Use the.', answer: '**Evaluation: The statement is partially true but misses the Commission\'s real',
+                  options: ['**Evaluation: The statement is partially true but misses the Commission\'s real', 'it was weak because advisory', 'it dictated to states', 'the Planning Commission built Bhakra Nangal Dam'],
+                  hint: 'Revisit Class 11 Political Science Chapter 2 (c11_ps_cbse_11_011) on "Relationship between.',
+                  misconception: '**Misconception:** "The Planning Commission was a constitutional body like the Election Commission, and it had the power to implement plans.' }
+          ],
+            remediations: { 'misconception-the-planning-commission-was': { steps: ['If the student holds this misconception: 1.', '**Re-read the NCERT box** on p.48: "Planning Commission is not one of the many commissions...', 'set up by the Constitution...', 'set up in March 1950 by a simple resolution...'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_ps_cbse_10_002', difficulty: 'standard',
           question: 'The First Five Year Plan (1951–1956) was India\'s inaugural planned development.',
           hint: 'Revisit c11_ps_cbse_11_008 (Directive Principles, especially Article 39(b)-(c)) and.',
@@ -105,17 +116,6 @@ export const c12_ps_ch10_p1: SimDef = {
           parts: [
                 { id: 'a', prompt: 'The First Plan allocated huge resources to the Bhakra Nangal Dam.', answer: 'Partition left the fertile Punjab plains in India but the headworks of the canal',
                   options: ['Partition left the fertile Punjab plains in India but the headworks of the canal', 'flood control', 'industrial power', 'development needs'],
-                  hint: 'Revisit c11_ps_cbse_11_008 (Directive Principles, especially Article 39(b)-(c)) and.',
-                  misconception: 'Students often think the First Plan "neglected industry" or was "anti-industrial" because it focused on agriculture.' }
-          ],
-            remediations: { 'the-first-plan-neglected-industry': { steps: ['If the student holds this misconception: (1) Have them read the First Plan\'s own statement: "The first plan gave the.', 'because the agricultural sector was hit hardest by partition and needed urgent attention" (NCERT, p.51).', '(2) Ask them to trace the causal chain: no land reform → low peasant surplus → no domestic market for textiles →.', '(3) Assign a mini-case: compare Punjab\'s post-Bhakra agricultural surplus (1960s) with Bihar\'s stagnant agriculture.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_ps_cbse_10_002', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often think the First Plan "neglected industry" or was "anti-industrial" because it focused on agriculture.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: "The First Five Year Plan\'s focus on agriculture was a pragmatic necessity, not an ideological choice." Use evidence from the Plan\'s.', answer: 'The claim is largely correct: agriculture was prioritised',
-                  options: ['The claim is largely correct: agriculture was prioritised', 'neglected industry', 'anti-industrial'],
                   hint: 'Revisit c11_ps_cbse_11_008 (Directive Principles, especially Article 39(b)-(c)) and.',
                   misconception: 'Students often think the First Plan "neglected industry" or was "anti-industrial" because it focused on agriculture.' }
           ],

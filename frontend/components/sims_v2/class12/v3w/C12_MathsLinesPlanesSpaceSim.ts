@@ -6,13 +6,13 @@ import C12_MathsLinesPlanesSpaceSim from '../../../simulations/three/C12_MathsLi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathslinesplanesspacesim: SimDef = {
     id: 'v3w_c12_mathslinesplanesspacesim',
-    title: 'Lines Planes Space',
+    title: 'Equation of a Line in 3D Space',
     subtitle: 'This node covers the derivation and application of vector and Cartesian equations of a.',
     classLevel: 12, subject: 'mathematics', topic: 'Equation of a Line in 3D Space',
     chapters: [],
     nodeIds: ['c12_math_cbse_11_002', 'c12_math_cbse_11_003', 'c12_math_cbse_11_004', 'c12_math_cbse_11_007', 'c12_math_cbse_11_008', 'c12_math_cbse_11_009', 'c12_math_cbse_11_010', 'c12_math_cbse_11_005', 'c12_math_cbse_11_006', 'c12_math_cbse_10_001', 'c12_math_cbse_10_002', 'c12_math_cbse_10_008', 'c12_math_cbse_11_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a drone flying from your school rooftop (point A) in a fixed direction (vector \\(\\vec{b}\\)) — its.', goal: 'Master Lines Planes Space.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a drone flying from your school rooftop (point A) in a fixed direction (vector \\(\\vec{b}\\)) — its.', goal: 'Master Equation of a Line in 3D Space.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'The equation of a line in 3D space describes.', text: 'The equation of a line in 3D space describes the set of all points (x, y, z) that lie on a straight line.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -76,7 +76,7 @@ export const w_c12_mathslinesplanesspacesim: SimDef = {
             { text: '\\( \\cos \\theta = \\frac{4}{21} \\approx 0.190476 \\). Then \\( \\theta = \\cos^{-1}(0.190476) \\approx 79.0^\\circ \\).', faded: true, blankAnswer: '\\( 79.0^\\circ \\)' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_11_003', title: 'Identify each idea',
-          dissect: { specimen: 'Lines Planes Space', spots: [
+          dissect: { specimen: 'Equation of a Line in 3D Space', spots: [
             { id: 's1', label: 'The equation of a line', prompt: 'Which idea is this? — The equation of a line in 3D space describes the set of all points (x, y, z) that lie on.', answer: 'The equation of a line', options: ['The equation of a line', 'The angle between two lines', 'The shortest distance between two', 'A plane in three-dimensional space'] },
             { id: 's2', label: 'The angle between two lines', prompt: 'Which idea is this? — The angle between two lines in three-dimensional space is defined as the acute angle.', answer: 'The angle between two lines', options: ['The angle between two lines', 'The equation of a line', 'The shortest distance between two', 'A plane in three-dimensional space'] },
             { id: 's3', label: 'The shortest distance between two', prompt: 'Which idea is this? — The shortest distance between two skew lines in three-dimensional space is the length of.', answer: 'The shortest distance between two', options: ['The shortest distance between two', 'The equation of a line', 'The angle between two lines', 'A plane in three-dimensional space'] },
@@ -85,7 +85,7 @@ export const w_c12_mathslinesplanesspacesim: SimDef = {
             { id: 's6', label: 'The angle between two planes', prompt: 'Which idea is this? — The angle between two planes is defined as the acute angle between their normal vectors.', answer: 'The angle between two planes', options: ['The angle between two planes', 'The equation of a line', 'The angle between two lines', 'The shortest distance between two'] }
           ] } }
     ],
-    explore: { component: C12_MathsLinesPlanesSpaceSim, prompt: 'Explore the interactive — Lines Planes Space' },
+    explore: { component: C12_MathsLinesPlanesSpaceSim, prompt: 'Explore the interactive — Equation of a Line in 3D Space' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_11_002', difficulty: 'standard',
           question: 'The equation of a line in 3D space describes the set of all points (x, y, z).',

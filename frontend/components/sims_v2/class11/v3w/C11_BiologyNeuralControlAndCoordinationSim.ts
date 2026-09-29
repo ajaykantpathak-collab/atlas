@@ -6,13 +6,13 @@ import C11_BiologyNeuralControlAndCoordinationSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologyneuralcontrolandcoordinationsim: SimDef = {
     id: 'v3w_c11_biologyneuralcontrolandcoordinationsim',
-    title: 'Neural Control And Coordination',
+    title: 'Animal Tissues: Neural Tissue',
     subtitle: 'Covers neuron structure (multipolar, bipolar, unipolar), neuroglia types (astrocytes,.',
     classLevel: 11, subject: 'biology', topic: 'Animal Tissues: Neural Tissue',
     chapters: [],
     nodeIds: ['c11_bio_cbse_07_004', 'c11_bio_cbse_07_007', 'c11_bio_cbse_07_003', 'c11_bio_cbse_07_001', 'c11_bio_cbse_07_002', 'c11_bio_cbse_07_005', 'c11_bio_cbse_14_006', 'c11_bio_cbse_17_002', 'c11_bio_cbse_16_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'When you touch a hot pan, your hand pulls back before you feel pain — that speed comes from neural tissue.', goal: 'Master Neural Control And Coordination.' },
+    scenario: { role: 'a class 11 learner', intro: 'When you touch a hot pan, your hand pulls back before you feel pain — that speed comes from neural tissue.', goal: 'Master Animal Tissues: Neural Tissue.' },
     discovery: {
         question: 'Compare the structural design of frog lungs (paired, thin-walled, poorly septated sacs) with mammalian lungs (highly branched bronchial tree ending in.',
         options: ['Frog lungs have low internal surface area (minimal septation)', 'frog lungs are primitive/inefficient', 'breathe through their skin'],
@@ -80,7 +80,7 @@ export const w_c11_biologyneuralcontrolandcoordinationsim: SimDef = {
             { text: 'Conclusion: A single behavioural act (escape) integrates neural (coordination), muscular (movement), skeletal.', faded: true, blankAnswer: 'The escape response involves neural (detection, command),.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_07_007', title: 'Identify each idea',
-          dissect: { specimen: 'Neural Control And Coordination', spots: [
+          dissect: { specimen: 'Animal Tissues: Neural Tissue', spots: [
             { id: 's1', label: 'Neural tissue is a specialised', prompt: 'Which idea is this? — Neural tissue is a specialised animal tissue composed of neurons (excitable cells that.', answer: 'Neural tissue is a specialised', options: ['Neural tissue is a specialised', 'The frog respiratory system is', 'Muscular tissue is a specialized', 'Epithelial tissue is a sheet'] },
             { id: 's2', label: 'The frog respiratory system is', prompt: 'Which idea is this? — The frog respiratory system is a multimodal gas exchange apparatus comprising cutaneous.', answer: 'The frog respiratory system is', options: ['The frog respiratory system is', 'Neural tissue is a specialised', 'Muscular tissue is a specialized', 'Epithelial tissue is a sheet'] },
             { id: 's3', label: 'Muscular tissue is a specialized', prompt: 'Which idea is this? — Muscular tissue is a specialized animal tissue composed of elongated cells (muscle.', answer: 'Muscular tissue is a specialized', options: ['Muscular tissue is a specialized', 'Neural tissue is a specialised', 'The frog respiratory system is', 'Epithelial tissue is a sheet'] },
@@ -89,7 +89,7 @@ export const w_c11_biologyneuralcontrolandcoordinationsim: SimDef = {
             { id: 's6', label: 'Organ and organ system in', prompt: 'Which idea is this? — Organ and organ system in frog morphology refers to the hierarchical organization where.', answer: 'Organ and organ system in', options: ['Organ and organ system in', 'Neural tissue is a specialised', 'The frog respiratory system is', 'Muscular tissue is a specialized'] }
           ] } }
     ],
-    explore: { component: C11_BiologyNeuralControlAndCoordinationSim, prompt: 'Explore the interactive — Neural Control And Coordination' },
+    explore: { component: C11_BiologyNeuralControlAndCoordinationSim, prompt: 'Explore the interactive — Animal Tissues: Neural Tissue' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_07_004', difficulty: 'standard',
           question: 'Neural tissue is a specialised animal tissue composed of neurons (excitable.',

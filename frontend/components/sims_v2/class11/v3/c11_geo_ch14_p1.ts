@@ -178,8 +178,8 @@ export const c11_geo_ch14_p1: SimDef = {
           hint: 'Revisit c9_geo_ch1_8 (Erosion and Deposition by Rivers) for delta formation and.',
           misconception: 'Students believe mangroves are "sea forests" growing in seawater, and that the Sundarbans is a single uniform forest.',
           parts: [
-                { id: 'a', prompt: 'A mangrove sapling of *Avicennia marina* is planted at mean sea level (MSL) in the Sundarbans.', answer: 'Steps: (1) Tidal period = 12.4 h (semi-diurnal)',
-                  options: ['Steps: (1) Tidal period = 12.4 h (semi-diurnal)', 'sea forests'],
+                { id: 'a', prompt: 'A mangrove sapling of *Avicennia marina* is planted at mean sea level (MSL) in the Sundarbans.', answer: '(1) Tidal period =',
+                  options: ['(1) Tidal period =', 'sea forests'],
                   hint: 'Revisit c9_geo_ch1_8 (Erosion and Deposition by Rivers) for delta formation and c10_geo_cbse_07_005.',
                   misconception: 'Students believe mangroves are "sea forests" growing in seawater, and that the Sundarbans is a single uniform forest of Sundari trees.' },
                 { id: 'b', prompt: 'Compare the drivers of mangrove degradation in the Sundarbans versus the Gulf of Kutch.', answer: 'Correct answer: Sundarbans',

@@ -6,7 +6,7 @@ import C11_HomeScienceUnderstandingFamilyCommunitySocietySim from '../../../simu
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_homescienceunderstandingfamilycommunitysocietysim: SimDef = {
     id: 'v3w_c11_homescienceunderstandingfamilycommunitysocietysim',
-    title: 'Home Science Understanding Family Community Society',
+    title: 'Family as a Central Social Unit and Context for Individual Development',
     subtitle: 'This node covers the family as a central social unit in Human Ecology and Family.',
     classLevel: 11, subject: 'science', topic: 'Family as a Central Social Unit and Context for Individual Development',
     chapters: [],
@@ -70,7 +70,7 @@ export const w_c11_homescienceunderstandingfamilycommunitysocietysim: SimDef = {
             { text: 'HEFS intervention leverage points — Nutrition: school meal + nutrition education; Clothing: low-cost adaptive garments;.', faded: true, blankAnswer: 'Rohan\'s case shows a turning point where biological.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_hs_cbse_01_005', title: 'Identify each idea',
-          dissect: { specimen: 'Home Science Understanding Family Community Society', spots: [
+          dissect: { specimen: 'Family as a Central Social Unit and Context for Individual Development', spots: [
             { id: 's1', label: 'Family is the primary social', prompt: 'Which idea is this? — Family is the primary social institution that provides the immediate ecological context.', answer: 'Family is the primary social', options: ['Family is the primary social', 'Synergistic relationships in Human Ecology', 'The historical evolution of Home', 'Quality of Life QoL in'] },
             { id: 's2', label: 'Synergistic relationships in Human Ecology', prompt: 'Which idea is this? — Synergistic relationships in Human Ecology and Family Sciences refer to the dynamic,.', answer: 'Synergistic relationships in Human Ecology', options: ['Synergistic relationships in Human Ecology', 'Family is the primary social', 'The historical evolution of Home', 'Quality of Life QoL in'] },
             { id: 's3', label: 'The historical evolution of Home', prompt: 'Which idea is this? — The historical evolution of Home Science in India refers to the process beginning in the.', answer: 'The historical evolution of Home', options: ['The historical evolution of Home', 'Family is the primary social', 'Synergistic relationships in Human Ecology', 'Quality of Life QoL in'] },
@@ -78,7 +78,7 @@ export const w_c11_homescienceunderstandingfamilycommunitysocietysim: SimDef = {
             { id: 's5', label: 'Adolescence is a critical transitional', prompt: 'Which idea is this? — Adolescence is a critical transitional developmental stage (approximately 10-19 years).', answer: 'Adolescence is a critical transitional', options: ['Adolescence is a critical transitional', 'Family is the primary social', 'Synergistic relationships in Human Ecology', 'The historical evolution of Home'] }
           ] } }
     ],
-    explore: { component: C11_HomeScienceUnderstandingFamilyCommunitySocietySim, prompt: 'Explore the interactive — Home Science Understanding Family Community Society' },
+    explore: { component: C11_HomeScienceUnderstandingFamilyCommunitySocietySim, prompt: 'Explore the interactive — Family as a Central Social Unit and Context for Individual Development' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hs_cbse_01_004', difficulty: 'standard',
           question: 'Family is the primary social institution that provides the immediate ecological.',

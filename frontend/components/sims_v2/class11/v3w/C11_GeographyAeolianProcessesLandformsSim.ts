@@ -6,13 +6,13 @@ import C11_GeographyAeolianProcessesLandformsSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geographyaeolianprocesseslandformssim: SimDef = {
     id: 'v3w_c11_geographyaeolianprocesseslandformssim',
-    title: 'Aeolian Processes Landforms',
+    title: 'Erosion and Deposition: Agents (Water, Wind, Ice) and Processes',
     subtitle: 'Covers the three primary exogenic agents (fluvial, aeolian, glacial) and their.',
     classLevel: 11, subject: 'geography', topic: 'Erosion and Deposition: Agents (Water, Wind, Ice) and Processes',
     chapters: [],
     nodeIds: ['c11_geo_cbse_06_009', 'c11_geo_cbse_07_008', 'c11_geo_cbse_07_005', 'c11_geo_cbse_09_001', 'c11_geo_cbse_06_002', 'c11_geo_cbse_06_004', 'c11_geo_cbse_06_005', 'c11_geo_cbse_07_001', 'c11_geo_cbse_07_004', 'c11_geo_cbse_07_006', 'c11_geo_cbse_07_007', 'c11_geo_cbse_06_003', 'c11_geo_cbse_09_006', 'c11_geo_cbse_09_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Stand at a riverbank during monsoon and watch the muddy water rushing past — that brown colour is not "dirty.', goal: 'Master Aeolian Processes Landforms.' },
+    scenario: { role: 'a class 11 learner', intro: 'Stand at a riverbank during monsoon and watch the muddy water rushing past — that brown colour is not "dirty.', goal: 'Master Erosion and Deposition: Agents (Water, Wind, Ice) and Processes.' },
     discovery: {
         question: 'A river channel has a width of 30 m, mean depth of 2.5 m, and slope of 0.001.',
         options: ['Step 1: Hydraulic radius R = A/P = (30×2.5)/(30+2×2.5) = 75/35 = 2.14 m', 'erosion only happens during floods/high energy events', 'deposition only happens in calm water'],
@@ -82,7 +82,7 @@ export const w_c11_geographyaeolianprocesseslandformssim: SimDef = {
             { text: 'Interpret: The profile represents at least 0.75 Ma of landscape stability — consistent with the Western Ghats being a.', faded: true, blankAnswer: 'Minimum 750,000 years (0.75 Ma). The actual time is likely.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_geo_cbse_07_008', title: 'Identify each idea',
-          dissect: { specimen: 'Aeolian Processes Landforms', spots: [
+          dissect: { specimen: 'Erosion and Deposition: Agents (Water, Wind, Ice) and Processes', spots: [
             { id: 's1', label: 'Erosion is the detachment entrainment', prompt: 'Which idea is this? — Erosion is the detachment, entrainment, and transport of weathered rock material and.', answer: 'Erosion is the detachment entrainment', options: ['Erosion is the detachment entrainment', 'Aeolian landforms are erosional and', 'Karst topography is a distinctive', 'Physiographic divisions of India refer'] },
             { id: 's2', label: 'Aeolian landforms are erosional and', prompt: 'Which idea is this? — Aeolian landforms are erosional and depositional features shaped by wind action in arid.', answer: 'Aeolian landforms are erosional and', options: ['Aeolian landforms are erosional and', 'Erosion is the detachment entrainment', 'Karst topography is a distinctive', 'Physiographic divisions of India refer'] },
             { id: 's3', label: 'Karst topography is a distinctive', prompt: 'Which idea is this? — Karst topography is a distinctive landscape formed by the chemical dissolution of soluble.', answer: 'Karst topography is a distinctive', options: ['Karst topography is a distinctive', 'Erosion is the detachment entrainment', 'Aeolian landforms are erosional and', 'Physiographic divisions of India refer'] },
@@ -91,7 +91,7 @@ export const w_c11_geographyaeolianprocesseslandformssim: SimDef = {
             { id: 's6', label: 'Weathering is the in-situ disintegration', prompt: 'Which idea is this? — Weathering is the in-situ disintegration and decomposition of rocks and minerals at or.', answer: 'Weathering is the in-situ disintegration', options: ['Weathering is the in-situ disintegration', 'Erosion is the detachment entrainment', 'Aeolian landforms are erosional and', 'Karst topography is a distinctive'] }
           ] } }
     ],
-    explore: { component: C11_GeographyAeolianProcessesLandformsSim, prompt: 'Explore the interactive — Aeolian Processes Landforms' },
+    explore: { component: C11_GeographyAeolianProcessesLandformsSim, prompt: 'Explore the interactive — Erosion and Deposition: Agents (Water, Wind, Ice) and Processes' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_06_009', difficulty: 'standard',
           question: 'Erosion is the detachment, entrainment, and transport of weathered rock.',

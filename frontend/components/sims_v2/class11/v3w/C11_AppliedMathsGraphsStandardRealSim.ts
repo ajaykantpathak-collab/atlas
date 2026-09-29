@@ -6,13 +6,13 @@ import C11_AppliedMathsGraphsStandardRealSim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_appliedmathsgraphsstandardrealsim: SimDef = {
     id: 'v3w_c11_appliedmathsgraphsstandardrealsim',
-    title: 'Applied Maths Graphs Standard Real',
+    title: 'Functions: Definition and Types',
     subtitle: 'This node covers the formal definition of a function as a special relation, the.',
     classLevel: 11, subject: 'science', topic: 'Functions: Definition and Types',
     chapters: [],
     nodeIds: ['c11_math_cbse_02_005', 'c11_math_cbse_02_011', 'c11_math_cbse_11_006', 'c11_math_cbse_11_009', 'c11_math_cbse_03_004', 'c11_math_cbse_02_006', 'c11_math_cbse_02_007', 'c11_math_cbse_02_008', 'c11_math_cbse_02_009', 'c11_math_cbse_13_006', 'c11_math_cbse_11_003', 'c11_math_cbse_11_007', 'c11_math_cbse_11_010', 'c11_math_cbse_06_005', 'c11_math_cbse_06_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a school cafeteria where every student (set \\(A\\)) must be assigned exactly one lunch menu (set.', goal: 'Master Applied Maths Graphs Standard Real.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a school cafeteria where every student (set \\(A\\)) must be assigned exactly one lunch menu (set.', goal: 'Master Functions: Definition and Types.' },
     discovery: {
         question: 'A student claims: "The relation \\(R = \\{(x,y) \\in \\mathbb{Z} \\times \\mathbb{Z} : y^2 = x\\}\\) is a function from \\(\\mathbb{Z}\\) to \\(\\mathbb{Z}\\) because every.',
         options: ['The claim is false', 'square root exists in \\(\\mathbb{R}\\)', 'unique integer image exists'],
@@ -78,7 +78,7 @@ export const w_c11_appliedmathsgraphsstandardrealsim: SimDef = {
             { text: 'Verify: F(20) = 50 + 12(20) = 50 + 240 = 290 ✓. Interpret: constant part is fixed cost, identity part (scaled) is.', faded: true, blankAnswer: 'Fare function F(d) = 50 + 12d; for 15 km fare = ₹230; for.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_02_011', title: 'Identify each idea',
-          dissect: { specimen: 'Applied Maths Graphs Standard Real', spots: [
+          dissect: { specimen: 'Functions: Definition and Types', spots: [
             { id: 's1', label: 'A function f from a', prompt: 'Which idea is this? — A function \\(f\\) from a non-empty set \\(A\\) to a non-empty set \\(B\\) is a relation such.', answer: 'A function f from a', options: ['A function f from a', 'A real function is a', 'An ellipse is the set', 'For a hyperbola with standard'] },
             { id: 's2', label: 'A real function is a', prompt: 'Which idea is this? — A real function is a rule that assigns to each real number x in its domain exactly one.', answer: 'A real function is a', options: ['A real function is a', 'A function f from a', 'An ellipse is the set', 'For a hyperbola with standard'] },
             { id: 's3', label: 'An ellipse is the set', prompt: 'Which idea is this? — An ellipse is the set of all points in a plane such that the sum of their distances from.', answer: 'An ellipse is the set', options: ['An ellipse is the set', 'A function f from a', 'A real function is a', 'For a hyperbola with standard'] },
@@ -87,7 +87,7 @@ export const w_c11_appliedmathsgraphsstandardrealsim: SimDef = {
             { id: 's6', label: 'A real-valued function is a', prompt: 'Which idea is this? — A real-valued function is a relation f from a non-empty set A ⊆ ℝ to a set B ⊆ ℝ such.', answer: 'A real-valued function is a', options: ['A real-valued function is a', 'A function f from a', 'A real function is a', 'An ellipse is the set'] }
           ] } }
     ],
-    explore: { component: C11_AppliedMathsGraphsStandardRealSim, prompt: 'Explore the interactive — Applied Maths Graphs Standard Real' },
+    explore: { component: C11_AppliedMathsGraphsStandardRealSim, prompt: 'Explore the interactive — Functions: Definition and Types' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_02_005', difficulty: 'standard',
           question: 'A function \\(f\\) from a non-empty set \\(A\\) to a non-empty set \\(B\\) is a.',

@@ -19,7 +19,7 @@ export const c10_engl_ch16_p1: SimDef = {
         hook: 'Matilda\'s tragedy wasn\'t losing a necklace — it was that shame stopped her from simply confessing. One honest sentence at the ball would have saved ten years.',
     },
     teaching: [
-        { title: 'Matilda Loisel: A Woman Dissatisfied with Her Modest Life', text: 'Character analysis of Matilda Loisel focuses on her persistent dissatisfaction with her modest middle-class life, her yearning for luxury and social status, and how these traits drive the narrative\'s.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Matilda Loisel: A Woman Dissatisfied with Her Modest Life', text: 'From \'The Necklace\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c10_engl_cbse_16_001', title: 'Your mission',
@@ -89,7 +89,7 @@ export const c10_engl_ch16_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_engl_cbse_16_001', difficulty: 'standard',
-          question: 'Character analysis of Matilda Loisel focuses on her persistent dissatisfaction.',
+          question: 'From \'The Necklace\': the skill or concept this node teaches, applied to the.',
           hint: 'Review "PEEL paragraph structure" from Class 9 writing nodes (c9_engl_ch1_7.',
           misconception: 'Students consistently confuse Matilda\'s *modest* life with *poverty*, writing "she was poor and wanted to be rich." The.',
           parts: [

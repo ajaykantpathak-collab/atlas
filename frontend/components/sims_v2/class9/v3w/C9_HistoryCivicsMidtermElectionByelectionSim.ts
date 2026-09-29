@@ -6,13 +6,13 @@ import C9_HistoryCivicsMidtermElectionByelectionSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_historycivicsmidtermelectionbyelectionsim: SimDef = {
     id: 'v3w_c9_historycivicsmidtermelectionbyelectionsim',
-    title: 'Midterm Election Byelection',
+    title: 'Parliamentary vs Presidential Democracy',
     subtitle: 'This node covers the structural comparison between parliamentary and presidential.',
     classLevel: 9, subject: 'history', topic: 'Parliamentary vs Presidential Democracy',
     chapters: [],
     nodeIds: ['c9_civ_ch1_6', 'c9_hist_ch3_6'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are watching the news: the Indian Prime Minister faces a no-confidence motion in Lok Sabha, while.', goal: 'Master Midterm Election Byelection.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are watching the news: the Indian Prime Minister faces a no-confidence motion in Lok Sabha, while.', goal: 'Master Parliamentary vs Presidential Democracy.' },
     discovery: {
         question: 'Compare the role of the *mahattara* (village headman) in Gupta administration with the *gramika* in Mauryan administration.',
         options: ['The *gramika* was a state-appointed official in a centralized hierarchy', 'both are same', 'mahattara was higher'],
@@ -42,12 +42,12 @@ export const w_c9_historycivicsmidtermelectionbyelectionsim: SimDef = {
             { text: 'Synthesize the shift — From extracting surplus via military superiority to delegating surplus extraction to local.', faded: true, blankAnswer: 'The Allahabad Pillar shows Samudragupta creating a.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_hist_ch3_6', title: 'Identify each idea',
-          dissect: { specimen: 'Midterm Election Byelection', spots: [
+          dissect: { specimen: 'Parliamentary vs Presidential Democracy', spots: [
             { id: 's1', label: 'Parliamentary democracy is a system', prompt: 'Which idea is this? — Parliamentary democracy is a system where the executive (Prime Minister and Council of.', answer: 'Parliamentary democracy is a system', options: ['Parliamentary democracy is a system', 'The Gupta Empire c 320550'] },
             { id: 's2', label: 'The Gupta Empire c 320550', prompt: 'Which idea is this? — The Gupta Empire (c. 320–550 CE) was a classical Indian imperial state centered in the.', answer: 'The Gupta Empire c 320550', options: ['The Gupta Empire c 320550', 'Parliamentary democracy is a system'] }
           ] } }
     ],
-    explore: { component: C9_HistoryCivicsMidtermElectionByelectionSim, prompt: 'Explore the interactive — Midterm Election Byelection' },
+    explore: { component: C9_HistoryCivicsMidtermElectionByelectionSim, prompt: 'Explore the interactive — Parliamentary vs Presidential Democracy' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_civ_ch1_6', difficulty: 'standard',
           question: 'Parliamentary democracy is a system where the executive (Prime Minister and.',

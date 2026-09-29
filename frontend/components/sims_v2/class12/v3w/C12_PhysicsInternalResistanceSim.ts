@@ -6,13 +6,13 @@ import C12_PhysicsInternalResistanceSim from '../../../simulations/c6_12/C12_Phy
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsinternalresistancesim: SimDef = {
     id: 'v3w_c12_physicsinternalresistancesim',
-    title: 'Internal Resistance',
+    title: 'Potentiometer: Principle and Applications',
     subtitle: 'Covers: potentiometer principle (potential gradient along uniform wire), comparison of.',
     classLevel: 12, subject: 'physics', topic: 'Potentiometer: Principle and Applications',
     chapters: [],
     nodeIds: ['c12_phy_cbse_03_008', 'c12_phy_cbse_03_010', 'c12_phy_cbse_03_002', 'c12_phy_cbse_03_004', 'c12_phy_cbse_03_006', 'c12_phy_cbse_03_007', 'c12_phy_cbse_03_009', 'c12_phy_cbse_03_011', 'c12_phy_cbse_09_003', 'c12_phy_cbse_09_004', 'c12_phy_cbse_09_008', 'c12_phy_cbse_10_002', 'c12_phy_cbse_01_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a typical school lab potentiometer: a 1-meter uniform manganin wire stretched on a wooden board with.', goal: 'Master Internal Resistance.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a typical school lab potentiometer: a 1-meter uniform manganin wire stretched on a wooden board with.', goal: 'Master Potentiometer: Principle and Applications.' },
     discovery: {
         question: 'In a potentiometer experiment to compare emfs of two cells E₁ and E₂, the balance lengths are ℓ₁ = 40.0 cm and ℓ₂ = 60.0 cm.',
         options: ['**Correct answer:** Yes, the claim is correct', 'no, because the galvanometer sensitivity changes', 'no, because internal resistances differ'],
@@ -84,7 +84,7 @@ export const w_c12_physicsinternalresistancesim: SimDef = {
             { text: 'Verify units: \\(\\Omega \\cdot \\text{m}^2 / \\text{m} = \\Omega\\ \\text{m}\\) ✓.', faded: true, blankAnswer: '** Unknown resistance \\(X = 9.82\\ \\Omega\\); Resistivity.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_03_010', title: 'Identify each idea',
-          dissect: { specimen: 'Internal Resistance', spots: [
+          dissect: { specimen: 'Potentiometer: Principle and Applications', spots: [
             { id: 's1', label: 'A potentiometer is an instrument', prompt: 'Which idea is this? — A potentiometer is an instrument that measures an unknown potential difference (or emf).', answer: 'A potentiometer is an instrument', options: ['A potentiometer is an instrument', 'Electromotive force EMF of a', 'Ohms Law states that for', 'Resistivity is an intrinsic'] },
             { id: 's2', label: 'Electromotive force EMF of a', prompt: 'Which idea is this? — Electromotive force (EMF) of a cell is the maximum potential difference between its.', answer: 'Electromotive force EMF of a', options: ['Electromotive force EMF of a', 'A potentiometer is an instrument', 'Ohms Law states that for', 'Resistivity is an intrinsic'] },
             { id: 's3', label: 'Ohms Law states that for', prompt: 'Which idea is this? — Ohm\'s Law states that for a given metallic conductor at constant temperature, the current.', answer: 'Ohms Law states that for', options: ['Ohms Law states that for', 'A potentiometer is an instrument', 'Electromotive force EMF of a', 'Resistivity is an intrinsic'] },
@@ -93,7 +93,7 @@ export const w_c12_physicsinternalresistancesim: SimDef = {
             { id: 's6', label: 'The meter bridge is a', prompt: 'Which idea is this? — The meter bridge is a laboratory instrument that implements the Wheatstone bridge.', answer: 'The meter bridge is a', options: ['The meter bridge is a', 'A potentiometer is an instrument', 'Electromotive force EMF of a', 'Ohms Law states that for'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsInternalResistanceSim, prompt: 'Explore the interactive — Internal Resistance' },
+    explore: { component: C12_PhysicsInternalResistanceSim, prompt: 'Explore the interactive — Potentiometer: Principle and Applications' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_03_008', difficulty: 'standard',
           question: 'A potentiometer is an instrument that measures an unknown potential difference.',
@@ -160,8 +160,8 @@ export const w_c12_physicsinternalresistancesim: SimDef = {
                   options: ['The diode violates all three criteria: (1) V vs I is non-linear (exponential) →', 'Ohm\'s law is V = IR'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "Ohm\'s law is V = IR" and that any device for which you can measure V and I obeys Ohm\'s law because you can always.' },
-                { id: 'b', prompt: 'Design a simple experiment using a pencil lead (graphite), a 9 V battery, an ammeter, a voltmeter, and a rheostat to verify Ohm\'s law and determine the.', answer: 'Steps: (1) Connect graphite rod in series with battery, rheostat, ammeter',
-                  options: ['Steps: (1) Connect graphite rod in series with battery, rheostat, ammeter', 'Ohm\'s law is V = IR'],
+                { id: 'b', prompt: 'Design a simple experiment using a pencil lead (graphite), a 9 V battery, an ammeter, a voltmeter, and a rheostat to verify Ohm\'s law and determine the.', answer: '(1) Connect graphite rod in series with battery, rheostat, ammeter',
+                  options: ['(1) Connect graphite rod in series with battery, rheostat, ammeter', 'Ohm\'s law is V = IR'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "Ohm\'s law is V = IR" and that any device for which you can measure V and I obeys Ohm\'s law because you can always.' },
                 { id: 'c', prompt: 'The V–I graphs for three devices are shown: (a) straight line through origin, (b) straight line not through origin, (c) curve symmetric about origin but.', answer: 'straight line through origin, (',

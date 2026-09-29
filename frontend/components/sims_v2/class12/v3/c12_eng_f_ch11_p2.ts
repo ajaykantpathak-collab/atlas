@@ -19,7 +19,7 @@ export const c12_eng_f_ch11_p2: SimDef = {
         hook: 'The poem is an argument, not a mood: proposal → consequence → evidence → clarification. Fishermen harming themselves, \'wars with gas, wars with fire,\' a \'victory with no survivors\' — the images are evidence that activity without introspection is the real danger.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the supporting ideas that enrich the primary theme of a poem by exploring specific facets of the central message.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Keeping Quiet\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_11_007', title: 'Your mission',
@@ -29,39 +29,39 @@ export const c12_eng_f_ch11_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are writing a board exam answer on "How does Keats show that beauty is not just a momentary pleasure but a lifelong sustenance?" You already know.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Keeping Quiet\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'Define "secondary theme" in the context of poetry analysis. How does it differ from the primary theme?', options: [
                 { text: 'A secondary theme is a supporting idea that explores a specific dimension of the primary', outcome: 'A secondary theme is a supporting idea that explores a specific dimension of the primary theme.' },
                 { text: 'Secondary theme is just another main idea', outcome: 'Not quite — Students often treat secondary themes as *just a list of topics* ("nature," "death," "stories").', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are sitting in a noisy classroom before an exam — everyone chatting, pens tapping, feet shuffling. Suddenly the teacher says, "Everyone, stop.',
+          caseStudy: { intro: 'Find the lines in \'Keeping Quiet\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'What is the basic difference between imagery and metaphor in poetry?', options: [
                 { text: 'Imagery uses sensory language to create a concrete mental picture (e.g., "his hands hurt', outcome: 'Imagery uses sensory language to create a concrete mental picture (e.g., "his hands hurt from the.' },
                 { text: 'both are comparisons', outcome: 'Not quite — Students routinely confuse *symbolism* with *metaphor* in this poem.', reveals: 'students-routinely-confuse-symbolism-with' },
                 { text: 'identify the poetic device', outcome: 'Not quite — Students routinely confuse *symbolism* with *metaphor* in this poem.', reveals: 'students-routinely-confuse-symbolism-with' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you tell a noisy classroom "Everyone stop talking!" — your words create the very noise you want to end. That\'s irony.',
+          caseStudy: { intro: 'Look in \'Keeping Quiet\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'What is the basic definition of irony as a literary device?', options: [
                 { text: 'Irony is a contrast between expectation and reality, or between what is said and what is', outcome: 'Irony is a contrast between expectation and reality, or between what is said and what is meant.' },
                 { text: 'irony is a funny coincidence', outcome: 'Not quite — Students often think any unexpected event is irony, and any comparison is symbolism.', reveals: 'any-unexpected-event-is-irony' },
                 { text: 'any unexpected event is irony, and any comparison is symbolism', outcome: 'Not quite — Students often think any unexpected event is irony, and any comparison is symbolism.', reveals: 'any-unexpected-event-is-irony' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading "Keeping Quiet" and the word "exotic" in line 2 makes you pause — you know it means "foreign" or "unusual," but why does Neruda call.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Keeping Quiet\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'Define "denotation" and "connotation" and give one example from "Keeping Quiet" where a word\'s connotation matters more than its denotation.', options: [
                 { text: 'Denotation is the literal dictionary meaning of a word', outcome: 'Denotation is the literal dictionary meaning of a word; connotation is the emotional, cultural,.' },
                 { text: 'How does the poet\'s word choice convey...?', outcome: 'Not quite — Students treat vocabulary questions as "give the meaning of X word" and write dictionary.', reveals: 'students-treat-vocabulary-questions-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading a poem aloud and suddenly stumble because the word order feels "backwards" — "Therefore, on every morrow, are we wreathing" instead.',
+          caseStudy: { intro: 'Read \'Keeping Quiet\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the archaic or poetic word forms used in the poem "A Thing of Beauty" and give one example with its modern equivalent.', options: [
                 { text: 'The poem uses "morrow" (modern: morning/tomorrow), "o\'er-darkened" (modern:', outcome: 'The poem uses "morrow" (modern: morning/tomorrow), "o\'er-darkened" (modern: over-darkened), and.' },
                 { text: 'beauty, joy, forever', outcome: 'Not quite — Students treat "grammar in poetry" as merely spotting parts of speech (nouns, verbs, adjectives).', reveals: 'students-treat-grammar-in-poetry' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re sitting in the Board exam and see a question: "What does the phrase \'endless fountain of immortal drink\' suggest about beauty\'s nature?".',
+          caseStudy: { intro: 'Answer \'Keeping Quiet\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify whether the following question is literal or inferential: "List the things of beauty mentioned in the poem."', options: [
                 { text: 'This is a **literal** question', outcome: 'This is a **literal** question because it asks for information directly stated in the poem (sun.' },
                 { text: 'inferential', outcome: 'Not quite — Students believe **inferential questions have "no right answer" — "it\'s just your opinion."** They.', reveals: 'inferential-questions-have-no-right' },
@@ -86,7 +86,7 @@ export const c12_eng_f_ch11_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_007', difficulty: 'standard',
-          question: 'Secondary themes are the supporting ideas that enrich the primary theme of.',
+          question: 'Secondary themes in \'Keeping Quiet\' — the supporting ideas and motifs that.',
           hint: 'If stuck, revisit c11_eng_h_cbse_01_007 (Class 11 secondary themes) and.',
           misconception: 'Students often treat secondary themes as *just a list of topics* ("nature," "death," "stories") rather than.',
           parts: [
@@ -97,7 +97,7 @@ export const c12_eng_f_ch11_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student cannot move from topic to thematic statement: (1) Give them the topic "nature" and ask: "What *does*.', 'Complete: \'Nature _______.\'" (2) Have them find 3 lines showing that action.', '(3) Guide them to formulate: "Nature *provides democratic healing* because..." (4) Practice converting 3 topics from.', 'Re-test with Diagnostic Question 2.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_008', difficulty: 'standard',
-          question: 'Imagery refers to the use of vivid, sensory language that appeals to the five.',
+          question: 'Imagery in \'Keeping Quiet\' — the vivid, sensory language that creates.',
           hint: 'If stuck, return to c6_english_u1_005 and practice labeling 20 lines from various poems.',
           misconception: 'Students routinely confuse *symbolism* with *metaphor* in this poem.',
           parts: [
@@ -119,7 +119,7 @@ export const c12_eng_f_ch11_p2: SimDef = {
           ],
             remediations: { 'students-routinely-confuse-symbolism-with': { steps: ['Revisit c6_english_u1_005 (Poetic Devices: Rhyme Scheme, Metaphor, Imagery) and c7_engl_ch01_008 (Literary Devices.', 'Create a three-column table: Column A = line from poem, Column B = device (imagery type / metaphor / symbol.', 'Re-attempt Diagnostic Questions 2 and 4.', 'If still incorrect, schedule a 15-minute conference with the teacher using the table as discussion basis.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_009', difficulty: 'standard',
-          question: 'Irony in "Keeping Quiet" is the contrast between the poet\'s verbal urging for.',
+          question: 'Irony and paradox in \'Keeping Quiet\' — where opposite things are both true,.',
           hint: 'Review c12_eng_f_cbse_11_008 (Imagery and Metaphor) and practice labeling images in the.',
           misconception: 'Students often think any unexpected event is irony, and any comparison is symbolism.',
           parts: [
@@ -134,7 +134,7 @@ export const c12_eng_f_ch11_p2: SimDef = {
           ],
             remediations: { 'any-unexpected-event-is-irony': { steps: ['Re-read the poem and highlight every imperative verb (e.g., "count", "stop", "let\'s not").', 'For each, ask: does the speaker do that thing?', 'List all concrete nouns (fishermen, salt, wars, clothes, earth).', 'For each, write what it *could* stand for beyond the literal.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_010', difficulty: 'standard',
-          question: 'Vocabulary in Context for "Keeping Quiet" involves identifying, defining, and.',
+          question: 'Key vocabulary of \'Keeping Quiet\' — the words and phrases you must know to read.',
           hint: 'If stuck on connotation analysis, review the "green wars" example in Class 11 Hornbill.',
           misconception: 'Students treat vocabulary questions as "give the meaning of X word" and write dictionary definitions.',
           parts: [
@@ -149,7 +149,7 @@ export const c12_eng_f_ch11_p2: SimDef = {
           ],
             remediations: { 'students-treat-vocabulary-questions-as': { steps: ['Have the student re-read the poem with a highlighter, marking only words that "feel wrong" or surprising in context.', 'For each marked word, complete a 3-column table: Literal Meaning | Contextual Meaning | Effect on Reader.', 'Practice one Board-style question: "How does Neruda\'s use of the word \'______\' contribute to the poem\'s message?" using.', 'Re-attempt Diagnostic Questions 2 and 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_011', difficulty: 'standard',
-          question: 'Language usage in poetry refers to the deliberate grammatical, syntactic, and.',
+          question: 'Language and style in \'Keeping Quiet\' — how the writer chose words, sentences.',
           hint: 'Review "Subject-Auxiliary Inversion after Fronted Adverbials" and "Prepositional Phrase.',
           misconception: 'Students treat "grammar in poetry" as merely spotting parts of speech (nouns, verbs, adjectives) rather than analyzing.',
           parts: [
@@ -160,7 +160,7 @@ export const c12_eng_f_ch11_p2: SimDef = {
           ],
             remediations: { 'students-treat-grammar-in-poetry': { steps: ['Revisit c11_eng_h_cbse_11_011 (Class 11 Grammar: Language Usage) and re-do the inversion and parallelism exercises.', 'Take the first 8 lines of "A Thing of Beauty," rewrite each line in standard prose order, then compare: what.', 'Complete the diagnostic re-check: identify the three inversions in the poem and explain each one\'s effect on emphasis.', 'If still stuck, watch the 10-minute video "Poetic Syntax in Keats" (linked in Class 12 resources) and take structured.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve information.',
+          question: 'Literal comprehension of \'Keeping Quiet\' — questions answered straight from the.',
           hint: 'If stuck on inference, return to c12_eng_f_cbse_11_008 (Imagery and Metaphor) — most.',
           misconception: 'Students believe **inferential questions have "no right answer" — "it\'s just your opinion."** They write vague.',
           parts: [

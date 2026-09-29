@@ -970,7 +970,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Applications Of Gene Cloning Refer To",
+    "title": "Applications Of Gene Cloning",
     "text": "Applications of gene cloning refer to the practical utilization of recombinant DNA technology to produce valuable proteins, engineer organisms with desired traits, diagnose diseases, and advance scientific research across medicine, agriculture, industry, and",
     "emoji": "🧬",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1323,7 +1323,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Human Growth Hormone Production In",
+    "title": "Human Growth Hormone Production",
     "text": "Human Growth Hormone (HGH) production in recombinant systems refers to the biotechnological process of synthesizing the 191-amino-acid human peptide hormone (somatotropin) in a heterologous host (typically *E.",
     "emoji": "🧬",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2455,13 +2455,13 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Haploid Production Through Anther And",
+    "title": "Haploid Production through Anther",
     "text": "Haploid production through anther and pollen culture (androgenesis) is a plant tissue culture technique where haploid plants (containing a single set of chromosomes, n) are regenerated from immature male gametophytes (microspores/pollen) or the anther wall",
     "emoji": "🧬",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Secondary Metabolite Production In",
+    "title": "Secondary Metabolite Production",
     "text": "Secondary metabolite production in bioreactors is the controlled cultivation of plant cells, tissues (especially hairy roots), or organ cultures in scalable, aseptic vessels (bioreactors) under optimized physicochemical conditions to synthesize commercially",
     "emoji": "🧬",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3195,7 +3195,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Stem Cell Therapy For Diabetes And",
+    "title": "Stem Cell Therapy For Diabetes",
     "text": "Stem cell therapy for diabetes and neurological disorders involves the use of pluripotent or multipotent stem cells to regenerate insulin-producing pancreatic beta cells (for Type 1 diabetes) or to replace damaged neurons and glial cells (for neurological",
     "emoji": "🧬",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3894,7 +3894,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Gene Therapy For Cancer Involves The",
+    "title": "Gene Therapy For Cancer",
     "text": "Gene therapy for cancer involves the introduction of genetic material into a patient's cells to treat or prevent cancer by correcting defective genes, enhancing immune recognition of tumor cells, inducing apoptosis, inhibiting angiogenesis, or sensitizing",
     "emoji": "🧬",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -5214,7 +5214,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_biotech_ch12",
-  "title": "Biotechnology Industry Encompasses The",
+  "title": "Biotechnology Industry Encompasses",
   "subtitle": "Biotechnology · Chapter 12",
   "classLevel": 12,
   "mode": "senior",
@@ -5254,7 +5254,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Biotechnology Industry Encompasses The",
+    "title": "Biotechnology Industry: Scope and Major",
     "text": "The biotechnology industry encompasses the commercial application of biological systems, living organisms, or their derivatives to develop products and processes across five major innovation sectors: environmental biotechnology (biofuels, biodegradation,",
     "emoji": "🧬",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -6334,7 +6334,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Ethical Issues In Genetic Engineering Of",
+    "title": "Ethical Issues In Genetic Engineering",
     "text": "Ethical issues in genetic engineering of organisms refer to the moral dilemmas and value-based conflicts arising from the deliberate alteration of an organism's genome using biotechnology, encompassing concerns about human dignity, environmental stewardship,",
     "emoji": "🧬",
     "bgColor": "from-rose-400 to-pink-500"

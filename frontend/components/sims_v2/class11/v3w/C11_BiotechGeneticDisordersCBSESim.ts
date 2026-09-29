@@ -6,13 +6,13 @@ import C11_BiotechGeneticDisordersCBSESim from '../../../simulations/c6_12_new/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biotechgeneticdisorderscbsesim: SimDef = {
     id: 'v3w_c11_biotechgeneticdisorderscbsesim',
-    title: 'Genetic Disorders CBSE',
+    title: 'Down Syndrome: Trisomy 21',
     subtitle: 'This node covers the etiology (trisomy 21, translocation, mosaicism), clinical phenotype,.',
     classLevel: 11, subject: 'biotechnology', topic: 'Down Syndrome: Trisomy 21',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_08_006', 'c11_biotech_cbse_08_009', 'c11_biotech_cbse_08_010', 'c11_biotech_cbse_08_008', 'c11_biotech_cbse_06_010', 'c11_biotech_cbse_08_004', 'c11_biotech_cbse_03_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a genetic counselor meeting a 38-year-old expectant mother whose ultrasound shows a thickened.', goal: 'Master Genetic Disorders CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a genetic counselor meeting a 38-year-old expectant mother whose ultrasound shows a thickened.', goal: 'Master Down Syndrome: Trisomy 21.' },
     discovery: {
         question: 'What is the karyotype notation for a male with Down syndrome caused by free trisomy 21?',
         options: ['The correct karyotype is 47,XY,+21', 'inherited from parents', 'Down syndrome is "inherited from parents" like a Mendelian trait'],
@@ -80,7 +80,7 @@ export const w_c11_biotechgeneticdisorderscbsesim: SimDef = {
             { text: 'Conclude: heterozygous interstitial deletion of 5p15.2, consistent with Cri-du-chat syndrome (OMIM 123450).', faded: true, blankAnswer: 'Heterozygous interstitial deletion del(5)(p15.2), ~5-10 Mb,.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_biotech_cbse_08_009', title: 'Identify each idea',
-          dissect: { specimen: 'Genetic Disorders CBSE', spots: [
+          dissect: { specimen: 'Down Syndrome: Trisomy 21', spots: [
             { id: 's1', label: 'Down syndrome Trisomy 21 is', prompt: 'Which idea is this? — Down syndrome (Trisomy 21) is a genetic disorder caused by the presence of an extra copy.', answer: 'Down syndrome Trisomy 21 is', options: ['Down syndrome Trisomy 21 is', 'X-linked recessive disorders are genetic', 'Sickle cell anaemia is an', 'Autosomal recessive disorders require homozygous'] },
             { id: 's2', label: 'X-linked recessive disorders are genetic', prompt: 'Which idea is this? — X-linked recessive disorders are genetic conditions caused by mutations in genes located.', answer: 'X-linked recessive disorders are genetic', options: ['X-linked recessive disorders are genetic', 'Down syndrome Trisomy 21 is', 'Sickle cell anaemia is an', 'Autosomal recessive disorders require homozygous'] },
             { id: 's3', label: 'Sickle cell anaemia is an', prompt: 'Which idea is this? — Sickle cell anaemia is an autosomal recessive monogenic disorder caused by a single.', answer: 'Sickle cell anaemia is an', options: ['Sickle cell anaemia is an', 'Down syndrome Trisomy 21 is', 'X-linked recessive disorders are genetic', 'Autosomal recessive disorders require homozygous'] },
@@ -89,7 +89,7 @@ export const w_c11_biotechgeneticdisorderscbsesim: SimDef = {
             { id: 's6', label: 'Structural chromosomal abnormalities are permanent', prompt: 'Which idea is this? — Structural chromosomal abnormalities are permanent alterations in chromosome architecture.', answer: 'Structural chromosomal abnormalities are permanent', options: ['Structural chromosomal abnormalities are permanent', 'Down syndrome Trisomy 21 is', 'X-linked recessive disorders are genetic', 'Sickle cell anaemia is an'] }
           ] } }
     ],
-    explore: { component: C11_BiotechGeneticDisordersCBSESim, prompt: 'Explore the interactive — Genetic Disorders CBSE' },
+    explore: { component: C11_BiotechGeneticDisordersCBSESim, prompt: 'Explore the interactive — Down Syndrome: Trisomy 21' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_biotech_cbse_08_006', difficulty: 'standard',
           question: 'Down syndrome (Trisomy 21) is a genetic disorder caused by the presence of an.',

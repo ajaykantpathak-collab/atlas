@@ -54,6 +54,14 @@ const misSlug = (s) => slug((s ?? '').replace(/^(students?\s+(often\s+)?(think|b
 const STOP_END = /\b(the|a|an|of|to|in|is|are|that|and|or|for|with|by|it|its)\.?$/i;
 const shortAnswer = (a) => {
     let t = (a ?? '').replace(/\s+/g, ' ').trim();
+    // authored step-list answers: keep the FIRST step's own text instead of
+    // the literal "Steps: 1)" scaffold (a bare "Steps: 1" is a placeholder)
+    if (/^steps?\s*:/i.test(t)) {
+        t = t.replace(/^steps?\s*:\s*/i, '').replace(/^\d+\s*[).]\s*/, '');
+        const stepItems = t.split(/\s+\d+\s*[).]\s*/);
+        if (stepItems.length > 1 && stepItems[0].split(' ').length >= 3) t = stepItems[0];
+        else t = stepItems.join(' ');
+    }
     t = (t.split(/(?<=[.!?])\s+/)[0] ?? t);
     for (const m of [' because ', ' — ', ' which ', ' since ', '; ', ' as it ', ' this is ', ' a wrong answer', ' a student']) {
         const i = t.toLowerCase().indexOf(m);
@@ -163,10 +171,15 @@ function wrapMaster(file, dir) {
     const body = comp.slice(cm[0].length).replace(/Sim$/, '');
     const subjM = body.match(SUBJ_GUESS);
     const subject = normSubj(subjM?.[1] ?? 'science');
-    const title = titleCase(body.replace(SUBJ_GUESS, '')
+    // Title/topic come from the mapped corpus node's own curriculum topic —
+    // component names are legacy engineering slugs ("Ohms", "WaterCycle")
+    // that routinely contradict what the master actually teaches.
+    const srcTopic = (SRC[nodeIds[0]]?.topic ?? '').replace(/\s+/g, ' ').trim();
+    const compTitle = titleCase(body.replace(SUBJ_GUESS, '')
         .replace(/(detailed|general|interactive|introductory|intro|basic|advanced|simulation|sim|v2)$/i, ''))
         || titleCase(body);
-    const topic = SRC[nodeIds[0]]?.topic ?? title;
+    const title = srcTopic || compTitle;
+    const topic = srcTopic || compTitle;
 
     // challenges from the master's OWN declared nodes — with remediation
     const challenges = [], beats = [];

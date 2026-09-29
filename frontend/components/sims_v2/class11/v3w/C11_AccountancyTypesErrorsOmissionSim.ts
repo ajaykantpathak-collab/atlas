@@ -6,13 +6,13 @@ import C11_AccountancyTypesErrorsOmissionSim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_accountancytypeserrorsomissionsim: SimDef = {
     id: 'v3w_c11_accountancytypeserrorsomissionsim',
-    title: 'Types Errors Omission',
+    title: 'Errors Disclosed and Not Disclosed by Trial Balance',
     subtitle: 'This node covers the classification of errors based on their effect on trial balance.',
     classLevel: 11, subject: 'accountancy', topic: 'Errors Disclosed and Not Disclosed by Trial Balance',
     chapters: [],
     nodeIds: ['c11_acc_cbse_06_003', 'c11_acc_cbse_06_006', 'c11_acc_cbse_06_009', 'c11_acc_cbse_05_007', 'c11_acc_cbse_06_004', 'c11_acc_cbse_06_005', 'c11_acc_cbse_05_009', 'c11_acc_cbse_06_001', 'c11_acc_cbse_06_002', 'c11_acc_cbse_06_007', 'c11_acc_cbse_06_008', 'c11_acc_cbse_06_010', 'c11_acc_cbse_05_001', 'c11_acc_cbse_05_002', 'c11_acc_cbse_05_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re an accountant at a Delhi-based trading firm. It\'s March 31st, and you\'ve just prepared the.', goal: 'Master Types Errors Omission.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re an accountant at a Delhi-based trading firm. It\'s March 31st, and you\'ve just prepared the.', goal: 'Master Errors Disclosed and Not Disclosed by Trial Balance.' },
     discovery: {
         question: 'A bookkeeper records a credit purchase of goods worth ₹20,000 from supplier Rahul.',
         options: ['Yes, this error will be disclosed by the trial balance', 'Error of Commission always affects trial balance', 'Error of Principle never affects trial balance'],
@@ -82,7 +82,7 @@ export const w_c11_accountancytypeserrorsomissionsim: SimDef = {
             { text: 'Write the rectification entry — because it is a two-sided error (both accounts missed), we simply record the missed.', faded: true, blankAnswer: 'Complete omission; Trial Balance agrees; Rectification:.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_acc_cbse_06_006', title: 'Identify each idea',
-          dissect: { specimen: 'Types Errors Omission', spots: [
+          dissect: { specimen: 'Errors Disclosed and Not Disclosed by Trial Balance', spots: [
             { id: 's1', label: 'Errors disclosed by trial balance', prompt: 'Which idea is this? — Errors disclosed by trial balance are one-sided errors that cause the total debits and.', answer: 'Errors disclosed by trial balance', options: ['Errors disclosed by trial balance', 'Errors of Commission are clerical', 'Rectification of errors is the', 'Errors in Cash Book and'] },
             { id: 's2', label: 'Errors of Commission are clerical', prompt: 'Which idea is this? — Errors of Commission are clerical mistakes arising from incorrect execution of accounting.', answer: 'Errors of Commission are clerical', options: ['Errors of Commission are clerical', 'Errors disclosed by trial balance', 'Rectification of errors is the', 'Errors in Cash Book and'] },
             { id: 's3', label: 'Rectification of errors is the', prompt: 'Which idea is this? — Rectification of errors is the systematic process of correcting accounting mistakes by.', answer: 'Rectification of errors is the', options: ['Rectification of errors is the', 'Errors disclosed by trial balance', 'Errors of Commission are clerical', 'Errors in Cash Book and'] },
@@ -91,7 +91,7 @@ export const w_c11_accountancytypeserrorsomissionsim: SimDef = {
             { id: 's6', label: 'Errors of Omission occur when', prompt: 'Which idea is this? — Errors of Omission occur when a transaction is either completely left out from the books.', answer: 'Errors of Omission occur when', options: ['Errors of Omission occur when', 'Errors disclosed by trial balance', 'Errors of Commission are clerical', 'Rectification of errors is the'] }
           ] } }
     ],
-    explore: { component: C11_AccountancyTypesErrorsOmissionSim, prompt: 'Explore the interactive — Types Errors Omission' },
+    explore: { component: C11_AccountancyTypesErrorsOmissionSim, prompt: 'Explore the interactive — Errors Disclosed and Not Disclosed by Trial Balance' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_acc_cbse_06_003', difficulty: 'standard',
           question: 'Errors disclosed by trial balance are one-sided errors that cause the total.',

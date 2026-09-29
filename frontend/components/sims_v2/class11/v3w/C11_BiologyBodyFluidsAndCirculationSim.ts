@@ -6,13 +6,13 @@ import C11_BiologyBodyFluidsAndCirculationSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologybodyfluidsandcirculationsim: SimDef = {
     id: 'v3w_c11_biologybodyfluidsandcirculationsim',
-    title: 'Body Fluids And Circulation',
+    title: 'Lymph and Lymphatic System',
     subtitle: 'Covers the formation, composition, circulation, and functions of lymph and the lymphatic.',
     classLevel: 11, subject: 'biology', topic: 'Lymph and Lymphatic System',
     chapters: [],
     nodeIds: ['c11_bio_cbse_15_008', 'c11_bio_cbse_15_005', 'c11_bio_cbse_15_003', 'c11_bio_cbse_15_004', 'c11_bio_cbse_15_001', 'c11_bio_cbse_04_012', 'c11_bio_cbse_18_005', 'c11_bio_cbse_15_006', 'c11_bio_cbse_16_006', 'c11_bio_cbse_16_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Start with a relatable observation: when you get a small cut or swelling, you may notice a clear fluid oozing.', goal: 'Master Body Fluids And Circulation.' },
+    scenario: { role: 'a class 11 learner', intro: 'Start with a relatable observation: when you get a small cut or swelling, you may notice a clear fluid oozing.', goal: 'Master Lymph and Lymphatic System.' },
     discovery: {
         question: 'Why is lymph described as a "colourless fluid" despite being derived from blood, which is red?',
         options: ['Lymph is colourless', 'lymph loses its colour in lymph nodes', 'blood without red cells'],
@@ -81,7 +81,7 @@ export const w_c11_biologybodyfluidsandcirculationsim: SimDef = {
             { text: 'Conclude Phylum Hemichordata (e.g., Balanoglossus).', faded: true, blankAnswer: 'Phylum Hemichordata. Justification: Triploblastic,.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_15_005', title: 'Identify each idea',
-          dissect: { specimen: 'Body Fluids And Circulation', spots: [
+          dissect: { specimen: 'Lymph and Lymphatic System', spots: [
             { id: 's1', label: 'Lymph is a clear colourless', prompt: 'Which idea is this? — Lymph is a clear, colourless fluid derived from interstitial fluid that enters the.', answer: 'Lymph is a clear colourless', options: ['Lymph is a clear colourless', 'Double circulation is a circulatory', 'The human heart is a', 'The cardiac cycle is the'] },
             { id: 's2', label: 'Double circulation is a circulatory', prompt: 'Which idea is this? — Double circulation is a circulatory pathway in which blood passes through the heart twice.', answer: 'Double circulation is a circulatory', options: ['Double circulation is a circulatory', 'Lymph is a clear colourless', 'The human heart is a', 'The cardiac cycle is the'] },
             { id: 's3', label: 'The human heart is a', prompt: 'Which idea is this? — The human heart is a four-chambered, muscular pumping organ located in the thoracic.', answer: 'The human heart is a', options: ['The human heart is a', 'Lymph is a clear colourless', 'Double circulation is a circulatory', 'The cardiac cycle is the'] },
@@ -90,7 +90,7 @@ export const w_c11_biologybodyfluidsandcirculationsim: SimDef = {
             { id: 's6', label: 'Phylum Hemichordata comprises a small', prompt: 'Which idea is this? — Phylum Hemichordata comprises a small group of exclusively marine, worm-like.', answer: 'Phylum Hemichordata comprises a small', options: ['Phylum Hemichordata comprises a small', 'Lymph is a clear colourless', 'Double circulation is a circulatory', 'The human heart is a'] }
           ] } }
     ],
-    explore: { component: C11_BiologyBodyFluidsAndCirculationSim, prompt: 'Explore the interactive — Body Fluids And Circulation' },
+    explore: { component: C11_BiologyBodyFluidsAndCirculationSim, prompt: 'Explore the interactive — Lymph and Lymphatic System' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_15_008', difficulty: 'standard',
           question: 'Lymph is a clear, colourless fluid derived from interstitial fluid that enters.',

@@ -6,13 +6,13 @@ import C11_GeographyMapScaleSim from '../../../simulations/c6_12/C11_GeographyMa
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geographymapscalesim: SimDef = {
     id: 'v3w_c11_geographymapscalesim',
-    title: 'Map Scale',
+    title: 'Maps: Definition, Types and Essential Elements',
     subtitle: 'This node covers the definition of a map, its essential elements (title, scale,.',
     classLevel: 11, subject: 'geography', topic: 'Maps: Definition, Types and Essential Elements',
     chapters: [],
     nodeIds: ['c11_geo_cbse_22_001', 'c11_geo_cbse_22_002', 'c11_geo_cbse_22_003', 'c11_geo_cbse_22_005', 'c11_geo_cbse_23_001', 'c11_geo_cbse_23_002', 'c11_geo_cbse_23_003', 'c11_geo_cbse_23_004', 'c11_geo_cbse_23_006', 'c11_geo_cbse_23_007', 'c11_geo_cbse_23_009', 'c11_geo_cbse_24_001', 'c11_geo_cbse_24_002', 'c11_geo_cbse_24_003', 'c11_geo_cbse_24_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Begin by showing students a familiar object: a Google Maps screenshot of their school locality on a phone.', goal: 'Master Map Scale.' },
+    scenario: { role: 'a class 11 learner', intro: 'Begin by showing students a familiar object: a Google Maps screenshot of their school locality on a phone.', goal: 'Master Maps: Definition, Types and Essential Elements.' },
     discovery: {
         question: 'A map has a Statement of Scale: "2 cm represents 1 km". If this map is reduced to half its original size during photocopying, what happens to the accuracy of.',
         options: ['The Statement of Scale and R.F', 'all three become wrong', 'only R.F'],
@@ -82,7 +82,7 @@ export const w_c11_geographymapscalesim: SimDef = {
             { text: 'Verify: 1:25,000 is larger scale (denominator smaller), so map distance should double (50,000/25,000 = 2).', faded: true, blankAnswer: 'Actual river length = 3.2 km. On 1:25,000 map, the stretch.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_geo_cbse_22_002', title: 'Identify each idea',
-          dissect: { specimen: 'Map Scale', spots: [
+          dissect: { specimen: 'Maps: Definition, Types and Essential Elements', spots: [
             { id: 's1', label: 'A map is a scaled', prompt: 'Which idea is this? — A map is a scaled, symbolized, and generalized representation of the whole or a part of.', answer: 'A map is a scaled', options: ['A map is a scaled', 'The history of map making', 'Map scale is the precise', 'Map reading is the systematic'] },
             { id: 's2', label: 'The history of map making', prompt: 'Which idea is this? — The history of map making traces the evolution of cartography from ancient symbolic.', answer: 'The history of map making', options: ['The history of map making', 'A map is a scaled', 'Map scale is the precise', 'Map reading is the systematic'] },
             { id: 's3', label: 'Map scale is the precise', prompt: 'Which idea is this? — Map scale is the precise ratio or relationship between a distance measured on a map and.', answer: 'Map scale is the precise', options: ['Map scale is the precise', 'A map is a scaled', 'The history of map making', 'Map reading is the systematic'] },
@@ -91,7 +91,7 @@ export const w_c11_geographymapscalesim: SimDef = {
             { id: 's6', label: 'Representative Fraction RF is a', prompt: 'Which idea is this? — Representative Fraction (RF) is a unitless ratio expressing map scale as 1 : X, where 1.', answer: 'Representative Fraction RF is a', options: ['Representative Fraction RF is a', 'A map is a scaled', 'The history of map making', 'Map scale is the precise'] }
           ] } }
     ],
-    explore: { component: C11_GeographyMapScaleSim, prompt: 'Explore the interactive — Map Scale' },
+    explore: { component: C11_GeographyMapScaleSim, prompt: 'Explore the interactive — Maps: Definition, Types and Essential Elements' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_22_001', difficulty: 'standard',
           question: 'A map is a scaled, symbolized, and generalized representation of the whole or a.',

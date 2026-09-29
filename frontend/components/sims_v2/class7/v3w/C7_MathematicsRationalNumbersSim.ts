@@ -6,13 +6,13 @@ import C7_MathematicsRationalNumbersSim from '../../../simulations/c6_12/C7_Math
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsrationalnumberssim: SimDef = {
     id: 'v3w_c7_mathematicsrationalnumberssim',
-    title: 'Rational Numbers',
+    title: 'Subtraction of Integers: Rules and Examples',
     subtitle: 'Covers subtraction of positive and negative integers, including algebraic transformation.',
     classLevel: 7, subject: 'mathematics', topic: 'Subtraction of Integers: Rules and Examples',
     chapters: [],
     nodeIds: ['c7_math_ch10_003', 'c7_math_ch10_008', 'c7_math_ch10_009', 'c7_math_ch08_004', 'c7_math_ch08_009', 'c7_math_ch08_003', 'c7_math_ch08_010', 'c7_math_ch10_001', 'c7_math_ch10_002', 'c7_math_ch10_004', 'c7_math_ch10_005', 'c7_math_ch10_006', 'c7_math_ch08_001', 'c7_math_ch08_002', 'c7_math_ch08_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine you are checking the weather report in Srinagar, where the morning temperature is $-3^\\circ\\text{C}$.', goal: 'Master Rational Numbers.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine you are checking the weather report in Srinagar, where the morning temperature is $-3^\\circ\\text{C}$.', goal: 'Master Subtraction of Integers: Rules and Examples.' },
     discovery: {
         question: 'At 6:00 PM, the temperature in Shimla was 2 °C. By midnight, the temperature dropped by 5 °C. Which integer represents the temperature at midnight?',
         options: ['The correct answer is -3 °C', 'below sea level', 'temperature drop'],
@@ -78,7 +78,7 @@ export const w_c7_mathematicsrationalnumberssim: SimDef = {
             { text: 'Simplify the fraction by dividing the numerator and denominator by their greatest common divisor, 6: $\\frac{6 \\div.', faded: true, blankAnswer: '$\\frac{1}{2}$ kg' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch10_008', title: 'Identify each idea',
-          dissect: { specimen: 'Rational Numbers', spots: [
+          dissect: { specimen: 'Subtraction of Integers: Rules and Examples', spots: [
             { id: 's1', label: 'Subtraction of integers involves finding', prompt: 'Which idea is this? — Subtraction of integers involves finding the difference between two integers by adding.', answer: 'Subtraction of integers involves finding', options: ['Subtraction of integers involves finding', 'The division of integers follows', 'Word problems with integers involve', 'The division of fractions using'] },
             { id: 's2', label: 'The division of integers follows', prompt: 'Which idea is this? — The division of integers follows specific sign rules: dividing two integers with like.', answer: 'The division of integers follows', options: ['The division of integers follows', 'Subtraction of integers involves finding', 'Word problems with integers involve', 'The division of fractions using'] },
             { id: 's3', label: 'Word problems with integers involve', prompt: 'Which idea is this? — Word problems with integers involve translating real-world scenarios—such as changing.', answer: 'Word problems with integers involve', options: ['Word problems with integers involve', 'Subtraction of integers involves finding', 'The division of integers follows', 'The division of fractions using'] },
@@ -87,7 +87,7 @@ export const w_c7_mathematicsrationalnumberssim: SimDef = {
             { id: 's6', label: 'Multiplying two fractions involves multiplying', prompt: 'Which idea is this? — Multiplying two fractions involves multiplying their numerators together to form the new.', answer: 'Multiplying two fractions involves multiplying', options: ['Multiplying two fractions involves multiplying', 'Subtraction of integers involves finding', 'The division of integers follows', 'Word problems with integers involve'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsRationalNumbersSim, prompt: 'Explore the interactive — Rational Numbers' },
+    explore: { component: C7_MathematicsRationalNumbersSim, prompt: 'Explore the interactive — Subtraction of Integers: Rules and Examples' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch10_003', difficulty: 'standard',
           question: 'Subtraction of integers involves finding the difference between two integers by.',

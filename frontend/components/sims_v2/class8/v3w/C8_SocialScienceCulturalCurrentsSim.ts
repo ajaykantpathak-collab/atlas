@@ -6,13 +6,13 @@ import C8_SocialScienceCulturalCurrentsSim from '../../../simulations/c6_12/C8_S
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_socialscienceculturalcurrentssim: SimDef = {
     id: 'v3w_c8_socialscienceculturalcurrentssim',
-    title: 'Social Science Cultural Currents',
+    title: 'Colonialism: Definition and Historical Context',
     subtitle: 'This node covers the definition, core features (political control, economic exploitation,.',
     classLevel: 8, subject: 'science', topic: 'Colonialism: Definition and Historical Context',
     chapters: [],
     nodeIds: ['c8_hist_ch3_1', 'c8_hist_ch3_10', 'c8_hist_ch5_1', 'c8_hist_ch5_10', 'c8_hist_ch5_11', 'c8_hist_ch5_9', 'c8_hist_ch4_1', 'c8_hist_ch4_5'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you are visiting the Basilica of Bom Jesus in Old Goa or St.', goal: 'Master Social Science Cultural Currents.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you are visiting the Basilica of Bom Jesus in Old Goa or St.', goal: 'Master Colonialism: Definition and Historical Context.' },
     discovery: {
         question: 'Compare the *motives* of the East India Company (chartered 1600) and the Mughal emperor Jahangir (who gave them a farman in 1615).',
         options: ['Alignment: Company wanted trade monopoly', 'both wanted territory', 'colonialism *began* with the Battle of Plassey (1757) and was *only* British'],
@@ -78,7 +78,7 @@ export const w_c8_socialscienceculturalcurrentssim: SimDef = {
             { text: 'Compare with contemporary temple patronage (e.g., Modhera Sun Temple, same dynasty) — stepwells reached wider publics.', faded: true, blankAnswer: 'Rani ki Vav legitimised Solanki rule by transforming a.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_hist_ch3_10', title: 'Identify each idea',
-          dissect: { specimen: 'Social Science Cultural Currents', spots: [
+          dissect: { specimen: 'Colonialism: Definition and Historical Context', spots: [
             { id: 's1', label: 'Colonialism is a system where', prompt: 'Which idea is this? — Colonialism is a system where a powerful country establishes political control over a.', answer: 'Colonialism is a system where', options: ['Colonialism is a system where', 'The Social and Cultural Impact', 'Indian architecture is a continuous', 'Colonial architecture in India 16th20th'] },
             { id: 's2', label: 'The Social and Cultural Impact', prompt: 'Which idea is this? — The Social and Cultural Impact of British Colonialism refers to the profound.', answer: 'The Social and Cultural Impact', options: ['The Social and Cultural Impact', 'Colonialism is a system where', 'Indian architecture is a continuous', 'Colonial architecture in India 16th20th'] },
             { id: 's3', label: 'Indian architecture is a continuous', prompt: 'Which idea is this? — Indian architecture is a continuous tradition from the 3rd millennium BCE to the present.', answer: 'Indian architecture is a continuous', options: ['Indian architecture is a continuous', 'Colonialism is a system where', 'The Social and Cultural Impact', 'Colonial architecture in India 16th20th'] },
@@ -87,7 +87,7 @@ export const w_c8_socialscienceculturalcurrentssim: SimDef = {
             { id: 's6', label: 'Stepwells vavs in Gujarat baoris', prompt: 'Which idea is this? — Stepwells (vavs in Gujarat, baoris in Rajasthan) are multi-storeyed subterranean.', answer: 'Stepwells vavs in Gujarat baoris', options: ['Stepwells vavs in Gujarat baoris', 'Colonialism is a system where', 'The Social and Cultural Impact', 'Indian architecture is a continuous'] }
           ] } }
     ],
-    explore: { component: C8_SocialScienceCulturalCurrentsSim, prompt: 'Explore the interactive — Social Science Cultural Currents' },
+    explore: { component: C8_SocialScienceCulturalCurrentsSim, prompt: 'Explore the interactive — Colonialism: Definition and Historical Context' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_hist_ch3_1', difficulty: 'standard',
           question: 'Colonialism is a system where a powerful country establishes political control.',

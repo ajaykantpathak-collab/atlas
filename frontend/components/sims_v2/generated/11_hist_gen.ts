@@ -9,15 +9,13 @@ import type { SimDef } from '../engine/types';
 export const C11_HIST_GEN: SimDef[] = [
  {
   "id": "gen_c11_hist_ch01",
-  "title": "Mesopotamia (Greek",
+  "title": "Mesopotamia: Geography and the Significance",
   "subtitle": "History · Chapter 1",
   "classLevel": 11,
   "mode": "senior",
   "subject": "history",
-  "topic": "Mesopotamia (Greek",
-  "chapters": [
-   "History Ch1: Mesopotamia (Greek"
-  ],
+  "topic": "Mesopotamia: Geography and the Significance",
+  "chapters": ["History Ch1: Mesopotamia: Geography and the Significance"],
   "nodeIds": [
    "c11_hist_cbse_01_001",
    "c11_hist_cbse_01_002",
@@ -38,7 +36,7 @@ export const C11_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Mesopotamia (Greek outside the classroom?",
+   "question": "Quick guess -- where do you meet Mesopotamia: Geography and the outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -49,7 +47,7 @@ export const C11_HIST_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Mesopotamia (Greek",
+    "title": "Mesopotamia",
     "text": "Mesopotamia (Greek: *mesos* 'middle', *potamos* 'river') refers to the historical region in modern-day Iraq situated between the Tigris and Euphrates rivers.",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -904,25 +902,23 @@ export const C11_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about mesopotamia (greek?",
+    "What surprised you about mesopotamia: geography and the significance?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Mesopotamia (Greek mastered! 🎯",
+  "successLine": "Mesopotamia: Geography mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_hist_ch02",
-  "title": "Roman Empire (27 BCE –",
+  "title": "The Roman Empire: Geography and the Three",
   "subtitle": "History · Chapter 2",
   "classLevel": 11,
   "mode": "senior",
   "subject": "history",
-  "topic": "Roman Empire (27 BCE –",
-  "chapters": [
-   "History Ch2: Roman Empire (27 BCE –"
-  ],
+  "topic": "The Roman Empire: Geography and the Three",
+  "chapters": ["History Ch2: The Roman Empire: Geography and the Three"],
   "nodeIds": [
    "c11_hist_cbse_02_001",
    "c11_hist_cbse_02_002",
@@ -943,7 +939,7 @@ export const C11_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Roman Empire (27 BCE – directly with your eyes?",
+   "question": "Can you see The Roman Empire: Geography and directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -954,19 +950,19 @@ export const C11_HIST_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Roman Empire (27 BCE –",
+    "title": "Roman Empire",
     "text": "The Roman Empire (27 BCE – 476 CE in the west; 1453 CE in the east) was a transcontinental imperial state centered on the Mediterranean Sea, spanning Europe, North Africa, and West Asia.",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Mediterranean Sea Served As The",
+    "title": "Mediterranean Sea Served As",
     "text": "The Mediterranean Sea served as the central geographical and economic artery of the Roman Empire (c. 200 BCE – 300 CE), functioning as an integrated maritime highway that connected the three continents of Europe, North Africa, and West Asia, enabling Rome to",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Principate (27 BCE – 284",
+    "title": "The Principate",
     "text": "The Principate (27 BCE – 284 CE) was the political system established by Augustus (Octavian) that transformed the Roman Republic into a de facto monarchy while preserving republican institutions; Augustus held the title Princeps ('first citizen') and",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -990,13 +986,13 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Slavery In The Roman Empire (27",
+    "title": "Slavery In The Roman Empire",
     "text": "Slavery in the Roman Empire (27 BCE – 476 CE West / 1453 CE East) was a legally sanctioned system of forced labour where enslaved persons (servi) were considered property (res) without legal personhood, deployed across agriculture (latifundia), industry",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Late Roman Empire (c. 284–476",
+    "title": "Late Roman Empire",
     "text": "The Late Roman Empire (c. 284–476 CE) marks the transition from the Principate to the Dominate, characterised by Diocletian's administrative reforms, Constantine's conversion to Christianity (312 CE), the founding of Constantinople (324 CE), and the",
     "emoji": "🏛️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1817,11 +1813,11 @@ export const C11_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about roman empire (27 bce –?",
+    "What surprised you about the roman empire: geography and the three?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Roman Empire (27 BCE – mastered! 🎯",
+  "successLine": "The Roman Empire: Geography mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1914,7 +1910,7 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Barbarian Kingdoms Refer To The",
+    "title": "Barbarian Kingdoms",
     "text": "The Barbarian Kingdoms refer to the successor states established by Germanic tribes (Visigoths, Ostrogoths, Franks, Vandals, Burgundians, Lombards) in the territories of the former Western Roman Empire between the 5th and 8th centuries CE, which transformed",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2513,7 +2509,7 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Life Of The Prophet Muhammad And The",
+    "title": "The Life of the Prophet Muhammad",
     "text": "The Life of the Prophet Muhammad and the Founding of Islam refers to the historical period (c. 570–632 CE) in the Arabian Peninsula during which Muhammad ibn Abdullah, a merchant from the Quraysh tribe of Mecca, received divine revelations (Quran),",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3432,7 +3428,7 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Process By Which Temujin (c",
+    "title": "Process By Which Temujin",
     "text": "The process by which Temujin (c. 1162–1227), born into a minor Mongol clan, overcame tribal fragmentation, defeated rival confederacies (Tatars, Kereyids, Naimans, Merkits), and was proclaimed Genghis Khan (\"Universal Ruler\") at the 1206 quriltai,",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -3450,7 +3446,7 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Mongol Conquests Refer To",
+    "title": "Mongol Conquests",
     "text": "The Mongol Conquests (1206–1227) refer to the rapid military expansion initiated by Genghis Khan that subjugated the Western Xia (1209–1210), the Jin Dynasty in northern China (1211–1234), the Kara-Khitai Khanate in Central Asia (1218), and the Khwarazmian",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -3468,7 +3464,7 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Yuan Dynasty Was The",
+    "title": "Yuan Dynasty",
     "text": "The Yuan Dynasty (1271–1368) was the Mongol imperial dynasty established in China by Kublai Khan, grandson of Genghis Khan, marking the first time a non-Han ethnic group ruled all of China from a Chinese-style capital at Dadu (modern Beijing); it combined",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4076,15 +4072,13 @@ export const C11_HIST_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_hist_ch06",
-  "title": "Feudal Society In Medieval Europe (c",
+  "title": "Feudal Society: The Three Orders of Medieval",
   "subtitle": "History · Chapter 6",
   "classLevel": 11,
   "mode": "senior",
   "subject": "history",
-  "topic": "Feudal Society In Medieval Europe (c",
-  "chapters": [
-   "History Ch6: Feudal Society In Medieval Europe (c"
-  ],
+  "topic": "Feudal Society: The Three Orders of Medieval",
+  "chapters": ["History Ch6: Feudal Society: The Three Orders of Medieval"],
   "nodeIds": [
    "c11_hist_cbse_06_001",
    "c11_hist_cbse_06_002",
@@ -4105,7 +4099,7 @@ export const C11_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Feudal Society In Medieval Europe suddenly stops working?",
+   "question": "What happens if Feudal Society: The Three Orders suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -4116,7 +4110,7 @@ export const C11_HIST_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Feudal Society In Medieval Europe (c",
+    "title": "Feudal Society In Medieval Europe",
     "text": "Feudal society in medieval Europe (c. 9th–15th century) was a hierarchical social, economic, and political system structured around land tenure and reciprocal obligations, divided into three functional orders: *Oratores* (those who pray – the clergy),",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -4152,13 +4146,13 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Medieval Catholic Church (c. 500–1500",
+    "title": "Medieval Catholic Church",
     "text": "The medieval Catholic Church (c. 500–1500 CE) functioned as a transnational institutional hierarchy headed by the Pope in Rome, comprising the secular clergy (bishops, parish priests) and regular clergy (monks, nuns in monasteries governed by rules like St.",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Revival Of Towns And Expansion Of Trade In",
+    "title": "Towns and the Growth of Trade in Medieval",
     "text": "The revival of towns and expansion of trade in medieval Europe (c. 1000–1300 CE) refers to the transformation from a localised, manor-based subsistence economy to a money-based commercial network, driven by agricultural surplus, population growth, and the",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -4805,11 +4799,11 @@ export const C11_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about feudal society in medieval europe (c?",
+    "What surprised you about feudal society: the three orders of medieval?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Feudal Society In Medieval mastered! 🎯",
+  "successLine": "Feudal Society: The Three mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -4861,7 +4855,7 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Humanism Was An Intellectual Movement Of",
+    "title": "Humanism Was An Intellectual Movement",
     "text": "Humanism was an intellectual movement of the Renaissance (14th–16th centuries) that shifted focus from medieval scholasticism and divine-centered thought to the study of classical Greek and Roman texts, emphasizing human potential, individualism, critical",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -4891,7 +4885,7 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Catholic Counter-Reformation Was The",
+    "title": "Catholic Counter-Reformation",
     "text": "The Catholic Counter-Reformation (1545–1563) was the Catholic Church's systematic doctrinal, disciplinary, and institutional response to the Protestant Reformation, centred on the Council of Trent, which reaffirmed Catholic theology (justification by faith",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -4915,7 +4909,7 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Topic \"Women And The Family",
+    "title": "Women and the Family in Renaissance Society",
     "text": "The topic \"Women and the Family in Renaissance Society\" examines the social, legal, and cultural position of women and the structure of family life in Italian city-states (c.",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"

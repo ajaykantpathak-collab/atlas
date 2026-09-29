@@ -6,16 +6,16 @@ import C8_ScienceExploringTheInvestigativeWorldOfSim from '../../../simulations/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_scienceexploringtheinvestigativeworldofsim: SimDef = {
     id: 'v3w_c8_scienceexploringtheinvestigativeworldofsim',
-    title: 'Exploring The Investigative World Of',
+    title: 'Overview of Class 8 Science Topics: From Microbes to Planets',
     subtitle: 'Covers the broad thematic map of the NCERT Class 8 Science textbook (18 chapters) and the.',
     classLevel: 8, subject: 'science', topic: 'Overview of Class 8 Science Topics: From Microbes to Planets',
     chapters: [],
     nodeIds: ['c8_physics_ch1_10', 'c8_physics_ch1_1', 'c8_physics_ch1_3', 'c8_physics_ch1_5', 'c8_physics_ch1_6', 'c8_physics_ch1_7', 'c8_physics_ch1_8', 'c8_physics_ch1_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine a Class 8 student opening their new NCERT Science textbook and seeing chapter titles like.', goal: 'Master Exploring The Investigative World Of.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine a Class 8 student opening their new NCERT Science textbook and seeing chapter titles like.', goal: 'Master Overview of Class 8 Science Topics: From Microbes to Planets.' },
     discovery: {
         question: 'A student wonders, "Why do shadows change during the day?" Which of the following rewrites this as a focused, testable question for a Class 8 investigation?',
-        options: ['Correct answer: B', 'more detailed', 'How does the *hot* temperature affect...?'],
+        options: ['B', 'more detailed', 'How does the *hot* temperature affect...?'],
         answer: 'B',
         hook: 'Students believe a focused question is just a "more detailed" version of a broad question — they add adjectives ("How.',
     },
@@ -78,7 +78,7 @@ export const w_c8_scienceexploringtheinvestigativeworldofsim: SimDef = {
             { text: 'Verify: The average time periods are close (1.43 s vs 1.417 s), but Cycle 2 range is 10× smaller, confirming the.', faded: true, blankAnswer: 'Cycle 1 average = 1.43 s, range = 0.3 s. Cycle 2 average =.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_physics_ch1_1', title: 'Identify each idea',
-          dissect: { specimen: 'Exploring The Investigative World Of', spots: [
+          dissect: { specimen: 'Overview of Class 8 Science Topics: From Microbes to Planets', spots: [
             { id: 's1', label: 'An overview of the major', prompt: 'Which idea is this? — An overview of the major themes and topics in Class 8 Science, connecting prior knowledge.', answer: 'An overview of the major', options: ['An overview of the major', 'A focused scientific question is', 'Designing a simple experiment is', 'Variables in an experiment are'] },
             { id: 's2', label: 'A focused scientific question is', prompt: 'Which idea is this? — A focused scientific question is a precise, testable inquiry that identifies a specific.', answer: 'A focused scientific question is', options: ['A focused scientific question is', 'An overview of the major', 'Designing a simple experiment is', 'Variables in an experiment are'] },
             { id: 's3', label: 'Designing a simple experiment is', prompt: 'Which idea is this? — Designing a simple experiment is the process of planning a fair test to answer a specific.', answer: 'Designing a simple experiment is', options: ['Designing a simple experiment is', 'An overview of the major', 'A focused scientific question is', 'Variables in an experiment are'] },
@@ -87,7 +87,7 @@ export const w_c8_scienceexploringtheinvestigativeworldofsim: SimDef = {
             { id: 's6', label: 'Iterative investigation is the scientific', prompt: 'Which idea is this? — Iterative investigation is the scientific process of repeatedly refining an experiment.', answer: 'Iterative investigation is the scientific', options: ['Iterative investigation is the scientific', 'An overview of the major', 'A focused scientific question is', 'Designing a simple experiment is'] }
           ] } }
     ],
-    explore: { component: C8_ScienceExploringTheInvestigativeWorldOfSim, prompt: 'Explore the interactive — Exploring The Investigative World Of' },
+    explore: { component: C8_ScienceExploringTheInvestigativeWorldOfSim, prompt: 'Explore the interactive — Overview of Class 8 Science Topics: From Microbes to Planets' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch1_10', difficulty: 'standard',
           question: 'An overview of the major themes and topics in Class 8 Science, connecting prior.',

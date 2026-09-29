@@ -316,7 +316,7 @@ export const C11_CHEM_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Mendeleev's Periodic Table Arranges The",
+    "title": "Mendeleev's Periodic Table Arranges",
     "text": "Mendeleev's Periodic Table arranges the known chemical elements in order of increasing atomic weights such that elements with similar physical and chemical properties recur periodically, forming vertical groups; it is based on Mendeleev's Periodic Law which",
     "emoji": "🧪",
     "bgColor": "from-rose-400 to-pink-500"
@@ -913,13 +913,13 @@ export const C11_CHEM_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Boyle's Law States That For",
+    "title": "Boyle's Law",
     "text": "Boyle's Law states that for a fixed amount of gas at constant temperature, the pressure exerted by the gas is inversely proportional to its volume.",
     "emoji": "🧪",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Charles's Law States That For",
+    "title": "Charles's Law",
     "text": "Charles's Law states that for a fixed amount of an ideal gas at constant pressure, the volume (V) is directly proportional to its absolute temperature (T) measured in Kelvin.",
     "emoji": "🧪",
     "bgColor": "from-amber-400 to-orange-500"

@@ -6,13 +6,13 @@ import C11_InformaticsPracticesKeysExplorerSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_informaticspracticeskeysexplorersim: SimDef = {
     id: 'v3w_c11_informaticspracticeskeysexplorersim',
-    title: 'Informatics Practices Keys Explorer',
+    title: 'Introduction to Dictionaries: Key-Value Pairs',
     subtitle: 'This node covers dictionary concept, key-value pair structure, key constraints (unique,.',
     classLevel: 11, subject: 'science', topic: 'Introduction to Dictionaries: Key-Value Pairs',
     chapters: [],
     nodeIds: ['c11_ip_cbse_04_009', 'c11_ip_cbse_04_010', 'c11_ip_cbse_04_011', 'c11_ip_cbse_04_012', 'c11_ip_cbse_07_001', 'c11_ip_cbse_07_002', 'c11_ip_cbse_07_003', 'c11_ip_cbse_06_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you need to store contact information for your classmates: each name (unique) maps to a phone number.', goal: 'Master Informatics Practices Keys Explorer.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you need to store contact information for your classmates: each name (unique) maps to a phone number.', goal: 'Master Introduction to Dictionaries: Key-Value Pairs.' },
     discovery: {
         question: 'Compare and contrast: How does dictionary key-based access fundamentally differ from list index-based access in terms of (a) lookup mechanism, (b) semantic.',
         options: ['lookup mechanism, (', 'both use indices', 'both raise the same error'],
@@ -85,7 +85,7 @@ export const w_c11_informaticspracticeskeysexplorersim: SimDef = {
             { text: 'Projection (ReceiptNo, Amount) selects 2 attributes → each resulting tuple has 2 attribute values (degree of projected.', faded: true, blankAnswer: '(a) Degree = 5. (b) Cardinality = 850. (c) Yes, \'Wallet\' ∉.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_ip_cbse_04_010', title: 'Identify each idea',
-          dissect: { specimen: 'Informatics Practices Keys Explorer', spots: [
+          dissect: { specimen: 'Introduction to Dictionaries: Key-Value Pairs', spots: [
             { id: 's1', label: 'A dictionary in Python is', prompt: 'Which idea is this? — A dictionary in Python is an ordered, mutable collection of key-value pairs where each.', answer: 'A dictionary in Python is', options: ['A dictionary in Python is', 'Dictionary methods in Python are', 'Traversing a dictionary using loops', 'A Database Management System DBMS'] },
             { id: 's2', label: 'Dictionary methods in Python are', prompt: 'Which idea is this? — Dictionary methods in Python are built-in functions that allow manipulation and retrieval.', answer: 'Dictionary methods in Python are', options: ['Dictionary methods in Python are', 'A dictionary in Python is', 'Traversing a dictionary using loops', 'A Database Management System DBMS'] },
             { id: 's3', label: 'Traversing a dictionary using loops', prompt: 'Which idea is this? — Traversing a dictionary using loops means systematically visiting each key-value pair.', answer: 'Traversing a dictionary using loops', options: ['Traversing a dictionary using loops', 'A dictionary in Python is', 'Dictionary methods in Python are', 'A Database Management System DBMS'] },
@@ -93,7 +93,7 @@ export const w_c11_informaticspracticeskeysexplorersim: SimDef = {
             { id: 's5', label: 'In the Relational Data Model', prompt: 'Which idea is this? — In the Relational Data Model, a **relation** (table) is a two-dimensional structure that.', answer: 'In the Relational Data Model', options: ['In the Relational Data Model', 'A dictionary in Python is', 'Dictionary methods in Python are', 'Traversing a dictionary using loops'] }
           ] } }
     ],
-    explore: { component: C11_InformaticsPracticesKeysExplorerSim, prompt: 'Explore the interactive — Informatics Practices Keys Explorer' },
+    explore: { component: C11_InformaticsPracticesKeysExplorerSim, prompt: 'Explore the interactive — Introduction to Dictionaries: Key-Value Pairs' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_ip_cbse_04_009', difficulty: 'standard',
           question: 'A dictionary in Python is an ordered, mutable collection of key-value pairs.',

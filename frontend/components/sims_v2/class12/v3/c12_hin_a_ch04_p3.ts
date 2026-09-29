@@ -19,7 +19,7 @@ export const c12_hin_a_ch04_p3: SimDef = {
         hook: 'A poet born in 1934 writes under Nayi Kavita\'s contract already broken — no fixed metre, image over statement, ambiguity as value. Where Bhakti verse transmits truth, this poetry enacts the search for it; context isn\'t a crutch, it\'s the knowledge the poem presupposes.',
     },
     teaching: [
-        { title: 'बनारस, दशिा — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण काव्य-पंक्तियों के **गर्भित अर्थ, प्रतीकात्मक निहितार्थ, और रचनाकार के अभिप्राय** को तार्किक साक्ष्य सहित उद्घाटित करने की प्रक्रिया है; यह मात्र शब्दार्थ या अनुवाद नहीं, बल्कि.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'बनारस, दशिा — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: '\'अंतरा भाग-2 — पाठ 4\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_04_013', title: 'Your mission',
@@ -28,6 +28,20 @@ export const c12_hin_a_ch04_p3: SimDef = {
         context: 'Walk the cul-de-sac of modernist verse: predict imagery from title and era, weigh ambiguity as method, and feel how the poem speaks from beneath the flyover, not from its span.',
         labels: ['बनारस, दशिा — आशय-स्पष्टीकरण', 'बनारस, दशिा — परीक्षा-उत्तर', 'बनारस, दशिा — वाचन-पाठ'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_04_014', title: 'बनारस, दशिा — परीक्षा-उत्तर लेखन कौशल',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 4\' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।',
+            decisions: [{ prompt: 'What is the full form of PEEL in the context of writing structured answers for literature questions?', options: [
+                { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \\"Paragraph, Example.' },
+                { text: 'Paragraph, Example, Explanation, Line\\', outcome: 'Not quite — Students believe that writing a detailed summary of the poem constitutes a good answer.', reveals: 'writing-a-detailed-summary-of' },
+                { text: 'knowing the poem\\', outcome: 'Not quite — Students believe that writing a detailed summary of the poem constitutes a good answer.', reveals: 'writing-a-detailed-summary-of' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_04_015', title: 'बनारस, दशिा — वाचन-पाठ और चर्चा-बिंदु',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 4\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'What is the primary purpose of a "discussion point" in a literature speaking-listening activity?', options: [
+                { text: 'A discussion point is a specific, text-anchored observation or question designed to', outcome: 'A discussion point is a specific, text-anchored observation or question designed to invite multiple.' },
+                { text: 'to share my feelings about the poem', outcome: 'Not quite — Students believe a "good discussion" means everyone speaks equally and agrees on a single.', reveals: 'a-good-discussion-means-everyone' },
+                { text: 'good discussion', outcome: 'Not quite — Students believe a "good discussion" means everyone speaks equally and agrees on a single.', reveals: 'a-good-discussion-means-everyone' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_04_013', title: 'Use it in the wild',
           caseStudy: { intro: 'A short-film jury member rejects your submission about a child calling \'Papa — Papa\' toward a father who never comes, saying \'nothing happens — no climax, no arrival, no story.\'',
             decisions: [{ prompt: 'How does the structure of \'फ्नेक\' answer that verdict?', options: [
@@ -47,38 +61,61 @@ export const c12_hin_a_ch04_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_04_013', difficulty: 'standard',
-          question: 'आशय-स्पष्टीकरण काव्य-पंक्तियों के **गर्भित अर्थ, प्रतीकात्मक निहितार्थ, और.',
+          question: '\'अंतरा भाग-2 — पाठ 4\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
           hint: 'यदि फँसें तो **c12_hin_a_cbse_04_007** (प्रतीक और बिंब) के \'प्रतीक विश्लेषण तालिका\'.',
           misconception: '**विशिष्ट भ्रम:** छात्र \'आशय-स्पष्टीकरण\' को \'भावार्थ लिखना\' समझते हैं और पंक्तियों का हिंदी अनुवाद करके छोड़ देते हैं।.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण काव्य-पंक्तियों के **गर्भित अर्थ, प्रतीकात्मक निहितार्थ, और रचनाकार के',
-                  options: ['आशय-स्पष्टीकरण काव्य-पंक्तियों के **गर्भित अर्थ, प्रतीकात्मक निहितार्थ, और रचनाकार के', 'बनारस, दशिा कविता में कवि का परिचय और उसकी पृष्ठभूमि समझना मतलब है कि हम जानते हैं कि कवि', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश को पंक्ति-दर-पंक्ति समझकर उसका', 'काव्य-संरचना (Poetic Structure) refers to the deliberate organization of a poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 4\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+                  options: ['\'अंतरा भाग-2 — पाठ 4\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 4\' का कथानक — \'अंतरा भाग-2 — पाठ 4\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 4\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि फँसें तो **c12_hin_a_cbse_04_007** (प्रतीक और बिंब) के \'प्रतीक विश्लेषण तालिका\' अभ्यास को.',
                   misconception: '**विशिष्ट भ्रम:** छात्र \'आशय-स्पष्टीकरण\' को \'भावार्थ लिखना\' समझते हैं और पंक्तियों का हिंदी अनुवाद करके छोड़ देते हैं। **वास्तविकता:**.' }
           ],
             remediations: { '3-5': { steps: ['**चरण 1:** छात्र से कहें: *"पंक्ति पढ़ो और बताओ — कवि ने \'श्मशान\' शब्द क्यों चुना, \'कब्रिस्तान\' या \'मृत्युलोक\' क्यों.', '**चरण 2:** नोड **c12_hin_a_cbse_04_007** (प्रतीक और बिंब) पर वापस जाएँ — वहाँ दिए गए \'प्रतीक विश्लेषण तालिका\' का अभ्यास.', '**चरण 3:** एक ही पंक्ति के दो उत्तर लिखवाएँ: (क) भावार्थ, (ख) आशय — फिर दोनों की तुलना कराएँ। 4.', '**पुनः निदान:** उपरोक्त **DIAGNOSTIC_QUESTION_2** फिर से दें — अब छात्र \'सड़ना\' का प्रतीकात्मक विस्तार (नैतिक क्षय) बता.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_04_014', difficulty: 'standard',
-          question: 'परीक्षा-उत्तर लेखन कौशल वह प्रणालीगत विधि है जिसके द्वारा छात्र पाठ्यक्रम के.',
-          hint: 'पाठ के भावार्थ और विश्लेषण (नोड 013) की समीक्षा कीजिए, जहाँ आपने stanza-wise अर्थ और.',
-          misconception: 'छात्र अक्सर सोचते हैं कि परीक्षा के उत्तर में केवल प्रश्न का प्रत्यक्ष उत्तर देना पर्याप्त है, जैसे "कवि दुखी है" लिखकर.',
+          question: '\'अंतरा भाग-2 — पाठ 4\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+          hint: 'If stuck, revisit c12_hin_a_cbse_04_012 (Comprehension) to practice extracting exact.',
+          misconception: 'Students believe that writing a detailed summary of the poem constitutes a good answer.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल वह प्रणालीगत विधि है जिसके द्वारा छात्र पाठ्यक्रम के प्रश्नों के',
-                  options: ['परीक्षा-उत्तर लेखन कौशल वह प्रणालीगत विधि है जिसके द्वारा छात्र पाठ्यक्रम के प्रश्नों के', 'बनारस, दशिा कविता में कवि का परिचय और उसकी पृष्ठभूमि समझना मतलब है कि हम जानते हैं कि कवि', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश को पंक्ति-दर-पंक्ति समझकर उसका', 'काव्य-संरचना (Poetic Structure) refers to the deliberate organization of a poem\'s'],
-                  hint: 'पाठ के भावार्थ और विश्लेषण (नोड 013) की समीक्षा कीजिए, जहाँ आपने stanza-wise अर्थ और केंद्रीय भाव.',
-                  misconception: 'छात्र अक्सर सोचते हैं कि परीक्षा के उत्तर में केवल प्रश्न का प्रत्यक्ष उत्तर देना पर्याप्त है, जैसे "कवि दुखी है" लिखकर पूरा कर देना, बिना.' }
+                { id: 'a', prompt: 'What is the full form of PEEL in the context of writing structured answers for literature questions?', answer: 'PEEL stands for Point, Evidence, Explanation, Link',
+                  options: ['PEEL stands for Point, Evidence, Explanation, Link', 'Paragraph, Example, Explanation, Line\\', 'knowing the poem\\', 'answering the question analytically.\\'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_04_012 (Comprehension) to practice extracting exact lines for.',
+                  misconception: 'Students believe that writing a detailed summary of the poem constitutes a good answer.' },
+                { id: 'b', prompt: 'A student writes: \\"In cukjl, the poet describes the village beautifully. The fields are green and the crops are growing.', answer: 'Weaknesses: (1) No textual evidence',
+                  options: ['Weaknesses: (1) No textual evidence', 'grammar errors\\', 'knowing the poem\\', 'answering the question analytically.\\'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_04_012 (Comprehension) to practice extracting exact lines for.',
+                  misconception: 'Students believe that writing a detailed summary of the poem constitutes a good answer.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक बोर्ड प्रश्न का मूल्यांकन मानदंड कैसा दिखता है (उदाहरण: CBSE 2023 हिंदी पेपर, प्रश्न 5)। फिर एक.', 'इस प्रक्रिया को दोहराने से छात्र देखेगा कि प्रत्येक चरण कैसे अंक जोड़ता है।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-a-detailed-summary-of': { steps: ['Have the student take a textbook question and highlight the command word (e.g., \\"explain\\", \\"compare\\", \\"evaluate\\").', 'Together, list 3 exact lines from the poem that address the command.', 'Model one PEEL paragraph on the board, thinking aloud: \\"My point is...', 'Assign a parallel question for independent practice with a PEEL template scaffold.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_04_014', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe that writing a detailed summary of the poem constitutes a good answer.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate this claim: \\"The poem fn\'kk is only a simple conversation between a child and the poet; it has no deeper thematic significance.\\" Defend or refute.', answer: 'Refute',
+                  options: ['Refute', 'knowing the poem\\', 'answering the question analytically.\\', 'writing a detailed summary of the poem constitutes a good answer'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_04_012 (Comprehension) to practice extracting exact lines for.',
+                  misconception: 'Students believe that writing a detailed summary of the poem constitutes a good answer.' }
+          ],
+            remediations: { 'writing-a-detailed-summary-of': { steps: ['Have the student take a textbook question and highlight the command word (e.g., \\"explain\\", \\"compare\\", \\"evaluate\\").', 'Together, list 3 exact lines from the poem that address the command.', 'Model one PEEL paragraph on the board, thinking aloud: \\"My point is...', 'Assign a parallel question for independent practice with a PEEL template scaffold.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_04_015', difficulty: 'standard',
-          question: 'वाचन-पाठ (Reading Aloud) कविता को सही उच्चारण, विराम, लय और भाव के साथ जोर से.',
-          hint: 'यदि बिंब/प्रतीक पहचानने में अटके तो **c12_hin_a_cbse_04_007 (प्रतीक और बिंब)** के कार्यित.',
-          misconception: 'छात्र समझते हैं कि \'वाचन-पाठ\' का अर्थ केवल \'जोर से पढ़ना\' है और \'चर्चा-बिंदु\' का अर्थ \'प्रश्न पूछना\' — जबकि वास्तव में.',
+          question: '\'अंतरा भाग-2 — पाठ 4\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'If stuck, re-read stanza 2 and 4 of "cukjl" and list every sensory image; then convert.',
+          misconception: 'Students believe a "good discussion" means everyone speaks equally and agrees on a single interpretation.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-पाठ (Reading Aloud) कविता को सही उच्चारण, विराम, लय और भाव के साथ जोर से पढ़ने की',
-                  options: ['वाचन-पाठ (Reading Aloud) कविता को सही उच्चारण, विराम, लय और भाव के साथ जोर से पढ़ने की', 'बनारस, दशिा कविता में कवि का परिचय और उसकी पृष्ठभूमि समझना मतलब है कि हम जानते हैं कि कवि', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश को पंक्ति-दर-पंक्ति समझकर उसका', 'काव्य-संरचना (Poetic Structure) refers to the deliberate organization of a poem\'s'],
-                  hint: 'यदि बिंब/प्रतीक पहचानने में अटके तो **c12_hin_a_cbse_04_007 (प्रतीक और बिंब)** के कार्यित उदाहरण.',
-                  misconception: 'छात्र समझते हैं कि \'वाचन-पाठ\' का अर्थ केवल \'जोर से पढ़ना\' है और \'चर्चा-बिंदु\' का अर्थ \'प्रश्न पूछना\' — जबकि वास्तव में वाचन-पाठ एक.' }
+                { id: 'a', prompt: 'A student says, "The poem \'cukjl\' is sad because the village is disappearing." How would you turn this opinion into a valid discussion point using the poem\'s.', answer: 'Valid discussion point: "In stanza 3, the repetition \'èkhjs&èkhjs\' describes the',
+                  options: ['Valid discussion point: "In stanza 3, the repetition \'èkhjs&èkhjs\' describes the', 'good discussion'],
+                  hint: 'If stuck, re-read stanza 2 and 4 of "cukjl" and list every sensory image; then convert each image.',
+                  misconception: 'Students believe a "good discussion" means everyone speaks equally and agrees on a single interpretation.' },
+                { id: 'b', prompt: 'During a discussion on "cukjl", a peer claims the poem romanticizes the village.', answer: 'Step 1: Paraphrase',
+                  options: ['Step 1: Paraphrase', 'good discussion'],
+                  hint: 'If stuck, re-read stanza 2 and 4 of "cukjl" and list every sensory image; then convert each image.',
+                  misconception: 'Students believe a "good discussion" means everyone speaks equally and agrees on a single interpretation.' },
+                { id: 'c', prompt: 'Compare two discussion points for "cukjl": (A) "The city is shown as noisy and crowded." (B) "Stanza 1 uses \'olar\' and \'coaMj\' to depict the city; stanza 2.', answer: 'Point B generates deeper analysis',
+                  options: ['Point B generates deeper analysis', 'better', 'good discussion'],
+                  hint: 'If stuck, re-read stanza 2 and 4 of "cukjl" and list every sensory image; then convert each image.',
+                  misconception: 'Students believe a "good discussion" means everyone speaks equally and agrees on a single interpretation.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को कविता की पहली पंक्ति पाँच बार रिकॉर्ड करके सुनवाएँ — हर बार एक तत्व सुधारें: (क) उच्चारण, (ख) विराम, (ग) लय.', 'फिर छात्र से कहें: "कविता के किसी एक बिंब को चुनो और बताओ कि वाचन में तुमने उसे कैसे उभारा?" — यदि उत्तर न दे पाए, तो.', 'चर्चा-बिंदु बनाने में कठिनाई हो तो **c12_hin_a_cbse_04_008 (मुख्य भाव और संदेश)** और **c12_hin_a_cbse_04_013.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-good-discussion-means-everyone': { steps: ['Revisit c12_hin_a_cbse_04_006 (Theme) and c12_hin_a_cbse_04_008 (Literary Devices) to extract 5 concrete textual.', 'Convert each detail into an open question using the stem: "How does [detail] in stanza [X] shape the poem\'s view.', 'Practice with a partner: one asks, the other answers *only* with textual evidence; then switch.', 'Record a 3-minute discussion, replay, and mark every utterance that quotes or references the text — aim for >80%.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

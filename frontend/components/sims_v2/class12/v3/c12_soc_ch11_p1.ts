@@ -94,8 +94,8 @@ export const c12_soc_ch11_p1: SimDef = {
                   options: ['Correct answer: In zamindari, the state dealt with zamindars as intermediaries', 'zamindari had landlords, raiyatwari had no landlords', 'zamindar', 'landlord'],
                   hint: 'If stuck, revisit Class 8 History chapter "British Economic Exploitation" (node c8_hist_ch3_8) and.',
                   misconception: 'Students often think "zamindar" and "landlord" are synonyms and that the raiyatwari system gave land ownership to all cultivators.' },
-                { id: 'c', prompt: 'A cultivator in a zamindari village in Bihar produces 1,200 kg of paddy. The zamindar demands 60% as rent.', answer: 'Steps: (1) Total produce = 1,200 kg',
-                  options: ['Steps: (1) Total produce = 1,200 kg', 'zamindar', 'landlord', 'tenants and landless labourers are the same group'],
+                { id: 'c', prompt: 'A cultivator in a zamindari village in Bihar produces 1,200 kg of paddy. The zamindar demands 60% as rent.', answer: '(1) Total produce = 1,200 kg',
+                  options: ['(1) Total produce = 1,200 kg', 'zamindar', 'landlord', 'tenants and landless labourers are the same group'],
                   hint: 'If stuck, revisit Class 8 History chapter "British Economic Exploitation" (node c8_hist_ch3_8) and.',
                   misconception: 'Students often think "zamindar" and "landlord" are synonyms and that the raiyatwari system gave land ownership to all cultivators.' }
           ],

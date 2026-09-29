@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_ca_ch02: SimDef = {
     id: 'v3_c12_ca_ch02',
-    title: 'OVERVIEW OF',
+    title: 'Basic Concepts Of Spreadsheet',
     subtitle: 'One missing $ sign just zeroed 99 rows of GST',
-    classLevel: 12, subject: 'computerised_accounting', topic: 'OVERVIEW OF',
+    classLevel: 12, subject: 'computerised_accounting', topic: 'Basic Concepts Of Spreadsheet',
     chapters: ['c12_ca_ch02'],
     nodeIds: ['c12_ca_cbse_02_001', 'c12_ca_cbse_02_002', 'c12_ca_cbse_02_003', 'c12_ca_cbse_02_004', 'c12_ca_cbse_02_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

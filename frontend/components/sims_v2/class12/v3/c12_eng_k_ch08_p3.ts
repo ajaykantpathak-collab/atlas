@@ -19,31 +19,31 @@ export const c12_eng_k_ch08_p3: SimDef = {
         hook: 'Innocence isn\'t naivety and Experience isn\'t just cynicism — both live in one person at once. And Blake etched his poems into copper himself because the image is part of the argument: illuminated printing was rebellion against art made by machine.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in poetry analysis is the disciplined process of examining how a poet uses structural contrasts, symbolic imagery, and philosophical argument to present opposing perspectives.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Poems by Blake\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_08_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Hold both Blakes at once: read The Divine Image\'s prayer beside The Human Abstract\'s trap, then map how the same virtues become \'selfish loves\' when Experience twists them.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_08_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you meet a child who shares her lunch with a hungry stray dog — that is Mercy in its pure form.',
+          caseStudy: { intro: 'Analyse \'Poems by Blake\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'Name the two collections from which "The Divine Image" and "The Human Abstract" are taken, and state the philosophical concept Blake uses.', options: [
                 { text: '"The Divine Image" is from *Songs of Innocence* and "The Human Abstract" is from *Songs', outcome: '"The Divine Image" is from *Songs of Innocence* and "The Human Abstract" is from *Songs.' },
                 { text: 'the two contrary states of the human soul', outcome: 'Not quite — Students frequently treat the two poems as a simple "good vs. evil" or "naive vs.', reveals: 'students-frequently-treat-the-two' },
                 { text: 'opposites', outcome: 'Not quite — Students frequently treat the two poems as a simple "good vs. evil" or "naive vs.', reveals: 'students-frequently-treat-the-two' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_08_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you open the exam paper and see: "Compare how Blake presents Mercy in *The Divine Image* and *The Human Abstract*." Your mind goes blank — you know the.',
+          caseStudy: { intro: 'For written answers on \'Poems by Blake\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing literature answers?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explain, Layout', outcome: 'Not quite — Students believe that quoting long stanzas (4+ lines) proves they know the poem.', reveals: 'quoting-long-stanzas-4-lines' },
                 { text: 'quoting long stanzas (4+ lines) proves they know the poem', outcome: 'Not quite — Students believe that quoting long stanzas (4+ lines) proves they know the poem.', reveals: 'quoting-long-stanzas-4-lines' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_08_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a literature circle discussing whether Blake believed humans are naturally divine or naturally corrupt.',
+          caseStudy: { intro: 'Talk through \'Poems by Blake\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the four virtues listed in the first stanza of "The Divine Image" and how does the speaker describe their relationship to God and.', options: [
                 { text: 'The four virtues are Mercy, Pity, Peace, and Love', outcome: 'The four virtues are Mercy, Pity, Peace, and Love. The poem states they are "God our father dear".' },
                 { text: 'God our father dear', outcome: 'Not quite — Students treat "discussion" as taking turns stating opinions ("I think The Human Abstract.', reveals: 'students-treat-discussion-as-taking' },
@@ -63,23 +63,23 @@ export const c12_eng_k_ch08_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_08_013', difficulty: 'standard',
-          question: 'Critical thinking in poetry analysis is the disciplined process of examining.',
+          question: 'Critical thinking on \'Poems by Blake\' — analysing the text to reach.',
           hint: 'If stuck, return to the two-column virtue mapping exercise (Innocence vs Experience) and.',
           misconception: 'Students frequently treat the two poems as a simple "good vs. evil" or "naive vs. realistic" binary.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in poetry analysis is the disciplined process of examining how a poet',
-                  options: ['Critical thinking in poetry analysis is the disciplined process of examining how a poet', 'This node provides the essential historical, biographical, and literary context for', 'Plot and narrative structure in poetry refers to the organized progression of ideas,', 'In poetry, **setting** refers to the time, place, and social environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'Poems by Blake\'',
+                  options: ['Critical thinking on \'Poems by Blake\'', '\'Poems by Blake\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Poems by Blake\'', 'The setting of \'Poems by Blake\''],
                   hint: 'If stuck, return to the two-column virtue mapping exercise (Innocence vs Experience) and the.',
                   misconception: 'Students frequently treat the two poems as a simple "good vs. evil" or "naive vs. realistic" binary.' }
           ],
-            remediations: { 'students-frequently-treat-the-two': { steps: ['If a student cannot articulate the structural inversion, take these steps: (1) Return to c12_eng_k_cbse_08_006 and.', '(2) Re-read c12_eng_k_cbse_08_009 on symbolism — focus on the Tree as a *system* with roots, shade, fruit, and.', '(3) Use the NCERT "Understanding the Poem" Q3 as a re-diagnostic: "How do Mercy, Pity, Peace and Love get distorted.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-frequently-treat-the-two': { steps: ['If a student cannot articulate the structural inversion, take these steps: (1) Return to c12_eng_k_cbse_08_006 and.', '(2) Re-read c12_eng_k_cbse_08_009 on symbolism — focus on the Tree as a *system* with roots, shade, fruit, and.', '(3) Use the NCERT "Understanding the Poem" Q3 as a re-diagnostic: "How do Mercy, Pity, Peace and Love get distorted.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_08_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter refer to the ability to compose structured.',
+          question: 'Writing skills from \'Poems by Blake\' — using the text as a model or springboard.',
           hint: 'If stuck, revisit c12_eng_k_cbse_08_006 (primary theme) and c12_eng_k_cbse_08_013.',
           misconception: 'Students believe that quoting long stanzas (4+ lines) proves they know the poem.',
           parts: [
@@ -92,7 +92,7 @@ export const c12_eng_k_ch08_p3: SimDef = {
                   hint: 'If stuck, revisit c12_eng_k_cbse_08_006 (primary theme) and c12_eng_k_cbse_08_013 (critical.',
                   misconception: 'Students believe that quoting long stanzas (4+ lines) proves they know the poem.' }
           ],
-            remediations: { 'quoting-long-stanzas-4-lines': { steps: ['Have the student take a past board question and highlight every quoted phrase in their answer.', 'Count words in each quote; if any exceed 6 words, rewrite the sentence embedding only the key 3–4 words.', 'Re-read the rewritten answer: does it flow grammatically?', 'If not, adjust the student\'s sentence structure around the quote.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'quoting-long-stanzas-4-lines': { steps: ['Have the student take a past board question and highlight every quoted phrase in their answer.', 'Count words in each quote; if any exceed 6 words, rewrite the sentence embedding only the key 3–4 words.', 'Re-read the rewritten answer: does it flow grammatically?', 'If not, adjust the student\'s sentence structure around the quote.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_08_014', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -103,9 +103,9 @@ export const c12_eng_k_ch08_p3: SimDef = {
                   hint: 'If stuck, revisit c12_eng_k_cbse_08_006 (primary theme) and c12_eng_k_cbse_08_013 (critical.',
                   misconception: 'Students believe that quoting long stanzas (4+ lines) proves they know the poem.' }
           ],
-            remediations: { 'quoting-long-stanzas-4-lines': { steps: ['Have the student take a past board question and highlight every quoted phrase in their answer.', 'Count words in each quote; if any exceed 6 words, rewrite the sentence embedding only the key 3–4 words.', 'Re-read the rewritten answer: does it flow grammatically?', 'If not, adjust the student\'s sentence structure around the quote.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'quoting-long-stanzas-4-lines': { steps: ['Have the student take a past board question and highlight every quoted phrase in their answer.', 'Count words in each quote; if any exceed 6 words, rewrite the sentence embedding only the key 3–4 words.', 'Re-read the rewritten answer: does it flow grammatically?', 'If not, adjust the student\'s sentence structure around the quote.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_08_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Poems by Blake\' — speaking and listening around the text.',
           hint: 'If stuck, re-read c12_eng_k_cbse_08_006 and c12_eng_k_cbse_08_007; make a two-column.',
           misconception: 'Students treat "discussion" as taking turns stating opinions ("I think The Human Abstract is darker") rather than.',
           parts: [
@@ -118,7 +118,7 @@ export const c12_eng_k_ch08_p3: SimDef = {
                   hint: 'If stuck, re-read c12_eng_k_cbse_08_006 and c12_eng_k_cbse_08_007; make a two-column chart tracking.',
                   misconception: 'Students treat "discussion" as taking turns stating opinions ("I think The Human Abstract is darker") rather than building a collective.' }
           ],
-            remediations: { 'students-treat-discussion-as-taking': { steps: ['Revisit c12_eng_k_cbse_08_006 (Primary Theme) and c12_eng_k_cbse_08_007 (Secondary Themes) to re-map the.', 'Practice the "Quote-Comment-Question" protocol: each speaker must (a) quote a phrase, (b) explain its meaning, (c) ask.', 'Record a 2-minute solo talk analyzing one virtue\'s transformation across both poems; self-assess using the mastery.', 'Re-do Diagnostic Question 4 with a partner, requiring each claim to be anchored in a specific capitalized word.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-discussion-as-taking': { steps: ['Revisit c12_eng_k_cbse_08_006 (Primary Theme) and c12_eng_k_cbse_08_007 (Secondary Themes) to re-map the.', 'Practice the "Quote-Comment-Question" protocol: each speaker must (a) quote a phrase, (b) explain its meaning, (c) ask.', 'Record a 2-minute solo talk analyzing one virtue\'s transformation across both poems; self-assess using the mastery.', 'Re-do Diagnostic Question 4 with a partner, requiring each claim to be anchored in a specific capitalized word.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

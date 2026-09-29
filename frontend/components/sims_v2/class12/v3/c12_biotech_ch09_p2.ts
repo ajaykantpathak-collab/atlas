@@ -44,7 +44,7 @@ export const c12_biotech_ch09_p2: SimDef = {
         { type: 'case', nodeId: 'c12_biotech_cbse_09_010', title: 'Stem Cell Therapy for Diabetes and Neurological Disorders',
           caseStudy: { intro: 'Imagine a 14-year-old diagnosed with Type 1 diabetes who must inject insulin 4-5 times daily, calculating doses based on food intake, activity, and glucose.',
             decisions: [{ prompt: 'A student reads that "embryonic stem cells can treat Type 1 diabetes because they are pluripotent." What is the critical missing step.', options: [
-                { text: 'STEPS: - Step 1: Identify the sequential efficiencies: Stage 3 = 90% (0.90), Stage 4 =', outcome: 'STEPS: - Step 1: Identify the sequential efficiencies: Stage 3 = 90% (0.90), Stage 4 = 75% (0.75).' },
+                { text: '- Step 1: Identify the sequential efficiencies: Stage 3 = 90% (0.90), Stage 4 = 75%', outcome: 'STEPS: - Step 1: Identify the sequential efficiencies: Stage 3 = 90% (0.90), Stage 4 = 75% (0.75).' },
                 { text: 'sense the environment', outcome: 'Not quite — **"Stem cells automatically become the needed cell type when injected into the damaged organ."**.', reveals: 'stem-cells-automatically-become-the' },
                 { text: 'transplanting undifferentiated stem cells (e', outcome: 'Not quite — **"Stem cells automatically become the needed cell type when injected into the damaged organ."**.', reveals: 'stem-cells-automatically-become-the' }
             ] }] } },
@@ -146,11 +146,15 @@ export const c12_biotech_ch09_p2: SimDef = {
           hint: 'Revisit c12_biotech_cbse_09_003 (potency definitions) and c12_biotech_cbse_09_008.',
           misconception: '**"Stem cells automatically become the needed cell type when injected into the damaged organ."** Students believe that.',
           parts: [
-                { id: 'a', prompt: 'A research team generates insulin-producing cells from human ESCs using a 7-stage protocol.', answer: 'STEPS: - Step 1: Assess function',
-                  options: ['STEPS: - Step 1: Assess function', 'sense the environment', 'transplanting undifferentiated stem cells (e'],
+                { id: 'a', prompt: 'In a clinical trial for spinal cord injury, researchers transplant neural progenitor cells (NPCs) derived from iPSCs.', answer: '- Step 1: Calculate surviving grafted cells = 1 × 10⁶ × 15% = 150,000 cells',
+                  options: ['- Step 1: Calculate surviving grafted cells = 1 × 10⁶ × 15% = 150,000 cells', 'sense the environment', 'transplanting undifferentiated stem cells (e'],
                   hint: 'Revisit c12_biotech_cbse_09_003 (potency definitions) and c12_biotech_cbse_09_008 (differentiation.',
                   misconception: '**"Stem cells automatically become the needed cell type when injected into the damaged organ."** Students believe that transplanting.' },
-                { id: 'b', prompt: 'Compare the therapeutic rationale for using *autologous iPSC-derived* beta cells versus *allogeneic ESC-derived* beta cells for Type 1 diabetes.', answer: '| Criterion | Autologous iPSC-beta | Allogeneic ESC-beta | Winner for Phase I |',
+                { id: 'b', prompt: 'A research team generates insulin-producing cells from human ESCs using a 7-stage protocol.', answer: '- Step 1: Assess function',
+                  options: ['- Step 1: Assess function', 'sense the environment', 'transplanting undifferentiated stem cells (e'],
+                  hint: 'Revisit c12_biotech_cbse_09_003 (potency definitions) and c12_biotech_cbse_09_008 (differentiation.',
+                  misconception: '**"Stem cells automatically become the needed cell type when injected into the damaged organ."** Students believe that transplanting.' },
+                { id: 'c', prompt: 'Compare the therapeutic rationale for using *autologous iPSC-derived* beta cells versus *allogeneic ESC-derived* beta cells for Type 1 diabetes.', answer: '| Criterion | Autologous iPSC-beta | Allogeneic ESC-beta | Winner for Phase I |',
                   options: ['| Criterion | Autologous iPSC-beta | Allogeneic ESC-beta | Winner for Phase I |', 'no rejection', 'sense the environment', 'transplanting undifferentiated stem cells (e'],
                   hint: 'Revisit c12_biotech_cbse_09_003 (potency definitions) and c12_biotech_cbse_09_008 (differentiation.',
                   misconception: '**"Stem cells automatically become the needed cell type when injected into the damaged organ."** Students believe that transplanting.' }

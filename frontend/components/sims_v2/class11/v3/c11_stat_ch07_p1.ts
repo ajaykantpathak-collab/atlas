@@ -166,7 +166,11 @@ export const c11_stat_ch07_p1: SimDef = {
           hint: 'Revisit "Covariance" in Measures of Dispersion chapter — understand that cov(X,Y) = Σ(x_i.',
           misconception: 'Students often believe that **high *r* implies causation** (e.g., "*r*=0.9 between ice-cream sales and drowning deaths.',
           parts: [
-                { id: 'a', prompt: 'Two datasets give *r* = 0.85. Dataset A: (Height in cm, Weight in kg). Dataset B: (Height in inches, Weight in lbs).', answer: 'Correct answer: **Same**',
+                { id: 'a', prompt: 'Given the following summary statistics for 10 observations: ΣX = 50, ΣY = 80, ΣX² = 300, ΣY² = 700, ΣXY = 450. Calculate *r* using the shortcut formula.', answer: 'N = 10',
+                  options: ['N = 10', '**high *r* implies causation** (e'],
+                  hint: 'Revisit "Covariance" in Measures of Dispersion chapter — understand that cov(X,Y) = Σ(x_i - x̄)(y_i.',
+                  misconception: 'Students often believe that **high *r* implies causation** (e.g., "*r*=0.9 between ice-cream sales and drowning deaths means ice-cream.' },
+                { id: 'b', prompt: 'Two datasets give *r* = 0.85. Dataset A: (Height in cm, Weight in kg). Dataset B: (Height in inches, Weight in lbs).', answer: 'Correct answer: **Same**',
                   options: ['Correct answer: **Same**', 'different because units are different', '**high *r* implies causation** (e'],
                   hint: 'Revisit "Covariance" in Measures of Dispersion chapter — understand that cov(X,Y) = Σ(x_i - x̄)(y_i.',
                   misconception: 'Students often believe that **high *r* implies causation** (e.g., "*r*=0.9 between ice-cream sales and drowning deaths means ice-cream.' }

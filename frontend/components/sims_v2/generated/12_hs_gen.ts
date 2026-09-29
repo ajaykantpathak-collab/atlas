@@ -1047,7 +1047,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Food Functions Refer To The",
+    "title": "Food Functions Refer To The Three",
     "text": "Food functions refer to the three fundamental roles food plays in human life: physiological (providing energy, building/repairing tissues, regulating metabolic processes), psychological (satisfying hunger, providing sensory pleasure, offering emotional",
     "emoji": "🏠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1574,7 +1574,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Human Development Stages Refer To The",
+    "title": "Human Development Stages",
     "text": "Human development stages refer to the sequential, age-related phases from conception to late adulthood, each characterized by distinct physical, cognitive, and socio-emotional milestones that follow a predictable pattern but vary in rate across individuals.",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1622,7 +1622,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Adulthood And Ageing Encompass The",
+    "title": "Adulthood and Ageing: Physical, Cognitive",
     "text": "Adulthood and ageing encompass the continuous developmental processes from early adulthood (approximately 20-40 years) through middle adulthood (40-65 years) to late adulthood (65+ years), characterised by progressive but highly variable changes in physical",
     "emoji": "🏠",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2889,7 +2889,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Utility, Accessibility, And",
+    "title": "Characteristics of Resources: Utility,",
     "text": "Utility, accessibility, and interchangeability are the three defining characteristics that determine whether an asset qualifies as a resource in home management: Utility is the capacity of a resource to satisfy a human want or need (e.",
     "emoji": "🏠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4341,7 +4341,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Principles Of Directionality And",
+    "title": "Principles of Growth and Development:",
     "text": "The principles of directionality and individuality are fundamental laws governing human growth and development. Directionality refers to two universal patterns: cephalocaudal (development proceeds from head to tail) and proximodistal (development proceeds",
     "emoji": "🏠",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -5783,7 +5783,7 @@ export const C12_HS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Nutritional Requirements Refer To The",
+    "title": "Nutrition Through the Lifespan: Concept",
     "text": "Nutritional requirements refer to the specific amounts of essential nutrients (energy, protein, fats, carbohydrates, vitamins, minerals, and water) that an individual must consume daily to maintain optimal health, support growth and development, sustain",
     "emoji": "🏠",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -5801,7 +5801,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Infant Nutrition Encompasses The",
+    "title": "Infant Nutrition",
     "text": "Infant nutrition (0-1 year) encompasses the scientific principles and evidence-based guidelines for feeding infants from birth to 12 months, including exclusive breastfeeding for the first 6 months followed by timely introduction of adequate, safe, and",
     "emoji": "🏠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -5837,7 +5837,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Nutritional Requirements During Fever And",
+    "title": "Nutritional Requirements During Fever",
     "text": "Nutritional requirements during fever and infections refer to the increased and altered nutrient needs (energy, protein, fluids, electrolytes, vitamins, and minerals) that occur due to elevated metabolic rate, catabolism, and immune response during febrile",
     "emoji": "🏠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -6725,7 +6725,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "ICMR (Indian Council Of Medical",
+    "title": "The ICMR",
     "text": "The ICMR (Indian Council of Medical Research) food group system classifies foods into five basic groups — Cereals & Millets, Pulses & Legumes, Milk & Meat Products, Fruits & Vegetables, and Fats & Oils (with Sugar/Jaggery as a sixth energy-dense group) —",
     "emoji": "🏠",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -6755,13 +6755,13 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Meal Planning For School-age Children And",
+    "title": "Meal Planning for School-Age Children",
     "text": "Meal planning for school-age children (7-12 years) and adolescents (13-19 years) is the systematic process of designing nutritionally adequate, culturally acceptable, and developmentally appropriate daily menus that meet the increased energy and nutrient",
     "emoji": "🏠",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Meal Planning For Adults And The",
+    "title": "Meal Planning For Adults",
     "text": "Meal planning for adults and the elderly involves designing daily dietary patterns that meet the Recommended Dietary Allowances (RDAs) for energy, protein, vitamins, and minerals while accounting for age-related physiological changes (reduced basal metabolic",
     "emoji": "🏠",
     "bgColor": "from-amber-400 to-orange-500"
@@ -6773,7 +6773,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Therapeutic Meal Planning For Diabetes And",
+    "title": "Therapeutic Meal Planning For Diabetes",
     "text": "Therapeutic meal planning for diabetes and hypertension involves designing individualized diets that modify macronutrient distribution, micronutrient intake, meal timing, and food selection to manage blood glucose levels (diabetes) and blood pressure",
     "emoji": "🏠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -7661,7 +7661,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Savings Refer To The Portion Of",
+    "title": "Savings Refer To The Portion",
     "text": "Savings refer to the portion of income not spent on current consumption, set aside for future use, typically held in low-risk, liquid instruments.",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -7673,7 +7673,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Housing Selection Involves Evaluating a",
+    "title": "Housing: Selection of House and Space",
     "text": "Housing selection involves evaluating a residential property based on site characteristics (location, orientation, soil, drainage), physical features (ventilation, lighting, structural safety), legal aspects (clear title, building bye-laws), and economic",
     "emoji": "🏠",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -8588,7 +8588,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Selection And Use Of Audio-Visual Aids In",
+    "title": "Selection and Use of Audio-Visual Aids",
     "text": "Selection and Use of Audio-Visual Aids in Extension refers to the systematic process of choosing appropriate visual, auditory, and audio-visual materials (such as charts, models, videos, slides, flashcards, and digital presentations) and effectively utilizing",
     "emoji": "🏠",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -9557,7 +9557,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Weights And Measures Standards Refer To",
+    "title": "Weights And Measures Standards",
     "text": "Weights and Measures standards refer to the legally mandated system of uniform units (metric system in India) and calibrated instruments used for quantifying goods in trade, ensuring consumers receive the exact quantity they pay for.",
     "emoji": "🏠",
     "bgColor": "from-sky-400 to-cyan-500"

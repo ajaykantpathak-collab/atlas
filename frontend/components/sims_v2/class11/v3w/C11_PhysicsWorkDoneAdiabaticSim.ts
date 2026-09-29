@@ -6,13 +6,13 @@ import C11_PhysicsWorkDoneAdiabaticSim from '../../../simulations/c6_12/C11_Phys
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsworkdoneadiabaticsim: SimDef = {
     id: 'v3w_c11_physicsworkdoneadiabaticsim',
-    title: 'Work Done Adiabatic',
+    title: 'First Law of Thermodynamics: Internal Energy',
     subtitle: 'Covers the First Law (ΔQ = ΔU + ΔW), definition and properties of internal energy, sign.',
     classLevel: 11, subject: 'physics', topic: 'First Law of Thermodynamics: Internal Energy',
     chapters: [],
     nodeIds: ['c11_phy_cbse_11_003', 'c11_phy_cbse_11_004', 'c11_phy_cbse_11_005', 'c11_phy_cbse_11_008', 'c11_phy_cbse_11_001', 'c11_phy_cbse_11_002', 'c11_phy_cbse_11_006', 'c11_phy_cbse_11_011', 'c11_phy_cbse_05_001', 'c11_phy_cbse_05_002', 'c11_phy_cbse_05_003', 'c11_phy_cbse_05_004', 'c11_phy_cbse_05_005', 'c11_phy_cbse_05_006', 'c11_phy_cbse_05_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a pressure cooker on a stove: the flame supplies heat (ΔQ), the steam inside pushes the weighted lid.', goal: 'Master Work Done Adiabatic.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a pressure cooker on a stove: the flame supplies heat (ΔQ), the steam inside pushes the weighted lid.', goal: 'Master First Law of Thermodynamics: Internal Energy.' },
     discovery: {
         question: 'A gas in a cylinder is compressed adiabatically from volume V₁ to V₂. The work done on the gas is 500 J. What is the change in internal energy?',
         options: ['For adiabatic process, ΔQ = 0', 'heat is a form of energy stored in a body', 'the gas has 500 J of heat'],
@@ -79,7 +79,7 @@ export const w_c11_physicsworkdoneadiabaticsim: SimDef = {
             { text: 'State final temperatures: T_A = T_B = 350 K. Block C remains at 300 K (not in contact during second step).', faded: true, blankAnswer: 'After second equilibrium, T_A = T_B = 350 K; T_C = 300 K.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_11_004', title: 'Identify each idea',
-          dissect: { specimen: 'Work Done Adiabatic', spots: [
+          dissect: { specimen: 'First Law of Thermodynamics: Internal Energy', spots: [
             { id: 's1', label: 'The First Law of Thermodynamics', prompt: 'Which idea is this? — The First Law of Thermodynamics states that the heat energy (ΔQ) supplied to a.', answer: 'The First Law of Thermodynamics', options: ['The First Law of Thermodynamics', 'Work done in an isothermal', 'Work done in an adiabatic', 'An isothermal process is a'] },
             { id: 's2', label: 'Work done in an isothermal', prompt: 'Which idea is this? — Work done in an isothermal process is the energy transferred by an ideal gas as work when.', answer: 'Work done in an isothermal', options: ['Work done in an isothermal', 'The First Law of Thermodynamics', 'Work done in an adiabatic', 'An isothermal process is a'] },
             { id: 's3', label: 'Work done in an adiabatic', prompt: 'Which idea is this? — Work done in an adiabatic process is the energy transferred by a gas when it expands or.', answer: 'Work done in an adiabatic', options: ['Work done in an adiabatic', 'The First Law of Thermodynamics', 'Work done in an isothermal', 'An isothermal process is a'] },
@@ -88,7 +88,7 @@ export const w_c11_physicsworkdoneadiabaticsim: SimDef = {
             { id: 's6', label: 'The Zeroth Law of Thermodynamics', prompt: 'Which idea is this? — The Zeroth Law of Thermodynamics states that if two thermodynamic systems are each in.', answer: 'The Zeroth Law of Thermodynamics', options: ['The Zeroth Law of Thermodynamics', 'The First Law of Thermodynamics', 'Work done in an isothermal', 'Work done in an adiabatic'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsWorkDoneAdiabaticSim, prompt: 'Explore the interactive — Work Done Adiabatic' },
+    explore: { component: C11_PhysicsWorkDoneAdiabaticSim, prompt: 'Explore the interactive — First Law of Thermodynamics: Internal Energy' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_11_003', difficulty: 'standard',
           question: 'The First Law of Thermodynamics states that the heat energy (ΔQ) supplied to a.',

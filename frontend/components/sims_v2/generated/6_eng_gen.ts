@@ -968,7 +968,7 @@ export const C6_ENG_GEN: SimDef[] = [
  },
  {
   "id": "gen_c6_eng_ch03",
-  "title": "Plot And Sequence Refer To The Organization Of",
+  "title": "Plot And Sequence Refer To The Organization",
   "subtitle": "English · Chapter 3",
   "classLevel": 6,
   "mode": "senior",
@@ -1445,7 +1445,7 @@ export const C6_ENG_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Plot And Sequence Refer To mastered! 🎯",
+  "successLine": "Plot And Sequence Refer mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1975,7 +1975,7 @@ export const C6_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Voice Explains The Relationship Between The",
+    "title": "Voice Explains The Relationship Between",
     "text": "Voice explains the relationship between the doer of an action (the subject) and the action itself. In Active Voice, the subject performs the action, while in Passive Voice, the subject receives the action.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"

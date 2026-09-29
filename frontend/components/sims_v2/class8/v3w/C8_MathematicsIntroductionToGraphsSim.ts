@@ -6,13 +6,13 @@ import C8_MathematicsIntroductionToGraphsSim from '../../../simulations/c6_12/C8
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicsintroductiontographssim: SimDef = {
     id: 'v3w_c8_mathematicsintroductiontographssim',
-    title: 'Introduction To Graphs',
+    title: 'Proportional Relationships: Identifying Proportionality',
     subtitle: 'This node covers identifying proportionality from multiple representations (tables,.',
     classLevel: 8, subject: 'mathematics', topic: 'Proportional Relationships: Identifying Proportionality',
     chapters: [],
     nodeIds: ['c8_math_ch7_5', 'c8_math_ch7_8', 'c8_math_ch10_1', 'c8_math_ch10_8', 'c8_math_ch14_8', 'c8_math_ch12_12'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you are buying mangoes at a fruit stall in Mumbai. The vendor sells them at ₹80 per kilogram.', goal: 'Master Introduction To Graphs.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you are buying mangoes at a fruit stall in Mumbai. The vendor sells them at ₹80 per kilogram.', goal: 'Master Proportional Relationships: Identifying Proportionality.' },
     discovery: {
         question: 'Explain why the equation \\(y = \\frac{k}{x}\\) represents inverse proportion, and describe what happens to \\(y\\) when \\(x\\) is doubled.',
         options: ['The equation \\(y = k/x\\) shows that \\(y\\) is the constant \\(k\\) divided by \\(x\\)', '\\(y\\) also doubles', 'it is direct proportion or does not understand the reciprocal relationship'],
@@ -78,7 +78,7 @@ export const w_c8_mathematicsintroductiontographssim: SimDef = {
             { text: 'From bar graph, mode is tallest bars: 3 and 5 hours. Range = 6 - 2 = 4 hours.', faded: true, blankAnswer: 'Line plot and bar graph constructed as described. Mode = 3.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch7_8', title: 'Identify each idea',
-          dissect: { specimen: 'Introduction To Graphs', spots: [
+          dissect: { specimen: 'Proportional Relationships: Identifying Proportionality', spots: [
             { id: 's1', label: 'A proportional relationship exists between', prompt: 'Which idea is this? — A proportional relationship exists between two quantities when their ratio remains.', answer: 'A proportional relationship exists between', options: ['A proportional relationship exists between', 'Two quantities are in direct', 'The cross-multiplication method states that', 'In inverse proportion two quantities'] },
             { id: 's2', label: 'Two quantities are in direct', prompt: 'Which idea is this? — Two quantities are in direct proportion if they increase or decrease together in such a.', answer: 'Two quantities are in direct', options: ['Two quantities are in direct', 'A proportional relationship exists between', 'The cross-multiplication method states that', 'In inverse proportion two quantities'] },
             { id: 's3', label: 'The cross-multiplication method states that', prompt: 'Which idea is this? — The cross-multiplication method states that if two ratios are equal (a proportion), the.', answer: 'The cross-multiplication method states that', options: ['The cross-multiplication method states that', 'A proportional relationship exists between', 'Two quantities are in direct', 'In inverse proportion two quantities'] },
@@ -87,7 +87,7 @@ export const w_c8_mathematicsintroductiontographssim: SimDef = {
             { id: 's6', label: 'A line plot dot plot', prompt: 'Which idea is this? — A line plot (dot plot) displays individual data points as dots or X marks above a number.', answer: 'A line plot dot plot', options: ['A line plot dot plot', 'A proportional relationship exists between', 'Two quantities are in direct', 'The cross-multiplication method states that'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsIntroductionToGraphsSim, prompt: 'Explore the interactive — Introduction To Graphs' },
+    explore: { component: C8_MathematicsIntroductionToGraphsSim, prompt: 'Explore the interactive — Proportional Relationships: Identifying Proportionality' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch7_5', difficulty: 'standard',
           question: 'A proportional relationship exists between two quantities when their ratio.',

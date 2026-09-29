@@ -6,13 +6,13 @@ import C11_GeographyDrainageSystemSim from '../../../simulations/c6_12/C11_Geogr
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geographydrainagesystemsim: SimDef = {
     id: 'v3w_c11_geographydrainagesystemsim',
-    title: 'Drainage System',
+    title: 'Physiographic Divisions of India: Overview and Classification',
     subtitle: 'Covers the six-fold physiographic classification of India at 1:5 million scale, including.',
     classLevel: 11, subject: 'geography', topic: 'Physiographic Divisions of India: Overview and Classification',
     chapters: [],
     nodeIds: ['c11_geo_cbse_09_001', 'c11_geo_cbse_09_002', 'c11_geo_cbse_09_003', 'c11_geo_cbse_09_004', 'c11_geo_cbse_09_009', 'c11_geo_cbse_13_002', 'c11_geo_cbse_21_001', 'c11_geo_cbse_24_001', 'c11_geo_cbse_08_005', 'c11_geo_cbse_09_005', 'c11_geo_cbse_09_006', 'c11_geo_cbse_09_007', 'c11_geo_cbse_13_006', 'c11_geo_cbse_24_004', 'c11_geo_cbse_24_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe a physical relief map of India (or Google Earth terrain view) and.', goal: 'Master Drainage System.' },
+    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe a physical relief map of India (or Google Earth terrain view) and.', goal: 'Master Physiographic Divisions of India: Overview and Classification.' },
     discovery: {
         question: 'A student measures the width of the Himalayan belt at three longitudes: 76°E (Kashmir), 88°E (Sikkim), and 95°E (Arunachal).',
         options: ['Step 1: Identify the basement character at each longitude', 'more rainfall in Sikkim causes more erosion', 'Brahmaputra is antecedent'],
@@ -81,7 +81,7 @@ export const w_c11_geographydrainagesystemsim: SimDef = {
             { text: 'Conclude: Flood forecasting models for this sub-basin must use longer time-to-peak parameters; watershed interventions.', faded: true, blankAnswer: 'Drainage density = 0.25 km/km². Implication: Slow flood.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_geo_cbse_09_002', title: 'Identify each idea',
-          dissect: { specimen: 'Drainage System', spots: [
+          dissect: { specimen: 'Physiographic Divisions of India: Overview and Classification', spots: [
             { id: 's1', label: 'Physiographic divisions of India refer', prompt: 'Which idea is this? — Physiographic divisions of India refer to the classification of the Indian landmass into.', answer: 'Physiographic divisions of India refer', options: ['Physiographic divisions of India refer', 'The Himalayan Mountains are a', 'The Northern Plains of India', 'The drainage system of India'] },
             { id: 's2', label: 'The Himalayan Mountains are a', prompt: 'Which idea is this? — The Himalayan Mountains are a young fold mountain system formed by the convergent.', answer: 'The Himalayan Mountains are a', options: ['The Himalayan Mountains are a', 'Physiographic divisions of India refer', 'The Northern Plains of India', 'The drainage system of India'] },
             { id: 's3', label: 'The Northern Plains of India', prompt: 'Which idea is this? — The Northern Plains of India are a vast, flat alluvial tract formed by the continuous.', answer: 'The Northern Plains of India', options: ['The Northern Plains of India', 'Physiographic divisions of India refer', 'The Himalayan Mountains are a', 'The drainage system of India'] },
@@ -89,7 +89,7 @@ export const w_c11_geographydrainagesystemsim: SimDef = {
             { id: 's5', label: 'A drainage basin or catchment', prompt: 'Which idea is this? — A drainage basin (or catchment) is the total land area drained by a river and its.', answer: 'A drainage basin or catchment', options: ['A drainage basin or catchment', 'Physiographic divisions of India refer', 'The Himalayan Mountains are a', 'The Northern Plains of India'] }
           ] } }
     ],
-    explore: { component: C11_GeographyDrainageSystemSim, prompt: 'Explore the interactive — Drainage System' },
+    explore: { component: C11_GeographyDrainageSystemSim, prompt: 'Explore the interactive — Physiographic Divisions of India: Overview and Classification' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_09_001', difficulty: 'standard',
           question: 'Physiographic divisions of India refer to the classification of the Indian.',

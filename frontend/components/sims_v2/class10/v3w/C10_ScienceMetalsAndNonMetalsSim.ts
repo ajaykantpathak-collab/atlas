@@ -6,13 +6,13 @@ import C10_ScienceMetalsAndNonMetalsSim from '../../../simulations/c6_12/C10_Sci
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_sciencemetalsandnonmetalssim: SimDef = {
     id: 'v3w_c10_sciencemetalsandnonmetalssim',
-    title: 'Metals And Non Metals',
+    title: 'Physical Properties of Metals: Lustre, Hardness, Malleability, Ductility',
     subtitle: 'This node covers the four physical properties of metals (lustre, hardness, malleability,.',
     classLevel: 10, subject: 'science', topic: 'Physical Properties of Metals: Lustre, Hardness, Malleability, Ductility',
     chapters: [],
     nodeIds: ['c10_chem_cbse_03_001', 'c10_chem_cbse_03_002', 'c10_chem_cbse_03_004', 'c10_chem_cbse_03_006', 'c10_chem_cbse_03_008', 'c10_chem_cbse_03_009', 'c10_chem_cbse_01_005', 'c10_chem_cbse_02_007', 'c10_chem_cbse_05_006', 'c10_chem_cbse_05_009', 'c10_chem_cbse_05_010', 'c10_chem_cbse_04_001', 'c10_chem_cbse_04_009', 'c10_chem_cbse_03_003', 'c10_chem_cbse_03_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Begin with a real-world observation: a student sees a gold ornament shining (lustre), a blacksmith hammering.', goal: 'Master Metals And Non Metals.' },
+    scenario: { role: 'a class 10 learner', intro: 'Begin with a real-world observation: a student sees a gold ornament shining (lustre), a blacksmith hammering.', goal: 'Master Physical Properties of Metals: Lustre, Hardness, Malleability, Ductility.' },
     discovery: {
         question: 'Why are metals generally malleable and ductile while ionic compounds like NaCl are brittle? Explain using the nature of bonding.',
         options: ['In metals, the metallic bond is non-directional', 'metals are soft', 'ionic bonds are weak'],
@@ -82,7 +82,7 @@ export const w_c10_sciencemetalsandnonmetalssim: SimDef = {
             { text: 'Verify with board exam expectation: answer must mention "mobile ions" for conduction, "lattice energy" for melting.', faded: true, blankAnswer: 'Table: Solid — none conduct. Aqueous — NaCl conducts, MgO.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_chem_cbse_03_002', title: 'Identify each idea',
-          dissect: { specimen: 'Metals And Non Metals', spots: [
+          dissect: { specimen: 'Physical Properties of Metals: Lustre, Hardness, Malleability, Ductility', spots: [
             { id: 's1', label: 'Physical properties of metals such', prompt: 'Which idea is this? — Physical properties of metals such as metallic lustre (shiny appearance due to reflection.', answer: 'Physical properties of metals such', options: ['Physical properties of metals such', 'Non-metals are elements that generally', 'The reaction of metals with', 'A displacement reaction occurs when'] },
             { id: 's2', label: 'Non-metals are elements that generally', prompt: 'Which idea is this? — Non-metals are elements that generally lack metallic lustre, are brittle in solid state,.', answer: 'Non-metals are elements that generally', options: ['Non-metals are elements that generally', 'Physical properties of metals such', 'The reaction of metals with', 'A displacement reaction occurs when'] },
             { id: 's3', label: 'The reaction of metals with', prompt: 'Which idea is this? — The reaction of metals with water (cold, hot, or steam) is a redox process where the.', answer: 'The reaction of metals with', options: ['The reaction of metals with', 'Physical properties of metals such', 'Non-metals are elements that generally', 'A displacement reaction occurs when'] },
@@ -91,7 +91,7 @@ export const w_c10_sciencemetalsandnonmetalssim: SimDef = {
             { id: 's6', label: 'Ionic compounds are crystalline solids', prompt: 'Which idea is this? — Ionic compounds are crystalline solids composed of positively charged cations and.', answer: 'Ionic compounds are crystalline solids', options: ['Ionic compounds are crystalline solids', 'Physical properties of metals such', 'Non-metals are elements that generally', 'The reaction of metals with'] }
           ] } }
     ],
-    explore: { component: C10_ScienceMetalsAndNonMetalsSim, prompt: 'Explore the interactive — Metals And Non Metals' },
+    explore: { component: C10_ScienceMetalsAndNonMetalsSim, prompt: 'Explore the interactive — Physical Properties of Metals: Lustre, Hardness, Malleability, Ductility' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_chem_cbse_03_001', difficulty: 'standard',
           question: 'Physical properties of metals such as metallic lustre (shiny appearance due to.',
@@ -217,8 +217,8 @@ export const w_c10_sciencemetalsandnonmetalssim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often write "ionic compounds conduct electricity because they have free electrons" — confusing ionic.',
           parts: [
-                { id: 'a', prompt: 'Design a simple experiment using school lab equipment to prove that an unknown white crystalline solid is ionic. List steps, observations, and conclusions.', answer: 'Steps: (1) Test physical state',
-                  options: ['Steps: (1) Test physical state', 'ionic compounds conduct electricity'],
+                { id: 'a', prompt: 'Design a simple experiment using school lab equipment to prove that an unknown white crystalline solid is ionic. List steps, observations, and conclusions.', answer: '(1) Test physical state',
+                  options: ['(1) Test physical state', 'ionic compounds conduct electricity'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often write "ionic compounds conduct electricity because they have free electrons" — confusing ionic conduction (mobile ions) with.' }
           ],

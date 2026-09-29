@@ -19,7 +19,7 @@ export const c8_engl_ch03_p3: SimDef = {
         hook: 'Adults accept what witnesses say; a kid detective tests it. Encyclopedia Brown\'s real superpower isn\'t luck or book knowledge — it\'s refusing to assume, and noticing the tiny detail everyone else waved past.',
     },
     teaching: [
-        { title: 'Character Analysis: Chief Brown and His Reliance on Encyclopedia', text: 'Character analysis of Chief Brown focuses on identifying his personality traits, motivations, and relationship dynamics—specifically his habitual reliance on his son Encyclopedia to solve baffling.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Character Analysis: Chief Brown and His Reliance on Encyclopedia', text: 'From \'English chapter c8_engl_ch3\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c8_engl_ch3_5', title: 'Your mission',
@@ -73,7 +73,7 @@ export const c8_engl_ch03_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_engl_ch3_5', difficulty: 'standard',
-          question: 'Character analysis of Chief Brown focuses on identifying his personality.',
+          question: 'From \'English chapter c8_engl_ch3\': the skill or concept this node teaches.',
           hint: 'Review the PEEL paragraph structure (Point, Evidence, Explanation, Link) practiced.',
           misconception: 'Students often mistake Chief Brown’s reliance on Encyclopedia for incompetence, reasoning that a police chief should.',
           parts: [
@@ -89,7 +89,7 @@ export const c8_engl_ch03_p3: SimDef = {
           misconception: 'Students often think the theme is simply "being a good detective" or "paying attention," reducing observation and.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The theme of observation and logical reasoning in solving mysteries refers to the central',
-                  options: ['The theme of observation and logical reasoning in solving mysteries refers to the central', 'Character analysis involves examining a fictional character\'s traits, motivations, and', 'Evidence consists of verifiable, explicit facts, clues, or direct quotes provided', 'An anagram is a word play technique where the letters of a word or phrase are rearranged'],
+                  options: ['The theme of observation and logical reasoning in solving mysteries refers to the central', 'From \'English chapter c8_engl_ch3\': the skill or concept this node teaches, applied to', 'Evidence consists of verifiable, explicit facts, clues, or direct quotes provided', 'An anagram is a word play technique where the letters of a word or phrase are rearranged'],
                   hint: 'If stuck, review the process of theme identification from Class 7: look for recurring ideas, check.',
                   misconception: 'Students often think the theme is simply "being a good detective" or "paying attention," reducing observation and logical reasoning.' }
           ],
@@ -130,7 +130,7 @@ export const c8_engl_ch03_p3: SimDef = {
           misconception: 'Students often believe that anagrams in stories are merely fun word puzzles with no deeper literary purpose, thinking.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in context involves understanding how words like nicknames (alternative names',
-                  options: ['Vocabulary in context involves understanding how words like nicknames (alternative names', 'Character analysis involves examining a fictional character\'s traits, motivations, and', 'Evidence consists of verifiable, explicit facts, clues, or direct quotes provided', 'An anagram is a word play technique where the letters of a word or phrase are rearranged'],
+                  options: ['Vocabulary in context involves understanding how words like nicknames (alternative names', 'From \'English chapter c8_engl_ch3\': the skill or concept this node teaches, applied to', 'Evidence consists of verifiable, explicit facts, clues, or direct quotes provided', 'An anagram is a word play technique where the letters of a word or phrase are rearranged'],
                   hint: 'If students struggle to see why an author chose a specific word like a nickname or anagram, they.',
                   misconception: 'Students often believe that anagrams in stories are merely fun word puzzles with no deeper literary purpose, thinking the author includes.' }
           ],
@@ -141,7 +141,7 @@ export const c8_engl_ch03_p3: SimDef = {
           misconception: 'Students often assume that solving a literary mystery relies on guessing hidden information or assuming facts outside.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Comprehension of a detective narrative\'s resolution involves identifying the key clue',
-                  options: ['Comprehension of a detective narrative\'s resolution involves identifying the key clue', 'Character analysis involves examining a fictional character\'s traits, motivations, and', 'Evidence consists of verifiable, explicit facts, clues, or direct quotes provided', 'An anagram is a word play technique where the letters of a word or phrase are rearranged'],
+                  options: ['Comprehension of a detective narrative\'s resolution involves identifying the key clue', 'From \'English chapter c8_engl_ch3\': the skill or concept this node teaches, applied to', 'Evidence consists of verifiable, explicit facts, clues, or direct quotes provided', 'An anagram is a word play technique where the letters of a word or phrase are rearranged'],
                   hint: 'If stuck, review `c8_engl_ch3_4` to understand how detectives isolate clues from ordinary.',
                   misconception: 'Students often assume that solving a literary mystery relies on guessing hidden information or assuming facts outside the text, rather than.' }
           ],

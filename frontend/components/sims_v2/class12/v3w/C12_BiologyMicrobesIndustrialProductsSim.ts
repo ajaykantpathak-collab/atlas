@@ -6,13 +6,13 @@ import C12_BiologyMicrobesIndustrialProductsSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologymicrobesindustrialproductssim: SimDef = {
     id: 'v3w_c12_biologymicrobesindustrialproductssim',
-    title: 'Microbes Industrial Products',
+    title: 'Microbes in Household Products: Curd, Cheese, Bread',
     subtitle: 'Covers only household-scale microbial products: curd (dahi), cheese (major varieties),.',
     classLevel: 12, subject: 'biology', topic: 'Microbes in Household Products: Curd, Cheese, Bread',
     chapters: [],
     nodeIds: ['c12_bio_cbse_10_001', 'c12_bio_cbse_10_002', 'c12_bio_cbse_10_003', 'c12_bio_cbse_10_007', 'c12_bio_cbse_10_004', 'c12_bio_cbse_10_006', 'c12_bio_cbse_10_005', 'c12_bio_cbse_10_008', 'c12_bio_cbse_11_001', 'c12_bio_cbse_11_008', 'c12_bio_cbse_09_005', 'c12_bio_cbse_09_008', 'c12_bio_cbse_12_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Think about the last time you saw your mother set curd overnight — a spoonful of yesterday\'s curd mixed into.', goal: 'Master Microbes Industrial Products.' },
+    scenario: { role: 'a class 12 learner', intro: 'Think about the last time you saw your mother set curd overnight — a spoonful of yesterday\'s curd mixed into.', goal: 'Master Microbes in Household Products: Curd, Cheese, Bread.' },
     discovery: {
         question: 'A winemaker observes that fermentation stops at 12% ABV (alcohol by volume) even though residual sugar remains.',
         options: ['Ethanol denatures yeast membrane proteins and inhibits glycolytic enzymes', 'add more yeast', 'add more sugar'],
@@ -82,7 +82,7 @@ export const w_c12_biologymicrobesindustrialproductssim: SimDef = {
             { text: 'Conclude — For sustainable management, Bt spray is preferred if applied at correct larval stage and coverage; chemical.', faded: true, blankAnswer: 'Bt formulation is the better first choice for sustainable.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_10_002', title: 'Identify each idea',
-          dissect: { specimen: 'Microbes Industrial Products', spots: [
+          dissect: { specimen: 'Microbes in Household Products: Curd, Cheese, Bread', spots: [
             { id: 's1', label: 'Microbes in household products refer', prompt: 'Which idea is this? — Microbes in household products refer to the beneficial microorganisms (bacteria, fungi,.', answer: 'Microbes in household products refer', options: ['Microbes in household products refer', 'Antibiotics are chemical substances produced', 'Microbes in beverage production refers', 'Biofertilizers are microorganisms bacteria cyanobacteria'] },
             { id: 's2', label: 'Antibiotics are chemical substances produced', prompt: 'Which idea is this? — Antibiotics are chemical substances produced by microorganisms (bacteria, fungi,.', answer: 'Antibiotics are chemical substances produced', options: ['Antibiotics are chemical substances produced', 'Microbes in household products refer', 'Microbes in beverage production refers', 'Biofertilizers are microorganisms bacteria cyanobacteria'] },
             { id: 's3', label: 'Microbes in beverage production refers', prompt: 'Which idea is this? — Microbes in beverage production refers to the controlled use of specific microorganisms,.', answer: 'Microbes in beverage production refers', options: ['Microbes in beverage production refers', 'Microbes in household products refer', 'Antibiotics are chemical substances produced', 'Biofertilizers are microorganisms bacteria cyanobacteria'] },
@@ -91,7 +91,7 @@ export const w_c12_biologymicrobesindustrialproductssim: SimDef = {
             { id: 's6', label: 'Microbes as biocontrol agents are', prompt: 'Which idea is this? — Microbes as biocontrol agents are microorganisms (bacteria, fungi, viruses, protozoa).', answer: 'Microbes as biocontrol agents are', options: ['Microbes as biocontrol agents are', 'Microbes in household products refer', 'Antibiotics are chemical substances produced', 'Microbes in beverage production refers'] }
           ] } }
     ],
-    explore: { component: C12_BiologyMicrobesIndustrialProductsSim, prompt: 'Explore the interactive — Microbes Industrial Products' },
+    explore: { component: C12_BiologyMicrobesIndustrialProductsSim, prompt: 'Explore the interactive — Microbes in Household Products: Curd, Cheese, Bread' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_10_001', difficulty: 'standard',
           question: 'Microbes in household products refer to the beneficial microorganisms.',

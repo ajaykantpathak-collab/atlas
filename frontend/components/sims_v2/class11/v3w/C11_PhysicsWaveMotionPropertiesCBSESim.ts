@@ -6,13 +6,13 @@ import C11_PhysicsWaveMotionPropertiesCBSESim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicswavemotionpropertiescbsesim: SimDef = {
     id: 'v3w_c11_physicswavemotionpropertiescbsesim',
-    title: 'Wave Motion Properties CBSE',
+    title: 'Speed of Wave: Formula',
     subtitle: 'This node covers the derivation of v = ω/k = λν, the formulas for speed of transverse.',
     classLevel: 11, subject: 'physics', topic: 'Speed of Wave: Formula',
     chapters: [],
     nodeIds: ['c11_phy_cbse_14_002', 'c11_phy_cbse_14_004', 'c11_phy_cbse_14_001', 'c11_phy_cbse_14_010', 'c11_phy_cbse_14_011', 'c11_phy_cbse_14_005', 'c11_phy_cbse_14_006', 'c11_phy_cbse_14_007', 'c11_phy_cbse_14_008', 'c11_phy_cbse_14_009', 'c11_phy_cbse_14_012', 'c11_phy_cbse_04_001', 'c11_phy_cbse_04_002', 'c11_phy_cbse_04_011', 'c11_phy_cbse_06_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Watch a guitar string being plucked - the disturbance travels along the string at a definite speed.', goal: 'Master Wave Motion Properties CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Watch a guitar string being plucked - the disturbance travels along the string at a definite speed.', goal: 'Master Speed of Wave: Formula.' },
     discovery: {
         question: 'A transverse wave travels on a stretched string with speed v. If the tension is doubled while keeping the linear mass density constant, what happens to the.',
         options: ['The wave speed increases by a factor of √2', 'speed doubles', 'speed unchanged'],
@@ -80,7 +80,7 @@ export const w_c11_physicswavemotionpropertiescbsesim: SimDef = {
             { text: 'Verify units: A in m, k in rad/m, ω in rad/s, argument of sine dimensionless.', faded: true, blankAnswer: 'Resultant amplitude = 0.0554 m, frequency = 10 Hz,.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_14_004', title: 'Identify each idea',
-          dissect: { specimen: 'Wave Motion Properties CBSE', spots: [
+          dissect: { specimen: 'Speed of Wave: Formula', spots: [
             { id: 's1', label: 'The speed of a travelling', prompt: 'Which idea is this? — The speed of a travelling wave is the rate at which a particular phase point (such as a.', answer: 'The speed of a travelling', options: ['The speed of a travelling', 'The speed of sound in', 'A mechanical wave is classified', 'The Doppler Effect is the'] },
             { id: 's2', label: 'The speed of sound in', prompt: 'Which idea is this? — The speed of sound in a medium is the rate at which a sound wave propagates through that.', answer: 'The speed of sound in', options: ['The speed of sound in', 'The speed of a travelling', 'A mechanical wave is classified', 'The Doppler Effect is the'] },
             { id: 's3', label: 'A mechanical wave is classified', prompt: 'Which idea is this? — A mechanical wave is classified as **transverse** if the particles of the medium.', answer: 'A mechanical wave is classified', options: ['A mechanical wave is classified', 'The speed of a travelling', 'The speed of sound in', 'The Doppler Effect is the'] },
@@ -89,7 +89,7 @@ export const w_c11_physicswavemotionpropertiescbsesim: SimDef = {
             { id: 's6', label: 'The principle of superposition of', prompt: 'Which idea is this? — The principle of superposition of waves states that when two or more waves travel.', answer: 'The principle of superposition of', options: ['The principle of superposition of', 'The speed of a travelling', 'The speed of sound in', 'A mechanical wave is classified'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsWaveMotionPropertiesCBSESim, prompt: 'Explore the interactive — Wave Motion Properties CBSE' },
+    explore: { component: C11_PhysicsWaveMotionPropertiesCBSESim, prompt: 'Explore the interactive — Speed of Wave: Formula' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_14_002', difficulty: 'standard',
           question: 'The speed of a travelling wave is the rate at which a particular phase point.',

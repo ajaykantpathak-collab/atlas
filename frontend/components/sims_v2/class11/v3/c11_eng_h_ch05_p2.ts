@@ -19,7 +19,7 @@ export const c11_eng_h_ch05_p2: SimDef = {
         hook: 'Two \'greens,\' opposite directions — one fed the world quickly, the other asked what that feeding cost the planet.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes in a literary text are the underlying ideas, motifs, or messages that support, complicate, or run parallel to the primary theme, often revealing deeper layers of meaning about human.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Adventure\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_05_007', title: 'Your mission',
@@ -29,34 +29,34 @@ export const c11_eng_h_ch05_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_05_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are a detective who has solved the main case (the primary theme) but discovers three hidden compartments in the evidence box — each containing.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Adventure\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'Define "secondary theme" in the context of literary analysis and list one secondary theme from "The Adventure" other than the.', options: [
                 { text: 'A secondary theme is a significant but subordinate idea that runs through a text,', outcome: 'A secondary theme is a significant but subordinate idea that runs through a text, supporting.' },
                 { text: 'secondary themes', outcome: 'Not quite — Students often confuse "secondary themes" with "subplots" or "minor plot details," treating.', reveals: 'students-often-confuse-secondary-themes' },
                 { text: 'subplots', outcome: 'Not quite — Students often confuse "secondary themes" with "subplots" or "minor plot details," treating.', reveals: 'students-often-confuse-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_05_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you\'re watching a film where the director uses extreme close-ups — a droplet of sweat, the vibration of a violin string, the blur of a passing train.',
+          caseStudy: { intro: 'Find the lines in \'The Adventure\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "imagery" and "metaphor" in your own words, and give one example of each from "The Adventure" without looking at the text.', options: [
                 { text: 'Imagery: Language appealing to senses (e.g., "The train roared through Kalyan"', outcome: 'Imagery: Language appealing to senses (e.g., "The train roared through Kalyan".' },
                 { text: 'like a magnet', outcome: 'Not quite — Students conflate *simile* and *metaphor* because both compare, and they treat *imagery* as only.', reveals: 'students-conflate-simile-and-metaphor' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_05_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you\'re watching a mystery thriller where the detective confidently declares "The butler couldn\'t possibly be the murderer" — but you, the viewer, saw.',
+          caseStudy: { intro: 'Look in \'The Adventure\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define verbal irony, situational irony, and dramatic irony in one sentence each, using precise literary terminology.', options: [
                 { text: 'Verbal irony occurs when a speaker\'s intended meaning is opposite to the literal meaning', outcome: 'Verbal irony occurs when a speaker\'s intended meaning is opposite to the literal meaning of their.' },
                 { text: 'bad luck', outcome: 'Not quite — Students consistently confuse symbolism with "metaphor used more than once." They identify.', reveals: 'students-consistently-confuse-symbolism-with' },
                 { text: 'coincidence', outcome: 'Not quite — Students consistently confuse symbolism with "metaphor used more than once." They identify.', reveals: 'students-consistently-confuse-symbolism-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_05_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading "The Ailing Planet" and encounter the phrase "the green movement\'s role" – you know the individual words but the phrase carries.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Adventure\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the primary strategy for inferring the meaning of an unfamiliar word like "astute" from its context in a sentence such as "The.', options: [
                 { text: 'The primary strategy is to identify context clues: here, the phrase "enough to recognise', outcome: 'The primary strategy is to identify context clues: here, the phrase "enough to recognise the.' },
                 { text: 'astute', outcome: 'Not quite — Students often believe that vocabulary in context means guessing a word\'s definition from its.', reveals: 'vocabulary-in-context-means-guessing' },
                 { text: 'powerful', outcome: 'Not quite — Students often believe that vocabulary in context means guessing a word\'s definition from its.', reveals: 'vocabulary-in-context-means-guessing' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_05_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are Professor Gaitonde standing in the Azad Maidan: you see an empty presidential chair (literal observation), but you *infer* it symbolizes.',
+          caseStudy: { intro: 'Answer \'The Adventure\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify whether the following question is literal or inferential: "What was the name of the train Professor Gaitonde took from Pune.', options: [
                 { text: '**Answer:** Literal', outcome: '**Answer:** Literal. The text explicitly states: "The Jijamata Express sped along the Pune-Bombay.' },
                 { text: 'The Jijamata Express sped along the Pune-Bombay route', outcome: 'Not quite — Students treat "inferential" as "guessing" and write personal opinions (e.g., "I think Gaitonde was.', reveals: 'students-treat-inferential-as-guessing' }
@@ -80,7 +80,7 @@ export const c11_eng_h_ch05_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_007', difficulty: 'standard',
-          question: 'Secondary themes in a literary text are the underlying ideas, motifs,.',
+          question: 'Secondary themes in \'The Adventure\' — the supporting ideas and motifs that.',
           hint: 'Review c11_eng_h_cbse_05_006 (Primary Theme) and c11_eng_h_cbse_05_002 (Plot and.',
           misconception: 'Students often confuse "secondary themes" with "subplots" or "minor plot details," treating thematic analysis as plot.',
           parts: [
@@ -102,7 +102,7 @@ export const c11_eng_h_ch05_p2: SimDef = {
           ],
             remediations: { 'students-often-confuse-secondary-themes': { steps: ['If a student conflates plot with theme: 1.', 'Ask them to complete the sentence: "This event shows that ________" (e.g., "The bullet missing Vishwasrao shows that.', 'Have them write the abstract noun phrase (the theme) on a sticky note and the plot event on another; physically.', 'Practice with a familiar story (e.g., *The Thirsty Crow*: plot = crow drops stones; theme = *persistence solves.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'The Adventure\' — the vivid, sensory language that creates.',
           hint: 'Review c7_engl_ch01_008 (sensory imagery classification) and c6_english_u1_005 (metaphor.',
           misconception: 'Students conflate *simile* and *metaphor* because both compare, and they treat *imagery* as only "visual description.".',
           parts: [
@@ -121,7 +121,7 @@ export const c11_eng_h_ch05_p2: SimDef = {
           ],
             remediations: { 'students-conflate-simile-and-metaphor': { steps: ['Have the student re-read only the Rajendra-Gaitonde dialogue (pp.', '49-52) and list every physics term used (electron, orbit, state, transition, radiation, macroscopic, microscopic.', 'For each term, ask: "What historical concept does this word *replace*?" — building a two-column mapping table.', 'Then ask: "If Narlikar had used \'like\' or \'as\' for each, how would the argument weaken?" — forcing recognition that the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'The Adventure\' — where opposite things are both true,.',
           hint: 'If stuck, return to c10_engl_cbse_01_007 (irony types) and c8_engl_ch4_008 (symbol.',
           misconception: 'Students consistently confuse symbolism with "metaphor used more than once." They identify a comparison (e.g., "the.',
           parts: [
@@ -136,29 +136,29 @@ export const c11_eng_h_ch05_p2: SimDef = {
           ],
             remediations: { 'students-consistently-confuse-symbolism-with': { steps: ['Give the student three concrete objects from the chapter (the Bakhar, the chair, the train).', 'For each, have them list: (a) literal function in plot, (b) abstract idea it carries in first appearance, (c) how that.', 'Require them to write one paragraph per object using the template: "In [scene X], the [object] operates as [literal.', 'Only then reintroduce the term "symbolism" as the name for this tracked semantic accretion.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the meaning of unfamiliar.',
+          question: 'Key vocabulary of \'The Adventure\' — the words and phrases you must know to read.',
           hint: 'Review "Context Clues Types" from Class 9-10: definition, synonym, antonym, example.',
           misconception: 'Students often believe that vocabulary in context means guessing a word\'s definition from its dictionary entry or root.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context is the skill of determining the meaning of unfamiliar words or',
-                  options: ['Vocabulary in Context is the skill of determining the meaning of unfamiliar words or', '"Before You Read: Context and Background" is a pre-reading pedagogical section that', 'Plot and narrative structure refers to the organized sequence of events in a story and', 'Setting refers to the time, place, and social-historical context in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Key vocabulary of \'The Adventure\'',
+                  options: ['Key vocabulary of \'The Adventure\'', '\'The Adventure\' (Hornbill, ch', 'The plot/narrative arc of \'The Adventure\'', 'The setting of \'The Adventure\''],
                   hint: 'Review "Context Clues Types" from Class 9-10: definition, synonym, antonym, example, general sense.',
                   misconception: 'Students often believe that vocabulary in context means guessing a word\'s definition from its dictionary entry or root word (e.g., assuming.' }
           ],
             remediations: { 'vocabulary-in-context-means-guessing': { steps: ['Have the student reread the specific sentence containing the target word and underline all context clues (punctuation.', 'Ask: "What does the author want us to understand here?', 'What words signal contrast, cause, or example?" 3.', 'Model think-aloud: "I see \'but\' before \'doctored accounts\', so \'doctored\' must contrast with \'graphic\' and \'germ.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_011', difficulty: 'standard',
-          question: 'This topic covers the grammatical structures and lexical items used in the text.',
+          question: 'Language and style in \'The Adventure\' — how the writer chose words, sentences.',
           hint: 'Review Class 10 grammar: \'Conditionals: Type 0, 1, 2, 3\' (especially the tense shift.',
           misconception: 'Students consistently write \'If I *would have known*, I *would have told* you\' (double \'would have\') for Third.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'This topic covers the grammatical structures and lexical items used in the text to',
-                  options: ['This topic covers the grammatical structures and lexical items used in the text to', '"Before You Read: Context and Background" is a pre-reading pedagogical section that', 'Plot and narrative structure refers to the organized sequence of events in a story and', 'Setting refers to the time, place, and social-historical context in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language and style in \'The Adventure\'',
+                  options: ['Language and style in \'The Adventure\'', '\'The Adventure\' (Hornbill, ch', 'The plot/narrative arc of \'The Adventure\'', 'The setting of \'The Adventure\''],
                   hint: 'Review Class 10 grammar: \'Conditionals: Type 0, 1, 2, 3\' (especially the tense shift rules) and.',
                   misconception: 'Students consistently write \'If I *would have known*, I *would have told* you\' (double \'would have\') for Third Conditionals because they.' }
           ],
             remediations: { 'students-consistently-write-if-i': { steps: ['**Isolate the time frame**: Draw a timeline.', 'Place the condition and result.', 'If both are past → Third Conditional (had + V3 / would have + V3).', 'If present/future → Second Conditional (V2 / would + V1).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_012', difficulty: 'standard',
-          question: 'Literal comprehension involves retrieving information explicitly stated in the.',
+          question: 'Literal comprehension of \'The Adventure\' — questions answered straight from the.',
           hint: 'If stuck, re-read the "Understanding the Text" section in NCERT (pp.',
           misconception: 'Students treat "inferential" as "guessing" and write personal opinions (e.g., "I think Gaitonde was scared") instead.',
           parts: [

@@ -6,13 +6,13 @@ import C11_PsyThinkingCBSESim from '../../../simulations/c6_12_new/C11_PsyThinki
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_psythinkingcbsesim: SimDef = {
     id: 'v3w_c11_psythinkingcbsesim',
-    title: 'Psy Thinking CBSE',
+    title: 'Nature of Thinking: Definition and Characteristics',
     subtitle: 'This node covers the NCERT definition of thinking, its core characteristics (internal,.',
     classLevel: 11, subject: 'science', topic: 'Nature of Thinking: Definition and Characteristics',
     chapters: [],
     nodeIds: ['c11_psy_cbse_07_001', 'c11_psy_cbse_07_002', 'c11_psy_cbse_07_003', 'c11_psy_cbse_07_004', 'c11_psy_cbse_07_007', 'c11_psy_cbse_07_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are watching a Class 11 student staring at a complex physics numerical for five minutes without.', goal: 'Master Psy Thinking CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are watching a Class 11 student staring at a complex physics numerical for five minutes without.', goal: 'Master Nature of Thinking: Definition and Characteristics.' },
     discovery: {
         question: 'Compare linguistic relativity (Whorf) and cognitive primacy (Piaget) on the thought-language relationship.',
         options: ['Whorf: language structure constrains thought categories (strong determinism) or', 'thinking in words', 'thinking in images'],
@@ -79,7 +79,7 @@ export const w_c11_psythinkingcbsesim: SimDef = {
             { text: 'Post-session clustering (2 min) – Group sticky notes into themes (e.g., "colorimetric," "enzymatic," "sensor-based"),.', faded: true, blankAnswer: 'A structured 15-minute solo brainstorming plan with.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_psy_cbse_07_002', title: 'Identify each idea',
-          dissect: { specimen: 'Psy Thinking CBSE', spots: [
+          dissect: { specimen: 'Nature of Thinking: Definition and Characteristics', spots: [
             { id: 's1', label: 'Thinking is a higher-order internal', prompt: 'Which idea is this? — Thinking is a higher-order, internal cognitive process that involves the goal-directed.', answer: 'Thinking is a higher-order internal', options: ['Thinking is a higher-order internal', 'The building blocks of thought', 'Types of thinking classify cognitive', 'Problem solving is a goal-directed'] },
             { id: 's2', label: 'The building blocks of thought', prompt: 'Which idea is this? — The building blocks of thought are the fundamental mental representations—mental images.', answer: 'The building blocks of thought', options: ['The building blocks of thought', 'Thinking is a higher-order internal', 'Types of thinking classify cognitive', 'Problem solving is a goal-directed'] },
             { id: 's3', label: 'Types of thinking classify cognitive', prompt: 'Which idea is this? — Types of thinking classify cognitive processes based on their relationship to reality and.', answer: 'Types of thinking classify cognitive', options: ['Types of thinking classify cognitive', 'Thinking is a higher-order internal', 'The building blocks of thought', 'Problem solving is a goal-directed'] },
@@ -88,7 +88,7 @@ export const w_c11_psythinkingcbsesim: SimDef = {
             { id: 's6', label: 'Creative thinking is a cognitive', prompt: 'Which idea is this? — Creative thinking is a cognitive process characterized by the production of novel,.', answer: 'Creative thinking is a cognitive', options: ['Creative thinking is a cognitive', 'Thinking is a higher-order internal', 'The building blocks of thought', 'Types of thinking classify cognitive'] }
           ] } }
     ],
-    explore: { component: C11_PsyThinkingCBSESim, prompt: 'Explore the interactive — Psy Thinking CBSE' },
+    explore: { component: C11_PsyThinkingCBSESim, prompt: 'Explore the interactive — Nature of Thinking: Definition and Characteristics' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_psy_cbse_07_001', difficulty: 'standard',
           question: 'Thinking is a higher-order, internal cognitive process that involves the.',

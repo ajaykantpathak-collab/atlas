@@ -6,13 +6,13 @@ import C12_PhysicsBohrAtomSim from '../../../simulations/three/C12_PhysicsBohrAt
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsbohratomsim: SimDef = {
     id: 'v3w_c12_physicsbohratomsim',
-    title: 'Bohr Atom',
+    title: 'Bohr Model of Hydrogen Atom: Postulates',
     subtitle: 'This node covers **only** the three Bohr postulates and their immediate physical.',
     classLevel: 12, subject: 'physics', topic: 'Bohr Model of Hydrogen Atom: Postulates',
     chapters: [],
     nodeIds: ['c12_phy_cbse_12_002', 'c12_phy_cbse_12_003', 'c12_phy_cbse_12_004', 'c12_phy_cbse_12_005', 'c12_phy_cbse_12_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Start with a real-world observation: a neon sign glowing with distinct colours (red-orange) while an.', goal: 'Master Bohr Atom.' },
+    scenario: { role: 'a class 12 learner', intro: 'Start with a real-world observation: a neon sign glowing with distinct colours (red-orange) while an.', goal: 'Master Bohr Model of Hydrogen Atom: Postulates.' },
     discovery: {
         question: 'Why is the energy of the electron in a hydrogen atom negative? What does \\(E_n \\to 0\\) as \\(n \\to \\infty\\) physically represent?',
         options: ['The negative sign arises', 'negative energy means the electron has lost energy', 'zero energy means the electron is at rest at the nucleus'],
@@ -69,7 +69,7 @@ export const w_c12_physicsbohratomsim: SimDef = {
             { text: 'N₂ = 1000 × 0.01792 = 17.92 ≈ 18 particles per minute.', faded: true, blankAnswer: '18 particles per minute (at 90°).' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_12_003', title: 'Identify each idea',
-          dissect: { specimen: 'Bohr Atom', spots: [
+          dissect: { specimen: 'Bohr Model of Hydrogen Atom: Postulates', spots: [
             { id: 's1', label: 'Bohrs model of the hydrogen', prompt: 'Which idea is this? — Bohr\'s model of the hydrogen atom is based on three postulates: (1) Electrons revolve in.', answer: 'Bohrs model of the hydrogen', options: ['Bohrs model of the hydrogen', 'The energy levels of a', 'The line spectra of hydrogen', 'de Broglies explanation of Bohrs'] },
             { id: 's2', label: 'The energy levels of a', prompt: 'Which idea is this? — The energy levels of a hydrogen atom are the discrete, quantized values of total energy.', answer: 'The energy levels of a', options: ['The energy levels of a', 'Bohrs model of the hydrogen', 'The line spectra of hydrogen', 'de Broglies explanation of Bohrs'] },
             { id: 's3', label: 'The line spectra of hydrogen', prompt: 'Which idea is this? — The line spectra of hydrogen are discrete wavelengths of light emitted or absorbed when.', answer: 'The line spectra of hydrogen', options: ['The line spectra of hydrogen', 'Bohrs model of the hydrogen', 'The energy levels of a', 'de Broglies explanation of Bohrs'] },
@@ -77,7 +77,7 @@ export const w_c12_physicsbohratomsim: SimDef = {
             { id: 's5', label: 'Rutherfords nuclear model of the', prompt: 'Which idea is this? — Rutherford\'s nuclear model of the atom states that the entire positive charge and nearly.', answer: 'Rutherfords nuclear model of the', options: ['Rutherfords nuclear model of the', 'Bohrs model of the hydrogen', 'The energy levels of a', 'The line spectra of hydrogen'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsBohrAtomSim, prompt: 'Explore the interactive — Bohr Atom' },
+    explore: { component: C12_PhysicsBohrAtomSim, prompt: 'Explore the interactive — Bohr Model of Hydrogen Atom: Postulates' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_12_002', difficulty: 'standard',
           question: 'Bohr\'s model of the hydrogen atom is based on three postulates: (1) Electrons.',

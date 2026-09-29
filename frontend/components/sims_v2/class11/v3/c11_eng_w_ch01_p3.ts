@@ -19,7 +19,7 @@ export const c11_eng_w_ch01_p3: SimDef = {
         hook: 'The rowdy passengers are noise on the way up — in a story of character, the climax is a realisation, not a collision.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the disciplined process of actively examining a text\'s components—such as narrative structure, character motivation, symbolism, and authorial choices—to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Lament\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_01_013', title: 'Your mission',
@@ -29,21 +29,21 @@ export const c11_eng_w_ch01_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_01_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a detective arriving at a crime scene where the "crime" is human indifference—you see a cabdriver, a horse, and three fares who refuse.',
+          caseStudy: { intro: 'Analyse \'The Lament\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the structural significance of the story beginning and ending with Iona and his horse in near-identical stillness?', options: [
                 { text: 'The circular structure frames the narrative as a closed loop of isolation: Iona begins', outcome: 'The circular structure frames the narrative as a closed loop of isolation: Iona begins and ends.' },
                 { text: 'the story starts and ends similarly', outcome: 'Not quite — Students often believe "critical thinking" means offering a personal opinion ("I think the story.', reveals: 'critical-thinking-means-offering-a' },
                 { text: 'critical thinking', outcome: 'Not quite — Students often believe "critical thinking" means offering a personal opinion ("I think the story.', reveals: 'critical-thinking-means-offering-a' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_01_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re sitting in the exam hall and the question reads: "How does Chekhov use the horse as a symbol in \'The Lament\'?',
+          caseStudy: { intro: 'For written answers on \'The Lament\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'Define the PEEL structure for literary analysis answers and state the function of each component in a single sentence.', options: [
                 { text: 'PEEL stands for Point (topic sentence stating the analytical claim), Evidence (textual', outcome: 'PEEL stands for Point (topic sentence stating the analytical claim), Evidence (textual support.' },
                 { text: 'Point, Example, Explanation, Conclusion', outcome: 'Not quite — Students believe "Writing Skills based on the chapter" means retelling the story in their own words.', reveals: 'writing-skills-based-on-the' },
                 { text: 'Example', outcome: 'Not quite — Students believe "Writing Skills based on the chapter" means retelling the story in their own words.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_01_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a college admission group discussion where the topic is "Is technology making us more lonely?" You notice that the loudest voices dominate.',
+          caseStudy: { intro: 'Talk through \'The Lament\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the two discussion prompts given under "Talking About the Text" in the NCERT textbook for "The Lament"?', options: [
                 { text: 'The two prompts are: (1) "Empathy and understanding are going out of modern society', outcome: 'The two prompts are: (1) "Empathy and understanding are going out of modern society.' },
                 { text: 'sharing opinions', outcome: 'Not quite — Students believe a literary discussion is "sharing opinions" where all views are equally valid.', reveals: 'a-literary-discussion-is-sharing' },
@@ -68,7 +68,7 @@ export const c11_eng_w_ch01_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_01_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the disciplined process of actively.',
+          question: 'Critical thinking on \'The Lament\' — analysing the text to reach evidence-based.',
           hint: 'If stuck, re-read the "Understanding the Text" questions in the NCERT textbook and write.',
           misconception: 'Students often believe "critical thinking" means offering a personal opinion ("I think the story is sad") or hunting.',
           parts: [
@@ -90,18 +90,18 @@ export const c11_eng_w_ch01_p3: SimDef = {
           ],
             remediations: { 'critical-thinking-means-offering-a': { steps: ['Return to the text and mark every moment a character *speaks* vs.', '*fails to speak* (Iona\'s snuffle, the officer\'s closed eyes, the young men\'s insults, the porter\'s dismissal, the young.', 'Create a two-column table: "What Iona tries to say" vs.', '"How the listener responds." 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_01_014', difficulty: 'standard',
-          question: 'Writing Skills based on "The Lament" refers to the ability to compose.',
+          question: 'Writing skills from \'The Lament\' — using the text as a model or springboard for.',
           hint: 'Review "Literary Devices: Imagery and Metaphor" (c11_eng_w_cbse_01_008) and "Literary.',
           misconception: 'Students believe "Writing Skills based on the chapter" means retelling the story in their own words or writing.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing Skills based on "The Lament" refers to the ability to compose structured,',
-                  options: ['Writing Skills based on "The Lament" refers to the ability to compose structured,', '"Before You Read: Context and Background" is the preparatory literary analysis step where', 'Plot is the sequence of causally connected events that form the narrative arc of a story,', 'Setting refers to the time, place, and physical environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing skills from \'The Lament\'',
+                  options: ['Writing skills from \'The Lament\'', '\'The Lament\' (Woven Words, ch', 'The plot/narrative arc of \'The Lament\'', 'The setting of \'The Lament\''],
                   hint: 'Review "Literary Devices: Imagery and Metaphor" (c11_eng_w_cbse_01_008) and "Literary Devices.',
                   misconception: 'Students believe "Writing Skills based on the chapter" means retelling the story in their own words or writing a character sketch as a list.' }
           ],
             remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits a descriptive summary instead of an analytical paragraph: (1) Return the answer with three.', '(2) Ask: "Which colour dominates?', 'That\'s your grade." (3) Co-construct one PEEL paragraph together on a micro-point (e.g., "Why \'gingerbread horse\'?").', '(4) Assign a 100-word micro-analysis on a single symbol (whip, snow, stable) using the template: "Chekhov uses [symbol].'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_01_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'The Lament\' — speaking and listening around the text.',
           hint: 'If stuck, review the "Critical Thinking: Analysis and Interpretation" node.',
           misconception: 'Students believe a literary discussion is "sharing opinions" where all views are equally valid.',
           parts: [

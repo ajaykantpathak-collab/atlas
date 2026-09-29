@@ -128,7 +128,7 @@ export const c9_engl_ch06_p1: SimDef = {
           ],
             remediations: { 'respecting-tradition-means-blindly-replicating': { steps: ['If a student holds this misconception, guide them through a three-step re-reading: (1) List every scene where tradition.', '(2) List every scene where passion drives growth (Shruti\'s compositions, her collaboration).', '(3) Identify the scenes where both operate together (the final duet, the moment Guru Nabin suggests a raga for her.', 'Ask: "Where does the play show tradition enabling passion, not blocking it?" This shifts focus from conflict.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c9_engl_ch6_2', difficulty: 'standard',
-          question: 'Character analysis is the systematic examination of a literary character\'s.',
+          question: 'From \'English chapter c9_engl_ch6\': the skill or concept this node teaches.',
           hint: 'Review PEEL paragraph structure using a simple familiar character (e.g., Rakesh from.',
           misconception: 'Students treat Shruti as a simple "modern vs. traditional" binary — either she\'s the "progressive one" or the.',
           parts: [
@@ -143,7 +143,7 @@ export const c9_engl_ch06_p1: SimDef = {
           ],
             remediations: { 'students-treat-shruti-as-a': { steps: ['If a student reduces Shruti to "rebellious modern girl," do this 3-step remediation: (1) Have them re-read Act 1 Scene.', 'Or her *relationship* to the raga?" (3) Compare her final *successful* performance: "What changed?', 'She didn\'t add more electronics — she *removed* the beat.', 'What does that subtraction tell you about her growth?"'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c9_engl_ch6_3', difficulty: 'standard',
-          question: 'Character analysis of Guru Nabin Sharma involves examining his dual role as.',
+          question: 'From \'English chapter c9_engl_ch6\': the skill or concept this node teaches.',
           hint: 'Review STEAL method (Speech, Thoughts, Effect, Actions, Looks) from c8_engl_ch4_2 (Rakesh.',
           misconception: 'Students treat Guru Nabin Sharma as a one-dimensional "strict traditional father" who simply "doesn\'t understand".',
           parts: [
@@ -163,7 +163,7 @@ export const c9_engl_ch06_p1: SimDef = {
           misconception: 'Students treat stage directions as *optional reading*—"just instructions for actors"—and skip them during silent.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Dramatic structure refers to the organization of a play into acts and scenes',
-                  options: ['Dramatic structure refers to the organization of a play into acts and scenes', 'A play summary condenses the narrative arc of a dramatic work into a coherent overview', 'The values of pursuing passion and respecting tradition refer to the ethical and', 'Character analysis is the systematic examination of a literary character\'s personality'],
+                  options: ['Dramatic structure refers to the organization of a play into acts and scenes', 'A play summary condenses the narrative arc of a dramatic work into a coherent overview', 'The values of pursuing passion and respecting tradition refer to the ethical and', 'From \'English chapter c9_engl_ch6\': the skill or concept this node teaches, applied to'],
                   hint: 'If stuck, re-read c9_engl_ch6_1 (Play Summary) and physically mark every act/scene break and.',
                   misconception: 'Students treat stage directions as *optional reading*—"just instructions for actors"—and skip them during silent reading, then wonder why.' }
           ],

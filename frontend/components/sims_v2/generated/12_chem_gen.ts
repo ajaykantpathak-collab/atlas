@@ -369,13 +369,13 @@ export const C12_CHEM_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "For a Zero Order Reaction, The Rate Of",
+    "title": "Integrated Rate Equations: Zero Order",
     "text": "For a zero order reaction, the rate of reaction is independent of the concentration of the reactant(s). The integrated rate equation is derived from the differential rate law \\(-\\frac{d[R]}{dt} = k\\) and yields \\([R] = -kt + [R]_0\\), where \\([R]\\) is the",
     "emoji": "🧪",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Integrated Rate Equation For a",
+    "title": "Integrated Rate Equation",
     "text": "The integrated rate equation for a first-order reaction relates the concentration of a reactant at any time *t* to its initial concentration and the rate constant *k*, derived by integrating the differential rate law −d[R]/dt = k[R].",
     "emoji": "🧪",
     "bgColor": "from-rose-400 to-pink-500",
@@ -388,7 +388,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Arrhenius Equation ) Quantitatively",
+    "title": "Arrhenius Equation Quantitatively",
     "text": "The Arrhenius equation (k = A e^(-Ea/RT)) quantitatively describes how the rate constant k of a chemical reaction depends on absolute temperature T, where Ea is the activation energy (minimum energy barrier reactants must overcome), A is the pre-exponential",
     "emoji": "🧪",
     "bgColor": "from-amber-400 to-orange-500"
@@ -400,7 +400,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Collision Theory States That For a",
+    "title": "Collision Theory",
     "text": "Collision theory states that for a chemical reaction to occur, reactant molecules must collide with each other. Only those collisions in which the molecules possess kinetic energy equal to or greater than the activation energy (Ea) and have the proper spatial",
     "emoji": "🧪",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1654,7 +1654,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Physical Properties Of Amines Refer To",
+    "title": "Physical Properties Of Amines",
     "text": "Physical properties of amines refer to the observable characteristics (state, odor, boiling point, solubility) arising from their molecular structure — specifically the pyramidal geometry around sp³-hybridised nitrogen, the presence of N–H bonds (in primary",
     "emoji": "🧪",
     "bgColor": "from-amber-400 to-orange-500"

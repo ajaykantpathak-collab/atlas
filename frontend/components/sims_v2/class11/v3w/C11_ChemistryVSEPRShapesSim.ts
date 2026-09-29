@@ -6,13 +6,13 @@ import C11_ChemistryVSEPRShapesSim from '../../../simulations/three/C11_Chemistr
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_chemistryvseprshapessim: SimDef = {
     id: 'v3w_c11_chemistryvseprshapessim',
-    title: 'VSEPRShapes',
+    title: 'Kossel-Lewis Approach to Chemical Bonding',
     subtitle: 'Covers Kossel-Lewis theory, Lewis symbols, octet rule, covalent bond formation.',
     classLevel: 11, subject: 'chemistry', topic: 'Kossel-Lewis Approach to Chemical Bonding',
     chapters: [],
     nodeIds: ['c11_chem_cbse_04_001', 'c11_chem_cbse_04_003', 'c11_chem_cbse_04_005', 'c11_chem_cbse_04_012', 'c11_chem_cbse_04_007', 'c11_chem_cbse_10_001', 'c11_chem_cbse_09_007', 'c11_chem_cbse_02_014'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe how table salt (NaCl) dissolves in water to conduct electricity, while sugar (C₁₂H₂₂O₁₁) dissolves.', goal: 'Master VSEPRShapes.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe how table salt (NaCl) dissolves in water to conduct electricity, while sugar (C₁₂H₂₂O₁₁) dissolves.', goal: 'Master Kossel-Lewis Approach to Chemical Bonding.' },
     discovery: {
         question: 'Explain why the bond angle in NH₃ (107°) is smaller than the ideal tetrahedral angle (109.5°) but larger than the H–O–H angle in H₂O (104.5°).',
         options: ['NH₃ has one lone pair (lp–bp repulsion compresses angles from 109.5° to ~107°)', 'both have one lone pair', 'electronegativity difference'],
@@ -85,7 +85,7 @@ export const w_c11_chemistryvseprshapessim: SimDef = {
             { text: 'Hybridisation: C-1 (sp²), C-2 (sp²), C-3 (sp³), C-4 (sp³), C-5 (sp³). Class: Acyclic aliphatic alkene.', faded: true, blankAnswer: 'Bond-line: =CH–CH₂–CH₂–CH₂–CH₃ (zigzag with double bond at.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_chem_cbse_04_003', title: 'Identify each idea',
-          dissect: { specimen: 'VSEPRShapes', spots: [
+          dissect: { specimen: 'Kossel-Lewis Approach to Chemical Bonding', spots: [
             { id: 's1', label: 'The Kossel-Lewis approach explains chemical', prompt: 'Which idea is this? — The Kossel-Lewis approach explains chemical bonding through electron transfer or sharing.', answer: 'The Kossel-Lewis approach explains chemical', options: ['The Kossel-Lewis approach explains chemical', 'A Lewis structure is a', 'VSEPR Valence Shell Electron Pair', 'The dipole moment of'] },
             { id: 's2', label: 'A Lewis structure is a', prompt: 'Which idea is this? — A Lewis structure is a diagrammatic representation of a molecule or polyatomic ion that.', answer: 'A Lewis structure is a', options: ['A Lewis structure is a', 'The Kossel-Lewis approach explains chemical', 'VSEPR Valence Shell Electron Pair', 'The dipole moment of'] },
             { id: 's3', label: 'VSEPR Valence Shell Electron Pair', prompt: 'Which idea is this? — VSEPR (Valence Shell Electron Pair Repulsion) theory predicts the three-dimensional.', answer: 'VSEPR Valence Shell Electron Pair', options: ['VSEPR Valence Shell Electron Pair', 'The Kossel-Lewis approach explains chemical', 'A Lewis structure is a', 'The dipole moment of'] },
@@ -94,7 +94,7 @@ export const w_c11_chemistryvseprshapessim: SimDef = {
             { id: 's6', label: 'Organic compounds are covalent compounds', prompt: 'Which idea is this? — Organic compounds are covalent compounds of carbon (excluding oxides, carbonates,.', answer: 'Organic compounds are covalent compounds', options: ['Organic compounds are covalent compounds', 'The Kossel-Lewis approach explains chemical', 'A Lewis structure is a', 'VSEPR Valence Shell Electron Pair'] }
           ] } }
     ],
-    explore: { component: C11_ChemistryVSEPRShapesSim, prompt: 'Explore the interactive — VSEPRShapes' },
+    explore: { component: C11_ChemistryVSEPRShapesSim, prompt: 'Explore the interactive — Kossel-Lewis Approach to Chemical Bonding' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_chem_cbse_04_001', difficulty: 'standard',
           question: 'The Kossel-Lewis approach explains chemical bonding through electron transfer.',

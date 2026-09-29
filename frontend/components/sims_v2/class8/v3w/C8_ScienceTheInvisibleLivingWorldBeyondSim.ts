@@ -6,13 +6,13 @@ import C8_ScienceTheInvisibleLivingWorldBeyondSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_sciencetheinvisiblelivingworldbeyondsim: SimDef = {
     id: 'v3w_c8_sciencetheinvisiblelivingworldbeyondsim',
-    title: 'The Invisible Living World Beyond',
+    title: 'Discovery of the Microscopic World: Hooke and Leeuwenhoek',
     subtitle: 'Covers the historical discoveries of Hooke and Leeuwenhoek and the initial realization of.',
     classLevel: 8, subject: 'science', topic: 'Discovery of the Microscopic World: Hooke and Leeuwenhoek',
     chapters: [],
     nodeIds: ['c8_bio_ch1_1', 'c8_bio_ch1_2', 'c8_bio_ch1_3', 'c8_bio_ch1_4', 'c8_bio_ch1_8', 'c8_bio_ch1_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'When you look at a drop of pond water from a local garden puddle, it looks clear or muddy to your naked eye,.', goal: 'Master The Invisible Living World Beyond.' },
+    scenario: { role: 'a class 8 learner', intro: 'When you look at a drop of pond water from a local garden puddle, it looks clear or muddy to your naked eye,.', goal: 'Master Discovery of the Microscopic World: Hooke and Leeuwenhoek.' },
     discovery: {
         question: 'What specific plant material did Robert Hooke examine when he first observed and named "cells"?',
         options: ['Robert Hooke examined a thin slice of cork obtained from the bark of an oak tree', 'onion peel', 'pond water'],
@@ -77,7 +77,7 @@ export const w_c8_sciencetheinvisiblelivingworldbeyondsim: SimDef = {
             { text: 'Conclude that the organism belongs to the group protozoa (such as *Paramecium*), which are animal-like single-celled.', faded: true, blankAnswer: 'The organism belongs to the group **Protozoa**.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_bio_ch1_2', title: 'Identify each idea',
-          dissect: { specimen: 'The Invisible Living World Beyond', spots: [
+          dissect: { specimen: 'Discovery of the Microscopic World: Hooke and Leeuwenhoek', spots: [
             { id: 's1', label: 'The discovery of the microscopic', prompt: 'Which idea is this? — The discovery of the microscopic world refers to the historical breakthrough in the 17th.', answer: 'The discovery of the microscopic', options: ['The discovery of the microscopic', 'A microscope is an optical', 'A cell is the fundamental', 'The cell membrane acts as'] },
             { id: 's2', label: 'A microscope is an optical', prompt: 'Which idea is this? — A microscope is an optical instrument that uses lenses to magnify the image of tiny.', answer: 'A microscope is an optical', options: ['A microscope is an optical', 'The discovery of the microscopic', 'A cell is the fundamental', 'The cell membrane acts as'] },
             { id: 's3', label: 'A cell is the fundamental', prompt: 'Which idea is this? — A cell is the fundamental structural, functional, and biological unit of all living.', answer: 'A cell is the fundamental', options: ['A cell is the fundamental', 'The discovery of the microscopic', 'A microscope is an optical', 'The cell membrane acts as'] },
@@ -86,7 +86,7 @@ export const w_c8_sciencetheinvisiblelivingworldbeyondsim: SimDef = {
             { id: 's6', label: 'Microorganisms are extremely tiny living', prompt: 'Which idea is this? — Microorganisms are extremely tiny living organisms—so small that they cannot be seen with.', answer: 'Microorganisms are extremely tiny living', options: ['Microorganisms are extremely tiny living', 'The discovery of the microscopic', 'A microscope is an optical', 'A cell is the fundamental'] }
           ] } }
     ],
-    explore: { component: C8_ScienceTheInvisibleLivingWorldBeyondSim, prompt: 'Explore the interactive — The Invisible Living World Beyond' },
+    explore: { component: C8_ScienceTheInvisibleLivingWorldBeyondSim, prompt: 'Explore the interactive — Discovery of the Microscopic World: Hooke and Leeuwenhoek' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_bio_ch1_1', difficulty: 'standard',
           question: 'The discovery of the microscopic world refers to the historical breakthrough in.',

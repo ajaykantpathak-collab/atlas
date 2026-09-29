@@ -19,7 +19,7 @@ export const c12_hin_ar_ch09_p2: SimDef = {
         hook: 'Partition\'s shadow runs through her — she translated Hamsun\'s \'Hunger,\' and the refugee\'s starvation is spiritual: a hunger for the lost home. Free verse and everyday speech were her modernist break — \'new direction\' means new freedom to say loss plainly.',
     },
     teaching: [
-        { title: 'छोटा मेरा खेत, बगुलों के पंख — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: 'प्रतीक वह वस्तु, चरित्र या घटना है जो अपने शाब्दिक अर्थ से परे गहरा अमूर्त अर्थ (जैसे श्रम, स्वतंत्रता, एकाकीपन) व्यक्त करती है, जबकि बिंब वह संवेदनात्मक विवरण है जो पाठक के मन में स्पष्ट चित्र बनाता.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'छोटा मेरा खेत, बगुलों के पंख — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: '\'आरोह भाग-2 — पाठ 9\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_09_007', title: 'Your mission',
@@ -28,6 +28,25 @@ export const c12_hin_ar_ch09_p2: SimDef = {
         context: 'Read a refugee\'s double elegy: decode the titles as preservation strategies, weigh memory-mapping against image-freezing, and feel how plain speech carries unhealable loss.',
         labels: ['छोटा मेरा खेत, बगुलों'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_09_007', title: 'छोटा मेरा खेत, बगुलों के पंख — साहित्यिक युक्तियाँ: प्रतीक और बिंब',
+          caseStudy: { intro: '\'आरोह भाग-2 — पाठ 9\' में पाठ-9 जैसे सहायक विचार आते हैं।',
+            decisions: [{ prompt: 'Define "secondary theme" in the context of a poem and give one example from either "Naksara" or "Chidiyaon Ke Aage" without quoting lines.', options: [
+                { text: 'A secondary theme is a recurring idea that supports and complicates the primary theme,', outcome: 'A secondary theme is a recurring idea that supports and complicates the primary theme, often.' },
+                { text: 'the poem is about a map', outcome: 'Not quite — Students treat "secondary theme" as "minor theme" and write one sentence per theme (e.g., "Another.', reveals: 'students-treat-secondary-theme-as' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_09_008', title: 'छोटा मेरा खेत, बगुलों के पंख — मुख्य भाव और संदेश',
+          caseStudy: { intro: '\'आरोह भाग-2 — पाठ 9\' में बिंब ढूँढिए — पाठ-9 — ये दृश्य पाठ को जीवंत बनाते हैं।',
+            decisions: [{ prompt: 'Define "imagery" (चित्रण) and "metaphor" (रूपक) in your own words, and give one original example of each in Hindi (not from the textbook).', options: [
+                { text: 'Imagery: इंद्रियों को संबोधित करने वाला जीवंत भाषा-प्रयोग जो मानसिक चित्र बनाता है', outcome: 'Imagery: इंद्रियों को संबोधित करने वाला जीवंत भाषा-प्रयोग जो मानसिक चित्र बनाता है (उदाहरण: "धुएँ.' },
+                { text: 'धुएँ की लकीरें शाम को चादर की तरह फैली थीं', outcome: 'Not quite — Students believe "finding the metaphor" means quoting the line and naming the two things compared.', reveals: 'finding-the-metaphor-means-quoting' },
+                { text: 'समय एक नदी है जो कभी लौटती नहीं', outcome: 'Not quite — Students believe "finding the metaphor" means quoting the line and naming the two things compared.', reveals: 'finding-the-metaphor-means-quoting' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_09_009', title: 'छोटा मेरा खेत, बगुलों के पंख — गौण भाव और विषयांतर',
+          caseStudy: { intro: '\'आरोह भाग-2 — पाठ 9\' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।',
+            decisions: [{ prompt: 'Define irony and symbolism in your own words, giving one example from daily life for each (not from the poems).', options: [
+                { text: 'Irony occurs when the outcome is opposite to what was expected (e.g., a fire station', outcome: 'Irony occurs when the outcome is opposite to what was expected (e.g., a fire station burning down).' },
+                { text: 'any vivid description is a symbol', outcome: 'Not quite — Students often confuse *symbolism* with *imagery*: they think any vivid description is a symbol.', reveals: 'students-often-confuse-symbolism-with' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_09_007', title: 'Use it in the wild',
           caseStudy: { intro: 'A hackathon teammate wants to demo straight from the whiteboard sketch — \'the blueprint IS the product, let\'s just present the plan.\' You think the sketch needs to become something people can actually walk into.',
             decisions: [{ prompt: 'How does Jayashankar Prasad\'s \'नक्शे मेरे घर\' frame this?', options: [
@@ -47,67 +66,90 @@ export const c12_hin_ar_ch09_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_09_007', difficulty: 'standard',
-          question: 'प्रतीक वह वस्तु, चरित्र या घटना है जो अपने शाब्दिक अर्थ से परे गहरा अमूर्त अर्थ.',
-          hint: 'अगर छात्र प्रतीक और बिंब में अंतर नहीं कर पा रहा है, तो उसे कक्षा 11 के नोड.',
-          misconception: 'छात्र अक्सर प्रतीक और बिंब को एक ही मान लेते हैं और कह देते हैं कि "खेत बिंब है" या "पंख प्रतीक है", जबकि वास्तव में.',
+          question: '\'आरोह भाग-2 — पाठ 9\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
+          hint: 'If stuck, revisit node 006\'s worked examples on primary theme identification — the.',
+          misconception: 'Students treat "secondary theme" as "minor theme" and write one sentence per theme (e.g., "Another theme is freedom").',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'प्रतीक वह वस्तु, चरित्र या घटना है जो अपने शाब्दिक अर्थ से परे गहरा अमूर्त अर्थ (जैसे',
-                  options: ['प्रतीक वह वस्तु, चरित्र या घटना है जो अपने शाब्दिक अर्थ से परे गहरा अमूर्त अर्थ (जैसे', 'This node introduces the poet **Kedarnath Singh** (केदारनाथ सिंह), his literary lineage', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का स्वतंत्र रूप से', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के बाह्य रूप (stanzas, line breaks,'],
-                  hint: 'अगर छात्र प्रतीक और बिंब में अंतर नहीं कर पा रहा है, तो उसे कक्षा 11 के नोड c11_hin_ar_cbse_09_008.',
-                  misconception: 'छात्र अक्सर प्रतीक और बिंब को एक ही मान लेते हैं और कह देते हैं कि "खेत बिंब है" या "पंख प्रतीक है", जबकि वास्तव में खेत एक अमूर्त अवधारणा.' }
+                { id: 'a', prompt: 'In "Chidiyaon Ke Aage", the birds\' flight is contrasted with the poet\'s grounded state.', answer: '(1) Identify the two poles: birds\' effortless, instinctive flight vs',
+                  options: ['(1) Identify the two poles: birds\' effortless, instinctive flight vs', 'birds fly, poet sits'],
+                  hint: 'If stuck, revisit node 006\'s worked examples on primary theme identification — the "thematic.',
+                  misconception: 'Students treat "secondary theme" as "minor theme" and write one sentence per theme (e.g., "Another theme is freedom").' },
+                { id: 'b', prompt: 'Analyze how the secondary theme of "alienation in modernity" operates differently in the two poems.', answer: 'In "Naksara", alienation is *epistemological*: the map (rational order) fails to',
+                  options: ['In "Naksara", alienation is *epistemological*: the map (rational order) fails to', 'both show the poet is lonely'],
+                  hint: 'If stuck, revisit node 006\'s worked examples on primary theme identification — the "thematic.',
+                  misconception: 'Students treat "secondary theme" as "minor theme" and write one sentence per theme (e.g., "Another theme is freedom").' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दो कॉलम बनाकर सिखाइए: बाएँ में "शाब्दिक विवरण" (जैसे "खेत में मिट्टी", "पंख सफेद") और दाएँ में "अर्थ" (जैसे.', 'कौन सी पंक्ति उस चित्र के माध्यम से कोई विचार व्यक्त करती है?" इस अभ्यास से वे बिंब (चित्र-निर्माण) और प्रतीक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-secondary-theme-as': { steps: ['If a student cannot distinguish primary/secondary themes or trace them textually: (1) Have them re-read node 006.', '(2) Give them a 2-column table: Column A = Primary Theme Key Terms; Column B = Images/Lines that *don\'t fit* those.', '(3) Ask them to cluster Column B entries into 3 groups — each cluster is a candidate secondary theme.', '(4) Re-attempt Diagnostic Question 2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_09_007', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students treat "secondary theme" as "minor theme" and write one sentence per theme (e.g., "Another theme is freedom").',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the claim: "The secondary theme of \'art as redemption\' resolves the tension of alienation in Muktibodh\'s poems." Defend or challenge using evidence.', answer: 'Challenge',
+                  options: ['Challenge', 'yes, poetry saves him'],
+                  hint: 'If stuck, revisit node 006\'s worked examples on primary theme identification — the "thematic.',
+                  misconception: 'Students treat "secondary theme" as "minor theme" and write one sentence per theme (e.g., "Another theme is freedom").' }
+          ],
+            remediations: { 'students-treat-secondary-theme-as': { steps: ['If a student cannot distinguish primary/secondary themes or trace them textually: (1) Have them re-read node 006.', '(2) Give them a 2-column table: Column A = Primary Theme Key Terms; Column B = Images/Lines that *don\'t fit* those.', '(3) Ask them to cluster Column B entries into 3 groups — each cluster is a candidate secondary theme.', '(4) Re-attempt Diagnostic Question 2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_09_008', difficulty: 'standard',
-          question: '\'मुख्य भाव\' कविता का वह केंद्रीय विचार या दार्शनिक निष्कर्ष है जिसे कवि संपूर्ण.',
-          hint: 'यदि अटके तो **c12_hin_ar_cbse_09_007** (विरोधाभास और प्रतीक) का \'बगुला-प्रतीक\' खंड दोबारा.',
-          misconception: '**सबसे घातक ग़लतफ़हमी:** छात्र \'बगुलों के पंख\' को केवल **सौंदर्य/उड़ान/स्वतंत्रता** का प्रतीक मानते हैं (क्योंकि पंख.',
+          question: '\'आरोह भाग-2 — पाठ 9\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
+          hint: 'If stuck on feature-transfer, review "Metaphor as Mapping" in c11_hin_ar_cbse_09_008.',
+          misconception: 'Students believe "finding the metaphor" means quoting the line and naming the two things compared (e.g., "map = life").',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'मुख्य भाव\' कविता का वह केंद्रीय विचार या दार्शनिक निष्कर्ष है जिसे कवि संपूर्ण रचना के',
-                  options: ['\'मुख्य भाव\' कविता का वह केंद्रीय विचार या दार्शनिक निष्कर्ष है जिसे कवि संपूर्ण रचना के', 'This node introduces the poet **Kedarnath Singh** (केदारनाथ सिंह), his literary lineage', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का स्वतंत्र रूप से', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के बाह्य रूप (stanzas, line breaks,'],
-                  hint: 'यदि अटके तो **c12_hin_ar_cbse_09_007** (विरोधाभास और प्रतीक) का \'बगुला-प्रतीक\' खंड दोबारा पढ़ें और.',
-                  misconception: '**सबसे घातक ग़लतफ़हमी:** छात्र \'बगुलों के पंख\' को केवल **सौंदर्य/उड़ान/स्वतंत्रता** का प्रतीक मानते हैं (क्योंकि पंख = उड़ान), जबकि कविता.' }
+                { id: 'a', prompt: 'In "नक्शा एक सड़क", the poet calls the map "एक प्यासे रास्ते की तरह" (like a thirsty road). Is this a metaphor or a simile?', answer: 'It is a **simile** (उपमा)',
+                  options: ['It is a **simile** (उपमा)', 'distinction doesn\'t matter', 'finding the metaphor', 'map = life'],
+                  hint: 'If stuck on feature-transfer, review "Metaphor as Mapping" in c11_hin_ar_cbse_09_008 — practice.',
+                  misconception: 'Students believe "finding the metaphor" means quoting the line and naming the two things compared (e.g., "map = life").' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें — "कविता की पहली और अंतिम ४-४ पंक्तियाँ साथ रखकर पढ़ो; कवि के मन में क्या बदला, ठीक-ठीक शब्दों में.', '"बगुलों के पंख" — क्या केवल पंख हैं?', 'चरण 3: सहोदर नोड **c12_hin_ar_cbse_09_004** (केंद्रीय भाव और रस) और **c12_hin_ar_cbse_09_006/007** (साहित्यिक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'finding-the-metaphor-means-quoting': { steps: ['Take the metaphor "समय नदी है" (time is a river).', 'List 5 features of a river (flows, irreversible, carries debris, has banks, merges into sea).', 'For each, decide: transfers to time?', '(Yes: flows, irreversible, merges into eternity.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_09_009', difficulty: 'standard',
-          question: 'गौण भाव (उपभाव) कविता का वह सहायक भाव है जो मुख्य भाव का पूरक, विस्तार या.',
-          hint: 'यदि मुख्य भाव अस्पष्ट है तो c12_hin_ar_cbse_09_008 दोबारा पढ़ें; यदि गौण/विषयांतर का.',
-          misconception: 'छात्र समझते हैं कि \'गौण\' का अर्थ \'महत्वहीन\' या \'छोड़ने योग्य\' होता है, और \'विषयांतर\' का अर्थ \'भटकाव\' या \'दोष\' — जबकि.',
+          question: '\'आरोह भाग-2 — पाठ 9\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+          hint: 'Review the "Metaphor vs. Symbol" comparison table in node c12_hin_ar_cbse_09_008 and.',
+          misconception: 'Students often confuse *symbolism* with *imagery*: they think any vivid description is a symbol.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण भाव (उपभाव) कविता का वह सहायक भाव है जो मुख्य भाव का पूरक, विस्तार या पृष्ठभूमि बनकर',
-                  options: ['गौण भाव (उपभाव) कविता का वह सहायक भाव है जो मुख्य भाव का पूरक, विस्तार या पृष्ठभूमि बनकर', 'This node introduces the poet **Kedarnath Singh** (केदारनाथ सिंह), his literary lineage', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का स्वतंत्र रूप से', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के बाह्य रूप (stanzas, line breaks,'],
-                  hint: 'यदि मुख्य भाव अस्पष्ट है तो c12_hin_ar_cbse_09_008 दोबारा पढ़ें; यदि गौण/विषयांतर का सिद्धांत भूल.',
-                  misconception: 'छात्र समझते हैं कि \'गौण\' का अर्थ \'महत्वहीन\' या \'छोड़ने योग्य\' होता है, और \'विषयांतर\' का अर्थ \'भटकाव\' या \'दोष\' — जबकि दोनों कविता की कलात्मक.' }
+                { id: 'a', prompt: 'In "NksVk esjk [ksr", the poet writes "dkx\\"k dk ,d iUuk] dksbZ vaèkM+ dgha ls vk;k {k.k dk cht ogk¡ cks;k x;k".', answer: 'A nest symbolizes safety and nurture',
+                  options: ['A nest symbolizes safety and nurture', 'any vivid description is a symbol'],
+                  hint: 'Review the "Metaphor vs. Symbol" comparison table in node c12_hin_ar_cbse_09_008 and re-do its.',
+                  misconception: 'Students often confuse *symbolism* with *imagery*: they think any vivid description is a symbol.' },
+                { id: 'b', prompt: 'Identify one symbol in "cxqyksa d ia[k" and explain how it operates on two levels: literal and symbolic.', answer: 'The "old trees" (dtjkjs cknyksa) are literally aged vegetation',
+                  options: ['The "old trees" (dtjkjs cknyksa) are literally aged vegetation', 'they are just trees', 'any vivid description is a symbol'],
+                  hint: 'Review the "Metaphor vs. Symbol" comparison table in node c12_hin_ar_cbse_09_008 and re-do its.',
+                  misconception: 'Students often confuse *symbolism* with *imagery*: they think any vivid description is a symbol.' },
+                { id: 'c', prompt: 'Compare the use of irony in both poems. How does the poet\'s tone shift from nostalgia to irony in each?', answer: 'In "NksVk esjk [ksr", nostalgia for the childhood home is undercut by the ironic',
+                  options: ['In "NksVk esjk [ksr", nostalgia for the childhood home is undercut by the ironic', 'any vivid description is a symbol'],
+                  hint: 'Review the "Metaphor vs. Symbol" comparison table in node c12_hin_ar_cbse_09_008 and re-do its.',
+                  misconception: 'Students often confuse *symbolism* with *imagery*: they think any vivid description is a symbol.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: कविता के 3-4 पद छात्र से जोर से पढ़वाएँ और पूछें: \'कौन-सी पंक्ति खेत के बारे में नहीं, किसी और चीज के बारे में.', 'क्योंकि खेत तुम्हारा है\'। चरण 3: पहले नोड (c12_hin_ar_cbse_09_008) के मुख्य भाव नोट्स दोबारा पढ़वाएँ, फिर इस नोड के.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-symbolism-with': { steps: ['Revisit node c12_hin_ar_cbse_09_008 (Imagery and Metaphor) to clarify the difference between an image and a symbol.', 'Image" T-chart: list five concrete nouns from the poems in column A; in column B write the abstract idea they *might*.', 'For irony, practice the "Expectation vs.', 'Reality" frame on three everyday situations before returning to the poems.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_09_010', difficulty: 'standard',
-          question: 'पदावली कविता में प्रयुक्त कठिन शब्दों, तत्सम/तद्भव रूपों, मुहावरों और.',
+          question: '\'आरोह भाग-2 — पाठ 9\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
           hint: 'यदि अटके तो — **c11_hin_a_cbse_13_010** (जाग तुझको दूर जाना — पदावली) दोहराएँ: वहाँ.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "पदावली" का अर्थ है — **कठिन शब्दों के समानार्थी (synonyms) रट लेना**। वे "तलछट.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली कविता में प्रयुक्त कठिन शब्दों, तत्सम/तद्भव रूपों, मुहावरों और लोकोक्तियों की वह',
-                  options: ['पदावली कविता में प्रयुक्त कठिन शब्दों, तत्सम/तद्भव रूपों, मुहावरों और लोकोक्तियों की वह', 'This node introduces the poet **Kedarnath Singh** (केदारनाथ सिंह), his literary lineage', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का स्वतंत्र रूप से', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के बाह्य रूप (stanzas, line breaks,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 9\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
+                  options: ['\'आरोह भाग-2 — पाठ 9\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 9\' का कथानक — \'आरोह भाग-2 — पाठ 9\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 9\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके तो — **c11_hin_a_cbse_13_010** (जाग तुझको दूर जाना — पदावली) दोहराएँ: वहाँ मुहावरों की.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "पदावली" का अर्थ है — **कठिन शब्दों के समानार्थी (synonyms) रट लेना**। वे "तलछट = मैल", "बगुला.' }
           ],
             remediations: { 'synonyms': { steps: ['**चरण 1:** छात्र से कहें — "कविता की वह पंक्ति पढ़ो जहाँ यह शब्द आया है। आँख बंद करो और उस पंक्ति का **चलचित्र**.', '\'तल\' और \'छट\' अलग-अलग क्या कहते हैं?" **चरण 3:** शब्द-योग (etymology) समझाएँ: तल + छट (छटना/छँटना) = जो नीचे छँटकर बैठ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_09_011', difficulty: 'standard',
-          question: 'पद्य में भाषा-प्रयोग वह काव्यात्मक प्रक्रिया है जहाँ कवि व्याकरण के मानक नियमों.',
+          question: '\'आरोह भाग-2 — पाठ 9\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और.',
           hint: 'यदि छात्र \'विशेषण\', \'कारक\', \'कृदंत\', \'नाम-वाक्य\' जैसे पद न पहचान पाए → कक्षा 9-10 हिंदी.',
           misconception: '**सबसे घातक भ्रांति:** "पद्य में व्याकरण के नियम ढीले होते हैं / कवि गलती करता है / यह अशुद्ध हिंदी है।".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्य में भाषा-प्रयोग वह काव्यात्मक प्रक्रिया है जहाँ कवि व्याकरण के मानक नियमों',
-                  options: ['पद्य में भाषा-प्रयोग वह काव्यात्मक प्रक्रिया है जहाँ कवि व्याकरण के मानक नियमों', 'This node introduces the poet **Kedarnath Singh** (केदारनाथ सिंह), his literary lineage', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का स्वतंत्र रूप से', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के बाह्य रूप (stanzas, line breaks,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 9\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली चुनी।',
+                  options: ['\'आरोह भाग-2 — पाठ 9\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली चुनी।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 9\' का कथानक — \'आरोह भाग-2 — पाठ 9\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 9\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि छात्र \'विशेषण\', \'कारक\', \'कृदंत\', \'नाम-वाक्य\' जैसे पद न पहचान पाए → कक्षा 9-10 हिंदी व्याकरण.',
                   misconception: '**सबसे घातक भ्रांति:** "पद्य में व्याकरण के नियम ढीले होते हैं / कवि गलती करता है / यह अशुद्ध हिंदी है।" **वास्तविकता:** केदारनाथ सिंह जैसे.' }
           ],
             remediations: { 'deliberately-stylistic-deviation': { steps: ['**चरण 1:** छात्र को कविता की दो पंक्तियाँ (\'छोटा मेरा खेत / बगुलों के पंख\') जोर से पढ़वाओ — लय पर ध्यान दिलाओ। 2.', '**चरण 2:** उससे पूछो: "अगर मैं कहूँ \'मेरा खेत छोटा है\' तो क्या फर्क पड़ता है?" — उसके उत्तर में छिपी अंतर्दृष्टि.', '**चरण 3:** \'बगुलों के पंख\' पर वापस लाओ: "क्या खेत सचमुच बगुलों का है?" — नहीं → "तो \'के\' यहाँ क्या कर रहा है?" →.', '**चरण 4:** उसे एक साधारण वाक्य दो: \'फूल सुंदर है\' → कहो: "इसे काव्यात्मक बनाओ बिना शब्द बदले, केवल क्रम/संरचना बदलकर" →.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_09_012', difficulty: 'standard',
-          question: 'वस्तुनिष्ठ प्रश्न (MCQ/रिक्त स्थान/सही-गलत) कविता के **तथ्यात्मक ज्ञान** (कवि.',
+          question: '\'आरोह भाग-2 — पाठ 9\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
           hint: 'यदि अटके तो **c12_hin_ar_cbse_09_002 (पद्यांश-वार भावार्थ)** और **c12_hin_ar_cbse_09_006.',
           misconception: '**विशिष्ट भ्रम**: छात्र मानते हैं कि **आशय-सूचक प्रश्न का उत्तर = पंक्ति का भावार्थ लिख देना**। वे प्रसंग नहीं लिखते.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न (MCQ/रिक्त स्थान/सही-गलत) कविता के **तथ्यात्मक ज्ञान** (कवि, शीर्षक,',
-                  options: ['वस्तुनिष्ठ प्रश्न (MCQ/रिक्त स्थान/सही-गलत) कविता के **तथ्यात्मक ज्ञान** (कवि, शीर्षक,', 'This node introduces the poet **Kedarnath Singh** (केदारनाथ सिंह), his literary lineage', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का स्वतंत्र रूप से', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के बाह्य रूप (stanzas, line breaks,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 9\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
+                  options: ['\'आरोह भाग-2 — पाठ 9\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 9\' का कथानक — \'आरोह भाग-2 — पाठ 9\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 9\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके तो **c12_hin_ar_cbse_09_002 (पद्यांश-वार भावार्थ)** और **c12_hin_ar_cbse_09_006 (साहित्यिक.',
                   misconception: '**विशिष्ट भ्रम**: छात्र मानते हैं कि **आशय-सूचक प्रश्न का उत्तर = पंक्ति का भावार्थ लिख देना**। वे प्रसंग नहीं लिखते, शैलीगत विशेषताएँ.' }
           ],

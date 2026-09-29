@@ -6,13 +6,13 @@ import C6_MathematicsLineLineSegmentSim from '../../../simulations/c6_12/C6_Math
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_mathematicslinelinesegmentsim: SimDef = {
     id: 'v3w_c6_mathematicslinelinesegmentsim',
-    title: 'Line Line Segment',
+    title: 'Introduction to Geometry: Points, Lines, Line Segments',
     subtitle: 'This node covers the identification and naming of points, lines, and line segments.',
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Geometry: Points, Lines, Line Segments',
     chapters: [],
     nodeIds: ['c6_math_ch07_070', 'c6_math_ch07_073', 'c6_math_ch07_074', 'c6_math_ch07_075', 'c6_math_ch07_072', 'c6_math_ch07_081', 'c6_math_ch11_113', 'c6_math_ch11_114', 'c6_math_ch11_116', 'c6_math_ch03_037', 'c6_math_ch07_071', 'c6_math_ch07_078', 'c6_math_ch07_082', 'c6_math_ch07_077', 'c6_math_ch03_029'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever looked at a map and seen cities marked as tiny dots?', goal: 'Master Line Line Segment.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever looked at a map and seen cities marked as tiny dots?', goal: 'Master Introduction to Geometry: Points, Lines, Line Segments.' },
     discovery: {
         question: 'What are the two defining features of a line segment that make it different from a line?',
         options: ['A line segment has two fixed endpoints and a definite length', 'it is a line', 'it is finite because the paper ends'],
@@ -75,7 +75,7 @@ export const w_c6_mathematicslinelinesegmentsim: SimDef = {
             { text: 'Use your ruler to draw a line connecting the two intersection points; this line passes through the 5cm mark.', faded: true, blankAnswer: 'A line crossing segment AB at the 5cm mark at a 90° angle.' }
             ] } },
         { type: 'dissect', nodeId: 'c6_math_ch07_073', title: 'Identify each idea',
-          dissect: { specimen: 'Line Line Segment', spots: [
+          dissect: { specimen: 'Introduction to Geometry: Points, Lines, Line Segments', spots: [
             { id: 's1', label: 'A point is a precise', prompt: 'Which idea is this? — A point is a precise location in space represented by a dot, a line segment is the.', answer: 'A point is a precise', options: ['A point is a precise', 'A triangle is a closed', 'A quadrilateral is a closed', 'A polygon is a simple'] },
             { id: 's2', label: 'A triangle is a closed', prompt: 'Which idea is this? — A triangle is a closed geometric figure formed by three straight line segments connected.', answer: 'A triangle is a closed', options: ['A triangle is a closed', 'A point is a precise', 'A quadrilateral is a closed', 'A polygon is a simple'] },
             { id: 's3', label: 'A quadrilateral is a closed', prompt: 'Which idea is this? — A quadrilateral is a closed two-dimensional shape formed by four straight line segments.', answer: 'A quadrilateral is a closed', options: ['A quadrilateral is a closed', 'A point is a precise', 'A triangle is a closed', 'A polygon is a simple'] },
@@ -84,7 +84,7 @@ export const w_c6_mathematicslinelinesegmentsim: SimDef = {
             { id: 's6', label: 'A perpendicular line is a', prompt: 'Which idea is this? — A perpendicular line is a line that meets another at a right angle (90°), while an angle.', answer: 'A perpendicular line is a', options: ['A perpendicular line is a', 'A point is a precise', 'A triangle is a closed', 'A quadrilateral is a closed'] }
           ] } }
     ],
-    explore: { component: C6_MathematicsLineLineSegmentSim, prompt: 'Explore the interactive — Line Line Segment' },
+    explore: { component: C6_MathematicsLineLineSegmentSim, prompt: 'Explore the interactive — Introduction to Geometry: Points, Lines, Line Segments' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_math_ch07_070', difficulty: 'standard',
           question: 'A point is a precise location in space represented by a dot, a line segment is.',

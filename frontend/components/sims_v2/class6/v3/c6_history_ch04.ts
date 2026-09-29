@@ -186,6 +186,10 @@ export const c6_history_ch04: SimDef = {
                 { id: 'b', prompt: 'Why do historians use the word "theory" when discussing the decline of the Harappan cities?', answer: 'They use "theory"',
                   options: ['They use "theory"', 'destroyed', 'conquered', 'decline'],
                   hint: 'Review the concept of "settlement" and "agriculture" in early human history.',
+                  misconception: 'Students often think the Harappan Civilisation was "destroyed" or "conquered" in a single war because they equate "decline" with "being.' },
+                { id: 'c', prompt: 'If a river near a city changes its course, how does that impact the people living there?', answer: 'Identify the river as a source of water',
+                  options: ['Identify the river as a source of water', 'destroyed', 'conquered', 'decline'],
+                  hint: 'Review the concept of "settlement" and "agriculture" in early human history.',
                   misconception: 'Students often think the Harappan Civilisation was "destroyed" or "conquered" in a single war because they equate "decline" with "being.' }
           ],
             remediations: { 'the-harappan-civilisation-was-destroyed': { steps: ['Ask the student to draw a picture of a river and a farm.', 'Ask them to erase the river and draw it somewhere else.', 'Ask them: "What happens to the crops now?" 4.', 'Explain that this represents a \'decline\' rather than a \'war.\''], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }

@@ -660,10 +660,41 @@ export function SimPlayer({ def, mode, width = 720, height = 560, onComplete, on
     const challenge: Challenge | undefined = resolved[challengeIdx];
     // corpus options are authored answer-first — rotate display order
     // deterministically (seeded by the prompt) so position never leaks it
-    const dispOptions = useMemo(() => shuffled(challenge?.options ?? [], challenge?.question ?? ''), [challenge]);
+    const dispOptions = useMemo(() => {
+        const opts = challenge?.options ?? [];
+        // ENGINE GUARD: an authored option set that lost its own answer would
+        // make the MCQ unwinnable (no button can ever match) — keep the
+        // correct option present before rotating display order.
+        const ans = challenge?.answer;
+        const full = ans && opts.length && !opts.some(o => (typeof o === 'string' ? o : (o as { text?: string }).text) === ans)
+            ? [...opts, ans] : opts;
+        return shuffled(full, challenge?.question ?? '');
+    }, [challenge]);
     const dispPartOptions = useMemo(() => {
         const p = challenge?.parts?.[partIdx];
-        return p?.options ? shuffled(p.options, p.prompt) : undefined;
+        if (!p) return undefined;
+        if (p.options && p.options.length) {
+            // ENGINE GUARD: an authored option set that lost its own answer
+            // would be an unwinnable tap — always make the correct option
+            // present, then rotate display order deterministically.
+            const opts = p.options.includes(p.answer) ? p.options : [...p.options, p.answer];
+            return shuffled(opts, p.prompt);
+        }
+        // ENGINE GUARD: a sentence-length prose answer behind the exact-match
+        // typed input can never be typed verbatim — the part would be
+        // unwinnable. Synthesize the tap-to-answer variant from the sibling
+        // parts' own answers (the same sibling-distractor pattern the v3
+        // generators emit); the seeded shuffle keeps it deterministic.
+        const ans = (p.answer ?? '').trim();
+        if (ans.length <= 30) return undefined;   // short → typed input is fair
+        const wrongs: string[] = [];
+        for (const q of challenge.parts ?? []) {
+            if (q === p) continue;
+            const a = (q.answer ?? '').trim();
+            if (a && a !== ans && !wrongs.includes(a)) wrongs.push(a);
+        }
+        if (wrongs.length < 2) return undefined;  // no distractors → keep typed path
+        return shuffled([ans, ...wrongs.slice(0, 3)], p.prompt);
     }, [challenge, partIdx]);
 
     // inactivity hint
@@ -1147,6 +1178,15 @@ export function SimPlayer({ def, mode, width = 720, height = 560, onComplete, on
                                                 answerPart(ok); setMathInput('');
                                             }}
                                             className="px-5 py-2.5 rounded-xl bg-emerald-500 text-white font-black shadow">Check</motion.button>
+                                        {/* Dead-end guard: a part whose keyed answer is unreachable
+                                            prose (some generated parts key literally "Steps: 2") would
+                                            strand the student forever. After 3 misses, reveal the
+                                            expected answer so they can rework it — same honest
+                                            reveal the scaffold beats already offer. */}
+                                        {attempts >= 3 && (
+                                            <button onClick={() => setHint(`Expected answer: ${challenge.parts![partIdx].answer}`)}
+                                                className="text-[11px] font-bold text-indigo-500 underline">stuck? show the expected answer</button>
+                                        )}
                                     </div>
                                     )}
                                 </div>

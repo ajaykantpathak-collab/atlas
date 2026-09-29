@@ -6,13 +6,13 @@ import C12_BiotechnologyRiceGenomeProjectSim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biotechnologyricegenomeprojectsim: SimDef = {
     id: 'v3w_c12_biotechnologyricegenomeprojectsim',
-    title: 'nology Rice Genome Project',
+    title: 'Human Genome Project: Goals and Key Findings',
     subtitle: 'This node covers the goals, methodology overview, major findings, and implications of the.',
     classLevel: 12, subject: 'biotechnology', topic: 'Human Genome Project: Goals and Key Findings',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_05_005', 'c12_biotech_cbse_05_004', 'c12_biotech_cbse_01_010', 'c12_biotech_cbse_11_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a doctor in 2025 trying to diagnose a rare genetic disorder in a child.', goal: 'Master nology Rice Genome Project.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a doctor in 2025 trying to diagnose a rare genetic disorder in a child.', goal: 'Master Human Genome Project: Goals and Key Findings.' },
     discovery: {
         question: 'Compare the copy number control mechanisms of BACs and standard high-copy plasmids (e.g., pUC19).',
         options: ['pUC19 uses a mutated pMB1 origin (rop deletion) giving 500–700 copies/cell', 'high copy gives more DNA yield', 'better'],
@@ -61,14 +61,14 @@ export const w_c12_biotechnologyricegenomeprojectsim: SimDef = {
             { text: 'Synthesize recommendation: Choose Agrobacterium (EHA105/pCAMBIA1301) because rice is now amenable, and the cleaner.', faded: true, blankAnswer: 'Recommendation: Use Agrobacterium-mediated transformation.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_biotech_cbse_05_004', title: 'Identify each idea',
-          dissect: { specimen: 'nology Rice Genome Project', spots: [
+          dissect: { specimen: 'Human Genome Project: Goals and Key Findings', spots: [
             { id: 's1', label: 'The Human Genome Project HGP', prompt: 'Which idea is this? — The Human Genome Project (HGP) was an international scientific research project.', answer: 'The Human Genome Project HGP', options: ['The Human Genome Project HGP', 'Comparative genomics is the systematic', 'BACs Bacterial Artificial Chromosomes and', 'Transgenic plants are genetically modified'] },
             { id: 's2', label: 'Comparative genomics is the systematic', prompt: 'Which idea is this? — Comparative genomics is the systematic analysis of genome structure, gene content, and.', answer: 'Comparative genomics is the systematic', options: ['Comparative genomics is the systematic', 'The Human Genome Project HGP', 'BACs Bacterial Artificial Chromosomes and', 'Transgenic plants are genetically modified'] },
             { id: 's3', label: 'BACs Bacterial Artificial Chromosomes and', prompt: 'Which idea is this? — BACs (Bacterial Artificial Chromosomes) and YACs (Yeast Artificial Chromosomes) are.', answer: 'BACs Bacterial Artificial Chromosomes and', options: ['BACs Bacterial Artificial Chromosomes and', 'The Human Genome Project HGP', 'Comparative genomics is the systematic', 'Transgenic plants are genetically modified'] },
             { id: 's4', label: 'Transgenic plants are genetically modified', prompt: 'Which idea is this? — Transgenic plants are genetically modified organisms created by introducing foreign DNA.', answer: 'Transgenic plants are genetically modified', options: ['Transgenic plants are genetically modified', 'The Human Genome Project HGP', 'Comparative genomics is the systematic', 'BACs Bacterial Artificial Chromosomes and'] }
           ] } }
     ],
-    explore: { component: C12_BiotechnologyRiceGenomeProjectSim, prompt: 'Explore the interactive — nology Rice Genome Project' },
+    explore: { component: C12_BiotechnologyRiceGenomeProjectSim, prompt: 'Explore the interactive — Human Genome Project: Goals and Key Findings' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_biotech_cbse_05_005', difficulty: 'standard',
           question: 'The Human Genome Project (HGP) was an international scientific research project.',

@@ -6,13 +6,13 @@ import C11_PhysicsWaveTypesSim from '../../../simulations/three/C11_PhysicsWaveT
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicswavetypessim: SimDef = {
     id: 'v3w_c11_physicswavetypessim',
-    title: 'Wave Types',
+    title: 'Transverse and Longitudinal Waves',
     subtitle: 'This node covers the fundamental classification of mechanical waves based on particle.',
     classLevel: 11, subject: 'physics', topic: 'Transverse and Longitudinal Waves',
     chapters: [],
     nodeIds: ['c11_phy_cbse_14_001', 'c11_phy_cbse_14_012', 'c11_phy_cbse_14_002', 'c11_phy_cbse_14_005', 'c11_phy_cbse_14_010', 'c11_phy_cbse_14_008', 'c11_phy_cbse_14_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a **slinky spring** on a smooth floor: give one end a sharp sideways jerk — a pulse travels along the.', goal: 'Master Wave Types.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a **slinky spring** on a smooth floor: give one end a sharp sideways jerk — a pulse travels along the.', goal: 'Master Transverse and Longitudinal Waves.' },
     discovery: {
         question: 'A transverse wave travels on a stretched string with speed v. If the tension is doubled while keeping the linear mass density constant, what happens to the.',
         options: ['The wave speed increases by a factor of √2', 'speed doubles', 'speed unchanged'],
@@ -81,7 +81,7 @@ export const w_c11_physicswavetypessim: SimDef = {
             { text: 'Verify: For open pipe, harmonics are 340, 680, 1020 Hz... 340 Hz is the first harmonic.', faded: true, blankAnswer: '(a) 170 Hz; (b) No resonance (340 Hz is not an odd harmonic.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_14_012', title: 'Identify each idea',
-          dissect: { specimen: 'Wave Types', spots: [
+          dissect: { specimen: 'Transverse and Longitudinal Waves', spots: [
             { id: 's1', label: 'A mechanical wave is classified', prompt: 'Which idea is this? — A mechanical wave is classified as **transverse** if the particles of the medium.', answer: 'A mechanical wave is classified', options: ['A mechanical wave is classified', 'When a travelling wave encounters', 'The speed of a travelling', 'The principle of superposition of'] },
             { id: 's2', label: 'When a travelling wave encounters', prompt: 'Which idea is this? — When a travelling wave encounters a boundary, it gets reflected.', answer: 'When a travelling wave encounters', options: ['When a travelling wave encounters', 'A mechanical wave is classified', 'The speed of a travelling', 'The principle of superposition of'] },
             { id: 's3', label: 'The speed of a travelling', prompt: 'Which idea is this? — The speed of a travelling wave is the rate at which a particular phase point (such as a.', answer: 'The speed of a travelling', options: ['The speed of a travelling', 'A mechanical wave is classified', 'When a travelling wave encounters', 'The principle of superposition of'] },
@@ -90,7 +90,7 @@ export const w_c11_physicswavetypessim: SimDef = {
             { id: 's6', label: 'Standing waves in pipes are', prompt: 'Which idea is this? — Standing waves in pipes are stationary wave patterns formed by the superposition of.', answer: 'Standing waves in pipes are', options: ['Standing waves in pipes are', 'A mechanical wave is classified', 'When a travelling wave encounters', 'The speed of a travelling'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsWaveTypesSim, prompt: 'Explore the interactive — Wave Types' },
+    explore: { component: C11_PhysicsWaveTypesSim, prompt: 'Explore the interactive — Transverse and Longitudinal Waves' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_14_001', difficulty: 'standard',
           question: 'A mechanical wave is classified as **transverse** if the particles of the.',

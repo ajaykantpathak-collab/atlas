@@ -6,13 +6,13 @@ import C11_ComputerScienceStringSlicingSim from '../../../simulations/c6_12/C11_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_computersciencestringslicingsim: SimDef = {
     id: 'v3w_c11_computersciencestringslicingsim',
-    title: 'String Slicing',
+    title: 'Introduction to Strings in Python',
     subtitle: 'Covers string definition, creation using single/double/triple quotes, escape sequences,.',
     classLevel: 11, subject: 'computer_science', topic: 'Introduction to Strings in Python',
     chapters: [],
     nodeIds: ['c11_cs_cbse_06_001', 'c11_cs_cbse_06_002', 'c11_cs_cbse_06_003', 'c11_cs_cbse_06_004', 'c11_cs_cbse_06_008', 'c11_cs_cbse_06_009', 'c11_cs_cbse_06_010', 'c11_cs_cbse_06_014', 'c11_cs_cbse_06_005', 'c11_cs_cbse_06_006', 'c11_cs_cbse_06_007', 'c11_cs_cbse_07_001', 'c11_cs_cbse_07_002', 'c11_cs_cbse_07_003', 'c11_cs_cbse_07_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are building a program to store student details for your school\'s annual day.', goal: 'Master String Slicing.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are building a program to store student details for your school\'s annual day.', goal: 'Master Introduction to Strings in Python.' },
     discovery: {
         question: 'Explain why `word = "EXAM"; print(word[4])` raises an `IndexError` but `print(word[3])` prints `M`. Use the term "valid index range" in your explanation.',
         options: ['`len("EXAM")` is 4, so valid indices are 0,1,2,3', 'index 4 is the 4th character', 'strings are 1-indexed in Python'],
@@ -80,14 +80,14 @@ export const w_c11_computersciencestringslicingsim: SimDef = {
             { text: 'Interpret: Samosas sold least on Wednesday (90), most on Sunday (300). Friday sales dropped from Thursday.', faded: true, blankAnswer: '(a) 90, (b) 250, (c) 7, (d) False' }
             ] } },
         { type: 'dissect', nodeId: 'c11_cs_cbse_06_002', title: 'Identify each idea',
-          dissect: { specimen: 'String Slicing', spots: [
+          dissect: { specimen: 'Introduction to Strings in Python', spots: [
             { id: 's1', label: 'A string in Python is', prompt: 'Which idea is this? — A string in Python is an immutable sequence of Unicode characters enclosed within single.', answer: 'A string in Python is', options: ['A string in Python is', 'String slicing in Python uses', 'String concatenation is the operation', 'A list in Python is'] },
             { id: 's2', label: 'String slicing in Python uses', prompt: 'Which idea is this? — String slicing in Python uses the syntax `str[start:stop:step]` to extract a substring.', answer: 'String slicing in Python uses', options: ['String slicing in Python uses', 'A string in Python is', 'String concatenation is the operation', 'A list in Python is'] },
             { id: 's3', label: 'String concatenation is the operation', prompt: 'Which idea is this? — String concatenation is the operation of joining two or more strings end-to-end to form a.', answer: 'String concatenation is the operation', options: ['String concatenation is the operation', 'A string in Python is', 'String slicing in Python uses', 'A list in Python is'] },
             { id: 's4', label: 'A list in Python is', prompt: 'Which idea is this? — A list in Python is an ordered, mutable collection of elements enclosed in square.', answer: 'A list in Python is', options: ['A list in Python is', 'A string in Python is', 'String slicing in Python uses', 'String concatenation is the operation'] }
           ] } }
     ],
-    explore: { component: C11_ComputerScienceStringSlicingSim, prompt: 'Explore the interactive — String Slicing' },
+    explore: { component: C11_ComputerScienceStringSlicingSim, prompt: 'Explore the interactive — Introduction to Strings in Python' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_cs_cbse_06_001', difficulty: 'standard',
           question: 'A string in Python is an immutable sequence of Unicode characters enclosed.',

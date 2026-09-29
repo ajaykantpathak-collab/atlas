@@ -19,7 +19,7 @@ export const c12_eng_v_ch04_p1: SimDef = {
         hook: 'Pearl S. Buck wrote this DURING the war — an American raised in China who could see both sides without caricature. Judging Sadao by peacetime logic (\'just call the police\') misses that the police meant execution; the dilemma only works inside its history.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'The "Before You Read" context provides the historical, cultural, and ethical framework necessary to interpret the story: it establishes the World War II Pacific Theater setting, introduces Pearl S.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Enemy\' (Vistas, ch. 4) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_04_001', title: 'Your mission',
@@ -29,40 +29,40 @@ export const c12_eng_v_ch04_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_04_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are a doctor in a modern conflict zone — say, a surgeon in a war-torn region — and an injured enemy combatant is brought to your clinic.',
+          caseStudy: { intro: 'Start with the author of \'The Enemy\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'What is the specific historical conflict that forms the backdrop of "The Enemy," and which two nations are directly opposed in this setting?', options: [
                 { text: 'The story is set during World War II in the Pacific Theater, specifically between', outcome: 'The story is set during World War II in the Pacific Theater, specifically between Imperial Japan.' },
                 { text: 'World War I', outcome: 'Not quite — Students treat the "Before You Read" box as a plot spoiler or optional introduction.', reveals: 'students-treat-the-before-you' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_04_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re watching a surgical drama where the protagonist must operate on a terrorist — the camera lingers on the doctor\'s hands trembling over the.',
+          caseStudy: { intro: 'Trace \'The Enemy\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'Identify the six stages of Freytag\'s dramatic pyramid in order, and for each stage name ONE specific textual moment from "The Enemy" that.', options: [
                 { text: 'Correct mapping: (1) Exposition', outcome: 'Correct mapping: (1) Exposition — Sadao\'s childhood memory of his father pointing to islands.' },
                 { text: 'First Sadao remembers his father, then the soldier arrives', outcome: 'Not quite — Students treat "plot" and "narrative structure" as synonyms, writing chronological event summaries.', reveals: 'students-treat-plot-and-narrative' },
                 { text: 'lists events chronologically without labeling structural function (e', outcome: 'Not quite — Students treat "plot" and "narrative structure" as synonyms, writing chronological event summaries.', reveals: 'students-treat-plot-and-narrative' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_04_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re standing on a rocky Japanese coastline at dusk, thick fog rolling in from the Pacific, hiding everything beyond a few meters — you can hear the.',
+          caseStudy: { intro: 'Identify where and when \'The Enemy\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'Identify the specific geographical features of Dr. Sadao\'s house and its surroundings as described in the opening paragraphs of "The Enemy."', options: [
                 { text: 'The house is a low, square stone structure built on rocks well above a narrow beach', outcome: 'The house is a low, square stone structure built on rocks well above a narrow beach outlined with.' },
                 { text: 'well above', outcome: 'Not quite — Students believe "setting analysis" means listing where and when the story happens (Japan, WWII,.', reveals: 'setting-analysis-means-listing-where' },
                 { text: 'bent pines', outcome: 'Not quite — Students believe "setting analysis" means listing where and when the story happens (Japan, WWII,.', reveals: 'setting-analysis-means-listing-where' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_04_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re a doctor in wartime and an enemy soldier washes up at your doorstep — bleeding, unconscious, and completely at your mercy.',
+          caseStudy: { intro: 'Pick the central figure in \'The Enemy\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'REMEMBER: What are the three specific details the text gives about Dr.', options: [
                 { text: 'Correct answer: (1) He was sent to America at twenty-two to learn surgery and medicine,', outcome: 'Correct answer: (1) He was sent to America at twenty-two to learn surgery and medicine, (2).' },
                 { text: 'he studied in Japan', outcome: 'Not quite — Students often read Dr. Sadao as a straightforward "hero who chooses humanity over patriotism.".', reveals: 'students-often-read-dr' },
                 { text: 'he was a general physician', outcome: 'Not quite — Students often read Dr. Sadao as a straightforward "hero who chooses humanity over patriotism.".', reveals: 'students-often-read-dr' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_04_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are a juror watching a trial: the protagonist is the defendant, but the witnesses — Hana, the servants, the General, Tom — each give testimony that.',
+          caseStudy: { intro: 'Spot the secondary figures in \'The Enemy\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'Name the four primary supporting characters in "The Enemy" and state each one\'s relationship to Dr. Sadao.', options: [
                 { text: 'The four primary supporting characters are: (1) Hana', outcome: 'The four primary supporting characters are: (1) Hana — Sadao\'s wife, (2) Yumi — the nanny/servant.' },
                 { text: 'the professor or landlady as primary', outcome: 'Not quite — Students treat supporting characters as "less important" and write generic descriptions like "Hana.', reveals: 'students-treat-supporting-characters-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_04_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are a doctor in a war zone and an enemy soldier is brought to you, bleeding. Your country says kill him; your profession says save him.',
+          caseStudy: { intro: 'Ask what \'The Enemy\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the central conflict that drives the primary theme of "The Enemy"?', options: [
                 { text: 'The central conflict is Dr', outcome: 'The central conflict is Dr. Sadao\'s dilemma between his duty as a doctor to save a wounded enemy.' },
                 { text: 'the conflict is between Sadao and the General', outcome: 'Not quite — Students often think the primary theme is "war is bad" or "enemies can become friends." The actual.', reveals: 'the-primary-theme-is-war' },
@@ -87,18 +87,18 @@ export const c12_eng_v_ch04_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_001', difficulty: 'standard',
-          question: 'The "Before You Read" context provides the historical, cultural, and ethical.',
+          question: '\'The Enemy\' (Vistas, ch. 4) — the context and background to this text: who.',
           hint: 'If stuck on historical facts, review Class 12 History chapter "The Second World War".',
           misconception: 'Students treat the "Before You Read" box as a plot spoiler or optional introduction.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The "Before You Read" context provides the historical, cultural, and ethical framework',
-                  options: ['The "Before You Read" context provides the historical, cultural, and ethical framework', 'Plot and narrative structure refers to the deliberate arrangement of story events', 'Setting in "The Enemy" refers to the specific time (World War II), place (Japanese', 'Character analysis of the protagonist involves examining Dr'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'The Enemy\' (Vistas, ch',
+                  options: ['\'The Enemy\' (Vistas, ch', 'The plot/narrative arc of \'The Enemy\'', 'The setting of \'The Enemy\'', 'Character analysis in \'The Enemy\''],
                   hint: 'If stuck on historical facts, review Class 12 History chapter "The Second World War" (Pacific.',
                   misconception: 'Students treat the "Before You Read" box as a plot spoiler or optional introduction.' }
           ],
             remediations: { 'students-treat-the-before-you': { steps: ['If a student cannot articulate the WWII Japan-US context or the doctor-patriot dilemma: (1) Assign a 10-minute focused.', '(2) Have them write a 100-word diary entry as Dr.', 'Sadao *the night before* the soldier washes ashore, expressing his fears about the war, his father\'s expectations, and.', '(3) Re-test with Diagnostic Question 2 — if they still miss the bicultural lens, show a 5-min clip from a documentary.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_002', difficulty: 'standard',
-          question: 'Plot and narrative structure refers to the deliberate arrangement of story.',
+          question: 'The plot/narrative arc of \'The Enemy\' — what happens, in what order, and why.',
           hint: 'Review Freytag\'s pyramid using *The Portrait of a Lady* (Class 11 Hornbill): map the.',
           misconception: 'Students treat "plot" and "narrative structure" as synonyms, writing chronological event summaries and calling.',
           parts: [
@@ -113,7 +113,7 @@ export const c12_eng_v_ch04_p1: SimDef = {
           ],
             remediations: { 'students-treat-plot-and-narrative': { steps: ['Have student create a two-column table — Column A: Event (chronological), Column B: Structural Function.', 'Using a familiar Bollywood film (e.g., *Uri: The Surgical Strike*), practice labeling only Column B for 5 key scenes.', 'Return to "The Enemy" and complete Column B for all major scenes.', 'Write one paragraph explaining how the obstacle-type progression (moral → domestic → professional → physiological).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_003', difficulty: 'standard',
-          question: 'Setting in "The Enemy" refers to the specific time (World War II), place.',
+          question: 'The setting of \'The Enemy\' — the place, time and atmosphere the text creates.',
           hint: 'If the student cannot distinguish "fog as weather" from "fog as narrative device," return.',
           misconception: 'Students believe "setting analysis" means listing where and when the story happens (Japan, WWII, a house by the sea).',
           parts: [
@@ -143,18 +143,18 @@ export const c12_eng_v_ch04_p1: SimDef = {
           ],
             remediations: { 'setting-analysis-means-listing-where': { steps: ['Have the student reread only the first 3 pages (opening to "flung up out of the ocean") and underline every sensory.', 'Ask: "If you removed the fog, how would the scene change?" Force them to articulate the fog\'s *function*, not just its.', 'Map the setting-atmosphere pairs on paper: House on rocks → isolation; Bent pines → endurance under pressure; Ocean →.', 'Re-attempt Diagnostic Q2 and Q3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining Dr. Sadao Hoki\'s.',
+          question: 'Character analysis in \'The Enemy\' — the central figure(s), their traits, and.',
           hint: 'If unable to distinguish stated vs. revealed values, review Class 11 character analysis.',
           misconception: 'Students often read Dr. Sadao as a straightforward "hero who chooses humanity over patriotism." This is wrong because.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist involves examining Dr',
-                  options: ['Character analysis of the protagonist involves examining Dr', 'The "Before You Read" context provides the historical, cultural, and ethical framework', 'Plot and narrative structure refers to the deliberate arrangement of story events', 'Setting in "The Enemy" refers to the specific time (World War II), place (Japanese'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis in \'The Enemy\'',
+                  options: ['Character analysis in \'The Enemy\'', '\'The Enemy\' (Vistas, ch', 'The plot/narrative arc of \'The Enemy\'', 'The setting of \'The Enemy\''],
                   hint: 'If unable to distinguish stated vs. revealed values, review Class 11 character analysis nodes.',
                   misconception: 'Students often read Dr. Sadao as a straightforward "hero who chooses humanity over patriotism." This is wrong because: (1) Sadao NEVER.' }
           ],
             remediations: { 'students-often-read-dr': { steps: ['If a student holds the "simple hero" misconception: Step 1 — Have them re-read Sadao\'s internal monologue during.', 'there is no reason under heaven why he should live") and his conversation with the General.', 'Step 2 — Ask: "Find three moments where Sadao explicitly says he doesn\'t care about Tom." Step 3 — Have them write.', 'Step 4 — Discuss: "Why does the gap between Columns A and B make him a more interesting character than if they.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters examines how secondary figures.',
+          question: 'Supporting characters in \'The Enemy\' — the secondary figures who move the story.',
           hint: 'If stuck, review the "foil/catalyst/mirror" definitions from Class 11.',
           misconception: 'Students treat supporting characters as "less important" and write generic descriptions like "Hana is a supportive.',
           parts: [
@@ -165,7 +165,7 @@ export const c12_eng_v_ch04_p1: SimDef = {
           ],
             remediations: { 'students-treat-supporting-characters-as': { steps: ['If a student writes generic descriptions: (1) Have them reread the three servant scenes (pp.', '30-31, 36-37, 37-38) and highlight every line where a servant *speaks* about the prisoner.', '(2) Make a two-column table: "Character\'s words" vs.', '"What this reveals about their worldview." (3) Rewrite one PEEL paragraph for the gardener using only his direct quotes.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is the central idea or message that the.',
+          question: 'The primary theme of \'The Enemy\' — the central idea the whole text returns to.',
           hint: 'Review the plot timeline (c12_eng_v_cbse_04_002) and Sadao\'s character arc.',
           misconception: 'Students often think the primary theme is "war is bad" or "enemies can become friends." The actual primary theme is the.',
           parts: [

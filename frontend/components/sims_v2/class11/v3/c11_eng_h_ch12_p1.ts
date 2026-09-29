@@ -19,7 +19,7 @@ export const c11_eng_h_ch12_p1: SimDef = {
         hook: 'Resolution of plot and resolution of tension aren\'t the same — a shared silence can close a poem better than dialogue.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" provides the essential historical, biographical, and literary framework needed to approach the poem "Father to Father" by Elizabeth Jennings, including the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Father to Son\' (Hornbill, ch. 12) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_12_001', title: 'Your mission',
@@ -29,40 +29,40 @@ export const c11_eng_h_ch12_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_12_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re sitting at dinner with your father and you both want to say something important, but the words won\'t come — you\'ve lived in the same house for.',
+          caseStudy: { intro: 'Start with the author of \'Father to Son\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who was Elizabeth Jennings and which literary group was she associated with in the 1950s?', options: [
                 { text: 'Elizabeth Jennings (1926–2001) was a prominent English poet associated with The Movement,', outcome: 'Elizabeth Jennings (1926–2001) was a prominent English poet associated with The Movement, a group.' },
                 { text: 'context', outcome: 'Not quite — Students assume "context" means memorising dates and names for exams, not a lens for reading.', reveals: 'context-means-memorising-dates-and' },
                 { text: 'the Romantics, Modernists, or Beat poets', outcome: 'Not quite — Students assume "context" means memorising dates and names for exams, not a lens for reading.', reveals: 'context-means-memorising-dates-and' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_12_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re watching a short film with no dialogue—only visual scenes separated by fade-to-black transitions. Each scene advances the story.',
+          caseStudy: { intro: 'Trace \'Father to Son\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'Define "narrative arc" in the context of a narrative poem and name its five standard stages in order.', options: [
                 { text: 'A narrative arc is the structural framework that shapes a poem\'s story progression', outcome: 'A narrative arc is the structural framework that shapes a poem\'s story progression through five.' },
                 { text: 'beginning, middle, end', outcome: 'Not quite — Students believe narrative structure in poetry is simply "what happens in order" (plot summary) and.', reveals: 'narrative-structure-in-poetry-is' },
                 { text: 'what happens in order', outcome: 'Not quite — Students believe narrative structure in poetry is simply "what happens in order" (plot summary) and.', reveals: 'narrative-structure-in-poetry-is' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_12_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine walking into your grandfather\'s room at dusk: the air is thick with the smell of old books and medicine, the light is fading, and he sits silent in his.',
+          caseStudy: { intro: 'Identify where and when \'Father to Son\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the primary physical setting described in the poem "Father to Father," and which specific sensory detail (sight, sound, or touch).', options: [
                 { text: 'The primary physical setting is a quiet domestic interior, likely the father\'s room,', outcome: 'The primary physical setting is a quiet domestic interior, likely the father\'s room, during the.' },
                 { text: 'a garden at noon', outcome: 'Not quite — Students often treat "setting" and "atmosphere" as interchangeable synonyms for "background." They.', reveals: 'students-often-treat-setting-and' },
                 { text: 'Father to Father', outcome: 'Not quite — Students often treat "setting" and "atmosphere" as interchangeable synonyms for "background." They.', reveals: 'students-often-treat-setting-and' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_12_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you overhear your father talking to himself late at night: "I don\'t understand my own child.',
+          caseStudy: { intro: 'Pick the central figure in \'Father to Son\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the central conflict the protagonist (the father) articulates in the first stanza of "Father to Son"?', options: [
                 { text: 'The father grieves that despite biological connection ("The seed I spent or sown it where', outcome: 'The father grieves that despite biological connection ("The seed I spent or sown it where / The.' },
                 { text: 'The father is angry at his son\'s disobedience', outcome: 'Not quite — Students conflate the *speaker* with the *poet* (Elizabeth Jennings), assuming the father\'s grief.', reveals: 'students-conflate-the-speaker-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_12_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are trying to understand a friend who barely speaks during a conversation — you learn about them from what the other person says, the pauses, and.',
+          caseStudy: { intro: 'Spot the secondary figures in \'Father to Son\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'In the poem "Father to Son," the son never speaks directly. What is the primary textual source through which the reader learns about the.', options: [
                 { text: 'The son\'s character is revealed exclusively through the father\'s first-person narration', outcome: 'The son\'s character is revealed exclusively through the father\'s first-person narration — his.' },
                 { text: 'the son\'s actions described by a third-person narrator', outcome: 'Not quite — Students often treat the son as a flat, silent prop rather than a character whose *absence.', reveals: 'students-often-treat-the-son' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_12_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you overhear a father telling a friend, "My son lives in my house but I don\'t know him at all." That ache of strangers sharing a roof is the heartbeat.',
+          caseStudy: { intro: 'Ask what \'Father to Son\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of the poem "Father to Son" as revealed through the father\'s perspective in the opening stanza?', options: [
                 { text: 'The primary theme is the painful emotional distance and lack of understanding between', outcome: 'The primary theme is the painful emotional distance and lack of understanding between father and.' },
                 { text: 'the theme is about a father\'s love', outcome: 'Not quite — Students often conflate the *subject* (father-son relationship) with the *theme* (the specific.', reveals: 'students-often-conflate-the-subject' },
@@ -87,7 +87,7 @@ export const c11_eng_h_ch12_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" provides the essential historical.',
+          question: '\'Father to Son\' (Hornbill, ch. 12) — the context and background to this text.',
           hint: 'Review Class 10 "Nelson Mandela" (c10_engl_cbse_02_001) for how apartheid context shapes.',
           misconception: 'Students assume "context" means memorising dates and names for exams, not a lens for reading.',
           parts: [
@@ -109,7 +109,7 @@ export const c11_eng_h_ch12_p1: SimDef = {
           ],
             remediations: { 'context-means-memorising-dates-and': { steps: ['If a student cannot use context predictively: (1) Give them two unseen Movement poems and two confessional poems.', '(2) Have them rewrite a confessional-style family poem in Movement style (regular metre, restraint, irony) and discuss.', '(3) Return to "Father to Father" and annotate one stanza together, explicitly linking each formal choice (caesura.', 'This moves context from recall to analytical instrument.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_002', difficulty: 'standard',
-          question: 'Plot and narrative structure in poetry refers to the organized sequence.',
+          question: 'The plot/narrative arc of \'Father to Son\' — what happens, in what order, and.',
           hint: 'If stuck, review "story vs. plot" distinction using the Class 10 "The Ball Poem".',
           misconception: 'Students believe narrative structure in poetry is simply "what happens in order" (plot summary) and that identifying.',
           parts: [
@@ -120,7 +120,7 @@ export const c11_eng_h_ch12_p1: SimDef = {
           ],
             remediations: { 'narrative-structure-in-poetry-is': { steps: ['Give the student a 5-stanza narrative poem (unfamiliar) with stanza numbers removed.', 'Ask them to physically cut the stanzas apart and reorder them into the "most logical narrative sequence." 3.', 'Have them defend each placement using the terms exposition/rising action/climax/falling action/resolution.', 'Reveal the poet\'s actual order and discuss *why* the poet chose that specific sequence—what tension is gained/lost.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_003', difficulty: 'standard',
-          question: 'Setting in poetry refers to the time, place, and social environment where the.',
+          question: 'The setting of \'Father to Son\' — the place, time and atmosphere the text.',
           hint: 'If stuck, review the "sensory imagery" exercises from c9_engl_ch04_005 (The Tunnel.',
           misconception: 'Students often treat "setting" and "atmosphere" as interchangeable synonyms for "background." They write: "The setting.',
           parts: [
@@ -131,7 +131,7 @@ export const c11_eng_h_ch12_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-setting-and': { steps: ['**Isolate the physical:** Have the student draw a quick sketch of the room described in the poem, labeling only nouns.', '**Label the feeling:** Next to each object, write the *emotion* it evokes (clock → anxiety/urgency; dim light → fading.', '**Define the terms aloud:** "Setting = the chair.', 'Atmosphere = the loneliness the chair represents." 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a poem involves examining the.',
+          question: 'Character analysis in \'Father to Son\' — the central figure(s), their traits.',
           hint: 'Review c11_eng_h_cbse_12_002 (Plot) to re-establish the dramatic situation: who.',
           misconception: 'Students conflate the *speaker* with the *poet* (Elizabeth Jennings), assuming the father\'s grief is autobiographical.',
           parts: [
@@ -142,7 +142,7 @@ export const c11_eng_h_ch12_p1: SimDef = {
           ],
             remediations: { 'students-conflate-the-speaker-with': { steps: ['Re-read the poem *only* as the father\'s monologue — cover the title, pretend you don\'t know the poet\'s gender/name.', 'Highlight every "I" statement in one color, every "he/him" in another, every "we/our" in a third.', 'Write one sentence per stanza: "In this stanza, the father feels ___ because ___." 4.', 'Compare your stanza 1 and stanza 4 sentences — articulate the *exact* emotional distance travelled.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_005', difficulty: 'standard',
-          question: 'Supporting character analysis in poetry involves examining a secondary figure.',
+          question: 'Supporting characters in \'Father to Son\' — the secondary figures who move the.',
           hint: 'Review the "Character Analysis: Protagonist" node (c11_eng_h_cbse_12_004) and the "Before.',
           misconception: 'Students often treat the son as a flat, silent prop rather than a character whose *absence of voice* is a deliberate.',
           parts: [
@@ -153,7 +153,7 @@ export const c11_eng_h_ch12_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-the-son': { steps: ['Ask the student to list every pronoun referring to the son ("he," "him," "his," "this child").', 'For each, note the verb: what is the son *doing* or *being*?', '(e.g., "he speaks," "he has his own world," "he is prodigal").', 'Have the student infer: if someone "has their own world," what trait does that show?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_006', difficulty: 'standard',
-          question: 'The primary theme of a poem is its central, unifying idea or insight about.',
+          question: 'The primary theme of \'Father to Son\' — the central idea the whole text returns.',
           hint: 'Review c10_engl_cbse_17_007 (Theme: Education as Empowerment) — practice converting plot.',
           misconception: 'Students often conflate the *subject* (father-son relationship) with the *theme* (the specific nature of the.',
           parts: [

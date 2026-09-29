@@ -19,43 +19,43 @@ export const c11_eng_w_ch02_p1: SimDef = {
         hook: 'Ramanand yields in round one and loses nothing real; the climax is where the stakes become irreversible.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" provides the essential historical, social, and literary framework needed to interpret a text before engaging with its narrative.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'A Pair of Mustachios\' (Woven Words, ch. 2) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_02_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Map both confrontations onto the arc, then weigh the last line — \'My father was a Sultan\' — as resolution or the cycle restarting.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_02_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you overhear two adults arguing fiercely about whether a "handlebar" or "walrus" moustache is more "respectable" in your neighbourhood—sounds absurd.',
+          caseStudy: { intro: 'Start with the author of \'A Pair of Mustachios\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Define the term "nouveau riche" and explain why Mulk Raj Anand associates it with the "goat moustache" in the story\'s opening.', options: [
                 { text: '"Nouveau riche" is a French term meaning "newly rich"—people who recently acquired wealth', outcome: '"Nouveau riche" is a French term meaning "newly rich"—people who recently acquired wealth but lack.' },
                 { text: 'nouveau riche means old money', outcome: 'Not quite — Students often think the moustache classification is **pure fiction or exaggeration** invented.', reveals: 'the-moustache-classification-is-pure' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_02_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are trying to explain "A Pair of Mustachios" to a friend who hasn\'t read it — you might jump straight to the funny ending where Khan Azam Khan.',
+          caseStudy: { intro: 'Trace \'A Pair of Mustachios\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'Identify the inciting incident in "A Pair of Mustachios" and explain why it qualifies as the inciting incident rather than part of the.', options: [
                 { text: 'The inciting incident is Seth Ramanand twisting his goat moustache tips upward to', outcome: 'The inciting incident is Seth Ramanand twisting his goat moustache tips upward to resemble a tiger.' },
                 { text: 'the exposition describing moustache types', outcome: 'Not quite — Students often identify the *first* confrontation (nose-ring) as the climax because it contains.', reveals: 'students-often-identify-the-first' },
                 { text: 'rising action', outcome: 'Not quite — Students often identify the *first* confrontation (nose-ring) as the climax because it contains.', reveals: 'students-often-identify-the-first' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_02_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are watching a play where the stage design instantly tells you the story\'s world before any actor speaks.',
+          caseStudy: { intro: 'Identify where and when \'A Pair of Mustachios\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'Identify the three primary physical locations in the story where the central conflict unfolds, and state one sensory detail associated with.', options: [
                 { text: 'The three primary locations are: (1) Ramanand\'s moneylender/grocer shop', outcome: 'The three primary locations are: (1) Ramanand\'s moneylender/grocer shop — sensory detail: "oily.' },
                 { text: 'oily hand', outcome: 'Not quite — Students often think "setting" only means the geographical location (e.g., "an Indian village") and.', reveals: 'setting-only-means-the-geographical' },
                 { text: 'lentil-eating shopkeeper', outcome: 'Not quite — Students often think "setting" only means the geographical location (e.g., "an Indian village") and.', reveals: 'setting-only-means-the-geographical' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_02_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are a detective trying to figure out why a clever shopkeeper would risk his life over a moustache tip.',
+          caseStudy: { intro: 'Pick the central figure in \'A Pair of Mustachios\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the primary motivation driving Ramanand\'s actions throughout the story?', options: [
                 { text: 'Ramanand is primarily motivated by business acumen and profit maximization', outcome: 'Ramanand is primarily motivated by business acumen and profit maximization; he manipulates the.' },
                 { text: 'honour', outcome: 'Not quite — Students often read Ramanand as a "villain" exploiting a "noble" Khan, because they import moral.', reveals: 'students-often-read-ramanand-as' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_02_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you see two people arguing fiercely over a logo on a T-shirt—one claims it proves he\'s elite, the other says it\'s fake.',
+          caseStudy: { intro: 'Ask what \'A Pair of Mustachios\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of "A Pair of Mustachios" as introduced in the opening paragraphs of the story?', options: [
                 { text: 'The primary theme is the absurdity and rigidity of class distinctions marked by moustache', outcome: 'The primary theme is the absurdity and rigidity of class distinctions marked by moustache styles.' },
                 { text: 'the story is about a moneylender cheating a nobleman', outcome: 'Not quite — Students often think the primary theme is simply "pride goes before a fall" or "greed leads.', reveals: 'the-primary-theme-is-simply' },
@@ -75,23 +75,23 @@ export const c11_eng_w_ch02_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_02_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" provides the essential historical.',
+          question: '\'A Pair of Mustachios\' (Woven Words, ch. 2) — the context and background.',
           hint: 'Review the "Social and Economic Changes under British Rule" section in Class 10 History.',
           misconception: 'Students often think the moustache classification is **pure fiction or exaggeration** invented by Anand for humour.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" provides the essential historical, social, and',
-                  options: ['"Before You Read: Context and Background" provides the essential historical, social, and', 'Plot and Narrative Structure refers to the organized sequence of events in a story,', 'Setting refers to the time, place, and social environment in', 'Character analysis of the protagonist involves examining the central character\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'A Pair of Mustachios\' (Woven Words, ch',
+                  options: ['\'A Pair of Mustachios\' (Woven Words, ch', 'The plot/narrative arc of \'A Pair of Mustachios\'', 'The setting of \'A Pair of Mustachios\'', 'Character analysis in \'A Pair of Mustachios\''],
                   hint: 'Review the "Social and Economic Changes under British Rule" section in Class 10 History (or Class 8.',
                   misconception: 'Students often think the moustache classification is **pure fiction or exaggeration** invented by Anand for humour.' }
           ],
-            remediations: { 'the-moustache-classification-is-pure': { steps: ['If a student treats the moustache codes as pure fantasy: (1) Show them 2-3 historical photographs (e.g., a Rajput.', '(2) Have them research "moustache regulations in British Indian Army" to find actual orders specifying styles.', '(3) Re-read the opening paragraph asking: "Which details sound like observed fact vs.', 'comic exaggeration?" (e.g., "patented by Government of India" = exaggeration; "murders...'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-moustache-classification-is-pure': { steps: ['If a student treats the moustache codes as pure fantasy: (1) Show them 2-3 historical photographs (e.g., a Rajput.', '(2) Have them research "moustache regulations in British Indian Army" to find actual orders specifying styles.', '(3) Re-read the opening paragraph asking: "Which details sound like observed fact vs.', 'comic exaggeration?" (e.g., "patented by Government of India" = exaggeration; "murders...'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_02_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure refers to the organized sequence of events in.',
+          question: 'The plot/narrative arc of \'A Pair of Mustachios\' — what happens, in what order.',
           hint: 'Review "The Necklace" (c10_engl_cbse_16_005) plot mapping exercise — identify the exact.',
           misconception: 'Students often identify the *first* confrontation (nose-ring) as the climax because it contains heated dialogue and.',
           parts: [
@@ -104,7 +104,7 @@ export const c11_eng_w_ch02_p1: SimDef = {
                   hint: 'Review "The Necklace" (c10_engl_cbse_16_005) plot mapping exercise — identify the exact moment.',
                   misconception: 'Students often identify the *first* confrontation (nose-ring) as the climax because it contains heated dialogue and threats ("I shall wring.' }
           ],
-            remediations: { 'students-often-identify-the-first': { steps: ['If a student misidentifies the climax or cannot map events to plot stages: (1) Have them create a two-column timeline.', '(3) The row with the *greatest irreversible loss* marks the climax.', '(4) Practice with a simpler Class 10 story like "The Necklace" (c10_engl_cbse_16_005) where the climax (realizing the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-identify-the-first': { steps: ['If a student misidentifies the climax or cannot map events to plot stages: (1) Have them create a two-column timeline.', '(3) The row with the *greatest irreversible loss* marks the climax.', '(4) Practice with a simpler Class 10 story like "The Necklace" (c10_engl_cbse_16_005) where the climax (realizing the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_02_002', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -115,9 +115,9 @@ export const c11_eng_w_ch02_p1: SimDef = {
                   hint: 'Review "The Necklace" (c10_engl_cbse_16_005) plot mapping exercise — identify the exact moment.',
                   misconception: 'Students often identify the *first* confrontation (nose-ring) as the climax because it contains heated dialogue and threats ("I shall wring.' }
           ],
-            remediations: { 'students-often-identify-the-first': { steps: ['If a student misidentifies the climax or cannot map events to plot stages: (1) Have them create a two-column timeline.', '(3) The row with the *greatest irreversible loss* marks the climax.', '(4) Practice with a simpler Class 10 story like "The Necklace" (c10_engl_cbse_16_005) where the climax (realizing the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-identify-the-first': { steps: ['If a student misidentifies the climax or cannot map events to plot stages: (1) Have them create a two-column timeline.', '(3) The row with the *greatest irreversible loss* marks the climax.', '(4) Practice with a simpler Class 10 story like "The Necklace" (c10_engl_cbse_16_005) where the climax (realizing the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_02_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social environment in which a story.',
+          question: 'The setting of \'A Pair of Mustachios\' — the place, time and atmosphere the text.',
           hint: 'Review "Setting: The Jungle, Railway and the Tunnel" (c7_engl_ch04_001) and "Atmosphere.',
           misconception: 'Students often think "setting" only means the geographical location (e.g., "an Indian village") and "atmosphere" only.',
           parts: [
@@ -134,9 +134,9 @@ export const c11_eng_w_ch02_p1: SimDef = {
                   hint: 'Review "Setting: The Jungle, Railway and the Tunnel" (c7_engl_ch04_001) and "Atmosphere: Heat.',
                   misconception: 'Students often think "setting" only means the geographical location (e.g., "an Indian village") and "atmosphere" only means the general.' }
           ],
-            remediations: { 'setting-only-means-the-geographical': { steps: ['If a student gives only generic setting/mood labels: (1) Have them draw a map of the story\'s three key spaces (shop.', '(2) Ask them to highlight every verb describing Khan\'s voice ("asked sourly," "raged," "roared," "spluttered,".', '(3) Give them the sentence: "The moustache code turns the village into a board game where each space has rules." Have.', 'This moves them from label to system.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'setting-only-means-the-geographical': { steps: ['If a student gives only generic setting/mood labels: (1) Have them draw a map of the story\'s three key spaces (shop.', '(2) Ask them to highlight every verb describing Khan\'s voice ("asked sourly," "raged," "roared," "spluttered,".', '(3) Give them the sentence: "The moustache code turns the village into a board game where each space has rules." Have.', 'This moves them from label to system.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_02_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the central.',
+          question: 'Character analysis in \'A Pair of Mustachios\' — the central figure(s), their.',
           hint: 'If stuck, review the "business acumen" question in NCERT Understanding the Text Q2 and.',
           misconception: 'Students often read Ramanand as a "villain" exploiting a "noble" Khan, because they import moral judgment into.',
           parts: [
@@ -145,9 +145,9 @@ export const c11_eng_w_ch02_p1: SimDef = {
                   hint: 'If stuck, review the "business acumen" question in NCERT Understanding the Text Q2 and map each.',
                   misconception: 'Students often read Ramanand as a "villain" exploiting a "noble" Khan, because they import moral judgment into a satirical text.' }
           ],
-            remediations: { 'students-often-read-ramanand-as': { steps: ['Re-read the opening taxonomy of moustaches: notice the narrator\'s mock-anthropological tone.', 'Track every transaction: what does Ramanand give vs.', 'Ask: "Who has agency at the end?" The Khan walks away proud but penniless; Ramanand owns the house and mocks the Khan\'s.', 'Write one paragraph stating: "Ramanand wins because he treats symbols as commodities."'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-read-ramanand-as': { steps: ['Re-read the opening taxonomy of moustaches: notice the narrator\'s mock-anthropological tone.', 'Track every transaction: what does Ramanand give vs.', 'Ask: "Who has agency at the end?" The Khan walks away proud but penniless; Ramanand owns the house and mocks the Khan\'s.', 'Write one paragraph stating: "Ramanand wins because he treats symbols as commodities."'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_02_005', difficulty: 'standard',
-          question: 'Supporting characters are secondary figures in a narrative who interact with.',
+          question: 'Supporting characters in \'A Pair of Mustachios\' — the secondary figures who.',
           hint: 'Review "Character Analysis: Protagonist" (c11_eng_w_cbse_02_004) focusing on the.',
           misconception: 'Students often treat supporting characters as "background decoration" and write character sketches that only list.',
           parts: [
@@ -156,18 +156,18 @@ export const c11_eng_w_ch02_p1: SimDef = {
                   hint: 'Review "Character Analysis: Protagonist" (c11_eng_w_cbse_02_004) focusing on the narrator\'s use.',
                   misconception: 'Students often treat supporting characters as "background decoration" and write character sketches that only list physical traits or single.' }
           ],
-            remediations: { 'students-often-treat-supporting-characters': { steps: ['If a student writes superficial character sketches, do this 3-step remediation: (1) Have them re-read only the.', '(2) Ask: "What does this character GAIN from this interaction?" for each highlighted line.', '(3) Have them rewrite one paragraph explaining how these three characters together form a "triangle of power" that.', 'Use the phrase "economic interest disguised as tradition" as the analytical lens.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-supporting-characters': { steps: ['If a student writes superficial character sketches, do this 3-step remediation: (1) Have them re-read only the.', '(2) Ask: "What does this character GAIN from this interaction?" for each highlighted line.', '(3) Have them rewrite one paragraph explaining how these three characters together form a "triangle of power" that.', 'Use the phrase "economic interest disguised as tradition" as the analytical lens.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_02_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
+          question: 'The primary theme of \'A Pair of Mustachios\' — the central idea the whole text.',
           hint: 'Review the distinction between plot summary and theme statement using a familiar story.',
           misconception: 'Students often think the primary theme is simply "pride goes before a fall" or "greed leads to loss," reducing the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of a literary work is its central, unifying idea or insight about human',
-                  options: ['The primary theme of a literary work is its central, unifying idea or insight about human', '"Before You Read: Context and Background" provides the essential historical, social, and', 'Plot and Narrative Structure refers to the organized sequence of events in a story,', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of \'A Pair of Mustachios\'',
+                  options: ['The primary theme of \'A Pair of Mustachios\'', '\'A Pair of Mustachios\' (Woven Words, ch', 'The plot/narrative arc of \'A Pair of Mustachios\'', 'The setting of \'A Pair of Mustachios\''],
                   hint: 'Review the distinction between plot summary and theme statement using a familiar story (e.g., "The.',
                   misconception: 'Students often think the primary theme is simply "pride goes before a fall" or "greed leads to loss," reducing the story to a moral fable.' }
           ],
-            remediations: { 'the-primary-theme-is-simply': { steps: ['If a student gives a moral-fable reading, guide them through three steps: (1) List every character who wears.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'the-primary-theme-is-simply': { steps: ['If a student gives a moral-fable reading, guide them through three steps: (1) List every character who wears.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

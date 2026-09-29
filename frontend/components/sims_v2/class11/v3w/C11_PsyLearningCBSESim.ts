@@ -6,16 +6,16 @@ import C11_PsyLearningCBSESim from '../../../simulations/c6_12_new/C11_PsyLearni
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_psylearningcbsesim: SimDef = {
     id: 'v3w_c11_psylearningcbsesim',
-    title: 'Psy Learning CBSE',
+    title: 'Behaviourism: Watson and the Stimulus-Response Approach',
     subtitle: 'This node covers Watson\'s classical behaviourism (1913 manifesto), the S-R unit of.',
     classLevel: 11, subject: 'science', topic: 'Behaviourism: Watson and the Stimulus-Response Approach',
     chapters: [],
     nodeIds: ['c11_psy_cbse_01_006', 'c11_psy_cbse_01_007', 'c11_psy_cbse_01_011', 'c11_psy_cbse_05_001', 'c11_psy_cbse_05_002', 'c11_psy_cbse_05_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are watching a Class 11 student, Rohan, flinch and cover his ears instantly when a loud Diwali.', goal: 'Master Psy Learning CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are watching a Class 11 student, Rohan, flinch and cover his ears instantly when a loud Diwali.', goal: 'Master Behaviourism: Watson and the Stimulus-Response Approach.' },
     discovery: {
         question: 'A student says: "Watson ignored the mind because he didn\'t believe it existed." Explain why this statement is a misinterpretation of Watson\'s position, using.',
-        options: ['Correct answer: Watson did not deny the existence of private mental events', 'Watson proved the mind doesn\'t exist', 'Behaviourism says thoughts are illusions'],
+        options: ['Watson did not deny the existence of private mental events', 'Watson proved the mind doesn\'t exist', 'Behaviourism says thoughts are illusions'],
         answer: 'Watson did not deny the existence of private mental events',
         hook: 'Students often believe "Behaviourism ignores internal processes entirely" and therefore think Watson would deny that.',
     },
@@ -78,7 +78,7 @@ export const w_c11_psylearningcbsesim: SimDef = {
             { text: 'Predict—If points are now given intermittently (e.g., random days), partial reinforcement effect would make cycling.', faded: true, blankAnswer: 'Operant = cycling to school; Primary reinforcer = canteen.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_psy_cbse_01_007', title: 'Identify each idea',
-          dissect: { specimen: 'Psy Learning CBSE', spots: [
+          dissect: { specimen: 'Behaviourism: Watson and the Stimulus-Response Approach', spots: [
             { id: 's1', label: 'Behaviourism as founded by John', prompt: 'Which idea is this? — Behaviourism, as founded by John B. Watson, defines psychology as the scientific study of.', answer: 'Behaviourism as founded by John', options: ['Behaviourism as founded by John', 'Gestalt psychology is a school', 'Clinical Psychology focuses on the', 'Learning is any relatively permanent'] },
             { id: 's2', label: 'Gestalt psychology is a school', prompt: 'Which idea is this? — Gestalt psychology is a school of thought that emphasizes the human tendency to perceive.', answer: 'Gestalt psychology is a school', options: ['Gestalt psychology is a school', 'Behaviourism as founded by John', 'Clinical Psychology focuses on the', 'Learning is any relatively permanent'] },
             { id: 's3', label: 'Clinical Psychology focuses on the', prompt: 'Which idea is this? — Clinical Psychology focuses on the assessment, diagnosis, treatment, and prevention of.', answer: 'Clinical Psychology focuses on the', options: ['Clinical Psychology focuses on the', 'Behaviourism as founded by John', 'Gestalt psychology is a school', 'Learning is any relatively permanent'] },
@@ -87,7 +87,7 @@ export const w_c11_psylearningcbsesim: SimDef = {
             { id: 's6', label: 'Operant conditioning is a type', prompt: 'Which idea is this? — Operant conditioning is a type of learning in which voluntary behaviours (operants) are.', answer: 'Operant conditioning is a type', options: ['Operant conditioning is a type', 'Behaviourism as founded by John', 'Gestalt psychology is a school', 'Clinical Psychology focuses on the'] }
           ] } }
     ],
-    explore: { component: C11_PsyLearningCBSESim, prompt: 'Explore the interactive — Psy Learning CBSE' },
+    explore: { component: C11_PsyLearningCBSESim, prompt: 'Explore the interactive — Behaviourism: Watson and the Stimulus-Response Approach' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_psy_cbse_01_006', difficulty: 'standard',
           question: 'Behaviourism, as founded by John B. Watson, defines psychology as the.',

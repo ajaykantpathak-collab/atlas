@@ -9,7 +9,7 @@ import type { SimDef } from '../engine/types';
 export const C11_SOC_GEN: SimDef[] = [
  {
   "id": "gen_c11_soc_ch01",
-  "title": "Dialectical Relationship Between Individual And",
+  "title": "Dialectical Relationship Between Individual",
   "subtitle": "Sociology · Chapter 1",
   "classLevel": 11,
   "mode": "senior",
@@ -69,7 +69,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Enlightenment (late 17th–18th Century",
+    "title": "The Enlightenment",
     "text": "The Enlightenment (late 17th–18th century European intellectual movement emphasizing reason, individualism, and scientific method), the Industrial Revolution (late 18th–19th century shift to factory-based capitalist production), and the French Revolution",
     "emoji": "👥",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -81,7 +81,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Feminist Interventions In Sociology Refer To",
+    "title": "Feminist Interventions In Sociology",
     "text": "Feminist interventions in sociology refer to theoretical and methodological approaches that center gender as a fundamental structural category of social analysis, challenging androcentric biases in classical theories and revealing how patriarchal power",
     "emoji": "👥",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3347,7 +3347,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Social Change Can Be Classified By",
+    "title": "Social Change Can Be Classified",
     "text": "Social change can be classified by its pace into *evolutionary change* (slow, gradual, cumulative transformation over long periods, e.g., shift from agrarian to industrial society) and *revolutionary change* (rapid, sudden, radical rupture in the existing",
     "emoji": "👥",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -4161,7 +4161,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Sustainable Development, As Defined By The",
+    "title": "Sustainable Development: The Brundtland",
     "text": "Sustainable development, as defined by the Brundtland Report (1987), is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
     "emoji": "👥",
     "bgColor": "from-violet-400 to-purple-500"
@@ -5674,7 +5674,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "A.R. Desai's Marxist Critique Of",
+    "title": "A.R. Desai's Marxist Critique",
     "text": "A.R. Desai's Marxist critique of the welfare state argues that the so-called \"welfare state\" in capitalist democracies is a myth because it fails to meet five essential test criteria: ensuring freedom from poverty and social discrimination for all citizens,",
     "emoji": "👥",
     "bgColor": "from-rose-400 to-pink-500"

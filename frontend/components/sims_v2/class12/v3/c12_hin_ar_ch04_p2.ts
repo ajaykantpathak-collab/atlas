@@ -19,7 +19,7 @@ export const c12_hin_ar_ch04_p2: SimDef = {
         hook: 'Progressive poets like Nagarjun — journalist, trilingual, champion of the ignored — prove the micro reveals the macro: a street performer\'s day exposes the whole machinery of exploitation. Journalism trained the eye; poetry carried the indictment.',
     },
     teaching: [
-        { title: 'कैमरे में बंद अपाहजि — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: 'इस कविता में **प्रतीक (Symbol)** वह ठोस वस्तु या स्थिति है जो अमूर्त सामाजिक-राजनीतिक सत्य को व्यक्त करती है (जैसे: कैमरा = मीडियाई निगाह/वस्तुकरण), और **बिंब (Imagery)** वह संवेदनात्मक वर्णन है जो.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'कैमरे में बंद अपाहजि — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: '\'दसेज में चाँद विकट\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_04_007', title: 'Your mission',
@@ -28,11 +28,19 @@ export const c12_hin_ar_ch04_p2: SimDef = {
         context: 'Walk with the street performer: read rustic speech as deliberate politics, trace how one \'small\' life opens onto the entire structure that exploits it, and test why context turns description into critique.',
         labels: ['कैमरे में बंद अपाहजि'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_04_009', title: 'कैमरे में बंद अपाहजि — गौण भाव और विषयांतर',
+          caseStudy: { intro: '\'दसेज में चाँद विकट\' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।',
+            decisions: [{ prompt: 'What is the literal meaning of the phrase "can vikfgt" (लोहे का पक्षी) in the poem, and what is the ironic gap between this label and the.', options: [
+                { text: 'The literal meaning is "a bird made of iron," referring to an airplane', outcome: 'The literal meaning is "a bird made of iron," referring to an airplane.' },
+                { text: 'iron bird', outcome: 'Not quite — Students often think irony in this poem is simply "the airplane is not a real bird" — a factual.', reveals: 'irony-in-this-poem-is' },
+                { text: 'airplane', outcome: 'Not quite — Students often think irony in this poem is simply "the airplane is not a real bird" — a factual.', reveals: 'irony-in-this-poem-is' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_04_011', title: 'कैमरे में बंद अपाहजि — व्याकरण: पद्य में भाषा-प्रयोग',
-          caseStudy: { intro: 'Have you ever noticed how a poet can say "कैमरे में बंद" instead of "कैमरे के अंदर बंद किया गया" and it hits differently?',
-            decisions: [{ prompt: 'पद्य में \'लोप\' (ellipsis) की परिभाषा लिखिए और कविता "कैमरे में बंद अपाहिज" से इसका एक उदाहरण दीजिए।', options: [
-                { text: 'लोप वह व्याकरणिक युक्ति है जिसमें वाक्य के किसी अवयव (कर्ता, कर्म, क्रिया, सर्वनाम आदि)', outcome: 'लोप वह व्याकरणिक युक्ति है जिसमें वाक्य के किसी अवयव (कर्ता, कर्म, क्रिया, सर्वनाम आदि) का जानबूझकर.' },
-                { text: 'difficult vs easy words', outcome: 'Not quite — Students treat "पद्य में भाषा-प्रयोग" as a labelling exercise — they memorize definitions of लोप.', reveals: 'students-treat-as-a-labelling' }
+          caseStudy: { intro: '\'दसेज में चाँद विकट\' की भाषा देखिए — NCERT पाठ्यपुस्तक का शब्द-चयन और शैली भाव बनाती है।',
+            decisions: [{ prompt: 'What is the primary tense used in the chapter "केसरी कुमार झा" for narrating past events, and why is it appropriate for a biography?', options: [
+                { text: 'The primary tense is past perfect (पूर्ण भूतकाल) often combined with passive voice (e.g.,', outcome: 'The primary tense is past perfect (पूर्ण भूतकाल) often combined with passive voice (e.g., "नियुक्त.' },
+                { text: 'simple past', outcome: 'Not quite — Students treat "grammar in the text" as a labeling exercise (e.g., "this is passive voice") and.', reveals: 'students-treat-grammar-in-the' },
+                { text: 'present tense', outcome: 'Not quite — Students treat "grammar in the text" as a labeling exercise (e.g., "this is passive voice") and.', reveals: 'students-treat-grammar-in-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_04_007', title: 'Use it in the wild',
           caseStudy: { intro: 'After a funds scandal in your student council, your group\'s protest poster is all slogans — \'We will shout for change!\' A senior suggests adding a line addressing each silent member by name, and clipping the actual audit report to the bottom.',
@@ -53,82 +61,75 @@ export const c12_hin_ar_ch04_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_007', difficulty: 'standard',
-          question: 'इस कविता में **प्रतीक (Symbol)** वह ठोस वस्तु या स्थिति है जो अमूर्त.',
+          question: '\'दसेज में चाँद विकट\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
           hint: 'यदि अटके तो **c11_hin_ar_cbse_13_007** (जाग तुझको दूर जाना — प्रतीक और बिंब) के \'प्रतीक.',
           misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'कैमरा\' कविता में केवल एक तकनीकी उपकरण (technological device) है** और.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'इस कविता में **प्रतीक (Symbol)** वह ठोस वस्तु या स्थिति है जो अमूर्त सामाजिक-राजनीतिक',
-                  options: ['इस कविता में **प्रतीक (Symbol)** वह ठोस वस्तु या स्थिति है जो अमूर्त सामाजिक-राजनीतिक', 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे', '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'दसेज में चाँद विकट\' के गौण विषय',
+                  options: ['\'दसेज में चाँद विकट\' के गौण विषय', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'दसेज में चाँद विकट\' का कथानक', '\'दसेज में चाँद विकट\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके तो **c11_hin_ar_cbse_13_007** (जाग तुझको दूर जाना — प्रतीक और बिंब) के \'प्रतीक की.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'कैमरा\' कविता में केवल एक तकनीकी उपकरण (technological device) है** और \'अपाहजि\' केवल एक पात्र.' }
           ],
             remediations: { 'technological-device-character-multi-valency': { steps: ['**चरण 1:** छात्र से कहो: "कविता की पहली दो पंक्तियाँ पढ़ो और बताओ \'कैमरा\' यहाँ क्या *कर* रहा है — केवल फोटो खींच रहा है.', '**चरण 2:** नोड **c11_hin_ar_cbse_13_007** (जाग तुझको दूर जाना — प्रतीक और बिंब) या **c11_hin_ar_cbse_14_007** (बादल को.', '**चरण 3:** एक छोटा अभ्यास दो: "अपने आसपास की किसी वस्तु (घड़ी, दरवाजा, खिड़की) को लेकर दो अर्थ लिखो — भौतिक और.', '**पुनर्निदान:** उपरोक्त DIAGNOSTIC_QUESTION_2 (फ्रेम का अर्थ) फिर से पूछो; यदि अब भी भौतिक अर्थ पर अटके तो नोड.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_008', difficulty: 'standard',
-          question: '\'कैमरे में बंद अपाहिज\' का मुख्य भाव है — **आधुनिक मीडिया (कैमरा/टीवी) द्वारा.',
+          question: '\'दसेज में चाँद विकट\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
           hint: 'यदि अटके तो c12_hin_ar_cbse_04_002 (पद्यांश-वार भावार्थ) के पद 1, 3, 5 को दोबारा पढ़ें और.',
           misconception: '**सबसे आम भ्रम:** छात्र मान लेते हैं कि कविता का मुख्य भाव \'अपाहिज की पीड़ा\' या \'विकलांगों के प्रति सहानुभूति\' है।.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कैमरे में बंद अपाहिज\' का मुख्य भाव है',
-                  options: ['\'कैमरे में बंद अपाहिज\' का मुख्य भाव है', 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे', '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'दसेज में चाँद विकट\' में बिंब (imagery)',
+                  options: ['\'दसेज में चाँद विकट\' में बिंब (imagery)', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'दसेज में चाँद विकट\' का कथानक', '\'दसेज में चाँद विकट\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके तो c12_hin_ar_cbse_04_002 (पद्यांश-वार भावार्थ) के पद 1, 3, 5 को दोबारा पढ़ें और \'दर्शक\' व.',
                   misconception: '**सबसे आम भ्रम:** छात्र मान लेते हैं कि कविता का मुख्य भाव \'अपाहिज की पीड़ा\' या \'विकलांगों के प्रति सहानुभूति\' है। **वास्तविकता:** कविता.' }
           ],
             remediations: { '1': { steps: ['चरण 1: छात्र से कहें — "कविता को फिर से पढ़ो, पर इस बार **अपाहिज को भूल जाओ**; केवल **कैमरा** और **दर्शक** क्या कर रहे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_009', difficulty: 'standard',
-          question: '**गौण भाव** कविता में वह द्वितीयक भावना या विचार है जो केंद्रीय भाव (मुख्य.',
-          hint: 'यदि अटका हुआ महसूस हो तो: कक्षा 11 की किसी भी कविता (जैसे \'जाग तुझको दूर जाना\'.',
-          misconception: '**विशिष्ट भ्रम:** छात्र **\'गौण भाव\' को \'मुख्य भाव का उप-विभाजन\' (sub-part) मान लेते हैं** — जैसे मुख्य भाव = अपाहिज का.',
+          question: '\'दसेज में चाँद विकट\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+          hint: 'If stuck, review the Class 11 irony/symbolism node (c11_hin_ar_cbse_04_009) for.',
+          misconception: 'Students often think irony in this poem is simply "the airplane is not a real bird" — a factual observation — and miss.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**गौण भाव** कविता में वह द्वितीयक भावना या विचार है जो केंद्रीय भाव (मुख्य विषय) का पूरक',
-                  options: ['**गौण भाव** कविता में वह द्वितीयक भावना या विचार है जो केंद्रीय भाव (मुख्य विषय) का पूरक', 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे', '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,'],
-                  hint: 'यदि अटका हुआ महसूस हो तो: कक्षा 11 की किसी भी कविता (जैसे \'जाग तुझको दूर जाना\'.',
-                  misconception: '**विशिष्ट भ्रम:** छात्र **\'गौण भाव\' को \'मुख्य भाव का उप-विभाजन\' (sub-part) मान लेते हैं** — जैसे मुख्य भाव = अपाहिज का दुख, तो गौण भाव.' }
+                { id: 'a', prompt: 'What is the literal meaning of the phrase "can vikfgt" (लोहे का पक्षी) in the poem, and what is the ironic gap between this label and the reality of the object.', answer: 'The literal meaning is "a bird made of iron," referring to an airplane',
+                  options: ['The literal meaning is "a bird made of iron," referring to an airplane', 'iron bird', 'airplane', 'the airplane is not a real bird'],
+                  hint: 'If stuck, review the Class 11 irony/symbolism node (c11_hin_ar_cbse_04_009) for definitions, and.',
+                  misconception: 'Students often think irony in this poem is simply "the airplane is not a real bird" — a factual observation — and miss that the irony.' },
+                { id: 'b', prompt: 'In the dialogue, the child asks the iron bird: "vkidk vikfgtiu rks nq[k nsrk gksxk nsrk gS?" (Does your bird-ness give you pain?).', answer: 'The question is verbally ironic',
+                  options: ['The question is verbally ironic', 'the airplane is not a real bird'],
+                  hint: 'If stuck, review the Class 11 irony/symbolism node (c11_hin_ar_cbse_04_009) for definitions, and.',
+                  misconception: 'Students often think irony in this poem is simply "the airplane is not a real bird" — a factual observation — and miss that the irony.' },
+                { id: 'c', prompt: 'Apply the concept of symbolism: The poem describes the iron bird as having "cgqr cM+h rlohj" (very long wings) and "mlosQ gksaBksa ij ,d dlelkgV" (a pilot.', answer: 'The long wings symbolize technology\'s massive, imposed scale',
+                  options: ['The long wings symbolize technology\'s massive, imposed scale', 'the airplane is not a real bird'],
+                  hint: 'If stuck, review the Class 11 irony/symbolism node (c11_hin_ar_cbse_04_009) for definitions, and.',
+                  misconception: 'Students often think irony in this poem is simply "the airplane is not a real bird" — a factual observation — and miss that the irony.' }
           ],
-            remediations: { 'sub-part': { steps: ['**पुनः पढ़ो:** कविता के केवल वे अंश छांटो जहां **कैमरा/फोटोग्राफर/मीडिया** की बात है (गौण भाव) और जहां **कवि \'मैं\' या.', '**तुलना तालिका बनाओ:** तीन कॉलम — (क) केंद्रीय भाव की पंक्तियाँ, (ख) गौण भाव की पंक्तियाँ, (ग) विषयांतर की पंक्तियाँ।.', '**मौखिक अभ्यास:** किसी सहपाठी को समझाओ: "गौण भाव = फोटोग्राफर की नज़र, विषयांतर = कवि की नज़र"। यदि तुम यह अंतर 30.', '**पुनः निदान:** उपरोक्त DIAGNOSTIC_QUESTION_3 फिर से हल करो बिना नोट्स देखे।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'irony-in-this-poem-is': { steps: ['If the student cannot distinguish irony from mere contrast, return to the Class 11 node on irony.', 'situational irony with a simple Hindi example: "barish mein bheeGte hue kisi se puchna \'mazaa aa raha hai?\'" — the.', 'Then apply this to the poem: the child asks the airplane "do you feel cold?" knowing it cannot — that gap *is* the.', 'For symbolism, use the "nest" (घोंसला) as a concrete anchor: the real bird has one (symbol: home, continuity), the iron.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_010', difficulty: 'standard',
-          question: 'पदावली किसी रचना में प्रयुक्त विशिष्ट शब्दों, मुहावरों और लोकोक्तियों की वह.',
-          hint: 'यदि फँस जाएँ तो **कक्षा 11 आरोह काव्य खंड की किसी भी पदावली (जैसे.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'पदावली\' का अर्थ है **\'कठिन शब्दों के शब्दकोशीय अर्थ रटना\'**। वे मुहावरों का.',
+          question: '\'दसेज में चाँद विकट\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
+          hint: 'If stuck on context-clue identification, revisit **c11_hin_ar_cbse_04_010 (Vocabulary.',
+          misconception: '**Misconception:** "Vocabulary in context means finding the *one correct dictionary meaning* that fits the sentence.".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली किसी रचना में प्रयुक्त विशिष्ट शब्दों, मुहावरों और लोकोक्तियों की वह सूची है',
-                  options: ['पदावली किसी रचना में प्रयुक्त विशिष्ट शब्दों, मुहावरों और लोकोक्तियों की वह सूची है', 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे', '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,'],
-                  hint: 'यदि फँस जाएँ तो **कक्षा 11 आरोह काव्य खंड की किसी भी पदावली (जैसे c11_hin_ar_cbse_13_010)** को.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'पदावली\' का अर्थ है **\'कठिन शब्दों के शब्दकोशीय अर्थ रटना\'**। वे मुहावरों का **\'सामान्य.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'दसेज में चाँद विकट\' की पदावली',
+                  options: ['\'दसेज में चाँद विकट\' की पदावली', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'दसेज में चाँद विकट\' का कथानक', '\'दसेज में चाँद विकट\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck on context-clue identification, revisit **c11_hin_ar_cbse_04_010 (Vocabulary in Context.',
+                  misconception: '**Misconception:** "Vocabulary in context means finding the *one correct dictionary meaning* that fits the sentence." **Why students make.' }
           ],
-            remediations: { 'poetic-functionality-3-1': { steps: ['**चरण 1:** कविता को पुनः पढ़ें और **केवल 5 शब्द/मुहावरे** चुनें जो सर्वाधिक \'भारी\' लगें (अपाहिज, कैमरे में बंद.', '**चरण 2:** प्रत्येक के लिए **तीन-स्तरीय तालिका** बनाएँ: (क) शब्दकोश अर्थ, (ख) कविता-प्रसंग अर्थ, (ग) काव्य-प्रयोजन.', '**चरण 3:** किसी एक शब्द पर **50 शब्दों का सूक्ष्म निबंध** लिखें: "यह शब्द कविता के केंद्रीय भाव को कैसे आगे बढ़ाता है?".', '**पुनः निदान:** उपरोक्त DIAGNOSTIC_QUESTION_4 को दोबारा हल करें — यदि अब \'दर्शक\' की सक्रिय भूमिका स्पष्ट हो, तो पदावली.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'misconception-vocabulary-in-context-means': { steps: ['**Remediation Path (3 sessions):** **Session 1 (Diagnose):** Give the student 5 sentences from Chapter 4 with target.', 'Ask: "Write the meaning *only from this sentence* — no dictionary." Mark each: ✓ if they use context clues (contrast.', '**Session 2 (Micro-skill drill):** Teach the **\'Clue-Hunt Table\'**: Column A: Target word | Column B: ±3 surrounding.', 'Practice with 10 words from the chapter.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_011', difficulty: 'standard',
-          question: 'पद्य में भाषा-प्रयोग (Language Use in Poetry) refers to the deliberate.',
-          hint: 'If stuck on समास-विच्छेद or तत्सम/तद्भव पहचान: revisit Class 10 Hindi Vyakaran (समास.',
-          misconception: 'Students treat "पद्य में भाषा-प्रयोग" as a labelling exercise — they memorize definitions of लोप, अन्वय, समास and hunt.',
+          question: '\'दसेज में चाँद विकट\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और.',
+          hint: 'Review Class 11 Hindi grammar node c11_hin_ar_cbse_04_011 for passive transformation.',
+          misconception: 'Students treat "grammar in the text" as a labeling exercise (e.g., "this is passive voice") and stop there.',
           parts: [
-                { id: 'a', prompt: 'कविता में प्रयुक्त किन्हीं दो समासों की पहचान कीजिए, उनके भेद बताइए, और समझाइए कि कवि ने पद-युग्म के बजाय समास क्यों चुना होगा।', answer: 'उदाहरण 1: "कैमरेबंद" (यदि प्रयुक्त हो) या "अपाहिज"',
-                  options: ['उदाहरण 1: "कैमरेबंद" (यदि प्रयुक्त हो) या "अपाहिज"', 'difficult vs easy words'],
-                  hint: 'If stuck on समास-विच्छेद or तत्सम/तद्भव पहचान: revisit Class 10 Hindi Vyakaran (समास प्रकरण) and.',
-                  misconception: 'Students treat "पद्य में भाषा-प्रयोग" as a labelling exercise — they memorize definitions of लोप, अन्वय, समास and hunt for examples.' },
-                { id: 'b', prompt: 'कविता में तत्सम, तद्भव, और देशज शब्दों का अनुपात विश्लेषित कीजिए। कवि ने इस मिश्रण को क्यों चुना होगा?', answer: 'पंक्ति: "कैमरे में बंद अपाहिज / देखता है सपने"',
-                  options: ['पंक्ति: "कैमरे में बंद अपाहिज / देखता है सपने"', 'difficult vs easy words'],
-                  hint: 'If stuck on समास-विच्छेद or तत्सम/तद्भव पहचान: revisit Class 10 Hindi Vyakaran (समास प्रकरण) and.',
-                  misconception: 'Students treat "पद्य में भाषा-प्रयोग" as a labelling exercise — they memorize definitions of लोप, अन्वय, समास and hunt for examples.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'दसेज में चाँद विकट\' में भाषा-प्रयोग',
+                  options: ['\'दसेज में चाँद विकट\' में भाषा-प्रयोग', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'दसेज में चाँद विकट\' का कथानक', '\'दसेज में चाँद विकट\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'Review Class 11 Hindi grammar node c11_hin_ar_cbse_04_011 for passive transformation drills and.',
+                  misconception: 'Students treat "grammar in the text" as a labeling exercise (e.g., "this is passive voice") and stop there.' }
           ],
-            remediations: { 'students-treat-as-a-labelling': { steps: ['Take one stanza. Rewrite it in standard prose (गद्य रूप).', 'Compare word-by-word — what is missing (लोप)? What is reordered (अन्वय)? What is compounded (समास)?', 'For each difference, write ONE sentence: "कवि ने X किया ताकि Y प्रभाव पड़े।"', 'Practice two past board questions (c12_hin_ar_cbse_04_014) using this comparison table.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_011', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students treat "पद्य में भाषा-प्रयोग" as a labelling exercise — they memorize definitions of लोप, अन्वय, समास and hunt.',
-          parts: [
-                { id: 'a', prompt: 'क्या कविता में क्रिया-विशेषण (adverbial) प्रयोग सामान्य गद्य से भिन्न है? एक उद्धरण देकर मूल्यांकन कीजिए कि यह भिन्नता काव्यात्मक प्रभाव कैसे उत्पन्न करती है।', answer: 'हाँ, भिन्न है। उदाहरण: "चुपचाप / वह देखता रहता है"',
-                  options: ['हाँ, भिन्न है। उदाहरण: "चुपचाप / वह देखता रहता है"', 'difficult vs easy words'],
-                  hint: 'If stuck on समास-विच्छेद or तत्सम/तद्भव पहचान: revisit Class 10 Hindi Vyakaran (समास प्रकरण) and.',
-                  misconception: 'Students treat "पद्य में भाषा-प्रयोग" as a labelling exercise — they memorize definitions of लोप, अन्वय, समास and hunt for examples.' }
-          ],
-            remediations: { 'students-treat-as-a-labelling': { steps: ['Take one stanza. Rewrite it in standard prose (गद्य रूप).', 'Compare word-by-word — what is missing (लोप)? What is reordered (अन्वय)? What is compounded (समास)?', 'For each difference, write ONE sentence: "कवि ने X किया ताकि Y प्रभाव पड़े।"', 'Practice two past board questions (c12_hin_ar_cbse_04_014) using this comparison table.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-grammar-in-the': { steps: ['Return to the chapter and highlight every verb phrase with a colored pen.', 'Sort them into a table: Tense × Voice × Subject.', 'For the top three patterns, write one sentence each: "The author uses [pattern] here to [effect]." 4.', 'Re-attempt Diagnostic Question 4 orally, explaining the *function* of subordination.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_012', difficulty: 'standard',
-          question: 'बोध-प्रश्नों के दो प्रकार होते हैं: (1) **वस्तुनिष्ठ** — जिनका उत्तर एक शब्द.',
+          question: '\'दसेज में चाँद विकट\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
           hint: 'यदि \'कैमरा\' प्रतीक या \'दान की रसीद\' व्यंग्य समझ न आए, तो **c12_hin_ar_cbse_04_007.',
           misconception: '**विशिष्ट भ्रम**: छात्र मानते हैं कि आशय-सूचक प्रश्न का उत्तर देने के लिए **\'कविता का सारांश\' लिखना काफी है**। वे लिखते.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बोध-प्रश्नों के दो प्रकार होते हैं: (1) **वस्तुनिष्ठ**',
-                  options: ['बोध-प्रश्नों के दो प्रकार होते हैं: (1) **वस्तुनिष्ठ**', 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे', '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'दसेज में चाँद विकट\' के वस्तुनिष्ठ प्रश्न',
+                  options: ['\'दसेज में चाँद विकट\' के वस्तुनिष्ठ प्रश्न', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'दसेज में चाँद विकट\' का कथानक', '\'दसेज में चाँद विकट\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि \'कैमरा\' प्रतीक या \'दान की रसीद\' व्यंग्य समझ न आए, तो **c12_hin_ar_cbse_04_007 (प्रतीक)** और.',
                   misconception: '**विशिष्ट भ्रम**: छात्र मानते हैं कि आशय-सूचक प्रश्न का उत्तर देने के लिए **\'कविता का सारांश\' लिखना काफी है**। वे लिखते हैं: "कविता में.' }
           ],

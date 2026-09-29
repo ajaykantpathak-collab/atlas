@@ -83,7 +83,11 @@ export const c6_english_ch03_p2: SimDef = {
                   options: ['It means the characteristics or qualities of the leaves', 'a piece of land', 'correct'],
                   hint: 'Review basic sentence structure (subject-verb-object) to ensure the student understands how words.',
                   misconception: 'Students often assume a word has only one "correct" dictionary definition and try to force that meaning into every sentence.' },
-                { id: 'b', prompt: 'Compare the two phrases: "The water was stagnant" vs "The water was flowing." How do these context clues change your understanding of \'stagnant\'?', answer: '\'Stagnant\' is the opposite of flowing',
+                { id: 'b', prompt: 'If a writer says, "The locusts are destructive, as they eat entire fields of crops," how can you define \'destructive\'?', answer: 'Identify the action (eating crops)',
+                  options: ['Identify the action (eating crops)', 'correct'],
+                  hint: 'Review basic sentence structure (subject-verb-object) to ensure the student understands how words.',
+                  misconception: 'Students often assume a word has only one "correct" dictionary definition and try to force that meaning into every sentence.' },
+                { id: 'c', prompt: 'Compare the two phrases: "The water was stagnant" vs "The water was flowing." How do these context clues change your understanding of \'stagnant\'?', answer: '\'Stagnant\' is the opposite of flowing',
                   options: ['\'Stagnant\' is the opposite of flowing', 'correct'],
                   hint: 'Review basic sentence structure (subject-verb-object) to ensure the student understands how words.',
                   misconception: 'Students often assume a word has only one "correct" dictionary definition and try to force that meaning into every sentence.' }
@@ -140,7 +144,7 @@ export const c6_english_ch03_p2: SimDef = {
           misconception: 'Students often confuse "presenting an idea" with "telling a story." They think if they speak for a long time about.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Presenting ideas is the act of sharing information clearly and logically to an audience,',
-                  options: ['Presenting ideas is the act of sharing information clearly and logically to an audience,', 'Plot and sequence refer to the organization of events in a story: the "plot" is what', 'Character analysis is the process of examining a character\'s traits, motivations, and', 'The spirit of innovation is the drive to question, experiment, and persist despite failure'],
+                  options: ['Presenting ideas is the act of sharing information clearly and logically to an audience,', 'From \'English chapter c6_english_u3\': the skill or concept this node teaches, applied to', 'From \'English chapter c6_english_u3\': the skill or concept this node teaches, applied to', 'The spirit of innovation is the drive to question, experiment, and persist despite failure'],
                   hint: 'Review the "Neem Baba" text to identify how facts (e.g., medicinal properties) act as evidence.',
                   misconception: 'Students often confuse "presenting an idea" with "telling a story." They think if they speak for a long time about their topic, they are.' }
           ],

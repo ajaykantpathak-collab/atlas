@@ -6,13 +6,13 @@ import C10_HistoryCivicsNoncooperationProgrammeChauriSim from '../../../simulati
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_historycivicsnoncooperationprogrammechaurisim: SimDef = {
     id: 'v3w_c10_historycivicsnoncooperationprogrammechaurisim',
-    title: 'Noncooperation Programme Chauri',
+    title: 'Non-Cooperation Movement: In Towns and Countryside',
     subtitle: 'Covers the Non-Cooperation Movement\'s urban phase (boycott of schools, courts, councils,.',
     classLevel: 10, subject: 'history', topic: 'Non-Cooperation Movement: In Towns and Countryside',
     chapters: [],
     nodeIds: ['c10_hist_cbse_02_004', 'c10_hist_cbse_02_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you\'re visiting your grandmother\'s village in Uttar Pradesh and she shows you an old land record from.', goal: 'Master Noncooperation Programme Chauri.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you\'re visiting your grandmother\'s village in Uttar Pradesh and she shows you an old land record from.', goal: 'Master Non-Cooperation Movement: In Towns and Countryside.' },
     discovery: {
         question: 'A student reads that "tribal peasants in the Gudem Hills of Andhra Pradesh attacked police stations and attempted to kill British officials during the.',
         options: ['The conclusion is historically inaccurate', 'Gandhi = non-violence', 'uniformly non-violent'],
@@ -43,12 +43,12 @@ export const w_c10_historycivicsnoncooperationprogrammechaurisim: SimDef = {
             { text: 'Evaluate significance — shows nationalist movement was not monolithic; same slogan mobilized different groups for.', faded: true, blankAnswer: 'Plantation workers in Assam joined NCM because they.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_hist_cbse_02_005', title: 'Identify each idea',
-          dissect: { specimen: 'Noncooperation Programme Chauri', spots: [
+          dissect: { specimen: 'Non-Cooperation Movement: In Towns and Countryside', spots: [
             { id: 's1', label: 'The Non-Cooperation Movement 1920-1922 was', prompt: 'Which idea is this? — The Non-Cooperation Movement (1920-1922) was Gandhi\'s first nationwide mass movement.', answer: 'The Non-Cooperation Movement 1920-1922 was', options: ['The Non-Cooperation Movement 1920-1922 was', 'The Non-Cooperation Movements plantation phase'] },
             { id: 's2', label: 'The Non-Cooperation Movements plantation phase', prompt: 'Which idea is this? — The Non-Cooperation Movement\'s plantation phase (1921-22) refers to the spontaneous.', answer: 'The Non-Cooperation Movements plantation phase', options: ['The Non-Cooperation Movements plantation phase', 'The Non-Cooperation Movement 1920-1922 was'] }
           ] } }
     ],
-    explore: { component: C10_HistoryCivicsNoncooperationProgrammeChauriSim, prompt: 'Explore the interactive — Noncooperation Programme Chauri' },
+    explore: { component: C10_HistoryCivicsNoncooperationProgrammeChauriSim, prompt: 'Explore the interactive — Non-Cooperation Movement: In Towns and Countryside' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_hist_cbse_02_004', difficulty: 'standard',
           question: 'The Non-Cooperation Movement (1920-1922) was Gandhi\'s first nationwide mass.',

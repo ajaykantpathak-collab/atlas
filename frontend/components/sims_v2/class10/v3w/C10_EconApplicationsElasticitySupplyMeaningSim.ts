@@ -6,7 +6,7 @@ import C10_EconApplicationsElasticitySupplyMeaningSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_econapplicationselasticitysupplymeaningsim: SimDef = {
     id: 'v3w_c10_econapplicationselasticitysupplymeaningsim',
-    title: 'Elasticity of Supply',
+    title: 'Modern Forms of Money: Currency and Bank Deposits',
     subtitle: 'Covers: (1) Currency – RBI issuance, legal tender status, denominations, fiat nature; (2).',
     classLevel: 10, subject: 'economics', topic: 'Modern Forms of Money: Currency and Bank Deposits',
     chapters: [],

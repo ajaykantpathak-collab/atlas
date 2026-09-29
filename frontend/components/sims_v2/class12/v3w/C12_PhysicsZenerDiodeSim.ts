@@ -6,13 +6,13 @@ import C12_PhysicsZenerDiodeSim from '../../../simulations/c6_12/C12_PhysicsZene
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicszenerdiodesim: SimDef = {
     id: 'v3w_c12_physicszenerdiodesim',
-    title: 'Zener Diode',
+    title: 'p-n Junction Diode: Forward and Reverse Bias',
     subtitle: 'Covers: forward bias operation (minority carrier injection, exponential I-V relation,.',
     classLevel: 12, subject: 'physics', topic: 'p-n Junction Diode: Forward and Reverse Bias',
     chapters: [],
     nodeIds: ['c12_phy_cbse_14_004', 'c12_phy_cbse_14_005', 'c12_phy_cbse_14_007', 'c12_phy_cbse_14_001', 'c12_phy_cbse_14_002', 'c12_phy_cbse_14_003', 'c12_phy_cbse_14_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a simple LED torch: when you flip the switch, the LED lights up instantly; if you accidentally insert.', goal: 'Master Zener Diode.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a simple LED torch: when you flip the switch, the LED lights up instantly; if you accidentally insert.', goal: 'Master p-n Junction Diode: Forward and Reverse Bias.' },
     discovery: {
         question: 'A student claims: "In reverse bias, the diode current is zero because the barrier becomes infinite." Evaluate this statement and correct it.',
         options: ['The statement is false', 'very high resistance', 'infinite resistance'],
@@ -81,7 +81,7 @@ export const w_c12_physicszenerdiodesim: SimDef = {
             { text: 'Verify: V_bi ≈ 0.7 V typical for Si. W ≈ 0.5 μm reasonable. E_max ≈ 3 × 10⁶ V/m below Si breakdown field (~3 × 10⁷.', faded: true, blankAnswer: '(a) V_bi = 0.69 V, (b) W = 0.47 μm, (c) E_max = 2.9 × 10⁶.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_14_005', title: 'Identify each idea',
-          dissect: { specimen: 'Zener Diode', spots: [
+          dissect: { specimen: 'p-n Junction Diode: Forward and Reverse Bias', spots: [
             { id: 's1', label: 'A p-n junction diode is', prompt: 'Which idea is this? — A p-n junction diode is a two-terminal semiconductor device formed by joining p-type and.', answer: 'A p-n junction diode is', options: ['A p-n junction diode is', 'A half-wave rectifier is a', 'A Zener diode is a', 'Energy bands in solids are'] },
             { id: 's2', label: 'A half-wave rectifier is a', prompt: 'Which idea is this? — A half-wave rectifier is a circuit that converts alternating current (AC) into pulsating.', answer: 'A half-wave rectifier is a', options: ['A half-wave rectifier is a', 'A p-n junction diode is', 'A Zener diode is a', 'Energy bands in solids are'] },
             { id: 's3', label: 'A Zener diode is a', prompt: 'Which idea is this? — A Zener diode is a specially designed, heavily doped p-n junction diode that operates.', answer: 'A Zener diode is a', options: ['A Zener diode is a', 'A p-n junction diode is', 'A half-wave rectifier is a', 'Energy bands in solids are'] },
@@ -90,7 +90,7 @@ export const w_c12_physicszenerdiodesim: SimDef = {
             { id: 's6', label: 'A p-n junction is formed', prompt: 'Which idea is this? — A p-n junction is formed when a p-type semiconductor and an n-type semiconductor are.', answer: 'A p-n junction is formed', options: ['A p-n junction is formed', 'A p-n junction diode is', 'A half-wave rectifier is a', 'A Zener diode is a'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsZenerDiodeSim, prompt: 'Explore the interactive — Zener Diode' },
+    explore: { component: C12_PhysicsZenerDiodeSim, prompt: 'Explore the interactive — p-n Junction Diode: Forward and Reverse Bias' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_14_004', difficulty: 'standard',
           question: 'A p-n junction diode is a two-terminal semiconductor device formed by joining.',

@@ -6,13 +6,13 @@ import C12_SociologyIntroducingIndianSocietySim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_sociologyintroducingindiansocietysim: SimDef = {
     id: 'v3w_c12_sociologyintroducingindiansocietysim',
-    title: 'Introducing Indian Society',
+    title: 'The Significance of a Sociology of India: Why Study Indian Society',
     subtitle: 'This node covers the epistemological rationale for studying Indian society.',
     classLevel: 12, subject: 'sociology', topic: 'The Significance of a Sociology of India: Why Study Indian Society',
     chapters: [],
     nodeIds: ['c12_soc_cbse_01_001', 'c12_soc_cbse_01_002', 'c12_soc_cbse_01_004', 'c12_soc_cbse_01_006', 'c12_soc_cbse_01_008', 'c12_soc_cbse_01_009', 'c12_soc_cbse_06_003', 'c12_soc_cbse_13_003', 'c12_soc_cbse_13_009', 'c12_soc_cbse_14_001', 'c12_soc_cbse_14_003', 'c12_soc_cbse_14_004', 'c12_soc_cbse_14_005', 'c12_soc_cbse_14_010', 'c12_soc_cbse_02_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are asked: "Why do we need a whole subject to study Indian society when we live in it every day?".', goal: 'Master Introducing Indian Society.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are asked: "Why do we need a whole subject to study Indian society when we live in it every day?".', goal: 'Master The Significance of a Sociology of India: Why Study Indian Society.' },
     discovery: {
         question: 'What was the primary purpose of the British decennial census (starting 1881) in India, and how did it unintentionally become a sociological tool?',
         options: ['The census was primarily an administrative tool for governance', 'the census was done to help sociologists', 'applied Western theories to India'],
@@ -76,7 +76,7 @@ export const w_c12_sociologyintroducingindiansocietysim: SimDef = {
             { text: 'Note the epistemological shift — The revised study tests whether *indigenous* categories explain variance better than.', faded: true, blankAnswer: 'Universalist stance; particularist revision replaces.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_soc_cbse_01_002', title: 'Identify each idea',
-          dissect: { specimen: 'Introducing Indian Society', spots: [
+          dissect: { specimen: 'The Significance of a Sociology of India: Why Study Indian Society', spots: [
             { id: 's1', label: 'The significance of a sociology', prompt: 'Which idea is this? — The significance of a sociology of India lies in its systematic, scientific study of.', answer: 'The significance of a sociology', options: ['The significance of a sociology', 'Colonialism in India refers to', 'Sociologys engagement with Indian society', 'The problem of the village'] },
             { id: 's2', label: 'Colonialism in India refers to', prompt: 'Which idea is this? — Colonialism in India refers to the British imperial rule (1757–1947) that restructured.', answer: 'Colonialism in India refers to', options: ['Colonialism in India refers to', 'The significance of a sociology', 'Sociologys engagement with Indian society', 'The problem of the village'] },
             { id: 's3', label: 'Sociologys engagement with Indian society', prompt: 'Which idea is this? — Sociology\'s engagement with Indian society refers to the historical and intellectual.', answer: 'Sociologys engagement with Indian society', options: ['Sociologys engagement with Indian society', 'The significance of a sociology', 'Colonialism in India refers to', 'The problem of the village'] },
@@ -85,7 +85,7 @@ export const w_c12_sociologyintroducingindiansocietysim: SimDef = {
             { id: 's6', label: 'The debate between universalism and', prompt: 'Which idea is this? — The debate between universalism and particularism in studying Indian society concerns.', answer: 'The debate between universalism and', options: ['The debate between universalism and', 'The significance of a sociology', 'Colonialism in India refers to', 'Sociologys engagement with Indian society'] }
           ] } }
     ],
-    explore: { component: C12_SociologyIntroducingIndianSocietySim, prompt: 'Explore the interactive — Introducing Indian Society' },
+    explore: { component: C12_SociologyIntroducingIndianSocietySim, prompt: 'Explore the interactive — The Significance of a Sociology of India: Why Study Indian Society' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_soc_cbse_01_001', difficulty: 'standard',
           question: 'The significance of a sociology of India lies in its systematic, scientific.',

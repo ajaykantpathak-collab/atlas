@@ -19,7 +19,7 @@ export const c12_eng_k_ch03_p3: SimDef = {
         hook: 'The wedding is no celebration — for a community of shtetl survivors it\'s \'a feast of poisons,\' a ritual of memory. And the landsmanshaft matters: when your town was erased, the people from it become your only family. Surrealism is the only form big enough for what they carry.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves moving beyond literal comprehension to examine how narrative techniques, symbolism, and historical context shape meaning; it requires evaluating the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'A Wedding in Brownsville\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_03_013', title: 'Your mission',
@@ -29,20 +29,20 @@ export const c12_eng_k_ch03_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_03_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a psychologist listening to a Holocaust survivor describe a vivid experience at a wedding where his long-dead beloved suddenly appears, young.',
+          caseStudy: { intro: 'Analyse \'A Wedding in Brownsville\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the definition of surrealism as a literary movement, and which element in "A Wedding in Brownsville" most clearly exemplifies it?', options: [
                 { text: 'Surrealism seeks to express the unconscious mind through illogical, dream-like', outcome: 'Surrealism seeks to express the unconscious mind through illogical, dream-like juxtapositions that.' },
                 { text: 'the wedding food descriptions', outcome: 'Not quite — Students often treat the story as a binary puzzle: "Is Raizel real or a hallucination?" They miss.', reveals: 'students-often-treat-the-story' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_03_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re sitting in the CBSE exam hall facing a 6-mark question: "How does Singer use surrealism to portray Dr Margolin\'s Holocaust trauma?" Most.',
+          caseStudy: { intro: 'For written answers on \'A Wedding in Brownsville\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'Define the PEEL structure for literary analysis answers and state what each letter stands for in the context of answering a question on "A.', options: [
                 { text: 'PEEL stands for: P', outcome: 'PEEL stands for: P — Point (topic sentence answering the question directly, e.g., "Singer uses.' },
                 { text: 'PEEL means Point, Example, Explain, Link', outcome: 'Not quite — Students believe "Writing Skills based on the chapter" means summarising the story or writing.', reveals: 'writing-skills-based-on-the' },
                 { text: 'Writing Skills based on the chapter', outcome: 'Not quite — Students believe "Writing Skills based on the chapter" means summarising the story or writing.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_03_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a book club meeting about this story. You have read it, but now you need to voice your thoughts and hear others.',
+          caseStudy: { intro: 'Talk through \'A Wedding in Brownsville\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the two discussion topics explicitly given in the NCERT "Talking about the Text" section for this story?', options: [
                 { text: 'The two topics are: (1) Fiction often deals with human consciousness, rather than with', outcome: 'The two topics are: (1) Fiction often deals with human consciousness, rather than with the reality.' },
                 { text: 'identity', outcome: 'Not quite — Students treat "discussion" as a round-robin of personal opinions ("I think the story is sad").', reveals: 'students-treat-discussion-as-a' },
@@ -67,7 +67,7 @@ export const c12_eng_k_ch03_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_03_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves moving beyond literal.',
+          question: 'Critical thinking on \'A Wedding in Brownsville\' — analysing the text to reach.',
           hint: 'If unable to move beyond plot summary, revisit the distinction between *literal.',
           misconception: 'Students often treat the story as a binary puzzle: "Is Raizel real or a hallucination?" They miss that Singer.',
           parts: [
@@ -93,7 +93,7 @@ export const c12_eng_k_ch03_p3: SimDef = {
           ],
             remediations: { 'students-often-treat-the-story': { steps: ['Re-read the "Stop and Think" questions in the NCERT text (pages 25, 28, 31, 34) — they scaffold the ambiguity.', 'Create a two-column chart: Column A = "Evidence Margolin is alive at the wedding"; Column B = "Evidence Margolin.', 'Discuss with a peer: "Why does Singer give equal weight to both columns?" 4.', 'Re-attempt Diagnostic Question 5.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_03_014', difficulty: 'standard',
-          question: 'Writing Skills based on "A Wedding in Brownsville" refers to the ability.',
+          question: 'Writing skills from \'A Wedding in Brownsville\' — using the text as a model.',
           hint: 'If stuck on evidence selection: return to c12_eng_k_cbse_03_012 (Comprehension) and re-do.',
           misconception: 'Students believe "Writing Skills based on the chapter" means summarising the story or writing character sketches.',
           parts: [
@@ -108,7 +108,7 @@ export const c12_eng_k_ch03_p3: SimDef = {
           ],
             remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits narrative summary instead of analysis: (1) Highlight every sentence that recounts plot events.', '(2) Ask: "What is your ARGUMENT about this event?" — force a Point sentence.', '(3) Have them replace each yellow sentence with: "This moment demonstrates [theme/device] because [analysis]." (4).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_03_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to structured group.',
+          question: 'Discussion points on \'A Wedding in Brownsville\' — speaking and listening around.',
           hint: 'If stuck, review the "Talking about the Text" section in the NCERT and the Critical.',
           misconception: 'Students treat "discussion" as a round-robin of personal opinions ("I think the story is sad") without anchoring.',
           parts: [

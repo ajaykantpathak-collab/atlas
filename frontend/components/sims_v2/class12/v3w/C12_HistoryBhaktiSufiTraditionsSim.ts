@@ -6,13 +6,13 @@ import C12_HistoryBhaktiSufiTraditionsSim from '../../../simulations/c6_12/C12_H
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_historybhaktisufitraditionssim: SimDef = {
     id: 'v3w_c12_historybhaktisufitraditionssim',
-    title: 'Bhakti Sufi Traditions',
+    title: 'The Nayanars and Alvars: Tamil Devotional Movements and Bhakti Origins',
     subtitle: 'Covers the origins, literary output (Tevaram, Nalayira Divyaprabandham), social.',
     classLevel: 12, subject: 'history', topic: 'The Nayanars and Alvars: Tamil Devotional Movements and Bhakti Origins',
     chapters: [],
     nodeIds: ['c12_hist_cbse_06_002', 'c12_hist_cbse_06_004', 'c12_hist_cbse_06_006', 'c12_hist_cbse_06_001', 'c12_hist_cbse_06_005', 'c12_hist_cbse_06_007', 'c12_hist_cbse_06_008', 'c12_hist_cbse_06_012', 'c12_hist_cbse_06_010', 'c12_hist_cbse_06_011', 'c12_hist_cbse_06_003', 'c12_hist_cbse_03_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you visit the Brihadisvara Temple at Thanjavur and see bronze images of three saints — Appar,.', goal: 'Master Bhakti Sufi Traditions.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you visit the Brihadisvara Temple at Thanjavur and see bronze images of three saints — Appar,.', goal: 'Master The Nayanars and Alvars: Tamil Devotional Movements and Bhakti Origins.' },
     discovery: {
         question: 'Who compiled the *Nalayira Divyaprabandham* and approximately when?',
         options: ['The *Nalayira Divyaprabandham* was compiled by Nathamuni in the 10th century CE', 'compiled by Ramanuja in the 12th century', 'written by the Alvars themselves as a single book'],
@@ -78,7 +78,7 @@ export const w_c12_historybhaktisufitraditionssim: SimDef = {
             { text: 'Conclude — ulatbansi is not decorative but *necessary* for nirguna expression: any positive statement ("God is light").', faded: true, blankAnswer: 'Kabir\'s nirguna theology holds that the Divine is nirakar.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_hist_cbse_06_004', title: 'Identify each idea',
-          dissect: { specimen: 'Bhakti Sufi Traditions', spots: [
+          dissect: { specimen: 'The Nayanars and Alvars: Tamil Devotional Movements and Bhakti Origins', spots: [
             { id: 's1', label: 'The Nayanars 63 poet-saints devoted', prompt: 'Which idea is this? — The Nayanars (63 poet-saints devoted to Shiva) and Alvars (12 poet-saints devoted to.', answer: 'The Nayanars 63 poet-saints devoted', options: ['The Nayanars 63 poet-saints devoted', 'The Alvar saints c 6th9th', 'Saguna and Nirguna Bhakti represent', 'Religious ferment in North India'] },
             { id: 's2', label: 'The Alvar saints c 6th9th', prompt: 'Which idea is this? — The Alvar saints (c. 6th–9th century CE) were Tamil poet-saints immersed in devotion to.', answer: 'The Alvar saints c 6th9th', options: ['The Alvar saints c 6th9th', 'The Nayanars 63 poet-saints devoted', 'Saguna and Nirguna Bhakti represent', 'Religious ferment in North India'] },
             { id: 's3', label: 'Saguna and Nirguna Bhakti represent', prompt: 'Which idea is this? — Saguna and Nirguna Bhakti represent two major theological streams within the medieval.', answer: 'Saguna and Nirguna Bhakti represent', options: ['Saguna and Nirguna Bhakti represent', 'The Nayanars 63 poet-saints devoted', 'The Alvar saints c 6th9th', 'Religious ferment in North India'] },
@@ -87,7 +87,7 @@ export const w_c12_historybhaktisufitraditionssim: SimDef = {
             { id: 's6', label: 'Kabir c 14th15th century CE', prompt: 'Which idea is this? — Kabir (c. 14th–15th century CE) was a nirguna bhakti poet-saint from the Awadh region.', answer: 'Kabir c 14th15th century CE', options: ['Kabir c 14th15th century CE', 'The Nayanars 63 poet-saints devoted', 'The Alvar saints c 6th9th', 'Saguna and Nirguna Bhakti represent'] }
           ] } }
     ],
-    explore: { component: C12_HistoryBhaktiSufiTraditionsSim, prompt: 'Explore the interactive — Bhakti Sufi Traditions' },
+    explore: { component: C12_HistoryBhaktiSufiTraditionsSim, prompt: 'Explore the interactive — The Nayanars and Alvars: Tamil Devotional Movements and Bhakti Origins' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hist_cbse_06_002', difficulty: 'standard',
           question: 'The Nayanars (63 poet-saints devoted to Shiva) and Alvars (12 poet-saints.',

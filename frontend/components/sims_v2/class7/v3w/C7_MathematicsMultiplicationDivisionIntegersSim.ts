@@ -6,13 +6,13 @@ import C7_MathematicsMultiplicationDivisionIntegersSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsmultiplicationdivisionintegerssim: SimDef = {
     id: 'v3w_c7_mathematicsmultiplicationdivisionintegerssim',
-    title: 'Multiplication Division Integers',
+    title: 'Recap of Integers: Positive, Negative and Zero',
     subtitle: 'Covers the conceptual identification and ordering of positive integers, negative.',
     classLevel: 7, subject: 'mathematics', topic: 'Recap of Integers: Positive, Negative and Zero',
     chapters: [],
     nodeIds: ['c7_math_ch10_001', 'c7_math_ch10_002', 'c7_math_ch10_006', 'c7_math_ch10_009', 'c7_math_ch10_010', 'c7_math_ch02_002', 'c7_math_ch02_008', 'c7_math_ch02_010', 'c7_math_ch04_006', 'c7_math_ch04_007', 'c7_math_ch01_011', 'c7_math_ch15_004', 'c7_math_ch10_008', 'c7_math_ch10_004', 'c7_math_ch10_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine you are standing at ground level in a multi-story parking building in Delhi.', goal: 'Master Multiplication Division Integers.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine you are standing at ground level in a multi-story parking building in Delhi.', goal: 'Master Recap of Integers: Positive, Negative and Zero.' },
     discovery: {
         question: 'At 6:00 PM, the temperature in Shimla was 2 °C. By midnight, the temperature dropped by 5 °C. Which integer represents the temperature at midnight?',
         options: ['The correct answer is -3 °C', 'below sea level', 'temperature drop'],
@@ -78,7 +78,7 @@ export const w_c7_mathematicsmultiplicationdivisionintegerssim: SimDef = {
             { text: 'Verify the steps and append the correct unit (rupees): Total amount paid is ₹295.', faded: true, blankAnswer: '₹295' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch10_002', title: 'Identify each idea',
-          dissect: { specimen: 'Multiplication Division Integers', spots: [
+          dissect: { specimen: 'Recap of Integers: Positive, Negative and Zero', spots: [
             { id: 's1', label: 'Integers are a set of', prompt: 'Which idea is this? — Integers are a set of numbers that include all whole numbers and their negative.', answer: 'Integers are a set of', options: ['Integers are a set of', 'The addition of integers using', 'The product of a positive', 'Word problems with integers involve'] },
             { id: 's2', label: 'The addition of integers using', prompt: 'Which idea is this? — The addition of integers using a number line is a visual method where positive integers.', answer: 'The addition of integers using', options: ['The addition of integers using', 'Integers are a set of', 'The product of a positive', 'Word problems with integers involve'] },
             { id: 's3', label: 'The product of a positive', prompt: 'Which idea is this? — The product of a positive integer and a negative integer is always a negative integer,.', answer: 'The product of a positive', options: ['The product of a positive', 'Integers are a set of', 'The addition of integers using', 'Word problems with integers involve'] },
@@ -87,7 +87,7 @@ export const w_c7_mathematicsmultiplicationdivisionintegerssim: SimDef = {
             { id: 's6', label: 'Evaluating an arithmetic expression requires', prompt: 'Which idea is this? — Evaluating an arithmetic expression requires computing its final numerical value by.', answer: 'Evaluating an arithmetic expression requires', options: ['Evaluating an arithmetic expression requires', 'Integers are a set of', 'The addition of integers using', 'The product of a positive'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsMultiplicationDivisionIntegersSim, prompt: 'Explore the interactive — Multiplication Division Integers' },
+    explore: { component: C7_MathematicsMultiplicationDivisionIntegersSim, prompt: 'Explore the interactive — Recap of Integers: Positive, Negative and Zero' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch10_001', difficulty: 'standard',
           question: 'Integers are a set of numbers that include all whole numbers and their negative.',

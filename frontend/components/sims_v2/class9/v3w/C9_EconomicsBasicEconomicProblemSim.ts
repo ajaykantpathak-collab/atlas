@@ -6,13 +6,13 @@ import C9_EconomicsBasicEconomicProblemSim from '../../../simulations/c6_12/C9_E
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_economicsbasiceconomicproblemsim: SimDef = {
     id: 'v3w_c9_economicsbasiceconomicproblemsim',
-    title: 'Basic Economic Problem',
+    title: 'Public Goods: Characteristics and Government Provision',
     subtitle: 'Covers the definition and two core characteristics of public goods (non-excludability,.',
     classLevel: 9, subject: 'economics', topic: 'Public Goods: Characteristics and Government Provision',
     chapters: [],
     nodeIds: ['c9_eco_ch1_10', 'c9_eco_ch1_1', 'c9_eco_ch1_2', 'c9_eco_ch1_4', 'c9_eco_ch1_5', 'c9_eco_ch1_6'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are walking home at 8 PM in your neighbourhood in Bengaluru.', goal: 'Master Basic Economic Problem.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are walking home at 8 PM in your neighbourhood in Bengaluru.', goal: 'Master Public Goods: Characteristics and Government Provision.' },
     discovery: {
         question: 'A farmer in Punjab has 10 hectares of land. He can grow either wheat (yield 5 tonnes/hectare, price ₹2200/tonne) or rice (yield 4 tonnes/hectare, price.',
         options: ['Step 1: Wheat revenue = 10 hectares × 5 tonnes/hectare × ₹2200/tonne = ₹1,10,000', 'shortage', 'poverty'],
@@ -80,7 +80,7 @@ export const w_c9_economicsbasiceconomicproblemsim: SimDef = {
             { text: 'Compare with supply 2,000 kg: Supply > Demand by 80 kg → excess supply (surplus).', faded: true, blankAnswer: '(a) A: 640 kg, B: 480 kg, C: 800 kg. (b) 1,920 kg. (c).' }
             ] } },
         { type: 'dissect', nodeId: 'c9_eco_ch1_1', title: 'Identify each idea',
-          dissect: { specimen: 'Basic Economic Problem', spots: [
+          dissect: { specimen: 'Public Goods: Characteristics and Government Provision', spots: [
             { id: 's1', label: 'Public goods are goods characterized', prompt: 'Which idea is this? — Public goods are goods characterized by **non-excludability** (impossible or extremely.', answer: 'Public goods are goods characterized', options: ['Public goods are goods characterized', 'Scarcity is the fundamental economic', 'Unlimited wants refer to the', 'The What to Produce problem'] },
             { id: 's2', label: 'Scarcity is the fundamental economic', prompt: 'Which idea is this? — Scarcity is the fundamental economic problem arising because human wants are unlimited.', answer: 'Scarcity is the fundamental economic', options: ['Scarcity is the fundamental economic', 'Public goods are goods characterized', 'Unlimited wants refer to the', 'The What to Produce problem'] },
             { id: 's3', label: 'Unlimited wants refer to the', prompt: 'Which idea is this? — Unlimited wants refer to the endless desire of individuals and societies for goods and.', answer: 'Unlimited wants refer to the', options: ['Unlimited wants refer to the', 'Public goods are goods characterized', 'Scarcity is the fundamental economic', 'The What to Produce problem'] },
@@ -89,7 +89,7 @@ export const w_c9_economicsbasiceconomicproblemsim: SimDef = {
             { id: 's6', label: 'The For Whom to Produce', prompt: 'Which idea is this? — The "For Whom to Produce" problem refers to the allocation of final goods and services.', answer: 'The For Whom to Produce', options: ['The For Whom to Produce', 'Public goods are goods characterized', 'Scarcity is the fundamental economic', 'Unlimited wants refer to the'] }
           ] } }
     ],
-    explore: { component: C9_EconomicsBasicEconomicProblemSim, prompt: 'Explore the interactive — Basic Economic Problem' },
+    explore: { component: C9_EconomicsBasicEconomicProblemSim, prompt: 'Explore the interactive — Public Goods: Characteristics and Government Provision' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_eco_ch1_10', difficulty: 'standard',
           question: 'Public goods are goods characterized by **non-excludability** (impossible or.',

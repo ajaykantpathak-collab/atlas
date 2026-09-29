@@ -19,7 +19,7 @@ export const c12_hin_a_ch12_p1: SimDef = {
         hook: '\'Simple\' isn\'t \'artless\' — colloquial, descriptive, expressive prose immerses you in village life so hardship and tenderness land as lived, not reported. A socialist lens sees both the poverty AND the feeling; the story outlives its decade because the rural-urban divide still argues today.',
     },
     teaching: [
-        { title: 'संवदयिा — पृष्ठभूमि और रचनाकार परिचय', text: 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक स्थिति, रचनात्मक यात्रा, और उसके युग के ऐतिहासिक संदर्भ को समझा जाता है ताकि पाठ के गहरे अर्थ और लेखन के.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'संवदयिा — पृष्ठभूमि और रचनाकार परिचय', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_12_001', title: 'Your mission',
@@ -28,6 +28,8 @@ export const c12_hin_a_ch12_p1: SimDef = {
         context: 'Enter the village through its own speech: weigh a freedom fighter\'s lens on rural suffering, test why colloquiality is craft, and ask what a 1950s story still teaches a 2025 reader.',
         labels: ['संवदयिा — पृष्ठभूमि और', 'संवदयिा — कथानक और', 'संवदयिा — पाठ्य-परिवेश और', 'संवदयिा — पात्र-चित्रण: नायक/प्रमुख', 'संवदयिा — पात्र-चित्रण: सहायक', 'संवदयिा — मुख्य विषय'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'build', nodeId: 'c12_hin_a_cbse_12_001', title: 'Put the steps in order',
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Extract the stated central concern from the note: \'izsepanz.', 'Synthesize: The author\'s activist past makes him view the.', 'Extract relevant background facts from the note: (a) Quit.', 'Draft the answer using PEEL: Point (background shapes.', 'Identify the question\'s demand – it asks for a link between.'], answer: 'Identify the question\'s demand – it asks for a link between. Extract relevant background facts from the note: (a) Quit. Extract the stated central concern from the note: \'izsepanz. Synthesize: The author\'s activist past makes him view the. Draft the answer using PEEL: Point (background shapes.' } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_12_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Your family wants to shift the ageing grandmother — who has nursed half the village\'s children — into your city flat \'for her own good.\' She refuses flatly, and everyone calls it stubbornness.',
             decisions: [{ prompt: 'How does the climax of \'रेणु\' read her refusal?', options: [
@@ -47,67 +49,67 @@ export const c12_hin_a_ch12_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_001', difficulty: 'standard',
-          question: 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल.',
-          hint: 'यदि फंसे हुए महसूस हो रहे हैं, तो Class 11 में पढ़े गए किसी भी पाठ के लेखक परिचय (जैसे.',
-          misconception: 'छात्र अक्सर लेखक के परिचय को केवल एक तथ्यात्मक पूर्वावलोकन मानते हैं जिसे याद लेकर भूल दिया जाता है, और वे यह नहीं समझ.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, review the \'Before You Read\' section of any Class 11 Antra chapter (e.g.',
+          misconception: 'Students often treat the \'Before You Read\' section as optional background reading, skipping it to jump to the story.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक',
-                  options: ['संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई', 'नायक/प्रमुख पात्र का चरित्र-चित्रण वह प्रक्रिया है जिसमें लेखक पात्र के शारीरिक लक्षणों,'],
-                  hint: 'यदि फंसे हुए महसूस हो रहे हैं, तो Class 11 में पढ़े गए किसी भी पाठ के लेखक परिचय (जैसे.',
-                  misconception: 'छात्र अक्सर लेखक के परिचय को केवल एक तथ्यात्मक पूर्वावलोकन मानते हैं जिसे याद लेकर भूल दिया जाता है, और वे यह नहीं समझ पाते कि लेखक के जीवन.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के',
+                  options: ['रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', '\'अंतरा भाग-2 — पाठ 12\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
+                  hint: 'If stuck, review the \'Before You Read\' section of any Class 11 Antra chapter (e.g.',
+                  misconception: 'Students often treat the \'Before You Read\' section as optional background reading, skipping it to jump to the story.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि कैसे कोई specific घटना (जैसे लेखक के जीवन में किसी विशेष त्योहार का अनुभव या किसी सामाजिक आंदोलन में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-before': { steps: ['If a student cannot answer the diagnostic questions, do not re-read the story.', 'Instead: (1) Re-read the \'Before You Read\' box in the textbook slowly, underlining three facts about the author and.', '(2) Write a 3-sentence summary connecting the author\'s life to the story\'s likely themes (e.g., "Because he was a trade.', '(3) Attempt Diagnostic Question 2 again.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_002', difficulty: 'standard',
-          question: 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय.',
+          question: '\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ।.',
           hint: 'यदि छात्र घटनाओं के क्रम को कथानक मान रहा हो, तो उसे c11_hin_a_cbse_02_002 पर फिर से जाना.',
           misconception: 'छात्र अक्सर मानते हैं कि कथानक बस कहानी में हुई घटनाओं का क्रम है, और इसलिए वे परीक्षा में केवल घटनाओं को लिस्ट करके.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,',
-                  options: ['कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई', 'नायक/प्रमुख पात्र का चरित्र-चित्रण वह प्रक्रिया है जिसमें लेखक पात्र के शारीरिक लक्षणों,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ। पाठ का',
+                  options: ['\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ। पाठ का', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', '\'अंतरा भाग-2 — पाठ 12\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
                   hint: 'यदि छात्र घटनाओं के क्रम को कथानक मान रहा हो, तो उसे c11_hin_a_cbse_02_002 पर फिर से जाना चाहिए.',
                   misconception: 'छात्र अक्सर मानते हैं कि कथानक बस कहानी में हुई घटनाओं का क्रम है, और इसलिए वे परीक्षा में केवल घटनाओं को लिस्ट करके जवाब देते हैं, जैसे.' }
           ],
             remediations: { 'wrong-idea': { steps: ['इस भूल को दूर करने के लिए, छात्र को एक familiar कहानी (जैसे शेर और चूहा) लेनी चाहिए और पूछना चाहिए: "यदि हम घटनाओं को.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_003', difficulty: 'standard',
-          question: 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है.',
+          question: '\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और.',
           hint: 'यदि फँसें, तो Class 11 के नोड c11_hin_a_cbse_03_003 में पाठ्य-परिवेश की परिभाषा और सरल.',
           misconception: 'छात्र अक्सर मानते हैं कि पाठ्य-परिवेश केवल कहानी के \'पृष्ठभूमि विवरण\' (जैसे साल या शहर का नाम) है, जो plot या.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई',
-                  options: ['पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'नायक/प्रमुख पात्र का चरित्र-चित्रण वह प्रक्रिया है जिसमें लेखक पात्र के शारीरिक लक्षणों,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित',
+                  options: ['\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 12\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
                   hint: 'यदि फँसें, तो Class 11 के नोड c11_hin_a_cbse_03_003 में पाठ्य-परिवेश की परिभाषा और सरल पहचान के.',
                   misconception: 'छात्र अक्सर मानते हैं कि पाठ्य-परिवेश केवल कहानी के \'पृष्ठभूमि विवरण\' (जैसे साल या शहर का नाम) है, जो plot या characters से स्वतंत्र रूप से.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र से पूछिए: "यदि यही कहानी एक शहरी अपार्टमेंट में रात 2 बजे होती, तो क्या मुख्य पात्र अभी भी वैसा ही महसूस करता?".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_004', difficulty: 'standard',
-          question: 'नायक/प्रमुख पात्र का चरित्र-चित्रण वह प्रक्रिया है जिसमें लेखक पात्र के शारीरिक.',
-          hint: 'यदि छात्र केवल बाहरी विवरणों पर फंसा हुआ है, तो उसे c11_hin_a_cbse_04_004 (कक्षा 11 में.',
-          misconception: 'छात्र अक्सर नायक के चरित्र को केवल उसके बाहरी लक्षणों — जैसे कि उसका वेशभूषा, चेहरे का रंग, या शारीरिक ताकत — के आधार.',
+          question: '\'अंतरा भाग-2 — पाठ 12\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और.',
+          hint: 'If stuck, review the difference between flat and round characters using Class 11 notes.',
+          misconception: 'Students often confuse gjxksfcu\'s role as a laofn;k with that of a mere \'gossip-monger\' or \'entertainer\'.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'नायक/प्रमुख पात्र का चरित्र-चित्रण वह प्रक्रिया है जिसमें लेखक पात्र के शारीरिक लक्षणों,',
-                  options: ['नायक/प्रमुख पात्र का चरित्र-चित्रण वह प्रक्रिया है जिसमें लेखक पात्र के शारीरिक लक्षणों,', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
-                  hint: 'यदि छात्र केवल बाहरी विवरणों पर फंसा हुआ है, तो उसे c11_hin_a_cbse_04_004 (कक्षा 11 में नायक के.',
-                  misconception: 'छात्र अक्सर नायक के चरित्र को केवल उसके बाहरी लक्षणों — जैसे कि उसका वेशभूषा, चेहरे का रंग, या शारीरिक ताकत — के आधार पर आंकते हैं, जबकि.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 12\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+                  options: ['\'अंतरा भाग-2 — पाठ 12\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'If stuck, review the difference between flat and round characters using Class 11 notes.',
+                  misconception: 'Students often confuse gjxksfcu\'s role as a laofn;k with that of a mere \'gossip-monger\' or \'entertainer\'.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['इस गलती को सुधारने के लिए, छात्र को पाठ में कम से कम तीन ऐसे क्षणों की पहचान करनी होगी जहां नायक के आंतरिक गुण उसके.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-gjxksfcu-s': { steps: ['Re-read the scenes where gjxksfcu interacts with cM+h cgqfj;k (pages 78-83) and mark every instance he shows hesitation.', 'List three verbs the author uses for his speech (e.g., \'cksyk\', \'dgk\', \'lquk\') and analyze the tone.', 'Write one paragraph explaining why he chooses to stay with cM+h cgqfj;k despite her rejection.', 'Re-attempt Diagnostic Question 4 with this evidence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_005', difficulty: 'standard',
-          question: 'सहायक पात्र वे कल्पित व्यक्ति होते हैं जो मुख्य पात्र के साथ बातचीत करके कथानक.',
+          question: '\'अंतरा भाग-2 — पाठ 12\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को.',
           hint: 'यदि छात्र सहायक पात्र के चरित्र के गहरे विश्लेषण में फंस जाए, तो उसे पिछले नोड.',
           misconception: 'छात्र अक्सर सहायक पात्र को केवल \'मुख्य पात्र की मदद करने वाले\' या \'बस वहाँ मौजूद वाले\' के रूप में देखते हैं, जबकि उनकी.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र वे कल्पित व्यक्ति होते हैं जो मुख्य पात्र के साथ बातचीत करके कथानक को आगे',
-                  options: ['सहायक पात्र वे कल्पित व्यक्ति होते हैं जो मुख्य पात्र के साथ बातचीत करके कथानक को आगे', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 12\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते',
+                  options: ['\'अंतरा भाग-2 — पाठ 12\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि छात्र सहायक पात्र के चरित्र के गहरे विश्लेषण में फंस जाए, तो उसे पिछले नोड.',
                   misconception: 'छात्र अक्सर सहायक पात्र को केवल \'मुख्य पात्र की मदद करने वाले\' या \'बस वहाँ मौजूद वाले\' के रूप में देखते हैं, जबकि उनकी भूमिका बहुत अधिक.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र से पूछिए कि वह एक ऐसा दृश्य याद करे जहाँ मुख्य पात्र बहुत संघर्ष में दिख रहा हो—फिर उससे पूछिए: "उस दृश्य में कौन.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_006', difficulty: 'standard',
-          question: 'मुख्य विषय वह केंद्रीय विचार है जो पूरी कहानी को जोड़ता है, जबकि संदेश वह.',
+          question: '\'अंतरा भाग-2 — पाठ 12\' का मुख्य विषय — \'अंतरा भाग-2 — पाठ 12\' का केंद्रीय भाव.',
           hint: 'पात्र-चित्रण और कथानक-संरचना की समीक्षा करें — विशेष रूप से c12_hin_a_cbse_12_004 और.',
           misconception: 'छात्र अक्सर मुख्य विषय को कहानी के सारांश या निष्कर्ष के साथ भ्रमित कर लेते हैं, जैसे कि "राजा ने राज्य जीता" को मुख्य.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य विषय वह केंद्रीय विचार है जो पूरी कहानी को जोड़ता है, जबकि संदेश वह उपयोगी सीख है',
-                  options: ['मुख्य विषय वह केंद्रीय विचार है जो पूरी कहानी को जोड़ता है, जबकि संदेश वह उपयोगी सीख है', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 12\' का मुख्य विषय — \'अंतरा भाग-2 — पाठ 12\' का केंद्रीय भाव और संदेश',
+                  options: ['\'अंतरा भाग-2 — पाठ 12\' का मुख्य विषय — \'अंतरा भाग-2 — पाठ 12\' का केंद्रीय भाव और संदेश', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'पात्र-चित्रण और कथानक-संरचना की समीक्षा करें — विशेष रूप से c12_hin_a_cbse_12_004 और.',
                   misconception: 'छात्र अक्सर मुख्य विषय को कहानी के सारांश या निष्कर्ष के साथ भ्रमित कर लेते हैं, जैसे कि "राजा ने राज्य जीता" को मुख्य विषय मान लेते हैं.' }
           ],

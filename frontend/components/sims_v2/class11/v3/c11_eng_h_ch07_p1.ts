@@ -19,7 +19,7 @@ export const c11_eng_h_ch07_p1: SimDef = {
         hook: 'Not time travel but a sidestep — many-worlds says another \'now\' exists where Panipat went the other way.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a preparatory section that provides essential historical, scientific, and biographical information needed to comprehend the alternate history narrative.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Laburnum Top\' (Hornbill, ch. 7) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_07_001', title: 'Your mission',
@@ -29,33 +29,33 @@ export const c11_eng_h_ch07_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_07_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a movie where a historian wakes up in a world where the Marathas won the Battle of Panipat and the British never ruled India.',
+          caseStudy: { intro: 'Start with the author of \'The Laburnum Top\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who is the author of "The Adventure" and what is his primary professional identity that informs the scientific basis of this story?', options: [
                 { text: 'The author is Jayant Narlikar, a renowned Indian astrophysicist and cosmologist', outcome: 'The author is Jayant Narlikar, a renowned Indian astrophysicist and cosmologist.' },
                 { text: 'The Adventure', outcome: 'Not quite — Students often think "The Adventure" is a time-travel story where Professor Gaitonde physically.', reveals: 'the-adventure-is-a-time' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_07_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re trying to explain "The Adventure" to a friend who hasn\'t read it—you\'d naturally start with "Professor Gaitonde gets hit by a truck and wakes.',
+          caseStudy: { intro: 'Trace \'The Laburnum Top\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'Define "frame narrative" and identify the outer and inner frames in "The Adventure."', options: [
                 { text: 'A frame narrative is a story within a story where an outer narrative "frames" an inner', outcome: 'A frame narrative is a story within a story where an outer narrative "frames" an inner narrative.' },
                 { text: 'main story', outcome: 'Not quite — Students consistently confuse **plot** (the chronological sequence of events in the story world).', reveals: 'students-consistently-confuse-plot-the' },
                 { text: 'flashback', outcome: 'Not quite — Students consistently confuse **plot** (the chronological sequence of events in the story world).', reveals: 'students-consistently-confuse-plot-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_07_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are reading a mystery novel where the protagonist suddenly finds himself in a familiar city but with subtle differences—like a Mumbai where the.',
+          caseStudy: { intro: 'Identify where and when \'The Laburnum Top\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What are the two primary physical settings in "The Adventure" where Professor Gaitonde experiences the alternative reality?', options: [
                 { text: 'The two primary physical settings are Pune (where Professor Gaitonde lives and has the', outcome: 'The two primary physical settings are Pune (where Professor Gaitonde lives and has the accident).' },
                 { text: 'Delhi and Pune', outcome: 'Not quite — Students often think "setting" is just a list of places and times, and "atmosphere" is just.', reveals: 'setting-is-just-a-list' },
                 { text: 'only Bombay', outcome: 'Not quite — Students often think "setting" is just a list of places and times, and "atmosphere" is just.', reveals: 'setting-is-just-a-list' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_07_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re a detective trying to understand why a brilliant historian would risk his reputation by claiming he visited a parallel universe where the.',
+          caseStudy: { intro: 'Pick the central figure in \'The Laburnum Top\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is Professor Gaitonde\'s profession and how does it shape his initial reaction to the alternate reality he experiences?', options: [
                 { text: 'Professor Gaitonde is a historian', outcome: 'Professor Gaitonde is a historian. His professional training makes him initially skeptical and.' },
                 { text: 'he is a scientist who immediately accepts the parallel world', outcome: 'Not quite — Students often treat Professor Gaitonde as a mere plot device for the alternate history concept.', reveals: 'students-often-treat-professor-gaitonde' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_07_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you wake up tomorrow and read in the newspaper that India lost the 1971 war — a history you *know* is false.',
+          caseStudy: { intro: 'Ask what \'The Laburnum Top\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of "The Adventure" as distinct from its plot? State it in one precise sentence.', options: [
                 { text: '**Correct Answer:** The primary theme is the **contingency of history and the existence', outcome: '**Correct Answer:** The primary theme is the **contingency of history and the existence.' },
                 { text: 'time travel', outcome: 'Not quite — **Students conflate "alternate history" (a sub-genre of fiction) with the story\'s *theme*.', reveals: 'students-conflate-alternate-history-a' },
@@ -80,7 +80,7 @@ export const c11_eng_h_ch07_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a preparatory section that.',
+          question: '\'The Laburnum Top\' (Hornbill, ch. 7) — the context and background to this text.',
           hint: 'Review the Class 10 History chapter on "The Rise of British Power in India" (or.',
           misconception: 'Students often think "The Adventure" is a time-travel story where Professor Gaitonde physically goes back to 1761 and.',
           parts: [
@@ -91,18 +91,18 @@ export const c11_eng_h_ch07_p1: SimDef = {
           ],
             remediations: { 'the-adventure-is-a-time': { steps: ['If the student confuses alternate history with time travel: (1) Draw a simple diagram: two vertical lines labeled.', '(2) Mark "Professor Gaitonde" on World A at "Present Day" with an arrow showing his consciousness jumping horizontally.', '(3) Ask: "Does he meet Shivaji or the Peshwas in 1761?" (No, he sees their *descendants* ruling a modern India.) (4).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_002', difficulty: 'standard',
-          question: 'Plot and narrative structure refers to the organized sequence of events and the.',
+          question: 'The plot/narrative arc of \'The Laburnum Top\' — what happens, in what order, and.',
           hint: 'If stuck, review "narrative levels" and "frame narrative" using the Class 10 parable.',
           misconception: 'Students consistently confuse **plot** (the chronological sequence of events in the story world) with **narrative.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot and narrative structure refers to the organized sequence of events and the framework',
-                  options: ['Plot and narrative structure refers to the organized sequence of events and the framework', '"Before You Read: Context and Background" is a preparatory section that provides', 'Setting refers to the time, place, and social environment in', 'Character analysis of the protagonist involves a systematic examination of the main'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The plot/narrative arc of \'The Laburnum Top\'',
+                  options: ['The plot/narrative arc of \'The Laburnum Top\'', '\'The Laburnum Top\' (Hornbill, ch', 'The setting of \'The Laburnum Top\'', 'Character analysis in \'The Laburnum Top\''],
                   hint: 'If stuck, review "narrative levels" and "frame narrative" using the Class 10 parable analysis.',
                   misconception: 'Students consistently confuse **plot** (the chronological sequence of events in the story world) with **narrative structure** (the order.' }
           ],
             remediations: { 'students-consistently-confuse-plot-the': { steps: ['If a student cannot separate plot from structure: (1) Have them draw two timelines side-by-side—one labeled "Story.', '(2) Ask them to number each event on both timelines; the mismatch (e.g., the hospital scene is last in story time but.', '(3) Give them a 3-sentence micro-story with a flashback and ask them to identify the two timelines—this isolates the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social environment in which a story.',
+          question: 'The setting of \'The Laburnum Top\' — the place, time and atmosphere the text.',
           hint: 'If stuck, re-read the "Before You Read" section (node 001) for the Panipat context, and.',
           misconception: 'Students often think "setting" is just a list of places and times, and "atmosphere" is just a synonym for "weather.".',
           parts: [
@@ -121,7 +121,7 @@ export const c11_eng_h_ch07_p1: SimDef = {
           ],
             remediations: { 'setting-is-just-a-list': { steps: ['If a student cannot distinguish setting from atmosphere, use a two-column table: left column "Setting Details" (quotes.', 'Have them fill it for three scenes: the accident site, the train, the library.', 'Then ask: "Which column tells you where/when?', 'Which tells you how it feels?" This concrete separation builds the distinction.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves a systematic examination of the.',
+          question: 'Character analysis in \'The Laburnum Top\' — the central figure(s), their traits.',
           hint: 'Review the PEEL paragraph structure from c10_engl_cbse_04_009 (Anne Frank analysis) and.',
           misconception: 'Students often treat Professor Gaitonde as a mere plot device for the alternate history concept, analyzing the.',
           parts: [
@@ -151,7 +151,7 @@ export const c11_eng_h_ch07_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-professor-gaitonde': { steps: ['If a student cannot distinguish Gaitonde\'s character from the plot events: Step 1 — Create a two-column table: left.', 'Step 2 — For each right-column action, ask "What trait does this show?" (intellectual courage, evidentiary rigor, need.', 'Step 3 — Have the student write one paragraph using only right-column actions as evidence.', 'Step 4 — Compare with a sample answer that analyzes the left-column events as character revelation.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_005', difficulty: 'standard',
-          question: 'Supporting character analysis examines how secondary figures in a narrative.',
+          question: 'Supporting characters in \'The Laburnum Top\' — the secondary figures who move.',
           hint: 'Review c11_eng_h_cbse_07_004 (Protagonist Analysis) to re-establish Gaitonde\'s character.',
           misconception: 'Students believe supporting character analysis means writing a biography of each character — listing their background.',
           parts: [
@@ -162,12 +162,12 @@ export const c11_eng_h_ch07_p1: SimDef = {
           ],
             remediations: { 'supporting-character-analysis-means-writing': { steps: ['If a student writes character biographies instead of functional analysis: (1) Have them re-read Khan Sahib\'s scene and.', '(3) Practice with the Anglo-Indian receptionist: her entire appearance is 3 lines — ask the student to extract 3.', 'This trains the eye to see function over personality.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea that the.',
+          question: 'The primary theme of \'The Laburnum Top\' — the central idea the whole text.',
           hint: 'If stuck, review **c11_eng_h_cbse_07_002 (Plot)** for the sequence of realities, and.',
           misconception: '**Students conflate "alternate history" (a sub-genre of fiction) with the story\'s *theme* of "quantum branching.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of a literary work is its central, unifying idea that the author',
-                  options: ['The primary theme of a literary work is its central, unifying idea that the author', '"Before You Read: Context and Background" is a preparatory section that provides', 'Plot and narrative structure refers to the organized sequence of events and the framework', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of \'The Laburnum Top\'',
+                  options: ['The primary theme of \'The Laburnum Top\'', '\'The Laburnum Top\' (Hornbill, ch', 'The plot/narrative arc of \'The Laburnum Top\'', 'The setting of \'The Laburnum Top\''],
                   hint: 'If stuck, review **c11_eng_h_cbse_07_002 (Plot)** for the sequence of realities, and.',
                   misconception: '**Students conflate "alternate history" (a sub-genre of fiction) with the story\'s *theme* of "quantum branching of reality."** They treat.' }
           ],

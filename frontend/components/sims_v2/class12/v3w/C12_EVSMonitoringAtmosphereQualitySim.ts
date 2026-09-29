@@ -6,13 +6,13 @@ import C12_EVSMonitoringAtmosphereQualitySim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_evsmonitoringatmospherequalitysim: SimDef = {
     id: 'v3w_c12_evsmonitoringatmospherequalitysim',
-    title: 'Monitoring Atmosphere Quality',
+    title: 'Remote Sensing: Principle and Applications in Geography',
     subtitle: 'Covers the principle of remote sensing (EMR spectrum, energy interactions), sensor types.',
     classLevel: 12, subject: 'evs', topic: 'Remote Sensing: Principle and Applications in Geography',
     chapters: [],
     nodeIds: ['c12_geo_cbse_21_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a farmer in Punjab trying to decide how much fertilizer to apply to your wheat crop.', goal: 'Master Monitoring Atmosphere Quality.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a farmer in Punjab trying to decide how much fertilizer to apply to your wheat crop.', goal: 'Master Remote Sensing: Principle and Applications in Geography.' },
     discovery: {
         question: 'A student claims: "RISAT-1 uses C-band synthetic aperture radar (SAR) so it can see through clouds and operate at night, making it better than Cartosat-2 for.',
         options: ['The statement is partially correct but overgeneralized', 'RISAT is always better', 'better'],
@@ -33,7 +33,7 @@ export const w_c12_evsmonitoringatmospherequalitysim: SimDef = {
             { text: 'Validate with ground truth — visit 5-10 fields, measure LAI or chlorophyll, correlate with NDVI.', faded: true, blankAnswer: 'Use Sentinel-2 MSI (free, 10 m, 5-day revisit, red+NIR.' }
             ] } }
     ],
-    explore: { component: C12_EVSMonitoringAtmosphereQualitySim, prompt: 'Explore the interactive — Monitoring Atmosphere Quality' },
+    explore: { component: C12_EVSMonitoringAtmosphereQualitySim, prompt: 'Explore the interactive — Remote Sensing: Principle and Applications in Geography' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_21_010', difficulty: 'standard',
           question: 'Remote sensing is the science and technology of acquiring information about an.',

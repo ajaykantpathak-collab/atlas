@@ -6,13 +6,13 @@ import C12_ChemistryDrugtargetinteractionSim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_chemistrydrugtargetinteractionsim: SimDef = {
     id: 'v3w_c12_chemistrydrugtargetinteractionsim',
-    title: 'Drugtargetinteraction',
+    title: 'Importance and Applications of Coordination Compounds',
     subtitle: 'Covers: Applications in qualitative analysis (color reactions, specific reagents like.',
     classLevel: 12, subject: 'chemistry', topic: 'Importance and Applications of Coordination Compounds',
     chapters: [],
     nodeIds: ['c12_chem_cbse_05_009', 'c12_chem_cbse_09_004', 'c12_chem_cbse_09_009', 'c12_chem_cbse_10_010', 'c12_chem_cbse_09_006', 'c12_chem_cbse_10_006', 'c12_chem_cbse_10_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Start with a real-world observation: When you get a blood test, the red color comes from hemoglobin — an iron.', goal: 'Master Drugtargetinteraction.' },
+    scenario: { role: 'a class 12 learner', intro: 'Start with a real-world observation: When you get a blood test, the red color comes from hemoglobin — an iron.', goal: 'Master Importance and Applications of Coordination Compounds.' },
     discovery: {
         question: 'A student writes: "EDTA is used in water hardness titration because it forms a stable complex with Ca²⁺ and Mg²⁺." Is this statement complete?',
         options: ['No, the statement is incomplete', 'chelate effect', 'multidentate ligands form more stable complexes'],
@@ -80,7 +80,7 @@ export const w_c12_chemistrydrugtargetinteractionsim: SimDef = {
             { text: 'Verify: 5 residues, 4 peptide bonds. N-terminal Val, C-terminal Leu.', faded: true, blankAnswer: '(a) 4 peptide bonds. (b) No residue within this.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_chem_cbse_09_004', title: 'Identify each idea',
-          dissect: { specimen: 'Drugtargetinteraction', spots: [
+          dissect: { specimen: 'Importance and Applications of Coordination Compounds', spots: [
             { id: 's1', label: 'Coordination compounds are complex entities', prompt: 'Which idea is this? — Coordination compounds are complex entities where a central metal atom/ion is bonded to.', answer: 'Coordination compounds are complex entities', options: ['Coordination compounds are complex entities', 'Gabriel phthalimide synthesis is a', 'Diazonium salts are a class', 'Hormones are low-molecular-weight chemical messengers'] },
             { id: 's2', label: 'Gabriel phthalimide synthesis is a', prompt: 'Which idea is this? — Gabriel phthalimide synthesis is a laboratory method for preparing pure primary aliphatic.', answer: 'Gabriel phthalimide synthesis is a', options: ['Gabriel phthalimide synthesis is a', 'Coordination compounds are complex entities', 'Diazonium salts are a class', 'Hormones are low-molecular-weight chemical messengers'] },
             { id: 's3', label: 'Diazonium salts are a class', prompt: 'Which idea is this? — Diazonium salts are a class of organic compounds with the general formula Ar–N₂⁺X⁻ (where.', answer: 'Diazonium salts are a class', options: ['Diazonium salts are a class', 'Coordination compounds are complex entities', 'Gabriel phthalimide synthesis is a', 'Hormones are low-molecular-weight chemical messengers'] },
@@ -89,7 +89,7 @@ export const w_c12_chemistrydrugtargetinteractionsim: SimDef = {
             { id: 's6', label: 'Protein structure is organized into', prompt: 'Which idea is this? — Protein structure is organized into four hierarchical levels: primary (linear sequence of.', answer: 'Protein structure is organized into', options: ['Protein structure is organized into', 'Coordination compounds are complex entities', 'Gabriel phthalimide synthesis is a', 'Diazonium salts are a class'] }
           ] } }
     ],
-    explore: { component: C12_ChemistryDrugtargetinteractionSim, prompt: 'Explore the interactive — Drugtargetinteraction' },
+    explore: { component: C12_ChemistryDrugtargetinteractionSim, prompt: 'Explore the interactive — Importance and Applications of Coordination Compounds' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_chem_cbse_05_009', difficulty: 'standard',
           question: 'Coordination compounds are complex entities where a central metal atom/ion is.',

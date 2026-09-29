@@ -6,13 +6,13 @@ import C12_BusinessStudiesPlaceChannelsDistributionSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_businessstudiesplacechannelsdistributionsim: SimDef = {
     id: 'v3w_c12_businessstudiesplacechannelsdistributionsim',
-    title: 'Place Channels Distribution',
+    title: 'Marketing Mix: 4 Ps (Product, Price, Place, Promotion)',
     subtitle: 'This node covers the concept, components, and interrelationships of the 4 Ps (Product,.',
     classLevel: 12, subject: 'business_studies', topic: 'Marketing Mix: 4 Ps (Product, Price, Place, Promotion)',
     chapters: [],
     nodeIds: ['c12_bs_cbse_11_004', 'c12_bs_cbse_11_005', 'c12_bs_cbse_11_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are launching a new brand of cold-pressed juice in India.', goal: 'Master Place Channels Distribution.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are launching a new brand of cold-pressed juice in India.', goal: 'Master Marketing Mix: 4 Ps (Product, Price, Place, Promotion).' },
     discovery: {
         question: 'Define Marketing Mix and list its four components.',
         options: ['Marketing Mix is the set of controllable tactical tools (Product, Price, Place,', 'People', 'Process'],
@@ -52,13 +52,13 @@ export const w_c12_businessstudiesplacechannelsdistributionsim: SimDef = {
             { text: 'Recommend — Direct channel (zero-level) with company-employed sales engineers.', faded: true, blankAnswer: 'Direct channel (zero-level) with manufacturer\'s own sales.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bs_cbse_11_005', title: 'Identify each idea',
-          dissect: { specimen: 'Place Channels Distribution', spots: [
+          dissect: { specimen: 'Marketing Mix: 4 Ps (Product, Price, Place, Promotion)', spots: [
             { id: 's1', label: 'Marketing Mix refers to the', prompt: 'Which idea is this? — Marketing Mix refers to the set of controllable tactical marketing tools — Product,.', answer: 'Marketing Mix refers to the', options: ['Marketing Mix refers to the', 'Product classification categorizes goods into', 'Channels of distribution refer to'] },
             { id: 's2', label: 'Product classification categorizes goods into', prompt: 'Which idea is this? — Product classification categorizes goods into consumer products (convenience, shopping,.', answer: 'Product classification categorizes goods into', options: ['Product classification categorizes goods into', 'Marketing Mix refers to the', 'Channels of distribution refer to'] },
             { id: 's3', label: 'Channels of distribution refer to', prompt: 'Which idea is this? — Channels of distribution refer to the path or route through which goods and services move.', answer: 'Channels of distribution refer to', options: ['Channels of distribution refer to', 'Marketing Mix refers to the', 'Product classification categorizes goods into'] }
           ] } }
     ],
-    explore: { component: C12_BusinessStudiesPlaceChannelsDistributionSim, prompt: 'Explore the interactive — Place Channels Distribution' },
+    explore: { component: C12_BusinessStudiesPlaceChannelsDistributionSim, prompt: 'Explore the interactive — Marketing Mix: 4 Ps (Product, Price, Place, Promotion)' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bs_cbse_11_004', difficulty: 'standard',
           question: 'Marketing Mix refers to the set of controllable tactical marketing tools —.',

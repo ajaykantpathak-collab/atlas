@@ -104,7 +104,11 @@ export const c7_eco_ch01_p2: SimDef = {
                   options: ['Inflation causes the general price level of goods and services to rise', 'medium of exchange'],
                   hint: 'Review c6_economics_ch11_004 to refresh the basic definitions of money\'s four main functions before.',
                   misconception: 'Students often think that any money sitting idle in a wallet or piggy bank is actively functioning as a "medium of exchange" simply because.' },
-                { id: 'c', prompt: 'Analyze the difference in economic function between using a digital wallet to pay an electricity bill instantly versus keeping money in a fixed deposit account.', answer: 'Paying an electricity bill instantly uses money as a medium of exchange',
+                { id: 'c', prompt: 'Aarav earns 500 rupees from a part-time craft project. He spends 300 rupees on art supplies today and deposits 200 rupees into a bank account for a school trip.', answer: 'Identify total earnings: 500 rupees',
+                  options: ['Identify total earnings: 500 rupees', 'medium of exchange'],
+                  hint: 'Review c6_economics_ch11_004 to refresh the basic definitions of money\'s four main functions before.',
+                  misconception: 'Students often think that any money sitting idle in a wallet or piggy bank is actively functioning as a "medium of exchange" simply because.' },
+                { id: 'd', prompt: 'Analyze the difference in economic function between using a digital wallet to pay an electricity bill instantly versus keeping money in a fixed deposit account.', answer: 'Paying an electricity bill instantly uses money as a medium of exchange',
                   options: ['Paying an electricity bill instantly uses money as a medium of exchange', 'medium of exchange'],
                   hint: 'Review c6_economics_ch11_004 to refresh the basic definitions of money\'s four main functions before.',
                   misconception: 'Students often think that any money sitting idle in a wallet or piggy bank is actively functioning as a "medium of exchange" simply because.' }

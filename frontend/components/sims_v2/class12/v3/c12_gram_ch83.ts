@@ -23,6 +23,8 @@ export const c12_gram_ch83: SimDef = {
             { id: 's2', label: 'Sentence-reordering is cohesion logic an', prompt: 'Which idea is this? — Sentence-reordering is cohesion logic: an opening sentence introduces entities with.', answer: 'Sentence-reordering is cohesion logic an', options: ['Sentence-reordering is cohesion logic an', 'Sentence-reordering items test cohesion logic', 'Beyond referential cohesion sentence order'] },
             { id: 's3', label: 'Beyond referential cohesion sentence order', prompt: 'Which idea is this? — Beyond referential cohesion, sentence order follows temporal and causal structure: events.', answer: 'Beyond referential cohesion sentence order', options: ['Beyond referential cohesion sentence order', 'Sentence-reordering items test cohesion logic', 'Sentence-reordering is cohesion logic an'] }
           ] } },
+        { type: 'build', nodeId: 'c12_gram_cbse_83_001', title: 'Put the steps in order',
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Find the opener — \'Ravi won the first prize\' introduces.', '\'The prize had been awarded\' refers back to the prize.', '\'He donated it\' — pronouns need antecedents — last.'], answer: 'Find the opener — \'Ravi won the first prize\' introduces. \'The prize had been awarded\' refers back to the prize. \'He donated it\' — pronouns need antecedents — last.' } },
         { type: 'case', nodeId: 'c12_gram_ch83_003', title: 'You made it',
           caseStudy: { intro: 'You finished Sentence-reordering items test cohesion logic. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

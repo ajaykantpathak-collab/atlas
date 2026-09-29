@@ -19,31 +19,31 @@ export const c12_eng_k_ch10_p3: SimDef = {
         hook: 'She published barely a dozen poems alive; 1,789 surfaced after — written for herself, never flattened by a publisher. Recluse doesn\'t mean unobservant: \'A Bird sat careless on the fence\' is precision, not fantasy. The strangeness is the point.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the disciplined process of examining a text\'s structural, linguistic, and thematic elements to construct an evidence-based interpretation that goes beyond.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Trees\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_10_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Decode Dickinson\'s fingerprint: wield her dashes and capitals as reading tools, then prove that a woman at one window watched nature more closely than most travellers.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_10_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re asked: "How does Dickinson make a summer day feel alive and mysterious in the first poem?" Don\'t just list devices.',
+          caseStudy: { intro: 'Analyse \'Trees\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'Define "interpretation" in literary analysis and explain how it differs from "summary" or "personal opinion."', options: [
                 { text: 'Interpretation is an evidence-based argument about what a text *means* and *how* it', outcome: 'Interpretation is an evidence-based argument about what a text *means* and *how* it achieves that.' },
                 { text: 'Interpretation is just your view of the poem', outcome: 'Not quite — Students believe "critical analysis" means finding *one* hidden symbolic meaning (e.g., "The Sun.', reveals: 'critical-analysis-means-finding-one' },
                 { text: 'critical analysis', outcome: 'Not quite — Students believe "critical analysis" means finding *one* hidden symbolic meaning (e.g., "The Sun.', reveals: 'critical-analysis-means-finding-one' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_10_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re asked: "How does Dickinson use personification to depict a summer day?" You remember the poem mentions trees hitting and swinging like tassels.',
+          caseStudy: { intro: 'For written answers on \'Trees\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing analytical paragraphs for poetry?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explain, Line', outcome: 'Not quite — Students believe "embedding quotes" means inserting a full line like: "The Trees like Tassels hit.', reveals: 'embedding-quotes-means-inserting-a' },
                 { text: 'embedding quotes', outcome: 'Not quite — Students believe "embedding quotes" means inserting a full line like: "The Trees like Tassels hit.', reveals: 'embedding-quotes-means-inserting-a' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_10_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a book club where everyone has read the same poem but sees different things in it — how do you have a conversation that actually deepens.',
+          caseStudy: { intro: 'Talk through \'Trees\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the six discussion questions provided in the NCERT "Responding to the Poem" section for Emily Dickinson\'s "Trees"?', options: [
                 { text: 'The six questions are: (1) What imagery does the poet use to delineate Summer\'s day more', outcome: 'The six questions are: (1) What imagery does the poet use to delineate Summer\'s day more.' },
                 { text: 'Language Study', outcome: 'Not quite — Students believe a literary discussion is a round-robin where each person answers a question once.', reveals: 'a-literary-discussion-is-a' },
@@ -63,12 +63,12 @@ export const c12_eng_k_ch10_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_10_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the disciplined process of examining.',
+          question: 'Critical thinking on \'Trees\' — analysing the text to reach evidence-based.',
           hint: 'If stuck, revisit node c12_eng_k_cbse_10_008 (Imagery and Metaphor) and.',
           misconception: 'Students believe "critical analysis" means finding *one* hidden symbolic meaning (e.g., "The Sun = God") and then.',
           parts: [
@@ -85,7 +85,7 @@ export const c12_eng_k_ch10_p3: SimDef = {
                   hint: 'If stuck, revisit node c12_eng_k_cbse_10_008 (Imagery and Metaphor) and c12_eng_k_cbse_10_009.',
                   misconception: 'Students believe "critical analysis" means finding *one* hidden symbolic meaning (e.g., "The Sun = God") and then hunting for proof.' }
           ],
-            remediations: { 'critical-analysis-means-finding-one': { steps: ['If a student reduces analysis to symbol-decoding: (1) Have them re-read the first poem *without* naming any "symbols".', '(2) Ask: "What happens to the poem\'s feeling if the Sun is *not* a god but a moody neighbor?" (3) Assign a micro-task.', '(4) Re-attempt Diagnostic Question 2 with this lens.', 'This shifts focus from *what things stand for* to *how language behaves*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-finding-one': { steps: ['If a student reduces analysis to symbol-decoding: (1) Have them re-read the first poem *without* naming any "symbols".', '(2) Ask: "What happens to the poem\'s feeling if the Sun is *not* a god but a moody neighbor?" (3) Assign a micro-task.', '(4) Re-attempt Diagnostic Question 2 with this lens.', 'This shifts focus from *what things stand for* to *how language behaves*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_10_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -96,9 +96,9 @@ export const c12_eng_k_ch10_p3: SimDef = {
                   hint: 'If stuck, revisit node c12_eng_k_cbse_10_008 (Imagery and Metaphor) and c12_eng_k_cbse_10_009.',
                   misconception: 'Students believe "critical analysis" means finding *one* hidden symbolic meaning (e.g., "The Sun = God") and then hunting for proof.' }
           ],
-            remediations: { 'critical-analysis-means-finding-one': { steps: ['If a student reduces analysis to symbol-decoding: (1) Have them re-read the first poem *without* naming any "symbols".', '(2) Ask: "What happens to the poem\'s feeling if the Sun is *not* a god but a moody neighbor?" (3) Assign a micro-task.', '(4) Re-attempt Diagnostic Question 2 with this lens.', 'This shifts focus from *what things stand for* to *how language behaves*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-finding-one': { steps: ['If a student reduces analysis to symbol-decoding: (1) Have them re-read the first poem *without* naming any "symbols".', '(2) Ask: "What happens to the poem\'s feeling if the Sun is *not* a god but a moody neighbor?" (3) Assign a micro-task.', '(4) Re-attempt Diagnostic Question 2 with this lens.', 'This shifts focus from *what things stand for* to *how language behaves*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_10_014', difficulty: 'standard',
-          question: 'Writing skills for poetry analysis involve structuring analytical answers using.',
+          question: 'Writing skills from \'Trees\' — using the text as a model or springboard for your.',
           hint: 'If unable to write a Point sentence, revisit c12_eng_k_cbse_10_006 (Theme) and.',
           misconception: 'Students believe "embedding quotes" means inserting a full line like: "The Trees like Tassels hit – and – swung – There.',
           parts: [
@@ -111,9 +111,9 @@ export const c12_eng_k_ch10_p3: SimDef = {
                   hint: 'If unable to write a Point sentence, revisit c12_eng_k_cbse_10_006 (Theme) and.',
                   misconception: 'Students believe "embedding quotes" means inserting a full line like: "The Trees like Tassels hit – and – swung – There seemed to rise.' }
           ],
-            remediations: { 'embedding-quotes-means-inserting-a': { steps: ['Give the student three model PEEL paragraphs on the same poem (from c12_eng_k_cbse_10_013 Critical Thinking node).', 'Ask them to highlight Point, Evidence, Explanation, Link in four colours.', 'Have them rewrite one paragraph replacing full-line quotes with 3-5 word embedded phrases.', 'Assign a 3-mark question: "Analyse the metaphor \'Far Psalteries of Summer\'." Require them to submit a coloured PEEL.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'embedding-quotes-means-inserting-a': { steps: ['Give the student three model PEEL paragraphs on the same poem (from c12_eng_k_cbse_10_013 Critical Thinking node).', 'Ask them to highlight Point, Evidence, Explanation, Link in four colours.', 'Have them rewrite one paragraph replacing full-line quotes with 3-5 word embedded phrases.', 'Assign a 3-mark question: "Analyse the metaphor \'Far Psalteries of Summer\'." Require them to submit a coloured PEEL.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_10_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Trees\' — speaking and listening around the text.',
           hint: 'If stuck, revisit c12_eng_k_cbse_10_013 (Critical Thinking) to practice breaking down.',
           misconception: 'Students believe a literary discussion is a round-robin where each person answers a question once, and the "best".',
           parts: [
@@ -122,7 +122,7 @@ export const c12_eng_k_ch10_p3: SimDef = {
                   hint: 'If stuck, revisit c12_eng_k_cbse_10_013 (Critical Thinking) to practice breaking down each question.',
                   misconception: 'Students believe a literary discussion is a round-robin where each person answers a question once, and the "best" answer wins.' }
           ],
-            remediations: { 'a-literary-discussion-is-a': { steps: ['If a student treats discussion as solo answering: (1) Assign them the "Listener" role for 5 minutes — they must only.', '(2) Provide sentence stems: "I agree with ____ because ____", "That changes my view on ____ because ____".', '(3) Have them re-watch a 3-minute clip of a model literary discussion (e.g., from NCERT\'s audio resources) and note.', '(4) Re-attempt a 10-minute discussion on Question 4 with the teacher tracking "peer references" — aim for at least 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-literary-discussion-is-a': { steps: ['If a student treats discussion as solo answering: (1) Assign them the "Listener" role for 5 minutes — they must only.', '(2) Provide sentence stems: "I agree with ____ because ____", "That changes my view on ____ because ____".', '(3) Have them re-watch a 3-minute clip of a model literary discussion (e.g., from NCERT\'s audio resources) and note.', '(4) Re-attempt a 10-minute discussion on Question 4 with the teacher tracking "peer references" — aim for at least 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -11,7 +11,7 @@ export const c10_hin_ks_ch04_p1: SimDef = {
     nodeIds: ['c10_hin_ks_cbse_04_001', 'c10_hin_ks_cbse_04_002', 'c10_hin_ks_cbse_04_003', 'c10_hin_ks_cbse_04_004', 'c10_hin_ks_cbse_04_005', 'c10_hin_ks_cbse_04_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 10 learner', intro: 'कल्पना कीजिए आप पुस्तकालय में एक नई कविता देख रहे हैं और सबसे पहले 궁금해 करते हैं कि इस कविता को किसने लिखा है.', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 10 learner', intro: 'क्षितिज भाग-2 खोलिए और पाठ 04 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट.', goal: 'Master every idea in this chapter.' },
     discovery: {
         question: 'एक छात्र ने पद्यांश का भावार्थ लिखा: "कवि कहता है कि फूल सुंदर होते हैं और वे खुशबू देते हैं।" मूल पद्यांश: "मुरझाए फूल भी खुशबू देते हैं, टूटी डालियाँ भी छाया.',
         options: ['**Correct answer:** **नहीं, यह भावार्थ गलत है।** **कारण:** 1', '**What a wrong answer reveals:** If the student defends the answer saying', 'आशय स्पष्ट कीजिए'],
@@ -19,7 +19,7 @@ export const c10_hin_ks_ch04_p1: SimDef = {
         hook: '**Exact error:** Students treat भावार्थ as "difficult word meanings + one-line summary".',
     },
     teaching: [
-        { title: 'पाठ 4 — कवि परिचय और पृष्ठभूमि', text: 'कवि परिचय और पृष्ठभूमि का तात्पर्य कवि के जीवन के प्रमुख तथ्यों — जन्म, युग, शैक्षणिक एवं साहित्यिक योगदान, सामाजिक-राजनीतिक परिदृश्य — को संक्षेप में प्रस्तुत करके उनकी रचना के संदर्भ को समझने में.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 4 — कवि परिचय और पृष्ठभूमि', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c10_hin_ks_cbse_04_001', title: 'Your mission',
@@ -28,7 +28,7 @@ export const c10_hin_ks_ch04_p1: SimDef = {
         labels: ['पाठ 4 — कवि', 'पाठ 4 — पद्यांश-वार', 'पाठ 4 — काव्य-संरचना', 'पाठ 4 — केंद्रीय', 'पाठ 4 — छंद', 'पाठ 4 — साहित्यिक'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c10_hin_ks_cbse_04_002', title: 'पाठ 4 — पद्यांश-वार भावार्थ',
-          caseStudy: { intro: 'You open your Hindi textbook to a new poem and see 4-5 stanzas of unfamiliar words — your first thought: "Where do I even start?" Begin by reading the poem.',
+          caseStudy: { intro: '\'क्षितिज भाग-2 — पाठ 4\' का क्रम: शुरुआत क्षितिज-भाग-2-—-पाठ-4 से, घटनाएँ बढ़ती हैं, अंत \'क्षितिज भाग-2 पर।',
             decisions: [{ prompt: 'पद्यांश-वार भावार्थ और अनुवाद में मूल अंतर क्या है? एक वाक्य में बताइए।', options: [
                 { text: '**Correct answer:** अनुवाद शब्दों का शाब्दिक रूपांतरण है, जबकि भावार्थ पद्यांश के', outcome: '**Correct answer:** अनुवाद शब्दों का शाब्दिक रूपांतरण है, जबकि भावार्थ पद्यांश के अंतर्निहित भाव.' },
                 { text: 'दोनों एक ही हैं', outcome: 'Not quite — **Exact error:** Students treat भावार्थ as "difficult word meanings + one-line summary".', reveals: 'exact-error-students-treat-as' },
@@ -46,18 +46,18 @@ export const c10_hin_ks_ch04_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_hin_ks_cbse_04_001', difficulty: 'standard',
-          question: 'कवि परिचय और पृष्ठभूमि का तात्पर्य कवि के जीवन के प्रमुख तथ्यों — जन्म, युग.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
           hint: 'यदि कठिनाई हो तो कक्षा 9 के साहित्यिक युक्तियों और भाव‑विश्लेषण के आधारभूत अध्ययन को पुनः.',
           misconception: 'छात्र अक्सर कवि के परिचय को केवल जन्म‑तिथि, मृत्यु‑तिथि और शैक्षणिक योगदान तक सीमित रख देते हैं, मानते हैं कि ये तथ्य.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कवि परिचय और पृष्ठभूमि का तात्पर्य कवि के जीवन के प्रमुख तथ्यों',
-                  options: ['कवि परिचय और पृष्ठभूमि का तात्पर्य कवि के जीवन के प्रमुख तथ्यों', 'पद्यांश-वार भावार्थ is the process of interpreting each stanza of a poem by identifying', 'काव्य-संरचना कविता के समग्र रूप को परिभाषित करती है, जिसमें stanza की संख्या, प्रत्येक', 'केंद्रीय भाव वह मुख्य भाव या विचार है जो कविता के सभी stanza में दोहराया जाता है, और रस'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के',
+                  options: ['रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'क्षितिज भाग-2 — पाठ 4\' का कथानक — \'क्षितिज भाग-2 — पाठ 4\' — क्षितिज भाग-2 का पाठ। पाठ का', '\'क्षितिज भाग-2 — पाठ 4\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में', '\'क्षितिज भाग-2 — पाठ 4\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
                   hint: 'यदि कठिनाई हो तो कक्षा 9 के साहित्यिक युक्तियों और भाव‑विश्लेषण के आधारभूत अध्ययन को पुनः पढ़ें।',
                   misconception: 'छात्र अक्सर कवि के परिचय को केवल जन्म‑तिथि, मृत्यु‑तिथि और शैक्षणिक योगदान तक सीमित रख देते हैं, मानते हैं कि ये तथ्य पर्याप्त हैं। वे.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को बताइए कि परिचय का उद्देश्य कविता को “संदर्भ में रखना” है। stepwise मार्गदर्शन दें: (1) कविता के मुख्य विषय या.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_hin_ks_cbse_04_002', difficulty: 'standard',
-          question: 'पद्यांश-वार भावार्थ is the process of interpreting each stanza of a poem.',
+          question: '\'क्षितिज भाग-2 — पाठ 4\' का कथानक — \'क्षितिज भाग-2 — पाठ 4\' — क्षितिज भाग-2 का.',
           hint: 'If stuck, review Class 9 Hindi \'पद्य खंड\' basics: how to use पाठ्यपुस्तक की शब्दावली.',
           misconception: '**Exact error:** Students treat भावार्थ as "difficult word meanings + one-line summary".',
           parts: [
@@ -83,45 +83,45 @@ export const c10_hin_ks_ch04_p1: SimDef = {
           ],
             remediations: { 'exact-error-students-treat-as': { steps: ['**Step-by-step remediation:** 1.', '**Isolate the gap:** Give the student a 2-line stanza.', 'Ask: "यहाँ कवि *क्या* कह रहा है?', '(literal) → कवि *क्या महसूस कर रहा है?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_hin_ks_cbse_04_003', difficulty: 'standard',
-          question: 'काव्य-संरचना कविता के समग्र रूप को परिभाषित करती है, जिसमें stanza की संख्या.',
+          question: '\'क्षितिज भाग-2 — पाठ 4\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और.',
           hint: 'यदि फँसें तो stanza-वार भावार्थ (नोड 002) की समीक्षा करें, विशेष रूप से यह देखते हुए कि.',
           misconception: 'छात्र अक्सर काव्य-संरचना और पद्य-विन्यास को छंद (meter) से मिला लेते हैं, सोचते हैं कि यदि कविता में कोई स्पष्ट छंद.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य-संरचना कविता के समग्र रूप को परिभाषित करती है, जिसमें stanza की संख्या, प्रत्येक',
-                  options: ['काव्य-संरचना कविता के समग्र रूप को परिभाषित करती है, जिसमें stanza की संख्या, प्रत्येक', 'कवि परिचय और पृष्ठभूमि का तात्पर्य कवि के जीवन के प्रमुख तथ्यों', 'पद्यांश-वार भावार्थ is the process of interpreting each stanza of a poem by identifying', 'केंद्रीय भाव वह मुख्य भाव या विचार है जो कविता के सभी stanza में दोहराया जाता है, और रस'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'क्षितिज भाग-2 — पाठ 4\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में',
+                  options: ['\'क्षितिज भाग-2 — पाठ 4\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'क्षितिज भाग-2 — पाठ 4\' का कथानक — \'क्षितिज भाग-2 — पाठ 4\' — क्षितिज भाग-2 का पाठ। पाठ का', '\'क्षितिज भाग-2 — पाठ 4\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
                   hint: 'यदि फँसें तो stanza-वार भावार्थ (नोड 002) की समीक्षा करें, विशेष रूप से यह देखते हुए कि प्रत्येक.',
                   misconception: 'छात्र अक्सर काव्य-संरचना और पद्य-विन्यास को छंद (meter) से मिला लेते हैं, सोचते हैं कि यदि कविता में कोई स्पष्ट छंद नहीं है (जैसे दोहा का.' }
           ],
             remediations: { 'meter': { steps: ['इस गलती को सुधारने के लिए, छात्र को कविता पढ़ते समय एक कागज़ ले कर प्रत्येक stanza के बाद एक ऊर्ध्वाधर रेखा खींचने के.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_hin_ks_cbse_04_004', difficulty: 'standard',
-          question: 'केंद्रीय भाव वह मुख्य भाव या विचार है जो कविता के सभी stanza में दोहराया जाता.',
+          question: '\'क्षितिज भाग-2 — पाठ 4\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और.',
           hint: 'पद्य-vinyas और छंद की अवधारणा को फिर से देखें (नोड c10_hin_ks_cbse_04_003)',
           misconception: 'छात्र अक्सर मानते हैं कि यदि कविता में किसी विशेष भाव (जैसे दुख) से जुड़ा शब्द आ रहा है तो वह शब्द ही केंद्रीय भाव है.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'केंद्रीय भाव वह मुख्य भाव या विचार है जो कविता के सभी stanza में दोहराया जाता है, और रस',
-                  options: ['केंद्रीय भाव वह मुख्य भाव या विचार है जो कविता के सभी stanza में दोहराया जाता है, और रस', 'कवि परिचय और पृष्ठभूमि का तात्पर्य कवि के जीवन के प्रमुख तथ्यों', 'पद्यांश-वार भावार्थ is the process of interpreting each stanza of a poem by identifying', 'काव्य-संरचना कविता के समग्र रूप को परिभाषित करती है, जिसमें stanza की संख्या, प्रत्येक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'क्षितिज भाग-2 — पाठ 4\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+                  options: ['\'क्षितिज भाग-2 — पाठ 4\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'क्षितिज भाग-2 — पाठ 4\' का कथानक — \'क्षितिज भाग-2 — पाठ 4\' — क्षितिज भाग-2 का पाठ। पाठ का', '\'क्षितिज भाग-2 — पाठ 4\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में'],
                   hint: 'पद्य-vinyas और छंद की अवधारणा को फिर से देखें (नोड c10_hin_ks_cbse_04_003)',
                   misconception: 'छात्र अक्सर मानते हैं कि यदि कविता में किसी विशेष भाव (जैसे दुख) से जुड़ा शब्द आ रहा है तो वह शब्द ही केंद्रीय भाव है और उसी से रस भी तय हो.' }
           ],
             remediations: { 'wrong-idea': { steps: ['सबसे पहले छात्र को एक छोटी कविता (चार stanza) दीजिए और प्रत्येक stanza में मुख्य शब्द या वाक्यांश को underline करने के.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_hin_ks_cbse_04_005', difficulty: 'standard',
-          question: 'छंद कविता का वह विधान है जिसमें पदों के चरणों में वर्णों या मात्राओं की निश्चित.',
+          question: '\'क्षितिज भाग-2 — पाठ 4\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को.',
           hint: 'यदि मात्रा गिनने में अटके, तो कक्षा 9 के \'वर्ण-विचार\' और \'मात्रा ज्ञान\' को दोहराएँ।',
           misconception: 'छात्र अक्सर मानते हैं कि **\'तुक मिलना ही छंद है\'** — वे "उत्साह/आस", "जग/मग" जैसी तुकों को देखकर छंद पहचान लेते हैं.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'छंद कविता का वह विधान है जिसमें पदों के चरणों में वर्णों या मात्राओं की निश्चित संख्या,',
-                  options: ['छंद कविता का वह विधान है जिसमें पदों के चरणों में वर्णों या मात्राओं की निश्चित संख्या,', 'कवि परिचय और पृष्ठभूमि का तात्पर्य कवि के जीवन के प्रमुख तथ्यों', 'पद्यांश-वार भावार्थ is the process of interpreting each stanza of a poem by identifying', 'काव्य-संरचना कविता के समग्र रूप को परिभाषित करती है, जिसमें stanza की संख्या, प्रत्येक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'क्षितिज भाग-2 — पाठ 4\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे',
+                  options: ['\'क्षितिज भाग-2 — पाठ 4\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'क्षितिज भाग-2 — पाठ 4\' का कथानक — \'क्षितिज भाग-2 — पाठ 4\' — क्षितिज भाग-2 का पाठ। पाठ का', '\'क्षितिज भाग-2 — पाठ 4\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में'],
                   hint: 'यदि मात्रा गिनने में अटके, तो कक्षा 9 के \'वर्ण-विचार\' और \'मात्रा ज्ञान\' को दोहराएँ।',
                   misconception: 'छात्र अक्सर मानते हैं कि **\'तुक मिलना ही छंद है\'** — वे "उत्साह/आस", "जग/मग" जैसी तुकों को देखकर छंद पहचान लेते हैं, जबकि बोर्ड परीक्षा में.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र से कहें: "एक पंक्ति लो, प्रत्येक शब्द की मात्राएँ गिनो (गुरु=2, लघु=1), फिर कुल जोड़ो।" 2.', 'दोहा (13,11) और चौपाई (16,16) के मानक उदाहरण देकर अभ्यास कराएँ। 3.', 'यति चिह्न (|) लगाकर जोर से पढ़वाएँ — जहाँ स्वाभाविक ठहराव आए, वहीं यति है। 4.', 'फिर पाठ 4 की पंक्तियों पर यही प्रक्रिया दुहराएँ।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_hin_ks_cbse_04_006', difficulty: 'standard',
-          question: 'अलंकार (Figure of Speech) वह साहित्यिक युक्ति है जिसमें शब्दों या अर्थों के.',
+          question: '\'क्षितिज भाग-2 — पाठ 4\' का मुख्य विषय — \'क्षितिज भाग-2 — पाठ 4\' का केंद्रीय भाव.',
           hint: 'यदि अटके तो **कक्षा 9 की हिंदी व्याकरण पुस्तक (NCERT) के अलंकार अध्याय** के.',
           misconception: 'छात्र समझते हैं कि अलंकार पहचानना = केवल नाम लिख देना (जैसे "यह उपमा है")। बोर्ड परीक्षा में **पहचान मात्र ½ अंक** की.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार (Figure of Speech) वह साहित्यिक युक्ति है जिसमें शब्दों या अर्थों के विशेष विन्यास',
-                  options: ['अलंकार (Figure of Speech) वह साहित्यिक युक्ति है जिसमें शब्दों या अर्थों के विशेष विन्यास', 'कवि परिचय और पृष्ठभूमि का तात्पर्य कवि के जीवन के प्रमुख तथ्यों', 'पद्यांश-वार भावार्थ is the process of interpreting each stanza of a poem by identifying', 'काव्य-संरचना कविता के समग्र रूप को परिभाषित करती है, जिसमें stanza की संख्या, प्रत्येक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'क्षितिज भाग-2 — पाठ 4\' का मुख्य विषय — \'क्षितिज भाग-2 — पाठ 4\' का केंद्रीय भाव और संदेश',
+                  options: ['\'क्षितिज भाग-2 — पाठ 4\' का मुख्य विषय — \'क्षितिज भाग-2 — पाठ 4\' का केंद्रीय भाव और संदेश', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'क्षितिज भाग-2 — पाठ 4\' का कथानक — \'क्षितिज भाग-2 — पाठ 4\' — क्षितिज भाग-2 का पाठ। पाठ का', '\'क्षितिज भाग-2 — पाठ 4\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में'],
                   hint: 'यदि अटके तो **कक्षा 9 की हिंदी व्याकरण पुस्तक (NCERT) के अलंकार अध्याय** के परिभाषा-उदाहरण दोहराओ.',
                   misconception: 'छात्र समझते हैं कि अलंकार पहचानना = केवल नाम लिख देना (जैसे "यह उपमा है")। बोर्ड परीक्षा में **पहचान मात्र ½ अंक** की होती है, शेष 1½–2 अंक.' }
           ],

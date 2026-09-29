@@ -6,13 +6,13 @@ import C11_BiologyEndocrineGlandsTheirSim from '../../../simulations/c6_12/C11_B
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologyendocrineglandstheirsim: SimDef = {
     id: 'v3w_c11_biologyendocrineglandstheirsim',
-    title: 'Endocrine Glands Their',
+    title: 'Endocrine Glands: Hypothalamus and Pituitary',
     subtitle: 'This node covers the structural organization of the hypothalamus and pituitary, the.',
     classLevel: 11, subject: 'biology', topic: 'Endocrine Glands: Hypothalamus and Pituitary',
     chapters: [],
     nodeIds: ['c11_bio_cbse_19_001', 'c11_bio_cbse_19_002', 'c11_bio_cbse_19_003', 'c11_bio_cbse_19_004', 'c11_bio_cbse_19_007', 'c11_bio_cbse_19_008', 'c11_bio_cbse_19_005', 'c11_bio_cbse_19_006', 'c11_bio_cbse_18_004', 'c11_bio_cbse_18_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing up quickly after sitting for a long time and feel dizzy for a moment — your body.', goal: 'Master Endocrine Glands Their.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing up quickly after sitting for a long time and feel dizzy for a moment — your body.', goal: 'Master Endocrine Glands: Hypothalamus and Pituitary.' },
     discovery: {
         question: 'Explain why the anterior pituitary is called the "master gland" even though it is itself controlled by the hypothalamus.',
         options: ['The anterior pituitary is called the master gland', 'it controls everything independently', 'hypothalamus is the real master'],
@@ -79,7 +79,7 @@ export const w_c11_biologyendocrineglandstheirsim: SimDef = {
             { text: 'Verify feedback logic — low dose dexamethasone (physiological replacement) fails to suppress because tumor has reduced.', faded: true, blankAnswer: 'Cushing\'s disease (pituitary ACTH-secreting adenoma)..' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_19_002', title: 'Identify each idea',
-          dissect: { specimen: 'Endocrine Glands Their', spots: [
+          dissect: { specimen: 'Endocrine Glands: Hypothalamus and Pituitary', spots: [
             { id: 's1', label: 'The hypothalamus is a neuroendocrine', prompt: 'Which idea is this? — The hypothalamus is a neuroendocrine region of the diencephalon that synthesizes.', answer: 'The hypothalamus is a neuroendocrine', options: ['The hypothalamus is a neuroendocrine', 'The thyroid gland is a', 'The pancreas is a composite', 'The adrenal glands are a'] },
             { id: 's2', label: 'The thyroid gland is a', prompt: 'Which idea is this? — The thyroid gland is a bilobed endocrine gland located anterior to the trachea that.', answer: 'The thyroid gland is a', options: ['The thyroid gland is a', 'The hypothalamus is a neuroendocrine', 'The pancreas is a composite', 'The adrenal glands are a'] },
             { id: 's3', label: 'The pancreas is a composite', prompt: 'Which idea is this? — The pancreas is a composite gland functioning as both an exocrine and endocrine organ;.', answer: 'The pancreas is a composite', options: ['The pancreas is a composite', 'The hypothalamus is a neuroendocrine', 'The thyroid gland is a', 'The adrenal glands are a'] },
@@ -88,7 +88,7 @@ export const w_c11_biologyendocrineglandstheirsim: SimDef = {
             { id: 's6', label: 'Endocrine disorders are pathological conditions', prompt: 'Which idea is this? — Endocrine disorders are pathological conditions arising from abnormal hormone synthesis,.', answer: 'Endocrine disorders are pathological conditions', options: ['Endocrine disorders are pathological conditions', 'The hypothalamus is a neuroendocrine', 'The thyroid gland is a', 'The pancreas is a composite'] }
           ] } }
     ],
-    explore: { component: C11_BiologyEndocrineGlandsTheirSim, prompt: 'Explore the interactive — Endocrine Glands Their' },
+    explore: { component: C11_BiologyEndocrineGlandsTheirSim, prompt: 'Explore the interactive — Endocrine Glands: Hypothalamus and Pituitary' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_19_001', difficulty: 'standard',
           question: 'The hypothalamus is a neuroendocrine region of the diencephalon that.',

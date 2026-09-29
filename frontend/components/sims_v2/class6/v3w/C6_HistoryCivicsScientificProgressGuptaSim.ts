@@ -6,13 +6,13 @@ import C6_HistoryCivicsScientificProgressGuptaSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_historycivicsscientificprogressguptasim: SimDef = {
     id: 'v3w_c6_historycivicsscientificprogressguptasim',
-    title: 'Scientific Progress Gupta',
+    title: 'The Making of the Constitution',
     subtitle: 'Covers India\'s progress in space and technology and its identity as a democracy.',
-    classLevel: 6, subject: 'history', topic: 'India Today: Achievements and Challenges',
+    classLevel: 6, subject: 'history', topic: 'The Making of the Constitution',
     chapters: [],
     nodeIds: ['c6_history_ch12_051'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered how a country that was known as \'Jambudvīpa\' or \'Bhāratavarṣha\' thousands of years ago.', goal: 'Master Scientific Progress Gupta.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered how a country that was known as \'Jambudvīpa\' or \'Bhāratavarṣha\' thousands of years ago.', goal: 'Master The Making of the Constitution.' },
     discovery: {
         question: 'Why do we call India a "democracy" today?',
         options: ['We call it a democracy', 'democracy', 'monarchy'],
@@ -25,7 +25,7 @@ export const w_c6_historycivicsscientificprogressguptasim: SimDef = {
     beats: [
 
     ],
-    explore: { component: C6_HistoryCivicsScientificProgressGuptaSim, prompt: 'Explore the interactive — Scientific Progress Gupta' },
+    explore: { component: C6_HistoryCivicsScientificProgressGuptaSim, prompt: 'Explore the interactive — The Making of the Constitution' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_history_ch12_056', difficulty: 'standard',
           question: 'India today is a democratic nation that has evolved from its ancient roots into.',

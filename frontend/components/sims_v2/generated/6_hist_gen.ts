@@ -50,7 +50,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Harappan Civilisation Was One Of",
+    "title": "Harappan Civilisation Was One",
     "text": "The Harappan Civilisation was one of the world's first major urban societies, flourishing in the Indus Valley between 2600 BCE and 1900 BCE. It was identified in the 1920s when archaeologists uncovered large-scale city remains at sites like Harappa and",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -443,7 +443,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Ashoka Was The Third Emperor Of",
+    "title": "Ashoka Was The Third Emperor",
     "text": "Ashoka was the third emperor of the Mauryan Empire who, after witnessing the immense death and suffering during his conquest of Kalinga, underwent a moral transformation and renounced warfare.",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2087,7 +2087,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Mughal Administrative System Was a",
+    "title": "Mughal Administrative System",
     "text": "The Mughal administrative system was a structured government hierarchy designed to manage a vast empire through a central authority and specialized ministers who handled specific departments like finance, military, and household affairs.",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2485,7 +2485,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Revolt Of 1857 Was a",
+    "title": "Revolt Of 1857",
     "text": "The Revolt of 1857 was a major, widespread uprising by Indian soldiers (sepoys) and various sections of society against the control and policies of the British East India Company.",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2874,13 +2874,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Civil Disobedience Movement Was a",
+    "title": "Civil Disobedience Movement",
     "text": "The Civil Disobedience Movement was a non-violent protest started by Mahatma Gandhi in 1930 to challenge British rule by intentionally breaking unfair laws, beginning with the salt tax.",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Quit India Movement Was a",
+    "title": "Quit India Movement",
     "text": "The Quit India Movement was a historic civil disobedience campaign launched by Mahatma Gandhi on August 8, 1942, demanding an immediate end to British colonial rule in India.",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2892,7 +2892,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Independence And Partition Refer To The",
+    "title": "Independence And Partition",
     "text": "Independence and Partition refer to the events of August 1947, when India became a self-governing nation while simultaneously being divided into two separate countries, India and Pakistan.",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"

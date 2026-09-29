@@ -6,13 +6,13 @@ import C9_MathematicsTrigonometricRatiosStandardSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_mathematicstrigonometricratiosstandardsim: SimDef = {
     id: 'v3w_c9_mathematicstrigonometricratiosstandardsim',
-    title: 'Trigonometric Ratios Standard',
+    title: 'Combination of Plane Figures: Composite Area Problems',
     subtitle: 'Covers composite figures made from rectangles, triangles (right, scalene using Heron\'s.',
     classLevel: 9, subject: 'mathematics', topic: 'Combination of Plane Figures: Composite Area Problems',
     chapters: [],
     nodeIds: ['c9_math_ch6_11', 'c9_math_ch6_4', 'c9_math_ch6_5', 'c9_math_ch6_7', 'c9_math_ch8_2'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine a school is designing a new badge: a rectangular strip 10 cm by 3 cm with a semicircular top of.', goal: 'Master Trigonometric Ratios Standard.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine a school is designing a new badge: a rectangular strip 10 cm by 3 cm with a semicircular top of.', goal: 'Master Combination of Plane Figures: Composite Area Problems.' },
     discovery: {
         question: 'In triangle ABC, angle B is obtuse (120°). Side AC is chosen as the base.',
         options: ['The foot lies on the extension of AC beyond A or C (outside the segment)', 'the formula doesn\'t work for obtuse triangles', 'height is measured to the segment only'],
@@ -69,7 +69,7 @@ export const w_c9_mathematicstrigonometricratiosstandardsim: SimDef = {
             { text: 'Find 25th row seats: substitute n=25 → a₂₅ = 3(25) + 9 = 75 + 9 = 84 seats.', faded: true, blankAnswer: 'Explicit rule: aₙ = 3n + 9; 25th row has 84 seats.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_math_ch6_4', title: 'Identify each idea',
-          dissect: { specimen: 'Trigonometric Ratios Standard', spots: [
+          dissect: { specimen: 'Combination of Plane Figures: Composite Area Problems', spots: [
             { id: 's1', label: 'A composite plane figure is', prompt: 'Which idea is this? — A composite plane figure is a shape formed by combining two or more basic plane figures.', answer: 'A composite plane figure is', options: ['A composite plane figure is', 'The area of a rectangle', 'The area of a triangle', 'Herons formula enables calculation of'] },
             { id: 's2', label: 'The area of a rectangle', prompt: 'Which idea is this? — The area of a rectangle is the product of its length and breadth (A = l × b), where.', answer: 'The area of a rectangle', options: ['The area of a rectangle', 'A composite plane figure is', 'The area of a triangle', 'Herons formula enables calculation of'] },
             { id: 's3', label: 'The area of a triangle', prompt: 'Which idea is this? — The area of a triangle is half the product of any side chosen as the base and the.', answer: 'The area of a triangle', options: ['The area of a triangle', 'A composite plane figure is', 'The area of a rectangle', 'Herons formula enables calculation of'] },
@@ -77,7 +77,7 @@ export const w_c9_mathematicstrigonometricratiosstandardsim: SimDef = {
             { id: 's5', label: 'An explicit rule for a', prompt: 'Which idea is this? — An explicit rule for a sequence is a formula that expresses the nth term (aₙ) directly as.', answer: 'An explicit rule for a', options: ['An explicit rule for a', 'A composite plane figure is', 'The area of a rectangle', 'The area of a triangle'] }
           ] } }
     ],
-    explore: { component: C9_MathematicsTrigonometricRatiosStandardSim, prompt: 'Explore the interactive — Trigonometric Ratios Standard' },
+    explore: { component: C9_MathematicsTrigonometricRatiosStandardSim, prompt: 'Explore the interactive — Combination of Plane Figures: Composite Area Problems' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_math_ch6_11', difficulty: 'standard',
           question: 'A composite plane figure is a shape formed by combining two or more basic plane.',

@@ -123,7 +123,7 @@ export const c9_engl_ch01_p2: SimDef = {
           ],
             remediations: { 'first-person-narration-means-the': { steps: ['Have the student reread the first two paragraphs and highlight every "I" statement.', 'Ask: "Does the narrator know Krishtakka\'s thoughts? How do you know?" Guide them to find evidence of the narrator.', 'Show the contrast — the moment Krishtakka speaks for herself ("I want to be independent").', 'Explain: "The author chose a narrator who *underestimates* the grandmother so we can discover her strength together.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c9_engl_ch1_8', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the precise meaning.',
+          question: 'From \'How I Taught My Grandmother to Read\': the skill or concept this node.',
           hint: 'If stuck, review the story summary (c9_engl_ch1_1) and the Class 8 vocabulary in context.',
           misconception: 'Students believe "vocabulary in context" means finding the dictionary definition that fits the sentence.',
           parts: [

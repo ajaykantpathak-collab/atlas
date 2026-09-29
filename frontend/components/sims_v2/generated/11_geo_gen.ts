@@ -1590,7 +1590,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Chemically Formed Sedimentary Rocks (e.",
+    "title": "Chemically Formed Sedimentary Rocks",
     "text": "Chemically formed sedimentary rocks (e.g., limestone, rock salt, gypsum) precipitate from dissolved minerals in water through evaporation or chemical reactions, while organically formed sedimentary rocks (e.",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2836,7 +2836,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "India Shares Its Land Boundary Of",
+    "title": "India Shares Its Land Boundary",
     "text": "India shares its land boundary of approximately 15,106.7 km with seven neighbouring countries—Pakistan, China, Nepal, Bhutan, Bangladesh, Myanmar, and Afghanistan—and its maritime boundary with two island nations, Sri Lanka and Maldives, across the Indian",
     "emoji": "🌍",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2848,7 +2848,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "India's Size And Area Refer To",
+    "title": "India's Size And Area",
     "text": "India's size and area refer to its total geographical area of 3.287 million square kilometres, making it the seventh-largest country in the world, with a land boundary of 15,200 km and a coastline of 7,516.",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
@@ -3504,7 +3504,7 @@ export const C11_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Physiographic Divisions Of India Refer To",
+    "title": "Physiographic Divisions Of India",
     "text": "Physiographic divisions of India refer to the classification of the Indian landmass into six major physical units—The Himalayan Mountains, The Northern Plains, The Peninsular Plateau, The Indian Desert, The Coastal Plains, and The Islands—based on distinct",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -4167,7 +4167,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Impact Of Climate On Indian Agriculture And",
+    "title": "Impact of Climate on Indian Agriculture",
     "text": "The impact of climate on Indian agriculture and economy refers to the deterministic and probabilistic influence of India's monsoonal climate—specifically the spatial-temporal distribution of rainfall, temperature regimes, and seasonal rhythms—on cropping",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
@@ -5751,7 +5751,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "ICAR (Indian Council Of Agricultural",
+    "title": "The ICAR",
     "text": "The ICAR (Indian Council of Agricultural Research) classification categorizes Indian soils into eight major groups based on their genesis, colour, composition, and location: Alluvial, Black, Red, Laterite, Forest/Mountain, Arid/Desert, Saline/Alkaline, and",
     "emoji": "🌍",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -9298,7 +9298,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Population Composition By Religion And",
+    "title": "Population Composition: Religion",
     "text": "Population composition by religion and language refers to the spatial and numerical distribution of religious communities (e.g., Hindus, Muslims, Christians, Sikhs, Buddhists, Jains, others) and linguistic groups (scheduled and non-scheduled languages) across",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -10026,7 +10026,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Rural Settlement Patterns Refer To The",
+    "title": "Rural Settlement Patterns",
     "text": "Rural settlement patterns refer to the geometric arrangement of dwellings, streets, and fields in villages, shaped by the interplay of physical factors (relief, water availability, soil fertility) and socio-cultural factors (caste structure, defense needs,",
     "emoji": "🌍",
     "bgColor": "from-violet-400 to-purple-500"
@@ -10050,13 +10050,13 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Problems Of Urban Settlements Refer To",
+    "title": "Problems Of Urban Settlements",
     "text": "Problems of urban settlements refer to the adverse conditions arising from rapid, unplanned urbanization, primarily manifested as slums (illegal, overcrowded housing lacking basic services), congestion (excessive density of population and vehicles exceeding",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Problems Of Rural Settlements Refer To",
+    "title": "Problems Of Rural Settlements",
     "text": "Problems of rural settlements refer to the persistent deficiencies in physical infrastructure (roads, electricity, water supply, sanitation, healthcare, education) and socio-economic services that hinder quality of life and economic productivity in villages,",
     "emoji": "🌍",
     "bgColor": "from-violet-400 to-purple-500"
@@ -13700,7 +13700,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Railways In India Refer To The",
+    "title": "Railways In India",
     "text": "Railways in India refer to the network of rail tracks, stations, and rolling stock that facilitate the movement of passengers and freight across the country, characterized by multiple gauge systems (broad, meter, narrow) and serving as the principal mode of",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
@@ -15009,13 +15009,13 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Conversion Between Statement Scale And",
+    "title": "Conversion Between Statement Scale",
     "text": "Conversion between Statement Scale (Verbal Scale) and Representative Fraction (RF) is the mathematical process of expressing the same map-to-ground distance relationship in two different formats: a verbal statement (e.",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Map Projection Classification By",
+    "title": "Map Projections: Classification",
     "text": "Map projection classification by developable surface categorizes projections based on the geometric surface (cylinder, cone, or plane) that can be flattened without stretching or tearing, onto which the Earth's graticule of latitudes and longitudes is",
     "emoji": "🌍",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -15992,7 +15992,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Settlement And Transport Features On",
+    "title": "Settlement and Transport Features",
     "text": "Settlement and transport features on topographical maps refer to the standardized symbols and patterns used by the Survey of India (SOI) to depict human habitation (rural/urban settlements, scattered huts, fort, etc.",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"

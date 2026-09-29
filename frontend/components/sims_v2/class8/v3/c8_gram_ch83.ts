@@ -24,7 +24,7 @@ export const c8_gram_ch83: SimDef = {
             { id: 's3', label: 'In there isare constructions the', prompt: 'Which idea is this? — In \'there is/are\' constructions the grammatical subject follows the verb, so agreement.', answer: 'In there isare constructions the', options: ['In there isare constructions the', 'The verb agrees with the', 'Agreement traps centre on distributive'] }
           ] } },
         { type: 'build', nodeId: 'c8_gram_cbse_83_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['In there-sentences, look past \'there\' to the noun after the.', 'Find the verb, ask \'who/what + verb\'.', 'Cross out of-phrases and comma-inserts.', 'Agree with the surviving head.'], answer: 'Find the verb, ask \'who/what + verb\'. Cross out of-phrases and comma-inserts. Agree with the surviving head. In there-sentences, look past \'there\' to the noun after the.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Find the verb, ask \'who/what + verb\'.', 'In there-sentences, look past \'there\' to the noun after the.', 'Cross out of-phrases and comma-inserts.', 'Agree with the surviving head.'], answer: 'Find the verb, ask \'who/what + verb\'. Cross out of-phrases and comma-inserts. Agree with the surviving head. In there-sentences, look past \'there\' to the noun after the.' } },
         { type: 'case', nodeId: 'c8_gram_ch83_003', title: 'You made it',
           caseStudy: { intro: 'You finished The verb agrees with the head of the subject. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

@@ -865,7 +865,7 @@ export const C11_PHY_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_phy_ch06",
-  "title": "Motion Of The Centre Of Mass Of a System Of",
+  "title": "Motion Of The Centre Of Mass Of a System",
   "subtitle": "Physics · Chapter 6",
   "classLevel": 11,
   "mode": "senior",
@@ -901,7 +901,7 @@ export const C11_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Motion Of The Centre Of Mass Of a System Of",
+    "title": "Motion of Centre of Mass",
     "text": "The motion of the centre of mass of a system of particles is governed by the equation \\( M \\vec{A}_{cm} = \\vec{F}_{ext} \\), where \\( M \\) is the total mass of the system, \\( \\vec{A}_{cm} \\) is the acceleration of the centre of mass, and \\( \\vec{F}_{ext} \\) is",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1218,7 +1218,7 @@ export const C11_PHY_GEN: SimDef[] = [
     "katex": "G = 6"
    },
    {
-    "title": "Gravitational Constant \\",
+    "title": "Gravitational Constant G",
     "text": "The gravitational constant \\( G \\) is the universal proportionality constant in Newton's law of universal gravitation that quantifies the strength of the gravitational force between two point masses.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500",
@@ -1243,7 +1243,7 @@ export const C11_PHY_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Gravitational Potential At a Point In a",
+    "title": "Gravitational Potential",
     "text": "Gravitational potential at a point in a gravitational field is defined as the work done per unit mass in bringing a test mass from infinity to that point without acceleration.",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2211,7 +2211,7 @@ export const C11_PHY_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "When a Travelling Wave Encounters a",
+    "title": "When a Travelling Wave Encounters a Boundary",
     "text": "When a travelling wave encounters a boundary, it gets reflected. At a rigid (fixed) boundary, the reflected wave undergoes a phase change of π rad (180°), meaning a crest reflects as a trough and vice versa.",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"

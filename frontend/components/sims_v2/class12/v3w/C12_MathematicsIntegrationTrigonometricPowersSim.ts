@@ -6,13 +6,13 @@ import C12_MathematicsIntegrationTrigonometricPowersSim from '../../../simulatio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicsintegrationtrigonometricpowerssim: SimDef = {
     id: 'v3w_c12_mathematicsintegrationtrigonometricpowerssim',
-    title: 'Integration Trigonometric Powers',
+    title: 'Standard Integrals of Trigonometric Functions',
     subtitle: 'This node covers the indefinite integrals of sin x, cos x, tan x, cot x, sec x, cosec x.',
     classLevel: 12, subject: 'mathematics', topic: 'Standard Integrals of Trigonometric Functions',
     chapters: [],
     nodeIds: ['c12_math_cbse_07_005', 'c12_math_cbse_09_002', 'c12_math_cbse_09_007', 'c12_math_cbse_07_001', 'c12_math_cbse_07_002', 'c12_math_cbse_07_003', 'c12_math_cbse_07_004', 'c12_math_cbse_07_006', 'c12_math_cbse_07_007', 'c12_math_cbse_07_011', 'c12_math_cbse_06_006', 'c12_math_cbse_07_008', 'c12_math_cbse_07_009', 'c12_math_cbse_07_010', 'c12_math_cbse_08_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a physics problem: a particle\'s velocity is given by v(t) = 5 sin(2t) m/s.', goal: 'Master Integration Trigonometric Powers.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a physics problem: a particle\'s velocity is given by v(t) = 5 sin(2t) m/s.', goal: 'Master Standard Integrals of Trigonometric Functions.' },
     discovery: {
         question: 'Write the indefinite integral of sec x tan x with respect to x, including the constant of integration.',
         options: ['∫ sec x tan x dx = sec x + C', 'sec²x + C', 'tan x + C'],
@@ -82,7 +82,7 @@ export const w_c12_mathematicsintegrationtrigonometricpowerssim: SimDef = {
             { text: 'Total cost function: \\( C(x) = \\log|x+1| + 3\\log|x+2| + 10000 - 3\\log 2 \\) rupees.', faded: true, blankAnswer: '\\( C(x) = \\log|x+1| + 3\\log|x+2| + 10000 - 3\\log 2 \\).' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_09_002', title: 'Identify each idea',
-          dissect: { specimen: 'Integration Trigonometric Powers', spots: [
+          dissect: { specimen: 'Standard Integrals of Trigonometric Functions', spots: [
             { id: 's1', label: 'Standard integrals of trigonometric functions', prompt: 'Which idea is this? — Standard integrals of trigonometric functions are the antiderivatives of the six basic.', answer: 'Standard integrals of trigonometric functions', options: ['Standard integrals of trigonometric functions', 'The degree of a differential', 'A first-order linear differential equation', 'Integration is the inverse process'] },
             { id: 's2', label: 'The degree of a differential', prompt: 'Which idea is this? — The degree of a differential equation is the highest positive integral power of the.', answer: 'The degree of a differential', options: ['The degree of a differential', 'Standard integrals of trigonometric functions', 'A first-order linear differential equation', 'Integration is the inverse process'] },
             { id: 's3', label: 'A first-order linear differential equation', prompt: 'Which idea is this? — A first-order linear differential equation is an equation of the form \\(\\frac{dy}{dx} +.', answer: 'A first-order linear differential equation', options: ['A first-order linear differential equation', 'Standard integrals of trigonometric functions', 'The degree of a differential', 'Integration is the inverse process'] },
@@ -91,7 +91,7 @@ export const w_c12_mathematicsintegrationtrigonometricpowerssim: SimDef = {
             { id: 's6', label: 'Integration by partial fractions is', prompt: 'Which idea is this? — Integration by partial fractions is a technique to integrate a proper rational function.', answer: 'Integration by partial fractions is', options: ['Integration by partial fractions is', 'Standard integrals of trigonometric functions', 'The degree of a differential', 'A first-order linear differential equation'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsIntegrationTrigonometricPowersSim, prompt: 'Explore the interactive — Integration Trigonometric Powers' },
+    explore: { component: C12_MathematicsIntegrationTrigonometricPowersSim, prompt: 'Explore the interactive — Standard Integrals of Trigonometric Functions' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_07_005', difficulty: 'standard',
           question: 'Standard integrals of trigonometric functions are the antiderivatives of the.',

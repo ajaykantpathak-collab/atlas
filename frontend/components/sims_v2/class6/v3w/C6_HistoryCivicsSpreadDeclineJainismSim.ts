@@ -6,13 +6,13 @@ import C6_HistoryCivicsSpreadDeclineJainismSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_historycivicsspreaddeclinejainismsim: SimDef = {
     id: 'v3w_c6_historycivicsspreaddeclinejainismsim',
-    title: 'Spread Decline Jainism',
+    title: 'The Spread of Buddhism Under Ashoka',
     subtitle: 'This node covers the methods of expansion (edicts, stupas, missionaries) and the.',
     classLevel: 6, subject: 'history', topic: 'The Spread of Buddhism Under Ashoka',
     chapters: [],
     nodeIds: ['c6_history_ch05_011', 'c6_history_ch05_012', 'c6_history_ch05_013'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you have a great idea for a community project, but only a few people know about it.', goal: 'Master Spread Decline Jainism.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you have a great idea for a community project, but only a few people know about it.', goal: 'Master The Spread of Buddhism Under Ashoka.' },
     discovery: {
         question: 'If Ashoka wanted to reach people who could not read, which of his methods would be most effective?',
         options: ['He would use stupas and viharas', 'forced', 'Ashoka "forced" people to become Buddhists'],
@@ -44,13 +44,13 @@ export const w_c6_historycivicsspreaddeclinejainismsim: SimDef = {
                 { text: 'they are the same time period', outcome: 'Not quite — Students often confuse the Gupta Empire with the Mauryan Empire because both have kings named.', reveals: 'students-often-confuse-the-gupta' }
             ] }] } },
         { type: 'dissect', nodeId: 'c6_history_ch05_012', title: 'Identify each idea',
-          dissect: { specimen: 'Spread Decline Jainism', spots: [
+          dissect: { specimen: 'The Spread of Buddhism Under Ashoka', spots: [
             { id: 's1', label: 'The spread of Buddhism under', prompt: 'Which idea is this? — The spread of Buddhism under Ashoka refers to the transformation of a small, local.', answer: 'The spread of Buddhism under', options: ['The spread of Buddhism under', 'The Post-Mauryan period refers to', 'The Gupta Empire was a'] },
             { id: 's2', label: 'The Post-Mauryan period refers to', prompt: 'Which idea is this? — The Post-Mauryan period refers to the era following the decline of the Mauryan Empire.', answer: 'The Post-Mauryan period refers to', options: ['The Post-Mauryan period refers to', 'The spread of Buddhism under', 'The Gupta Empire was a'] },
             { id: 's3', label: 'The Gupta Empire was a', prompt: 'Which idea is this? — The Gupta Empire was a powerful Indian dynasty founded by Chandragupta I in 320 CE that.', answer: 'The Gupta Empire was a', options: ['The Gupta Empire was a', 'The spread of Buddhism under', 'The Post-Mauryan period refers to'] }
           ] } }
     ],
-    explore: { component: C6_HistoryCivicsSpreadDeclineJainismSim, prompt: 'Explore the interactive — Spread Decline Jainism' },
+    explore: { component: C6_HistoryCivicsSpreadDeclineJainismSim, prompt: 'Explore the interactive — The Spread of Buddhism Under Ashoka' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_history_ch05_011', difficulty: 'standard',
           question: 'The spread of Buddhism under Ashoka refers to the transformation of a small,.',

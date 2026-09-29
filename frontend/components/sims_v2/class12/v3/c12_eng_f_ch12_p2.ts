@@ -19,7 +19,7 @@ export const c12_eng_f_ch12_p2: SimDef = {
         hook: 'For the Romantics beauty isn\'t decoration — it\'s survival equipment. Keats, a surgeon who abandoned medicine and was dying of TB, builds his case on Endymion\'s endless quest: a thing of beauty is \'an endless fountain of immortal drink\' precisely because life is short and dark.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying, supporting ideas in a literary work that complement and enrich the primary theme, often revealing nuanced perspectives on social, psychological, or philosophical.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'A Roadside Stand\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_12_007', title: 'Your mission',
@@ -29,28 +29,28 @@ export const c12_eng_f_ch12_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_12_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re driving past a roadside stall selling wild berries and squash — you\'re in a hurry, the paint on their sign is crooked, and you barely glance.',
+          caseStudy: { intro: 'Look beneath the main theme of \'A Roadside Stand\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a secondary theme in literature, and how does it differ from the primary theme in terms of textual prominence and.', options: [
                 { text: 'A secondary theme is a supporting idea that runs parallel to the primary theme, developed', outcome: 'A secondary theme is a supporting idea that runs parallel to the primary theme, developed through.' },
                 { text: 'minor topics', outcome: 'Not quite — Students consistently confuse **secondary themes** with **literary devices** — e.g., listing.', reveals: 'students-consistently-confuse-secondary-themes' },
                 { text: 'subplots', outcome: 'Not quite — Students consistently confuse **secondary themes** with **literary devices** — e.g., listing.', reveals: 'students-consistently-confuse-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_12_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are standing at a highway dhaba on the outskirts of your city: you see the dusty shelves with packaged snacks, hear the roar of SUVs speeding past.',
+          caseStudy: { intro: 'Find the lines in \'A Roadside Stand\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'What is the difference between imagery and metaphor in poetry? Give a one-sentence definition for each.', options: [
                 { text: 'Imagery is language that appeals to the five senses to create a sensory experience', outcome: 'Imagery is language that appeals to the five senses to create a sensory experience; metaphor is.' },
                 { text: 'like/as', outcome: 'Not quite — Students often think "imagery" only means visual description (pictures in the mind) and miss.', reveals: 'imagery-only-means-visual-description' },
                 { text: 'imagery', outcome: 'Not quite — Students often think "imagery" only means visual description (pictures in the mind) and miss.', reveals: 'imagery-only-means-visual-description' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_12_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading the poem and stumble on the phrase "greedy good-doers, beneficent beasts of prey." You know the individual words, but together they.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'A Roadside Stand\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'Define "vocabulary in context" as a literary analysis skill. How does it differ from looking up a word in a dictionary?', options: [
                 { text: 'Vocabulary in context is the practice of determining a word\'s meaning, tone, and function', outcome: 'Vocabulary in context is the practice of determining a word\'s meaning, tone, and function based.' },
                 { text: 'crossly', outcome: 'Not quite — Students treat "vocabulary in context" as "guess the meaning from surrounding words" and write.', reveals: 'students-treat-vocabulary-in-context' },
                 { text: 'word meaning is static and ignores authorial craft', outcome: 'Not quite — Students treat "vocabulary in context" as "guess the meaning from surrounding words" and write.', reveals: 'students-treat-vocabulary-in-context' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_12_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading a social media post where someone writes, "Never have I seen such beauty" instead of "I have never seen such beauty." The inverted.',
+          caseStudy: { intro: 'Read \'A Roadside Stand\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the part of speech and grammatical function of "pled" in the line "A roadside stand that too pathetically pled."', options: [
                 { text: '"Pled" is the past tense verb (past participle also possible) functioning as the main', outcome: '"Pled" is the past tense verb (past participle also possible) functioning as the main verb of the.' },
                 { text: 'pathetically', outcome: 'Not quite — Students often treat poetic syntax as "wrong grammar" and try to "correct" it to standard prose.', reveals: 'students-often-treat-poetic-syntax' }
@@ -74,7 +74,7 @@ export const c12_eng_f_ch12_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_12_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying, supporting ideas in a literary work that.',
+          question: 'Secondary themes in \'A Roadside Stand\' — the supporting ideas and motifs that.',
           hint: 'If stuck, return to node 006 and re-do the "thesis statement" exercise — then ask: "What.',
           misconception: 'Students consistently confuse **secondary themes** with **literary devices** — e.g., listing "irony," "imagery,".',
           parts: [
@@ -96,7 +96,7 @@ export const c12_eng_f_ch12_p2: SimDef = {
           ],
             remediations: { 'students-consistently-confuse-secondary-themes': { steps: ['Have the student re-read only Stanzas 3 and 6 aloud, marking every verb associated with the "greedy good-doers" (bought.', 'Ask: "What is the *direction* of these actions?', 'Guide them to formulate: "The poem argues that welfare ______." 4.', 'Repeat for the poet\'s verbs in Stanza 7 (feel, bear, owning, wonder, like, offer).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_12_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'A Roadside Stand\' — the vivid, sensory language that creates.',
           hint: 'If stuck, return to c7_engl_ch01_008 and practice the "sense hunt" exercise on a simpler.',
           misconception: 'Students often think "imagery" only means visual description (pictures in the mind) and miss auditory, tactile.',
           parts: [
@@ -107,7 +107,7 @@ export const c12_eng_f_ch12_p2: SimDef = {
           ],
             remediations: { 'imagery-only-means-visual-description': { steps: ['Revisit c6_english_u1_005 (Poetic Devices: Rhyme Scheme, Metaphor, Imagery) and c7_engl_ch01_008 (Literary Devices.', 'Do a "sense hunt": take any stanza of the poem and label every sensory word with S (sight), H (sound), T (touch),.', 'For metaphor, use the "X is Y" test: rewrite each suspected metaphor as "X is Y" and see if it makes sense without.', 'Re-attempt Diagnostic Questions 2 and 3 after this exercise.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_12_009', difficulty: 'standard',
-          question: 'Irony in poetry is a contrast between expectation and reality — where the.',
+          question: 'Irony and paradox in \'A Roadside Stand\' — where opposite things are both true.',
           hint: 'Review the metaphor identification exercise in c12_eng_f_cbse_12_008, focusing on "flower.',
           misconception: 'Students often confuse irony with mere coincidence or bad luck.',
           parts: [
@@ -118,7 +118,7 @@ export const c12_eng_f_ch12_p2: SimDef = {
           ],
             remediations: { 'students-often-confuse-irony-with': { steps: ['Re-read the poem aloud, pausing at every line that feels like a "twist." Ask: "What is expected here?', 'Who benefits from the gap?" 2.', 'List all concrete nouns in the poem (shed, signs, berries, window, car, gas, window, pain).', 'For each, ask: "Does this object appear again?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_12_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'A Roadside Stand\' — the words and phrases you must know.',
           hint: 'If stuck, review the "4-column vocabulary table" method from Class 11 Hornbill Chapter 1.',
           misconception: 'Students treat "vocabulary in context" as "guess the meaning from surrounding words" and write dictionary-style.',
           parts: [
@@ -133,7 +133,7 @@ export const c12_eng_f_ch12_p2: SimDef = {
           ],
             remediations: { 'students-treat-vocabulary-in-context': { steps: ['Re-read the poem aloud, circling every word that feels "heavy" or surprising (e.g., "artless," "beneficent,".', 'For each, write: "Literal meaning: ___ | Context clue: ___ | Connotation here: ___ | Thematic link: ___" in a 4-column.', 'Practice CBSE-style 3-marker: "Explain the significance of the phrase \'greedy good-doers\' in the poem." Use the PEEL.', 'Re-attempt Diagnostic Questions 2 and 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_12_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the study of how syntactic.',
+          question: 'Language and style in \'A Roadside Stand\' — how the writer chose words.',
           hint: 'If stuck, review "Sentence Structure and Types of Sentences" (c6_english_u4_038) and.',
           misconception: 'Students often treat poetic syntax as "wrong grammar" and try to "correct" it to standard prose, losing the emotional.',
           parts: [
@@ -144,12 +144,12 @@ export const c12_eng_f_ch12_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-poetic-syntax': { steps: ['Review the difference between prescriptive grammar (rules for standard writing) and descriptive grammar (how language.', 'Re-read c12_eng_f_cbse_12_008 (Imagery and Metaphor) to see how syntax serves imagery.', 'Practice: Take three inverted lines from the poem, rewrite them in standard order, then write a one-sentence.', 'Check understanding by explaining the effect of the parenthetical "(this crossly)" to a peer.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_12_012', difficulty: 'standard',
-          question: 'Literal comprehension involves retrieving information directly stated in the.',
+          question: 'Literal comprehension of \'A Roadside Stand\' — questions answered straight from.',
           hint: 'If stuck, review c11_eng_h_cbse_01_012 (literal vs inferential in prose) and practice.',
           misconception: 'Students often treat inferential questions as "guessing the author\'s mind" and write subjective opinions like "I think.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Literal comprehension involves retrieving information directly stated in the poem (who,',
-                  options: ['Literal comprehension involves retrieving information directly stated in the poem (who,', '"Before You Read: Context and Background" is a preparatory literary skill where students', 'Plot and Narrative Structure in a poem refers to the organization of events, images, and', 'Setting in poetry refers to the time, place, and social environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Literal comprehension of \'A Roadside Stand\'',
+                  options: ['Literal comprehension of \'A Roadside Stand\'', '\'A Roadside Stand\' (Flamingo, ch', 'The plot/narrative arc of \'A Roadside Stand\'', 'The setting of \'A Roadside Stand\''],
                   hint: 'If stuck, review c11_eng_h_cbse_01_012 (literal vs inferential in prose) and practice with a simple.',
                   misconception: 'Students often treat inferential questions as "guessing the author\'s mind" and write subjective opinions like "I think the poet feels sad".' }
           ],

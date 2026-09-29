@@ -6,13 +6,13 @@ import C6_MathematicsSymmetrySim from '../../../simulations/c6_12/C6_Mathematics
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_mathematicssymmetrysim: SimDef = {
     id: 'v3w_c6_mathematicssymmetrysim',
-    title: 'Symmetry',
+    title: 'Introduction to Symmetry',
     subtitle: 'This node covers reflectional symmetry and identifying lines of symmetry in basic.',
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Symmetry',
     chapters: [],
     nodeIds: ['c6_math_ch10_105', 'c6_math_ch10_111', 'c6_math_ch10_108', 'c6_math_ch10_109'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever looked at a beautiful butterfly and noticed how the patterns on its left wing perfectly match.', goal: 'Master Symmetry.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever looked at a beautiful butterfly and noticed how the patterns on its left wing perfectly match.', goal: 'Master Introduction to Symmetry.' },
     discovery: {
         question: 'What do we call the line that divides a shape into two identical mirror-image halves?',
         options: ['It is called the line of symmetry', 'symmetry', 'congruence'],
@@ -78,7 +78,7 @@ export const w_c6_mathematicssymmetrysim: SimDef = {
             { text: 'Check if a diagonal line creates symmetry. In a non-square rectangle, diagonals do not overlap.', faded: true, blankAnswer: '2 lines of symmetry.' }
             ] } },
         { type: 'dissect', nodeId: 'c6_math_ch10_106', title: 'Identify each idea',
-          dissect: { specimen: 'Symmetry', spots: [
+          dissect: { specimen: 'Introduction to Symmetry', spots: [
             { id: 's1', label: 'Symmetry is a property where', prompt: 'Which idea is this? — Symmetry is a property where a shape or object can be divided by a line into two parts.', answer: 'Symmetry is a property where', options: ['Symmetry is a property where', 'A line of symmetry is', 'A letter or number has', 'Rotational symmetry occurs when a'] },
             { id: 's2', label: 'A line of symmetry is', prompt: 'Which idea is this? — A line of symmetry is an imaginary line that divides a 2D shape into two identical mirror.', answer: 'A line of symmetry is', options: ['A line of symmetry is', 'Symmetry is a property where', 'A letter or number has', 'Rotational symmetry occurs when a'] },
             { id: 's3', label: 'A letter or number has', prompt: 'Which idea is this? — A letter or number has a line of symmetry if it can be folded along a straight line such.', answer: 'A letter or number has', options: ['A letter or number has', 'Symmetry is a property where', 'A line of symmetry is', 'Rotational symmetry occurs when a'] },
@@ -87,7 +87,7 @@ export const w_c6_mathematicssymmetrysim: SimDef = {
             { id: 's6', label: 'Symmetry in art and architecture', prompt: 'Which idea is this? — Symmetry in art and architecture is the balanced distribution of shapes, lines, or.', answer: 'Symmetry in art and architecture', options: ['Symmetry in art and architecture', 'Symmetry is a property where', 'A line of symmetry is', 'A letter or number has'] }
           ] } }
     ],
-    explore: { component: C6_MathematicsSymmetrySim, prompt: 'Explore the interactive — Symmetry' },
+    explore: { component: C6_MathematicsSymmetrySim, prompt: 'Explore the interactive — Introduction to Symmetry' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_math_ch10_105', difficulty: 'standard',
           question: 'Symmetry is a property where a shape or object can be divided by a line into.',

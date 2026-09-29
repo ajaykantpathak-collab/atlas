@@ -9,15 +9,13 @@ import type { SimDef } from '../engine/types';
 export const C12_SOC_GEN: SimDef[] = [
  {
   "id": "gen_c12_soc_ch01",
-  "title": "Significance Of a Sociology Of",
+  "title": "Significance Of a Sociology",
   "subtitle": "Sociology · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "sociology",
-  "topic": "Significance Of a Sociology Of",
-  "chapters": [
-   "Sociology Ch1: Significance Of a Sociology Of"
-  ],
+  "topic": "Significance Of a Sociology",
+  "chapters": ["Sociology Ch1: Significance Of a Sociology"],
   "nodeIds": [
    "c12_soc_cbse_01_001",
    "c12_soc_cbse_01_002",
@@ -36,7 +34,7 @@ export const C12_SOC_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Significance Of a Sociology Of more about facts, or about reasoning?",
+   "question": "Is Significance Of a Sociology more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -47,7 +45,7 @@ export const C12_SOC_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Significance Of a Sociology Of",
+    "title": "Significance Of a Sociology",
     "text": "The significance of a sociology of India lies in its systematic, scientific study of Indian society that moves beyond common sense by requiring 'unlearning' of partial, group-biased knowledge, enabling self-reflexivity (critical examination of one's own",
     "emoji": "👥",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -95,7 +93,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Debate Between Universalism And",
+    "title": "The Debate Between Universalism",
     "text": "The debate between universalism and particularism in studying Indian society concerns whether sociological theories and concepts developed in the West (universalism) can be directly applied to understand India, or whether India's unique historical, cultural,",
     "emoji": "👥",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -558,7 +556,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Significance Of a Sociology Of mastered! 🎯",
+  "successLine": "Significance Of a Sociology mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2784,7 +2782,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Articles 29 And 30 Of",
+    "title": "Articles 29 And 30",
     "text": "Articles 29 and 30 of the Indian Constitution constitute the Cultural and Educational Rights that protect diversity by guaranteeing: (1) the right of any section of citizens with a distinct language, script, or culture to conserve it (Article 29(1)); (2)",
     "emoji": "👥",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4071,7 +4069,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Impact Of Railways On Indian Society And",
+    "title": "The Impact of the Railways on Indian",
     "text": "The impact of railways on Indian society and economy refers to the profound and paradoxical transformations triggered by the colonial railway network (1850s onward), which integrated India into the global capitalist economy as a supplier of raw materials and",
     "emoji": "👥",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4648,7 +4646,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Critiques Of Sanskritisation Refer To The",
+    "title": "Critiques Of Sanskritisation",
     "text": "Critiques of Sanskritisation refer to the sociological arguments that challenge M.N. Srinivas's concept by highlighting its conservative nature (accepting upper-caste norms as superior), its pernicious effects (reinforcing inequality, gender discrimination,",
     "emoji": "👥",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -4660,7 +4658,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Relationship Between Sanskritisation And",
+    "title": "The Relationship Between Sanskritisation",
     "text": "The relationship between Sanskritisation and Westernisation refers to the complex, often contradictory interplay where Sanskritisation (adoption of upper-caste Hindu customs by lower groups for status mobility) and Westernisation (adoption of British/European",
     "emoji": "👥",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -4684,7 +4682,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Social Reform Movements In 19th And",
+    "title": "Social Reform Movements In 19th",
     "text": "Social reform movements in 19th and early 20th century India were organised collective efforts led by intellectuals and activists to challenge and transform oppressive social practices — such as sati, child marriage, caste discrimination, and denial of",
     "emoji": "👥",
     "bgColor": "from-amber-400 to-orange-500"
@@ -5329,7 +5327,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Casteism, Communalism, Criminalisation, And",
+    "title": "The Challenges to Indian Democracy:",
     "text": "Casteism, communalism, criminalisation, and corruption are four interlinked structural challenges that distort the functioning of Indian democracy by subverting the constitutional principles of equality, secularism, rule of law, and accountable governance.",
     "emoji": "👥",
     "bgColor": "from-violet-400 to-purple-500"
@@ -6001,15 +5999,13 @@ export const C12_SOC_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_soc_ch11",
-  "title": "The Colonial Agrarian Structure In",
+  "title": "The Colonial Agrarian Structure In India",
   "subtitle": "Sociology · Chapter 11",
   "classLevel": 12,
   "mode": "senior",
   "subject": "sociology",
-  "topic": "The Colonial Agrarian Structure In",
-  "chapters": [
-   "Sociology Ch11: The Colonial Agrarian Structure In"
-  ],
+  "topic": "The Colonial Agrarian Structure In India",
+  "chapters": ["Sociology Ch11: The Colonial Agrarian Structure In India"],
   "nodeIds": [
    "c12_soc_cbse_11_001",
    "c12_soc_cbse_11_002",
@@ -6028,7 +6024,7 @@ export const C12_SOC_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is The Colonial Agrarian Structure In more about facts, or about reasoning?",
+   "question": "Is The Colonial Agrarian Structure more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -6039,13 +6035,13 @@ export const C12_SOC_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "The Colonial Agrarian Structure In",
+    "title": "The Colonial Agrarian Structure In India",
     "text": "The colonial agrarian structure in India was a three-tier hierarchy of land rights and labour relations: zamindars/landlords (who held superior property rights and collected revenue), tenants/cultivators (who leased land and paid rent in cash or kind), and",
     "emoji": "👥",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Land Reforms After Independence Refer To",
+    "title": "Land Reforms After Independence",
     "text": "Land reforms after independence refer to the series of legislative measures (1950s–1970s) aimed at restructuring agrarian relations by abolishing intermediary landlordism (zamindari), regulating tenancy to secure cultivators' rights, and imposing ceilings on",
     "emoji": "👥",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -6081,7 +6077,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Farmers' Suicides In India Refer To",
+    "title": "Farmers' Suicides In India",
     "text": "Farmers' suicides in India refer to the tragic phenomenon where cultivators, particularly small and marginal holders, take their own lives due to overwhelming debt, repeated crop failures, and the broader agrarian crisis driven by structural changes in",
     "emoji": "👥",
     "bgColor": "from-amber-400 to-orange-500"
@@ -6697,7 +6693,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Industrial Revolution In Europe (late",
+    "title": "Industrial Revolution In Europe",
     "text": "The Industrial Revolution in Europe (late 18th to 19th century) was a transformative shift from agrarian, feudal economies to machine-based, factory-centered industrial capitalism, which radically reorganized social relations, leading to urbanization, new",
     "emoji": "👥",
     "bgColor": "from-violet-400 to-purple-500"

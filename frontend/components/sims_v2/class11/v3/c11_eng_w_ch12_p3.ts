@@ -19,30 +19,30 @@ export const c11_eng_w_ch12_p3: SimDef = {
         hook: 'The telephone strips away everything but voice — so the only place racism can operate is a question about shade, and the poem dismantles it there.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis refers to the disciplined process of examining a text\'s explicit and implicit meanings, evaluating the author\'s choices (structure, language, tone, devices).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Telephone Conversation\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_12_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Find the pivot where a housing call becomes a racial negotiation, read the silences and capitals as structure, and judge the open ending.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_12_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you overhear a phone call where someone is judged solely by their skin colour before they\'ve even been seen.',
+          caseStudy: { intro: 'Analyse \'Telephone Conversation\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the central conflict in "Telephone Conversation" and how is it introduced in the opening lines?', options: [
                 { text: 'The central conflict is racial prejudice in housing access, introduced through the', outcome: 'The central conflict is racial prejudice in housing access, introduced through the speaker\'s.' },
                 { text: 'the conflict is about rent price', outcome: 'Not quite — Students often think the poem is primarily about the landlady\'s individual racism, missing that.', reveals: 'the-poem-is-primarily-about' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_12_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing a 6-mark question: "How does Soyinka use irony to expose the landlady\'s prejudice?" Your mind goes blank because you.',
+          caseStudy: { intro: 'For written answers on \'Telephone Conversation\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does PEEL stand for in the context of writing analytical answers for literature?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explain, Line', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarizing the poem or retelling the.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarizing the poem or retelling the.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_12_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a group discussion about a time someone made an assumption about you based on your appearance — how did you respond?',
+          caseStudy: { intro: 'Talk through \'Telephone Conversation\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the central issue addressed in Wole Soyinka\'s "Telephone Conversation"?', options: [
                 { text: 'The central issue is racial prejudice in housing, specifically a white landlady\'s', outcome: 'The central issue is racial prejudice in housing, specifically a white landlady\'s invasive.' },
                 { text: 'it\'s about a phone call', outcome: 'Not quite — Students often treat the poem as a simple narrative about a rude landlady and a victimized speaker.', reveals: 'students-often-treat-the-poem' },
@@ -62,12 +62,12 @@ export const c11_eng_w_ch12_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_12_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis refers to the disciplined process.',
+          question: 'Critical thinking on \'Telephone Conversation\' — analysing the text to reach.',
           hint: 'Review the distinction between verbal irony (saying one thing, meaning another) and.',
           misconception: 'Students often think the poem is primarily about the landlady\'s individual racism, missing that Soyinka targets the.',
           parts: [
@@ -76,7 +76,7 @@ export const c11_eng_w_ch12_p3: SimDef = {
                   hint: 'Review the distinction between verbal irony (saying one thing, meaning another) and situational.',
                   misconception: 'Students often think the poem is primarily about the landlady\'s individual racism, missing that Soyinka targets the *system* of racial.' }
           ],
-            remediations: { 'the-poem-is-primarily-about': { steps: ['Have the student list every colour word in the poem and categorize them: landlady\'s terms (DARK, LIGHT) vs.', 'speaker\'s terms (sepia, brunette, peroxide blonde, raven black).', 'Ask: "Who creates more categories?', 'Who refuses to stay in one?" 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-poem-is-primarily-about': { steps: ['Have the student list every colour word in the poem and categorize them: landlady\'s terms (DARK, LIGHT) vs.', 'speaker\'s terms (sepia, brunette, peroxide blonde, raven black).', 'Ask: "Who creates more categories?', 'Who refuses to stay in one?" 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_12_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -87,9 +87,9 @@ export const c11_eng_w_ch12_p3: SimDef = {
                   hint: 'Review the distinction between verbal irony (saying one thing, meaning another) and situational.',
                   misconception: 'Students often think the poem is primarily about the landlady\'s individual racism, missing that Soyinka targets the *system* of racial.' }
           ],
-            remediations: { 'the-poem-is-primarily-about': { steps: ['Have the student list every colour word in the poem and categorize them: landlady\'s terms (DARK, LIGHT) vs.', 'speaker\'s terms (sepia, brunette, peroxide blonde, raven black).', 'Ask: "Who creates more categories?', 'Who refuses to stay in one?" 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-poem-is-primarily-about': { steps: ['Have the student list every colour word in the poem and categorize them: landlady\'s terms (DARK, LIGHT) vs.', 'speaker\'s terms (sepia, brunette, peroxide blonde, raven black).', 'Ask: "Who creates more categories?', 'Who refuses to stay in one?" 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_12_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter "Telephone Conversation" involve crafting.',
+          question: 'Writing skills from \'Telephone Conversation\' — using the text as a model.',
           hint: 'Revisit c11_eng_w_cbse_12_009 (Irony and Symbolism) and c11_eng_w_cbse_12_013 (Critical.',
           misconception: 'Students believe "writing skills based on the chapter" means summarizing the poem or retelling the conversation.',
           parts: [
@@ -102,18 +102,18 @@ export const c11_eng_w_ch12_p3: SimDef = {
                   hint: 'Revisit c11_eng_w_cbse_12_009 (Irony and Symbolism) and c11_eng_w_cbse_12_013 (Critical Thinking).',
                   misconception: 'Students believe "writing skills based on the chapter" means summarizing the poem or retelling the conversation.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['Show the student two sample answers for the same question: a 2-mark summary vs a 6-mark PEEL analysis.', 'Highlight in colour: Point (blue), Evidence (green), Explanation (yellow), Link (pink).', 'Give them a "PEEL template" with sentence starters: "The poet uses [device] to show [theme]...', 'This reveals [analysis]...'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['Show the student two sample answers for the same question: a 2-mark summary vs a 6-mark PEEL analysis.', 'Highlight in colour: Point (blue), Evidence (green), Explanation (yellow), Link (pink).', 'Give them a "PEEL template" with sentence starters: "The poet uses [device] to show [theme]...', 'This reveals [analysis]...'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_12_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points for "Telephone Conversation" refers.',
+          question: 'Discussion points on \'Telephone Conversation\' — speaking and listening around.',
           hint: 'Review the worked examples in c11_eng_w_cbse_12_009 for step-by-step irony analysis.',
           misconception: 'Students often treat the poem as a simple narrative about a rude landlady and a victimized speaker, missing that the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points for "Telephone Conversation" refers to',
-                  options: ['Speaking and Listening: Discussion Points for "Telephone Conversation" refers to', 'Before You Read: Context and Background provides essential historical, biographical, and', 'Plot and narrative structure in poetry refers to the organized sequence of events and the', 'Setting in poetry refers to the time, place, and physical environment where the poetic'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'Telephone Conversation\'',
+                  options: ['Discussion points on \'Telephone Conversation\'', '\'Telephone Conversation\' (Woven Words, ch', 'The plot/narrative arc of \'Telephone Conversation\'', 'The setting of \'Telephone Conversation\''],
                   hint: 'Review the worked examples in c11_eng_w_cbse_12_009 for step-by-step irony analysis.',
                   misconception: 'Students often treat the poem as a simple narrative about a rude landlady and a victimized speaker, missing that the *speaker controls the.' }
           ],
-            remediations: { 'students-often-treat-the-poem': { steps: ['Re-read the poem aloud, marking every colour word and every silence.', 'Identify who speaks more: the landlady asks, but the speaker *describes* — note the shift in descriptive power.', 'Review node c11_eng_w_cbse_12_009 (Irony and Symbolism) to see how the "clinical" language is mocked.', 'Practice explaining the joke in "palm of my hand, soles of my feet / Are a peroxide blonde" to a peer — if you can\'t.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-the-poem': { steps: ['Re-read the poem aloud, marking every colour word and every silence.', 'Identify who speaks more: the landlady asks, but the speaker *describes* — note the shift in descriptive power.', 'Review node c11_eng_w_cbse_12_009 (Irony and Symbolism) to see how the "clinical" language is mocked.', 'Practice explaining the joke in "palm of my hand, soles of my feet / Are a peroxide blonde" to a peer — if you can\'t.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

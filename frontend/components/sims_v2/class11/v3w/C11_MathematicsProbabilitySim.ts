@@ -6,13 +6,13 @@ import C11_MathematicsProbabilitySim from '../../../simulations/c6_12/C11_Mathem
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathematicsprobabilitysim: SimDef = {
     id: 'v3w_c11_mathematicsprobabilitysim',
-    title: 'Probability',
+    title: 'Venn Diagrams: Representation of Sets',
     subtitle: 'This node covers construction and interpretation of Venn diagrams for two and three sets.',
     classLevel: 11, subject: 'mathematics', topic: 'Venn Diagrams: Representation of Sets',
     chapters: [],
     nodeIds: ['c11_math_cbse_01_008', 'c11_math_cbse_01_010', 'c11_math_cbse_01_014'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are the class representative organizing the annual fest.', goal: 'Master Probability.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are the class representative organizing the annual fest.', goal: 'Master Venn Diagrams: Representation of Sets.' },
     discovery: {
         question: 'Three sets A, B, C are represented in a Venn diagram. The region representing A ∩ (B ∪ C) is shaded.',
         options: ['B ∪ C covers all regions inside circle B or circle C (including their overlap)', 'A and anything', 'A and (B or C)'],
@@ -54,13 +54,13 @@ export const w_c11_mathematicsprobabilitysim: SimDef = {
             { text: 'Verify: Sum of all 8 regions (7 inside + none) = 390 + 110 = 500 = n(U). Consistent.', faded: true, blankAnswer: '(i) 390 families, (ii) 260 families, (iii) 110 families.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_01_010', title: 'Identify each idea',
-          dissect: { specimen: 'Probability', spots: [
+          dissect: { specimen: 'Venn Diagrams: Representation of Sets', spots: [
             { id: 's1', label: 'A Venn diagram is a', prompt: 'Which idea is this? — A Venn diagram is a graphical representation of sets using closed curves (usually.', answer: 'A Venn diagram is a', options: ['A Venn diagram is a', 'The intersection of two sets', 'Word problems on set operations'] },
             { id: 's2', label: 'The intersection of two sets', prompt: 'Which idea is this? — The intersection of two sets A and B, denoted by A ∩ B, is the set of all elements that.', answer: 'The intersection of two sets', options: ['The intersection of two sets', 'A Venn diagram is a', 'Word problems on set operations'] },
             { id: 's3', label: 'Word problems on set operations', prompt: 'Which idea is this? — Word problems on set operations involve translating real-world scenarios involving.', answer: 'Word problems on set operations', options: ['Word problems on set operations', 'A Venn diagram is a', 'The intersection of two sets'] }
           ] } }
     ],
-    explore: { component: C11_MathematicsProbabilitySim, prompt: 'Explore the interactive — Probability' },
+    explore: { component: C11_MathematicsProbabilitySim, prompt: 'Explore the interactive — Venn Diagrams: Representation of Sets' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_01_008', difficulty: 'standard',
           question: 'A Venn diagram is a graphical representation of sets using closed curves.',

@@ -6,16 +6,16 @@ import C12_BiotechnologySomaticHybridisationpomatoSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biotechnologysomatichybridisationpomatosim: SimDef = {
     id: 'v3w_c12_biotechnologysomatichybridisationpomatosim',
-    title: 'nology Somatic Hybridisationpomato',
+    title: 'Cell Totipotency: Concept and Biological Basis',
     subtitle: 'This node covers the concept, definition, historical origin (Haberlandt), and biological.',
     classLevel: 12, subject: 'biotechnology', topic: 'Cell Totipotency: Concept and Biological Basis',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_06_001', 'c12_biotech_cbse_06_002', 'c12_biotech_cbse_06_005', 'c12_biotech_cbse_06_006', 'c12_biotech_cbse_06_008', 'c12_biotech_cbse_06_009', 'c12_biotech_cbse_06_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you take a tiny piece of carrot root (a fully differentiated, orange, non-dividing cell) and place it.', goal: 'Master nology Somatic Hybridisationpomato.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you take a tiny piece of carrot root (a fully differentiated, orange, non-dividing cell) and place it.', goal: 'Master Cell Totipotency: Concept and Biological Basis.' },
     discovery: {
         question: 'A researcher isolates single cells from the pith of a mature tobacco plant and cultures them on MS medium with 2,4-D (auxin) and kinetin (cytokinin).',
-        options: ['Correct answer: (1) Dedifferentiation', 'mitosis causes callus', 'auxin alone causes shoots'],
+        options: ['(1) Dedifferentiation', 'mitosis causes callus', 'auxin alone causes shoots'],
         answer: '(1) Dedifferentiation',
         hook: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical.',
     },
@@ -80,7 +80,7 @@ export const w_c12_biotechnologysomatichybridisationpomatosim: SimDef = {
             { text: 'Verify — expect globular embryos at 2 weeks development, cotyledonary at 4 weeks, >60% conversion on MS + 0.1 mg/L GA₃.', faded: true, blankAnswer: 'Corrected protocol: Induction = MS + 2,4-D 1.0 mg/L (dark,.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_biotech_cbse_06_002', title: 'Identify each idea',
-          dissect: { specimen: 'nology Somatic Hybridisationpomato', spots: [
+          dissect: { specimen: 'Cell Totipotency: Concept and Biological Basis', spots: [
             { id: 's1', label: 'Cell totipotency is the inherent', prompt: 'Which idea is this? — Cell totipotency is the inherent genetic potential of a single plant cell to.', answer: 'Cell totipotency is the inherent', options: ['Cell totipotency is the inherent', 'The history and milestones of', 'Explant selection is the process', 'Callus culture is the in'] },
             { id: 's2', label: 'The history and milestones of', prompt: 'Which idea is this? — The history and milestones of plant tissue culture trace the chronological development of.', answer: 'The history and milestones of', options: ['The history and milestones of', 'Cell totipotency is the inherent', 'Explant selection is the process', 'Callus culture is the in'] },
             { id: 's3', label: 'Explant selection is the process', prompt: 'Which idea is this? — Explant selection is the process of choosing a specific plant part (meristem, leaf disc,.', answer: 'Explant selection is the process', options: ['Explant selection is the process', 'Cell totipotency is the inherent', 'The history and milestones of', 'Callus culture is the in'] },
@@ -89,7 +89,7 @@ export const w_c12_biotechnologysomatichybridisationpomatosim: SimDef = {
             { id: 's6', label: 'Somatic embryogenesis is the process', prompt: 'Which idea is this? — Somatic embryogenesis is the process by which bipolar somatic embryos, structurally.', answer: 'Somatic embryogenesis is the process', options: ['Somatic embryogenesis is the process', 'Cell totipotency is the inherent', 'The history and milestones of', 'Explant selection is the process'] }
           ] } }
     ],
-    explore: { component: C12_BiotechnologySomaticHybridisationpomatoSim, prompt: 'Explore the interactive — nology Somatic Hybridisationpomato' },
+    explore: { component: C12_BiotechnologySomaticHybridisationpomatoSim, prompt: 'Explore the interactive — Cell Totipotency: Concept and Biological Basis' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_biotech_cbse_06_001', difficulty: 'standard',
           question: 'Cell totipotency is the inherent genetic potential of a single plant cell to.',

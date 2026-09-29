@@ -60,13 +60,13 @@ export const C7_ECO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Emergence Of Money Represents The",
+    "title": "Emergence Of Money",
     "text": "The emergence of money represents the historical evolution from a cumbersome barter system to a universally accepted medium of exchange that solves the problem of the double coincidence of wants.",
     "emoji": "📈",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Early Forms Of Money Refer To",
+    "title": "Early Forms Of Money",
     "text": "Early forms of money refer to specific everyday commodities—such as cowrie shells, livestock (cattle), salt, and grain—that societies universally agreed upon to use as a medium of exchange before standardized metallic coins or paper currency existed.",
     "emoji": "📈",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -96,7 +96,7 @@ export const C7_ECO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Electronic And Digital Transactions Refer To",
+    "title": "Electronic And Digital Transactions",
     "text": "Electronic and digital transactions refer to the transfer of funds and financial settlements conducted through digital devices and telecommunication networks without the physical exchange of cash or paper cheques.",
     "emoji": "📈",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -580,7 +580,7 @@ export const C7_ECO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Market Challenges Like Exploitation And",
+    "title": "Challenges in Markets: Exploitation",
     "text": "Market challenges like exploitation and information gaps occur when one party in a transaction possesses significantly more power, influence, or knowledge than the other, leading to unfair prices, substandard goods, or deceptive practices.",
     "emoji": "📈",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1023,7 +1023,7 @@ export const C7_ECO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Transportation Infrastructure Comprises The",
+    "title": "Transportation Infrastructure: Roads,",
     "text": "Transportation infrastructure comprises the physical networks—specifically roads, bridges, and railways—that facilitate the movement of people, raw materials, and finished goods across regions, thereby integrating local markets into a national economy.",
     "emoji": "📈",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1035,19 +1035,19 @@ export const C7_ECO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Communication Networks Such As The",
+    "title": "Communication Networks Such As The Internet",
     "text": "Communication networks such as the internet, telecom systems, and telephone lines are vital components of modern infrastructure that enable the instant transmission of information, voice, and data across regional, national, and global markets, thereby",
     "emoji": "📈",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Energy Infrastructure Comprises The",
+    "title": "Energy Infrastructure: Windmills, Solar",
     "text": "Energy infrastructure comprises the large-scale networks, facilities, and physical assets—such as windmills, solar parks, and oil or gas pipelines—that produce, transport, and distribute power to fuel economic activities across the nation.",
     "emoji": "📈",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Transformation Of Infrastructure Over The",
+    "title": "How Infrastructure Transformed Over",
     "text": "The transformation of infrastructure over the years in India refers to the historical evolution and modernization of physical, social, and digital assets—such as roads, railways, power grids, telecommunications, and ports—from pre-independence rudimentary",
     "emoji": "📈",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1059,7 +1059,7 @@ export const C7_ECO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Infrastructure Serves As The Backbone Of",
+    "title": "Infrastructure Serves As The Backbone",
     "text": "Infrastructure serves as the backbone of economic development by providing the essential physical and social structures—such as transportation, energy, water systems, and communication networks—that lower production costs and enable efficient market exchange.",
     "emoji": "📈",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1648,13 +1648,13 @@ export const C7_ECO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Banks Offer Different Types Of",
+    "title": "Types of Bank Accounts: Savings, Current,",
     "text": "Banks offer different types of accounts—Savings, Current, and Fixed Deposit—tailored to meet the unique financial needs of individuals, traders, and long-term savers.",
     "emoji": "📈",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Loans And Credit Refer To The",
+    "title": "Loans And Credit",
     "text": "Loans and credit refer to the economic process where banks lend accumulated deposits to borrowers in exchange for a promise of future repayment along with an added fee called interest.",
     "emoji": "📈",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1678,7 +1678,7 @@ export const C7_ECO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Financial Infrastructure Comprises The",
+    "title": "Role of Financial Infrastructure",
     "text": "Financial infrastructure comprises the institutional and systemic framework—including banks, stock markets, and payment systems—that channels savings into productive investments, driving a nation's economic growth and development.",
     "emoji": "📈",
     "bgColor": "from-emerald-400 to-teal-500"

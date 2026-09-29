@@ -6,13 +6,13 @@ import C12_SociologyDefinitionFeaturesTribeSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_sociologydefinitionfeaturestribesim: SimDef = {
     id: 'v3w_c12_sociologydefinitionfeaturestribesim',
-    title: 'Definition Features Tribe',
+    title: 'The Distinctive Features of Indian Society: Plurality, Diversity and Stratification',
     subtitle: 'This node covers the conceptual definitions and interrelationships of plurality,.',
     classLevel: 12, subject: 'sociology', topic: 'The Distinctive Features of Indian Society: Plurality, Diversity and Stratification',
     chapters: [],
     nodeIds: ['c12_soc_cbse_01_008', 'c12_soc_cbse_01_001', 'c12_soc_cbse_09_001', 'c12_soc_cbse_03_002', 'c12_soc_cbse_03_005', 'c12_soc_cbse_03_006', 'c12_soc_cbse_03_001', 'c12_soc_cbse_05_001', 'c12_soc_cbse_10_001', 'c12_soc_cbse_10_002', 'c12_soc_cbse_13_002', 'c12_soc_cbse_09_002', 'c12_soc_cbse_15_001', 'c12_soc_cbse_15_011', 'c12_soc_cbse_01_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing in a bustling railway station in Mumbai: you hear Marathi, Hindi, Gujarati, Tamil,.', goal: 'Master Definition Features Tribe.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing in a bustling railway station in Mumbai: you hear Marathi, Hindi, Gujarati, Tamil,.', goal: 'Master The Distinctive Features of Indian Society: Plurality, Diversity and Stratification.' },
     discovery: {
         question: 'Apply the concept of "achieved vs. ascribed identity" to analyse this situation: A Dalit student clears UPSC, becomes an IAS officer, but his marriage is still.',
         options: ['Partial modernisation', 'fully modernised', 'not modernised because arranged marriage'],
@@ -77,7 +77,7 @@ export const w_c12_sociologydefinitionfeaturestribesim: SimDef = {
             { text: 'Formulate research hypothesis. "Development-induced displacement triggers identity assertion, but the *form* of.', faded: true, blankAnswer: 'Comparative framework with 5 analytical steps as above;.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_soc_cbse_01_001', title: 'Identify each idea',
-          dissect: { specimen: 'Definition Features Tribe', spots: [
+          dissect: { specimen: 'The Distinctive Features of Indian Society: Plurality, Diversity and Stratification', spots: [
             { id: 's1', label: 'The distinctive features of Indian', prompt: 'Which idea is this? — The distinctive features of Indian society refer to its **plurality** (coexistence of.', answer: 'The distinctive features of Indian', options: ['The distinctive features of Indian', 'The significance of a sociology', 'Modernisation is a sociological process', 'Caste as a system of'] },
             { id: 's2', label: 'The significance of a sociology', prompt: 'Which idea is this? — The significance of a sociology of India lies in its systematic, scientific study of.', answer: 'The significance of a sociology', options: ['The significance of a sociology', 'The distinctive features of Indian', 'Modernisation is a sociological process', 'Caste as a system of'] },
             { id: 's3', label: 'Modernisation is a sociological process', prompt: 'Which idea is this? — Modernisation is a sociological process of cultural change where traditional, local, and.', answer: 'Modernisation is a sociological process', options: ['Modernisation is a sociological process', 'The distinctive features of Indian', 'The significance of a sociology', 'Caste as a system of'] },
@@ -86,7 +86,7 @@ export const w_c12_sociologydefinitionfeaturestribesim: SimDef = {
             { id: 's6', label: 'Tribal societies in India are', prompt: 'Which idea is this? — Tribal societies in India are distinct communities characterised by their historical.', answer: 'Tribal societies in India are', options: ['Tribal societies in India are', 'The distinctive features of Indian', 'The significance of a sociology', 'Modernisation is a sociological process'] }
           ] } }
     ],
-    explore: { component: C12_SociologyDefinitionFeaturesTribeSim, prompt: 'Explore the interactive — Definition Features Tribe' },
+    explore: { component: C12_SociologyDefinitionFeaturesTribeSim, prompt: 'Explore the interactive — The Distinctive Features of Indian Society: Plurality, Diversity and Stratification' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_soc_cbse_01_008', difficulty: 'standard',
           question: 'The distinctive features of Indian society refer to its **plurality**.',

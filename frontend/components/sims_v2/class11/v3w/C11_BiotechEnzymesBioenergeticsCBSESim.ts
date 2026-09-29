@@ -6,16 +6,16 @@ import C11_BiotechEnzymesBioenergeticsCBSESim from '../../../simulations/c6_12_n
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biotechenzymesbioenergeticscbsesim: SimDef = {
     id: 'v3w_c11_biotechenzymesbioenergeticscbsesim',
-    title: 'Enzymes Bioenergetics CBSE',
+    title: 'Mitochondria: Structure and ATP Synthesis',
     subtitle: 'Covers mitochondrial ultrastructure, compartmentalisation of TCA cycle (matrix) vs.',
     classLevel: 11, subject: 'biotechnology', topic: 'Mitochondria: Structure and ATP Synthesis',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_02_007', 'c11_biotech_cbse_02_008', 'c11_biotech_cbse_02_003', 'c11_biotech_cbse_02_006', 'c11_biotech_cbse_02_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a long-distance runner collapsing at the 35 km mark — their muscle cells have exhausted glycolytic.', goal: 'Master Enzymes Bioenergetics CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a long-distance runner collapsing at the 35 km mark — their muscle cells have exhausted glycolytic.', goal: 'Master Mitochondria: Structure and ATP Synthesis.' },
     discovery: {
         question: 'State the two mitochondrial compartments where the TCA cycle enzymes and the electron transport chain complexes are respectively located, and name the membrane.',
-        options: ['Correct answer: TCA cycle enzymes are in the mitochondrial matrix', 'mitochondria = ATP', 'ATP is synthesised in the mitochondrial matrix'],
+        options: ['TCA cycle enzymes are in the mitochondrial matrix', 'mitochondria = ATP', 'ATP is synthesised in the mitochondrial matrix'],
         answer: 'TCA cycle enzymes are in the mitochondrial matrix',
         hook: 'Students believe ATP is synthesised in the mitochondrial matrix because the TCA cycle occurs there.',
     },
@@ -73,7 +73,7 @@ export const w_c11_biotechenzymesbioenergeticscbsesim: SimDef = {
             { text: 'Interpret: This osmotic pressure draws water into the vacuole, pushing the plasma membrane against the rigid cell wall,.', faded: true, blankAnswer: 'Vacuole volume = 471,240 µm³; Osmotic pressure ≈ 2.48 MPa.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_biotech_cbse_02_008', title: 'Identify each idea',
-          dissect: { specimen: 'Enzymes Bioenergetics CBSE', spots: [
+          dissect: { specimen: 'Mitochondria: Structure and ATP Synthesis', spots: [
             { id: 's1', label: 'Mitochondria are double membrane-bound organelles', prompt: 'Which idea is this? — Mitochondria are double membrane-bound organelles in eukaryotic cells where the inner.', answer: 'Mitochondria are double membrane-bound organelles', options: ['Mitochondria are double membrane-bound organelles', 'A chloroplast is a double-membrane-bound', 'The cell wall is a', 'Lysosomes are single-membrane-bound spherical organelles'] },
             { id: 's2', label: 'A chloroplast is a double-membrane-bound', prompt: 'Which idea is this? — A chloroplast is a double-membrane-bound plastid containing chlorophyll pigments.', answer: 'A chloroplast is a double-membrane-bound', options: ['A chloroplast is a double-membrane-bound', 'Mitochondria are double membrane-bound organelles', 'The cell wall is a', 'Lysosomes are single-membrane-bound spherical organelles'] },
             { id: 's3', label: 'The cell wall is a', prompt: 'Which idea is this? — The cell wall is a rigid, dynamic extracellular matrix surrounding the plasma membrane of.', answer: 'The cell wall is a', options: ['The cell wall is a', 'Mitochondria are double membrane-bound organelles', 'A chloroplast is a double-membrane-bound', 'Lysosomes are single-membrane-bound spherical organelles'] },
@@ -81,7 +81,7 @@ export const w_c11_biotechenzymesbioenergeticscbsesim: SimDef = {
             { id: 's5', label: 'Vacuoles are membrane-bound organelles tonoplast', prompt: 'Which idea is this? — Vacuoles are membrane-bound organelles (tonoplast) in plant, fungal, and some animal.', answer: 'Vacuoles are membrane-bound organelles tonoplast', options: ['Vacuoles are membrane-bound organelles tonoplast', 'Mitochondria are double membrane-bound organelles', 'A chloroplast is a double-membrane-bound', 'The cell wall is a'] }
           ] } }
     ],
-    explore: { component: C11_BiotechEnzymesBioenergeticsCBSESim, prompt: 'Explore the interactive — Enzymes Bioenergetics CBSE' },
+    explore: { component: C11_BiotechEnzymesBioenergeticsCBSESim, prompt: 'Explore the interactive — Mitochondria: Structure and ATP Synthesis' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_biotech_cbse_02_007', difficulty: 'standard',
           question: 'Mitochondria are double membrane-bound organelles in eukaryotic cells where the.',

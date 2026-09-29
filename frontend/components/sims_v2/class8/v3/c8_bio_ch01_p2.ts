@@ -137,6 +137,10 @@ export const c8_bio_ch01_p2: SimDef = {
                 { id: 'a', prompt: 'What is the most basic structural and functional unit of life in all living organisms?', answer: 'A cell',
                   options: ['A cell', 'tissue'],
                   hint: 'Review c8_bio_ch1_3 to reinforce what a cell is before moving to cellular coordination and tissues.',
+                  misconception: 'Students often think that an organ is made of only one type of cell or tissue, similar to how a brick wall is built entirely of identical.' },
+                { id: 'b', prompt: 'A doctor examines a sample of human inner cheek lining under a microscope and sees a tight sheet of similar cells working together to protect the underlying.', answer: 'Identify the biological sample as a collection of similar cells',
+                  options: ['Identify the biological sample as a collection of similar cells', 'missed the group aspect, while one who answers'],
+                  hint: 'Review c8_bio_ch1_3 to reinforce what a cell is before moving to cellular coordination and tissues.',
                   misconception: 'Students often think that an organ is made of only one type of cell or tissue, similar to how a brick wall is built entirely of identical.' }
           ],
             remediations: { 'an-organ-is-made-of': { steps: ['To fix this misconception, guide the student to examine a complex multi-part object like a bicycle or a smartphone.', 'Then explain that biological organs like the stomach or heart are similar multi-component structures made of different.', 'Have them review c8_bio_ch1_3 and c8_bio_ch1_8 to see how cells combine into various tissues.'], labTask: { instruction: 'On the interactive: zoom into the cell to 70% — what organelles appear? — then check.', widget: 'cell', validate: 'cell:zoom=70' } } } },

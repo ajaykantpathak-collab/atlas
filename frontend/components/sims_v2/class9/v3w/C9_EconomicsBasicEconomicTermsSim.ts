@@ -6,13 +6,13 @@ import C9_EconomicsBasicEconomicTermsSim from '../../../simulations/c6_12/C9_Eco
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_economicsbasiceconomictermssim: SimDef = {
     id: 'v3w_c9_economicsbasiceconomictermssim',
-    title: 'Basic Economic Terms',
+    title: 'Public Goods: Characteristics and Government Provision',
     subtitle: 'Covers the definition and two core characteristics of public goods (non-excludability,.',
     classLevel: 9, subject: 'economics', topic: 'Public Goods: Characteristics and Government Provision',
     chapters: [],
     nodeIds: ['c9_eco_ch1_10', 'c9_eco_ch1_3'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are walking home at 8 PM in your neighbourhood in Bengaluru.', goal: 'Master Basic Economic Terms.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are walking home at 8 PM in your neighbourhood in Bengaluru.', goal: 'Master Public Goods: Characteristics and Government Provision.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Public goods are goods characterized by.', text: 'Public goods are goods characterized by **non-excludability** (impossible or extremely costly to prevent anyone from using them) and **non-rivalry** (one person\'s consumption does not reduce.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -37,12 +37,12 @@ export const w_c9_economicsbasiceconomictermssim: SimDef = {
             { text: 'Interpret: The opportunity cost of buying the scooter is the ₹12,250.43 the FD would have grown to.', faded: true, blankAnswer: 'Opportunity cost of buying the scooter = ₹12,250.43 (the.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_eco_ch1_3', title: 'Identify each idea',
-          dissect: { specimen: 'Basic Economic Terms', spots: [
+          dissect: { specimen: 'Public Goods: Characteristics and Government Provision', spots: [
             { id: 's1', label: 'Public goods are goods characterized', prompt: 'Which idea is this? — Public goods are goods characterized by **non-excludability** (impossible or extremely.', answer: 'Public goods are goods characterized', options: ['Public goods are goods characterized', 'Opportunity cost is the value'] },
             { id: 's2', label: 'Opportunity cost is the value', prompt: 'Which idea is this? — Opportunity cost is the value of the next best alternative forgone when a choice is made,.', answer: 'Opportunity cost is the value', options: ['Opportunity cost is the value', 'Public goods are goods characterized'] }
           ] } }
     ],
-    explore: { component: C9_EconomicsBasicEconomicTermsSim, prompt: 'Explore the interactive — Basic Economic Terms' },
+    explore: { component: C9_EconomicsBasicEconomicTermsSim, prompt: 'Explore the interactive — Public Goods: Characteristics and Government Provision' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_eco_ch1_10', difficulty: 'standard',
           question: 'Public goods are goods characterized by **non-excludability** (impossible or.',

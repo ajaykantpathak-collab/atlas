@@ -268,15 +268,13 @@ export const C12_PHY_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_phy_ch03",
-  "title": "Ohm's Law States That For",
+  "title": "Ohm's Law",
   "subtitle": "Physics · Chapter 3",
   "classLevel": 12,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Ohm's Law States That For",
-  "chapters": [
-   "Physics Ch3: Ohm's Law States That For"
-  ],
+  "topic": "Ohm's Law",
+  "chapters": ["Physics Ch3: Ohm's Law"],
   "nodeIds": [
    "c12_phy_cbse_03_002",
    "c12_phy_cbse_03_004"
@@ -288,7 +286,7 @@ export const C12_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Ohm's Law States That For in real working life?",
+   "question": "Who uses Ohm's Law in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -299,7 +297,7 @@ export const C12_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Ohm's Law States That For",
+    "title": "Ohm's Law",
     "text": "Ohm's Law states that for a given metallic conductor at constant temperature, the current (I) flowing through it is directly proportional to the potential difference (V) applied across its ends, i.",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -843,7 +841,7 @@ export const C12_PHY_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Ohm's Law States That For mastered! 🎯",
+  "successLine": "Ohm's Law mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1953,15 +1951,13 @@ export const C12_PHY_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_phy_ch12",
-  "title": "Rutherford's Nuclear Model Of The",
+  "title": "Rutherford's Nuclear Model Of The Atom",
   "subtitle": "Physics · Chapter 12",
   "classLevel": 12,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Rutherford's Nuclear Model Of The",
-  "chapters": [
-   "Physics Ch12: Rutherford's Nuclear Model Of The"
-  ],
+  "topic": "Rutherford's Nuclear Model Of The Atom",
+  "chapters": ["Physics Ch12: Rutherford's Nuclear Model Of The Atom"],
   "nodeIds": [
    "c12_phy_cbse_12_001"
   ],
@@ -1983,7 +1979,7 @@ export const C12_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Rutherford's Nuclear Model Of The",
+    "title": "Rutherford's Nuclear Model Of The Atom",
     "text": "Rutherford's nuclear model of the atom states that the entire positive charge and nearly all the mass of an atom are concentrated in a tiny, dense nucleus (radius ~10⁻¹⁵ m), while electrons revolve around this nucleus at distances ~10⁻¹⁰ m, making the atom",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2183,7 +2179,7 @@ export const C12_PHY_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Rutherford's Nuclear Model Of mastered! 🎯",
+  "successLine": "Rutherford's Nuclear Model mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {

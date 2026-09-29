@@ -19,44 +19,44 @@ export const c11_eng_s_ch04_p1: SimDef = {
         hook: 'The delivery creates a crisis instead of ending one — climax is the turn, not the title event.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'Context and background refers to the historical, social, cultural, and biographical information surrounding a literary work that illuminates its setting, characters, themes, and authorial intent.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Birth\' (Snapshots, ch. 4) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_s_cbse_04_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Map injection, resuscitation, first cry and the dawn walk onto the arc, and defend an ending that skips the mother\'s recovery.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_04_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are a doctor in 1920s Wales, called to a miner\'s home at midnight for a difficult birth with no modern equipment.',
+          caseStudy: { intro: 'Start with the author of \'Birth\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who is the author of "The Citadel," and what was his profession before becoming a full-time writer?', options: [
                 { text: 'A.J', outcome: 'A.J. Cronin, a Scottish physician who practiced medicine in Wales and on a luxury liner before.' },
                 { text: 'context', outcome: 'Not quite — Students often think "context" means only the author\'s birth/death dates or a list of historical.', reveals: 'context-means-only-the-author' },
                 { text: 'a different author or profession', outcome: 'Not quite — Students often think "context" means only the author\'s birth/death dates or a list of historical.', reveals: 'context-means-only-the-author' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_04_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re watching a medical drama where a young doctor faces his first life-or-death case while battling personal doubts about his career and.',
+          caseStudy: { intro: 'Trace \'Birth\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'Define the five standard stages of a narrative arc (Freytag\'s Pyramid) and identify which stage in "Birth" contains Joe Morgan\'s arrival.', options: [
                 { text: 'The five stages are: (1) Exposition—establishing characters, setting, and status quo', outcome: 'The five stages are: (1) Exposition—establishing characters, setting, and status quo; (2) Rising.' },
                 { text: 'climax', outcome: 'Not quite — Students believe the **birth of the child** (the delivery scene) is the climax because it\'s the.', reveals: 'the-birth-of-the-child' },
                 { text: 'exposition', outcome: 'Not quite — Students believe the **birth of the child** (the delivery scene) is the climax because it\'s the.', reveals: 'the-birth-of-the-child' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_04_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine walking through an unfamiliar neighborhood at midnight — what do you notice? The silence, the dim lights, the cool air, the feeling of anticipation?',
+          caseStudy: { intro: 'Identify where and when \'Birth\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the physical setting of the Morgan household in "Birth," and what time of day does the story begin?', options: [
                 { text: 'The Morgan household is at Number 12 Blaina Terrace, a narrow-staired, poorly furnished', outcome: 'The Morgan household is at Number 12 Blaina Terrace, a narrow-staired, poorly furnished bedroom lit.' },
                 { text: 'the mood', outcome: 'Not quite — Students often think setting is only the geographical location and time, and atmosphere is just.', reveals: 'setting-is-only-the-geographical' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_04_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are a doctor called to a difficult birth at midnight — the husband paces outside, the grandmother watches you like a hawk, and the midwife doubts.',
+          caseStudy: { intro: 'Spot the secondary figures in \'Birth\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'Name the three supporting characters who are physically present during the birth scene in the Morgan household and state one distinguishing.', options: [
                 { text: 'The three supporting characters are: (1) Joe Morgan', outcome: 'The three supporting characters are: (1) Joe Morgan — the anxious husband who paces outside.' },
                 { text: 'Joe Morgan is just the husband who calls the doctor', outcome: 'Not quite — Students often treat supporting characters as mere plot devices — e.g., "Joe Morgan is just the.', reveals: 'students-often-treat-supporting-characters' },
                 { text: 'The midwife is only there to be proven wrong', outcome: 'Not quite — Students often treat supporting characters as mere plot devices — e.g., "Joe Morgan is just the.', reveals: 'students-often-treat-supporting-characters' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_04_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are Andrew Manson, exhausted after a night of failing to save a newborn, suddenly feeling a tiny heartbeat under your fingers.',
+          caseStudy: { intro: 'Ask what \'Birth\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the difference between a story\'s *plot* and its *primary theme*? Answer in one sentence.', options: [
                 { text: 'Plot is the sequence of events (what happens)', outcome: 'Plot is the sequence of events (what happens); primary theme is the central idea about human.' },
                 { text: 'The theme is that a doctor delivers a baby', outcome: 'Not quite — Students often confuse the **primary theme** with the **most discussed topic** in the story.', reveals: 'students-often-confuse-the-primary' }
@@ -75,12 +75,12 @@ export const c11_eng_s_ch04_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_04_001', difficulty: 'standard',
-          question: 'Context and background refers to the historical, social, cultural, and.',
+          question: '\'Birth\' (Snapshots, ch. 4) — the context and background to this text: who wrote.',
           hint: 'If stuck, review Class 10 node c10_engl_cbse_04_001 (Anne Frank\'s historical context) and.',
           misconception: 'Students often think "context" means only the author\'s birth/death dates or a list of historical events.',
           parts: [
@@ -89,9 +89,9 @@ export const c11_eng_s_ch04_p1: SimDef = {
                   hint: 'If stuck, review Class 10 node c10_engl_cbse_04_001 (Anne Frank\'s historical context) and practice.',
                   misconception: 'Students often think "context" means only the author\'s birth/death dates or a list of historical events.' }
           ],
-            remediations: { 'context-means-only-the-author': { steps: ['If a student gives only dates/events, ask: "What did a miner earn?', 'What happened if he couldn\'t pay the doctor?', 'How did women give birth without hospitals?" Guide them to research one aspect: wages, housing, medical fees, midwife.', 'Then have them rewrite a scene from the story inserting one concrete detail they discovered (e.g., the cost of the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'context-means-only-the-author': { steps: ['If a student gives only dates/events, ask: "What did a miner earn?', 'What happened if he couldn\'t pay the doctor?', 'How did women give birth without hospitals?" Guide them to research one aspect: wages, housing, medical fees, midwife.', 'Then have them rewrite a scene from the story inserting one concrete detail they discovered (e.g., the cost of the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_04_002', difficulty: 'standard',
-          question: 'Plot and narrative structure refers to the organized sequence of events in.',
+          question: 'The plot/narrative arc of \'Birth\' — what happens, in what order, and why the.',
           hint: 'If stuck, review Class 10 "The Thief\'s Story" (c10_engl_cbse_11_008) for first-person.',
           misconception: 'Students believe the **birth of the child** (the delivery scene) is the climax because it\'s the titular event and.',
           parts: [
@@ -100,7 +100,7 @@ export const c11_eng_s_ch04_p1: SimDef = {
                   hint: 'If stuck, review Class 10 "The Thief\'s Story" (c10_engl_cbse_11_008) for first-person confession.',
                   misconception: 'Students believe the **birth of the child** (the delivery scene) is the climax because it\'s the titular event and involves the most.' }
           ],
-            remediations: { 'the-birth-of-the-child': { steps: ['**Re-teach the distinction**: Use a two-column table: "Event" vs.', '"Structural Function." List: Delivery → Complication (new problem); Resuscitation → Climax (irreversible change.', '**Visual mapping**: Have the student draw Freytag\'s Pyramid for "Birth" twice—once with delivery as climax (showing how.', '**Protagonist-problem anchor**: Ask: "What is Andrew\'s problem at the start?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-birth-of-the-child': { steps: ['**Re-teach the distinction**: Use a two-column table: "Event" vs.', '"Structural Function." List: Delivery → Complication (new problem); Resuscitation → Climax (irreversible change.', '**Visual mapping**: Have the student draw Freytag\'s Pyramid for "Birth" twice—once with delivery as climax (showing how.', '**Protagonist-problem anchor**: Ask: "What is Andrew\'s problem at the start?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_04_002', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -115,20 +115,20 @@ export const c11_eng_s_ch04_p1: SimDef = {
                   hint: 'If stuck, review Class 10 "The Thief\'s Story" (c10_engl_cbse_11_008) for first-person confession.',
                   misconception: 'Students believe the **birth of the child** (the delivery scene) is the climax because it\'s the titular event and involves the most.' }
           ],
-            remediations: { 'the-birth-of-the-child': { steps: ['**Re-teach the distinction**: Use a two-column table: "Event" vs.', '"Structural Function." List: Delivery → Complication (new problem); Resuscitation → Climax (irreversible change.', '**Visual mapping**: Have the student draw Freytag\'s Pyramid for "Birth" twice—once with delivery as climax (showing how.', '**Protagonist-problem anchor**: Ask: "What is Andrew\'s problem at the start?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-birth-of-the-child': { steps: ['**Re-teach the distinction**: Use a two-column table: "Event" vs.', '"Structural Function." List: Delivery → Complication (new problem); Resuscitation → Climax (irreversible change.', '**Visual mapping**: Have the student draw Freytag\'s Pyramid for "Birth" twice—once with delivery as climax (showing how.', '**Protagonist-problem anchor**: Ask: "What is Andrew\'s problem at the start?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_04_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social environment in which a story.',
+          question: 'The setting of \'Birth\' — the place, time and atmosphere the text creates.',
           hint: 'Review the skill of annotating sensory details (sight, sound, touch, smell) in a prose.',
           misconception: 'Students often think setting is only the geographical location and time, and atmosphere is just "the mood." They miss.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting refers to the time, place, and social environment in',
-                  options: ['Setting refers to the time, place, and social environment in', 'Context and background refers to the historical, social, cultural, and biographical', 'Plot and narrative structure refers to the organized sequence of events in a story and', 'Character analysis of the protagonist involves examining the central character\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'Birth\'',
+                  options: ['The setting of \'Birth\'', '\'Birth\' (Snapshots, ch', 'The plot/narrative arc of \'Birth\'', 'Character analysis in \'Birth\''],
                   hint: 'Review the skill of annotating sensory details (sight, sound, touch, smell) in a prose passage.',
                   misconception: 'Students often think setting is only the geographical location and time, and atmosphere is just "the mood." They miss that setting includes.' }
           ],
-            remediations: { 'setting-is-only-the-geographical': { steps: ['If a student cannot move beyond "time and place," guide them to: (1) List every sensory detail in a chosen paragraph.', '(2) Label each as sight/sound/touch/smell.', '(3) Ask: "What does this combination make you feel?" (4) Connect that feeling to Andrew\'s state of mind at that moment.', 'Repeat for the resuscitation scene to see the shift.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'setting-is-only-the-geographical': { steps: ['If a student cannot move beyond "time and place," guide them to: (1) List every sensory detail in a chosen paragraph.', '(2) Label each as sight/sound/touch/smell.', '(3) Ask: "What does this combination make you feel?" (4) Connect that feeling to Andrew\'s state of mind at that moment.', 'Repeat for the resuscitation scene to see the shift.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_04_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the central.',
+          question: 'Character analysis in \'Birth\' — the central figure(s), their traits, and how.',
           hint: 'If stuck, re-read the kitchen scene (internal monologue) and the resuscitation scene.',
           misconception: 'Students often treat Andrew\'s success as a lucky miracle rather than the result of his deliberate, knowledge-based.',
           parts: [
@@ -137,9 +137,9 @@ export const c11_eng_s_ch04_p1: SimDef = {
                   hint: 'If stuck, re-read the kitchen scene (internal monologue) and the resuscitation scene (actions).',
                   misconception: 'Students often treat Andrew\'s success as a lucky miracle rather than the result of his deliberate, knowledge-based persistence.' }
           ],
-            remediations: { 'students-often-treat-andrew-s': { steps: ['Have the student list every verb describing Andrew\'s actions during resuscitation (e.g., "smash," "inject," "flung,".', 'Ask: "Which of these are instinctive?', 'Which require medical knowledge?" 3.', 'Map each action to a textual cue (e.g., "whiteness meant asphyxia" → knowledge).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-andrew-s': { steps: ['Have the student list every verb describing Andrew\'s actions during resuscitation (e.g., "smash," "inject," "flung,".', 'Ask: "Which of these are instinctive?', 'Which require medical knowledge?" 3.', 'Map each action to a textual cue (e.g., "whiteness meant asphyxia" → knowledge).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_04_005', difficulty: 'standard',
-          question: 'Supporting character analysis examines how secondary figures (Joe Morgan, Mrs.',
+          question: 'Supporting characters in \'Birth\' — the secondary figures who move the story.',
           hint: 'Review c10_engl_cbse_01_008 (Postmaster analysis) and practice identifying three ways the.',
           misconception: 'Students often treat supporting characters as mere plot devices — e.g., "Joe Morgan is just the husband who calls the.',
           parts: [
@@ -156,9 +156,9 @@ export const c11_eng_s_ch04_p1: SimDef = {
                   hint: 'Review c10_engl_cbse_01_008 (Postmaster analysis) and practice identifying three ways the.',
                   misconception: 'Students often treat supporting characters as mere plot devices — e.g., "Joe Morgan is just the husband who calls the doctor" or "The.' }
           ],
-            remediations: { 'students-often-treat-supporting-characters': { steps: ['Have the student re-read only the scenes where Andrew is absent or silent (Joe waiting outside, grandmother in kitchen.', 'Ask: "What is this person feeling right now that Andrew cannot see?" 3.', 'Model a think-aloud: "The grandmother\'s \'eyes strangely alive and wise, probing\' — she\'s not just watching; she\'s.', 'Require the student to rewrite one diagnostic answer using this evidence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-supporting-characters': { steps: ['Have the student re-read only the scenes where Andrew is absent or silent (Joe waiting outside, grandmother in kitchen.', 'Ask: "What is this person feeling right now that Andrew cannot see?" 3.', 'Model a think-aloud: "The grandmother\'s \'eyes strangely alive and wise, probing\' — she\'s not just watching; she\'s.', 'Require the student to rewrite one diagnostic answer using this evidence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_04_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
+          question: 'The primary theme of \'Birth\' — the central idea the whole text returns to.',
           hint: 'If stuck, review **c11_eng_s_cbse_04_002 (Plot and Narrative Structure)** and draw.',
           misconception: 'Students often confuse the **primary theme** with the **most discussed topic** in the story.',
           parts: [
@@ -167,7 +167,7 @@ export const c11_eng_s_ch04_p1: SimDef = {
                   hint: 'If stuck, review **c11_eng_s_cbse_04_002 (Plot and Narrative Structure)** and draw a **Freytag\'s.',
                   misconception: 'Students often confuse the **primary theme** with the **most discussed topic** in the story.' }
           ],
-            remediations: { 'students-often-confuse-the-primary': { steps: ['**Re-read the last 3 pages** (from "An hour elapsed..." to the end) and highlight every verb describing Andrew\'s.', 'Notice: *heaved, persisted, rubbed, crushing, releasing, redoubled*.', '**Ask:** "What is the story\'s **final image**?" (Andrew walking with miners at dawn, thinking "done something real").', '**Complete this sentence:** "This story proves that a doctor\'s true worth is measured not by ______ but by ______.".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-confuse-the-primary': { steps: ['**Re-read the last 3 pages** (from "An hour elapsed..." to the end) and highlight every verb describing Andrew\'s.', 'Notice: *heaved, persisted, rubbed, crushing, releasing, redoubled*.', '**Ask:** "What is the story\'s **final image**?" (Andrew walking with miners at dawn, thinking "done something real").', '**Complete this sentence:** "This story proves that a doctor\'s true worth is measured not by ______ but by ______.".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

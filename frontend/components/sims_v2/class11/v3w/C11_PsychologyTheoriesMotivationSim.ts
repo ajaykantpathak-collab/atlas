@@ -6,13 +6,13 @@ import C11_PsychologyTheoriesMotivationSim from '../../../simulations/c6_12/C11_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_psychologytheoriesmotivationsim: SimDef = {
     id: 'v3w_c11_psychologytheoriesmotivationsim',
-    title: 'Theories Motivation',
+    title: 'Types of Motives: Biological (Physiological) Motives',
     subtitle: 'This node covers the three core biological motives—hunger, thirst, and sex—their.',
     classLevel: 11, subject: 'psychology', topic: 'Types of Motives: Biological (Physiological) Motives',
     chapters: [],
     nodeIds: ['c11_psy_cbse_08_002', 'c11_psy_cbse_08_004', 'c11_psy_cbse_04_007', 'c11_psy_cbse_05_006', 'c11_psy_cbse_08_001', 'c11_psy_cbse_08_003', 'c11_psy_cbse_07_004', 'c11_psy_cbse_07_009', 'c11_psy_cbse_04_001', 'c11_psy_cbse_08_005', 'c11_psy_cbse_08_006', 'c11_psy_cbse_08_007', 'c11_psy_cbse_08_008', 'c11_psy_cbse_08_009', 'c11_psy_cbse_05_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you skip breakfast and by 11 AM your stomach growls, you feel irritable, and the smell of samosas.', goal: 'Master Theories Motivation.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you skip breakfast and by 11 AM your stomach growls, you feel irritable, and the smell of samosas.', goal: 'Master Types of Motives: Biological (Physiological) Motives.' },
     discovery: {
         question: 'Critique the statement: "Since hunger and thirst are biological motives, they are identical across all humans and unaffected by culture or learning."',
         options: ['The statement is false', 'misconception; a vague', 'low glucose → automatic eating'],
@@ -81,7 +81,7 @@ export const w_c11_psychologytheoriesmotivationsim: SimDef = {
             { text: 'Verify that other motives (affiliation, power, curiosity) are less supported: no mention of socializing, influencing.', faded: true, blankAnswer: 'Dominant motive: Need for achievement (n-Ach)..' }
             ] } },
         { type: 'dissect', nodeId: 'c11_psy_cbse_08_004', title: 'Identify each idea',
-          dissect: { specimen: 'Theories Motivation', spots: [
+          dissect: { specimen: 'Types of Motives: Biological (Physiological) Motives', spots: [
             { id: 's1', label: 'Biological physiological motives are innate', prompt: 'Which idea is this? — Biological (physiological) motives are innate, genetically programmed drives arising from.', answer: 'Biological physiological motives are innate', options: ['Biological physiological motives are innate', 'Maslows Hierarchy of Needs is', 'Determinants of attention are the', 'Observational learning is a process'] },
             { id: 's2', label: 'Maslows Hierarchy of Needs is', prompt: 'Which idea is this? — Maslow\'s Hierarchy of Needs is a motivational theory proposing that human needs are.', answer: 'Maslows Hierarchy of Needs is', options: ['Maslows Hierarchy of Needs is', 'Biological physiological motives are innate', 'Determinants of attention are the', 'Observational learning is a process'] },
             { id: 's3', label: 'Determinants of attention are the', prompt: 'Which idea is this? — Determinants of attention are the specific external stimulus characteristics (e.g., size,.', answer: 'Determinants of attention are the', options: ['Determinants of attention are the', 'Biological physiological motives are innate', 'Maslows Hierarchy of Needs is', 'Observational learning is a process'] },
@@ -90,7 +90,7 @@ export const w_c11_psychologytheoriesmotivationsim: SimDef = {
             { id: 's6', label: 'Psychosocial motives are learned motivational', prompt: 'Which idea is this? — Psychosocial motives are learned motivational states that arise from an individual\'s.', answer: 'Psychosocial motives are learned motivational', options: ['Psychosocial motives are learned motivational', 'Biological physiological motives are innate', 'Maslows Hierarchy of Needs is', 'Determinants of attention are the'] }
           ] } }
     ],
-    explore: { component: C11_PsychologyTheoriesMotivationSim, prompt: 'Explore the interactive — Theories Motivation' },
+    explore: { component: C11_PsychologyTheoriesMotivationSim, prompt: 'Explore the interactive — Types of Motives: Biological (Physiological) Motives' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_psy_cbse_08_002', difficulty: 'standard',
           question: 'Biological (physiological) motives are innate, genetically programmed drives.',

@@ -748,7 +748,7 @@ export const C11_PSY_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Adulthood And Old Age Represent The",
+    "title": "Adulthood And Old Age",
     "text": "Adulthood and old age represent the final two major stages of the human life-span, characterised by distinct developmental tasks, transitions, and challenges.",
     "emoji": "🧠",
     "bgColor": "from-amber-400 to-orange-500"

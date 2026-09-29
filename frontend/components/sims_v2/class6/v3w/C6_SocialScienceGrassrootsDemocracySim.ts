@@ -6,13 +6,13 @@ import C6_SocialScienceGrassrootsDemocracySim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_socialsciencegrassrootsdemocracysim: SimDef = {
     id: 'v3w_c6_socialsciencegrassrootsdemocracysim',
-    title: 'Social Science Grassroots Democracy',
+    title: 'What is Grassroots Democracy?',
     subtitle: 'This node covers the fundamental concept of local self-governance and the role of.',
     classLevel: 6, subject: 'science', topic: 'What is Grassroots Democracy?',
     chapters: [],
     nodeIds: ['c6_civics_ch12_015', 'c6_civics_ch12_018'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine your school playground has a broken fence that makes it unsafe for students to play.', goal: 'Master Social Science Grassroots Democracy.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine your school playground has a broken fence that makes it unsafe for students to play.', goal: 'Master What is Grassroots Democracy?.' },
     discovery: {
         question: 'Why is it better for a village to decide on fixing a local road rather than waiting for the national government?',
         options: ['Local villagers know exactly', 'Grassroots Democracy', '"Grassroots Democracy" is just about voting for leaders once every five years'],
@@ -39,7 +39,7 @@ export const w_c6_socialsciencegrassrootsdemocracysim: SimDef = {
                 { text: 'the Sarpanch "owns" the village and decides everything alone', outcome: 'Not quite — Students often think the Sarpanch "owns" the village and decides everything alone.', reveals: 'the-sarpanch-owns-the-village' }
             ] }] } }
     ],
-    explore: { component: C6_SocialScienceGrassrootsDemocracySim, prompt: 'Explore the interactive — Social Science Grassroots Democracy' },
+    explore: { component: C6_SocialScienceGrassrootsDemocracySim, prompt: 'Explore the interactive — What is Grassroots Democracy?' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_civics_ch12_015', difficulty: 'standard',
           question: 'Grassroots democracy is a system where governance happens at the local level,.',

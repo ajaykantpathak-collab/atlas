@@ -6,13 +6,13 @@ import C6_MathematicsPairLinesIntersectingSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_mathematicspairlinesintersectingsim: SimDef = {
     id: 'v3w_c6_mathematicspairlinesintersectingsim',
-    title: 'Pair Lines Intersecting',
+    title: 'Types of Lines: Parallel, Intersecting, Perpendicular',
     subtitle: 'This node covers identifying and defining parallel, intersecting, and perpendicular line.',
     classLevel: 6, subject: 'mathematics', topic: 'Types of Lines: Parallel, Intersecting, Perpendicular',
     chapters: [],
     nodeIds: ['c6_math_ch07_071', 'c6_math_ch07_082', 'c6_math_ch07_080', 'c6_math_ch02_019', 'c6_math_ch11_116'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever looked at a railway track and wondered why the two iron rails never touch each other?', goal: 'Master Pair Lines Intersecting.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever looked at a railway track and wondered why the two iron rails never touch each other?', goal: 'Master Types of Lines: Parallel, Intersecting, Perpendicular.' },
     discovery: {
         question: 'Two lines are drawn on a paper. One is horizontal and one is vertical. They meet at a corner. Are they parallel, intersecting, or perpendicular?',
         options: ['They are perpendicular', 'intersecting', 'perpendicular'],
@@ -67,7 +67,7 @@ export const w_c6_mathematicspairlinesintersectingsim: SimDef = {
             { text: 'Use a ruler to join the two intersection points with a line.', faded: true, blankAnswer: 'A line crossing the 12 cm stick exactly at 6 cm.' }
             ] } },
         { type: 'dissect', nodeId: 'c6_math_ch07_082', title: 'Identify each idea',
-          dissect: { specimen: 'Pair Lines Intersecting', spots: [
+          dissect: { specimen: 'Types of Lines: Parallel, Intersecting, Perpendicular', spots: [
             { id: 's1', label: 'Lines are classified by their', prompt: 'Which idea is this? — Lines are classified by their mutual position: parallel lines never intersect despite.', answer: 'Lines are classified by their', options: ['Lines are classified by their', 'A transversal is a line', 'Constructing triangles is the process', 'Adding integers is the process'] },
             { id: 's2', label: 'A transversal is a line', prompt: 'Which idea is this? — A transversal is a line that intersects two or more other lines at distinct points.', answer: 'A transversal is a line', options: ['A transversal is a line', 'Lines are classified by their', 'Constructing triangles is the process', 'Adding integers is the process'] },
             { id: 's3', label: 'Constructing triangles is the process', prompt: 'Which idea is this? — Constructing triangles is the process of using a ruler and a compass to draw a triangle.', answer: 'Constructing triangles is the process', options: ['Constructing triangles is the process', 'Lines are classified by their', 'A transversal is a line', 'Adding integers is the process'] },
@@ -75,7 +75,7 @@ export const w_c6_mathematicspairlinesintersectingsim: SimDef = {
             { id: 's5', label: 'A perpendicular bisector of a', prompt: 'Which idea is this? — A perpendicular bisector of a line segment is a line that divides the segment into two.', answer: 'A perpendicular bisector of a', options: ['A perpendicular bisector of a', 'Lines are classified by their', 'A transversal is a line', 'Constructing triangles is the process'] }
           ] } }
     ],
-    explore: { component: C6_MathematicsPairLinesIntersectingSim, prompt: 'Explore the interactive — Pair Lines Intersecting' },
+    explore: { component: C6_MathematicsPairLinesIntersectingSim, prompt: 'Explore the interactive — Types of Lines: Parallel, Intersecting, Perpendicular' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_math_ch07_071', difficulty: 'standard',
           question: 'Lines are classified by their mutual position: parallel lines never intersect.',

@@ -6,13 +6,13 @@ import C12_ChemistryWilliamsonethersynthesisSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_chemistrywilliamsonethersynthesissim: SimDef = {
     id: 'v3w_c12_chemistrywilliamsonethersynthesissim',
-    title: 'Williamsonethersynthesis',
+    title: 'Preparation and Reactions of Ethers: Williamson Synthesis',
     subtitle: 'This node covers: Williamson synthesis mechanism (SN2), scope and limitations (primary vs.',
     classLevel: 12, subject: 'chemistry', topic: 'Preparation and Reactions of Ethers: Williamson Synthesis',
     chapters: [],
     nodeIds: ['c12_chem_cbse_07_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a bottle of diethyl ether (ethoxyethane) in the organic chemistry lab — it has a sweet, volatile.', goal: 'Master Williamsonethersynthesis.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a bottle of diethyl ether (ethoxyethane) in the organic chemistry lab — it has a sweet, volatile.', goal: 'Master Preparation and Reactions of Ethers: Williamson Synthesis.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Williamson synthesis is a nucleophilic.', text: 'Williamson synthesis is a nucleophilic substitution (SN2) reaction where an alkoxide ion (RO⁻) or phenoxide ion (ArO⁻) attacks a primary alkyl halide (R\'–X) to form an ether (R–O–R\') and a halide.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -28,7 +28,7 @@ export const w_c12_chemistrywilliamsonethersynthesissim: SimDef = {
             { text: 'Write the two-step synthesis:', faded: true, blankAnswer: 'Use sodium 3-methylpentan-2-oxide (from 3-methylpentan-2-ol.' }
             ] } }
     ],
-    explore: { component: C12_ChemistryWilliamsonethersynthesisSim, prompt: 'Explore the interactive — Williamsonethersynthesis' },
+    explore: { component: C12_ChemistryWilliamsonethersynthesisSim, prompt: 'Explore the interactive — Preparation and Reactions of Ethers: Williamson Synthesis' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_chem_cbse_07_010', difficulty: 'standard',
           question: 'Williamson synthesis is a nucleophilic substitution (SN2) reaction where an.',

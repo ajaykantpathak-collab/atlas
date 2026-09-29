@@ -81,7 +81,7 @@ export const c6_english_ch01_p2: SimDef = {
           misconception: 'Students often mistake pronouns for nouns because they both occupy the subject position in a sentence.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'A noun is a word that names a person, place, thing, or idea, while a pronoun is a',
-                  options: ['A noun is a word that names a person, place, thing, or idea, while a pronoun is a', 'The "plot" is the sequence of events that make up a story\'s action, while the "setting"', 'Character analysis is the process of looking at what a character says, does, and feels to', 'A theme is the central, underlying message or "big idea" about life that an author'],
+                  options: ['A noun is a word that names a person, place, thing, or idea, while a pronoun is a', 'The "plot" is the sequence of events that make up a story\'s action, while the "setting"', 'From \'is the sequence of events that make up a story\': the skill or concept this node', 'A theme is the central, underlying message or "big idea" about life that an author'],
                   hint: 'Review simple Noun identification (naming people, places, things).',
                   misconception: 'Students often mistake pronouns for nouns because they both occupy the subject position in a sentence.' }
           ],
@@ -102,7 +102,11 @@ export const c6_english_ch01_p2: SimDef = {
           hint: 'Review the main events of "A Bottle of Dew" to ensure they understand the characters\'.',
           misconception: 'Students often think "listening" is just the absence of talking.',
           parts: [
-                { id: 'a', prompt: 'Why is it important to change your tone and pace when speaking to a group?', answer: 'It keeps the listeners interested and helps them understand',
+                { id: 'a', prompt: 'A classmate says, "Rama Natha was wrong to believe in magic." How would you respond using the \'sandwich\' method?', answer: 'Agree or disagree',
+                  options: ['Agree or disagree', 'listening', '"listening" is just the absence of talking'],
+                  hint: 'Review the main events of "A Bottle of Dew" to ensure they understand the characters\' actions.',
+                  misconception: 'Students often think "listening" is just the absence of talking.' },
+                { id: 'b', prompt: 'Why is it important to change your tone and pace when speaking to a group?', answer: 'It keeps the listeners interested and helps them understand',
                   options: ['It keeps the listeners interested and helps them understand', 'listening', 'speaking is monotone', '"listening" is just the absence of talking'],
                   hint: 'Review the main events of "A Bottle of Dew" to ensure they understand the characters\' actions.',
                   misconception: 'Students often think "listening" is just the absence of talking.' }

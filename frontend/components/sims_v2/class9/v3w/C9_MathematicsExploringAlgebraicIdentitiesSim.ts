@@ -6,13 +6,13 @@ import C9_MathematicsExploringAlgebraicIdentitiesSim from '../../../simulations/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_mathematicsexploringalgebraicidentitiessim: SimDef = {
     id: 'v3w_c9_mathematicsexploringalgebraicidentitiessim',
-    title: 'Exploring Algebraic Identities',
+    title: 'Algebraic Identities: (a+b)^2 and (a-b)^2',
     subtitle: 'This node covers the derivation, application, and verification of \\((a+b)^2\\) and.',
     classLevel: 9, subject: 'mathematics', topic: 'Algebraic Identities: (a+b)^2 and (a-b)^2',
     chapters: [],
     nodeIds: ['c9_math_ch4_1', 'c9_math_ch4_2', 'c9_math_ch4_3', 'c9_math_ch4_4', 'c9_math_ch4_5', 'c9_math_ch4_6', 'c9_math_ch4_7', 'c9_math_ch4_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are at a stationery shop buying notebooks: each notebook costs ₹\\(x\\) and you buy \\(x+5\\).', goal: 'Master Exploring Algebraic Identities.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are at a stationery shop buying notebooks: each notebook costs ₹\\(x\\) and you buy \\(x+5\\).', goal: 'Master Algebraic Identities: (a+b)^2 and (a-b)^2.' },
     discovery: {
         question: 'What is the greatest common factor (GCF) of the terms \\(12x^3y^2\\) and \\(18x^2y^4\\)?',
         options: ['The GCF is \\(6x^2y^2\\)', 'greatest common factor', 'largest term'],
@@ -77,7 +77,7 @@ export const w_c9_mathematicsexploringalgebraicidentitiessim: SimDef = {
             { text: 'Verify by expanding: `(3x + 4)(4x + 3) = 12x² + 9x + 16x + 12 = 12x² + 25x + 12`.', faded: true, blankAnswer: 'Length = `(3x + 4)` metres, Breadth = `(4x + 3)` metres (or.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_math_ch4_2', title: 'Identify each idea',
-          dissect: { specimen: 'Exploring Algebraic Identities', spots: [
+          dissect: { specimen: 'Algebraic Identities: (a+b)^2 and (a-b)^2', spots: [
             { id: 's1', label: 'The identities ab2 a2', prompt: 'Which idea is this? — The identities \\((a+b)^2 = a^2 + 2ab + b^2\\) and \\((a-b)^2 = a^2 - 2ab + b^2\\) are.', answer: 'The identities ab2 a2', options: ['The identities ab2 a2', 'The algebraic identity a -', 'The algebraic identity a', 'Geometrical visualisation of algebraic identities'] },
             { id: 's2', label: 'The algebraic identity a -', prompt: 'Which idea is this? — The algebraic identity a² - b² = (a+b)(a-b) states that the difference of two squares.', answer: 'The algebraic identity a -', options: ['The algebraic identity a -', 'The identities ab2 a2', 'The algebraic identity a', 'Geometrical visualisation of algebraic identities'] },
             { id: 's3', label: 'The algebraic identity a', prompt: 'Which idea is this? — The algebraic identity \\((a + b + c)^2\\) expands to the sum of squares of each term plus.', answer: 'The algebraic identity a', options: ['The algebraic identity a', 'The identities ab2 a2', 'The algebraic identity a -', 'Geometrical visualisation of algebraic identities'] },
@@ -86,7 +86,7 @@ export const w_c9_mathematicsexploringalgebraicidentitiessim: SimDef = {
             { id: 's6', label: 'Factorisation by grouping terms is', prompt: 'Which idea is this? — Factorisation by grouping terms is a method used to factorise algebraic expressions with.', answer: 'Factorisation by grouping terms is', options: ['Factorisation by grouping terms is', 'The identities ab2 a2', 'The algebraic identity a -', 'The algebraic identity a'] }
           ] } }
     ],
-    explore: { component: C9_MathematicsExploringAlgebraicIdentitiesSim, prompt: 'Explore the interactive — Exploring Algebraic Identities' },
+    explore: { component: C9_MathematicsExploringAlgebraicIdentitiesSim, prompt: 'Explore the interactive — Algebraic Identities: (a+b)^2 and (a-b)^2' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_math_ch4_1', difficulty: 'standard',
           question: 'The identities \\((a+b)^2 = a^2 + 2ab + b^2\\) and \\((a-b)^2 = a^2 - 2ab + b^2\\).',

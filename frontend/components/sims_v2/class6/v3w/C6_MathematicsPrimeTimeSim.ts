@@ -6,13 +6,13 @@ import C6_MathematicsPrimeTimeSim from '../../../simulations/c6_12/C6_Mathematic
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_mathematicsprimetimesim: SimDef = {
     id: 'v3w_c6_mathematicsprimetimesim',
-    title: 'Prime Time',
+    title: 'Factors and Multiples',
     subtitle: 'Covers the definitions and identification of factors, multiples, and prime numbers.',
     classLevel: 6, subject: 'mathematics', topic: 'Factors and Multiples',
     chapters: [],
     nodeIds: ['c6_math_ch01_013', 'c6_math_ch01_014', 'c6_math_ch01_015', 'c6_math_ch01_001', 'c6_math_ch01_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you have 12 chocolate bars to share equally among friends.', goal: 'Master Prime Time.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you have 12 chocolate bars to share equally among friends.', goal: 'Master Factors and Multiples.' },
     discovery: {
         question: 'Compare the rules for 2 and 5. What do they have in common?',
         options: ['Both rules depend only on the last digit of the number', 'last digit', 'sum of digits'],
@@ -59,7 +59,7 @@ export const w_c6_mathematicsprimetimesim: SimDef = {
             { text: 'Since 120 is less than 200, you have enough.', faded: true, blankAnswer: 'Yes, you have enough; total cost is ₹120.' }
             ] } },
         { type: 'dissect', nodeId: 'c6_math_ch01_014', title: 'Identify each idea',
-          dissect: { specimen: 'Prime Time', spots: [
+          dissect: { specimen: 'Factors and Multiples', spots: [
             { id: 's1', label: 'A factor is a whole', prompt: 'Which idea is this? — A factor is a whole number that divides another number exactly, leaving no remainder.', answer: 'A factor is a whole', options: ['A factor is a whole', 'Divisibility rules are simple patterns', 'Prime factorisation is the process', 'Numbers in our everyday life'] },
             { id: 's2', label: 'Divisibility rules are simple patterns', prompt: 'Which idea is this? — Divisibility rules are simple patterns or shortcuts that allow you to check if one number.', answer: 'Divisibility rules are simple patterns', options: ['Divisibility rules are simple patterns', 'A factor is a whole', 'Prime factorisation is the process', 'Numbers in our everyday life'] },
             { id: 's3', label: 'Prime factorisation is the process', prompt: 'Which idea is this? — Prime factorisation is the process of breaking down a composite number into a product of.', answer: 'Prime factorisation is the process', options: ['Prime factorisation is the process', 'A factor is a whole', 'Divisibility rules are simple patterns', 'Numbers in our everyday life'] },
@@ -67,7 +67,7 @@ export const w_c6_mathematicsprimetimesim: SimDef = {
             { id: 's5', label: 'Division is the mathematical process', prompt: 'Which idea is this? — Division is the mathematical process of splitting a total quantity into equal groups or.', answer: 'Division is the mathematical process', options: ['Division is the mathematical process', 'A factor is a whole', 'Divisibility rules are simple patterns', 'Prime factorisation is the process'] }
           ] } }
     ],
-    explore: { component: C6_MathematicsPrimeTimeSim, prompt: 'Explore the interactive — Prime Time' },
+    explore: { component: C6_MathematicsPrimeTimeSim, prompt: 'Explore the interactive — Factors and Multiples' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_math_ch01_013', difficulty: 'standard',
           question: 'A factor is a whole number that divides another number exactly, leaving no.',

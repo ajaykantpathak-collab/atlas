@@ -6,13 +6,13 @@ import C12_BiologyFloweringPlantDoubleFertilisationSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologyfloweringplantdoublefertilisationsim: SimDef = {
     id: 'v3w_c12_biologyfloweringplantdoublefertilisationsim',
-    title: 'Flowering Plant Double Fertilisation',
+    title: 'Agents of Pollination: Wind, Water, Insects',
     subtitle: 'Covers wind (anemophily), water (hydrophily – both hypohydrophily and epihydrophily), and.',
     classLevel: 12, subject: 'biology', topic: 'Agents of Pollination: Wind, Water, Insects',
     chapters: [],
     nodeIds: ['c12_bio_cbse_02_007', 'c12_bio_cbse_02_005', 'c12_bio_cbse_02_008', 'c12_bio_cbse_02_009', 'c12_bio_cbse_02_010', 'c12_bio_cbse_02_012', 'c12_bio_cbse_01_004', 'c12_bio_cbse_01_006', 'c12_bio_cbse_01_007', 'c12_bio_cbse_02_001', 'c12_bio_cbse_01_002', 'c12_bio_cbse_02_002', 'c12_bio_cbse_02_003', 'c12_bio_cbse_02_004', 'c12_bio_cbse_02_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a maize field on a breezy day: clouds of yellow dust rise when you shake the tassels – that is wind.', goal: 'Master Flowering Plant Double Fertilisation.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a maize field on a breezy day: clouds of yellow dust rise when you shake the tassels – that is wind.', goal: 'Master Agents of Pollination: Wind, Water, Insects.' },
     discovery: {
         question: 'Name the three major agents of pollination covered in the NCERT Class 12 syllabus and give the technical term for each.',
         options: ['Wind – anemophily', 'hydrophily means pollen floats on water like a boat', 'all water-pollinated flowers are surface-floating (epihydrophily)'],
@@ -78,7 +78,7 @@ export const w_c12_biologyfloweringplantdoublefertilisationsim: SimDef = {
             { text: 'Verify: Seedless fruits confirm parthenocarpy; compare size/weight with pollinated control.', faded: true, blankAnswer: 'Combined NAA+GA3 treatment yields marketable seedless.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_02_005', title: 'Identify each idea',
-          dissect: { specimen: 'Flowering Plant Double Fertilisation', spots: [
+          dissect: { specimen: 'Agents of Pollination: Wind, Water, Insects', spots: [
             { id: 's1', label: 'Agents of pollination are biotic', prompt: 'Which idea is this? — Agents of pollination are biotic (insects, birds, bats) and abiotic (wind, water) vectors.', answer: 'Agents of pollination are biotic', options: ['Agents of pollination are biotic', 'Megasporogenesis is the process of', 'Outbreeding devices are structural temporal', 'Double fertilization is a unique'] },
             { id: 's2', label: 'Megasporogenesis is the process of', prompt: 'Which idea is this? — Megasporogenesis is the process of formation of haploid megaspores from a diploid.', answer: 'Megasporogenesis is the process of', options: ['Megasporogenesis is the process of', 'Agents of pollination are biotic', 'Outbreeding devices are structural temporal', 'Double fertilization is a unique'] },
             { id: 's3', label: 'Outbreeding devices are structural temporal', prompt: 'Which idea is this? — Outbreeding devices are structural, temporal, biochemical, or genetic mechanisms in.', answer: 'Outbreeding devices are structural temporal', options: ['Outbreeding devices are structural temporal', 'Agents of pollination are biotic', 'Megasporogenesis is the process of', 'Double fertilization is a unique'] },
@@ -87,7 +87,7 @@ export const w_c12_biologyfloweringplantdoublefertilisationsim: SimDef = {
             { id: 's6', label: 'Parthenocarpy is the development of', prompt: 'Which idea is this? — Parthenocarpy is the development of fruit without fertilization of ovules, resulting in.', answer: 'Parthenocarpy is the development of', options: ['Parthenocarpy is the development of', 'Agents of pollination are biotic', 'Megasporogenesis is the process of', 'Outbreeding devices are structural temporal'] }
           ] } }
     ],
-    explore: { component: C12_BiologyFloweringPlantDoubleFertilisationSim, prompt: 'Explore the interactive — Flowering Plant Double Fertilisation' },
+    explore: { component: C12_BiologyFloweringPlantDoubleFertilisationSim, prompt: 'Explore the interactive — Agents of Pollination: Wind, Water, Insects' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_02_007', difficulty: 'standard',
           question: 'Agents of pollination are biotic (insects, birds, bats) and abiotic (wind,.',
@@ -113,8 +113,8 @@ export const w_c12_biologyfloweringplantdoublefertilisationsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think “hydrophily means pollen floats on water like a boat” and assume all water-pollinated flowers are.',
           parts: [
-                { id: 'a', prompt: 'Design a simple field observation to distinguish whether a common roadside weed (e.g., Parthenium) is wind- or insect-pollinated.', answer: 'Steps: (1) Watch the plant for 15 min during peak flowering',
-                  options: ['Steps: (1) Watch the plant for 15 min during peak flowering', 'hydrophily means pollen floats on water like a boat', 'all water-pollinated flowers are surface-floating (epihydrophily)'],
+                { id: 'a', prompt: 'Design a simple field observation to distinguish whether a common roadside weed (e.g., Parthenium) is wind- or insect-pollinated.', answer: '(1) Watch the plant for 15 min during peak flowering',
+                  options: ['(1) Watch the plant for 15 min during peak flowering', 'hydrophily means pollen floats on water like a boat', 'all water-pollinated flowers are surface-floating (epihydrophily)'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think “hydrophily means pollen floats on water like a boat” and assume all water-pollinated flowers are surface-floating.' }
           ],

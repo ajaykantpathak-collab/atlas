@@ -6,13 +6,13 @@ import C7_ScienceLifeProcessesInAnimalsSim from '../../../simulations/c6_12/C7_S
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_sciencelifeprocessesinanimalssim: SimDef = {
     id: 'v3w_c7_sciencelifeprocessesinanimalssim',
-    title: 'Life Processes In Animals',
+    title: 'Life Processes: Nutrition, Respiration, Excretion Overview',
     subtitle: 'Covers the general overview of life processes (nutrition, respiration, and excretion) in.',
     classLevel: 7, subject: 'science', topic: 'Life Processes: Nutrition, Respiration, Excretion Overview',
     chapters: [],
     nodeIds: ['c7_bio_ch02_001', 'c7_bio_ch03_010', 'c7_bio_ch03_001', 'c7_bio_ch01_011', 'c7_bio_ch02_002', 'c7_bio_ch02_005', 'c7_bio_ch02_008', 'c7_bio_ch02_009', 'c7_bio_ch02_012', 'c7_bio_ch02_003', 'c7_bio_ch02_004', 'c7_bio_ch02_007', 'c7_bio_ch03_002', 'c7_bio_ch03_006', 'c7_bio_ch03_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'When you eat a heavy meal of *parathas* during lunch, your body does not just store the food; it immediately.', goal: 'Master Life Processes In Animals.' },
+    scenario: { role: 'a class 7 learner', intro: 'When you eat a heavy meal of *parathas* during lunch, your body does not just store the food; it immediately.', goal: 'Master Life Processes: Nutrition, Respiration, Excretion Overview.' },
     discovery: {
         question: 'A student claims that plants can grow taller and healthier in a dark room as long as they are given plenty of water and rich soil.',
         options: ['The claim is false', 'soil contains ready-made food that the plant absorbs directly to grow', 'soil acts as the "food" for plants, similar to how animals eat food'],
@@ -76,7 +76,7 @@ export const w_c7_sciencelifeprocessesinanimalssim: SimDef = {
             { text: 'Conclude that the egg white is partially digested into a semi-liquid mixture called chyme before passing into the small.', faded: true, blankAnswer: 'The egg white is mixed with gastric juice, exposed to.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_bio_ch03_010', title: 'Identify each idea',
-          dissect: { specimen: 'Life Processes In Animals', spots: [
+          dissect: { specimen: 'Life Processes: Nutrition, Respiration, Excretion Overview', spots: [
             { id: 's1', label: 'Life processes are the essential', prompt: 'Which idea is this? — Life processes are the essential biological activities performed by all living.', answer: 'Life processes are the essential', options: ['Life processes are the essential', 'Cellular respiration in plants is', 'The growth of a plant', 'Hormones are chemical messengers secreted'] },
             { id: 's2', label: 'Cellular respiration in plants is', prompt: 'Which idea is this? — Cellular respiration in plants is the biochemical process by which plant cells break down.', answer: 'Cellular respiration in plants is', options: ['Cellular respiration in plants is', 'Life processes are the essential', 'The growth of a plant', 'Hormones are chemical messengers secreted'] },
             { id: 's3', label: 'The growth of a plant', prompt: 'Which idea is this? — The growth of a plant is the permanent increase in size, mass, and complexity of its.', answer: 'The growth of a plant', options: ['The growth of a plant', 'Life processes are the essential', 'Cellular respiration in plants is', 'Hormones are chemical messengers secreted'] },
@@ -85,15 +85,15 @@ export const w_c7_sciencelifeprocessesinanimalssim: SimDef = {
             { id: 's6', label: 'The stomach is a muscular', prompt: 'Which idea is this? — The stomach is a muscular, J-shaped bag located in the upper abdomen that receives chewed.', answer: 'The stomach is a muscular', options: ['The stomach is a muscular', 'Life processes are the essential', 'Cellular respiration in plants is', 'The growth of a plant'] }
           ] } }
     ],
-    explore: { component: C7_ScienceLifeProcessesInAnimalsSim, prompt: 'Explore the interactive — Life Processes In Animals' },
+    explore: { component: C7_ScienceLifeProcessesInAnimalsSim, prompt: 'Explore the interactive — Life Processes: Nutrition, Respiration, Excretion Overview' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_bio_ch02_001', difficulty: 'standard',
           question: 'Life processes are the essential biological activities performed by all living.',
           hint: 'Review the Class 6 introduction to the digestive system and how breathing supplies air to.',
           misconception: 'Students often think that excretion and egestion (defecation) are the exact same biological process, believing that.',
           parts: [
-                { id: 'a', prompt: 'If a stray dog eats a contaminated piece of food containing harmful bacteria, which life process will immediately deal with the toxins and undigested waste?', answer: 'Steps: 1) Identify that the food enters the alimentary canal through nutrition',
-                  options: ['Steps: 1) Identify that the food enters the alimentary canal through nutrition', 'toxic substances remain inside cells forever'],
+                { id: 'a', prompt: 'If a stray dog eats a contaminated piece of food containing harmful bacteria, which life process will immediately deal with the toxins and undigested waste?', answer: 'Identify that the food enters the alimentary canal through nutrition',
+                  options: ['Identify that the food enters the alimentary canal through nutrition', 'toxic substances remain inside cells forever'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that excretion and egestion (defecation) are the exact same biological process, believing that passing solid stool is.' }
           ],

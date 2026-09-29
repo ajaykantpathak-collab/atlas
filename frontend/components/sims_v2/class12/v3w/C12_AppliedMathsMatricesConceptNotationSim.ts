@@ -6,13 +6,13 @@ import C12_AppliedMathsMatricesConceptNotationSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_appliedmathsmatricesconceptnotationsim: SimDef = {
     id: 'v3w_c12_appliedmathsmatricesconceptnotationsim',
-    title: 'Applied Maths Matrices Concept Notation',
+    title: 'Matrix: Definition and Types',
     subtitle: 'This node covers the definition of a matrix, order of a matrix, notation a_ij, and the.',
     classLevel: 12, subject: 'science', topic: 'Matrix: Definition and Types',
     chapters: [],
     nodeIds: ['c12_math_cbse_03_001', 'c12_math_cbse_03_010', 'c12_math_cbse_04_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the class monitor and need to record the marks of 40 students in 5 subjects.', goal: 'Master Applied Maths Matrices Concept Notation.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the class monitor and need to record the marks of 40 students in 5 subjects.', goal: 'Master Matrix: Definition and Types.' },
     discovery: {
         question: 'A student writes: "The matrix B = [5] is a row matrix because it has one row." Is this correct? Explain why or why not.',
         options: ['The statement is incorrect', 'only a row matrix', 'the first subscript is column and the second is row (i'],
@@ -51,13 +51,13 @@ export const w_c12_appliedmathsmatricesconceptnotationsim: SimDef = {
             { text: 'Since |A| = 10 ≠ 0, the matrix is non-singular. By the invertibility condition, a unique solution exists for x and y.', faded: true, blankAnswer: 'A = [[3, 2], [1, 4]], |A| = 10, unique solution exists.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_03_010', title: 'Identify each idea',
-          dissect: { specimen: 'Applied Maths Matrices Concept Notation', spots: [
+          dissect: { specimen: 'Matrix: Definition and Types', spots: [
             { id: 's1', label: 'A matrix is an ordered', prompt: 'Which idea is this? — A matrix is an ordered rectangular array of numbers or functions arranged in rows and.', answer: 'A matrix is an ordered', options: ['A matrix is an ordered', 'Elementary transformations or elementary operations', 'A determinant is a scalar'] },
             { id: 's2', label: 'Elementary transformations or elementary operations', prompt: 'Which idea is this? — Elementary transformations (or elementary operations) of a matrix are three specific.', answer: 'Elementary transformations or elementary operations', options: ['Elementary transformations or elementary operations', 'A matrix is an ordered', 'A determinant is a scalar'] },
             { id: 's3', label: 'A determinant is a scalar', prompt: 'Which idea is this? — A determinant is a scalar value (real or complex) associated uniquely with every square.', answer: 'A determinant is a scalar', options: ['A determinant is a scalar', 'A matrix is an ordered', 'Elementary transformations or elementary operations'] }
           ] } }
     ],
-    explore: { component: C12_AppliedMathsMatricesConceptNotationSim, prompt: 'Explore the interactive — Applied Maths Matrices Concept Notation' },
+    explore: { component: C12_AppliedMathsMatricesConceptNotationSim, prompt: 'Explore the interactive — Matrix: Definition and Types' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_03_001', difficulty: 'standard',
           question: 'A matrix is an ordered rectangular array of numbers or functions arranged in.',

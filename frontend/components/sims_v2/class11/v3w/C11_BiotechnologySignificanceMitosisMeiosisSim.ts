@@ -6,13 +6,13 @@ import C11_BiotechnologySignificanceMitosisMeiosisSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biotechnologysignificancemitosismeiosissim: SimDef = {
     id: 'v3w_c11_biotechnologysignificancemitosismeiosissim',
-    title: 'nology Significance Mitosis Meiosis',
+    title: 'Significance of Mitosis: Growth and Repair',
     subtitle: 'This node covers the biological significance of mitosis in multicellular organisms:.',
     classLevel: 11, subject: 'biotechnology', topic: 'Significance of Mitosis: Growth and Repair',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_05_004', 'c11_biotech_cbse_05_003', 'c11_biotech_cbse_05_006', 'c11_biotech_cbse_05_002', 'c11_biotech_cbse_05_007', 'c11_biotech_cbse_05_001', 'c11_biotech_cbse_05_005', 'c11_biotech_cbse_05_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a deep cut on your finger — within days, the skin knits back together seamlessly.', goal: 'Master nology Significance Mitosis Meiosis.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a deep cut on your finger — within days, the skin knits back together seamlessly.', goal: 'Master Significance of Mitosis: Growth and Repair.' },
     discovery: {
         question: 'State the chromosome number and DNA content (C-value) of each daughter cell immediately after mitosis and cytokinesis in a human somatic cell that started G1.',
         options: ['Each daughter cell has 46 chromosomes (2n) and 2C DNA content', 'growth by mitosis', 'repair mitosis'],
@@ -79,7 +79,7 @@ export const w_c11_biotechnologysignificancemitosismeiosissim: SimDef = {
             { text: 'Convert to days. 840 hours / 24 hours/day = 35 days.', faded: true, blankAnswer: '35 days (minimum).' }
             ] } },
         { type: 'dissect', nodeId: 'c11_biotech_cbse_05_003', title: 'Identify each idea',
-          dissect: { specimen: 'nology Significance Mitosis Meiosis', spots: [
+          dissect: { specimen: 'Significance of Mitosis: Growth and Repair', spots: [
             { id: 's1', label: 'Mitosis is the equational division', prompt: 'Which idea is this? — Mitosis is the equational division of a eukaryotic somatic cell that produces two.', answer: 'Mitosis is the equational division', options: ['Mitosis is the equational division', 'Mitosis is an equational cell', 'Meiosis II is the second', 'Interphase is the preparatory phase'] },
             { id: 's2', label: 'Mitosis is an equational cell', prompt: 'Which idea is this? — Mitosis is an equational cell division process where a single diploid parent cell divides.', answer: 'Mitosis is an equational cell', options: ['Mitosis is an equational cell', 'Mitosis is the equational division', 'Meiosis II is the second', 'Interphase is the preparatory phase'] },
             { id: 's3', label: 'Meiosis II is the second', prompt: 'Which idea is this? — Meiosis II is the second consecutive nuclear division in meiosis where sister chromatids.', answer: 'Meiosis II is the second', options: ['Meiosis II is the second', 'Mitosis is the equational division', 'Mitosis is an equational cell', 'Interphase is the preparatory phase'] },
@@ -88,7 +88,7 @@ export const w_c11_biotechnologysignificancemitosismeiosissim: SimDef = {
             { id: 's6', label: 'The cell cycle is an', prompt: 'Which idea is this? — The cell cycle is an ordered sequence of events in which a eukaryotic cell grows,.', answer: 'The cell cycle is an', options: ['The cell cycle is an', 'Mitosis is the equational division', 'Mitosis is an equational cell', 'Meiosis II is the second'] }
           ] } }
     ],
-    explore: { component: C11_BiotechnologySignificanceMitosisMeiosisSim, prompt: 'Explore the interactive — nology Significance Mitosis Meiosis' },
+    explore: { component: C11_BiotechnologySignificanceMitosisMeiosisSim, prompt: 'Explore the interactive — Significance of Mitosis: Growth and Repair' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_biotech_cbse_05_004', difficulty: 'standard',
           question: 'Mitosis is the equational division of a eukaryotic somatic cell that produces.',

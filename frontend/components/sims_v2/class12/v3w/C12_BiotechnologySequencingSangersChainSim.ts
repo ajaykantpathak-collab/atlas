@@ -6,13 +6,13 @@ import C12_BiotechnologySequencingSangersChainSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biotechnologysequencingsangerschainsim: SimDef = {
     id: 'v3w_c12_biotechnologysequencingsangerschainsim',
-    title: 'nology Sequencing Sangers Chain',
+    title: 'DNA Sequencing Technologies: Sanger vs Next-Generation',
     subtitle: 'This node covers the principles, workflow, and comparative analysis of Sanger.',
     classLevel: 12, subject: 'biotechnology', topic: 'DNA Sequencing Technologies: Sanger vs Next-Generation',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_05_006', 'c12_biotech_cbse_02_012', 'c12_biotech_cbse_05_002', 'c12_biotech_cbse_10_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a geneticist trying to diagnose a rare genetic disorder in a patient.', goal: 'Master nology Sequencing Sangers Chain.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a geneticist trying to diagnose a rare genetic disorder in a patient.', goal: 'Master DNA Sequencing Technologies: Sanger vs Next-Generation.' },
     discovery: {
         question: 'What is the fundamental biochemical principle that allows Sanger sequencing to determine the DNA sequence?',
         options: ['Sanger sequencing uses dideoxynucleotides (ddNTPs)', 'Sanger uses reversible terminators', 'Sanger sequences by synthesis without termination'],
@@ -60,14 +60,14 @@ export const w_c12_biotechnologysequencingsangerschainsim: SimDef = {
             { text: 'Assess acceptability: Efficiency 101% (90-110% pass), R² > 0.99 (pass), LOD 10 copies/µL (clinically adequate for.', faded: true, blankAnswer: 'Efficiency = 101%, Dynamic range = 10¹–10⁷ copies/µL (7.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_biotech_cbse_02_012', title: 'Identify each idea',
-          dissect: { specimen: 'nology Sequencing Sangers Chain', spots: [
+          dissect: { specimen: 'DNA Sequencing Technologies: Sanger vs Next-Generation', spots: [
             { id: 's1', label: 'DNA sequencing technologies determine the', prompt: 'Which idea is this? — DNA sequencing technologies determine the precise order of nucleotides (A, T, C, G) in a.', answer: 'DNA sequencing technologies determine the', options: ['DNA sequencing technologies determine the', 'Sanger dideoxy DNA sequencing is', 'Structural genomics is the systematic', 'Molecular diagnostics using PCR Polymerase'] },
             { id: 's2', label: 'Sanger dideoxy DNA sequencing is', prompt: 'Which idea is this? — Sanger dideoxy DNA sequencing is a chain-termination method that determines the.', answer: 'Sanger dideoxy DNA sequencing is', options: ['Sanger dideoxy DNA sequencing is', 'DNA sequencing technologies determine the', 'Structural genomics is the systematic', 'Molecular diagnostics using PCR Polymerase'] },
             { id: 's3', label: 'Structural genomics is the systematic', prompt: 'Which idea is this? — Structural genomics is the systematic determination and analysis of the three-dimensional.', answer: 'Structural genomics is the systematic', options: ['Structural genomics is the systematic', 'DNA sequencing technologies determine the', 'Sanger dideoxy DNA sequencing is', 'Molecular diagnostics using PCR Polymerase'] },
             { id: 's4', label: 'Molecular diagnostics using PCR Polymerase', prompt: 'Which idea is this? — Molecular diagnostics using PCR (Polymerase Chain Reaction) is a technique that amplifies.', answer: 'Molecular diagnostics using PCR Polymerase', options: ['Molecular diagnostics using PCR Polymerase', 'DNA sequencing technologies determine the', 'Sanger dideoxy DNA sequencing is', 'Structural genomics is the systematic'] }
           ] } }
     ],
-    explore: { component: C12_BiotechnologySequencingSangersChainSim, prompt: 'Explore the interactive — nology Sequencing Sangers Chain' },
+    explore: { component: C12_BiotechnologySequencingSangersChainSim, prompt: 'Explore the interactive — DNA Sequencing Technologies: Sanger vs Next-Generation' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_biotech_cbse_05_006', difficulty: 'standard',
           question: 'DNA sequencing technologies determine the precise order of nucleotides (A, T,.',

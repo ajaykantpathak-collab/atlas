@@ -6,13 +6,13 @@ import C8_PhysicsLightningConductorSim from '../../../simulations/c6_12/C8_Physi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_physicslightningconductorsim: SimDef = {
     id: 'v3w_c8_physicslightningconductorsim',
-    title: 'Lightning Conductor',
+    title: 'Thunderstorms: Formation and Conditions',
     subtitle: 'Covers the meteorological conditions, formation process, and life cycle stages of a.',
     classLevel: 8, subject: 'physics', topic: 'Thunderstorms: Formation and Conditions',
     chapters: [],
     nodeIds: ['c8_physics_ch4_9', 'c8_physics_ch2_1', 'c8_physics_ch2_2', 'c8_physics_ch2_6'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine standing on a playground in Delhi on a hot May afternoon: the air feels heavy and sticky, and.', goal: 'Master Lightning Conductor.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine standing on a playground in Delhi on a hot May afternoon: the air feels heavy and sticky, and.', goal: 'Master Thunderstorms: Formation and Conditions.' },
     discovery: {
         question: 'Why does a thunderstorm cloud (cumulonimbus) grow vertically to great heights instead of spreading horizontally like a stratus cloud?',
         options: ['The cloud grows vertically', 'wind pushes it up', 'it\'s just very tall'],
@@ -60,14 +60,14 @@ export const w_c8_physicslightningconductorsim: SimDef = {
             { text: 'Verify reasonableness: A car headlight uses tens of watts. Power P = I²R = 9×4 = 36 W.', faded: true, blankAnswer: '21,600 J (or 2.16 × 10⁴ J)' }
             ] } },
         { type: 'dissect', nodeId: 'c8_physics_ch2_1', title: 'Identify each idea',
-          dissect: { specimen: 'Lightning Conductor', spots: [
+          dissect: { specimen: 'Thunderstorms: Formation and Conditions', spots: [
             { id: 's1', label: 'A thunderstorm is a violent', prompt: 'Which idea is this? — A thunderstorm is a violent, short-lived weather disturbance characterized by lightning,.', answer: 'A thunderstorm is a violent', options: ['A thunderstorm is a violent', 'When an electric current flows', 'The magnetic field around a', 'The heating effect of electric'] },
             { id: 's2', label: 'When an electric current flows', prompt: 'Which idea is this? — When an electric current flows through a conducting wire, it produces a magnetic field.', answer: 'When an electric current flows', options: ['When an electric current flows', 'A thunderstorm is a violent', 'The magnetic field around a', 'The heating effect of electric'] },
             { id: 's3', label: 'The magnetic field around a', prompt: 'Which idea is this? — The magnetic field around a current-carrying conductor is the region in space surrounding.', answer: 'The magnetic field around a', options: ['The magnetic field around a', 'A thunderstorm is a violent', 'When an electric current flows', 'The heating effect of electric'] },
             { id: 's4', label: 'The heating effect of electric', prompt: 'Which idea is this? — The heating effect of electric current is the phenomenon where electrical energy is.', answer: 'The heating effect of electric', options: ['The heating effect of electric', 'A thunderstorm is a violent', 'When an electric current flows', 'The magnetic field around a'] }
           ] } }
     ],
-    explore: { component: C8_PhysicsLightningConductorSim, prompt: 'Explore the interactive — Lightning Conductor' },
+    explore: { component: C8_PhysicsLightningConductorSim, prompt: 'Explore the interactive — Thunderstorms: Formation and Conditions' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch4_9', difficulty: 'standard',
           question: 'A thunderstorm is a violent, short-lived weather disturbance characterized by.',

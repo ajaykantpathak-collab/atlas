@@ -6,13 +6,13 @@ import C7_ScienceExploringSubstancesAcidicBasicNeutralSim from '../../../simulat
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_scienceexploringsubstancesacidicbasicneutralsim: SimDef = {
     id: 'v3w_c7_scienceexploringsubstancesacidicbasicneutralsim',
-    title: 'Exploring Substances Acidic Basic Neutral',
+    title: 'Acids and Bases: Introduction and Examples',
     subtitle: 'Covers the introduction to acids and bases, their general properties, and everyday.',
     classLevel: 7, subject: 'science', topic: 'Acids and Bases: Introduction and Examples',
     chapters: [],
     nodeIds: ['c7_physics_ch07_001', 'c7_physics_ch07_002', 'c7_physics_ch07_003', 'c7_physics_ch07_004', 'c7_physics_ch07_007', 'c7_physics_ch07_008', 'c7_physics_ch07_010', 'c7_physics_ch07_005', 'c7_physics_ch07_009', 'c7_physics_ch07_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'When you squeeze a lemon in the kitchen or touch a bar of soapy water during a bath, you experience two very.', goal: 'Master Exploring Substances Acidic Basic Neutral.' },
+    scenario: { role: 'a class 7 learner', intro: 'When you squeeze a lemon in the kitchen or touch a bar of soapy water during a bath, you experience two very.', goal: 'Master Acids and Bases: Introduction and Examples.' },
     discovery: {
         question: 'What color does a yellow turmeric paste turn when it comes into contact with a basic substance like washing powder solution?',
         options: ['Turmeric turns reddish-brown in a basic solution', 'yellow', 'it does not react with bases'],
@@ -77,7 +77,7 @@ export const w_c7_scienceexploringsubstancesacidicbasicneutralsim: SimDef = {
             { text: 'Verify the answer is physically reasonable: 25 bags is a logical amount for a large scale garden soil treatment.', faded: true, blankAnswer: '25 bags' }
             ] } },
         { type: 'dissect', nodeId: 'c7_physics_ch07_002', title: 'Identify each idea',
-          dissect: { specimen: 'Exploring Substances Acidic Basic Neutral', spots: [
+          dissect: { specimen: 'Acids and Bases: Introduction and Examples', spots: [
             { id: 's1', label: 'Acids and bases are two', prompt: 'Which idea is this? — Acids and bases are two major classes of chemical substances defined by their distinct.', answer: 'Acids and bases are two', options: ['Acids and bases are two', 'Litmus is a natural dye', 'Natural indicators are chemical substances', 'A neutral substance is a'] },
             { id: 's2', label: 'Litmus is a natural dye', prompt: 'Which idea is this? — Litmus is a natural dye extracted from lichens used as an indicator to test whether a.', answer: 'Litmus is a natural dye', options: ['Litmus is a natural dye', 'Acids and bases are two', 'Natural indicators are chemical substances', 'A neutral substance is a'] },
             { id: 's3', label: 'Natural indicators are chemical substances', prompt: 'Which idea is this? — Natural indicators are chemical substances obtained from plants (such as red rose,.', answer: 'Natural indicators are chemical substances', options: ['Natural indicators are chemical substances', 'Acids and bases are two', 'Litmus is a natural dye', 'A neutral substance is a'] },
@@ -86,7 +86,7 @@ export const w_c7_scienceexploringsubstancesacidicbasicneutralsim: SimDef = {
             { id: 's6', label: 'Acids and bases play a', prompt: 'Which idea is this? — Acids and bases play a crucial role in our everyday lives, determining the chemical.', answer: 'Acids and bases play a', options: ['Acids and bases play a', 'Acids and bases are two', 'Litmus is a natural dye', 'Natural indicators are chemical substances'] }
           ] } }
     ],
-    explore: { component: C7_ScienceExploringSubstancesAcidicBasicNeutralSim, prompt: 'Explore the interactive — Exploring Substances Acidic Basic Neutral' },
+    explore: { component: C7_ScienceExploringSubstancesAcidicBasicNeutralSim, prompt: 'Explore the interactive — Acids and Bases: Introduction and Examples' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_physics_ch07_001', difficulty: 'standard',
           question: 'Acids and bases are two major classes of chemical substances defined by their.',

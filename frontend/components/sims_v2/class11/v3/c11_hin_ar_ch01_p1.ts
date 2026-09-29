@@ -19,7 +19,7 @@ export const c11_hin_ar_ch01_p1: SimDef = {
         hook: 'Premchand wrote 1856 from inside 1924 — the \'polite\' annexation mirrors the reformist colonial rhetoric of his own time.',
     },
     teaching: [
-        { title: 'पाठ 1 — पृष्ठभूमि और रचनाकार परिचय', text: 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक परिस्थितियों का वह ढाँचा है जो रचना के कथ्य और रूप को निर्धारित करता है; रचनाकार परिचय (Author Introduction).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 1 — पृष्ठभूमि और रचनाकार परिचय', text: 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = प्रेमचंद का जीवन-वृत्त 1924 तक (असली नाम धनपत राय, असहयोग आंदोलन के समय नौकरी-त्याग, \'सेवासदन\' से \'प्रेमाश्रम\' तक की यात्रा), ऐतिहासिक संदर्भ (1856 में डलहौजी के.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_01_001', title: 'Your mission',
@@ -28,11 +28,19 @@ export const c11_hin_ar_ch01_p1: SimDef = {
         context: 'Hold the three timelines — 1856 Lucknow, 1924 India, today — and weigh whether shrinking Wajid Ali Shah to a caged bird is a historical error or an artistic necessity.',
         labels: ['पाठ 1 — पृष्ठभूमि', 'पाठ 1 — कथानक', 'पाठ 1 — पाठ्य-परिवेश', 'पाठ 1 — पात्र-चित्रण', 'पाठ 1 — मुख्य'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_01_002', title: 'Identify each idea',
-          dissect: { specimen: 'पाठ 1 · Part 1/3', spots: [
-            { id: 's1', label: '1 -', prompt: 'Which idea is this? — कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम.', answer: '1 -', options: ['1 -', '1 -'] },
-            { id: 's2', label: '1 -', prompt: 'Which idea is this? — पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो.', answer: '1 -', options: ['1 -', '1 -'] }
-          ] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_01_001', title: 'पाठ 1 — पृष्ठभूमि और रचनाकार परिचय',
+          caseStudy: { intro: 'तीन कॉलम की समय-रेखा बनाइए। कॉलम 1 — 1856: अवध विलय, वजीर अली शाह का कलकत्ता प्रस्थान, दरबार का खोखलापन। कॉलम 2 — 1857: विद्रोह (कहानी के बाद की घटना — इसीलिए.',
+            decisions: [{ prompt: 'What is the specific historical event that forms the immediate political backdrop of "Shatranj ke Khiladi," and in what year did it occur?', options: [
+                { text: 'The annexation of Awadh by the British East India Company in 1856', outcome: 'The annexation of Awadh by the British East India Company in 1856 — annexed on the stated ground.' },
+                { text: 'the 1857 Revolt', outcome: 'Not quite — Students treat "context" as a static list of dates (Premchand born 1880, story published 1924.', reveals: 'students-treat-context-as-a' },
+                { text: 'Battle of Plassey', outcome: 'Not quite — Students treat "context" as a static list of dates (Premchand born 1880, story published 1924.', reveals: 'students-treat-context-as-a' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_01_005', title: 'पाठ 1 — पात्र-चित्रण: सहायक पात्र',
+          caseStudy: { intro: '\'इजसेपन\' में सहायक पात्र पहचानिए — जो मुख्य पात्र की सहायता करते हैं।',
+            decisions: [{ prompt: 'Name three supporting characters from "उद्देश्य नक्षत्र" and state one distinct personality trait for each, using only the story text.', options: [
+                { text: 'Correct answer: (1) ओखलाल – practical/grounded (evidence: advises आइंस्टाइन to accept', outcome: 'Correct answer: (1) ओखलाल – practical/grounded (evidence: advises आइंस्टाइन to accept government.' },
+                { text: 'confuses ओखलाल with फिरोज़ shows failure to distinguish character voices', outcome: 'Not quite — Students often treat supporting characters as "background information" – listing them like a cast.', reveals: 'students-often-treat-supporting-characters' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_01_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Your class is staging a reading of Premchand\'s \'Shatranj ke Khiladi\'. The director wants to stage it as \'a comedy about two chess-obsessed nobles in old Lucknow — period fun, nothing more.\' You sense the 1856 setting is doing heavier work.',
             decisions: [{ prompt: 'What reading should the production take?', options: [
@@ -52,67 +60,82 @@ export const c11_hin_ar_ch01_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_001', difficulty: 'standard',
-          question: 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक.',
-          hint: 'यदि अटके तो कक्षा 10 की हिंदी पाठ्यपुस्तक के किसी भी पाठ का \'लेखक परिचय\' खोलें और देखें.',
-          misconception: 'छात्र समझते हैं कि \'रचनाकार परिचय\' का अर्थ है — जन्मतिथि, मृत्यु तिथि, प्रमुख कृतियों की सूची और पुरस्कार रट लेना। वे.',
+          question: 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = प्रेमचंद का जीवन-वृत्त 1924 तक (असली नाम.',
+          hint: 'If stuck, review Class 10 Hindi textbook\'s "Premchand" introduction chapter (typically.',
+          misconception: 'Students treat "context" as a static list of dates (Premchand born 1880, story published 1924, Awadh annexed 1856).',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक',
-                  options: ['पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो', 'पात्र-चित्रण एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/नाटक के प्रमुख पात्र (नायक) के'],
-                  hint: 'यदि अटके तो कक्षा 10 की हिंदी पाठ्यपुस्तक के किसी भी पाठ का \'लेखक परिचय\' खोलें और देखें कि वहाँ दिए.',
-                  misconception: 'छात्र समझते हैं कि \'रचनाकार परिचय\' का अर्थ है — जन्मतिथि, मृत्यु तिथि, प्रमुख कृतियों की सूची और पुरस्कार रट लेना। वे यह नहीं देखते कि.' }
+                { id: 'a', prompt: 'What is the specific historical event that forms the immediate political backdrop of "Shatranj ke Khiladi," and in what year did it occur?', answer: 'The annexation of Awadh by the British East India Company in 1856',
+                  options: ['The annexation of Awadh by the British East India Company in 1856', 'the 1857 Revolt', 'Battle of Plassey'],
+                  hint: 'If stuck, review Class 10 Hindi textbook\'s "Premchand" introduction chapter (typically in *Kshitij*.',
+                  misconception: 'Students treat "context" as a static list of dates (Premchand born 1880, story published 1924, Awadh annexed 1856) rather than a *dynamic.' },
+                { id: 'b', prompt: 'Analyze the chess metaphor in the story\'s context: How does the *structure* of chess (rules, pieces, endgame) map onto the political structure of Awadh.', answer: 'Mapping 1: The *immobility of the king* (Wajid Ali Shah)',
+                  options: ['Mapping 1: The *immobility of the king* (Wajid Ali Shah)', 'symbol of laziness'],
+                  hint: 'If stuck, review Class 10 Hindi textbook\'s "Premchand" introduction chapter (typically in *Kshitij*.',
+                  misconception: 'Students treat "context" as a static list of dates (Premchand born 1880, story published 1924, Awadh annexed 1856) rather than a *dynamic.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें — "रचनाकार की जीवनी से 5 तथ्य चुनो जो तुम्हें \'भावनात्मक\' लगें (दुख, संघर्ष, विद्रोह, प्रेम.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-context-as-a': { steps: ['Draw a three-column timeline on paper: Column A = 1856 events (annexation, Wajid Ali Shah exiled), Column B = 1924.', 'For each column, ask: "What is the *mood*? (1856: false calm; 1924: suppressed rage; Text: ironic detachment)."', 'Write one paragraph connecting the three moods using the chess metaphor as the bridge.', 'Verify with teacher — does the paragraph explain *why* the story ends with Mir killing Roshan, not the British arriving?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students treat "context" as a static list of dates (Premchand born 1880, story published 1924, Awadh annexed 1856).',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the claim: "Premchand\'s portrayal of Wajid Ali Shah in the story is historically inaccurate but artistically necessary." Defend your position using.', answer: 'Artistically necessary',
+                  options: ['Artistically necessary', 'inaccuracy'],
+                  hint: 'If stuck, review Class 10 Hindi textbook\'s "Premchand" introduction chapter (typically in *Kshitij*.',
+                  misconception: 'Students treat "context" as a static list of dates (Premchand born 1880, story published 1924, Awadh annexed 1856) rather than a *dynamic.' }
+          ],
+            remediations: { 'students-treat-context-as-a': { steps: ['Draw a three-column timeline on paper: Column A = 1856 events (annexation, Wajid Ali Shah exiled), Column B = 1924.', 'For each column, ask: "What is the *mood*? (1856: false calm; 1924: suppressed rage; Text: ironic detachment)."', 'Write one paragraph connecting the three moods using the chess metaphor as the bridge.', 'Verify with teacher — does the paragraph explain *why* the story ends with Mir killing Roshan, not the British arriving?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_002', difficulty: 'standard',
-          question: 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त.',
+          question: '\'इजसेपन\' का कथानक — \'इजसेपन\' — आरोह भाग-1 का पाठ। पाठ का कथानक, पात्र और.',
           hint: 'यदि अटका महसूस हो तो: **E.M. फॉर्स्टर का मूल उद्धरण** ("The king died and then the queen.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि \'कथानक = घटनाओं की सूची\' और \'आख्यान-संरचना = अध्यायों/भागों का विभाजन\'। **गलत.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम',
-                  options: ['कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो', 'पात्र-चित्रण एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/नाटक के प्रमुख पात्र (नायक) के'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'इजसेपन\' का कथानक',
+                  options: ['\'इजसेपन\' का कथानक', 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = प्रेमचंद का जीवन-वृत्त 1924 तक (असली नाम धनपत राय,', '\'इजसेपन\' का पाठ्य-परिवेश (setting)', '\'इजसेपन\' का पात्र-चित्रण'],
                   hint: 'यदि अटका महसूस हो तो: **E.M. फॉर्स्टर का मूल उद्धरण** ("The king died and then the queen died".',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि \'कथानक = घटनाओं की सूची\' और \'आख्यान-संरचना = अध्यायों/भागों का विभाजन\'। **गलत तर्क का स्रोत:**.' }
           ],
             remediations: { 'class-10': { steps: ['**माइक्रो-स्टेप 1:** छात्र से कहें — "किसी भी फिल्म का अंतिम दृश्य याद करो। अब बताओ: वह दृश्य *क्यों* अंत में आया?', 'कौन-सी तीन घटनाएँ उसके *कारण* बनीं?" — यह **कारण-कार्य श्रृंखला (Causal Chain)** बनाने का अभ्यास है। 2.', '**माइक्रो-स्टेप 2:** एक ही लघुकथा को दो तरह से सुनाएँ: (क) रैखिक, (ख) फ्लैशबैक से शुरू। पूछें: "कौन-सी संस्कृति ज्यादा.', 'क्यों?" — यह **संरचना के मनोवैज्ञानिक प्रभाव** का साक्षात्कार है। 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_003', difficulty: 'standard',
-          question: 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित.',
+          question: '\'इजसेपन\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित है।',
           hint: 'यदि फंसे हुए महसूस हो तो कथानक और आख्यान-संरचना (c11_hin_ar_cbse_01_002) की घटनाओं के.',
           misconception: 'छात्र अक्सर यह मानते हैं कि पाठ्य-परिवेश का अर्थ केवल कहानी की भौतिक जगह (जैसे गांव, शहर) है, और वे समय (इतिहासकाल.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो',
-                  options: ['पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पात्र-चित्रण एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/नाटक के प्रमुख पात्र (नायक) के'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'इजसेपन\' का पाठ्य-परिवेश (setting)',
+                  options: ['\'इजसेपन\' का पाठ्य-परिवेश (setting)', 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = प्रेमचंद का जीवन-वृत्त 1924 तक (असली नाम धनपत राय,', '\'इजसेपन\' का कथानक', '\'इजसेपन\' का पात्र-चित्रण'],
                   hint: 'यदि फंसे हुए महसूस हो तो कथानक और आख्यान-संरचना (c11_hin_ar_cbse_01_002) की घटनाओं के क्रम और.',
                   misconception: 'छात्र अक्सर यह मानते हैं कि पाठ्य-परिवेश का अर्थ केवल कहानी की भौतिक जगह (जैसे गांव, शहर) है, और वे समय (इतिहासकाल, मौसम) या सामाजिक.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक ही पात्र (जैसे एक किसान) दो अलग-अलग परिवेशों में कैसे अलग व्यवहार करता है: चरण 1 - कहानी A में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_004', difficulty: 'standard',
-          question: 'पात्र-चित्रण एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/नाटक के प्रमुख पात्र.',
+          question: '\'इजसेपन\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
           hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_ar_cbse_01_002 (कथानक और आख्यान-संरचना)** के.',
           misconception: '**विशिष्ट भ्रांति:** *"पात्र-चित्रण में नायक के गुण-दोषों की सूची (List of Traits) बनाना पर्याप्त है, जैसे: ईमानदार.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/नाटक के प्रमुख पात्र (नायक) के',
-                  options: ['पात्र-चित्रण एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/नाटक के प्रमुख पात्र (नायक) के', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'इजसेपन\' का पात्र-चित्रण',
+                  options: ['\'इजसेपन\' का पात्र-चित्रण', 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = प्रेमचंद का जीवन-वृत्त 1924 तक (असली नाम धनपत राय,', '\'इजसेपन\' का कथानक', '\'इजसेपन\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_ar_cbse_01_002 (कथानक और आख्यान-संरचना)** के \'चरमोत्कर्ष\'.',
                   misconception: '**विशिष्ट भ्रांति:** *"पात्र-चित्रण में नायक के गुण-दोषों की सूची (List of Traits) बनाना पर्याप्त है, जैसे: ईमानदार, साहसी, भावुक, क्रोधी.' }
           ],
             remediations: { 'list-of-traits': { steps: ['**\'क्यों?\' का खेल (5 Whys Technique):** छात्र से नायक के किसी एक कार्य के लिए 5 बार "क्यों?" पूछें — हर उत्तर के बाद.', 'सजा का → क्यों डरता है सजा से?', 'बचपन में पिटता था → तो झूठ **आदत नहीं, आघात-प्रतिक्रिया** है।) 2.', '**साक्ष्य-व्याख्या तालिका (Evidence-Explanation Table):** दो कॉलम बनाएँ — बायाँ: "पाठ से साक्ष्य (संवाद/घटना)", दायाँ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_005', difficulty: 'standard',
-          question: 'सहायक पात्र (Supporting Characters) वे गौण चरित्र होते हैं जो नायक/प्रमुख पात्र.',
-          hint: 'यदि अटके, तो **नोड 004 (नायक चित्रण)** के \'चरित्र-चाप (Character Arc)\' खंड को दोहराएँ और.',
-          misconception: '**विशिष्ट भ्रांति:** "सहायक पात्र का विश्लेषण करते समय उसके **व्यक्तिगत जीवन-वृत्त (Backstory), स्वभाव की सूची (Traits.',
+          question: '\'इजसेपन\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते हैं।',
+          hint: 'Re-read the protagonist analysis node (c11_hin_ar_cbse_01_004) and the plot structure.',
+          misconception: 'Students often treat supporting characters as "background information" – listing them like a cast list – instead.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे गौण चरित्र होते हैं जो नायक/प्रमुख पात्र के',
-                  options: ['सहायक पात्र (Supporting Characters) वे गौण चरित्र होते हैं जो नायक/प्रमुख पात्र के', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो'],
-                  hint: 'यदि अटके, तो **नोड 004 (नायक चित्रण)** के \'चरित्र-चाप (Character Arc)\' खंड को दोहराएँ और नायक के.',
-                  misconception: '**विशिष्ट भ्रांति:** "सहायक पात्र का विश्लेषण करते समय उसके **व्यक्तिगत जीवन-वृत्त (Backstory), स्वभाव की सूची (Traits list), या नायक के.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'इजसेपन\' के सहायक पात्र',
+                  options: ['\'इजसेपन\' के सहायक पात्र', 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = प्रेमचंद का जीवन-वृत्त 1924 तक (असली नाम धनपत राय,', '\'इजसेपन\' का कथानक', '\'इजसेपन\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'Re-read the protagonist analysis node (c11_hin_ar_cbse_01_004) and the plot structure node.',
+                  misconception: 'Students often treat supporting characters as "background information" – listing them like a cast list – instead of analyzing them.' }
           ],
-            remediations: { 'backstory': { steps: ['**चरण 1 — निदान:** छात्र से पूछें: *"इस पात्र को कहानी से हटा दो। नायक का अंतिम निर्णय/क्लाइमेक्स/थीम पर क्या असर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-supporting-characters': { steps: ['Give the student a two-column table: Column A = "What the character says/does" (quote 3 actions/dialogues), Column.', 'Model one row for ओखलाल together.', 'Student completes rows for फिरोज़ and मिर्ज़ा independently.', 'Student writes one paragraph synthesizing: "Through ओखलाल\'s practicality, फिरोज़\'s devotion, and मिर्ज़ा\'s skepticism.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_01_006', difficulty: 'standard',
-          question: 'मुख्य विषय (Central Theme) किसी रचना का वह केंद्रीय विचार या मूल भावना है जिसे.',
+          question: '\'इजसेपन\' का मुख्य विषय — \'इजसेपन\' का केंद्रीय भाव और संदेश',
           hint: 'यदि अटके तो **पात्र-चित्रण: नायक (c11_hin_ar_cbse_01_004)** के \'चरित्र विकास क्रम\'.',
           misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर **\'शीर्षक को ही मुख्य विषय मान लेते हैं\'** या **\'किसी एक पात्र के एक संवाद को लेखक का.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य विषय (Central Theme) किसी रचना का वह केंद्रीय विचार या मूल भावना है जिसे लेखक',
-                  options: ['मुख्य विषय (Central Theme) किसी रचना का वह केंद्रीय विचार या मूल भावना है जिसे लेखक', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल की ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक', 'कथानक (Plot) किसी कथा में घटनाओं का कारण-कार्य संबंध (Causal Sequence) युक्त तार्किक क्रम', 'पाठ्य-परिवेश वह भौतिक, सामाजिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी घटित होती है, जो'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'इजसेपन\' का मुख्य विषय',
+                  options: ['\'इजसेपन\' का मुख्य विषय', 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = प्रेमचंद का जीवन-वृत्त 1924 तक (असली नाम धनपत राय,', '\'इजसेपन\' का कथानक', '\'इजसेपन\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके तो **पात्र-चित्रण: नायक (c11_hin_ar_cbse_01_004)** के \'चरित्र विकास क्रम\' (Character Arc).',
                   misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर **\'शीर्षक को ही मुख्य विषय मान लेते हैं\'** या **\'किसी एक पात्र के एक संवाद को लेखक का अंतिम संदेश मान लेते.' }
           ],

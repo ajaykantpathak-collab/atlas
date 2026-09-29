@@ -87,7 +87,11 @@ export const c6_history_ch12: SimDef = {
                   options: ['The chairman was Dr', 'the Constitution was written by a single person, like Dr'],
                   hint: 'Review the timeline of the end of British rule in India.',
                   misconception: 'Students often think the Constitution was written by a single person, like Dr. B.R. Ambedkar, acting alone.' },
-                { id: 'b', prompt: 'How did the number of members in the Constituent Assembly change from 1946 to the final drafting period?', answer: 'The number dropped from 389 to 299 due to the partition of India',
+                { id: 'b', prompt: 'If you were part of the Constituent Assembly, why would it be important to have members from different regions and religions?', answer: 'Identify the goal of unity',
+                  options: ['Identify the goal of unity', 'the Constitution was written by a single person, like Dr'],
+                  hint: 'Review the timeline of the end of British rule in India.',
+                  misconception: 'Students often think the Constitution was written by a single person, like Dr. B.R. Ambedkar, acting alone.' },
+                { id: 'c', prompt: 'How did the number of members in the Constituent Assembly change from 1946 to the final drafting period?', answer: 'The number dropped from 389 to 299 due to the partition of India',
                   options: ['The number dropped from 389 to 299 due to the partition of India', 'the Constitution was written by a single person, like Dr'],
                   hint: 'Review the timeline of the end of British rule in India.',
                   misconception: 'Students often think the Constitution was written by a single person, like Dr. B.R. Ambedkar, acting alone.' }

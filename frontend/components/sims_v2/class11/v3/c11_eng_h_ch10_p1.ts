@@ -19,52 +19,52 @@ export const c11_eng_h_ch10_p1: SimDef = {
         hook: '\'I am the Poem of Earth\' — the rain narrates the water cycle so the poet can describe himself: experience rising, changing, returning.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" for "The Voice of the Rain" provides the essential literary, historical, and biographical framework needed to interpret Walt Whitman\'s poem, including his.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Voice of the Rain\' (Hornbill, ch. 10) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_10_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Map each stanza to its water-cycle stage and speaker, then argue why the poem needs a dialogue, not a monologue.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_10_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re meeting a new classmate who speaks in riddles — you\'d want to know their background, interests, and way of thinking before trying to understand.',
+          caseStudy: { intro: 'Start with the author of \'The Voice of the Rain\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who is the poet of "The Voice of the Rain," and what is the title of his most famous poetry collection?', options: [
                 { text: 'The poet is Walt Whitman, and his most famous collection is *Leaves of Grass*', outcome: 'The poet is Walt Whitman, and his most famous collection is *Leaves of Grass*.' },
                 { text: 'The Voice of the Rain', outcome: 'Not quite — Students believe "The Voice of the Rain" is *primarily* a science lesson about the water cycle, and.', reveals: 'the-voice-of-the-rain' },
                 { text: 'Robert Frost or *The Road Not Taken*', outcome: 'Not quite — Students believe "The Voice of the Rain" is *primarily* a science lesson about the water cycle, and.', reveals: 'the-voice-of-the-rain' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_10_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re listening to a podcast where a scientist interviews a cloud — the cloud speaks back, explaining its life story in first person.',
+          caseStudy: { intro: 'Trace \'The Voice of the Rain\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the primary narrative form of "The Voice of the Rain," and who are the two speakers in the dialogue?', options: [
                 { text: 'The poem uses a **dialogue form** (a conversation between two voices)', outcome: 'The poem uses a **dialogue form** (a conversation between two voices).' },
                 { text: 'first-person narrative', outcome: 'Not quite — Students often say "poems don\'t have plots — only stories do." They confuse **plot** (the sequence.', reveals: 'students-often-say-poems-don' },
                 { text: 'third-person description', outcome: 'Not quite — Students often say "poems don\'t have plots — only stories do." They confuse **plot** (the sequence.', reveals: 'students-often-say-poems-don' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_10_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine standing at Marine Drive in Mumbai during monsoon — the sea stretches endlessly, clouds hang low, and rain transforms the promenade from bustling.',
+          caseStudy: { intro: 'Identify where and when \'The Voice of the Rain\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the primary physical setting of "The Voice of the Rain," and which two geographical realms does the rain explicitly name as its.', options: [
                 { text: 'The primary physical setting is the natural world encompassing the water cycle, and the', outcome: 'The primary physical setting is the natural world encompassing the water cycle, and the rain.' },
                 { text: 'the sky', outcome: 'Not quite — Students conflate setting (the "where/when") with atmosphere (the "feeling"), treating them.', reveals: 'students-conflate-setting-the-where' },
                 { text: 'clouds only', outcome: 'Not quite — Students conflate setting (the "where/when") with atmosphere (the "feeling"), treating them.', reveals: 'students-conflate-setting-the-where' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_10_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine the rain knocking on your window and introducing itself: "I am the Poem of Earth." Start by reading the poem aloud to hear the rain\'s voice.',
+          caseStudy: { intro: 'Pick the central figure in \'The Voice of the Rain\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the first line spoken by the rain in the poem "The Voice of the Rain"?', options: [
                 { text: 'The rain says: "I am the Poem of Earth."', outcome: 'The rain says: "I am the Poem of Earth." A wrong answer (e.g., "I am the rain") shows the student.' },
                 { text: 'I am the Poem of Earth', outcome: 'Not quite — Students often treat the rain as a mere scientific process (water cycle) and miss the literary.', reveals: 'students-often-treat-the-rain' },
                 { text: 'I am the rain', outcome: 'Not quite — Students often treat the rain as a mere scientific process (water cycle) and miss the literary.', reveals: 'students-often-treat-the-rain' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_10_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re sitting by a window watching rain fall, and you whisper, "Who are you?" — and the rain actually answers in a full, poetic monologue about its.',
+          caseStudy: { intro: 'Spot the secondary figures in \'The Voice of the Rain\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'Who speaks the first line of "The Voice of the Rain" and what exactly do they say?', options: [
                 { text: 'The poet-speaker says "And who art thou?" This question initiates the entire dialogue', outcome: 'The poet-speaker says "And who art thou?" This question initiates the entire dialogue.' },
                 { text: 'the rain speaks first', outcome: 'Not quite — Students think the poet is just a narrator, not a character. They miss that the poet\'s question.', reveals: 'the-poet-is-just-a' },
                 { text: 'the poet is just a narrator, not a character', outcome: 'Not quite — Students think the poet is just a narrator, not a character. They miss that the poet\'s question.', reveals: 'the-poet-is-just-a' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_10_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re sitting by a window watching rain fall — you hear its patter on the roof, see it wash the dust away, and wonder where it came from and where.',
+          caseStudy: { intro: 'Ask what \'The Voice of the Rain\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of "The Voice of the Rain" as distinct from its subject matter?', options: [
                 { text: 'The primary theme is the eternal, self-renewing cyclical process of nature', outcome: 'The primary theme is the eternal, self-renewing cyclical process of nature — not merely the water.' },
                 { text: 'the water cycle', outcome: 'Not quite — Students often believe the primary theme is "the water cycle" or "rain is essential for life".', reveals: 'the-primary-theme-is-the' },
@@ -84,12 +84,12 @@ export const c11_eng_h_ch10_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_10_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" for "The Voice of the Rain" provides.',
+          question: '\'The Voice of the Rain\' (Hornbill, ch. 10) — the context and background to this.',
           hint: 'Review c9_engl_ch3_011 (Tagore\'s free verse) and c8_engl_ch4_015 (personification.',
           misconception: 'Students believe "The Voice of the Rain" is *primarily* a science lesson about the water cycle, and that the rain\'s.',
           parts: [
@@ -102,7 +102,7 @@ export const c11_eng_h_ch10_p1: SimDef = {
                   hint: 'Review c9_engl_ch3_011 (Tagore\'s free verse) and c8_engl_ch4_015 (personification in nature poetry).',
                   misconception: 'Students believe "The Voice of the Rain" is *primarily* a science lesson about the water cycle, and that the rain\'s speech is just a cute.' }
           ],
-            remediations: { 'the-voice-of-the-rain': { steps: ['Have the student read Whitman\'s "Song of Myself" Section 6 ("A child said What is the grass?") to see the same.', 'Draw the water cycle diagram, then label each stage with the poem\'s corresponding lines (e.g., "impalpable".', 'Ask: "If the rain is the poem, what is the \'drought\' it relieves?" Guide them to "human spiritual aridity." 4.', 'Re-read the poem aloud, emphasizing the musical cadence of the free verse lines.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-voice-of-the-rain': { steps: ['Have the student read Whitman\'s "Song of Myself" Section 6 ("A child said What is the grass?") to see the same.', 'Draw the water cycle diagram, then label each stage with the poem\'s corresponding lines (e.g., "impalpable".', 'Ask: "If the rain is the poem, what is the \'drought\' it relieves?" Guide them to "human spiritual aridity." 4.', 'Re-read the poem aloud, emphasizing the musical cadence of the free verse lines.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_10_001', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -117,9 +117,9 @@ export const c11_eng_h_ch10_p1: SimDef = {
                   hint: 'Review c9_engl_ch3_011 (Tagore\'s free verse) and c8_engl_ch4_015 (personification in nature poetry).',
                   misconception: 'Students believe "The Voice of the Rain" is *primarily* a science lesson about the water cycle, and that the rain\'s speech is just a cute.' }
           ],
-            remediations: { 'the-voice-of-the-rain': { steps: ['Have the student read Whitman\'s "Song of Myself" Section 6 ("A child said What is the grass?") to see the same.', 'Draw the water cycle diagram, then label each stage with the poem\'s corresponding lines (e.g., "impalpable".', 'Ask: "If the rain is the poem, what is the \'drought\' it relieves?" Guide them to "human spiritual aridity." 4.', 'Re-read the poem aloud, emphasizing the musical cadence of the free verse lines.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-voice-of-the-rain': { steps: ['Have the student read Whitman\'s "Song of Myself" Section 6 ("A child said What is the grass?") to see the same.', 'Draw the water cycle diagram, then label each stage with the poem\'s corresponding lines (e.g., "impalpable".', 'Ask: "If the rain is the poem, what is the \'drought\' it relieves?" Guide them to "human spiritual aridity." 4.', 'Re-read the poem aloud, emphasizing the musical cadence of the free verse lines.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_10_002', difficulty: 'standard',
-          question: 'In poetry, plot and narrative structure refers to the organized sequence.',
+          question: 'The plot/narrative arc of \'The Voice of the Rain\' — what happens, in what.',
           hint: 'If stuck, review **c7_engl_ch01_011 (King Bruce narrative poem)** for stanza-by-stanza.',
           misconception: 'Students often say "poems don\'t have plots — only stories do." They confuse **plot** (the sequence of events/actions.',
           parts: [
@@ -134,11 +134,15 @@ export const c11_eng_h_ch10_p1: SimDef = {
                 { id: 'c', prompt: 'Map each stanza of the poem to the corresponding stage of the water cycle. Use the table format: Stanza | Speaker | Water Cycle Stage | Key Action.', answer: '| Stanza | Speaker | Water Cycle Stage | Key Action |',
                   options: ['| Stanza | Speaker | Water Cycle Stage | Key Action |', 'poems don\'t have plots'],
                   hint: 'If stuck, review **c7_engl_ch01_011 (King Bruce narrative poem)** for stanza-by-stanza narrative.',
+                  misconception: 'Students often say "poems don\'t have plots — only stories do." They confuse **plot** (the sequence of events/actions in any narrative) with.' },
+                { id: 'd', prompt: 'Analyze how the poem\'s **cyclical structure** (ending where it begins) reinforces its central idea.', answer: 'The poem enacts circularity through three structural moves: (1) **Framing**',
+                  options: ['The poem enacts circularity through three structural moves: (1) **Framing**', 'it repeats', 'poems don\'t have plots'],
+                  hint: 'If stuck, review **c7_engl_ch01_011 (King Bruce narrative poem)** for stanza-by-stanza narrative.',
                   misconception: 'Students often say "poems don\'t have plots — only stories do." They confuse **plot** (the sequence of events/actions in any narrative) with.' }
           ],
-            remediations: { 'students-often-say-poems-don': { steps: ['If a student cannot identify the dialogue structure: (1) Have them read the poem aloud **in two voices** — one student.', '(2) Use a **colour-coding exercise**: highlight the poet\'s words in one colour, the rain\'s in another.', '(3) Ask: "Where does the voice change?', 'How do you know?" (4) Then map the rain\'s speech to a **water cycle diagram** (science cross-link) — each line = one.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-say-poems-don': { steps: ['If a student cannot identify the dialogue structure: (1) Have them read the poem aloud **in two voices** — one student.', '(2) Use a **colour-coding exercise**: highlight the poet\'s words in one colour, the rain\'s in another.', '(3) Ask: "Where does the voice change?', 'How do you know?" (4) Then map the rain\'s speech to a **water cycle diagram** (science cross-link) — each line = one.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_10_003', difficulty: 'standard',
-          question: 'Setting in poetry refers to the physical, temporal, and social environment.',
+          question: 'The setting of \'The Voice of the Rain\' — the place, time and atmosphere the.',
           hint: 'Review c7_engl_ch03_014 (Tagore\'s "Paper Boats" setting analysis) and c8_engl_ch4_7.',
           misconception: 'Students conflate setting (the "where/when") with atmosphere (the "feeling"), treating them as synonyms.',
           parts: [
@@ -147,9 +151,9 @@ export const c11_eng_h_ch10_p1: SimDef = {
                   hint: 'Review c7_engl_ch03_014 (Tagore\'s "Paper Boats" setting analysis) and c8_engl_ch4_7 (Cherry Tree.',
                   misconception: 'Students conflate setting (the "where/when") with atmosphere (the "feeling"), treating them as synonyms.' }
           ],
-            remediations: { 'students-conflate-setting-the-where': { steps: ['Take the student outside or to a window.', 'Ask: "Describe exactly what you see — trees, buildings, sky, light.', 'Ask: "How does this scene make you feel right now?', 'Have them make a two-column table: Column A = every place-word (land, sea, heaven, droughts, dust-layers, atomies).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-conflate-setting-the-where': { steps: ['Take the student outside or to a window.', 'Ask: "Describe exactly what you see — trees, buildings, sky, light.', 'Ask: "How does this scene make you feel right now?', 'Have them make a two-column table: Column A = every place-word (land, sea, heaven, droughts, dust-layers, atomies).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_10_004', difficulty: 'standard',
-          question: 'Character analysis of a protagonist in poetry involves examining the persona.',
+          question: 'Character analysis in \'The Voice of the Rain\' — the central figure(s), their.',
           hint: 'Review "Personification in Poetry" (Class 9/10) and "First-Person Narrative Perspective".',
           misconception: 'Students often treat the rain as a mere scientific process (water cycle) and miss the literary personification.',
           parts: [
@@ -158,9 +162,9 @@ export const c11_eng_h_ch10_p1: SimDef = {
                   hint: 'Review "Personification in Poetry" (Class 9/10) and "First-Person Narrative Perspective" (Class 9.',
                   misconception: 'Students often treat the rain as a mere scientific process (water cycle) and miss the literary personification.' }
           ],
-            remediations: { 'students-often-treat-the-rain': { steps: ['Re-read the poem aloud, marking every "I" statement by the rain.', 'List the human verbs/actions assigned to rain (rise, descend, lave, wash, give life).', 'Identify the central metaphor ("Poem of Earth") and explain what a poem does (expresses, creates, endures).', 'Write one PEEL paragraph: Point (rain is nurturing), Evidence ("lave the droughts"), Explanation (verb \'lave\' suggests.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-rain': { steps: ['Re-read the poem aloud, marking every "I" statement by the rain.', 'List the human verbs/actions assigned to rain (rise, descend, lave, wash, give life).', 'Identify the central metaphor ("Poem of Earth") and explain what a poem does (expresses, creates, endures).', 'Write one PEEL paragraph: Point (rain is nurturing), Evidence ("lave the droughts"), Explanation (verb \'lave\' suggests.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_10_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters in poetry involves examining the.',
+          question: 'Supporting characters in \'The Voice of the Rain\' — the secondary figures who.',
           hint: 'Review the rain\'s self-description "I am the Poem of Earth" from the protagonist analysis.',
           misconception: 'Students think the poet is just a narrator, not a character. They miss that the poet\'s question "And who art thou?".',
           parts: [
@@ -173,9 +177,9 @@ export const c11_eng_h_ch10_p1: SimDef = {
                   hint: 'Review the rain\'s self-description "I am the Poem of Earth" from the protagonist analysis node.',
                   misconception: 'Students think the poet is just a narrator, not a character. They miss that the poet\'s question "And who art thou?" is a deliberate.' }
           ],
-            remediations: { 'the-poet-is-just-a': { steps: ['Have students read the first two lines aloud, then ask: "If the poet didn\'t ask, would the rain speak?" Guide them.', 'Then re-read the rain\'s answer noting how it directly addresses "I am the Poem of Earth" — responding to "who.".', 'This three-step demonstration makes the structural function visible.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-poet-is-just-a': { steps: ['Have students read the first two lines aloud, then ask: "If the poet didn\'t ask, would the rain speak?" Guide them.', 'Then re-read the rain\'s answer noting how it directly addresses "I am the Poem of Earth" — responding to "who.".', 'This three-step demonstration makes the structural function visible.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_10_006', difficulty: 'standard',
-          question: 'The primary theme of a poem is its central, unifying idea that the poet.',
+          question: 'The primary theme of \'The Voice of the Rain\' — the central idea the whole text.',
           hint: 'If stuck, review node c11_eng_h_cbse_10_002 (narrative structure) and practice writing.',
           misconception: 'Students often believe the primary theme is "the water cycle" or "rain is essential for life" because these are the.',
           parts: [
@@ -188,7 +192,7 @@ export const c11_eng_h_ch10_p1: SimDef = {
                   hint: 'If stuck, review node c11_eng_h_cbse_10_002 (narrative structure) and practice writing a 3-sentence.',
                   misconception: 'Students often believe the primary theme is "the water cycle" or "rain is essential for life" because these are the poem\'s *subject.' }
           ],
-            remediations: { 'the-primary-theme-is-the': { steps: ['If a student gives a plot-summary theme, do NOT say "that\'s wrong." Instead: (1) Acknowledge: "Yes, that\'s what happens.', 'Ask: \'What idea about life/nature/humanity does this cycle *represent*?\'" (3) Model: "The cycle *is* the water cycle.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'the-primary-theme-is-the': { steps: ['If a student gives a plot-summary theme, do NOT say "that\'s wrong." Instead: (1) Acknowledge: "Yes, that\'s what happens.', 'Ask: \'What idea about life/nature/humanity does this cycle *represent*?\'" (3) Model: "The cycle *is* the water cycle.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -6,13 +6,13 @@ import C6_ScienceSeparationOfSubstancesSim from '../../../simulations/c6_12/C6_S
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_scienceseparationofsubstancessim: SimDef = {
     id: 'v3w_c6_scienceseparationofsubstancessim',
-    title: 'Separation Of Substances',
+    title: 'Chemical Changes: New Substances Are Born',
     subtitle: 'This node covers the definition and observable signs of chemical changes (e.g., color.',
     classLevel: 6, subject: 'science', topic: 'Chemical Changes: New Substances Are Born',
     chapters: [],
     nodeIds: ['c6_chemistry_ch05_002', 'c6_chemistry_ch04_001', 'c6_chemistry_ch04_002', 'c6_chemistry_ch04_003', 'c6_chemistry_ch04_009', 'c6_physics_ch02_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why a piece of paper turns into ash when it burns, but simply turns into smaller.', goal: 'Master Separation Of Substances.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why a piece of paper turns into ash when it burns, but simply turns into smaller.', goal: 'Master Chemical Changes: New Substances Are Born.' },
     discovery: {
         question: 'What are the two essential characteristics that define anything as "matter"?',
         options: ['Matter must occupy space (volume) and have mass', 'it must be solid', 'transparent'],
@@ -73,7 +73,7 @@ export const w_c6_scienceseparationofsubstancessim: SimDef = {
             { text: 'Result: The paper remains yellow.', faded: true, blankAnswer: 'Soap turns turmeric red-brown; Vinegar leaves turmeric.' }
             ] } }
     ],
-    explore: { component: C6_ScienceSeparationOfSubstancesSim, prompt: 'Explore the interactive — Separation Of Substances' },
+    explore: { component: C6_ScienceSeparationOfSubstancesSim, prompt: 'Explore the interactive — Chemical Changes: New Substances Are Born' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_chemistry_ch05_002', difficulty: 'standard',
           question: 'A chemical change is a process in which one or more substances undergo a.',

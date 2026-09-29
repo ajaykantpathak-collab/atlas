@@ -19,7 +19,7 @@ export const c10_engl_ch13_p2: SimDef = {
         hook: 'The man who believed in \'honour among thieves\' met a thief who didn\'t. His careful gloves came off the moment he trusted the wrong person.',
     },
     teaching: [
-        { title: 'Character Analysis: Horace\'s Dual Nature (Respectable vs Criminal)', text: 'Character analysis of Horace Danby focuses on the deliberate contrast the author creates between his public persona as a respectable, honest locksmith and his private identity as a meticulous, annual.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Character Analysis: Horace\'s Dual Nature (Respectable vs Criminal)', text: 'From \'A Question of Trust\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c10_engl_cbse_13_007', title: 'Your mission',
@@ -61,7 +61,7 @@ export const c10_engl_ch13_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_engl_cbse_13_007', difficulty: 'standard',
-          question: 'Character analysis of Horace Danby focuses on the deliberate contrast the.',
+          question: 'From \'A Question of Trust\': the skill or concept this node teaches, applied.',
           hint: 'Review the "Character Analysis: The Grandmother (Krishtakka)" node (c9_engl_ch1_2).',
           misconception: 'Students frequently write: "Horace Danby was a thief who pretended to be a locksmith." This reverses the textual.',
           parts: [

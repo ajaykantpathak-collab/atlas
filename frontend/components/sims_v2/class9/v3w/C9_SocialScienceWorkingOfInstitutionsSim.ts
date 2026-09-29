@@ -6,13 +6,13 @@ import C9_SocialScienceWorkingOfInstitutionsSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_socialscienceworkingofinstitutionssim: SimDef = {
     id: 'v3w_c9_socialscienceworkingofinstitutionssim',
-    title: 'Social Science Working Of Institutions',
+    title: 'Constitution: Role in a Democracy',
     subtitle: 'Covers the Constitution\'s role as the foundational legal-political framework in a.',
     classLevel: 9, subject: 'science', topic: 'Constitution: Role in a Democracy',
     chapters: [],
     nodeIds: ['c9_civ_ch1_3', 'c9_civ_ch1_10', 'c9_civ_ch1_8', 'c9_civ_ch1_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you see a news headline: "State Government Passes Law Banning All Protests in Capital City." Ask:.', goal: 'Master Social Science Working Of Institutions.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you see a news headline: "State Government Passes Law Banning All Protests in Capital City." Ask:.', goal: 'Master Constitution: Role in a Democracy.' },
     discovery: {
         question: 'Draft a one-paragraph preamble for a new democratic constitution of a diverse country that has just ended a dictatorship.',
         options: ['A good preamble would include: (1) source of authority ("We the people..."), (2)', 'constitutional amendment', 'ordinary law-making'],
@@ -60,14 +60,14 @@ export const w_c9_socialscienceworkingofinstitutionssim: SimDef = {
             { text: 'Conclude – Union law is valid; incidental encroachment on State List does not invalidate it if the core falls in.', faded: true, blankAnswer: 'The Union law is constitutionally valid. Its dominant.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_civ_ch1_10', title: 'Identify each idea',
-          dissect: { specimen: 'Social Science Working Of Institutions', spots: [
+          dissect: { specimen: 'Constitution: Role in a Democracy', spots: [
             { id: 's1', label: 'A constitution in a democracy', prompt: 'Which idea is this? — A constitution in a democracy is the supreme fundamental law that establishes the.', answer: 'A constitution in a democracy', options: ['A constitution in a democracy', 'Local Governance in India refers', 'The media in a democracy', 'Federalism in India is a'] },
             { id: 's2', label: 'Local Governance in India refers', prompt: 'Which idea is this? — Local Governance in India refers to the constitutionally mandated third tier of.', answer: 'Local Governance in India refers', options: ['Local Governance in India refers', 'A constitution in a democracy', 'The media in a democracy', 'Federalism in India is a'] },
             { id: 's3', label: 'The media in a democracy', prompt: 'Which idea is this? — The media in a democracy acts as the "fourth estate" — an independent institution that.', answer: 'The media in a democracy', options: ['The media in a democracy', 'A constitution in a democracy', 'Local Governance in India refers', 'Federalism in India is a'] },
             { id: 's4', label: 'Federalism in India is a', prompt: 'Which idea is this? — Federalism in India is a constitutional system of governance where legislative,.', answer: 'Federalism in India is a', options: ['Federalism in India is a', 'A constitution in a democracy', 'Local Governance in India refers', 'The media in a democracy'] }
           ] } }
     ],
-    explore: { component: C9_SocialScienceWorkingOfInstitutionsSim, prompt: 'Explore the interactive — Social Science Working Of Institutions' },
+    explore: { component: C9_SocialScienceWorkingOfInstitutionsSim, prompt: 'Explore the interactive — Constitution: Role in a Democracy' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_civ_ch1_3', difficulty: 'standard',
           question: 'A constitution in a democracy is the supreme fundamental law that establishes.',

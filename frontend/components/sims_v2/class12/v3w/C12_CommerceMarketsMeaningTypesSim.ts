@@ -6,13 +6,13 @@ import C12_CommerceMarketsMeaningTypesSim from '../../../simulations/c6_12/C12_C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_commercemarketsmeaningtypessim: SimDef = {
     id: 'v3w_c12_commercemarketsmeaningtypessim',
-    title: 'Markets Meaning Types',
+    title: 'Secondary Market: Stock Exchanges and their Functions',
     subtitle: 'Covers: meaning of secondary market, distinction from primary market, definition and.',
     classLevel: 12, subject: 'business_studies', topic: 'Secondary Market: Stock Exchanges and their Functions',
     chapters: [],
     nodeIds: ['c12_bs_cbse_10_005', 'c12_bs_cbse_11_001', 'c12_bs_cbse_11_007', 'c12_bs_cbse_10_006', 'c12_bs_cbse_10_009', 'c12_bs_cbse_10_001', 'c12_bs_cbse_10_003', 'c12_bs_cbse_10_008', 'c12_bs_cbse_11_004', 'c12_bs_cbse_11_005', 'c12_bs_cbse_05_006', 'c12_bs_cbse_05_009', 'c12_bs_cbse_11_008', 'c12_bs_cbse_11_009', 'c12_bs_cbse_11_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you bought 100 shares of Reliance Industries in an IPO two years ago.', goal: 'Master Markets Meaning Types.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you bought 100 shares of Reliance Industries in an IPO two years ago.', goal: 'Master Secondary Market: Stock Exchanges and their Functions.' },
     discovery: {
         question: 'A company\'s shares are listed on both BSE and NSE. On a particular day, the share price on BSE is ₹2,450 and on NSE is ₹2,455. An arbitrageur notices this.',
         options: ['Correct steps: (1) Buy shares on BSE at ₹2,450', 'law of one price', 'secondary market trading helps the company raise more capital'],
@@ -81,7 +81,7 @@ export const w_c12_commercemarketsmeaningtypessim: SimDef = {
             { text: 'Verify — commercial paper max maturity 1 year matches 3-month need; debentures 5–10 year tenure matches plant life.', faded: true, blankAnswer: 'Plant → Capital Market → Debentures/Equity; Inventory →.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bs_cbse_11_001', title: 'Identify each idea',
-          dissect: { specimen: 'Markets Meaning Types', spots: [
+          dissect: { specimen: 'Secondary Market: Stock Exchanges and their Functions', spots: [
             { id: 's1', label: 'The secondary market is a', prompt: 'Which idea is this? — The secondary market is a financial market where previously issued securities (shares,.', answer: 'The secondary market is a', options: ['The secondary market is a', 'Marketing is a social and', 'Channels of distribution refer to', 'A stock exchange is an'] },
             { id: 's2', label: 'Marketing is a social and', prompt: 'Which idea is this? — Marketing is a social and managerial process by which individuals and groups obtain what.', answer: 'Marketing is a social and', options: ['Marketing is a social and', 'The secondary market is a', 'Channels of distribution refer to', 'A stock exchange is an'] },
             { id: 's3', label: 'Channels of distribution refer to', prompt: 'Which idea is this? — Channels of distribution refer to the path or route through which goods and services move.', answer: 'Channels of distribution refer to', options: ['Channels of distribution refer to', 'The secondary market is a', 'Marketing is a social and', 'A stock exchange is an'] },
@@ -90,7 +90,7 @@ export const w_c12_commercemarketsmeaningtypessim: SimDef = {
             { id: 's6', label: 'A financial market is a', prompt: 'Which idea is this? — A financial market is a marketplace where buyers and sellers trade financial assets such.', answer: 'A financial market is a', options: ['A financial market is a', 'The secondary market is a', 'Marketing is a social and', 'Channels of distribution refer to'] }
           ] } }
     ],
-    explore: { component: C12_CommerceMarketsMeaningTypesSim, prompt: 'Explore the interactive — Markets Meaning Types' },
+    explore: { component: C12_CommerceMarketsMeaningTypesSim, prompt: 'Explore the interactive — Secondary Market: Stock Exchanges and their Functions' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bs_cbse_10_005', difficulty: 'standard',
           question: 'The secondary market is a financial market where previously issued securities.',

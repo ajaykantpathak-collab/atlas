@@ -6,13 +6,13 @@ import C8_PhysicsTurningEffectForceSim from '../../../simulations/c6_12/C8_Physi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_physicsturningeffectforcesim: SimDef = {
     id: 'v3w_c8_physicsturningeffectforcesim',
-    title: 'Turning Effect Force',
+    title: 'Factors Affecting Strength of an Electromagnet',
     subtitle: 'Covers qualitative and semi-quantitative analysis of three factors: number of turns,.',
     classLevel: 8, subject: 'physics', topic: 'Factors Affecting Strength of an Electromagnet',
     chapters: [],
     nodeIds: ['c8_physics_ch2_4', 'c8_physics_ch9_8', 'c8_physics_ch2_5', 'c8_physics_ch4_12', 'c8_physics_ch4_7', 'c8_physics_ch4_8'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Observe a crane in a scrapyard lifting heavy iron pieces with a large circular magnet — that is an industrial.', goal: 'Master Turning Effect Force.' },
+    scenario: { role: 'a class 8 learner', intro: 'Observe a crane in a scrapyard lifting heavy iron pieces with a large circular magnet — that is an industrial.', goal: 'Master Factors Affecting Strength of an Electromagnet.' },
     discovery: {
         question: 'Compare two electromagnets: X has 200 turns of thin wire on a soft iron core with 0.5 A current.',
         options: ['Electromagnet Y is stronger', 'more turns always wins', 'more turns always means stronger magnet'],
@@ -78,7 +78,7 @@ export const w_c8_physicsturningeffectforcesim: SimDef = {
             { text: 'Wind direction: Vane points to where wind comes FROM. NW = 315° (or "north-westerly").', faded: true, blankAnswer: 'Wind speed = 1.2 m/s (4.32 km/h). Wind direction = 315°.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_physics_ch9_8', title: 'Identify each idea',
-          dissect: { specimen: 'Turning Effect Force', spots: [
+          dissect: { specimen: 'Factors Affecting Strength of an Electromagnet', spots: [
             { id: 's1', label: 'The strength of an electromagnet', prompt: 'Which idea is this? — The strength of an electromagnet is the magnetic force it exerts, measured by the number.', answer: 'The strength of an electromagnet', options: ['The strength of an electromagnet', 'Earths rotation is its spin', 'Applications of electromagnets utilize the', 'The Coriolis Effect is the'] },
             { id: 's2', label: 'Earths rotation is its spin', prompt: 'Which idea is this? — Earth\'s rotation is its spin on an axis tilted at 23.5° relative to its orbital plane,.', answer: 'Earths rotation is its spin', options: ['Earths rotation is its spin', 'The strength of an electromagnet', 'Applications of electromagnets utilize the', 'The Coriolis Effect is the'] },
             { id: 's3', label: 'Applications of electromagnets utilize the', prompt: 'Which idea is this? — Applications of electromagnets utilize the temporary magnetism produced by electric.', answer: 'Applications of electromagnets utilize the', options: ['Applications of electromagnets utilize the', 'The strength of an electromagnet', 'Earths rotation is its spin', 'The Coriolis Effect is the'] },
@@ -87,7 +87,7 @@ export const w_c8_physicsturningeffectforcesim: SimDef = {
             { id: 's6', label: 'Wind direction is the compass', prompt: 'Which idea is this? — Wind direction is the compass direction from which the wind originates (e.g., a northerly.', answer: 'Wind direction is the compass', options: ['Wind direction is the compass', 'The strength of an electromagnet', 'Earths rotation is its spin', 'Applications of electromagnets utilize the'] }
           ] } }
     ],
-    explore: { component: C8_PhysicsTurningEffectForceSim, prompt: 'Explore the interactive — Turning Effect Force' },
+    explore: { component: C8_PhysicsTurningEffectForceSim, prompt: 'Explore the interactive — Factors Affecting Strength of an Electromagnet' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch2_4', difficulty: 'standard',
           question: 'The strength of an electromagnet is the magnetic force it exerts, measured by.',

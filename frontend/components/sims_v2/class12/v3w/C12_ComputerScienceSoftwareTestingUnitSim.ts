@@ -6,13 +6,13 @@ import C12_ComputerScienceSoftwareTestingUnitSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_computersciencesoftwaretestingunitsim: SimDef = {
     id: 'v3w_c12_computersciencesoftwaretestingunitsim',
-    title: 'Software Testing Unit',
+    title: 'Eavesdropping and Man-in-the-Middle Attacks',
     subtitle: 'This node covers definitions, mechanisms, differences (eavesdropping vs. snooping vs.',
     classLevel: 12, subject: 'computer_science', topic: 'Eavesdropping and Man-in-the-Middle Attacks',
     chapters: [],
     nodeIds: ['c12_cs_cbse_12_004', 'c12_cs_cbse_12_002', 'c12_cs_cbse_12_005', 'c12_cs_cbse_12_009', 'c12_cs_cbse_12_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are sitting in a café using the free "Cafe_Free_WiFi" to check your bank balance.', goal: 'Master Software Testing Unit.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are sitting in a café using the free "Cafe_Free_WiFi" to check your bank balance.', goal: 'Master Eavesdropping and Man-in-the-Middle Attacks.' },
     discovery: {
         question: 'Explain in your own words why a Trojan horse is **not** considered a virus or a worm, even though it can cause similar damage.',
         options: ['**Correct answer:** A Trojan does not self-replicate', 'Trojans are viruses', 'Trojans spread like worms'],
@@ -69,7 +69,7 @@ export const w_c12_computersciencesoftwaretestingunitsim: SimDef = {
             { text: 'Conclude MIT is the best fit.', faded: true, blankAnswer: 'MIT License' }
             ] } },
         { type: 'dissect', nodeId: 'c12_cs_cbse_12_002', title: 'Identify each idea',
-          dissect: { specimen: 'Software Testing Unit', spots: [
+          dissect: { specimen: 'Eavesdropping and Man-in-the-Middle Attacks', spots: [
             { id: 's1', label: 'Eavesdropping is the unauthorized real-time', prompt: 'Which idea is this? — Eavesdropping is the unauthorized real-time interception and monitoring of private.', answer: 'Eavesdropping is the unauthorized real-time', options: ['Eavesdropping is the unauthorized real-time', 'Malware malicious software is any', 'A firewall is a network', 'Intellectual Property Rights IPR are'] },
             { id: 's2', label: 'Malware malicious software is any', prompt: 'Which idea is this? — Malware (malicious software) is any program deliberately designed to infiltrate, damage,.', answer: 'Malware malicious software is any', options: ['Malware malicious software is any', 'Eavesdropping is the unauthorized real-time', 'A firewall is a network', 'Intellectual Property Rights IPR are'] },
             { id: 's3', label: 'A firewall is a network', prompt: 'Which idea is this? — A firewall is a network security system that monitors and controls incoming and outgoing.', answer: 'A firewall is a network', options: ['A firewall is a network', 'Eavesdropping is the unauthorized real-time', 'Malware malicious software is any', 'Intellectual Property Rights IPR are'] },
@@ -77,7 +77,7 @@ export const w_c12_computersciencesoftwaretestingunitsim: SimDef = {
             { id: 's5', label: 'Open Source Software OSS is', prompt: 'Which idea is this? — Open Source Software (OSS) is software whose source code is made freely available for.', answer: 'Open Source Software OSS is', options: ['Open Source Software OSS is', 'Eavesdropping is the unauthorized real-time', 'Malware malicious software is any', 'A firewall is a network'] }
           ] } }
     ],
-    explore: { component: C12_ComputerScienceSoftwareTestingUnitSim, prompt: 'Explore the interactive — Software Testing Unit' },
+    explore: { component: C12_ComputerScienceSoftwareTestingUnitSim, prompt: 'Explore the interactive — Eavesdropping and Man-in-the-Middle Attacks' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_cs_cbse_12_004', difficulty: 'standard',
           question: 'Eavesdropping is the unauthorized real-time interception and monitoring of.',

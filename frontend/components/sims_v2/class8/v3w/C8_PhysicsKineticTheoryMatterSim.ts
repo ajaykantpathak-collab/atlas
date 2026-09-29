@@ -6,13 +6,13 @@ import C8_PhysicsKineticTheoryMatterSim from '../../../simulations/c6_12/C8_Phys
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_physicskinetictheorymattersim: SimDef = {
     id: 'v3w_c8_physicskinetictheorymattersim',
-    title: 'Kinetic Theory Matter',
+    title: 'Solubility of Gases in Liquids: Effect of Temperature and Pressure',
     subtitle: 'This node covers the qualitative and quantitative effects of temperature (inverse.',
     classLevel: 8, subject: 'physics', topic: 'Solubility of Gases in Liquids: Effect of Temperature and Pressure',
     chapters: [],
     nodeIds: ['c8_physics_ch5_10', 'c8_physics_ch8_7'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Observe a sealed cold drink bottle: when opened, bubbles rush out — the dissolved carbon dioxide escapes.', goal: 'Master Kinetic Theory Matter.' },
+    scenario: { role: 'a class 8 learner', intro: 'Observe a sealed cold drink bottle: when opened, bubbles rush out — the dissolved carbon dioxide escapes.', goal: 'Master Solubility of Gases in Liquids: Effect of Temperature and Pressure.' },
     discovery: {
         question: 'A student claims: "If I double the pressure on a gas-liquid system, the amount of dissolved gas will double, no matter what the temperature is." Evaluate this.',
         options: ['The statement is partially correct but incomplete', 'always true', 'never true'],
@@ -42,12 +42,12 @@ export const w_c8_physicskinetictheorymattersim: SimDef = {
             { text: 'Conclude that balance is restored not by returning to original numbers, but by establishing a new stable range of.', faded: true, blankAnswer: 'Grass increases initially, then decreases as grasshoppers.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_physics_ch8_7', title: 'Identify each idea',
-          dissect: { specimen: 'Kinetic Theory Matter', spots: [
+          dissect: { specimen: 'Solubility of Gases in Liquids: Effect of Temperature and Pressure', spots: [
             { id: 's1', label: 'The solubility of a gas', prompt: 'Which idea is this? — The solubility of a gas in a liquid is the maximum amount of gas (in moles or grams) that.', answer: 'The solubility of a gas', options: ['The solubility of a gas', 'Balance in nature is the'] },
             { id: 's2', label: 'Balance in nature is the', prompt: 'Which idea is this? — Balance in nature is the dynamic equilibrium in an ecosystem where populations of.', answer: 'Balance in nature is the', options: ['Balance in nature is the', 'The solubility of a gas'] }
           ] } }
     ],
-    explore: { component: C8_PhysicsKineticTheoryMatterSim, prompt: 'Explore the interactive — Kinetic Theory Matter' },
+    explore: { component: C8_PhysicsKineticTheoryMatterSim, prompt: 'Explore the interactive — Solubility of Gases in Liquids: Effect of Temperature and Pressure' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch5_10', difficulty: 'standard',
           question: 'The solubility of a gas in a liquid is the maximum amount of gas (in moles or.',

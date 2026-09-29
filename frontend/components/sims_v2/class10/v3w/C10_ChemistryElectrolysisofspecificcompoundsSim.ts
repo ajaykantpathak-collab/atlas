@@ -6,13 +6,13 @@ import C10_ChemistryElectrolysisofspecificcompoundsSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_chemistryelectrolysisofspecificcompoundssim: SimDef = {
     id: 'v3w_c10_chemistryelectrolysisofspecificcompoundssim',
-    title: 'Electrolysisofspecificcompounds',
+    title: 'Types of Reactions: Decomposition Reactions (Thermal, Electrolytic, Photo)',
     subtitle: 'This node covers the three main types of decomposition reactions (thermal, electrolytic,.',
     classLevel: 10, subject: 'chemistry', topic: 'Types of Reactions: Decomposition Reactions (Thermal, Electrolytic, Photo)',
     chapters: [],
     nodeIds: ['c10_chem_cbse_01_004', 'c10_chem_cbse_01_009', 'c10_chem_cbse_03_010', 'c10_chem_cbse_03_011', 'c10_chem_cbse_02_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Start with a real-world observation: When you heat green ferrous sulphate crystals in a test tube, they turn.', goal: 'Master Electrolysisofspecificcompounds.' },
+    scenario: { role: 'a class 10 learner', intro: 'Start with a real-world observation: When you heat green ferrous sulphate crystals in a test tube, they turn.', goal: 'Master Types of Reactions: Decomposition Reactions (Thermal, Electrolytic, Photo).' },
     discovery: {
         question: 'Define corrosion and write the chemical formula of rust. State the two essential conditions required for rusting of iron.',
         options: ['Corrosion is the gradual destruction of metals by electrochemical reaction with', 'rust is Fe₂O₃ only', 'only air is needed'],
@@ -70,7 +70,7 @@ export const w_c10_chemistryelectrolysisofspecificcompoundssim: SimDef = {
             { text: 'Calculate gas volumes at STP: Volume = moles × 22.4 L/mol. Cl₂ = 5 × 22.4 = 112 L. H₂ = 5 × 22.4 = 112 L.', faded: true, blankAnswer: 'NaOH = 400 g; Cl₂ = 112 L at STP; H₂ = 112 L at STP.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_chem_cbse_01_009', title: 'Identify each idea',
-          dissect: { specimen: 'Electrolysisofspecificcompounds', spots: [
+          dissect: { specimen: 'Types of Reactions: Decomposition Reactions (Thermal, Electrolytic, Photo)', spots: [
             { id: 's1', label: 'A decomposition reaction is a', prompt: 'Which idea is this? — A decomposition reaction is a chemical reaction in which a single compound breaks down.', answer: 'A decomposition reaction is a', options: ['A decomposition reaction is a', 'Corrosion is the gradual deterioration', 'Extraction of metals from their', 'Electrolytic refining is the process'] },
             { id: 's2', label: 'Corrosion is the gradual deterioration', prompt: 'Which idea is this? — Corrosion is the gradual deterioration of a metal due to electrochemical reaction with.', answer: 'Corrosion is the gradual deterioration', options: ['Corrosion is the gradual deterioration', 'A decomposition reaction is a', 'Extraction of metals from their', 'Electrolytic refining is the process'] },
             { id: 's3', label: 'Extraction of metals from their', prompt: 'Which idea is this? — Extraction of metals from their ores involves three main sequential steps: enrichment.', answer: 'Extraction of metals from their', options: ['Extraction of metals from their', 'A decomposition reaction is a', 'Corrosion is the gradual deterioration', 'Electrolytic refining is the process'] },
@@ -78,7 +78,7 @@ export const w_c10_chemistryelectrolysisofspecificcompoundssim: SimDef = {
             { id: 's5', label: 'The chlor-alkali process is the', prompt: 'Which idea is this? — The chlor-alkali process is the industrial electrolysis of concentrated aqueous sodium.', answer: 'The chlor-alkali process is the', options: ['The chlor-alkali process is the', 'A decomposition reaction is a', 'Corrosion is the gradual deterioration', 'Extraction of metals from their'] }
           ] } }
     ],
-    explore: { component: C10_ChemistryElectrolysisofspecificcompoundsSim, prompt: 'Explore the interactive — Electrolysisofspecificcompounds' },
+    explore: { component: C10_ChemistryElectrolysisofspecificcompoundsSim, prompt: 'Explore the interactive — Types of Reactions: Decomposition Reactions (Thermal, Electrolytic, Photo)' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_chem_cbse_01_004', difficulty: 'standard',
           question: 'A decomposition reaction is a chemical reaction in which a single compound.',

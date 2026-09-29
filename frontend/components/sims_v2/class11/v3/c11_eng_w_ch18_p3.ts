@@ -19,30 +19,30 @@ export const c11_eng_w_ch18_p3: SimDef = {
         hook: 'The grandmother says \'trees are sacred\'; the father \'massacred them all\' — the poem lets both be true, and makes you watch the saw do it slowly.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining a text beyond its literal meaning to uncover deeper implications, evaluating the author\'s choices (language, structure, perspective), and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Felling of the Banyan Tree\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_18_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Label the stages of a felling — order, warning, seven days of sawing, fifty men, revealed rings — then test the ending where the tree \'grows and seethes in one\'s dreams.\'',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_18_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you witness a massive old tree in your neighborhood being cut down to make way for a new apartment complex.',
+          caseStudy: { intro: 'Analyse \'Felling of the Banyan Tree\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the primary difference between literal comprehension and critical interpretation of a poem?', options: [
                 { text: 'Literal comprehension retrieves facts explicitly stated in the text (e.g., the banyan', outcome: 'Literal comprehension retrieves facts explicitly stated in the text (e.g., the banyan tree was.' },
                 { text: 'critical analysis', outcome: 'Not quite — Students often think "critical analysis" means criticizing the poem (finding faults) or simply.', reveals: 'critical-analysis-means-criticizing-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_18_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you see a massive old tree in your neighbourhood being cut down for a new road.',
+          caseStudy: { intro: 'For written answers on \'Felling of the Banyan Tree\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing analytical paragraphs about literature?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Evidence, Language', outcome: 'Not quite — Students often believe that "writing about the poem" means retelling the story in their own words.', reveals: 'writing-about-the-poem-means' },
                 { text: 'writing about the poem', outcome: 'Not quite — Students often believe that "writing about the poem" means retelling the story in their own words.', reveals: 'writing-about-the-poem-means' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_18_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a literature circle and a classmate says, "The poem is just about an old tree being cut down; it doesn\'t matter today." You feel the poem.',
+          caseStudy: { intro: 'Talk through \'Felling of the Banyan Tree\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the three essential components of a productive literary discussion turn in a senior secondary classroom?', options: [
                 { text: 'A productive turn includes: (1) a clear claim or response to a peer, (2) specific textual', outcome: 'A productive turn includes: (1) a clear claim or response to a peer, (2) specific textual evidence.' },
                 { text: 'sharing opinions', outcome: 'Not quite — Students believe a good discussion contribution is stating a personal feeling ("I felt sad when the.', reveals: 'a-good-discussion-contribution-is' },
@@ -62,12 +62,12 @@ export const c11_eng_w_ch18_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining a text beyond its.',
+          question: 'Critical thinking on \'Felling of the Banyan Tree\' — analysing the text to reach.',
           hint: 'If stuck, review the distinction between a literary device (e.g., metaphor) and its.',
           misconception: 'Students often think "critical analysis" means criticizing the poem (finding faults) or simply listing literary devices.',
           parts: [
@@ -80,7 +80,7 @@ export const c11_eng_w_ch18_p3: SimDef = {
                   hint: 'If stuck, review the distinction between a literary device (e.g., metaphor) and its function (e.g.',
                   misconception: 'Students often think "critical analysis" means criticizing the poem (finding faults) or simply listing literary devices they have.' }
           ],
-            remediations: { 'critical-analysis-means-criticizing-the': { steps: ['If a student falls into this misconception, do NOT have them re-memorize device definitions.', 'Instead, take ONE line from the poem (e.g., "The great tree revealed its rings of two hundred years") and guide them.', '2) What does "revealed" suggest about the tree\'s agency?', '3) What does "rings" symbolize beyond age?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-criticizing-the': { steps: ['If a student falls into this misconception, do NOT have them re-memorize device definitions.', 'Instead, take ONE line from the poem (e.g., "The great tree revealed its rings of two hundred years") and guide them.', '2) What does "revealed" suggest about the tree\'s agency?', '3) What does "rings" symbolize beyond age?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -95,9 +95,9 @@ export const c11_eng_w_ch18_p3: SimDef = {
                   hint: 'If stuck, review the distinction between a literary device (e.g., metaphor) and its function (e.g.',
                   misconception: 'Students often think "critical analysis" means criticizing the poem (finding faults) or simply listing literary devices they have.' }
           ],
-            remediations: { 'critical-analysis-means-criticizing-the': { steps: ['If a student falls into this misconception, do NOT have them re-memorize device definitions.', 'Instead, take ONE line from the poem (e.g., "The great tree revealed its rings of two hundred years") and guide them.', '2) What does "revealed" suggest about the tree\'s agency?', '3) What does "rings" symbolize beyond age?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-criticizing-the': { steps: ['If a student falls into this misconception, do NOT have them re-memorize device definitions.', 'Instead, take ONE line from the poem (e.g., "The great tree revealed its rings of two hundred years") and guide them.', '2) What does "revealed" suggest about the tree\'s agency?', '3) What does "rings" symbolize beyond age?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter "Felling of the Banyan Tree" refer to the.',
+          question: 'Writing skills from \'Felling of the Banyan Tree\' — using the text as a model.',
           hint: 'If stuck, review the PEEL method from c8_engl_ch1_17 and the quote-embedding technique.',
           misconception: 'Students often believe that "writing about the poem" means retelling the story in their own words.',
           parts: [
@@ -114,9 +114,9 @@ export const c11_eng_w_ch18_p3: SimDef = {
                   hint: 'If stuck, review the PEEL method from c8_engl_ch1_17 and the quote-embedding technique from.',
                   misconception: 'Students often believe that "writing about the poem" means retelling the story in their own words.' }
           ],
-            remediations: { 'writing-about-the-poem-means': { steps: ['Give the student a sample exam question and a model PEEL paragraph.', 'Colour-code the four parts (Point, Evidence, Explanation, Link).', 'Ask them to identify the same four parts in another model answer.', 'Provide a "quote bank" of 5 key lines from the poem.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-about-the-poem-means': { steps: ['Give the student a sample exam question and a model PEEL paragraph.', 'Colour-code the four parts (Point, Evidence, Explanation, Link).', 'Ask them to identify the same four parts in another model answer.', 'Provide a "quote bank" of 5 key lines from the poem.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Felling of the Banyan Tree\' — speaking and listening.',
           hint: 'Revisit c11_eng_w_cbse_18_008 (Imagery and Metaphor) and c11_eng_w_cbse_18_009 (Irony and.',
           misconception: 'Students believe a good discussion contribution is stating a personal feeling ("I felt sad when the tree fell").',
           parts: [
@@ -125,7 +125,7 @@ export const c11_eng_w_ch18_p3: SimDef = {
                   hint: 'Revisit c11_eng_w_cbse_18_008 (Imagery and Metaphor) and c11_eng_w_cbse_18_009 (Irony and.',
                   misconception: 'Students believe a good discussion contribution is stating a personal feeling ("I felt sad when the tree fell") or repeating a teacher\'s.' }
           ],
-            remediations: { 'a-good-discussion-contribution-is': { steps: ['Conduct a "fishbowl" demo: four students discuss while outer circle maps each turn\'s claim-evidence-reasoning on.', 'Provide sentence stems: "The text shows X when it says \'...\' which suggests Y because..." 3.', 'Require each speaker to explicitly reference the previous speaker\'s point before adding new evidence.', 'Debrief by coding a transcript: highlight turns with textual evidence vs.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-good-discussion-contribution-is': { steps: ['Conduct a "fishbowl" demo: four students discuss while outer circle maps each turn\'s claim-evidence-reasoning on.', 'Provide sentence stems: "The text shows X when it says \'...\' which suggests Y because..." 3.', 'Require each speaker to explicitly reference the previous speaker\'s point before adding new evidence.', 'Debrief by coding a transcript: highlight turns with textual evidence vs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

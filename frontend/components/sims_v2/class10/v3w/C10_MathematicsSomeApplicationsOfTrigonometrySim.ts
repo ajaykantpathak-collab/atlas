@@ -6,13 +6,13 @@ import C10_MathematicsSomeApplicationsOfTrigonometrySim from '../../../simulatio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_mathematicssomeapplicationsoftrigonometrysim: SimDef = {
     id: 'v3w_c10_mathematicssomeapplicationsoftrigonometrysim',
-    title: 'Some Applications Of Trigonometry',
+    title: 'Trigonometric Ratios of 30 and 60 Degrees',
     subtitle: 'This node covers the exact values of all six trigonometric ratios (sin, cos, tan, cosec,.',
     classLevel: 10, subject: 'mathematics', topic: 'Trigonometric Ratios of 30 and 60 Degrees',
     chapters: [],
     nodeIds: ['c10_math_cbse_08_004', 'c10_math_cbse_08_007', 'c10_math_cbse_08_008', 'c10_math_cbse_08_010', 'c10_math_cbse_09_001', 'c10_math_cbse_08_001', 'c10_math_cbse_08_002', 'c10_math_cbse_08_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you are designing a triangular roof truss for a house in Kerala where the roof makes a 30° angle with.', goal: 'Master Some Applications Of Trigonometry.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you are designing a triangular roof truss for a house in Kerala where the roof makes a 30° angle with.', goal: 'Master Trigonometric Ratios of 30 and 60 Degrees.' },
     discovery: {
         question: 'Compare the identities \\(\\sin^2\\theta + \\cos^2\\theta = 1\\) and \\(1 + \\tan^2\\theta = \\sec^2\\theta\\). Which is more fundamental? How are their domains different?',
         options: ['\\(\\sin^2\\theta + \\cos^2\\theta = 1\\) is more fundamental', 'both hold for all angles', 'they are the same'],
@@ -80,7 +80,7 @@ export const w_c10_mathematicssomeapplicationsoftrigonometrysim: SimDef = {
             { text: 'Solve for distance: distance = 15 × √3/2 = (15√3)/2 ≈ 12.99 m.', faded: true, blankAnswer: 'Height of pole = 7.5 m; Distance from foot = (15√3)/2 m ≈.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_math_cbse_08_007', title: 'Identify each idea',
-          dissect: { specimen: 'Some Applications Of Trigonometry', spots: [
+          dissect: { specimen: 'Trigonometric Ratios of 30 and 60 Degrees', spots: [
             { id: 's1', label: 'The trigonometric ratios for 30', prompt: 'Which idea is this? — The trigonometric ratios for 30° and 60° are exact values derived from a 30-60-90 right.', answer: 'The trigonometric ratios for 30', options: ['The trigonometric ratios for 30', 'The identity 1 tan2theta', 'The identity 1 cot2theta', 'Applications of trigonometric identities in'] },
             { id: 's2', label: 'The identity 1 tan2theta', prompt: 'Which idea is this? — The identity \\(1 + \\tan^2\\theta = \\sec^2\\theta\\) holds for all angles \\(\\theta\\) where.', answer: 'The identity 1 tan2theta', options: ['The identity 1 tan2theta', 'The trigonometric ratios for 30', 'The identity 1 cot2theta', 'Applications of trigonometric identities in'] },
             { id: 's3', label: 'The identity 1 cot2theta', prompt: 'Which idea is this? — The identity \\(1 + \\cot^2\\theta = \\cosec^2\\theta\\) is a fundamental Pythagorean.', answer: 'The identity 1 cot2theta', options: ['The identity 1 cot2theta', 'The trigonometric ratios for 30', 'The identity 1 tan2theta', 'Applications of trigonometric identities in'] },
@@ -89,7 +89,7 @@ export const w_c10_mathematicssomeapplicationsoftrigonometrysim: SimDef = {
             { id: 's6', label: 'In a right-angled triangle for', prompt: 'Which idea is this? — In a right-angled triangle, for an acute angle θ, the trigonometric ratios are defined.', answer: 'In a right-angled triangle for', options: ['In a right-angled triangle for', 'The trigonometric ratios for 30', 'The identity 1 tan2theta', 'The identity 1 cot2theta'] }
           ] } }
     ],
-    explore: { component: C10_MathematicsSomeApplicationsOfTrigonometrySim, prompt: 'Explore the interactive — Some Applications Of Trigonometry' },
+    explore: { component: C10_MathematicsSomeApplicationsOfTrigonometrySim, prompt: 'Explore the interactive — Trigonometric Ratios of 30 and 60 Degrees' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_math_cbse_08_004', difficulty: 'standard',
           question: 'The trigonometric ratios for 30° and 60° are exact values derived from a.',

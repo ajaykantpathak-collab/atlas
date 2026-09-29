@@ -19,31 +19,31 @@ export const c11_eng_w_ch17_p3: SimDef = {
         hook: 'The blues was born of dispossession — Auden borrows Black America\'s form to sing a statelessness Europe invented.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the advanced literary skill of deconstructing a poem\'s layered meanings by examining how form, structure, language, and context interact to produce.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Refugee Blues\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_17_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Follow the speaker station to station — consul, committee, harbour, plain — and hear \'my dear\' grow more desperate with each refrain, up to the soldiers\' march.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_17_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re sitting in the CBSE board exam and the question asks: "How does Auden use the ballad form to convey the refugee\'s voice?" You freeze because you.',
+          caseStudy: { intro: 'Analyse \'Refugee Blues\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the precise literary definition of \'refrain\' as used in poetry, and how does it differ from simple repetition?', options: [
                 { text: 'A refrain is a line or phrase repeated at regular intervals, typically at the end of', outcome: 'A refrain is a line or phrase repeated at regular intervals, typically at the end of stanzas.' },
                 { text: 'refrain is just repeating words', outcome: 'Not quite — Students believe "critical analysis" means listing every poetic device they can find (alliteration.', reveals: 'critical-analysis-means-listing-every' },
                 { text: 'critical analysis', outcome: 'Not quite — Students believe "critical analysis" means listing every poetic device they can find (alliteration.', reveals: 'critical-analysis-means-listing-every' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_17_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you sit down to answer: "How does Auden use the refrain \'my dear\' to convey the refugees\' isolation?" A weak answer just says "It shows they are sad.".',
+          caseStudy: { intro: 'For written answers on \'Refugee Blues\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing analytical answers for poetry?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explanation, Line', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarising the poem or listing.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarising the poem or listing.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_17_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are part of a student delegation at a Model United Nations conference discussing the 1939 refugee crisis; the chair asks, "How does a poem written.',
+          caseStudy: { intro: 'Talk through \'Refugee Blues\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of the refrain "my dear" in "Refugee Blues"?', options: [
                 { text: 'The refrain "my dear" serves as a structural anchor in the ballad form, reinforcing the', outcome: 'The refrain "my dear" serves as a structural anchor in the ballad form, reinforcing the intimate.' },
                 { text: 'repetition for emphasis', outcome: 'Not quite — Students often treat "discussion points" as a loose chat where they share personal feelings about.', reveals: 'students-often-treat-discussion-points' }
@@ -62,23 +62,23 @@ export const c11_eng_w_ch17_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_17_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the advanced literary skill.',
+          question: 'Critical thinking on \'Refugee Blues\' — analysing the text to reach.',
           hint: 'Review c11_eng_w_cbse_17_008 and c11_eng_w_cbse_17_009 device identification exercises.',
           misconception: 'Students believe "critical analysis" means listing every poetic device they can find (alliteration, metaphor, rhyme.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical Thinking: Analysis and Interpretation is the advanced literary skill of',
-                  options: ['Critical Thinking: Analysis and Interpretation is the advanced literary skill of', 'This node establishes the essential historical, biographical, and literary context', 'Plot and narrative structure in a poem refer to the sequence of events, experiences, or', 'Setting in poetry refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'Refugee Blues\'',
+                  options: ['Critical thinking on \'Refugee Blues\'', '\'Refugee Blues\' (Woven Words, ch', 'The plot/narrative arc of \'Refugee Blues\'', 'The setting of \'Refugee Blues\''],
                   hint: 'Review c11_eng_w_cbse_17_008 and c11_eng_w_cbse_17_009 device identification exercises; then.',
                   misconception: 'Students believe "critical analysis" means listing every poetic device they can find (alliteration, metaphor, rhyme scheme) without.' }
           ],
-            remediations: { 'critical-analysis-means-listing-every': { steps: ['Take one stanza (e.g., stanza 5: the committee scene).', 'Ask: "What is the *single* bureaucratic action here?', '(polite deferral: \'return next year\')." 3.', 'Ask: "What is the *single* human consequence?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-listing-every': { steps: ['Take one stanza (e.g., stanza 5: the committee scene).', 'Ask: "What is the *single* bureaucratic action here?', '(polite deferral: \'return next year\')." 3.', 'Ask: "What is the *single* human consequence?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_17_014', difficulty: 'standard',
-          question: 'Writing skills based on a poetry chapter involve the ability to construct.',
+          question: 'Writing skills from \'Refugee Blues\' — using the text as a model or springboard.',
           hint: 'If stuck, review c11_eng_w_cbse_17_008 (imagery/metaphor) and c11_eng_w_cbse_17_009.',
           misconception: 'Students believe "writing skills based on the chapter" means summarising the poem or listing devices.',
           parts: [
@@ -87,7 +87,7 @@ export const c11_eng_w_ch17_p3: SimDef = {
                   hint: 'If stuck, review c11_eng_w_cbse_17_008 (imagery/metaphor) and c11_eng_w_cbse_17_009.',
                   misconception: 'Students believe "writing skills based on the chapter" means summarising the poem or listing devices.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['If a student produces a device-list answer: (1) Return the answer with each device circled and ask: "What does this.', '(3) Give a new question: "Analyse the effect of the fish metaphor in stanza 8." Require the student to write only the.', '(4) Provide a checklist: [ ] Quote embedded?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['If a student produces a device-list answer: (1) Return the answer with each device circled and ask: "What does this.', '(3) Give a new question: "Analyse the effect of the fish metaphor in stanza 8." Require the student to write only the.', '(4) Provide a checklist: [ ] Quote embedded?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_17_014', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -102,18 +102,18 @@ export const c11_eng_w_ch17_p3: SimDef = {
                   hint: 'If stuck, review c11_eng_w_cbse_17_008 (imagery/metaphor) and c11_eng_w_cbse_17_009.',
                   misconception: 'Students believe "writing skills based on the chapter" means summarising the poem or listing devices.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['If a student produces a device-list answer: (1) Return the answer with each device circled and ask: "What does this.', '(3) Give a new question: "Analyse the effect of the fish metaphor in stanza 8." Require the student to write only the.', '(4) Provide a checklist: [ ] Quote embedded?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['If a student produces a device-list answer: (1) Return the answer with each device circled and ask: "What does this.', '(3) Give a new question: "Analyse the effect of the fish metaphor in stanza 8." Require the student to write only the.', '(4) Provide a checklist: [ ] Quote embedded?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_17_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points for "Refugee Blues" refers to the.',
+          question: 'Discussion points on \'Refugee Blues\' — speaking and listening around the text.',
           hint: 'If stuck, return to node c11_eng_w_cbse_17_013 (Critical Thinking) and re-work the five.',
           misconception: 'Students often treat "discussion points" as a loose chat where they share personal feelings about refugees ("It\'s.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points for "Refugee Blues" refers to the structured',
-                  options: ['Speaking and Listening: Discussion Points for "Refugee Blues" refers to the structured', 'This node establishes the essential historical, biographical, and literary context', 'Plot and narrative structure in a poem refer to the sequence of events, experiences, or', 'Setting in poetry refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'Refugee Blues\'',
+                  options: ['Discussion points on \'Refugee Blues\'', '\'Refugee Blues\' (Woven Words, ch', 'The plot/narrative arc of \'Refugee Blues\'', 'The setting of \'Refugee Blues\''],
                   hint: 'If stuck, return to node c11_eng_w_cbse_17_013 (Critical Thinking) and re-work the five textbook.',
                   misconception: 'Students often treat "discussion points" as a loose chat where they share personal feelings about refugees ("It\'s so sad!") without.' }
           ],
-            remediations: { 'students-often-treat-discussion-points': { steps: ['If a student drifts into generalities, intervene with the "Three-Step Anchor": 1.', '"Read me the exact two lines you\'re responding to." 2.', '"Name the device in those lines (refrain, irony, juxtaposition, etc.)." 3.', '"Explain how *that device* creates the effect you\'re describing." Practice this in pairs using the "Try This Out" list.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-discussion-points': { steps: ['If a student drifts into generalities, intervene with the "Three-Step Anchor": 1.', '"Read me the exact two lines you\'re responding to." 2.', '"Name the device in those lines (refrain, irony, juxtaposition, etc.)." 3.', '"Explain how *that device* creates the effect you\'re describing." Practice this in pairs using the "Try This Out" list.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

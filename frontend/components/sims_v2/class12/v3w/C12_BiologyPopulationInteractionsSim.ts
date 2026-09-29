@@ -6,13 +6,13 @@ import C12_BiologyPopulationInteractionsSim from '../../../simulations/c6_12/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologypopulationinteractionssim: SimDef = {
     id: 'v3w_c12_biologypopulationinteractionssim',
-    title: 'Population Interactions',
+    title: 'Organism and Environment: Habitat and Niche',
     subtitle: 'This node covers definitions of habitat and niche, the concept of ecological niche.',
     classLevel: 12, subject: 'biology', topic: 'Organism and Environment: Habitat and Niche',
     chapters: [],
     nodeIds: ['c12_bio_cbse_13_001', 'c12_bio_cbse_13_002', 'c12_bio_cbse_13_004', 'c12_bio_cbse_13_006', 'c12_bio_cbse_13_007', 'c12_bio_cbse_13_008', 'c12_bio_cbse_13_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a banyan tree (Ficus benghalensis) in your neighborhood: it provides habitat for epiphytes, birds,.', goal: 'Master Population Interactions.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a banyan tree (Ficus benghalensis) in your neighborhood: it provides habitat for epiphytes, birds,.', goal: 'Master Organism and Environment: Habitat and Niche.' },
     discovery: {
         question: 'Define habitat and niche. Give one example of an organism where the habitat and niche are clearly distinct.',
         options: ['Habitat is the physical address (e.g., a pond for a frog)', 'frog\'s niche is the pond', 'niche = habitat + food'],
@@ -79,7 +79,7 @@ export const w_c12_biologypopulationinteractionssim: SimDef = {
             { text: 'Conclude classification and note that one species can have different interaction types with different partners.', faded: true, blankAnswer: 'Marigold–tomato = mutualism (+/+). Marigold–nematode =.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_13_002', title: 'Identify each idea',
-          dissect: { specimen: 'Population Interactions', spots: [
+          dissect: { specimen: 'Organism and Environment: Habitat and Niche', spots: [
             { id: 's1', label: 'Habitat is the specific physical', prompt: 'Which idea is this? — Habitat is the specific physical location or environment where an organism lives,.', answer: 'Habitat is the specific physical', options: ['Habitat is the specific physical', 'Abiotic factors are the non-living', 'Population attributes are statistical characteristics', 'Life history variation refers to'] },
             { id: 's2', label: 'Abiotic factors are the non-living', prompt: 'Which idea is this? — Abiotic factors are the non-living physical and chemical components of an ecosystem —.', answer: 'Abiotic factors are the non-living', options: ['Abiotic factors are the non-living', 'Habitat is the specific physical', 'Population attributes are statistical characteristics', 'Life history variation refers to'] },
             { id: 's3', label: 'Population attributes are statistical characteristics', prompt: 'Which idea is this? — Population attributes are statistical characteristics that describe a population\'s size,.', answer: 'Population attributes are statistical characteristics', options: ['Population attributes are statistical characteristics', 'Habitat is the specific physical', 'Abiotic factors are the non-living', 'Life history variation refers to'] },
@@ -88,7 +88,7 @@ export const w_c12_biologypopulationinteractionssim: SimDef = {
             { id: 's6', label: 'Mutualism is an interspecific interaction', prompt: 'Which idea is this? — Mutualism is an interspecific interaction where both participating species derive a net.', answer: 'Mutualism is an interspecific interaction', options: ['Mutualism is an interspecific interaction', 'Habitat is the specific physical', 'Abiotic factors are the non-living', 'Population attributes are statistical characteristics'] }
           ] } }
     ],
-    explore: { component: C12_BiologyPopulationInteractionsSim, prompt: 'Explore the interactive — Population Interactions' },
+    explore: { component: C12_BiologyPopulationInteractionsSim, prompt: 'Explore the interactive — Organism and Environment: Habitat and Niche' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_13_001', difficulty: 'standard',
           question: 'Habitat is the specific physical location or environment where an organism.',

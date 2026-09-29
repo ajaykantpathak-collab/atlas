@@ -19,7 +19,7 @@ export const c11_eng_h_ch04_p2: SimDef = {
         hook: 'Judging Shanshui by European realism is a rigged test — the European painter lends you his eyes; the Chinese painter invites you into his mind.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying, complementary ideas that enrich the primary theme of a text by exploring specific philosophical, cultural, or artistic dimensions; in "Landscape of the Soul,".', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Landscape of the Soul\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_04_007', title: 'Your mission',
@@ -29,41 +29,41 @@ export const c11_eng_h_ch04_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_04_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are standing in an art gallery looking at two paintings side by side: one is a hyper-realistic European portrait where a painted fly looks so real.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Landscape of the Soul\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the Daoist concept of the \'Middle Void\' in the context of Shanshui, and which two elements does it mediate?', options: [
                 { text: 'The Middle Void is the essential space where Yang (mountain, vertical, stable, warm, dry,', outcome: 'The Middle Void is the essential space where Yang (mountain, vertical, stable, warm, dry.' },
                 { text: 'blank space', outcome: 'Not quite — Students often confuse \'secondary themes\' with \'minor details\' or \'sub-plots\', listing the two.', reveals: 'students-often-confuse-secondary-themes' },
                 { text: 'background', outcome: 'Not quite — Students often confuse \'secondary themes\' with \'minor details\' or \'sub-plots\', listing the two.', reveals: 'students-often-confuse-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_04_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are reading "The Ailing Planet" and the phrase "the earth itself is a living organism" stops you — you picture a giant, breathing entity with.',
+          caseStudy: { intro: 'Find the lines in \'Landscape of the Soul\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "imagery" and "metaphor" in your own words, and give one example of each from memory (not from the Chapter 4 texts).', options: [
                 { text: 'Imagery: Language appealing to the senses (e.g., "The sour lemon juice stung my tongue"', outcome: 'Imagery: Language appealing to the senses (e.g., "The sour lemon juice stung my tongue".' },
                 { text: 'for metaphor reveals confusion with simile', outcome: 'Not quite — Students conflate *any* descriptive language with imagery, treating abstract nouns ("destruction,".', reveals: 'students-conflate-any-descriptive-language' },
                 { text: 'they label', outcome: 'Not quite — Students conflate *any* descriptive language with imagery, treating abstract nouns ("destruction,".', reveals: 'students-conflate-any-descriptive-language' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_04_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are standing in an art gallery looking at a Chinese landscape painting: you see mountains, water, a tiny human figure.',
+          caseStudy: { intro: 'Look in \'Landscape of the Soul\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define irony and symbolism in your own words, giving one example from everyday life for each.', options: [
                 { text: 'Irony occurs when there is a contrast between expectation and reality (e.g., a fire', outcome: 'Irony occurs when there is a contrast between expectation and reality (e.g., a fire station burning.' },
                 { text: 'any unexpected event is irony, but irony requires a structural contradiction (e', outcome: 'Not quite — Students often think any unexpected event is irony, but irony requires a structural contradiction.', reveals: 'any-unexpected-event-is-irony' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_04_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading a newspaper editorial about climate change and encounter "catastrophic depletion" — no dictionary nearby. How do you crack it?',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Landscape of the Soul\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the primary strategy for inferring the meaning of an unfamiliar word from context?', options: [
                 { text: 'The primary strategy is to examine surrounding sentences for clues such as definitions,', outcome: 'The primary strategy is to examine surrounding sentences for clues such as definitions, examples.' },
                 { text: 'look it up in a dictionary immediately', outcome: 'Not quite — Students often think "context clues" only mean looking for a synonym or definition in the same.', reveals: 'context-clues-only-mean-looking' },
                 { text: 'context clues', outcome: 'Not quite — Students often think "context clues" only mean looking for a synonym or definition in the same.', reveals: 'context-clues-only-mean-looking' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_04_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading a newspaper editorial about climate change and you encounter the phrase "prima facie evidence" or "inter alia".',
+          caseStudy: { intro: 'Read \'Landscape of the Soul\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'What is the meaning of the Latin expression "inter alia" as used in the text, and in what type of writing is it typically found?', options: [
                 { text: '"Inter alia" means "among other things" and is typically used in formal, legal, academic,', outcome: '"Inter alia" means "among other things" and is typically used in formal, legal, academic,.' },
                 { text: 'it means \'therefore\'', outcome: 'Not quite — Students often believe that Latin expressions like "inter alia" or "prima facie" are just "fancy.', reveals: 'latin-expressions-like-inter-alia' },
                 { text: 'inter alia', outcome: 'Not quite — Students often believe that Latin expressions like "inter alia" or "prima facie" are just "fancy.', reveals: 'latin-expressions-like-inter-alia' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_04_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and see a question: "Why does the author call the earth an \'ailing planet\'?" You might panic because the exact phrase.',
+          caseStudy: { intro: 'Answer \'Landscape of the Soul\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the primary difference between a literal comprehension question and an inferential comprehension question?', options: [
                 { text: 'A literal comprehension question has its answer explicitly stated in the text, while an', outcome: 'A literal comprehension question has its answer explicitly stated in the text, while an inferential.' },
                 { text: 'literal questions are easy, inferential are hard', outcome: 'Not quite — Students often treat inferential questions as "opinion questions" where any plausible guess.', reveals: 'students-often-treat-inferential-questions' }
@@ -87,7 +87,7 @@ export const c11_eng_h_ch04_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_04_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying, complementary ideas that enrich the.',
+          question: 'Secondary themes in \'Landscape of the Soul\' — the supporting ideas and motifs.',
           hint: 'Review the distinction between \'illusionistic likeness\' (optical truth) and \'essence.',
           misconception: 'Students often confuse \'secondary themes\' with \'minor details\' or \'sub-plots\', listing the two anecdotes (Wu Daozi.',
           parts: [
@@ -98,7 +98,7 @@ export const c11_eng_h_ch04_p2: SimDef = {
           ],
             remediations: { 'students-often-confuse-secondary-themes': { steps: ['Ask the student to re-read the paragraph defining Shanshui (para 5) and underline every abstract noun (Yang, Yin.', 'Have them complete a three-column table: Column A = Anecdote/Detail, Column B = Abstract Idea it Illustrates, Column.', 'Model one row: Wu Daozi entering cave -> Artist\'s spiritual transcendence -> Theme: Art as spiritual journey.', 'Require them to fill three more rows before re-attempting the diagnostic questions.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_04_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Landscape of the Soul\' — the vivid, sensory language that creates.',
           hint: 'Review "Metaphor vs Simile vs Personification" and "Seven Types of Imagery" from Class 10.',
           misconception: 'Students conflate *any* descriptive language with imagery, treating abstract nouns ("destruction," "depletion,".',
           parts: [
@@ -109,12 +109,12 @@ export const c11_eng_h_ch04_p2: SimDef = {
           ],
             remediations: { 'students-conflate-any-descriptive-language': { steps: ['Give the student a two-column table: Column A = 10 phrases from the text (mix of abstract nouns, similes, metaphors.', 'For each mis-sorted item, ask: "Which sense does this word make me *feel*?" (for imagery) or "Can I rewrite this as \'X.', 'Have them rewrite three abstract sentences from the text into sensory imagery (e.g., "deforestation continues" →.', 'Co-construct a metaphor map: draw tenor circle, vehicle circle, arrow labeled with 3 transferred qualities.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_04_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'Landscape of the Soul\' — where opposite things are both.',
           hint: 'Review the anecdotes in the chapter (Wu Daozi\'s painting and the dragon\'s eye) and the.',
           misconception: 'Students often think any unexpected event is irony, but irony requires a structural contradiction (e.g., between.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where the intended meaning of words or events is opposite to',
-                  options: ['Irony is a literary device where the intended meaning of words or events is opposite to', '"Before You Read: Context and Background" prepares students to understand a literary text', 'Plot and narrative structure in a non-fiction argumentative essay refers to the', 'Setting in "Landscape of the Soul" refers to the conceptual and philosophical spaces'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'Landscape of the Soul\'',
+                  options: ['Irony and paradox in \'Landscape of the Soul\'', '\'Landscape of the Soul\' (Hornbill, ch', 'The plot/narrative arc of \'Landscape of the Soul\'', 'The setting of \'Landscape of the Soul\''],
                   hint: 'Review the anecdotes in the chapter (Wu Daozi\'s painting and the dragon\'s eye) and the explanation.',
                   misconception: 'Students often think any unexpected event is irony, but irony requires a structural contradiction (e.g., between appearance and reality,.' }
           ],
@@ -131,7 +131,7 @@ export const c11_eng_h_ch04_p2: SimDef = {
           ],
             remediations: { 'any-unexpected-event-is-irony': { steps: ['If a student conflates irony with surprise, walk them through the Wu Daozi anecdote step by step: (1) Emperor\'s.', '(2) Painter\'s action: he enters the painting.', '(3) Outcome: painter gains access to the spiritual realm; emperor does not.', '(4) Label the contradiction: the one who commissions (power) is excluded; the one who creates (servant) enters.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_04_010', difficulty: 'standard',
-          question: 'Vocabulary in context is the skill of determining the meaning of unfamiliar.',
+          question: 'Key vocabulary of \'Landscape of the Soul\' — the words and phrases you must know.',
           hint: 'If stuck, review Class 10 vocabulary in context exercises (c10_engl_cbse_02_009) focusing.',
           misconception: 'Students often think "context clues" only mean looking for a synonym or definition in the same sentence.',
           parts: [
@@ -146,18 +146,18 @@ export const c11_eng_h_ch04_p2: SimDef = {
           ],
             remediations: { 'context-clues-only-mean-looking': { steps: ['If a student struggles, first have them identify the part of speech of the target word (verb, noun, adjective).', 'Then ask them to highlight the sentence containing the word and the two sentences before and after.', 'Guide them to ask: "Does the text give an example?', 'A cause-effect?" Practice with "ignominious darkness": the surrounding text says species "languish unnamed" —.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_04_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the study of how specific words, phrases.',
+          question: 'Language and style in \'Landscape of the Soul\' — how the writer chose words.',
           hint: 'Review the "Vocabulary in Context" node (c11_eng_h_cbse_04_010) and the Class 9 node.',
           misconception: 'Students often believe that Latin expressions like "inter alia" or "prima facie" are just "fancy words" that can.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language Usage in the Text refers to the study of how specific words, phrases, Latin',
-                  options: ['Language Usage in the Text refers to the study of how specific words, phrases, Latin', '"Before You Read: Context and Background" prepares students to understand a literary text', 'Plot and narrative structure in a non-fiction argumentative essay refers to the', 'Setting in "Landscape of the Soul" refers to the conceptual and philosophical spaces'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language and style in \'Landscape of the Soul\'',
+                  options: ['Language and style in \'Landscape of the Soul\'', '\'Landscape of the Soul\' (Hornbill, ch', 'The plot/narrative arc of \'Landscape of the Soul\'', 'The setting of \'Landscape of the Soul\''],
                   hint: 'Review the "Vocabulary in Context" node (c11_eng_h_cbse_04_010) and the Class 9 node on Idioms and.',
                   misconception: 'Students often believe that Latin expressions like "inter alia" or "prima facie" are just "fancy words" that can be replaced by simple.' }
           ],
             remediations: { 'latin-expressions-like-inter-alia': { steps: ['Give the student a two-column table: Column A lists the seven Latin phrases from the textbook; Column B has their.', 'For each phrase, provide a one-sentence context from a newspaper or legal document (e.g., "The committee, inter alia.', 'Have the student write one original sentence per phrase in a formal context (e.g., a letter to the principal).', 'Finally, ask them to explain why "inter alia" is better than "among other things" in a legal document (precision.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_04_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'Landscape of the Soul\' — questions answered straight.',
           hint: 'Review the skill of "scanning for keywords" and "paraphrasing a sentence in your own.',
           misconception: 'Students often treat inferential questions as "opinion questions" where any plausible guess is acceptable.',
           parts: [

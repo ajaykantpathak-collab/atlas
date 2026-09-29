@@ -19,7 +19,7 @@ export const c11_hin_ar_ch04_p3: SimDef = {
         hook: 'Guleri edited a paper through the 1899 famine that killed crores while grain was exported — the mock-bureaucratic \'order\' is a weapon, not a joke.',
     },
     teaching: [
-        { title: 'पाठ 4 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) एक बौद्धिक प्रक्रिया है जिसमें पाठ के तथ्यों, तर्कों, भाषा-प्रयोग और संरचना का वस्तुनिष्ठ विश्लेषण करके उसके निहितार्थ, पूर्वधारणाओं और सौंदर्यात्मक मूल्यांकन तक.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 4 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'फोकलोर के फूल\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_04_013', title: 'Your mission',
@@ -28,11 +28,20 @@ export const c11_hin_ar_ch04_p3: SimDef = {
         context: 'Break a soldier\'s letter into its blocks — past glory, present misery, the snake-and-two-women folktale — and ask what the broken structure does to the ruler reading it.',
         labels: ['पाठ 4 — आलोचनात्मक', 'पाठ 4 — लेखन', 'पाठ 4 — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_04_014', title: 'Identify each idea',
-          dissect: { specimen: 'पाठ 4 · Part 3/3', spots: [
-            { id: 's1', label: '4 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल (Text-based Writing Skills) is the competency to construct.', answer: '4 -', options: ['4 -', '4 - -'] },
-            { id: 's2', label: '4 - -', prompt: 'Which idea is this? — वाचन-श्रवण: चर्चा-बिंदु एक **भाषा-कौशल** है जिसमें शिक्षार्थी किसी पाठ (गद्य/पद्य) को.', answer: '4 - -', options: ['4 - -', '4 -'] }
-          ] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_04_013', title: 'पाठ 4 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या',
+          caseStudy: { intro: '\'फोकलोर के फूल\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।',
+            decisions: [{ prompt: 'What is the primary analytical move required when interpreting the dialogue between Lord Lytton and the Indian ruler.', options: [
+                { text: 'The primary move is identifying **dramatic irony**', outcome: 'The primary move is identifying **dramatic irony** — the gap between what Lytton claims.' },
+                { text: 'understanding the plot', outcome: 'Not quite — Students believe "critical analysis" means **finding faults** in the text or **disagreeing with the.', reveals: 'critical-analysis-means-finding-faults' },
+                { text: 'translating the Hindi', outcome: 'Not quite — Students believe "critical analysis" means **finding faults** in the text or **disagreeing with the.', reveals: 'critical-analysis-means-finding-faults' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_04_015', title: 'पाठ 4 — वाचन-श्रवण: चर्चा-बिंदु',
+          caseStudy: { intro: '\'फोकलोर के फूल\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'Define "academic register" (शैक्षिक शैली) in the context of a Hindi literary discussion. How does it differ from casual conversation?', options: [
+                { text: 'Academic register uses formal vocabulary (तत्सम शब्द like \'शोषण\', \'विडंबना\',', outcome: 'Academic register uses formal vocabulary (तत्सम शब्द like \'शोषण\', \'विडंबना\', \'उपनिवेशवाद\').' },
+                { text: 'just speaking properly', outcome: 'Not quite — Students believe "discussion" means taking turns sharing opinions ("मुझे लगता है...", "मेरी राय.', reveals: 'discussion-means-taking-turns-sharing' },
+                { text: 'discussion', outcome: 'Not quite — Students believe "discussion" means taking turns sharing opinions ("मुझे लगता है...", "मेरी राय.', reveals: 'discussion-means-taking-turns-sharing' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_04_013', title: 'Use it in the wild',
           caseStudy: { intro: 'In a satire-writing workshop you take Guleri\'s sketch — a soldier\'s letter to his ruler mixing Sanskrit, Persian officialese and folk tale. A participant says: \'The mixed language is sloppy writing, and the snake-and-two-women folk tale is a pointless digression from the letter\'s complaint.\'',
             decisions: [{ prompt: 'How do you defend the text\'s design?', options: [
@@ -52,38 +61,61 @@ export const c11_hin_ar_ch04_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_04_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) एक बौद्धिक प्रक्रिया है जिसमें पाठ के.',
-          hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_ar_cbse_04_008 (बिंब और रूपक)** और.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **"विश्लेषण का अर्थ है पाठ में आई हर साहित्यिक युक्ति को सूचीबद्ध करना (Listing.',
+          question: '\'फोकलोर के फूल\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+          hint: 'If stuck, return to **node 009 (Irony and Symbolism)** and re-practice identifying.',
+          misconception: 'Students believe "critical analysis" means **finding faults** in the text or **disagreeing with the author**.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) एक बौद्धिक प्रक्रिया है जिसमें पाठ के तथ्यों,',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) एक बौद्धिक प्रक्रिया है जिसमें पाठ के तथ्यों,', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल से संबंधित ऐतिहासिक, सामाजिक, सांस्कृतिक,', 'कथानक (Plot) किसी रचना में घटनाओं का कारण-परिणाम (Cause-and-Effect) से बंधा हुआ तार्किक', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का समग्र संदर्भ है जिसमें काल (समय),'],
-                  hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_ar_cbse_04_008 (बिंब और रूपक)** और **c11_hin_ar_cbse_04_009.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **"विश्लेषण का अर्थ है पाठ में आई हर साहित्यिक युक्ति को सूचीबद्ध करना (Listing Devices)"**.' }
+                { id: 'a', prompt: 'What is the primary analytical move required when interpreting the dialogue between Lord Lytton and the Indian ruler in "फोनब्ज़-लाHkk"k.k"?', answer: 'The primary move is identifying **dramatic irony**',
+                  options: ['The primary move is identifying **dramatic irony**', 'understanding the plot', 'translating the Hindi', 'critical analysis'],
+                  hint: 'If stuck, return to **node 009 (Irony and Symbolism)** and re-practice identifying *verbal irony*.',
+                  misconception: 'Students believe "critical analysis" means **finding faults** in the text or **disagreeing with the author**.' },
+                { id: 'b', prompt: 'Apply the concept of "unreliable narrator" to Lord Lytton\'s speech on page 48 ("फिरकी, रक्] D;k \'कु वकदह ब्ल नस\'क इमस...").', answer: '**Claim 1:** "मैंने तुम्हें हर तरह का यकहक दिया" (I gave you every right)',
+                  options: ['**Claim 1:** "मैंने तुम्हें हर तरह का यकहक दिया" (I gave you every right)', 'critical analysis', 'The author is biased against the British', 'The ruler is too emotional'],
+                  hint: 'If stuck, return to **node 009 (Irony and Symbolism)** and re-practice identifying *verbal irony*.',
+                  misconception: 'Students believe "critical analysis" means **finding faults** in the text or **disagreeing with the author**.' }
           ],
-            remediations: { 'listing-devices': { steps: ['**चरणबद्ध उपचार (Remediation):** 1.', '**\'क्या\' से \'कैसे\' पर शिफ्ट करें:** छात्र को एक छोटा अंश (4-5 पंक्तियां) दें और कहें: *"यहां 3 युक्तियां हैं — अब.', 'अगर वह दूसरी युक्ति चुनता तो अर्थ कैसे बदलता?\' "* — यह **लेखकीय इरादे (Authorial Intent)** पर सोचने को बाध्य करता है। 2.', '**\'युक्ति-कार्य-तालिका\' (Device-Function Table) बनवाएं:** स्तंभ: युक्ति | उद्धरण | स्थानीय कार्य (Local Effect) |.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-finding-faults': { steps: ['**Name the confusion:** "You\'re judging the *character*, not analyzing the *craft*.', 'Ask: \'How did the author *make* me see Lytton as hypocritical?\'" 2.', '**Model the shift:** Take one Lytton quote → show the *textual mechanism* (juxtaposition, irony, lexical choice) that.', '**Practice micro-analysis:** Give 3 short quotes; student identifies *only the device* (not the meaning) — e.g., "इसमें.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_04_013', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe "critical analysis" means **finding faults** in the text or **disagreeing with the author**.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate this interpretation: "The chapter ultimately portrays the Indian ruler as powerless and defeated, reinforcing the colonial narrative of inevitable.', answer: '**Refute.** The ruler\'s final speech ("हट्क्क्स्स हक्क्जर!',
+                  options: ['**Refute.** The ruler\'s final speech ("हट्क्क्स्स हक्क्जर!', 'critical analysis', 'The author is biased against the British', 'The ruler is too emotional'],
+                  hint: 'If stuck, return to **node 009 (Irony and Symbolism)** and re-practice identifying *verbal irony*.',
+                  misconception: 'Students believe "critical analysis" means **finding faults** in the text or **disagreeing with the author**.' }
+          ],
+            remediations: { 'critical-analysis-means-finding-faults': { steps: ['**Name the confusion:** "You\'re judging the *character*, not analyzing the *craft*.', 'Ask: \'How did the author *make* me see Lytton as hypocritical?\'" 2.', '**Model the shift:** Take one Lytton quote → show the *textual mechanism* (juxtaposition, irony, lexical choice) that.', '**Practice micro-analysis:** Give 3 short quotes; student identifies *only the device* (not the meaning) — e.g., "इसमें.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_04_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल (Text-based Writing Skills) is the competency to construct.',
+          question: '\'फोकलोर के फूल\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि अटके: c11_hin_ar_cbse_04_013 (आलोचनात्मक चिंतन) पर लौटें — वहाँ से एक दावा चुनें.',
           misconception: '**"पाठ-आधारित उत्तर का अर्थ है पाठ की कहानी अपने शब्दों में दोहराना।"** — यह सबसे घातक भ्रम है। छात्र सोचते हैं कि "पाठ.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल (Text-based Writing Skills) is the competency to construct',
-                  options: ['पाठ-आधारित लेखन कौशल (Text-based Writing Skills) is the competency to construct', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल से संबंधित ऐतिहासिक, सामाजिक, सांस्कृतिक,', 'कथानक (Plot) किसी रचना में घटनाओं का कारण-परिणाम (Cause-and-Effect) से बंधा हुआ तार्किक', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का समग्र संदर्भ है जिसमें काल (समय),'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'फोकलोर के फूल\' पर पाठ-आधारित लेखन',
+                  options: ['\'फोकलोर के फूल\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फोकलोर के फूल\' का कथानक', '\'फोकलोर के फूल\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके: c11_hin_ar_cbse_04_013 (आलोचनात्मक चिंतन) पर लौटें — वहाँ से एक दावा चुनें, उसके लिए पाठ.',
                   misconception: '**"पाठ-आधारित उत्तर का अर्थ है पाठ की कहानी अपने शब्दों में दोहराना।"** — यह सबसे घातक भ्रम है। छात्र सोचते हैं कि "पाठ के आधार पर" का अर्थ.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**चरण 1 — अंतर स्पष्ट करें:** छात्र के सामने एक ही प्रश्न के दो उत्तर रखें — एक सारांश-आधारित (2/5 अंक), एक.', '**चरण 2 — PEEL का \'E\' (Explanation) अलग करवाएँ:** छात्र से कहें: "अपने उत्तर में हर साक्ष्य के बाद लिखो: \'यह.', '**चरण 3 — \'साक्ष्य खोज\' अभ्यास:** 5 मिनट दें, एक दावा दें (जैसे: "नायिका विद्रोही है"), छात्र को पाठ से **ठीक दो**.', '**चरण 4 — मॉडल उत्तर सह-लेखन:** बोर्ड के पिछले वर्ष के 5-अंकीय प्रश्न लें, मिलकर PEEL कंकाल बनाएँ, फिर छात्र को.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_04_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु एक **भाषा-कौशल** है जिसमें शिक्षार्थी किसी पाठ.',
-          hint: 'यदि अटका हो तो **नोड 008 (बिंब/रूपक) और 009 (विरोधाभास/प्रतीक)** दोहराएँ — चर्चा-बिंदु का.',
-          misconception: '**विशिष्ट भ्रांति**: छात्र समझते हैं कि **"चर्चा-बिंदु = पाठ के मुख्य बिंदुओं का सारांश + अपनी पसंद/नापसंद"**। **गलत.',
+          question: '\'फोकलोर के फूल\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का.',
+          hint: 'Review "Critical Thinking: Analysis and Interpretation" (node 013) — specifically the.',
+          misconception: 'Students believe "discussion" means taking turns sharing opinions ("मुझे लगता है...", "मेरी राय में...") without.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु एक **भाषा-कौशल** है जिसमें शिक्षार्थी किसी पाठ (गद्य/पद्य) को',
-                  options: ['वाचन-श्रवण: चर्चा-बिंदु एक **भाषा-कौशल** है जिसमें शिक्षार्थी किसी पाठ (गद्य/पद्य) को', 'पृष्ठभूमि (Background) किसी रचना के लेखन-काल से संबंधित ऐतिहासिक, सामाजिक, सांस्कृतिक,', 'कथानक (Plot) किसी रचना में घटनाओं का कारण-परिणाम (Cause-and-Effect) से बंधा हुआ तार्किक', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का समग्र संदर्भ है जिसमें काल (समय),'],
-                  hint: 'यदि अटका हो तो **नोड 008 (बिंब/रूपक) और 009 (विरोधाभास/प्रतीक)** दोहराएँ — चर्चा-बिंदु का **सबसे.',
-                  misconception: '**विशिष्ट भ्रांति**: छात्र समझते हैं कि **"चर्चा-बिंदु = पाठ के मुख्य बिंदुओं का सारांश + अपनी पसंद/नापसंद"**। **गलत तर्क**: वे पाठ पढ़कर.' }
+                { id: 'a', prompt: 'Define "academic register" (शैक्षिक शैली) in the context of a Hindi literary discussion. How does it differ from casual conversation?', answer: 'Academic register uses formal vocabulary (तत्सम शब्द like \'शोषण\', \'विडंबना\',',
+                  options: ['Academic register uses formal vocabulary (तत्सम शब्द like \'शोषण\', \'विडंबना\',', 'just speaking properly', 'discussion', 'मुझे लगता है'],
+                  hint: 'Review "Critical Thinking: Analysis and Interpretation" (node 013) — specifically the worked.',
+                  misconception: 'Students believe "discussion" means taking turns sharing opinions ("मुझे लगता है...", "मेरी राय में...") without textual anchoring.' },
+                { id: 'b', prompt: 'During a discussion, a peer argues: "Vaid\'s narrator is unrealistic — no Indian could speak so boldly to a Viceroy." Using textual evidence, formulate a spoken.', answer: 'Rebuttal structure: (1) Acknowledge the surface implausibility',
+                  options: ['Rebuttal structure: (1) Acknowledge the surface implausibility', 'discussion', 'मुझे लगता है', 'मेरी राय में'],
+                  hint: 'Review "Critical Thinking: Analysis and Interpretation" (node 013) — specifically the worked.',
+                  misconception: 'Students believe "discussion" means taking turns sharing opinions ("मुझे लगता है...", "मेरी राय में...") without textual anchoring.' },
+                { id: 'c', prompt: 'Compare two discussion approaches: (A) Listing all themes you remember from the chapter.', answer: 'Approach B demonstrates analysis (Bloom\'s Level 4)',
+                  options: ['Approach B demonstrates analysis (Bloom\'s Level 4)', 'discussion', 'मुझे लगता है', 'मेरी राय में'],
+                  hint: 'Review "Critical Thinking: Analysis and Interpretation" (node 013) — specifically the worked.',
+                  misconception: 'Students believe "discussion" means taking turns sharing opinions ("मुझे लगता है...", "मेरी राय में...") without textual anchoring.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**चरण 1 — भेद स्पष्ट करें**: छात्र के सामने **दो नमूने** रखें — (क) **कमजोर चर्चा-बिंदु** (सारांश + राय), (ख) **बलवत.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'discussion-means-taking-turns-sharing': { steps: ['If a student defaults to opinion-sharing: (1) Interrupt gently: "रुकिए — यह आपकी राय है, लेकिन पाठ में इसका आधार कहाँ.', '(4) Assign a "textual evidence quota" for next practice: minimum 3 specific references in 2 minutes.', '(5) Record and replay — students hear their own "मुझे लगता है" patterns and self-correct.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

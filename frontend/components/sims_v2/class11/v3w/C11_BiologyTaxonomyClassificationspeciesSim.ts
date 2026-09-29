@@ -6,13 +6,13 @@ import C11_BiologyTaxonomyClassificationspeciesSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologytaxonomyclassificationspeciessim: SimDef = {
     id: 'v3w_c11_biologytaxonomyclassificationspeciessim',
-    title: 'Taxonomy Classificationspecies',
+    title: 'Viruses and Viroids',
     subtitle: 'Covers structure, genetic material types, and classification status of viruses and.',
     classLevel: 11, subject: 'biology', topic: 'Viruses and Viroids',
     chapters: [],
     nodeIds: ['c11_bio_cbse_02_009', 'c11_bio_cbse_01_004', 'c11_bio_cbse_03_007', 'c11_bio_cbse_02_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Think about the last time you had a common cold or flu — you felt sick, but the doctor said antibiotics won\'t.', goal: 'Master Taxonomy Classificationspecies.' },
+    scenario: { role: 'a class 11 learner', intro: 'Think about the last time you had a common cold or flu — you felt sick, but the doctor said antibiotics won\'t.', goal: 'Master Viruses and Viroids.' },
     discovery: {
         question: 'You discover a new flowering plant in the Western Ghats with these traits: vascular tissue present, seeds enclosed in ovary, two cotyledons, reticulate leaf.',
         options: ['Lowest confident rank: Class Dicotyledonae (or Eudicots)', 'it\'s a Lamiaceae', 'arranging organisms into neat boxes'],
@@ -63,14 +63,14 @@ export const w_c11_biologytaxonomyclassificationspeciessim: SimDef = {
             { text: 'Conclude: Transmission via consumption of PrP^Sc-rich brain tissue; incubation reflects slow conformational conversion.', faded: true, blankAnswer: 'Kuru was transmitted by ingesting PrP^Sc in brain tissue.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_01_004', title: 'Identify each idea',
-          dissect: { specimen: 'Taxonomy Classificationspecies', spots: [
+          dissect: { specimen: 'Viruses and Viroids', spots: [
             { id: 's1', label: 'Viruses are non-cellular obligate intracellular', prompt: 'Which idea is this? — Viruses are non-cellular, obligate intracellular parasites consisting of a nucleic acid.', answer: 'Viruses are non-cellular obligate intracellular', options: ['Viruses are non-cellular obligate intracellular', 'Classification is the scientific process', 'Angiosperms are flowering plants characterized', 'Prions are infectious proteinaceous particles'] },
             { id: 's2', label: 'Classification is the scientific process', prompt: 'Which idea is this? — Classification is the scientific process of grouping organisms into hierarchical.', answer: 'Classification is the scientific process', options: ['Classification is the scientific process', 'Viruses are non-cellular obligate intracellular', 'Angiosperms are flowering plants characterized', 'Prions are infectious proteinaceous particles'] },
             { id: 's3', label: 'Angiosperms are flowering plants characterized', prompt: 'Which idea is this? — Angiosperms are flowering plants characterized by the presence of ovules enclosed within.', answer: 'Angiosperms are flowering plants characterized', options: ['Angiosperms are flowering plants characterized', 'Viruses are non-cellular obligate intracellular', 'Classification is the scientific process', 'Prions are infectious proteinaceous particles'] },
             { id: 's4', label: 'Prions are infectious proteinaceous particles', prompt: 'Which idea is this? — Prions are infectious proteinaceous particles devoid of nucleic acid that propagate by.', answer: 'Prions are infectious proteinaceous particles', options: ['Prions are infectious proteinaceous particles', 'Viruses are non-cellular obligate intracellular', 'Classification is the scientific process', 'Angiosperms are flowering plants characterized'] }
           ] } }
     ],
-    explore: { component: C11_BiologyTaxonomyClassificationspeciesSim, prompt: 'Explore the interactive — Taxonomy Classificationspecies' },
+    explore: { component: C11_BiologyTaxonomyClassificationspeciesSim, prompt: 'Explore the interactive — Viruses and Viroids' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_02_009', difficulty: 'standard',
           question: 'Viruses are non-cellular, obligate intracellular parasites consisting of a.',

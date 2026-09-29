@@ -6,13 +6,13 @@ import C8_MathematicsSquaresAndSquareRootsSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicssquaresandsquarerootssim: SimDef = {
     id: 'v3w_c8_mathematicssquaresandsquarerootssim',
-    title: 'Squares And Square Roots',
+    title: 'Square Numbers: Definition and Notation (n squared)',
     subtitle: 'This node covers the definition of square numbers, the notation \\( n^2 \\), and computing.',
     classLevel: 8, subject: 'mathematics', topic: 'Square Numbers: Definition and Notation (n squared)',
     chapters: [],
     nodeIds: ['c8_math_ch1_1', 'c8_math_ch1_2', 'c8_math_ch1_3', 'c8_math_ch1_4', 'c8_math_ch1_6', 'c8_math_ch1_8', 'c8_math_ch1_9', 'c8_math_ch9_8', 'c8_math_ch9_9', 'c8_math_ch1_10', 'c8_math_ch1_5', 'c8_math_ch9_3', 'c8_math_ch9_10', 'c8_math_ch9_4', 'c8_math_ch9_5'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you are tiling a square floor in your classroom using 1 m × 1 m tiles.', goal: 'Master Squares And Square Roots.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you are tiling a square floor in your classroom using 1 m × 1 m tiles.', goal: 'Master Square Numbers: Definition and Notation (n squared).' },
     discovery: {
         question: 'Explain why \\( 5^2 \\) is not the same as \\( 2 \\times 5 \\). Use the area of a square in your explanation.',
         options: ['\\( 5^2 \\) means \\( 5 \\times 5 = 25 \\)', 'both give 10', 'the 2 just means multiply by 2'],
@@ -78,7 +78,7 @@ export const w_c8_mathematicssquaresandsquarerootssim: SimDef = {
             { text: 'Verify: \\( 36 \\times 36 = 1296 \\). The side length is 36 cm.', faded: true, blankAnswer: '36 cm' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch1_2', title: 'Identify each idea',
-          dissect: { specimen: 'Squares And Square Roots', spots: [
+          dissect: { specimen: 'Square Numbers: Definition and Notation (n squared)', spots: [
             { id: 's1', label: 'A square number is the', prompt: 'Which idea is this? — A square number is the product obtained when a natural number is multiplied by itself.', answer: 'A square number is the', options: ['A square number is the', 'A perfect square is a', 'The units digit of a', 'If a number ends with'] },
             { id: 's2', label: 'A perfect square is a', prompt: 'Which idea is this? — A perfect square is a natural number that can be expressed as the square of an integer.', answer: 'A perfect square is a', options: ['A perfect square is a', 'A square number is the', 'The units digit of a', 'If a number ends with'] },
             { id: 's3', label: 'The units digit of a', prompt: 'Which idea is this? — The units digit of a perfect square depends only on the units digit of the original.', answer: 'The units digit of a', options: ['The units digit of a', 'A square number is the', 'A perfect square is a', 'If a number ends with'] },
@@ -87,7 +87,7 @@ export const w_c8_mathematicssquaresandsquarerootssim: SimDef = {
             { id: 's6', label: 'The square root of a', prompt: 'Which idea is this? — The square root of a perfect square number is the positive number which, when multiplied.', answer: 'The square root of a', options: ['The square root of a', 'A square number is the', 'A perfect square is a', 'The units digit of a'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsSquaresAndSquareRootsSim, prompt: 'Explore the interactive — Squares And Square Roots' },
+    explore: { component: C8_MathematicsSquaresAndSquareRootsSim, prompt: 'Explore the interactive — Square Numbers: Definition and Notation (n squared)' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch1_1', difficulty: 'standard',
           question: 'A square number is the product obtained when a natural number is multiplied by.',

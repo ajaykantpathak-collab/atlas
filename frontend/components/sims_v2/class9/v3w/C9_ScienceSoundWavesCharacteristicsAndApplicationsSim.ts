@@ -6,13 +6,13 @@ import C9_ScienceSoundWavesCharacteristicsAndApplicationsSim from '../../../simu
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_sciencesoundwavescharacteristicsandapplicationssim: SimDef = {
     id: 'v3w_c9_sciencesoundwavescharacteristicsandapplicationssim',
-    title: 'Sound Waves Characteristics And Applications',
+    title: 'Propagation of Sound: Need for a Medium',
     subtitle: 'Covers the production of sound — vibrating sources, the role of a medium, compressions.',
     classLevel: 9, subject: 'science', topic: 'Propagation of Sound: Need for a Medium',
     chapters: [],
     nodeIds: ['c9_physics_ch5_2', 'c9_physics_ch5_7', 'c9_physics_ch5_10', 'c9_physics_ch5_11', 'c9_physics_ch5_9', 'c9_physics_ch5_1', 'c9_physics_ch5_3', 'c9_physics_ch5_4', 'c9_physics_ch5_5', 'c9_physics_ch5_6', 'c9_physics_ch5_8'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Pluck a guitar string. Watch it vibrate — it moves back and forth rapidly.', goal: 'Master Sound Waves Characteristics And Applications.' },
+    scenario: { role: 'a class 9 learner', intro: 'Pluck a guitar string. Watch it vibrate — it moves back and forth rapidly.', goal: 'Master Propagation of Sound: Need for a Medium.' },
     discovery: {
         question: 'Explain how a vibrating tuning fork produces sound. Describe the formation of compressions and rarefactions.',
         options: ['When the tuning fork vibrates, its prongs move back and forth', 'the tuning fork makes the air vibrate', 'sound can travel through vacuum (like light)'],
@@ -69,7 +69,7 @@ export const w_c9_sciencesoundwavescharacteristicsandapplicationssim: SimDef = {
             { text: 'Verify reasonableness: 60 Hz is a low bass note, plausible for a sitar\'s lower string.', faded: true, blankAnswer: '60 Hz' }
             ] } },
         { type: 'dissect', nodeId: 'c9_physics_ch5_7', title: 'Identify each idea',
-          dissect: { specimen: 'Sound Waves Characteristics And Applications', spots: [
+          dissect: { specimen: 'Propagation of Sound: Need for a Medium', spots: [
             { id: 's1', label: 'Production of sound is the', prompt: 'Which idea is this? — Production of sound is the generation of mechanical waves through the vibration of a.', answer: 'Production of sound is the', options: ['Production of sound is the', 'Characteristics of sound waves are', 'Ultrasound refers to sound waves', 'Reflection of sound is the'] },
             { id: 's2', label: 'Characteristics of sound waves are', prompt: 'Which idea is this? — Characteristics of sound waves are the measurable properties that describe a sound wave:.', answer: 'Characteristics of sound waves are', options: ['Characteristics of sound waves are', 'Production of sound is the', 'Ultrasound refers to sound waves', 'Reflection of sound is the'] },
             { id: 's3', label: 'Ultrasound refers to sound waves', prompt: 'Which idea is this? — Ultrasound refers to sound waves with frequencies greater than 20 kHz, which are.', answer: 'Ultrasound refers to sound waves', options: ['Ultrasound refers to sound waves', 'Production of sound is the', 'Characteristics of sound waves are', 'Reflection of sound is the'] },
@@ -78,7 +78,7 @@ export const w_c9_sciencesoundwavescharacteristicsandapplicationssim: SimDef = {
             { id: 's6', label: 'Sound is a form of', prompt: 'Which idea is this? — Sound is a form of mechanical energy produced by the vibration of an object, which.', answer: 'Sound is a form of', options: ['Sound is a form of', 'Production of sound is the', 'Characteristics of sound waves are', 'Ultrasound refers to sound waves'] }
           ] } }
     ],
-    explore: { component: C9_ScienceSoundWavesCharacteristicsAndApplicationsSim, prompt: 'Explore the interactive — Sound Waves Characteristics And Applications' },
+    explore: { component: C9_ScienceSoundWavesCharacteristicsAndApplicationsSim, prompt: 'Explore the interactive — Propagation of Sound: Need for a Medium' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_physics_ch5_2', difficulty: 'standard',
           question: 'Production of sound is the generation of mechanical waves through the vibration.',

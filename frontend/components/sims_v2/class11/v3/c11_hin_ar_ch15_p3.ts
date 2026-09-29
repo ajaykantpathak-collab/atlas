@@ -19,7 +19,7 @@ export const c11_hin_ar_ch15_p3: SimDef = {
         hook: 'The refrain flips at the fourth stanza — \'not this\' becomes \'this is the most dangerous\' — and the imagery turns from home\'s warmth to a worker\'s weary feet.',
     },
     teaching: [
-        { title: 'पाठ 15 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के तथ्यों, तर्कों, भाषा-प्रयोगों और संरचना को व्यवस्थित ढंग से परखकर, उनके परस्पर संबंध और निहितार्थ (implications) स्पष्ट करने की प्रक्रिया है; विश्लेषण.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 15 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'लघुता सबसे छोटी नहीं होती\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_15_013', title: 'Your mission',
@@ -28,11 +28,19 @@ export const c11_hin_ar_ch15_p3: SimDef = {
         context: 'Find the stanza where negation flips to assertion, then weigh the title\'s provocation — \'the smallest is not the smallest\' — against 1980s hill migration.',
         labels: ['पाठ 15 — आलोचनात्मक', 'पाठ 15 — लेखन', 'पाठ 15 — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_15_014', title: 'Identify each idea',
-          dissect: { specimen: 'पाठ 15 · Part 3/3', spots: [
-            { id: 's1', label: '15 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल वह विधि है जिसमें किसी साहित्यिक पाठ (गद्य/पद्य) के विशिष्ट अंशों.', answer: '15 -', options: ['15 -', '15 - -'] },
-            { id: 's2', label: '15 - -', prompt: 'Which idea is this? — चर्चा-बिंदु वे पूर्व-निर्धारित विषय या प्रश्न होते हैं जो पाठ के वाचन-श्रवण के बाद.', answer: '15 - -', options: ['15 - -', '15 -'] }
-          ] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_15_014', title: 'पाठ 15 — लेखन कौशल: पाठ-आधारित',
+          caseStudy: { intro: '\'लघुता सबसे छोटी नहीं होती\' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।',
+            decisions: [{ prompt: 'What does the acronym PEEL stand for in structured answer writing?', options: [
+                { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
+                { text: 'Paragraph, Example, Explanation, Line', outcome: 'Not quite — Students believe that writing a detailed summary of the poem with a few quoted lines constitutes.', reveals: 'writing-a-detailed-summary-of' },
+                { text: 'lack logical flow', outcome: 'Not quite — Students believe that writing a detailed summary of the poem with a few quoted lines constitutes.', reveals: 'writing-a-detailed-summary-of' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_15_015', title: 'पाठ 15 — वाचन-श्रवण: चर्चा-बिंदु',
+          caseStudy: { intro: '\'लघुता सबसे छोटी नहीं होती\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'What is the primary purpose of a literary discussion in a Class 11 Hindi classroom?', options: [
+                { text: 'The primary purpose is to collaboratively explore multiple interpretations of a text,', outcome: 'The primary purpose is to collaboratively explore multiple interpretations of a text, deepen.' },
+                { text: 'to find the single correct meaning the teacher expects', outcome: 'Not quite — Students often think a literary discussion is a debate where they must \'win\' by proving their.', reveals: 'a-literary-discussion-is-a' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_15_013', title: 'Use it in the wild',
           caseStudy: { intro: 'At a kavi sammelan themed on migration, someone offers \'Laguta Sabse Chhoti Nahin Hoti\' but introduces it as \'a gentle poem about how small people also matter — mothers\' love, fathers\' laps, childhood warmth.\'',
             decisions: [{ prompt: 'What is the poem actually arguing, and how is it built?', options: [
@@ -52,38 +60,38 @@ export const c11_hin_ar_ch15_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के तथ्यों, तर्कों, भाषा-प्रयोगों और.',
+          question: '\'लघुता सबसे छोटी नहीं होती\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
           hint: 'यदि अटके तो **नोड 15_008 और 15_009** (बिंब/रूपक व विरोधाभास/प्रतीक) के कार्याभ्यास.',
           misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि "आलोचनात्मक चिंतन = पाठ में कमियाँ निकालना (fault-finding)" या "अपनी निजी राय लिख.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के तथ्यों, तर्कों, भाषा-प्रयोगों और संरचना को',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) पाठ के तथ्यों, तर्कों, भाषा-प्रयोगों और संरचना को', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'लघुता सबसे छोटी नहीं होती\' का आलोचनात्मक चिंतन',
+                  options: ['\'लघुता सबसे छोटी नहीं होती\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'लघुता सबसे छोटी नहीं होती\' का कथानक', '\'लघुता सबसे छोटी नहीं होती\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके तो **नोड 15_008 और 15_009** (बिंब/रूपक व विरोधाभास/प्रतीक) के कार्याभ्यास (worked.',
                   misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि "आलोचनात्मक चिंतन = पाठ में कमियाँ निकालना (fault-finding)" या "अपनी निजी राय लिख देना"।.' }
           ],
             remediations: { 'fault-finding': { steps: ['**पुनः परिभाषा स्पष्ट करें:** छात्र से कहें — "आलोचनात्मक चिंतन का अर्थ \'निंदा\' नहीं, \'विवेचन\' है। जैसे डॉक्टर रोगी की.', '**माइक्रो-अभ्यास कराएँ:** पाठ 15 का एक छोटा अंश (3-4 वाक्य) दें और केवल **एक** युक्ति (जैसे: अनुप्रास, विरोधाभास.', '**PEEL ढाँचा जबरन लागू करवाएँ:** हर उत्तर में चार वाक्य अनिवार्य करें — (Point) "लेखक ने X युक्ति प्रयुक्त की है".', '**सहकर्मी समीक्षा (peer review):** दो छात्रों के उत्तर बदलवाएँ और पूछें: "क्या तुम्हारे साथी ने **साक्ष्य से अर्थ तक की.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल वह विधि है जिसमें किसी साहित्यिक पाठ (गद्य/पद्य) के.',
-          hint: 'यदि फँसें तो c11_hin_ar_cbse_15_013 (आलोचनात्मक चिंतन) के "प्रश्न-प्रकार पहचानना" और.',
-          misconception: 'विद्यार्थी समझते हैं कि **पाठ का सारांश (summary) लिख देना ही पाठ-आधारित उत्तर है**। वे प्रश्न के "कैसे/क्यों".',
+          question: '\'लघुता सबसे छोटी नहीं होती\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की.',
+          hint: 'Review the Theme nodes (006, 007) and Literary Devices nodes (008, 009) to refresh.',
+          misconception: 'Students believe that writing a detailed summary of the poem with a few quoted lines constitutes a good analytical.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह विधि है जिसमें किसी साहित्यिक पाठ (गद्य/पद्य) के विशिष्ट अंशों,',
-                  options: ['पाठ-आधारित लेखन कौशल वह विधि है जिसमें किसी साहित्यिक पाठ (गद्य/पद्य) के विशिष्ट अंशों,', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
-                  hint: 'यदि फँसें तो c11_hin_ar_cbse_15_013 (आलोचनात्मक चिंतन) के "प्रश्न-प्रकार पहचानना" और "प्रमाण-चयन".',
-                  misconception: 'विद्यार्थी समझते हैं कि **पाठ का सारांश (summary) लिख देना ही पाठ-आधारित उत्तर है**। वे प्रश्न के "कैसे/क्यों" (how/why) को नज़रअंदाज़ करके.' }
+                { id: 'a', prompt: 'What does the acronym PEEL stand for in structured answer writing?', answer: 'PEEL stands for Point, Evidence, Explanation, Link',
+                  options: ['PEEL stands for Point, Evidence, Explanation, Link', 'Paragraph, Example, Explanation, Line', 'lack logical flow'],
+                  hint: 'Review the Theme nodes (006, 007) and Literary Devices nodes (008, 009) to refresh thematic and.',
+                  misconception: 'Students believe that writing a detailed summary of the poem with a few quoted lines constitutes a good analytical answer.' }
           ],
-            remediations: { 'summary-how-why-what-happened': { steps: ['**पहचान:** विद्यार्थी से कहो — "अपना उत्तर पढ़ो और हर वाक्य के आगे पूछो: *क्या यह पाठ से प्रमाण दे रहा है?', 'क्या यह बता रहा है कि प्रमाण मेरे कथन को कैसे सिद्ध करता है?*" 2.', '**रंग-कोडिंग:** दो रंगों के पेन से — **नीला** = Point/Link (अपने शब्द), **लाल** = Evidence (पाठ के शब्द), **हरा**.', '**माइक्रो-अभ्यास:** एक छोटे अंश (5-6 पंक्ति) पर केवल **Explanation** लिखने का अभ्यास कराओ — "यह पंक्ति दर्शाती है कि...'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-a-detailed-summary-of': { steps: ['Show the student a model 5-mark answer with each PEEL component highlighted in different colors.', 'Give a new question and ask them to write *only* the Point sentence.', 'Ask them to add two Evidence lines from the poem.', 'Guide them to write Explanation for each evidence: "यह पंक्ति दर्शाती है कि..." 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_15_015', difficulty: 'standard',
-          question: 'चर्चा-बिंदु वे पूर्व-निर्धारित विषय या प्रश्न होते हैं जो पाठ के वाचन-श्रवण के.',
-          hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_15_006 (मुख्य विषय और संदेश) और.',
-          misconception: 'छात्र अक्सर समझते हैं कि चर्चा-बिंदु का अर्थ है \'शिक्षक द्वारा पूछे गए प्रश्नों के सही उत्तर देना\'। वे चर्चा को एकतरफा.',
+          question: '\'लघुता सबसे छोटी नहीं होती\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'If stuck, review the imagery and metaphor analysis (c11_hin_ar_cbse_15_008) and theme.',
+          misconception: 'Students often think a literary discussion is a debate where they must \'win\' by proving their interpretation.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'चर्चा-बिंदु वे पूर्व-निर्धारित विषय या प्रश्न होते हैं जो पाठ के वाचन-श्रवण के बाद',
-                  options: ['चर्चा-बिंदु वे पूर्व-निर्धारित विषय या प्रश्न होते हैं जो पाठ के वाचन-श्रवण के बाद', '\'पृष्ठभूमि\' से तात्पर्य उस ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनीतिक परिवेश से है जिसमें', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम संबंध से बँधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का **समग्र संदर्भ** है जिसमें'],
-                  hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_15_006 (मुख्य विषय और संदेश) और c11_hin_ar_cbse_15_013.',
-                  misconception: 'छात्र अक्सर समझते हैं कि चर्चा-बिंदु का अर्थ है \'शिक्षक द्वारा पूछे गए प्रश्नों के सही उत्तर देना\'। वे चर्चा को एकतरफा प्रश्नोत्तरी (quiz).' }
+                { id: 'a', prompt: 'Explain in your own words why the poet says "esgur dh ywV lcls [krjukd ugha gksrh" (the burning of the pyre is not the most terrifying) and what this suggests.', answer: 'The poet rejects conventional fears (death, physical pain) to highlight a deeper',
+                  options: ['The poet rejects conventional fears (death, physical pain) to highlight a deeper', 'fire is scary', 'lists literal fears (e'],
+                  hint: 'If stuck, review the imagery and metaphor analysis (c11_hin_ar_cbse_15_008) and theme analysis.',
+                  misconception: 'Students often think a literary discussion is a debate where they must \'win\' by proving their interpretation is correct.' }
           ],
-            remediations: { 'quiz-objective-questions-15': { steps: ['चरण 1: छात्र को स्पष्ट करें कि चर्चा-बिंदु का कोई \'एक सही उत्तर\' नहीं होता — यह एक **खुला आमंत्रण** है तर्क-वितर्क का।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-literary-discussion-is-a': { steps: ['If a student dominates discussion without listening, pause the activity and model \'building language\': "I heard [peer].', 'That connects to line Y because..." Then assign a \'listener role\' where the student must paraphrase three peers\' points.', 'Practice this in small groups with a structured protocol (e.g., \'Save the Last Word for Me\') to internalize listening.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -100,6 +100,10 @@ export const c7_geo_ch05_p2: SimDef = {
                 { id: 'a', prompt: 'Why is physical connectivity (such as roads, railways, and inland waterways) considered crucial for the success of regional cooperation in South Asia, given.', answer: 'Physical connectivity is crucial',
                   options: ['Physical connectivity is crucial', 'regional cooperation'],
                   hint: 'Review c6_geography_ch05_029 to understand how nations exchange goods across borders.',
+                  misconception: 'Students often believe that "regional cooperation" only means political meetings between prime ministers, failing to understand that.' },
+                { id: 'b', prompt: 'If a freight train travels from New Delhi, India, through transit routes to reach Dhaka, Bangladesh, a distance of approximately 1,600 km at an average speed.', answer: 'Identify travel distance (1,600 km) and speed (40 km/h)',
+                  options: ['Identify travel distance (1,600 km) and speed (40 km/h)', 'regional cooperation'],
+                  hint: 'Review c6_geography_ch05_029 to understand how nations exchange goods across borders.',
                   misconception: 'Students often believe that "regional cooperation" only means political meetings between prime ministers, failing to understand that.' }
           ],
             remediations: { 'regional-cooperation-only-means-political': { steps: ['To fix this, guide the student to trace a map of South Asia using a highlighter to connect capital cities (like New.', 'Ask them to identify physical obstacles—such as the Himalayan foothills or major rivers like the Brahmaputra—that.', 'Explain that regional cooperation is the practical agreement required to build physical bridges and lay rails across.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },

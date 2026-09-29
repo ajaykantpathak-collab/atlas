@@ -6,13 +6,13 @@ import C11_SociologyEnvironmentSocietySim from '../../../simulations/c6_12/C11_S
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_sociologyenvironmentsocietysim: SimDef = {
     id: 'v3w_c11_sociologyenvironmentsocietysim',
-    title: 'Environment Society',
+    title: 'Ecology: Definition and the Interconnected Web of Natural Systems',
     subtitle: 'This node covers the sociological definition of ecology, the two-way interaction between.',
     classLevel: 11, subject: 'sociology', topic: 'Ecology: Definition and the Interconnected Web of Natural Systems',
     chapters: [],
     nodeIds: ['c11_soc_cbse_08_001', 'c11_soc_cbse_08_002', 'c11_soc_cbse_08_003', 'c11_soc_cbse_08_004', 'c11_soc_cbse_08_009', 'c11_soc_cbse_07_001', 'c11_soc_cbse_07_002', 'c11_soc_cbse_07_003', 'c11_soc_cbse_08_005', 'c11_soc_cbse_08_006', 'c11_soc_cbse_08_007', 'c11_soc_cbse_08_008', 'c11_soc_cbse_08_010', 'c11_soc_cbse_04_005', 'c11_soc_cbse_04_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Look at the chair you are sitting on right now. Trace it backward: the wood came from a tree, the tree grew.', goal: 'Master Environment Society.' },
+    scenario: { role: 'a class 11 learner', intro: 'Look at the chair you are sitting on right now. Trace it backward: the wood came from a tree, the tree grew.', goal: 'Master Ecology: Definition and the Interconnected Web of Natural Systems.' },
     discovery: {
         question: 'Define "ecology" as used in the sociological study of environment and society, and explain why humans are considered an element within it rather than external.',
         options: ['Ecology is the web of physical and biological systems and processes', 'the natural environment untouched by humans', 'ecology is the natural surroundings of human society'],
@@ -81,7 +81,7 @@ export const w_c11_sociologyenvironmentsocietysim: SimDef = {
             { text: 'Synthesise: The student\'s first claim is correct; the second is incomplete without demonstrating institutional.', faded: true, blankAnswer: 'Joint-to-nuclear shift = social change (passes both.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_soc_cbse_08_002', title: 'Identify each idea',
-          dissect: { specimen: 'Environment Society', spots: [
+          dissect: { specimen: 'Ecology: Definition and the Interconnected Web of Natural Systems', spots: [
             { id: 's1', label: 'Ecology is the web of', prompt: 'Which idea is this? — Ecology is the web of physical and biological systems and processes — including.', answer: 'Ecology is the web of', options: ['Ecology is the web of', 'The two-way relationship between environment', 'Property relations refer to the', 'Social stratification and differential access'] },
             { id: 's2', label: 'The two-way relationship between environment', prompt: 'Which idea is this? — The two-way relationship between environment and society refers to the dialectical.', answer: 'The two-way relationship between environment', options: ['The two-way relationship between environment', 'Ecology is the web of', 'Property relations refer to the', 'Social stratification and differential access'] },
             { id: 's3', label: 'Property relations refer to the', prompt: 'Which idea is this? — Property relations refer to the socially constructed rules, norms, and power structures.', answer: 'Property relations refer to the', options: ['Property relations refer to the', 'Ecology is the web of', 'The two-way relationship between environment', 'Social stratification and differential access'] },
@@ -90,7 +90,7 @@ export const w_c11_sociologyenvironmentsocietysim: SimDef = {
             { id: 's6', label: 'Social change refers to significant', prompt: 'Which idea is this? — Social change refers to significant alterations in the underlying structure of.', answer: 'Social change refers to significant', options: ['Social change refers to significant', 'Ecology is the web of', 'The two-way relationship between environment', 'Property relations refer to the'] }
           ] } }
     ],
-    explore: { component: C11_SociologyEnvironmentSocietySim, prompt: 'Explore the interactive — Environment Society' },
+    explore: { component: C11_SociologyEnvironmentSocietySim, prompt: 'Explore the interactive — Ecology: Definition and the Interconnected Web of Natural Systems' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_soc_cbse_08_001', difficulty: 'standard',
           question: 'Ecology is the web of physical and biological systems and processes — including.',

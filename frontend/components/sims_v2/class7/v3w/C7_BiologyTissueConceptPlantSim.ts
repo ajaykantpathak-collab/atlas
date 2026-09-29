@@ -6,13 +6,13 @@ import C7_BiologyTissueConceptPlantSim from '../../../simulations/c6_12/C7_Biolo
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_biologytissueconceptplantsim: SimDef = {
     id: 'v3w_c7_biologytissueconceptplantsim',
-    title: 'Tissue Concept Plant',
+    title: 'Transport in Plants: Xylem and Water Movement',
     subtitle: 'Covers the structure and function of xylem tissue in transporting water and minerals in.',
     classLevel: 7, subject: 'biology', topic: 'Transport in Plants: Xylem and Water Movement',
     chapters: [],
     nodeIds: ['c7_bio_ch03_008', 'c7_bio_ch03_009', 'c7_bio_ch03_003', 'c7_bio_ch01_009', 'c7_bio_ch01_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'When you water a potted hibiscus plant in your school courtyard, the dry soil becomes moist, and within a few.', goal: 'Master Tissue Concept Plant.' },
+    scenario: { role: 'a class 7 learner', intro: 'When you water a potted hibiscus plant in your school courtyard, the dry soil becomes moist, and within a few.', goal: 'Master Transport in Plants: Xylem and Water Movement.' },
     discovery: {
         question: 'What is the primary substance transported upward through the xylem tissue in plants?',
         options: ['Water and dissolved minerals from the soil', 'prepared food', 'glucose'],
@@ -68,7 +68,7 @@ export const w_c7_biologytissueconceptplantsim: SimDef = {
             { text: 'Conclude that the jacket no longer fits because multiple skeletal elements are expanding simultaneously at rapid rates.', faded: true, blankAnswer: 'The tight jacket is direct evidence of rapid skeletal.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_bio_ch03_009', title: 'Identify each idea',
-          dissect: { specimen: 'Tissue Concept Plant', spots: [
+          dissect: { specimen: 'Transport in Plants: Xylem and Water Movement', spots: [
             { id: 's1', label: 'Xylem is a specialized tube-like', prompt: 'Which idea is this? — Xylem is a specialized, tube-like vascular tissue in plants that transports water and.', answer: 'Xylem is a specialized tube-like', options: ['Xylem is a specialized tube-like', 'Phloem is a specialized plant', 'Leaves act as the primary', 'Physical activities and regular exercise'] },
             { id: 's2', label: 'Phloem is a specialized plant', prompt: 'Which idea is this? — Phloem is a specialized plant vascular tissue responsible for transporting dissolved.', answer: 'Phloem is a specialized plant', options: ['Phloem is a specialized plant', 'Xylem is a specialized tube-like', 'Leaves act as the primary', 'Physical activities and regular exercise'] },
             { id: 's3', label: 'Leaves act as the primary', prompt: 'Which idea is this? — Leaves act as the primary food-producing organs of a plant, containing specialized green.', answer: 'Leaves act as the primary', options: ['Leaves act as the primary', 'Xylem is a specialized tube-like', 'Phloem is a specialized plant', 'Physical activities and regular exercise'] },
@@ -76,7 +76,7 @@ export const w_c7_biologytissueconceptplantsim: SimDef = {
             { id: 's5', label: 'The rapid and marked increase', prompt: 'Which idea is this? — The rapid and marked increase in height and weight during adolescence, driven by the.', answer: 'The rapid and marked increase', options: ['The rapid and marked increase', 'Xylem is a specialized tube-like', 'Phloem is a specialized plant', 'Leaves act as the primary'] }
           ] } }
     ],
-    explore: { component: C7_BiologyTissueConceptPlantSim, prompt: 'Explore the interactive — Tissue Concept Plant' },
+    explore: { component: C7_BiologyTissueConceptPlantSim, prompt: 'Explore the interactive — Transport in Plants: Xylem and Water Movement' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_bio_ch03_008', difficulty: 'standard',
           question: 'Xylem is a specialized, tube-like vascular tissue in plants that transports.',

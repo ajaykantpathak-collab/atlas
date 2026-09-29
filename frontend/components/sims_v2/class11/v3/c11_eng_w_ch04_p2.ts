@@ -19,7 +19,7 @@ export const c11_eng_w_ch04_p2: SimDef = {
         hook: 'The story is a double helix — Watson chases the whimsical fake plot while Holmes reads the real one in an American spelling and a frayed coat.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas, concerns, or messages that run parallel to the primary theme in a literary work, enriching the narrative by exploring human experiences, social commentary.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Adventure of the Three Garridebs\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_04_007', title: 'Your mission',
@@ -29,34 +29,34 @@ export const c11_eng_w_ch04_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_04_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re watching a magician perform a trick—your eyes follow the obvious hand movements (the primary plot: Holmes catching a criminal), but the real.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Adventure of the Three Garridebs\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'Identify three secondary themes present in "The Adventure of the Three Garridebs" and provide one textual reference for each.', options: [
                 { text: 'Correct answer: (1) Greed/avarice – John Garrideb invents the Alexander Hamilton Garrideb', outcome: 'Correct answer: (1) Greed/avarice – John Garrideb invents the Alexander Hamilton Garrideb legacy.' },
                 { text: 'Holmes solves the case', outcome: 'Not quite — Students commonly confuse "secondary themes" with "subplots" or "minor events." They list things.', reveals: 'students-commonly-confuse-secondary-themes' },
                 { text: 'secondary themes', outcome: 'Not quite — Students commonly confuse "secondary themes" with "subplots" or "minor events." They list things.', reveals: 'students-commonly-confuse-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_04_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are reading a mystery novel late at night: the author writes "the fog clung to the cobblestones like a damp shroud" and you instantly feel the.',
+          caseStudy: { intro: 'Find the lines in \'The Adventure of the Three Garridebs\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define imagery and metaphor in your own words, giving one example of each from everyday language (not from the text).', options: [
                 { text: 'Imagery: Language that creates sensory experiences (e.g., "The aroma of frying onions', outcome: 'Imagery: Language that creates sensory experiences (e.g., "The aroma of frying onions filled the.' },
                 { text: 'uses \'like\' or \'as\' for metaphor reveals confusion with simile', outcome: 'Not quite — Students often treat imagery and metaphor as interchangeable "figurative language" and write "the.', reveals: 'students-often-treat-imagery-and' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_04_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading a mystery novel and encounter the phrase "the suspect wore a cadaverous face." You don\'t have a dictionary handy, but you notice the.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Adventure of the Three Garridebs\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'Identify the expression from the NCERT list that means "a long, confusing, and meaningless statement or story" and quote the exact sentence.', options: [
                 { text: 'The expression is "rigmarole of lies" (appearing in Holmes\'s line: "what on earth could', outcome: 'The expression is "rigmarole of lies" (appearing in Holmes\'s line: "what on earth could be the.' },
                 { text: 'syncopated dialogue', outcome: 'Not quite — Students often treat "context clues" as a single undifferentiated strategy and simply guess.', reveals: 'students-often-treat-context-clues' },
                 { text: 'rigmarole', outcome: 'Not quite — Students often treat "context clues" as a single undifferentiated strategy and simply guess.', reveals: 'students-often-treat-context-clues' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_04_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you\'re a detective like Holmes examining a suspicious document.',
+          caseStudy: { intro: 'Read \'The Adventure of the Three Garridebs\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the specific American spelling variants in the advertisement text that Holmes notices, and state the corresponding British.', options: [
                 { text: 'The advertisement contains: \'plows\' (British: ploughs), \'buckboards\' (British:', outcome: 'The advertisement contains: \'plows\' (British: ploughs), \'buckboards\' (British: carts/wagons).' },
                 { text: 'language usage', outcome: 'Not quite — Students believe "language usage" questions only ask for definitions of idioms.', reveals: 'language-usage-questions-only-ask' },
                 { text: '"language usage" questions only ask for definitions of idioms', outcome: 'Not quite — Students believe "language usage" questions only ask for definitions of idioms.', reveals: 'language-usage-questions-only-ask' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_04_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re a detective like Holmes examining a crime scene—some clues are visible (literal: a footprint, a letter), while others require deduction.',
+          caseStudy: { intro: 'Answer \'The Adventure of the Three Garridebs\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify whether the following question is literal or inferential: "What was the address on Nathan Garrideb\'s brass plate?" Explain your.', options: [
                 { text: 'This is a literal question', outcome: 'This is a literal question because the answer ("136, Little Ryder Street, W.") is explicitly stated.' },
                 { text: 'specific detail retrieval', outcome: 'Not quite — Students believe inferential questions are "opinion questions" where any reasonable guess earns.', reveals: 'inferential-questions-are-opinion-questions' },
@@ -81,7 +81,7 @@ export const c11_eng_w_ch04_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas, concerns, or messages that run.',
+          question: 'Secondary themes in \'The Adventure of the Three Garridebs\' — the supporting.',
           hint: 'If stuck, review c11_eng_w_cbse_04_006 (Primary Theme) and practice the "So what?".',
           misconception: 'Students commonly confuse "secondary themes" with "subplots" or "minor events." They list things that happen (e.g.',
           parts: [
@@ -92,7 +92,7 @@ export const c11_eng_w_ch04_p2: SimDef = {
           ],
             remediations: { 'students-commonly-confuse-secondary-themes': { steps: ['If a student cannot distinguish plot from theme, do this 3-step remediation: (1) Take a single scene (e.g., Holmes.', 'Ask: "What happens?" (plot).', 'Then ask: "What idea about human nature does this illustrate?" (theme).', 'Model: "Holkes notices \'plough\' misspelled as \'plow\'—this shows truth resides in details others overlook." (2) Give the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid and descriptive language that appeals to the senses.',
+          question: 'Imagery in \'The Adventure of the Three Garridebs\' — the vivid, sensory language.',
           hint: 'Review the tenor/vehicle/ground model of metaphor (from c6_english_u1_005) and the.',
           misconception: 'Students often treat imagery and metaphor as interchangeable "figurative language" and write "the author uses imagery.',
           parts: [
@@ -103,18 +103,18 @@ export const c11_eng_w_ch04_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-imagery-and': { steps: ['Have the student list the five senses and find one textual example appealing to each (e.g., visual: "fat brick face".', 'For metaphor, use the Tennyson formula: "Tenor = Vehicle" (e.g., "Holmes\'s face = cold mask").', 'Practice converting a simile ("His face was like a mask") into a metaphor ("His face was a mask") and discuss the shift.', 'Re-attempt Diagnostic Questions 2 and 4 with this framework.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'The Adventure of the Three Garridebs\' — where opposite.',
           hint: 'Review Class 10 English nodes c10_engl_cbse_01_007 (Irony) and c10_engl_cbse_03_007.',
           misconception: 'Students often confuse *coincidence* with *situational irony*.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where the intended meaning of words or events is opposite to',
-                  options: ['Irony is a literary device where the intended meaning of words or events is opposite to', '"Before You Read: Context and Background" provides the essential historical, literary,', 'Plot and narrative structure refer to the organized sequence of events in a story and the', 'Setting is the specific time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'The Adventure of the Three Garridebs\'',
+                  options: ['Irony and paradox in \'The Adventure of the Three Garridebs\'', '\'The Adventure of the Three Garridebs\' (Woven Words, ch', 'The plot/narrative arc of \'The Adventure of the Three Garridebs\'', 'The setting of \'The Adventure of the Three Garridebs\''],
                   hint: 'Review Class 10 English nodes c10_engl_cbse_01_007 (Irony) and c10_engl_cbse_03_007 (Symbolism) for.',
                   misconception: 'Students often confuse *coincidence* with *situational irony*. They think the mere fact that three men share the name "Garrideb" is ironic.' }
           ],
             remediations: { 'students-often-confuse-coincidence-with': { steps: ['Re-read the scene where Holmes exposes the advertisement\'s American spellings ("plough" vs.', '"plow", "buckboards") — this proves the "coincidence" was manufactured.', 'List the three irony types with definitions; match each to a specific story moment (e.g., verbal: Holmes\'s "whimsical".', 'For symbolism, pick one object (the cellar, the name, the castle-in-air) and complete the sentence: "This represents.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'The Adventure of the Three Garridebs\' — the words and.',
           hint: 'If stuck, re-read the "Look for these expressions" box on textbook p.',
           misconception: 'Students often treat "context clues" as a single undifferentiated strategy and simply guess a synonym that "fits the.',
           parts: [
@@ -129,7 +129,7 @@ export const c11_eng_w_ch04_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-context-clues': { steps: ['If a student cannot name clue types, conduct a 10-minute micro-lesson: give five isolated sentences each illustrating.', 'Have the student label each, then return to the Garrideb expressions and re-analyse two using the same labels.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the systematic analysis of how specific.',
+          question: 'Language and style in \'The Adventure of the Three Garridebs\' — how the writer.',
           hint: 'Review "abductive reasoning vs deductive reasoning" from c11_eng_w_cbse_04_002 (Plot and.',
           misconception: 'Students believe "language usage" questions only ask for definitions of idioms.',
           parts: [
@@ -144,7 +144,7 @@ export const c11_eng_w_ch04_p2: SimDef = {
           ],
             remediations: { 'language-usage-questions-only-ask': { steps: ['Have the student create a two-column table: Column A = American word from text, Column B = British equivalent, Column.', 'For each figurative expression, draw a three-box flowchart: Source Domain → Mapping → Target Meaning (e.g., Hunting →.', 'Practice writing one PEEL paragraph per expression using the template: "Conan Doyle uses [expression] from the [source.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve explicitly stated.',
+          question: 'Literal comprehension of \'The Adventure of the Three Garridebs\' — questions.',
           hint: 'If stuck, review c11_eng_w_cbse_04_002 (Plot) to re-sequence events, and.',
           misconception: 'Students believe inferential questions are "opinion questions" where any reasonable guess earns marks.',
           parts: [

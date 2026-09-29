@@ -121,7 +121,7 @@ export const c8_engl_ch04_p2: SimDef = {
           ],
             remediations: { 'students-frequently-confuse-plot-summary': { steps: ['**Thematic Abstraction Step:** Give the student a 2-column list.', 'Column A lists literal plot actions ("Rakesh waters the plant"), and Column B lists abstract values ("Patience".', 'Have the student match actions to abstract values.', '**Matrix Blueprint:** Introduce a 3-row Comparative Matrix: - Row 1: Shared Theme Statement - Row 2: Prose Evidence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c8_engl_ch4_2', difficulty: 'standard',
-          question: 'Character analysis is the evaluation of a character\'s traits, role, and growth.',
+          question: 'From \'English chapter c8_engl_ch4\': the skill or concept this node teaches.',
           hint: 'If you are stuck, think back to how you analyzed Anand\'s inventions in Class 7.',
           misconception: 'Students often view character traits as "all-or-nothing" switches.',
           parts: [
@@ -132,7 +132,7 @@ export const c8_engl_ch04_p2: SimDef = {
           ],
             remediations: { 'students-often-view-character-traits': { steps: ['If a student struggles to grasp this gradual change, guide them with a "Character Growth Timeline." 1.', 'Draw a line with three points on a sheet of paper: **The Seed**, **The Broken Stem**, and **The Cherry Blossom**.', 'Ask the student: "At \'The Seed\', what does Rakesh want?" (Answer: Immediate results).', 'Ask: "At \'The Broken Stem\', does he get what he wants?" (Answer: No, the plant is ruined).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c8_engl_ch4_3', difficulty: 'standard',
-          question: 'Character analysis of Grandfather involves examining his dialogue, actions.',
+          question: 'From \'English chapter c8_engl_ch4\': the skill or concept this node teaches.',
           hint: 'If stuck, review how characters influence one another through dialogue by revisiting.',
           misconception: 'Students often confuse "being a mentor/guide" with "doing everything for the protagonist." They assume Grandfather.',
           parts: [
@@ -167,7 +167,7 @@ export const c8_engl_ch04_p2: SimDef = {
           misconception: 'Students often view a plot as a simple, flat timeline of physical events (e.g., "First Rakesh ate cherries, then.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The plot of a story is the organized sequence of connected events that build tension,',
-                  options: ['The plot of a story is the organized sequence of connected events that build tension,', 'Setting refers to the physical environment, geographical location, climate, and time', 'Comprehension of the narrative journey from seed to fruit-bearing tree involves', 'In literary analysis, examining "luck in the context of effort" means critically'],
+                  options: ['The plot of a story is the organized sequence of connected events that build tension,', 'From \'English chapter c8_engl_ch4\': the skill or concept this node teaches, applied to', 'Comprehension of the narrative journey from seed to fruit-bearing tree involves', 'In literary analysis, examining "luck in the context of effort" means critically'],
                   hint: 'If stuck, review how setting and actions create a sequence of events in `c7_engl_ch04_003` (Plot.',
                   misconception: 'Students often view a plot as a simple, flat timeline of physical events (e.g., "First Rakesh ate cherries, then he planted the seed, then.' }
           ],

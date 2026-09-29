@@ -6,13 +6,13 @@ import C12_BiologyDNAHelixSim from '../../../simulations/three/C12_BiologyDNAHel
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologydnahelixsim: SimDef = {
     id: 'v3w_c12_biologydnahelixsim',
-    title: 'DNAHelix',
+    title: 'DNA Structure: Double Helix Model (Watson-Crick)',
     subtitle: 'Covers the Watson-Crick B-DNA model: helical parameters (diameter, pitch, base pairs per.',
     classLevel: 12, subject: 'biology', topic: 'DNA Structure: Double Helix Model (Watson-Crick)',
     chapters: [],
     nodeIds: ['c12_bio_cbse_06_002', 'c12_bio_cbse_06_003', 'c12_bio_cbse_06_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a twisted ladder (like a spiral staircase in an old Indian haveli) — the handrails are the.', goal: 'Master DNAHelix.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a twisted ladder (like a spiral staircase in an old Indian haveli) — the handrails are the.', goal: 'Master DNA Structure: Double Helix Model (Watson-Crick).' },
     discovery: {
         question: 'State the two key experimental evidences that Watson and Crick used to deduce the double helical structure of DNA, and the specific conclusion each provided.',
         options: ['Correct answer: (1) Chargaff\'s rules', 'hydrogen bonds between bases are the main force holding the two strands together', 'breaking H-bonds requires high temperature'],
@@ -51,13 +51,13 @@ export const w_c12_biologydnahelixsim: SimDef = {
             { text: 'Verify: heavy band disappears after generation 1; intermediate persists but decreases by half each generation.', faded: true, blankAnswer: 'Two bands — one at intermediate density (25% of DNA, hybrid.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_06_003', title: 'Identify each idea',
-          dissect: { specimen: 'DNAHelix', spots: [
+          dissect: { specimen: 'DNA Structure: Double Helix Model (Watson-Crick)', spots: [
             { id: 's1', label: 'The Watson-Crick double helix model', prompt: 'Which idea is this? — The Watson-Crick double helix model describes DNA as two antiparallel polynucleotide.', answer: 'The Watson-Crick double helix model', options: ['The Watson-Crick double helix model', 'DNA packaging in eukaryotes is', 'DNA replication is the biological'] },
             { id: 's2', label: 'DNA packaging in eukaryotes is', prompt: 'Which idea is this? — DNA packaging in eukaryotes is the hierarchical coiling of double-stranded DNA around.', answer: 'DNA packaging in eukaryotes is', options: ['DNA packaging in eukaryotes is', 'The Watson-Crick double helix model', 'DNA replication is the biological'] },
             { id: 's3', label: 'DNA replication is the biological', prompt: 'Which idea is this? — DNA replication is the biological process by which a double-stranded DNA molecule is.', answer: 'DNA replication is the biological', options: ['DNA replication is the biological', 'The Watson-Crick double helix model', 'DNA packaging in eukaryotes is'] }
           ] } }
     ],
-    explore: { component: C12_BiologyDNAHelixSim, prompt: 'Explore the interactive — DNAHelix' },
+    explore: { component: C12_BiologyDNAHelixSim, prompt: 'Explore the interactive — DNA Structure: Double Helix Model (Watson-Crick)' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_06_002', difficulty: 'standard',
           question: 'The Watson-Crick double helix model describes DNA as two antiparallel.',
@@ -129,6 +129,10 @@ export const w_c12_biologydnahelixsim: SimDef = {
           parts: [
                 { id: 'a', prompt: 'A student claims: "If DNA replication were conservative, after two generations in N14 medium we would see one heavy band and one light band." Evaluate this.', answer: 'The claim is correct',
                   options: ['The claim is correct', 'semi-conservative', 'rather than', '"semi-conservative" means each strand is half old and half new (i'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students think "semi-conservative" means each strand is half old and half new (i.e., the dispersive model).' },
+                { id: 'b', prompt: 'Design a simple experiment using radioactive labeling (e.g., 32P or 3H-thymidine) and autoradiography to demonstrate that DNA replication is semi-conservative.', answer: '(1) Grow cells in medium with radioactive thymidine (3H-thymidine) for several',
+                  options: ['(1) Grow cells in medium with radioactive thymidine (3H-thymidine) for several', 'semi-conservative', 'rather than', '"semi-conservative" means each strand is half old and half new (i'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students think "semi-conservative" means each strand is half old and half new (i.e., the dispersive model).' }
           ],

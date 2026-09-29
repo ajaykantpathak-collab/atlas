@@ -6,13 +6,13 @@ import C12_AccountancyComparativeStatementsMeaningSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_accountancycomparativestatementsmeaningsim: SimDef = {
     id: 'v3w_c12_accountancycomparativestatementsmeaningsim',
-    title: 'Comparative Statements Meaning',
+    title: 'Financial Statement Analysis: Meaning, Significance and Objectives',
     subtitle: 'This node covers the meaning, significance, and objectives of financial statement.',
     classLevel: 12, subject: 'accountancy', topic: 'Financial Statement Analysis: Meaning, Significance and Objectives',
     chapters: [],
     nodeIds: ['c12_acc_cbse_08_001', 'c12_acc_cbse_08_008', 'c12_acc_cbse_08_002', 'c12_acc_cbse_08_003', 'c12_acc_cbse_08_004', 'c12_acc_cbse_08_005', 'c12_acc_cbse_08_006', 'c12_acc_cbse_08_007', 'c12_acc_cbse_08_009', 'c12_acc_cbse_07_001', 'c12_acc_cbse_07_003', 'c12_acc_cbse_07_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a bank manager deciding whether to sanction a ₹50 lakh loan to a small manufacturing firm.', goal: 'Master Comparative Statements Meaning.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a bank manager deciding whether to sanction a ₹50 lakh loan to a small manufacturing firm.', goal: 'Master Financial Statement Analysis: Meaning, Significance and Objectives.' },
     discovery: {
         question: 'A student says: "Financial statement analysis is only useful for external users like investors and banks; management already knows everything about the.',
         options: ['The statement is incorrect', 'calculating ratios IS financial statement analysis', '"calculating ratios IS financial statement analysis'],
@@ -83,7 +83,7 @@ export const w_c12_accountancycomparativestatementsmeaningsim: SimDef = {
             { text: 'Interpret key trends: Revenue grew 30.8%, but Total Expenses grew 38.5% (driven by Materials +44%, Finance +66.7%),.', faded: true, blankAnswer: 'Comparative Statement of Profit and Loss of XYZ Ltd. for.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_acc_cbse_08_008', title: 'Identify each idea',
-          dissect: { specimen: 'Comparative Statements Meaning', spots: [
+          dissect: { specimen: 'Financial Statement Analysis: Meaning, Significance and Objectives', spots: [
             { id: 's1', label: 'Financial Statement Analysis is the', prompt: 'Which idea is this? — Financial Statement Analysis is the systematic process of examining and interpreting a.', answer: 'Financial Statement Analysis is the', options: ['Financial Statement Analysis is the', 'Trend analysis is a technique', 'Limitations of Financial Statement Analysis', 'Horizontal Analysis compares financial statement'] },
             { id: 's2', label: 'Trend analysis is a technique', prompt: 'Which idea is this? — Trend analysis is a technique of financial statement analysis that expresses each item of.', answer: 'Trend analysis is a technique', options: ['Trend analysis is a technique', 'Financial Statement Analysis is the', 'Limitations of Financial Statement Analysis', 'Horizontal Analysis compares financial statement'] },
             { id: 's3', label: 'Limitations of Financial Statement Analysis', prompt: 'Which idea is this? — Limitations of Financial Statement Analysis refer to the inherent constraints and.', answer: 'Limitations of Financial Statement Analysis', options: ['Limitations of Financial Statement Analysis', 'Financial Statement Analysis is the', 'Trend analysis is a technique', 'Horizontal Analysis compares financial statement'] },
@@ -92,7 +92,7 @@ export const w_c12_accountancycomparativestatementsmeaningsim: SimDef = {
             { id: 's6', label: 'A Comparative Statement of Profit', prompt: 'Which idea is this? — A Comparative Statement of Profit and Loss is a horizontal analysis tool that presents.', answer: 'A Comparative Statement of Profit', options: ['A Comparative Statement of Profit', 'Financial Statement Analysis is the', 'Trend analysis is a technique', 'Limitations of Financial Statement Analysis'] }
           ] } }
     ],
-    explore: { component: C12_AccountancyComparativeStatementsMeaningSim, prompt: 'Explore the interactive — Comparative Statements Meaning' },
+    explore: { component: C12_AccountancyComparativeStatementsMeaningSim, prompt: 'Explore the interactive — Financial Statement Analysis: Meaning, Significance and Objectives' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_acc_cbse_08_001', difficulty: 'standard',
           question: 'Financial Statement Analysis is the systematic process of examining and.',

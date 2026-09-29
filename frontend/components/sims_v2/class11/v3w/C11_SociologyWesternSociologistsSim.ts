@@ -6,13 +6,13 @@ import C11_SociologyWesternSociologistsSim from '../../../simulations/c6_12/C11_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_sociologywesternsociologistssim: SimDef = {
     id: 'v3w_c11_sociologywesternsociologistssim',
-    title: 'Western Sociologists',
+    title: 'Comparing Marx, Durkheim and Weber: Three Foundational Perspectives',
     subtitle: 'This node covers the systematic comparison of Marx, Durkheim, and Weber as presented in.',
     classLevel: 11, subject: 'sociology', topic: 'Comparing Marx, Durkheim and Weber: Three Foundational Perspectives',
     chapters: [],
     nodeIds: ['c11_soc_cbse_09_012', 'c11_soc_cbse_01_007', 'c11_soc_cbse_01_009', 'c11_soc_cbse_10_002', 'c11_soc_cbse_10_007', 'c11_soc_cbse_03_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a sociologist hired to advise a government committee studying why workers in a gig-economy.', goal: 'Master Western Sociologists.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a sociologist hired to advise a government committee studying why workers in a gig-economy.', goal: 'Master Comparing Marx, Durkheim and Weber: Three Foundational Perspectives.' },
     discovery: {
         question: 'Explain in your own words why the western distinction between sociology (study of modern, industrialised societies) and social anthropology (study of simple,.',
         options: ['In India, "the other"', 'copied', 'Indian sociology simply "copied" western sociology and applied it to India'],
@@ -80,7 +80,7 @@ export const w_c11_sociologywesternsociologistssim: SimDef = {
             { text: 'Conclude: The worker has "formal citizenship" (civil-political) but lacks "substantive citizenship" (social).', faded: true, blankAnswer: 'Civil rights: partially realised (legal identity present,.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_soc_cbse_01_007', title: 'Identify each idea',
-          dissect: { specimen: 'Western Sociologists', spots: [
+          dissect: { specimen: 'Comparing Marx, Durkheim and Weber: Three Foundational Perspectives', spots: [
             { id: 's1', label: 'Comparing Marx Durkheim and Weber', prompt: 'Which idea is this? — Comparing Marx, Durkheim, and Weber involves systematically analyzing their distinct.', answer: 'Comparing Marx Durkheim and Weber', options: ['Comparing Marx Durkheim and Weber', 'The growth of sociology in', 'Sociology is the systematic study', 'The colonial context of Indian'] },
             { id: 's2', label: 'The growth of sociology in', prompt: 'Which idea is this? — The growth of sociology in India refers to the historical process through which sociology.', answer: 'The growth of sociology in', options: ['The growth of sociology in', 'Comparing Marx Durkheim and Weber', 'Sociology is the systematic study', 'The colonial context of Indian'] },
             { id: 's3', label: 'Sociology is the systematic study', prompt: 'Which idea is this? — Sociology is the systematic study of modern, complex, industrialised societies, while.', answer: 'Sociology is the systematic study', options: ['Sociology is the systematic study', 'Comparing Marx Durkheim and Weber', 'The growth of sociology in', 'The colonial context of Indian'] },
@@ -89,7 +89,7 @@ export const w_c11_sociologywesternsociologistssim: SimDef = {
             { id: 's6', label: 'Citizenship rights as theorised by', prompt: 'Which idea is this? — Citizenship rights, as theorised by T.H. Marshall, are the three interlinked dimensions.', answer: 'Citizenship rights as theorised by', options: ['Citizenship rights as theorised by', 'Comparing Marx Durkheim and Weber', 'The growth of sociology in', 'Sociology is the systematic study'] }
           ] } }
     ],
-    explore: { component: C11_SociologyWesternSociologistsSim, prompt: 'Explore the interactive — Western Sociologists' },
+    explore: { component: C11_SociologyWesternSociologistsSim, prompt: 'Explore the interactive — Comparing Marx, Durkheim and Weber: Three Foundational Perspectives' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_soc_cbse_09_012', difficulty: 'standard',
           question: 'Comparing Marx, Durkheim, and Weber involves systematically analyzing their.',

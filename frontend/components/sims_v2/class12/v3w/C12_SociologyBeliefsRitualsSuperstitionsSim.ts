@@ -6,13 +6,13 @@ import C12_SociologyBeliefsRitualsSuperstitionsSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_sociologybeliefsritualssuperstitionssim: SimDef = {
     id: 'v3w_c12_sociologybeliefsritualssuperstitionssim',
-    title: 'Beliefs Rituals Superstitions',
+    title: 'Sanskritisation: M.N. Srinivas\'s Concept and Its Mechanisms',
     subtitle: 'This node covers M.N. Srinivas\'s concept of Sanskritisation, its mechanisms (adoption of.',
     classLevel: 12, subject: 'sociology', topic: 'Sanskritisation: M.N. Srinivas\'s Concept and Its Mechanisms',
     chapters: [],
     nodeIds: ['c12_soc_cbse_09_002', 'c12_soc_cbse_09_006', 'c12_soc_cbse_05_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a village in Karnataka where a community traditionally engaged in toddy tapping decides to stop.', goal: 'Master Beliefs Rituals Superstitions.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a village in Karnataka where a community traditionally engaged in toddy tapping decides to stop.', goal: 'Master Sanskritisation: M.N. Srinivas\'s Concept and Its Mechanisms.' },
     discovery: {
         question: 'Define Sanskritisation in M.N. Srinivas\'s own words, specifying the reference group and the typical direction of cultural emulation.',
         options: ['Sanskritisation is the process by', 'any lower group copies any higher group', 'lower castes copying Brahmins'],
@@ -51,13 +51,13 @@ export const w_c12_sociologybeliefsritualssuperstitionssim: SimDef = {
             { text: 'Verify — after modifications, can the students independently use all facilities?', faded: true, blankAnswer: 'Barriers: 1) Inaccessible toilet block (no ramp, squat.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_soc_cbse_09_006', title: 'Identify each idea',
-          dissect: { specimen: 'Beliefs Rituals Superstitions', spots: [
+          dissect: { specimen: 'Sanskritisation: M.N. Srinivas\'s Concept and Its Mechanisms', spots: [
             { id: 's1', label: 'Sanskritisation is the process by', prompt: 'Which idea is this? — Sanskritisation is the process by which a lower caste, tribe, or other group adopts the.', answer: 'Sanskritisation is the process by', options: ['Sanskritisation is the process by', 'Secularisation is the sociological process', 'The medical model of disability'] },
             { id: 's2', label: 'Secularisation is the sociological process', prompt: 'Which idea is this? — Secularisation is the sociological process through which religion loses its social and.', answer: 'Secularisation is the sociological process', options: ['Secularisation is the sociological process', 'Sanskritisation is the process by', 'The medical model of disability'] },
             { id: 's3', label: 'The medical model of disability', prompt: 'Which idea is this? — The **medical model of disability** views disability as an individual\'s biological.', answer: 'The medical model of disability', options: ['The medical model of disability', 'Sanskritisation is the process by', 'Secularisation is the sociological process'] }
           ] } }
     ],
-    explore: { component: C12_SociologyBeliefsRitualsSuperstitionsSim, prompt: 'Explore the interactive — Beliefs Rituals Superstitions' },
+    explore: { component: C12_SociologyBeliefsRitualsSuperstitionsSim, prompt: 'Explore the interactive — Sanskritisation: M.N. Srinivas\'s Concept and Its Mechanisms' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_soc_cbse_09_002', difficulty: 'standard',
           question: 'Sanskritisation is the process by which a lower caste, tribe, or other group.',

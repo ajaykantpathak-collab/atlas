@@ -6,13 +6,13 @@ import C8_MathematicsFactorisationsimpleCasesSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicsfactorisationsimplecasessim: SimDef = {
     id: 'v3w_c8_mathematicsfactorisationsimplecasessim',
-    title: 'Factorisationsimple Cases',
+    title: 'Exponents with Negative Bases: Sign Rules',
     subtitle: 'This node covers integer bases that are negative and positive integer exponents only.',
     classLevel: 8, subject: 'mathematics', topic: 'Exponents with Negative Bases: Sign Rules',
     chapters: [],
     nodeIds: ['c8_math_ch2_11', 'c8_math_ch2_8', 'c8_math_ch9_4', 'c8_math_ch6_4'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine a video game where your character has a "power level" that starts at \\(-2\\) points.', goal: 'Master Factorisationsimple Cases.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine a video game where your character has a "power level" that starts at \\(-2\\) points.', goal: 'Master Exponents with Negative Bases: Sign Rules.' },
     discovery: {
         question: 'What is the sign of \\((-7)^{12}\\)? Explain your reasoning in one sentence without calculating the actual value.',
         options: ['Positive', 'negative', 'negative base always gives negative result'],
@@ -60,14 +60,14 @@ export const w_c8_mathematicsfactorisationsimplecasessim: SimDef = {
             { text: 'Substitute x = 10, y = 5 into expanded form: (10)(5) + 10 + 5 + 1 = 50 + 10 + 5 + 1 = 66 sq m.', faded: true, blankAnswer: 'Area = xy + x + y + 1 sq m; for x=10, y=5, area = 66 sq m.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch2_8', title: 'Identify each idea',
-          dissect: { specimen: 'Factorisationsimple Cases', spots: [
+          dissect: { specimen: 'Exponents with Negative Bases: Sign Rules', spots: [
             { id: 's1', label: 'For a negative base -a', prompt: 'Which idea is this? — For a negative base \\(-a\\) (where \\(a > 0\\)) raised to a positive integer exponent \\(n\\),.', answer: 'For a negative base -a', options: ['For a negative base -a', 'When dividing two powers with', 'In an isosceles right triangle', 'Expanding a 1b'] },
             { id: 's2', label: 'When dividing two powers with', prompt: 'Which idea is this? — When dividing two powers with the same non-zero base, keep the base and subtract the.', answer: 'When dividing two powers with', options: ['When dividing two powers with', 'For a negative base -a', 'In an isosceles right triangle', 'Expanding a 1b'] },
             { id: 's3', label: 'In an isosceles right triangle', prompt: 'Which idea is this? — In an isosceles right triangle, the two legs (sides forming the right angle) are equal in.', answer: 'In an isosceles right triangle', options: ['In an isosceles right triangle', 'For a negative base -a', 'When dividing two powers with', 'Expanding a 1b'] },
             { id: 's4', label: 'Expanding a 1b', prompt: 'Which idea is this? — Expanding (a + 1)(b + 1) means applying the distributive property twice: each term in the.', answer: 'Expanding a 1b', options: ['Expanding a 1b', 'For a negative base -a', 'When dividing two powers with', 'In an isosceles right triangle'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsFactorisationsimpleCasesSim, prompt: 'Explore the interactive — Factorisationsimple Cases' },
+    explore: { component: C8_MathematicsFactorisationsimpleCasesSim, prompt: 'Explore the interactive — Exponents with Negative Bases: Sign Rules' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch2_11', difficulty: 'standard',
           question: 'For a negative base \\(-a\\) (where \\(a > 0\\)) raised to a positive integer.',

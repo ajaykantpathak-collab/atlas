@@ -6,13 +6,13 @@ import C10_MathematicsTrigonometricIdentitiessin2aSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_mathematicstrigonometricidentitiessin2asim: SimDef = {
     id: 'v3w_c10_mathematicstrigonometricidentitiessin2asim',
-    title: 'Trigonometric Identitiessin2a',
+    title: 'Trigonometric Ratios: sin, cos, tan in a Right Triangle',
     subtitle: 'This node covers the definition and computation of sin θ, cos θ, tan θ for acute angles.',
     classLevel: 10, subject: 'mathematics', topic: 'Trigonometric Ratios: sin, cos, tan in a Right Triangle',
     chapters: [],
     nodeIds: ['c10_math_cbse_08_001', 'c10_math_cbse_08_004', 'c10_math_cbse_08_005', 'c10_math_cbse_08_006', 'c10_math_cbse_08_007', 'c10_math_cbse_08_008', 'c10_math_cbse_08_010', 'c10_math_cbse_08_011', 'c10_math_cbse_08_002', 'c10_math_cbse_08_003', 'c10_math_cbse_08_009', 'c10_math_cbse_09_005', 'c10_math_cbse_09_006', 'c10_math_cbse_09_007', 'c10_math_cbse_09_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you are standing 20 metres away from the base of a mobile tower in your neighbourhood and you want to.', goal: 'Master Trigonometric Identitiessin2a.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you are standing 20 metres away from the base of a mobile tower in your neighbourhood and you want to.', goal: 'Master Trigonometric Ratios: sin, cos, tan in a Right Triangle.' },
     discovery: {
         question: 'In a right triangle PQR, right-angled at Q, PQ = 12 cm and QR = 5 cm. Find sin R, cos R, and tan R. (Angle R is at vertex R.)',
         options: ['Step 1: Identify sides relative to angle R', 'opposite', 'adjacent'],
@@ -80,7 +80,7 @@ export const w_c10_mathematicstrigonometricidentitiessin2asim: SimDef = {
             { text: 'Find \\(\\theta\\): \\(\\sin\\theta = \\frac{12}{13}\\), so \\(\\theta = \\sin^{-1}\\left(\\frac{12}{13}\\right) \\approx.', faded: true, blankAnswer: '\\(\\theta \\approx 67.38^\\circ\\); identity verified as LHS =.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_math_cbse_08_004', title: 'Identify each idea',
-          dissect: { specimen: 'Trigonometric Identitiessin2a', spots: [
+          dissect: { specimen: 'Trigonometric Ratios: sin, cos, tan in a Right Triangle', spots: [
             { id: 's1', label: 'In a right-angled triangle for', prompt: 'Which idea is this? — In a right-angled triangle, for an acute angle θ, the trigonometric ratios are defined.', answer: 'In a right-angled triangle for', options: ['In a right-angled triangle for', 'The trigonometric ratios for 30', 'In a right-angled triangle with', 'The identity 1 tan2theta'] },
             { id: 's2', label: 'The trigonometric ratios for 30', prompt: 'Which idea is this? — The trigonometric ratios for 30° and 60° are exact values derived from a 30-60-90 right.', answer: 'The trigonometric ratios for 30', options: ['The trigonometric ratios for 30', 'In a right-angled triangle for', 'In a right-angled triangle with', 'The identity 1 tan2theta'] },
             { id: 's3', label: 'In a right-angled triangle with', prompt: 'Which idea is this? — In a right-angled triangle with one acute angle measuring 45°, the trigonometric ratios.', answer: 'In a right-angled triangle with', options: ['In a right-angled triangle with', 'In a right-angled triangle for', 'The trigonometric ratios for 30', 'The identity 1 tan2theta'] },
@@ -88,7 +88,7 @@ export const w_c10_mathematicstrigonometricidentitiessin2asim: SimDef = {
             { id: 's5', label: 'The identity 1 cot2theta', prompt: 'Which idea is this? — The identity \\(1 + \\cot^2\\theta = \\cosec^2\\theta\\) is a fundamental Pythagorean.', answer: 'The identity 1 cot2theta', options: ['The identity 1 cot2theta', 'In a right-angled triangle for', 'The trigonometric ratios for 30', 'In a right-angled triangle with'] }
           ] } }
     ],
-    explore: { component: C10_MathematicsTrigonometricIdentitiessin2aSim, prompt: 'Explore the interactive — Trigonometric Identitiessin2a' },
+    explore: { component: C10_MathematicsTrigonometricIdentitiessin2aSim, prompt: 'Explore the interactive — Trigonometric Ratios: sin, cos, tan in a Right Triangle' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_math_cbse_08_001', difficulty: 'standard',
           question: 'In a right-angled triangle, for an acute angle θ, the trigonometric ratios are.',

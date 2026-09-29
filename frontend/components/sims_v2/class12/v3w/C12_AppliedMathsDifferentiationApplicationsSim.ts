@@ -6,13 +6,13 @@ import C12_AppliedMathsDifferentiationApplicationsSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_appliedmathsdifferentiationapplicationssim: SimDef = {
     id: 'v3w_c12_appliedmathsdifferentiationapplicationssim',
-    title: 'Applied Maths Differentiation Applications',
+    title: 'Derivatives of Inverse Trigonometric Functions',
     subtitle: 'This node covers the derivation and application of derivatives of the six inverse.',
     classLevel: 12, subject: 'science', topic: 'Derivatives of Inverse Trigonometric Functions',
     chapters: [],
     nodeIds: ['c12_math_cbse_05_008', 'c12_math_cbse_05_011', 'c12_math_cbse_05_012', 'c12_math_cbse_05_013', 'c12_math_cbse_06_005', 'c12_math_cbse_07_008', 'c12_math_cbse_10_005', 'c12_math_cbse_06_001', 'c12_math_cbse_07_009', 'c12_math_cbse_07_010', 'c12_math_cbse_05_001', 'c12_math_cbse_05_002', 'c12_math_cbse_05_003', 'c12_math_cbse_05_004', 'c12_math_cbse_05_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are designing a roller coaster track where the banking angle \\( \\theta \\) at any point depends on.', goal: 'Master Applied Maths Differentiation Applications.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are designing a roller coaster track where the banking angle \\( \\theta \\) at any point depends on.', goal: 'Master Derivatives of Inverse Trigonometric Functions.' },
     discovery: {
         question: 'What is the mathematical definition of the second order derivative of a function \\(y = f(x)\\)? Write the notation used for it.',
         options: ['The second order derivative is the derivative of the first derivative:', 'square of first derivative', 'derivative of \\(y\\) with respect to \\(x^2\\)'],
@@ -80,7 +80,7 @@ export const w_c12_appliedmathsdifferentiationapplicationssim: SimDef = {
             { text: 'Directly differentiate \\( v(x) = 3x^2 - 2x \\) to get \\( v\'(x) = 6x - 2 \\), which matches \\( a(x) \\).', faded: true, blankAnswer: '\\( v(x) = 3x^2 - 2x \\) m/s; acceleration at time \\( x \\) is.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_05_011', title: 'Identify each idea',
-          dissect: { specimen: 'Applied Maths Differentiation Applications', spots: [
+          dissect: { specimen: 'Derivatives of Inverse Trigonometric Functions', spots: [
             { id: 's1', label: 'The derivative of an inverse', prompt: 'Which idea is this? — The derivative of an inverse trigonometric function \\( y = \\sin^{-1}x \\), \\( \\cos^{-1}x.', answer: 'The derivative of an inverse', options: ['The derivative of an inverse', 'The second order derivative of', 'Rolles Theorem states that if', 'The Mean Value Theorem MVT'] },
             { id: 's2', label: 'The second order derivative of', prompt: 'Which idea is this? — The second order derivative of a function \\(y = f(x)\\) is the derivative of its first.', answer: 'The second order derivative of', options: ['The second order derivative of', 'The derivative of an inverse', 'Rolles Theorem states that if', 'The Mean Value Theorem MVT'] },
             { id: 's3', label: 'Rolles Theorem states that if', prompt: 'Which idea is this? — Rolle\'s Theorem states that if a real-valued function f is continuous on the closed.', answer: 'Rolles Theorem states that if', options: ['Rolles Theorem states that if', 'The derivative of an inverse', 'The second order derivative of', 'The Mean Value Theorem MVT'] },
@@ -89,7 +89,7 @@ export const w_c12_appliedmathsdifferentiationapplicationssim: SimDef = {
             { id: 's6', label: 'The Fundamental Theorem of Calculus', prompt: 'Which idea is this? — The Fundamental Theorem of Calculus (Part 1) states that if \\( f \\) is a continuous.', answer: 'The Fundamental Theorem of Calculus', options: ['The Fundamental Theorem of Calculus', 'The derivative of an inverse', 'The second order derivative of', 'Rolles Theorem states that if'] }
           ] } }
     ],
-    explore: { component: C12_AppliedMathsDifferentiationApplicationsSim, prompt: 'Explore the interactive — Applied Maths Differentiation Applications' },
+    explore: { component: C12_AppliedMathsDifferentiationApplicationsSim, prompt: 'Explore the interactive — Derivatives of Inverse Trigonometric Functions' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_05_008', difficulty: 'standard',
           question: 'The derivative of an inverse trigonometric function \\( y = \\sin^{-1}x \\), \\(.',

@@ -19,7 +19,7 @@ export const c12_eng_f_ch11_p3: SimDef = {
         hook: 'The poem is an argument, not a mood: proposal → consequence → evidence → clarification. Fishermen harming themselves, \'wars with gas, wars with fire,\' a \'victory with no survivors\' — the images are evidence that activity without introspection is the real danger.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in poetry analysis involves systematically examining a poem\'s structural elements, literary devices, and thematic layers to construct an evidence-based interpretation of its.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Keeping Quiet\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_11_013', title: 'Your mission',
@@ -29,21 +29,21 @@ export const c12_eng_f_ch11_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re asked: "Why does Keats call beauty \'an endless fountain of immortal drink\' instead of just saying \'beauty lasts forever\'?" Start by reading the.',
+          caseStudy: { intro: 'Analyse \'Keeping Quiet\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the rhyme scheme of the excerpt from "A Thing of Beauty" provided in the NCERT textbook, and how many rhyming couplets does.', options: [
                 { text: 'The rhyme scheme is AABBCCDDEEFF (six rhyming couplets: forever/never, keep/sleep,', outcome: 'The rhyme scheme is AABBCCDDEEFF (six rhyming couplets: forever/never, keep/sleep, earth/mirth.' },
                 { text: 'alternate rhyme ABAB', outcome: 'Not quite — Students consistently treat "A Thing of Beauty" as a simple catalogue of pretty nature images (sun.', reveals: 'students-consistently-treat-a-thing' },
                 { text: 'Keeping Quiet', outcome: 'Not quite — Students consistently treat "A Thing of Beauty" as a simple catalogue of pretty nature images (sun.', reveals: 'students-consistently-treat-a-thing' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall and the question reads: *"How does Neruda use the image of \'counting up to twelve\' to convey the poem\'s central message?"* You.',
+          caseStudy: { intro: 'For written answers on \'Keeping Quiet\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing analytical paragraphs for literature?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explanation, Line', outcome: 'Not quite — Students believe that writing a "good answer" means paraphrasing the poem line-by-line or listing.', reveals: 'writing-a-good-answer-means' },
                 { text: 'good answer', outcome: 'Not quite — Students believe that writing a "good answer" means paraphrasing the poem line-by-line or listing.', reveals: 'writing-a-good-answer-means' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a college admission interview or a CUET group discussion where the panel asks: "Keats says beauty never passes into nothingness — do you.',
+          caseStudy: { intro: 'Talk through \'Keeping Quiet\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of preparing discussion points before a group discussion on a poem like "A Thing of Beauty"?', options: [
                 { text: 'The primary purpose is to organize textual evidence (specific lines/images) around key', outcome: 'The primary purpose is to organize textual evidence (specific lines/images) around key themes.' },
                 { text: 'to memorize the poem', outcome: 'Not quite — Students think "discussion points" means writing a summary of the poem to read aloud.', reveals: 'discussion-points-means-writing-a' },
@@ -68,12 +68,12 @@ export const c12_eng_f_ch11_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_013', difficulty: 'standard',
-          question: 'Critical thinking in poetry analysis involves systematically examining a poem\'s.',
+          question: 'Critical thinking on \'Keeping Quiet\' — analysing the text to reach.',
           hint: 'If stuck, return to c12_eng_f_cbse_11_008 and re-do the "identify the metaphor and.',
           misconception: 'Students consistently treat "A Thing of Beauty" as a simple catalogue of pretty nature images (sun, moon, flowers.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in poetry analysis involves systematically examining a poem\'s',
-                  options: ['Critical thinking in poetry analysis involves systematically examining a poem\'s', '"Before You Read: Context and Background" provides the essential biographical,', 'Plot and Narrative Structure in a poem refers to the organization of ideas, images, and', 'In poetry, **setting** refers to the time, place, and social context in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'Keeping Quiet\'',
+                  options: ['Critical thinking on \'Keeping Quiet\'', '\'Keeping Quiet\' (Flamingo, ch', 'The plot/narrative arc of \'Keeping Quiet\'', 'The setting of \'Keeping Quiet\''],
                   hint: 'If stuck, return to c12_eng_f_cbse_11_008 and re-do the "identify the metaphor and explain its.',
                   misconception: 'Students consistently treat "A Thing of Beauty" as a simple catalogue of pretty nature images (sun, moon, flowers, streams) and write.' }
           ],
@@ -90,7 +90,7 @@ export const c12_eng_f_ch11_p3: SimDef = {
           ],
             remediations: { 'students-consistently-treat-a-thing': { steps: ['Have the student reread only lines 5–12 ("Therefore, on every morrow...', 'Ask them to rewrite the "Think it out" Q4 answer using the sentence frame: "Keats says we love life because beauty.', 'Assign a micro-comparison: contrast this poem\'s "beauty as survival mechanism" with the "beauty as momentary joy".', 'Re-diagnose with a fresh "Apply" question: "How would Keats respond to the statement \'Beauty is a luxury for people who.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter "Keeping Quiet" refers to the ability.',
+          question: 'Writing skills from \'Keeping Quiet\' — using the text as a model or springboard.',
           hint: 'If stuck, revisit c12_eng_f_cbse_11_008 (Imagery/Metaphor) and c12_eng_f_cbse_11_006.',
           misconception: 'Students believe that writing a "good answer" means paraphrasing the poem line-by-line or listing all poetic devices.',
           parts: [
@@ -101,7 +101,7 @@ export const c12_eng_f_ch11_p3: SimDef = {
           ],
             remediations: { 'writing-a-good-answer-means': { steps: ['If a student submits a narrative summary instead of analysis: (1) Have them highlight every sentence in their answer.', '(2) Identify missing components (usually Explanation and Link).', '(3) Give them a model PEEL paragraph on the same topic; ask them to color-code it.', '(4) Assign a re-write of their original answer using the model\'s structure.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points for "A Thing of Beauty" refers to the.',
+          question: 'Discussion points on \'Keeping Quiet\' — speaking and listening around the text.',
           hint: 'If stuck, revisit c12_eng_f_cbse_11_013 (Critical Thinking) and re-do the "Think it out".',
           misconception: 'Students think "discussion points" means writing a summary of the poem to read aloud.',
           parts: [

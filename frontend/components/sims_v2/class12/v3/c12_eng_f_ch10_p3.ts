@@ -19,7 +19,7 @@ export const c12_eng_f_ch10_p3: SimDef = {
         hook: 'This isn\'t a sad poem about poor kids — it\'s an indictment of a system that uses education to reinforce the class wall. \'History is theirs whose language is the sun\': control language and you control who gets written into history. Sentimental pity is the reading the poem rejects.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining a text beyond its literal meaning to evaluate its themes, structure, literary devices, and underlying philosophy, forming an independent.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'An Elementary School Classroom in a Slum\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_10_013', title: 'Your mission',
@@ -29,21 +29,21 @@ export const c12_eng_f_ch10_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_10_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are sitting in a noisy classroom during a free period — everyone talking, phones buzzing, chairs scraping.',
+          caseStudy: { intro: 'Analyse \'An Elementary School Classroom in a Slum\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the literal meaning of the phrase "to have no truck with" as used in the poem, and which line contains it?', options: [
                 { text: 'The phrase "to have no truck with" means to refuse to associate with, tolerate, or have', outcome: 'The phrase "to have no truck with" means to refuse to associate with, tolerate, or have dealings.' },
                 { text: 'I want no truck with death', outcome: 'Not quite — Students consistently interpret "keeping quiet" as a call for passive withdrawal, escapism,.', reveals: 'students-consistently-interpret-keeping-quiet' },
                 { text: 'to have no vehicle', outcome: 'Not quite — Students consistently interpret "keeping quiet" as a call for passive withdrawal, escapism,.', reveals: 'students-consistently-interpret-keeping-quiet' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_10_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are given a CBSE board question: "Write an article in 120-150 words on \'Education: The Only Hope for Slum Children\' based on the poem \'An.',
+          caseStudy: { intro: 'For written answers on \'An Elementary School Classroom in a Slum\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the primary purpose of using textual evidence from the poem in a writing task based on the chapter?', options: [
                 { text: 'The primary purpose is to substantiate the writer\'s argument or analysis with concrete', outcome: 'The primary purpose is to substantiate the writer\'s argument or analysis with concrete proof from.' },
                 { text: 'to show the examiner I read the poem', outcome: 'Not quite — Students believe that "writing based on the chapter" means writing a summary or character sketch.', reveals: 'writing-based-on-the-chapter' },
                 { text: 'to fill the word count', outcome: 'Not quite — Students believe that "writing based on the chapter" means writing a summary or character sketch.', reveals: 'writing-based-on-the-chapter' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_10_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a literature circle where everyone has read the poem but interpretations differ: one student sees hope in the "map" while another sees irony.',
+          caseStudy: { intro: 'Talk through \'An Elementary School Classroom in a Slum\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of a structured literary discussion in a Class 12 English classroom?', options: [
                 { text: 'The primary purpose is to collaboratively analyze the text by sharing interpretations', outcome: 'The primary purpose is to collaboratively analyze the text by sharing interpretations grounded.' },
                 { text: 'to share personal feelings about the poem', outcome: 'Not quite — Students treat literary discussion as a "share your feelings" circle, offering personal reactions.', reveals: 'students-treat-literary-discussion-as' }
@@ -67,12 +67,12 @@ export const c12_eng_f_ch10_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_10_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining a text beyond its.',
+          question: 'Critical thinking on \'An Elementary School Classroom in a Slum\' — analysing the.',
           hint: 'If stuck, revisit the "Think it out" questions in the NCERT text and map each to.',
           misconception: 'Students consistently interpret "keeping quiet" as a call for passive withdrawal, escapism, or death-like stillness.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis involves examining a text beyond its literal',
-                  options: ['Critical thinking in literary analysis involves examining a text beyond its literal', 'This node provides the historical, social, and biographical context necessary to', 'For a poem, plot and narrative structure refers to the organization of ideas, images, and', 'Setting in poetry refers to the time, place, and physical environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'An Elementary School Classroom in a Slum\'',
+                  options: ['Critical thinking on \'An Elementary School Classroom in a Slum\'', '\'An Elementary School Classroom in a Slum\' (Flamingo, ch', 'The plot/narrative arc of \'An Elementary School Classroom in a Slum\'', 'The setting of \'An Elementary School Classroom in a Slum\''],
                   hint: 'If stuck, revisit the "Think it out" questions in the NCERT text and map each to a specific stanza.',
                   misconception: 'Students consistently interpret "keeping quiet" as a call for passive withdrawal, escapism, or death-like stillness — writing answers like.' }
           ],
@@ -89,7 +89,7 @@ export const c12_eng_f_ch10_p3: SimDef = {
           ],
             remediations: { 'students-consistently-interpret-keeping-quiet': { steps: ['Have the student re-read **only stanzas 4 and 5** aloud, circling every word that signals *life, action, or future*.', 'Ask: "If the poet wanted death, why does he count *up* to twelve and then *leave*?" — forcing them to see the poem as.', 'Assign a 50-word micro-essay: "Explain how \'keeping quiet\' is an *act of resistance* against the \'sadness of never.', 'Re-diagnose with Diagnostic Question 2; if the confusion persists, revisit **c12_eng_f_cbse_10_006 (Primary Theme)**.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_10_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter "An Elementary School Classroom in a Slum".',
+          question: 'Writing skills from \'An Elementary School Classroom in a Slum\' — using the text.',
           hint: 'If stuck, revisit c12_eng_f_cbse_10_008 (Literary Devices: Imagery and Metaphor).',
           misconception: 'Students believe that "writing based on the chapter" means writing a summary or character sketch of the poem\'s.',
           parts: [
@@ -104,12 +104,12 @@ export const c12_eng_f_ch10_p3: SimDef = {
           ],
             remediations: { 'writing-based-on-the-chapter': { steps: ['If a student produces a summary instead of an argument-driven piece: (1) Have them highlight every sentence in their.', 'every sentence that makes a claim about a real-world issue (green).', '(2) Delete all yellow sentences.', '(3) For each green claim, insert one specific poem detail as evidence using the "Quote Sandwich" method: Context.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_10_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured practice.',
+          question: 'Discussion points on \'An Elementary School Classroom in a Slum\' — speaking and.',
           hint: 'Revisit c12_eng_f_cbse_10_008 (Imagery and Metaphor) and practice the "Metaphor →.',
           misconception: 'Students treat literary discussion as a "share your feelings" circle, offering personal reactions ("It\'s sad," "I hate.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to the structured practice of',
-                  options: ['Speaking and Listening: Discussion Points refers to the structured practice of', 'This node provides the historical, social, and biographical context necessary to', 'For a poem, plot and narrative structure refers to the organization of ideas, images, and', 'Setting in poetry refers to the time, place, and physical environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'An Elementary School Classroom in a Slum\'',
+                  options: ['Discussion points on \'An Elementary School Classroom in a Slum\'', '\'An Elementary School Classroom in a Slum\' (Flamingo, ch', 'The plot/narrative arc of \'An Elementary School Classroom in a Slum\'', 'The setting of \'An Elementary School Classroom in a Slum\''],
                   hint: 'Revisit c12_eng_f_cbse_10_008 (Imagery and Metaphor) and practice the "Metaphor → Connotation →.',
                   misconception: 'Students treat literary discussion as a "share your feelings" circle, offering personal reactions ("It\'s sad," "I hate inequality") without.' }
           ],

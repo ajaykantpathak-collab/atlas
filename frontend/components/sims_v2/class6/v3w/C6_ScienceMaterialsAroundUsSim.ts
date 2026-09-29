@@ -6,13 +6,13 @@ import C6_ScienceMaterialsAroundUsSim from '../../../simulations/c6_12/C6_Scienc
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_sciencematerialsaroundussim: SimDef = {
     id: 'v3w_c6_sciencematerialsaroundussim',
-    title: 'Materials Around Us',
+    title: 'Light Travels in Straight Lines',
     subtitle: 'This node covers the rectilinear propagation of light (light travels in straight lines).',
     classLevel: 6, subject: 'science', topic: 'Light Travels in Straight Lines',
     chapters: [],
     nodeIds: ['c6_physics_ch11_036', 'c6_physics_ch11_035', 'c6_physics_ch12_045', 'c6_physics_ch12_046', 'c6_physics_ch12_047', 'c6_physics_ch11_037', 'c6_physics_ch01_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever tried to look at a light bulb through a garden hose?', goal: 'Master Materials Around Us.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever tried to look at a light bulb through a garden hose?', goal: 'Master Light Travels in Straight Lines.' },
     discovery: {
         question: 'A light source is placed in front of a circular ball. If the ball is moved closer to the wall behind it, what happens to the size of the shadow?',
         options: ['The shadow size decreases (or becomes sharper)', 'of blocked light rays', 'light "fills" a room like water fills a bucket, assuming it can go anywhere'],
@@ -59,7 +59,7 @@ export const w_c6_sciencematerialsaroundussim: SimDef = {
                 { text: 'if they can see *any* light through an object, it must be transparent', outcome: 'Not quite — Students often think that if they can see *any* light through an object, it must be transparent.', reveals: 'if-they-can-see-any' }
             ] }] } }
     ],
-    explore: { component: C6_ScienceMaterialsAroundUsSim, prompt: 'Explore the interactive — Materials Around Us' },
+    explore: { component: C6_ScienceMaterialsAroundUsSim, prompt: 'Explore the interactive — Light Travels in Straight Lines' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_physics_ch11_036', difficulty: 'standard',
           question: 'Light is a form of energy that travels in a straight line, known as rectilinear.',

@@ -19,7 +19,7 @@ export const c11_eng_h_ch05_p1: SimDef = {
         hook: 'Two \'greens,\' opposite directions — one fed the world quickly, the other asked what that feeding cost the planet.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a pre-reading pedagogical section that activates prior knowledge, introduces the historical and cultural context of the Green Movement (1972 onward), and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Adventure\' (Hornbill, ch. 5) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_05_001', title: 'Your mission',
@@ -29,33 +29,33 @@ export const c11_eng_h_ch05_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_05_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are a doctor examining a patient who says, "I feel fine," but their blood tests show organ failure.',
+          caseStudy: { intro: 'Start with the author of \'The Adventure\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'What was the primary outcome of the 1972 United Nations Conference on the Human Environment in Stockholm that gave birth to the modern.', options: [
                 { text: 'The Stockholm Conference produced the Stockholm Declaration (26 principles) and an Action', outcome: 'The Stockholm Conference produced the Stockholm Declaration (26 principles) and an Action Plan.' },
                 { text: 'It banned CFCs', outcome: 'Not quite — Students conflate the "Green Movement" (a socio-political movement from 1972 onward) with the.', reveals: 'students-conflate-the-green-movement' },
                 { text: 'It created the IPCC', outcome: 'Not quite — Students conflate the "Green Movement" (a socio-political movement from 1972 onward) with the.', reveals: 'students-conflate-the-green-movement' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_05_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re watching a movie that suddenly cuts to a "what-if" version of history where the Marathas won at Panipat — that\'s exactly what "The Adventure".',
+          caseStudy: { intro: 'Trace \'The Adventure\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the narrative function of the frame story (Gaitonde telling Rajendra about his experience) in "The Adventure"?', options: [
                 { text: 'The frame story provides a realistic anchor for the fantastical alternate-history', outcome: 'The frame story provides a realistic anchor for the fantastical alternate-history episode.' },
                 { text: 'introduction/conclusion', outcome: 'Not quite — Students consistently misread the two worlds as "time travel to the past" rather than "parallel.', reveals: 'students-consistently-misread-the-two' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_05_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you step onto a train at Pune station expecting to reach familiar Mumbai, but the station signs read "Victoria Terminus" and the Union Jack flies.',
+          caseStudy: { intro: 'Identify where and when \'The Adventure\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'Identify the very first setting introduced in "The Adventure" and state the temporal clue that tells the reader the journey is happening.', options: [
                 { text: 'The opening setting is the Jijamata Express speeding along the Pune-Bombay route', outcome: 'The opening setting is the Jijamata Express speeding along the Pune-Bombay route; the temporal clue.' },
                 { text: 'Victoria Terminus', outcome: 'Not quite — Students often treat setting as a static list of places ("train, station, library") and atmosphere.', reveals: 'students-often-treat-setting-as' },
                 { text: 'Battle of Panipat', outcome: 'Not quite — Students often treat setting as a static list of places ("train, station, library") and atmosphere.', reveals: 'students-often-treat-setting-as' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_05_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are a detective trying to understand why Professor Gaitonde, a rational historian, ends up occupying an empty presidential chair at a public.',
+          caseStudy: { intro: 'Pick the central figure in \'The Adventure\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the profession of Professor Gaitonde, and how does it influence his approach to the strange world he finds himself in?', options: [
                 { text: 'Professor Gaitonde is a historian', outcome: 'Professor Gaitonde is a historian. His professional training makes him seek empirical evidence.' },
                 { text: 'he is a scientist', outcome: 'Not quite — Students often confuse Professor Gaitonde with Rajendra Deshpande, treating Rajendra as the.', reveals: 'students-often-confuse-professor-gaitonde' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_05_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re watching a cricket match where a single dropped catch changes the entire tournament outcome — that\'s the "what if" question Professor Gaitonde.',
+          caseStudy: { intro: 'Ask what \'The Adventure\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the precise primary theme of "The Adventure" expressed as a complete thematic statement (not a single word or phrase)?', options: [
                 { text: 'The primary theme: "Historical reality is not a single fixed timeline but a branching', outcome: 'The primary theme: "Historical reality is not a single fixed timeline but a branching multiverse.' },
                 { text: 'A wrong answer like', outcome: 'Not quite — Students conflate "alternate history" (genre) with the primary theme, writing "The theme.', reveals: 'students-conflate-alternate-history-genre' },
@@ -80,7 +80,7 @@ export const c11_eng_h_ch05_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a pre-reading pedagogical section.',
+          question: '\'The Adventure\' (Hornbill, ch. 5) — the context and background to this text.',
           hint: 'Review Class 10 Geography Chapter 4, specifically the subsection "Negative Consequences.',
           misconception: 'Students conflate the "Green Movement" (a socio-political movement from 1972 onward) with the "Green Revolution" (1960s.',
           parts: [
@@ -91,7 +91,7 @@ export const c11_eng_h_ch05_p1: SimDef = {
           ],
             remediations: { 'students-conflate-the-green-movement': { steps: ['Show a 2-column table: "Green Revolution" (Norman Borlaug, HYV seeds, fertilizers, Punjab, 1960s, food security) vs.', '"Green Movement" (Stockholm 1972, Chipko 1973, UNEP, sustainable development, planetary health).', 'Ask: "Which one does Palkhivala support?" Guide to text evidence: he warns against "fertilizer-induced salinity" —.', 'Assign a 3-minute writing: "One sentence distinguishing the two using the words \'yield\' and \'sustainability\'." 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_002', difficulty: 'standard',
-          question: 'Plot and narrative structure refers to the organized sequence of events in.',
+          question: 'The plot/narrative arc of \'The Adventure\' — what happens, in what order, and.',
           hint: 'If stuck, review "The Midnight Visitor" (c10_engl_cbse_12_008) — map its exposition.',
           misconception: 'Students consistently misread the two worlds as "time travel to the past" rather than "parallel present." They think.',
           parts: [
@@ -102,7 +102,7 @@ export const c11_eng_h_ch05_p1: SimDef = {
           ],
             remediations: { 'students-consistently-misread-the-two': { steps: ['Have the student locate and read aloud the exact lines where Rajendra says "You neither travelled to the past nor the.', 'Draw a timeline: mark 1761 (Panipat) as bifurcation point, then two parallel arrows forward to "present day" — one.', 'Ask: "In which world does Gaitonde take the Jijamata Express?" (Alternate).', '"In which world does he talk to Rajendra?" (Our World).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social-historical context in which.',
+          question: 'The setting of \'The Adventure\' — the place, time and atmosphere the text.',
           hint: 'If confused about which details belong to which timeline, re-read the train journey.',
           misconception: 'Students often treat setting as a static list of places ("train, station, library") and atmosphere as a single.',
           parts: [
@@ -113,7 +113,7 @@ export const c11_eng_h_ch05_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-setting-as': { steps: ['Have the student draw a two-column table: Column A = each physical setting in chronological order; Column B = three.', 'Ask them to highlight which column-B words change dramatically between library and maidan.', 'Guide them to write one PEEL paragraph linking that change to the theme "history is contingent." 4.', 'Verify they use textual phrases ("magnificent hall," "shower of tomatoes") as Evidence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the central.',
+          question: 'Character analysis in \'The Adventure\' — the central figure(s), their traits.',
           hint: 'If stuck, review the "Character Analysis: The Grandmother (Krishtakka)" (c9_engl_ch1_2).',
           misconception: 'Students often confuse Professor Gaitonde with Rajendra Deshpande, treating Rajendra as the protagonist because.',
           parts: [
@@ -124,18 +124,18 @@ export const c11_eng_h_ch05_p1: SimDef = {
           ],
             remediations: { 'students-often-confuse-professor-gaitonde': { steps: ['Re-read the final conversation (pages 50-52) where Rajendra explicitly distinguishes between time travel and world.', 'Create a two-column table: "Time Travel Expectations" vs.', '"Textual Evidence for World Transition".', 'Identify three moments where Gaitonde\'s actions (e.g., checking the library catalogue, noting the Union Jack.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves examining the traits.',
+          question: 'Supporting characters in \'The Adventure\' — the secondary figures who move the.',
           hint: 'Review the protagonist analysis (c11_eng_h_cbse_05_004) and the plot summary.',
           misconception: 'Students often confuse supporting characters with background characters (like the Anglo-Indian ticket checker).',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of supporting characters involves examining the traits, roles, and',
-                  options: ['Character analysis of supporting characters involves examining the traits, roles, and', '"Before You Read: Context and Background" is a pre-reading pedagogical section that', 'Plot and narrative structure refers to the organized sequence of events in a story and', 'Setting refers to the time, place, and social-historical context in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in \'The Adventure\'',
+                  options: ['Supporting characters in \'The Adventure\'', '\'The Adventure\' (Hornbill, ch', 'The plot/narrative arc of \'The Adventure\'', 'The setting of \'The Adventure\''],
                   hint: 'Review the protagonist analysis (c11_eng_h_cbse_05_004) and the plot summary.',
                   misconception: 'Students often confuse supporting characters with background characters (like the Anglo-Indian ticket checker) or historical figures.' }
           ],
             remediations: { 'students-often-confuse-supporting-characters': { steps: ['If a student cannot distinguish supporting characters, guide them to list every named character who directly speaks.', 'Then, for each, ask: "Does this character help Gaitonde understand his situation or move the plot forward?" Use.', 'This visual separation clarifies roles.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
+          question: 'The primary theme of \'The Adventure\' — the central idea the whole text returns.',
           hint: 'Review c11_eng_h_cbse_05_002 (Plot) focusing on the dual-timeline structure — draw.',
           misconception: 'Students conflate "alternate history" (genre) with the primary theme, writing "The theme is alternate history" or "The.',
           parts: [

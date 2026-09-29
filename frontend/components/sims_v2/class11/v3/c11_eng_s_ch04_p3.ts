@@ -19,30 +19,30 @@ export const c11_eng_s_ch04_p3: SimDef = {
         hook: 'The delivery creates a crisis instead of ending one — climax is the turn, not the title event.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the advanced literary skill of examining a text\'s deeper layers—such as authorial intent, narrative perspective, thematic complexity, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Birth\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_s_cbse_04_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Map injection, resuscitation, first cry and the dawn walk onto the arc, and defend an ending that skips the mother\'s recovery.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_04_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a doctor like Andrew, exhausted after a 3-hour delivery where the baby appears stillborn—your textbooks say "stop," but something inside says.',
+          caseStudy: { intro: 'Analyse \'Birth\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'Define "narrative perspective" in the context of "Birth" and identify whose consciousness the reader primarily accesses during the.', options: [
                 { text: 'Narrative perspective refers to the vantage point from', outcome: 'Narrative perspective refers to the vantage point from which the story is told; in "Birth," the.' },
                 { text: 'omniscient narrator', outcome: 'Not quite — Students often treat "critical analysis" as hunting for *hidden symbols* (e.g., "the oil lamp.', reveals: 'students-often-treat-critical-analysis' },
                 { text: 'the midwife\'s view', outcome: 'Not quite — Students often treat "critical analysis" as hunting for *hidden symbols* (e.g., "the oil lamp.', reveals: 'students-often-treat-critical-analysis' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_04_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you just witnessed Andrew Manson revive a lifeless baby in that cramped Welsh bedroom — the kettle boiling, the midwife whimpering, the old grandmother.',
+          caseStudy: { intro: 'For written answers on \'Birth\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing structured answers for literature?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explanation, Line', outcome: 'Not quite — Students believe writing a character sketch means listing adjectives (brave, kind, tired) with.', reveals: 'writing-a-character-sketch-means' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_04_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are Andrew Manson standing in that scullery at dawn, telling Joe Morgan "Both all right." What makes that moment "real" compared to your medical.',
+          caseStudy: { intro: 'Talk through \'Birth\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the three discussion questions explicitly given at the end of the chapter "Birth" in the NCERT textbook?', options: [
                 { text: 'The three questions are: (1) "I have done something', outcome: 'The three questions are: (1) "I have done something; oh, God! I\'ve done something real at last.".' },
                 { text: 'themes instead of questions', outcome: 'Not quite — Students often treat "discussion points" as a Q&A session where each person answers the question.', reveals: 'students-often-treat-discussion-points' }
@@ -61,12 +61,12 @@ export const c11_eng_s_ch04_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_04_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the advanced literary skill.',
+          question: 'Critical thinking on \'Birth\' — analysing the text to reach evidence-based.',
           hint: 'Review "narrative perspective" in c11_eng_s_cbse_04_002 and practice marking "Andrew\'s.',
           misconception: 'Students often treat "critical analysis" as hunting for *hidden symbols* (e.g., "the oil lamp = hope") rather than.',
           parts: [
@@ -75,9 +75,9 @@ export const c11_eng_s_ch04_p3: SimDef = {
                   hint: 'Review "narrative perspective" in c11_eng_s_cbse_04_002 and practice marking "Andrew\'s lens" vs.',
                   misconception: 'Students often treat "critical analysis" as hunting for *hidden symbols* (e.g., "the oil lamp = hope") rather than examining *how the text.' }
           ],
-            remediations: { 'students-often-treat-critical-analysis': { steps: ['**Re-anchor in evidence**: Have the student highlight *only* sentences describing Andrew\'s physical sensations during.', '**Map sensation to emotion**: For each sensation, ask "What is he feeling *in that second*?" building a two-column.', '**Synthesize**: Show how the *sequence* of sensations (numbness → frenzy → tactile confirmation of life) *is* the.', '**Practice**: Assign a 150-word analysis of one paragraph using the "sensation → emotion → meaning" chain.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-critical-analysis': { steps: ['**Re-anchor in evidence**: Have the student highlight *only* sentences describing Andrew\'s physical sensations during.', '**Map sensation to emotion**: For each sensation, ask "What is he feeling *in that second*?" building a two-column.', '**Synthesize**: Show how the *sequence* of sensations (numbness → frenzy → tactile confirmation of life) *is* the.', '**Practice**: Assign a 150-word analysis of one paragraph using the "sensation → emotion → meaning" chain.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_04_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter "Birth" refers to the ability to compose.',
+          question: 'Writing skills from \'Birth\' — using the text as a model or springboard for your.',
           hint: 'Review PEEL method using a simple non-literary example (e.g., "School uniforms should.',
           misconception: 'Students believe writing a character sketch means listing adjectives (brave, kind, tired) with one-line examples.',
           parts: [
@@ -86,9 +86,9 @@ export const c11_eng_s_ch04_p3: SimDef = {
                   hint: 'Review PEEL method using a simple non-literary example (e.g., "School uniforms should.',
                   misconception: 'Students believe writing a character sketch means listing adjectives (brave, kind, tired) with one-line examples.' }
           ],
-            remediations: { 'writing-a-character-sketch-means': { steps: ['Have the student highlight every action Andrew takes in the delivery scene (paras 10-15).', 'For each action, ask: "What trait does this show?" and "Which words prove it?" 3.', 'Co-construct one PEEL paragraph together: Point (trait), Evidence (quoted action), Explanation (why it matters), Link.', 'Assign a second trait for independent practice with the same scaffold.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-a-character-sketch-means': { steps: ['Have the student highlight every action Andrew takes in the delivery scene (paras 10-15).', 'For each action, ask: "What trait does this show?" and "Which words prove it?" 3.', 'Co-construct one PEEL paragraph together: Point (trait), Evidence (quoted action), Explanation (why it matters), Link.', 'Assign a second trait for independent practice with the same scaffold.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_04_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Birth\' — speaking and listening around the text.',
           hint: 'If stuck, review c11_eng_s_cbse_04_013 (Critical Thinking) and practice the.',
           misconception: 'Students often treat "discussion points" as a Q&A session where each person answers the question once and the.',
           parts: [
@@ -101,7 +101,7 @@ export const c11_eng_s_ch04_p3: SimDef = {
                   hint: 'If stuck, review c11_eng_s_cbse_04_013 (Critical Thinking) and practice the.',
                   misconception: 'Students often treat "discussion points" as a Q&A session where each person answers the question once and the discussion ends.' }
           ],
-            remediations: { 'students-often-treat-discussion-points': { steps: ['If a student gives only a single-sentence answer and stops, intervene with: "That\'s a claim.', 'Now, find the sentence in the story that *forces* you to think that.', 'Then ask the group: \'Does anyone read that sentence differently?\'" Model this by taking their claim, quoting the.', 'Require them to respond to at least one peer\'s interpretation before adding a new point.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-discussion-points': { steps: ['If a student gives only a single-sentence answer and stops, intervene with: "That\'s a claim.', 'Now, find the sentence in the story that *forces* you to think that.', 'Then ask the group: \'Does anyone read that sentence differently?\'" Model this by taking their claim, quoting the.', 'Require them to respond to at least one peer\'s interpretation before adding a new point.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

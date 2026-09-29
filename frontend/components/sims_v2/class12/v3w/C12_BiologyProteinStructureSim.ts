@@ -6,13 +6,13 @@ import C12_BiologyProteinStructureSim from '../../../simulations/three/C12_Biolo
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologyproteinstructuresim: SimDef = {
     id: 'v3w_c12_biologyproteinstructuresim',
-    title: 'Protein Structure',
+    title: 'Evidences: Biochemical and Molecular',
     subtitle: 'Covers biochemical/molecular evidences only: universal genetic code, protein/DNA sequence.',
     classLevel: 12, subject: 'biology', topic: 'Evidences: Biochemical and Molecular',
     chapters: [],
     nodeIds: ['c12_bio_cbse_07_004', 'c12_bio_cbse_11_008', 'c12_bio_cbse_11_002', 'c12_bio_cbse_06_001', 'c12_bio_cbse_06_003', 'c12_bio_cbse_06_006', 'c12_bio_cbse_06_007', 'c12_bio_cbse_06_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Start with a real-world observation: when you get a blood test, the lab uses human hemoglobin structure — but.', goal: 'Master Protein Structure.' },
+    scenario: { role: 'a class 12 learner', intro: 'Start with a real-world observation: when you get a blood test, the lab uses human hemoglobin structure — but.', goal: 'Master Evidences: Biochemical and Molecular.' },
     discovery: {
         question: 'Compare the separation mechanisms and predict the elution order for a mixture containing: Protein A (45 kDa, pI 9.0), Protein B (45 kDa, pI 5.0), Protein C.',
         options: ['(i) Cation-exchange pH 7.0: Protein A (pI 9.0 → net +) binds', 'SEC separates by molecular weight', 'purification = chromatography'],
@@ -79,7 +79,7 @@ export const w_c12_biologyproteinstructuresim: SimDef = {
             { text: 'Write the peptide: Met-Lys-Leu (N-terminal to C-terminal).', faded: true, blankAnswer: 'mRNA: 5\'-AUGAAGCUG-3\'; Codons: AUG (Met/Start), AAG (Lys),.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_11_008', title: 'Identify each idea',
-          dissect: { specimen: 'Protein Structure', spots: [
+          dissect: { specimen: 'Evidences: Biochemical and Molecular', spots: [
             { id: 's1', label: 'Biochemical and molecular evidences for', prompt: 'Which idea is this? — Biochemical and molecular evidences for evolution refer to the similarities in DNA.', answer: 'Biochemical and molecular evidences for', options: ['Biochemical and molecular evidences for', 'Downstream processing is the sequence', 'Restriction enzymes restriction endonucleases are', 'Griffiths experiment 1928 demonstrated bacterial'] },
             { id: 's2', label: 'Downstream processing is the sequence', prompt: 'Which idea is this? — Downstream processing is the sequence of unit operations used to isolate, purify, and.', answer: 'Downstream processing is the sequence', options: ['Downstream processing is the sequence', 'Biochemical and molecular evidences for', 'Restriction enzymes restriction endonucleases are', 'Griffiths experiment 1928 demonstrated bacterial'] },
             { id: 's3', label: 'Restriction enzymes restriction endonucleases are', prompt: 'Which idea is this? — Restriction enzymes (restriction endonucleases) are bacterial enzymes that recognize.', answer: 'Restriction enzymes restriction endonucleases are', options: ['Restriction enzymes restriction endonucleases are', 'Biochemical and molecular evidences for', 'Downstream processing is the sequence', 'Griffiths experiment 1928 demonstrated bacterial'] },
@@ -88,7 +88,7 @@ export const w_c12_biologyproteinstructuresim: SimDef = {
             { id: 's6', label: 'The genetic code is the', prompt: 'Which idea is this? — The genetic code is the set of rules by which information encoded in mRNA sequences.', answer: 'The genetic code is the', options: ['The genetic code is the', 'Biochemical and molecular evidences for', 'Downstream processing is the sequence', 'Restriction enzymes restriction endonucleases are'] }
           ] } }
     ],
-    explore: { component: C12_BiologyProteinStructureSim, prompt: 'Explore the interactive — Protein Structure' },
+    explore: { component: C12_BiologyProteinStructureSim, prompt: 'Explore the interactive — Evidences: Biochemical and Molecular' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_07_004', difficulty: 'standard',
           question: 'Biochemical and molecular evidences for evolution refer to the similarities in.',

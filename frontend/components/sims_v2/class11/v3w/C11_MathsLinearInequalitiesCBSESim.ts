@@ -6,13 +6,13 @@ import C11_MathsLinearInequalitiesCBSESim from '../../../simulations/c6_12_new/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathslinearinequalitiescbsesim: SimDef = {
     id: 'v3w_c11_mathslinearinequalitiescbsesim',
-    title: 'Linear Inequalities CBSE',
+    title: 'Linear Inequalities: Definition and Notation',
     subtitle: 'Covers definition, notation, and basic representation of linear inequalities in one.',
     classLevel: 11, subject: 'mathematics', topic: 'Linear Inequalities: Definition and Notation',
     chapters: [],
     nodeIds: ['c11_math_cbse_06_001', 'c11_math_cbse_06_002', 'c11_math_cbse_06_003', 'c11_math_cbse_06_004', 'c11_math_cbse_06_005', 'c11_math_cbse_06_006', 'c11_math_cbse_06_007', 'c11_math_cbse_02_008', 'c11_math_cbse_02_007', 'c11_math_cbse_02_012', 'c11_math_cbse_06_008', 'c11_math_cbse_02_009', 'c11_math_cbse_09_002', 'c11_math_cbse_09_004', 'c11_math_cbse_09_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you have ₹200 to buy notebooks costing ₹30 each and pens costing ₹10 each.', goal: 'Master Linear Inequalities CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you have ₹200 to buy notebooks costing ₹30 each and pens costing ₹10 each.', goal: 'Master Linear Inequalities: Definition and Notation.' },
     discovery: {
         question: 'Compare the graphical representations of 2x + 1 < 5 and 2x + 1 ≤ 5. What is the only difference between the two graphs? Why does this difference matter?',
         options: ['Both have boundary at x = 2 (solving gives x < 2 and x ≤ 2)', 'no difference', 'different arrow direction'],
@@ -81,7 +81,7 @@ export const w_c11_mathslinearinequalitiescbsesim: SimDef = {
             { text: 'Verify all corners satisfy all constraints. (0,0)✓, (25,0)✓, (0,20)✓, (20,10)✓.', faded: true, blankAnswer: 'Inequalities: 2x + y ≤ 50, x + 2y ≤ 40, x ≥ 0, y ≥ 0..' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_06_002', title: 'Identify each idea',
-          dissect: { specimen: 'Linear Inequalities CBSE', spots: [
+          dissect: { specimen: 'Linear Inequalities: Definition and Notation', spots: [
             { id: 's1', label: 'A linear inequality is a', prompt: 'Which idea is this? — A linear inequality is a mathematical statement that compares two algebraic expressions.', answer: 'A linear inequality is a', options: ['A linear inequality is a', 'The rules for solving linear', 'A linear inequality in one', 'The graphical solution of a'] },
             { id: 's2', label: 'The rules for solving linear', prompt: 'Which idea is this? — The rules for solving linear inequalities are algebraic properties that preserve the.', answer: 'The rules for solving linear', options: ['The rules for solving linear', 'A linear inequality is a', 'A linear inequality in one', 'The graphical solution of a'] },
             { id: 's3', label: 'A linear inequality in one', prompt: 'Which idea is this? — A linear inequality in one variable is an inequality that can be written in the form ax +.', answer: 'A linear inequality in one', options: ['A linear inequality in one', 'A linear inequality is a', 'The rules for solving linear', 'The graphical solution of a'] },
@@ -90,7 +90,7 @@ export const w_c11_mathslinearinequalitiescbsesim: SimDef = {
             { id: 's6', label: 'A linear inequality in two', prompt: 'Which idea is this? — A linear inequality in two variables is an inequality of the form ax + by < c, ax + by >.', answer: 'A linear inequality in two', options: ['A linear inequality in two', 'A linear inequality is a', 'The rules for solving linear', 'A linear inequality in one'] }
           ] } }
     ],
-    explore: { component: C11_MathsLinearInequalitiesCBSESim, prompt: 'Explore the interactive — Linear Inequalities CBSE' },
+    explore: { component: C11_MathsLinearInequalitiesCBSESim, prompt: 'Explore the interactive — Linear Inequalities: Definition and Notation' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_06_001', difficulty: 'standard',
           question: 'A linear inequality is a mathematical statement that compares two algebraic.',

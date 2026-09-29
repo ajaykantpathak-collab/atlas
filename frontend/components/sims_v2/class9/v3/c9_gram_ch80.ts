@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c9_gram_ch80: SimDef = {
     id: 'v3_c9_gram_ch80',
-    title: 'CBSE class 9 tests tense through gap-fills and.',
+    title: 'Tense Applications and Time Markers',
     subtitle: 'Covers the board-tested tense applications. Does NOT cover the full 12-cell theory (class.',
-    classLevel: 9, subject: 'gram', topic: 'CBSE class 9 tests tense through gap-fills and.',
+    classLevel: 9, subject: 'gram', topic: 'Tense Applications and Time Markers',
     chapters: ['c9_gram_ch80'],
     nodeIds: ['c9_gram_cbse_80_001', 'c9_gram_cbse_80_002', 'c9_gram_ch80_003', 'c9_gram_ch80_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

@@ -91,8 +91,8 @@ export const c11_bio_ch05_p2: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students think "fruit = anything sweet and edible" and classify strawberry as a berry, coconut as a nut, and apple as.',
           parts: [
-                { id: 'a', prompt: 'Design a simple observation-based activity to distinguish between a true fruit and a false fruit using locally available fruits (e.g., mango, apple, guava.', answer: 'Steps: (1) Collect mango, apple, guava, pear',
-                  options: ['Steps: (1) Collect mango, apple, guava, pear', 'fruit = anything sweet and edible'],
+                { id: 'a', prompt: 'Design a simple observation-based activity to distinguish between a true fruit and a false fruit using locally available fruits (e.g., mango, apple, guava.', answer: '(1) Collect mango, apple, guava, pear',
+                  options: ['(1) Collect mango, apple, guava, pear', 'fruit = anything sweet and edible'],
                   hint: 'Review c11_bio_cbse_05_006 (Gynoecium) for carpel types and c11_bio_cbse_05_005 (Flower) for.',
                   misconception: 'Students think "fruit = anything sweet and edible" and classify strawberry as a berry, coconut as a nut, and apple as a true fruit.' }
           ],

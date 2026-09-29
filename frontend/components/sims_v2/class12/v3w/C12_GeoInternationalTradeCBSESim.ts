@@ -6,13 +6,13 @@ import C12_GeoInternationalTradeCBSESim from '../../../simulations/c6_12_new/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_geointernationaltradecbsesim: SimDef = {
     id: 'v3w_c12_geointernationaltradecbsesim',
-    title: 'Geo International Trade CBSE',
+    title: 'International Trade: Definition, Basis and Importance',
     subtitle: 'This node covers the definition, basis (resource distribution, comparative advantage,.',
     classLevel: 12, subject: 'science', topic: 'International Trade: Definition, Basis and Importance',
     chapters: [],
     nodeIds: ['c12_geo_cbse_16_001', 'c12_geo_cbse_16_004', 'c12_geo_cbse_16_009', 'c12_geo_cbse_16_010', 'c12_geo_cbse_16_011', 'c12_geo_cbse_08_003', 'c12_geo_cbse_08_004', 'c12_geo_cbse_08_011', 'c12_geo_cbse_15_007', 'c12_geo_cbse_15_012', 'c12_geo_cbse_07_002', 'c12_geo_cbse_16_002', 'c12_geo_cbse_16_003', 'c12_geo_cbse_16_005', 'c12_geo_cbse_16_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: ask the student to check the label on their shirt, phone, or a packet of.', goal: 'Master Geo International Trade CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: ask the student to check the label on their shirt, phone, or a packet of.', goal: 'Master International Trade: Definition, Basis and Importance.' },
     discovery: {
         question: 'India\'s international trade was worth Rs. 1,214 crore in 1950-51 and Rs. 77,19,796 crore in 2020-21. Calculate the percentage growth.',
         options: ['Correct calculation: ((77,19,796 - 1,214) / 1,214) × 100 = 6,35,830.5% growth', 'globalisation', 'international trade'],
@@ -83,7 +83,7 @@ export const w_c12_geointernationaltradecbsesim: SimDef = {
             { text: 'Compare: Option B saves $712,500 (28% cheaper). Verify: barge+road cheaper than rail for this corridor due to low barge.', faded: true, blankAnswer: 'Option B (Kolkata + NW-1 barge + road) is cheaper at.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_geo_cbse_16_004', title: 'Identify each idea',
-          dissect: { specimen: 'Geo International Trade CBSE', spots: [
+          dissect: { specimen: 'International Trade: Definition, Basis and Importance', spots: [
             { id: 's1', label: 'International trade is the exchange', prompt: 'Which idea is this? — International trade is the exchange of goods, services, and capital across national.', answer: 'International trade is the exchange', options: ['International trade is the exchange', 'Direction of trade refers to', 'Air cargo routes in India', 'The World Trade Organization WTO'] },
             { id: 's2', label: 'Direction of trade refers to', prompt: 'Which idea is this? — Direction of trade refers to the geographical pattern of a country\'s international trade.', answer: 'Direction of trade refers to', options: ['Direction of trade refers to', 'International trade is the exchange', 'Air cargo routes in India', 'The World Trade Organization WTO'] },
             { id: 's3', label: 'Air cargo routes in India', prompt: 'Which idea is this? — Air cargo routes in India refer to the network of international and domestic airports.', answer: 'Air cargo routes in India', options: ['Air cargo routes in India', 'International trade is the exchange', 'Direction of trade refers to', 'The World Trade Organization WTO'] },
@@ -92,7 +92,7 @@ export const w_c12_geointernationaltradecbsesim: SimDef = {
             { id: 's6', label: 'Water transport refers to the', prompt: 'Which idea is this? — Water transport refers to the movement of goods and passengers over water bodies —.', answer: 'Water transport refers to the', options: ['Water transport refers to the', 'International trade is the exchange', 'Direction of trade refers to', 'Air cargo routes in India'] }
           ] } }
     ],
-    explore: { component: C12_GeoInternationalTradeCBSESim, prompt: 'Explore the interactive — Geo International Trade CBSE' },
+    explore: { component: C12_GeoInternationalTradeCBSESim, prompt: 'Explore the interactive — International Trade: Definition, Basis and Importance' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_16_001', difficulty: 'standard',
           question: 'International trade is the exchange of goods, services, and capital across.',

@@ -6,13 +6,13 @@ import C11_ComputerScienceJavaComplexProgramSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_computersciencejavacomplexprogramsim: SimDef = {
     id: 'v3w_c11_computersciencejavacomplexprogramsim',
-    title: 'Java Complex Program',
+    title: 'Data Types in Python: int, float, str, bool',
     subtitle: 'Covers the four built-in scalar types `int`, `float`, `str`, `bool` — their literal.',
     classLevel: 11, subject: 'computer_science', topic: 'Data Types in Python: int, float, str, bool',
     chapters: [],
     nodeIds: ['c11_cs_cbse_04_009', 'c11_cs_cbse_04_012', 'c11_cs_cbse_08_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are building a simple billing program for a kirana store.', goal: 'Master Java Complex Program.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are building a simple billing program for a kirana store.', goal: 'Master Data Types in Python: int, float, str, bool.' },
     discovery: {
         question: 'Consider the following recursive function: ```python def mystery(n): if n == 0: return 1 else: return n * mystery(n-1) ``` Explain in your own words what this.',
         options: ['This function computes the factorial of n (n!)', 'it computes the sum of numbers', 'base case should be n==1'],
@@ -52,13 +52,13 @@ export const w_c11_computersciencejavacomplexprogramsim: SimDef = {
             { text: 'Verify: 1+2+3+4 = 10. Correct.', faded: true, blankAnswer: 'sum_n(4) returns 10.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_cs_cbse_04_012', title: 'Identify each idea',
-          dissect: { specimen: 'Java Complex Program', spots: [
+          dissect: { specimen: 'Data Types in Python: int, float, str, bool', spots: [
             { id: 's1', label: 'In Python data types classify', prompt: 'Which idea is this? — In Python, data types classify the kind of value a variable holds, determining the.', answer: 'In Python data types classify', options: ['In Python data types classify', 'Type conversion in Python is', 'A recursive function is a'] },
             { id: 's2', label: 'Type conversion in Python is', prompt: 'Which idea is this? — Type conversion in Python is the process of converting a value from one data type to.', answer: 'Type conversion in Python is', options: ['Type conversion in Python is', 'In Python data types classify', 'A recursive function is a'] },
             { id: 's3', label: 'A recursive function is a', prompt: 'Which idea is this? — A recursive function is a function that solves a problem by calling itself with a smaller.', answer: 'A recursive function is a', options: ['A recursive function is a', 'In Python data types classify', 'Type conversion in Python is'] }
           ] } }
     ],
-    explore: { component: C11_ComputerScienceJavaComplexProgramSim, prompt: 'Explore the interactive — Java Complex Program' },
+    explore: { component: C11_ComputerScienceJavaComplexProgramSim, prompt: 'Explore the interactive — Data Types in Python: int, float, str, bool' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_cs_cbse_04_009', difficulty: 'standard',
           question: 'In Python, data types classify the kind of value a variable holds, determining.',

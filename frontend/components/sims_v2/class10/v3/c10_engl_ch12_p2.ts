@@ -19,7 +19,7 @@ export const c10_engl_ch12_p2: SimDef = {
         hook: 'Ausable\'s weapon wasn\'t a gun — it was a believable lie told calmly. The story argues presence of mind beats physical strength and spy-movie glamour.',
     },
     teaching: [
-        { title: 'Character Analysis: Ausable\'s Intelligence vs Max\'s Gullibility', text: 'Character analysis in this context is the systematic examination of how Ausable\'s intelligence (demonstrated through quick thinking, psychological manipulation, and situational awareness) contrasts.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Character Analysis: Ausable\'s Intelligence vs Max\'s Gullibility', text: 'From \'English chapter c10_engl_cbse_12\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c10_engl_cbse_12_007', title: 'Your mission',
@@ -61,7 +61,7 @@ export const c10_engl_ch12_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_engl_cbse_12_007', difficulty: 'standard',
-          question: 'Character analysis in this context is the systematic examination of how.',
+          question: 'From \'English chapter c10_engl_cbse_12\': the skill or concept this node.',
           hint: 'If stuck, review c9_engl_ch1_2 (Grandmother analysis) for PEEL structure and.',
           misconception: 'Students think "character analysis" means listing adjectives: "Ausable is smart, Max is foolish." In board exams, this.',
           parts: [

@@ -6,13 +6,13 @@ import C6_MathematicsTheOtherSideOfZeroSim from '../../../simulations/c6_12/C6_M
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_mathematicstheothersideofzerosim: SimDef = {
     id: 'v3w_c6_mathematicstheothersideofzerosim',
-    title: 'The Other Side Of Zero',
+    title: 'Introduction to Integers',
     subtitle: 'This node covers the definition of integers, their representation on a number line, and.',
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Integers',
     chapters: [],
     nodeIds: ['c6_math_ch02_016', 'c6_math_ch07_073', 'c6_math_ch07_078', 'c6_math_ch07_083', 'c6_math_ch11_113', 'c6_math_ch10_105', 'c6_math_ch02_017', 'c6_math_ch02_018', 'c6_math_ch02_019', 'c6_math_ch02_020', 'c6_math_ch02_021', 'c6_math_ch02_022', 'c6_math_ch02_023', 'c6_math_ch02_024', 'c6_math_ch02_027'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you are in an elevator of a building with a basement. When you press the \'0\' button, you are at the.', goal: 'Master The Other Side Of Zero.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you are in an elevator of a building with a basement. When you press the \'0\' button, you are at the.', goal: 'Master Introduction to Integers.' },
     discovery: {
         question: 'What are the three components that make up the set of integers?',
         options: ['Integers consist of positive whole numbers, negative whole numbers, and zero', 'bigger', '-10 is "bigger" than -1'],
@@ -73,7 +73,7 @@ export const w_c6_mathematicstheothersideofzerosim: SimDef = {
             { text: 'Conclude there are exactly 2 lines of symmetry.', faded: true, blankAnswer: '2 lines of symmetry.' }
             ] } }
     ],
-    explore: { component: C6_MathematicsTheOtherSideOfZeroSim, prompt: 'Explore the interactive — The Other Side Of Zero' },
+    explore: { component: C6_MathematicsTheOtherSideOfZeroSim, prompt: 'Explore the interactive — Introduction to Integers' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_math_ch02_016', difficulty: 'standard',
           question: 'Integers are a set of numbers that include all positive counting numbers (1, 2,.',

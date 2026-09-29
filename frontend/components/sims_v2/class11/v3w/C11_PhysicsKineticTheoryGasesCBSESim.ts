@@ -6,13 +6,13 @@ import C11_PhysicsKineticTheoryGasesCBSESim from '../../../simulations/c6_12/C11
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicskinetictheorygasescbsesim: SimDef = {
     id: 'v3w_c11_physicskinetictheorygasescbsesim',
-    title: 'Kinetic Theory Gases CBSE',
+    title: 'Kinetic Theory of Gases: Assumptions',
     subtitle: 'This node covers the seven standard postulates of kinetic theory for an ideal gas as.',
     classLevel: 11, subject: 'physics', topic: 'Kinetic Theory of Gases: Assumptions',
     chapters: [],
     nodeIds: ['c11_phy_cbse_12_001', 'c11_phy_cbse_12_004', 'c11_phy_cbse_12_008', 'c11_phy_cbse_12_002', 'c11_phy_cbse_12_003', 'c11_phy_cbse_09_012', 'c11_phy_cbse_10_013', 'c11_phy_cbse_10_011', 'c11_phy_cbse_12_005', 'c11_phy_cbse_12_006', 'c11_phy_cbse_12_007', 'c11_phy_cbse_12_009', 'c11_phy_cbse_04_008', 'c11_phy_cbse_09_011', 'c11_phy_cbse_11_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you inflate a balloon and squeeze it — you feel a uniform resistance from all sides.', goal: 'Master Kinetic Theory Gases CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you inflate a balloon and squeeze it — you feel a uniform resistance from all sides.', goal: 'Master Kinetic Theory of Gases: Assumptions.' },
     discovery: {
         question: 'A gas is confined in a cylinder at 300 K and 1 atm. The gas is compressed isothermally to 100 atm.',
         options: ['The assumption of "negligible molecular volume" (point masses) breaks down first', 'elastic collisions', 'Newton\'s laws'],
@@ -80,7 +80,7 @@ export const w_c11_physicskinetictheorygasescbsesim: SimDef = {
             { text: 'Reasonableness: Soap solution S ~ 0.02–0.03 N/m (water is 0.072 N/m). Answer is physically plausible.', faded: true, blankAnswer: '3.06 × 10⁻² N/m' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_12_004', title: 'Identify each idea',
-          dissect: { specimen: 'Kinetic Theory Gases CBSE', spots: [
+          dissect: { specimen: 'Kinetic Theory of Gases: Assumptions', spots: [
             { id: 's1', label: 'The kinetic theory of gases', prompt: 'Which idea is this? — The kinetic theory of gases is a theoretical model based on seven fundamental postulates.', answer: 'The kinetic theory of gases', options: ['The kinetic theory of gases', 'Root mean square rms speed', 'Avogadros number N_A is the', 'Pressure of an ideal gas'] },
             { id: 's2', label: 'Root mean square rms speed', prompt: 'Which idea is this? — Root mean square (rms) speed is the square root of the mean of the squares of the speeds.', answer: 'Root mean square rms speed', options: ['Root mean square rms speed', 'The kinetic theory of gases', 'Avogadros number N_A is the', 'Pressure of an ideal gas'] },
             { id: 's3', label: 'Avogadros number N_A is the', prompt: 'Which idea is this? — Avogadro\'s number (N_A) is the number of constituent particles (atoms or molecules) in.', answer: 'Avogadros number N_A is the', options: ['Avogadros number N_A is the', 'The kinetic theory of gases', 'Root mean square rms speed', 'Pressure of an ideal gas'] },
@@ -89,7 +89,7 @@ export const w_c11_physicskinetictheorygasescbsesim: SimDef = {
             { id: 's6', label: 'Surface tension is the property', prompt: 'Which idea is this? — Surface tension is the property of a liquid surface to behave like a stretched elastic.', answer: 'Surface tension is the property', options: ['Surface tension is the property', 'The kinetic theory of gases', 'Root mean square rms speed', 'Avogadros number N_A is the'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsKineticTheoryGasesCBSESim, prompt: 'Explore the interactive — Kinetic Theory Gases CBSE' },
+    explore: { component: C11_PhysicsKineticTheoryGasesCBSESim, prompt: 'Explore the interactive — Kinetic Theory of Gases: Assumptions' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_12_001', difficulty: 'standard',
           question: 'The kinetic theory of gases is a theoretical model based on seven fundamental.',

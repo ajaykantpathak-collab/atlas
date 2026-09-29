@@ -6,13 +6,13 @@ import C7_PhysicsLightShadowsReflectionsCBSESim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_physicslightshadowsreflectionscbsesim: SimDef = {
     id: 'v3w_c7_physicslightshadowsreflectionscbsesim',
-    title: 'Light Shadows Reflections CBSE',
+    title: 'Light Travels in a Straight Line: Rectilinear Propagation',
     subtitle: 'Covers the straight-line path of light in a uniform medium, ray representation, and basic.',
     classLevel: 7, subject: 'physics', topic: 'Light Travels in a Straight Line: Rectilinear Propagation',
     chapters: [],
     nodeIds: ['c7_physics_ch05_003', 'c7_physics_ch05_002', 'c7_physics_ch05_004', 'c7_physics_ch05_005', 'c7_physics_ch05_006', 'c7_physics_ch05_007', 'c7_physics_ch05_009', 'c7_physics_ch05_011', 'c7_physics_ch05_010', 'c7_physics_ch05_001', 'c7_physics_ch05_008', 'c7_physics_ch06_007', 'c7_physics_ch01_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Observe a beam of sunlight streaming through a dusty window or a cinema projector beam cutting through a dark.', goal: 'Master Light Shadows Reflections CBSE.' },
+    scenario: { role: 'a class 7 learner', intro: 'Observe a beam of sunlight streaming through a dusty window or a cinema projector beam cutting through a dark.', goal: 'Master Light Travels in a Straight Line: Rectilinear Propagation.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Light travels in straight lines in a.', text: 'Light travels in straight lines in a homogeneous, transparent medium, a property known as rectilinear propagation of light.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -73,7 +73,7 @@ export const w_c7_physicslightshadowsreflectionscbsesim: SimDef = {
             { text: 'Final calculation: $D_{total} = 50\\text{ cm}$. Verify that 50 cm is physically reasonable for a table-top lab setup.', faded: true, blankAnswer: 'Image distance = 25 cm; Total distance between object and.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_physics_ch05_002', title: 'Identify each idea',
-          dissect: { specimen: 'Light Shadows Reflections CBSE', spots: [
+          dissect: { specimen: 'Light Travels in a Straight Line: Rectilinear Propagation', spots: [
             { id: 's1', label: 'Light travels in straight lines', prompt: 'Which idea is this? — Light travels in straight lines in a homogeneous, transparent medium, a property known as.', answer: 'Light travels in straight lines', options: ['Light travels in straight lines', 'Luminous objects are those that', 'Transparent materials allow light to', 'A shadow is a dark'] },
             { id: 's2', label: 'Luminous objects are those that', prompt: 'Which idea is this? — Luminous objects are those that emit their own light by converting various forms of.', answer: 'Luminous objects are those that', options: ['Luminous objects are those that', 'Light travels in straight lines', 'Transparent materials allow light to', 'A shadow is a dark'] },
             { id: 's3', label: 'Transparent materials allow light to', prompt: 'Which idea is this? — Transparent materials allow light to pass through them completely so objects can be seen.', answer: 'Transparent materials allow light to', options: ['Transparent materials allow light to', 'Light travels in straight lines', 'Luminous objects are those that', 'A shadow is a dark'] },
@@ -82,7 +82,7 @@ export const w_c7_physicslightshadowsreflectionscbsesim: SimDef = {
             { id: 's6', label: 'The image formed by a', prompt: 'Which idea is this? — The image formed by a plane mirror is virtual, erect, of the exact same size as the.', answer: 'The image formed by a', options: ['The image formed by a', 'Light travels in straight lines', 'Luminous objects are those that', 'Transparent materials allow light to'] }
           ] } }
     ],
-    explore: { component: C7_PhysicsLightShadowsReflectionsCBSESim, prompt: 'Explore the interactive — Light Shadows Reflections CBSE' },
+    explore: { component: C7_PhysicsLightShadowsReflectionsCBSESim, prompt: 'Explore the interactive — Light Travels in a Straight Line: Rectilinear Propagation' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_physics_ch05_003', difficulty: 'standard',
           question: 'Light travels in straight lines in a homogeneous, transparent medium, a.',

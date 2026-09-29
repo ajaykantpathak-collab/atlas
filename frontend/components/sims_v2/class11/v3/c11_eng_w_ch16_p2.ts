@@ -19,52 +19,52 @@ export const c11_eng_w_ch16_p2: SimDef = {
         hook: 'Ezekiel\'s surname invites the biblical guess; the poem is actually an April evening, a wife\'s complaint, and a small boy changing the weather of a marriage.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the subtle, underlying ideas that complement the primary theme of a poem, revealed through nuances of language, character interactions, and structural choices, enriching the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'For Elkana\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_16_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Mark where each stanza shifts the \'camera\' across a family evening, then decide if \'We rise and go into the house\' closes the story or just pauses a ritual.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_16_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine sitting with your family on a warm evening when a sudden demand from a younger sibling shifts the entire atmosphere from relaxed to tense, then.',
+          caseStudy: { intro: 'Look beneath the main theme of \'For Elkana\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'Define "secondary theme" in the context of poetry analysis and distinguish it from a literary device.', options: [
                 { text: 'A secondary theme is a recurring idea that supports or complicates the primary theme,', outcome: 'A secondary theme is a recurring idea that supports or complicates the primary theme, expressed.' },
                 { text: 'capitalisation', outcome: 'Not quite — Students often treat secondary themes as a checklist of literary devices (e.g., "irony is a theme,".', reveals: 'students-often-treat-secondary-themes' },
                 { text: 'understatement', outcome: 'Not quite — Students often treat secondary themes as a checklist of literary devices (e.g., "irony is a theme,".', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_16_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are sitting on your own balcony on a warm April evening in Delhi — you feel the breeze, hear distant traffic, smell jasmine.',
+          caseStudy: { intro: 'Find the lines in \'For Elkana\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define imagery and metaphor in your own words, and give one example of each from the opening five lines of "For Elkana."', options: [
                 { text: 'Imagery: "warm April evening" (thermal/tactile), "breezes sauntering"', outcome: 'Imagery: "warm April evening" (thermal/tactile), "breezes sauntering" (kinesthetic/visual), "stone.' },
                 { text: 'chairs', outcome: 'Not quite — Students treat imagery as decorative "word-painting" and metaphor as a simple "A = B" equation.', reveals: 'students-treat-imagery-as-decorative' },
                 { text: 'sauntering', outcome: 'Not quite — Students treat imagery as decorative "word-painting" and metaphor as a simple "A = B" equation.', reveals: 'students-treat-imagery-as-decorative' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_16_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you\'re at a family dinner where your parents pretend to agree on discipline but actually communicate through silent eye-rolls — that gap between.',
+          caseStudy: { intro: 'Look in \'For Elkana\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define situational irony and give one example from "For Elkana" where the outcome contradicts the characters\' stated intentions.', options: [
                 { text: 'Situational irony occurs when actions produce an outcome opposite to what was intended', outcome: 'Situational irony occurs when actions produce an outcome opposite to what was intended.' },
                 { text: 'unusual rapport', outcome: 'Not quite — Students often equate irony in "For Elkana" with sarcasm or humor alone, missing that Ezekiel\'s.', reveals: 'students-often-equate-irony-in' },
                 { text: 'Children Must be Disciplined', outcome: 'Not quite — Students often equate irony in "For Elkana" with sarcasm or humor alone, missing that Ezekiel\'s.', reveals: 'students-often-equate-irony-in' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_16_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading "For Elkana" and stumble on the phrase "declaims the little bastard" in stanza 5.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'For Elkana\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the primary meaning of the word "sauntering" as used in the opening line "tempts us to the breezes sauntering across the lawn"?', options: [
                 { text: '**Answer:** "Sauntering" means walking in a slow, relaxed, leisurely manner', outcome: '**Answer:** "Sauntering" means walking in a slow, relaxed, leisurely manner.' },
                 { text: 'blowing strongly', outcome: 'Not quite — Students believe "vocabulary in context" means "guess the definition from the sentence." They treat.', reveals: 'vocabulary-in-context-means-guess' },
                 { text: 'moving quickly', outcome: 'Not quite — Students believe "vocabulary in context" means "guess the definition from the sentence." They treat.', reveals: 'vocabulary-in-context-means-guess' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_16_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you receive a formal email from your principal and a WhatsApp text from your best friend about the same event—the language differs completely: one uses.',
+          caseStudy: { intro: 'Read \'For Elkana\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the primary tense used in the narration of "For Elkana" and quote one verb from the first stanza that exemplifies it.', options: [
                 { text: 'The primary tense is the simple present tense (e.g., "tempts," "drag," "plant," "sit,"', outcome: 'The primary tense is the simple present tense (e.g., "tempts," "drag," "plant," "sit," "sprawl").' },
                 { text: 'historic present', outcome: 'Not quite — Students believe that "grammar in poetry" means identifying parts of speech (nouns, verbs).', reveals: 'grammar-in-poetry-means-identifying' },
                 { text: 'grammar in poetry', outcome: 'Not quite — Students believe that "grammar in poetry" means identifying parts of speech (nouns, verbs).', reveals: 'grammar-in-poetry-means-identifying' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_16_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are watching a family sitcom where a child interrupts parents with a surprisingly logical demand for dinner — you instantly understand the humor.',
+          caseStudy: { intro: 'Answer \'For Elkana\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the literal meaning of the line "Unevenly, to sit or rather sprawl in silence till the words begin to come"?', options: [
                 { text: 'The line literally describes the physical action of the husband and wife dragging chairs', outcome: 'The line literally describes the physical action of the husband and wife dragging chairs down stone.' },
                 { text: 'It shows their marital discord', outcome: 'Not quite — Students believe inferential questions have "no right answer" because they\'re "just opinions." They.', reveals: 'inferential-questions-have-no-right' },
@@ -84,12 +84,12 @@ export const c11_eng_w_ch16_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_16_007', difficulty: 'standard',
-          question: 'Secondary themes are the subtle, underlying ideas that complement the primary.',
+          question: 'Secondary themes in \'For Elkana\' — the supporting ideas and motifs that deepen.',
           hint: 'If stuck, review the primary theme mind-map from node 006 and the character trait tables.',
           misconception: 'Students often treat secondary themes as a checklist of literary devices (e.g., "irony is a theme," "capitalisation.',
           parts: [
@@ -102,7 +102,7 @@ export const c11_eng_w_ch16_p2: SimDef = {
                   hint: 'If stuck, review the primary theme mind-map from node 006 and the character trait tables from nodes.',
                   misconception: 'Students often treat secondary themes as a checklist of literary devices (e.g., "irony is a theme," "capitalisation is a theme") because.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['Have the student re-read the poem and highlight every moment where an action or line does *double duty* (e.g., the.', 'Ask: "What idea connects these double-duty moments?" Guide them to phrase it as a noun phrase (e.g., "avoidance.', 'Provide a two-column table: Column A = Device/Detail (capitalisation, child\'s logic, laughter); Column B = Theme.', 'Finally, ask the student to write one sentence per secondary theme using the formula: "Through [device/detail], the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-secondary-themes': { steps: ['Have the student re-read the poem and highlight every moment where an action or line does *double duty* (e.g., the.', 'Ask: "What idea connects these double-duty moments?" Guide them to phrase it as a noun phrase (e.g., "avoidance.', 'Provide a two-column table: Column A = Device/Detail (capitalisation, child\'s logic, laughter); Column B = Theme.', 'Finally, ask the student to write one sentence per secondary theme using the formula: "Through [device/detail], the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_16_007', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -113,9 +113,9 @@ export const c11_eng_w_ch16_p2: SimDef = {
                   hint: 'If stuck, review the primary theme mind-map from node 006 and the character trait tables from nodes.',
                   misconception: 'Students often treat secondary themes as a checklist of literary devices (e.g., "irony is a theme," "capitalisation is a theme") because.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['Have the student re-read the poem and highlight every moment where an action or line does *double duty* (e.g., the.', 'Ask: "What idea connects these double-duty moments?" Guide them to phrase it as a noun phrase (e.g., "avoidance.', 'Provide a two-column table: Column A = Device/Detail (capitalisation, child\'s logic, laughter); Column B = Theme.', 'Finally, ask the student to write one sentence per secondary theme using the formula: "Through [device/detail], the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-secondary-themes': { steps: ['Have the student re-read the poem and highlight every moment where an action or line does *double duty* (e.g., the.', 'Ask: "What idea connects these double-duty moments?" Guide them to phrase it as a noun phrase (e.g., "avoidance.', 'Provide a two-column table: Column A = Device/Detail (capitalisation, child\'s logic, laughter); Column B = Theme.', 'Finally, ask the student to write one sentence per secondary theme using the formula: "Through [device/detail], the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_16_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'For Elkana\' — the vivid, sensory language that creates.',
           hint: 'Review "identifying sensory details" and "metaphor vs. simile" from Class 10 poetry nodes.',
           misconception: 'Students treat imagery as decorative "word-painting" and metaphor as a simple "A = B" equation.',
           parts: [
@@ -128,9 +128,9 @@ export const c11_eng_w_ch16_p2: SimDef = {
                   hint: 'Review "identifying sensory details" and "metaphor vs. simile" from Class 10 poetry nodes.',
                   misconception: 'Students treat imagery as decorative "word-painting" and metaphor as a simple "A = B" equation.' }
           ],
-            remediations: { 'students-treat-imagery-as-decorative': { steps: ['Return to the text with three highlighters: one for each sense (visual/tactile, auditory, kinesthetic/organic).', 'For each marked word, write in the margin: "What does this *do*?', '(reveals character / builds tension / creates irony)." 3.', 'List every comparison without "like/as" — include noun-metaphors ("logician"), verb-metaphors ("crawls"), and implied.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-imagery-as-decorative': { steps: ['Return to the text with three highlighters: one for each sense (visual/tactile, auditory, kinesthetic/organic).', 'For each marked word, write in the margin: "What does this *do*?', '(reveals character / builds tension / creates irony)." 3.', 'List every comparison without "like/as" — include noun-metaphors ("logician"), verb-metaphors ("crawls"), and implied.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_16_009', difficulty: 'standard',
-          question: 'Irony is a literary device where there is a contrast between expectation and.',
+          question: 'Irony and paradox in \'For Elkana\' — where opposite things are both true,.',
           hint: 'If stuck, review "voice crawls up and down the lawn" (c11_eng_w_cbse_16_008 metaphor.',
           misconception: 'Students often equate irony in "For Elkana" with sarcasm or humor alone, missing that Ezekiel\'s irony is *structural*.',
           parts: [
@@ -139,9 +139,9 @@ export const c11_eng_w_ch16_p2: SimDef = {
                   hint: 'If stuck, review "voice crawls up and down the lawn" (c11_eng_w_cbse_16_008 metaphor analysis) and.',
                   misconception: 'Students often equate irony in "For Elkana" with sarcasm or humor alone, missing that Ezekiel\'s irony is *structural* — the poem\'s.' }
           ],
-            remediations: { 'students-often-equate-irony-in': { steps: ['Re-read the poem *only* for the father\'s internal monologues (stanzas 1, 3, 5) — highlight where his thoughts.', 'List every concrete object mentioned (window-pane, chairs, lawn, chin, finger, dinner, five minutes, laughter, house).', 'For each, ask: "Does this appear at a turning point?', 'Does it carry emotional weight beyond utility?" 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-equate-irony-in': { steps: ['Re-read the poem *only* for the father\'s internal monologues (stanzas 1, 3, 5) — highlight where his thoughts.', 'List every concrete object mentioned (window-pane, chairs, lawn, chin, finger, dinner, five minutes, laughter, house).', 'For each, ask: "Does this appear at a turning point?', 'Does it carry emotional weight beyond utility?" 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_16_010', difficulty: 'standard',
-          question: 'Vocabulary in context refers to the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'For Elkana\' — the words and phrases you must know to read.',
           hint: 'If stuck, review **c11_eng_w_cbse_16_009 (Literary Devices: Irony and Symbolism)**.',
           misconception: 'Students believe "vocabulary in context" means "guess the definition from the sentence." They treat the poem as a cloze.',
           parts: [
@@ -150,9 +150,9 @@ export const c11_eng_w_ch16_p2: SimDef = {
                   hint: 'If stuck, review **c11_eng_w_cbse_16_009 (Literary Devices: Irony and Symbolism)**, specifically.',
                   misconception: 'Students believe "vocabulary in context" means "guess the definition from the sentence." They treat the poem as a cloze test: find synonym.' }
           ],
-            remediations: { 'vocabulary-in-context-means-guess': { steps: ['**Re-read the specific stanza aloud** three times: once for literal action, once for tone of voice (imagine the.', '**Circle the target word** and draw arrows to 3 surrounding words/phrases that "pull" its meaning away from the.', '**Complete this stem:** "The poet uses [word] instead of [expected word] because ______." (e.g., "uses \'bastard\'.', '**Write one PEEL paragraph** using this structure: Point (word\'s contextual meaning), Evidence (quoted phrase.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'vocabulary-in-context-means-guess': { steps: ['**Re-read the specific stanza aloud** three times: once for literal action, once for tone of voice (imagine the.', '**Circle the target word** and draw arrows to 3 surrounding words/phrases that "pull" its meaning away from the.', '**Complete this stem:** "The poet uses [word] instead of [expected word] because ______." (e.g., "uses \'bastard\'.', '**Write one PEEL paragraph** using this structure: Point (word\'s contextual meaning), Evidence (quoted phrase.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_16_011', difficulty: 'standard',
-          question: 'Language usage in a literary text refers to the deliberate grammatical.',
+          question: 'Language and style in \'For Elkana\' — how the writer chose words, sentences and.',
           hint: 'Review Class 10 Grammar: "Sentence Structure and Types" (simple, compound, complex.',
           misconception: 'Students believe that "grammar in poetry" means identifying parts of speech (nouns, verbs) or spotting errors.',
           parts: [
@@ -161,9 +161,9 @@ export const c11_eng_w_ch16_p2: SimDef = {
                   hint: 'Review Class 10 Grammar: "Sentence Structure and Types" (simple, compound, complex, fragments) and.',
                   misconception: 'Students believe that "grammar in poetry" means identifying parts of speech (nouns, verbs) or spotting errors.' }
           ],
-            remediations: { 'grammar-in-poetry-means-identifying': { steps: ['Have the student read the poem aloud, physically pausing at every line break and punctuation mark, to "hear" the.', 'Give them a "standardized" prose version of Stanza 1 (corrected to full sentences, past tense, no fragments) and ask.', 'Provide a checklist of grammatical features (Tense, Sentence Completeness, Punctuation, Capitalization, Mood) and have.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'grammar-in-poetry-means-identifying': { steps: ['Have the student read the poem aloud, physically pausing at every line break and punctuation mark, to "hear" the.', 'Give them a "standardized" prose version of Stanza 1 (corrected to full sentences, past tense, no fragments) and ask.', 'Provide a checklist of grammatical features (Tense, Sentence Completeness, Punctuation, Capitalization, Mood) and have.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_16_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve information.',
+          question: 'Literal comprehension of \'For Elkana\' — questions answered straight from the.',
           hint: 'If stuck, review c11_eng_w_cbse_16_002 (Plot and Narrative Structure) and create.',
           misconception: 'Students believe inferential questions have "no right answer" because they\'re "just opinions." They treat inference.',
           parts: [
@@ -176,7 +176,7 @@ export const c11_eng_w_ch16_p2: SimDef = {
                   hint: 'If stuck, review c11_eng_w_cbse_16_002 (Plot and Narrative Structure) and create a 6-panel.',
                   misconception: 'Students believe inferential questions have "no right answer" because they\'re "just opinions." They treat inference as guesswork rather.' }
           ],
-            remediations: { 'inferential-questions-have-no-right': { steps: ['Have the student highlight every explicit fact in Stanza 1 (time, action, dialogue) in yellow.', 'In a different color, mark every phrase implying something unstated (e.g., "shuts her out," "masterly determination").', 'Practice converting each yellow fact into a literal question and each implied phrase into an inferential question.', 'Require the student to write the answer with the format: "The text says ____, which suggests ____ because ____." Repeat.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'inferential-questions-have-no-right': { steps: ['Have the student highlight every explicit fact in Stanza 1 (time, action, dialogue) in yellow.', 'In a different color, mark every phrase implying something unstated (e.g., "shuts her out," "masterly determination").', 'Practice converting each yellow fact into a literal question and each implied phrase into an inferential question.', 'Require the student to write the answer with the format: "The text says ____, which suggests ____ because ____." Repeat.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

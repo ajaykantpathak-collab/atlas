@@ -6,13 +6,13 @@ import C12_ChemistryGeneralPrinciplesAndProcessesOfSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_chemistrygeneralprinciplesandprocessesofsim: SimDef = {
     id: 'v3w_c12_chemistrygeneralprinciplesandprocessesofsim',
-    title: 'General Principles And Processes Of',
+    title: 'Electronic Configuration of d-Block Elements',
     subtitle: 'This node covers only the electronic configurations of neutral d-block atoms and their.',
     classLevel: 12, subject: 'chemistry', topic: 'Electronic Configuration of d-Block Elements',
     chapters: [],
     nodeIds: ['c12_chem_cbse_04_002', 'c12_chem_cbse_04_006', 'c12_chem_cbse_04_007', 'c12_chem_cbse_04_001', 'c12_chem_cbse_04_008', 'c12_chem_cbse_04_010', 'c12_chem_cbse_09_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: a student notices that chromium (Cr) in stainless steel utensils and.', goal: 'Master General Principles And Processes Of.' },
+    scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: a student notices that chromium (Cr) in stainless steel utensils and.', goal: 'Master Electronic Configuration of d-Block Elements.' },
     discovery: {
         question: 'Evaluate the following statement: "Zinc (Zn, Z = 30) is a transition element because it is in the d-block and has electrons in the d orbital." Is this.',
         options: ['The statement is INCORRECT', 'd-block', 'transition element'],
@@ -78,7 +78,7 @@ export const w_c12_chemistrygeneralprinciplesandprocessesofsim: SimDef = {
             { text: 'Conclude: U achieves +6 because 5f electrons are higher in energy (less tightly held) and can be ionised; 5f also.', faded: true, blankAnswer: 'U atom: [Rn] 5f³ 6d¹ 7s²; U⁶⁺ in UO₂²⁺: [Rn] 5f⁰. U.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_chem_cbse_04_006', title: 'Identify each idea',
-          dissect: { specimen: 'General Principles And Processes Of', spots: [
+          dissect: { specimen: 'Electronic Configuration of d-Block Elements', spots: [
             { id: 's1', label: 'The d-block elements Groups 312', prompt: 'Which idea is this? — The d-block elements (Groups 3–12) are those in which the (n−1)d orbitals are.', answer: 'The d-block elements Groups 312', options: ['The d-block elements Groups 312', 'Catalytic activity of transition metals', 'Transition elements d-block and inner', 'The d-block elements occupy Groups'] },
             { id: 's2', label: 'Catalytic activity of transition metals', prompt: 'Which idea is this? — Catalytic activity of transition metals refers to their ability to accelerate chemical.', answer: 'Catalytic activity of transition metals', options: ['Catalytic activity of transition metals', 'The d-block elements Groups 312', 'Transition elements d-block and inner', 'The d-block elements occupy Groups'] },
             { id: 's3', label: 'Transition elements d-block and inner', prompt: 'Which idea is this? — Transition elements (d-block) and inner transition elements (f-block) are crucial for.', answer: 'Transition elements d-block and inner', options: ['Transition elements d-block and inner', 'The d-block elements Groups 312', 'Catalytic activity of transition metals', 'The d-block elements occupy Groups'] },
@@ -87,7 +87,7 @@ export const w_c12_chemistrygeneralprinciplesandprocessesofsim: SimDef = {
             { id: 's6', label: 'Actinoids are the 14 inner', prompt: 'Which idea is this? — Actinoids are the 14 inner transition elements from Thorium (Z=90) to Lawrencium (Z=103).', answer: 'Actinoids are the 14 inner', options: ['Actinoids are the 14 inner', 'The d-block elements Groups 312', 'Catalytic activity of transition metals', 'Transition elements d-block and inner'] }
           ] } }
     ],
-    explore: { component: C12_ChemistryGeneralPrinciplesAndProcessesOfSim, prompt: 'Explore the interactive — General Principles And Processes Of' },
+    explore: { component: C12_ChemistryGeneralPrinciplesAndProcessesOfSim, prompt: 'Explore the interactive — Electronic Configuration of d-Block Elements' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_chem_cbse_04_002', difficulty: 'standard',
           question: 'The d-block elements (Groups 3–12) are those in which the (n−1)d orbitals are.',

@@ -6,13 +6,13 @@ import C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim from '../../../
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_psychologypsychotherapypsychoanalysisclientcentredsim: SimDef = {
     id: 'v3w_c12_psychologypsychotherapypsychoanalysisclientcentredsim',
-    title: 'Psychotherapy Psychoanalysis Clientcentred',
+    title: 'Gestalt Therapy (Perls) and Factors Contributing to Healing in Psychotherapy',
     subtitle: 'This node covers Gestalt Therapy (Perls) — its goals, key concepts (awareness, contact.',
     classLevel: 12, subject: 'psychology', topic: 'Gestalt Therapy (Perls) and Factors Contributing to Healing in Psychotherapy',
     chapters: [],
     nodeIds: ['c12_psy_cbse_05_010', 'c12_psy_cbse_05_001', 'c12_psy_cbse_05_003', 'c12_psy_cbse_05_006', 'c12_psy_cbse_05_008', 'c12_psy_cbse_05_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a student named Arjun who constantly says "I\'m fine" while clenching his fists and avoiding eye.', goal: 'Master Psychotherapy Psychoanalysis Clientcentred.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a student named Arjun who constantly says "I\'m fine" while clenching his fists and avoiding eye.', goal: 'Master Gestalt Therapy (Perls) and Factors Contributing to Healing in Psychotherapy.' },
     discovery: {
         question: 'A client in Gestalt Therapy says, "I feel angry at my boss but I can\'t show it." The therapist asks the client to imagine the boss sitting in an empty chair.',
         options: ['This illustrates the "Empty Chair" technique targeting *unfinished business*', 'it\'s just venting', 'acting out fantasies/conflicts'],
@@ -83,7 +83,7 @@ export const w_c12_psychologypsychotherapypsychoanalysisclientcentredsim: SimDef
             { text: 'Verify — the statement is open-ended, meaning-focused, non-pathologising, and invites responsibility.', faded: true, blankAnswer: 'Core issue: Existential vacuum. Technique: Socratic.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_psy_cbse_05_001', title: 'Identify each idea',
-          dissect: { specimen: 'Psychotherapy Psychoanalysis Clientcentred', spots: [
+          dissect: { specimen: 'Gestalt Therapy (Perls) and Factors Contributing to Healing in Psychotherapy', spots: [
             { id: 's1', label: 'Gestalt Therapy developed by Fritz', prompt: 'Which idea is this? — Gestalt Therapy, developed by Fritz and Laura Perls, is a humanistic-existential approach.', answer: 'Gestalt Therapy developed by Fritz', options: ['Gestalt Therapy developed by Fritz', 'Psychotherapy is a voluntary confidential', 'Classification of psychotherapies is the', 'Cognitive therapy is a structured'] },
             { id: 's2', label: 'Psychotherapy is a voluntary confidential', prompt: 'Which idea is this? — Psychotherapy is a voluntary, confidential interpersonal relationship between a.', answer: 'Psychotherapy is a voluntary confidential', options: ['Psychotherapy is a voluntary confidential', 'Gestalt Therapy developed by Fritz', 'Classification of psychotherapies is the', 'Cognitive therapy is a structured'] },
             { id: 's3', label: 'Classification of psychotherapies is the', prompt: 'Which idea is this? — Classification of psychotherapies is the systematic categorisation of therapeutic.', answer: 'Classification of psychotherapies is the', options: ['Classification of psychotherapies is the', 'Gestalt Therapy developed by Fritz', 'Psychotherapy is a voluntary confidential', 'Cognitive therapy is a structured'] },
@@ -92,7 +92,7 @@ export const w_c12_psychologypsychotherapypsychoanalysisclientcentredsim: SimDef
             { id: 's6', label: 'Logotherapy Viktor Frankl is an', prompt: 'Which idea is this? — Logotherapy (Viktor Frankl) is an existential therapy that helps clients discover meaning.', answer: 'Logotherapy Viktor Frankl is an', options: ['Logotherapy Viktor Frankl is an', 'Gestalt Therapy developed by Fritz', 'Psychotherapy is a voluntary confidential', 'Classification of psychotherapies is the'] }
           ] } }
     ],
-    explore: { component: C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim, prompt: 'Explore the interactive — Psychotherapy Psychoanalysis Clientcentred' },
+    explore: { component: C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim, prompt: 'Explore the interactive — Gestalt Therapy (Perls) and Factors Contributing to Healing in Psychotherapy' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_psy_cbse_05_010', difficulty: 'standard',
           question: 'Gestalt Therapy, developed by Fritz and Laura Perls, is a.',

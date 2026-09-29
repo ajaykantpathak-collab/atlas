@@ -19,48 +19,48 @@ export const c11_eng_w_ch22_p2: SimDef = {
         hook: 'The bias is print\'s, not the songs\' — a living library carried in voice and memory is still literature, just one our syllabus forgot.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying, complementary ideas that run alongside the primary theme in a text, enriching its meaning by exploring related human experiences, tensions, or philosophical.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'My Three Passions\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_22_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Read the three tribal songs as evidence, then the \'Painted Words\' theory — and explain why the argument puts examples before analysis.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_22_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re listening to a grandparent reflect on their life: they speak of love, career, and regrets — but underneath, you sense themes of sacrifice, the.',
+          caseStudy: { intro: 'Look beneath the main theme of \'My Three Passions\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the defining characteristic that distinguishes a secondary theme from the primary theme in a literary essay?', options: [
                 { text: 'A secondary theme complements and enriches the primary theme but is not the central', outcome: 'A secondary theme complements and enriches the primary theme but is not the central governing idea.' },
                 { text: 'secondary themes are less important', outcome: 'Not quite — Students often treat secondary themes as \'hidden messages\' the author intentionally buried, leading.', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_22_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are reading Russell\'s essay and you feel the "cold unfathomable lifeless abyss" — that\'s imagery making you shiver.',
+          caseStudy: { intro: 'Find the lines in \'My Three Passions\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'What is the difference between a simile and a metaphor? Give one example of each from the essay "My Three Passions".', options: [
                 { text: 'A simile uses "like" or "as" to compare (e.g., "passions, like great winds"), while a', outcome: 'A simile uses "like" or "as" to compare (e.g., "passions, like great winds"), while a metaphor.' },
                 { text: 'mystic miniature', outcome: 'Not quite — Students often think any descriptive language is imagery, and any comparison is a metaphor.', reveals: 'any-descriptive-language-is-imagery' },
                 { text: 'any descriptive language is imagery, and any comparison is a metaphor', outcome: 'Not quite — Students often think any descriptive language is imagery, and any comparison is a metaphor.', reveals: 'any-descriptive-language-is-imagery' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_22_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are writing a college application essay about a personal struggle: you describe your ambition as a "rocket" but admit gravity keeps pulling you.',
+          caseStudy: { intro: 'Look in \'My Three Passions\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'What is the primary difference between situational irony and verbal irony, and which type dominates Russell\'s essay?', options: [
                 { text: 'Situational irony occurs when the actual outcome contradicts the expected outcome', outcome: 'Situational irony occurs when the actual outcome contradicts the expected outcome; verbal irony.' },
                 { text: 'verbal irony', outcome: 'Not quite — Students often treat every metaphor as a symbol and every unfortunate event as irony.', reveals: 'students-often-treat-every-metaphor' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_22_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading Bertrand Russell\'s autobiography and encounter the phrase "wayward course" describing his life\'s path.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'My Three Passions\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the primary context clue type used to understand "unfathomable" in the phrase "cold unfathomable lifeless abyss"?', options: [
                 { text: 'The primary clue is an **appositional/definitional clue** within the noun phrase itself:', outcome: 'The primary clue is an **appositional/definitional clue** within the noun phrase itself.' },
                 { text: 'it means cold', outcome: 'Not quite — Students treat "vocabulary in context" as **synonym substitution**—they hunt for a single word.', reveals: 'students-treat-vocabulary-in-context' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_22_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading Russell\'s essay and notice his sentences flow like a river — sometimes long and winding, sometimes short and sharp.',
+          caseStudy: { intro: 'Read \'My Three Passions\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Define \'non-finite clause\' and give one example from the first paragraph of "My Three Passions".', options: [
                 { text: 'A non-finite clause is a subordinate clause whose verb is an infinitive, participle, or', outcome: 'A non-finite clause is a subordinate clause whose verb is an infinitive, participle, or gerund.' },
                 { text: 'I have sought', outcome: 'Not quite — Students often treat grammar analysis as a labeling exercise (circling nouns, verbs) rather than.', reveals: 'students-often-treat-grammar-analysis' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_22_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you receive a text from a friend: "I\'m fine." A literal question asks, "What did the message say?" An inferential question asks, "Is your friend.',
+          caseStudy: { intro: 'Answer \'My Three Passions\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Define a literal comprehension question and give one example from "My Three Passions".', options: [
                 { text: 'A literal comprehension question asks for information directly stated in the text', outcome: 'A literal comprehension question asks for information directly stated in the text.' },
                 { text: 'What are the three passions Bertrand Russell mentions?', outcome: 'Not quite — Students believe inferential questions are "opinion questions" where any guess is valid.', reveals: 'inferential-questions-are-opinion-questions' },
@@ -80,23 +80,23 @@ export const c11_eng_w_ch22_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying, complementary ideas that run alongside the.',
+          question: 'Secondary themes in \'My Three Passions\' — the supporting ideas and motifs that.',
           hint: 'If stuck, review node 006\'s worked example on identifying the primary theme\'s three-part.',
           misconception: 'Students often treat secondary themes as \'hidden messages\' the author intentionally buried, leading them.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the underlying, complementary ideas that run alongside the primary',
-                  options: ['Secondary themes are the underlying, complementary ideas that run alongside the primary', '"Before You Read: Context and Background" is a pre-reading pedagogical stage that equips', 'Plot and narrative structure in an autobiographical essay refers to the deliberate', 'Setting in a reflective essay refers to the metaphorical, emotional, and intellectual'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes in \'My Three Passions\'',
+                  options: ['Secondary themes in \'My Three Passions\'', '\'My Three Passions\' (Woven Words, ch', 'The plot/narrative arc of \'My Three Passions\'', 'The setting of \'My Three Passions\''],
                   hint: 'If stuck, review node 006\'s worked example on identifying the primary theme\'s three-part structure.',
                   misconception: 'Students often treat secondary themes as \'hidden messages\' the author intentionally buried, leading them to over-interpret minor phrases.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['Have the student create a two-column table: Column A = "Explicit statements by Russell" (primary theme content), Column.', 'Guide them to cluster Column B observations into 2-3 categories (e.g., \'upward vs downward movement\', \'individual.', 'For each cluster, formulate a noun phrase naming the abstract tension (e.g., \'transcendence/immanence\').', 'Verify each candidate secondary theme appears in *at least two distinct paragraphs* — if not, it\'s a motif, not a theme.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-secondary-themes': { steps: ['Have the student create a two-column table: Column A = "Explicit statements by Russell" (primary theme content), Column.', 'Guide them to cluster Column B observations into 2-3 categories (e.g., \'upward vs downward movement\', \'individual.', 'For each cluster, formulate a noun phrase naming the abstract tension (e.g., \'transcendence/immanence\').', 'Verify each candidate secondary theme appears in *at least two distinct paragraphs* — if not, it\'s a motif, not a theme.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid and descriptive language that appeals to the senses.',
+          question: 'Imagery in \'My Three Passions\' — the vivid, sensory language that creates.',
           hint: 'Review the definitions of simile, metaphor, and imagery types in c6_english_u1_005 and.',
           misconception: 'Students often think any descriptive language is imagery, and any comparison is a metaphor.',
           parts: [
@@ -105,42 +105,42 @@ export const c11_eng_w_ch22_p2: SimDef = {
                   hint: 'Review the definitions of simile, metaphor, and imagery types in c6_english_u1_005 and.',
                   misconception: 'Students often think any descriptive language is imagery, and any comparison is a metaphor.' }
           ],
-            remediations: { 'any-descriptive-language-is-imagery': { steps: ['Have the student list the five senses and find one phrase in the essay for each.', 'Give them five sentences: some similes, some metaphors, some literal.', 'Ask them to label each and explain why.', 'For each metaphor identified, have them fill a two-column table: Tenor (what is described) and Vehicle (the image used).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'any-descriptive-language-is-imagery': { steps: ['Have the student list the five senses and find one phrase in the essay for each.', 'Give them five sentences: some similes, some metaphors, some literal.', 'Ask them to label each and explain why.', 'For each metaphor identified, have them fill a two-column table: Tenor (what is described) and Vehicle (the image used).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_009', difficulty: 'standard',
-          question: 'Irony is a literary device where there is a contrast between expectation and.',
+          question: 'Irony and paradox in \'My Three Passions\' — where opposite things are both true.',
           hint: 'If stuck, return to c11_eng_w_cbse_22_008 and practice converting five metaphors from the.',
           misconception: 'Students often treat every metaphor as a symbol and every unfortunate event as irony.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where there is a contrast between expectation and reality,',
-                  options: ['Irony is a literary device where there is a contrast between expectation and reality,', '"Before You Read: Context and Background" is a pre-reading pedagogical stage that equips', 'Plot and narrative structure in an autobiographical essay refers to the deliberate', 'Setting in a reflective essay refers to the metaphorical, emotional, and intellectual'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'My Three Passions\'',
+                  options: ['Irony and paradox in \'My Three Passions\'', '\'My Three Passions\' (Woven Words, ch', 'The plot/narrative arc of \'My Three Passions\'', 'The setting of \'My Three Passions\''],
                   hint: 'If stuck, return to c11_eng_w_cbse_22_008 and practice converting five metaphors from the essay.',
                   misconception: 'Students often treat every metaphor as a symbol and every unfortunate event as irony.' }
           ],
-            remediations: { 'students-often-treat-every-metaphor': { steps: ['Have the student list all concrete images in the essay (winds, ocean, abyss, miniature, echoes, cries).', 'For each, ask: "What abstract idea does this image carry across the whole essay?" — this forces symbolic thinking.', 'Then draw a two-column table: "What the passions promise" vs.', '"What pity delivers" — this visualizes structural irony.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-every-metaphor': { steps: ['Have the student list all concrete images in the essay (winds, ocean, abyss, miniature, echoes, cries).', 'For each, ask: "What abstract idea does this image carry across the whole essay?" — this forces symbolic thinking.', 'Then draw a two-column table: "What the passions promise" vs.', '"What pity delivers" — this visualizes structural irony.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the meaning of unfamiliar.',
+          question: 'Key vocabulary of \'My Three Passions\' — the words and phrases you must know.',
           hint: 'If stuck, return to **c10_engl_cbse_02_009** and re-do the "Key Terms" exercise for.',
           misconception: 'Students treat "vocabulary in context" as **synonym substitution**—they hunt for a single word replacement (e.g.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context is the skill of determining the meaning of unfamiliar words or',
-                  options: ['Vocabulary in Context is the skill of determining the meaning of unfamiliar words or', '"Before You Read: Context and Background" is a pre-reading pedagogical stage that equips', 'Plot and narrative structure in an autobiographical essay refers to the deliberate', 'Setting in a reflective essay refers to the metaphorical, emotional, and intellectual'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Key vocabulary of \'My Three Passions\'',
+                  options: ['Key vocabulary of \'My Three Passions\'', '\'My Three Passions\' (Woven Words, ch', 'The plot/narrative arc of \'My Three Passions\'', 'The setting of \'My Three Passions\''],
                   hint: 'If stuck, return to **c10_engl_cbse_02_009** and re-do the "Key Terms" exercise for Mandela\'s.',
                   misconception: 'Students treat "vocabulary in context" as **synonym substitution**—they hunt for a single word replacement (e.g., "unfathomable = deep").' }
           ],
-            remediations: { 'students-treat-vocabulary-in-context': { steps: ['**Isolate the metaphor**: Ask the student to draw the literal image (e.g., an abyss, a miniature, a reverberating.', '**Map the transfer**: Have them list what the literal image *does* (abyss: swallows, has no bottom, inspires fear.', '**Connect to the tenor**: Match each action to the abstract concept (love, knowledge, pity).', '**Re-read the clause** with the mapped meaning aloud.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-vocabulary-in-context': { steps: ['**Isolate the metaphor**: Ask the student to draw the literal image (e.g., an abyss, a miniature, a reverberating.', '**Map the transfer**: Have them list what the literal image *does* (abyss: swallows, has no bottom, inspires fear.', '**Connect to the tenor**: Match each action to the abstract concept (love, knowledge, pity).', '**Re-read the clause** with the mapped meaning aloud.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the systematic analysis of how grammatical.',
+          question: 'Language and style in \'My Three Passions\' — how the writer chose words.',
           hint: 'Review Class 10 grammar: clause types (especially non-finite -ing, -ed, to-infinitive).',
           misconception: 'Students often treat grammar analysis as a labeling exercise (circling nouns, verbs) rather than a functional.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language Usage in the Text refers to the systematic analysis of how grammatical',
-                  options: ['Language Usage in the Text refers to the systematic analysis of how grammatical', '"Before You Read: Context and Background" is a pre-reading pedagogical stage that equips', 'Plot and narrative structure in an autobiographical essay refers to the deliberate', 'Setting in a reflective essay refers to the metaphorical, emotional, and intellectual'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language and style in \'My Three Passions\'',
+                  options: ['Language and style in \'My Three Passions\'', '\'My Three Passions\' (Woven Words, ch', 'The plot/narrative arc of \'My Three Passions\'', 'The setting of \'My Three Passions\''],
                   hint: 'Review Class 10 grammar: clause types (especially non-finite -ing, -ed, to-infinitive) and cohesive.',
                   misconception: 'Students often treat grammar analysis as a labeling exercise (circling nouns, verbs) rather than a functional exploration.' }
           ],
-            remediations: { 'students-often-treat-grammar-analysis': { steps: ['Return to the text and isolate ONE sentence.', 'Together, bracket every clause and label its type (finite/non-finite, main/subordinate).', 'Ask: "What does this clause DO?', 'Co-construct a two-column table: Structure | Function.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-grammar-analysis': { steps: ['Return to the text and isolate ONE sentence.', 'Together, bracket every clause and label its type (finite/non-finite, main/subordinate).', 'Ask: "What does this clause DO?', 'Co-construct a two-column table: Structure | Function.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require retrieving information explicitly.',
+          question: 'Literal comprehension of \'My Three Passions\' — questions answered straight from.',
           hint: 'Review "Identifying Explicit Information" from Class 9/10 comprehension nodes (e.g.',
           misconception: 'Students believe inferential questions are "opinion questions" where any guess is valid.',
           parts: [
@@ -153,7 +153,7 @@ export const c11_eng_w_ch22_p2: SimDef = {
                   hint: 'Review "Identifying Explicit Information" from Class 9/10 comprehension nodes (e.g.',
                   misconception: 'Students believe inferential questions are "opinion questions" where any guess is valid.' }
           ],
-            remediations: { 'inferential-questions-are-opinion-questions': { steps: ['Show a two‑sentence micro‑text: "The room was silent.', 'Maya stared at the untouched cake." Ask: "Literal: What is Maya looking at?', 'Inferential: How might Maya feel?" 2.', 'Have the student highlight the explicit fact (untouched cake) and list three possible inferences with evidence (sadness.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'inferential-questions-are-opinion-questions': { steps: ['Show a two‑sentence micro‑text: "The room was silent.', 'Maya stared at the untouched cake." Ask: "Literal: What is Maya looking at?', 'Inferential: How might Maya feel?" 2.', 'Have the student highlight the explicit fact (untouched cake) and list three possible inferences with evidence (sadness.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_012', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -164,7 +164,7 @@ export const c11_eng_w_ch22_p2: SimDef = {
                   hint: 'Review "Identifying Explicit Information" from Class 9/10 comprehension nodes (e.g.',
                   misconception: 'Students believe inferential questions are "opinion questions" where any guess is valid.' }
           ],
-            remediations: { 'inferential-questions-are-opinion-questions': { steps: ['Show a two‑sentence micro‑text: "The room was silent.', 'Maya stared at the untouched cake." Ask: "Literal: What is Maya looking at?', 'Inferential: How might Maya feel?" 2.', 'Have the student highlight the explicit fact (untouched cake) and list three possible inferences with evidence (sadness.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'inferential-questions-are-opinion-questions': { steps: ['Show a two‑sentence micro‑text: "The room was silent.', 'Maya stared at the untouched cake." Ask: "Literal: What is Maya looking at?', 'Inferential: How might Maya feel?" 2.', 'Have the student highlight the explicit fact (untouched cake) and list three possible inferences with evidence (sadness.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -19,7 +19,7 @@ export const c11_eng_s_ch03_p3: SimDef = {
         hook: 'The body-swap isn\'t magic solving a problem — it\'s the visible shape of a decision: \'this is where your foot goes down.\'',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining a text beyond its surface meaning to evaluate themes, character motivations, authorial techniques, and socio-cultural context, forming.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Mother\'s Day\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_s_cbse_03_013', title: 'Your mission',
@@ -29,14 +29,14 @@ export const c11_eng_s_ch03_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_03_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you open your Class 11 English exam and see: "Write a diary entry for Mrs.',
+          caseStudy: { intro: 'For written answers on \'Mother\'s Day\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of structured answer writing for CBSE Class 11 English?', options: [
                 { text: 'PEEL stands for Point (topic sentence), Evidence (textual quote or specific detail),', outcome: 'PEEL stands for Point (topic sentence), Evidence (textual quote or specific detail), Explanation.' },
                 { text: 'Paragraph, Example, Explain, Line', outcome: 'Not quite — Students believe "Writing Skills based on the chapter" means retelling the story in a different.', reveals: 'writing-skills-based-on-the' },
                 { text: 'Writing Skills based on the chapter', outcome: 'Not quite — Students believe "Writing Skills based on the chapter" means retelling the story in a different.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_03_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine your family is deciding who cleans up after a festival dinner — the same two people always end up doing it while others relax.',
+          caseStudy: { intro: 'Talk through \'Mother\'s Day\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary social issue raised in "Mother\'s Day" that the discussion points ask students to evaluate?', options: [
                 { text: 'The primary issue is the unequal distribution of domestic labor and the lack of', outcome: 'The primary issue is the unequal distribution of domestic labor and the lack of appreciation for.' },
                 { text: 'the play is about fortune-telling', outcome: 'Not quite — Students believe a "discussion" means everyone politely sharing opinions without disagreement.', reveals: 'a-discussion-means-everyone-politely' },
@@ -61,18 +61,18 @@ export const c11_eng_s_ch03_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining a text beyond its.',
+          question: 'Critical thinking on \'Mother\'s Day\' — analysing the text to reach.',
           hint: 'If stuck, review Theme: Primary and Secondary (006, 007) and Literary Devices: Irony and.',
           misconception: 'Students often equate "critical analysis" with "finding faults." They write: "The play is unrealistic because.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis involves examining a text beyond its surface',
-                  options: ['Critical thinking in literary analysis involves examining a text beyond its surface', '"Before You Read: Context and Background" refers to the essential historical, social, and', 'Plot and narrative structure in drama refers to the organized sequence of events and the', 'Setting refers to the time, place, and physical environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'Mother\'s Day\'',
+                  options: ['Critical thinking on \'Mother\'s Day\'', '\'Mother\'s Day\' (Snapshots, ch', 'The plot/narrative arc of \'Mother\'s Day\'', 'The setting of \'Mother\'s Day\''],
                   hint: 'If stuck, review Theme: Primary and Secondary (006, 007) and Literary Devices: Irony and Symbolism.',
                   misconception: 'Students often equate "critical analysis" with "finding faults." They write: "The play is unrealistic because body-swaps don\'t happen".' }
           ],
             remediations: { 'students-often-equate-critical-analysis': { steps: ['Ask the student to list three things Mrs.', 'Pearson does *differently* after the swap (smokes, refuses tea, insults Charlie Spence, demands manners).', 'For each, ask: "What does this action *reveal* about the family\'s normal routine?" 3.', 'Then ask: "Why does Priestley need a magic spell to make her do these things?" 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter "Mother\'s Day" refers to the ability.',
+          question: 'Writing skills from \'Mother\'s Day\' — using the text as a model or springboard.',
           hint: 'Review the PEEL method using a simple non-literary example (e.g., "School uniforms should.',
           misconception: 'Students believe "Writing Skills based on the chapter" means retelling the story in a different format (e.g., a diary.',
           parts: [
@@ -102,7 +102,7 @@ export const c11_eng_s_ch03_p3: SimDef = {
           ],
             remediations: { 'writing-skills-based-on-the': { steps: ['Show the student a side-by-side comparison: a plot-summary diary entry vs.', 'an analytical one (same events, different focus).', 'Have them highlight every sentence in their draft that is *not* a direct reaction/feeling/analysis — delete those.', 'Practice "Evidence Hunting": give them a question (e.g., "Show Doris\'s selfishness") and have them find *exact lines*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Mother\'s Day\' — speaking and listening around the text.',
           hint: 'Review the "Critical Thinking: Analysis and Interpretation" node (c11_eng_s_cbse_03_013).',
           misconception: 'Students believe a "discussion" means everyone politely sharing opinions without disagreement.',
           parts: [

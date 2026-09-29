@@ -6,13 +6,13 @@ import C12_PhysicsGeneratorSim from '../../../simulations/c6_12/C12_PhysicsGener
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsgeneratorsim: SimDef = {
     id: 'v3w_c12_physicsgeneratorsim',
-    title: 'Generator',
+    title: 'Faraday\'s Law of Electromagnetic Induction',
     subtitle: 'This node covers: magnetic flux definition and calculation, Faraday\'s law statement and.',
     classLevel: 12, subject: 'physics', topic: 'Faraday\'s Law of Electromagnetic Induction',
     chapters: [],
     nodeIds: ['c12_phy_cbse_06_001', 'c12_phy_cbse_06_003', 'c12_phy_cbse_06_005', 'c12_phy_cbse_06_007', 'c12_phy_cbse_08_002', 'c12_phy_cbse_02_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a ceiling fan\'s motor — when you switch it on, the fan starts rotating due to induced currents from.', goal: 'Master Generator.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a ceiling fan\'s motor — when you switch it on, the fan starts rotating due to induced currents from.', goal: 'Master Faraday\'s Law of Electromagnetic Induction.' },
     discovery: {
         question: 'A square loop of side 20 cm and resistance 2 Ω is placed with its plane perpendicular to a uniform magnetic field of 0.5 T.',
         options: ['Given: side = 0.2 m → A = 0.04 m²', 'A powerful magnet placed near a coil induces current', 'magnetic field lines cutting the coil'],
@@ -71,7 +71,7 @@ export const w_c12_physicsgeneratorsim: SimDef = {
             { text: 'Verify: E = 6000 V/m is reasonable (well below dielectric strength of typical dielectrics ~10⁷ V/m).', faded: true, blankAnswer: '(a) C = 221 pF, (b) Q = 2.66 nC, (c) E = 6000 V/m, (d) P =.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_06_003', title: 'Identify each idea',
-          dissect: { specimen: 'Generator', spots: [
+          dissect: { specimen: 'Faraday\'s Law of Electromagnetic Induction', spots: [
             { id: 's1', label: 'Faradays Law of Electromagnetic Induction', prompt: 'Which idea is this? — Faraday\'s Law of Electromagnetic Induction states that the magnitude of the induced.', answer: 'Faradays Law of Electromagnetic Induction', options: ['Faradays Law of Electromagnetic Induction', 'Motional EMF is the electromotive', 'An AC generator is a', 'Eddy currents are circulating currents'] },
             { id: 's2', label: 'Motional EMF is the electromotive', prompt: 'Which idea is this? — Motional EMF is the electromotive force induced across the ends of a conductor moving.', answer: 'Motional EMF is the electromotive', options: ['Motional EMF is the electromotive', 'Faradays Law of Electromagnetic Induction', 'An AC generator is a', 'Eddy currents are circulating currents'] },
             { id: 's3', label: 'An AC generator is a', prompt: 'Which idea is this? — An AC generator is a device that converts mechanical energy into alternating current.', answer: 'An AC generator is a', options: ['An AC generator is a', 'Faradays Law of Electromagnetic Induction', 'Motional EMF is the electromotive', 'Eddy currents are circulating currents'] },
@@ -80,7 +80,7 @@ export const w_c12_physicsgeneratorsim: SimDef = {
             { id: 's6', label: 'A dielectric is an insulating', prompt: 'Which idea is this? — A dielectric is an insulating material with no free charge carriers that, when placed in.', answer: 'A dielectric is an insulating', options: ['A dielectric is an insulating', 'Faradays Law of Electromagnetic Induction', 'Motional EMF is the electromotive', 'An AC generator is a'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsGeneratorSim, prompt: 'Explore the interactive — Generator' },
+    explore: { component: C12_PhysicsGeneratorSim, prompt: 'Explore the interactive — Faraday\'s Law of Electromagnetic Induction' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_06_001', difficulty: 'standard',
           question: 'Faraday\'s Law of Electromagnetic Induction states that the magnitude of the.',

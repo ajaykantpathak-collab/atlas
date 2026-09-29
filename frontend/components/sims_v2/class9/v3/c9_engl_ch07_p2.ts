@@ -96,12 +96,12 @@ export const c9_engl_ch07_p2: SimDef = {
           ],
             remediations: { 'imagery-means-only-visual-description': { steps: ['Give the student a short prose extract (not a poem) from the chapter and ask them to highlight words for each sense.', 'Have them label each highlight with V, A, T, O, G.', 'Ask: “If you remove all tactile words, what happens to the reader’s sense of Khetaram’s struggle?” 4.', 'Guide them to write a two-sentence explanation linking the remaining sensory gaps to the theme.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c9_engl_ch7_7', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
+          question: 'From \'English chapter c9_engl_ch7\': the skill or concept this node teaches.',
           hint: 'If stuck, review **Class 6/7/8 Vocabulary in Context nodes** (especially.',
           misconception: 'Students believe **"Vocabulary in Context" means "Guess the meaning from the sentence alone."** They read only the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context refers to the skill of determining the precise meaning,',
-                  options: ['Vocabulary in Context refers to the skill of determining the precise meaning,', 'A text summary is a concise, objective restatement of a story\'s main events, central', 'Communication infrastructure refers to the physical and organizational systems—such as', 'A character study is a detailed analysis of a literary figure\'s personality traits,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c9_engl_ch7\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c9_engl_ch7\': the skill or concept this node teaches, applied to', 'A text summary is a concise, objective restatement of a story\'s main events, central', 'Communication infrastructure refers to the physical and organizational systems—such as', 'A character study is a detailed analysis of a literary figure\'s personality traits,'],
                   hint: 'If stuck, review **Class 6/7/8 Vocabulary in Context nodes** (especially c6_english_u1_007.',
                   misconception: 'Students believe **"Vocabulary in Context" means "Guess the meaning from the sentence alone."** They read only the immediate sentence.' }
           ],

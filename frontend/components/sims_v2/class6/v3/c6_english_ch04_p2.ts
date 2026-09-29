@@ -79,7 +79,7 @@ export const c6_english_ch04_p2: SimDef = {
           misconception: 'Students often try to guess a word\'s meaning by looking only at the word itself rather than the full sentence.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in context is the skill of using clues within a sentence or paragraph to',
-                  options: ['Vocabulary in context is the skill of using clues within a sentence or paragraph to', 'The "plot" is the sequence of events that make up a story\'s action, while the "setting"', 'Character analysis is the process of identifying a character\'s personality traits,', 'Courage and adventure are literary themes where a character chooses to face something'],
+                  options: ['Vocabulary in context is the skill of using clues within a sentence or paragraph to', 'The "plot" is the sequence of events that make up a story\'s action, while the "setting"', 'From \'is the sequence of events that make up a story\': the skill or concept this node', 'Courage and adventure are literary themes where a character chooses to face something'],
                   hint: 'Review the "Let\'s learn" section of the unit for word-in-sentence practice.',
                   misconception: 'Students often try to guess a word\'s meaning by looking only at the word itself rather than the full sentence.' }
           ],

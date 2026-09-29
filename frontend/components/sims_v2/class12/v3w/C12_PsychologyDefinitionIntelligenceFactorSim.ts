@@ -6,13 +6,13 @@ import C12_PsychologyDefinitionIntelligenceFactorSim from '../../../simulations/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_psychologydefinitionintelligencefactorsim: SimDef = {
     id: 'v3w_c12_psychologydefinitionintelligencefactorsim',
-    title: 'Definition Intelligence Factor',
+    title: 'Gardner\'s Theory of Multiple Intelligences: Eight Independent Types',
     subtitle: 'This node covers Gardner\'s eight intelligences, their defining characteristics, and the.',
     classLevel: 12, subject: 'psychology', topic: 'Gardner\'s Theory of Multiple Intelligences: Eight Independent Types',
     chapters: [],
     nodeIds: ['c12_psy_cbse_01_005', 'c12_psy_cbse_01_002', 'c12_psy_cbse_01_003', 'c12_psy_cbse_01_011', 'c12_psy_cbse_01_012', 'c12_psy_cbse_01_001', 'c12_psy_cbse_01_004', 'c12_psy_cbse_01_007', 'c12_psy_cbse_01_008', 'c12_psy_cbse_06_008', 'c12_psy_cbse_06_005', 'c12_psy_cbse_01_006', 'c12_psy_cbse_01_010', 'c12_psy_cbse_07_001', 'c12_psy_cbse_01_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a Class 12 student, Arjun, who struggles with textbook mathematics but can effortlessly compose.', goal: 'Master Definition Intelligence Factor.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a Class 12 student, Arjun, who struggles with textbook mathematics but can effortlessly compose.', goal: 'Master Gardner\'s Theory of Multiple Intelligences: Eight Independent Types.' },
     discovery: {
         question: 'A student writes: "Gardner\'s theory says there are 8 types of intelligence, and everyone has all 8 in equal amounts." Identify the error in this statement and.',
         options: ['The statement contains two errors', 'A wrong answer reveals the student conflates', 'everyone is smart in their own way'],
@@ -79,7 +79,7 @@ export const w_c12_psychologydefinitionintelligencefactorsim: SimDef = {
             { text: 'Clarify that while reaction time involves physiological processes, it is studied as a psychological attribute because.', faded: true, blankAnswer: 'The study shows individual differences because students.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_psy_cbse_01_002', title: 'Identify each idea',
-          dissect: { specimen: 'Definition Intelligence Factor', spots: [
+          dissect: { specimen: 'Gardner\'s Theory of Multiple Intelligences: Eight Independent Types', spots: [
             { id: 's1', label: 'Gardners Theory of Multiple Intelligences', prompt: 'Which idea is this? — Gardner\'s Theory of Multiple Intelligences proposes that intelligence is not a single.', answer: 'Gardners Theory of Multiple Intelligences', options: ['Gardners Theory of Multiple Intelligences', 'Assessment of psychological attributes is', 'Intelligence is a psychological construct', 'Culture and intelligence refers to'] },
             { id: 's2', label: 'Assessment of psychological attributes is', prompt: 'Which idea is this? — Assessment of psychological attributes is the systematic, standardized process of.', answer: 'Assessment of psychological attributes is', options: ['Assessment of psychological attributes is', 'Gardners Theory of Multiple Intelligences', 'Intelligence is a psychological construct', 'Culture and intelligence refers to'] },
             { id: 's3', label: 'Intelligence is a psychological construct', prompt: 'Which idea is this? — Intelligence is a psychological construct defined by Alfred Binet as the ability to judge.', answer: 'Intelligence is a psychological construct', options: ['Intelligence is a psychological construct', 'Gardners Theory of Multiple Intelligences', 'Assessment of psychological attributes is', 'Culture and intelligence refers to'] },
@@ -88,7 +88,7 @@ export const w_c12_psychologydefinitionintelligencefactorsim: SimDef = {
             { id: 's6', label: 'Individual differences refer to the', prompt: 'Which idea is this? — Individual differences refer to the distinctiveness and variability among people in their.', answer: 'Individual differences refer to the', options: ['Individual differences refer to the', 'Gardners Theory of Multiple Intelligences', 'Assessment of psychological attributes is', 'Intelligence is a psychological construct'] }
           ] } }
     ],
-    explore: { component: C12_PsychologyDefinitionIntelligenceFactorSim, prompt: 'Explore the interactive — Definition Intelligence Factor' },
+    explore: { component: C12_PsychologyDefinitionIntelligenceFactorSim, prompt: 'Explore the interactive — Gardner\'s Theory of Multiple Intelligences: Eight Independent Types' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_psy_cbse_01_005', difficulty: 'standard',
           question: 'Gardner\'s Theory of Multiple Intelligences proposes that intelligence is not a.',

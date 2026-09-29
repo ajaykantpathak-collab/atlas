@@ -6,13 +6,13 @@ import C12_PhysicsNucleiCBSESim from '../../../simulations/c6_12/C12_PhysicsNucl
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsnucleicbsesim: SimDef = {
     id: 'v3w_c12_physicsnucleicbsesim',
-    title: 'Nuclei CBSE',
+    title: 'Nuclear Fission: Chain Reaction and Energy Release',
     subtitle: 'This node covers: (1) the fission process for U-235 and Pu-239 with typical fragment.',
     classLevel: 12, subject: 'physics', topic: 'Nuclear Fission: Chain Reaction and Energy Release',
     chapters: [],
     nodeIds: ['c12_phy_cbse_13_004', 'c12_phy_cbse_13_005', 'c12_phy_cbse_13_006', 'c12_phy_cbse_13_007', 'c12_phy_cbse_12_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a household LPG cylinder: it stores chemical energy released by combustion.', goal: 'Master Nuclei CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a household LPG cylinder: it stores chemical energy released by combustion.', goal: 'Master Nuclear Fission: Chain Reaction and Energy Release.' },
     discovery: {
         question: 'State the typical energy released per fission of a U-235 nucleus and the average number of neutrons emitted per fission.',
         options: ['~200 MeV per fission', 'destroying protons/neutrons', 'converting mass into energy'],
@@ -71,7 +71,7 @@ export const w_c12_physicsnucleicbsesim: SimDef = {
             { text: 'N₂ = 1000 × 0.01792 = 17.92 ≈ 18 particles per minute.', faded: true, blankAnswer: '18 particles per minute (at 90°).' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_13_005', title: 'Identify each idea',
-          dissect: { specimen: 'Nuclei CBSE', spots: [
+          dissect: { specimen: 'Nuclear Fission: Chain Reaction and Energy Release', spots: [
             { id: 's1', label: 'Nuclear fission is a nuclear', prompt: 'Which idea is this? — Nuclear fission is a nuclear reaction in which a heavy nucleus (such as uranium-235 or.', answer: 'Nuclear fission is a nuclear', options: ['Nuclear fission is a nuclear', 'Nuclear fusion is the process', 'Radioactivity is the spontaneous nuclear', 'The law of radioactive decay'] },
             { id: 's2', label: 'Nuclear fusion is the process', prompt: 'Which idea is this? — Nuclear fusion is the process in which two or more light atomic nuclei combine to form a.', answer: 'Nuclear fusion is the process', options: ['Nuclear fusion is the process', 'Nuclear fission is a nuclear', 'Radioactivity is the spontaneous nuclear', 'The law of radioactive decay'] },
             { id: 's3', label: 'Radioactivity is the spontaneous nuclear', prompt: 'Which idea is this? — Radioactivity is the spontaneous nuclear process in which an unstable atomic nucleus.', answer: 'Radioactivity is the spontaneous nuclear', options: ['Radioactivity is the spontaneous nuclear', 'Nuclear fission is a nuclear', 'Nuclear fusion is the process', 'The law of radioactive decay'] },
@@ -79,7 +79,7 @@ export const w_c12_physicsnucleicbsesim: SimDef = {
             { id: 's5', label: 'Rutherfords nuclear model of the', prompt: 'Which idea is this? — Rutherford\'s nuclear model of the atom states that the entire positive charge and nearly.', answer: 'Rutherfords nuclear model of the', options: ['Rutherfords nuclear model of the', 'Nuclear fission is a nuclear', 'Nuclear fusion is the process', 'Radioactivity is the spontaneous nuclear'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsNucleiCBSESim, prompt: 'Explore the interactive — Nuclei CBSE' },
+    explore: { component: C12_PhysicsNucleiCBSESim, prompt: 'Explore the interactive — Nuclear Fission: Chain Reaction and Energy Release' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_13_004', difficulty: 'standard',
           question: 'Nuclear fission is a nuclear reaction in which a heavy nucleus (such as.',

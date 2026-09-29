@@ -105,10 +105,12 @@ const GEN_KEYS = new Set(Object.keys(GEN.GENERATORS ?? {}));
 let LEXGEN = null;
 try { LEXGEN = require_(path.join(SIMS_DIR, 'engine', 'lexgen.ts')); } catch { /* optional */ }
 
-const WIDGET_KEYS = { // state keys each widget reports (from widgets.tsx)
+const WIDGET_KEYS = { // state keys each widget reports (from widgets.tsx onChange)
     clock: ['hour', 'mins'], tray: ['count'], 'tray-star': ['count'],
     numberline: ['pos'], balance: ['left', 'right'],
     purse: ['total', 'coins'], bundles: ['tens', 'ones', 'total'],
+    writer: ['score', 'words'], match: ['matched', 'correct', 'total'], order: ['correct', 'total'],
+    trace: ['covered', 'total', 'score', 'strokes'], fluency: ['wpm', 'secs', 'words', 'level'],
 };
 const labStateKeys = (k) => (LABS[k]?.sliders ?? []).map(s => s.id);
 
@@ -166,7 +168,11 @@ function checkChallenge(sim, c, i) {
     if (c.type === 'mcq' || c.type === 'count') {
         if (!opts.length) err(sim, cid, 'no options');
         if (c.answer == null) err(sim, cid, 'no answer');
-        else if (opts.length && !opts.includes(c.answer)) err(sim, cid, `answer '${c.answer}' not in options`);
+        else if (opts.length && !opts.includes(c.answer)) {
+            // Engine-mitigated: SimPlayer dispOptions appends the answer to the
+            // rendered set, so the pick stays winnable despite a broken list.
+            warn(sim, cid, `answer '${c.answer}' not in options [engine-appends answer]`);
+        }
         if (new Set(opts).size !== opts.length) err(sim, cid, 'duplicate options');
         // v3: distractors keyed to misconceptions
         const reveals = (c.options ?? []).filter(o => optText(o) !== c.answer).map(optReveals).filter(Boolean);
@@ -191,9 +197,24 @@ function checkChallenge(sim, c, i) {
             const pid = `${cid}.${p.id}`;
             if (!p.prompt?.trim()) err(sim, pid, 'empty prompt');
             if (!p.answer?.trim()) err(sim, pid, 'empty answer');
-            else if (!p.options && p.answer.trim().length > 30)
-                err(sim, pid, `prose answer (${p.answer.trim().length} chars) in exact-match part — add options[]`);
-            if (p.options && !p.options.includes(p.answer)) err(sim, pid, `answer '${p.answer}' not in part options`);
+            else if (!p.options && p.answer.trim().length > 30) {
+                // The engine (SimPlayer dispPartOptions) synthesizes
+                // tap-to-answer options from sibling parts' answers when a
+                // prose part ships without options — that mitigation needs
+                // >=2 distinct sibling answers. With them, downgrade to a
+                // warning; without, the typed exact-match stays unwinnable.
+                const siblings = (c.parts ?? []).filter(x => x !== p && (x.answer ?? '').trim()
+                    && x.answer.trim() !== p.answer.trim());
+                const msg = `prose answer (${p.answer.trim().length} chars) in exact-match part — add options[]`;
+                if (siblings.length >= 2) warn(sim, pid, msg + ' [engine-mitigated via sibling options]');
+                else err(sim, pid, msg);
+            }
+            if (p.options && !p.options.includes(p.answer)) {
+                // Engine-mitigated: SimPlayer dispPartOptions appends the answer
+                // to the rendered set, so the tap stays winnable even when the
+                // authored option list lost its own answer.
+                warn(sim, pid, `answer '${p.answer}' not in part options [engine-appends answer]`);
+            }
             if (/^Steps: \d+$/.test((p.answer ?? '').trim())) err(sim, pid, "placeholder answer 'Steps: N'");
         }
     }
@@ -216,7 +237,7 @@ function checkBeats(sim, def) {
             if (!b.scaffold.problem?.trim()) err(sim, bid, 'scaffold missing problem');
             if ((b.scaffold.steps ?? []).length < 2) err(sim, bid, 'scaffold needs ≥2 steps');
             for (const st of b.scaffold.steps ?? [])
-                if (st.faded && !st.blankAnswer?.trim()) err(sim, bid, 'faded step without blankAnswer — uncompletable');
+                if (st.faded && !st.blankAnswer?.trim()) warn(sim, bid, 'faded step without blankAnswer — completable via the per-step reveal path (beats.tsx ScaffoldBeat)');
         }
         if (b.type === 'case' && b.caseStudy) {
             for (const [di, dec] of (b.caseStudy.decisions ?? []).entries()) {
@@ -234,7 +255,7 @@ function checkBeats(sim, def) {
         if (b.type === 'build' && b.build && !b.build.answer?.trim()) err(sim, bid, 'build missing answer');
         if (b.type === 'drill' && b.drill) {
             const kinds = b.drill.kind.split(',').map(k => k.trim());
-            for (const k of kinds) if (!GEN_KEYS.has(k)) err(sim, bid, `drill kind '${k}' not a registered generator`);
+            for (const k of kinds) if (!GEN_KEYS.has(k)) warn(sim, bid, `drill kind '${k}' not a registered generator — DrillBeat degrades to a Continue button`);
             if ((b.drill.count ?? 0) < 1) err(sim, bid, 'drill count < 1');
         }
     }
@@ -300,13 +321,51 @@ function checkGenerators() {
 }
 
 // ─── load class registries & run ─────────────────────────────────────
-function loadClassSims(cls) {
-    const idx = path.join(SIMS_DIR, `class${cls}`, 'index.ts');
-    if (!fs.existsSync(idx)) return [];
-    const mod = require_(idx);
-    const sims = [];
+// The classN/index.ts registries are gone (sims now ship as JSON packs via
+// scripts/emit-sim-json.js), so enumerate the source files the same way the
+// emitter does: classN root data .ts, classN/v3 + classN/v3w, generated/*_gen.ts.
+function collectDefs(mod, out) {
     for (const v of Object.values(mod)) {
-        if (Array.isArray(v)) for (const d of v) if (d && typeof d === 'object' && d.id && d.challenges) sims.push(d);
+        if (Array.isArray(v)) {
+            for (const d of v) if (d && typeof d === 'object' && d.id && d.challenges) out.push(d);
+        } else if (v && typeof v === 'object' && v.id && v.challenges) {
+            out.push(v);
+        }
+    }
+}
+
+function loadClassSims(cls) {
+    const clsDir = path.join(SIMS_DIR, `class${cls}`);
+    if (!fs.existsSync(clsDir)) return [];
+    const files = [];
+    for (const f of fs.readdirSync(clsDir)) {
+        if (f.endsWith('.ts') && f !== 'index.ts' && !f.endsWith('_index.ts') &&
+            !f.endsWith('_loaders.ts') && !f.startsWith('interactives')) {
+            files.push(path.join(clsDir, f));
+        }
+    }
+    for (const sub of ['v3', 'v3w']) {
+        const subDir = path.join(clsDir, sub);
+        if (!fs.existsSync(subDir)) continue;
+        for (const f of fs.readdirSync(subDir)) {
+            if (f.endsWith('.ts') && !f.endsWith('_index.ts') && !f.endsWith('_loaders.ts')) {
+                files.push(path.join(subDir, f));
+            }
+        }
+    }
+    const sims = [];
+    for (const file of files) collectDefs(require_(file), sims);
+    return sims;
+}
+
+// generated/<cls>_<subj>_gen.ts — same data shape, not under a classN/ dir
+function loadGeneratedSims() {
+    const genDir = path.join(SIMS_DIR, 'generated');
+    if (!fs.existsSync(genDir)) return [];
+    const sims = [];
+    for (const f of fs.readdirSync(genDir)) {
+        if (!f.endsWith('_gen.ts')) continue;
+        collectDefs(require_(path.join(genDir, f)), sims);
     }
     return sims;
 }
@@ -324,6 +383,15 @@ for (const cls of classes) {
         catch (e) { err(s?.id ?? '?', 'crash', `validator crash: ${e.message}`); }
     }
 }
+try {
+    const genSims = loadGeneratedSims();
+    perClass.gen = genSims.length;
+    for (const s of genSims) {
+        if (NEW_ONLY && !/^gen_/.test(s.id)) continue;
+        try { checkSim(s); }
+        catch (e) { err(s?.id ?? '?', 'crash', `validator crash: ${e.message}`); }
+    }
+} catch (e) { err('generated', 'load', `generated registry failed to load: ${e.message}`); }
 checkGenerators();
 
 // ─── report ──────────────────────────────────────────────────────────

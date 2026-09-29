@@ -6,13 +6,13 @@ import C11_AppliedMathsLimitsAlgebraicTrigonometricSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_appliedmathslimitsalgebraictrigonometricsim: SimDef = {
     id: 'v3w_c11_appliedmathslimitsalgebraictrigonometricsim',
-    title: 'Applied Maths Limits Algebraic Trigonometric',
+    title: 'Intuitive Idea of Limits',
     subtitle: 'Covers the intuitive concept of limits using numerical tables and graphical reasoning for.',
     classLevel: 11, subject: 'science', topic: 'Intuitive Idea of Limits',
     chapters: [],
     nodeIds: ['c11_math_cbse_13_001', 'c11_math_cbse_13_002', 'c11_math_cbse_13_003', 'c11_math_cbse_13_008', 'c11_math_cbse_03_013', 'c11_math_cbse_13_004', 'c11_math_cbse_13_006', 'c11_math_cbse_13_010', 'c11_math_cbse_02_011', 'c11_math_cbse_13_005', 'c11_math_cbse_03_008', 'c11_math_cbse_03_009', 'c11_math_cbse_13_007', 'c11_math_cbse_13_009', 'c11_math_cbse_02_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re tracking a car approaching a toll booth at exactly 60 km/h.', goal: 'Master Applied Maths Limits Algebraic Trigonometric.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re tracking a car approaching a toll booth at exactly 60 km/h.', goal: 'Master Intuitive Idea of Limits.' },
     discovery: {
         question: 'Consider f(x) = { x² if x < 2; 5 if x = 2; x+2 if x > 2 }. A student claims "lim_{x→2} f(x) does not exist because f(2) = 5, not 4." Explain why this reasoning.',
         options: ['The student incorrectly equates the function value at the point with the limit', 'The limit doesn\'t exist', 'limit = function value, a fundamental misconception'],
@@ -79,7 +79,7 @@ export const w_c11_appliedmathslimitsalgebraictrigonometricsim: SimDef = {
             { text: 'Interpret: The instantaneous velocity at \\(t = 2\\) s is \\(-3\\) m/s (negative means moving backward).', faded: true, blankAnswer: '\\(-3\\) m/s' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_13_002', title: 'Identify each idea',
-          dissect: { specimen: 'Applied Maths Limits Algebraic Trigonometric', spots: [
+          dissect: { specimen: 'Intuitive Idea of Limits', spots: [
             { id: 's1', label: 'The limit of a function', prompt: 'Which idea is this? — The limit of a function f(x) as x approaches a value \'a\' is the value L that f(x) gets.', answer: 'The limit of a function', options: ['The limit of a function', 'Algebraic methods of evaluating limits', 'The limits of trigonometric functions', 'The derivative of a function'] },
             { id: 's2', label: 'Algebraic methods of evaluating limits', prompt: 'Which idea is this? — Algebraic methods of evaluating limits involve manipulating an algebraic expression f(x).', answer: 'Algebraic methods of evaluating limits', options: ['Algebraic methods of evaluating limits', 'The limit of a function', 'The limits of trigonometric functions', 'The derivative of a function'] },
             { id: 's3', label: 'The limits of trigonometric functions', prompt: 'Which idea is this? — The limits of trigonometric functions as the variable approaches zero are evaluated using.', answer: 'The limits of trigonometric functions', options: ['The limits of trigonometric functions', 'The limit of a function', 'Algebraic methods of evaluating limits', 'The derivative of a function'] },
@@ -88,7 +88,7 @@ export const w_c11_appliedmathslimitsalgebraictrigonometricsim: SimDef = {
             { id: 's6', label: 'The limit of a polynomial', prompt: 'Which idea is this? — The limit of a polynomial function \\(p(x)\\) as \\(x\\) approaches \\(a\\) is simply \\(p(a)\\),.', answer: 'The limit of a polynomial', options: ['The limit of a polynomial', 'The limit of a function', 'Algebraic methods of evaluating limits', 'The limits of trigonometric functions'] }
           ] } }
     ],
-    explore: { component: C11_AppliedMathsLimitsAlgebraicTrigonometricSim, prompt: 'Explore the interactive — Applied Maths Limits Algebraic Trigonometric' },
+    explore: { component: C11_AppliedMathsLimitsAlgebraicTrigonometricSim, prompt: 'Explore the interactive — Intuitive Idea of Limits' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_13_001', difficulty: 'standard',
           question: 'The limit of a function f(x) as x approaches a value \'a\' is the value L that.',

@@ -19,7 +19,7 @@ export const c11_eng_w_ch04_p1: SimDef = {
         hook: 'The story is a double helix — Watson chases the whimsical fake plot while Holmes reads the real one in an American spelling and a frayed coat.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" provides the essential historical, literary, and biographical framework needed to interpret *The Adventure of the Three Garridebs*.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Adventure of the Three Garridebs\' (Woven Words, ch. 4) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_04_001', title: 'Your mission',
@@ -29,27 +29,27 @@ export const c11_eng_w_ch04_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_04_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are handed a sealed case file labeled "Three Garridebs – June 1902." Before you open it, you need to know the detective\'s methods, the city\'s mood.',
+          caseStudy: { intro: 'Start with the author of \'The Adventure of the Three Garridebs\', then the period, then the literary context — background turns a text from a puzzle into.',
             decisions: [{ prompt: 'Who is the narrator of *The Adventure of the Three Garridebs*, and what is his professional relationship to Sherlock Holmes?', options: [
                 { text: 'The narrator is Dr', outcome: 'The narrator is Dr. John Watson, a medical doctor and Holmes\'s flatmate, chronicler, and frequent.' },
                 { text: 'Holmes narrates', outcome: 'Not quite — Students often think "context" means memorizing the author\'s birth/death dates and the story\'s.', reveals: 'context-means-memorizing-the-author' },
                 { text: 'an omniscient narrator', outcome: 'Not quite — Students often think "context" means memorizing the author\'s birth/death dates and the story\'s.', reveals: 'context-means-memorizing-the-author' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_04_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are a detective yourself, trying to understand the master detective.',
+          caseStudy: { intro: 'Pick the central figure in \'The Adventure of the Three Garridebs\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the primary role of a protagonist in a short story, and how does Sherlock Holmes fulfill this role in "The Adventure of the Three.', options: [
                 { text: 'The protagonist is the central character who drives the plot forward through their', outcome: 'The protagonist is the central character who drives the plot forward through their actions and.' },
                 { text: 'Three Garridebs', outcome: 'Not quite — Students often think character analysis means listing adjectives (e.g., "Holmes is smart.', reveals: 'character-analysis-means-listing-adjectives' },
                 { text: 'Holmes is smart, observant, cold', outcome: 'Not quite — Students often think character analysis means listing adjectives (e.g., "Holmes is smart.', reveals: 'character-analysis-means-listing-adjectives' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_04_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are a criminal profiler trying to understand why a seemingly harmless collector was targeted by a master criminal.',
+          caseStudy: { intro: 'Spot the secondary figures in \'The Adventure of the Three Garridebs\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List the two main supporting characters in "The Adventure of the Three Garridebs" and state their stated professions/identities when first.', options: [
                 { text: 'The two main supporting characters are John Garrideb (introduced as a Counsellor at Law', outcome: 'The two main supporting characters are John Garrideb (introduced as a Counsellor at Law from.' },
                 { text: 'Holmes or Watson, or missing one', outcome: 'Not quite — Students often treat John Garrideb as merely a "greedy lawyer" and Nathan Garrideb as merely.', reveals: 'students-often-treat-john-garrideb' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_04_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are watching a mystery movie where a seemingly harmless inheritance scheme hides a dangerous criminal operation.',
+          caseStudy: { intro: 'Ask what \'The Adventure of the Three Garridebs\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the difference between the plot of a story and its primary theme?', options: [
                 { text: 'The plot is the sequence of events that happen in the story (e.g., Holmes investigates a', outcome: 'The plot is the sequence of events that happen in the story (e.g., Holmes investigates a fake.' },
                 { text: 'what happens', outcome: 'Not quite — Students often believe the primary theme is simply "Sherlock Holmes solves a mystery" or "greed.', reveals: 'the-primary-theme-is-simply' },
@@ -74,7 +74,7 @@ export const c11_eng_w_ch04_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" provides the essential historical.',
+          question: '\'The Adventure of the Three Garridebs\' (Woven Words, ch. 4) — the context and.',
           hint: 'If stuck, review c8_engl_ch3_4 (Detective Genre: Clues, Deduction, and Problem-Solving).',
           misconception: 'Students often think "context" means memorizing the author\'s birth/death dates and the story\'s publication year.',
           parts: [
@@ -100,29 +100,29 @@ export const c11_eng_w_ch04_p1: SimDef = {
           ],
             remediations: { 'context-means-memorizing-the-author': { steps: ['If a student reduces context to biography, do this: 1) Hand them a 1902 London map and ask them to trace Little Ryder.', '2) Show a 1902 newspaper snippet about Boer War veterans turning to crime.', '3) Have them role-play Holmes reading the directory: "Why does *this* name appear *now*?" 4) Require them to rewrite.', 'This forces context to function as analytical leverage, not trivia.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_002', difficulty: 'standard',
-          question: 'Plot and narrative structure refer to the organized sequence of events in.',
+          question: 'The plot/narrative arc of \'The Adventure of the Three Garridebs\' — what.',
           hint: 'If stuck, re-read the story focusing only on Holmes\'s actions and deductions (ignore.',
           misconception: 'Students conflate the *fake inheritance plot* (three Garridebs, five million dollars, Birmingham trip) with the *actual.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot and narrative structure refer to the organized sequence of events in a story and the',
-                  options: ['Plot and narrative structure refer to the organized sequence of events in a story and the', '"Before You Read: Context and Background" provides the essential historical, literary,', 'Setting is the specific time, place, and social environment in', 'Character analysis of a protagonist involves examining the main character\'s traits,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The plot/narrative arc of \'The Adventure of the Three Garridebs\'',
+                  options: ['The plot/narrative arc of \'The Adventure of the Three Garridebs\'', '\'The Adventure of the Three Garridebs\' (Woven Words, ch', 'The setting of \'The Adventure of the Three Garridebs\'', 'Character analysis in \'The Adventure of the Three Garridebs\''],
                   hint: 'If stuck, re-read the story focusing only on Holmes\'s actions and deductions (ignore Watson\'s.',
                   misconception: 'Students conflate the *fake inheritance plot* (three Garridebs, five million dollars, Birmingham trip) with the *actual narrative plot*.' }
           ],
             remediations: { 'students-conflate-the-fake-inheritance': { steps: ['Draw a two-column table: left column \'Fake Plot Events\' (letter, directory search, John Garrideb\'s tale, advertisement.', 'Ask the student to match each fake event to its real purpose (e.g., advertisement → lure Nathan out).', 'Have them retell the story in 3 sentences using only the right column.', 'Finally, rewrite the plot pyramid using only real-plot events.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_003', difficulty: 'standard',
-          question: 'Setting is the specific time, place, and social environment in which.',
+          question: 'The setting of \'The Adventure of the Three Garridebs\' — the place, time and.',
           hint: 'If stuck, re-read the Class 7 "The Tunnel" nodes (c7_engl_ch04_005, c7_engl_ch04_008) and.',
           misconception: 'Students often treat setting as a static "background painting" and atmosphere as a single adjective ("scary," "cozy").',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting is the specific time, place, and social environment in',
-                  options: ['Setting is the specific time, place, and social environment in', '"Before You Read: Context and Background" provides the essential historical, literary,', 'Plot and narrative structure refer to the organized sequence of events in a story and the', 'Character analysis of a protagonist involves examining the main character\'s traits,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'The Adventure of the Three Garridebs\'',
+                  options: ['The setting of \'The Adventure of the Three Garridebs\'', '\'The Adventure of the Three Garridebs\' (Woven Words, ch', 'The plot/narrative arc of \'The Adventure of the Three Garridebs\'', 'Character analysis in \'The Adventure of the Three Garridebs\''],
                   hint: 'If stuck, re-read the Class 7 "The Tunnel" nodes (c7_engl_ch04_005, c7_engl_ch04_008) and practice.',
                   misconception: 'Students often treat setting as a static "background painting" and atmosphere as a single adjective ("scary," "cozy").' }
           ],
             remediations: { 'students-often-treat-setting-as': { steps: ['Have the student create a two-column table: Column A = "Daytime Visit Details" (quote 5 phrases), Column B = "Night.', 'Ask: "Which column feels like a comedy?', 'Which feels like a thriller?', 'Guide them to write one PEEL paragraph: *Point* (Atmosphere shifts), *Evidence* (contrast "golden and wonderful".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_004', difficulty: 'standard',
-          question: 'Character analysis of a protagonist involves examining the main character\'s.',
+          question: 'Character analysis in \'The Adventure of the Three Garridebs\' — the central.',
           hint: 'If stuck, review the PEEL paragraph structure from Class 9 (c9_engl_ch6_2) and the list.',
           misconception: 'Students often think character analysis means listing adjectives (e.g., "Holmes is smart, observant, cold") without.',
           parts: [
@@ -133,7 +133,7 @@ export const c11_eng_w_ch04_p1: SimDef = {
           ],
             remediations: { 'character-analysis-means-listing-adjectives': { steps: ['If a student lists traits without evidence, have them reread the story with a highlighter, marking every action Holmes.', 'Then, for each highlighted action, ask: "What does this action show about him?" and "Why does it matter to the plot?".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves examining their.',
+          question: 'Supporting characters in \'The Adventure of the Three Garridebs\' — the secondary.',
           hint: 'Review the STEAL method practiced in c11_eng_w_cbse_04_004 and the plot timeline.',
           misconception: 'Students often treat John Garrideb as merely a "greedy lawyer" and Nathan Garrideb as merely a "foolish old man." The.',
           parts: [
@@ -144,7 +144,7 @@ export const c11_eng_w_ch04_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-john-garrideb': { steps: ['Re-read the two interview scenes (John\'s first visit pp.', '42-47) with a highlighter, marking every physical detail and direct quote in two colors.', 'Create a T-chart: "What the character says about themselves" vs.', '"What Holmes/narrator reveals." 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
+          question: 'The primary theme of \'The Adventure of the Three Garridebs\' — the central idea.',
           hint: 'If stuck, review the plot node (c11_eng_w_cbse_04_002) to recall the sequence of the.',
           misconception: 'Students often believe the primary theme is simply "Sherlock Holmes solves a mystery" or "greed leads to downfall.".',
           parts: [

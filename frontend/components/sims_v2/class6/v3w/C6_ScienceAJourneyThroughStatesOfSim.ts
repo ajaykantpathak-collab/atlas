@@ -6,13 +6,13 @@ import C6_ScienceAJourneyThroughStatesOfSim from '../../../simulations/c6_12/C6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_scienceajourneythroughstatesofsim: SimDef = {
     id: 'v3w_c6_scienceajourneythroughstatesofsim',
-    title: 'AJourney Through States Of',
+    title: 'What is Science and Why It Matters',
     subtitle: 'This node covers the definition of science and the basic scientific method (observation,.',
     classLevel: 6, subject: 'science', topic: 'What is Science and Why It Matters',
     chapters: [],
     nodeIds: ['c6_physics_ch01_001', 'c6_physics_ch07_023'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine your favorite flashlight suddenly stops working; what is the first thing you do?', goal: 'Master AJourney Through States Of.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine your favorite flashlight suddenly stops working; what is the first thing you do?', goal: 'Master What is Science and Why It Matters.' },
     discovery: {
         question: 'What is the primary source of energy that drives the entire water cycle?',
         options: ['The Sun', 'disappears', 'holding'],
@@ -32,12 +32,12 @@ export const w_c6_scienceajourneythroughstatesofsim: SimDef = {
             { text: 'Explain the rise (convection carries the warm vapour upwards).', faded: true, blankAnswer: 'The water is evaporating due to solar radiation and rising.' }
             ] } },
         { type: 'dissect', nodeId: 'c6_physics_ch07_023', title: 'Identify each idea',
-          dissect: { specimen: 'AJourney Through States Of', spots: [
+          dissect: { specimen: 'What is Science and Why It Matters', spots: [
             { id: 's1', label: 'Science is a systematic method', prompt: 'Which idea is this? — Science is a systematic method of exploring the natural world by making observations,.', answer: 'Science is a systematic method', options: ['Science is a systematic method', 'The water cycle is the'] },
             { id: 's2', label: 'The water cycle is the', prompt: 'Which idea is this? — The water cycle is the continuous movement of water on Earth through the atmosphere,.', answer: 'The water cycle is the', options: ['The water cycle is the', 'Science is a systematic method'] }
           ] } }
     ],
-    explore: { component: C6_ScienceAJourneyThroughStatesOfSim, prompt: 'Explore the interactive — AJourney Through States Of' },
+    explore: { component: C6_ScienceAJourneyThroughStatesOfSim, prompt: 'Explore the interactive — What is Science and Why It Matters' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_physics_ch07_023', difficulty: 'standard',
           question: 'The water cycle is the continuous movement of water on Earth through the.',

@@ -580,7 +580,7 @@ export const C8_ENG_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Comprehension Of Narrative Resolution In",
+    "title": "Comprehension: How Tenali Reunited the King",
     "text": "Comprehension of narrative resolution in folk literature involves analyzing how a protagonist's strategic actions resolve a central conflict between key characters, and writing structured, evidence-backed answers that explain the psychological and thematic",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -592,7 +592,7 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Retelling a Story With Wit And",
+    "title": "Retelling a Story With Wit",
     "text": "Retelling a story with wit and humour involves taking a base narrative and enhancing it using comic devices such as witty dialogue, wordplay, irony, humorous exaggeration (hyperbole), and shifted perspectives to amuse the reader while maintaining the core",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1002,7 +1002,7 @@ export const C8_ENG_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_eng_ch02_p1",
-  "title": "Historical Context Of The Kashmir Conflict And",
+  "title": "Historical Context Of The Kashmir Conflict",
   "subtitle": "English · Chapter 2 · Part 1",
   "classLevel": 8,
   "mode": "senior",
@@ -1552,7 +1552,7 @@ export const C8_ENG_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Historical Context Of The mastered! 🎯",
+  "successLine": "Historical Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1637,7 +1637,7 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Writing a Comparison Between Prose And",
+    "title": "Writing a Comparison Between Prose",
     "text": "Writing a comparison between prose and poem on the same theme involves analyzing how two different literary forms express the central idea (valour) through their unique structures, language, and literary devices, then organizing similarities and differences",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1975,7 +1975,7 @@ export const C8_ENG_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_eng_ch03_p1",
-  "title": "Character Analysis Involves Examining a",
+  "title": "Character Analysis Involves Examining",
   "subtitle": "English · Chapter 3 · Part 1",
   "classLevel": 8,
   "mode": "senior",
@@ -2013,13 +2013,13 @@ export const C8_ENG_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Character Analysis Involves Examining a",
+    "title": "Character Analysis: Encyclopedia Brown as",
     "text": "Character analysis involves examining a fictional character's traits, motivations, and development by identifying textual evidence (actions, dialogue, thoughts, relationships) and explaining how these elements reveal their role in advancing the story's",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Setting In Detective Fiction Establishes The",
+    "title": "Setting In Detective Fiction Establishes",
     "text": "Setting in detective fiction establishes the physical and social world where mysteries unfold; in \"The Case of the Fifth Word,\" Idaville functions as a contained, familiar small town where crimes are domestic and solvable, while the Brown family dining table",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3133,7 +3133,7 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Theme Of \"The Reward Of",
+    "title": "Theme: The Reward of Nurturing Life",
     "text": "The theme of \"The Reward of Nurturing Life\" explores the deep emotional fulfillment, sense of responsibility, and wonder a person experiences by caring for a living entity through setbacks until it flourishes, showing that the true reward lies in the act of",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3538,15 +3538,13 @@ export const C8_ENG_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_eng_ch04_p2",
-  "title": "Comprehension Of The Narrative Journey From",
+  "title": "Comprehension Of The Narrative Journey",
   "subtitle": "English · Chapter 4 · Part 2",
   "classLevel": 8,
   "mode": "senior",
   "subject": "english",
-  "topic": "Comprehension Of The Narrative Journey From",
-  "chapters": [
-   "English Ch4: Comprehension Of The Narrative Journey From"
-  ],
+  "topic": "Comprehension Of The Narrative Journey",
+  "chapters": ["English Ch4: Comprehension Of The Narrative Journey"],
   "nodeIds": [
    "c8_engl_ch4_10",
    "c8_engl_ch4_11",
@@ -3575,25 +3573,25 @@ export const C8_ENG_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Comprehension Of The Narrative Journey From",
+    "title": "Comprehension Of The Narrative Journey",
     "text": "Comprehension of the narrative journey from seed to fruit-bearing tree involves identifying sequence, chronological time markers, physical obstacles, and cause-and-effect relationships within a narrative text to trace how a small, initial action leads to",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "In Literary Analysis, Examining \"luck In",
+    "title": "Critical Thinking: What 'Luck' Means",
     "text": "In literary analysis, examining \"luck in the context of effort\" means critically evaluating whether a character's fortunate outcome is the result of passive chance or the culmination of persistent action, care, and resilience.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Writing a Clear, Ordered Description Of",
+    "title": "Writing a Clear, Ordered Description",
     "text": "Writing a clear, ordered description of how a plant changes from seed to mature plant, using time connectors, sensory details, and figurative language to show growth over time.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Stanza-by-stanza Summary Breaks Down a",
+    "title": "Stanza-by-stanza Summary Breaks Down",
     "text": "A stanza-by-stanza summary breaks down a poem section by section, identifying the core action, emotional shift, and central imagery in each stanza to understand how the poet builds meaning from beginning to end.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3949,7 +3947,7 @@ export const C8_ENG_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Comprehension Of The mastered! 🎯",
+  "successLine": "Comprehension mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },

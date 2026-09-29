@@ -6,13 +6,13 @@ import C7_PhysicsMotionTimeCBSESim from '../../../simulations/c6_12/C7_PhysicsMo
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_physicsmotiontimecbsesim: SimDef = {
     id: 'v3w_c7_physicsmotiontimecbsesim',
-    title: 'Motion Time CBSE',
+    title: 'Simple Pendulum: Period and Oscillation',
     subtitle: 'Covers the definition of oscillation, amplitude, effective length, and the calculation of.',
     classLevel: 7, subject: 'physics', topic: 'Simple Pendulum: Period and Oscillation',
     chapters: [],
     nodeIds: ['c7_physics_ch04_002', 'c7_physics_ch04_004', 'c7_physics_ch04_005', 'c7_physics_ch04_006', 'c7_physics_ch04_007', 'c7_physics_ch04_008', 'c7_physics_ch04_009', 'c7_physics_ch06_002', 'c7_physics_ch06_003', 'c7_physics_ch04_001', 'c7_physics_ch04_003', 'c7_physics_ch04_010', 'c7_physics_ch03_005', 'c7_physics_ch06_001', 'c7_physics_ch03_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'When you watch a traditional pendulum wall clock swing back and forth in your living room, you are observing.', goal: 'Master Motion Time CBSE.' },
+    scenario: { role: 'a class 7 learner', intro: 'When you watch a traditional pendulum wall clock swing back and forth in your living room, you are observing.', goal: 'Master Simple Pendulum: Period and Oscillation.' },
     discovery: {
         question: 'A car travels along a straight highway, covering exactly 50 meters every 5 seconds. Is this motion uniform or non-uniform, and why?',
         options: ['This is uniform motion', 'non-uniform', 'just moving'],
@@ -78,7 +78,7 @@ export const w_c7_physicsmotiontimecbsesim: SimDef = {
             { text: 'Verify if the speeds are equal across all intervals. Since $15\\text{ m/s} = 15\\text{ m/s} = 15\\text{ m/s}$, the motion.', faded: true, blankAnswer: 'Uniform motion; speed in all intervals is 15 m/s.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_physics_ch04_004', title: 'Identify each idea',
-          dissect: { specimen: 'Motion Time CBSE', spots: [
+          dissect: { specimen: 'Simple Pendulum: Period and Oscillation', spots: [
             { id: 's1', label: 'A simple pendulum consists of', prompt: 'Which idea is this? — A simple pendulum consists of a small metallic ball (called the bob) suspended from a.', answer: 'A simple pendulum consists of', options: ['A simple pendulum consists of', 'Modern timekeeping devices such as', 'Comparing speeds involves determining which', 'Speed is the distance traveled'] },
             { id: 's2', label: 'Modern timekeeping devices such as', prompt: 'Which idea is this? — Modern timekeeping devices, such as quartz clocks, digital watches, and electronic.', answer: 'Modern timekeeping devices such as', options: ['Modern timekeeping devices such as', 'A simple pendulum consists of', 'Comparing speeds involves determining which', 'Speed is the distance traveled'] },
             { id: 's3', label: 'Comparing speeds involves determining which', prompt: 'Which idea is this? — Comparing speeds involves determining which of two or more moving objects covers a.', answer: 'Comparing speeds involves determining which', options: ['Comparing speeds involves determining which', 'A simple pendulum consists of', 'Modern timekeeping devices such as', 'Speed is the distance traveled'] },
@@ -87,7 +87,7 @@ export const w_c7_physicsmotiontimecbsesim: SimDef = {
             { id: 's6', label: 'Uniform linear motion is the', prompt: 'Which idea is this? — Uniform linear motion is the motion of an object along a straight line where it covers.', answer: 'Uniform linear motion is the', options: ['Uniform linear motion is the', 'A simple pendulum consists of', 'Modern timekeeping devices such as', 'Comparing speeds involves determining which'] }
           ] } }
     ],
-    explore: { component: C7_PhysicsMotionTimeCBSESim, prompt: 'Explore the interactive — Motion Time CBSE' },
+    explore: { component: C7_PhysicsMotionTimeCBSESim, prompt: 'Explore the interactive — Simple Pendulum: Period and Oscillation' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_physics_ch04_002', difficulty: 'standard',
           question: 'A simple pendulum consists of a small metallic ball (called the bob) suspended.',

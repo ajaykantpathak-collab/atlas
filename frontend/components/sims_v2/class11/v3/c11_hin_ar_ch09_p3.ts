@@ -19,7 +19,7 @@ export const c11_hin_ar_ch09_p3: SimDef = {
         hook: '\'Kabir was a weaver\' is not trivia — every metaphor in his verse is a loom: warp, weft, thread, dye, knot. His caste is his poetics.',
     },
     teaching: [
-        { title: 'पाठ 9 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह प्रक्रिया है जिसमें पाठक पाठ की सतही अर्थ-छवि से आगे जाकर उसकी अंतर्निहित मान्यताओं, तर्क-संरचना, साहित्यिक युक्तियों के.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 9 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'आरोह भाग-1 — पाठ 9\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_09_013', title: 'Your mission',
@@ -28,11 +28,20 @@ export const c11_hin_ar_ch09_p3: SimDef = {
         context: 'Watch Kabir teach disciples by silently weaving an odd pattern, then map why the lesson lands through action instead of explanation.',
         labels: ['पाठ 9 — आलोचनात्मक', 'पाठ 9 — लेखन', 'पाठ 9 — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_09_014', title: 'Identify each idea',
-          dissect: { specimen: 'पाठ 9 · Part 3/3', spots: [
-            { id: 's1', label: '9 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल वह दक्षता है जिसमें छात्र किसी साहित्यिक पाठ (गद्य/पद्य) के विशिष्ट.', answer: '9 -', options: ['9 -', '9 - -'] },
-            { id: 's2', label: '9 - -', prompt: 'Which idea is this? — वाचन-श्रवण: चर्चा-बिंदु refers to the integrated language skill of critically reading.', answer: '9 - -', options: ['9 - -', '9 -'] }
-          ] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_09_014', title: 'पाठ 9 — लेखन कौशल: पाठ-आधारित',
+          caseStudy: { intro: '\'आरोह भाग-1 — पाठ 9\' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।',
+            decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing literature answers?', options: [
+                { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
+                { text: 'Paragraph, Example, Explain, Line', outcome: 'Not quite — Students believe "Writing Skills" means memorizing model answers for predicted questions.', reveals: 'writing-skills-means-memorizing-model' },
+                { text: 'Writing Skills', outcome: 'Not quite — Students believe "Writing Skills" means memorizing model answers for predicted questions.', reveals: 'writing-skills-means-memorizing-model' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_09_015', title: 'पाठ 9 — वाचन-श्रवण: चर्चा-बिंदु',
+          caseStudy: { intro: '\'आरोह भाग-1 — पाठ 9\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'What is the primary purpose of a \'discussion point\' in a literature class?', options: [
+                { text: 'A discussion point is a specific, text-based observation or question that', outcome: 'A discussion point is a specific, text-based observation or question that a student raises.' },
+                { text: 'to share my personal feelings about the poem', outcome: 'Not quite — Students believe a good discussion point is just sharing their personal opinion on the poem\'s topic.', reveals: 'a-good-discussion-point-is' },
+                { text: 'I think caste is wrong', outcome: 'Not quite — Students believe a good discussion point is just sharing their personal opinion on the poem\'s topic.', reveals: 'a-good-discussion-point-is' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_09_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your class is designing a Kabir exhibit. A teammate\'s panel reads: \'Kabir: 15th-century weaver from Kashi. Born c.1398, died 1518.\' He argues the weaver detail is just a biographical fact — \'the poetry is about God, not looms.\'',
             decisions: [{ prompt: 'Why is the weaver identity the key, not trivia?', options: [
@@ -52,38 +61,57 @@ export const c11_hin_ar_ch09_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_09_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह.',
+          question: '\'आरोह भाग-1 — पाठ 9\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'यदि फँसें, तो **c11_hin_ar_cbse_09_006 (मुख्य विषय और संदेश)** और.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि आलोचनात्मक चिंतन में **"छिपा हुआ अर्थ" (Hidden Meaning)** ढूँढ़ना होता है जो.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह प्रक्रिया है',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह प्रक्रिया है', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें किसी रचना के', '**कथानक (Plot)** कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम (cause-effect) संबंधों', 'पाठ्य-परिवेश (Textual Environment) किसी रचना में चित्रित भौगोलिक स्थान, ऐतिहासिक काल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-1 — पाठ 9\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+                  options: ['\'आरोह भाग-1 — पाठ 9\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-1 — पाठ 9\' का कथानक — \'आरोह भाग-1 — पाठ 9\' — आरोह भाग-1 का पाठ। पाठ का कथानक,', '\'आरोह भाग-1 — पाठ 9\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि फँसें, तो **c11_hin_ar_cbse_09_006 (मुख्य विषय और संदेश)** और **c11_hin_ar_cbse_09_009.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि आलोचनात्मक चिंतन में **"छिपा हुआ अर्थ" (Hidden Meaning)** ढूँढ़ना होता है जो लेखक ने *जानबूझकर*.' }
           ],
             remediations: { 'hidden-meaning-fixed-entity': { steps: ['**चरण 1:** छात्र से कहें: "पाठ का कोई एक वाक्य चुनो जो तुम्हें \'अजीब\' या \'महत्वपूर्ण\' लगा — *नहीं* वह जो शिक्षक ने.', 'कौन-सा विषय कमजोर पड़ता है?" (यह **कार्यात्मक विश्लेषण / Functional Analysis** सिखाता है)। **चरण 3:** दो सहपाठियों की.', 'किसकी व्याख्या पाठ के *अन्य* भागों से टकराती नहीं?" (यह **साक्ष्य-भार (Evidence Weight)** और **संगतता (Coherence)**.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_09_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल वह दक्षता है जिसमें छात्र किसी साहित्यिक पाठ (गद्य/पद्य).',
-          hint: 'यदि फंसें तो **c11_hin_ar_cbse_09_013 (आलोचनात्मक चिंतन)** के \'विश्लेषण बनाम वर्णन\'.',
-          misconception: '**विशिष्ट भ्रांति:** *"उत्तर में पाठ की अधिकतम पंक्तियाँ उद्धृत (quote) करने से अंक बढ़ते हैं।"* **गलत तर्क की.',
+          question: '\'आरोह भाग-1 — पाठ 9\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+          hint: 'Review c11_hin_ar_cbse_09_008 (Literary Devices) and c11_hin_ar_cbse_09_012.',
+          misconception: 'Students believe "Writing Skills" means memorizing model answers for predicted questions.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह दक्षता है जिसमें छात्र किसी साहित्यिक पाठ (गद्य/पद्य) के विशिष्ट',
-                  options: ['पाठ-आधारित लेखन कौशल वह दक्षता है जिसमें छात्र किसी साहित्यिक पाठ (गद्य/पद्य) के विशिष्ट', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें किसी रचना के', '**कथानक (Plot)** कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम (cause-effect) संबंधों', 'पाठ्य-परिवेश (Textual Environment) किसी रचना में चित्रित भौगोलिक स्थान, ऐतिहासिक काल,'],
-                  hint: 'यदि फंसें तो **c11_hin_ar_cbse_09_013 (आलोचनात्मक चिंतन)** के \'विश्लेषण बनाम वर्णन\' अभ्यास को.',
-                  misconception: '**विशिष्ट भ्रांति:** *"उत्तर में पाठ की अधिकतम पंक्तियाँ उद्धृत (quote) करने से अंक बढ़ते हैं।"* **गलत तर्क की प्रक्रिया:** छात्र \'साक्ष्य.' }
+                { id: 'a', prompt: 'What does the acronym PEEL stand for in the context of writing literature answers?', answer: 'PEEL stands for Point, Evidence, Explanation, Link',
+                  options: ['PEEL stands for Point, Evidence, Explanation, Link', 'Paragraph, Example, Explain, Line', 'Writing Skills', '"Writing Skills" means memorizing model answers for predicted questions'],
+                  hint: 'Review c11_hin_ar_cbse_09_008 (Literary Devices) and c11_hin_ar_cbse_09_012 (Comprehension).',
+                  misconception: 'Students believe "Writing Skills" means memorizing model answers for predicted questions.' }
           ],
-            remediations: { 'quote-evidence': { steps: ['**चरणबद्ध उपचार (Remediation):** 1.', '**\'हाइलाइटर अभ्यास\' करवाएं:** छात्र को पिछले वर्ष के प्रश्नपत्र का कोई 5 अंकों का उत्तर दें। कहें: **तीन रंगों से.', '**\'एक वाक्य साक्ष्य\' नियम लागू करें:** अगले 3 अभ्यासों के लिए नियम बनाएं: **"Evidence अधिकतम 1 वाक्य या 1 विशिष्ट.', '**\'क्यों/कैसे\' जांच (Why/How Audit):** छात्र द्वारा लिखे हर Evidence के बाद उससे पूछें: **"यह पंक्ति तुम्हारे Point को.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-means-memorizing-model': { steps: ['**Deconstruct the Prompt:** Give the student 3 past board questions.', 'Have them highlight *command words* (analyze, discuss, justify) and *content words* (irony, Dinkar, nationalism) in two.', '**Evidence Hunt:** For one question, set a 5-minute timer to find 3 exact textual references (line numbers/paraphrases).', '**Oral PEEL:** Student explains the answer *orally* using PEEL steps while you scribe.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_09_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु refers to the integrated language skill of critically.',
-          hint: 'If stuck, review **node 013 (आलोचनात्मक चिंतन)** — specifically the.',
-          misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि "चर्चा-बिंदु" = "पाठ का सारांश + मेरी राय"। वे लिखते हैं: "पाठ 9 में नायक अच्छा.',
+          question: '\'आरोह भाग-1 — पाठ 9\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'Review the \'Literary Devices: Imagery and Metaphor\' (c11_hin_ar_cbse_09_008) and \'Theme.',
+          misconception: 'Students believe a good discussion point is just sharing their personal opinion on the poem\'s topic (e.g., "I think.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु refers to the integrated language skill of critically reading a',
-                  options: ['वाचन-श्रवण: चर्चा-बिंदु refers to the integrated language skill of critically reading a', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण है जिसमें किसी रचना के', '**कथानक (Plot)** कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम (cause-effect) संबंधों', 'पाठ्य-परिवेश (Textual Environment) किसी रचना में चित्रित भौगोलिक स्थान, ऐतिहासिक काल,'],
-                  hint: 'If stuck, review **node 013 (आलोचनात्मक चिंतन)** — specifically the "दावा-साक्ष्य-व्याख्या".',
-                  misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि "चर्चा-बिंदु" = "पाठ का सारांश + मेरी राय"। वे लिखते हैं: "पाठ 9 में नायक अच्छा है, मुझे पसंद आया.' }
+                { id: 'a', prompt: 'What is the primary purpose of a \'discussion point\' in a literature class?', answer: 'A discussion point is a specific, text-based observation or question that',
+                  options: ['A discussion point is a specific, text-based observation or question that', 'to share my personal feelings about the poem', 'I think caste is wrong', 'caste is wrong")'],
+                  hint: 'Review the \'Literary Devices: Imagery and Metaphor\' (c11_hin_ar_cbse_09_008) and \'Theme: Primary.',
+                  misconception: 'Students believe a good discussion point is just sharing their personal opinion on the poem\'s topic (e.g., "I think caste is wrong").' },
+                { id: 'b', prompt: 'You are preparing a discussion point on the metaphor of the \'burden\' (टोकरी) in the poem.', answer: 'Locate the exact lines with the metaphor',
+                  options: ['Locate the exact lines with the metaphor', 'I think caste is wrong', 'caste is wrong")'],
+                  hint: 'Review the \'Literary Devices: Imagery and Metaphor\' (c11_hin_ar_cbse_09_008) and \'Theme: Primary.',
+                  misconception: 'Students believe a good discussion point is just sharing their personal opinion on the poem\'s topic (e.g., "I think caste is wrong").' },
+                { id: 'c', prompt: 'Compare two discussion points: A) "The poem is against caste." B) "In stanza 2, the poet equates the burden with birth-based identity, using the word \'जाति\'.', answer: 'Point B is more valuable',
+                  options: ['Point B is more valuable', 'I think caste is wrong', 'caste is wrong")'],
+                  hint: 'Review the \'Literary Devices: Imagery and Metaphor\' (c11_hin_ar_cbse_09_008) and \'Theme: Primary.',
+                  misconception: 'Students believe a good discussion point is just sharing their personal opinion on the poem\'s topic (e.g., "I think caste is wrong").' }
           ],
-            remediations: { '9': { steps: ['**चरणबद्ध सुधार:** (1) छात्र से कहें: "अपना लिखा चर्चा-बिंदु पढ़ो। हर वाक्य के आगे पूछो: \'यह पाठ के किस वाक्य/शब्द से.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-good-discussion-point-is': { steps: ['Give the student a printed copy of the poem with three key metaphors highlighted.', 'Ask them to write one sentence for each metaphor following the template: "In line X, the poet uses [metaphor].', 'Have them read each sentence aloud and ask: "Which word in the line proves your claim?" 4.', 'Finally, ask them to turn one sentence into a question for the group.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_09_015', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe a good discussion point is just sharing their personal opinion on the poem\'s topic (e.g., "I think.',
+          parts: [
+                { id: 'a', prompt: 'Create a discussion question for your group that connects Dharmraj\'s metaphor of the \'clean/dirty\' distinction to a current social issue, without mentioning.', answer: 'Example: "The poem contrasts \'clean\' and \'dirty\' work assigned by birth',
+                  options: ['Example: "The poem contrasts \'clean\' and \'dirty\' work assigned by birth', 'I think caste is wrong', 'caste is wrong")'],
+                  hint: 'Review the \'Literary Devices: Imagery and Metaphor\' (c11_hin_ar_cbse_09_008) and \'Theme: Primary.',
+                  misconception: 'Students believe a good discussion point is just sharing their personal opinion on the poem\'s topic (e.g., "I think caste is wrong").' }
+          ],
+            remediations: { 'a-good-discussion-point-is': { steps: ['Give the student a printed copy of the poem with three key metaphors highlighted.', 'Ask them to write one sentence for each metaphor following the template: "In line X, the poet uses [metaphor].', 'Have them read each sentence aloud and ask: "Which word in the line proves your claim?" 4.', 'Finally, ask them to turn one sentence into a question for the group.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

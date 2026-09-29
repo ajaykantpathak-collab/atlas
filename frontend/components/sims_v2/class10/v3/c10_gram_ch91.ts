@@ -24,7 +24,7 @@ export const c10_gram_ch91: SimDef = {
             { id: 's3', label: 'Collective nouns team committee jury', prompt: 'Which idea is this? — Collective nouns (team, committee, jury, family) take singular when the group acts as one.', answer: 'Collective nouns team committee jury', options: ['Collective nouns team committee jury', 'Subjectverb agreement is decided by', 'Indefinite pronouns have fixed agreement'] }
           ] } },
         { type: 'build', nodeId: 'c10_gram_cbse_91_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Find the verb.', 'Agree with what survives.', 'Ask \'who/what + verb?\' — that phrase is the subject.', 'Cross out prepositional phrases and as-well-as inserts.'], answer: 'Find the verb. Ask \'who/what + verb?\' — that phrase is the subject. Cross out prepositional phrases and as-well-as inserts. Agree with what survives.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Agree with what survives.', 'Find the verb.', 'Ask \'who/what + verb?\' — that phrase is the subject.', 'Cross out prepositional phrases and as-well-as inserts.'], answer: 'Find the verb. Ask \'who/what + verb?\' — that phrase is the subject. Cross out prepositional phrases and as-well-as inserts. Agree with what survives.' } },
         { type: 'case', nodeId: 'c10_gram_cbse_91_003', title: 'You made it',
           caseStudy: { intro: 'You finished Subject–verb agreement is decided by the HEAD. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

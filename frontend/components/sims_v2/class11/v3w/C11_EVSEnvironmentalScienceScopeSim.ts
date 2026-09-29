@@ -6,13 +6,13 @@ import C11_EVSEnvironmentalScienceScopeSim from '../../../simulations/c6_12/C11_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_evsenvironmentalsciencescopesim: SimDef = {
     id: 'v3w_c11_evsenvironmentalsciencescopesim',
-    title: 'Environmental Science Scope',
+    title: 'Geography: Definition, Meaning and Scope',
     subtitle: 'This node covers the etymological roots, formal definition, and the broad scope of.',
     classLevel: 11, subject: 'evs', topic: 'Geography: Definition, Meaning and Scope',
     chapters: [],
     nodeIds: ['c11_geo_cbse_01_001', 'c11_chem_cbse_01_001', 'c11_geo_cbse_01_002', 'c11_geo_cbse_01_009', 'c11_geo_cbse_01_004', 'c11_geo_cbse_01_005', 'c11_geo_cbse_01_006', 'c11_geo_cbse_01_008', 'c11_geo_cbse_09_009', 'c11_geo_cbse_13_007', 'c11_geo_cbse_09_008', 'c11_bio_cbse_13_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe their immediate surroundings: the school building, the road outside, the.', goal: 'Master Environmental Science Scope.' },
+    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe their immediate surroundings: the school building, the road outside, the.', goal: 'Master Geography: Definition, Meaning and Scope.' },
     discovery: {
         question: 'Explain why geography is classified as both a natural science and a social science, using the concepts of "physical geography" and "human geography."',
         options: ['Geography straddles natural and social sciences', 'geography is only about maps', 'geography is only about nature'],
@@ -80,7 +80,7 @@ export const w_c11_evsenvironmentalsciencescopesim: SimDef = {
             { text: 'Synthesize — the integrated framework shows how a single policy operates across economic, political, and demographic.', faded: true, blankAnswer: 'Three sub-branches: Economic Geography (concept: spatial.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_chem_cbse_01_001', title: 'Identify each idea',
-          dissect: { specimen: 'Environmental Science Scope', spots: [
+          dissect: { specimen: 'Geography: Definition, Meaning and Scope', spots: [
             { id: 's1', label: 'Geography is the scientific discipline', prompt: 'Which idea is this? — Geography is the scientific discipline that studies the Earth\'s surface as the home of.', answer: 'Geography is the scientific discipline', options: ['Geography is the scientific discipline', 'Chemistry is the central science', 'The evolution of geography traces', 'Geography as an integrating discipline'] },
             { id: 's2', label: 'Chemistry is the central science', prompt: 'Which idea is this? — Chemistry is the central science that studies the composition, structure, properties, and.', answer: 'Chemistry is the central science', options: ['Chemistry is the central science', 'Geography is the scientific discipline', 'The evolution of geography traces', 'Geography as an integrating discipline'] },
             { id: 's3', label: 'The evolution of geography traces', prompt: 'Which idea is this? — The evolution of geography traces the disciplinary transformation from ancient.', answer: 'The evolution of geography traces', options: ['The evolution of geography traces', 'Geography is the scientific discipline', 'Chemistry is the central science', 'Geography as an integrating discipline'] },
@@ -89,7 +89,7 @@ export const w_c11_evsenvironmentalsciencescopesim: SimDef = {
             { id: 's6', label: 'Human Geography is the branch', prompt: 'Which idea is this? — Human Geography is the branch of geography that studies the spatial patterns and.', answer: 'Human Geography is the branch', options: ['Human Geography is the branch', 'Geography is the scientific discipline', 'Chemistry is the central science', 'The evolution of geography traces'] }
           ] } }
     ],
-    explore: { component: C11_EVSEnvironmentalScienceScopeSim, prompt: 'Explore the interactive — Environmental Science Scope' },
+    explore: { component: C11_EVSEnvironmentalScienceScopeSim, prompt: 'Explore the interactive — Geography: Definition, Meaning and Scope' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_01_001', difficulty: 'standard',
           question: 'Geography is the scientific discipline that studies the Earth\'s surface as the.',

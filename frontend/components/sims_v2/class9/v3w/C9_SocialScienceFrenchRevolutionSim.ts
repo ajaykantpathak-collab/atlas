@@ -6,13 +6,13 @@ import C9_SocialScienceFrenchRevolutionSim from '../../../simulations/c6_12/C9_S
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_socialsciencefrenchrevolutionsim: SimDef = {
     id: 'v3w_c9_socialsciencefrenchrevolutionsim',
-    title: 'Social Science French Revolution',
+    title: 'Seasons: Rotation, Revolution and the Sun\'s Position',
     subtitle: 'Covers the astronomical basis of seasons: rotation (day/night), revolution (year), axial.',
     classLevel: 9, subject: 'science', topic: 'Seasons: Rotation, Revolution and the Sun\'s Position',
     chapters: [],
     nodeIds: ['c9_geo_ch2_6', 'c9_geo_ch2_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Observe how the shadow of your school flagpole changes length and direction from June to December — it is.', goal: 'Master Social Science French Revolution.' },
+    scenario: { role: 'a class 9 learner', intro: 'Observe how the shadow of your school flagpole changes length and direction from June to December — it is.', goal: 'Master Seasons: Rotation, Revolution and the Sun\'s Position.' },
     discovery: {
         question: 'Calculate the approximate day length at 30°N latitude on the June Solstice (June 21), given that the Sun\'s declination is 23.5°N.',
         options: ['Step 1: Latitude = 30°N, Declination = 23.5°N', 'equal day/night everywhere or cannot apply the spherical geometry formula', 'Earth is closer to the Sun in summer and farther in winter, causing seasons'],
@@ -42,12 +42,12 @@ export const w_c9_socialsciencefrenchrevolutionsim: SimDef = {
             { text: 'Explain: (a) Ocean thermal inertia delays full equilibrium response (~0.4°C unrealized warming).', faded: true, blankAnswer: 'CO₂ forcing ≈ 2.16 W/m²; equilibrium warming ≈ 1.73°C;.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_geo_ch2_9', title: 'Identify each idea',
-          dissect: { specimen: 'Social Science French Revolution', spots: [
+          dissect: { specimen: 'Seasons: Rotation, Revolution and the Sun\'s Position', spots: [
             { id: 's1', label: 'Seasons are the periodic changes', prompt: 'Which idea is this? — Seasons are the periodic changes in weather patterns caused by Earth\'s revolution around.', answer: 'Seasons are the periodic changes', options: ['Seasons are the periodic changes', 'Climate change refers to long-term'] },
             { id: 's2', label: 'Climate change refers to long-term', prompt: 'Which idea is this? — Climate change refers to long-term shifts in global or regional temperature and weather.', answer: 'Climate change refers to long-term', options: ['Climate change refers to long-term', 'Seasons are the periodic changes'] }
           ] } }
     ],
-    explore: { component: C9_SocialScienceFrenchRevolutionSim, prompt: 'Explore the interactive — Social Science French Revolution' },
+    explore: { component: C9_SocialScienceFrenchRevolutionSim, prompt: 'Explore the interactive — Seasons: Rotation, Revolution and the Sun\'s Position' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_geo_ch2_6', difficulty: 'standard',
           question: 'Seasons are the periodic changes in weather patterns caused by Earth\'s.',

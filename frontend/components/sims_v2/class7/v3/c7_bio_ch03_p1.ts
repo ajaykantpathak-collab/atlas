@@ -138,6 +138,10 @@ export const c7_bio_ch03_p1: SimDef = {
                 { id: 'a', prompt: 'What are the primary raw materials required by a green plant to perform photosynthesis?', answer: 'Carbon dioxide and water are the primary raw materials',
                   options: ['Carbon dioxide and water are the primary raw materials', 'breathe out', 'this gas exchange stops at night'],
                   hint: 'Review c7_bio_ch03_003 to reinforce how leaf structure is specialized for gathering light and gases.',
+                  misconception: 'Students often think that plants "breathe in" carbon dioxide and "breathe out" oxygen in a way that is identical to human breathing organs.' },
+                { id: 'b', prompt: 'A potted hibiscus plant is kept inside a dark cupboard for a week. When tested, its leaves show no starch production.', answer: 'Identify that starch is made from glucose produced during photosynthesis',
+                  options: ['Identify that starch is made from glucose produced during photosynthesis', 'breathe out', 'this gas exchange stops at night'],
+                  hint: 'Review c7_bio_ch03_003 to reinforce how leaf structure is specialized for gathering light and gases.',
                   misconception: 'Students often think that plants "breathe in" carbon dioxide and "breathe out" oxygen in a way that is identical to human breathing organs.' }
           ],
             remediations: { 'plants-breathe-in-carbon-dioxide': { steps: ['To fix this, guide the student to compare human lungs with plant stomata using a simple table: lungs use muscular.', 'Next, emphasize that cellular respiration happens 24 hours a day in every living plant cell, but photosynthesis only.'], labTask: { instruction: 'On the interactive: give the plant 60% sunlight — watch its growth rate — then check.', widget: 'grow', validate: 'grow:sun=60' } } } },

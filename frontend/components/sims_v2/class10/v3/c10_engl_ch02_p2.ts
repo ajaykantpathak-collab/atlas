@@ -112,12 +112,12 @@ export const c10_engl_ch02_p2: SimDef = {
           ],
             remediations: { 'the-triumph-refers-only-to': { steps: ['Re-read the inauguration speech excerpt and underline every reference to "we," "our," "nation," "constitution,".', 'Make a two-column table: left column = personal references (I, my), right column = collective references (we, our.', 'Write one sentence explaining why the collective references dominate and what that implies about the theme.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c10_engl_cbse_02_009', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
+          question: 'From \'English chapter c10_engl_cbse_02\': the skill or concept this node.',
           hint: 'If stuck, review c9_engl_ch1_8 (Vocabulary in Context: Key Words from the Story).',
           misconception: 'Students treat \'Constitution\' as a generic synonym for \'government rules\' and fail to distinguish between the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context refers to the skill of determining the precise meaning,',
-                  options: ['Vocabulary in Context refers to the skill of determining the precise meaning,', 'Apartheid was a system of institutionalized racial segregation and discrimination', 'Mandela\'s inauguration on 10 May 1994 was the historic swearing-in ceremony where Nelson', 'The "Rainbow Gathering of Nations" refers to the historic inauguration ceremony on 10 May'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c10_engl_cbse_02\': the skill or concept this node teaches, applied',
+                  options: ['From \'English chapter c10_engl_cbse_02\': the skill or concept this node teaches, applied', 'Apartheid was a system of institutionalized racial segregation and discrimination', 'Mandela\'s inauguration on 10 May 1994 was the historic swearing-in ceremony where Nelson', 'The "Rainbow Gathering of Nations" refers to the historic inauguration ceremony on 10 May'],
                   hint: 'If stuck, review c9_engl_ch1_8 (Vocabulary in Context: Key Words from the Story) — practice finding.',
                   misconception: 'Students treat \'Constitution\' as a generic synonym for \'government rules\' and fail to distinguish between the *apartheid-era constitutional.' }
           ],

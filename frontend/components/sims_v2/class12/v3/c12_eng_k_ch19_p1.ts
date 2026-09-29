@@ -19,7 +19,7 @@ export const c12_eng_k_ch19_p1: SimDef = {
         hook: 'Sci-fi couldn\'t exist before ~1800: only when the Industrial Revolution made change visible within one lifetime did \'the future\' become imaginable. The scientist is the priest\'s heir — both hold \'the secret of controlling the Universe\'; one through formulas, the other through laws.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'The "Before You Read: Context and Background" stage prepares students to engage with Isaac Asimov\'s essay "On Science Fiction" by establishing the author\'s authority, the historical emergence.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'On Science Fiction\' (Kaleidoscope, ch. 19) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_19_001', title: 'Your mission',
@@ -29,41 +29,41 @@ export const c12_eng_k_ch19_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re about to watch a sci-fi movie like "Interstellar" or "The Martian" — you know the science matters, but have you ever asked *when* stories.',
+          caseStudy: { intro: 'Start with the author of \'On Science Fiction\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'According to Asimov, what historical development made science fiction possible as a literary genre, and approximately when did it occur?', options: [
                 { text: 'The Industrial Revolution (c', outcome: 'The Industrial Revolution (c. 1800) made science fiction possible because it was the first time the.' },
                 { text: 'the invention of the printing press', outcome: 'Not quite — Students often think "science fiction = stories with advanced technology/space travel/aliens".', reveals: 'science-fiction-stories-with-advanced' },
                 { text: 'the Space Age', outcome: 'Not quite — Students often think "science fiction = stories with advanced technology/space travel/aliens".', reveals: 'science-fiction-stories-with-advanced' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re reading a long WhatsApp forward that jumps between history, myth, and modern tech — you\'d lose the thread.',
+          caseStudy: { intro: 'Trace \'On Science Fiction\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What are the two main sections of Asimov\'s essay "On Science Fiction" and what is the primary function of each section in advancing his.', options: [
                 { text: 'The two main sections are: (I) The Prescientific Universe', outcome: 'The two main sections are: (I) The Prescientific Universe — establishes myths/legends as emotional.' },
                 { text: 'Section I is about Greek myths, Section II is about Asimov\'s books', outcome: 'Not quite — Students treat "Plot and Narrative Structure" as a universal template (exposition → climax →.', reveals: 'students-treat-plot-and-narrative' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re watching a science fiction movie — the setting isn\'t just the spaceship or alien planet; it\'s the *rules* of that universe (warp drive exists.',
+          caseStudy: { intro: 'Identify where and when \'On Science Fiction\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'In Asimov\'s essay, what constitutes the "setting" of Section I ("The Prescientific Universe") — is it a physical place, a time period, or.', options: [
                 { text: 'The setting of Section I is a conceptual framework', outcome: 'The setting of Section I is a conceptual framework — the "prescientific universe" where nature.' },
                 { text: 'ancient Greece', outcome: 'Not quite — Students treat "setting" in non-fiction as *physical/historical context* (e.g., "Asimov wrote this.', reveals: 'students-treat-setting-in-non' },
                 { text: 'the Ice Age', outcome: 'Not quite — Students treat "setting" in non-fiction as *physical/historical context* (e.g., "Asimov wrote this.', reveals: 'students-treat-setting-in-non' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re reading a blog post by a famous scientist explaining why their field matters — you instantly wonder: *Who is speaking? Why should I trust them?',
+          caseStudy: { intro: 'Pick the central figure in \'On Science Fiction\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the primary role Isaac Asimov adopts as the narrator-protagonist in the first section of the essay "On Science Fiction"?', options: [
                 { text: 'Asimov adopts the role of a **historian of ideas** who traces the evolution of human', outcome: 'Asimov adopts the role of a **historian of ideas** who traces the evolution of human imagination.' },
                 { text: 'He acts as a fictional character', outcome: 'Not quite — Students often **conflate the author Asimov with the narrator Asimov**, treating every "I".', reveals: 'students-often-conflate-the-author' },
                 { text: 'He tells a personal story', outcome: 'Not quite — Students often **conflate the author Asimov with the narrator Asimov**, treating every "I".', reveals: 'students-often-conflate-the-author' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re debating a friend who says "Harry Potter is science fiction because it has invisible cloaks and flying brooms." You\'d instinctively reach for.',
+          caseStudy: { intro: 'Spot the secondary figures in \'On Science Fiction\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List any three mythological creatures Asimov names in Section I and state the common principle he says underlies their creation.', options: [
                 { text: 'Asimov names the Centaur (man-horse), Satyr (man-goat), Sphinx (woman-lion), Harpy', outcome: 'Asimov names the Centaur (man-horse), Satyr (man-goat), Sphinx (woman-lion), Harpy (woman-hawk).' },
                 { text: 'they represent gods', outcome: 'Not quite — Students treat "supporting characters" in a non-fiction essay as if they were fictional characters.', reveals: 'students-treat-supporting-characters-in' },
                 { text: 'they are aliens', outcome: 'Not quite — Students treat "supporting characters" in a non-fiction essay as if they were fictional characters.', reveals: 'students-treat-supporting-characters-in' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are explaining to a friend why "Interstellar" feels different from "Harry Potter" even though both have impossible things — one uses black holes.',
+          caseStudy: { intro: 'Ask what \'On Science Fiction\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'State the primary theme of Asimov\'s essay "On Science Fiction" in one sentence.', options: [
                 { text: 'The primary theme is the fundamental distinction between pre-scientific imagination', outcome: 'The primary theme is the fundamental distinction between pre-scientific imagination (myths/legends.' },
                 { text: 'Asimov defines science fiction', outcome: 'Not quite — Students often confuse "theme" with "topic" and write "The theme is science fiction" or "The theme.', reveals: 'students-often-confuse-theme-with' },
@@ -88,7 +88,7 @@ export const c12_eng_k_ch19_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_001', difficulty: 'standard',
-          question: 'The "Before You Read: Context and Background" stage prepares students to engage.',
+          question: '\'On Science Fiction\' (Kaleidoscope, ch. 19) — the context and background.',
           hint: 'If stuck on the background-vs-content concept, revisit Class 8 node c8_engl_ch5_5.',
           misconception: 'Students often think "science fiction = stories with advanced technology/space travel/aliens" (content-based.',
           parts: [
@@ -118,7 +118,7 @@ export const c12_eng_k_ch19_p1: SimDef = {
           ],
             remediations: { 'science-fiction-stories-with-advanced': { steps: ['If the student cannot articulate the background-vs-content distinction after the walkthrough: (1) Have them list 3.', '(2) For each, ask: "Keep the *plot beats* identical, but move the setting to a generation ship where water is rationed.', 'Is it still a romance/heist/courtroom drama?', 'Is it *also* science fiction?" (3) Guide them to see that the *plot* (content) didn\'t change, but the *societal rules*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_002', difficulty: 'standard',
-          question: 'In non-fiction essays like Asimov\'s "On Science Fiction," narrative structure.',
+          question: 'The plot/narrative arc of \'On Science Fiction\' — what happens, in what order.',
           hint: 'If stuck, revisit Class 11 Woven Words essay nodes (c11_eng_w_cbse_02_002.',
           misconception: 'Students treat "Plot and Narrative Structure" as a universal template (exposition → climax → resolution) and force-fit.',
           parts: [
@@ -133,7 +133,7 @@ export const c12_eng_k_ch19_p1: SimDef = {
           ],
             remediations: { 'students-treat-plot-and-narrative': { steps: ['If the student imposes fictional plot terminology on the essay: (1) Give them a 2-column table: "Fictional Plot Terms".', '"Essay Rhetorical Moves" — have them match Asimov\'s paragraphs to the right column.', '(2) Ask: "Where is the \'conflict\' in this essay?', 'Who is the \'protagonist\'?" — the absurdity reveals the category error.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_003', difficulty: 'standard',
-          question: 'Setting in a non-fiction essay refers to the conceptual or intellectual.',
+          question: 'The setting of \'On Science Fiction\' — the place, time and atmosphere the text.',
           hint: 'If stuck, re-read the "Stop and Think" questions after Section I in the textbook — they.',
           misconception: 'Students treat "setting" in non-fiction as *physical/historical context* (e.g., "Asimov wrote this in the 20th century.',
           parts: [
@@ -152,7 +152,7 @@ export const c12_eng_k_ch19_p1: SimDef = {
           ],
             remediations: { 'students-treat-setting-in-non': { steps: ['Have the student re-read the first paragraph of Section I and Section II side-by-side.', 'Give them a 2-column table: Column A = Prescientific Universe rules; Column B = Science Fiction Universe rules.', 'For atmosphere, read aloud three passages: "Let\'s consider—", "We needn\'t sneer", "Modestly, I refer you..." Ask: "If.', 'Assign a micro-writing task: "Write 4 sentences explaining how a smartphone works, using Asimov\'s tone — talk *to*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a non-fiction essay involves examining.',
+          question: 'Character analysis in \'On Science Fiction\' — the central figure(s), their.',
           hint: 'Review `c11_eng_h_cbse_01_004` (Class 11 Character Analysis: Protagonist) focusing on the.',
           misconception: 'Students often **conflate the author Asimov with the narrator Asimov**, treating every "I" as unmediated autobiography.',
           parts: [
@@ -167,18 +167,18 @@ export const c12_eng_k_ch19_p1: SimDef = {
           ],
             remediations: { 'students-often-conflate-the-author': { steps: ['**Re-read Section I\'s opening paragraphs** (up to "Let\'s consider—") and highlight every first-person phrase ("I have.', 'Ask: *Why does he say "I" here?', 'What role is he playing?* 2.', '**Compare with a Class 11 non-fiction protagonist** (e.g., from *Hornbill* Chapter 1 or 2 — node.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_005', difficulty: 'standard',
-          question: 'In a non-fiction essay like Asimov\'s "On Science Fiction," supporting.',
+          question: 'Supporting characters in \'On Science Fiction\' — the secondary figures who move.',
           hint: 'If stuck, re-read Section I paragraphs 4-6 (priest/shaman + mythological hybrids) and.',
           misconception: 'Students treat "supporting characters" in a non-fiction essay as if they were fictional characters with personalities.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'In a non-fiction essay like Asimov\'s "On Science Fiction," supporting characters are the',
-                  options: ['In a non-fiction essay like Asimov\'s "On Science Fiction," supporting characters are the', 'The "Before You Read: Context and Background" stage prepares students to engage with', 'In non-fiction essays like Asimov\'s "On Science Fiction," narrative structure refers to', 'Setting in a non-fiction essay refers to the conceptual or intellectual framework the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in \'On Science Fiction\'',
+                  options: ['Supporting characters in \'On Science Fiction\'', '\'On Science Fiction\' (Kaleidoscope, ch', 'The plot/narrative arc of \'On Science Fiction\'', 'The setting of \'On Science Fiction\''],
                   hint: 'If stuck, re-read Section I paragraphs 4-6 (priest/shaman + mythological hybrids) and Section.',
                   misconception: 'Students treat "supporting characters" in a non-fiction essay as if they were fictional characters with personalities, motives, and arcs.' }
           ],
             remediations: { 'students-treat-supporting-characters-in': { steps: ['If a student writes a personality-based analysis: (1) Stop them and ask: "Does Asimov give the priest a backstory?', 'Does the Sphinx have a childhood?" (2) Show the exact line: "again the name doesn\'t matter" and "the constant reference.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_006', difficulty: 'standard',
-          question: 'The primary theme of a non-fiction essay is the central idea or argument the.',
+          question: 'The primary theme of \'On Science Fiction\' — the central idea the whole text.',
           hint: 'If stuck, re-read the "Stop and Think" questions in the NCERT text after Section I — they.',
           misconception: 'Students often confuse "theme" with "topic" and write "The theme is science fiction" or "The theme is myths vs.',
           parts: [

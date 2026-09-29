@@ -19,7 +19,7 @@ export const c11_hin_ar_ch05_p1: SimDef = {
         hook: 'Nayi Kahani\'s rule: no heroes, no easy rescue — just middle-class realism where dignity must be fought for inside an unequal system.',
     },
     teaching: [
-        { title: 'पाठ 5 — पृष्ठभूमि और रचनाकार परिचय', text: '\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है: किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक संदर्भ** (पृष्ठभूमि) तथा **लेखक के जीवन, विचारधारा, रचनात्मक यात्रा और शैलीगत विशेषताओं** (रचनाकार.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 5 — पृष्ठभूमि और रचनाकार परिचय', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_05_001', title: 'Your mission',
@@ -30,8 +30,8 @@ export const c11_hin_ar_ch05_p1: SimDef = {
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'dissect', nodeId: 'c11_hin_ar_cbse_05_002', title: 'Identify each idea',
           dissect: { specimen: 'पाठ 5 · Part 1/3', spots: [
-            { id: 's1', label: '5 -', prompt: 'Which idea is this? — कथानक (Plot) घटनाओं का वह सुव्यवस्थित क्रम है जो कारण-कार्य संबंध (Causality) से बँधा.', answer: '5 -', options: ['5 -', '5 -'] },
-            { id: 's2', label: '5 -', prompt: 'Which idea is this? — पाठ्य-परिवेश (Setting) कथा का वह स्पेशियो-टेम्पोरल फ्रेमवर्क है जिसमें स्थान, काल.', answer: '5 -', options: ['5 -', '5 -'] }
+            { id: 's1', label: '5 -', prompt: 'Which idea is this? — \'आरोह भाग-1 — पाठ 5\' का कथानक — \'आरोह भाग-1 — पाठ 5\' — आरोह भाग-1 का पाठ। पाठ का कथानक.', answer: '5 -', options: ['5 -', '5 -'] },
+            { id: 's2', label: '5 -', prompt: 'Which idea is this? — \'आरोह भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित.', answer: '5 -', options: ['5 -', '5 -'] }
           ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_05_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Your class debates a story set in an army cantonment where a Dalit boy\'s education is his only escape. One student calls it \'a sad tale about one cruel officer and a lucky boy — the quarters, the school, the floods are just background.\'',
@@ -52,67 +52,78 @@ export const c11_hin_ar_ch05_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_05_001', difficulty: 'standard',
-          question: '\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है: किसी साहित्यिक कृति के **ऐतिहासिक.',
-          hint: 'यदि अटका हुआ महसूस हो तो: **\'प्रेमचंद: जीवन और साहित्य\' (NCERT पूरक पाठ्य सामग्री.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है — **लेखक की जन्मतिथि, मृत्यु-तिथि.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, review Class 10 History "Nationalism in India" (caste and nationalism debates).',
+          misconception: 'Students often treat "context" as a list of facts to memorize (author birth year, movement dates) rather than.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है: किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक,',
-                  options: ['\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है: किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक,', 'कथानक (Plot) घटनाओं का वह सुव्यवस्थित क्रम है जो कारण-कार्य संबंध (Causality) से बँधा', 'पाठ्य-परिवेश (Setting) कथा का वह स्पेशियो-टेम्पोरल फ्रेमवर्क है जिसमें स्थान, काल,', 'पात्र-चित्रण (Characterization) एक साहित्यिक प्रक्रिया है जिसके द्वारा रचनाकार'],
-                  hint: 'यदि अटका हुआ महसूस हो तो: **\'प्रेमचंद: जीवन और साहित्य\' (NCERT पूरक पाठ्य सामग्री / ई-पाठशाला.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है — **लेखक की जन्मतिथि, मृत्यु-तिथि, प्रमुख कृतियों की सूची.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के',
+                  options: ['रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-1 — पाठ 5\' का कथानक — \'आरोह भाग-1 — पाठ 5\' — आरोह भाग-1 का पाठ। पाठ का कथानक,', '\'आरोह भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', '\'आरोह भाग-1 — पाठ 5\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
+                  hint: 'If stuck, review Class 10 History "Nationalism in India" (caste and nationalism debates) and Class.',
+                  misconception: 'Students often treat "context" as a list of facts to memorize (author birth year, movement dates) rather than an analytical lens.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**लक्षित उपचार (Targeted Remediation) — 4 चरणों में:** **चरण 1 — \'तथ्य बनाम अंतर्दृष्टि\' अभ्यास:** छात्र को प्रेमचंद के.', 'कारण लिखो।" — इससे **कारण-प्रभाव तर्क** बनेगा। **चरण 2 — \'पृष्ठभूमि कीवर्ड मैपिंग\':** एक खाली टेबल दें — कॉलम: (क).', '— गांधीवाद/मार्क्सवाद/मानववाद?" इससे **विचारधारात्मक स्थिति (ideological stance)** स्पष्ट होगी। **चरण 4 — बोर्ड-उत्तर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-context-as': { steps: ['If a student cannot articulate the three structural features of cantonment caste hierarchy (quarters-rank-caste.', 'Instead: (1) Give them a blank cantonment map—ask them to place "Officer Quarters," "JCO Quarters," "Sweeper Lines,".', 'Why/why not?" This forces structural thinking over factual recall.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_05_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often treat "context" as a list of facts to memorize (author birth year, movement dates) rather than.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate this claim: "The Nayi Kahani movement\'s focus on \'ordinary people\' makes its stories apolitical—they just show life as it is." Use "Xyrk Ysgk"s.', answer: 'The claim is false',
+                  options: ['The claim is false', 'non-ideological', 'apolitical'],
+                  hint: 'If stuck, review Class 10 History "Nationalism in India" (caste and nationalism debates) and Class.',
+                  misconception: 'Students often treat "context" as a list of facts to memorize (author birth year, movement dates) rather than an analytical lens.' }
+          ],
+            remediations: { 'students-often-treat-context-as': { steps: ['If a student cannot articulate the three structural features of cantonment caste hierarchy (quarters-rank-caste.', 'Instead: (1) Give them a blank cantonment map—ask them to place "Officer Quarters," "JCO Quarters," "Sweeper Lines,".', 'Why/why not?" This forces structural thinking over factual recall.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_05_002', difficulty: 'standard',
-          question: 'कथानक (Plot) घटनाओं का वह सुव्यवस्थित क्रम है जो कारण-कार्य संबंध (Causality).',
+          question: '\'आरोह भाग-1 — पाठ 5\' का कथानक — \'आरोह भाग-1 — पाठ 5\' — आरोह भाग-1 का पाठ। पाठ.',
           hint: 'यदि फँसें तो: E.M. फॉर्स्टर, *Aspects of the Novel*, अध्याय 5 (The Plot) — केवल 2 पृष्ठ.',
           misconception: '**विशिष्ट भ्रम:** छात्र \'आख्यान-संरचना\' को केवल \'फ्लैशबैक की उपस्थिति/अनुपस्थिति\' तक सीमित कर देते हैं। वे मानते हैं.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) घटनाओं का वह सुव्यवस्थित क्रम है जो कारण-कार्य संबंध (Causality) से बँधा',
-                  options: ['कथानक (Plot) घटनाओं का वह सुव्यवस्थित क्रम है जो कारण-कार्य संबंध (Causality) से बँधा', '\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है: किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक,', 'पाठ्य-परिवेश (Setting) कथा का वह स्पेशियो-टेम्पोरल फ्रेमवर्क है जिसमें स्थान, काल,', 'पात्र-चित्रण (Characterization) एक साहित्यिक प्रक्रिया है जिसके द्वारा रचनाकार'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-1 — पाठ 5\' का कथानक — \'आरोह भाग-1 — पाठ 5\' — आरोह भाग-1 का पाठ। पाठ का कथानक,',
+                  options: ['\'आरोह भाग-1 — पाठ 5\' का कथानक — \'आरोह भाग-1 — पाठ 5\' — आरोह भाग-1 का पाठ। पाठ का कथानक,', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', '\'आरोह भाग-1 — पाठ 5\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
                   hint: 'यदि फँसें तो: E.M. फॉर्स्टर, *Aspects of the Novel*, अध्याय 5 (The Plot) — केवल 2 पृष्ठ पढ़ें; फिर.',
                   misconception: '**विशिष्ट भ्रम:** छात्र \'आख्यान-संरचना\' को केवल \'फ्लैशबैक की उपस्थिति/अनुपस्थिति\' तक सीमित कर देते हैं। वे मानते हैं: "अगर फ्लैशबैक है →.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**चरण 1 — अवधारणा स्पष्टीकरण:** छात्र के साथ बैठकर E.M.', 'फॉर्स्टर का "राजा-रानी" उदाहरण पुनः पढ़वाएँ; पूछें: "दूसरे वाक्य में \'शोक में\' शब्द क्या जोड़ता है?" → कारण-कार्य संबंध.', '**चरण 2 — दृश्यीकरण अभ्यास:** एक जानी-पहचानी फिल्म (जैसे \'दृश्यम\' या \'अंधाधुन\') के 5 प्रमुख दृश्य कार्ड पर लिखवाएँ.', '**चरण 3 — संरचना-प्रयोजन मैपिंग:** एक टेबल बनवाएँ: कॉलम — संरचना प्रकार | उदाहरण (पाठ/फिल्म) | लेखक का संभावित उद्देश्य.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_05_003', difficulty: 'standard',
-          question: 'पाठ्य-परिवेश (Setting) कथा का वह स्पेशियो-टेम्पोरल फ्रेमवर्क है जिसमें स्थान.',
+          question: '\'आरोह भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण.',
           hint: 'यदि अटके तो \'पाठ 5 — पृष्ठभूमि और रचनाकार परिचय\' (c11_hin_ar_cbse_05_001) के.',
           misconception: '**विशिष्ट भ्रांति:** "वातावरण केवल विशेषणों (adjectives) से बनता है — जैसे \'भयानक रात\', \'सुंदर सुबह\'।" **गलत तर्क:**.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश (Setting) कथा का वह स्पेशियो-टेम्पोरल फ्रेमवर्क है जिसमें स्थान, काल,',
-                  options: ['पाठ्य-परिवेश (Setting) कथा का वह स्पेशियो-टेम्पोरल फ्रेमवर्क है जिसमें स्थान, काल,', '\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है: किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक,', 'कथानक (Plot) घटनाओं का वह सुव्यवस्थित क्रम है जो कारण-कार्य संबंध (Causality) से बँधा', 'पात्र-चित्रण (Characterization) एक साहित्यिक प्रक्रिया है जिसके द्वारा रचनाकार'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित',
+                  options: ['\'आरोह भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-1 — पाठ 5\' का कथानक — \'आरोह भाग-1 — पाठ 5\' — आरोह भाग-1 का पाठ। पाठ का कथानक,', '\'आरोह भाग-1 — पाठ 5\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
                   hint: 'यदि अटके तो \'पाठ 5 — पृष्ठभूमि और रचनाकार परिचय\' (c11_hin_ar_cbse_05_001) के \'सामाजिक-ऐतिहासिक.',
                   misconception: '**विशिष्ट भ्रांति:** "वातावरण केवल विशेषणों (adjectives) से बनता है — जैसे \'भयानक रात\', \'सुंदर सुबह\'।" **गलत तर्क:** छात्र समझते हैं कि.' }
           ],
             remediations: { 'adjectives': { steps: ['**चरण 1:** छात्र को पाठ 5 के दो विपरीत अनुच्छेद (एक विषादपूर्ण, एक आशापूर्ण) दें; कहें: "कोई विशेषण न इस्तेमाल करते हुए.', '**चरण 2:** एक ही परिवेश (जैसे \'अस्पताल का बरामदा\') पर दो पैराग्राफ लिखवाएँ — एक \'आशा\' का, एक \'निराशा\' का — केवल संज्ञा.', '**चरण 3:** पाठ 5 के किसी दृश्य का \'वातावरण मानचित्र\' (Atmosphere Map) बनवाएँ: बाएँ कॉलम में भौतिक विवरण, दाएँ में उससे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_05_004', difficulty: 'standard',
-          question: 'पात्र-चित्रण (Characterization) एक साहित्यिक प्रक्रिया है जिसके द्वारा रचनाकार.',
+          question: '\'आरोह भाग-1 — पाठ 5\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
           hint: 'यदि अटके तो **कथानक और आख्यान-संरचना (c11_hin_ar_cbse_05_002)** के \'उत्कर्ष बिंदु.',
           misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि **\'पात्र-चित्रण\' का अर्थ नायक के \'अच्छे गुणों\' (virtues) की सूची बनाना है**.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण (Characterization) एक साहित्यिक प्रक्रिया है जिसके द्वारा रचनाकार',
-                  options: ['पात्र-चित्रण (Characterization) एक साहित्यिक प्रक्रिया है जिसके द्वारा रचनाकार', '\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है: किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक,', 'कथानक (Plot) घटनाओं का वह सुव्यवस्थित क्रम है जो कारण-कार्य संबंध (Causality) से बँधा', 'पाठ्य-परिवेश (Setting) कथा का वह स्पेशियो-टेम्पोरल फ्रेमवर्क है जिसमें स्थान, काल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-1 — पाठ 5\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+                  options: ['\'आरोह भाग-1 — पाठ 5\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-1 — पाठ 5\' का कथानक — \'आरोह भाग-1 — पाठ 5\' — आरोह भाग-1 का पाठ। पाठ का कथानक,', '\'आरोह भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके तो **कथानक और आख्यान-संरचना (c11_hin_ar_cbse_05_002)** के \'उत्कर्ष बिंदु (climax)\' और.',
                   misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि **\'पात्र-चित्रण\' का अर्थ नायक के \'अच्छे गुणों\' (virtues) की सूची बनाना है** — जैसे "वह ईमानदार.' }
           ],
             remediations: { 'virtues': { steps: ['**चरणबद्ध उपचार (Targeted Remediation)**: 1.', '**पहला कदम**: छात्र से कहें — "नायक के **तीन दोष (flaws)** ढूंढो जो पाठ में स्पष्ट लिखे हैं" — और उन्हें केवल **पृष्ठ.', '**दूसरा कदम**: प्रत्येक दोष के लिए पूछें — "इस दोष के कारण नायक को **क्या हानि हुई?** और **क्या उसने इससे सीखा?**".', '**तीसरा कदम**: छात्र से कहें — "अब नायक का **\'चरित्र-ग्राफ\' (character graph)** बनाओ: X-अक्ष = कथानक की घटनाएँ, Y-अक्ष.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_05_005', difficulty: 'standard',
-          question: 'सहायक पात्र वे गौण चरित्र होते हैं जिनका निर्माण लेखक नायक के चरित्र को गहराई.',
+          question: '\'आरोह भाग-1 — पाठ 5\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को.',
           hint: 'यदि अटका हुआ महसूस हो, तो **c11_hin_ar_cbse_05_004 (नायक/प्रमुख पात्र का चित्रण)** के.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'सहायक पात्र = नायक का मित्र/सहयोगी\' (Helper/Friend)**। वे \'सहायक\' शब्द के.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र वे गौण चरित्र होते हैं जिनका निर्माण लेखक नायक के चरित्र को गहराई देने, कथानक',
-                  options: ['सहायक पात्र वे गौण चरित्र होते हैं जिनका निर्माण लेखक नायक के चरित्र को गहराई देने, कथानक', '\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है: किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक,', 'कथानक (Plot) घटनाओं का वह सुव्यवस्थित क्रम है जो कारण-कार्य संबंध (Causality) से बँधा', 'पाठ्य-परिवेश (Setting) कथा का वह स्पेशियो-टेम्पोरल फ्रेमवर्क है जिसमें स्थान, काल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-1 — पाठ 5\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते',
+                  options: ['\'आरोह भाग-1 — पाठ 5\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-1 — पाठ 5\' का कथानक — \'आरोह भाग-1 — पाठ 5\' — आरोह भाग-1 का पाठ। पाठ का कथानक,', '\'आरोह भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटका हुआ महसूस हो, तो **c11_hin_ar_cbse_05_004 (नायक/प्रमुख पात्र का चित्रण)** के \'चरित्र-चाप.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'सहायक पात्र = नायक का मित्र/सहयोगी\' (Helper/Friend)**। वे \'सहायक\' शब्द के दैनिक अर्थ (helper) को.' }
           ],
             remediations: { 'helper-friend-helper-supporting-character': { steps: ['**शब्दावली स्पष्टीकरण (5 मिनट):** बोर्ड पर लिखें: **Supporting Character ≠ Helper**। समझाएँ: \'Support\'.', '**वर्गीकरण अभ्यास (10 मिनट):** किसी ज्ञात पाठ/फिल्म (जैसे \'गोदान\' या \'बाहुबली\') से 5 पात्र चुनें। छात्रों से पूछें.', 'कौन सा **सहायक पात्र** है?', 'अंतर बताओ।" फिर 4 प्रकार के सहायक पात्रों के लेबल दें: **Foil (विपरीत), Confidant (राजदार), Catalyst (उत्प्रेरक).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_05_006', difficulty: 'standard',
-          question: '**मुख्य विषय (Central Theme)** किसी रचना का वह केंद्रीय विचार या भाव है जो.',
+          question: '\'आरोह भाग-1 — पाठ 5\' का मुख्य विषय — \'आरोह भाग-1 — पाठ 5\' का केंद्रीय भाव और.',
           hint: 'यदि अटके तो **c11_hin_ar_cbse_05_004 और 005** के \'पात्र-निर्णय विश्लेषण\' खंड को दोहराएँ.',
           misconception: '**विषय = कहानी का सारांश / कथानक** — यह सबसे घातक भ्रम है। छात्र सोचते हैं "क्या हुआ" बताना ही "क्या कहा गया" बताना है।.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**मुख्य विषय (Central Theme)** किसी रचना का वह केंद्रीय विचार या भाव है जो समस्त कथानक,',
-                  options: ['**मुख्य विषय (Central Theme)** किसी रचना का वह केंद्रीय विचार या भाव है जो समस्त कथानक,', '\'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ है: किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक,', 'कथानक (Plot) घटनाओं का वह सुव्यवस्थित क्रम है जो कारण-कार्य संबंध (Causality) से बँधा', 'पाठ्य-परिवेश (Setting) कथा का वह स्पेशियो-टेम्पोरल फ्रेमवर्क है जिसमें स्थान, काल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-1 — पाठ 5\' का मुख्य विषय — \'आरोह भाग-1 — पाठ 5\' का केंद्रीय भाव और संदेश',
+                  options: ['\'आरोह भाग-1 — पाठ 5\' का मुख्य विषय — \'आरोह भाग-1 — पाठ 5\' का केंद्रीय भाव और संदेश', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-1 — पाठ 5\' का कथानक — \'आरोह भाग-1 — पाठ 5\' — आरोह भाग-1 का पाठ। पाठ का कथानक,', '\'आरोह भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके तो **c11_hin_ar_cbse_05_004 और 005** के \'पात्र-निर्णय विश्लेषण\' खंड को दोहराएँ — विशेषकर.',
                   misconception: '**विषय = कहानी का सारांश / कथानक** — यह सबसे घातक भ्रम है। छात्र सोचते हैं "क्या हुआ" बताना ही "क्या कहा गया" बताना है। उदाहरण: पाठ 5 में.' }
           ],

@@ -72,8 +72,8 @@ export const c7_bio_ch02_p1: SimDef = {
           hint: 'Review the Class 6 introduction to the digestive system and how breathing supplies air.',
           misconception: 'Students often think that excretion and egestion (defecation) are the exact same biological process, believing that.',
           parts: [
-                { id: 'a', prompt: 'If a stray dog eats a contaminated piece of food containing harmful bacteria, which life process will immediately deal with the toxins and undigested waste?', answer: 'Steps: 1) Identify that the food enters the alimentary canal through nutrition',
-                  options: ['Steps: 1) Identify that the food enters the alimentary canal through nutrition', 'toxic substances remain inside cells forever'],
+                { id: 'a', prompt: 'If a stray dog eats a contaminated piece of food containing harmful bacteria, which life process will immediately deal with the toxins and undigested waste?', answer: 'Identify that the food enters the alimentary canal through nutrition',
+                  options: ['Identify that the food enters the alimentary canal through nutrition', 'toxic substances remain inside cells forever'],
                   hint: 'Review the Class 6 introduction to the digestive system and how breathing supplies air to the body.',
                   misconception: 'Students often think that excretion and egestion (defecation) are the exact same biological process, believing that passing solid stool.' }
           ],
@@ -89,6 +89,10 @@ export const c7_bio_ch02_p1: SimDef = {
                   misconception: 'Students often think that "feeding habit" refers only to what an animal eats (e.g., grass or meat) and ignore *how* it gets the food.' },
                 { id: 'b', prompt: 'Why do cows spend hours chewing their food repeatedly (rumination), whereas tigers swallow chunks of meat without prolonged grinding?', answer: 'Cows eat plant matter (cellulose)',
                   options: ['Cows eat plant matter (cellulose)', 'feeding habit', '"feeding habit" refers only to what an animal eats (e'],
+                  hint: 'Review Class 6 concepts on animal nutrition and food chains before exploring physical feeding.',
+                  misconception: 'Students often think that "feeding habit" refers only to what an animal eats (e.g., grass or meat) and ignore *how* it gets the food.' },
+                { id: 'c', prompt: 'A pond biologist discovers a microscopic organism that uses tiny hair-like cilia to sweep suspended organic particles into its oral cavity.', answer: 'Identify the food source: suspended organic particles',
+                  options: ['Identify the food source: suspended organic particles', 'feeding habit', 'all animals hunt or graze, ignoring microscopic aquatic feeding adaptations', '"feeding habit" refers only to what an animal eats (e'],
                   hint: 'Review Class 6 concepts on animal nutrition and food chains before exploring physical feeding.',
                   misconception: 'Students often think that "feeding habit" refers only to what an animal eats (e.g., grass or meat) and ignore *how* it gets the food.' }
           ],

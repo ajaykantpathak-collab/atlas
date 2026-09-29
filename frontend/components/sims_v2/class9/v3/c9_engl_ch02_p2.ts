@@ -124,7 +124,7 @@ export const c9_engl_ch02_p2: SimDef = {
           misconception: 'Students often think the conflict is only between Sentila and her mother, overlooking the community\'s role as a silent.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Conflict between individual desire and family/community pressure refers to the struggle a',
-                  options: ['Conflict between individual desire and family/community pressure refers to the struggle a', 'A story summary is a concise retelling of the narrative\'s essential elements—main', 'Perseverance in "The Pot Maker" is the sustained effort to master a difficult craft', 'Character analysis is the systematic examination of a literary character\'s traits,'],
+                  options: ['Conflict between individual desire and family/community pressure refers to the struggle a', 'A story summary is a concise retelling of the narrative\'s essential elements—main', 'Perseverance in "The Pot Maker" is the sustained effort to master a difficult craft', 'From \'Sentila\': the skill or concept this node teaches, applied to the actual text'],
                   hint: 'Review c9_engl_ch2_2 and c9_engl_ch2_3 for character motivation charts.',
                   misconception: 'Students often think the conflict is only between Sentila and her mother, overlooking the community\'s role as a silent antagonist.' }
           ],

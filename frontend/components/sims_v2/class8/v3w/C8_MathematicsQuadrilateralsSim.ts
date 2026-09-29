@@ -6,13 +6,13 @@ import C8_MathematicsQuadrilateralsSim from '../../../simulations/c6_12/C8_Mathe
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicsquadrilateralssim: SimDef = {
     id: 'v3w_c8_mathematicsquadrilateralssim',
-    title: 'Quadrilaterals',
+    title: 'Quadrilaterals: Definition and Basic Properties',
     subtitle: 'This node covers the definition, elements (sides, vertices, angles, diagonals),.',
     classLevel: 8, subject: 'mathematics', topic: 'Quadrilaterals: Definition and Basic Properties',
     chapters: [],
     nodeIds: ['c8_math_ch4_1', 'c8_math_ch4_11', 'c8_math_ch4_12', 'c8_math_ch4_2', 'c8_math_ch4_5', 'c8_math_ch4_6'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Look at your classroom door — it has four edges and four corners. That\'s a quadrilateral!', goal: 'Master Quadrilaterals.' },
+    scenario: { role: 'a class 8 learner', intro: 'Look at your classroom door — it has four edges and four corners. That\'s a quadrilateral!', goal: 'Master Quadrilaterals: Definition and Basic Properties.' },
     discovery: {
         question: 'Explain why the sum of interior angles of ANY quadrilateral is 360°, using a diagram and the triangle angle sum property.',
         options: ['Draw diagonal AC in quadrilateral ABCD', 'because it has 4 right angles', 'regular'],
@@ -79,7 +79,7 @@ export const w_c8_mathematicsquadrilateralssim: SimDef = {
             { text: 'Conclusion — the playground is both a square and a rectangle. For sports day layout, it can correctly be called a.', faded: true, blankAnswer: 'The playground is both a square and a rectangle. It can be.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch4_11', title: 'Identify each idea',
-          dissect: { specimen: 'Quadrilaterals', spots: [
+          dissect: { specimen: 'Quadrilaterals: Definition and Basic Properties', spots: [
             { id: 's1', label: 'A quadrilateral is a closed', prompt: 'Which idea is this? — A quadrilateral is a closed plane figure bounded by four line segments (sides) that.', answer: 'A quadrilateral is a closed', options: ['A quadrilateral is a closed', 'A kite is a quadrilateral', 'The sum of the interior', 'A rectangle is a quadrilateral'] },
             { id: 's2', label: 'A kite is a quadrilateral', prompt: 'Which idea is this? — A kite is a quadrilateral with two distinct pairs of adjacent sides that are equal in.', answer: 'A kite is a quadrilateral', options: ['A kite is a quadrilateral', 'A quadrilateral is a closed', 'The sum of the interior', 'A rectangle is a quadrilateral'] },
             { id: 's3', label: 'The sum of the interior', prompt: 'Which idea is this? — The sum of the interior angles of any quadrilateral is always 360 degrees.', answer: 'The sum of the interior', options: ['The sum of the interior', 'A quadrilateral is a closed', 'A kite is a quadrilateral', 'A rectangle is a quadrilateral'] },
@@ -88,7 +88,7 @@ export const w_c8_mathematicsquadrilateralssim: SimDef = {
             { id: 's6', label: 'A square is a special', prompt: 'Which idea is this? — A square is a special type of rectangle where all four sides are equal in length.', answer: 'A square is a special', options: ['A square is a special', 'A quadrilateral is a closed', 'A kite is a quadrilateral', 'The sum of the interior'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsQuadrilateralsSim, prompt: 'Explore the interactive — Quadrilaterals' },
+    explore: { component: C8_MathematicsQuadrilateralsSim, prompt: 'Explore the interactive — Quadrilaterals: Definition and Basic Properties' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch4_1', difficulty: 'standard',
           question: 'A quadrilateral is a closed plane figure bounded by four line segments (sides).',

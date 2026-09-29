@@ -19,7 +19,7 @@ export const c12_hin_ar_ch07_p3: SimDef = {
         hook: 'His five forms here aren\'t experiments — they\'re classical metres mastered and matched to mood: चप्पय\'s even matras for philosophy, दोहा\'s rolling asymmetry for narrative. Variety is discipline, not rebellion; form follows function.',
     },
     teaching: [
-        { title: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'कवितावली (उत्तरकांड) के \'लक्ष्मण-मूर्च्छा और राम का विलाप\' प्रसंग में तुलसीदास ने ब्रजभाषा के कवित्त छंद में राम के मानवीय रूप (पुत्रवत स्नेह) और दैवीय रूप (परमात्मा) के द्वंद्व को, अलंकारों (यमक.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: '\'आरोह भाग-2 — पाठ 7\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_07_013', title: 'Your mission',
@@ -28,11 +28,13 @@ export const c12_hin_ar_ch07_p3: SimDef = {
         context: 'Enter the Bhakti workshop: place Tulsidas among the saints, learn what each chhand is built to carry, and weigh how a \'simple\' language shift levelled a hierarchy.',
         labels: ['कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c12_hin_ar_cbse_07_014', title: 'Identify each idea',
-          dissect: { specimen: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप · Part 3/3', spots: [
-            { id: 's1', label: '- -', prompt: 'Which idea is this? — कवितावली (उत्तरकांड) के \'लक्ष्मण-मूर्च्छा और राम का विलाप\' प्रसंग में तुलसीदास ने.', answer: '- -', options: ['- -', '- - -'] },
-            { id: 's2', label: '- - -', prompt: 'Which idea is this? — \'कवितावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का विलाप\' तुलसीदास रचित ब्रजभाषा की एक.', answer: '- - -', options: ['- - -', '- -'] }
-          ] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_07_015', title: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप — वाचन-पाठ और चर्चा-बिंदु',
+          caseStudy: { intro: '\'आरोह भाग-2 — पाठ 7\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'What are the five poetic forms (नननन) used in Tulsidas\'s works as discussed in Chapter 7, and which form has 31-31 characters per line with.', options: [
+                { text: 'The five forms are: दोहा (doha), चौपाई (chaupai), सवैया (savaiya), कवित्त (kavitt), and', outcome: 'The five forms are: दोहा (doha), चौपाई (chaupai), सवैया (savaiya), कवित्त (kavitt), and सोरठा.' },
+                { text: 'कवित्त', outcome: 'Not quite — Students believe "discussion" means taking turns stating opinions — they wait for a turn, make.', reveals: 'discussion-means-taking-turns-stating' },
+                { text: 'छंद परिचय', outcome: 'Not quite — Students believe "discussion" means taking turns stating opinions — they wait for a turn, make.', reveals: 'discussion-means-taking-turns-stating' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_07_013', title: 'Use it in the wild',
           caseStudy: { intro: 'You\'re cutting a farewell video for a beloved coach. A teammate says the interview clips where the players hesitate before thanking him \'break the flow\' and should be dropped so the highlight reel stays \'propulsive.\'',
             decisions: [{ prompt: 'What would Tulsidas\'s design of the Guha episode argue?', options: [
@@ -52,38 +54,42 @@ export const c12_hin_ar_ch07_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_013', difficulty: 'standard',
-          question: 'कवितावली (उत्तरकांड) के \'लक्ष्मण-मूर्च्छा और राम का विलाप\' प्रसंग में तुलसीदास.',
+          question: '\'आरोह भाग-2 — पाठ 7\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'यदि छंद पहचानने या अलंकार छाँटने में अटकें, तो **c12_hin_ar_cbse_07_008 (बिंब/रूपक)** और.',
           misconception: '**सबसे घातक भ्रम**: छात्र मानते हैं कि राम का विलाप **\'कमजोरी\' या \'मोह\' (attachment)** है, और तुलसीदास राम को \'साधारण.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कवितावली (उत्तरकांड) के \'लक्ष्मण-मूर्च्छा और राम का विलाप\' प्रसंग में तुलसीदास ने',
-                  options: ['कवितावली (उत्तरकांड) के \'लक्ष्मण-मूर्च्छा और राम का विलाप\' प्रसंग में तुलसीदास ने', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 7\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+                  options: ['\'आरोह भाग-2 — पाठ 7\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 7\' का कथानक — \'आरोह भाग-2 — पाठ 7\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 7\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि छंद पहचानने या अलंकार छाँटने में अटकें, तो **c12_hin_ar_cbse_07_008 (बिंब/रूपक)** और.',
                   misconception: '**सबसे घातक भ्रम**: छात्र मानते हैं कि राम का विलाप **\'कमजोरी\' या \'मोह\' (attachment)** है, और तुलसीदास राम को \'साधारण मानव\' दिखा रहे हैं।.' }
           ],
             remediations: { 'attachment': { steps: ['**पुन: पठन (Re-read)**: प्रसंग के **पहले और अंतिम पद** को आमने-सामने रखकर पढ़ें — पहले में \'प्रान प्रिय लखन\', अंत में.', '**बिंब-मानचित्रण (Image-mapping)**: एक कागज पर दो स्तंभ बनाएँ — बाएँ **दैहिक बिंब** (मूर्च्छा, नीर, विकलता), दाएँ.', '**अलंकार-भाव जोड़ (Alankar-bhav link)**: प्रत्येक अलंकार (यमक, अनुप्रास, रूपक, उत्प्रेक्षा) के आगे लिखें: **यह कौन-सा.', '**पुन: निदान (Re-diagnostic)**: ऊपर दिए गए **Diagnostic Q3 और Q5** को फिर से हल करें — यदि अब आप \'विरोधाभास\' और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_014', difficulty: 'standard',
-          question: 'परीक्षा-उत्तर लेखन कौशल वह व्यवस्थित प्रक्रिया है जिसमें विद्यार्थी प्रश्न की.',
+          question: '\'आरोह भाग-2 — पाठ 7\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि PEEL याद न आए → c11_hin_ar_cbse_07_014 का \'लेखन कौशल\' खंड दोहराएँ; यदि साक्ष्य न.',
           misconception: '**विशिष्ट भ्रम:** विद्यार्थी मानते हैं कि "उत्तर लंबा लिखने से अंक मिलते हैं" — इसलिए 3-अंकीय प्रश्न में 150 शब्द लिख.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल वह व्यवस्थित प्रक्रिया है जिसमें विद्यार्थी प्रश्न की मांग',
-                  options: ['परीक्षा-उत्तर लेखन कौशल वह व्यवस्थित प्रक्रिया है जिसमें विद्यार्थी प्रश्न की मांग', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 7\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+                  options: ['\'आरोह भाग-2 — पाठ 7\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 7\' का कथानक — \'आरोह भाग-2 — पाठ 7\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 7\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि PEEL याद न आए → c11_hin_ar_cbse_07_014 का \'लेखन कौशल\' खंड दोहराएँ; यदि साक्ष्य न मिलें →.',
                   misconception: '**विशिष्ट भ्रम:** विद्यार्थी मानते हैं कि "उत्तर लंबा लिखने से अंक मिलते हैं" — इसलिए 3-अंकीय प्रश्न में 150 शब्द लिख डालते हैं, पर **Point.' }
           ],
             remediations: { '3-150': { steps: ['**निदान:** विद्यार्थी से 3-अंकीय प्रश्न पर 5 मिनट में उत्तर लिखवाएँ; फिर **PEEL हाइलाइटर** (4 रंग) दें — Point=लाल.', '**अभ्यास:** यदि कोई रंग गायब → उसी रंग का घटक मौखिक रूप से पूछें ("तुम्हारा Point क्या है?")। 3.', '**पुनर्लेखन:** केवल गायब घटक जोड़कर उत्तर दुबारा लिखवाएँ — पूरा नहीं। 4.', '**पुनः-जाँच:** अगले दिन नया प्रश्न दें; यदि PEEL स्वतः आता है → मास्टरी; नहीं → c11_hin_ar_cbse_07_014 (कक्षा 11 लेखन.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_015', difficulty: 'standard',
-          question: '\'कवितावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का विलाप\' तुलसीदास रचित.',
-          hint: 'यदि अटके तो **c11_hin_a_cbse_13_005 (छंद और लय-विधान)** तथा **c11_hin_a_cbse_13_006.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'राम का विलाप = कमजोरी/मोह प्रदर्शन\'** है और तुलसीदास ने राम को \'मनुष्य\'.',
+          question: '\'आरोह भाग-2 — पाठ 7\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'If stuck on form identification: revisit the "छंद परिचय" box at chapter end (page 47-48.',
+          misconception: 'Students believe "discussion" means taking turns stating opinions — they wait for a turn, make a general comment.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कवितावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का विलाप\' तुलसीदास रचित ब्रजभाषा की एक',
-                  options: ['\'कवितावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का विलाप\' तुलसीदास रचित ब्रजभाषा की एक', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
-                  hint: 'यदि अटके तो **c11_hin_a_cbse_13_005 (छंद और लय-विधान)** तथा **c11_hin_a_cbse_13_006 (अलंकार)** को.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'राम का विलाप = कमजोरी/मोह प्रदर्शन\'** है और तुलसीदास ने राम को \'मनुष्य\' दिखाने के लिए उन्हें.' }
+                { id: 'a', prompt: 'In the discussion question "सीता के वियोग में राम का जो शोक है, उसे कवि ने हनुमान के मुख से व्यक्त किया है" — why does the poet choose Hanuman as the speaker.', answer: 'Tulsidas uses Hanuman as the speaker',
+                  options: ['Tulsidas uses Hanuman as the speaker', 'Hanuman is Ram\'s devotee', 'discussion', 'Tulsidas is great'],
+                  hint: 'If stuck on form identification: revisit the "छंद परिचय" box at chapter end (page 47-48 in NCERT).',
+                  misconception: 'Students believe "discussion" means taking turns stating opinions — they wait for a turn, make a general comment ("Tulsidas is great"), and.' },
+                { id: 'b', prompt: 'Compare the discussion dynamics when analyzing a दोहा (closed form, 2 lines) versus a सवैया (open form, 4 lines with 13/11 meter).', answer: 'A दोहा discussion focuses on compression',
+                  options: ['A दोहा discussion focuses on compression', 'discussion', 'Tulsidas is great'],
+                  hint: 'If stuck on form identification: revisit the "छंद परिचय" box at chapter end (page 47-48 in NCERT).',
+                  misconception: 'Students believe "discussion" means taking turns stating opinions — they wait for a turn, make a general comment ("Tulsidas is great"), and.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**चरण 1:** छात्र से कहें — "राम के विलाप वाले किसी एक पद को **बंद आँखों से सुनें** (ऑडियो/शिक्षक वाचन)। बताओ तुम्हें.', 'इससे **काव्य-चेतना (poetic consciousness)** स्पष्ट होगी। **पुनः निदान:** उपरोक्त DIAGNOSTIC_QUESTION_4 को दोहराएँ।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'discussion-means-taking-turns-stating': { steps: ['If a student defaults to opinion-stating: Step 1 — Give them a 2-line doha from the chapter and ask: "What social class.', 'Prove it from the text." Step 2 — Have them practice the "Paraphrase-then-Pivot" technique: repeat a peer\'s point.', 'How many times did they use "because the text shows"?', 'Step 4 — Re-attempt with a new discussion prompt, targeting 3+ textual citations and 1 explicit build-on.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

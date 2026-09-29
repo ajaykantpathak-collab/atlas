@@ -19,7 +19,7 @@ export const c12_eng_k_ch18_p1: SimDef = {
         hook: 'This isn\'t a pride parade of \'Indians love to argue\' — Sen is an economist building evidence: a nine-hour UN speech, an epic seven times the Iliad and Odyssey combined, Gargi\'s interrogations. He critiques exclusions too — who was allowed to argue matters as much as that they argued.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" for Amartya Sen\'s "The Argumentative Indian" is the preparatory stage where students acquire essential knowledge about the author\'s credentials, the book\'s.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Argumentative Indian\' (Kaleidoscope, ch. 18) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_18_001', title: 'Your mission',
@@ -29,32 +29,32 @@ export const c12_eng_k_ch18_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_18_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a documentary on "How India Became a Democracy." Before pressing play, you\'d want to know: who made it? What\'s their expertise?',
+          caseStudy: { intro: 'Start with the author of \'The Argumentative Indian\', then the period, then the literary context — background turns a text from a puzzle into a story you can.',
             decisions: [{ prompt: 'What is the subtitle of Amartya Sen\'s book *The Argumentative Indian*, and what does it indicate about the essay\'s disciplinary approach?', options: [
                 { text: 'The subtitle is "Writings on Indian Culture, History and Identity." It indicates the', outcome: 'The subtitle is "Writings on Indian Culture, History and Identity." It indicates the essay.' },
                 { text: 'Essays on Indian Philosophy', outcome: 'Not quite — Students often treat "The Argumentative Indian" as a celebration of Indian culture or a religious.', reveals: 'students-often-treat-the-argumentative' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_18_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are asked: "How does Sen prove that argumentation is central to Indian identity?" You cannot just list examples — you must show how the essay.',
+          caseStudy: { intro: 'Trace \'The Argumentative Indian\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What are the three major thematic sections of Sen\'s essay as indicated by the textbook\'s bold headings, and in what order do they appear?', options: [
                 { text: 'The three sections in order are: (1) "Dialogue and Significance" (pp', outcome: 'The three sections in order are: (1) "Dialogue and Significance" (pp.' },
                 { text: 'Bhagavad Gita', outcome: 'Not quite — Students think "plot" means "what happens" and since this is an essay, they say "there is no plot.".', reveals: 'plot-means-what-happens-and' },
                 { text: 'and since this is an essay, they say', outcome: 'Not quite — Students think "plot" means "what happens" and since this is an essay, they say "there is no plot.".', reveals: 'plot-means-what-happens-and' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_18_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are reading a powerful op-ed in a newspaper about a current debate — say, climate policy.',
+          caseStudy: { intro: 'Identify where and when \'The Argumentative Indian\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the primary difference between "setting" in a fictional narrative and "setting" in an argumentative non-fiction essay like Sen\'s?', options: [
                 { text: 'In fiction, setting is primarily the physical/time/place backdrop for characters and plot', outcome: 'In fiction, setting is primarily the physical/time/place backdrop for characters and plot.' },
                 { text: 'setting is where the essay takes place', outcome: 'Not quite — Students often treat "atmosphere" as the author\'s personal mood (e.g., "Sen feels proud of India").', reveals: 'students-often-treat-atmosphere-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_18_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re reading an op-ed by a Nobel Prize-winning economist about Indian democracy. You don\'t just ask "What is he saying?" — you ask "Who is speaking?',
+          caseStudy: { intro: 'Pick the central figure in \'The Argumentative Indian\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is "authorial persona" in a non-fiction essay, and how does it differ from a character in fiction?', options: [
                 { text: 'Authorial persona is the constructed voice and intellectual stance the writer adopts', outcome: 'Authorial persona is the constructed voice and intellectual stance the writer adopts — their.' },
                 { text: 'It\'s the main person the essay talks about', outcome: 'Not quite — Students treat "Character Analysis: Protagonist" as **analyzing the historical figures Sen.', reveals: 'students-treat-character-analysis-protagonist' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_18_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re in a heated family WhatsApp group debate about a news article — everyone has an opinion, counter-arguments fly, and the discussion goes on for.',
+          caseStudy: { intro: 'Ask what \'The Argumentative Indian\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the "primary theme" of Amartya Sen\'s essay "The Argumentative Indian" as presented in the NCERT excerpt?', options: [
                 { text: 'The primary theme is India\'s long tradition of public reasoning, dialogue, and', outcome: 'The primary theme is India\'s long tradition of public reasoning, dialogue, and argumentation.' },
                 { text: 'Sen praises Indian epics', outcome: 'Not quite — Students consistently confuse "theme" with "topic list." They write: "The themes are: 1) Indian.', reveals: 'students-consistently-confuse-theme-with' },
@@ -79,18 +79,18 @@ export const c12_eng_k_ch18_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" for Amartya Sen\'s "The Argumentative.',
+          question: '\'The Argumentative Indian\' (Kaleidoscope, ch. 18) — the context and background.',
           hint: 'If stuck, revisit c11_eng_w_cbse_01_001 (Woven Words Ch1 Before You Read) and practice.',
           misconception: 'Students often treat "The Argumentative Indian" as a celebration of Indian culture or a religious defense of the Gita.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" for Amartya Sen\'s "The Argumentative Indian" is',
-                  options: ['"Before You Read: Context and Background" for Amartya Sen\'s "The Argumentative Indian" is', 'In a non-fiction argumentative essay like "The Argumentative Indian," **plot and', 'In non-fiction argumentative prose, **setting** refers to the historical, cultural,', 'Character analysis in non-fiction essays examines the **authorial persona**'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'The Argumentative Indian\' (Kaleidoscope, ch',
+                  options: ['\'The Argumentative Indian\' (Kaleidoscope, ch', 'The plot/narrative arc of \'The Argumentative Indian\'', 'The setting of \'The Argumentative Indian\'', 'Character analysis in \'The Argumentative Indian\''],
                   hint: 'If stuck, revisit c11_eng_w_cbse_01_001 (Woven Words Ch1 Before You Read) and practice the.',
                   misconception: 'Students often treat "The Argumentative Indian" as a celebration of Indian culture or a religious defense of the Gita.' }
           ],
             remediations: { 'students-often-treat-the-argumentative': { steps: ['If a student exhibits the above misconception: (1) Have them re-read only the "Stop and Think" boxes and the "Democracy.', '(2) Ask them to write one sentence answering: "Does Sen think the Gita\'s message is complete?', 'Quote the exact phrase where he says it isn\'t." (3) Have them list the three groups Sen says were historically excluded.', '(4) Re-attempt Diagnostic Question 2 and 5.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_002', difficulty: 'standard',
-          question: 'In a non-fiction argumentative essay like "The Argumentative Indian," **plot.',
+          question: 'The plot/narrative arc of \'The Argumentative Indian\' — what happens, in what.',
           hint: 'If unable to separate content from function, revisit **c11_eng_w_cbse_05_002** (Woven.',
           misconception: 'Students think "plot" means "what happens" and since this is an essay, they say "there is no plot." They then list.',
           parts: [
@@ -116,18 +116,18 @@ export const c12_eng_k_ch18_p1: SimDef = {
           ],
             remediations: { 'plot-means-what-happens-and': { steps: ['Have the student reread **only the bold headings and first/last sentence of each paragraph** (skim for architecture).', 'Ask: "What *job* does this paragraph do?', '(e.g., \'introduces counterargument\', \'provides historical evidence\', \'qualifies the claim\')".', 'Have them draw a flowchart: Box 1 → Box 2 → Box 3 with arrows labeled "expands", "complicates", "applies".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_003', difficulty: 'standard',
-          question: 'In non-fiction argumentative prose, **setting** refers to the historical.',
+          question: 'The setting of \'The Argumentative Indian\' — the place, time and atmosphere the.',
           hint: 'If stuck, revisit c11_eng_h_cbse_01_003 (Hornbill Chapter 1: Setting and Atmosphere) and.',
           misconception: 'Students often treat "atmosphere" as the author\'s personal mood (e.g., "Sen feels proud of India") rather than the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'In non-fiction argumentative prose, **setting** refers to the historical, cultural,',
-                  options: ['In non-fiction argumentative prose, **setting** refers to the historical, cultural,', '"Before You Read: Context and Background" for Amartya Sen\'s "The Argumentative Indian" is', 'In a non-fiction argumentative essay like "The Argumentative Indian," **plot and', 'Character analysis in non-fiction essays examines the **authorial persona**'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'The Argumentative Indian\'',
+                  options: ['The setting of \'The Argumentative Indian\'', '\'The Argumentative Indian\' (Kaleidoscope, ch', 'The plot/narrative arc of \'The Argumentative Indian\'', 'Character analysis in \'The Argumentative Indian\''],
                   hint: 'If stuck, revisit c11_eng_h_cbse_01_003 (Hornbill Chapter 1: Setting and Atmosphere) and re-do the.',
                   misconception: 'Students often treat "atmosphere" as the author\'s personal mood (e.g., "Sen feels proud of India") rather than the **rhetorical climate.' }
           ],
             remediations: { 'students-often-treat-atmosphere-as': { steps: ['Ask the student to list 5 adjectives describing the "feel" of the first paragraph vs.', 'the democracy paragraph — forcing them to distinguish textual tone from authorial emotion.', 'Have them highlight every qualifying phrase in the essay ("often enough," "by and large," "not entirely," "I would.', 'Assign a 150-word rewrite of a current news editorial where they deliberately shift atmosphere twice (e.g., from.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_004', difficulty: 'standard',
-          question: 'Character analysis in non-fiction essays examines the **authorial persona**.',
+          question: 'Character analysis in \'The Argumentative Indian\' — the central figure(s), their.',
           hint: 'If stuck, return to c11_eng_h_cbse_01_004 and re-learn: "Character = what the text.',
           misconception: 'Students treat "Character Analysis: Protagonist" as **analyzing the historical figures Sen discusses** (Krishna.',
           parts: [
@@ -138,18 +138,18 @@ export const c12_eng_k_ch18_p1: SimDef = {
           ],
             remediations: { 'students-treat-character-analysis-protagonist': { steps: ['If student analyzes Krishna/Arjuna/Gargi instead of Sen: 1.', '**Re-read the first 5 paragraphs** with a highlighter: mark every "I," "my," "we," "our," "me." 2.', '**Ask aloud:** "What does *this sentence* tell me about the *writer* — not the subject?" 3.', '**Complete this frame:** "By choosing to open with ___, Sen shows himself to be a thinker who ___." 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_005', difficulty: 'standard',
-          question: 'In non-fiction essays, supporting characters are the historical, literary.',
+          question: 'Supporting characters in \'The Argumentative Indian\' — the secondary figures who.',
           hint: 'If stuck, re-read the “Gender, Caste and Voice” section (pp. 180-185) and list each named.',
           misconception: 'Students often treat supporting characters in non-fiction as mere “examples” or “illustrations” of Sen’s points.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'In non-fiction essays, supporting characters are the historical, literary, philosophical,',
-                  options: ['In non-fiction essays, supporting characters are the historical, literary, philosophical,', '"Before You Read: Context and Background" for Amartya Sen\'s "The Argumentative Indian" is', 'In a non-fiction argumentative essay like "The Argumentative Indian," **plot and', 'In non-fiction argumentative prose, **setting** refers to the historical, cultural,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in \'The Argumentative Indian\'',
+                  options: ['Supporting characters in \'The Argumentative Indian\'', '\'The Argumentative Indian\' (Kaleidoscope, ch', 'The plot/narrative arc of \'The Argumentative Indian\'', 'The setting of \'The Argumentative Indian\''],
                   hint: 'If stuck, re-read the “Gender, Caste and Voice” section (pp. 180-185) and list each named person.',
                   misconception: 'Students often treat supporting characters in non-fiction as mere “examples” or “illustrations” of Sen’s points, forgetting that Sen stages.' }
           ],
             remediations: { 'students-often-treat-supporting-characters': { steps: ['If the student conflates “example” with “argumentative voice,” do this: (1) Re-read the Gargi passage (pp.', '181-182) and highlight every verb that shows her agency (e.g., “enters the fray,” “approaches you with two questions”).', '(2) Write one sentence: “Gargi does not just illustrate women’s participation; she ______.” (3) Repeat for Draupadi and.', '(4) Re-attempt Diagnostic Question 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_18_006', difficulty: 'standard',
-          question: 'The primary theme of "The Argumentative Indian" is India\'s ancient.',
+          question: 'The primary theme of \'The Argumentative Indian\' — the central idea the whole.',
           hint: 'If stuck on thesis-tracing, review Class 11 Hornbill Chapter 1 "The Portrait of a Lady".',
           misconception: 'Students consistently confuse "theme" with "topic list." They write: "The themes are: 1) Indian epics are long, 2).',
           parts: [

@@ -6,13 +6,13 @@ import C12_EcoOpenEconomyMacroCBSESim from '../../../simulations/c6_12_new/C12_E
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_ecoopeneconomymacrocbsesim: SimDef = {
     id: 'v3w_c12_ecoopeneconomymacrocbsesim',
-    title: 'Open Economy Macro CBSE',
+    title: 'Microeconomics and Macroeconomics: Distinction and Scope',
     subtitle: 'This node covers the fundamental distinction between microeconomics and macroeconomics,.',
     classLevel: 12, subject: 'economics', topic: 'Microeconomics and Macroeconomics: Distinction and Scope',
     chapters: [],
     nodeIds: ['c12_eco_cbse_01_006', 'c12_eco_cbse_09_005', 'c12_eco_cbse_09_007', 'c12_eco_cbse_09_010', 'c12_eco_cbse_01_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are reading two headlines: "Onion prices in Delhi mandis hit ₹80/kg due to crop failure" and.', goal: 'Master Open Economy Macro CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are reading two headlines: "Onion prices in Delhi mandis hit ₹80/kg due to crop failure" and.', goal: 'Master Microeconomics and Macroeconomics: Distinction and Scope.' },
     discovery: {
         question: 'Explain why the Great Depression of 1929 led to the birth of macroeconomics as a separate branch of economics.',
         options: ['The Great Depression showed that the classical belief', 'because the stock market crashed', 'the distinction between micro and macro is merely about "small vs'],
@@ -71,7 +71,7 @@ export const w_c12_ecoopeneconomymacrocbsesim: SimDef = {
             { text: 'On PPF, 2S + 3K = 200 → K = (200-2S)/3. MRT = dK/dS = -2/3. Opportunity cost of 1 shirt = 2/3 kurta.', faded: true, blankAnswer: 'Opportunity cost of 10 additional shirts = 6.67 kurtas (at.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_eco_cbse_09_005', title: 'Identify each idea',
-          dissect: { specimen: 'Open Economy Macro CBSE', spots: [
+          dissect: { specimen: 'Microeconomics and Macroeconomics: Distinction and Scope', spots: [
             { id: 's1', label: 'Microeconomics studies the behaviour of', prompt: 'Which idea is this? — Microeconomics studies the behaviour of individual economic agents — households and firms.', answer: 'Microeconomics studies the behaviour of', options: ['Microeconomics studies the behaviour of', 'Open Market Operations OMO refer', 'Repo rate is the interest', 'High-powered money H also called'] },
             { id: 's2', label: 'Open Market Operations OMO refer', prompt: 'Which idea is this? — Open Market Operations (OMO) refer to the purchase and sale of government securities by.', answer: 'Open Market Operations OMO refer', options: ['Open Market Operations OMO refer', 'Microeconomics studies the behaviour of', 'Repo rate is the interest', 'High-powered money H also called'] },
             { id: 's3', label: 'Repo rate is the interest', prompt: 'Which idea is this? — Repo rate is the interest rate at which the Reserve Bank of India (RBI) lends short-term.', answer: 'Repo rate is the interest', options: ['Repo rate is the interest', 'Microeconomics studies the behaviour of', 'Open Market Operations OMO refer', 'High-powered money H also called'] },
@@ -79,7 +79,7 @@ export const w_c12_ecoopeneconomymacrocbsesim: SimDef = {
             { id: 's5', label: 'Scarcity is the fundamental economic', prompt: 'Which idea is this? — Scarcity is the fundamental economic condition where unlimited human wants exceed the.', answer: 'Scarcity is the fundamental economic', options: ['Scarcity is the fundamental economic', 'Microeconomics studies the behaviour of', 'Open Market Operations OMO refer', 'Repo rate is the interest'] }
           ] } }
     ],
-    explore: { component: C12_EcoOpenEconomyMacroCBSESim, prompt: 'Explore the interactive — Open Economy Macro CBSE' },
+    explore: { component: C12_EcoOpenEconomyMacroCBSESim, prompt: 'Explore the interactive — Microeconomics and Macroeconomics: Distinction and Scope' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eco_cbse_01_006', difficulty: 'standard',
           question: 'Microeconomics studies the behaviour of individual economic agents — households.',

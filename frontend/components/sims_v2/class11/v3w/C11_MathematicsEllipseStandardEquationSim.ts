@@ -6,13 +6,13 @@ import C11_MathematicsEllipseStandardEquationSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathematicsellipsestandardequationsim: SimDef = {
     id: 'v3w_c11_mathematicsellipsestandardequationsim',
-    title: 'Ellipse Standard Equation',
+    title: 'Conic Sections: Introduction and Definition',
     subtitle: 'This node covers only the geometric definition of conic sections, the classification of.',
     classLevel: 11, subject: 'mathematics', topic: 'Conic Sections: Introduction and Definition',
     chapters: [],
     nodeIds: ['c11_math_cbse_11_001', 'c11_math_cbse_11_006', 'c11_math_cbse_11_007', 'c11_math_cbse_11_002', 'c11_math_cbse_11_003', 'c11_math_cbse_11_004', 'c11_math_cbse_11_005', 'c11_math_cbse_11_008', 'c11_math_cbse_11_009', 'c11_math_cbse_11_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a satellite dish for a communications tower in Bengaluru: the dish must reflect.', goal: 'Master Ellipse Standard Equation.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a satellite dish for a communications tower in Bengaluru: the dish must reflect.', goal: 'Master Conic Sections: Introduction and Definition.' },
     discovery: {
         question: 'If a plane cuts a double-napped cone parallel to its axis, which conic section is formed, and why does this cut produce two separate curves?',
         options: ['A hyperbola is formed', 'parabola', 'ellipse'],
@@ -79,7 +79,7 @@ export const w_c11_mathematicsellipsestandardequationsim: SimDef = {
             { text: 'Interpret: The dish is 15 cm deep at centre. Equation: y² = 240x (x in cm, y in cm).', faded: true, blankAnswer: 'Depth = 15 cm. Equation: y² = 240x (with x, y in cm).' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_11_006', title: 'Identify each idea',
-          dissect: { specimen: 'Ellipse Standard Equation', spots: [
+          dissect: { specimen: 'Conic Sections: Introduction and Definition', spots: [
             { id: 's1', label: 'A conic section is a', prompt: 'Which idea is this? — A conic section is a curve obtained by intersecting a plane with a double-napped right.', answer: 'A conic section is a', options: ['A conic section is a', 'An ellipse is the set', 'For an ellipse in standard', 'A circle is the set'] },
             { id: 's2', label: 'An ellipse is the set', prompt: 'Which idea is this? — An ellipse is the set of all points in a plane such that the sum of their distances from.', answer: 'An ellipse is the set', options: ['An ellipse is the set', 'A conic section is a', 'For an ellipse in standard', 'A circle is the set'] },
             { id: 's3', label: 'For an ellipse in standard', prompt: 'Which idea is this? — For an ellipse in standard form \\(\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1\\) with \\(a > b >.', answer: 'For an ellipse in standard', options: ['For an ellipse in standard', 'A conic section is a', 'An ellipse is the set', 'A circle is the set'] },
@@ -88,7 +88,7 @@ export const w_c11_mathematicsellipsestandardequationsim: SimDef = {
             { id: 's6', label: 'A parabola is the set', prompt: 'Which idea is this? — A parabola is the set of all points in a plane that are equidistant from a fixed point.', answer: 'A parabola is the set', options: ['A parabola is the set', 'A conic section is a', 'An ellipse is the set', 'For an ellipse in standard'] }
           ] } }
     ],
-    explore: { component: C11_MathematicsEllipseStandardEquationSim, prompt: 'Explore the interactive — Ellipse Standard Equation' },
+    explore: { component: C11_MathematicsEllipseStandardEquationSim, prompt: 'Explore the interactive — Conic Sections: Introduction and Definition' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_11_001', difficulty: 'standard',
           question: 'A conic section is a curve obtained by intersecting a plane with a.',

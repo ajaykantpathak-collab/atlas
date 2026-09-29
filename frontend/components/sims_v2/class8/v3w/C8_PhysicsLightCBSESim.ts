@@ -6,13 +6,13 @@ import C8_PhysicsLightCBSESim from '../../../simulations/c6_12/C8_PhysicsLightCB
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_physicslightcbsesim: SimDef = {
     id: 'v3w_c8_physicslightcbsesim',
-    title: 'Light CBSE',
+    title: 'Spherical Mirrors: Concave and Convex - Definition',
     subtitle: 'This node covers only the definition and basic identification of concave and convex.',
     classLevel: 8, subject: 'physics', topic: 'Spherical Mirrors: Concave and Convex - Definition',
     chapters: [],
     nodeIds: ['c8_physics_ch6_1', 'c8_physics_ch6_10', 'c8_physics_ch6_3', 'c8_physics_ch6_6', 'c8_physics_ch6_7', 'c8_physics_ch6_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Take a stainless steel spoon from the kitchen and look at your face in the inner curved side — you see a.', goal: 'Master Light CBSE.' },
+    scenario: { role: 'a class 8 learner', intro: 'Take a stainless steel spoon from the kitchen and look at your face in the inner curved side — you see a.', goal: 'Master Spherical Mirrors: Concave and Convex - Definition.' },
     discovery: {
         question: 'Why does a stainless steel spoon show an inverted image on one side when held at arm\'s length but an upright image on the other side at the same distance?',
         options: ['The inner side of the spoon is a concave mirror', 'concave', 'convex'],
@@ -79,7 +79,7 @@ export const w_c8_physicslightcbsesim: SimDef = {
             { text: 'Verify reasonableness: A truck 15 m away appearing as a small image near the focus (0.5 m behind mirror) is consistent.', faded: true, blankAnswer: 'Image is virtual, erect, highly diminished, located.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_physics_ch6_10', title: 'Identify each idea',
-          dissect: { specimen: 'Light CBSE', spots: [
+          dissect: { specimen: 'Spherical Mirrors: Concave and Convex - Definition', spots: [
             { id: 's1', label: 'A spherical mirror is a', prompt: 'Which idea is this? — A spherical mirror is a reflecting surface that forms a part of a hollow sphere; if the.', answer: 'A spherical mirror is a', options: ['A spherical mirror is a', 'A lens is a transparent', 'The principal focus F of', 'Image formation by a convex'] },
             { id: 's2', label: 'A lens is a transparent', prompt: 'Which idea is this? — A lens is a transparent optical medium bounded by two spherical surfaces (or one.', answer: 'A lens is a transparent', options: ['A lens is a transparent', 'A spherical mirror is a', 'The principal focus F of', 'Image formation by a convex'] },
             { id: 's3', label: 'The principal focus F of', prompt: 'Which idea is this? — The principal focus (F) of a concave mirror is the point on the principal axis where.', answer: 'The principal focus F of', options: ['The principal focus F of', 'A spherical mirror is a', 'A lens is a transparent', 'Image formation by a convex'] },
@@ -88,7 +88,7 @@ export const w_c8_physicslightcbsesim: SimDef = {
             { id: 's6', label: 'Convex mirrors are spherical mirrors', prompt: 'Which idea is this? — Convex mirrors are spherical mirrors with reflecting surfaces curved outward, which.', answer: 'Convex mirrors are spherical mirrors', options: ['Convex mirrors are spherical mirrors', 'A spherical mirror is a', 'A lens is a transparent', 'The principal focus F of'] }
           ] } }
     ],
-    explore: { component: C8_PhysicsLightCBSESim, prompt: 'Explore the interactive — Light CBSE' },
+    explore: { component: C8_PhysicsLightCBSESim, prompt: 'Explore the interactive — Spherical Mirrors: Concave and Convex - Definition' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch6_1', difficulty: 'standard',
           question: 'A spherical mirror is a reflecting surface that forms a part of a hollow.',
@@ -177,8 +177,8 @@ export const w_c8_physicslightcbsesim: SimDef = {
                   options: ['Ray 1: Incident parallel to the principal axis', 'F is halfway between P and C'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think the focal point (F) and centre of curvature (C) of a convex mirror are in front of the mirror (like a concave mirror).' },
-                { id: 'b', prompt: 'An object of height 4 cm is placed 20 cm in front of a convex mirror of focal length 15 cm.', answer: 'Steps: 1) Draw principal axis, mirror (curved outward), mark P',
-                  options: ['Steps: 1) Draw principal axis, mirror (curved outward), mark P', 'F is halfway between P and C'],
+                { id: 'b', prompt: 'An object of height 4 cm is placed 20 cm in front of a convex mirror of focal length 15 cm.', answer: 'Draw principal axis, mirror (curved outward), mark P',
+                  options: ['Draw principal axis, mirror (curved outward), mark P', 'F is halfway between P and C'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think the focal point (F) and centre of curvature (C) of a convex mirror are in front of the mirror (like a concave mirror).' },
                 { id: 'c', prompt: 'Compare the ray diagrams for a convex mirror and a concave mirror when the object is placed at infinity. How do the image positions and natures differ?', answer: 'For convex mirror: Rays from infinity are parallel',
@@ -226,8 +226,8 @@ export const w_c8_physicslightcbsesim: SimDef = {
                   options: ['Both images are real', 'virtual for lens', 'not real'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that virtual images are "not real" in the sense of being illusions, and therefore cannot be photographed or seen.' },
-                { id: 'b', prompt: 'Design a simple experiment using a concave mirror, a candle, and a screen to demonstrate that a real image is formed when the object is beyond the focus, but a.', answer: 'Steps: 1) Find approximate focal length by focusing sunlight on paper',
-                  options: ['Steps: 1) Find approximate focal length by focusing sunlight on paper', 'not real'],
+                { id: 'b', prompt: 'Design a simple experiment using a concave mirror, a candle, and a screen to demonstrate that a real image is formed when the object is beyond the focus, but a.', answer: 'Find approximate focal length by focusing sunlight on paper',
+                  options: ['Find approximate focal length by focusing sunlight on paper', 'not real'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe that virtual images are "not real" in the sense of being illusions, and therefore cannot be photographed or seen.' },
                 { id: 'c', prompt: 'Compare the image formed by a concave mirror when the object is at the centre of curvature (C) versus when the object is between the pole (P) and focus (F).', answer: 'At C: image at C, real, inverted, same size',
@@ -260,8 +260,8 @@ export const w_c8_physicslightcbsesim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think convex mirrors are used in vehicle headlights (like concave mirrors) because both are "curved.',
           parts: [
-                { id: 'a', prompt: 'Design a simple activity using a stainless steel spoon (convex side) and a plane mirror to demonstrate why convex mirrors are used as side-view mirrors in.', answer: 'Steps: (1) Hold the spoon\'s convex side and a plane mirror at arm\'s length',
-                  options: ['Steps: (1) Hold the spoon\'s convex side and a plane mirror at arm\'s length', 'curved mirrors'],
+                { id: 'a', prompt: 'Design a simple activity using a stainless steel spoon (convex side) and a plane mirror to demonstrate why convex mirrors are used as side-view mirrors in.', answer: '(1) Hold the spoon\'s convex side and a plane mirror at arm\'s length',
+                  options: ['(1) Hold the spoon\'s convex side and a plane mirror at arm\'s length', 'curved mirrors'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think convex mirrors are used in vehicle headlights (like concave mirrors) because both are "curved mirrors." They confuse.' }
           ],

@@ -6,13 +6,13 @@ import C8_MathematicsCubesAndCubeRootsSim from '../../../simulations/c6_12/C8_Ma
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicscubesandcuberootssim: SimDef = {
     id: 'v3w_c8_mathematicscubesandcuberootssim',
-    title: 'Cubes And Cube Roots',
+    title: 'Square Numbers: Definition and Notation (n squared)',
     subtitle: 'This node covers the definition of square numbers, the notation \\( n^2 \\), and computing.',
     classLevel: 8, subject: 'mathematics', topic: 'Square Numbers: Definition and Notation (n squared)',
     chapters: [],
     nodeIds: ['c8_math_ch1_1', 'c8_math_ch1_10', 'c8_math_ch1_11', 'c8_math_ch1_12', 'c8_math_ch1_2', 'c8_math_ch1_3', 'c8_math_ch1_9', 'c8_math_ch1_4', 'c8_math_ch1_6', 'c8_math_ch1_8'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you are tiling a square floor in your classroom using 1 m × 1 m tiles.', goal: 'Master Cubes And Cube Roots.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you are tiling a square floor in your classroom using 1 m × 1 m tiles.', goal: 'Master Square Numbers: Definition and Notation (n squared).' },
     discovery: {
         question: 'Explain why \\( 5^2 \\) is not the same as \\( 2 \\times 5 \\). Use the area of a square in your explanation.',
         options: ['\\( 5^2 \\) means \\( 5 \\times 5 = 25 \\)', 'both give 10', 'the 2 just means multiply by 2'],
@@ -78,7 +78,7 @@ export const w_c8_mathematicscubesandcuberootssim: SimDef = {
             { text: 'Verify: \\( 72^2 = 5184 \\) (ends in 4, between 5000 and 6000). The units digit of the number of rows is 2.', faded: true, blankAnswer: 'The units digit of the number of rows must be 2.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch1_10', title: 'Identify each idea',
-          dissect: { specimen: 'Cubes And Cube Roots', spots: [
+          dissect: { specimen: 'Square Numbers: Definition and Notation (n squared)', spots: [
             { id: 's1', label: 'A square number is the', prompt: 'Which idea is this? — A square number is the product obtained when a natural number is multiplied by itself.', answer: 'A square number is the', options: ['A square number is the', 'A cube number is the', 'A perfect cube is an', 'The cube root of a'] },
             { id: 's2', label: 'A cube number is the', prompt: 'Which idea is this? — A cube number is the result of multiplying an integer by itself three times.', answer: 'A cube number is the', options: ['A cube number is the', 'A square number is the', 'A perfect cube is an', 'The cube root of a'] },
             { id: 's3', label: 'A perfect cube is an', prompt: 'Which idea is this? — A perfect cube is an integer that can be expressed as the cube of another integer.', answer: 'A perfect cube is an', options: ['A perfect cube is an', 'A square number is the', 'A cube number is the', 'The cube root of a'] },
@@ -87,7 +87,7 @@ export const w_c8_mathematicscubesandcuberootssim: SimDef = {
             { id: 's6', label: 'The units digit of a', prompt: 'Which idea is this? — The units digit of a perfect square depends only on the units digit of the original.', answer: 'The units digit of a', options: ['The units digit of a', 'A square number is the', 'A cube number is the', 'A perfect cube is an'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsCubesAndCubeRootsSim, prompt: 'Explore the interactive — Cubes And Cube Roots' },
+    explore: { component: C8_MathematicsCubesAndCubeRootsSim, prompt: 'Explore the interactive — Square Numbers: Definition and Notation (n squared)' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch1_1', difficulty: 'standard',
           question: 'A square number is the product obtained when a natural number is multiplied by.',

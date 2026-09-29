@@ -19,7 +19,7 @@ export const c12_hin_a_ch15_p3: SimDef = {
         hook: 'This is reportage-fiction about a real wound — the Koel-Karo project threatening 120+ villages. Renu captures the pre-movement moment: resistance raw and leaderless, dismissed as backwardness before it could become an Andolan. The deepest irony — the democratic state itself ran the displacement.',
     },
     teaching: [
-        { title: 'जहाँ कोई वापसी नहीं — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें हम किसी पाठ के तथ्यों को केवल याद करने के बजाय उसके पीछे के अर्थ, लेखक के उद्देश्य, उपयोग की गई साहित्यिक युक्तियों, और पाठ के सामाजिक या ऐतिहासिक संदेश को.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'जहाँ कोई वापसी नहीं — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'टेढ़ी लकीर\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_15_013', title: 'Your mission',
@@ -28,6 +28,13 @@ export const c12_hin_a_ch15_p3: SimDef = {
         context: 'Walk the Chotanagpur hills before the dam: weigh whose \'development\' submerges whom, compare raw tribal refusal with organised protest, and decode the crooked line\'s triple meaning.',
         labels: ['जहाँ कोई वापसी नहीं'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_15_015', title: 'जहाँ कोई वापसी नहीं — वाचन-श्रवण: चर्चा-बिंदु',
+          caseStudy: { intro: '\'टेढ़ी लकीर\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'What are the two main discussion formats recommended by CBSE for the Assessment of Speaking and Listening (ASL) that can be applied to this.', options: [
+                { text: 'The two main formats are Group Discussion (GD) and Debate', outcome: 'The two main formats are Group Discussion (GD) and Debate. A wrong answer (e.g., "speech and.' },
+                { text: 'speech and interview', outcome: 'Not quite — Students think speaking and listening is just about talking fluently in Hindi.', reveals: 'speaking-and-listening-is-just' },
+                { text: 'speaking and listening is just about talking fluently in Hindi', outcome: 'Not quite — Students think speaking and listening is just about talking fluently in Hindi.', reveals: 'speaking-and-listening-is-just' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_15_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Writing a piece on your hometown\'s transformation — the river now a drain, fields under a factory — your editor wants it chronological: \'village past, then highway, then industry, then today.\'',
             decisions: [{ prompt: 'What structure does Renu\'s \'जहाँ कोई वापसी नहीं\' use instead, and why?', options: [
@@ -47,38 +54,57 @@ export const c12_hin_a_ch15_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें हम किसी पाठ के तथ्यों को केवल याद करने.',
+          question: '\'टेढ़ी लकीर\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'यदि छात्र आलोचनात्मक चिंतन में कठिनाई महसूस कर रहा है, तो उसे c12_hin_a_cbse_15_012.',
           misconception: 'छात्र अक्सर कविता के विश्लेषण में केवल शब्दों के शब्दार्थिक अर्थ पर ध्यान देते हैं और रूपक, उपमा, या प्रतीक जैसे.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें हम किसी पाठ के तथ्यों को केवल याद करने के बजाय',
-                  options: ['आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें हम किसी पाठ के तथ्यों को केवल याद करने के बजाय', '\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और व्यावसायिक', 'कथानक वह क्रमबद्ध घटनाओं का序列 है जो किसी कहानी में होती हैं, जबकि आख्यान-संरचना वह तरीका', 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, आर्थिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'टेढ़ी लकीर\' का आलोचनात्मक चिंतन',
+                  options: ['\'टेढ़ी लकीर\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'टेढ़ी लकीर\' का कथानक', '\'टेढ़ी लकीर\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि छात्र आलोचनात्मक चिंतन में कठिनाई महसूस कर रहा है, तो उसे c12_hin_a_cbse_15_012 (बोध-प्रश्न.',
                   misconception: 'छात्र अक्सर कविता के विश्लेषण में केवल शब्दों के शब्दार्थिक अर्थ पर ध्यान देते हैं और रूपक, उपमा, या प्रतीक जैसे साहित्यिक युक्तियों के.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को सबसे पहले एक सरल वाक्य दें जिसमें स्पष्ट रूपक हो (जैसे "वह शेर है") और पूछें: "यदि कोई वास्तविक शेर यहाँ नहीं.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल वह क्षमता है जिसमें छात्र NCERT पाठ्यपुस्तक के किसी.',
+          question: '\'टेढ़ी लकीर\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि प्रमाण चुनने में अटकें: **c12_hin_a_cbse_15_008** (बिंब/रूपक) और.',
           misconception: '**विशिष्ट भ्रांति:** *"पाठ-आधारित उत्तर में पाठ की ज्यादा-से-ज्यादा पंक्तियाँ उद्धृत करने से अंक बढ़ते हैं।"*.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह क्षमता है जिसमें छात्र NCERT पाठ्यपुस्तक के किसी गद्य/पद्य अंश को',
-                  options: ['पाठ-आधारित लेखन कौशल वह क्षमता है जिसमें छात्र NCERT पाठ्यपुस्तक के किसी गद्य/पद्य अंश को', '\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और व्यावसायिक', 'कथानक वह क्रमबद्ध घटनाओं का序列 है जो किसी कहानी में होती हैं, जबकि आख्यान-संरचना वह तरीका', 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, आर्थिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'टेढ़ी लकीर\' पर पाठ-आधारित लेखन',
+                  options: ['\'टेढ़ी लकीर\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'टेढ़ी लकीर\' का कथानक', '\'टेढ़ी लकीर\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि प्रमाण चुनने में अटकें: **c12_hin_a_cbse_15_008** (बिंब/रूपक) और **c12_hin_a_cbse_15_009**.',
                   misconception: '**विशिष्ट भ्रांति:** *"पाठ-आधारित उत्तर में पाठ की ज्यादा-से-ज्यादा पंक्तियाँ उद्धृत करने से अंक बढ़ते हैं।"* **वास्तविकता:** CBSE मार्किंग.' }
           ],
             remediations: { 'cbse-relevance-depth-of-explanation': { steps: ['**चरण 1:** छात्र से कहें: "अपना लिखा उत्तर पढ़ो और हर पैराग्राफ के आगे लिखो: P / E / E / L — कौन-सा चरण गायब है?" **चरण.', '\'क्यों\' और \'कैसे\' लिखो।" **चरण 3:** **पुनः अभ्यास:** वही प्रश्न, नया उद्धरण, केवल Explanation चरण लिखने को कहें — 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु वह कौशल है जिसमें छात्र पाठ को ध्यान से सुनते या पढ़ते.',
-          hint: 'यदि फंसे हुए महसूस हो तो Class 11 के समान पाठों पर चर्चा-बिंदु बनाने की गतिविधि दोहराएँ.',
-          misconception: 'छात्र अक्सर मानते हैं कि वाचन-श्रवण में चर्चा-बिंदु तैयार करना बस पाठ के किसी भी वाक्य को दोहराना या अपने व्यक्तिगत.',
+          question: '\'टेढ़ी लकीर\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का.',
+          hint: 'If stuck, revisit c12_hin_a_cbse_15_013 (Critical Thinking) to identify 3-4 core.',
+          misconception: 'Students think speaking and listening is just about talking fluently in Hindi.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु वह कौशल है जिसमें छात्र पाठ को ध्यान से सुनते या पढ़ते हैं, उसके',
-                  options: ['वाचन-श्रवण: चर्चा-बिंदु वह कौशल है जिसमें छात्र पाठ को ध्यान से सुनते या पढ़ते हैं, उसके', '\'जहाँ कोई वापसी नहीं\' के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत और व्यावसायिक', 'कथानक वह क्रमबद्ध घटनाओं का序列 है जो किसी कहानी में होती हैं, जबकि आख्यान-संरचना वह तरीका', 'पाठ्य-परिवेश वह सामाजिक, सांस्कृतिक, आर्थिक और ऐतिहासिक पृष्ठभूमि है जिसमें कोई कहानी'],
-                  hint: 'यदि फंसे हुए महसूस हो तो Class 11 के समान पाठों पर चर्चा-बिंदु बनाने की गतिविधि दोहराएँ, जैसे.',
-                  misconception: 'छात्र अक्सर मानते हैं कि वाचन-श्रवण में चर्चा-बिंदु तैयार करना बस पाठ के किसी भी वाक्य को दोहराना या अपने व्यक्तिगत भावना को बिना कारण बताए.' }
+                { id: 'a', prompt: 'What are the two main discussion formats recommended by CBSE for the Assessment of Speaking and Listening (ASL) that can be applied to this chapter?', answer: 'The two main formats are Group Discussion (GD) and Debate',
+                  options: ['The two main formats are Group Discussion (GD) and Debate', 'speech and interview', 'speaking and listening is just about talking fluently in Hindi'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_15_013 (Critical Thinking) to identify 3-4 core arguments from the.',
+                  misconception: 'Students think speaking and listening is just about talking fluently in Hindi.' },
+                { id: 'b', prompt: 'Explain why the title "Tahan koi okil nahi" (There is no lawyer there) is an effective discussion starter for this chapter.', answer: 'The title is ironic',
+                  options: ['The title is ironic', 'it tells us the setting', 'speaking and listening is just about talking fluently in Hindi'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_15_013 (Critical Thinking) to identify 3-4 core arguments from the.',
+                  misconception: 'Students think speaking and listening is just about talking fluently in Hindi.' },
+                { id: 'c', prompt: 'Compare the perspectives of the contractor and the tribal elder in the chapter. How would you structure a debate between them?', answer: 'Contractor: "Progress needs sacrifice',
+                  options: ['Contractor: "Progress needs sacrifice', 'speaking and listening is just about talking fluently in Hindi'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_15_013 (Critical Thinking) to identify 3-4 core arguments from the.',
+                  misconception: 'Students think speaking and listening is just about talking fluently in Hindi.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक कमज़ोर चर्चा-बिंदु (जैसे "पाठ बहुत भारी था") कैसे कमज़ोर है - क्योंकि यह केवल भावना है, कोई कारण.', 'किस पंक्ति या घटना के कारण?" जब वे किसी विशिष्ट पहलू (जैसे पात्र का अंतिम निर्णय) की ओर इशारा करें, तो कहिए: "अब इसी.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'speaking-and-listening-is-just': { steps: ['If a student cannot anchor discussion in text: 1) Have them re-read the Critical Thinking node (c12_hin_a_cbse_15_013).', '2) Practice with a peer using a checklist: State claim → Quote 1 line from text → Explain in own words → Ask "Do you.', 'Repeat until both are yes.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_15_015', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students think speaking and listening is just about talking fluently in Hindi.',
+          parts: [
+                { id: 'a', prompt: 'Design a 2-minute podcast script introducing the chapter\'s central conflict to a new listener.', answer: '"Hello, I\'m [Name]',
+                  options: ['"Hello, I\'m [Name]', 'speaking and listening is just about talking fluently in Hindi'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_15_013 (Critical Thinking) to identify 3-4 core arguments from the.',
+                  misconception: 'Students think speaking and listening is just about talking fluently in Hindi.' }
+          ],
+            remediations: { 'speaking-and-listening-is-just': { steps: ['If a student cannot anchor discussion in text: 1) Have them re-read the Critical Thinking node (c12_hin_a_cbse_15_013).', '2) Practice with a peer using a checklist: State claim → Quote 1 line from text → Explain in own words → Ask "Do you.', 'Repeat until both are yes.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

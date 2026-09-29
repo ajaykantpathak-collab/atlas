@@ -6,13 +6,13 @@ import C7_MathematicsDataHandlingSim from '../../../simulations/c6_12/C7_Mathema
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsdatahandlingsim: SimDef = {
     id: 'v3w_c7_mathematicsdatahandlingsim',
-    title: 'Data Handling',
+    title: 'Rounding Numbers to Nearest 10, 100, 1000',
     subtitle: 'Covers rounding whole numbers up to 8 digits to the nearest 10, 100, and 1000.',
     classLevel: 7, subject: 'mathematics', topic: 'Rounding Numbers to Nearest 10, 100, 1000',
     chapters: [],
     nodeIds: ['c7_math_ch01_007', 'c7_math_ch01_009', 'c7_math_ch01_011', 'c7_math_ch15_005', 'c7_math_ch15_008', 'c7_math_ch15_009', 'c7_math_ch13_001', 'c7_math_ch13_002', 'c7_math_ch13_003', 'c7_math_ch13_004', 'c7_math_ch13_005', 'c7_math_ch13_006', 'c7_math_ch13_007', 'c7_math_ch13_008', 'c7_math_ch13_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine you are at a school sports day in Delhi, and the announcer says approximately 4,376 people are.', goal: 'Master Data Handling.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine you are at a school sports day in Delhi, and the announcer says approximately 4,376 people are.', goal: 'Master Rounding Numbers to Nearest 10, 100, 1000.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Rounding a number to the nearest 10, 100, or.', text: 'Rounding a number to the nearest 10, 100, or 1000 means replacing it with an approximate, cleaner multiple of 10, 100, or 1000 that is closest in value to the original number, using standard.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -74,7 +74,7 @@ export const w_c7_mathematicsdatahandlingsim: SimDef = {
             { text: 'Compute the final value: $4 \\times 18 = 72$, then $72 + 1 = 73$ matchsticks.', faded: true, blankAnswer: 'Expression: $4n + 1$; Total matchsticks for 18 pentagons =.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch01_009', title: 'Identify each idea',
-          dissect: { specimen: 'Data Handling', spots: [
+          dissect: { specimen: 'Rounding Numbers to Nearest 10, 100, 1000', spots: [
             { id: 's1', label: 'Rounding a number to the', prompt: 'Which idea is this? — Rounding a number to the nearest 10, 100, or 1000 means replacing it with an approximate,.', answer: 'Rounding a number to the', options: ['Rounding a number to the', 'Real-life applications of large numbers', 'Operations with large numbers multiplication', 'Equations with variables on both'] },
             { id: 's2', label: 'Real-life applications of large numbers', prompt: 'Which idea is this? — Real-life applications of large numbers involve using numbers in lakhs and crores to.', answer: 'Real-life applications of large numbers', options: ['Real-life applications of large numbers', 'Rounding a number to the', 'Operations with large numbers multiplication', 'Equations with variables on both'] },
             { id: 's3', label: 'Operations with large numbers multiplication', prompt: 'Which idea is this? — Operations with large numbers: multiplication and division involves finding the product.', answer: 'Operations with large numbers multiplication', options: ['Operations with large numbers multiplication', 'Rounding a number to the', 'Real-life applications of large numbers', 'Equations with variables on both'] },
@@ -83,7 +83,7 @@ export const w_c7_mathematicsdatahandlingsim: SimDef = {
             { id: 's6', label: 'Matchstick patterns and generalisation involve', prompt: 'Which idea is this? — Matchstick patterns and generalisation involve observing visual geometric arrangements.', answer: 'Matchstick patterns and generalisation involve', options: ['Matchstick patterns and generalisation involve', 'Rounding a number to the', 'Real-life applications of large numbers', 'Operations with large numbers multiplication'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsDataHandlingSim, prompt: 'Explore the interactive — Data Handling' },
+    explore: { component: C7_MathematicsDataHandlingSim, prompt: 'Explore the interactive — Rounding Numbers to Nearest 10, 100, 1000' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch01_007', difficulty: 'standard',
           question: 'Rounding a number to the nearest 10, 100, or 1000 means replacing it with an.',

@@ -6,13 +6,13 @@ import C11_PsychologyDefinitionPsychologyBasicSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_psychologydefinitionpsychologybasicsim: SimDef = {
     id: 'v3w_c11_psychologydefinitionpsychologybasicsim',
-    title: 'Definition Psychology',
+    title: 'Erikson\'s Stages of Psychosocial Development',
     subtitle: 'Covers all eight stages (infancy to late adulthood) including crises, virtues,.',
     classLevel: 11, subject: 'psychology', topic: 'Erikson\'s Stages of Psychosocial Development',
     chapters: [],
     nodeIds: ['c11_psy_cbse_03_006', 'c11_psy_cbse_02_008', 'c11_psy_cbse_07_002', 'c11_psy_cbse_08_005', 'c11_psy_cbse_03_001', 'c11_psy_cbse_03_002', 'c11_psy_cbse_03_005', 'c11_psy_cbse_03_009', 'c11_psy_cbse_01_004', 'c11_psy_cbse_01_007', 'c11_psy_cbse_02_003', 'c11_psy_cbse_02_009', 'c11_psy_cbse_08_008', 'c11_psy_cbse_08_009', 'c11_psy_cbse_05_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a 14-year-old student, Rohan, who suddenly refuses to attend family functions, experiments with.', goal: 'Master Definition Psychology.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a 14-year-old student, Rohan, who suddenly refuses to attend family functions, experiments with.', goal: 'Master Erikson\'s Stages of Psychosocial Development.' },
     discovery: {
         question: 'A REMEMBER level question: List the eight psychosocial stages in correct sequential order along with their corresponding crises (e.g., Stage 1: Trust vs.',
         options: ['Correct sequence: 1', 'Autonomy', 'independence'],
@@ -83,7 +83,7 @@ export const w_c11_psychologydefinitionpsychologybasicsim: SimDef = {
             { text: 'Identify contextual responsiveness — his engineering background (inherited/acquired context), urban retirement.', faded: true, blankAnswer: 'All seven LSP assumptions are illustrated: lifelong.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_psy_cbse_02_008', title: 'Identify each idea',
-          dissect: { specimen: 'Definition Psychology', spots: [
+          dissect: { specimen: 'Erikson\'s Stages of Psychosocial Development', spots: [
             { id: 's1', label: 'Eriksons psychosocial theory proposes eight', prompt: 'Which idea is this? — Erikson\'s psychosocial theory proposes eight sequential stages across the lifespan, each.', answer: 'Eriksons psychosocial theory proposes eight', options: ['Eriksons psychosocial theory proposes eight', 'The case study method is', 'The building blocks of thought', 'Emotion is a complex psychological'] },
             { id: 's2', label: 'The case study method is', prompt: 'Which idea is this? — The case study method is an in-depth, qualitative research approach that investigates a.', answer: 'The case study method is', options: ['The case study method is', 'Eriksons psychosocial theory proposes eight', 'The building blocks of thought', 'Emotion is a complex psychological'] },
             { id: 's3', label: 'The building blocks of thought', prompt: 'Which idea is this? — The building blocks of thought are the fundamental mental representations—mental images.', answer: 'The building blocks of thought', options: ['The building blocks of thought', 'Eriksons psychosocial theory proposes eight', 'The case study method is', 'Emotion is a complex psychological'] },
@@ -92,7 +92,7 @@ export const w_c11_psychologydefinitionpsychologybasicsim: SimDef = {
             { id: 's6', label: 'Life-Span Perspective LSP is a', prompt: 'Which idea is this? — Life-Span Perspective (LSP) is a comprehensive theoretical framework that conceptualises.', answer: 'Life-Span Perspective LSP is a', options: ['Life-Span Perspective LSP is a', 'Eriksons psychosocial theory proposes eight', 'The case study method is', 'The building blocks of thought'] }
           ] } }
     ],
-    explore: { component: C11_PsychologyDefinitionPsychologyBasicSim, prompt: 'Explore the interactive — Definition Psychology' },
+    explore: { component: C11_PsychologyDefinitionPsychologyBasicSim, prompt: 'Explore the interactive — Erikson\'s Stages of Psychosocial Development' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_psy_cbse_03_006', difficulty: 'standard',
           question: 'Erikson\'s psychosocial theory proposes eight sequential stages across the.',

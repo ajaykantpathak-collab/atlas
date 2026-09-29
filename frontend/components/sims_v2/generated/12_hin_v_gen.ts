@@ -9,15 +9,13 @@ import type { SimDef } from '../engine/types';
 export const C12_HIN_V_GEN: SimDef[] = [
  {
   "id": "gen_c12_hin_v_ch01",
-  "title": "\"Before You Read",
+  "title": "सल्विर वैडिंग — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch1: \"Before You Read"
-  ],
+  "topic": "सल्विर वैडिंग — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch1: सल्विर वैडिंग — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c12_hin_v_cbse_01_001",
    "c12_hin_v_cbse_01_002",
@@ -42,7 +40,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet \"Before You Read outside the classroom?",
+   "question": "Quick guess -- where do you meet सल्विर वैडिंग — पृष्ठभूमि और outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -53,7 +51,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" is a pre-reading strategy that equips students with the historical, social, biographical, and literary framework necessary to interpret a text deeply.",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
@@ -777,25 +775,23 @@ export const C12_HIN_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about सल्विर वैडिंग — पृष्ठभूमि और रचनाकार परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "सल्विर वैडिंग — पृष्ठभूमि और mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_v_ch02",
-  "title": "\"Before You Read",
+  "title": "जूझ — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch2: \"Before You Read"
-  ],
+  "topic": "जूझ — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch2: जूझ — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c12_hin_v_cbse_02_001",
    "c12_hin_v_cbse_02_002",
@@ -820,7 +816,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is \"Before You Read more about facts, or about reasoning?",
+   "question": "Is जूझ — पृष्ठभूमि और रचनाकार परिचय more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -831,7 +827,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" prepares students to engage deeply with the autobiographical narrative *ikB'kkyk tkus osQ fy, eu rM+irk Fkk* by V.",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -843,7 +839,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Setting And Atmosphere Refer To The",
+    "title": "'वितान भाग-2 — पाठ 2' का",
     "text": "Setting and atmosphere refer to the time, place, physical environment, and emotional mood created by the author through descriptive details, which together establish the backdrop against which characters act and themes unfold; in this chapter, the setting",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1525,25 +1521,23 @@ export const C12_HIN_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about जूझ — पृष्ठभूमि और रचनाकार परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "जूझ — पृष्ठभूमि और रचनाकार mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_v_ch03",
-  "title": "\"Before You Read",
+  "title": "अतीत में दबे पाँव — पृष्ठभूमि और रचनाकार परिचय",
   "subtitle": "Hindi · Chapter 3",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "Hindi Ch3: \"Before You Read"
-  ],
+  "topic": "अतीत में दबे पाँव — पृष्ठभूमि और रचनाकार परिचय",
+  "chapters": ["Hindi Ch3: अतीत में दबे पाँव — पृष्ठभूमि और रचनाकार परिचय"],
   "nodeIds": [
    "c12_hin_v_cbse_03_001",
    "c12_hin_v_cbse_03_003",
@@ -1567,7 +1561,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses \"Before You Read in real working life?",
+   "question": "Who uses अतीत में दबे पाँव — पृष्ठभूमि और in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -1578,7 +1572,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
     "text": "\"Before You Read: Context and Background\" is a preparatory literary skill where students activate prior historical knowledge, identify the author's perspective, and predict thematic concerns of a prose text by examining its title, setting references, and",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1590,7 +1584,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of a Protagonist In",
+    "title": "'वखत खि अगवत्स-नमकस और गालिब की",
     "text": "Character analysis of a protagonist in a historical-prose narrative involves examining how a central figure (here, the city of Fatehpur Sikri itself) is constructed through physical description, historical actions, symbolic associations, and the narrator's",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1650,7 +1644,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Writing Skills Based On The",
+    "title": "'वखत खि अगवत्स-नमकस और गालिब की",
     "text": "Writing Skills based on the chapter \"vHkh Hkh eqvutks&nM+ks vkSj gM+Iik izkphu\" refers to the ability to compose structured, evidence-based analytical responses in Hindi that interpret the travelogue's historical descriptions, thematic contrasts (ancient vs.",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2332,11 +2326,11 @@ export const C12_HIN_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about अतीत में दबे पाँव — पृष्ठभूमि और रचनाकार परिचय?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "अतीत में दबे पाँव — पृष्ठभूमि mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

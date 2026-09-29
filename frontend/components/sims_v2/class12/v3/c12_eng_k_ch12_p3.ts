@@ -19,23 +19,23 @@ export const c12_eng_k_ch12_p3: SimDef = {
         hook: 'A tower left \'eyeless, silent\' after a riot — or a \'precise act of nature\' in lightning — equates human violence with natural disaster. Nature\'s fury is lawful and exact; communal hatred is lawless. The poem doesn\'t condemn or accept — it bears witness, a wistful lament for a shattered rhythm.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves evaluating a poem\'s deeper meanings by examining how form, language, and structure interact to convey the poet\'s perspective, and forming.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Time and Time Again\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_12_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Listen to an Indian city\'s towers: hear alloy, maker\'s hand and donor\'s whim inside each bell, then follow the poem to the knocked-out clockwork and the zigzag sky showing through.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_12_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you hear two clocktowers striking midnight at slightly different moments — one deep, one light. You might call it faulty mechanics.',
+          caseStudy: { intro: 'Analyse \'Time and Time Again\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the central extended metaphor in "Time and Time Again" and what real-world entity does it represent?', options: [
                 { text: 'The central extended metaphor is the clocktowers of an old city', outcome: 'The central extended metaphor is the clocktowers of an old city, which represent the diverse.' },
                 { text: 'the poem is about broken clocks', outcome: 'Not quite — Students often reduce the poem to \'a poem about communal riots\'.', reveals: 'students-often-reduce-the-poem' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_12_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you sit in the exam hall, the question reads: "How does Ramanujan use the clock towers to comment on communal harmony?" Your mind races — you know the.',
+          caseStudy: { intro: 'For written answers on \'Time and Time Again\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing literature answers?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Evidence, Line', outcome: 'Not quite — Students believe "writing based on the chapter" means summarising the poem stanza-by-stanza and.', reveals: 'writing-based-on-the-chapter' },
@@ -55,12 +55,12 @@ export const c12_eng_k_ch12_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_12_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves evaluating a poem\'s deeper.',
+          question: 'Critical thinking on \'Time and Time Again\' — analysing the text to reach.',
           hint: 'If stuck, revisit the metaphor-mapping exercise in c11_eng_h_cbse_01_013 and the.',
           misconception: 'Students often reduce the poem to \'a poem about communal riots\'.',
           parts: [
@@ -69,9 +69,9 @@ export const c12_eng_k_ch12_p3: SimDef = {
                   hint: 'If stuck, revisit the metaphor-mapping exercise in c11_eng_h_cbse_01_013 and the imagery/symbolism.',
                   misconception: 'Students often reduce the poem to \'a poem about communal riots\'.' }
           ],
-            remediations: { 'students-often-reduce-the-poem': { steps: ['If the metaphor remains opaque, have the student re-read stanza 1 and list: alloy, shaking hand, donor\'s whim.', 'Ask: \'If each clock = a community, what does each detail represent?\' Then move to stanza 2: \'What does "eyeless.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-reduce-the-poem': { steps: ['If the metaphor remains opaque, have the student re-read stanza 1 and list: alloy, shaking hand, donor\'s whim.', 'Ask: \'If each clock = a community, what does each detail represent?\' Then move to stanza 2: \'What does "eyeless.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_12_014', difficulty: 'standard',
-          question: 'Writing Skills: Based on the Chapter refers to the ability to construct.',
+          question: 'Writing skills from \'Time and Time Again\' — using the text as a model.',
           hint: 'If stuck, revisit c12_eng_k_cbse_12_013\'s "Critical Thinking" exercises — specifically.',
           misconception: 'Students believe "writing based on the chapter" means summarising the poem stanza-by-stanza and sprinkling a few device.',
           parts: [
@@ -84,7 +84,7 @@ export const c12_eng_k_ch12_p3: SimDef = {
                   hint: 'If stuck, revisit c12_eng_k_cbse_12_013\'s "Critical Thinking" exercises — specifically the worked.',
                   misconception: 'Students believe "writing based on the chapter" means summarising the poem stanza-by-stanza and sprinkling a few device names.' }
           ],
-            remediations: { 'writing-based-on-the-chapter': { steps: ['If a student produces a summary-heavy answer: (1) Have them highlight every sentence that makes a claim about the.', 'every sentence that merely recounts *content* ("The clocks show different times").', '(2) Delete all content-recount sentences.', '(3) For each remaining craft claim, demand one textual detail and one "why this matters" sentence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-based-on-the-chapter': { steps: ['If a student produces a summary-heavy answer: (1) Have them highlight every sentence that makes a claim about the.', 'every sentence that merely recounts *content* ("The clocks show different times").', '(2) Delete all content-recount sentences.', '(3) For each remaining craft claim, demand one textual detail and one "why this matters" sentence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_12_014', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -95,18 +95,18 @@ export const c12_eng_k_ch12_p3: SimDef = {
                   hint: 'If stuck, revisit c12_eng_k_cbse_12_013\'s "Critical Thinking" exercises — specifically the worked.',
                   misconception: 'Students believe "writing based on the chapter" means summarising the poem stanza-by-stanza and sprinkling a few device names.' }
           ],
-            remediations: { 'writing-based-on-the-chapter': { steps: ['If a student produces a summary-heavy answer: (1) Have them highlight every sentence that makes a claim about the.', 'every sentence that merely recounts *content* ("The clocks show different times").', '(2) Delete all content-recount sentences.', '(3) For each remaining craft claim, demand one textual detail and one "why this matters" sentence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-based-on-the-chapter': { steps: ['If a student produces a summary-heavy answer: (1) Have them highlight every sentence that makes a claim about the.', 'every sentence that merely recounts *content* ("The clocks show different times").', '(2) Delete all content-recount sentences.', '(3) For each remaining craft claim, demand one textual detail and one "why this matters" sentence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_12_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Time and Time Again\' — speaking and listening around the.',
           hint: 'If stuck, revisit c12_eng_k_cbse_12_008 (imagery and metaphor) and c12_eng_k_cbse_12_006.',
           misconception: 'Students often think a discussion point is just stating whether they liked the poem or summarizing the plot.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to the structured oral activity where',
-                  options: ['Speaking and Listening: Discussion Points refers to the structured oral activity where', '"Before You Read: Context and Background" is a pre-reading strategy that provides', 'Plot and narrative structure in poetry refers to how a poem organizes its sequence of', 'Setting in poetry refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'Time and Time Again\'',
+                  options: ['Discussion points on \'Time and Time Again\'', '\'Time and Time Again\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Time and Time Again\'', 'The setting of \'Time and Time Again\''],
                   hint: 'If stuck, revisit c12_eng_k_cbse_12_008 (imagery and metaphor) and c12_eng_k_cbse_12_006 (primary.',
                   misconception: 'Students often think a discussion point is just stating whether they liked the poem or summarizing the plot.' }
           ],
-            remediations: { 'a-discussion-point-is-just': { steps: ['If a student cannot generate a text-based discussion point, guide them through: 1) Re-read the poem and underline three.', '2) Turn each phrase into a \'Why...?\' or \'What does...', '3) Practice asking the question to a partner and listening for their evidence.', 'This builds the habit of anchoring talk in the text.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-discussion-point-is-just': { steps: ['If a student cannot generate a text-based discussion point, guide them through: 1) Re-read the poem and underline three.', '2) Turn each phrase into a \'Why...?\' or \'What does...', '3) Practice asking the question to a partner and listening for their evidence.', 'This builds the habit of anchoring talk in the text.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

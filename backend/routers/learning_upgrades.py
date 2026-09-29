@@ -8,14 +8,29 @@
   /api/examiner/grade              — Examiner Mode (grade against the
                                      node's authored MARKING_POINTS)
   /api/passport/{user_id}          — Mastery Passport transcript
+
+Pillar-6 contract fixes:
+  * The token-derived ``/me`` variants are registered BEFORE the
+    ``/{user_id}`` variants.  FastAPI matches routes in registration order,
+    so ``GET /api/review/queue/me`` previously matched ``/{user_id}`` with
+    ``user_id="me"``, crashed the UUID bind (ValueError → 500) and the
+    ``/me`` handlers were dead code.
+  * Per-user routes now carry the B16 ownership guard
+    (``require_self_or_staff``): a student token can only read its own
+    review queue / passport / next-best path; teacher/admin any.
+  * ``POST /api/review/grade`` is authenticated and rejects grading for a
+    foreign user_id (inline body check, same pattern as
+    api.intelligence.record_confidence).
 """
 from typing import List, Optional
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from backend.database import get_db
+from backend.deps import get_current_user, is_staff, require_self_or_staff
+from backend.models.user import User
 from backend.services import (
     misconception_analytics as ma,
     review_scheduler as srs,
@@ -34,13 +49,21 @@ async def misconception_heatmap(
     student_id: Optional[str] = None,
     limit: int = 50,
     db: AsyncSession = Depends(get_db),
+    user: User = Depends(get_current_user),
 ):
+    """Whole-school trap heatmap — staff-only (aggregates across students)."""
+    if not is_staff(user):
+        raise HTTPException(status_code=403, detail="Teacher or admin role required")
     return await ma.trap_heatmap(db, days=days, student_id=student_id, limit=limit)
 
 
 @router.get("/api/analytics/misconceptions/student/{student_id}")
-async def student_misconception_profile(student_id: str, db: AsyncSession = Depends(get_db)):
-    return await ma.student_trap_profile(db, student_id)
+async def student_misconception_profile(
+    student_id: str,
+    scoped_student_id: str = Depends(require_self_or_staff),
+    db: AsyncSession = Depends(get_db),
+):
+    return await ma.student_trap_profile(db, scoped_student_id)
 
 
 class BundleBody(BaseModel):
@@ -49,27 +72,61 @@ class BundleBody(BaseModel):
 
 
 @router.post("/api/analytics/misconceptions/remediation-bundle")
-async def remediation_bundle(body: BundleBody, db: AsyncSession = Depends(get_db)):
+async def remediation_bundle(
+    body: BundleBody,
+    db: AsyncSession = Depends(get_db),
+    user: User = Depends(get_current_user),
+):
+    """Class-level remediation bundles — staff-only."""
+    if not is_staff(user):
+        raise HTTPException(status_code=403, detail="Teacher or admin role required")
     return await ma.class_remediation_bundle(
         db, body.student_ids, min_students=body.min_students)
 
 
 # ── 2. Spaced Repetition Review Engine ────────────────────────────────────
-@router.get("/api/review/queue/{user_id}")
+# NOTE: the ``/me`` routes MUST be declared before the ``/{user_id}`` routes —
+# FastAPI resolves in registration order and a literal after a path parameter
+# is unreachable (the parameter swallows "me").
+
+@router.get("/api/review/queue/me")
+async def review_queue_me(
+    limit: int = 20, include_overdue: bool = True,
+    db: AsyncSession = Depends(get_db), user: User = Depends(get_current_user),
+):
+    uid = str(user.id)
+    out = await srs.due_queue(db, uid, limit=limit, include_overdue=include_overdue)
+    out["user_id"] = uid
+    return out
+
+
+@router.get("/api/review/upcoming/me")
+async def review_upcoming_me(
+    days: int = 7, limit: int = 50,
+    db: AsyncSession = Depends(get_db), user: User = Depends(get_current_user),
+):
+    return await srs.upcoming(db, str(user.id), days=days, limit=limit)
+
+
+@router.get("/api/review/queue/{student_id}")
 async def review_queue(
-    user_id: str, limit: int = 20, include_overdue: bool = True,
+    student_id: str,
+    limit: int = 20, include_overdue: bool = True,
+    scoped_user_id: str = Depends(require_self_or_staff),
     db: AsyncSession = Depends(get_db),
 ):
-    return await srs.due_queue(db, user_id, limit=limit,
+    return await srs.due_queue(db, scoped_user_id, limit=limit,
                                include_overdue=include_overdue)
 
 
-@router.get("/api/review/upcoming/{user_id}")
+@router.get("/api/review/upcoming/{student_id}")
 async def review_upcoming(
-    user_id: str, days: int = 7, limit: int = 50,
+    student_id: str,
+    days: int = 7, limit: int = 50,
+    scoped_user_id: str = Depends(require_self_or_staff),
     db: AsyncSession = Depends(get_db),
 ):
-    return await srs.upcoming(db, user_id, days=days, limit=limit)
+    return await srs.upcoming(db, scoped_user_id, days=days, limit=limit)
 
 
 class GradeBody(BaseModel):
@@ -79,17 +136,35 @@ class GradeBody(BaseModel):
 
 
 @router.post("/api/review/grade")
-async def review_grade(body: GradeBody, db: AsyncSession = Depends(get_db)):
+async def review_grade(
+    body: GradeBody,
+    db: AsyncSession = Depends(get_db),
+    user: User = Depends(get_current_user),
+):
+    """Apply an SM-2 grade. The body carries user_id, so the ownership check
+    is inline: self or staff only."""
+    if not is_staff(user) and str(body.user_id) != str(user.id):
+        raise HTTPException(status_code=403, detail="Not authorized for this student record")
     return await srs.apply_grade(db, body.user_id, body.node_id, body.quality)
 
 
 # ── 3. Adaptive Next-Best-Lesson ──────────────────────────────────────────
-@router.get("/api/path/next-best/{user_id}")
+@router.get("/api/path/next-best/me")
+async def next_best_me(
+    limit: int = 5, mastery_floor: float = 0.85,
+    db: AsyncSession = Depends(get_db), user: User = Depends(get_current_user),
+):
+    return await nbl.next_best(db, str(user.id), limit=limit, mastery_floor=mastery_floor)
+
+
+@router.get("/api/path/next-best/{student_id}")
 async def next_best(
-    user_id: str, limit: int = 5, mastery_floor: float = 0.85,
+    student_id: str,
+    limit: int = 5, mastery_floor: float = 0.85,
+    scoped_user_id: str = Depends(require_self_or_staff),
     db: AsyncSession = Depends(get_db),
 ):
-    return await nbl.next_best(db, user_id, limit=limit, mastery_floor=mastery_floor)
+    return await nbl.next_best(db, scoped_user_id, limit=limit, mastery_floor=mastery_floor)
 
 
 # ── 4. Examiner Mode ──────────────────────────────────────────────────────
@@ -100,15 +175,26 @@ class ExaminerBody(BaseModel):
 
 
 @router.post("/api/examiner/grade")
-async def examiner_grade(body: ExaminerBody):
+async def examiner_grade(
+    body: ExaminerBody, user: User = Depends(get_current_user),
+):
     return examiner.grade_answer(
         body.node_id, body.student_text, image_text=body.image_text or None)
 
 
 # ── 5. Mastery Passport ───────────────────────────────────────────────────
-@router.get("/api/passport/{user_id}")
-async def mastery_passport(user_id: str, db: AsyncSession = Depends(get_db)):
-    return await passport.build_passport(db, user_id)
+@router.get("/api/passport/me")
+async def passport_me(db: AsyncSession = Depends(get_db), user: User = Depends(get_current_user)):
+    return await passport.build_passport(db, str(user.id))
+
+
+@router.get("/api/passport/{student_id}")
+async def mastery_passport(
+    student_id: str,
+    scoped_user_id: str = Depends(require_self_or_staff),
+    db: AsyncSession = Depends(get_db),
+):
+    return await passport.build_passport(db, scoped_user_id)
 
 # ── 4b. Examiner Mode — photo input (vision extraction → grade) ──────────
 class ExaminerImageBody(BaseModel):
@@ -117,7 +203,9 @@ class ExaminerImageBody(BaseModel):
 
 
 @router.post("/api/examiner/grade-image")
-async def examiner_grade_image(body: ExaminerImageBody):
+async def examiner_grade_image(
+    body: ExaminerImageBody, user: User = Depends(get_current_user),
+):
     """Photo of handwritten answer → OCR/vision extraction → graded against
     the node's authored MARKING_POINTS. One round trip; falls back honestly
     when the vision key/config is missing."""
@@ -146,42 +234,6 @@ async def examiner_grade_image(body: ExaminerImageBody):
     }
     return {"extracted_text": extracted_text[:2000], "extraction_source": source,
             **result}
-
-# ── token-derived "me" variants (platform convention: user from auth) ────
-from backend.deps import get_current_user as _gcu
-from backend.models.user import User as _User
-
-
-@router.get("/api/review/queue/me")
-async def review_queue_me(
-    limit: int = 20, include_overdue: bool = True,
-    db: AsyncSession = Depends(get_db), user: _User = Depends(_gcu),
-):
-    uid = str(user.id)
-    out = await srs.due_queue(db, uid, limit=limit, include_overdue=include_overdue)
-    out["user_id"] = uid
-    return out
-
-
-@router.get("/api/review/upcoming/me")
-async def review_upcoming_me(
-    days: int = 7, limit: int = 50,
-    db: AsyncSession = Depends(get_db), user: _User = Depends(_gcu),
-):
-    return await srs.upcoming(db, str(user.id), days=days, limit=limit)
-
-
-@router.get("/api/path/next-best/me")
-async def next_best_me(
-    limit: int = 5, mastery_floor: float = 0.85,
-    db: AsyncSession = Depends(get_db), user: _User = Depends(_gcu),
-):
-    return await nbl.next_best(db, str(user.id), limit=limit, mastery_floor=mastery_floor)
-
-
-@router.get("/api/passport/me")
-async def passport_me(db: AsyncSession = Depends(get_db), user: _User = Depends(_gcu)):
-    return await passport.build_passport(db, str(user.id))
 
 
 # ── 6. Today feed — the pedagogy assembler ────────────────────────────────
@@ -216,7 +268,7 @@ def _node_title(node_id: str | None) -> str | None:
 
 @router.get("/api/feed/today")
 async def feed_today(
-    db: AsyncSession = Depends(get_db), user: _User = Depends(_gcu),
+    db: AsyncSession = Depends(get_db), user: User = Depends(get_current_user),
 ):
     uid = str(user.id)
     out: _Dict[str, _Any] = {"date": _date.today().isoformat()}

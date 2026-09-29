@@ -74,7 +74,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Intellectual Property Rights In",
+    "title": "Intellectual Property Rights and Patents",
     "text": "Intellectual Property Rights (IPR) in biotechnology are legal rights that protect creations of the mind—such as inventions, designs, and biological materials—granting the creator exclusive control over their use and commercialization for a defined period.",
     "emoji": "🧬",
     "bgColor": "from-amber-400 to-orange-500"

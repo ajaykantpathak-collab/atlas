@@ -6,13 +6,13 @@ import C11_GeographyRemoteSensingSim from '../../../simulations/c6_12/C11_Geogra
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geographyremotesensingsim: SimDef = {
     id: 'v3w_c11_geographyremotesensingsim',
-    title: 'Remote Sensing',
+    title: 'Remote Sensing: Definition, Principle and Stages',
     subtitle: 'This node covers the fundamental definition, energy-matter interaction principles, the.',
     classLevel: 11, subject: 'geography', topic: 'Remote Sensing: Definition, Principle and Stages',
     chapters: [],
     nodeIds: ['c11_geo_cbse_26_001', 'c11_geo_cbse_26_002', 'c11_geo_cbse_26_003', 'c11_geo_cbse_26_004', 'c11_geo_cbse_26_005', 'c11_geo_cbse_26_006', 'c11_geo_cbse_26_007', 'c11_geo_cbse_26_008', 'c11_geo_cbse_25_008', 'c11_geo_cbse_13_006', 'c11_geo_cbse_18_002', 'c11_geo_cbse_22_002', 'c11_geo_cbse_25_003', 'c11_geo_cbse_25_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Look at your smartphone camera — it captures images by detecting visible light reflected off objects.', goal: 'Master Remote Sensing.' },
+    scenario: { role: 'a class 11 learner', intro: 'Look at your smartphone camera — it captures images by detecting visible light reflected off objects.', goal: 'Master Remote Sensing: Definition, Principle and Stages.' },
     discovery: {
         question: 'Evaluate the statement: "Higher spatial resolution always produces better thematic maps for agricultural monitoring." Justify with two arguments considering.',
         options: ['The statement is false', 'seeing smaller fields', 'remote sensing = satellite photography'],
@@ -78,7 +78,7 @@ export const w_c11_geographyremotesensingsim: SimDef = {
             { text: 'Recommend acquisition: LISS-II, May 15 ± 11 days and November 15 ± 11 days (centered on peak dry/wet seasons), with.', faded: true, blankAnswer: 'Use LISS-II sensor; acquire cloud-free scenes in mid-May.' }
             ] } }
     ],
-    explore: { component: C11_GeographyRemoteSensingSim, prompt: 'Explore the interactive — Remote Sensing' },
+    explore: { component: C11_GeographyRemoteSensingSim, prompt: 'Explore the interactive — Remote Sensing: Definition, Principle and Stages' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_26_001', difficulty: 'standard',
           question: 'Remote sensing is the science and technology of acquiring information about.',

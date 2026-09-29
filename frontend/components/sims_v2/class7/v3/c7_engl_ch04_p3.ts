@@ -71,8 +71,8 @@ export const c7_engl_ch04_p3: SimDef = {
           hint: 'Review c7_engl_ch04_011 (Stanza-by-Stanza Summary) to ensure the literal events of the.',
           misconception: 'Students often believe that "journey and discovery" in poems simply means a travel diary in verse form, listing places.',
           parts: [
-                { id: 'a', prompt: 'How does a poet typically use a physical obstacle (like a dark tunnel or a steep hill) to develop the theme of discovery?', answer: 'Steps: (1) Identify the obstacle as a point of tension or transition',
-                  options: ['Steps: (1) Identify the obstacle as a point of tension or transition', 'journey and discovery'],
+                { id: 'a', prompt: 'How does a poet typically use a physical obstacle (like a dark tunnel or a steep hill) to develop the theme of discovery?', answer: '(1) Identify the obstacle as a point of tension or transition',
+                  options: ['(1) Identify the obstacle as a point of tension or transition', 'journey and discovery'],
                   hint: 'Review c7_engl_ch04_011 (Stanza-by-Stanza Summary) to ensure the literal events of the poem are.',
                   misconception: 'Students often believe that "journey and discovery" in poems simply means a travel diary in verse form, listing places visited.' }
           ],
@@ -94,7 +94,7 @@ export const c7_engl_ch04_p3: SimDef = {
           misconception: 'Students often confuse symbols with metaphors, assuming any figurative comparison is automatically a "symbol." For.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'A metaphor is a poetic device that directly compares two unlike things by stating one',
-                  options: ['A metaphor is a poetic device that directly compares two unlike things by stating one', 'The setting of a story encompasses the physical landscape, time period, and social', 'Character analysis of Suraj in "The Tunnel" examines his traits, motivations, actions,', 'Plot is the sequence of events and actions that make up a story, structured around a'],
+                  options: ['A metaphor is a poetic device that directly compares two unlike things by stating one', 'The setting of a story encompasses the physical landscape, time period, and social', 'From \'English chapter c7_engl_ch04\': the skill or concept this node teaches, applied to', 'Plot is the sequence of events and actions that make up a story, structured around a'],
                   hint: 'Review Class 6 concepts on metaphor and imagery (c6_english_u1_005) before returning to analyze.',
                   misconception: 'Students often confuse symbols with metaphors, assuming any figurative comparison is automatically a "symbol." For example, if a poem says.' }
           ],

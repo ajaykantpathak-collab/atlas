@@ -6,13 +6,13 @@ import C6_ScienceNatureSTreasuresSim from '../../../simulations/c6_12/C6_Science
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_sciencenaturestreasuressim: SimDef = {
     id: 'v3w_c6_sciencenaturestreasuressim',
-    title: 'Nature STreasures',
+    title: 'Nature as Our Laboratory',
     subtitle: 'This node covers the philosophy and practice of using nature as an environment for.',
     classLevel: 6, subject: 'science', topic: 'Nature as Our Laboratory',
     chapters: [],
     nodeIds: ['c6_physics_ch02_006', 'c6_physics_ch02_008', 'c6_physics_ch02_009', 'c6_physics_ch01_003', 'c6_physics_ch01_001', 'c6_chemistry_ch04_005', 'c6_physics_ch11_036'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why flowers turn toward the sunlight, or why clouds seem to change color just before.', goal: 'Master Nature STreasures.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why flowers turn toward the sunlight, or why clouds seem to change color just before.', goal: 'Master Nature as Our Laboratory.' },
     discovery: {
         question: 'What is the most important tool for a scientist exploring nature?',
         options: ['The most important tool is careful observation', 'science', '"science" only happens in a lab with professional equipment'],
@@ -75,7 +75,7 @@ export const w_c6_sciencenaturestreasuressim: SimDef = {
             { text: 'Classify copper as metal, and wood and graphite as non-metals based on these observations.', faded: true, blankAnswer: 'Copper is a metal; wood and graphite are non-metals.' }
             ] } }
     ],
-    explore: { component: C6_ScienceNatureSTreasuresSim, prompt: 'Explore the interactive — Nature STreasures' },
+    explore: { component: C6_ScienceNatureSTreasuresSim, prompt: 'Explore the interactive — Nature as Our Laboratory' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_physics_ch02_006', difficulty: 'standard',
           question: 'Nature is the primary laboratory where scientific inquiry begins by.',

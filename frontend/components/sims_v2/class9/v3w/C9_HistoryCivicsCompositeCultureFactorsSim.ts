@@ -6,13 +6,13 @@ import C9_HistoryCivicsCompositeCultureFactorsSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_historycivicscompositeculturefactorssim: SimDef = {
     id: 'v3w_c9_historycivicscompositeculturefactorssim',
-    title: 'Composite Culture Factors',
+    title: 'Vedic Society: Early and Later Vedic Periods',
     subtitle: 'This node covers the internal transformation of Vedic society from c.',
     classLevel: 9, subject: 'history', topic: 'Vedic Society: Early and Later Vedic Periods',
     chapters: [],
     nodeIds: ['c9_hist_ch3_1', 'c9_hist_ch3_3', 'c9_hist_ch3_4', 'c9_hist_ch2_4'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are at a village festival in Haryana where priests chant Rigvedic hymns around a fire altar—those.', goal: 'Master Composite Culture Factors.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are at a village festival in Haryana where priests chant Rigvedic hymns around a fire altar—those.', goal: 'Master Vedic Society: Early and Later Vedic Periods.' },
     discovery: {
         question: 'What three factors drove the formation of Mahajanapadas from earlier tribal organizations?',
         options: ['Three factors: (1) Iron tools', 'kings conquered territory', 'all Mahajanapadas were monarchies and that ancient India had only kingdoms'],
@@ -58,14 +58,14 @@ export const w_c9_historycivicscompositeculturefactorssim: SimDef = {
             { text: 'Synthesize the adaptation: This technology allowed mobile bands to exploit diverse forest resources (broad-spectrum.', faded: true, blankAnswer: 'The microlithic shift was an adaptive response to forest.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_hist_ch3_3', title: 'Identify each idea',
-          dissect: { specimen: 'Composite Culture Factors', spots: [
+          dissect: { specimen: 'Vedic Society: Early and Later Vedic Periods', spots: [
             { id: 's1', label: 'The Vedic Society spans two', prompt: 'Which idea is this? — The Vedic Society spans two distinct phases: the Early Vedic (Rigvedic) period (c.', answer: 'The Vedic Society spans two', options: ['The Vedic Society spans two', 'Janapadas and Mahajanapadas were the', 'Magadhas rise to power and', 'The Mesolithic Period c 100006000'] },
             { id: 's2', label: 'Janapadas and Mahajanapadas were the', prompt: 'Which idea is this? — Janapadas and Mahajanapadas were the territorial states of ancient India (c.', answer: 'Janapadas and Mahajanapadas were the', options: ['Janapadas and Mahajanapadas were the', 'The Vedic Society spans two', 'Magadhas rise to power and', 'The Mesolithic Period c 100006000'] },
             { id: 's3', label: 'Magadhas rise to power and', prompt: 'Which idea is this? — Magadha\'s rise to power and imperial expansion (c. 600-321 BCE) refers to the process by.', answer: 'Magadhas rise to power and', options: ['Magadhas rise to power and', 'The Vedic Society spans two', 'Janapadas and Mahajanapadas were the', 'The Mesolithic Period c 100006000'] },
             { id: 's4', label: 'The Mesolithic Period c 100006000', prompt: 'Which idea is this? — The Mesolithic Period (c. 10,000–6,000 BCE) in the Indian subcontinent marks the.', answer: 'The Mesolithic Period c 100006000', options: ['The Mesolithic Period c 100006000', 'The Vedic Society spans two', 'Janapadas and Mahajanapadas were the', 'Magadhas rise to power and'] }
           ] } }
     ],
-    explore: { component: C9_HistoryCivicsCompositeCultureFactorsSim, prompt: 'Explore the interactive — Composite Culture Factors' },
+    explore: { component: C9_HistoryCivicsCompositeCultureFactorsSim, prompt: 'Explore the interactive — Vedic Society: Early and Later Vedic Periods' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_hist_ch3_1', difficulty: 'standard',
           question: 'The Vedic Society spans two distinct phases: the Early Vedic (Rigvedic) period.',

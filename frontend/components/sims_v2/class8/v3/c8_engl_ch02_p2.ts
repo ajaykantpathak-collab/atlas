@@ -100,13 +100,13 @@ export const c8_engl_ch02_p2: SimDef = {
           misconception: 'Students often think comparing prose and poem means listing obvious similarities (both talk about soldiers) and.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing a comparison between prose and poem on the same theme involves analyzing how two',
-                  options: ['Writing a comparison between prose and poem on the same theme involves analyzing how two', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'Critical thinking in this context means analyzing the concepts of valour and sacrifice by'],
+                  options: ['Writing a comparison between prose and poem on the same theme involves analyzing how two', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'From \'English chapter c8_engl_ch2\': the skill or concept this node teaches, applied to'],
                   hint: 'If stuck, review how to analyze poetic devices (c8_engl_ch2_15) and prose character/setting.',
                   misconception: 'Students often think comparing prose and poem means listing obvious similarities (both talk about soldiers) and differences (one is prose.' }
           ],
             remediations: { 'comparing-prose-and-poem-means': { steps: ['First, have the student identify the theme (valour) in one text using a specific example (e.g., "In prose, Sharma\'s.', 'Then, ask: "How does this example show valour?" Guide them to explain the courage in his words.', 'Repeat for the poem (e.g., "The line \'beacon of hope\' shows valour by comparing soldiers to a guiding light").', 'Finally, have them state if both examples show valour similarly (both depict courage inspiring others) or differently.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c8_engl_ch2_2', difficulty: 'standard',
-          question: 'Character analysis of Major Somnath Sharma involves examining his traits (such.',
+          question: 'From \'English chapter c8_engl_ch2\': the skill or concept this node teaches.',
           hint: 'Work step by step.',
           misconception: 'Students often think character analysis for a real historical figure is just listing biographical facts (e.g., "He was.',
           parts: [
@@ -137,7 +137,7 @@ export const c8_engl_ch02_p2: SimDef = {
           misconception: 'Students often treat setting description in historical narratives as a static list of places (e.g., "Badgam is near.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting in a historical narrative like the Battle of Badgam encompasses the specific',
-                  options: ['Setting in a historical narrative like the Battle of Badgam encompasses the specific', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'Critical thinking in this context means analyzing the concepts of valour and sacrifice by'],
+                  options: ['Setting in a historical narrative like the Battle of Badgam encompasses the specific', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'From \'English chapter c8_engl_ch2\': the skill or concept this node teaches, applied to'],
                   hint: 'Recall the definition.',
                   misconception: 'Students often treat setting description in historical narratives as a static list of places (e.g., "Badgam is near Srinagar airport,.' }
           ],
@@ -148,7 +148,7 @@ export const c8_engl_ch02_p2: SimDef = {
           misconception: 'Students often treat the battle as a single "fight scene" rather than a sequence of three distinct enemy assaults.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot is the sequence of causally linked events that form the narrative structure of a',
-                  options: ['Plot is the sequence of causally linked events that form the narrative structure of a', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'Critical thinking in this context means analyzing the concepts of valour and sacrifice by'],
+                  options: ['Plot is the sequence of causally linked events that form the narrative structure of a', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'From \'English chapter c8_engl_ch2\': the skill or concept this node teaches, applied to'],
                   hint: 'Review the plot diagram of "The Tunnel" (c6_english_u4_031) and practice mapping its events to the.',
                   misconception: 'Students often treat the battle as a single "fight scene" rather than a sequence of three distinct enemy assaults separated by command.' }
           ],

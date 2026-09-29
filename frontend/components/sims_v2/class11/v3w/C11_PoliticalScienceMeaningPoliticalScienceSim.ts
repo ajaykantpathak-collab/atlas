@@ -6,13 +6,13 @@ import C11_PoliticalScienceMeaningPoliticalScienceSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_politicalsciencemeaningpoliticalsciencesim: SimDef = {
     id: 'v3w_c11_politicalsciencemeaningpoliticalsciencesim',
-    title: 'Meaning Political Science',
+    title: 'Equality of opportunity: Meaning and limits',
     subtitle: 'This node covers the meaning, philosophical justification, and inherent limits of.',
     classLevel: 11, subject: 'political_science', topic: 'Equality of opportunity: Meaning and limits',
     chapters: [],
     nodeIds: ['c11_ps_cbse_03_003', 'c11_ps_cbse_03_004', 'c11_ps_cbse_03_009', 'c11_ps_cbse_04_004', 'c11_ps_cbse_04_006', 'c11_ps_cbse_09_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine two Class 11 students, Arjun and Bina, both preparing for the NEET medical entrance exam.', goal: 'Master Meaning Political Science.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine two Class 11 students, Arjun and Bina, both preparing for the NEET medical entrance exam.', goal: 'Master Equality of opportunity: Meaning and limits.' },
     discovery: {
         question: 'A state government introduces a policy: "All candidates for the state civil services exam must pay a ₹50,000 application fee, waived only for SC/ST.',
         options: ['The policy violates equality of opportunity for the OBC candidate', 'it\'s fair because SC/ST are more backward', 'same rules for everyone'],
@@ -77,7 +77,7 @@ export const w_c11_politicalsciencemeaningpoliticalsciencesim: SimDef = {
             { text: 'Synthesize — policy is "absolute pacifist" in form but ignores structural violence context; a pacifist-inspired policy.', faded: true, blankAnswer: 'The policy reflects absolute pacifism (no exceptions)..' }
             ] } }
     ],
-    explore: { component: C11_PoliticalScienceMeaningPoliticalScienceSim, prompt: 'Explore the interactive — Meaning Political Science' },
+    explore: { component: C11_PoliticalScienceMeaningPoliticalScienceSim, prompt: 'Explore the interactive — Equality of opportunity: Meaning and limits' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_ps_cbse_03_003', difficulty: 'standard',
           question: 'Equality of opportunity is the principle that all individuals should have the.',

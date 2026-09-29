@@ -109,24 +109,24 @@ export const c8_engl_ch05_p2: SimDef = {
           misconception: '',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'A comparative literature answer is a structured response that analyzes the thematic,',
-                  options: ['A comparative literature answer is a structured response that analyzes the thematic,', 'In science fiction, the **setting** is the specific time and place (often futuristic or', 'Comprehension of how Claribel the canary survived in zero gravity involves understanding', 'Critical thinking about adapting to life in space involves evaluating the challenges'],
+                  options: ['A comparative literature answer is a structured response that analyzes the thematic,', 'In science fiction, the **setting** is the specific time and place (often futuristic or', 'Comprehension of how Claribel the canary survived in zero gravity involves understanding', 'From \'English chapter c8_engl_ch5\': the skill or concept this node teaches, applied to'],
                   hint: 'If stuck, review how to identify a poem\'s central idea in `c8_engl_ch5_13` and how to trace prose.',
                   misconception: '' }
           ],
             remediations: { 'wrong-idea': { steps: ['If a student falls into the "Double-Summary" trap, follow this step-by-step remediation: 1.', '**Draw a Comparative T-Chart:** Draw a T-Chart on a page.', 'Label the left side "Prose: Feathered Friend" and the right side "The Bird Poem".', '**Align the Points:** Force the student to write matching elements directly opposite each other.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c8_engl_ch5_2', difficulty: 'standard',
-          question: 'Character analysis of Sven Olsen involves examining how Arthur C.',
+          question: 'From \'English chapter c8_engl_ch5\': the skill or concept this node teaches.',
           hint: 'If stuck, review how character actions (like building a tiny cage in secret) reveal.',
           misconception: 'Students often assume that because Sven Olsen is introduced as a construction worker (girder-man), he must be.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of Sven Olsen involves examining how Arthur C',
-                  options: ['Character analysis of Sven Olsen involves examining how Arthur C', 'In science fiction, the **setting** is the specific time and place (often futuristic or', 'Comprehension of how Claribel the canary survived in zero gravity involves understanding', 'Critical thinking about adapting to life in space involves evaluating the challenges'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c8_engl_ch5\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c8_engl_ch5\': the skill or concept this node teaches, applied to', 'In science fiction, the **setting** is the specific time and place (often futuristic or', 'Comprehension of how Claribel the canary survived in zero gravity involves understanding', 'Imaginative writing about life in a future space station is a narrative sci-fi'],
                   hint: 'If stuck, review how character actions (like building a tiny cage in secret) reveal internal.',
                   misconception: 'Students often assume that because Sven Olsen is introduced as a construction worker (girder-man), he must be an uneducated, uncreative.' }
           ],
             remediations: { 'because-sven-olsen-is-introduced': { steps: ['Direct the student to re-read the passages where Sven\'s physical work and his interactions with Claribel are described.', 'Use a Venn Diagram exercise: Label Circle A as "Construction Worker Skills" (precision, structural knowledge, handling.', 'Show the student that the overlapping center represents Sven Olsen\'s full character personality.', 'Have the student rewrite their character description using the PEEL structure (Point, Evidence, Explanation, Link).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c8_engl_ch5_3', difficulty: 'standard',
-          question: 'Character analysis of Claribel the Canary involves examining her specific.',
+          question: 'From \'English chapter c8_engl_ch5\': the skill or concept this node teaches.',
           hint: 'Review how Polynesia the Parrot\'s *ability to speak* created a practical communication.',
           misconception: 'Students think Claribel\'s role is solely to provide "happiness" through generic cuteness (e.g., "She\'s cute so Sven.',
           parts: [
@@ -142,7 +142,7 @@ export const c8_engl_ch05_p2: SimDef = {
           misconception: 'Students often think plot is just a list of what happens in order, ignoring cause‑and‑effect and the role of setting.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot is the ordered sequence of events in a story—exposition, rising action, climax,',
-                  options: ['Plot is the ordered sequence of events in a story—exposition, rising action, climax,', 'In science fiction, the **setting** is the specific time and place (often futuristic or', 'Comprehension of how Claribel the canary survived in zero gravity involves understanding', 'Critical thinking about adapting to life in space involves evaluating the challenges'],
+                  options: ['Plot is the ordered sequence of events in a story—exposition, rising action, climax,', 'In science fiction, the **setting** is the specific time and place (often futuristic or', 'Comprehension of how Claribel the canary survived in zero gravity involves understanding', 'From \'English chapter c8_engl_ch5\': the skill or concept this node teaches, applied to'],
                   hint: 'If stuck, review “Setting: A Space Station in Orbit” (c8_engl_ch5_1) and “Character Analysis: Sven.',
                   misconception: 'Students often think plot is just a list of what happens in order, ignoring cause‑and‑effect and the role of setting.' }
           ],

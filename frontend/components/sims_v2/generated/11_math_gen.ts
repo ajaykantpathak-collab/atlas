@@ -9,15 +9,13 @@ import type { SimDef } from '../engine/types';
 export const C11_MATH_GEN: SimDef[] = [
  {
   "id": "gen_c11_math_ch01",
-  "title": "Set A",
+  "title": "Set A Is a Subset Of Set B",
   "subtitle": "Mathematics · Chapter 1",
   "classLevel": 11,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Set A",
-  "chapters": [
-   "Mathematics Ch1: Set A"
-  ],
+  "topic": "Set A Is a Subset Of Set B",
+  "chapters": ["Mathematics Ch1: Set A Is a Subset Of Set B"],
   "nodeIds": [
    "c11_math_cbse_01_004",
    "c11_math_cbse_01_012",
@@ -30,7 +28,7 @@ export const C11_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Set A more about facts, or about reasoning?",
+   "question": "Is Set A Is a Subset Of Set B more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -41,13 +39,13 @@ export const C11_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Set A",
+    "title": "Set A Is a Subset Of Set B",
     "text": "A set A is a subset of set B, denoted A ⊂ B, if and only if every element of A is also an element of B; formally, A ⊂ B ⇔ (∀x)(x ∈ A ⇒ x ∈ B). If A ⊂ B and A ≠ B (i.",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Complement Of a Set \\ With Respect To a",
+    "title": "Complement of a Set: Definition",
     "text": "The complement of a set \\(A\\) with respect to a universal set \\(U\\) is the set of all elements of \\(U\\) that are not in \\(A\\), denoted by \\(A'\\) or \\(A^c\\).",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -258,12 +256,12 @@ export const C11_MATH_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Set A mastered! 🎯",
+  "successLine": "Set A Is a Subset Of Set B mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
   "id": "gen_c11_math_ch02",
-  "title": "Relation R From a Non-empty Set A To a",
+  "title": "Relation R From a Non-empty Set",
   "subtitle": "Mathematics · Chapter 2",
   "classLevel": 11,
   "mode": "senior",
@@ -295,13 +293,13 @@ export const C11_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Relation R From a Non-empty Set A To a",
+    "title": "Relations: Definition and Representation",
     "text": "A relation R from a non-empty set A to a non-empty set B is a subset of the Cartesian product A × B. If (a, b) ∈ R, we say that a is related to b under R, and b is called the image of a.",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "For a Relation R From",
+    "title": "For a Relation R",
     "text": "For a relation R from a non-empty set A to a non-empty set B (i.e., R ⊆ A × B), the domain of R is the set of all first elements of the ordered pairs in R; the range of R is the set of all second elements of the ordered pairs in R; and the codomain of R is",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -958,17 +956,13 @@ export const C11_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_math_ch11",
-  "title": "Distance Between Two Points \\\\) And \\\\) In The",
+  "title": "Distance Between Two Points",
   "subtitle": "Mathematics · Chapter 11",
   "classLevel": 11,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Distance Between Two Points \\\\) And \\\\) In The Carte",
-  "chapters": [
-   "Mathematics Ch9: Distance Between Two Points \\\\) And \\\\) In The Carte",
-   "Mathematics Ch10: Distance Between Two Points \\\\) And \\\\) In The Carte",
-   "Mathematics Ch11: Distance Between Two Points \\\\) And \\\\) In The Carte"
-  ],
+  "topic": "Distance Between Two Points",
+  "chapters": ["Mathematics Ch9: Distance Between Two Points", "Mathematics Ch10: Distance Between Two Points", "Mathematics Ch11: Distance Between Two Points"],
   "nodeIds": [
    "c11_math_cbse_10_002",
    "c11_math_cbse_09_003",
@@ -984,7 +978,7 @@ export const C11_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Distance Between Two Points \\\\) suddenly stops working?",
+   "question": "What happens if Distance Between Two Points suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -995,7 +989,7 @@ export const C11_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Distance Between Two Points \\\\) And \\\\) In",
+    "title": "Distance Between Two Points",
     "text": "The distance between two points \\(P(x_1, y_1)\\) and \\(Q(x_2, y_2)\\) in the Cartesian plane is the length of the straight line segment joining them, given by \\(PQ = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\).",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1026,7 +1020,7 @@ export const C11_MATH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Applications Of Conic Sections Refer To",
+    "title": "Applications Of Conic Sections",
     "text": "Applications of conic sections refer to the use of geometric properties of circles, parabolas, ellipses, and hyperbolas to model and solve real-world problems in physics, engineering, astronomy, and architecture, where the reflective, focal, or geometric",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1232,7 +1226,7 @@ export const C11_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about distance between two points \\\\) and \\\\) in the carte?",
+    "What surprised you about distance between two points?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -1282,7 +1276,7 @@ export const C11_MATH_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Distance Between Two Points P And Q In",
+    "title": "Distance Between Two Points in 3D",
     "text": "The distance between two points P(x₁, y₁, z₁) and Q(x₂, y₂, z₂) in three-dimensional space is the length of the line segment joining them, given by the formula: PQ = √[(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²].",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1696,7 +1690,7 @@ export const C11_MATH_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "For An Implication \"If P, Then Q\" , The",
+    "title": "Contrapositive and Converse",
     "text": "For an implication \"If p, then q\" (symbolically p → q), the converse is \"If q, then p\" (q → p), and the contrapositive is \"If not q, then not p\" (¬q → ¬p).",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"

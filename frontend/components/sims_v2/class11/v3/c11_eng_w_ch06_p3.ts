@@ -19,7 +19,7 @@ export const c11_eng_w_ch06_p3: SimDef = {
         hook: 'The narrator isn\'t Lahiri, and the moon isn\'t trivia — both are deliberate architecture: a flag on the moon lets two strangers share a country.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis refers to the disciplined process of examining a text\'s explicit and implicit meanings by evaluating evidence, identifying patterns, and interpreting the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Third and Final Continent\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_06_013', title: 'Your mission',
@@ -29,20 +29,20 @@ export const c11_eng_w_ch06_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_06_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are asked in a board exam: "How does Lahiri use the recurring motif of the moon landing to reveal the emotional landscape of the narrator and Mrs.',
+          caseStudy: { intro: 'Analyse \'The Third and Final Continent\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'Define the term "narrative perspective" as it applies to "The Third and Final Continent" and state its effect on the reader\'s access.', options: [
                 { text: 'The story uses a first-person retrospective narrative perspective (the narrator looking', outcome: 'The story uses a first-person retrospective narrative perspective (the narrator looking back).' },
                 { text: 'omniscient narrator', outcome: 'Not quite — Students often confuse "critical analysis" with "listing literary devices." They identify.', reveals: 'students-often-confuse-critical-analysis' },
                 { text: 'critical analysis', outcome: 'Not quite — Students often confuse "critical analysis" with "listing literary devices." They identify.', reveals: 'students-often-confuse-critical-analysis' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_06_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and the question reads: "Write a diary entry from the narrator\'s perspective on the night he first meets Mrs Croft.".',
+          caseStudy: { intro: 'For written answers on \'The Third and Final Continent\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the standard format of a diary entry as per CBSE Class 11 guidelines?', options: [
                 { text: 'A diary entry includes the date, day, and optionally time', outcome: 'A diary entry includes the date, day, and optionally time; a salutation such as "Dear Diary".' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students often think "writing skills based on the chapter" means retelling the story in their own.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_06_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a book club meeting at your local library discussing "The Third and Final Continent" — the facilitator asks: "Does the Indian family system.',
+          caseStudy: { intro: 'Talk through \'The Third and Final Continent\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the three discussion topics listed under "TALKING ABOUT THE TEXT" in the NCERT textbook for this chapter?', options: [
                 { text: 'The three topics are: (1) Living abroad is challenging in many ways', outcome: 'The three topics are: (1) Living abroad is challenging in many ways.' },
                 { text: 'good discussion', outcome: 'Not quite — Students believe a "good discussion" means everyone agrees politely.', reveals: 'a-good-discussion-means-everyone' },
@@ -67,7 +67,7 @@ export const c11_eng_w_ch06_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis refers to the disciplined process.',
+          question: 'Critical thinking on \'The Third and Final Continent\' — analysing the text.',
           hint: 'If stuck, review c11_eng_w_cbse_06_012 (Comprehension) for inferential question practice.',
           misconception: 'Students often confuse "critical analysis" with "listing literary devices." They identify a metaphor (e.g., "the flag.',
           parts: [
@@ -93,7 +93,7 @@ export const c11_eng_w_ch06_p3: SimDef = {
           ],
             remediations: { 'students-often-confuse-critical-analysis': { steps: ['If a student\'s analysis remains at the device-identification level, intervene with a three-step scaffold: (1) Ask "What.', 'Croft forces the narrator to rehearse nightly." (2) Provide a two-column template: Column A = Device/Detail, Column.', '(3) Require the student to rewrite one analytical paragraph using the template, then peer-review using the rubric.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_014', difficulty: 'standard',
-          question: 'Writing skills based on a literary chapter involve composing structured.',
+          question: 'Writing skills from \'The Third and Final Continent\' — using the text as a model.',
           hint: 'If stuck, review c11_eng_w_cbse_06_012 (Comprehension) for evidence location and.',
           misconception: 'Students often think "writing skills based on the chapter" means retelling the story in their own words.',
           parts: [
@@ -108,7 +108,7 @@ export const c11_eng_w_ch06_p3: SimDef = {
           ],
             remediations: { 'writing-skills-based-on-the': { steps: ['Show a side-by-side comparison: a summary vs.', 'a character sketch of Mrs Croft.', 'Highlight the difference: summary narrates events; sketch analyses traits with evidence.', 'Give a template for character sketch: Introduction (role), Physical Description, Personality Traits (with evidence).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'The Third and Final Continent\' — speaking and listening.',
           hint: 'If stuck, review c11_eng_w_cbse_06_012 (comprehension questions) and.',
           misconception: 'Students believe a "good discussion" means everyone agrees politely.',
           parts: [

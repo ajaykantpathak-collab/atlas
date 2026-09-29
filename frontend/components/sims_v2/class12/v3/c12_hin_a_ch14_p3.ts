@@ -19,7 +19,7 @@ export const c12_hin_a_ch14_p3: SimDef = {
         hook: 'The journalist\'s craft is the giveaway — simple spoken language carrying sharp satire; even the glossary is a code: \'myaan\' (scabbard) hints at hidden violence, the fakir\'s words flag hypocrisy. The well\'s lid is the citizenry\'s gagged voice.',
     },
     teaching: [
-        { title: 'शेर, पहचान, चार हाथ, साझा — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'पात्र-चित्रण का आलोचनात्मक विश्लेषण वह प्रक्रिया है जिसमें पाठ में आए पात्र के बाह्य और आंतरिक गुणों, उनके कार्यों, बातचीत, संबंधों और विकास का व्यवस्थित रूप से मूल्यांकन करके उनके चरित्र के गहरे.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'शेर, पहचान, चार हाथ, साझा — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'अंतरा भाग-2 — पाठ 14\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_14_013', title: 'Your mission',
@@ -28,6 +28,13 @@ export const c12_hin_a_ch14_p3: SimDef = {
         context: 'Run the satire four ways: unmask the well\'s lid as silenced dissent, split state-scale from household-scale power, and read the vocabulary list as a map of the stories\' politics.',
         labels: ['शेर, पहचान, चार हाथ,'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_14_015', title: 'शेर, पहचान, चार हाथ, साझा — वाचन-श्रवण: चर्चा-बिंदु',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 14\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'What is the primary purpose of the "Speaking and Listening: Discussion Points" section in the CBSE Class 12 Hindi Antra curriculum?', options: [
+                { text: 'The primary purpose is to assess students\' ability to orally articulate literary', outcome: 'The primary purpose is to assess students\' ability to orally articulate literary analysis, actively.' },
+                { text: 'to test memory of plot points', outcome: 'Not quite — Students believe "discussion" means taking turns stating opinions about the story\'s moral.', reveals: 'discussion-means-taking-turns-stating' },
+                { text: 'discussion', outcome: 'Not quite — Students believe "discussion" means taking turns stating opinions about the story\'s moral.', reveals: 'discussion-means-taking-turns-stating' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_14_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your hostel reports a wobbly fan. Weeks later it\'s a \'case\' — the warden consulted the electrician, who consulted the engineer, who proposed a structural audit, who now wants a committee — while the fan still wobbles.',
             decisions: [{ prompt: 'Which of Asghar Wajahat\'s story structures is playing out?', options: [
@@ -47,38 +54,61 @@ export const c12_hin_a_ch14_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_14_013', difficulty: 'standard',
-          question: 'पात्र-चित्रण का आलोचनात्मक विश्लेषण वह प्रक्रिया है जिसमें पाठ में आए पात्र के.',
+          question: '\'अंतरा भाग-2 — पाठ 14\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
           hint: 'यदि फंसे हों तो पात्र के प्रत्येक उल्लेख को समय के क्रम में लिखिए और देखिए कि उनके.',
           misconception: 'छात्र अक्सर मानते हैं कि यदि कोई पात्र एक नायक है या मुख्य पात्र है, तो उसके सभी कार्यों को स्वचालित रूप से सही या.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण का आलोचनात्मक विश्लेषण वह प्रक्रिया है जिसमें पाठ में आए पात्र के बाह्य और',
-                  options: ['पात्र-चित्रण का आलोचनात्मक विश्लेषण वह प्रक्रिया है जिसमें पाठ में आए पात्र के बाह्य और', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-राजनीतिक परिस्थितियों और', 'कथानक कहानी की घटनाओं का तार्किक क्रम है जिसमें संघर्ष, चोटी और समापन शामिल होता है;', 'पाठ्य-परिवेश और वातावरण वह साम ऐतिहासिक, सांस्कृतिक और वैयक्तिक पृष्ठभूमि है जिसमें कोई'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 14\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+                  options: ['\'अंतरा भाग-2 — पाठ 14\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 14\' का कथानक — \'अंतरा भाग-2 — पाठ 14\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 14\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि फंसे हों तो पात्र के प्रत्येक उल्लेख को समय के क्रम में लिखिए और देखिए कि उनके कार्यों या.',
                   misconception: 'छात्र अक्सर मानते हैं कि यदि कोई पात्र एक नायक है या मुख्य पात्र है, तो उसके सभी कार्यों को स्वचालित रूप से सही या आदर्श मान लेना चाहिए.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र से पूछिए कि क्या वे वास्तविक जीवन में किसी ऐसे व्यक्ति को जानते हैं जो लोकप्रिय होने के बावजूद गलतियाँ करता है.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_14_014', difficulty: 'standard',
-          question: 'लेखन कौशल: पाठ-आधारित का अर्थ है किसी दिए गए पाठ (गद्य या poesía) के आधार पर.',
+          question: '\'अंतरा भाग-2 — पाठ 14\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि फंसे हुए हों तो पाठ-आधारित प्रश्नों के लिए साक्ष्य खोजने की technique को revisit करें.',
           misconception: 'छात्र अक्सर मानते हैं कि यदि वे प्रश्न का उत्तर जानते हैं तो उन्हें पाठ से उदाहरण देने की आवश्यकता नहीं है — वे सोचते.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'लेखन कौशल: पाठ-आधारित का अर्थ है किसी दिए गए पाठ (गद्य या poesía) के आधार पर प्रश्न के',
-                  options: ['लेखन कौशल: पाठ-आधारित का अर्थ है किसी दिए गए पाठ (गद्य या poesía) के आधार पर प्रश्न के', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-राजनीतिक परिस्थितियों और', 'कथानक कहानी की घटनाओं का तार्किक क्रम है जिसमें संघर्ष, चोटी और समापन शामिल होता है;', 'पाठ्य-परिवेश और वातावरण वह साम ऐतिहासिक, सांस्कृतिक और वैयक्तिक पृष्ठभूमि है जिसमें कोई'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 14\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+                  options: ['\'अंतरा भाग-2 — पाठ 14\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 14\' का कथानक — \'अंतरा भाग-2 — पाठ 14\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 14\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि फंसे हुए हों तो पाठ-आधारित प्रश्नों के लिए साक्ष्य खोजने की technique को revisit करें.',
                   misconception: 'छात्र अक्सर मानते हैं कि यदि वे प्रश्न का उत्तर जानते हैं तो उन्हें पाठ से उदाहरण देने की आवश्यकता नहीं है — वे सोचते हैं कि "मुझे पता है.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र से कहें कि वह अपना पिछला उत्तर ले और प्रत्येक वाक्य के लिए खुद से पूछे: "क्या मैंने इसे सिर्फ माना है या पाठ से.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_14_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु वह प्रक्रिया है जिसमें छात्र पाठ को ध्यान से पढ़ते या.',
-          hint: 'यदि छात्र चर्चा-बिंदुओं को घटनाओं से भ्रमित कर रहा है, तो उसे कथानक और पात्र-चित्रण के.',
-          misconception: 'छात्र अक्सर चर्चा-बिंदुओं को कहानी के事实ात्मक घटनाओं (जैसे "शेर आया", "चार हाथ देखे", "वह चुप रहा") के रूप में याद करके.',
+          question: '\'अंतरा भाग-2 — पाठ 14\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'If stuck, revisit c12_hin_a_cbse_14_013 Step 3: "Convert your written claim into.',
+          misconception: 'Students believe "discussion" means taking turns stating opinions about the story\'s moral.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु वह प्रक्रिया है जिसमें छात्र पाठ को ध्यान से पढ़ते या सुनते हैं,',
-                  options: ['वाचन-श्रवण: चर्चा-बिंदु वह प्रक्रिया है जिसमें छात्र पाठ को ध्यान से पढ़ते या सुनते हैं,', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-राजनीतिक परिस्थितियों और', 'कथानक कहानी की घटनाओं का तार्किक क्रम है जिसमें संघर्ष, चोटी और समापन शामिल होता है;', 'पाठ्य-परिवेश और वातावरण वह साम ऐतिहासिक, सांस्कृतिक और वैयक्तिक पृष्ठभूमि है जिसमें कोई'],
-                  hint: 'यदि छात्र चर्चा-बिंदुओं को घटनाओं से भ्रमित कर रहा है, तो उसे कथानक और पात्र-चित्रण के नोड्स.',
-                  misconception: 'छात्र अक्सर चर्चा-बिंदुओं को कहानी के事实ात्मक घटनाओं (जैसे "शेर आया", "चार हाथ देखे", "वह चुप रहा") के रूप में याद करके लिखते हैं, जबकि.' }
+                { id: 'a', prompt: 'What is the primary purpose of the "Speaking and Listening: Discussion Points" section in the CBSE Class 12 Hindi Antra curriculum?', answer: 'The primary purpose is to assess students\' ability to orally articulate literary',
+                  options: ['The primary purpose is to assess students\' ability to orally articulate literary', 'to test memory of plot points', 'discussion', '"discussion" means taking turns stating opinions about the story\'s moral'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_14_013 Step 3: "Convert your written claim into a one-sentence.',
+                  misconception: 'Students believe "discussion" means taking turns stating opinions about the story\'s moral.' },
+                { id: 'b', prompt: 'During a discussion on \'pkj gkFk\', a peer argues: "The shepherd was foolish to ask experts how many legs a sheep has." Using the "Claim-Evidence-Question".', answer: 'Response: "I agree the shepherd\'s literal question seems absurd (Claim)',
+                  options: ['Response: "I agree the shepherd\'s literal question seems absurd (Claim)', 'discussion', '"discussion" means taking turns stating opinions about the story\'s moral'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_14_013 Step 3: "Convert your written claim into a one-sentence.',
+                  misconception: 'Students believe "discussion" means taking turns stating opinions about the story\'s moral.' },
+                { id: 'c', prompt: 'Compare how \'ksj\' and \'lk>k\' use animal protagonists to critique human systems.', answer: 'Similarity: Both use repetitive questioning cycles (donkey asked by',
+                  options: ['Similarity: Both use repetitive questioning cycles (donkey asked by', 'discussion', '"discussion" means taking turns stating opinions about the story\'s moral'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_14_013 Step 3: "Convert your written claim into a one-sentence.',
+                  misconception: 'Students believe "discussion" means taking turns stating opinions about the story\'s moral.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को सबसे पहले कहानी के तीन असामान्य या दोहराए गए विवरणों की पहचान करने के लिए कहें — जैसे "शेर", "चार हाथ", और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'discussion-means-taking-turns-stating': { steps: ['If a student defaults to opinion-sharing: (1) Pause the discussion and model the "Claim-Evidence-Question" move using.', 'Evidence: \'ngkM+dj [kM+k gks x;k\' appears only when questioned.', 'Question: What does this timing suggest?").', '(2) Assign the student the "Evidence Tracker" role for the next round — they must silently note one textual reference.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_14_015', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe "discussion" means taking turns stating opinions about the story\'s moral.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate this discussion contribution: "In \'igpku\', the king is just like Hitler.', answer: 'Weak',
+                  options: ['Weak', 'discussion', '"discussion" means taking turns stating opinions about the story\'s moral'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_14_013 Step 3: "Convert your written claim into a one-sentence.',
+                  misconception: 'Students believe "discussion" means taking turns stating opinions about the story\'s moral.' },
+                { id: 'b', prompt: 'Create an original discussion prompt for \'pkj gkFk\' that requires participants to connect the story\'s bureaucratic satire to a contemporary Indian governance.', answer: 'Prompt: "The shepherd\'s sheep already had four legs',
+                  options: ['Prompt: "The shepherd\'s sheep already had four legs', 'discussion', '"discussion" means taking turns stating opinions about the story\'s moral'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_14_013 Step 3: "Convert your written claim into a one-sentence.',
+                  misconception: 'Students believe "discussion" means taking turns stating opinions about the story\'s moral.' }
+          ],
+            remediations: { 'discussion-means-taking-turns-stating': { steps: ['If a student defaults to opinion-sharing: (1) Pause the discussion and model the "Claim-Evidence-Question" move using.', 'Evidence: \'ngkM+dj [kM+k gks x;k\' appears only when questioned.', 'Question: What does this timing suggest?").', '(2) Assign the student the "Evidence Tracker" role for the next round — they must silently note one textual reference.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

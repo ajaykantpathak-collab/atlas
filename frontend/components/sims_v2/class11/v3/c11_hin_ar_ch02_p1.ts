@@ -19,7 +19,7 @@ export const c11_hin_ar_ch02_p1: SimDef = {
         hook: 'The story hides its oldest event two-thirds of the way in — a flashback that only lands because we met the dignified cook first.',
     },
     teaching: [
-        { title: 'पाठ 2 — पृष्ठभूमि और रचनाकार परिचय', text: 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल है जिसमें किसी रचना के लेखन-कालीन ऐतिहासिक, सामाजिक, सांस्कृतिक परिवेश तथा रचनाकार के व्यक्तिगत जीवन-अनुभव.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 2 — पृष्ठभूमि और रचनाकार परिचय', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_02_001', title: 'Your mission',
@@ -28,12 +28,32 @@ export const c11_hin_ar_ch02_p1: SimDef = {
         context: 'Reorder the five scenes by narrative logic rather than chronology, and argue why the colonial-officer flashback lands where it does.',
         labels: ['पाठ 2 — पृष्ठभूमि', 'पाठ 2 — कथानक', 'पाठ 2 — पाठ्य-परिवेश', 'पाठ 2 — पात्र-चित्रण', 'पाठ 2 — मुख्य'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_02_001', title: 'पाठ 2 — पृष्ठभूमि और रचनाकार परिचय',
+          caseStudy: { intro: 'आरोह भाग-1 खोलिए और पाठ 02 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: 'Who is Phanishwar Nath Renu and what is his primary contribution to Hindi literature?', options: [
+                { text: 'Phanishwar Nath Renu (1925-2019) is a seminal Hindi writer known as the pioneer of', outcome: 'Phanishwar Nath Renu (1925-2019) is a seminal Hindi writer known as the pioneer of \'Anchalik.' },
+                { text: 'him only as a poet or confusing him with Premchand', outcome: 'Not quite — Students often treat \'Context and Background\' as a list of static facts to memorize (author\'s.', reveals: 'students-often-treat-context-and' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_02_002', title: 'पाठ 2 — कथानक और आख्यान-संरचना',
+          caseStudy: { intro: '\'फेंकू उल्हनिहु\' का क्रम: शुरुआत फेंकू-उल्हनिहु से, घटनाएँ बढ़ती हैं, अंत \'फेंकू उल्हनिहु\' का केंद्रीय भाव और संदेश पर।',
+            decisions: [{ prompt: 'Identify the inciting incident in "फेंकू उल्हनिहु" that sets the narrator\'s investigation into Phenku\'s past in motion.', options: [
+                { text: 'The inciting incident is the narrator noticing Phenku\'s unusual method of making', outcome: 'The inciting incident is the narrator noticing Phenku\'s unusual method of making puris—flinging.' },
+                { text: 'the narrator hiring Phenku', outcome: 'Not quite — Students treat "plot" as "what happened in chronological order" and "narrative structure".', reveals: 'students-treat-plot-as-what' },
+                { text: 'the colonial officer anecdote', outcome: 'Not quite — Students treat "plot" as "what happened in chronological order" and "narrative structure".', reveals: 'students-treat-plot-as-what' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_02_005', title: 'पाठ 2 — पात्र-चित्रण: सहायक पात्र',
-          caseStudy: { intro: 'Think about your best friend — how they react when you\'re angry reveals your temper, how they support you shows your vulnerabilities, and how they disagree.',
-            decisions: [{ prompt: '\'नमक का दारोगा\' में पंडित अलोपीदीन की भूमिका को एक वाक्य में परिभाषित कीजिए।', options: [
-                { text: 'पंडित अलोपीदीन मुंशी वंशीधर के नैतिक दृढ़ता के प्रतिबिंब (foil) के रूप में कार्य करते', outcome: 'पंडित अलोपीदीन मुंशी वंशीधर के नैतिक दृढ़ता के प्रतिबिंब (foil) के रूप में कार्य करते हैं, जिनका.' },
-                { text: 'वो एक भ्रष्ट जमींदार हैं', outcome: 'Not quite — **Exact error:** Students equate "सहायक पात्र" (supporting character) with "कम महत्वपूर्ण पात्र".', reveals: 'exact-error-students-equate-supporting' },
-                { text: 'description vs', outcome: 'Not quite — **Exact error:** Students equate "सहायक पात्र" (supporting character) with "कम महत्वपूर्ण पात्र".', reveals: 'exact-error-students-equate-supporting' }
+          caseStudy: { intro: '\'फेंकू उल्हनिहु\' में सहायक पात्र पहचानिए — जो मुख्य पात्र की सहायता करते हैं।',
+            decisions: [{ prompt: 'List three supporting characters from \'Fe;k¡ ulh#íhu\' and state their primary narrative role in one sentence each.', options: [
+                { text: 'Correct answer: (1) ckn\'kkg lyker', outcome: 'Correct answer: (1) ckn\'kkg lyker — the bureaucratic clerk who demands written identity.' },
+                { text: 'what the character does', outcome: 'Not quite — Students treat supporting characters as "background information" and list their actions (he asked.', reveals: 'students-treat-supporting-characters-as' },
+                { text: 'what the character REPRESENTS', outcome: 'Not quite — Students treat supporting characters as "background information" and list their actions (he asked.', reveals: 'students-treat-supporting-characters-as' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_02_006', title: 'पाठ 2 — मुख्य विषय और संदेश',
+          caseStudy: { intro: 'सब घटनाएँ \'फेंकू उल्हनिहु\' में \'फेंकू उल्हनिहु\' का केंद्रीय भाव और संदेश की ओर ले जाती हैं — यही मुख्य विषय है।',
+            decisions: [{ prompt: 'What is the definition of \'primary theme\' in a prose narrative?', options: [
+                { text: 'The primary theme is the central, unifying idea that runs through the entire narrative', outcome: 'The primary theme is the central, unifying idea that runs through the entire narrative and.' },
+                { text: 'education', outcome: 'Not quite — Students often think the primary theme is "respect for elders" or "importance of education" because.', reveals: 'the-primary-theme-is-respect' },
+                { text: 'respect for elders', outcome: 'Not quite — Students often think the primary theme is "respect for elders" or "importance of education" because.', reveals: 'the-primary-theme-is-respect' }
             ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_02_001', title: 'Use it in the wild',
           caseStudy: { intro: 'For a regional-literature seminar you present Renu\'s anchalik katha and Yashpal\'s \'Phenku\' story. A classmate objects: \'These dialect words and folk songs are local colour — decoration. And the Phenku story is simple: master questions cook, cook answers, done in order.\'',
@@ -54,71 +74,94 @@ export const c11_hin_ar_ch02_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_02_001', difficulty: 'standard',
-          question: 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक.',
-          hint: 'यदि अटके तो \'नई कहानी आंदोलन\' की मूल स्थापनाओं (अनुभूति की प्रामाणिकता, शिल्पगत प्रयोग.',
-          misconception: 'छात्र अक्सर \'रचनाकार परिचय\' को \'जीवनी के तथ्य रटना\' (जन्म-तिथि, शिक्षा, पुरस्कार, प्रसिद्ध कृतियाँ) समझ लेते हैं और.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'Review the concept of \'Anchalik Katha\' (Regional Fiction) and the map of linguistic.',
+          misconception: 'Students often treat \'Context and Background\' as a list of static facts to memorize (author\'s birth/death dates.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल',
-                  options: ['पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल', 'कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता है, जबकि', '**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल (कब),', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें नायक/प्रमुख पात्र के'],
-                  hint: 'यदि अटके तो \'नई कहानी आंदोलन\' की मूल स्थापनाओं (अनुभूति की प्रामाणिकता, शिल्पगत प्रयोग, मध्यवर्गीय.',
-                  misconception: 'छात्र अक्सर \'रचनाकार परिचय\' को \'जीवनी के तथ्य रटना\' (जन्म-तिथि, शिक्षा, पुरस्कार, प्रसिद्ध कृतियाँ) समझ लेते हैं और परीक्षा में वही लिख.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के',
+                  options: ['रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फेंकू उल्हनिहु\' का कथानक', '\'फेंकू उल्हनिहु\' का पाठ्य-परिवेश (setting)', '\'फेंकू उल्हनिहु\' का पात्र-चित्रण'],
+                  hint: 'Review the concept of \'Anchalik Katha\' (Regional Fiction) and the map of linguistic regions.',
+                  misconception: 'Students often treat \'Context and Background\' as a list of static facts to memorize (author\'s birth/death dates, awards, one-line summary.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से रचनाकार की किन्हीं दो जीवन-घटनाओं को लिखवाएं (जैसे: बचपन में पिता का निधन, शहर में नौकरी के दौरान.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-context-and': { steps: ['**Re-frame the task**: Ask the student: "If you removed all the Bhojpuri/Maithili words and folk references from this.', 'Why or why not?" This forces confrontation with the functional role of context.', '**Mini-research activity**: Assign a 15-minute search for "Renu Anchalik Katha features" and "Bihar 1950s land reforms".', 'Have them write three specific connections they find between the historical facts and textual details in the first two.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_02_002', difficulty: 'standard',
-          question: 'कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता.',
-          hint: 'यदि अटका हुआ महसूस हो तो \'फैबुला बनाम स्यूज़ेट\' (Fabula vs Syuzhet) की रूसी औपचारिकतावादी.',
-          misconception: 'छात्र अक्सर मानते हैं कि \'कथानक = कहानी का सारांश\' और \'आख्यान-संरचना = अध्यायों/भागों का विभाजन\'। यह भ्रम इसलिए होता है.',
+          question: '\'फेंकू उल्हनिहु\' का कथानक — \'फेंकू उल्हनिहु\' — आरोह भाग-1 का पाठ। पाठ का कथानक.',
+          hint: 'Review "flashback vs. chronological order" and "first-person narrator reliability" from.',
+          misconception: 'Students treat "plot" as "what happened in chronological order" and "narrative structure" as "beginning, middle, end.".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता है, जबकि',
-                  options: ['कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता है, जबकि', 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल', '**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल (कब),', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें नायक/प्रमुख पात्र के'],
-                  hint: 'यदि अटका हुआ महसूस हो तो \'फैबुला बनाम स्यूज़ेट\' (Fabula vs Syuzhet) की रूसी औपचारिकतावादी अवधारणा.',
-                  misconception: 'छात्र अक्सर मानते हैं कि \'कथानक = कहानी का सारांश\' और \'आख्यान-संरचना = अध्यायों/भागों का विभाजन\'। यह भ्रम इसलिए होता है क्योंकि स्कूली स्तर.' }
+                { id: 'a', prompt: 'Identify the inciting incident in "फेंकू उल्हनिहु" that sets the narrator\'s investigation into Phenku\'s past in motion.', answer: 'The inciting incident is the narrator noticing Phenku\'s unusual method of making',
+                  options: ['The inciting incident is the narrator noticing Phenku\'s unusual method of making', 'the narrator hiring Phenku', 'the colonial officer anecdote'],
+                  hint: 'Review "flashback vs. chronological order" and "first-person narrator reliability" from Class 10.',
+                  misconception: 'Students treat "plot" as "what happened in chronological order" and "narrative structure" as "beginning, middle, end." In "फेंकू उल्हनिहु,".' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को एक परिचित फिल्म (जैसे \'बाहुबली\' या \'दृश्यम\') का कथानक कालानुक्रम में लिखने को कहें (5-6 बिंदु)। 2.', 'फिर उसी फिल्म के दृश्यों का क्रम लिखने को कहें जैसा फिल्म में दिखाया गया है। 3.', 'दोनों सूचियों की तुलना करवाएं: "फिल्म ने घटना X को घटना Y से पहले क्यों दिखाया जबकि वास्तव में Y पहले घटी?" 4.', 'इस अंतर को \'कथानक बनाम आख्यान-संरचना\' का नाम दें। 2-3 अभ्यासों के बाद छात्र स्वयं विचलन पहचानने लगेगा।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-plot-as-what': { steps: ['If a student cannot separate chronological from narrative order: (1) Give them 5 event cards from the story; ask them.', '(2) For each displacement, ask: "What does the reader know at this narrative moment that they wouldn\'t if this came.', '(4) Practice with a 3-sentence micro-fiction: write it in narrative order, then reorder chronologically, compare.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_02_003', difficulty: 'standard',
-          question: '**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल.',
+          question: '\'फेंकू उल्हनिहु\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में.',
           hint: 'अगर अटका हुआ महसूस हो तो **\'कथानक और आख्यान-संरचना\' (c11_hin_ar_cbse_02_002)** के.',
           misconception: '**विशिष्ट भ्रांति**: छात्र समझते हैं कि **\'वातावरण केवल विशेषणों (Adjectives) से बनता है\'** — जैसे \'डरावना जंगल\'.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल (कब),',
-                  options: ['**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल (कब),', 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल', 'कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता है, जबकि', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें नायक/प्रमुख पात्र के'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'फेंकू उल्हनिहु\' का पाठ्य-परिवेश (setting)',
+                  options: ['\'फेंकू उल्हनिहु\' का पाठ्य-परिवेश (setting)', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फेंकू उल्हनिहु\' का कथानक', '\'फेंकू उल्हनिहु\' का पात्र-चित्रण'],
                   hint: 'अगर अटका हुआ महसूस हो तो **\'कथानक और आख्यान-संरचना\' (c11_hin_ar_cbse_02_002)** के \'चरमोत्कर्ष.',
                   misconception: '**विशिष्ट भ्रांति**: छात्र समझते हैं कि **\'वातावरण केवल विशेषणों (Adjectives) से बनता है\'** — जैसे \'डरावना जंगल\', \'सुंदर बगीचा\', \'उदास.' }
           ],
             remediations: { 'adjectives': { steps: ['**माइक्रो-एनालिसिस अभ्यास**: छात्र को एक छोटा अनुच्छेद (५० शब्द) दें — उसे **हर विशेषण को काटकर** केवल **क्रियाओं.', '**तुलनात्मक सारणी बनवाएँ**: दो कॉलम — बायाँ: \'लेखक ने क्या लिखा (पद/पदबंध)\', दायाँ: \'पाठक पर क्या असर हुआ (संवेदना)\'।.', '**\'क्यों\' का पीछा करें**: हर पहचाने गए शब्द/युक्ति के लिए पूछें — "अगर लेखक यहाँ \'चल रहा था\' के बजाय \'घिसट रहा था\'.', '**बोर्ड-उत्तर संरचना सिखाएँ**: (बिंदु) → (उद्धरण/संदर्भ) → (युक्ति का नाम) → (वातावरण पर प्रभाव) → (कथानक/पात्र से.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_02_004', difficulty: 'standard',
-          question: 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें.',
+          question: '\'फेंकू उल्हनिहु\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
           hint: 'यदि अटके तो **c11_hin_ar_cbse_02_002 (कथानक संरचना)** के \'प्रमुख मोड़\' खंड को दोहराएँ और.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि पात्र-चित्रण का अर्थ है पात्र के **गुणों की सूची (list of traits)** बनाना.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें नायक/प्रमुख पात्र के',
-                  options: ['पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण कौशल है जिसमें नायक/प्रमुख पात्र के', 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल', 'कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता है, जबकि', '**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल (कब),'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'फेंकू उल्हनिहु\' का पात्र-चित्रण',
+                  options: ['\'फेंकू उल्हनिहु\' का पात्र-चित्रण', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फेंकू उल्हनिहु\' का कथानक', '\'फेंकू उल्हनिहु\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके तो **c11_hin_ar_cbse_02_002 (कथानक संरचना)** के \'प्रमुख मोड़\' खंड को दोहराएँ और पाठ में.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि पात्र-चित्रण का अर्थ है पात्र के **गुणों की सूची (list of traits)** बनाना — जैसे "नायक ईमानदार.' }
           ],
             remediations: { 'list-of-traits': { steps: ['**मॉडलिंग (Modeling):** शिक्षक एक छोटे ज्ञात पात्र (जैसे \'पंचतंत्र का शेर\' या \'मुंशी प्रेमचंद की \'ईदगाह\' का हामिद) लेकर.', '**सैफोल्डिंग (Scaffolding):** छात्र को **\'पात्र-चित्रण ग्राफिक ऑर्गनाइज़र\'** दें जिसमें चार कॉलम हों: *प्रसंग/घटना →.', '**तुलनात्मक अभ्यास:** दो कमज़ोर और एक मजबूत नमूना उत्तर दिखाएँ; छात्रों से कहें **\'कमज़ोर उत्तर में क्या गायब है?\'**.', '**माइक्रो-लेखन:** पूरे चित्रण के बजाय, केवल **एक प्रसंग पर एक पैराग्राफ** लिखने को कहें, सख्त शब्द-सीमा (50 शब्द) में।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_02_005', difficulty: 'standard',
-          question: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो मुख्य पात्र.',
-          hint: 'Review "नायक का संघर्ष और चरित्र-परिवर्तन" from node c11_hin_ar_cbse_02_004.',
-          misconception: '**Exact error:** Students equate "सहायक पात्र" (supporting character) with "कम महत्वपूर्ण पात्र" (less important.',
+          question: '\'फेंकू उल्हनिहु\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे.',
+          hint: 'Review the protagonist\'s three defining scenes: the name-giving episode (refusing clerk\'s.',
+          misconception: 'Students treat supporting characters as "background information" and list their actions (he asked for name, she made.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो मुख्य पात्र (नायक/नायिका) के',
-                  options: ['सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो मुख्य पात्र (नायक/नायिका) के', 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल', 'कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता है, जबकि', '**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल (कब),'],
-                  hint: 'Review "नायक का संघर्ष और चरित्र-परिवर्तन" from node c11_hin_ar_cbse_02_004 — specifically the PEEL.',
-                  misconception: '**Exact error:** Students equate "सहायक पात्र" (supporting character) with "कम महत्वपूर्ण पात्र" (less important character) and therefore.' }
+                { id: 'a', prompt: 'List three supporting characters from \'Fe;k¡ ulh#íhu\' and state their primary narrative role in one sentence each.', answer: 'Correct answer: (1) ckn\'kkg lyker',
+                  options: ['Correct answer: (1) ckn\'kkg lyker', 'what the character does', 'what the character REPRESENTS', 'ge Hkêòh cukuk u lh[krs'],
+                  hint: 'Review the protagonist\'s three defining scenes: the name-giving episode (refusing clerk\'s.',
+                  misconception: 'Students treat supporting characters as "background information" and list their actions (he asked for name, she made tea, he wrote report).' },
+                { id: 'b', prompt: 'Explain how the clerk (ckn\'kkg lyker) and the woman (flj fgykuk) differently represent the modern bureaucratic world\'s challenge to the tailor\'s oral identity.', answer: 'Correct answer: The clerk represents institutional power',
+                  options: ['Correct answer: The clerk represents institutional power', 'villains', 'what the character does', 'what the character REPRESENTS'],
+                  hint: 'Review the protagonist\'s three defining scenes: the name-giving episode (refusing clerk\'s.',
+                  misconception: 'Students treat supporting characters as "background information" and list their actions (he asked for name, she made tea, he wrote report).' },
+                { id: 'c', prompt: 'The journalist (v[kckjuohl) asks the tailor for a "new angle" (ubZ ph"k) on his life.', answer: 'Correct answer: The tailor would reject being made into a "story" or "angle"',
+                  options: ['Correct answer: The tailor would reject being made into a "story" or "angle"', 'what the character does', 'what the character REPRESENTS', 'ge Hkêòh cukuk u lh[krs'],
+                  hint: 'Review the protagonist\'s three defining scenes: the name-giving episode (refusing clerk\'s.',
+                  misconception: 'Students treat supporting characters as "background information" and list their actions (he asked for name, she made tea, he wrote report).' }
           ],
-            remediations: { 'exact-error-students-equate-supporting': { steps: ['**Step 1 — Reframe:** Tell the student: "Forget \'important/unimportant\'.', 'Ask: *If I delete this character from the story, which specific scene collapses or changes meaning?*" 2.', '**Step 2 — Map Functions:** Give a 3-column table: Character | Action/Dialogue | Effect on Protagonist/Plot.', 'Fill it for पंडित अलोपीदीन together.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-supporting-characters-as': { steps: ['If a student lists actions without analysis: (1) Pick ONE supporting character — say, the clerk.', '(2) Find TWO specific dialogues he speaks.', '(3) Ask: "What does this REVEAL about the tailor OR about the society the tailor lives in?" (4) Write one sentence.', 'Do not proceed until each character has a "mirror statement" backed by a quote.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_02_005', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students treat supporting characters as "background information" and list their actions (he asked for name, she made.',
+          parts: [
+                { id: 'a', prompt: 'Write a 4-line dialogue between the tailor (fe;k¡ ulh#íhu) and a NEW supporting character — a young village schoolteacher — that reveals the tailor\'s.', answer: 'Criteria for a strong answer: (1) Teacher speaks from institutional knowledge',
+                  options: ['Criteria for a strong answer: (1) Teacher speaks from institutional knowledge', 'what the character does', 'what the character REPRESENTS', 'ge Hkêòh cukuk u lh[krs'],
+                  hint: 'Review the protagonist\'s three defining scenes: the name-giving episode (refusing clerk\'s.',
+                  misconception: 'Students treat supporting characters as "background information" and list their actions (he asked for name, she made tea, he wrote report).' }
+          ],
+            remediations: { 'students-treat-supporting-characters-as': { steps: ['If a student lists actions without analysis: (1) Pick ONE supporting character — say, the clerk.', '(2) Find TWO specific dialogues he speaks.', '(3) Ask: "What does this REVEAL about the tailor OR about the society the tailor lives in?" (4) Write one sentence.', 'Do not proceed until each character has a "mirror statement" backed by a quote.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_02_006', difficulty: 'standard',
-          question: '\'मुख्य विषय\' (Central Theme) किसी रचना का वह केंद्रीय विचार, दर्शन या.',
-          hint: 'यदि अटके तो **c11_hin_ar_cbse_02_004 (नायक पात्र-चित्रण)** और **c11_hin_ar_cbse_02_002.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि \'मुख्य विषय\' पाठ में **स्पष्ट शब्दों में लिखा होता है** (जैसे कोई नैतिक शिक्षा.',
+          question: '\'फेंकू उल्हनिहु\' का मुख्य विषय — \'फेंकू उल्हनिहु\' का केंद्रीय भाव और संदेश',
+          hint: 'Review the difference between subject and theme using a परिचित fable (e.g., "The Tortoise.',
+          misconception: 'Students often think the primary theme is "respect for elders" or "importance of education" because these are परिचित.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'मुख्य विषय\' (Central Theme) किसी रचना का वह केंद्रीय विचार, दर्शन या सार्वभौमिक सत्य है',
-                  options: ['\'मुख्य विषय\' (Central Theme) किसी रचना का वह केंद्रीय विचार, दर्शन या सार्वभौमिक सत्य है', 'पृष्ठभूमि और रचनाकार परिचय (Context and Author Introduction) वह साहित्यिक विश्लेषण कौशल', 'कथानक (Plot) घटनाओं का तार्किक और कारण-परिणाम क्रम है जो कहानी का कंकाल बनाता है, जबकि', '**पाठ्य-परिवेश (Setting)** कथानक की भौतिक पृष्ठभूमि है जिसमें स्थान (जहाँ), काल (कब),'],
-                  hint: 'यदि अटके तो **c11_hin_ar_cbse_02_004 (नायक पात्र-चित्रण)** और **c11_hin_ar_cbse_02_002 (कथानक.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि \'मुख्य विषय\' पाठ में **स्पष्ट शब्दों में लिखा होता है** (जैसे कोई नैतिक शिक्षा: "सदा सत्य बोलो").' }
+                { id: 'a', prompt: 'Apply the concept of \'theme vs. subject\' to this story: state the subject and then the primary theme in one sentence each.', answer: 'Subject: The encounter between a literate teacher and an illiterate potter',
+                  options: ['Subject: The encounter between a literate teacher and an illiterate potter', 'We should respect elders', 'respect for elders', 'importance of education'],
+                  hint: 'Review the difference between subject and theme using a परिचित fable (e.g., "The Tortoise and the.',
+                  misconception: 'Students often think the primary theme is "respect for elders" or "importance of education" because these are परिचित moral lessons.' },
+                { id: 'b', prompt: 'Analyze how the author uses the recurring motif of \'hands\' (Phool Ulaghu\'s clay-stained hands vs. the teacher\'s pen-holding hands) to develop the primary theme.', answer: 'The clay-stained hands symbolize practical, embodied knowledge',
+                  options: ['The clay-stained hands symbolize practical, embodied knowledge', 'respect for elders', 'importance of education'],
+                  hint: 'Review the difference between subject and theme using a परिचित fable (e.g., "The Tortoise and the.',
+                  misconception: 'Students often think the primary theme is "respect for elders" or "importance of education" because these are परिचित moral lessons.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**माइक्रो-टास्क:** पाठ के 5 मुख्य संवाद चुनें; प्रत्येक के लिए लिखें — "पात्र ने क्या कहा" बनाम "पात्र ने क्या अभिप्रेत.', '**पैटर्न खोज:** उन 5 संवादों में कौन-सा **आवर्ती तनाव** (Recurring Tension) है?', '(जैसे: कर्तव्य बनाम इच्छा, व्यक्ति बनाम समाज, सत्य बनाम छल)।<br>3.', '**विषय निर्माण:** उस तनाव को एक **सार्वभौमिक कथन** में बदलें (जैसे: "व्यक्ति जब सामाजिक अपेक्षाओं और निजी सत्य के बीच.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'the-primary-theme-is-respect': { steps: ['If a student states a generic moral, ask them to list three moments where the teacher learns something from Phool.', 'Then have them write a one-sentence theme that includes both directions of learning.', 'Finally, have them compare their sentence with the definition of primary theme to see if it captures the central.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

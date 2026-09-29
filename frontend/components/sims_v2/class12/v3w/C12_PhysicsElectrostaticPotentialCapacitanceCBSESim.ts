@@ -6,13 +6,13 @@ import C12_PhysicsElectrostaticPotentialCapacitanceCBSESim from '../../../simula
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicselectrostaticpotentialcapacitancecbsesim: SimDef = {
     id: 'v3w_c12_physicselectrostaticpotentialcapacitancecbsesim',
-    title: 'Electrostatic Potential Capacitance CBSE',
+    title: 'Conductors and Insulators: Charge Distribution',
     subtitle: 'Covers electrostatic properties of conductors (field inside, surface field, potential.',
     classLevel: 12, subject: 'physics', topic: 'Conductors and Insulators: Charge Distribution',
     chapters: [],
     nodeIds: ['c12_phy_cbse_02_007', 'c12_phy_cbse_02_012', 'c12_phy_cbse_02_008', 'c12_phy_cbse_02_009', 'c12_phy_cbse_02_010', 'c12_phy_cbse_02_011', 'c12_phy_cbse_02_001', 'c12_phy_cbse_02_002', 'c12_phy_cbse_02_003', 'c12_phy_cbse_02_004', 'c12_phy_cbse_02_005', 'c12_phy_cbse_02_006', 'c12_phy_cbse_02_013', 'c12_phy_cbse_05_001', 'c12_phy_cbse_05_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine touching a metal car door after sliding across the seat on a dry day — you feel a spark.', goal: 'Master Electrostatic Potential Capacitance CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine touching a metal car door after sliding across the seat on a dry day — you feel a spark.', goal: 'Master Conductors and Insulators: Charge Distribution.' },
     discovery: {
         question: 'State the value of the electrostatic electric field inside a conductor in static equilibrium and give the physical reason in one sentence.',
         options: ['The electric field inside a conductor in electrostatic equilibrium is zero', 'E is non-zero but small', 'reduce'],
@@ -84,7 +84,7 @@ export const w_c12_physicselectrostaticpotentialcapacitancecbsesim: SimDef = {
             { text: 'Voltage across C₁: V₁ = Q/C₁ = 576 μC / 4 μF = 144 V. Voltage across C₂: V₂ = Q/C₂ = 576 μC / 6 μF = 96 V.', faded: true, blankAnswer: '(a) C_eq = 14.4 μF, (b) Q₁ = Q₂ = 576 μC, Q₃ = 2880 μC, (c).' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_02_012', title: 'Identify each idea',
-          dissect: { specimen: 'Electrostatic Potential Capacitance CBSE', spots: [
+          dissect: { specimen: 'Conductors and Insulators: Charge Distribution', spots: [
             { id: 's1', label: 'In electrostatic equilibrium a conductor', prompt: 'Which idea is this? — In electrostatic equilibrium, a **conductor** is a material containing mobile charge.', answer: 'In electrostatic equilibrium a conductor', options: ['In electrostatic equilibrium a conductor', 'Energy stored in a capacitor', 'A dielectric is an insulating', 'A capacitor is a system'] },
             { id: 's2', label: 'Energy stored in a capacitor', prompt: 'Which idea is this? — Energy stored in a capacitor is the electrostatic potential energy accumulated when work.', answer: 'Energy stored in a capacitor', options: ['Energy stored in a capacitor', 'In electrostatic equilibrium a conductor', 'A dielectric is an insulating', 'A capacitor is a system'] },
             { id: 's3', label: 'A dielectric is an insulating', prompt: 'Which idea is this? — A dielectric is an insulating material with no free charge carriers that, when placed in.', answer: 'A dielectric is an insulating', options: ['A dielectric is an insulating', 'In electrostatic equilibrium a conductor', 'Energy stored in a capacitor', 'A capacitor is a system'] },
@@ -93,7 +93,7 @@ export const w_c12_physicselectrostaticpotentialcapacitancecbsesim: SimDef = {
             { id: 's6', label: 'The equivalent capacitance of a', prompt: 'Which idea is this? — The equivalent capacitance of a combination of capacitors is the single capacitance that.', answer: 'The equivalent capacitance of a', options: ['The equivalent capacitance of a', 'In electrostatic equilibrium a conductor', 'Energy stored in a capacitor', 'A dielectric is an insulating'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsElectrostaticPotentialCapacitanceCBSESim, prompt: 'Explore the interactive — Electrostatic Potential Capacitance CBSE' },
+    explore: { component: C12_PhysicsElectrostaticPotentialCapacitanceCBSESim, prompt: 'Explore the interactive — Conductors and Insulators: Charge Distribution' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_02_007', difficulty: 'standard',
           question: 'In electrostatic equilibrium, a **conductor** is a material containing mobile.',

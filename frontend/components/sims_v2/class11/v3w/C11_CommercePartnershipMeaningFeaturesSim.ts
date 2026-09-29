@@ -6,13 +6,13 @@ import C11_CommercePartnershipMeaningFeaturesSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_commercepartnershipmeaningfeaturessim: SimDef = {
     id: 'v3w_c11_commercepartnershipmeaningfeaturessim',
-    title: 'Partnership Meaning Features',
+    title: 'Partnership: Meaning, Features and Types',
     subtitle: 'This node covers the meaning, essential features, and classification of partnerships (by.',
     classLevel: 11, subject: 'business_studies', topic: 'Partnership: Meaning, Features and Types',
     chapters: [],
     nodeIds: ['c11_bs_cbse_02_003', 'c11_bs_cbse_03_001', 'c11_bs_cbse_03_007', 'c11_bs_cbse_02_002', 'c11_bs_cbse_02_008', 'c11_bs_cbse_02_011', 'c11_bs_cbse_02_004', 'c11_bs_cbse_02_005', 'c11_bs_cbse_02_006', 'c11_bs_cbse_02_010', 'c11_bs_cbse_03_005', 'c11_bs_cbse_08_001', 'c11_bs_cbse_08_006', 'c11_bs_cbse_10_003', 'c11_bs_cbse_05_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine two friends, Priya and Rohan, want to start a bakery together.', goal: 'Master Partnership Meaning Features.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine two friends, Priya and Rohan, want to start a bakery together.', goal: 'Master Partnership: Meaning, Features and Types.' },
     discovery: {
         question: 'Two classmates, Aisha and Vikram, agree to buy and sell used textbooks online. They split profits equally but have no written agreement.',
         options: ['Yes, Aisha is liable for the full debt', 'Aisha isn\'t liable', 'registration creates a partnership'],
@@ -82,7 +82,7 @@ export const w_c11_commercepartnershipmeaningfeaturessim: SimDef = {
             { text: 'Conclude: Private Limited Company better meets all stated requirements despite higher initial formality.', faded: true, blankAnswer: 'Private Limited Company is the better option. It satisfies.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bs_cbse_03_001', title: 'Identify each idea',
-          dissect: { specimen: 'Partnership Meaning Features', spots: [
+          dissect: { specimen: 'Partnership: Meaning, Features and Types', spots: [
             { id: 's1', label: 'Partnership is a form of', prompt: 'Which idea is this? — Partnership is a form of business organisation defined under the Indian Partnership Act,.', answer: 'Partnership is a form of', options: ['Partnership is a form of', 'The private sector comprises business', 'A joint venture is a', 'Joint Hindu Family Business is'] },
             { id: 's2', label: 'The private sector comprises business', prompt: 'Which idea is this? — The private sector comprises business enterprises owned, controlled, and managed by.', answer: 'The private sector comprises business', options: ['The private sector comprises business', 'Partnership is a form of', 'A joint venture is a', 'Joint Hindu Family Business is'] },
             { id: 's3', label: 'A joint venture is a', prompt: 'Which idea is this? — A joint venture is a strategic alliance where two or more independent business entities.', answer: 'A joint venture is a', options: ['A joint venture is a', 'Partnership is a form of', 'The private sector comprises business', 'Joint Hindu Family Business is'] },
@@ -91,7 +91,7 @@ export const w_c11_commercepartnershipmeaningfeaturessim: SimDef = {
             { id: 's6', label: 'Distinction between Forms of Business', prompt: 'Which idea is this? — Distinction between Forms of Business Organisation refers to the systematic comparison of.', answer: 'Distinction between Forms of Business', options: ['Distinction between Forms of Business', 'Partnership is a form of', 'The private sector comprises business', 'A joint venture is a'] }
           ] } }
     ],
-    explore: { component: C11_CommercePartnershipMeaningFeaturesSim, prompt: 'Explore the interactive — Partnership Meaning Features' },
+    explore: { component: C11_CommercePartnershipMeaningFeaturesSim, prompt: 'Explore the interactive — Partnership: Meaning, Features and Types' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bs_cbse_02_003', difficulty: 'standard',
           question: 'Partnership is a form of business organisation defined under the Indian.',

@@ -9,15 +9,13 @@ import type { SimDef } from '../engine/types';
 export const C12_PS_GEN: SimDef[] = [
  {
   "id": "gen_c12_ps_ch01",
-  "title": "NATO And",
+  "title": "NATO",
   "subtitle": "Physical Education · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "physical education",
-  "topic": "NATO And",
-  "chapters": [
-   "Physical Education Ch1: NATO And"
-  ],
+  "topic": "NATO",
+  "chapters": ["Physical Education Ch1: NATO"],
   "nodeIds": [
    "c12_ps_cbse_01_003",
    "c12_ps_cbse_01_007",
@@ -30,7 +28,7 @@ export const C12_PS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is NATO And more about facts, or about reasoning?",
+   "question": "Is NATO more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -41,13 +39,13 @@ export const C12_PS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "NATO And",
+    "title": "NATO",
     "text": "NATO (North Atlantic Treaty Organization) and the Warsaw Pact were the two opposing military alliances that formalized the bipolar division of Europe during the Cold War.",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Korean War Was a",
+    "title": "Korean War",
     "text": "The Korean War (1950–1953) was a military conflict between North Korea (Democratic People's Republic of Korea), supported by the Soviet Union and China, and South Korea (Republic of Korea), supported by a United Nations coalition led by the United States,",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -176,7 +174,7 @@ export const C12_PS_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "NATO And mastered! 🎯",
+  "successLine": "NATO mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
@@ -274,7 +272,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "India's Response To The Disintegration Of",
+    "title": "India's Response to the Disintegration",
     "text": "India's response to the disintegration of the Soviet Union (1991) refers to the strategic, diplomatic, and economic recalibration of Indian foreign policy following the collapse of its principal Cold War ally, marked by swift recognition of successor states,",
     "emoji": "🏃",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -906,7 +904,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "US Invasion Of Afghanistan (Operation",
+    "title": "US Invasion Of Afghanistan",
     "text": "The US invasion of Afghanistan (Operation Enduring Freedom, October 2001) was a military intervention launched by the United States and its NATO allies in response to the 9/11 attacks, targeting the Taliban regime that harbored Al-Qaeda and aimed to dismantle",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
@@ -936,7 +934,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Constraints On US Hegemony Refer To",
+    "title": "Constraints On US Hegemony",
     "text": "Constraints on US hegemony refer to the internal and external limitations that restrict the United States' ability to unilaterally dominate global politics, including domestic public opinion that opposes military interventions, institutional checks within the",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1584,7 +1582,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "\"Rise Of China As An Economic Power After",
+    "title": "Rise of China as an Economic Power after",
     "text": "The \"Rise of China as an Economic Power after 1978 Reforms\" refers to the transformative process initiated by Deng Xiaoping in December 1978, shifting China from a centrally planned, closed economy to a \"socialist market economy\" through gradual market",
     "emoji": "🏃",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2303,7 +2301,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "India-Pakistan Conflicts Refer To a",
+    "title": "India-Pakistan Conflicts",
     "text": "The India-Pakistan conflicts refer to a series of military confrontations and diplomatic crises between the two nations since 1947, primarily centered on the disputed territory of Jammu and Kashmir.",
     "emoji": "🏃",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2339,7 +2337,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "This Node Examines The Trajectories Of",
+    "title": "This Node Examines The Trajectories",
     "text": "This node examines the trajectories of democracy in Pakistan and Bangladesh, focusing on the recurring military interventions in Pakistan (1958, 1969, 1977, 1999) and Bangladesh (1975, 1982, 2007) that disrupted democratic governance, the structural reasons",
     "emoji": "🏃",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -4000,15 +3998,13 @@ export const C12_PS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_ps_ch07",
-  "title": "Traditional Notions Of Security Refer To",
+  "title": "Traditional Notions Of Security",
   "subtitle": "Physical Education · Chapter 7",
   "classLevel": 12,
   "mode": "senior",
   "subject": "physical education",
-  "topic": "Traditional Notions Of Security Refer To",
-  "chapters": [
-   "Physical Education Ch7: Traditional Notions Of Security Refer To"
-  ],
+  "topic": "Traditional Notions Of Security",
+  "chapters": ["Physical Education Ch7: Traditional Notions Of Security"],
   "nodeIds": [
    "c12_ps_cbse_07_001",
    "c12_ps_cbse_07_002",
@@ -4039,7 +4035,7 @@ export const C12_PS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Traditional Notions Of Security Refer To",
+    "title": "Traditional Notions Of Security",
     "text": "Traditional notions of security refer to the conventional state-centric understanding that defines security primarily in terms of protecting the sovereignty, territorial integrity, and political independence of the state from military threats, with the state",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4051,7 +4047,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Non-traditional Security Threats Refer To",
+    "title": "Non-Traditional Security Threats:",
     "text": "Non-traditional security threats refer to challenges to survival and well-being that arise primarily from non-military sources — such as climate change, pandemics, terrorism, transnational crime, poverty, and human rights violations — and require cooperative,",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4665,7 +4661,7 @@ export const C12_PS_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Traditional Notions Of mastered! 🎯",
+  "successLine": "Traditional Notions mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -5589,7 +5585,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "The Mahalanobis Model, Formulated By",
+    "title": "Second Five Year Plan and the Mahalanobis",
     "text": "The Mahalanobis Model, formulated by statistician P.C. Mahalanobis for India's Second Five Year Plan (1956–61), is a closed-economy, two-sector growth strategy that prioritises investment in the capital goods sector (heavy industry: steel, machinery, machine",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
@@ -5613,13 +5609,13 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Land Reforms In India Refer To",
+    "title": "Land Reforms In India",
     "text": "Land reforms in India refer to the comprehensive set of legislative and policy measures undertaken by state governments (guided by central planning priorities) from the 1950s onward to restructure agrarian property relations.",
     "emoji": "🏃",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Bombay Plan Was a",
+    "title": "Bombay Plan",
     "text": "The Bombay Plan (1944) was a proposal by leading Indian industrialists (including J.R.D. Tata, G.D. Birla, and others) advocating for a state-led planned economy with massive public investment in heavy industries, infrastructure, and social services.",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
@@ -6209,15 +6205,13 @@ export const C12_PS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_ps_ch11",
-  "title": "Nehru's Foreign Policy Was a",
+  "title": "Nehru's Foreign Policy",
   "subtitle": "Physical Education · Chapter 11",
   "classLevel": 12,
   "mode": "senior",
   "subject": "physical education",
-  "topic": "Nehru's Foreign Policy Was a",
-  "chapters": [
-   "Physical Education Ch11: Nehru's Foreign Policy Was a"
-  ],
+  "topic": "Nehru's Foreign Policy",
+  "chapters": ["Physical Education Ch11: Nehru's Foreign Policy"],
   "nodeIds": [
    "c12_ps_cbse_11_001",
    "c12_ps_cbse_11_002",
@@ -6237,7 +6231,7 @@ export const C12_PS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Nehru's Foreign Policy Was a suddenly stops working?",
+   "question": "What happens if Nehru's Foreign Policy suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -6248,7 +6242,7 @@ export const C12_PS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Nehru's Foreign Policy Was a",
+    "title": "Nehru's Foreign Policy",
     "text": "Nehru's foreign policy (1946–1964) was a strategic framework built on three core objectives — preserving hard‑earned sovereignty, protecting territorial integrity, and promoting rapid economic development — pursued through the principle of non‑alignment,",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -6266,7 +6260,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "India-Pakistan Wars Of 1965 And",
+    "title": "India-Pakistan Wars Of 1965",
     "text": "The India-Pakistan wars of 1965 and 1971 were two major military conflicts rooted in the unresolved Kashmir dispute and Pakistan's internal political crises, respectively.",
     "emoji": "🏃",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -6296,13 +6290,13 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Shift In India's Foreign Policy After The",
+    "title": "Shifts in India's Foreign Policy after",
     "text": "The shift in India's foreign policy after the Cold War refers to the strategic reorientation from a rigid non-alignment posture (1947-1991) to a pragmatic multi-alignment strategy characterised by deepening ties with the United States, maintaining the",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "India's Policy Towards The Global South And",
+    "title": "India's Policy towards the Global South",
     "text": "India's Policy towards the Global South and Decolonisation refers to the foreign policy framework through which India, under Nehru's leadership, championed the political and economic aspirations of newly independent Asian and African nations, opposed",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
@@ -6898,7 +6892,7 @@ export const C12_PS_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Nehru's Foreign Policy Was a mastered! 🎯",
+  "successLine": "Nehru's Foreign Policy mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -6949,7 +6943,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Chipko Movement Was a",
+    "title": "Chipko Movement",
     "text": "The Chipko Movement (1973–1981) was a non-violent, grassroots environmental movement in the Himalayan region of Uttarakhand (then Uttar Pradesh) where local villagers, predominantly women, embraced trees (\"chipko\" means \"to hug\" in Hindi) to prevent",
     "emoji": "🏃",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -6967,7 +6961,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Anti-Arrack Movement Was a",
+    "title": "Anti-Arrack Movement",
     "text": "The Anti-Arrack Movement (1992–1995) was a spontaneous, non-party mass mobilisation of rural women in Andhra Pradesh demanding prohibition on the sale of arrack (a cheap, locally distilled liquor), which had devastated household economies, fuelled domestic",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
@@ -6979,19 +6973,19 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Women's Movements In India Refer To",
+    "title": "Women's Movements In India",
     "text": "Women's movements in India refer to organized collective actions by women and their allies to challenge gender-based inequalities, secure legal and constitutional rights, and transform patriarchal structures across social, economic, and political spheres.",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Environmental Movements And The Politics Of",
+    "title": "Environmental Movements and the Politics",
     "text": "Environmental Movements and the Politics of Development refers to the contested terrain where grassroots ecological struggles challenge the state's top-down development paradigm, exposing how large-scale infrastructure projects (dams, mining, industries)",
     "emoji": "🏃",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Relationship Between Popular Movements And",
+    "title": "The Relationship between Popular Movements",
     "text": "The relationship between popular movements and political parties refers to the dynamic interplay where social movements (organized collective actions by citizens around specific issues) engage with, influence, pressure, or remain autonomous from formal",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
@@ -8044,7 +8038,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Mandal Commission (Second Backward Classes",
+    "title": "Mandal Commission",
     "text": "The Mandal Commission (Second Backward Classes Commission, 1978) recommended 27% reservation for Other Backward Classes (OBCs) in central government jobs and public sector undertakings; its implementation by the V.",
     "emoji": "🏃",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -8080,7 +8074,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "India In The New Global Order After The",
+    "title": "India in the New Global Order after",
     "text": "India in the New Global Order after the Cold War refers to the fundamental reorientation of India's foreign policy and global engagement following the dissolution of the Soviet Union in 1991, characterized by economic liberalization, strategic",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"

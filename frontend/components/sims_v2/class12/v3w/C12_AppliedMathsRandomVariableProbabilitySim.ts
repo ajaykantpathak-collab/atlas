@@ -6,13 +6,13 @@ import C12_AppliedMathsRandomVariableProbabilitySim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_appliedmathsrandomvariableprobabilitysim: SimDef = {
     id: 'v3w_c12_appliedmathsrandomvariableprobabilitysim',
-    title: 'Applied Maths Random Variable Probability',
+    title: 'Random Variables and Probability Distribution',
     subtitle: 'This node covers discrete random variables and their probability distributions only.',
     classLevel: 12, subject: 'science', topic: 'Random Variables and Probability Distribution',
     chapters: [],
     nodeIds: ['c12_math_cbse_13_007', 'c12_math_cbse_13_008', 'c12_math_cbse_13_004', 'c12_math_cbse_13_005', 'c12_math_cbse_13_009', 'c12_math_cbse_13_010', 'c12_math_cbse_13_001', 'c12_math_cbse_13_002', 'c12_math_cbse_13_003', 'c12_math_cbse_13_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are at a Diwali mela playing a game: you draw two cards without replacement from a well-shuffled.', goal: 'Master Applied Maths Random Variable Probability.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are at a Diwali mela playing a game: you draw two cards without replacement from a well-shuffled.', goal: 'Master Random Variables and Probability Distribution.' },
     discovery: {
         question: 'A student argues: "If two events are independent, they cannot happen together, so \\( P(E \\cap F) = 0 \\)." Is this correct?',
         options: ['**Correct answer:** The student is incorrect', 'independent', 'mutually exclusive'],
@@ -79,7 +79,7 @@ export const w_c12_appliedmathsrandomvariableprobabilitysim: SimDef = {
             { text: 'Mean \\(\\mu = np = 20 \\times 0.25 = 5\\). Variance \\(\\sigma^2 = npq = 20 \\times 0.25 \\times 0.75 = 3.75\\).', faded: true, blankAnswer: '\\(P(X=5) \\approx 0.2023\\); Expected correct answers = 5;.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_13_008', title: 'Identify each idea',
-          dissect: { specimen: 'Applied Maths Random Variable Probability', spots: [
+          dissect: { specimen: 'Random Variables and Probability Distribution', spots: [
             { id: 's1', label: 'A random variable is a', prompt: 'Which idea is this? — A random variable is a real-valued function whose domain is the sample space of a random.', answer: 'A random variable is a', options: ['A random variable is a', 'The mean or expected value', 'Two events E and F', 'Bayes Theorem provides a way'] },
             { id: 's2', label: 'The mean or expected value', prompt: 'Which idea is this? — The mean (or expected value) of a discrete random variable X is the weighted average of.', answer: 'The mean or expected value', options: ['The mean or expected value', 'A random variable is a', 'Two events E and F', 'Bayes Theorem provides a way'] },
             { id: 's3', label: 'Two events E and F', prompt: 'Which idea is this? — Two events E and F associated with the same random experiment are said to be.', answer: 'Two events E and F', options: ['Two events E and F', 'A random variable is a', 'The mean or expected value', 'Bayes Theorem provides a way'] },
@@ -88,7 +88,7 @@ export const w_c12_appliedmathsrandomvariableprobabilitysim: SimDef = {
             { id: 's6', label: 'A Bernoulli trial is a', prompt: 'Which idea is this? — A Bernoulli trial is a random experiment with exactly two possible outcomes — "success".', answer: 'A Bernoulli trial is a', options: ['A Bernoulli trial is a', 'A random variable is a', 'The mean or expected value', 'Two events E and F'] }
           ] } }
     ],
-    explore: { component: C12_AppliedMathsRandomVariableProbabilitySim, prompt: 'Explore the interactive — Applied Maths Random Variable Probability' },
+    explore: { component: C12_AppliedMathsRandomVariableProbabilitySim, prompt: 'Explore the interactive — Random Variables and Probability Distribution' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_13_007', difficulty: 'standard',
           question: 'A random variable is a real-valued function whose domain is the sample space of.',

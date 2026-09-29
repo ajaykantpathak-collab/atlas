@@ -6,13 +6,13 @@ import C6_HistoryCivicsAshokasConversionBuddhismSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_historycivicsashokasconversionbuddhismsim: SimDef = {
     id: 'v3w_c6_historycivicsashokasconversionbuddhismsim',
-    title: 'Ashokas Conversion Buddhism',
+    title: 'The Spread of Buddhism Under Ashoka',
     subtitle: 'This node covers the methods of expansion (edicts, stupas, missionaries) and the.',
     classLevel: 6, subject: 'history', topic: 'The Spread of Buddhism Under Ashoka',
     chapters: [],
     nodeIds: ['c6_history_ch05_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you have a great idea for a community project, but only a few people know about it.', goal: 'Master Ashokas Conversion Buddhism.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you have a great idea for a community project, but only a few people know about it.', goal: 'Master The Spread of Buddhism Under Ashoka.' },
     discovery: {
         question: 'If Ashoka wanted to reach people who could not read, which of his methods would be most effective?',
         options: ['He would use stupas and viharas', 'forced', 'Ashoka "forced" people to become Buddhists'],
@@ -31,7 +31,7 @@ export const w_c6_historycivicsashokasconversionbuddhismsim: SimDef = {
                 { text: 'Ashoka "forced" people to become Buddhists', outcome: 'Not quite — Students often think Ashoka "forced" people to become Buddhists.', reveals: 'ashoka-forced-people-to-become' }
             ] }] } }
     ],
-    explore: { component: C6_HistoryCivicsAshokasConversionBuddhismSim, prompt: 'Explore the interactive — Ashokas Conversion Buddhism' },
+    explore: { component: C6_HistoryCivicsAshokasConversionBuddhismSim, prompt: 'Explore the interactive — The Spread of Buddhism Under Ashoka' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_history_ch05_011', difficulty: 'standard',
           question: 'The spread of Buddhism under Ashoka refers to the transformation of a small,.',

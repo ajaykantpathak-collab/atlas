@@ -19,30 +19,30 @@ export const c11_eng_w_ch15_p3: SimDef = {
         hook: 'No narrator mediates — you\'re locked inside a consciousness that feels no guilt, and that entrapment is the poem\'s point.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in poetry analysis involves examining the poet\'s choices—such as voice, imagery, tone, and structure—to interpret deeper meanings, evaluate the speaker\'s perspective, and connect.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Hawk Roosting\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_15_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Track the stanza openings from \'I sit\' to \'Nothing has changed,\' and test whether the rigid quatrains are decoration or the cage the argument builds.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_15_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are watching a nature documentary where a hawk perches high on a tree, absolutely still, surveying everything below.',
+          caseStudy: { intro: 'Analyse \'Hawk Roosting\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the primary narrative perspective used in "Hawk Roosting," and why is it significant for the poem\'s meaning?', options: [
                 { text: 'The poem uses a first-person monologue spoken by the hawk itself', outcome: 'The poem uses a first-person monologue spoken by the hawk itself.' },
                 { text: 'third-person description', outcome: 'Not quite — Students often think the poem *celebrates* the hawk\'s power because the hawk speaks confidently and.', reveals: 'the-poem-celebrates-the-hawk' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_15_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and the question reads: "‘There is no sophistry in my body’—this statement expresses the brutal frankness of the hawk.',
+          caseStudy: { intro: 'For written answers on \'Hawk Roosting\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing analytical answers for literature?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explain, Conclusion', outcome: 'Not quite — Students believe that "writing skills" for poetry means summarising the poem stanza by stanza.', reveals: 'writing-skills-for-poetry-means' },
                 { text: 'writing skills', outcome: 'Not quite — Students believe that "writing skills" for poetry means summarising the poem stanza by stanza.', reveals: 'writing-skills-for-poetry-means' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_15_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a literature circle where everyone has read "Hawk Roosting" but no one wants to speak first.',
+          caseStudy: { intro: 'Talk through \'Hawk Roosting\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the literal meaning of "sophistry" in the line "There is no sophistry in my body," and how does the hawk\'s rejection of.', options: [
                 { text: 'Sophistry means clever but false reasoning used to deceive', outcome: 'Sophistry means clever but false reasoning used to deceive. The hawk rejects it because it operates.' },
                 { text: 'sophistry means weakness', outcome: 'Not quite — Students often treat the hawk as a simple symbol of "evil" or "nature\'s cruelty," missing that.', reveals: 'students-often-treat-the-hawk' },
@@ -62,12 +62,12 @@ export const c11_eng_w_ch15_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_15_013', difficulty: 'standard',
-          question: 'Critical thinking in poetry analysis involves examining the poet\'s choices—such.',
+          question: 'Critical thinking on \'Hawk Roosting\' — analysing the text to reach.',
           hint: 'Review the difference between the *speaker* (the hawk) and the *poet* (Ted Hughes) using.',
           misconception: 'Students often think the poem *celebrates* the hawk\'s power because the hawk speaks confidently and the imagery.',
           parts: [
@@ -84,9 +84,9 @@ export const c11_eng_w_ch15_p3: SimDef = {
                   hint: 'Review the difference between the *speaker* (the hawk) and the *poet* (Ted Hughes) using the notes.',
                   misconception: 'Students often think the poem *celebrates* the hawk\'s power because the hawk speaks confidently and the imagery is majestic.' }
           ],
-            remediations: { 'the-poem-celebrates-the-hawk': { steps: ['Re-read the poem aloud, marking every word that reveals the hawk\'s *attitude* (e.g., "convenience," "advantage,".', 'Ask: "Would the poet agree with this speaker?', 'What clues suggest distance?" 3.', 'Compare with Hughes\'s other animal poems (e.g., "The Jaguar") where animals are not given such god-like voices.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-poem-celebrates-the-hawk': { steps: ['Re-read the poem aloud, marking every word that reveals the hawk\'s *attitude* (e.g., "convenience," "advantage,".', 'Ask: "Would the poet agree with this speaker?', 'What clues suggest distance?" 3.', 'Compare with Hughes\'s other animal poems (e.g., "The Jaguar") where animals are not given such god-like voices.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_15_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter "Hawk Roosting" refer to the ability.',
+          question: 'Writing skills from \'Hawk Roosting\' — using the text as a model or springboard.',
           hint: 'If stuck, return to c11_eng_w_cbse_15_008 (Imagery and Metaphor) and.',
           misconception: 'Students believe that "writing skills" for poetry means summarising the poem stanza by stanza or listing poetic devices.',
           parts: [
@@ -95,7 +95,7 @@ export const c11_eng_w_ch15_p3: SimDef = {
                   hint: 'If stuck, return to c11_eng_w_cbse_15_008 (Imagery and Metaphor) and c11_eng_w_cbse_15_009 (Irony.',
                   misconception: 'Students believe that "writing skills" for poetry means summarising the poem stanza by stanza or listing poetic devices (simile, metaphor.' }
           ],
-            remediations: { 'writing-skills-for-poetry-means': { steps: ['If a student produces a device-list answer, do not simply say "add explanation".', 'Instead: 1) Highlight one device in their answer (e.g., "hold Creation in my foot").', '2) Ask: "What does \'Creation\' represent here?', 'Why \'foot\' not \'claw\'?" 3) Guide them to articulate: "It suggests the hawk possesses the entire evolutionary history.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-for-poetry-means': { steps: ['If a student produces a device-list answer, do not simply say "add explanation".', 'Instead: 1) Highlight one device in their answer (e.g., "hold Creation in my foot").', '2) Ask: "What does \'Creation\' represent here?', 'Why \'foot\' not \'claw\'?" 3) Guide them to articulate: "It suggests the hawk possesses the entire evolutionary history.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_15_014', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -106,9 +106,9 @@ export const c11_eng_w_ch15_p3: SimDef = {
                   hint: 'If stuck, return to c11_eng_w_cbse_15_008 (Imagery and Metaphor) and c11_eng_w_cbse_15_009 (Irony.',
                   misconception: 'Students believe that "writing skills" for poetry means summarising the poem stanza by stanza or listing poetic devices (simile, metaphor.' }
           ],
-            remediations: { 'writing-skills-for-poetry-means': { steps: ['If a student produces a device-list answer, do not simply say "add explanation".', 'Instead: 1) Highlight one device in their answer (e.g., "hold Creation in my foot").', '2) Ask: "What does \'Creation\' represent here?', 'Why \'foot\' not \'claw\'?" 3) Guide them to articulate: "It suggests the hawk possesses the entire evolutionary history.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-for-poetry-means': { steps: ['If a student produces a device-list answer, do not simply say "add explanation".', 'Instead: 1) Highlight one device in their answer (e.g., "hold Creation in my foot").', '2) Ask: "What does \'Creation\' represent here?', 'Why \'foot\' not \'claw\'?" 3) Guide them to articulate: "It suggests the hawk possesses the entire evolutionary history.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_15_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points for "Hawk Roosting" refers to the.',
+          question: 'Discussion points on \'Hawk Roosting\' — speaking and listening around the text.',
           hint: 'If stuck, review the Critical Thinking node (c11_eng_w_cbse_15_013) for the "PEEL" method.',
           misconception: 'Students often treat the hawk as a simple symbol of "evil" or "nature\'s cruelty," missing that Hughes presents the.',
           parts: [
@@ -129,7 +129,7 @@ export const c11_eng_w_ch15_p3: SimDef = {
                   hint: 'If stuck, review the Critical Thinking node (c11_eng_w_cbse_15_013) for the "PEEL" method (Point.',
                   misconception: 'Students often treat the hawk as a simple symbol of "evil" or "nature\'s cruelty," missing that Hughes presents the hawk\'s perspective *from.' }
           ],
-            remediations: { 'students-often-treat-the-hawk': { steps: ['Have the student read the poem aloud three times: once for rhythm, once emphasizing every "I/my/mine," once as.', 'Give them a two-column table: left column "Hawk\'s Claim" (quote), right column "Human Equivalent" (e.g., "I hold.', 'Ask them to explain "sophistry" using a dictionary, then find one example of political sophistry in current news.', 'Finally, have them answer textbook question 6 in writing first, then discuss — writing forces precision that speaking.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-the-hawk': { steps: ['Have the student read the poem aloud three times: once for rhythm, once emphasizing every "I/my/mine," once as.', 'Give them a two-column table: left column "Hawk\'s Claim" (quote), right column "Human Equivalent" (e.g., "I hold.', 'Ask them to explain "sophistry" using a dictionary, then find one example of political sophistry in current news.', 'Finally, have them answer textbook question 6 in writing first, then discuss — writing forces precision that speaking.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

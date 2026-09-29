@@ -6,13 +6,13 @@ import C12_MathematicsMatrixMultiplicationSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicsmatrixmultiplicationsim: SimDef = {
     id: 'v3w_c12_mathematicsmatrixmultiplicationsim',
-    title: 'Matrix Multiplication',
+    title: 'Matrix: Definition and Types',
     subtitle: 'This node covers the definition of a matrix, order of a matrix, notation a_ij, and the.',
     classLevel: 12, subject: 'mathematics', topic: 'Matrix: Definition and Types',
     chapters: [],
     nodeIds: ['c12_math_cbse_03_001', 'c12_math_cbse_03_003', 'c12_math_cbse_03_004', 'c12_math_cbse_03_005', 'c12_math_cbse_03_006', 'c12_math_cbse_03_007', 'c12_math_cbse_03_008', 'c12_math_cbse_03_010', 'c12_math_cbse_04_003', 'c12_math_cbse_01_009', 'c12_math_cbse_03_002', 'c12_math_cbse_03_009', 'c12_math_cbse_03_011', 'c12_math_cbse_04_001', 'c12_math_cbse_04_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the class monitor and need to record the marks of 40 students in 5 subjects.', goal: 'Master Matrix Multiplication.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the class monitor and need to record the marks of 40 students in 5 subjects.', goal: 'Master Matrix: Definition and Types.' },
     discovery: {
         question: 'A student writes: "The matrix B = [5] is a row matrix because it has one row." Is this correct? Explain why or why not.',
         options: ['The statement is incorrect', 'only a row matrix', 'the first subscript is column and the second is row (i'],
@@ -78,7 +78,7 @@ export const w_c12_mathematicsmatrixmultiplicationsim: SimDef = {
             { text: 'Alternative order: Apply discount to order quantities? O × D_X is not defined (2×3 × 3×3 = 2×3, but that would discount.', faded: true, blankAnswer: 'Scheme X revenue: Class 12A = ₹1655, Class 12B = ₹1355..' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_03_003', title: 'Identify each idea',
-          dissect: { specimen: 'Matrix Multiplication', spots: [
+          dissect: { specimen: 'Matrix: Definition and Types', spots: [
             { id: 's1', label: 'A matrix is an ordered', prompt: 'Which idea is this? — A matrix is an ordered rectangular array of numbers or functions arranged in rows and.', answer: 'A matrix is an ordered', options: ['A matrix is an ordered', 'Two matrices A aij', 'Matrix addition is defined for', 'Matrix multiplication is a binary'] },
             { id: 's2', label: 'Two matrices A aij', prompt: 'Which idea is this? — Two matrices A = [aij] and B = [bij] are equal if and only if (i) they have the same.', answer: 'Two matrices A aij', options: ['Two matrices A aij', 'A matrix is an ordered', 'Matrix addition is defined for', 'Matrix multiplication is a binary'] },
             { id: 's3', label: 'Matrix addition is defined for', prompt: 'Which idea is this? — Matrix addition is defined for two matrices of the same order: if \\(A = [a_{ij}]_{m.', answer: 'Matrix addition is defined for', options: ['Matrix addition is defined for', 'A matrix is an ordered', 'Two matrices A aij', 'Matrix multiplication is a binary'] },
@@ -87,7 +87,7 @@ export const w_c12_mathematicsmatrixmultiplicationsim: SimDef = {
             { id: 's6', label: 'Matrix multiplication is non-commutative meaning', prompt: 'Which idea is this? — Matrix multiplication is non-commutative, meaning that for two matrices A and B where.', answer: 'Matrix multiplication is non-commutative meaning', options: ['Matrix multiplication is non-commutative meaning', 'A matrix is an ordered', 'Two matrices A aij', 'Matrix addition is defined for'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsMatrixMultiplicationSim, prompt: 'Explore the interactive — Matrix Multiplication' },
+    explore: { component: C12_MathematicsMatrixMultiplicationSim, prompt: 'Explore the interactive — Matrix: Definition and Types' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_03_001', difficulty: 'standard',
           question: 'A matrix is an ordered rectangular array of numbers or functions arranged in.',

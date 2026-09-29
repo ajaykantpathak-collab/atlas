@@ -6,13 +6,13 @@ import C12_PhysicsSingleSlitDiffractionSim from '../../../simulations/c6_12/C12_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicssingleslitdiffractionsim: SimDef = {
     id: 'v3w_c12_physicssingleslitdiffractionsim',
-    title: 'Single Slit Diffraction',
+    title: 'Young\'s Double Slit Experiment: Fringe Width',
     subtitle: 'This node covers the Young\'s double slit experiment (YDSE) geometry, derivation of fringe.',
     classLevel: 12, subject: 'physics', topic: 'Young\'s Double Slit Experiment: Fringe Width',
     chapters: [],
     nodeIds: ['c12_phy_cbse_10_005', 'c12_phy_cbse_10_006', 'c12_phy_cbse_10_007', 'c12_phy_cbse_10_004', 'c12_phy_cbse_10_001', 'c12_phy_cbse_10_002', 'c12_phy_cbse_11_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe the colorful rings on a soap bubble or the rainbow pattern on a CD/DVD — these are interference.', goal: 'Master Single Slit Diffraction.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe the colorful rings on a soap bubble or the rainbow pattern on a CD/DVD — these are interference.', goal: 'Master Young\'s Double Slit Experiment: Fringe Width.' },
     discovery: {
         question: 'In a YDSE setup, if the slit separation d is doubled while λ and D remain unchanged, what happens to the fringe width?',
         options: ['Fringe width β halves (β ∝ 1/d)', 'fringe width doubles', 'no change'],
@@ -81,7 +81,7 @@ export const w_c12_physicssingleslitdiffractionsim: SimDef = {
             { text: 'Verify: v₂ < c, r < i, λ₂ < λ₁ — all consistent with denser medium.', faded: true, blankAnswer: '(a) r ≈ 32.0°, (b) λ_water / λ_air = 0.75, (c) v_water =.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_10_006', title: 'Identify each idea',
-          dissect: { specimen: 'Single Slit Diffraction', spots: [
+          dissect: { specimen: 'Young\'s Double Slit Experiment: Fringe Width', spots: [
             { id: 's1', label: 'Fringe width in Youngs', prompt: 'Which idea is this? — Fringe width (β) in Young\'s double slit experiment is the distance between two.', answer: 'Fringe width in Youngs', options: ['Fringe width in Youngs', 'In Youngs double slit experiment', 'Single slit diffraction is the', 'Coherent sources are two or'] },
             { id: 's2', label: 'In Youngs double slit experiment', prompt: 'Which idea is this? — In Young\'s double slit experiment, **fringe width (β)** is the distance between two.', answer: 'In Youngs double slit experiment', options: ['In Youngs double slit experiment', 'Fringe width in Youngs', 'Single slit diffraction is the', 'Coherent sources are two or'] },
             { id: 's3', label: 'Single slit diffraction is the', prompt: 'Which idea is this? — Single slit diffraction is the phenomenon where a plane wavefront passing through a.', answer: 'Single slit diffraction is the', options: ['Single slit diffraction is the', 'Fringe width in Youngs', 'In Youngs double slit experiment', 'Coherent sources are two or'] },
@@ -90,7 +90,7 @@ export const w_c12_physicssingleslitdiffractionsim: SimDef = {
             { id: 's6', label: 'Huygens principle states that every', prompt: 'Which idea is this? — Huygens\' principle states that every point on a wavefront acts as a source of secondary.', answer: 'Huygens principle states that every', options: ['Huygens principle states that every', 'Fringe width in Youngs', 'In Youngs double slit experiment', 'Single slit diffraction is the'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsSingleSlitDiffractionSim, prompt: 'Explore the interactive — Single Slit Diffraction' },
+    explore: { component: C12_PhysicsSingleSlitDiffractionSim, prompt: 'Explore the interactive — Young\'s Double Slit Experiment: Fringe Width' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_10_005', difficulty: 'standard',
           question: 'Fringe width (β) in Young\'s double slit experiment is the distance between two.',

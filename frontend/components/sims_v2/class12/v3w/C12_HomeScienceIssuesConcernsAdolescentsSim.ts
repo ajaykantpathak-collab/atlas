@@ -6,13 +6,13 @@ import C12_HomeScienceIssuesConcernsAdolescentsSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_homescienceissuesconcernsadolescentssim: SimDef = {
     id: 'v3w_c12_homescienceissuesconcernsadolescentssim',
-    title: 'Home Science Issues Concerns Adolescents',
+    title: 'Adolescence: Developmental Changes and Challenges',
     subtitle: 'This node covers biological, cognitive, emotional, and social changes during adolescence.',
     classLevel: 12, subject: 'science', topic: 'Adolescence: Developmental Changes and Challenges',
     chapters: [],
     nodeIds: ['c12_hs_cbse_03_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a 14-year-old who suddenly refuses to eat meals with family, spends hours on social media, and snaps.', goal: 'Master Home Science Issues Concerns Adolescents.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a 14-year-old who suddenly refuses to eat meals with family, spends hours on social media, and snaps.', goal: 'Master Adolescence: Developmental Changes and Challenges.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Adolescence is the transitional.', text: 'Adolescence is the transitional developmental stage between childhood and adulthood (approximately 10–19 years) characterized by rapid physical growth, sexual maturation, cognitive restructuring, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -29,7 +29,7 @@ export const w_c12_homescienceissuesconcernsadolescentssim: SimDef = {
             { text: 'Monitor via weekly sleep diary, PHQ-9 (depression screen), and academic engagement metrics for 8 weeks.', faded: true, blankAnswer: 'Three interacting factors: (1) Biological — circadian delay.' }
             ] } }
     ],
-    explore: { component: C12_HomeScienceIssuesConcernsAdolescentsSim, prompt: 'Explore the interactive — Home Science Issues Concerns Adolescents' },
+    explore: { component: C12_HomeScienceIssuesConcernsAdolescentsSim, prompt: 'Explore the interactive — Adolescence: Developmental Changes and Challenges' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hs_cbse_03_009', difficulty: 'standard',
           question: 'Adolescence is the transitional developmental stage between childhood and.',

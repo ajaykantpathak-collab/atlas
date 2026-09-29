@@ -6,13 +6,13 @@ import C11_EconomicsEmploymentGrowthInformalisationSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_economicsemploymentgrowthinformalisationsim: SimDef = {
     id: 'v3w_c11_economicsemploymentgrowthinformalisationsim',
-    title: 'Employment Growth Informalisation',
+    title: 'Growth of Employment: Trends Since Independence',
     subtitle: 'This node covers employment growth trends (1951–2023), sectoral distribution shifts.',
     classLevel: 11, subject: 'economics', topic: 'Growth of Employment: Trends Since Independence',
     chapters: [],
     nodeIds: ['c11_eco_cbse_06_004', 'c11_eco_cbse_06_005', 'c11_eco_cbse_06_009', 'c11_eco_cbse_06_002', 'c11_eco_cbse_06_001', 'c11_eco_cbse_06_003', 'c11_eco_cbse_06_006', 'c11_eco_cbse_06_007', 'c11_eco_cbse_06_008', 'c11_eco_cbse_06_010', 'c11_eco_cbse_06_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine reading a 2024 newspaper headline: "India\'s GDP grows at 7.2%, but unemployment rate hits 45-year.', goal: 'Master Employment Growth Informalisation.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine reading a 2024 newspaper headline: "India\'s GDP grows at 7.2%, but unemployment rate hits 45-year.', goal: 'Master Growth of Employment: Trends Since Independence.' },
     discovery: {
         question: 'Calculate the employment elasticity for the tertiary sector between 1993–94 and 2011–12 using Table 6.3 data. Tertiary share: 20% → 26.8%.',
         options: ['Step 1: Tertiary workforce 1993–94 = 20% × 340 = 68 million', 'sectoral shift from primary to tertiary means agriculture jobs disappeared', '"sectoral shift from primary to tertiary means agriculture jobs disappeared'],
@@ -82,7 +82,7 @@ export const w_c11_economicsemploymentgrowthinformalisationsim: SimDef = {
             { text: 'Compute national shares: Primary = (247.12/545)×100 = 45.3%; Secondary = (136.43/545)×100 = 25.0%; Tertiary =.', faded: true, blankAnswer: 'National workers: Primary ~247M, Secondary ~136M, Tertiary.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_eco_cbse_06_005', title: 'Identify each idea',
-          dissect: { specimen: 'Employment Growth Informalisation', spots: [
+          dissect: { specimen: 'Growth of Employment: Trends Since Independence', spots: [
             { id: 's1', label: 'Growth of employment refers to', prompt: 'Which idea is this? — Growth of employment refers to the rate of change in the total number of workers engaged.', answer: 'Growth of employment refers to', options: ['Growth of employment refers to', 'The formal sector comprises all', 'The Economically Active Population Labour', 'Economic activities are all human'] },
             { id: 's2', label: 'The formal sector comprises all', prompt: 'Which idea is this? — The formal sector comprises all public sector establishments and private sector.', answer: 'The formal sector comprises all', options: ['The formal sector comprises all', 'Growth of employment refers to', 'The Economically Active Population Labour', 'Economic activities are all human'] },
             { id: 's3', label: 'The Economically Active Population Labour', prompt: 'Which idea is this? — The **Economically Active Population** (Labour Force) comprises all persons who are.', answer: 'The Economically Active Population Labour', options: ['The Economically Active Population Labour', 'Growth of employment refers to', 'The formal sector comprises all', 'Economic activities are all human'] },
@@ -90,7 +90,7 @@ export const w_c11_economicsemploymentgrowthinformalisationsim: SimDef = {
             { id: 's5', label: 'Sectoral distribution of workforce refers', prompt: 'Which idea is this? — Sectoral distribution of workforce refers to the percentage distribution of a country\'s.', answer: 'Sectoral distribution of workforce refers', options: ['Sectoral distribution of workforce refers', 'Growth of employment refers to', 'The formal sector comprises all', 'The Economically Active Population Labour'] }
           ] } }
     ],
-    explore: { component: C11_EconomicsEmploymentGrowthInformalisationSim, prompt: 'Explore the interactive — Employment Growth Informalisation' },
+    explore: { component: C11_EconomicsEmploymentGrowthInformalisationSim, prompt: 'Explore the interactive — Growth of Employment: Trends Since Independence' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eco_cbse_06_004', difficulty: 'standard',
           question: 'Growth of employment refers to the rate of change in the total number of.',

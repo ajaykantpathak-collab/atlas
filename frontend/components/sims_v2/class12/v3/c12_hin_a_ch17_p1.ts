@@ -19,7 +19,7 @@ export const c12_hin_a_ch17_p1: SimDef = {
         hook: 'Mishra insists on \'aangan\' over the Sanskritised \'angana\' — the lived word carries cow-dung smell and children\'s play; the formal word is sterile. And tyag is redefined: not self-denial or heroic martyrdom but daily, uncelebrated duty — a mother\'s life as art.',
     },
     teaching: [
-        { title: 'कुटज — पृष्ठभूमि और रचनाकार परिचय', text: '\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक, ऐतिहासिक और साहित्यिक संदर्भों का विश्लेषण शामिल है जो उपन्यास के विषय, पात्रों और कथानक के निर्माण को प्रभावित करते हैं।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'कुटज — पृष्ठभूमि और रचनाकार परिचय', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_17_001', title: 'Your mission',
@@ -28,6 +28,19 @@ export const c12_hin_a_ch17_p1: SimDef = {
         context: 'Stand in a courtyard at dawn: watch the space reveal itself as process, not object; weigh name against essence; and test whether sacrifice is suffering or transcendence.',
         labels: ['कुटज — पृष्ठभूमि और', 'कुटज — कथानक और', 'कुटज — पाठ्य-परिवेश और', 'कुटज — पात्र-चित्रण: नायक/प्रमुख', 'कुटज — पात्र-चित्रण: सहायक', 'कुटज — मुख्य विषय'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_17_001', title: 'कुटज — पृष्ठभूमि और रचनाकार परिचय',
+          caseStudy: { intro: 'अंतरा भाग-2 खोलिए और पाठ 17 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: 'Who is the author of "oqQVt" and what are three key roles he held that influenced his writing?', options: [
+                { text: 'The author is Pt', outcome: 'The author is Pt. Govind Narayan Mishra (1907–1979). Three key roles: (1) Sanskrit scholar and.' },
+                { text: 'Hindi writer', outcome: 'Not quite — Students treat "Before You Read" as optional background reading and skip to the text.', reveals: 'students-treat-before-you-read' },
+                { text: 'only "Hindi writer" or confusing him with another Mishra', outcome: 'Not quite — Students treat "Before You Read" as optional background reading and skip to the text.', reveals: 'students-treat-before-you-read' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_17_005', title: 'कुटज — पात्र-चित्रण: सहायक पात्र',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 17\' में सहायक पात्र पहचानिए — जो मुख्य पात्र की सहायता करते हैं।',
+            decisions: [{ prompt: 'Name the three most prominent supporting characters in "oqQVt" and state one defining trait for each, based solely on the text.', options: [
+                { text: 'Correct answer: (1) Jaghe (the old woman)', outcome: 'Correct answer: (1) Jaghe (the old woman) — resilient dignity / stubborn attachment to the house.' },
+                { text: 'the old woman', outcome: 'Not quite — Students treat supporting characters in "oqQVt" as static symbols (e.g., "Jaghe = tradition").', reveals: 'students-treat-supporting-characters-in' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_17_001', title: 'Use it in the wild',
           caseStudy: { intro: 'At a housing-for-all poster contest, a teammate\'s entry shows a glossy apartment block with the line \'shelter = square feet.\' You recall the essay that starts on a mud-walled village lane and ends in a Sanskrit verse on what makes a dwelling a home.',
             decisions: [{ prompt: 'How would the essay \'कुटिर\' reframe the poster?', options: [
@@ -47,67 +60,90 @@ export const c12_hin_a_ch17_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_17_001', difficulty: 'standard',
-          question: '\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक.',
-          hint: 'यदि फंसे हुए महसूस हों, तो कक्षा 11 के किसी भी हिंदी पाठ के \'पृष्ठभूमि और रचनाकार परिचय\'.',
-          misconception: 'छात्र अक्सर मानते हैं कि लेखक के परिचय में केवल जैविक तथ्य (जन्म, मृत्यु, शिक्षा) शामिल हैं, और वे इन तथ्यों को उपन्यास.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck on Progressive Writers\' Movement, revisit **c11_hin_ar_cbse_01_001**.',
+          misconception: 'Students treat "Before You Read" as optional background reading and skip to the text.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक, ऐतिहासिक और',
-                  options: ['\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक, ऐतिहासिक और', 'कथानक (Plot) घटनाओं का तार्किक और कारण-कार्यात्मक क्रम है जो संघर्ष से आरंभ होकर', 'पाठ्य-परिवेश वह समय, स्थान और सामाजिक परिस्थितियाँ हैं जिनमें कोई कथा घटित होती है, जबकि', 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक विवरण, भाषा, व्यवहार,'],
-                  hint: 'यदि फंसे हुए महसूस हों, तो कक्षा 11 के किसी भी हिंदी पाठ के \'पृष्ठभूमि और रचनाकार परिचय\' नोड को.',
-                  misconception: 'छात्र अक्सर मानते हैं कि लेखक के परिचय में केवल जैविक तथ्य (जन्म, मृत्यु, शिक्षा) शामिल हैं, और वे इन तथ्यों को उपन्यास के विषय से जोड़ने.' }
+                { id: 'a', prompt: 'Who is the author of "oqQVt" and what are three key roles he held that influenced his writing?', answer: 'The author is Pt',
+                  options: ['The author is Pt', 'Hindi writer', 'only "Hindi writer" or confusing him with another Mishra'],
+                  hint: 'If stuck on Progressive Writers\' Movement, revisit **c11_hin_ar_cbse_01_001** (Premchand\'s context).',
+                  misconception: 'Students treat "Before You Read" as optional background reading and skip to the text.' },
+                { id: 'b', prompt: 'Apply the distinction between "uke" (name) and ":i" (form/essence) to a real-life example from contemporary India (e.g., Aadhaar, caste certificates, social.', answer: 'Example: **Aadhaar card**',
+                  options: ['Example: **Aadhaar card**', 'Aadhaar *is* identity', 'uke blfy, cM+k gksrk gS fd mls lekt dh LohÑfr feyh gksrh gS'],
+                  hint: 'If stuck on Progressive Writers\' Movement, revisit **c11_hin_ar_cbse_01_001** (Premchand\'s context).',
+                  misconception: 'Students treat "Before You Read" as optional background reading and skip to the text.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि कैसे एक विशिष्ट तथ्य (जैसे लेखक का शिक्षक होना) को उपन्यास के एक विशिष्ट पहलू (जैसे ग्रामीण बच्चों.', 'इससे उपन्यास में बच्चों के चित्रण पर क्या प्रभाव पड़ सकता है?" फिर उन्हें इस संबंध को एक वाक्य में लिखने के लिए कहिए।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-before-you-read': { steps: ['129–130 (author bio) and 130–131 (essay opening)** with a pencil.', 'Underline every proper noun (Premchand, Dinkar, All India Radio, Sanskrit, Progressive Writers) and every key term.', '**Create a 3-column table**: Column 1 = Term, Column 2 = Sanskrit root / literal meaning, Column 3 = Mishra\'s expanded.', 'Fill for: oqQVt, owQVt, uke, :i, thuk, LokFkZ, ftthfo"kk.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_17_002', difficulty: 'standard',
-          question: 'कथानक (Plot) घटनाओं का तार्किक और कारण-कार्यात्मक क्रम है जो संघर्ष से आरंभ.',
+          question: '\'अंतरा भाग-2 — पाठ 17\' का कथानक — \'अंतरा भाग-2 — पाठ 17\' — अंतरा भाग-2 का पाठ।.',
           hint: 'यदि फ्लैशबैक और समानांतर कथासूत्र समझ न आएँ तो c11_hin_a_cbse_02_002 (आवारा मसीहा — कथानक.',
           misconception: 'छात्र \'कथानक\' और \'आख्यान-संरचना\' को समानार्थी मानते हैं और परीक्षा में दोनों के लिए घटनाओं का सारांश लिख देते हैं। वे.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) घटनाओं का तार्किक और कारण-कार्यात्मक क्रम है जो संघर्ष से आरंभ होकर',
-                  options: ['कथानक (Plot) घटनाओं का तार्किक और कारण-कार्यात्मक क्रम है जो संघर्ष से आरंभ होकर', '\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक, ऐतिहासिक और', 'पाठ्य-परिवेश वह समय, स्थान और सामाजिक परिस्थितियाँ हैं जिनमें कोई कथा घटित होती है, जबकि', 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक विवरण, भाषा, व्यवहार,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 17\' का कथानक — \'अंतरा भाग-2 — पाठ 17\' — अंतरा भाग-2 का पाठ। पाठ का',
+                  options: ['\'अंतरा भाग-2 — पाठ 17\' का कथानक — \'अंतरा भाग-2 — पाठ 17\' — अंतरा भाग-2 का पाठ। पाठ का', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 17\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', '\'अंतरा भाग-2 — पाठ 17\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
                   hint: 'यदि फ्लैशबैक और समानांतर कथासूत्र समझ न आएँ तो c11_hin_a_cbse_02_002 (आवारा मसीहा — कथानक और.',
                   misconception: 'छात्र \'कथानक\' और \'आख्यान-संरचना\' को समानार्थी मानते हैं और परीक्षा में दोनों के लिए घटनाओं का सारांश लिख देते हैं। वे नहीं समझते कि कथानक.' }
           ],
             remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें — "कुटज की केवल तीन मुख्य घटनाएँ लिखो (बिना व्याख्या के)।" चरण 2: फिर पूछें — "लेखक ने इन्हें किस.', 'पहला क्या दिखाया, दूसरा क्या?" चरण 3: तुलना कराएँ: घटनाओं का वास्तविक कालक्रम (लोककथाएँ पुरानी हैं, कुटज देखना नया).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_17_003', difficulty: 'standard',
-          question: 'पाठ्य-परिवेश वह समय, स्थान और सामाजिक परिस्थितियाँ हैं जिनमें कोई कथा घटित होती.',
+          question: '\'अंतरा भाग-2 — पाठ 17\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और.',
           hint: 'यदि सामाजिक परिवेश की पहचान में कठिनाई हो, तो c12_hin_a_cbse_17_001 (पृष्ठभूमि और रचनाकार.',
           misconception: 'छात्र अक्सरkutj के वातावरण को केवल शारीरिक वर्णन (जैसे नदी का पानी, खेतों की हरी-भरीता) तक सीमित रखते हैं, सामाजिक और.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश वह समय, स्थान और सामाजिक परिस्थितियाँ हैं जिनमें कोई कथा घटित होती है, जबकि',
-                  options: ['पाठ्य-परिवेश वह समय, स्थान और सामाजिक परिस्थितियाँ हैं जिनमें कोई कथा घटित होती है, जबकि', '\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक, ऐतिहासिक और', 'कथानक (Plot) घटनाओं का तार्किक और कारण-कार्यात्मक क्रम है जो संघर्ष से आरंभ होकर', 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक विवरण, भाषा, व्यवहार,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 17\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित',
+                  options: ['\'अंतरा भाग-2 — पाठ 17\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 17\' का कथानक — \'अंतरा भाग-2 — पाठ 17\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 17\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
                   hint: 'यदि सामाजिक परिवेश की पहचान में कठिनाई हो, तो c12_hin_a_cbse_17_001 (पृष्ठभूमि और रचनाकार परिचय) को.',
                   misconception: 'छात्र अक्सरkutj के वातावरण को केवल शारीरिक वर्णन (जैसे नदी का पानी, खेतों की हरी-भरीता) तक सीमित रखते हैं, सामाजिक और ऐतिहासिक तनावों को.' }
           ],
             remediations: { 'kutj': { steps: ['पहले छात्र से kutj के दो अलग-अलग सामाजिक पृष्ठभूमि वाले पात्रों (जैसे एक ब्राह्मण और एक दलित) के बीच एक संवाद अंश चुनने.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_17_004', difficulty: 'standard',
-          question: 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक विवरण, भाषा.',
+          question: '\'अंतरा भाग-2 — पाठ 17\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और.',
           hint: 'यदि छात्र पात्र के आंतरिक विश्लेषण में फंस जाए तो उसे कक्षा 11 के पात्र-चित्रण नोड.',
           misconception: 'छात्र अक्सर नायक के पात्र-चित्रण को केवल उसकेheroic कार्यों (जैसे मौजी द्वारा भोलिया को बचाना या खेत जोतना) तक सीमित.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक विवरण, भाषा, व्यवहार,',
-                  options: ['पात्र-चित्रण वह प्रक्रिया है जिसमें लेखक किसी पात्र के शारीरिक विवरण, भाषा, व्यवहार,', '\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक, ऐतिहासिक और', 'कथानक (Plot) घटनाओं का तार्किक और कारण-कार्यात्मक क्रम है जो संघर्ष से आरंभ होकर', 'पाठ्य-परिवेश वह समय, स्थान और सामाजिक परिस्थितियाँ हैं जिनमें कोई कथा घटित होती है, जबकि'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 17\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+                  options: ['\'अंतरा भाग-2 — पाठ 17\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 17\' का कथानक — \'अंतरा भाग-2 — पाठ 17\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 17\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि छात्र पात्र के आंतरिक विश्लेषण में फंस जाए तो उसे कक्षा 11 के पात्र-चित्रण नोड.',
                   misconception: 'छात्र अक्सर नायक के पात्र-चित्रण को केवल उसकेheroic कार्यों (जैसे मौजी द्वारा भोलिया को बचाना या खेत जोतना) तक सीमित रखते हैं, मानते हैं कि.' }
           ],
             remediations: { 'heroic': { steps: ['छात्र से कहिए कि वह मौजी के किसी एक दृश्य (जैसे ठाकुर के सामने चुप रहना) को ले और पूछे: "इस पल में मौजी क्या कहना चाहता.', 'उसका शरीर क्या बता रहा है जो उसके शब्द नहीं बता रहे?', 'क्या वह अंदर से डर रहा है, भ्रमित है, या नियंत्रित हो रहा है?" फिर उस विश्लेषण को उसके आर्क (शुरूआती विद्रोह → भ्रम →.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_17_005', difficulty: 'standard',
-          question: 'सहायक पात्र वे पात्र होते हैं जो मुख्य पात्र के साथ कहानी में महत्वपूर्ण भूमिका.',
-          hint: 'यदि फंसे तो c12_hin_a_cbse_17_004 (मुख्य पात्रों का चरित्र-चित्रण) की अवधारणा को दोबारा.',
-          misconception: 'छात्र अक्सर सहायक पात्रों को केवल कहानी की पृष्ठभूमि या filler मान लेते हैं और उनके मुख्य पात्रों के विकास या विषय के.',
+          question: '\'अंतरा भाग-2 — पाठ 17\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को.',
+          hint: 'If stuck, return to c12_hin_a_cbse_17_004 (Protagonist) and c12_hin_a_cbse_17_002 (Plot).',
+          misconception: 'Students treat supporting characters in "oqQVt" as static symbols (e.g., "Jaghe = tradition") rather than as dynamic.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र वे पात्र होते हैं जो मुख्य पात्र के साथ कहानी में महत्वपूर्ण भूमिका निभाते',
-                  options: ['सहायक पात्र वे पात्र होते हैं जो मुख्य पात्र के साथ कहानी में महत्वपूर्ण भूमिका निभाते', '\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक, ऐतिहासिक और', 'कथानक (Plot) घटनाओं का तार्किक और कारण-कार्यात्मक क्रम है जो संघर्ष से आरंभ होकर', 'पाठ्य-परिवेश वह समय, स्थान और सामाजिक परिस्थितियाँ हैं जिनमें कोई कथा घटित होती है, जबकि'],
-                  hint: 'यदि फंसे तो c12_hin_a_cbse_17_004 (मुख्य पात्रों का चरित्र-चित्रण) की अवधारणा को दोबारा देखें।',
-                  misconception: 'छात्र अक्सर सहायक पात्रों को केवल कहानी की पृष्ठभूमि या filler मान लेते हैं और उनके मुख्य पात्रों के विकास या विषय के प्रसार में सक्रिय.' }
+                { id: 'a', prompt: 'Name the three most prominent supporting characters in "oqQVt" and state one defining trait for each, based solely on the text.', answer: 'Correct answer: (1) Jaghe (the old woman)',
+                  options: ['Correct answer: (1) Jaghe (the old woman)', 'the old woman'],
+                  hint: 'If stuck, return to c12_hin_a_cbse_17_004 (Protagonist) and c12_hin_a_cbse_17_002 (Plot) — map each.',
+                  misconception: 'Students treat supporting characters in "oqQVt" as static symbols (e.g., "Jaghe = tradition") rather than as dynamic figures whose.' },
+                { id: 'b', prompt: 'Explain in your own words how Jaghe\'s refusal to leave the crumbling house functions as a foil to the narrator\'s intellectual meditation on "oqQVt".', answer: 'Correct answer: Jaghe embodies lived, visceral attachment — she stays',
+                  options: ['Correct answer: Jaghe embodies lived, visceral attachment — she stays', 'she loves the house'],
+                  hint: 'If stuck, return to c12_hin_a_cbse_17_004 (Protagonist) and c12_hin_a_cbse_17_002 (Plot) — map each.',
+                  misconception: 'Students treat supporting characters in "oqQVt" as static symbols (e.g., "Jaghe = tradition") rather than as dynamic figures whose.' },
+                { id: 'c', prompt: 'Compare the villagers\' collective silence during the house\'s decay with Jaghe\'s vocal defiance.', answer: 'Correct answer: The villagers represent passive, communal endurance',
+                  options: ['Correct answer: The villagers represent passive, communal endurance', 'better', 'labels one "better" misses the textual balance'],
+                  hint: 'If stuck, return to c12_hin_a_cbse_17_004 (Protagonist) and c12_hin_a_cbse_17_002 (Plot) — map each.',
+                  misconception: 'Students treat supporting characters in "oqQVt" as static symbols (e.g., "Jaghe = tradition") rather than as dynamic figures whose.' }
           ],
-            remediations: { 'filler': { steps: ['छात्र से कहें कि वह कुटज के किसी एक अध्याय को दोबारा पढ़ें और केवल सहायक पात्रों के भाषण और कार्यों पर ध्यान केंद्रित.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-supporting-characters-in': { steps: ['If a student cannot move beyond symbolic labels: (1) Have them re-read *only* the dialogues/actions of one supporting.', '133-134) and list verbs — "refuses", "cooks", "waits", "challenges".', '(2) Ask: "What does *this verb* force the narrator to confront?" (3) Practice one PEEL paragraph per character using.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_17_005', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students treat supporting characters in "oqQVt" as static symbols (e.g., "Jaghe = tradition") rather than as dynamic.',
+          parts: [
+                { id: 'a', prompt: 'Critique the view that the supporting characters in "oqQVt" are merely symbolic ciphers with no individual agency.', answer: 'Correct answer: They are *not* mere ciphers',
+                  options: ['Correct answer: They are *not* mere ciphers', 'symbol-hunting'],
+                  hint: 'If stuck, return to c12_hin_a_cbse_17_004 (Protagonist) and c12_hin_a_cbse_17_002 (Plot) — map each.',
+                  misconception: 'Students treat supporting characters in "oqQVt" as static symbols (e.g., "Jaghe = tradition") rather than as dynamic figures whose.' }
+          ],
+            remediations: { 'students-treat-supporting-characters-in': { steps: ['If a student cannot move beyond symbolic labels: (1) Have them re-read *only* the dialogues/actions of one supporting.', '133-134) and list verbs — "refuses", "cooks", "waits", "challenges".', '(2) Ask: "What does *this verb* force the narrator to confront?" (3) Practice one PEEL paragraph per character using.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_17_006', difficulty: 'standard',
-          question: 'कुटज उपन्यास का मुख्य विषय ग्रामीण समाज में पारंपरिक मूल्यों के टूटने और.',
+          question: '\'अंतरा भाग-2 — पाठ 17\' का मुख्य विषय — \'अंतरा भाग-2 — पाठ 17\' का केंद्रीय भाव.',
           hint: 'यदि मुख्य विषय का विश्लेषण करने में कठिनाई हो, तो पहले पात्र-चित्रण नोड्स.',
           misconception: 'छात्र अक्सर kutj के मुख्य संदेश को \'शहरी जीवन बुरा है, ग्रामीण जीवन आदर्श है\' के रूप में सरलीकृत कर देते हैं, जबकि.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कुटज उपन्यास का मुख्य विषय ग्रामीण समाज में पारंपरिक मूल्यों के टूटने और शहरीकरण के कारण',
-                  options: ['कुटज उपन्यास का मुख्य विषय ग्रामीण समाज में पारंपरिक मूल्यों के टूटने और शहरीकरण के कारण', '\'कुटज\' उपन्यास के पृष्ठभूमि और रचनाकार परिचय में लेखक के व्यक्तिगत, सामाजिक, ऐतिहासिक और', 'कथानक (Plot) घटनाओं का तार्किक और कारण-कार्यात्मक क्रम है जो संघर्ष से आरंभ होकर', 'पाठ्य-परिवेश वह समय, स्थान और सामाजिक परिस्थितियाँ हैं जिनमें कोई कथा घटित होती है, जबकि'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 17\' का मुख्य विषय — \'अंतरा भाग-2 — पाठ 17\' का केंद्रीय भाव और संदेश',
+                  options: ['\'अंतरा भाग-2 — पाठ 17\' का मुख्य विषय — \'अंतरा भाग-2 — पाठ 17\' का केंद्रीय भाव और संदेश', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 17\' का कथानक — \'अंतरा भाग-2 — पाठ 17\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 17\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि मुख्य विषय का विश्लेषण करने में कठिनाई हो, तो पहले पात्र-चित्रण नोड्स (c12_hin_a_cbse_17_004 और.',
                   misconception: 'छात्र अक्सर kutj के मुख्य संदेश को \'शहरी जीवन बुरा है, ग्रामीण जीवन आदर्श है\' के रूप में सरलीकृत कर देते हैं, जबकि उपन्यास वास्तव में यह.' }
           ],

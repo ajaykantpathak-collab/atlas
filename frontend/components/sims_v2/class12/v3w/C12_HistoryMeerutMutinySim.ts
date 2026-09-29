@@ -6,13 +6,13 @@ import C12_HistoryMeerutMutinySim from '../../../simulations/c6_12/C12_HistoryMe
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_historymeerutmutinysim: SimDef = {
     id: 'v3w_c12_historymeerutmutinysim',
-    title: 'Meerut Mutiny',
+    title: 'The Mutiny at Meerut: Mangal Pandey, the Greased Cartridges and the Spark',
     subtitle: 'Covers the events of 10–11 May 1857 at Meerut and Delhi, the cartridge controversy, the.',
     classLevel: 12, subject: 'history', topic: 'The Mutiny at Meerut: Mangal Pandey, the Greased Cartridges and the Spark',
     chapters: [],
     nodeIds: ['c12_hist_cbse_10_001', 'c12_hist_cbse_10_002', 'c12_hist_cbse_10_003', 'c12_hist_cbse_10_008', 'c12_hist_cbse_10_005', 'c12_hist_cbse_10_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a sepoy in the 3rd Light Cavalry at Meerut on 9 May 1857, watching 85 comrades sentenced to.', goal: 'Master Meerut Mutiny.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a sepoy in the 3rd Light Cavalry at Meerut on 9 May 1857, watching 85 comrades sentenced to.', goal: 'Master The Mutiny at Meerut: Mangal Pandey, the Greased Cartridges and the Spark.' },
     discovery: {
         question: 'On what date did the sepoys at Meerut break into open mutiny, and what was the immediate trigger that afternoon?',
         options: ['The mutiny began on 10 May 1857', '31 March 1857 — Mangal Pandey\'s execution', 'the cartridge issue alone'],
@@ -79,7 +79,7 @@ export const w_c12_historymeerutmutinysim: SimDef = {
             { text: 'Conclude — unity requires INSTITUTIONS to mediate competing claims (e.g., zamindar vs. peasant, merchant vs. artisan).', faded: true, blankAnswer: 'The Azamgarh Proclamation articulated a broad coalition but.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_hist_cbse_10_002', title: 'Identify each idea',
-          dissect: { specimen: 'Meerut Mutiny', spots: [
+          dissect: { specimen: 'The Mutiny at Meerut: Mangal Pandey, the Greased Cartridges and the Spark', spots: [
             { id: 's1', label: 'The Mutiny at Meerut 10', prompt: 'Which idea is this? — The Mutiny at Meerut (10 May 1857) was the violent outbreak by Bengal Army sepoys in.', answer: 'The Mutiny at Meerut 10', options: ['The Mutiny at Meerut 10', 'The Spread of the Revolt', 'Bahadur Shah Zafar 17751862 the', 'The Revolt in the Countryside'] },
             { id: 's2', label: 'The Spread of the Revolt', prompt: 'Which idea is this? — The Spread of the Revolt refers to the rapid cascade of mutinies and civilian uprisings.', answer: 'The Spread of the Revolt', options: ['The Spread of the Revolt', 'The Mutiny at Meerut 10', 'Bahadur Shah Zafar 17751862 the', 'The Revolt in the Countryside'] },
             { id: 's3', label: 'Bahadur Shah Zafar 17751862 the', prompt: 'Which idea is this? — Bahadur Shah Zafar (1775–1862), the last Mughal emperor, became the symbolic and nominal.', answer: 'Bahadur Shah Zafar 17751862 the', options: ['Bahadur Shah Zafar 17751862 the', 'The Mutiny at Meerut 10', 'The Spread of the Revolt', 'The Revolt in the Countryside'] },
@@ -88,7 +88,7 @@ export const w_c12_historymeerutmutinysim: SimDef = {
             { id: 's6', label: 'The failure of the 1857', prompt: 'Which idea is this? — The failure of the 1857 Revolt refers to the inability of the Indian rebel forces —.', answer: 'The failure of the 1857', options: ['The failure of the 1857', 'The Mutiny at Meerut 10', 'The Spread of the Revolt', 'Bahadur Shah Zafar 17751862 the'] }
           ] } }
     ],
-    explore: { component: C12_HistoryMeerutMutinySim, prompt: 'Explore the interactive — Meerut Mutiny' },
+    explore: { component: C12_HistoryMeerutMutinySim, prompt: 'Explore the interactive — The Mutiny at Meerut: Mangal Pandey, the Greased Cartridges and the Spark' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hist_cbse_10_001', difficulty: 'standard',
           question: 'The Mutiny at Meerut (10 May 1857) was the violent outbreak by Bengal Army.',

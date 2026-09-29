@@ -6,13 +6,13 @@ import C11_ComputerScienceJavaArraysAdvancedSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_computersciencejavaarraysadvancedsim: SimDef = {
     id: 'v3w_c11_computersciencejavaarraysadvancedsim',
-    title: 'Java Arrays',
+    title: 'Peek and isEmpty Operations on Stack',
     subtitle: 'Covers: peek/top operation definition, isEmpty predicate, Python implementation using.',
     classLevel: 11, subject: 'computer_science', topic: 'Peek and isEmpty Operations on Stack',
     chapters: [],
     nodeIds: ['c11_cs_cbse_10_006', 'c11_cs_cbse_10_013'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re building a "Undo" feature for a text editor. Every keystroke is pushed onto a stack.', goal: 'Master Java Arrays.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re building a "Undo" feature for a text editor. Every keystroke is pushed onto a stack.', goal: 'Master Peek and isEmpty Operations on Stack.' },
     discovery: {
         question: 'What is the exact output of the following Python snippet? ```python stack = [] stack.append(10) stack.append(20) print(stack[-1]) stack.pop() print(stack[-1].',
         options: ['Output: ``` 20 10 ```', 'access the top', '`peek()` and `pop()` are interchangeable'],
@@ -43,12 +43,12 @@ export const w_c11_computersciencejavaarraysadvancedsim: SimDef = {
             { text: 'dequeue(): front!=rear → item=arr[0]=None? Wait! First element is at front?', faded: true, blankAnswer: 'Final state: front=3, rear=1, array=[50, 80, 20, 30, 40],.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_cs_cbse_10_013', title: 'Identify each idea',
-          dissect: { specimen: 'Java Arrays', spots: [
+          dissect: { specimen: 'Peek and isEmpty Operations on Stack', spots: [
             { id: 's1', label: 'Peek or top is a', prompt: 'Which idea is this? — **Peek** (or **top**) is a stack operation that returns the value of the topmost element.', answer: 'Peek or top is a', options: ['Peek or top is a', 'A circular queue is a'] },
             { id: 's2', label: 'A circular queue is a', prompt: 'Which idea is this? — A circular queue is a linear data structure that follows FIFO principle where the last.', answer: 'A circular queue is a', options: ['A circular queue is a', 'Peek or top is a'] }
           ] } }
     ],
-    explore: { component: C11_ComputerScienceJavaArraysAdvancedSim, prompt: 'Explore the interactive — Java Arrays' },
+    explore: { component: C11_ComputerScienceJavaArraysAdvancedSim, prompt: 'Explore the interactive — Peek and isEmpty Operations on Stack' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_cs_cbse_10_006', difficulty: 'standard',
           question: '**Peek** (or **top**) is a stack operation that returns the value of the.',

@@ -19,7 +19,7 @@ export const c11_hin_ar_ch12_p2: SimDef = {
         hook: 'Agyeya the linguist wrote in the people\'s dialect on purpose — the poem isn\'t about letters, it\'s about reclaiming agency.',
     },
     teaching: [
-        { title: 'पाठ 12 — गौण विषय', text: 'गौण विषय (Sub-theme/Sub-plot) कथानक में मुख्य विषय के समानांतर चलने वाला वह द्वितीयक कथात्मक सूत्र है जो मुख्य विषय को पूरक, विरोधाभासी, या विस्तारित करता हुआ कथा-संरचना को गहराई, व्यापकता और.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 12 — गौण विषय', text: '\'पैक डकस डकस वपंजु न पुखरह\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_12_007', title: 'Your mission',
@@ -28,11 +28,27 @@ export const c11_hin_ar_ch12_p2: SimDef = {
         context: 'Chart the postman\'s arrival to the command \'पढ़ ले!\' as a narrative arc, then argue whether a revolutionary poet\'s literacy poem can be called propaganda.',
         labels: ['पाठ 12 — गौण', 'पाठ 12 — साहित्यिक', 'पाठ 12 — पदावली', 'पाठ 12 — व्याकरण', 'पाठ 12 — बोध-प्रश्न'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_12_008', title: 'Identify each idea',
-          dissect: { specimen: 'पाठ 12 · Part 2/3', spots: [
-            { id: 's1', label: '12 -', prompt: 'Which idea is this? — पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा अपने विचारों को प्रभावी ढंग से व्यक्त करने के.', answer: '12 -', options: ['12 -', '12 - -'] },
-            { id: 's2', label: '12 - -', prompt: 'Which idea is this? — वस्तुनिष्ठ प्रश्न पाठ के **स्पष्ट तथ्यों, घटनाओं, पात्रों के नाम, समय, स्थान** आदि की.', answer: '12 - -', options: ['12 - -', '12 -'] }
-          ] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_12_008', title: 'पाठ 12 — साहित्यिक युक्तियाँ: बिंब और रूपक',
+          caseStudy: { intro: '\'पैक डकस डकस वपंजु न पुखरह\' में बिंब ढूँढिए — पैक-डकस-डकस-वपंजु-न-पुखरह — ये दृश्य पाठ को जीवंत बनाते हैं।',
+            decisions: [{ prompt: 'Define "imagery" (बिंब) and "metaphor" (रूपक) in your own words, and give one original example of each that is NOT from the textbook.', options: [
+                { text: 'Imagery: Language that activates the five senses to create a concrete mental picture', outcome: 'Imagery: Language that activates the five senses to create a concrete mental picture (e.g., "The.' },
+                { text: 'Her silence was like a locked room', outcome: 'Not quite — Students consistently treat **repetition of a descriptive word** (e.g., "डक्यस डक्यस") as.', reveals: 'students-consistently-treat-repetition-of' },
+                { text: 'absence of comparative particles', outcome: 'Not quite — Students consistently treat **repetition of a descriptive word** (e.g., "डक्यस डक्यस") as.', reveals: 'students-consistently-treat-repetition-of' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_12_011', title: 'पाठ 12 — व्याकरण: पाठ में भाषा-प्रयोग',
+          caseStudy: { intro: '\'पैक डकस डकस वपंजु न पुखरह\' की भाषा देखिए — NCERT पाठ्यपुस्तक का शब्द-चयन और शैली भाव बनाती है।',
+            decisions: [{ prompt: 'What is meant by \'language usage\' in the context of a literary text?', options: [
+                { text: 'Language usage refers to the writer\'s deliberate choices in words, sentence structures,', outcome: 'Language usage refers to the writer\'s deliberate choices in words, sentence structures, and.' },
+                { text: 'it means the language of the text', outcome: 'Not quite — Students think non-standard grammar in literature is "incorrect" or "mistakes" rather than.', reveals: 'non-standard-grammar-in-literature' },
+                { text: 'incorrect', outcome: 'Not quite — Students think non-standard grammar in literature is "incorrect" or "mistakes" rather than.', reveals: 'non-standard-grammar-in-literature' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_12_012', title: 'पाठ 12 — बोध-प्रश्न: वस्तुनिष्ठ और आशय-सूचक',
+          caseStudy: { intro: '\'पैक डकस डकस वपंजु न पुखरह\' के तथ्य: रचनाकार NCERT पाठ्यपुस्तक, विषय \'पैक डकस डकस वपंजु न पुखरह\' का केंद्रीय भाव और संदेश।',
+            decisions: [{ prompt: 'What is the primary difference between a literal comprehension question and an inferential comprehension question?', options: [
+                { text: 'A literal question asks for information explicitly stated in the text (e.g., "What does', outcome: 'A literal question asks for information explicitly stated in the text (e.g., "What does the mother.' },
+                { text: 'inference', outcome: 'Not quite — Students often treat inferential questions as "opinion questions" where any personal guess.', reveals: 'students-often-treat-inferential-questions' },
+                { text: 'imagination', outcome: 'Not quite — Students often treat inferential questions as "opinion questions" where any personal guess.', reveals: 'students-often-treat-inferential-questions' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_12_007', title: 'Use it in the wild',
           caseStudy: { intro: 'Your class is adapting Agyeya\'s poem — a postman urging an illiterate villager to read — for a street play. The adapter wants to add a narrator to \'explain the poet\'s sadness about illiteracy\' and soften the postman\'s command \'पढ़ ले!\' into polite persuasion.',
             decisions: [{ prompt: 'Why do both changes miss the poem\'s design?', options: [
@@ -52,71 +68,90 @@ export const c11_hin_ar_ch12_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_12_007', difficulty: 'standard',
-          question: 'गौण विषय (Sub-theme/Sub-plot) कथानक में मुख्य विषय के समानांतर चलने वाला वह.',
+          question: '\'पैक डकस डकस वपंजु न पुखरह\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक.',
           hint: 'यदि मुख्य विषय स्पष्ट नहीं है, तो तुरंत नोड **c11_hin_ar_cbse_12_006** (मुख्य विषय और.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि \'गौण विषय = कम शब्दों/प्रसंगों में आने वाला विषय\' — यानी मात्रात्मक.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme/Sub-plot) कथानक में मुख्य विषय के समानांतर चलने वाला वह द्वितीयक',
-                  options: ['गौण विषय (Sub-theme/Sub-plot) कथानक में मुख्य विषय के समानांतर चलने वाला वह द्वितीयक', '**पृष्ठभूमि** किसी रचना के सृजन के समय की ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक', '**कथानक (Plot)** कहानी की घटनाओं का तार्किक और कालानुक्रमिक (Chronological) क्रम है जो', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं के घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'पैक डकस डकस वपंजु न पुखरह\' के गौण विषय',
+                  options: ['\'पैक डकस डकस वपंजु न पुखरह\' के गौण विषय', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'पैक डकस डकस वपंजु न पुखरह\' का कथानक', '\'पैक डकस डकस वपंजु न पुखरह\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि मुख्य विषय स्पष्ट नहीं है, तो तुरंत नोड **c11_hin_ar_cbse_12_006** (मुख्य विषय और संदेश) पर.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि \'गौण विषय = कम शब्दों/प्रसंगों में आने वाला विषय\' — यानी मात्रात्मक (quantitative) आधार पर.' }
           ],
             remediations: { 'quantitative-functional-12': { steps: ['**चरण 1:** छात्र से कहें: "पाठ 12 के 3 प्रमुख पात्र चुनो जो नायक **नहीं** हैं। प्रत्येक का एक स्वतंत्र संघर्ष लिखो।".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_12_008', difficulty: 'standard',
-          question: '**बिंब (Imagery):** शब्दों के माध्यम से पाठक की इंद्रियों (दृष्टि, श्रवण, गंध.',
-          hint: 'यदि अटके: **पाठ 12 का सारांश (नोड 006)** दोबारा पढ़ें और किसी एक प्रमुख भाव (जैसे.',
-          misconception: 'छात्र अक्सर **\'रूपक\' को \'उपमा का संक्षिप्त रूप\'** मान लेते हैं — सोचते हैं "जैसे/जैसी हटाओ, रूपक बन गया"। यह भ्रांति.',
+          question: '\'पैक डकस डकस वपंजु न पुखरह\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
+          hint: 'If stuck, review the **Theme: Primary Theme and Message (c11_hin_ar_cbse_12_006)** node.',
+          misconception: 'Students consistently treat **repetition of a descriptive word** (e.g., "डक्यस डक्यस") as a metaphor simply because.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery):** शब्दों के माध्यम से पाठक की इंद्रियों (दृष्टि, श्रवण, गंध, स्पर्श,',
-                  options: ['**बिंब (Imagery):** शब्दों के माध्यम से पाठक की इंद्रियों (दृष्टि, श्रवण, गंध, स्पर्श,', '**पृष्ठभूमि** किसी रचना के सृजन के समय की ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक', '**कथानक (Plot)** कहानी की घटनाओं का तार्किक और कालानुक्रमिक (Chronological) क्रम है जो', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं के घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
-                  hint: 'यदि अटके: **पाठ 12 का सारांश (नोड 006)** दोबारा पढ़ें और किसी एक प्रमुख भाव (जैसे \'अकेलापन\'.',
-                  misconception: 'छात्र अक्सर **\'रूपक\' को \'उपमा का संक्षिप्त रूप\'** मान लेते हैं — सोचते हैं "जैसे/जैसी हटाओ, रूपक बन गया"। यह भ्रांति इसलिए होती है क्योंकि.' }
+                { id: 'a', prompt: 'In the poem, the phrase "डक्यस डक्यस" (dark dark) appears repeatedly. Is this primarily an auditory image, a visual image, or a metaphor?', answer: '"डक्यस डक्यस" is primarily a **visual image** (दृश्य बिंब)',
+                  options: ['"डक्यस डक्यस" is primarily a **visual image** (दृश्य बिंब)', 'डक्यस डक्यस', 'the poet repeats it so it must stand for something else'],
+                  hint: 'If stuck, review the **Theme: Primary Theme and Message (c11_hin_ar_cbse_12_006)** node.',
+                  misconception: 'Students consistently treat **repetition of a descriptive word** (e.g., "डक्यस डक्यस") as a metaphor simply because it is repeated, arguing.' },
+                { id: 'b', prompt: 'The poem contains the line: "पैक लूँज ध यम्ढ गे" (Paik is the threshold\'s Yama).', answer: 'Tenor (उपमेय) = Paik',
+                  options: ['Tenor (उपमेय) = Paik', 'Yama means death, so Paik brings death', 'threshold guardian', 'डक्यस डक्यस'],
+                  hint: 'If stuck, review the **Theme: Primary Theme and Message (c11_hin_ar_cbse_12_006)** node.',
+                  misconception: 'Students consistently treat **repetition of a descriptive word** (e.g., "डक्यस डक्यस") as a metaphor simply because it is repeated, arguing.' },
+                { id: 'c', prompt: 'Compare the tactile imagery in "बुढ़ हक्क न्कोकोन्ह :ेक्फुर् ल्स् एक्द्र ग्स र्फ्क्क म्ल्दक ब्क्व ब्स्ब क्को ध त्केउ् ल्स् त्क्म्क ग्क्व्क" (Old language.', answer: 'The tactile image (dry roti sticking) conveys **resistance and discomfort**',
+                  options: ['The tactile image (dry roti sticking) conveys **resistance and discomfort**', 'डक्यस डक्यस', 'the poet repeats it so it must stand for something else'],
+                  hint: 'If stuck, review the **Theme: Primary Theme and Message (c11_hin_ar_cbse_12_006)** node.',
+                  misconception: 'Students consistently treat **repetition of a descriptive word** (e.g., "डक्यस डक्यस") as a metaphor simply because it is repeated, arguing.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**दृश्य-श्रवण अलगाव अभ्यास:** छात्र को 5 वाक्य दें जिनमें मिश्रित बिंब हों; उसे **रंगीन कलम से** दृश्य=लाल, श्रवण=नीला.', '**रूपक-उपमा रूपांतरण खेल:** कोई उपमा दें (जैसे "चाँद चाँदी के थाल सा है") — छात्र को **रूपक में बदलने** को कहें ("चाँद.', '**पाठ-आधारित खोज:** पाठ 12 से 3 रूपक छाँटकर लाने को कहें; प्रत्येक के लिए **उपमेय-उपमान टेबल** बनवाएँ और एक वाक्य में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-consistently-treat-repetition-of': { steps: ['**Isolate the device**: Give the student two stripped sentences — "The night was dark dark dark" (repetition + visual.', '"The night was a black blanket" (metaphor).', 'Ask: "Which one *says* A *is* B?" 2.', '**Map the senses**: Have the student draw a 5-column table (Sight, Sound, Smell, Touch, Taste) and place every.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_12_008', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students consistently treat **repetition of a descriptive word** (e.g., "डक्यस डक्यस") as a metaphor simply because.',
+          parts: [
+                { id: 'a', prompt: 'Critique the following student interpretation: "The metaphor \'पैक वीएनह गे\' (Paik is a bird) means she is free and happy." Is this reading adequate?', answer: 'The reading is **inadequate**',
+                  options: ['The reading is **inadequate**', 'डक्यस डक्यस', 'the poet repeats it so it must stand for something else'],
+                  hint: 'If stuck, review the **Theme: Primary Theme and Message (c11_hin_ar_cbse_12_006)** node.',
+                  misconception: 'Students consistently treat **repetition of a descriptive word** (e.g., "डक्यस डक्यस") as a metaphor simply because it is repeated, arguing.' }
+          ],
+            remediations: { 'students-consistently-treat-repetition-of': { steps: ['**Isolate the device**: Give the student two stripped sentences — "The night was dark dark dark" (repetition + visual.', '"The night was a black blanket" (metaphor).', 'Ask: "Which one *says* A *is* B?" 2.', '**Map the senses**: Have the student draw a 5-column table (Sight, Sound, Smell, Touch, Taste) and place every.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_12_009', difficulty: 'standard',
-          question: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो प्रथम दृष्ट्या तर्क-विरुद्ध.',
+          question: '\'पैक डकस डकस वपंजु न पुखरह\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती.',
           hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_ar_cbse_12_008 (बिंब और रूपक)** के कार्यित उदाहरण.',
           misconception: '**विशिष्ट भ्रांति:** छात्र प्रायः मान लेते हैं कि **विरोधाभास = अलंकार (Figure of Speech) मात्र** है और **प्रतीक.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो प्रथम दृष्ट्या तर्क-विरुद्ध, असंगत या',
-                  options: ['**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो प्रथम दृष्ट्या तर्क-विरुद्ध, असंगत या', '**पृष्ठभूमि** किसी रचना के सृजन के समय की ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक', '**कथानक (Plot)** कहानी की घटनाओं का तार्किक और कालानुक्रमिक (Chronological) क्रम है जो', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं के घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'पैक डकस डकस वपंजु न पुखरह\' में विरोधाभास',
+                  options: ['\'पैक डकस डकस वपंजु न पुखरह\' में विरोधाभास', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'पैक डकस डकस वपंजु न पुखरह\' का कथानक', '\'पैक डकस डकस वपंजु न पुखरह\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_ar_cbse_12_008 (बिंब और रूपक)** के कार्यित उदाहरण (Worked.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र प्रायः मान लेते हैं कि **विरोधाभास = अलंकार (Figure of Speech) मात्र** है और **प्रतीक = स्थूल वस्तु का.' }
           ],
             remediations: { 'figure-of-speech': { steps: ['**मूलभूत भेद स्पष्ट करें:** छात्र से कहें — "विरोधाभास एक **कथन-रचना** (Statement-structure) है जो अर्थ का **तनाव**.', '**सूक्ष्म पाठ-अभ्यास दें:** पाठ 12 से 3-4 छोटे अंश दें जहां विरोधाभास/प्रतीक हों। छात्र से केवल **पहचान** न करवाएं.', '**तुलनात्मक विश्लेषण:** दो समान प्रतीकों (जैसे दो रचनाओं में \'दीया\') की तुलना करवाएं — दिखाएं कि **प्रसंग** कैसे प्रतीक.', '**लेखन-आधारित सुदृढ़ीकरण:** छात्र से एक पैराग्राफ लिखने को कहें जहां वह **एक विरोधाभास और एक प्रतीक का संयुक्त प्रयोग**.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_12_010', difficulty: 'standard',
-          question: 'पदावली (Vocabulary/Glossary) किसी पाठ में प्रयुक्त **मुख्य, कठिन, तत्सम, तद्भव.',
+          question: '\'पैक डकस डकस वपंजु न पुखरह\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की.',
           hint: 'यदि अटके: **\'शब्द-रचना (Morphology)\'** की NCERT कक्षा ९-१० व्याकरण इकाई दोहराएँ — विशेषतः.',
           misconception: '**विशिष्ट भ्रांति:** *"पदावली में शब्द का **पहला शब्दकोशीय अर्थ** लिख देना पर्याप्त है।"* **वास्तविकता:** हिंदी के.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली (Vocabulary/Glossary) किसी पाठ में प्रयुक्त **मुख्य, कठिन, तत्सम, तद्भव, देशज या',
-                  options: ['पदावली (Vocabulary/Glossary) किसी पाठ में प्रयुक्त **मुख्य, कठिन, तत्सम, तद्भव, देशज या', '**पृष्ठभूमि** किसी रचना के सृजन के समय की ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक', '**कथानक (Plot)** कहानी की घटनाओं का तार्किक और कालानुक्रमिक (Chronological) क्रम है जो', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं के घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'पैक डकस डकस वपंजु न पुखरह\' की पदावली',
+                  options: ['\'पैक डकस डकस वपंजु न पुखरह\' की पदावली', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'पैक डकस डकस वपंजु न पुखरह\' का कथानक', '\'पैक डकस डकस वपंजु न पुखरह\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके: **\'शब्द-रचना (Morphology)\'** की NCERT कक्षा ९-१० व्याकरण इकाई दोहराएँ — विशेषतः **कृदंत.',
                   misconception: '**विशिष्ट भ्रांति:** *"पदावली में शब्द का **पहला शब्दकोशीय अर्थ** लिख देना पर्याप्त है।"* **वास्तविकता:** हिंदी के **बहुअर्थी शब्द.' }
           ],
             remediations: { 'polysemous-words': { steps: ['**चरणबद्ध उपचार (Remediation):** १.', '**पृथक्करण अभ्यास:** छात्र को १० बहुअर्थी शब्द देकर **३-३ प्रसंग** में वाक्य बनाने को कहो (जैसे: *मृदु, कठोर, तीखा.', '**प्रसंग-चिह्नीकरण:** पाठ के वाक्य में **लक्ष्य शब्द को रेखांकित** करवाओ और पूछो: *"यहाँ शब्द किस \'अनुभूति\' को व्यक्त.', '**अर्थ-श्रेणी मिलान:** शब्दकोश के ३-४ अर्थ देकर पूछो: *"पाठ के वाक्य के लिए कौन सा अर्थ **सटीक बैठता है** और शेष.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_12_011', difficulty: 'standard',
-          question: 'पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा अपने विचारों को प्रभावी ढंग से.',
-          hint: 'अगर अटके तो कक्षा 9-10 के \'क्रिया और काल\' तथा \'वाक्य-रचना\' अध्याय दोहराएँ; विशेषकर.',
-          misconception: 'छात्र समझते हैं कि \'व्याकरण: पाठ में भाषा-प्रयोग\' का अर्थ केवल त्रुटि-शोधन (error correction) या परिभाषाएँ रटना है; वे.',
+          question: '\'पैक डकस डकस वपंजु न पुखरह\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द.',
+          hint: 'Review Class 10 Hindi grammar: verb conjugations, case endings, and common dialect.',
+          misconception: 'Students think non-standard grammar in literature is "incorrect" or "mistakes" rather than deliberate reप्रस्तुति.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा अपने विचारों को प्रभावी ढंग से व्यक्त करने के',
-                  options: ['पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा अपने विचारों को प्रभावी ढंग से व्यक्त करने के', '**पृष्ठभूमि** किसी रचना के सृजन के समय की ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक', '**कथानक (Plot)** कहानी की घटनाओं का तार्किक और कालानुक्रमिक (Chronological) क्रम है जो', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं के घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
-                  hint: 'अगर अटके तो कक्षा 9-10 के \'क्रिया और काल\' तथा \'वाक्य-रचना\' अध्याय दोहराएँ; विशेषकर \'अपूर्ण/पूर्ण.',
-                  misconception: 'छात्र समझते हैं कि \'व्याकरण: पाठ में भाषा-प्रयोग\' का अर्थ केवल त्रुटि-शोधन (error correction) या परिभाषाएँ रटना है; वे नहीं देखते कि लेखक.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'पैक डकस डकस वपंजु न पुखरह\' में भाषा-प्रयोग',
+                  options: ['\'पैक डकस डकस वपंजु न पुखरह\' में भाषा-प्रयोग', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'पैक डकस डकस वपंजु न पुखरह\' का कथानक', '\'पैक डकस डकस वपंजु न पुखरह\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'Review Class 10 Hindi grammar: verb conjugations, case endings, and common dialect differences.',
+                  misconception: 'Students think non-standard grammar in literature is "incorrect" or "mistakes" rather than deliberate reप्रस्तुति of speech communities.' }
           ],
-            remediations: { 'error-correction': { steps: ['छात्र से कहें: "पाठ 12 के किसी एक पृष्ठ के 5 वाक्य चुनो और प्रत्येक की क्रिया को रेखांकित करो — फिर पूछो: \'लेखक ने.', 'अगर बदल दें तो क्या बदलेगा?\'" 2.', 'एक ही वाक्य के 3 रूप लिखवाएँ (सक्रिय/निष्क्रिय, भूत/वर्तमान, सरल/संयुक्त) और हर रूप का अर्थ-प्रभाव लिखवाएँ। 3.', 'पाठ के किसी मुहावरे को शाब्दिक भाषा में बदलवाएँ और पूछें: "क्या खो गया?" 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'non-standard-grammar-in-literature': { steps: ['Play an audio recording of a Bhojpuri speaker reading the poem; ask students to transcribe phonetically what they hear.', 'Create a three-column table: Dialect Word | Standard Hindi Equivalent | Grammatical Category (verb, adverb, etc.).', 'Discuss: "If Renu wrote *padhti* instead of *phUgrh*, what would the poem lose?" 4.', 'Practice converting two dialect lines to standard Hindi, then reading both aloud to hear the rhythmic difference.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_12_012', difficulty: 'standard',
-          question: 'वस्तुनिष्ठ प्रश्न पाठ के **स्पष्ट तथ्यों, घटनाओं, पात्रों के नाम, समय, स्थान**.',
-          hint: 'यदि अटका हुआ महसूस हो तो **नोड 006 (मुख्य विषय और संदेश)** और **नोड 009 (विरोधाभास और.',
-          misconception: 'छात्र समझते हैं कि **\'आशय-सूचक प्रश्न का उत्तर = अपनी मन की राय\'** होता है, जबकि वास्तव में वह **पाठ-आधारित साक्ष्य.',
+          question: '\'पैक डकस डकस वपंजु न पुखरह\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
+          hint: 'If stuck, review the distinction between explicit statements and implied meanings using.',
+          misconception: 'Students often treat inferential questions as "opinion questions" where any personal guess is valid.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न पाठ के **स्पष्ट तथ्यों, घटनाओं, पात्रों के नाम, समय, स्थान** आदि की',
-                  options: ['वस्तुनिष्ठ प्रश्न पाठ के **स्पष्ट तथ्यों, घटनाओं, पात्रों के नाम, समय, स्थान** आदि की', '**पृष्ठभूमि** किसी रचना के सृजन के समय की ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक', '**कथानक (Plot)** कहानी की घटनाओं का तार्किक और कालानुक्रमिक (Chronological) क्रम है जो', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं के घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
-                  hint: 'यदि अटका हुआ महसूस हो तो **नोड 006 (मुख्य विषय और संदेश)** और **नोड 009 (विरोधाभास और प्रतीक)**.',
-                  misconception: 'छात्र समझते हैं कि **\'आशय-सूचक प्रश्न का उत्तर = अपनी मन की राय\'** होता है, जबकि वास्तव में वह **पाठ-आधारित साक्ष्य (textual evidence) से.' }
+                { id: 'a', prompt: 'The poem states: "पैक लकुंज ध यM+ध गस" (The mother has a longing for the courtyard).', answer: 'This is an inferential question',
+                  options: ['This is an inferential question', 'inference', 'imagination'],
+                  hint: 'If stuck, review the distinction between explicit statements and implied meanings using simple.',
+                  misconception: 'Students often treat inferential questions as "opinion questions" where any personal guess is valid.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को **दो रंगों के हाइलाइटर** दें: पीला = तथ्य (वस्तुनिष्ठ), गुलाबी = भाव/आशय (आशय-सूचक)। 2.', 'एक छोटा अनुच्छेद दें; कहें "हर वाक्य को सही रंग से मार्क करो।" 3.', 'फिर पूछें: "पीले वाक्यों से कौन-से प्रश्न बनेंगे?', 'अंत में एक-एक प्रश्न का **PEEL उत्तर** लिखवाएँ। यह **दृश्य + सक्रिय वर्गीकरण** भ्रम तोड़ता है।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-inferential-questions': { steps: ['If a student gives an unsupported inference, do not say "read carefully." Instead: (1) Ask them to underline the exact.', '(2) If they cannot, guide them to the relevant stanza (e.g., the mother\'s dialogue in the third stanza).', '(3) Model the inference aloud: "The text says X, which suggests Y because..." (4) Have them rewrite the answer using.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

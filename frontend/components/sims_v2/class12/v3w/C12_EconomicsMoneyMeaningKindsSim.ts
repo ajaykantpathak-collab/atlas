@@ -6,13 +6,13 @@ import C12_EconomicsMoneyMeaningKindsSim from '../../../simulations/c6_12/C12_Ec
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_economicsmoneymeaningkindssim: SimDef = {
     id: 'v3w_c12_economicsmoneymeaningkindssim',
-    title: 'Money Meaning Kinds',
+    title: 'Money: Meaning and Functions (Medium of Exchange, Unit of Account)',
     subtitle: 'This node covers the meaning of money, its four functions (medium of exchange, unit of.',
     classLevel: 12, subject: 'economics', topic: 'Money: Meaning and Functions (Medium of Exchange, Unit of Account)',
     chapters: [],
     nodeIds: ['c12_eco_cbse_09_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are at a local mandi in Maharashtra wanting to buy 5 kg of tomatoes.', goal: 'Master Money Meaning Kinds.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are at a local mandi in Maharashtra wanting to buy 5 kg of tomatoes.', goal: 'Master Money: Meaning and Functions (Medium of Exchange, Unit of Account).' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Money is a universally accepted medium of.', text: 'Money is a universally accepted medium of exchange that serves as a unit of account, a store of value, and a standard of deferred payment, enabling the valuation and exchange of goods and services.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -28,7 +28,7 @@ export const w_c12_economicsmoneymeaningkindssim: SimDef = {
             { text: 'All three are satisfied. Money circulated as a medium; prices (₹100/kg, ₹500/dhoti) served as unit of account; if.', faded: true, blankAnswer: 'Money resolves the deadlock by performing medium of.' }
             ] } }
     ],
-    explore: { component: C12_EconomicsMoneyMeaningKindsSim, prompt: 'Explore the interactive — Money Meaning Kinds' },
+    explore: { component: C12_EconomicsMoneyMeaningKindsSim, prompt: 'Explore the interactive — Money: Meaning and Functions (Medium of Exchange, Unit of Account)' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eco_cbse_09_001', difficulty: 'standard',
           question: 'Money is a universally accepted medium of exchange that serves as a unit of.',

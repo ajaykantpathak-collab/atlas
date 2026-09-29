@@ -19,7 +19,7 @@ export const c11_eng_w_ch23_p1: SimDef = {
         hook: 'Bond builds his criteria inductively out of a childhood of reading — the essay argues the way a library grows: one loved book at a time.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a pre-reading strategy where students investigate the author\'s biography, historical period, literary movement, and key philosophical ideas that shape.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Essays and Non-fiction\' (Woven Words, ch. 23) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_23_001', title: 'Your mission',
@@ -29,27 +29,27 @@ export const c11_eng_w_ch23_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_23_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a film without seeing the trailer, knowing the director, or understanding the historical setting — you would miss layers.',
+          caseStudy: { intro: 'Start with the author of \'Essays and Non-fiction\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'What is the primary purpose of the "Before You Read" stage when approaching a senior secondary essay like "What is a Good Book?"?', options: [
                 { text: 'The primary purpose is to activate prior knowledge, build a mental framework for the', outcome: 'The primary purpose is to activate prior knowledge, build a mental framework for the essay\'s.' },
                 { text: 'to summarize the essay', outcome: 'Not quite — Students treat "Before You Read" as a passive reading of the textbook\'s introductory blurb.', reveals: 'students-treat-before-you-read' },
                 { text: 'to memorize difficult words', outcome: 'Not quite — Students treat "Before You Read" as a passive reading of the textbook\'s introductory blurb.', reveals: 'students-treat-before-you-read' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_23_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you enter a lecture hall where a Nobel-winning astrophysicist is speaking about Shakespeare, Newton, and Beethoven.',
+          caseStudy: { intro: 'Identify where and when \'Essays and Non-fiction\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the explicit occasion and audience for Chandrasekhar’s “Patterns of Creativity” as stated in the text?', options: [
                 { text: 'The essay is an excerpt from The Nora and Edward Byerson Lecture titled ‘Shakespeare,', outcome: 'The essay is an excerpt from The Nora and Edward Byerson Lecture titled ‘Shakespeare, Newton and.' },
                 { text: 'a classroom lecture', outcome: 'Not quite — Students often treat “setting” in an essay as merely the *physical venue* (e.g., “a university.', reveals: 'students-often-treat-setting-in' },
                 { text: 'a scientific conference', outcome: 'Not quite — Students often treat “setting” in an essay as merely the *physical venue* (e.g., “a university.', reveals: 'students-often-treat-setting-in' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_23_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re watching a documentary where the narrator never appears on screen but you still form a clear impression of their personality — curious.',
+          caseStudy: { intro: 'Pick the central figure in \'Essays and Non-fiction\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the protagonist in a non-fiction essay like "Patterns of Creativity"?', options: [
                 { text: 'The protagonist is the author\'s constructed persona', outcome: 'The protagonist is the author\'s constructed persona — the intellectual voice that guides the.' },
                 { text: 'the main character like Shelley', outcome: 'Not quite — Students often confuse the *author* (the historical person S. Chandrasekhar) with the *protagonist*.', reveals: 'students-often-confuse-the-author' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_23_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re asked: "What is this essay really trying to tell us about science and poetry?" Don\'t start by hunting for a single sentence — essays like.',
+          caseStudy: { intro: 'Ask what \'Essays and Non-fiction\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the central question Chandrasekhar poses in the opening paragraph of "Patterns of Creativity"?', options: [
                 { text: 'The central question is: "why is there a difference in the patterns of creativity among', outcome: 'The central question is: "why is there a difference in the patterns of creativity among the.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students often believe the "primary theme" of this essay is simply "science vs.', reveals: 'the-primary-theme-of-this' },
@@ -74,7 +74,7 @@ export const c11_eng_w_ch23_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_23_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a pre-reading strategy where.',
+          question: '\'Essays and Non-fiction\' (Woven Words, ch. 23) — the context and background.',
           hint: 'Review "Nelson Mandela: Long Walk to Freedom" (Class 10) — analyze how the textbook\'s.',
           misconception: 'Students treat "Before You Read" as a passive reading of the textbook\'s introductory blurb, memorizing the author\'s.',
           parts: [
@@ -85,7 +85,7 @@ export const c11_eng_w_ch23_p1: SimDef = {
           ],
             remediations: { 'students-treat-before-you-read': { steps: ['If a student produces only biographical facts, intervene with: "Good, you know *who* wrote it.', 'Now: what *arguments* was this author known for?', 'What *disagreements* did they have with contemporaries?', 'Find one quote from another work by this author that uses the word \'culture\' or \'science\' — how does it preview this.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_23_002', difficulty: 'standard',
-          question: 'Plot is the sequence of causally linked events that form the narrative arc of.',
+          question: 'The plot/narrative arc of \'Essays and Non-fiction\' — what happens, in what.',
           hint: 'If stuck, review "First-Person Narrative Perspective" (c9_engl_ch1_7) and "Narrative.',
           misconception: 'Students often treat "plot" and "narrative structure" as interchangeable terms and search for a fictional-style plot.',
           parts: [
@@ -96,18 +96,18 @@ export const c11_eng_w_ch23_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-plot-and': { steps: ['Give the student a printed copy of the essay with paragraph numbers.', 'Ask them to write a one-sentence "function label" for each paragraph (e.g., "Paragraph 3: introduces first criterion.', 'Have them group paragraphs that share a function.', 'Guide them to see the pattern: anecdote → criterion → anecdote → criterion → synthesis → circular return.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_23_003', difficulty: 'standard',
-          question: 'In a non-fiction essay, **setting** refers to the intellectual, historical, and.',
+          question: 'The setting of \'Essays and Non-fiction\' — the place, time and atmosphere the.',
           hint: 'If stuck, review c7_engl_ch04_005 (Atmosphere: Heat, Silence and Anticipation in the.',
           misconception: 'Students often treat “setting” in an essay as merely the *physical venue* (e.g., “a university hall”) and “atmosphere”.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'In a non-fiction essay, **setting** refers to the intellectual, historical, and cultural',
-                  options: ['In a non-fiction essay, **setting** refers to the intellectual, historical, and cultural', '"Before You Read: Context and Background" is a pre-reading strategy where students', 'Plot is the sequence of causally linked events that form the narrative arc of a text,', 'In a non-fiction essay, the protagonist is the author\'s constructed persona'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'Essays and Non-fiction\'',
+                  options: ['The setting of \'Essays and Non-fiction\'', '\'Essays and Non-fiction\' (Woven Words, ch', 'The plot/narrative arc of \'Essays and Non-fiction\'', 'Character analysis in \'Essays and Non-fiction\''],
                   hint: 'If stuck, review c7_engl_ch04_005 (Atmosphere: Heat, Silence and Anticipation in the Jungle).',
                   misconception: 'Students often treat “setting” in an essay as merely the *physical venue* (e.g., “a university hall”) and “atmosphere” as *mood words*.' }
           ],
             remediations: { 'students-often-treat-setting-in': { steps: ['Return to the “About the Author” note and the lecture title: have the student rewrite them as a one-sentence.', 'Give the student three short excerpts (Wordsworth quote, Darwin confession, Shelley’s “unacknowledged legislators”) and.', 'Have them complete a two-column table: Column A = “What is being discussed?” (setting), Column B = “How does the author.', 'Finally, ask them to explain *why* Chandrasekhar moves from Wordsworth to Shelley to Darwin to Faraday — the answer.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_23_004', difficulty: 'standard',
-          question: 'In a non-fiction essay, the protagonist is the author\'s constructed persona.',
+          question: 'Character analysis in \'Essays and Non-fiction\' — the central figure(s), their.',
           hint: 'Review the distinction between author and narrator using Anne Frank\'s diary.',
           misconception: 'Students often confuse the *author* (the historical person S. Chandrasekhar) with the *protagonist* (the crafted.',
           parts: [
@@ -126,7 +126,7 @@ export const c11_eng_w_ch23_p1: SimDef = {
           ],
             remediations: { 'students-often-confuse-the-author': { steps: ['Have the student highlight every first-person pronoun and verb ("I shall," "It seems to me," "let me read") in the.', 'For each, ask: "What does this choice reveal about the narrator\'s attitude toward the reader and the material?" 3.', 'Have them write a one-paragraph profile using *only* those highlighted moments.', 'Compare with a biography of Chandrasekhar to see what the essay includes and excludes.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_23_005', difficulty: 'standard',
-          question: 'In a non-fiction essay like "Patterns of Creativity," supporting characters are.',
+          question: 'Supporting characters in \'Essays and Non-fiction\' — the secondary figures who.',
           hint: 'If stuck, review "rhetorical function" using the Postmaster analysis.',
           misconception: 'Students often treat the referenced figures as "examples" to be memorized for content recall (e.g., "Wordsworth hated.',
           parts: [
@@ -148,7 +148,7 @@ export const c11_eng_w_ch23_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-the-referenced': { steps: ['Give the student a two-column table: Column A = Figure, Column B = Function in Argument (e.g., "Wordsworth →.', 'Ask them to fill Column B for five figures using only the essay\'s transition words ("Thus," "Or consider this," "Lest.', 'Have them rewrite one paragraph of the essay replacing a figure with a modern equivalent, forcing them to articulate.', 'Finally, ask: "If you removed Darwin, what step in the argument would collapse?" This shifts focus from content.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_23_006', difficulty: 'standard',
-          question: 'The primary theme of an essay is its central controlling idea or thesis that.',
+          question: 'The primary theme of \'Essays and Non-fiction\' — the central idea the whole text.',
           hint: 'If stuck, review the "structure of a discursive essay" concept from Class 10 (e.g.',
           misconception: 'Students often believe the "primary theme" of this essay is simply "science vs.',
           parts: [

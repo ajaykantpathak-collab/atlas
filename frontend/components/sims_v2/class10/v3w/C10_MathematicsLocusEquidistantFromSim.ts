@@ -6,13 +6,13 @@ import C10_MathematicsLocusEquidistantFromSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_mathematicslocusequidistantfromsim: SimDef = {
     id: 'v3w_c10_mathematicslocusequidistantfromsim',
-    title: 'Locus Equidistant From',
+    title: 'Distance Formula: Applications and Calculations',
     subtitle: 'This node covers all standard applications of the distance formula in Class 10: direct.',
     classLevel: 10, subject: 'mathematics', topic: 'Distance Formula: Applications and Calculations',
     chapters: [],
     nodeIds: ['c10_math_cbse_07_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you\'re planning a cycling route from your home at point A(2, 3) to your friend\'s house at point B(8,.', goal: 'Master Locus Equidistant From.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you\'re planning a cycling route from your home at point A(2, 3) to your friend\'s house at point B(8,.', goal: 'Master Distance Formula: Applications and Calculations.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'The distance formula calculates the.', text: 'The distance formula calculates the straight-line distance between two points P(x₁, y₁) and Q(x₂, y₂) in the Cartesian plane using the formula d = √[(x₂ - x₁)² + (y₂ - y₁)²], derived from the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -29,7 +29,7 @@ export const w_c10_mathematicslocusequidistantfromsim: SimDef = {
             { text: 'Triangle type: AB = BC = 5 units, CA = 6 units. Two sides equal → Isosceles triangle.', faded: true, blankAnswer: 'Perimeter = 1600 metres; Triangle is isosceles.' }
             ] } }
     ],
-    explore: { component: C10_MathematicsLocusEquidistantFromSim, prompt: 'Explore the interactive — Locus Equidistant From' },
+    explore: { component: C10_MathematicsLocusEquidistantFromSim, prompt: 'Explore the interactive — Distance Formula: Applications and Calculations' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_math_cbse_07_002', difficulty: 'standard',
           question: 'The distance formula calculates the straight-line distance between two points.',

@@ -19,24 +19,24 @@ export const c11_eng_w_ch10_p3: SimDef = {
         hook: 'The sonnet argues like a lawyer — define by negation, turn at \'O no, it is an ever-fixed mark,\' then stake everything on a verdict no one can overturn.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining a text\'s structure, language, and techniques to interpret its deeper meaning, evaluate the effectiveness of its arguments, and construct.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'ever-fixed mark\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_10_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Mark the ABAB CDCD EFEF GG skeleton, find the volta at line 9, and try building your own quatrain that argues by negation.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_10_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are in the exam hall and the question reads: "How does Shakespeare use nautical imagery to define true love in Sonnet 116?" You feel stuck because.',
+          caseStudy: { intro: 'For written answers on \'ever-fixed mark\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing literature answers?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explain, Layout', outcome: 'Not quite — Students believe that "writing about a poem" means summarizing it line by line or listing poetic.', reveals: 'writing-about-a-poem-means' },
                 { text: 'writing about a poem', outcome: 'Not quite — Students believe that "writing about a poem" means summarizing it line by line or listing poetic.', reveals: 'writing-about-a-poem-means' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_10_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a college seminar discussing whether Shakespeare\'s definition of love in Sonnet 116 is realistic or idealistic.',
+          caseStudy: { intro: 'Talk through \'ever-fixed mark\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the three essential components of an effective literary discussion point at senior secondary level?', options: [
                 { text: 'An effective literary discussion point requires: (1) a clear interpretive claim about the', outcome: 'An effective literary discussion point requires: (1) a clear interpretive claim about the text, (2).' },
                 { text: 'opinions', outcome: 'Not quite — Students believe "discussion" means sharing personal opinions about love ("I think love does.', reveals: 'discussion-means-sharing-personal-opinions' },
@@ -56,12 +56,12 @@ export const c11_eng_w_ch10_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_10_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining a text\'s structure.',
+          question: 'Critical thinking on \'ever-fixed mark\' — analysing the text to reach.',
           hint: 'Review the sonnet structure (quatrain/couplet) and the definition of metaphor from.',
           misconception: 'Students often treat the poem as a simple romantic declaration ("Shakespeare says love lasts forever") and miss its.',
           parts: [
@@ -70,9 +70,9 @@ export const c11_eng_w_ch10_p3: SimDef = {
                   hint: 'Review the sonnet structure (quatrain/couplet) and the definition of metaphor from.',
                   misconception: 'Students often treat the poem as a simple romantic declaration ("Shakespeare says love lasts forever") and miss its *argumentative.' }
           ],
-            remediations: { 'students-often-treat-the-poem': { steps: ['Have the student rewrite the first quatrain as a formal logical syllogism: "Premise 1: True love admits no impediments.', 'Premise 2: Altering love admits impediments.', 'Conclusion: Altering love is not true love." 2.', 'Ask them to circle every negative word (not, never, no, nor) and write the positive assertion each one denies.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-poem': { steps: ['Have the student rewrite the first quatrain as a formal logical syllogism: "Premise 1: True love admits no impediments.', 'Premise 2: Altering love admits impediments.', 'Conclusion: Altering love is not true love." 2.', 'Ask them to circle every negative word (not, never, no, nor) and write the positive assertion each one denies.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_10_014', difficulty: 'standard',
-          question: 'Writing Skills: Based on the Chapter refers to the ability to compose.',
+          question: 'Writing skills from \'ever-fixed mark\' — using the text as a model.',
           hint: 'Review the PEEL method from c8_engl_ch1_17 and practice embedding quotations from the.',
           misconception: 'Students believe that "writing about a poem" means summarizing it line by line or listing poetic devices (alliteration.',
           parts: [
@@ -89,7 +89,7 @@ export const c11_eng_w_ch10_p3: SimDef = {
                   hint: 'Review the PEEL method from c8_engl_ch1_17 and practice embedding quotations from the poem\'s.',
                   misconception: 'Students believe that "writing about a poem" means summarizing it line by line or listing poetic devices (alliteration, metaphor) without.' }
           ],
-            remediations: { 'writing-about-a-poem-means': { steps: ['Have the student highlight every device they spot in a stanza.', 'For each, ask: "What word does this device emphasize?', 'What idea does that word carry?" 3.', 'Model turning one device into a full Explanation sentence: "The alliteration on \'alter/alteration\' creates a sonic echo.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-about-a-poem-means': { steps: ['Have the student highlight every device they spot in a stanza.', 'For each, ask: "What word does this device emphasize?', 'What idea does that word carry?" 3.', 'Model turning one device into a full Explanation sentence: "The alliteration on \'alter/alteration\' creates a sonic echo.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_10_014', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -104,9 +104,9 @@ export const c11_eng_w_ch10_p3: SimDef = {
                   hint: 'Review the PEEL method from c8_engl_ch1_17 and practice embedding quotations from the poem\'s.',
                   misconception: 'Students believe that "writing about a poem" means summarizing it line by line or listing poetic devices (alliteration, metaphor) without.' }
           ],
-            remediations: { 'writing-about-a-poem-means': { steps: ['Have the student highlight every device they spot in a stanza.', 'For each, ask: "What word does this device emphasize?', 'What idea does that word carry?" 3.', 'Model turning one device into a full Explanation sentence: "The alliteration on \'alter/alteration\' creates a sonic echo.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-about-a-poem-means': { steps: ['Have the student highlight every device they spot in a stanza.', 'For each, ask: "What word does this device emphasize?', 'What idea does that word carry?" 3.', 'Model turning one device into a full Explanation sentence: "The alliteration on \'alter/alteration\' creates a sonic echo.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_10_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to structured oral activities.',
+          question: 'Discussion points on \'ever-fixed mark\' — speaking and listening around the text.',
           hint: 'Review c11_eng_w_cbse_10_013 (Critical Thinking) for PEEL structure and.',
           misconception: 'Students believe "discussion" means sharing personal opinions about love ("I think love does change") rather than.',
           parts: [
@@ -119,7 +119,7 @@ export const c11_eng_w_ch10_p3: SimDef = {
                   hint: 'Review c11_eng_w_cbse_10_013 (Critical Thinking) for PEEL structure and c11_eng_w_cbse_10_008.',
                   misconception: 'Students believe "discussion" means sharing personal opinions about love ("I think love does change") rather than analyzing Shakespeare\'s.' }
           ],
-            remediations: { 'discussion-means-sharing-personal-opinions': { steps: ['If a student offers personal opinion instead of textual analysis: 1.', 'Acknowledge: "That\'s a real-life perspective." 2.', 'Redirect: "Let\'s see how Shakespeare addresses that in line 11: \'Love alters not with his brief hours and weeks.\' What.', 'Model: "So a discussion point could be: \'Does limiting alteration to \'brief hours and weeks\' make Shakespeare\'s claim.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'discussion-means-sharing-personal-opinions': { steps: ['If a student offers personal opinion instead of textual analysis: 1.', 'Acknowledge: "That\'s a real-life perspective." 2.', 'Redirect: "Let\'s see how Shakespeare addresses that in line 11: \'Love alters not with his brief hours and weeks.\' What.', 'Model: "So a discussion point could be: \'Does limiting alteration to \'brief hours and weeks\' make Shakespeare\'s claim.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

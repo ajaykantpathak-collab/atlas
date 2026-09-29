@@ -6,13 +6,13 @@ import C12_EconomicsPublicRevenueMeaningSim from '../../../simulations/c6_12/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_economicspublicrevenuemeaningsim: SimDef = {
     id: 'v3w_c12_economicspublicrevenuemeaningsim',
-    title: 'Public Revenue Meaning',
+    title: 'Functions of the Central Bank (RBI): Issuer of Currency and Banker to Government',
     subtitle: 'This node covers ONLY two functions of RBI: (a) Issuer of Currency — monopoly, Minimum.',
     classLevel: 12, subject: 'economics', topic: 'Functions of the Central Bank (RBI): Issuer of Currency and Banker to Government',
     chapters: [],
     nodeIds: ['c12_eco_cbse_09_003', 'c12_eco_cbse_01_008', 'c12_eco_cbse_11_001', 'c12_eco_cbse_11_006', 'c12_eco_cbse_04_006', 'c12_eco_cbse_01_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you hold a ₹500 note — notice the promise "I promise to pay the bearer the sum of five hundred.', goal: 'Master Public Revenue Meaning.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you hold a ₹500 note — notice the promise "I promise to pay the bearer the sum of five hundred.', goal: 'Master Functions of the Central Bank (RBI): Issuer of Currency and Banker to Government.' },
     discovery: {
         question: 'Compare the currency issue mechanism under the Proportional Reserve System (pre-1957) and the Minimum Reserve System (post-1957).',
         options: ['**Correct answer:** Minimum Reserve System allows greater elasticity', 'reserve backing', 'flexibility'],
@@ -80,7 +80,7 @@ export const w_c12_economicspublicrevenuemeaningsim: SimDef = {
             { text: 'Conclude: This is a macroeconomic issue because it involves a macroeconomic agent (RBI) using a policy tool to target.', faded: true, blankAnswer: 'Macroeconomic. Sectors: Government (RBI), Firms,.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_eco_cbse_01_008', title: 'Identify each idea',
-          dissect: { specimen: 'Public Revenue Meaning', spots: [
+          dissect: { specimen: 'Functions of the Central Bank (RBI): Issuer of Currency and Banker to Government', spots: [
             { id: 's1', label: 'The Reserve Bank of India', prompt: 'Which idea is this? — The Reserve Bank of India (RBI) as the central bank performs two foundational functions:.', answer: 'The Reserve Bank of India', options: ['The Reserve Bank of India', 'Economic agents are the decision-making', 'A government budget is an', 'Fiscal deficit is the excess'] },
             { id: 's2', label: 'Economic agents are the decision-making', prompt: 'Which idea is this? — Economic agents are the decision-making units in an economy that undertake production,.', answer: 'Economic agents are the decision-making', options: ['Economic agents are the decision-making', 'The Reserve Bank of India', 'A government budget is an', 'Fiscal deficit is the excess'] },
             { id: 's3', label: 'A government budget is an', prompt: 'Which idea is this? — A government budget is an annual financial statement presenting the government\'s.', answer: 'A government budget is an', options: ['A government budget is an', 'The Reserve Bank of India', 'Economic agents are the decision-making', 'Fiscal deficit is the excess'] },
@@ -89,7 +89,7 @@ export const w_c12_economicspublicrevenuemeaningsim: SimDef = {
             { id: 's6', label: 'Microeconomics studies the behaviour of', prompt: 'Which idea is this? — Microeconomics studies the behaviour of individual economic agents — households and firms.', answer: 'Microeconomics studies the behaviour of', options: ['Microeconomics studies the behaviour of', 'The Reserve Bank of India', 'Economic agents are the decision-making', 'A government budget is an'] }
           ] } }
     ],
-    explore: { component: C12_EconomicsPublicRevenueMeaningSim, prompt: 'Explore the interactive — Public Revenue Meaning' },
+    explore: { component: C12_EconomicsPublicRevenueMeaningSim, prompt: 'Explore the interactive — Functions of the Central Bank (RBI): Issuer of Currency and Banker to Government' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eco_cbse_09_003', difficulty: 'standard',
           question: 'The Reserve Bank of India (RBI) as the central bank performs two foundational.',

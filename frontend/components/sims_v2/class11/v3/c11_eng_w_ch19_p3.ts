@@ -19,7 +19,7 @@ export const c11_eng_w_ch19_p3: SimDef = {
         hook: 'The death-wish is the speaker\'s, not the bird\'s — the poem\'s engine is the gap between a mortal who aches and a song that outlives him.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining a text\'s deeper layers—such as thematic tensions, structural choices, and the interplay of literary devices—to form an independent.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Ode to a Nightingale\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_19_013', title: 'Your mission',
@@ -29,21 +29,21 @@ export const c11_eng_w_ch19_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_19_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are asked: "Why does the speaker\'s mood shift from ecstatic union with the bird to despairing isolation in the final stanza?" Begin by rereading.',
+          caseStudy: { intro: 'Analyse \'Ode to a Nightingale\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the classical allusion "Lethe" in stanza 1, and what does it suggest about the speaker\'s initial state of mind?', options: [
                 { text: 'Lethe is the river of forgetfulness in Greek mythology', outcome: 'Lethe is the river of forgetfulness in Greek mythology; the speaker compares his numbness to having.' },
                 { text: 'a river', outcome: 'Not quite — Students often treat the nightingale as a *personal* symbol of Keats\'s own voice, reading the poem.', reveals: 'students-often-treat-the-nightingale' },
                 { text: 'Lethe-wards', outcome: 'Not quite — Students often treat the nightingale as a *personal* symbol of Keats\'s own voice, reading the poem.', reveals: 'students-often-treat-the-nightingale' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_19_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you sit in the exam hall and see the question: "How does Keats contrast the immortal bird with mortal man in \'Ode to a Nightingale\'?',
+          caseStudy: { intro: 'For written answers on \'Ode to a Nightingale\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing literature answers for CBSE Class 11?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explain, Language', outcome: 'Not quite — Students believe that writing a good literature answer means *retelling the poem\'s story* in their.', reveals: 'writing-a-good-literature-answer' },
                 { text: 'Keats feels sad', outcome: 'Not quite — Students believe that writing a good literature answer means *retelling the poem\'s story* in their.', reveals: 'writing-a-good-literature-answer' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_19_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a literature circle where everyone has read "Ode to a Nightingale" but no one knows how to start a meaningful conversation.',
+          caseStudy: { intro: 'Talk through \'Ode to a Nightingale\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of a literary discussion point in a classroom setting?', options: [
                 { text: 'The primary purpose is to deepen collective understanding of the text by sharing', outcome: 'The primary purpose is to deepen collective understanding of the text by sharing interpretations.' },
                 { text: 'to say whether you liked the poem', outcome: 'Not quite — Students often believe a good discussion means speaking frequently and sharing personal feelings.', reveals: 'a-good-discussion-means-speaking' }
@@ -67,7 +67,7 @@ export const c11_eng_w_ch19_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining a text\'s deeper.',
+          question: 'Critical thinking on \'Ode to a Nightingale\' — analysing the text to reach.',
           hint: 'Review stanza-by-stanza summary (node 002) and device identification (nodes 008, 009).',
           misconception: 'Students often treat the nightingale as a *personal* symbol of Keats\'s own voice, reading the poem as autobiography.',
           parts: [
@@ -82,7 +82,7 @@ export const c11_eng_w_ch19_p3: SimDef = {
           ],
             remediations: { 'students-often-treat-the-nightingale': { steps: ['Have the student reread stanzas 4 and 7 side-by-side, highlighting every pronoun referring to the bird ("thou," "thee").', 'Ask: "Does the bird die in stanza 7?', 'Guide them to see the bird\'s song *fades* ("buried deep") but the bird itself is unchanged; the speaker remains alive.', 'Assign a quick-write: "Explain why calling the bird \'immortal\' in stanza 4 and \'plaintive\' in stanza 7 is not.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter refers to the ability to compose.',
+          question: 'Writing skills from \'Ode to a Nightingale\' — using the text as a model.',
           hint: 'Review c8_engl_ch1_17 (PEEL method) and c7_engl_ch04_015 (embedding quotes) — practice.',
           misconception: 'Students believe that writing a good literature answer means *retelling the poem\'s story* in their own words and adding.',
           parts: [
@@ -116,7 +116,7 @@ export const c11_eng_w_ch19_p3: SimDef = {
           ],
             remediations: { 'writing-a-good-literature-answer': { steps: ['**Stop summarising:** Give the student a 3-mark question and ask them to highlight every sentence that is *not*.', 'If >50% is summary, they rewrite using only PEEL.', '**Device-to-Effect Drill:** Provide 5 quotes from the poem (e.g., "leaden-eyed despairs", "beaded bubbles winking").', 'Student must write: "Device: [metaphor/personification].'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Ode to a Nightingale\' — speaking and listening around the.',
           hint: 'If stuck, review c11_eng_w_cbse_19_013 (Critical Thinking: Analysis and Interpretation).',
           misconception: 'Students often believe a good discussion means speaking frequently and sharing personal feelings about the poem.',
           parts: [

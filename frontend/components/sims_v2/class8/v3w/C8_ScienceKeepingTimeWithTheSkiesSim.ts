@@ -6,13 +6,13 @@ import C8_ScienceKeepingTimeWithTheSkiesSim from '../../../simulations/c6_12/C8_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_sciencekeepingtimewiththeskiessim: SimDef = {
     id: 'v3w_c8_sciencekeepingtimewiththeskiessim',
-    title: 'Keeping Time With The Skies',
+    title: 'Time Measurement Using Moon Phases: Ancient Calendars',
     subtitle: 'Covers the concept of lunar months, the structure of purely lunar calendars (like the.',
     classLevel: 8, subject: 'science', topic: 'Time Measurement Using Moon Phases: Ancient Calendars',
     chapters: [],
     nodeIds: ['c8_physics_ch7_7'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Look at a calendar hanging in your kitchen — notice how months have 30 or 31 days but the Moon\'s phases don\'t.', goal: 'Master Keeping Time With The Skies.' },
+    scenario: { role: 'a class 8 learner', intro: 'Look at a calendar hanging in your kitchen — notice how months have 30 or 31 days but the Moon\'s phases don\'t.', goal: 'Master Time Measurement Using Moon Phases: Ancient Calendars.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'A lunar calendar measures time by tracking.', text: 'A lunar calendar measures time by tracking the cyclic pattern of Moon phases, where one month equals one complete lunar cycle (synodic month) of approximately 29.5 days from New Moon to the next New.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -28,7 +28,7 @@ export const w_c8_sciencekeepingtimewiththeskiessim: SimDef = {
             { text: 'Verify: 29.33 is close to 29.53; more data would converge to 29.53.', faded: true, blankAnswer: 'Average lunar month ≈ 29.3 days (from this small sample);.' }
             ] } }
     ],
-    explore: { component: C8_ScienceKeepingTimeWithTheSkiesSim, prompt: 'Explore the interactive — Keeping Time With The Skies' },
+    explore: { component: C8_ScienceKeepingTimeWithTheSkiesSim, prompt: 'Explore the interactive — Time Measurement Using Moon Phases: Ancient Calendars' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch7_7', difficulty: 'standard',
           question: 'A lunar calendar measures time by tracking the cyclic pattern of Moon phases,.',

@@ -6,13 +6,13 @@ import C12_PhysicsSelfinductionSelfinductanceSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsselfinductionselfinductancesim: SimDef = {
     id: 'v3w_c12_physicsselfinductionselfinductancesim',
-    title: 'Selfinduction Selfinductance',
+    title: 'Faraday\'s Law of Electromagnetic Induction',
     subtitle: 'This node covers: magnetic flux definition and calculation, Faraday\'s law statement and.',
     classLevel: 12, subject: 'physics', topic: 'Faraday\'s Law of Electromagnetic Induction',
     chapters: [],
     nodeIds: ['c12_phy_cbse_06_001', 'c12_phy_cbse_06_004', 'c12_phy_cbse_06_006', 'c12_phy_cbse_07_003', 'c12_phy_cbse_06_002', 'c12_phy_cbse_06_003', 'c12_phy_cbse_07_002', 'c12_phy_cbse_07_008', 'c12_phy_cbse_06_005', 'c12_phy_cbse_06_007', 'c12_phy_cbse_07_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a ceiling fan\'s motor — when you switch it on, the fan starts rotating due to induced currents from.', goal: 'Master Selfinduction Selfinductance.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a ceiling fan\'s motor — when you switch it on, the fan starts rotating due to induced currents from.', goal: 'Master Faraday\'s Law of Electromagnetic Induction.' },
     discovery: {
         question: 'A square loop of side 20 cm and resistance 2 Ω is placed with its plane perpendicular to a uniform magnetic field of 0.5 T.',
         options: ['Given: side = 0.2 m → A = 0.04 m²', 'A powerful magnet placed near a coil induces current', 'magnetic field lines cutting the coil'],
@@ -71,7 +71,7 @@ export const w_c12_physicsselfinductionselfinductancesim: SimDef = {
             { text: 'To maintain constant velocity, external force must balance magnetic force: \\(F_{\\text{ext}} = 2.3 \\times 10^{-4}\\.', faded: true, blankAnswer: '(a) 4.8 mV, (b) 2.4 mA clockwise, (c) \\(2.3 \\times 10^{-4}\\.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_06_004', title: 'Identify each idea',
-          dissect: { specimen: 'Selfinduction Selfinductance', spots: [
+          dissect: { specimen: 'Faraday\'s Law of Electromagnetic Induction', spots: [
             { id: 's1', label: 'Faradays Law of Electromagnetic Induction', prompt: 'Which idea is this? — Faraday\'s Law of Electromagnetic Induction states that the magnitude of the induced.', answer: 'Faradays Law of Electromagnetic Induction', options: ['Faradays Law of Electromagnetic Induction', 'Self-induction is the phenomenon where', 'The energy stored in an', 'Inductive reactance X_L is the'] },
             { id: 's2', label: 'Self-induction is the phenomenon where', prompt: 'Which idea is this? — Self-induction is the phenomenon where a changing current in a coil induces an opposing.', answer: 'Self-induction is the phenomenon where', options: ['Self-induction is the phenomenon where', 'Faradays Law of Electromagnetic Induction', 'The energy stored in an', 'Inductive reactance X_L is the'] },
             { id: 's3', label: 'The energy stored in an', prompt: 'Which idea is this? — The energy stored in an inductor is the magnetic potential energy accumulated in the.', answer: 'The energy stored in an', options: ['The energy stored in an', 'Faradays Law of Electromagnetic Induction', 'Self-induction is the phenomenon where', 'Inductive reactance X_L is the'] },
@@ -80,7 +80,7 @@ export const w_c12_physicsselfinductionselfinductancesim: SimDef = {
             { id: 's6', label: 'Motional EMF is the electromotive', prompt: 'Which idea is this? — Motional EMF is the electromotive force induced across the ends of a conductor moving.', answer: 'Motional EMF is the electromotive', options: ['Motional EMF is the electromotive', 'Faradays Law of Electromagnetic Induction', 'Self-induction is the phenomenon where', 'The energy stored in an'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsSelfinductionSelfinductanceSim, prompt: 'Explore the interactive — Selfinduction Selfinductance' },
+    explore: { component: C12_PhysicsSelfinductionSelfinductanceSim, prompt: 'Explore the interactive — Faraday\'s Law of Electromagnetic Induction' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_06_001', difficulty: 'standard',
           question: 'Faraday\'s Law of Electromagnetic Induction states that the magnitude of the.',

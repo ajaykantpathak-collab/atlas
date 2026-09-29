@@ -6,13 +6,13 @@ import C8_MathematicsDataHandlingSim from '../../../simulations/c6_12/C8_Mathema
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicsdatahandlingsim: SimDef = {
     id: 'v3w_c8_mathematicsdatahandlingsim',
-    title: 'Data Handling',
+    title: 'Applications of Simple Interest in Real Life',
     subtitle: 'Covers simple interest applications with annual rates, time periods in years/months/days,.',
     classLevel: 8, subject: 'mathematics', topic: 'Applications of Simple Interest in Real Life',
     chapters: [],
     nodeIds: ['c8_math_ch8_10', 'c8_math_ch8_4', 'c8_math_ch14_6', 'c8_math_ch6_2'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine your older sibling wants to buy a second-hand scooter for ₹45,000 but only has ₹30,000 saved.', goal: 'Master Data Handling.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine your older sibling wants to buy a second-hand scooter for ₹45,000 but only has ₹30,000 saved.', goal: 'Master Applications of Simple Interest in Real Life.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Simple interest applications involve using.', text: 'Simple interest applications involve using the formula \\(SI = \\frac{P \\times R \\times T}{100}\\) to solve real-world financial problems where interest is calculated only on the original principal.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -55,14 +55,14 @@ export const w_c8_mathematicsdatahandlingsim: SimDef = {
             { text: 'Write final expanded expression: \\(100x + 48y\\) rupees. Verify: If \\(x=100, y=150\\), per student = \\(250+180=430\\),.', faded: true, blankAnswer: '\\(100x + 48y\\) rupees' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch8_4', title: 'Identify each idea',
-          dissect: { specimen: 'Data Handling', spots: [
+          dissect: { specimen: 'Applications of Simple Interest in Real Life', spots: [
             { id: 's1', label: 'Simple interest applications involve using', prompt: 'Which idea is this? — Simple interest applications involve using the formula \\(SI = \\frac{P \\times R \\times.', answer: 'Simple interest applications involve using', options: ['Simple interest applications involve using', 'Finding the percentage of a', 'A trapezium is a quadrilateral', 'The distributive property of multiplication'] },
             { id: 's2', label: 'Finding the percentage of a', prompt: 'Which idea is this? — Finding the percentage of a given quantity means calculating the part of the quantity.', answer: 'Finding the percentage of a', options: ['Finding the percentage of a', 'Simple interest applications involve using', 'A trapezium is a quadrilateral', 'The distributive property of multiplication'] },
             { id: 's3', label: 'A trapezium is a quadrilateral', prompt: 'Which idea is this? — A trapezium is a quadrilateral with exactly one pair of parallel sides.', answer: 'A trapezium is a quadrilateral', options: ['A trapezium is a quadrilateral', 'Simple interest applications involve using', 'Finding the percentage of a', 'The distributive property of multiplication'] },
             { id: 's4', label: 'The distributive property of multiplication', prompt: 'Which idea is this? — The distributive property of multiplication over addition states that multiplying a sum.', answer: 'The distributive property of multiplication', options: ['The distributive property of multiplication', 'Simple interest applications involve using', 'Finding the percentage of a', 'A trapezium is a quadrilateral'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsDataHandlingSim, prompt: 'Explore the interactive — Data Handling' },
+    explore: { component: C8_MathematicsDataHandlingSim, prompt: 'Explore the interactive — Applications of Simple Interest in Real Life' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch8_10', difficulty: 'standard',
           question: 'Simple interest applications involve using the formula \\(SI = \\frac{P \\times R.',

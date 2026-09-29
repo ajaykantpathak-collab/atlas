@@ -6,13 +6,13 @@ import C12_InformaticsPracticesSQLFunctionsSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_informaticspracticessqlfunctionssim: SimDef = {
     id: 'v3w_c12_informaticspracticessqlfunctionssim',
-    title: 'Informatics Practices SQLFunctions',
+    title: 'SQL Aggregate Functions: SUM, AVG, COUNT, MAX, MIN with GROUP BY',
     subtitle: 'This node covers the five standard aggregate functions, their behaviour with NULL values,.',
     classLevel: 12, subject: 'science', topic: 'SQL Aggregate Functions: SUM, AVG, COUNT, MAX, MIN with GROUP BY',
     chapters: [],
     nodeIds: ['c12_ip_cbse_01_006', 'c12_ip_cbse_01_007', 'c12_ip_cbse_01_010', 'c12_ip_cbse_01_012', 'c12_ip_cbse_02_010', 'c12_ip_cbse_01_001', 'c12_ip_cbse_01_003', 'c12_ip_cbse_01_005', 'c12_ip_cbse_01_009', 'c12_ip_cbse_01_004', 'c12_ip_cbse_02_011', 'c12_ip_cbse_02_004', 'c12_ip_cbse_02_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the manager of a car showroom and you need to know how many cars each salesperson sold last.', goal: 'Master Informatics Practices SQLFunctions.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the manager of a car showroom and you need to know how many cars each salesperson sold last.', goal: 'Master SQL Aggregate Functions: SUM, AVG, COUNT, MAX, MIN with GROUP BY.' },
     discovery: {
         question: 'A query uses `SELECT COUNT(DISTINCT Model) FROM INVENTORY;`. The table has 8 rows with Model values: LXI, VXI, Sigma1.2, Delta1.2, 5 STR STD, CARE, LXI, VXI.',
         options: ['The result is 6 (distinct models: LXI, VXI, Sigma1.2, Delta1.2, 5 STR STD, CARE)', 'COUNT(DISTINCT Model) counts all rows, ignoring the DISTINCT keyword', '`WHERE` and `HAVING` are interchangeable filters'],
@@ -83,7 +83,7 @@ export const w_c12_informaticspracticessqlfunctionssim: SimDef = {
             { text: 'Write CREATE TABLE with NOT NULL where appropriate and PRIMARY KEY on admission_no.', faded: true, blankAnswer: '```sql' }
             ] } },
         { type: 'dissect', nodeId: 'c12_ip_cbse_01_007', title: 'Identify each idea',
-          dissect: { specimen: 'Informatics Practices SQLFunctions', spots: [
+          dissect: { specimen: 'SQL Aggregate Functions: SUM, AVG, COUNT, MAX, MIN with GROUP BY', spots: [
             { id: 's1', label: 'SQL aggregate functions SUM AVG', prompt: 'Which idea is this? — SQL aggregate functions (SUM, AVG, COUNT, MAX, MIN) compute a single summary value from a.', answer: 'SQL aggregate functions SUM AVG', options: ['SQL aggregate functions SUM AVG', 'The ORDER BY clause sorts', 'The HAVING clause in SQL', 'SQL single-row functions also called'] },
             { id: 's2', label: 'The ORDER BY clause sorts', prompt: 'Which idea is this? — The ORDER BY clause sorts query results in ascending (ASC) or descending (DESC) order.', answer: 'The ORDER BY clause sorts', options: ['The ORDER BY clause sorts', 'SQL aggregate functions SUM AVG', 'The HAVING clause in SQL', 'SQL single-row functions also called'] },
             { id: 's3', label: 'The HAVING clause in SQL', prompt: 'Which idea is this? — The HAVING clause in SQL is used to filter groups of rows after aggregation (GROUP BY).', answer: 'The HAVING clause in SQL', options: ['The HAVING clause in SQL', 'SQL aggregate functions SUM AVG', 'The ORDER BY clause sorts', 'SQL single-row functions also called'] },
@@ -92,7 +92,7 @@ export const w_c12_informaticspracticessqlfunctionssim: SimDef = {
             { id: 's6', label: 'MySQL data types define the', prompt: 'Which idea is this? — MySQL data types define the kind of value a column can store, determining its storage.', answer: 'MySQL data types define the', options: ['MySQL data types define the', 'SQL aggregate functions SUM AVG', 'The ORDER BY clause sorts', 'The HAVING clause in SQL'] }
           ] } }
     ],
-    explore: { component: C12_InformaticsPracticesSQLFunctionsSim, prompt: 'Explore the interactive — Informatics Practices SQLFunctions' },
+    explore: { component: C12_InformaticsPracticesSQLFunctionsSim, prompt: 'Explore the interactive — SQL Aggregate Functions: SUM, AVG, COUNT, MAX, MIN with GROUP BY' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_ip_cbse_01_006', difficulty: 'standard',
           question: 'SQL aggregate functions (SUM, AVG, COUNT, MAX, MIN) compute a single summary.',

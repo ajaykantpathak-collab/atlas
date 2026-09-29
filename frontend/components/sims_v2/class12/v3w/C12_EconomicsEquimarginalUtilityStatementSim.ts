@@ -6,13 +6,13 @@ import C12_EconomicsEquimarginalUtilityStatementSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_economicsequimarginalutilitystatementsim: SimDef = {
     id: 'v3w_c12_economicsequimarginalutilitystatementsim',
-    title: 'Equimarginal Utility Statement',
+    title: 'Law of Diminishing Marginal Utility: Statement and Assumptions',
     subtitle: 'This node covers the statement, assumptions, and intuitive explanation of the Law of.',
     classLevel: 12, subject: 'economics', topic: 'Law of Diminishing Marginal Utility: Statement and Assumptions',
     chapters: [],
     nodeIds: ['c12_eco_cbse_02_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are at a Delhi wedding buffet — the first plate of butter chicken gives immense satisfaction, the.', goal: 'Master Equimarginal Utility Statement.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are at a Delhi wedding buffet — the first plate of butter chicken gives immense satisfaction, the.', goal: 'Master Law of Diminishing Marginal Utility: Statement and Assumptions.' },
     discovery: {
         question: 'A consumer\'s total utility (in utils) from consuming mangoes is given: TU(1)=20, TU(2)=36, TU(3)=48, TU(4)=56, TU(5)=60, TU(6)=60, TU(7)=57.',
         options: ['MU(1)=20, MU(2)=16, MU(3)=12, MU(4)=8, MU(5)=4, MU(6)=0, MU(7)=-3', 'diminishing', 'diminished relative to first'],
@@ -33,7 +33,7 @@ export const w_c12_economicsequimarginalutilitystatementsim: SimDef = {
             { text: 'Verify: At 4 scoops, MU = 10 utils = ₹50 worth of satisfaction > ₹30 cost. At 5 scoops, MU = 5 utils = ₹25 < ₹30 cost.', faded: true, blankAnswer: '(a) MU: 25, 20, 15, 10, 5, 0, -5 utils; (b) From 1st scoop;.' }
             ] } }
     ],
-    explore: { component: C12_EconomicsEquimarginalUtilityStatementSim, prompt: 'Explore the interactive — Equimarginal Utility Statement' },
+    explore: { component: C12_EconomicsEquimarginalUtilityStatementSim, prompt: 'Explore the interactive — Law of Diminishing Marginal Utility: Statement and Assumptions' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eco_cbse_02_002', difficulty: 'standard',
           question: 'The Law of Diminishing Marginal Utility states that as a consumer consumes.',

@@ -19,7 +19,7 @@ export const c11_eng_w_ch23_p3: SimDef = {
         hook: 'Bond builds his criteria inductively out of a childhood of reading — the essay argues the way a library grows: one loved book at a time.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation in the context of "Patterns of Creativity" refers to the ability to deconstruct the essay\'s central argument about the divergent creative patterns.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Essays and Non-fiction\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_23_013', title: 'Your mission',
@@ -29,20 +29,20 @@ export const c11_eng_w_ch23_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_23_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are at a science exhibition where a poet and a physicist are arguing about whether a rainbow is more beautiful before or after you understand its.',
+          caseStudy: { intro: 'Analyse \'Essays and Non-fiction\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the central question Chandrasekhar explicitly states he will not answer directly in the opening paragraph of "Patterns.', options: [
                 { text: 'The central question is: "why is there a difference in the patterns of creativity among', outcome: 'The central question is: "why is there a difference in the patterns of creativity among the.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students often treat the essay as a simple "Science vs. Poetry" debate and look for a winner.', reveals: 'students-often-treat-the-essay' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_23_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are asked: "Chandrasekhar says scientists and poets view each other with suspicion. Do you agree?',
+          caseStudy: { intro: 'For written answers on \'Essays and Non-fiction\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the PEEL structure in analytical writing, and what does each letter stand for?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. Point: the main claim of the paragraph.' },
                 { text: 'Point, Example, Explanation, Conclusion', outcome: 'Not quite — Students often believe that "using quotes from the text" equals analysis.', reveals: 'using-quotes-from-the-text' },
                 { text: 'using quotes from the text', outcome: 'Not quite — Students often believe that "using quotes from the text" equals analysis.', reveals: 'using-quotes-from-the-text' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_23_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a literature circle with classmates, and the teacher asks: "Why does Chandrasekhar spend so much time quoting poets like Wordsworth, Keats.',
+          caseStudy: { intro: 'Talk through \'Essays and Non-fiction\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the central question Chandrasekhar poses at the beginning of the essay "Patterns of Creativity"?', options: [
                 { text: 'The central question is: "why is there a difference in the patterns of creativity among', outcome: 'The central question is: "why is there a difference in the patterns of creativity among the.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students often think a discussion is just sharing personal opinions about whether they like science.', reveals: 'a-discussion-is-just-sharing' }
@@ -66,7 +66,7 @@ export const c11_eng_w_ch23_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_23_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation in the context of "Patterns.',
+          question: 'Critical thinking on \'Essays and Non-fiction\' — analysing the text to reach.',
           hint: 'If stuck, review "Understanding the Text" Q1 and Q2 in the textbook which explicitly ask.',
           misconception: 'Students often treat the essay as a simple "Science vs. Poetry" debate and look for a winner.',
           parts: [
@@ -81,7 +81,7 @@ export const c11_eng_w_ch23_p3: SimDef = {
           ],
             remediations: { 'students-often-treat-the-essay': { steps: ['If a student falls into the "Science vs.', 'Poetry" binary trap: (1) Have them re-read the paragraph starting "It would not seem to me that one can go very far...', 'by pointing accusing fingers." (2) Ask: "Who is the speaker?', 'What does he *do* with the poets\' quotes?" (3) Guide them to map the essay\'s three moves: hostile poets → friendly poet.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_23_014', difficulty: 'standard',
-          question: 'Analytical essay writing on interdisciplinary themes involves constructing.',
+          question: 'Writing skills from \'Essays and Non-fiction\' — using the text as a model.',
           hint: 'If stuck, review c11_eng_w_cbse_23_006 (Theme) and c9_engl_ch1_15 (PEEL method).',
           misconception: 'Students often believe that "using quotes from the text" equals analysis.',
           parts: [
@@ -103,12 +103,12 @@ export const c11_eng_w_ch23_p3: SimDef = {
           ],
             remediations: { 'using-quotes-from-the-text': { steps: ['If a student produces quote-dumping paragraphs, do this 3-step fix: (1) Give them a model PEEL paragraph on the same.', '(2) Ask them to write one sentence answering "What does \'wings\' represent in Keats\'s metaphor?" and another answering.', 'Repeat with a new quote until the habit forms.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_23_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Essays and Non-fiction\' — speaking and listening around.',
           hint: 'If stuck, review the "Understanding the Text" questions (especially Q1, Q3, Q5) and the.',
           misconception: 'Students often think a discussion is just sharing personal opinions about whether they like science or poetry.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to the structured oral activity where',
-                  options: ['Speaking and Listening: Discussion Points refers to the structured oral activity where', '"Before You Read: Context and Background" is a pre-reading strategy where students', 'Plot is the sequence of causally linked events that form the narrative arc of a text,', 'In a non-fiction essay, **setting** refers to the intellectual, historical, and cultural'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'Essays and Non-fiction\'',
+                  options: ['Discussion points on \'Essays and Non-fiction\'', '\'Essays and Non-fiction\' (Woven Words, ch', 'The plot/narrative arc of \'Essays and Non-fiction\'', 'The setting of \'Essays and Non-fiction\''],
                   hint: 'If stuck, review the "Understanding the Text" questions (especially Q1, Q3, Q5) and the "Talking.',
                   misconception: 'Students often think a discussion is just sharing personal opinions about whether they like science or poetry.' }
           ],

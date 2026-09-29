@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_ca_ch03: SimDef = {
     id: 'v3_c12_ca_ch03',
-    title: 'OVERVIEW OF',
+    title: 'Payroll Accounting',
     subtitle: '₹25,000 basic, 3 days absent — so why did the sheet pay full DA?',
-    classLevel: 12, subject: 'computerised_accounting', topic: 'OVERVIEW OF',
+    classLevel: 12, subject: 'computerised_accounting', topic: 'Payroll Accounting',
     chapters: ['c12_ca_ch03'],
     nodeIds: ['c12_ca_cbse_03_001', 'c12_ca_cbse_03_002', 'c12_ca_cbse_03_003', 'c12_ca_cbse_03_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

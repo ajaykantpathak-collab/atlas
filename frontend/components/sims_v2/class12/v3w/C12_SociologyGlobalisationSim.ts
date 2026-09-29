@@ -6,16 +6,16 @@ import C12_SociologyGlobalisationSim from '../../../simulations/c6_12/C12_Sociol
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_sociologyglobalisationsim: SimDef = {
     id: 'v3w_c12_sociologyglobalisationsim',
-    title: 'Globalisation',
+    title: 'Globalisation: Definition, Dimensions and the Interconnected World',
     subtitle: 'This node covers the sociological definition of globalisation, its three core dimensions.',
     classLevel: 12, subject: 'sociology', topic: 'Globalisation: Definition, Dimensions and the Interconnected World',
     chapters: [],
     nodeIds: ['c12_soc_cbse_13_001', 'c12_soc_cbse_13_002', 'c12_soc_cbse_13_003', 'c12_soc_cbse_13_004', 'c12_soc_cbse_13_006', 'c12_soc_cbse_13_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Class 12 student in a small town in Uttar Pradesh.', goal: 'Master Globalisation.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Class 12 student in a small town in Uttar Pradesh.', goal: 'Master Globalisation: Definition, Dimensions and the Interconnected World.' },
     discovery: {
         question: 'Read this scenario: *"Ramesh, a silk weaver in Varanasi, loses orders because Chinese power-loom silk floods the market.',
-        options: ['Correct answer: Ramesh', 'economic', 'Globalisation means McDonald\'s and Hollywood taking over Indian culture'],
+        options: ['Ramesh', 'economic', 'Globalisation means McDonald\'s and Hollywood taking over Indian culture'],
         answer: 'Ramesh',
         hook: '**Misconception:** "Globalisation = Westernisation / Americanisation / only economic liberalisation." **Why students.',
     },
@@ -75,7 +75,7 @@ export const w_c12_sociologyglobalisationsim: SimDef = {
                 { text: 'contract farming reduces farmer risk', outcome: 'Not quite — Students equate "contract farming" with "corporate farming" and assume the crisis is only about.', reveals: 'students-equate-contract-farming-with' }
             ] }] } }
     ],
-    explore: { component: C12_SociologyGlobalisationSim, prompt: 'Explore the interactive — Globalisation' },
+    explore: { component: C12_SociologyGlobalisationSim, prompt: 'Explore the interactive — Globalisation: Definition, Dimensions and the Interconnected World' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_soc_cbse_13_001', difficulty: 'standard',
           question: 'Globalisation refers to the growing interdependence between different people,.',

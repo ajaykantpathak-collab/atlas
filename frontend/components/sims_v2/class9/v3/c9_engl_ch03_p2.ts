@@ -102,12 +102,12 @@ export const c9_engl_ch03_p2: SimDef = {
           ],
             remediations: { 'expository-writing-is-just-listing': { steps: ['Show two 50-word paragraphs on the same facts: one \'grocery list,\' one structured with thesis + classification.', 'Ask: \'Which helps you UNDERSTAND the craft better?', 'Color-code the structured version: Thesis (red), Topic sentences (blue), Evidence (green), Transitions (yellow).', 'Have student rewrite the grocery list using the color-coded skeleton.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c9_engl_ch3_8', difficulty: 'standard',
-          question: 'Vocabulary in Context for Craft and Design refers to the precise.',
+          question: 'From \'Evolution of the Pankha\': the skill or concept this node teaches, applied.',
           hint: 'Review "context clue strategies" from c6_english_u3_027 and "expository text structure".',
           misconception: 'Students treat craft vocabulary as interchangeable "fancy words" for general descriptors (e.g., using "motif,".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context for Craft and Design refers to the precise, domain-specific',
-                  options: ['Vocabulary in Context for Craft and Design refers to the precise, domain-specific', 'A text summary of an expository passage like "Evolution of the Pankha" is a concise,', 'Values of preserving indigenous crafts and heritage refer to the ethical, cultural, and', 'Pankhas (hand fans) are traditional Indian craft items that embody cultural heritage'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'Evolution of the Pankha\': the skill or concept this node teaches, applied to the',
+                  options: ['From \'Evolution of the Pankha\': the skill or concept this node teaches, applied to the', 'A text summary of an expository passage like "Evolution of the Pankha" is a concise,', 'Values of preserving indigenous crafts and heritage refer to the ethical, cultural, and', 'Pankhas (hand fans) are traditional Indian craft items that embody cultural heritage'],
                   hint: 'Review "context clue strategies" from c6_english_u3_027 and "expository text structure" from.',
                   misconception: 'Students treat craft vocabulary as interchangeable "fancy words" for general descriptors (e.g., using "motif," "pattern," "design,".' }
           ],

@@ -19,7 +19,7 @@ export const c11_eng_h_ch01_p2: SimDef = {
         hook: 'She isn\'t \'backward\' — she\'s a representative figure of a vanishing world, and her silences carry a whole generation\'s rules.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas, concerns, or motifs that run parallel to the primary theme in a literary text, enriching the narrative by exploring specific aspects of human experience.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Portrait of a Lady\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_01_007', title: 'Your mission',
@@ -29,41 +29,41 @@ export const c11_eng_h_ch01_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_01_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are listening to your grandmother recount her youth, but you are distracted by your phone — this modern disconnect mirrors the author\'s experience.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Portrait of a Lady\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a secondary theme in literature, and how does it differ from the primary theme?', options: [
                 { text: 'A secondary theme is a recurring idea that supports or runs parallel to the primary theme', outcome: 'A secondary theme is a recurring idea that supports or runs parallel to the primary theme but.' },
                 { text: 'less important themes', outcome: 'Not quite — Students often confuse "secondary themes" with "subplots" or "minor topics," listing events (e.g.', reveals: 'students-often-confuse-secondary-themes' },
                 { text: 'secondary themes', outcome: 'Not quite — Students often confuse "secondary themes" with "subplots" or "minor topics," listing events (e.g.', reveals: 'students-often-confuse-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_01_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are describing your own grandmother to a friend who has never met her.',
+          caseStudy: { intro: 'Find the lines in \'The Portrait of a Lady\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Identify the sensory modality (visual, auditory, tactile, olfactory, gustatory) primarily evoked by the phrase "a veritable bedlam.', options: [
                 { text: '**Answer:** Auditory', outcome: '**Answer:** Auditory. **Explanation:** "Bedlam" means chaotic noise, and "chirrupings" are bird.' },
                 { text: 'visual', outcome: 'Not quite — Students consistently confuse **imagery** with **description** and **metaphor** with **simile**.', reveals: 'students-consistently-confuse-imagery-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_01_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you\'re reading a story where a deeply religious grandmother who disapproves of music suddenly sings and beats a drum on her grandson\'s return – that\'s.',
+          caseStudy: { intro: 'Look in \'The Portrait of a Lady\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'What is the definition of irony in literature? Give a one-sentence definition.', options: [
                 { text: 'Irony is a literary device where there is a contrast between what is expected to happen', outcome: 'Irony is a literary device where there is a contrast between what is expected to happen and what.' },
                 { text: 'irony is when something funny happens', outcome: 'Not quite — Students often confuse symbolism with mere description: they think any object mentioned in the text.', reveals: 'students-often-confuse-symbolism-with' },
                 { text: 'any object mentioned in the text is a symbol', outcome: 'Not quite — Students often confuse symbolism with mere description: they think any object mentioned in the text.', reveals: 'students-often-confuse-symbolism-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_01_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading the description of the grandmother\'s face as "a criss-cross of wrinkles running from everywhere to everywhere" and you encounter the.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Portrait of a Lady\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the primary strategy for inferring the meaning of "veritable bedlam" in the sentence: "hundreds of little birds collected round her.', options: [
                 { text: 'The primary strategy is analyzing the appositive phrase "of chirrupings"', outcome: 'The primary strategy is analyzing the appositive phrase "of chirrupings" which defines "bedlam".' },
                 { text: 'of chirrupings', outcome: 'Not quite — Students treat "context clues" as only the immediate sentence, ignoring the **paragraph-level.', reveals: 'students-treat-context-clues-as' },
                 { text: 'bedlam', outcome: 'Not quite — Students treat "context clues" as only the immediate sentence, ignoring the **paragraph-level.', reveals: 'students-treat-context-clues-as' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_01_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading a diary entry where the writer says, "I had finished my homework before my friend arrived." Ask yourself: why not simply "I finished"?',
+          caseStudy: { intro: 'Read \'The Portrait of a Lady\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'What is the structure of the past perfect tense, and what time relationship does it express?', options: [
                 { text: 'The past perfect is formed with *had* + past participle (e.g., *had known*, *had', outcome: 'The past perfect is formed with *had* + past participle (e.g., *had known*, *had finished*).' },
                 { text: 'past-before-past', outcome: 'Not quite — Students often think the past perfect is merely a "more formal" past tense and use.', reveals: 'the-past-perfect-is-merely' },
                 { text: 'more formal', outcome: 'Not quite — Students often think the past perfect is merely a "more formal" past tense and use.', reveals: 'the-past-perfect-is-merely' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_01_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Start by asking the student: "When you read that the grandmother \'hobbled about the house in spotless white,\' what do you know for sure, and what can you guess.',
+          caseStudy: { intro: 'Answer \'The Portrait of a Lady\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the definition of a literal comprehension question?', options: [
                 { text: 'A literal comprehension question asks for information that is directly stated in the', outcome: 'A literal comprehension question asks for information that is directly stated in the text.' },
                 { text: 'a question that asks for your opinion', outcome: 'Not quite — Students often treat any question that requires a sentence-long answer as inferential, even when.', reveals: 'students-often-treat-any-question' }
@@ -87,12 +87,12 @@ export const c11_eng_h_ch01_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas, concerns, or motifs that run.',
+          question: 'Secondary themes in \'The Portrait of a Lady\' — the supporting ideas and motifs.',
           hint: 'Review the three-phase relationship table from node 002 (Plot) and the primary theme.',
           misconception: 'Students often confuse "secondary themes" with "subplots" or "minor topics," listing events (e.g., "the author goes.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the underlying ideas, concerns, or motifs that run parallel to the',
-                  options: ['Secondary themes are the underlying ideas, concerns, or motifs that run parallel to the', 'Before You Read: Context and Background provides the historical, cultural, and', 'Plot and narrative structure refer to the organized sequence of events and the framework', 'Setting is the physical, temporal, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes in \'The Portrait of a Lady\'',
+                  options: ['Secondary themes in \'The Portrait of a Lady\'', '\'The Portrait of a Lady\' (Hornbill, ch', 'The plot/narrative arc of \'The Portrait of a Lady\'', 'The setting of \'The Portrait of a Lady\''],
                   hint: 'Review the three-phase relationship table from node 002 (Plot) and the primary theme statement from.',
                   misconception: 'Students often confuse "secondary themes" with "subplots" or "minor topics," listing events (e.g., "the author goes to university," "the.' }
           ],
@@ -109,7 +109,7 @@ export const c11_eng_h_ch01_p2: SimDef = {
           ],
             remediations: { 'students-often-confuse-secondary-themes': { steps: ['Have the student create a three-column table: Phase (Village/City/University) | Recurring Action/Conflict | Abstract.', 'Guide them to fill it using the text: e.g., Village: grandmother teaches prayer / City: grandmother cannot help with.', 'Ask: "What does the author *feel* in each phase?" to move from plot to theme.', 'Practice writing one theme statement using the formula: "The text explores [abstract noun] through [character\'s action].'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'The Portrait of a Lady\' — the vivid, sensory language that creates.',
           hint: 'If stuck on identifying imagery: Re-read the first two paragraphs slowly.',
           misconception: 'Students consistently confuse **imagery** with **description** and **metaphor** with **simile**.',
           parts: [
@@ -120,7 +120,7 @@ export const c11_eng_h_ch01_p2: SimDef = {
           ],
             remediations: { 'students-consistently-confuse-imagery-with': { steps: ['**Sensory Sort:** Give the student 10 quotes from the text (mix of imagery and abstract statements).', 'Have them physically sort into five sense-bins (See, Hear, Touch, Taste, Smell).', 'Discard quotes that don\'t fit any bin – those are abstract, not imagery.', '**Metaphor Surgery:** Take the metaphor "She was the winter landscape." Write "Grandmother" on left card, "Winter.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_009', difficulty: 'standard',
-          question: 'Irony is a literary device where there is a contrast between expectation and.',
+          question: 'Irony and paradox in \'The Portrait of a Lady\' — where opposite things are both.',
           hint: 'If stuck, review the character analysis of the grandmother (node c11_eng_h_cbse_01_004).',
           misconception: 'Students often confuse symbolism with mere description: they think any object mentioned in the text is a symbol.',
           parts: [
@@ -135,7 +135,7 @@ export const c11_eng_h_ch01_p2: SimDef = {
           ],
             remediations: { 'students-often-confuse-symbolism-with': { steps: ['If a student cannot distinguish symbols from setting details, guide them through this 3-step check: (1) Does the object.', '(2) Is it associated with a character\'s inner state or a theme?', '(3) Does it represent something abstract (e.g., faith, time, love)?', 'Apply this to the spinning wheel (yes, yes, yes) vs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the meaning of unfamiliar.',
+          question: 'Key vocabulary of \'The Portrait of a Lady\' — the words and phrases you must.',
           hint: 'If stuck on syntactic framing, review Class 10 Grammar node on "Phrases and Clauses".',
           misconception: 'Students treat "context clues" as only the immediate sentence, ignoring the **paragraph-level emotional tone** and.',
           parts: [
@@ -154,7 +154,7 @@ export const c11_eng_h_ch01_p2: SimDef = {
           ],
             remediations: { 'students-treat-context-clues-as': { steps: ['**Re-read the target paragraph aloud** focusing on the narrator\'s voice: Is he fond, critical, awed?', 'Circle adjectives describing the grandmother in that paragraph.', '**Draw a \'Context Circle\'**: Write the target word in center.', 'In ring 1: immediate sentence clues (synonyms/antonyms).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the study of how specific.',
+          question: 'Language and style in \'The Portrait of a Lady\' — how the writer chose words.',
           hint: 'Review irregular verb tables (V2 vs V3) and practice converting simple past sentences.',
           misconception: 'Students often think the past perfect is merely a "more formal" past tense and use it interchangeably with simple past.',
           parts: [
@@ -169,7 +169,7 @@ export const c11_eng_h_ch01_p2: SimDef = {
           ],
             remediations: { 'the-past-perfect-is-merely': { steps: ['Isolate the timeline: draw a two-event timeline (Event A earlier, Event B later) and practice converting Event A.', 'For polysemy, create a four-column table: Word | Sentence from text | Context clues | Dictionary sense.', 'Fill it for all four \'tell\' sentences and two \'take\' phrases.', 'For walking verbs, watch 30-second video clips of people hobbling, shuffling, striding, waddling, trudging, slogging.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_01_012', difficulty: 'standard',
-          question: 'Literal comprehension refers to understanding information explicitly stated.',
+          question: 'Literal comprehension of \'The Portrait of a Lady\' — questions answered straight.',
           hint: 'If stuck, review "Vocabulary in Context: Key Words" (c11_eng_h_cbse_01_010) and practice.',
           misconception: 'Students often treat any question that requires a sentence-long answer as inferential, even when the answer is directly.',
           parts: [

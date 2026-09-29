@@ -19,7 +19,7 @@ export const c11_eng_w_ch07_p2: SimDef = {
         hook: 'Chronological climax and narrative climax are different events — the story peaks where the pretending becomes impossible to afford.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the subordinate ideas or messages in a literary work that support, complicate, or run parallel to the primary theme, often revealed through subplots, character interactions,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Glory at Twilight\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_07_007', title: 'Your mission',
@@ -29,27 +29,27 @@ export const c11_eng_w_ch07_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_07_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you have just finished reading "Glory at Twilight" and your teacher asks, "Besides the obvious story of a rich man becoming poor, what else is this.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Glory at Twilight\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'List two secondary themes present in "Glory at Twilight" besides the primary theme of the fall from glory.', options: [
                 { text: 'Two secondary themes are: (1) Social hypocrisy and transactional relationships, evident', outcome: 'Two secondary themes are: (1) Social hypocrisy and transactional relationships, evident in the.' },
                 { text: 'Satyajit\'s poverty', outcome: 'Not quite — Students often think secondary themes are just "less important" themes or merely subplots like the.', reveals: 'secondary-themes-are-just-less' },
                 { text: 'the wedding', outcome: 'Not quite — Students often think secondary themes are just "less important" themes or merely subplots like the.', reveals: 'secondary-themes-are-just-less' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_07_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are sitting in the examination hall and the question asks: "How does Bhattacharya use the metaphor of the \'wheel of fortune\' to reveal Satyajit\'s.',
+          caseStudy: { intro: 'Find the lines in \'Glory at Twilight\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "organic imagery" and give one example from the story that illustrates it.', options: [
                 { text: 'Organic imagery describes internal bodily sensations (hunger, thirst, fatigue, nausea,', outcome: 'Organic imagery describes internal bodily sensations (hunger, thirst, fatigue, nausea, heartbeat).' },
                 { text: 'green fields', outcome: 'Not quite — Students often treat imagery and metaphor as interchangeable "figurative language" and write: "The.', reveals: 'students-often-treat-imagery-and' },
                 { text: 'it creates a nice image', outcome: 'Not quite — Students often treat imagery and metaphor as interchangeable "figurative language" and write: "The.', reveals: 'students-often-treat-imagery-and' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_07_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are watching a film where a character confidently declares "I\'ve never been happier!" while tears stream down their face—you instantly sense the.',
+          caseStudy: { intro: 'Look in \'Glory at Twilight\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define situational irony and give one example from "Glory at Twilight" where the outcome of an action is the opposite of what the character.', options: [
                 { text: 'Situational irony occurs when the result of an action is contrary to the intended or', outcome: 'Situational irony occurs when the result of an action is contrary to the intended or expected.' },
                 { text: 'It\'s ironic that the train stopped', outcome: 'Not quite — Students often confuse irony with coincidence or bad luck (e.g., "It\'s ironic that the train.', reveals: 'students-often-confuse-irony-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_07_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading a novel and suddenly the sentences become choppy, adjectives pile up before a noun, and characters speak in phrases like "life-spark.',
+          caseStudy: { intro: 'Read \'Glory at Twilight\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Define "adjective padding" in narrative description and give one example from the story where physical traits are linked to mental.', options: [
                 { text: 'Adjective padding is the accumulation of multiple adjectives or participial phrases', outcome: 'Adjective padding is the accumulation of multiple adjectives or participial phrases before or after.' },
                 { text: 'A wrong answer that merely lists adjectives (', outcome: 'Not quite — Students treat "language usage" as a hunt for figures of speech (simile, metaphor) only.', reveals: 'students-treat-language-usage-as' }
@@ -73,12 +73,12 @@ export const c11_eng_w_ch07_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_007', difficulty: 'standard',
-          question: 'Secondary themes are the subordinate ideas or messages in a literary work that.',
+          question: 'Secondary themes in \'Glory at Twilight\' — the supporting ideas and motifs that.',
           hint: 'Review the "Theme: Primary Theme and Message" node (c11_eng_w_cbse_07_006) and re-read.',
           misconception: 'Students often think secondary themes are just "less important" themes or merely subplots like the wedding or the train.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the subordinate ideas or messages in a literary work that support,',
-                  options: ['Secondary themes are the subordinate ideas or messages in a literary work that support,', 'Before You Read: Context and Background is a pre-reading strategy that provides the', 'Plot and narrative structure refer to the deliberate arrangement of events, conflicts,', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes in \'Glory at Twilight\'',
+                  options: ['Secondary themes in \'Glory at Twilight\'', '\'Glory at Twilight\' (Woven Words, ch', 'The plot/narrative arc of \'Glory at Twilight\'', 'The setting of \'Glory at Twilight\''],
                   hint: 'Review the "Theme: Primary Theme and Message" node (c11_eng_w_cbse_07_006) and re-read the story.',
                   misconception: 'Students often think secondary themes are just "less important" themes or merely subplots like the wedding or the train journey.' }
           ],
@@ -95,7 +95,7 @@ export const c11_eng_w_ch07_p2: SimDef = {
           ],
             remediations: { 'secondary-themes-are-just-less': { steps: ['If a student cannot distinguish plot from theme, have them complete a two-column table: Column A — "What happens?".', 'Column B — "What idea does this represent?" (themes: escape from reality, social performance, predatory lending, moral.', 'Do this for five plot points.', 'Then ask them to group Column B entries into 3-4 abstract nouns (e.g., hypocrisy, exploitation, pride, vulnerability).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Glory at Twilight\' — the vivid, sensory language that creates.',
           hint: 'If stuck, revisit c10_engl_cbse_03_007 (Symbolism: Flight as a Metaphor) and.',
           misconception: 'Students often treat imagery and metaphor as interchangeable "figurative language" and write: "The author uses imagery.',
           parts: [
@@ -106,45 +106,45 @@ export const c11_eng_w_ch07_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-imagery-and': { steps: ['Have the student make a two-column table: Column A = "Pure Imagery (no comparison)" — find 3 examples from the story.', 'Column B = "Metaphor (A is B)" — find 3 (e.g., "wheel of fortune", "snare of benediction", "twilight splendour").', 'For each Column B entry, explicitly state: Tenor = _____, Vehicle = _____, Ground (shared quality) = _____.', 'Rewrite one analytical sentence for each using the template: "The metaphor [vehicle] maps [ground] onto [tenor].'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_009', difficulty: 'standard',
-          question: 'Irony is a literary device where there is a contrast between expectation and.',
+          question: 'Irony and paradox in \'Glory at Twilight\' — where opposite things are both true.',
           hint: 'If stuck, re-read the "Understanding the Text" questions 1(a)–(f) in the NCERT.',
           misconception: 'Students often confuse irony with coincidence or bad luck (e.g., "It\'s ironic that the train stopped" – no, that\'s just.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where there is a contrast between expectation and reality,',
-                  options: ['Irony is a literary device where there is a contrast between expectation and reality,', 'Before You Read: Context and Background is a pre-reading strategy that provides the', 'Plot and narrative structure refer to the deliberate arrangement of events, conflicts,', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'Glory at Twilight\'',
+                  options: ['Irony and paradox in \'Glory at Twilight\'', '\'Glory at Twilight\' (Woven Words, ch', 'The plot/narrative arc of \'Glory at Twilight\'', 'The setting of \'Glory at Twilight\''],
                   hint: 'If stuck, re-read the "Understanding the Text" questions 1(a)–(f) in the NCERT textbook—they.',
                   misconception: 'Students often confuse irony with coincidence or bad luck (e.g., "It\'s ironic that the train stopped" – no, that\'s just plot convenience).' }
           ],
             remediations: { 'students-often-confuse-irony-with': { steps: ['Re-read the story marking every moment where a character\'s belief or statement is contradicted by the reader\'s.', 'List all objects that appear in at least two distinct scenes; for each, write the literal role and the abstract idea.', 'Discard objects that do not shift meaning or connect to the theme of glory/shame/identity.', 'Practice writing one PEEL paragraph per irony type and per major symbol using the template: Point (device + location).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_010', difficulty: 'standard',
-          question: 'Vocabulary in context is the skill of determining the meaning of unfamiliar.',
+          question: 'Key vocabulary of \'Glory at Twilight\' — the words and phrases you must know.',
           hint: 'Review the four context-clue types with simple sentences (e.g., \'The arid land, dry and.',
           misconception: 'Students often believe \'queer\' in \'queer rhythmic frenzy\' carries its modern slang meaning related to sexual.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in context is the skill of determining the meaning of unfamiliar words or',
-                  options: ['Vocabulary in context is the skill of determining the meaning of unfamiliar words or', 'Before You Read: Context and Background is a pre-reading strategy that provides the', 'Plot and narrative structure refer to the deliberate arrangement of events, conflicts,', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Key vocabulary of \'Glory at Twilight\'',
+                  options: ['Key vocabulary of \'Glory at Twilight\'', '\'Glory at Twilight\' (Woven Words, ch', 'The plot/narrative arc of \'Glory at Twilight\'', 'The setting of \'Glory at Twilight\''],
                   hint: 'Review the four context-clue types with simple sentences (e.g., \'The arid land, dry and barren.',
                   misconception: 'Students often believe \'queer\' in \'queer rhythmic frenzy\' carries its modern slang meaning related to sexual orientation, leading them.' }
           ],
             remediations: { 'queer-in-queer-rhythmic-frenzy': { steps: ['Have the student re-read the specific paragraph (the forgerer scene) aloud, emphasizing the words \'tears rolling down\'.', 'Ask: \'What is the man\'s emotional state?', 'Does "queer" describe the emotion or the movement?\' 3.', 'Provide a mini-lesson on semantic change: list words that have shifted meaning (e.g., \'gay\', \'awful\', \'nice\') and.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the deliberate grammatical and stylistic.',
+          question: 'Language and style in \'Glory at Twilight\' — how the writer chose words.',
           hint: 'Review Class 6 Sentence Structure (c6_english_u4_038) for fragment vs.',
           misconception: 'Students treat "language usage" as a hunt for figures of speech (simile, metaphor) only.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language Usage in the Text refers to the deliberate grammatical and stylistic choices an',
-                  options: ['Language Usage in the Text refers to the deliberate grammatical and stylistic choices an', 'Before You Read: Context and Background is a pre-reading strategy that provides the', 'Plot and narrative structure refer to the deliberate arrangement of events, conflicts,', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language and style in \'Glory at Twilight\'',
+                  options: ['Language and style in \'Glory at Twilight\'', '\'Glory at Twilight\' (Woven Words, ch', 'The plot/narrative arc of \'Glory at Twilight\'', 'The setting of \'Glory at Twilight\''],
                   hint: 'Review Class 6 Sentence Structure (c6_english_u4_038) for fragment vs.',
                   misconception: 'Students treat "language usage" as a hunt for figures of speech (simile, metaphor) only.' }
           ],
             remediations: { 'students-treat-language-usage-as': { steps: ['Give the student three sentences from the story—one complete, one fragment, one adjective-heavy—and ask them to read.', 'Have them rewrite the fragment as a full sentence and the padded version as a simple sentence; compare aloud again.', 'Explicitly label the lost effects: "The fragment loses the gasp between thoughts; the simple sentence loses the layered.', 'Assign a mini-task: convert a diary entry of their own into fragment-heavy interior monologue to internalise the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'Glory at Twilight\' — questions answered straight from.',
           hint: 'If stuck, review the plot summary (c11_eng_w_cbse_07_002) and protagonist analysis.',
           misconception: 'Students often treat inferential questions as "opinion questions" where any answer is valid if they can argue for it.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Literal comprehension questions require answers directly stated in the text, while',
-                  options: ['Literal comprehension questions require answers directly stated in the text, while', 'Before You Read: Context and Background is a pre-reading strategy that provides the', 'Plot and narrative structure refer to the deliberate arrangement of events, conflicts,', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Literal comprehension of \'Glory at Twilight\'',
+                  options: ['Literal comprehension of \'Glory at Twilight\'', '\'Glory at Twilight\' (Woven Words, ch', 'The plot/narrative arc of \'Glory at Twilight\'', 'The setting of \'Glory at Twilight\''],
                   hint: 'If stuck, review the plot summary (c11_eng_w_cbse_07_002) and protagonist analysis.',
                   misconception: 'Students often treat inferential questions as "opinion questions" where any answer is valid if they can argue for it.' }
           ],

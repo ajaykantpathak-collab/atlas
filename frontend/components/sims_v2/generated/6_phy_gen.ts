@@ -1311,7 +1311,7 @@ export const C6_PHY_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Magnet Can Be Made By",
+    "title": "Magnet Can Be Made",
     "text": "A magnet can be made by stroking a magnetic material — like an iron or steel needle — repeatedly in one direction with a magnet, which aligns its internal magnetic parts.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2953,7 +2953,7 @@ export const C6_PHY_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Seasons Change Because The Earth Rotates On",
+    "title": "Seasons: Why They Change",
     "text": "Seasons change because the Earth rotates on an axis that is tilted at an angle of 23.5 degrees relative to its orbit around the Sun. As Earth revolves, this tilt ensures that different hemispheres receive varying amounts of direct sunlight and experience",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2965,7 +2965,7 @@ export const C6_PHY_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Solar Eclipse Occurs When The",
+    "title": "Solar Eclipse Occurs When",
     "text": "A solar eclipse occurs when the Moon moves directly between the Earth and the Sun, casting a shadow on the Earth’s surface and blocking the sunlight for a brief period.",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"

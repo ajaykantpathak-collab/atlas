@@ -6,13 +6,13 @@ import C12_MathematicsChapter9DifferentialEquationsSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicschapter9differentialequationssim: SimDef = {
     id: 'v3w_c12_mathematicschapter9differentialequationssim',
-    title: 'Chapter9Differential Equations',
+    title: 'Derivatives of Implicit Functions',
     subtitle: 'Covers differentiation of implicit functions f(x, y) = 0 including polynomial,.',
     classLevel: 12, subject: 'mathematics', topic: 'Derivatives of Implicit Functions',
     chapters: [],
     nodeIds: ['c12_math_cbse_05_007', 'c12_math_cbse_05_010', 'c12_math_cbse_05_011', 'c12_math_cbse_09_001', 'c12_math_cbse_09_002', 'c12_math_cbse_09_003', 'c12_math_cbse_09_004', 'c12_math_cbse_09_005', 'c12_math_cbse_09_006', 'c12_math_cbse_09_007', 'c12_math_cbse_09_008', 'c12_math_cbse_06_005', 'c12_math_cbse_03_006', 'c12_math_cbse_02_002', 'c12_math_cbse_08_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re designing a roller coaster track where the shape is given by x² + y² = 25 (a circle).', goal: 'Master Chapter9Differential Equations.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re designing a roller coaster track where the shape is given by x² + y² = 25 (a circle).', goal: 'Master Derivatives of Implicit Functions.' },
     discovery: {
         question: 'What is the mathematical definition of the second order derivative of a function \\(y = f(x)\\)? Write the notation used for it.',
         options: ['The second order derivative is the derivative of the first derivative:', 'square of first derivative', 'derivative of \\(y\\) with respect to \\(x^2\\)'],
@@ -78,7 +78,7 @@ export const w_c12_mathematicschapter9differentialequationssim: SimDef = {
             { text: 'Simplify: 9c₁ - 3c₁ - 6c₁ = 0 for e^{3x} term; 4c₂ + 2c₂ - 6c₂ = 0 for e^{-2x} term. LHS = 0 = RHS. Verified.', faded: true, blankAnswer: 'Verified. y = c₁ e^{3x} + c₂ e^{-2x} satisfies the DE for.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_05_010', title: 'Identify each idea',
-          dissect: { specimen: 'Chapter9Differential Equations', spots: [
+          dissect: { specimen: 'Derivatives of Implicit Functions', spots: [
             { id: 's1', label: 'An implicit function is a', prompt: 'Which idea is this? — An implicit function is a relationship between variables x and y expressed as f(x, y) = 0.', answer: 'An implicit function is a', options: ['An implicit function is a', 'If two variables x and', 'The second order derivative of', 'A differential equation is an'] },
             { id: 's2', label: 'If two variables x and', prompt: 'Which idea is this? — If two variables \\(x\\) and \\(y\\) are expressed as functions of a third variable \\(t\\).', answer: 'If two variables x and', options: ['If two variables x and', 'An implicit function is a', 'The second order derivative of', 'A differential equation is an'] },
             { id: 's3', label: 'The second order derivative of', prompt: 'Which idea is this? — The second order derivative of a function \\(y = f(x)\\) is the derivative of its first.', answer: 'The second order derivative of', options: ['The second order derivative of', 'An implicit function is a', 'If two variables x and', 'A differential equation is an'] },
@@ -87,7 +87,7 @@ export const w_c12_mathematicschapter9differentialequationssim: SimDef = {
             { id: 's6', label: 'A general solution of an', prompt: 'Which idea is this? — A **general solution** of an nth order ordinary differential equation is a relation.', answer: 'A general solution of an', options: ['A general solution of an', 'An implicit function is a', 'If two variables x and', 'The second order derivative of'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsChapter9DifferentialEquationsSim, prompt: 'Explore the interactive — Chapter9Differential Equations' },
+    explore: { component: C12_MathematicsChapter9DifferentialEquationsSim, prompt: 'Explore the interactive — Derivatives of Implicit Functions' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_05_007', difficulty: 'standard',
           question: 'An implicit function is a relationship between variables x and y expressed as.',

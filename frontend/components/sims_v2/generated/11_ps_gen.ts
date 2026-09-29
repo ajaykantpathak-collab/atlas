@@ -76,7 +76,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Debate On The Relevance Of",
+    "title": "Debate On The Relevance",
     "text": "The debate on the relevance of political theory to real-world problems concerns whether systematic reflection on political concepts (freedom, equality, justice) should directly inform and guide concrete policy-making, institutional design, and everyday",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -88,7 +88,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Political Theory's Engagement With",
+    "title": "Political theory and the problem",
     "text": "Political theory's engagement with diversity and pluralism refers to its systematic examination of how societies should accommodate deep and persistent differences—religious, linguistic, cultural, caste-based, and ideological—within a shared political",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1235,7 +1235,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Dimensions Of Equality Refer To The",
+    "title": "Dimensions Of Equality",
     "text": "Dimensions of equality refer to the distinct spheres—political, social, economic, and legal—in which the principle of equality must be realized to achieve a just society.",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1793,7 +1793,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Robert Nozick's Entitlement Theory Of",
+    "title": "Libertarian critique: Robert Nozick",
     "text": "Robert Nozick's entitlement theory of justice holds that a distribution of goods is just if it arises from a just starting position via legitimate means: justice in acquisition (initial appropriation of unheld resources), justice in transfer (voluntary",
     "emoji": "🏃",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1829,7 +1829,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Social Justice For Marginalised Groups In",
+    "title": "Social justice for marginalised groups:",
     "text": "Social justice for marginalised groups in India refers to the constitutional and policy framework (Articles 15, 16, 46, 330, 332, 340) that provides compensatory measures—such as reservations in legislatures, public employment, and education—to Scheduled",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2613,7 +2613,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Natural Rights Theory, As Articulated By",
+    "title": "Natural Rights Theory, As Articulated",
     "text": "Natural rights theory, as articulated by John Locke, posits that individuals possess inherent, inalienable rights to life, liberty, and property derived from natural law rather than state grant; the social contract is the voluntary agreement by which",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2649,7 +2649,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Communitarian Critique Argues That The",
+    "title": "Communitarian Critique Argues",
     "text": "The communitarian critique argues that the liberal rights-based approach erroneously conceives the self as \"unencumbered\" — detached from communal attachments, traditions, and shared values — and thereby prioritizes individual autonomy over the common good,",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4050,7 +4050,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Benedict Anderson's Theory Of \"imagined",
+    "title": "Benedict Anderson: Imagined communities",
     "text": "Benedict Anderson's theory of \"imagined communities\" argues that a nation is a socially constructed community, imagined by the people who perceive themselves as part of that group, where members will never know most of their fellow-members, yet in the minds",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -6094,7 +6094,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Right Against Discrimination And",
+    "title": "Right against discrimination",
     "text": "The Right against Discrimination and Untouchability under Articles 15-17 of the Indian Constitution prohibits the State from discriminating against citizens on grounds of religion, race, caste, sex, or place of birth (Article 15), guarantees equality of",
     "emoji": "🏃",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -7006,13 +7006,13 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "India Adopted The First Past The",
+    "title": "India Adopted The First Past",
     "text": "India adopted the First Past the Post (FPTP) electoral system for Lok Sabha and State Legislative Assembly elections because it ensures stable single-party governments, maintains a direct constituency link between voters and representatives, and suits India's",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Reservation Of Constituencies For SCs And",
+    "title": "Reservation of constituencies for SCs",
     "text": "Reservation of constituencies for SCs and STs is a constitutional mechanism under Articles 330 and 332 of the Indian Constitution that reserves a certain number of seats in the Lok Sabha and State Legislative Assemblies for candidates belonging to Scheduled",
     "emoji": "🏃",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -7036,7 +7036,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Electoral Reforms In India Refer To",
+    "title": "Electoral Reforms In India",
     "text": "Electoral reforms in India refer to systematic changes introduced through legislation, judicial directives, and Election Commission initiatives to enhance the integrity, transparency, and inclusivity of the electoral process.",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
@@ -7572,7 +7572,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Discretionary Powers Of The President Of",
+    "title": "Discretionary Powers Of The President",
     "text": "Discretionary powers of the President of India refer to those constitutional functions where the President can act without or contrary to the aid and advice of the Council of Ministers, as mandated by Article 74(1).",
     "emoji": "🏃",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -8330,7 +8330,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Anti-defection Law, Enshrined In The",
+    "title": "Anti-defection Law, Enshrined",
     "text": "The Anti-defection law, enshrined in the Tenth Schedule of the Indian Constitution (added by the 52nd Amendment Act, 1985), disqualifies members of Parliament and State Legislatures if they voluntarily give up membership of their political party or",
     "emoji": "🏃",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -10022,7 +10022,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Article 248 Of The Constitution Of",
+    "title": "Article 248 Of The Constitution",
     "text": "Article 248 of the Constitution of India vests residuary legislative powers exclusively in Parliament (the Union Legislature). Residuary powers refer to the authority to make laws on any matter not enumerated in the Union List (List I), State List (List II),",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
@@ -10902,7 +10902,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Evolution Of Local Government In",
+    "title": "Evolution Of Local Government",
     "text": "The evolution of local government in India traces the historical trajectory from Lord Ripon's 1882 Resolution on Local Self-Government—which introduced elected non-official majorities in municipal bodies—through successive colonial reforms (1909, 1919, 1935",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
@@ -11706,7 +11706,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "The Balance Between Rigidity And",
+    "title": "The Balance Between Rigidity And Flexibility",
     "text": "The balance between rigidity and flexibility in the Indian Constitution refers to the deliberate design of the amendment process under Article 368 that allows the Constitution to adapt to changing circumstances while protecting its core principles, achieved",
     "emoji": "🏃",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -11718,7 +11718,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Judiciary's Role In Interpreting And",
+    "title": "Role of judiciary in interpreting",
     "text": "The judiciary's role in interpreting and evolving the Constitution refers to the power of courts, particularly the Supreme Court under Articles 32, 136, 141 and High Courts under Article 226, to authoritatively determine the meaning of constitutional",
     "emoji": "🏃",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -11736,7 +11736,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Indian Constitution Functions As An",
+    "title": "Indian Constitution Functions As",
     "text": "The Indian Constitution functions as an instrument of social transformation by embedding justiciable Fundamental Rights (Articles 14-18, 21), non-justiciable Directive Principles (Articles 36-51), and explicit affirmative action provisions (Articles 15(4),",
     "emoji": "🏃",
     "bgColor": "from-sky-400 to-cyan-500"

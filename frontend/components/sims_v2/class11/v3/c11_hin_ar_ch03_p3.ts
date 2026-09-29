@@ -19,7 +19,7 @@ export const c11_hin_ar_ch03_p3: SimDef = {
         hook: 'The Nayi Kahani writer makes the labour of writing itself the story — doubt, ghosts, landlords and all.',
     },
     teaching: [
-        { title: 'पाठ 3 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ के तत्वों — कथानक, पात्र, भाषा, शैली, बिंब, प्रतीक — को **विघटित (deconstruct)** करके उनके पारस्परिक संबंधों और रचनात्मक उद्देश्य की तार्किक.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 3 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'वीं के साथ बिते लम्हे\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_03_013', title: 'Your mission',
@@ -28,11 +28,13 @@ export const c11_hin_ar_ch03_p3: SimDef = {
         context: 'Track a first creative attempt through its chaos — the stage, the mix-up of two actors as one \'भूत\' — and ask why the imperfection is the point.',
         labels: ['पाठ 3 — आलोचनात्मक', 'पाठ 3 — लेखन', 'पाठ 3 — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_03_014', title: 'Identify each idea',
-          dissect: { specimen: 'पाठ 3 · Part 3/3', spots: [
-            { id: 's1', label: '3 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल का अर्थ है — निर्धारित पाठ (गद्य/पद्य) के **अंतर्वस्तु, शिल्प.', answer: '3 -', options: ['3 -', '3 - -'] },
-            { id: 's2', label: '3 - -', prompt: 'Which idea is this? — **वाचन-श्रवण: चर्चा-बिंदु** एक सुनियोजित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी पाठ का.', answer: '3 - -', options: ['3 - -', '3 -'] }
-          ] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_03_015', title: 'पाठ 3 — वाचन-श्रवण: चर्चा-बिंदु',
+          caseStudy: { intro: '\'वीं के साथ बिते लम्हे\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'What is the primary objective of a \'discussion point\' activity in the CBSE ASL framework for a dramatic text like "viw osQ lkFk <kbZ lky"?', options: [
+                { text: 'The primary objective is to assess', outcome: 'The primary objective is to assess a student\'s ability to orally analyze literary elements (theme.' },
+                { text: 'to memorize dialogues', outcome: 'Not quite — Students treat "discussion points" as oral summaries — they retell the plot chronologically instead.', reveals: 'students-treat-discussion-points-as' },
+                { text: 'to summarize the plot', outcome: 'Not quite — Students treat "discussion points" as oral summaries — they retell the plot chronologically instead.', reveals: 'students-treat-discussion-points-as' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_03_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your literary magazine plans a feature on \'writers writing about writing.\' A junior editor suggests Ikappiya\'s story but calls it \'a plain autobiography of a struggling writer — Nayi Kahani is just a label to memorise for exams.\'',
             decisions: [{ prompt: 'How do you pitch the story properly?', options: [
@@ -52,38 +54,42 @@ export const c11_hin_ar_ch03_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_03_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ के तत्वों — कथानक.',
+          question: '\'वीं के साथ बिते लम्हे\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
           hint: 'यदि फँसें, तो **c11_hin_ar_cbse_03_008 (बिंब और रूपक)** और **c11_hin_ar_cbse_03_009.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "आलोचनात्मक चिंतन = पाठ में कमियाँ निकालना (fault-finding) या अपनी निजी.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ के तत्वों',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ के तत्वों', '"पृष्ठभूमि और रचनाकार परिचय" (Background and Author Introduction) is the foundational', 'कथानक (Plot) कृति में घटित घटनाओं का कारण-परिणाम (Cause-Effect) पर आधारित तार्किक क्रम', 'पाठ्य-परिवेश (Setting/Context) किसी रचना में वर्णित वह समग्र स्पेशियो-टेम्पोरल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वीं के साथ बिते लम्हे\' का आलोचनात्मक चिंतन',
+                  options: ['\'वीं के साथ बिते लम्हे\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वीं के साथ बिते लम्हे\' का कथानक', '\'वीं के साथ बिते लम्हे\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फँसें, तो **c11_hin_ar_cbse_03_008 (बिंब और रूपक)** और **c11_hin_ar_cbse_03_009 (विरोधाभास और.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "आलोचनात्मक चिंतन = पाठ में कमियाँ निकालना (fault-finding) या अपनी निजी पसंद/नापसंद लिखना।" **गलत.' }
           ],
             remediations: { 'fault-finding': { steps: ['**चरण 1:** छात्र से कहें: "एक वाक्य में बताओ कि लेखक ने *यह विशेष शब्द/बिंब/प्रसंग* क्यों चुना होगा?" — इससे फोकस.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_03_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल का अर्थ है — निर्धारित पाठ (गद्य/पद्य) के **अंतर्वस्तु.',
-          hint: 'यदि फँसे हों तो **नोड 013 (आलोचनात्मक चिंतन)** पर लौटें — वहाँ सीखी **विश्लेषण/मूल्यांकन.',
-          misconception: '**विशिष्ट भ्रांति**: विद्यार्थी समझते हैं कि **पाठ-आधारित लेखन = पाठ का भावार्थ/सारांश लिखना**। वे **प्रश्न के संचालक.',
+          question: '\'वीं के साथ बिते लम्हे\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+          hint: 'यदि फँसे तो c11_hin_ar_cbse_03_013 (Critical Thinking) पर लौटें और \'थीम-ट्रैकिंग\' चार्ट.',
+          misconception: 'विद्यार्थी समझते हैं कि \'पाठ पर आधारित लेखन कौशल\' का अर्थ है **पाठ का सारांश लिखना** या **पात्रों के नाम गिनाना**। वे.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल का अर्थ है',
-                  options: ['पाठ-आधारित लेखन कौशल का अर्थ है', '"पृष्ठभूमि और रचनाकार परिचय" (Background and Author Introduction) is the foundational', 'कथानक (Plot) कृति में घटित घटनाओं का कारण-परिणाम (Cause-Effect) पर आधारित तार्किक क्रम', 'पाठ्य-परिवेश (Setting/Context) किसी रचना में वर्णित वह समग्र स्पेशियो-टेम्पोरल,'],
-                  hint: 'यदि फँसे हों तो **नोड 013 (आलोचनात्मक चिंतन)** पर लौटें — वहाँ सीखी **विश्लेषण/मूल्यांकन की.',
-                  misconception: '**विशिष्ट भ्रांति**: विद्यार्थी समझते हैं कि **पाठ-आधारित लेखन = पाठ का भावार्थ/सारांश लिखना**। वे **प्रश्न के संचालक शब्द.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वीं के साथ बिते लम्हे\' पर पाठ-आधारित लेखन',
+                  options: ['\'वीं के साथ बिते लम्हे\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वीं के साथ बिते लम्हे\' का कथानक', '\'वीं के साथ बिते लम्हे\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'यदि फँसे तो c11_hin_ar_cbse_03_013 (Critical Thinking) पर लौटें और \'थीम-ट्रैकिंग\' चार्ट बनाएँ.',
+                  misconception: 'विद्यार्थी समझते हैं कि \'पाठ पर आधारित लेखन कौशल\' का अर्थ है **पाठ का सारांश लिखना** या **पात्रों के नाम गिनाना**। वे PEEL संरचना को \'कठिन\'.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**लक्षित उपचार (चरणबद्ध)**: 1.', '**प्रश्न-विघटन अभ्यास**: 10 प्रश्नों के **संचालक शब्द** रेखांकित करवाएँ और प्रत्येक के लिए **अपेक्षित संज्ञानात्मक.', '**PEEL टेम्पलेट भरवाएँ**: एक ही पाठांश पर **Point, Evidence, Explanation, Link** के चार खाने अलग-अलग रंग से भरवाएँ.', '**साक्ष्य-छँटाई खेल**: पाठ से 10 वाक्य दें — विद्यार्थी **केवल 3 सबसे प्रासंगिक** चुनकर **कारण लिखे** प्रत्येक चयन का।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'peel': { steps: ['विद्यार्थी से कहें: "एक बोर्ड प्रश्न चुनो। उसका उत्तर **बिना पाठ देखे** लिखो। फिर अपने उत्तर में तीन रंगों से चिह्नित.', 'यदि कोई रंग गायब है, वही चरण अभ्यास हेतु चुना जाए। 3.', 'उस चरण का मॉडल उत्तर दिखाएं (ऊपर दिए गए कार्य-उदाहरणों से)। 4.', 'विद्यार्थी को उसी प्रश्न का उत्तर पुनः लिखने दें, इस बार लापता चरण पर ध्यान देकर। 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_03_015', difficulty: 'standard',
-          question: '**वाचन-श्रवण: चर्चा-बिंदु** एक सुनियोजित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी.',
-          hint: 'यदि अटके तो **c11_hin_ar_cbse_03_013 (आलोचनात्मक चिंतन)** की **\'साक्ष्य-आधारित व्याख्या\'.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'चर्चा-बिंदु\' का अर्थ पाठ पर \'अपनी राय देना\' या \'कहानी सुनाना\' है** — वे.',
+          question: '\'वीं के साथ बिते लम्हे\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'If stuck, review "Critical Thinking: Analysis and Interpretation".',
+          misconception: 'Students treat "discussion points" as oral summaries — they retell the plot chronologically instead of analyzing.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**वाचन-श्रवण: चर्चा-बिंदु** एक सुनियोजित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी पाठ का',
-                  options: ['**वाचन-श्रवण: चर्चा-बिंदु** एक सुनियोजित शैक्षिक प्रक्रिया है जिसमें शिक्षार्थी पाठ का', '"पृष्ठभूमि और रचनाकार परिचय" (Background and Author Introduction) is the foundational', 'कथानक (Plot) कृति में घटित घटनाओं का कारण-परिणाम (Cause-Effect) पर आधारित तार्किक क्रम', 'पाठ्य-परिवेश (Setting/Context) किसी रचना में वर्णित वह समग्र स्पेशियो-टेम्पोरल,'],
-                  hint: 'यदि अटके तो **c11_hin_ar_cbse_03_013 (आलोचनात्मक चिंतन)** की **\'साक्ष्य-आधारित व्याख्या\' और.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'चर्चा-बिंदु\' का अर्थ पाठ पर \'अपनी राय देना\' या \'कहानी सुनाना\' है** — वे **\'विश्लेषण\'.' }
+                { id: 'a', prompt: 'What is the primary objective of a \'discussion point\' activity in the CBSE ASL framework for a dramatic text like "viw osQ lkFk <kbZ lky"?', answer: 'The primary objective is to assess',
+                  options: ['The primary objective is to assess', 'to memorize dialogues', 'to summarize the plot'],
+                  hint: 'If stuck, review "Critical Thinking: Analysis and Interpretation" (c11_hin_ar_cbse_03_013).',
+                  misconception: 'Students treat "discussion points" as oral summaries — they retell the plot chronologically instead of analyzing a focused theme, character.' },
+                { id: 'b', prompt: 'Explain why the incident of the two different dogs playing "Hkwyks" (pages 36-37) is a more effective discussion starter than the playwright\'s description.', answer: 'The two-dog incident embodies dramatic irony, visual humor, and meta-theatrical',
+                  options: ['The two-dog incident embodies dramatic irony, visual humor, and meta-theatrical', 'both are events in the story'],
+                  hint: 'If stuck, review "Critical Thinking: Analysis and Interpretation" (c11_hin_ar_cbse_03_013).',
+                  misconception: 'Students treat "discussion points" as oral summaries — they retell the plot chronologically instead of analyzing a focused theme, character.' }
           ],
-            remediations: { 'analysis-reaction-character-arc': { steps: ['**लक्षित उपचार (4 चरण):** 1.', '**मॉडलिंग:** शिक्षक पाठ 3 के **एक चर्चा-बिंदु पर \'कमजोर उत्तर\' और \'बलवान उत्तर\'** साथ रखकर दिखाएँ — अंतर **PEEL संरचना.', '**साक्ष्य-खोज अभ्यास:** छात्रों को **5 मिनट में पाठ से 3 साक्ष्य ढूँढ़ने** को कहें जो एक दिए गए थीसिस (जैसे: \'पात्र.', '**PEEL ड्रिल:** प्रत्येक साक्ष्य के लिए **Explanation और Link चरण मौखिक रूप से बोलने** को कहें — शिक्षक **\'कैसे?\' और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-discussion-points-as': { steps: ['Model a 60-second "bad discussion" (plot retelling) vs.', '"good discussion" (theme + evidence + question) using the same scene (e.g., the rain disruption).', 'Give students a Discussion Template card: "Claim → Evidence (page/line) → Analysis → Link to Theme → Question for.', 'Practice with low-stakes topics (e.g., "Best/worst rehearsal moment") before literary themes.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

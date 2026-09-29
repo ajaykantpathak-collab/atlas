@@ -19,7 +19,7 @@ export const c12_hin_a_ch03_p2: SimDef = {
         hook: 'Vajra\'s two poems mark an evolution: the early one exhorts the collective \'you\' to accept the fragile; the later one whispers \'I saw\' — private epiphany replacing public call. Radio editing and Sanskrit-English schooling sharpened the ear that compresses so much into so few words.',
     },
     teaching: [
-        { title: 'यह दीप अकेला, मैंने देखा एक बूँद — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: 'प्रतीक एक ऐसा चिह्न, वस्तु या पात्र है जो अपने प्रत्यक्ष अर्थ से परे जाकर किसी गहरे अमूर्त विचार या भावना को प्रतिनिधित्व करता है, जबकि बिंब एक स्पष्ट, संवेदनात्मक विवरण है जो पाठक के मन में एक जीवंत.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'यह दीप अकेला, मैंने देखा एक बूँद — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: '\'मैंने देखा, एक चाँद\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_03_007', title: 'Your mission',
@@ -28,6 +28,20 @@ export const c12_hin_a_ch03_p2: SimDef = {
         context: 'Track a poet across two registers: weigh the jailed activist\'s communal plea against the solitary observer\'s small epiphany, and hear the refrain built for a listening audience.',
         labels: ['यह दीप अकेला, मैंने'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_03_007', title: 'यह दीप अकेला, मैंने देखा एक बूँद — साहित्यिक युक्तियाँ: प्रतीक और बिंब',
+          caseStudy: { intro: '\'मैंने देखा, एक चाँद\' में मैंने-देखा,-एक-चाँद जैसे सहायक विचार आते हैं।',
+            decisions: [{ prompt: 'In Varjk\'s poem "नहीं वोस्यक", the line "यह तू है अक्रक चरखा जिसे फिर भी कोई और नहीं चलाता" primarily supports which secondary theme?', options: [
+                { text: 'Correct answer: Individual autonomy and self-reliance (व्यक्तिगत स्वायत्तता और', outcome: 'Correct answer: Individual autonomy and self-reliance (व्यक्तिगत स्वायत्तता और आत्मनिर्भरता).' },
+                { text: 'industrial progress', outcome: 'Not quite — Students often confuse "secondary theme" with "subplot" or "minor topic mentioned once." They list.', reveals: 'students-often-confuse-secondary-theme' },
+                { text: 'secondary theme', outcome: 'Not quite — Students often confuse "secondary theme" with "subplot" or "minor topic mentioned once." They list.', reveals: 'students-often-confuse-secondary-theme' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_03_009', title: 'यह दीप अकेला, मैंने देखा एक बूँद — गौण भाव और विषयांतर',
+          caseStudy: { intro: '\'मैंने देखा, एक चाँद\' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।',
+            decisions: [{ prompt: 'Define irony and symbolism in your own words, giving one example from daily life for each (not from the poems).', options: [
+                { text: 'Irony: A situation where the outcome is contrary to what was expected (e.g., a fire', outcome: 'Irony: A situation where the outcome is contrary to what was expected (e.g., a fire station burning.' },
+                { text: 'sarcasm', outcome: 'Not quite — Students often conflate **symbolism with metaphor** — they think any comparison is a symbol.', reveals: 'students-often-conflate-symbolism-with' },
+                { text: 'metaphor', outcome: 'Not quite — Students often conflate **symbolism with metaphor** — they think any comparison is a symbol.', reveals: 'students-often-conflate-symbolism-with' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_03_007', title: 'Use it in the wild',
           caseStudy: { intro: 'At a personality-development workshop, the facilitator insists each student define themselves in one word for the badge. A friend who\'s a painter-cricketer-caregiver freezes: \'None of these fit. Something\'s wrong with me.\'',
             decisions: [{ prompt: 'What do Dangwal\'s poems in this chapter tell her?', options: [
@@ -47,67 +61,86 @@ export const c12_hin_a_ch03_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_03_007', difficulty: 'standard',
-          question: 'प्रतीक एक ऐसा चिह्न, वस्तु या पात्र है जो अपने प्रत्यक्ष अर्थ से परे जाकर किसी.',
-          hint: 'कक्षा 11 के साहित्यिक युक्तियाँ: बिंब और रूपक तथा विरोधाभास और प्रतीक नोड्स को दोबारा.',
-          misconception: 'छात्र अक्सर प्रतीक और बिंब को एक ही मानते हैं, विशेष रूप से जब कोई वस्तु दोनों भूमिकाएँ निभा सके (जैसे दीपक जो प्रकाश.',
+          question: '\'मैंने देखा, एक चाँद\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
+          hint: 'If stuck, review Class 11 Aroh Chapter 1 "नमक का दारोगा" or Chapter 3 "मीरा के पद".',
+          misconception: 'Students often confuse "secondary theme" with "subplot" or "minor topic mentioned once." They list things like.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'प्रतीक एक ऐसा चिह्न, वस्तु या पात्र है जो अपने प्रत्यक्ष अर्थ से परे जाकर किसी गहरे',
-                  options: ['प्रतीक एक ऐसा चिह्न, वस्तु या पात्र है जो अपने प्रत्यक्ष अर्थ से परे जाकर किसी गहरे', '\'यह दीप अकेला\' अज्ञेय की प्रयोगवादी कविता है जो व्यक्तिगत नैतिक साहस और सामाजिक अंधेरे के', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टेन्जा) का शब्दशः और', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के आंतरिक ढांचे'],
-                  hint: 'कक्षा 11 के साहित्यिक युक्तियाँ: बिंब और रूपक तथा विरोधाभास और प्रतीक नोड्स को दोबारा देखें, विशेष.',
-                  misconception: 'छात्र अक्सर प्रतीक और बिंब को एक ही मानते हैं, विशेष रूप से जब कोई वस्तु दोनों भूमिकाएँ निभा सके (जैसे दीपक जो प्रकाश का प्रतीक भी है और.' }
+                { id: 'a', prompt: 'In Varjk\'s poem "नहीं वोस्यक", the line "यह तू है अक्रक चरखा जिसे फिर भी कोई और नहीं चलाता" primarily supports which secondary theme?', answer: 'Correct answer: Individual autonomy and self-reliance (व्यक्तिगत स्वायत्तता और',
+                  options: ['Correct answer: Individual autonomy and self-reliance (व्यक्तिगत स्वायत्तता और', 'industrial progress', 'secondary theme', 'subplot'],
+                  hint: 'If stuck, review Class 11 Aroh Chapter 1 "नमक का दारोगा" or Chapter 3 "मीरा के पद" secondary theme.',
+                  misconception: 'Students often confuse "secondary theme" with "subplot" or "minor topic mentioned once." They list things like "charkha," "roti,".' },
+                { id: 'b', prompt: 'Explain in your own words how the secondary theme of "beauty in the mundane" operates differently in the two poems: "नहीं वोस्यक" and "मैंने देखा, एक चाँद".', answer: 'Correct answer: In "नहीं वोस्यक", beauty in the mundane is argued intellectually',
+                  options: ['Correct answer: In "नहीं वोस्यक", beauty in the mundane is argued intellectually', 'descriptions of poor people\'s lives', 'secondary theme', 'subplot'],
+                  hint: 'If stuck, review Class 11 Aroh Chapter 1 "नमक का दारोगा" or Chapter 3 "मीरा के पद" secondary theme.',
+                  misconception: 'Students often confuse "secondary theme" with "subplot" or "minor topic mentioned once." They list things like "charkha," "roti,".' },
+                { id: 'c', prompt: 'Compare the role of "transformation" in both poems. In "नहीं वोस्यक", what transforms? In "मैंने देखा, एक चाँद", what transforms?', answer: 'Correct answer: In "नहीं वोस्यक", *perception* transforms',
+                  options: ['Correct answer: In "नहीं वोस्यक", *perception* transforms', 'both show poor things becoming beautiful', 'secondary theme', 'subplot'],
+                  hint: 'If stuck, review Class 11 Aroh Chapter 1 "नमक का दारोगा" or Chapter 3 "मीरा के पद" secondary theme.',
+                  misconception: 'Students often confuse "secondary theme" with "subplot" or "minor topic mentioned once." They list things like "charkha," "roti,".' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को सबसे पहले कविता की पंक्तियों को दो बार पढ़ने के लिए कहें: पहली बार धीरे-धीरे शब्दों पर ध्यान देते हुए (बिंब के.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-secondary-theme': { steps: ['If the student lists nouns instead of thematic statements: (1) Have them re-read the last stanza of "नहीं वोस्यक" and.', '(3) Practice converting 5 nouns from the poem into thematic statements.', '(4) Re-attempt Diagnostic Question 2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_03_007', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often confuse "secondary theme" with "subplot" or "minor topic mentioned once." They list things like.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate this student interpretation: "The secondary theme of \'मैंने देखा, एक चाँद\' is hunger because the roti represents food scarcity." Is this a valid.', answer: 'Correct answer: No, it is not a valid secondary theme',
+                  options: ['Correct answer: No, it is not a valid secondary theme', 'secondary theme', 'subplot', 'minor topic mentioned once'],
+                  hint: 'If stuck, review Class 11 Aroh Chapter 1 "नमक का दारोगा" or Chapter 3 "मीरा के पद" secondary theme.',
+                  misconception: 'Students often confuse "secondary theme" with "subplot" or "minor topic mentioned once." They list things like "charkha," "roti,".' }
+          ],
+            remediations: { 'students-often-confuse-secondary-theme': { steps: ['If the student lists nouns instead of thematic statements: (1) Have them re-read the last stanza of "नहीं वोस्यक" and.', '(3) Practice converting 5 nouns from the poem into thematic statements.', '(4) Re-attempt Diagnostic Question 2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_03_008', difficulty: 'standard',
-          question: 'मुख्य भाव वह केंद्रीय भाव या भावना है जो कविता के माध्यम से दोहराई जाती है और.',
+          question: '\'मैंने देखा, एक चाँद\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
           hint: 'यदि फंसे हुए महसूस हों, तो कक्षा 11 के पाठ 6 के नोड c11_hin_a_cbse_03_006 (मुख्य विषय और.',
           misconception: 'छात्र अक्सर मानते हैं कि कविता का मुख्य भाव केवल \'एक दिया और एक बूँद देखना\' है — यानी वे कविता के शाब्दिक, दृश्य विवरण.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य भाव वह केंद्रीय भाव या भावना है जो कविता के माध्यम से दोहराई जाती है और समग्र कविता',
-                  options: ['मुख्य भाव वह केंद्रीय भाव या भावना है जो कविता के माध्यम से दोहराई जाती है और समग्र कविता', '\'यह दीप अकेला\' अज्ञेय की प्रयोगवादी कविता है जो व्यक्तिगत नैतिक साहस और सामाजिक अंधेरे के', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टेन्जा) का शब्दशः और', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के आंतरिक ढांचे'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'मैंने देखा, एक चाँद\' में बिंब (imagery)',
+                  options: ['\'मैंने देखा, एक चाँद\' में बिंब (imagery)', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'मैंने देखा, एक चाँद\' का कथानक', '\'मैंने देखा, एक चाँद\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फंसे हुए महसूस हों, तो कक्षा 11 के पाठ 6 के नोड c11_hin_a_cbse_03_006 (मुख्य विषय और संदेश) की.',
                   misconception: 'छात्र अक्सर मानते हैं कि कविता का मुख्य भाव केवल \'एक दिया और एक बूँद देखना\' है — यानी वे कविता के शाब्दिक, दृश्य विवरण को मुख्य भाव मान.' }
           ],
             remediations: { 'wrong-idea': { steps: ['यदि छात्र मुख्य भाव को शाब्दिक रूप से समझ रहा है, तो उसे कविता के प्रत्येक stanza को आवाज़ में पढ़ने के लिए कहिए और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_03_009', difficulty: 'standard',
-          question: 'गौण भाव (उप-थीम) वे सहायक विचार/भाव हैं जो कविता के केंद्रीय भाव को पुष्ट.',
-          hint: 'अगर केंद्रीय भाव स्पष्ट न हो तो c12_hin_a_cbse_03_004 और c12_hin_a_cbse_03_008 पर लौटें.',
-          misconception: 'छात्र अक्सर **\'विषयांतर\' को \'लेखक का भटकाव\' या \'अप्रासंगिक प्रसंग\' मान लेते हैं**, जबकि हिंदी काव्य-परंपरा (छायावाद.',
+          question: '\'मैंने देखा, एक चाँद\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+          hint: 'If stuck, review "Symbol vs Metaphor" distinction in c12_hin_a_cbse_03_008 and practice.',
+          misconception: 'Students often conflate **symbolism with metaphor** — they think any comparison is a symbol.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण भाव (उप-थीम) वे सहायक विचार/भाव हैं जो कविता के केंद्रीय भाव को पुष्ट, विस्तारित या',
-                  options: ['गौण भाव (उप-थीम) वे सहायक विचार/भाव हैं जो कविता के केंद्रीय भाव को पुष्ट, विस्तारित या', '\'यह दीप अकेला\' अज्ञेय की प्रयोगवादी कविता है जो व्यक्तिगत नैतिक साहस और सामाजिक अंधेरे के', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टेन्जा) का शब्दशः और', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के आंतरिक ढांचे'],
-                  hint: 'अगर केंद्रीय भाव स्पष्ट न हो तो c12_hin_a_cbse_03_004 और c12_hin_a_cbse_03_008 पर लौटें — वहाँ.',
-                  misconception: 'छात्र अक्सर **\'विषयांतर\' को \'लेखक का भटकाव\' या \'अप्रासंगिक प्रसंग\' मान लेते हैं**, जबकि हिंदी काव्य-परंपरा (छायावाद विशेषकर) में विषयांतर.' }
+                { id: 'a', prompt: 'Identify one symbol in "मैंने देखा, एक चाँद" and explain how the poet develops its symbolic meaning across the poem.', answer: 'The moon (चाँद) functions as a symbol of fragile freedom',
+                  options: ['The moon (चाँद) functions as a symbol of fragile freedom', 'moon = beauty'],
+                  hint: 'If stuck, review "Symbol vs Metaphor" distinction in c12_hin_a_cbse_03_008 and practice annotating.',
+                  misconception: 'Students often conflate **symbolism with metaphor** — they think any comparison is a symbol.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**पहला कदम**: छात्र से कहें — "कविता के 3 स्टैंज़ा चुनें जो आपको \'मुख्य बात से अलग\' लगें; प्रत्येक के लिए लिखें: (क) यह.', '(ख) क्या यह मुख्य भाव पर लौटता है?', '(ग) क्या यह मुख्य भाव को मजबूत करता है?" 2.', '**दूसरा कदम**: c12_hin_a_cbse_03_004 (केंद्रीय भाव) और c12_hin_a_cbse_03_008 (मुख्य भाव) दोबारा पढ़वाएँ — गौण/मुख्य का.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-conflate-symbolism-with': { steps: ['Revisit node c12_hin_a_cbse_03_008 (Imagery and Metaphor) to sharpen the distinction: metaphor = explicit comparison.', 'Re-read "नहीं वोस्यक" marking every occurrence of "नहीं" and "यह" — trace how the poem builds an expectation then.', 'For symbolism, list all concrete nouns in "मैंने देखा, एक चाँद" (चाँद, फूल, पवन, तेल, गंध) and write the abstract idea.', 'Re-diagnostic: Write one PEEL paragraph analyzing the irony in the title "नहीं वोस्यक" using the structure: Point →.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_03_010', difficulty: 'standard',
-          question: 'पदावली का अर्थ है कविता में प्रयुक्त कठिन शब्दों, मुहावरों और idiomatic.',
+          question: '\'मैंने देखा, एक चाँद\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
           hint: 'यदि शब्दों के शब्दकोश अर्थ याद नहीं आ रहे हैं तो कक्षा 11 के नोड c11_hin_a_cbse_03_010.',
           misconception: 'छात्र अक्सर मानते हैं कि यदि वे किसी शब्द का शब्दकोश अर्थ जानते हैं तो वे उसकी भावात्मक व्याख्या भी सही कर सकते.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली का अर्थ है कविता में प्रयुक्त कठिन शब्दों, मुहावरों और idiomatic expressions के',
-                  options: ['पदावली का अर्थ है कविता में प्रयुक्त कठिन शब्दों, मुहावरों और idiomatic expressions के', '\'यह दीप अकेला\' अज्ञेय की प्रयोगवादी कविता है जो व्यक्तिगत नैतिक साहस और सामाजिक अंधेरे के', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टेन्जा) का शब्दशः और', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के आंतरिक ढांचे'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'मैंने देखा, एक चाँद\' की पदावली',
+                  options: ['\'मैंने देखा, एक चाँद\' की पदावली', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'मैंने देखा, एक चाँद\' का कथानक', '\'मैंने देखा, एक चाँद\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि शब्दों के शब्दकोश अर्थ याद नहीं आ रहे हैं तो कक्षा 11 के नोड c11_hin_a_cbse_03_010 (पदावली.',
                   misconception: 'छात्र अक्सर मानते हैं कि यदि वे किसी शब्द का शब्दकोश अर्थ जानते हैं तो वे उसकी भावात्मक व्याख्या भी सही कर सकते हैं—जैसे वे "बूँद" का अर्थ.' }
           ],
             remediations: { 'wrong-idea': { steps: ['यदि कोई छात्र इस भ्रम में फंसा हुआ है तो उसे निम्नलिखित चरण-दर-चरण प्रक्रिया का पालन कराना चाहिए: (1) कविता की कोई एक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_03_011', difficulty: 'standard',
-          question: 'पद्य में भाषा-प्रयोग का अर्थ है कविता में शब्दों के चयन, क्रम, पदबंध संरचना.',
-          hint: 'यदि पदबंध पहचान में अटके तो c11_hin_a_cbse_13_011 के \'पदबंध विश्लेषण\' खंड को दोहराएँ; यदि.',
-          misconception: 'छात्र समझते हैं कि पद्य में व्याकरण के नियम \'टूटते\' हैं या कवि \'गलती\' करता है; वास्तव में कवि \'काव्यात्मक छूट\' (Poetic.',
+          question: '\'मैंने देखा, एक चाँद\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य.',
+          hint: 'If stuck on samAs vigraha or karak assignment, review Class 11 Chapter 3 grammar.',
+          misconception: 'Students treat "Language Usage" as **vocabulary listing** (defining "izÑr", "Lo;aHkw", "v;qr%") rather than.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्य में भाषा-प्रयोग का अर्थ है कविता में शब्दों के चयन, क्रम, पदबंध संरचना, अलंकारिक',
-                  options: ['पद्य में भाषा-प्रयोग का अर्थ है कविता में शब्दों के चयन, क्रम, पदबंध संरचना, अलंकारिक', '\'यह दीप अकेला\' अज्ञेय की प्रयोगवादी कविता है जो व्यक्तिगत नैतिक साहस और सामाजिक अंधेरे के', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टेन्जा) का शब्दशः और', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के आंतरिक ढांचे'],
-                  hint: 'यदि पदबंध पहचान में अटके तो c11_hin_a_cbse_13_011 के \'पदबंध विश्लेषण\' खंड को दोहराएँ; यदि.',
-                  misconception: 'छात्र समझते हैं कि पद्य में व्याकरण के नियम \'टूटते\' हैं या कवि \'गलती\' करता है; वास्तव में कवि \'काव्यात्मक छूट\' (Poetic License) लेता है.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'मैंने देखा, एक चाँद\' में भाषा-प्रयोग',
+                  options: ['\'मैंने देखा, एक चाँद\' में भाषा-प्रयोग', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'मैंने देखा, एक चाँद\' का कथानक', '\'मैंने देखा, एक चाँद\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck on samAs vigraha or karak assignment, review Class 11 Chapter 3 grammar exercises.',
+                  misconception: 'Students treat "Language Usage" as **vocabulary listing** (defining "izÑr", "Lo;aHkw", "v;qr%") rather than **grammatical analysis**.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को \'काव्यात्मक छूट\' की अवधारणा स्पष्ट करें: उदाहरण देकर दिखाएँ कि कैसे \'नील गगन\' (विशेषण-पद) और \'गगन नील\'.', 'उसे c11_hin_a_cbse_13_011 (जाग तुझको दूर जाना — व्याकरण: पद्य में भाषा-प्रयोग) और c11_hin_a_cbse_14_011 (बादल को घरिते.', 'पुनः निदान के लिए DIAGNOSTIC_QUESTION_2 और DIAGNOSTIC_QUESTION_6 फिर से हल करवाएँ।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-language-usage-as': { steps: ['**Revisit Class 11 Grammar Node**: Go to `c11_hin_ar_cbse_03_011` (or any Chapter 3 grammar node) and re-do the.', '**Mini-drill**: Take 5 lines from "nhi vosQyk", parse every verb (mood, tense, person), every compound (samAs type).', '**Re-diagnostic**: Answer Diagnostic Question 2 and 4 again *without notes*.', 'If you still paraphrase instead of analyzing grammatical function, repeat step 2 with a peer — teach them the parsing.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_03_012', difficulty: 'standard',
-          question: 'बोध-प्रश्न: वस्तुनिष्ठ और आशय-सूचक वह प्रश्न है जो पाठ के स्पष्ट तथ्य.',
+          question: '\'मैंने देखा, एक चाँद\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
           hint: 'यदि फंसें, तो कक्षा 11 के नोड c11_hin_a_cbse_03_012 में वस्तुनिष्ठ और आशय-सूचक प्रश्नों.',
           misconception: 'छात्र अक्सर वस्तुनिष्ठ और आशय-सूचक प्रश्नों के उत्तर को एक ही तरह लिखते हैं — जैसे कि "कवि ने एक दीप और एक बूँद देखी".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बोध-प्रश्न: वस्तुनिष्ठ और आशय-सूचक वह प्रश्न है जो पाठ के स्पष्ट तथ्य (वस्तुनिष्ठ) और',
-                  options: ['बोध-प्रश्न: वस्तुनिष्ठ और आशय-सूचक वह प्रश्न है जो पाठ के स्पष्ट तथ्य (वस्तुनिष्ठ) और', '\'यह दीप अकेला\' अज्ञेय की प्रयोगवादी कविता है जो व्यक्तिगत नैतिक साहस और सामाजिक अंधेरे के', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टेन्जा) का शब्दशः और', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के आंतरिक ढांचे'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'मैंने देखा, एक चाँद\' के वस्तुनिष्ठ प्रश्न',
+                  options: ['\'मैंने देखा, एक चाँद\' के वस्तुनिष्ठ प्रश्न', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'मैंने देखा, एक चाँद\' का कथानक', '\'मैंने देखा, एक चाँद\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फंसें, तो कक्षा 11 के नोड c11_hin_a_cbse_03_012 में वस्तुनिष्ठ और आशय-सूचक प्रश्नों के आधारभूत.',
                   misconception: 'छात्र अक्सर वस्तुनिष्ठ और आशय-सूचक प्रश्नों के उत्तर को एक ही तरह लिखते हैं — जैसे कि "कवि ने एक दीप और एक बूँद देखी" दोनों प्रकार के.' }
           ],

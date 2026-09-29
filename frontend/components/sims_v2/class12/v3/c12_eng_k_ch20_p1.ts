@@ -19,50 +19,50 @@ export const c12_eng_k_ch20_p1: SimDef = {
         hook: 'Tagore rewrote a crude legend of magic and lust into \'a psychological drama of intense spiritual conflict.\' Prakriti — named for nature\'s raw life-force — gets her humanity in Act I; Act II is the danger: freedom that hasn\'t learned to love without grasping. Self-humiliation, he wrote, is a sin worse than self-murder.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" provides the essential historical, social, literary, and biographical framework needed to understand Tagore\'s *Chandalika* — a one-act drama adapted from.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'s devotion but from selfless love that respects the other\' (Kaleidoscope, ch. 20) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_20_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Stage the collision: weigh the earth-spell against the monk\'s sadhana, track how gratitude curdles into possession, and judge who pays the price of a consciousness that overreached.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_20_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re about to watch a play where a monk asks an "untouchable" girl for water — a simple act that shatters 2,000 years of social conditioning.',
+          caseStudy: { intro: 'Start with the author of \'s devotion but from selfless love that respects the other\', then the period, then the literary context — background turns a text from.',
             decisions: [{ prompt: 'What is the source legend of *Chandalika*, and how does Tagore explicitly describe his transformation of it in the Introduction?', options: [
                 { text: 'The source is a Buddhist legend where Ananda, Buddha\'s disciple, asks water from a', outcome: 'The source is a Buddhist legend where Ananda, Buddha\'s disciple, asks water from a *chandalika*.' },
                 { text: 'It\'s a story about a witch and a monk', outcome: 'Not quite — Students treat *Chandalika* primarily as a "caste reform play" or "social problem drama".', reveals: 'students-treat-chandalika-primarily-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_20_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are describing a movie to a friend in five sentences: "First this happens, then this, then the big moment, then things settle, finally this is how.',
+          caseStudy: { intro: 'Trace \'s devotion but from selfless love that respects the other\' from opening to close: how it starts, how events/images build, where it lands — the sequence.',
             decisions: [{ prompt: 'What is the inciting incident in *Chandalika*, and why does it disrupt Prakriti\'s equilibrium?', options: [
                 { text: 'The inciting incident is Ananda\'s request for water at the well, where he treats Prakriti', outcome: 'The inciting incident is Ananda\'s request for water at the well, where he treats Prakriti as.' },
                 { text: 'the mother\'s spell', outcome: 'Not quite — Students often believe the climax is Ananda\'s physical arrival at the door in Act II.', reveals: 'the-climax-is-ananda-s' },
                 { text: 'Prakriti\'s song', outcome: 'Not quite — Students often believe the climax is Ananda\'s physical arrival at the door in Act II.', reveals: 'the-climax-is-ananda-s' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_20_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re sitting in a dark theatre and the lights come up on a single well under a blazing noon sun — no elaborate sets, just that well and a girl.',
+          caseStudy: { intro: 'Identify where and when \'s devotion but from selfless love that respects the other\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What are the three primary physical settings in Act I of Chandalika, and what social reality does each represent?', options: [
                 { text: 'The three primary physical settings in Act I are: (1) The well', outcome: 'The three primary physical settings in Act I are: (1) The well — a liminal space where caste.' },
                 { text: 'village', outcome: 'Not quite — Students often treat setting in Chandalika as a static background — "a village well in ancient.', reveals: 'students-often-treat-setting-in' },
                 { text: 'forest', outcome: 'Not quite — Students often treat setting in Chandalika as a static background — "a village well in ancient.', reveals: 'students-often-treat-setting-in' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_20_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are a director casting the role of Prakriti — you need to understand her emotional graph from the opening scene where she sits by the well in the.',
+          caseStudy: { intro: 'Pick the central figure in \'s devotion but from selfless love that respects the other\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the exact words Ananda speaks to Prakriti at the well that trigger her "new birth"?', options: [
                 { text: 'Ananda says: "As I am a human being, so also are you, and all water is clean and holy', outcome: 'Ananda says: "As I am a human being, so also are you, and all water is clean and holy that cools.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students often treat Prakriti\'s "new birth" as *complete* after Ananda\'s first visit, missing that.', reveals: 'students-often-treat-prakriti-s' },
                 { text: 'You are pure', outcome: 'Not quite — Students often treat Prakriti\'s "new birth" as *complete* after Ananda\'s first visit, missing that.', reveals: 'students-often-treat-prakriti-s' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_20_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re directing a stage production of *Chandalika* — you need to explain to the actors playing Mother and Ananda *why* their characters exist beyond.',
+          caseStudy: { intro: 'Spot the secondary figures in \'s devotion but from selfless love that respects the other\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'What is the Mother\'s immediate reaction when Prakriti tells her about Ananda accepting water from her hands in Act I?', options: [
                 { text: 'The Mother reacts with alarm and warns Prakriti of dire consequences: "O, you stupid', outcome: 'The Mother reacts with alarm and warns Prakriti of dire consequences: "O, you stupid girl, how.' },
                 { text: 'She is happy for her daughter', outcome: 'Not quite — Students treat Ananda as a "love interest" or romantic lead because Prakriti desires him.', reveals: 'students-treat-ananda-as-a' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_20_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re asked in the board exam: "How does Tagore transform a Buddhist legend into a psychological drama about self-realisation?" Start by recalling the.',
+          caseStudy: { intro: 'Ask what \'s devotion but from selfless love that respects the other\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the single catalytic event in Act I that triggers Prakriti\'s "new birth," and what exact words does Ananda speak that constitute.', options: [
                 { text: 'The catalytic event is Ananda asking Prakriti for water at the well', outcome: 'The catalytic event is Ananda asking Prakriti for water at the well.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students conflate the *legend\'s* plot (girl lusts after monk, uses magic, Buddha saves monk) with.', reveals: 'students-conflate-the-legend-s' },
@@ -82,12 +82,12 @@ export const c12_eng_k_ch20_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" provides the essential historical.',
+          question: '\'s devotion but from selfless love that respects the other\' (Kaleidoscope, ch.',
           hint: 'Review c11_eng_w_cbse_20_001 — specifically the "Introduction" section of *Chitra* where.',
           misconception: 'Students treat *Chandalika* primarily as a "caste reform play" or "social problem drama" — expecting a clear moral.',
           parts: [
@@ -96,7 +96,7 @@ export const c12_eng_k_ch20_p1: SimDef = {
                   hint: 'Review c11_eng_w_cbse_20_001 — specifically the "Introduction" section of *Chitra* where Tagore.',
                   misconception: 'Students treat *Chandalika* primarily as a "caste reform play" or "social problem drama" — expecting a clear moral: "untouchability.' }
           ],
-            remediations: { 'students-treat-chandalika-primarily-as': { steps: ['If a student cannot articulate the legend-to-drama transformation or the "spell of earth vs sadhana" conflict: (1) Have.', '203-206) with a highlighter, marking every contrast Tagore draws (crude plot vs psychological drama, lust vs spiritual.', '(2) Ask them to write two 2-sentence summaries: one of the *original legend*, one of *Tagore\'s version* — then compare.', '(3) Re-diagnose with DIAGNOSTIC_QUESTION_1 and DIAGNOSTIC_QUESTION_3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-chandalika-primarily-as': { steps: ['If a student cannot articulate the legend-to-drama transformation or the "spell of earth vs sadhana" conflict: (1) Have.', '203-206) with a highlighter, marking every contrast Tagore draws (crude plot vs psychological drama, lust vs spiritual.', '(2) Ask them to write two 2-sentence summaries: one of the *original legend*, one of *Tagore\'s version* — then compare.', '(3) Re-diagnose with DIAGNOSTIC_QUESTION_1 and DIAGNOSTIC_QUESTION_3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_001', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -107,9 +107,9 @@ export const c12_eng_k_ch20_p1: SimDef = {
                   hint: 'Review c11_eng_w_cbse_20_001 — specifically the "Introduction" section of *Chitra* where Tagore.',
                   misconception: 'Students treat *Chandalika* primarily as a "caste reform play" or "social problem drama" — expecting a clear moral: "untouchability.' }
           ],
-            remediations: { 'students-treat-chandalika-primarily-as': { steps: ['If a student cannot articulate the legend-to-drama transformation or the "spell of earth vs sadhana" conflict: (1) Have.', '203-206) with a highlighter, marking every contrast Tagore draws (crude plot vs psychological drama, lust vs spiritual.', '(2) Ask them to write two 2-sentence summaries: one of the *original legend*, one of *Tagore\'s version* — then compare.', '(3) Re-diagnose with DIAGNOSTIC_QUESTION_1 and DIAGNOSTIC_QUESTION_3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-chandalika-primarily-as': { steps: ['If a student cannot articulate the legend-to-drama transformation or the "spell of earth vs sadhana" conflict: (1) Have.', '203-206) with a highlighter, marking every contrast Tagore draws (crude plot vs psychological drama, lust vs spiritual.', '(2) Ask them to write two 2-sentence summaries: one of the *original legend*, one of *Tagore\'s version* — then compare.', '(3) Re-diagnose with DIAGNOSTIC_QUESTION_1 and DIAGNOSTIC_QUESTION_3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_002', difficulty: 'standard',
-          question: 'Plot is the sequence of causally linked events that form the story of a drama.',
+          question: 'The plot/narrative arc of \'s devotion but from selfless love that respects the.',
           hint: 'Review Freytag\'s pyramid using a known story (e.g., *Cinderella*) and practice mapping.',
           misconception: 'Students often believe the climax is Ananda\'s physical arrival at the door in Act II.',
           parts: [
@@ -122,9 +122,9 @@ export const c12_eng_k_ch20_p1: SimDef = {
                   hint: 'Review Freytag\'s pyramid using a known story (e.g., *Cinderella*) and practice mapping each event.',
                   misconception: 'Students often believe the climax is Ananda\'s physical arrival at the door in Act II.' }
           ],
-            remediations: { 'the-climax-is-ananda-s': { steps: ['If a student cannot distinguish climax from resolution, have them re-read Act II from "PRAKRITI (looks in the mirror.', 'Then map the five pyramid stages on a vertical line, placing each key event on its rung.', 'Finally, have them write a one-sentence summary for each rung.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-climax-is-ananda-s': { steps: ['If a student cannot distinguish climax from resolution, have them re-read Act II from "PRAKRITI (looks in the mirror.', 'Then map the five pyramid stages on a vertical line, placing each key event on its rung.', 'Finally, have them write a one-sentence summary for each rung.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_003', difficulty: 'standard',
-          question: 'Setting in drama refers to the time, place, and social environment where the.',
+          question: 'The setting of \'s devotion but from selfless love that respects the other\'.',
           hint: 'If stuck on "atmosphere," return to Class 7 node c7_engl_ch04_005 (Atmosphere in "The.',
           misconception: 'Students often treat setting in Chandalika as a static background — "a village well in ancient India" — and atmosphere.',
           parts: [
@@ -133,9 +133,9 @@ export const c12_eng_k_ch20_p1: SimDef = {
                   hint: 'If stuck on "atmosphere," return to Class 7 node c7_engl_ch04_005 (Atmosphere in "The Tunnel") and.',
                   misconception: 'Students often treat setting in Chandalika as a static background — "a village well in ancient India" — and atmosphere as mere weather.' }
           ],
-            remediations: { 'students-often-treat-setting-in': { steps: ['If the student cannot move beyond "background" thinking: 1) Have them re-read Act I\'s opening stage direction and.', 'What would change if they met in a temple?" 2) Map the three settings (well, courtyard, road) on paper and annotate.', '3) Watch a 5-minute clip of a Chandalika performance (YouTube: "Chandalika Tagore play") and note how the director uses.', '4) Re-attempt Diagnostic Question 3 with this lens.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-setting-in': { steps: ['If the student cannot move beyond "background" thinking: 1) Have them re-read Act I\'s opening stage direction and.', 'What would change if they met in a temple?" 2) Map the three settings (well, courtyard, road) on paper and annotate.', '3) Watch a 5-minute clip of a Chandalika performance (YouTube: "Chandalika Tagore play") and note how the director uses.', '4) Re-attempt Diagnostic Question 3 with this lens.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a drama involves examining the central.',
+          question: 'Character analysis in \'s devotion but from selfless love that respects the.',
           hint: 'If stuck on "how does she change?", re-read c12_eng_k_cbse_20_002 (Plot) and list.',
           misconception: 'Students often treat Prakriti\'s "new birth" as *complete* after Ananda\'s first visit, missing that the play is about.',
           parts: [
@@ -144,9 +144,9 @@ export const c12_eng_k_ch20_p1: SimDef = {
                   hint: 'If stuck on "how does she change?", re-read c12_eng_k_cbse_20_002 (Plot) and list Prakriti\'s first.',
                   misconception: 'Students often treat Prakriti\'s "new birth" as *complete* after Ananda\'s first visit, missing that the play is about the *second* birth.' }
           ],
-            remediations: { 'students-often-treat-prakriti-s': { steps: ['Re-read Act I focusing *only* on Prakriti\'s speeches — highlight every "I" statement.', 'Make a two-column table: Column A = Act I assertions of self-worth ("I am no slave"); Column B = Act II assertions.', 'Watch/read the mirror scenes (Act II) and note the *exact words* where her tone shifts from "joy hard to name" to "O.', 'Re-attempt Diagnostic Question 3 with this evidence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-prakriti-s': { steps: ['Re-read Act I focusing *only* on Prakriti\'s speeches — highlight every "I" statement.', 'Make a two-column table: Column A = Act I assertions of self-worth ("I am no slave"); Column B = Act II assertions.', 'Watch/read the mirror scenes (Act II) and note the *exact words* where her tone shifts from "joy hard to name" to "O.', 'Re-attempt Diagnostic Question 3 with this evidence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_005', difficulty: 'standard',
-          question: 'Supporting characters in drama are secondary figures who interact with the.',
+          question: 'Supporting characters in \'s devotion but from selfless love that respects the.',
           hint: 'Review c11_eng_h_cbse_01_005 worked examples on Madhav/Thakurda as foils in *The Post.',
           misconception: 'Students treat Ananda as a "love interest" or romantic lead because Prakriti desires him.',
           parts: [
@@ -155,9 +155,9 @@ export const c12_eng_k_ch20_p1: SimDef = {
                   hint: 'Review c11_eng_h_cbse_01_005 worked examples on Madhav/Thakurda as foils in *The Post Office*.',
                   misconception: 'Students treat Ananda as a "love interest" or romantic lead because Prakriti desires him.' }
           ],
-            remediations: { 'students-treat-ananda-as-a': { steps: ['Re-read Act I, Mother\'s lines: "Be warned, Prakriti, these men\'s words are meant only to be heard, not to.', 'Re-read Act II, Prakriti\'s mirror vision: "His face was mazed, his body slack...', 'only a blind and thoughtless compulsion." 3.', 'Complete this sentence frame: "Ananda\'s silence means ______." 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-ananda-as-a': { steps: ['Re-read Act I, Mother\'s lines: "Be warned, Prakriti, these men\'s words are meant only to be heard, not to.', 'Re-read Act II, Prakriti\'s mirror vision: "His face was mazed, his body slack...', 'only a blind and thoughtless compulsion." 3.', 'Complete this sentence frame: "Ananda\'s silence means ______." 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_006', difficulty: 'standard',
-          question: 'The primary theme of a drama is the central, unifying idea or insight about.',
+          question: 'The primary theme of \'s devotion but from selfless love that respects the.',
           hint: 'If unable to trace the theme, re-read Act I\'s well scene (pp. 207-209) and Act II\'s.',
           misconception: 'Students conflate the *legend\'s* plot (girl lusts after monk, uses magic, Buddha saves monk) with *Tagore\'s* thematic.',
           parts: [
@@ -178,7 +178,7 @@ export const c12_eng_k_ch20_p1: SimDef = {
                   hint: 'If unable to trace the theme, re-read Act I\'s well scene (pp. 207-209) and Act II\'s mirror visions.',
                   misconception: 'Students conflate the *legend\'s* plot (girl lusts after monk, uses magic, Buddha saves monk) with *Tagore\'s* thematic transformation.' }
           ],
-            remediations: { 'students-conflate-the-legend-s': { steps: ['If the student cannot distinguish the legend from the play: Step 1 — Re-read the Introduction (NCERT pp.', '204-206) and highlight every phrase where Tagore contrasts "the popular tale" with "the psychological drama." Step 2.', 'Step 3 — Re-attempt Diagnostic Question 1 and 2.', 'Step 4 — If still stuck, revisit c12_eng_k_cbse_20_001 (Context and Background) for the Buddhist legend summary, then.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-conflate-the-legend-s': { steps: ['If the student cannot distinguish the legend from the play: Step 1 — Re-read the Introduction (NCERT pp.', '204-206) and highlight every phrase where Tagore contrasts "the popular tale" with "the psychological drama." Step 2.', 'Step 3 — Re-attempt Diagnostic Question 1 and 2.', 'Step 4 — If still stuck, revisit c12_eng_k_cbse_20_001 (Context and Background) for the Buddhist legend summary, then.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

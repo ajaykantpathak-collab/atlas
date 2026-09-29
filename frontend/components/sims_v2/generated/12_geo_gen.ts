@@ -2144,13 +2144,13 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Urban Settlement Problems Refer To The",
+    "title": "Urban Settlement Problems",
     "text": "Urban settlement problems refer to the systemic challenges arising from rapid, unplanned urbanization, manifesting as slums (informal settlements lacking durable housing, sufficient living space, safe water, sanitation, and security of tenure), congestion",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Problems Of Rural Settlements Refer To",
+    "title": "Problems Of Rural Settlements",
     "text": "Problems of rural settlements refer to the persistent deficits in physical infrastructure (roads, electricity, piped water, sanitation, drainage), social services (healthcare, education, banking, markets), and economic opportunities that characterize villages",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -5323,7 +5323,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Land Transport Comprises Roadways And",
+    "title": "Modes of Transport: Land Transport",
     "text": "Land transport comprises roadways and railways that move people and goods over the Earth's surface. Roadways provide door-to-door connectivity through a hierarchy of roads (National Highways, State Highways, District Roads, Village Roads, Border Roads), while",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -6578,7 +6578,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Urban Settlement Problems Refer To The",
+    "title": "Urban Settlement Problems",
     "text": "Urban settlement problems refer to the adverse conditions arising from rapid and unplanned urbanization, characterized by the proliferation of slums (areas of substandard housing lacking basic services), severe congestion (overcrowding, traffic gridlock,",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
@@ -7375,15 +7375,13 @@ export const C12_GEO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_geo_ch12",
-  "title": "Water Resources In India Refer To",
+  "title": "Water Resources In India",
   "subtitle": "Geography · Chapter 12",
   "classLevel": 12,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Water Resources In India Refer To",
-  "chapters": [
-   "Geography Ch12: Water Resources In India Refer To"
-  ],
+  "topic": "Water Resources In India",
+  "chapters": ["Geography Ch12: Water Resources In India"],
   "nodeIds": [
    "c12_geo_cbse_12_001",
    "c12_geo_cbse_12_002",
@@ -7402,7 +7400,7 @@ export const C12_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Water Resources In India Refer To directly with your eyes?",
+   "question": "Can you see Water Resources In India directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -7413,7 +7411,7 @@ export const C12_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Water Resources In India Refer To",
+    "title": "Water Resources In India",
     "text": "Water resources in India refer to the total volume of freshwater available from precipitation, surface water bodies (rivers, lakes, ponds, tanks), and replenishable groundwater aquifers that can be sustainably utilized for human needs.",
     "emoji": "🌍",
     "bgColor": "from-rose-400 to-pink-500"
@@ -7437,7 +7435,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Traditional Rainwater Harvesting Methods In",
+    "title": "Rainwater Harvesting: Traditional Methods",
     "text": "Traditional rainwater harvesting methods in India are indigenous, community-managed systems that capture and store monsoon runoff using locally available materials and terrain-specific designs.",
     "emoji": "🌍",
     "bgColor": "from-violet-400 to-purple-500"
@@ -8492,7 +8490,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Agro-based Industries Like Jute And",
+    "title": "Agro-based Industries Like Jute And Sugar",
     "text": "Agro-based industries like jute and sugar use agricultural raw materials that are perishable and weight-losing; the jute industry is concentrated in the Hugli basin of West Bengal due to raw material, water for retting, coal, and port facilities, while the",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
@@ -8504,7 +8502,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Chemical And Fertiliser Industry In",
+    "title": "Chemical And Fertiliser Industry",
     "text": "The chemical and fertiliser industry in India comprises the production of inorganic chemicals (soda ash, caustic soda, sulphuric acid), organic chemicals (petrochemicals, synthetic fibres, plastics), and nitrogenous, phosphatic, potassic, and complex",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -13238,7 +13236,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Field Data Collection Recording And",
+    "title": "Field Data Collection: Recording",
     "text": "Field data collection recording and documentation techniques refer to the systematic methods used to capture, organize, and preserve primary geographical data gathered during field surveys, including structured field notebooks, digital logging devices,",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"

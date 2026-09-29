@@ -6,13 +6,13 @@ import C12_BiotechAnimalCellCultureCBSESim from '../../../simulations/c6_12_new/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biotechanimalcellculturecbsesim: SimDef = {
     id: 'v3w_c12_biotechanimalcellculturecbsesim',
-    title: 'Animal Cell Culture CBSE',
+    title: 'Animal Cell Culture: History and Advantages Over Whole Organisms',
     subtitle: 'This node covers the historical perspective (1882–1975) and the advantages/limitations of.',
     classLevel: 12, subject: 'biotechnology', topic: 'Animal Cell Culture: History and Advantages Over Whole Organisms',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_08_001', 'c12_biotech_cbse_08_004', 'c12_biotech_cbse_08_005', 'c12_biotech_cbse_08_006', 'c12_biotech_cbse_08_007', 'c12_biotech_cbse_08_008', 'c12_biotech_cbse_08_009', 'c12_biotech_cbse_08_010', 'c12_biotech_cbse_08_011', 'c12_biotech_cbse_01_005', 'c12_biotech_cbse_08_002', 'c12_biotech_cbse_08_003', 'c12_biotech_cbse_07_009', 'c12_biotech_cbse_07_003', 'c12_biotech_cbse_07_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a scientist in 1950 trying to produce enough polio vaccine for millions of children.', goal: 'Master Animal Cell Culture CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a scientist in 1950 trying to produce enough polio vaccine for millions of children.', goal: 'Master Animal Cell Culture: History and Advantages Over Whole Organisms.' },
     discovery: {
         question: 'Compare the “controlled physico-chemical environment” advantage of animal cell culture with the “may not be a holistic representation of in vivo.',
         options: ['In vitro, hepatocytes can be exposed to a drug at precise concentrations without', 'cell culture is always better for toxicity', 'the same cells'],
@@ -80,7 +80,7 @@ export const w_c12_biotechanimalcellculturecbsesim: SimDef = {
             { text: 'Calculate number of aliquots from 100 mL FBS: each aliquot uses 45 mL FBS, so 100 mL / 45 mL ≈ 2.22 → only 2 full.', faded: true, blankAnswer: '45 mL FBS + 5 mL DMSO per 50 mL aliquot; 2 full aliquots.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_biotech_cbse_08_004', title: 'Identify each idea',
-          dissect: { specimen: 'Animal Cell Culture CBSE', spots: [
+          dissect: { specimen: 'Animal Cell Culture: History and Advantages Over Whole Organisms', spots: [
             { id: 's1', label: 'Animal cell culture is the', prompt: 'Which idea is this? — Animal cell culture is the in vitro maintenance and proliferation of animal cells under.', answer: 'Animal cell culture is the', options: ['Animal cell culture is the', 'Culture media for animal cell', 'Serum is the liquid fraction', 'Anchorage dependence is the requirement'] },
             { id: 's2', label: 'Culture media for animal cell', prompt: 'Which idea is this? — Culture media for animal cell culture are artificially prepared nutrient solutions that.', answer: 'Culture media for animal cell', options: ['Culture media for animal cell', 'Animal cell culture is the', 'Serum is the liquid fraction', 'Anchorage dependence is the requirement'] },
             { id: 's3', label: 'Serum is the liquid fraction', prompt: 'Which idea is this? — Serum is the liquid fraction of clotted blood that provides a complex mixture of growth.', answer: 'Serum is the liquid fraction', options: ['Serum is the liquid fraction', 'Animal cell culture is the', 'Culture media for animal cell', 'Anchorage dependence is the requirement'] },
@@ -89,7 +89,7 @@ export const w_c12_biotechanimalcellculturecbsesim: SimDef = {
             { id: 's6', label: 'Cryopreservation is the process of', prompt: 'Which idea is this? — Cryopreservation is the process of preserving viable animal cells at ultra-low.', answer: 'Cryopreservation is the process of', options: ['Cryopreservation is the process of', 'Animal cell culture is the', 'Culture media for animal cell', 'Serum is the liquid fraction'] }
           ] } }
     ],
-    explore: { component: C12_BiotechAnimalCellCultureCBSESim, prompt: 'Explore the interactive — Animal Cell Culture CBSE' },
+    explore: { component: C12_BiotechAnimalCellCultureCBSESim, prompt: 'Explore the interactive — Animal Cell Culture: History and Advantages Over Whole Organisms' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_biotech_cbse_08_001', difficulty: 'standard',
           question: 'Animal cell culture is the in vitro maintenance and proliferation of animal.',

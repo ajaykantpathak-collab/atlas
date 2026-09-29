@@ -6,13 +6,13 @@ import C11_ChemistryClassificationOfElementsAndPeriodicitySim from '../../../sim
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_chemistryclassificationofelementsandperiodicitysim: SimDef = {
     id: 'v3w_c11_chemistryclassificationofelementsandperiodicitysim',
-    title: 'Classification Of Elements And Periodicity',
+    title: 'Need for Classification: Mendeleev\'s Periodic Table',
     subtitle: 'This node covers the historical development up to Mendeleev\'s 1905 table: Dobereiner\'s.',
     classLevel: 11, subject: 'chemistry', topic: 'Need for Classification: Mendeleev\'s Periodic Table',
     chapters: [],
     nodeIds: ['c11_chem_cbse_03_001', 'c11_chem_cbse_03_005', 'c11_chem_cbse_09_006', 'c11_chem_cbse_03_002', 'c11_chem_cbse_03_003', 'c11_chem_cbse_03_004', 'c11_chem_cbse_03_008', 'c11_chem_cbse_03_009', 'c11_chem_cbse_03_012', 'c11_chem_cbse_09_004', 'c11_chem_cbse_09_001', 'c11_chem_cbse_03_007', 'c11_chem_cbse_03_006', 'c11_chem_cbse_03_010', 'c11_chem_cbse_03_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are in a typical Indian chemistry laboratory with dozens of reagent bottles: sodium, potassium,.', goal: 'Master Classification Of Elements And Periodicity.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are in a typical Indian chemistry laboratory with dozens of reagent bottles: sodium, potassium,.', goal: 'Master Need for Classification: Mendeleev\'s Periodic Table.' },
     discovery: {
         question: 'Why did Mendeleev leave gaps in his periodic table and assign temporary names like eka-aluminium and eka-silicon?',
         options: ['Mendeleev left gaps', 'he left gaps for aesthetic symmetry', 'he used atomic number to predict'],
@@ -80,7 +80,7 @@ export const w_c11_chemistryclassificationofelementsandperiodicitysim: SimDef = 
             { text: 'Verify: Iodine is in Period 5, Group 17, p-block. Matches periodic table. Total electrons = 2+8+18+18+7 = 53. Correct.', faded: true, blankAnswer: 'Complete: 1s²2s²2p⁶3s²3p⁶3d¹⁰4s²4p⁶4d¹⁰5s²5p⁵. Condensed:.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_chem_cbse_03_005', title: 'Identify each idea',
-          dissect: { specimen: 'Classification Of Elements And Periodicity', spots: [
+          dissect: { specimen: 'Need for Classification: Mendeleev\'s Periodic Table', spots: [
             { id: 's1', label: 'Mendeleevs Periodic Table arranges the', prompt: 'Which idea is this? — Mendeleev\'s Periodic Table arranges the known chemical elements in order of increasing.', answer: 'Mendeleevs Periodic Table arranges the', options: ['Mendeleevs Periodic Table arranges the', 'Elements are classified into s', 'Hydrides are binary compounds of', 'The Modern Periodic Law states'] },
             { id: 's2', label: 'Elements are classified into s', prompt: 'Which idea is this? — Elements are classified into s, p, d, and f blocks based on the subshell (s, p, d, f).', answer: 'Elements are classified into s', options: ['Elements are classified into s', 'Mendeleevs Periodic Table arranges the', 'Hydrides are binary compounds of', 'The Modern Periodic Law states'] },
             { id: 's3', label: 'Hydrides are binary compounds of', prompt: 'Which idea is this? — Hydrides are binary compounds of hydrogen with other elements (except noble gases),.', answer: 'Hydrides are binary compounds of', options: ['Hydrides are binary compounds of', 'Mendeleevs Periodic Table arranges the', 'Elements are classified into s', 'The Modern Periodic Law states'] },
@@ -89,7 +89,7 @@ export const w_c11_chemistryclassificationofelementsandperiodicitysim: SimDef = 
             { id: 's6', label: 'Electronic configuration is the distribution', prompt: 'Which idea is this? — Electronic configuration is the distribution of electrons in an atom\'s orbitals,.', answer: 'Electronic configuration is the distribution', options: ['Electronic configuration is the distribution', 'Mendeleevs Periodic Table arranges the', 'Elements are classified into s', 'Hydrides are binary compounds of'] }
           ] } }
     ],
-    explore: { component: C11_ChemistryClassificationOfElementsAndPeriodicitySim, prompt: 'Explore the interactive — Classification Of Elements And Periodicity' },
+    explore: { component: C11_ChemistryClassificationOfElementsAndPeriodicitySim, prompt: 'Explore the interactive — Need for Classification: Mendeleev\'s Periodic Table' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_chem_cbse_03_001', difficulty: 'standard',
           question: 'Mendeleev\'s Periodic Table arranges the known chemical elements in order of.',

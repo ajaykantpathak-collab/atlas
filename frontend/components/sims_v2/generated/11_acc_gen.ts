@@ -55,7 +55,7 @@ export const C11_ACC_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Business Entity Concept States That a",
+    "title": "Basic Accounting Concepts: Business Entity",
     "text": "The Business Entity Concept states that a business is treated as a separate accounting entity distinct from its owner(s) for the purpose of recording financial transactions.",
     "emoji": "🧾",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -636,7 +636,7 @@ export const C11_ACC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Accounting Equation (A = L",
+    "title": "Accounting Equation",
     "text": "The accounting equation (A = L + C) expresses the fundamental duality that every business transaction affects at least two elements — Assets, Liabilities, or Capital — such that total resources (Assets) always equal total claims (Liabilities + Capital).",
     "emoji": "🧾",
     "bgColor": "from-violet-400 to-purple-500"
@@ -648,13 +648,13 @@ export const C11_ACC_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "The Rules Of Debit And",
+    "title": "The Rules Of Debit And Credit",
     "text": "The rules of debit and credit for assets, liabilities, and capital (modern approach) state that increases in assets are debited and decreases are credited; increases in liabilities and capital are credited and decreases are debited.",
     "emoji": "🧾",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Rules Of Debit And Credit For Expenses And",
+    "title": "Rules of Debit and Credit for Expenses",
     "text": "The rules of debit and credit for expenses and revenues state that: (1) An increase in expenses or losses is debited and a decrease is credited, because expenses reduce capital; (2) An increase in revenues or gains is credited and a decrease is debited,",
     "emoji": "🧾",
     "bgColor": "from-violet-400 to-purple-500"

@@ -6,13 +6,13 @@ import C10_HistoryCivicsPresidentExecutiveLegislativeSim from '../../../simulati
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_historycivicspresidentexecutivelegislativesim: SimDef = {
     id: 'v3w_c10_historycivicspresidentexecutivelegislativesim',
-    title: 'President Executive Legislative',
+    title: 'Role of Opposition Parties in a Democracy',
     subtitle: 'Covers the constitutional and conventional roles of the Opposition in India\'s.',
     classLevel: 10, subject: 'history', topic: 'Role of Opposition Parties in a Democracy',
     chapters: [],
     nodeIds: ['c10_civ_cbse_04_008', 'c10_civ_cbse_02_007', 'c10_civ_cbse_02_009', 'c10_civ_cbse_02_004', 'c10_civ_cbse_01_004', 'c10_civ_cbse_01_005', 'c10_civ_cbse_01_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you are watching a televised Lok Sabha session where the ruling party has 300+ seats and the main.', goal: 'Master President Executive Legislative.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you are watching a televised Lok Sabha session where the ruling party has 300+ seats and the main.', goal: 'Master Role of Opposition Parties in a Democracy.' },
     discovery: {
         question: 'A State government refuses to implement a Central law on "Prevention of Cruelty to Animals" (a Concurrent List subject), claiming it violates State autonomy.',
         options: ['The Centre\'s directions are constitutionally valid', 'State can refuse', 'Centre-State relations'],
@@ -78,7 +78,7 @@ export const w_c10_historycivicspresidentexecutivelegislativesim: SimDef = {
             { text: 'Conclude: The Union law on vocational training will prevail over the Tamil Nadu law due to Article 254(1), unless the.', faded: true, blankAnswer: 'The Parliamentary law prevails under Article 254(1) because.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_civ_cbse_02_007', title: 'Identify each idea',
-          dissect: { specimen: 'President Executive Legislative', spots: [
+          dissect: { specimen: 'Role of Opposition Parties in a Democracy', spots: [
             { id: 's1', label: 'The Opposition in a democracy', prompt: 'Which idea is this? — The Opposition in a democracy refers to the political party or coalition of parties that.', answer: 'The Opposition in a democracy', options: ['The Opposition in a democracy', 'Centre-State relations in Indian federalism', 'Regionalism in Indian federalism refers', 'Indias three-tier system of government'] },
             { id: 's2', label: 'Centre-State relations in Indian federalism', prompt: 'Which idea is this? — Centre-State relations in Indian federalism refer to the constitutional framework.', answer: 'Centre-State relations in Indian federalism', options: ['Centre-State relations in Indian federalism', 'The Opposition in a democracy', 'Regionalism in Indian federalism refers', 'Indias three-tier system of government'] },
             { id: 's3', label: 'Regionalism in Indian federalism refers', prompt: 'Which idea is this? — Regionalism in Indian federalism refers to the assertion of distinct cultural,.', answer: 'Regionalism in Indian federalism refers', options: ['Regionalism in Indian federalism refers', 'The Opposition in a democracy', 'Centre-State relations in Indian federalism', 'Indias three-tier system of government'] },
@@ -87,7 +87,7 @@ export const w_c10_historycivicspresidentexecutivelegislativesim: SimDef = {
             { id: 's6', label: 'Vertical division of power refers', prompt: 'Which idea is this? — Vertical division of power refers to the constitutional distribution of legislative,.', answer: 'Vertical division of power refers', options: ['Vertical division of power refers', 'The Opposition in a democracy', 'Centre-State relations in Indian federalism', 'Regionalism in Indian federalism refers'] }
           ] } }
     ],
-    explore: { component: C10_HistoryCivicsPresidentExecutiveLegislativeSim, prompt: 'Explore the interactive — President Executive Legislative' },
+    explore: { component: C10_HistoryCivicsPresidentExecutiveLegislativeSim, prompt: 'Explore the interactive — Role of Opposition Parties in a Democracy' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_civ_cbse_04_008', difficulty: 'standard',
           question: 'The Opposition in a democracy refers to the political party or coalition of.',

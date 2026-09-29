@@ -6,13 +6,13 @@ import C12_GeographySelectedIssuesSim from '../../../simulations/c6_12/C12_Geogr
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_geographyselectedissuessim: SimDef = {
     id: 'v3w_c12_geographyselectedissuessim',
-    title: 'Selected Issues',
+    title: 'Dams: Benefits and Environmental and Social Concerns',
     subtitle: 'Covers benefits (irrigation, hydropower, flood control, water supply), environmental.',
     classLevel: 12, subject: 'geography', topic: 'Dams: Benefits and Environmental and Social Concerns',
     chapters: [],
     nodeIds: ['c12_geo_cbse_12_011', 'c12_geo_cbse_09_008', 'c12_geo_cbse_14_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine standing near the Bhakra-Nangal Dam on the Sutlej River: you see a massive concrete wall holding back.', goal: 'Master Selected Issues.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine standing near the Bhakra-Nangal Dam on the Sutlej River: you see a massive concrete wall holding back.', goal: 'Master Dams: Benefits and Environmental and Social Concerns.' },
     discovery: {
         question: 'Evaluate the statement: "India\'s urbanization is \'exclusionary\' because census towns grow without municipal governance, denying residents basic services." Use.',
         options: ['Valid evaluation: 2011 Census added 2,774 new census towns (vs', 'urbanization', '"urbanization" means only migration to big cities (Mumbai, Delhi)'],
@@ -51,13 +51,13 @@ export const w_c12_geographyselectedissuessim: SimDef = {
             { text: 'Conclude. Despite coal distance, the massive weight of iron ore (highest tonnage) makes ore-proximity optimal.', faded: true, blankAnswer: 'Rourkela is sited near iron ore (Barsua, 30 km) and.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_geo_cbse_09_008', title: 'Identify each idea',
-          dissect: { specimen: 'Selected Issues', spots: [
+          dissect: { specimen: 'Dams: Benefits and Environmental and Social Concerns', spots: [
             { id: 's1', label: 'Dams are large barriers constructed', prompt: 'Which idea is this? — Dams are large barriers constructed across rivers to store water in reservoirs, serving.', answer: 'Dams are large barriers constructed', options: ['Dams are large barriers constructed', 'Rural-urban composition refers to the', 'The Iron and Steel Industry'] },
             { id: 's2', label: 'Rural-urban composition refers to the', prompt: 'Which idea is this? — Rural-urban composition refers to the distribution of a country\'s population between.', answer: 'Rural-urban composition refers to the', options: ['Rural-urban composition refers to the', 'Dams are large barriers constructed', 'The Iron and Steel Industry'] },
             { id: 's3', label: 'The Iron and Steel Industry', prompt: 'Which idea is this? — The Iron and Steel Industry is a mineral-based, heavy manufacturing sector that converts.', answer: 'The Iron and Steel Industry', options: ['The Iron and Steel Industry', 'Dams are large barriers constructed', 'Rural-urban composition refers to the'] }
           ] } }
     ],
-    explore: { component: C12_GeographySelectedIssuesSim, prompt: 'Explore the interactive — Selected Issues' },
+    explore: { component: C12_GeographySelectedIssuesSim, prompt: 'Explore the interactive — Dams: Benefits and Environmental and Social Concerns' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_12_011', difficulty: 'standard',
           question: 'Dams are large barriers constructed across rivers to store water in reservoirs,.',

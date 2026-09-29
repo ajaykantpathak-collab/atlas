@@ -6,13 +6,13 @@ import C11_HistoryEventsFrom1932Sim from '../../../simulations/c6_12/C11_History
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_historyeventsfrom1932sim: SimDef = {
     id: 'v3w_c11_historyeventsfrom1932sim',
-    title: 'Events From1932',
+    title: 'The Life of the Prophet Muhammad and the Founding of Islam',
     subtitle: 'This node covers the Prophet\'s biography as a historical agent (570–632 CE), the.',
     classLevel: 11, subject: 'history', topic: 'The Life of the Prophet Muhammad and the Founding of Islam',
     chapters: [],
     nodeIds: ['c11_hist_cbse_04_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are visiting the Qutb Minar complex in Delhi and notice the Iron Pillar and the Quwwat-ul-Islam.', goal: 'Master Events From1932.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are visiting the Qutb Minar complex in Delhi and notice the Iron Pillar and the Quwwat-ul-Islam.', goal: 'Master The Life of the Prophet Muhammad and the Founding of Islam.' },
     discovery: {
         question: 'The Prophet Muhammad\'s early preaching in Mecca (610–622 CE) focused on Tawhid (monotheism) and social justice.',
         options: ['The Quraysh elite opposed the Prophet', 'religious intolerance', 'polytheism vs monotheism'],
@@ -34,7 +34,7 @@ export const w_c11_historyeventsfrom1932sim: SimDef = {
             { text: 'Synthesize — the Prophet created a *third model*: a charismatic founder who institutionalized his authority in a.', faded: true, blankAnswer: 'The Prophet in Medina was neither a tribal shaykh.' }
             ] } }
     ],
-    explore: { component: C11_HistoryEventsFrom1932Sim, prompt: 'Explore the interactive — Events From1932' },
+    explore: { component: C11_HistoryEventsFrom1932Sim, prompt: 'Explore the interactive — The Life of the Prophet Muhammad and the Founding of Islam' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hist_cbse_04_002', difficulty: 'standard',
           question: 'The Life of the Prophet Muhammad and the Founding of Islam refers to the.',

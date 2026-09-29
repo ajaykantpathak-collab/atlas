@@ -19,7 +19,7 @@ export const c11_hin_ar_ch07_p2: SimDef = {
         hook: 'Anchalik fiction\'s trick: village dialect and folk detail aren\'t decoration — they\'re the machinery that makes the bureaucracy look absurd.',
     },
     teaching: [
-        { title: 'पाठ 7 — गौण विषय', text: 'गौण विषय (Sub-theme) कथा-साहित्य में वह द्वितीयक कथ्य या प्रसंग है जो मुख्य विषय के समानांतर चलता हुआ उसे सहारा देता है, उसके विभिन्न आयामों को उजागर करता है, पात्रों के चरित्र को गहराई प्रदान करता.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 7 — गौण विषय', text: '\'टेकु का इस्म+\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_07_007', title: 'Your mission',
@@ -30,8 +30,8 @@ export const c11_hin_ar_ch07_p2: SimDef = {
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'dissect', nodeId: 'c11_hin_ar_cbse_07_008', title: 'Identify each idea',
           dissect: { specimen: 'पाठ 7 · Part 2/3', spots: [
-            { id: 's1', label: '7 -', prompt: 'Which idea is this? — भाषा-प्रयोग (Language Use) refers to the deliberate selection of vocabulary (शब्द-चयन).', answer: '7 -', options: ['7 -', '7 - -'] },
-            { id: 's2', label: '7 - -', prompt: 'Which idea is this? — **वस्तुनिष्ठ प्रश्न (Objective Questions)** test direct factual recall or explicit.', answer: '7 - -', options: ['7 - -', '7 -'] }
+            { id: 's1', label: '7 -', prompt: 'Which idea is this? — \'टेकु का इस्म+\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली चुनी।', answer: '7 -', options: ['7 -', '7 - -'] },
+            { id: 's2', label: '7 - -', prompt: 'Which idea is this? — \'टेकु का इस्म+\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।', answer: '7 - -', options: ['7 - -', '7 -'] }
           ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_07_007', title: 'Use it in the wild',
           caseStudy: { intro: 'For a satire evening you pick Renu\'s story of a leopard cub passed between the Forest, Agriculture and Revenue departments while its mother waits. A classmate edits your script: \'Cut two of the three office refusals — they\'re repetitive — and make the climax the cub being rescued by officials.\'',
@@ -52,67 +52,78 @@ export const c11_hin_ar_ch07_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_07_007', difficulty: 'standard',
-          question: 'गौण विषय (Sub-theme) कथा-साहित्य में वह द्वितीयक कथ्य या प्रसंग है जो मुख्य.',
+          question: '\'टेकु का इस्म+\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
           hint: 'यदि मुख्य विषय स्पष्ट नहीं है, तो नोड 006 (मुख्य विषय और संदेश) के \'वॉकथ्रू\' और \'कार्यित.',
           misconception: '**विशिष्ट भ्रांति:** "गौण विषय का अर्थ है — कहानी में चलने वाली **दूसरी समानांतर कहानी (Parallel Plot)** जिसका मुख्य.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme) कथा-साहित्य में वह द्वितीयक कथ्य या प्रसंग है जो मुख्य विषय के',
-                  options: ['गौण विषय (Sub-theme) कथा-साहित्य में वह द्वितीयक कथ्य या प्रसंग है जो मुख्य विषय के', '**पृष्ठभूमि और रचनाकार परिचय** का अर्थ है', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना में वर्णित **भौगोलिक स्थान, ऐतिहासिक काल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'टेकु का इस्म+\' के गौण विषय',
+                  options: ['\'टेकु का इस्म+\' के गौण विषय', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'टेकु का इस्म+\' का कथानक', '\'टेकु का इस्म+\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि मुख्य विषय स्पष्ट नहीं है, तो नोड 006 (मुख्य विषय और संदेश) के \'वॉकथ्रू\' और \'कार्यित उदाहरण\' को.',
                   misconception: '**विशिष्ट भ्रांति:** "गौण विषय का अर्थ है — कहानी में चलने वाली **दूसरी समानांतर कहानी (Parallel Plot)** जिसका मुख्य कहानी से कोई लेना-देना.' }
           ],
             remediations: { 'parallel-plot-sub-plot': { steps: ['**चरण 1 — अवधारणा स्पष्टीकरण (5 मिनट):** छात्र के सामने एक **सरल कहानी का स्केलेटन (Skeleton)** रखें: "लड़का परीक्षा.', '☐ प्रत्येक के लिए \'कैसे समृद्ध करता है\' समझाया?', '☐ मुख्य विषय से लिंक किया?', '— अगले अभ्यास में यही चेकलिस्ट उपयोग होगी।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_07_008', difficulty: 'standard',
-          question: '**बिंब (Imagery)** साहित्य में इंद्रियों (दृश्य, श्रव्य, घ्राण, स्पर्श, स्वाद).',
+          question: '\'टेकु का इस्म+\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
           hint: 'यदि अटके तो **पाठ 7 के कथानक (c11_hin_ar_cbse_07_002) और मुख्य विषय.',
           misconception: '**विशिष्ट भ्रम:** छात्र अक्सर **\'रूपक\' को \'विस्तृत उपमा\' (Extended Simile) मान लेते हैं** — वे "जैसे/वैसे" न देखकर.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery)** साहित्य में इंद्रियों (दृश्य, श्रव्य, घ्राण, स्पर्श, स्वाद) को संबोधित',
-                  options: ['**बिंब (Imagery)** साहित्य में इंद्रियों (दृश्य, श्रव्य, घ्राण, स्पर्श, स्वाद) को संबोधित', '**पृष्ठभूमि और रचनाकार परिचय** का अर्थ है', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना में वर्णित **भौगोलिक स्थान, ऐतिहासिक काल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'टेकु का इस्म+\' में बिंब (imagery)',
+                  options: ['\'टेकु का इस्म+\' में बिंब (imagery)', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'टेकु का इस्म+\' का कथानक', '\'टेकु का इस्म+\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके तो **पाठ 7 के कथानक (c11_hin_ar_cbse_07_002) और मुख्य विषय (c11_hin_ar_cbse_07_006) को.',
                   misconception: '**विशिष्ट भ्रम:** छात्र अक्सर **\'रूपक\' को \'विस्तृत उपमा\' (Extended Simile) मान लेते हैं** — वे "जैसे/वैसे" न देखकर सोचते हैं कि रूपक बस.' }
           ],
             remediations: { 'extended-simile-identificatory-force': { steps: ['**चरण 1 — भेद स्पष्ट करें:** छात्र को दो वाक्य दें: "चाँद *जैसे* चमक रहा था" और "चाँद *थी* एक चाँदी की थाली"। पूछें.', '**चरण 2 — आरोप्य/आरोपित का खेल:** 5 दैनिक वाक्यों में रूपक ढूँढ़ने को कहें (जैसे "गुस्सा उबल पड़ा", "आँखें झील हैं")।.', '**चरण 3 — प्रभाव तुलना:** उसी भाव को उपमा और रूपक दोनों में लिखवाएँ ("यादें *जैसे* काँटे चुभती हैं" बनाम "यादें काँटे.', '**चरण 4 — पाठ पर लागू करें:** पाठ 7 के किसी अंश में से एक रूपक चुनकर उसका **\'अगर यह उपमा होता तो...\'** विश्लेषण करवाएँ।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_07_009', difficulty: 'standard',
-          question: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में असंगत.',
+          question: '\'टेकु का इस्म+\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
           hint: 'यदि अटका महसूस हो तो **c11_hin_ar_cbse_07_008 (बिंब और रूपक)** दोबारा पढ़ें — विशेष रूप.',
           misconception: '**विशिष्ट भ्रम:** छात्र प्रायः **\'विरोधाभास\' को \'विरोधाभासी स्थिति\' (Paradoxical situation) या \'विडंबना\' (Irony) से.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में असंगत, आत्म-विरोधी या',
-                  options: ['**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली दृष्टि में असंगत, आत्म-विरोधी या', '**पृष्ठभूमि और रचनाकार परिचय** का अर्थ है', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना में वर्णित **भौगोलिक स्थान, ऐतिहासिक काल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'टेकु का इस्म+\' में विरोधाभास',
+                  options: ['\'टेकु का इस्म+\' में विरोधाभास', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'टेकु का इस्म+\' का कथानक', '\'टेकु का इस्म+\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटका महसूस हो तो **c11_hin_ar_cbse_07_008 (बिंब और रूपक)** दोबारा पढ़ें — विशेष रूप से \'रूपक के.',
                   misconception: '**विशिष्ट भ्रम:** छात्र प्रायः **\'विरोधाभास\' को \'विरोधाभासी स्थिति\' (Paradoxical situation) या \'विडंबना\' (Irony) से मिला देते हैं।** वे.' }
           ],
             remediations: { 'paradoxical-situation-irony-situational-irony': { steps: ['**स्पष्टीकरण चरण:** छात्र को तीन कथन दें — (क) "आग जलाती है" (साधारण कथन), (ख) "आग बुझाती है" (विरोध/असत्य), (ग) "आग ही.', '**अभ्यास चरण:** पाठ्यपुस्तक के किसी भी पाठ से ३ विरोधाभासी कथन छाँटने को कहें; प्रत्येक के लिए लिखवाएँ: (i) शाब्दिक.', '**प्रतीक हेतु:** एक ठोस वस्तु (दीया/नदी/पिंजरा) दें; छात्र से कहें: "इसका शाब्दिक अर्थ लिखो, फिर इस पाठ के प्रसंग में.', '**फीडबैक:** हर बार \'क्यों\' पूछें — जब तक छात्र **पाठ्य-साक्ष्य (textual evidence)** न दे, तब तक स्वीकार न करें।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_07_010', difficulty: 'standard',
-          question: 'पदावली के अंतर्गत \'मुख्य शब्द\' वे विशिष्ट शब्द/पद होते हैं जो पाठ के केंद्रीय.',
-          hint: 'यदि अटके तो **नोड 006 (मुख्य विषय और संदेश)** और **नोड 009 (विरोधाभास और प्रतीक)** पर.',
-          misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि \'मुख्य शब्द\' वही होते हैं जो पाठ में **सबसे अधिक बार आएँ** (frequency fallacy).',
+          question: '\'टेकु का इस्म+\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
+          hint: 'If stuck, **re-read the "Before You Read" (node 001) and "Plot" (node 002) sections**.',
+          misconception: '**The "Dictionary Definition Equals Contextual Meaning" Fallacy.** Students memorize the glossary meanings (e.g.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली के अंतर्गत \'मुख्य शब्द\' वे विशिष्ट शब्द/पद होते हैं जो पाठ के केंद्रीय भाव,',
-                  options: ['पदावली के अंतर्गत \'मुख्य शब्द\' वे विशिष्ट शब्द/पद होते हैं जो पाठ के केंद्रीय भाव,', '**पृष्ठभूमि और रचनाकार परिचय** का अर्थ है', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना में वर्णित **भौगोलिक स्थान, ऐतिहासिक काल,'],
-                  hint: 'यदि अटके तो **नोड 006 (मुख्य विषय और संदेश)** और **नोड 009 (विरोधाभास और प्रतीक)** पर वापस जाएँ.',
-                  misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि \'मुख्य शब्द\' वही होते हैं जो पाठ में **सबसे अधिक बार आएँ** (frequency fallacy) या जो **सबसे.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'टेकु का इस्म+\' की पदावली',
+                  options: ['\'टेकु का इस्म+\' की पदावली', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'टेकु का इस्म+\' का कथानक', '\'टेकु का इस्म+\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, **re-read the "Before You Read" (node 001) and "Plot" (node 002) sections**.',
+                  misconception: '**The "Dictionary Definition Equals Contextual Meaning" Fallacy.** Students memorize the glossary meanings (e.g., "rxkI+kqQy = protection").' }
           ],
-            remediations: { 'frequency-fallacy-complexity-fallacy': { steps: ['**चरणबद्ध उपचार**: 1) छात्र को एक छोटा गद्यांश (50 शब्द) दें जिसमें एक \'दुर्लभ किंतु निर्णायक\' शब्द हो (जैसे \'पतन\' जो.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-dictionary-definition-equals-contextual': { steps: ['**Targeted Remediation (3-Step "Context Clue Protocol"):** 1.', '**Locate & Isolate:** Find the *exact* paragraph.', 'Highlight the target word.', 'Read 2 sentences before and after.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_07_011', difficulty: 'standard',
-          question: 'भाषा-प्रयोग (Language Use) refers to the deliberate selection of vocabulary.',
-          hint: 'Review Class 10 \'शब्द-विचार\' (word classification) and \'वाक्य-विचार\' (sentence.',
-          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि "भाषा-प्रयोग" का अर्थ है *कठिन शब्दों की पहचान करना* (vocabulary spotting)। वे.',
+          question: '\'टेकु का इस्म+\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली.',
+          hint: 'If stuck, review the \'kCn Nfo\' table in the textbook and practice identifying clauses.',
+          misconception: 'Students often treat the Tatsam words as mere vocabulary to be memorized for meaning, not realizing that Renu uses them.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'भाषा-प्रयोग (Language Use) refers to the deliberate selection of vocabulary (शब्द-चयन),',
-                  options: ['भाषा-प्रयोग (Language Use) refers to the deliberate selection of vocabulary (शब्द-चयन),', '**पृष्ठभूमि और रचनाकार परिचय** का अर्थ है', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना में वर्णित **भौगोलिक स्थान, ऐतिहासिक काल,'],
-                  hint: 'Review Class 10 \'शब्द-विचार\' (word classification) and \'वाक्य-विचार\' (sentence classification).',
-                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि "भाषा-प्रयोग" का अर्थ है *कठिन शब्दों की पहचान करना* (vocabulary spotting)। वे तत्सम/तद्भव की सूची बना.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'टेकु का इस्म+\' में भाषा-प्रयोग',
+                  options: ['\'टेकु का इस्म+\' में भाषा-प्रयोग', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'टेकु का इस्म+\' का कथानक', '\'टेकु का इस्म+\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, review the \'kCn Nfo\' table in the textbook and practice identifying clauses in simple.',
+                  misconception: 'Students often treat the Tatsam words as mere vocabulary to be memorized for meaning, not realizing that Renu uses them as *precision.' }
           ],
-            remediations: { 'vocabulary-spotting-functional-justification': { steps: ['**माइक्रो-ड्रिल (5 मिनट):** अध्याय 7 के किसी एक पृष्ठ से 5 वाक्य चुनें। प्रत्येक में *एक* शब्द को रेखांकित करें और.', 'उसने *यह* शब्द क्यों चुना?" — लिखित उत्तर में **ध्वनि, अर्थ-छाया, सामाजिक सूचक, भावनात्मक भार** में से किन्हीं दो का.', '**वाक्य-लंबाई मैपिंग:** एक संवाद-अंश लें। प्रत्येक पात्र के वाक्यों की शब्द-संख्या गिनें। ग्राफ बनाएं। पूछें: "किसका.', 'यह उनके मानसिक अवस्था के ग्राफ से कैसे मेल खाता है?" 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-tatsam': { steps: ['Have the student create a hierarchy chart of the forest designations from highest to lowest using the \'kCn Nfo\'.', 'Give them three compound sentences from the story text (not the exercise) and ask them to underline the two independent.', 'Ask them to rewrite one paragraph from the story replacing all Tatsam terms with simpler Hindi – then discuss what.', 'Finally, assign a timed practice: write a 50-word factual description of a school event using at least two Tatsam-style.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_07_011', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often treat the Tatsam words as mere vocabulary to be memorized for meaning, not realizing that Renu uses them.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate whether the factual description (lk{kkRdkj) exercise at the end of the chapter ("lk{kkRdkj vius&vki esa ,d foèkk gSA...") is better served by.', answer: 'Third-person objective report is more appropriate',
+                  options: ['Third-person objective report is more appropriate', 'it\'s more emotional'],
+                  hint: 'If stuck, review the \'kCn Nfo\' table in the textbook and practice identifying clauses in simple.',
+                  misconception: 'Students often treat the Tatsam words as mere vocabulary to be memorized for meaning, not realizing that Renu uses them as *precision.' }
+          ],
+            remediations: { 'students-often-treat-the-tatsam': { steps: ['Have the student create a hierarchy chart of the forest designations from highest to lowest using the \'kCn Nfo\'.', 'Give them three compound sentences from the story text (not the exercise) and ask them to underline the two independent.', 'Ask them to rewrite one paragraph from the story replacing all Tatsam terms with simpler Hindi – then discuss what.', 'Finally, assign a timed practice: write a 50-word factual description of a school event using at least two Tatsam-style.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_07_012', difficulty: 'standard',
-          question: '**वस्तुनिष्ठ प्रश्न (Objective Questions)** test direct factual recall.',
+          question: '\'टेकु का इस्म+\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
           hint: 'यदि अटके तो **c11_hin_ar_cbse_07_006 (मुख्य विषय और संदेश)** और **c11_hin_ar_cbse_07_009.',
           misconception: '**विशिष्ट भ्रांति:** विद्यार्थी मानते हैं कि आशय-सूचक प्रश्न का उत्तर **पाठ की किसी एक पंक्ति में \'छिपा\' होता है** जिसे.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**वस्तुनिष्ठ प्रश्न (Objective Questions)** test direct factual recall or explicit',
-                  options: ['**वस्तुनिष्ठ प्रश्न (Objective Questions)** test direct factual recall or explicit', '**पृष्ठभूमि और रचनाकार परिचय** का अर्थ है', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना में वर्णित **भौगोलिक स्थान, ऐतिहासिक काल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'टेकु का इस्म+\' के वस्तुनिष्ठ प्रश्न',
+                  options: ['\'टेकु का इस्म+\' के वस्तुनिष्ठ प्रश्न', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'टेकु का इस्म+\' का कथानक', '\'टेकु का इस्म+\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके तो **c11_hin_ar_cbse_07_006 (मुख्य विषय और संदेश)** और **c11_hin_ar_cbse_07_009 (विरोधाभास.',
                   misconception: '**विशिष्ट भ्रांति:** विद्यार्थी मानते हैं कि आशय-सूचक प्रश्न का उत्तर **पाठ की किसी एक पंक्ति में \'छिपा\' होता है** जिसे ढूँढ़ना भर है.' }
           ],

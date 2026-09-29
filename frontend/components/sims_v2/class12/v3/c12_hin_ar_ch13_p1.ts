@@ -19,7 +19,7 @@ export const c12_hin_ar_ch13_p1: SimDef = {
         hook: 'Dwivedi pioneered experimental fiction in Hindi — folk speech, oral rhythm, the lives of common people rendered with documentary warmth. The story isn\'t nostalgia for kings; it stages the collision where \'the system\' replaced \'the sovereign\' — and nobody told the artist.',
     },
     teaching: [
-        { title: 'पहलवान की ढोलक — पृष्ठभूमि और रचनाकार परिचय', text: '\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण बिहार के लोक-जीवन में रचे-बसे एक ढोलकवादक पहलवान के माध्यम से **लोक-कला की उपेक्षा, कलाकार की सामाजिक-आर्थिक विडंबना और.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पहलवान की ढोलक — पृष्ठभूमि और रचनाकार परिचय', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_13_001', title: 'Your mission',
@@ -28,6 +28,20 @@ export const c12_hin_ar_ch13_p1: SimDef = {
         context: 'Watch a folk artist meet the new order: weigh the king\'s court against bureaucratic law, track how art becomes \'profession\' under pressure, and find where dignity survives the transition.',
         labels: ['पहलवान की ढोलक —'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_13_001', title: 'पहलवान की ढोलक — पृष्ठभूमि और रचनाकार परिचय',
+          caseStudy: { intro: 'आरोह भाग-2 खोलिए और पाठ 13 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: 'Who is the author of "इग्योका की क्षयद" and what is his recognized contribution to Hindi literature?', options: [
+                { text: 'The author is हज़ारी प्रसाद द्विवेदी (Hazari Prasad Dwivedi), born in 1921 in Ballia', outcome: 'The author is हज़ारी प्रसाद द्विवेदी (Hazari Prasad Dwivedi), born in 1921 in Ballia.' },
+                { text: 'famous writer', outcome: 'Not quite — Students treat the "Before You Read" box as optional reading — something to skip or memorize dates.', reveals: 'students-treat-the-before-you' },
+                { text: 'Premchand or guessing a generic "famous writer', outcome: 'Not quite — Students treat the "Before You Read" box as optional reading — something to skip or memorize dates.', reveals: 'students-treat-the-before-you' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_13_003', title: 'पहलवान की ढोलक — पाठ्य-परिवेश और वातावरण',
+          caseStudy: { intro: '\'आरोह भाग-2 — पाठ 13\' का परिवेश: \'आरोह भाग-2 — पाठ 13\' — आरोह भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्रीय भाव पाठ्यपुस्तक — स्थान और समय मिलकर माहौल बनाते.',
+            decisions: [{ prompt: 'What are the three main components of setting in a narrative, and which component is most prominently established in the opening paragraph.', options: [
+                { text: 'The three main components are time (historical period, time of day), place (geographical', outcome: 'The three main components are time (historical period, time of day), place (geographical location.' },
+                { text: 'village', outcome: 'Not quite — Students often think setting is only "where and when" and atmosphere is just "mood," treating them.', reveals: 'setting-is-only-where-and' },
+                { text: 'where and when', outcome: 'Not quite — Students often think setting is only "where and when" and atmosphere is just "mood," treating them.', reveals: 'setting-is-only-where-and' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_13_001', title: 'Use it in the wild',
           caseStudy: { intro: 'A folk singer from your district gets signed by a big label that drops her dialect, renames her, and reworks her songs into a commercial formula. Two years later she returns to perform in a hometown she barely recognises — and only family gathers to listen.',
             decisions: [{ prompt: 'How does \'युगुक की ढोलकी\' / the flautist\'s tale frame her trajectory?', options: [
@@ -47,67 +61,82 @@ export const c12_hin_ar_ch13_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_13_001', difficulty: 'standard',
-          question: '\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण.',
-          hint: 'यदि आँचलिकता स्पष्ट न हो, तो कक्षा 11 आरोह पाठ 13 (c11_hin_ar_cbse_13_001) के \'रचनाकार.',
-          misconception: '**सबसे घातक भ्रम:** छात्र समझते हैं कि \'पहलवान की ढोलक\' **खेल-कूद या पहलवानी की कहानी** है क्योंकि शीर्षक में \'पहलवान\'.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, review Class 11 Chapter 1 "नमक का दरोगा" Before You Read note.',
+          misconception: 'Students treat the "Before You Read" box as optional reading — something to skip or memorize dates from.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण बिहार के',
-                  options: ['\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण बिहार के', 'कथानक (Plot) कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम वाला क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण किसी रचना में कथानक के घटित होने का समग्र संदर्भ है जिसमें', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/उपन्यास के'],
-                  hint: 'यदि आँचलिकता स्पष्ट न हो, तो कक्षा 11 आरोह पाठ 13 (c11_hin_ar_cbse_13_001) के \'रचनाकार परिचय\' खंड.',
-                  misconception: '**सबसे घातक भ्रम:** छात्र समझते हैं कि \'पहलवान की ढोलक\' **खेल-कूद या पहलवानी की कहानी** है क्योंकि शीर्षक में \'पहलवान\' है। वे रेणु को केवल.' }
+                { id: 'a', prompt: 'The context note contrasts "ज्क्त ल्कगच" (king\'s court) with "बफम;क" (the new order).', answer: 'The "king\'s court" represents traditional, personalistic legitimacy',
+                  options: ['The "king\'s court" represents traditional, personalistic legitimacy', 'government'],
+                  hint: 'If stuck, review Class 11 Chapter 1 "नमक का दरोगा" Before You Read note (c11_hin_ar_cbse_01_001).',
+                  misconception: 'Students treat the "Before You Read" box as optional reading — something to skip or memorize dates from.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**पहला कदम:** रेणु की **जीवनी** (जन्म, शिक्षा, पत्रकारिता, राजनीतिक सक्रियता, मैला आँचल का प्रकाशन) को एक पृष्ठ में.', '**दूसरा कदम:** \'मैला आँचल\' के **प्रथम दो पृष्ठ** पढ़ें — केवल भाषा की बनावट देखने के लिए (कितने देशज शब्द, कैसी लय.', '**तीसरा कदम:** शीर्षक \'पहलवान की ढोलक\' पर **5 मिनट चिंतन** करें: \'पहलवान\' और \'ढोलक\' को अलग-अलग प्रतीक मानकर उनके गुण.', '**पुनः निदान:** उपरोक्त DIAGNOSTIC_QUESTION_2 और 3 को फिर से हल करें — यदि अब उत्तर सटीक हों, तो आगे बढ़ें।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-the-before-you': { steps: ['If a student cannot articulate the context-themes link: 1.', 'Have them re-read only the first two paragraphs of the context note and underline every noun phrase denoting a social.', 'Ask: "Which of these roles still exist today?', 'Which have vanished?" — this connects past to present.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_13_002', difficulty: 'standard',
-          question: 'कथानक (Plot) कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम वाला क्रम है, जबकि.',
-          hint: 'यदि फंसे: कक्षा 11 के किसी भी गद्य पाठ (जैसे \'नमक का दारोगा\', \'अपना-अपना भाग्य\') का.',
-          misconception: 'छात्र अक्सर मानते हैं कि \'कथानक\' और \'आख्यान-संरचना\' एक ही हैं — वे घटनाओं की सूची बनाकर समझते हैं कि उन्होंने संरचना.',
+          question: '\'आरोह भाग-2 — पाठ 13\' का कथानक — \'आरोह भाग-2 — पाठ 13\' — आरोह भाग-2 का पाठ। पाठ.',
+          hint: 'If stuck, review Class 11 "Plot and Narrative Structure" node (c11_hin_ar_cbse_13_002).',
+          misconception: 'Students often confuse \'plot\' (what happens) with \'narrative structure\' (how it is told).',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम वाला क्रम है, जबकि',
-                  options: ['कथानक (Plot) कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम वाला क्रम है, जबकि', '\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण बिहार के', 'पाठ्य-परिवेश और वातावरण किसी रचना में कथानक के घटित होने का समग्र संदर्भ है जिसमें', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/उपन्यास के'],
-                  hint: 'यदि फंसे: कक्षा 11 के किसी भी गद्य पाठ (जैसे \'नमक का दारोगा\', \'अपना-अपना भाग्य\') का कथानक-संरचना.',
-                  misconception: 'छात्र अक्सर मानते हैं कि \'कथानक\' और \'आख्यान-संरचना\' एक ही हैं — वे घटनाओं की सूची बनाकर समझते हैं कि उन्होंने संरचना विश्लेषण कर लिया।.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 13\' का कथानक — \'आरोह भाग-2 — पाठ 13\' — आरोह भाग-2 का पाठ। पाठ का कथानक,',
+                  options: ['\'आरोह भाग-2 — पाठ 13\' का कथानक — \'आरोह भाग-2 — पाठ 13\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 13\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', '\'आरोह भाग-2 — पाठ 13\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
+                  hint: 'If stuck, review Class 11 "Plot and Narrative Structure" node (c11_hin_ar_cbse_13_002) focusing.',
+                  misconception: 'Students often confuse \'plot\' (what happens) with \'narrative structure\' (how it is told).' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहो — "कहानी की 5 मुख्य घटनाएँ क्रम से लिखो" (कथानक)। चरण 2: फिर पूछो — "अब बताओ: लेखक ने पहली घटना.', 'पहलवान क्यों नहीं बोलता?" (आख्यान-संरचना)। चरण 3: छात्र को दो कॉलम बनाने को कहो: बाएँ \'घटना\' (क्या), दाएँ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-plot-what': { steps: ['If the student cannot distinguish plot from structure: 1) Have them draw a timeline of 10 key events (plot).', '2) On a second line, mark where the narrative \'pauses\', \'speeds up\', \'looks back\', or \'changes tone\' (structure).', '3) Ask: "Why does the author spend three paragraphs describing the old king\'s court *after* Yagyu is already.', '4) Re-attempt Diagnostic Q4 with this visual aid.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_13_003', difficulty: 'standard',
-          question: 'पाठ्य-परिवेश और वातावरण किसी रचना में कथानक के घटित होने का समग्र संदर्भ है.',
-          hint: 'अगर परिवेश के घटक पहचानने में अटकें तो c11_hin_ar_cbse_13_003 के \'कार्यशाला अभ्यास\' खंड.',
-          misconception: 'छात्र अक्सर \'पाठ्य-परिवेश\' को केवल \'कहानी जहाँ होती है वह स्थान\' (सेटिंग) मान लेते हैं और \'वातावरण\' को केवल \'मूड\'.',
+          question: '\'आरोह भाग-2 — पाठ 13\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण.',
+          hint: 'If stuck, revisit the Class 11 setting/atmosphere node (c11_hin_ar_cbse_01_003) and.',
+          misconception: 'Students often think setting is only "where and when" and atmosphere is just "mood," treating them as separate labels.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश और वातावरण किसी रचना में कथानक के घटित होने का समग्र संदर्भ है जिसमें',
-                  options: ['पाठ्य-परिवेश और वातावरण किसी रचना में कथानक के घटित होने का समग्र संदर्भ है जिसमें', '\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण बिहार के', 'कथानक (Plot) कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम वाला क्रम है, जबकि', 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/उपन्यास के'],
-                  hint: 'अगर परिवेश के घटक पहचानने में अटकें तो c11_hin_ar_cbse_13_003 के \'कार्यशाला अभ्यास\' खंड को दोहराएँ.',
-                  misconception: 'छात्र अक्सर \'पाठ्य-परिवेश\' को केवल \'कहानी जहाँ होती है वह स्थान\' (सेटिंग) मान लेते हैं और \'वातावरण\' को केवल \'मूड\' (उदासी/खुशी) समझते हैं।.' }
+                { id: 'a', prompt: 'Identify two sensory details from the storm scene (when the bell tower is struck by lightning) and explain how each contributes to the atmosphere of that.', answer: 'Example: "vkd\'k esa rkjs ped jgs Fks" (visual',
+                  options: ['Example: "vkd\'k esa rkjs ped jgs Fks" (visual', 'where and when'],
+                  hint: 'If stuck, revisit the Class 11 setting/atmosphere node (c11_hin_ar_cbse_01_003) and practice.',
+                  misconception: 'Students often think setting is only "where and when" and atmosphere is just "mood," treating them as separate labels.' },
+                { id: 'b', prompt: 'Compare the atmosphere of the village during the daily bell routine with the atmosphere after the bell stops ringing permanently.', answer: 'During the routine, the atmosphere is oppressive, mechanical, and fearful',
+                  options: ['During the routine, the atmosphere is oppressive, mechanical, and fearful', 'where and when'],
+                  hint: 'If stuck, revisit the Class 11 setting/atmosphere node (c11_hin_ar_cbse_01_003) and practice.',
+                  misconception: 'Students often think setting is only "where and when" and atmosphere is just "mood," treating them as separate labels.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को कहानी के तीन दृश्य (अखाड़ा, मेला, घर) दुबारा पढ़वाएँ और प्रत्येक में \'कौन-सी सामाजिक शक्ति काम कर रही है?\'.', 'फिर पूछें: \'यही पहलवान शहर के कॉलेज में होता तो क्या ढोलक बजा पाता?', 'क्यों/क्यों नहीं?\' — इससे परिवेश का निर्णायक प्रभाव स्पष्ट होगा। 3.', 'अंत में c11_hin_ar_cbse_13_003 (कक्षा 11 का \'पाठ्य-परिवेश और वातावरण\' नोड) दोहराएँ जहाँ \'परिवेश के घटक\' चरणबद्ध ढंग से.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'setting-is-only-where-and': { steps: ['If the student cannot link setting details to atmosphere, do this: 1) Pick one setting element (e.g., the bell).', '2) Find three quotes about it (sound, appearance, effect on people).', '3) For each quote, complete the sentence: "This detail makes the reader feel ______ because ______." 4) Write.', 'This forces the connection between concrete detail and emotional effect.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_13_003', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often think setting is only "where and when" and atmosphere is just "mood," treating them as separate labels.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the author\'s choice to set the climax during a violent storm. Is the storm merely a dramatic backdrop, or does it serve a deeper thematic purpose?', answer: 'The storm is not just backdrop',
+                  options: ['The storm is not just backdrop', 'just weather for drama', 'where and when'],
+                  hint: 'If stuck, revisit the Class 11 setting/atmosphere node (c11_hin_ar_cbse_01_003) and practice.',
+                  misconception: 'Students often think setting is only "where and when" and atmosphere is just "mood," treating them as separate labels.' }
+          ],
+            remediations: { 'setting-is-only-where-and': { steps: ['If the student cannot link setting details to atmosphere, do this: 1) Pick one setting element (e.g., the bell).', '2) Find three quotes about it (sound, appearance, effect on people).', '3) For each quote, complete the sentence: "This detail makes the reader feel ______ because ______." 4) Write.', 'This forces the connection between concrete detail and emotional effect.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_13_004', difficulty: 'standard',
-          question: 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें किसी.',
+          question: '\'आरोह भाग-2 — पाठ 13\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
           hint: 'यदि फँस जाएँ तो **c11_hin_ar_cbse_13_004 (कक्षा 11 का पात्र-चित्रण नोड)** या.',
           misconception: '**सबसे घातक भ्रांति:** "पहलवान एक असफल पहलवान है जो बुढ़ापे में ढोलक बजाकर समय काटता है।" **वास्तविकता:** पहलवान ने.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/उपन्यास के',
-                  options: ['पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण विधि है जिसमें किसी कथा/उपन्यास के', '\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण बिहार के', 'कथानक (Plot) कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम वाला क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण किसी रचना में कथानक के घटित होने का समग्र संदर्भ है जिसमें'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 13\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+                  options: ['\'आरोह भाग-2 — पाठ 13\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 13\' का कथानक — \'आरोह भाग-2 — पाठ 13\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 13\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि फँस जाएँ तो **c11_hin_ar_cbse_13_004 (कक्षा 11 का पात्र-चित्रण नोड)** या.',
                   misconception: '**सबसे घातक भ्रांति:** "पहलवान एक असफल पहलवान है जो बुढ़ापे में ढोलक बजाकर समय काटता है।" **वास्तविकता:** पहलवान ने पहलवानी **नहीं हारी**.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**पुनर्पाठ (Re-read):** कहानी के केवल वे अंश पढ़ें जहाँ पहलवान ढोलक बजा रहा है (पैरा 4-7, 12-15) — उसकी उँगलियों, थाप.', '**तुलना-तालिका (Comparison Table):** दो कॉलम बनाएँ — बाएँ: \'गाँव वाले पहलवान को कैसे देखते हैं\' (बूढ़ा, बेकार, बोझ).', '**लिखित अभ्यास:** 100 शब्दों में लिखें: "पहलवान की ढोलक उसकी देह नहीं, आत्मा है।" 4.', '**पुनर्निदान (Re-diagnostic):** उपरोक्त DIAGNOSTIC_QUESTION_3 और 5 का उत्तर दोबारा दें — अबकी बार \'शरीर\' नहीं, \'कला\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_13_005', difficulty: 'standard',
-          question: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक के चरित्र-चित्रण.',
+          question: '\'आरोह भाग-2 — पाठ 13\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को.',
           hint: 'यदि अटके तो c12_hin_ar_cbse_13_004 के WORKED_EXAMPLE_1 और WORKED_EXAMPLE_2 दोबारा हल करें.',
           misconception: 'छात्र मानते हैं कि सहायक पात्र केवल \'कहानी आगे बढ़ाने\' के लिए होते हैं, जबकि **पहलवान की ढोलक** में हर सहायक पात्र नायक.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक के चरित्र-चित्रण,',
-                  options: ['सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक के चरित्र-चित्रण,', '\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण बिहार के', 'कथानक (Plot) कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम वाला क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण किसी रचना में कथानक के घटित होने का समग्र संदर्भ है जिसमें'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 13\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते',
+                  options: ['\'आरोह भाग-2 — पाठ 13\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 13\' का कथानक — \'आरोह भाग-2 — पाठ 13\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 13\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके तो c12_hin_ar_cbse_13_004 के WORKED_EXAMPLE_1 और WORKED_EXAMPLE_2 दोबारा हल करें — नायक के.',
                   misconception: 'छात्र मानते हैं कि सहायक पात्र केवल \'कहानी आगे बढ़ाने\' के लिए होते हैं, जबकि **पहलवान की ढोलक** में हर सहायक पात्र नायक के **द्वंद्व (शक्ति.' }
           ],
             remediations: { 'wrong-idea': { steps: ['चरण १: पाठ के उन सभी अंशों को चिह्नित करें जहाँ पहलवान किसी अन्य पात्र से संवाद करता है या कोई उसके बारे में बोलता है।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_13_006', difficulty: 'standard',
-          question: '"पहलवान की ढोलक" का मुख्य विषय **आडंबर बनाम यथार्थ का द्वंद्व** है, जहाँ नायक.',
+          question: '\'आरोह भाग-2 — पाठ 13\' का मुख्य विषय — \'आरोह भाग-2 — पाठ 13\' का केंद्रीय भाव और.',
           hint: 'यदि अटकें: c12_hin_ar_cbse_13_004 के "पहलवान का अंतर्द्वंद्व" खंड को दोबारा पढ़ें.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि *"पहलवान ढोलक इसलिए फेंकता है क्योंकि वह उसे बजाना नहीं सीख पाया — यह असफलता की.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"पहलवान की ढोलक" का मुख्य विषय **आडंबर बनाम यथार्थ का द्वंद्व** है, जहाँ नायक अपनी झूठी',
-                  options: ['"पहलवान की ढोलक" का मुख्य विषय **आडंबर बनाम यथार्थ का द्वंद्व** है, जहाँ नायक अपनी झूठी', '\'पहलवान की ढोलक\' फणीश्वरनाथ रेणु द्वारा लिखित एक मार्मिक कहानी है जो ग्रामीण बिहार के', 'कथानक (Plot) कहानी में घटित घटनाओं का तार्किक और कारण-परिणाम वाला क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण किसी रचना में कथानक के घटित होने का समग्र संदर्भ है जिसमें'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 13\' का मुख्य विषय — \'आरोह भाग-2 — पाठ 13\' का केंद्रीय भाव और संदेश',
+                  options: ['\'आरोह भाग-2 — पाठ 13\' का मुख्य विषय — \'आरोह भाग-2 — पाठ 13\' का केंद्रीय भाव और संदेश', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 13\' का कथानक — \'आरोह भाग-2 — पाठ 13\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 13\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटकें: c12_hin_ar_cbse_13_004 के "पहलवान का अंतर्द्वंद्व" खंड को दोबारा पढ़ें — विशेषकर वह अंश.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि *"पहलवान ढोलक इसलिए फेंकता है क्योंकि वह उसे बजाना नहीं सीख पाया — यह असफलता की कहानी है।"* **क्यों.' }
           ],

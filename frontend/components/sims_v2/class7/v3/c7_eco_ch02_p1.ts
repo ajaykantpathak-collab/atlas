@@ -95,6 +95,10 @@ export const c7_eco_ch02_p1: SimDef = {
                 { id: 'b', prompt: 'Why is a local vegetable vendor\'s stall considered a market even though there are no contracts or computers involved?', answer: 'A market does not require formal legal contracts or computers',
                   options: ['A market does not require formal legal contracts or computers', 'market'],
                   hint: 'Review the Class 6 concept of buyers, sellers, and exchange from c6_economics_ch12_001.',
+                  misconception: 'Students often think that a "market" must always be a physical building or a specific geographical location like a supermarket.' },
+                { id: 'c', prompt: 'If Riya buys a handmade craft from her classmate during school hours for ₹50, does this interaction constitute a market transaction?', answer: 'Identify the buyer (Riya) and the seller (classmate)',
+                  options: ['Identify the buyer (Riya) and the seller (classmate)', 'market', 'markets only happen in registered commercial shops'],
+                  hint: 'Review the Class 6 concept of buyers, sellers, and exchange from c6_economics_ch12_001.',
                   misconception: 'Students often think that a "market" must always be a physical building or a specific geographical location like a supermarket.' }
           ],
             remediations: { 'a-market-must-always-be': { steps: ['To fix this misconception, guide the student through two contrasting examples: a local vegetable market (physical) and.', 'Ask them: "Can you touch the building of an online bookstore?" When they say no, ask: "Can you still buy books there?".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },

@@ -19,7 +19,7 @@ export const c10_engl_ch07_p2: SimDef = {
         hook: 'This isn\'t childish daydreaming — it\'s a project. Every coin refused, every adult conversation mined for clues. Valli planned her ride like a heist.',
     },
     teaching: [
-        { title: 'Character Analysis: Valli as a Determined and Observant Child', text: 'Character analysis is the process of examining a literary character\'s traits, motivations, and development by closely reading their actions, speech, thoughts, and interactions with others, then.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Character Analysis: Valli as a Determined and Observant Child', text: 'From \'English chapter c10_engl_cbse_07\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c10_engl_cbse_07_007', title: 'Your mission',
@@ -61,7 +61,7 @@ export const c10_engl_ch07_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_engl_cbse_07_007', difficulty: 'standard',
-          question: 'Character analysis is the process of examining a literary character\'s traits.',
+          question: 'From \'English chapter c10_engl_cbse_07\': the skill or concept this node.',
           hint: 'Review the PEEL model from c9_engl_ch1_2 (Grandmother\'s character analysis) and re‑read.',
           misconception: 'Students often think "determination" means simply "not giving up" and write generic statements like "Valli was.',
           parts: [

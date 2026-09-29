@@ -19,7 +19,7 @@ export const c11_hin_v_ch01_p2: SimDef = {
         hook: 'Agyeya opens by hearing a gramophone before seeing anything — a miniature of his thesis: modern theatre detached sound from sight and rewired the senses.',
     },
     teaching: [
-        { title: 'पाठ 1 — गौण विषय', text: 'गौण विषय वह विचार या भावना है जो पाठ के मुख्य विषय को स्पष्ट, गहरा या विविध पहलुओं से समृद्ध बनाता है, लेकिन मुख्य विषय का स्थान नहीं लेता; यह मुख्य धारा को किनारे से मजबूत करता है, जैसे नदी की मुख्य.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 1 — गौण विषय', text: '\'वितान भाग-1 — पाठ 1\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_v_cbse_01_007', title: 'Your mission',
@@ -28,11 +28,32 @@ export const c11_hin_v_ch01_p2: SimDef = {
         context: 'Split classical Sanskrit, Parsi-folk and Mohan Rakesh\'s realism into their governing principles, then judge whether word-dominant and visual-dominant theatre can even be compared.',
         labels: ['पाठ 1 — गौण', 'पाठ 1 — साहित्यिक', 'पाठ 1 — पदावली', 'पाठ 1 — व्याकरण', 'पाठ 1 — बोध-प्रश्न'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c11_hin_v_cbse_01_008', title: 'Identify each idea',
-          dissect: { specimen: 'पाठ 1 · Part 2/3', spots: [
-            { id: 's1', label: '1 -', prompt: 'Which idea is this? — पाठ में भाषा-प्रयोग का तात्पर्य लेखक द्वारा अपनी अभिव्यक्ति को प्रभावी, सटीक और.', answer: '1 -', options: ['1 -', '1 - -'] },
-            { id: 's2', label: '1 - -', prompt: 'Which idea is this? — **वस्तुनिष्ठ प्रश्न (Objective Questions):** पाठ में स्पष्टतः लिखित तथ्यों, घटनाओं.', answer: '1 - -', options: ['1 - -', '1 -'] }
-          ] } },
+        { type: 'case', nodeId: 'c11_hin_v_cbse_01_007', title: 'पाठ 1 — गौण विषय',
+          caseStudy: { intro: '\'वितान भाग-1 — पाठ 1\' में वितान-भाग-1-—-पाठ-1 जैसे सहायक विचार आते हैं।',
+            decisions: [{ prompt: 'What is the definition of a secondary theme in literary analysis, and how does it differ from the primary theme?', options: [
+                { text: 'A secondary theme is a supporting idea or motif that runs parallel to the primary theme,', outcome: 'A secondary theme is a supporting idea or motif that runs parallel to the primary theme, adding.' },
+                { text: 'subplots', outcome: 'Not quite — Students often confuse "secondary themes" with "subtopics mentioned in the text." They list topics.', reveals: 'students-often-confuse-secondary-themes' },
+                { text: 'minor topics', outcome: 'Not quite — Students often confuse "secondary themes" with "subtopics mentioned in the text." They list topics.', reveals: 'students-often-confuse-secondary-themes' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_v_cbse_01_008', title: 'पाठ 1 — साहित्यिक युक्तियाँ: बिंब और रूपक',
+          caseStudy: { intro: '\'वितान भाग-1 — पाठ 1\' में बिंब ढूँढिए — वितान-भाग-1-—-पाठ-1 — ये दृश्य पाठ को जीवंत बनाते हैं।',
+            decisions: [{ prompt: 'According to the author, what is the primary distinction between fp=kiV laxhr (visual art) and \'kkL=kh; laxhr (literary art) in terms.', options: [
+                { text: 'The author states that fp=kiV laxhr\'s foundation is "izkFkfed voLFkk"', outcome: 'The author states that fp=kiV laxhr\'s foundation is "izkFkfed voLFkk" (immediate/existential state).' },
+                { text: 'visual art uses colors, literary art uses words', outcome: 'Not quite — Students conflate "imagery" with "figurative language" (metaphor, simile, personification) and hunt.', reveals: 'students-conflate-imagery-with-figurative' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_v_cbse_01_009', title: 'पाठ 1 — साहित्यिक युक्तियाँ: विरोधाभास और प्रतीक',
+          caseStudy: { intro: '\'वितान भाग-1 — पाठ 1\' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।',
+            decisions: [{ prompt: 'Define verbal irony and situational irony in your own words, giving one example of each from everyday life (not from the textbook).', options: [
+                { text: 'Verbal irony occurs when a speaker says the opposite of what they mean (e.g., saying', outcome: 'Verbal irony occurs when a speaker says the opposite of what they mean (e.g., saying "Great job!".' },
+                { text: 'situational irony', outcome: 'Not quite — Students often believe irony and symbolism are merely decorative "figures of speech" that authors.', reveals: 'irony-and-symbolism-are-merely' },
+                { text: 'figures of speech', outcome: 'Not quite — Students often believe irony and symbolism are merely decorative "figures of speech" that authors.', reveals: 'irony-and-symbolism-are-merely' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_v_cbse_01_010', title: 'पाठ 1 — पदावली: मुख्य शब्द',
+          caseStudy: { intro: '\'वितान भाग-1 — पाठ 1\' के मुख्य शब्द: वितान-भाग-1-—-पाठ-1 — इनका अर्थ जानिए।',
+            decisions: [{ prompt: 'What is the most reliable first step when encountering an unपरिचित key word in a senior secondary Hindi prose text?', options: [
+                { text: 'The most reliable first step is to locate all occurrences of the word in the chapter and', outcome: 'The most reliable first step is to locate all occurrences of the word in the chapter and examine.' },
+                { text: 'look up the dictionary meaning first', outcome: 'Not quite — Students believe vocabulary in context means guessing a word\'s meaning from the single sentence.', reveals: 'vocabulary-in-context-means-guessing' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_01_007', title: 'Use it in the wild',
           caseStudy: { intro: 'Your theatre club is adapting a stage play into a short film. A member says: \'Just film the play — theatre is literature, cinema is just literature with a camera. Agyeya\'s essay on Mohan Rakesh is basically a biography of a playwright.\'',
             decisions: [{ prompt: 'What does Agyeya\'s argument actually say?', options: [
@@ -52,67 +73,82 @@ export const c11_hin_v_ch01_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_007', difficulty: 'standard',
-          question: 'गौण विषय वह विचार या भावना है जो पाठ के मुख्य विषय को स्पष्ट, गहरा या विविध.',
-          hint: 'यदि मुख्य विषय की पहचान में कठिनाई हो तो नोड c11_hin_v_cbse_01_006 की सामग्री पुनःレビュー.',
-          misconception: 'छात्र अक्सर गौण विषय को मुख्य विषय का समानार्थी या दोहराव मान लेते हैं, जैसे यदि मुख्य विषय "समाज में बदलाव की.',
+          question: '\'वितान भाग-1 — पाठ 1\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
+          hint: 'If stuck, review node 006 (Primary Theme) and practice distinguishing "what happens".',
+          misconception: 'Students often confuse "secondary themes" with "subtopics mentioned in the text." They list topics like "radio.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय वह विचार या भावना है जो पाठ के मुख्य विषय को स्पष्ट, गहरा या विविध पहलुओं से',
-                  options: ['गौण विषय वह विचार या भावना है जो पाठ के मुख्य विषय को स्पष्ट, गहरा या विविध पहलुओं से', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
-                  hint: 'यदि मुख्य विषय की पहचान में कठिनाई हो तो नोड c11_hin_v_cbse_01_006 की सामग्री पुनःレビュー करें—वहाँ.',
-                  misconception: 'छात्र अक्सर गौण विषय को मुख्य विषय का समानार्थी या दोहराव मान लेते हैं, जैसे यदि मुख्य विषय "समाज में बदलाव की आवश्यकता" है तो वे किसी भी.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-1 — पाठ 1\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
+                  options: ['\'वितान भाग-1 — पाठ 1\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-1 — पाठ 1\' का कथानक — \'वितान भाग-1 — पाठ 1\' — वितान भाग-1 का पाठ। पाठ का', '\'वितान भाग-1 — पाठ 1\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'If stuck, review node 006 (Primary Theme) and practice distinguishing "what happens" (plot/topics).',
+                  misconception: 'Students often confuse "secondary themes" with "subtopics mentioned in the text." They list topics like "radio history," "Yaksh.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दो रंग के हाइलाइटर दें—एक मुख्य विषय के लिए (जैसे पीला) और दूसर संभावित गौण विषय के लिए (जैसे नीला)। फिर उनसे.', 'क्यों?" इस अभ्यास से वे सतही मिलान से कार्यात्मक विश्लेषण की ओर बढ़ते हैं।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If a student lists topics instead of themes: (1) Have them reread paragraphs 2-4 and 6-7, highlighting every sentence.', '(2) Ask: "What idea is this claim *an example of*?" (3) Group similar claims into 3-4 clusters—each cluster is.', '(4) Verify each cluster against the primary theme: does it deepen, complicate, or extend the main argument?', 'If not, it\'s a topic, not a theme.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_007', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often confuse "secondary themes" with "subtopics mentioned in the text." They list topics like "radio.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate Saxena\'s claim that "fp=kiV laxhr us yksxksa dks dku fcxkM+ fn, gS" (visual art has given people the gift of seeing).', answer: 'Defensible insight, not overstatement',
+                  options: ['Defensible insight, not overstatement', 'hyperbole', 'rjg&rjg dh y; osQ Hkh izdkj', 'secondary themes'],
+                  hint: 'If stuck, review node 006 (Primary Theme) and practice distinguishing "what happens" (plot/topics).',
+                  misconception: 'Students often confuse "secondary themes" with "subtopics mentioned in the text." They list topics like "radio history," "Yaksh.' }
+          ],
+            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If a student lists topics instead of themes: (1) Have them reread paragraphs 2-4 and 6-7, highlighting every sentence.', '(2) Ask: "What idea is this claim *an example of*?" (3) Group similar claims into 3-4 clusters—each cluster is.', '(4) Verify each cluster against the primary theme: does it deepen, complicate, or extend the main argument?', 'If not, it\'s a topic, not a theme.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_008', difficulty: 'standard',
-          question: '**बिंब (Imagery)** लेखक द्वारा शब्दों के माध्यम से पाठक की इंद्रियों (दृष्टि.',
-          hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_v_cbse_01_002 (कथानक संरचना)** के \'चरमोत्कर्ष\' खंड को.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर **\'रूपक\' और \'उपमा\' को केवल \'तुलना\' मानकर उनका अंतर \'जैसे/मानो शब्द की.',
+          question: '\'वितान भाग-1 — पाठ 1\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
+          hint: 'Review the "Before You Read" context (c11_hin_v_cbse_01_001) on the tradition of Indian.',
+          misconception: 'Students conflate "imagery" with "figurative language" (metaphor, simile, personification) and hunt for decorative.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery)** लेखक द्वारा शब्दों के माध्यम से पाठक की इंद्रियों (दृष्टि, श्रवण,',
-                  options: ['**बिंब (Imagery)** लेखक द्वारा शब्दों के माध्यम से पाठक की इंद्रियों (दृष्टि, श्रवण,', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
-                  hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_v_cbse_01_002 (कथानक संरचना)** के \'चरमोत्कर्ष\' खंड को दोबारा.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर **\'रूपक\' और \'उपमा\' को केवल \'तुलना\' मानकर उनका अंतर \'जैसे/मानो शब्द की उपस्थिति/अनुपस्थिति\' तक सीमित कर.' }
+                { id: 'a', prompt: 'According to the author, what is the primary distinction between fp=kiV laxhr (visual art) and \'kkL=kh; laxhr (literary art) in terms of their "rky".', answer: 'The author states that fp=kiV laxhr\'s foundation is "izkFkfed voLFkk"',
+                  options: ['The author states that fp=kiV laxhr\'s foundation is "izkFkfed voLFkk"', 'visual art uses colors, literary art uses words'],
+                  hint: 'Review the "Before You Read" context (c11_hin_v_cbse_01_001) on the tradition of Indian xkf;dk.',
+                  misconception: 'Students conflate "imagery" with "figurative language" (metaphor, simile, personification) and hunt for decorative comparisons in the.' },
+                { id: 'b', prompt: 'The author describes three types of "y;" (rhythm): foyafcry; (musical), eè;y; (poetic), and nzqry; (prosaic).', answer: 'Nzqry; is "rs"k" (prosaic/ordinary)',
+                  options: ['Nzqry; is "rs"k" (prosaic/ordinary)', 'nzqry; is the most musical'],
+                  hint: 'Review the "Before You Read" context (c11_hin_v_cbse_01_001) on the tradition of Indian xkf;dk.',
+                  misconception: 'Students conflate "imagery" with "figurative language" (metaphor, simile, personification) and hunt for decorative comparisons in the.' }
           ],
-            remediations: { 'a-is-like-b': { steps: ['**चरण 1:** छात्र को **दो वाक्य दें**: (क) *"जीवन एक संघर्ष है"* (रूपक) और (ख) *"जीवन संघर्ष की तरह है"* (उपमा)। पूछें.', 'दूसरे में क्या रहा?" — जब तक वह न कहे: "पहले में जीवन **संघर्ष बन गया**, दूसरे में जीवन **मनुष्य ही रहा** जो संघर्ष.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-conflate-imagery-with-figurative': { steps: ['Have the student re-read only the first two pages, highlighting every concrete noun (room, paint, brush, canvas, light.', 'Ask: "Which of these details could a camera capture?', 'Which require the writer\'s perception?" 3.', 'Map each highlighted detail to the author\'s claim about fp=kiV laxhr\'s "Loj" and "y;." 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_009', difficulty: 'standard',
-          question: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो प्रथम दृष्ट्या तर्क-विरुद्ध.',
-          hint: 'यदि अटके तो c11_hin_v_cbse_01_008 (बिंब और रूपक) के \'रूपक विश्लेषण चरण\' को दोहराएं: तुलना.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र **विरोधाभास (Paradox)** को **विरोधाभास अलंकार / ऑक्सीमोरॉन (Oxymoron)** समझ लेते हैं — जैसे.',
+          question: '\'वितान भाग-1 — पाठ 1\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+          hint: 'If stuck, review the "three colors = three sounds" analogy in the middle of the chapter.',
+          misconception: 'Students often believe irony and symbolism are merely decorative "figures of speech" that authors add for beauty.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो प्रथम दृष्ट्या तर्क-विरुद्ध, असंगत या',
-                  options: ['**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो प्रथम दृष्ट्या तर्क-विरुद्ध, असंगत या', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
-                  hint: 'यदि अटके तो c11_hin_v_cbse_01_008 (बिंब और रूपक) के \'रूपक विश्लेषण चरण\' को दोहराएं: तुलना के दो.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र **विरोधाभास (Paradox)** को **विरोधाभास अलंकार / ऑक्सीमोरॉन (Oxymoron)** समझ लेते हैं — जैसे "जीवित मृतक", "मधुर.' }
+                { id: 'a', prompt: 'In the chapter, the narrator initially mistakes the bell sound for a divine or supernatural occurrence, but it turns out to be the announcement of Yashpal\'s.', answer: 'This is situational irony',
+                  options: ['This is situational irony', 'verbal irony', 'dramatic irony', 'figures of speech'],
+                  hint: 'If stuck, review the "three colors = three sounds" analogy in the middle of the chapter (paragraphs.',
+                  misconception: 'Students often believe irony and symbolism are merely decorative "figures of speech" that authors add for beauty.' }
           ],
-            remediations: { 'paradox-oxymoron': { steps: ['**चरण 1:** छात्र से कहें: "पाठ से कोई एक वाक्य चुनो जो तुम्हें \'गलत\' लगे पर लेखक ने जानबूझकर लिखा हो।" — यह विरोधाभास.', '**चरण 2:** पूछें: "इस वाक्य के दोनों भागों में कौन-सा यथार्थ छिपा है जो साधारण भाषा में नहीं कहा जा सकता?" — इससे.', '**चरण 3:** प्रतीक के लिए: "कहानी में कोई एक वस्तु बताओ जो 3-4 बार अलग-अलग प्रसंगों में आई हो और हर बार उसका अर्थ गहरा.', '**चरण 4:** छात्र से उस वस्तु के **तीन अर्थ-स्तर** लिखवाएं (शाब्दिक, भावनात्मक, दार्शनिक) — इससे प्रतीक की बहु-स्तरीयता.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'irony-and-symbolism-are-merely': { steps: ['Have the student re-read the first two paragraphs and physically mark (with pencil) every sentence where the narrator\'s.', 'Create a two-column table: Column A = concrete object (bell, painting, colors), Column B = abstract idea it represents.', 'Ask: "Which device attacks the old view? Which builds the new view?" Guide them to see irony as the wrecking ball and.', 'Assign a 100-word response: "Explain how the bell\'s meaning changes from para 1 to para 5 using the E/R table and.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_010', difficulty: 'standard',
-          question: 'मुख्य शब्द वे शब्द हैं जो किसी पाठ के central idea, theme या author के प्रमुख.',
-          hint: 'यदि कठिनाई हो तो पहले नोड c11_hin_v_cbse_01_006 (मुख्य विषय और संदेश) की अवधारणा को.',
-          misconception: 'छात्र अक्सर यह मानते हैं कि मुख्य शब्द वे होते हैं जो पाठ में सबसे पहले आते हैं या जो सबसे कठिन या असामान्य होते हैं.',
+          question: '\'वितान भाग-1 — पाठ 1\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
+          hint: 'Review "Text: Plot and Narrative Structure" (c11_hin_v_cbse_01_002) and practice mapping.',
+          misconception: 'Students believe vocabulary in context means guessing a word\'s meaning from the single sentence where it first appears.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य शब्द वे शब्द हैं जो किसी पाठ के central idea, theme या author के प्रमुख संदेश को',
-                  options: ['मुख्य शब्द वे शब्द हैं जो किसी पाठ के central idea, theme या author के प्रमुख संदेश को', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
-                  hint: 'यदि कठिनाई हो तो पहले नोड c11_hin_v_cbse_01_006 (मुख्य विषय और संदेश) की अवधारणा को दोबारा समझिए.',
-                  misconception: 'छात्र अक्सर यह मानते हैं कि मुख्य शब्द वे होते हैं जो पाठ में सबसे पहले आते हैं या जो सबसे कठिन या असामान्य होते हैं, क्योंकि उनका मानना है.' }
+                { id: 'a', prompt: 'In the sentence "yrk dh yksdfiz;rk dk eq[; eeZ ;g ^xkuiu* gh gSA" (The main basis of Yashodhara\'s creativity is this \'xkuiu\'), use the surrounding paragraph.', answer: '"xkuiu" means a transformative aesthetic experience that fuses sensory modes and',
+                  options: ['"xkuiu" means a transformative aesthetic experience that fuses sensory modes and', 'artistic feeling'],
+                  hint: 'Review "Text: Plot and Narrative Structure" (c11_hin_v_cbse_01_002) and practice mapping the.',
+                  misconception: 'Students believe vocabulary in context means guessing a word\'s meaning from the single sentence where it first appears.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को स्पष्ट रूप से बताइए कि मुख्य शब्द की पहचान करने के लिए शब्द की स्थिति नहीं, बल्कि उसकी आवृत्ति और tematice.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'vocabulary-in-context-means-guessing': { steps: ['If a student cannot trace semantic evolution, conduct a "Word Trajectory Mapping" exercise: (1) Select one key term.', '(2) Find all 3-4 occurrences in the chapter.', '(3) For each, copy the full sentence and underline the subject, verb, and object associated with the term.', '(4) Create a two-column table: "Earlier usage" vs.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_011', difficulty: 'standard',
-          question: 'पाठ में भाषा-प्रयोग का तात्पर्य लेखक द्वारा अपनी अभिव्यक्ति को प्रभावी, सटीक और.',
+          question: '\'वितान भाग-1 — पाठ 1\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य.',
           hint: 'यदि अटके तो **\'शब्द-शक्ति (वाच्यार्थ/लक्ष्यार्थ/व्यंग्यार्थ)\'** की कक्षा 10 की व्याकरण.',
           misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि **\'भाषा-प्रयोग\' का अर्थ केवल \'कठिन/तत्सम शब्दों का प्रयोग\' या \'अलंकारों की.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग का तात्पर्य लेखक द्वारा अपनी अभिव्यक्ति को प्रभावी, सटीक और',
-                  options: ['पाठ में भाषा-प्रयोग का तात्पर्य लेखक द्वारा अपनी अभिव्यक्ति को प्रभावी, सटीक और', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-1 — पाठ 1\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली',
+                  options: ['\'वितान भाग-1 — पाठ 1\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-1 — पाठ 1\' का कथानक — \'वितान भाग-1 — पाठ 1\' — वितान भाग-1 का पाठ। पाठ का', '\'वितान भाग-1 — पाठ 1\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके तो **\'शब्द-शक्ति (वाच्यार्थ/लक्ष्यार्थ/व्यंग्यार्थ)\'** की कक्षा 10 की व्याकरण पुस्तिका.',
                   misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि **\'भाषा-प्रयोग\' का अर्थ केवल \'कठिन/तत्सम शब्दों का प्रयोग\' या \'अलंकारों की भरमार\'** है। **गलत तर्क:**.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**चरण 1 — शब्द-शक्ति स्पष्ट करो:** छात्र को तीन वाक्य दो: (क) "वह रोया।" (ख) "उसकी आँखें बरस पड़ीं।" (ग) "वह फूट-फूटकर.', '**चरण 2 — \'प्रतिस्थापन परीक्षण\' (Substitution Test) कराओ:** पाठ 1 के किसी वाक्य का **महत्वपूर्ण शब्द** हटाकर.', '**चरण 3 — PEEL ढाँचे में एक उत्तर लिखवाओ:** Point (कौन-सा प्रयोग), Evidence (उद्धरण), Explanation (कैसे प्रभाव बना).', '**चरण 4 — फीडबैक लूप:** जहां Explanation कमजोर हो, वहाँ **\'क्यों?\'** पूछकर **कारण-कार्य श्रृंखला** पूरी कराओ।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_01_012', difficulty: 'standard',
-          question: '**वस्तुनिष्ठ प्रश्न (Objective Questions):** पाठ में स्पष्टतः लिखित तथ्यों.',
+          question: '\'वितान भाग-1 — पाठ 1\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
           hint: 'यदि फँसें तो **c11_hin_v_cbse_01_004 (नायक का पात्र-चित्रण)** और **c11_hin_v_cbse_01_010.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **आशय-सूचक प्रश्नों के उत्तर "अनुमान" (guesswork) होते हैं** — "जो मन में आए.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**वस्तुनिष्ठ प्रश्न (Objective Questions):** पाठ में स्पष्टतः लिखित तथ्यों, घटनाओं,',
-                  options: ['**वस्तुनिष्ठ प्रश्न (Objective Questions):** पाठ में स्पष्टतः लिखित तथ्यों, घटनाओं,', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', '**कथानक** घटनाओं का कारण-कार्य संबंध (causal sequence) पर आधारित तार्किक क्रम है जो', 'पाठ्य-परिवेश (Setting) किसी रचना का वह **भौगोलिक, ऐतिहासिक, सामाजिक एवं सांस्कृतिक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-1 — पाठ 1\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
+                  options: ['\'वितान भाग-1 — पाठ 1\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-1 — पाठ 1\' का कथानक — \'वितान भाग-1 — पाठ 1\' — वितान भाग-1 का पाठ। पाठ का', '\'वितान भाग-1 — पाठ 1\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि फँसें तो **c11_hin_v_cbse_01_004 (नायक का पात्र-चित्रण)** और **c11_hin_v_cbse_01_010 (मुख्य.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **आशय-सूचक प्रश्नों के उत्तर "अनुमान" (guesswork) होते हैं** — "जो मन में आए लिख दो, कोई गलत नहीं.' }
           ],

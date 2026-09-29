@@ -6,13 +6,13 @@ import C12_AppliedMathsIntegrationApplicationsSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_appliedmathsintegrationapplicationssim: SimDef = {
     id: 'v3w_c12_appliedmathsintegrationapplicationssim',
-    title: 'Applied Maths Integration Applications',
+    title: 'Fundamental Theorem of Calculus: Part 1',
     subtitle: 'This node covers the statement, intuition, and basic applications of the First.',
     classLevel: 12, subject: 'science', topic: 'Fundamental Theorem of Calculus: Part 1',
     chapters: [],
     nodeIds: ['c12_math_cbse_07_008', 'c12_math_cbse_07_009', 'c12_math_cbse_07_010', 'c12_math_cbse_08_006', 'c12_math_cbse_02_007', 'c12_math_cbse_02_008', 'c12_math_cbse_05_008', 'c12_math_cbse_07_001', 'c12_math_cbse_07_002', 'c12_math_cbse_07_003', 'c12_math_cbse_07_004', 'c12_math_cbse_07_005', 'c12_math_cbse_07_006', 'c12_math_cbse_07_007', 'c12_math_cbse_07_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are tracking the distance travelled by a car from your home in Delhi to a friend\'s house in.', goal: 'Master Applied Maths Integration Applications.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are tracking the distance travelled by a car from your home in Delhi to a friend\'s house in.', goal: 'Master Fundamental Theorem of Calculus: Part 1.' },
     discovery: {
         question: 'A student simplifies $\\tan^{-1}\\left(\\sqrt{\\frac{1-\\cos x}{1+\\cos x}}\\right)$ directly to $\\frac{x}{2}$ without any condition on $x$.',
         options: ['Correct explanation: $\\sqrt{\\frac{1-\\cos x}{1+\\cos x}} =', 'it\'s always $\\frac{x}{2}$', 'domain of cos is all reals so it\'s fine'],
@@ -79,7 +79,7 @@ export const w_c12_appliedmathsintegrationapplicationssim: SimDef = {
             { text: 'Verify: cos θ = 9/15 = 0.6, θ ≈ 53.13° is acute, height 12 m is positive and less than ladder length.', faded: true, blankAnswer: 'Angle with ground = cos⁻¹(3/5) ≈ 53.13° (or 0.927 rad);.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_07_009', title: 'Identify each idea',
-          dissect: { specimen: 'Applied Maths Integration Applications', spots: [
+          dissect: { specimen: 'Fundamental Theorem of Calculus: Part 1', spots: [
             { id: 's1', label: 'The Fundamental Theorem of Calculus', prompt: 'Which idea is this? — The Fundamental Theorem of Calculus (Part 1) states that if \\( f \\) is a continuous.', answer: 'The Fundamental Theorem of Calculus', options: ['The Fundamental Theorem of Calculus', 'The Second Fundamental Theorem of', 'The properties of definite integrals', 'Word problems on area applications'] },
             { id: 's2', label: 'The Second Fundamental Theorem of', prompt: 'Which idea is this? — The Second Fundamental Theorem of Calculus states that if \\( f \\) is a continuous.', answer: 'The Second Fundamental Theorem of', options: ['The Second Fundamental Theorem of', 'The Fundamental Theorem of Calculus', 'The properties of definite integrals', 'Word problems on area applications'] },
             { id: 's3', label: 'The properties of definite integrals', prompt: 'Which idea is this? — The properties of definite integrals are a set of algebraic and symmetry rules that allow.', answer: 'The properties of definite integrals', options: ['The properties of definite integrals', 'The Fundamental Theorem of Calculus', 'The Second Fundamental Theorem of', 'Word problems on area applications'] },
@@ -88,7 +88,7 @@ export const w_c12_appliedmathsintegrationapplicationssim: SimDef = {
             { id: 's6', label: 'Word problems involving inverse trigonometric', prompt: 'Which idea is this? — Word problems involving inverse trigonometric functions require translating real-world.', answer: 'Word problems involving inverse trigonometric', options: ['Word problems involving inverse trigonometric', 'The Fundamental Theorem of Calculus', 'The Second Fundamental Theorem of', 'The properties of definite integrals'] }
           ] } }
     ],
-    explore: { component: C12_AppliedMathsIntegrationApplicationsSim, prompt: 'Explore the interactive — Applied Maths Integration Applications' },
+    explore: { component: C12_AppliedMathsIntegrationApplicationsSim, prompt: 'Explore the interactive — Fundamental Theorem of Calculus: Part 1' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_07_008', difficulty: 'standard',
           question: 'The Fundamental Theorem of Calculus (Part 1) states that if \\( f \\) is a.',

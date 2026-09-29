@@ -6,13 +6,13 @@ import C12_BiotechnologyNucleotidesNucleosidesStructureSim from '../../../simula
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biotechnologynucleotidesnucleosidesstructuresim: SimDef = {
     id: 'v3w_c12_biotechnologynucleotidesnucleosidesstructuresim',
-    title: 'nology Nucleotides Nucleosides Structure',
+    title: 'Bioinformatics: Biological Databases and Analysis Tools',
     subtitle: 'Covers classification of biological databases (primary, secondary, composite), major.',
     classLevel: 12, subject: 'biotechnology', topic: 'Bioinformatics: Biological Databases and Analysis Tools',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_05_007', 'c12_biotech_cbse_02_007', 'c12_biotech_cbse_05_005', 'c12_biotech_cbse_05_006', 'c12_biotech_cbse_02_003', 'c12_biotech_cbse_02_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you have just sequenced a novel gene from a drought-tolerant millet variety grown in Rajasthan.', goal: 'Master nology Nucleotides Nucleosides Structure.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you have just sequenced a novel gene from a drought-tolerant millet variety grown in Rajasthan.', goal: 'Master Bioinformatics: Biological Databases and Analysis Tools.' },
     discovery: {
         question: 'Name the three major primary nucleotide sequence databases that form the International Nucleotide Sequence Database Collaboration (INSDC) and state the.',
         options: ['The three databases are GenBank (USA), EMBL-EBI (Europe), and DDBJ (Japan)', 'the entire internet', 'all known sequences'],
@@ -78,7 +78,7 @@ export const w_c12_biotechnologynucleotidesnucleosidesstructuresim: SimDef = {
             { text: 'Verify: The sequence read from the gel (bottom to top) would show A at 19, then other bases, then A at 26, A at 27 —.', faded: true, blankAnswer: '19 nt, 26 nt, 27 nt (including primer)' }
             ] } },
         { type: 'dissect', nodeId: 'c12_biotech_cbse_02_007', title: 'Identify each idea',
-          dissect: { specimen: 'nology Nucleotides Nucleosides Structure', spots: [
+          dissect: { specimen: 'Bioinformatics: Biological Databases and Analysis Tools', spots: [
             { id: 's1', label: 'Bioinformatics is the interdisciplinary science', prompt: 'Which idea is this? — Bioinformatics is the interdisciplinary science that creates, maintains, and analyses.', answer: 'Bioinformatics is the interdisciplinary science', options: ['Bioinformatics is the interdisciplinary science', 'Primer design for PCR is', 'The Human Genome Project HGP', 'DNA sequencing technologies determine the'] },
             { id: 's2', label: 'Primer design for PCR is', prompt: 'Which idea is this? — Primer design for PCR is the process of selecting short, single-stranded DNA.', answer: 'Primer design for PCR is', options: ['Primer design for PCR is', 'Bioinformatics is the interdisciplinary science', 'The Human Genome Project HGP', 'DNA sequencing technologies determine the'] },
             { id: 's3', label: 'The Human Genome Project HGP', prompt: 'Which idea is this? — The Human Genome Project (HGP) was an international scientific research project.', answer: 'The Human Genome Project HGP', options: ['The Human Genome Project HGP', 'Bioinformatics is the interdisciplinary science', 'Primer design for PCR is', 'DNA sequencing technologies determine the'] },
@@ -87,7 +87,7 @@ export const w_c12_biotechnologynucleotidesnucleosidesstructuresim: SimDef = {
             { id: 's6', label: 'Sanger dideoxy DNA sequencing is', prompt: 'Which idea is this? — Sanger dideoxy DNA sequencing is a chain-termination method that determines the.', answer: 'Sanger dideoxy DNA sequencing is', options: ['Sanger dideoxy DNA sequencing is', 'Bioinformatics is the interdisciplinary science', 'Primer design for PCR is', 'The Human Genome Project HGP'] }
           ] } }
     ],
-    explore: { component: C12_BiotechnologyNucleotidesNucleosidesStructureSim, prompt: 'Explore the interactive — nology Nucleotides Nucleosides Structure' },
+    explore: { component: C12_BiotechnologyNucleotidesNucleosidesStructureSim, prompt: 'Explore the interactive — Bioinformatics: Biological Databases and Analysis Tools' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_biotech_cbse_05_007', difficulty: 'standard',
           question: 'Bioinformatics is the interdisciplinary science that creates, maintains, and.',

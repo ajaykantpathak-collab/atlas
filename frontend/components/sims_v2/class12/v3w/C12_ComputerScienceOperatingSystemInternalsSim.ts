@@ -6,13 +6,13 @@ import C12_ComputerScienceOperatingSystemInternalsSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_computerscienceoperatingsysteminternalssim: SimDef = {
     id: 'v3w_c12_computerscienceoperatingsysteminternalssim',
-    title: 'Operating System Internals',
+    title: 'E-Waste Management and Disposal',
     subtitle: 'This node covers: definition and classification of e-waste, hazardous constituents and.',
     classLevel: 12, subject: 'computer_science', topic: 'E-Waste Management and Disposal',
     chapters: [],
     nodeIds: ['c12_cs_cbse_13_003', 'c12_cs_cbse_01_010', 'c12_cs_cbse_12_005', 'c12_cs_cbse_07_001', 'c12_cs_cbse_13_010', 'c12_cs_cbse_04_002', 'c12_cs_cbse_13_001', 'c12_cs_cbse_13_005', 'c12_cs_cbse_13_006', 'c12_cs_cbse_13_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine your family just upgraded from a 5-year-old CRT television to a new smart TV.', goal: 'Master Operating System Internals.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine your family just upgraded from a 5-year-old CRT television to a new smart TV.', goal: 'Master E-Waste Management and Disposal.' },
     discovery: {
         question: 'Explain why symmetric encryption alone is insufficient for secure key exchange over an untrusted network, and how asymmetric encryption solves this.',
         options: ['Symmetric encryption requires both parties to already share a secret key', 'asymmetric is faster so we use it for everything', 'encrypts data'],
@@ -79,7 +79,7 @@ export const w_c12_computerscienceoperatingsysteminternalssim: SimDef = {
             { text: 'Identify problems: (a) If a RollNo in BATCH.TXT has a typo (e.g., \'101\' vs \'10 1\'), the join fails silently — no.', faded: true, blankAnswer: 'File-system steps as above; three problems: lack of.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_cs_cbse_01_010', title: 'Identify each idea',
-          dissect: { specimen: 'Operating System Internals', spots: [
+          dissect: { specimen: 'E-Waste Management and Disposal', spots: [
             { id: 's1', label: 'E-Waste Electronic Waste refers to', prompt: 'Which idea is this? — E-Waste (Electronic Waste) refers to discarded electrical or electronic devices such as.', answer: 'E-Waste Electronic Waste refers to', options: ['E-Waste Electronic Waste refers to', 'Network security encompasses measures to', 'A firewall is a network', 'Boolean Algebra is a mathematical'] },
             { id: 's2', label: 'Network security encompasses measures to', prompt: 'Which idea is this? — Network security encompasses measures to protect network infrastructure and data from.', answer: 'Network security encompasses measures to', options: ['Network security encompasses measures to', 'E-Waste Electronic Waste refers to', 'A firewall is a network', 'Boolean Algebra is a mathematical'] },
             { id: 's3', label: 'A firewall is a network', prompt: 'Which idea is this? — A firewall is a network security system that monitors and controls incoming and outgoing.', answer: 'A firewall is a network', options: ['A firewall is a network', 'E-Waste Electronic Waste refers to', 'Network security encompasses measures to', 'Boolean Algebra is a mathematical'] },
@@ -88,7 +88,7 @@ export const w_c12_computerscienceoperatingsysteminternalssim: SimDef = {
             { id: 's6', label: 'A file system manages data', prompt: 'Which idea is this? — A file system manages data as separate files on storage media, requiring application.', answer: 'A file system manages data', options: ['A file system manages data', 'E-Waste Electronic Waste refers to', 'Network security encompasses measures to', 'A firewall is a network'] }
           ] } }
     ],
-    explore: { component: C12_ComputerScienceOperatingSystemInternalsSim, prompt: 'Explore the interactive — Operating System Internals' },
+    explore: { component: C12_ComputerScienceOperatingSystemInternalsSim, prompt: 'Explore the interactive — E-Waste Management and Disposal' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_cs_cbse_13_003', difficulty: 'standard',
           question: 'E-Waste (Electronic Waste) refers to discarded electrical or electronic devices.',

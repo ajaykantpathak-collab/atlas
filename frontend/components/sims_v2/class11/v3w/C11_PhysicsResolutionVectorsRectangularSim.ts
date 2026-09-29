@@ -6,13 +6,13 @@ import C11_PhysicsResolutionVectorsRectangularSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsresolutionvectorsrectangularsim: SimDef = {
     id: 'v3w_c11_physicsresolutionvectorsrectangularsim',
-    title: 'Resolution Vectors Rectangular',
+    title: 'Addition of Vectors: Analytical Method (Components)',
     subtitle: 'Covers resolution of vectors into rectangular components in a plane (2D), addition and.',
     classLevel: 11, subject: 'physics', topic: 'Addition of Vectors: Analytical Method (Components)',
     chapters: [],
     nodeIds: ['c11_phy_cbse_03_003', 'c11_phy_cbse_03_004', 'c11_phy_cbse_03_001', 'c11_phy_cbse_03_002', 'c11_phy_cbse_03_005', 'c11_phy_cbse_04_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a kite flying at a 40° angle above the horizontal with a string tension of 15 N.', goal: 'Master Resolution Vectors Rectangular.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a kite flying at a 40° angle above the horizontal with a string tension of 15 N.', goal: 'Master Addition of Vectors: Analytical Method (Components).' },
     discovery: {
         question: 'State the x- and y-components of a force vector **F** = 20 N acting at an angle of 30° with the positive x-axis. Write the vector in unit vector notation.',
         options: ['Fₓ = 20 cos30° = 20 × (√3/2) = 10√3 ≈ 17.3 N, Fᵧ = 20 sin30° = 20 × 0.5 = 10 N', 'part of the vector', 'disappears'],
@@ -82,7 +82,7 @@ export const w_c11_physicsresolutionvectorsrectangularsim: SimDef = {
             { text: 'Verify: T₁ₓ = -51.96 N, T₂ₓ = 51.96 N → ΣFₓ = 0. T₁ᵧ = 30 N, T₂ᵧ = 90 N, W = -120 N → ΣFᵧ = 0.', faded: true, blankAnswer: 'T₁ = 60 N (left cable), T₂ = 60√3 N ≈ 103.9 N (right cable)' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_03_004', title: 'Identify each idea',
-          dissect: { specimen: 'Resolution Vectors Rectangular', spots: [
+          dissect: { specimen: 'Addition of Vectors: Analytical Method (Components)', spots: [
             { id: 's1', label: 'The analytical method of vector', prompt: 'Which idea is this? — The analytical method of vector addition resolves each vector into its rectangular.', answer: 'The analytical method of vector', options: ['The analytical method of vector', 'Resolution of vectors is the', 'A scalar is a physical', 'The graphical method of vector'] },
             { id: 's2', label: 'Resolution of vectors is the', prompt: 'Which idea is this? — Resolution of vectors is the process of splitting a single vector into two or more.', answer: 'Resolution of vectors is the', options: ['Resolution of vectors is the', 'The analytical method of vector', 'A scalar is a physical', 'The graphical method of vector'] },
             { id: 's3', label: 'A scalar is a physical', prompt: 'Which idea is this? — A scalar is a physical quantity completely specified by its magnitude (a single numerical.', answer: 'A scalar is a physical', options: ['A scalar is a physical', 'The analytical method of vector', 'Resolution of vectors is the', 'The graphical method of vector'] },
@@ -91,7 +91,7 @@ export const w_c11_physicsresolutionvectorsrectangularsim: SimDef = {
             { id: 's6', label: 'Equilibrium of a particle is', prompt: 'Which idea is this? — Equilibrium of a particle is the state in which the vector sum of all external forces.', answer: 'Equilibrium of a particle is', options: ['Equilibrium of a particle is', 'The analytical method of vector', 'Resolution of vectors is the', 'A scalar is a physical'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsResolutionVectorsRectangularSim, prompt: 'Explore the interactive — Resolution Vectors Rectangular' },
+    explore: { component: C11_PhysicsResolutionVectorsRectangularSim, prompt: 'Explore the interactive — Addition of Vectors: Analytical Method (Components)' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_03_003', difficulty: 'standard',
           question: 'The analytical method of vector addition resolves each vector into its.',

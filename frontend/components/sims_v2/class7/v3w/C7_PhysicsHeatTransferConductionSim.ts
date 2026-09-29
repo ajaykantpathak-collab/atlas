@@ -6,13 +6,13 @@ import C7_PhysicsHeatTransferConductionSim from '../../../simulations/c6_12/C7_P
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_physicsheattransferconductionsim: SimDef = {
     id: 'v3w_c7_physicsheattransferconductionsim',
-    title: 'Heat Transfer Conduction',
+    title: 'Conduction of Heat: Transfer Through Solids',
     subtitle: 'Covers heat transfer through solid objects via direct contact and molecular vibration.',
     classLevel: 7, subject: 'physics', topic: 'Conduction of Heat: Transfer Through Solids',
     chapters: [],
     nodeIds: ['c7_physics_ch03_002', 'c7_physics_ch03_003', 'c7_physics_ch03_004', 'c7_physics_ch03_006', 'c7_physics_ch03_007', 'c7_physics_ch03_010', 'c7_physics_ch03_001', 'c7_physics_ch03_008', 'c7_physics_ch03_005', 'c7_physics_ch01_006', 'c7_physics_ch01_007', 'c7_physics_ch01_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine touching a steel spoon left inside a hot bowl of dal—your hand immediately feels the heat.', goal: 'Master Heat Transfer Conduction.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine touching a steel spoon left inside a hot bowl of dal—your hand immediately feels the heat.', goal: 'Master Conduction of Heat: Transfer Through Solids.' },
     discovery: {
         question: 'Which method of heat transfer is primarily responsible for the handle of a metal frying pan staying relatively cool or being made of insulating plastic?',
         options: ['Conduction', 'radiation', 'produce'],
@@ -78,7 +78,7 @@ export const w_c7_physicsheattransferconductionsim: SimDef = {
             { text: 'Compute the final value with units: $\\Delta T = 20\\text{ °C}$, which represents the thermal driving force for.', faded: true, blankAnswer: '20 °C' }
             ] } },
         { type: 'dissect', nodeId: 'c7_physics_ch03_003', title: 'Identify each idea',
-          dissect: { specimen: 'Heat Transfer Conduction', spots: [
+          dissect: { specimen: 'Conduction of Heat: Transfer Through Solids', spots: [
             { id: 's1', label: 'Conduction is the process of', prompt: 'Which idea is this? — Conduction is the process of heat transfer through solid materials from particle to.', answer: 'Conduction is the process of', options: ['Conduction is the process of', 'Good and bad conductors of', 'Convection is the transfer of', 'Radiation is the process of'] },
             { id: 's2', label: 'Good and bad conductors of', prompt: 'Which idea is this? — Good and bad conductors of heat are classifications of materials based on how easily.', answer: 'Good and bad conductors of', options: ['Good and bad conductors of', 'Conduction is the process of', 'Convection is the transfer of', 'Radiation is the process of'] },
             { id: 's3', label: 'Convection is the transfer of', prompt: 'Which idea is this? — Convection is the transfer of heat energy through the actual movement of fluid particles.', answer: 'Convection is the transfer of', options: ['Convection is the transfer of', 'Conduction is the process of', 'Good and bad conductors of', 'Radiation is the process of'] },
@@ -87,7 +87,7 @@ export const w_c7_physicsheattransferconductionsim: SimDef = {
             { id: 's6', label: 'Applications of heat transfer involve', prompt: 'Which idea is this? — Applications of heat transfer involve using the principles of conduction, convection, and.', answer: 'Applications of heat transfer involve', options: ['Applications of heat transfer involve', 'Conduction is the process of', 'Good and bad conductors of', 'Convection is the transfer of'] }
           ] } }
     ],
-    explore: { component: C7_PhysicsHeatTransferConductionSim, prompt: 'Explore the interactive — Heat Transfer Conduction' },
+    explore: { component: C7_PhysicsHeatTransferConductionSim, prompt: 'Explore the interactive — Conduction of Heat: Transfer Through Solids' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_physics_ch03_002', difficulty: 'standard',
           question: 'Conduction is the process of heat transfer through solid materials from.',

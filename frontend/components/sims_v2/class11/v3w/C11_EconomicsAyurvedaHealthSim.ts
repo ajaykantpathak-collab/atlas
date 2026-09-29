@@ -6,13 +6,13 @@ import C11_EconomicsAyurvedaHealthSim from '../../../simulations/c6_12/C11_Econo
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_economicsayurvedahealthsim: SimDef = {
     id: 'v3w_c11_economicsayurvedahealthsim',
-    title: 'Ayurveda Health',
+    title: 'Sustainable Development in India: Policies and Programmes',
     subtitle: 'Covers major Central and State-level policies explicitly mentioned in NCERT Class 11.',
     classLevel: 11, subject: 'economics', topic: 'Sustainable Development in India: Policies and Programmes',
     chapters: [],
     nodeIds: ['c11_eco_cbse_07_010', 'c11_eco_cbse_07_003', 'c11_eco_cbse_07_004', 'c11_eco_cbse_07_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a policy advisor in 1998 Delhi, where the Supreme Court has just mandated conversion of all.', goal: 'Master Ayurveda Health.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a policy advisor in 1998 Delhi, where the Supreme Court has just mandated conversion of all.', goal: 'Master Sustainable Development in India: Policies and Programmes.' },
     discovery: {
         question: 'Name the three specific clean fuel programmes for rural and urban households mentioned in the NCERT Class 11 textbook as strategies for sustainable development.',
         options: ['The three programmes are: (1) Subsidised LPG for rural households to replace', 'electric vehicles', 'hydrogen fuel'],
@@ -66,14 +66,14 @@ export const w_c11_economicsayurvedahealthsim: SimDef = {
             { text: 'Total annual health cost = ₹305 crore + ₹0.575 crore = ₹305.575 crore ≈ ₹306 crore/year.', faded: true, blankAnswer: '₹306 crore per year (mortality: ₹305 crore, morbidity:.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_eco_cbse_07_003', title: 'Identify each idea',
-          dissect: { specimen: 'Ayurveda Health', spots: [
+          dissect: { specimen: 'Sustainable Development in India: Policies and Programmes', spots: [
             { id: 's1', label: 'Sustainable Development Policies and Programmes', prompt: 'Which idea is this? — Sustainable Development Policies and Programmes in India refer to the specific government.', answer: 'Sustainable Development Policies and Programmes', options: ['Sustainable Development Policies and Programmes', 'Water resources in the Indian', 'Air pollution refers to the', 'Environmental degradation refers to the'] },
             { id: 's2', label: 'Water resources in the Indian', prompt: 'Which idea is this? — Water resources in the Indian economic context refer to the stock and flow of freshwater.', answer: 'Water resources in the Indian', options: ['Water resources in the Indian', 'Sustainable Development Policies and Programmes', 'Air pollution refers to the', 'Environmental degradation refers to the'] },
             { id: 's3', label: 'Air pollution refers to the', prompt: 'Which idea is this? — Air pollution refers to the contamination of the atmosphere by harmful substances —.', answer: 'Air pollution refers to the', options: ['Air pollution refers to the', 'Sustainable Development Policies and Programmes', 'Water resources in the Indian', 'Environmental degradation refers to the'] },
             { id: 's4', label: 'Environmental degradation refers to the', prompt: 'Which idea is this? — Environmental degradation refers to the deterioration of environmental quality through.', answer: 'Environmental degradation refers to the', options: ['Environmental degradation refers to the', 'Sustainable Development Policies and Programmes', 'Water resources in the Indian', 'Air pollution refers to the'] }
           ] } }
     ],
-    explore: { component: C11_EconomicsAyurvedaHealthSim, prompt: 'Explore the interactive — Ayurveda Health' },
+    explore: { component: C11_EconomicsAyurvedaHealthSim, prompt: 'Explore the interactive — Sustainable Development in India: Policies and Programmes' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eco_cbse_07_010', difficulty: 'standard',
           question: 'Sustainable Development Policies and Programmes in India refer to the specific.',

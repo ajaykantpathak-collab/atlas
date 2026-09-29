@@ -19,7 +19,7 @@ export const c10_engl_ch11_p2: SimDef = {
         hook: 'The most valuable thing Anil gave Hari wasn\'t money — it was being treated as someone worth teaching. Stealing from a man who trusted him cost more than ₹600.',
     },
     teaching: [
-        { title: 'Character Analysis: Hari\'s Conflict Between Habit and Conscience', text: 'Character analysis of Hari\'s conflict between habit and conscience examines the psychological struggle within the protagonist where his ingrained professional behavior as a thief (habit) clashes with.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Character Analysis: Hari\'s Conflict Between Habit and Conscience', text: 'From \'The Thief\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c10_engl_cbse_11_007', title: 'Your mission',
@@ -61,7 +61,7 @@ export const c10_engl_ch11_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_engl_cbse_11_007', difficulty: 'standard',
-          question: 'Character analysis of Hari\'s conflict between habit and conscience examines the.',
+          question: 'From \'The Thief\': the skill or concept this node teaches, applied to the actual.',
           hint: 'Review "identifying internal monologue in first-person narration" from Class 9 character.',
           misconception: 'Students believe Hari\'s transformation follows a linear "bad to good" arc: he was a thief, then Anil taught him, then.',
           parts: [

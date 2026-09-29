@@ -6,13 +6,13 @@ import C12_MathematicsTypesRelationsReflexiveSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicstypesrelationsreflexivesim: SimDef = {
     id: 'v3w_c12_mathematicstypesrelationsreflexivesim',
-    title: 'Types Relations Reflexive',
+    title: 'Types of Relations: Reflexive, Symmetric, Transitive',
     subtitle: 'This node covers the definitions and verification methods for reflexive, symmetric, and.',
     classLevel: 12, subject: 'mathematics', topic: 'Types of Relations: Reflexive, Symmetric, Transitive',
     chapters: [],
     nodeIds: ['c12_math_cbse_01_001', 'c12_math_cbse_01_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are organising a school sports day and need to group students for relay races.', goal: 'Master Types Relations Reflexive.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are organising a school sports day and need to group students for relay races.', goal: 'Master Types of Relations: Reflexive, Symmetric, Transitive.' },
     discovery: {
         question: 'State the precise mathematical condition for a relation R on a set A to be reflexive. Use set notation and quantifiers.',
         options: ['A relation R on a set A is reflexive if ∀ a ∈ A, (a, a) ∈ R', 'R contains (1,1), (2,2)', 'reflexivity only requires some diagonal pairs, not all'],
@@ -44,12 +44,12 @@ export const w_c12_mathematicstypesrelationsreflexivesim: SimDef = {
             { text: 'Verify partition: (i) Classes are non-empty. (ii) Disjoint: no student can be in two classes.', faded: true, blankAnswer: 'R is an equivalence relation. Equivalence classes: C₁ =.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_01_002', title: 'Identify each idea',
-          dissect: { specimen: 'Types Relations Reflexive', spots: [
+          dissect: { specimen: 'Types of Relations: Reflexive, Symmetric, Transitive', spots: [
             { id: 's1', label: 'A relation R on a', prompt: 'Which idea is this? — A relation R on a set A is a subset of the Cartesian product A × A.', answer: 'A relation R on a', options: ['A relation R on a', 'An equivalence relation on a'] },
             { id: 's2', label: 'An equivalence relation on a', prompt: 'Which idea is this? — An equivalence relation on a set A is a relation R ⊆ A × A that satisfies three.', answer: 'An equivalence relation on a', options: ['An equivalence relation on a', 'A relation R on a'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsTypesRelationsReflexiveSim, prompt: 'Explore the interactive — Types Relations Reflexive' },
+    explore: { component: C12_MathematicsTypesRelationsReflexiveSim, prompt: 'Explore the interactive — Types of Relations: Reflexive, Symmetric, Transitive' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_01_001', difficulty: 'standard',
           question: 'A relation R on a set A is a subset of the Cartesian product A × A.',

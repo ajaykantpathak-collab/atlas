@@ -19,7 +19,7 @@ export const c12_eng_k_ch06_p1: SimDef = {
         hook: 'Metaphysical poetry argues through conceits, not pretty comparisons: morning shadows are the disguises lovers \'ourselves produced\'; afternoon shadows fall inward, blinding the deceivers. It\'s called a Lecture — the shadow is the syllabus.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" provides the essential historical, biographical, and literary framework needed to access a metaphysical poem.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'A Lecture Upon the Shadow\' (Kaleidoscope, ch. 6) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_06_001', title: 'Your mission',
@@ -29,35 +29,35 @@ export const c12_eng_k_ch06_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_06_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re handed a poem where "shadowes" and "Sunne" are spelled with an extra \'e\', and the poet compares love to the sun\'s movement — but claims love\'s.',
+          caseStudy: { intro: 'Start with the author of \'A Lecture Upon the Shadow\', then the period, then the literary context — background turns a text from a puzzle into a story you can.',
             decisions: [{ prompt: 'Define "metaphysical poetry" and name two characteristics that distinguish it from Elizabethan lyric poetry.', options: [
                 { text: 'Metaphysical poetry is a 17th-century style marked by intellectual complexity, extended', outcome: 'Metaphysical poetry is a 17th-century style marked by intellectual complexity, extended conceits.' },
                 { text: 'philosophical themes', outcome: 'Not quite — Students often think "metaphysical" means "abstract philosophy" and treat the poem as a static.', reveals: 'metaphysical-means-abstract-philosophy-and' },
                 { text: 'metaphysical', outcome: 'Not quite — Students often think "metaphysical" means "abstract philosophy" and treat the poem as a static.', reveals: 'metaphysical-means-abstract-philosophy-and' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_06_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are walking outdoors with someone you love on a bright morning. At first, your shadows stretch long beside you.',
+          caseStudy: { intro: 'Identify where and when \'A Lecture Upon the Shadow\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the literal, physical setting described in the first stanza of the poem?', options: [
                 { text: 'The literal setting is a walk taken by two lovers lasting three hours, during', outcome: 'The literal setting is a walk taken by two lovers lasting three hours, during which the sun rises.' },
                 { text: 'a garden at sunset', outcome: 'Not quite — Students often treat "setting" in poetry as merely a backdrop (e.g., "the poem is set outside") and.', reveals: 'students-often-treat-setting-in' },
                 { text: 'a room at night', outcome: 'Not quite — Students often treat "setting" in poetry as merely a backdrop (e.g., "the poem is set outside") and.', reveals: 'students-often-treat-setting-in' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_06_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re sitting in the exam hall and the question asks: "Analyze the character of the speaker in \'A Lecture Upon the Shadow\'." Don\'t panic.',
+          caseStudy: { intro: 'Pick the central figure in \'A Lecture Upon the Shadow\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'Who is the protagonist (speaker) in "A Lecture Upon the Shadow," and to whom is he speaking?', options: [
                 { text: 'The protagonist is the poetic persona', outcome: 'The protagonist is the poetic persona — a male speaker addressing his female beloved ("Love,".' },
                 { text: 'John Donne is the speaker', outcome: 'Not quite — Students often think the "protagonist" in a poem is the *poet* (John Donne) or the *beloved* (the.', reveals: 'the-protagonist-in-a-poem' },
                 { text: 'The beloved is the protagonist', outcome: 'Not quite — Students often think the "protagonist" in a poem is the *poet* (John Donne) or the *beloved* (the.', reveals: 'the-protagonist-in-a-poem' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_06_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are at a poetry reading where the poet speaks directly to someone you cannot see — the beloved. You wonder: who is this person?',
+          caseStudy: { intro: 'Spot the secondary figures in \'A Lecture Upon the Shadow\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'In "A Lecture Upon the Shadow", who is the primary addressee of the poem, and what term does the speaker use to address them in the first.', options: [
                 { text: 'The primary addressee is the beloved, addressed as "Love" in the first line: "Stand', outcome: 'The primary addressee is the beloved, addressed as "Love" in the first line: "Stand still, and.' },
                 { text: 'the sun', outcome: 'Not quite — Students often think "supporting characters" in a poem must be human figures who speak or act.', reveals: 'supporting-characters-in-a-poem' },
                 { text: 'the shadows', outcome: 'Not quite — Students often think "supporting characters" in a poem must be human figures who speak or act.', reveals: 'supporting-characters-in-a-poem' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_06_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are explaining this poem to a friend who says, "It\'s just about shadows and the sun." You\'d reply: "No, the shadows are a **code** for how love.',
+          caseStudy: { intro: 'Ask what \'A Lecture Upon the Shadow\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the difference between a **topic** and a **theme** in poetry?', options: [
                 { text: 'A topic is a one-word subject (e.g., "love," "shadows," "time")', outcome: 'A topic is a one-word subject (e.g., "love," "shadows," "time").' },
                 { text: 'Love and time', outcome: 'Not quite — Students often think the poem is **about the sun and shadows** and treat the love-element as mere.', reveals: 'the-poem-is-about-the' },
@@ -82,12 +82,12 @@ export const c12_eng_k_ch06_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" provides the essential historical.',
+          question: '\'A Lecture Upon the Shadow\' (Kaleidoscope, ch. 6) — the context and background.',
           hint: 'If stuck on the conceit\'s logic, review c11_eng_w_cbse_01_008 (Imagery and Metaphor).',
           misconception: 'Students often think "metaphysical" means "abstract philosophy" and treat the poem as a static description of love\'s.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" provides the essential historical,',
-                  options: ['"Before You Read: Context and Background" provides the essential historical,', 'In a metaphysical poem like Donne\'s "A Lecture Upon the Shadow", narrative structure', 'In poetry, **setting** refers to the temporal and spatial context established by the poet', 'Character analysis of the protagonist in a poem involves examining the speaker\'s persona'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'A Lecture Upon the Shadow\' (Kaleidoscope, ch',
+                  options: ['\'A Lecture Upon the Shadow\' (Kaleidoscope, ch', 'The plot/narrative arc of \'A Lecture Upon the Shadow\'', 'The setting of \'A Lecture Upon the Shadow\'', 'Character analysis in \'A Lecture Upon the Shadow\''],
                   hint: 'If stuck on the conceit\'s logic, review c11_eng_w_cbse_01_008 (Imagery and Metaphor) — specifically.',
                   misconception: 'Students often think "metaphysical" means "abstract philosophy" and treat the poem as a static description of love\'s stages.' }
           ],
@@ -104,18 +104,18 @@ export const c12_eng_k_ch06_p1: SimDef = {
           ],
             remediations: { 'metaphysical-means-abstract-philosophy-and': { steps: ['Revisit c11_eng_h_cbse_01_008 (Imagery and Metaphor) and c11_eng_w_cbse_01_008 to rebuild conceit analysis skills.', 'Re-read the NCERT "Understanding the Poem" Q1 and Q3: trace the shadow\'s behavior at three times (morning, noon.', 'Write a 50-word paraphrase of the poem\'s argument in modern English, then compare it to the original — note where.', 'Re-attempt Diagnostic Questions 2 and 3, speaking the reasoning aloud to catch where the conceit\'s reversal (shadows.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_002', difficulty: 'standard',
-          question: 'In a metaphysical poem like Donne\'s "A Lecture Upon the Shadow", narrative.',
+          question: 'The plot/narrative arc of \'A Lecture Upon the Shadow\' — what happens, in what.',
           hint: 'If stuck, review the concept of "conceit" in metaphysical poetry (Class 11 Woven Words.',
           misconception: 'Students often treat the poem as a simple description of shadows at three times of day, missing that the *entire poem.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'In a metaphysical poem like Donne\'s "A Lecture Upon the Shadow", narrative structure',
-                  options: ['In a metaphysical poem like Donne\'s "A Lecture Upon the Shadow", narrative structure', '"Before You Read: Context and Background" provides the essential historical,', 'In poetry, **setting** refers to the temporal and spatial context established by the poet', 'Character analysis of the protagonist in a poem involves examining the speaker\'s persona'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The plot/narrative arc of \'A Lecture Upon the Shadow\'',
+                  options: ['The plot/narrative arc of \'A Lecture Upon the Shadow\'', '\'A Lecture Upon the Shadow\' (Kaleidoscope, ch', 'The setting of \'A Lecture Upon the Shadow\'', 'Character analysis in \'A Lecture Upon the Shadow\''],
                   hint: 'If stuck, review the concept of "conceit" in metaphysical poetry (Class 11 Woven Words, Chapter 1).',
                   misconception: 'Students often treat the poem as a simple description of shadows at three times of day, missing that the *entire poem is an argument*.' }
           ],
             remediations: { 'students-often-treat-the-poem': { steps: ['Re-read the poem aloud, pausing at each time marker (morning, noon, afternoon).', 'Draw a timeline with three columns: Time / Shadow Position / Love Stage.', 'Fill it using only lines from the poem.', 'Write one sentence answering: "What does the speaker want the beloved to understand?" 5.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_003', difficulty: 'standard',
-          question: 'In poetry, **setting** refers to the temporal and spatial context established.',
+          question: 'The setting of \'A Lecture Upon the Shadow\' — the place, time and atmosphere the.',
           hint: 'Review Class 11 node **c11_eng_h_cbse_01_003** (Setting and Atmosphere) for the.',
           misconception: 'Students often treat "setting" in poetry as merely a backdrop (e.g., "the poem is set outside") and "atmosphere" as.',
           parts: [
@@ -130,7 +130,7 @@ export const c12_eng_k_ch06_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-setting-in': { steps: ['Have the student re-read the poem *only* for time markers and shadow descriptions, listing them in a three-column table.', 'Ask: "If this were a science demonstration, what is the independent variable?', '(Sun\'s altitude) What is the dependent variable?', '(Shadow length/direction)" 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a poem involves examining the.',
+          question: 'Character analysis in \'A Lecture Upon the Shadow\' — the central figure(s).',
           hint: 'If stuck, review "Speaker vs. Poet" and "Metaphysical Conceit" in c11_eng_w_cbse_01_004.',
           misconception: 'Students often think the "protagonist" in a poem is the *poet* (John Donne) or the *beloved* (the silent listener).',
           parts: [
@@ -149,7 +149,7 @@ export const c12_eng_k_ch06_p1: SimDef = {
           ],
             remediations: { 'the-protagonist-in-a-poem': { steps: ['Re-read the poem *only* for the speaker\'s verbs: "Stand still," "I will read," "we have spent," "we...', 'grow," "love hath not attain\'d," "Except our loves...', 'stay," "We shall new shadowes make." List them — notice how he centers *himself* as the knower.', 'Go to c11_eng_w_cbse_01_004 (Class 11 Woven Words Character Analysis: Protagonist) and re-do the "Speaker vs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves examining the roles.',
+          question: 'Supporting characters in \'A Lecture Upon the Shadow\' — the secondary figures.',
           hint: 'Review the definition of dramatic monologue and the protagonist analysis of the speaker.',
           misconception: 'Students often think "supporting characters" in a poem must be human figures who speak or act.',
           parts: [
@@ -160,7 +160,7 @@ export const c12_eng_k_ch06_p1: SimDef = {
           ],
             remediations: { 'supporting-characters-in-a-poem': { steps: ['If a student cannot identify supporting characters, guide them through these steps: 1) Re-read the poem marking every.', '2) Classify each: speaker, addressee, personified metaphor, abstract concept.', '3) For each non-speaker, ask: "What does this entity do in the poem?', 'How does the speaker describe its actions?" 4) Use the worked examples below as models.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_006', difficulty: 'standard',
-          question: 'The primary theme of a poem is its central, unifying idea or insight about.',
+          question: 'The primary theme of \'A Lecture Upon the Shadow\' — the central idea the whole.',
           hint: 'If stuck, revisit **c11_eng_w_cbse_06_006** (Class 11 Woven Words Chapter 6 primary.',
           misconception: 'Students often think the poem is **about the sun and shadows** and treat the love-element as mere decoration.',
           parts: [

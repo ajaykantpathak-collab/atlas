@@ -6,13 +6,13 @@ import C12_AppliedMathsRateChangeQuantitiesSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_appliedmathsratechangequantitiessim: SimDef = {
     id: 'v3w_c12_appliedmathsratechangequantitiessim',
-    title: 'Applied Maths Rate Change Quantities',
+    title: 'Rate of Change of Quantities',
     subtitle: 'This node covers: instantaneous rate of change dy/dx, chain rule for parametric rates.',
     classLevel: 12, subject: 'science', topic: 'Rate of Change of Quantities',
     chapters: [],
     nodeIds: ['c12_math_cbse_06_001', 'c12_math_cbse_06_006', 'c12_math_cbse_06_007', 'c12_math_cbse_05_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are filling a spherical balloon with helium at a steady rate of 900 cm³/s.', goal: 'Master Applied Maths Rate Change Quantities.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are filling a spherical balloon with helium at a steady rate of 900 cm³/s.', goal: 'Master Rate of Change of Quantities.' },
     discovery: {
         question: 'A cube\'s volume V = x³ where x is the edge length. If the volume increases at 9 cm³/s, a student writes dx/dt = 9 / (3x²) and then substitutes x = 10 to get.',
         options: ['Yes, the method and answer are correct', 'rate of change of volume', 'rate of change of edge'],
@@ -61,14 +61,14 @@ export const w_c12_appliedmathsratechangequantitiessim: SimDef = {
             { text: 'Interpret: At \\(t=2\\) s, the particle is moving forward (positive velocity) and speeding up (positive acceleration,.', faded: true, blankAnswer: 'Velocity = 6 m/s, Acceleration = 18 m/s². The particle is.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_06_006', title: 'Identify each idea',
-          dissect: { specimen: 'Applied Maths Rate Change Quantities', spots: [
+          dissect: { specimen: 'Rate of Change of Quantities', spots: [
             { id: 's1', label: 'The rate of change of', prompt: 'Which idea is this? — The rate of change of a quantity y with respect to another quantity x is defined as the.', answer: 'The rate of change of', options: ['The rate of change of', 'The differential of a function', 'Word problems on maxima and', 'The second order derivative of'] },
             { id: 's2', label: 'The differential of a function', prompt: 'Which idea is this? — The differential of a function y = f(x) is defined as dy = f\'(x) dx, where dx = Δx is a.', answer: 'The differential of a function', options: ['The differential of a function', 'The rate of change of', 'Word problems on maxima and', 'The second order derivative of'] },
             { id: 's3', label: 'Word problems on maxima and', prompt: 'Which idea is this? — Word problems on maxima and minima involve translating a real-world situation into a.', answer: 'Word problems on maxima and', options: ['Word problems on maxima and', 'The rate of change of', 'The differential of a function', 'The second order derivative of'] },
             { id: 's4', label: 'The second order derivative of', prompt: 'Which idea is this? — The second order derivative of a function \\(y = f(x)\\) is the derivative of its first.', answer: 'The second order derivative of', options: ['The second order derivative of', 'The rate of change of', 'The differential of a function', 'Word problems on maxima and'] }
           ] } }
     ],
-    explore: { component: C12_AppliedMathsRateChangeQuantitiesSim, prompt: 'Explore the interactive — Applied Maths Rate Change Quantities' },
+    explore: { component: C12_AppliedMathsRateChangeQuantitiesSim, prompt: 'Explore the interactive — Rate of Change of Quantities' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_06_001', difficulty: 'standard',
           question: 'The rate of change of a quantity y with respect to another quantity x is.',

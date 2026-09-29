@@ -6,13 +6,13 @@ import C10_MathematicsRealNumbersSim from '../../../simulations/c6_12/C10_Mathem
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_mathematicsrealnumberssim: SimDef = {
     id: 'v3w_c10_mathematicsrealnumberssim',
-    title: 'Real Numbers',
+    title: 'Finding HCF and LCM from Word Problems',
     subtitle: 'Covers word problems on HCF and LCM for two or three positive integers using the prime.',
     classLevel: 10, subject: 'mathematics', topic: 'Finding HCF and LCM from Word Problems',
     chapters: [],
     nodeIds: ['c10_math_cbse_01_012', 'c10_math_cbse_04_001', 'c10_math_cbse_04_002', 'c10_math_cbse_04_003', 'c10_math_cbse_04_010', 'c10_math_cbse_04_011', 'c10_math_cbse_05_003', 'c10_math_cbse_05_005', 'c10_math_cbse_05_007', 'c10_math_cbse_05_011', 'c10_math_cbse_05_012', 'c10_math_cbse_02_001', 'c10_math_cbse_02_003', 'c10_math_cbse_02_004', 'c10_math_cbse_02_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you are organising a school event: you have 144 chocolate bars and 192 juice boxes, and you want to.', goal: 'Master Real Numbers.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you are organising a school event: you have 144 chocolate bars and 192 juice boxes, and you want to.', goal: 'Master Finding HCF and LCM from Word Problems.' },
     discovery: {
         question: 'An APPLY level question: Three traffic lights change after 48 seconds, 72 seconds, and 108 seconds respectively.',
         options: ['Step 1: Identify numbers: 48, 72, 108', 'simultaneous repetition', 'maximum grouping'],
@@ -89,7 +89,7 @@ export const w_c10_mathematicsrealnumberssim: SimDef = {
             { text: 'Reject negative root. Breadth = 15 m, Length = 20 m.', faded: true, blankAnswer: 'Breadth = 15 m, Length = 20 m.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_math_cbse_04_001', title: 'Identify each idea',
-          dissect: { specimen: 'Real Numbers', spots: [
+          dissect: { specimen: 'Finding HCF and LCM from Word Problems', spots: [
             { id: 's1', label: 'Finding HCF and LCM from', prompt: 'Which idea is this? — Finding HCF and LCM from word problems involves translating a real-life situation into a.', answer: 'Finding HCF and LCM from', options: ['Finding HCF and LCM from', 'A quadratic equation in one', 'Forming a quadratic equation from', 'The method of solving a'] },
             { id: 's2', label: 'A quadratic equation in one', prompt: 'Which idea is this? — A quadratic equation in one variable x is an equation of the form ax² + bx + c = 0, where.', answer: 'A quadratic equation in one', options: ['A quadratic equation in one', 'Finding HCF and LCM from', 'Forming a quadratic equation from', 'The method of solving a'] },
             { id: 's3', label: 'Forming a quadratic equation from', prompt: 'Which idea is this? — Forming a quadratic equation from a real-life situation is the process of translating a.', answer: 'Forming a quadratic equation from', options: ['Forming a quadratic equation from', 'Finding HCF and LCM from', 'A quadratic equation in one', 'The method of solving a'] },
@@ -98,7 +98,7 @@ export const w_c10_mathematicsrealnumberssim: SimDef = {
             { id: 's6', label: 'Word problems involving quadratic equations', prompt: 'Which idea is this? — Word problems involving quadratic equations require translating a real-life situation.', answer: 'Word problems involving quadratic equations', options: ['Word problems involving quadratic equations', 'Finding HCF and LCM from', 'A quadratic equation in one', 'Forming a quadratic equation from'] }
           ] } }
     ],
-    explore: { component: C10_MathematicsRealNumbersSim, prompt: 'Explore the interactive — Real Numbers' },
+    explore: { component: C10_MathematicsRealNumbersSim, prompt: 'Explore the interactive — Finding HCF and LCM from Word Problems' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_math_cbse_01_012', difficulty: 'standard',
           question: 'Finding HCF and LCM from word problems involves translating a real-life.',

@@ -6,13 +6,13 @@ import C7_HistoryCivicsObjectivesJusticeLibertySim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_historycivicsobjectivesjusticelibertysim: SimDef = {
     id: 'v3w_c7_historycivicsobjectivesjusticelibertysim',
-    title: 'Objectives Justice Liberty',
+    title: 'Preamble to the Constitution: Values and Ideals',
     subtitle: 'Covers the meaning, values, and ideals enshrined in the Preamble to the Indian.',
     classLevel: 7, subject: 'history', topic: 'Preamble to the Constitution: Values and Ideals',
     chapters: [],
     nodeIds: ['c7_civ_ch02_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine you are reading the opening page of a thick, important book of rules for a school club, and the very.', goal: 'Master Objectives Justice Liberty.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine you are reading the opening page of a thick, important book of rules for a school club, and the very.', goal: 'Master Preamble to the Constitution: Values and Ideals.' },
     discovery: {
         question: 'What are the five key descriptive terms used in the Preamble to define the nature of the Indian State?',
         options: ['The correct answer is Sovereign, Socialist, Secular, Democratic, and Republic', 'Fundamental Rights', 'Justice, Liberty, Equality, Fraternity'],
@@ -33,7 +33,7 @@ export const w_c7_historycivicsobjectivesjusticelibertysim: SimDef = {
             { text: 'Conclude that the policy violates the Preamble\'s promise of Equality and Fraternity because it creates artificial.', faded: true, blankAnswer: 'The policy violates Equality and Fraternity because it.' }
             ] } }
     ],
-    explore: { component: C7_HistoryCivicsObjectivesJusticeLibertySim, prompt: 'Explore the interactive — Objectives Justice Liberty' },
+    explore: { component: C7_HistoryCivicsObjectivesJusticeLibertySim, prompt: 'Explore the interactive — Preamble to the Constitution: Values and Ideals' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_civ_ch02_010', difficulty: 'standard',
           question: 'The Preamble to the Indian Constitution is an introductory statement that.',

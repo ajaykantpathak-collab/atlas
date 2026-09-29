@@ -6,13 +6,13 @@ import C11_HomeScienceConceptGrowthDevelopmentSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_homescienceconceptgrowthdevelopmentsim: SimDef = {
     id: 'v3w_c11_homescienceconceptgrowthdevelopmentsim',
-    title: 'Home Science Concept Growth Development',
+    title: 'Puberty and Pubescence: Physical and Biological Changes',
     subtitle: 'This node covers the definitions of puberty and pubescence, the typical age ranges, the.',
     classLevel: 11, subject: 'science', topic: 'Puberty and Pubescence: Physical and Biological Changes',
     chapters: [],
     nodeIds: ['c11_hs_cbse_02_008', 'c11_hs_cbse_02_001', 'c11_hs_cbse_02_002', 'c11_hs_cbse_02_006', 'c11_hs_cbse_02_010', 'c11_hs_cbse_01_006', 'c11_hs_cbse_08_001', 'c11_hs_cbse_08_002', 'c11_hs_cbse_08_003', 'c11_hs_cbse_08_008', 'c11_hs_cbse_08_010', 'c11_hs_cbse_09_008', 'c11_hs_cbse_09_009', 'c11_hs_cbse_09_010', 'c11_hs_cbse_03_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are looking at two Class 11 students: Rohan, who has a deep voice and facial hair, and Priya, who.', goal: 'Master Home Science Concept Growth Development.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are looking at two Class 11 students: Rohan, who has a deep voice and facial hair, and Priya, who.', goal: 'Master Puberty and Pubescence: Physical and Biological Changes.' },
     discovery: {
         question: 'A Class 11 student claims, "Menarche is the first sign of puberty in girls." Using the NCERT sequence of changes for girls, explain why this statement is.',
         options: ['The statement is inaccurate', 'menarche', 'start of puberty'],
@@ -87,7 +87,7 @@ export const w_c11_homescienceconceptgrowthdevelopmentsim: SimDef = {
             { text: 'HEFS intervention leverage points — Nutrition: school meal + nutrition education; Clothing: low-cost adaptive garments;.', faded: true, blankAnswer: 'Rohan\'s case shows a turning point where biological.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_hs_cbse_02_001', title: 'Identify each idea',
-          dissect: { specimen: 'Home Science Concept Growth Development', spots: [
+          dissect: { specimen: 'Puberty and Pubescence: Physical and Biological Changes', spots: [
             { id: 's1', label: 'Puberty is the specific point', prompt: 'Which idea is this? — Puberty is the specific point in time when an individual attains sexual maturity, marked.', answer: 'Puberty is the specific point', options: ['Puberty is the specific point', 'The self is the totality', 'Self-concept is the cognitive-descriptive component', 'Adolescence is a critical period'] },
             { id: 's2', label: 'The self is the totality', prompt: 'Which idea is this? — The **self** is the totality of a person\'s experiences, ideas, thoughts, and feelings.', answer: 'The self is the totality', options: ['The self is the totality', 'Puberty is the specific point', 'Self-concept is the cognitive-descriptive component', 'Adolescence is a critical period'] },
             { id: 's3', label: 'Self-concept is the cognitive-descriptive component', prompt: 'Which idea is this? — Self-concept is the cognitive-descriptive component of the self, representing the.', answer: 'Self-concept is the cognitive-descriptive component', options: ['Self-concept is the cognitive-descriptive component', 'Puberty is the specific point', 'The self is the totality', 'Adolescence is a critical period'] },
@@ -96,7 +96,7 @@ export const w_c11_homescienceconceptgrowthdevelopmentsim: SimDef = {
             { id: 's6', label: 'Adolescence is a critical transitional', prompt: 'Which idea is this? — Adolescence is a critical transitional developmental stage (approximately 10-19 years).', answer: 'Adolescence is a critical transitional', options: ['Adolescence is a critical transitional', 'Puberty is the specific point', 'The self is the totality', 'Self-concept is the cognitive-descriptive component'] }
           ] } }
     ],
-    explore: { component: C11_HomeScienceConceptGrowthDevelopmentSim, prompt: 'Explore the interactive — Home Science Concept Growth Development' },
+    explore: { component: C11_HomeScienceConceptGrowthDevelopmentSim, prompt: 'Explore the interactive — Puberty and Pubescence: Physical and Biological Changes' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hs_cbse_02_008', difficulty: 'standard',
           question: 'Puberty is the specific point in time when an individual attains sexual.',

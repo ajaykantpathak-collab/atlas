@@ -19,43 +19,43 @@ export const c12_eng_k_ch08_p2: SimDef = {
         hook: 'Innocence isn\'t naivety and Experience isn\'t just cynicism — both live in one person at once. And Blake etched his poems into copper himself because the image is part of the argument: illuminated printing was rebellion against art made by machine.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the supporting ideas that run beneath the primary theme of a poem, enriching its meaning by exploring nuanced perspectives on human nature, society, spirituality, or morality.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Poems by Blake\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_08_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Hold both Blakes at once: read The Divine Image\'s prayer beside The Human Abstract\'s trap, then map how the same virtues become \'selfish loves\' when Experience twists them.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_08_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are listening to a friend describe a movie: "It\'s about good vs. evil" (primary theme).',
+          caseStudy: { intro: 'Look beneath the main theme of \'Poems by Blake\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'List two secondary themes present in "The Divine Image" and briefly state the textual evidence for each (e.g., specific lines or images).', options: [
                 { text: '**Correct Answer:** 1', outcome: '**Correct Answer:** 1. **Anthropomorphism of the Divine/Virtues**: The poem equates God and.' },
                 { text: 'as themes without a statement (e.g', outcome: 'Not quite — Students often treat secondary themes as **mere "sub-topics"** (e.g., "religion," "poverty,".', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_08_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are describing a nightmare to a friend: you don\'t just say "it was scary"; you say "the walls were dripping cold sweat" (tactile imagery) and "a.',
+          caseStudy: { intro: 'Find the lines in \'Poems by Blake\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "metaphor" and distinguish it from "simile" using the exact terminology of tenor and vehicle.', options: [
                 { text: 'A metaphor directly equates tenor (subject) and vehicle (image) without comparative words', outcome: 'A metaphor directly equates tenor (subject) and vehicle (image) without comparative words; a simile.' },
                 { text: 'metaphor uses like or as', outcome: 'Not quite — Students often treat imagery as "descriptive writing" and metaphor as "a fancy comparison".', reveals: 'students-often-treat-imagery-as' },
                 { text: 'says "metaphor uses like or as" reveals confusion with simile', outcome: 'Not quite — Students often treat imagery as "descriptive writing" and metaphor as "a fancy comparison".', reveals: 'students-often-treat-imagery-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_08_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading "The Human Abstract" and stumble on the line *"And the Caterpillar and Fly / Feed on the Mystery."* You know what a caterpillar is, but.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Poems by Blake\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'Identify **four abstract nouns** that are capitalized and personified in the first stanza of "The Divine Image" and state the human.', options: [
                 { text: 'The four capitalized abstract nouns in stanza 1 of "The Divine Image" are **Mercy, Pity,', outcome: 'The four capitalized abstract nouns in stanza 1 of "The Divine Image" are **Mercy, Pity, Peace, and.' },
                 { text: '\'God\' or \'Man\' or missing the explicit body-part mapping', outcome: 'Not quite — **Misconception:** "Vocabulary in context means looking up the dictionary definition of hard words.', reveals: 'misconception-vocabulary-in-context-means' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_08_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading a poem aloud and notice that certain words like "Mercy" and "Cruelty" are capitalized even though they are not at the start of a line.',
+          caseStudy: { intro: 'Read \'Poems by Blake\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'In "The Divine Image," the words Mercy, Pity, Peace, and Love are capitalized throughout.', options: [
                 { text: 'The capitalization transforms these abstract nouns into proper nouns, personifying them', outcome: 'The capitalization transforms these abstract nouns into proper nouns, personifying them as divine.' },
                 { text: 'they are at the start of a line', outcome: 'Not quite — Students often think "capitalization in poetry is just for emphasis" or "old poems use weird.', reveals: 'capitalization-in-poetry-is-just' },
                 { text: 'they are important words', outcome: 'Not quite — Students often think "capitalization in poetry is just for emphasis" or "old poems use weird.', reveals: 'capitalization-in-poetry-is-just' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_08_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall staring at this question: "How does Blake show that Mercy gets distorted in human experience?" Your mind goes blank — where.',
+          caseStudy: { intro: 'Answer \'Poems by Blake\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Define literal comprehension and inferential comprehension in your own words.', options: [
                 { text: 'Literal comprehension: retrieving information directly stated in the text (e.g., "What', outcome: 'Literal comprehension: retrieving information directly stated in the text (e.g., "What four virtues.' },
                 { text: 'inferential', outcome: 'Not quite — Students believe "inferential" means "subjective opinion" — they write "I think Mercy means.', reveals: 'inferential-means-subjective-opinion-they' },
@@ -75,12 +75,12 @@ export const c12_eng_k_ch08_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_08_007', difficulty: 'standard',
-          question: 'Secondary themes are the supporting ideas that run beneath the primary theme.',
+          question: 'Secondary themes in \'Poems by Blake\' — the supporting ideas and motifs that.',
           hint: 'If stuck, review the "Understanding the Poem" questions in the NCERT text (especially Q1.',
           misconception: 'Students often treat secondary themes as **mere "sub-topics"** (e.g., "religion," "poverty," "fear") rather than.',
           parts: [
@@ -93,9 +93,9 @@ export const c12_eng_k_ch08_p2: SimDef = {
                   hint: 'If stuck, review the "Understanding the Poem" questions in the NCERT text (especially Q1: "How are.',
                   misconception: 'Students often treat secondary themes as **mere "sub-topics"** (e.g., "religion," "poverty," "fear") rather than **thematic statements**.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student cannot generate thematic statements: 1.', '**Re-read both poems** and list every capitalized abstract noun (Mercy, Pity, Peace, Love, Cruelty, Humility, Mystery.', '**For each noun, complete this sentence**: "The poem suggests that [Noun] is actually ________." (e.g., "Pity.', '**Group the completions** into 3-4 clusters (e.g., "Virtues need victims," "Fear masquerades as peace," "Evil grows.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student cannot generate thematic statements: 1.', '**Re-read both poems** and list every capitalized abstract noun (Mercy, Pity, Peace, Love, Cruelty, Humility, Mystery.', '**For each noun, complete this sentence**: "The poem suggests that [Noun] is actually ________." (e.g., "Pity.', '**Group the completions** into 3-4 clusters (e.g., "Virtues need victims," "Fear masquerades as peace," "Evil grows.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_08_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Poems by Blake\' — the vivid, sensory language that creates.',
           hint: 'Review the difference between simile and metaphor using the Class 10 node.',
           misconception: 'Students often treat imagery as "descriptive writing" and metaphor as "a fancy comparison".',
           parts: [
@@ -108,9 +108,9 @@ export const c12_eng_k_ch08_p2: SimDef = {
                   hint: 'Review the difference between simile and metaphor using the Class 10 node c10_engl_cbse_03_007.',
                   misconception: 'Students often treat imagery as "descriptive writing" and metaphor as "a fancy comparison".' }
           ],
-            remediations: { 'students-often-treat-imagery-as': { steps: ['Re-read c11_eng_h_cbse_01_008 (Class 11 Imagery and Metaphor node) focusing on the "tenor/vehicle/grounds" framework.', 'Take the two poems and, for each metaphor, fill a three-column table: Tenor | Vehicle | Grounds (shared quality).', 'Re-attempt Diagnostic Questions 3 and 4 using the table.', 'If still stuck, watch a 10-minute video on "Blake\'s contrary states" and map each image to either Innocence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-imagery-as': { steps: ['Re-read c11_eng_h_cbse_01_008 (Class 11 Imagery and Metaphor node) focusing on the "tenor/vehicle/grounds" framework.', 'Take the two poems and, for each metaphor, fill a three-column table: Tenor | Vehicle | Grounds (shared quality).', 'Re-attempt Diagnostic Questions 3 and 4 using the table.', 'If still stuck, watch a 10-minute video on "Blake\'s contrary states" and map each image to either Innocence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_08_009', difficulty: 'standard',
-          question: 'Irony in Blake\'s paired poems is the structural contradiction where virtues.',
+          question: 'Irony and paradox in \'Poems by Blake\' — where opposite things are both true,.',
           hint: 'If stuck on "why is this irony not just sadness?", review the **"mutual fear brings.',
           misconception: '**Misconception:** "Irony in these poems is just that the second poem contradicts the first." **Why it\'s wrong:** That.',
           parts: [
@@ -119,9 +119,9 @@ export const c12_eng_k_ch08_p2: SimDef = {
                   hint: 'If stuck on "why is this irony not just sadness?", review the **"mutual fear brings peace"** stanza.',
                   misconception: '**Misconception:** "Irony in these poems is just that the second poem contradicts the first." **Why it\'s wrong:** That is **contrast**, not.' }
           ],
-            remediations: { 'misconception-irony-in-these-poems': { steps: ['**Revisit definitions**: Use c11_eng_h_cbse_01_009 (Class 11 Irony and Symbolism) — re-read the "Irony vs.', 'Coincidence" and "Symbol vs.', '**Micro-practice**: Take *one* stanza of *The Human Abstract* (e.g., stanza 2: "And mutual fear brings peace...").', 'Write three sentences: (a) What is the surface meaning?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'misconception-irony-in-these-poems': { steps: ['**Revisit definitions**: Use c11_eng_h_cbse_01_009 (Class 11 Irony and Symbolism) — re-read the "Irony vs.', 'Coincidence" and "Symbol vs.', '**Micro-practice**: Take *one* stanza of *The Human Abstract* (e.g., stanza 2: "And mutual fear brings peace...").', 'Write three sentences: (a) What is the surface meaning?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_08_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'Poems by Blake\' — the words and phrases you must know.',
           hint: 'If stuck, review **c11_eng_h_cbse_01_010** (Class 11 Hornbill Vocabulary in Context).',
           misconception: '**Misconception:** "Vocabulary in context means looking up the dictionary definition of hard words in the poem." **Why.',
           parts: [
@@ -130,9 +130,9 @@ export const c12_eng_k_ch08_p2: SimDef = {
                   hint: 'If stuck, review **c11_eng_h_cbse_01_010** (Class 11 Hornbill Vocabulary in Context) — specifically.',
                   misconception: '**Misconception:** "Vocabulary in context means looking up the dictionary definition of hard words in the poem." **Why it\'s wrong:**.' }
           ],
-            remediations: { 'misconception-vocabulary-in-context-means': { steps: ['If a student cannot distinguish dictionary meaning from poetic function: 1.', '**Revisit** the capitalization pattern: have them list *every* capitalized common noun in both poems side-by-side.', 'Cruelty/Humility/Mystery/Deceit/Raven).', '**Model** a "Word Autopsy" on one pair (e.g., \'Peace\'): In Poem 1 → "human dress" (protective, worn by all).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'misconception-vocabulary-in-context-means': { steps: ['If a student cannot distinguish dictionary meaning from poetic function: 1.', '**Revisit** the capitalization pattern: have them list *every* capitalized common noun in both poems side-by-side.', 'Cruelty/Humility/Mystery/Deceit/Raven).', '**Model** a "Word Autopsy" on one pair (e.g., \'Peace\'): In Poem 1 → "human dress" (protective, worn by all).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_08_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the systematic study of how.',
+          question: 'Language and style in \'Poems by Blake\' — how the writer chose words, sentences.',
           hint: 'If stuck, review Class 6 Grammar: Nouns and Pronouns (c6_english_u1_008) for noun types.',
           misconception: 'Students often think "capitalization in poetry is just for emphasis" or "old poems use weird grammar because English.',
           parts: [
@@ -141,7 +141,7 @@ export const c12_eng_k_ch08_p2: SimDef = {
                   hint: 'If stuck, review Class 6 Grammar: Nouns and Pronouns (c6_english_u1_008) for noun types, and Class.',
                   misconception: 'Students often think "capitalization in poetry is just for emphasis" or "old poems use weird grammar because English was different then.".' }
           ],
-            remediations: { 'capitalization-in-poetry-is-just': { steps: ['Revisit c12_eng_k_cbse_08_010 (Vocabulary in Context) to review the list of capitalized words in both poems.', 'Practice scanning iambic meter using the first stanza of "The Divine Image" with a metronome or finger-tapping.', 'Complete a T-chart: left column "Divine Image capitalized words," right column "Human Abstract capitalized words".', 'Re-attempt Diagnostic Questions 1 and 5 after the T-chart.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'capitalization-in-poetry-is-just': { steps: ['Revisit c12_eng_k_cbse_08_010 (Vocabulary in Context) to review the list of capitalized words in both poems.', 'Practice scanning iambic meter using the first stanza of "The Divine Image" with a metronome or finger-tapping.', 'Complete a T-chart: left column "Divine Image capitalized words," right column "Human Abstract capitalized words".', 'Re-attempt Diagnostic Questions 1 and 5 after the T-chart.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_08_011', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -152,9 +152,9 @@ export const c12_eng_k_ch08_p2: SimDef = {
                   hint: 'If stuck, review Class 6 Grammar: Nouns and Pronouns (c6_english_u1_008) for noun types, and Class.',
                   misconception: 'Students often think "capitalization in poetry is just for emphasis" or "old poems use weird grammar because English was different then.".' }
           ],
-            remediations: { 'capitalization-in-poetry-is-just': { steps: ['Revisit c12_eng_k_cbse_08_010 (Vocabulary in Context) to review the list of capitalized words in both poems.', 'Practice scanning iambic meter using the first stanza of "The Divine Image" with a metronome or finger-tapping.', 'Complete a T-chart: left column "Divine Image capitalized words," right column "Human Abstract capitalized words".', 'Re-attempt Diagnostic Questions 1 and 5 after the T-chart.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'capitalization-in-poetry-is-just': { steps: ['Revisit c12_eng_k_cbse_08_010 (Vocabulary in Context) to review the list of capitalized words in both poems.', 'Practice scanning iambic meter using the first stanza of "The Divine Image" with a metronome or finger-tapping.', 'Complete a T-chart: left column "Divine Image capitalized words," right column "Human Abstract capitalized words".', 'Re-attempt Diagnostic Questions 1 and 5 after the T-chart.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_08_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require retrieving explicitly stated.',
+          question: 'Literal comprehension of \'Poems by Blake\' — questions answered straight from.',
           hint: 'If stuck on inferential questions, return to c12_eng_k_cbse_08_008 (Imagery and Metaphor).',
           misconception: 'Students believe "inferential" means "subjective opinion" — they write "I think Mercy means kindness" instead of "The.',
           parts: [
@@ -167,7 +167,7 @@ export const c12_eng_k_ch08_p2: SimDef = {
                   hint: 'If stuck on inferential questions, return to c12_eng_k_cbse_08_008 (Imagery and Metaphor) and.',
                   misconception: 'Students believe "inferential" means "subjective opinion" — they write "I think Mercy means kindness" instead of "The poem shows Mercy has.' }
           ],
-            remediations: { 'inferential-means-subjective-opinion-they': { steps: ['Have the student take any 5 questions from NCERT "Understanding the Poem" (p.', 'For each I question, force the student to write: "Evidence 1: [quote]; Evidence 2: [quote]; Therefore: [inference]."', 'Give them a fresh stanza (e.g., from "The Chimney Sweeper" pair) and ask them to generate 2 L and 2 I questions with.', 'Re-diagnose using Diagnostic Questions 3 and 4 above.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'inferential-means-subjective-opinion-they': { steps: ['Have the student take any 5 questions from NCERT "Understanding the Poem" (p.', 'For each I question, force the student to write: "Evidence 1: [quote]; Evidence 2: [quote]; Therefore: [inference]."', 'Give them a fresh stanza (e.g., from "The Chimney Sweeper" pair) and ask them to generate 2 L and 2 I questions with.', 'Re-diagnose using Diagnostic Questions 3 and 4 above.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

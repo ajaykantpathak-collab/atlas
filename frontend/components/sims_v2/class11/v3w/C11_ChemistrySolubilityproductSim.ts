@@ -6,13 +6,13 @@ import C11_ChemistrySolubilityproductSim from '../../../simulations/c6_12/C11_Ch
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_chemistrysolubilityproductsim: SimDef = {
     id: 'v3w_c11_chemistrysolubilityproductsim',
-    title: 'Solubilityproduct',
+    title: 'Solubility Product: Ksp and Common Ion Effect',
     subtitle: 'Covers Ksp expressions and calculations for sparingly soluble salts (e.g., AgCl, BaSO4,.',
     classLevel: 11, subject: 'chemistry', topic: 'Solubility Product: Ksp and Common Ion Effect',
     chapters: [],
     nodeIds: ['c11_chem_cbse_07_014', 'c11_chem_cbse_09_004', 'c11_chem_cbse_04_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe what happens when you add a few drops of concentrated hydrochloric acid to a saturated solution of.', goal: 'Master Solubilityproduct.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe what happens when you add a few drops of concentrated hydrochloric acid to a saturated solution of.', goal: 'Master Solubility Product: Ksp and Common Ion Effect.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'The solubility product (Ksp) is the.', text: 'The solubility product (Ksp) is the equilibrium constant for the dissolution of a sparingly soluble ionic salt in water, expressed as the product of the molar concentrations of its constituent ions,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -47,13 +47,13 @@ export const w_c11_chemistrysolubilityproductsim: SimDef = {
             { text: 'Conclude that the presence of an H-bond donor (O–H) is the decisive factor; mere presence of O or F as acceptor is.', faded: true, blankAnswer: 'Ethanol\'s high boiling point (78 °C) is due to extensive.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_chem_cbse_09_004', title: 'Identify each idea',
-          dissect: { specimen: 'Solubilityproduct', spots: [
+          dissect: { specimen: 'Solubility Product: Ksp and Common Ion Effect', spots: [
             { id: 's1', label: 'The solubility product Ksp is', prompt: 'Which idea is this? — The solubility product (Ksp) is the equilibrium constant for the dissolution of a.', answer: 'The solubility product Ksp is', options: ['The solubility product Ksp is', 'Dihydrogen H is the molecular', 'Hydrogen bonding is a special'] },
             { id: 's2', label: 'Dihydrogen H is the molecular', prompt: 'Which idea is this? — Dihydrogen (H₂) is the molecular form of hydrogen element, existing as a colorless,.', answer: 'Dihydrogen H is the molecular', options: ['Dihydrogen H is the molecular', 'The solubility product Ksp is', 'Hydrogen bonding is a special'] },
             { id: 's3', label: 'Hydrogen bonding is a special', prompt: 'Which idea is this? — Hydrogen bonding is a special type of dipole-dipole interaction that occurs when a.', answer: 'Hydrogen bonding is a special', options: ['Hydrogen bonding is a special', 'The solubility product Ksp is', 'Dihydrogen H is the molecular'] }
           ] } }
     ],
-    explore: { component: C11_ChemistrySolubilityproductSim, prompt: 'Explore the interactive — Solubilityproduct' },
+    explore: { component: C11_ChemistrySolubilityproductSim, prompt: 'Explore the interactive — Solubility Product: Ksp and Common Ion Effect' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_chem_cbse_07_014', difficulty: 'standard',
           question: 'The solubility product (Ksp) is the equilibrium constant for the dissolution of.',

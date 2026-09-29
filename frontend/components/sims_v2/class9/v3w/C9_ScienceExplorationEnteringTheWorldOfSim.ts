@@ -6,13 +6,13 @@ import C9_ScienceExplorationEnteringTheWorldOfSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_scienceexplorationenteringtheworldofsim: SimDef = {
     id: 'v3w_c9_scienceexplorationenteringtheworldofsim',
-    title: 'Exploration Entering The World Of',
+    title: 'Science as a Systematic Study of Nature',
     subtitle: 'This node covers the philosophical and methodological foundations that distinguish.',
     classLevel: 9, subject: 'science', topic: 'Science as a Systematic Study of Nature',
     chapters: [],
     nodeIds: ['c9_physics_ch1_1', 'c9_physics_ch1_10'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Look at the ceiling fan above you — it rotates at a steady speed, but have you wondered how we *know* the.', goal: 'Master Exploration Entering The World Of.' },
+    scenario: { role: 'a class 9 learner', intro: 'Look at the ceiling fan above you — it rotates at a steady speed, but have you wondered how we *know* the.', goal: 'Master Science as a Systematic Study of Nature.' },
     discovery: {
         question: 'A student says: "My grandmother knows that tulsi leaves cure fever because she has seen it work many times.',
         options: ['No, the student is not correct', 'systematic', 'step-by-step procedure'],
@@ -42,12 +42,12 @@ export const w_c9_scienceexplorationenteringtheworldofsim: SimDef = {
             { text: 'Verify reasonableness: 75.6 metric tonnes of water per day from a 2 kW system is plausible for irrigation of a small.', faded: true, blankAnswer: '7.56 × 10⁴ kg/day' }
             ] } },
         { type: 'dissect', nodeId: 'c9_physics_ch1_10', title: 'Identify each idea',
-          dissect: { specimen: 'Exploration Entering The World Of', spots: [
+          dissect: { specimen: 'Science as a Systematic Study of Nature', spots: [
             { id: 's1', label: 'Science as a systematic study', prompt: 'Which idea is this? — Science as a systematic study of nature is the organized, evidence-based enterprise that.', answer: 'Science as a systematic study', options: ['Science as a systematic study', 'Science and Society Impact on'] },
             { id: 's2', label: 'Science and Society Impact on', prompt: 'Which idea is this? — Science and Society: Impact on Daily Life refers to the bidirectional relationship where.', answer: 'Science and Society Impact on', options: ['Science and Society Impact on', 'Science as a systematic study'] }
           ] } }
     ],
-    explore: { component: C9_ScienceExplorationEnteringTheWorldOfSim, prompt: 'Explore the interactive — Exploration Entering The World Of' },
+    explore: { component: C9_ScienceExplorationEnteringTheWorldOfSim, prompt: 'Explore the interactive — Science as a Systematic Study of Nature' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_physics_ch1_1', difficulty: 'standard',
           question: 'Science as a systematic study of nature is the organized, evidence-based.',

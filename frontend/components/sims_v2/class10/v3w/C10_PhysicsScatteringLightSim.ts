@@ -6,13 +6,13 @@ import C10_PhysicsScatteringLightSim from '../../../simulations/c6_12/C10_Physic
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_physicsscatteringlightsim: SimDef = {
     id: 'v3w_c10_physicsscatteringlightsim',
-    title: 'Scattering Light',
+    title: 'Image Formation by Concave Mirror: Ray Diagrams for All Positions',
     subtitle: 'Covers qualitative ray diagram construction and image characteristic description for.',
     classLevel: 10, subject: 'physics', topic: 'Image Formation by Concave Mirror: Ray Diagrams for All Positions',
     chapters: [],
     nodeIds: ['c10_phy_cbse_04_003', 'c10_phy_cbse_04_005', 'c10_phy_cbse_04_006', 'c10_phy_cbse_04_007', 'c10_phy_cbse_04_008', 'c10_phy_cbse_04_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Observe the concave mirror in your school laboratory or a shiny metal spoon\'s inner surface — notice how your.', goal: 'Master Scattering Light.' },
+    scenario: { role: 'a class 10 learner', intro: 'Observe the concave mirror in your school laboratory or a shiny metal spoon\'s inner surface — notice how your.', goal: 'Master Image Formation by Concave Mirror: Ray Diagrams for All Positions.' },
     discovery: {
         question: 'State the mirror formula and magnification formula for spherical mirrors.',
         options: ['Mirror formula: 1/f = 1/v + 1/u', 'magnification 2', 'positive m always means virtual image'],
@@ -80,7 +80,7 @@ export const w_c10_physicsscatteringlightsim: SimDef = {
             { text: 'Interpret: Negative power → concave lens → corrects myopia (nearsightedness).', faded: true, blankAnswer: 'f = -40 cm; concave lens; corrects myopia.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_phy_cbse_04_005', title: 'Identify each idea',
-          dissect: { specimen: 'Scattering Light', spots: [
+          dissect: { specimen: 'Image Formation by Concave Mirror: Ray Diagrams for All Positions', spots: [
             { id: 's1', label: 'Image formation by a concave', prompt: 'Which idea is this? — Image formation by a concave mirror is the process of locating the position, size, nature.', answer: 'Image formation by a concave', options: ['Image formation by a concave', 'The mirror formula is a', 'Refraction of light is the', 'The absolute refractive index of'] },
             { id: 's2', label: 'The mirror formula is a', prompt: 'Which idea is this? — The mirror formula is a mathematical relationship connecting object distance (u), image.', answer: 'The mirror formula is a', options: ['The mirror formula is a', 'Image formation by a concave', 'Refraction of light is the', 'The absolute refractive index of'] },
             { id: 's3', label: 'Refraction of light is the', prompt: 'Which idea is this? — Refraction of light is the bending of a light ray when it passes obliquely from one.', answer: 'Refraction of light is the', options: ['Refraction of light is the', 'Image formation by a concave', 'The mirror formula is a', 'The absolute refractive index of'] },
@@ -89,7 +89,7 @@ export const w_c10_physicsscatteringlightsim: SimDef = {
             { id: 's6', label: 'The power of a lens', prompt: 'Which idea is this? — The power of a lens is a measure of its ability to converge or diverge light rays,.', answer: 'The power of a lens', options: ['The power of a lens', 'Image formation by a concave', 'The mirror formula is a', 'Refraction of light is the'] }
           ] } }
     ],
-    explore: { component: C10_PhysicsScatteringLightSim, prompt: 'Explore the interactive — Scattering Light' },
+    explore: { component: C10_PhysicsScatteringLightSim, prompt: 'Explore the interactive — Image Formation by Concave Mirror: Ray Diagrams for All Positions' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_phy_cbse_04_003', difficulty: 'standard',
           question: 'Image formation by a concave mirror is the process of locating the position,.',

@@ -6,13 +6,13 @@ import C12_MathematicsDerivativesParametricFunctionsSim from '../../../simulatio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicsderivativesparametricfunctionssim: SimDef = {
     id: 'v3w_c12_mathematicsderivativesparametricfunctionssim',
-    title: 'Derivatives Parametric Functions',
+    title: 'Rate of Change of Quantities',
     subtitle: 'This node covers: instantaneous rate of change dy/dx, chain rule for parametric rates.',
     classLevel: 12, subject: 'mathematics', topic: 'Rate of Change of Quantities',
     chapters: [],
     nodeIds: ['c12_math_cbse_06_001', 'c12_math_cbse_06_008', 'c12_math_cbse_05_004', 'c12_math_cbse_05_005', 'c12_math_cbse_05_006', 'c12_math_cbse_05_007', 'c12_math_cbse_05_009', 'c12_math_cbse_05_010', 'c12_math_cbse_05_011', 'c12_math_cbse_06_002', 'c12_math_cbse_06_003', 'c12_math_cbse_06_004', 'c12_math_cbse_06_007', 'c12_math_cbse_07_010', 'c12_math_cbse_06_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are filling a spherical balloon with helium at a steady rate of 900 cm³/s.', goal: 'Master Derivatives Parametric Functions.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are filling a spherical balloon with helium at a steady rate of 900 cm³/s.', goal: 'Master Rate of Change of Quantities.' },
     discovery: {
         question: 'A cube\'s volume V = x³ where x is the edge length. If the volume increases at 9 cm³/s, a student writes dx/dt = 9 / (3x²) and then substitutes x = 10 to get.',
         options: ['Yes, the method and answer are correct', 'rate of change of volume', 'rate of change of edge'],
@@ -78,7 +78,7 @@ export const w_c12_mathematicsderivativesparametricfunctionssim: SimDef = {
             { text: 'Substitute the point (6, 8): dy/dx = -6/8 = -3/4. The negative slope means the track curves downward as x increases; a.', faded: true, blankAnswer: 'dy/dx = -3/4 at (6, 8). Slope is -0.75 (dimensionless).' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_06_008', title: 'Identify each idea',
-          dissect: { specimen: 'Derivatives Parametric Functions', spots: [
+          dissect: { specimen: 'Rate of Change of Quantities', spots: [
             { id: 's1', label: 'The rate of change of', prompt: 'Which idea is this? — The rate of change of a quantity y with respect to another quantity x is defined as the.', answer: 'The rate of change of', options: ['The rate of change of', 'A critical point of a', 'A function f', 'The chain rule states that'] },
             { id: 's2', label: 'A critical point of a', prompt: 'Which idea is this? — A **critical point** of a function \\( f(x) \\) is a point \\( x = c \\) in the domain of \\(.', answer: 'A critical point of a', options: ['A critical point of a', 'The rate of change of', 'A function f', 'The chain rule states that'] },
             { id: 's3', label: 'A function f', prompt: 'Which idea is this? — A function \\( f \\) is differentiable at a point \\( c \\) in its domain if the limit \\(.', answer: 'A function f', options: ['A function f', 'The rate of change of', 'A critical point of a', 'The chain rule states that'] },
@@ -86,7 +86,7 @@ export const w_c12_mathematicsderivativesparametricfunctionssim: SimDef = {
             { id: 's5', label: 'An implicit function is a', prompt: 'Which idea is this? — An implicit function is a relationship between variables x and y expressed as f(x, y) = 0.', answer: 'An implicit function is a', options: ['An implicit function is a', 'The rate of change of', 'A critical point of a', 'A function f'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsDerivativesParametricFunctionsSim, prompt: 'Explore the interactive — Derivatives Parametric Functions' },
+    explore: { component: C12_MathematicsDerivativesParametricFunctionsSim, prompt: 'Explore the interactive — Rate of Change of Quantities' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_06_001', difficulty: 'standard',
           question: 'The rate of change of a quantity y with respect to another quantity x is.',

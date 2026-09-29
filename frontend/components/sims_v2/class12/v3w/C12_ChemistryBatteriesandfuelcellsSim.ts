@@ -6,13 +6,13 @@ import C12_ChemistryBatteriesandfuelcellsSim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_chemistrybatteriesandfuelcellssim: SimDef = {
     id: 'v3w_c12_chemistrybatteriesandfuelcellssim',
-    title: 'Batteriesandfuelcells',
+    title: 'Electrochemical Cells: Galvanic and Electrolytic',
     subtitle: 'Covers: construction and working of galvanic cells (Daniell cell as primary example),.',
     classLevel: 12, subject: 'chemistry', topic: 'Electrochemical Cells: Galvanic and Electrolytic',
     chapters: [],
     nodeIds: ['c12_chem_cbse_02_001', 'c12_chem_cbse_02_007', 'c12_chem_cbse_02_008', 'c12_chem_cbse_02_009', 'c12_chem_cbse_02_002', 'c12_chem_cbse_02_003', 'c12_chem_cbse_02_004', 'c12_chem_cbse_02_005', 'c12_chem_cbse_02_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a simple Daniell cell in the lab: a zinc rod in ZnSO₄ solution and a copper rod in CuSO₄ solution.', goal: 'Master Batteriesandfuelcells.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a simple Daniell cell in the lab: a zinc rod in ZnSO₄ solution and a copper rod in CuSO₄ solution.', goal: 'Master Electrochemical Cells: Galvanic and Electrolytic.' },
     discovery: {
         question: 'Explain why the voltage of a mercury cell remains constant throughout its life while a dry cell voltage decreases gradually.',
         options: ['Mercury cell overall reaction: Zn(Hg) + HgO(s) → ZnO(s) + Hg(l)', 'mercury cell has no electrolyte', 'dry cell has no concentration change'],
@@ -79,7 +79,7 @@ export const w_c12_chemistrybatteriesandfuelcellssim: SimDef = {
             { text: 'Apply Nernst equation at 298 K: Ecell = E°cell - (0.059/n) log Q = 1.05 - (0.059/2) log(40000).', faded: true, blankAnswer: 'Ecell = 0.91 V' }
             ] } },
         { type: 'dissect', nodeId: 'c12_chem_cbse_02_007', title: 'Identify each idea',
-          dissect: { specimen: 'Batteriesandfuelcells', spots: [
+          dissect: { specimen: 'Electrochemical Cells: Galvanic and Electrolytic', spots: [
             { id: 's1', label: 'An electrochemical cell is a', prompt: 'Which idea is this? — An electrochemical cell is a device that interconverts chemical energy and electrical.', answer: 'An electrochemical cell is a', options: ['An electrochemical cell is a', 'Faradays laws of electrolysis establish', 'A battery is a galvanic', 'A hydrogen-oxygen fuel cell is'] },
             { id: 's2', label: 'Faradays laws of electrolysis establish', prompt: 'Which idea is this? — Faraday\'s laws of electrolysis establish the quantitative relationship between the amount.', answer: 'Faradays laws of electrolysis establish', options: ['Faradays laws of electrolysis establish', 'An electrochemical cell is a', 'A battery is a galvanic', 'A hydrogen-oxygen fuel cell is'] },
             { id: 's3', label: 'A battery is a galvanic', prompt: 'Which idea is this? — A battery is a galvanic cell (or series of galvanic cells) that converts chemical energy.', answer: 'A battery is a galvanic', options: ['A battery is a galvanic', 'An electrochemical cell is a', 'Faradays laws of electrolysis establish', 'A hydrogen-oxygen fuel cell is'] },
@@ -88,7 +88,7 @@ export const w_c12_chemistrybatteriesandfuelcellssim: SimDef = {
             { id: 's6', label: 'The Nernst equation quantitatively relates', prompt: 'Which idea is this? — The Nernst equation quantitatively relates the electrode potential of a half-cell (or the.', answer: 'The Nernst equation quantitatively relates', options: ['The Nernst equation quantitatively relates', 'An electrochemical cell is a', 'Faradays laws of electrolysis establish', 'A battery is a galvanic'] }
           ] } }
     ],
-    explore: { component: C12_ChemistryBatteriesandfuelcellsSim, prompt: 'Explore the interactive — Batteriesandfuelcells' },
+    explore: { component: C12_ChemistryBatteriesandfuelcellsSim, prompt: 'Explore the interactive — Electrochemical Cells: Galvanic and Electrolytic' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_chem_cbse_02_001', difficulty: 'standard',
           question: 'An electrochemical cell is a device that interconverts chemical energy and.',

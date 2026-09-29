@@ -19,51 +19,51 @@ export const c12_eng_k_ch11_p1: SimDef = {
         hook: '\'Nineteenth autumn\' is arithmetic with memory: 1916 minus nineteen lands on 1897, the year he met Lady Gregory — and in 1916 the Easter Rising and his final rejection arrived together. Without that scaffold the poem is pretty birds; with it, an elegy for a vanishing world.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" refers to the essential biographical, historical, literary, and geographical information about the poet W.B.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Wild Swans at Coole\' (Kaleidoscope, ch. 11) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_11_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Make the count with him: fix the autumn arithmetic, weigh public collapse against private loss, and trace how the swans\' sudden flight \'scattering wheeling\' becomes everything he can no longer hold.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_11_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are meeting a new classmate who seems quiet and intense. You\'d want to know: Where are they from? What have they been through?',
+          caseStudy: { intro: 'Start with the author of \'The Wild Swans at Coole\', then the period, then the literary context — background turns a text from a puzzle into a story you can.',
             decisions: [{ prompt: 'Who was W.B. Yeats, and what major literary honor did he receive in 1923?', options: [
                 { text: 'W.B', outcome: 'W.B. Yeats (1865–1939) was an Irish poet, dramatist, and mystic, a driving force of the Irish.' },
                 { text: 'context', outcome: 'Not quite — Students often think "context" means memorizing dates (1865, 1923, 1916) and names (Lady Gregory.', reveals: 'context-means-memorizing-dates-1865' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_11_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re watching a film that opens with a beautiful lake scene, then cuts to a flashback of the same place 19 years earlier, then returns to the present.',
+          caseStudy: { intro: 'Trace \'The Wild Swans at Coole\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the primary temporal shift that occurs between stanza 1 and stanza 2 of "The Wild Swans at Coole"?', options: [
                 { text: 'Stanza 1 establishes the present moment ("October twilight," "now"), while stanza 2 jumps', outcome: 'Stanza 1 establishes the present moment ("October twilight," "now"), while stanza 2 jumps back 19.' },
                 { text: 'no shift', outcome: 'Not quite — Students treat "plot" in poetry as a sequence of physical events (like a story) and therefore claim.', reveals: 'students-treat-plot-in-poetry' },
                 { text: 'shift to future', outcome: 'Not quite — Students treat "plot" in poetry as a sequence of physical events (like a story) and therefore claim.', reveals: 'students-treat-plot-in-poetry' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_11_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you visit your childhood park after twenty years — the trees are taller, the paths feel narrower, and a quiet sadness mixes with nostalgia.',
+          caseStudy: { intro: 'Identify where and when \'The Wild Swans at Coole\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the difference between \'setting\' and \'atmosphere\' in a poem? Give a one-sentence distinction.', options: [
                 { text: 'Setting is the concrete time, place, and physical environment (e.g., "Coole Park in', outcome: 'Setting is the concrete time, place, and physical environment (e.g., "Coole Park in October.' },
                 { text: 'the weather', outcome: 'Not quite — Students treat setting and atmosphere as interchangeable labels: they underline "autumn,".', reveals: 'students-treat-setting-and-atmosphere' },
                 { text: 'how does the setting create atmosphere?', outcome: 'Not quite — Students treat setting and atmosphere as interchangeable labels: they underline "autumn,".', reveals: 'students-treat-setting-and-atmosphere' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_11_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are looking at an old photograph of yourself from nineteen years ago — what do you feel? That is exactly where the speaker stands at Coole Park.',
+          caseStudy: { intro: 'Pick the central figure in \'The Wild Swans at Coole\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'Who is the protagonist in "The Wild Swans at Coole," and what is his primary role in the poem?', options: [
                 { text: 'The protagonist is the first-person speaker, identified with the poet W.B', outcome: 'The protagonist is the first-person speaker, identified with the poet W.B. Yeats himself.' },
                 { text: 'the swans are the protagonist', outcome: 'Not quite — Students often think the protagonist is "just the poet describing birds" and write plot summary.', reveals: 'the-protagonist-is-just-the' },
                 { text: 'just the poet describing birds', outcome: 'Not quite — Students often think the protagonist is "just the poet describing birds" and write plot summary.', reveals: 'the-protagonist-is-just-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_11_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine sitting by a lake in October, watching a flock of swans take flight — their wings loud, their energy seemingly inexhaustible — while you feel the.',
+          caseStudy: { intro: 'Spot the secondary figures in \'The Wild Swans at Coole\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'What is the exact number of swans the speaker counts in the first stanza, and why does the precision of that number matter for.', options: [
                 { text: 'The speaker counts fifty-nine swans ("nine-and-fifty")', outcome: 'The speaker counts fifty-nine swans ("nine-and-fifty"). The odd number — one swan without a mate.' },
                 { text: 'about fifty', outcome: 'Not quite — Students routinely treat the swans as fifty-nine *individual* characters ("the swans are happy,".', reveals: 'students-routinely-treat-the-swans' },
                 { text: 'many swans', outcome: 'Not quite — Students routinely treat the swans as fifty-nine *individual* characters ("the swans are happy,".', reveals: 'students-routinely-treat-the-swans' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_11_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you find an old photograph of yourself from ten years ago — you notice how much you\'ve changed while the background scenery looks exactly the same.',
+          caseStudy: { intro: 'Ask what \'The Wild Swans at Coole\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of "The Wild Swans at Coole" in one sentence?', options: [
                 { text: 'The primary theme is the contrast between the timeless, unwearying vitality of nature', outcome: 'The primary theme is the contrast between the timeless, unwearying vitality of nature (embodied.' },
                 { text: 'The poem is about beautiful swans in autumn', outcome: 'Not quite — Students often treat the swans as mere symbols of "beauty" or "freedom" and write essays about.', reveals: 'students-often-treat-the-swans' },
@@ -83,12 +83,12 @@ export const c12_eng_k_ch11_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_11_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" refers to the essential biographical.',
+          question: '\'The Wild Swans at Coole\' (Kaleidoscope, ch. 11) — the context and background.',
           hint: 'If stuck, review the "Before You Read" section of any Class 11 Woven Words poem (e.g.',
           misconception: 'Students often think "context" means memorizing dates (1865, 1923, 1916) and names (Lady Gregory, Maud Gonne) for.',
           parts: [
@@ -101,7 +101,7 @@ export const c12_eng_k_ch11_p1: SimDef = {
                   hint: 'If stuck, review the "Before You Read" section of any Class 11 Woven Words poem (e.g.',
                   misconception: 'Students often think "context" means memorizing dates (1865, 1923, 1916) and names (Lady Gregory, Maud Gonne) for a 1-mark quiz.' }
           ],
-            remediations: { 'context-means-memorizing-dates-1865': { steps: ['If a student cannot answer Diagnostic Questions 2–4 correctly: (1) Have them re-read the textbook\'s introductory note.', '(2) Ask them to draw a simple timeline: 1897 (first visit) → 1916 (19th autumn, Easter Rising, Iseult\'s rejection) →.', '(3) Give them a 3-column table: "Historical Event / Personal Event / Poem Detail It Illuminates" and have them fill one.', '(4) Re-administer Diagnostic Question 4 orally, prompting: "Which word in the poem might connect to the Easter Rising?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'context-means-memorizing-dates-1865': { steps: ['If a student cannot answer Diagnostic Questions 2–4 correctly: (1) Have them re-read the textbook\'s introductory note.', '(2) Ask them to draw a simple timeline: 1897 (first visit) → 1916 (19th autumn, Easter Rising, Iseult\'s rejection) →.', '(3) Give them a 3-column table: "Historical Event / Personal Event / Poem Detail It Illuminates" and have them fill one.', '(4) Re-administer Diagnostic Question 4 orally, prompting: "Which word in the poem might connect to the Easter Rising?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_11_001', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -112,20 +112,20 @@ export const c12_eng_k_ch11_p1: SimDef = {
                   hint: 'If stuck, review the "Before You Read" section of any Class 11 Woven Words poem (e.g.',
                   misconception: 'Students often think "context" means memorizing dates (1865, 1923, 1916) and names (Lady Gregory, Maud Gonne) for a 1-mark quiz.' }
           ],
-            remediations: { 'context-means-memorizing-dates-1865': { steps: ['If a student cannot answer Diagnostic Questions 2–4 correctly: (1) Have them re-read the textbook\'s introductory note.', '(2) Ask them to draw a simple timeline: 1897 (first visit) → 1916 (19th autumn, Easter Rising, Iseult\'s rejection) →.', '(3) Give them a 3-column table: "Historical Event / Personal Event / Poem Detail It Illuminates" and have them fill one.', '(4) Re-administer Diagnostic Question 4 orally, prompting: "Which word in the poem might connect to the Easter Rising?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'context-means-memorizing-dates-1865': { steps: ['If a student cannot answer Diagnostic Questions 2–4 correctly: (1) Have them re-read the textbook\'s introductory note.', '(2) Ask them to draw a simple timeline: 1897 (first visit) → 1916 (19th autumn, Easter Rising, Iseult\'s rejection) →.', '(3) Give them a 3-column table: "Historical Event / Personal Event / Poem Detail It Illuminates" and have them fill one.', '(4) Re-administer Diagnostic Question 4 orally, prompting: "Which word in the poem might connect to the Easter Rising?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_11_002', difficulty: 'standard',
-          question: 'In poetry, narrative structure refers to the organization of the speaker\'s.',
+          question: 'The plot/narrative arc of \'The Wild Swans at Coole\' — what happens, in what.',
           hint: 'Review c11_eng_w_cbse_01_002 (Class 11 poem narrative structure) and practice identifying.',
           misconception: 'Students treat "plot" in poetry as a sequence of physical events (like a story) and therefore claim this poem "has.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'In poetry, narrative structure refers to the organization of the speaker\'s observations,',
-                  options: ['In poetry, narrative structure refers to the organization of the speaker\'s observations,', '"Before You Read: Context and Background" refers to the essential biographical,', 'Setting in poetry refers to the time, place, and physical environment where the poem\'s', 'Character analysis of the protagonist in a lyric poem involves examining the speaker\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The plot/narrative arc of \'The Wild Swans at Coole\'',
+                  options: ['The plot/narrative arc of \'The Wild Swans at Coole\'', '\'The Wild Swans at Coole\' (Kaleidoscope, ch', 'The setting of \'The Wild Swans at Coole\'', 'Character analysis in \'The Wild Swans at Coole\''],
                   hint: 'Review c11_eng_w_cbse_01_002 (Class 11 poem narrative structure) and practice identifying time.',
                   misconception: 'Students treat "plot" in poetry as a sequence of physical events (like a story) and therefore claim this poem "has no plot." They miss that.' }
           ],
-            remediations: { 'students-treat-plot-in-poetry': { steps: ['Have the student create a timeline on paper with five points (Stanza 1–5), labeling each with its time reference (now.', 'Ask them to write one sentence per stanza summarizing the *speaker\'s emotional state*, not the swans\' actions.', 'Re-read the poem aloud, pausing at each temporal marker ("since," "first," "now," "still," "some day") and naming the.', 'Re-attempt Diagnostic Question 4 with the timeline visible.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-plot-in-poetry': { steps: ['Have the student create a timeline on paper with five points (Stanza 1–5), labeling each with its time reference (now.', 'Ask them to write one sentence per stanza summarizing the *speaker\'s emotional state*, not the swans\' actions.', 'Re-read the poem aloud, pausing at each temporal marker ("since," "first," "now," "still," "some day") and naming the.', 'Re-attempt Diagnostic Question 4 with the timeline visible.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_11_003', difficulty: 'standard',
-          question: 'Setting in poetry refers to the time, place, and physical environment where the.',
+          question: 'The setting of \'The Wild Swans at Coole\' — the place, time and atmosphere the.',
           hint: 'If stuck, return to c11_eng_w_cbse_01_003 and re-do the "sensory detail → emotion".',
           misconception: 'Students treat setting and atmosphere as interchangeable labels: they underline "autumn," "twilight," "water" and write.',
           parts: [
@@ -134,9 +134,9 @@ export const c12_eng_k_ch11_p1: SimDef = {
                   hint: 'If stuck, return to c11_eng_w_cbse_01_003 and re-do the "sensory detail → emotion" mapping exercise.',
                   misconception: 'Students treat setting and atmosphere as interchangeable labels: they underline "autumn," "twilight," "water" and write "this creates a sad.' }
           ],
-            remediations: { 'students-treat-setting-and-atmosphere': { steps: ['Have the student list every concrete noun and adjective in stanza 1 (trees, autumn, beauty, woodland, paths, dry.', 'For each, ask "If this word were a colour/sound/temperature, what would it be?" (e.g., dry = beige, rough; brimming.', 'Group the sensory impressions into clusters (barrenness, suspension, abundance, vitality).', 'Map each cluster to an atmospheric layer (melancholy, eeriness, richness, energy).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-setting-and-atmosphere': { steps: ['Have the student list every concrete noun and adjective in stanza 1 (trees, autumn, beauty, woodland, paths, dry.', 'For each, ask "If this word were a colour/sound/temperature, what would it be?" (e.g., dry = beige, rough; brimming.', 'Group the sensory impressions into clusters (barrenness, suspension, abundance, vitality).', 'Map each cluster to an atmospheric layer (melancholy, eeriness, richness, energy).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_11_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a lyric poem involves examining the.',
+          question: 'Character analysis in \'The Wild Swans at Coole\' — the central figure(s), their.',
           hint: 'If stuck, revisit c11_eng_h_cbse_01_004 (Character Analysis: Protagonist in a lyric poem).',
           misconception: 'Students often think the protagonist is "just the poet describing birds" and write plot summary instead of character.',
           parts: [
@@ -149,9 +149,9 @@ export const c12_eng_k_ch11_p1: SimDef = {
                   hint: 'If stuck, revisit c11_eng_h_cbse_01_004 (Character Analysis: Protagonist in a lyric poem) and.',
                   misconception: 'Students often think the protagonist is "just the poet describing birds" and write plot summary instead of character analysis.' }
           ],
-            remediations: { 'the-protagonist-is-just-the': { steps: ['If a student writes summary instead of analysis, ask: "What does the speaker choose to notice?', 'Why does he count exactly fifty-nine swans?" Then have them list three adjectives for the speaker (e.g., melancholy.', 'Next, model a PEEL paragraph: Point — The speaker is haunted by time.', 'Evidence — "The nineteenth autumn has come upon me." Explanation — The precise number personalizes the universal.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-protagonist-is-just-the': { steps: ['If a student writes summary instead of analysis, ask: "What does the speaker choose to notice?', 'Why does he count exactly fifty-nine swans?" Then have them list three adjectives for the speaker (e.g., melancholy.', 'Next, model a PEEL paragraph: Point — The speaker is haunted by time.', 'Evidence — "The nineteenth autumn has come upon me." Explanation — The precise number personalizes the universal.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_11_005', difficulty: 'standard',
-          question: 'In poetry, supporting characters are non-protagonist entities — often natural.',
+          question: 'Supporting characters in \'The Wild Swans at Coole\' — the secondary figures who.',
           hint: 'If stuck, review "foil" using the protagonist\'s traits (c12_eng_k_cbse_11_004) and ask.',
           misconception: 'Students routinely treat the swans as fifty-nine *individual* characters ("the swans are happy," "the swans are free").',
           parts: [
@@ -164,9 +164,9 @@ export const c12_eng_k_ch11_p1: SimDef = {
                   hint: 'If stuck, review "foil" using the protagonist\'s traits (c12_eng_k_cbse_11_004) and ask: "What does.',
                   misconception: 'Students routinely treat the swans as fifty-nine *individual* characters ("the swans are happy," "the swans are free") rather than.' }
           ],
-            remediations: { 'students-routinely-treat-the-swans': { steps: ['Re-read stanza 1 aloud, circling "nine-and-fifty" and "swans" (plural verb, singular collective noun).', 'List every verb applied to "they" (the swans) across stanzas 2–5; note they are all plural verbs describing *one*.', 'Write one sentence: "The swans act as one character because ___." 4.', 'Re-attempt Diagnostic Question 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-routinely-treat-the-swans': { steps: ['Re-read stanza 1 aloud, circling "nine-and-fifty" and "swans" (plural verb, singular collective noun).', 'List every verb applied to "they" (the swans) across stanzas 2–5; note they are all plural verbs describing *one*.', 'Write one sentence: "The swans act as one character because ___." 4.', 'Re-attempt Diagnostic Question 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_11_006', difficulty: 'standard',
-          question: 'The primary theme of a poem is the central, unifying idea or insight about life.',
+          question: 'The primary theme of \'The Wild Swans at Coole\' — the central idea the whole.',
           hint: 'If stuck, review how to annotate a poem for theme (node c11_eng_h_cbse_01_006 or similar).',
           misconception: 'Students often treat the swans as mere symbols of "beauty" or "freedom" and write essays about nature\'s loveliness.',
           parts: [
@@ -179,7 +179,7 @@ export const c12_eng_k_ch11_p1: SimDef = {
                   hint: 'If stuck, review how to annotate a poem for theme (node c11_eng_h_cbse_01_006 or similar).',
                   misconception: 'Students often treat the swans as mere symbols of "beauty" or "freedom" and write essays about nature\'s loveliness, completely missing that.' }
           ],
-            remediations: { 'students-often-treat-the-swans': { steps: ['Have the student re-read *only* the first-person lines ("I saw", "my heart", "I first made my count", "I awake") and.', 'Create a two-column T-chart: left column "Poet (Human Time)", right column "Swans (Nature\'s Time)".', 'Fill with phrases: "nineteenth autumn" / "unwearied still", "heart is sore" / "hearts have not grown old".', 'Ask: "If the swans flew away tomorrow, what would the poet lose?" — this forces the connection between the birds\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-the-swans': { steps: ['Have the student re-read *only* the first-person lines ("I saw", "my heart", "I first made my count", "I awake") and.', 'Create a two-column T-chart: left column "Poet (Human Time)", right column "Swans (Nature\'s Time)".', 'Fill with phrases: "nineteenth autumn" / "unwearied still", "heart is sore" / "hearts have not grown old".', 'Ask: "If the swans flew away tomorrow, what would the poet lose?" — this forces the connection between the birds\'.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

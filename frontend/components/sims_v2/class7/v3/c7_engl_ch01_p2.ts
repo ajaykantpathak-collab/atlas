@@ -73,7 +73,7 @@ export const c7_engl_ch01_p2: SimDef = {
           misconception: 'Students often look at a descriptive word like *slithered* or *murmuring* in isolation and guess its meaning based.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in context refers to figuring out the precise meaning of words—such as',
-                  options: ['Vocabulary in context refers to figuring out the precise meaning of words—such as', 'The story setting encompasses the physical location, environmental details, and cultural', 'Character analysis of Jahnavi examines her traits, actions, speech, desires, and inner', 'Gender barriers to education refer to social, cultural, and economic obstacles that'],
+                  options: ['Vocabulary in context refers to figuring out the precise meaning of words—such as', 'The story setting encompasses the physical location, environmental details, and cultural', 'From \'English chapter c7_engl_ch01\': the skill or concept this node teaches, applied to', 'Gender barriers to education refer to social, cultural, and economic obstacles that'],
                   hint: 'Review Class 6 unit vocabulary strategies where context clues (synonyms, antonyms, and direct.',
                   misconception: 'Students often look at a descriptive word like *slithered* or *murmuring* in isolation and guess its meaning based on sound alone (e.g.' }
           ],
@@ -114,13 +114,13 @@ export const c7_engl_ch01_p2: SimDef = {
           misconception: 'Students often believe that Jahnavi was denied schooling purely because she disliked studying or because her parents.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Analyzing the specific socio-economic, familial, and cultural reasons why a character in',
-                  options: ['Analyzing the specific socio-economic, familial, and cultural reasons why a character in', 'The story setting encompasses the physical location, environmental details, and cultural', 'Character analysis of Jahnavi examines her traits, actions, speech, desires, and inner', 'Gender barriers to education refer to social, cultural, and economic obstacles that'],
+                  options: ['Analyzing the specific socio-economic, familial, and cultural reasons why a character in', 'The story setting encompasses the physical location, environmental details, and cultural', 'From \'English chapter c7_engl_ch01\': the skill or concept this node teaches, applied to', 'Gender barriers to education refer to social, cultural, and economic obstacles that'],
                   hint: 'Review character analysis and plot sequence from Class 6 unit 1 stories before analyzing complex.',
                   misconception: 'Students often believe that Jahnavi was denied schooling purely because she disliked studying or because her parents were cruel, completely.' }
           ],
             remediations: { 'jahnavi-was-denied-schooling-purely': { steps: ['When a student struggles with this, guide them step-by-step: 1.', 'Ask them to locate two sentences in the story where Jahnavi talks about her daily chores.', 'Ask them who works in the fields or helps at home in her family.', 'Explain that poverty and daily survival chores force families to make hard choices, and Jahnavi\'s denial is a result.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c7_engl_ch01_010', difficulty: 'standard',
-          question: 'Critical thinking about the message of a story involves looking beyond the.',
+          question: 'From \'English chapter c7_engl_ch01\': the skill or concept this node teaches.',
           hint: 'Review node c7_engl_ch01_009 to ensure clarity on the exact reasons Jahnavi faced.',
           misconception: 'Students often believe that the "message" of a story is just a summary of what happened at the end (e.g., "Jahnavi.',
           parts: [
@@ -136,7 +136,7 @@ export const c7_engl_ch01_p2: SimDef = {
           misconception: 'Students often think that narrative poems are just stories written in regular paragraphs with random rhyming words.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"King Bruce and the Spider" is a narrative poem that tells the true historical legend of',
-                  options: ['"King Bruce and the Spider" is a narrative poem that tells the true historical legend of', 'The story setting encompasses the physical location, environmental details, and cultural', 'Character analysis of Jahnavi examines her traits, actions, speech, desires, and inner', 'Gender barriers to education refer to social, cultural, and economic obstacles that'],
+                  options: ['"King Bruce and the Spider" is a narrative poem that tells the true historical legend of', 'The story setting encompasses the physical location, environmental details, and cultural', 'From \'English chapter c7_engl_ch01\': the skill or concept this node teaches, applied to', 'Gender barriers to education refer to social, cultural, and economic obstacles that'],
                   hint: 'Review Class 6 Node c6_english_u1_004 on narrative poetry features before attempting.',
                   misconception: 'Students often think that narrative poems are just stories written in regular paragraphs with random rhyming words thrown in at the end.' }
           ],
@@ -152,6 +152,10 @@ export const c7_engl_ch01_p2: SimDef = {
                   misconception: 'Students often assume that words ending with the same spelling automatically rhyme (such as "rough" and "cough", or "bough" and "through").' },
                 { id: 'b', prompt: 'Read this four-line stanza: "The morning sun begins to rise (A) And paints the waking earth with gold (B) Beneath the wide and open skies (A) A tale of hope.', answer: 'The rhyme scheme is ABAB',
                   options: ['The rhyme scheme is ABAB', 'through'],
+                  hint: 'Review Class 6 Poetic Devices -- Rhyme Scheme, Metaphor, Imagery to practice matching sound pairs.',
+                  misconception: 'Students often assume that words ending with the same spelling automatically rhyme (such as "rough" and "cough", or "bough" and "through").' },
+                { id: 'c', prompt: 'If a four-line stanza has the ending words "tree" (line 1), "free" (line 2), "night" (line 3), and "light" (line 4), how should you label its rhyme scheme.', answer: 'Label the end word of line 1 ("tree") as A',
+                  options: ['Label the end word of line 1 ("tree") as A', 'through'],
                   hint: 'Review Class 6 Poetic Devices -- Rhyme Scheme, Metaphor, Imagery to practice matching sound pairs.',
                   misconception: 'Students often assume that words ending with the same spelling automatically rhyme (such as "rough" and "cough", or "bough" and "through").' }
           ],

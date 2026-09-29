@@ -6,13 +6,13 @@ import C12_GeoPlanningSustainableDevCBSESim from '../../../simulations/c6_12_new
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_geoplanningsustainabledevcbsesim: SimDef = {
     id: 'v3w_c12_geoplanningsustainabledevcbsesim',
-    title: 'Geo Planning Sustainable Dev CBSE',
+    title: 'Disaster Management: Mitigation, Preparedness, Response, Recovery',
     subtitle: 'Covers the four phases of disaster management cycle as per NDMA guidelines and Class 12.',
     classLevel: 12, subject: 'science', topic: 'Disaster Management: Mitigation, Preparedness, Response, Recovery',
     chapters: [],
     nodeIds: ['c12_geo_cbse_17_009', 'c12_geo_cbse_17_010', 'c12_geo_cbse_04_007', 'c12_geo_cbse_04_010', 'c12_geo_cbse_10_008', 'c12_geo_cbse_10_010', 'c12_geo_cbse_02_010', 'c12_geo_cbse_12_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re in a village in Assam\'s Majuli island during the 2022 Brahmaputra floods — water rises.', goal: 'Master Geo Planning Sustainable Dev CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re in a village in Assam\'s Majuli island during the 2022 Brahmaputra floods — water rises.', goal: 'Master Disaster Management: Mitigation, Preparedness, Response, Recovery.' },
     discovery: {
         question: 'Explain why "compact city" form is considered more sustainable than "sprawl" for Indian metropolitan regions, linking land use, transport, and energy.',
         options: ['Compact city form', 'saving land', 'analyse the relationship'],
@@ -82,7 +82,7 @@ export const w_c12_geoplanningsustainabledevcbsesim: SimDef = {
             { text: 'Interpret: Even though ABD is spatial focus (0.95% area), Pan-City solutions dominate investment because they serve.', faded: true, blankAnswer: '(a) 0.95% of city area. (b) Pan-City = 88.6%, ABD = 11.4%.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_geo_cbse_17_010', title: 'Identify each idea',
-          dissect: { specimen: 'Geo Planning Sustainable Dev CBSE', spots: [
+          dissect: { specimen: 'Disaster Management: Mitigation, Preparedness, Response, Recovery', spots: [
             { id: 's1', label: 'Disaster management is a continuous', prompt: 'Which idea is this? — Disaster management is a continuous and integrated cycle of four interdependent phases —.', answer: 'Disaster management is a continuous', options: ['Disaster management is a continuous', 'Sustainable development is development that', 'Urbanisation is the process of', 'Sustainable settlement planning is a'] },
             { id: 's2', label: 'Sustainable development is development that', prompt: 'Which idea is this? — Sustainable development is development that meets the needs of the present without.', answer: 'Sustainable development is development that', options: ['Sustainable development is development that', 'Disaster management is a continuous', 'Urbanisation is the process of', 'Sustainable settlement planning is a'] },
             { id: 's3', label: 'Urbanisation is the process of', prompt: 'Which idea is this? — Urbanisation is the process of population concentration in urban areas, marked by an.', answer: 'Urbanisation is the process of', options: ['Urbanisation is the process of', 'Disaster management is a continuous', 'Sustainable development is development that', 'Sustainable settlement planning is a'] },
@@ -91,7 +91,7 @@ export const w_c12_geoplanningsustainabledevcbsesim: SimDef = {
             { id: 's6', label: 'The Smart Cities Mission launched', prompt: 'Which idea is this? — The Smart Cities Mission (launched 2015) is a Government of India urban renewal program.', answer: 'The Smart Cities Mission launched', options: ['The Smart Cities Mission launched', 'Disaster management is a continuous', 'Sustainable development is development that', 'Urbanisation is the process of'] }
           ] } }
     ],
-    explore: { component: C12_GeoPlanningSustainableDevCBSESim, prompt: 'Explore the interactive — Geo Planning Sustainable Dev CBSE' },
+    explore: { component: C12_GeoPlanningSustainableDevCBSESim, prompt: 'Explore the interactive — Disaster Management: Mitigation, Preparedness, Response, Recovery' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_17_009', difficulty: 'standard',
           question: 'Disaster management is a continuous and integrated cycle of four interdependent.',

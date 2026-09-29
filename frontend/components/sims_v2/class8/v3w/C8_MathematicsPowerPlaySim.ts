@@ -6,13 +6,13 @@ import C8_MathematicsPowerPlaySim from '../../../simulations/c6_12/C8_Mathematic
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicspowerplaysim: SimDef = {
     id: 'v3w_c8_mathematicspowerplaysim',
-    title: 'Power Play',
+    title: 'Multiplying Powers with Different Bases: am x bm = (ab)m',
     subtitle: 'Covers multiplication of powers with identical integer exponents (positive, negative, or.',
     classLevel: 8, subject: 'mathematics', topic: 'Multiplying Powers with Different Bases: am x bm = (ab)m',
     chapters: [],
     nodeIds: ['c8_math_ch2_10', 'c8_math_ch2_11', 'c8_math_ch2_12', 'c8_math_ch2_3', 'c8_math_ch2_4', 'c8_math_ch2_5', 'c8_math_ch2_7', 'c8_math_ch2_8'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you are buying 3 boxes of pencils and 3 boxes of pens.', goal: 'Master Power Play.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you are buying 3 boxes of pencils and 3 boxes of pens.', goal: 'Master Multiplying Powers with Different Bases: am x bm = (ab)m.' },
     discovery: {
         question: 'What is the sign of \\((-7)^{12}\\)? Explain your reasoning in one sentence without calculating the actual value.',
         options: ['Positive', 'negative', 'negative base always gives negative result'],
@@ -78,7 +78,7 @@ export const w_c8_mathematicspowerplaysim: SimDef = {
             { text: 'Verify: \\( 3.84 \\times 100,000 = 384,000 \\). Correct.', faded: true, blankAnswer: '\\( 3.84 \\times 10^5 \\) km' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch2_11', title: 'Identify each idea',
-          dissect: { specimen: 'Power Play', spots: [
+          dissect: { specimen: 'Multiplying Powers with Different Bases: am x bm = (ab)m', spots: [
             { id: 's1', label: 'When two powers have the', prompt: 'Which idea is this? — When two powers have the same exponent but different bases, their product equals the.', answer: 'When two powers have the', options: ['When two powers have the', 'For a negative base -a', 'For any non-zero number a', 'Exponential notation is a concise'] },
             { id: 's2', label: 'For a negative base -a', prompt: 'Which idea is this? — For a negative base \\(-a\\) (where \\(a > 0\\)) raised to a positive integer exponent \\(n\\),.', answer: 'For a negative base -a', options: ['For a negative base -a', 'When two powers have the', 'For any non-zero number a', 'Exponential notation is a concise'] },
             { id: 's3', label: 'For any non-zero number a', prompt: 'Which idea is this? — For any non-zero number \\(a\\) (integer, fraction, decimal, or algebraic expression),.', answer: 'For any non-zero number a', options: ['For any non-zero number a', 'When two powers have the', 'For a negative base -a', 'Exponential notation is a concise'] },
@@ -87,7 +87,7 @@ export const w_c8_mathematicspowerplaysim: SimDef = {
             { id: 's6', label: 'Expressing a number in exponential', prompt: 'Which idea is this? — Expressing a number in exponential form means writing it as a base raised to an exponent.', answer: 'Expressing a number in exponential', options: ['Expressing a number in exponential', 'When two powers have the', 'For a negative base -a', 'For any non-zero number a'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsPowerPlaySim, prompt: 'Explore the interactive — Power Play' },
+    explore: { component: C8_MathematicsPowerPlaySim, prompt: 'Explore the interactive — Multiplying Powers with Different Bases: am x bm = (ab)m' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch2_10', difficulty: 'standard',
           question: 'When two powers have the same exponent but different bases, their product.',
@@ -191,8 +191,8 @@ export const w_c8_mathematicspowerplaysim: SimDef = {
                   options: ['Correct explanation: 64 = 2 × 2 × 2 × 2 × 2 × 2 = 2^6', 'the exponent tells how many zeros', 'only one form is correct'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students treat the exponent as a "zero counter" only for base 10.' },
-                { id: 'c', prompt: 'Express 3,60,00,000 in standard form. Show the steps of moving the decimal point.', answer: 'Steps: 1) Write number with decimal: 3,60,00,000.0',
-                  options: ['Steps: 1) Write number with decimal: 3,60,00,000.0', 'base × exponent', 'base multiplied by itself exponent times'],
+                { id: 'c', prompt: 'Express 3,60,00,000 in standard form. Show the steps of moving the decimal point.', answer: 'Write number with decimal: 3,60,00,000.0',
+                  options: ['Write number with decimal: 3,60,00,000.0', 'base × exponent', 'base multiplied by itself exponent times'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students treat the exponent as a "zero counter" only for base 10.' }
           ],

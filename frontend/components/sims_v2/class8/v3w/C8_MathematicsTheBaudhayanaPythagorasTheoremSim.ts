@@ -6,13 +6,13 @@ import C8_MathematicsTheBaudhayanaPythagorasTheoremSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicsthebaudhayanapythagorastheoremsim: SimDef = {
     id: 'v3w_c8_mathematicsthebaudhayanapythagorastheoremsim',
-    title: 'The Baudhayana Pythagoras Theorem',
+    title: 'Baudhayana\'s Sulba-Sutra: Doubling a Square',
     subtitle: 'This node covers the historical geometric insight from Baudhayana\'s Sulba-Sutra (c.',
     classLevel: 8, subject: 'mathematics', topic: 'Baudhayana\'s Sulba-Sutra: Doubling a Square',
     chapters: [],
     nodeIds: ['c8_math_ch9_1', 'c8_math_ch9_10', 'c8_math_ch9_2', 'c8_math_ch9_3', 'c8_math_ch9_4', 'c8_math_ch9_5', 'c8_math_ch9_7', 'c8_math_ch9_6', 'c8_math_ch9_8', 'c8_math_ch9_9', 'c8_math_ch14_5'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine a farmer in ancient India has a square field of side 10 metres and wants to mark out a new square.', goal: 'Master The Baudhayana Pythagoras Theorem.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine a farmer in ancient India has a square field of side 10 metres and wants to mark out a new square.', goal: 'Master Baudhayana\'s Sulba-Sutra: Doubling a Square.' },
     discovery: {
         question: 'What is the side length of a square whose area is double that of a square with side 5 cm, according to Baudhayana\'s Sulba-Sutra method?',
         options: ['The side length is the diagonal of the original 5 cm square', 'doubling the side doubles the area (confusing linear and quadratic scaling)', 'doubling the side length of a square doubles its area (e'],
@@ -80,7 +80,7 @@ export const w_c8_mathematicsthebaudhayanapythagorastheoremsim: SimDef = {
             { text: 'Distance along sides = \\(60 + 25 = 85\\) m. Distance saved = \\(85 - 65 = 20\\) m.', faded: true, blankAnswer: 'The farmer saves 20 metres by walking diagonally.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch9_10', title: 'Identify each idea',
-          dissect: { specimen: 'The Baudhayana Pythagoras Theorem', spots: [
+          dissect: { specimen: 'Baudhayana\'s Sulba-Sutra: Doubling a Square', spots: [
             { id: 's1', label: 'Baudhayanas Sulba-Sutra describes a geometric', prompt: 'Which idea is this? — Baudhayana\'s Sulba-Sutra describes a geometric method to construct a square with exactly.', answer: 'Baudhayanas Sulba-Sutra describes a geometric', options: ['Baudhayanas Sulba-Sutra describes a geometric', 'The converse of the Baudhayana-Pythagoras', 'A square with double the', 'Halving a square is the'] },
             { id: 's2', label: 'The converse of the Baudhayana-Pythagoras', prompt: 'Which idea is this? — The converse of the Baudhayana-Pythagoras theorem states that in any triangle, if the.', answer: 'The converse of the Baudhayana-Pythagoras', options: ['The converse of the Baudhayana-Pythagoras', 'Baudhayanas Sulba-Sutra describes a geometric', 'A square with double the', 'Halving a square is the'] },
             { id: 's3', label: 'A square with double the', prompt: 'Which idea is this? — A square with double the area of a given square can be constructed by using the diagonal.', answer: 'A square with double the', options: ['A square with double the', 'Baudhayanas Sulba-Sutra describes a geometric', 'The converse of the Baudhayana-Pythagoras', 'Halving a square is the'] },
@@ -89,7 +89,7 @@ export const w_c8_mathematicsthebaudhayanapythagorastheoremsim: SimDef = {
             { id: 's6', label: 'The Baudhayana-Pythagoras Theorem states that', prompt: 'Which idea is this? — The Baudhayana-Pythagoras Theorem states that in a right-angled triangle, the area of the.', answer: 'The Baudhayana-Pythagoras Theorem states that', options: ['The Baudhayana-Pythagoras Theorem states that', 'Baudhayanas Sulba-Sutra describes a geometric', 'The converse of the Baudhayana-Pythagoras', 'A square with double the'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsTheBaudhayanaPythagorasTheoremSim, prompt: 'Explore the interactive — The Baudhayana Pythagoras Theorem' },
+    explore: { component: C8_MathematicsTheBaudhayanaPythagorasTheoremSim, prompt: 'Explore the interactive — Baudhayana\'s Sulba-Sutra: Doubling a Square' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch9_1', difficulty: 'standard',
           question: 'Baudhayana\'s Sulba-Sutra describes a geometric method to construct a square.',
@@ -141,8 +141,8 @@ export const w_c8_mathematicsthebaudhayanapythagorastheoremsim: SimDef = {
                   options: ['The side length of the new square is the diagonal of the original square', 'to double the area of a square, they should double the side length'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that to double the area of a square, they should double the side length.' },
-                { id: 'b', prompt: 'Construct a square with double the area of a square of side 3 cm. Show the steps of construction and calculate the area of the new square to verify.', answer: 'Steps: 1) Draw square ABCD of side 3 cm',
-                  options: ['Steps: 1) Draw square ABCD of side 3 cm', 'to double the area of a square, they should double the side length'],
+                { id: 'b', prompt: 'Construct a square with double the area of a square of side 3 cm. Show the steps of construction and calculate the area of the new square to verify.', answer: 'Draw square ABCD of side 3 cm',
+                  options: ['Draw square ABCD of side 3 cm', 'to double the area of a square, they should double the side length'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that to double the area of a square, they should double the side length.' }
           ],

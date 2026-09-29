@@ -19,7 +19,7 @@ export const c12_hin_a_ch06_p2: SimDef = {
         hook: 'One chapter holds two flavours of prem: Radha\'s virah — love through separation — and Yashoda\'s vatsalya — a mother\'s tenderness. Reading both as just \'love\' flattens Bhakti\'s emotional precision; each is a different road to the divine.',
     },
     teaching: [
-        { title: 'तुलसीदास — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: '**बिंब (Imagery):** काव्य में प्रयुक्त वह शब्द-योजना जो पाठक के मन में इंद्रियगत अनुभूति (दृश्य, श्रव्य, घ्राण, स्पर्श, स्वाद) उत्पन्न करे, उसे बिंब कहते हैं। **प्रतीक (Symbol):** कोई वस्तु, व्यक्ति.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'तुलसीदास — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: '\'हजारी-जइके\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_06_007', title: 'Your mission',
@@ -28,6 +28,25 @@ export const c12_hin_a_ch06_p2: SimDef = {
         context: 'Enter Braj through an outsider who became its own: trace Raskhan\'s turn from worldly life to Krishna, then weigh longing against maternal love as two bhakti grammars.',
         labels: ['तुलसीदास — साहित्यिक युक्तियाँ', 'तुलसीदास — मुख्य भाव', 'तुलसीदास — गौण भाव', 'तुलसीदास — पदावली: कठिन', 'तुलसीदास — व्याकरण: पद्य', 'तुलसीदास — बोध-प्रश्न: वस्तुनिष्ठ'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_06_008', title: 'तुलसीदास — मुख्य भाव और संदेश',
+          caseStudy: { intro: '\'हजारी-जइके\' में बिंब ढूँढिए — हजारी-जइके — ये दृश्य पाठ को जीवंत बनाते हैं।',
+            decisions: [{ prompt: 'Define \'imagery\' (चित्रात्मकता) and \'metaphor\' (रूपक) in your own words, giving one original example of each (not from the textbook).', options: [
+                { text: '**Correct Answer:** Imagery is descriptive language appealing to the five senses (e.g.,', outcome: '**Correct Answer:** Imagery is descriptive language appealing to the five senses (e.g., "The sharp.' },
+                { text: 'Time is *like* a thief', outcome: 'Not quite — **Misconception:** "Imagery is only about *visual* descriptions (pictures in the mind), and.', reveals: 'misconception-imagery-is-only-about' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_06_009', title: 'तुलसीदास — गौण भाव और विषयांतर',
+          caseStudy: { intro: '\'हजारी-जइके\' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।',
+            decisions: [{ prompt: 'Define verbal irony and give one example from the poem "Hajir-Jaik ka Izhaar" where Hajir\'s spoken words contradict her inner state.', options: [
+                { text: 'Verbal irony occurs when a speaker says the opposite of what they mean', outcome: 'Verbal irony occurs when a speaker says the opposite of what they mean.' },
+                { text: 'It\'s ironic that it rained on her wedding day', outcome: 'Not quite — Students consistently confuse *situational irony* with *bad luck* or *coincidence* (e.g., "It\'s.', reveals: 'students-consistently-confuse-situational-irony' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_06_010', title: 'तुलसीदास — पदावली: कठिन शब्द और मुहावरे',
+          caseStudy: { intro: '\'हजारी-जइके\' के मुख्य शब्द: हजारी-जइके — इनका अर्थ जानिए।',
+            decisions: [{ prompt: 'What is the literal meaning (वाच्यार्थ) of the Braj Bhasha word "लुसग़" as used in the line "लुसग़ लुसग़ लुसग़ लुसग़" from Raskhan\'s poem.', options: [
+                { text: 'The word "लुसग़" (लुसग) is a present participle (वर्तमान कृदंत) from the root लुस् (to', outcome: 'The word "लुसग़" (लुसग) is a present participle (वर्तमान कृदंत) from the root लुस् (to.' },
+                { text: 'trembling', outcome: 'Not quite — Students treat the NCERT \'शब्दार्थ\' list as a static glossary to memorise for 1-mark questions.', reveals: 'students-treat-the-ncert-list' },
+                { text: 'dancing', outcome: 'Not quite — Students treat the NCERT \'शब्दार्थ\' list as a static glossary to memorise for 1-mark questions.', reveals: 'students-treat-the-ncert-list' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_06_007', title: 'Use it in the wild',
           caseStudy: { intro: 'A student society is profiling a beloved classical-music teacher who converted faiths midlife and then devoted himself to Krishna-bhakti poetry. A committee member wants his early Persian-Arabic training cut from the bio: \'it muddies the devotional image.\'',
             decisions: [{ prompt: 'How does the structure of the Raskhan sketch answer that edit?', options: [
@@ -47,67 +66,71 @@ export const c12_hin_a_ch06_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_007', difficulty: 'standard',
-          question: '**बिंब (Imagery):** काव्य में प्रयुक्त वह शब्द-योजना जो पाठक के मन में.',
+          question: '\'हजारी-जइके\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
           hint: 'यदि फँस जाएँ, तो कक्षा 11 अंतरा के **किसी एक काव्य (जैसे: \'जाग तुझको दूर जाना\'.',
           misconception: '**विशिष्ट भ्रांति:** "तुलसीदास के काव्य में हर बिंब प्रतीक है, और हर प्रतीक बिंब है।" **वास्तविकता:** **बिंब.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery):** काव्य में प्रयुक्त वह शब्द-योजना जो पाठक के मन में इंद्रियगत अनुभूति',
-                  options: ['**बिंब (Imagery):** काव्य में प्रयुक्त वह शब्द-योजना जो पाठक के मन में इंद्रियगत अनुभूति', 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों', 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'हजारी-जइके\' के गौण विषय',
+                  options: ['\'हजारी-जइके\' के गौण विषय', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'हजारी-जइके\' का कथानक', '\'हजारी-जइके\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फँस जाएँ, तो कक्षा 11 अंतरा के **किसी एक काव्य (जैसे: \'जाग तुझको दूर जाना\'.',
                   misconception: '**विशिष्ट भ्रांति:** "तुलसीदास के काव्य में हर बिंब प्रतीक है, और हर प्रतीक बिंब है।" **वास्तविकता:** **बिंब = इंद्रियगत चित्र (साधन).' }
           ],
             remediations: { 'wrong-idea': { steps: ['**चरण 1:** छात्र से कहें: "पाठ के किन्हीं 5 पदों में केवल **संज्ञा/विशेषण** शब्द छाँटिए जो आँखों को चित्र दिखाएँ (जैसे.', '**चरण 2:** उन्हीं शब्दों में से पूछें: "इनमें से कौन-सा शब्द **केवल चित्र नहीं, कोई बड़ा संदेश भी देता है**?', '(संकेत: कमल, धनुष, वन, नाम, मणि)।" इन्हें **प्रतीक-शब्द** चिह्नित कराएँ। 3.', '**चरण 3:** एक तालिका बनवाएँ: **शब्द | बिंब प्रकार (दृश्य/श्रव्य...) | प्रतीक अर्थ (हाँ/नहीं + क्या)**। 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_008', difficulty: 'standard',
-          question: 'मुख्य भाव वह मूलभूत अनुभूति है जो तुलसीदास के समग्र पद संग्रह में बार-बार.',
-          hint: 'यदि मुख्य भाव पहचानने में कठिनाई हो, तो तुलसीदास के पदों में दोहराए जाने वाले विचारों.',
-          misconception: 'छात्र अक्सर तुलसीदास के पदों में आने वाले दोहराए जाने वाले शब्द (जैसे "राम", "नाम", "भक्ति") को खुद मुख्य भाव मान लेते.',
+          question: '\'हजारी-जइके\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
+          hint: 'If stuck on identifying senses, review "Sensory Word Bank" from Class 11 node.',
+          misconception: '**Misconception:** "Imagery is only about *visual* descriptions (pictures in the mind), and metaphor is just a \'fancy.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य भाव वह मूलभूत अनुभूति है जो तुलसीदास के समग्र पद संग्रह में बार-बार व्यक्त होती है',
-                  options: ['मुख्य भाव वह मूलभूत अनुभूति है जो तुलसीदास के समग्र पद संग्रह में बार-बार व्यक्त होती है', 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों', 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है'],
-                  hint: 'यदि मुख्य भाव पहचानने में कठिनाई हो, तो तुलसीदास के पदों में दोहराए जाने वाले विचारों, भावनाओं या.',
-                  misconception: 'छात्र अक्सर तुलसीदास के पदों में आने वाले दोहराए जाने वाले शब्द (जैसे "राम", "नाम", "भक्ति") को खुद मुख्य भाव मान लेते हैं, बिना सोचे-समझे.' }
+                { id: 'a', prompt: 'Apply the concept of metaphor to the line "eSa tkum¡ fut ukFk lqHkkmQA" (I am yours, not of anyone else).', answer: '**Correct Answer:** - **Tenor (subject):** The speaker (gopi/soul)',
+                  options: ['**Correct Answer:** - **Tenor (subject):** The speaker (gopi/soul)', 'without naming the implied noun'],
+                  hint: 'If stuck on identifying senses, review "Sensory Word Bank" from Class 11 node.',
+                  misconception: '**Misconception:** "Imagery is only about *visual* descriptions (pictures in the mind), and metaphor is just a \'fancy synonym\' for simile.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को सबसे पहले एक पद दिया जाना चाहिए जिसमें दोहराया गया शब्द स्पष्ट रूप से प्रतीक हो (जैसे "जहाँ दया तहाँ धर्म है".', 'यदि हम इसे हटा दें तो क्या अर्थ बदल जाता है?" फिर उन्हें पद का भाव बताने के लिए कहा जाना चाहिए - "यह पद हमें कैसा महसूस.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'misconception-imagery-is-only-about': { steps: ['**Remediation Path (3 steps):** 1.', '**Sensory Re-calibration (15 min):** Give the student a 4-line unseen Hindi poem.', 'Ask them to *circle* every word triggering a sense and *label* the sense (V/A/T/O/G).', 'If they find only visual, assign "Sensory Walk" homework: describe a परिचित place (kitchen, bus stand) using *only*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_009', difficulty: 'standard',
-          question: '**गौण भाव** (Subsidiary Sentiment) काव्य में वह द्वितीयक रस/भाव है जो मुख्य रस.',
-          hint: 'यदि मुख्य भाव अस्पष्ट हो तो **c12_hin_a_cbse_06_008** पर लौटें; यदि पद्यांश समझ न आए तो.',
-          misconception: '**सबसे घातक भ्रम**: *"गौण भाव = मुख्य भाव का कमजोर/छोटा संस्करण"* — छात्र भरत-प्रसंग को \'राम-भक्ति का हल्का रूप\' मान.',
+          question: '\'हजारी-जइके\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+          hint: 'If stuck, review the "tenor-vehicle" distinction in metaphors (c12_hin_a_cbse_06_008) and.',
+          misconception: 'Students consistently confuse *situational irony* with *bad luck* or *coincidence* (e.g., "It\'s ironic that it rained.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**गौण भाव** (Subsidiary Sentiment) काव्य में वह द्वितीयक रस/भाव है जो मुख्य रस (यहाँ',
-                  options: ['**गौण भाव** (Subsidiary Sentiment) काव्य में वह द्वितीयक रस/भाव है जो मुख्य रस (यहाँ', 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों', 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है'],
-                  hint: 'यदि मुख्य भाव अस्पष्ट हो तो **c12_hin_a_cbse_06_008** पर लौटें; यदि पद्यांश समझ न आए तो.',
-                  misconception: '**सबसे घातक भ्रम**: *"गौण भाव = मुख्य भाव का कमजोर/छोटा संस्करण"* — छात्र भरत-प्रसंग को \'राम-भक्ति का हल्का रूप\' मान लेते हैं, जबकि भरत का.' }
+                { id: 'a', prompt: 'Define verbal irony and give one example from the poem "Hajir-Jaik ka Izhaar" where Hajir\'s spoken words contradict her inner state.', answer: 'Verbal irony occurs when a speaker says the opposite of what they mean',
+                  options: ['Verbal irony occurs when a speaker says the opposite of what they mean', 'It\'s ironic that it rained on her wedding day'],
+                  hint: 'If stuck, review the "tenor-vehicle" distinction in metaphors (c12_hin_a_cbse_06_008) and practice.',
+                  misconception: 'Students consistently confuse *situational irony* with *bad luck* or *coincidence* (e.g., "It\'s ironic that it rained on her wedding day".' },
+                { id: 'b', prompt: 'Apply the concept of situational irony to the moment in the prose when Hajir\'s mother (Daksha) tries to protect her from Krishna\'s influence but inadvertently.', answer: 'Step 1: Daksha fears Krishna\'s pull and imposes strict restrictions',
+                  options: ['Step 1: Daksha fears Krishna\'s pull and imposes strict restrictions', 'It\'s ironic that it rained on her wedding day'],
+                  hint: 'If stuck, review the "tenor-vehicle" distinction in metaphors (c12_hin_a_cbse_06_008) and practice.',
+                  misconception: 'Students consistently confuse *situational irony* with *bad luck* or *coincidence* (e.g., "It\'s ironic that it rained on her wedding day".' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**चरण 1**: छात्र को **c12_hin_a_cbse_06_008 (मुख्य भाव और संदेश)** दोबारा पढ़ने को कहें — मुख्य भाव (भक्ति/शान्त) को.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-consistently-confuse-situational-irony': { steps: ['If a student cannot distinguish irony types or reduces symbols to metaphors: 1) Have them create a three-column table.', '2) For symbolism, use the "onion peel" exercise: take the peacock feather — Layer 1 (physical): feather with.', '3) Re-attempt Diagnostic Questions 3 and 4 after this.', 'If still stuck, revisit c11_hin_ar_cbse_01_009 (Class 11 Irony and Symbolism) for foundational definitions.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_010', difficulty: 'standard',
-          question: 'पदावली के अंतर्गत तुलसीदास के पदों में प्रयुक्त क्लिष्ट/तत्सम/देशज शब्दों के.',
-          hint: 'यदि प्रसंगानुकूल अर्थ नहीं पकड़ पा रहे, तो **c12_hin_a_cbse_06_002 (पद्यांश-वार.',
-          misconception: '**सबसे घातक भ्रांति:** "कठिन शब्द का अर्थ = शब्दकोश में दिया पहला अर्थ।" छात्र \'अनघ\', \'निर्मल\', \'अच्युत\' जैसे तत्सम.',
+          question: '\'हजारी-जइके\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
+          hint: 'If stuck on Braj forms (लुसग़, फुल्कि), revisit Class 11 node c11_hin_v_cbse_01_010 where.',
+          misconception: 'Students treat the NCERT \'शब्दार्थ\' list as a static glossary to memorise for 1-mark questions, ignoring that Raskhan\'s.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली के अंतर्गत तुलसीदास के पदों में प्रयुक्त क्लिष्ट/तत्सम/देशज शब्दों के प्रसंगानुकूल',
-                  options: ['पदावली के अंतर्गत तुलसीदास के पदों में प्रयुक्त क्लिष्ट/तत्सम/देशज शब्दों के प्रसंगानुकूल', 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों', 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है'],
-                  hint: 'यदि प्रसंगानुकूल अर्थ नहीं पकड़ पा रहे, तो **c12_hin_a_cbse_06_002 (पद्यांश-वार भावार्थ)** के.',
-                  misconception: '**सबसे घातक भ्रांति:** "कठिन शब्द का अर्थ = शब्दकोश में दिया पहला अर्थ।" छात्र \'अनघ\', \'निर्मल\', \'अच्युत\' जैसे तत्सम शब्दों का केवल एक अर्थ.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'हजारी-जइके\' की पदावली',
+                  options: ['\'हजारी-जइके\' की पदावली', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'हजारी-जइके\' का कथानक', '\'हजारी-जइके\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck on Braj forms (लुसग़, फुल्कि), revisit Class 11 node c11_hin_v_cbse_01_010 where Braj.',
+                  misconception: 'Students treat the NCERT \'शब्दार्थ\' list as a static glossary to memorise for 1-mark questions, ignoring that Raskhan\'s vocabulary is.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**चरण 1:** NCERT पाठ्यपुस्तक के \'पदावली\' खंड से 10 कठिन शब्द चुनकर उनकी **प्रसंगानुकूल अर्थ-सूची** बनाओ (शब्दकोश अर्थ.', '**चरण 2:** तुलसीदास के किन्हीं दो पदों में आए 3-3 मुहावरे निकालो और उनकी **तुलनात्मक सारणी** बनाओ (शाब्दिक.', '**चरण 3:** किसी एक मुहावरे (जैसे \'भवसागर\') पर 50 शब्दों का **मिनी-निबंध** लिखो: तुलसी के यहाँ अर्थ → सूफी काव्य में.', '**पुनः निदान:** उपरोक्त DIAGNOSTIC_QUESTION_3 और 4 फिर से हल करो। यदि अब भी प्रसंगानुकूल अर्थ नहीं पकड़ पा रहे हो, तो.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-the-ncert-list': { steps: ['If a student cannot move beyond gloss-memorisation: (1) Assign a "Word Autopsy" for 5 key words: root > suffix >.', '(2) Have them read aloud the Braj lines focusing *only* on the target word\'s sound (e.g., the retroflex flap in लुसग़.', '(3) Map each word to its Sanskrit/Persian ancestor using Monier-Williams or Platts (online) to make etymology visible.', '(4) Re-attempt Diagnostic Q3 and Q6 after 48 hours — if they still substitute synonyms without prosodic justification.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_011', difficulty: 'standard',
-          question: 'तुलसीदास के पद्यों में भाषा-प्रयोग शब्दों के चयन, वाक्य विन्यास, अलंकारिक.',
+          question: '\'हजारी-जइके\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली.',
           hint: 'यदि फंसे तो c12_hin_a_cbse_06_005 (छंद और लय-विधान) की दोबारा समीक्षा करें, विशेष रूप से.',
           misconception: 'छात्र अक्सर मानते हैं कि तुलसीदास के पद्यों में भाषा-प्रयोग का अर्थ केवल कठिन शब्दों के अर्थ जानना है, जबकि वास्तव में.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'तुलसीदास के पद्यों में भाषा-प्रयोग शब्दों के चयन, वाक्य विन्यास, अलंकारिक प्रयोग और छंदीय',
-                  options: ['तुलसीदास के पद्यों में भाषा-प्रयोग शब्दों के चयन, वाक्य विन्यास, अलंकारिक प्रयोग और छंदीय', 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों', 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'हजारी-जइके\' में भाषा-प्रयोग',
+                  options: ['\'हजारी-जइके\' में भाषा-प्रयोग', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'हजारी-जइके\' का कथानक', '\'हजारी-जइके\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फंसे तो c12_hin_a_cbse_06_005 (छंद और लय-विधान) की दोबारा समीक्षा करें, विशेष रूप से मात्रा और.',
                   misconception: 'छात्र अक्सर मानते हैं कि तुलसीदास के पद्यों में भाषा-प्रयोग का अर्थ केवल कठिन शब्दों के अर्थ जानना है, जबकि वास्तव में यह वाक्य विन्यास.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक ही पंक्ति में वाक्य विन्यास बदलने से अर्थ में परिवर्तन आता है (जैसे "राम जाते हैं" vs "जाते हैं.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_06_012', difficulty: 'standard',
-          question: 'वस्तुनिष्ठ प्रश्न वे होते हैं जिनमें तथ्यात्मक जानकारी जैसे शब्दार्थ, छंद.',
+          question: '\'हजारी-जइके\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
           hint: 'यदि छात्र शब्दार्थ में फंस रहा है तो c12_hin_a_cbse_06_010 (पदावली: कठिन शब्द और मुहावरे).',
           misconception: 'छात्र अक्सर आशय-सूचक प्रश्नों का उत्तर देते समय कविता की पंक्तियों को दोहराकर सोचते हैं कि वे भाव स्पष्ट कर रहे हैं.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न वे होते हैं जिनमें तथ्यात्मक जानकारी जैसे शब्दार्थ, छंद, अलंकार पूछी',
-                  options: ['वस्तुनिष्ठ प्रश्न वे होते हैं जिनमें तथ्यात्मक जानकारी जैसे शब्दार्थ, छंद, अलंकार पूछी', 'तुलसीदास (1532-1623) अवध के संत-कवि थे जिन्होंने अवधी भाषा में \'रामचरितमानस\' की रचना कर', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (स्टांजा) को पढ़कर उसके शब्दों', 'काव्य-संरचना पद्य के समग्र फ्रेमवर्क को संदर्भित करती है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'हजारी-जइके\' के वस्तुनिष्ठ प्रश्न',
+                  options: ['\'हजारी-जइके\' के वस्तुनिष्ठ प्रश्न', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'हजारी-जइके\' का कथानक', '\'हजारी-जइके\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि छात्र शब्दार्थ में फंस रहा है तो c12_hin_a_cbse_06_010 (पदावली: कठिन शब्द और मुहावरे) को दोबारा.',
                   misconception: 'छात्र अक्सर आशय-सूचक प्रश्नों का उत्तर देते समय कविता की पंक्तियों को दोहराकर सोचते हैं कि वे भाव स्पष्ट कर रहे हैं, जैसे प्रश्न हो—"कवि.' }
           ],

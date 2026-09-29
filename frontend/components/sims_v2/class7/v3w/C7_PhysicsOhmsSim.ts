@@ -6,13 +6,13 @@ import C7_PhysicsOhmsSim from '../../../simulations/c6_12/C7_PhysicsOhmsSim';
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_physicsohmssim: SimDef = {
     id: 'v3w_c7_physicsohmssim',
-    title: 'Ohms',
+    title: 'Electric Switch: Opening and Closing a Circuit',
     subtitle: 'Covers mechanical toggle, slide, and push-button switches in simple direct current (DC).',
     classLevel: 7, subject: 'physics', topic: 'Electric Switch: Opening and Closing a Circuit',
     chapters: [],
     nodeIds: ['c7_physics_ch02_007', 'c7_physics_ch02_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'When you walk into your classroom and press the wall switch to turn on the ceiling fan, you hear a click and.', goal: 'Master Ohms.' },
+    scenario: { role: 'a class 7 learner', intro: 'When you walk into your classroom and press the wall switch to turn on the ceiling fan, you hear a click and.', goal: 'Master Electric Switch: Opening and Closing a Circuit.' },
     discovery: {
         question: 'A circuit contains a 3V battery, an open switch, and a small electric lamp connected in series.',
         options: ['When the switch is open, the current is 0 A', 'stores', 'consumes'],
@@ -42,12 +42,12 @@ export const w_c7_physicsohmssim: SimDef = {
             { text: 'Verify the answer: The leakage current is extremely small ($0.11 \\text{ milliamperes}$), proving PVC is an excellent.', faded: true, blankAnswer: '0.00011 A (or 0.11 mA)' }
             ] } },
         { type: 'dissect', nodeId: 'c7_physics_ch02_010', title: 'Identify each idea',
-          dissect: { specimen: 'Ohms', spots: [
+          dissect: { specimen: 'Electric Switch: Opening and Closing a Circuit', spots: [
             { id: 's1', label: 'An electric switch is a', prompt: 'Which idea is this? — An electric switch is a simple mechanical or electronic device used to open or close an.', answer: 'An electric switch is a', options: ['An electric switch is a', 'Electrical insulators are materials that'] },
             { id: 's2', label: 'Electrical insulators are materials that', prompt: 'Which idea is this? — Electrical insulators are materials that completely block the flow of electric current.', answer: 'Electrical insulators are materials that', options: ['Electrical insulators are materials that', 'An electric switch is a'] }
           ] } }
     ],
-    explore: { component: C7_PhysicsOhmsSim, prompt: 'Explore the interactive — Ohms' },
+    explore: { component: C7_PhysicsOhmsSim, prompt: 'Explore the interactive — Electric Switch: Opening and Closing a Circuit' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_physics_ch02_007', difficulty: 'standard',
           question: 'An electric switch is a simple mechanical or electronic device used to open or.',

@@ -72,7 +72,7 @@ export const c8_engl_ch05_p3: SimDef = {
           misconception: 'Students often confuse science fiction with fantasy, assuming any story set in space can include impossible, magical.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Science fiction (sci-fi) is a genre of literature that uses plausible scientific',
-                  options: ['Science fiction (sci-fi) is a genre of literature that uses plausible scientific', 'In science fiction, the **setting** is the specific time and place (often futuristic or', 'Comprehension of how Claribel the canary survived in zero gravity involves understanding', 'Critical thinking about adapting to life in space involves evaluating the challenges'],
+                  options: ['Science fiction (sci-fi) is a genre of literature that uses plausible scientific', 'In science fiction, the **setting** is the specific time and place (often futuristic or', 'Comprehension of how Claribel the canary survived in zero gravity involves understanding', 'From \'English chapter c8_engl_ch5\': the skill or concept this node teaches, applied to'],
                   hint: 'If stuck, review how setting creates constraints in adventure stories (`c7_engl_ch04_001`) and.',
                   misconception: 'Students often confuse science fiction with fantasy, assuming any story set in space can include impossible, magical occurrences without.' }
           ],
@@ -126,7 +126,7 @@ export const c8_engl_ch05_p3: SimDef = {
           ],
             remediations: { 'humor-in-a-story-must': { steps: ['If a student fails to see the humor, do not just tell them "it is funny." Instead, use the **Expectation vs.', 'Reality T-Chart** method: 1.', 'Draw two columns on a board/paper.', 'Label Column A: "What we expect on a scientific space station" and Column B: "What actually happens in this scene." 2.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c8_engl_ch5_9', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to determining the precise meaning and grammatical.',
+          question: 'From \'English chapter c8_engl_ch5\': the skill or concept this node teaches.',
           hint: 'If stuck, review the concept of Context Clues from Class 7 (`c7_engl_ch05_007`).',
           misconception: 'Students often think "fuse" only means "to join together" (verb) or confuse the electrical noun "fuse" with the fuse.',
           parts: [

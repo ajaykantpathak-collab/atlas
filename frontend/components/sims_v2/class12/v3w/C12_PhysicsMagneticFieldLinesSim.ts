@@ -6,13 +6,13 @@ import C12_PhysicsMagneticFieldLinesSim from '../../../simulations/c6_12/C12_Phy
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsmagneticfieldlinessim: SimDef = {
     id: 'v3w_c12_physicsmagneticfieldlinessim',
-    title: 'Magnetic Field Lines',
+    title: 'Bar Magnet: Properties and Magnetic Field Lines',
     subtitle: 'This node covers: (a) properties of a bar magnet (poles, dipole nature, cutting a.',
     classLevel: 12, subject: 'physics', topic: 'Bar Magnet: Properties and Magnetic Field Lines',
     chapters: [],
     nodeIds: ['c12_phy_cbse_05_001', 'c12_phy_cbse_05_003', 'c12_phy_cbse_04_006', 'c12_phy_cbse_02_004', 'c12_phy_cbse_05_002', 'c12_phy_cbse_05_004', 'c12_phy_cbse_05_005', 'c12_phy_cbse_05_006', 'c12_phy_cbse_05_007', 'c12_phy_cbse_08_001', 'c12_phy_cbse_08_002', 'c12_phy_cbse_08_004', 'c12_phy_cbse_08_005', 'c12_phy_cbse_04_001', 'c12_phy_cbse_04_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: take a bar magnet from the school physics lab, place it on a table, and.', goal: 'Master Magnetic Field Lines.' },
+    scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: take a bar magnet from the school physics lab, place it on a table, and.', goal: 'Master Bar Magnet: Properties and Magnetic Field Lines.' },
     discovery: {
         question: 'Design a simple experiment using only a bar magnet, a small compass needle, a sheet of paper, and a pencil to plot the magnetic field lines of the bar magnet.',
         options: ['**Procedure:** 1', 'sprinkle iron filings', 'compass points to geographic north'],
@@ -79,7 +79,7 @@ export const w_c12_physicsmagneticfieldlinessim: SimDef = {
             { text: 'Verify: tan δ = V_E/H_E = 0.6235/0.36 = 1.732 = tan 60° ✓; B_E² = H_E² + V_E² = 0.1296 + 0.3888 = 0.5184 → B_E = 0.72 G.', faded: true, blankAnswer: '(a) V_E = 0.624 G = 6.24 × 10⁻⁵ T; (b) B_E = 0.72 G = 7.2 ×.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_05_003', title: 'Identify each idea',
-          dissect: { specimen: 'Magnetic Field Lines', spots: [
+          dissect: { specimen: 'Bar Magnet: Properties and Magnetic Field Lines', spots: [
             { id: 's1', label: 'A bar magnet is a', prompt: 'Which idea is this? — A bar magnet is a rectangular piece of ferromagnetic material (such as iron, steel, or.', answer: 'A bar magnet is a', options: ['A bar magnet is a', 'The magnetic field due to', 'Amperes circuital law states that', 'An equipotential surface is a'] },
             { id: 's2', label: 'The magnetic field due to', prompt: 'Which idea is this? — The magnetic field due to a bar magnet at a point far from its centre (distance \\(r \\gg.', answer: 'The magnetic field due to', options: ['The magnetic field due to', 'A bar magnet is a', 'Amperes circuital law states that', 'An equipotential surface is a'] },
             { id: 's3', label: 'Amperes circuital law states that', prompt: 'Which idea is this? — Ampere\'s circuital law states that for any closed loop (called an Amperian loop) in a.', answer: 'Amperes circuital law states that', options: ['Amperes circuital law states that', 'A bar magnet is a', 'The magnetic field due to', 'An equipotential surface is a'] },
@@ -88,7 +88,7 @@ export const w_c12_physicsmagneticfieldlinessim: SimDef = {
             { id: 's6', label: 'Earths magnetic field at any', prompt: 'Which idea is this? — Earth\'s magnetic field at any location is completely described by three independent.', answer: 'Earths magnetic field at any', options: ['Earths magnetic field at any', 'A bar magnet is a', 'The magnetic field due to', 'Amperes circuital law states that'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsMagneticFieldLinesSim, prompt: 'Explore the interactive — Magnetic Field Lines' },
+    explore: { component: C12_PhysicsMagneticFieldLinesSim, prompt: 'Explore the interactive — Bar Magnet: Properties and Magnetic Field Lines' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_05_001', difficulty: 'standard',
           question: 'A bar magnet is a rectangular piece of ferromagnetic material (such as iron,.',

@@ -19,7 +19,7 @@ export const c12_hin_a_ch12_p2: SimDef = {
         hook: '\'Simple\' isn\'t \'artless\' — colloquial, descriptive, expressive prose immerses you in village life so hardship and tenderness land as lived, not reported. A socialist lens sees both the poverty AND the feeling; the story outlives its decade because the rural-urban divide still argues today.',
     },
     teaching: [
-        { title: 'संवदयिा — गौण विषय', text: 'गौण विषय वह विचार या भाव है जो मुख्य विषय को समर्थन देता है, कहानी की गहराई बढ़ाता है, लेकिन केंद्रीय संदेश का हिस्सा नहीं होता।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'संवदयिा — गौण विषय', text: '\'अंतरा भाग-2 — पाठ 12\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_12_007', title: 'Your mission',
@@ -28,6 +28,13 @@ export const c12_hin_a_ch12_p2: SimDef = {
         context: 'Enter the village through its own speech: weigh a freedom fighter\'s lens on rural suffering, test why colloquiality is craft, and ask what a 1950s story still teaches a 2025 reader.',
         labels: ['संवदयिा — गौण विषय', 'संवदयिा — साहित्यिक युक्तियाँ', 'संवदयिा — पदावली: मुख्य', 'संवदयिा — व्याकरण: पाठ', 'संवदयिा — बोध-प्रश्न: वस्तुनिष्ठ'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_12_011', title: 'संवदयिा — व्याकरण: पाठ में भाषा-प्रयोग',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 12\' की भाषा देखिए — NCERT पाठ्यपुस्तक का शब्द-चयन और शैली भाव बनाती है।',
+            decisions: [{ prompt: 'Identify three dialectal vocabulary items from the story "Laoofnak" and give their standard Hindi equivalents.', options: [
+                { text: 'Correct answer: (1) dkcqyh&dk;nk → doctor (compounder), (2) ekjI+kQr → ekant', outcome: 'Correct answer: (1) dkcqyh&dk;nk → doctor (compounder), (2) ekjI+kQr → ekant (solitude/privacy).' },
+                { text: 'dkcqyh = dakhu', outcome: 'Not quite — Students treat "dialect" as merely a list of vocabulary substitutions (dkcqyh = doctor) and ignore.', reveals: 'students-treat-dialect-as-merely' },
+                { text: 'fuekSfN;s', outcome: 'Not quite — Students treat "dialect" as merely a list of vocabulary substitutions (dkcqyh = doctor) and ignore.', reveals: 'students-treat-dialect-as-merely' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_12_007', title: 'Use it in the wild',
           caseStudy: { intro: 'Your family wants to shift the ageing grandmother — who has nursed half the village\'s children — into your city flat \'for her own good.\' She refuses flatly, and everyone calls it stubbornness.',
             decisions: [{ prompt: 'How does the climax of \'रेणु\' read her refusal?', options: [
@@ -47,67 +54,82 @@ export const c12_hin_a_ch12_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_007', difficulty: 'standard',
-          question: 'गौण विषय वह विचार या भाव है जो मुख्य विषय को समर्थन देता है, कहानी की गहराई.',
+          question: '\'अंतरा भाग-2 — पाठ 12\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
           hint: 'यदि फँसें तो c12_hin_a_cbse_12_006 (मुख्य विषय और संदेश) पर फिर से काम करें और मुख्य विषय.',
           misconception: 'students अक्सर मानते हैं कि यदि कोई पात्र या घटना कहानी में बार-बार आती है या भावनात्मक रूप से मजबूत है, तो वह मुख्य.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय वह विचार या भाव है जो मुख्य विषय को समर्थन देता है, कहानी की गहराई बढ़ाता है,',
-                  options: ['गौण विषय वह विचार या भाव है जो मुख्य विषय को समर्थन देता है, कहानी की गहराई बढ़ाता है,', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 12\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
+                  options: ['\'अंतरा भाग-2 — पाठ 12\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि फँसें तो c12_hin_a_cbse_12_006 (मुख्य विषय और संदेश) पर फिर से काम करें और मुख्य विषय से गौण.',
                   misconception: 'students अक्सर मानते हैं कि यदि कोई पात्र या घटना कहानी में बार-बार आती है या भावनात्मक रूप से मजबूत है, तो वह मुख्य विषय होना चाहिए।.' }
           ],
             remediations: { 'students': { steps: ['छात्र को दिखाएँ कि कहानी के अंत में क्या बदलता है: यदि बूढ़ा पात्र की बातें हटा दें और मुख्य संघर्ष का समाधान समान रहे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_008', difficulty: 'standard',
-          question: 'बिंब वह मानसिक चित्र है जो कविता के शब्दों से पाठक के मन में उत्पन्न होता है.',
+          question: '\'अंतरा भाग-2 — पाठ 12\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
           hint: 'यदि छात्र बिंब और रूपक के बीच के अंतर को समझ नहीं पा रहा है, तो कक्षा 11 के नोड.',
           misconception: 'छात्र अक्सर बिंब और रूपक को इस कारण से混동 करते हैं कि दोनों चित्रात्मक भाषा का प्रयोग करते हैं और दोनों ही कविता की.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बिंब वह मानसिक चित्र है जो कविता के शब्दों से पाठक के मन में उत्पन्न होता है, जबकि रूपक',
-                  options: ['बिंब वह मानसिक चित्र है जो कविता के शब्दों से पाठक के मन में उत्पन्न होता है, जबकि रूपक', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 12\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
+                  options: ['\'अंतरा भाग-2 — पाठ 12\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि छात्र बिंब और रूपक के बीच के अंतर को समझ नहीं पा रहा है, तो कक्षा 11 के नोड.',
                   misconception: 'छात्र अक्सर बिंब और रूपक को इस कारण से混동 करते हैं कि दोनों चित्रात्मक भाषा का प्रयोग करते हैं और दोनों ही कविता की सुंदरता बढ़ाते हैं। वे.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को दो अलग-अलग रंग के हाईलाइटर दें: एक बिंब के लिए (शब्दों के चारों ओर घेरा डालें जो मन में चित्र, आवाज़, गंध.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_009', difficulty: 'standard',
-          question: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली नज़र में तर्क-विरुद्ध या.',
-          hint: 'यदि फँसें तो **c11_hin_a_cbse_01_009** के \'विरोधाभास व प्रतीक में अंतर\' और \'सरल उदाहरण\'.',
-          misconception: '**सबसे घातक भ्रम:** छात्र **विरोधाभास** को **विरोधाभास अलंकार (Oxymoron)** समझ लेते हैं — जैसे "जीवित मृत", "मधुर.',
+          question: '\'अंतरा भाग-2 — पाठ 12\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+          hint: 'If stuck, revisit the distinction between literal and figurative meaning using the.',
+          misconception: 'Students often treat irony and symbolism as "hidden meanings" to be guessed rather than textual patterns to be traced.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली नज़र में तर्क-विरुद्ध या असंगत लगता',
-                  options: ['**विरोधाभास (Paradox):** एक ऐसा कथन या स्थिति जो पहली नज़र में तर्क-विरुद्ध या असंगत लगता', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
-                  hint: 'यदि फँसें तो **c11_hin_a_cbse_01_009** के \'विरोधाभास व प्रतीक में अंतर\' और \'सरल उदाहरण\' खंड को.',
-                  misconception: '**सबसे घातक भ्रम:** छात्र **विरोधाभास** को **विरोधाभास अलंकार (Oxymoron)** समझ लेते हैं — जैसे "जीवित मृत", "मधुर कड़वा" — जो केवल **दो.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 12\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+                  options: ['\'अंतरा भाग-2 — पाठ 12\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'If stuck, revisit the distinction between literal and figurative meaning using the imagery/metaphor.',
+                  misconception: 'Students often treat irony and symbolism as "hidden meanings" to be guessed rather than textual patterns to be traced.' }
           ],
-            remediations: { 'oxymoron': { steps: ['**चरण 1:** छात्र से कहें: "पाठ से कोई एक वाक्य चुनो जो \'गलत\' लगे लेकिन \'सही\' लगे" — उसे लिखवाएँ; फिर पूछें: "कौन-सा.', '**चरण 2:** पाठ में **बार-बार आने वाली 3 वस्तुओं/छवियों** को सूचीबद्ध करवाएँ; प्रत्येक के लिए पूछें: "लेखक ने इसे ही.', 'क्या यह केवल वस्तु है या कुछ और कहती है?" — यह प्रतीक की **पुनरावृत्ति-आधारित पहचान** सिखाएगा। 3.', '**चरण 3:** कक्षा 11 के नोड **c11_hin_a_cbse_01_009** (साहित्यिक युक्तियाँ: विरोधाभास और प्रतीक) को दोबारा पढ़वाएँ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-irony-and': { steps: ['If a student cannot distinguish irony types or reduces symbols to single-word labels: (1) Give them a three-column.', 'Have them fill it for three scenes.', '(2) For symbols, use the "Physical → Abstract → Thematic" ladder: list 3 physical traits of the kite, then the abstract.', '(3) Re-read the Chhoti Chachi–Gajadhar dialogue (pages 79-80) aloud, pausing to ask: "What does she hear?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_010', difficulty: 'standard',
-          question: 'पदावली: मुख्य शब्द वे विशेष शब्द या शब्दसमूह हैं जो किसी पाठ के केंद्रीय विषय.',
+          question: '\'अंतरा भाग-2 — पाठ 12\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
           hint: 'अगर फँसें तो कथानक (c12_hin_a_cbse_12_002) और प्रमुख पात्र (c12_hin_a_cbse_12_004) पर.',
           misconception: 'छात्र अक्सर मुख्य शब्दों को पाठ के कठिन, अप्रयुक्त या Sanskrit pochod के शब्दों से जोड़कर समझते हैं, जैसे \'धर्म\', \'.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली: मुख्य शब्द वे विशेष शब्द या शब्दसमूह हैं जो किसी पाठ के केंद्रीय विषय, भाव या',
-                  options: ['पदावली: मुख्य शब्द वे विशेष शब्द या शब्दसमूह हैं जो किसी पाठ के केंद्रीय विषय, भाव या', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 12\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
+                  options: ['\'अंतरा भाग-2 — पाठ 12\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'अगर फँसें तो कथानक (c12_hin_a_cbse_12_002) और प्रमुख पात्र (c12_hin_a_cbse_12_004) पर दोबारा ध्यान.',
                   misconception: 'छात्र अक्सर मुख्य शब्दों को पाठ के कठिन, अप्रयुक्त या Sanskrit pochod के शब्दों से जोड़कर समझते हैं, जैसे \'धर्म\', \' moksha\' को मुख्य शब्द.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को पहले पाठ के तीन छोटे वाक्य दें और पूछें: "इन वाक्यों में कौन सा शब्द सबसे अधिक बार आया है और क्यों लगता है कि.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_011', difficulty: 'standard',
-          question: 'पाठ में भाषा-प्रयोग शब्दों के कार्य (जैसे विशेषण, क्रिया, सर्वनाम, संबंधबंध) को.',
-          hint: 'यदि फंसे हों, तो c12_hin_a_cbse_12_010 (पदावली: मुख्य शब्द) को दोबारा देखें — शब्दों के.',
-          misconception: 'छात्र अक्सर मानते हैं कि यदि कोई शब्द विशेषण के रूप में भी उपयोग होता है (जैसे "तेज", "साफ", "स्पष्ट"), तो वह किसी भी.',
+          question: '\'अंतरा भाग-2 — पाठ 12\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य.',
+          hint: 'If stuck on compound verbs: revisit Class 11 node c11_hin_ar_cbse_05_011 (aspectual.',
+          misconception: 'Students treat "dialect" as merely a list of vocabulary substitutions (dkcqyh = doctor) and ignore the systematic.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग शब्दों के कार्य (जैसे विशेषण, क्रिया, सर्वनाम, संबंधबंध) को उनके',
-                  options: ['पाठ में भाषा-प्रयोग शब्दों के कार्य (जैसे विशेषण, क्रिया, सर्वनाम, संबंधबंध) को उनके', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
-                  hint: 'यदि फंसे हों, तो c12_hin_a_cbse_12_010 (पदावली: मुख्य शब्द) को दोबारा देखें — शब्दों के अर्थ को.',
-                  misconception: 'छात्र अक्सर मानते हैं कि यदि कोई शब्द विशेषण के रूप में भी उपयोग होता है (जैसे "तेज", "साफ", "स्पष्ट"), तो वह किसी भी वाक्य में विशेषण ही.' }
+                { id: 'a', prompt: 'Identify three dialectal vocabulary items from the story "Laoofnak" and give their standard Hindi equivalents.', answer: 'Correct answer: (1) dkcqyh&dk;nk → doctor (compounder), (2) ekjI+kQr → ekant',
+                  options: ['Correct answer: (1) dkcqyh&dk;nk → doctor (compounder), (2) ekjI+kQr → ekant', 'dkcqyh = dakhu', 'fuekSfN;s'],
+                  hint: 'If stuck on compound verbs: revisit Class 11 node c11_hin_ar_cbse_05_011 (aspectual verbs) and.',
+                  misconception: 'Students treat "dialect" as merely a list of vocabulary substitutions (dkcqyh = doctor) and ignore the systematic grammatical differences.' },
+                { id: 'b', prompt: 'In the dialogue "cM+h gosyh vc ukeek=k dks gh cM+h gosyh gSA" — identify the sentence type, the grammatical function of "vc" and "gh", and rewrite the sentence.', answer: 'Correct answer: Sentence type = declarative/assertive with emphatic focus',
+                  options: ['Correct answer: Sentence type = declarative/assertive with emphatic focus', 'Ab badi gosai sirf badi gosai hai', 'Badi gosai ab badi gosai hai', '— the student hasn\'t grasped that Hindi particles like'],
+                  hint: 'If stuck on compound verbs: revisit Class 11 node c11_hin_ar_cbse_05_011 (aspectual verbs) and.',
+                  misconception: 'Students treat "dialect" as merely a list of vocabulary substitutions (dkcqyh = doctor) and ignore the systematic grammatical differences.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दो वाक्य दें: (1) "वह स्पष्ट बोलता है" और (2) "वह स्पष्ट रूप से बोलता है"। पहले वाक्य में "स्पष्ट" को विशेषण.', 'स्पष्ट)। दूसरे वाक्य में, पहले क्रिया "बोलता है" को पहचानने के लिए कहें, फिर पूछें कि "स्पष्ट रूप से" उसे कैसे बदल रहा.', 'यदि हां, तो यह क्रियाविशेषण है। इस तुलना के माध्यम से, छात्र देखेगा कि समान शब्द-समूह अलग-अलग कार्यों में कैसे काम करते.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-dialect-as-merely': { steps: ['Have the student isolate 10 sentences from the beggar woman\'s dialogue and 10 from Gyaneshwar\'s.', 'Create a two-column table: Column A = her sentence, Column B = standard Hindi translation.', 'For each pair, identify EXACTLY what changed: verb ending? postposition? pronoun? particle? word order?', 'Generalize 3-4 grammatical rules from the patterns (e.g., "She consistently uses -us infinitive where standard uses.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_011', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students treat "dialect" as merely a list of vocabulary substitutions (dkcqyh = doctor) and ignore the systematic.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the author\'s choice to render the beggar woman\'s internal monologue ("fdlosQ fy, bruk nq[k >syw¡\\...") in the same dialectal register as her spoken.', answer: 'Correct answer: It enhances psychological realism',
+                  options: ['Correct answer: It enhances psychological realism', 'it confuses readers'],
+                  hint: 'If stuck on compound verbs: revisit Class 11 node c11_hin_ar_cbse_05_011 (aspectual verbs) and.',
+                  misconception: 'Students treat "dialect" as merely a list of vocabulary substitutions (dkcqyh = doctor) and ignore the systematic grammatical differences.' }
+          ],
+            remediations: { 'students-treat-dialect-as-merely': { steps: ['Have the student isolate 10 sentences from the beggar woman\'s dialogue and 10 from Gyaneshwar\'s.', 'Create a two-column table: Column A = her sentence, Column B = standard Hindi translation.', 'For each pair, identify EXACTLY what changed: verb ending? postposition? pronoun? particle? word order?', 'Generalize 3-4 grammatical rules from the patterns (e.g., "She consistently uses -us infinitive where standard uses.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_012', difficulty: 'standard',
-          question: 'वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका उत्तर पाठ से सीधे उद्धृत.',
+          question: '\'अंतरा भाग-2 — पाठ 12\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
           hint: 'यदि आशय-सूचक प्रश्न पहचानने में अटके: **c11_hin_a_cbse_07_012** (सामान्य गलतियाँ पहचानना).',
           misconception: '**सबसे घातक भ्रम:** "आशय-सूचक प्रश्न का उत्तर पाठ की पंक्तियाँ **कॉपी-पेस्ट** करके दे दो।" **वास्तविकता:** CBSE.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका उत्तर पाठ से सीधे उद्धृत तथ्य, नाम,',
-                  options: ['वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका उत्तर पाठ से सीधे उद्धृत तथ्य, नाम,', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 12\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
+                  options: ['\'अंतरा भाग-2 — पाठ 12\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि आशय-सूचक प्रश्न पहचानने में अटके: **c11_hin_a_cbse_07_012** (सामान्य गलतियाँ पहचानना) और.',
                   misconception: '**सबसे घातक भ्रम:** "आशय-सूचक प्रश्न का उत्तर पाठ की पंक्तियाँ **कॉपी-पेस्ट** करके दे दो।" **वास्तविकता:** CBSE मार्किंग स्कीम में.' }
           ],

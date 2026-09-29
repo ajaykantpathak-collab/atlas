@@ -6,13 +6,13 @@ import C11_SociologyToolsDataCollectionSim from '../../../simulations/c6_12/C11_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_sociologytoolsdatacollectionsim: SimDef = {
     id: 'v3w_c11_sociologytoolsdatacollectionsim',
-    title: 'Tools Data Collection',
+    title: 'Objectivity and Subjectivity in Social Research',
     subtitle: 'This node covers the philosophical problem of objectivity vs. subjectivity in sociology,.',
     classLevel: 11, subject: 'sociology', topic: 'Objectivity and Subjectivity in Social Research',
     chapters: [],
     nodeIds: ['c11_soc_cbse_05_002', 'c11_soc_cbse_05_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a sociologist studying the impact of a new metro rail project on street vendors in your city.', goal: 'Master Tools Data Collection.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a sociologist studying the impact of a new metro rail project on street vendors in your city.', goal: 'Master Objectivity and Subjectivity in Social Research.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Objectivity in social research refers to the.', text: 'Objectivity in social research refers to the ideal of producing knowledge that is unbiased, neutral, and based solely on verifiable facts, independent of the researcher\'s personal values, beliefs, or.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -39,12 +39,12 @@ export const w_c11_sociologytoolsdatacollectionsim: SimDef = {
             { text: 'Conclude that the claim is factually false (he didn\'t invent the practices) but analytically true (he invented the.', faded: true, blankAnswer: 'The claim is historically inaccurate (fieldwork practices.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_soc_cbse_05_007', title: 'Identify each idea',
-          dissect: { specimen: 'Tools Data Collection', spots: [
+          dissect: { specimen: 'Objectivity and Subjectivity in Social Research', spots: [
             { id: 's1', label: 'Objectivity in social research refers', prompt: 'Which idea is this? — Objectivity in social research refers to the ideal of producing knowledge that is.', answer: 'Objectivity in social research refers', options: ['Objectivity in social research refers', 'Bronislaw Malinowski 18841942 was a'] },
             { id: 's2', label: 'Bronislaw Malinowski 18841942 was a', prompt: 'Which idea is this? — Bronislaw Malinowski (1884–1942) was a Polish-British anthropologist who transformed.', answer: 'Bronislaw Malinowski 18841942 was a', options: ['Bronislaw Malinowski 18841942 was a', 'Objectivity in social research refers'] }
           ] } }
     ],
-    explore: { component: C11_SociologyToolsDataCollectionSim, prompt: 'Explore the interactive — Tools Data Collection' },
+    explore: { component: C11_SociologyToolsDataCollectionSim, prompt: 'Explore the interactive — Objectivity and Subjectivity in Social Research' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_soc_cbse_05_007', difficulty: 'standard',
           question: 'Bronislaw Malinowski (1884–1942) was a Polish-British anthropologist who.',

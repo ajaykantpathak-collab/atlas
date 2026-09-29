@@ -6,13 +6,13 @@ import C8_ScienceReproductionInAnimalsSim from '../../../simulations/c6_12/C8_Sc
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_sciencereproductioninanimalssim: SimDef = {
     id: 'v3w_c8_sciencereproductioninanimalssim',
-    title: 'Reproduction In Animals',
+    title: 'Habitat: Definition and Components (Living and Non-Living)',
     subtitle: 'This node covers the definition of habitat and its two broad components (biotic and.',
     classLevel: 8, subject: 'science', topic: 'Habitat: Definition and Components (Living and Non-Living)',
     chapters: [],
     nodeIds: ['c8_physics_ch8_1', 'c8_physics_ch8_11', 'c8_physics_ch8_2', 'c8_physics_ch8_8'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Start by asking students to observe a nearby tree or pond: "What do you see living on and around it?" List.', goal: 'Master Reproduction In Animals.' },
+    scenario: { role: 'a class 8 learner', intro: 'Start by asking students to observe a nearby tree or pond: "What do you see living on and around it?" List.', goal: 'Master Habitat: Definition and Components (Living and Non-Living).' },
     discovery: {
         question: 'A region experiences a 30% reduction in annual rainfall over five years. The soil moisture drops from 25% to 15% (by volume).',
         options: ['1) Reduced photosynthesis', 'plants die', 'environmental changes affect all organisms in the same way and at the same time'],
@@ -61,14 +61,14 @@ export const w_c8_sciencereproductioninanimalssim: SimDef = {
             { text: 'State answer: Direct loss = 60 ha (5%). Effective loss for tigers = 100% of the landscape\'s conservation value for this.', faded: true, blankAnswer: 'Direct habitat loss = 60 hectares (5% of total). Effective.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_physics_ch8_11', title: 'Identify each idea',
-          dissect: { specimen: 'Reproduction In Animals', spots: [
+          dissect: { specimen: 'Habitat: Definition and Components (Living and Non-Living)', spots: [
             { id: 's1', label: 'A habitat is the natural', prompt: 'Which idea is this? — A habitat is the natural environment where an organism lives, providing all necessary.', answer: 'A habitat is the natural', options: ['A habitat is the natural', 'Environmental changes refer to alterations', 'An ecosystem is a functional', 'Deforestation is the large-scale removal'] },
             { id: 's2', label: 'Environmental changes refer to alterations', prompt: 'Which idea is this? — Environmental changes refer to alterations in physical factors such as temperature, light.', answer: 'Environmental changes refer to alterations', options: ['Environmental changes refer to alterations', 'A habitat is the natural', 'An ecosystem is a functional', 'Deforestation is the large-scale removal'] },
             { id: 's3', label: 'An ecosystem is a functional', prompt: 'Which idea is this? — An ecosystem is a functional unit where living organisms (biotic components) interact.', answer: 'An ecosystem is a functional', options: ['An ecosystem is a functional', 'A habitat is the natural', 'Environmental changes refer to alterations', 'Deforestation is the large-scale removal'] },
             { id: 's4', label: 'Deforestation is the large-scale removal', prompt: 'Which idea is this? — Deforestation is the large-scale removal of trees from forested land for human activities.', answer: 'Deforestation is the large-scale removal', options: ['Deforestation is the large-scale removal', 'A habitat is the natural', 'Environmental changes refer to alterations', 'An ecosystem is a functional'] }
           ] } }
     ],
-    explore: { component: C8_ScienceReproductionInAnimalsSim, prompt: 'Explore the interactive — Reproduction In Animals' },
+    explore: { component: C8_ScienceReproductionInAnimalsSim, prompt: 'Explore the interactive — Habitat: Definition and Components (Living and Non-Living)' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch8_1', difficulty: 'standard',
           question: 'A habitat is the natural environment where an organism lives, providing all.',

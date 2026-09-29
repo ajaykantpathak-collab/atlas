@@ -6,13 +6,13 @@ import C12_HistoryPunjabCrisisAkaliSim from '../../../simulations/c6_12/C12_Hist
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_historypunjabcrisisakalisim: SimDef = {
     id: 'v3w_c12_historypunjabcrisisakalisim',
-    title: 'Punjab Crisis Akali',
+    title: 'The Rowlatt Satyagraha (1919): The Act, the Hartal and Jallianwala Bagh',
     subtitle: 'This node covers: the Rowlatt Act\'s legislative background (Sidney Rowlatt Committee,.',
     classLevel: 12, subject: 'history', topic: 'The Rowlatt Satyagraha (1919): The Act, the Hartal and Jallianwala Bagh',
     chapters: [],
     nodeIds: ['c12_hist_cbse_11_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing at the Jallianwala Bagh memorial in Amritsar today — the bullet marks on the walls,.', goal: 'Master Punjab Crisis Akali.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing at the Jallianwala Bagh memorial in Amritsar today — the bullet marks on the walls,.', goal: 'Master The Rowlatt Satyagraha (1919): The Act, the Hartal and Jallianwala Bagh.' },
     discovery: {
         question: 'What was the specific date of the Jallianwala Bagh massacre, who gave the firing order, and what was the crowd gathered for?',
         options: ['The Jallianwala Bagh massacre occurred on 13 April 1919 (Baisakhi day)', 'Gandhi was leading the protest', 'it was a planned satyagraha meeting'],
@@ -33,7 +33,7 @@ export const w_c12_historypunjabcrisisakalisim: SimDef = {
             { text: 'Synthesise — The colonial state *could not see* mass nationalism because its categories (loyal subjects, passive.', faded: true, blankAnswer: 'The Home Department underestimated support because its.' }
             ] } }
     ],
-    explore: { component: C12_HistoryPunjabCrisisAkaliSim, prompt: 'Explore the interactive — Punjab Crisis Akali' },
+    explore: { component: C12_HistoryPunjabCrisisAkaliSim, prompt: 'Explore the interactive — The Rowlatt Satyagraha (1919): The Act, the Hartal and Jallianwala Bagh' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hist_cbse_11_002', difficulty: 'standard',
           question: 'The Rowlatt Satyagraha (March–April 1919) was the first all-India mass protest.',

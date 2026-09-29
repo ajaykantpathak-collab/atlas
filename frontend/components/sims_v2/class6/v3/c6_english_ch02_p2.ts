@@ -93,7 +93,7 @@ export const c6_english_ch02_p2: SimDef = {
           misconception: 'Students often add "-ed" to every verb to make it past tense, regardless of whether it is regular or irregular (e.g.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Tenses indicate the time of an action: the Present Tense describes actions happening now',
-                  options: ['Tenses indicate the time of an action: the Present Tense describes actions happening now', 'A plot is the sequence of major events that make up a story, while humour refers to the', 'Character analysis is the process of examining a character\'s traits, motivations, and', 'Communication and empathy are the abilities to understand, share, and respond to the'],
+                  options: ['Tenses indicate the time of an action: the Present Tense describes actions happening now', 'A plot is the sequence of major events that make up a story, while humour refers to the', 'From \'English chapter c6_english_u2\': the skill or concept this node teaches, applied to', 'Communication and empathy are the abilities to understand, share, and respond to the'],
                   hint: 'Review simple sentences and underline every action word you see in a paragraph.',
                   misconception: 'Students often add "-ed" to every verb to make it past tense, regardless of whether it is regular or irregular (e.g., saying "eated".' }
           ],
@@ -106,6 +106,10 @@ export const c6_english_ch02_p2: SimDef = {
                 { id: 'a', prompt: 'What punctuation mark must always be used to show that a character is speaking?', answer: 'Quotation marks (also called speech marks or inverted commas: " ")',
                   options: ['Quotation marks (also called speech marks or inverted commas: " ")', 'transcript'],
                   hint: 'Review the use of speech marks and basic sentence punctuation.',
+                  misconception: 'Students often think dialogue needs to be a "transcript" of every word said in real life, including "um," "ah," and boring greetings.' },
+                { id: 'b', prompt: 'Convert this sentence into direct dialogue: "Rahul told his sister that he had eaten the last mango."', answer: 'Identify the speaker (Rahul)',
+                  options: ['Identify the speaker (Rahul)', 'I ate the last mango', 'transcript'],
+                  hint: 'Review the use of speech marks and basic sentence punctuation.',
                   misconception: 'Students often think dialogue needs to be a "transcript" of every word said in real life, including "um," "ah," and boring greetings.' }
           ],
             remediations: { 'dialogue-needs-to-be-a': { steps: ['Tell the student to read their dialogue aloud.', 'Ask, "Does this line tell us something new about the character or the plot?" 3.', 'If the answer is "no," tell them to delete it.', 'Guide them to "jump" straight into the action of the conversation.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
@@ -114,8 +118,8 @@ export const c6_english_ch02_p2: SimDef = {
           hint: 'Review the definitions of "mood" and "tone" in simple stories.',
           misconception: 'Students often think "recitation" is just memorizing lines and saying them as fast as possible to show they know the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Storytelling and recitation are speaking skills that involve narrating a story or',
-                  options: ['Storytelling and recitation are speaking skills that involve narrating a story or', 'A plot is the sequence of major events that make up a story, while humour refers to the', 'Character analysis is the process of examining a character\'s traits, motivations, and', 'Communication and empathy are the abilities to understand, share, and respond to the'],
+                { id: 'a', prompt: 'If you are telling a story about a very tall giant and a very small mouse, how would you change your voice to show the difference?', answer: 'Identify the traits of the characters',
+                  options: ['Identify the traits of the characters', 'recitation'],
                   hint: 'Review the definitions of "mood" and "tone" in simple stories.',
                   misconception: 'Students often think "recitation" is just memorizing lines and saying them as fast as possible to show they know the poem.' }
           ],

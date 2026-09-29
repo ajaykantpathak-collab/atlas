@@ -6,13 +6,13 @@ import C6_PhysicsRectilinearPropagationLightSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_physicsrectilinearpropagationlightsim: SimDef = {
     id: 'v3w_c6_physicsrectilinearpropagationlightsim',
-    title: 'Rectilinear Propagation Light',
+    title: 'Light Travels in Straight Lines',
     subtitle: 'This node covers the rectilinear propagation of light (light travels in straight lines).',
     classLevel: 6, subject: 'physics', topic: 'Light Travels in Straight Lines',
     chapters: [],
     nodeIds: ['c6_physics_ch11_036', 'c6_physics_ch11_035'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever tried to look at a light bulb through a garden hose?', goal: 'Master Rectilinear Propagation Light.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever tried to look at a light bulb through a garden hose?', goal: 'Master Light Travels in Straight Lines.' },
     discovery: {
         question: 'A light source is placed in front of a circular ball. If the ball is moved closer to the wall behind it, what happens to the size of the shadow?',
         options: ['The shadow size decreases (or becomes sharper)', 'of blocked light rays', 'light "fills" a room like water fills a bucket, assuming it can go anywhere'],
@@ -38,7 +38,7 @@ export const w_c6_physicsrectilinearpropagationlightsim: SimDef = {
                 { text: 'bigger window', outcome: 'Not quite — Students often believe the pinhole "turns" the light around or that there is a mirror inside the.', reveals: 'the-pinhole-turns-the-light' }
             ] }] } }
     ],
-    explore: { component: C6_PhysicsRectilinearPropagationLightSim, prompt: 'Explore the interactive — Rectilinear Propagation Light' },
+    explore: { component: C6_PhysicsRectilinearPropagationLightSim, prompt: 'Explore the interactive — Light Travels in Straight Lines' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_physics_ch11_036', difficulty: 'standard',
           question: 'Light is a form of energy that travels in a straight line, known as rectilinear.',

@@ -6,13 +6,13 @@ import C12_MathsPlaneThrough3PointsSim from '../../../simulations/three/C12_Math
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathsplanethrough3pointssim: SimDef = {
     id: 'v3w_c12_mathsplanethrough3pointssim',
-    title: 'Plane Through3Points',
+    title: 'Equation of a Plane in Normal Form',
     subtitle: 'This node covers the derivation, interpretation, and conversion to normal form of a plane.',
     classLevel: 12, subject: 'mathematics', topic: 'Equation of a Plane in Normal Form',
     chapters: [],
     nodeIds: ['c12_math_cbse_11_006', 'c12_math_cbse_11_007', 'c12_math_cbse_11_009', 'c12_math_cbse_10_008', 'c12_math_cbse_11_003', 'c12_math_cbse_11_001', 'c12_math_cbse_11_002', 'c12_math_cbse_11_004', 'c12_math_cbse_11_008', 'c12_math_cbse_11_010', 'c12_math_cbse_10_003', 'c12_math_cbse_12_002', 'c12_math_cbse_12_003', 'c12_math_cbse_12_004', 'c12_math_cbse_12_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a kite flying at a height of 50 metres above a flat ground, with its string held at the origin.', goal: 'Master Plane Through3Points.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a kite flying at a height of 50 metres above a flat ground, with its string held at the origin.', goal: 'Master Equation of a Plane in Normal Form.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'The normal form of a plane is the equation.', text: 'The normal form of a plane is the equation of a plane expressed in terms of a unit normal vector \\(\\hat{\\mathbf{n}} = (l, m, n)\\) (where \\(l, m, n\\) are direction cosines of the normal) and the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -73,7 +73,7 @@ export const w_c12_mathsplanethrough3pointssim: SimDef = {
             { text: 'Verify: l²+m²+n² = (9+9+16)/34 = 34/34 = 1.', faded: true, blankAnswer: 'Direction cosines are (3/√34, 3/√34, -4/√34).' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_11_007', title: 'Identify each idea',
-          dissect: { specimen: 'Plane Through3Points', spots: [
+          dissect: { specimen: 'Equation of a Plane in Normal Form', spots: [
             { id: 's1', label: 'The normal form of a', prompt: 'Which idea is this? — The normal form of a plane is the equation of a plane expressed in terms of a unit normal.', answer: 'The normal form of a', options: ['The normal form of a', 'A plane in three-dimensional space', 'The angle between two planes', 'The vector equation of a'] },
             { id: 's2', label: 'A plane in three-dimensional space', prompt: 'Which idea is this? — A plane in three-dimensional space is uniquely determined if it passes through a given.', answer: 'A plane in three-dimensional space', options: ['A plane in three-dimensional space', 'The normal form of a', 'The angle between two planes', 'The vector equation of a'] },
             { id: 's3', label: 'The angle between two planes', prompt: 'Which idea is this? — The angle between two planes is defined as the acute angle between their normal vectors.', answer: 'The angle between two planes', options: ['The angle between two planes', 'The normal form of a', 'A plane in three-dimensional space', 'The vector equation of a'] },
@@ -82,7 +82,7 @@ export const w_c12_mathsplanethrough3pointssim: SimDef = {
             { id: 's6', label: 'Direction cosines of a line', prompt: 'Which idea is this? — Direction cosines of a line are the cosines of the angles made by the line with the.', answer: 'Direction cosines of a line', options: ['Direction cosines of a line', 'The normal form of a', 'A plane in three-dimensional space', 'The angle between two planes'] }
           ] } }
     ],
-    explore: { component: C12_MathsPlaneThrough3PointsSim, prompt: 'Explore the interactive — Plane Through3Points' },
+    explore: { component: C12_MathsPlaneThrough3PointsSim, prompt: 'Explore the interactive — Equation of a Plane in Normal Form' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_11_006', difficulty: 'standard',
           question: 'The normal form of a plane is the equation of a plane expressed in terms of a.',

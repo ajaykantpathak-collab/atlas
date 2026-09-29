@@ -6,13 +6,13 @@ import C11_GeographyOriginEvolutionEarthSim from '../../../simulations/c6_12/C11
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geographyoriginevolutionearthsim: SimDef = {
     id: 'v3w_c11_geographyoriginevolutionearthsim',
-    title: 'Origin Evolution Earth',
+    title: 'Evolution of the Atmosphere: Primordial vs Present Atmosphere',
     subtitle: 'Covers the origin and staged evolution of Earth\'s atmosphere from planetary accretion.',
     classLevel: 11, subject: 'geography', topic: 'Evolution of the Atmosphere: Primordial vs Present Atmosphere',
     chapters: [],
     nodeIds: ['c11_geo_cbse_02_006', 'c11_geo_cbse_02_007', 'c11_geo_cbse_02_008', 'c11_geo_cbse_01_007', 'c11_geo_cbse_01_010', 'c11_geo_cbse_02_002', 'c11_geo_cbse_02_004', 'c11_geo_cbse_02_005', 'c11_geo_cbse_02_009', 'c11_geo_cbse_07_009', 'c11_geo_cbse_01_004', 'c11_geo_cbse_01_001', 'c11_geo_cbse_01_002', 'c11_geo_cbse_06_002', 'c11_geo_cbse_06_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe the air around you right now — invisible, odourless, yet precisely 21% oxygen that allows you to.', goal: 'Master Origin Evolution Earth.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe the air around you right now — invisible, odourless, yet precisely 21% oxygen that allows you to.', goal: 'Master Evolution of the Atmosphere: Primordial vs Present Atmosphere.' },
     discovery: {
         question: 'Explain why the primordial atmosphere\'s hydrogen and helium escaped to space, while nitrogen and carbon dioxide were retained, using the concepts of molecular.',
         options: ['Hydrogen (2 g/mol) and helium (4 g/mol) have low molecular masses', 'gravity pulled heavier gases down', 'oxygen appeared suddenly and uniformly across the planet at the GOE (2'],
@@ -78,7 +78,7 @@ export const w_c11_geographyoriginevolutionearthsim: SimDef = {
             { text: 'Verify: z = 0.1 corresponds to ~1.3 Gyr lookback in standard cosmology; our Hubble-time approximation (1/H₀ ≈ 14.4 Gyr).', faded: true, blankAnswer: '(a) z = 0.100, (b) v = 30,000 km/s, (c) d = 441 Mpc, (d).' }
             ] } }
     ],
-    explore: { component: C11_GeographyOriginEvolutionEarthSim, prompt: 'Explore the interactive — Origin Evolution Earth' },
+    explore: { component: C11_GeographyOriginEvolutionEarthSim, prompt: 'Explore the interactive — Evolution of the Atmosphere: Primordial vs Present Atmosphere' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_02_006', difficulty: 'standard',
           question: 'The evolution of Earth\'s atmosphere refers to the multi-stage process by which.',

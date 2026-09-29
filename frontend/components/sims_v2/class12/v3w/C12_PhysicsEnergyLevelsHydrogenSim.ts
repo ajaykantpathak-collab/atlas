@@ -6,13 +6,13 @@ import C12_PhysicsEnergyLevelsHydrogenSim from '../../../simulations/c6_12/C12_P
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsenergylevelshydrogensim: SimDef = {
     id: 'v3w_c12_physicsenergylevelshydrogensim',
-    title: 'Energy Levels Hydrogen',
+    title: 'Rutherford\'s Nuclear Model: Alpha Scattering Experiment',
     subtitle: 'This node covers: (a) the historical alpha-scattering experiment and its key.',
     classLevel: 12, subject: 'physics', topic: 'Rutherford\'s Nuclear Model: Alpha Scattering Experiment',
     chapters: [],
     nodeIds: ['c12_phy_cbse_12_001', 'c12_phy_cbse_12_002', 'c12_phy_cbse_12_003', 'c12_phy_cbse_12_004', 'c12_phy_cbse_12_005', 'c12_phy_cbse_14_001', 'c12_phy_cbse_14_002', 'c12_phy_cbse_14_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine holding a thin gold leaf used in Indian traditional sweets (varak) — it is so thin that light passes.', goal: 'Master Energy Levels Hydrogen.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine holding a thin gold leaf used in Indian traditional sweets (varak) — it is so thin that light passes.', goal: 'Master Rutherford\'s Nuclear Model: Alpha Scattering Experiment.' },
     discovery: {
         question: 'The Geiger-Marsden experiment used a gold foil of thickness 2.1 × 10⁻⁷ m.',
         options: ['**Step 1:** Atomic diameter ≈ 2 × 1.4 × 10⁻¹⁰ m = 2.8 × 10⁻¹⁰ m', 'thin foil reduces absorption', 'multiple scattering increases large-angle events'],
@@ -78,7 +78,7 @@ export const w_c12_physicsenergylevelshydrogensim: SimDef = {
             { text: 'Verify consistency: Conductors have overlapping bands, semiconductors have E_g ~ 1 eV, insulators have E_g > 3 eV.', faded: true, blankAnswer: 'A: Conductor, B: Semiconductor, C: Insulator.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_12_002', title: 'Identify each idea',
-          dissect: { specimen: 'Energy Levels Hydrogen', spots: [
+          dissect: { specimen: 'Rutherford\'s Nuclear Model: Alpha Scattering Experiment', spots: [
             { id: 's1', label: 'Rutherfords nuclear model of the', prompt: 'Which idea is this? — Rutherford\'s nuclear model of the atom states that the entire positive charge and nearly.', answer: 'Rutherfords nuclear model of the', options: ['Rutherfords nuclear model of the', 'Bohrs model of the hydrogen', 'The energy levels of a', 'The line spectra of hydrogen'] },
             { id: 's2', label: 'Bohrs model of the hydrogen', prompt: 'Which idea is this? — Bohr\'s model of the hydrogen atom is based on three postulates: (1) Electrons revolve in.', answer: 'Bohrs model of the hydrogen', options: ['Bohrs model of the hydrogen', 'Rutherfords nuclear model of the', 'The energy levels of a', 'The line spectra of hydrogen'] },
             { id: 's3', label: 'The energy levels of a', prompt: 'Which idea is this? — The energy levels of a hydrogen atom are the discrete, quantized values of total energy.', answer: 'The energy levels of a', options: ['The energy levels of a', 'Rutherfords nuclear model of the', 'Bohrs model of the hydrogen', 'The line spectra of hydrogen'] },
@@ -87,7 +87,7 @@ export const w_c12_physicsenergylevelshydrogensim: SimDef = {
             { id: 's6', label: 'Energy bands in solids are', prompt: 'Which idea is this? — Energy bands in solids are continuous ranges of allowed energy levels for electrons,.', answer: 'Energy bands in solids are', options: ['Energy bands in solids are', 'Rutherfords nuclear model of the', 'Bohrs model of the hydrogen', 'The energy levels of a'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsEnergyLevelsHydrogenSim, prompt: 'Explore the interactive — Energy Levels Hydrogen' },
+    explore: { component: C12_PhysicsEnergyLevelsHydrogenSim, prompt: 'Explore the interactive — Rutherford\'s Nuclear Model: Alpha Scattering Experiment' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_12_001', difficulty: 'standard',
           question: 'Rutherford\'s nuclear model of the atom states that the entire positive charge.',

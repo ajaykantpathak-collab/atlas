@@ -6,16 +6,16 @@ import C12_BiotechMicrobialCultureCBSESim from '../../../simulations/c6_12_new/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biotechmicrobialculturecbsesim: SimDef = {
     id: 'v3w_c12_biotechmicrobialculturecbsesim',
-    title: 'Microbial Culture CBSE',
+    title: 'Factors Affecting In Vitro Culture Responses',
     subtitle: 'This node covers the integrated analysis of factors influencing plant tissue culture.',
     classLevel: 12, subject: 'biotechnology', topic: 'Factors Affecting In Vitro Culture Responses',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_06_011', 'c12_biotech_cbse_08_009', 'c12_biotech_cbse_06_001', 'c12_biotech_cbse_06_002', 'c12_biotech_cbse_06_003', 'c12_biotech_cbse_06_004', 'c12_biotech_cbse_06_005', 'c12_biotech_cbse_06_006', 'c12_biotech_cbse_06_007', 'c12_biotech_cbse_06_008', 'c12_biotech_cbse_06_009', 'c12_biotech_cbse_06_010', 'c12_biotech_cbse_08_001', 'c12_biotech_cbse_08_002', 'c12_biotech_cbse_08_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you have set up a perfect MS medium with 2,4-D and kinetin for callus induction from carrot root.', goal: 'Master Microbial Culture CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you have set up a perfect MS medium with 2,4-D and kinetin for callus induction from carrot root.', goal: 'Master Factors Affecting In Vitro Culture Responses.' },
     discovery: {
         question: 'Compare the factor sensitivity of **direct organogenesis** (node 008) vs. **somatic embryogenesis** (node 009).',
-        options: ['Correct answer: (a) Somatic embryogenesis is far more sensitive to explant age', 'optimizing one factor (e.g., BAP concentration) will fix a failed protocol', '"optimizing one factor (e'],
+        options: ['(a) Somatic embryogenesis is far more sensitive to explant age', 'optimizing one factor (e.g., BAP concentration) will fix a failed protocol', '"optimizing one factor (e'],
         answer: '(a) Somatic embryogenesis is far more sensitive to explant age',
         hook: 'Students believe "optimizing one factor (e.g., BAP concentration) will fix a failed protocol." In reality, factors.',
     },
@@ -79,7 +79,7 @@ export const w_c12_biotechmicrobialculturecbsesim: SimDef = {
             { text: 'Note that rooting will require a separate medium (e.g., ½ MS + 1–2 mg/L IBA, no cytokinin) — multiplication and rooting.', faded: true, blankAnswer: 'Optimal medium = A (0.1 mg/L NAA + 2 mg/L BAP);.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_biotech_cbse_08_009', title: 'Identify each idea',
-          dissect: { specimen: 'Microbial Culture CBSE', spots: [
+          dissect: { specimen: 'Factors Affecting In Vitro Culture Responses', spots: [
             { id: 's1', label: 'Factors affecting in vitro culture', prompt: 'Which idea is this? — Factors affecting in vitro culture responses refer to the specific genetic,.', answer: 'Factors affecting in vitro culture', options: ['Factors affecting in vitro culture', 'Contamination in animal cell culture', 'Cell totipotency is the inherent', 'The history and milestones of'] },
             { id: 's2', label: 'Contamination in animal cell culture', prompt: 'Which idea is this? — Contamination in animal cell culture refers to the unwanted presence of microorganisms.', answer: 'Contamination in animal cell culture', options: ['Contamination in animal cell culture', 'Factors affecting in vitro culture', 'Cell totipotency is the inherent', 'The history and milestones of'] },
             { id: 's3', label: 'Cell totipotency is the inherent', prompt: 'Which idea is this? — Cell totipotency is the inherent genetic potential of a single plant cell to.', answer: 'Cell totipotency is the inherent', options: ['Cell totipotency is the inherent', 'Factors affecting in vitro culture', 'Contamination in animal cell culture', 'The history and milestones of'] },
@@ -88,7 +88,7 @@ export const w_c12_biotechmicrobialculturecbsesim: SimDef = {
             { id: 's6', label: 'Auxins and cytokinins are the', prompt: 'Which idea is this? — Auxins and cytokinins are the two primary classes of plant growth regulators used in.', answer: 'Auxins and cytokinins are the', options: ['Auxins and cytokinins are the', 'Factors affecting in vitro culture', 'Contamination in animal cell culture', 'Cell totipotency is the inherent'] }
           ] } }
     ],
-    explore: { component: C12_BiotechMicrobialCultureCBSESim, prompt: 'Explore the interactive — Microbial Culture CBSE' },
+    explore: { component: C12_BiotechMicrobialCultureCBSESim, prompt: 'Explore the interactive — Factors Affecting In Vitro Culture Responses' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_biotech_cbse_06_011', difficulty: 'standard',
           question: 'Factors affecting in vitro culture responses refer to the specific genetic,.',

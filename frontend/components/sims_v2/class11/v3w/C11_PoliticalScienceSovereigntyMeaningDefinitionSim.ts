@@ -6,13 +6,13 @@ import C11_PoliticalScienceSovereigntyMeaningDefinitionSim from '../../../simula
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_politicalsciencesovereigntymeaningdefinitionsim: SimDef = {
     id: 'v3w_c11_politicalsciencesovereigntymeaningdefinitionsim',
-    title: 'Sovereignty Meaning Definition',
+    title: 'Why do we need a constitution: Functions and importance',
     subtitle: 'This node covers the core functions and importance of a constitution in a democratic.',
     classLevel: 11, subject: 'political_science', topic: 'Why do we need a constitution: Functions and importance',
     chapters: [],
     nodeIds: ['c11_ps_cbse_10_002', 'c11_ps_cbse_09_010', 'c11_ps_cbse_07_004', 'c11_ps_cbse_06_002', 'c11_ps_cbse_06_010', 'c11_ps_cbse_01_003', 'c11_ps_cbse_01_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are playing a cricket match without any agreed-upon rules: no fixed number of players, no.', goal: 'Master Sovereignty Meaning Definition.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are playing a cricket match without any agreed-upon rules: no fixed number of players, no.', goal: 'Master Why do we need a constitution: Functions and importance.' },
     discovery: {
         question: 'Compare and contrast the role of "reason" in Political Theory versus its role in Mathematics, based on the NCERT\'s reference to Socrates and the statement:.',
         options: ['In Mathematics, reason operates on fixed, abstract axioms to derive necessary,', 'both use logic so they are the same', 'learning what famous dead philosophers like Plato or Marx said'],
@@ -70,7 +70,7 @@ export const w_c11_politicalsciencesovereigntymeaningdefinitionsim: SimDef = {
             { text: 'Formulate a reasoned position: E.g., "While owners have property rights, the park functions as a common good; a just.', faded: true, blankAnswer: 'The conflict is between property-based exclusion and.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_ps_cbse_09_010', title: 'Identify each idea',
-          dissect: { specimen: 'Sovereignty Meaning Definition', spots: [
+          dissect: { specimen: 'Why do we need a constitution: Functions and importance', spots: [
             { id: 's1', label: 'A constitution is the fundamental', prompt: 'Which idea is this? — A constitution is the fundamental law of a country that establishes the framework of.', answer: 'A constitution is the fundamental', options: ['A constitution is the fundamental', 'Human security is a paradigm', 'The French Revolution 1789 inaugurated', 'Citizenship as legal status refers'] },
             { id: 's2', label: 'Human security is a paradigm', prompt: 'Which idea is this? — Human security is a paradigm that shifts the referent object of security from the state.', answer: 'Human security is a paradigm', options: ['Human security is a paradigm', 'A constitution is the fundamental', 'The French Revolution 1789 inaugurated', 'Citizenship as legal status refers'] },
             { id: 's3', label: 'The French Revolution 1789 inaugurated', prompt: 'Which idea is this? — The French Revolution (1789) inaugurated modern European nationalism by transferring.', answer: 'The French Revolution 1789 inaugurated', options: ['The French Revolution 1789 inaugurated', 'A constitution is the fundamental', 'Human security is a paradigm', 'Citizenship as legal status refers'] },
@@ -79,7 +79,7 @@ export const w_c11_politicalsciencesovereigntymeaningdefinitionsim: SimDef = {
             { id: 's6', label: 'Political Theory is the systematic', prompt: 'Which idea is this? — Political Theory is the systematic and rational examination of fundamental political.', answer: 'Political Theory is the systematic', options: ['Political Theory is the systematic', 'A constitution is the fundamental', 'Human security is a paradigm', 'The French Revolution 1789 inaugurated'] }
           ] } }
     ],
-    explore: { component: C11_PoliticalScienceSovereigntyMeaningDefinitionSim, prompt: 'Explore the interactive — Sovereignty Meaning Definition' },
+    explore: { component: C11_PoliticalScienceSovereigntyMeaningDefinitionSim, prompt: 'Explore the interactive — Why do we need a constitution: Functions and importance' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_ps_cbse_10_002', difficulty: 'standard',
           question: 'A constitution is the fundamental law of a country that establishes the.',

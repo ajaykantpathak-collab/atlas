@@ -19,51 +19,51 @@ export const c11_eng_w_ch20_p2: SimDef = {
         hook: 'The tiger king lies \'we came as friends,\' Ajamil pretends to believe him — and both know the flock pays for the handshake.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying, interwoven ideas in a literary work that support, complicate, or contrast with the primary theme, revealing deeper layers of meaning about human nature, society.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Ajamil and the Tigers\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_20_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Split fable, allegory and satire in the poem, spot the dramatic irony in the tiger king\'s lie, and judge whether the shared-pond ending resolves or merely manages the conflict.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_20_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re watching a news debate where a politician signs a "peace deal" with a known aggressor, claiming it brings stability, while the actual defenders.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Ajamil and the Tigers\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a secondary theme in literature, and how does it differ from the primary theme in terms of function and.', options: [
                 { text: 'A secondary theme is a subordinate but significant idea that runs parallel to the primary', outcome: 'A secondary theme is a subordinate but significant idea that runs parallel to the primary theme.' },
                 { text: 'minor topics', outcome: 'Not quite — Students often treat "secondary themes" as a checklist of *topics* (friendship, betrayal, animals.', reveals: 'students-often-treat-secondary-themes' },
                 { text: 'subplots', outcome: 'Not quite — Students often treat "secondary themes" as a checklist of *topics* (friendship, betrayal, animals.', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_20_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are watching a political debate where a leader smiles while making promises that contradict his actions.',
+          caseStudy: { intro: 'Find the lines in \'Ajamil and the Tigers\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "imagery" and "metaphor" in your own words, and give one example of each from the poem "Ajamil and the Tigers" (do not quote full.', options: [
                 { text: 'Imagery: Language appealing to senses (e.g., the tactile "tail in a sling" evokes', outcome: 'Imagery: Language appealing to senses (e.g., the tactile "tail in a sling" evokes physical injury).' },
                 { text: 'imagery is just description', outcome: 'Not quite — Students often treat every descriptive phrase as "imagery" and every comparison as "metaphor,".', reveals: 'students-often-treat-every-descriptive' },
                 { text: 'metaphor uses like/as', outcome: 'Not quite — Students often treat every descriptive phrase as "imagery" and every comparison as "metaphor,".', reveals: 'students-often-treat-every-descriptive' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_20_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are watching a political debate where a leader claims to protect the poor but passes laws that benefit only the wealthy — that gap between words.',
+          caseStudy: { intro: 'Look in \'Ajamil and the Tigers\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define verbal irony and give one example from the poem where the tiger king uses verbal irony after his defeat.', options: [
                 { text: 'Verbal irony occurs when a speaker says the opposite of what they mean, often to mock or', outcome: 'Verbal irony occurs when a speaker says the opposite of what they mean, often to mock or deceive.' },
                 { text: 'symbolism', outcome: 'Not quite — Students often think "symbolism" means "anything that stands for something else" and list.', reveals: 'symbolism-means-anything-that-stands' },
                 { text: 'anything that stands for something else', outcome: 'Not quite — Students often think "symbolism" means "anything that stands for something else" and list.', reveals: 'symbolism-means-anything-that-stands' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_20_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading a political cartoon where a wolf signs a "friendship treaty" with a lamb.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Ajamil and the Tigers\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'Define "vocabulary in context" as a reading skill. How is it different from looking up a word in a dictionary?', options: [
                 { text: 'Vocabulary in context means figuring out what a word means *in that specific sentence,', outcome: 'Vocabulary in context means figuring out what a word means *in that specific sentence, spoken.' },
                 { text: 'it means finding synonyms', outcome: 'Not quite — Students treat "vocabulary in context" as finding a synonym that fits the sentence grammatically.', reveals: 'students-treat-vocabulary-in-context' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_20_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you\'re reading a WhatsApp chat where someone types "gonna" instead of "going to" and drops punctuation—you instantly hear their voice.',
+          caseStudy: { intro: 'Read \'Ajamil and the Tigers\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify two examples of non-standard or colloquial grammar used by the Tiger King in the poem and state the grammatical rule each violates.', options: [
                 { text: 'Examples: "gonna" (violates standard "going to" future construction) and "I\'ve got it all', outcome: 'Examples: "gonna" (violates standard "going to" future construction) and "I\'ve got it all planned".' },
                 { text: 'He cramps our style', outcome: 'Not quite — Students treat "grammar in literature" as spotting errors (e.g., "gonna is wrong") rather than.', reveals: 'students-treat-grammar-in-literature' },
                 { text: 'cramps', outcome: 'Not quite — Students treat "grammar in literature" as spotting errors (e.g., "gonna is wrong") rather than.', reveals: 'students-treat-grammar-in-literature' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_20_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are reading a WhatsApp forward about a local politician making promises.',
+          caseStudy: { intro: 'Answer \'Ajamil and the Tigers\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the primary difference between a literal comprehension question and an inferential comprehension question?', options: [
                 { text: 'A literal question asks for information directly stated in the text (e.g., "How many', outcome: 'A literal question asks for information directly stated in the text (e.g., "How many tigers were.' },
                 { text: 'literal questions are easy and inferential questions are hard', outcome: 'Not quite — Students believe inferential answers are "personal opinions" and can be anything they feel.', reveals: 'inferential-answers-are-personal-opinions' },
@@ -83,12 +83,12 @@ export const c11_eng_w_ch20_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_20_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying, interwoven ideas in a literary work that.',
+          question: 'Secondary themes in \'Ajamil and the Tigers\' — the supporting ideas and motifs.',
           hint: 'If unable to distinguish theme from topic, review c11_eng_w_cbse_20_006\'s worked examples.',
           misconception: 'Students often treat "secondary themes" as a checklist of *topics* (friendship, betrayal, animals, treaties) rather.',
           parts: [
@@ -101,7 +101,7 @@ export const c11_eng_w_ch20_p2: SimDef = {
                   hint: 'If unable to distinguish theme from topic, review c11_eng_w_cbse_20_006\'s worked examples.',
                   misconception: 'Students often treat "secondary themes" as a checklist of *topics* (friendship, betrayal, animals, treaties) rather than as *arguable.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['If the student lists topics instead of thematic statements: (1) Give them the formula: "Secondary theme = [abstract.', '(4) Check: does the statement make a claim that could be debated?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-secondary-themes': { steps: ['If the student lists topics instead of thematic statements: (1) Give them the formula: "Secondary theme = [abstract.', '(4) Check: does the statement make a claim that could be debated?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_20_007', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -112,9 +112,9 @@ export const c11_eng_w_ch20_p2: SimDef = {
                   hint: 'If unable to distinguish theme from topic, review c11_eng_w_cbse_20_006\'s worked examples.',
                   misconception: 'Students often treat "secondary themes" as a checklist of *topics* (friendship, betrayal, animals, treaties) rather than as *arguable.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['If the student lists topics instead of thematic statements: (1) Give them the formula: "Secondary theme = [abstract.', '(4) Check: does the statement make a claim that could be debated?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-secondary-themes': { steps: ['If the student lists topics instead of thematic statements: (1) Give them the formula: "Secondary theme = [abstract.', '(4) Check: does the statement make a claim that could be debated?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_20_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid and descriptive language that appeals to the senses.',
+          question: 'Imagery in \'Ajamil and the Tigers\' — the vivid, sensory language that creates.',
           hint: 'Review Class 8 "Poetic Devices: Personification and Imagery in the Nature Poem".',
           misconception: 'Students often treat every descriptive phrase as "imagery" and every comparison as "metaphor," missing that in this.',
           parts: [
@@ -123,9 +123,9 @@ export const c11_eng_w_ch20_p2: SimDef = {
                   hint: 'Review Class 8 "Poetic Devices: Personification and Imagery in the Nature Poem" (c8_engl_ch4_15).',
                   misconception: 'Students often treat every descriptive phrase as "imagery" and every comparison as "metaphor," missing that in this poem, Kolatkar uses.' }
           ],
-            remediations: { 'students-often-treat-every-descriptive': { steps: ['Have the student list every sensory phrase in the poem (visual, auditory, tactile, olfactory, gustatory) in.', 'For each, ask: "If this detail were removed, what would the political satire lose?" 3.', 'Then guide them to distinguish the *overarching* allegory (animals = political actors) from *local* metaphors (e.g.', 'Finally, ask them to rewrite one stanza replacing all metaphors with literal political terms to see how the imagery.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-every-descriptive': { steps: ['Have the student list every sensory phrase in the poem (visual, auditory, tactile, olfactory, gustatory) in.', 'For each, ask: "If this detail were removed, what would the political satire lose?" 3.', 'Then guide them to distinguish the *overarching* allegory (animals = political actors) from *local* metaphors (e.g.', 'Finally, ask them to rewrite one stanza replacing all metaphors with literal political terms to see how the imagery.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_20_009', difficulty: 'standard',
-          question: 'Irony in literature is a contrast between expectation and reality, where the.',
+          question: 'Irony and paradox in \'Ajamil and the Tigers\' — where opposite things are both.',
           hint: 'If stuck, review the metaphor of "the cherry tree as growth" from Class 8 (c8_engl_ch4_8).',
           misconception: 'Students often think "symbolism" means "anything that stands for something else" and list superficial mappings (tigers.',
           parts: [
@@ -134,31 +134,31 @@ export const c11_eng_w_ch20_p2: SimDef = {
                   hint: 'If stuck, review the metaphor of "the cherry tree as growth" from Class 8 (c8_engl_ch4_8) and.',
                   misconception: 'Students often think "symbolism" means "anything that stands for something else" and list superficial mappings (tigers = bad, sheep = good).' }
           ],
-            remediations: { 'symbolism-means-anything-that-stands': { steps: ['If a student cannot distinguish irony types, give them a three-column table: Type | Definition | Poem Example.', 'Have them fill it using only the text.', 'For symbolism, ask: "If the tiger king is a corrupt politician, what specific political act does \'signing the treaty\'.', 'What does \'lamb chops\' represent?" Force them to move from character-level to system-level mapping.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'symbolism-means-anything-that-stands': { steps: ['If a student cannot distinguish irony types, give them a three-column table: Type | Definition | Poem Example.', 'Have them fill it using only the text.', 'For symbolism, ask: "If the tiger king is a corrupt politician, what specific political act does \'signing the treaty\'.', 'What does \'lamb chops\' represent?" Force them to move from character-level to system-level mapping.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_20_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'Ajamil and the Tigers\' — the words and phrases you must know.',
           hint: 'Review the allegorical mapping in node c11_eng_w_cbse_20_006 (Primary Theme) and the.',
           misconception: 'Students treat "vocabulary in context" as finding a synonym that fits the sentence grammatically.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context is the skill of determining the precise meaning, connotation, and',
-                  options: ['Vocabulary in Context is the skill of determining the precise meaning, connotation, and', '"Before You Read: Context and Background" provides the essential historical,', 'Plot and Narrative Structure refers to the organized sequence of events in a narrative', 'Setting in poetry refers to the time, place, and social environment where the narrative'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Key vocabulary of \'Ajamil and the Tigers\'',
+                  options: ['Key vocabulary of \'Ajamil and the Tigers\'', '\'Ajamil and the Tigers\' (Woven Words, ch', 'The plot/narrative arc of \'Ajamil and the Tigers\'', 'The setting of \'Ajamil and the Tigers\''],
                   hint: 'Review the allegorical mapping in node c11_eng_w_cbse_20_006 (Primary Theme) and the irony analysis.',
                   misconception: 'Students treat "vocabulary in context" as finding a synonym that fits the sentence grammatically.' }
           ],
-            remediations: { 'students-treat-vocabulary-in-context': { steps: ['Re-read the specific stanza aloud.', 'Identify the speaker and their immediate goal.', 'Ask: "Is this speaker lying, mocking, or telling an uncomfortable truth?" 4.', 'Map the characters to the allegory (refer to node c11_eng_w_cbse_20_006).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-vocabulary-in-context': { steps: ['Re-read the specific stanza aloud.', 'Identify the speaker and their immediate goal.', 'Ask: "Is this speaker lying, mocking, or telling an uncomfortable truth?" 4.', 'Map the characters to the allegory (refer to node c11_eng_w_cbse_20_006).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_20_011', difficulty: 'standard',
-          question: 'Language usage in a literary text refers to the deliberate grammatical choices.',
+          question: 'Language and style in \'Ajamil and the Tigers\' — how the writer chose words.',
           hint: 'Review Class 6 Grammar nodes: Tenses (u2_018) for verb forms, Sentence Structure (u4_038).',
           misconception: 'Students treat "grammar in literature" as spotting errors (e.g., "gonna is wrong") rather than analyzing *deliberate.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language usage in a literary text refers to the deliberate grammatical choices an author',
-                  options: ['Language usage in a literary text refers to the deliberate grammatical choices an author', '"Before You Read: Context and Background" provides the essential historical,', 'Plot and Narrative Structure refers to the organized sequence of events in a narrative', 'Setting in poetry refers to the time, place, and social environment where the narrative'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language and style in \'Ajamil and the Tigers\'',
+                  options: ['Language and style in \'Ajamil and the Tigers\'', '\'Ajamil and the Tigers\' (Woven Words, ch', 'The plot/narrative arc of \'Ajamil and the Tigers\'', 'The setting of \'Ajamil and the Tigers\''],
                   hint: 'Review Class 6 Grammar nodes: Tenses (u2_018) for verb forms, Sentence Structure (u4_038) for.',
                   misconception: 'Students treat "grammar in literature" as spotting errors (e.g., "gonna is wrong") rather than analyzing *deliberate deviation* for effect.' }
           ],
-            remediations: { 'students-treat-grammar-in-literature': { steps: ['Re-read the Tiger King\'s lines aloud twice: once with contractions ("gonna", "I\'ve"), once with full forms ("going to".', 'List every speaker in the poem (tigers, king, queen, narrator, dog, Ajamil).', 'For each, quote one line and label its register (colloquial, formal, narrative).', 'Write one PEEL paragraph: Point—Kolatkar uses non-standard grammar to construct the Tiger King\'s fake populism.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-grammar-in-literature': { steps: ['Re-read the Tiger King\'s lines aloud twice: once with contractions ("gonna", "I\'ve"), once with full forms ("going to".', 'List every speaker in the poem (tigers, king, queen, narrator, dog, Ajamil).', 'For each, quote one line and label its register (colloquial, formal, narrative).', 'Write one PEEL paragraph: Point—Kolatkar uses non-standard grammar to construct the Tiger King\'s fake populism.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_20_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require retrieving information explicitly.',
+          question: 'Literal comprehension of \'Ajamil and the Tigers\' — questions answered straight.',
           hint: 'If stuck, review the irony node (c11_eng_w_cbse_20_009) to relearn how the poem says one.',
           misconception: 'Students believe inferential answers are "personal opinions" and can be anything they feel.',
           parts: [
@@ -167,7 +167,7 @@ export const c11_eng_w_ch20_p2: SimDef = {
                   hint: 'If stuck, review the irony node (c11_eng_w_cbse_20_009) to relearn how the poem says one thing but.',
                   misconception: 'Students believe inferential answers are "personal opinions" and can be anything they feel.' }
           ],
-            remediations: { 'inferential-answers-are-personal-opinions': { steps: ['If a student cannot distinguish inference from opinion, follow these steps: 1) Give them a two-column table: Column.', '2) Use the tiger king\'s "friends" lie: Column A = "We were coming to see you as friends"; Column B = "He lies to save.', '3) Ask them to find three more such pairs in the poem.', '4) Require every inferential answer in homework to include at least one Column A quote.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'inferential-answers-are-personal-opinions': { steps: ['If a student cannot distinguish inference from opinion, follow these steps: 1) Give them a two-column table: Column.', '2) Use the tiger king\'s "friends" lie: Column A = "We were coming to see you as friends"; Column B = "He lies to save.', '3) Ask them to find three more such pairs in the poem.', '4) Require every inferential answer in homework to include at least one Column A quote.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

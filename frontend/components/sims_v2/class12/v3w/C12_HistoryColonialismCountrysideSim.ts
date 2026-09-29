@@ -6,13 +6,13 @@ import C12_HistoryColonialismCountrysideSim from '../../../simulations/c6_12/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_historycolonialismcountrysidesim: SimDef = {
     id: 'v3w_c12_historycolonialismcountrysidesim',
-    title: 'Colonialism Countryside',
+    title: 'British Repression: The Relief of Delhi, Lucknow and the Counter-Offensive',
     subtitle: 'This node covers British counter-offensive operations from June 1857 to March 1858: legal.',
     classLevel: 12, subject: 'history', topic: 'British Repression: The Relief of Delhi, Lucknow and the Counter-Offensive',
     chapters: [],
     nodeIds: ['c12_hist_cbse_10_007', 'c12_hist_cbse_10_008', 'c12_hist_cbse_11_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine standing on the Delhi Ridge in July 1857: a small British force, decimated by cholera and heat,.', goal: 'Master Colonialism Countryside.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine standing on the Delhi Ridge in July 1857: a small British force, decimated by cholera and heat,.', goal: 'Master British Repression: The Relief of Delhi, Lucknow and the Counter-Offensive.' },
     discovery: {
         question: 'Why did the British choose a two-pronged attack on Delhi (from Punjab and Calcutta) rather than a single advance, and what does this reveal about their.',
         options: ['The Punjab was largely peaceful and provided a secure base with Sikh and Punjabi', 'they attacked from all sides', 'they had better guns and won'],
@@ -51,13 +51,13 @@ export const w_c12_historycolonialismcountrysidesim: SimDef = {
             { text: 'Conclude — British underestimated the *emotional and moral appeal* of Gandhi’s symbols (dhoti, charkha, Khilafat) which.', faded: true, blankAnswer: 'The British initially underestimated the movement because.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_hist_cbse_10_008', title: 'Identify each idea',
-          dissect: { specimen: 'Colonialism Countryside', spots: [
+          dissect: { specimen: 'British Repression: The Relief of Delhi, Lucknow and the Counter-Offensive', spots: [
             { id: 's1', label: 'British repression of the 1857', prompt: 'Which idea is this? — British repression of the 1857 revolt refers to the coordinated military, legal, and.', answer: 'British repression of the 1857', options: ['British repression of the 1857', 'The Revolt in the Countryside', 'The Non-Cooperation Movement 192022 was'] },
             { id: 's2', label: 'The Revolt in the Countryside', prompt: 'Which idea is this? — The Revolt in the Countryside refers to the widespread popular uprising in rural North.', answer: 'The Revolt in the Countryside', options: ['The Revolt in the Countryside', 'British repression of the 1857', 'The Non-Cooperation Movement 192022 was'] },
             { id: 's3', label: 'The Non-Cooperation Movement 192022 was', prompt: 'Which idea is this? — The Non-Cooperation Movement (1920–22) was a nationwide mass campaign led by Mahatma.', answer: 'The Non-Cooperation Movement 192022 was', options: ['The Non-Cooperation Movement 192022 was', 'British repression of the 1857', 'The Revolt in the Countryside'] }
           ] } }
     ],
-    explore: { component: C12_HistoryColonialismCountrysideSim, prompt: 'Explore the interactive — Colonialism Countryside' },
+    explore: { component: C12_HistoryColonialismCountrysideSim, prompt: 'Explore the interactive — British Repression: The Relief of Delhi, Lucknow and the Counter-Offensive' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hist_cbse_10_007', difficulty: 'standard',
           question: 'British repression of the 1857 revolt refers to the coordinated military,.',

@@ -6,13 +6,13 @@ import C12_BiologyFoodQualityCBSESim from '../../../simulations/c6_12_new/C12_Bi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologyfoodqualitycbsesim: SimDef = {
     id: 'v3w_c12_biologyfoodqualitycbsesim',
-    title: 'Food Quality CBSE',
+    title: 'Dairy Farm Management: Key Principles',
     subtitle: 'This node covers scientific management of dairy cattle and buffalo in the Indian context:.',
     classLevel: 12, subject: 'biology', topic: 'Dairy Farm Management: Key Principles',
     chapters: [],
     nodeIds: ['c12_bio_cbse_09_002', 'c12_bio_cbse_09_004', 'c12_bio_cbse_09_003', 'c12_bio_cbse_09_008', 'c12_bio_cbse_08_008', 'c12_bio_cbse_08_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a dairy farm early morning: cows are let loose, fed dry fodder, hand-milked on a muddy floor, and the.', goal: 'Master Food Quality CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a dairy farm early morning: cows are let loose, fed dry fodder, hand-milked on a muddy floor, and the.', goal: 'Master Dairy Farm Management: Key Principles.' },
     discovery: {
         question: 'A dairy farmer feeds his crossbred cow 30 kg green maize fodder, 4 kg wheat straw, and 2 kg concentrate mixture daily. The cow yields 15 L milk with 3.5% fat.',
         options: ['DMI = (30×0.20) + (4×0.90) + (2×0.90) = 6 + 3.6 + 1.8 = 11.4 kg DM', 'more concentrate = more milk', 'energy density of diet'],
@@ -82,7 +82,7 @@ export const w_c12_biologyfoodqualitycbsesim: SimDef = {
             { text: 'Verify — boiled water cooled in clean container prevents recontamination; confirm by absence of new cases after.', faded: true, blankAnswer: 'Vehicle-borne (water) transmission; pathogen = Vibrio.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_09_004', title: 'Identify each idea',
-          dissect: { specimen: 'Food Quality CBSE', spots: [
+          dissect: { specimen: 'Dairy Farm Management: Key Principles', spots: [
             { id: 's1', label: 'Dairy farm management is the', prompt: 'Which idea is this? — Dairy farm management is the systematic application of scientific principles to housing,.', answer: 'Dairy farm management is the', options: ['Dairy farm management is the', 'Artificial Insemination AI is a', 'Poultry farm management is the', 'Single Cell Protein SCP is'] },
             { id: 's2', label: 'Artificial Insemination AI is a', prompt: 'Which idea is this? — Artificial Insemination (AI) is a reproductive biotechnology where semen collected from a.', answer: 'Artificial Insemination AI is a', options: ['Artificial Insemination AI is a', 'Dairy farm management is the', 'Poultry farm management is the', 'Single Cell Protein SCP is'] },
             { id: 's3', label: 'Poultry farm management is the', prompt: 'Which idea is this? — Poultry farm management is the scientific practice of raising domesticated birds.', answer: 'Poultry farm management is the', options: ['Poultry farm management is the', 'Dairy farm management is the', 'Artificial Insemination AI is a', 'Single Cell Protein SCP is'] },
@@ -91,7 +91,7 @@ export const w_c12_biologyfoodqualitycbsesim: SimDef = {
             { id: 's6', label: 'Mode of transmission refers to', prompt: 'Which idea is this? — Mode of transmission refers to the specific pathway by which an infectious agent.', answer: 'Mode of transmission refers to', options: ['Mode of transmission refers to', 'Dairy farm management is the', 'Artificial Insemination AI is a', 'Poultry farm management is the'] }
           ] } }
     ],
-    explore: { component: C12_BiologyFoodQualityCBSESim, prompt: 'Explore the interactive — Food Quality CBSE' },
+    explore: { component: C12_BiologyFoodQualityCBSESim, prompt: 'Explore the interactive — Dairy Farm Management: Key Principles' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_09_002', difficulty: 'standard',
           question: 'Dairy farm management is the systematic application of scientific principles to.',

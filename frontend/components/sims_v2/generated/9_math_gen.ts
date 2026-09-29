@@ -76,7 +76,7 @@ export const C9_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Distance Between Two Points \\\\) And \\\\) In",
+    "title": "Distance Formula: Derivation Using",
     "text": "The distance between two points \\(P(x_1, y_1)\\) and \\(Q(x_2, y_2)\\) in the Cartesian plane is the length of the straight line segment joining them, derived by constructing a right triangle with the segment as hypotenuse and applying Pythagoras theorem: \\(PQ =",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -680,7 +680,7 @@ export const C9_MATH_GEN: SimDef[] = [
     "katex": "W = {0, 1, 2, 3,"
    },
    {
-    "title": "Identities \\^2 = A^2 + 2ab + B^2\\) And \\^2",
+    "title": "The Identities",
     "text": "The identities \\((a+b)^2 = a^2 + 2ab + b^2\\) and \\((a-b)^2 = a^2 - 2ab + b^2\\) are algebraic statements that hold true for all real values of \\(a\\) and \\(b\\).",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1038,13 +1038,13 @@ export const C9_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Angle Subtended By a Chord At The Centre Of",
+    "title": "Angle Subtended by a Chord at the Centre",
     "text": "The angle subtended by a chord at the centre of a circle is the angle formed between the two radii drawn to the endpoints of the chord. For a chord AB and centre O, the angle subtended is ∠AOB.",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Angle Subtended By An Arc At The Centre Of",
+    "title": "Angle Subtended by an Arc at the Centre",
     "text": "The angle subtended by an arc at the centre of a circle is twice the angle subtended by the same arc at any point on the remaining part of the circle.",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500",

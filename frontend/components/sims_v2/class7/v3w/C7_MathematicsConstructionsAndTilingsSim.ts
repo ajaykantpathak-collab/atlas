@@ -6,13 +6,13 @@ import C7_MathematicsConstructionsAndTilingsSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsconstructionsandtilingssim: SimDef = {
     id: 'v3w_c7_mathematicsconstructionsandtilingssim',
-    title: 'Constructions And Tilings',
+    title: 'Symmetry in Tilings and Patterns',
     subtitle: 'Covers line symmetry, rotational symmetry, and translational symmetry in 2D tilings,.',
     classLevel: 7, subject: 'mathematics', topic: 'Symmetry in Tilings and Patterns',
     chapters: [],
     nodeIds: ['c7_math_ch14_008', 'c7_math_ch14_006', 'c7_math_ch14_007', 'c7_math_ch14_001', 'c7_math_ch14_002', 'c7_math_ch14_003', 'c7_math_ch14_004', 'c7_math_ch14_005', 'c7_math_ch14_009', 'c7_math_ch14_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine walking into a grand palace in Jaipur and looking at the intricate marble floor tiles or the.', goal: 'Master Constructions And Tilings.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine walking into a grand palace in Jaipur and looking at the intricate marble floor tiles or the.', goal: 'Master Symmetry in Tilings and Patterns.' },
     discovery: {
         question: 'What type of symmetry is primarily responsible for extending a tiling infinitely across a plane by sliding a unit shape in a fixed direction without turning it?',
         options: ['Translational symmetry', 'rotational symmetry', 'line symmetry'],
@@ -77,7 +77,7 @@ export const w_c7_mathematicsconstructionsandtilingssim: SimDef = {
             { text: 'Use a straightedge to draw ray $YC$ from vertex $Y$ through point $C$, which forms the angle bisector, and calculate.', faded: true, blankAnswer: 'Two angles of $35^\\circ$ each ($\\angle XYC = 35^\\circ$ and.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch14_006', title: 'Identify each idea',
-          dissect: { specimen: 'Constructions And Tilings', spots: [
+          dissect: { specimen: 'Symmetry in Tilings and Patterns', spots: [
             { id: 's1', label: 'Symmetry in tilings and patterns', prompt: 'Which idea is this? — Symmetry in tilings and patterns refers to the presence of translational, rotational, or.', answer: 'Symmetry in tilings and patterns', options: ['Symmetry in tilings and patterns', 'Tiling or tessellation is the', 'A regular tiling is a', 'Geometric constructions involve drawing precise'] },
             { id: 's2', label: 'Tiling or tessellation is the', prompt: 'Which idea is this? — Tiling (or tessellation) is the process of covering a flat plane completely with.', answer: 'Tiling or tessellation is the', options: ['Tiling or tessellation is the', 'Symmetry in tilings and patterns', 'A regular tiling is a', 'Geometric constructions involve drawing precise'] },
             { id: 's3', label: 'A regular tiling is a', prompt: 'Which idea is this? — A regular tiling is a tessellation of a plane using a single type of regular polygon.', answer: 'A regular tiling is a', options: ['A regular tiling is a', 'Symmetry in tilings and patterns', 'Tiling or tessellation is the', 'Geometric constructions involve drawing precise'] },
@@ -86,7 +86,7 @@ export const w_c7_mathematicsconstructionsandtilingssim: SimDef = {
             { id: 's6', label: 'Bisecting an angle using a', prompt: 'Which idea is this? — Bisecting an angle using a geometric construction method involves dividing a given angle.', answer: 'Bisecting an angle using a', options: ['Bisecting an angle using a', 'Symmetry in tilings and patterns', 'Tiling or tessellation is the', 'A regular tiling is a'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsConstructionsAndTilingsSim, prompt: 'Explore the interactive — Constructions And Tilings' },
+    explore: { component: C7_MathematicsConstructionsAndTilingsSim, prompt: 'Explore the interactive — Symmetry in Tilings and Patterns' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch14_008', difficulty: 'standard',
           question: 'Symmetry in tilings and patterns refers to the presence of translational,.',

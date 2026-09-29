@@ -6,13 +6,13 @@ import C11_PhysicsProjectileMotionSim from '../../../simulations/c6_12/C11_Physi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsprojectilemotionsim: SimDef = {
     id: 'v3w_c11_physicsprojectilemotionsim',
-    title: 'Projectile Motion',
+    title: 'Motion with Constant Acceleration: Free Fall',
     subtitle: 'This node covers vertical motion under constant gravitational acceleration only (free.',
     classLevel: 11, subject: 'physics', topic: 'Motion with Constant Acceleration: Free Fall',
     chapters: [],
     nodeIds: ['c11_phy_cbse_02_008', 'c11_phy_cbse_03_009', 'c11_phy_cbse_03_010', 'c11_phy_cbse_03_011', 'c11_phy_cbse_03_012', 'c11_phy_cbse_03_013', 'c11_phy_cbse_02_001', 'c11_phy_cbse_02_002', 'c11_phy_cbse_02_003', 'c11_phy_cbse_02_004', 'c11_phy_cbse_02_005', 'c11_phy_cbse_02_006', 'c11_phy_cbse_02_007', 'c11_phy_cbse_02_009', 'c11_phy_cbse_02_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a feather and a coin dropped simultaneously in a vacuum tube (or watch a video of Apollo 15.', goal: 'Master Projectile Motion.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a feather and a coin dropped simultaneously in a vacuum tube (or watch a video of Apollo 15.', goal: 'Master Motion with Constant Acceleration: Free Fall.' },
     discovery: {
         question: 'A ball is dropped from rest from a height of 20 m. What is the magnitude and direction of its acceleration at the instant it is released? State the SI unit.',
         options: ['The acceleration is \\( 9.8 \\, \\text{m/s}^2 \\) vertically downward', 'upward', 'heavier objects fall faster'],
@@ -80,7 +80,7 @@ export const w_c11_physicsprojectilemotionsim: SimDef = {
             { text: 'Verify: T = 2t_m ✓ (2.5 = 2×1.25). Range is positive and reasonable for a football kick. H < R for θ < 45° ✓.', faded: true, blankAnswer: '(a) H = 7.81 m, (b) t_m = 1.25 s, (c) R = 54.1 m, (d) T =.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_03_009', title: 'Identify each idea',
-          dissect: { specimen: 'Projectile Motion', spots: [
+          dissect: { specimen: 'Motion with Constant Acceleration: Free Fall', spots: [
             { id: 's1', label: 'Free fall is the motion', prompt: 'Which idea is this? — Free fall is the motion of an object under the influence of gravitational force only,.', answer: 'Free fall is the motion', options: ['Free fall is the motion', 'A position vector r of', 'Horizontal projection is a special', 'Projectile motion with angular projection'] },
             { id: 's2', label: 'A position vector r of', prompt: 'Which idea is this? — A position vector **r** of a particle P in a plane is the vector drawn from a chosen.', answer: 'A position vector r of', options: ['A position vector r of', 'Free fall is the motion', 'Horizontal projection is a special', 'Projectile motion with angular projection'] },
             { id: 's3', label: 'Horizontal projection is a special', prompt: 'Which idea is this? — Horizontal projection is a special case of projectile motion where an object is launched.', answer: 'Horizontal projection is a special', options: ['Horizontal projection is a special', 'Free fall is the motion', 'A position vector r of', 'Projectile motion with angular projection'] },
@@ -89,7 +89,7 @@ export const w_c11_physicsprojectilemotionsim: SimDef = {
             { id: 's6', label: 'The maximum height H of', prompt: 'Which idea is this? — The maximum height (H) of a projectile is the highest vertical position reached above the.', answer: 'The maximum height H of', options: ['The maximum height H of', 'Free fall is the motion', 'A position vector r of', 'Horizontal projection is a special'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsProjectileMotionSim, prompt: 'Explore the interactive — Projectile Motion' },
+    explore: { component: C11_PhysicsProjectileMotionSim, prompt: 'Explore the interactive — Motion with Constant Acceleration: Free Fall' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_02_008', difficulty: 'standard',
           question: 'Free fall is the motion of an object under the influence of gravitational force.',

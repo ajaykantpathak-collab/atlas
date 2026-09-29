@@ -6,13 +6,13 @@ import C9_MathematicsRationalNumbersRealSim from '../../../simulations/c6_12/C9_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_mathematicsrationalnumbersrealsim: SimDef = {
     id: 'v3w_c9_mathematicsrationalnumbersrealsim',
-    title: 'Rational Numbers Real',
+    title: 'Natural Numbers and the Discovery of Zero',
     subtitle: 'This node covers the rigorous definition of natural numbers and whole numbers, the.',
     classLevel: 9, subject: 'mathematics', topic: 'Natural Numbers and the Discovery of Zero',
     chapters: [],
     nodeIds: ['c9_math_ch3_1', 'c9_math_ch3_2', 'c9_math_ch3_5', 'c9_math_ch3_6', 'c9_math_ch3_9', 'c9_math_ch3_3', 'c9_math_ch3_4', 'c9_math_ch3_7', 'c9_math_ch3_8', 'c9_math_ch3_10', 'c9_math_ch3_11', 'c9_math_ch1_7', 'c9_math_ch4_3', 'c9_math_ch1_3', 'c9_math_ch1_4'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine a Class 9 teacher asks: "If you have ₹50 and spend exactly ₹50, how much money do you have left?" You.', goal: 'Master Rational Numbers Real.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine a Class 9 teacher asks: "If you have ₹50 and spend exactly ₹50, how much money do you have left?" You.', goal: 'Master Natural Numbers and the Discovery of Zero.' },
     discovery: {
         question: 'State the additive inverse of $-17$ and explain what happens when you add an integer to its additive inverse.',
         options: ['The additive inverse of $-17$ is $17$', 'additive inverse', 'absolute value'],
@@ -78,7 +78,7 @@ export const w_c9_mathematicsrationalnumbersrealsim: SimDef = {
             { text: 'Interpret: You need 6 scoops of $\\frac{1}{8}$ cup. The rational number is $6$ (or $\\frac{6}{1}$), confirming that whole.', faded: true, blankAnswer: '6 scoops; rational number $\\frac{6}{1}$ (or simply $6$).' }
             ] } },
         { type: 'dissect', nodeId: 'c9_math_ch3_2', title: 'Identify each idea',
-          dissect: { specimen: 'Rational Numbers Real', spots: [
+          dissect: { specimen: 'Natural Numbers and the Discovery of Zero', spots: [
             { id: 's1', label: 'Natural numbers denoted by', prompt: 'Which idea is this? — Natural numbers (denoted by ℕ) are the set of counting numbers {1, 2, 3, ...} used for.', answer: 'Natural numbers denoted by', options: ['Natural numbers denoted by', 'Integers are the set of', 'An irrational number is a', 'The set of real numbers'] },
             { id: 's2', label: 'Integers are the set of', prompt: 'Which idea is this? — Integers are the set of numbers consisting of all positive whole numbers, their negative.', answer: 'Integers are the set of', options: ['Integers are the set of', 'Natural numbers denoted by', 'An irrational number is a', 'The set of real numbers'] },
             { id: 's3', label: 'An irrational number is a', prompt: 'Which idea is this? — An irrational number is a real number that cannot be expressed as a ratio of two integers.', answer: 'An irrational number is a', options: ['An irrational number is a', 'Natural numbers denoted by', 'Integers are the set of', 'The set of real numbers'] },
@@ -86,7 +86,7 @@ export const w_c9_mathematicsrationalnumbersrealsim: SimDef = {
             { id: 's5', label: 'A rational number is any', prompt: 'Which idea is this? — A rational number is any number that can be expressed in the form $\\frac{p}{q}$ where $p$.', answer: 'A rational number is any', options: ['A rational number is any', 'Natural numbers denoted by', 'Integers are the set of', 'An irrational number is a'] }
           ] } }
     ],
-    explore: { component: C9_MathematicsRationalNumbersRealSim, prompt: 'Explore the interactive — Rational Numbers Real' },
+    explore: { component: C9_MathematicsRationalNumbersRealSim, prompt: 'Explore the interactive — Natural Numbers and the Discovery of Zero' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_math_ch3_1', difficulty: 'standard',
           question: 'Natural numbers (denoted by ℕ) are the set of counting numbers {1, 2, 3, ...}.',

@@ -19,7 +19,7 @@ export const c11_eng_h_ch05_p3: SimDef = {
         hook: 'Two \'greens,\' opposite directions — one fed the world quickly, the other asked what that feeding cost the planet.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the ability to examine a text beyond its literal meaning by breaking down its components (plot, character, theme, literary devices, structure).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Adventure\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_05_013', title: 'Your mission',
@@ -29,20 +29,20 @@ export const c11_eng_h_ch05_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_05_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re watching a cricket match where a single dropped catch changes the entire tournament outcome.',
+          caseStudy: { intro: 'Analyse \'The Adventure\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the specific historical event that serves as the bifurcation point between the two worlds in "The Adventure," and what are the two.', options: [
                 { text: 'The bifurcation point is the Battle of Panipat', outcome: 'The bifurcation point is the Battle of Panipat. In the torn Bakhar page (alternate world).' },
                 { text: 'the 1857 revolt or the Independence movement', outcome: 'Not quite — Students often treat "The Adventure" as a simple time-travel story where Gaitonde "goes to the.', reveals: 'students-often-treat-the-adventure' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_05_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re sitting in the exam hall and the question reads: "Professor Gaitonde\'s experience in \'The Adventure\' blurs the line between history and science.',
+          caseStudy: { intro: 'For written answers on \'The Adventure\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the PEEL structure for writing a long-answer response in CBSE Class 11 English, and what does each letter stand for?', options: [
                 { text: 'PEEL stands for Point (topic sentence stating the argument), Evidence (textual quote or', outcome: 'PEEL stands for Point (topic sentence stating the argument), Evidence (textual quote or specific.' },
                 { text: 'Point, Example, Explain, Conclusion', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarizing the plot in their own.', reveals: 'writing-skills-based-on-the' },
                 { text: 'step that examiners require for coherence', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarizing the plot in their own.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_05_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a book club discussing a mind-bending story where a historian slips into an alternate reality because a bullet missed its target in 1761.',
+          caseStudy: { intro: 'Talk through \'The Adventure\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'List the three discussion prompts given in the "Talking about the text" section of the chapter.', options: [
                 { text: 'The three prompts are: (i) A single event may change the course of history of a nation', outcome: 'The three prompts are: (i) A single event may change the course of history of a nation.' },
                 { text: 'group discussion is just sharing opinions without evidence', outcome: 'Not quite — Students think group discussion is just sharing opinions without evidence.', reveals: 'group-discussion-is-just-sharing' }
@@ -66,7 +66,7 @@ export const c11_eng_h_ch05_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the ability to examine a text.',
+          question: 'Critical thinking on \'The Adventure\' — analysing the text to reach.',
           hint: 'If stuck, review the distinction between "plot summary" and "thematic analysis" using the.',
           misconception: 'Students often treat "The Adventure" as a simple time-travel story where Gaitonde "goes to the past" or "visits.',
           parts: [
@@ -81,7 +81,7 @@ export const c11_eng_h_ch05_p3: SimDef = {
           ],
             remediations: { 'students-often-treat-the-adventure': { steps: ['Re-read the final conversation between Gaitonde and Rajendra (pages 50-52) with a highlighter, marking every sentence.', 'Draw a two-column table: left column = "Our World (Gaitonde\'s memory)," right column = "Alternate World (Bakhar page).".', 'Explain aloud to a peer: "Why does Rajendra say Gaitonde didn\'t time-travel?', 'What does \'catastrophe\' mean here?" 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter "The Adventure" involves crafting.',
+          question: 'Writing skills from \'The Adventure\' — using the text as a model or springboard.',
           hint: 'Review c11_eng_h_cbse_05_012 (inferential comprehension) and c11_eng_h_cbse_05_013.',
           misconception: 'Students believe "writing skills based on the chapter" means summarizing the plot in their own words.',
           parts: [
@@ -107,12 +107,12 @@ export const c11_eng_h_ch05_p3: SimDef = {
           ],
             remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits a summary instead of an analytical/creative piece: (1) Highlight every sentence that merely.', 'volume five up to Aurangzeb\' — reveals a historian\'s discipline: he verifies before he speculates" (analysis).', '(4) Assign a 3-sentence rewrite using one quote + one inference.', 'Repeat until the student produces zero "narration-only" sentences.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_05_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to structured oral.',
+          question: 'Discussion points on \'The Adventure\' — speaking and listening around the text.',
           hint: 'If stuck, review the "Talking about the text" section in the textbook and the critical.',
           misconception: 'Students think group discussion is just sharing opinions without evidence.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to structured oral communication',
-                  options: ['Speaking and Listening: Discussion Points refers to structured oral communication', '"Before You Read: Context and Background" is a pre-reading pedagogical section that', 'Plot and narrative structure refers to the organized sequence of events in a story and', 'Setting refers to the time, place, and social-historical context in'],
+                { id: 'a', prompt: 'Using the PEEL structure, write a 2-minute speech arguing for or against: "A single event may change the course of history of a nation," using evidence from.', answer: 'Point: State your position clearly (e.g., "I agree")',
+                  options: ['Point: State your position clearly (e.g., "I agree")', 'group discussion is just sharing opinions without evidence'],
                   hint: 'If stuck, review the "Talking about the text" section in the textbook and the critical thinking.',
                   misconception: 'Students think group discussion is just sharing opinions without evidence.' }
           ],

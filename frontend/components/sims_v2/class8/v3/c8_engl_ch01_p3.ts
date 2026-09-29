@@ -90,7 +90,7 @@ export const c8_engl_ch01_p3: SimDef = {
           misconception: 'Students frequently mistake "wit and humour" for "clowning around or distraction." They assume Tenali Ramakrishna.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Wit is the ability to use quick, inventive, and sharp intelligence, while humour is the',
-                  options: ['Wit is the ability to use quick, inventive, and sharp intelligence, while humour is the', 'Setting refers to the time, place, and socio-cultural environment in', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual'],
+                  options: ['Wit is the ability to use quick, inventive, and sharp intelligence, while humour is the', 'From \'English chapter c8_engl_ch1\': the skill or concept this node teaches, applied to', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual'],
                   hint: 'If stuck, review node `c8_engl_ch1_5` to revisit how Tenali Ramakrishna planned and executed his.',
                   misconception: 'Students frequently mistake "wit and humour" for "clowning around or distraction." They assume Tenali Ramakrishna is merely telling jokes.' }
           ],
@@ -138,7 +138,7 @@ export const c8_engl_ch01_p3: SimDef = {
           misconception: 'Students often treat **renowned** and **illustrious** as completely interchangeable synonyms for "famous," and.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**Vocabulary in Context** involves determining the meaning of unfamiliar or nuanced words',
-                  options: ['**Vocabulary in Context** involves determining the meaning of unfamiliar or nuanced words', 'Setting refers to the time, place, and socio-cultural environment in', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual'],
+                  options: ['**Vocabulary in Context** involves determining the meaning of unfamiliar or nuanced words', 'From \'English chapter c8_engl_ch1\': the skill or concept this node teaches, applied to', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual'],
                   hint: 'If stuck, review the concept of "Adjectives and Context Clues" from Class 7.',
                   misconception: 'Students often treat **renowned** and **illustrious** as completely interchangeable synonyms for "famous," and **insurmountable** as.' }
           ],

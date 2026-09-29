@@ -19,45 +19,45 @@ export const c12_eng_f_ch05_p2: SimDef = {
         hook: 'Champaran began as humanitarian relief — peasants forced to grow indigo on 3/20 of their land, then charged compensation when synthetic dye made it worthless — and became political only under repression. It was a satyagraha template, not a lawsuit.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the supporting ideas, motifs, or messages that run parallel to the primary theme in a literary work, enriching the text by adding layers of meaning, revealing character.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Indigo\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_05_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Reconstruct the first satyagraha: decode the tinkathia trap and the synthetic-indigo squeeze, weigh the professor who dared shelter Gandhi, then watch fearlessness — not litigation — bend an empire.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_05_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re watching a documentary about a famous leader, but the filmmaker keeps cutting to ordinary people — a farmer walking miles to complain, a lawyer.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Indigo\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a "secondary theme" in literature, and how does it differ from the primary theme?', options: [
                 { text: 'A secondary theme is a supporting idea or motif that runs parallel to the primary theme,', outcome: 'A secondary theme is a supporting idea or motif that runs parallel to the primary theme, adding.' },
                 { text: 'minor details', outcome: 'Not quite — Students often confuse "secondary themes" with "subplots" or "minor characters." They think.', reveals: 'students-often-confuse-secondary-themes' },
                 { text: 'subplots', outcome: 'Not quite — Students often confuse "secondary themes" with "subplots" or "minor characters." They think.', reveals: 'students-often-confuse-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_05_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you\'re reading the moment Gandhi arrives at Motihari station and "a vast multitude greeted Gandhi" — the station isn\'t just crowded; Fischer makes you.',
+          caseStudy: { intro: 'Find the lines in \'Indigo\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define imagery and metaphor in your own words, then give one example of each from the "Indigo" chapter (cite the approximate location.', options: [
                 { text: 'Imagery: sensory language creating mental pictures (e.g., "town of Motihari black with', outcome: 'Imagery: sensory language creating mental pictures (e.g., "town of Motihari black with peasants".' },
                 { text: 'like a battle', outcome: 'Not quite — Students treat imagery and metaphor as decorative "figures of speech" to be *spotted* and *named*.', reveals: 'students-treat-imagery-and-metaphor' },
                 { text: 'poor and emaciated', outcome: 'Not quite — Students treat imagery and metaphor as decorative "figures of speech" to be *spotted* and *named*.', reveals: 'students-treat-imagery-and-metaphor' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_05_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading the line "He decided to urge the departure of the British" and wonder why Gandhi didn\'t simply "ask" or "demand".',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Indigo\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What are the four common types of context clues used to infer word meanings?', options: [
                 { text: 'The four types are: (1) Definition/Explanation clue', outcome: 'The four types are: (1) Definition/Explanation clue — e.g., "sharecroppers ...' },
                 { text: 'dictionary', outcome: 'Not quite — Students often think vocabulary in context means guessing the meaning from a single sentence.', reveals: 'vocabulary-in-context-means-guessing' },
                 { text: 'guessing', outcome: 'Not quite — Students often think vocabulary in context means guessing the meaning from a single sentence.', reveals: 'vocabulary-in-context-means-guessing' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_05_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are a detective examining a crime scene — the "crime" is how the author makes you *feel* Gandhi\'s presence in 1917 Champaran without ever meeting.',
+          caseStudy: { intro: 'Read \'Indigo\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the grammatical term for the underlined structure in this sentence from *Indigo*: "When I first visited Gandhi in 1942 at his.', options: [
                 { text: 'The underlined structure is a **fronted adverbial subordinate clause of time** (also', outcome: 'The underlined structure is a **fronted adverbial subordinate clause of time** (also called.' },
                 { text: 'A wrong answer like', outcome: 'Not quite — Students treat "direct speech = quotation marks" and "comma before \'when/because/if\'" as mechanical.', reveals: 'students-treat-direct-speech-quotation' },
                 { text: 'main clause', outcome: 'Not quite — Students treat "direct speech = quotation marks" and "comma before \'when/because/if\'" as mechanical.', reveals: 'students-treat-direct-speech-quotation' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_05_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are in the exam hall and see a question: "Why did Gandhi refuse bail when the magistrate asked for it?" Your first instinct might be to write.',
+          caseStudy: { intro: 'Answer \'Indigo\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify whether the following question is literal or inferential: "What was the sharecropping arrangement in Champaran regarding indigo.', options: [
                 { text: 'This is a **literal** question', outcome: 'This is a **literal** question because the answer is explicitly stated in the text: "The landlords.' },
                 { text: 'List the places Gandhi visited', outcome: 'Not quite — Students often treat inferential questions as "opinion questions" and write answers based.', reveals: 'students-often-treat-inferential-questions' }
@@ -76,23 +76,23 @@ export const c12_eng_f_ch05_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_05_007', difficulty: 'standard',
-          question: 'Secondary themes are the supporting ideas, motifs, or messages that run.',
+          question: 'Secondary themes in \'Indigo\' — the supporting ideas and motifs that deepen the.',
           hint: 'If stuck, review c12_eng_f_cbse_05_006 (Primary Theme) and practice converting three plot.',
           misconception: 'Students often confuse "secondary themes" with "subplots" or "minor characters." They think identifying a secondary.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the supporting ideas, motifs, or messages that run parallel to the',
-                  options: ['Secondary themes are the supporting ideas, motifs, or messages that run parallel to the', '"Before You Read: Context and Background" is a pre-reading strategy that equips students', 'Plot and narrative structure refers to the sequence of events in a story (plot) and the', 'Setting refers to the time, place, and physical environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes in \'Indigo\'',
+                  options: ['Secondary themes in \'Indigo\'', '\'Indigo\' (Flamingo, ch', 'The plot/narrative arc of \'Indigo\'', 'The setting of \'Indigo\''],
                   hint: 'If stuck, review c12_eng_f_cbse_05_006 (Primary Theme) and practice converting three plot points.',
                   misconception: 'Students often confuse "secondary themes" with "subplots" or "minor characters." They think identifying a secondary theme means listing.' }
           ],
-            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If a student cannot distinguish theme from plot/character arc: Step 1 — Have them complete this sentence frame for.', 'Step 2 — Give them two statements: "Gandhi refused Andrews\' help" (plot) vs "Self-reliance is necessary for true.', 'Ask which is the theme and why.', 'Step 3 — Re-read the "Understanding the text" Q3 in NCERT: "How do we know that ordinary people too contributed to the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If a student cannot distinguish theme from plot/character arc: Step 1 — Have them complete this sentence frame for.', 'Step 2 — Give them two statements: "Gandhi refused Andrews\' help" (plot) vs "Self-reliance is necessary for true.', 'Ask which is the theme and why.', 'Step 3 — Re-read the "Understanding the text" Q3 in NCERT: "How do we know that ordinary people too contributed to the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_05_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Indigo\' — the vivid, sensory language that creates word-pictures.',
           hint: 'Review c11_eng_h_cbse_01_008 worked examples on separating vehicle/tenor in metaphors and.',
           misconception: 'Students treat imagery and metaphor as decorative "figures of speech" to be *spotted* and *named* for marks, rather.',
           parts: [
@@ -109,9 +109,9 @@ export const c12_eng_f_ch05_p2: SimDef = {
                   hint: 'Review c11_eng_h_cbse_01_008 worked examples on separating vehicle/tenor in metaphors and mapping.',
                   misconception: 'Students treat imagery and metaphor as decorative "figures of speech" to be *spotted* and *named* for marks, rather than as *argumentative.' }
           ],
-            remediations: { 'students-treat-imagery-and-metaphor': { steps: ['If a student cannot move beyond identification: (1) Have them re-read the "Motihari black with peasants" paragraph and.', '(2) Ask: "If Fischer wrote \'many peasants gathered,\' what *experience* is lost?" (3) Guide them to complete this.', 'If still stuck, revisit c11_eng_h_cbse_01_008 (Class 11 Imagery and Metaphor) for foundational practice on *function*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-imagery-and-metaphor': { steps: ['If a student cannot move beyond identification: (1) Have them re-read the "Motihari black with peasants" paragraph and.', '(2) Ask: "If Fischer wrote \'many peasants gathered,\' what *experience* is lost?" (3) Guide them to complete this.', 'If still stuck, revisit c11_eng_h_cbse_01_008 (Class 11 Imagery and Metaphor) for foundational practice on *function*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_05_009', difficulty: 'standard',
-          question: 'Irony in literature is a contrast between expectation and reality — what.',
+          question: 'Irony and paradox in \'Indigo\' — where opposite things are both true, or meaning.',
           hint: 'If stuck on identifying irony: reread the courtroom scene (Motihari) and the settlement.',
           misconception: 'Students often confuse irony with coincidence or bad luck. In "Indigo," they may say "It\'s ironic that synthetic indigo.',
           parts: [
@@ -120,7 +120,7 @@ export const c12_eng_f_ch05_p2: SimDef = {
                   hint: 'If stuck on identifying irony: reread the courtroom scene (Motihari) and the settlement scene.',
                   misconception: 'Students often confuse irony with coincidence or bad luck. In "Indigo," they may say "It\'s ironic that synthetic indigo was invented" — but.' }
           ],
-            remediations: { 'students-often-confuse-irony-with': { steps: ['If the student cannot distinguish irony from coincidence: (1) Have them reread the definition: irony = contrast between.', '(2) Use a two-column table: Column A = "What the character/reader expects", Column B = "What actually happens" for.', '(3) Revisit c12_eng_f_cbse_05_002 (Plot) to map the narrative arc, then c12_eng_f_cbse_05_006 (Primary Theme) to see.', '(4) Re-diagnostic: Ask them to explain the irony in the planters hiring thugs while claiming to be law-upholding.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-irony-with': { steps: ['If the student cannot distinguish irony from coincidence: (1) Have them reread the definition: irony = contrast between.', '(2) Use a two-column table: Column A = "What the character/reader expects", Column B = "What actually happens" for.', '(3) Revisit c12_eng_f_cbse_05_002 (Plot) to map the narrative arc, then c12_eng_f_cbse_05_006 (Primary Theme) to see.', '(4) Re-diagnostic: Ask them to explain the irony in the planters hiring thugs while claiming to be law-upholding.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_05_009', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -131,9 +131,9 @@ export const c12_eng_f_ch05_p2: SimDef = {
                   hint: 'If stuck on identifying irony: reread the courtroom scene (Motihari) and the settlement scene.',
                   misconception: 'Students often confuse irony with coincidence or bad luck. In "Indigo," they may say "It\'s ironic that synthetic indigo was invented" — but.' }
           ],
-            remediations: { 'students-often-confuse-irony-with': { steps: ['If the student cannot distinguish irony from coincidence: (1) Have them reread the definition: irony = contrast between.', '(2) Use a two-column table: Column A = "What the character/reader expects", Column B = "What actually happens" for.', '(3) Revisit c12_eng_f_cbse_05_002 (Plot) to map the narrative arc, then c12_eng_f_cbse_05_006 (Primary Theme) to see.', '(4) Re-diagnostic: Ask them to explain the irony in the planters hiring thugs while claiming to be law-upholding.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-irony-with': { steps: ['If the student cannot distinguish irony from coincidence: (1) Have them reread the definition: irony = contrast between.', '(2) Use a two-column table: Column A = "What the character/reader expects", Column B = "What actually happens" for.', '(3) Revisit c12_eng_f_cbse_05_002 (Plot) to map the narrative arc, then c12_eng_f_cbse_05_006 (Primary Theme) to see.', '(4) Re-diagnostic: Ask them to explain the irony in the planters hiring thugs while claiming to be law-upholding.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_05_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the precise meaning of words.',
+          question: 'Key vocabulary of \'Indigo\' — the words and phrases you must know to read the.',
           hint: 'Review the "Context Clue Flowchart" from Class 11 (c11_eng_h_cbse_05_010) and practice.',
           misconception: 'Students often think vocabulary in context means guessing the meaning from a single sentence.',
           parts: [
@@ -150,9 +150,9 @@ export const c12_eng_f_ch05_p2: SimDef = {
                   hint: 'Review the "Context Clue Flowchart" from Class 11 (c11_eng_h_cbse_05_010) and practice with the.',
                   misconception: 'Students often think vocabulary in context means guessing the meaning from a single sentence.' }
           ],
-            remediations: { 'vocabulary-in-context-means-guessing': { steps: ['If a student cannot infer meanings, have them: (1) Re-read the specific paragraph containing the word, (2) Highlight.', 'Then re-attempt Diagnostic Questions 2 and 3.', 'If still stuck, review Class 11 vocabulary nodes (c11_eng_h_cbse_01_010, c11_eng_h_cbse_02_010) for basic context-clue.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'vocabulary-in-context-means-guessing': { steps: ['If a student cannot infer meanings, have them: (1) Re-read the specific paragraph containing the word, (2) Highlight.', 'Then re-attempt Diagnostic Questions 2 and 3.', 'If still stuck, review Class 11 vocabulary nodes (c11_eng_h_cbse_01_010, c11_eng_h_cbse_02_010) for basic context-clue.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_05_011', difficulty: 'standard',
-          question: 'Language usage analysis examines how an author\'s grammatical choices — sentence.',
+          question: 'Language and style in \'Indigo\' — how the writer chose words, sentences and tone.',
           hint: 'If clause identification is shaky, review Class 8/9 grammar: "Subordinate Clauses and.',
           misconception: 'Students treat "direct speech = quotation marks" and "comma before \'when/because/if\'" as mechanical rules, missing that.',
           parts: [
@@ -161,9 +161,9 @@ export const c12_eng_f_ch05_p2: SimDef = {
                   hint: 'If clause identification is shaky, review Class 8/9 grammar: "Subordinate Clauses and Conjunctions".',
                   misconception: 'Students treat "direct speech = quotation marks" and "comma before \'when/because/if\'" as mechanical rules, missing that Fischer *chooses*.' }
           ],
-            remediations: { 'students-treat-direct-speech-quotation': { steps: ['Revisit the textbook\'s "Thinking about language" Q2 (comma rule) — copy the three example sentences (a, b, c) and.', 'In the *Indigo* text, highlight every direct speech quotation in yellow and every reported speech in pink; count each.', 'Write one PEEL paragraph analysing a single grammatical choice (e.g., "The passive voice in \'was served with.', 'Re-attempt Diagnostic Question 3 and 6.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-direct-speech-quotation': { steps: ['Revisit the textbook\'s "Thinking about language" Q2 (comma rule) — copy the three example sentences (a, b, c) and.', 'In the *Indigo* text, highlight every direct speech quotation in yellow and every reported speech in pink; count each.', 'Write one PEEL paragraph analysing a single grammatical choice (e.g., "The passive voice in \'was served with.', 'Re-attempt Diagnostic Question 3 and 6.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_05_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve explicitly stated.',
+          question: 'Literal comprehension of \'Indigo\' — questions answered straight from the text.',
           hint: 'If stuck, re-read the "Think as you read" questions embedded in the NCERT text (pages.',
           misconception: 'Students often treat inferential questions as "opinion questions" and write answers based on personal feelings.',
           parts: [
@@ -180,7 +180,7 @@ export const c12_eng_f_ch05_p2: SimDef = {
                   hint: 'If stuck, re-read the "Think as you read" questions embedded in the NCERT text (pages 46-53) — they.',
                   misconception: 'Students often treat inferential questions as "opinion questions" and write answers based on personal feelings or general knowledge (e.g.' }
           ],
-            remediations: { 'students-often-treat-inferential-questions': { steps: ['Label each as L (literal) or I (inferential).', 'For L, highlight the exact sentence(s) in the text.', 'For I, write the inference and the evidence chain.', 'Re-attempt Diagnostic Questions 1-4. If still stuck, revisit c12_eng_f_cbse_05_002 (Plot and Narrative Structure).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-inferential-questions': { steps: ['Label each as L (literal) or I (inferential).', 'For L, highlight the exact sentence(s) in the text.', 'For I, write the inference and the evidence chain.', 'Re-attempt Diagnostic Questions 1-4. If still stuck, revisit c12_eng_f_cbse_05_002 (Plot and Narrative Structure).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -69,7 +69,7 @@ export const C9_HIST_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Governance And Society Represent a",
+    "title": "Governance and Society: Interconnection",
     "text": "Governance and society represent a dialectical relationship where political structures (state apparatus, laws, administration, power distribution) shape social organisation (caste, class, gender, religion, economy), while social forces simultaneously",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -448,7 +448,7 @@ export const C9_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Neolithic Period (c. 7000–3000 BCE",
+    "title": "Neolithic Period",
     "text": "The Neolithic Period (c. 7000–3000 BCE in the Indian subcontinent) marks the transition from nomadic hunter-gatherer societies to settled agricultural communities characterized by the domestication of plants (wheat, barley, rice, millets) and animals (cattle,",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -917,7 +917,7 @@ export const C9_HIST_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Janapadas And Mahajanapadas Were The",
+    "title": "Janapadas and Mahajanapadas: Territorial",
     "text": "Janapadas and Mahajanapadas were the territorial states of ancient India (c. 600 BCE) — janapadas were the smaller, earlier republics and kingdoms rooted in tribal-territorial identity (jana = people, pada = foothold), while the sixteen Mahajanapadas (maha =",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"

@@ -6,13 +6,13 @@ import C12_MathematicsConsistencyInconsistencySystemsSim from '../../../simulati
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicsconsistencyinconsistencysystemssim: SimDef = {
     id: 'v3w_c12_mathematicsconsistencyinconsistencysystemssim',
-    title: 'Consistency Inconsistency Systems',
+    title: 'Solution of System of Linear Equations: Matrix Method',
     subtitle: 'This node covers solving systems of linear equations in two or three variables using the.',
     classLevel: 12, subject: 'mathematics', topic: 'Solution of System of Linear Equations: Matrix Method',
     chapters: [],
     nodeIds: ['c12_math_cbse_04_008', 'c12_math_cbse_04_009', 'c12_math_cbse_04_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you go to a stationery shop and buy 2 pens and 3 pencils for ₹35, while your friend buys 4 pens and 1.', goal: 'Master Consistency Inconsistency Systems.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you go to a stationery shop and buy 2 pens and 3 pencils for ₹35, while your friend buys 4 pens and 1.', goal: 'Master Solution of System of Linear Equations: Matrix Method.' },
     discovery: {
         question: 'Compare Cramer\'s Rule and the Matrix Inverse Method (X = A⁻¹B) for solving a 3×3 system.',
         options: ['you only need the value of one variable, say y?', 'Cramer\'s Rule is always better', 'Inverse method is always better'],
@@ -53,13 +53,13 @@ export const w_c12_mathematicsconsistencyinconsistencysystemssim: SimDef = {
             { text: 'X = A⁻¹B = (1/4)[[3, -1, -1], [-1, 3, -1], [-1, -1, 3]] [180, 150, 150]ᵀ.', faded: true, blankAnswer: 'Consistent with unique solution: Chocolate cake ₹60,.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_04_009', title: 'Identify each idea',
-          dissect: { specimen: 'Consistency Inconsistency Systems', spots: [
+          dissect: { specimen: 'Solution of System of Linear Equations: Matrix Method', spots: [
             { id: 's1', label: 'The matrix method solves a', prompt: 'Which idea is this? — The matrix method solves a system of linear equations \\(AX = B\\) by computing \\(X =.', answer: 'The matrix method solves a', options: ['The matrix method solves a', 'Cramers Rule states that for', 'A system of linear equations'] },
             { id: 's2', label: 'Cramers Rule states that for', prompt: 'Which idea is this? — Cramer\'s Rule states that for a system of n linear equations in n variables represented.', answer: 'Cramers Rule states that for', options: ['Cramers Rule states that for', 'The matrix method solves a', 'A system of linear equations'] },
             { id: 's3', label: 'A system of linear equations', prompt: 'Which idea is this? — A system of linear equations AX = B is **consistent** if at least one solution exists.', answer: 'A system of linear equations', options: ['A system of linear equations', 'The matrix method solves a', 'Cramers Rule states that for'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsConsistencyInconsistencySystemsSim, prompt: 'Explore the interactive — Consistency Inconsistency Systems' },
+    explore: { component: C12_MathematicsConsistencyInconsistencySystemsSim, prompt: 'Explore the interactive — Solution of System of Linear Equations: Matrix Method' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_04_008', difficulty: 'standard',
           question: 'The matrix method solves a system of linear equations \\(AX = B\\) by computing.',

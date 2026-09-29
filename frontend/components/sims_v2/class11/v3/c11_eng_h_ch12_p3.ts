@@ -19,7 +19,7 @@ export const c11_eng_h_ch12_p3: SimDef = {
         hook: 'Resolution of plot and resolution of tension aren\'t the same — a shared silence can close a poem better than dialogue.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the disciplined process of examining a literary text (here, the poem "Father to Father") by breaking it into constituent elements—structure.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Father to Son\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_12_013', title: 'Your mission',
@@ -29,14 +29,14 @@ export const c11_eng_h_ch12_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_12_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re sitting in the exam hall, the question reads: "Analyze how the poet portrays the emotional distance between father and son." Your mind goes.',
+          caseStudy: { intro: 'For written answers on \'Father to Son\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing analytical paragraphs for literature?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Point, Example, Explain.' },
                 { text: 'Point, Example, Explain, Conclusion', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarising the poem in their own.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarising the poem in their own.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_12_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re at a family gathering and your cousin reads a poem about fathers that perfectly captures the awkward silence between your own father and.',
+          caseStudy: { intro: 'Talk through \'Father to Son\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of using textual evidence during a literary discussion of a poem like "Father to Father"?', options: [
                 { text: 'The primary purpose is to ground interpretations in the poem\'s actual language so that', outcome: 'The primary purpose is to ground interpretations in the poem\'s actual language so that claims about.' },
                 { text: 'to impress the teacher', outcome: 'Not quite — Students believe a "good discussion" means everyone agrees on a single theme (e.g., "The poem.', reveals: 'a-good-discussion-means-everyone' },
@@ -61,18 +61,18 @@ export const c11_eng_h_ch12_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the disciplined process.',
+          question: 'Critical thinking on \'Father to Son\' — analysing the text to reach.',
           hint: 'Review c8_engl_ch1_17 (PEEL method) and c7_engl_ch01_015 (embedding quotes) before.',
           misconception: 'Students equate "critical analysis" with "listing poetic devices." They write: "The poet uses metaphor, enjambment, and.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical Thinking: Analysis and Interpretation is the disciplined process of examining a',
-                  options: ['Critical Thinking: Analysis and Interpretation is the disciplined process of examining a', '"Before You Read: Context and Background" provides the essential historical,', 'Plot and narrative structure in poetry refers to the organized sequence of events,', 'Setting in poetry refers to the time, place, and social environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'Father to Son\'',
+                  options: ['Critical thinking on \'Father to Son\'', '\'Father to Son\' (Hornbill, ch', 'The plot/narrative arc of \'Father to Son\'', 'The setting of \'Father to Son\''],
                   hint: 'Review c8_engl_ch1_17 (PEEL method) and c7_engl_ch01_015 (embedding quotes) before attempting.',
                   misconception: 'Students equate "critical analysis" with "listing poetic devices." They write: "The poet uses metaphor, enjambment, and alliteration" and.' }
           ],
             remediations: { 'students-equate-critical-analysis-with': { steps: ['Hand the student a single stanza stripped of line breaks (prose version).', 'Ask: "Where would *you* break the lines?', 'Why?" Compare their breaks to the poet’s.', 'Give them a two-column table: Column A = Device (e.g., "enjambment after \'understand\'"), Column B = *So what?* (e.g.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_014', difficulty: 'standard',
-          question: 'Writing skills based on a literary chapter involve the ability to produce.',
+          question: 'Writing skills from \'Father to Son\' — using the text as a model or springboard.',
           hint: 'If stuck, return to c11_eng_h_cbse_12_008 (Imagery and Metaphor) and.',
           misconception: 'Students believe "writing skills based on the chapter" means summarising the poem in their own words or writing.',
           parts: [
@@ -98,7 +98,7 @@ export const c11_eng_h_ch12_p3: SimDef = {
           ],
             remediations: { 'writing-skills-based-on-the': { steps: ['Have the student highlight 5 key phrases from the poem that carry emotional weight.', 'Practice turning each phrase into a PEEL paragraph: write the Point *using words from the phrase*, then Explain the.', 'For creative tasks, give a "voice checklist": Does this sound like the father/son?', 'Does it use the poem\'s imagery?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_12_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured framework.',
+          question: 'Discussion points on \'Father to Son\' — speaking and listening around the text.',
           hint: 'If stuck, return to c11_eng_h_cbse_12_008 (Imagery and Metaphor) and.',
           misconception: 'Students believe a "good discussion" means everyone agrees on a single theme (e.g., "The poem is about the generation.',
           parts: [

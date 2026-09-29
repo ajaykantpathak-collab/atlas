@@ -6,13 +6,13 @@ import C8_MathematicsTalesByDotsAndLinesSim from '../../../simulations/c6_12/C8_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicstalesbydotsandlinessim: SimDef = {
     id: 'v3w_c8_mathematicstalesbydotsandlinessim',
-    title: 'Tales By Dots And Lines',
+    title: 'Line Plots and Bar Graphs for Data Representation',
     subtitle: 'Covers construction and interpretation of line plots (for small to moderate discrete data.',
     classLevel: 8, subject: 'mathematics', topic: 'Line Plots and Bar Graphs for Data Representation',
     chapters: [],
     nodeIds: ['c8_math_ch12_12', 'c8_math_ch12_2'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine your Class 8 teacher asks: "How many hours did each student spend on homework last week?" You collect.', goal: 'Master Tales By Dots And Lines.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine your Class 8 teacher asks: "How many hours did each student spend on homework last week?" You collect.', goal: 'Master Line Plots and Bar Graphs for Data Representation.' },
     discovery: {
         question: 'What does each dot represent in a dot plot, and how is the mean visually identified as a balancing point?',
         options: ['Each dot represents one occurrence of a data value', 'the dot in the middle', 'the highest dot'],
@@ -42,12 +42,12 @@ export const w_c8_mathematicstalesbydotsandlinessim: SimDef = {
             { text: 'Mean = 34/7 ≈ 4.86 books. The visual balance matches the arithmetic mean.', faded: true, blankAnswer: 'Mean = 34/7 ≈ 4.86 books.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch12_2', title: 'Identify each idea',
-          dissect: { specimen: 'Tales By Dots And Lines', spots: [
+          dissect: { specimen: 'Line Plots and Bar Graphs for Data Representation', spots: [
             { id: 's1', label: 'A line plot dot plot', prompt: 'Which idea is this? — A line plot (dot plot) displays individual data points as dots or X marks above a number.', answer: 'A line plot dot plot', options: ['A line plot dot plot', 'A dot plot displays each'] },
             { id: 's2', label: 'A dot plot displays each', prompt: 'Which idea is this? — A dot plot displays each data value as a dot above a number line; the mean is the balance.', answer: 'A dot plot displays each', options: ['A dot plot displays each', 'A line plot dot plot'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsTalesByDotsAndLinesSim, prompt: 'Explore the interactive — Tales By Dots And Lines' },
+    explore: { component: C8_MathematicsTalesByDotsAndLinesSim, prompt: 'Explore the interactive — Line Plots and Bar Graphs for Data Representation' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch12_2', difficulty: 'standard',
           question: 'A dot plot displays each data value as a dot above a number line; the mean is.',

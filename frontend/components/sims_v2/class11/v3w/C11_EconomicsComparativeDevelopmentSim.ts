@@ -6,13 +6,13 @@ import C11_EconomicsComparativeDevelopmentSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_economicscomparativedevelopmentsim: SimDef = {
     id: 'v3w_c11_economicscomparativedevelopmentsim',
-    title: 'Comparative Development',
+    title: 'Comparative Analysis: India, Pakistan and China Background',
     subtitle: 'Covers the historical overview (1947-2024), rationale for comparison, snapshot of.',
     classLevel: 11, subject: 'economics', topic: 'Comparative Analysis: India, Pakistan and China Background',
     chapters: [],
     nodeIds: ['c11_eco_cbse_08_001', 'c11_eco_cbse_08_007', 'c11_eco_cbse_08_011', 'c11_eco_cbse_01_009', 'c11_eco_cbse_08_003', 'c11_eco_cbse_08_004', 'c11_eco_cbse_08_005', 'c11_eco_cbse_08_006', 'c11_eco_cbse_08_008', 'c11_eco_cbse_08_010', 'c11_eco_cbse_06_009', 'c11_eco_cbse_01_001', 'c11_eco_cbse_01_002', 'c11_eco_cbse_01_005', 'c11_eco_cbse_01_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re at a family dinner where three cousins — born the same year — share their life stories: one.', goal: 'Master Comparative Development.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re at a family dinner where three cousins — born the same year — share their life stories: one.', goal: 'Master Comparative Analysis: India, Pakistan and China Background.' },
     discovery: {
         question: 'Using Table 8.1 data, explain why China\'s population density (150 persons/sq.km) is lower than India\'s (473 persons/sq.km) even though their total populations.',
         options: ['Density = Population / Land Area', 'China\'s one-child policy', 'India\'s population problem is solved'],
@@ -79,7 +79,7 @@ export const w_c11_economicscomparativedevelopmentsim: SimDef = {
             { text: 'Economic implications: Skewed sex ratios lead to marriage squeeze, trafficking, surplus male labour, and reduced female.', faded: true, blankAnswer: 'India: ~16.3 million missing women; China: ~40.1 million;.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_eco_cbse_08_007', title: 'Identify each idea',
-          dissect: { specimen: 'Comparative Development', spots: [
+          dissect: { specimen: 'Comparative Analysis: India, Pakistan and China Background', spots: [
             { id: 's1', label: 'Comparative development analysis is the', prompt: 'Which idea is this? — Comparative development analysis is the systematic examination of economic and human.', answer: 'Comparative development analysis is the', options: ['Comparative development analysis is the', 'The Human Development Index HDI', 'Lessons from Chinese and Pakistani', 'The Drain of Wealth theory'] },
             { id: 's2', label: 'The Human Development Index HDI', prompt: 'Which idea is this? — The Human Development Index (HDI) is a composite statistic of life expectancy, education.', answer: 'The Human Development Index HDI', options: ['The Human Development Index HDI', 'Comparative development analysis is the', 'Lessons from Chinese and Pakistani', 'The Drain of Wealth theory'] },
             { id: 's3', label: 'Lessons from Chinese and Pakistani', prompt: 'Which idea is this? — Lessons from Chinese and Pakistani reforms for India refer to the comparative policy.', answer: 'Lessons from Chinese and Pakistani', options: ['Lessons from Chinese and Pakistani', 'Comparative development analysis is the', 'The Human Development Index HDI', 'The Drain of Wealth theory'] },
@@ -88,7 +88,7 @@ export const w_c11_economicscomparativedevelopmentsim: SimDef = {
             { id: 's6', label: 'Demographic transition is the historical', prompt: 'Which idea is this? — Demographic transition is the historical shift from high birth and death rates to low.', answer: 'Demographic transition is the historical', options: ['Demographic transition is the historical', 'Comparative development analysis is the', 'The Human Development Index HDI', 'Lessons from Chinese and Pakistani'] }
           ] } }
     ],
-    explore: { component: C11_EconomicsComparativeDevelopmentSim, prompt: 'Explore the interactive — Comparative Development' },
+    explore: { component: C11_EconomicsComparativeDevelopmentSim, prompt: 'Explore the interactive — Comparative Analysis: India, Pakistan and China Background' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eco_cbse_08_001', difficulty: 'standard',
           question: 'Comparative development analysis is the systematic examination of economic and.',

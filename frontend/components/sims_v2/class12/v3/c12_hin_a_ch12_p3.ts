@@ -19,7 +19,7 @@ export const c12_hin_a_ch12_p3: SimDef = {
         hook: '\'Simple\' isn\'t \'artless\' — colloquial, descriptive, expressive prose immerses you in village life so hardship and tenderness land as lived, not reported. A socialist lens sees both the poverty AND the feeling; the story outlives its decade because the rural-urban divide still argues today.',
     },
     teaching: [
-        { title: 'संवदयिा — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन पाठ के तत्वों (विषय, पात्र, भाषा, संरचना) को तोड़कर उनके बीच के संबंधों की जाँच करना और उनके अर्थ एवं प्रभाव का मूल्यांकन करना है।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'संवदयिा — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'अंतरा भाग-2 — पाठ 12\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_12_013', title: 'Your mission',
@@ -28,6 +28,13 @@ export const c12_hin_a_ch12_p3: SimDef = {
         context: 'Enter the village through its own speech: weigh a freedom fighter\'s lens on rural suffering, test why colloquiality is craft, and ask what a 1950s story still teaches a 2025 reader.',
         labels: ['संवदयिा — आलोचनात्मक चिंतन', 'संवदयिा — लेखन कौशल', 'संवदयिा — वाचन-श्रवण: चर्चा-बिंदु'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_12_013', title: 'संवदयिा — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 12\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।',
+            decisions: [{ prompt: 'What is the literal meaning of the term "laofn;k" as established in the opening paragraph of the story, and what social function does the.', options: [
+                { text: '"laofn;k" literally means "one who tells/recites stories" (lans\'kokgd)', outcome: '"laofn;k" literally means "one who tells/recites stories" (lans\'kokgd).' },
+                { text: 'respected elder', outcome: 'Not quite — Students often treat "critical analysis" as "finding hidden symbols" — e.g., claiming the "xkM+h".', reveals: 'students-often-treat-critical-analysis' },
+                { text: 'priest', outcome: 'Not quite — Students often treat "critical analysis" as "finding hidden symbols" — e.g., claiming the "xkM+h".', reveals: 'students-often-treat-critical-analysis' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_12_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your family wants to shift the ageing grandmother — who has nursed half the village\'s children — into your city flat \'for her own good.\' She refuses flatly, and everyone calls it stubbornness.',
             decisions: [{ prompt: 'How does the climax of \'रेणु\' read her refusal?', options: [
@@ -47,34 +54,49 @@ export const c12_hin_a_ch12_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन पाठ के तत्वों (विषय, पात्र, भाषा, संरचना) को तोड़कर उनके बीच.',
-          hint: 'यदि विश्लेषण में कठिनाई हो, तो पहले पात्र-चित्रण (c12_hin_a_cbse_12_004/005) या विषय.',
-          misconception: 'छात्र अक्सर मानते हैं कि आलोचनात्मक चिंतन का अर्थ है पाठ की निंदा करना या उसके दोष निकालना—जैसे कहना कि "लेखक का भाषा.',
+          question: '\'अंतरा भाग-2 — पाठ 12\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
+          hint: 'If stuck, re-read the "iz\'u&vH;kl" (exercise questions) at the end of the NCERT chapter.',
+          misconception: 'Students often treat "critical analysis" as "finding hidden symbols" — e.g., claiming the "xkM+h" (cot) *represents*.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन पाठ के तत्वों (विषय, पात्र, भाषा, संरचना) को तोड़कर उनके बीच के संबंधों',
-                  options: ['आलोचनात्मक चिंतन पाठ के तत्वों (विषय, पात्र, भाषा, संरचना) को तोड़कर उनके बीच के संबंधों', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
-                  hint: 'यदि विश्लेषण में कठिनाई हो, तो पहले पात्र-चित्रण (c12_hin_a_cbse_12_004/005) या विषय.',
-                  misconception: 'छात्र अक्सर मानते हैं कि आलोचनात्मक चिंतन का अर्थ है पाठ की निंदा करना या उसके दोष निकालना—जैसे कहना कि "लेखक का भाषा उपयोग कमजोर है" या.' }
+                { id: 'a', prompt: 'What is the literal meaning of the term "laofn;k" as established in the opening paragraph of the story, and what social function does the narrator say.', answer: '"laofn;k" literally means "one who tells/recites stories" (lans\'kokgd)',
+                  options: ['"laofn;k" literally means "one who tells/recites stories" (lans\'kokgd)', 'respected elder', 'priest'],
+                  hint: 'If stuck, re-read the "iz\'u&vH;kl" (exercise questions) at the end of the NCERT chapter — Questions.',
+                  misconception: 'Students often treat "critical analysis" as "finding hidden symbols" — e.g., claiming the "xkM+h" (cot) *represents* the caste system.' },
+                { id: 'b', prompt: 'Analyze the significance of the repeated song "gekjks laokn ys tkgq js laofn;k&;k&;k" at three key moments: (a) when gjxksfcu first arrives, (b) when he leaves.', answer: 'when gjxksfcu first arrives, (',
+                  options: ['when gjxksfcu first arrives, (', 'background music'],
+                  hint: 'If stuck, re-read the "iz\'u&vH;kl" (exercise questions) at the end of the NCERT chapter — Questions.',
+                  misconception: 'Students often treat "critical analysis" as "finding hidden symbols" — e.g., claiming the "xkM+h" (cot) *represents* the caste system.' }
           ],
-            remediations: { 'boring': { steps: ['छात्र से पूछिए कि वे अपने पसंदीदा फिल्म या गाने के बारे में क्या पसंद करते हैं—क्या यह सिर्फ इसलिए है क्योंकि यह.', 'फिर बताइए कि साहित्य में भी यही होता है: हम शब्दों, संरचना, चित्रों को नहीं इसलिए देखते हैं क्योंकि वे \'गलत\' हैं, बल्कि.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-critical-analysis': { steps: ['If the student cannot distinguish analysis from speculation: (1) Have them list 5 physical details about the cot from.', '(2) Ask: "Which of these details does the author *choose* to include, and what does that choice *do* to the reader\'s.', '(4) Re-attempt Diagnostic Question 4 with the song, using only words the author wrote.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_013', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often treat "critical analysis" as "finding hidden symbols" — e.g., claiming the "xkM+h" (cot) *represents*.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the claim: "gjxksfcu is the villain of the story." Defend your position using at least three specific textual moments.', answer: 'The claim is reductive',
+                  options: ['The claim is reductive', 'simply condemns or excuses him fails to engage the story\'s moral complexity'],
+                  hint: 'If stuck, re-read the "iz\'u&vH;kl" (exercise questions) at the end of the NCERT chapter — Questions.',
+                  misconception: 'Students often treat "critical analysis" as "finding hidden symbols" — e.g., claiming the "xkM+h" (cot) *represents* the caste system.' }
+          ],
+            remediations: { 'students-often-treat-critical-analysis': { steps: ['If the student cannot distinguish analysis from speculation: (1) Have them list 5 physical details about the cot from.', '(2) Ask: "Which of these details does the author *choose* to include, and what does that choice *do* to the reader\'s.', '(4) Re-attempt Diagnostic Question 4 with the song, using only words the author wrote.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_014', difficulty: 'standard',
-          question: 'लेखन कौशल: पाठ-आधारित का अर्थ है किसी दिए गए गद्य या पद्य पाठ पर आधारित.',
-          hint: 'यदि छात्र उत्तर में प्रमाण देने या स्पष्टीकरण करने में फंस जाए, तो उसे.',
-          misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर में लंबा लिखना ही अधिक अंक लाता है, इसलिए वे अनावश्यक दोहराव या सामान्य कथानक.',
+          question: '\'अंतरा भाग-2 — पाठ 12\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+          hint: 'यदि PEEL संरचना स्पष्ट नहीं है, तो कक्षा 11 के लेखन कौशल नोड (c11_hin_ar_cbse_01_014) का.',
+          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'पाठ्य साक्ष्य\' (textual evidence) का अर्थ है **कहानी के लंबे अंश उद्धृत करना.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'लेखन कौशल: पाठ-आधारित का अर्थ है किसी दिए गए गद्य या पद्य पाठ पर आधारित प्रश्नों के उत्तर',
-                  options: ['लेखन कौशल: पाठ-आधारित का अर्थ है किसी दिए गए गद्य या पद्य पाठ पर आधारित प्रश्नों के उत्तर', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
-                  hint: 'यदि छात्र उत्तर में प्रमाण देने या स्पष्टीकरण करने में फंस जाए, तो उसे c12_hin_a_cbse_12_011 (पाठ.',
-                  misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर में लंबा लिखना ही अधिक अंक लाता है, इसलिए वे अनावश्यक दोहराव या सामान्य कथानक का सारांश भर देते.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 12\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+                  options: ['\'अंतरा भाग-2 — पाठ 12\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'यदि PEEL संरचना स्पष्ट नहीं है, तो कक्षा 11 के लेखन कौशल नोड (c11_hin_ar_cbse_01_014) का \'उत्तर.',
+                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि \'पाठ्य साक्ष्य\' (textual evidence) का अर्थ है **कहानी के लंबे अंश उद्धृत करना (quoting long.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक कमजोर उत्तर (जैसे "नायक अच्छा था") कैसे PEEL में बदलता है — पहले बिंदु सुधारिए ("नायक का त्याग.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'textual-evidence-quoting-long-passages': { steps: ['**चरण 1 — निदान:** छात्र से कहें: "अपना अंतिम लिखा उत्तर निकालो। उसमें पीले हाइलाइटर से Point, गुलाबी से Evidence, नीले.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_12_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु का अर्थ है किसी विषय पर चर्चा करते समय attentively.',
+          question: '\'अंतरा भाग-2 — पाठ 12\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
           hint: 'यदि चर्चा में बोलते समय संरचना बनाने में कठिनाई हो, तो पहले कागज़ पर PEEL प्रारूप में.',
           misconception: 'छात्र अक्सर मानते हैं कि \'वाचन-श्रवण: चर्चा-बिंदु\' में केवल बोलने का कौशल महत्वपूर्ण है — वे सोचते हैं कि जितना अधिक और.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु का अर्थ है किसी विषय पर चर्चा करते समय attentively सुनना',
-                  options: ['वाचन-श्रवण: चर्चा-बिंदु का अर्थ है किसी विषय पर चर्चा करते समय attentively सुनना', 'संवादिया — पृष्ठभूमि और रचनाकार परिचय वह अध्ययन है जिसमें लेखक के जीवनकाल, सामाजिक-आर्थिक', 'कथानक वह क्रमबद्ध घटनाओं की श्रृंखला है जो एक कहानी में होती है, जिसमें परिचय, संघर्ष,', 'पाठ्य-परिवेश वह समय, स्थान, सामाजिक-आर्थिक स्थिति और सांस्कृतिक पृष्ठभूमि है जिसमें कोई'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 12\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का',
+                  options: ['\'अंतरा भाग-2 — पाठ 12\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 12\' का कथानक — \'अंतरा भाग-2 — पाठ 12\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 12\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि चर्चा में बोलते समय संरचना बनाने में कठिनाई हो, तो पहले कागज़ पर PEEL प्रारूप में नोट्स बनाइए.',
                   misconception: 'छात्र अक्सर मानते हैं कि \'वाचन-श्रवण: चर्चा-बिंदु\' में केवल बोलने का कौशल महत्वपूर्ण है — वे सोचते हैं कि जितना अधिक और जितना ज़ोर से.' }
           ],

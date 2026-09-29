@@ -19,7 +19,7 @@ export const c11_eng_s_ch02_p2: SimDef = {
         hook: 'Reading her as merely greedy shrinks systemic dispossession into personal villainy — the law itself made the theft respectable.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas or motifs that support and enrich the primary theme of a literary work.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Address\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_s_cbse_02_007', title: 'Your mission',
@@ -29,41 +29,41 @@ export const c11_eng_s_ch02_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_02_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you find an old photograph album in your grandparents\' house.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Address\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a secondary theme in literature, and how does it differ from the primary theme?', options: [
                 { text: 'A secondary theme is a supporting idea that enriches the main (primary) theme but is not', outcome: 'A secondary theme is a supporting idea that enriches the main (primary) theme but is not the.' },
                 { text: 'the narrator visits Marconi Street', outcome: 'Not quite — Students often think any recurring topic (e.g., "war," "mother," "silver") is a theme.', reveals: 'any-recurring-topic-e' },
                 { text: 'mother', outcome: 'Not quite — Students often think any recurring topic (e.g., "war," "mother," "silver") is a theme.', reveals: 'any-recurring-topic-e' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_02_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you walk into a relative\'s house after years away and everything smells different — musty, unfamiliar — yet you spot your mother\'s favourite teacup.',
+          caseStudy: { intro: 'Find the lines in \'The Address\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "imagery" and "metaphor" in your own words, and give one example of each from "The Address" without looking at the text.', options: [
                 { text: 'Imagery: Language appealing to senses (e.g., "A musty smell emerged"', outcome: 'Imagery: Language appealing to senses (e.g., "A musty smell emerged" — olfactory imagery).' },
                 { text: 'Imagery is just description', outcome: 'Not quite — Students often treat imagery and metaphor as *decoration* — "beautiful language" — rather than.', reveals: 'students-often-treat-imagery-and' },
                 { text: 'Metaphor uses \'like\'', outcome: 'Not quite — Students often treat imagery and metaphor as *decoration* — "beautiful language" — rather than.', reveals: 'students-often-treat-imagery-and' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_02_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine returning to your grandparents\' house years after they passed away, only to find a stranger living there using your grandmother\'s favourite teacup for.',
+          caseStudy: { intro: 'Look in \'The Address\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define situational irony and give one example from "The Address" without quoting the text directly.', options: [
                 { text: 'Situational irony occurs when the outcome of a situation is sharply contrary to what was', outcome: 'Situational irony occurs when the outcome of a situation is sharply contrary to what was expected.' },
                 { text: 'irony is when something funny happens', outcome: 'Not quite — Students often confuse symbolism with metaphor, treating every described object as a symbol (e.g.', reveals: 'students-often-confuse-symbolism-with' },
                 { text: 'the train symbolizes her journey', outcome: 'Not quite — Students often confuse symbolism with metaphor, treating every described object as a symbol (e.g.', reveals: 'students-often-confuse-symbolism-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_02_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading "The Address" and encounter the sentence: "The objects that are linked in your memory with the familiar life of former times instantly.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Address\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'Define "contextual meaning" and explain how it differs from "dictionary meaning" using the word "Liberation" from the text as your example.', options: [
                 { text: 'Contextual meaning is the specific significance a word acquires within a particular', outcome: 'Contextual meaning is the specific significance a word acquires within a particular textual.' },
                 { text: 'freedom from oppression', outcome: 'Not quite — Students believe "vocabulary in context" means finding a synonym that fits the sentence.', reveals: 'vocabulary-in-context-means-finding' },
                 { text: 'What does the word X suggest in this context?', outcome: 'Not quite — Students believe "vocabulary in context" means finding a synonym that fits the sentence.', reveals: 'vocabulary-in-context-means-finding' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_02_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading a diary entry from 1945 where the writer switches between "I remember" and "I had remembered"—why does the tense change?',
+          caseStudy: { intro: 'Read \'The Address\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the tense of the verb phrase "had given" in the sentence: "It had been in the first half of the War.', options: [
                 { text: 'The verb phrase "had given" is in the past perfect tense', outcome: 'The verb phrase "had given" is in the past perfect tense. It indicates an action completed before.' },
                 { text: 'past simple', outcome: 'Not quite — Students often treat "grammar in literature" as merely labeling parts of speech (e.g., "this is.', reveals: 'students-often-treat-grammar-in' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_02_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and see the question: "Why did the narrator want to forget the address?" Your mind goes blank because the answer isn\'t.',
+          caseStudy: { intro: 'Answer \'The Address\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the definition of a literal comprehension question?', options: [
                 { text: 'A literal comprehension question asks for information explicitly stated in the text,', outcome: 'A literal comprehension question asks for information explicitly stated in the text, requiring.' },
                 { text: 'a question that asks for your opinion', outcome: 'Not quite — Students believe inferential questions are "opinion questions" with no right answer, so they write.', reveals: 'inferential-questions-are-opinion-questions' },
@@ -88,7 +88,7 @@ export const c11_eng_s_ch02_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_02_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas or motifs that support and enrich the.',
+          question: 'Secondary themes in \'The Address\' — the supporting ideas and motifs that deepen.',
           hint: 'If stuck, review the primary theme node (c11_eng_s_cbse_02_006) and the character.',
           misconception: 'Students often think any recurring topic (e.g., "war," "mother," "silver") is a theme.',
           parts: [
@@ -110,7 +110,7 @@ export const c11_eng_s_ch02_p2: SimDef = {
           ],
             remediations: { 'any-recurring-topic-e': { steps: ['Ask the student: "Complete this sentence: \'The story shows that war...\'" Push until they form a full sentence with.', 'Give them a T-chart: Left column = Object (cardigan, candle-holder, table-cloth, silver).', 'Right column = What it *meant* then vs.', 'Have them write one thematic statement per object using the frame: "The [object] represents how [abstract idea]." 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_02_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'The Address\' — the vivid, sensory language that creates.',
           hint: 'If stuck, review "Sensory Imagery and Suspense Building" (c7_engl_ch04_008) for practice.',
           misconception: 'Students often treat imagery and metaphor as *decoration* — "beautiful language" — rather than as *structural engines*.',
           parts: [
@@ -125,7 +125,7 @@ export const c11_eng_s_ch02_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-imagery-and': { steps: ['Have the student re-read *only* the second visit scene (from "I followed the girl along the passage" to "I resolved.', 'Ask: "If you removed all sensory words, what would the narrator *know* vs.', 'Give a template: "The [image] appeals to [sense].', 'It makes the narrator feel [emotion] because [context]." 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_02_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'The Address\' — where opposite things are both true,.',
           hint: 'If stuck, review c11_eng_s_cbse_02_002 (Plot and Narrative Structure) to re-sequence the.',
           misconception: 'Students often confuse symbolism with metaphor, treating every described object as a symbol (e.g., "the train.',
           parts: [
@@ -140,7 +140,7 @@ export const c11_eng_s_ch02_p2: SimDef = {
           ],
             remediations: { 'students-often-confuse-symbolism-with': { steps: ['Have the student create a two-column table: Column A = "Object/Event in Past Context" (e.g., candle-holder used once.', 'Ask: "What does the shift from Column A to Column B *represent* about the narrator\'s world?" 3.', 'For irony, give three clear definitions with non-literary examples (situational: a fire station burns down; dramatic.', 'Map each definition to a specific story moment.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_02_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'The Address\' — the words and phrases you must know to read.',
           hint: 'If stuck, review c11_eng_s_cbse_02_002 (Plot and Narrative Structure) to re-anchor each.',
           misconception: 'Students believe "vocabulary in context" means finding a synonym that fits the sentence.',
           parts: [
@@ -151,7 +151,7 @@ export const c11_eng_s_ch02_p2: SimDef = {
           ],
             remediations: { 'vocabulary-in-context-means-finding': { steps: ['Have the student select ONE word from the text (e.g., "poignant") and write three sentences: (a) dictionary definition.', 'Use a two-column table: Column A = word in isolation; Column B = word in full sentence with 5 words before/after.', 'Ask: "If the author changed this word to [synonym], what would be lost?" Require written answer referencing tone.', 'Repeat with 3 more words until the student spontaneously discusses connotation, not just definition.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_02_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the systematic analysis of how.',
+          question: 'Language and style in \'The Address\' — how the writer chose words, sentences and.',
           hint: 'Review Class 10 reported speech rules (backshifting) and Class 8 tense revision (past.',
           misconception: 'Students often treat "grammar in literature" as merely labeling parts of speech (e.g., "this is a past perfect verb").',
           parts: [
@@ -162,7 +162,7 @@ export const c11_eng_s_ch02_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-grammar-in': { steps: ['Give the student a two-column table: Column A = grammatical feature (e.g., past perfect), Column B = narrative function.', 'Have them find 3 examples in the text and fill Column B by asking: "What time period does this verb place us in?', 'What does the narrator feel about that time?" 3.', 'Model one think-aloud: "When Minco writes \'I had remembered it,\' the past perfect shows the remembering happened.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_02_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'The Address\' — questions answered straight from the.',
           hint: 'If stuck, re-read the two visit scenes (first and second) and list every concrete detail.',
           misconception: 'Students believe inferential questions are "opinion questions" with no right answer, so they write vague feelings ("I.',
           parts: [

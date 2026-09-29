@@ -6,13 +6,13 @@ import C9_EVSEarthEnvironmentBioticSim from '../../../simulations/c6_12/C9_EVSEa
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_evsearthenvironmentbioticsim: SimDef = {
     id: 'v3w_c9_evsearthenvironmentbioticsim',
-    title: 'Earth Environment Biotic',
+    title: 'Coastal Landforms and Human-Landform Relationships',
     subtitle: 'Covers erosional and depositional coastal landforms formed by sea waves and currents,.',
     classLevel: 9, subject: 'evs', topic: 'Coastal Landforms and Human-Landform Relationships',
     chapters: [],
     nodeIds: ['c9_geo_ch1_11', 'c9_bio_ch4_6', 'c9_geo_ch1_1', 'c9_geo_ch1_12', 'c9_geo_ch1_2', 'c9_geo_ch1_5', 'c9_geo_ch1_6', 'c9_geo_ch1_7'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Stand on Marina Beach in Chennai at low tide and observe the wide sandy beach, then walk to the rocky.', goal: 'Master Earth Environment Biotic.' },
+    scenario: { role: 'a class 9 learner', intro: 'Stand on Marina Beach in Chennai at low tide and observe the wide sandy beach, then walk to the rocky.', goal: 'Master Coastal Landforms and Human-Landform Relationships.' },
     discovery: {
         question: 'Why is the mass nesting (arribada) of Olive Ridley turtles on Odisha\'s Gahirmatha beach considered a behavioural adaptation?',
         options: ['Mass nesting is a behavioural adaptation', 'a habit they learned', 'they gather for safety'],
@@ -79,7 +79,7 @@ export const w_c9_evsearthenvironmentbioticsim: SimDef = {
             { text: 'Verify: Barren Island (India) is andesitic (composite) — so this sample is NOT from there; it matches Hawaiian or.', faded: true, blankAnswer: 'The sample is from a shield volcano, basaltic magma, likely.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_bio_ch4_6', title: 'Identify each idea',
-          dissect: { specimen: 'Earth Environment Biotic', spots: [
+          dissect: { specimen: 'Coastal Landforms and Human-Landform Relationships', spots: [
             { id: 's1', label: 'Coastal landforms are natural features', prompt: 'Which idea is this? — Coastal landforms are natural features shaped by the dynamic interaction of sea waves,.', answer: 'Coastal landforms are natural features', options: ['Coastal landforms are natural features', 'Adaptation is a heritable structural', 'Earths interior is divided into', 'Natural hazards are extreme geophysical'] },
             { id: 's2', label: 'Adaptation is a heritable structural', prompt: 'Which idea is this? — Adaptation is a heritable structural, behavioural, or physiological trait that enhances.', answer: 'Adaptation is a heritable structural', options: ['Adaptation is a heritable structural', 'Coastal landforms are natural features', 'Earths interior is divided into', 'Natural hazards are extreme geophysical'] },
             { id: 's3', label: 'Earths interior is divided into', prompt: 'Which idea is this? — Earth\'s interior is divided into three concentric layers based on chemical composition.', answer: 'Earths interior is divided into', options: ['Earths interior is divided into', 'Coastal landforms are natural features', 'Adaptation is a heritable structural', 'Natural hazards are extreme geophysical'] },
@@ -88,7 +88,7 @@ export const w_c9_evsearthenvironmentbioticsim: SimDef = {
             { id: 's6', label: 'A volcano is a vent', prompt: 'Which idea is this? — A volcano is a vent or fissure in the Earth\'s crust through which molten rock (magma),.', answer: 'A volcano is a vent', options: ['A volcano is a vent', 'Coastal landforms are natural features', 'Adaptation is a heritable structural', 'Earths interior is divided into'] }
           ] } }
     ],
-    explore: { component: C9_EVSEarthEnvironmentBioticSim, prompt: 'Explore the interactive — Earth Environment Biotic' },
+    explore: { component: C9_EVSEarthEnvironmentBioticSim, prompt: 'Explore the interactive — Coastal Landforms and Human-Landform Relationships' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_geo_ch1_11', difficulty: 'standard',
           question: 'Coastal landforms are natural features shaped by the dynamic interaction of sea.',

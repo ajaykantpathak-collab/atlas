@@ -6,13 +6,13 @@ import C12_BiologyHumanHealthandDiseaseCBSESim from '../../../simulations/c6_12_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologyhumanhealthanddiseasecbsesim: SimDef = {
     id: 'v3w_c12_biologyhumanhealthanddiseasecbsesim',
-    title: 'Human Healthand Disease CBSE',
+    title: 'Infectious Diseases: Mode of Transmission',
     subtitle: 'Covers classification of transmission modes (direct contact, droplet, airborne,.',
     classLevel: 12, subject: 'biology', topic: 'Infectious Diseases: Mode of Transmission',
     chapters: [],
     nodeIds: ['c12_bio_cbse_08_002', 'c12_bio_cbse_04_001', 'c12_bio_cbse_09_003', 'c12_bio_cbse_08_001', 'c12_bio_cbse_08_005', 'c12_bio_cbse_08_008', 'c12_bio_cbse_08_009', 'c12_bio_cbse_12_006', 'c12_bio_cbse_04_005', 'c12_bio_cbse_04_007', 'c12_bio_cbse_09_005', 'c12_bio_cbse_09_007', 'c12_bio_cbse_09_001', 'c12_bio_cbse_09_002', 'c12_bio_cbse_08_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a classmate sneezing without covering their mouth — droplets travel ~1 metre and land on your desk.', goal: 'Master Human Healthand Disease CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a classmate sneezing without covering their mouth — droplets travel ~1 metre and land on your desk.', goal: 'Master Infectious Diseases: Mode of Transmission.' },
     discovery: {
         question: 'A village uses a common pond for bathing, washing cattle, and drawing drinking water. During monsoon, cases of acute diarrhoea spike.',
         options: ['Mode: vehicle-borne (water)', 'vector-borne', 'vehicle-borne'],
@@ -82,7 +82,7 @@ export const w_c12_biologyhumanhealthanddiseasecbsesim: SimDef = {
             { text: 'Final plan — Lumpectomy + sentinel node biopsy → whole breast RT → tamoxifen × 5-10 years.', faded: true, blankAnswer: 'Stage IA (T1cN0M0), Luminal A subtype, low clinical risk..' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_04_001', title: 'Identify each idea',
-          dissect: { specimen: 'Human Healthand Disease CBSE', spots: [
+          dissect: { specimen: 'Infectious Diseases: Mode of Transmission', spots: [
             { id: 's1', label: 'Mode of transmission refers to', prompt: 'Which idea is this? — Mode of transmission refers to the specific pathway by which an infectious agent.', answer: 'Mode of transmission refers to', options: ['Mode of transmission refers to', 'Reproductive health is a state', 'Poultry farm management is the', 'Typhoid pneumonia and the common'] },
             { id: 's2', label: 'Reproductive health is a state', prompt: 'Which idea is this? — Reproductive health is a state of complete physical, mental, and social well‑being in all.', answer: 'Reproductive health is a state', options: ['Reproductive health is a state', 'Mode of transmission refers to', 'Poultry farm management is the', 'Typhoid pneumonia and the common'] },
             { id: 's3', label: 'Poultry farm management is the', prompt: 'Which idea is this? — Poultry farm management is the scientific practice of raising domesticated birds.', answer: 'Poultry farm management is the', options: ['Poultry farm management is the', 'Mode of transmission refers to', 'Reproductive health is a state', 'Typhoid pneumonia and the common'] },
@@ -91,7 +91,7 @@ export const w_c12_biologyhumanhealthanddiseasecbsesim: SimDef = {
             { id: 's6', label: 'Cancer diagnosis is the systematic', prompt: 'Which idea is this? — Cancer diagnosis is the systematic process of identifying malignant neoplasms through.', answer: 'Cancer diagnosis is the systematic', options: ['Cancer diagnosis is the systematic', 'Mode of transmission refers to', 'Reproductive health is a state', 'Poultry farm management is the'] }
           ] } }
     ],
-    explore: { component: C12_BiologyHumanHealthandDiseaseCBSESim, prompt: 'Explore the interactive — Human Healthand Disease CBSE' },
+    explore: { component: C12_BiologyHumanHealthandDiseaseCBSESim, prompt: 'Explore the interactive — Infectious Diseases: Mode of Transmission' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_08_002', difficulty: 'standard',
           question: 'Mode of transmission refers to the specific pathway by which an infectious.',

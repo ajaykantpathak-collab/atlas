@@ -98,8 +98,8 @@ export const c7_physics_ch01_p2: SimDef = {
           hint: 'Review c6_physics_ch01_002 to reinforce how hypotheses are tested through step-by-step.',
           misconception: 'Students often think that if an experiment does not turn out the way they expected or hoped, it is a "failed".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The role of experiments in understanding nature is the systematic process of testing',
-                  options: ['The role of experiments in understanding nature is the systematic process of testing', 'Science as a process is a systematic method of inquiry used to investigate natural', 'The interconnectedness of science disciplines is the principle that natural phenomena', 'Observation and experimentation form the empirical foundation of science, where'],
+                { id: 'a', prompt: 'A student testing how surface texture affects the rolling distance of a marble measures distances of 1.2 m on a smooth wooden board, 0.8 m on a rubber mat, and.', answer: 'Identify given values: distance 1 ($d_1$) =',
+                  options: ['Identify given values: distance 1 ($d_1$) =', 'failed'],
                   hint: 'Review c6_physics_ch01_002 to reinforce how hypotheses are tested through step-by-step.',
                   misconception: 'Students often think that if an experiment does not turn out the way they expected or hoped, it is a "failed" experiment and of no value.' }
           ],
@@ -111,6 +111,10 @@ export const c7_physics_ch01_p2: SimDef = {
           parts: [
                 { id: 'a', prompt: 'Why is monitoring energy consumption in households and schools considered a crucial part of addressing global environmental challenges?', answer: 'Most electricity generation relies on burning fossil fuels',
                   options: ['Most electricity generation relies on burning fossil fuels', 'turning off a single light switch has no measurable impact'],
+                  hint: 'Review c7_physics_ch01_005 for the relationship between science and societal responsibility, and.',
+                  misconception: 'Students often think that environmental challenges like global warming or pollution are too large for scientific principles to address at.' },
+                { id: 'b', prompt: 'A school uses 500 kWh of electrical energy per month. If a solar panel installation reduces this grid energy consumption by 40%, how much grid energy does the.', answer: 'Identify initial energy consumption = 500 kWh and reduction percentage = 40%',
+                  options: ['Identify initial energy consumption = 500 kWh and reduction percentage = 40%', 'turning off a single light switch has no measurable impact'],
                   hint: 'Review c7_physics_ch01_005 for the relationship between science and societal responsibility, and.',
                   misconception: 'Students often think that environmental challenges like global warming or pollution are too large for scientific principles to address at.' }
           ],

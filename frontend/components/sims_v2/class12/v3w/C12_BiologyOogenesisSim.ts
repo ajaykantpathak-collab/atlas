@@ -6,13 +6,13 @@ import C12_BiologyOogenesisSim from '../../../simulations/c6_12/C12_BiologyOogen
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologyoogenesissim: SimDef = {
     id: 'v3w_c12_biologyoogenesissim',
-    title: 'Oogenesis',
+    title: 'Female Reproductive System: Ovaries and Uterus',
     subtitle: 'This node covers the gross and microscopic anatomy of the human ovary and uterus, their.',
     classLevel: 12, subject: 'biology', topic: 'Female Reproductive System: Ovaries and Uterus',
     chapters: [],
     nodeIds: ['c12_bio_cbse_03_002', 'c12_bio_cbse_03_003', 'c12_bio_cbse_03_004', 'c12_bio_cbse_01_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Begin by observing a diagram of the female reproductive system in the NCERT textbook (Figure 3.2).', goal: 'Master Oogenesis.' },
+    scenario: { role: 'a class 12 learner', intro: 'Begin by observing a diagram of the female reproductive system in the NCERT textbook (Figure 3.2).', goal: 'Master Female Reproductive System: Ovaries and Uterus.' },
     discovery: {
         question: 'A histology slide shows a seminiferous tubule cross-section with large cells having prominent nucleoli near the basement membrane, smaller cells with condensed.',
         options: ['The large basal cells are Type B spermatogonia / early primary spermatocytes', 'spermatozoa are abundant', 'lumen is full of sperm'],
@@ -61,14 +61,14 @@ export const w_c12_biologyoogenesissim: SimDef = {
             { text: 'Verify no secondary spermatocytes visible (they are short-lived, rarely seen) and no spermatids in lumen (spermiation.', faded: true, blankAnswer: 'Basal layer: Spermatogonia (2n, mitotic). Middle layer:.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_03_003', title: 'Identify each idea',
-          dissect: { specimen: 'Oogenesis', spots: [
+          dissect: { specimen: 'Female Reproductive System: Ovaries and Uterus', spots: [
             { id: 's1', label: 'The female reproductive system comprises', prompt: 'Which idea is this? — The female reproductive system comprises the ovaries (paired gonads that produce ova and.', answer: 'The female reproductive system comprises', options: ['The female reproductive system comprises', 'Spermatogenesis is the continuous cyclic', 'Oogenesis is the process of', 'Gametogenesis is the process of'] },
             { id: 's2', label: 'Spermatogenesis is the continuous cyclic', prompt: 'Which idea is this? — Spermatogenesis is the continuous, cyclic process in the seminiferous tubules of the.', answer: 'Spermatogenesis is the continuous cyclic', options: ['Spermatogenesis is the continuous cyclic', 'The female reproductive system comprises', 'Oogenesis is the process of', 'Gametogenesis is the process of'] },
             { id: 's3', label: 'Oogenesis is the process of', prompt: 'Which idea is this? — Oogenesis is the process of formation and maturation of the female gamete (ovum) in the.', answer: 'Oogenesis is the process of', options: ['Oogenesis is the process of', 'The female reproductive system comprises', 'Spermatogenesis is the continuous cyclic', 'Gametogenesis is the process of'] },
             { id: 's4', label: 'Gametogenesis is the process of', prompt: 'Which idea is this? — Gametogenesis is the process of formation of haploid male and female gametes (sperm and.', answer: 'Gametogenesis is the process of', options: ['Gametogenesis is the process of', 'The female reproductive system comprises', 'Spermatogenesis is the continuous cyclic', 'Oogenesis is the process of'] }
           ] } }
     ],
-    explore: { component: C12_BiologyOogenesisSim, prompt: 'Explore the interactive — Oogenesis' },
+    explore: { component: C12_BiologyOogenesisSim, prompt: 'Explore the interactive — Female Reproductive System: Ovaries and Uterus' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_03_002', difficulty: 'standard',
           question: 'The female reproductive system comprises the ovaries (paired gonads that.',

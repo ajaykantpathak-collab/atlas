@@ -6,13 +6,13 @@ import C11_MathematicsIntroductionToThreeDimensionalGeometrySim from '../../../s
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathematicsintroductiontothreedimensionalgeometrysim: SimDef = {
     id: 'v3w_c11_mathematicsintroductiontothreedimensionalgeometrysim',
-    title: 'Introduction To Three Dimensional Geometry',
+    title: 'Section Formula in 3D: Internal Division',
     subtitle: 'Covers internal division only (ratio \\( m:n \\) with \\( m,n > 0 \\)).',
     classLevel: 11, subject: 'mathematics', topic: 'Section Formula in 3D: Internal Division',
     chapters: [],
     nodeIds: ['c11_math_cbse_12_003', 'c11_math_cbse_12_006', 'c11_math_cbse_10_002', 'c11_math_cbse_12_001', 'c11_math_cbse_12_002', 'c11_math_cbse_12_004', 'c11_math_cbse_10_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a model rocket launch pad with three support legs anchored at points A(2, -1, 3).', goal: 'Master Introduction To Three Dimensional Geometry.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a model rocket launch pad with three support legs anchored at points A(2, -1, 3).', goal: 'Master Section Formula in 3D: Internal Division.' },
     discovery: {
         question: 'Compare the number of coordinates needed to specify a point on a line, in a plane, and in space. Explain why the number increases with dimension.',
         options: ['Line: 1 coordinate (distance from origin along the line)', 'plane needs 3 coordinates', 'dimensions'],
@@ -81,7 +81,7 @@ export const w_c11_mathematicsintroductiontothreedimensionalgeometrysim: SimDef 
             { text: 'Interpret: The chandelier should be attached at (6, 7, 2), which is 6m along length, 7m along width, and 2m above the.', faded: true, blankAnswer: '(6, 7, 2) metres' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_12_006', title: 'Identify each idea',
-          dissect: { specimen: 'Introduction To Three Dimensional Geometry', spots: [
+          dissect: { specimen: 'Section Formula in 3D: Internal Division', spots: [
             { id: 's1', label: 'The section formula for internal', prompt: 'Which idea is this? — The section formula for internal division in three-dimensional geometry gives the.', answer: 'The section formula for internal', options: ['The section formula for internal', 'Applications of 3D Coordinate Geometry', 'The distance between two points', 'A point in three-dimensional space'] },
             { id: 's2', label: 'Applications of 3D Coordinate Geometry', prompt: 'Which idea is this? — Applications of 3D Coordinate Geometry involve using the distance formula, section.', answer: 'Applications of 3D Coordinate Geometry', options: ['Applications of 3D Coordinate Geometry', 'The section formula for internal', 'The distance between two points', 'A point in three-dimensional space'] },
             { id: 's3', label: 'The distance between two points', prompt: 'Which idea is this? — The distance between two points \\(P(x_1, y_1)\\) and \\(Q(x_2, y_2)\\) in the Cartesian.', answer: 'The distance between two points', options: ['The distance between two points', 'The section formula for internal', 'Applications of 3D Coordinate Geometry', 'A point in three-dimensional space'] },
@@ -89,7 +89,7 @@ export const w_c11_mathematicsintroductiontothreedimensionalgeometrysim: SimDef 
             { id: 's5', label: 'The midpoint of a line', prompt: 'Which idea is this? — The midpoint of a line segment joining two points P(x₁, y₁, z₁) and Q(x₂, y₂, z₂) in.', answer: 'The midpoint of a line', options: ['The midpoint of a line', 'The section formula for internal', 'Applications of 3D Coordinate Geometry', 'The distance between two points'] }
           ] } }
     ],
-    explore: { component: C11_MathematicsIntroductionToThreeDimensionalGeometrySim, prompt: 'Explore the interactive — Introduction To Three Dimensional Geometry' },
+    explore: { component: C11_MathematicsIntroductionToThreeDimensionalGeometrySim, prompt: 'Explore the interactive — Section Formula in 3D: Internal Division' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_12_003', difficulty: 'standard',
           question: 'The section formula for internal division in three-dimensional geometry gives.',

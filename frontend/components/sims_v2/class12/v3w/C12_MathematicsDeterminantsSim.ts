@@ -6,13 +6,13 @@ import C12_MathematicsDeterminantsSim from '../../../simulations/c6_12/C12_Mathe
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicsdeterminantssim: SimDef = {
     id: 'v3w_c12_mathematicsdeterminantssim',
-    title: 'Determinants',
+    title: 'Determinant of a Square Matrix: Definition',
     subtitle: 'This node covers the definition of determinant for square matrices of order 1, 2, and 3;.',
     classLevel: 12, subject: 'mathematics', topic: 'Determinant of a Square Matrix: Definition',
     chapters: [],
     nodeIds: ['c12_math_cbse_04_001', 'c12_math_cbse_04_002', 'c12_math_cbse_04_003', 'c12_math_cbse_04_004', 'c12_math_cbse_04_005', 'c12_math_cbse_04_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are running a small stationery shop and need to find the individual prices of pens and notebooks.', goal: 'Master Determinants.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are running a small stationery shop and need to find the individual prices of pens and notebooks.', goal: 'Master Determinant of a Square Matrix: Definition.' },
     discovery: {
         question: 'What is the determinant of the matrix A = [7] (a 1×1 matrix), and why does the definition of determinant require the matrix to be square?',
         options: ['The determinant of A = [7] is 7', 'determinant is 0', 'non-square matrices have determinants'],
@@ -80,7 +80,7 @@ export const w_c12_mathematicsdeterminantssim: SimDef = {
             { text: 'x = ₹2.25, y = ₹1.75, z = ₹2.25. Verify: 2(2.25)+1.75+3(2.25)=4.5+1.75+6.75=13 ✓.', faded: true, blankAnswer: 'Notebook = ₹2.25, Pen = ₹1.75, Eraser = ₹2.25.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_04_002', title: 'Identify each idea',
-          dissect: { specimen: 'Determinants', spots: [
+          dissect: { specimen: 'Determinant of a Square Matrix: Definition', spots: [
             { id: 's1', label: 'A determinant is a scalar', prompt: 'Which idea is this? — A determinant is a scalar value (real or complex) associated uniquely with every square.', answer: 'A determinant is a scalar', options: ['A determinant is a scalar', 'The determinant of a 22', 'Properties of determinants are a', 'The area of a triangle'] },
             { id: 's2', label: 'The determinant of a 22', prompt: 'Which idea is this? — The determinant of a 2×2 matrix A = [[a, b], [c, d]] is the scalar value ad − bc, denoted.', answer: 'The determinant of a 22', options: ['The determinant of a 22', 'A determinant is a scalar', 'Properties of determinants are a', 'The area of a triangle'] },
             { id: 's3', label: 'Properties of determinants are a', prompt: 'Which idea is this? — Properties of determinants are a set of algebraic rules that describe how the value of a.', answer: 'Properties of determinants are a', options: ['Properties of determinants are a', 'A determinant is a scalar', 'The determinant of a 22', 'The area of a triangle'] },
@@ -89,7 +89,7 @@ export const w_c12_mathematicsdeterminantssim: SimDef = {
             { id: 's6', label: 'The inverse of a square', prompt: 'Which idea is this? — The inverse of a square matrix A of order n, denoted A⁻¹, is the unique matrix satisfying.', answer: 'The inverse of a square', options: ['The inverse of a square', 'A determinant is a scalar', 'The determinant of a 22', 'Properties of determinants are a'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsDeterminantsSim, prompt: 'Explore the interactive — Determinants' },
+    explore: { component: C12_MathematicsDeterminantsSim, prompt: 'Explore the interactive — Determinant of a Square Matrix: Definition' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_04_001', difficulty: 'standard',
           question: 'A determinant is a scalar value (real or complex) associated uniquely with.',

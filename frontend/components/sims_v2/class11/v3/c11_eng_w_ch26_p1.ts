@@ -19,50 +19,50 @@ export const c11_eng_w_ch26_p1: SimDef = {
         hook: 'The title is the thesis: her life episodes — a mother\'s death, an agriculture college, a guru\'s advice — are bridges she builds into her art.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" provides essential preparatory knowledge about the author (E.M.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Story\' (Woven Words, ch. 26) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_26_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Connect each life episode to the choreography it later fed, then test whether \'Bridges\' or \'The Reluctant Dancer\' names the real theme.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_26_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re about to watch a masterclass by a famous director, but first you need to know: who is this director, why are they speaking informally, and what.',
+          caseStudy: { intro: 'Start with the author of \'The Story\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who was E.M. Forster and what is the source of the essay "The Story" in Woven Words?', options: [
                 { text: 'E.M', outcome: 'E.M. Forster (1879–1970) was an English novelist, short story writer, and critic, best known for.' },
                 { text: 'and informal phrasing', outcome: 'Not quite — Students often confuse Forster\'s "story" (bare time-sequence) with "plot" (causal, structured.', reveals: 'students-often-confuse-forster-s' },
                 { text: '(causal, structured sequence) or assume', outcome: 'Not quite — Students often confuse Forster\'s "story" (bare time-sequence) with "plot" (causal, structured.', reveals: 'students-often-confuse-forster-s' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_26_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are telling a friend about a movie you watched. You might say, "First this happened, then that happened" — that\'s the story (chronological).',
+          caseStudy: { intro: 'Trace \'The Story\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'According to E.M. Forster in "The Story", what is the fundamental difference between a \'story\' and the \'finer growths\' of a novel?', options: [
                 { text: 'A story is a narrative of events arranged in their time-sequence (e.g., dinner after', outcome: 'A story is a narrative of events arranged in their time-sequence (e.g., dinner after breakfast.' },
                 { text: 'story is the theme', outcome: 'Not quite — Students confuse "story" (Forster\'s term for raw chronological sequence) with "plot".', reveals: 'students-confuse-story-forster-s' },
                 { text: 'story includes character', outcome: 'Not quite — Students confuse "story" (Forster\'s term for raw chronological sequence) with "plot".', reveals: 'students-confuse-story-forster-s' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_26_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you walk into a lecture hall in 1927 Cambridge: wooden benches, dust motes in sunlight, a don at the podium speaking conversationally about novels.',
+          caseStudy: { intro: 'Identify where and when \'The Story\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'Identify the two primary layers of setting in Forster\'s essay "The Story" and state the temporal location of the literal lecture setting.', options: [
                 { text: 'The two primary layers are: (1) the literal setting of the 1927 Clark Lectures at Trinity', outcome: 'The two primary layers are: (1) the literal setting of the 1927 Clark Lectures at Trinity College.' },
                 { text: 'talkative', outcome: 'Not quite — Students conflate "setting in a novel" (fictional world-building) with "setting in a literary.', reveals: 'students-conflate-setting-in-a' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_26_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re listening to a podcast where the host says, "I hate people who only want plot twists—but honestly, I\'m just like them." That contradiction makes.',
+          caseStudy: { intro: 'Pick the central figure in \'The Story\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'Identify the three "voices" Forster constructs in the opening of "The Story" and state the one-word attitude each displays toward the.', options: [
                 { text: 'The three voices are: (1) the good-tempered, vague motor-bus driver who replies "placidly"', outcome: 'The three voices are: (1) the good-tempered, vague motor-bus driver who replies "placidly"; (2) the.' },
                 { text: 'placidly', outcome: 'Not quite — Students treat Forster\'s three voices as real people he interviewed, not as rhetorical constructs.', reveals: 'students-treat-forster-s-three' },
                 { text: 'Yes—oh dear yes', outcome: 'Not quite — Students treat Forster\'s three voices as real people he interviewed, not as rhetorical constructs.', reveals: 'students-treat-forster-s-three' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_26_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are writing an essay arguing that "social media distorts reality".',
+          caseStudy: { intro: 'Spot the secondary figures in \'The Story\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'Identify the three distinct voices Forster presents in the opening paragraph and state the attitude toward the novel each voice represents.', options: [
                 { text: 'The three voices are: (1) the good-tempered, vague man driving a motor-bus who sees the', outcome: 'The three voices are: (1) the good-tempered, vague man driving a motor-bus who sees the novel as.' },
                 { text: 'supporting characters', outcome: 'Not quite — Students often believe "supporting characters" only exist in fictional narratives with plot and.', reveals: 'supporting-characters-only-exist-in' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_26_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re trying to explain to a friend why you couldn\'t put down a thriller novel even though the writing wasn\'t "literary"—Forster would say you were.',
+          caseStudy: { intro: 'Ask what \'The Story\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the single merit and single fault a story can have, according to Forster?', options: [
                 { text: 'Correct answer: The only merit is making the audience want to know what happens next', outcome: 'Correct answer: The only merit is making the audience want to know what happens next; the only.' },
                 { text: 'good characters', outcome: 'Not quite — Students often think Forster *dislikes* stories and wants novels without plots.', reveals: 'forster-dislikes-stories-and-wants' },
@@ -82,12 +82,12 @@ export const c11_eng_w_ch26_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" provides essential preparatory.',
+          question: '\'The Story\' (Woven Words, ch. 26) — the context and background to this text.',
           hint: 'If stuck, review the concept of "narrative voice" from Class 10 diary/letter texts.',
           misconception: 'Students often confuse Forster\'s "story" (bare time-sequence) with "plot" (causal, structured sequence) or assume.',
           parts: [
@@ -96,7 +96,7 @@ export const c11_eng_w_ch26_p1: SimDef = {
                   hint: 'If stuck, review the concept of "narrative voice" from Class 10 diary/letter texts.',
                   misconception: 'Students often confuse Forster\'s "story" (bare time-sequence) with "plot" (causal, structured sequence) or assume "story" includes.' }
           ],
-            remediations: { 'students-often-confuse-forster-s': { steps: ['Have the student reread the first three paragraphs and physically underline the three voices, labeling each: "vague,".', 'Ask them to list the "finer growths" Forster names (descriptions, judgements, incidents, morality, character.', 'Draw a two-column table: "Life in Time" (chronological, measurable) vs.', '"Life by Values" (intensity, pinnacles, not chronological) and place five daily-life examples in each.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-forster-s': { steps: ['Have the student reread the first three paragraphs and physically underline the three voices, labeling each: "vague,".', 'Ask them to list the "finer growths" Forster names (descriptions, judgements, incidents, morality, character.', 'Draw a two-column table: "Life in Time" (chronological, measurable) vs.', '"Life by Values" (intensity, pinnacles, not chronological) and place five daily-life examples in each.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_001', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -107,9 +107,9 @@ export const c11_eng_w_ch26_p1: SimDef = {
                   hint: 'If stuck, review the concept of "narrative voice" from Class 10 diary/letter texts.',
                   misconception: 'Students often confuse Forster\'s "story" (bare time-sequence) with "plot" (causal, structured sequence) or assume "story" includes.' }
           ],
-            remediations: { 'students-often-confuse-forster-s': { steps: ['Have the student reread the first three paragraphs and physically underline the three voices, labeling each: "vague,".', 'Ask them to list the "finer growths" Forster names (descriptions, judgements, incidents, morality, character.', 'Draw a two-column table: "Life in Time" (chronological, measurable) vs.', '"Life by Values" (intensity, pinnacles, not chronological) and place five daily-life examples in each.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-forster-s': { steps: ['Have the student reread the first three paragraphs and physically underline the three voices, labeling each: "vague,".', 'Ask them to list the "finer growths" Forster names (descriptions, judgements, incidents, morality, character.', 'Draw a two-column table: "Life in Time" (chronological, measurable) vs.', '"Life by Values" (intensity, pinnacles, not chronological) and place five daily-life examples in each.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_002', difficulty: 'standard',
-          question: 'Plot is the logical and causal arrangement of events in a narrative, distinct.',
+          question: 'The plot/narrative arc of \'The Story\' — what happens, in what order, and why.',
           hint: 'Review Class 10 "Narrative Technique: First-Person Point of View" (c10_engl_cbse_03_006).',
           misconception: 'Students confuse "story" (Forster\'s term for raw chronological sequence) with "plot" (causal/logical structure) and.',
           parts: [
@@ -118,9 +118,9 @@ export const c11_eng_w_ch26_p1: SimDef = {
                   hint: 'Review Class 10 "Narrative Technique: First-Person Point of View" (c10_engl_cbse_03_006) and "Diary.',
                   misconception: 'Students confuse "story" (Forster\'s term for raw chronological sequence) with "plot" (causal/logical structure) and think Forster.' }
           ],
-            remediations: { 'students-confuse-story-forster-s': { steps: ['Re-read Forster\'s explicit definition: "A narrative of events arranged in their time-sequence."', 'Draw a timeline of a known story (e.g., *Cinderella*) — that\'s the story.', 'Now map the same tale as a plot: "Because her mother died, Cinderella was mistreated; because she was kind, the fairy.', 'Identify one "value-moment" (the ball) where clock-time stops mattering. Practice this split on two more texts.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-confuse-story-forster-s': { steps: ['Re-read Forster\'s explicit definition: "A narrative of events arranged in their time-sequence."', 'Draw a timeline of a known story (e.g., *Cinderella*) — that\'s the story.', 'Now map the same tale as a plot: "Because her mother died, Cinderella was mistreated; because she was kind, the fairy.', 'Identify one "value-moment" (the ball) where clock-time stops mattering. Practice this split on two more texts.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_003', difficulty: 'standard',
-          question: 'Setting and Atmosphere in a non-fiction literary essay refers to the physical.',
+          question: 'The setting of \'The Story\' — the place, time and atmosphere the text creates.',
           hint: 'Review "rhetorical situation" (speaker, audience, purpose, context) from Class 10 writing.',
           misconception: 'Students conflate "setting in a novel" (fictional world-building) with "setting in a literary essay" (rhetorical.',
           parts: [
@@ -133,9 +133,9 @@ export const c11_eng_w_ch26_p1: SimDef = {
                   hint: 'Review "rhetorical situation" (speaker, audience, purpose, context) from Class 10 writing skills.',
                   misconception: 'Students conflate "setting in a novel" (fictional world-building) with "setting in a literary essay" (rhetorical staging).' }
           ],
-            remediations: { 'students-conflate-setting-in-a': { steps: ['If the student cannot distinguish the essay\'s setting layers: (1) Have them physically mark the text with two colored.', '(2) Ask: "In which setting does Forster speak as himself?', 'In which does he speak as a literary historian?" (3) Have them rewrite one paragraph replacing the evoked setting with.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-conflate-setting-in-a': { steps: ['If the student cannot distinguish the essay\'s setting layers: (1) Have them physically mark the text with two colored.', '(2) Ask: "In which setting does Forster speak as himself?', 'In which does he speak as a literary historian?" (3) Have them rewrite one paragraph replacing the evoked setting with.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a non-fiction essay examines the.',
+          question: 'Character analysis in \'The Story\' — the central figure(s), their traits, and.',
           hint: 'Review c9_engl_ch1_2 (grandmother as narrator) and c10_engl_cbse_17_001 (Bholi\'s.',
           misconception: 'Students treat Forster\'s three voices as real people he interviewed, not as rhetorical constructs he *invented*.',
           parts: [
@@ -144,9 +144,9 @@ export const c11_eng_w_ch26_p1: SimDef = {
                   hint: 'Review c9_engl_ch1_2 (grandmother as narrator) and c10_engl_cbse_17_001 (Bholi\'s transformation).',
                   misconception: 'Students treat Forster\'s three voices as real people he interviewed, not as rhetorical constructs he *invented* to stage a debate.' }
           ],
-            remediations: { 'students-treat-forster-s-three': { steps: ['Return to the opening paragraph: highlight "I visualise," "he says," "the third is myself"—Forster *announces* the.', 'Have the student rewrite the three voices as deliberate caricatures: "Forster creates X to represent Y attitude." 3.', 'Ask: "If these were real people, why would Forster need to \'visualise\' them?" 4.', 'Connect to the essay\'s final note: Forster calls his lectures "talkative," "informal," using "I, you, one, we"—the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-forster-s-three': { steps: ['Return to the opening paragraph: highlight "I visualise," "he says," "the third is myself"—Forster *announces* the.', 'Have the student rewrite the three voices as deliberate caricatures: "Forster creates X to represent Y attitude." 3.', 'Ask: "If these were real people, why would Forster need to \'visualise\' them?" 4.', 'Connect to the essay\'s final note: Forster calls his lectures "talkative," "informal," using "I, you, one, we"—the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters in a non-fiction essay involves.',
+          question: 'Supporting characters in \'The Story\' — the secondary figures who move the story.',
           hint: 'Review "Character Analysis: Protagonist" (c11_eng_w_cbse_26_004) to re-establish.',
           misconception: 'Students often believe "supporting characters" only exist in fictional narratives with plot and dialogue.',
           parts: [
@@ -155,9 +155,9 @@ export const c11_eng_w_ch26_p1: SimDef = {
                   hint: 'Review "Character Analysis: Protagonist" (c11_eng_w_cbse_26_004) to re-establish Forster\'s.',
                   misconception: 'Students often believe "supporting characters" only exist in fictional narratives with plot and dialogue.' }
           ],
-            remediations: { 'supporting-characters-only-exist-in': { steps: ['If the student cannot distinguish the three opening voices, have them re-read paragraph 1 and highlight every adjective.', 'Then ask: "Which voice does Forster say \'I respect and admire\'?', 'Which does he \'detest and fear\'?', 'Which is \'myself\'?" Next, create a three-column table: Voice | Attitude toward Novel | Forster\'s Judgment.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'supporting-characters-only-exist-in': { steps: ['If the student cannot distinguish the three opening voices, have them re-read paragraph 1 and highlight every adjective.', 'Then ask: "Which voice does Forster say \'I respect and admire\'?', 'Which does he \'detest and fear\'?', 'Which is \'myself\'?" Next, create a three-column table: Voice | Attitude toward Novel | Forster\'s Judgment.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_006', difficulty: 'standard',
-          question: 'The primary theme of Forster\'s essay "The Story" is the fundamental.',
+          question: 'The primary theme of \'The Story\' — the central idea the whole text returns to.',
           hint: 'If stuck, re-read the "From Aspects of the Novel: A Note" section to grasp Forster\'s.',
           misconception: 'Students often think Forster *dislikes* stories and wants novels without plots.',
           parts: [
@@ -166,7 +166,7 @@ export const c11_eng_w_ch26_p1: SimDef = {
                   hint: 'If stuck, re-read the "From Aspects of the Novel: A Note" section to grasp Forster\'s intentional.',
                   misconception: 'Students often think Forster *dislikes* stories and wants novels without plots.' }
           ],
-            remediations: { 'forster-dislikes-stories-and-wants': { steps: ['If the student holds this misconception: (1) Have them re-read the paragraph starting "We are like Scheherazade\'s.', '(2) Ask: "If Forster hated story, why does he say Emily Brontë only *tried to hide* her clock, and Sterne only *turned.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'forster-dislikes-stories-and-wants': { steps: ['If the student holds this misconception: (1) Have them re-read the paragraph starting "We are like Scheherazade\'s.', '(2) Ask: "If Forster hated story, why does he say Emily Brontë only *tried to hide* her clock, and Sterne only *turned.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

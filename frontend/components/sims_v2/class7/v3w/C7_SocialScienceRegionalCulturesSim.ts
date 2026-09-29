@@ -6,13 +6,13 @@ import C7_SocialScienceRegionalCulturesSim from '../../../simulations/c6_12/C7_S
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_socialscienceregionalculturessim: SimDef = {
     id: 'v3w_c7_socialscienceregionalculturessim',
-    title: 'Social Science Regional Cultures',
+    title: 'Arab Invasions: Early Medieval Incursions',
     subtitle: 'Covers the early medieval Arab incursions into northwestern India (Sindh) under Muhammad.',
     classLevel: 7, subject: 'science', topic: 'Arab Invasions: Early Medieval Incursions',
     chapters: [],
     nodeIds: ['c7_hist_ch06_005', 'c7_hist_ch06_006', 'c7_hist_ch05_002', 'c7_hist_ch05_003', 'c7_hist_ch05_004', 'c7_hist_ch05_005', 'c7_hist_ch05_006', 'c7_hist_ch05_007', 'c7_hist_ch05_008', 'c7_hist_ch05_009', 'c7_hist_ch05_010', 'c7_hist_ch08_009', 'c7_geo_ch05_003', 'c7_geo_ch05_004', 'c7_geo_ch05_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine walking through the ruins of an old coastal trading port or looking at ancient navigation maps in a.', goal: 'Master Social Science Regional Cultures.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine walking through the ruins of an old coastal trading port or looking at ancient navigation maps in a.', goal: 'Master Arab Invasions: Early Medieval Incursions.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'This node examines the early medieval Arab.', text: 'This node examines the early medieval Arab incursions into the Indian subcontinent, specifically focusing on the 8th-century expedition led by Muhammad bin Qasim into Sindh and its localized.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -72,7 +72,7 @@ export const w_c7_socialscienceregionalculturessim: SimDef = {
             { text: 'Synthesize how these combined factors turned a natural river crossing into a permanent socio-economic and religious.', faded: true, blankAnswer: 'A river confluence gained spiritual meaning through.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_hist_ch06_006', title: 'Identify each idea',
-          dissect: { specimen: 'Social Science Regional Cultures', spots: [
+          dissect: { specimen: 'Arab Invasions: Early Medieval Incursions', spots: [
             { id: 's1', label: 'This node examines the early', prompt: 'Which idea is this? — This node examines the early medieval Arab incursions into the Indian subcontinent,.', answer: 'This node examines the early', options: ['This node examines the early', 'The religious and philosophical movement', 'The sacred geography of India', 'Pilgrimage networks are historical and'] },
             { id: 's2', label: 'The religious and philosophical movement', prompt: 'Which idea is this? — The religious and philosophical movement led by Adi Shankaracharya in the 8th-9th century.', answer: 'The religious and philosophical movement', options: ['The religious and philosophical movement', 'This node examines the early', 'The sacred geography of India', 'Pilgrimage networks are historical and'] },
             { id: 's3', label: 'The sacred geography of India', prompt: 'Which idea is this? — The sacred geography of India refers to the cultural and spiritual landscape wherein.', answer: 'The sacred geography of India', options: ['The sacred geography of India', 'This node examines the early', 'The religious and philosophical movement', 'Pilgrimage networks are historical and'] },
@@ -81,7 +81,7 @@ export const w_c7_socialscienceregionalculturessim: SimDef = {
             { id: 's6', label: 'A tirtha is a sacred', prompt: 'Which idea is this? — A tirtha is a sacred crossing point—traditionally a river confluence, ford, or ghat—where.', answer: 'A tirtha is a sacred', options: ['A tirtha is a sacred', 'This node examines the early', 'The religious and philosophical movement', 'The sacred geography of India'] }
           ] } }
     ],
-    explore: { component: C7_SocialScienceRegionalCulturesSim, prompt: 'Explore the interactive — Social Science Regional Cultures' },
+    explore: { component: C7_SocialScienceRegionalCulturesSim, prompt: 'Explore the interactive — Arab Invasions: Early Medieval Incursions' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_hist_ch06_005', difficulty: 'standard',
           question: 'This node examines the early medieval Arab incursions into the Indian.',

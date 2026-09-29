@@ -6,13 +6,13 @@ import C11_GeographyHeatBalanceSim from '../../../simulations/c6_12/C11_Geograph
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geographyheatbalancesim: SimDef = {
     id: 'v3w_c11_geographyheatbalancesim',
-    title: 'Heat Balance',
+    title: 'Relation of Geography with Natural Sciences (Physics, Geology)',
     subtitle: 'Covers the conceptual bridges between geography and two natural sciences: Physics.',
     classLevel: 11, subject: 'geography', topic: 'Relation of Geography with Natural Sciences (Physics, Geology)',
     chapters: [],
     nodeIds: ['c11_geo_cbse_01_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Stand on the Marina Beach in Chennai at noon in May and feel the intense heat on your skin — that is solar.', goal: 'Master Heat Balance.' },
+    scenario: { role: 'a class 11 learner', intro: 'Stand on the Marina Beach in Chennai at noon in May and feel the intense heat on your skin — that is solar.', goal: 'Master Relation of Geography with Natural Sciences (Physics, Geology).' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Geography\'s relation with natural sciences.', text: 'Geography\'s relation with natural sciences refers to the interdisciplinary integration where physical geography employs principles of Physics (solar radiation, thermodynamics, atmospheric dynamics,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -26,7 +26,7 @@ export const w_c11_geographyheatbalancesim: SimDef = {
                 { text: 'volcanoes', outcome: 'Not quite — Students believe "geography describes places, physics explains processes, geology studies rocks" as.', reveals: 'geography-describes-places' }
             ] }] } }
     ],
-    explore: { component: C11_GeographyHeatBalanceSim, prompt: 'Explore the interactive — Heat Balance' },
+    explore: { component: C11_GeographyHeatBalanceSim, prompt: 'Explore the interactive — Relation of Geography with Natural Sciences (Physics, Geology)' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_01_007', difficulty: 'standard',
           question: 'Geography\'s relation with natural sciences refers to the interdisciplinary.',

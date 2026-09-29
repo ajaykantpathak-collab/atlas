@@ -19,52 +19,52 @@ export const c12_eng_f_ch01_p2: SimDef = {
         hook: 'The Franco-Prussian War isn\'t background trivia — it IS the plot. Berlin\'s decree banning French drives every detail: the bulletin board, the villagers\' guilt, M. Hamel\'s Sunday clothes. Read the history as the conflict, not the décor.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the supporting thematic threads in a literary work that complement, deepen, or contrast with the primary theme.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Last Lesson\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_01_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Walk into that last classroom as a witness: decode how the language decree turns grammar into resistance, and trace what the pigeons, the primer and \'Vive la France!\' are really saying.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re Franz sitting in that silent classroom, suddenly realizing that the French lessons you dreaded were actually a birthright being stolen.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Last Lesson\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'Define "secondary theme" in literature and name any two secondary themes present in "The Last Lesson" with one-line textual evidence for.', options: [
                 { text: 'A secondary theme is a supporting thematic thread that enriches the primary theme by', outcome: 'A secondary theme is a supporting thematic thread that enriches the primary theme by exploring.' },
                 { text: 'forty years of faithful service', outcome: 'Not quite — Students often confuse "secondary themes" with "subplots" or "minor events." They list things like.', reveals: 'students-often-confuse-secondary-themes' },
                 { text: 'sadness', outcome: 'Not quite — Students often confuse "secondary themes" with "subplots" or "minor events." They list things like.', reveals: 'students-often-confuse-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are Franz walking into that strangely silent classroom — what do you *see* (the green coat, the old primer), *hear* (the scratching pens, the.',
+          caseStudy: { intro: 'Find the lines in \'The Last Lesson\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'List three examples of visual imagery from the first five paragraphs of "The Last Lesson" and state what each reveals about the setting.', options: [
                 { text: 'Correct answer: (1) "birds were chirping at the edge of the woods"', outcome: 'Correct answer: (1) "birds were chirping at the edge of the woods" — establishes peaceful, warm.' },
                 { text: 'It was so warm, so bright!', outcome: 'Not quite — Students think "imagery" only means visual description (pictures in the mind) and miss auditory.', reveals: 'imagery-only-means-visual-description' },
                 { text: 'imagery', outcome: 'Not quite — Students think "imagery" only means visual description (pictures in the mind) and miss auditory.', reveals: 'imagery-only-means-visual-description' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are Franz walking into that unusually silent classroom, noticing the village elders on the back benches and M.',
+          caseStudy: { intro: 'Look in \'The Last Lesson\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define irony and symbolism in your own words, giving one generic example for each (not from the text).', options: [
                 { text: 'Irony: A contrast between expectation and reality (e.g., a fire station burning down)', outcome: 'Irony: A contrast between expectation and reality (e.g., a fire station burning down).' },
                 { text: 'rain on your wedding day', outcome: 'Not quite — Students often think **any unexpected event is irony** (e.g., "It\'s ironic that Franz was late").', reveals: 'any-unexpected-event-is-irony' },
                 { text: 'It\'s ironic that Franz was late', outcome: 'Not quite — Students often think **any unexpected event is irony** (e.g., "It\'s ironic that Franz was late").', reveals: 'any-unexpected-event-is-irony' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading "The Last Lesson" and encounter "thumbed at the edges" describing Hauser\'s primer.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Last Lesson\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What does the expression "in great dread of" mean as used in the opening sentence of "The Last Lesson"?', options: [
                 { text: 'Correct answer: It means "feeling intense fear or anxiety about something that might', outcome: 'Correct answer: It means "feeling intense fear or anxiety about something that might happen.".' },
                 { text: 'feeling intense fear or anxiety about something that might happen', outcome: 'Not quite — Students often think "vocabulary in context" means guessing the meaning of a word from its.', reveals: 'vocabulary-in-context-means-guessing' },
                 { text: 'or misreading the preposition', outcome: 'Not quite — Students often think "vocabulary in context" means guessing the meaning of a word from its.', reveals: 'vocabulary-in-context-means-guessing' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are telling a friend about a shocking announcement made at your school assembly *yesterday* — but the announcement was about a decision taken *last.',
+          caseStudy: { intro: 'Read \'The Last Lesson\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Define the past perfect tense and state its primary function in a narrative already told in the simple past tense.', options: [
                 { text: '**Correct Answer:** Past perfect tense is formed with "had + past participle" (e.g., "had', outcome: '**Correct Answer:** Past perfect tense is formed with "had + past participle" (e.g., "had come".' },
                 { text: 'it shows an action that happened a long time ago', outcome: 'Not quite — **Misconception:** "Past perfect is just a more formal/polite version of simple past, used.', reveals: 'misconception-past-perfect-is-just' },
                 { text: 'it is just the past of past', outcome: 'Not quite — **Misconception:** "Past perfect is just a more formal/polite version of simple past, used.', reveals: 'misconception-past-perfect-is-just' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you receive a WhatsApp forward about a new school rule: "No phones in class." The literal fact is the rule itself; the inference is that teachers are.',
+          caseStudy: { intro: 'Answer \'The Last Lesson\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Define literal comprehension and inferential comprehension in your own words.', options: [
                 { text: '**Correct answer:** Literal comprehension is understanding information directly stated in', outcome: '**Correct answer:** Literal comprehension is understanding information directly stated in the text.' },
                 { text: 'literal means reading between the lines', outcome: 'Not quite — Students treat inferential answers as unsupported guesses. They write "I think Franz is sad".', reveals: 'students-treat-inferential-answers-as' },
@@ -91,12 +91,12 @@ export const c12_eng_f_ch01_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_007', difficulty: 'standard',
-          question: 'Secondary themes are the supporting thematic threads in a literary work that.',
+          question: 'Secondary themes in \'The Last Lesson\' — the supporting ideas and motifs that.',
           hint: 'If stuck, review the "Understanding the text" Q1 in NCERT: "The people in this story.',
           misconception: 'Students often confuse "secondary themes" with "subplots" or "minor events." They list things like "Franz being late".',
           parts: [
@@ -109,7 +109,7 @@ export const c12_eng_f_ch01_p2: SimDef = {
                   hint: 'If stuck, review the "Understanding the text" Q1 in NCERT: "The people in this story suddenly.',
                   misconception: 'Students often confuse "secondary themes" with "subplots" or "minor events." They list things like "Franz being late" or "the beetles.' }
           ],
-            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If the student cannot distinguish secondary themes: Step 1 — Revisit node c12_eng_f_cbse_01_006 (Primary Theme) and.', 'Step 2 — Label each Column B item with a universal idea (e.g., "Franz chooses birds\' eggs" → Procrastination; "Hauser.', 'Step 3 — Practice writing one PEEL paragraph per Column B label using the WORKED_EXAMPLE_1 structure.', 'Re-diagnostic: Ask student to explain how "M.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If the student cannot distinguish secondary themes: Step 1 — Revisit node c12_eng_f_cbse_01_006 (Primary Theme) and.', 'Step 2 — Label each Column B item with a universal idea (e.g., "Franz chooses birds\' eggs" → Procrastination; "Hauser.', 'Step 3 — Practice writing one PEEL paragraph per Column B label using the WORKED_EXAMPLE_1 structure.', 'Re-diagnostic: Ask student to explain how "M.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_007', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -124,9 +124,9 @@ export const c12_eng_f_ch01_p2: SimDef = {
                   hint: 'If stuck, review the "Understanding the text" Q1 in NCERT: "The people in this story suddenly.',
                   misconception: 'Students often confuse "secondary themes" with "subplots" or "minor events." They list things like "Franz being late" or "the beetles.' }
           ],
-            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If the student cannot distinguish secondary themes: Step 1 — Revisit node c12_eng_f_cbse_01_006 (Primary Theme) and.', 'Step 2 — Label each Column B item with a universal idea (e.g., "Franz chooses birds\' eggs" → Procrastination; "Hauser.', 'Step 3 — Practice writing one PEEL paragraph per Column B label using the WORKED_EXAMPLE_1 structure.', 'Re-diagnostic: Ask student to explain how "M.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-secondary-themes': { steps: ['If the student cannot distinguish secondary themes: Step 1 — Revisit node c12_eng_f_cbse_01_006 (Primary Theme) and.', 'Step 2 — Label each Column B item with a universal idea (e.g., "Franz chooses birds\' eggs" → Procrastination; "Hauser.', 'Step 3 — Practice writing one PEEL paragraph per Column B label using the WORKED_EXAMPLE_1 structure.', 'Re-diagnostic: Ask student to explain how "M.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'The Last Lesson\' — the vivid, sensory language that creates.',
           hint: 'Review the "Metaphor Anatomy" table exercise in c11_eng_h_cbse_01_008 Worked Example 2.',
           misconception: 'Students think "imagery" only means visual description (pictures in the mind) and miss auditory, tactile, olfactory.',
           parts: [
@@ -139,9 +139,9 @@ export const c12_eng_f_ch01_p2: SimDef = {
                   hint: 'Review the "Metaphor Anatomy" table exercise in c11_eng_h_cbse_01_008 Worked Example 2.',
                   misconception: 'Students think "imagery" only means visual description (pictures in the mind) and miss auditory, tactile, olfactory, gustatory images.' }
           ],
-            remediations: { 'imagery-only-means-visual-description': { steps: ['Re-read the text with a highlighter — use five colors for five senses. Mark every sensory phrase.', 'For each metaphor, draw a two-column table: Tenor (abstract idea) | Vehicle (concrete image).', 'Re-attempt Diagnostic Questions 2 and 4 using this table method.', 'If still stuck, revisit node c11_eng_h_cbse_01_008 (Class 11 Literary Devices: Imagery and Metaphor) for the basic.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'imagery-only-means-visual-description': { steps: ['Re-read the text with a highlighter — use five colors for five senses. Mark every sensory phrase.', 'For each metaphor, draw a two-column table: Tenor (abstract idea) | Vehicle (concrete image).', 'Re-attempt Diagnostic Questions 2 and 4 using this table method.', 'If still stuck, revisit node c11_eng_h_cbse_01_008 (Class 11 Literary Devices: Imagery and Metaphor) for the basic.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'The Last Lesson\' — where opposite things are both true.',
           hint: 'If unable to spot irony, re-read the opening paragraphs (Franz\'s dread, the.',
           misconception: 'Students often think **any unexpected event is irony** (e.g., "It\'s ironic that Franz was late").',
           parts: [
@@ -154,9 +154,9 @@ export const c12_eng_f_ch01_p2: SimDef = {
                   hint: 'If unable to spot irony, re-read the opening paragraphs (Franz\'s dread, the bulletin-board.',
                   misconception: 'Students often think **any unexpected event is irony** (e.g., "It\'s ironic that Franz was late").' }
           ],
-            remediations: { 'any-unexpected-event-is-irony': { steps: ['Re-read the story marking every moment where a character says/thinks one thing but the situation means the opposite.', 'For each, write: "Literal meaning: ___ | Contextual meaning: ___ | Device: ___".', 'Re-attempt Diagnostic Questions 2 and 3 using this table.', 'If still stuck, review **c12_eng_f_cbse_01_002** (Plot) to re-establish the sequence of events that creates the ironic.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'any-unexpected-event-is-irony': { steps: ['Re-read the story marking every moment where a character says/thinks one thing but the situation means the opposite.', 'For each, write: "Literal meaning: ___ | Contextual meaning: ___ | Device: ___".', 'Re-attempt Diagnostic Questions 2 and 3 using this table.', 'If still stuck, review **c12_eng_f_cbse_01_002** (Plot) to re-establish the sequence of events that creates the ironic.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_010', difficulty: 'standard',
-          question: 'Vocabulary in context refers to the skill of determining the meaning of words.',
+          question: 'Key vocabulary of \'The Last Lesson\' — the words and phrases you must know.',
           hint: 'If stuck, review the "Context and Background" node (c12_eng_f_cbse_01_001) to refresh the.',
           misconception: 'Students often think "vocabulary in context" means guessing the meaning of a word from its dictionary definition that.',
           parts: [
@@ -173,9 +173,9 @@ export const c12_eng_f_ch01_p2: SimDef = {
                   hint: 'If stuck, review the "Context and Background" node (c12_eng_f_cbse_01_001) to refresh the.',
                   misconception: 'Students often think "vocabulary in context" means guessing the meaning of a word from its dictionary definition that seems to fit.' }
           ],
-            remediations: { 'vocabulary-in-context-means-guessing': { steps: ['If a student cannot infer meanings from context, have them: (1) Re-read the specific paragraph containing the target.', '(2) Highlight all words/phrases within 2 sentences before and after the target.', '(3) Ask: "What is the speaker feeling?', 'What is happening physically?" (4) Match the target expression to one of the highlighted clues.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'vocabulary-in-context-means-guessing': { steps: ['If a student cannot infer meanings from context, have them: (1) Re-read the specific paragraph containing the target.', '(2) Highlight all words/phrases within 2 sentences before and after the target.', '(3) Ask: "What is the speaker feeling?', 'What is happening physically?" (4) Match the target expression to one of the highlighted clues.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the specific grammatical.',
+          question: 'Language and style in \'The Last Lesson\' — how the writer chose words, sentences.',
           hint: 'If stuck on backshifting, revisit **c11_eng_h_cbse_01_011** (Class 11 Hornbill Grammar.',
           misconception: '**Misconception:** "Past perfect is just a more formal/polite version of simple past, used in stories to sound.',
           parts: [
@@ -184,9 +184,9 @@ export const c12_eng_f_ch01_p2: SimDef = {
                   hint: 'If stuck on backshifting, revisit **c11_eng_h_cbse_01_011** (Class 11 Hornbill Grammar: reported.',
                   misconception: '**Misconception:** "Past perfect is just a more formal/polite version of simple past, used in stories to sound literary." **Why it\'s.' }
           ],
-            remediations: { 'misconception-past-perfect-is-just': { steps: ['**Timeline Drill:** Draw a horizontal line.', 'Mark "NOW" (Franz at school).', 'Place "Hamel\'s warning" left of "Franz starts for school".', 'Place "Order from Berlin" left of "Hamel\'s announcement".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'misconception-past-perfect-is-just': { steps: ['**Timeline Drill:** Draw a horizontal line.', 'Mark "NOW" (Franz at school).', 'Place "Hamel\'s warning" left of "Franz starts for school".', 'Place "Order from Berlin" left of "Hamel\'s announcement".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require retrieving explicitly stated.',
+          question: 'Literal comprehension of \'The Last Lesson\' — questions answered straight from.',
           hint: 'If stuck, re-read the story focusing on M. Hamel\'s speech about language (paragraph.',
           misconception: 'Students treat inferential answers as unsupported guesses. They write "I think Franz is sad" without citing evidence.',
           parts: [
@@ -195,7 +195,7 @@ export const c12_eng_f_ch01_p2: SimDef = {
                   hint: 'If stuck, re-read the story focusing on M. Hamel\'s speech about language (paragraph starting "Then.',
                   misconception: 'Students treat inferential answers as unsupported guesses. They write "I think Franz is sad" without citing evidence: "My books...' }
           ],
-            remediations: { 'students-treat-inferential-answers-as': { steps: ['Have the student re-read the first two pages of the story and highlight every sentence that states a fact (literal).', 'Practice converting each blue-highlighted sentence into an inferential question and answering it using PEEL (Point.', 'Re-attempt Diagnostic Questions 2 and 4 with this color-coded text, explicitly labeling each step of PEEL.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-inferential-answers-as': { steps: ['Have the student re-read the first two pages of the story and highlight every sentence that states a fact (literal).', 'Practice converting each blue-highlighted sentence into an inferential question and answering it using PEEL (Point.', 'Re-attempt Diagnostic Questions 2 and 4 with this color-coded text, explicitly labeling each step of PEEL.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

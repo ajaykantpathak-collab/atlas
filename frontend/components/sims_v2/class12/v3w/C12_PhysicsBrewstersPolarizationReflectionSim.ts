@@ -6,13 +6,13 @@ import C12_PhysicsBrewstersPolarizationReflectionSim from '../../../simulations/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsbrewsterspolarizationreflectionsim: SimDef = {
     id: 'v3w_c12_physicsbrewsterspolarizationreflectionsim',
-    title: 'Brewsters Polarization Reflection',
+    title: 'Polarization of Light: Malus\'s Law',
     subtitle: 'This node covers: (a) the concept of plane polarization using polaroids, (b) Malus\'s law.',
     classLevel: 12, subject: 'physics', topic: 'Polarization of Light: Malus\'s Law',
     chapters: [],
     nodeIds: ['c12_phy_cbse_10_008', 'c12_phy_cbse_10_001', 'c12_phy_cbse_10_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a pair of polarized sunglasses: when you rotate one lens in front of the other, the view darkens and.', goal: 'Master Brewsters Polarization Reflection.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a pair of polarized sunglasses: when you rotate one lens in front of the other, the view darkens and.', goal: 'Master Polarization of Light: Malus\'s Law.' },
     discovery: {
         question: 'Define a wavefront and state Huygens\' Principle in your own words. What is the shape of the wavefront from a point source in a homogeneous isotropic medium?',
         options: ['A wavefront is the locus of points oscillating in the same phase', 'wavefront is the path of a light ray', 'wavelets are planar'],
@@ -52,13 +52,13 @@ export const w_c12_physicsbrewsterspolarizationreflectionsim: SimDef = {
             { text: 'Verify: v₂ < c, r < i, λ₂ < λ₁ — all consistent with denser medium.', faded: true, blankAnswer: '(a) r ≈ 32.0°, (b) λ_water / λ_air = 0.75, (c) v_water =.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_10_001', title: 'Identify each idea',
-          dissect: { specimen: 'Brewsters Polarization Reflection', spots: [
+          dissect: { specimen: 'Polarization of Light: Malus\'s Law', spots: [
             { id: 's1', label: 'Polarization is the phenomenon of', prompt: 'Which idea is this? — Polarization is the phenomenon of restricting the oscillations of the electric field.', answer: 'Polarization is the phenomenon of', options: ['Polarization is the phenomenon of', 'A wavefront is the locus', 'Huygens principle states that every'] },
             { id: 's2', label: 'A wavefront is the locus', prompt: 'Which idea is this? — A wavefront is the locus of all points in a medium that oscillate in the same phase at a.', answer: 'A wavefront is the locus', options: ['A wavefront is the locus', 'Polarization is the phenomenon of', 'Huygens principle states that every'] },
             { id: 's3', label: 'Huygens principle states that every', prompt: 'Which idea is this? — Huygens\' principle states that every point on a wavefront acts as a source of secondary.', answer: 'Huygens principle states that every', options: ['Huygens principle states that every', 'Polarization is the phenomenon of', 'A wavefront is the locus'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsBrewstersPolarizationReflectionSim, prompt: 'Explore the interactive — Brewsters Polarization Reflection' },
+    explore: { component: C12_PhysicsBrewstersPolarizationReflectionSim, prompt: 'Explore the interactive — Polarization of Light: Malus\'s Law' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_10_008', difficulty: 'standard',
           question: 'Polarization is the phenomenon of restricting the oscillations of the electric.',

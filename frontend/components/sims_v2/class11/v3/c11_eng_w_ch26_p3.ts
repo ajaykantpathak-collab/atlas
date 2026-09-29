@@ -19,31 +19,31 @@ export const c11_eng_w_ch26_p3: SimDef = {
         hook: 'The title is the thesis: her life episodes — a mother\'s death, an agriculture college, a guru\'s advice — are bridges she builds into her art.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation in the context of Forster\'s "The Story" is the disciplined process of deconstructing the essay\'s argumentative structure, evaluating the validity of its.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Story\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_26_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Connect each life episode to the choreography it later fed, then test whether \'Bridges\' or \'The Reluctant Dancer\' names the real theme.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_26_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are reading a novel and feel bored by the plot but moved by a single paragraph — that tension is exactly what Forster diagnoses.',
+          caseStudy: { intro: 'Analyse \'The Story\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What are the three distinct "voices" or reader responses Forster describes in the opening paragraph, and which one does he identify with?', options: [
                 { text: 'The three voices are: (1) the vague, good-tempered man who sees the novel as merely', outcome: 'The three voices are: (1) the vague, good-tempered man who sees the novel as merely telling.' },
                 { text: 'low atavistic form', outcome: 'Not quite — Students often think Forster *hates* story and wants novels without plots.', reveals: 'forster-hates-story-and-wants' },
                 { text: 'Forster agrees with the second voice', outcome: 'Not quite — Students often think Forster *hates* story and wants novels without plots.', reveals: 'forster-hates-story-and-wants' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_26_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are asked in a board exam: "How does Forster use the Scheherazade analogy to explain the primacy of story in the novel?" A struggling student often.',
+          caseStudy: { intro: 'For written answers on \'The Story\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the full form of PEEL in the context of writing analytical paragraphs for literature?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Point, Example.' },
                 { text: 'Point, Example, Explanation, Conclusion', outcome: 'Not quite — Students believe that "writing skills based on the chapter" means summarizing the chapter\'s content.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe that "writing skills based on the chapter" means summarizing the chapter\'s content.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_26_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a book club meeting where everyone has read Forster\'s essay but opinions differ on whether a novel is just a story.',
+          caseStudy: { intro: 'Talk through \'The Story\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'State the three discussion prompts given in the "Talking about the Text" section of Forster\'s essay "The Story".', options: [
                 { text: 'The three prompts are: (1) "What does a novel do?" (2) "Our daily life reflects a double', outcome: 'The three prompts are: (1) "What does a novel do?" (2) "Our daily life reflects a double allegiance.' },
                 { text: 'What does a novel do?', outcome: 'Not quite — Students treat "discussion" as turn-based summarizing: each person paraphrases the essay and the.', reveals: 'students-treat-discussion-as-turn' },
@@ -63,12 +63,12 @@ export const c11_eng_w_ch26_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation in the context of Forster\'s "The.',
+          question: 'Critical thinking on \'The Story\' — analysing the text to reach evidence-based.',
           hint: 'If stuck, review c11_eng_w_cbse_26_006 (Primary Theme) and re-read the "daily life".',
           misconception: 'Students often think Forster *hates* story and wants novels without plots.',
           parts: [
@@ -77,7 +77,7 @@ export const c11_eng_w_ch26_p3: SimDef = {
                   hint: 'If stuck, review c11_eng_w_cbse_26_006 (Primary Theme) and re-read the "daily life" paragraph.',
                   misconception: 'Students often think Forster *hates* story and wants novels without plots.' }
           ],
-            remediations: { 'forster-hates-story-and-wants': { steps: ['Re-read the paragraph where Forster says "I respect and admire the first speaker.', 'I detest and fear the second.', 'And the third is myself." 2.', 'Highlight every adjective he applies to "story" (fundamental, highest factor, low, atavistic, backbone, tape-worm.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'forster-hates-story-and-wants': { steps: ['Re-read the paragraph where Forster says "I respect and admire the first speaker.', 'I detest and fear the second.', 'And the third is myself." 2.', 'Highlight every adjective he applies to "story" (fundamental, highest factor, low, atavistic, backbone, tape-worm.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -92,9 +92,9 @@ export const c11_eng_w_ch26_p3: SimDef = {
                   hint: 'If stuck, review c11_eng_w_cbse_26_006 (Primary Theme) and re-read the "daily life" paragraph.',
                   misconception: 'Students often think Forster *hates* story and wants novels without plots.' }
           ],
-            remediations: { 'forster-hates-story-and-wants': { steps: ['Re-read the paragraph where Forster says "I respect and admire the first speaker.', 'I detest and fear the second.', 'And the third is myself." 2.', 'Highlight every adjective he applies to "story" (fundamental, highest factor, low, atavistic, backbone, tape-worm.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'forster-hates-story-and-wants': { steps: ['Re-read the paragraph where Forster says "I respect and admire the first speaker.', 'I detest and fear the second.', 'And the third is myself." 2.', 'Highlight every adjective he applies to "story" (fundamental, highest factor, low, atavistic, backbone, tape-worm.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_014', difficulty: 'standard',
-          question: 'Analytical essay writing based on a literary essay involves constructing.',
+          question: 'Writing skills from \'The Story\' — using the text as a model or springboard for.',
           hint: 'If stuck, review c11_eng_w_cbse_26_013 (Critical Thinking) to re-learn how to break down.',
           misconception: 'Students believe that "writing skills based on the chapter" means summarizing the chapter\'s content in essay form.',
           parts: [
@@ -103,18 +103,18 @@ export const c11_eng_w_ch26_p3: SimDef = {
                   hint: 'If stuck, review c11_eng_w_cbse_26_013 (Critical Thinking) to re-learn how to break down Forster\'s.',
                   misconception: 'Students believe that "writing skills based on the chapter" means summarizing the chapter\'s content in essay form.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['Give the student a 150-word summary of the chapter and a 150-word analytical response to the same prompt.', 'Ask them to highlight every sentence in the analytical piece that makes a *claim* (not a fact).', 'Have them convert each claim into a PEEL paragraph using a template: "Forster argues that ___ [Point].', 'He writes, \'___\' [Evidence].'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['Give the student a 150-word summary of the chapter and a 150-word analytical response to the same prompt.', 'Ask them to highlight every sentence in the analytical piece that makes a *claim* (not a fact).', 'Have them convert each claim into a PEEL paragraph using a template: "Forster argues that ___ [Point].', 'He writes, \'___\' [Evidence].'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'The Story\' — speaking and listening around the text.',
           hint: 'If stuck, re-read the "Talking about the Text" box on page 187 and annotate each prompt.',
           misconception: 'Students treat "discussion" as turn-based summarizing: each person paraphrases the essay and the group moves on.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to the structured oral activity where',
-                  options: ['Speaking and Listening: Discussion Points refers to the structured oral activity where', '"Before You Read: Context and Background" provides essential preparatory knowledge about', 'Plot is the logical and causal arrangement of events in a narrative, distinct from the', 'Setting and Atmosphere in a non-fiction literary essay refers to the physical, temporal,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'The Story\'',
+                  options: ['Discussion points on \'The Story\'', '\'The Story\' (Woven Words, ch', 'The plot/narrative arc of \'The Story\'', 'The setting of \'The Story\''],
                   hint: 'If stuck, re-read the "Talking about the Text" box on page 187 and annotate each prompt with one.',
                   misconception: 'Students treat "discussion" as turn-based summarizing: each person paraphrases the essay and the group moves on.' }
           ],
-            remediations: { 'students-treat-discussion-as-turn': { steps: ['If a student falls into summarizing, interrupt gently: "That\'s what Forster says — now what do *you* think about it?', 'Do you agree that a novel\'s only job is to make us ask \'what happens next\'?" Model a disagreeing stance: "I actually.', 'Repeat until they produce an original claim with textual support.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-discussion-as-turn': { steps: ['If a student falls into summarizing, interrupt gently: "That\'s what Forster says — now what do *you* think about it?', 'Do you agree that a novel\'s only job is to make us ask \'what happens next\'?" Model a disagreeing stance: "I actually.', 'Repeat until they produce an original claim with textual support.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

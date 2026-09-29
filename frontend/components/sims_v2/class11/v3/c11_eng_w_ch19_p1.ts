@@ -19,7 +19,7 @@ export const c11_eng_w_ch19_p1: SimDef = {
         hook: 'The death-wish is the speaker\'s, not the bird\'s — the poem\'s engine is the gap between a mortal who aches and a song that outlives him.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" provides the essential historical, biographical, and literary framework needed to interpret John Keats\'s "Ode to a Nightingale." It covers the Romantic.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Ode to a Nightingale\' (Woven Words, ch. 19) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_19_001', title: 'Your mission',
@@ -29,33 +29,33 @@ export const c11_eng_w_ch19_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_19_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you hear a bird singing outside your window at night—its song feels timeless, making your own worries seem small.',
+          caseStudy: { intro: 'Start with the author of \'Ode to a Nightingale\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Define the term "ode" as a poetic form and name the two main types (Pindaric and Horatian).', options: [
                 { text: 'An ode is a lyric poem of elevated style, formally addressing a subject', outcome: 'An ode is a lyric poem of elevated style, formally addressing a subject.' },
                 { text: 'fade away', outcome: 'Not quite — Students often believe the nightingale represents *death* or *the afterlife* because of the "Lethe".', reveals: 'the-nightingale-represents-death-or' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_19_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you put on noise-cancelling headphones and a song transports you completely — you forget your homework, the noise outside, even time — but when the.',
+          caseStudy: { intro: 'Trace \'Ode to a Nightingale\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the primary structural difference between a narrative poem (like "The Rime of the Ancient Mariner") and a lyric ode (like "Ode to.', options: [
                 { text: 'A narrative poem follows an external sequence of events with characters, setting, and a', outcome: 'A narrative poem follows an external sequence of events with characters, setting, and.' },
                 { text: 'both tell a story', outcome: 'Not quite — Students treat the poem as a sequence of *descriptions* (forest, wine, bird, Ruth, fairy lands).', reveals: 'students-treat-the-poem-as' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_19_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are sitting in a dense Indian garden at twilight, hearing a koel\'s call, and suddenly your own worries feel distant—then a mosquito bites, and.',
+          caseStudy: { intro: 'Identify where and when \'Ode to a Nightingale\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the specific physical location of the nightingale described in the first stanza, and which two nouns establish its visual.', options: [
                 { text: 'The nightingale sings in a "melodious plot / Of beechen green, and shadows numberless."', outcome: 'The nightingale sings in a "melodious plot / Of beechen green, and shadows numberless." The nouns.' },
                 { text: 'a forest', outcome: 'Not quite — Students treat "setting" as a static backdrop (e.g., "the poem is set in a forest") and.', reveals: 'students-treat-setting-as-a' },
                 { text: 'a tree', outcome: 'Not quite — Students treat "setting" as a static backdrop (e.g., "the poem is set in a forest") and.', reveals: 'students-treat-setting-as-a' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_19_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re listening to a friend describe a vivid dream where they tried to escape their problems by flying away with a bird—only to wake up unsure if.',
+          caseStudy: { intro: 'Pick the central figure in \'Ode to a Nightingale\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the poetic term for a lyric poem in which the speaker directly addresses an absent or non-human entity (like a nightingale) as.', options: [
                 { text: 'The term is **apostrophe**', outcome: 'The term is **apostrophe**. A wrong answer (e.g., "personification" or "address") reveals the.' },
                 { text: 'personification', outcome: 'Not quite — Students conflate the *speaker/persona* with *John Keats the historical person*, assuming every "I".', reveals: 'students-conflate-the-speaker-persona' },
                 { text: 'address', outcome: 'Not quite — Students conflate the *speaker/persona* with *John Keats the historical person*, assuming every "I".', reveals: 'students-conflate-the-speaker-persona' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_19_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are sitting in a noisy classroom before an exam, feeling overwhelmed, and suddenly you hear a beautiful flute melody from the music room — for.',
+          caseStudy: { intro: 'Ask what \'Ode to a Nightingale\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the definition of a primary theme in poetry, and how does it differ from a subject or topic?', options: [
                 { text: 'A primary theme is the central insight about life or human nature that the poem', outcome: 'A primary theme is the central insight about life or human nature that the poem communicates.' },
                 { text: 'The theme is the nightingale', outcome: 'Not quite — Students often believe the poem celebrates the nightingale\'s immortality as a triumph, missing that.', reveals: 'the-poem-celebrates-the-nightingale' }
@@ -79,7 +79,7 @@ export const c11_eng_w_ch19_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" provides the essential historical.',
+          question: '\'Ode to a Nightingale\' (Woven Words, ch. 19) — the context and background.',
           hint: 'Review Class 9–10 poetry nodes on form and devices: c7_engl_ch01_012 (rhyme scheme).',
           misconception: 'Students often believe the nightingale represents *death* or *the afterlife* because of the "Lethe" and "fade away".',
           parts: [
@@ -105,7 +105,7 @@ export const c11_eng_w_ch19_p1: SimDef = {
           ],
             remediations: { 'the-nightingale-represents-death-or': { steps: ['Re-read the "About the Poet" section in the textbook and list three biographical facts that directly echo in stanza 3.', 'Create a two-column table: left column = classical allusion (Lethe, Dryad, Hippocrene, Ruth), right column = what the.', 'Watch a 5-minute video on "Romanticism vs.', 'Enlightenment" (e.g., from NCERT\'s official channel) and note one way Keats rejects Enlightenment rationality in this.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_002', difficulty: 'standard',
-          question: 'Narrative structure in a lyric poem like "Ode to a Nightingale" refers to the.',
+          question: 'The plot/narrative arc of \'Ode to a Nightingale\' — what happens, in what order.',
           hint: 'Review the difference between narrative and lyric poetry using the "King Bruce" poem.',
           misconception: 'Students treat the poem as a sequence of *descriptions* (forest, wine, bird, Ruth, fairy lands) rather than a sequence.',
           parts: [
@@ -116,18 +116,18 @@ export const c11_eng_w_ch19_p1: SimDef = {
           ],
             remediations: { 'students-treat-the-poem-as': { steps: ['Have the student reread only the first and last lines of each stanza aloud, ignoring the middle.', 'Ask: "What *verb* shows the speaker\'s agency in each stanza?" (e.g., Stanza 2: "drink, and leave"; Stanza 4: "I will.', 'Plot these verbs on a timeline: they reveal the narrative engine.', 'Finally, ask the student to retell the poem as "A person who feels X, decides Y, tries Z, fails because W, and ends.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_003', difficulty: 'standard',
-          question: 'In poetry, **setting** refers to the time, place, and physical environment.',
+          question: 'The setting of \'Ode to a Nightingale\' — the place, time and atmosphere the text.',
           hint: 'Review "Imagery and Sensory Details" from Class 8 (c8_engl_ch4_7) or Class 7.',
           misconception: 'Students treat "setting" as a static backdrop (e.g., "the poem is set in a forest") and "atmosphere" as a single label.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'In poetry, **setting** refers to the time, place, and physical environment where the',
-                  options: ['In poetry, **setting** refers to the time, place, and physical environment where the', '"Before You Read: Context and Background" provides the essential historical,', 'Narrative structure in a lyric poem like "Ode to a Nightingale" refers to the organized', 'Character analysis of the protagonist in a lyric poem involves examining the speaker\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'Ode to a Nightingale\'',
+                  options: ['The setting of \'Ode to a Nightingale\'', '\'Ode to a Nightingale\' (Woven Words, ch', 'The plot/narrative arc of \'Ode to a Nightingale\'', 'Character analysis in \'Ode to a Nightingale\''],
                   hint: 'Review "Imagery and Sensory Details" from Class 8 (c8_engl_ch4_7) or Class 7 (c7_engl_ch03_014).',
                   misconception: 'Students treat "setting" as a static backdrop (e.g., "the poem is set in a forest") and "atmosphere" as a single label ("it\'s sad").' }
           ],
             remediations: { 'students-treat-setting-as-a': { steps: ['**Map the Journey**: Have the student draw a 6-box flowchart on paper.', 'Box 1: "Poet\'s Chair" (Stanza 1).', 'Box 2: "Bird\'s Grove" (Stanza 1).', 'Box 3: "Wine Forest" (Stanzas 2–3).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a lyric poem involves examining the.',
+          question: 'Character analysis in \'Ode to a Nightingale\' — the central figure(s), their.',
           hint: 'If stuck: review c10_engl_cbse_04_002 (Anne\'s diary as constructed voice) and.',
           misconception: 'Students conflate the *speaker/persona* with *John Keats the historical person*, assuming every "I" is autobiographical.',
           parts: [
@@ -138,18 +138,18 @@ export const c11_eng_w_ch19_p1: SimDef = {
           ],
             remediations: { 'students-conflate-the-speaker-persona': { steps: ['Have the student list every "I" statement in the poem (14+ instances) and classify each: physical sensation, desire.', 'Ask: "If this were Keats\'s diary, why would he use \'Dryad,\' \'Hippocrene,\' \'Ruth,\' \'faery lands\'?" —highlighting the.', 'Compare with a genuinely autobiographical poem (e.g., "When I Have Fears") to distinguish persona from person.', 'Re-read stanza 8: the speaker *questions* his state—autobiography rarely ends with epistemological uncertainty.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_005', difficulty: 'standard',
-          question: 'In a lyric poem like "Ode to a Nightingale," supporting characters are not.',
+          question: 'Supporting characters in \'Ode to a Nightingale\' — the secondary figures who.',
           hint: 'Review the "Character Analysis: Protagonist" node (c11_eng_w_cbse_19_004) focusing on the.',
           misconception: 'Students treat the Nightingale as a *character* with feelings who "comforts" the poet, and they treat.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'In a lyric poem like "Ode to a Nightingale," supporting characters are not narrative',
-                  options: ['In a lyric poem like "Ode to a Nightingale," supporting characters are not narrative', '"Before You Read: Context and Background" provides the essential historical,', 'Narrative structure in a lyric poem like "Ode to a Nightingale" refers to the organized', 'In poetry, **setting** refers to the time, place, and physical environment where the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in \'Ode to a Nightingale\'',
+                  options: ['Supporting characters in \'Ode to a Nightingale\'', '\'Ode to a Nightingale\' (Woven Words, ch', 'The plot/narrative arc of \'Ode to a Nightingale\'', 'The setting of \'Ode to a Nightingale\''],
                   hint: 'Review the "Character Analysis: Protagonist" node (c11_eng_w_cbse_19_004) focusing on the poet\'s.',
                   misconception: 'Students treat the Nightingale as a *character* with feelings who "comforts" the poet, and they treat Ruth/Emperor/Clown as *historical.' }
           ],
             remediations: { 'students-treat-the-nightingale-as': { steps: ['Have the student re-read stanzas 1, 3, 7, 8 with a single question: "What does this figure *represent* to the poet.', 'Create a two-column table: Column A = Figure (Nightingale, Ruth, Fancy, etc.), Column B = What the poet *wants* this.', 'Force the distinction: "The bird is a symbol the poet *uses*; it is not a friend who *helps*." 4.', 'Practice writing one sentence per figure using the template: "The poet invokes [Figure] to represent [Abstract Idea].'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_006', difficulty: 'standard',
-          question: 'The primary theme of a poem is its central, unifying idea that emerges from the.',
+          question: 'The primary theme of \'Ode to a Nightingale\' — the central idea the whole text.',
           hint: 'If stuck, review c11_eng_w_cbse_19_002 (narrative structure) to map the speaker\'s.',
           misconception: 'Students often believe the poem celebrates the nightingale\'s immortality as a triumph, missing that the speaker\'s final.',
           parts: [

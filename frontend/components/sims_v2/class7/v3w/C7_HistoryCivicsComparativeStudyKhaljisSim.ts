@@ -6,13 +6,13 @@ import C7_HistoryCivicsComparativeStudyKhaljisSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_historycivicscomparativestudykhaljissim: SimDef = {
     id: 'v3w_c7_historycivicscomparativestudykhaljissim',
-    title: 'Comparative Study Khaljis',
+    title: 'Influence of Civilisational Heritage on the Constitution',
     subtitle: 'Covers the philosophical, ethical, and historical roots of the Constitution derived from.',
     classLevel: 7, subject: 'history', topic: 'Influence of Civilisational Heritage on the Constitution',
     chapters: [],
     nodeIds: ['c7_civ_ch02_006', 'c7_civ_ch02_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine walking through an ancient stone temple or reading a classical text that speaks of universal harmony,.', goal: 'Master Comparative Study Khaljis.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine walking through an ancient stone temple or reading a classical text that speaks of universal harmony,.', goal: 'Master Influence of Civilisational Heritage on the Constitution.' },
     discovery: {
         question: 'What is the term used to describe a system of government where power is divided between a central government and regional (state) governments?',
         options: ['The correct answer is federalism (or a federal system)', 'unitary system', 'monarchy'],
@@ -42,12 +42,12 @@ export const w_c7_historycivicscomparativestudykhaljissim: SimDef = {
             { text: 'Conclude that the central government holds exclusive authority over this subject, ensuring uniformity and national.', faded: true, blankAnswer: 'The national government holds exclusive authority over.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_civ_ch02_007', title: 'Identify each idea',
-          dissect: { specimen: 'Comparative Study Khaljis', spots: [
+          dissect: { specimen: 'Influence of Civilisational Heritage on the Constitution', spots: [
             { id: 's1', label: 'The influence of civilisational heritage', prompt: 'Which idea is this? — The influence of civilisational heritage on the Indian Constitution refers to how ancient.', answer: 'The influence of civilisational heritage', options: ['The influence of civilisational heritage', 'The key features of the'] },
             { id: 's2', label: 'The key features of the', prompt: 'Which idea is this? — The key features of the Constitution of India refer to its fundamental design.', answer: 'The key features of the', options: ['The key features of the', 'The influence of civilisational heritage'] }
           ] } }
     ],
-    explore: { component: C7_HistoryCivicsComparativeStudyKhaljisSim, prompt: 'Explore the interactive — Comparative Study Khaljis' },
+    explore: { component: C7_HistoryCivicsComparativeStudyKhaljisSim, prompt: 'Explore the interactive — Influence of Civilisational Heritage on the Constitution' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_civ_ch02_007', difficulty: 'standard',
           question: 'The key features of the Constitution of India refer to its fundamental design.',

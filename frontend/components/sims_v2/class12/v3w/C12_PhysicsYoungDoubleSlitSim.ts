@@ -6,13 +6,13 @@ import C12_PhysicsYoungDoubleSlitSim from '../../../simulations/three/C12_Physic
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsyoungdoubleslitsim: SimDef = {
     id: 'v3w_c12_physicsyoungdoubleslitsim',
-    title: 'Young Double Slit',
+    title: 'Coherent Sources and Interference of Light',
     subtitle: 'Covers: definition of coherence, superposition principle for two waves, derivation of.',
     classLevel: 12, subject: 'physics', topic: 'Coherent Sources and Interference of Light',
     chapters: [],
     nodeIds: ['c12_phy_cbse_10_004', 'c12_phy_cbse_10_005', 'c12_phy_cbse_10_006', 'c12_phy_cbse_10_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe two LED bulbs in your room — they illuminate the wall uniformly without dark/bright bands.', goal: 'Master Young Double Slit.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe two LED bulbs in your room — they illuminate the wall uniformly without dark/bright bands.', goal: 'Master Coherent Sources and Interference of Light.' },
     discovery: {
         question: 'Two identical tuning forks of frequency 512 Hz are struck simultaneously. Fork A is at x = 0 m, Fork B is at x = 1.5 m.',
         options: ['Yes, the sources are coherent', 'not coherent because they are separate forks', 'monochromatic'],
@@ -62,14 +62,14 @@ export const w_c12_physicsyoungdoubleslitsim: SimDef = {
             { text: 'Central maximum width = \\(2y_1 = 21.09\\,\\text{mm}\\). Check: \\(y_1 \\ll D\\) (10.5 mm vs 2500 mm), so small-angle.', faded: true, blankAnswer: '(a) \\(\\theta_1 = 4.22 \\times 10^{-3}\\,\\text{rad}\\) (or.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_10_005', title: 'Identify each idea',
-          dissect: { specimen: 'Young Double Slit', spots: [
+          dissect: { specimen: 'Coherent Sources and Interference of Light', spots: [
             { id: 's1', label: 'Coherent sources are two or', prompt: 'Which idea is this? — Coherent sources are two or more wave sources that maintain a constant phase difference.', answer: 'Coherent sources are two or', options: ['Coherent sources are two or', 'Fringe width in Youngs', 'In Youngs double slit experiment', 'Single slit diffraction is the'] },
             { id: 's2', label: 'Fringe width in Youngs', prompt: 'Which idea is this? — Fringe width (β) in Young\'s double slit experiment is the distance between two.', answer: 'Fringe width in Youngs', options: ['Fringe width in Youngs', 'Coherent sources are two or', 'In Youngs double slit experiment', 'Single slit diffraction is the'] },
             { id: 's3', label: 'In Youngs double slit experiment', prompt: 'Which idea is this? — In Young\'s double slit experiment, **fringe width (β)** is the distance between two.', answer: 'In Youngs double slit experiment', options: ['In Youngs double slit experiment', 'Coherent sources are two or', 'Fringe width in Youngs', 'Single slit diffraction is the'] },
             { id: 's4', label: 'Single slit diffraction is the', prompt: 'Which idea is this? — Single slit diffraction is the phenomenon where a plane wavefront passing through a.', answer: 'Single slit diffraction is the', options: ['Single slit diffraction is the', 'Coherent sources are two or', 'Fringe width in Youngs', 'In Youngs double slit experiment'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsYoungDoubleSlitSim, prompt: 'Explore the interactive — Young Double Slit' },
+    explore: { component: C12_PhysicsYoungDoubleSlitSim, prompt: 'Explore the interactive — Coherent Sources and Interference of Light' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_10_004', difficulty: 'standard',
           question: 'Coherent sources are two or more wave sources that maintain a constant phase.',

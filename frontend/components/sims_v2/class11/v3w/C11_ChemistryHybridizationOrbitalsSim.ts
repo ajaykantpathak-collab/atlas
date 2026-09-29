@@ -6,13 +6,13 @@ import C11_ChemistryHybridizationOrbitalsSim from '../../../simulations/three/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_chemistryhybridizationorbitalssim: SimDef = {
     id: 'v3w_c11_chemistryhybridizationorbitalssim',
-    title: 'Hybridization Orbitals',
+    title: 'Shapes of Atomic Orbitals: s, p, d',
     subtitle: 'Covers: shapes of s, p, d orbitals via boundary surface diagrams (constant |ψ|².',
     classLevel: 11, subject: 'chemistry', topic: 'Shapes of Atomic Orbitals: s, p, d',
     chapters: [],
     nodeIds: ['c11_chem_cbse_02_014', 'c11_chem_cbse_11_004', 'c11_chem_cbse_04_006', 'c11_chem_cbse_04_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe how a magnet attracts iron filings into a specific 3D pattern — the filings align along magnetic.', goal: 'Master Hybridization Orbitals.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe how a magnet attracts iron filings into a specific 3D pattern — the filings align along magnetic.', goal: 'Master Shapes of Atomic Orbitals: s, p, d.' },
     discovery: {
         question: 'State the shape of a 3s orbital and the number of radial nodes it possesses. How does its boundary surface diagram differ from that of a 1s orbital?',
         options: ['The 3s orbital is spherically symmetric with 2 radial nodes (n-l-1 = 3-0-1 = 2)', '3s has no nodes', '3s is dumb-bell shaped'],
@@ -63,14 +63,14 @@ export const w_c11_chemistryhybridizationorbitalssim: SimDef = {
             { text: 'Verify with experimental data. ESR spectroscopy of vinyl radical shows the unpaired electron has ~33% s-character,.', faded: true, blankAnswer: 'Both carbons are sp² hybridised. Geometry: trigonal planar.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_chem_cbse_11_004', title: 'Identify each idea',
-          dissect: { specimen: 'Hybridization Orbitals', spots: [
+          dissect: { specimen: 'Shapes of Atomic Orbitals: s, p, d', spots: [
             { id: 's1', label: 'Atomic orbitals are three-dimensional regions', prompt: 'Which idea is this? — Atomic orbitals are three-dimensional regions around the nucleus where the probability of.', answer: 'Atomic orbitals are three-dimensional regions', options: ['Atomic orbitals are three-dimensional regions', 'Benzene CH is a planar', 'Valence Bond Theory explains covalent', 'Hybridisation is the concept of'] },
             { id: 's2', label: 'Benzene CH is a planar', prompt: 'Which idea is this? — Benzene (C₆H₆) is a planar, cyclic, fully conjugated hydrocarbon with 6 π-electrons.', answer: 'Benzene CH is a planar', options: ['Benzene CH is a planar', 'Atomic orbitals are three-dimensional regions', 'Valence Bond Theory explains covalent', 'Hybridisation is the concept of'] },
             { id: 's3', label: 'Valence Bond Theory explains covalent', prompt: 'Which idea is this? — Valence Bond Theory explains covalent bond formation through the overlap of half-filled.', answer: 'Valence Bond Theory explains covalent', options: ['Valence Bond Theory explains covalent', 'Atomic orbitals are three-dimensional regions', 'Benzene CH is a planar', 'Hybridisation is the concept of'] },
             { id: 's4', label: 'Hybridisation is the concept of', prompt: 'Which idea is this? — Hybridisation is the concept of mixing atomic orbitals of slightly different energies on.', answer: 'Hybridisation is the concept of', options: ['Hybridisation is the concept of', 'Atomic orbitals are three-dimensional regions', 'Benzene CH is a planar', 'Valence Bond Theory explains covalent'] }
           ] } }
     ],
-    explore: { component: C11_ChemistryHybridizationOrbitalsSim, prompt: 'Explore the interactive — Hybridization Orbitals' },
+    explore: { component: C11_ChemistryHybridizationOrbitalsSim, prompt: 'Explore the interactive — Shapes of Atomic Orbitals: s, p, d' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_chem_cbse_02_014', difficulty: 'standard',
           question: 'Atomic orbitals are three-dimensional regions around the nucleus where the.',

@@ -65,7 +65,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Gender Barriers To Education Refer To",
+    "title": "Gender Barriers To Education",
     "text": "Gender barriers to education refer to social, cultural, and economic obstacles that prevent girls from accessing and completing schooling purely because of their gender.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -77,7 +77,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Plot Of Jahnavi's Conversation With",
+    "title": "Plot Of Jahnavi's Conversation",
     "text": "The plot of Jahnavi's conversation with the river represents a pivotal narrative turning point where the protagonist interacts directly with a personified natural element, sharing her deepest frustrations and finding emotional resolution to drive the story",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
@@ -95,7 +95,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Literary Devices Like Imagery (using Sensory",
+    "title": "Literary Devices Like Imagery",
     "text": "Literary devices like imagery (using sensory details to paint pictures in the mind) and sound devices (like onomatopoeia and alliteration) bring nature descriptions in prose and poetry to life by engaging the reader's sight, touch, and hearing.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -107,7 +107,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking About The Message Of",
+    "title": "Critical Thinking About The Message",
     "text": "Critical thinking about the message of a story involves looking beyond the basic plot to evaluate the author's underlying social commentary, values, and larger arguments regarding human rights and societal change.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1016,7 +1016,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Polynesia The Parrot Acts As a",
+    "title": "Polynesia The Parrot Acts As",
     "text": "Polynesia the parrot acts as a wise mentor, translator, and moral compass for Dr. Dolittle, guiding him from a human doctor into a celebrated animal doctor.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1094,7 +1094,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Comparing Prose And Poetry On The",
+    "title": "Comparing Prose And Poetry",
     "text": "Comparing prose and poetry on the same theme involves analyzing how different literary forms—narrative storytelling versus verse—express the same underlying message through distinct structures, pacing, language choices, and emotional tones.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1990,7 +1990,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Critical Thinking In The Context Of",
+    "title": "Critical Thinking: The Spirit",
     "text": "Critical thinking in the context of invention is the disciplined mental process of actively conceptualizing, analyzing, and evaluating failures, setbacks, and feedback to refine creative ideas rather than abandoning them.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2753,7 +2753,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of Suraj In \"The",
+    "title": "Character Analysis: Suraj and His Love",
     "text": "Character analysis of Suraj in \"The Tunnel\" examines his traits, motivations, actions, and deep fascination with massive railway engines, revealing a courageous young boy who finds wonder and excitement in the isolation of the Indian jungle.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2795,13 +2795,13 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Comprehension Of What Suraj Discovers At",
+    "title": "Comprehension Of What Suraj Discovers",
     "text": "Comprehension of what Suraj discovers at the tunnel involves analyzing the literal events and deeper emotional shifts Suraj experiences when he explores and interacts with the dark, mysterious mountain tunnel in Ruskin Bond's story.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking In The Context Of",
+    "title": "Critical Thinking In The Context",
     "text": "Critical thinking in the context of adventure literature involves evaluating characters' motivations, weighing the risks versus rewards of exploring unknown territories, and questioning why protagonists choose bravery over fear.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2831,7 +2831,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Skill Of Embedding Quotes And",
+    "title": "Skill Of Embedding Quotes",
     "text": "The skill of embedding quotes and evidence in poem answers involves seamlessly integrating short, accurate phrases from a poem into analytical sentences to prove a point about poetic devices, tone, or theme.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3671,13 +3671,13 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Theme Of Patriotism And Gratitude To",
+    "title": "Theme: Patriotism and Gratitude to Soldiers",
     "text": "The theme of patriotism and gratitude to soldiers refers to the deep emotional bond, profound respect, and active appreciation citizens hold for military personnel who protect the nation's sovereignty, territorial integrity, and freedom.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Plot Of a Student's Educational Trip To a",
+    "title": "Plot: A Student's Educational Trip",
     "text": "The plot of a student's educational trip to a memorial is the sequential arrangement of events, actions, and emotional transitions that characters experience from their arrival at the historical site to their final reflections.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3707,13 +3707,13 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Critical Thinking About The Cost Of",
+    "title": "Critical Thinking About The Cost",
     "text": "Critical thinking about the cost of freedom and peace involves analyzing the immense personal, social, and economic sacrifices made by soldiers and their families so that citizens can live safely.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Summary And Context Of The",
+    "title": "Summary And Context",
     "text": "The summary and context of the poem \"Pushp ki Abhilasha\" (The Flower's Desire) by Makhanlal Chaturvedi explore the inner wish of a flower not to be used for vanity or worship, but to be crushed and strewn on the path walked by the brave soldiers of the nation.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"

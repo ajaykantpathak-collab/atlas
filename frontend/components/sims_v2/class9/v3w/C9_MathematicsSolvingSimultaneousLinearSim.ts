@@ -6,13 +6,13 @@ import C9_MathematicsSolvingSimultaneousLinearSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_mathematicssolvingsimultaneouslinearsim: SimDef = {
     id: 'v3w_c9_mathematicssolvingsimultaneouslinearsim',
-    title: 'Solving Simultaneous Linear',
+    title: 'Pair of Linear Equations: Consistent and Inconsistent Systems',
     subtitle: 'Covers pairs of linear equations in two variables with real coefficients; includes.',
     classLevel: 9, subject: 'mathematics', topic: 'Pair of Linear Equations: Consistent and Inconsistent Systems',
     chapters: [],
     nodeIds: ['c9_math_ch2_9', 'c9_math_ch2_10', 'c9_math_ch2_3', 'c9_math_ch2_5', 'c9_math_ch2_7', 'c9_math_ch2_8', 'c9_math_ch2_1', 'c9_math_ch2_2', 'c9_math_ch2_4', 'c9_math_ch2_6', 'c9_math_ch8_7'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you and your friend go to a stationery shop. You buy 3 pens and 2 notebooks for ₹110, and your friend.', goal: 'Master Solving Simultaneous Linear.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you and your friend go to a stationery shop. You buy 3 pens and 2 notebooks for ₹110, and your friend.', goal: 'Master Pair of Linear Equations: Consistent and Inconsistent Systems.' },
     discovery: {
         question: 'Determine whether the following pair is consistent or inconsistent.',
         options: ['Write equations in standard form: \\(5x - 3y - 11 = 0\\) and \\(10x - 6y - 22 = 0\\)', 'unique solution', 'inconsistent'],
@@ -82,7 +82,7 @@ export const w_c9_mathematicssolvingsimultaneouslinearsim: SimDef = {
             { text: 'Verify: 3(18) + 2(13) = 54 + 26 = 80 ✓; 2(18) + 3(13) = 36 + 39 = 75 ✓.', faded: true, blankAnswer: 'Price of one pen = ₹18, price of one notebook = ₹13.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_math_ch2_10', title: 'Identify each idea',
-          dissect: { specimen: 'Solving Simultaneous Linear', spots: [
+          dissect: { specimen: 'Pair of Linear Equations: Consistent and Inconsistent Systems', spots: [
             { id: 's1', label: 'A pair of linear equations', prompt: 'Which idea is this? — A pair of linear equations in two variables is **consistent** if there exists at least.', answer: 'A pair of linear equations', options: ['A pair of linear equations', 'A word problem using linear', 'Linear patterns in real-life situations', 'A linear equation in two'] },
             { id: 's2', label: 'A word problem using linear', prompt: 'Which idea is this? — A word problem using linear equations is a real-world situation described in words that.', answer: 'A word problem using linear', options: ['A word problem using linear', 'A pair of linear equations', 'Linear patterns in real-life situations', 'A linear equation in two'] },
             { id: 's3', label: 'Linear patterns in real-life situations', prompt: 'Which idea is this? — Linear patterns in real-life situations are relationships where one quantity changes at a.', answer: 'Linear patterns in real-life situations', options: ['Linear patterns in real-life situations', 'A pair of linear equations', 'A word problem using linear', 'A linear equation in two'] },
@@ -91,7 +91,7 @@ export const w_c9_mathematicssolvingsimultaneouslinearsim: SimDef = {
             { id: 's6', label: 'The substitution method is an', prompt: 'Which idea is this? — The substitution method is an algebraic technique for solving a pair of linear equations.', answer: 'The substitution method is an', options: ['The substitution method is an', 'A pair of linear equations', 'A word problem using linear', 'Linear patterns in real-life situations'] }
           ] } }
     ],
-    explore: { component: C9_MathematicsSolvingSimultaneousLinearSim, prompt: 'Explore the interactive — Solving Simultaneous Linear' },
+    explore: { component: C9_MathematicsSolvingSimultaneousLinearSim, prompt: 'Explore the interactive — Pair of Linear Equations: Consistent and Inconsistent Systems' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_math_ch2_9', difficulty: 'standard',
           question: 'A pair of linear equations in two variables is **consistent** if there exists.',

@@ -6,13 +6,13 @@ import C11_ChemistryChemicalequilibriumdynamicnatureSim from '../../../simulatio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_chemistrychemicalequilibriumdynamicnaturesim: SimDef = {
     id: 'v3w_c11_chemistrychemicalequilibriumdynamicnaturesim',
-    title: 'Chemicalequilibriumdynamicnature',
+    title: 'Equilibrium in Chemical Processes: Dynamic Equilibrium',
     subtitle: 'Covers: reversible reactions, dynamic nature, macroscopic constancy vs microscopic.',
     classLevel: 11, subject: 'chemistry', topic: 'Equilibrium in Chemical Processes: Dynamic Equilibrium',
     chapters: [],
     nodeIds: ['c11_chem_cbse_07_002', 'c11_chem_cbse_07_001', 'c11_chem_cbse_05_012', 'c11_chem_cbse_07_003', 'c11_chem_cbse_07_004', 'c11_chem_cbse_07_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a saturated sugar solution in a glass with undissolved crystals at the bottom — the amount of.', goal: 'Master Chemicalequilibriumdynamicnature.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a saturated sugar solution in a glass with undissolved crystals at the bottom — the amount of.', goal: 'Master Equilibrium in Chemical Processes: Dynamic Equilibrium.' },
     discovery: {
         question: 'In the reversible reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g) at equilibrium in a closed container, which statement is correct? (a) The forward reaction has stopped.',
         options: ['Correct: (c) The rate of formation of NH₃ equals the rate of its decomposition', 'equilibrium', 'equilibrium means 50% reactants, 50% products'],
@@ -80,7 +80,7 @@ export const w_c11_chemistrychemicalequilibriumdynamicnaturesim: SimDef = {
             { text: 'The same calculation applies without catalyst because Kp, T, V, initial moles are identical.', faded: true, blankAnswer: 'Equilibrium partial pressure of SO₃ = 10.9 atm in both.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_chem_cbse_07_001', title: 'Identify each idea',
-          dissect: { specimen: 'Chemicalequilibriumdynamicnature', spots: [
+          dissect: { specimen: 'Equilibrium in Chemical Processes: Dynamic Equilibrium', spots: [
             { id: 's1', label: 'Dynamic equilibrium in a chemical', prompt: 'Which idea is this? — Dynamic equilibrium in a chemical process is a state in a reversible reaction where the.', answer: 'Dynamic equilibrium in a chemical', options: ['Dynamic equilibrium in a chemical', 'Equilibrium in physical processes is', 'Vapour pressure is the pressure', 'The Law of Chemical Equilibrium'] },
             { id: 's2', label: 'Equilibrium in physical processes is', prompt: 'Which idea is this? — Equilibrium in physical processes is a dynamic state in a closed system where opposing.', answer: 'Equilibrium in physical processes is', options: ['Equilibrium in physical processes is', 'Dynamic equilibrium in a chemical', 'Vapour pressure is the pressure', 'The Law of Chemical Equilibrium'] },
             { id: 's3', label: 'Vapour pressure is the pressure', prompt: 'Which idea is this? — Vapour pressure is the pressure exerted by the vapours of a liquid when they are in.', answer: 'Vapour pressure is the pressure', options: ['Vapour pressure is the pressure', 'Dynamic equilibrium in a chemical', 'Equilibrium in physical processes is', 'The Law of Chemical Equilibrium'] },
@@ -89,7 +89,7 @@ export const w_c11_chemistrychemicalequilibriumdynamicnaturesim: SimDef = {
             { id: 's6', label: 'A catalyst is a substance', prompt: 'Which idea is this? — A catalyst is a substance that increases the rate of both the forward and reverse.', answer: 'A catalyst is a substance', options: ['A catalyst is a substance', 'Dynamic equilibrium in a chemical', 'Equilibrium in physical processes is', 'Vapour pressure is the pressure'] }
           ] } }
     ],
-    explore: { component: C11_ChemistryChemicalequilibriumdynamicnatureSim, prompt: 'Explore the interactive — Chemicalequilibriumdynamicnature' },
+    explore: { component: C11_ChemistryChemicalequilibriumdynamicnatureSim, prompt: 'Explore the interactive — Equilibrium in Chemical Processes: Dynamic Equilibrium' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_chem_cbse_07_002', difficulty: 'standard',
           question: 'Dynamic equilibrium in a chemical process is a state in a reversible reaction.',

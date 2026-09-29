@@ -19,7 +19,7 @@ export const c12_eng_v_ch01_p1: SimDef = {
         hook: 'Finney grounds the impossible in the mundane — a tan gabardine suit, a stamp collection, a wife to get home to — so fantasy borrows credibility. Even the stamps are contested ground: the psychiatrist calls them \'refuge,\' Charley calls them inheritance from a gentler era.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'The "Before You Read" section is a pre-reading activity that activates prior knowledge, sets historical and psychological context, and introduces the central thematic tension of the story — the human.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Third Level\' (Vistas, ch. 1) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_01_001', title: 'Your mission',
@@ -29,35 +29,35 @@ export const c12_eng_v_ch01_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_01_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you tell your friends you saw a dinosaur in your backyard — they\'d laugh, right?',
+          caseStudy: { intro: 'Start with the author of \'The Third Level\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'What is the specific question posed in the "Before You Read" box of "The Third Level"?', options: [
                 { text: 'The question is: "Have you ever had any curious experience', outcome: 'The question is: "Have you ever had any curious experience which others find hard to believe?".' },
                 { text: 'Have you ever had any curious experience', outcome: 'Not quite — Students often think the "Before You Read" section is optional or separate from the story.', reveals: 'the-before-you-read-section' },
                 { text: 'What is the third level?', outcome: 'Not quite — Students often think the "Before You Read" section is optional or separate from the story.', reveals: 'the-before-you-read-section' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_01_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re standing in a busy metro station today — noise, crowds, digital screens, anxiety about missing your train.',
+          caseStudy: { intro: 'Identify where and when \'The Third Level\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What are the two primary physical settings contrasted in "The Third Level," and what specific year does the Third Level represent?', options: [
                 { text: 'The two primary settings are the modern Grand Central Station (first and second levels)', outcome: 'The two primary settings are the modern Grand Central Station (first and second levels) and the.' },
                 { text: 'Charley\'s office and Galesburg', outcome: 'Not quite — Students treat "setting" and "atmosphere" as synonyms, writing: "The setting of the Third Level.', reveals: 'students-treat-setting-and-atmosphere' },
                 { text: 'the subway and the train', outcome: 'Not quite — Students treat "setting" and "atmosphere" as synonyms, writing: "The setting of the Third Level.', reveals: 'students-treat-setting-and-atmosphere' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_01_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Start by asking the student: "Have you ever felt so overwhelmed by modern life that you wished you could just step into a simpler past?',
+          caseStudy: { intro: 'Pick the central figure in \'The Third Level\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is Charley\'s age and occupation as stated in the story?', options: [
                 { text: 'Charley is 31 years old and works in an office (he mentions working late at the office)', outcome: 'Charley is 31 years old and works in an office (he mentions working late at the office).' },
                 { text: 'he is a student or retired', outcome: 'Not quite — Students often think Charley is either "crazy" or a "time traveler." The text supports neither.', reveals: 'charley-is-either-crazy-or' },
                 { text: 'Charley is either "crazy" or a "time traveler', outcome: 'Not quite — Students often think Charley is either "crazy" or a "time traveler." The text supports neither.', reveals: 'charley-is-either-crazy-or' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_01_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re a detective trying to understand why Charley believes in the third level — you wouldn\'t just interview Charley; you\'d talk to his wife, his.',
+          caseStudy: { intro: 'Spot the secondary figures in \'The Third Level\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List the five supporting characters in "The Third Level" who directly interact with Charley or his narrative, and state one concrete action.', options: [
                 { text: 'The five supporting characters are: (1) Louisa', outcome: 'The five supporting characters are: (1) Louisa — Charley\'s wife who initially worries about his.' },
                 { text: 'waking-dream wish fulfillment', outcome: 'Not quite — Students treat supporting characters as mere "helpers" or "obstacles" to the protagonist, writing.', reveals: 'students-treat-supporting-characters-as' },
                 { text: 'That ain\'t money, mister', outcome: 'Not quite — Students treat supporting characters as mere "helpers" or "obstacles" to the protagonist, writing.', reveals: 'students-treat-supporting-characters-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_01_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re sitting in a crowded metro after a terrible exam, wishing you could just step onto a train that takes you back to Class 10 when life felt.',
+          caseStudy: { intro: 'Ask what \'The Third Level\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the psychiatrist\'s exact diagnosis of Charley\'s experience on the third level, and what modern-world conditions does he cite as the.', options: [
                 { text: 'The psychiatrist diagnoses it as a "waking-dream wish fulfillment" caused by the modern', outcome: 'The psychiatrist diagnoses it as a "waking-dream wish fulfillment" caused by the modern world being.' },
                 { text: 'waking-dream wish fulfillment', outcome: 'Not quite — Students treat the primary theme as "time travel exists" or "the third level is a real place.', reveals: 'students-treat-the-primary-theme' },
@@ -82,7 +82,7 @@ export const c12_eng_v_ch01_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_001', difficulty: 'standard',
-          question: 'The "Before You Read" section is a pre-reading activity that activates prior.',
+          question: '\'The Third Level\' (Vistas, ch. 1) — the context and background to this text.',
           hint: 'If stuck, review Class 11 Hornbill c11_eng_h_cbse_01_001 "Before You Read" for "The.',
           misconception: 'Students often think the "Before You Read" section is optional or separate from the story — something to skip.',
           parts: [
@@ -112,18 +112,18 @@ export const c12_eng_v_ch01_p1: SimDef = {
           ],
             remediations: { 'the-before-you-read-section': { steps: ['If a student cannot link the pre-reading prompt to Charley\'s experience, do this: 1.', 'Have them re-read the prompt and the first paragraph side-by-side.', 'Ask: "Who is the \'I\' in the first paragraph?', 'Map each element: Prompt → "curious experience" = third level; "others find hard to believe" = psychiatrist, wife.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_002', difficulty: 'standard',
-          question: 'Plot is the sequence of events that make up a story, while narrative structure.',
+          question: 'The plot/narrative arc of \'The Third Level\' — what happens, in what order, and.',
           hint: 'If stuck, review the worked example in c11_eng_h_cbse_01_002 that maps a linear story.',
           misconception: 'Students often treat the psychiatrist’s “waking-dream wish fulfillment” as the author’s definitive explanation.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot is the sequence of events that make up a story, while narrative structure refers to',
-                  options: ['Plot is the sequence of events that make up a story, while narrative structure refers to', 'The "Before You Read" section is a pre-reading activity that activates prior knowledge,', 'Setting is the time, place, and social environment in', 'Character analysis of the protagonist involves examining the main character\'s personality'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The plot/narrative arc of \'The Third Level\'',
+                  options: ['The plot/narrative arc of \'The Third Level\'', '\'The Third Level\' (Vistas, ch', 'The setting of \'The Third Level\'', 'Character analysis in \'The Third Level\''],
                   hint: 'If stuck, review the worked example in c11_eng_h_cbse_01_002 that maps a linear story to Freytag’s.',
                   misconception: 'Students often treat the psychiatrist’s “waking-dream wish fulfillment” as the author’s definitive explanation, ignoring that the story’s.' }
           ],
             remediations: { 'students-often-treat-the-psychiatrist': { steps: ['Re-read the story and highlight every time marker (e.g., “One night last summer,” “Next day,” “July 18, 1894”).', 'Draw two timelines: one for chronological events, one for the order they appear in the text.', 'Compare the two and note where they diverge — that divergence *is* the narrative structure.', 'Revisit the Class 11 node on narrative structure (c11_eng_h_cbse_01_002) and complete its worked example on framing.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_003', difficulty: 'standard',
-          question: 'Setting is the time, place, and social environment in which a story occurs.',
+          question: 'The setting of \'The Third Level\' — the place, time and atmosphere the text.',
           hint: 'If the student cannot separate detail from effect, return to c11_eng_h_cbse_01_003 and.',
           misconception: 'Students treat "setting" and "atmosphere" as synonyms, writing: "The setting of the Third Level is peaceful." They list.',
           parts: [
@@ -138,7 +138,7 @@ export const c12_eng_v_ch01_p1: SimDef = {
           ],
             remediations: { 'students-treat-setting-and-atmosphere': { steps: ['Have the student re-read only the Third Level discovery passage (para 3-4 of NCERT text) and highlight every sensory.', 'Ask: "Group these highlights into clusters. What feeling does each cluster produce?"', 'Repeat for the modern station passage (para 2).', 'Write two PEEL paragraphs — one for each setting — using the clusters as Evidence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the main character\'s.',
+          question: 'Character analysis in \'The Third Level\' — the central figure(s), their traits.',
           hint: 'If stuck, review Class 11 character analysis (c11_eng_h_cbse_01_004) and re-read the.',
           misconception: 'Students often think Charley is either "crazy" or a "time traveler." The text supports neither extreme: Charley is.',
           parts: [
@@ -149,7 +149,7 @@ export const c12_eng_v_ch01_p1: SimDef = {
           ],
             remediations: { 'charley-is-either-crazy-or': { steps: ['If a student holds the "crazy vs.', 'time traveler" misconception, do this: (1) Have them re-read the psychiatrist\'s dialogue and Charley\'s reaction.', '(2) Ask: "Does the psychiatrist say Charley is mentally ill?', 'What words does he use?" (3) Point out the ending: Sam\'s letter and the first-day cover.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_005', difficulty: 'standard',
-          question: 'Supporting character analysis examines how secondary characters (Louisa, Sam.',
+          question: 'Supporting characters in \'The Third Level\' — the secondary figures who move the.',
           hint: 'If stuck, revisit c12_eng_v_cbse_01_004 (Protagonist Analysis) and re-read paragraphs 1.',
           misconception: 'Students treat supporting characters as mere "helpers" or "obstacles" to the protagonist, writing answers like "Louisa.',
           parts: [
@@ -164,7 +164,7 @@ export const c12_eng_v_ch01_p1: SimDef = {
           ],
             remediations: { 'students-treat-supporting-characters-as': { steps: ['If a student writes generic "supporting character" answers: (1) Have them reread only the dialogues of Louisa, Sam, and.', '(2) For each line, ask: "What thematic position does this voice represent?', 'Proof?" (3) Have them rewrite one 100-word answer using this template: "Character X represents [thematic position].', '"Documentary Verification."'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_006', difficulty: 'standard',
-          question: 'The primary theme of "The Third Level" is the human desire to escape the.',
+          question: 'The primary theme of \'The Third Level\' — the central idea the whole text.',
           hint: 'If stuck, review c12_eng_v_cbse_01_004 for Charley\'s anxiety evidence and.',
           misconception: 'Students treat the primary theme as "time travel exists" or "the third level is a real place Charley discovered." They.',
           parts: [

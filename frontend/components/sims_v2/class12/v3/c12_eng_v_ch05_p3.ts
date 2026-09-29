@@ -19,31 +19,31 @@ export const c12_eng_v_ch05_p3: SimDef = {
         hook: 'The \'before you read\' label calls Derry \'defiant\' — yet his first lines are pure panic. Hold context lightly: the play isn\'t about a tin leg or a scar, it\'s about the loneliness both carried into the garden and the friendship neither expected.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the advanced literary skill of moving beyond literal comprehension to examine how a text constructs meaning through character dynamics, thematic.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'On the Face of It\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_05_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Sit in Mr Lamb\'s garden through one afternoon: track how crab-apple talk, bees and open gates dismantle a boy\'s defences — and decide what the title\'s \'face of it\' really judges.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_05_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re asked: "Why does Derry return to Mr Lamb\'s garden at the end, knowing Mr Lamb might be dead?" This question cannot be answered by recalling plot.',
+          caseStudy: { intro: 'Analyse \'On the Face of It\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the fundamental difference between a literal comprehension question and a critical analysis question for "On the Face of It"?', options: [
                 { text: 'A literal comprehension question asks "what happens" (e.g., "How does Derry enter the', outcome: 'A literal comprehension question asks "what happens" (e.g., "How does Derry enter the garden?").' },
                 { text: 'critical analysis', outcome: 'Not quite — Students believe "critical analysis" means finding *hidden meanings* the author deliberately.', reveals: 'critical-analysis-means-finding-hidden' },
                 { text: 'the crab apples represent original sin', outcome: 'Not quite — Students believe "critical analysis" means finding *hidden meanings* the author deliberately.', reveals: 'critical-analysis-means-finding-hidden' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_05_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you open your board exam paper and see: "Write a character sketch of Derry in 100-120 words." Your heart races — you know the story, but how do you.',
+          caseStudy: { intro: 'For written answers on \'On the Face of It\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the correct structure of a PEEL paragraph for a character sketch answer in the CBSE Class 12 English exam?', options: [
                 { text: 'A PEEL paragraph consists of: **P**oint (topic sentence stating a trait), **E**vidence', outcome: 'A PEEL paragraph consists of: **P**oint (topic sentence stating a trait), **E**vidence (textual.' },
                 { text: 'PEEL means Point, Example, Effect, Language', outcome: 'Not quite — Students believe "writing skills based on the chapter" means memorising a ready-made character.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe "writing skills based on the chapter" means memorising a ready-made character.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_05_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a book club where everyone has read "On the Face of It" but interpretations differ — some think Mr Lamb is merely lonely, others see him.',
+          caseStudy: { intro: 'Talk through \'On the Face of It\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of a \'discussion point\' in a speaking and listening activity based on a literary text?', options: [
                 { text: 'A discussion point is an open-ended prompt derived from the text that invites multiple', outcome: 'A discussion point is an open-ended prompt derived from the text that invites multiple perspectives.' },
                 { text: 'To test if students remember the plot', outcome: 'Not quite — Students often think a \'good discussion\' means everyone agrees or that the loudest voice wins.', reveals: 'a-good-discussion-means-everyone' },
@@ -63,12 +63,12 @@ export const c12_eng_v_ch05_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_05_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the advanced literary skill.',
+          question: 'Critical thinking on \'On the Face of It\' — analysing the text to reach.',
           hint: 'If stuck, return to c12_eng_v_cbse_05_009 (Irony and Symbolism) and re-practice.',
           misconception: 'Students believe "critical analysis" means finding *hidden meanings* the author deliberately buried, leading them.',
           parts: [
@@ -77,7 +77,7 @@ export const c12_eng_v_ch05_p3: SimDef = {
                   hint: 'If stuck, return to c12_eng_v_cbse_05_009 (Irony and Symbolism) and re-practice identifying *how*.',
                   misconception: 'Students believe "critical analysis" means finding *hidden meanings* the author deliberately buried, leading them to over-interpret (e.g.' }
           ],
-            remediations: { 'critical-analysis-means-finding-hidden': { steps: ['If a student produces unsupported interpretations: (1) Have them re-read Scene One\'s "weeds" dialogue.', 'It\'s all life." (2) Practice the "Evidence → Inference → Warrant" chain: For any claim, cite the exact line, state the.', 'Warrant: The repetition of \'never\' and the private context show this is genuine expectation, not philosophy).', '(3) Re-attempt Diagnostic Question 4 with this scaffold.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-finding-hidden': { steps: ['If a student produces unsupported interpretations: (1) Have them re-read Scene One\'s "weeds" dialogue.', 'It\'s all life." (2) Practice the "Evidence → Inference → Warrant" chain: For any claim, cite the exact line, state the.', 'Warrant: The repetition of \'never\' and the private context show this is genuine expectation, not philosophy).', '(3) Re-attempt Diagnostic Question 4 with this scaffold.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_05_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -92,9 +92,9 @@ export const c12_eng_v_ch05_p3: SimDef = {
                   hint: 'If stuck, return to c12_eng_v_cbse_05_009 (Irony and Symbolism) and re-practice identifying *how*.',
                   misconception: 'Students believe "critical analysis" means finding *hidden meanings* the author deliberately buried, leading them to over-interpret (e.g.' }
           ],
-            remediations: { 'critical-analysis-means-finding-hidden': { steps: ['If a student produces unsupported interpretations: (1) Have them re-read Scene One\'s "weeds" dialogue.', 'It\'s all life." (2) Practice the "Evidence → Inference → Warrant" chain: For any claim, cite the exact line, state the.', 'Warrant: The repetition of \'never\' and the private context show this is genuine expectation, not philosophy).', '(3) Re-attempt Diagnostic Question 4 with this scaffold.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-finding-hidden': { steps: ['If a student produces unsupported interpretations: (1) Have them re-read Scene One\'s "weeds" dialogue.', 'It\'s all life." (2) Practice the "Evidence → Inference → Warrant" chain: For any claim, cite the exact line, state the.', 'Warrant: The repetition of \'never\' and the private context show this is genuine expectation, not philosophy).', '(3) Re-attempt Diagnostic Question 4 with this scaffold.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_05_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter "On the Face of It" refers to the ability.',
+          question: 'Writing skills from \'On the Face of It\' — using the text as a model.',
           hint: 'If stuck on evidence selection, review c12_eng_v_cbse_05_004 and c12_eng_v_cbse_05_006.',
           misconception: 'Students believe "writing skills based on the chapter" means memorising a ready-made character sketch or diary entry.',
           parts: [
@@ -103,18 +103,18 @@ export const c12_eng_v_ch05_p3: SimDef = {
                   hint: 'If stuck on evidence selection, review c12_eng_v_cbse_05_004 and c12_eng_v_cbse_05_006 to map.',
                   misconception: 'Students believe "writing skills based on the chapter" means memorising a ready-made character sketch or diary entry to reproduce verbatim.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['If a student cannot move beyond plot summary: 1.', '**Diagnose:** Ask them to write one PEEL paragraph on *any* trait (e.g., "Derry is observant") using only **one** quote.', 'If they narrate ("Derry sees the garden..."), stop them.', '**Remediate:** Revisit **c12_eng_v_cbse_05_004** (Character Analysis: Protagonist) and **c12_eng_v_cbse_05_006**.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['If a student cannot move beyond plot summary: 1.', '**Diagnose:** Ask them to write one PEEL paragraph on *any* trait (e.g., "Derry is observant") using only **one** quote.', 'If they narrate ("Derry sees the garden..."), stop them.', '**Remediate:** Revisit **c12_eng_v_cbse_05_004** (Character Analysis: Protagonist) and **c12_eng_v_cbse_05_006**.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_05_015', difficulty: 'standard',
-          question: 'Speaking and Listening Discussion Points for "On the Face of It" are structured.',
+          question: 'Discussion points on \'On the Face of It\' — speaking and listening around the.',
           hint: 'If stuck, revisit c12_eng_v_cbse_05_013 (Critical Thinking) to practice forming.',
           misconception: 'Students often think a \'good discussion\' means everyone agrees or that the loudest voice wins.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening Discussion Points for "On the Face of It" are structured prompts',
-                  options: ['Speaking and Listening Discussion Points for "On the Face of It" are structured prompts', '"Before You Read: Context and Background" is a pre-reading strategy that provides', 'Plot and narrative structure refers to the organization of events in a literary work,', 'Setting in drama refers to the time, place, and physical environment where the action'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'On the Face of It\'',
+                  options: ['Discussion points on \'On the Face of It\'', '\'On the Face of It\' (Vistas, ch', 'The plot/narrative arc of \'On the Face of It\'', 'The setting of \'On the Face of It\''],
                   hint: 'If stuck, revisit c12_eng_v_cbse_05_013 (Critical Thinking) to practice forming interpretive claims.',
                   misconception: 'Students often think a \'good discussion\' means everyone agrees or that the loudest voice wins.' }
           ],
-            remediations: { 'a-good-discussion-means-everyone': { steps: ['If a student dominates or gives only factual answers: (1) Pause the group and model a \'paraphrase-then-add\' turn using.', 'That connects to Y in Scene 2 where..." (2) Assign roles: \'Evidence Finder\', \'Devil\'s Advocate\', \'Summarizer\'.', '(3) Re-run the same discussion point with a 2-minute silent thinking time before speaking.', '(4) Debrief: "What changed when you listened first?"'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-good-discussion-means-everyone': { steps: ['If a student dominates or gives only factual answers: (1) Pause the group and model a \'paraphrase-then-add\' turn using.', 'That connects to Y in Scene 2 where..." (2) Assign roles: \'Evidence Finder\', \'Devil\'s Advocate\', \'Summarizer\'.', '(3) Re-run the same discussion point with a 2-minute silent thinking time before speaking.', '(4) Debrief: "What changed when you listened first?"'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -19,7 +19,7 @@ export const c11_hin_ar_ch03_p2: SimDef = {
         hook: 'The Nayi Kahani writer makes the labour of writing itself the story — doubt, ghosts, landlords and all.',
     },
     teaching: [
-        { title: 'पाठ 3 — गौण विषय', text: 'गौण विषय (Sub-theme) वह सहायक कथ्य-तत्व है जो कृति के मुख्य विषय के समानांतर चलता हुआ, उसे विस्तार, गहराई, यथार्थपरकता और बहुआयामिता प्रदान करता है तथा पात्रों के आंतरिक द्वंद्व या सामाजिक परिवेश को.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 3 — गौण विषय', text: '\'वीं के साथ बिते लम्हे\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_03_007', title: 'Your mission',
@@ -28,11 +28,13 @@ export const c11_hin_ar_ch03_p2: SimDef = {
         context: 'Track a first creative attempt through its chaos — the stage, the mix-up of two actors as one \'भूत\' — and ask why the imperfection is the point.',
         labels: ['पाठ 3 — गौण', 'पाठ 3 — साहित्यिक', 'पाठ 3 — पदावली', 'पाठ 3 — व्याकरण', 'पाठ 3 — बोध-प्रश्न'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c11_hin_ar_cbse_03_008', title: 'Identify each idea',
-          dissect: { specimen: 'पाठ 3 · Part 2/3', spots: [
-            { id: 's1', label: '3 -', prompt: 'Which idea is this? — पाठ में भाषा-प्रयोग का अर्थ है किसी रचना में प्रयुक्त शब्दावली (शब्द-चयन), वाक्य-संरचना.', answer: '3 -', options: ['3 -', '3 - -'] },
-            { id: 's2', label: '3 - -', prompt: 'Which idea is this? — **वस्तुनिष्ठ प्रश्न** वे हैं जिनका उत्तर पाठ में स्पष्टतः लिखे तथ्यों, घटनाओं, पात्रों या.', answer: '3 - -', options: ['3 - -', '3 -'] }
-          ] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_03_009', title: 'पाठ 3 — साहित्यिक युक्तियाँ: विरोधाभास और प्रतीक',
+          caseStudy: { intro: '\'वीं के साथ बिते लम्हे\' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।',
+            decisions: [{ prompt: 'Define situational irony and give a one-sentence example from daily life (not from the textbook).', options: [
+                { text: 'Situational irony occurs when the outcome of a situation is the opposite of what was', outcome: 'Situational irony occurs when the outcome of a situation is the opposite of what was expected.' },
+                { text: 'irony is when something funny happens', outcome: 'Not quite — Students often treat *any* unexpected event as irony, ignoring the necessity of a clear.', reveals: 'students-often-treat-any-unexpected' },
+                { text: 'the pen *is like* a sword', outcome: 'Not quite — Students often treat *any* unexpected event as irony, ignoring the necessity of a clear.', reveals: 'students-often-treat-any-unexpected' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_03_007', title: 'Use it in the wild',
           caseStudy: { intro: 'Your literary magazine plans a feature on \'writers writing about writing.\' A junior editor suggests Ikappiya\'s story but calls it \'a plain autobiography of a struggling writer — Nayi Kahani is just a label to memorise for exams.\'',
             decisions: [{ prompt: 'How do you pitch the story properly?', options: [
@@ -52,67 +54,82 @@ export const c11_hin_ar_ch03_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_03_007', difficulty: 'standard',
-          question: 'गौण विषय (Sub-theme) वह सहायक कथ्य-तत्व है जो कृति के मुख्य विषय के समानांतर.',
+          question: '\'वीं के साथ बिते लम्हे\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
           hint: 'यदि अटके तो \'मुख्य विषय और संदेश\' (नोड 006) और \'पात्र-चित्रण\' (नोड 004, 005) दोबारा पढ़ें.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "गौण विषय = उपकथानक (sub-plot)" और दोनों को समानार्थी समझकर उत्तर लिख देते हैं।.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme) वह सहायक कथ्य-तत्व है जो कृति के मुख्य विषय के समानांतर चलता हुआ,',
-                  options: ['गौण विषय (Sub-theme) वह सहायक कथ्य-तत्व है जो कृति के मुख्य विषय के समानांतर चलता हुआ,', '"पृष्ठभूमि और रचनाकार परिचय" (Background and Author Introduction) is the foundational', 'कथानक (Plot) कृति में घटित घटनाओं का कारण-परिणाम (Cause-Effect) पर आधारित तार्किक क्रम', 'पाठ्य-परिवेश (Setting/Context) किसी रचना में वर्णित वह समग्र स्पेशियो-टेम्पोरल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वीं के साथ बिते लम्हे\' के गौण विषय',
+                  options: ['\'वीं के साथ बिते लम्हे\' के गौण विषय', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वीं के साथ बिते लम्हे\' का कथानक', '\'वीं के साथ बिते लम्हे\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके तो \'मुख्य विषय और संदेश\' (नोड 006) और \'पात्र-चित्रण\' (नोड 004, 005) दोबारा पढ़ें — विशेष.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि "गौण विषय = उपकथानक (sub-plot)" और दोनों को समानार्थी समझकर उत्तर लिख देते हैं। **गलत तर्क:**.' }
           ],
             remediations: { 'sub-plot-sub-plot': { steps: ['**स्पष्टीकरण (2 मिनट):** बोर्ड पर लिखें — "उपकथानक = *क्या होता है* (घटनाएँ); गौण विषय = *क्या अर्थ निकलता है*.', '**अभ्यास (5 मिनट):** पाठ 3 से 3 प्रसंग दें, छात्र से प्रत्येक के लिए लिखवाएं: (क) घटना/उपकथानक, (ख) उससे जुड़ा गौण.', '**उत्तर-लेखन (10 मिनट):** एक बोर्ड-शैली प्रश्न दें: "पाठ 3 में किन्हीं दो उपकथानकों के माध्यम से उभरे गौण विषयों की.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_03_008', difficulty: 'standard',
-          question: '**बिंब (Imagery)** वह साहित्यिक युक्ति है जिसमें कवि/लेखक शब्दों के माध्यम से.',
+          question: '\'वीं के साथ बिते लम्हे\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
           hint: 'यदि अटका हुआ महसूस हो तो **\'पाठ 3 — मुख्य विषय और संदेश\' (c11_hin_ar_cbse_03_006)**.',
           misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि **हर तुलना रूपक होती है** और **बिंब केवल \'सुंदर वर्णन\' के लिए होते हैं**। **गलत.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery)** वह साहित्यिक युक्ति है जिसमें कवि/लेखक शब्दों के माध्यम से पाठक के मन',
-                  options: ['**बिंब (Imagery)** वह साहित्यिक युक्ति है जिसमें कवि/लेखक शब्दों के माध्यम से पाठक के मन', '"पृष्ठभूमि और रचनाकार परिचय" (Background and Author Introduction) is the foundational', 'कथानक (Plot) कृति में घटित घटनाओं का कारण-परिणाम (Cause-Effect) पर आधारित तार्किक क्रम', 'पाठ्य-परिवेश (Setting/Context) किसी रचना में वर्णित वह समग्र स्पेशियो-टेम्पोरल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वीं के साथ बिते लम्हे\' में बिंब (imagery)',
+                  options: ['\'वीं के साथ बिते लम्हे\' में बिंब (imagery)', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वीं के साथ बिते लम्हे\' का कथानक', '\'वीं के साथ बिते लम्हे\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटका हुआ महसूस हो तो **\'पाठ 3 — मुख्य विषय और संदेश\' (c11_hin_ar_cbse_03_006)** दोहराएं और.',
                   misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि **हर तुलना रूपक होती है** और **बिंब केवल \'सुंदर वर्णन\' के लिए होते हैं**। **गलत तर्क का उदाहरण**.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**पृथक्करण अभ्यास**: छात्र को 10 वाक्य दें (मिश्रित: उपमा, रूपक, केवल बिंब, साधारण कथन)। उससे कहें: *"केवल वही वाक्य.', '**इंद्रिय-मानचित्रण (Sensory Mapping)**: एक काव्यांश देकर कहें: *"हर पंक्ति के आगे लिखो: कौन-सी इंद्रिय जागी?', '(आँख/कान/नाक/त्वचा/जिह्वा)"* — इससे बिंब का **इंद्रिय-आधार** पक्का होगा। 3.', '**कार्य-प्रदर्शन (Function Demo)**: वही रूपक ("क्रोध भट्टी है") लेकर पूछें: *"अगर \'भट्टी\' की जगह \'आग\' रख दें तो क्या.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_03_009', difficulty: 'standard',
-          question: '**विरोधाभास (Paradox)** एक ऐसा कथन है जो पहली दृष्टि में असंगत या आत्म-विरोधी.',
-          hint: 'यदि अटके हों तो **c11_hin_ar_cbse_03_008 (बिंब और रूपक)** के \'कार्यविधि\' खंड को दोहराएँ.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **प्रतीक = रूपक (Metaphor)** और दोनों का उपयोग विनिमेय (interchangeable) है।.',
+          question: '\'वीं के साथ बिते लम्हे\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+          hint: 'Revisit the plot-summary node (c11_hin_ar_cbse_03_002) for event order, and the.',
+          misconception: 'Students often treat *any* unexpected event as irony, ignoring the necessity of a clear expectation-reality clash.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox)** एक ऐसा कथन है जो पहली दृष्टि में असंगत या आत्म-विरोधी लगता है,',
-                  options: ['**विरोधाभास (Paradox)** एक ऐसा कथन है जो पहली दृष्टि में असंगत या आत्म-विरोधी लगता है,', '"पृष्ठभूमि और रचनाकार परिचय" (Background and Author Introduction) is the foundational', 'कथानक (Plot) कृति में घटित घटनाओं का कारण-परिणाम (Cause-Effect) पर आधारित तार्किक क्रम', 'पाठ्य-परिवेश (Setting/Context) किसी रचना में वर्णित वह समग्र स्पेशियो-टेम्पोरल,'],
-                  hint: 'यदि अटके हों तो **c11_hin_ar_cbse_03_008 (बिंब और रूपक)** के \'कार्यविधि\' खंड को दोहराएँ — विशेषकर.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **प्रतीक = रूपक (Metaphor)** और दोनों का उपयोग विनिमेय (interchangeable) है। **गलत तर्क का.' }
+                { id: 'a', prompt: 'Compare the irony in the pen-failure episode (opening) with the irony in the doll episode (middle).', answer: 'The opening uses situational irony (tool fails the professional)',
+                  options: ['The opening uses situational irony (tool fails the professional)', 'situational', 'internal conflict', 'the pen *is like* a sword'],
+                  hint: 'Revisit the plot-summary node (c11_hin_ar_cbse_03_002) for event order, and the imagery/metaphor.',
+                  misconception: 'Students often treat *any* unexpected event as irony, ignoring the necessity of a clear expectation-reality clash.' }
           ],
-            remediations: { 'metaphor-interchangeable': { steps: ['**चरण 1 — भेद स्पष्ट करें:** छात्र से कहें — "एक वाक्य लिखो जो खुद से लड़ता लगे (पैराडॉक्स) और एक दो-शब्दों का युग्म.', '**चरण 2 — प्रतीक बनाम रूपक:** पाठ से एक रूपक (जैसे "जीवन यात्रा है") और एक प्रतीक (जैसे "बार-बार आने वाला रेलगाड़ी का.', 'कौन-सा बार-बार आया और अर्थ बदलता गया?" 3.', '**चरण 3 — मिनी-व्यायाम:** छात्र को एक वस्तु (चाबी, खिड़की, पुराना पत्र) देकर कहें: "इसे तीन अलग-अलग प्रसंगों में तीन.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-any-unexpected': { steps: ['**Isolate the expectation**: Have the student complete the sentence "The writer expected ______, but ______ happened".', '**Symbol hunt**: Give a list of 5 recurring objects (pen, doll, storm, portraits, lighthouse).', 'For each, ask: "If this object were a message, what would it say?" 3.', '**Type-sorting**: Provide 4 short scenarios (2 ironic, 2 coincidental).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_03_009', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often treat *any* unexpected event as irony, ignoring the necessity of a clear expectation-reality clash.',
+          parts: [
+                { id: 'a', prompt: 'Critique this student statement: "The pen is a symbol of writing, so the whole story is just about writing." Is this a sufficient symbolic reading? Justify.', answer: 'No, it is reductive',
+                  options: ['No, it is reductive', 'the pen *is like* a sword'],
+                  hint: 'Revisit the plot-summary node (c11_hin_ar_cbse_03_002) for event order, and the imagery/metaphor.',
+                  misconception: 'Students often treat *any* unexpected event as irony, ignoring the necessity of a clear expectation-reality clash.' },
+                { id: 'b', prompt: 'Write a 4-line micro-story that uses *both* situational irony and a symbol (choose any object) to convey the theme "unexpected help."', answer: 'Example: "The lighthouse keeper forgot to light the lamp',
+                  options: ['Example: "The lighthouse keeper forgot to light the lamp', 'the pen *is like* a sword'],
+                  hint: 'Revisit the plot-summary node (c11_hin_ar_cbse_03_002) for event order, and the imagery/metaphor.',
+                  misconception: 'Students often treat *any* unexpected event as irony, ignoring the necessity of a clear expectation-reality clash.' }
+          ],
+            remediations: { 'students-often-treat-any-unexpected': { steps: ['**Isolate the expectation**: Have the student complete the sentence "The writer expected ______, but ______ happened".', '**Symbol hunt**: Give a list of 5 recurring objects (pen, doll, storm, portraits, lighthouse).', 'For each, ask: "If this object were a message, what would it say?" 3.', '**Type-sorting**: Provide 4 short scenarios (2 ironic, 2 coincidental).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_03_010', difficulty: 'standard',
-          question: 'पदावली के अंतर्गत \'मुख्य शब्द\' वे विशिष्ट शब्द या पद होते हैं जो किसी रचना के.',
-          hint: 'यदि अटके तो **नोड 03_006 (मुख्य विषय और संदेश)** पर लौटें — थीम स्पष्ट होते ही शब्द स्वयं.',
-          misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि \'मुख्य शब्द\' वे ही हैं जो **पाठ में सबसे अधिक बार आए हों (Highest Frequency)** या.',
+          question: '\'वीं के साथ बिते लम्हे\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी.',
+          hint: 'If stuck, re-read pages 32-34 (the prelude to premiere) and 35-38 (the premiere night).',
+          misconception: 'Students treat the \'kCn&Nfo\' list as a glossary to memorize (word → single Hindi meaning) rather than as textual.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली के अंतर्गत \'मुख्य शब्द\' वे विशिष्ट शब्द या पद होते हैं जो किसी रचना के केंद्रीय',
-                  options: ['पदावली के अंतर्गत \'मुख्य शब्द\' वे विशिष्ट शब्द या पद होते हैं जो किसी रचना के केंद्रीय', '"पृष्ठभूमि और रचनाकार परिचय" (Background and Author Introduction) is the foundational', 'कथानक (Plot) कृति में घटित घटनाओं का कारण-परिणाम (Cause-Effect) पर आधारित तार्किक क्रम', 'पाठ्य-परिवेश (Setting/Context) किसी रचना में वर्णित वह समग्र स्पेशियो-टेम्पोरल,'],
-                  hint: 'यदि अटके तो **नोड 03_006 (मुख्य विषय और संदेश)** पर लौटें — थीम स्पष्ट होते ही शब्द स्वयं \'चमकने\'.',
-                  misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि \'मुख्य शब्द\' वे ही हैं जो **पाठ में सबसे अधिक बार आए हों (Highest Frequency)** या जो **सबसे कठिन/तत्सम.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वीं के साथ बिते लम्हे\' की पदावली',
+                  options: ['\'वीं के साथ बिते लम्हे\' की पदावली', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वीं के साथ बिते लम्हे\' का कथानक', '\'वीं के साथ बिते लम्हे\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, re-read pages 32-34 (the prelude to premiere) and 35-38 (the premiere night) - these.',
+                  misconception: 'Students treat the \'kCn&Nfo\' list as a glossary to memorize (word → single Hindi meaning) rather than as textual anchors requiring.' }
           ],
-            remediations: { 'highest-frequency-hardest-vocabulary-important': { steps: ['**चरणबद्ध सुधार (Remediation):** 1.', '**\'आवृत्ति भ्रम\' तोड़ें:** छात्र को पाठ के 2 पैराग्राफ दें और कहें: "सबसे ज्यादा आने वाले 5 शब्द छाँटो। फिर बताओ: कौन.', '**\'प्रसंग-चश्मा\' अभ्यास:** एक ही शब्द (जैसे \'आग\') के 3 वाक्य दें: (क) "चूल्हे में आग जलाओ।" (ख) "उसके क्रोध की आग भड़क.', '**\'थीम-मैपिंग\':** छात्र से कहें: "पाठ का केंद्रीय विषय (नोड 03_006) एक वाक्य में लिखो। अब पाठ से 3 शब्द चुनो जो इस.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-the-kcn-nfo': { steps: ['Have the student locate ONE word (e.g., \'unkjn\') in the text using Ctrl+F or manual scan.', 'Read 3 sentences before and after.', 'Ask: "What is the SPECIFIC situation? What does the word DO here - name, describe, judge, metaphorize?"', 'Compare with dictionary meaning.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_03_011', difficulty: 'standard',
-          question: 'पाठ में भाषा-प्रयोग का अर्थ है किसी रचना में प्रयुक्त शब्दावली (शब्द-चयन).',
+          question: '\'वीं के साथ बिते लम्हे\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य.',
           hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_03_010 (पदावली: मुख्य शब्द) पर लौटकर.',
           misconception: 'छात्र समझते हैं कि \'भाषा-प्रयोग\' का अर्थ केवल **शब्दों की सूची बनाना** (तत्सम, तद्भव, देशज गिनना) या **व्याकरण दोष.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग का अर्थ है किसी रचना में प्रयुक्त शब्दावली (शब्द-चयन), वाक्य-संरचना',
-                  options: ['पाठ में भाषा-प्रयोग का अर्थ है किसी रचना में प्रयुक्त शब्दावली (शब्द-चयन), वाक्य-संरचना', '"पृष्ठभूमि और रचनाकार परिचय" (Background and Author Introduction) is the foundational', 'कथानक (Plot) कृति में घटित घटनाओं का कारण-परिणाम (Cause-Effect) पर आधारित तार्किक क्रम', 'पाठ्य-परिवेश (Setting/Context) किसी रचना में वर्णित वह समग्र स्पेशियो-टेम्पोरल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वीं के साथ बिते लम्हे\' में भाषा-प्रयोग',
+                  options: ['\'वीं के साथ बिते लम्हे\' में भाषा-प्रयोग', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वीं के साथ बिते लम्हे\' का कथानक', '\'वीं के साथ बिते लम्हे\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_03_010 (पदावली: मुख्य शब्द) पर लौटकर शब्द-वर्गीकरण का.',
                   misconception: 'छात्र समझते हैं कि \'भाषा-प्रयोग\' का अर्थ केवल **शब्दों की सूची बनाना** (तत्सम, तद्भव, देशज गिनना) या **व्याकरण दोष ढूँढ़ना** (वर्तनी, संधि).' }
           ],
             remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें — "पाठ 3 खोलो और पृष्ठ 12-13 पर नायक के दो संवाद ढूँढ़ो: एक जहाँ वह गुस्से में है, एक जहाँ वह उदास.', 'कोई मुहावरा है?" चरण 3: एक टेबल बनवाएँ — कॉलम: प्रसंग / क्रिया-रूप / वाक्य-लंबाई / मुहावरा / प्रभाव। चरण 4: छात्र खुद.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_03_012', difficulty: 'standard',
-          question: '**वस्तुनिष्ठ प्रश्न** वे हैं जिनका उत्तर पाठ में स्पष्टतः लिखे तथ्यों, घटनाओं.',
+          question: '\'वीं के साथ बिते लम्हे\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
           hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_ar_cbse_03_006 (मुख्य विषय और संदेश)** और.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **"आशय-सूचक प्रश्न का उत्तर = पाठ का सारांश (summary)"**। वे सोचते हैं कि.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**वस्तुनिष्ठ प्रश्न** वे हैं जिनका उत्तर पाठ में स्पष्टतः लिखे तथ्यों, घटनाओं, पात्रों या',
-                  options: ['**वस्तुनिष्ठ प्रश्न** वे हैं जिनका उत्तर पाठ में स्पष्टतः लिखे तथ्यों, घटनाओं, पात्रों या', '"पृष्ठभूमि और रचनाकार परिचय" (Background and Author Introduction) is the foundational', 'कथानक (Plot) कृति में घटित घटनाओं का कारण-परिणाम (Cause-Effect) पर आधारित तार्किक क्रम', 'पाठ्य-परिवेश (Setting/Context) किसी रचना में वर्णित वह समग्र स्पेशियो-टेम्पोरल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वीं के साथ बिते लम्हे\' के वस्तुनिष्ठ प्रश्न',
+                  options: ['\'वीं के साथ बिते लम्हे\' के वस्तुनिष्ठ प्रश्न', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वीं के साथ बिते लम्हे\' का कथानक', '\'वीं के साथ बिते लम्हे\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटका हुआ महसूस हो तो **c11_hin_ar_cbse_03_006 (मुख्य विषय और संदेश)** और.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **"आशय-सूचक प्रश्न का उत्तर = पाठ का सारांश (summary)"**। वे सोचते हैं कि प्रसंग दोहराना ही.' }
           ],

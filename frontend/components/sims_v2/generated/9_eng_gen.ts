@@ -708,13 +708,13 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Theme Analysis Of \"Following One's Passion",
+    "title": "Theme: Following One's Passion Against",
     "text": "Theme analysis of \"Following One's Passion Against Family Expectations\" involves identifying how the central conflict between individual desire and familial pressure is developed through character choices, plot events, and dialogue, and explaining what the",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Traditional Crafts And Vocations Refer To",
+    "title": "Traditional Crafts And Vocations",
     "text": "Traditional crafts and vocations refer to skilled occupations passed down through generations within a community, involving specialized knowledge of local materials, techniques, and cultural symbolism.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -738,7 +738,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Conflict Between Individual Desire And",
+    "title": "Conflict: Individual Desire vs Family",
     "text": "Conflict between individual desire and family/community pressure refers to the struggle a character faces when their personal passion or ambition clashes with the expectations, traditions, or practical concerns imposed by their family or society.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1302,15 +1302,13 @@ export const C9_ENG_GEN: SimDef[] = [
  },
  {
   "id": "gen_c9_eng_ch03",
-  "title": "A Text Summary Of An",
+  "title": "A Text Summary Of An Expository",
   "subtitle": "English · Chapter 3",
   "classLevel": 9,
   "mode": "senior",
   "subject": "english",
-  "topic": "A Text Summary Of An",
-  "chapters": [
-   "English Ch3: A Text Summary Of An"
-  ],
+  "topic": "A Text Summary Of An Expository",
+  "chapters": ["English Ch3: A Text Summary Of An Expository"],
   "nodeIds": [
    "c9_engl_ch3_1",
    "c9_engl_ch3_2",
@@ -1330,7 +1328,7 @@ export const C9_ENG_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is A Text Summary Of An more about facts, or about reasoning?",
+   "question": "Is A Text Summary Of An Expository more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -1341,7 +1339,7 @@ export const C9_ENG_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "A Text Summary Of An",
+    "title": "A Text Summary Of An Expository",
     "text": "A text summary of an expository passage like \"Evolution of the Pankha\" is a concise, objective restatement of the text's central ideas — specifically the chronological development, key materials, and cultural significance of the hand fan — written in the",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1353,7 +1351,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Regional Variations In Pankhas Refer To",
+    "title": "Regional Variations In Pankhas",
     "text": "Regional variations in pankhas refer to the distinct differences in design, materials, construction techniques, and cultural symbolism of hand fans produced in Rajasthan and Gujarat, shaped by each region's unique climate, available resources, aesthetic",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1365,7 +1363,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Theme \"Traditional Crafts And Modern",
+    "title": "Theme: Traditional Crafts and Modern",
     "text": "The theme \"Traditional Crafts and Modern Adaptation\" refers to the central idea that indigenous crafts (like the pankha) evolve by integrating contemporary designs, materials, or market demands while retaining their cultural essence, demonstrating how",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1395,7 +1393,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Values Of Preserving Indigenous Crafts And",
+    "title": "Values Of Preserving Indigenous Crafts",
     "text": "Values of preserving indigenous crafts and heritage refer to the ethical, cultural, and economic reasons for protecting traditional craft practices — such as pankha (hand fan) making — including the preservation of cultural identity, transmission of",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2071,7 +2069,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "A Text Summary Of An mastered! 🎯",
+  "successLine": "A Text Summary mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2134,13 +2132,13 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Theme Of Caring For The Elderly In",
+    "title": "Theme: Caring for the Elderly",
     "text": "The theme of caring for the elderly in \"Vitamin-M\" refers to the text's central message about how grandchildren's love, patience, and attention serve as emotional nourishment for elderly family members — just as vitamins nourish the body — and how this care",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Theme Of Memory Loss And",
+    "title": "Theme Of Memory Loss",
     "text": "The theme of memory loss and aging explores how progressive cognitive decline affects an elderly person's identity, autonomy, and relationships, while simultaneously revealing the family's emotional journey from frustration to compassionate understanding.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2170,7 +2168,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Empathy, Patience, And Respect For The",
+    "title": "Values: Empathy, Patience and Respect",
     "text": "Empathy, patience, and respect for the elderly are interconnected human values that involve understanding the emotional and physical challenges of aging (empathy), tolerating repetitive or slow behaviors without frustration (patience), and acknowledging the",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2689,13 +2687,13 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Resilience And Overcoming Adversity As a",
+    "title": "Theme: Resilience and Overcoming Adversity",
     "text": "Resilience and Overcoming Adversity as a literary theme refers to the central message that individuals can grow stronger through persistent effort and adaptive coping when facing significant physical, emotional, or societal obstacles, rather than merely",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Theme \"Redefining Possibilities For",
+    "title": "Theme: Redefining Possibilities",
     "text": "The theme \"Redefining Possibilities for Differently-Abled Athletes\" refers to the central idea that physical disability does not define the limits of human potential in sports; instead, athletes like Dr.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2731,13 +2729,13 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Values Of Determination, Courage, And",
+    "title": "Values: Determination, Courage and Breaking",
     "text": "Values of determination, courage, and breaking stereotypes as expressed in the Paralympic movement refer to the moral and ethical principles demonstrated by athletes with disabilities — specifically, the will to overcome physical and social barriers",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Structured Discussion On Inclusion And",
+    "title": "Structured Discussion On Inclusion",
     "text": "A structured discussion on inclusion and accessibility in sports examines how physical, social, and attitudinal barriers prevent persons with disabilities from participating equitably, and evaluates solutions like adaptive equipment, policy changes (e.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3409,7 +3407,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Theme Of Individual Identity Vs",
+    "title": "Theme: Individual Identity vs Family Legacy",
     "text": "The theme of Individual Identity vs Family Legacy in Music explores the tension between a person's desire to define their own artistic voice and the expectations, traditions, and reputation inherited from their musical lineage.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3439,7 +3437,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Values Of Pursuing Passion And",
+    "title": "Values Of Pursuing Passion",
     "text": "The values of pursuing passion and respecting tradition refer to the ethical and emotional principles that guide individuals to follow their personal calling while honoring the cultural heritage and familial legacy they inherit.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4461,13 +4459,13 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Theme \"Pursuing Dreams With Conviction And",
+    "title": "Theme: Pursuing Dreams with Conviction",
     "text": "The theme \"Pursuing Dreams with Conviction and Sacrifice\" refers to the central idea in the mother's letter that achieving a meaningful dream requires unwavering belief in oneself (conviction) and the willingness to give up comfort, security, or alternative",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "The Theme Of \"Effort, Investment",
+    "title": "Theme: Effort, Investment and Long-Term",
     "text": "The theme of \"Effort, Investment and Long-Term Commitment\" in this chapter refers to the mother's central argument that achieving a dream is not a single act of wishing but a continuous process of dedicating time, energy, and resources (investment) over an",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"

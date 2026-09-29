@@ -6,13 +6,13 @@ import C11_EconomicsHumanWantsClassificationSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_economicshumanwantsclassificationsim: SimDef = {
     id: 'v3w_c11_economicshumanwantsclassificationsim',
-    title: 'Human Wants Classification',
+    title: 'Sustainable Development: Definition and Brundtland Report',
     subtitle: 'This node covers the conceptual definition of sustainable development, the Brundtland.',
     classLevel: 11, subject: 'economics', topic: 'Sustainable Development: Definition and Brundtland Report',
     chapters: [],
     nodeIds: ['c11_eco_cbse_07_008', 'c11_eco_cbse_07_009', 'c11_eco_cbse_07_001', 'c11_eco_cbse_07_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a village sarpanch in Rajasthan deciding whether to allow a water-intensive crop (sugarcane).', goal: 'Master Human Wants Classification.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a village sarpanch in Rajasthan deciding whether to allow a water-intensive crop (sugarcane).', goal: 'Master Sustainable Development: Definition and Brundtland Report.' },
     discovery: {
         question: 'Compare the Brundtland definition with Edward Barbier\'s definition ("increasing the material standard of living of the poor at the grass root level...',
         options: ['Brundtland sets the ethical principle (intergenerational equity, needs focus)', 'they are the same', 'needs of the present'],
@@ -66,14 +66,14 @@ export const w_c11_economicshumanwantsclassificationsim: SimDef = {
             { text: 'Classification: >100% → Over-exploited block.', faded: true, blankAnswer: 'Stage of groundwater extraction = 105.3% (Over-exploited.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_eco_cbse_07_009', title: 'Identify each idea',
-          dissect: { specimen: 'Human Wants Classification', spots: [
+          dissect: { specimen: 'Sustainable Development: Definition and Brundtland Report', spots: [
             { id: 's1', label: 'Sustainable development is a development', prompt: 'Which idea is this? — Sustainable development is a development paradigm that meets the needs of the present.', answer: 'Sustainable development is a development', options: ['Sustainable development is a development', 'Sustainable development strategies are specific', 'Environment is the total planetary', 'Water resources in the Indian'] },
             { id: 's2', label: 'Sustainable development strategies are specific', prompt: 'Which idea is this? — Sustainable development strategies are specific action-oriented approaches (such as.', answer: 'Sustainable development strategies are specific', options: ['Sustainable development strategies are specific', 'Sustainable development is a development', 'Environment is the total planetary', 'Water resources in the Indian'] },
             { id: 's3', label: 'Environment is the total planetary', prompt: 'Which idea is this? — Environment is the total planetary inheritance comprising the totality of all biotic.', answer: 'Environment is the total planetary', options: ['Environment is the total planetary', 'Sustainable development is a development', 'Sustainable development strategies are specific', 'Water resources in the Indian'] },
             { id: 's4', label: 'Water resources in the Indian', prompt: 'Which idea is this? — Water resources in the Indian economic context refer to the stock and flow of freshwater.', answer: 'Water resources in the Indian', options: ['Water resources in the Indian', 'Sustainable development is a development', 'Sustainable development strategies are specific', 'Environment is the total planetary'] }
           ] } }
     ],
-    explore: { component: C11_EconomicsHumanWantsClassificationSim, prompt: 'Explore the interactive — Human Wants Classification' },
+    explore: { component: C11_EconomicsHumanWantsClassificationSim, prompt: 'Explore the interactive — Sustainable Development: Definition and Brundtland Report' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eco_cbse_07_008', difficulty: 'standard',
           question: 'Sustainable development is a development paradigm that meets the needs of the.',

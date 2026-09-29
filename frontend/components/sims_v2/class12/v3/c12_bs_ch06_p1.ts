@@ -96,8 +96,8 @@ export const c12_bs_ch06_p1: SimDef = {
                   options: ['Correct answer: Staffing is a line function', 'HR does staffing, managers don’t'],
                   hint: 'Revisit Class 11 Business Studies Chapter 1 (Nature and Purpose of Business) — specifically the.',
                   misconception: 'Students often equate “staffing” with “recruitment” only. They write “staffing means hiring people” and ignore the seven subsequent steps.' },
-                { id: 'b', prompt: 'A textile company in Surat has 200 workers. Due to a sudden export order, they need 50 more workers for three months.', answer: 'Step: Recruitment (external source',
-                  options: ['Step: Recruitment (external source', 'Selection'],
+                { id: 'b', prompt: 'A textile company in Surat has 200 workers. Due to a sudden export order, they need 50 more workers for three months.', answer: 'Recruitment (external source',
+                  options: ['Recruitment (external source', 'Selection'],
                   hint: 'Revisit Class 11 Business Studies Chapter 1 (Nature and Purpose of Business) — specifically the.',
                   misconception: 'Students often equate “staffing” with “recruitment” only. They write “staffing means hiring people” and ignore the seven subsequent steps.' }
           ],
@@ -190,8 +190,8 @@ export const c12_bs_ch06_p1: SimDef = {
                   options: ['Preliminary screening is a low-cost, high-volume filter that eliminates clearly', 'tests are more accurate so should come first', 'you\'re hired!', 'selection decision'],
                   hint: 'Revisit c12_bs_cbse_06_004 (Recruitment) and c12_bs_cbse_06_002 (Staffing Process) to clarify the.',
                   misconception: 'Students often believe the selection process ends when the interview is over.' },
-                { id: 'c', prompt: 'A company hiring for a senior accountant position receives 200 applications. After preliminary screening, 40 candidates remain.', answer: 'Step: Selection Tests',
-                  options: ['Step: Selection Tests', 'aptitude tests', 'you\'re hired!', 'selection decision'],
+                { id: 'c', prompt: 'A company hiring for a senior accountant position receives 200 applications. After preliminary screening, 40 candidates remain.', answer: 'Selection Tests',
+                  options: ['Selection Tests', 'aptitude tests', 'you\'re hired!', 'selection decision'],
                   hint: 'Revisit c12_bs_cbse_06_004 (Recruitment) and c12_bs_cbse_06_002 (Staffing Process) to clarify the.',
                   misconception: 'Students often believe the selection process ends when the interview is over.' }
           ],

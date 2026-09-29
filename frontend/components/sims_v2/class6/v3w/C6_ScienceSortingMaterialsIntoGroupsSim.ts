@@ -6,13 +6,13 @@ import C6_ScienceSortingMaterialsIntoGroupsSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_sciencesortingmaterialsintogroupssim: SimDef = {
     id: 'v3w_c6_sciencesortingmaterialsintogroupssim',
-    title: 'Sorting Materials Into Groups',
+    title: 'What Are Materials and Why We Classify Them',
     subtitle: 'Covers the definition of materials/matter and the logic of classification based on.',
     classLevel: 6, subject: 'science', topic: 'What Are Materials and Why We Classify Them',
     chapters: [],
     nodeIds: ['c6_chemistry_ch04_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you are looking at your school bag. Why is it made of fabric or plastic, but not glass?', goal: 'Master Sorting Materials Into Groups.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you are looking at your school bag. Why is it made of fabric or plastic, but not glass?', goal: 'Master What Are Materials and Why We Classify Them.' },
     discovery: {
         question: 'What are the two essential characteristics that define anything as "matter"?',
         options: ['Matter must occupy space (volume) and have mass', 'it must be solid', 'transparent'],
@@ -31,7 +31,7 @@ export const w_c6_sciencesortingmaterialsintogroupssim: SimDef = {
                 { text: 'transparent', outcome: 'Not quite — Students often confuse "transparent" with "colorless." They might think a colored glass is opaque.', reveals: 'students-often-confuse-transparent-with' }
             ] }] } }
     ],
-    explore: { component: C6_ScienceSortingMaterialsIntoGroupsSim, prompt: 'Explore the interactive — Sorting Materials Into Groups' },
+    explore: { component: C6_ScienceSortingMaterialsIntoGroupsSim, prompt: 'Explore the interactive — What Are Materials and Why We Classify Them' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_chemistry_ch04_001', difficulty: 'standard',
           question: 'Materials are substances used to create objects, and matter is anything that.',

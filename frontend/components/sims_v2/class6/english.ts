@@ -71,7 +71,7 @@ export const c6EngRiver: SimDef = {
         { type: 'subpart', question: 'Apply what you learned in The Day the River Spoke:', hint: 'Work through each part step by step.', misconception: 'Students often think the setting is only the weather or the scenery (e.g., it is sunny). They fail to real', parts: [
             { id: 'a', prompt: 'What is the plot of a story?', answer: 'The plot is the sequence of events that tell the story, usua', hint: 'Think: Story: The Day the River Spoke -- Plot and', misconception: 'Students often think the setting is only the weather or the scenery (e.g., it is sunny). They fail to real', workedExample: ['1','Ask the student to describe a place where they feel calm','2'] },
             { id: 'b', prompt: 'Why is the riverbank in this story considered a liminal or border space?', answer: 'It is a boundary between the familiar village and the vast,', hint: 'Think: Story: The Day the River Spoke -- Plot and', misconception: 'Students often think the setting is only the weather or the scenery (e.g., it is sunny). They fail to real', workedExample: ['1','Ask the student to describe a place where they feel calm','2'] },
-            { id: 'c', prompt: 'If the story took place in a crowded classroom instead of a quiet riverbank, how might Jahnavi\'s experience ch', answer: 'Steps: 1', hint: 'Think: Story: The Day the River Spoke -- Plot and', misconception: 'Students often think the setting is only the weather or the scenery (e.g., it is sunny). They fail to real', workedExample: ['1','Ask the student to describe a place where they feel calm','2'] },
+            { id: 'c', prompt: 'If the story took place in a crowded classroom instead of a quiet riverbank, how might Jahnavi\'s experience change?', answer: 'She would lose the quiet place where she feels heard and free', hint: 'Think: Story: The Day the River Spoke -- Plot and', misconception: 'Students often think the setting is only the weather or the scenery (e.g., it is sunny). They fail to real', workedExample: ['1','Ask the student to describe a place where they feel calm','2'] },
             { id: 'd', prompt: 'Analyze the relationship between the moment of despair and the river speaking. What does this tell us abou', answer: 'The despair is the inciting incident, providing the motiva', hint: 'Think: Story: The Day the River Spoke -- Plot and', misconception: 'Students often think the setting is only the weather or the scenery (e.g., it is sunny). They fail to real', workedExample: ['1','Ask the student to describe a place where they feel calm','2'] }
         ] },
     ],
@@ -188,7 +188,7 @@ export const c6EngInvention: SimDef = {
           workedExample: ['Anand fails.', 'He keeps trying.', 'Theme: curiosity triumphs.'] },
         { type: 'subpart', question: 'Analyze the humour:',
           parts: [
-            { id: 'a', prompt: 'What causes the comedy?', answer: 'the gap between vision and reality', hint: 'Think step by step!', misconception: 'Each part builds on the last — check your reasoning.' },
+            { id: 'a', prompt: 'What causes the comedy?', answer: 'the gap between vision and reality', options: ['the gap between vision and reality', 'the family buying new gadgets', 'Anand getting good marks'], hint: 'Think step by step!', misconception: 'Each part builds on the last — check your reasoning.' },
             { id: 'b', prompt: 'How does Anand react to failure?', answer: 'plans the next invention', hint: 'Think step by step!', misconception: 'Each part builds on the last — check your reasoning.' },
           ],
           hint: 'Think step by step!', misconception: 'Each part builds on the last — check your reasoning.' },
@@ -309,7 +309,7 @@ export const c6EngSoldiers: SimDef = {
           workedExample: ['Homage = respect.', 'Soldiers = sacrifice.', 'Purpose: honor + thank.'] },
         { type: 'subpart', question: 'Understand patriotism:',
           parts: [
-            { id: 'a', prompt: 'What does patriotism mean here?', answer: 'respect for those who serve the nation', hint: 'Think step by step!', misconception: 'Each part builds on the last — check your reasoning.' },
+            { id: 'a', prompt: 'What does patriotism mean here?', answer: 'respect for those who serve the nation', options: ['respect for those who serve the nation', 'interest in war movies', 'love of picnic outings'], hint: 'Think step by step!', misconception: 'Each part builds on the last — check your reasoning.' },
             { id: 'b', prompt: 'What makes the tone appropriate?', answer: 'solemn and grateful', hint: 'Think step by step!', misconception: 'Each part builds on the last — check your reasoning.' },
           ],
           hint: 'Think step by step!', misconception: 'Each part builds on the last — check your reasoning.' },

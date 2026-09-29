@@ -6,13 +6,13 @@ import C11_BiotechBiomoleculesCBSESim from '../../../simulations/c6_12_new/C11_B
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biotechbiomoleculescbsesim: SimDef = {
     id: 'v3w_c11_biotechbiomoleculescbsesim',
-    title: 'Biomolecules CBSE',
+    title: 'Lipids: Fatty Acids, Triglycerides and Phospholipids',
     subtitle: 'This node covers fatty acid structure/nomenclature, triglyceride types, phospholipid.',
     classLevel: 11, subject: 'biotechnology', topic: 'Lipids: Fatty Acids, Triglycerides and Phospholipids',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_03_004', 'c11_biotech_cbse_03_009', 'c11_biotech_cbse_02_010', 'c11_biotech_cbse_12_002', 'c11_biotech_cbse_12_003', 'c11_biotech_cbse_12_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you drop a spoonful of cooking oil (triglyceride) into a glass of water — it floats as a separate.', goal: 'Master Biomolecules CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you drop a spoonful of cooking oil (triglyceride) into a glass of water — it floats as a separate.', goal: 'Master Lipids: Fatty Acids, Triglycerides and Phospholipids.' },
     discovery: {
         question: 'Write the systematic shorthand notation for a saturated fatty acid with 16 carbon atoms. What does each part of the notation signify?',
         options: ['**Answer:** 16:0', 'What lipid forms the cell membrane?', 'triglyceride'],
@@ -79,7 +79,7 @@ export const w_c11_biotechbiomoleculescbsesim: SimDef = {
             { text: 'Verify: Vo contains Thyroglobulin only; Vt contains Cytochrome c and buffer salts; BSA elutes in between.', faded: true, blankAnswer: 'Elution order: 1) Thyroglobulin (Vo), 2) BSA (between Vo.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_biotech_cbse_03_009', title: 'Identify each idea',
-          dissect: { specimen: 'Biomolecules CBSE', spots: [
+          dissect: { specimen: 'Lipids: Fatty Acids, Triglycerides and Phospholipids', spots: [
             { id: 's1', label: 'Lipids are a diverse group', prompt: 'Which idea is this? — Lipids are a diverse group of hydrophobic or amphipathic biomolecules primarily composed.', answer: 'Lipids are a diverse group', options: ['Lipids are a diverse group', 'Water is a polar molecule', 'Ribosomes are non-membranous ribonucleoprotein complexes', 'Centrifugation is a biophysical separation'] },
             { id: 's2', label: 'Water is a polar molecule', prompt: 'Which idea is this? — Water is a polar molecule with a bent geometry (104.5° bond angle) that exhibits.', answer: 'Water is a polar molecule', options: ['Water is a polar molecule', 'Lipids are a diverse group', 'Ribosomes are non-membranous ribonucleoprotein complexes', 'Centrifugation is a biophysical separation'] },
             { id: 's3', label: 'Ribosomes are non-membranous ribonucleoprotein complexes', prompt: 'Which idea is this? — Ribosomes are non-membranous ribonucleoprotein complexes composed of ribosomal RNA (rRNA).', answer: 'Ribosomes are non-membranous ribonucleoprotein complexes', options: ['Ribosomes are non-membranous ribonucleoprotein complexes', 'Lipids are a diverse group', 'Water is a polar molecule', 'Centrifugation is a biophysical separation'] },
@@ -88,7 +88,7 @@ export const w_c11_biotechbiomoleculescbsesim: SimDef = {
             { id: 's6', label: 'Chromatography is a separation technique', prompt: 'Which idea is this? — Chromatography is a separation technique where components of a mixture are distributed.', answer: 'Chromatography is a separation technique', options: ['Chromatography is a separation technique', 'Lipids are a diverse group', 'Water is a polar molecule', 'Ribosomes are non-membranous ribonucleoprotein complexes'] }
           ] } }
     ],
-    explore: { component: C11_BiotechBiomoleculesCBSESim, prompt: 'Explore the interactive — Biomolecules CBSE' },
+    explore: { component: C11_BiotechBiomoleculesCBSESim, prompt: 'Explore the interactive — Lipids: Fatty Acids, Triglycerides and Phospholipids' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_biotech_cbse_03_004', difficulty: 'standard',
           question: 'Lipids are a diverse group of hydrophobic or amphipathic biomolecules primarily.',

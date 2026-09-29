@@ -6,13 +6,13 @@ import C11_ComputerScienceFunctionsCallStackSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_computersciencefunctionscallstacksim: SimDef = {
     id: 'v3w_c11_computersciencefunctionscallstacksim',
-    title: 'Functions Call Stack',
+    title: 'Recursive Functions: Concept and Examples',
     subtitle: 'This node covers the concept of recursion, structure of recursive functions (base case.',
     classLevel: 11, subject: 'computer_science', topic: 'Recursive Functions: Concept and Examples',
     chapters: [],
     nodeIds: ['c11_cs_cbse_08_011', 'c11_cs_cbse_10_002', 'c11_cs_cbse_08_002', 'c11_cs_cbse_08_003', 'c11_cs_cbse_08_004', 'c11_cs_cbse_08_005', 'c11_cs_cbse_08_006', 'c11_cs_cbse_08_007', 'c11_cs_cbse_08_010', 'c11_cs_cbse_10_004', 'c11_cs_cbse_04_011', 'c11_cs_cbse_07_006', 'c11_cs_cbse_10_001', 'c11_cs_cbse_10_003', 'c11_cs_cbse_10_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you need to calculate the factorial of 5 (5!). You know 5! = 5 × 4 × 3 × 2 × 1.', goal: 'Master Functions Call Stack.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you need to calculate the factorial of 5 (5!). You know 5! = 5 × 4 × 3 × 2 × 1.', goal: 'Master Recursive Functions: Concept and Examples.' },
     discovery: {
         question: 'Consider the following recursive function: ```python def mystery(n): if n == 0: return 1 else: return n * mystery(n-1) ``` Explain in your own words what this.',
         options: ['This function computes the factorial of n (n!)', 'it computes the sum of numbers', 'base case should be n==1'],
@@ -82,7 +82,7 @@ export const w_c11_computersciencefunctionscallstacksim: SimDef = {
             { text: 'Verify that the default argument correctly handles the common case (no bus) without requiring the caller to remember to.', faded: true, blankAnswer: 'Non-bus student fee: ₹5000. Bus student fee: ₹6200.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_cs_cbse_10_002', title: 'Identify each idea',
-          dissect: { specimen: 'Functions Call Stack', spots: [
+          dissect: { specimen: 'Recursive Functions: Concept and Examples', spots: [
             { id: 's1', label: 'A recursive function is a', prompt: 'Which idea is this? — A recursive function is a function that solves a problem by calling itself with a smaller.', answer: 'A recursive function is a', options: ['A recursive function is a', 'A stack is a linear', 'A function in Python is', 'Calling a function executes the'] },
             { id: 's2', label: 'A stack is a linear', prompt: 'Which idea is this? — A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle,.', answer: 'A stack is a linear', options: ['A stack is a linear', 'A recursive function is a', 'A function in Python is', 'Calling a function executes the'] },
             { id: 's3', label: 'A function in Python is', prompt: 'Which idea is this? — A function in Python is a named, reusable block of code that performs a specific task,.', answer: 'A function in Python is', options: ['A function in Python is', 'A recursive function is a', 'A stack is a linear', 'Calling a function executes the'] },
@@ -91,7 +91,7 @@ export const w_c11_computersciencefunctionscallstacksim: SimDef = {
             { id: 's6', label: 'A default argument in a', prompt: 'Which idea is this? — A default argument in a Python function is a parameter that is assigned a specific value.', answer: 'A default argument in a', options: ['A default argument in a', 'A recursive function is a', 'A stack is a linear', 'A function in Python is'] }
           ] } }
     ],
-    explore: { component: C11_ComputerScienceFunctionsCallStackSim, prompt: 'Explore the interactive — Functions Call Stack' },
+    explore: { component: C11_ComputerScienceFunctionsCallStackSim, prompt: 'Explore the interactive — Recursive Functions: Concept and Examples' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_cs_cbse_08_011', difficulty: 'standard',
           question: 'A recursive function is a function that solves a problem by calling itself with.',

@@ -63,8 +63,8 @@ export const c7_engl_ch03_p3: SimDef = {
           hint: 'Review basic consonant sounds and practice spotting words that start with the same letter.',
           misconception: 'Students often confuse alliteration with rhyme or general word repetition.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Alliteration is a poetic sound device where the writer repeats the same initial consonant',
-                  options: ['Alliteration is a poetic sound device where the writer repeats the same initial consonant', 'Character analysis of Anand the Young Inventor involves examining his traits, actions,', 'Character analysis of Anita, the narrator and sister in "My Brother\'s Great Invention,"', 'The plot of a story refers to the sequence of events that make up the narrative,'],
+                { id: 'a', prompt: 'In a poem about water flowing, why might a poet choose to use alliteration with soft \'s\' and \'sh\' sounds rather than hard \'k\' or \'t\' sounds?', answer: 'Identify the sounds requested (soft \'s\'/\'sh\' vs hard \'k\'/\'t\')',
+                  options: ['Identify the sounds requested (soft \'s\'/\'sh\' vs hard \'k\'/\'t\')', 'sounds are chosen purely by random chance'],
                   hint: 'Review basic consonant sounds and practice spotting words that start with the same letter in.',
                   misconception: 'Students often confuse alliteration with rhyme or general word repetition.' }
           ],
@@ -75,7 +75,7 @@ export const c7_engl_ch03_p3: SimDef = {
           misconception: 'Students often believe that setting in a poem is just background decoration and that words like "wind," "stars,".',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The analysis of how a poet uses physical surroundings (setting) and elements of the',
-                  options: ['The analysis of how a poet uses physical surroundings (setting) and elements of the', 'Character analysis of Anand the Young Inventor involves examining his traits, actions,', 'Character analysis of Anita, the narrator and sister in "My Brother\'s Great Invention,"', 'The plot of a story refers to the sequence of events that make up the narrative,'],
+                  options: ['The analysis of how a poet uses physical surroundings (setting) and elements of the', 'From \'My Brother\': the skill or concept this node teaches, applied to the actual text', 'From \'My Brother\': the skill or concept this node teaches, applied to the actual text', 'The plot of a story refers to the sequence of events that make up the narrative,'],
                   hint: 'Review Class 6 concepts of imagery and metaphor in poetry before attempting Class 7 symbolic.',
                   misconception: 'Students often believe that setting in a poem is just background decoration and that words like "wind," "stars," or "rain" are chosen only.' }
           ],

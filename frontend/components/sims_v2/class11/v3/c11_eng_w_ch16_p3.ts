@@ -19,30 +19,30 @@ export const c11_eng_w_ch16_p3: SimDef = {
         hook: 'Ezekiel\'s surname invites the biblical guess; the poem is actually an April evening, a wife\'s complaint, and a small boy changing the weather of a marriage.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation in poetry refers to the ability to examine a poem\'s layers of meaning, evaluate the poet\'s techniques, and synthesize insights about human experience.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'For Elkana\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_16_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Mark where each stanza shifts the \'camera\' across a family evening, then decide if \'We rise and go into the house\' closes the story or just pauses a ritual.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_16_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Have you ever noticed how a simple family dinner conversation reveals deeper truths about relationships?',
+          caseStudy: { intro: 'Analyse \'For Elkana\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the significance of the capitalisation in the line "Children Must be Disciplined" in the poem "For Elkana"?', options: [
                 { text: 'The capitalisation transforms the phrase into a mock-commandment or universal law,', outcome: 'The capitalisation transforms the phrase into a mock-commandment or universal law, highlighting the.' },
                 { text: 'it\'s just for emphasis', outcome: 'Not quite — Students often treat "For Elkana" as a simple, light-hearted family snapshot and miss its satirical.', reveals: 'students-often-treat-for-elkana' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_16_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are asked: "How does the poet capture the pattern of communication in the family?" A weak answer might simply retell the story: "The wife complains.',
+          caseStudy: { intro: 'For written answers on \'For Elkana\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing analytical answers for poetry?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explain, Leave', outcome: 'Not quite — Students believe that "writing skills based on the chapter" means summarising the poem or writing.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe that "writing skills based on the chapter" means summarising the poem or writing.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_16_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re at a family dinner where everyone talks at once but no one really listens — now picture a literature circle where each voice is heard and ideas.',
+          caseStudy: { intro: 'Talk through \'For Elkana\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of a literary discussion on a poem like "For Elkana" in a Class 11 speaking and listening assessment?', options: [
                 { text: 'The primary purpose is to collaboratively construct meaning by sharing interpretations,', outcome: 'The primary purpose is to collaboratively construct meaning by sharing interpretations, supporting.' },
                 { text: 'to show the teacher I know the right answers', outcome: 'Not quite — Students often believe a literary discussion means taking turns giving "right answers" to the.', reveals: 'a-literary-discussion-means-taking' },
@@ -62,12 +62,12 @@ export const c11_eng_w_ch16_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_16_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation in poetry refers to the ability.',
+          question: 'Critical thinking on \'For Elkana\' — analysing the text to reach evidence-based.',
           hint: 'Review c11_eng_w_cbse_16_009 (Irony and Symbolism) and c11_eng_w_cbse_16_012.',
           misconception: 'Students often treat "For Elkana" as a simple, light-hearted family snapshot and miss its satirical edge — they read.',
           parts: [
@@ -76,9 +76,9 @@ export const c11_eng_w_ch16_p3: SimDef = {
                   hint: 'Review c11_eng_w_cbse_16_009 (Irony and Symbolism) and c11_eng_w_cbse_16_012 (Comprehension) for.',
                   misconception: 'Students often treat "For Elkana" as a simple, light-hearted family snapshot and miss its satirical edge — they read the father\'s.' }
           ],
-            remediations: { 'students-often-treat-for-elkana': { steps: ['If a student reads the poem literally: (1) Have them re-read the "unusual rapport" moment and ask: "Who actually wins.', '(3) Ask: "Is the \'delightful laughter\' genuine joy or relief at restored peace at any cost?" (4) Connect to Ezekiel\'s.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-for-elkana': { steps: ['If a student reads the poem literally: (1) Have them re-read the "unusual rapport" moment and ask: "Who actually wins.', '(3) Ask: "Is the \'delightful laughter\' genuine joy or relief at restored peace at any cost?" (4) Connect to Ezekiel\'s.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_16_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter "For Elkana" refer to the ability.',
+          question: 'Writing skills from \'For Elkana\' — using the text as a model or springboard for.',
           hint: 'Review the PEEL method from c8_engl_ch1_17 and practice with a simpler poem (e.g., "The.',
           misconception: 'Students believe that "writing skills based on the chapter" means summarising the poem or writing a character sketch.',
           parts: [
@@ -87,7 +87,7 @@ export const c11_eng_w_ch16_p3: SimDef = {
                   hint: 'Review the PEEL method from c8_engl_ch1_17 and practice with a simpler poem (e.g., "The Cherry.',
                   misconception: 'Students believe that "writing skills based on the chapter" means summarising the poem or writing a character sketch in isolation.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['Return to node c11_eng_w_cbse_16_008 (Imagery and Metaphor) and c11_eng_w_cbse_16_009 (Irony and Symbolism); annotate.', 'Take one "Understanding the Poem" question and rewrite a model answer from the textbook\'s suggested reading using PEEL.', 'Practice writing one PEEL paragraph daily for a different question, getting feedback on whether the Evidence is.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['Return to node c11_eng_w_cbse_16_008 (Imagery and Metaphor) and c11_eng_w_cbse_16_009 (Irony and Symbolism); annotate.', 'Take one "Understanding the Poem" question and rewrite a model answer from the textbook\'s suggested reading using PEEL.', 'Practice writing one PEEL paragraph daily for a different question, getting feedback on whether the Evidence is.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_16_014', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -98,9 +98,9 @@ export const c11_eng_w_ch16_p3: SimDef = {
                   hint: 'Review the PEEL method from c8_engl_ch1_17 and practice with a simpler poem (e.g., "The Cherry.',
                   misconception: 'Students believe that "writing skills based on the chapter" means summarising the poem or writing a character sketch in isolation.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['Return to node c11_eng_w_cbse_16_008 (Imagery and Metaphor) and c11_eng_w_cbse_16_009 (Irony and Symbolism); annotate.', 'Take one "Understanding the Poem" question and rewrite a model answer from the textbook\'s suggested reading using PEEL.', 'Practice writing one PEEL paragraph daily for a different question, getting feedback on whether the Evidence is.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['Return to node c11_eng_w_cbse_16_008 (Imagery and Metaphor) and c11_eng_w_cbse_16_009 (Irony and Symbolism); annotate.', 'Take one "Understanding the Poem" question and rewrite a model answer from the textbook\'s suggested reading using PEEL.', 'Practice writing one PEEL paragraph daily for a different question, getting feedback on whether the Evidence is.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_16_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'For Elkana\' — speaking and listening around the text.',
           hint: 'If stuck, review c11_eng_w_cbse_16_012 (Comprehension) and c11_eng_w_cbse_16_013.',
           misconception: 'Students often believe a literary discussion means taking turns giving "right answers" to the teacher\'s questions,.',
           parts: [
@@ -117,7 +117,7 @@ export const c11_eng_w_ch16_p3: SimDef = {
                   hint: 'If stuck, review c11_eng_w_cbse_16_012 (Comprehension) and c11_eng_w_cbse_16_013 (Critical.',
                   misconception: 'Students often believe a literary discussion means taking turns giving "right answers" to the teacher\'s questions, so they prepare.' }
           ],
-            remediations: { 'a-literary-discussion-means-taking': { steps: ['If a student reverts to reciting memorized points: 1) Pause the discussion and ask, "What line in the poem made you.', '2) Model a tentative contribution: "I\'m not sure, but the phrase \'unusual rapport\' feels ironic because right after.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-literary-discussion-means-taking': { steps: ['If a student reverts to reciting memorized points: 1) Pause the discussion and ask, "What line in the poem made you.', '2) Model a tentative contribution: "I\'m not sure, but the phrase \'unusual rapport\' feels ironic because right after.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

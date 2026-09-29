@@ -6,13 +6,13 @@ import C11_HistoryDevelopmentRailwaysCommunicationsSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_historydevelopmentrailwayscommunicationssim: SimDef = {
     id: 'v3w_c11_historydevelopmentrailwayscommunicationssim',
-    title: 'Development Railways Communications',
+    title: 'Print Culture: Gutenberg and the Printing Revolution',
     subtitle: 'Covers Gutenberg\'s invention (1440s), the spread of printing presses across Europe.',
     classLevel: 11, subject: 'history', topic: 'Print Culture: Gutenberg and the Printing Revolution',
     chapters: [],
     nodeIds: ['c11_hist_cbse_07_005', 'c11_hist_cbse_07_004', 'c11_hist_cbse_07_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a 15th-century merchant in Venice: you need a reliable copy of Aristotle\'s *Politics* for.', goal: 'Master Development Railways Communications.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a 15th-century merchant in Venice: you need a reliable copy of Aristotle\'s *Politics* for.', goal: 'Master Print Culture: Gutenberg and the Printing Revolution.' },
     discovery: {
         question: 'Why did the printing press spread so rapidly across Europe (over 250 cities by 1500) despite high initial capital costs?',
         options: ['The press spread', 'demand for books', 'Gutenberg invented printing'],
@@ -51,13 +51,13 @@ export const w_c11_historydevelopmentrailwayscommunicationssim: SimDef = {
             { text: 'Conclude that acceptance required *new* physics (Galileo\'s inertia) and *new* data (Tycho\'s precision, telescope) —.', faded: true, blankAnswer: 'Copernicus\'s model was mathematically equivalent to.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_hist_cbse_07_004', title: 'Identify each idea',
-          dissect: { specimen: 'Development Railways Communications', spots: [
+          dissect: { specimen: 'Print Culture: Gutenberg and the Printing Revolution', spots: [
             { id: 's1', label: 'The Printing Revolution refers to', prompt: 'Which idea is this? — The Printing Revolution refers to the transformative shift in European communication (c.', answer: 'The Printing Revolution refers to', options: ['The Printing Revolution refers to', 'Renaissance Art c 13001600 CE', 'The Scientific Revolution c 15431687'] },
             { id: 's2', label: 'Renaissance Art c 13001600 CE', prompt: 'Which idea is this? — Renaissance Art (c. 1300–1600 CE) refers to the radical transformation in European visual.', answer: 'Renaissance Art c 13001600 CE', options: ['Renaissance Art c 13001600 CE', 'The Printing Revolution refers to', 'The Scientific Revolution c 15431687'] },
             { id: 's3', label: 'The Scientific Revolution c 15431687', prompt: 'Which idea is this? — The Scientific Revolution (c. 1543–1687) was a transformative period in European.', answer: 'The Scientific Revolution c 15431687', options: ['The Scientific Revolution c 15431687', 'The Printing Revolution refers to', 'Renaissance Art c 13001600 CE'] }
           ] } }
     ],
-    explore: { component: C11_HistoryDevelopmentRailwaysCommunicationsSim, prompt: 'Explore the interactive — Development Railways Communications' },
+    explore: { component: C11_HistoryDevelopmentRailwaysCommunicationsSim, prompt: 'Explore the interactive — Print Culture: Gutenberg and the Printing Revolution' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hist_cbse_07_005', difficulty: 'standard',
           question: 'The Printing Revolution refers to the transformative shift in European.',

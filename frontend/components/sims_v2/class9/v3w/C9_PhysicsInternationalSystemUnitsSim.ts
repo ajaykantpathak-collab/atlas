@@ -6,13 +6,13 @@ import C9_PhysicsInternationalSystemUnitsSim from '../../../simulations/c6_12/C9
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_physicsinternationalsystemunitssim: SimDef = {
     id: 'v3w_c9_physicsinternationalsystemunitssim',
-    title: 'International System Units',
+    title: 'Measurement: Units and Standards in Science',
     subtitle: 'Covers the SI system of units, base and derived units, metric prefixes, and the need for.',
     classLevel: 9, subject: 'physics', topic: 'Measurement: Units and Standards in Science',
     chapters: [],
     nodeIds: ['c9_physics_ch1_5', 'c9_physics_ch4_4', 'c9_physics_ch4_9', 'c9_physics_ch2_5', 'c9_physics_ch3_6'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are buying cloth for a kurta in a Delhi market: the shopkeeper measures it with a "haath".', goal: 'Master International System Units.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are buying cloth for a kurta in a Delhi market: the shopkeeper measures it with a "haath".', goal: 'Master Measurement: Units and Standards in Science.' },
     discovery: {
         question: 'State the SI base unit and its symbol for each of the following quantities: (a) length, (b) mass, (c) time, (d) electric current, (e) thermodynamic temperature.',
         options: ['length, (', 'metric unit', 'SI unit'],
@@ -69,7 +69,7 @@ export const w_c9_physicsinternationalsystemunitssim: SimDef = {
             { text: 'Verify physical reasonableness. Negative sign means rifle moves opposite to bullet (recoil).', faded: true, blankAnswer: '-4.375 m/s (i.e., 4.375 m/s opposite to bullet\'s direction)' }
             ] } },
         { type: 'dissect', nodeId: 'c9_physics_ch4_4', title: 'Identify each idea',
-          dissect: { specimen: 'International System Units', spots: [
+          dissect: { specimen: 'Measurement: Units and Standards in Science', spots: [
             { id: 's1', label: 'Measurement in science is the', prompt: 'Which idea is this? — Measurement in science is the process of comparing an unknown physical quantity with a.', answer: 'Measurement in science is the', options: ['Measurement in science is the', 'Energy is the capacity of', 'Power is the rate at', 'Acceleration is the rate of'] },
             { id: 's2', label: 'Energy is the capacity of', prompt: 'Which idea is this? — Energy is the capacity of a system to do work, measured in joules (J) in the SI system.', answer: 'Energy is the capacity of', options: ['Energy is the capacity of', 'Measurement in science is the', 'Power is the rate at', 'Acceleration is the rate of'] },
             { id: 's3', label: 'Power is the rate at', prompt: 'Which idea is this? — Power is the rate at which work is done or energy is transferred, measured as work done.', answer: 'Power is the rate at', options: ['Power is the rate at', 'Measurement in science is the', 'Energy is the capacity of', 'Acceleration is the rate of'] },
@@ -77,7 +77,7 @@ export const w_c9_physicsinternationalsystemunitssim: SimDef = {
             { id: 's5', label: 'Momentum is a vector quantity', prompt: 'Which idea is this? — Momentum is a vector quantity defined as the product of an object\'s mass and its velocity.', answer: 'Momentum is a vector quantity', options: ['Momentum is a vector quantity', 'Measurement in science is the', 'Energy is the capacity of', 'Power is the rate at'] }
           ] } }
     ],
-    explore: { component: C9_PhysicsInternationalSystemUnitsSim, prompt: 'Explore the interactive — International System Units' },
+    explore: { component: C9_PhysicsInternationalSystemUnitsSim, prompt: 'Explore the interactive — Measurement: Units and Standards in Science' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_physics_ch1_5', difficulty: 'standard',
           question: 'Measurement in science is the process of comparing an unknown physical quantity.',

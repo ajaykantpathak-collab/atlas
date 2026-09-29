@@ -6,13 +6,13 @@ import C10_BiologyCirculatorySystemdetailedSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_biologycirculatorysystemdetailedsim: SimDef = {
     id: 'v3w_c10_biologycirculatorysystemdetailedsim',
-    title: 'Circulatory System',
+    title: 'Control and Coordination in Animals vs Plants: Overview',
     subtitle: 'This node covers the fundamental comparison between animal and plant coordination systems.',
     classLevel: 10, subject: 'biology', topic: 'Control and Coordination in Animals vs Plants: Overview',
     chapters: [],
     nodeIds: ['c10_bio_cbse_02_001', 'c10_bio_cbse_02_002', 'c10_bio_cbse_02_004', 'c10_bio_cbse_02_010', 'c10_bio_cbse_01_001', 'c10_bio_cbse_01_004', 'c10_bio_cbse_01_012', 'c10_bio_cbse_03_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Observe a mimosa plant (touch-me-not) folding its leaves when touched and compare it to instantly pulling.', goal: 'Master Circulatory System.' },
+    scenario: { role: 'a class 10 learner', intro: 'Observe a mimosa plant (touch-me-not) folding its leaves when touched and compare it to instantly pulling.', goal: 'Master Control and Coordination in Animals vs Plants: Overview.' },
     discovery: {
         question: 'Compare the structural adaptations of a sensory neuron (e.g., from skin to spinal cord) and a motor neuron (e.g., from spinal cord to muscle) that suit their.',
         options: ['Three key differences: (1) Sensory neurons are typically pseudounipolar', 'both are identical', 'differentiate'],
@@ -78,7 +78,7 @@ export const w_c10_biologycirculatorysystemdetailedsim: SimDef = {
             { text: 'Note absorption site: Glucose absorbed in jejunum/ileum via active transport (SGLT1) into blood capillaries of villi.', faded: true, blankAnswer: 'Roti (starch) → Mouth: salivary amylase → maltose/dextrins;.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_bio_cbse_02_002', title: 'Identify each idea',
-          dissect: { specimen: 'Circulatory System', spots: [
+          dissect: { specimen: 'Control and Coordination in Animals vs Plants: Overview', spots: [
             { id: 's1', label: 'Control and coordination is the', prompt: 'Which idea is this? — Control and coordination is the biological process by which organisms detect changes.', answer: 'Control and coordination is the', options: ['Control and coordination is the', 'A neuron is the structural', 'The human brain is the', 'The adrenal glands are a'] },
             { id: 's2', label: 'A neuron is the structural', prompt: 'Which idea is this? — A neuron is the structural and functional unit of the nervous system, specialized for.', answer: 'A neuron is the structural', options: ['A neuron is the structural', 'Control and coordination is the', 'The human brain is the', 'The adrenal glands are a'] },
             { id: 's3', label: 'The human brain is the', prompt: 'Which idea is this? — The human brain is the central control center of the nervous system, divided into three.', answer: 'The human brain is the', options: ['The human brain is the', 'Control and coordination is the', 'A neuron is the structural', 'The adrenal glands are a'] },
@@ -87,7 +87,7 @@ export const w_c10_biologycirculatorysystemdetailedsim: SimDef = {
             { id: 's6', label: 'The human digestive system is', prompt: 'Which idea is this? — The human digestive system is an organ system comprising the alimentary canal (mouth,.', answer: 'The human digestive system is', options: ['The human digestive system is', 'Control and coordination is the', 'A neuron is the structural', 'The human brain is the'] }
           ] } }
     ],
-    explore: { component: C10_BiologyCirculatorySystemdetailedSim, prompt: 'Explore the interactive — Circulatory System' },
+    explore: { component: C10_BiologyCirculatorySystemdetailedSim, prompt: 'Explore the interactive — Control and Coordination in Animals vs Plants: Overview' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_bio_cbse_02_001', difficulty: 'standard',
           question: 'Control and coordination is the biological process by which organisms detect.',

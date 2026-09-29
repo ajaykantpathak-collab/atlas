@@ -19,7 +19,7 @@ export const c12_eng_v_ch02_p3: SimDef = {
         hook: 'The fable is double-barrelled satire: a prince who marries for tiger access mocks princely despotism, while a British officer\'s photo-op safaris skewer the Raj. The nonsense initials in his absurd title parody imperial honours — read the laughter as indictment.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining a text beyond surface meaning to evaluate themes, author\'s purpose, literary devices, and socio-cultural implications through evidence-based.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Tiger King\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_02_013', title: 'Your mission',
@@ -29,21 +29,21 @@ export const c12_eng_v_ch02_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_02_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine a politician who builds a massive wall to keep out "dangerous immigrants" but gets injured by a falling brick from that very wall — what does this.',
+          caseStudy: { intro: 'Analyse \'The Tiger King\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'Define dramatic irony and give one specific example from "The Tiger King" where the reader knows something the Maharaja does not.', options: [
                 { text: 'Dramatic irony occurs when the audience/reader possesses knowledge that a character', outcome: 'Dramatic irony occurs when the audience/reader possesses knowledge that a character lacks, creating.' },
                 { text: 'irony is when something unexpected happens', outcome: 'Not quite — Students believe the wooden tiger killing the Maharaja is merely "ironic bad luck" or "fate.', reveals: 'the-wooden-tiger-killing-the' },
                 { text: 'ironic bad luck', outcome: 'Not quite — Students believe the wooden tiger killing the Maharaja is merely "ironic bad luck" or "fate.', reveals: 'the-wooden-tiger-killing-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_02_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing Question 3: "How would you describe the behaviour of the Maharaja\'s minions towards him?',
+          caseStudy: { intro: 'For written answers on \'The Tiger King\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'Define the PEEL structure for answering a 5-mark literature question in CBSE Class 12 English.', options: [
                 { text: 'PEEL stands for Point (one-sentence direct answer to the question), Evidence (a brief', outcome: 'PEEL stands for Point (one-sentence direct answer to the question), Evidence (a brief quote.' },
                 { text: 'PEEL means writing a long paragraph', outcome: 'Not quite — Students believe "writing skills" means using flowery vocabulary and long sentences.', reveals: 'writing-skills-means-using-flowery' },
                 { text: 'writing skills', outcome: 'Not quite — Students believe "writing skills" means using flowery vocabulary and long sentences.', reveals: 'writing-skills-means-using-flowery' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_02_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a university admission interview and the panel asks: "Kalki\'s Tiger King is a satire — but is the Maharaja purely a villain, or does the.',
+          caseStudy: { intro: 'Talk through \'The Tiger King\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'Define "dramatic irony" as it operates in The Tiger King, and give ONE specific instance from the text where the audience knows something.', options: [
                 { text: 'Dramatic irony occurs when the reader/audience possesses knowledge that a character', outcome: 'Dramatic irony occurs when the reader/audience possesses knowledge that a character lacks, creating.' },
                 { text: 'irony is when something funny happens', outcome: 'Not quite — Students treat "discussion" as "taking turns giving prepared speeches" — they memorize answers.', reveals: 'students-treat-discussion-as-taking' }
@@ -67,7 +67,7 @@ export const c12_eng_v_ch02_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_02_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining a text beyond surface.',
+          question: 'Critical thinking on \'The Tiger King\' — analysing the text to reach.',
           hint: 'If stuck, revisit c12_eng_v_cbse_02_009 (Literary Devices: Irony and Symbolism).',
           misconception: 'Students believe the wooden tiger killing the Maharaja is merely "ironic bad luck" or "fate catching up." They miss.',
           parts: [
@@ -89,7 +89,7 @@ export const c12_eng_v_ch02_p3: SimDef = {
           ],
             remediations: { 'the-wooden-tiger-killing-the': { steps: ['If the student treats the ending as mere irony: (1) Re-read the toy shop scene — list every detail (price.', '(2) Map each detail to a parallel in the Maharaja\'s rule (e.g., "slivers like quills" → his prickly, unskilled.', '(3) Ask: "Could the Maharaja have died this way if he had been a just, attentive ruler?" (4) Conclude: the wooden tiger.', 'The author ensures the prophecy fulfills itself through the Maharaja\'s own choices — that is the satire\'s engine.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_02_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter "The Tiger King" refers to the ability.',
+          question: 'Writing skills from \'The Tiger King\' — using the text as a model or springboard.',
           hint: 'If stuck on evidence selection, re-read the "Reading with Insight" questions and map each.',
           misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.',
           parts: [
@@ -108,7 +108,7 @@ export const c12_eng_v_ch02_p3: SimDef = {
           ],
             remediations: { 'writing-skills-means-using-flowery': { steps: ['Have the student rewrite the flowery sentence above into a 15-word analytical sentence.', 'Give them a 5-mark question and a highlighter: mark Point (yellow), Evidence (pink), Explanation (green), Link (blue).', 'If any color is missing, they rewrite that component only.', 'Practice with a timer: 7 minutes per 5-mark answer.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_02_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'The Tiger King\' — speaking and listening around the text.',
           hint: 'If stuck, return to node c12_eng_v_cbse_02_013 (Critical Thinking) and complete written.',
           misconception: 'Students treat "discussion" as "taking turns giving prepared speeches" — they memorize answers to the five NCERT.',
           parts: [

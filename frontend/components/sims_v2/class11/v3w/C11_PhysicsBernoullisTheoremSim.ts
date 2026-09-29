@@ -6,13 +6,13 @@ import C11_PhysicsBernoullisTheoremSim from '../../../simulations/c6_12/C11_Phys
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsbernoullistheoremsim: SimDef = {
     id: 'v3w_c11_physicsbernoullistheoremsim',
-    title: 'Bernoullis Theorem',
+    title: 'Bernoulli\'s Principle: Statement and Derivation',
     subtitle: 'This node covers the statement and derivation of Bernoulli\'s principle for ideal fluids.',
     classLevel: 11, subject: 'physics', topic: 'Bernoulli\'s Principle: Statement and Derivation',
     chapters: [],
     nodeIds: ['c11_phy_cbse_09_007', 'c11_phy_cbse_09_002', 'c11_phy_cbse_09_003', 'c11_phy_cbse_09_005', 'c11_phy_cbse_09_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe water flowing from a garden hose: when you partially cover the opening with your thumb, the water.', goal: 'Master Bernoullis Theorem.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe water flowing from a garden hose: when you partially cover the opening with your thumb, the water.', goal: 'Master Bernoulli\'s Principle: Statement and Derivation.' },
     discovery: {
         question: 'Water flows through a horizontal pipe that narrows from cross-sectional area A₁ to A₂ (A₂ < A₁).',
         options: ['By continuity, v₂ > v₁', 'pressure increases', 'pressure stays the same'],
@@ -72,14 +72,14 @@ export const w_c11_physicsbernoullistheoremsim: SimDef = {
             { text: 'Integrate from h=3.0 to h=1.5: 2(√h_final - √h_initial) = -(A_hole/A_tank)√(2g) t.', faded: true, blankAnswer: '(a) 7.67 m/s, (b) 1.53 × 10⁻³ m³/s, (c) 572 s (≈ 9.5 min)' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_09_002', title: 'Identify each idea',
-          dissect: { specimen: 'Bernoullis Theorem', spots: [
+          dissect: { specimen: 'Bernoulli\'s Principle: Statement and Derivation', spots: [
             { id: 's1', label: 'Bernoullis principle states that for', prompt: 'Which idea is this? — Bernoulli\'s principle states that for a steady, incompressible, non-viscous fluid flow.', answer: 'Bernoullis principle states that for', options: ['Bernoullis principle states that for', 'Pascals Law states that when', 'Hydrostatic pressure at a depth', 'A hydraulic machine is a'] },
             { id: 's2', label: 'Pascals Law states that when', prompt: 'Which idea is this? — Pascal\'s Law states that when an external pressure is applied to an enclosed fluid at.', answer: 'Pascals Law states that when', options: ['Pascals Law states that when', 'Bernoullis principle states that for', 'Hydrostatic pressure at a depth', 'A hydraulic machine is a'] },
             { id: 's3', label: 'Hydrostatic pressure at a depth', prompt: 'Which idea is this? — Hydrostatic pressure at a depth \\(h\\) in a fluid of uniform density \\(\\rho\\) is the.', answer: 'Hydrostatic pressure at a depth', options: ['Hydrostatic pressure at a depth', 'Bernoullis principle states that for', 'Pascals Law states that when', 'A hydraulic machine is a'] },
             { id: 's4', label: 'A hydraulic machine is a', prompt: 'Which idea is this? — A hydraulic machine is a device that uses an incompressible fluid to transmit pressure.', answer: 'A hydraulic machine is a', options: ['A hydraulic machine is a', 'Bernoullis principle states that for', 'Pascals Law states that when', 'Hydrostatic pressure at a depth'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsBernoullisTheoremSim, prompt: 'Explore the interactive — Bernoullis Theorem' },
+    explore: { component: C11_PhysicsBernoullisTheoremSim, prompt: 'Explore the interactive — Bernoulli\'s Principle: Statement and Derivation' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_09_007', difficulty: 'standard',
           question: 'Bernoulli\'s principle states that for a steady, incompressible, non-viscous.',

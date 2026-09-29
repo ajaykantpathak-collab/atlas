@@ -410,7 +410,7 @@ async def tutor(req: TutorRequest):
         )
     except Exception as e:
         logger.exception("Tutor pipeline error")
-        raise HTTPException(status_code=500, detail=f"Tutor error: {str(e)[:200]}")
+        raise HTTPException(status_code=500, detail="Tutor temporarily unavailable")
 
 
 @router.post("/solve", response_model=SolveResponse)
@@ -449,7 +449,7 @@ async def solve(req: SolveRequest):
         )
     except Exception as e:
         logger.exception("Solver error")
-        raise HTTPException(status_code=500, detail=f"Solver error: {str(e)[:200]}")
+        raise HTTPException(status_code=500, detail="Solver temporarily unavailable")
 
 
 @router.post("/state")
@@ -476,7 +476,7 @@ async def build_state(req: StateRequest):
         return {"state": str(state)}
     except Exception as e:
         logger.exception("State builder error")
-        raise HTTPException(status_code=500, detail=f"State error: {str(e)[:200]}")
+        raise HTTPException(status_code=500, detail="State temporarily unavailable")
 
 
 @router.get("/context/{node_id}")
@@ -498,7 +498,7 @@ async def get_teaching_context(node_id: str, mastery_map: Optional[str] = None):
         return {"context": str(ctx)}
     except Exception as e:
         logger.exception("Context error")
-        raise HTTPException(status_code=500, detail=f"Context error: {str(e)[:200]}")
+        raise HTTPException(status_code=500, detail="Context temporarily unavailable")
 
 
 @router.post("/confidence")
@@ -529,7 +529,7 @@ async def record_confidence(
         return {"status": "recorded"}
     except Exception as e:
         logger.exception("Confidence error")
-        raise HTTPException(status_code=500, detail=f"Confidence error: {str(e)[:200]}")
+        raise HTTPException(status_code=500, detail="Confidence temporarily unavailable")
 
 
 @router.get("/confidence/{student_id}")
@@ -553,7 +553,7 @@ async def get_calibration(
         return {"calibration": str(result)}
     except Exception as e:
         logger.exception("Calibration error")
-        raise HTTPException(status_code=500, detail=f"Calibration error: {str(e)[:200]}")
+        raise HTTPException(status_code=500, detail="Calibration temporarily unavailable")
 
 
 @router.post("/interaction")
@@ -601,7 +601,7 @@ async def log_interaction(req: InteractionLogRequest):
         return {"status": "logged", "record_id": getattr(record, "id", str(uuid.uuid4()))}
     except Exception as e:
         logger.exception("Interaction log error")
-        raise HTTPException(status_code=500, detail=f"Log error: {str(e)[:200]}")
+        raise HTTPException(status_code=500, detail="Log temporarily unavailable")
 
 
 @router.post("/meta-brain")
@@ -622,7 +622,7 @@ async def run_meta_brain(req: MetaBrainRequest):
         return {"report": str(report)}
     except Exception as e:
         logger.exception("Meta-brain error")
-        raise HTTPException(status_code=500, detail=f"Meta-brain error: {str(e)[:200]}")
+        raise HTTPException(status_code=500, detail="Meta-brain temporarily unavailable")
 
 
 @router.get("/agents")
@@ -644,7 +644,7 @@ async def list_agents():
         return {"agents": agents_info}
     except Exception as e:
         logger.exception("Agents list error")
-        raise HTTPException(status_code=500, detail=f"Agents error: {str(e)[:200]}")
+        raise HTTPException(status_code=500, detail="Agents temporarily unavailable")
 
 
 @router.get("/rules")
@@ -664,7 +664,7 @@ async def list_rules():
         return {"rules": result}
     except Exception as e:
         logger.exception("Rules list error")
-        raise HTTPException(status_code=500, detail=f"Rules error: {str(e)[:200]}")
+        raise HTTPException(status_code=500, detail="Rules temporarily unavailable")
 
 
 @router.post("/rules")
@@ -685,7 +685,7 @@ async def add_rule(req: RuleRequest):
         return {"status": "added", "rule_name": req.rule_name}
     except Exception as e:
         logger.exception("Rule add error")
-        raise HTTPException(status_code=500, detail=f"Rule error: {str(e)[:200]}")
+        raise HTTPException(status_code=500, detail="Rule temporarily unavailable")
 
 
 @router.post("/generate")
@@ -711,7 +711,7 @@ async def generate_problems(req: GenerateRequest):
         return {"generated": result, "count": len(result)}
     except Exception as e:
         logger.exception("Generate error")
-        raise HTTPException(status_code=500, detail=f"Generate error: {str(e)[:200]}")
+        raise HTTPException(status_code=500, detail="Generate temporarily unavailable")
 
 
 @router.post("/evolve")
@@ -729,7 +729,7 @@ async def evolve_intelligence():
         return await asyncio.to_thread(run_evolution_loop)
     except Exception as e:
         logger.exception("Evolve error")
-        raise HTTPException(status_code=500, detail=f"Evolve error: {str(e)[:200]}")
+        raise HTTPException(status_code=500, detail="Evolve temporarily unavailable")
 
 
 @router.post("/warmup")

@@ -121,7 +121,11 @@ export const c11_chem_ch04_p1: SimDef = {
                   options: ['The overall process Na(g) + ½Cl₂(g) → NaCl(s) is exothermic', 'Atoms transfer electrons to complete octets, so ionic bonds form'],
                   hint: 'Review periodic trends in ionization enthalpy and electron gain enthalpy from Unit 3.',
                   misconception: 'Students often think the octet rule alone drives ionic bond formation: "Atoms transfer electrons to complete octets, so ionic bonds form.".' },
-                { id: 'b', prompt: 'Compare the lattice enthalpies of NaCl and MgO. Both have rock-salt structure.', answer: 'MgO has higher lattice enthalpy',
+                { id: 'b', prompt: 'Given: IE₁(Na) = 496 kJ/mol, EA(Cl) = -349 kJ/mol, ΔH_f°(NaCl) = -411 kJ/mol, ΔH_sub(Na) = 108 kJ/mol, ½BDE(Cl₂) = 121 kJ/mol.', answer: 'Na(s) → Na(g) ΔH = +108 kJ/mol',
+                  options: ['Na(s) → Na(g) ΔH = +108 kJ/mol', 'Atoms transfer electrons to complete octets, so ionic bonds form'],
+                  hint: 'Review periodic trends in ionization enthalpy and electron gain enthalpy from Unit 3.',
+                  misconception: 'Students often think the octet rule alone drives ionic bond formation: "Atoms transfer electrons to complete octets, so ionic bonds form.".' },
+                { id: 'c', prompt: 'Compare the lattice enthalpies of NaCl and MgO. Both have rock-salt structure.', answer: 'MgO has higher lattice enthalpy',
                   options: ['MgO has higher lattice enthalpy', 'Atoms transfer electrons to complete octets, so ionic bonds form'],
                   hint: 'Review periodic trends in ionization enthalpy and electron gain enthalpy from Unit 3.',
                   misconception: 'Students often think the octet rule alone drives ionic bond formation: "Atoms transfer electrons to complete octets, so ionic bonds form.".' }

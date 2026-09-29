@@ -6,13 +6,13 @@ import C12_GeoHumanDevelopmentCBSESim from '../../../simulations/c6_12_new/C12_G
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_geohumandevelopmentcbsesim: SimDef = {
     id: 'v3w_c12_geohumandevelopmentcbsesim',
-    title: 'Geo Human Development CBSE',
+    title: 'Major Schools of Human Geography: Determinism',
     subtitle: 'This node covers only Environmental Determinism: its definition, historical context, key.',
     classLevel: 12, subject: 'science', topic: 'Major Schools of Human Geography: Determinism',
     chapters: [],
     nodeIds: ['c12_geo_cbse_01_004', 'c12_geo_cbse_01_005', 'c12_geo_cbse_01_006', 'c12_geo_cbse_03_001', 'c12_geo_cbse_03_002', 'c12_geo_cbse_03_003', 'c12_geo_cbse_03_004', 'c12_geo_cbse_03_005', 'c12_geo_cbse_03_006', 'c12_geo_cbse_03_007', 'c12_geo_cbse_03_008', 'c12_geo_cbse_03_009', 'c12_geo_cbse_03_010', 'c12_geo_cbse_07_001', 'c12_geo_cbse_07_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a tribal hamlet in the Abujh Maad region of Chhattisgarh where families practice shifting cultivation.', goal: 'Master Geo Human Development CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a tribal hamlet in the Abujh Maad region of Chhattisgarh where families practice shifting cultivation.', goal: 'Master Major Schools of Human Geography: Determinism.' },
     discovery: {
         question: 'A student argues: "The Inuit in the Arctic and the Bedouins in the Sahara both practice determinism because they wear fur and live in tents respectively.".',
         options: ['Step 1: Identify the determinist claim', 'adaptation', 'determination'],
@@ -80,7 +80,7 @@ export const w_c12_geohumandevelopmentcbsesim: SimDef = {
             { text: 'Synthesize: (A)→Productivity, (B)→Productivity+Equity, (C)→All four, (D)→Empowerment→Equity. The most holistic is (C).', faded: true, blankAnswer: '(A) primarily Productivity (health capability); (B).' }
             ] } },
         { type: 'dissect', nodeId: 'c12_geo_cbse_01_005', title: 'Identify each idea',
-          dissect: { specimen: 'Geo Human Development CBSE', spots: [
+          dissect: { specimen: 'Major Schools of Human Geography: Determinism', spots: [
             { id: 's1', label: 'Environmental Determinism is the school', prompt: 'Which idea is this? — Environmental Determinism is the school of thought in human geography which asserts that.', answer: 'Environmental Determinism is the school', options: ['Environmental Determinism is the school', 'Possibilism is the school of', 'Neo-determinism Stop-and-Go Determinism proposed by', 'Human development is a qualitative'] },
             { id: 's2', label: 'Possibilism is the school of', prompt: 'Which idea is this? — Possibilism is the school of thought in human geography which asserts that the physical.', answer: 'Possibilism is the school of', options: ['Possibilism is the school of', 'Environmental Determinism is the school', 'Neo-determinism Stop-and-Go Determinism proposed by', 'Human development is a qualitative'] },
             { id: 's3', label: 'Neo-determinism Stop-and-Go Determinism proposed by', prompt: 'Which idea is this? — Neo-determinism (Stop-and-Go Determinism), proposed by Griffith Taylor, is a middle-path.', answer: 'Neo-determinism Stop-and-Go Determinism proposed by', options: ['Neo-determinism Stop-and-Go Determinism proposed by', 'Environmental Determinism is the school', 'Possibilism is the school of', 'Human development is a qualitative'] },
@@ -88,7 +88,7 @@ export const w_c12_geohumandevelopmentcbsesim: SimDef = {
             { id: 's5', label: 'The four pillars of human', prompt: 'Which idea is this? — The four pillars of human development—equity, sustainability, productivity, and.', answer: 'The four pillars of human', options: ['The four pillars of human', 'Environmental Determinism is the school', 'Possibilism is the school of', 'Neo-determinism Stop-and-Go Determinism proposed by'] }
           ] } }
     ],
-    explore: { component: C12_GeoHumanDevelopmentCBSESim, prompt: 'Explore the interactive — Geo Human Development CBSE' },
+    explore: { component: C12_GeoHumanDevelopmentCBSESim, prompt: 'Explore the interactive — Major Schools of Human Geography: Determinism' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_01_004', difficulty: 'standard',
           question: 'Environmental Determinism is the school of thought in human geography which.',

@@ -6,13 +6,13 @@ import C8_HistoryCivicsVicepresidentQualificationsElectionSim from '../../../sim
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_historycivicsvicepresidentqualificationselectionsim: SimDef = {
     id: 'v3w_c8_historycivicsvicepresidentqualificationselectionsim',
-    title: 'Vicepresident Qualifications Election',
+    title: 'Election Commission of India: Role and Functions',
     subtitle: 'Covers the constitutional powers, structure, and functions of the Election Commission of.',
     classLevel: 8, subject: 'history', topic: 'Election Commission of India: Role and Functions',
     chapters: [],
     nodeIds: ['c8_civ_ch1_7', 'c8_civ_ch2_4', 'c8_civ_ch1_6', 'c8_civ_ch2_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine watching a school sports day where the teacher who makes the rules also happens to coach one of the.', goal: 'Master Vicepresident Qualifications Election.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine watching a school sports day where the teacher who makes the rules also happens to coach one of the.', goal: 'Master Election Commission of India: Role and Functions.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'The Election Commission of India (ECI) is an.', text: 'The Election Commission of India (ECI) is an autonomous constitutional body established under Article 324 of the Indian Constitution, responsible for administering and overseeing all electoral.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -54,14 +54,14 @@ export const w_c8_historycivicsvicepresidentqualificationselectionsim: SimDef = 
             { text: 'Conclude that while the President can suggest reconsideration once, if Parliament passes it again, the President must.', faded: true, blankAnswer: 'The President cannot reject an ordinary bill indefinitely.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_civ_ch2_4', title: 'Identify each idea',
-          dissect: { specimen: 'Vicepresident Qualifications Election', spots: [
+          dissect: { specimen: 'Election Commission of India: Role and Functions', spots: [
             { id: 's1', label: 'The Election Commission of India', prompt: 'Which idea is this? — The Election Commission of India (ECI) is an autonomous constitutional body established.', answer: 'The Election Commission of India', options: ['The Election Commission of India', 'The Lok Sabha is the', 'The Indian electoral system operates', 'The President of India is'] },
             { id: 's2', label: 'The Lok Sabha is the', prompt: 'Which idea is this? — The Lok Sabha is the lower house of the Parliament of India, composed of representatives.', answer: 'The Lok Sabha is the', options: ['The Lok Sabha is the', 'The Election Commission of India', 'The Indian electoral system operates', 'The President of India is'] },
             { id: 's3', label: 'The Indian electoral system operates', prompt: 'Which idea is this? — The Indian electoral system operates across three distinct tiers of governance—national,.', answer: 'The Indian electoral system operates', options: ['The Indian electoral system operates', 'The Election Commission of India', 'The Lok Sabha is the', 'The President of India is'] },
             { id: 's4', label: 'The President of India is', prompt: 'Which idea is this? — The President of India is the constitutional head of state and the first citizen of the.', answer: 'The President of India is', options: ['The President of India is', 'The Election Commission of India', 'The Lok Sabha is the', 'The Indian electoral system operates'] }
           ] } }
     ],
-    explore: { component: C8_HistoryCivicsVicepresidentQualificationsElectionSim, prompt: 'Explore the interactive — Vicepresident Qualifications Election' },
+    explore: { component: C8_HistoryCivicsVicepresidentQualificationsElectionSim, prompt: 'Explore the interactive — Election Commission of India: Role and Functions' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_civ_ch1_7', difficulty: 'standard',
           question: 'The Election Commission of India (ECI) is an autonomous constitutional body.',

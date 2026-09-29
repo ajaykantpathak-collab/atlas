@@ -6,13 +6,13 @@ import C11_AccountancyBasicTermsDrawerSim from '../../../simulations/c6_12/C11_A
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_accountancybasictermsdrawersim: SimDef = {
     id: 'v3w_c11_accountancybasictermsdrawersim',
-    title: 'Basic Terms Drawer',
+    title: 'Balance Sheet: Meaning and Objectives',
     subtitle: 'This node covers the meaning, objectives, characteristics, and basic structure of a.',
     classLevel: 11, subject: 'accountancy', topic: 'Balance Sheet: Meaning and Objectives',
     chapters: [],
     nodeIds: ['c11_acc_cbse_08_006', 'c11_acc_cbse_09_008', 'c11_acc_cbse_09_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re the owner of a small kirana store in Delhi. It\'s March 31st, year-end.', goal: 'Master Basic Terms Drawer.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re the owner of a small kirana store in Delhi. It\'s March 31st, year-end.', goal: 'Master Balance Sheet: Meaning and Objectives.' },
     discovery: {
         question: 'Two students marshall the same Balance Sheet differently. Student A uses Order of Permanence: Land → Building → Machinery → Furniture → Debtors → Cash.',
         options: ['Both orders are acceptable', 'one correct format', 'Stock ₹30,000'],
@@ -53,13 +53,13 @@ export const w_c11_accountancybasictermsdrawersim: SimDef = {
             { text: 'Verify: Profit after commission = ₹1,20,000 - ₹10,909 = ₹1,09,091. 10% of ₹1,09,091 = ₹10,909. ✓', faded: true, blankAnswer: 'Manager\'s Commission = ₹10,909. Journal Entries: (1).' }
             ] } },
         { type: 'dissect', nodeId: 'c11_acc_cbse_09_008', title: 'Identify each idea',
-          dissect: { specimen: 'Basic Terms Drawer', spots: [
+          dissect: { specimen: 'Balance Sheet: Meaning and Objectives', spots: [
             { id: 's1', label: 'A Balance Sheet is a', prompt: 'Which idea is this? — A Balance Sheet is a positional statement prepared at a specific date (typically the end.', answer: 'A Balance Sheet is a', options: ['A Balance Sheet is a', 'Interest on Capital is an', 'Unrecorded transactions are business events'] },
             { id: 's2', label: 'Interest on Capital is an', prompt: 'Which idea is this? — Interest on Capital is an appropriation of profit calculated at an agreed rate on the.', answer: 'Interest on Capital is an', options: ['Interest on Capital is an', 'A Balance Sheet is a', 'Unrecorded transactions are business events'] },
             { id: 's3', label: 'Unrecorded transactions are business events', prompt: 'Which idea is this? — Unrecorded transactions are business events that have occurred but were not entered in.', answer: 'Unrecorded transactions are business events', options: ['Unrecorded transactions are business events', 'A Balance Sheet is a', 'Interest on Capital is an'] }
           ] } }
     ],
-    explore: { component: C11_AccountancyBasicTermsDrawerSim, prompt: 'Explore the interactive — Basic Terms Drawer' },
+    explore: { component: C11_AccountancyBasicTermsDrawerSim, prompt: 'Explore the interactive — Balance Sheet: Meaning and Objectives' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_acc_cbse_08_006', difficulty: 'standard',
           question: 'A Balance Sheet is a positional statement prepared at a specific date.',

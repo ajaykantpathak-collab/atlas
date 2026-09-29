@@ -68,7 +68,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "SELECT Statement Retrieves Data From",
+    "title": "SELECT Statement Retrieves Data",
     "text": "The SELECT statement retrieves data from one or more tables in a database. Choosing columns specifies which attributes (columns) to display in the result set, while the DISTINCT keyword eliminates duplicate rows from the output, returning only unique",
     "emoji": "🗂️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -80,7 +80,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "SQL Aggregate Functions (SUM, AVG, COUNT",
+    "title": "SQL Aggregate Functions",
     "text": "SQL aggregate functions (SUM, AVG, COUNT, MAX, MIN) compute a single summary value from a set of rows, and GROUP BY partitions rows into groups sharing identical values in specified columns so that aggregates can be calculated per group.",
     "emoji": "🗂️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -92,7 +92,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "INNER JOIN Combines Rows From",
+    "title": "INNER JOIN Combines Rows",
     "text": "An INNER JOIN combines rows from two tables by matching values in a common column (typically a primary key in one table and a foreign key in the other), returning only the rows where the join condition is satisfied in both tables.",
     "emoji": "🗂️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -116,7 +116,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "SQL Single-row Functions (also Called Scalar",
+    "title": "SQL Single-row Functions",
     "text": "SQL single-row functions (also called scalar functions) operate on a single value from each row and return exactly one result per row, categorized into math functions (POWER, ROUND, MOD), string functions (UCASE/LCASE, MID/SUBSTRING, LENGTH, LEFT, RIGHT,",
     "emoji": "🗂️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -658,13 +658,13 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Adding And Deleting DataFrame Columns And",
+    "title": "Adding and deleting DataFrame columns",
     "text": "Adding and deleting DataFrame columns and rows refers to the structural modification operations in Pandas that allow dynamic expansion or contraction of a two-dimensional labeled data structure by inserting new labeled columns/rows with specified values or",
     "emoji": "🗂️",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Descriptive Statistics In Pandas Refer To",
+    "title": "Descriptive Statistics In Pandas",
     "text": "Descriptive statistics in Pandas refer to built-in methods (mean(), median(), mode(), std(), describe()) that compute summary measures of central tendency and dispersion for Series or DataFrame columns, returning scalar values or a summary DataFrame",
     "emoji": "🗂️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1153,7 +1153,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Network Topology Defines The Physical Or",
+    "title": "Network Topology Defines The Physical",
     "text": "Network topology defines the physical or logical arrangement of nodes (computers, printers, servers) and the connections (links) between them in a computer network.",
     "emoji": "🗂️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -3196,7 +3196,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "CSS Can Be Applied To HTML Documents In",
+    "title": "Inline, internal, and external CSS: when",
     "text": "CSS can be applied to HTML documents in three ways: inline CSS uses the style attribute directly on an element for one-off styling; internal CSS places style rules inside a <style> element within the document's <head> for page-specific designs; external CSS",
     "emoji": "🗂️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -3675,7 +3675,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Safe Browsing Habits Refer To The",
+    "title": "Safe Browsing Habits",
     "text": "Safe browsing habits refer to the practices users adopt to protect their data and privacy while navigating the web, centred on verifying HTTPS encryption, validating digital certificates issued by trusted Certificate Authorities (CAs), and identifying",
     "emoji": "🗂️",
     "bgColor": "from-amber-400 to-orange-500"

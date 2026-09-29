@@ -6,13 +6,13 @@ import C12_GeoPopulationDistributionCBSESim from '../../../simulations/c6_12_new
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_geopopulationdistributioncbsesim: SimDef = {
     id: 'v3w_c12_geopopulationdistributioncbsesim',
-    title: 'Geo Population Distribution CBSE',
+    title: 'World Population Distribution: Patterns and Factors',
     subtitle: 'Covers global patterns of population distribution, the 10 most populous countries (6 in.',
     classLevel: 12, subject: 'science', topic: 'World Population Distribution: Patterns and Factors',
     chapters: [],
     nodeIds: ['c12_geo_cbse_02_001', 'c12_geo_cbse_02_002', 'c12_geo_cbse_02_003', 'c12_geo_cbse_02_004', 'c12_geo_cbse_02_007', 'c12_geo_cbse_02_009', 'c12_geo_cbse_02_010', 'c12_geo_cbse_09_001', 'c12_geo_cbse_09_002', 'c12_geo_cbse_09_003', 'c12_geo_cbse_09_006', 'c12_geo_cbse_09_007', 'c12_geo_cbse_09_008', 'c12_geo_cbse_09_011', 'c12_geo_cbse_05_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Begin by asking students to observe a night-time satellite image of Earth — bright clusters reveal where.', goal: 'Master Geo Population Distribution CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Begin by asking students to observe a night-time satellite image of Earth — bright clusters reveal where.', goal: 'Master World Population Distribution: Patterns and Factors.' },
     discovery: {
         question: 'Define crude population density and give its formula with units.',
         options: ['Crude population density = Total population / Total land area', 'high crude density = high population pressure everywhere', '"high crude density = high population pressure everywhere'],
@@ -80,7 +80,7 @@ export const w_c12_geopopulationdistributioncbsesim: SimDef = {
             { text: 'New percentages — Primary = 42.5%. Secondary = 12.5%. Tertiary = 45%.', faded: true, blankAnswer: 'Current: Primary 50%, Secondary 5%, Tertiary 45%. Post-SEZ.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_geo_cbse_02_002', title: 'Identify each idea',
-          dissect: { specimen: 'Geo Population Distribution CBSE', spots: [
+          dissect: { specimen: 'World Population Distribution: Patterns and Factors', spots: [
             { id: 's1', label: 'World population distribution refers to', prompt: 'Which idea is this? — World population distribution refers to the spatial arrangement of human populations.', answer: 'World population distribution refers to', options: ['World population distribution refers to', 'Population density is the ratio', 'Geographical factors affecting population distribution', 'Economic factors mineral deposits industrialization'] },
             { id: 's2', label: 'Population density is the ratio', prompt: 'Which idea is this? — Population density is the ratio of human population to land area, expressed as persons.', answer: 'Population density is the ratio', options: ['Population density is the ratio', 'World population distribution refers to', 'Geographical factors affecting population distribution', 'Economic factors mineral deposits industrialization'] },
             { id: 's3', label: 'Geographical factors affecting population distribution', prompt: 'Which idea is this? — Geographical factors affecting population distribution refer to the natural environmental.', answer: 'Geographical factors affecting population distribution', options: ['Geographical factors affecting population distribution', 'World population distribution refers to', 'Population density is the ratio', 'Economic factors mineral deposits industrialization'] },
@@ -89,7 +89,7 @@ export const w_c12_geopopulationdistributioncbsesim: SimDef = {
             { id: 's6', label: 'Occupational structure refers to the', prompt: 'Which idea is this? — Occupational structure refers to the distribution of the working population across.', answer: 'Occupational structure refers to the', options: ['Occupational structure refers to the', 'World population distribution refers to', 'Population density is the ratio', 'Geographical factors affecting population distribution'] }
           ] } }
     ],
-    explore: { component: C12_GeoPopulationDistributionCBSESim, prompt: 'Explore the interactive — Geo Population Distribution CBSE' },
+    explore: { component: C12_GeoPopulationDistributionCBSESim, prompt: 'Explore the interactive — World Population Distribution: Patterns and Factors' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_02_001', difficulty: 'standard',
           question: 'World population distribution refers to the spatial arrangement of human.',

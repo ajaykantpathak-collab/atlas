@@ -19,7 +19,7 @@ export const c11_eng_h_ch03_p3: SimDef = {
         hook: 'This is a cold case, not a chronicle — every jump backward is a clue the 2005 scan was called in to read.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the disciplined process of actively examining a text\'s explicit and implicit meanings, evaluating the author\'s evidence and perspective, and synthesizing.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Discovering Tut: the Saga Continues\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_03_013', title: 'Your mission',
@@ -29,21 +29,21 @@ export const c11_eng_h_ch03_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_03_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a member of the ethics committee deciding whether the CT scan of King Tut should have been performed.',
+          caseStudy: { intro: 'Analyse \'Discovering Tut: the Saga Continues\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'Define "forensic reconstruction" as used in the context of the chapter and state its primary purpose in the investigation of King Tut\'s.', options: [
                 { text: 'Forensic reconstruction is the scientific process of recreating the likely physical', outcome: 'Forensic reconstruction is the scientific process of recreating the likely physical appearance and.' },
                 { text: 'rebuilding the tomb', outcome: 'Not quite — Students often believe "critical thinking" in English means **criticizing the text** (finding.', reveals: 'critical-thinking-in-english-means' },
                 { text: 'restoring the gold mask', outcome: 'Not quite — Students often believe "critical thinking" in English means **criticizing the text** (finding.', reveals: 'critical-thinking-in-english-means' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_03_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are a correspondent for a national daily assigned to cover the night King Tut\'s mummy underwent a CT scan in the Valley of the Kings.',
+          caseStudy: { intro: 'For written answers on \'Discovering Tut: the Saga Continues\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the mandatory structural element that distinguishes a formal report from an article in CBSE Class 11 English Core?', options: [
                 { text: 'A formal report requires a headline, byline (reporter\'s name/designation), and a lead', outcome: 'A formal report requires a headline, byline (reporter\'s name/designation), and a lead paragraph.' },
                 { text: 'both need a headline and byline only', outcome: 'Not quite — Students treat "writing based on the chapter" as summarizing the story in the chosen format.', reveals: 'students-treat-writing-based-on' },
                 { text: 'content from the chapter', outcome: 'Not quite — Students treat "writing based on the chapter" as summarizing the story in the chosen format.', reveals: 'students-treat-writing-based-on' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_03_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are part of a museum ethics committee deciding whether to scan a newly discovered mummy using invasive technology.',
+          caseStudy: { intro: 'Talk through \'Discovering Tut: the Saga Continues\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the four specific discussion prompts given in the NCERT "Talking about the text" section for this chapter?', options: [
                 { text: 'The four prompts are: (1) Scientific intervention is necessary to unearth buried mysteries', outcome: 'The four prompts are: (1) Scientific intervention is necessary to unearth buried mysteries.' },
                 { text: 'curse of the pharaoh', outcome: 'Not quite — Students treat "discussion" as sharing personal opinions ("I feel Tut shouldn\'t be scanned") rather.', reveals: 'students-treat-discussion-as-sharing' },
@@ -68,7 +68,7 @@ export const c11_eng_h_ch03_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the disciplined process of actively.',
+          question: 'Critical thinking on \'Discovering Tut: the Saga Continues\' — analysing the text.',
           hint: 'If stuck, review the "Understanding the text" Q1 (reasons) and Q2 (listing deeds/results).',
           misconception: 'Students often believe "critical thinking" in English means **criticizing the text** (finding faults with the author\'s.',
           parts: [
@@ -90,7 +90,7 @@ export const c11_eng_h_ch03_p3: SimDef = {
           ],
             remediations: { 'critical-thinking-in-english-means': { steps: ['**Clarify the terminology**: Write "Critical = Critique (judgment of merit)" vs.', '"Critical = Analysis (dissection of parts)" on the board.', 'Ask the student to sort 5 sample statements into the two columns.', '**Model the shift**: Take a simple complaint ("The ending was boring") and collaboratively transform it into.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_014', difficulty: 'standard',
-          question: 'Writing skills based on "Discovering Tut: the Saga Continues" involve composing.',
+          question: 'Writing skills from \'Discovering Tut: the Saga Continues\' — using the text as.',
           hint: 'Review c11_eng_h_cbse_03_012 (comprehension) for factual extraction and c6_english_u5_049.',
           misconception: 'Students treat "writing based on the chapter" as summarizing the story in the chosen format.',
           parts: [
@@ -101,7 +101,7 @@ export const c11_eng_h_ch03_p3: SimDef = {
           ],
             remediations: { 'students-treat-writing-based-on': { steps: ['Give the student two sample reports on the same event: one a chronological summary (flawed), one a news report with.', 'Ask them to highlight the 5Ws in the lead of the model and identify which chronological details were dropped.', 'Have them rewrite the flawed summary into a report by extracting only the scan-night details and adding.', 'Provide a checklist: "Does my lead answer Who/What/When/Where/Why?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Discovering Tut: the Saga Continues\' — speaking and.',
           hint: 'If stuck, review the "Archaeology has changed substantially" paragraph (page 24-25) and.',
           misconception: 'Students treat "discussion" as sharing personal opinions ("I feel Tut shouldn\'t be scanned") rather than evidence-based.',
           parts: [

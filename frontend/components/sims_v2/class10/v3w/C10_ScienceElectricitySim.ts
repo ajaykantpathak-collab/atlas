@@ -6,13 +6,13 @@ import C10_ScienceElectricitySim from '../../../simulations/c6_12/C10_ScienceEle
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_scienceelectricitysim: SimDef = {
     id: 'v3w_c10_scienceelectricitysim',
-    title: 'Electricity',
+    title: 'Electric Current: Definition and Unit (Ampere)',
     subtitle: 'This node covers the definition of electric current, its SI unit (ampere), the formula I.',
     classLevel: 10, subject: 'science', topic: 'Electric Current: Definition and Unit (Ampere)',
     chapters: [],
     nodeIds: ['c10_phy_cbse_01_001', 'c10_phy_cbse_01_002', 'c10_phy_cbse_01_003', 'c10_phy_cbse_01_004', 'c10_phy_cbse_01_005', 'c10_phy_cbse_01_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Observe a ceiling fan in your classroom: when you flip the switch, the fan starts rotating almost instantly.', goal: 'Master Electricity.' },
+    scenario: { role: 'a class 10 learner', intro: 'Observe a ceiling fan in your classroom: when you flip the switch, the fan starts rotating almost instantly.', goal: 'Master Electric Current: Definition and Unit (Ampere).' },
     discovery: {
         question: 'A charge of 300 coulombs passes through a cross-section of a wire in 5 minutes. Calculate the electric current in amperes. Show all steps with units.',
         options: ['Given: Q = 300 C, t = 5 min = 5 × 60 = 300 s', 'current gets used up', 'current is less after passing through a bulb'],
@@ -78,7 +78,7 @@ export const w_c10_scienceelectricitysim: SimDef = {
             { text: 'Verify reasonableness: 1 kW heater for 15 min → 0.25 kWh = 9 × 10⁵ J. Typical household heater energy.', faded: true, blankAnswer: '(a) I = 4.55 A, (b) R = 48.4 Ω, (c) H = 9 × 10⁵ J' }
             ] } },
         { type: 'dissect', nodeId: 'c10_phy_cbse_01_002', title: 'Identify each idea',
-          dissect: { specimen: 'Electricity', spots: [
+          dissect: { specimen: 'Electric Current: Definition and Unit (Ampere)', spots: [
             { id: 's1', label: 'Electric current is the rate', prompt: 'Which idea is this? — Electric current is the rate of flow of electric charge through a conductor.', answer: 'Electric current is the rate', options: ['Electric current is the rate', 'Electric potential at a point', 'Ohms Law states that the', 'Resistance is the property of'] },
             { id: 's2', label: 'Electric potential at a point', prompt: 'Which idea is this? — Electric potential at a point in an electric field is the work done per unit positive.', answer: 'Electric potential at a point', options: ['Electric potential at a point', 'Electric current is the rate', 'Ohms Law states that the', 'Resistance is the property of'] },
             { id: 's3', label: 'Ohms Law states that the', prompt: 'Which idea is this? — Ohm\'s Law states that the electric current flowing through a conductor is directly.', answer: 'Ohms Law states that the', options: ['Ohms Law states that the', 'Electric current is the rate', 'Electric potential at a point', 'Resistance is the property of'] },
@@ -87,7 +87,7 @@ export const w_c10_scienceelectricitysim: SimDef = {
             { id: 's6', label: 'Joules Law states that the', prompt: 'Which idea is this? — Joule\'s Law states that the heat produced in a conductor is directly proportional to the.', answer: 'Joules Law states that the', options: ['Joules Law states that the', 'Electric current is the rate', 'Electric potential at a point', 'Ohms Law states that the'] }
           ] } }
     ],
-    explore: { component: C10_ScienceElectricitySim, prompt: 'Explore the interactive — Electricity' },
+    explore: { component: C10_ScienceElectricitySim, prompt: 'Explore the interactive — Electric Current: Definition and Unit (Ampere)' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_phy_cbse_01_001', difficulty: 'standard',
           question: 'Electric current is the rate of flow of electric charge through a conductor.',

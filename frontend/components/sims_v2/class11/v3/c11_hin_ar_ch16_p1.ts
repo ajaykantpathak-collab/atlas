@@ -19,7 +19,7 @@ export const c11_hin_ar_ch16_p1: SimDef = {
         hook: 'The poem\'s \'let\'s hide/save\' means both conceal and protect — the insider-outsider poet wraps language around wounds so they can be witnessed without being exposed.',
     },
     teaching: [
-        { title: 'आओ, मलिकर बचाएँ — कवि परिचय और पृष्ठभूमि', text: 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के जीवन-परिचय (जन्म, शिक्षा, प्रमुख रचनाएँ, साहित्यिक योगदान) तथा कविता लिखे जाने के ऐतिहासिक, सामाजिक, सांस्कृतिक एवं व्यक्तिगत संदर्भ (पृष्ठभूमि) का व्यवस्थित.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'आओ, मलिकर बचाएँ — कवि परिचय और पृष्ठभूमि', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_16_001', title: 'Your mission',
@@ -28,8 +28,22 @@ export const c11_hin_ar_ch16_p1: SimDef = {
         context: 'Track the three-stanza arc — invitation, catalog of burdens, quiet resistance — and test whether the shape is inevitable or arbitrary.',
         labels: ['आओ, मलिकर बचाएँ —'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_16_001', title: 'आओ, मलिकर बचाएँ — कवि परिचय और पृष्ठभूमि',
+          caseStudy: { intro: 'आरोह भाग-1 खोलिए और पाठ 16 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: 'Who is the poet of "vkvks] feydj cpk,¡" and what are the two key biographical details that shape his poetic perspective?', options: [
+                { text: 'The poet is FueZyk iqrqy (born 1972, Nagpur, Maharashtra)', outcome: 'The poet is FueZyk iqrqy (born 1972, Nagpur, Maharashtra). The two key details: (1) he was born.' },
+                { text: 'Before You Read', outcome: 'Not quite — Students treat "Before You Read" as optional background trivia—memorising the poet\'s birth year and.', reveals: 'students-treat-before-you-read' },
+                { text: 'a different poet or giving only birth year', outcome: 'Not quite — Students treat "Before You Read" as optional background trivia—memorising the poet\'s birth year and.', reveals: 'students-treat-before-you-read' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_ar_cbse_16_002', title: 'आओ, मलिकर बचाएँ — पद्यांश-वार भावार्थ',
+          caseStudy: { intro: '\'वक्वक्स] फेद्ज च्प्क,¡\' का क्रम: शुरुआत वक्वक्स]-फेद्ज-च्प्क से, घटनाएँ बढ़ती हैं, अंत \'वक्वक्स] फेद्ज च्प्क,¡\' का केंद्रीय भाव और संदेश पर।',
+            decisions: [{ prompt: 'What is the primary structural movement from stanza one to stanza three in "vkvks] feydj cpk,¡"?', options: [
+                { text: 'The poem moves from a direct imperative address ("come, let\'s hide") in stanza one, to an', outcome: 'The poem moves from a direct imperative address ("come, let\'s hide") in stanza one, to an expansive.' },
+                { text: 'three stanzas', outcome: 'Not quite — Students treat "narrative structure" in poetry as merely counting stanzas or identifying.', reveals: 'students-treat-narrative-structure-in' },
+                { text: 'hiding theme', outcome: 'Not quite — Students treat "narrative structure" in poetry as merely counting stanzas or identifying.', reveals: 'students-treat-narrative-structure-in' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_16_004', title: 'आओ, मलिकर बचाएँ — केंद्रीय भाव और रस',
-          caseStudy: { intro: 'Have you ever listened to an old folk song your grandmother sings and felt a sudden, sharp ache — not just nostalgia, but a panic that *you* might be the last.',
+          caseStudy: { intro: 'मुख्य पात्र की पहचान, कार्य और विकास — \'वक्वक्स] फेद्ज च्प्क,¡\' में वक्वक्स]-फेद्ज-च्प्क से पात्र उभरता है।',
             decisions: [{ prompt: 'केंद्रीय भाव (Central Emotion) और विषय (Theme/Subject) में मूलभूत अंतर क्या है?', options: [
                 { text: '**Correct Answer:** विषय (Theme) कविता का *विषय-वस्तु* है', outcome: '**Correct Answer:** विषय (Theme) कविता का *विषय-वस्तु* है — यहाँ "मलिकर नामक लोककला/वाद्य का.' },
                 { text: 'मलिकर नामक लोककला/वाद्य का संरक्षण', outcome: 'Not quite — **Specific Error:** Students mechanically apply the *definition* of Karuna Rasa ("दुःख स्थायी भाव").', reveals: 'specific-error-students-mechanically-apply' },
@@ -54,40 +68,55 @@ export const c11_hin_ar_ch16_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_16_001', difficulty: 'standard',
-          question: 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के जीवन-परिचय (जन्म, शिक्षा, प्रमुख.',
-          hint: 'If stuck, review Class 10 Hindi \'काव्य सौंदर्य\' or \'साहित्य परिचय\' chapters covering.',
-          misconception: '**विशिष्ट भ्रांति:** "कवि परिचय = जन्मतिथि, मृत्युतिथि, प्रसिद्ध रचनाओं की सूची रट लेना।" **क्यों होती है:** कक्षा 10.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, review the Class 10 Hindi "Before You Read" sections (e.g., for "Kabir".',
+          misconception: 'Students treat "Before You Read" as optional background trivia—memorising the poet\'s birth year and birthplace—rather.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के जीवन-परिचय (जन्म, शिक्षा, प्रमुख रचनाएँ,',
-                  options: ['कवि परिचय और पृष्ठभूमि का अर्थ है कवि के जीवन-परिचय (जन्म, शिक्षा, प्रमुख रचनाएँ,', 'पद्यांश-वार भावार्थ, कविता के प्रत्येक पद/पंक्ति समूह के शब्दों, प्रसंग, अलंकार और', 'काव्य-संरचना (Poetic Structure) से तात्पर्य कविता के बाह्य रूप-विधान से है जिसमें पद/छंद', '**केंद्रीय भाव (Central Emotion)** is the poet\'s core, synthesized attitude toward the'],
-                  hint: 'If stuck, review Class 10 Hindi \'काव्य सौंदर्य\' or \'साहित्य परिचय\' chapters covering प्रगतिशील.',
-                  misconception: '**विशिष्ट भ्रांति:** "कवि परिचय = जन्मतिथि, मृत्युतिथि, प्रसिद्ध रचनाओं की सूची रट लेना।" **क्यों होती है:** कक्षा 10 तक \'जीवन परिचय\'.' }
+                { id: 'a', prompt: 'Who is the poet of "vkvks] feydj cpk,¡" and what are the two key biographical details that shape his poetic perspective?', answer: 'The poet is FueZyk iqrqy (born 1972, Nagpur, Maharashtra)',
+                  options: ['The poet is FueZyk iqrqy (born 1972, Nagpur, Maharashtra)', 'Before You Read', 'a different poet or giving only birth year'],
+                  hint: 'If stuck, review the Class 10 Hindi "Before You Read" sections (e.g., for "Kabir" or "Meera") and.',
+                  misconception: 'Students treat "Before You Read" as optional background trivia—memorising the poet\'s birth year and birthplace—rather than as a *reading.' },
+                { id: 'b', prompt: 'The note states the poem uses ">kj[kaMhiu Hkk"kk" (Nagpuri dialect/language).', answer: '"tyok;q" signals the poem\'s rootedness in spoken Nagpuri, marking the voice as',
+                  options: ['"tyok;q" signals the poem\'s rootedness in spoken Nagpuri, marking the voice as', 'it means the same thing'],
+                  hint: 'If stuck, review the Class 10 Hindi "Before You Read" sections (e.g., for "Kabir" or "Meera") and.',
+                  misconception: 'Students treat "Before You Read" as optional background trivia—memorising the poet\'s birth year and birthplace—rather than as a *reading.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**चरण 1:** छात्र से कहें: "कवि की **तीन प्रमुख जीवन-घटनाएँ** लिखो जो तुम्हें **भावनात्मक रूप से उद्वेलित (emotionally.', 'संबोधन?" **चरण 3:** अब कविता खोलें और **एक-एक पंक्ति** के आगे वही तीर खींचें: "यह पंक्ति किस घटना से निकली?" **चरण 4:**.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-before-you-read': { steps: ['If a student cannot articulate the two societies and their contradiction, do not re-read the note passively.', 'Instead: (1) Have them draw a two-column table: left column "vkfnoklh lekt" — list 4 concrete details from the note.', '(2) Ask them to draw arrows where the note says the city *reproduces* village oppressions.', '(3) Have them write one sentence using the phrase "fozQ;k&izfrfozQ;k" to describe the relationship.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_16_002', difficulty: 'standard',
-          question: 'पद्यांश-वार भावार्थ, कविता के प्रत्येक पद/पंक्ति समूह के शब्दों, प्रसंग, अलंकार.',
-          hint: 'यदि प्रसंग या प्रतीक समझ न आएँ तो नोड 16_001 (कवि परिचय) और नोड 16_007 (प्रतीक और बिंब).',
-          misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि भावार्थ लिखने का अर्थ है **प्रत्येक शब्द का समानार्थी लिख देना** या **पंक्तियों.',
+          question: '\'वक्वक्स] फेद्ज च्प्क,¡\' का कथानक — \'वक्वक्स] फेद्ज च्प्क,¡\' — आरोह भाग-1 का.',
+          hint: 'Review the concept of "rhetorical structure" in c11_hin_ar_cbse_16_001 — specifically how.',
+          misconception: 'Students treat "narrative structure" in poetry as merely counting stanzas or identifying beginning/middle/end.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्यांश-वार भावार्थ, कविता के प्रत्येक पद/पंक्ति समूह के शब्दों, प्रसंग, अलंकार और',
-                  options: ['पद्यांश-वार भावार्थ, कविता के प्रत्येक पद/पंक्ति समूह के शब्दों, प्रसंग, अलंकार और', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के जीवन-परिचय (जन्म, शिक्षा, प्रमुख रचनाएँ,', 'काव्य-संरचना (Poetic Structure) से तात्पर्य कविता के बाह्य रूप-विधान से है जिसमें पद/छंद', '**केंद्रीय भाव (Central Emotion)** is the poet\'s core, synthesized attitude toward the'],
-                  hint: 'यदि प्रसंग या प्रतीक समझ न आएँ तो नोड 16_001 (कवि परिचय) और नोड 16_007 (प्रतीक और बिंब) दोबारा.',
-                  misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि भावार्थ लिखने का अर्थ है **प्रत्येक शब्द का समानार्थी लिख देना** या **पंक्तियों का क्रमशः हिंदी.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वक्वक्स] फेद्ज च्प्क,¡\' का कथानक',
+                  options: ['\'वक्वक्स] फेद्ज च्प्क,¡\' का कथानक', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वक्वक्स] फेद्ज च्प्क,¡\' का पाठ्य-परिवेश (setting)', '\'वक्वक्स] फेद्ज च्प्क,¡\' का पात्र-चित्रण'],
+                  hint: 'Review the concept of "rhetorical structure" in c11_hin_ar_cbse_16_001 — specifically how Punjabi.',
+                  misconception: 'Students treat "narrative structure" in poetry as merely counting stanzas or identifying beginning/middle/end.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र से कहें: "कविता की कोई एक पंक्ति लो और बताओ — कवि ने *यही शब्द क्यों चुना*, उसकी जगह दूसरा शब्द क्यों नहीं?".', 'उसी पंक्ति का **शब्दार्थ → प्रसंगार्थ → भावार्थ** तीन कॉलम में लिखवाएँ — अंतर स्पष्ट होगा। 3.', 'कक्षा में **दो नमूने** दिखाएँ: (क) कमजोर भावार्थ (केवल अनुवाद) और (ख) सशक्त भावार्थ (प्रसंग+व्यंजना+अलंकार+केंद्रीय.', 'गृहकार्य: प्रतिदिन एक पद्यांश का भावार्थ लिखें और सहपाठी से जँचवाएँ — \'क्या इसमें कवि की वेदना/आह्वान झलक रहा है?\' इस.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-narrative-structure-in': { steps: ['Have the student physically map the poem: draw three boxes labeled "Invitation," "The World," "The Return" and place.', 'Ask them to read only the first lines of each stanza aloud: "vkvks] feydj cpk,¡" → "Hkhrj dh vkx" → "vkvks] feydj.', 'Give them a scrambled version of stanza 2\'s phrases and ask them to reorder — they\'ll discover no "correct" order.', 'Finally, have them rewrite stanza 3 as a question ("Is there still much to hide?") — they\'ll feel how the declarative.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_ar_cbse_16_002', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students treat "narrative structure" in poetry as merely counting stanzas or identifying beginning/middle/end.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate whether the poem\'s three-stanza structure is inevitable or arbitrary. Could the same content work in two stanzas or five?', answer: 'The three-stanza structure is inevitable',
+                  options: ['The three-stanza structure is inevitable', 'poet\'s choice', 'any number works'],
+                  hint: 'Review the concept of "rhetorical structure" in c11_hin_ar_cbse_16_001 — specifically how Punjabi.',
+                  misconception: 'Students treat "narrative structure" in poetry as merely counting stanzas or identifying beginning/middle/end.' }
+          ],
+            remediations: { 'students-treat-narrative-structure-in': { steps: ['Have the student physically map the poem: draw three boxes labeled "Invitation," "The World," "The Return" and place.', 'Ask them to read only the first lines of each stanza aloud: "vkvks] feydj cpk,¡" → "Hkhrj dh vkx" → "vkvks] feydj.', 'Give them a scrambled version of stanza 2\'s phrases and ask them to reorder — they\'ll discover no "correct" order.', 'Finally, have them rewrite stanza 3 as a question ("Is there still much to hide?") — they\'ll feel how the declarative.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_16_003', difficulty: 'standard',
-          question: 'काव्य-संरचना (Poetic Structure) से तात्पर्य कविता के बाह्य रूप-विधान से है.',
+          question: '\'वक्वक्स] फेद्ज च्प्क,¡\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और.',
           hint: 'If stuck, revisit c11_hin_ar_cbse_16_002 and create a 4-row table: Stanza | Core Meaning.',
           misconception: 'विद्यार्थी अक्सर समझते हैं कि \'काव्य-संरचना\' का अर्थ केवल \'पद गिनना\' या \'तुक मिलाना\' है। वे यह नहीं देखते कि कवि ने.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य-संरचना (Poetic Structure) से तात्पर्य कविता के बाह्य रूप-विधान से है जिसमें पद/छंद',
-                  options: ['काव्य-संरचना (Poetic Structure) से तात्पर्य कविता के बाह्य रूप-विधान से है जिसमें पद/छंद', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के जीवन-परिचय (जन्म, शिक्षा, प्रमुख रचनाएँ,', 'पद्यांश-वार भावार्थ, कविता के प्रत्येक पद/पंक्ति समूह के शब्दों, प्रसंग, अलंकार और', '**केंद्रीय भाव (Central Emotion)** is the poet\'s core, synthesized attitude toward the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वक्वक्स] फेद्ज च्प्क,¡\' का पाठ्य-परिवेश (setting)',
+                  options: ['\'वक्वक्स] फेद्ज च्प्क,¡\' का पाठ्य-परिवेश (setting)', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वक्वक्स] फेद्ज च्प्क,¡\' का कथानक', '\'वक्वक्स] फेद्ज च्प्क,¡\' का पात्र-चित्रण'],
                   hint: 'If stuck, revisit c11_hin_ar_cbse_16_002 and create a 4-row table: Stanza | Core Meaning | Key.',
                   misconception: 'विद्यार्थी अक्सर समझते हैं कि \'काव्य-संरचना\' का अर्थ केवल \'पद गिनना\' या \'तुक मिलाना\' है। वे यह नहीं देखते कि कवि ने *क्यों* तीसरे पद को 4.' }
           ],
             remediations: { '4-6-structural-silence-structural': { steps: ['चरण 1: विद्यार्थी से कहें — "कविता को फिर से पढ़ो, लेकिन इस बार आँखें बंद करके केवल *सुनो*: कहाँ तुम्हारी साँस.', 'वहीं पद-भंग (stanza break) है।" चरण 2: प्रत्येक पद की अंतिम पंक्ति को रेखांकित करो और पूछो: "यह पंक्ति अगले पद की पहली.', 'विरोध?" चरण 3: एक टेबल बनाओ: स्तंभ 1 = पद संख्या, स्तंभ 2 = पंक्ति संख्या, स्तंभ 3 = भाव-कार्य.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_16_004', difficulty: 'standard',
-          question: '**केंद्रीय भाव (Central Emotion)** is the poet\'s core, synthesized attitude.',
+          question: '\'वक्वक्स] फेद्ज च्प्क,¡\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और.',
           hint: 'If stuck, review **Class 10 Hindi (Kshitij/Kritika) Chapter on "रस और उसके भेद"**.',
           misconception: '**Specific Error:** Students mechanically apply the *definition* of Karuna Rasa ("दुःख स्थायी भाव") and Veer Rasa.',
           parts: [
@@ -106,27 +135,27 @@ export const c11_hin_ar_ch16_p1: SimDef = {
           ],
             remediations: { 'specific-error-students-mechanically-apply': { steps: ['**Step-by-Step Remediation:** 1.', '**Concrete Re-enactment:** Ask the student to recall a *personal* moment where grief turned into determined action.', 'Have them label their *own* shifting संचारी भाव: विषाद → चिंता → निश्चय → उत्साह। This grounds the abstract theory.', '**Text Mapping with Arrows:** Print the poem.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_16_005', difficulty: 'standard',
-          question: 'छंद कविता का वह निश्चित छंदोबद्ध रूप है जिसमें प्रत्येक चरण (पंक्ति) की.',
+          question: '\'वक्वक्स] फेद्ज च्प्क,¡\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ.',
           hint: 'यदि मात्रा गिनने में अटकें तो **\'मात्रा-गणना नियम कार्ड\'** (Guru-Laghu Rule Card) बनाकर.',
           misconception: 'छात्र समझते हैं कि **छंद = तुकबंदी (Rhyme)**। वे पंक्ति के अंतिम शब्दों का मिलान (जैसे \'बचाएँ/बताएँ\') देखकर छंद पहचान.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'छंद कविता का वह निश्चित छंदोबद्ध रूप है जिसमें प्रत्येक चरण (पंक्ति) की मात्राओं की',
-                  options: ['छंद कविता का वह निश्चित छंदोबद्ध रूप है जिसमें प्रत्येक चरण (पंक्ति) की मात्राओं की', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के जीवन-परिचय (जन्म, शिक्षा, प्रमुख रचनाएँ,', 'पद्यांश-वार भावार्थ, कविता के प्रत्येक पद/पंक्ति समूह के शब्दों, प्रसंग, अलंकार और', 'काव्य-संरचना (Poetic Structure) से तात्पर्य कविता के बाह्य रूप-विधान से है जिसमें पद/छंद'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वक्वक्स] फेद्ज च्प्क,¡\' के सहायक पात्र',
+                  options: ['\'वक्वक्स] फेद्ज च्प्क,¡\' के सहायक पात्र', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वक्वक्स] फेद्ज च्प्क,¡\' का कथानक', '\'वक्वक्स] फेद्ज च्प्क,¡\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि मात्रा गिनने में अटकें तो **\'मात्रा-गणना नियम कार्ड\'** (Guru-Laghu Rule Card) बनाकर रखें: दीर्घ.',
                   misconception: 'छात्र समझते हैं कि **छंद = तुकबंदी (Rhyme)**। वे पंक्ति के अंतिम शब्दों का मिलान (जैसे \'बचाएँ/बताएँ\') देखकर छंद पहचान लेते हैं और मात्रिक.' }
           ],
             remediations: { 'rhyme': { steps: ['**मात्रा-गणना अभ्यास**: छात्र को प्रतिदिन 5 पंक्तियाँ (पाठ्यपुस्तक से) देकर गुरु-लघु चिह्नित करवाएँ: दीर्घ स्वर (आ, ई.', '**छंद-लक्षण चार्ट** बनवाएँ: मत्तगयंद/रोला/हरिगीतिका/दोहा के लक्षण (मात्रा, यति, गति) एक टेबल में भरवाएँ। 3.', '**तुलनात्मक पठन**: उसी भाव को दो छंदों में पढ़वाएँ (मत्तगयंद vs रोला) और पूछें — "कौन-सा छंद आंदोलन का आह्वान लगता है?".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_16_006', difficulty: 'standard',
-          question: 'अलंकार (Alankar) काव्य की वह साहित्यिक युक्ति है जिसमें शब्दों या अर्थों की.',
-          hint: 'If stuck, revisit c11_hin_ar_cbse_16_002 and write a one-sentence summary of each stanza.',
-          misconception: 'Students treat alankar identification as a "labeling game" — they memorize definitions (e.g., "upama uses jaise") and.',
+          question: '\'वक्वक्स] फेद्ज च्प्क,¡\' का मुख्य विषय — \'वक्वक्स] फेद्ज च्प्क,¡\' का केंद्रीय.',
+          hint: 'If stuck, return to **c11_hin_ar_cbse_16_010 (Vocabulary)** and **c11_hin_ar_cbse_16_002.',
+          misconception: 'Students conflate **"embrace" (cpk,¡ / tyok;q)** with **"endure" (bFkZ djuk)** or **"overcome" (ck<+uk)**.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार (Alankar) काव्य की वह साहित्यिक युक्ति है जिसमें शब्दों या अर्थों की विशेष रचना',
-                  options: ['अलंकार (Alankar) काव्य की वह साहित्यिक युक्ति है जिसमें शब्दों या अर्थों की विशेष रचना', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के जीवन-परिचय (जन्म, शिक्षा, प्रमुख रचनाएँ,', 'पद्यांश-वार भावार्थ, कविता के प्रत्येक पद/पंक्ति समूह के शब्दों, प्रसंग, अलंकार और', 'काव्य-संरचना (Poetic Structure) से तात्पर्य कविता के बाह्य रूप-विधान से है जिसमें पद/छंद'],
-                  hint: 'If stuck, revisit c11_hin_ar_cbse_16_002 and write a one-sentence summary of each stanza in your.',
-                  misconception: 'Students treat alankar identification as a "labeling game" — they memorize definitions (e.g., "upama uses jaise") and hunt for keywords.' }
+                { id: 'a', prompt: 'Apply the \'embrace\' framework to a new context: A student fails their Class 11 mid-term exams.', answer: '1) The shame of failure → embracing it builds empathy for others struggling',
+                  options: ['1) The shame of failure → embracing it builds empathy for others struggling', 'study harder', 'ask teacher for help'],
+                  hint: 'If stuck, return to **c11_hin_ar_cbse_16_010 (Vocabulary)** and **c11_hin_ar_cbse_16_002.',
+                  misconception: 'Students conflate **"embrace" (cpk,¡ / tyok;q)** with **"endure" (bFkZ djuk)** or **"overcome" (ck<+uk)**.' }
           ],
-            remediations: { 'students-treat-alankar-identification-as': { steps: ['Take any 3 lines from the poem where alankar occurs.', 'Force the student to rewrite the line *literally* (without alankar) — e.g., "मलिकर सूख रहे हैं" instead of "मलिकर रो.', 'Ask: "What did we lose? What feeling vanished?"', 'Have them write the answer in this template: "अलंकार: X | शाब्दिक रूप: Y | खोया हुआ भाव: Z | इसलिए कवि ने X चुना।".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-conflate-embrace-cpk': { steps: ['1) **Re-read the vocabulary box**: Have the student write "cpk,¡ = tyok;q = to hold close, to hug, to welcome" — NOT.', '3) **Trace the verb**: Have them circle every occurrence of "cpk,¡" and its implied objects (vkcks&gok, vD[kM+iu.', 'a moment they *told* a crying friend "be strong." The physical memory of embrace vs.', 'instruction unlocks the distinction.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

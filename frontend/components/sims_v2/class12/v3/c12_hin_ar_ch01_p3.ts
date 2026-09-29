@@ -19,7 +19,7 @@ export const c12_hin_ar_ch01_p3: SimDef = {
         hook: 'Muktibodh wasn\'t a छायावादी dreamer — he was Progressive: class, institutions, the writer\'s complicity. As academic and state functionary both, his \'I\' is lived conflict — self-pity becomes a calculated indictment of the intellectual inside the machine.',
     },
     teaching: [
-        { title: 'आत्मपरचिय, एक गीत — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण किसी काव्यांश के शब्दों, प्रतीकों, बिंबों और प्रसंग के आधार पर कवि के अभिप्रेत गहन भाव, उद्देश्य और संदेश को तार्किक क्रम में स्पष्ट करने की प्रक्रिया है, जिसमें पाठ्य-साक्ष्य (Textual.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'आत्मपरचिय, एक गीत — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: '\'विराम चिह्न\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_01_013', title: 'Your mission',
@@ -47,34 +47,34 @@ export const c12_hin_ar_ch01_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_01_013', difficulty: 'standard',
-          question: 'आशय-स्पष्टीकरण किसी काव्यांश के शब्दों, प्रतीकों, बिंबों और प्रसंग के आधार पर.',
+          question: '\'विराम चिह्न\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'यदि अटके तो नोड 007 (प्रतीक और बिंब) के \'प्रतीक सारणी\' खंड को दोहराओ — प्रत्येक प्रतीक के.',
           misconception: 'छात्र समझते हैं कि आशय-स्पष्टीकरण का अर्थ है \'कठिन शब्दों के अर्थ लिखना\' या \'पंक्तियों का हिंदी अनुवाद करना\'। वे लिखते.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण किसी काव्यांश के शब्दों, प्रतीकों, बिंबों और प्रसंग के आधार पर कवि के',
-                  options: ['आशय-स्पष्टीकरण किसी काव्यांश के शब्दों, प्रतीकों, बिंबों और प्रसंग के आधार पर कवि के', 'कवि परिचय और पृष्ठभूमि वह साहित्यिक विश्लेषण है जिसमें कवि के जीवन-वृत्त,', 'पद्यांश-वार भावार्थ (Stanza-wise meaning) refers to the detailed, line-by-line', 'काव्य-संरचना (poetic structure) कविता के छंदों, पंक्तियों, विरामों और उनकी परस्पर'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'विराम चिह्न\' का आलोचनात्मक चिंतन',
+                  options: ['\'विराम चिह्न\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'विराम चिह्न\' का कथानक', '\'विराम चिह्न\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके तो नोड 007 (प्रतीक और बिंब) के \'प्रतीक सारणी\' खंड को दोहराओ — प्रत्येक प्रतीक के लिए.',
                   misconception: 'छात्र समझते हैं कि आशय-स्पष्टीकरण का अर्थ है \'कठिन शब्दों के अर्थ लिखना\' या \'पंक्तियों का हिंदी अनुवाद करना\'। वे लिखते हैं: "कवि कहता है वह.' }
           ],
             remediations: { 'wrong-idea': { steps: ['चरण 1: नोड 002 (पद्यांश-वार भावार्थ) और 010 (पदावली) दोबारा पढ़ो — हर पंक्ति का प्रसंगानुकूल अर्थ लिखो। चरण 2: नोड 006.', 'यदि नहीं, तो चरण 2 पर वापस जाओ। यह 45 मिनट का लक्षित अभ्यास (Targeted Drill) तुम्हारी व्याख्या को \'अनुवाद\' से.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_01_014', difficulty: 'standard',
-          question: 'परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) वह संरचित प्रक्रिया है.',
+          question: '\'विराम चिह्न\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि अटकें तो c12_hin_ar_cbse_01_013 के \'आशय-स्पष्टीकरण\' अभ्यास दोहराएँ — वहाँ.',
           misconception: 'छात्र समझते हैं कि \'अच्छा उत्तर\' = \'ज्यादा जानकारी/लंबा उत्तर\'। वे कविता का पूरा भावार्थ रटकर लिख देते हैं (जो उन्होंने.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) वह संरचित प्रक्रिया है जिसमें छात्र',
-                  options: ['परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) वह संरचित प्रक्रिया है जिसमें छात्र', 'कवि परिचय और पृष्ठभूमि वह साहित्यिक विश्लेषण है जिसमें कवि के जीवन-वृत्त,', 'पद्यांश-वार भावार्थ (Stanza-wise meaning) refers to the detailed, line-by-line', 'काव्य-संरचना (poetic structure) कविता के छंदों, पंक्तियों, विरामों और उनकी परस्पर'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'विराम चिह्न\' पर पाठ-आधारित लेखन',
+                  options: ['\'विराम चिह्न\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'विराम चिह्न\' का कथानक', '\'विराम चिह्न\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटकें तो c12_hin_ar_cbse_01_013 के \'आशय-स्पष्टीकरण\' अभ्यास दोहराएँ — वहाँ पंक्ति-दर-पंक्ति.',
                   misconception: 'छात्र समझते हैं कि \'अच्छा उत्तर\' = \'ज्यादा जानकारी/लंबा उत्तर\'। वे कविता का पूरा भावार्थ रटकर लिख देते हैं (जो उन्होंने.' }
           ],
             remediations: { 'c12-hin-ar-cbse-01': { steps: ['चरण 1: छात्र से कहें — "अपना पिछला 5-अंक का उत्तर निकालो और उस पर PEEL के चार रंगों से निशान लगाओ: Point (लाल).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_01_015', difficulty: 'standard',
-          question: '**वाचन-पाठ** कविता को सही उच्चारण, लय, गति और भाव के साथ ज़ोर से पढ़ने की कला.',
+          question: '\'विराम चिह्न\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का.',
           hint: 'यदि अटके तो **c12_hin_ar_cbse_01_002 (पद्यांश-वार भावार्थ)** और **c12_hin_ar_cbse_01_004.',
           misconception: '**भ्रम:** "वाचन-पाठ = तेज़/साफ़ बोलना; चर्चा-बिंदु = प्रश्नोत्तरी के तैयार प्रश्न।" **वास्तविकता:** वाचन **अभिनय नहीं.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**वाचन-पाठ** कविता को सही उच्चारण, लय, गति और भाव के साथ ज़ोर से पढ़ने की कला है जिससे',
-                  options: ['**वाचन-पाठ** कविता को सही उच्चारण, लय, गति और भाव के साथ ज़ोर से पढ़ने की कला है जिससे', 'कवि परिचय और पृष्ठभूमि वह साहित्यिक विश्लेषण है जिसमें कवि के जीवन-वृत्त,', 'पद्यांश-वार भावार्थ (Stanza-wise meaning) refers to the detailed, line-by-line', 'काव्य-संरचना (poetic structure) कविता के छंदों, पंक्तियों, विरामों और उनकी परस्पर'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'विराम चिह्न\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'विराम चिह्न\' पर वाचन-श्रवण और चर्चा-बिंदु', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'विराम चिह्न\' का कथानक', '\'विराम चिह्न\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके तो **c12_hin_ar_cbse_01_002 (पद्यांश-वार भावार्थ)** और **c12_hin_ar_cbse_01_004 (केंद्रीय.',
                   misconception: '**भ्रम:** "वाचन-पाठ = तेज़/साफ़ बोलना; चर्चा-बिंदु = प्रश्नोत्तरी के तैयार प्रश्न।" **वास्तविकता:** वाचन **अभिनय नहीं, भावानुवाद.' }
           ],

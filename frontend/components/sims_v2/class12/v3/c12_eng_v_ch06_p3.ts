@@ -19,31 +19,31 @@ export const c12_eng_v_ch06_p3: SimDef = {
         hook: 'The haircut was cultural annihilation, not hygiene — among her people only mourners and captured cowards were shingled. And the packet carried by its string was pollution theory performed in public. Each scene is evidence, not anecdote; read the system inside the memory.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining a text beyond its literal meaning to evaluate the author\'s purpose, perspective, and techniques, and to interpret underlying themes, biases.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Memories of Childhood\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_06_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Cross two worlds of enforced shame: decode the Carlisle school\'s bells and scissors beside a Tamil village\'s rules of touch — and weigh Judewin\'s submission against Annan\'s counsel to study and fight.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_06_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a journalist interviewing both Zitkala-Sa and Bama as adults looking back at their childhood selves.',
+          caseStudy: { intro: 'Analyse \'Memories of Childhood\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the cultural significance of long hair for Zitkala-Sa\'s people, and what does its cutting symbolize in the context of the boarding.', options: [
                 { text: 'For Zitkala-Sa\'s people, long hair is a sign of bravery and skill', outcome: 'For Zitkala-Sa\'s people, long hair is a sign of bravery and skill; only captured unskilled.' },
                 { text: 'it was just a haircut', outcome: 'Not quite — Students often treat the two accounts as "the same thing: discrimination" and write generic answers.', reveals: 'students-often-treat-the-two' },
                 { text: 'it was for hygiene', outcome: 'Not quite — Students often treat the two accounts as "the same thing: discrimination" and write generic answers.', reveals: 'students-often-treat-the-two' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_06_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re asked in the board exam: "Write an article on \'Education as a Tool for Breaking Social Barriers\' based on your reading of \'Memories.',
+          caseStudy: { intro: 'For written answers on \'Memories of Childhood\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the PEEL structure for writing analytical paragraphs, and what does each letter stand for?', options: [
                 { text: 'PEEL stands for Point (topic sentence stating the main idea), Evidence (specific textual', outcome: 'PEEL stands for Point (topic sentence stating the main idea), Evidence (specific textual reference.' },
                 { text: 'Point, Example, Explain, Leave', outcome: 'Not quite — Students believe "writing skills based on the chapter" means *retelling the story* in a different.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe "writing skills based on the chapter" means *retelling the story* in a different.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_06_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a university admission group discussion on "Childhood and Social Injustice" — the moderator asks: "What do a Native American girl in 1880s.',
+          caseStudy: { intro: 'Talk through \'Memories of Childhood\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the two essential protocols for a productive literary discussion in a CBSE Class 12 speaking assessment?', options: [
                 { text: 'The two essential protocols are: (1) Turn-taking with time awareness', outcome: 'The two essential protocols are: (1) Turn-taking with time awareness — each speaker gets 45-60.' },
                 { text: 'speak loudly and share your opinion', outcome: 'Not quite — Students believe "discussion points" means preparing a monologue summarizing each story separately.', reveals: 'discussion-points-means-preparing-a' },
@@ -63,12 +63,12 @@ export const c12_eng_v_ch06_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_06_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining a text beyond its.',
+          question: 'Critical thinking on \'Memories of Childhood\' — analysing the text to reach.',
           hint: 'If stuck, re-read the "Reading with Insight" questions at the end of the chapter — they.',
           misconception: 'Students often treat the two accounts as "the same thing: discrimination" and write generic answers about "fighting.',
           parts: [
@@ -81,9 +81,9 @@ export const c12_eng_v_ch06_p3: SimDef = {
                   hint: 'If stuck, re-read the "Reading with Insight" questions at the end of the chapter — they are the.',
                   misconception: 'Students often treat the two accounts as "the same thing: discrimination" and write generic answers about "fighting injustice." The.' }
           ],
-            remediations: { 'students-often-treat-the-two': { steps: ['If a student conflates the two systems, have them create a two-column table: Column A for Zitkala-Sa (oppressor.', 'Column B for Bama (oppressor: caste Hindus/landlord; mechanism: purity/pollution rules, economic exploitation.', 'Then ask: "Which column shows a child fighting with her body?', 'Which shows a child fighting with her mind?" This forces the distinction.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-two': { steps: ['If a student conflates the two systems, have them create a two-column table: Column A for Zitkala-Sa (oppressor.', 'Column B for Bama (oppressor: caste Hindus/landlord; mechanism: purity/pollution rules, economic exploitation.', 'Then ask: "Which column shows a child fighting with her body?', 'Which shows a child fighting with her mind?" This forces the distinction.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_06_014', difficulty: 'standard',
-          question: 'Writing Skills based on "Memories of Childhood" refers to the ability.',
+          question: 'Writing skills from \'Memories of Childhood\' — using the text as a model.',
           hint: 'If stuck on evidence selection: Revisit c12_eng_v_cbse_06_008 (Imagery/Metaphor) and.',
           misconception: 'Students believe "writing skills based on the chapter" means *retelling the story* in a different format (e.g., "write.',
           parts: [
@@ -96,7 +96,7 @@ export const c12_eng_v_ch06_p3: SimDef = {
                   hint: 'If stuck on evidence selection: Revisit c12_eng_v_cbse_06_008 (Imagery/Metaphor) and.',
                   misconception: 'Students believe "writing skills based on the chapter" means *retelling the story* in a different format (e.g., "write a letter.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['If a student writes a story-retelling instead of an analytical piece: (1) Show them a side-by-side comparison: a 3-mark.', 'a 6-mark PEEL paragraph on the same incident.', '(2) Have them highlight every sentence in their draft that is *plot summary* (yellow) vs.', '*analysis/argument* (green).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['If a student writes a story-retelling instead of an analytical piece: (1) Show them a side-by-side comparison: a 3-mark.', 'a 6-mark PEEL paragraph on the same incident.', '(2) Have them highlight every sentence in their draft that is *plot summary* (yellow) vs.', '*analysis/argument* (green).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_06_014', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -107,9 +107,9 @@ export const c12_eng_v_ch06_p3: SimDef = {
                   hint: 'If stuck on evidence selection: Revisit c12_eng_v_cbse_06_008 (Imagery/Metaphor) and.',
                   misconception: 'Students believe "writing skills based on the chapter" means *retelling the story* in a different format (e.g., "write a letter.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['If a student writes a story-retelling instead of an analytical piece: (1) Show them a side-by-side comparison: a 3-mark.', 'a 6-mark PEEL paragraph on the same incident.', '(2) Have them highlight every sentence in their draft that is *plot summary* (yellow) vs.', '*analysis/argument* (green).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['If a student writes a story-retelling instead of an analytical piece: (1) Show them a side-by-side comparison: a 3-mark.', 'a 6-mark PEEL paragraph on the same incident.', '(2) Have them highlight every sentence in their draft that is *plot summary* (yellow) vs.', '*analysis/argument* (green).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_06_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to structured oral activities.',
+          question: 'Discussion points on \'Memories of Childhood\' — speaking and listening around.',
           hint: 'If stuck, return to node 013 (Critical Thinking) and re-do the "Reading with Insight" Q3.',
           misconception: 'Students believe "discussion points" means preparing a monologue summarizing each story separately, then stating "both.',
           parts: [
@@ -126,7 +126,7 @@ export const c12_eng_v_ch06_p3: SimDef = {
                   hint: 'If stuck, return to node 013 (Critical Thinking) and re-do the "Reading with Insight" Q3 comparison.',
                   misconception: 'Students believe "discussion points" means preparing a monologue summarizing each story separately, then stating "both show.' }
           ],
-            remediations: { 'discussion-points-means-preparing-a': { steps: ['If a student cannot move beyond summary: (1) Give them a "Discussion Template" card with sentence stems: "Building.', '(3) Record and replay; student self-scores using CBSE rubric: Evidence (0-2), Interaction (0-2), Synthesis (0-1).', 'Repeat until they score 4/5 consistently.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'discussion-points-means-preparing-a': { steps: ['If a student cannot move beyond summary: (1) Give them a "Discussion Template" card with sentence stems: "Building.', '(3) Record and replay; student self-scores using CBSE rubric: Evidence (0-2), Interaction (0-2), Synthesis (0-1).', 'Repeat until they score 4/5 consistently.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -5,16 +5,16 @@ import type { SimDef } from '../../engine/types';
 export const c6_hin_ch05_p2: SimDef = {
     id: 'v3_c6_hin_ch05_p2',
     title: 'पाठ 5 · Part 2/3',
-    subtitle: 'यह नोड केवल गौण विषय की पहचान, मुख्य विषय से उसका संबंध, और पाठ में उसकी भूमिका समझने तक.',
+    subtitle: 'यह नोड केवल गौण विषयों तक सीमित है — बिंब/अलंकार अगले नोड्स में।',
     classLevel: 6, subject: 'hin', topic: 'पाठ 5 · Part 2/3',
     chapters: ['c6_hin_ch05'],
     nodeIds: ['c6_hin_cbse_05_007', 'c6_hin_cbse_05_008', 'c6_hin_cbse_05_009', 'c6_hin_cbse_05_010', 'c6_hin_cbse_05_011', 'c6_hin_cbse_05_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 6 learner', intro: 'क्या तुमने कभी कोई खेल खेला है जहाँ मुख्य लक्ष्य जीतना हो, लेकिन रास्ते में तुम दोस्त बनाते हो, नियम सीखते.', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 6 learner', intro: 'गौण-मानचित्र: प्रेम-नाज़ुकता (\'धागा\') → बुद्धि-बल (\'सुई\'-\'तरवारि\') → संसाधन-संरक्षण (\'पानी\') → वाणी-प्रबंधन.', goal: 'Master every idea in this chapter.' },
     // discovery omitted — no cleanly extractable hook in this chapter
     teaching: [
-        { title: 'पाठ 5 — गौण विषय', text: 'गौण विषय (उप-विषय) वे सहायक विचार या प्रसंग होते हैं जो पाठ के मुख्य विषय को पूरक करते हैं, उसे विस्तार देते हैं, और पात्रों या परिवेश की गहराई दिखाते हैं, परन्तु स्वयं कहानी का केंद्रीय संदेश नहीं.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 5 — गौण विषय', text: 'गौण विषय — (1) प्रेम की नाज़ुकता (\'धागा प्रेम का\'); (2) बुद्धिमत्ता बनाम बल (\'सुई\' बनाम \'तरवारि\'); (3) संसाधन-संरक्षण (\'पानी रखिये\'); (4) वाणी का प्रबंधन (\'जिह्वा बावरी\'); (5) आशावादी दृष्टिकोण.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c6_hin_cbse_05_007', title: 'Your mission',
@@ -24,8 +24,8 @@ export const c6_hin_ch05_p2: SimDef = {
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'dissect', nodeId: 'c6_hin_cbse_05_008', title: 'Identify each idea',
           dissect: { specimen: 'पाठ 5 · Part 2/3', spots: [
-            { id: 's1', label: '5 -', prompt: 'Which idea is this? — "पाठ में भाषा-प्रयोग" means studying how an author purposefully selects and arranges.', answer: '5 -', options: ['5 -', '5 - -'] },
-            { id: 's2', label: '5 - -', prompt: 'Which idea is this? — **वस्तुनिष्ठ (Objective) प्रश्न** वे प्रश्न हैं जिनका उत्तर पाठ में **स्पष्ट रूप से.', answer: '5 - -', options: ['5 - -', '5 -'] }
+            { id: 's1', label: '5 -', prompt: 'Which idea is this? — भाषा-प्रयोग — संस्कृत-अरबी मिश्रित लोक-हिंदी: दोहा-छंद (दो पंक्तियाँ, उल्टी-सीधी).', answer: '5 -', options: ['5 -', '5 - -'] },
+            { id: 's2', label: '5 - -', prompt: 'Which idea is this? — वस्तुनिष्ठ प्रश्न — तथ्य पाठ से सीधे: (1) कवि रहीम (अकबर का नवरत्न); (2) 7 दोहे; (3).', answer: '5 - -', options: ['5 - -', '5 -'] }
           ] } },
         { type: 'case', nodeId: 'c6_hin_cbse_05_012', title: 'The bigger picture',
           caseStudy: { intro: 'You just worked through पाठ 5 like a real scientist — observed, predicted, tested, retried.',
@@ -39,71 +39,71 @@ export const c6_hin_ch05_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_hin_cbse_05_007', difficulty: 'standard',
-          question: 'गौण विषय (उप-विषय) वे सहायक विचार या प्रसंग होते हैं जो पाठ के मुख्य विषय को.',
-          hint: 'यदि अटके, तो c6_hin_cbse_05_006 (मुख्य विषय और संदेश) पर लौटें और \'विषय निष्कर्षण की.',
-          misconception: 'छात्र अक्सर **पृष्ठभूमि विवरण (setting details)** या **पात्रों की व्यक्तिगत विशेषताओं** को गौण विषय मान लेते हैं।.',
+          question: 'गौण विषय — (1) प्रेम की नाज़ुकता (\'धागा प्रेम का\'); (2) बुद्धिमत्ता बनाम बल.',
+          hint: 'यदि अटका हुआ महसूस हो तो: मुख्य विषय लिखिए, फिर दो ऐसे दोहे जो अलग भाव देते हैं — वही गौण.',
+          misconception: 'छात्र \'धागा\' को \'सूत\' या \'रस्सी\' मानते हैं — यह प्रेम-बंधन का प्रतीक है; टूटने पर फिर नहीं जुड़ता।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (उप-विषय) वे सहायक विचार या प्रसंग होते हैं जो पाठ के मुख्य विषय को पूरक करते',
-                  options: ['गौण विषय (उप-विषय) वे सहायक विचार या प्रसंग होते हैं जो पाठ के मुख्य विषय को पूरक करते', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', 'कथानक (Plot) कहानी में घटित घटनाओं का वह तार्किक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting)** कहानी के घटित होने का भौतिक स्थान, समयकाल और सामाजिक'],
-                  hint: 'यदि अटके, तो c6_hin_cbse_05_006 (मुख्य विषय और संदेश) पर लौटें और \'विषय निष्कर्षण की 3-चरण विधि\'.',
-                  misconception: 'छात्र अक्सर **पृष्ठभूमि विवरण (setting details)** या **पात्रों की व्यक्तिगत विशेषताओं** को गौण विषय मान लेते हैं। उदाहरण: यदि कहानी किसी.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय — (1) प्रेम की नाज़ुकता (\'धागा प्रेम का\')',
+                  options: ['गौण विषय — (1) प्रेम की नाज़ुकता (\'धागा प्रेम का\')', 'रहीम दास (अब्दुर्रहीम खान-ए-खाना, 1556–1627)', 'दोहा-पाठ — 7 दोहे: (1) \'रहिमन देखि बडेन को, लघु कसौटि न करै\' — महान को परीक्षा न दो', 'पाठ्य-परिवेश — मध्ययुग का दरबारी और लोक-जीवन: अकबर का दरबार जहाँ रहीम नवरत्न थे'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: मुख्य विषय लिखिए, फिर दो ऐसे दोहे जो अलग भाव देते हैं — वही गौण विषय।',
+                  misconception: 'छात्र \'धागा\' को \'सूत\' या \'रस्सी\' मानते हैं — यह प्रेम-बंधन का प्रतीक है; टूटने पर फिर नहीं जुड़ता।' }
           ],
-            remediations: { 'setting-details': { steps: ['छात्र को एक परिचित कहानी (जैसे \'पंच परमेश्वर\' या \'बड़े भाई साहब\') दें और मुख्य विषय बताएं। 2.', 'फिर पूछें: "कौन-से दो प्रसंग/विचार इस मुख्य विषय को गहराई देते हैं?" 3.', 'प्रत्येक प्रसंग के लिए पूछें: "अगर यह प्रसंग हटा दें, तो मुख्य विषय पर क्या असर पड़ेगा?" 4.', 'यदि असर स्पष्ट है → गौण विषय; यदि नहीं → केवल विवरण। 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) मुख्य विषय से गौण विषय अलग करो। (2) \'धागा\' का प्रेम-प्रतीक समझाओ। (3) \'पानी रखिये\' का संसाधन-अर्थ दिखाओ।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_hin_cbse_05_008', difficulty: 'standard',
-          question: 'बिंब (Imagery) वह साहित्यिक युक्ति है जिसमें शब्दों के माध्यम से पाठक की.',
-          hint: 'यदि अटका हो तो \'विशेषण पहचानना\' और \'तुलना वाले वाक्य बनाना\' (जैसे "सेब मीठा है" -> "सेब.',
-          misconception: 'छात्र अक्सर समझते हैं कि रूपक (Metaphor) और उपमा (Simile) एक ही चीज़ हैं क्योंकि दोनों तुलना करते हैं। वे "जैसे/सा".',
+          question: 'बिंब — \'तरुवर फल नहिं खात हैं\' (पेड़-दृश्य), \'सरवर पीय न पान\' (तालाब-दृश्य).',
+          hint: 'यदि अटका हुआ महसूस हो तो: एक दोहा पढ़िए, आँखें बंद करके देखिए — \'तरुवर\' या \'धागा\' का.',
+          misconception: 'छात्र \'जिह्वा\' को \'केवल जीभ\' मानते हैं — \'बावरी\' के साथ वह अनियंत्रित वाणी का मानसिक-बिंब बन जाती है; दृश्य नहीं.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बिंब (Imagery) वह साहित्यिक युक्ति है जिसमें शब्दों के माध्यम से पाठक की इंद्रियों',
-                  options: ['बिंब (Imagery) वह साहित्यिक युक्ति है जिसमें शब्दों के माध्यम से पाठक की इंद्रियों', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', 'कथानक (Plot) कहानी में घटित घटनाओं का वह तार्किक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting)** कहानी के घटित होने का भौतिक स्थान, समयकाल और सामाजिक'],
-                  hint: 'यदि अटका हो तो \'विशेषण पहचानना\' और \'तुलना वाले वाक्य बनाना\' (जैसे "सेब मीठा है" -> "सेब शहद जैसा.',
-                  misconception: 'छात्र अक्सर समझते हैं कि रूपक (Metaphor) और उपमा (Simile) एक ही चीज़ हैं क्योंकि दोनों तुलना करते हैं। वे "जैसे/सा" शब्द को ही तुलना का.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बिंब — \'तरुवर फल नहिं खात हैं\' (पेड़-दृश्य), \'सरवर पीय न पान\' (तालाब-दृश्य), \'धागा प्रेम',
+                  options: ['बिंब — \'तरुवर फल नहिं खात हैं\' (पेड़-दृश्य), \'सरवर पीय न पान\' (तालाब-दृश्य), \'धागा प्रेम', 'रहीम दास (अब्दुर्रहीम खान-ए-खाना, 1556–1627)', 'दोहा-पाठ — 7 दोहे: (1) \'रहिमन देखि बडेन को, लघु कसौटि न करै\' — महान को परीक्षा न दो', 'पाठ्य-परिवेश — मध्ययुग का दरबारी और लोक-जीवन: अकबर का दरबार जहाँ रहीम नवरत्न थे'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: एक दोहा पढ़िए, आँखें बंद करके देखिए — \'तरुवर\' या \'धागा\' का दृश्य आएगा।',
+                  misconception: 'छात्र \'जिह्वा\' को \'केवल जीभ\' मानते हैं — \'बावरी\' के साथ वह अनियंत्रित वाणी का मानसिक-बिंब बन जाती है; दृश्य नहीं, मानसिक।' }
           ],
-            remediations: { 'metaphor-simile': { steps: ['**इंद्रिय-कार्ड खेल:** पाँच कार्ड बनाएँ जिन पर आँख, कान, हाथ, नाक, जीभ बने हों। छात्र को वाक्य दें (जैसे "गरम समोसे की.', '**रूपक-अनुवाद अभ्यास:** उपमा वाले वाक्य दें ("वह चीते सा दौड़ा") और छात्र से रूपक में बदलवाएँ ("वह चीता है")। फिर उल्टा.', '**विशेषता-मानचित्रण:** रूपक "कक्षा एक मछलीघर है" दें। बोर्ड पर दो कॉलम बनाएँ: \'कक्षा की विशेषताएँ\' और \'मछलीघर की.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) पाँच बिंब सूची बनवाओ — तरुवर, सरवर, धागा, सुई, जिह्वा। (2) हर बिंब की श्रेणी लिखो — दृश्य, बंधन, मानसिक।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_hin_cbse_05_009', difficulty: 'standard',
-          question: 'विरोधाभास (Paradox) एक ऐसा कथन है जो पहली नज़र में असंगत या असंभव लगता है.',
-          hint: 'If stuck, review **c6_hin_cbse_05_008** — specifically the worked examples where.',
-          misconception: 'Students often confuse **विरोधाभास (Paradox)** with **यमक/ऑक्सीमोरॉन (Oxymoron)**.',
+          question: 'अलंकार/युक्तियाँ — रूपक (\'तरुवर\' = निस्वार्थ सेवक, \'धागा\' = प्रेम-बंधन, \'पानी\'.',
+          hint: 'यदि अटका हुआ महसूस हो तो: तीन अलंकारों की परिभाषा लिखिए, फिर दोहों से उदाहरण खोजिए — \'सी\'.',
+          misconception: 'छात्र \'तरुवर\' को \'केवल पेड़\' मानते हैं — यहाँ पेड़ निस्वार्थ सेवक का रूपक है; \'सी\' नहीं है इसलिए उपमा नहीं, रूपक।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'विरोधाभास (Paradox) एक ऐसा कथन है जो पहली नज़र में असंगत या असंभव लगता है, लेकिन गहराई से',
-                  options: ['विरोधाभास (Paradox) एक ऐसा कथन है जो पहली नज़र में असंगत या असंभव लगता है, लेकिन गहराई से', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', 'कथानक (Plot) कहानी में घटित घटनाओं का वह तार्किक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting)** कहानी के घटित होने का भौतिक स्थान, समयकाल और सामाजिक'],
-                  hint: 'If stuck, review **c6_hin_cbse_05_008** — specifically the worked examples where a metaphor (रूपक).',
-                  misconception: 'Students often confuse **विरोधाभास (Paradox)** with **यमक/ऑक्सीमोरॉन (Oxymoron)**.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार/युक्तियाँ',
+                  options: ['अलंकार/युक्तियाँ', 'रहीम दास (अब्दुर्रहीम खान-ए-खाना, 1556–1627)', 'दोहा-पाठ — 7 दोहे: (1) \'रहिमन देखि बडेन को, लघु कसौटि न करै\' — महान को परीक्षा न दो', 'पाठ्य-परिवेश — मध्ययुग का दरबारी और लोक-जीवन: अकबर का दरबार जहाँ रहीम नवरत्न थे'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: तीन अलंकारों की परिभाषा लिखिए, फिर दोहों से उदाहरण खोजिए — \'सी\' नहीं है.',
+                  misconception: 'छात्र \'तरुवर\' को \'केवल पेड़\' मानते हैं — यहाँ पेड़ निस्वार्थ सेवक का रूपक है; \'सी\' नहीं है इसलिए उपमा नहीं, रूपक।' }
           ],
-            remediations: { 'students-often-confuse-paradox-with': { steps: ['**Isolate the device:** Give the student two columns — Column A: Oxymorons (दो शब्द: "मधुर विष", "स्थिर गति"), Column.', 'Ask them to sort 10 examples.', '**Add the "So What?" test:** For each paradox in Column B, ask: "यह वाक्य पहली नज़र में झूठा क्यों लगता है?', 'असल में कौन-सा सत्य खुलता है?" Force them to articulate the *insight*, not just the contradiction.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) रूपक बनाम उपमा का अंतर — \'सी\' सूचक देखो। (2) \'तरुवर\' का रूपक-अर्थ बताओ — निस्वार्थ सेवक। (3).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_hin_cbse_05_010', difficulty: 'standard',
-          question: 'पदावली (Glossary/Key Vocabulary) पाठ के उन चुनिंदा मुख्य शब्दों (keywords) का.',
-          hint: 'यदि अटके तो c6_hin_cbse_05_006 (मुख्य विषय और संदेश) दोबारा पढ़ें — विषय स्पष्ट होते ही.',
-          misconception: 'छात्र समझते हैं कि पदावली का अर्थ है \'पाठ के सभी कठिन शब्दों की सूची बनाना और शब्दकोश अर्थ लिखना\'। वास्तव में पदावली.',
+          question: 'पदावली — मुख्य शब्द: बडेन (बड़े/महान), कसौटि (परीक्षण-पत्थर), लघु (छोटा), तरुवर.',
+          hint: 'यदि अटका हुआ महसूस हो तो: शब्द को टुकड़ों में तोड़िए — \'कसौटि\' = कसौटी (परीक्षण); \'तरुवर\'.',
+          misconception: 'छात्र \'घटित\' को \'घटना\' (घटना) समझते हैं — \'घटित\' = बिगड़ना/दूषित होना; \'घटित हो जाये\' = बिगड़ जाए।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली (Glossary/Key Vocabulary) पाठ के उन चुनिंदा मुख्य शब्दों (keywords) का संग्रह है',
-                  options: ['पदावली (Glossary/Key Vocabulary) पाठ के उन चुनिंदा मुख्य शब्दों (keywords) का संग्रह है', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', 'कथानक (Plot) कहानी में घटित घटनाओं का वह तार्किक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting)** कहानी के घटित होने का भौतिक स्थान, समयकाल और सामाजिक'],
-                  hint: 'यदि अटके तो c6_hin_cbse_05_006 (मुख्य विषय और संदेश) दोबारा पढ़ें — विषय स्पष्ट होते ही मुख्य शब्द.',
-                  misconception: 'छात्र समझते हैं कि पदावली का अर्थ है \'पाठ के सभी कठिन शब्दों की सूची बनाना और शब्दकोश अर्थ लिखना\'। वास्तव में पदावली केवल उन 5-7 शब्दों तक.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली — मुख्य शब्द: बडेन (बड़े/महान), कसौटि (परीक्षण-पत्थर), लघु (छोटा), तरुवर (पेड़),',
+                  options: ['पदावली — मुख्य शब्द: बडेन (बड़े/महान), कसौटि (परीक्षण-पत्थर), लघु (छोटा), तरुवर (पेड़),', 'रहीम दास (अब्दुर्रहीम खान-ए-खाना, 1556–1627)', 'दोहा-पाठ — 7 दोहे: (1) \'रहिमन देखि बडेन को, लघु कसौटि न करै\' — महान को परीक्षा न दो', 'पाठ्य-परिवेश — मध्ययुग का दरबारी और लोक-जीवन: अकबर का दरबार जहाँ रहीम नवरत्न थे'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: शब्द को टुकड़ों में तोड़िए — \'कसौटि\' = कसौटी (परीक्षण); \'तरुवर\' = तरु+वर.',
+                  misconception: 'छात्र \'घटित\' को \'घटना\' (घटना) समझते हैं — \'घटित\' = बिगड़ना/दूषित होना; \'घटित हो जाये\' = बिगड़ जाए।' }
           ],
-            remediations: { '5-7-backbone': { steps: ['चरण 1: छात्र को पाठ का एक छोटा अंश (5-6 पंक्तियाँ) दें और पूछें: \'यहाँ कौन-सा एक शब्द है जिसे हटाने से पूरा अर्थ बदल.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) कठिन शब्दों की सूची बनवाओ — बडेन, कसौटि, तरुवर, सरवर, जिह्वा, सगुन। (2) \'घटित\' बनाम \'घटना\' का अंतर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_hin_cbse_05_011', difficulty: 'standard',
-          question: '"पाठ में भाषा-प्रयोग" means studying how an author purposefully selects and.',
-          hint: 'Review "क्रिया और काल पहचान" (verb & tense identification) using Class 5 grammar.',
-          misconception: 'छात्र समझते हैं कि \'व्याकरण विश्लेषण\' का अर्थ है हर शब्द का नाम बताना (संज्ञा, सर्वनाम, क्रिया…)। असल में.',
+          question: 'भाषा-प्रयोग — संस्कृत-अरबी मिश्रित लोक-हिंदी: दोहा-छंद (दो पंक्तियाँ.',
+          hint: 'यदि अटका हुआ महसूस हो तो: एक दोहा पढ़िए, ताली से लय बजाइए — \'रहिमन\' की गूँज सुनिए; भाषा.',
+          misconception: 'छात्र \'करै\' को \'करता है\' की तरह वर्तमान मानते हैं — यह मध्ययुगीय क्रिया-रूप है; आज \'करे\' होता; युग-भाषा का ज्ञान ज़रूरी।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"पाठ में भाषा-प्रयोग" means studying how an author purposefully selects and arranges words',
-                  options: ['"पाठ में भाषा-प्रयोग" means studying how an author purposefully selects and arranges words', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', 'कथानक (Plot) कहानी में घटित घटनाओं का वह तार्किक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting)** कहानी के घटित होने का भौतिक स्थान, समयकाल और सामाजिक'],
-                  hint: 'Review "क्रिया और काल पहचान" (verb & tense identification) using Class 5 grammar exercises or the.',
-                  misconception: 'छात्र समझते हैं कि \'व्याकरण विश्लेषण\' का अर्थ है हर शब्द का नाम बताना (संज्ञा, सर्वनाम, क्रिया…)। असल में परीक्षा/पाठ्यक्रम माँगता है.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'भाषा-प्रयोग — संस्कृत-अरबी मिश्रित लोक-हिंदी: दोहा-छंद (दो पंक्तियाँ, उल्टी-सीधी),',
+                  options: ['भाषा-प्रयोग — संस्कृत-अरबी मिश्रित लोक-हिंदी: दोहा-छंद (दो पंक्तियाँ, उल्टी-सीधी),', 'रहीम दास (अब्दुर्रहीम खान-ए-खाना, 1556–1627)', 'दोहा-पाठ — 7 दोहे: (1) \'रहिमन देखि बडेन को, लघु कसौटि न करै\' — महान को परीक्षा न दो', 'पाठ्य-परिवेश — मध्ययुग का दरबारी और लोक-जीवन: अकबर का दरबार जहाँ रहीम नवरत्न थे'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: एक दोहा पढ़िए, ताली से लय बजाइए — \'रहिमन\' की गूँज सुनिए; भाषा का लय.',
+                  misconception: 'छात्र \'करै\' को \'करता है\' की तरह वर्तमान मानते हैं — यह मध्ययुगीय क्रिया-रूप है; आज \'करे\' होता; युग-भाषा का ज्ञान ज़रूरी।' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र को एक छोटा वाक्य दें ("बिल्ली दूध पीती है") — पूछें: "अगर \'पीती है\' की जगह \'पी गई\' लिख दें तो क्या.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) दोहा-छंद की संरचना दिखाओ — उल्टी-सीधी। (2) \'रहिमन\' का आत्म-संबोधन समझाओ। (3) \'करै\', \'जाये\' का मध्ययुगीय.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_hin_cbse_05_012', difficulty: 'standard',
-          question: '**वस्तुनिष्ठ (Objective) प्रश्न** वे प्रश्न हैं जिनका उत्तर पाठ में **स्पष्ट.',
-          hint: 'If stuck, review **literal comprehension strategies** (scanning for keywords, identifying.',
-          misconception: '**विशिष्ट भ्रम:** विद्यार्थी मानते हैं कि **"यदि उत्तर पाठ में कहीं भी मिल जाए, तो वह वस्तुनिष्ठ है"**। **गलत तर्क का.',
+          question: 'वस्तुनिष्ठ प्रश्न — तथ्य पाठ से सीधे: (1) कवि रहीम (अकबर का नवरत्न); (2) 7.',
+          hint: 'यदि अटका हुआ महसूस हो तो: प्रश्न का मुख्य शब्द (जैसे \'जिह्वा\') पाठ में खोजिए — उत्तर वहीं.',
+          misconception: 'छात्र \'घटित\' को \'घटना\' मानते हैं — \'घटित\' = बिगड़ना/दूषित होना; \'धागा घटित हो जाये\' = प्रेम-बंधन बिगड़ जाए।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**वस्तुनिष्ठ (Objective) प्रश्न** वे प्रश्न हैं जिनका उत्तर पाठ में **स्पष्ट रूप से',
-                  options: ['**वस्तुनिष्ठ (Objective) प्रश्न** वे प्रश्न हैं जिनका उत्तर पाठ में **स्पष्ट रूप से', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', 'कथानक (Plot) कहानी में घटित घटनाओं का वह तार्किक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting)** कहानी के घटित होने का भौतिक स्थान, समयकाल और सामाजिक'],
-                  hint: 'If stuck, review **literal comprehension strategies** (scanning for keywords, identifying explicit.',
-                  misconception: '**विशिष्ट भ्रम:** विद्यार्थी मानते हैं कि **"यदि उत्तर पाठ में कहीं भी मिल जाए, तो वह वस्तुनिष्ठ है"**। **गलत तर्क का उदाहरण:** प्रश्न.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न',
+                  options: ['वस्तुनिष्ठ प्रश्न', 'रहीम दास (अब्दुर्रहीम खान-ए-खाना, 1556–1627)', 'दोहा-पाठ — 7 दोहे: (1) \'रहिमन देखि बडेन को, लघु कसौटि न करै\' — महान को परीक्षा न दो', 'पाठ्य-परिवेश — मध्ययुग का दरबारी और लोक-जीवन: अकबर का दरबार जहाँ रहीम नवरत्न थे'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: प्रश्न का मुख्य शब्द (जैसे \'जिह्वा\') पाठ में खोजिए — उत्तर वहीं है.',
+                  misconception: 'छात्र \'घटित\' को \'घटना\' मानते हैं — \'घटित\' = बिगड़ना/दूषित होना; \'धागा घटित हो जाये\' = प्रेम-बंधन बिगड़ जाए।' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**चरणबद्ध सुधार (Targeted Remediation):** 1.', '**दृश्य विभाजन (Visual Sort):** विद्यार्थी को 10 मिश्रित प्रश्न दें (5 वस्तुनिष्ठ, 5 आशय-सूचक)। दो रंग के हाइलाइटर दें.', '**मौखिक तर्क (Verbal Justification):** प्रत्येक प्रश्न के लिए विद्यार्थी से पूछें: *"तुम्हें कैसे पता कि यह पीला/नीला.', 'पाठ की कौन-सी लाइनें दिखा रहे हो?"* — इससे वह **प्रमाण-आधारित सोच** विकसित करेगा। 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) तथ्य-प्रश्न पाठ से निकलवाओ। (2) \'घटित\' = बिगड़ना बताओ। (3) \'बडेन\', \'कसौटि\', \'जिह्वा\' का अर्थ रटवाओ।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

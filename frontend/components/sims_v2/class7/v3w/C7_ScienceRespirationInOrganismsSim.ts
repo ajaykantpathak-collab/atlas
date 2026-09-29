@@ -6,13 +6,13 @@ import C7_ScienceRespirationInOrganismsSim from '../../../simulations/c6_12/C7_S
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_sciencerespirationinorganismssim: SimDef = {
     id: 'v3w_c7_sciencerespirationinorganismssim',
-    title: 'Respiration In Organisms',
+    title: 'Life Processes: Nutrition, Respiration, Excretion Overview',
     subtitle: 'Covers the general overview of life processes (nutrition, respiration, and excretion) in.',
     classLevel: 7, subject: 'science', topic: 'Life Processes: Nutrition, Respiration, Excretion Overview',
     chapters: [],
     nodeIds: ['c7_bio_ch02_001', 'c7_bio_ch02_012', 'c7_bio_ch02_006', 'c7_bio_ch02_008', 'c7_bio_ch02_009', 'c7_bio_ch02_011', 'c7_bio_ch03_002', 'c7_bio_ch03_006', 'c7_bio_ch03_007', 'c7_bio_ch03_010', 'c7_bio_ch03_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'When you eat a heavy meal of *parathas* during lunch, your body does not just store the food; it immediately.', goal: 'Master Respiration In Organisms.' },
+    scenario: { role: 'a class 7 learner', intro: 'When you eat a heavy meal of *parathas* during lunch, your body does not just store the food; it immediately.', goal: 'Master Life Processes: Nutrition, Respiration, Excretion Overview.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Life processes are the essential biological.', text: 'Life processes are the essential biological activities performed by all living organisms—such as nutrition, respiration, transport, and excretion—that work together to maintain life, repair damaged.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -71,7 +71,7 @@ export const w_c7_sciencerespirationinorganismssim: SimDef = {
             { text: 'Apply the principle of air pressure, recognizing that increased volume leads to decreased internal pressure, forcing.', faded: true, blankAnswer: 'The diaphragm flattens downward, ribs move upward and.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_bio_ch02_012', title: 'Identify each idea',
-          dissect: { specimen: 'Respiration In Organisms', spots: [
+          dissect: { specimen: 'Life Processes: Nutrition, Respiration, Excretion Overview', spots: [
             { id: 's1', label: 'Life processes are the essential', prompt: 'Which idea is this? — Life processes are the essential biological activities performed by all living.', answer: 'Life processes are the essential', options: ['Life processes are the essential', 'Different animals utilize specialized respiratory', 'The small intestine is a', 'Variations in digestion across animal'] },
             { id: 's2', label: 'Different animals utilize specialized respiratory', prompt: 'Which idea is this? — Different animals utilize specialized respiratory structures such as gills (for aquatic.', answer: 'Different animals utilize specialized respiratory', options: ['Different animals utilize specialized respiratory', 'Life processes are the essential', 'The small intestine is a', 'Variations in digestion across animal'] },
             { id: 's3', label: 'The small intestine is a', prompt: 'Which idea is this? — The small intestine is a long, coiled, narrow tube where the final chemical digestion of.', answer: 'The small intestine is a', options: ['The small intestine is a', 'Life processes are the essential', 'Different animals utilize specialized respiratory', 'Variations in digestion across animal'] },
@@ -80,15 +80,15 @@ export const w_c7_sciencerespirationinorganismssim: SimDef = {
             { id: 's6', label: 'Breathing mechanism is the physical', prompt: 'Which idea is this? — Breathing mechanism is the physical process of inhaling oxygen-rich air into the lungs.', answer: 'Breathing mechanism is the physical', options: ['Breathing mechanism is the physical', 'Life processes are the essential', 'Different animals utilize specialized respiratory', 'The small intestine is a'] }
           ] } }
     ],
-    explore: { component: C7_ScienceRespirationInOrganismsSim, prompt: 'Explore the interactive — Respiration In Organisms' },
+    explore: { component: C7_ScienceRespirationInOrganismsSim, prompt: 'Explore the interactive — Life Processes: Nutrition, Respiration, Excretion Overview' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_bio_ch02_001', difficulty: 'standard',
           question: 'Life processes are the essential biological activities performed by all living.',
           hint: 'Review the Class 6 introduction to the digestive system and how breathing supplies air to.',
           misconception: 'Students often think that excretion and egestion (defecation) are the exact same biological process, believing that.',
           parts: [
-                { id: 'a', prompt: 'If a stray dog eats a contaminated piece of food containing harmful bacteria, which life process will immediately deal with the toxins and undigested waste?', answer: 'Steps: 1) Identify that the food enters the alimentary canal through nutrition',
-                  options: ['Steps: 1) Identify that the food enters the alimentary canal through nutrition', 'toxic substances remain inside cells forever'],
+                { id: 'a', prompt: 'If a stray dog eats a contaminated piece of food containing harmful bacteria, which life process will immediately deal with the toxins and undigested waste?', answer: 'Identify that the food enters the alimentary canal through nutrition',
+                  options: ['Identify that the food enters the alimentary canal through nutrition', 'toxic substances remain inside cells forever'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that excretion and egestion (defecation) are the exact same biological process, believing that passing solid stool is.' }
           ],

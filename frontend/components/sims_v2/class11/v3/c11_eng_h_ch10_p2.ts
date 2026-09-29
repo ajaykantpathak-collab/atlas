@@ -19,45 +19,45 @@ export const c11_eng_h_ch10_p2: SimDef = {
         hook: '\'I am the Poem of Earth\' — the rain narrates the water cycle so the poet can describe himself: experience rising, changing, returning.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes in poetry are the underlying, often implicit ideas that support and enrich the primary theme, revealed through patterns of imagery, structural choices, and tonal shifts rather than.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Voice of the Rain\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_10_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Map each stanza to its water-cycle stage and speaker, then argue why the poem needs a dialogue, not a monologue.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_10_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re listening to rain on your roof at night — it sounds like a message, doesn\'t it? That\'s exactly where Whitman begins: the rain *speaks*.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Voice of the Rain\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a secondary theme in poetry, and how does it differ from the primary theme?', options: [
                 { text: 'A secondary theme is an underlying idea that supports and enriches the primary theme,', outcome: 'A secondary theme is an underlying idea that supports and enriches the primary theme, often.' },
                 { text: 'secondary themes are less important', outcome: 'Not quite — Students conflate "secondary theme" with "minor theme" and therefore treat them as optional or less.', reveals: 'students-conflate-secondary-theme-with' },
                 { text: 'they are stated directly', outcome: 'Not quite — Students conflate "secondary theme" with "minor theme" and therefore treat them as optional or less.', reveals: 'students-conflate-secondary-theme-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_10_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine standing at your window during the first monsoon shower after weeks of Delhi heat — you smell the wet earth (petrichor), hear the rhythm on the roof.',
+          caseStudy: { intro: 'Find the lines in \'The Voice of the Rain\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "imagery" and "metaphor" precisely as literary devices. Give one example of each from general literature (not from this poem).', options: [
                 { text: 'Imagery: Language appealing to the five senses to create sensory experiences (e.g., "The', outcome: 'Imagery: Language appealing to the five senses to create sensory experiences (e.g., "The yellow fog.' },
                 { text: 'simile', outcome: 'Not quite — Students often think "imagery" means only visual description (pictures in the mind) and miss.', reveals: 'imagery-means-only-visual-description' },
                 { text: 'imagery', outcome: 'Not quite — Students often think "imagery" means only visual description (pictures in the mind) and miss.', reveals: 'imagery-means-only-visual-description' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_10_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are standing in a monsoon shower and the rain suddenly starts "talking" to you — what would it say?',
+          caseStudy: { intro: 'Look in \'The Voice of the Rain\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'What is the basic definition of irony as a literary device? Give a one-sentence answer.', options: [
                 { text: 'Irony is a contrast between what is said or expected and what actually happens or is meant', outcome: 'Irony is a contrast between what is said or expected and what actually happens or is meant.' },
                 { text: 'irony is a funny coincidence', outcome: 'Not quite — Students often think any unexpected outcome in a poem is irony, and any concrete noun is a symbol.', reveals: 'any-unexpected-outcome-in-a' },
                 { text: 'any unexpected outcome in a poem is irony, and any concrete noun is a symbol', outcome: 'Not quite — Students often think any unexpected outcome in a poem is irony, and any concrete noun is a symbol.', reveals: 'any-unexpected-outcome-in-a' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_10_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading the poem and the rain calls itself "the Poem of Earth." Why "Poem" and not "Song" or "Story"?',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Voice of the Rain\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'Define "Vocabulary in Context" as applied to poetry analysis. How does it differ from looking up a word in a dictionary?', options: [
                 { text: 'Vocabulary in Context means analyzing how a word\'s meaning is shaped by its specific', outcome: 'Vocabulary in Context means analyzing how a word\'s meaning is shaped by its specific placement.' },
                 { text: 'it means checking the dictionary', outcome: 'Not quite — Students believe "Vocabulary in Context" means **finding synonyms** for difficult words.', reveals: 'vocabulary-in-context-means-finding' },
                 { text: 'Vocabulary in Context', outcome: 'Not quite — Students believe "Vocabulary in Context" means **finding synonyms** for difficult words.', reveals: 'vocabulary-in-context-means-finding' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_10_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re asked: "The rain says \'I am the Poem of Earth.\' Is this a fact or an interpretation?" A literal question would ask: "What does the rain call.',
+          caseStudy: { intro: 'Answer \'The Voice of the Rain\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the explicit name the rain gives itself in the poem "The Voice of the Rain"?', options: [
                 { text: 'The rain explicitly calls itself "the Poem of Earth"', outcome: 'The rain explicitly calls itself "the Poem of Earth". A wrong answer (e.g., "the song of the sea".' },
                 { text: 'the song of the sea', outcome: 'Not quite — Students treat inferential questions as \'opinion\' questions and write personal feelings ("I think.', reveals: 'students-treat-inferential-questions-as' },
@@ -77,12 +77,12 @@ export const c11_eng_h_ch10_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_10_007', difficulty: 'standard',
-          question: 'Secondary themes in poetry are the underlying, often implicit ideas that.',
+          question: 'Secondary themes in \'The Voice of the Rain\' — the supporting ideas and motifs.',
           hint: 'Review node 006 (Primary Theme) and node 002 (Narrative Structure) — specifically the.',
           misconception: 'Students conflate "secondary theme" with "minor theme" and therefore treat them as optional or less examinable.',
           parts: [
@@ -95,9 +95,9 @@ export const c11_eng_h_ch10_p2: SimDef = {
                   hint: 'Review node 006 (Primary Theme) and node 002 (Narrative Structure) — specifically the frame.',
                   misconception: 'Students conflate "secondary theme" with "minor theme" and therefore treat them as optional or less examinable.' }
           ],
-            remediations: { 'students-conflate-secondary-theme-with': { steps: ['If a student lists surface-level ideas as secondary themes: Step 1 — Have them re-read the final three lines ("For.', 'Step 3 — Ask: "Which themes are *built into the architecture* rather than just *mentioned in the speech*?" Step 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-conflate-secondary-theme-with': { steps: ['If a student lists surface-level ideas as secondary themes: Step 1 — Have them re-read the final three lines ("For.', 'Step 3 — Ask: "Which themes are *built into the architecture* rather than just *mentioned in the speech*?" Step 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_10_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'The Voice of the Rain\' — the vivid, sensory language that creates.',
           hint: 'Review c6_english_u1_005 (Poetic Devices: Rhyme Scheme, Metaphor, Imagery) and.',
           misconception: 'Students often think "imagery" means only visual description (pictures in the mind) and miss auditory, tactile.',
           parts: [
@@ -114,7 +114,7 @@ export const c11_eng_h_ch10_p2: SimDef = {
                   hint: 'Review c6_english_u1_005 (Poetic Devices: Rhyme Scheme, Metaphor, Imagery) and c8_engl_ch4_7.',
                   misconception: 'Students often think "imagery" means only visual description (pictures in the mind) and miss auditory, tactile, olfactory, gustatory, and.' }
           ],
-            remediations: { 'imagery-means-only-visual-description': { steps: ['Give the student a sensory inventory chart: 5 columns (See/Hear/Feel/Taste/Smell + Move).', 'Have them re-read the poem placing *every* sensory word in columns.', 'Use a two-column "Metaphor Mapping" table: Column A = Rain Cycle Stage (quote), Column B = Poetic Process Stage (infer).', 'Fill row by row: "rise impalpable" → "drafting invisible ideas".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'imagery-means-only-visual-description': { steps: ['Give the student a sensory inventory chart: 5 columns (See/Hear/Feel/Taste/Smell + Move).', 'Have them re-read the poem placing *every* sensory word in columns.', 'Use a two-column "Metaphor Mapping" table: Column A = Rain Cycle Stage (quote), Column B = Poetic Process Stage (infer).', 'Fill row by row: "rise impalpable" → "drafting invisible ideas".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_10_008', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -125,20 +125,20 @@ export const c11_eng_h_ch10_p2: SimDef = {
                   hint: 'Review c6_english_u1_005 (Poetic Devices: Rhyme Scheme, Metaphor, Imagery) and c8_engl_ch4_7.',
                   misconception: 'Students often think "imagery" means only visual description (pictures in the mind) and miss auditory, tactile, olfactory, gustatory, and.' }
           ],
-            remediations: { 'imagery-means-only-visual-description': { steps: ['Give the student a sensory inventory chart: 5 columns (See/Hear/Feel/Taste/Smell + Move).', 'Have them re-read the poem placing *every* sensory word in columns.', 'Use a two-column "Metaphor Mapping" table: Column A = Rain Cycle Stage (quote), Column B = Poetic Process Stage (infer).', 'Fill row by row: "rise impalpable" → "drafting invisible ideas".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'imagery-means-only-visual-description': { steps: ['Give the student a sensory inventory chart: 5 columns (See/Hear/Feel/Taste/Smell + Move).', 'Have them re-read the poem placing *every* sensory word in columns.', 'Use a two-column "Metaphor Mapping" table: Column A = Rain Cycle Stage (quote), Column B = Poetic Process Stage (infer).', 'Fill row by row: "rise impalpable" → "drafting invisible ideas".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_10_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'The Voice of the Rain\' — where opposite things are both.',
           hint: 'Review the difference between metaphor and symbolism using the "Paper Boats" example.',
           misconception: 'Students often think any unexpected outcome in a poem is irony, and any concrete noun is a symbol.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where the intended meaning of words or events is opposite to',
-                  options: ['Irony is a literary device where the intended meaning of words or events is opposite to', '"Before You Read: Context and Background" for "The Voice of the Rain" provides the', 'In poetry, plot and narrative structure refers to the organized sequence of events,', 'Setting in poetry refers to the physical, temporal, and social environment where the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'The Voice of the Rain\'',
+                  options: ['Irony and paradox in \'The Voice of the Rain\'', '\'The Voice of the Rain\' (Hornbill, ch', 'The plot/narrative arc of \'The Voice of the Rain\'', 'The setting of \'The Voice of the Rain\''],
                   hint: 'Review the difference between metaphor and symbolism using the "Paper Boats" example.',
                   misconception: 'Students often think any unexpected outcome in a poem is irony, and any concrete noun is a symbol.' }
           ],
-            remediations: { 'any-unexpected-outcome-in-a': { steps: ['Re-read the poem and highlight every direct speech by the rain.', 'For each highlighted line, ask: "Is the rain saying something that contradicts common knowledge or its own nature?".', 'List all nouns the rain uses for itself (poem, song, showers, etc.).', 'For each noun, write the abstract idea it represents *in this poem only* (use the rain\'s actions as evidence).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'any-unexpected-outcome-in-a': { steps: ['Re-read the poem and highlight every direct speech by the rain.', 'For each highlighted line, ask: "Is the rain saying something that contradicts common knowledge or its own nature?".', 'List all nouns the rain uses for itself (poem, song, showers, etc.).', 'For each noun, write the abstract idea it represents *in this poem only* (use the rain\'s actions as evidence).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_10_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'The Voice of the Rain\' — the words and phrases you must know.',
           hint: 'Review "Literary Devices: Imagery and Metaphor" (c11_eng_h_cbse_10_008) to refresh how.',
           misconception: 'Students believe "Vocabulary in Context" means **finding synonyms** for difficult words.',
           parts: [
@@ -155,20 +155,20 @@ export const c11_eng_h_ch10_p2: SimDef = {
                   hint: 'Review "Literary Devices: Imagery and Metaphor" (c11_eng_h_cbse_10_008) to refresh how words create.',
                   misconception: 'Students believe "Vocabulary in Context" means **finding synonyms** for difficult words.' }
           ],
-            remediations: { 'vocabulary-in-context-means-finding': { steps: ['**Ban synonyms:** Have the student write the *dictionary definition*, then the *contextual meaning*, then *why the poet.', '**Sound it out:** Read the line aloud replacing the key word with the synonym.', 'Ask: "What is lost in music?', '**Etymology dive:** Look up the root of *lave* (Latin *lavare* — to wash, bathe) and *reck* (Old English *reccan* —.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'vocabulary-in-context-means-finding': { steps: ['**Ban synonyms:** Have the student write the *dictionary definition*, then the *contextual meaning*, then *why the poet.', '**Sound it out:** Read the line aloud replacing the key word with the synonym.', 'Ask: "What is lost in music?', '**Etymology dive:** Look up the root of *lave* (Latin *lavare* — to wash, bathe) and *reck* (Old English *reccan* —.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_10_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the deliberate grammatical choices—such.',
+          question: 'Language and style in \'The Voice of the Rain\' — how the writer chose words.',
           hint: 'Review the definition and examples of personification in c11_eng_h_cbse_10_008 and.',
           misconception: 'Students often treat the poem\'s grammar as "incorrect" or "just poetic license" rather than deliberate craft.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language Usage in the Text refers to the deliberate grammatical choices—such as tense,',
-                  options: ['Language Usage in the Text refers to the deliberate grammatical choices—such as tense,', '"Before You Read: Context and Background" for "The Voice of the Rain" provides the', 'In poetry, plot and narrative structure refers to the organized sequence of events,', 'Setting in poetry refers to the physical, temporal, and social environment where the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language and style in \'The Voice of the Rain\'',
+                  options: ['Language and style in \'The Voice of the Rain\'', '\'The Voice of the Rain\' (Hornbill, ch', 'The plot/narrative arc of \'The Voice of the Rain\'', 'The setting of \'The Voice of the Rain\''],
                   hint: 'Review the definition and examples of personification in c11_eng_h_cbse_10_008 and c8_engl_ch4_15.',
                   misconception: 'Students often treat the poem\'s grammar as "incorrect" or "just poetic license" rather than deliberate craft.' }
           ],
-            remediations: { 'students-often-treat-the-poem': { steps: ['Give the student three short sentences from the poem (one question, two rain statements).', 'Ask them to label each verb\'s tense and person.', 'Have them rewrite the rain\'s lines in past tense and discuss how the meaning shifts.', 'Finally, guide them to articulate a rule: "In poems where nature speaks, present simple + first person = living voice.".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-poem': { steps: ['Give the student three short sentences from the poem (one question, two rain statements).', 'Ask them to label each verb\'s tense and person.', 'Have them rewrite the rain\'s lines in past tense and discuss how the meaning shifts.', 'Finally, guide them to articulate a rule: "In poems where nature speaks, present simple + first person = living voice.".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_10_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve explicitly stated.',
+          question: 'Literal comprehension of \'The Voice of the Rain\' — questions answered straight.',
           hint: 'Review c11_eng_h_cbse_10_010 (Vocabulary) for word meanings and c11_eng_h_cbse_10_008.',
           misconception: 'Students treat inferential questions as \'opinion\' questions and write personal feelings ("I think the rain.',
           parts: [
@@ -181,7 +181,7 @@ export const c11_eng_h_ch10_p2: SimDef = {
                   hint: 'Review c11_eng_h_cbse_10_010 (Vocabulary) for word meanings and c11_eng_h_cbse_10_008.',
                   misconception: 'Students treat inferential questions as \'opinion\' questions and write personal feelings ("I think the rain is beautiful") instead.' }
           ],
-            remediations: { 'students-treat-inferential-questions-as': { steps: ['Give the student a 2-column table: Column A = Literal Qs from poem (5), Column B = Inferential Qs (5).', 'For each inferential Q, demand: "Quote the exact words that made you think this."', 'Practice the \'Because → Therefore\' chain: "Text says X → Therefore Y → Because Z (context)".', 'Use a think-aloud: Teacher models inferring "eternal" from "forever" + "returns" + cyclical structure.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-inferential-questions-as': { steps: ['Give the student a 2-column table: Column A = Literal Qs from poem (5), Column B = Inferential Qs (5).', 'For each inferential Q, demand: "Quote the exact words that made you think this."', 'Practice the \'Because → Therefore\' chain: "Text says X → Therefore Y → Because Z (context)".', 'Use a think-aloud: Teacher models inferring "eternal" from "forever" + "returns" + cyclical structure.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

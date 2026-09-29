@@ -6,13 +6,13 @@ import C11_ChemistryAlkenespreparationandstructureSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_chemistryalkenespreparationandstructuresim: SimDef = {
     id: 'v3w_c11_chemistryalkenespreparationandstructuresim',
-    title: 'Alkenespreparationandstructure',
+    title: 'Hydrides: Ionic, Covalent and Metallic',
     subtitle: 'Covers classification, preparation, properties, and structures of ionic (saline),.',
     classLevel: 11, subject: 'chemistry', topic: 'Hydrides: Ionic, Covalent and Metallic',
     chapters: [],
     nodeIds: ['c11_chem_cbse_09_006', 'c11_chem_cbse_09_010', 'c11_chem_cbse_09_011', 'c11_chem_cbse_09_001', 'c11_chem_cbse_09_003', 'c11_chem_cbse_09_005', 'c11_chem_cbse_01_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe how sodium reacts violently with hydrogen gas at 673 K to form a white crystalline solid (NaH), while.', goal: 'Master Alkenespreparationandstructure.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe how sodium reacts violently with hydrogen gas at 673 K to form a white crystalline solid (NaH), while.', goal: 'Master Hydrides: Ionic, Covalent and Metallic.' },
     discovery: {
         question: 'Explain why beryllium hydride (BeH₂) is covalent while magnesium hydride (MgH₂) is ionic, even though both are Group 2 elements.',
         options: ['BeH₂ is covalent', 'both are ionic because Group 2', 'metallic hydrides are alloys'],
@@ -79,7 +79,7 @@ export const w_c11_chemistryalkenespreparationandstructuresim: SimDef = {
             { text: 'Interpret: 2000 kg H₂/day feed needed; in practice recycle reduces fresh feed to ~300 kg/day', faded: true, blankAnswer: '2000 kg H₂ per day' }
             ] } },
         { type: 'dissect', nodeId: 'c11_chem_cbse_09_010', title: 'Identify each idea',
-          dissect: { specimen: 'Alkenespreparationandstructure', spots: [
+          dissect: { specimen: 'Hydrides: Ionic, Covalent and Metallic', spots: [
             { id: 's1', label: 'Hydrides are binary compounds of', prompt: 'Which idea is this? — Hydrides are binary compounds of hydrogen with other elements (except noble gases),.', answer: 'Hydrides are binary compounds of', options: ['Hydrides are binary compounds of', 'Heavy water DO is the', 'Hydrogen peroxide HO is a', 'Hydrogen H Z1 is the'] },
             { id: 's2', label: 'Heavy water DO is the', prompt: 'Which idea is this? — Heavy water (D₂O) is the oxide of deuterium (²H or D), an isotope of hydrogen containing.', answer: 'Heavy water DO is the', options: ['Heavy water DO is the', 'Hydrides are binary compounds of', 'Hydrogen peroxide HO is a', 'Hydrogen H Z1 is the'] },
             { id: 's3', label: 'Hydrogen peroxide HO is a', prompt: 'Which idea is this? — Hydrogen peroxide (H₂O₂) is a pale blue, viscous liquid that acts as a versatile.', answer: 'Hydrogen peroxide HO is a', options: ['Hydrogen peroxide HO is a', 'Hydrides are binary compounds of', 'Heavy water DO is the', 'Hydrogen H Z1 is the'] },
@@ -88,7 +88,7 @@ export const w_c11_chemistryalkenespreparationandstructuresim: SimDef = {
             { id: 's6', label: 'Dihydrogen H is the molecular', prompt: 'Which idea is this? — Dihydrogen (H₂) is the molecular form of hydrogen gas used industrially as a reducing.', answer: 'Dihydrogen H is the molecular', options: ['Dihydrogen H is the molecular', 'Hydrides are binary compounds of', 'Heavy water DO is the', 'Hydrogen peroxide HO is a'] }
           ] } }
     ],
-    explore: { component: C11_ChemistryAlkenespreparationandstructureSim, prompt: 'Explore the interactive — Alkenespreparationandstructure' },
+    explore: { component: C11_ChemistryAlkenespreparationandstructureSim, prompt: 'Explore the interactive — Hydrides: Ionic, Covalent and Metallic' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_chem_cbse_09_006', difficulty: 'standard',
           question: 'Hydrides are binary compounds of hydrogen with other elements (except noble.',

@@ -6,13 +6,13 @@ import C11_MathematicsGeneralMiddleTermSim from '../../../simulations/c6_12/C11_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathematicsgeneralmiddletermsim: SimDef = {
     id: 'v3w_c11_mathematicsgeneralmiddletermsim',
-    title: 'General Middle Term',
+    title: 'Binomial Theorem: Statement and Proof',
     subtitle: 'This node covers the statement and proof of the Binomial Theorem for positive integer.',
     classLevel: 11, subject: 'mathematics', topic: 'Binomial Theorem: Statement and Proof',
     chapters: [],
     nodeIds: ['c11_math_cbse_08_001', 'c11_math_cbse_08_003', 'c11_math_cbse_08_002', 'c11_math_cbse_08_004', 'c11_math_cbse_08_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you need to calculate (102)^5 for a compound interest problem where principal is ₹100 and rate is 2%.', goal: 'Master General Middle Term.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you need to calculate (102)^5 for a compound interest problem where principal is ₹100 and rate is 2%.', goal: 'Master Binomial Theorem: Statement and Proof.' },
     discovery: {
         question: 'State the position(s) of the middle term(s) in the expansion of (2x - 3y)^9. Do not compute the term(s), only give the term number(s) T_k.',
         options: ['For n = 9 (odd), there are two middle terms at positions T_{(9+1)/2} = T_5 and', 'T_5 only', 'a single middle term for all n, confusing the even-n rule with the odd-n case'],
@@ -70,14 +70,14 @@ export const w_c11_mathematicsgeneralmiddletermsim: SimDef = {
             { text: 'State validity condition: \\( |y| < 1 \\Rightarrow |-3x| < 1 \\Rightarrow |x| < \\frac{1}{3} \\).', faded: true, blankAnswer: '\\( 1 + 6x + 27x^2 + 108x^3 + \\cdots \\), valid for \\( |x| <.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_08_003', title: 'Identify each idea',
-          dissect: { specimen: 'General Middle Term', spots: [
+          dissect: { specimen: 'Binomial Theorem: Statement and Proof', spots: [
             { id: 's1', label: 'The Binomial Theorem for a', prompt: 'Which idea is this? — The Binomial Theorem for a positive integer index n states that for any real numbers a.', answer: 'The Binomial Theorem for a', options: ['The Binomial Theorem for a', 'In the binomial expansion of', 'The general term denoted as', 'The Binomial Theorem for Any'] },
             { id: 's2', label: 'In the binomial expansion of', prompt: 'Which idea is this? — In the binomial expansion of (a + b)^n, the middle term(s) refer to the term(s) at the.', answer: 'In the binomial expansion of', options: ['In the binomial expansion of', 'The Binomial Theorem for a', 'The general term denoted as', 'The Binomial Theorem for Any'] },
             { id: 's3', label: 'The general term denoted as', prompt: 'Which idea is this? — The general term (denoted as \\(T_{r+1}\\)) in the binomial expansion of \\((a+b)^n\\) for.', answer: 'The general term denoted as', options: ['The general term denoted as', 'The Binomial Theorem for a', 'In the binomial expansion of', 'The Binomial Theorem for Any'] },
             { id: 's4', label: 'The Binomial Theorem for Any', prompt: 'Which idea is this? — The Binomial Theorem for Any Index states that for any real number \\( n \\) (positive,.', answer: 'The Binomial Theorem for Any', options: ['The Binomial Theorem for Any', 'The Binomial Theorem for a', 'In the binomial expansion of', 'The general term denoted as'] }
           ] } }
     ],
-    explore: { component: C11_MathematicsGeneralMiddleTermSim, prompt: 'Explore the interactive — General Middle Term' },
+    explore: { component: C11_MathematicsGeneralMiddleTermSim, prompt: 'Explore the interactive — Binomial Theorem: Statement and Proof' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_08_001', difficulty: 'standard',
           question: 'The Binomial Theorem for a positive integer index n states that for any real.',

@@ -19,24 +19,24 @@ export const c12_eng_f_ch08_p3: SimDef = {
         hook: 'The title works twice: \'going places\' as ambition and as bitter irony — she\'s a working-class girl earmarked for a factory, unlikely to physically go anywhere. Confusing her daydreams with the story\'s facts is the exact trap the chapter sets.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the ability to move beyond surface-level comprehension of a literary text to examine underlying assumptions, evaluate narrative choices, synthesize.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Going Places\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_08_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Map Sophie\'s dream-world against her street: weigh the boutique fantasies and hero worship against the steamy kitchen, grimy father and waiting canal — and decide how the title earns its irony.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_08_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Start by asking the student: "If you could interview your hero—say, Virat Kohli or APJ Abdul Kalam—what would you ask?" Connect this to Sophie\'s imagined.',
+          caseStudy: { intro: 'For written answers on \'Going Places\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the specific writing task suggested in the NCERT textbook at the end of "Going Places"?', options: [
                 { text: 'The NCERT writing task asks: "Think of a person who you would like to have as your', outcome: 'The NCERT writing task asks: "Think of a person who you would like to have as your role-model.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students often think "writing based on the chapter" means retelling the story.', reveals: 'writing-based-on-the-chapter' },
                 { text: 'writing based on the chapter', outcome: 'Not quite — Students often think "writing based on the chapter" means retelling the story.', reveals: 'writing-based-on-the-chapter' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_08_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a college admissions interview and the panel asks: "Tell us about a time you had a dream that seemed impossible — how did you handle the gap.',
+          caseStudy: { intro: 'Talk through \'Going Places\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the two specific discussion prompts given in the NCERT "Talking about the text" section for "Going Places"?', options: [
                 { text: 'The two prompts are: (1) "Sophie\'s dreams and disappointments are all in her mind" and', outcome: 'The two prompts are: (1) "Sophie\'s dreams and disappointments are all in her mind" and (2) "It.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students treat "Speaking and Listening" as informal chat — they share personal opinions ("I think.', reveals: 'students-treat-speaking-and-listening' },
@@ -56,12 +56,12 @@ export const c12_eng_f_ch08_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_08_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the ability to move beyond.',
+          question: 'Critical thinking on \'Going Places\' — analysing the text to reach.',
           hint: 'Review c12_eng_f_cbse_08_009 (Literary Devices: Irony and Symbolism) for narrative.',
           misconception: 'Students frequently interpret Sophie\'s Danny Casey story as a deliberate lie to impress others, missing that.',
           parts: [
@@ -74,9 +74,9 @@ export const c12_eng_f_ch08_p3: SimDef = {
                   hint: 'Review c12_eng_f_cbse_08_009 (Literary Devices: Irony and Symbolism) for narrative technique.',
                   misconception: 'Students frequently interpret Sophie\'s Danny Casey story as a deliberate lie to impress others, missing that it functions primarily as.' }
           ],
-            remediations: { 'students-frequently-interpret-sophie-s': { steps: ['Re-read the canal scene (final 3 paragraphs) aloud, highlighting every phrase indicating Sophie\'s *awareness* of the.', 'Contrast with the opening boutique scene: list three differences in how Sophie *performs* vs *inhabits* each fantasy.', 'Complete this sentence stem: "Sophie\'s fantasy is not a lie because ______." 4.', 'Re-attempt Diagnostic Question 5 with this framework.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-frequently-interpret-sophie-s': { steps: ['Re-read the canal scene (final 3 paragraphs) aloud, highlighting every phrase indicating Sophie\'s *awareness* of the.', 'Contrast with the opening boutique scene: list three differences in how Sophie *performs* vs *inhabits* each fantasy.', 'Complete this sentence stem: "Sophie\'s fantasy is not a lie because ______." 4.', 'Re-attempt Diagnostic Question 5 with this framework.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_08_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter "Going Places" involve composing structured.',
+          question: 'Writing skills from \'Going Places\' — using the text as a model or springboard.',
           hint: 'If stuck, revisit c12_eng_f_cbse_08_012 (Comprehension) for evidence-finding practice and.',
           misconception: 'Students often think "writing based on the chapter" means retelling the story.',
           parts: [
@@ -89,7 +89,7 @@ export const c12_eng_f_ch08_p3: SimDef = {
                   hint: 'If stuck, revisit c12_eng_f_cbse_08_012 (Comprehension) for evidence-finding practice and.',
                   misconception: 'Students often think "writing based on the chapter" means retelling the story.' }
           ],
-            remediations: { 'writing-based-on-the-chapter': { steps: ['Re-read the NCERT "Writing" section at the end of the chapter.', 'Identify the exact task: interview questions for YOUR role model.', 'Review the difference between summary and original composition using Worked Example 1.', 'Practice by listing three role models and drafting two questions for each, checking if they are open-ended and thematic.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-based-on-the-chapter': { steps: ['Re-read the NCERT "Writing" section at the end of the chapter.', 'Identify the exact task: interview questions for YOUR role model.', 'Review the difference between summary and original composition using Worked Example 1.', 'Practice by listing three role models and drafting two questions for each, checking if they are open-ended and thematic.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_08_014', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -104,18 +104,18 @@ export const c12_eng_f_ch08_p3: SimDef = {
                   hint: 'If stuck, revisit c12_eng_f_cbse_08_012 (Comprehension) for evidence-finding practice and.',
                   misconception: 'Students often think "writing based on the chapter" means retelling the story.' }
           ],
-            remediations: { 'writing-based-on-the-chapter': { steps: ['Re-read the NCERT "Writing" section at the end of the chapter.', 'Identify the exact task: interview questions for YOUR role model.', 'Review the difference between summary and original composition using Worked Example 1.', 'Practice by listing three role models and drafting two questions for each, checking if they are open-ended and thematic.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-based-on-the-chapter': { steps: ['Re-read the NCERT "Writing" section at the end of the chapter.', 'Identify the exact task: interview questions for YOUR role model.', 'Review the difference between summary and original composition using Worked Example 1.', 'Practice by listing three role models and drafting two questions for each, checking if they are open-ended and thematic.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_08_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Going Places\' — speaking and listening around the text.',
           hint: 'If stuck, return to c12_eng_f_cbse_08_012 (comprehension) to re-locate textual evidence.',
           misconception: 'Students treat "Speaking and Listening" as informal chat — they share personal opinions ("I think Sophie is silly").',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to the structured oral communication',
-                  options: ['Speaking and Listening: Discussion Points refers to the structured oral communication', 'Context and background provide the essential framework', 'Plot is the structured sequence of events in a narrative, organized through', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'Going Places\'',
+                  options: ['Discussion points on \'Going Places\'', '\'Going Places\' (Flamingo, ch', 'The plot/narrative arc of \'Going Places\'', 'The setting of \'Going Places\''],
                   hint: 'If stuck, return to c12_eng_f_cbse_08_012 (comprehension) to re-locate textual evidence, and.',
                   misconception: 'Students treat "Speaking and Listening" as informal chat — they share personal opinions ("I think Sophie is silly") without anchoring.' }
           ],
-            remediations: { 'students-treat-speaking-and-listening': { steps: ['If a student cannot move beyond personal opinion: (1) Give them the "Evidence First" protocol — before speaking, they.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-speaking-and-listening': { steps: ['If a student cannot move beyond personal opinion: (1) Give them the "Evidence First" protocol — before speaking, they.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

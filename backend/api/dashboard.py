@@ -1340,34 +1340,47 @@ async def get_recent_activity(
     activities: list[ActivityItem] = []
     total_count = 0
 
+    # The model import is handler-local: the module-level ``ActivityLog`` name
+    # is only bound in the ImportError fallback above, so referencing it here
+    # unconditionally raised NameError on every call.
+    try:
+        from backend.models.progress import ActivityLog
+    except Exception:
+        ActivityLog = None
+
     # Primary source: ActivityLog
+    # BUGFIX (pillar-6, round 2): this branch referenced ActivityLog.student_id
+    # and ActivityLog.timestamp — columns that do not exist on the model
+    # (it has user_id / created_at) — so the query build itself raised
+    # AttributeError and GET /api/dashboard/student/{id}/recent was a
+    # guaranteed 500. Column and attribute accesses now match the model.
     if ActivityLog is not None:
         count_row = (await db.execute(
-            select(func.count()).select_from(ActivityLog).where(ActivityLog.student_id == student_id)
+            select(func.count()).select_from(ActivityLog).where(ActivityLog.user_id == student_id)
         )).scalar_one()
         total_count = int(count_row) if count_row is not None else 0
 
         rows = (await db.execute(
             select(ActivityLog)
-            .where(ActivityLog.student_id == student_id)
-            .order_by(desc(ActivityLog.timestamp))
+            .where(ActivityLog.user_id == student_id)
+            .order_by(desc(ActivityLog.created_at))
             .limit(limit)
             .offset(offset)
         )).scalars().all()
 
         for row in rows:
-            ts = row.timestamp.isoformat() if row.timestamp else ""
+            ts = row.created_at.isoformat() if row.created_at else ""
             activities.append(ActivityItem(
-                activity_id=row.id,
-                type=getattr(row, "type", "unknown"),
+                activity_id=str(row.id),
+                type=getattr(row, "activity_type", "unknown"),
                 title=getattr(row, "title", ""),
-                description=getattr(row, "description", ""),
+                description=getattr(row, "title", ""),
                 subject=getattr(row, "subject", None),
                 topic=getattr(row, "topic", None),
                 xp_earned=int(getattr(row, "xp_earned", 0) or 0),
                 mastery_delta=getattr(row, "mastery_delta", None),
                 timestamp=ts,
-                metadata=getattr(row, "metadata", None),
+                metadata=getattr(row, "extra_data", None),
             ))
 
     # Fallback source: Attempt table

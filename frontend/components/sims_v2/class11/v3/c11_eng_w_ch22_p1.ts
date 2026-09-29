@@ -19,44 +19,44 @@ export const c11_eng_w_ch22_p1: SimDef = {
         hook: 'The bias is print\'s, not the songs\' — a living library carried in voice and memory is still literature, just one our syllabus forgot.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a pre-reading pedagogical stage that equips students with the historical, biographical, philosophical, and genre-specific knowledge necessary to access.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'My Three Passions\' (Woven Words, ch. 22) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_22_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Read the three tribal songs as evidence, then the \'Painted Words\' theory — and explain why the argument puts examples before analysis.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_22_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are handed a letter written by a freedom fighter from prison—would you read it the same way as a WhatsApp forward? Of course not.',
+          caseStudy: { intro: 'Start with the author of \'My Three Passions\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'What is the primary difference between an "intellectual autobiography" and a conventional chronological memoir?', options: [
                 { text: 'An intellectual autobiography organizes narrative around the development of ideas,', outcome: 'An intellectual autobiography organizes narrative around the development of ideas, beliefs, and.' },
                 { text: 'intellectual autobiography is written by smart people', outcome: 'Not quite — Students treat "Before You Read" as optional background trivia rather than the *interpretive lens*.', reveals: 'students-treat-before-you-read' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_22_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are writing a personal statement for a university application: you don\'t list every event from birth; you select key passions that define you and.',
+          caseStudy: { intro: 'Trace \'My Three Passions\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the primary organizing principle of the narrative structure in "My Three Passions"?', options: [
                 { text: 'The essay is organized thematically around three passions (love, knowledge, pity), not', outcome: 'The essay is organized thematically around three passions (love, knowledge, pity), not.' },
                 { text: 'It follows Russell\'s life from childhood to old age', outcome: 'Not quite — Students often think "plot" only exists in fiction and therefore claim the essay "has no plot.".', reveals: 'plot-only-exists-in-fiction' },
                 { text: 'only exists in fiction and therefore claim the essay', outcome: 'Not quite — Students often think "plot" only exists in fiction and therefore claim the essay "has no plot.".', reveals: 'plot-only-exists-in-fiction' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_22_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are describing the "feel" of a difficult year in your life to a friend — you wouldn\'t just list events; you\'d say, "It felt like walking through.',
+          caseStudy: { intro: 'Identify where and when \'My Three Passions\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the primary metaphorical setting Russell establishes in the opening paragraph, and what single word best captures the atmosphere.', options: [
                 { text: 'The primary metaphorical setting is a "deep ocean of anguish" with a "wayward course"', outcome: 'The primary metaphorical setting is a "deep ocean of anguish" with a "wayward course" driven.' },
                 { text: 'a journey', outcome: 'Not quite — Students treat "setting" only as *where/when* a story happens (physical geography, historical.', reveals: 'students-treat-setting-only-as' },
                 { text: 'sadness', outcome: 'Not quite — Students treat "setting" only as *where/when* a story happens (physical geography, historical.', reveals: 'students-treat-setting-only-as' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_22_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are writing a board exam answer about how Russell\'s essay uses "minor characters" to prove his life was "worth living." You might instinctively.',
+          caseStudy: { intro: 'Spot the secondary figures in \'My Three Passions\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'In "My Three Passions," which explicitly named historical or literary figures appear as supporting characters in Russell\'s narrative?', options: [
                 { text: 'Correct answer: No explicitly named individuals appear as supporting characters', outcome: 'Correct answer: No explicitly named individuals appear as supporting characters.' },
                 { text: 'Pythagoras', outcome: 'Not quite — Students consistently treat the suffering groups (famine children, torture victims, elderly).', reveals: 'students-consistently-treat-the-suffering' },
                 { text: 'saints', outcome: 'Not quite — Students consistently treat the suffering groups (famine children, torture victims, elderly).', reveals: 'students-consistently-treat-the-suffering' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_22_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are asked, "What are the three things that would make you feel your life was worth living if you looked back at age 90?" That is exactly the.',
+          caseStudy: { intro: 'Ask what \'My Three Passions\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What are the three passions Bertrand Russell explicitly names in the opening sentence of "My Three Passions"?', options: [
                 { text: 'The three passions are: the longing for love, the search for knowledge, and unbearable', outcome: 'The three passions are: the longing for love, the search for knowledge, and unbearable pity for the.' },
                 { text: 'freedom', outcome: 'Not quite — Students often treat the three passions as a simple list of hobbies or virtues (like "Russell liked.', reveals: 'students-often-treat-the-three' },
@@ -76,12 +76,12 @@ export const c11_eng_w_ch22_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a pre-reading pedagogical stage.',
+          question: '\'My Three Passions\' (Woven Words, ch. 22) — the context and background to this.',
           hint: 'Review c9_engl_ch1_4 (Krishtakka\'s literacy journey) and identify the *governing idea*.',
           misconception: 'Students treat "Before You Read" as optional background trivia rather than the *interpretive lens* without which the.',
           parts: [
@@ -90,9 +90,9 @@ export const c11_eng_w_ch22_p1: SimDef = {
                   hint: 'Review c9_engl_ch1_4 (Krishtakka\'s literacy journey) and identify the *governing idea* (empowerment.',
                   misconception: 'Students treat "Before You Read" as optional background trivia rather than the *interpretive lens* without which the text remains opaque.' }
           ],
-            remediations: { 'students-treat-before-you-read': { steps: ['Show a 2-minute clip of Russell\'s 1959 "Face to Face" interview (available on YouTube) where he speaks about nuclear.', 'Give a 3-row table: Column A = Biographical Fact (e.g., "Imprisoned 1918 for anti-conscription article"), Column.', 'Ask: "If Russell had not been imprisoned, would the essay\'s tone change?', 'Re-read the opening paragraph aloud; students annotate where each biographical fact echoes in the language.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-before-you-read': { steps: ['Show a 2-minute clip of Russell\'s 1959 "Face to Face" interview (available on YouTube) where he speaks about nuclear.', 'Give a 3-row table: Column A = Biographical Fact (e.g., "Imprisoned 1918 for anti-conscription article"), Column.', 'Ask: "If Russell had not been imprisoned, would the essay\'s tone change?', 'Re-read the opening paragraph aloud; students annotate where each biographical fact echoes in the language.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_002', difficulty: 'standard',
-          question: 'Plot and narrative structure in an autobiographical essay refers to the.',
+          question: 'The plot/narrative arc of \'My Three Passions\' — what happens, in what order.',
           hint: 'Review c10_engl_cbse_08_008 (parable structure) and c9_engl_ch1_7 (first-person.',
           misconception: 'Students often think "plot" only exists in fiction and therefore claim the essay "has no plot." They confuse plot.',
           parts: [
@@ -101,7 +101,7 @@ export const c11_eng_w_ch22_p1: SimDef = {
                   hint: 'Review c10_engl_cbse_08_008 (parable structure) and c9_engl_ch1_7 (first-person perspective) to see.',
                   misconception: 'Students often think "plot" only exists in fiction and therefore claim the essay "has no plot." They confuse plot (causal sequence.' }
           ],
-            remediations: { 'plot-only-exists-in-fiction': { steps: ['Ask the student to list the three passions in order.', 'Have them draw a diagram: three boxes labeled Love, Knowledge, Pity, with arrows showing "upward" for first two.', 'Ask: "Why does Russell put the downward arrow last?" 4.', 'Guide them to see the structure as an argument: two uplifting forces, one grounding force, concluding with integration.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'plot-only-exists-in-fiction': { steps: ['Ask the student to list the three passions in order.', 'Have them draw a diagram: three boxes labeled Love, Knowledge, Pity, with arrows showing "upward" for first two.', 'Ask: "Why does Russell put the downward arrow last?" 4.', 'Guide them to see the structure as an argument: two uplifting forces, one grounding force, concluding with integration.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_002', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -112,31 +112,31 @@ export const c11_eng_w_ch22_p1: SimDef = {
                   hint: 'Review c10_engl_cbse_08_008 (parable structure) and c9_engl_ch1_7 (first-person perspective) to see.',
                   misconception: 'Students often think "plot" only exists in fiction and therefore claim the essay "has no plot." They confuse plot (causal sequence.' }
           ],
-            remediations: { 'plot-only-exists-in-fiction': { steps: ['Ask the student to list the three passions in order.', 'Have them draw a diagram: three boxes labeled Love, Knowledge, Pity, with arrows showing "upward" for first two.', 'Ask: "Why does Russell put the downward arrow last?" 4.', 'Guide them to see the structure as an argument: two uplifting forces, one grounding force, concluding with integration.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'plot-only-exists-in-fiction': { steps: ['Ask the student to list the three passions in order.', 'Have them draw a diagram: three boxes labeled Love, Knowledge, Pity, with arrows showing "upward" for first two.', 'Ask: "Why does Russell put the downward arrow last?" 4.', 'Guide them to see the structure as an argument: two uplifting forces, one grounding force, concluding with integration.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_003', difficulty: 'standard',
-          question: 'Setting in a reflective essay refers to the metaphorical, emotional, and.',
+          question: 'The setting of \'My Three Passions\' — the place, time and atmosphere the text.',
           hint: 'Review "Metaphor vs. Simile" and "Extended Metaphor" from Class 10 (c10_engl_cbse_03_007.',
           misconception: 'Students treat "setting" only as *where/when* a story happens (physical geography, historical period).',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting in a reflective essay refers to the metaphorical, emotional, and intellectual',
-                  options: ['Setting in a reflective essay refers to the metaphorical, emotional, and intellectual', '"Before You Read: Context and Background" is a pre-reading pedagogical stage that equips', 'Plot and narrative structure in an autobiographical essay refers to the deliberate', 'Character analysis of the protagonist in an autobiographical essay involves examining the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'My Three Passions\'',
+                  options: ['The setting of \'My Three Passions\'', '\'My Three Passions\' (Woven Words, ch', 'The plot/narrative arc of \'My Three Passions\'', 'Character analysis in \'My Three Passions\''],
                   hint: 'Review "Metaphor vs. Simile" and "Extended Metaphor" from Class 10 (c10_engl_cbse_03_007.',
                   misconception: 'Students treat "setting" only as *where/when* a story happens (physical geography, historical period).' }
           ],
-            remediations: { 'students-treat-setting-only-as': { steps: ['**Re-teach the distinction:** Use a two-column table: "Physical Setting (Fiction)" vs.', '"Metaphorical Setting (Lyric Essay)." Fill it with examples from Class 10 (e.g., Lencho\'s farm vs.', 'the "house of hope" in "A Letter to God").', '**Close reading drill:** Give the student only the first paragraph with all metaphors bolded.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-setting-only-as': { steps: ['**Re-teach the distinction:** Use a two-column table: "Physical Setting (Fiction)" vs.', '"Metaphorical Setting (Lyric Essay)." Fill it with examples from Class 10 (e.g., Lencho\'s farm vs.', 'the "house of hope" in "A Letter to God").', '**Close reading drill:** Give the student only the first paragraph with all metaphors bolded.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in an autobiographical essay involves.',
+          question: 'Character analysis in \'My Three Passions\' — the central figure(s), their.',
           hint: 'If stuck, review the \'wind/ ocean/ abyss/ heaven/ earth\' imagery cluster.',
           misconception: 'Students often treat the three passions as a static list of personality traits (e.g., \'Russell was loving, curious, and.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist in an autobiographical essay involves examining the',
-                  options: ['Character analysis of the protagonist in an autobiographical essay involves examining the', '"Before You Read: Context and Background" is a pre-reading pedagogical stage that equips', 'Plot and narrative structure in an autobiographical essay refers to the deliberate', 'Setting in a reflective essay refers to the metaphorical, emotional, and intellectual'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis in \'My Three Passions\'',
+                  options: ['Character analysis in \'My Three Passions\'', '\'My Three Passions\' (Woven Words, ch', 'The plot/narrative arc of \'My Three Passions\'', 'The setting of \'My Three Passions\''],
                   hint: 'If stuck, review the \'wind/ ocean/ abyss/ heaven/ earth\' imagery cluster in c11_eng_w_cbse_22_003.',
                   misconception: 'Students often treat the three passions as a static list of personality traits (e.g., \'Russell was loving, curious, and compassionate\').' }
           ],
-            remediations: { 'students-often-treat-the-three': { steps: ['If a student produces a trait-list answer: (1) Return them to the opening paragraph — have them circle the verbs.', '(2) Ask: "Does Russell *choose* these passions, or do they *choose* him?" (3) Have them draw a vertical axis on paper.', '(4) Require them to rewrite one PEEL paragraph using the spatial metaphor as the Point.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-three': { steps: ['If a student produces a trait-list answer: (1) Return them to the opening paragraph — have them circle the verbs.', '(2) Ask: "Does Russell *choose* these passions, or do they *choose* him?" (3) Have them draw a vertical axis on paper.', '(4) Require them to rewrite one PEEL paragraph using the spatial metaphor as the Point.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters in an autobiographical essay.',
+          question: 'Supporting characters in \'My Three Passions\' — the secondary figures who move.',
           hint: 'Review c11_eng_w_cbse_22_004 (Protagonist Analysis) focusing on how Russell constructs.',
           misconception: 'Students consistently treat the suffering groups (famine children, torture victims, elderly) as *narrative characters*.',
           parts: [
@@ -145,18 +145,18 @@ export const c11_eng_w_ch22_p1: SimDef = {
                   hint: 'Review c11_eng_w_cbse_22_004 (Protagonist Analysis) focusing on how Russell constructs *himself*.',
                   misconception: 'Students consistently treat the suffering groups (famine children, torture victims, elderly) as *narrative characters* with whom Russell.' }
           ],
-            remediations: { 'students-consistently-treat-the-suffering': { steps: ['Have the student highlight every proper noun and human reference in the essay.', 'Categorize each as "named individual," "generic group," or "abstract allusion."', 'For each generic group, ask: "Does Russell describe *meeting* them, or *knowing of* them?"', 'Re-read the pity paragraph noting "Echoes of cries... reverberate in my heart"—emphasize *echoes* (mediated, not.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-consistently-treat-the-suffering': { steps: ['Have the student highlight every proper noun and human reference in the essay.', 'Categorize each as "named individual," "generic group," or "abstract allusion."', 'For each generic group, ask: "Does Russell describe *meeting* them, or *knowing of* them?"', 'Re-read the pity paragraph noting "Echoes of cries... reverberate in my heart"—emphasize *echoes* (mediated, not.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_006', difficulty: 'standard',
-          question: 'The primary theme of a text is its central, unifying idea that the author.',
+          question: 'The primary theme of \'My Three Passions\' — the central idea the whole text.',
           hint: 'Review the PEEL paragraph structure and theme-analysis modeling in c10_engl_cbse_01_006.',
           misconception: 'Students often treat the three passions as a simple list of hobbies or virtues (like "Russell liked love, learning, and.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of a text is its central, unifying idea that the author explores',
-                  options: ['The primary theme of a text is its central, unifying idea that the author explores', '"Before You Read: Context and Background" is a pre-reading pedagogical stage that equips', 'Plot and narrative structure in an autobiographical essay refers to the deliberate', 'Setting in a reflective essay refers to the metaphorical, emotional, and intellectual'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of \'My Three Passions\'',
+                  options: ['The primary theme of \'My Three Passions\'', '\'My Three Passions\' (Woven Words, ch', 'The plot/narrative arc of \'My Three Passions\'', 'The setting of \'My Three Passions\''],
                   hint: 'Review the PEEL paragraph structure and theme-analysis modeling in c10_engl_cbse_01_006 (Theme.',
                   misconception: 'Students often treat the three passions as a simple list of hobbies or virtues (like "Russell liked love, learning, and helping people").' }
           ],
-            remediations: { 'students-often-treat-the-three': { steps: ['Ask the student to re-read only the first paragraph and underline every adjective modifying "passions" (simple.', 'Have them draw a quick sketch: three labeled winds blowing a stick figure over a chasm labeled "anguish" toward a cliff.', 'Discuss: "If these were just hobbies, would they blow you to the verge of despair?" 4.', 'Guide them to rewrite their summary using the words "govern," "force," and "suffering."'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-the-three': { steps: ['Ask the student to re-read only the first paragraph and underline every adjective modifying "passions" (simple.', 'Have them draw a quick sketch: three labeled winds blowing a stick figure over a chasm labeled "anguish" toward a cliff.', 'Discuss: "If these were just hobbies, would they blow you to the verge of despair?" 4.', 'Guide them to rewrite their summary using the words "govern," "force," and "suffering."'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

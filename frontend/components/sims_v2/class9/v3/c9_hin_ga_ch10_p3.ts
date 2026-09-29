@@ -11,10 +11,10 @@ export const c9_hin_ga_ch10_p3: SimDef = {
     nodeIds: ['c9_hin_ga_cbse_10_013', 'c9_hin_ga_cbse_10_014', 'c9_hin_ga_cbse_10_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 9 learner', intro: 'क्या आपने कभी कोई विज्ञापन देखा जिसमें लिखा हो "9 out of 10 डॉक्टर सलाह देते हैं" और आपने सोचा: "कौन से 10.', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 9 learner', intro: '\'निराला के पद\' का विश्लेषण — सूर्यकांत त्रिपाठी निराला का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।', goal: 'Master every idea in this chapter.' },
     // discovery omitted — no cleanly extractable hook in this chapter
     teaching: [
-        { title: 'पाठ 10 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) एक बौद्धिक प्रक्रिया है जिसमें पाठ के तथ्यों, तर्कों, साक्ष्यों और भाषा-शैली का वस्तुनिष्ठ मूल्यांकन करके उसके अंतर्निहित अर्थ, पूर्वाग्रहों और निहितार्थों तक.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 10 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'निराला के पद\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c9_hin_ga_cbse_10_013', title: 'Your mission',
@@ -24,8 +24,8 @@ export const c9_hin_ga_ch10_p3: SimDef = {
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'dissect', nodeId: 'c9_hin_ga_cbse_10_014', title: 'Identify each idea',
           dissect: { specimen: 'पाठ 10 · Part 3/3', spots: [
-            { id: 's1', label: '10 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल, किसी साहित्यिक पाठ (गद्य/पद्य) के विशिष्ट अंश, विषय, पात्र या.', answer: '10 -', options: ['10 -', '10 - -'] },
-            { id: 's2', label: '10 - -', prompt: 'Which idea is this? — \'वाचन-श्रवण: चर्चा-बिंदु\' एक सहयोगी अधिगम प्रक्रिया है जिसमें विद्यार्थी किसी पाठ का.', answer: '10 - -', options: ['10 - -', '10 -'] }
+            { id: 's1', label: '10 -', prompt: 'Which idea is this? — \'निराला के पद\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।', answer: '10 -', options: ['10 -', '10 - -'] },
+            { id: 's2', label: '10 - -', prompt: 'Which idea is this? — \'निराला के पद\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।', answer: '10 - -', options: ['10 - -', '10 -'] }
           ] } },
         { type: 'case', nodeId: 'c9_hin_ga_cbse_10_015', title: 'You made it',
           caseStudy: { intro: 'You finished पाठ 10 — every node, every misconception, earned not given.',
@@ -39,34 +39,34 @@ export const c9_hin_ga_ch10_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_hin_ga_cbse_10_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) एक बौद्धिक प्रक्रिया है जिसमें पाठ के.',
+          question: '\'निराला के पद\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'यदि फँसे हों तो **c9_hin_ga_cbse_10_012 (बोध-प्रश्न)** पर लौटें: पहले पाठ का \'क्या\'.',
           misconception: '**विशिष्ट भ्रांति**: छात्र समझते हैं कि "आलोचनात्मक चिंतन = नकारात्मक आलोचना करना (Fault-finding)" या "अपनी राय देना.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) एक बौद्धिक प्रक्रिया है जिसमें पाठ के तथ्यों,',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) एक बौद्धिक प्रक्रिया है जिसमें पाठ के तथ्यों,', '"पृष्ठभूमि" (Background/Context) refers to the historical, social, cultural, and literary', 'कथानक (Plot) घटनाओं का कारण-परिणामबद्ध (causal) क्रम है जो कथा को तार्किक गति देता है,', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का समय, स्थान,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'निराला के पद\' का आलोचनात्मक चिंतन',
+                  options: ['\'निराला के पद\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'निराला के पद\' का कथानक', '\'निराला के पद\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फँसे हों तो **c9_hin_ga_cbse_10_012 (बोध-प्रश्न)** पर लौटें: पहले पाठ का \'क्या\' (Content) पक्का.',
                   misconception: '**विशिष्ट भ्रांति**: छात्र समझते हैं कि "आलोचनात्मक चिंतन = नकारात्मक आलोचना करना (Fault-finding)" या "अपनी राय देना (Opinion)"। **गलत तर्क.' }
           ],
             remediations: { 'fault-finding-opinion': { steps: ['**शब्दकोश सुधार**: छात्र से \'आलोचना\' (दैनिक) और \'समालोचना/आलोचनात्मक चिंतन\' (अकादमिक) के दो वाक्य बनवाएँ; अंतर स्पष्ट.', '**माइक्रो-टास्क**: एक छोटा पैराग्राफ (3-4 वाक्य) दें जिसमें एक तर्क और एक दोष हो; छात्र से केवल दोष पहचानने को कहें.', '**साक्ष्य-खोज खेल**: पाठ 10 के किसी अंश से 3 दावे (Claims) लिखवाएँ; प्रत्येक के लिए छात्र से पाठ-आधारित 1 साक्ष्य और 1.', '**मेटाकॉग्निशन प्रॉम्प्ट**: "तुम्हें यह दावा क्यों सही लगा?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c9_hin_ga_cbse_10_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल, किसी साहित्यिक पाठ (गद्य/पद्य) के विशिष्ट अंश, विषय.',
+          question: '\'निराला के पद\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि अटके: **Node 006 (मुख्य विषय)** और **Node 013 (आलोचनात्मक चिंतन)** दोबारा पढ़ें.',
           misconception: '**भ्रम:** *"अच्छा उत्तर = कठिन शब्द + लंबा पैराग्राफ + पाठ की अधिकाधिक बातें।"* **वास्तविकता:** बोर्ड परीक्षक.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल, किसी साहित्यिक पाठ (गद्य/पद्य) के विशिष्ट अंश, विषय, पात्र या',
-                  options: ['पाठ-आधारित लेखन कौशल, किसी साहित्यिक पाठ (गद्य/पद्य) के विशिष्ट अंश, विषय, पात्र या', '"पृष्ठभूमि" (Background/Context) refers to the historical, social, cultural, and literary', 'कथानक (Plot) घटनाओं का कारण-परिणामबद्ध (causal) क्रम है जो कथा को तार्किक गति देता है,', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का समय, स्थान,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'निराला के पद\' पर पाठ-आधारित लेखन',
+                  options: ['\'निराला के पद\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'निराला के पद\' का कथानक', '\'निराला के पद\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके: **Node 006 (मुख्य विषय)** और **Node 013 (आलोचनात्मक चिंतन)** दोबारा पढ़ें — विषय स्पष्ट.',
                   misconception: '**भ्रम:** *"अच्छा उत्तर = कठिन शब्द + लंबा पैराग्राफ + पाठ की अधिकाधिक बातें।"* **वास्तविकता:** बोर्ड परीक्षक **\'सटीकता\' (Precision)**.' }
           ],
             remediations: { 'precision': { steps: ['**पहला कदम:** छात्र से कहें — *"प्रश्न को दो बार पढ़ो। पहले \'क्या पूछा गया\' (Task Word: विश्लेषण/तुलना/औचित्य) घेरो।.', '**दूसरा कदम:** **\'पाठ-खोज\' (Text Hunt)** कराएं — केवल वे 2-3 वाक्य/पंक्तियां खोजें जो **सीधे** फोकस से जुड़ती हों। शेष.', '**तीसरा कदम:** **PEEL टेम्पलेट** पर जबरन लिखवाएं — चार कॉलम बनाएं: Point | Quote/Ref | Analysis | Link Back। खाली न.', '**चौथा कदम:** **\'कमजोर vs मजबूत\' उत्तर** की तुलना कराएं — छात्र स्वयं अंतर पहचाने। **मंत्र:** *"लिखो कम, सोचो ज्यादा।"*'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c9_hin_ga_cbse_10_015', difficulty: 'standard',
-          question: '\'वाचन-श्रवण: चर्चा-बिंदु\' एक सहयोगी अधिगम प्रक्रिया है जिसमें विद्यार्थी किसी.',
+          question: '\'निराला के पद\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का.',
           hint: 'यदि फँसें तो c9_hin_ga_cbse_10_013 (आलोचनात्मक चिंतन) के \'प्रमाण-आधारित व्याख्या\' खंड को.',
           misconception: '**विशिष्ट भ्रांति:** विद्यार्थी समझते हैं कि \'चर्चा में भाग लेना\' = \'कुछ भी बोल देना\' या \'कहानी दोहराना\'। वे **\'बिंदु\'.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वाचन-श्रवण: चर्चा-बिंदु\' एक सहयोगी अधिगम प्रक्रिया है जिसमें विद्यार्थी किसी पाठ का',
-                  options: ['\'वाचन-श्रवण: चर्चा-बिंदु\' एक सहयोगी अधिगम प्रक्रिया है जिसमें विद्यार्थी किसी पाठ का', '"पृष्ठभूमि" (Background/Context) refers to the historical, social, cultural, and literary', 'कथानक (Plot) घटनाओं का कारण-परिणामबद्ध (causal) क्रम है जो कथा को तार्किक गति देता है,', 'पाठ्य-परिवेश (Setting) किसी रचना में घटनाओं के घटित होने का समय, स्थान,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'निराला के पद\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'निराला के पद\' पर वाचन-श्रवण और चर्चा-बिंदु', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'निराला के पद\' का कथानक', '\'निराला के पद\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फँसें तो c9_hin_ga_cbse_10_013 (आलोचनात्मक चिंतन) के \'प्रमाण-आधारित व्याख्या\' खंड को दोहराएँ.',
                   misconception: '**विशिष्ट भ्रांति:** विद्यार्थी समझते हैं कि \'चर्चा में भाग लेना\' = \'कुछ भी बोल देना\' या \'कहानी दोहराना\'। वे **\'बिंदु\' (point)** और.' }
           ],

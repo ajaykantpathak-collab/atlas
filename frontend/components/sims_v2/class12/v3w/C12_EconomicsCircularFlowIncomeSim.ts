@@ -6,13 +6,13 @@ import C12_EconomicsCircularFlowIncomeSim from '../../../simulations/c6_12/C12_E
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_economicscircularflowincomesim: SimDef = {
     id: 'v3w_c12_economicscircularflowincomesim',
-    title: 'Circular Flow Income',
+    title: 'Macroeconomics: Emergence and Scope',
     subtitle: 'Covers the historical origin of macroeconomics (Keynesian revolution), its scope.',
     classLevel: 12, subject: 'economics', topic: 'Macroeconomics: Emergence and Scope',
     chapters: [],
     nodeIds: ['c12_eco_cbse_07_001', 'c12_eco_cbse_07_003', 'c12_eco_cbse_07_004', 'c12_eco_cbse_07_005', 'c12_eco_cbse_07_006', 'c12_eco_cbse_07_007', 'c12_eco_cbse_07_008', 'c12_eco_cbse_08_004', 'c12_eco_cbse_01_002', 'c12_eco_cbse_01_008', 'c12_eco_cbse_01_009', 'c12_eco_cbse_01_010', 'c12_eco_cbse_01_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine reading a 2021 newspaper headline: "India\'s GDP contracts 7.3% in 2020-21, unemployment hits 9.1%,.', goal: 'Master Circular Flow Income.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine reading a 2021 newspaper headline: "India\'s GDP contracts 7.3% in 2020-21, unemployment hits 9.1%,.', goal: 'Master Macroeconomics: Emergence and Scope.' },
     discovery: {
         question: 'Define macroeconomics and list three key aggregate variables it studies. How does it differ from microeconomics in its unit of analysis?',
         options: ['Macroeconomics studies the economy as a whole using aggregates like real GDP,', 'macroeconomics studies large firms', 'aggregate'],
@@ -79,7 +79,7 @@ export const w_c12_economicscircularflowincomesim: SimDef = {
             { text: 'Expenditure phase: All factor income (₹1,00,000) is spent on bread and other goods.', faded: true, blankAnswer: 'Value of output = ₹1,00,000. Factor incomes: Wages ₹40,000,.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_eco_cbse_07_003', title: 'Identify each idea',
-          dissect: { specimen: 'Circular Flow Income', spots: [
+          dissect: { specimen: 'Macroeconomics: Emergence and Scope', spots: [
             { id: 's1', label: 'Macroeconomics is the branch of', prompt: 'Which idea is this? — Macroeconomics is the branch of economics that studies the behaviour and performance of.', answer: 'Macroeconomics is the branch of', options: ['Macroeconomics is the branch of', 'The circular flow of income', 'The three-sector model extends the', 'A stock variable is an'] },
             { id: 's2', label: 'The circular flow of income', prompt: 'Which idea is this? — The circular flow of income in a two-sector model illustrates the continuous flow of.', answer: 'The circular flow of income', options: ['The circular flow of income', 'Macroeconomics is the branch of', 'The three-sector model extends the', 'A stock variable is an'] },
             { id: 's3', label: 'The three-sector model extends the', prompt: 'Which idea is this? — The three-sector model extends the circular flow by adding the government sector, which.', answer: 'The three-sector model extends the', options: ['The three-sector model extends the', 'Macroeconomics is the branch of', 'The circular flow of income', 'A stock variable is an'] },
@@ -88,7 +88,7 @@ export const w_c12_economicscircularflowincomesim: SimDef = {
             { id: 's6', label: 'The three phases of circular', prompt: 'Which idea is this? — The three phases of circular flow – production, income generation, and expenditure –.', answer: 'The three phases of circular', options: ['The three phases of circular', 'Macroeconomics is the branch of', 'The circular flow of income', 'The three-sector model extends the'] }
           ] } }
     ],
-    explore: { component: C12_EconomicsCircularFlowIncomeSim, prompt: 'Explore the interactive — Circular Flow Income' },
+    explore: { component: C12_EconomicsCircularFlowIncomeSim, prompt: 'Explore the interactive — Macroeconomics: Emergence and Scope' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eco_cbse_07_001', difficulty: 'standard',
           question: 'Macroeconomics is the branch of economics that studies the behaviour and.',

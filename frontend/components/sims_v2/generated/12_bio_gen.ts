@@ -81,7 +81,7 @@ export const C12_BIO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Post-fertilization Events Encompass The",
+    "title": "Post-fertilization Events: Embryogenesis",
     "text": "Post-fertilization events encompass the sequential developmental processes initiated after double fertilization in angiosperms, including endosperm formation from the triploid primary endosperm nucleus, embryogenesis from the diploid zygote through defined",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2083,7 +2083,7 @@ export const C12_BIO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Biochemical And Molecular Evidences For",
+    "title": "Evidences: Biochemical and Molecular",
     "text": "Biochemical and molecular evidences for evolution refer to the similarities in DNA sequences, protein structures, genetic code, and metabolic pathways across diverse organisms that indicate shared ancestry; these molecular homologies provide quantitative,",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3465,15 +3465,13 @@ export const C12_BIO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_bio_ch10",
-  "title": "Microbes In Household Products Refer To",
+  "title": "Microbes In Household Products",
   "subtitle": "Biology · Chapter 10",
   "classLevel": 12,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Microbes In Household Products Refer To",
-  "chapters": [
-   "Biology Ch10: Microbes In Household Products Refer To"
-  ],
+  "topic": "Microbes In Household Products",
+  "chapters": ["Biology Ch10: Microbes In Household Products"],
   "nodeIds": [
    "c12_bio_cbse_10_001",
    "c12_bio_cbse_10_002",
@@ -3501,7 +3499,7 @@ export const C12_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Microbes In Household Products Refer To",
+    "title": "Microbes In Household Products",
     "text": "Microbes in household products refer to the beneficial microorganisms (bacteria, fungi, yeast) intentionally used in everyday food preparation to transform raw substrates into nutritionally enhanced, flavorful, and preserved products through fermentation.",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3965,7 +3963,7 @@ export const C12_BIO_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Microbes In Household mastered! 🎯",
+  "successLine": "Microbes In Household Products mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },

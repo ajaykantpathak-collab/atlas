@@ -6,13 +6,13 @@ import C10_ChemistryAlkanesgeneralformulaandpreparationSim from '../../../simula
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_chemistryalkanesgeneralformulaandpreparationsim: SimDef = {
     id: 'v3w_c10_chemistryalkanesgeneralformulaandpreparationsim',
-    title: 'Alkanesgeneralformulaandpreparation',
+    title: 'Soaps and Detergents: Structure, Action and Difference',
     subtitle: 'This node covers the molecular structure of soaps and detergents, their cleansing action.',
     classLevel: 10, subject: 'chemistry', topic: 'Soaps and Detergents: Structure, Action and Difference',
     chapters: [],
     nodeIds: ['c10_chem_cbse_04_012', 'c10_chem_cbse_04_004', 'c10_chem_cbse_04_007', 'c10_chem_cbse_04_002', 'c10_chem_cbse_04_005', 'c10_chem_cbse_04_008', 'c10_chem_cbse_04_006', 'c10_chem_cbse_02_001', 'c10_chem_cbse_02_012', 'c10_chem_cbse_04_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Observe a greasy plate after eating oily Indian food like parathas or pakoras.', goal: 'Master Alkanesgeneralformulaandpreparation.' },
+    scenario: { role: 'a class 10 learner', intro: 'Observe a greasy plate after eating oily Indian food like parathas or pakoras.', goal: 'Master Soaps and Detergents: Structure, Action and Difference.' },
     discovery: {
         question: 'A student takes 5 g of castor oil (a triglyceride) and adds 20 mL of 20% NaOH solution. The mixture is heated and then common salt (NaCl) is added.',
         options: ['Process: Saponification', 'dissolves', 'oil dissolves in the tail'],
@@ -80,7 +80,7 @@ export const w_c10_chemistryalkanesgeneralformulaandpreparationsim: SimDef = {
             { text: 'Verify formula: C4H8O. C:4, H: 3+3+2=8, O:1. Correct.', faded: true, blankAnswer: 'Structural formula: CH₃-CO-CH₂-CH₃; IUPAC Name:.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_chem_cbse_04_004', title: 'Identify each idea',
-          dissect: { specimen: 'Alkanesgeneralformulaandpreparation', spots: [
+          dissect: { specimen: 'Soaps and Detergents: Structure, Action and Difference', spots: [
             { id: 's1', label: 'Soaps are sodium or potassium', prompt: 'Which idea is this? — Soaps are sodium or potassium salts of long-chain carboxylic acids (fatty acids) with the.', answer: 'Soaps are sodium or potassium', options: ['Soaps are sodium or potassium', 'Hydrocarbons are organic compounds composed', 'A homologous series is a', 'Carbons tetravalency is its ability'] },
             { id: 's2', label: 'Hydrocarbons are organic compounds composed', prompt: 'Which idea is this? — Hydrocarbons are organic compounds composed exclusively of carbon and hydrogen atoms.', answer: 'Hydrocarbons are organic compounds composed', options: ['Hydrocarbons are organic compounds composed', 'Soaps are sodium or potassium', 'A homologous series is a', 'Carbons tetravalency is its ability'] },
             { id: 's3', label: 'A homologous series is a', prompt: 'Which idea is this? — A homologous series is a family of organic compounds having the same functional group,.', answer: 'A homologous series is a', options: ['A homologous series is a', 'Soaps are sodium or potassium', 'Hydrocarbons are organic compounds composed', 'Carbons tetravalency is its ability'] },
@@ -89,7 +89,7 @@ export const w_c10_chemistryalkanesgeneralformulaandpreparationsim: SimDef = {
             { id: 's6', label: 'IUPAC nomenclature is a systematic', prompt: 'Which idea is this? — IUPAC nomenclature is a systematic method for naming organic compounds by identifying the.', answer: 'IUPAC nomenclature is a systematic', options: ['IUPAC nomenclature is a systematic', 'Soaps are sodium or potassium', 'Hydrocarbons are organic compounds composed', 'A homologous series is a'] }
           ] } }
     ],
-    explore: { component: C10_ChemistryAlkanesgeneralformulaandpreparationSim, prompt: 'Explore the interactive — Alkanesgeneralformulaandpreparation' },
+    explore: { component: C10_ChemistryAlkanesgeneralformulaandpreparationSim, prompt: 'Explore the interactive — Soaps and Detergents: Structure, Action and Difference' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_chem_cbse_04_012', difficulty: 'standard',
           question: 'Soaps are sodium or potassium salts of long-chain carboxylic acids (fatty.',

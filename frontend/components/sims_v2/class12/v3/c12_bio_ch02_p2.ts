@@ -121,8 +121,8 @@ export const c12_bio_ch02_p2: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think “hydrophily means pollen floats on water like a boat” and assume all water-pollinated flowers are.',
           parts: [
-                { id: 'a', prompt: 'Design a simple field observation to distinguish whether a common roadside weed (e.g., Parthenium) is wind- or insect-pollinated.', answer: 'Steps: (1) Watch the plant for 15 min during peak flowering',
-                  options: ['Steps: (1) Watch the plant for 15 min during peak flowering', 'hydrophily means pollen floats on water like a boat', 'all water-pollinated flowers are surface-floating (epihydrophily)'],
+                { id: 'a', prompt: 'Design a simple field observation to distinguish whether a common roadside weed (e.g., Parthenium) is wind- or insect-pollinated.', answer: '(1) Watch the plant for 15 min during peak flowering',
+                  options: ['(1) Watch the plant for 15 min during peak flowering', 'hydrophily means pollen floats on water like a boat', 'all water-pollinated flowers are surface-floating (epihydrophily)'],
                   hint: 'If floral parts are unclear, review c12_bio_cbse_02_001 and c9_bio_ch3_5; if pollination types are.',
                   misconception: 'Students often think “hydrophily means pollen floats on water like a boat” and assume all water-pollinated flowers are surface-floating.' }
           ],

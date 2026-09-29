@@ -11,7 +11,7 @@ export const c10_hin_sp_ch21_p3: SimDef = {
     nodeIds: ['c10_hin_sp_cbse_21_013', 'c10_hin_sp_cbse_21_014', 'c10_hin_sp_cbse_21_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 10 learner', intro: 'You sit in the exam hall, staring at the question: *"निम्नलिखित पंक्तियों का आशय स्पष्ट कीजिए..."* — your.', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 10 learner', intro: '\'कर चले हम फ़िदा\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।', goal: 'Master every idea in this chapter.' },
     discovery: {
         question: 'दिए गए पद्यांश का आशय-स्पष्टीकरण लिखिए: *"सरफ़रोशी की तमन्ना अब हमारे दिल में है, देखना है ज़ोर कितना बाज़ू-ए-क़ातिल में है"* (नोट: यह पंक्ति मूल कविता से नहीं.',
         options: ['**Correct Answer (Structured):** 1', 'कर चले हम फ़िदा', 'देशभक्ति की भावना है'],
@@ -19,7 +19,7 @@ export const c10_hin_sp_ch21_p3: SimDef = {
         hook: '**The "Paraphrase Trap" (भावार्थ को ही आशय समझना):** 90% struggling students believe writing a **simpler Hindi version.',
     },
     teaching: [
-        { title: 'कर चले हम फ़दिा — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण (Explanation of Intent/Meaning) is the structured literary skill of interpreting a specific poetic stanza or line by identifying its literal meaning, the literary devices used, the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'कर चले हम फ़दिा — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: '\'कर चले हम फ़िदा\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c10_hin_sp_cbse_21_013', title: 'Your mission',
@@ -28,7 +28,7 @@ export const c10_hin_sp_ch21_p3: SimDef = {
         labels: ['कर चले हम फ़दिा'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c10_hin_sp_cbse_21_013', title: 'कर चले हम फ़दिा — आशय-स्पष्टीकरण और विश्लेषण अभ्यास',
-          caseStudy: { intro: 'You sit in the exam hall, staring at the question: *"निम्नलिखित पंक्तियों का आशय स्पष्ट कीजिए..."* — your heart races because you know the poem but don\'t know.',
+          caseStudy: { intro: '\'कर चले हम फ़िदा\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।',
             decisions: [{ prompt: '"कर चले हम फ़िदा" शीर्षक पंक्ति में \'फ़िदा\' शब्द का शाब्दिक अर्थ क्या है और यह शब्द कविता के केंद्रीय भाव को किस प्रकार स्थापित करता है?', options: [
                 { text: '**Correct Answer:** \'फ़िदा\' का शाब्दिक अर्थ है \'न्यौछावर करना\', \'बलिदान कर देना\' या', outcome: '**Correct Answer:** \'फ़िदा\' का शाब्दिक अर्थ है \'न्यौछावर करना\', \'बलिदान कर देना\' या \'कुर्बान होना\'।.' },
                 { text: 'मर जाना', outcome: 'Not quite — **The "Paraphrase Trap" (भावार्थ को ही आशय समझना):** 90% struggling students believe writing.', reveals: 'the-paraphrase-trap-90-struggling' },
@@ -46,7 +46,7 @@ export const c10_hin_sp_ch21_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_hin_sp_cbse_21_013', difficulty: 'standard',
-          question: 'आशय-स्पष्टीकरण (Explanation of Intent/Meaning) is the structured literary skill.',
+          question: '\'कर चले हम फ़िदा\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'If stuck, review **Node 006 (अलंकार)** and **Node 007 (प्रतीक/बिंब)** — specifically the.',
           misconception: '**The "Paraphrase Trap" (भावार्थ को ही आशय समझना):** 90% struggling students believe writing a **simpler Hindi version.',
           parts: [
@@ -72,23 +72,23 @@ export const c10_hin_sp_ch21_p3: SimDef = {
           ],
             remediations: { 'the-paraphrase-trap-90-struggling': { steps: ['**Targeted Remediation Protocol (3-Day Fix):** 1.', '**Day 1 - Deconstruct a Model Answer:** Give the student a **perfect 4-step आशय-स्पष्टीकरण** (from node 014 or CBSE.', 'Ask: "दोनों में क्या अंतर है?', 'किसे पूरे अंक मिलेंगे?" Force them to label the 4 steps (प्रसंग, भावार्थ, युक्ति, भाव-संबंध) in the model answer using.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_hin_sp_cbse_21_014', difficulty: 'standard',
-          question: 'परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) वह व्यवस्थित प्रक्रिया है.',
+          question: '\'कर चले हम फ़िदा\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि फँस जाएँ तो **c10_hin_sp_cbse_21_007 (प्रतीक और बिंब)** और **c10_hin_sp_cbse_21_013.',
           misconception: '**विशिष्ट भ्रांति**: *"अच्छे अंक पाने के लिए कविता की अधिक-से-अधिक पंक्तियाँ ज्यों-की-त्यों लिख देनी चाहिए। लंबा उत्तर.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) वह व्यवस्थित प्रक्रिया है जिसमें',
-                  options: ['परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) वह व्यवस्थित प्रक्रिया है जिसमें', '\'कर चले हम फिदा\' कविता के कवि **माखनलाल चतुर्वेदी** (1889–1968) छायावादोत्तर युग के', '"कर चले हम फ़िदा" कविता के प्रत्येक पद्यांश (चार पंक्तियों के समूह) का भावार्थ स्पष्ट करना', '**काव्य-संरचना (Poetic Structure)** कविता के आंतरिक संगठन की वह योजना है जिसमें पद-विभाजन'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कर चले हम फ़िदा\' पर पाठ-आधारित लेखन',
+                  options: ['\'कर चले हम फ़िदा\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कर चले हम फ़िदा\' का कथानक', '\'कर चले हम फ़िदा\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फँस जाएँ तो **c10_hin_sp_cbse_21_007 (प्रतीक और बिंब)** और **c10_hin_sp_cbse_21_013.',
                   misconception: '**विशिष्ट भ्रांति**: *"अच्छे अंक पाने के लिए कविता की अधिक-से-अधिक पंक्तियाँ ज्यों-की-त्यों लिख देनी चाहिए। लंबा उत्तर = अधिक अंक।"*.' }
           ],
             remediations: { 'cbse-content-50': { steps: ['**निदान**: छात्र से कहें — *"पिछले वर्ष के बोर्ड पेपर का कोई 5-अंकीय प्रश्न उठाओ और 8 मिनट में उत्तर लिखो।"* उसका उत्तर.', '**मॉडलिंग**: उसी प्रश्न का **आदर्श उत्तर (Model Answer)** PEEL में दिखाएँ — **रंगीन पेन** से.', '**अभ्यास**: **केवल Evidence चरण** का अभ्यास कराएँ — 5 मिनट में कविता से **दो सटीक उद्धरण** चुनकर लिखने का ड्रिल दें। 4.', '**प्रतिपुष्टि (Feedback)**: अगले 3 दिन तक **रोज एक 3-अंकीय और एक 5-अंकीय उत्तर** लिखवाएँ, **केवल संरचना (Structure)**.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_hin_sp_cbse_21_015', difficulty: 'standard',
-          question: 'वाचन-पाठ कविता को सही उच्चारण, उचित विराम, लय और भाव के साथ आवाज़ देकर पढ़ने की.',
+          question: '\'कर चले हम फ़िदा\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श.',
           hint: 'यदि अटका हुआ महसूस हो तो **c10_hin_sp_cbse_21_002 (पद्यांश-वार भावार्थ)** और.',
           misconception: '**सबसे घातक भ्रम:** "वाचन-पाठ का अर्थ केवल **स्वर-पाठ (recitation)** है; चर्चा-बिंदु तो **शिक्षक पूछते हैं, हमें उत्तर.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-पाठ कविता को सही उच्चारण, उचित विराम, लय और भाव के साथ आवाज़ देकर पढ़ने की कला है',
-                  options: ['वाचन-पाठ कविता को सही उच्चारण, उचित विराम, लय और भाव के साथ आवाज़ देकर पढ़ने की कला है', '\'कर चले हम फिदा\' कविता के कवि **माखनलाल चतुर्वेदी** (1889–1968) छायावादोत्तर युग के', '"कर चले हम फ़िदा" कविता के प्रत्येक पद्यांश (चार पंक्तियों के समूह) का भावार्थ स्पष्ट करना', '**काव्य-संरचना (Poetic Structure)** कविता के आंतरिक संगठन की वह योजना है जिसमें पद-विभाजन'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कर चले हम फ़िदा\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'कर चले हम फ़िदा\' पर वाचन-श्रवण और चर्चा-बिंदु', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कर चले हम फ़िदा\' का कथानक', '\'कर चले हम फ़िदा\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटका हुआ महसूस हो तो **c10_hin_sp_cbse_21_002 (पद्यांश-वार भावार्थ)** और.',
                   misconception: '**सबसे घातक भ्रम:** "वाचन-पाठ का अर्थ केवल **स्वर-पाठ (recitation)** है; चर्चा-बिंदु तो **शिक्षक पूछते हैं, हमें उत्तर रटने हैं**।" छात्र.' }
           ],

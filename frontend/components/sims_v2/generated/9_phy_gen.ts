@@ -539,15 +539,13 @@ export const C9_PHY_GEN: SimDef[] = [
  },
  {
   "id": "gen_c9_phy_ch03",
-  "title": "Newton's First Law Of Motion (Law",
+  "title": "Force: Definition and Effects on Objects",
   "subtitle": "Physics · Chapter 3",
   "classLevel": 9,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Newton's First Law Of Motion (Law",
-  "chapters": [
-   "Physics Ch3: Newton's First Law Of Motion (Law"
-  ],
+  "topic": "Force: Definition and Effects on Objects",
+  "chapters": ["Physics Ch3: Force: Definition and Effects on Objects"],
   "nodeIds": [
    "c9_physics_ch3_1",
    "c9_physics_ch3_2",
@@ -566,7 +564,7 @@ export const C9_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Newton's First Law Of Motion (Law directly with your eyes?",
+   "question": "Can you see Force: Definition and Effects on directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -577,13 +575,13 @@ export const C9_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Newton's First Law Of Motion (Law",
+    "title": "Newton's First Law Of Motion",
     "text": "Newton's First Law of Motion (Law of Inertia) states that a body continues in its state of rest or uniform motion in a straight line unless acted upon by an external unbalanced force — meaning that a body at rest stays at rest, and a body in motion stays in",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Balanced Forces Occur When The",
+    "title": "Balanced Forces Occur When The Vector",
     "text": "Balanced forces occur when the vector sum of all forces acting on an object is zero (net force = 0 N), resulting in zero acceleration — the object either remains at rest or continues moving with constant velocity.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
@@ -619,7 +617,7 @@ export const C9_PHY_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Increasing Friction Involves Enhancing The",
+    "title": "Increasing and Reducing Friction",
     "text": "Increasing friction involves enhancing the interlocking between surface irregularities or increasing adhesive forces to oppose relative motion, achieved by methods like grooving surfaces, using rough materials, or increasing normal force.",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
@@ -895,11 +893,11 @@ export const C9_PHY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about newton's first law of motion (law?",
+    "What surprised you about force: definition and effects on objects?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Newton's First Law Of Motion mastered! 🎯",
+  "successLine": "Force: Definition and Effects mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },

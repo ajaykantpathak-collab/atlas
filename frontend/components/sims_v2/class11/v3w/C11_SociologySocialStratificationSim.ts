@@ -6,13 +6,13 @@ import C11_SociologySocialStratificationSim from '../../../simulations/c6_12/C11
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_sociologysocialstratificationsim: SimDef = {
     id: 'v3w_c11_sociologysocialstratificationsim',
-    title: 'Social Stratification',
+    title: 'Social Structure as a Conceptual Framework: Patterned Arrangements of Human Interaction',
     subtitle: 'This node covers the conceptual foundations of social structure as a sociological.',
     classLevel: 11, subject: 'sociology', topic: 'Social Structure as a Conceptual Framework: Patterned Arrangements of Human Interaction',
     chapters: [],
     nodeIds: ['c11_soc_cbse_06_001', 'c11_soc_cbse_06_002', 'c11_soc_cbse_06_003', 'c11_soc_cbse_06_006', 'c11_soc_cbse_06_007', 'c11_soc_cbse_06_008', 'c11_soc_cbse_06_009', 'c11_soc_cbse_06_010', 'c11_soc_cbse_07_003', 'c11_soc_cbse_07_004', 'c11_soc_cbse_07_005', 'c11_soc_cbse_07_010', 'c11_soc_cbse_02_001', 'c11_soc_cbse_02_002', 'c11_soc_cbse_02_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you walk into your school every morning — you know exactly where to sit, when to speak, how to.', goal: 'Master Social Stratification.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you walk into your school every morning — you know exactly where to sit, when to speak, how to.', goal: 'Master Social Structure as a Conceptual Framework: Patterned Arrangements of Human Interaction.' },
     discovery: {
         question: 'A student argues: "Caste discrimination is illegal now, so caste stratification no longer exists in India." Using the concept of *life chances*, explain why.',
         options: ['The argument confuses *legal equality* with *substantive equality*', 'caste doesn\'t matter anymore', 'stratification'],
@@ -78,7 +78,7 @@ export const w_c11_sociologysocialstratificationsim: SimDef = {
             { text: 'Conclude that both processes coexist: cooperation in canal maintenance, competition in rehat market, and the choice of.', faded: true, blankAnswer: 'The village illustrates coexistence of cooperation (canal.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_soc_cbse_06_002', title: 'Identify each idea',
-          dissect: { specimen: 'Social Stratification', spots: [
+          dissect: { specimen: 'Social Structure as a Conceptual Framework: Patterned Arrangements of Human Interaction', spots: [
             { id: 's1', label: 'Social structure is the patterned', prompt: 'Which idea is this? — Social structure is the patterned, relatively stable arrangement of social institutions,.', answer: 'Social structure is the patterned', options: ['Social structure is the patterned', 'Social stratification is a system', 'Life chances refer to material', 'The conflict perspective views social'] },
             { id: 's2', label: 'Social stratification is a system', prompt: 'Which idea is this? — Social stratification is a system of structured, persistent inequalities between social.', answer: 'Social stratification is a system', options: ['Social stratification is a system', 'Social structure is the patterned', 'Life chances refer to material', 'The conflict perspective views social'] },
             { id: 's3', label: 'Life chances refer to material', prompt: 'Which idea is this? — Life chances refer to material advantages (wealth, income, health, job security,.', answer: 'Life chances refer to material', options: ['Life chances refer to material', 'Social structure is the patterned', 'Social stratification is a system', 'The conflict perspective views social'] },
@@ -87,7 +87,7 @@ export const w_c11_sociologysocialstratificationsim: SimDef = {
             { id: 's6', label: 'Competition as a social process', prompt: 'Which idea is this? — Competition as a social process refers to a structured struggle between individuals or.', answer: 'Competition as a social process', options: ['Competition as a social process', 'Social structure is the patterned', 'Social stratification is a system', 'Life chances refer to material'] }
           ] } }
     ],
-    explore: { component: C11_SociologySocialStratificationSim, prompt: 'Explore the interactive — Social Stratification' },
+    explore: { component: C11_SociologySocialStratificationSim, prompt: 'Explore the interactive — Social Structure as a Conceptual Framework: Patterned Arrangements of Human Interaction' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_soc_cbse_06_001', difficulty: 'standard',
           question: 'Social structure is the patterned, relatively stable arrangement of social.',

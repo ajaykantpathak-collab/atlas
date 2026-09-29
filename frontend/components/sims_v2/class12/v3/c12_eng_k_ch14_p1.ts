@@ -19,37 +19,37 @@ export const c12_eng_k_ch14_p1: SimDef = {
         hook: 'Same word, different war: a Fabian socialist in Depression-era Britain fights \'wage slavery\' with structural reform; a teacher who rejected guruhood fights \'conditioning\' in the mind. Freedom for Shaw is fair distribution; for Krishnamurti it\'s self-awakened intelligence. History wrote their definitions.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'Before You Read: Context and Background is a pre-reading strategy where students investigate the author\'s life, historical period, intellectual influences, and key vocabulary to build a mental.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Freedom\' (Kaleidoscope, ch. 14) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_14_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Run two definitions of freedom side by side: trace Shaw\'s natural vs unnatural slavery and his jab at voting between \'two rich friends,\' then test Krishnamurti\'s claim that discipline and freedom can\'t share a mind.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_14_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re about to watch a documentary on climate change — you\'d want to know who made it, when, and why, right? The same applies here.',
+          caseStudy: { intro: 'Start with the author of \'Freedom\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'What is the primary purpose of the "Before You Read" stage when approaching a non-fiction text like Shaw\'s "Freedom"?', options: [
                 { text: 'The primary purpose is to build a mental framework by researching the author\'s', outcome: 'The primary purpose is to build a mental framework by researching the author\'s background.' },
                 { text: 'to summarize the essay', outcome: 'Not quite — Students think "Before You Read" means skimming the "About the Author" box in the textbook and.', reveals: 'before-you-read-means-skimming' },
                 { text: 'to answer the questions at the end', outcome: 'Not quite — Students think "Before You Read" means skimming the "About the Author" box in the textbook and.', reveals: 'before-you-read-means-skimming' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_14_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are reading a long-form editorial in *The Hindu* or *The Indian Express* about climate policy.',
+          caseStudy: { intro: 'Trace \'Freedom\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the primary difference between \'plot\' in a fictional short story and \'plot\' in a non-fiction essay like those in Kaleidoscope?', options: [
                 { text: 'In fiction, plot is the causal sequence of events driven by character choices and', outcome: 'In fiction, plot is the causal sequence of events driven by character choices and conflicts.' },
                 { text: 'both have climax and resolution', outcome: 'Not quite — Students treat non-fiction as "information delivery" and hunt for *facts* to memorize, ignoring.', reveals: 'students-treat-non-fiction-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_14_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re scrolling through a podcast app: a political commentary episode from the 1930s sounds completely different from a modern TED Talk for students.',
+          caseStudy: { intro: 'Identify where and when \'Freedom\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the original medium of delivery for G.B. Shaw\'s essay "Freedom" and how do you know from the text?', options: [
                 { text: 'The essay was originally a radio broadcast ("wireless talk")', outcome: 'The essay was originally a radio broadcast ("wireless talk"). The text explicitly states: "I.' },
                 { text: 'I am never controversial over the wireless', outcome: 'Not quite — Students often believe non-fiction texts have no "setting" because they lack fictional.', reveals: 'non-fiction-texts-have-no' },
                 { text: 'it was a newspaper article', outcome: 'Not quite — Students often believe non-fiction texts have no "setting" because they lack fictional.', reveals: 'non-fiction-texts-have-no' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_14_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re scrolling through social media and see a post claiming "True freedom means doing whatever you want, whenever you want." You instinctively know.',
+          caseStudy: { intro: 'Ask what \'Freedom\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of G.B. Shaw\'s essay "Freedom" as distinct from its subject matter?', options: [
                 { text: 'The primary theme is the distinction between natural necessity (slavery to Nature) and', outcome: 'The primary theme is the distinction between natural necessity (slavery to Nature) and social.' },
                 { text: 'freedom is important', outcome: 'Not quite — Students consistently confuse "topic" with "theme" in non-fiction.', reveals: 'students-consistently-confuse-topic-with' },
@@ -69,12 +69,12 @@ export const c12_eng_k_ch14_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_14_001', difficulty: 'standard',
-          question: 'Before You Read: Context and Background is a pre-reading strategy where.',
+          question: '\'Freedom\' (Kaleidoscope, ch. 14) — the context and background to this text: who.',
           hint: 'If stuck, revisit c11_eng_h_cbse_01_001 (Hornbill Ch1 "Before You Read") and redo the.',
           misconception: 'Students think "Before You Read" means skimming the "About the Author" box in the textbook and memorizing birth/death.',
           parts: [
@@ -87,7 +87,7 @@ export const c12_eng_k_ch14_p1: SimDef = {
                   hint: 'If stuck, revisit c11_eng_h_cbse_01_001 (Hornbill Ch1 "Before You Read") and redo the.',
                   misconception: 'Students think "Before You Read" means skimming the "About the Author" box in the textbook and memorizing birth/death dates.' }
           ],
-            remediations: { 'before-you-read-means-skimming': { steps: ['If a student cannot move beyond biographical trivia: 1) Give them a 2-column template: "Fact from Bio" → "How This.', '4) Re-diagnose with Diagnostic Question 2 — they must now explain the link, not just state the fact.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'before-you-read-means-skimming': { steps: ['If a student cannot move beyond biographical trivia: 1) Give them a 2-column template: "Fact from Bio" → "How This.', '4) Re-diagnose with Diagnostic Question 2 — they must now explain the link, not just state the fact.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_14_001', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -102,9 +102,9 @@ export const c12_eng_k_ch14_p1: SimDef = {
                   hint: 'If stuck, revisit c11_eng_h_cbse_01_001 (Hornbill Ch1 "Before You Read") and redo the.',
                   misconception: 'Students think "Before You Read" means skimming the "About the Author" box in the textbook and memorizing birth/death dates.' }
           ],
-            remediations: { 'before-you-read-means-skimming': { steps: ['If a student cannot move beyond biographical trivia: 1) Give them a 2-column template: "Fact from Bio" → "How This.', '4) Re-diagnose with Diagnostic Question 2 — they must now explain the link, not just state the fact.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'before-you-read-means-skimming': { steps: ['If a student cannot move beyond biographical trivia: 1) Give them a 2-column template: "Fact from Bio" → "How This.', '4) Re-diagnose with Diagnostic Question 2 — they must now explain the link, not just state the fact.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_14_002', difficulty: 'standard',
-          question: 'In non-fiction, **plot** refers to the logical sequence of ideas, arguments,.',
+          question: 'The plot/narrative arc of \'Freedom\' — what happens, in what order, and why the.',
           hint: 'If stuck, revisit Class 11 Hornbill Chapter 1 "The Portrait of a Lady" (node.',
           misconception: 'Students treat non-fiction as "information delivery" and hunt for *facts* to memorize, ignoring that the *arrangement*.',
           parts: [
@@ -113,9 +113,9 @@ export const c12_eng_k_ch14_p1: SimDef = {
                   hint: 'If stuck, revisit Class 11 Hornbill Chapter 1 "The Portrait of a Lady" (node c11_eng_h_cbse_01_002).',
                   misconception: 'Students treat non-fiction as "information delivery" and hunt for *facts* to memorize, ignoring that the *arrangement* of facts IS the.' }
           ],
-            remediations: { 'students-treat-non-fiction-as': { steps: ['If a student cannot move beyond content-summary: 1.', 'Give them a 3-paragraph op-ed (e.g., on "Should schools ban smartphones?").', 'Ask them to label each paragraph with a *structural tag*: [Hook], [Context], [Claim 1], [Evidence 1].', 'Have them draw a flowchart: Hook → Context → Claim → Evidence → Counter → Rebuttal → CTA.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-non-fiction-as': { steps: ['If a student cannot move beyond content-summary: 1.', 'Give them a 3-paragraph op-ed (e.g., on "Should schools ban smartphones?").', 'Ask them to label each paragraph with a *structural tag*: [Hook], [Context], [Claim 1], [Evidence 1].', 'Have them draw a flowchart: Hook → Context → Claim → Evidence → Counter → Rebuttal → CTA.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_14_003', difficulty: 'standard',
-          question: 'Setting in non-fiction refers to the historical, cultural, and immediate.',
+          question: 'The setting of \'Freedom\' — the place, time and atmosphere the text creates.',
           hint: 'If stuck on identifying setting clues, return to c12_eng_k_cbse_14_001 and list all.',
           misconception: 'Students often believe non-fiction texts have no "setting" because they lack fictional world-building, or that.',
           parts: [
@@ -124,31 +124,31 @@ export const c12_eng_k_ch14_p1: SimDef = {
                   hint: 'If stuck on identifying setting clues, return to c12_eng_k_cbse_14_001 and list all proper nouns.',
                   misconception: 'Students often believe non-fiction texts have no "setting" because they lack fictional world-building, or that "atmosphere" only applies.' }
           ],
-            remediations: { 'non-fiction-texts-have-no': { steps: ['If the student cannot distinguish setting from content: 1.', 'Revisit c12_eng_k_cbse_14_001 (Before You Read) to rebuild historical context for both authors.', 'Practice the "medium swap" exercise: rewrite the first paragraph of Shaw\'s essay as a newspaper editorial — what.', 'For atmosphere, use the "tone spectrum" activity: place 5 key sentences from each essay on a continuum from.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'non-fiction-texts-have-no': { steps: ['If the student cannot distinguish setting from content: 1.', 'Revisit c12_eng_k_cbse_14_001 (Before You Read) to rebuild historical context for both authors.', 'Practice the "medium swap" exercise: rewrite the first paragraph of Shaw\'s essay as a newspaper editorial — what.', 'For atmosphere, use the "tone spectrum" activity: place 5 key sentences from each essay on a continuum from.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_14_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in non-fiction refers to the systematic.',
+          question: 'Character analysis in \'Freedom\' — the central figure(s), their traits, and how.',
           hint: 'If stuck on pronoun/rhetorical-question tracking: revisit c11_eng_w_cbse_01_004 Worked.',
           misconception: 'Students treat \'character analysis\' in non-fiction as **summarising the author\'s biography or stated opinions** (e.g.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist in non-fiction refers to the systematic examination',
-                  options: ['Character analysis of the protagonist in non-fiction refers to the systematic examination', 'Before You Read: Context and Background is a pre-reading strategy where students', 'In non-fiction, **plot** refers to the logical sequence of ideas, arguments, or events', 'Setting in non-fiction refers to the historical, cultural, and immediate context of the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis in \'Freedom\'',
+                  options: ['Character analysis in \'Freedom\'', '\'Freedom\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Freedom\'', 'The setting of \'Freedom\''],
                   hint: 'If stuck on pronoun/rhetorical-question tracking: revisit c11_eng_w_cbse_01_004 Worked Example 2.',
                   misconception: 'Students treat \'character analysis\' in non-fiction as **summarising the author\'s biography or stated opinions** (e.g., "Shaw was.' }
           ],
-            remediations: { 'students-treat-character-analysis-in': { steps: ['If a student cannot distinguish author from persona: 1.', '**Revisit c11_eng_w_cbse_01_004 (Character Analysis: Protagonist — Woven Words)** — review the distinction between.', '**Do a micro-exercise**: Take one paragraph from Shaw (e.g., the \'honey/bees\' passage) and one from Krishnamurti (e.g.', 'For each, answer: "What does this voice *want me to feel about myself* right now?" — not "What does the author think?".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-character-analysis-in': { steps: ['If a student cannot distinguish author from persona: 1.', '**Revisit c11_eng_w_cbse_01_004 (Character Analysis: Protagonist — Woven Words)** — review the distinction between.', '**Do a micro-exercise**: Take one paragraph from Shaw (e.g., the \'honey/bees\' passage) and one from Krishnamurti (e.g.', 'For each, answer: "What does this voice *want me to feel about myself* right now?" — not "What does the author think?".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_14_005', difficulty: 'standard',
-          question: 'Supporting characters in non-fiction are real individuals, interviewees.',
+          question: 'Supporting characters in \'Freedom\' — the secondary figures who move the story.',
           hint: 'If stuck, review "authorial framing" in c12_eng_k_cbse_14_004 and practice with a single.',
           misconception: 'Students often treat supporting characters in non-fiction as mere "examples" or "illustrations" — passive decorations.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in non-fiction are real individuals, interviewees, historical',
-                  options: ['Supporting characters in non-fiction are real individuals, interviewees, historical', 'Before You Read: Context and Background is a pre-reading strategy where students', 'In non-fiction, **plot** refers to the logical sequence of ideas, arguments, or events', 'Setting in non-fiction refers to the historical, cultural, and immediate context of the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in \'Freedom\'',
+                  options: ['Supporting characters in \'Freedom\'', '\'Freedom\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Freedom\'', 'The setting of \'Freedom\''],
                   hint: 'If stuck, review "authorial framing" in c12_eng_k_cbse_14_004 and practice with a single supporting.',
                   misconception: 'Students often treat supporting characters in non-fiction as mere "examples" or "illustrations" — passive decorations for the author\'s.' }
           ],
-            remediations: { 'students-often-treat-supporting-characters': { steps: ['Revisit c12_eng_k_cbse_14_004 (Protagonist Analysis) to recall the difference between *what a character does* and *how.', 'Take one supporting character from "Chasing the Rainbow" and annotate every authorial choice: which words are quoted.', 'Write a 3-sentence "function statement" for that character: "The author uses [Name] to [rhetorical purpose].', 'Verify with a peer: does your statement explain the *effect on the reader*, not just the content?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-supporting-characters': { steps: ['Revisit c12_eng_k_cbse_14_004 (Protagonist Analysis) to recall the difference between *what a character does* and *how.', 'Take one supporting character from "Chasing the Rainbow" and annotate every authorial choice: which words are quoted.', 'Write a 3-sentence "function statement" for that character: "The author uses [Name] to [rhetorical purpose].', 'Verify with a peer: does your statement explain the *effect on the reader*, not just the content?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_14_006', difficulty: 'standard',
-          question: 'The primary theme is the central, unifying idea or insight about human.',
+          question: 'The primary theme of \'Freedom\' — the central idea the whole text returns to.',
           hint: 'If stuck, revisit c11_eng_h_cbse_01_006 (Theme: Primary Theme and Message) and practice.',
           misconception: 'Students consistently confuse "topic" with "theme" in non-fiction.',
           parts: [
@@ -161,7 +161,7 @@ export const c12_eng_k_ch14_p1: SimDef = {
                   hint: 'If stuck, revisit c11_eng_h_cbse_01_006 (Theme: Primary Theme and Message) and practice the "author.',
                   misconception: 'Students consistently confuse "topic" with "theme" in non-fiction.' }
           ],
-            remediations: { 'students-consistently-confuse-topic-with': { steps: ['If a student cannot distinguish topic from theme: (1) Give them Shaw\'s first paragraph and ask: "What is the subject?', 'What is the claim?" (Subject: freedom.', 'Claim: perfect freedom is impossible; we are all slaves to Nature.) (2) Have them complete this frame: "The author.', '(4) Re-diagnose with a fresh non-fiction excerpt (e.g., a newspaper editorial) using the same frame.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-consistently-confuse-topic-with': { steps: ['If a student cannot distinguish topic from theme: (1) Give them Shaw\'s first paragraph and ask: "What is the subject?', 'What is the claim?" (Subject: freedom.', 'Claim: perfect freedom is impossible; we are all slaves to Nature.) (2) Have them complete this frame: "The author.', '(4) Re-diagnose with a fresh non-fiction excerpt (e.g., a newspaper editorial) using the same frame.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

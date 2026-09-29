@@ -19,7 +19,7 @@ export const c12_eng_k_ch16_p3: SimDef = {
         hook: 'Bergman insists film is closer to music than literature — it hits emotion through rhythm and montage, not intellect. That\'s why he calls the script \'a very imperfect technical basis\': dialogue survives translation, but a film\'s breathing — its moods, tones, tensions — never fits into words.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the advanced literary skill of examining a non-fiction text\'s underlying arguments, evaluating the author\'s rhetorical strategies, synthesizing.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Film-Making\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_16_013', title: 'Your mission',
@@ -29,21 +29,21 @@ export const c12_eng_k_ch16_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re watching a film adaptation of your favourite novel and feel disappointed — the characters don\'t look right, the inner monologues are gone, the.',
+          caseStudy: { intro: 'Analyse \'Film-Making\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is Bergman\'s central metaphor for the film-maker\'s craft, and what specific childhood experience does he link to it?', options: [
                 { text: 'Bergman\'s central metaphor is the film-maker as **conjurer** (magician), exploiting the', outcome: 'Bergman\'s central metaphor is the film-maker as **conjurer** (magician), exploiting the.' },
                 { text: 'director as author', outcome: 'Not quite — **Misconception**: "Critical analysis of this chapter means summarizing Bergman\'s biography and.', reveals: 'misconception-critical-analysis-of-this' },
                 { text: 'film as literature', outcome: 'Not quite — **Misconception**: "Critical analysis of this chapter means summarizing Bergman\'s biography and.', reveals: 'misconception-critical-analysis-of-this' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you open the board paper and see: "Compare Bergman\'s and Eco\'s views on filming books.',
+          caseStudy: { intro: 'For written answers on \'Film-Making\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'Define the PEEL structure for a CBSE English long answer and state the function of each component in one sentence.', options: [
                 { text: 'PEEL stands for Point (topic sentence stating the argument), Evidence (direct quote or', outcome: 'PEEL stands for Point (topic sentence stating the argument), Evidence (direct quote or precise.' },
                 { text: 'How does Bergman use autobiography to explain his art?', outcome: 'Not quite — Students treat \'Writing Skills\' as *summarising the chapter in their own words*.', reveals: 'students-treat-writing-skills-as' },
                 { text: 'Compare Bergman and Eco on adaptation', outcome: 'Not quite — Students treat \'Writing Skills\' as *summarising the chapter in their own words*.', reveals: 'students-treat-writing-skills-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a group discussion for a university admission (like CUET) or a job interview where the panel asks: "Bergman says film is closer to music.',
+          caseStudy: { intro: 'Talk through \'Film-Making\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the central metaphor Bergman uses to describe the relationship between a film-maker and the audience, and what does it imply about.', options: [
                 { text: 'Bergman uses the metaphor of a "conjurer" (magician) performing tricks with an apparatus', outcome: 'Bergman uses the metaphor of a "conjurer" (magician) performing tricks with an apparatus that.' },
                 { text: 'director is a teacher', outcome: 'Not quite — Students treat "Speaking and Listening" as informal chat or rote memorization of answers.', reveals: 'students-treat-speaking-and-listening' },
@@ -68,12 +68,12 @@ export const c12_eng_k_ch16_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the advanced literary skill.',
+          question: 'Critical thinking on \'Film-Making\' — analysing the text to reach evidence-based.',
           hint: 'If stuck, revisit **c11_eng_h_cbse_01_013** (Class 11 Hornbill Critical Thinking).',
           misconception: '**Misconception**: "Critical analysis of this chapter means summarizing Bergman\'s biography and listing his film.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical Thinking: Analysis and Interpretation is the advanced literary skill of',
-                  options: ['Critical Thinking: Analysis and Interpretation is the advanced literary skill of', 'This node provides the essential historical, biographical, and conceptual background', 'Plot and Narrative Structure in a non-fiction film essay refers to the author\'s', 'In non-fiction prose like Bergman\'s essay, **setting** refers to the specific physical,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'Film-Making\'',
+                  options: ['Critical thinking on \'Film-Making\'', '\'Film-Making\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Film-Making\'', 'The setting of \'Film-Making\''],
                   hint: 'If stuck, revisit **c11_eng_h_cbse_01_013** (Class 11 Hornbill Critical Thinking) — specifically.',
                   misconception: '**Misconception**: "Critical analysis of this chapter means summarizing Bergman\'s biography and listing his film titles, then doing the.' }
           ],
@@ -90,7 +90,7 @@ export const c12_eng_k_ch16_p3: SimDef = {
           ],
             remediations: { 'misconception-critical-analysis-of-this': { steps: ['If a student falls into the biography-summary trap: 1.', 'Tell me in one sentence: What is Bergman *arguing* about film vs.', '**Model**: Show a 2-column table: LEFT = "What Bergman/Eco *say* (claims)", RIGHT = "How they *support*.', 'Fill one row together: Claim: "Film is rhythm, not story." Evidence: "27 minutes of darkness per hour," "music works.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_014', difficulty: 'standard',
-          question: 'Writing Skills for this chapter involves the ability to construct structured.',
+          question: 'Writing skills from \'Film-Making\' — using the text as a model or springboard.',
           hint: 'If stuck, return to c12_eng_k_cbse_16_013 (Critical Thinking) and re-do the \'Talking.',
           misconception: 'Students treat \'Writing Skills\' as *summarising the chapter in their own words*.',
           parts: [
@@ -105,7 +105,7 @@ export const c12_eng_k_ch16_p3: SimDef = {
           ],
             remediations: { 'students-treat-writing-skills-as': { steps: ['Give the student a 6-mark question from a past CBSE paper (e.g., "Autobiographical accounts make interesting reading.', 'Have them highlight every sentence that is *not* a direct answer to the question (i.e., pure narration).', 'Delete all highlighted sentences.', 'For each remaining idea, force a PEEL rewrite: "What is your POINT? What is your EVIDENCE (quote)?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Film-Making\' — speaking and listening around the text.',
           hint: 'If stuck, return to c12_eng_k_cbse_16_013 "Critical Thinking" and re-do the "Talking.',
           misconception: 'Students treat "Speaking and Listening" as informal chat or rote memorization of answers.',
           parts: [

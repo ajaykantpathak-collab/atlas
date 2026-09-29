@@ -6,13 +6,13 @@ import C7_ScienceTheEverEvolvingWorldOfSim from '../../../simulations/c6_12/C7_S
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_sciencetheeverevolvingworldofsim: SimDef = {
     id: 'v3w_c7_sciencetheeverevolvingworldofsim',
-    title: 'The Ever Evolving World Of',
+    title: 'Science as an Ongoing Process of Discovery',
     subtitle: 'Covers the nature of science as a self-correcting, continuous process of inquiry and.',
     classLevel: 7, subject: 'science', topic: 'Science as an Ongoing Process of Discovery',
     chapters: [],
     nodeIds: ['c7_physics_ch01_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Observe how a simple household ceiling fan running at high speed creates a blur, making individual blades.', goal: 'Master The Ever Evolving World Of.' },
+    scenario: { role: 'a class 7 learner', intro: 'Observe how a simple household ceiling fan running at high speed creates a blur, making individual blades.', goal: 'Master Science as an Ongoing Process of Discovery.' },
     discovery: {
         question: 'What term best describes the scientific habit of questioning established ideas and testing them against new evidence rather than accepting them blindly?',
         options: ['Scientific temper', 'memorization', 'assumption'],
@@ -33,7 +33,7 @@ export const w_c7_sciencetheeverevolvingworldofsim: SimDef = {
             { text: 'Verify if the answer is physically reasonable (water boils near 100 °C depending on atmospheric pressure) and state.', faded: true, blankAnswer: '99.03 °C' }
             ] } }
     ],
-    explore: { component: C7_ScienceTheEverEvolvingWorldOfSim, prompt: 'Explore the interactive — The Ever Evolving World Of' },
+    explore: { component: C7_ScienceTheEverEvolvingWorldOfSim, prompt: 'Explore the interactive — Science as an Ongoing Process of Discovery' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_physics_ch01_010', difficulty: 'standard',
           question: 'Science is an ongoing, evolving process of discovery where observations,.',

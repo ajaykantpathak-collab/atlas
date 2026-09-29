@@ -6,13 +6,13 @@ import C12_MathsDefiniteIntegralRiemannSim from '../../../simulations/three/C12_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathsdefiniteintegralriemannsim: SimDef = {
     id: 'v3w_c12_mathsdefiniteintegralriemannsim',
-    title: 'Definite Integral Riemann',
+    title: 'Definite Integral as Limit of a Sum',
     subtitle: 'This node covers the definition of the definite integral as a limit of a sum (Riemann.',
     classLevel: 12, subject: 'mathematics', topic: 'Definite Integral as Limit of a Sum',
     chapters: [],
     nodeIds: ['c12_math_cbse_07_007', 'c12_math_cbse_07_009', 'c12_math_cbse_08_001', 'c12_math_cbse_07_006', 'c12_math_cbse_07_001', 'c12_math_cbse_07_002', 'c12_math_cbse_07_004', 'c12_math_cbse_07_005', 'c12_math_cbse_07_008', 'c12_math_cbse_07_010', 'c12_math_cbse_07_011', 'c12_math_cbse_08_002', 'c12_math_cbse_08_003', 'c12_math_cbse_08_004', 'c12_math_cbse_08_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are designing a rectangular garden bed of length 5 metres along a curved edge \\(y = x^2\\) from.', goal: 'Master Definite Integral Riemann.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are designing a rectangular garden bed of length 5 metres along a curved edge \\(y = x^2\\) from.', goal: 'Master Definite Integral as Limit of a Sum.' },
     discovery: {
         question: 'What is the most general antiderivative of \\(f(x) = \\cos x\\)? Write the answer in the standard notation for an indefinite integral.',
         options: ['\\(\\int \\cos x\\,dx = \\sin x + C\\)', '\\(\\sin x\\)', '\\(-\\sin x + C\\)'],
@@ -79,7 +79,7 @@ export const w_c12_mathsdefiniteintegralriemannsim: SimDef = {
             { text: 'Integrate: ∫ cos u du = sin u |_2^3 = sin 3 - sin 2.', faded: true, blankAnswer: 'sin 3 - sin 2 meters' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_07_009', title: 'Identify each idea',
-          dissect: { specimen: 'Definite Integral Riemann', spots: [
+          dissect: { specimen: 'Definite Integral as Limit of a Sum', spots: [
             { id: 's1', label: 'The definite integral of a', prompt: 'Which idea is this? — The definite integral of a continuous function \\(f(x)\\) on \\([a, b]\\) is defined as the.', answer: 'The definite integral of a', options: ['The definite integral of a', 'The Second Fundamental Theorem of', 'The area under a simple', 'The standard integrals of exponential'] },
             { id: 's2', label: 'The Second Fundamental Theorem of', prompt: 'Which idea is this? — The Second Fundamental Theorem of Calculus states that if \\( f \\) is a continuous.', answer: 'The Second Fundamental Theorem of', options: ['The Second Fundamental Theorem of', 'The definite integral of a', 'The area under a simple', 'The standard integrals of exponential'] },
             { id: 's3', label: 'The area under a simple', prompt: 'Which idea is this? — The area under a simple curve y = f(x) from x = a to x = b (with f(x) ≥ 0 on [a,b]) is.', answer: 'The area under a simple', options: ['The area under a simple', 'The definite integral of a', 'The Second Fundamental Theorem of', 'The standard integrals of exponential'] },
@@ -88,7 +88,7 @@ export const w_c12_mathsdefiniteintegralriemannsim: SimDef = {
             { id: 's6', label: 'Integration by substitution is a', prompt: 'Which idea is this? — Integration by substitution is a technique where we change the variable of integration to.', answer: 'Integration by substitution is a', options: ['Integration by substitution is a', 'The definite integral of a', 'The Second Fundamental Theorem of', 'The area under a simple'] }
           ] } }
     ],
-    explore: { component: C12_MathsDefiniteIntegralRiemannSim, prompt: 'Explore the interactive — Definite Integral Riemann' },
+    explore: { component: C12_MathsDefiniteIntegralRiemannSim, prompt: 'Explore the interactive — Definite Integral as Limit of a Sum' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_07_007', difficulty: 'standard',
           question: 'The definite integral of a continuous function \\(f(x)\\) on \\([a, b]\\) is.',

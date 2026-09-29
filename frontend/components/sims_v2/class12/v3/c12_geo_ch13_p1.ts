@@ -164,8 +164,8 @@ export const c12_geo_ch13_p1: SimDef = {
           hint: 'Revisit the "Classification of Minerals" flowchart (Fig. 5.1) and the "Distribution.',
           misconception: 'Students often think limestone is only found in Rajasthan because the NCERT text highlights "Dolomite and limestone.',
           parts: [
-                { id: 'a', prompt: 'A cement plant in Satna (Madhya Pradesh) sources limestone from the nearby Kaimur range.', answer: 'Steps: (1) Locate Satna in MP on the Vindhyan range',
-                  options: ['Steps: (1) Locate Satna in MP on the Vindhyan range', 'Gondwana', 'Deccan Traps', 'Dolomite and limestone provide raw materials for cement industry'],
+                { id: 'a', prompt: 'A cement plant in Satna (Madhya Pradesh) sources limestone from the nearby Kaimur range.', answer: '(1) Locate Satna in MP on the Vindhyan range',
+                  options: ['(1) Locate Satna in MP on the Vindhyan range', 'Gondwana', 'Deccan Traps', 'Dolomite and limestone provide raw materials for cement industry'],
                   hint: 'Revisit the "Classification of Minerals" flowchart (Fig. 5.1) and the "Distribution of Minerals.',
                   misconception: 'Students often think limestone is only found in Rajasthan because the NCERT text highlights "Dolomite and limestone provide raw materials.' }
           ],

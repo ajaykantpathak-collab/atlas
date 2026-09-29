@@ -5,16 +5,16 @@ import type { SimDef } from '../../engine/types';
 export const c6_hin_ch06_p3: SimDef = {
     id: 'v3_c6_hin_ch06_p3',
     title: 'पाठ 6 · Part 3/3',
-    subtitle: 'यह नोड कक्षा 6 के स्तर पर पाठ के गहन विश्लेषण (गहराई में जाकर कारण-परिणाम, प्रतीकात्मकता.',
+    subtitle: 'यह नोड \'मेरी लखनऊ यात्रा\' (मल्हार कक्षा 6, (आत्मकथा/स्वतंत्रता-स्मरण)) के इस पहलू तक.',
     classLevel: 6, subject: 'hin', topic: 'पाठ 6 · Part 3/3',
     chapters: ['c6_hin_ch06'],
     nodeIds: ['c6_hin_cbse_06_013', 'c6_hin_cbse_06_014', 'c6_hin_cbse_06_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 6 learner', intro: 'क्या तुमने कभी कोई फिल्म देखी है और अंत में सोचा कि \'अरे, वह पात्र ऐसा क्यों बोला था?\' या \'वह लाल रंग का.', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 6 learner', intro: '\'मेरी लखनऊ यात्रा\' का विश्लेषण — (आत्मकथा/स्वतंत्रता-स्मरण) ने स्वतंत्रता-संघर्ष के दिनों की यात्रा.', goal: 'Master every idea in this chapter.' },
     // discovery omitted — no cleanly extractable hook in this chapter
     teaching: [
-        { title: 'पाठ 6 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) किसी पाठ को गहराई से पढ़कर, उसके तथ्यों, तर्कों, साहित्यिक युक्तियों और अंतर्निहित अर्थों को अलग-अलग करके (विश्लेषण/Analysis) और फिर उन्हें जोड़कर अपना सुविचारित.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 6 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'मेरी लखनऊ यात्रा\' का आलोचनात्मक चिंतन — (आत्मकथा/स्वतंत्रता-स्मरण) का उद्देश्य, पाठ की सफलता, और प्रमाण-आधारित मूल्यांकन।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c6_hin_cbse_06_013', title: 'Your mission',
@@ -24,8 +24,8 @@ export const c6_hin_ch06_p3: SimDef = {
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'dissect', nodeId: 'c6_hin_cbse_06_014', title: 'Identify each idea',
           dissect: { specimen: 'पाठ 6 · Part 3/3', spots: [
-            { id: 's1', label: '6 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल का अर्थ है किसी दिए गए पाठ (कहानी, कविता, निबंध) को पढ़कर, उसमें से.', answer: '6 -', options: ['6 -', '6 - -'] },
-            { id: 's2', label: '6 - -', prompt: 'Which idea is this? — वाचन-श्रवण: चर्चा-बिंदु एक भाषा कौशल है जिसमें छात्र किसी पाठ को पढ़कर या सुनकर उसके.', answer: '6 - -', options: ['6 - -', '6 -'] }
+            { id: 's1', label: '6 -', prompt: 'Which idea is this? — \'मेरी लखनऊ यात्रा\' पर पाठ-आधारित लेखन — पाठ से उद्धरण लेकर उत्तर की पुष्टि करना।', answer: '6 -', options: ['6 -', '6 - -'] },
+            { id: 's2', label: '6 - -', prompt: 'Which idea is this? — \'मेरी लखनऊ यात्रा\' पर वाचन-श्रवण और चर्चा — गद्य को सुनने, पढ़ने और उस पर विचार-विमर्श का.', answer: '6 - -', options: ['6 - -', '6 -'] }
           ] } },
         { type: 'case', nodeId: 'c6_hin_cbse_06_015', title: 'You made it',
           caseStudy: { intro: 'You finished पाठ 6 — every node, every misconception, earned not given.',
@@ -39,38 +39,38 @@ export const c6_hin_ch06_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_hin_cbse_06_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) किसी पाठ को गहराई से पढ़कर, उसके तथ्यों.',
-          hint: 'यदि फँस जाएँ तो **\'मुख्य विषय और संदेश\' (c6_hin_cbse_06_006)** और **\'साहित्यिक युक्तियाँ.',
-          misconception: '**भ्रांति:** "आलोचनात्मक चिंतन का अर्थ है पाठ में कमियाँ निकालना (Criticize करना) या लेखक से असहमत होना।".',
+          question: '\'मेरी लखनऊ यात्रा\' का आलोचनात्मक चिंतन — (आत्मकथा/स्वतंत्रता-स्मरण) का.',
+          hint: 'Work step by step.',
+          misconception: 'छात्र आलोचना को \'दोष निकालना\' मानते हैं — यह विश्लेषण है, प्रमाण-आधारित मूल्यांकन।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) किसी पाठ को गहराई से पढ़कर, उसके तथ्यों, तर्कों,',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) किसी पाठ को गहराई से पढ़कर, उसके तथ्यों, तर्कों,', 'पृष्ठभूमि (Background) कहानी के समय, स्थान, सामाजिक-सांस्कृतिक परिवेश और ऐतिहासिक संदर्भ', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम (cause-effect) से जुड़ा हुआ क्रम', 'पाठ्य-परिवेश (setting) कहानी के घटित होने का समय, स्थान, भौगोलिक परिस्थितियाँ,'],
-                  hint: 'यदि फँस जाएँ तो **\'मुख्य विषय और संदेश\' (c6_hin_cbse_06_006)** और **\'साहित्यिक युक्तियाँ.',
-                  misconception: '**भ्रांति:** "आलोचनात्मक चिंतन का अर्थ है पाठ में कमियाँ निकालना (Criticize करना) या लेखक से असहमत होना।" **वास्तविकता:** \'Critical\' यहाँ.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'मेरी लखनऊ यात्रा\' का आलोचनात्मक चिंतन',
+                  options: ['\'मेरी लखनऊ यात्रा\' का आलोचनात्मक चिंतन', '\'मेरी लखनऊ यात्रा\' का पृष्ठभूमि और रचनाकार परिचय', '\'मेरी लखनऊ यात्रा\' का कथानक/पाठ', '\'मेरी लखनऊ यात्रा\' का पाठ्य-परिवेश'],
+                  hint: 'Recall the definition.',
+                  misconception: 'छात्र आलोचना को \'दोष निकालना\' मानते हैं — यह विश्लेषण है, प्रमाण-आधारित मूल्यांकन।' }
           ],
-            remediations: { 'criticize-critical-criticize': { steps: ['**चरण 1 (भाषा सुधार):** छात्र को समझाओ: "Critical Thinking का हिंदी \'आलोचनात्मक\' शब्द भ्रमित करता है। इसे \'विवेचनात्मक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) संबंधित पंक्ति/घटना दोबारा पढ़वाओ। (2) शब्द-अर्थ मिलकर निकालो। (3) भाव अपने शब्दों में बुलवाओ। (4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_hin_cbse_06_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल का अर्थ है किसी दिए गए पाठ (कहानी, कविता, निबंध) को पढ़कर.',
-          hint: 'यदि अटके तो **c6_hin_cbse_06_012 (बोध-प्रश्न)** के \'आशय-सूचक प्रश्न\' दोबारा हल करें — वही.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'Evidence\' (प्रमाण)** का अर्थ है कहानी की उस घटना को अपने शब्दों में.',
+          question: '\'मेरी लखनऊ यात्रा\' पर पाठ-आधारित लेखन — पाठ से उद्धरण लेकर उत्तर की पुष्टि करना।',
+          hint: 'Work step by step.',
+          misconception: 'छात्र अपनी राय लिखते हैं, पाठ से प्रमाण नहीं — पाठ-आधारित उत्तर उद्धरण माँगता है।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल का अर्थ है किसी दिए गए पाठ (कहानी, कविता, निबंध) को पढ़कर, उसमें से',
-                  options: ['पाठ-आधारित लेखन कौशल का अर्थ है किसी दिए गए पाठ (कहानी, कविता, निबंध) को पढ़कर, उसमें से', 'पृष्ठभूमि (Background) कहानी के समय, स्थान, सामाजिक-सांस्कृतिक परिवेश और ऐतिहासिक संदर्भ', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम (cause-effect) से जुड़ा हुआ क्रम', 'पाठ्य-परिवेश (setting) कहानी के घटित होने का समय, स्थान, भौगोलिक परिस्थितियाँ,'],
-                  hint: 'यदि अटके तो **c6_hin_cbse_06_012 (बोध-प्रश्न)** के \'आशय-सूचक प्रश्न\' दोबारा हल करें — वही.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'Evidence\' (प्रमाण)** का अर्थ है कहानी की उस घटना को अपने शब्दों में **दोहराना.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'मेरी लखनऊ यात्रा\' पर पाठ-आधारित लेखन',
+                  options: ['\'मेरी लखनऊ यात्रा\' पर पाठ-आधारित लेखन', '\'मेरी लखनऊ यात्रा\' का पृष्ठभूमि और रचनाकार परिचय', '\'मेरी लखनऊ यात्रा\' का कथानक/पाठ', '\'मेरी लखनऊ यात्रा\' का पाठ्य-परिवेश'],
+                  hint: 'Recall the definition.',
+                  misconception: 'छात्र अपनी राय लिखते हैं, पाठ से प्रमाण नहीं — पाठ-आधारित उत्तर उद्धरण माँगता है।' }
           ],
-            remediations: { 'evidence-paraphrasing-summarizing': { steps: ['**चरण 1 (मॉडलिंग):** छात्र के सामने एक छोटा पाठ (3-4 वाक्य) रखें। उससे एक सरल प्रश्न पूछें (जैसे "नायक दयालु है?")।.', 'यहाँ पंक्ति 2 में लिखा है \'उसने भूखे कुत्ते को रोटी दी\' — यही मेरा Evidence है। अब Explanation: इसका मतलब वह जानवरों से.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) संबंधित पंक्ति/घटना दोबारा पढ़वाओ। (2) शब्द-अर्थ मिलकर निकालो। (3) भाव अपने शब्दों में बुलवाओ। (4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_hin_cbse_06_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु एक भाषा कौशल है जिसमें छात्र किसी पाठ को पढ़कर या सुनकर.',
-          hint: 'अगर अटके तो **c6_hin_cbse_06_012 (बोध-प्रश्न)** और **c6_hin_cbse_06_006 (मुख्य विषय)**.',
-          misconception: 'छात्र अक्सर समझते हैं कि **\'चर्चा\' का अर्थ है \'जोर से और ज्यादा बोलना\'**। वे सोचते हैं कि जो सबसे ज्यादा बोले, वही.',
+          question: '\'मेरी लखनऊ यात्रा\' पर वाचन-श्रवण और चर्चा — गद्य को सुनने, पढ़ने और उस पर.',
+          hint: 'Work step by step.',
+          misconception: 'छात्र चर्चा में केवल अपनी बात दोहराते हैं — चर्चा सुनने और प्रमाण देने का कौशल है।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु एक भाषा कौशल है जिसमें छात्र किसी पाठ को पढ़कर या सुनकर उसके',
-                  options: ['वाचन-श्रवण: चर्चा-बिंदु एक भाषा कौशल है जिसमें छात्र किसी पाठ को पढ़कर या सुनकर उसके', 'पृष्ठभूमि (Background) कहानी के समय, स्थान, सामाजिक-सांस्कृतिक परिवेश और ऐतिहासिक संदर्भ', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम (cause-effect) से जुड़ा हुआ क्रम', 'पाठ्य-परिवेश (setting) कहानी के घटित होने का समय, स्थान, भौगोलिक परिस्थितियाँ,'],
-                  hint: 'अगर अटके तो **c6_hin_cbse_06_012 (बोध-प्रश्न)** और **c6_hin_cbse_06_006 (मुख्य विषय)** दोहराएं.',
-                  misconception: 'छात्र अक्सर समझते हैं कि **\'चर्चा\' का अर्थ है \'जोर से और ज्यादा बोलना\'**। वे सोचते हैं कि जो सबसे ज्यादा बोले, वही जीता। असल में चर्चा का.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'मेरी लखनऊ यात्रा\' पर वाचन-श्रवण और चर्चा',
+                  options: ['\'मेरी लखनऊ यात्रा\' पर वाचन-श्रवण और चर्चा', '\'मेरी लखनऊ यात्रा\' का पृष्ठभूमि और रचनाकार परिचय', '\'मेरी लखनऊ यात्रा\' का कथानक/पाठ', '\'मेरी लखनऊ यात्रा\' का पाठ्य-परिवेश'],
+                  hint: 'Recall the definition.',
+                  misconception: 'छात्र चर्चा में केवल अपनी बात दोहराते हैं — चर्चा सुनने और प्रमाण देने का कौशल है।' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को एक छोटा पाठ (5-6 पंक्तियाँ) पढ़वाएं और कहें: "पहले केवल सुनो/पढ़ो, फिर मुझे तीन बातें बताओ जो तुम्हें याद रहीं.', 'फिर कहें: "अब अपनी राय दो: तुम सहमत हो या नहीं, और **क्यों**?" (यह **तर्क देना** सिखाता है)। 3.', 'जोड़ी में अभ्यास करवाएं: एक बोले, दूसरा उसकी बात अपने शब्दों में दोहराए ("तो तुम कह रहे हो कि..."), फिर भूमिका बदलें।.', 'अंत में पूरी कक्षा में \'विचार-चक्र\' (idea circle) चलाएं जहां हर बच्चे को एक वाक्य बोलना अनिवार्य हो।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) संबंधित पंक्ति/घटना दोबारा पढ़वाओ। (2) शब्द-अर्थ मिलकर निकालो। (3) भाव अपने शब्दों में बुलवाओ। (4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

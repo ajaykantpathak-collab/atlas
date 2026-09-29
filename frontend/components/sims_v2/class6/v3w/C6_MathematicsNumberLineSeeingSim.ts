@@ -6,13 +6,13 @@ import C6_MathematicsNumberLineSeeingSim from '../../../simulations/c6_12/C6_Mat
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_mathematicsnumberlineseeingsim: SimDef = {
     id: 'v3w_c6_mathematicsnumberlineseeingsim',
-    title: 'Number Line Seeing',
+    title: 'Polygons: Regular and Irregular',
     subtitle: 'This node covers identification, naming, and classification of polygons (3 to 10 sides).',
     classLevel: 6, subject: 'mathematics', topic: 'Polygons: Regular and Irregular',
     chapters: [],
     nodeIds: ['c6_math_ch07_075', 'c6_math_ch01_001', 'c6_math_ch02_016', 'c6_math_ch02_017', 'c6_math_ch02_018', 'c6_math_ch02_019', 'c6_math_ch02_020', 'c6_math_ch02_021'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever noticed the shape of a street sign or the tiles on your floor?', goal: 'Master Number Line Seeing.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever noticed the shape of a street sign or the tiles on your floor?', goal: 'Master Polygons: Regular and Irregular.' },
     discovery: {
         question: 'What do we call a closed figure made of exactly five straight line segments?',
         options: ['It is called a pentagon', 'square', 'triangle'],
@@ -75,7 +75,7 @@ export const w_c6_mathematicsnumberlineseeingsim: SimDef = {
             { text: 'Landing point is -30.', faded: true, blankAnswer: '-30 metres (or 30 metres below sea level).' }
             ] } },
         { type: 'dissect', nodeId: 'c6_math_ch01_001', title: 'Identify each idea',
-          dissect: { specimen: 'Number Line Seeing', spots: [
+          dissect: { specimen: 'Polygons: Regular and Irregular', spots: [
             { id: 's1', label: 'A polygon is a simple', prompt: 'Which idea is this? — A polygon is a simple, closed, two-dimensional figure formed by three or more straight.', answer: 'A polygon is a simple', options: ['A polygon is a simple', 'Numbers in our everyday life', 'Integers are a set of', 'A number line is a'] },
             { id: 's2', label: 'Numbers in our everyday life', prompt: 'Which idea is this? — Numbers in our everyday life are specific values used to represent quantity, order, or.', answer: 'Numbers in our everyday life', options: ['Numbers in our everyday life', 'A polygon is a simple', 'Integers are a set of', 'A number line is a'] },
             { id: 's3', label: 'Integers are a set of', prompt: 'Which idea is this? — Integers are a set of numbers that include all positive counting numbers (1, 2, 3...),.', answer: 'Integers are a set of', options: ['Integers are a set of', 'A polygon is a simple', 'Numbers in our everyday life', 'A number line is a'] },
@@ -84,7 +84,7 @@ export const w_c6_mathematicsnumberlineseeingsim: SimDef = {
             { id: 's6', label: 'Adding integers is the process', prompt: 'Which idea is this? — Adding integers is the process of combining two numbers that include positive values,.', answer: 'Adding integers is the process', options: ['Adding integers is the process', 'A polygon is a simple', 'Numbers in our everyday life', 'Integers are a set of'] }
           ] } }
     ],
-    explore: { component: C6_MathematicsNumberLineSeeingSim, prompt: 'Explore the interactive — Number Line Seeing' },
+    explore: { component: C6_MathematicsNumberLineSeeingSim, prompt: 'Explore the interactive — Polygons: Regular and Irregular' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_math_ch07_075', difficulty: 'standard',
           question: 'A polygon is a simple, closed, two-dimensional figure formed by three or more.',

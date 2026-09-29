@@ -5,16 +5,16 @@ import type { SimDef } from '../../engine/types';
 export const c6_hin_ch05_p3: SimDef = {
     id: 'v3_c6_hin_ch05_p3',
     title: 'पाठ 5 · Part 3/3',
-    subtitle: 'यह नोड कक्षा 6 के स्तर पर पाठ के गहन विश्लेषण (गहरे अर्थ, लेखक का दृष्टिकोण, युक्तियों का.',
+    subtitle: 'यह नोड केवल आलोचनात्मक चिंतन तक सीमित है — लेखन/चर्चा अगले नोड्स में।',
     classLevel: 6, subject: 'hin', topic: 'पाठ 5 · Part 3/3',
     chapters: ['c6_hin_ch05'],
     nodeIds: ['c6_hin_cbse_05_013', 'c6_hin_cbse_05_014', 'c6_hin_cbse_05_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 6 learner', intro: 'कल्पना करो तुमने एक नई फिल्म देखी और दोस्त पूछता है "कैसी लगी?" — तुम सिर्फ कहानी नहीं सुनाते, तुम कहते हो.', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 6 learner', intro: 'विश्लेषण: (1) शक्ति — दो पंक्तियों में पूरी नीति (संक्षिप्त-गहराई); (2) शक्ति — दैनिक प्रतीकों से सीख (तरुवर.', goal: 'Master every idea in this chapter.' },
     // discovery omitted — no cleanly extractable hook in this chapter
     teaching: [
-        { title: 'पाठ 5 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) का अर्थ है पाठ के स्पष्ट अर्थ से आगे जाकर उसके अंतर्निहित अर्थ, लेखक के उद्देश्य, साहित्यिक युक्तियों के प्रभाव और विषयगत गहराई का विश्लेषण (Analysis) और व्याख्या.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 5 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन — क्या \'बडेन को लघु कसौटि न करै\' आज की \'मूल्यांकन-संस्कृति\' में प्रासंगिक है? क्या \'तरुवर\' की निस्वार्थ-नीति व्यावहारिक है?', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c6_hin_cbse_05_013', title: 'Your mission',
@@ -24,8 +24,8 @@ export const c6_hin_ch05_p3: SimDef = {
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'dissect', nodeId: 'c6_hin_cbse_05_014', title: 'Identify each idea',
           dissect: { specimen: 'पाठ 5 · Part 3/3', spots: [
-            { id: 's1', label: '5 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल का अर्थ है किसी पढ़े हुए पाठ (कहानी, कविता, निबंध) से **सबूत.', answer: '5 -', options: ['5 -', '5 - -'] },
-            { id: 's2', label: '5 - -', prompt: 'Which idea is this? — **वाचन-श्रवण: चर्चा-बिंदु** एक सहयोगी भाषा कौशल है जिसमें छात्र किसी पाठ को पढ़कर या.', answer: '5 - -', options: ['5 - -', '5 -'] }
+            { id: 's1', label: '5 -', prompt: 'Which idea is this? — लेखन-कौशल — किसी दोहे का भावार्थ लिखना (शब्द-अर्थ + भाव + उदाहरण); अपने जीवन का एक अनुभव.', answer: '5 -', options: ['5 -', '5 - -'] },
+            { id: 's2', label: '5 - -', prompt: 'Which idea is this? — वाचन-चर्चा — दोहों को दोहा-लय में वाचन; \'मिलकर करें मिलान\' (दोहे को नीति से जोड़ना.', answer: '5 - -', options: ['5 - -', '5 -'] }
           ] } },
         { type: 'case', nodeId: 'c6_hin_cbse_05_015', title: 'You made it',
           caseStudy: { intro: 'You finished पाठ 5 — every node, every misconception, earned not given.',
@@ -39,38 +39,38 @@ export const c6_hin_ch05_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_hin_cbse_05_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) का अर्थ है पाठ के स्पष्ट अर्थ से आगे जाकर.',
-          hint: 'यदि अटके: c6_hin_cbse_05_008 (बिंब/रूपक) और c6_hin_cbse_05_009 (प्रतीक/विरोधाभास) दोहराएँ.',
-          misconception: 'छात्र मानते हैं कि "विश्लेषण" का अर्थ है पाठ में से "महत्वपूर्ण बातें छाँटना" (जैसे: मुख्य पात्र, मुख्य घटना, कठिन.',
+          question: 'आलोचनात्मक चिंतन — क्या \'बडेन को लघु कसौटि न करै\' आज की \'मूल्यांकन-संस्कृति\'.',
+          hint: 'यदि अटका हुआ महसूस हो तो: एक दोहा जो आपको अच्छा लगा (शक्ति) और एक जो अति-आदर्श लगा (सीमा).',
+          misconception: 'छात्र दोहों को \'पुरानी नीति\' कहकर खारिज कर देते हैं — नीति कालातीत है; भाषा पुरानी पर सीख आज भी प्रासंगिक।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) का अर्थ है पाठ के स्पष्ट अर्थ से आगे जाकर उसके',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) का अर्थ है पाठ के स्पष्ट अर्थ से आगे जाकर उसके', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', 'कथानक (Plot) कहानी में घटित घटनाओं का वह तार्किक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting)** कहानी के घटित होने का भौतिक स्थान, समयकाल और सामाजिक'],
-                  hint: 'यदि अटके: c6_hin_cbse_05_008 (बिंब/रूपक) और c6_hin_cbse_05_009 (प्रतीक/विरोधाभास) दोहराएँ — ये.',
-                  misconception: 'छात्र मानते हैं कि "विश्लेषण" का अर्थ है पाठ में से "महत्वपूर्ण बातें छाँटना" (जैसे: मुख्य पात्र, मुख्य घटना, कठिन शब्द) और "व्याख्या" का.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन',
+                  options: ['आलोचनात्मक चिंतन', 'रहीम दास (अब्दुर्रहीम खान-ए-खाना, 1556–1627)', 'दोहा-पाठ — 7 दोहे: (1) \'रहिमन देखि बडेन को, लघु कसौटि न करै\' — महान को परीक्षा न दो', 'पाठ्य-परिवेश — मध्ययुग का दरबारी और लोक-जीवन: अकबर का दरबार जहाँ रहीम नवरत्न थे'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: एक दोहा जो आपको अच्छा लगा (शक्ति) और एक जो अति-आदर्श लगा (सीमा) — दोनों.',
+                  misconception: 'छात्र दोहों को \'पुरानी नीति\' कहकर खारिज कर देते हैं — नीति कालातीत है; भाषा पुरानी पर सीख आज भी प्रासंगिक।' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र को एक छोटा अनुच्छेद (4-5 पंक्तियाँ) दें जिसमें एक स्पष्ट प्रतीक हो (जैसे: "सूखा पत्ता हवा में उड़ता रहा.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) \'आलोचना\' का अर्थ समझाओ — शक्ति + सीमा। (2) \'तरुवर\' की निस्वार्थ-नीति को आदर्श बनाम व्यावहारिक से देखो।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_hin_cbse_05_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल का अर्थ है किसी पढ़े हुए पाठ (कहानी, कविता, निबंध) से.',
-          hint: 'यदि अटके तो **c6_hin_cbse_05_012 (बोध-प्रश्न)** और **c6_hin_cbse_05_013 (आलोचनात्मक.',
-          misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि **"पाठ से एक-दो वाक्य कॉपी कर देना" ही Evidence देना है**, और उसके बाद वही बात.',
+          question: 'लेखन-कौशल — किसी दोहे का भावार्थ लिखना (शब्द-अर्थ + भाव + उदाहरण); अपने जीवन का.',
+          hint: 'यदि अटका हुआ महसूस हो तो: एक दोहा चुनिए, उसके 3 शब्दों का अर्थ लिखिए, फिर वाक्य बनाइए.',
+          misconception: 'छात्र भावार्थ में दोहा दोहरा देते हैं — भावार्थ = शब्द-अर्थ + कवि का आशय + अपना उदाहरण; केवल उद्धरण भावार्थ नहीं।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल का अर्थ है किसी पढ़े हुए पाठ (कहानी, कविता, निबंध) से **सबूत',
-                  options: ['पाठ-आधारित लेखन कौशल का अर्थ है किसी पढ़े हुए पाठ (कहानी, कविता, निबंध) से **सबूत', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', 'कथानक (Plot) कहानी में घटित घटनाओं का वह तार्किक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting)** कहानी के घटित होने का भौतिक स्थान, समयकाल और सामाजिक'],
-                  hint: 'यदि अटके तो **c6_hin_cbse_05_012 (बोध-प्रश्न)** और **c6_hin_cbse_05_013 (आलोचनात्मक चिंतन)**.',
-                  misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि **"पाठ से एक-दो वाक्य कॉपी कर देना" ही Evidence देना है**, और उसके बाद वही बात अपने शब्दों में दोहरा.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'लेखन-कौशल — किसी दोहे का भावार्थ लिखना (शब्द-अर्थ + भाव + उदाहरण)',
+                  options: ['लेखन-कौशल — किसी दोहे का भावार्थ लिखना (शब्द-अर्थ + भाव + उदाहरण)', 'रहीम दास (अब्दुर्रहीम खान-ए-खाना, 1556–1627)', 'दोहा-पाठ — 7 दोहे: (1) \'रहिमन देखि बडेन को, लघु कसौटि न करै\' — महान को परीक्षा न दो', 'पाठ्य-परिवेश — मध्ययुग का दरबारी और लोक-जीवन: अकबर का दरबार जहाँ रहीम नवरत्न थे'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: एक दोहा चुनिए, उसके 3 शब्दों का अर्थ लिखिए, फिर वाक्य बनाइए — भावार्थ.',
+                  misconception: 'छात्र भावार्थ में दोहा दोहरा देते हैं — भावार्थ = शब्द-अर्थ + कवि का आशय + अपना उदाहरण; केवल उद्धरण भावार्थ नहीं।' }
           ],
-            remediations: { 'evidence': { steps: ['**मॉडलिंग:** शिक्षक बोर्ड पर एक कमजोर उत्तर लिखे, फिर कक्षा के साथ मिलकर उसे PEEL में **चरण-दर-चरण** बदले — छात्रों से.', 'वह वाक्य कैसे सिद्ध करता है?', 'बड़े विषय से कैसे जुड़े?" 2.', '**रंग-कोडिंग:** छात्रों को चार रंग दें (लाल=Point, नीला=Evidence, हरा=Explanation, पीला=Link) और अपने/सहपाठी के उत्तर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) भावार्थ-विधि समझाओ — शब्द→अर्थ→भाव→उदाहरण। (2) एक दोहे का भावार्थ साथ लिखो। (3) \'चाबी\' या \'दीया\' से नया.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_hin_cbse_05_015', difficulty: 'standard',
-          question: '**वाचन-श्रवण: चर्चा-बिंदु** एक सहयोगी भाषा कौशल है जिसमें छात्र किसी पाठ को.',
-          hint: 'यदि अटका हुआ लगे तो **c6_hin_cbse_05_013 (आलोचनात्मक चिंतन)** और **c6_hin_cbse_05_012.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'चर्चा\' का अर्थ है \'बारी-बारी से बोलना\' या \'अपनी राय देना\'** — वे चर्चा को.',
+          question: 'वाचन-चर्चा — दोहों को दोहा-लय में वाचन; \'मिलकर करें मिलान\' (दोहे को नीति से.',
+          hint: 'यदि अटका हुआ महसूस हो तो: एक दोहा पढ़िए, ताली से लय बजाइए — \'तरुवर\' से \'निस्वार्थ\' का.',
+          misconception: 'छात्र \'रहिमन\' को \'केवल नाम\' मानते हैं — यह \'हे रहीम\' का आत्म-संबोधन है; कवि पहले स्वयं को सीख देता है।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**वाचन-श्रवण: चर्चा-बिंदु** एक सहयोगी भाषा कौशल है जिसमें छात्र किसी पाठ को पढ़कर या',
-                  options: ['**वाचन-श्रवण: चर्चा-बिंदु** एक सहयोगी भाषा कौशल है जिसमें छात्र किसी पाठ को पढ़कर या', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है', 'कथानक (Plot) कहानी में घटित घटनाओं का वह तार्किक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting)** कहानी के घटित होने का भौतिक स्थान, समयकाल और सामाजिक'],
-                  hint: 'यदि अटका हुआ लगे तो **c6_hin_cbse_05_013 (आलोचनात्मक चिंतन)** और **c6_hin_cbse_05_012.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'चर्चा\' का अर्थ है \'बारी-बारी से बोलना\' या \'अपनी राय देना\'** — वे चर्चा को **एकतरफा अभिव्यक्ति**.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-चर्चा — दोहों को दोहा-लय में वाचन',
+                  options: ['वाचन-चर्चा — दोहों को दोहा-लय में वाचन', 'रहीम दास (अब्दुर्रहीम खान-ए-खाना, 1556–1627)', 'दोहा-पाठ — 7 दोहे: (1) \'रहिमन देखि बडेन को, लघु कसौटि न करै\' — महान को परीक्षा न दो', 'पाठ्य-परिवेश — मध्ययुग का दरबारी और लोक-जीवन: अकबर का दरबार जहाँ रहीम नवरत्न थे'],
+                  hint: 'यदि अटका हुआ महसूस हो तो: एक दोहा पढ़िए, ताली से लय बजाइए — \'तरुवर\' से \'निस्वार्थ\' का मिलान कीजिए.',
+                  misconception: 'छात्र \'रहिमन\' को \'केवल नाम\' मानते हैं — यह \'हे रहीम\' का आत्म-संबोधन है; कवि पहले स्वयं को सीख देता है।' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**मॉडलिंग:** शिक्षक दो छात्रों के साथ **लाइव चर्चा प्रदर्शित करे** — एक विचार रखे, दूसरा उससे सहमत/असहमत होकर.', '**संकेत कार्ड दें:** प्रत्येक छात्र को 3 कार्ड दें: **"सहमत हूँ क्योंकि..."**, **"असहमत हूँ क्योंकि..."**, **"जोड़ना.', '**\'सुनकर दोहराओ\' नियम लागू करें:** बोलने से पहले प्रत्येक छात्र को **पिछले वक्ता का मुख्य विचार अपने शब्दों में.', '**चर्चा के बाद \'संश्लेषण लेखन\' करवाएं:** 3 वाक्यों में लिखो: "चर्चा से पहले मैं सोचता था..., चर्चा के दौरान ...'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) चर्चा-नियम समझाओ — सुनो, प्रमाण दो, सम्मान करो। (2) \'रहिमन\' का आत्म-संबोधन बताओ। (3) \'तरुवर\' से.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

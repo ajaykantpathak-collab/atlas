@@ -6,13 +6,13 @@ import C12_PoliticalScienceTotalitarianAuthoritarianStatesSim from '../../../sim
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_politicalsciencetotalitarianauthoritarianstatessim: SimDef = {
     id: 'v3w_c12_politicalsciencetotalitarianauthoritarianstatessim',
-    title: 'Totalitarian Authoritarian States',
+    title: 'Congress as the Dominant Party: Organisation and Social Coalition',
     subtitle: 'This node covers: (1) Congress\'s organisational evolution from 1885 to 1952, (2) its.',
     classLevel: 12, subject: 'political_science', topic: 'Congress as the Dominant Party: Organisation and Social Coalition',
     chapters: [],
     nodeIds: ['c12_ps_cbse_09_001', 'c12_ps_cbse_09_002', 'c12_ps_cbse_12_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are watching a news debate where a political analyst says, "The Congress party ruled India for.', goal: 'Master Totalitarian Authoritarian States.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are watching a news debate where a political analyst says, "The Congress party ruled India for.', goal: 'Master Congress as the Dominant Party: Organisation and Social Coalition.' },
     discovery: {
         question: 'A political analyst argues: "The Congress System was essentially a faction-ridden party that survived only because the opposition was too weak to capitalize on.',
         options: ['The claim is partially true but incomplete', 'weakness', 'Congress dominance = absence of real democracy'],
@@ -51,13 +51,13 @@ export const w_c12_politicalsciencetotalitarianauthoritarianstatessim: SimDef = 
             { text: 'Conclude that FPTP magnifies the largest party\'s seat share when opposition is fragmented, even if its vote share is.', faded: true, blankAnswer: 'The FPTP system converted Congress (I)\'s 42.7% vote into a.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_ps_cbse_09_002', title: 'Identify each idea',
-          dissect: { specimen: 'Totalitarian Authoritarian States', spots: [
+          dissect: { specimen: 'Congress as the Dominant Party: Organisation and Social Coalition', spots: [
             { id: 's1', label: 'The Indian National Congress emerged', prompt: 'Which idea is this? — The Indian National Congress emerged as the dominant political party in the first three.', answer: 'The Indian National Congress emerged', options: ['The Indian National Congress emerged', 'The Congress System refers to', 'The restoration of the Congress'] },
             { id: 's2', label: 'The Congress System refers to', prompt: 'Which idea is this? — The "Congress System" refers to the unique pattern of one-party dominance in India.', answer: 'The Congress System refers to', options: ['The Congress System refers to', 'The Indian National Congress emerged', 'The restoration of the Congress'] },
             { id: 's3', label: 'The restoration of the Congress', prompt: 'Which idea is this? — The restoration of the Congress in 1980 refers to the return of Indira Gandhi\'s Congress.', answer: 'The restoration of the Congress', options: ['The restoration of the Congress', 'The Indian National Congress emerged', 'The Congress System refers to'] }
           ] } }
     ],
-    explore: { component: C12_PoliticalScienceTotalitarianAuthoritarianStatesSim, prompt: 'Explore the interactive — Totalitarian Authoritarian States' },
+    explore: { component: C12_PoliticalScienceTotalitarianAuthoritarianStatesSim, prompt: 'Explore the interactive — Congress as the Dominant Party: Organisation and Social Coalition' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_ps_cbse_09_001', difficulty: 'standard',
           question: 'The Indian National Congress emerged as the dominant political party in the.',

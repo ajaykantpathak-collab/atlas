@@ -6,13 +6,13 @@ import C9_ScienceReproductionHowLifeContinuesSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_sciencereproductionhowlifecontinuessim: SimDef = {
     id: 'v3w_c9_sciencereproductionhowlifecontinuessim',
-    title: 'Reproduction How Life Continues',
+    title: 'Pregnancy and Embryonic Development',
     subtitle: 'Covers human pregnancy from fertilization through the three trimesters including.',
     classLevel: 9, subject: 'science', topic: 'Pregnancy and Embryonic Development',
     chapters: [],
     nodeIds: ['c9_bio_ch3_10', 'c9_bio_ch3_4', 'c9_bio_ch3_8', 'c9_bio_ch3_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine a pregnant woman in your neighborhood visiting the clinic for her monthly check-up — the doctor.', goal: 'Master Reproduction How Life Continues.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine a pregnant woman in your neighborhood visiting the clinic for her monthly check-up — the doctor.', goal: 'Master Pregnancy and Embryonic Development.' },
     discovery: {
         question: 'A student claims: "The embryo receives oxygen and nutrients directly from the mother\'s blood because their blood mixes in the placenta." Evaluate this.',
         options: ['The statement is false', 'breathes', 'the embryo "breathes" and "eats" like a newborn'],
@@ -60,14 +60,14 @@ export const w_c9_sciencereproductionhowlifecontinuessim: SimDef = {
             { text: 'Conclude: Seminiferous tubule dysfunction (e.g., Sertoli cell-only syndrome, genetic meiotic arrest) is the probable.', faded: true, blankAnswer: 'Dysfunction in seminiferous tubules (Sertoli cells or germ.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_bio_ch3_4', title: 'Identify each idea',
-          dissect: { specimen: 'Reproduction How Life Continues', spots: [
+          dissect: { specimen: 'Pregnancy and Embryonic Development', spots: [
             { id: 's1', label: 'Pregnancy is the physiological state', prompt: 'Which idea is this? — Pregnancy is the physiological state in a female mammal beginning from the implantation.', answer: 'Pregnancy is the physiological state', options: ['Pregnancy is the physiological state', 'Meiosis is a specialized type', 'Sexual reproduction in animals is', 'The human reproductive system is'] },
             { id: 's2', label: 'Meiosis is a specialized type', prompt: 'Which idea is this? — Meiosis is a specialized type of cell division that reduces the chromosome number by.', answer: 'Meiosis is a specialized type', options: ['Meiosis is a specialized type', 'Pregnancy is the physiological state', 'Sexual reproduction in animals is', 'The human reproductive system is'] },
             { id: 's3', label: 'Sexual reproduction in animals is', prompt: 'Which idea is this? — Sexual reproduction in animals is a biological process where two parents contribute.', answer: 'Sexual reproduction in animals is', options: ['Sexual reproduction in animals is', 'Pregnancy is the physiological state', 'Meiosis is a specialized type', 'The human reproductive system is'] },
             { id: 's4', label: 'The human reproductive system is', prompt: 'Which idea is this? — The human reproductive system is a collection of specialized organs and structures in.', answer: 'The human reproductive system is', options: ['The human reproductive system is', 'Pregnancy is the physiological state', 'Meiosis is a specialized type', 'Sexual reproduction in animals is'] }
           ] } }
     ],
-    explore: { component: C9_ScienceReproductionHowLifeContinuesSim, prompt: 'Explore the interactive — Reproduction How Life Continues' },
+    explore: { component: C9_ScienceReproductionHowLifeContinuesSim, prompt: 'Explore the interactive — Pregnancy and Embryonic Development' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_bio_ch3_10', difficulty: 'standard',
           question: 'Pregnancy is the physiological state in a female mammal beginning from the.',

@@ -968,7 +968,7 @@ export const C12_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Graphical Method For Solving a",
+    "title": "Graphical Method For Solving",
     "text": "The graphical method for solving a Linear Programming Problem (LPP) in two variables involves plotting the constraints as linear inequalities on the Cartesian plane to obtain a feasible region (a convex polygon), then evaluating the objective function \\(Z =",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"

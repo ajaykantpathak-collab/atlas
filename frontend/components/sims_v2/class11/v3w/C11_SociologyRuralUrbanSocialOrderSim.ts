@@ -6,13 +6,13 @@ import C11_SociologyRuralUrbanSocialOrderSim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_sociologyruralurbansocialordersim: SimDef = {
     id: 'v3w_c11_sociologyruralurbansocialordersim',
-    title: 'Rural Urban Social Order',
+    title: 'Social Change: Definition, Scope and the Historical Pace of Change',
     subtitle: 'This node covers the sociological definition of social change (Giddens\' criteria of.',
     classLevel: 11, subject: 'sociology', topic: 'Social Change: Definition, Scope and the Historical Pace of Change',
     chapters: [],
     nodeIds: ['c11_soc_cbse_07_001', 'c11_soc_cbse_07_007', 'c11_soc_cbse_07_008', 'c11_soc_cbse_07_010', 'c11_soc_cbse_07_011', 'c11_soc_cbse_07_009', 'c11_soc_cbse_08_004', 'c11_soc_cbse_08_006', 'c11_soc_cbse_08_007', 'c11_soc_cbse_01_005', 'c11_soc_cbse_07_002', 'c11_soc_cbse_07_003', 'c11_soc_cbse_07_004', 'c11_soc_cbse_07_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Begin by asking: "List five things in your daily life—smartphone, packaged milk, motorbike, internet, plastic.', goal: 'Master Rural Urban Social Order.' },
+    scenario: { role: 'a class 11 learner', intro: 'Begin by asking: "List five things in your daily life—smartphone, packaged milk, motorbike, internet, plastic.', goal: 'Master Social Change: Definition, Scope and the Historical Pace of Change.' },
     discovery: {
         question: 'State the core legal entitlement that MGNREGA provides to a rural household, and name the level of government primarily responsible for its implementation.',
         options: ['MGNREGA guarantees 100 days of wage employment per financial year to every rural', '200 days', 'implemented by the District Collector alone'],
@@ -83,7 +83,7 @@ export const w_c11_sociologyruralurbansocialordersim: SimDef = {
             { text: 'Connect to social order: The landlord loses the ability to enforce bonded-like conditions; the worker gains \'exit.', faded: true, blankAnswer: '187.5% increase in annual wage income; sociologically, this.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_soc_cbse_07_007', title: 'Identify each idea',
-          dissect: { specimen: 'Rural Urban Social Order', spots: [
+          dissect: { specimen: 'Social Change: Definition, Scope and the Historical Pace of Change', spots: [
             { id: 's1', label: 'Social change refers to significant', prompt: 'Which idea is this? — Social change refers to significant alterations in the underlying structure of.', answer: 'Social change refers to significant', options: ['Social change refers to significant', 'Contestation refers to broad forms', 'Rural society in India is', 'Urban society refers to a'] },
             { id: 's2', label: 'Contestation refers to broad forms', prompt: 'Which idea is this? — Contestation refers to broad forms of insistent disagreement with established norms,.', answer: 'Contestation refers to broad forms', options: ['Contestation refers to broad forms', 'Social change refers to significant', 'Rural society in India is', 'Urban society refers to a'] },
             { id: 's3', label: 'Rural society in India is', prompt: 'Which idea is this? — Rural society in India is characterized by small, settled agricultural communities where.', answer: 'Rural society in India is', options: ['Rural society in India is', 'Social change refers to significant', 'Contestation refers to broad forms', 'Urban society refers to a'] },
@@ -92,7 +92,7 @@ export const w_c11_sociologyruralurbansocialordersim: SimDef = {
             { id: 's6', label: 'MGNREGA Mahatma Gandhi National Rural', prompt: 'Which idea is this? — MGNREGA (Mahatma Gandhi National Rural Employment Guarantee Act, 2005) is a legislation.', answer: 'MGNREGA Mahatma Gandhi National Rural', options: ['MGNREGA Mahatma Gandhi National Rural', 'Social change refers to significant', 'Contestation refers to broad forms', 'Rural society in India is'] }
           ] } }
     ],
-    explore: { component: C11_SociologyRuralUrbanSocialOrderSim, prompt: 'Explore the interactive — Rural Urban Social Order' },
+    explore: { component: C11_SociologyRuralUrbanSocialOrderSim, prompt: 'Explore the interactive — Social Change: Definition, Scope and the Historical Pace of Change' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_soc_cbse_07_001', difficulty: 'standard',
           question: 'Social change refers to significant alterations in the underlying structure of.',

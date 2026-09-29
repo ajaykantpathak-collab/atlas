@@ -5,16 +5,16 @@ import type { SimDef } from '../../engine/types';
 export const c7_hin_ch09_p3: SimDef = {
     id: 'v3_c7_hin_ch09_p3',
     title: 'पाठ 9 · Part 3/3',
-    subtitle: 'इस नोड में पाठ 9 के आधार पर विश्लेषण और व्याख्या के उन्नत कौशल शामिल हैं: साक्ष्य-आधारित.',
+    subtitle: 'यह नोड \'चिड़िया\' (मल्हार कक्षा 6, (कविता)) के इस पहलू तक सीमित है — वास्तविक पाठ पर.',
     classLevel: 7, subject: 'hin', topic: 'पाठ 9 · Part 3/3',
     chapters: ['c7_hin_ch09'],
     nodeIds: ['c7_hin_cbse_09_013', 'c7_hin_cbse_09_014', 'c7_hin_cbse_09_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 7 learner', intro: 'कल्पना करें कि आपने कोई नई फिल्म देखी और आपका दोस्त पूछता है, "कैसी लगी?" — आप सिर्फ कहानी नहीं सुनाते, बल्कि.', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 7 learner', intro: '\'चिड़िया\' का विश्लेषण — (कविता) ने चिड़िया की प्रेम-रीति — स्वतंत्रता और सामूहिकता का संदेश क्यों चुना?', goal: 'Master every idea in this chapter.' },
     // discovery omitted — no cleanly extractable hook in this chapter
     teaching: [
-        { title: 'पाठ 9 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) किसी पाठ के गहरे अर्थ, संरचना, भाषा-शैली और अंतर्निहित मान्यताओं को तर्कसंगत ढंग से परखने, प्रश्न करने और व्याख्या करने की प्रक्रिया है, न कि केवल तथ्यों को याद.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 9 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'चिड़िया\' का आलोचनात्मक चिंतन — (कविता) का उद्देश्य, पाठ की सफलता, और प्रमाण-आधारित मूल्यांकन।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c7_hin_cbse_09_013', title: 'Your mission',
@@ -24,8 +24,8 @@ export const c7_hin_ch09_p3: SimDef = {
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'dissect', nodeId: 'c7_hin_cbse_09_014', title: 'Identify each idea',
           dissect: { specimen: 'पाठ 9 · Part 3/3', spots: [
-            { id: 's1', label: '9 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल का अर्थ है किसी पाठ (कहानी, कविता, निबंध) को पढ़कर, उसके तत्वों.', answer: '9 -', options: ['9 -', '9 - -'] },
-            { id: 's2', label: '9 - -', prompt: 'Which idea is this? — \'वाचन-श्रवण: चर्चा-बिंदु\' वह कौशल है जिसमें छात्र पाठ को पढ़कर/सुनकर अपनी समझ, जिज्ञासा.', answer: '9 - -', options: ['9 - -', '9 -'] }
+            { id: 's1', label: '9 -', prompt: 'Which idea is this? — \'चिड़िया\' पर पाठ-आधारित लेखन — पाठ से उद्धरण लेकर उत्तर की पुष्टि करना।', answer: '9 -', options: ['9 -', '9 - -'] },
+            { id: 's2', label: '9 - -', prompt: 'Which idea is this? — \'चिड़िया\' पर वाचन-श्रवण और चर्चा — कविता को सुनने, पढ़ने और उस पर विचार-विमर्श का कौशल।', answer: '9 - -', options: ['9 - -', '9 -'] }
           ] } },
         { type: 'case', nodeId: 'c7_hin_cbse_09_015', title: 'You made it',
           caseStudy: { intro: 'You finished पाठ 9 — every node, every misconception, earned not given.',
@@ -39,38 +39,38 @@ export const c7_hin_ch09_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_hin_cbse_09_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) किसी पाठ के गहरे अर्थ, संरचना, भाषा-शैली.',
-          hint: 'यदि अटका हुआ महसूस हो, तो **c7_hin_cbse_09_006 (मुख्य विषय)** और **c7_hin_cbse_09_008.',
-          misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि "आलोचनात्मक चिंतन" का अर्थ है **पाठ में कमियाँ निकालना** (fault-finding) या **अपनी.',
+          question: '\'चिड़िया\' का आलोचनात्मक चिंतन — (कविता) का उद्देश्य, पाठ की सफलता, और.',
+          hint: 'Work step by step.',
+          misconception: 'छात्र आलोचना को \'दोष निकालना\' मानते हैं — यह विश्लेषण है, प्रमाण-आधारित मूल्यांकन।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) किसी पाठ के गहरे अर्थ, संरचना, भाषा-शैली और',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) किसी पाठ के गहरे अर्थ, संरचना, भाषा-शैली और', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक,', 'कथानक (Plot) कहानी की घटनाओं का कालानुक्रमिक (chronological) क्रम है', 'पाठ्य-परिवेश (Setting) कहानी के घटित होने का समय, स्थान, भौगोलिक और सामाजिक परिदृश्य है,'],
-                  hint: 'यदि अटका हुआ महसूस हो, तो **c7_hin_cbse_09_006 (मुख्य विषय)** और **c7_hin_cbse_09_008 (बिंब-रूपक)**.',
-                  misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि "आलोचनात्मक चिंतन" का अर्थ है **पाठ में कमियाँ निकालना** (fault-finding) या **अपनी निजी राय देना**.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'चिड़िया\' का आलोचनात्मक चिंतन',
+                  options: ['\'चिड़िया\' का आलोचनात्मक चिंतन', '\'चिड़िया\' का पृष्ठभूमि और रचनाकार परिचय', '\'चिड़िया\' का कथानक/पाठ', '\'चिड़िया\' का पाठ्य-परिवेश'],
+                  hint: 'Recall the definition.',
+                  misconception: 'छात्र आलोचना को \'दोष निकालना\' मानते हैं — यह विश्लेषण है, प्रमाण-आधारित मूल्यांकन।' }
           ],
-            remediations: { 'fault-finding-personal-opinion': { steps: ['**शब्दावली स्पष्ट करें:** छात्र के साथ बैठकर "आलोचना" (critique) और "निंदा" (condemnation) का अंतर समझाएं — आलोचना.', '**मॉडलिंग करें:** पाठ 9 का एक छोटा अंश लें और **सोचते हुए बोलें** (think-aloud): "मैं देख रहा हूँ लेखक ने यहाँ रूपक.', 'मुझे लगता है इसका कारण यह है...', 'क्योंकि पाठ में यहाँ इसका प्रमाण है..." — यह दिखाएं कि विश्लेषण कैसे **पाठ से निकलता है**, राय से नहीं। 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) संबंधित पंक्ति/घटना दोबारा पढ़वाओ। (2) शब्द-अर्थ मिलकर निकालो। (3) भाव अपने शब्दों में बुलवाओ। (4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c7_hin_cbse_09_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल का अर्थ है किसी पाठ (कहानी, कविता, निबंध) को पढ़कर, उसके.',
-          hint: 'यदि फँसें तो: c7_hin_cbse_09_013 (आलोचनात्मक चिंतन) दोहराएँ — वहाँ Explanation का अभ्यास.',
-          misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि "पाठ से उद्धरण दे देना" ही Evidence चरण पूरा करना है। वे लिखते हैं: *"पृष्ठ ३ पर.',
+          question: '\'चिड़िया\' पर पाठ-आधारित लेखन — पाठ से उद्धरण लेकर उत्तर की पुष्टि करना।',
+          hint: 'Work step by step.',
+          misconception: 'छात्र अपनी राय लिखते हैं, पाठ से प्रमाण नहीं — पाठ-आधारित उत्तर उद्धरण माँगता है।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल का अर्थ है किसी पाठ (कहानी, कविता, निबंध) को पढ़कर, उसके तत्वों',
-                  options: ['पाठ-आधारित लेखन कौशल का अर्थ है किसी पाठ (कहानी, कविता, निबंध) को पढ़कर, उसके तत्वों', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक,', 'कथानक (Plot) कहानी की घटनाओं का कालानुक्रमिक (chronological) क्रम है', 'पाठ्य-परिवेश (Setting) कहानी के घटित होने का समय, स्थान, भौगोलिक और सामाजिक परिदृश्य है,'],
-                  hint: 'यदि फँसें तो: c7_hin_cbse_09_013 (आलोचनात्मक चिंतन) दोहराएँ — वहाँ Explanation का अभ्यास छोटे-छोटे.',
-                  misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि "पाठ से उद्धरण दे देना" ही Evidence चरण पूरा करना है। वे लिखते हैं: *"पृष्ठ ३ पर लिखा है \'वह रोया\'.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'चिड़िया\' पर पाठ-आधारित लेखन',
+                  options: ['\'चिड़िया\' पर पाठ-आधारित लेखन', '\'चिड़िया\' का पृष्ठभूमि और रचनाकार परिचय', '\'चिड़िया\' का कथानक/पाठ', '\'चिड़िया\' का पाठ्य-परिवेश'],
+                  hint: 'Recall the definition.',
+                  misconception: 'छात्र अपनी राय लिखते हैं, पाठ से प्रमाण नहीं — पाठ-आधारित उत्तर उद्धरण माँगता है।' }
           ],
-            remediations: { 'evidence-explanation-explanation': { steps: ['**दिखाओ, बताओ मत:** एक कमज़ोर उत्तर (केवल उद्धरण + अनुवाद) और एक मज़बूत उत्तर (उद्धरण + प्रेरणा/प्रसंग/विषय-संबंध) साथ.', '**\'क्यों\' सीढ़ी:** छात्र से कहो: "हर Evidence के बाद तीन बार \'क्यों?\' पूछो — पहला: पात्र ने ऐसा क्यों किया?', 'दूसरा: लेखक ने यह दृश्य क्यों रखा?', 'तीसरा: पाठक को क्या महसूस कराना चाहता है?" 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) संबंधित पंक्ति/घटना दोबारा पढ़वाओ। (2) शब्द-अर्थ मिलकर निकालो। (3) भाव अपने शब्दों में बुलवाओ। (4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c7_hin_cbse_09_015', difficulty: 'standard',
-          question: '\'वाचन-श्रवण: चर्चा-बिंदु\' वह कौशल है जिसमें छात्र पाठ को पढ़कर/सुनकर अपनी समझ.',
-          hint: 'यदि अटका हुआ महसूस हो तो नोड ०१२ के वस्तुनिष्ठ प्रश्नों को दोहराएँ और पाठ के किन्हीं तीन.',
-          misconception: 'छात्र समझते हैं कि चर्चा में \'जोर से बोलना\' या \'पहले बोलना\' जीतना है, जबकि असली चर्चा \'सुनकर, रुककर, फिर बोलना\' है। वे.',
+          question: '\'चिड़िया\' पर वाचन-श्रवण और चर्चा — कविता को सुनने, पढ़ने और उस पर विचार-विमर्श.',
+          hint: 'Work step by step.',
+          misconception: 'छात्र चर्चा में केवल अपनी बात दोहराते हैं — चर्चा सुनने और प्रमाण देने का कौशल है।',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वाचन-श्रवण: चर्चा-बिंदु\' वह कौशल है जिसमें छात्र पाठ को पढ़कर/सुनकर अपनी समझ, जिज्ञासा',
-                  options: ['\'वाचन-श्रवण: चर्चा-बिंदु\' वह कौशल है जिसमें छात्र पाठ को पढ़कर/सुनकर अपनी समझ, जिज्ञासा', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक,', 'कथानक (Plot) कहानी की घटनाओं का कालानुक्रमिक (chronological) क्रम है', 'पाठ्य-परिवेश (Setting) कहानी के घटित होने का समय, स्थान, भौगोलिक और सामाजिक परिदृश्य है,'],
-                  hint: 'यदि अटका हुआ महसूस हो तो नोड ०१२ के वस्तुनिष्ठ प्रश्नों को दोहराएँ और पाठ के किन्हीं तीन प्रसंगों.',
-                  misconception: 'छात्र समझते हैं कि चर्चा में \'जोर से बोलना\' या \'पहले बोलना\' जीतना है, जबकि असली चर्चा \'सुनकर, रुककर, फिर बोलना\' है। वे पाठ के शब्दों को.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'चिड़िया\' पर वाचन-श्रवण और चर्चा',
+                  options: ['\'चिड़िया\' पर वाचन-श्रवण और चर्चा', '\'चिड़िया\' का पृष्ठभूमि और रचनाकार परिचय', '\'चिड़िया\' का कथानक/पाठ', '\'चिड़िया\' का पाठ्य-परिवेश'],
+                  hint: 'Recall the definition.',
+                  misconception: 'छात्र चर्चा में केवल अपनी बात दोहराते हैं — चर्चा सुनने और प्रमाण देने का कौशल है।' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण १: छात्र को मौन पाठ पढ़ने दें और तीन \'क्यों?\' प्रश्न लिखने को कहें। चरण २: जोड़ी बनाकर एक-दूसरे के प्रश्न पढ़वाएँ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'wrong-idea': { steps: ['**उपचार**: (1) संबंधित पंक्ति/घटना दोबारा पढ़वाओ। (2) शब्द-अर्थ मिलकर निकालो। (3) भाव अपने शब्दों में बुलवाओ। (4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -96,8 +96,19 @@ export const c9_hist_ch05: SimDef = {
           hint: 'If stuck, revisit the Mauryan period and Ashoka’s role in sending Buddhist missionaries.',
           misconception: 'Students often think the Silk Road was primarily a route for Chinese silk to reach Rome, overlooking India’s role.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The Silk Road was a network of overland trade routes connecting China to the',
-                  options: ['The Silk Road was a network of overland trade routes connecting China to the', 'Harappan Contacts with Mesopotamia refers to the trade and cultural exchange between the', 'Ancient Trade Routes (Land and Sea) refers to the interconnected network of overland', 'Indian Ocean Trade and Roman Contacts refers to the maritime exchange network between'],
+                { id: 'a', prompt: 'Why did Buddhism spread from India to Central Asia and China via the Silk Road, rather than staying confined to India?', answer: 'Buddhism spread along the Silk Road',
+                  options: ['Buddhism spread along the Silk Road', 'Buddhism spread only'],
+                  hint: 'If stuck, revisit the Mauryan period and Ashoka’s role in sending Buddhist missionaries to Sri.',
+                  misconception: 'Students often think the Silk Road was primarily a route for Chinese silk to reach Rome, overlooking India’s role as both a major exporter.' }
+          ],
+            remediations: { 'the-silk-road-was-primarily': { steps: ['To fix this, map out archaeological evidence: show students coins of Kushana kings found in China bearing Buddhist.', 'Have them trace Bodhidharma’s journey from Kanchipuram to China on a map, emphasizing that ideas flowed both ways—this.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+        { type: 'subpart', nodeId: 'c9_hist_ch5_3', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often think the Silk Road was primarily a route for Chinese silk to reach Rome, overlooking India’s role.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the statement: "The Silk Road’s most lasting impact on India was the introduction of new crops like grapes and wheat." Defend your position with.', answer: 'This statement is overly narrow',
+                  options: ['This statement is overly narrow', 'most lasting'],
                   hint: 'If stuck, revisit the Mauryan period and Ashoka’s role in sending Buddhist missionaries to Sri.',
                   misconception: 'Students often think the Silk Road was primarily a route for Chinese silk to reach Rome, overlooking India’s role as both a major exporter.' }
           ],
@@ -133,19 +144,8 @@ export const c9_hist_ch05: SimDef = {
                   options: ['B) Zero and the decimal system', 'knowledge exchange in ancient India was primarily religious (e'],
                   hint: 'If stuck, revisit the Gupta Empire’s contributions (c7_hist_ch04_006) to recall what Indian.',
                   misconception: 'Students often believe that knowledge exchange in ancient India was primarily religious (e.g., Buddhism spreading) and that scientific.' },
-                { id: 'b', prompt: 'Why did Indian astronomers like Aryabhata reject the prevailing geocentric model of Greek astronomy, despite knowing about it through exchanges?', answer: 'B) Their own observations of planetary motion supported a heliocentric idea',
+                { id: 'b', prompt: '[Note: Duplicate label corrected below as per instruction sequence]', answer: 'B) Their own observations of planetary motion supported a heliocentric idea',
                   options: ['B) Their own observations of planetary motion supported a heliocentric idea', 'knowledge exchange in ancient India was primarily religious (e'],
-                  hint: 'If stuck, revisit the Gupta Empire’s contributions (c7_hist_ch04_006) to recall what Indian.',
-                  misconception: 'Students often believe that knowledge exchange in ancient India was primarily religious (e.g., Buddhism spreading) and that scientific.' }
-          ],
-            remediations: { 'knowledge-exchange-in-ancient-india': { steps: ['To fix this, have students compare two passages: one from Aryabhata’s Aryabhatiya (describing trigonometric.', 'Ask: “What does each scholar credit the other for?” Then, use a map showing Baghdad, Nalanda, and Ujjain as nodes in.', 'This shows concrete inflow (Greek/Persian → India) alongside outflow (India → Arab world), breaking the one-way myth.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c9_hist_ch5_6', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often believe that knowledge exchange in ancient India was primarily religious (e.g., Buddhism spreading) and.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the claim: “The spread of Ayurveda to Southeast Asia was primarily due to Indian merchants, not scholars or monks.” Is this claim justified?', answer: 'C) Partly yes—merchants introduced basics, but monks adapted it locally',
-                  options: ['C) Partly yes—merchants introduced basics, but monks adapted it locally', 'knowledge exchange in ancient India was primarily religious (e'],
                   hint: 'If stuck, revisit the Gupta Empire’s contributions (c7_hist_ch04_006) to recall what Indian.',
                   misconception: 'Students often believe that knowledge exchange in ancient India was primarily religious (e.g., Buddhism spreading) and that scientific.' }
           ],

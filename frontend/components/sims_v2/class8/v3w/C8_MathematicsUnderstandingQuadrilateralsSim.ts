@@ -6,13 +6,13 @@ import C8_MathematicsUnderstandingQuadrilateralsSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicsunderstandingquadrilateralssim: SimDef = {
     id: 'v3w_c8_mathematicsunderstandingquadrilateralssim',
-    title: 'Understanding Quadrilaterals',
+    title: 'Visualising Solids: Nets of 3D Shapes',
     subtitle: 'Covers nets of cubes, cuboids, triangular prisms, square pyramids, cylinders, and right.',
     classLevel: 8, subject: 'mathematics', topic: 'Visualising Solids: Nets of 3D Shapes',
     chapters: [],
     nodeIds: ['c8_math_ch11_7', 'c8_math_ch12_1', 'c8_math_ch4_1', 'c8_math_ch4_11', 'c8_math_ch4_12', 'c8_math_ch4_2', 'c8_math_ch4_5', 'c8_math_ch4_6', 'c8_math_ch4_7', 'c8_math_ch4_8', 'c8_math_ch4_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you have a cardboard box shaped like a cuboid (like a shoebox) and you carefully cut along some edges.', goal: 'Master Understanding Quadrilaterals.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you have a cardboard box shaped like a cuboid (like a shoebox) and you carefully cut along some edges.', goal: 'Master Visualising Solids: Nets of 3D Shapes.' },
     discovery: {
         question: 'A student draws a straight line of 6 squares connected edge-to-edge and claims it is a net of a cube.',
         options: ['A straight line of 6 squares cannot form a cube', 'it works because there are 6 squares', 'any arrangement of the correct number and shape of faces forms a valid net'],
@@ -79,7 +79,7 @@ export const w_c8_mathematicsunderstandingquadrilateralssim: SimDef = {
             { text: 'Verify: Perimeter = \\(2(25 + 20) = 2 \\times 45 = 90\\) m. Matches given. (Check answer.)', faded: true, blankAnswer: 'Length = 25 m, Breadth = 20 m.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch12_1', title: 'Identify each idea',
-          dissect: { specimen: 'Understanding Quadrilaterals', spots: [
+          dissect: { specimen: 'Visualising Solids: Nets of 3D Shapes', spots: [
             { id: 's1', label: 'A net of a 3D', prompt: 'Which idea is this? — A net of a 3D solid is a two-dimensional arrangement of polygons (faces) connected along.', answer: 'A net of a 3D', options: ['A net of a 3D', 'The mean of a data', 'A quadrilateral is a closed', 'A kite is a quadrilateral'] },
             { id: 's2', label: 'The mean of a data', prompt: 'Which idea is this? — The mean of a data set is the unique value where the sum of the signed deviations of all.', answer: 'The mean of a data', options: ['The mean of a data', 'A net of a 3D', 'A quadrilateral is a closed', 'A kite is a quadrilateral'] },
             { id: 's3', label: 'A quadrilateral is a closed', prompt: 'Which idea is this? — A quadrilateral is a closed plane figure bounded by four line segments (sides) that.', answer: 'A quadrilateral is a closed', options: ['A quadrilateral is a closed', 'A net of a 3D', 'The mean of a data', 'A kite is a quadrilateral'] },
@@ -88,7 +88,7 @@ export const w_c8_mathematicsunderstandingquadrilateralssim: SimDef = {
             { id: 's6', label: 'A rectangle is a quadrilateral', prompt: 'Which idea is this? — A rectangle is a quadrilateral with four right angles (each measuring 90°).', answer: 'A rectangle is a quadrilateral', options: ['A rectangle is a quadrilateral', 'A net of a 3D', 'The mean of a data', 'A quadrilateral is a closed'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsUnderstandingQuadrilateralsSim, prompt: 'Explore the interactive — Understanding Quadrilaterals' },
+    explore: { component: C8_MathematicsUnderstandingQuadrilateralsSim, prompt: 'Explore the interactive — Visualising Solids: Nets of 3D Shapes' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch11_7', difficulty: 'standard',
           question: 'A net of a 3D solid is a two-dimensional arrangement of polygons (faces).',

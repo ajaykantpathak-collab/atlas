@@ -19,7 +19,7 @@ export const c11_eng_w_ch06_p1: SimDef = {
         hook: 'The narrator isn\'t Lahiri, and the moon isn\'t trivia — both are deliberate architecture: a flag on the moon lets two strangers share a country.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" provides the essential historical, cultural, biographical, and literary frameworks that enable a Class 11 student to interpret Jhumpa Lahiri\'s "The Third and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Third and Final Continent\' (Woven Words, ch. 6) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_06_001', title: 'Your mission',
@@ -29,35 +29,35 @@ export const c11_eng_w_ch06_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_06_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are moving from a small town in Bihar to Delhi for Class 11 — new language on the streets, different food in the canteen, unfamiliar social codes.',
+          caseStudy: { intro: 'Start with the author of \'The Third and Final Continent\', then the period, then the literary context — background turns a text from a puzzle into a story you.',
             decisions: [{ prompt: 'Identify the three continents referenced in the title "The Third and Final Continent" and the approximate years the narrator spends.', options: [
                 { text: 'The three continents are: (1) Asia/India', outcome: 'The three continents are: (1) Asia/India — the narrator leaves in 1964 at age ~31; (2).' },
                 { text: 'Australia', outcome: 'Not quite — Students treat "context" as a static list of facts (author birth date, historical events.', reveals: 'students-treat-context-as-a' },
                 { text: 'Africa', outcome: 'Not quite — Students treat "context" as a static list of facts (author birth date, historical events.', reveals: 'students-treat-context-as-a' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_06_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are explaining this story to a friend who hasn\'t read it.',
+          caseStudy: { intro: 'Trace \'The Third and Final Continent\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the primary narrative perspective used in "The Third and Final Continent," and how does it limit or expand the reader\'s access.', options: [
                 { text: 'The story uses first-person retrospective narration ("I left India in 1964...")', outcome: 'The story uses first-person retrospective narration ("I left India in 1964...").' },
                 { text: 'third-person omniscient', outcome: 'Not quite — Students often treat the "three continents" as three separate stories (India story, London story.', reveals: 'students-often-treat-the-three' },
                 { text: 'first-person', outcome: 'Not quite — Students often treat the "three continents" as three separate stories (India story, London story.', reveals: 'students-often-treat-the-three' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_06_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you meet someone who has lived in three countries in ten years — India, UK, USA — and now calls a fourth place home.',
+          caseStudy: { intro: 'Pick the central figure in \'The Third and Final Continent\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the narrator\'s profession and where does he work during his first six weeks in America?', options: [
                 { text: 'The narrator works in the processing department of the Dewey Library at MIT', outcome: 'The narrator works in the processing department of the Dewey Library at MIT.' },
                 { text: 'he works at Harvard', outcome: 'Not quite — Students often mistake the narrator\'s silence and passivity for lack of personality or agency.', reveals: 'students-often-mistake-the-narrator' },
                 { text: 'he is a student', outcome: 'Not quite — Students often mistake the narrator\'s silence and passivity for lack of personality or agency.', reveals: 'students-often-mistake-the-narrator' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_06_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re asked in the board exam: "How does Mrs. Croft\'s eccentricity serve a larger purpose in the story?" Don\'t start by listing her odd habits.',
+          caseStudy: { intro: 'Spot the secondary figures in \'The Third and Final Continent\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'Identify the three supporting characters in "The Third and Final Continent" and state one defining trait for each that distinguishes them.', options: [
                 { text: 'The three supporting characters are Mrs', outcome: 'The three supporting characters are Mrs. Croft (the 103-year-old landlady, defined by rigid ritual.' },
                 { text: 'less page time', outcome: 'Not quite — Students treat supporting characters as "minor" and write descriptive summaries (Mrs.', reveals: 'students-treat-supporting-characters-as' },
                 { text: 'less thematic weight', outcome: 'Not quite — Students treat supporting characters as "minor" and write descriptive summaries (Mrs.', reveals: 'students-treat-supporting-characters-as' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_06_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are the narrator, stepping off a plane in Boston in 1969 with eight dollars, a borrowed coat, and a wife you barely know waiting in Calcutta.',
+          caseStudy: { intro: 'Ask what \'The Third and Final Continent\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of "The Third and Final Continent" as distinct from its secondary themes?', options: [
                 { text: 'The primary theme is the quiet heroism of the immigrant experience', outcome: 'The primary theme is the quiet heroism of the immigrant experience — the resilience required.' },
                 { text: 'the story is about an Indian man moving to America', outcome: 'Not quite — Students often identify "cultural conflict" or "arranged marriage" as the primary theme because.', reveals: 'students-often-identify-cultural-conflict' },
@@ -82,7 +82,7 @@ export const c11_eng_w_ch06_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" provides the essential historical.',
+          question: '\'The Third and Final Continent\' (Woven Words, ch. 6) — the context and.',
           hint: 'Review c10_engl_cbse_02_001 (Mandela context) and c10_engl_cbse_04_001 (Anne Frank.',
           misconception: 'Students treat "context" as a static list of facts (author birth date, historical events, vocabulary definitions).',
           parts: [
@@ -104,7 +104,7 @@ export const c11_eng_w_ch06_p1: SimDef = {
           ],
             remediations: { 'students-treat-context-as-a': { steps: ['If a student cannot move beyond fact-listing: Step 1 — Give them a "Context Lens" template with four columns.', 'Step 2 — Model one row together: Fact = Moon landing July 1969; Evidence = Pilot announces it, Mrs Croft demands.', 'humanity, transient heroism vs.', 'Step 3 — Have them complete three rows independently (e.g., Immigration Act 1965, Bengali arranged marriage codes.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_002', difficulty: 'standard',
-          question: 'Plot is the sequence of causally linked events that form the narrative arc of.',
+          question: 'The plot/narrative arc of \'The Third and Final Continent\' — what happens,.',
           hint: 'Review "The Thief\'s Story" (Class 10, c10_engl_cbse_11_001) focusing on how Hari Singh\'s.',
           misconception: 'Students often treat the "three continents" as three separate stories (India story, London story, America story) rather.',
           parts: [
@@ -115,18 +115,18 @@ export const c11_eng_w_ch06_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-the-three': { steps: ['If a student separates the continents, guide them to list five specific habits/skills the narrator develops in London.', 'Use a two-column table: "London Learning" → "America Application." This makes the structural continuity visible.', 'Emphasize that Lahiri could have started in America but chose to include London to *show the making of the man* who can.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_003', difficulty: 'standard',
-          question: 'Setting in literature refers to the time, place, and social environment.',
+          question: 'The setting of \'The Third and Final Continent\' — the place, time and atmosphere.',
           hint: 'Review "Imagery of Nature" (c8_engl_ch4_7) and "Atmosphere: Heat, Silence and.',
           misconception: 'Students often treat setting as a static list of locations ("first he was in London, then Boston") rather than as.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting in literature refers to the time, place, and social environment in',
-                  options: ['Setting in literature refers to the time, place, and social environment in', '"Before You Read: Context and Background" provides the essential historical, cultural,', 'Plot is the sequence of causally linked events that form the narrative arc of a story,', 'Character analysis of the protagonist involves examining the narrator\'s personality'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'The Third and Final Continent\'',
+                  options: ['The setting of \'The Third and Final Continent\'', '\'The Third and Final Continent\' (Woven Words, ch', 'The plot/narrative arc of \'The Third and Final Continent\'', 'Character analysis in \'The Third and Final Continent\''],
                   hint: 'Review "Imagery of Nature" (c8_engl_ch4_7) and "Atmosphere: Heat, Silence and Anticipation".',
                   misconception: 'Students often treat setting as a static list of locations ("first he was in London, then Boston") rather than as an *active emotional.' }
           ],
             remediations: { 'students-often-treat-setting-as': { steps: ['If a student cannot move beyond location-listing: (1) Give them a two-column table: Column A = Setting, Column.', '(2) Have them fill it for YMCA and Mrs.', 'Croft\'s house side-by-side.', '(3) Ask: "What does the *contrast* in Column B tell you about the narrator\'s inner journey?" (4) Model one PEEL.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the narrator\'s.',
+          question: 'Character analysis in \'The Third and Final Continent\' — the central figure(s).',
           hint: 'Review c11_eng_w_cbse_06_002 for the timeline and c11_eng_w_cbse_06_001 for the meaning.',
           misconception: 'Students often mistake the narrator\'s silence and passivity for lack of personality or agency, writing "he just does.',
           parts: [
@@ -141,7 +141,7 @@ export const c11_eng_w_ch06_p1: SimDef = {
           ],
             remediations: { 'students-often-mistake-the-narrator': { steps: ['If a student writes "the narrator is passive," ask: "List three things he *chooses* to do for Mrs.', 'Croft that he didn\'t have to." (1) Say "splendid" loudly.', '(2) Hand rent to her directly instead of leaving it on the piano.', '(3) Return to visit after moving out.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters examines how secondary figures.',
+          question: 'Supporting characters in \'The Third and Final Continent\' — the secondary.',
           hint: 'Review "Character Analysis: Protagonist" (c11_eng_w_cbse_06_004) Worked Example 1 on the.',
           misconception: 'Students treat supporting characters as "minor" and write descriptive summaries (Mrs.',
           parts: [
@@ -160,7 +160,7 @@ export const c11_eng_w_ch06_p1: SimDef = {
           ],
             remediations: { 'students-treat-supporting-characters-as': { steps: ['Have the student reread only the scenes where the narrator interacts with *one* supporting character (e.g., all Mrs.', 'For each scene, ask: "What does the narrator *do*?', 'What does the character *make him do*?', 'What changes in him after?" 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_06_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea — the.',
+          question: 'The primary theme of \'The Third and Final Continent\' — the central idea the.',
           hint: 'If stuck, review c11_eng_w_cbse_06_002 (Plot and Narrative Structure) to re-map the three.',
           misconception: 'Students often identify "cultural conflict" or "arranged marriage" as the primary theme because these are prominent.',
           parts: [

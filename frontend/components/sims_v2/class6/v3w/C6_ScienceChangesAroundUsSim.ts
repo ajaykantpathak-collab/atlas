@@ -6,13 +6,13 @@ import C6_ScienceChangesAroundUsSim from '../../../simulations/c6_12/C6_ScienceC
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_sciencechangesaroundussim: SimDef = {
     id: 'v3w_c6_sciencechangesaroundussim',
-    title: 'Changes Around Us',
+    title: 'Rotation of the Earth: Day and Night',
     subtitle: 'This node covers the cause of day and night and the direction of Earth\'s rotation.',
     classLevel: 6, subject: 'science', topic: 'Rotation of the Earth: Day and Night',
     chapters: [],
     nodeIds: ['c6_physics_ch12_045', 'c6_physics_ch12_046', 'c6_physics_ch12_047', 'c6_physics_ch11_036', 'c6_physics_ch11_035', 'c6_physics_ch12_051', 'c6_physics_ch01_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why you go to bed when it’s dark and wake up when it’s bright?', goal: 'Master Changes Around Us.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why you go to bed when it’s dark and wake up when it’s bright?', goal: 'Master Rotation of the Earth: Day and Night.' },
     discovery: {
         question: 'What is the name of the imaginary line that runs through the Earth from the North Pole to the South Pole around which the Earth spins?',
         options: ['The line is called the axis', 'the Equator', 'the sun rises and sets'],
@@ -59,7 +59,7 @@ export const w_c6_sciencechangesaroundussim: SimDef = {
                 { text: 'the phases are caused by the Earth\'s shadow falling on the Moon', outcome: 'Not quite — Students often believe the phases are caused by the Earth\'s shadow falling on the Moon.', reveals: 'the-phases-are-caused-by' }
             ] }] } }
     ],
-    explore: { component: C6_ScienceChangesAroundUsSim, prompt: 'Explore the interactive — Changes Around Us' },
+    explore: { component: C6_ScienceChangesAroundUsSim, prompt: 'Explore the interactive — Rotation of the Earth: Day and Night' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_physics_ch12_045', difficulty: 'standard',
           question: 'The Earth’s rotation is the spinning motion of our planet around an imaginary.',

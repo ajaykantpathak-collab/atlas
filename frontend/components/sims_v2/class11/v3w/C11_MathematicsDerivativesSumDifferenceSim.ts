@@ -6,13 +6,13 @@ import C11_MathematicsDerivativesSumDifferenceSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathematicsderivativessumdifferencesim: SimDef = {
     id: 'v3w_c11_mathematicsderivativessumdifferencesim',
-    title: 'Derivatives Sum Difference',
+    title: 'Derivative of Polynomial Functions',
     subtitle: 'Covers differentiation of polynomial functions in standard form using algebraic.',
     classLevel: 11, subject: 'mathematics', topic: 'Derivative of Polynomial Functions',
     chapters: [],
     nodeIds: ['c11_math_cbse_13_007', 'c11_math_cbse_13_009', 'c11_math_cbse_13_010', 'c11_math_cbse_02_006', 'c11_math_cbse_02_007', 'c11_math_cbse_02_011', 'c11_math_cbse_13_006', 'c11_math_cbse_13_008', 'c11_math_cbse_13_001', 'c11_math_cbse_02_005', 'c11_math_cbse_02_010', 'c11_math_cbse_02_008', 'c11_math_cbse_02_012', 'c11_math_cbse_09_002', 'c11_math_cbse_09_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a toy rocket launched vertically from a school playground; its height in metres after t seconds is.', goal: 'Master Derivatives Sum Difference.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a toy rocket launched vertically from a school playground; its height in metres after t seconds is.', goal: 'Master Derivative of Polynomial Functions.' },
     discovery: {
         question: 'Consider the function h: ℝ → ℝ defined by h(x) = f(x) + g(x) where f is the identity function and g is the constant function 5. Is h one-one? Is h onto?',
         options: ['h(x) = x+5', 'it\'s shifted up', 'it\'s not the identity'],
@@ -79,7 +79,7 @@ export const w_c11_mathematicsderivativessumdifferencesim: SimDef = {
             { text: 'Find distance for ₹65 fare: Solve C(d) = 65. Try segment 3: 8d - 15 = 65 → 8d = 80 → d = 10 km. Check: 10 > 5, valid.', faded: true, blankAnswer: 'C(d) = {10 for 0≤d≤2; 5d for 2<d≤5; 8d-15 for d>5}. Fare.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_13_009', title: 'Identify each idea',
-          dissect: { specimen: 'Derivatives Sum Difference', spots: [
+          dissect: { specimen: 'Derivative of Polynomial Functions', spots: [
             { id: 's1', label: 'The derivative of a polynomial', prompt: 'Which idea is this? — The derivative of a polynomial function f(x) = a_n x^n + a_{n-1} x^{n-1} + ...', answer: 'The derivative of a polynomial', options: ['The derivative of a polynomial', 'The algebra of derivatives provides', 'The derivative of a trigonometric', 'A real-valued function is a'] },
             { id: 's2', label: 'The algebra of derivatives provides', prompt: 'Which idea is this? — The algebra of derivatives provides rules to differentiate combinations of functions.', answer: 'The algebra of derivatives provides', options: ['The algebra of derivatives provides', 'The derivative of a polynomial', 'The derivative of a trigonometric', 'A real-valued function is a'] },
             { id: 's3', label: 'The derivative of a trigonometric', prompt: 'Which idea is this? — The derivative of a trigonometric function f(x) at a point x is the limit of the.', answer: 'The derivative of a trigonometric', options: ['The derivative of a trigonometric', 'The derivative of a polynomial', 'The algebra of derivatives provides', 'A real-valued function is a'] },
@@ -88,7 +88,7 @@ export const w_c11_mathematicsderivativessumdifferencesim: SimDef = {
             { id: 's6', label: 'A real function is a', prompt: 'Which idea is this? — A real function is a rule that assigns to each real number x in its domain exactly one.', answer: 'A real function is a', options: ['A real function is a', 'The derivative of a polynomial', 'The algebra of derivatives provides', 'The derivative of a trigonometric'] }
           ] } }
     ],
-    explore: { component: C11_MathematicsDerivativesSumDifferenceSim, prompt: 'Explore the interactive — Derivatives Sum Difference' },
+    explore: { component: C11_MathematicsDerivativesSumDifferenceSim, prompt: 'Explore the interactive — Derivative of Polynomial Functions' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_13_007', difficulty: 'standard',
           question: 'The derivative of a polynomial function f(x) = a_n x^n + a_{n-1} x^{n-1} + ...',

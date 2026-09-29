@@ -19,7 +19,7 @@ export const c11_eng_w_ch19_p2: SimDef = {
         hook: 'The death-wish is the speaker\'s, not the bird\'s — the poem\'s engine is the gap between a mortal who aches and a song that outlives him.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas that support, complicate, or enrich the primary theme of a literary work; in *Ode to a Nightingale*, they include the tension between imagination and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Ode to a Nightingale\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_19_007', title: 'Your mission',
@@ -29,40 +29,40 @@ export const c11_eng_w_ch19_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_19_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are listening to a favourite song that makes you feel both incredibly happy and strangely sad at the same time — that mixed feeling is exactly what.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Ode to a Nightingale\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'Define "secondary theme" in the context of a poem and give one example from *Ode to a Nightingale* (do not use the primary theme of the.', options: [
                 { text: 'A secondary theme is a recurring idea that supports or adds layers to the primary theme;', outcome: 'A secondary theme is a recurring idea that supports or adds layers to the primary theme; for.' },
                 { text: 'the limitation of imagination (Fancy) as a means of escape', outcome: 'Not quite — Students often treat every noun in the poem (wine, Ruth, Hippocrene, Lethe) as a separate "theme".', reveals: 'students-often-treat-every-noun' },
                 { text: 'the fancy cannot cheat so well / As she is fam\'d to do', outcome: 'Not quite — Students often treat every noun in the poem (wine, Ruth, Hippocrene, Lethe) as a separate "theme".', reveals: 'students-often-treat-every-noun' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_19_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are describing the taste of your favourite monsoon snack — hot *pakoras* with chutney — to a friend who has never eaten it.',
+          caseStudy: { intro: 'Find the lines in \'Ode to a Nightingale\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "imagery" and "metaphor" as literary devices, giving one example of each from *Ode to a Nightingale* (cite line or stanza reference).', options: [
                 { text: '**Correct answer:** Imagery: language appealing to senses', outcome: '**Correct answer:** Imagery: language appealing to senses; e.g., visual "purple-stained mouth".' },
                 { text: 'like/as', outcome: 'Not quite — Students believe "imagery" means only *visual* description (pictures in the mind) and that.', reveals: 'imagery-means-only-visual-description' },
                 { text: 'imagery', outcome: 'Not quite — Students believe "imagery" means only *visual* description (pictures in the mind) and that.', reveals: 'imagery-means-only-visual-description' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_19_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are listening to a song so beautiful it makes you forget your own pain, yet the singer is a fragile bird that will die, while the song seems.',
+          caseStudy: { intro: 'Look in \'Ode to a Nightingale\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define irony and symbolism in your own words, giving one example from "Ode to a Nightingale" for each device.', options: [
                 { text: 'Correct answer: Irony is a contrast between expectation and reality; for example, the', outcome: 'Correct answer: Irony is a contrast between expectation and reality; for example, the poet calls.' },
                 { text: 'confuses the two (e', outcome: 'Not quite — Students frequently confuse symbolism with metaphor, treating every comparative image as a symbol.', reveals: 'students-frequently-confuse-symbolism-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_19_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading Keats\'s poem for the first time and stumble upon "Lethe-wards had sunk." You don\'t know "Lethe," but you notice "sunk" and the earlier.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Ode to a Nightingale\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the primary contextual clue in the first stanza that helps a reader infer the meaning of "hemlock" without a dictionary?', options: [
                 { text: 'The primary clue is the syntactic parallelism and semantic association: "hemlock I had', outcome: 'The primary clue is the syntactic parallelism and semantic association: "hemlock I had drunk".' },
                 { text: 'hemlock is a tree', outcome: 'Not quite — Students believe "vocabulary in context" means **guessing a synonym** that fits the sentence.', reveals: 'vocabulary-in-context-means-guessing' },
                 { text: 'vocabulary in context', outcome: 'Not quite — Students believe "vocabulary in context" means **guessing a synonym** that fits the sentence.', reveals: 'vocabulary-in-context-means-guessing' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_19_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading the poem aloud and stumble over phrases like "Thou wast not born for death" or "Tasting of Flora and the country green".',
+          caseStudy: { intro: 'Read \'Ode to a Nightingale\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify two archaic pronouns used in the poem and state their modern equivalents.', options: [
                 { text: 'The poem uses "thou" (subject form, modern \'you\') and "thee" (object form, modern \'you\')', outcome: 'The poem uses "thou" (subject form, modern \'you\') and "thee" (object form, modern \'you\').' },
                 { text: 'old-fashioned language', outcome: 'Not quite — Students often think that grammatical deviations in poetry are errors or simply "old-fashioned.', reveals: 'grammatical-deviations-in-poetry-are' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_19_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and the first question asks: "How does the nightingale\'s song plunge the poet into a state of ecstasy?" You might.',
+          caseStudy: { intro: 'Answer \'Ode to a Nightingale\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the primary difference between a literal comprehension question and an inferential comprehension question?', options: [
                 { text: 'A literal question asks for information directly stated in the text (e.g., "What has the', outcome: 'A literal question asks for information directly stated in the text (e.g., "What has the poet.' },
                 { text: 'literal is easy, inferential is hard', outcome: 'Not quite — Students often treat inferential questions as "guessing" and write personal opinions unrelated.', reveals: 'students-often-treat-inferential-questions' }
@@ -86,7 +86,7 @@ export const c11_eng_w_ch19_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas that support, complicate, or enrich.',
+          question: 'Secondary themes in \'Ode to a Nightingale\' — the supporting ideas and motifs.',
           hint: 'Review the stanza-wise summary from node 19_002 and the primary theme statement from node.',
           misconception: 'Students often treat every noun in the poem (wine, Ruth, Hippocrene, Lethe) as a separate "theme" instead of seeing.',
           parts: [
@@ -101,7 +101,7 @@ export const c11_eng_w_ch19_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-every-noun': { steps: ['Ask the student to complete this sentence frame for three different stanzas: "In stanza __, Keats uses the image.', 'Have them label each completion as either "Primary Theme" or "Secondary Theme" by checking if it directly contrasts.', 'Provide a two-column table: Column A lists motifs (wine, Ruth, Fancy, Lethe); Column B requires the thematic statement.', 'Model one example together, then let them finish the table before re-attempting the diagnostic questions.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid and descriptive language that appeals to the senses.',
+          question: 'Imagery in \'Ode to a Nightingale\' — the vivid, sensory language that creates.',
           hint: 'If stuck, review "PEEL paragraph structure" (c11_eng_w_cbse_19_014) and "identifying.',
           misconception: 'Students believe "imagery" means only *visual* description (pictures in the mind) and that "metaphor" is merely.',
           parts: [
@@ -131,29 +131,29 @@ export const c11_eng_w_ch19_p2: SimDef = {
           ],
             remediations: { 'imagery-means-only-visual-description': { steps: ['**Sensory Audit:** Give the student a single stanza (e.g., stanza 2).', 'Have them draw five columns (Sight, Sound, Taste, Touch, Smell) and place *every* sensory word in the correct column.', '**Metaphor Surgery:** Take the metaphor "light-winged Dryad." Ask: "What two things are equated?', 'What *qualities* of a Dryad (tree-spirit, immortality, bond to nature) are transferred to the bird?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_009', difficulty: 'standard',
-          question: 'Irony is a literary device where a contrast exists between expectation and.',
+          question: 'Irony and paradox in \'Ode to a Nightingale\' — where opposite things are both.',
           hint: 'Review the definitions of irony types using "The Necklace" (situational) and "A Letter.',
           misconception: 'Students frequently confuse symbolism with metaphor, treating every comparative image as a symbol.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where a contrast exists between expectation and reality, or',
-                  options: ['Irony is a literary device where a contrast exists between expectation and reality, or', '"Before You Read: Context and Background" provides the essential historical,', 'Narrative structure in a lyric poem like "Ode to a Nightingale" refers to the organized', 'In poetry, **setting** refers to the time, place, and physical environment where the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'Ode to a Nightingale\'',
+                  options: ['Irony and paradox in \'Ode to a Nightingale\'', '\'Ode to a Nightingale\' (Woven Words, ch', 'The plot/narrative arc of \'Ode to a Nightingale\'', 'The setting of \'Ode to a Nightingale\''],
                   hint: 'Review the definitions of irony types using "The Necklace" (situational) and "A Letter to God".',
                   misconception: 'Students frequently confuse symbolism with metaphor, treating every comparative image as a symbol.' }
           ],
             remediations: { 'students-frequently-confuse-symbolism-with': { steps: ['Re-read stanza 7 aloud and underline the phrases "hungry generations," "emperor and clown," and "Ruth." Ask: what does.', 'Make a two-column table. Column A: concrete objects/images in the poem (nightingale, wine, forest, bell, "viewless.', 'For each pairing, write one sentence explaining how the object *sustains* that meaning across stanzas.', 'Locate the moment in stanza 8 where the speaker\'s expectation (permanent union with the bird) meets reality (the song.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_010', difficulty: 'standard',
-          question: 'Vocabulary in context is the skill of determining the meaning of unfamiliar.',
+          question: 'Key vocabulary of \'Ode to a Nightingale\' — the words and phrases you must know.',
           hint: 'Review the **stanza-by-stanza emotional arc** (node c11_eng_w_cbse_19_002) and the.',
           misconception: 'Students believe "vocabulary in context" means **guessing a synonym** that fits the sentence grammatically.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in context is the skill of determining the meaning of unfamiliar words by',
-                  options: ['Vocabulary in context is the skill of determining the meaning of unfamiliar words by', '"Before You Read: Context and Background" provides the essential historical,', 'Narrative structure in a lyric poem like "Ode to a Nightingale" refers to the organized', 'In poetry, **setting** refers to the time, place, and physical environment where the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Key vocabulary of \'Ode to a Nightingale\'',
+                  options: ['Key vocabulary of \'Ode to a Nightingale\'', '\'Ode to a Nightingale\' (Woven Words, ch', 'The plot/narrative arc of \'Ode to a Nightingale\'', 'The setting of \'Ode to a Nightingale\''],
                   hint: 'Review the **stanza-by-stanza emotional arc** (node c11_eng_w_cbse_19_002) and the **imagery.',
                   misconception: 'Students believe "vocabulary in context" means **guessing a synonym** that fits the sentence grammatically.' }
           ],
             remediations: { 'vocabulary-in-context-means-guessing': { steps: ['**Re-read the stanza aloud** — hear the vowel/consonant music of the target word (e.g., the liquid \'l\'s in "plaintive,".', '**Mark the "clue chain":** Underline the 3-4 words immediately preceding and following the target word; draw arrows.', '**Use the textbook glosses as evidence, not answers:** For "Hippocrene," write: "Gloss = fountain of poetic inspiration.', '**Write a "context definition"** in your notebook: "In *this* poem, [word] means [definition] because [specific.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the study of grammatical structures.',
+          question: 'Language and style in \'Ode to a Nightingale\' — how the writer chose words.',
           hint: 'Review Class 10 grammar: sentence types (declarative, imperative, exclamatory), verb.',
           misconception: 'Students often think that grammatical deviations in poetry are errors or simply "old-fashioned language" with.',
           parts: [
@@ -164,7 +164,7 @@ export const c11_eng_w_ch19_p2: SimDef = {
           ],
             remediations: { 'grammatical-deviations-in-poetry-are': { steps: ['Give the student a short prose version of a stanza (e.g., rewrite Stanza 2 in standard English) and ask them to compare.', 'Have them identify the subject-verb-object order in a normal sentence, then find where Keats disrupts it.', 'Ask them to read the poem aloud, emphasizing the inverted phrases, and discuss how the rhythm changes.', 'Finally, assign a mini-task: convert three modern sentences into Keatsian style using inversion, archaism, and ellipsis.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_19_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve information.',
+          question: 'Literal comprehension of \'Ode to a Nightingale\' — questions answered straight.',
           hint: 'Review the distinction between simile (explicit comparison) and metaphor (implicit.',
           misconception: 'Students often treat inferential questions as "guessing" and write personal opinions unrelated to the text.',
           parts: [

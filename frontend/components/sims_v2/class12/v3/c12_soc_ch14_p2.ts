@@ -139,8 +139,8 @@ export const c12_soc_ch14_p2: SimDef = {
                   options: ['The Act created Prasar Bharati as an autonomous corporation to manage AIR and', 'it made Doordarshan independent', 'autonomous corporation', 'statutory body'],
                   hint: 'Revisit c11_ps_cbse_11_005 (Right to Freedom, Articles 19-22) to clarify Article 19(1)(a) vs 19(2).',
                   misconception: 'Students often believe the Press Council of India can legally punish newspapers (impose fines, cancel registration) and that Prasar Bharati.' },
-                { id: 'b', prompt: 'A newspaper publishes a paid news item disguised as an editorial during elections. The Press Council receives a complaint.', answer: 'Steps: (1) Council inquires into the complaint under Section 14 of the Act',
-                  options: ['Steps: (1) Council inquires into the complaint under Section 14 of the Act', 'fine the newspaper', 'order Election Commission action', 'autonomous corporation'],
+                { id: 'b', prompt: 'A newspaper publishes a paid news item disguised as an editorial during elections. The Press Council receives a complaint.', answer: '(1) Council inquires into the complaint under Section 14 of the Act',
+                  options: ['(1) Council inquires into the complaint under Section 14 of the Act', 'fine the newspaper', 'order Election Commission action', 'autonomous corporation'],
                   hint: 'Revisit c11_ps_cbse_11_005 (Right to Freedom, Articles 19-22) to clarify Article 19(1)(a) vs 19(2).',
                   misconception: 'Students often believe the Press Council of India can legally punish newspapers (impose fines, cancel registration) and that Prasar Bharati.' }
           ],

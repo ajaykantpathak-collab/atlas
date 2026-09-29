@@ -6,13 +6,13 @@ import C10_BiologyChromosomeStructurechromatinSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_biologychromosomestructurechromatinsim: SimDef = {
     id: 'v3w_c10_biologychromosomestructurechromatinsim',
-    title: 'Chromosome Structurechromatin',
+    title: 'Accumulation of Variation During Reproduction: Basis of Heredity',
     subtitle: 'This node covers the origin and accumulation of variation during reproduction, focusing.',
     classLevel: 10, subject: 'biology', topic: 'Accumulation of Variation During Reproduction: Basis of Heredity',
     chapters: [],
     nodeIds: ['c10_bio_cbse_04_001', 'c10_bio_cbse_04_003', 'c10_bio_cbse_04_004', 'c10_bio_cbse_04_005', 'c10_bio_cbse_04_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Observe a litter of puppies or a batch of seedlings from the same parent plant — despite having the same.', goal: 'Master Chromosome Structurechromatin.' },
+    scenario: { role: 'a class 10 learner', intro: 'Observe a litter of puppies or a batch of seedlings from the same parent plant — despite having the same.', goal: 'Master Accumulation of Variation During Reproduction: Basis of Heredity.' },
     discovery: {
         question: 'A farmer grows a crop using vegetative propagation (cuttings) for 10 years. Another farmer grows the same crop from seeds each year.',
         options: ['The seed-grown population will show far more variation', 'mutations', 'halves the chromosome number'],
@@ -73,7 +73,7 @@ export const w_c10_biologychromosomestructurechromatinsim: SimDef = {
             { text: 'Conclude — Milk yield increase was an acquired trait (environmentally induced phenotypic plasticity), not an inherited.', faded: true, blankAnswer: 'The high milk yield was an acquired trait caused by.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_bio_cbse_04_003', title: 'Identify each idea',
-          dissect: { specimen: 'Chromosome Structurechromatin', spots: [
+          dissect: { specimen: 'Accumulation of Variation During Reproduction: Basis of Heredity', spots: [
             { id: 's1', label: 'Accumulation of variation during reproduction', prompt: 'Which idea is this? — Accumulation of variation during reproduction refers to the generation of genetic.', answer: 'Accumulation of variation during reproduction', options: ['Accumulation of variation during reproduction', 'A dihybrid cross is a', 'Mendels Laws of Inheritance are', 'Sex determination in humans is'] },
             { id: 's2', label: 'A dihybrid cross is a', prompt: 'Which idea is this? — A dihybrid cross is a genetic cross between two individuals that differ in two distinct.', answer: 'A dihybrid cross is a', options: ['A dihybrid cross is a', 'Accumulation of variation during reproduction', 'Mendels Laws of Inheritance are', 'Sex determination in humans is'] },
             { id: 's3', label: 'Mendels Laws of Inheritance are', prompt: 'Which idea is this? — Mendel\'s Laws of Inheritance are three principles derived from pea plant experiments: (1).', answer: 'Mendels Laws of Inheritance are', options: ['Mendels Laws of Inheritance are', 'Accumulation of variation during reproduction', 'A dihybrid cross is a', 'Sex determination in humans is'] },
@@ -81,7 +81,7 @@ export const w_c10_biologychromosomestructurechromatinsim: SimDef = {
             { id: 's5', label: 'Acquired traits are characteristics developed', prompt: 'Which idea is this? — Acquired traits are characteristics developed by an organism during its lifetime due to.', answer: 'Acquired traits are characteristics developed', options: ['Acquired traits are characteristics developed', 'Accumulation of variation during reproduction', 'A dihybrid cross is a', 'Mendels Laws of Inheritance are'] }
           ] } }
     ],
-    explore: { component: C10_BiologyChromosomeStructurechromatinSim, prompt: 'Explore the interactive — Chromosome Structurechromatin' },
+    explore: { component: C10_BiologyChromosomeStructurechromatinSim, prompt: 'Explore the interactive — Accumulation of Variation During Reproduction: Basis of Heredity' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_bio_cbse_04_001', difficulty: 'standard',
           question: 'Accumulation of variation during reproduction refers to the generation of.',

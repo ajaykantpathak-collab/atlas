@@ -62,7 +62,7 @@ export const C7_BIO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Rapid And Marked Increase In",
+    "title": "Rapid And Marked Increase",
     "text": "The rapid and marked increase in height and weight during adolescence, driven by the elongation of long bones and a surge in overall body mass regulated by hormones.",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -735,7 +735,7 @@ export const C7_BIO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Classification Of Animals Based On",
+    "title": "Classification Of Animals Based",
     "text": "The classification of animals based on their dietary sources (herbivores, carnivores, omnivores, parasites, and filter feeders) and the specialized physical adaptations they use to acquire, ingest, and process different types of food.",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -747,7 +747,7 @@ export const C7_BIO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Process Of Digestion In The",
+    "title": "Process Of Digestion",
     "text": "The process of digestion in the mouth involves mechanical breakdown of food by teeth and chemical breakdown of starches by enzymes present in saliva secreted by the salivary glands.",
     "emoji": "🌿",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1367,15 +1367,13 @@ export const C7_BIO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c7_bio_ch03",
-  "title": "Carbon Dioxide _2$)",
+  "title": "Role of Air (CO2) in Food Preparation by Plants",
   "subtitle": "Biology · Chapter 3",
   "classLevel": 7,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Carbon Dioxide _2$)",
-  "chapters": [
-   "Biology Ch3: Carbon Dioxide _2$)"
-  ],
+  "topic": "Role of Air (CO2) in Food Preparation by Plants",
+  "chapters": ["Biology Ch3: Role of Air (CO2) in Food Preparation by Plants"],
   "nodeIds": [
    "c7_bio_ch03_006",
    "c7_bio_ch03_007",
@@ -1389,7 +1387,7 @@ export const C7_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Carbon Dioxide _2$) outside the classroom?",
+   "question": "Quick guess -- where do you meet Role of Air (CO2) in Food outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -1400,7 +1398,7 @@ export const C7_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Carbon Dioxide _2$)",
+    "title": "Carbon Dioxide",
     "text": "Carbon dioxide ($\\text{CO}_2$) is an essential gaseous raw material absorbed from the air by green plants, serving as the primary source of carbon atoms needed to synthesize glucose during photosynthesis.",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1527,11 +1525,11 @@ export const C7_BIO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about carbon dioxide _2$)?",
+    "What surprised you about role of air (co2) in food preparation by plants?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Carbon Dioxide _2$) mastered! 🎯",
+  "successLine": "Role of Air (CO2) in Food mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  }
 ];

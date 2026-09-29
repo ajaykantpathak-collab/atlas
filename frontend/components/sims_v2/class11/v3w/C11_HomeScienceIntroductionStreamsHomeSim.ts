@@ -6,13 +6,13 @@ import C11_HomeScienceIntroductionStreamsHomeSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_homescienceintroductionstreamshomesim: SimDef = {
     id: 'v3w_c11_homescienceintroductionstreamshomesim',
-    title: 'Home Science Introduction Streams Home',
+    title: 'Family Income: Money Income, Real Income and Psychic Income',
     subtitle: 'This node covers the NCERT Class 11 classification of family income into Money, Real.',
     classLevel: 11, subject: 'science', topic: 'Family Income: Money Income, Real Income and Psychic Income',
     chapters: [],
     nodeIds: ['c11_hs_cbse_10_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine your neighbour Mrs. Sharma earns ₹60,000/month as a teacher (Money Income), grows vegetables on her.', goal: 'Master Home Science Introduction Streams Home.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine your neighbour Mrs. Sharma earns ₹60,000/month as a teacher (Money Income), grows vegetables on her.', goal: 'Master Family Income: Money Income, Real Income and Psychic Income.' },
     discovery: {
         question: 'A family receives ₹50,000 monthly salary, grows herbs on their balcony, and the mother stitches school uniforms for the children.',
         options: ['₹50,000 salary = Money Income', 'Real Income', 'If prices rise 10% and salary rises 5%, Real Income falls'],
@@ -34,7 +34,7 @@ export const w_c11_homescienceintroductionstreamshomesim: SimDef = {
             { text: 'Interpret — 23% of the family\'s real consumption comes from self-provisioning (skills, assets, community), reducing.', faded: true, blankAnswer: 'Total Money Income = ₹1,10,000; Total Direct Real Income.' }
             ] } }
     ],
-    explore: { component: C11_HomeScienceIntroductionStreamsHomeSim, prompt: 'Explore the interactive — Home Science Introduction Streams Home' },
+    explore: { component: C11_HomeScienceIntroductionStreamsHomeSim, prompt: 'Explore the interactive — Family Income: Money Income, Real Income and Psychic Income' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hs_cbse_10_003', difficulty: 'standard',
           question: 'Family income is the aggregate monetary and non-monetary inflow available to a.',

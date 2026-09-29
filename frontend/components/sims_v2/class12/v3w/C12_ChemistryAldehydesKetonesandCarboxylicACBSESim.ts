@@ -6,13 +6,13 @@ import C12_ChemistryAldehydesKetonesandCarboxylicACBSESim from '../../../simulat
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_chemistryaldehydesketonesandcarboxylicacbsesim: SimDef = {
     id: 'v3w_c12_chemistryaldehydesketonesandcarboxylicacbsesim',
-    title: 'Aldehydes Ketonesand Carboxylic ACBSE',
+    title: 'Physical Properties of Aldehydes and Ketones',
     subtitle: 'Covers physical properties (state, boiling point, solubility, odor) of aldehydes and.',
     classLevel: 12, subject: 'chemistry', topic: 'Physical Properties of Aldehydes and Ketones',
     chapters: [],
     nodeIds: ['c12_chem_cbse_08_004', 'c12_chem_cbse_08_005', 'c12_chem_cbse_07_003', 'c12_chem_cbse_07_007', 'c12_chem_cbse_08_001', 'c12_chem_cbse_08_003', 'c12_chem_cbse_08_006', 'c12_chem_cbse_08_007', 'c12_chem_cbse_08_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe that formalin (aqueous methanal) is a liquid used to preserve biological specimens in school labs,.', goal: 'Master Aldehydes Ketonesand Carboxylic ACBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe that formalin (aqueous methanal) is a liquid used to preserve biological specimens in school labs,.', goal: 'Master Physical Properties of Aldehydes and Ketones.' },
     discovery: {
         question: 'Name the reducing agent that can reduce a carboxylic acid to a primary alcohol but cannot be replaced by NaBH₄ for this conversion.',
         options: ['Lithium aluminium hydride (LiAlH₄) reduces carboxylic acids to primary alcohols', 'NaBH₄ reduces carboxylic acids to alcohols', 'LiAlH₄ reduces aldehydes to alkanes'],
@@ -79,7 +79,7 @@ export const w_c12_chemistryaldehydesketonesandcarboxylicacbsesim: SimDef = {
             { text: 'Verify atom balance: C: 2+6=8 → 8; H: 3+14=17 → 17; Cl: 1+0=1 → 0 (CdCl₂ has 2 Cl, but 2 MgCl₂ also formed; overall Cl.', faded: true, blankAnswer: 'CH₃COCl + ((CH₃)₂CH)₂Cd → CH₃COCH(CH₃)₂ + CdCl₂ (with prior.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_chem_cbse_08_005', title: 'Identify each idea',
-          dissect: { specimen: 'Aldehydes Ketonesand Carboxylic ACBSE', spots: [
+          dissect: { specimen: 'Physical Properties of Aldehydes and Ketones', spots: [
             { id: 's1', label: 'Physical properties of aldehydes and', prompt: 'Which idea is this? — Physical properties of aldehydes and ketones refer to their observable characteristics.', answer: 'Physical properties of aldehydes and', options: ['Physical properties of aldehydes and', 'Nucleophilic addition reaction is the', 'Preparation of alcohols from carbonyl', 'Dehydration of alcohols is an'] },
             { id: 's2', label: 'Nucleophilic addition reaction is the', prompt: 'Which idea is this? — Nucleophilic addition reaction is the characteristic reaction of aldehydes and ketones.', answer: 'Nucleophilic addition reaction is the', options: ['Nucleophilic addition reaction is the', 'Physical properties of aldehydes and', 'Preparation of alcohols from carbonyl', 'Dehydration of alcohols is an'] },
             { id: 's3', label: 'Preparation of alcohols from carbonyl', prompt: 'Which idea is this? — Preparation of alcohols from carbonyl compounds involves the reduction of the carbonyl.', answer: 'Preparation of alcohols from carbonyl', options: ['Preparation of alcohols from carbonyl', 'Physical properties of aldehydes and', 'Nucleophilic addition reaction is the', 'Dehydration of alcohols is an'] },
@@ -88,7 +88,7 @@ export const w_c12_chemistryaldehydesketonesandcarboxylicacbsesim: SimDef = {
             { id: 's6', label: 'Ketones are prepared from acyl', prompt: 'Which idea is this? — Ketones are prepared from acyl chlorides by reaction with dialkylcadmium (R₂Cd) to avoid.', answer: 'Ketones are prepared from acyl', options: ['Ketones are prepared from acyl', 'Physical properties of aldehydes and', 'Nucleophilic addition reaction is the', 'Preparation of alcohols from carbonyl'] }
           ] } }
     ],
-    explore: { component: C12_ChemistryAldehydesKetonesandCarboxylicACBSESim, prompt: 'Explore the interactive — Aldehydes Ketonesand Carboxylic ACBSE' },
+    explore: { component: C12_ChemistryAldehydesKetonesandCarboxylicACBSESim, prompt: 'Explore the interactive — Physical Properties of Aldehydes and Ketones' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_chem_cbse_08_004', difficulty: 'standard',
           question: 'Physical properties of aldehydes and ketones refer to their observable.',

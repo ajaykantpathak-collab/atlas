@@ -6,16 +6,16 @@ import C12_ChemistrySolutionsCBSESim from '../../../simulations/c6_12/C12_Chemis
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_chemistrysolutionscbsesim: SimDef = {
     id: 'v3w_c12_chemistrysolutionscbsesim',
-    title: 'Solutions CBSE',
+    title: 'Types of Solutions: Solid, Liquid, Gaseous',
     subtitle: 'This node covers ONLY the classification of binary solutions into nine types based on.',
     classLevel: 12, subject: 'chemistry', topic: 'Types of Solutions: Solid, Liquid, Gaseous',
     chapters: [],
     nodeIds: ['c12_chem_cbse_01_001', 'c12_chem_cbse_01_002', 'c12_chem_cbse_01_003', 'c12_chem_cbse_01_004', 'c12_chem_cbse_01_005', 'c12_chem_cbse_01_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Look around your kitchen: air (gas in gas), soda water (gas in liquid), brass utensil (solid in solid),.', goal: 'Master Solutions CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Look around your kitchen: air (gas in gas), soda water (gas in liquid), brass utensil (solid in solid),.', goal: 'Master Types of Solutions: Solid, Liquid, Gaseous.' },
     discovery: {
         question: 'Name the type of solution formed when oxygen gas dissolves in water. Identify the solute and solvent.',
-        options: ['Correct answer: Liquid solution', 'gas in gas', 'solid in liquid'],
+        options: ['Liquid solution', 'gas in gas', 'solid in liquid'],
         answer: 'Liquid solution',
         hook: 'Students often think the solute\'s physical state decides the solution type.',
     },
@@ -81,7 +81,7 @@ export const w_c12_chemistrysolutionscbsesim: SimDef = {
             { text: 'Molecular reason: A–B intermolecular forces are weaker than the average of A–A and B–B forces.', faded: true, blankAnswer: 'Positive deviation; ΔmixH > 0, ΔmixV > 0; A–B forces weaker.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_chem_cbse_01_002', title: 'Identify each idea',
-          dissect: { specimen: 'Solutions CBSE', spots: [
+          dissect: { specimen: 'Types of Solutions: Solid, Liquid, Gaseous', spots: [
             { id: 's1', label: 'A solution is a homogeneous', prompt: 'Which idea is this? — A solution is a homogeneous mixture of two or more chemically non-reacting substances.', answer: 'A solution is a homogeneous', options: ['A solution is a homogeneous', 'Solubility is the maximum amount', 'Concentration of a solution quantitatively', 'Molality m is the amount'] },
             { id: 's2', label: 'Solubility is the maximum amount', prompt: 'Which idea is this? — Solubility is the maximum amount of solute (in grams or moles) that can dissolve in a.', answer: 'Solubility is the maximum amount', options: ['Solubility is the maximum amount', 'A solution is a homogeneous', 'Concentration of a solution quantitatively', 'Molality m is the amount'] },
             { id: 's3', label: 'Concentration of a solution quantitatively', prompt: 'Which idea is this? — Concentration of a solution quantitatively expresses the amount of solute present in a.', answer: 'Concentration of a solution quantitatively', options: ['Concentration of a solution quantitatively', 'A solution is a homogeneous', 'Solubility is the maximum amount', 'Molality m is the amount'] },
@@ -90,7 +90,7 @@ export const w_c12_chemistrysolutionscbsesim: SimDef = {
             { id: 's6', label: 'Ideal solutions are binary liquid', prompt: 'Which idea is this? — Ideal solutions are binary liquid mixtures that obey Raoult\'s law across all.', answer: 'Ideal solutions are binary liquid', options: ['Ideal solutions are binary liquid', 'A solution is a homogeneous', 'Solubility is the maximum amount', 'Concentration of a solution quantitatively'] }
           ] } }
     ],
-    explore: { component: C12_ChemistrySolutionsCBSESim, prompt: 'Explore the interactive — Solutions CBSE' },
+    explore: { component: C12_ChemistrySolutionsCBSESim, prompt: 'Explore the interactive — Types of Solutions: Solid, Liquid, Gaseous' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_chem_cbse_01_001', difficulty: 'standard',
           question: 'A solution is a homogeneous mixture of two or more chemically non-reacting.',

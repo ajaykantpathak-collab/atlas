@@ -65,7 +65,7 @@ export const C7_PHY_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Observation And Experimentation Form The",
+    "title": "Observation and Experimentation in Science",
     "text": "Observation and experimentation form the empirical foundation of science, where qualitative and quantitative data are gathered through controlled sensing and purposeful intervention to test hypotheses.",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -811,7 +811,7 @@ export const C7_PHY_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Changing View Of The Night Sky Due To",
+    "title": "Changing View of the Night Sky Due",
     "text": "The changing view of the night sky due to revolution is the apparent shift in visible star constellations over the course of a year, measured in degrees of angular shift per month, caused by Earth's orbital movement around the Sun.",
     "emoji": "⚡",
     "bgColor": "from-rose-400 to-pink-500"

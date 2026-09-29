@@ -19,7 +19,7 @@ export const c11_eng_w_ch27_p3: SimDef = {
         hook: 'It\'s episodic, not linear — the same disaster loops with variations, and the comedy is that expertise itself becomes the hazard.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation involves examining a text beyond its literal meaning to uncover deeper themes, evaluate the author\'s techniques, and form reasoned judgments about the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Bridges\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_27_013', title: 'Your mission',
@@ -29,20 +29,20 @@ export const c11_eng_w_ch27_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_27_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you spent hours fixing your phone screen, only to have it crack again the next day — the frustration mixed with absurdity is exactly what Twain.',
+          caseStudy: { intro: 'Analyse \'Bridges\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the central irony in Mark Twain\'s "My Watch"?', options: [
                 { text: 'The central irony is that every attempt to repair the watch', outcome: 'The central irony is that every attempt to repair the watch — by supposedly skilled professionals.' },
                 { text: 'the watch was broken', outcome: 'Not quite — Students often treat "My Watch" as merely a humorous anecdote about a broken watch, missing that.', reveals: 'students-often-treat-my-watch' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_27_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing the question: "How does Kumudini Lakhia weave episodes from her life and dance in \'Bridges\'?" Your mind goes blank.',
+          caseStudy: { intro: 'For written answers on \'Bridges\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing analytical answers for literature?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explanation, Line', outcome: 'Not quite — Students believe "writing skills based on the chapter" means reproducing memorized answers to the.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe "writing skills based on the chapter" means reproducing memorized answers to the.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_27_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re sitting in a circle with three classmates, each holding a copy of "Bridges," and your teacher says: "Discuss whether talent is born or made—use.',
+          caseStudy: { intro: 'Talk through \'Bridges\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the four discussion prompts given in the NCERT "Talking About the Text" section for the essay "Bridges"?', options: [
                 { text: 'The four prompts are: (1) "Exceptionally talented people are born so; talent cannot be', outcome: 'The four prompts are: (1) "Exceptionally talented people are born so; talent cannot be cultivated.".' },
                 { text: 'Exceptionally talented people are born so', outcome: 'Not quite — Students treat "discussion" as "sharing opinions in turn" rather than "collaborative meaning-making.', reveals: 'students-treat-discussion-as-sharing' },
@@ -67,7 +67,7 @@ export const c11_eng_w_ch27_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_27_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation involves examining a text beyond.',
+          question: 'Critical thinking on \'Bridges\' — analysing the text to reach evidence-based.',
           hint: 'If stuck, return to c11_eng_w_cbse_27_009 (Irony and Symbolism) and re-do the exercise.',
           misconception: 'Students often treat "My Watch" as merely a humorous anecdote about a broken watch, missing that Twain uses the watch.',
           parts: [
@@ -78,7 +78,7 @@ export const c11_eng_w_ch27_p3: SimDef = {
           ],
             remediations: { 'students-often-treat-my-watch': { steps: ['If a student is stuck at literal comprehension: 1) Have them create a two-column chart: "What the watchmakers say/do".', '"What actually happens to the watch" — this visualizes the irony pattern.', '2) Ask them to identify three moments where the narrator *could* have walked away but didn\'t — this reveals character.', '3) Assign a micro-writing: "Rewrite the last paragraph from the watch\'s perspective" — this forces metaphorical.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_27_014', difficulty: 'standard',
-          question: 'Writing skills based on an autobiographical essay like "Bridges" involve.',
+          question: 'Writing skills from \'Bridges\' — using the text as a model or springboard for.',
           hint: 'If stuck, review the "Appreciation" questions in the NCERT textbook for "Bridges" and.',
           misconception: 'Students believe "writing skills based on the chapter" means reproducing memorized answers to the NCERT exercise.',
           parts: [
@@ -93,12 +93,12 @@ export const c11_eng_w_ch27_p3: SimDef = {
           ],
             remediations: { 'writing-skills-based-on-the': { steps: ['Show the student a board exam question *not* in the NCERT exercises (e.g., "Analyze how Lakhia uses hunger as.', 'Ask them to list three textual moments of hunger (literal and metaphorical).', 'Guide them to write one PEEL paragraph for each moment.', 'Have them swap paragraphs with a peer to check: Does each have a clear Point?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_27_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Bridges\' — speaking and listening around the text.',
           hint: 'If stuck, review c11_eng_w_cbse_27_013 (Critical Thinking) for interpretive frameworks.',
           misconception: 'Students treat "discussion" as "sharing opinions in turn" rather than "collaborative meaning-making through textual.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to the structured oral communication',
-                  options: ['Speaking and Listening: Discussion Points refers to the structured oral communication', '"Before You Read: Context and Background" is a pre-reading strategy that equips students', 'Plot and narrative structure refer to the organized sequence of events in a story (plot)', 'Setting in a prose essay refers to the time, place, and social environment where the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'Bridges\'',
+                  options: ['Discussion points on \'Bridges\'', '\'Bridges\' (Woven Words, ch', 'The plot/narrative arc of \'Bridges\'', 'The setting of \'Bridges\''],
                   hint: 'If stuck, review c11_eng_w_cbse_27_013 (Critical Thinking) for interpretive frameworks and.',
                   misconception: 'Students treat "discussion" as "sharing opinions in turn" rather than "collaborative meaning-making through textual evidence." They speak.' }
           ],

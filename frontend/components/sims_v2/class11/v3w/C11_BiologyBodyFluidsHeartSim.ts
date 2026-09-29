@@ -6,13 +6,13 @@ import C11_BiologyBodyFluidsHeartSim from '../../../simulations/three/C11_Biolog
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologybodyfluidsheartsim: SimDef = {
     id: 'v3w_c11_biologybodyfluidsheartsim',
-    title: 'Body Fluids Heart',
+    title: 'Double Circulation: Pulmonary and Systemic',
     subtitle: 'Covers the anatomical pathways of pulmonary and systemic circuits including hepatic.',
     classLevel: 11, subject: 'biology', topic: 'Double Circulation: Pulmonary and Systemic',
     chapters: [],
     nodeIds: ['c11_bio_cbse_15_005', 'c11_bio_cbse_15_003', 'c11_bio_cbse_15_004', 'c11_bio_cbse_15_007', 'c11_bio_cbse_15_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine running to catch a bus in Delhi\'s winter air — your leg muscles burn, your heart pounds, and you gasp.', goal: 'Master Body Fluids Heart.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine running to catch a bus in Delhi\'s winter air — your leg muscles burn, your heart pounds, and you gasp.', goal: 'Master Double Circulation: Pulmonary and Systemic.' },
     discovery: {
         question: 'A patient is diagnosed with a defective bicuspid (mitral) valve that does not close completely during ventricular systole.',
         options: ['During left ventricular systole, the incompetent bicuspid valve allows blood to', 'blood flows back into the right atrium', 'no effect on lungs'],
@@ -72,7 +72,7 @@ export const w_c11_biologybodyfluidsheartsim: SimDef = {
             { text: 'Conclude that neural/hormonal regulation primarily drives HR up, while SV increase is constrained by reduced filling.', faded: true, blankAnswer: 'Resting CO = 5.1 L/min; Sprint CO = 20.35 L/min; 4-fold.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_15_003', title: 'Identify each idea',
-          dissect: { specimen: 'Body Fluids Heart', spots: [
+          dissect: { specimen: 'Double Circulation: Pulmonary and Systemic', spots: [
             { id: 's1', label: 'Double circulation is a circulatory', prompt: 'Which idea is this? — Double circulation is a circulatory pathway in which blood passes through the heart twice.', answer: 'Double circulation is a circulatory', options: ['Double circulation is a circulatory', 'The human heart is a', 'The cardiac cycle is the', 'Hypertension is a chronic medical'] },
             { id: 's2', label: 'The human heart is a', prompt: 'Which idea is this? — The human heart is a four-chambered, muscular pumping organ located in the thoracic.', answer: 'The human heart is a', options: ['The human heart is a', 'Double circulation is a circulatory', 'The cardiac cycle is the', 'Hypertension is a chronic medical'] },
             { id: 's3', label: 'The cardiac cycle is the', prompt: 'Which idea is this? — The cardiac cycle is the complete sequence of mechanical events occurring in the heart.', answer: 'The cardiac cycle is the', options: ['The cardiac cycle is the', 'Double circulation is a circulatory', 'The human heart is a', 'Hypertension is a chronic medical'] },
@@ -80,7 +80,7 @@ export const w_c11_biologybodyfluidsheartsim: SimDef = {
             { id: 's5', label: 'Regulation of cardiac activity refers', prompt: 'Which idea is this? — Regulation of cardiac activity refers to the physiological mechanisms by which the.', answer: 'Regulation of cardiac activity refers', options: ['Regulation of cardiac activity refers', 'Double circulation is a circulatory', 'The human heart is a', 'The cardiac cycle is the'] }
           ] } }
     ],
-    explore: { component: C11_BiologyBodyFluidsHeartSim, prompt: 'Explore the interactive — Body Fluids Heart' },
+    explore: { component: C11_BiologyBodyFluidsHeartSim, prompt: 'Explore the interactive — Double Circulation: Pulmonary and Systemic' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_15_005', difficulty: 'standard',
           question: 'Double circulation is a circulatory pathway in which blood passes through the.',

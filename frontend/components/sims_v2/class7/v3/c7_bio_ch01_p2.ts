@@ -75,6 +75,10 @@ export const c7_bio_ch01_p2: SimDef = {
                 { id: 'a', prompt: 'Why do adolescents need a larger quantity of proteins in their balanced diet compared to younger children?', answer: 'Adolescents need more protein',
                   options: ['Adolescents need more protein', 'eating a lot of food'],
                   hint: 'Review Class 6 nutrition concepts regarding food components, digestion, and the basic food pyramid.',
+                  misconception: 'Students often believe that "eating a lot of food" automatically equals a balanced diet, thinking that if they eat large portions of their.' },
+                { id: 'b', prompt: 'Rohan is a 13-year-old boy experiencing a sudden growth spurt in height.', answer: 'Identify Rohan\'s symptoms as fatigue and paleness',
+                  options: ['Identify Rohan\'s symptoms as fatigue and paleness', 'eating a lot of food'],
+                  hint: 'Review Class 6 nutrition concepts regarding food components, digestion, and the basic food pyramid.',
                   misconception: 'Students often believe that "eating a lot of food" automatically equals a balanced diet, thinking that if they eat large portions of their.' }
           ],
             remediations: { 'eating-a-lot-of-food': { steps: ['To fix this, guide the student to examine food labels or look at a food pyramid chart.', 'Have them list what is inside an instant noodle packet (mostly refined carbohydrates and fats) versus a balanced thali.', 'Ask them: "If your body is building new bones and muscles today, can cement and bricks build a house if you only supply.'], labTask: { instruction: 'On the interactive: give the plant 60% sunlight — watch its growth rate — then check.', widget: 'grow', validate: 'grow:sun=60' } } } },

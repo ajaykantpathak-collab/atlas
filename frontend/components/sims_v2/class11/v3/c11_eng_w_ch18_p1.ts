@@ -19,38 +19,38 @@ export const c11_eng_w_ch18_p1: SimDef = {
         hook: 'The grandmother says \'trees are sacred\'; the father \'massacred them all\' — the poem lets both be true, and makes you watch the saw do it slowly.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'Context and background for "Felling of the Banyan Tree" involves understanding the poet Dilip Chitre\'s bilingual literary identity, the cultural sacredness of the banyan tree in Indian tradition, the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Felling of the Banyan Tree\' (Woven Words, ch. 18) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_18_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Label the stages of a felling — order, warning, seven days of sawing, fifty men, revealed rings — then test the ending where the tree \'grows and seethes in one\'s dreams.\'',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_18_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you witness a massive old tree being cut down in your neighbourhood to make way for a new apartment block — you feel a pang of loss but cannot.',
+          caseStudy: { intro: 'Start with the author of \'Felling of the Banyan Tree\', then the period, then the literary context — background turns a text from a puzzle into a story you can.',
             decisions: [{ prompt: 'Who is the poet of "Felling of the Banyan Tree" and what is significant about his linguistic background?', options: [
                 { text: 'The poet is Dilip Chitre (1938–2009), born in Baroda, who wrote poetry in both Marathi', outcome: 'The poet is Dilip Chitre (1938–2009), born in Baroda, who wrote poetry in both Marathi and English.' },
                 { text: 'raw mythology', outcome: 'Not quite — Students often think "context and background" means memorizing the poet\'s birth/death dates and the.', reveals: 'context-and-background-means-memorizing' },
                 { text: 'seethes', outcome: 'Not quite — Students often think "context and background" means memorizing the poet\'s birth/death dates and the.', reveals: 'context-and-background-means-memorizing' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_18_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are standing on a hill in Baroda, surrounded by ancient trees your grandmother called sacred. Suddenly, machines and men arrive to cut them down.',
+          caseStudy: { intro: 'Identify where and when \'Felling of the Banyan Tree\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What are the two primary geographical locations mentioned in the poem that form the physical setting?', options: [
                 { text: 'The two primary geographical locations are Baroda (where the house on the hill and the', outcome: 'The two primary geographical locations are Baroda (where the house on the hill and the banyan tree.' },
                 { text: 'setting', outcome: 'Not quite — Students often think "setting" only means the physical location (Baroda, Bombay) and "atmosphere".', reveals: 'setting-only-means-the-physical' },
                 { text: 'atmosphere', outcome: 'Not quite — Students often think "setting" only means the physical location (Baroda, Bombay) and "atmosphere".', reveals: 'setting-only-means-the-physical' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_18_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you watch a family elder order the cutting down of a massive, ancient tree that has shaded your home for generations.',
+          caseStudy: { intro: 'Pick the central figure in \'Felling of the Banyan Tree\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'Who is the protagonist of "Felling of the Banyan Tree," and what is the single most important action they take in the poem?', options: [
                 { text: 'The protagonist is the poet\'s father', outcome: 'The protagonist is the poet\'s father; his decisive action is ordering the removal of the massive.' },
                 { text: 'the poet or the tree', outcome: 'Not quite — Students often assume the poet (the "I") is the protagonist because the poem is written in first.', reveals: 'the-poet-the-i-is' },
                 { text: 'the poet (the "I") is the protagonist', outcome: 'Not quite — Students often assume the poet (the "I") is the protagonist because the poem is written in first.', reveals: 'the-poet-the-i-is' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_18_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are standing in a modern city like Mumbai, surrounded by concrete, and you suddenly remember a massive tree from your childhood that was cut down.',
+          caseStudy: { intro: 'Ask what \'Felling of the Banyan Tree\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of "Felling of the Banyan Tree" as distinct from its subject matter?', options: [
                 { text: 'The primary theme is the irreversible destruction of natural and cultural heritage in the', outcome: 'The primary theme is the irreversible destruction of natural and cultural heritage in the name.' },
                 { text: 'The poem is about a father cutting down a tree', outcome: 'Not quite — Students often think the primary theme is simply "deforestation is bad" or "we should save trees.".', reveals: 'the-primary-theme-is-simply' },
@@ -70,21 +70,21 @@ export const c11_eng_w_ch18_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_001', difficulty: 'standard',
-          question: 'Context and background for "Felling of the Banyan Tree" involves understanding.',
+          question: '\'Felling of the Banyan Tree\' (Woven Words, ch. 18) — the context and background.',
           hint: 'If stuck, review Class 9 node c9_engl_ch3_2 (Cultural Heritage: Pankhas as Traditional.',
           misconception: 'Students often think "context and background" means memorizing the poet\'s birth/death dates and the publication year.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Context and background for "Felling of the Banyan Tree" involves understanding the poet',
-                  options: ['Context and background for "Felling of the Banyan Tree" involves understanding the poet', 'Plot and Narrative Structure in a narrative poem refers to the organized sequence of', 'Setting in poetry refers to the time, place, and cultural context in', 'Character analysis of the protagonist involves examining the central figure who drives'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'Felling of the Banyan Tree\' (Woven Words, ch',
+                  options: ['\'Felling of the Banyan Tree\' (Woven Words, ch', 'The plot/narrative arc of \'Felling of the Banyan Tree\'', 'The setting of \'Felling of the Banyan Tree\'', 'Character analysis in \'Felling of the Banyan Tree\''],
                   hint: 'If stuck, review Class 9 node c9_engl_ch3_2 (Cultural Heritage: Pankhas as Traditional Craft Items).',
                   misconception: 'Students often think "context and background" means memorizing the poet\'s birth/death dates and the publication year.' }
           ],
-            remediations: { 'context-and-background-means-memorizing': { steps: ['If a student reduces context to biographical trivia, assign this three-step remediation: (1) Have them read Chitre\'s.', '(2) Ask them to find three words/phrases in the poem that feel "Marathi-inflected" (e.g., "massacred" for a tree.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'context-and-background-means-memorizing': { steps: ['If a student reduces context to biographical trivia, assign this three-step remediation: (1) Have them read Chitre\'s.', '(2) Ask them to find three words/phrases in the poem that feel "Marathi-inflected" (e.g., "massacred" for a tree.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_001', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -95,9 +95,9 @@ export const c11_eng_w_ch18_p1: SimDef = {
                   hint: 'If stuck, review Class 9 node c9_engl_ch3_2 (Cultural Heritage: Pankhas as Traditional Craft Items).',
                   misconception: 'Students often think "context and background" means memorizing the poet\'s birth/death dates and the publication year.' }
           ],
-            remediations: { 'context-and-background-means-memorizing': { steps: ['If a student reduces context to biographical trivia, assign this three-step remediation: (1) Have them read Chitre\'s.', '(2) Ask them to find three words/phrases in the poem that feel "Marathi-inflected" (e.g., "massacred" for a tree.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'context-and-background-means-memorizing': { steps: ['If a student reduces context to biographical trivia, assign this three-step remediation: (1) Have them read Chitre\'s.', '(2) Ask them to find three words/phrases in the poem that feel "Marathi-inflected" (e.g., "massacred" for a tree.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure in a narrative poem refers to the organized.',
+          question: 'The plot/narrative arc of \'Felling of the Banyan Tree\' — what happens, in what.',
           hint: 'Review the "Narrative Poetry and Its Features" node (c6_english_u1_006) and practice.',
           misconception: 'Students often treat the poem as a simple chronological report: "first this happened, then that happened." They miss.',
           parts: [
@@ -106,20 +106,20 @@ export const c11_eng_w_ch18_p1: SimDef = {
                   hint: 'Review the "Narrative Poetry and Its Features" node (c6_english_u1_006) and practice mapping.',
                   misconception: 'Students often treat the poem as a simple chronological report: "first this happened, then that happened." They miss that the poem\'s.' }
           ],
-            remediations: { 'students-often-treat-the-poem': { steps: ['If a student cannot identify the plot stages, have them: (1) List every concrete action in the poem on sticky notes.', '(2) Physically arrange the notes on a desk in a mountain shape (Freytag\'s pyramid).', '(3) For each note, ask: "Does this increase tension, peak tension, or release tension?" (4) Then map the poem\'s line.', 'This tactile sorting bridges the gap between abstract structure and textual evidence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-poem': { steps: ['If a student cannot identify the plot stages, have them: (1) List every concrete action in the poem on sticky notes.', '(2) Physically arrange the notes on a desk in a mountain shape (Freytag\'s pyramid).', '(3) For each note, ask: "Does this increase tension, peak tension, or release tension?" (4) Then map the poem\'s line.', 'This tactile sorting bridges the gap between abstract structure and textual evidence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_003', difficulty: 'standard',
-          question: 'Setting in poetry refers to the time, place, and cultural context in which the.',
+          question: 'The setting of \'Felling of the Banyan Tree\' — the place, time and atmosphere.',
           hint: 'If stuck, review c7_engl_ch04_005 (Atmosphere in "The Tunnel") to practice identifying.',
           misconception: 'Students often think "setting" only means the physical location (Baroda, Bombay) and "atmosphere" only means the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting in poetry refers to the time, place, and cultural context in',
-                  options: ['Setting in poetry refers to the time, place, and cultural context in', 'Context and background for "Felling of the Banyan Tree" involves understanding the poet', 'Plot and Narrative Structure in a narrative poem refers to the organized sequence of', 'Character analysis of the protagonist involves examining the central figure who drives'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'Felling of the Banyan Tree\'',
+                  options: ['The setting of \'Felling of the Banyan Tree\'', '\'Felling of the Banyan Tree\' (Woven Words, ch', 'The plot/narrative arc of \'Felling of the Banyan Tree\'', 'Character analysis in \'Felling of the Banyan Tree\''],
                   hint: 'If stuck, review c7_engl_ch04_005 (Atmosphere in "The Tunnel") to practice identifying mood through.',
                   misconception: 'Students often think "setting" only means the physical location (Baroda, Bombay) and "atmosphere" only means the general mood (sad.' }
           ],
-            remediations: { 'setting-only-means-the-physical': { steps: ['If a student cannot distinguish setting from atmosphere, have them draw a two-column chart: Column.', 'Then ask: "Which column explains *why* the tree matters?', 'Which explains *how the poet feels* about its loss?" Guide them to see that setting provides the facts; atmosphere.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'setting-only-means-the-physical': { steps: ['If a student cannot distinguish setting from atmosphere, have them draw a two-column chart: Column.', 'Then ask: "Which column explains *why* the tree matters?', 'Which explains *how the poet feels* about its loss?" Guide them to see that setting provides the facts; atmosphere.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the central figure who.',
+          question: 'Character analysis in \'Felling of the Banyan Tree\' — the central figure(s).',
           hint: 'Review the distinction between "narrator" and "protagonist" using the Class 10 example.',
           misconception: 'Students often assume the poet (the "I") is the protagonist because the poem is written in first person.',
           parts: [
@@ -136,20 +136,20 @@ export const c11_eng_w_ch18_p1: SimDef = {
                   hint: 'Review the distinction between "narrator" and "protagonist" using the Class 10 example of Lencho.',
                   misconception: 'Students often assume the poet (the "I") is the protagonist because the poem is written in first person.' }
           ],
-            remediations: { 'the-poet-the-i-is': { steps: ['Ask the student to list every verb attached to "my father" (told, ordered, massacred).', 'Ask them to list every verb attached to "I/we" (watched, left).', 'Have them compare: which character *causes* events?', 'Guide them to re-read the textbook question 2 ("Identify the words that help you understand the nature of the poet\'s.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-poet-the-i-is': { steps: ['Ask the student to list every verb attached to "my father" (told, ordered, massacred).', 'Ask them to list every verb attached to "I/we" (watched, left).', 'Have them compare: which character *causes* events?', 'Guide them to re-read the textbook question 2 ("Identify the words that help you understand the nature of the poet\'s.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves identifying all figures.',
+          question: 'Supporting characters in \'Felling of the Banyan Tree\' — the secondary figures.',
           hint: 'If stuck, review the protagonist analysis steps in c11_eng_w_cbse_18_004 and the plot.',
           misconception: 'Students often believe that because the poem is short and centred on the father, the other figures are decorative.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of supporting characters involves identifying all figures other than',
-                  options: ['Character analysis of supporting characters involves identifying all figures other than', 'Context and background for "Felling of the Banyan Tree" involves understanding the poet', 'Plot and Narrative Structure in a narrative poem refers to the organized sequence of', 'Setting in poetry refers to the time, place, and cultural context in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in \'Felling of the Banyan Tree\'',
+                  options: ['Supporting characters in \'Felling of the Banyan Tree\'', '\'Felling of the Banyan Tree\' (Woven Words, ch', 'The plot/narrative arc of \'Felling of the Banyan Tree\'', 'The setting of \'Felling of the Banyan Tree\''],
                   hint: 'If stuck, review the protagonist analysis steps in c11_eng_w_cbse_18_004 and the plot summary.',
                   misconception: 'Students often believe that because the poem is short and centred on the father, the other figures are decorative extras.' }
           ],
-            remediations: { 'because-the-poem-is-short': { steps: ['Ask the student to reread the poem and highlight every noun that refers to a living being or group.', 'For each highlighted noun, write one sentence answering: "What does this figure do or say?" and "What idea does.', 'Have the student place these notes in a two‑column table: Figure | Function/Idea.', 'Discuss how the table reveals a chorus of perspectives that the father\'s action silences.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'because-the-poem-is-short': { steps: ['Ask the student to reread the poem and highlight every noun that refers to a living being or group.', 'For each highlighted noun, write one sentence answering: "What does this figure do or say?" and "What idea does.', 'Have the student place these notes in a two‑column table: Figure | Function/Idea.', 'Discuss how the table reveals a chorus of perspectives that the father\'s action silences.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_006', difficulty: 'standard',
-          question: 'The primary theme of a poem is the central, unifying idea or insight about.',
+          question: 'The primary theme of \'Felling of the Banyan Tree\' — the central idea the whole.',
           hint: 'If stuck, review the distinction between subject and theme using the "King Bruce and the.',
           misconception: 'Students often think the primary theme is simply "deforestation is bad" or "we should save trees." This is a moralistic.',
           parts: [
@@ -158,7 +158,7 @@ export const c11_eng_w_ch18_p1: SimDef = {
                   hint: 'If stuck, review the distinction between subject and theme using the "King Bruce and the Spider".',
                   misconception: 'Students often think the primary theme is simply "deforestation is bad" or "we should save trees." This is a moralistic summary, not.' }
           ],
-            remediations: { 'the-primary-theme-is-simply': { steps: ['If a student reduces the theme to a slogan, guide them through this sequence: (1) Re-read the grandmother\'s line and.', '(3) Examine the 200-year rings — what does "raw mythology" mean?', '(4) Contrast the physical absence of trees in Bombay with the tree\'s presence in dreams — what does "seethes" and.', '(5) Have them write one sentence starting with "The poem suggests that when we destroy what we revere..." to force.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'the-primary-theme-is-simply': { steps: ['If a student reduces the theme to a slogan, guide them through this sequence: (1) Re-read the grandmother\'s line and.', '(3) Examine the 200-year rings — what does "raw mythology" mean?', '(4) Contrast the physical absence of trees in Bombay with the tree\'s presence in dreams — what does "seethes" and.', '(5) Have them write one sentence starting with "The poem suggests that when we destroy what we revere..." to force.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

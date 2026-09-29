@@ -11,10 +11,10 @@ export const c9_hin_ga_ch07_p3: SimDef = {
     nodeIds: ['c9_hin_ga_cbse_07_013', 'c9_hin_ga_cbse_07_014', 'c9_hin_ga_cbse_07_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 9 learner', intro: 'कल्पना करें कि आपने अपने दोस्त को एक चुटकुला सुनाया और वह हँसा नहीं, बल्कि गंभीर होकर बोला: "अच्छा, तो तुम यह.', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 9 learner', intro: '\'मेरे बचपन के दिन\' का विश्लेषण — महादेवी वर्मा का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।', goal: 'Master every idea in this chapter.' },
     // discovery omitted — no cleanly extractable hook in this chapter
     teaching: [
-        { title: 'पाठ 7 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ (गद्य/पद्य) के तत्वों — जैसे विषय, शिल्प, भाषा-शैली, प्रतीक, बिंब — को तार्किक ढंग से विखंडित (Deconstruct) कर उनके पारस्परिक संबंध और रचनाकार.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 7 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'मेरे बचपन के दिन\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c9_hin_ga_cbse_07_013', title: 'Your mission',
@@ -23,7 +23,7 @@ export const c9_hin_ga_ch07_p3: SimDef = {
         labels: ['पाठ 7 — आलोचनात्मक', 'पाठ 7 — लेखन', 'पाठ 7 — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c9_hin_ga_cbse_07_015', title: 'पाठ 7 — वाचन-श्रवण: चर्चा-बिंदु',
-          caseStudy: { intro: 'Think of the last time your WhatsApp group argued about a news headline — everyone forwarded opinions but nobody quoted the actual article.',
+          caseStudy: { intro: '\'मेरे बचपन के दिन\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
             decisions: [{ prompt: 'पाठ्य-आधारित चर्चा में \'साक्ष्य-आधारित बिंदु\' (evidence-based point) का क्या अर्थ है? एक वाक्य में समझाइए।', options: [
                 { text: 'साक्ष्य-आधारित बिंदु वह कथन है जो पाठ के किसी विशिष्ट अंश (पंक्ति, शब्द, प्रसंग) का हवाला', outcome: 'साक्ष्य-आधारित बिंदु वह कथन है जो पाठ के किसी विशिष्ट अंश (पंक्ति, शब्द, प्रसंग) का हवाला देकर अपनी.' },
                 { text: 'good discussion', outcome: 'Not quite — Students believe a "good discussion" means speaking the most, using flowery language, or impressing.', reveals: 'a-good-discussion-means-speaking' }
@@ -40,29 +40,29 @@ export const c9_hin_ga_ch07_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_hin_ga_cbse_07_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ (गद्य/पद्य) के तत्वों.',
+          question: '\'मेरे बचपन के दिन\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'यदि अटके: **c9_hin_ga_cbse_07_008 (बिंब/रूपक) और c9_hin_ga_cbse_07_009.',
           misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'आलोचनात्मक चिंतन\' का अर्थ \'नकारात्मक आलोचना\' (Fault-finding) या \'अपनी निजी.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ (गद्य/पद्य) के तत्वों',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ (गद्य/पद्य) के तत्वों', '"पृष्ठभूमि और रचनाकार परिचय" refers to the systematic study of the **socio-historical,', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम (Cause-Effect) से बंधा क्रम है', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक के घटित होने का समय, स्थान, भौगोलिक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'मेरे बचपन के दिन\' का आलोचनात्मक चिंतन',
+                  options: ['\'मेरे बचपन के दिन\' का आलोचनात्मक चिंतन', 'इस पाठ का पृष्ठभूमि और रचनाकार परिचय', '\'मेरे बचपन के दिन\' का कथानक', '\'मेरे बचपन के दिन\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके: **c9_hin_ga_cbse_07_008 (बिंब/रूपक) और c9_hin_ga_cbse_07_009 (विरोधाभास/प्रतीक)** को.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **\'आलोचनात्मक चिंतन\' का अर्थ \'नकारात्मक आलोचना\' (Fault-finding) या \'अपनी निजी राय देना\' (Subjective.' }
           ],
             remediations: { 'fault-finding-subjective-opinion-critical': { steps: ['**चरणबद्ध उपचार (Remediation):** 1.', '**शब्दावली स्पष्टीकरण (5 मिनट):** बोर्ड पर लिखें: **Critical (दैनिक जीवन) = दोष निकालना** vs **Critical.', '**मॉडलिंग (10 मिनट):** एक छोटे गद्यांश पर **दो उत्तर** दिखाएँ: (अ) निजी राय: "यह बुरा लगा।" (ब) आलोचनात्मक विश्लेषण.', '**अभ्यास (15 मिनट):** पाठ 7 की एक पंक्ति दें। छात्रों से कहें: **"\'मुझे यह पसंद है/नहीं\' लिखे बिना बताओ कि लेखक ने यह.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c9_hin_ga_cbse_07_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र.',
+          question: '\'मेरे बचपन के दिन\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि फँसें तो **c9_hin_ga_cbse_07_006 (मुख्य विषय और संदेश)** और **c9_hin_ga_cbse_07_013.',
           misconception: '**विशिष्ट भ्रांति:** *"अच्छे अंकों के लिए उत्तर लंबा लिखना ज़रूरी है, भले ही वही बात घुमा-फिराकर कहनी पड़े।"* **गलत.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र किसी दिए गए',
-                  options: ['पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र किसी दिए गए', '"पृष्ठभूमि और रचनाकार परिचय" refers to the systematic study of the **socio-historical,', 'कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम (Cause-Effect) से बंधा क्रम है', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक के घटित होने का समय, स्थान, भौगोलिक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'मेरे बचपन के दिन\' पर पाठ-आधारित लेखन',
+                  options: ['\'मेरे बचपन के दिन\' पर पाठ-आधारित लेखन', 'इस पाठ का पृष्ठभूमि और रचनाकार परिचय', '\'मेरे बचपन के दिन\' का कथानक', '\'मेरे बचपन के दिन\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फँसें तो **c9_hin_ga_cbse_07_006 (मुख्य विषय और संदेश)** और **c9_hin_ga_cbse_07_013 (आलोचनात्मक.',
                   misconception: '**विशिष्ट भ्रांति:** *"अच्छे अंकों के लिए उत्तर लंबा लिखना ज़रूरी है, भले ही वही बात घुमा-फिराकर कहनी पड़े।"* **गलत तर्क का स्रोत:** छात्र.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**चरण 1 — निदान:** छात्र से कहें: *"अपना उत्तर पढ़ो और हर वाक्य के आगे लिखो: यह P है, E है, या L है।"* यदि 50% से अधिक.', 'क्या L प्रश्न के \'की-वर्ड\' को छूता है?', 'नहीं तो दोहराएँ। **चरण 4 — स्थानांतरण:** अगले दिन नया प्रश्न दें, समय घटाकर 2 मिनट करें। जब वह 3 बार लगातार सही करे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c9_hin_ga_cbse_07_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु refers to the structured academic skill of reading.',
+          question: '\'मेरे बचपन के दिन\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श.',
           hint: 'Review "पाठ्य-आधारित साक्ष्य चयन" (c9_hin_ga_cbse_07_012) and practice the "Quote →.',
           misconception: 'Students believe a "good discussion" means speaking the most, using flowery language, or impressing the teacher with.',
           parts: [

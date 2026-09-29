@@ -6,13 +6,13 @@ import C12_GeographyWaterResourcesIrrigationSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_geographywaterresourcesirrigationsim: SimDef = {
     id: 'v3w_c12_geographywaterresourcesirrigationsim',
-    title: 'Water Resources Irrigation',
+    title: 'Multipurpose River Projects: Concept and Objectives',
     subtitle: 'This node covers the conceptual definition, primary objectives, and rationale for.',
     classLevel: 12, subject: 'geography', topic: 'Multipurpose River Projects: Concept and Objectives',
     chapters: [],
     nodeIds: ['c12_geo_cbse_12_004', 'c12_geo_cbse_12_008', 'c12_geo_cbse_12_010', 'c12_geo_cbse_12_005', 'c12_geo_cbse_12_006', 'c12_geo_cbse_12_007', 'c12_geo_cbse_12_011', 'c12_geo_cbse_12_001', 'c12_geo_cbse_12_002', 'c12_geo_cbse_12_009', 'c12_geo_cbse_11_008', 'c12_geo_cbse_09_001', 'c12_geo_cbse_12_003', 'c12_geo_cbse_09_011', 'c12_geo_cbse_01_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe how your city/town gets electricity and water during summer — often from a distant dam like Bhakra or.', goal: 'Master Water Resources Irrigation.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe how your city/town gets electricity and water during summer — often from a distant dam like Bhakra or.', goal: 'Master Multipurpose River Projects: Concept and Objectives.' },
     discovery: {
         question: 'The Bhakra-Nangal project on the Sutlej river provides irrigation to 1.5 million hectares and generates 1,325 MW of power.',
         options: ['Step 1: Identify consumptive use (irrigation) = 5.5 BCM', 'multipurpose project', 'big dam'],
@@ -79,7 +79,7 @@ export const w_c12_geographywaterresourcesirrigationsim: SimDef = {
             { text: 'Bund design: to store 2,880 m³ on 2 ha (20,000 m²), average water depth = 2,880 / 20,000 = 0.144 m.', faded: true, blankAnswer: 'Khadin bund ~1.5 m high, 200 m long, storing ~1,500 m³.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_geo_cbse_12_008', title: 'Identify each idea',
-          dissect: { specimen: 'Water Resources Irrigation', spots: [
+          dissect: { specimen: 'Multipurpose River Projects: Concept and Objectives', spots: [
             { id: 's1', label: 'A multipurpose river project is', prompt: 'Which idea is this? — A multipurpose river project is a large-scale hydraulic engineering scheme that.', answer: 'A multipurpose river project is', options: ['A multipurpose river project is', 'Modern rainwater harvesting refers to', 'Inter-state water disputes are conflicts', 'Major multipurpose river valley projects'] },
             { id: 's2', label: 'Modern rainwater harvesting refers to', prompt: 'Which idea is this? — Modern rainwater harvesting refers to engineered techniques for capturing, storing, and.', answer: 'Modern rainwater harvesting refers to', options: ['Modern rainwater harvesting refers to', 'A multipurpose river project is', 'Inter-state water disputes are conflicts', 'Major multipurpose river valley projects'] },
             { id: 's3', label: 'Inter-state water disputes are conflicts', prompt: 'Which idea is this? — Inter-state water disputes are conflicts between two or more Indian states over the.', answer: 'Inter-state water disputes are conflicts', options: ['Inter-state water disputes are conflicts', 'A multipurpose river project is', 'Modern rainwater harvesting refers to', 'Major multipurpose river valley projects'] },
@@ -88,7 +88,7 @@ export const w_c12_geographywaterresourcesirrigationsim: SimDef = {
             { id: 's6', label: 'Traditional rainwater harvesting methods in', prompt: 'Which idea is this? — Traditional rainwater harvesting methods in India are indigenous, community-managed.', answer: 'Traditional rainwater harvesting methods in', options: ['Traditional rainwater harvesting methods in', 'A multipurpose river project is', 'Modern rainwater harvesting refers to', 'Inter-state water disputes are conflicts'] }
           ] } }
     ],
-    explore: { component: C12_GeographyWaterResourcesIrrigationSim, prompt: 'Explore the interactive — Water Resources Irrigation' },
+    explore: { component: C12_GeographyWaterResourcesIrrigationSim, prompt: 'Explore the interactive — Multipurpose River Projects: Concept and Objectives' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_12_004', difficulty: 'standard',
           question: 'A multipurpose river project is a large-scale hydraulic engineering scheme that.',

@@ -19,7 +19,7 @@ export const c12_hin_ar_ch04_p3: SimDef = {
         hook: 'Progressive poets like Nagarjun — journalist, trilingual, champion of the ignored — prove the micro reveals the macro: a street performer\'s day exposes the whole machinery of exploitation. Journalism trained the eye; poetry carried the indictment.',
     },
     teaching: [
-        { title: 'कैमरे में बंद अपाहजि — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण (Interpretation/Explanation of intent) is the analytical skill of uncovering the poet\'s underlying purpose, perspective, and message by closely examining word choice, imagery, tone.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'कैमरे में बंद अपाहजि — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: '\'दसेज में चाँद विकट\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_04_013', title: 'Your mission',
@@ -28,12 +28,12 @@ export const c12_hin_ar_ch04_p3: SimDef = {
         context: 'Walk with the street performer: read rustic speech as deliberate politics, trace how one \'small\' life opens onto the entire structure that exploits it, and test why context turns description into critique.',
         labels: ['कैमरे में बंद अपाहजि'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'case', nodeId: 'c12_hin_ar_cbse_04_014', title: 'कैमरे में बंद अपाहजि — परीक्षा-उत्तर लेखन कौशल',
-          caseStudy: { intro: 'You sit down for your Hindi board exam, see a 5-mark question on "कैमरे में बंद अपाहजि", and your mind goes blank — sound familiar?',
-            decisions: [{ prompt: '"कैमरे में बंद अपाहजि" शीर्षक में प्रयुक्त \'कैमरा\' शब्द किस साहित्यिक युक्ति का उदाहरण है और इसका केंद्रीय प्रतीकात्मक अर्थ क्या है?', options: [
-                { text: 'Correct: \'कैमरा\' रूपक (metaphor) है जो मीडिया की घुसपैठी, वस्तुनिष्ठ और अमानवीय दृष्टि को', outcome: 'Correct: \'कैमरा\' रूपक (metaphor) है जो मीडिया की घुसपैठी, वस्तुनिष्ठ और अमानवीय दृष्टि को दर्शाता.' },
-                { text: 'camera = media gaze', outcome: 'Not quite — Students believe "good answer = more points/facts." They write 10 bullet points for a 3-mark.', reveals: 'good-answer-more-points-facts' },
-                { text: 'good answer = more points/facts', outcome: 'Not quite — Students believe "good answer = more points/facts." They write 10 bullet points for a 3-mark.', reveals: 'good-answer-more-points-facts' }
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_04_015', title: 'कैमरे में बंद अपाहजि — वाचन-पाठ और चर्चा-बिंदु',
+          caseStudy: { intro: '\'दसेज में चाँद विकट\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'What is the primary structural feature of the poem \'जय हो\' that distinguishes it from a monologue, and which two characters\' voices are.', options: [
+                { text: 'The poem \'जय हो\' is structured as a **dialogue (संवाद शैली)** between a **contractor', outcome: 'The poem \'जय हो\' is structured as a **dialogue (संवाद शैली)** between a **contractor (ठेकेदार)**.' },
+                { text: 'it\'s a description of a construction site', outcome: 'Not quite — **Misconception:** "Discussion points are just my personal opinions about the poem — I don\'t need.', reveals: 'misconception-discussion-points-are-just' },
+                { text: 'the poet speaks throughout', outcome: 'Not quite — **Misconception:** "Discussion points are just my personal opinions about the poem — I don\'t need.', reveals: 'misconception-discussion-points-are-just' }
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_04_013', title: 'Use it in the wild',
           caseStudy: { intro: 'After a funds scandal in your student council, your group\'s protest poster is all slogans — \'We will shout for change!\' A senior suggests adding a line addressing each silent member by name, and clipping the actual audit report to the bottom.',
@@ -54,49 +54,38 @@ export const c12_hin_ar_ch04_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_013', difficulty: 'standard',
-          question: 'आशय-स्पष्टीकरण (Interpretation/Explanation of intent) is the analytical skill.',
+          question: '\'दसेज में चाँद विकट\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'यदि \'कैमरा\' को रूपक (metaphor) न मान पा रहे हों, तो c12_hin_ar_cbse_04_007 (प्रतीक) के.',
           misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि कविता \'विकलांग व्यक्तियों की पीड़ा\' (suffering of disabled persons) पर केंद्रित.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण (Interpretation/Explanation of intent) is the analytical skill of',
-                  options: ['आशय-स्पष्टीकरण (Interpretation/Explanation of intent) is the analytical skill of', 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे', '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'दसेज में चाँद विकट\' का आलोचनात्मक चिंतन',
+                  options: ['\'दसेज में चाँद विकट\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'दसेज में चाँद विकट\' का कथानक', '\'दसेज में चाँद विकट\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि \'कैमरा\' को रूपक (metaphor) न मान पा रहे हों, तो c12_hin_ar_cbse_04_007 (प्रतीक) के \'कैमरा.',
                   misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि कविता \'विकलांग व्यक्तियों की पीड़ा\' (suffering of disabled persons) पर केंद्रित है, जबकि कविता का.' }
           ],
             remediations: { 'suffering-of-disabled-persons': { steps: ['**पुनः पढ़ें:** कविता को **तीन बार** पढ़ें — पहली बार: केवल ध्वनि/लय के लिए (कैमरे की \'क्लिक\' ध्वनि सुनें)। दूसरी बार.', '**तुलना करें:** c12_hin_ar_cbse_04_007 (प्रतीक) और c12_hin_ar_cbse_04_008 (मुख्य भाव) के नोट्स देखें — विशेष रूप से.', '**लिखें:** 50 शब्दों में उत्तर दें: "कवि अपाहिज पर नहीं, कैमरे पर क्यों व्यंग्य करता है?" — फिर अपने उत्तर की तुलना.', '**पुनः निदान:** DIAGNOSTIC_QUESTION_2 और 4 को दोबारा हल करें — इस बार \'विरोधाभास\' और \'प्रतीक-उलटफेर\' पर फोकस करें।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_014', difficulty: 'standard',
-          question: 'परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) is the systematic ability.',
-          hint: 'यदि साक्ष्य चयन (Evidence) में अटके — c12_hin_ar_cbse_04_002 (पद्यांश-वार भावार्थ).',
-          misconception: 'Students believe "good answer = more points/facts." They write 10 bullet points for a 3-mark question, quoting entire.',
+          question: '\'दसेज में चाँद विकट\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+          hint: 'If stuck, revisit c12_hin_ar_cbse_04_013 (Critical Thinking) to practice analysis, then.',
+          misconception: 'विद्यार्थी मानते हैं कि \'अधिक लिखना = अधिक अंक\'। वे 5-अंकीय उत्तर में 300 शब्द लिख देते हैं पर PEEL संरचना नहीं रखते.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) is the systematic ability to',
-                  options: ['परीक्षा-उत्तर लेखन कौशल (Exam Answer Writing Skill) is the systematic ability to', 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे', '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,'],
-                  hint: 'यदि साक्ष्य चयन (Evidence) में अटके — c12_hin_ar_cbse_04_002 (पद्यांश-वार भावार्थ) दोहराएँ; यदि.',
-                  misconception: 'Students believe "good answer = more points/facts." They write 10 bullet points for a 3-mark question, quoting entire stanzas, but miss the.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'दसेज में चाँद विकट\' पर पाठ-आधारित लेखन',
+                  options: ['\'दसेज में चाँद विकट\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'दसेज में चाँद विकट\' का कथानक', '\'दसेज में चाँद विकट\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, revisit c12_hin_ar_cbse_04_013 (Critical Thinking) to practice analysis, then.',
+                  misconception: 'विद्यार्थी मानते हैं कि \'अधिक लिखना = अधिक अंक\'। वे 5-अंकीय उत्तर में 300 शब्द लिख देते हैं पर PEEL संरचना नहीं रखते, पाठ्य साक्ष्य नहीं.' }
           ],
-            remediations: { 'good-answer-more-points-facts': { steps: ['Take one 3-mark question from the last 5 years\' papers. Write a "bad answer" deliberately (list devices,.', 'Together, convert it to PEEL — highlight Point in yellow, Evidence in green, Explanation in blue, Link in pink.', 'Student writes 3 fresh answers using the color code.', 'Compare with CBSE model answers — mark where their Explanation is thin.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_014', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students believe "good answer = more points/facts." They write 10 bullet points for a 3-mark question, quoting entire.',
-          parts: [
-                { id: 'a', prompt: 'कथन का मूल्यांकन कीजिए: "कैमरे में बंद अपाहजि केवल मीडिया आलोचना की कविता है, विकलांगता विमर्श की नहीं।" अपने उत्तर में कविता के कम से कम दो प्रसंगों का उल्लेख.', answer: 'Correct: कथन आंशिक रूप से सत्य किंतु अपूर्ण है। मीडिया आलोचना प्रमुख है',
-                  options: ['Correct: कथन आंशिक रूप से सत्य किंतु अपूर्ण है। मीडिया आलोचना प्रमुख है', 'उसके पैर नहीं / पर पंख हैं', 'अपने अस्तित्व का सवाल', 'good answer = more points/facts'],
-                  hint: 'यदि साक्ष्य चयन (Evidence) में अटके — c12_hin_ar_cbse_04_002 (पद्यांश-वार भावार्थ) दोहराएँ; यदि.',
-                  misconception: 'Students believe "good answer = more points/facts." They write 10 bullet points for a 3-mark question, quoting entire stanzas, but miss the.' }
-          ],
-            remediations: { 'good-answer-more-points-facts': { steps: ['Take one 3-mark question from the last 5 years\' papers. Write a "bad answer" deliberately (list devices,.', 'Together, convert it to PEEL — highlight Point in yellow, Evidence in green, Explanation in blue, Link in pink.', 'Student writes 3 fresh answers using the color code.', 'Compare with CBSE model answers — mark where their Explanation is thin.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { '5-300-peel': { steps: ['विद्यार्थी से कहें: "एक साधारण विषय (जैसे \'गृहकार्य उपयोगी है\') पर PEEL पैराग्राफ लिखो — 5 वाक्य, कोई साहित्य नहीं।" 2.', 'फिर उसी संरचना को कविता के एक पद पर लागू करो: Point पहचानो, Evidence ढूंढो, Explanation जोड़ो, Link बनाओ। 3.', 'उसके बाद 3-अंकीय प्रश्न का उत्तर 50 शब्दों में लिखने का अभ्यास कराओ, समय सीमा 5 मिनट। 4.', 'स्वयं अंकन योजना से जाँच कराओ: क्या Point स्पष्ट है?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_04_015', difficulty: 'standard',
-          question: '\'वाचन-पाठ और चर्चा-बिंदु\' काव्य-अध्ययन की वह सहभागितामूलक प्रक्रिया है जिसमें.',
-          hint: 'यदि प्रतीक-योजना अस्पष्ट हो तो c12_hin_ar_cbse_04_007 (प्रतीक) पर वापस जाएँ और \'कैमरा\' व.',
-          misconception: 'छात्र अक्सर समझते हैं कि \'वाचन-पाठ और चर्चा\' का अर्थ है कविता का \'सारांश याद करना\' या \'भावार्थ लिखना\'। वे चर्चा को.',
+          question: '\'दसेज में चाँद विकट\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'If stuck, return to **c12_hin_ar_cbse_04_009 (Irony/Symbolism)** and.',
+          misconception: '**Misconception:** "Discussion points are just my personal opinions about the poem — I don\'t need to quote lines.".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वाचन-पाठ और चर्चा-बिंदु\' काव्य-अध्ययन की वह सहभागितामूलक प्रक्रिया है जिसमें कविता का',
-                  options: ['\'वाचन-पाठ और चर्चा-बिंदु\' काव्य-अध्ययन की वह सहभागितामूलक प्रक्रिया है जिसमें कविता का', 'कैमरे में बंद अपाहजि एक ऐसी कविता है जिसमें कवि एक शारीरिक रूप से असमर्थ व्यक्ति को कैमरे', '\'पद्यांश-वार भावार्थ\' का अर्थ है कविता के प्रत्येक पद्यांश (स्टैंज़ा) का क्रमवार, सरल', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के आंतरिक ढांचे से है जिसमें छंद,'],
-                  hint: 'यदि प्रतीक-योजना अस्पष्ट हो तो c12_hin_ar_cbse_04_007 (प्रतीक) पर वापस जाएँ और \'कैमरा\' व \'चीज़\'.',
-                  misconception: 'छात्र अक्सर समझते हैं कि \'वाचन-पाठ और चर्चा\' का अर्थ है कविता का \'सारांश याद करना\' या \'भावार्थ लिखना\'। वे चर्चा को \'प्रश्नोत्तर\' सत्र मानते.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'दसेज में चाँद विकट\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'दसेज में चाँद विकट\' पर वाचन-श्रवण और चर्चा-बिंदु', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'दसेज में चाँद विकट\' का कथानक', '\'दसेज में चाँद विकट\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, return to **c12_hin_ar_cbse_04_009 (Irony/Symbolism)** and **c12_hin_ar_cbse_04_013.',
+                  misconception: '**Misconception:** "Discussion points are just my personal opinions about the poem — I don\'t need to quote lines." **Why it\'s wrong:**.' }
           ],
-            remediations: { 'cuet': { steps: ['यदि छात्र उपरोक्त निदानात्मक प्रश्नों में 3 से कम सही कर पाए, तो उन्हें इस क्रम में पुनर्अभ्यास कराएँ: १).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'misconception-discussion-points-are-just': { steps: ['**Remediation Path:** 1) Revisit **c12_hin_ar_cbse_04_002 (Plot/Narrative Structure)** to map the dialogue sequence.', '2) Re-read **c12_hin_ar_cbse_04_008 (Imagery/Metaphor)** and **009 (Irony/Symbolism)**; for each device, write one.', '4) Re-diagnostic: Attempt **DIAGNOSTIC_QUESTION_3** again — if the rebuttal still lacks a named metaphor + quoted line.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

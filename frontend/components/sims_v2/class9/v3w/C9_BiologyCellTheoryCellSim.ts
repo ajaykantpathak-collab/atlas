@@ -6,13 +6,13 @@ import C9_BiologyCellTheoryCellSim from '../../../simulations/c6_12/C9_BiologyCe
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_biologycelltheorycellsim: SimDef = {
     id: 'v3w_c9_biologycelltheorycellsim',
-    title: 'Cell Theory Cell',
+    title: 'Discovery of the Cell: Hooke and Leeuwenhoek',
     subtitle: 'This node covers the historical discoveries of Hooke (cork cells, 1665) and Leeuwenhoek.',
     classLevel: 9, subject: 'biology', topic: 'Discovery of the Cell: Hooke and Leeuwenhoek',
     chapters: [],
     nodeIds: ['c9_bio_ch1_1', 'c9_bio_ch1_2', 'c9_bio_ch1_10', 'c9_bio_ch1_11', 'c9_bio_ch1_12', 'c9_bio_ch1_3', 'c9_bio_ch1_4', 'c9_bio_ch1_5', 'c9_bio_ch1_6', 'c9_bio_ch1_7', 'c9_bio_ch1_8'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine placing a thin slice of onion peel on a slide in your school lab: you see tiny, brick-like.', goal: 'Master Cell Theory Cell.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine placing a thin slice of onion peel on a slide in your school lab: you see tiny, brick-like.', goal: 'Master Discovery of the Cell: Hooke and Leeuwenhoek.' },
     discovery: {
         question: 'Evaluate this claim: "Leeuwenhoek discovered bacteria, so he should be credited with discovering the cell, not Hooke." Provide a biological justification for.',
         options: ['The claim is **partially valid but incomplete**', 'living cell', '** The exact wrong reasoning'],
@@ -78,7 +78,7 @@ export const w_c9_biologycelltheorycellsim: SimDef = {
             { text: 'Conclude: direction of osmosis is always from higher to lower water potential; magnitude depends on gradient steepness.', faded: true, blankAnswer: 'Egg in water (Ψ=0) gains water (swells); in 10% and 20%.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_bio_ch1_2', title: 'Identify each idea',
-          dissect: { specimen: 'Cell Theory Cell', spots: [
+          dissect: { specimen: 'Discovery of the Cell: Hooke and Leeuwenhoek', spots: [
             { id: 's1', label: 'The discovery of the cell', prompt: 'Which idea is this? — The discovery of the cell refers to the foundational observations by Robert Hooke (1665),.', answer: 'The discovery of the cell', options: ['The discovery of the cell', 'Cell Theory as proposed by', 'A vacuole is a membrane-bound', 'Cell division is the biological'] },
             { id: 's2', label: 'Cell Theory as proposed by', prompt: 'Which idea is this? — Cell Theory, as proposed by Matthias Schleiden (1838) and Theodor Schwann (1839), states.', answer: 'Cell Theory as proposed by', options: ['Cell Theory as proposed by', 'The discovery of the cell', 'A vacuole is a membrane-bound', 'Cell division is the biological'] },
             { id: 's3', label: 'A vacuole is a membrane-bound', prompt: 'Which idea is this? — A vacuole is a membrane-bound organelle filled with cell sap (a solution of water,.', answer: 'A vacuole is a membrane-bound', options: ['A vacuole is a membrane-bound', 'The discovery of the cell', 'Cell Theory as proposed by', 'Cell division is the biological'] },
@@ -86,7 +86,7 @@ export const w_c9_biologycelltheorycellsim: SimDef = {
             { id: 's5', label: 'The cell membrane plasma membrane', prompt: 'Which idea is this? — The cell membrane (plasma membrane) is a dynamic, fluid phospholipid bilayer embedded.', answer: 'The cell membrane plasma membrane', options: ['The cell membrane plasma membrane', 'The discovery of the cell', 'Cell Theory as proposed by', 'A vacuole is a membrane-bound'] }
           ] } }
     ],
-    explore: { component: C9_BiologyCellTheoryCellSim, prompt: 'Explore the interactive — Cell Theory Cell' },
+    explore: { component: C9_BiologyCellTheoryCellSim, prompt: 'Explore the interactive — Discovery of the Cell: Hooke and Leeuwenhoek' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_bio_ch1_1', difficulty: 'standard',
           question: 'The discovery of the cell refers to the foundational observations by Robert.',

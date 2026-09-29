@@ -6,13 +6,13 @@ import C11_PoliticalScienceRightsSim from '../../../simulations/c6_12/C11_Politi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_politicalsciencerightssim: SimDef = {
     id: 'v3w_c11_politicalsciencerightssim',
-    title: 'Rights',
+    title: 'What are rights: Claims recognised by society and enforced by the state',
     subtitle: 'This node covers the core definition of rights as socially recognised claims enforced by.',
     classLevel: 11, subject: 'political_science', topic: 'What are rights: Claims recognised by society and enforced by the state',
     chapters: [],
     nodeIds: ['c11_ps_cbse_05_001', 'c11_ps_cbse_05_002', 'c11_ps_cbse_05_003', 'c11_ps_cbse_05_004', 'c11_ps_cbse_05_005', 'c11_ps_cbse_05_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a student demanding the "right" to use a mobile phone during class because they feel it helps them.', goal: 'Master Rights.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a student demanding the "right" to use a mobile phone during class because they feel it helps them.', goal: 'Master What are rights: Claims recognised by society and enforced by the state.' },
     discovery: {
         question: 'A group of citizens demands the "right to high-speed internet" in their village.',
         options: ['Step 1: Check social recognition', 'yes because Digital India exists', 'no because it\'s a luxury'],
@@ -79,7 +79,7 @@ export const w_c11_politicalsciencerightssim: SimDef = {
             { text: 'Conclude: The law violates both civil rights (freedom of assembly/speech) and political rights (ability to participate.', faded: true, blankAnswer: 'The law violates both civil and political rights. It.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_ps_cbse_05_002', title: 'Identify each idea',
-          dissect: { specimen: 'Rights', spots: [
+          dissect: { specimen: 'What are rights: Claims recognised by society and enforced by the state', spots: [
             { id: 's1', label: 'A right is a justified', prompt: 'Which idea is this? — A right is a justified claim or entitlement that is recognised by society as necessary.', answer: 'A right is a justified', options: ['A right is a justified', 'Moral rights are justified claims', 'Negative rights are claims that', 'Natural rights theory as articulated'] },
             { id: 's2', label: 'Moral rights are justified claims', prompt: 'Which idea is this? — Moral rights are justified claims grounded in ethical principles, human dignity, and.', answer: 'Moral rights are justified claims', options: ['Moral rights are justified claims', 'A right is a justified', 'Negative rights are claims that', 'Natural rights theory as articulated'] },
             { id: 's3', label: 'Negative rights are claims that', prompt: 'Which idea is this? — Negative rights are claims that require the state to refrain from interfering in an.', answer: 'Negative rights are claims that', options: ['Negative rights are claims that', 'A right is a justified', 'Moral rights are justified claims', 'Natural rights theory as articulated'] },
@@ -88,7 +88,7 @@ export const w_c11_politicalsciencerightssim: SimDef = {
             { id: 's6', label: 'Civil rights are protections guaranteed', prompt: 'Which idea is this? — Civil rights are protections guaranteed by the state to ensure individual freedom and.', answer: 'Civil rights are protections guaranteed', options: ['Civil rights are protections guaranteed', 'A right is a justified', 'Moral rights are justified claims', 'Negative rights are claims that'] }
           ] } }
     ],
-    explore: { component: C11_PoliticalScienceRightsSim, prompt: 'Explore the interactive — Rights' },
+    explore: { component: C11_PoliticalScienceRightsSim, prompt: 'Explore the interactive — What are rights: Claims recognised by society and enforced by the state' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_ps_cbse_05_001', difficulty: 'standard',
           question: 'A right is a justified claim or entitlement that is recognised by society as.',

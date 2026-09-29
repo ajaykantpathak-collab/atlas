@@ -19,45 +19,45 @@ export const c12_eng_v_ch03_p2: SimDef = {
         hook: 'This isn\'t a travelogue — it\'s a geological argument wearing a journey\'s clothes. Antarctica\'s ice cores hold half a million years of carbon records; Gondwana\'s breakup rearranged the climate once, and our emissions are rearranging it again — the same scale of forcing, at a thousand times the speed.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the supporting ideas that run alongside the primary theme, enriching the text by exploring related concepts such as human-environment interaction, intergenerational.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Journey to the End of the Earth\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_03_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Join Students on Ice at the bottom of the world: read the continent as archive — Gondwana\'s drift, the circumpolar current, the frozen carbon diary — and weigh why teenagers, not tourists, were taken there.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_03_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are a detective who has found the main clue (primary theme: Antarctica reveals Earth\'s climate past/present/future).',
+          caseStudy: { intro: 'Look beneath the main theme of \'Journey to the End of the Earth\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is a secondary theme in literature, and how does it differ from the primary theme?', options: [
                 { text: 'A secondary theme is a supporting idea that runs parallel to the primary theme, adding', outcome: 'A secondary theme is a supporting idea that runs parallel to the primary theme, adding depth.' },
                 { text: 'secondary theme means less important', outcome: 'Not quite — Students often list *topics* (e.g., "Gondwana," "Students on Ice," "phytoplankton") as themes.', reveals: 'students-often-list-topics-e' },
                 { text: 'theme = topic', outcome: 'Not quite — Students often list *topics* (e.g., "Gondwana," "Students on Ice," "phytoplankton") as themes.', reveals: 'students-often-list-topics-e' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_03_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you\'re standing on a metre-thick ice sheet with 180 metres of freezing ocean beneath your feet — what do you *feel* in your soles, hear in the silence.',
+          caseStudy: { intro: 'Find the lines in \'Journey to the End of the Earth\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "metaphor" and distinguish it from "simile" using an example from *Journey to the End of the Earth*.', options: [
                 { text: 'A metaphor directly equates two unlike things (A *is* B) to transfer qualities', outcome: 'A metaphor directly equates two unlike things (A *is* B) to transfer qualities; a simile compares.' },
                 { text: 'giant ping-pong ball', outcome: 'Not quite — Students treat imagery and metaphor as **identification exercises** ("spot the device") rather than.', reveals: 'students-treat-imagery-and-metaphor' },
                 { text: 'like/as', outcome: 'Not quite — Students treat imagery and metaphor as **identification exercises** ("spot the device") rather than.', reveals: 'students-treat-imagery-and-metaphor' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_03_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading a news article about Antarctica\'s melting ice shelves and encounter the word "calving" — you know it relates to cows giving birth, but.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Journey to the End of the Earth\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'Define "context clue" and name the four main types (with one example clue word/phrase for each type).', options: [
                 { text: 'A context clue is a hint within the text that helps define an unfamiliar word', outcome: 'A context clue is a hint within the text that helps define an unfamiliar word.' },
                 { text: 'in other words', outcome: 'Not quite — Students believe "vocabulary in context" means "guess the meaning from the general topic" (e.g.', reveals: 'vocabulary-in-context-means-guess' },
                 { text: 'also known as', outcome: 'Not quite — Students believe "vocabulary in context" means "guess the meaning from the general topic" (e.g.', reveals: 'vocabulary-in-context-means-guess' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_03_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you\'re reading Doshi\'s opening paragraph and notice she writes "I found myself aboard" (past) but then "my first emotion...',
+          caseStudy: { intro: 'Read \'Journey to the End of the Earth\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the tense and aspect of the verb phrase "had been travelling" in the sentence "By the time I actually set foot on the Antarctic.', options: [
                 { text: 'Past perfect progressive (past perfect continuous)', outcome: 'Past perfect progressive (past perfect continuous). It establishes a duration of action.' },
                 { text: 'past continuous', outcome: 'Not quite — Students treat "grammar in literature" as spotting parts of speech (e.g., "there are many.', reveals: 'students-treat-grammar-in-literature' },
                 { text: 'past perfect', outcome: 'Not quite — Students treat "grammar in literature" as spotting parts of speech (e.g., "there are many.', reveals: 'students-treat-grammar-in-literature' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_03_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing Question 3: "Why does the author call Antarctica \'a giant ping-pong ball\'?" — your mind blanks.',
+          caseStudy: { intro: 'Answer \'Journey to the End of the Earth\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify whether each question is literal (L) or inferential (I): (a) "Name the Russian research vessel the author travelled on." (b) "Why.', options: [
                 { text: '(a) L — directly stated: "Akademik Shokalskiy"', outcome: '(a) L — directly stated: "Akademik Shokalskiy". (b) I — requires interpreting "prognosis".' },
                 { text: 'inferential', outcome: 'Not quite — Students believe "inferential" means "guessing" or "giving your opinion." They write answers like.', reveals: 'inferential-means-guessing-or-giving' },
@@ -77,12 +77,12 @@ export const c12_eng_v_ch03_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_007', difficulty: 'standard',
-          question: 'Secondary themes are the supporting ideas that run alongside the primary theme.',
+          question: 'Secondary themes in \'Journey to the End of the Earth\' — the supporting ideas.',
           hint: 'If stuck, revisit c11_eng_h_cbse_03_007 (Class 11 Hornbill Chapter 3 secondary themes).',
           misconception: 'Students often list *topics* (e.g., "Gondwana," "Students on Ice," "phytoplankton") as themes.',
           parts: [
@@ -91,9 +91,9 @@ export const c12_eng_v_ch03_p2: SimDef = {
                   hint: 'If stuck, revisit c11_eng_h_cbse_03_007 (Class 11 Hornbill Chapter 3 secondary themes) — it uses.',
                   misconception: 'Students often list *topics* (e.g., "Gondwana," "Students on Ice," "phytoplankton") as themes.' }
           ],
-            remediations: { 'students-often-list-topics-e': { steps: ['If a student cannot convert topics to thematic statements: 1.', 'Give them a 3-column table: **Topic** | **Author\'s Attitude/Comment** | **Thematic Statement (Topic + Attitude)**.', 'Fill Row 1 together: Topic = Phytoplankton; Attitude = "wondrous and most important process," "parable for existence".', 'Student completes Rows 2-3 for Gondwana and Students on Ice.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-list-topics-e': { steps: ['If a student cannot convert topics to thematic statements: 1.', 'Give them a 3-column table: **Topic** | **Author\'s Attitude/Comment** | **Thematic Statement (Topic + Attitude)**.', 'Fill Row 1 together: Topic = Phytoplankton; Attitude = "wondrous and most important process," "parable for existence".', 'Student completes Rows 2-3 for Gondwana and Students on Ice.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Journey to the End of the Earth\' — the vivid, sensory language that.',
           hint: 'If stuck on sense modalities: revisit c7_engl_ch01_008 (Imagery and Sound in Nature.',
           misconception: 'Students treat imagery and metaphor as **identification exercises** ("spot the device") rather than **interpretive.',
           parts: [
@@ -102,9 +102,9 @@ export const c12_eng_v_ch03_p2: SimDef = {
                   hint: 'If stuck on sense modalities: revisit c7_engl_ch01_008 (Imagery and Sound in Nature Descriptions).',
                   misconception: 'Students treat imagery and metaphor as **identification exercises** ("spot the device") rather than **interpretive tools** ("what does this.' }
           ],
-            remediations: { 'students-treat-imagery-and-metaphor': { steps: ['If a student cannot move beyond identification: (1) Give them a two-column table: Column A = "Quoted phrase," Column.', '(3) Ask: "Which column would earn marks in a 3-mark Board question?" (4) Direct them to re-read the "Walk on the ocean".', 'If still stuck, revisit **c11_eng_h_cbse_01_008** (Class 11 Literary Devices: Imagery and Metaphor) for the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-imagery-and-metaphor': { steps: ['If a student cannot move beyond identification: (1) Give them a two-column table: Column A = "Quoted phrase," Column.', '(3) Ask: "Which column would earn marks in a 3-mark Board question?" (4) Direct them to re-read the "Walk on the ocean".', 'If still stuck, revisit **c11_eng_h_cbse_01_008** (Class 11 Literary Devices: Imagery and Metaphor) for the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'Journey to the End of the Earth\' — where opposite things.',
           hint: 'If stuck, revisit the PEEL paragraph structure from c12_eng_v_cbse_03_008 and practice.',
           misconception: 'Students often treat irony and symbolism as decorative "labels" to hunt for, rather than analytical tools.',
           parts: [
@@ -113,7 +113,7 @@ export const c12_eng_v_ch03_p2: SimDef = {
                   hint: 'If stuck, revisit the PEEL paragraph structure from c12_eng_v_cbse_03_008 and practice identifying.',
                   misconception: 'Students often treat irony and symbolism as decorative "labels" to hunt for, rather than analytical tools.' }
           ],
-            remediations: { 'students-often-treat-irony-and': { steps: ['If a student cannot move beyond identification, have them: (1) Re-read the chapter with two highlighters — one for.', '(2) For each highlighted passage, complete the sentence: "This is not just X; it represents Y because..." (3) Write one.', '(4) Re-attempt Diagnostic Questions 3 and 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-irony-and': { steps: ['If a student cannot move beyond identification, have them: (1) Re-read the chapter with two highlighters — one for.', '(2) For each highlighted passage, complete the sentence: "This is not just X; it represents Y because..." (3) Write one.', '(4) Re-attempt Diagnostic Questions 3 and 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_009', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -124,9 +124,9 @@ export const c12_eng_v_ch03_p2: SimDef = {
                   hint: 'If stuck, revisit the PEEL paragraph structure from c12_eng_v_cbse_03_008 and practice identifying.',
                   misconception: 'Students often treat irony and symbolism as decorative "labels" to hunt for, rather than analytical tools.' }
           ],
-            remediations: { 'students-often-treat-irony-and': { steps: ['If a student cannot move beyond identification, have them: (1) Re-read the chapter with two highlighters — one for.', '(2) For each highlighted passage, complete the sentence: "This is not just X; it represents Y because..." (3) Write one.', '(4) Re-attempt Diagnostic Questions 3 and 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-irony-and': { steps: ['If a student cannot move beyond identification, have them: (1) Re-read the chapter with two highlighters — one for.', '(2) For each highlighted passage, complete the sentence: "This is not just X; it represents Y because..." (3) Write one.', '(4) Re-attempt Diagnostic Questions 3 and 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the meaning of unfamiliar.',
+          question: 'Key vocabulary of \'Journey to the End of the Earth\' — the words and phrases you.',
           hint: 'If stuck on clause/conjunction identification: review c11_eng_w_cbse_01_011 (Grammar.',
           misconception: 'Students believe "vocabulary in context" means "guess the meaning from the general topic" (e.g., "it\'s about.',
           parts: [
@@ -143,9 +143,9 @@ export const c12_eng_v_ch03_p2: SimDef = {
                   hint: 'If stuck on clause/conjunction identification: review c11_eng_w_cbse_01_011 (Grammar: Language.',
                   misconception: 'Students believe "vocabulary in context" means "guess the meaning from the general topic" (e.g., "it\'s about Antarctica, so \'calving\' must.' }
           ],
-            remediations: { 'vocabulary-in-context-means-guess': { steps: ['If a student cannot identify clue types or misdefines words: 1.', '**Revisit Clue Types**: Use c11_eng_h_cbse_01_010 (Vocabulary in Context: Key Words) — re-do its Worked Example 1 with.', '**Micro-Practice**: Give 5 sentences from the chapter (one per clue type).', 'Student must: (a) underline the target word, (b) circle the clue phrase, (c) name the clue type, (d) write the meaning.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'vocabulary-in-context-means-guess': { steps: ['If a student cannot identify clue types or misdefines words: 1.', '**Revisit Clue Types**: Use c11_eng_h_cbse_01_010 (Vocabulary in Context: Key Words) — re-do its Worked Example 1 with.', '**Micro-Practice**: Give 5 sentences from the chapter (one per clue type).', 'Student must: (a) underline the target word, (b) circle the clue phrase, (c) name the clue type, (d) write the meaning.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_011', difficulty: 'standard',
-          question: 'Language usage in this text refers to the deliberate grammatical choices.',
+          question: 'Language and style in \'Journey to the End of the Earth\' — how the writer chose.',
           hint: 'If stuck on modal classification, review the "epistemic vs deontic" distinction using.',
           misconception: 'Students treat "grammar in literature" as spotting parts of speech (e.g., "there are many adjectives") rather than.',
           parts: [
@@ -154,9 +154,9 @@ export const c12_eng_v_ch03_p2: SimDef = {
                   hint: 'If stuck on modal classification, review the "epistemic vs deontic" distinction using.',
                   misconception: 'Students treat "grammar in literature" as spotting parts of speech (e.g., "there are many adjectives") rather than analysing how.' }
           ],
-            remediations: { 'students-treat-grammar-in-literature': { steps: ['Revisit c11_eng_h_cbse_01_011 (Grammar: Language Usage in the Text - Hornbill Ch1) for tense-aspect basics in narrative.', 'Practice converting 5 participial phrases from the text into full relative clauses, then compare rhythm/emphasis.', 'Create a two-column table: modal verb | modality type | rhetorical effect for all modals in the chapter.', 'Re-attempt Diagnostic Questions 2, 3, 4 with the table.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-grammar-in-literature': { steps: ['Revisit c11_eng_h_cbse_01_011 (Grammar: Language Usage in the Text - Hornbill Ch1) for tense-aspect basics in narrative.', 'Practice converting 5 participial phrases from the text into full relative clauses, then compare rhythm/emphasis.', 'Create a two-column table: modal verb | modality type | rhetorical effect for all modals in the chapter.', 'Re-attempt Diagnostic Questions 2, 3, 4 with the table.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve explicitly stated.',
+          question: 'Literal comprehension of \'Journey to the End of the Earth\' — questions answered.',
           hint: 'If stuck on distinguishing question types, revisit Class 11 Hornbill Chapter 1.',
           misconception: 'Students believe "inferential" means "guessing" or "giving your opinion." They write answers like "I think the author.',
           parts: [
@@ -165,7 +165,7 @@ export const c12_eng_v_ch03_p2: SimDef = {
                   hint: 'If stuck on distinguishing question types, revisit Class 11 Hornbill Chapter 1 Comprehension node.',
                   misconception: 'Students believe "inferential" means "guessing" or "giving your opinion." They write answers like "I think the author feels sad about.' }
           ],
-            remediations: { 'inferential-means-guessing-or-giving': { steps: ['If a student cannot distinguish literal/inferential or produces opinion-based inferences: (1) Give them the four NCERT.', '(2) For each insight question, build a 3-column table: Textual Clue | Deduction | Thematic Link.', '(3) Practice converting 5 literal questions from the chapter into inferential variants (e.g., literal: "What.', '(4) Re-diagnose using Diagnostic Question 2 — require full ICE structure.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'inferential-means-guessing-or-giving': { steps: ['If a student cannot distinguish literal/inferential or produces opinion-based inferences: (1) Give them the four NCERT.', '(2) For each insight question, build a 3-column table: Textual Clue | Deduction | Thematic Link.', '(3) Practice converting 5 literal questions from the chapter into inferential variants (e.g., literal: "What.', '(4) Re-diagnose using Diagnostic Question 2 — require full ICE structure.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

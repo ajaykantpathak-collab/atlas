@@ -6,13 +6,13 @@ import C11_GeographyRiverRegimeSim from '../../../simulations/c6_12/C11_Geograph
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geographyriverregimesim: SimDef = {
     id: 'v3w_c11_geographyriverregimesim',
-    title: 'River Regime',
+    title: 'Multipurpose River Projects: Bhakra-Nangal Project',
     subtitle: 'Covers the Bhakra-Nangal Project\'s physical infrastructure (Bhakra Dam, Nangal Dam,.',
     classLevel: 11, subject: 'geography', topic: 'Multipurpose River Projects: Bhakra-Nangal Project',
     chapters: [],
     nodeIds: ['c11_geo_cbse_13_003', 'c11_geo_cbse_09_009', 'c11_geo_cbse_12_009', 'c11_geo_cbse_13_001', 'c11_geo_cbse_13_002', 'c11_geo_cbse_13_004', 'c11_geo_cbse_13_007', 'c11_geo_cbse_13_008', 'c11_geo_cbse_09_002', 'c11_geo_cbse_09_003', 'c11_geo_cbse_09_004', 'c11_geo_cbse_09_005', 'c11_geo_cbse_09_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine standing at the Bhakra Dam viewpoint in November: the Gobind Sagar stretches 90 km upstream, its.', goal: 'Master River Regime.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine standing at the Bhakra Dam viewpoint in November: the Gobind Sagar stretches 90 km upstream, its.', goal: 'Master Multipurpose River Projects: Bhakra-Nangal Project.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'The Bhakra-Nangal Project is a multipurpose.', text: 'The Bhakra-Nangal Project is a multipurpose river valley project on the Sutlej River (a tributary of the Indus) comprising the Bhakra Dam (226 m high gravity dam at Bhakra village, Bilaspur district,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -76,7 +76,7 @@ export const w_c11_geographyriverregimesim: SimDef = {
             { text: 'Interpretation: DVC moderated the flood by storing 1,500 MCM (reducing downstream peak), but 9,192 MCM had to be.', faded: true, blankAnswer: '(a) 17,820 MCM, (b) 10,692 MCM, (c) 712.8% of live storage,.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_geo_cbse_09_009', title: 'Identify each idea',
-          dissect: { specimen: 'River Regime', spots: [
+          dissect: { specimen: 'Multipurpose River Projects: Bhakra-Nangal Project', spots: [
             { id: 's1', label: 'The Bhakra-Nangal Project is a', prompt: 'Which idea is this? — The Bhakra-Nangal Project is a multipurpose river valley project on the Sutlej River (a.', answer: 'The Bhakra-Nangal Project is a', options: ['The Bhakra-Nangal Project is a', 'The drainage system of India', 'Soil erosion is the detachment', 'Surface water in India comprises'] },
             { id: 's2', label: 'The drainage system of India', prompt: 'Which idea is this? — The drainage system of India comprises two distinct river regimes: Himalayan rivers.', answer: 'The drainage system of India', options: ['The drainage system of India', 'The Bhakra-Nangal Project is a', 'Soil erosion is the detachment', 'Surface water in India comprises'] },
             { id: 's3', label: 'Soil erosion is the detachment', prompt: 'Which idea is this? — Soil erosion is the detachment, transportation, and deposition of topsoil particles by.', answer: 'Soil erosion is the detachment', options: ['Soil erosion is the detachment', 'The Bhakra-Nangal Project is a', 'The drainage system of India', 'Surface water in India comprises'] },
@@ -85,7 +85,7 @@ export const w_c11_geographyriverregimesim: SimDef = {
             { id: 's6', label: 'The Damodar Valley Corporation DVC', prompt: 'Which idea is this? — The Damodar Valley Corporation (DVC) is India\'s first multipurpose river valley project,.', answer: 'The Damodar Valley Corporation DVC', options: ['The Damodar Valley Corporation DVC', 'The Bhakra-Nangal Project is a', 'The drainage system of India', 'Soil erosion is the detachment'] }
           ] } }
     ],
-    explore: { component: C11_GeographyRiverRegimeSim, prompt: 'Explore the interactive — River Regime' },
+    explore: { component: C11_GeographyRiverRegimeSim, prompt: 'Explore the interactive — Multipurpose River Projects: Bhakra-Nangal Project' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_13_003', difficulty: 'standard',
           question: 'The Bhakra-Nangal Project is a multipurpose river valley project on the Sutlej.',

@@ -6,13 +6,13 @@ import C11_HistoryCircumstancesLeadingProtestSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_historycircumstancesleadingprotestsim: SimDef = {
     id: 'v3w_c11_historycircumstancesleadingprotestsim',
-    title: 'Circumstances Leading Protest',
+    title: 'The Quran and the Hadith: Sacred Texts and Their Compilation',
     subtitle: 'Covers the historical circumstances of Quranic revelation (wahy), the transition from.',
     classLevel: 11, subject: 'history', topic: 'The Quran and the Hadith: Sacred Texts and Their Compilation',
     chapters: [],
     nodeIds: ['c11_hist_cbse_04_004', 'c11_hist_cbse_04_008', 'c11_hist_cbse_04_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are visiting the National Museum in New Delhi and see a 7th-century Quranic manuscript on.', goal: 'Master Circumstances Leading Protest.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are visiting the National Museum in New Delhi and see a 7th-century Quranic manuscript on.', goal: 'Master The Quran and the Hadith: Sacred Texts and Their Compilation.' },
     discovery: {
         question: 'A historian finds a 9th-century Hadith collection claiming: "The Prophet said: \'Seek knowledge even unto China.\'" The isnad includes three trustworthy.',
         options: ['The scholar would classify the Hadith as da\'if (weak)', 'accept it because most narrators are trustworthy', 'reject it because China didn\'t exist then'],
@@ -52,13 +52,13 @@ export const w_c11_historycircumstancesleadingprotestsim: SimDef = {
             { text: 'Evaluate significance: This multi-causal model explains why the First Crusade succeeded (Muslim disunity) while later.', faded: true, blankAnswer: 'The First Crusade resulted from the interplay of European.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_hist_cbse_04_008', title: 'Identify each idea',
-          dissect: { specimen: 'Circumstances Leading Protest', spots: [
+          dissect: { specimen: 'The Quran and the Hadith: Sacred Texts and Their Compilation', spots: [
             { id: 's1', label: 'The Quran is the central', prompt: 'Which idea is this? — The Quran is the central religious text of Islam, believed by Muslims to be the verbatim.', answer: 'The Quran is the central', options: ['The Quran is the central', 'The Shia-Sunni split is the', 'The Crusades 10951291 were a'] },
             { id: 's2', label: 'The Shia-Sunni split is the', prompt: 'Which idea is this? — The Shia-Sunni split is the primary sectarian division within Islam originating from a.', answer: 'The Shia-Sunni split is the', options: ['The Shia-Sunni split is the', 'The Quran is the central', 'The Crusades 10951291 were a'] },
             { id: 's3', label: 'The Crusades 10951291 were a', prompt: 'Which idea is this? — The Crusades (1095–1291) were a series of religiously sanctioned military campaigns.', answer: 'The Crusades 10951291 were a', options: ['The Crusades 10951291 were a', 'The Quran is the central', 'The Shia-Sunni split is the'] }
           ] } }
     ],
-    explore: { component: C11_HistoryCircumstancesLeadingProtestSim, prompt: 'Explore the interactive — Circumstances Leading Protest' },
+    explore: { component: C11_HistoryCircumstancesLeadingProtestSim, prompt: 'Explore the interactive — The Quran and the Hadith: Sacred Texts and Their Compilation' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hist_cbse_04_004', difficulty: 'standard',
           question: 'The Quran is the central religious text of Islam, believed by Muslims to be the.',

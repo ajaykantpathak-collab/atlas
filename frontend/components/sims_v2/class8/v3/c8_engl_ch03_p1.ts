@@ -19,7 +19,7 @@ export const c8_engl_ch03_p1: SimDef = {
         hook: 'Adults accept what witnesses say; a kid detective tests it. Encyclopedia Brown\'s real superpower isn\'t luck or book knowledge — it\'s refusing to assume, and noticing the tiny detail everyone else waved past.',
     },
     teaching: [
-        { title: 'Character Analysis: Encyclopedia Brown as a Boy Detective', text: 'Character analysis involves examining a fictional character\'s traits, motivations, and development by identifying textual evidence (actions, dialogue, thoughts, relationships) and explaining how.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Character Analysis: Encyclopedia Brown as a Boy Detective', text: 'From \'English chapter c8_engl_ch3\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c8_engl_ch3_1', title: 'Your mission',
@@ -72,7 +72,7 @@ export const c8_engl_ch03_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_engl_ch3_1', difficulty: 'standard',
-          question: 'Character analysis involves examining a fictional character\'s traits.',
+          question: 'From \'English chapter c8_engl_ch3\': the skill or concept this node teaches.',
           hint: 'Review c7_engl_ch01_002: Character Analysis: Jahnavi and Her Dream.',
           misconception: 'Students often believe Encyclopedia Brown\'s success comes from him being exceptionally smart or knowledgeable like.',
           parts: [
@@ -88,7 +88,7 @@ export const c8_engl_ch03_p1: SimDef = {
           misconception: 'Students frequently mistake a high-probability or extremely logical guess for factual textual evidence.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Evidence consists of verifiable, explicit facts, clues, or direct quotes provided',
-                  options: ['Evidence consists of verifiable, explicit facts, clues, or direct quotes provided', 'Character analysis involves examining a fictional character\'s traits, motivations, and', 'An anagram is a word play technique where the letters of a word or phrase are rearranged', 'A short mystery story with clues is a narrative structured around a central puzzle or'],
+                  options: ['Evidence consists of verifiable, explicit facts, clues, or direct quotes provided', 'From \'English chapter c8_engl_ch3\': the skill or concept this node teaches, applied to', 'An anagram is a word play technique where the letters of a word or phrase are rearranged', 'A short mystery story with clues is a narrative structured around a central puzzle or'],
                   hint: 'If stuck, practice highlighting only the direct quotes in a short paragraph that prove a given.',
                   misconception: 'Students frequently mistake a high-probability or extremely logical guess for factual textual evidence.' }
           ],
@@ -110,7 +110,7 @@ export const c8_engl_ch03_p1: SimDef = {
           misconception: '**The "Magical Deduction" or "Mind-Reading" Fallacy** Students often write mysteries where the detective solves the.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'A short mystery story with clues is a narrative structured around a central puzzle or',
-                  options: ['A short mystery story with clues is a narrative structured around a central puzzle or', 'Character analysis involves examining a fictional character\'s traits, motivations, and', 'Evidence consists of verifiable, explicit facts, clues, or direct quotes provided', 'An anagram is a word play technique where the letters of a word or phrase are rearranged'],
+                  options: ['A short mystery story with clues is a narrative structured around a central puzzle or', 'From \'English chapter c8_engl_ch3\': the skill or concept this node teaches, applied to', 'Evidence consists of verifiable, explicit facts, clues, or direct quotes provided', 'An anagram is a word play technique where the letters of a word or phrase are rearranged'],
                   hint: 'If stuck, review how authors hide clues in plain sight by describing them as ordinary background.',
                   misconception: '**The "Magical Deduction" or "Mind-Reading" Fallacy** Students often write mysteries where the detective solves the crime using information.' }
           ],

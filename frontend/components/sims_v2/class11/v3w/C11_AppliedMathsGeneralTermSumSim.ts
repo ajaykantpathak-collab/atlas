@@ -6,13 +6,13 @@ import C11_AppliedMathsGeneralTermSumSim from '../../../simulations/c6_12/C11_Ap
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_appliedmathsgeneraltermsumsim: SimDef = {
     id: 'v3w_c11_appliedmathsgeneraltermsumsim',
-    title: 'Applied Maths General Term Sum',
+    title: 'Arithmetic Progression: General Term',
     subtitle: 'This node covers the derivation, application, and algebraic manipulation of the general.',
     classLevel: 11, subject: 'science', topic: 'Arithmetic Progression: General Term',
     chapters: [],
     nodeIds: ['c11_math_cbse_09_002', 'c11_math_cbse_09_005', 'c11_math_cbse_03_009', 'c11_math_cbse_08_001', 'c11_math_cbse_08_002', 'c11_math_cbse_08_003', 'c11_math_cbse_08_004', 'c11_math_cbse_08_009', 'c11_math_cbse_08_008', 'c11_math_cbse_09_001', 'c11_math_cbse_09_003', 'c11_math_cbse_09_006', 'c11_math_cbse_09_007', 'c11_math_cbse_09_010', 'c11_math_cbse_09_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you start a savings plan in January where you deposit ₹500 in the first month and decide to increase.', goal: 'Master Applied Maths General Term Sum.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you start a savings plan in January where you deposit ₹500 in the first month and decide to increase.', goal: 'Master Arithmetic Progression: General Term.' },
     discovery: {
         question: 'State the position(s) of the middle term(s) in the expansion of (2x - 3y)^9. Do not compute the term(s), only give the term number(s) T_k.',
         options: ['For n = 9 (odd), there are two middle terms at positions T_{(9+1)/2} = T_5 and', 'T_5 only', 'a single middle term for all n, confusing the even-n rule with the odd-n case'],
@@ -79,7 +79,7 @@ export const w_c11_appliedmathsgeneraltermsumsim: SimDef = {
             { text: 'Combine all parts: T_6 = 252 × 32x^5 × (-243/x^10) = 252 × 32 × (-243) × x^{5-10} = -1959552 x^{-5} = -1959552 / x^5.', faded: true, blankAnswer: '-1959552 / x^5' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_09_005', title: 'Identify each idea',
-          dissect: { specimen: 'Applied Maths General Term Sum', spots: [
+          dissect: { specimen: 'Arithmetic Progression: General Term', spots: [
             { id: 's1', label: 'The general term nth term', prompt: 'Which idea is this? — The general term (nth term) of an arithmetic progression (AP) with first term \\(a\\) and.', answer: 'The general term nth term', options: ['The general term nth term', 'A Geometric Progression GP is', 'The sum and difference formulas', 'The Binomial Theorem for a'] },
             { id: 's2', label: 'A Geometric Progression GP is', prompt: 'Which idea is this? — A Geometric Progression (GP) is a sequence of non-zero numbers where each term after the.', answer: 'A Geometric Progression GP is', options: ['A Geometric Progression GP is', 'The general term nth term', 'The sum and difference formulas', 'The Binomial Theorem for a'] },
             { id: 's3', label: 'The sum and difference formulas', prompt: 'Which idea is this? — The sum and difference formulas for trigonometric functions express the sine, cosine,.', answer: 'The sum and difference formulas', options: ['The sum and difference formulas', 'The general term nth term', 'A Geometric Progression GP is', 'The Binomial Theorem for a'] },
@@ -88,7 +88,7 @@ export const w_c11_appliedmathsgeneraltermsumsim: SimDef = {
             { id: 's6', label: 'In the binomial expansion of', prompt: 'Which idea is this? — In the binomial expansion of (a + b)^n, the middle term(s) refer to the term(s) at the.', answer: 'In the binomial expansion of', options: ['In the binomial expansion of', 'The general term nth term', 'A Geometric Progression GP is', 'The sum and difference formulas'] }
           ] } }
     ],
-    explore: { component: C11_AppliedMathsGeneralTermSumSim, prompt: 'Explore the interactive — Applied Maths General Term Sum' },
+    explore: { component: C11_AppliedMathsGeneralTermSumSim, prompt: 'Explore the interactive — Arithmetic Progression: General Term' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_09_002', difficulty: 'standard',
           question: 'The general term (nth term) of an arithmetic progression (AP) with first term.',

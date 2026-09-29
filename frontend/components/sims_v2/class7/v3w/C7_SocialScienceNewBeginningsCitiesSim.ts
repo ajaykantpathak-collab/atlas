@@ -6,13 +6,13 @@ import C7_SocialScienceNewBeginningsCitiesSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_socialsciencenewbeginningscitiessim: SimDef = {
     id: 'v3w_c7_socialsciencenewbeginningscitiessim',
-    title: 'Social Science New Beginnings Cities',
+    title: 'Second Urbanisation of India: Context and Meaning',
     subtitle: 'Covers the socio-economic and technological context marking the beginning of the Second.',
     classLevel: 7, subject: 'science', topic: 'Second Urbanisation of India: Context and Meaning',
     chapters: [],
     nodeIds: ['c7_hist_ch01_001', 'c7_hist_ch01_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Have you ever wondered why some towns grow rapidly while others remain small villages, like when a new.', goal: 'Master Social Science New Beginnings Cities.' },
+    scenario: { role: 'a class 7 learner', intro: 'Have you ever wondered why some towns grow rapidly while others remain small villages, like when a new.', goal: 'Master Second Urbanisation of India: Context and Meaning.' },
     discovery: {
         question: 'What major metal technology became widespread around the 6th century BCE and helped clear the dense forests of the Gangetic plains?',
         options: ['Iron was the metal technology that became widespread during this period', 'Bronze', 'Copper'],
@@ -41,12 +41,12 @@ export const w_c7_socialsciencenewbeginningscitiessim: SimDef = {
             { text: 'Synthesize these factors to conclude that Rajgir was chosen primarily as a secure military stronghold to protect the.', faded: true, blankAnswer: 'Rajgir was chosen as Magadha\'s early capital because its.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_hist_ch01_008', title: 'Identify each idea',
-          dissect: { specimen: 'Social Science New Beginnings Cities', spots: [
+          dissect: { specimen: 'Second Urbanisation of India: Context and Meaning', spots: [
             { id: 's1', label: 'The Second Urbanisation refers to', prompt: 'Which idea is this? — The Second Urbanisation refers to the historical period around the 6th century BCE in.', answer: 'The Second Urbanisation refers to', options: ['The Second Urbanisation refers to', 'This topic explores the strategic'] },
             { id: 's2', label: 'This topic explores the strategic', prompt: 'Which idea is this? — This topic explores the strategic shifting of administrative capitals among the ancient.', answer: 'This topic explores the strategic', options: ['This topic explores the strategic', 'The Second Urbanisation refers to'] }
           ] } }
     ],
-    explore: { component: C7_SocialScienceNewBeginningsCitiesSim, prompt: 'Explore the interactive — Social Science New Beginnings Cities' },
+    explore: { component: C7_SocialScienceNewBeginningsCitiesSim, prompt: 'Explore the interactive — Second Urbanisation of India: Context and Meaning' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_hist_ch01_001', difficulty: 'standard',
           question: 'The Second Urbanisation refers to the historical period around the 6th century.',

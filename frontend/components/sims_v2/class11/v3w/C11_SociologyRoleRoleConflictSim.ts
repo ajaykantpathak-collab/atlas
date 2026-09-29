@@ -6,13 +6,13 @@ import C11_SociologyRoleRoleConflictSim from '../../../simulations/c6_12/C11_Soc
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_sociologyroleroleconflictsim: SimDef = {
     id: 'v3w_c11_sociologyroleroleconflictsim',
-    title: 'Role Role Conflict',
+    title: 'Functionalist Perspective on Social Processes: System Maintenance and Solidarity',
     subtitle: 'This node covers Durkheim\'s functionalist theory of solidarity, system requirements, and.',
     classLevel: 11, subject: 'sociology', topic: 'Functionalist Perspective on Social Processes: System Maintenance and Solidarity',
     chapters: [],
     nodeIds: ['c11_soc_cbse_06_005', 'c11_soc_cbse_02_004', 'c11_soc_cbse_02_005', 'c11_soc_cbse_02_009', 'c11_soc_cbse_02_010', 'c11_soc_cbse_03_001', 'c11_soc_cbse_03_006', 'c11_soc_cbse_09_005', 'c11_soc_cbse_08_009', 'c11_soc_cbse_06_001', 'c11_soc_cbse_02_002', 'c11_soc_cbse_03_003', 'c11_soc_cbse_06_002', 'c11_soc_cbse_06_003', 'c11_soc_cbse_06_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine your school suddenly cancels all exams, timetables, and rules — would learning still happen?', goal: 'Master Role Role Conflict.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine your school suddenly cancels all exams, timetables, and rules — would learning still happen?', goal: 'Master Functionalist Perspective on Social Processes: System Maintenance and Solidarity.' },
     discovery: {
         question: 'A tribal community practices shifting cultivation with minimal specialization; a metropolitan city runs on IT, finance, healthcare, and logistics sectors.',
         options: ['Tribal community: mechanical solidarity (shared routines, collective conscience)', 'functionalist perspective = everything in society is good/functional', '"functionalist perspective = everything in society is good/functional'],
@@ -80,7 +80,7 @@ export const w_c11_sociologyroleroleconflictsim: SimDef = {
             { text: 'Latent dysfunction: Villagers stop maintaining traditional water-harvesting structures (johads) because "the court will.', faded: true, blankAnswer: 'The transition replaces informal, particularistic,.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_soc_cbse_02_004', title: 'Identify each idea',
-          dissect: { specimen: 'Role Role Conflict', spots: [
+          dissect: { specimen: 'Functionalist Perspective on Social Processes: System Maintenance and Solidarity', spots: [
             { id: 's1', label: 'The functionalist perspective views society', prompt: 'Which idea is this? — The functionalist perspective views society as a self-regulating system where social.', answer: 'The functionalist perspective views society', options: ['The functionalist perspective views society', 'Status is a socially defined', 'A role is the dynamic', 'Identity refers to the distinctive'] },
             { id: 's2', label: 'Status is a socially defined', prompt: 'Which idea is this? — Status is a socially defined position in a group or society that carries specific rights,.', answer: 'Status is a socially defined', options: ['Status is a socially defined', 'The functionalist perspective views society', 'A role is the dynamic', 'Identity refers to the distinctive'] },
             { id: 's3', label: 'A role is the dynamic', prompt: 'Which idea is this? — A role is the dynamic, behavioural aspect of a status, consisting of the expected rights,.', answer: 'A role is the dynamic', options: ['A role is the dynamic', 'The functionalist perspective views society', 'Status is a socially defined', 'Identity refers to the distinctive'] },
@@ -89,7 +89,7 @@ export const w_c11_sociologyroleroleconflictsim: SimDef = {
             { id: 's6', label: 'A social institution is a', prompt: 'Which idea is this? — A social institution is a stable, structured pattern of norms, roles, values, and.', answer: 'A social institution is a', options: ['A social institution is a', 'The functionalist perspective views society', 'Status is a socially defined', 'A role is the dynamic'] }
           ] } }
     ],
-    explore: { component: C11_SociologyRoleRoleConflictSim, prompt: 'Explore the interactive — Role Role Conflict' },
+    explore: { component: C11_SociologyRoleRoleConflictSim, prompt: 'Explore the interactive — Functionalist Perspective on Social Processes: System Maintenance and Solidarity' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_soc_cbse_06_005', difficulty: 'standard',
           question: 'The functionalist perspective views society as a self-regulating system where.',

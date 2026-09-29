@@ -90,12 +90,12 @@ export const c7_engl_ch04_p1: SimDef = {
           ],
             remediations: { 'the-setting-is-merely-a': { steps: ['To fix this, guide the student step-by-step through the text: (1) Ask them to close their eyes and imagine standing.', '(2) Ask them what happens to the sound and temperature the exact second they step into the tunnel.', '(3) Explain that setting is an experience made of sights, sounds, and feelings, not just a map location.', '(4) Have them rewrite one sentence connecting a physical detail of the tunnel to a feeling of mystery or suspense.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c7_engl_ch04_002', difficulty: 'standard',
-          question: 'Character analysis of Suraj in "The Tunnel" examines his traits, motivations.',
+          question: 'From \'English chapter c7_engl_ch04\': the skill or concept this node teaches.',
           hint: 'Review how to link a character\'s physical action to an inner feeling using simple.',
           misconception: 'Students often confuse a character\'s physical actions with their underlying motivations, assuming that because Suraj.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of Suraj in "The Tunnel" examines his traits, motivations, actions,',
-                  options: ['Character analysis of Suraj in "The Tunnel" examines his traits, motivations, actions,', 'The setting of a story encompasses the physical landscape, time period, and social', 'Plot is the sequence of events and actions that make up a story, structured around a', 'The theme of adventure and exploration of the unknown in literature explores a'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c7_engl_ch04\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c7_engl_ch04\': the skill or concept this node teaches, applied to', 'The setting of a story encompasses the physical landscape, time period, and social', 'Plot is the sequence of events and actions that make up a story, structured around a', 'The theme of adventure and exploration of the unknown in literature explores a'],
                   hint: 'Review how to link a character\'s physical action to an inner feeling using simple "because".',
                   misconception: 'Students often confuse a character\'s physical actions with their underlying motivations, assuming that because Suraj simply stands near the.' }
           ],
@@ -120,8 +120,8 @@ export const c7_engl_ch04_p1: SimDef = {
                   options: ['The exploration of the unknown refers to a character venturing into unfamiliar,', 'adventure and exploration of the unknown'],
                   hint: 'Review Class 6 concepts on character courage and setting description before analyzing abstract.',
                   misconception: 'Students often confuse "adventure and exploration of the unknown" with mere physical movement or travel, such as walking from one village.' },
-                { id: 'b', prompt: 'Apply the theme of adventure to a new context: Imagine a young girl in a village who decides to explore an overgrown, forgotten path behind her school.', answer: 'Steps: (1) Identify the unfamiliar element (the overgrown path)',
-                  options: ['Steps: (1) Identify the unfamiliar element (the overgrown path)', 'adventure and exploration of the unknown'],
+                { id: 'b', prompt: 'Apply the theme of adventure to a new context: Imagine a young girl in a village who decides to explore an overgrown, forgotten path behind her school.', answer: '(1) Identify the unfamiliar element (the overgrown path)',
+                  options: ['(1) Identify the unfamiliar element (the overgrown path)', 'adventure and exploration of the unknown'],
                   hint: 'Review Class 6 concepts on character courage and setting description before analyzing abstract.',
                   misconception: 'Students often confuse "adventure and exploration of the unknown" with mere physical movement or travel, such as walking from one village.' }
           ],
@@ -149,6 +149,10 @@ export const c7_engl_ch04_p1: SimDef = {
                 { id: 'b', prompt: 'Read this sentence: "The afternoon sun baked the railway tracks, and not a single monkey chattered in the trees." What mood does this sentence create?', answer: 'An oppressive, tense, and expectant mood',
                   options: ['An oppressive, tense, and expectant mood', 'a relaxing holiday mood', 'filler'],
                   hint: 'Review c7_engl_ch04_001 to understand the basic elements of the jungle and railway setting before.',
+                  misconception: 'Students often believe that descriptions of weather, like heat or silence, are just "filler" information meant to describe the scenery.' },
+                { id: 'c', prompt: 'In a jungle scene, why would an author describe the air as "thick and shimmering with heat" right before a train approaches?', answer: 'Identify the physical description (heat, shimmering air)',
+                  options: ['Identify the physical description (heat, shimmering air)', 'filler'],
+                  hint: 'Review c7_engl_ch04_001 to understand the basic elements of the jungle and railway setting before.',
                   misconception: 'Students often believe that descriptions of weather, like heat or silence, are just "filler" information meant to describe the scenery.' }
           ],
             remediations: { 'descriptions-of-weather': { steps: ['Direct the student to reread the sentence and underline every word related to temperature, sound, or movement.', 'Ask them: "If you were standing in this exact spot with zero wind and absolute quiet, would you feel relaxed.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
@@ -158,7 +162,7 @@ export const c7_engl_ch04_p1: SimDef = {
           misconception: 'Students often treat setting descriptions (like a dark tunnel, a ruined fort, or a dense jungle) as literal background.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'In literary analysis, a symbol is an object, person, or situation that represents a',
-                  options: ['In literary analysis, a symbol is an object, person, or situation that represents a', 'The setting of a story encompasses the physical landscape, time period, and social', 'Character analysis of Suraj in "The Tunnel" examines his traits, motivations, actions,', 'Plot is the sequence of events and actions that make up a story, structured around a'],
+                  options: ['In literary analysis, a symbol is an object, person, or situation that represents a', 'The setting of a story encompasses the physical landscape, time period, and social', 'From \'English chapter c7_engl_ch04\': the skill or concept this node teaches, applied to', 'Plot is the sequence of events and actions that make up a story, structured around a'],
                   hint: 'Review c7_engl_ch04_005 to practice identifying how an author builds atmosphere before attempting.',
                   misconception: 'Students often treat setting descriptions (like a dark tunnel, a ruined fort, or a dense jungle) as literal background scenery rather than.' }
           ],

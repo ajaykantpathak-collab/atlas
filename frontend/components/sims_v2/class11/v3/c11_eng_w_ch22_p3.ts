@@ -19,24 +19,24 @@ export const c11_eng_w_ch22_p3: SimDef = {
         hook: 'The bias is print\'s, not the songs\' — a living library carried in voice and memory is still literature, just one our syllabus forgot.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation in literature is the disciplined process of examining a text\'s explicit and implicit meanings by evaluating its cultural context, literary techniques.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'My Three Passions\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_22_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Read the three tribal songs as evidence, then the \'Painted Words\' theory — and explain why the argument puts examples before analysis.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_22_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are reading a tribal song from the Bastar region that repeats the phrase "forest is our mother" in every stanza.',
+          caseStudy: { intro: 'Analyse \'My Three Passions\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the primary difference between analyzing a written lyric poem and analyzing an oral tribal verse in terms of authorial intention.', options: [
                 { text: 'A written lyric poem has a fixed text and a single identifiable author whose intention', outcome: 'A written lyric poem has a fixed text and a single identifiable author whose intention can.' },
                 { text: 'primitive', outcome: 'Not quite — Students often assume that because tribal verse uses simple vocabulary and repetition, it.', reveals: 'because-tribal-verse-uses-simple' },
                 { text: 'unsophisticated', outcome: 'Not quite — Students often assume that because tribal verse uses simple vocabulary and repetition, it.', reveals: 'because-tribal-verse-uses-simple' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_22_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re asked in the board exam: "Tribal verse is not just poetry; it is a living archive of a community\'s history and ecology." Write a critical.',
+          caseStudy: { intro: 'For written answers on \'My Three Passions\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the PEEL structure for writing an analytical paragraph, and what does each letter stand for?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., confusing Evidence with.' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students often think "writing skills based on the chapter" means reproducing summaries or memorized.', reveals: 'writing-skills-based-on-the' }
@@ -55,12 +55,12 @@ export const c11_eng_w_ch22_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation in literature is the disciplined.',
+          question: 'Critical thinking on \'My Three Passions\' — analysing the text to reach.',
           hint: 'Review the concept of "formulaic epithet" and "theme" in oral literature using the.',
           misconception: 'Students often assume that because tribal verse uses simple vocabulary and repetition, it is "primitive".',
           parts: [
@@ -69,9 +69,9 @@ export const c11_eng_w_ch22_p3: SimDef = {
                   hint: 'Review the concept of "formulaic epithet" and "theme" in oral literature using the example of the.',
                   misconception: 'Students often assume that because tribal verse uses simple vocabulary and repetition, it is "primitive" or "unsophisticated" compared.' }
           ],
-            remediations: { 'because-tribal-verse-uses-simple': { steps: ['Have the student listen to a recorded performance of a tribal song (e.g., from the IGNCA archive) without reading the.', 'Provide a side-by-side comparison of two variants of the same oral verse to demonstrate fluidity.', 'Assign a micro-analysis: pick one formulaic phrase from the textbook verse and trace its three occurrences, noting.', 'Discuss how the verse\'s "simplicity" is a technology for memory and resistance.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'because-tribal-verse-uses-simple': { steps: ['Have the student listen to a recorded performance of a tribal song (e.g., from the IGNCA archive) without reading the.', 'Provide a side-by-side comparison of two variants of the same oral verse to demonstrate fluidity.', 'Assign a micro-analysis: pick one formulaic phrase from the textbook verse and trace its three occurrences, noting.', 'Discuss how the verse\'s "simplicity" is a technology for memory and resistance.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter "Tribal Verse" refer to the ability.',
+          question: 'Writing skills from \'My Three Passions\' — using the text as a model.',
           hint: 'If stuck, review the distinction between \'content knowledge\' (what the essay says) and.',
           misconception: 'Students often think "writing skills based on the chapter" means reproducing summaries or memorized answers.',
           parts: [
@@ -84,18 +84,18 @@ export const c11_eng_w_ch22_p3: SimDef = {
                   hint: 'If stuck, review the distinction between \'content knowledge\' (what the essay says) and \'writing.',
                   misconception: 'Students often think "writing skills based on the chapter" means reproducing summaries or memorized answers.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['If a student produces a summary instead of analysis: 1) Highlight every sentence that merely retells content.', '2) Ask: "What is the argument this paragraph is making?" 3) Have them rewrite the paragraph starting with a clear.', '4) Practice with three different prompts until the PEEL structure becomes automatic.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['If a student produces a summary instead of analysis: 1) Highlight every sentence that merely retells content.', '2) Ask: "What is the argument this paragraph is making?" 3) Have them rewrite the paragraph starting with a clear.', '4) Practice with three different prompts until the PEEL structure becomes automatic.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_22_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points is the skill of preparing for.',
+          question: 'Discussion points on \'My Three Passions\' — speaking and listening around the.',
           hint: 'If stuck, re-read the essay\'s sections on \'The Crisis of Language\' and \'Translation\'.',
           misconception: 'Students treat \'discussion points\' as a list of opinions to memorize rather than argumentative positions to defend.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points is the skill of preparing for, participating',
-                  options: ['Speaking and Listening: Discussion Points is the skill of preparing for, participating', '"Before You Read: Context and Background" is a pre-reading pedagogical stage that equips', 'Plot and narrative structure in an autobiographical essay refers to the deliberate', 'Setting in a reflective essay refers to the metaphorical, emotional, and intellectual'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'My Three Passions\'',
+                  options: ['Discussion points on \'My Three Passions\'', '\'My Three Passions\' (Woven Words, ch', 'The plot/narrative arc of \'My Three Passions\'', 'The setting of \'My Three Passions\''],
                   hint: 'If stuck, re-read the essay\'s sections on \'The Crisis of Language\' and \'Translation\' while filling.',
                   misconception: 'Students treat \'discussion points\' as a list of opinions to memorize rather than argumentative positions to defend.' }
           ],
-            remediations: { 'students-treat-discussion-points-as': { steps: ['Have the student highlight every claim Devy makes in the essay (e.g., \'Tribal languages are not dialects\', \'Print kills.', 'Convert each highlight into a debate motion: \'This House agrees that...\'.', 'Practice the \'Claim-Evidence-Reasoning\' frame orally: "Devy claims X [claim].', 'In paragraph 3 he writes Y [evidence].'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-discussion-points-as': { steps: ['Have the student highlight every claim Devy makes in the essay (e.g., \'Tribal languages are not dialects\', \'Print kills.', 'Convert each highlight into a debate motion: \'This House agrees that...\'.', 'Practice the \'Claim-Evidence-Reasoning\' frame orally: "Devy claims X [claim].', 'In paragraph 3 he writes Y [evidence].'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

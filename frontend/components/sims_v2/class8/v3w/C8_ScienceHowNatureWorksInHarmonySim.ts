@@ -6,13 +6,13 @@ import C8_ScienceHowNatureWorksInHarmonySim from '../../../simulations/c6_12/C8_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_sciencehownatureworksinharmonysim: SimDef = {
     id: 'v3w_c8_sciencehownatureworksinharmonysim',
-    title: 'How Nature Works In Harmony',
+    title: 'Electromagnet: Construction and Working Principle',
     subtitle: 'Covers construction (coil, core, battery, switch), working principle (current → magnetic.',
     classLevel: 8, subject: 'science', topic: 'Electromagnet: Construction and Working Principle',
     chapters: [],
     nodeIds: ['c8_physics_ch2_3', 'c8_physics_ch2_10', 'c8_physics_ch2_4', 'c8_physics_ch2_5', 'c8_physics_ch2_8', 'c8_physics_ch2_9', 'c8_physics_ch6_8', 'c8_physics_ch4_6'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Observe how a doorbell works — when you press the button, a metal striker hits the bell, but there is no.', goal: 'Master How Nature Works In Harmony.' },
+    scenario: { role: 'a class 8 learner', intro: 'Observe how a doorbell works — when you press the button, a metal striker hits the bell, but there is no.', goal: 'Master Electromagnet: Construction and Working Principle.' },
     discovery: {
         question: 'You wind 100 turns of insulated copper wire around a soft iron nail and connect it to a 1.5 V cell. The nail picks up 5 paper clips.',
         options: ['It will pick up MORE than 5 paper clips (likely 8-12)', 'stores', 'magnetization'],
@@ -78,7 +78,7 @@ export const w_c8_sciencehownatureworksinharmonysim: SimDef = {
             { text: 'Round to two significant figures (since inputs have two): t ≈ 0.37 s.', faded: true, blankAnswer: '0.37 s' }
             ] } },
         { type: 'dissect', nodeId: 'c8_physics_ch2_10', title: 'Identify each idea',
-          dissect: { specimen: 'How Nature Works In Harmony', spots: [
+          dissect: { specimen: 'Electromagnet: Construction and Working Principle', spots: [
             { id: 's1', label: 'An electromagnet is a temporary', prompt: 'Which idea is this? — An electromagnet is a temporary magnet created by passing an electric current through a.', answer: 'An electromagnet is a temporary', options: ['An electromagnet is a temporary', 'Efficiency of a light bulb', 'The strength of an electromagnet', 'Applications of electromagnets utilize the'] },
             { id: 's2', label: 'Efficiency of a light bulb', prompt: 'Which idea is this? — Efficiency of a light bulb is the ratio of useful light energy output to the total.', answer: 'Efficiency of a light bulb', options: ['Efficiency of a light bulb', 'An electromagnet is a temporary', 'The strength of an electromagnet', 'Applications of electromagnets utilize the'] },
             { id: 's3', label: 'The strength of an electromagnet', prompt: 'Which idea is this? — The strength of an electromagnet is the magnetic force it exerts, measured by the number.', answer: 'The strength of an electromagnet', options: ['The strength of an electromagnet', 'An electromagnet is a temporary', 'Efficiency of a light bulb', 'Applications of electromagnets utilize the'] },
@@ -87,7 +87,7 @@ export const w_c8_sciencehownatureworksinharmonysim: SimDef = {
             { id: 's6', label: 'An electric fuse is a', prompt: 'Which idea is this? — An electric fuse is a safety device that protects electrical circuits and appliances by.', answer: 'An electric fuse is a', options: ['An electric fuse is a', 'An electromagnet is a temporary', 'Efficiency of a light bulb', 'The strength of an electromagnet'] }
           ] } }
     ],
-    explore: { component: C8_ScienceHowNatureWorksInHarmonySim, prompt: 'Explore the interactive — How Nature Works In Harmony' },
+    explore: { component: C8_ScienceHowNatureWorksInHarmonySim, prompt: 'Explore the interactive — Electromagnet: Construction and Working Principle' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch2_3', difficulty: 'standard',
           question: 'An electromagnet is a temporary magnet created by passing an electric current.',

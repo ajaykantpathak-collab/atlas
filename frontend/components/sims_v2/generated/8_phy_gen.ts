@@ -2000,7 +2000,7 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Solubility Of a Solid Solute In",
+    "title": "Solubility Of a Solid Solute",
     "text": "Solubility of a solid solute in a liquid solvent generally increases with temperature because higher thermal energy helps overcome the intermolecular forces holding the solute particles together, allowing more solute to dissolve.",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -3180,7 +3180,7 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Lunar Calendar Measures Time By",
+    "title": "Lunar Calendar Measures Time",
     "text": "A lunar calendar measures time by tracking the cyclic pattern of Moon phases, where one month equals one complete lunar cycle (synodic month) of approximately 29.",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3192,13 +3192,13 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Lunar Eclipse Occurs When The",
+    "title": "Lunar Eclipse Occurs When",
     "text": "A lunar eclipse occurs when the Earth comes directly between the Sun and the Moon, casting its shadow on the Moon's surface. This alignment happens only during a Full Moon when the Moon passes through Earth's shadow cones (umbra and penumbra) in space.",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Solar Eclipse Occurs When The",
+    "title": "Solar Eclipse Occurs When",
     "text": "A solar eclipse occurs when the Moon passes directly between the Sun and Earth, casting its shadow on Earth's surface. This alignment happens only during a New Moon phase when the Sun, Moon, and Earth are nearly in a straight line (syzygy).",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"

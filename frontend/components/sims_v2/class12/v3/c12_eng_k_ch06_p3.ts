@@ -19,7 +19,7 @@ export const c12_eng_k_ch06_p3: SimDef = {
         hook: 'Metaphysical poetry argues through conceits, not pretty comparisons: morning shadows are the disguises lovers \'ourselves produced\'; afternoon shadows fall inward, blinding the deceivers. It\'s called a Lecture — the shadow is the syllabus.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in poetry analysis is the disciplined process of examining a poem\'s structural, linguistic, and thematic elements to construct an evidence-based interpretation that goes beyond.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'A Lecture Upon the Shadow\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_06_013', title: 'Your mission',
@@ -29,20 +29,20 @@ export const c12_eng_k_ch06_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_06_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re a detective examining a crime scene — the poem is the scene, and the "shadow" is your key clue.',
+          caseStudy: { intro: 'Analyse \'A Lecture Upon the Shadow\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is a metaphysical conceit, and how does it differ from a regular metaphor or simile?', options: [
                 { text: 'A metaphysical conceit is an extended, intellectually complex comparison between two', outcome: 'A metaphysical conceit is an extended, intellectually complex comparison between two vastly.' },
                 { text: 'a conceit is just a fancy metaphor', outcome: 'Not quite — Students treat the shadow imagery as *decoration* — "Donne uses shadows to show love has ups and.', reveals: 'students-treat-the-shadow-imagery' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_06_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing a 6-mark question: "How does Donne use the shadow metaphor to trace the stages of love in \'A Lecture Upon the Shadow\'?".',
+          caseStudy: { intro: 'For written answers on \'A Lecture Upon the Shadow\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing literature answers for CBSE Class 12?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Evidence, Logic', outcome: 'Not quite — Students believe "embedding quotes" means dropping a full line or stanza into the answer without.', reveals: 'embedding-quotes-means-dropping-a' },
                 { text: 'Point, Example, Explain, Leave', outcome: 'Not quite — Students believe "embedding quotes" means dropping a full line or stanza into the answer without.', reveals: 'embedding-quotes-means-dropping-a' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_06_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re sitting in a literature circle with three classmates, each holding a copy of Donne\'s poem.',
+          caseStudy: { intro: 'Talk through \'A Lecture Upon the Shadow\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of preparing discussion points before a speaking and listening activity on a poem?', options: [
                 { text: 'The primary purpose is to anchor oral contributions in specific textual evidence (lines,', outcome: 'The primary purpose is to anchor oral contributions in specific textual evidence (lines, images.' },
                 { text: 'to memorize what to say', outcome: 'Not quite — Students believe a "good discussion" means everyone shares their personal feeling about the poem.', reveals: 'a-good-discussion-means-everyone' },
@@ -67,7 +67,7 @@ export const c12_eng_k_ch06_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_013', difficulty: 'standard',
-          question: 'Critical thinking in poetry analysis is the disciplined process of examining.',
+          question: 'Critical thinking on \'A Lecture Upon the Shadow\' — analysing the text to reach.',
           hint: 'If stuck on the conceit\'s logic, return to c12_eng_k_cbse_06_008 (Imagery and Metaphor).',
           misconception: 'Students treat the shadow imagery as *decoration* — "Donne uses shadows to show love has ups and downs." This misses.',
           parts: [
@@ -89,7 +89,7 @@ export const c12_eng_k_ch06_p3: SimDef = {
           ],
             remediations: { 'students-treat-the-shadow-imagery': { steps: ['**Re-read the poem aloud** marking every verb tense shift (present → past → future conditional).', '**Map the three time-zones** on a timeline: Morning (stanzas 1-2), Noon (stanza 3), Afternoon (stanzas 4-5).', '**Trace the pronoun shift**: "we" → "our loves" → "thou/me" → "our selves" — who is acting on whom at each stage?', '**Revisit c12_eng_k_cbse_06_008** (Imagery and Metaphor) and **c12_eng_k_cbse_06_009** (Irony and Symbolism) to rebuild.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_014', difficulty: 'standard',
-          question: 'Writing skills based on a poetry chapter involve the ability to compose.',
+          question: 'Writing skills from \'A Lecture Upon the Shadow\' — using the text as a model.',
           hint: 'If stuck on PEEL mechanics, revisit c11_eng_w_cbse_01_014 (Writing Skills: PEEL.',
           misconception: 'Students believe "embedding quotes" means dropping a full line or stanza into the answer without introduction.',
           parts: [
@@ -104,7 +104,7 @@ export const c12_eng_k_ch06_p3: SimDef = {
           ],
             remediations: { 'embedding-quotes-means-dropping-a': { steps: ['If a student cannot produce a PEEL paragraph under timed conditions: (1) Give them a completed PEEL paragraph on.', '(2) Have them orally rehearse the four moves for a new question before writing.', '(3) Assign a "micro-PEEL" drill: write only the Point and Link sentences for three past-paper questions, then build.', '(4) Re-diagnose using DIAGNOSTIC_QUESTION_3 — if the Point sentence is still descriptive not analytical, return.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'A Lecture Upon the Shadow\' — speaking and listening.',
           hint: 'If stuck, revisit c12_eng_k_cbse_06_008 (imagery/metaphor) and c12_eng_k_cbse_06_009.',
           misconception: 'Students believe a "good discussion" means everyone shares their personal feeling about the poem ("I liked the.',
           parts: [

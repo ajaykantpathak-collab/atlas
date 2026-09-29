@@ -6,13 +6,13 @@ import C12_AccountancyRetirementPartnerGainingSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_accountancyretirementpartnergainingsim: SimDef = {
     id: 'v3w_c12_accountancyretirementpartnergainingsim',
-    title: 'Retirement Partner Gaining',
+    title: 'New Profit Sharing Ratio and Gaining Ratio on Retirement of a Partner',
     subtitle: 'This node covers computation of new profit sharing ratio and gaining ratio on retirement.',
     classLevel: 12, subject: 'accountancy', topic: 'New Profit Sharing Ratio and Gaining Ratio on Retirement of a Partner',
     chapters: [],
     nodeIds: ['c12_acc_cbse_03_001', 'c12_acc_cbse_03_002', 'c12_acc_cbse_03_003', 'c12_acc_cbse_03_004', 'c12_acc_cbse_03_009', 'c12_acc_cbse_02_001', 'c12_acc_cbse_03_007', 'c12_acc_cbse_03_008', 'c12_acc_cbse_03_010', 'c12_acc_cbse_02_003', 'c12_acc_cbse_02_004', 'c12_acc_cbse_02_006', 'c12_acc_cbse_02_008', 'c12_acc_cbse_02_011', 'c12_acc_cbse_02_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine three friends — Aryan, Bhavya, and Chirag — run a café sharing profits 3:2:1.', goal: 'Master Retirement Partner Gaining.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine three friends — Aryan, Bhavya, and Chirag — run a café sharing profits 3:2:1.', goal: 'Master New Profit Sharing Ratio and Gaining Ratio on Retirement of a Partner.' },
     discovery: {
         question: 'X, Y, Z share profits 1/2, 1/3, 1/6. Z retires. X and Y agree to share future profits equally. A student calculates gaining ratio as 1:1.',
         options: ['**Correct Answer:** The student is WRONG', 'equal new sharing', 'equal gaining'],
@@ -81,7 +81,7 @@ export const w_c12_accountancyretirementpartnergainingsim: SimDef = {
             { text: 'Convert to common denominator (LCM of 30,60,60 = 60). A = 26/60, B = 19/60, C = 15/60. New ratio = 26:19:15.', faded: true, blankAnswer: 'New Profit Sharing Ratio = 26:19:15; Sacrificing Ratio = 2:1' }
             ] } }
     ],
-    explore: { component: C12_AccountancyRetirementPartnerGainingSim, prompt: 'Explore the interactive — Retirement Partner Gaining' },
+    explore: { component: C12_AccountancyRetirementPartnerGainingSim, prompt: 'Explore the interactive — New Profit Sharing Ratio and Gaining Ratio on Retirement of a Partner' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_acc_cbse_03_001', difficulty: 'standard',
           question: 'When a partner retires from a partnership firm, the continuing partners acquire.',

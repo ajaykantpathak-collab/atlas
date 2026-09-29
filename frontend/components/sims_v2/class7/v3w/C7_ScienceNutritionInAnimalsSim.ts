@@ -6,13 +6,13 @@ import C7_ScienceNutritionInAnimalsSim from '../../../simulations/c6_12/C7_Scien
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_sciencenutritioninanimalssim: SimDef = {
     id: 'v3w_c7_sciencenutritioninanimalssim',
-    title: 'Nutrition In Animals',
+    title: 'Life Processes: Nutrition, Respiration, Excretion Overview',
     subtitle: 'Covers the general overview of life processes (nutrition, respiration, and excretion) in.',
     classLevel: 7, subject: 'science', topic: 'Life Processes: Nutrition, Respiration, Excretion Overview',
     chapters: [],
     nodeIds: ['c7_bio_ch02_001', 'c7_bio_ch03_002', 'c7_bio_ch03_009', 'c7_bio_ch02_002', 'c7_bio_ch02_005', 'c7_bio_ch02_008', 'c7_bio_ch02_009', 'c7_bio_ch02_012', 'c7_bio_ch03_006', 'c7_bio_ch03_010', 'c7_bio_ch01_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'When you eat a heavy meal of *parathas* during lunch, your body does not just store the food; it immediately.', goal: 'Master Nutrition In Animals.' },
+    scenario: { role: 'a class 7 learner', intro: 'When you eat a heavy meal of *parathas* during lunch, your body does not just store the food; it immediately.', goal: 'Master Life Processes: Nutrition, Respiration, Excretion Overview.' },
     discovery: {
         question: 'What term describes animals that feed exclusively on other animals\' flesh?',
         options: ['Carnivores', 'herbivores', '(flesh)'],
@@ -76,7 +76,7 @@ export const w_c7_sciencenutritioninanimalssim: SimDef = {
             { text: 'State the final conclusion connecting chewing behavior to cellulose digestion.', faded: true, blankAnswer: 'The buffalo chews its cud continuously to grind tough plant.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_bio_ch03_002', title: 'Identify each idea',
-          dissect: { specimen: 'Nutrition In Animals', spots: [
+          dissect: { specimen: 'Life Processes: Nutrition, Respiration, Excretion Overview', spots: [
             { id: 's1', label: 'Life processes are the essential', prompt: 'Which idea is this? — Life processes are the essential biological activities performed by all living.', answer: 'Life processes are the essential', options: ['Life processes are the essential', 'The autotrophic mode of nutrition', 'Phloem is a specialized plant', 'The classification of animals based'] },
             { id: 's2', label: 'The autotrophic mode of nutrition', prompt: 'Which idea is this? — The autotrophic mode of nutrition is a physiological process in which organisms,.', answer: 'The autotrophic mode of nutrition', options: ['The autotrophic mode of nutrition', 'Life processes are the essential', 'Phloem is a specialized plant', 'The classification of animals based'] },
             { id: 's3', label: 'Phloem is a specialized plant', prompt: 'Which idea is this? — Phloem is a specialized plant vascular tissue responsible for transporting dissolved.', answer: 'Phloem is a specialized plant', options: ['Phloem is a specialized plant', 'Life processes are the essential', 'The autotrophic mode of nutrition', 'The classification of animals based'] },
@@ -85,15 +85,15 @@ export const w_c7_sciencenutritioninanimalssim: SimDef = {
             { id: 's6', label: 'Variations in digestion across animal', prompt: 'Which idea is this? — Variations in digestion across animal groups refer to the structural and physiological.', answer: 'Variations in digestion across animal', options: ['Variations in digestion across animal', 'Life processes are the essential', 'The autotrophic mode of nutrition', 'Phloem is a specialized plant'] }
           ] } }
     ],
-    explore: { component: C7_ScienceNutritionInAnimalsSim, prompt: 'Explore the interactive — Nutrition In Animals' },
+    explore: { component: C7_ScienceNutritionInAnimalsSim, prompt: 'Explore the interactive — Life Processes: Nutrition, Respiration, Excretion Overview' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_bio_ch02_001', difficulty: 'standard',
           question: 'Life processes are the essential biological activities performed by all living.',
           hint: 'Review the Class 6 introduction to the digestive system and how breathing supplies air to.',
           misconception: 'Students often think that excretion and egestion (defecation) are the exact same biological process, believing that.',
           parts: [
-                { id: 'a', prompt: 'If a stray dog eats a contaminated piece of food containing harmful bacteria, which life process will immediately deal with the toxins and undigested waste?', answer: 'Steps: 1) Identify that the food enters the alimentary canal through nutrition',
-                  options: ['Steps: 1) Identify that the food enters the alimentary canal through nutrition', 'toxic substances remain inside cells forever'],
+                { id: 'a', prompt: 'If a stray dog eats a contaminated piece of food containing harmful bacteria, which life process will immediately deal with the toxins and undigested waste?', answer: 'Identify that the food enters the alimentary canal through nutrition',
+                  options: ['Identify that the food enters the alimentary canal through nutrition', 'toxic substances remain inside cells forever'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that excretion and egestion (defecation) are the exact same biological process, believing that passing solid stool is.' }
           ],

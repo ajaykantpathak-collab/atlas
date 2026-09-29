@@ -6,13 +6,13 @@ import C8_ChemistryWaterpropertiesandcompositionSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_chemistrywaterpropertiesandcompositionsim: SimDef = {
     id: 'v3w_c8_chemistrywaterpropertiesandcompositionsim',
-    title: 'Waterpropertiesandcomposition',
+    title: 'Properties of Common Compounds: Water, Carbon Dioxide',
     subtitle: 'Covers the physical properties (boiling point, freezing point, appearance, solubility).',
     classLevel: 8, subject: 'chemistry', topic: 'Properties of Common Compounds: Water, Carbon Dioxide',
     chapters: [],
     nodeIds: ['c8_chem_ch3_12', 'c8_chem_ch3_2', 'c8_chem_ch3_3', 'c8_chem_ch3_9', 'c8_chem_ch3_4', 'c8_chem_ch2_4', 'c8_chem_ch3_1', 'c8_chem_ch3_10', 'c8_chem_ch3_11', 'c8_chem_ch2_1', 'c8_chem_ch3_5', 'c8_chem_ch3_8', 'c8_chem_ch2_2'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'When you open a cold bottle of a fizzy soft drink in summer, you see bubbles escaping; that gas is carbon.', goal: 'Master Waterpropertiesandcomposition.' },
+    scenario: { role: 'a class 8 learner', intro: 'When you open a cold bottle of a fizzy soft drink in summer, you see bubbles escaping; that gas is carbon.', goal: 'Master Properties of Common Compounds: Water, Carbon Dioxide.' },
     discovery: {
         question: 'What term is used to describe a mixture that has a uniform composition throughout?',
         options: ['A homogeneous mixture', 'heterogeneous', 'if a mixture is liquid, it must automatically be homogeneous'],
@@ -77,7 +77,7 @@ export const w_c8_chemistrywaterpropertiesandcompositionsim: SimDef = {
             { text: 'Verify the calculation and state the final result clearly with appropriate units.', faded: true, blankAnswer: 'Chemical formula is $H_2O$; total number of atoms in 3.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_chem_ch3_2', title: 'Identify each idea',
-          dissect: { specimen: 'Waterpropertiesandcomposition', spots: [
+          dissect: { specimen: 'Properties of Common Compounds: Water, Carbon Dioxide', spots: [
             { id: 's1', label: 'Water H_2O and carbon dioxide', prompt: 'Which idea is this? — Water ($H_2O$) and carbon dioxide ($CO_2$) are two of the most common and vital chemical.', answer: 'Water H_2O and carbon dioxide', options: ['Water H_2O and carbon dioxide', 'A homogeneous mixture has a', 'Air is a homogeneous mixture', 'A compound is a pure'] },
             { id: 's2', label: 'A homogeneous mixture has a', prompt: 'Which idea is this? — A homogeneous mixture has a uniform composition throughout, meaning its components are.', answer: 'A homogeneous mixture has a', options: ['A homogeneous mixture has a', 'Water H_2O and carbon dioxide', 'Air is a homogeneous mixture', 'A compound is a pure'] },
             { id: 's3', label: 'Air is a homogeneous mixture', prompt: 'Which idea is this? — Air is a homogeneous mixture of various gases, primarily nitrogen (approx.', answer: 'Air is a homogeneous mixture', options: ['Air is a homogeneous mixture', 'Water H_2O and carbon dioxide', 'A homogeneous mixture has a', 'A compound is a pure'] },
@@ -86,7 +86,7 @@ export const w_c8_chemistrywaterpropertiesandcompositionsim: SimDef = {
             { id: 's6', label: 'A molecule is a group', prompt: 'Which idea is this? — A molecule is a group of two or more atoms chemically combined together in a fixed ratio,.', answer: 'A molecule is a group', options: ['A molecule is a group', 'Water H_2O and carbon dioxide', 'A homogeneous mixture has a', 'Air is a homogeneous mixture'] }
           ] } }
     ],
-    explore: { component: C8_ChemistryWaterpropertiesandcompositionSim, prompt: 'Explore the interactive — Waterpropertiesandcomposition' },
+    explore: { component: C8_ChemistryWaterpropertiesandcompositionSim, prompt: 'Explore the interactive — Properties of Common Compounds: Water, Carbon Dioxide' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_chem_ch3_12', difficulty: 'standard',
           question: 'Water ($H_2O$) and carbon dioxide ($CO_2$) are two of the most common and vital.',

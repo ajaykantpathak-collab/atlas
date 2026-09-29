@@ -6,13 +6,13 @@ import C12_ChemistryDiazoniumsaltsSim from '../../../simulations/c6_12/C12_Chemi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_chemistrydiazoniumsaltssim: SimDef = {
     id: 'v3w_c12_chemistrydiazoniumsaltssim',
-    title: 'Diazoniumsalts',
+    title: 'Diazonium Salts: Preparation and Reactions',
     subtitle: 'This node covers: (a) preparation of aryldiazonium salts (diazotisation) with conditions;.',
     classLevel: 12, subject: 'chemistry', topic: 'Diazonium Salts: Preparation and Reactions',
     chapters: [],
     nodeIds: ['c12_chem_cbse_09_009', 'c12_chem_cbse_09_010', 'c12_chem_cbse_07_004', 'c12_chem_cbse_07_009', 'c12_chem_cbse_06_005', 'c12_chem_cbse_09_006', 'c12_chem_cbse_09_002', 'c12_chem_cbse_09_004', 'c12_chem_cbse_09_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a bottle of aniline in the laboratory — it is a colourless liquid that turns brown on exposure to air.', goal: 'Master Diazoniumsalts.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a bottle of aniline in the laboratory — it is a colourless liquid that turns brown on exposure to air.', goal: 'Master Diazonium Salts: Preparation and Reactions.' },
     discovery: {
         question: 'Compare the Sandmeyer reaction and the Gattermann reaction for introducing chlorine or bromine into an aromatic ring via diazonium salts.',
         options: ['Sandmeyer uses CuCl/CuBr (Cu⁺ salts) in corresponding HX', 'both give same yield', 'copper powder is a catalyst'],
@@ -80,7 +80,7 @@ export const w_c12_chemistrydiazoniumsaltssim: SimDef = {
             { text: 'Match boiling points: highest (350.8 K) = primary (butan-1-amine); middle (329.3 K) = secondary (diethylamine); lowest.', faded: true, blankAnswer: 'A = primary amine (butan-1-amine), B = secondary amine.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_chem_cbse_09_010', title: 'Identify each idea',
-          dissect: { specimen: 'Diazoniumsalts', spots: [
+          dissect: { specimen: 'Diazonium Salts: Preparation and Reactions', spots: [
             { id: 's1', label: 'Diazonium salts are a class', prompt: 'Which idea is this? — Diazonium salts are a class of organic compounds with the general formula Ar–N₂⁺X⁻ (where.', answer: 'Diazonium salts are a class', options: ['Diazonium salts are a class', 'A coupling reaction is an', 'Phenols are aromatic compounds where', 'Kolbes reaction is the electrophilic'] },
             { id: 's2', label: 'A coupling reaction is an', prompt: 'Which idea is this? — A coupling reaction is an electrophilic aromatic substitution where an aryldiazonium ion.', answer: 'A coupling reaction is an', options: ['A coupling reaction is an', 'Diazonium salts are a class', 'Phenols are aromatic compounds where', 'Kolbes reaction is the electrophilic'] },
             { id: 's3', label: 'Phenols are aromatic compounds where', prompt: 'Which idea is this? — Phenols are aromatic compounds where a hydroxyl (–OH) group is directly attached to an.', answer: 'Phenols are aromatic compounds where', options: ['Phenols are aromatic compounds where', 'Diazonium salts are a class', 'A coupling reaction is an', 'Kolbes reaction is the electrophilic'] },
@@ -89,7 +89,7 @@ export const w_c12_chemistrydiazoniumsaltssim: SimDef = {
             { id: 's6', label: 'Physical properties of amines refer', prompt: 'Which idea is this? — Physical properties of amines refer to the observable characteristics (state, odor,.', answer: 'Physical properties of amines refer', options: ['Physical properties of amines refer', 'Diazonium salts are a class', 'A coupling reaction is an', 'Phenols are aromatic compounds where'] }
           ] } }
     ],
-    explore: { component: C12_ChemistryDiazoniumsaltsSim, prompt: 'Explore the interactive — Diazoniumsalts' },
+    explore: { component: C12_ChemistryDiazoniumsaltsSim, prompt: 'Explore the interactive — Diazonium Salts: Preparation and Reactions' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_chem_cbse_09_009', difficulty: 'standard',
           question: 'Diazonium salts are a class of organic compounds with the general formula.',

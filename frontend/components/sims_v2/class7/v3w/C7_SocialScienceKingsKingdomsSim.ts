@@ -6,13 +6,13 @@ import C7_SocialScienceKingsKingdomsSim from '../../../simulations/c6_12/C7_Soci
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_socialsciencekingskingdomssim: SimDef = {
     id: 'v3w_c7_socialsciencekingskingdomssim',
-    title: 'Social Science Kings Kingdoms',
+    title: 'Janapadas: Early Kingdoms and Their Formation',
     subtitle: 'Covers the socio-political transition, land settlement patterns, and early political.',
     classLevel: 7, subject: 'science', topic: 'Janapadas: Early Kingdoms and Their Formation',
     chapters: [],
     nodeIds: ['c7_hist_ch01_002', 'c7_hist_ch04_008', 'c7_hist_ch01_007', 'c7_hist_ch01_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine visiting an old village where generations of your family have farmed the exact same plots of land,.', goal: 'Master Social Science Kings Kingdoms.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine visiting an old village where generations of your family have farmed the exact same plots of land,.', goal: 'Master Janapadas: Early Kingdoms and Their Formation.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Janapadas were early territorial states that.', text: 'Janapadas were early territorial states that emerged in the Indian subcontinent around the 6th century BCE, representing a major shift from tribal nomadic life to settled, land-based kingdoms ruled.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -52,14 +52,14 @@ export const w_c7_socialsciencekingskingdomssim: SimDef = {
             { text: 'Trace the military consequence: the ruler could now launch long campaigns without worrying about soldiers leaving for.', faded: true, blankAnswer: 'Kings replaced seasonal farmers with professional standing.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_hist_ch04_008', title: 'Identify each idea',
-          dissect: { specimen: 'Social Science Kings Kingdoms', spots: [
+          dissect: { specimen: 'Janapadas: Early Kingdoms and Their Formation', spots: [
             { id: 's1', label: 'Janapadas were early territorial states', prompt: 'Which idea is this? — Janapadas were early territorial states that emerged in the Indian subcontinent around.', answer: 'Janapadas were early territorial states', options: ['Janapadas were early territorial states', 'This topic explores the vibrant', 'Magadha emerged as the most', 'The development of organized military'] },
             { id: 's2', label: 'This topic explores the vibrant', prompt: 'Which idea is this? — This topic explores the vibrant economic life, bustling internal trade networks,.', answer: 'This topic explores the vibrant', options: ['This topic explores the vibrant', 'Janapadas were early territorial states', 'Magadha emerged as the most', 'The development of organized military'] },
             { id: 's3', label: 'Magadha emerged as the most', prompt: 'Which idea is this? — Magadha emerged as the most powerful Mahajanapada in ancient India during the 6th to 4th.', answer: 'Magadha emerged as the most', options: ['Magadha emerged as the most', 'Janapadas were early territorial states', 'This topic explores the vibrant', 'The development of organized military'] },
             { id: 's4', label: 'The development of organized military', prompt: 'Which idea is this? — The development of organized military structures, standing armies, and defensive.', answer: 'The development of organized military', options: ['The development of organized military', 'Janapadas were early territorial states', 'This topic explores the vibrant', 'Magadha emerged as the most'] }
           ] } }
     ],
-    explore: { component: C7_SocialScienceKingsKingdomsSim, prompt: 'Explore the interactive — Social Science Kings Kingdoms' },
+    explore: { component: C7_SocialScienceKingsKingdomsSim, prompt: 'Explore the interactive — Janapadas: Early Kingdoms and Their Formation' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_hist_ch01_002', difficulty: 'standard',
           question: 'Janapadas were early territorial states that emerged in the Indian subcontinent.',

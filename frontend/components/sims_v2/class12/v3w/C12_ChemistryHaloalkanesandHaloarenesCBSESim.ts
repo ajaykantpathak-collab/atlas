@@ -6,13 +6,13 @@ import C12_ChemistryHaloalkanesandHaloarenesCBSESim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_chemistryhaloalkanesandhaloarenescbsesim: SimDef = {
     id: 'v3w_c12_chemistryhaloalkanesandhaloarenescbsesim',
-    title: 'Haloalkanesand Haloarenes CBSE',
+    title: 'Nomenclature of Haloalkanes and Haloarenes',
     subtitle: 'Covers IUPAC nomenclature rules for haloalkanes (including allylic, benzylic, vinylic).',
     classLevel: 12, subject: 'chemistry', topic: 'Nomenclature of Haloalkanes and Haloarenes',
     chapters: [],
     nodeIds: ['c12_chem_cbse_06_002', 'c12_chem_cbse_06_003', 'c12_chem_cbse_06_005', 'c12_chem_cbse_06_008', 'c12_chem_cbse_06_009', 'c12_chem_cbse_06_006', 'c12_chem_cbse_06_001', 'c12_chem_cbse_07_004', 'c12_chem_cbse_07_002', 'c12_chem_cbse_07_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Look at a medicine strip — many drugs like chloramphenicol (antibiotic) or halothane (anaesthetic) contain.', goal: 'Master Haloalkanesand Haloarenes CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Look at a medicine strip — many drugs like chloramphenicol (antibiotic) or halothane (anaesthetic) contain.', goal: 'Master Nomenclature of Haloalkanes and Haloarenes.' },
     discovery: {
         question: 'Write the IUPAC name for CH₃CH₂CH(Cl)CH₃. Identify whether it is a primary, secondary, or tertiary haloalkane.',
         options: ['2-Chlorobutane; secondary haloalkane', '1-chlorobutane', '2-methyl-1-chloropropane'],
@@ -79,7 +79,7 @@ export const w_c12_chemistryhaloalkanesandhaloarenescbsesim: SimDef = {
             { text: 'If [R-X] is doubled to 0.04 M, Rate = (6.2×10⁻⁵)(0.04) = 2.48×10⁻⁶ mol L⁻¹ s⁻¹ — rate doubles, confirming first-order.', faded: true, blankAnswer: '(a) 1.24 × 10⁻⁶ mol L⁻¹ s⁻¹, (b) 3.11 hours, (c) 10.3.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_chem_cbse_06_003', title: 'Identify each idea',
-          dissect: { specimen: 'Haloalkanesand Haloarenes CBSE', spots: [
+          dissect: { specimen: 'Nomenclature of Haloalkanes and Haloarenes', spots: [
             { id: 's1', label: 'Nomenclature of haloalkanes and haloarenes', prompt: 'Which idea is this? — Nomenclature of haloalkanes and haloarenes is the systematic IUPAC naming of organic.', answer: 'Nomenclature of haloalkanes and haloarenes', options: ['Nomenclature of haloalkanes and haloarenes', 'Preparation of haloalkanes from alcohols', 'Haloarenes aryl halides are prepared', 'Elimination reactions in haloalkanes involve'] },
             { id: 's2', label: 'Preparation of haloalkanes from alcohols', prompt: 'Which idea is this? — Preparation of haloalkanes from alcohols involves the substitution of the hydroxyl (-OH).', answer: 'Preparation of haloalkanes from alcohols', options: ['Preparation of haloalkanes from alcohols', 'Nomenclature of haloalkanes and haloarenes', 'Haloarenes aryl halides are prepared', 'Elimination reactions in haloalkanes involve'] },
             { id: 's3', label: 'Haloarenes aryl halides are prepared', prompt: 'Which idea is this? — Haloarenes (aryl halides) are prepared by electrophilic aromatic substitution where a.', answer: 'Haloarenes aryl halides are prepared', options: ['Haloarenes aryl halides are prepared', 'Nomenclature of haloalkanes and haloarenes', 'Preparation of haloalkanes from alcohols', 'Elimination reactions in haloalkanes involve'] },
@@ -88,7 +88,7 @@ export const w_c12_chemistryhaloalkanesandhaloarenescbsesim: SimDef = {
             { id: 's6', label: 'SN1 Substitution Nucleophilic Unimolecular reaction', prompt: 'Which idea is this? — SN1 (Substitution Nucleophilic Unimolecular) reaction is a two-step nucleophilic.', answer: 'SN1 Substitution Nucleophilic Unimolecular reaction', options: ['SN1 Substitution Nucleophilic Unimolecular reaction', 'Nomenclature of haloalkanes and haloarenes', 'Preparation of haloalkanes from alcohols', 'Haloarenes aryl halides are prepared'] }
           ] } }
     ],
-    explore: { component: C12_ChemistryHaloalkanesandHaloarenesCBSESim, prompt: 'Explore the interactive — Haloalkanesand Haloarenes CBSE' },
+    explore: { component: C12_ChemistryHaloalkanesandHaloarenesCBSESim, prompt: 'Explore the interactive — Nomenclature of Haloalkanes and Haloarenes' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_chem_cbse_06_002', difficulty: 'standard',
           question: 'Nomenclature of haloalkanes and haloarenes is the systematic IUPAC naming of.',

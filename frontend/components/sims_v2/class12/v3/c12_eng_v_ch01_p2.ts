@@ -19,7 +19,7 @@ export const c12_eng_v_ch01_p2: SimDef = {
         hook: 'Finney grounds the impossible in the mundane — a tan gabardine suit, a stamp collection, a wife to get home to — so fantasy borrows credibility. Even the stamps are contested ground: the psychiatrist calls them \'refuge,\' Charley calls them inheritance from a gentler era.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas that support and enrich the primary theme of a literary work.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Third Level\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_01_007', title: 'Your mission',
@@ -29,40 +29,40 @@ export const c12_eng_v_ch01_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_01_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re watching a movie where the main character says they\'re "fine" but their shaking hands, cluttered desk, and late-night scrolling tell a different.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Third Level\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'Define "secondary theme" in your own words and give one example from any story you have read previously.', options: [
                 { text: 'A secondary theme is a supporting idea that runs through a text alongside the main theme,', outcome: 'A secondary theme is a supporting idea that runs through a text alongside the main theme, adding.' },
                 { text: 'it\'s just a minor topic', outcome: 'Not quite — Students often think "secondary theme" means "a theme that appears less often" or "a subplot.".', reveals: 'secondary-theme-means-a-theme' },
                 { text: 'secondary', outcome: 'Not quite — Students often think "secondary theme" means "a theme that appears less often" or "a subplot.".', reveals: 'secondary-theme-means-a-theme' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_01_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you\'re standing in a modern metro station — fluorescent lights, digital screens, crowds rushing — and suddenly a doorway opens onto a platform with gas.',
+          caseStudy: { intro: 'Find the lines in \'The Third Level\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'What is the definition of imagery in literature, and which five senses does it typically appeal to?', options: [
                 { text: 'Imagery is descriptive language that appeals to the five senses', outcome: 'Imagery is descriptive language that appeals to the five senses — sight, sound, smell, touch, and.' },
                 { text: 'visual description', outcome: 'Not quite — Students often treat every descriptive detail as "imagery" and every comparison as "metaphor,".', reveals: 'students-often-treat-every-descriptive' },
                 { text: 'symbolism', outcome: 'Not quite — Students often treat every descriptive detail as "imagery" and every comparison as "metaphor,".', reveals: 'students-often-treat-every-descriptive' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_01_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you\'re Charley, standing in Grand Central Station, late for the train, when a corridor you\'ve never noticed angles downward into gaslit 1894.',
+          caseStudy: { intro: 'Look in \'The Third Level\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define situational irony and give one example from "The Third Level" where the outcome contradicts Charley\'s expectations.', options: [
                 { text: 'Situational irony occurs when the actual outcome of a situation is opposite to what was', outcome: 'Situational irony occurs when the actual outcome of a situation is opposite to what was expected.' },
                 { text: 'Charley finding the third level is ironic', outcome: 'Not quite — Students conflate "irony" with "coincidence" or "unexpected event." In "The Third Level," they.', reveals: 'students-conflate-irony-with-coincidence' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_01_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading a mystery novel set in 1890s New York and encounter "gaslights," "spittoons," and "derby hat" in the same paragraph — you instantly.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Third Level\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'Define "first-day cover" as used in "The Third Level" and state its precise role in the plot\'s resolution.', options: [
                 { text: 'A first-day cover is an envelope bearing a new stamp postmarked on its first day of', outcome: 'A first-day cover is an envelope bearing a new stamp postmarked on its first day of issue, mailed.' },
                 { text: 'any old envelope with a stamp', outcome: 'Not quite — Students believe "vocabulary in context" means *looking up dictionary definitions* of difficult.', reveals: 'vocabulary-in-context-means-looking' },
                 { text: 'vocabulary in context', outcome: 'Not quite — Students believe "vocabulary in context" means *looking up dictionary definitions* of difficult.', reveals: 'vocabulary-in-context-means-looking' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_01_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you\'re reading a mystery where the narrator suddenly switches from "I walk" to "I had walked" — you\'d instantly sense a time shift.',
+          caseStudy: { intro: 'Read \'The Third Level\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the tense of the verb phrase "had been" in the opening sentence: "The presidents ...', options: [
                 { text: 'The verb phrase "I\'ve been" (I have been) is **present perfect tense**', outcome: 'The verb phrase "I\'ve been" (I have been) is **present perfect tense**.' },
                 { text: 'simple past', outcome: 'Not quite — **Misconception:** "Grammar analysis means labeling every verb\'s tense and calling it a day." **Why.', reveals: 'misconception-grammar-analysis-means-labeling' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_01_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall and see: "What does the third level refer to?" (NCERT, p.1). Don\'t panic.',
+          caseStudy: { intro: 'Answer \'The Third Level\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Define literal comprehension and give one literal question from "The Third Level" with its answer directly from the text.', options: [
                 { text: 'Literal comprehension retrieves explicitly stated information', outcome: 'Literal comprehension retrieves explicitly stated information.' },
                 { text: 'inference', outcome: 'Not quite — Students treat inferential questions as "guessing" and write opinions without textual evidence.', reveals: 'students-treat-inferential-questions-as' },
@@ -87,7 +87,7 @@ export const c12_eng_v_ch01_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas that support and enrich the primary.',
+          question: 'Secondary themes in \'The Third Level\' — the supporting ideas and motifs that.',
           hint: 'If stuck, review Class 11 Hornbill node c11_eng_h_cbse_01_007 (Theme: Secondary Themes).',
           misconception: 'Students often think "secondary theme" means "a theme that appears less often" or "a subplot." In "The Third Level,".',
           parts: [
@@ -113,7 +113,7 @@ export const c12_eng_v_ch01_p2: SimDef = {
           ],
             remediations: { 'secondary-theme-means-a-theme': { steps: ['Revisit node **c12_eng_v_cbse_01_006** (Primary Theme) — distinguish primary vs.', 'secondary using the "umbrella vs.', 'Re-read the text marking every reference to stamps, time, 1894 details, and Sam — cluster them into 3 groups.', 'For each cluster, write: "This shows that ________." The blank = secondary theme.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'The Third Level\' — the vivid, sensory language that creates.',
           hint: 'If stuck, revisit c11_eng_h_cbse_01_008 worked examples on "The Portrait of a Lady".',
           misconception: 'Students often treat every descriptive detail as "imagery" and every comparison as "metaphor," missing that imagery.',
           parts: [
@@ -128,7 +128,7 @@ export const c12_eng_v_ch01_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-every-descriptive': { steps: ['Have the student re-read the third-level arrival scene (paragraphs 3-4 of the text) and highlight every word that.', 'For each highlight, write: "This appeals to [sense] by [specific word] and creates [effect]." 3.', 'Then list every "X is Y" or "X [verb] Y" construction in the story; test each: "Does Y give X a new quality?" If yes →.', 'Re-attempt DIAGNOSTIC_QUESTION_2 and 4 with this annotated text.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'The Third Level\' — where opposite things are both true.',
           hint: 'If unable to distinguish irony types, review the three-type framework.',
           misconception: 'Students conflate "irony" with "coincidence" or "unexpected event." In "The Third Level," they often label Charley\'s.',
           parts: [
@@ -139,7 +139,7 @@ export const c12_eng_v_ch01_p2: SimDef = {
           ],
             remediations: { 'students-conflate-irony-with-coincidence': { steps: ['Revisit c12_eng_v_cbse_01_008 (Imagery and Metaphor) to refresh how physical details carry thematic weight.', 'Re-read the story\'s final three paragraphs (Sam\'s letter, the stamp shop revelation) and annotate every object.', 'For each object, write: "This literally is ____; symbolically it represents ____ because ____." 4.', 'Re-attempt Diagnostic Question 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_010', difficulty: 'standard',
-          question: 'Vocabulary in Context: Key Words refers to the skill of determining precise.',
+          question: 'Key vocabulary of \'The Third Level\' — the words and phrases you must know.',
           hint: 'If unable to move beyond dictionary definitions, re-read paragraphs 3–4 and 5–6 with.',
           misconception: 'Students believe "vocabulary in context" means *looking up dictionary definitions* of difficult words in the story.',
           parts: [
@@ -154,7 +154,7 @@ export const c12_eng_v_ch01_p2: SimDef = {
           ],
             remediations: { 'vocabulary-in-context-means-looking': { steps: ['Return to the text and locate the target word in its *exact sentence*.', 'Read the two sentences before and after.', 'Ask: "What *specific* image, contrast, or idea does this word add that a simpler synonym would not?" 4.', 'Write a one-sentence answer *using the word* that explains its *function* (e.g., "Finney chooses \'gabardine\' over.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the systematic analysis of the author\'s.',
+          question: 'Language and style in \'The Third Level\' — how the writer chose words, sentences.',
           hint: 'Review "Tense in Narrative" section in Class 11 Grammar node (c11_eng_h_cbse_01_011) and.',
           misconception: '**Misconception:** "Grammar analysis means labeling every verb\'s tense and calling it a day." **Why it\'s wrong:**.',
           parts: [
@@ -177,7 +177,7 @@ export const c12_eng_v_ch01_p2: SimDef = {
           ],
             remediations: { 'misconception-grammar-analysis-means-labeling': { steps: ['Revisit **c11_eng_h_cbse_01_011** (Class 11 Grammar: Language Usage) — specifically the section on "Tense Shifts.', 'Do a **tense-mapping exercise**: Take the first 3 pages of the story, highlight every verb, label tense, and write *one.', 'Re-attempt **Diagnostic Questions 2 and 4** with this map.', 'If still stuck, watch the 10-min video "Grammar as Time Machine" (linked in class resources) which animates tense.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_012', difficulty: 'standard',
-          question: 'Literal comprehension involves retrieving explicitly stated facts, details, and.',
+          question: 'Literal comprehension of \'The Third Level\' — questions answered straight from.',
           hint: 'If stuck on inferential questions, return to c12_eng_v_cbse_01_006 (Theme: Primary Theme).',
           misconception: 'Students treat inferential questions as "guessing" and write opinions without textual evidence.',
           parts: [

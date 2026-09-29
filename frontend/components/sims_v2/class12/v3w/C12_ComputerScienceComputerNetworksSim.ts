@@ -6,13 +6,13 @@ import C12_ComputerScienceComputerNetworksSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_computersciencecomputernetworkssim: SimDef = {
     id: 'v3w_c12_computersciencecomputernetworkssim',
-    title: 'Computer Networks',
+    title: 'Introduction to Computer Networks and their Need',
     subtitle: 'This node covers the conceptual foundation of computer networks: definition, core.',
     classLevel: 12, subject: 'computer_science', topic: 'Introduction to Computer Networks and their Need',
     chapters: [],
     nodeIds: ['c12_cs_cbse_01_001', 'c12_cs_cbse_01_002', 'c12_cs_cbse_01_003', 'c12_cs_cbse_01_005', 'c12_cs_cbse_01_006', 'c12_cs_cbse_01_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are working on a project with three classmates. Each of you has a laptop with part of the code,.', goal: 'Master Computer Networks.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are working on a project with three classmates. Each of you has a laptop with part of the code,.', goal: 'Master Introduction to Computer Networks and their Need.' },
     discovery: {
         question: 'What are the three fundamental needs that motivate the creation of a computer network?',
         options: ['The three fundamental needs are: (1) Resource sharing', 'sharing files', 'internet access'],
@@ -83,7 +83,7 @@ export const w_c12_computersciencecomputernetworkssim: SimDef = {
             { text: 'Browser receives the IP address (103.237.144.10), establishes a TCP connection to port 443 (HTTPS), and sends the HTTP.', faded: true, blankAnswer: 'The final resolved IP address is 103.237.144.10 (example)..' }
             ] } },
         { type: 'dissect', nodeId: 'c12_cs_cbse_01_002', title: 'Identify each idea',
-          dissect: { specimen: 'Computer Networks', spots: [
+          dissect: { specimen: 'Introduction to Computer Networks and their Need', spots: [
             { id: 's1', label: 'A computer network is a', prompt: 'Which idea is this? — A computer network is a collection of interconnected computing devices (nodes) that can.', answer: 'A computer network is a', options: ['A computer network is a', 'A computer network is classified', 'Network devices are hardware components', 'Unguided transmission media wireless media'] },
             { id: 's2', label: 'A computer network is classified', prompt: 'Which idea is this? — A computer network is classified by its geographical span into four primary types: PAN.', answer: 'A computer network is classified', options: ['A computer network is classified', 'A computer network is a', 'Network devices are hardware components', 'Unguided transmission media wireless media'] },
             { id: 's3', label: 'Network devices are hardware components', prompt: 'Which idea is this? — Network devices are hardware components that connect computers and other devices to share.', answer: 'Network devices are hardware components', options: ['Network devices are hardware components', 'A computer network is a', 'A computer network is classified', 'Unguided transmission media wireless media'] },
@@ -92,7 +92,7 @@ export const w_c12_computersciencecomputernetworkssim: SimDef = {
             { id: 's6', label: 'The Domain Name System DNS', prompt: 'Which idea is this? — The Domain Name System (DNS) is a hierarchical, decentralized naming system that.', answer: 'The Domain Name System DNS', options: ['The Domain Name System DNS', 'A computer network is a', 'A computer network is classified', 'Network devices are hardware components'] }
           ] } }
     ],
-    explore: { component: C12_ComputerScienceComputerNetworksSim, prompt: 'Explore the interactive — Computer Networks' },
+    explore: { component: C12_ComputerScienceComputerNetworksSim, prompt: 'Explore the interactive — Introduction to Computer Networks and their Need' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_cs_cbse_01_001', difficulty: 'standard',
           question: 'A computer network is a collection of interconnected computing devices (nodes).',

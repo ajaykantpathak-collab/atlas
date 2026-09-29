@@ -97,7 +97,11 @@ export const c7_math_ch04_p1: SimDef = {
                   options: ['Rahul is correct', 'apples', 'the number of apples', '$a$ stands for "apples" rather than "the number of apples'],
                   hint: 'Review c6_math_ch05_052 to reinforce the core difference between constants (fixed numbers) and.',
                   misconception: 'Students frequently confuse variables with constants or labels, treating a letter like $a$ as an abbreviation for an object (e.g., thinking.' },
-                { id: 'c', prompt: 'Compare the arithmetic statement "$5 + 5 + 5 + 5 = 20$" with the algebraic expression "$4 \\times m = 20$".', answer: 'The arithmetic statement only describes one specific situation involving four 5s',
+                { id: 'c', prompt: 'If Anita has $p$ stamps and she gives 12 stamps to her brother, write an algebraic expression for the number of stamps she has left.', answer: 'Identify the initial quantity of stamps as $p$',
+                  options: ['Identify the initial quantity of stamps as $p$', 'apples', 'the number of apples', '$a$ stands for "apples" rather than "the number of apples'],
+                  hint: 'Review c6_math_ch05_052 to reinforce the core difference between constants (fixed numbers) and.',
+                  misconception: 'Students frequently confuse variables with constants or labels, treating a letter like $a$ as an abbreviation for an object (e.g., thinking.' },
+                { id: 'd', prompt: 'Compare the arithmetic statement "$5 + 5 + 5 + 5 = 20$" with the algebraic expression "$4 \\times m = 20$".', answer: 'The arithmetic statement only describes one specific situation involving four 5s',
                   options: ['The arithmetic statement only describes one specific situation involving four 5s', 'apples', 'the number of apples', '$a$ stands for "apples" rather than "the number of apples'],
                   hint: 'Review c6_math_ch05_052 to reinforce the core difference between constants (fixed numbers) and.',
                   misconception: 'Students frequently confuse variables with constants or labels, treating a letter like $a$ as an abbreviation for an object (e.g., thinking.' }

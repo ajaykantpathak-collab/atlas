@@ -6,13 +6,13 @@ import C12_AppliedMathsFinancialMathematicsCalculationSim from '../../../simulat
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_appliedmathsfinancialmathematicscalculationsim: SimDef = {
     id: 'v3w_c12_appliedmathsfinancialmathematicscalculationsim',
-    title: 'Applied Maths Financial Mathematics Calculation',
+    title: 'Tangents and Normals to Curves',
     subtitle: 'This node covers equations of tangents and normals to curves y = f(x), parametric curves.',
     classLevel: 12, subject: 'science', topic: 'Tangents and Normals to Curves',
     chapters: [],
     nodeIds: ['c12_math_cbse_06_005', 'c12_math_cbse_04_007', 'c12_math_cbse_13_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re designing a roller coaster track for an amusement park in Mumbai.', goal: 'Master Applied Maths Financial Mathematics Calculation.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re designing a roller coaster track for an amusement park in Mumbai.', goal: 'Master Tangents and Normals to Curves.' },
     discovery: {
         question: 'State the equation of the normal to the curve y = f(x) at the point (x₀, y₀) when f\'(x₀) = 2.',
         options: ['The normal equation is y - y₀ = -1/2 (x - x₀)', 'negative slope', 'negative reciprocal slope'],
@@ -55,13 +55,13 @@ export const w_c12_appliedmathsfinancialmathematicscalculationsim: SimDef = {
             { text: 'Mean \\(\\mu = np = 20 \\times 0.25 = 5\\). Variance \\(\\sigma^2 = npq = 20 \\times 0.25 \\times 0.75 = 3.75\\).', faded: true, blankAnswer: '\\(P(X=5) \\approx 0.2023\\); Expected correct answers = 5;.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_04_007', title: 'Identify each idea',
-          dissect: { specimen: 'Applied Maths Financial Mathematics Calculation', spots: [
+          dissect: { specimen: 'Tangents and Normals to Curves', spots: [
             { id: 's1', label: 'For a curve y', prompt: 'Which idea is this? — For a curve y = f(x) differentiable at point P(x₀, y₀), the tangent is the straight line.', answer: 'For a curve y', options: ['For a curve y', 'The inverse of a square', 'A Bernoulli trial is a'] },
             { id: 's2', label: 'The inverse of a square', prompt: 'Which idea is this? — The inverse of a square matrix A of order n, denoted A⁻¹, is the unique matrix satisfying.', answer: 'The inverse of a square', options: ['The inverse of a square', 'For a curve y', 'A Bernoulli trial is a'] },
             { id: 's3', label: 'A Bernoulli trial is a', prompt: 'Which idea is this? — A Bernoulli trial is a random experiment with exactly two possible outcomes — "success".', answer: 'A Bernoulli trial is a', options: ['A Bernoulli trial is a', 'For a curve y', 'The inverse of a square'] }
           ] } }
     ],
-    explore: { component: C12_AppliedMathsFinancialMathematicsCalculationSim, prompt: 'Explore the interactive — Applied Maths Financial Mathematics Calculation' },
+    explore: { component: C12_AppliedMathsFinancialMathematicsCalculationSim, prompt: 'Explore the interactive — Tangents and Normals to Curves' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_06_005', difficulty: 'standard',
           question: 'For a curve y = f(x) differentiable at point P(x₀, y₀), the tangent is the.',

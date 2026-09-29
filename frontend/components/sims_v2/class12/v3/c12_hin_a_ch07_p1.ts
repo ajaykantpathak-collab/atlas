@@ -19,7 +19,7 @@ export const c12_hin_a_ch07_p1: SimDef = {
         hook: 'Eknath was a Brahmin who wrote for the marginalised — the Abhang\'s plain Marathi, folk rhythm and a woman\'s voice are the reform, not simplification. This is poetry made to be walked and sung, not recited from a throne.',
     },
     teaching: [
-        { title: 'बारहमासा — कवि परिचय और पृष्ठभूमि', text: 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत से फाल्गुन तक) के माध्यम से नायिका के विरह-वेदना, श्रृंगार और प्रकृति-चित्रण को व्यक्त किया जाता है; केशवदास.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'बारहमासा — कवि परिचय और पृष्ठभूमि', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_07_001', title: 'Your mission',
@@ -29,10 +29,11 @@ export const c12_hin_a_ch07_p1: SimDef = {
         labels: ['बारहमासा — कवि परिचय', 'बारहमासा — पद्यांश-वार भावार्थ', 'बारहमासा — काव्य-संरचना और', 'बारहमासा — केंद्रीय भाव', 'बारहमासा — छंद और', 'बारहमासा — साहित्यिक युक्तियाँ'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_07_002', title: 'बारहमासा — पद्यांश-वार भावार्थ',
-          caseStudy: { intro: 'You open your textbook to "बारहमासा" and see 12 stanzas — each named after a Hindu month (चैत, वैशाख, जेठ, etc.). Don\'t start by memorizing meanings.',
-            decisions: [{ prompt: '"बारहमासा" के पहले पद्यांश (चैत मास) में सरसों के फूलों और कोकिला की कूक का **शाब्दिक अर्थ** क्या है? केवल शब्दार्थ लिखें, भावार्थ नहीं।', options: [
-                { text: '**Correct answer:** सरसों के पीले फूल खिले हैं और कोयल मीठी आवाज़ में कूक रही है', outcome: '**Correct answer:** सरसों के पीले फूल खिले हैं और कोयल मीठी आवाज़ में कूक रही है — यह वसंत ऋतु का.' },
-                { text: 'नायिका को विरह की पीड़ा हो रही है', outcome: 'Not quite — **Students treat each stanza as an independent "nature description" to be memorized separately.**.', reveals: 'students-treat-each-stanza-as' }
+          caseStudy: { intro: '\'कंजकली\' का क्रम: शुरुआत कंजकली से, घटनाएँ बढ़ती हैं, अंत \'कंजकली\' का केंद्रीय भाव और संदेश पर।',
+            decisions: [{ prompt: 'What is the primary narrative event that structures the entire poem "ckjgeklk" across its stanzas?', options: [
+                { text: 'The poem is structured around a woman (ukxerh) waiting through the night for her beloved,', outcome: 'The poem is structured around a woman (ukxerh) waiting through the night for her beloved, with each.' },
+                { text: 'it\'s about nature description', outcome: 'Not quite — Students treat "ckjgeklk" as a lyric poem (about feeling) rather than a narrative poem (about.', reveals: 'students-treat-ckjgeklk-as-a' },
+                { text: 'it\'s a love song without narrative', outcome: 'Not quite — Students treat "ckjgeklk" as a lyric poem (about feeling) rather than a narrative poem (about.', reveals: 'students-treat-ckjgeklk-as-a' }
             ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_07_001', title: 'Use it in the wild',
           caseStudy: { intro: 'You\'re editing a folk-style music video of a woman waiting through the night for someone who doesn\'t come. A teammate wants to cut the repeated shots — lamp, doorway, her face — because \'repetition is dead screen time.\'',
@@ -53,86 +54,78 @@ export const c12_hin_a_ch07_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_001', difficulty: 'standard',
-          question: 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह.',
-          hint: 'यदि अटका हुआ महसूस हो तो c11_hin_a_cbse_13_004 (केंद्रीय भाव और रस — जाग तुझको दूर जाना).',
-          misconception: 'छात्र अक्सर समझते हैं कि **बारहमासा = केवल १२ महीनों का मौसम-वर्णन** है। वे भूल जाते हैं कि केशवदास ने प्रत्येक महीने.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, review Class 11 Chapter 7 (c11_hin_ar_cbse_07_001) "Before You Read" where.',
+          misconception: 'Students treat "context" as a list of memorizable facts (dates, birthplace, other works) rather than an interpretive.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत',
-                  options: ['बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत', '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of a poem,', '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**', 'बारहमासा कविता का केंद्रीय भाव वह मुख्य भाव है जो सभी बारह महीनों के वर्णन से उत्पन्न'],
-                  hint: 'यदि अटका हुआ महसूस हो तो c11_hin_a_cbse_13_004 (केंद्रीय भाव और रस — जाग तुझको दूर जाना) और.',
-                  misconception: 'छात्र अक्सर समझते हैं कि **बारहमासा = केवल १२ महीनों का मौसम-वर्णन** है। वे भूल जाते हैं कि केशवदास ने प्रत्येक महीने को **नायिका के.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के',
+                  options: ['रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंजकली\' का कथानक', '\'कंजकली\' का पाठ्य-परिवेश (setting)', '\'कंजकली\' का पात्र-चित्रण'],
+                  hint: 'If stuck, review Class 11 Chapter 7 (c11_hin_ar_cbse_07_001) "Before You Read" where Varkari.',
+                  misconception: 'Students treat "context" as a list of memorizable facts (dates, birthplace, other works) rather than an interpretive framework.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण १: छात्र से कहें — "किसी एक महीने (जैसे सावन) का पद्य फिर से पढ़ो और तीन कॉलम बनाओ: (अ) मौसम/प्रकृति क्या है?', '(ब) नायिका क्या कर/कह रही है?', '(स) प्रिय कहाँ है?" चरण २: यदि कॉलम (स) खाली है या \'नहीं लिखा\' है, तो समझाएँ कि **यही बारहमासा का केंद्रीय तनाव है**।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-context-as-a': { steps: ['If a student cannot articulate the function of context (not just facts), do: (1) Have them re-read the Class 11 node.', '(2) Give them two 2-line excerpts — one from a Sanskrit Shloka, one from an Abhang — and ask: "Which is for singing?', 'How do you know?" (3) Then return to Eknath: "What in his life made him choose the singing form for this message?" This.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_002', difficulty: 'standard',
-          question: '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of.',
-          hint: 'If stuck on separating literal vs implied meaning: Revisit **c11_hin_a_cbse_13_002 (जाग.',
-          misconception: '**Students treat each stanza as an independent "nature description" to be memorized separately.** They make flashcards.',
+          question: '\'कंजकली\' का कथानक — \'कंजकली\' — अंतरा भाग-2 का पाठ। पाठ का कथानक, पात्र और.',
+          hint: 'Review "narrative vs lyric poetry" distinction and "stanza as narrative beat" concept.',
+          misconception: 'Students treat "ckjgeklk" as a lyric poem (about feeling) rather than a narrative poem (about a sequence of events).',
           parts: [
-                { id: 'a', prompt: '"बारहमासा" के पहले पद्यांश (चैत मास) में सरसों के फूलों और कोकिला की कूक का **शाब्दिक अर्थ** क्या है? केवल शब्दार्थ लिखें, भावार्थ नहीं।', answer: '**Correct answer:** सरसों के पीले फूल खिले हैं और कोयल मीठी आवाज़ में कूक रही है',
-                  options: ['**Correct answer:** सरसों के पीले फूल खिले हैं और कोयल मीठी आवाज़ में कूक रही है', 'नायिका को विरह की पीड़ा हो रही है'],
-                  hint: 'If stuck on separating literal vs implied meaning: Revisit **c11_hin_a_cbse_13_002 (जाग तुझको दूर.',
-                  misconception: '**Students treat each stanza as an independent "nature description" to be memorized separately.** They make flashcards: "चैत = सरसों.' },
-                { id: 'b', prompt: 'आषाढ़ मास के पद्यांश में "घन गरजत, बिजली चमकत" — इस बिंब का प्रयोग नायिका के किस मनोभाव को व्यक्त करने के लिए किया गया है? पद्यांश के आधार पर स्पष्ट करें।', answer: '**Correct answer:** बादलों की गर्जना और बिजली की चमक नायिका के **हृदय में उठती',
-                  options: ['**Correct answer:** बादलों की गर्जना और बिजली की चमक नायिका के **हृदय में उठती', 'वर्षा ऋतु आ गई है'],
-                  hint: 'If stuck on separating literal vs implied meaning: Revisit **c11_hin_a_cbse_13_002 (जाग तुझको दूर.',
-                  misconception: '**Students treat each stanza as an independent "nature description" to be memorized separately.** They make flashcards: "चैत = सरसों.' },
-                { id: 'c', prompt: 'क्वार (आश्विन) और कार्तिक मास के पद्यांशों में प्रकृति वर्णन में क्या **मूलभूत अंतर** है? यह अंतर नायिका की मनःस्थिति में किस परिवर्तन को दर्शाता है?', answer: '**Correct answer:** क्वार में "शशि शीतल, कमल खिले"',
-                  options: ['**Correct answer:** क्वार में "शशि शीतल, कमल खिले"', 'शशि शीतल, कमल खिले', 'दीप मालिका, रजनी उज्ज्वल'],
-                  hint: 'If stuck on separating literal vs implied meaning: Revisit **c11_hin_a_cbse_13_002 (जाग तुझको दूर.',
-                  misconception: '**Students treat each stanza as an independent "nature description" to be memorized separately.** They make flashcards: "चैत = सरसों.' }
+                { id: 'a', prompt: 'Compare the narrative function of the refrain-like repetitions in Stanza 1 ("?kj ?kj phj jpk lc dkgw¡") and Stanza 4 ("rsfg fcuq tkM+ u NwVS ekgk¡AA / rw¡ lks.', answer: 'Stanza 1\'s repetition ("house to house, calling out") shows active seeking',
+                  options: ['Stanza 1\'s repetition ("house to house, calling out") shows active seeking', 'repetition for emphasis'],
+                  hint: 'Review "narrative vs lyric poetry" distinction and "stanza as narrative beat" concept from Class 11.',
+                  misconception: 'Students treat "ckjgeklk" as a lyric poem (about feeling) rather than a narrative poem (about a sequence of events).' }
           ],
-            remediations: { 'students-treat-each-stanza-as': { steps: ['** Take a blank A4 sheet. Draw a **timeline of 12 months** horizontally. **', '** For each month, write **only 2 things**: (a) One dominant nature image (e.g., चैत → सरसों/कोकिला), (b) One emotion.', '** Now draw **arrows between months** showing emotional shifts: चैत (आशा) → वैशाख (व्याकुलता) → जेठ (दाह) → आषाढ़.', '** Re-read **only the first and last stanza**. Ask: "What changed?" Write 3 sentences. **'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-ckjgeklk-as-a': { steps: ['Have the student create a 4-box storyboard — one box per stanza — drawing only what HAPPENS (not what is described).', 'Ask "What changes from box to box?" — force them to name the narrative action.', 'Re-read the poem mapping each Hindi line to a box.', 'Re-attempt Diagnostic Question 4 — if they still see only "repetition," repeat with a परिचित folk song (e.g., "Kesariya.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_002', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
-          misconception: '**Students treat each stanza as an independent "nature description" to be memorized separately.** They make flashcards.',
+          misconception: 'Students treat "ckjgeklk" as a lyric poem (about feeling) rather than a narrative poem (about a sequence of events).',
           parts: [
-                { id: 'a', prompt: 'पौष मास के पद्यांश में "शिशिर व्याप्त, हिम गिरत" — कवि ने अत्यधिक शीत का वर्णन नायिका के विरह से जोड़ने के लिए **कौन-सी काव्य युक्ति** का प्रयोग किया है?', answer: '**Correct answer:** **उपमा अलंकार** (explicit simile)',
-                  options: ['**Correct answer:** **उपमा अलंकार** (explicit simile)', 'हिम गिरत ज्यों विरह अग्नि तनु तपत', 'रूपक अलंकार', 'अनुप्रास'],
-                  hint: 'If stuck on separating literal vs implied meaning: Revisit **c11_hin_a_cbse_13_002 (जाग तुझको दूर.',
-                  misconception: '**Students treat each stanza as an independent "nature description" to be memorized separately.** They make flashcards: "चैत = सरसों.' }
+                { id: 'a', prompt: 'Evaluate this interpretation: "The poem has no real plot — it\'s just a series of folk images strung together." Defend or critique using structural evidence.', answer: 'Critique: The poem has a clear three-act narrative structure',
+                  options: ['Critique: The poem has a clear three-act narrative structure', 'non-linear', 'plotless'],
+                  hint: 'Review "narrative vs lyric poetry" distinction and "stanza as narrative beat" concept from Class 11.',
+                  misconception: 'Students treat "ckjgeklk" as a lyric poem (about feeling) rather than a narrative poem (about a sequence of events).' }
           ],
-            remediations: { 'students-treat-each-stanza-as': { steps: ['** Take a blank A4 sheet. Draw a **timeline of 12 months** horizontally. **', '** For each month, write **only 2 things**: (a) One dominant nature image (e.g., चैत → सरसों/कोकिला), (b) One emotion.', '** Now draw **arrows between months** showing emotional shifts: चैत (आशा) → वैशाख (व्याकुलता) → जेठ (दाह) → आषाढ़.', '** Re-read **only the first and last stanza**. Ask: "What changed?" Write 3 sentences. **'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-ckjgeklk-as-a': { steps: ['Have the student create a 4-box storyboard — one box per stanza — drawing only what HAPPENS (not what is described).', 'Ask "What changes from box to box?" — force them to name the narrative action.', 'Re-read the poem mapping each Hindi line to a box.', 'Re-attempt Diagnostic Question 4 — if they still see only "repetition," repeat with a परिचित folk song (e.g., "Kesariya.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_003', difficulty: 'standard',
-          question: '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण** — पदों का.',
+          question: '\'कंजकली\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित है।',
           hint: 'अगर अटके: c12_hin_a_cbse_07_002 दोहराओ + कक्षा 11 के c11_hin_a_cbse_13_003 (जाग तुझको दूर.',
           misconception: '**विशिष्ट भ्रम**: विद्यार्थी समझते हैं कि **"काव्य-संरचना = छंद नाम बताना"**। **वास्तविकता**: संरचना = **पद-योजना.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**',
-                  options: ['**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**', 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत', '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of a poem,', 'बारहमासा कविता का केंद्रीय भाव वह मुख्य भाव है जो सभी बारह महीनों के वर्णन से उत्पन्न'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंजकली\' का पाठ्य-परिवेश (setting)',
+                  options: ['\'कंजकली\' का पाठ्य-परिवेश (setting)', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंजकली\' का कथानक', '\'कंजकली\' का पात्र-चित्रण'],
                   hint: 'अगर अटके: c12_hin_a_cbse_07_002 दोहराओ + कक्षा 11 के c11_hin_a_cbse_13_003 (जाग तुझको दूर जाना.',
                   misconception: '**विशिष्ट भ्रम**: विद्यार्थी समझते हैं कि **"काव्य-संरचना = छंद नाम बताना"**। **वास्तविकता**: संरचना = **पद-योजना + भाव-क्रम.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**चरण 1**: विद्यार्थी को **कविता जोर से पढ़वाओ** — 2 बार, लय पकड़ने तक। **चरण 2**: **कागज पर 12 खाने बनवाओ** — हर खाने.', 'अगर क्रम बदल दें तो क्या होगा?" — **यही संरचना-विश्लेषण है**। **पुनः निदान**: DIAGNOSTIC_QUESTION_2 और 5 फिर से पूछो.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_004', difficulty: 'standard',
-          question: 'बारहमासा कविता का केंद्रीय भाव वह मुख्य भाव है जो सभी बारह महीनों के वर्णन से.',
+          question: '\'कंजकली\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
           hint: 'यदि छात्र केंद्रीय भाव और किसी एक महीने के भाव में अंतर नहीं कर पा रहा है, तो उसे.',
           misconception: 'छात्र अक्सर सोचते हैं कि बारहमासा कविता का केंद्रीय भाव वह भाव है जो किसी एक विशिष्ट महीने (जैसे श्रावण या कार्तिक) में.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बारहमासा कविता का केंद्रीय भाव वह मुख्य भाव है जो सभी बारह महीनों के वर्णन से उत्पन्न',
-                  options: ['बारहमासा कविता का केंद्रीय भाव वह मुख्य भाव है जो सभी बारह महीनों के वर्णन से उत्पन्न', 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत', '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of a poem,', '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंजकली\' का पात्र-चित्रण',
+                  options: ['\'कंजकली\' का पात्र-चित्रण', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंजकली\' का कथानक', '\'कंजकली\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि छात्र केंद्रीय भाव और किसी एक महीने के भाव में अंतर नहीं कर पा रहा है, तो उसे.',
                   misconception: 'छात्र अक्सर सोचते हैं कि बारहमासा कविता का केंद्रीय भाव वह भाव है जो किसी एक विशिष्ट महीने (जैसे श्रावण या कार्तिक) में सबसे अधिक तीव्रता.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को सबसे पहले बारहमासा कविता के सभी बारह महीनों की एक सूची बनवाई जाए, फिर प्रत्येक महीने के सामने वह भाव लिखने के.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_005', difficulty: 'standard',
-          question: 'बारहमासा में छंद और लय-विधान का अर्थ है कविता के प्रत्येक पद्य में akshar और.',
+          question: '\'कंजकली\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते हैं।',
           hint: 'matra की गणना में कठिनाई होने पर, c11_hin_a_cbse_07_005 (Class 11 में बारहमासा का छंद) पर.',
           misconception: 'छात्र अक्सर मानते हैं कि बारहमासा का छंद akshar की संख्या से निर्धारित होता है क्योंकि वे शब्दों को पढ़ते समय matra की.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बारहमासा में छंद और लय-विधान का अर्थ है कविता के प्रत्येक पद्य में akshar और matra की',
-                  options: ['बारहमासा में छंद और लय-विधान का अर्थ है कविता के प्रत्येक पद्य में akshar और matra की', 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत', '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of a poem,', '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंजकली\' के सहायक पात्र',
+                  options: ['\'कंजकली\' के सहायक पात्र', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंजकली\' का कथानक', '\'कंजकली\' का पाठ्य-परिवेश (setting)'],
                   hint: 'matra की गणना में कठिनाई होने पर, c11_hin_a_cbse_07_005 (Class 11 में बारहमासा का छंद) पर वापस जाकर.',
                   misconception: 'छात्र अक्सर मानते हैं कि बारहमासा का छंद akshar की संख्या से निर्धारित होता है क्योंकि वे शब्दों को पढ़ते समय matra की बजाय akshar देखते.' }
           ],
             remediations: { 'akshar-matra-akshar-2-akshar': { steps: ['छात्र को 먼저 एक सरल शब्द दें जैसे "घी" (घी = 2 matra) और पूछें कि इसे कैसे बोला जाता है; फिर धीरे-धीरे जटिल शब्द जैसे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_006', difficulty: 'standard',
-          question: 'अलंकार (Alankar) काव्य में शब्दों या अर्थों की वह विशेष योजना है जो काव्य की.',
+          question: '\'कंजकली\' का मुख्य विषय — \'कंजकली\' का केंद्रीय भाव और संदेश',
           hint: 'If stuck on identifying alankar type, revisit **upama vs rupak vs utpreksha decision.',
           misconception: 'Students memorise alankar definitions as isolated labels ("Anupras = repetition of varna") but **fail to see alankars.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार (Alankar) काव्य में शब्दों या अर्थों की वह विशेष योजना है जो काव्य की शोभा बढ़ाती',
-                  options: ['अलंकार (Alankar) काव्य में शब्दों या अर्थों की वह विशेष योजना है जो काव्य की शोभा बढ़ाती', 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत', '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of a poem,', '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंजकली\' का मुख्य विषय',
+                  options: ['\'कंजकली\' का मुख्य विषय', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंजकली\' का कथानक', '\'कंजकली\' का पाठ्य-परिवेश (setting)'],
                   hint: 'If stuck on identifying alankar type, revisit **upama vs rupak vs utpreksha decision tree**: (1).',
                   misconception: 'Students memorise alankar definitions as isolated labels ("Anupras = repetition of varna") but **fail to see alankars operating.' }
           ],

@@ -6,13 +6,13 @@ import C6_HistoryCivicsIndusValleySocietySim from '../../../simulations/c6_12/C6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_historycivicsindusvalleysocietysim: SimDef = {
     id: 'v3w_c6_historycivicsindusvalleysocietysim',
-    title: 'Indus Valley Society',
+    title: 'Harappan Life: Food, Crafts, Trade',
     subtitle: 'This node covers the discovery and the geographical extent of the Harappan Civilisation.',
-    classLevel: 6, subject: 'history', topic: 'The Harappan Civilisation: Discovery and Extent',
+    classLevel: 6, subject: 'history', topic: 'Harappan Life: Food, Crafts, Trade',
     chapters: [],
     nodeIds: ['c6_history_ch04_004', 'c6_history_ch04_001', 'c6_history_ch04_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'If you were exploring a dusty site in Pakistan and found ancient bricks and city walls, how would you know.', goal: 'Master Indus Valley Society.' },
+    scenario: { role: 'a class 6 learner', intro: 'If you were exploring a dusty site in Pakistan and found ancient bricks and city walls, how would you know.', goal: 'Master Harappan Life: Food, Crafts, Trade.' },
     discovery: {
         question: 'In which decade did archaeologists begin the discovery of the major sites of the Harappan Civilisation?',
         options: ['The discovery began in the 1920s', 'discovered', 'discovery'],
@@ -46,7 +46,7 @@ export const w_c6_historycivicsindusvalleysocietysim: SimDef = {
                 { text: 'equals', outcome: 'Not quite — Students often assume that all ancient cities were disorganized or "messy" because they think "old".', reveals: 'all-ancient-cities-were-disorganized' }
             ] }] } }
     ],
-    explore: { component: C6_HistoryCivicsIndusValleySocietySim, prompt: 'Explore the interactive — Indus Valley Society' },
+    explore: { component: C6_HistoryCivicsIndusValleySocietySim, prompt: 'Explore the interactive — Harappan Life: Food, Crafts, Trade' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_history_ch04_002', difficulty: 'standard',
           question: 'The Harappan Civilisation was one of the world\'s first major urban societies,.',

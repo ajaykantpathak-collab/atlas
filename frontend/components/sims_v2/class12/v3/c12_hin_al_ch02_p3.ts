@@ -19,7 +19,7 @@ export const c12_hin_al_ch02_p3: SimDef = {
         hook: 'Don\'t read it as a diary — it\'s craft: the potter\'s wheel, the mother\'s hands, the smell of wet earth chosen to carry loss and a vanishing craft. Genre is the message; biography alone is just a record.',
     },
     teaching: [
-        { title: 'बस्किोहर की माटी — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन: विश्लेषण और व्याख्या वह प्रक्रिया है जिसमें पाठ के तत्वों (पात्र, विषय, साहित्यिक युक्तियाँ, संरचना) को व्यवस्थित रूप से तोड़कर उनके बीच के संबंधों की पहचान की जाती है और उनके आधार.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'बस्किोहर की माटी — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'फणीश्वरनाथ रेणु की\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_al_cbse_02_013', title: 'Your mission',
@@ -47,34 +47,34 @@ export const c12_hin_al_ch02_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_02_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन: विश्लेषण और व्याख्या वह प्रक्रिया है जिसमें पाठ के तत्वों.',
-          hint: 'यदि छात्र प्रतीकों के बदलते अर्थ को समझने में कठिनाई महसूस कर रहा है, तो उसे.',
-          misconception: 'बस्किोहर की माटी के आलोचनात्मक विश्लेषण में छात्र अक्सर यह मान लेते हैं कि यदि एक प्रतीक (जैसे माटी या दरवाज़ा) एक.',
+          question: '\'फणीश्वरनाथ रेणु की\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+          hint: 'If stuck, re-read the opening paragraph of the NCERT text ("ikB ifjp;") which explicitly.',
+          misconception: 'Students treat "fcLdksgj dh ekVh" as a straightforward nostalgic memoir where the author *recovers* her past.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन: विश्लेषण और व्याख्या वह प्रक्रिया है जिसमें पाठ के तत्वों (पात्र, विषय,',
-                  options: ['आलोचनात्मक चिंतन: विश्लेषण और व्याख्या वह प्रक्रिया है जिसमें पाठ के तत्वों (पात्र, विषय,', 'बस्किोहर की माटी के पृष्ठभूमि और रचनाकार परिचय में लेखक रामधारी सिंह दिनकर के व्यक्तिगत,', 'कथानक (Plot) किसी कहानी की मुख्य घटनाओं का अनुक्रमिक विकास है, जबकि आख्यान-संरचना', 'पाठ्य-परिवेश और वातावरण से तात्पर्य उस भौगोलिक, सामाजिक, सांस्कृतिक एवं प्राकृतिक'],
-                  hint: 'यदि छात्र प्रतीकों के बदलते अर्थ को समझने में कठिनाई महसूस कर रहा है, तो उसे c12_hin_al_cbse_02_008.',
-                  misconception: 'बस्किोहर की माटी के आलोचनात्मक विश्लेषण में छात्र अक्सर यह मान लेते हैं कि यदि एक प्रतीक (जैसे माटी या दरवाज़ा) एक स्थान पर स्पष्ट अर्थ.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'फणीश्वरनाथ रेणु की\' का आलोचनात्मक चिंतन',
+                  options: ['\'फणीश्वरनाथ रेणु की\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फणीश्वरनाथ रेणु की\' का कथानक', '\'फणीश्वरनाथ रेणु की\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, re-read the opening paragraph of the NCERT text ("ikB ifjp;") which explicitly states.',
+                  misconception: 'Students treat "fcLdksgj dh ekVh" as a straightforward nostalgic memoir where the author *recovers* her past.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['इस misconception को ठीक करने के लिए, छात्र को कहानी के तीन अलग-अलग क्षणों (शुरू, मध्य, अंत) में उसी प्रतीक (जैसे माटी).', 'उसके आसपास की सामाजिक स्थिति क्या है?" फिर इन तीन अर्थों की तुलना करके दिखाइए कि कैसे एक ही वस्तु अलग-अलग संदर्भों में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-fcldksgj-dh-ekvh': { steps: ['If a student cannot distinguish the narrator\'s construction from the character\'s reality: Step 1 — Have them highlight.', 'Step 2 — Ask: "Who knows Phuluk\'s mother\'s grief — the child or the adult?" (Answer: The adult imposes the.', 'Step 3 — Assign a micro-writing task: Rewrite the turmeric-mark episode *only* from the child\'s limited perspective (no.', 'Step 4 — Compare both versions.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_02_014', difficulty: 'standard',
-          question: 'लेखन कौशल: पाठ-आधारित वह क्षमता है जिसमें छात्र दिए गए गद्य या poesía पाठ का.',
+          question: '\'फणीश्वरनाथ रेणु की\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि छात्र साक्ष्य का चयन करने में कठिनाई महसूस कर रहा है, तो उसे c12_hin_al_cbse_02_002.',
           misconception: 'छात्र अक्सर मानते हैं कि पाठ आधारित उत्तर लिखने में लंबा लिखना ही गुणवत्ता का मापदंड है — वे अनावश्यक विवरण, दोहराव या.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'लेखन कौशल: पाठ-आधारित वह क्षमता है जिसमें छात्र दिए गए गद्य या poesía पाठ का विश्लेषण',
-                  options: ['लेखन कौशल: पाठ-आधारित वह क्षमता है जिसमें छात्र दिए गए गद्य या poesía पाठ का विश्लेषण', 'बस्किोहर की माटी के पृष्ठभूमि और रचनाकार परिचय में लेखक रामधारी सिंह दिनकर के व्यक्तिगत,', 'कथानक (Plot) किसी कहानी की मुख्य घटनाओं का अनुक्रमिक विकास है, जबकि आख्यान-संरचना', 'पाठ्य-परिवेश और वातावरण से तात्पर्य उस भौगोलिक, सामाजिक, सांस्कृतिक एवं प्राकृतिक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'फणीश्वरनाथ रेणु की\' पर पाठ-आधारित लेखन',
+                  options: ['\'फणीश्वरनाथ रेणु की\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फणीश्वरनाथ रेणु की\' का कथानक', '\'फणीश्वरनाथ रेणु की\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि छात्र साक्ष्य का चयन करने में कठिनाई महसूस कर रहा है, तो उसे c12_hin_al_cbse_02_002 (कथानक और.',
                   misconception: 'छात्र अक्सर मानते हैं कि पाठ आधारित उत्तर लिखने में लंबा लिखना ही गुणवत्ता का मापदंड है — वे अनावश्यक विवरण, दोहराव या सामान्य ज्ञान की.' }
           ],
             remediations: { 'wrong-idea': { steps: ['यदि छात्र लंबाई को गुणवत्ता से जोड़ने की गलती कर रहा है, तो उसे इस प्रकार सुधारें: पहले उसे दो उत्तर दिखाएँ — एक लंबा.', 'संबंध?) के आधार पर काटे-छांटे और केवल आवश्यक तत्व रखे। इस प्रक्रिया को दोहराने से वह सीखेगा कि क्या रखना है और क्या.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_02_015', difficulty: 'standard',
-          question: '**वाचन-श्रवण: चर्चा-बिंदु** एक सहभागितापूर्ण भाषा-कौशल गतिविधि है जिसमें छात्र.',
+          question: '\'फणीश्वरनाथ रेणु की\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
           hint: 'यदि पाठ का भाव स्पष्ट न हो, तो `c12_hin_al_cbse_02_002` (कथानक) और.',
           misconception: '**विशिष्ट भ्रांति:** *"वाचन-श्रवण गतिविधि में \'चर्चा-बिंदु\' का मतलब है — शिक्षक प्रश्न पूछे, छात्र एक-लाइन उत्तर दे.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**वाचन-श्रवण: चर्चा-बिंदु** एक सहभागितापूर्ण भाषा-कौशल गतिविधि है जिसमें छात्र पाठ को',
-                  options: ['**वाचन-श्रवण: चर्चा-बिंदु** एक सहभागितापूर्ण भाषा-कौशल गतिविधि है जिसमें छात्र पाठ को', 'बस्किोहर की माटी के पृष्ठभूमि और रचनाकार परिचय में लेखक रामधारी सिंह दिनकर के व्यक्तिगत,', 'कथानक (Plot) किसी कहानी की मुख्य घटनाओं का अनुक्रमिक विकास है, जबकि आख्यान-संरचना', 'पाठ्य-परिवेश और वातावरण से तात्पर्य उस भौगोलिक, सामाजिक, सांस्कृतिक एवं प्राकृतिक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'फणीश्वरनाथ रेणु की\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'फणीश्वरनाथ रेणु की\' पर वाचन-श्रवण और चर्चा-बिंदु', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'फणीश्वरनाथ रेणु की\' का कथानक', '\'फणीश्वरनाथ रेणु की\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि पाठ का भाव स्पष्ट न हो, तो `c12_hin_al_cbse_02_002` (कथानक) और `c12_hin_al_cbse_02_006` (मुख्य.',
                   misconception: '**विशिष्ट भ्रांति:** *"वाचन-श्रवण गतिविधि में \'चर्चा-बिंदु\' का मतलब है — शिक्षक प्रश्न पूछे, छात्र एक-लाइन उत्तर दे दे।"* **क्यों गलत है:**.' }
           ],

@@ -19,7 +19,7 @@ export const c11_eng_w_ch07_p1: SimDef = {
         hook: 'Chronological climax and narrative climax are different events — the story peaks where the pretending becomes impossible to afford.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'Before You Read: Context and Background is a pre-reading strategy that provides the historical, social, cultural, and authorial framework necessary to interpret a literary text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Glory at Twilight\' (Woven Words, ch. 7) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_07_001', title: 'Your mission',
@@ -29,27 +29,27 @@ export const c11_eng_w_ch07_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_07_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re watching a movie that opens with a man on a train asking "What now?" then jumps to his past glory, then returns to the train—why does the.',
+          caseStudy: { intro: 'Trace \'Glory at Twilight\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'Define "circular narrative structure" and identify the opening and closing lines in "Glory at Twilight" that create this circle.', options: [
                 { text: 'A circular narrative ends where it begins, often with a repeated motif or question', outcome: 'A circular narrative ends where it begins, often with a repeated motif or question.' },
                 { text: 'the story goes in a circle', outcome: 'Not quite — Students treat "flashback" and "frame narrative" as interchangeable labels, writing "the story uses.', reveals: 'students-treat-flashback-and-frame' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_07_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are Satyajit on that slow train, watching green fields pass by while your world has collapsed.',
+          caseStudy: { intro: 'Identify where and when \'Glory at Twilight\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What are the three main physical settings in "Glory at Twilight" and the time frame of the story?', options: [
                 { text: 'The three main physical settings are the narrow-gauge train, Shantipur village (station,', outcome: 'The three main physical settings are the narrow-gauge train, Shantipur village (station, Uncle.' },
                 { text: 'where and when', outcome: 'Not quite — Students often think setting is just "where and when" and atmosphere is just "mood." They miss that.', reveals: 'setting-is-just-where-and' },
                 { text: 'only the village or missing the train', outcome: 'Not quite — Students often think setting is just "where and when" and atmosphere is just "mood." They miss that.', reveals: 'setting-is-just-where-and' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_07_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you meet a former CEO at a family wedding who acts wealthy but you discover he\'s secretly bankrupt and about to lose his childhood home.',
+          caseStudy: { intro: 'Pick the central figure in \'Glory at Twilight\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is Satyajit\'s former professional position and the specific event that triggered his rise from clerk to Managing Director?', options: [
                 { text: 'Satyajit was the Managing Director of a bank', outcome: 'Satyajit was the Managing Director of a bank. His rise began when, as a clerk, he detected a forger.' },
                 { text: 'he inherited the bank', outcome: 'Not quite — Students often reduce Satyajit to a passive victim of the bank collapse, overlooking his agency.', reveals: 'students-often-reduce-satyajit-to' },
                 { text: 'he got promoted through bribery', outcome: 'Not quite — Students often reduce Satyajit to a passive victim of the bank collapse, overlooking his agency.', reveals: 'students-often-reduce-satyajit-to' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_07_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'ve just aced an exam everyone thought you\'d fail, and suddenly relatives treat you like a genius — but you know you just got lucky with the.',
+          caseStudy: { intro: 'Ask what \'Glory at Twilight\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of "Glory at Twilight" as distinct from its plot summary?', options: [
                 { text: 'The primary theme is the fragility of material success and the psychological toll of', outcome: 'The primary theme is the fragility of material success and the psychological toll of maintaining.' },
                 { text: 'Satyajit loses his bank and goes to a wedding', outcome: 'Not quite — Students often equate "theme" with "topic" (e.g., "the theme is banking failure" or "the theme.', reveals: 'students-often-equate-theme-with' }
@@ -73,7 +73,7 @@ export const c11_eng_w_ch07_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_001', difficulty: 'standard',
-          question: 'Before You Read: Context and Background is a pre-reading strategy that provides.',
+          question: '\'Glory at Twilight\' (Woven Words, ch. 7) — the context and background to this.',
           hint: 'Review c10_engl_cbse_02_001 (Apartheid background) and practice: "List 3 ways Apartheid.',
           misconception: 'Students often treat "context" as a list of static facts (author birth/death, historical dates) rather than as.',
           parts: [
@@ -84,7 +84,7 @@ export const c11_eng_w_ch07_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-context-as': { steps: ['If a student cannot articulate how context shapes the story, do not re-lecture facts.', 'Instead: (1) Have them reread the opening train passage and list every detail suggesting "systems breaking down".', '(2) Ask: "Which passenger is Satyajit?', 'Why does he *not* write a letter or get off?" (3) Connect his paralysis to the bank clerk who *acted* on impulse.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_002', difficulty: 'standard',
-          question: 'Plot and narrative structure refer to the deliberate arrangement of events.',
+          question: 'The plot/narrative arc of \'Glory at Twilight\' — what happens, in what order.',
           hint: 'If stuck, review "story vs. discourse" using a familiar tale (e.g., *Mahabharata* begins.',
           misconception: 'Students treat "flashback" and "frame narrative" as interchangeable labels, writing "the story uses flashbacks" without.',
           parts: [
@@ -95,12 +95,12 @@ export const c11_eng_w_ch07_p1: SimDef = {
           ],
             remediations: { 'students-treat-flashback-and-frame': { steps: ['Have the student draw two timelines side-by-side: Timeline A = Satyajit\'s life in chronological order (clerk → forger.', 'Timeline B = Story\'s presentation order (train → forger memory → village welcome → wedding crisis → fig tree).', 'Ask: "Which event appears in a different position on each timeline?', 'Why did the author move it?" 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social environment in which a story.',
+          question: 'The setting of \'Glory at Twilight\' — the place, time and atmosphere the text.',
           hint: 'If stuck, review the plot summary (c11_eng_w_cbse_07_002) and the Class 7/8.',
           misconception: 'Students often think setting is just "where and when" and atmosphere is just "mood." They miss that in literary.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting refers to the time, place, and social environment in',
-                  options: ['Setting refers to the time, place, and social environment in', 'Before You Read: Context and Background is a pre-reading strategy that provides the', 'Plot and narrative structure refer to the deliberate arrangement of events, conflicts,', 'Character analysis of the protagonist involves a systematic examination of the central'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'Glory at Twilight\'',
+                  options: ['The setting of \'Glory at Twilight\'', '\'Glory at Twilight\' (Woven Words, ch', 'The plot/narrative arc of \'Glory at Twilight\'', 'Character analysis in \'Glory at Twilight\''],
                   hint: 'If stuck, review the plot summary (c11_eng_w_cbse_07_002) and the Class 7/8 atmosphere/imagery.',
                   misconception: 'Students often think setting is just "where and when" and atmosphere is just "mood." They miss that in literary analysis, setting *creates*.' }
           ],
@@ -117,7 +117,7 @@ export const c11_eng_w_ch07_p1: SimDef = {
           ],
             remediations: { 'setting-is-just-where-and': { steps: ['Have the student reread the opening train paragraph and the fig tree scene, underlining every sensory word (sight.', 'Ask: "What feeling does each detail give you?" 3.', 'Then ask: "What is Satyajit feeling at that exact moment?" 4.', 'Guide them to write one sentence linking a specific detail to his internal state (e.g., "The train\'s \'unauthorised.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves a systematic examination of the.',
+          question: 'Character analysis in \'Glory at Twilight\' — the central figure(s), their.',
           hint: 'If stuck, review the character analysis of Matilda Loisel in c10_engl_cbse_16_001 for.',
           misconception: 'Students often reduce Satyajit to a passive victim of the bank collapse, overlooking his agency in "overreaching.',
           parts: [
@@ -132,18 +132,18 @@ export const c11_eng_w_ch07_p1: SimDef = {
           ],
             remediations: { 'students-often-reduce-satyajit-to': { steps: ['Direct the student to the flashback paragraph ("He had tried to overreach himself...") and ask: "List three specific.', 'Have them compare the forger\'s plea ("She is dying for want of medicine") with Srinath\'s plea ("Who will ever marry.', 'Ask: "Is Satyajit\'s signing of the deed an act of redemption, weakness, or both?', 'Find one phrase supporting each view." This forces engagement with textual evidence and moral complexity.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves examining how secondary.',
+          question: 'Supporting characters in \'Glory at Twilight\' — the secondary figures who move.',
           hint: 'Review the four-column method (appearance, dialogue, desire, protagonist\'s reaction) from.',
           misconception: 'Students often treat supporting characters as mere "background" or "plot devices" and write generic descriptions like.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of supporting characters involves examining how secondary figures in a',
-                  options: ['Character analysis of supporting characters involves examining how secondary figures in a', 'Before You Read: Context and Background is a pre-reading strategy that provides the', 'Plot and narrative structure refer to the deliberate arrangement of events, conflicts,', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in \'Glory at Twilight\'',
+                  options: ['Supporting characters in \'Glory at Twilight\'', '\'Glory at Twilight\' (Woven Words, ch', 'The plot/narrative arc of \'Glory at Twilight\'', 'The setting of \'Glory at Twilight\''],
                   hint: 'Review the four-column method (appearance, dialogue, desire, protagonist\'s reaction) from the.',
                   misconception: 'Students often treat supporting characters as mere "background" or "plot devices" and write generic descriptions like "Srinath is greedy".' }
           ],
             remediations: { 'students-often-treat-supporting-characters': { steps: ['If a student writes generic traits, guide them through this 3-step repair: (1) Pick one character and find the exact.', '(2) Ask: "What does this character want RIGHT NOW?', 'What does their dialogue assume about Satyajit?" (3) Connect that want to a larger theme: patronage, meritocracy.', 'Practice with Srinath first — his "begging bowl" speech is the clearest entry point.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
+          question: 'The primary theme of \'Glory at Twilight\' — the central idea the whole text.',
           hint: 'If stuck, return to c11_eng_w_cbse_07_004 (Character Analysis: Protagonist) and re-map.',
           misconception: 'Students often equate "theme" with "topic" (e.g., "the theme is banking failure" or "the theme is village weddings").',
           parts: [

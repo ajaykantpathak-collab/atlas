@@ -6,13 +6,13 @@ import C12_PhysicsAlternatingCurrentCBSESim from '../../../simulations/c6_12/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsalternatingcurrentcbsesim: SimDef = {
     id: 'v3w_c12_physicsalternatingcurrentcbsesim',
-    title: 'Alternating Current CBSE',
+    title: 'AC Voltage and Current: RMS Value',
     subtitle: 'This node covers the definition, derivation, and calculation of RMS values for sinusoidal.',
     classLevel: 12, subject: 'physics', topic: 'AC Voltage and Current: RMS Value',
     chapters: [],
     nodeIds: ['c12_phy_cbse_07_001', 'c12_phy_cbse_07_003', 'c12_phy_cbse_07_004', 'c12_phy_cbse_07_009', 'c12_phy_cbse_06_005', 'c12_phy_cbse_06_006', 'c12_phy_cbse_14_005', 'c12_phy_cbse_14_006', 'c12_phy_cbse_07_002', 'c12_phy_cbse_07_005', 'c12_phy_cbse_07_006', 'c12_phy_cbse_07_007', 'c12_phy_cbse_07_008', 'c12_phy_cbse_13_005', 'c12_phy_cbse_10_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe the ceiling fan in your classroom — it runs on the 220 V AC mains supply.', goal: 'Master Alternating Current CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe the ceiling fan in your classroom — it runs on the 220 V AC mains supply.', goal: 'Master AC Voltage and Current: RMS Value.' },
     discovery: {
         question: 'What is the SI unit of capacitive reactance, and how does it change if the frequency of the AC source is doubled while capacitance remains constant?',
         options: ['The SI unit of capacitive reactance is ohm (Ω)', 'ohm but increases with frequency', 'does not draw any current'],
@@ -79,7 +79,7 @@ export const w_c12_physicsalternatingcurrentcbsesim: SimDef = {
             { text: 'Physically reasonable: 48 V back emf is much less than 230 V, so no dangerous spark; 0.038 J is a small energy,.', faded: true, blankAnswer: 'Stored energy = 0.0384 J; average back emf = 48 V.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_07_003', title: 'Identify each idea',
-          dissect: { specimen: 'Alternating Current CBSE', spots: [
+          dissect: { specimen: 'AC Voltage and Current: RMS Value', spots: [
             { id: 's1', label: 'The root mean square RMS', prompt: 'Which idea is this? — The root mean square (RMS) value of an alternating current or voltage is the equivalent.', answer: 'The root mean square RMS', options: ['The root mean square RMS', 'Inductive reactance X_L is the', 'Capacitive reactance X_C is the', 'A transformer is a static'] },
             { id: 's2', label: 'Inductive reactance X_L is the', prompt: 'Which idea is this? — Inductive reactance (\\(X_L\\)) is the opposition offered by a pure inductor to the flow of.', answer: 'Inductive reactance X_L is the', options: ['Inductive reactance X_L is the', 'The root mean square RMS', 'Capacitive reactance X_C is the', 'A transformer is a static'] },
             { id: 's3', label: 'Capacitive reactance X_C is the', prompt: 'Which idea is this? — Capacitive reactance (X_C) is the opposition offered by a pure capacitor to the flow of.', answer: 'Capacitive reactance X_C is the', options: ['Capacitive reactance X_C is the', 'The root mean square RMS', 'Inductive reactance X_L is the', 'A transformer is a static'] },
@@ -88,7 +88,7 @@ export const w_c12_physicsalternatingcurrentcbsesim: SimDef = {
             { id: 's6', label: 'The energy stored in an', prompt: 'Which idea is this? — The energy stored in an inductor is the magnetic potential energy accumulated in the.', answer: 'The energy stored in an', options: ['The energy stored in an', 'The root mean square RMS', 'Inductive reactance X_L is the', 'Capacitive reactance X_C is the'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsAlternatingCurrentCBSESim, prompt: 'Explore the interactive — Alternating Current CBSE' },
+    explore: { component: C12_PhysicsAlternatingCurrentCBSESim, prompt: 'Explore the interactive — AC Voltage and Current: RMS Value' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_07_001', difficulty: 'standard',
           question: 'The root mean square (RMS) value of an alternating current or voltage is the.',
@@ -193,8 +193,8 @@ export const w_c12_physicsalternatingcurrentcbsesim: SimDef = {
                   options: ['The statement is false', 'coils and iron core are present', 'a transformer works with DC'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think a transformer works with DC because “coils and iron core are present.” They forget that a constant current produces a.' },
-                { id: 'b', prompt: 'Design a simple experiment using a low-voltage AC source (e.g., 6 V from a lab transformer), two coils of different turns, and a multimeter to verify the.', answer: 'Steps: (1) Wind two coils on a common iron rod (e.g., Np = 200, Ns = 100)',
-                  options: ['Steps: (1) Wind two coils on a common iron rod (e.g., Np = 200, Ns = 100)', 'coils and iron core are present', 'a transformer works with DC'],
+                { id: 'b', prompt: 'Design a simple experiment using a low-voltage AC source (e.g., 6 V from a lab transformer), two coils of different turns, and a multimeter to verify the.', answer: '(1) Wind two coils on a common iron rod (e.g., Np = 200, Ns =',
+                  options: ['(1) Wind two coils on a common iron rod (e.g., Np = 200, Ns =', 'coils and iron core are present', 'a transformer works with DC'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think a transformer works with DC because “coils and iron core are present.” They forget that a constant current produces a.' }
           ],

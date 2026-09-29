@@ -6,13 +6,13 @@ import C12_EconomicsMarketMechanismEquilibriumSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_economicsmarketmechanismequilibriumsim: SimDef = {
     id: 'v3w_c12_economicsmarketmechanismequilibriumsim',
-    title: 'Market Mechanism Equilibrium',
+    title: 'Price Ceiling: Meaning, Rationale and Effects (Black Market)',
     subtitle: 'Covers: Meaning of price ceiling, rationale (equity/affordability), binding vs.',
     classLevel: 12, subject: 'economics', topic: 'Price Ceiling: Meaning, Rationale and Effects (Black Market)',
     chapters: [],
     nodeIds: ['c12_eco_cbse_05_006', 'c12_eco_cbse_04_006', 'c12_eco_cbse_11_011', 'c12_eco_cbse_05_001', 'c12_eco_cbse_05_002', 'c12_eco_cbse_05_003', 'c12_eco_cbse_05_004', 'c12_eco_cbse_05_005', 'c12_eco_cbse_05_007', 'c12_eco_cbse_05_008', 'c12_eco_cbse_01_002', 'c12_eco_cbse_10_007', 'c12_eco_cbse_10_010', 'c12_eco_cbse_11_010', 'c12_eco_cbse_11_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you go to a fair-price shop in Delhi to buy wheat at the government-fixed rate of ₹22/kg, but the.', goal: 'Master Market Mechanism Equilibrium.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you go to a fair-price shop in Delhi to buy wheat at the government-fixed rate of ₹22/kg, but the.', goal: 'Master Price Ceiling: Meaning, Rationale and Effects (Black Market).' },
     discovery: {
         question: '"In the long run, a perfectly competitive firm produces at the minimum point of its LAC curve.',
         options: ['Yes, the firm is productively efficient', 'only productively efficient', 'in long-run equilibrium, the firm\'s profit is zero in the accounting sense (i'],
@@ -76,7 +76,7 @@ export const w_c12_economicsmarketmechanismequilibriumsim: SimDef = {
                 { text: 'increase in supply means quantity supplied goes up when price rises', outcome: 'Not quite — **Misconception:** "When supply increases, price falls, so producers earn less revenue — therefore.', reveals: 'misconception-when-supply-increases' }
             ] }] } }
     ],
-    explore: { component: C12_EconomicsMarketMechanismEquilibriumSim, prompt: 'Explore the interactive — Market Mechanism Equilibrium' },
+    explore: { component: C12_EconomicsMarketMechanismEquilibriumSim, prompt: 'Explore the interactive — Price Ceiling: Meaning, Rationale and Effects (Black Market)' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eco_cbse_05_006', difficulty: 'standard',
           question: 'A price ceiling is a government-imposed maximum legal price that sellers can.',

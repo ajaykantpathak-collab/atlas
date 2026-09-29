@@ -113,12 +113,12 @@ export const c8_engl_ch02_p1: SimDef = {
           ],
             remediations: { 'answering-how-90-men-foiled': { steps: ['To fix this, guide the student to: 1) Identify all verbs describing soldier actions in the text (e.g., "occupied,".', '2) For each verb, ask: "What specific advantage did this action create?" (e.g., "Occupied the hill" → forced enemy.', '3) Match each advantage to a textual quote or paraphrase.', '4) Conclude by explaining how these advantages *together* countered the numerical disadvantage.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c8_engl_ch2_11', difficulty: 'standard',
-          question: 'Critical thinking in this context means analyzing the concepts of valour and.',
+          question: 'From \'English chapter c8_engl_ch2\': the skill or concept this node teaches.',
           hint: 'If stuck, review the theme analysis from c8_engl_ch2_6 (Sacrifice, Patriotism, and Duty).',
           misconception: 'Students often confuse valour with reckless bravery, believing that any dangerous action—like charging alone into enemy.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in this context means analyzing the concepts of valour and sacrifice by',
-                  options: ['Critical thinking in this context means analyzing the concepts of valour and sacrifice by', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'A tribute is a structured piece of writing (speech, essay, or article) that honours a'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c8_engl_ch2\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c8_engl_ch2\': the skill or concept this node teaches, applied to', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'A tribute is a structured piece of writing (speech, essay, or article) that honours a'],
                   hint: 'If stuck, review the theme analysis from c8_engl_ch2_6 (Sacrifice, Patriotism, and Duty).',
                   misconception: 'Students often confuse valour with reckless bravery, believing that any dangerous action—like charging alone into enemy fire without.' }
           ],
@@ -129,7 +129,7 @@ export const c8_engl_ch02_p1: SimDef = {
           misconception: 'Students treat a tribute as a "fact dump" — they believe honouring a hero means listing *all* known facts (birth.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'A tribute is a structured piece of writing (speech, essay, or article) that honours a',
-                  options: ['A tribute is a structured piece of writing (speech, essay, or article) that honours a', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'Critical thinking in this context means analyzing the concepts of valour and sacrifice by'],
+                  options: ['A tribute is a structured piece of writing (speech, essay, or article) that honours a', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'From \'English chapter c8_engl_ch2\': the skill or concept this node teaches, applied to'],
                   hint: 'If stuck, review **c8_engl_ch2_2 (Character Analysis)** to re-identify Major Sharma\'s core traits.',
                   misconception: 'Students treat a tribute as a "fact dump" — they believe honouring a hero means listing *all* known facts (birth, education, regiment.' }
           ],
@@ -140,7 +140,7 @@ export const c8_engl_ch02_p1: SimDef = {
           misconception: 'Students believe a poem summary is a stanza-by-stanza paraphrase — they rewrite each stanza in simpler language and.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'A poem summary condenses the narrative, imagery, and emotional arc of a patriotic poem',
-                  options: ['A poem summary condenses the narrative, imagery, and emotional arc of a patriotic poem', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'Critical thinking in this context means analyzing the concepts of valour and sacrifice by'],
+                  options: ['A poem summary condenses the narrative, imagery, and emotional arc of a patriotic poem', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'From \'English chapter c8_engl_ch2\': the skill or concept this node teaches, applied to'],
                   hint: 'Review c7_engl_ch05_011 (Pushp ki Abhilasha summary) and practice the "one word per stanza.',
                   misconception: 'Students believe a poem summary is a stanza-by-stanza paraphrase — they rewrite each stanza in simpler language and call it a summary.' }
           ],
@@ -151,7 +151,7 @@ export const c8_engl_ch02_p1: SimDef = {
           misconception: 'Students often believe that rhyme scheme requires perfect, identical rhymes and that stanzas must be uniform in length.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Rhyme scheme is the pattern of rhyming words at the end of poetic lines, represented by',
-                  options: ['Rhyme scheme is the pattern of rhyming words at the end of poetic lines, represented by', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'Critical thinking in this context means analyzing the concepts of valour and sacrifice by'],
+                  options: ['Rhyme scheme is the pattern of rhyming words at the end of poetic lines, represented by', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'From \'English chapter c8_engl_ch2\': the skill or concept this node teaches, applied to'],
                   hint: 'If stuck, review the Class 7 concept of rhyme scheme identification (c7_engl_ch01_012).',
                   misconception: 'Students often believe that rhyme scheme requires perfect, identical rhymes and that stanzas must be uniform in length and pattern.' }
           ],

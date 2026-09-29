@@ -6,13 +6,13 @@ import C12_PhysicsMagnetismandMatterCBSESim from '../../../simulations/c6_12_new
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsmagnetismandmattercbsesim: SimDef = {
     id: 'v3w_c12_physicsmagnetismandmattercbsesim',
-    title: 'Magnetismand Matter CBSE',
+    title: 'Maxwell\'s Equations: Qualitative Understanding',
     subtitle: 'Covers qualitative understanding of the four Maxwell\'s equations in vacuum as presented.',
     classLevel: 12, subject: 'physics', topic: 'Maxwell\'s Equations: Qualitative Understanding',
     chapters: [],
     nodeIds: ['c12_phy_cbse_08_002', 'c12_phy_cbse_08_003', 'c12_phy_cbse_08_005', 'c12_phy_cbse_11_003', 'c12_phy_cbse_11_004', 'c12_phy_cbse_11_005', 'c12_phy_cbse_11_006', 'c12_phy_cbse_05_001', 'c12_phy_cbse_05_002', 'c12_phy_cbse_05_004', 'c12_phy_cbse_05_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: a mobile phone receives signals inside a building where no wires connect.', goal: 'Master Magnetismand Matter CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: a mobile phone receives signals inside a building where no wires connect.', goal: 'Master Maxwell\'s Equations: Qualitative Understanding.' },
     discovery: {
         question: 'A microwave oven operates at 2.45 GHz. Calculate: (a) the wavelength in cm, (b) the photon energy in eV.',
         options: ['the wavelength in cm, (', 'higher frequency means higher speed', 'Gamma rays travel faster than radio waves'],
@@ -79,7 +79,7 @@ export const w_c12_physicsmagnetismandmattercbsesim: SimDef = {
             { text: 'Compare: \\(\\lambda_{\\text{dB}} = \\lambda_{\\text{Bragg}} = 1.67 \\, \\text{Å}\\).', faded: true, blankAnswer: '\\(\\lambda_{\\text{dB}} = \\lambda_{\\text{Bragg}} = 1.67.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_08_003', title: 'Identify each idea',
-          dissect: { specimen: 'Magnetismand Matter CBSE', spots: [
+          dissect: { specimen: 'Maxwell\'s Equations: Qualitative Understanding', spots: [
             { id: 's1', label: 'Maxwells equations in vacuum are', prompt: 'Which idea is this? — Maxwell\'s equations in vacuum are a set of four fundamental equations that describe how.', answer: 'Maxwells equations in vacuum are', options: ['Maxwells equations in vacuum are', 'The electromagnetic spectrum is the', 'Electromagnetic waves are self-propagating oscillations', 'A photon is the fundamental'] },
             { id: 's2', label: 'The electromagnetic spectrum is the', prompt: 'Which idea is this? — The electromagnetic spectrum is the continuous distribution of electromagnetic waves.', answer: 'The electromagnetic spectrum is the', options: ['The electromagnetic spectrum is the', 'Maxwells equations in vacuum are', 'Electromagnetic waves are self-propagating oscillations', 'A photon is the fundamental'] },
             { id: 's3', label: 'Electromagnetic waves are self-propagating oscillations', prompt: 'Which idea is this? — Electromagnetic waves are self-propagating oscillations of mutually perpendicular.', answer: 'Electromagnetic waves are self-propagating oscillations', options: ['Electromagnetic waves are self-propagating oscillations', 'Maxwells equations in vacuum are', 'The electromagnetic spectrum is the', 'A photon is the fundamental'] },
@@ -88,7 +88,7 @@ export const w_c12_physicsmagnetismandmattercbsesim: SimDef = {
             { id: 's6', label: 'The Davisson-Germer experiment 1927 demonstrated', prompt: 'Which idea is this? — The Davisson-Germer experiment (1927) demonstrated the wave nature of electrons by.', answer: 'The Davisson-Germer experiment 1927 demonstrated', options: ['The Davisson-Germer experiment 1927 demonstrated', 'Maxwells equations in vacuum are', 'The electromagnetic spectrum is the', 'Electromagnetic waves are self-propagating oscillations'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsMagnetismandMatterCBSESim, prompt: 'Explore the interactive — Magnetismand Matter CBSE' },
+    explore: { component: C12_PhysicsMagnetismandMatterCBSESim, prompt: 'Explore the interactive — Maxwell\'s Equations: Qualitative Understanding' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_08_002', difficulty: 'standard',
           question: 'Maxwell\'s equations in vacuum are a set of four fundamental equations that.',

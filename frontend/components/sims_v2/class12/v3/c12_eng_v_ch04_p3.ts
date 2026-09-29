@@ -19,7 +19,7 @@ export const c12_eng_v_ch04_p3: SimDef = {
         hook: 'Pearl S. Buck wrote this DURING the war — an American raised in China who could see both sides without caricature. Judging Sadao by peacetime logic (\'just call the police\') misses that the police meant execution; the dilemma only works inside its history.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves evaluating a text by questioning assumptions, examining evidence, interpreting authorial choices, and synthesizing multiple perspectives to form.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Enemy\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_04_013', title: 'Your mission',
@@ -29,21 +29,21 @@ export const c12_eng_v_ch04_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_04_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a judge hearing Dr. Sadao\'s case: he saved an enemy soldier, violating wartime law, but upheld his medical oath.',
+          caseStudy: { intro: 'Analyse \'The Enemy\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the central ethical dilemma Dr. Sadao faces in "The Enemy," and which two roles are in direct conflict?', options: [
                 { text: 'The central dilemma is whether to save a wounded enemy soldier (duty as a doctor) or hand', outcome: 'The central dilemma is whether to save a wounded enemy soldier (duty as a doctor) or hand him over.' },
                 { text: 'healer', outcome: 'Not quite — Students often treat "The Enemy" as a simple "humanity wins" story, writing that Sadao\'s choice.', reveals: 'students-often-treat-the-enemy' },
                 { text: 'patriot', outcome: 'Not quite — Students often treat "The Enemy" as a simple "humanity wins" story, writing that Sadao\'s choice.', reveals: 'students-often-treat-the-enemy' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_04_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing a 6-mark question: "Dr.',
+          caseStudy: { intro: 'For written answers on \'The Enemy\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'Define the PEEL framework and state the purpose of each component in a literature-based writing task.', options: [
                 { text: 'PEEL stands for Point (topic sentence stating the argument), Evidence (specific textual', outcome: 'PEEL stands for Point (topic sentence stating the argument), Evidence (specific textual reference.' },
                 { text: 'PEEL is for paragraph formatting', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarising the story in essay/formal.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarising the story in essay/formal.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_04_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a literature circle discussing whether Dr. Sadao betrayed his country or upheld a higher moral law.',
+          caseStudy: { intro: 'Talk through \'The Enemy\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of a \'discussion point\' activity in the context of studying "The Enemy"?', options: [
                 { text: 'The primary purpose is to explore multiple perspectives on the story\'s ethical dilemmas', outcome: 'The primary purpose is to explore multiple perspectives on the story\'s ethical dilemmas (e.g.' },
                 { text: 'to memorize the plot', outcome: 'Not quite — Students think a discussion point is just "sharing opinions" and speak without textual evidence.', reveals: 'a-discussion-point-is-just' },
@@ -68,12 +68,12 @@ export const c12_eng_v_ch04_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves evaluating a text.',
+          question: 'Critical thinking on \'The Enemy\' — analysing the text to reach evidence-based.',
           hint: 'If stuck, return to c12_eng_v_cbse_04_012 and practice writing three PEEL paragraphs.',
           misconception: 'Students often treat "The Enemy" as a simple "humanity wins" story, writing that Sadao\'s choice is obviously right.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis involves evaluating a text by questioning',
-                  options: ['Critical thinking in literary analysis involves evaluating a text by questioning', 'The "Before You Read" context provides the historical, cultural, and ethical framework', 'Plot and narrative structure refers to the deliberate arrangement of story events', 'Setting in "The Enemy" refers to the specific time (World War II), place (Japanese'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'The Enemy\'',
+                  options: ['Critical thinking on \'The Enemy\'', '\'The Enemy\' (Vistas, ch', 'The plot/narrative arc of \'The Enemy\'', 'The setting of \'The Enemy\''],
                   hint: 'If stuck, return to c12_eng_v_cbse_04_012 and practice writing three PEEL paragraphs linking.',
                   misconception: 'Students often treat "The Enemy" as a simple "humanity wins" story, writing that Sadao\'s choice is obviously right because saving life.' }
           ],
@@ -90,7 +90,7 @@ export const c12_eng_v_ch04_p3: SimDef = {
           ],
             remediations: { 'students-often-treat-the-enemy': { steps: ['If a student defaults to "humanity wins" simplification: (1) Have them re-read Sadao\'s internal monologue during the.', '(2) Ask: "If Sadao is so humanitarian, why does he call the prisoner \'my enemy\' and \'a common fellow\'?" (3) Assign.', '(4) Re-diagnose with Question 4: "Does the text support a clear moral victory, or does it document a man doing his job.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_014', difficulty: 'standard',
-          question: 'Writing Skills based on "The Enemy" involves crafting structured.',
+          question: 'Writing skills from \'The Enemy\' — using the text as a model or springboard for.',
           hint: 'If unable to separate narration from analysis, revisit Class 11 Writing Skills nodes.',
           misconception: 'Students believe "writing skills based on the chapter" means summarising the story in essay/formal letter format.',
           parts: [
@@ -105,7 +105,7 @@ export const c12_eng_v_ch04_p3: SimDef = {
           ],
             remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits plot summary instead of analysis: (1) Return the answer with two highlighters — yellow for "plot.', '(2) Give a 3-sentence model PEEL paragraph on the same point (e.g., Sadao\'s dilemma).', '(3) Have them rewrite *only one paragraph* using PEEL, swapping narration for analysis.', '(4) Assign a 150-word "theme + evidence" drill: pick one theme (prejudice, duty, humanity), find 3 textual moments.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to structured oral activities.',
+          question: 'Discussion points on \'The Enemy\' — speaking and listening around the text.',
           hint: 'If stuck, review c12_eng_v_cbse_04_013 (Critical Thinking) for modeled analytical.',
           misconception: 'Students think a discussion point is just "sharing opinions" and speak without textual evidence, treating the story.',
           parts: [

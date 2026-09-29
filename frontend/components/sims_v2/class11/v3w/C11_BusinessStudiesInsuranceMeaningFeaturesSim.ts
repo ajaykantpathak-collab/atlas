@@ -6,13 +6,13 @@ import C11_BusinessStudiesInsuranceMeaningFeaturesSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_businessstudiesinsurancemeaningfeaturessim: SimDef = {
     id: 'v3w_c11_businessstudiesinsurancemeaningfeaturessim',
-    title: 'Insurance Meaning Features',
+    title: 'Business Process Outsourcing (BPO): Features and Scope',
     subtitle: 'This node covers the meaning, features (non-core focus, cost arbitrage, process.',
     classLevel: 11, subject: 'business_studies', topic: 'Business Process Outsourcing (BPO): Features and Scope',
     chapters: [],
     nodeIds: ['c11_bs_cbse_05_007', 'c11_bs_cbse_04_004', 'c11_bs_cbse_04_007', 'c11_bs_cbse_01_007', 'c11_bs_cbse_05_006', 'c11_bs_cbse_03_001', 'c11_bs_cbse_08_001', 'c11_bs_cbse_08_006', 'c11_bs_cbse_10_003', 'c11_bs_cbse_02_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you run a fast-growing Indian startup selling handmade organic skincare products online.', goal: 'Master Insurance Meaning Features.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you run a fast-growing Indian startup selling handmade organic skincare products online.', goal: 'Master Business Process Outsourcing (BPO): Features and Scope.' },
     discovery: {
         question: 'What is the fundamental distinction between \'horizontal\' and \'vertical\' BPO services? Give one Indian industry example of each.',
         options: ['Horizontal BPO services are generic, industry-agnostic processes (e.g., payroll', 'horizontal means domestic, vertical means international', 'captive BPO'],
@@ -83,7 +83,7 @@ export const w_c11_businessstudiesinsurancemeaningfeaturessim: SimDef = {
             { text: 'Synthesise for profit-maximising entrepreneur valuing speed/control – Option A is superior: full control, fast setup,.', faded: true, blankAnswer: 'Option A (Private Limited Company) is recommended. While.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bs_cbse_04_004', title: 'Identify each idea',
-          dissect: { specimen: 'Insurance Meaning Features', spots: [
+          dissect: { specimen: 'Business Process Outsourcing (BPO): Features and Scope', spots: [
             { id: 's1', label: 'Business Process Outsourcing BPO is', prompt: 'Which idea is this? — Business Process Outsourcing (BPO) is the practice of contracting specific non-core.', answer: 'Business Process Outsourcing BPO is', options: ['Business Process Outsourcing BPO is', 'Utmost Good Faith Uberrimae Fidei', 'Health theft and other general', 'Trade is the branch of'] },
             { id: 's2', label: 'Utmost Good Faith Uberrimae Fidei', prompt: 'Which idea is this? — Utmost Good Faith (Uberrimae Fidei) is the fundamental principle requiring both insurer.', answer: 'Utmost Good Faith Uberrimae Fidei', options: ['Utmost Good Faith Uberrimae Fidei', 'Business Process Outsourcing BPO is', 'Health theft and other general', 'Trade is the branch of'] },
             { id: 's3', label: 'Health theft and other general', prompt: 'Which idea is this? — Health, theft, and other general insurance policies are non-life insurance contracts that.', answer: 'Health theft and other general', options: ['Health theft and other general', 'Business Process Outsourcing BPO is', 'Utmost Good Faith Uberrimae Fidei', 'Trade is the branch of'] },
@@ -92,7 +92,7 @@ export const w_c11_businessstudiesinsurancemeaningfeaturessim: SimDef = {
             { id: 's6', label: 'The private sector comprises business', prompt: 'Which idea is this? — The private sector comprises business enterprises owned, controlled, and managed by.', answer: 'The private sector comprises business', options: ['The private sector comprises business', 'Business Process Outsourcing BPO is', 'Utmost Good Faith Uberrimae Fidei', 'Health theft and other general'] }
           ] } }
     ],
-    explore: { component: C11_BusinessStudiesInsuranceMeaningFeaturesSim, prompt: 'Explore the interactive — Insurance Meaning Features' },
+    explore: { component: C11_BusinessStudiesInsuranceMeaningFeaturesSim, prompt: 'Explore the interactive — Business Process Outsourcing (BPO): Features and Scope' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bs_cbse_05_007', difficulty: 'standard',
           question: 'Business Process Outsourcing (BPO) is the practice of contracting specific.',

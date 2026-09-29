@@ -92,7 +92,7 @@ export const C8_ECO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Interconnection Between Factors Of",
+    "title": "Interconnection Between Factors",
     "text": "The interconnection between factors of production refers to the essential economic reality that land, labour, capital, and entrepreneurship cannot function in isolation; rather, they depend on and enhance one another to create goods and services.",
     "emoji": "📈",
     "bgColor": "from-rose-400 to-pink-500"
@@ -731,7 +731,7 @@ export const C8_ECO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Components Of Demography Refer To",
+    "title": "Components Of Demography",
     "text": "The components of demography refer to the core structural elements used to study human populations, specifically population size (total number of people), structure (composition by age, gender, and occupation), pattern (geographic distribution), and trend",
     "emoji": "📈",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1354,7 +1354,7 @@ export const C8_ECO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Population Density In Cities Measures The",
+    "title": "Population Density In Cities Measures",
     "text": "Population density in cities measures the average number of people residing within a specific unit of land area (typically persons per square kilometer).",
     "emoji": "📈",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1384,7 +1384,7 @@ export const C8_ECO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Challenges Of Urbanisation Refer To",
+    "title": "Challenges Of Urbanisation",
     "text": "The challenges of urbanisation refer to the critical socioeconomic and environmental strains—such as housing shortages, traffic congestion, and pollution—that arise when a city's population grows faster than the capacity of its physical and social",
     "emoji": "📈",
     "bgColor": "from-violet-400 to-purple-500"

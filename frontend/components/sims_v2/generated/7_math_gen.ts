@@ -55,13 +55,13 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Place Value System Extends To",
+    "title": "Place Value System Extends",
     "text": "The place value system extends to 6-digit (lakhs) and 7-digit (ten lakhs) numbers in the Indian numbering system, where each digit's position to the left represents a value ten times greater than the position immediately to its right.",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Reading And Writing Large Numbers In",
+    "title": "Reading And Writing Large Numbers",
     "text": "Reading and writing large numbers in the Indian numbering system involves grouping digits using commas to separate periods (Ones, Thousands, Lakhs, and Crores) and translating those groups into words or standard numerical notation.",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -605,7 +605,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Expressions With Brackets Use Parentheses (",
+    "title": "Expressions With Brackets Use Parentheses",
     "text": "Expressions with brackets use parentheses ( ), curly brackets { }, and square brackets [ ] to group numbers and operations, dictating that the grouped portion must be evaluated first according to the standard order of operations.",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -623,7 +623,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Simplifying Arithmetic Expressions Step By",
+    "title": "Simplifying Arithmetic Expressions Step",
     "text": "Simplifying arithmetic expressions step by step is the process of applying the correct order of operations (BODMAS/PEMDAS) to reduce a complex combination of numbers, grouping symbols, and operations into a single simplified numerical value.",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1077,7 +1077,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Tenth Part Represents One Of",
+    "title": "The Tenth Part Represents One",
     "text": "The tenth part represents one of ten equal parts of a whole unit, expressed as the fraction $\\frac{1}{10}$ or as the decimal number $0.1$. It is the first position to the right of the decimal point, representing a value ten times smaller than a whole number",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1581,7 +1581,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Revisiting Arithmetic Expressions With",
+    "title": "Revisiting Arithmetic Expressions",
     "text": "Revisiting arithmetic expressions with variables bridges the gap between purely numerical expressions and algebraic expressions by showing how known operations (addition, subtraction, multiplication, division) behave when applied to numbers and letters",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1599,7 +1599,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Matchstick Patterns And Generalising With",
+    "title": "Matchstick Patterns and Generalising",
     "text": "Matchstick patterns and generalising with variables is the process of building geometric shapes with a constant number of matchsticks, observing how the total count changes as the number of shapes grows, and writing an algebraic expression using a variable",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1623,7 +1623,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Process Of Observing Numerical Or",
+    "title": "Process Of Observing Numerical",
     "text": "The process of observing numerical or geometric patterns and expressing the underlying relationship as a general algebraic formula using variables. This allows us to predict any term in a sequence without calculating all the intermediate steps.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2102,16 +2102,13 @@ export const C7_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c7_math_ch06",
-  "title": "Interpreting Number Sequences Involves",
+  "title": "Numbers Tell Us Things: Interpreting Number",
   "subtitle": "Mathematics · Chapter 6",
   "classLevel": 7,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Interpreting Number Sequences Involves Analyzing a",
-  "chapters": [
-   "Mathematics Ch6: Interpreting Number Sequences Involves Analyzing a",
-   "Mathematics Ch7: Interpreting Number Sequences Involves Analyzing a"
-  ],
+  "topic": "Numbers Tell Us Things: Interpreting Number",
+  "chapters": ["Mathematics Ch6: Numbers Tell Us Things: Interpreting Number", "Mathematics Ch7: Numbers Tell Us Things: Interpreting Number"],
   "nodeIds": [
    "c7_math_ch06_001",
    "c7_math_ch06_002",
@@ -2132,7 +2129,7 @@ export const C7_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Interpreting Number Sequences in real working life?",
+   "question": "Who uses Numbers Tell Us Things: in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -2167,7 +2164,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Constructing Triangles Using a Ruler And",
+    "title": "Constructing Triangles Using a Ruler",
     "text": "Constructing triangles using a ruler and compass involves accurately drawing a triangle when specific dimensions (such as side lengths or angle measures) are provided, ensuring that the geometric properties of triangles are strictly satisfied.",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2807,11 +2804,11 @@ export const C7_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about interpreting number sequences involves analyzing a?",
+    "What surprised you about numbers tell us things: interpreting number?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Interpreting Number Sequences mastered! 🎯",
+  "successLine": "Numbers Tell Us Things: mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2889,7 +2886,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Euclidean Division Method For Finding The",
+    "title": "Euclidean Division Method for HCF",
     "text": "The Euclidean Division Method for finding the Highest Common Factor (HCF) is an efficient step-by-step procedure based on repeated division, where the last non-zero remainder represents the HCF of two numbers.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2919,7 +2916,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Applications Of HCF And LCM In",
+    "title": "Applications Of HCF And LCM",
     "text": "Applications of HCF and LCM in Real-Life Problems involve translating everyday situations—such as scheduling events, dividing items into equal groups, or aligning periodic occurrences—into mathematical operations using the Highest Common Factor (HCF) or Least",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3693,7 +3690,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Visualising Data Through Bar Graphs And",
+    "title": "Visualising Data Through Bar Graphs",
     "text": "Visualising data through bar graphs and pictographs involves representing numerical information graphically using rectangular bars of uniform width or symbols/icons where each symbol represents a specific numerical quantity to enable easy comparison and",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4896,7 +4893,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Solving a Linear Equation Using The",
+    "title": "Solving a Linear Equation Using",
     "text": "Solving a linear equation using the systematic method involves applying inverse operations sequentially to both sides of an equation to isolate the variable and find its unique numerical value.",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"

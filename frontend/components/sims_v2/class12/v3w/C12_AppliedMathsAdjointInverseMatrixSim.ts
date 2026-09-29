@@ -6,13 +6,13 @@ import C12_AppliedMathsAdjointInverseMatrixSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_appliedmathsadjointinversematrixsim: SimDef = {
     id: 'v3w_c12_appliedmathsadjointinversematrixsim',
-    title: 'Applied Maths Adjoint Inverse Matrix',
+    title: 'Inverse of a Matrix by Elementary Operations',
     subtitle: 'Covers finding inverses of 2×2 and 3×3 matrices using elementary row operations (the.',
     classLevel: 12, subject: 'science', topic: 'Inverse of a Matrix by Elementary Operations',
     chapters: [],
     nodeIds: ['c12_math_cbse_03_011', 'c12_math_cbse_04_001', 'c12_math_cbse_04_003', 'c12_math_cbse_04_005', 'c12_math_cbse_04_006', 'c12_math_cbse_04_007', 'c12_math_cbse_04_008', 'c12_math_cbse_04_010', 'c12_math_cbse_03_004', 'c12_math_cbse_03_005', 'c12_math_cbse_03_006', 'c12_math_cbse_03_010', 'c12_math_cbse_04_009', 'c12_math_cbse_03_001', 'c12_math_cbse_03_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you have ₹500 to split between two investment schemes giving 8% and 10% returns, and you want exactly.', goal: 'Master Applied Maths Adjoint Inverse Matrix.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you have ₹500 to split between two investment schemes giving 8% and 10% returns, and you want exactly.', goal: 'Master Inverse of a Matrix by Elementary Operations.' },
     discovery: {
         question: 'State the exact condition for a square matrix A to have an inverse, and write the starting augmented matrix setup for finding A⁻¹ by elementary row operations.',
         options: ['A square matrix A has an inverse iff it is non-singular (det(A) ≠ 0)', 'write [I | A]', 'add to eliminate'],
@@ -84,7 +84,7 @@ export const w_c12_appliedmathsadjointinversematrixsim: SimDef = {
             { text: 'x = ₹2.25, y = ₹1.75, z = ₹2.25. Verify: 2(2.25)+1.75+3(2.25)=4.5+1.75+6.75=13 ✓.', faded: true, blankAnswer: 'Notebook = ₹2.25, Pen = ₹1.75, Eraser = ₹2.25.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_04_001', title: 'Identify each idea',
-          dissect: { specimen: 'Applied Maths Adjoint Inverse Matrix', spots: [
+          dissect: { specimen: 'Inverse of a Matrix by Elementary Operations', spots: [
             { id: 's1', label: 'The inverse of a square', prompt: 'Which idea is this? — The inverse of a square matrix A (denoted A⁻¹) is a square matrix of the same order such.', answer: 'The inverse of a square', options: ['The inverse of a square', 'A determinant is a scalar', 'Properties of determinants are a', 'The minor M_ij of an'] },
             { id: 's2', label: 'A determinant is a scalar', prompt: 'Which idea is this? — A determinant is a scalar value (real or complex) associated uniquely with every square.', answer: 'A determinant is a scalar', options: ['A determinant is a scalar', 'The inverse of a square', 'Properties of determinants are a', 'The minor M_ij of an'] },
             { id: 's3', label: 'Properties of determinants are a', prompt: 'Which idea is this? — Properties of determinants are a set of algebraic rules that describe how the value of a.', answer: 'Properties of determinants are a', options: ['Properties of determinants are a', 'The inverse of a square', 'A determinant is a scalar', 'The minor M_ij of an'] },
@@ -92,7 +92,7 @@ export const w_c12_appliedmathsadjointinversematrixsim: SimDef = {
             { id: 's5', label: 'The adjoint of a square', prompt: 'Which idea is this? — The adjoint of a square matrix \\( A = [a_{ij}]_{n \\times n} \\) is the transpose of the.', answer: 'The adjoint of a square', options: ['The adjoint of a square', 'The inverse of a square', 'A determinant is a scalar', 'Properties of determinants are a'] }
           ] } }
     ],
-    explore: { component: C12_AppliedMathsAdjointInverseMatrixSim, prompt: 'Explore the interactive — Applied Maths Adjoint Inverse Matrix' },
+    explore: { component: C12_AppliedMathsAdjointInverseMatrixSim, prompt: 'Explore the interactive — Inverse of a Matrix by Elementary Operations' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_03_011', difficulty: 'standard',
           question: 'The inverse of a square matrix A (denoted A⁻¹) is a square matrix of the same.',

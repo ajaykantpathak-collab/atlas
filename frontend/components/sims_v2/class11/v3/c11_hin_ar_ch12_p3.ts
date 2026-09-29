@@ -19,7 +19,7 @@ export const c11_hin_ar_ch12_p3: SimDef = {
         hook: 'Agyeya the linguist wrote in the people\'s dialect on purpose — the poem isn\'t about letters, it\'s about reclaiming agency.',
     },
     teaching: [
-        { title: 'पाठ 12 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह प्रक्रिया है जिसमें पाठक पाठ की संरचना, भाषा-शैली, प्रतीक-योजना, लेखकीय दृष्टिकोण और अंतर्निहित मान्यताओं की जांच करके.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 12 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'पैक डकस डकस वपंजु न पुखरह\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_12_013', title: 'Your mission',
@@ -30,8 +30,8 @@ export const c11_hin_ar_ch12_p3: SimDef = {
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'dissect', nodeId: 'c11_hin_ar_cbse_12_014', title: 'Identify each idea',
           dissect: { specimen: 'पाठ 12 · Part 3/3', spots: [
-            { id: 's1', label: '12 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ से साक्ष्य लेकर, उसके विश्लेषण के.', answer: '12 -', options: ['12 -', '12 - -'] },
-            { id: 's2', label: '12 - -', prompt: 'Which idea is this? — चर्चा-बिंदु (Discussion Points) are analytically framed, text-anchored prompts designed.', answer: '12 - -', options: ['12 - -', '12 -'] }
+            { id: 's1', label: '12 -', prompt: 'Which idea is this? — \'पैक डकस डकस वपंजु न पुखरह\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।', answer: '12 -', options: ['12 -', '12 - -'] },
+            { id: 's2', label: '12 - -', prompt: 'Which idea is this? — \'पैक डकस डकस वपंजु न पुखरह\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श.', answer: '12 - -', options: ['12 - -', '12 -'] }
           ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_12_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your class is adapting Agyeya\'s poem — a postman urging an illiterate villager to read — for a street play. The adapter wants to add a narrator to \'explain the poet\'s sadness about illiteracy\' and soften the postman\'s command \'पढ़ ले!\' into polite persuasion.',
@@ -52,38 +52,38 @@ export const c11_hin_ar_ch12_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_12_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह.',
+          question: '\'पैक डकस डकस वपंजु न पुखरह\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
           hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_12_008 और c11_hin_ar_cbse_12_009 (साहित्यिक.',
           misconception: 'छात्र मानते हैं कि आलोचनात्मक चिंतन का अर्थ \'कमियाँ निकालना\' या \'लेखक से असहमत होना\' है, जबकि वास्तव में यह पाठ की.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह प्रक्रिया है',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह प्रक्रिया है', '**पृष्ठभूमि** किसी रचना के सृजन के समय की ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक', '**कथानक (Plot)** कहानी की घटनाओं का तार्किक और कालानुक्रमिक (Chronological) क्रम है जो', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं के घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'पैक डकस डकस वपंजु न पुखरह\' का आलोचनात्मक चिंतन',
+                  options: ['\'पैक डकस डकस वपंजु न पुखरह\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'पैक डकस डकस वपंजु न पुखरह\' का कथानक', '\'पैक डकस डकस वपंजु न पुखरह\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_12_008 और c11_hin_ar_cbse_12_009 (साहित्यिक युक्तियाँ) को.',
                   misconception: 'छात्र मानते हैं कि आलोचनात्मक चिंतन का अर्थ \'कमियाँ निकालना\' या \'लेखक से असहमत होना\' है, जबकि वास्तव में यह पाठ की आंतरिक सांगठनिकता.' }
           ],
             remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें कि वह पाठ का कोई एक छोटा अंश (5-6 पंक्तियाँ) चुने और केवल यह लिखे: \'लेखक यहाँ क्या कर रहा है?\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_12_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ से साक्ष्य लेकर, उसके.',
+          question: '\'पैक डकस डकस वपंजु न पुखरह\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की.',
           hint: 'यदि PEEL के Explanation चरण में फंसें, तो नोड c11_hin_ar_cbse_12_006 से मुख्य विषय की.',
           misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर लिखने का अर्थ है केवल पाठ की पंक्तियों को कॉपी करके उत्तर में डाल देना, बिना.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ से साक्ष्य लेकर, उसके विश्लेषण के',
-                  options: ['पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें दिए गए पाठ से साक्ष्य लेकर, उसके विश्लेषण के', '**पृष्ठभूमि** किसी रचना के सृजन के समय की ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक', '**कथानक (Plot)** कहानी की घटनाओं का तार्किक और कालानुक्रमिक (Chronological) क्रम है जो', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं के घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'पैक डकस डकस वपंजु न पुखरह\' पर पाठ-आधारित लेखन',
+                  options: ['\'पैक डकस डकस वपंजु न पुखरह\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'पैक डकस डकस वपंजु न पुखरह\' का कथानक', '\'पैक डकस डकस वपंजु न पुखरह\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि PEEL के Explanation चरण में फंसें, तो नोड c11_hin_ar_cbse_12_006 से मुख्य विषय की पहचान करने की.',
                   misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर लिखने का अर्थ है केवल पाठ की पंक्तियों को कॉपी करके उत्तर में डाल देना, बिना उनके अर्थ की.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र से कहें: "ठीक है, आपने पाठ से एक वाक्य लिया। अब मैं आपसे एक सवाल पूछता हूँ: इस वाक्य के बाद क्या होता है?', 'इस वाक्य से हमें पात्र के बारे में क्या नया पता चलता है जिसे हम पहले नहीं जानते थे?" फिर उन्हें निर्देश दें कि वे वाक्य.', 'क्या यह केवल sadness है या कुछ गहरा जैसे निराशा या अकेलापन?" इस प्रक्रिया से वे fact और analysis के बीच का अंतर देखना.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_12_015', difficulty: 'standard',
-          question: 'चर्चा-बिंदु (Discussion Points) are analytically framed, text-anchored prompts.',
-          hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_12_013 (आलोचनात्मक चिंतन) के "व्याख्यात्मक तनाव.',
-          misconception: 'छात्र अक्सर मानते हैं कि "चर्चा-बिंदु" का अर्थ है "विषय दे दो, हम बोल लेंगे" — वे विषय (topic) और चर्चा-बिंदु.',
+          question: '\'पैक डकस डकस वपंजु न पुखरह\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'If stuck, return to c11_hin_ar_cbse_12_010 (Vocabulary in Context) and rebuild the.',
+          misconception: 'Students often treat the father\'s illiteracy as a deficit to be fixed, mirroring the son\'s initial view.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'चर्चा-बिंदु (Discussion Points) are analytically framed, text-anchored prompts designed',
-                  options: ['चर्चा-बिंदु (Discussion Points) are analytically framed, text-anchored prompts designed', '**पृष्ठभूमि** किसी रचना के सृजन के समय की ऐतिहासिक, सामाजिक, सांस्कृतिक एवं राजनैतिक', '**कथानक (Plot)** कहानी की घटनाओं का तार्किक और कालानुक्रमिक (Chronological) क्रम है जो', 'पाठ्य-परिवेश (Setting) कथा में घटनाओं के घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
-                  hint: 'यदि अटका हुआ महसूस हो तो c11_hin_ar_cbse_12_013 (आलोचनात्मक चिंतन) के "व्याख्यात्मक तनाव पहचानना".',
-                  misconception: 'छात्र अक्सर मानते हैं कि "चर्चा-बिंदु" का अर्थ है "विषय दे दो, हम बोल लेंगे" — वे विषय (topic) और चर्चा-बिंदु (discussion point) में भेद.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'पैक डकस डकस वपंजु न पुखरह\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'पैक डकस डकस वपंजु न पुखरह\' पर वाचन-श्रवण और चर्चा-बिंदु', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'पैक डकस डकस वपंजु न पुखरह\' का कथानक', '\'पैक डकस डकस वपंजु न पुखरह\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, return to c11_hin_ar_cbse_12_010 (Vocabulary in Context) and rebuild the Bundelkhandi.',
+                  misconception: 'Students often treat the father\'s illiteracy as a deficit to be fixed, mirroring the son\'s initial view.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र को एक ही पाठ के दो प्रश्न दिखाएँ — एक विषय (topic), एक चर्चा-बिंदु (discussion point) — और पूछें "कौन-सा.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-the-father': { steps: ['If a student insists the father is \'backward\', do not lecture.', 'Instead: (1) Ask them to list five things the father knows without reading (farming cycles, folk medicine, oral.', '(2) Have them re-read stanza 3 where the father predicts the son\'s future betrayal (\'त्क ड्यडक्क्स से कह द्गा...', 'त्क ड्यडक्क्स इज क्त्ज फ्क्जस\').'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -6,13 +6,13 @@ import C10_ChemistrySulphuricacidContactprocessSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_chemistrysulphuricacidcontactprocesssim: SimDef = {
     id: 'v3w_c10_chemistrysulphuricacidcontactprocesssim',
-    title: 'Sulphuricacid Contactprocess',
+    title: 'Important Carbon Compounds: Ethanol and Ethanoic Acid (Properties)',
     subtitle: 'Covers physical properties, chemical reactions (with sodium, sodium hydroxide, sodium.',
     classLevel: 10, subject: 'chemistry', topic: 'Important Carbon Compounds: Ethanol and Ethanoic Acid (Properties)',
     chapters: [],
     nodeIds: ['c10_chem_cbse_04_011', 'c10_chem_cbse_04_012', 'c10_chem_cbse_02_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Observe how a few drops of ethanol on your palm evaporate quickly leaving a cooling sensation, while vinegar.', goal: 'Master Sulphuricacid Contactprocess.' },
+    scenario: { role: 'a class 10 learner', intro: 'Observe how a few drops of ethanol on your palm evaporate quickly leaving a cooling sensation, while vinegar.', goal: 'Master Important Carbon Compounds: Ethanol and Ethanoic Acid (Properties).' },
     discovery: {
         question: 'A student takes 5 g of castor oil (a triglyceride) and adds 20 mL of 20% NaOH solution. The mixture is heated and then common salt (NaCl) is added.',
         options: ['Process: Saponification', 'dissolves', 'oil dissolves in the tail'],
@@ -51,13 +51,13 @@ export const w_c10_chemistrysulphuricacidcontactprocesssim: SimDef = {
             { text: 'Calculate gas volumes at STP: Volume = moles × 22.4 L/mol. Cl₂ = 5 × 22.4 = 112 L. H₂ = 5 × 22.4 = 112 L.', faded: true, blankAnswer: 'NaOH = 400 g; Cl₂ = 112 L at STP; H₂ = 112 L at STP.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_chem_cbse_04_012', title: 'Identify each idea',
-          dissect: { specimen: 'Sulphuricacid Contactprocess', spots: [
+          dissect: { specimen: 'Important Carbon Compounds: Ethanol and Ethanoic Acid (Properties)', spots: [
             { id: 's1', label: 'Ethanol CHOH is a two-carbon', prompt: 'Which idea is this? — Ethanol (C₂H₅OH) is a two-carbon alcohol with a hydroxyl (–OH) functional group, and.', answer: 'Ethanol CHOH is a two-carbon', options: ['Ethanol CHOH is a two-carbon', 'Soaps are sodium or potassium', 'The chlor-alkali process is the'] },
             { id: 's2', label: 'Soaps are sodium or potassium', prompt: 'Which idea is this? — Soaps are sodium or potassium salts of long-chain carboxylic acids (fatty acids) with the.', answer: 'Soaps are sodium or potassium', options: ['Soaps are sodium or potassium', 'Ethanol CHOH is a two-carbon', 'The chlor-alkali process is the'] },
             { id: 's3', label: 'The chlor-alkali process is the', prompt: 'Which idea is this? — The chlor-alkali process is the industrial electrolysis of concentrated aqueous sodium.', answer: 'The chlor-alkali process is the', options: ['The chlor-alkali process is the', 'Ethanol CHOH is a two-carbon', 'Soaps are sodium or potassium'] }
           ] } }
     ],
-    explore: { component: C10_ChemistrySulphuricacidContactprocessSim, prompt: 'Explore the interactive — Sulphuricacid Contactprocess' },
+    explore: { component: C10_ChemistrySulphuricacidContactprocessSim, prompt: 'Explore the interactive — Important Carbon Compounds: Ethanol and Ethanoic Acid (Properties)' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_chem_cbse_04_011', difficulty: 'standard',
           question: 'Ethanol (C₂H₅OH) is a two-carbon alcohol with a hydroxyl (–OH) functional.',

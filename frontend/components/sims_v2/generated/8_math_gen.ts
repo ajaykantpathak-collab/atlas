@@ -67,7 +67,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "If a Number Ends With Exactly \\ Zeros (i.e",
+    "title": "If a Number Ends With Exactly n Zeros",
     "text": "If a number ends with exactly \\(n\\) zeros (i.e., is a multiple of \\(10^n\\) but not \\(10^{n+1}\\)), then its square ends with exactly \\(2n\\) zeros. Consequently, a perfect square always has an even number of trailing zeros.",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -533,19 +533,19 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "When Multiplying Two Powers With The",
+    "title": "When Multiplying Two Powers With The Same",
     "text": "When multiplying two powers with the same base, we keep the base unchanged and add the exponents. For any non-zero integer \\(a\\) and positive integers \\(m\\) and \\(n\\), \\(a^m \\times a^n = a^{m+n}\\).",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "When Dividing Two Powers With The",
+    "title": "When Dividing Two Powers With The Same",
     "text": "When dividing two powers with the same non-zero base, keep the base and subtract the exponent of the denominator from the exponent of the numerator: \\(a^m \\div a^n = a^{m-n}\\) for \\(a \\neq 0\\) and \\(m, n\\) as positive integers with \\(m \\ge n\\).",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Power Of a Power Rule States That When a",
+    "title": "Power of a Power: (am)n = amn",
     "text": "The power of a power rule states that when a power is raised to another power, the base remains the same and the exponents are multiplied: (a^m)^n = a^(m×n), where a is any non-zero number and m, n are positive integers.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -557,13 +557,13 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "For a Negative Base \\(-a\\)",
+    "title": "For a Negative Base -a",
     "text": "For a negative base \\(-a\\) (where \\(a > 0\\)) raised to a positive integer exponent \\(n\\), the sign of the result is determined by the parity of \\(n\\): \\((-a)^n = a^n\\) if \\(n\\) is even, and \\((-a)^n = -a^n\\) if \\(n\\) is odd.",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "For Any Non-zero Number \\ (integer",
+    "title": "For Any Non-zero Number",
     "text": "For any non-zero number \\(a\\) (integer, fraction, decimal, or algebraic expression), \\(a^0 = 1\\). The base \\(a\\) cannot be zero because \\(0^0\\) is undefined.",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2651,13 +2651,13 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Parity Rules State That The",
+    "title": "Parity Rules State That The Sum",
     "text": "Parity rules state that the sum or difference of two integers follows predictable patterns based on whether each integer is even (divisible by 2) or odd (not divisible by 2): even ± even = even, odd ± odd = even, even ± odd = odd, and odd ± even = odd.",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Given Four Consecutive Integers \\(n, N+1",
+    "title": "Given Four Consecutive Integers N, N+1",
     "text": "Given four consecutive integers \\(n, n+1, n+2, n+3\\), placing plus or minus signs between them creates an expression of the form \\(n \\pm (n+1) \\pm (n+2) \\pm (n+3)\\) where each \\(\\pm\\) is independently chosen as \\(+\\) or \\(-\\).",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3182,19 +3182,19 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Algebraic Identity \\^2",
+    "title": "Algebraic Identity",
     "text": "The algebraic identity \\((a + b)^2 = a^2 + 2ab + b^2\\) states that the square of the sum of two terms equals the square of the first term, plus twice the product of the two terms, plus the square of the second term.",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Algebraic Identity \\(a",
+    "title": "Algebraic Identity",
     "text": "The algebraic identity \\((a + b)(a - b) = a^2 - b^2\\) states that the product of the sum and difference of the same two terms equals the difference of their squares. It holds for any real numbers or algebraic expressions \\(a\\) and \\(b\\).",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Algebraic Identity \\(a",
+    "title": "Algebraic Identity",
     "text": "The algebraic identity \\((a - b)(a - b) = a^2 - 2ab + b^2\\) states that the square of the difference of two terms equals the square of the first term minus twice the product of the two terms plus the square of the second term.",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -3813,13 +3813,13 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Ratio a",
+    "title": "A Ratio A:b Is In Its",
     "text": "A ratio a:b is in its simplest form when the two terms a and b have no common factor other than 1 (i.e., their highest common factor, HCF, is 1). To reduce a ratio to its simplest form, divide both terms by their HCF.",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Two Ratios a",
+    "title": "Two Ratios",
     "text": "Two ratios a:b and c:d are equivalent if there exists a non-zero number k such that c = a × k and d = b × k, or c = a ÷ k and d = b ÷ k. Multiplying or dividing both terms of a ratio by the same non-zero number produces an equivalent ratio that represents the",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3855,7 +3855,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "When An Image",
+    "title": "When An Image Is Scaled",
     "text": "When an image is scaled (enlarged or reduced), its width-to-height ratio (aspect ratio) remains constant if and only if the scaled image is similar to the original.",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -4740,7 +4740,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Baudhayana-Pythagoras Theorem States That In",
+    "title": "Baudhayana-Pythagoras Theorem",
     "text": "The Baudhayana-Pythagoras Theorem states that in a right-angled triangle, the area of the square constructed on the hypotenuse (the side opposite the right angle) is equal to the sum of the areas of the squares constructed on the other two sides (the legs).",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -6271,7 +6271,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "When a Constant Value \\",
+    "title": "When a Constant Value k",
     "text": "When a constant value \\(k\\) is added to every observation in a data set, the mean of the new data set increases by exactly \\(k\\). If the original data set has \\(n\\) values \\(x_1, x_2, \\dots, x_n\\) with mean \\(\\bar{x}\\), then the new mean after adding \\(k\\) to",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"

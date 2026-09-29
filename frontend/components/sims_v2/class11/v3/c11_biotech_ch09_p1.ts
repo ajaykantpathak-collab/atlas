@@ -149,8 +149,8 @@ export const c11_biotech_ch09_p1: SimDef = {
           hint: 'Revisit the peptide bond formation and protein folding concepts from Class 11 Biology.',
           misconception: 'Students often think PDB files contain only atomic coordinates (x,y,z).',
           parts: [
-                { id: 'a', prompt: 'You are given a PDB ID "4HHB" (human hemoglobin). Describe the step-by-step procedure to identify the number of polypeptide chains and the presence of any.', answer: 'Steps: 1) Go to rcsb.org and enter "4HHB" in the search bar',
-                  options: ['Steps: 1) Go to rcsb.org and enter "4HHB" in the search bar', 'download the file and count lines', 'PDB files contain only atomic coordinates (x,y,z)'],
+                { id: 'a', prompt: 'You are given a PDB ID "4HHB" (human hemoglobin). Describe the step-by-step procedure to identify the number of polypeptide chains and the presence of any.', answer: 'Go to rcsb.org and enter "4HHB" in the search bar',
+                  options: ['Go to rcsb.org and enter "4HHB" in the search bar', 'download the file and count lines', 'PDB files contain only atomic coordinates (x,y,z)'],
                   hint: 'Revisit the peptide bond formation and protein folding concepts from Class 11 Biology (Biomolecules.',
                   misconception: 'Students often think PDB files contain only atomic coordinates (x,y,z).' },
                 { id: 'b', prompt: 'Compare PDB and MMDB: Why might a researcher choose MMDB over PDB for a comparative study of protein domains across many structures?', answer: 'MMDB (NCBI) provides pre-computed structural domains (CDD), explicit chemical',

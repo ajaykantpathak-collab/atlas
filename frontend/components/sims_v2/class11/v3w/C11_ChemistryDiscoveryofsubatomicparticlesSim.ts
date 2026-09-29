@@ -6,13 +6,13 @@ import C11_ChemistryDiscoveryofsubatomicparticlesSim from '../../../simulations/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_chemistrydiscoveryofsubatomicparticlessim: SimDef = {
     id: 'v3w_c11_chemistrydiscoveryofsubatomicparticlessim',
-    title: 'Discoveryofsubatomicparticles',
+    title: 'Heavy Water: Properties and Uses',
     subtitle: 'Covers: discovery, physical properties comparison with H₂O, preparation methods.',
     classLevel: 11, subject: 'chemistry', topic: 'Heavy Water: Properties and Uses',
     chapters: [],
     nodeIds: ['c11_chem_cbse_09_010', 'c11_chem_cbse_02_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a glass of tap water — it looks ordinary, but hidden within is a rare "heavy" version.', goal: 'Master Discoveryofsubatomicparticles.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a glass of tap water — it looks ordinary, but hidden within is a rare "heavy" version.', goal: 'Master Heavy Water: Properties and Uses.' },
     discovery: {
         question: 'State the molecular formula and molar mass of heavy water. How does its molar mass differ from that of ordinary water?',
         options: ['Heavy water is D₂O with molar mass ≈ 20 g mol⁻¹ (2 × 2.014 + 16.00)', 'radioactive', 'heavy water toxicity'],
@@ -42,12 +42,12 @@ export const w_c11_chemistrydiscoveryofsubatomicparticlessim: SimDef = {
             { text: 'Verify units: (m/s) / ((C/kg)·T) = (m/s) / ((C/kg)·(N·s/C·m)) = (m/s) / (N/kg·m) → kg·m/N = m. Correct.', faded: true, blankAnswer: 'Radius ≈ 7.5 mm' }
             ] } },
         { type: 'dissect', nodeId: 'c11_chem_cbse_02_001', title: 'Identify each idea',
-          dissect: { specimen: 'Discoveryofsubatomicparticles', spots: [
+          dissect: { specimen: 'Heavy Water: Properties and Uses', spots: [
             { id: 's1', label: 'Heavy water DO is the', prompt: 'Which idea is this? — Heavy water (D₂O) is the oxide of deuterium (²H or D), an isotope of hydrogen containing.', answer: 'Heavy water DO is the', options: ['Heavy water DO is the', 'The electron is a fundamental'] },
             { id: 's2', label: 'The electron is a fundamental', prompt: 'Which idea is this? — The electron is a fundamental subatomic particle carrying a unit negative charge (-1.602.', answer: 'The electron is a fundamental', options: ['The electron is a fundamental', 'Heavy water DO is the'] }
           ] } }
     ],
-    explore: { component: C11_ChemistryDiscoveryofsubatomicparticlesSim, prompt: 'Explore the interactive — Discoveryofsubatomicparticles' },
+    explore: { component: C11_ChemistryDiscoveryofsubatomicparticlesSim, prompt: 'Explore the interactive — Heavy Water: Properties and Uses' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_chem_cbse_09_010', difficulty: 'standard',
           question: 'Heavy water (D₂O) is the oxide of deuterium (²H or D), an isotope of hydrogen.',

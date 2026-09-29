@@ -6,13 +6,13 @@ import C11_GeoLandformsEvolutionCBSESim from '../../../simulations/c6_12_new/C11
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geolandformsevolutioncbsesim: SimDef = {
     id: 'v3w_c11_geolandformsevolutioncbsesim',
-    title: 'Geo Landforms Evolution CBSE',
+    title: 'Fluvial Processes: River Erosion Mechanisms',
     subtitle: 'Covers the four mechanical and chemical erosion processes in river channels with Indian.',
     classLevel: 11, subject: 'science', topic: 'Fluvial Processes: River Erosion Mechanisms',
     chapters: [],
     nodeIds: ['c11_geo_cbse_07_001', 'c11_geo_cbse_06_002', 'c11_geo_cbse_06_004', 'c11_geo_cbse_09_006', 'c11_geo_cbse_01_007', 'c11_geo_cbse_01_010', 'c11_geo_cbse_07_009', 'c11_geo_cbse_07_004', 'c11_geo_cbse_07_005', 'c11_geo_cbse_07_006', 'c11_geo_cbse_07_007', 'c11_geo_cbse_07_008', 'c11_geo_cbse_06_007', 'c11_geo_cbse_09_005', 'c11_geo_cbse_01_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Stand on a bridge over the Yamuna near Delhi during monsoon and observe the turbid, sediment-laden water.', goal: 'Master Geo Landforms Evolution CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Stand on a bridge over the Yamuna near Delhi during monsoon and observe the turbid, sediment-laden water.', goal: 'Master Fluvial Processes: River Erosion Mechanisms.' },
     discovery: {
         question: 'Define hydraulic action in fluvial erosion and state the specific condition of bedrock that makes it most effective.',
         options: ['Hydraulic action is the sheer force of moving water dislodging and removing rock', 'hydraulic action is sandpaper-like grinding', 'corrasion'],
@@ -79,7 +79,7 @@ export const w_c11_geolandformsevolutioncbsesim: SimDef = {
             { text: 'Synthesize — the Indo-Gangetic Plain is a *product* of the interaction: tectonics provided the relief and basin,.', faded: true, blankAnswer: 'The Indo-Gangetic Plain formed by the deposition of.' }
             ] } }
     ],
-    explore: { component: C11_GeoLandformsEvolutionCBSESim, prompt: 'Explore the interactive — Geo Landforms Evolution CBSE' },
+    explore: { component: C11_GeoLandformsEvolutionCBSESim, prompt: 'Explore the interactive — Fluvial Processes: River Erosion Mechanisms' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_07_001', difficulty: 'standard',
           question: 'Fluvial erosion mechanisms are the four primary processes by which flowing.',

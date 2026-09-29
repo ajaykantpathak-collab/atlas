@@ -6,13 +6,13 @@ import C7_ChemistryAtomicstructureelectronsprotonsneutronsSim from '../../../sim
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_chemistryatomicstructureelectronsprotonsneutronssim: SimDef = {
     id: 'v3w_c7_chemistryatomicstructureelectronsprotonsneutronssim',
-    title: 'Atomicstructureelectronsprotonsneutrons',
+    title: 'Introduction to Metals and Non-metals: Examples',
     subtitle: 'Covers the identification, basic categorization, and common examples of metals and.',
     classLevel: 7, subject: 'chemistry', topic: 'Introduction to Metals and Non-metals: Examples',
     chapters: [],
     nodeIds: ['c7_chem_ch01_001', 'c7_chem_ch01_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'When walking through your school kitchen or examining household utensils in India, you notice that pressure.', goal: 'Master Atomicstructureelectronsprotonsneutrons.' },
+    scenario: { role: 'a class 7 learner', intro: 'When walking through your school kitchen or examining household utensils in India, you notice that pressure.', goal: 'Master Introduction to Metals and Non-metals: Examples.' },
     discovery: {
         question: 'Which of the following is a liquid non-metal commonly found in laboratory thermometers?',
         options: ['Bromine is the correct answer', 'Mercury', 'all shiny materials are metals and all dull materials are non-metals'],
@@ -42,12 +42,12 @@ export const w_c7_chemistryatomicstructureelectronsprotonsneutronssim: SimDef = 
             { text: 'Conclude that the technician must select the copper wire and the aluminium wire for effective electrical conduction.', faded: true, blankAnswer: 'Copper and aluminium wires, because they are metallic.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_chem_ch01_006', title: 'Identify each idea',
-          dissect: { specimen: 'Atomicstructureelectronsprotonsneutrons', spots: [
+          dissect: { specimen: 'Introduction to Metals and Non-metals: Examples', spots: [
             { id: 's1', label: 'Metals are naturally occurring chemical', prompt: 'Which idea is this? — Metals are naturally occurring chemical elements that are typically lustrous, malleable,.', answer: 'Metals are naturally occurring chemical', options: ['Metals are naturally occurring chemical', 'Metals are good conductors of'] },
             { id: 's2', label: 'Metals are good conductors of', prompt: 'Which idea is this? — Metals are good conductors of electricity, allowing electric current to pass through them.', answer: 'Metals are good conductors of', options: ['Metals are good conductors of', 'Metals are naturally occurring chemical'] }
           ] } }
     ],
-    explore: { component: C7_ChemistryAtomicstructureelectronsprotonsneutronsSim, prompt: 'Explore the interactive — Atomicstructureelectronsprotonsneutrons' },
+    explore: { component: C7_ChemistryAtomicstructureelectronsprotonsneutronsSim, prompt: 'Explore the interactive — Introduction to Metals and Non-metals: Examples' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_chem_ch01_001', difficulty: 'standard',
           question: 'Metals are naturally occurring chemical elements that are typically lustrous,.',

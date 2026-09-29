@@ -6,13 +6,13 @@ import C7_MathematicsAnotherPeekBeyondThePointSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsanotherpeekbeyondthepointsim: SimDef = {
     id: 'v3w_c7_mathematicsanotherpeekbeyondthepointsim',
-    title: 'Another Peek Beyond The Point',
+    title: 'Locating Decimals on the Number Line',
     subtitle: 'Covers the representation and location of terminating decimal numbers up to hundredths on.',
     classLevel: 7, subject: 'mathematics', topic: 'Locating Decimals on the Number Line',
     chapters: [],
     nodeIds: ['c7_math_ch03_006', 'c7_math_ch03_008', 'c7_math_ch12_005', 'c7_math_ch03_001', 'c7_math_ch03_002', 'c7_math_ch03_003', 'c7_math_ch03_004', 'c7_math_ch03_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine you are measuring a piece of ribbon for your craft project, and it measures 3.4 cm long.', goal: 'Master Another Peek Beyond The Point.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine you are measuring a piece of ribbon for your craft project, and it measures 3.4 cm long.', goal: 'Master Locating Decimals on the Number Line.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Locating decimals on the number line.', text: 'Locating decimals on the number line involves identifying the precise position of a decimal number between two integers by dividing the unit distance into ten equal tenths segments and further into.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -73,7 +73,7 @@ export const w_c7_mathematicsanotherpeekbeyondthepointsim: SimDef = {
             { text: 'Verify the result by checking place values: 4 is in the ones place, 2 is in the tenths place ($\\frac{2}{10}$ or 20 cm),.', faded: true, blankAnswer: '$4.25$ metres' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch03_008', title: 'Identify each idea',
-          dissect: { specimen: 'Another Peek Beyond The Point', spots: [
+          dissect: { specimen: 'Locating Decimals on the Number Line', spots: [
             { id: 's1', label: 'Locating decimals on the number', prompt: 'Which idea is this? — Locating decimals on the number line involves identifying the precise position of a.', answer: 'Locating decimals on the number', options: ['Locating decimals on the number', 'The addition of decimal numbers', 'Dividing a decimal number by', 'The need for smaller units'] },
             { id: 's2', label: 'The addition of decimal numbers', prompt: 'Which idea is this? — The addition of decimal numbers is the mathematical process of combining two or more.', answer: 'The addition of decimal numbers', options: ['The addition of decimal numbers', 'Locating decimals on the number', 'Dividing a decimal number by', 'The need for smaller units'] },
             { id: 's3', label: 'Dividing a decimal number by', prompt: 'Which idea is this? — Dividing a decimal number by another decimal number involves converting the divisor into.', answer: 'Dividing a decimal number by', options: ['Dividing a decimal number by', 'Locating decimals on the number', 'The addition of decimal numbers', 'The need for smaller units'] },
@@ -82,7 +82,7 @@ export const w_c7_mathematicsanotherpeekbeyondthepointsim: SimDef = {
             { id: 's6', label: 'A hundredth part is one', prompt: 'Which idea is this? — A hundredth part is one of one hundred equal parts of a whole, represented as the.', answer: 'A hundredth part is one', options: ['A hundredth part is one', 'Locating decimals on the number', 'The addition of decimal numbers', 'Dividing a decimal number by'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsAnotherPeekBeyondThePointSim, prompt: 'Explore the interactive — Another Peek Beyond The Point' },
+    explore: { component: C7_MathematicsAnotherPeekBeyondThePointSim, prompt: 'Explore the interactive — Locating Decimals on the Number Line' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch03_006', difficulty: 'standard',
           question: 'Locating decimals on the number line involves identifying the precise position.',

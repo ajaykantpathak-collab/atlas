@@ -6,13 +6,13 @@ import C12_PhysicsElectricChargestypesSim from '../../../simulations/c6_12/C12_P
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicselectricchargestypessim: SimDef = {
     id: 'v3w_c12_physicselectricchargestypessim',
-    title: 'Electric Chargestypes',
+    title: 'Electric Current: Definition and Direction',
     subtitle: 'This node covers the definition of electric current (steady and instantaneous), its SI.',
     classLevel: 12, subject: 'physics', topic: 'Electric Current: Definition and Direction',
     chapters: [],
     nodeIds: ['c12_phy_cbse_03_001', 'c12_phy_cbse_03_003', 'c12_phy_cbse_03_002', 'c12_phy_cbse_03_010', 'c12_phy_cbse_14_003', 'c12_phy_cbse_01_001', 'c12_phy_cbse_01_003', 'c12_phy_cbse_01_004', 'c12_phy_cbse_01_005', 'c12_phy_cbse_01_006', 'c12_phy_cbse_01_008', 'c12_phy_cbse_01_009', 'c12_phy_cbse_01_010', 'c12_phy_cbse_01_011', 'c12_phy_cbse_01_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a mobile phone charging: the battery icon shows a lightning bolt, indicating charge flow.', goal: 'Master Electric Chargestypes.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a mobile phone charging: the battery icon shows a lightning bolt, indicating charge flow.', goal: 'Master Electric Current: Definition and Direction.' },
     discovery: {
         question: 'A student writes: "Current I = 5 C flowing through a wire." Identify the error and state the correct quantity with its unit.',
         options: ['Error: Current is a rate, not an amount of charge', 'current is a vector', '"current is a vector'],
@@ -78,7 +78,7 @@ export const w_c12_physicselectricchargestypessim: SimDef = {
             { text: 'Verify: n is integer (1.50 × 10¹² ≈ integer), fraction is tiny (~10⁻¹²), consistent with macroscopic charge being a.', faded: true, blankAnswer: '(a) 1.50 × 10¹² electrons removed. (b) Fraction = 1.76 ×.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_03_003', title: 'Identify each idea',
-          dissect: { specimen: 'Electric Chargestypes', spots: [
+          dissect: { specimen: 'Electric Current: Definition and Direction', spots: [
             { id: 's1', label: 'Electric current is the rate', prompt: 'Which idea is this? — Electric current is the rate of flow of net charge across a cross-sectional area of a.', answer: 'Electric current is the rate', options: ['Electric current is the rate', 'Drift velocity is the average', 'Ohms Law states that for', 'Electromotive force EMF of a'] },
             { id: 's2', label: 'Drift velocity is the average', prompt: 'Which idea is this? — Drift velocity is the average velocity acquired by free electrons in a conductor due to.', answer: 'Drift velocity is the average', options: ['Drift velocity is the average', 'Electric current is the rate', 'Ohms Law states that for', 'Electromotive force EMF of a'] },
             { id: 's3', label: 'Ohms Law states that for', prompt: 'Which idea is this? — Ohm\'s Law states that for a given metallic conductor at constant temperature, the current.', answer: 'Ohms Law states that for', options: ['Ohms Law states that for', 'Electric current is the rate', 'Drift velocity is the average', 'Electromotive force EMF of a'] },
@@ -87,7 +87,7 @@ export const w_c12_physicselectricchargestypessim: SimDef = {
             { id: 's6', label: 'Electric charge is a fundamental', prompt: 'Which idea is this? — Electric charge is a fundamental intrinsic property of matter that causes it to.', answer: 'Electric charge is a fundamental', options: ['Electric charge is a fundamental', 'Electric current is the rate', 'Drift velocity is the average', 'Ohms Law states that for'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsElectricChargestypesSim, prompt: 'Explore the interactive — Electric Chargestypes' },
+    explore: { component: C12_PhysicsElectricChargestypesSim, prompt: 'Explore the interactive — Electric Current: Definition and Direction' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_03_001', difficulty: 'standard',
           question: 'Electric current is the rate of flow of net charge across a cross-sectional.',
@@ -169,8 +169,8 @@ export const w_c12_physicselectricchargestypessim: SimDef = {
                   options: ['The diode violates all three criteria: (1) V vs I is non-linear (exponential) →', 'Ohm\'s law is V = IR'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "Ohm\'s law is V = IR" and that any device for which you can measure V and I obeys Ohm\'s law because you can always.' },
-                { id: 'b', prompt: 'Design a simple experiment using a pencil lead (graphite), a 9 V battery, an ammeter, a voltmeter, and a rheostat to verify Ohm\'s law and determine the.', answer: 'Steps: (1) Connect graphite rod in series with battery, rheostat, ammeter',
-                  options: ['Steps: (1) Connect graphite rod in series with battery, rheostat, ammeter', 'Ohm\'s law is V = IR'],
+                { id: 'b', prompt: 'Design a simple experiment using a pencil lead (graphite), a 9 V battery, an ammeter, a voltmeter, and a rheostat to verify Ohm\'s law and determine the.', answer: '(1) Connect graphite rod in series with battery, rheostat, ammeter',
+                  options: ['(1) Connect graphite rod in series with battery, rheostat, ammeter', 'Ohm\'s law is V = IR'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe "Ohm\'s law is V = IR" and that any device for which you can measure V and I obeys Ohm\'s law because you can always.' },
                 { id: 'c', prompt: 'The V–I graphs for three devices are shown: (a) straight line through origin, (b) straight line not through origin, (c) curve symmetric about origin but.', answer: 'straight line through origin, (',

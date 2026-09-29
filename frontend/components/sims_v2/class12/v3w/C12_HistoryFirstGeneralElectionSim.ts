@@ -6,13 +6,13 @@ import C12_HistoryFirstGeneralElectionSim from '../../../simulations/c6_12/C12_H
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_historyfirstgeneralelectionsim: SimDef = {
     id: 'v3w_c12_historyfirstgeneralelectionsim',
-    title: 'First General Election',
+    title: 'The Poona Pact (1932): Ambedkar, Separate Electorates and the Gandhi-Ambedkar Debate',
     subtitle: 'Covers the background (Second Round Table Conference, Communal Award), the.',
     classLevel: 12, subject: 'history', topic: 'The Poona Pact (1932): Ambedkar, Separate Electorates and the Gandhi-Ambedkar Debate',
     chapters: [],
     nodeIds: ['c12_hist_cbse_11_009', 'c12_hist_cbse_11_005', 'c12_hist_cbse_11_002', 'c12_hist_cbse_11_007', 'c12_hist_cbse_11_010', 'c12_hist_cbse_01_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Dalit student in 1932 reading about Gandhi\'s fast unto death against separate electorates.', goal: 'Master First General Election.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Dalit student in 1932 reading about Gandhi\'s fast unto death against separate electorates.', goal: 'Master The Poona Pact (1932): Ambedkar, Separate Electorates and the Gandhi-Ambedkar Debate.' },
     discovery: {
         question: 'Why did Gandhi oppose separate electorates for the Depressed Classes, and how did his argument differ from Ambedkar\'s justification for demanding them?',
         options: ['Gandhi opposed separate electorates', 'not wanting to divide Hindus', 'wanting more seats'],
@@ -79,7 +79,7 @@ export const w_c12_historyfirstgeneralelectionsim: SimDef = {
             { text: 'Synthesise stratigraphic position, artefact assemblage, comparative parallels, and scientific dates to assign the site.', faded: true, blankAnswer: 'The archaeologist would use stratigraphic excavation to.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_hist_cbse_11_005', title: 'Identify each idea',
-          dissect: { specimen: 'First General Election', spots: [
+          dissect: { specimen: 'The Poona Pact (1932): Ambedkar, Separate Electorates and the Gandhi-Ambedkar Debate', spots: [
             { id: 's1', label: 'The Poona Pact 1932 was', prompt: 'Which idea is this? — The Poona Pact (1932) was an agreement between Mahatma Gandhi and Dr. B.R.', answer: 'The Poona Pact 1932 was', options: ['The Poona Pact 1932 was', 'The Gandhi-Irwin Pact March 1931', 'The Rowlatt Satyagraha MarchApril 1919', 'The Congress Ministries 193739 refers'] },
             { id: 's2', label: 'The Gandhi-Irwin Pact March 1931', prompt: 'Which idea is this? — The Gandhi-Irwin Pact (March 1931) was a political agreement between Mahatma Gandhi and.', answer: 'The Gandhi-Irwin Pact March 1931', options: ['The Gandhi-Irwin Pact March 1931', 'The Poona Pact 1932 was', 'The Rowlatt Satyagraha MarchApril 1919', 'The Congress Ministries 193739 refers'] },
             { id: 's3', label: 'The Rowlatt Satyagraha MarchApril 1919', prompt: 'Which idea is this? — The Rowlatt Satyagraha (March–April 1919) was the first all-India mass protest organised.', answer: 'The Rowlatt Satyagraha MarchApril 1919', options: ['The Rowlatt Satyagraha MarchApril 1919', 'The Poona Pact 1932 was', 'The Gandhi-Irwin Pact March 1931', 'The Congress Ministries 193739 refers'] },
@@ -88,7 +88,7 @@ export const w_c12_historyfirstgeneralelectionsim: SimDef = {
             { id: 's6', label: 'The discovery of the Harappan', prompt: 'Which idea is this? — The discovery of the Harappan Civilisation refers to the historical process (mid-19th to.', answer: 'The discovery of the Harappan', options: ['The discovery of the Harappan', 'The Poona Pact 1932 was', 'The Gandhi-Irwin Pact March 1931', 'The Rowlatt Satyagraha MarchApril 1919'] }
           ] } }
     ],
-    explore: { component: C12_HistoryFirstGeneralElectionSim, prompt: 'Explore the interactive — First General Election' },
+    explore: { component: C12_HistoryFirstGeneralElectionSim, prompt: 'Explore the interactive — The Poona Pact (1932): Ambedkar, Separate Electorates and the Gandhi-Ambedkar Debate' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hist_cbse_11_009', difficulty: 'standard',
           question: 'The Poona Pact (1932) was an agreement between Mahatma Gandhi and Dr. B.R.',

@@ -19,7 +19,7 @@ export const c11_eng_h_ch08_p1: SimDef = {
         hook: 'The old road moved fabric; Middleton\'s road moves meaning — same track, different cargo.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a preparatory section that provides essential historical, geographical, cultural, and literary information students need to comprehend the travelogue.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Silk Road\' (Hornbill, ch. 8) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_08_001', title: 'Your mission',
@@ -29,41 +29,41 @@ export const c11_eng_h_ch08_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_08_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re about to watch a documentary about a remote Himalayan pilgrimage — you\'d want to know where it is, why people go there, and what makes the.',
+          caseStudy: { intro: 'Start with the author of \'Silk Road\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'What was the historical Silk Road, and why is it called a "road" when it was actually a network of routes?', options: [
                 { text: 'The Silk Road was a network of interconnected trade routes linking China, Central Asia,', outcome: 'The Silk Road was a network of interconnected trade routes linking China, Central Asia, the Middle.' },
                 { text: 'a single road built by the Romans', outcome: 'Not quite — Students often think "Silk Road" refers only to the historical trade route and miss that the.', reveals: 'silk-road-refers-only-to' },
                 { text: 'Silk Road', outcome: 'Not quite — Students often think "Silk Road" refers only to the historical trade route and miss that the.', reveals: 'silk-road-refers-only-to' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_08_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Think about the last time you went on a trip. When you tell someone about it, do you start from the beginning and go in order, or do you jump to the most.',
+          caseStudy: { intro: 'Trace \'Silk Road\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the narrative point of view used in "Silk Road"?', options: [
                 { text: 'The narrative point of view is first-person ("I")', outcome: 'The narrative point of view is first-person ("I"). A wrong answer (e.g., "third-person".' },
                 { text: 'third-person', outcome: 'Not quite — Students often mistake the travelogue\'s descriptive passages for lack of plot, thinking it\'s just.', reveals: 'students-often-mistake-the-travelogue' },
                 { text: 'omniscient', outcome: 'Not quite — Students often mistake the travelogue\'s descriptive passages for lack of plot, thinking it\'s just.', reveals: 'students-often-mistake-the-travelogue' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_08_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are planning a solo trek to a remote Himalayan pilgrimage site at 15,000 feet. What would you pack? What fears would you have?',
+          caseStudy: { intro: 'Identify where and when \'Silk Road\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'Define "atmosphere" in a literary context and distinguish it from "setting" using a one-sentence example from any text you have read.', options: [
                 { text: 'Atmosphere is the emotional mood (e.g., tension, serenity, dread) evoked by the setting\'s', outcome: 'Atmosphere is the emotional mood (e.g., tension, serenity, dread) evoked by the setting\'s sensory.' },
                 { text: 'The Tunnel', outcome: 'Not quite — Students treat setting as a static backdrop (a map location) rather than an active participant.', reveals: 'students-treat-setting-as-a' },
                 { text: 'dark, damp railway tunnel', outcome: 'Not quite — Students treat setting as a static backdrop (a map location) rather than an active participant.', reveals: 'students-treat-setting-as-a' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_08_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are describing a close friend to someone who has never met them — you wouldn\'t just say "they\'re nice"; you\'d give examples: "Remember when they.',
+          caseStudy: { intro: 'Pick the central figure in \'Silk Road\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the primary narrative perspective used in *Silk Road*, and how does it shape our access to the protagonist\'s character?', options: [
                 { text: 'The text uses first-person narrative perspective ("I"), giving direct access to the', outcome: 'The text uses first-person narrative perspective ("I"), giving direct access to the protagonist\'s.' },
                 { text: 'third-person omniscient', outcome: 'Not quite — Students often treat the narrator as a transparent window onto the landscape, ignoring that *every.', reveals: 'students-often-treat-the-narrator' },
                 { text: 'first-person narrator', outcome: 'Not quite — Students often treat the narrator as a transparent window onto the landscape, ignoring that *every.', reveals: 'students-often-treat-the-narrator' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_08_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re planning a trek to Mount Kailash with a stranger as your driver—what would you learn about yourself from their calm during a snowstorm?',
+          caseStudy: { intro: 'Spot the secondary figures in \'Silk Road\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List the four named supporting characters in "Silk Road" and state one specific action each takes that directly affects the narrator\'s.', options: [
                 { text: 'Tsetan drives the narrator safely through treacherous terrain and arranges medical help', outcome: 'Tsetan drives the narrator safely through treacherous terrain and arranges medical help at Darchen.' },
                 { text: 'they helped', outcome: 'Not quite — Students treat supporting characters as "background information" and write descriptive summaries.', reveals: 'students-treat-supporting-characters-as' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_08_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are planning a difficult trek to a high-altitude lake in Ladakh — you pack gear, check weather, hire a guide.',
+          caseStudy: { intro: 'Ask what \'Silk Road\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the precise difference between a \'plot summary\' and a \'primary theme\' in a travelogue like *Silk Road*?', options: [
                 { text: 'A plot summary recounts *what happens* sequentially (e.g., "Middleton travels from Ravu', outcome: 'A plot summary recounts *what happens* sequentially (e.g., "Middleton travels from Ravu to Mount.' },
                 { text: 'He met Tsetan, then Norbu', outcome: 'Not quite — **Students conflate \'theme\' with \'topic\' or \'dominant impression\'.** They write: "The theme is the.', reveals: 'students-conflate-theme-with-topic' }
@@ -87,7 +87,7 @@ export const c11_eng_h_ch08_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a preparatory section that.',
+          question: '\'Silk Road\' (Hornbill, ch. 8) — the context and background to this text: who.',
           hint: 'If stuck, review Class 10 "Glimpses of India" (c10_engl_cbse_05_001-008) — specifically.',
           misconception: 'Students often think "Silk Road" refers only to the historical trade route and miss that the chapter\'s title.',
           parts: [
@@ -102,7 +102,7 @@ export const c11_eng_h_ch08_p1: SimDef = {
           ],
             remediations: { 'silk-road-refers-only-to': { steps: ['Show a 2-minute map animation of the Silk Road\'s shifting routes over 1,500 years — emphasize "network, not road." 2.', 'Use a four-quadrant diagram: label each quadrant with one religion\'s name for Kailash; have students fill in the.', 'Give three short texts (diary, report, travelogue paragraph); ask students to label each and justify using.', 'Clarify author identity: display Middleton\'s photo, credentials (Oxford geographer, *Deserts* author), and distinguish.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure in "Silk Road" refers to the sequence of events.',
+          question: 'The plot/narrative arc of \'Silk Road\' — what happens, in what order, and why.',
           hint: 'Work step by step.',
           misconception: 'Students often mistake the travelogue\'s descriptive passages for lack of plot, thinking it\'s just a list of places.',
           parts: [
@@ -128,18 +128,18 @@ export const c11_eng_h_ch08_p1: SimDef = {
           ],
             remediations: { 'students-often-mistake-the-travelogue': { steps: ['Have the student list the major events in order on a timeline.', 'Identify which events are external actions (driving, meeting people) and which are internal reflections (thoughts about.', 'Show how the reflections are embedded in the chronological flow, not breaking it.', 'Practice labeling each paragraph as "action" or "reflection" to see the pattern and understand that both together.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and physical environment in which.',
+          question: 'The setting of \'Silk Road\' — the place, time and atmosphere the text creates.',
           hint: 'If stuck, review Class 9 "The Tunnel" (c7_engl_ch04_005) for how "heat, silence.',
           misconception: 'Students treat setting as a static backdrop (a map location) rather than an active participant in the narrative.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting refers to the time, place, and physical environment in',
-                  options: ['Setting refers to the time, place, and physical environment in', '"Before You Read: Context and Background" is a preparatory section that provides', 'Plot and Narrative Structure in "Silk Road" refers to the sequence of events (plot) and', 'Character analysis of the protagonist involves a systematic examination of the central'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'Silk Road\'',
+                  options: ['The setting of \'Silk Road\'', '\'Silk Road\' (Hornbill, ch', 'The plot/narrative arc of \'Silk Road\'', 'Character analysis in \'Silk Road\''],
                   hint: 'If stuck, review Class 9 "The Tunnel" (c7_engl_ch04_005) for how "heat, silence, anticipation".',
                   misconception: 'Students treat setting as a static backdrop (a map location) rather than an active participant in the narrative.' }
           ],
             remediations: { 'students-treat-setting-as-a': { steps: ['Have the student re-read only the descriptive passages (skip dialogue/action).', 'Give them a highlighter: mark every sensory word (cold, blue, dusty, silent, taste, smell).', 'Create a two-column table: Column A = Sensory Detail (quote), Column B = Feeling it Evokes (despair, awe, anxiety).', 'Ask: "If this detail were removed, how would the mood change?" This forces causal linking of detail to atmosphere.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves a systematic examination of the.',
+          question: 'Character analysis in \'Silk Road\' — the central figure(s), their traits, and.',
           hint: 'If stuck, revisit c10_engl_cbse_07_007 (Valli\'s character analysis) and re-do the STEAL.',
           misconception: 'Students often treat the narrator as a transparent window onto the landscape, ignoring that *every description is.',
           parts: [
@@ -154,7 +154,7 @@ export const c11_eng_h_ch08_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-the-narrator': { steps: ['Have the student list 10 adjectives describing the narrator *only from his own words* (e.g., "I was surprised," "I.', 'For each adjective, find the exact sentence.', 'Ask: "If he didn\'t want us to see this trait, what would he have written instead?" 4.', 'Rewrite one paragraph from Tsetan\'s perspective to show how the same events change.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves examining how secondary.',
+          question: 'Supporting characters in \'Silk Road\' — the secondary figures who move the story.',
           hint: 'Review "Character Analysis: Protagonist" focusing on the narrator\'s shifting relationship.',
           misconception: 'Students treat supporting characters as "background information" and write descriptive summaries (e.g., "Tsetan is.',
           parts: [
@@ -165,7 +165,7 @@ export const c11_eng_h_ch08_p1: SimDef = {
           ],
             remediations: { 'students-treat-supporting-characters-as': { steps: ['Have the student create a two-column table: Column A = "Character Action", Column B = "What This Forces the Narrator.', 'Fill it for Tsetan (snowstorm → surrender), Norbu (proposal → companionship vs solitude), Daniel (departure →.', 'Ask: "If this character were deleted, what thematic thread would unravel?" 3.', 'Practice writing one PEEL paragraph using the table data, emphasizing the "Explanation" step: "This action reveals the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
+          question: 'The primary theme of \'Silk Road\' — the central idea the whole text returns to.',
           hint: 'If stuck, return to **c11_eng_h_cbse_08_004 (Character Analysis: Protagonist)** and re-do.',
           misconception: '**Students conflate \'theme\' with \'topic\' or \'dominant impression\'.** They write: "The theme is the journey to Mount.',
           parts: [

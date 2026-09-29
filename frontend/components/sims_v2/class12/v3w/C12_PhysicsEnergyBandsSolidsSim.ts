@@ -6,13 +6,13 @@ import C12_PhysicsEnergyBandsSolidsSim from '../../../simulations/c6_12/C12_Phys
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsenergybandssolidssim: SimDef = {
     id: 'v3w_c12_physicsenergybandssolidssim',
-    title: 'Energy Bands Solids',
+    title: 'Energy Bands in Solids: Conductor, Insulator, Semiconductor',
     subtitle: 'This node covers: (a) Formation of energy bands from atomic levels, (b) Classification of.',
     classLevel: 12, subject: 'physics', topic: 'Energy Bands in Solids: Conductor, Insulator, Semiconductor',
     chapters: [],
     nodeIds: ['c12_phy_cbse_14_001', 'c12_phy_cbse_14_002', 'c12_phy_cbse_14_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a copper wire (excellent conductor), a plastic ruler (insulator), and a silicon chip (semiconductor).', goal: 'Master Energy Bands Solids.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a copper wire (excellent conductor), a plastic ruler (insulator), and a silicon chip (semiconductor).', goal: 'Master Energy Bands in Solids: Conductor, Insulator, Semiconductor.' },
     discovery: {
         question: '**UNDERSTAND:** In the covalent-bond model of silicon, a pentavalent phosphorus atom replaces a silicon atom.',
         options: ['The four phosphorus electrons participating in covalent bonds become part of the', 'all five electrons become free', 'the fifth electron is in the conduction band already'],
@@ -51,13 +51,13 @@ export const w_c12_physicsenergybandssolidssim: SimDef = {
             { text: 'Verify: V_bi ≈ 0.7 V typical for Si. W ≈ 0.5 μm reasonable. E_max ≈ 3 × 10⁶ V/m below Si breakdown field (~3 × 10⁷.', faded: true, blankAnswer: '(a) V_bi = 0.69 V, (b) W = 0.47 μm, (c) E_max = 2.9 × 10⁶.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_14_002', title: 'Identify each idea',
-          dissect: { specimen: 'Energy Bands Solids', spots: [
+          dissect: { specimen: 'Energy Bands in Solids: Conductor, Insulator, Semiconductor', spots: [
             { id: 's1', label: 'Energy bands in solids are', prompt: 'Which idea is this? — Energy bands in solids are continuous ranges of allowed energy levels for electrons,.', answer: 'Energy bands in solids are', options: ['Energy bands in solids are', 'An intrinsic semiconductor is a', 'A p-n junction is formed'] },
             { id: 's2', label: 'An intrinsic semiconductor is a', prompt: 'Which idea is this? — An **intrinsic semiconductor** is a pure semiconductor crystal (e.g., Si, Ge) in which.', answer: 'An intrinsic semiconductor is a', options: ['An intrinsic semiconductor is a', 'Energy bands in solids are', 'A p-n junction is formed'] },
             { id: 's3', label: 'A p-n junction is formed', prompt: 'Which idea is this? — A p-n junction is formed when a p-type semiconductor and an n-type semiconductor are.', answer: 'A p-n junction is formed', options: ['A p-n junction is formed', 'Energy bands in solids are', 'An intrinsic semiconductor is a'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsEnergyBandsSolidsSim, prompt: 'Explore the interactive — Energy Bands Solids' },
+    explore: { component: C12_PhysicsEnergyBandsSolidsSim, prompt: 'Explore the interactive — Energy Bands in Solids: Conductor, Insulator, Semiconductor' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_14_001', difficulty: 'standard',
           question: 'Energy bands in solids are continuous ranges of allowed energy levels for.',

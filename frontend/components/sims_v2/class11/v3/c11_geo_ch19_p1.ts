@@ -166,8 +166,8 @@ export const c11_geo_ch19_p1: SimDef = {
                   options: ['Correct: Gondwana formation holds ~98% of reserves', 'Jharia is the largest coalfield in India', '"Jharia is the largest coalfield in India"'],
                   hint: 'If stuck on coal type differences, revisit the coalification series diagram (peat → lignite →.',
                   misconception: 'Students believe "Jharia is the largest coalfield in India" because it is famous for coking coal.' },
-                { id: 'b', prompt: 'A thermal power plant in Tamil Nadu sources coal from Neyveli (Lignite).', answer: 'Steps: (1) Energy output/day = 1000 MW × 86400 s = 86,400,000 MJ',
-                  options: ['Steps: (1) Energy output/day = 1000 MW × 86400 s = 86,400,000 MJ', 'Jharia is the largest coalfield in India', '"Jharia is the largest coalfield in India"'],
+                { id: 'b', prompt: 'A thermal power plant in Tamil Nadu sources coal from Neyveli (Lignite).', answer: '(1) Energy output/day = 1000 MW × 86400 s = 86,400,000 MJ',
+                  options: ['(1) Energy output/day = 1000 MW × 86400 s = 86,400,000 MJ', 'Jharia is the largest coalfield in India', '"Jharia is the largest coalfield in India"'],
                   hint: 'If stuck on coal type differences, revisit the coalification series diagram (peat → lignite →.',
                   misconception: 'Students believe "Jharia is the largest coalfield in India" because it is famous for coking coal.' }
           ],

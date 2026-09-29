@@ -6,13 +6,13 @@ import C9_SocialScienceForestSocietySim from '../../../simulations/c6_12/C9_Soci
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_socialscienceforestsocietysim: SimDef = {
     id: 'v3w_c9_socialscienceforestsocietysim',
-    title: 'Social Science Forest Society',
+    title: 'Scarcity: The Fundamental Economic Problem',
     subtitle: 'This node covers the definition of scarcity as the root cause of all economic problems,.',
     classLevel: 9, subject: 'science', topic: 'Scarcity: The Fundamental Economic Problem',
     chapters: [],
     nodeIds: ['c9_eco_ch1_1', 'c9_eco_ch1_2', 'c9_hist_ch3_1', 'c9_hist_ch1_1', 'c9_hist_ch1_10', 'c9_hist_ch1_2', 'c9_hist_ch1_3', 'c9_hist_ch1_5'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine a Class 9 student named Rohan who has ₹500 pocket money for the week but wants to buy a new cricket.', goal: 'Master Social Science Forest Society.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine a Class 9 student named Rohan who has ₹500 pocket money for the week but wants to buy a new cricket.', goal: 'Master Scarcity: The Fundamental Economic Problem.' },
     discovery: {
         question: 'A farmer in Punjab has 10 hectares of land. He can grow either wheat (yield 5 tonnes/hectare, price ₹2200/tonne) or rice (yield 4 tonnes/hectare, price.',
         options: ['Step 1: Wheat revenue = 10 hectares × 5 tonnes/hectare × ₹2200/tonne = ₹1,10,000', 'shortage', 'poverty'],
@@ -79,7 +79,7 @@ export const w_c9_socialscienceforestsocietysim: SimDef = {
             { text: 'Evaluate significance: The civilization\'s decline (c6_history_ch04_006) correlates with geological changes (river.', faded: true, blankAnswer: 'The Indus River\'s predictable flooding and navigability.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_eco_ch1_2', title: 'Identify each idea',
-          dissect: { specimen: 'Social Science Forest Society', spots: [
+          dissect: { specimen: 'Scarcity: The Fundamental Economic Problem', spots: [
             { id: 's1', label: 'Scarcity is the fundamental economic', prompt: 'Which idea is this? — Scarcity is the fundamental economic problem arising because human wants are unlimited.', answer: 'Scarcity is the fundamental economic', options: ['Scarcity is the fundamental economic', 'Unlimited wants refer to the', 'The Vedic Society spans two', 'Social Science is the systematic'] },
             { id: 's2', label: 'Unlimited wants refer to the', prompt: 'Which idea is this? — Unlimited wants refer to the endless desire of individuals and societies for goods and.', answer: 'Unlimited wants refer to the', options: ['Unlimited wants refer to the', 'Scarcity is the fundamental economic', 'The Vedic Society spans two', 'Social Science is the systematic'] },
             { id: 's3', label: 'The Vedic Society spans two', prompt: 'Which idea is this? — The Vedic Society spans two distinct phases: the Early Vedic (Rigvedic) period (c.', answer: 'The Vedic Society spans two', options: ['The Vedic Society spans two', 'Scarcity is the fundamental economic', 'Unlimited wants refer to the', 'Social Science is the systematic'] },
@@ -88,7 +88,7 @@ export const w_c9_socialscienceforestsocietysim: SimDef = {
             { id: 's6', label: 'The interdisciplinary relationship where geography', prompt: 'Which idea is this? — The interdisciplinary relationship where geography provides the physical setting.', answer: 'The interdisciplinary relationship where geography', options: ['The interdisciplinary relationship where geography', 'Scarcity is the fundamental economic', 'Unlimited wants refer to the', 'The Vedic Society spans two'] }
           ] } }
     ],
-    explore: { component: C9_SocialScienceForestSocietySim, prompt: 'Explore the interactive — Social Science Forest Society' },
+    explore: { component: C9_SocialScienceForestSocietySim, prompt: 'Explore the interactive — Scarcity: The Fundamental Economic Problem' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_eco_ch1_1', difficulty: 'standard',
           question: 'Scarcity is the fundamental economic problem arising because human wants are.',

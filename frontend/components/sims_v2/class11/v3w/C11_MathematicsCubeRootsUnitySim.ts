@@ -6,13 +6,13 @@ import C11_MathematicsCubeRootsUnitySim from '../../../simulations/c6_12/C11_Mat
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathematicscuberootsunitysim: SimDef = {
     id: 'v3w_c11_mathematicscuberootsunitysim',
-    title: 'Cube Roots Unity',
+    title: 'Sum of Special Series: n, n^2, n^3',
     subtitle: 'Covers only the three standard sums Σk, Σk², Σk³ and their direct applications in.',
     classLevel: 11, subject: 'mathematics', topic: 'Sum of Special Series: n, n^2, n^3',
     chapters: [],
     nodeIds: ['c11_math_cbse_09_010', 'c11_math_cbse_04_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a school auditorium where chairs are arranged in rows: the first row has 1 chair, second has 2, third.', goal: 'Master Cube Roots Unity.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a school auditorium where chairs are arranged in rows: the first row has 1 chair, second has 2, third.', goal: 'Master Sum of Special Series: n, n^2, n^3.' },
     discovery: {
         question: 'Why is it necessary to prove the base case (usually n=1) before doing the inductive step when proving a summation formula?',
         options: ['The base case anchors the induction', 'base case is not needed', 'inductive step proves base case'],
@@ -43,12 +43,12 @@ export const w_c11_mathematicscuberootsunitysim: SimDef = {
             { text: 'Conclusion: Since P(1) is true and P(k) ⇒ P(k+1), by the principle of mathematical induction, P(n) is true for all.', faded: true, blankAnswer: 'The formula is proved for all n ∈ ℕ.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_04_004', title: 'Identify each idea',
-          dissect: { specimen: 'Cube Roots Unity', spots: [
+          dissect: { specimen: 'Sum of Special Series: n, n^2, n^3', spots: [
             { id: 's1', label: 'The sum of special series', prompt: 'Which idea is this? — The sum of special series refers to closed-form formulas for the summation of the first n.', answer: 'The sum of special series', options: ['The sum of special series', 'Proving summation formulas by induction'] },
             { id: 's2', label: 'Proving summation formulas by induction', prompt: 'Which idea is this? — Proving summation formulas by induction is the process of establishing that a closed-form.', answer: 'Proving summation formulas by induction', options: ['Proving summation formulas by induction', 'The sum of special series'] }
           ] } }
     ],
-    explore: { component: C11_MathematicsCubeRootsUnitySim, prompt: 'Explore the interactive — Cube Roots Unity' },
+    explore: { component: C11_MathematicsCubeRootsUnitySim, prompt: 'Explore the interactive — Sum of Special Series: n, n^2, n^3' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_09_010', difficulty: 'standard',
           question: 'The sum of special series refers to closed-form formulas for the summation of.',

@@ -6,13 +6,13 @@ import C7_MathematicsExpressionsUsingLetterNumbersSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsexpressionsusingletternumberssim: SimDef = {
     id: 'v3w_c7_mathematicsexpressionsusingletternumberssim',
-    title: 'Expressions Using Letter Numbers',
+    title: 'Revisiting Arithmetic Expressions with Variables',
     subtitle: 'Covers arithmetic expressions containing numbers, variables, and basic operations (+, -,.',
     classLevel: 7, subject: 'mathematics', topic: 'Revisiting Arithmetic Expressions with Variables',
     chapters: [],
     nodeIds: ['c7_math_ch04_003', 'c7_math_ch04_004', 'c7_math_ch04_009', 'c7_math_ch15_007', 'c7_math_ch04_001', 'c7_math_ch06_006', 'c7_math_ch04_005', 'c7_math_ch04_010', 'c7_math_ch06_001', 'c7_math_ch06_002', 'c7_math_ch04_006', 'c7_math_ch04_007', 'c7_math_ch06_004', 'c7_math_ch06_009', 'c7_math_ch15_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine you go to a local stationery shop in your town and buy $x$ notebooks for ₹25 each, plus a single pen.', goal: 'Master Expressions Using Letter Numbers.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine you go to a local stationery shop in your town and buy $x$ notebooks for ₹25 each, plus a single pen.', goal: 'Master Revisiting Arithmetic Expressions with Variables.' },
     discovery: {
         question: 'If Rahul has $x$ marbles and Priya has 5 more marbles than Rahul, write the algebraic expression for Priya\'s number of marbles.',
         options: ['The correct expression is $x + 5$', '5 more than', '5 times'],
@@ -69,7 +69,7 @@ export const w_c7_mathematicsexpressionsusingletternumberssim: SimDef = {
             { text: 'Verify the digit values: If $A + B = 15$ and $C = 6$, valid single digits for $A$ and $B$ could be $7$ and $8$.', faded: true, blankAnswer: 'A = 7, B = 8, C = 6' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch04_004', title: 'Identify each idea',
-          dissect: { specimen: 'Expressions Using Letter Numbers', spots: [
+          dissect: { specimen: 'Revisiting Arithmetic Expressions with Variables', spots: [
             { id: 's1', label: 'Revisiting arithmetic expressions with variables', prompt: 'Which idea is this? — Revisiting arithmetic expressions with variables bridges the gap between purely numerical.', answer: 'Revisiting arithmetic expressions with variables', options: ['Revisiting arithmetic expressions with variables', 'Writing algebraic expressions from word', 'Substituting values into an algebraic', 'Setting up equations from word'] },
             { id: 's2', label: 'Writing algebraic expressions from word', prompt: 'Which idea is this? — Writing algebraic expressions from word problems involves translating verbal statements.', answer: 'Writing algebraic expressions from word', options: ['Writing algebraic expressions from word', 'Revisiting arithmetic expressions with variables', 'Substituting values into an algebraic', 'Setting up equations from word'] },
             { id: 's3', label: 'Substituting values into an algebraic', prompt: 'Which idea is this? — Substituting values into an algebraic expression is the process of replacing the.', answer: 'Substituting values into an algebraic', options: ['Substituting values into an algebraic', 'Revisiting arithmetic expressions with variables', 'Writing algebraic expressions from word', 'Setting up equations from word'] },
@@ -78,7 +78,7 @@ export const w_c7_mathematicsexpressionsusingletternumberssim: SimDef = {
             { id: 's6', label: 'Digits in Disguise Number Puzzles', prompt: 'Which idea is this? — Digits in Disguise: Number Puzzles and Logic involves solving cryptarithms—cryptic.', answer: 'Digits in Disguise Number Puzzles', options: ['Digits in Disguise Number Puzzles', 'Revisiting arithmetic expressions with variables', 'Writing algebraic expressions from word', 'Substituting values into an algebraic'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsExpressionsUsingLetterNumbersSim, prompt: 'Explore the interactive — Expressions Using Letter Numbers' },
+    explore: { component: C7_MathematicsExpressionsUsingLetterNumbersSim, prompt: 'Explore the interactive — Revisiting Arithmetic Expressions with Variables' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch04_003', difficulty: 'standard',
           question: 'Revisiting arithmetic expressions with variables bridges the gap between purely.',

@@ -19,7 +19,7 @@ export const c12_eng_k_ch09_p1: SimDef = {
         hook: 'Coleridge\'s aim was \'presenting the supernatural as real\' — Xanadu\'s dome, the sacred river, the demon-lover told flat as fact. Where Wordsworth made the ordinary strange, Coleridge made the strange ordinary. The fragment isn\'t broken; it\'s a glimpse of infinity the page couldn\'t hold.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" for *Kubla Khan* provides the essential biographical, historical, and compositional framework needed to interpret the poem: Coleridge’s role in the Romantic.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Kubla Khan\' (Kaleidoscope, ch. 9) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_09_001', title: 'Your mission',
@@ -29,42 +29,42 @@ export const c12_eng_k_ch09_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you open your textbook and see a poem titled *Kubla Khan* with a subtitle *A Vision in a Dream: A Fragment*. You wonder: *Why is it called a fragment?',
+          caseStudy: { intro: 'Start with the author of \'Kubla Khan\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who was the historical Kubla Khan, and what is his significance in world history as referenced in the NCERT background note?', options: [
                 { text: 'Kubla Khan (also spelled Kublai Khan) was the grandson of Genghis Khan and the founder of', outcome: 'Kubla Khan (also spelled Kublai Khan) was the grandson of Genghis Khan and the founder of the.' },
                 { text: 'a fictional king from a fairy tale', outcome: 'Not quite — Students often believe **Coleridge intentionally left the poem unfinished as an artistic.', reveals: 'coleridge-intentionally-left-the-poem' },
                 { text: 'a Persian poet', outcome: 'Not quite — Students often believe **Coleridge intentionally left the poem unfinished as an artistic.', reveals: 'coleridge-intentionally-left-the-poem' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you wake from a vivid dream and try to tell a friend: the scenes jump, logic bends, and the ending feels cut off.',
+          caseStudy: { intro: 'Trace \'Kubla Khan\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the primary narrative frame of *Kubla Khan* — i.e., who is speaking in the first three stanzas, and how does that change in the.', options: [
                 { text: 'The first three stanzas use a third-person omniscient narrator describing Kubla Khan’s', outcome: 'The first three stanzas use a third-person omniscient narrator describing Kubla Khan’s decree and.' },
                 { text: 'the poet speaks throughout', outcome: 'Not quite — Students often say “*Kubla Khan* has no plot because it’s a fragment.” They confuse *plot* (a.', reveals: 'students-often-say-kubla-khan' },
                 { text: '*Kubla Khan* has no plot', outcome: 'Not quite — Students often say “*Kubla Khan* has no plot because it’s a fragment.” They confuse *plot* (a.', reveals: 'students-often-say-kubla-khan' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you walk into an ancient fort at sunset — the stone walls glow gold, the air smells of dust and jasmine, and you feel both peace and a shiver of the.',
+          caseStudy: { intro: 'Identify where and when \'Kubla Khan\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What are the three distinct physical settings presented in "Kubla Khan," and what single phrase from the text best identifies each?', options: [
                 { text: 'The three settings are: (1) Xanadu\'s pleasure-dome grounds', outcome: 'The three settings are: (1) Xanadu\'s pleasure-dome grounds — "stately pleasure-dome decree".' },
                 { text: 'stately pleasure-dome decree', outcome: 'Not quite — Students treat setting as a static list of places ("Xanadu, chasm, river, ocean") and atmosphere.', reveals: 'students-treat-setting-as-a' },
                 { text: 'twice five miles of fertile ground', outcome: 'Not quite — Students treat setting as a static list of places ("Xanadu, chasm, river, ocean") and atmosphere.', reveals: 'students-treat-setting-as-a' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you are a historian who finds a poet\'s dream-vision about a real emperor. How would you separate the historical ruler from the poetic creation?',
+          caseStudy: { intro: 'Pick the central figure in \'Kubla Khan\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the only direct action attributed to Kubla Khan in the poem, and in which line does it occur?', options: [
                 { text: 'The only direct action is "decree" in line 2: "In Xanadu did Kubla Khan / A stately', outcome: 'The only direct action is "decree" in line 2: "In Xanadu did Kubla Khan / A stately pleasure-dome.' },
                 { text: 'decree', outcome: 'Not quite — Students often conflate the historical Kubla Khan (13th-century Mongol emperor, founder of the Yuan.', reveals: 'students-often-conflate-the-historical' },
                 { text: 'In Xanadu did Kubla Khan / A stately pleasure-dome decree', outcome: 'Not quite — Students often conflate the historical Kubla Khan (13th-century Mongol emperor, founder of the Yuan.', reveals: 'students-often-conflate-the-historical' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are watching a surreal film where the main character falls into a trance and sees a king building a pleasure dome, a haunted chasm with a wailing.',
+          caseStudy: { intro: 'Spot the secondary figures in \'Kubla Khan\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List the four supporting characters in "Kubla Khan" and give the stanza number where each first appears.', options: [
                 { text: 'The four supporting characters are: (1) Kubla Khan – Stanza 1', outcome: 'The four supporting characters are: (1) Kubla Khan – Stanza 1; (2) The woman wailing for her.' },
                 { text: 'sunless sea', outcome: 'Not quite — Students often treat the supporting characters in "Kubla Khan" as decorative pictures — "Coleridge.', reveals: 'students-often-treat-the-supporting' },
                 { text: 'caves of ice', outcome: 'Not quite — Students often treat the supporting characters in "Kubla Khan" as decorative pictures — "Coleridge.', reveals: 'students-often-treat-the-supporting' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_09_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are asked in the board exam: "What is the central theme of *Kubla Khan*?" Many students panic and start retelling the \'story\' of the pleasure dome.',
+          caseStudy: { intro: 'Ask what \'Kubla Khan\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: '**REMEMBER:** State the primary theme of *Kubla Khan* in a single thematic sentence (not a summary of events).', options: [
                 { text: '**Correct answer:** The primary theme is the transcendent power of poetic imagination to', outcome: '**Correct answer:** The primary theme is the transcendent power of poetic imagination to create.' },
                 { text: 'The poem is about Kubla Khan building a pleasure dome', outcome: 'Not quite — **Misconception:** "The primary theme is the *fragmentary nature of the poem* or *the supernatural*.', reveals: 'misconception-the-primary-theme-is' },
@@ -89,7 +89,7 @@ export const c12_eng_k_ch09_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" for *Kubla Khan* provides the.',
+          question: '\'Kubla Khan\' (Kaleidoscope, ch. 9) — the context and background to this text.',
           hint: 'Review the "Introduction to Romantic Poetry" section in Class 11 NCERT *Woven Words* (or.',
           misconception: 'Students often believe **Coleridge intentionally left the poem unfinished as an artistic statement** (like a modernist.',
           parts: [
@@ -100,7 +100,7 @@ export const c12_eng_k_ch09_p1: SimDef = {
           ],
             remediations: { 'coleridge-intentionally-left-the-poem': { steps: ['If a student holds this misconception: 1.', 'Re-read the NCERT "Before You Read" box aloud, highlighting the phrases "an interruption caused an irreparable break".', 'Ask: "Does the text say Coleridge *chose* to stop?', 'What word shows it was accidental?" (Answer: "interruption," "chance visitor.") 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_002', difficulty: 'standard',
-          question: 'Plot and narrative structure in poetry refers to the deliberate arrangement.',
+          question: 'The plot/narrative arc of \'Kubla Khan\' — what happens, in what order, and why.',
           hint: 'If segmentation is difficult, revisit “stanza-by-stanza summary” practice.',
           misconception: 'Students often say “*Kubla Khan* has no plot because it’s a fragment.” They confuse *plot* (a linear cause-effect.',
           parts: [
@@ -126,7 +126,7 @@ export const c12_eng_k_ch09_p1: SimDef = {
           ],
             remediations: { 'students-often-say-kubla-khan': { steps: ['Re-read the poem aloud, physically drawing a line between each stanza and labelling the setting/voice (e.g., “Stanza 1.', 'Trace the river Alph on a rough map: Xanadu → chasm → fountain → meander → caverns → ocean.', 'Write one sentence for each segment summarizing its narrative function (e.g., “The chasm stanza introduces supernatural.', 'Re-attempt Diagnostic Question 4; if still stuck, review narrative poetry basics in c6_english_u1_006 and.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_003', difficulty: 'standard',
-          question: 'Setting in poetry refers to the time, place, and social environment where the.',
+          question: 'The setting of \'Kubla Khan\' — the place, time and atmosphere the text creates.',
           hint: 'Review c11_eng_h_cbse_01_008 (Imagery and Metaphor) worked examples on sensory.',
           misconception: 'Students treat setting as a static list of places ("Xanadu, chasm, river, ocean") and atmosphere as a single adjective.',
           parts: [
@@ -137,7 +137,7 @@ export const c12_eng_k_ch09_p1: SimDef = {
           ],
             remediations: { 'students-treat-setting-as-a': { steps: ['Have the student re-read only stanzas 1-2 aloud, circling every noun and verb.', 'Ask: "Which words belong to the dome\'s world?', 'Which belong to the chasm\'s world?', 'Then: "Read the chasm column aloud.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a poem involves examining the central.',
+          question: 'Character analysis in \'Kubla Khan\' — the central figure(s), their traits, and.',
           hint: 'If stuck, re-read Stanza 1 and Stanza 3 side-by-side: the first shows Kubla Khan\'s.',
           misconception: 'Students often conflate the historical Kubla Khan (13th-century Mongol emperor, founder of the Yuan dynasty) with.',
           parts: [
@@ -148,7 +148,7 @@ export const c12_eng_k_ch09_p1: SimDef = {
           ],
             remediations: { 'students-often-conflate-the-historical': { steps: ['If a student persists in using historical facts, assign this remediation: 1) Re-read the preface and the poem.', '2) Write a two-column table: "Historical Fact (from preface/outside knowledge)" vs.', '"Poetic Portrayal (from poem lines)." 3) Re-attempt Diagnostic Question 1 and 2, citing only poem lines.', '4) Discuss with teacher: "Why does Coleridge choose to show only these two actions?" This isolates the textual Kubla.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_005', difficulty: 'standard',
-          question: 'Supporting characters in a poem are figures who appear alongside the.',
+          question: 'Supporting characters in \'Kubla Khan\' — the secondary figures who move the.',
           hint: 'If stuck, review the protagonist analysis and the poem\'s summary (c12_eng_k_cbse_09_001).',
           misconception: 'Students often treat the supporting characters in "Kubla Khan" as decorative pictures — "Coleridge put in a king,.',
           parts: [
@@ -163,7 +163,7 @@ export const c12_eng_k_ch09_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-the-supporting': { steps: ['Have the student re‑read only Stanzas 2‑4, underlining every proper noun and personified figure.', 'Create a two‑column table: Column A = Character, Column B = Key Lines + Associated Images.', 'For each row, ask: "What abstract idea does this cluster of images suggest?" (e.g., "caves of ice" + "sunny dome" →.', 'Return to the Class 11 poetry node on supporting characters (c11_eng_w_cbse_01_005) and review the distinction between.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_09_006', difficulty: 'standard',
-          question: 'The primary theme of a poem is its central, unifying idea or insight about.',
+          question: 'The primary theme of \'Kubla Khan\' — the central idea the whole text returns to.',
           hint: 'If stuck, return to **c12_eng_k_cbse_09_002 (Plot/Narrative Structure)** and physically.',
           misconception: '**Misconception:** "The primary theme is the *fragmentary nature of the poem* or *the supernatural* or *the Orient*.".',
           parts: [

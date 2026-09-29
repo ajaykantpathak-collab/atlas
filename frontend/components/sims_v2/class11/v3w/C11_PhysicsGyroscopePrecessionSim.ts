@@ -6,13 +6,13 @@ import C11_PhysicsGyroscopePrecessionSim from '../../../simulations/three/C11_Ph
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsgyroscopeprecessionsim: SimDef = {
     id: 'v3w_c11_physicsgyroscopeprecessionsim',
-    title: 'Gyroscope Precession',
+    title: 'Angular Momentum: Definition and Conservation',
     subtitle: 'Covers: angular momentum definition for particle and system, torque-angular momentum.',
     classLevel: 11, subject: 'physics', topic: 'Angular Momentum: Definition and Conservation',
     chapters: [],
     nodeIds: ['c11_phy_cbse_06_005', 'c11_phy_cbse_06_013'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a rotating office chair: sit with arms outstretched holding weights, have someone spin you gently,.', goal: 'Master Gyroscope Precession.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a rotating office chair: sit with arms outstretched holding weights, have someone spin you gently,.', goal: 'Master Angular Momentum: Definition and Conservation.' },
     discovery: {
         question: 'Two identical particles of mass m move in opposite directions along parallel lines separated by distance d, each with speed v.',
         options: ['Choose origin O', 'origin-independence', 'conservation'],
@@ -43,12 +43,12 @@ export const w_c11_physicsgyroscopeprecessionsim: SimDef = {
             { text: 'Angular displacement: θ = ω₀t + ½αt² = (6.28)(0.314) + ½(-20)(0.314)² = 1.97 - 0.985 = 0.985 rad.', faded: true, blankAnswer: '(a) 6.28 rad/s, (b) 4.5 N·m (opposite to rotation), (c) 20.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_06_013', title: 'Identify each idea',
-          dissect: { specimen: 'Gyroscope Precession', spots: [
+          dissect: { specimen: 'Angular Momentum: Definition and Conservation', spots: [
             { id: 's1', label: 'Angular momentum L of a', prompt: 'Which idea is this? — Angular momentum (L) of a particle about a point O is the cross product of its position.', answer: 'Angular momentum L of a', options: ['Angular momentum L of a', 'The dynamics of rotational motion'] },
             { id: 's2', label: 'The dynamics of rotational motion', prompt: 'Which idea is this? — The dynamics of rotational motion about a fixed axis is governed by the rotational.', answer: 'The dynamics of rotational motion', options: ['The dynamics of rotational motion', 'Angular momentum L of a'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsGyroscopePrecessionSim, prompt: 'Explore the interactive — Gyroscope Precession' },
+    explore: { component: C11_PhysicsGyroscopePrecessionSim, prompt: 'Explore the interactive — Angular Momentum: Definition and Conservation' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_06_005', difficulty: 'standard',
           question: 'Angular momentum (L) of a particle about a point O is the cross product of its.',

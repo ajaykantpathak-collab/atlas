@@ -6,13 +6,13 @@ import C12_ComputerScienceNetworkSecurityCryptographySim from '../../../simulati
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_computersciencenetworksecuritycryptographysim: SimDef = {
     id: 'v3w_c12_computersciencenetworksecuritycryptographysim',
-    title: 'Network Security Cryptography',
+    title: 'Network Security: Firewall and Encryption Basics',
     subtitle: 'This node covers firewall types (packet filter, stateful, application gateway),.',
     classLevel: 12, subject: 'computer_science', topic: 'Network Security: Firewall and Encryption Basics',
     chapters: [],
     nodeIds: ['c12_cs_cbse_01_010', 'c12_cs_cbse_12_005', 'c12_cs_cbse_01_001', 'c12_cs_cbse_01_002', 'c12_cs_cbse_01_009', 'c12_cs_cbse_12_007', 'c12_cs_cbse_12_004', 'c12_cs_cbse_12_001', 'c12_cs_cbse_12_011', 'c12_cs_cbse_12_012', 'c12_cs_cbse_01_007', 'c12_cs_cbse_01_003', 'c12_cs_cbse_01_005', 'c12_cs_cbse_01_006', 'c12_cs_cbse_01_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re sending a confidential letter (data packet) through a messenger (network) — you\'d want a.', goal: 'Master Network Security Cryptography.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re sending a confidential letter (data packet) through a messenger (network) — you\'d want a.', goal: 'Master Network Security: Firewall and Encryption Basics.' },
     discovery: {
         question: 'Explain why symmetric encryption alone is insufficient for secure key exchange over an untrusted network, and how asymmetric encryption solves this.',
         options: ['Symmetric encryption requires both parties to already share a secret key', 'asymmetric is faster so we use it for everything', 'encrypts data'],
@@ -78,7 +78,7 @@ export const w_c12_computersciencenetworksecuritycryptographysim: SimDef = {
             { text: 'Conclude — Excessive fields: Aadhaar number, mother\'s maiden name. Favorite color is unnecessary but not high-risk.', faded: true, blankAnswer: 'Excessive fields: Aadhaar number (legal restriction, not.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_cs_cbse_12_005', title: 'Identify each idea',
-          dissect: { specimen: 'Network Security Cryptography', spots: [
+          dissect: { specimen: 'Network Security: Firewall and Encryption Basics', spots: [
             { id: 's1', label: 'Network security encompasses measures to', prompt: 'Which idea is this? — Network security encompasses measures to protect network infrastructure and data from.', answer: 'Network security encompasses measures to', options: ['Network security encompasses measures to', 'A firewall is a network', 'A computer network is a', 'A computer network is classified'] },
             { id: 's2', label: 'A firewall is a network', prompt: 'Which idea is this? — A firewall is a network security system that monitors and controls incoming and outgoing.', answer: 'A firewall is a network', options: ['A firewall is a network', 'Network security encompasses measures to', 'A computer network is a', 'A computer network is classified'] },
             { id: 's3', label: 'A computer network is a', prompt: 'Which idea is this? — A computer network is a collection of interconnected computing devices (nodes) that can.', answer: 'A computer network is a', options: ['A computer network is a', 'Network security encompasses measures to', 'A firewall is a network', 'A computer network is classified'] },
@@ -87,7 +87,7 @@ export const w_c12_computersciencenetworksecuritycryptographysim: SimDef = {
             { id: 's6', label: 'Data protection and privacy in', prompt: 'Which idea is this? — Data protection and privacy in the digital world refers to the principles, practices, and.', answer: 'Data protection and privacy in', options: ['Data protection and privacy in', 'Network security encompasses measures to', 'A firewall is a network', 'A computer network is a'] }
           ] } }
     ],
-    explore: { component: C12_ComputerScienceNetworkSecurityCryptographySim, prompt: 'Explore the interactive — Network Security Cryptography' },
+    explore: { component: C12_ComputerScienceNetworkSecurityCryptographySim, prompt: 'Explore the interactive — Network Security: Firewall and Encryption Basics' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_cs_cbse_01_010', difficulty: 'standard',
           question: 'Network security encompasses measures to protect network infrastructure and.',

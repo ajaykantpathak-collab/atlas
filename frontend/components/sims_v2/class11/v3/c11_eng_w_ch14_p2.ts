@@ -19,51 +19,51 @@ export const c11_eng_w_ch14_p2: SimDef = {
         hook: 'She serves \'a Shahni, not a Shah\' — the climax isn\'t the gift of the quill but the naming of who it\'s for: her mother tongue.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the supporting thematic threads in a literary work that enrich, complicate, or extend the primary theme by exploring related ideas, perspectives, or emotional dimensions;.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Mother Tongue\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_14_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Map the six stanzas onto the dramatic arc, place the climax at the revelation of Dogri, and weigh what translation keeps and loses.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_14_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re listening to an elderly relative speak in your grandmother\'s dialect — you understand the words but feel a pang because the script they once.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Mother Tongue\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the difference between a primary theme and a secondary theme in a poem?', options: [
                 { text: 'A primary theme is the central, unifying idea that the entire work revolves around (in', outcome: 'A primary theme is the central, unifying idea that the entire work revolves around (in "Mother.' },
                 { text: 'imagery', outcome: 'Not quite — Students often confuse **literary devices** (personification, metaphor, imagery) with **secondary.', reveals: 'students-often-confuse-literary-devices' },
                 { text: 'metaphor', outcome: 'Not quite — Students often confuse **literary devices** (personification, metaphor, imagery) with **secondary.', reveals: 'students-often-confuse-literary-devices' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_14_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are holding a reed pen dipped in ink, about to write your name in a script no one teaches in school anymore — that physical urgency is exactly.',
+          caseStudy: { intro: 'Find the lines in \'Mother Tongue\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "extended metaphor" and give the two primary tenor-vehicle pairs in "Mother Tongue" without quoting the poem.', options: [
                 { text: 'An extended metaphor sustains a single comparison across multiple lines or stanzas,', outcome: 'An extended metaphor sustains a single comparison across multiple lines or stanzas, developing the.' },
                 { text: 'quill = pen', outcome: 'Not quite — Students confuse *personification* (attributing human actions to non-human things) with *metaphor*.', reveals: 'students-confuse-personification-attributing-hum' },
                 { text: 'only identifies "quill = pen" misses the abstraction (script vs', outcome: 'Not quite — Students confuse *personification* (attributing human actions to non-human things) with *metaphor*.', reveals: 'students-confuse-personification-attributing-hum' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_14_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you ask a shopkeeper for a pen, and he scolds you for losing the one he gave you yesterday, asking if you are an accountant who needs a new pen daily.',
+          caseStudy: { intro: 'Look in \'Mother Tongue\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'What is the literal meaning of the word "quill" in the poem, and what does it symbolise in the context of Dogri language?', options: [
                 { text: 'The literal meaning of "quill" is a feather used as a pen', outcome: 'The literal meaning of "quill" is a feather used as a pen; symbolically, it represents the Sharade.' },
                 { text: 'quill symbolises the poet\'s creativity', outcome: 'Not quite — Students often think the irony in the poem is simply that a reed talks (personification) or that.', reveals: 'the-irony-in-the-poem' },
                 { text: 'writing tool', outcome: 'Not quite — Students often think the irony in the poem is simply that a reed talks (personification) or that.', reveals: 'the-irony-in-the-poem' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_14_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading a poem in an exam and hit the word "Sharade" — you have never seen it before.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Mother Tongue\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the primary strategy for determining the meaning of an unfamiliar word in a literary text without using a dictionary?', options: [
                 { text: 'The primary strategy is using context clues', outcome: 'The primary strategy is using context clues — such as surrounding words, sentence structure, tone.' },
                 { text: 'guessing', outcome: 'Not quite — Students often believe "vocabulary in context" means finding a synonym that fits the sentence.', reveals: 'vocabulary-in-context-means-finding' },
                 { text: 'skipping the word', outcome: 'Not quite — Students often believe "vocabulary in context" means finding a synonym that fits the sentence.', reveals: 'vocabulary-in-context-means-finding' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_14_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you\'re reading a poem and feel the poet\'s desperation—but you can\'t explain *how* the words create that feeling.',
+          caseStudy: { intro: 'Read \'Mother Tongue\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Define personification in grammatical terms: which specific part of speech and grammatical choice primarily enables personification.', options: [
                 { text: 'Personification is grammatically enacted primarily through **verb selection**—attributing', outcome: 'Personification is grammatically enacted primarily through **verb selection**—attributing.' },
                 { text: 'using adjectives like \'kind\'', outcome: 'Not quite — Students equate "language usage" with "difficult vocabulary" or "figures of speech" (simile.', reveals: 'students-equate-language-usage-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_14_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are in the exam hall and the first question asks, "What does the quill symbolise?" followed by "Why is there urgency in the poet\'s request?" You.',
+          caseStudy: { intro: 'Answer \'Mother Tongue\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the fundamental difference between a literal comprehension question and an inferential comprehension question in the context.', options: [
                 { text: 'A literal question asks for information explicitly stated in the poem (e.g., "What did', outcome: 'A literal question asks for information explicitly stated in the poem (e.g., "What did the poet ask.' },
                 { text: 'what do you feel?', outcome: 'Not quite — Students often treat inferential questions as "opinion questions" where any creative answer.', reveals: 'students-often-treat-inferential-questions' }
@@ -82,12 +82,12 @@ export const c11_eng_w_ch14_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_14_007', difficulty: 'standard',
-          question: 'Secondary themes are the supporting thematic threads in a literary work that.',
+          question: 'Secondary themes in \'Mother Tongue\' — the supporting ideas and motifs that.',
           hint: 'Review node 006 (Primary Theme) and node 002 (Narrative Structure) — specifically the.',
           misconception: 'Students often confuse **literary devices** (personification, metaphor, imagery) with **secondary themes**, listing.',
           parts: [
@@ -104,7 +104,7 @@ export const c11_eng_w_ch14_p2: SimDef = {
                   hint: 'Review node 006 (Primary Theme) and node 002 (Narrative Structure) — specifically the speaker\'s.',
                   misconception: 'Students often confuse **literary devices** (personification, metaphor, imagery) with **secondary themes**, listing "personification of the.' }
           ],
-            remediations: { 'students-often-confuse-literary-devices': { steps: ['Have the student create a two-column table: Column A = "Device/Image in Poem" (e.g., reed cutting hand), Column.', 'For each entry, ask: "If this image were removed, what thematic nuance would be lost?" — forcing them to see the device.', 'Then have them write one sentence per secondary theme using the template: "The [device/image] develops the secondary.', 'Finally, ask them to explain how *all* secondary themes together make the primary theme feel "lived" rather than.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-literary-devices': { steps: ['Have the student create a two-column table: Column A = "Device/Image in Poem" (e.g., reed cutting hand), Column.', 'For each entry, ask: "If this image were removed, what thematic nuance would be lost?" — forcing them to see the device.', 'Then have them write one sentence per secondary theme using the template: "The [device/image] develops the secondary.', 'Finally, ask them to explain how *all* secondary themes together make the primary theme feel "lived" rather than.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_14_007', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -115,9 +115,9 @@ export const c11_eng_w_ch14_p2: SimDef = {
                   hint: 'Review node 006 (Primary Theme) and node 002 (Narrative Structure) — specifically the speaker\'s.',
                   misconception: 'Students often confuse **literary devices** (personification, metaphor, imagery) with **secondary themes**, listing "personification of the.' }
           ],
-            remediations: { 'students-often-confuse-literary-devices': { steps: ['Have the student create a two-column table: Column A = "Device/Image in Poem" (e.g., reed cutting hand), Column.', 'For each entry, ask: "If this image were removed, what thematic nuance would be lost?" — forcing them to see the device.', 'Then have them write one sentence per secondary theme using the template: "The [device/image] develops the secondary.', 'Finally, ask them to explain how *all* secondary themes together make the primary theme feel "lived" rather than.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-literary-devices': { steps: ['Have the student create a two-column table: Column A = "Device/Image in Poem" (e.g., reed cutting hand), Column.', 'For each entry, ask: "If this image were removed, what thematic nuance would be lost?" — forcing them to see the device.', 'Then have them write one sentence per secondary theme using the template: "The [device/image] develops the secondary.', 'Finally, ask them to explain how *all* secondary themes together make the primary theme feel "lived" rather than.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_14_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Mother Tongue\' — the vivid, sensory language that creates.',
           hint: 'Review the "tenor-vehicle" terminology and the seven sensory modes of imagery using the.',
           misconception: 'Students confuse *personification* (attributing human actions to non-human things) with *metaphor* (equating two.',
           parts: [
@@ -126,9 +126,9 @@ export const c11_eng_w_ch14_p2: SimDef = {
                   hint: 'Review the "tenor-vehicle" terminology and the seven sensory modes of imagery using the Class 6.',
                   misconception: 'Students confuse *personification* (attributing human actions to non-human things) with *metaphor* (equating two nouns).' }
           ],
-            remediations: { 'students-confuse-personification-attributing-hum': { steps: ['Have the student reread the poem with three colored pencils: one for nouns involved in metaphors (quill, Shahni.', 'Ask them to draw a two-column table: Column A = Vehicle (image), Column B = Tenor (abstract concept) for every metaphor.', 'For each sensory word, name the sense organ activated.', 'Finally, rewrite one stanza replacing all metaphors with literal statements — the loss of urgency will make the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-confuse-personification-attributing-hum': { steps: ['Have the student reread the poem with three colored pencils: one for nouns involved in metaphors (quill, Shahni.', 'Ask them to draw a two-column table: Column A = Vehicle (image), Column B = Tenor (abstract concept) for every metaphor.', 'For each sensory word, name the sense organ activated.', 'Finally, rewrite one stanza replacing all metaphors with literal statements — the loss of urgency will make the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_14_009', difficulty: 'standard',
-          question: 'Irony is a literary device where there is a contrast between expectation and.',
+          question: 'Irony and paradox in \'Mother Tongue\' — where opposite things are both true,.',
           hint: 'Review personification from c11_eng_w_cbse_14_008 and the "About the Poet" note in the.',
           misconception: 'Students often think the irony in the poem is simply that a reed talks (personification) or that the poet asks a plant.',
           parts: [
@@ -145,9 +145,9 @@ export const c11_eng_w_ch14_p2: SimDef = {
                   hint: 'Review personification from c11_eng_w_cbse_14_008 and the "About the Poet" note in the textbook for.',
                   misconception: 'Students often think the irony in the poem is simply that a reed talks (personification) or that the poet asks a plant for a pen.' }
           ],
-            remediations: { 'the-irony-in-the-poem': { steps: ['Re-read the "About the Poet" note to grasp the historical fact: Dogri lost its native Sharade script.', 'List every object in the poem (quill, reed, hand, Shahni, servants) and write its literal and symbolic meaning side.', 'Trace the conversation: mark where expectation (reed\'s complaint) clashes with reality (poet\'s mission).', 'Write one PEEL paragraph explaining the quill\'s symbolism using the historical context as evidence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-irony-in-the-poem': { steps: ['Re-read the "About the Poet" note to grasp the historical fact: Dogri lost its native Sharade script.', 'List every object in the poem (quill, reed, hand, Shahni, servants) and write its literal and symbolic meaning side.', 'Trace the conversation: mark where expectation (reed\'s complaint) clashes with reality (poet\'s mission).', 'Write one PEEL paragraph explaining the quill\'s symbolism using the historical context as evidence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_14_010', difficulty: 'standard',
-          question: 'Vocabulary in context refers to the skill of determining the meaning of words.',
+          question: 'Key vocabulary of \'Mother Tongue\' — the words and phrases you must know to read.',
           hint: 'Review the "Personification" section in c11_eng_w_cbse_14_008 and practice with the "Reed.',
           misconception: 'Students often believe "vocabulary in context" means finding a synonym that fits the sentence grammatically.',
           parts: [
@@ -168,9 +168,9 @@ export const c11_eng_w_ch14_p2: SimDef = {
                   hint: 'Review the "Personification" section in c11_eng_w_cbse_14_008 and practice with the "Reed.',
                   misconception: 'Students often believe "vocabulary in context" means finding a synonym that fits the sentence grammatically.' }
           ],
-            remediations: { 'vocabulary-in-context-means-finding': { steps: ['Have the student re-read only the stanza containing the target word and list every noun, verb, and adjective near it.', 'Ask: "If this word were removed, what would the line lose?" 3.', 'Provide a two-column table: Literal Meaning vs.', 'Poetic Function; fill it together for "quill" and "reed".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'vocabulary-in-context-means-finding': { steps: ['Have the student re-read only the stanza containing the target word and list every noun, verb, and adjective near it.', 'Ask: "If this word were removed, what would the line lose?" 3.', 'Provide a two-column table: Literal Meaning vs.', 'Poetic Function; fill it together for "quill" and "reed".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_14_011', difficulty: 'standard',
-          question: 'Language usage analysis examines how grammatical choices—sentence structure.',
+          question: 'Language and style in \'Mother Tongue\' — how the writer chose words, sentences.',
           hint: 'Review Class 6 Grammar: Sentence Structure and Types of Sentences (c6_english_u4_038) and.',
           misconception: 'Students equate "language usage" with "difficult vocabulary" or "figures of speech" (simile, metaphor) and overlook.',
           parts: [
@@ -179,9 +179,9 @@ export const c11_eng_w_ch14_p2: SimDef = {
                   hint: 'Review Class 6 Grammar: Sentence Structure and Types of Sentences (c6_english_u4_038) and Class 6.',
                   misconception: 'Students equate "language usage" with "difficult vocabulary" or "figures of speech" (simile, metaphor) and overlook *syntax*—sentence type.' }
           ],
-            remediations: { 'students-equate-language-usage-with': { steps: ['**Re-teach sentence types in context**: Give the student three lines from the poem; have them label each.', '**Verb-swap exercise**: Replace "cut off its hand" with "broke off a branch" and "gave" with "dropped"; ask how the.', '**Pronoun mapping**: Create a two-column table: Subject Pronoun → Referent (he→reed, she→Dogri, I→poet, we→servants).', 'Have the student explain why "she" for a language matters.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-equate-language-usage-with': { steps: ['**Re-teach sentence types in context**: Give the student three lines from the poem; have them label each.', '**Verb-swap exercise**: Replace "cut off its hand" with "broke off a branch" and "gave" with "dropped"; ask how the.', '**Pronoun mapping**: Create a two-column table: Subject Pronoun → Referent (he→reed, she→Dogri, I→poet, we→servants).', 'Have the student explain why "she" for a language matters.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_14_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'Mother Tongue\' — questions answered straight from the.',
           hint: 'Review the PEEL answer structure (Point, Evidence, Explanation, Link) from c8_engl_ch1_17.',
           misconception: 'Students often treat inferential questions as "opinion questions" where any creative answer is acceptable.',
           parts: [
@@ -190,7 +190,7 @@ export const c11_eng_w_ch14_p2: SimDef = {
                   hint: 'Review the PEEL answer structure (Point, Evidence, Explanation, Link) from c8_engl_ch1_17 and.',
                   misconception: 'Students often treat inferential questions as "opinion questions" where any creative answer is acceptable.' }
           ],
-            remediations: { 'students-often-treat-inferential-questions': { steps: ['Give the student a two-column table: Column A lists 5 literal questions from the poem, Column B lists 5 inferential.', 'Ask them to label each and underline the keywords that signaled the type.', 'For each inferential question, have them list 2-3 exact textual clues (line references) before writing the answer.', 'Practice converting a literal fact ("reed gives hand") into an inference ("reed is devoted") by explicitly stating the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-inferential-questions': { steps: ['Give the student a two-column table: Column A lists 5 literal questions from the poem, Column B lists 5 inferential.', 'Ask them to label each and underline the keywords that signaled the type.', 'For each inferential question, have them list 2-3 exact textual clues (line references) before writing the answer.', 'Practice converting a literal fact ("reed gives hand") into an inference ("reed is devoted") by explicitly stating the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

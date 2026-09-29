@@ -6,13 +6,13 @@ import C12_PhysicsPrismRefractionSim from '../../../simulations/three/C12_Physic
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsprismrefractionsim: SimDef = {
     id: 'v3w_c12_physicsprismrefractionsim',
-    title: 'Prism Refraction',
+    title: 'Refraction of Light: Snell\'s Law',
     subtitle: 'This node covers refraction at a plane interface between two isotropic, homogeneous,.',
     classLevel: 12, subject: 'physics', topic: 'Refraction of Light: Snell\'s Law',
     chapters: [],
     nodeIds: ['c12_phy_cbse_09_003', 'c12_phy_cbse_09_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a pencil partially immersed in a glass of water — it appears bent at the water surface.', goal: 'Master Prism Refraction.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a pencil partially immersed in a glass of water — it appears bent at the water surface.', goal: 'Master Refraction of Light: Snell\'s Law.' },
     discovery: {
         question: 'State Snell\'s law of refraction in terms of the absolute refractive indices of the two media and the angles of incidence and refraction.',
         options: ['Snell\'s law: n₁ sin i = n₂ sin r', 'optically denser', 'higher mass density'],
@@ -44,12 +44,12 @@ export const w_c12_physicsprismrefractionsim: SimDef = {
             { text: 'State final answers with units: Critical angle ic = 48.6° (or 0.848 rad). Radius of escape circle R = 2.27 m.', faded: true, blankAnswer: 'Critical angle ic = 48.6° (or sin⁻¹(0.75) ≈ 0.848 rad)..' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_09_004', title: 'Identify each idea',
-          dissect: { specimen: 'Prism Refraction', spots: [
+          dissect: { specimen: 'Refraction of Light: Snell\'s Law', spots: [
             { id: 's1', label: 'Refraction is the bending of', prompt: 'Which idea is this? — Refraction is the bending of a light ray when it passes obliquely from one transparent.', answer: 'Refraction is the bending of', options: ['Refraction is the bending of', 'Total Internal Reflection TIR is'] },
             { id: 's2', label: 'Total Internal Reflection TIR is', prompt: 'Which idea is this? — Total Internal Reflection (TIR) is the phenomenon where a light ray traveling in an.', answer: 'Total Internal Reflection TIR is', options: ['Total Internal Reflection TIR is', 'Refraction is the bending of'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsPrismRefractionSim, prompt: 'Explore the interactive — Prism Refraction' },
+    explore: { component: C12_PhysicsPrismRefractionSim, prompt: 'Explore the interactive — Refraction of Light: Snell\'s Law' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_09_003', difficulty: 'standard',
           question: 'Refraction is the bending of a light ray when it passes obliquely from one.',

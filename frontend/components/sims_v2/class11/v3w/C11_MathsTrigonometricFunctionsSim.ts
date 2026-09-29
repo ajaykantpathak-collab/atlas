@@ -6,13 +6,13 @@ import C11_MathsTrigonometricFunctionsSim from '../../../simulations/c6_12/C11_M
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathstrigonometricfunctionssim: SimDef = {
     id: 'v3w_c11_mathstrigonometricfunctionssim',
-    title: 'Trigonometric Functions',
+    title: 'Angles: Degree and Radian Measure',
     subtitle: 'This node covers the definition of angles as rotation, degree and radian measures,.',
     classLevel: 11, subject: 'mathematics', topic: 'Angles: Degree and Radian Measure',
     chapters: [],
     nodeIds: ['c11_math_cbse_03_001', 'c11_math_cbse_03_002', 'c11_math_cbse_03_003', 'c11_math_cbse_03_004', 'c11_math_cbse_03_005', 'c11_math_cbse_03_006', 'c11_math_cbse_03_007', 'c11_math_cbse_03_008', 'c11_math_cbse_03_009', 'c11_math_cbse_03_010', 'c11_math_cbse_03_011', 'c11_math_cbse_03_012', 'c11_math_cbse_03_013', 'c11_math_cbse_03_014', 'c11_math_cbse_02_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a Ferris wheel at a fair in Delhi with a radius of 20 metres.', goal: 'Master Trigonometric Functions.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a Ferris wheel at a fair in Delhi with a radius of 20 metres.', goal: 'Master Angles: Degree and Radian Measure.' },
     discovery: {
         question: 'State the exact conversion factor to change an angle from degrees to radians, and write the formula for converting 150° to radians in terms of π.',
         options: ['The conversion factor is π/180', 'radians per degree', 'degrees per radian'],
@@ -80,7 +80,7 @@ export const w_c11_mathstrigonometricfunctionssim: SimDef = {
             { text: 'Verify with exact values: sin 210° = -1/2, cos 210° = -√3/2, tan 210° = 1/√3. Signs match.', faded: true, blankAnswer: 'Vertical component (sin) is negative, horizontal component.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_03_002', title: 'Identify each idea',
-          dissect: { specimen: 'Trigonometric Functions', spots: [
+          dissect: { specimen: 'Angles: Degree and Radian Measure', spots: [
             { id: 's1', label: 'An angle is a measure', prompt: 'Which idea is this? — An angle is a measure of rotation of a ray about its initial point, where the amount of.', answer: 'An angle is a measure', options: ['An angle is a measure', 'The conversion between degree measure', 'For any angle x measured', 'Trigonometric functions of an acute'] },
             { id: 's2', label: 'The conversion between degree measure', prompt: 'Which idea is this? — The conversion between degree measure and radian measure is based on the equivalence of a.', answer: 'The conversion between degree measure', options: ['The conversion between degree measure', 'An angle is a measure', 'For any angle x measured', 'Trigonometric functions of an acute'] },
             { id: 's3', label: 'For any angle x measured', prompt: 'Which idea is this? — For any angle \\(x\\) measured in radians, let \\(P(a, b)\\) be the point on the unit circle.', answer: 'For any angle x measured', options: ['For any angle x measured', 'An angle is a measure', 'The conversion between degree measure', 'Trigonometric functions of an acute'] },
@@ -89,7 +89,7 @@ export const w_c11_mathstrigonometricfunctionssim: SimDef = {
             { id: 's6', label: 'The sign of a trigonometric', prompt: 'Which idea is this? — The sign of a trigonometric function in a given quadrant is determined by the signs of.', answer: 'The sign of a trigonometric', options: ['The sign of a trigonometric', 'An angle is a measure', 'The conversion between degree measure', 'For any angle x measured'] }
           ] } }
     ],
-    explore: { component: C11_MathsTrigonometricFunctionsSim, prompt: 'Explore the interactive — Trigonometric Functions' },
+    explore: { component: C11_MathsTrigonometricFunctionsSim, prompt: 'Explore the interactive — Angles: Degree and Radian Measure' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_03_001', difficulty: 'standard',
           question: 'An angle is a measure of rotation of a ray about its initial point, where the.',

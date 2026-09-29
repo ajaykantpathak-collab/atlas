@@ -6,13 +6,13 @@ import C12_BiologyLinkageCrossingOverSim from '../../../simulations/c6_12/C12_Bi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologylinkagecrossingoversim: SimDef = {
     id: 'v3w_c12_biologylinkagecrossingoversim',
-    title: 'Linkage Crossing Over',
+    title: 'Linkage and Recombination: Morgan\'s Experiments',
     subtitle: 'This node covers Morgan\'s experimental design, the concepts of linkage and recombination,.',
     classLevel: 12, subject: 'biology', topic: 'Linkage and Recombination: Morgan\'s Experiments',
     chapters: [],
     nodeIds: ['c12_bio_cbse_05_007', 'c12_bio_cbse_05_001', 'c12_bio_cbse_05_002', 'c12_bio_cbse_05_003', 'c12_bio_cbse_05_004', 'c12_bio_cbse_05_005', 'c12_bio_cbse_01_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Begin with a familiar observation: in a dihybrid cross of Drosophila (e.g., grey body × black body and normal.', goal: 'Master Linkage Crossing Over.' },
+    scenario: { role: 'a class 12 learner', intro: 'Begin with a familiar observation: in a dihybrid cross of Drosophila (e.g., grey body × black body and normal.', goal: 'Master Linkage and Recombination: Morgan\'s Experiments.' },
     discovery: {
         question: 'Why did Morgan choose Drosophila melanogaster for his linkage studies, and what specific feature of Drosophila males makes them unique for linkage analysis?',
         options: ['Morgan chose Drosophila', 'linkage means genes are always inherited together and never separate', '"linkage means genes are always inherited together and never separate'],
@@ -82,7 +82,7 @@ export const w_c12_biologylinkagecrossingoversim: SimDef = {
             { text: 'Probability of group A = 3/4 = 75%.', faded: true, blankAnswer: '75% (or 3/4).' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_05_001', title: 'Identify each idea',
-          dissect: { specimen: 'Linkage Crossing Over', spots: [
+          dissect: { specimen: 'Linkage and Recombination: Morgan\'s Experiments', spots: [
             { id: 's1', label: 'Linkage is the tendency of', prompt: 'Which idea is this? — Linkage is the tendency of genes located on the same chromosome to be inherited together.', answer: 'Linkage is the tendency of', options: ['Linkage is the tendency of', 'Mendels Laws are three fundamental', 'A monohybrid cross is a', 'A dihybrid cross is a'] },
             { id: 's2', label: 'Mendels Laws are three fundamental', prompt: 'Which idea is this? — Mendel\'s Laws are three fundamental principles of inheritance derived from Gregor.', answer: 'Mendels Laws are three fundamental', options: ['Mendels Laws are three fundamental', 'Linkage is the tendency of', 'A monohybrid cross is a', 'A dihybrid cross is a'] },
             { id: 's3', label: 'A monohybrid cross is a', prompt: 'Which idea is this? — A monohybrid cross is a controlled breeding experiment between two individuals differing.', answer: 'A monohybrid cross is a', options: ['A monohybrid cross is a', 'Linkage is the tendency of', 'Mendels Laws are three fundamental', 'A dihybrid cross is a'] },
@@ -91,7 +91,7 @@ export const w_c12_biologylinkagecrossingoversim: SimDef = {
             { id: 's6', label: 'Multiple alleles refer to the', prompt: 'Which idea is this? — Multiple alleles refer to the existence of more than two allelic forms of a gene in a.', answer: 'Multiple alleles refer to the', options: ['Multiple alleles refer to the', 'Linkage is the tendency of', 'Mendels Laws are three fundamental', 'A monohybrid cross is a'] }
           ] } }
     ],
-    explore: { component: C12_BiologyLinkageCrossingOverSim, prompt: 'Explore the interactive — Linkage Crossing Over' },
+    explore: { component: C12_BiologyLinkageCrossingOverSim, prompt: 'Explore the interactive — Linkage and Recombination: Morgan\'s Experiments' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_05_007', difficulty: 'standard',
           question: 'Linkage is the tendency of genes located on the same chromosome to be inherited.',

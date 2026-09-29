@@ -19,7 +19,7 @@ export const c12_hin_a_ch11_p3: SimDef = {
         hook: 'Reading all three as \'social reform tales\' flattens his evolution — Kafan\'s Ghisu-Madhav aren\'t just poor, they\'re a verdict on a system. And his nine-language reach lives inside the prose: rustic village speech beside Sanskritised commentary is strategy, not inconsistency.',
     },
     teaching: [
-        { title: 'सुमरिनिी के मनके — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें पाठ को गहराई से पढ़कर उसके विषय, भाव, पात्र-चित्रण, साहित्यिक युक्तियों और लेखक के उद्देश्य का तार्किक विश्लेषण किया जाता है, ताकि उसके निहितार्थ को समझा जा.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'सुमरिनिी के मनके — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'अंतरा भाग-2 — पाठ 11\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_11_013', title: 'Your mission',
@@ -28,6 +28,27 @@ export const c12_hin_a_ch11_p3: SimDef = {
         context: 'Read Premchand across his own evolution: separate the reformer\'s hope from the disillusioned analyst, weigh resignation as authorial act, and test whether education alone transforms material life.',
         labels: ['सुमरिनिी के मनके —'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_11_013', title: 'सुमरिनिी के मनके — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 11\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।',
+            decisions: [{ prompt: 'What is the primary difference between a literal comprehension answer and a critical analysis answer for a question about "?kM+h osQ.', options: [
+                { text: 'A literal comprehension answer retells what the narrator says about clocks (e.g., "The', outcome: 'A literal comprehension answer retells what the narrator says about clocks (e.g., "The narrator.' },
+                { text: 'critical analysis', outcome: 'Not quite — Students think "critical analysis" means *finding faults* in the story or *expressing personal.', reveals: 'critical-analysis-means-finding-faults' },
+                { text: 'I feel the author is wrong about clocks', outcome: 'Not quite — Students think "critical analysis" means *finding faults* in the story or *expressing personal.', reveals: 'critical-analysis-means-finding-faults' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_11_014', title: 'सुमरिनिी के मनके — लेखन कौशल: पाठ-आधारित',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 11\' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।',
+            decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing structured answers for literature questions?', options: [
+                { text: 'PEEL stands for Point (clear topic sentence), Evidence (textual detail or quote),', outcome: 'PEEL stands for Point (clear topic sentence), Evidence (textual detail or quote), Explanation.' },
+                { text: 'Paragraph, Example, Explain, Line', outcome: 'Not quite — Students believe "writing skills" means using flowery vocabulary and long sentences.', reveals: 'writing-skills-means-using-flowery' },
+                { text: 'writing skills', outcome: 'Not quite — Students believe "writing skills" means using flowery vocabulary and long sentences.', reveals: 'writing-skills-means-using-flowery' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_11_015', title: 'सुमरिनिी के मनके — वाचन-श्रवण: चर्चा-बिंदु',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 11\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'Which of the three pieces in the chapter uses a folk‑tale framework to explore the value of labour and choice?', options: [
+                { text: 'Correct answer: "<sys pqu yks" (तीसरा टुकड़ा)', outcome: 'Correct answer: "<sys pqu yks" (तीसरा टुकड़ा). A wrong answer (e.g., "ckyd cp x;k" or "?कM+h osQ.' },
+                { text: 'ckyd cp x;k', outcome: 'Not quite — Students treat "discussion points" as a memory test: they memorise the NCERT end‑of‑chapter.', reveals: 'students-treat-discussion-points-as' },
+                { text: '?कM+h osQ iq”ksZ', outcome: 'Not quite — Students treat "discussion points" as a memory test: they memorise the NCERT end‑of‑chapter.', reveals: 'students-treat-discussion-points-as' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_11_013', title: 'Use it in the wild',
           caseStudy: { intro: 'At a school internship, a tribal scholarship boy refuses to recite the expected answers or name the textbook he was handed — he just says he belongs to the wild and slips away. The staff room has already filed him as \'difficult, unteachable.\'',
             decisions: [{ prompt: 'What does the story \'बालक बच गया\' read in his refusal?', options: [
@@ -47,38 +68,53 @@ export const c12_hin_a_ch11_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_11_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें पाठ को गहराई से पढ़कर उसके विषय, भाव.',
-          hint: 'पात्र-चित्रण के आधारभूत तत्वों (उपस्थिति, कार्य, संवाद, विचार) की समीक्षा करें—विशेष रूप.',
-          misconception: 'छात्र अक्सर आलोचनात्मक चिंतन को पाठ के भावों का mere identification (जैसे "यह दुखद है") समझ लेते हैं और इसे पर्याप्त.',
+          question: '\'अंतरा भाग-2 — पाठ 11\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
+          hint: 'If stuck, return to node c12_hin_a_cbse_11_009 (Irony and Symbolism) and practice.',
+          misconception: 'Students think "critical analysis" means *finding faults* in the story or *expressing personal opinions* ("I feel the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें पाठ को गहराई से पढ़कर उसके विषय, भाव,',
-                  options: ['आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें पाठ को गहराई से पढ़कर उसके विषय, भाव,', '\'सुमिरनी के मनके\' सुप्रसिद्ध कथाकार **मैत्रेयी पुष्पा** द्वारा रचित एक **आंचलिक उपन्यास**', '\'कथानक\' (Plot) कहानी की घटनाओं का कारण-परिणाम-आधारित तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश वह ऐतिहासिक, सामाजिक, सांस्कृतिक और भौतिक परिस्थिति है जिसमें कोई पाठ लिखा'],
-                  hint: 'पात्र-चित्रण के आधारभूत तत्वों (उपस्थिति, कार्य, संवाद, विचार) की समीक्षा करें—विशेष रूप से.',
-                  misconception: 'छात्र अक्सर आलोचनात्मक चिंतन को पाठ के भावों का mere identification (जैसे "यह दुखद है") समझ लेते हैं और इसे पर्याप्त मान लेते हैं, जबकि.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 11\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+                  options: ['\'अंतरा भाग-2 — पाठ 11\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 11\' का कथानक — \'अंतरा भाग-2 — पाठ 11\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 11\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'If stuck, return to node c12_hin_a_cbse_11_009 (Irony and Symbolism) and practice identifying *one*.',
+                  misconception: 'Students think "critical analysis" means *finding faults* in the story or *expressing personal opinions* ("I feel the author is wrong about.' }
           ],
-            remediations: { 'mere-identification': { steps: ['छात्र से कहिए कि वह एक ऐसा वाक्य चुनें जहाँ उसे भाव मजबूत लगा हो (जैसे "मन ciężार से भर गया")। फिर उनसे पूछिए: (1) कौन.', '(भार), (2) इस शब्द का सामान्य अर्थ क्या है?', '(भौतिक वजन), (3) यहाँ इसका क्या अर्थ हो सकता है?', '(मानसिक तनाव), (4) लेखक ने वजन जैसे शब्द का प्रयोग क्यों किया?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-finding-faults': { steps: ['If a student cannot move beyond summary/opinion: 1.', 'Give them a one-paragraph summary of "ckyd cp x;k" and a model analytical paragraph on the same paragraph.', 'Ask them to highlight every sentence in the model that *does not appear in the summary* (these are the analytical.', 'Practice the "So what?" drill: After every evidence quote, write "This shows that..." and "This matters because...".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_11_014', difficulty: 'standard',
-          question: 'लेखन कौशल: पाठ-आधारित वह क्षमता है जिसमें पाठ को पढ़कर, उसकी मुख्य बात को.',
-          hint: 'यदि छात्र फंस जाए तो c12_hin_a_cbse_11_013 (आलोचनात्मक चिंतन: विश्लेषण और व्याख्या) की.',
-          misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर में लंबा होना ही गुणवत्ता है, इसलिए वे अनावश्यक विवरण या पाठ की दोहराव में.',
+          question: '\'अंतरा भाग-2 — पाठ 11\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+          hint: 'If stuck on Evidence: re-do node c12_hin_a_cbse_11_012 (Comprehension) exercises on "find.',
+          misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'लेखन कौशल: पाठ-आधारित वह क्षमता है जिसमें पाठ को पढ़कर, उसकी मुख्य बात को समझकर, उसके',
-                  options: ['लेखन कौशल: पाठ-आधारित वह क्षमता है जिसमें पाठ को पढ़कर, उसकी मुख्य बात को समझकर, उसके', '\'सुमिरनी के मनके\' सुप्रसिद्ध कथाकार **मैत्रेयी पुष्पा** द्वारा रचित एक **आंचलिक उपन्यास**', '\'कथानक\' (Plot) कहानी की घटनाओं का कारण-परिणाम-आधारित तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश वह ऐतिहासिक, सामाजिक, सांस्कृतिक और भौतिक परिस्थिति है जिसमें कोई पाठ लिखा'],
-                  hint: 'यदि छात्र फंस जाए तो c12_hin_a_cbse_11_013 (आलोचनात्मक चिंतन: विश्लेषण और व्याख्या) की समीक्षा करें।',
-                  misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर में लंबा होना ही गुणवत्ता है, इसलिए वे अनावश्यक विवरण या पाठ की दोहराव में समय बर्बाद कर देते.' }
+                { id: 'a', prompt: 'Rewrite the following weak answer into a PEEL-structured response (30–40 words): "The story \'?kM+h osQ iq”ksZ\' says time is important.', answer: '**Point:** The author critiques society\'s casual attitude toward time',
+                  options: ['**Point:** The author critiques society\'s casual attitude toward time', 'writing skills', '"writing skills" means using flowery vocabulary and long sentences'],
+                  hint: 'If stuck on Evidence: re-do node c12_hin_a_cbse_11_012 (Comprehension) exercises on "find the line.',
+                  misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.' },
+                { id: 'b', prompt: 'Compare the writing demands of a 3-mark short answer (30–40 words) and a 6-mark long answer (100–120 words) for this chapter.', answer: 'In a 3-mark answer, PEEL is compressed: one sharp Point, one precise Evidence,',
+                  options: ['In a 3-mark answer, PEEL is compressed: one sharp Point, one precise Evidence,', 'writing skills', '"writing skills" means using flowery vocabulary and long sentences'],
+                  hint: 'If stuck on Evidence: re-do node c12_hin_a_cbse_11_012 (Comprehension) exercises on "find the line.',
+                  misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक लंबा लेकिन असंबंधित उत्तर और एक छोटा लेकिन सटीक उत्तर कैसे अलग होते हैं। फिर एक प्रश्न दीजिए और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-means-using-flowery': { steps: ['If a student cannot produce a PEEL response: (1) Give them a 2-mark question and a model PEEL answer; ask them to label.', '(2) Have them write *only* the Point for three different questions — drill the skill of framing an argument, not.', '(3) Revisit node c12_hin_a_cbse_11_012 (Comprehension) to practice extracting precise Evidence, then node.', 'Re-diagnose with a fresh 3-mark question.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_11_014', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate this student claim: "Creative writing tasks (diary entry, letter) based on the chapter don\'t need textual evidence because they are imaginative.".', answer: 'Refute',
+                  options: ['Refute', 'writing skills', '"writing skills" means using flowery vocabulary and long sentences'],
+                  hint: 'If stuck on Evidence: re-do node c12_hin_a_cbse_11_012 (Comprehension) exercises on "find the line.',
+                  misconception: 'Students believe "writing skills" means using flowery vocabulary and long sentences.' }
+          ],
+            remediations: { 'writing-skills-means-using-flowery': { steps: ['If a student cannot produce a PEEL response: (1) Give them a 2-mark question and a model PEEL answer; ask them to label.', '(2) Have them write *only* the Point for three different questions — drill the skill of framing an argument, not.', '(3) Revisit node c12_hin_a_cbse_11_012 (Comprehension) to practice extracting precise Evidence, then node.', 'Re-diagnose with a fresh 3-mark question.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_11_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण वह प्रक्रिया है जिसमें पाठ को उच्च स्वर में पढ़कर (वाचन) और उसे.',
-          hint: 'यदि छात्र वाचन-श्रवण में भाव को समझने में कठिनाई महसूस कर रहा है, तो कक्षा 11 के.',
-          misconception: 'छात्र अक्सर मानते हैं कि वाचन-श्रवण का अर्थ केवल पाठ को गलती-free तरीके से पढ़ना है — जैसे कि सही उच्चारण और बिना किसी.',
+          question: '\'अंतरा भाग-2 — पाठ 11\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'If stuck, revisit c12_hin_a_cbse_11_012 (Comprehension) for evidence‑location practice.',
+          misconception: 'Students treat "discussion points" as a memory test: they memorise the NCERT end‑of‑chapter questions and recite them.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण वह प्रक्रिया है जिसमें पाठ को उच्च स्वर में पढ़कर (वाचन) और उसे ध्यान से सुनकर',
-                  options: ['वाचन-श्रवण वह प्रक्रिया है जिसमें पाठ को उच्च स्वर में पढ़कर (वाचन) और उसे ध्यान से सुनकर', '\'सुमिरनी के मनके\' सुप्रसिद्ध कथाकार **मैत्रेयी पुष्पा** द्वारा रचित एक **आंचलिक उपन्यास**', '\'कथानक\' (Plot) कहानी की घटनाओं का कारण-परिणाम-आधारित तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश वह ऐतिहासिक, सामाजिक, सांस्कृतिक और भौतिक परिस्थिति है जिसमें कोई पाठ लिखा'],
-                  hint: 'यदि छात्र वाचन-श्रवण में भाव को समझने में कठिनाई महसूस कर रहा है, तो कक्षा 11 के.',
-                  misconception: 'छात्र अक्सर मानते हैं कि वाचन-श्रवण का अर्थ केवल पाठ को गलती-free तरीके से पढ़ना है — जैसे कि सही उच्चारण और बिना किसी रुकावट के। वे यह.' }
+                { id: 'a', prompt: 'Which of the three pieces in the chapter uses a folk‑tale framework to explore the value of labour and choice? (Only the title of the piece is required.)', answer: 'Correct answer: "<sys pqu yks" (तीसरा टुकड़ा)',
+                  options: ['Correct answer: "<sys pqu yks" (तीसरा टुकड़ा)', 'ckyd cp x;k', '?कM+h osQ iq”ksZ'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_11_012 (Comprehension) for evidence‑location practice and.',
+                  misconception: 'Students treat "discussion points" as a memory test: they memorise the NCERT end‑of‑chapter questions and recite them verbatim.' }
           ],
-            remediations: { 'free-true': { steps: ['छात्र को पहले किसी भावनात्मक रूप से स्पष्ट पाठ (जैसे एक प्रार्थना या एक शोकगीत) दिया जाए। उनसे कहा जाए कि वे इसे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-discussion-points-as': { steps: ['Have the student pick *one* piece and read it aloud twice — once for flow, once to underline two sentences that struck.', 'Ask them to explain *why* those sentences mattered in their own words (no textbook language).', 'Pair them with a peer; the peer asks one "Why?" question.', 'The student must answer using the underlined sentences.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

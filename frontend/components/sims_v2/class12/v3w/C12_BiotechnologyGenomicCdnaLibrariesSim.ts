@@ -6,13 +6,13 @@ import C12_BiotechnologyGenomicCdnaLibrariesSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biotechnologygenomiccdnalibrariessim: SimDef = {
     id: 'v3w_c12_biotechnologygenomiccdnalibrariessim',
-    title: 'nology Genomic Cdna Libraries',
+    title: 'Genomic Library: Construction and Representation',
     subtitle: 'This node covers the definition, construction workflow (genomic DNA isolation →.',
     classLevel: 12, subject: 'biotechnology', topic: 'Genomic Library: Construction and Representation',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_03_002', 'c12_biotech_cbse_03_003', 'c12_biotech_cbse_03_004', 'c12_biotech_cbse_03_008', 'c12_biotech_cbse_01_008', 'c12_biotech_cbse_01_010', 'c12_biotech_cbse_02_005', 'c12_biotech_cbse_05_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you have the entire instruction manual for building a human (the genome) but it\'s one massive.', goal: 'Master nology Genomic Cdna Libraries.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you have the entire instruction manual for building a human (the genome) but it\'s one massive.', goal: 'Master Genomic Library: Construction and Representation.' },
     discovery: {
         question: 'A research team constructs a genomic library using a plasmid vector (max insert 10 kb) for a 3 Gb mammalian genome. They obtain 50,000 independent clones.',
         options: ['f = 10 kb / 3,000,000 kb = 3.33×10⁻⁶', '50,000 clones is plenty', 'only genes'],
@@ -80,7 +80,7 @@ export const w_c12_biotechnologygenomiccdnalibrariessim: SimDef = {
             { text: 'Divide: N = (-6.907755) / (-0.00027911) ≈ 24,749. Round up to 25,000 clones.', faded: true, blankAnswer: '25,000 independent BAC clones (rounded up to nearest.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_biotech_cbse_03_003', title: 'Identify each idea',
-          dissect: { specimen: 'nology Genomic Cdna Libraries', spots: [
+          dissect: { specimen: 'Genomic Library: Construction and Representation', spots: [
             { id: 's1', label: 'A genomic library is a', prompt: 'Which idea is this? — A genomic library is a collection of recombinant DNA clones, each containing a different.', answer: 'A genomic library is a', options: ['A genomic library is a', 'A cDNA library is a', 'Colony hybridization is a nucleic', 'Bacteriophage lambda is a'] },
             { id: 's2', label: 'A cDNA library is a', prompt: 'Which idea is this? — A cDNA library is a collection of cloned complementary DNA (cDNA) fragments inserted into.', answer: 'A cDNA library is a', options: ['A cDNA library is a', 'A genomic library is a', 'Colony hybridization is a nucleic', 'Bacteriophage lambda is a'] },
             { id: 's3', label: 'Colony hybridization is a nucleic', prompt: 'Which idea is this? — Colony hybridization is a nucleic acid screening technique where bacterial colonies (or.', answer: 'Colony hybridization is a nucleic', options: ['Colony hybridization is a nucleic', 'A genomic library is a', 'A cDNA library is a', 'Bacteriophage lambda is a'] },
@@ -88,7 +88,7 @@ export const w_c12_biotechnologygenomiccdnalibrariessim: SimDef = {
             { id: 's5', label: 'BACs Bacterial Artificial Chromosomes and', prompt: 'Which idea is this? — BACs (Bacterial Artificial Chromosomes) and YACs (Yeast Artificial Chromosomes) are.', answer: 'BACs Bacterial Artificial Chromosomes and', options: ['BACs Bacterial Artificial Chromosomes and', 'A genomic library is a', 'A cDNA library is a', 'Colony hybridization is a nucleic'] }
           ] } }
     ],
-    explore: { component: C12_BiotechnologyGenomicCdnaLibrariesSim, prompt: 'Explore the interactive — nology Genomic Cdna Libraries' },
+    explore: { component: C12_BiotechnologyGenomicCdnaLibrariesSim, prompt: 'Explore the interactive — Genomic Library: Construction and Representation' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_biotech_cbse_03_002', difficulty: 'standard',
           question: 'A genomic library is a collection of recombinant DNA clones, each containing a.',

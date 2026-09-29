@@ -6,13 +6,13 @@ import C9_GeographyLandformsPlateausSim from '../../../simulations/c6_12/C9_Geog
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_geographylandformsplateaussim: SimDef = {
     id: 'v3w_c9_geographylandformsplateaussim',
-    title: 'Landforms Plateaus',
+    title: 'Plains, Plateaus and Valleys: Formation and Characteristics',
     subtitle: 'Covers formation processes and characteristics of plains, plateaus, and valleys globally.',
     classLevel: 9, subject: 'geography', topic: 'Plains, Plateaus and Valleys: Formation and Characteristics',
     chapters: [],
     nodeIds: ['c9_geo_ch1_10', 'c9_geo_ch2_7', 'c9_geo_ch1_1', 'c9_geo_ch1_11', 'c9_geo_ch1_12', 'c9_geo_ch1_2', 'c9_geo_ch1_3', 'c9_geo_ch1_4', 'c9_geo_ch1_5', 'c9_geo_ch1_7', 'c9_geo_ch1_8', 'c9_geo_ch1_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Look at the flat farmland around your village or city - notice how the soil is deep, stone-free, and the land.', goal: 'Master Landforms Plateaus.' },
+    scenario: { role: 'a class 9 learner', intro: 'Look at the flat farmland around your village or city - notice how the soil is deep, stone-free, and the land.', goal: 'Master Plains, Plateaus and Valleys: Formation and Characteristics.' },
     discovery: {
         question: 'Evaluate the statement: "The Indo-Gangetic Plain is entirely a depositional landform with no structural control." Provide evidence from its northern and.',
         options: ['The statement is partially incorrect', 'old, eroded mountains', 'young, flat lands'],
@@ -79,7 +79,7 @@ export const w_c9_geographylandformsplateaussim: SimDef = {
             { text: 'Verify with evidence: the Mid-Atlantic Ridge is the active divergent boundary; magnetic striping on the ocean floor.', faded: true, blankAnswer: 'The continents separated due to divergent plate movement.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_geo_ch2_7', title: 'Identify each idea',
-          dissect: { specimen: 'Landforms Plateaus', spots: [
+          dissect: { specimen: 'Plains, Plateaus and Valleys: Formation and Characteristics', spots: [
             { id: 's1', label: 'Plains are extensive low-relief areas', prompt: 'Which idea is this? — Plains are extensive low-relief areas formed primarily by depositional processes of.', answer: 'Plains are extensive low-relief areas', options: ['Plains are extensive low-relief areas', 'The Indian Monsoon is a', 'Earths interior is divided into', 'Coastal landforms are natural features'] },
             { id: 's2', label: 'The Indian Monsoon is a', prompt: 'Which idea is this? — The Indian Monsoon is a seasonal reversal of wind direction over the Indian subcontinent,.', answer: 'The Indian Monsoon is a', options: ['The Indian Monsoon is a', 'Plains are extensive low-relief areas', 'Earths interior is divided into', 'Coastal landforms are natural features'] },
             { id: 's3', label: 'Earths interior is divided into', prompt: 'Which idea is this? — Earth\'s interior is divided into three concentric layers based on chemical composition.', answer: 'Earths interior is divided into', options: ['Earths interior is divided into', 'Plains are extensive low-relief areas', 'The Indian Monsoon is a', 'Coastal landforms are natural features'] },
@@ -88,7 +88,7 @@ export const w_c9_geographylandformsplateaussim: SimDef = {
             { id: 's6', label: 'Plate tectonics is the scientific', prompt: 'Which idea is this? — Plate tectonics is the scientific theory explaining that Earth\'s lithosphere is divided.', answer: 'Plate tectonics is the scientific', options: ['Plate tectonics is the scientific', 'Plains are extensive low-relief areas', 'The Indian Monsoon is a', 'Earths interior is divided into'] }
           ] } }
     ],
-    explore: { component: C9_GeographyLandformsPlateausSim, prompt: 'Explore the interactive — Landforms Plateaus' },
+    explore: { component: C9_GeographyLandformsPlateausSim, prompt: 'Explore the interactive — Plains, Plateaus and Valleys: Formation and Characteristics' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_geo_ch1_10', difficulty: 'standard',
           question: 'Plains are extensive low-relief areas formed primarily by depositional.',

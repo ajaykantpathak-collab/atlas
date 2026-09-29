@@ -6,13 +6,13 @@ import C6_PhysicsPhysicalQuantitiesUnitsSim from '../../../simulations/c6_12/C6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_physicsphysicalquantitiesunitssim: SimDef = {
     id: 'v3w_c6_physicsphysicalquantitiesunitssim',
-    title: 'Physical Quantities Units',
+    title: 'Measuring Time: From Sundials to Clocks',
     subtitle: 'This node covers standard time units (seconds, minutes, hours, days, years) and sub-units.',
-    classLevel: 6, subject: 'physics', topic: 'Units of Time and Their Conversions',
+    classLevel: 6, subject: 'physics', topic: 'Measuring Time: From Sundials to Clocks',
     chapters: [],
     nodeIds: ['c6_physics_ch08_027', 'c6_physics_ch08_029', 'c6_physics_ch08_031', 'c6_physics_ch08_030'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you are waiting for your favorite television show to start; do you check the clock in hours or.', goal: 'Master Physical Quantities Units.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you are waiting for your favorite television show to start; do you check the clock in hours or.', goal: 'Master Measuring Time: From Sundials to Clocks.' },
     discovery: {
         question: 'What is the mathematical formula used to calculate the speed of a moving object?',
         options: ['The formula is Speed = Distance / Time', 'Distance times Time', 'Time divided by Distance'],
@@ -58,7 +58,7 @@ export const w_c6_physicsphysicalquantitiesunitssim: SimDef = {
                 { text: 'distance', outcome: 'Not quite — Students often believe that "speed" and "distance" are the same thing.', reveals: 'speed-and-distance-are-the' }
             ] }] } }
     ],
-    explore: { component: C6_PhysicsPhysicalQuantitiesUnitsSim, prompt: 'Explore the interactive — Physical Quantities Units' },
+    explore: { component: C6_PhysicsPhysicalQuantitiesUnitsSim, prompt: 'Explore the interactive — Measuring Time: From Sundials to Clocks' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_physics_ch08_034', difficulty: 'standard',
           question: 'Time is a physical quantity used to measure the duration of events or the.',

@@ -6,13 +6,13 @@ import C12_ComputerScienceAdvancedBooleanAlgebraSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_computerscienceadvancedbooleanalgebrasim: SimDef = {
     id: 'v3w_c12_computerscienceadvancedbooleanalgebrasim',
-    title: 'Advanced Boolean Algebra',
+    title: 'Introduction to Boolean Algebra and Logic',
     subtitle: 'This node introduces the concept, motivation, and basic vocabulary of Boolean Algebra.',
     classLevel: 12, subject: 'computer_science', topic: 'Introduction to Boolean Algebra and Logic',
     chapters: [],
     nodeIds: ['c12_cs_cbse_07_001', 'c12_cs_cbse_07_002', 'c12_cs_cbse_07_006', 'c12_cs_cbse_07_007', 'c12_cs_cbse_04_003', 'c12_cs_cbse_07_003', 'c12_cs_cbse_07_004', 'c12_cs_cbse_07_005', 'c12_cs_cbse_07_008', 'c12_cs_cbse_07_009', 'c12_cs_cbse_07_010', 'c12_cs_cbse_07_011', 'c12_cs_cbse_07_012', 'c12_cs_cbse_11_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are designing a security system for a bank vault: the vault opens ONLY if (the manager inserts.', goal: 'Master Advanced Boolean Algebra.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are designing a security system for a bank vault: the vault opens ONLY if (the manager inserts.', goal: 'Master Introduction to Boolean Algebra and Logic.' },
     discovery: {
         question: 'What are the only two values a Boolean variable can take?',
         options: ['A Boolean variable can take only the values 0 (False) and 1 (True)', '0, 1, and 2', 'any number'],
@@ -79,7 +79,7 @@ export const w_c12_computerscienceadvancedbooleanalgebrasim: SimDef = {
             { text: 'Interpret: S=0 means system is NOT armed because back door is open.', faded: true, blankAnswer: 'S = M · D · B; for M=1, D=1, B=0, S = 0 (system not armed).' }
             ] } },
         { type: 'dissect', nodeId: 'c12_cs_cbse_07_002', title: 'Identify each idea',
-          dissect: { specimen: 'Advanced Boolean Algebra', spots: [
+          dissect: { specimen: 'Introduction to Boolean Algebra and Logic', spots: [
             { id: 's1', label: 'Boolean Algebra is a mathematical', prompt: 'Which idea is this? — Boolean Algebra is a mathematical system for representing and manipulating logical.', answer: 'Boolean Algebra is a mathematical', options: ['Boolean Algebra is a mathematical', 'A Boolean variable is a', 'The commutative associative and distributive', 'De Morgans Theorems are two'] },
             { id: 's2', label: 'A Boolean variable is a', prompt: 'Which idea is this? — A Boolean variable is a symbol that represents a logical quantity and can take only two.', answer: 'A Boolean variable is a', options: ['A Boolean variable is a', 'Boolean Algebra is a mathematical', 'The commutative associative and distributive', 'De Morgans Theorems are two'] },
             { id: 's3', label: 'The commutative associative and distributive', prompt: 'Which idea is this? — The commutative, associative, and distributive laws in Boolean algebra govern how Boolean.', answer: 'The commutative associative and distributive', options: ['The commutative associative and distributive', 'Boolean Algebra is a mathematical', 'A Boolean variable is a', 'De Morgans Theorems are two'] },
@@ -88,7 +88,7 @@ export const w_c12_computerscienceadvancedbooleanalgebrasim: SimDef = {
             { id: 's6', label: 'The three fundamental Boolean operations', prompt: 'Which idea is this? — The three fundamental Boolean operations are AND (logical conjunction, denoted by · or.', answer: 'The three fundamental Boolean operations', options: ['The three fundamental Boolean operations', 'Boolean Algebra is a mathematical', 'A Boolean variable is a', 'The commutative associative and distributive'] }
           ] } }
     ],
-    explore: { component: C12_ComputerScienceAdvancedBooleanAlgebraSim, prompt: 'Explore the interactive — Advanced Boolean Algebra' },
+    explore: { component: C12_ComputerScienceAdvancedBooleanAlgebraSim, prompt: 'Explore the interactive — Introduction to Boolean Algebra and Logic' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_cs_cbse_07_001', difficulty: 'standard',
           question: 'Boolean Algebra is a mathematical system for representing and manipulating.',
@@ -204,8 +204,8 @@ export const w_c12_computerscienceadvancedbooleanalgebrasim: SimDef = {
                   options: ['In a hierarchical model, each child has exactly one parent', 'it can using pointers', 'obsolete'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think hierarchical and network models are "obsolete" and only of historical interest.' },
-                { id: 'c', prompt: 'Given a small network‑model diagram with two record types (Owner: Department, Member: Employee) and a set linking them, write the steps to find all employees.', answer: 'Steps: (1) Locate the \'CS\' department record (owner)',
-                  options: ['Steps: (1) Locate the \'CS\' department record (owner)', 'SELECT * FROM Employee WHERE dept=\'CS\'', 'obsolete'],
+                { id: 'c', prompt: 'Given a small network‑model diagram with two record types (Owner: Department, Member: Employee) and a set linking them, write the steps to find all employees.', answer: '(1) Locate the \'CS\' department record (owner)',
+                  options: ['(1) Locate the \'CS\' department record (owner)', 'SELECT * FROM Employee WHERE dept=\'CS\'', 'obsolete'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think hierarchical and network models are "obsolete" and only of historical interest.' }
           ],

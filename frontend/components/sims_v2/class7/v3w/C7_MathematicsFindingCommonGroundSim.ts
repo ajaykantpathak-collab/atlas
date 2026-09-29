@@ -6,13 +6,13 @@ import C7_MathematicsFindingCommonGroundSim from '../../../simulations/c6_12/C7_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsfindingcommongroundsim: SimDef = {
     id: 'v3w_c7_mathematicsfindingcommongroundsim',
-    title: 'Finding Common Ground',
+    title: 'Highest Common Factor (HCF): Definition and Methods',
     subtitle: 'Covers the definition of HCF, common factors, and finding the HCF of two or three.',
     classLevel: 7, subject: 'mathematics', topic: 'Highest Common Factor (HCF): Definition and Methods',
     chapters: [],
     nodeIds: ['c7_math_ch11_002', 'c7_math_ch11_003', 'c7_math_ch11_004', 'c7_math_ch11_005', 'c7_math_ch11_006', 'c7_math_ch11_007', 'c7_math_ch11_008', 'c7_math_ch11_009', 'c7_math_ch11_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine you are organizing a school cultural fest in Delhi and have 24 red ribbons and 36 blue ribbons.', goal: 'Master Finding Common Ground.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine you are organizing a school cultural fest in Delhi and have 24 red ribbons and 36 blue ribbons.', goal: 'Master Highest Common Factor (HCF): Definition and Methods.' },
     discovery: {
         question: 'What is the mathematical term for the number that is left over when you divide one integer by another during the Euclidean division process?',
         options: ['The correct answer is the "remainder"', 'quotient', 'factor'],
@@ -71,7 +71,7 @@ export const w_c7_mathematicsfindingcommongroundsim: SimDef = {
             { text: 'State the final result with proper units: The LCM of 4 and 6 is 12, so the lights will flash together again after 12.', faded: true, blankAnswer: '12 minutes' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch11_003', title: 'Identify each idea',
-          dissect: { specimen: 'Finding Common Ground', spots: [
+          dissect: { specimen: 'Highest Common Factor (HCF): Definition and Methods', spots: [
             { id: 's1', label: 'The Highest Common Factor HCF', prompt: 'Which idea is this? — The Highest Common Factor (HCF) of two or more numbers is the greatest positive integer.', answer: 'The Highest Common Factor HCF', options: ['The Highest Common Factor HCF', 'Finding the Highest Common Factor', 'The Prime Factorisation Method for', 'The Euclidean Division Method for'] },
             { id: 's2', label: 'Finding the Highest Common Factor', prompt: 'Which idea is this? — Finding the Highest Common Factor (HCF) by the listing factors method involves writing.', answer: 'Finding the Highest Common Factor', options: ['Finding the Highest Common Factor', 'The Highest Common Factor HCF', 'The Prime Factorisation Method for', 'The Euclidean Division Method for'] },
             { id: 's3', label: 'The Prime Factorisation Method for', prompt: 'Which idea is this? — The Prime Factorisation Method for finding the Highest Common Factor (HCF) involves.', answer: 'The Prime Factorisation Method for', options: ['The Prime Factorisation Method for', 'The Highest Common Factor HCF', 'Finding the Highest Common Factor', 'The Euclidean Division Method for'] },
@@ -80,7 +80,7 @@ export const w_c7_mathematicsfindingcommongroundsim: SimDef = {
             { id: 's6', label: 'Finding the Least Common Multiple', prompt: 'Which idea is this? — Finding the Least Common Multiple (LCM) by the listing multiples method involves writing.', answer: 'Finding the Least Common Multiple', options: ['Finding the Least Common Multiple', 'The Highest Common Factor HCF', 'Finding the Highest Common Factor', 'The Prime Factorisation Method for'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsFindingCommonGroundSim, prompt: 'Explore the interactive — Finding Common Ground' },
+    explore: { component: C7_MathematicsFindingCommonGroundSim, prompt: 'Explore the interactive — Highest Common Factor (HCF): Definition and Methods' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch11_002', difficulty: 'standard',
           question: 'The Highest Common Factor (HCF) of two or more numbers is the greatest positive.',

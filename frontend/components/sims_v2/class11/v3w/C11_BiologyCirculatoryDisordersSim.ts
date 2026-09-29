@@ -6,13 +6,13 @@ import C11_BiologyCirculatoryDisordersSim from '../../../simulations/c6_12/C11_B
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologycirculatorydisorderssim: SimDef = {
     id: 'v3w_c11_biologycirculatorydisorderssim',
-    title: 'Circulatory Disorders',
+    title: 'Human Heart: Structure and Chambers',
     subtitle: 'This node covers the gross anatomical structure of the human heart: chambers, septa,.',
     classLevel: 11, subject: 'biology', topic: 'Human Heart: Structure and Chambers',
     chapters: [],
     nodeIds: ['c11_bio_cbse_15_003', 'c11_bio_cbse_15_005', 'c11_bio_cbse_15_001', 'c11_bio_cbse_15_008', 'c11_bio_cbse_04_002', 'c11_bio_cbse_04_008', 'c11_bio_cbse_04_009', 'c11_bio_cbse_04_012', 'c11_bio_cbse_04_013'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Place your hand on the left side of your chest — you feel a rhythmic thumping.', goal: 'Master Circulatory Disorders.' },
+    scenario: { role: 'a class 11 learner', intro: 'Place your hand on the left side of your chest — you feel a rhythmic thumping.', goal: 'Master Human Heart: Structure and Chambers.' },
     discovery: {
         question: 'A patient is diagnosed with a defective bicuspid (mitral) valve that does not close completely during ventricular systole.',
         options: ['During left ventricular systole, the incompetent bicuspid valve allows blood to', 'blood flows back into the right atrium', 'no effect on lungs'],
@@ -80,7 +80,7 @@ export const w_c11_biologycirculatorydisorderssim: SimDef = {
             { text: 'Contrast locomotion: Polychaete uses parapodia (with acicula for support) for swimming/crawling; earthworm uses.', faded: true, blankAnswer: 'Phylum Annelida, Class Polychaeta (likely Nereis)..' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_15_005', title: 'Identify each idea',
-          dissect: { specimen: 'Circulatory Disorders', spots: [
+          dissect: { specimen: 'Human Heart: Structure and Chambers', spots: [
             { id: 's1', label: 'The human heart is a', prompt: 'Which idea is this? — The human heart is a four-chambered, muscular pumping organ located in the thoracic.', answer: 'The human heart is a', options: ['The human heart is a', 'Double circulation is a circulatory', 'Blood is a specialized connective', 'Lymph is a clear colourless'] },
             { id: 's2', label: 'Double circulation is a circulatory', prompt: 'Which idea is this? — Double circulation is a circulatory pathway in which blood passes through the heart twice.', answer: 'Double circulation is a circulatory', options: ['Double circulation is a circulatory', 'The human heart is a', 'Blood is a specialized connective', 'Lymph is a clear colourless'] },
             { id: 's3', label: 'Blood is a specialized connective', prompt: 'Which idea is this? — Blood is a specialized connective tissue composed of a fluid matrix called plasma (55% by.', answer: 'Blood is a specialized connective', options: ['Blood is a specialized connective', 'The human heart is a', 'Double circulation is a circulatory', 'Lymph is a clear colourless'] },
@@ -89,7 +89,7 @@ export const w_c11_biologycirculatorydisorderssim: SimDef = {
             { id: 's6', label: 'Phylum Annelida consists of triploblastic', prompt: 'Which idea is this? — Phylum Annelida consists of triploblastic, bilaterally symmetrical, coelomate animals.', answer: 'Phylum Annelida consists of triploblastic', options: ['Phylum Annelida consists of triploblastic', 'The human heart is a', 'Double circulation is a circulatory', 'Blood is a specialized connective'] }
           ] } }
     ],
-    explore: { component: C11_BiologyCirculatoryDisordersSim, prompt: 'Explore the interactive — Circulatory Disorders' },
+    explore: { component: C11_BiologyCirculatoryDisordersSim, prompt: 'Explore the interactive — Human Heart: Structure and Chambers' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_15_003', difficulty: 'standard',
           question: 'The human heart is a four-chambered, muscular pumping organ located in the.',

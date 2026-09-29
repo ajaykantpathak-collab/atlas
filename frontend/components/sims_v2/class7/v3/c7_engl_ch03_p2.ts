@@ -77,7 +77,7 @@ export const c7_engl_ch03_p2: SimDef = {
           misconception: 'Students often confuse *tinkering* with *building* or *manufacturing* a finished product.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Understanding and interpreting specific thematic vocabulary words from the story "My',
-                  options: ['Understanding and interpreting specific thematic vocabulary words from the story "My', 'Character analysis of Anand the Young Inventor involves examining his traits, actions,', 'Character analysis of Anita, the narrator and sister in "My Brother\'s Great Invention,"', 'The plot of a story refers to the sequence of events that make up the narrative,'],
+                  options: ['Understanding and interpreting specific thematic vocabulary words from the story "My', 'From \'My Brother\': the skill or concept this node teaches, applied to the actual text', 'From \'My Brother\': the skill or concept this node teaches, applied to the actual text', 'The plot of a story refers to the sequence of events that make up the narrative,'],
                   hint: 'Review Class 6 vocabulary strategies focusing on how action verbs and nearby objects reveal what.',
                   misconception: 'Students often confuse *tinkering* with *building* or *manufacturing* a finished product.' }
           ],
@@ -99,18 +99,18 @@ export const c7_engl_ch03_p2: SimDef = {
           misconception: 'Students often think that Anand\'s previous failed inventions are just random silly pranks meant to annoy his sister.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Comprehension of Anand\'s previous failed inventions involves analyzing the text to',
-                  options: ['Comprehension of Anand\'s previous failed inventions involves analyzing the text to', 'Character analysis of Anand the Young Inventor involves examining his traits, actions,', 'Character analysis of Anita, the narrator and sister in "My Brother\'s Great Invention,"', 'The plot of a story refers to the sequence of events that make up the narrative,'],
+                  options: ['Comprehension of Anand\'s previous failed inventions involves analyzing the text to', 'From \'My Brother\': the skill or concept this node teaches, applied to the actual text', 'From \'My Brother\': the skill or concept this node teaches, applied to the actual text', 'The plot of a story refers to the sequence of events that make up the narrative,'],
                   hint: 'Review the opening paragraphs of the chapter where Anita lists Anand\'s earlier gadgets and.',
                   misconception: 'Students often think that Anand\'s previous failed inventions are just random silly pranks meant to annoy his sister Anita and Papa.' }
           ],
             remediations: { 'anand-s-previous-failed-inventions': { steps: ['When a student misinterprets Anand\'s intent as mischievous rather than inventive, guide them back to the text step.', '(2) Ask them how Papa and Anita react—do they punish him severely like a prankster, or sigh like parents dealing with.', '(3) Explain that true inventors make many mistakes before succeeding, and Anand\'s character represents the spirit.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c7_engl_ch03_010', difficulty: 'standard',
-          question: 'Critical thinking in the context of invention is the disciplined mental process.',
+          question: 'From \'My Brother\': the skill or concept this node teaches, applied to the.',
           hint: 'Review c7_engl_ch03_009 to recall the specific details of Anand\'s previous failed gadgets.',
           misconception: 'Students often confuse "stubborn repetition" with "perseverance." For example, if a student reads about Anand fixing.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in the context of invention is the disciplined mental process of',
-                  options: ['Critical thinking in the context of invention is the disciplined mental process of', 'Character analysis of Anand the Young Inventor involves examining his traits, actions,', 'Character analysis of Anita, the narrator and sister in "My Brother\'s Great Invention,"', 'The plot of a story refers to the sequence of events that make up the narrative,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'My Brother\': the skill or concept this node teaches, applied to the actual text',
+                  options: ['From \'My Brother\': the skill or concept this node teaches, applied to the actual text', 'The plot of a story refers to the sequence of events that make up the narrative,', 'This topic explores the overarching theme of curiosity, invention, and the scientific', 'The literary device of situational humour shown through Papa\'s exasperated, bemused, and'],
                   hint: 'Review c7_engl_ch03_009 to recall the specific details of Anand\'s previous failed gadgets before.',
                   misconception: 'Students often confuse "stubborn repetition" with "perseverance." For example, if a student reads about Anand fixing his wire connections.' }
           ],
@@ -146,12 +146,12 @@ export const c7_engl_ch03_p2: SimDef = {
                   options: ['The child writes their name and village', 'Paper Boats'],
                   hint: 'Review node c7_engl_ch03_011 to ensure the literal plot and stanzas of Tagore\'s "Paper Boats" are.',
                   misconception: 'Students often believe that the theme of "Paper Boats" is simply about the craft of making origami or the physics of how floating objects.' },
-                { id: 'b', prompt: 'Read this hypothetical poetic line inspired by the theme: "I load my little ships with kash flowers from our garden, wishing them to land safely in the night.".', answer: 'Steps: (1) Identify the natural item used (kash flowers from the garden)',
-                  options: ['Steps: (1) Identify the natural item used (kash flowers from the garden)', 'Paper Boats'],
+                { id: 'b', prompt: 'Read this hypothetical poetic line inspired by the theme: "I load my little ships with kash flowers from our garden, wishing them to land safely in the night.".', answer: '(1) Identify the natural item used (kash flowers from the garden)',
+                  options: ['(1) Identify the natural item used (kash flowers from the garden)', 'Paper Boats'],
                   hint: 'Review node c7_engl_ch03_011 to ensure the literal plot and stanzas of Tagore\'s "Paper Boats" are.',
                   misconception: 'Students often believe that the theme of "Paper Boats" is simply about the craft of making origami or the physics of how floating objects.' },
-                { id: 'c', prompt: 'Analyze how the child\'s imagination expands from their immediate surroundings in the courtyard to the vast outside world as the boats float away.', answer: 'Steps: (1) Locate the starting point of the poem (the stream near the house)',
-                  options: ['Steps: (1) Locate the starting point of the poem (the stream near the house)', 'Paper Boats'],
+                { id: 'c', prompt: 'Analyze how the child\'s imagination expands from their immediate surroundings in the courtyard to the vast outside world as the boats float away.', answer: '(1) Locate the starting point of the poem (the stream near the house)',
+                  options: ['(1) Locate the starting point of the poem (the stream near the house)', 'Paper Boats'],
                   hint: 'Review node c7_engl_ch03_011 to ensure the literal plot and stanzas of Tagore\'s "Paper Boats" are.',
                   misconception: 'Students often believe that the theme of "Paper Boats" is simply about the craft of making origami or the physics of how floating objects.' }
           ],

@@ -19,7 +19,7 @@ export const c11_eng_w_ch07_p3: SimDef = {
         hook: 'Chronological climax and narrative climax are different events — the story peaks where the pretending becomes impossible to afford.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining a text beyond its surface meaning to evaluate themes, character motivations, narrative techniques, and the author\'s purpose, using textual.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Glory at Twilight\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_07_013', title: 'Your mission',
@@ -29,21 +29,21 @@ export const c11_eng_w_ch07_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_07_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re asked: "Why does Satyajit feel like an impostor at his own village celebration?" Start by recalling the story\'s central conflict — Satyajit\'s.',
+          caseStudy: { intro: 'Analyse \'Glory at Twilight\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the primary narrative perspective used in "Glory at Twilight" and how does it shape the reader\'s understanding of Satyajit\'s.', options: [
                 { text: 'The story uses third-person limited perspective focused on Satyajit\'s consciousness,', outcome: 'The story uses third-person limited perspective focused on Satyajit\'s consciousness, allowing.' },
                 { text: 'first-person', outcome: 'Not quite — Students often confuse *analysis* with *summary* — they retell what happens (Satyajit goes.', reveals: 'students-often-confuse-analysis-with' },
                 { text: 'omniscient', outcome: 'Not quite — Students often confuse *analysis* with *summary* — they retell what happens (Satyajit goes.', reveals: 'students-often-confuse-analysis-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_07_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are asked: *"How does the author use the episode of the bank theft to comment on Satyajit’s success?"* A struggling student often writes a plot.',
+          caseStudy: { intro: 'For written answers on \'Glory at Twilight\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the full form of PEEL in the context of writing analytical answers for literature?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explanation, Line', outcome: 'Not quite — Students believe that "Writing Skills" for literature means writing a *summary* of the story with.', reveals: 'writing-skills-for-literature-means' },
                 { text: 'Writing Skills', outcome: 'Not quite — Students believe that "Writing Skills" for literature means writing a *summary* of the story with.', reveals: 'writing-skills-for-literature-means' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_07_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a college literature seminar where the professor asks: "Satyajit chooses to maintain his false glory rather than confess his ruin — is this.',
+          caseStudy: { intro: 'Talk through \'Glory at Twilight\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'Recall the four discussion prompts from the NCERT "Talking About the Text" section for "Glory at Twilight" and state them verbatim.', options: [
                 { text: 'The four prompts are: (1) "It is difficult to adjust to a fall from glory." (2) "\'Failure', outcome: 'The four prompts are: (1) "It is difficult to adjust to a fall from glory." (2) "\'Failure had.' },
                 { text: 'It is difficult to adjust to a fall from glory', outcome: 'Not quite — Students treat "Speaking and Listening" as informal chat: they share personal opinions ("I feel bad.', reveals: 'students-treat-speaking-and-listening' },
@@ -68,18 +68,18 @@ export const c11_eng_w_ch07_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining a text beyond its.',
+          question: 'Critical thinking on \'Glory at Twilight\' — analysing the text to reach.',
           hint: 'If stuck, review c11_eng_w_cbse_07_009 (Irony and Symbolism) and c11_eng_w_cbse_07_012.',
           misconception: 'Students often confuse *analysis* with *summary* — they retell what happens (Satyajit goes to village, is honored.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis involves examining a text beyond its surface',
-                  options: ['Critical thinking in literary analysis involves examining a text beyond its surface', 'Before You Read: Context and Background is a pre-reading strategy that provides the', 'Plot and narrative structure refer to the deliberate arrangement of events, conflicts,', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'Glory at Twilight\'',
+                  options: ['Critical thinking on \'Glory at Twilight\'', '\'Glory at Twilight\' (Woven Words, ch', 'The plot/narrative arc of \'Glory at Twilight\'', 'The setting of \'Glory at Twilight\''],
                   hint: 'If stuck, review c11_eng_w_cbse_07_009 (Irony and Symbolism) and c11_eng_w_cbse_07_012.',
                   misconception: 'Students often confuse *analysis* with *summary* — they retell what happens (Satyajit goes to village, is honored, gives money) instead.' }
           ],
             remediations: { 'students-often-confuse-analysis-with': { steps: ['If a student produces summary instead of analysis: 1) Ask them to highlight every sentence in their answer that.', '2) If fewer than three, have them reread the "Appreciation" questions in the textbook — each requires analysis.', '3) Model one analytical paragraph using the PEEL structure: Point (Satyajit\'s impostor syndrome), Evidence (quote about.', '4) Assign a micro-task: analyze the single phrase "lingering twilight splendour of departed glory" in three sentences.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter "Glory at Twilight" refers to the ability.',
+          question: 'Writing skills from \'Glory at Twilight\' — using the text as a model.',
           hint: 'If stuck, review **c11_eng_w_cbse_07_013 (Critical Thinking)** for the analytical.',
           misconception: 'Students believe that "Writing Skills" for literature means writing a *summary* of the story with sophisticated.',
           parts: [
@@ -101,12 +101,12 @@ export const c11_eng_w_ch07_p3: SimDef = {
           ],
             remediations: { 'writing-skills-for-literature-means': { steps: ['**Identify the verb:** Circle the command word in the question (Analyze, Comment, Discuss, Compare).', 'If it is not "Describe" or "Summarize," a plot summary will score zero.', '**Draft the Point first:** Write *one* sentence answering the specific verb (e.g., "Bhattacharya uses the theft episode.', '**Attach Evidence:** Find the *exact* sentence/clause in the text that proves your Point (e.g., "He deserved what.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_07_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points is a structured oral communication.',
+          question: 'Discussion points on \'Glory at Twilight\' — speaking and listening around the.',
           hint: 'If stuck, review the "Critical Thinking: Analysis and Interpretation" node.',
           misconception: 'Students treat "Speaking and Listening" as informal chat: they share personal opinions ("I feel bad for Satyajit").',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points is a structured oral communication skill where',
-                  options: ['Speaking and Listening: Discussion Points is a structured oral communication skill where', 'Before You Read: Context and Background is a pre-reading strategy that provides the', 'Plot and narrative structure refer to the deliberate arrangement of events, conflicts,', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'Glory at Twilight\'',
+                  options: ['Discussion points on \'Glory at Twilight\'', '\'Glory at Twilight\' (Woven Words, ch', 'The plot/narrative arc of \'Glory at Twilight\'', 'The setting of \'Glory at Twilight\''],
                   hint: 'If stuck, review the "Critical Thinking: Analysis and Interpretation" node (c11_eng_w_cbse_07_013).',
                   misconception: 'Students treat "Speaking and Listening" as informal chat: they share personal opinions ("I feel bad for Satyajit") without textual.' }
           ],

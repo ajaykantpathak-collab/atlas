@@ -6,13 +6,13 @@ import C11_ChemistryStructureOfAtomSim from '../../../simulations/c6_12/C11_Chem
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_chemistrystructureofatomsim: SimDef = {
     id: 'v3w_c11_chemistrystructureofatomsim',
-    title: 'Structure Of Atom',
+    title: 'Covalent Bond: Lewis Structures',
     subtitle: 'This node covers the step‑by‑step procedure for drawing Lewis structures, application of.',
     classLevel: 11, subject: 'chemistry', topic: 'Covalent Bond: Lewis Structures',
     chapters: [],
     nodeIds: ['c11_chem_cbse_04_003', 'c11_chem_cbse_04_004', 'c11_chem_cbse_04_005', 'c11_chem_cbse_04_010', 'c11_chem_cbse_04_011', 'c11_chem_cbse_04_012', 'c11_chem_cbse_02_003', 'c11_chem_cbse_02_009', 'c11_chem_cbse_06_006', 'c11_chem_cbse_04_001', 'c11_chem_cbse_03_001', 'c11_chem_cbse_03_002', 'c11_chem_cbse_03_003', 'c11_chem_cbse_03_013', 'c11_chem_cbse_04_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a glass of water (H2O) – it’s a liquid at room temperature, yet its molecule is tiny.', goal: 'Master Structure Of Atom.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a glass of water (H2O) – it’s a liquid at room temperature, yet its molecule is tiny.', goal: 'Master Covalent Bond: Lewis Structures.' },
     discovery: {
         question: 'Explain why the bond angle in NH₃ (107°) is smaller than the ideal tetrahedral angle (109.5°) but larger than the H–O–H angle in H₂O (104.5°).',
         options: ['NH₃ has one lone pair (lp–bp repulsion compresses angles from 109.5° to ~107°)', 'both have one lone pair', 'electronegativity difference'],
@@ -84,7 +84,7 @@ export const w_c11_chemistrystructureofatomsim: SimDef = {
             { text: 'Convert to SI: μ_net = 1.845 D × 3.336 × 10⁻³⁰ C·m/D = 6.155 × 10⁻³⁰ C·m.', faded: true, blankAnswer: 'μ_net = 1.85 D = 6.16 × 10⁻³⁰ C·m, directed along the.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_chem_cbse_04_004', title: 'Identify each idea',
-          dissect: { specimen: 'Structure Of Atom', spots: [
+          dissect: { specimen: 'Covalent Bond: Lewis Structures', spots: [
             { id: 's1', label: 'A Lewis structure is a', prompt: 'Which idea is this? — A Lewis structure is a diagrammatic representation of a molecule or polyatomic ion that.', answer: 'A Lewis structure is a', options: ['A Lewis structure is a', 'Formal charge is the hypothetical', 'VSEPR Valence Shell Electron Pair', 'Hydrogen bonding is a special'] },
             { id: 's2', label: 'Formal charge is the hypothetical', prompt: 'Which idea is this? — Formal charge is the hypothetical charge assigned to an atom in a Lewis structure,.', answer: 'Formal charge is the hypothetical', options: ['Formal charge is the hypothetical', 'A Lewis structure is a', 'VSEPR Valence Shell Electron Pair', 'Hydrogen bonding is a special'] },
             { id: 's3', label: 'VSEPR Valence Shell Electron Pair', prompt: 'Which idea is this? — VSEPR (Valence Shell Electron Pair Repulsion) theory predicts the three-dimensional.', answer: 'VSEPR Valence Shell Electron Pair', options: ['VSEPR Valence Shell Electron Pair', 'A Lewis structure is a', 'Formal charge is the hypothetical', 'Hydrogen bonding is a special'] },
@@ -93,7 +93,7 @@ export const w_c11_chemistrystructureofatomsim: SimDef = {
             { id: 's6', label: 'The dipole moment of', prompt: 'Which idea is this? — The dipole moment (μ) of a polar covalent bond is the product of the magnitude of the.', answer: 'The dipole moment of', options: ['The dipole moment of', 'A Lewis structure is a', 'Formal charge is the hypothetical', 'VSEPR Valence Shell Electron Pair'] }
           ] } }
     ],
-    explore: { component: C11_ChemistryStructureOfAtomSim, prompt: 'Explore the interactive — Structure Of Atom' },
+    explore: { component: C11_ChemistryStructureOfAtomSim, prompt: 'Explore the interactive — Covalent Bond: Lewis Structures' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_chem_cbse_04_003', difficulty: 'standard',
           question: 'A Lewis structure is a diagrammatic representation of a molecule or polyatomic.',

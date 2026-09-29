@@ -116,23 +116,23 @@ export const c8_engl_ch01_p2: SimDef = {
           ],
             remediations: { 'students-treat-peel-as-a': { steps: ['Give the student a weak PEEL paragraph and ask them to circle each component.', 'If they cannot find the Explanation, they are paraphrasing, not analyzing.', 'Provide a quotation and ask: "What device is used?', 'What does it make the reader feel?" — these three answers become the Explanation.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c8_engl_ch1_2', difficulty: 'standard',
-          question: 'Character analysis of Tenali Ramakrishna as a witty advisor examines his.',
+          question: 'From \'English chapter c8_engl_ch1\': the skill or concept this node teaches.',
           hint: 'If stuck, review how characters reveal who they are through what they say and do using.',
           misconception: 'Students frequently misinterpret Tenali Ramakrishna as merely a court jester whose sole function is to provide.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of Tenali Ramakrishna as a witty advisor examines his defining',
-                  options: ['Character analysis of Tenali Ramakrishna as a witty advisor examines his defining', 'Setting refers to the time, place, and socio-cultural environment in', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c8_engl_ch1\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c8_engl_ch1\': the skill or concept this node teaches, applied to', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual', 'Retelling a story with wit and humour involves taking a base narrative and enhancing it'],
                   hint: 'If stuck, review how characters reveal who they are through what they say and do using.',
                   misconception: 'Students frequently misinterpret Tenali Ramakrishna as merely a court jester whose sole function is to provide slapstick humor and silly.' }
           ],
             remediations: { 'students-frequently-misinterpret-tenali-ramakris': { steps: ['To fix this misconception, guide the student through the "Humor with Purpose" framework.', 'Ask the student two guiding questions whenever Tenali acts: (1) "What problem is the King or court facing?" and (2).', 'Have the student rewrite their character description by replacing words like "funny/silly" with precise trait words.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c8_engl_ch1_3', difficulty: 'standard',
-          question: 'Character analysis of King Krishnadeva Raya as a wise ruler involves examining.',
+          question: 'From \'English chapter c8_engl_ch1\': the skill or concept this node teaches.',
           hint: 'If you are stuck, think of your favorite superhero. Do they ever make mistakes or get.',
           misconception: 'Students often believe that because King Krishnadeva Raya got angry and engaged in a petty quarrel with the Queen,.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of King Krishnadeva Raya as a wise ruler involves examining his',
-                  options: ['Character analysis of King Krishnadeva Raya as a wise ruler involves examining his', 'Setting refers to the time, place, and socio-cultural environment in', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c8_engl_ch1\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c8_engl_ch1\': the skill or concept this node teaches, applied to', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual', 'Retelling a story with wit and humour involves taking a base narrative and enhancing it'],
                   hint: 'If you are stuck, think of your favorite superhero. Do they ever make mistakes or get beaten in.',
                   misconception: 'Students often believe that because King Krishnadeva Raya got angry and engaged in a petty quarrel with the Queen, he cannot be analyzed.' }
           ],
@@ -143,7 +143,7 @@ export const c8_engl_ch01_p2: SimDef = {
           misconception: 'Students treat the quarrel as just "a fight scene" to summarize, rather than a **structural hinge**.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot is the sequence of events that make up a story, arranged in a cause-and-effect chain',
-                  options: ['Plot is the sequence of events that make up a story, arranged in a cause-and-effect chain', 'Setting refers to the time, place, and socio-cultural environment in', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual'],
+                  options: ['Plot is the sequence of events that make up a story, arranged in a cause-and-effect chain', 'From \'English chapter c8_engl_ch1\': the skill or concept this node teaches, applied to', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual'],
                   hint: 'Review "plot mountain" diagram and practice mapping a familiar story (e.g., a Panchatantra tale).',
                   misconception: 'Students treat the quarrel as just "a fight scene" to summarize, rather than a **structural hinge**.' }
           ],

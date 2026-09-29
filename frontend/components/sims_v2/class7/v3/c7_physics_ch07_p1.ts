@@ -112,7 +112,11 @@ export const c7_physics_ch07_p1: SimDef = {
                   options: ['Neutral substances fail to change litmus color', 'neutral'],
                   hint: 'Review litmus paper behavior in c7_physics_ch07_002 before classifying neutral substances.',
                   misconception: 'Students often think that "neutral" means a substance is just a very weak acid or a very weak base that has been diluted with water, rather.' },
-                { id: 'c', prompt: 'Analyze the following test results for three unknown solutions: Solution A turns blue litmus red; Solution B turns red litmus blue; Solution C shows no color.', answer: 'Solution C is neutral',
+                { id: 'c', prompt: 'If 10 mL of a sugar solution shows no color change with red litmus and no color change with blue litmus, what is its chemical classification and what is its.', answer: 'Observe indicator test results: red litmus stays red, blue litmus stays blue',
+                  options: ['Observe indicator test results: red litmus stays red, blue litmus stays blue', 'neutral'],
+                  hint: 'Review litmus paper behavior in c7_physics_ch07_002 before classifying neutral substances.',
+                  misconception: 'Students often think that "neutral" means a substance is just a very weak acid or a very weak base that has been diluted with water, rather.' },
+                { id: 'd', prompt: 'Analyze the following test results for three unknown solutions: Solution A turns blue litmus red; Solution B turns red litmus blue; Solution C shows no color.', answer: 'Solution C is neutral',
                   options: ['Solution C is neutral', 'neutral'],
                   hint: 'Review litmus paper behavior in c7_physics_ch07_002 before classifying neutral substances.',
                   misconception: 'Students often think that "neutral" means a substance is just a very weak acid or a very weak base that has been diluted with water, rather.' }

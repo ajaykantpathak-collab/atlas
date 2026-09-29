@@ -6,13 +6,13 @@ import C9_GeoIndiaSizeLocationCBSESim from '../../../simulations/c6_12_new/C9_Ge
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_geoindiasizelocationcbsesim: SimDef = {
     id: 'v3w_c9_geoindiasizelocationcbsesim',
-    title: 'Geo India Size Location CBSE',
+    title: 'Air Pressure: Horizontal and Vertical Distribution',
     subtitle: 'Covers global pressure belt systems (formation, location, seasonal shift) and vertical.',
     classLevel: 9, subject: 'science', topic: 'Air Pressure: Horizontal and Vertical Distribution',
     chapters: [],
     nodeIds: ['c9_geo_ch2_3', 'c9_geo_ch2_4', 'c9_geo_ch2_5'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are standing on a beach in Chennai at noon feeling the warm air rise, while a weather balloon.', goal: 'Master Geo India Size Location CBSE.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are standing on a beach in Chennai at noon feeling the warm air rise, while a weather balloon.', goal: 'Master Air Pressure: Horizontal and Vertical Distribution.' },
     discovery: {
         question: 'Explain why the equatorial region experiences low pressure throughout the year while the subtropical zones (around 30°N/S) have high pressure, even though both.',
         options: ['The equatorial low forms', 'cooling', 'cold air sinking'],
@@ -51,13 +51,13 @@ export const w_c9_geoindiasizelocationcbsesim: SimDef = {
             { text: 'Verify with observations — the observed shift from 32°C/40% RH to 47°C/8% RH with dusty westerlies matches the Loo.', faded: true, blankAnswer: 'The change is caused by the onset of the Loo: intense.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_geo_ch2_4', title: 'Identify each idea',
-          dissect: { specimen: 'Geo India Size Location CBSE', spots: [
+          dissect: { specimen: 'Air Pressure: Horizontal and Vertical Distribution', spots: [
             { id: 's1', label: 'Air pressure is the force', prompt: 'Which idea is this? — Air pressure is the force exerted by the weight of the air column above a unit area of.', answer: 'Air pressure is the force', options: ['Air pressure is the force', 'Global wind systems are large-scale', 'Local winds are winds that'] },
             { id: 's2', label: 'Global wind systems are large-scale', prompt: 'Which idea is this? — Global wind systems are large-scale, persistent wind patterns driven by differential.', answer: 'Global wind systems are large-scale', options: ['Global wind systems are large-scale', 'Air pressure is the force', 'Local winds are winds that'] },
             { id: 's3', label: 'Local winds are winds that', prompt: 'Which idea is this? — Local winds are winds that blow over a limited geographical area due to local pressure.', answer: 'Local winds are winds that', options: ['Local winds are winds that', 'Air pressure is the force', 'Global wind systems are large-scale'] }
           ] } }
     ],
-    explore: { component: C9_GeoIndiaSizeLocationCBSESim, prompt: 'Explore the interactive — Geo India Size Location CBSE' },
+    explore: { component: C9_GeoIndiaSizeLocationCBSESim, prompt: 'Explore the interactive — Air Pressure: Horizontal and Vertical Distribution' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_geo_ch2_3', difficulty: 'standard',
           question: 'Air pressure is the force exerted by the weight of the air column above a unit.',

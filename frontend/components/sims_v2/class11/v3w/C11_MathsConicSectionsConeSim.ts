@@ -6,13 +6,13 @@ import C11_MathsConicSectionsConeSim from '../../../simulations/three/C11_MathsC
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathsconicsectionsconesim: SimDef = {
     id: 'v3w_c11_mathsconicsectionsconesim',
-    title: 'Conic Sections Cone',
+    title: 'Conic Sections: Introduction and Definition',
     subtitle: 'This node covers only the geometric definition of conic sections, the classification of.',
     classLevel: 11, subject: 'mathematics', topic: 'Conic Sections: Introduction and Definition',
     chapters: [],
     nodeIds: ['c11_math_cbse_11_001', 'c11_math_cbse_11_003', 'c11_math_cbse_11_004', 'c11_math_cbse_11_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a satellite dish for a communications tower in Bengaluru: the dish must reflect.', goal: 'Master Conic Sections Cone.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a satellite dish for a communications tower in Bengaluru: the dish must reflect.', goal: 'Master Conic Sections: Introduction and Definition.' },
     discovery: {
         question: 'If a plane cuts a double-napped cone parallel to its axis, which conic section is formed, and why does this cut produce two separate curves?',
         options: ['A hyperbola is formed', 'parabola', 'ellipse'],
@@ -60,14 +60,14 @@ export const w_c11_mathsconicsectionsconesim: SimDef = {
             { text: 'The focus is at (0, a) = (0, 0.3). The cooking pot should be placed 0.3 m (30 cm) above the vertex along the axis.', faded: true, blankAnswer: '0.3 m (30 cm) above the vertex.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_11_003', title: 'Identify each idea',
-          dissect: { specimen: 'Conic Sections Cone', spots: [
+          dissect: { specimen: 'Conic Sections: Introduction and Definition', spots: [
             { id: 's1', label: 'A conic section is a', prompt: 'Which idea is this? — A conic section is a curve obtained by intersecting a plane with a double-napped right.', answer: 'A conic section is a', options: ['A conic section is a', 'The general equation of a', 'A parabola is the set', 'Applications of conic sections refer'] },
             { id: 's2', label: 'The general equation of a', prompt: 'Which idea is this? — The general equation of a circle is a second-degree equation in two variables of the form.', answer: 'The general equation of a', options: ['The general equation of a', 'A conic section is a', 'A parabola is the set', 'Applications of conic sections refer'] },
             { id: 's3', label: 'A parabola is the set', prompt: 'Which idea is this? — A parabola is the set of all points in a plane that are equidistant from a fixed point.', answer: 'A parabola is the set', options: ['A parabola is the set', 'A conic section is a', 'The general equation of a', 'Applications of conic sections refer'] },
             { id: 's4', label: 'Applications of conic sections refer', prompt: 'Which idea is this? — Applications of conic sections refer to the use of geometric properties of circles,.', answer: 'Applications of conic sections refer', options: ['Applications of conic sections refer', 'A conic section is a', 'The general equation of a', 'A parabola is the set'] }
           ] } }
     ],
-    explore: { component: C11_MathsConicSectionsConeSim, prompt: 'Explore the interactive — Conic Sections Cone' },
+    explore: { component: C11_MathsConicSectionsConeSim, prompt: 'Explore the interactive — Conic Sections: Introduction and Definition' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_11_001', difficulty: 'standard',
           question: 'A conic section is a curve obtained by intersecting a plane with a.',

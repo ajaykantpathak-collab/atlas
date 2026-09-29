@@ -6,13 +6,13 @@ import C7_MathematicsExtendCongruenceSimpleSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsextendcongruencesimplesim: SimDef = {
     id: 'v3w_c7_mathematicsextendcongruencesimplesim',
-    title: 'Extend Congruence Simple',
+    title: 'Exterior Angle Property of a Triangle',
     subtitle: 'Covers the exterior angle theorem for triangles in Euclidean plane geometry, including.',
     classLevel: 7, subject: 'mathematics', topic: 'Exterior Angle Property of a Triangle',
     chapters: [],
     nodeIds: ['c7_math_ch07_008', 'c7_math_ch07_001', 'c7_math_ch07_002', 'c7_math_ch07_004', 'c7_math_ch07_010', 'c7_math_ch15_004', 'c7_math_ch15_009', 'c7_math_ch05_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine standing at the corner of a triangular park in your neighborhood, walking along one side, and then.', goal: 'Master Extend Congruence Simple.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine standing at the corner of a triangular park in your neighborhood, walking along one side, and then.', goal: 'Master Exterior Angle Property of a Triangle.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'The exterior angle property of a triangle.', text: 'The exterior angle property of a triangle states that if any side of a triangle is produced (extended), the exterior angle so formed is equal to the sum of the two interior opposite angles.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -73,7 +73,7 @@ export const w_c7_mathematicsextendcongruencesimplesim: SimDef = {
             { text: 'Verify the result by substituting $n = 5$ back into the original expression: $25(5) + 15 = 125 + 15 = 140$, confirming.', faded: true, blankAnswer: '5 notebooks' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch07_001', title: 'Identify each idea',
-          dissect: { specimen: 'Extend Congruence Simple', spots: [
+          dissect: { specimen: 'Exterior Angle Property of a Triangle', spots: [
             { id: 's1', label: 'The exterior angle property of', prompt: 'Which idea is this? — The exterior angle property of a triangle states that if any side of a triangle is.', answer: 'The exterior angle property of', options: ['The exterior angle property of', 'A triangle is a closed', 'An equilateral triangle is a', 'Triangles are classified based on'] },
             { id: 's2', label: 'A triangle is a closed', prompt: 'Which idea is this? — A triangle is a closed, two-dimensional geometric polygon formed by three intersecting.', answer: 'A triangle is a closed', options: ['A triangle is a closed', 'The exterior angle property of', 'An equilateral triangle is a', 'Triangles are classified based on'] },
             { id: 's3', label: 'An equilateral triangle is a', prompt: 'Which idea is this? — An equilateral triangle is a special three-sided polygon in which all three sides are.', answer: 'An equilateral triangle is a', options: ['An equilateral triangle is a', 'The exterior angle property of', 'A triangle is a closed', 'Triangles are classified based on'] },
@@ -82,7 +82,7 @@ export const w_c7_mathematicsextendcongruencesimplesim: SimDef = {
             { id: 's6', label: 'Solving linear equations using inverse', prompt: 'Which idea is this? — Solving linear equations using inverse operations involves applying opposite arithmetic.', answer: 'Solving linear equations using inverse', options: ['Solving linear equations using inverse', 'The exterior angle property of', 'A triangle is a closed', 'An equilateral triangle is a'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsExtendCongruenceSimpleSim, prompt: 'Explore the interactive — Extend Congruence Simple' },
+    explore: { component: C7_MathematicsExtendCongruenceSimpleSim, prompt: 'Explore the interactive — Exterior Angle Property of a Triangle' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch07_008', difficulty: 'standard',
           question: 'The exterior angle property of a triangle states that if any side of a triangle.',

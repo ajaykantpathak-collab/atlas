@@ -6,13 +6,13 @@ import C11_BiologyCellWallPlasmodesmataSim from '../../../simulations/c6_12/C11_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologycellwallplasmodesmatasim: SimDef = {
     id: 'v3w_c11_biologycellwallplasmodesmatasim',
-    title: 'Cell Wall Plasmodesmata',
+    title: 'Cell Wall: Structure and Function',
     subtitle: 'Covers the chemical composition, ultrastructure (primary wall, secondary wall, middle.',
     classLevel: 11, subject: 'biology', topic: 'Cell Wall: Structure and Function',
     chapters: [],
     nodeIds: ['c11_bio_cbse_08_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a raw mango slice and a ripe mango slice: the raw one is hard and crunchy, the ripe one is soft and.', goal: 'Master Cell Wall Plasmodesmata.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a raw mango slice and a ripe mango slice: the raw one is hard and crunchy, the ripe one is soft and.', goal: 'Master Cell Wall: Structure and Function.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'The cell wall is a non-living, rigid,.', text: 'The cell wall is a non-living, rigid, extracellular matrix that surrounds the plasma membrane of plant cells, fungi, algae, and most prokaryotes, composed primarily of cellulose microfibrils embedded.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -28,7 +28,7 @@ export const w_c11_biologycellwallplasmodesmatasim: SimDef = {
             { text: 'Verify: This matches the symptom (localized to low-transpiration fruit tip) and explains why foliar calcium sprays.', faded: true, blankAnswer: 'Blossom-end rot occurs because calcium is required for.' }
             ] } }
     ],
-    explore: { component: C11_BiologyCellWallPlasmodesmataSim, prompt: 'Explore the interactive — Cell Wall Plasmodesmata' },
+    explore: { component: C11_BiologyCellWallPlasmodesmataSim, prompt: 'Explore the interactive — Cell Wall: Structure and Function' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_08_004', difficulty: 'standard',
           question: 'The cell wall is a non-living, rigid, extracellular matrix that surrounds the.',

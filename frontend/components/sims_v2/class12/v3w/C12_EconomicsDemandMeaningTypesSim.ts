@@ -6,13 +6,13 @@ import C12_EconomicsDemandMeaningTypesSim from '../../../simulations/c6_12/C12_E
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_economicsdemandmeaningtypessim: SimDef = {
     id: 'v3w_c12_economicsdemandmeaningtypessim',
-    title: 'Demand Meaning Types',
+    title: 'Money: Meaning and Functions (Medium of Exchange, Unit of Account)',
     subtitle: 'This node covers the meaning of money, its four functions (medium of exchange, unit of.',
     classLevel: 12, subject: 'economics', topic: 'Money: Meaning and Functions (Medium of Exchange, Unit of Account)',
     chapters: [],
     nodeIds: ['c12_eco_cbse_09_001', 'c12_eco_cbse_09_008', 'c12_eco_cbse_10_001', 'c12_eco_cbse_11_010', 'c12_eco_cbse_06_006', 'c12_eco_cbse_06_009', 'c12_eco_cbse_10_007', 'c12_eco_cbse_11_003', 'c12_eco_cbse_11_005', 'c12_eco_cbse_05_001', 'c12_eco_cbse_05_006', 'c12_eco_cbse_05_007', 'c12_eco_cbse_02_008', 'c12_eco_cbse_09_003', 'c12_eco_cbse_11_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are at a local mandi in Maharashtra wanting to buy 5 kg of tomatoes.', goal: 'Master Demand Meaning Types.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are at a local mandi in Maharashtra wanting to buy 5 kg of tomatoes.', goal: 'Master Money: Meaning and Functions (Medium of Exchange, Unit of Account).' },
     discovery: {
         question: 'Why is a current account deposit considered a primary function of a commercial bank, while providing a safe deposit locker is a secondary function?',
         options: ['A current account deposit is a primary function', 'both are services to customers', 'discounting of bills of exchange'],
@@ -80,7 +80,7 @@ export const w_c12_economicsdemandmeaningtypessim: SimDef = {
             { text: 'Interpret. The competitive firm earns large supernormal profit at this price, attracting entry.', faded: true, blankAnswer: 'Perfect Competition: Q=2000 quintals, P=₹2200,.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_eco_cbse_09_008', title: 'Identify each idea',
-          dissect: { specimen: 'Demand Meaning Types', spots: [
+          dissect: { specimen: 'Money: Meaning and Functions (Medium of Exchange, Unit of Account)', spots: [
             { id: 's1', label: 'Money is a universally accepted', prompt: 'Which idea is this? — Money is a universally accepted medium of exchange that serves as a unit of account, a.', answer: 'Money is a universally accepted', options: ['Money is a universally accepted', 'Commercial banks are financial institutions', 'Aggregate Demand AD is the', 'The foreign exchange rate is'] },
             { id: 's2', label: 'Commercial banks are financial institutions', prompt: 'Which idea is this? — Commercial banks are financial institutions that accept deposits from the public.', answer: 'Commercial banks are financial institutions', options: ['Commercial banks are financial institutions', 'Money is a universally accepted', 'Aggregate Demand AD is the', 'The foreign exchange rate is'] },
             { id: 's3', label: 'Aggregate Demand AD is the', prompt: 'Which idea is this? — Aggregate Demand (AD) is the total planned expenditure on final goods and services in an.', answer: 'Aggregate Demand AD is the', options: ['Aggregate Demand AD is the', 'Money is a universally accepted', 'Commercial banks are financial institutions', 'The foreign exchange rate is'] },
@@ -89,7 +89,7 @@ export const w_c12_economicsdemandmeaningtypessim: SimDef = {
             { id: 's6', label: 'Comparison of market structures is', prompt: 'Which idea is this? — Comparison of market structures is the systematic analysis of how perfect competition,.', answer: 'Comparison of market structures is', options: ['Comparison of market structures is', 'Money is a universally accepted', 'Commercial banks are financial institutions', 'Aggregate Demand AD is the'] }
           ] } }
     ],
-    explore: { component: C12_EconomicsDemandMeaningTypesSim, prompt: 'Explore the interactive — Demand Meaning Types' },
+    explore: { component: C12_EconomicsDemandMeaningTypesSim, prompt: 'Explore the interactive — Money: Meaning and Functions (Medium of Exchange, Unit of Account)' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eco_cbse_09_001', difficulty: 'standard',
           question: 'Money is a universally accepted medium of exchange that serves as a unit of.',

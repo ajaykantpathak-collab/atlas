@@ -107,6 +107,17 @@ export const c12_hist_ch05_p2: SimDef = {
                   misconception: 'Students think Ibn Battuta\'s descriptions of the coconut and paan are merely "interesting trivia" or "botanical observations." In reality.' }
           ],
             remediations: { 'ibn-battuta-s-descriptions-of': { steps: ['Re-read Source 6 and Source 7 in the NCERT text side-by-side with the "Education and entertainment" box (Source 3).', 'Identify every comparison Ibn Battuta makes (date-palm, human head, grape-vine, nutmeg).', 'Ask: "Would a 14th-century Moroccan reader know what a date-palm looks like?', 'Write one paragraph explaining how each analogy serves as a cognitive bridge.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hist_cbse_05_007', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students think Ibn Battuta\'s descriptions of the coconut and paan are merely "interesting trivia" or "botanical.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the claim: "Ibn Battuta\'s account proves that 14th-century Indian towns were more prosperous and culturally vibrant than contemporary European towns.".', answer: 'The claim overreaches',
+                  options: ['The claim overreaches', 'interesting trivia', 'botanical observations'],
+                  hint: 'Revisit c12_hist_cbse_05_005 (Ibn Battuta\'s background) and c12_hist_cbse_05_006 (Delhi.',
+                  misconception: 'Students think Ibn Battuta\'s descriptions of the coconut and paan are merely "interesting trivia" or "botanical observations." In reality.' }
+          ],
+            remediations: { 'ibn-battuta-s-descriptions-of': { steps: ['Re-read Source 6 and Source 7 in the NCERT text side-by-side with the "Education and entertainment" box (Source 3).', 'Identify every comparison Ibn Battuta makes (date-palm, human head, grape-vine, nutmeg).', 'Ask: "Would a 14th-century Moroccan reader know what a date-palm looks like?', 'Write one paragraph explaining how each analogy serves as a cognitive bridge.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_hist_cbse_05_008', difficulty: 'standard',
           question: 'The postal system (uluq and dawa) described by Ibn Battuta in the 14th century.',
           hint: 'If stuck, re-read **c6_history_ch07_023** section on "Communication and Intelligence".',
@@ -122,17 +133,6 @@ export const c12_hist_ch05_p2: SimDef = {
                   misconception: '**Misconception:** "The horse-post (uluq) was the primary/faster system because horses are faster than runners." **Reality:** Ibn Battuta.' },
                 { id: 'c', prompt: 'Compare the Sultanate\'s postal infrastructure (uluq/dawa) with the Mauryan *dhamma-mahamatta* and royal road system (Class 6, c6_history_ch05_010).', answer: '**Similarities:** (1) State-funded relay stations at fixed intervals',
                   options: ['**Similarities:** (1) State-funded relay stations at fixed intervals', 'both only for spies', '**Reality:** Ibn Battuta explicitly states: *'],
-                  hint: 'If stuck, re-read **c6_history_ch07_023** section on "Communication and Intelligence".',
-                  misconception: '**Misconception:** "The horse-post (uluq) was the primary/faster system because horses are faster than runners." **Reality:** Ibn Battuta.' }
-          ],
-            remediations: { 'misconception-the-horse-post-uluq': { steps: ['Re-read **NCERT Source 10** (p.129) line-by-line; underline *every operational detail* (distance, personnel, equipment.', 'Draw a **side-by-side comparison table**: uluq vs dawa — columns: interval, transport, speed, primary use, Ibn.', 'Revisit **c6_history_ch07_023** (Administration Under Delhi Sultanate) — locate *barid* and *dak chowki* precursors.', 'Re-attempt **Diagnostic Q2 & Q3** — if still wrong, watch the 6-min video "Ibn Battuta\'s Postal System" on *e-PG.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_hist_cbse_05_008', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: '**Misconception:** "The horse-post (uluq) was the primary/faster system because horses are faster than runners.".',
-          parts: [
-                { id: 'a', prompt: 'Construct a flowchart showing the complete dawa relay cycle from departure at Delhi\'s city gate to arrival at the next dawa station (1/3 mile away).', answer: '**Flowchart:** 1',
-                  options: ['**Flowchart:** 1', '**Reality:** Ibn Battuta explicitly states: *'],
                   hint: 'If stuck, re-read **c6_history_ch07_023** section on "Communication and Intelligence".',
                   misconception: '**Misconception:** "The horse-post (uluq) was the primary/faster system because horses are faster than runners." **Reality:** Ibn Battuta.' }
           ],

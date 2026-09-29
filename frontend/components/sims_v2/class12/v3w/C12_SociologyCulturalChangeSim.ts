@@ -6,13 +6,13 @@ import C12_SociologyCulturalChangeSim from '../../../simulations/c6_12/C12_Socio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_sociologyculturalchangesim: SimDef = {
     id: 'v3w_c12_sociologyculturalchangesim',
-    title: 'Cultural Change',
+    title: 'Modernisation as a Process of Cultural Change: Definition and Features',
     subtitle: 'This node covers the sociological definition and core features of modernisation as a.',
     classLevel: 12, subject: 'sociology', topic: 'Modernisation as a Process of Cultural Change: Definition and Features',
     chapters: [],
     nodeIds: ['c12_soc_cbse_09_001', 'c12_soc_cbse_09_003', 'c12_soc_cbse_09_008', 'c12_soc_cbse_09_010', 'c12_soc_cbse_09_011', 'c12_soc_cbse_10_010', 'c12_soc_cbse_02_004', 'c12_soc_cbse_09_002', 'c12_soc_cbse_03_004', 'c12_soc_cbse_03_007', 'c12_soc_cbse_03_008', 'c12_soc_cbse_03_009', 'c12_soc_cbse_04_009', 'c12_soc_cbse_09_004', 'c12_soc_cbse_09_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a young woman from a traditional weaving family in Varanasi who gets a B.Tech degree, works in a.', goal: 'Master Cultural Change.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a young woman from a traditional weaving family in Varanasi who gets a B.Tech degree, works in a.', goal: 'Master Modernisation as a Process of Cultural Change: Definition and Features.' },
     discovery: {
         question: 'Apply the concept of "achieved vs. ascribed identity" to analyse this situation: A Dalit student clears UPSC, becomes an IAS officer, but his marriage is still.',
         options: ['Partial modernisation', 'fully modernised', 'not modernised because arranged marriage'],
@@ -79,7 +79,7 @@ export const w_c12_sociologyculturalchangesim: SimDef = {
             { text: 'Sustain and institutionalise — demand a River Regulation Authority with community representation; if won, monitor.', faded: true, blankAnswer: 'The movement emerges through five stages: (1) grievance.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_soc_cbse_09_003', title: 'Identify each idea',
-          dissect: { specimen: 'Cultural Change', spots: [
+          dissect: { specimen: 'Modernisation as a Process of Cultural Change: Definition and Features', spots: [
             { id: 's1', label: 'Modernisation is a sociological process', prompt: 'Which idea is this? — Modernisation is a sociological process of cultural change where traditional, local, and.', answer: 'Modernisation is a sociological process', options: ['Modernisation is a sociological process', 'Critiques of Sanskritisation refer to', 'The Orientalist-Anglicist debate refers to', 'The role of the state'] },
             { id: 's2', label: 'Critiques of Sanskritisation refer to', prompt: 'Which idea is this? — Critiques of Sanskritisation refer to the sociological arguments that challenge M.N.', answer: 'Critiques of Sanskritisation refer to', options: ['Critiques of Sanskritisation refer to', 'Modernisation is a sociological process', 'The Orientalist-Anglicist debate refers to', 'The role of the state'] },
             { id: 's3', label: 'The Orientalist-Anglicist debate refers to', prompt: 'Which idea is this? — The Orientalist-Anglicist debate refers to the 19th-century colonial policy conflict over.', answer: 'The Orientalist-Anglicist debate refers to', options: ['The Orientalist-Anglicist debate refers to', 'Modernisation is a sociological process', 'Critiques of Sanskritisation refer to', 'The role of the state'] },
@@ -88,7 +88,7 @@ export const w_c12_sociologyculturalchangesim: SimDef = {
             { id: 's6', label: 'Civil society refers to the', prompt: 'Which idea is this? — Civil society refers to the sphere of voluntary associations, organisations, and.', answer: 'Civil society refers to the', options: ['Civil society refers to the', 'Modernisation is a sociological process', 'Critiques of Sanskritisation refer to', 'The Orientalist-Anglicist debate refers to'] }
           ] } }
     ],
-    explore: { component: C12_SociologyCulturalChangeSim, prompt: 'Explore the interactive — Cultural Change' },
+    explore: { component: C12_SociologyCulturalChangeSim, prompt: 'Explore the interactive — Modernisation as a Process of Cultural Change: Definition and Features' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_soc_cbse_09_001', difficulty: 'standard',
           question: 'Modernisation is a sociological process of cultural change where traditional,.',

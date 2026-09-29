@@ -6,13 +6,13 @@ import C12_AccountancyTreatmentProposedDividendSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_accountancytreatmentproposeddividendsim: SimDef = {
     id: 'v3w_c12_accountancytreatmentproposeddividendsim',
-    title: 'Treatment Proposed Dividend',
+    title: 'Cash Flow Statement: Meaning, Objectives and Scope (AS-3)',
     subtitle: 'This node covers the meaning, objectives, benefits, scope (AS-3 applicability),.',
     classLevel: 12, subject: 'accountancy', topic: 'Cash Flow Statement: Meaning, Objectives and Scope (AS-3)',
     chapters: [],
     nodeIds: ['c12_acc_cbse_09_001', 'c12_acc_cbse_09_002', 'c12_acc_cbse_09_003', 'c12_acc_cbse_09_005', 'c12_acc_cbse_09_006', 'c12_acc_cbse_09_007', 'c12_acc_cbse_09_008', 'c12_acc_cbse_09_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you run a small bakery. Your profit and loss statement shows a profit of ₹50,000, but your bank.', goal: 'Master Treatment Proposed Dividend.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you run a small bakery. Your profit and loss statement shows a profit of ₹50,000, but your bank.', goal: 'Master Cash Flow Statement: Meaning, Objectives and Scope (AS-3).' },
     discovery: {
         question: 'A company purchases machinery worth ₹10,00,000 by issuing equity shares of the same value. How is this transaction treated in the Cash Flow Statement?',
         options: ['This transaction is NOT shown in the Cash Flow Statement', 'Cash Flow Statement shows profit', 'Cash Flow Statement is just the cash book'],
@@ -78,7 +78,7 @@ export const w_c12_accountancytreatmentproposeddividendsim: SimDef = {
             { text: 'Verify that the change in each liability/capital account matches the cash flows and non-cash adjustments (e.g.,.', faded: true, blankAnswer: 'Cash Flows from Financing Activities' }
             ] } },
         { type: 'dissect', nodeId: 'c12_acc_cbse_09_002', title: 'Identify each idea',
-          dissect: { specimen: 'Treatment Proposed Dividend', spots: [
+          dissect: { specimen: 'Cash Flow Statement: Meaning, Objectives and Scope (AS-3)', spots: [
             { id: 's1', label: 'A Cash Flow Statement is', prompt: 'Which idea is this? — A Cash Flow Statement is a financial statement prepared as per Accounting Standard-3.', answer: 'A Cash Flow Statement is', options: ['A Cash Flow Statement is', 'As per Accounting Standard-3 AS-3', 'Classification of cash flows is', 'The indirect method of ascertaining'] },
             { id: 's2', label: 'As per Accounting Standard-3 AS-3', prompt: 'Which idea is this? — As per Accounting Standard-3 (AS-3), **Cash** comprises cash in hand and demand deposits.', answer: 'As per Accounting Standard-3 AS-3', options: ['As per Accounting Standard-3 AS-3', 'A Cash Flow Statement is', 'Classification of cash flows is', 'The indirect method of ascertaining'] },
             { id: 's3', label: 'Classification of cash flows is', prompt: 'Which idea is this? — Classification of cash flows is the process of categorizing all cash inflows and outflows.', answer: 'Classification of cash flows is', options: ['Classification of cash flows is', 'A Cash Flow Statement is', 'As per Accounting Standard-3 AS-3', 'The indirect method of ascertaining'] },
@@ -87,7 +87,7 @@ export const w_c12_accountancytreatmentproposeddividendsim: SimDef = {
             { id: 's6', label: 'Cash flows from financing activities', prompt: 'Which idea is this? — Cash flows from financing activities are the cash inflows and outflows that result in.', answer: 'Cash flows from financing activities', options: ['Cash flows from financing activities', 'A Cash Flow Statement is', 'As per Accounting Standard-3 AS-3', 'Classification of cash flows is'] }
           ] } }
     ],
-    explore: { component: C12_AccountancyTreatmentProposedDividendSim, prompt: 'Explore the interactive — Treatment Proposed Dividend' },
+    explore: { component: C12_AccountancyTreatmentProposedDividendSim, prompt: 'Explore the interactive — Cash Flow Statement: Meaning, Objectives and Scope (AS-3)' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_acc_cbse_09_001', difficulty: 'standard',
           question: 'A Cash Flow Statement is a financial statement prepared as per Accounting.',

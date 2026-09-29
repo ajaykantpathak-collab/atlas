@@ -19,7 +19,7 @@ export const c11_eng_h_ch07_p3: SimDef = {
         hook: 'Not time travel but a sidestep — many-worlds says another \'now\' exists where Panipat went the other way.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literature involves systematically analyzing a text\'s explicit and implicit meanings, evaluating the author\'s narrative choices, and interpreting how literary elements (plot.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Laburnum Top\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_07_013', title: 'Your mission',
@@ -29,14 +29,14 @@ export const c11_eng_h_ch07_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_07_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you have just finished reading "The Adventure" and your teacher asks you to write an essay on the theme of alternative history.',
+          caseStudy: { intro: 'For written answers on \'The Laburnum Top\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'List the six writing formats taught in the NCERT writing skills section for this chapter.', options: [
                 { text: 'The six formats are: note-making, summarising, sub-titling, essay-writing,', outcome: 'The six formats are: note-making, summarising, sub-titling, essay-writing, letter-writing, and.' },
                 { text: 'diary entry', outcome: 'Not quite — Students often think writing based on a chapter means simply retelling the story.', reveals: 'writing-based-on-a-chapter' },
                 { text: 'report writing', outcome: 'Not quite — Students often think writing based on a chapter means simply retelling the story.', reveals: 'writing-based-on-a-chapter' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_07_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are sitting in a circle with classmates for an assessed group discussion on "The Adventure".',
+          caseStudy: { intro: 'Talk through \'The Laburnum Top\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of a speaking and listening discussion point assessment based on a literary text like "The Adventure"?', options: [
                 { text: 'The primary purpose is to evaluate', outcome: 'The primary purpose is to evaluate a student\'s ability to articulate text-based interpretations.' },
                 { text: 'to share personal opinions about the story', outcome: 'Not quite — Students believe a "discussion point" is just an opinion or a plot summary.', reveals: 'a-discussion-point-is-just' },
@@ -61,7 +61,7 @@ export const c11_eng_h_ch07_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_013', difficulty: 'standard',
-          question: 'Critical thinking in literature involves systematically analyzing a text\'s.',
+          question: 'Critical thinking on \'The Laburnum Top\' — analysing the text to reach.',
           hint: 'If stuck, return to c11_eng_h_cbse_07_002 (Plot) and create a two-column timeline.',
           misconception: 'Students often treat the quantum physics references (catastrophe theory, many-worlds interpretation) as *metaphors* for.',
           parts: [
@@ -72,7 +72,7 @@ export const c11_eng_h_ch07_p3: SimDef = {
           ],
             remediations: { 'students-often-treat-the-quantum': { steps: ['Have the student reread the Rajendra Deshpande explanation scene (paragraphs starting "You have passed through.', '*psychological* verbs ("imagined," "dreamed," "hallucinated").', 'Ask: "If this were a dream, why does the torn page exist in the final paragraph?" 3.', 'Assign a micro-task: Rewrite the last three paragraphs *as if* the physics were metaphorical (Gaitonde wakes up,.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter "The Adventure" refers to the ability.',
+          question: 'Writing skills from \'The Laburnum Top\' — using the text as a model.',
           hint: 'Review the note-making steps in the NCERT textbook (pages 70-76) and the PEEL structure.',
           misconception: 'Students often think writing based on a chapter means simply retelling the story.',
           parts: [
@@ -87,7 +87,7 @@ export const c11_eng_h_ch07_p3: SimDef = {
           ],
             remediations: { 'writing-based-on-a-chapter': { steps: ['If a student retells instead of analyzing, have them: 1) Identify the format\'s purpose (e.g., essay = argue a thesis).', '2) Highlight textual evidence that supports a claim, not just plot points.', '3) Practice converting a plot point into an analytical point using PEEL (Point, Evidence, Explanation, Link).', '4) Rewrite a paragraph focusing on \'why\' and \'how\' rather than \'what happened\'.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_07_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points for "The Adventure" refers to the.',
+          question: 'Discussion points on \'The Laburnum Top\' — speaking and listening around the.',
           hint: 'If stuck, review c11_eng_h_cbse_07_013 (Critical Thinking) for how to evaluate the two.',
           misconception: 'Students believe a "discussion point" is just an opinion or a plot summary.',
           parts: [

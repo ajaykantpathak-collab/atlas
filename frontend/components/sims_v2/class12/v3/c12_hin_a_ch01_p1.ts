@@ -19,7 +19,7 @@ export const c12_hin_a_ch01_p1: SimDef = {
         hook: '\'Before You Read\' isn\'t optional décor — without it, Tulsidas\'s Rama reads as just mythology instead of a personal god open to every caste. Three questions unlock any poem: whose life, which movement, what tongue.',
     },
     teaching: [
-        { title: 'देवसेना का गीत, कार्नेलयिा का गीत — कवि परिचय और पृष्ठभूमि', text: 'कवि परिचय और पृष्ठभूमि का अर्थ है — रचनाकार (कवि) का संक्षिप्त जीवन-परिचय, उनकी साहित्यिक यात्रा, प्रमुख रचनाएँ, रचनाधर्मिता की विशेषताएँ, तथा उस विशिष्ट ऐतिहासिक-सांस्कृतिक पृष्ठभूमि का विवेचन जिससे.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'देवसेना का गीत, कार्नेलयिा का गीत — कवि परिचय और पृष्ठभूमि', text: 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = गोस्वामी तुलसीदास का जीवन-वृत्त (जन्म लगभग 1532, राजापुर/चित्रकूट-क्षेत्र से जुड़ी परंपरा, मृत्यु लगभग 1623 काशी), उनकी रामभक्ति-शाखा (राम को परम ब्रह्म मानने.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_01_001', title: 'Your mission',
@@ -28,8 +28,12 @@ export const c12_hin_a_ch01_p1: SimDef = {
         context: 'Build the lens before the poem: reconstruct Tulsidas\'s Bhakti world — Mughal era, Awadhi, devotion for all — and test how context changes what a single word can mean.',
         labels: ['देवसेना का गीत, कार्नेलयिा'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'build', nodeId: 'c12_hin_a_cbse_01_004', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['अनुभाव (बाह्य अभिव्यक्ति) पहचानें — \'तलवार चलाना\', \'खड़ा.', 'विभाव (आलम्बन/उद्दीपन) ढूँढें — आलम्बन: **वीर श्रोता/पाठक**.', 'स्थायी भाव पहचानें — यहाँ **उत्साह** (वीर रस का स्थायी भाव).', 'संचारी भाव पहचानें — \'संकल्प\' (धृति), \'नया इतिहास लिखने\' की.', 'रस-निष्पत्ति का निष्कर्ष — विभाव+अनुभाव+संचारी के संयोग से.'], answer: 'स्थायी भाव पहचानें — यहाँ **उत्साह** (वीर रस का स्थायी भाव). विभाव (आलम्बन/उद्दीपन) ढूँढें — आलम्बन: **वीर श्रोता/पाठक**. अनुभाव (बाह्य अभिव्यक्ति) पहचानें — \'तलवार चलाना\', \'खड़ा. संचारी भाव पहचानें — \'संकल्प\' (धृति), \'नया इतिहास लिखने\' की. रस-निष्पत्ति का निष्कर्ष — विभाव+अनुभाव+संचारी के संयोग से.' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_01_001', title: 'देवसेना का गीत, कार्नेलयिा का गीत — कवि परिचय और पृष्ठभूमि',
+          caseStudy: { intro: 'कवि-परिचय से तुलसीदास की समय-रेखा बनाइए: जन्म (लगभग 1532), बचपन का वियोग व गुरु-दीक्षा, राम-उपासना की दीक्षा, \'रामचरितमानस\' की रचना, \'विनय पत्रिका\' की.',
+            decisions: [{ prompt: 'What is the primary purpose of the "Before You Read" section in a literature textbook?', options: [
+                { text: 'The primary purpose is to provide the reader with essential background information about', outcome: 'The primary purpose is to provide the reader with essential background information about the.' },
+                { text: 'to summarize the story', outcome: 'Not quite — Students often treat "Before You Read" as a passive reading of the author\'s birth/death dates and.', reveals: 'students-often-treat-before-you' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_01_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Your batch wants a song for the annual day honouring the school\'s retiring matron. The lyricist drafts a literal timeline — joined in this year, served in that year — and it reads like a résumé set to music.',
             decisions: [{ prompt: 'How does Nirala\'s structuring of \'देवसेना का गीत\' and \'कानेसरिया का गीत\' suggest fixing it?', options: [
@@ -49,67 +53,67 @@ export const c12_hin_a_ch01_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_001', difficulty: 'standard',
-          question: 'कवि परिचय और पृष्ठभूमि का अर्थ है — रचनाकार (कवि) का संक्षिप्त जीवन-परिचय, उनकी.',
-          hint: 'अगर अटके तो c11_hin_a_cbse_13_001 और c11_hin_a_cbse_15_001 के \'कवि परिचय\' खंड दोहराएँ.',
-          misconception: 'छात्र समझते हैं कि \'कवि परिचय\' का अर्थ केवल जन्म-मृत्यु तिथि, प्रसिद्ध रचनाओं की सूची और साहित्यिक धारा.',
+          question: 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = गोस्वामी तुलसीदास का जीवन-वृत्त (जन्म.',
+          hint: 'If stuck, review the "Before You Read" section of any Class 11 Aroh chapter (e.g.',
+          misconception: 'Students often treat "Before You Read" as a passive reading of the author\'s birth/death dates and a list of works.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कवि परिचय और पृष्ठभूमि का अर्थ है',
-                  options: ['कवि परिचय और पृष्ठभूमि का अर्थ है', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित', 'केंद्रीय भाव (Central Idea) कविता का वह मूल संदेश या सार है जिसे कवि संप्रेषित करना चाहता'],
-                  hint: 'अगर अटके तो c11_hin_a_cbse_13_001 और c11_hin_a_cbse_15_001 के \'कवि परिचय\' खंड दोहराएँ — वहाँ.',
-                  misconception: 'छात्र समझते हैं कि \'कवि परिचय\' का अर्थ केवल जन्म-मृत्यु तिथि, प्रसिद्ध रचनाओं की सूची और साहित्यिक धारा (छायावाद/द्विवेदी युग) लिख देना है।.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = गोस्वामी तुलसीदास का जीवन-वृत्त (जन्म लगभग 1532,',
+                  options: ['इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = गोस्वामी तुलसीदास का जीवन-वृत्त (जन्म लगभग 1532,', '\'नसोल्सुक का छर\' का कथानक', '\'नसोल्सुक का छर\' का पाठ्य-परिवेश (setting)', '\'नसोल्सुक का छर\' का पात्र-चित्रण'],
+                  hint: 'If stuck, review the "Before You Read" section of any Class 11 Aroh chapter (e.g.',
+                  misconception: 'Students often treat "Before You Read" as a passive reading of the author\'s birth/death dates and a list of works, memorizing them for.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: दोनों कवियों की समय-रेखा (timeline) बनाइए — प्रमुख जीवन-घटनाएँ एक कॉलम में, प्रमुख रचनाएँ दूसरे में, ऐतिहासिक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-before-you': { steps: ['If a student cannot connect context to text, guide them through a three-step exercise: (1) Pick one fact from the.', '(2) Find one line in the poem that shows Sanskrit influence (e.g., a tatsama word or complex compound).', '(3) Write one sentence explaining the link.', 'Repeat with two more facts.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_002', difficulty: 'standard',
-          question: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ.',
+          question: '\'नसोल्सुक का छर\' का कथानक — \'नसोल्सुक का छर\' — अंतरा भाग-2 का पाठ। पाठ का.',
           hint: 'यदि अटके तो **कक्षा 11 के नोड c11_hin_a_cbse_13_002 (जाग तुझको दूर जाना — पद्यांश-वार.',
           misconception: '**विशिष्ट भ्रम:** छात्र "पद्यांश-वार भावार्थ" को **"पूरी कविता का सारांश"** समझते हैं और परीक्षा में 5-6 पद्यांशों को.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट',
-                  options: ['पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'कवि परिचय और पृष्ठभूमि का अर्थ है', 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित', 'केंद्रीय भाव (Central Idea) कविता का वह मूल संदेश या सार है जिसे कवि संप्रेषित करना चाहता'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'नसोल्सुक का छर\' का कथानक',
+                  options: ['\'नसोल्सुक का छर\' का कथानक', 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = गोस्वामी तुलसीदास का जीवन-वृत्त (जन्म लगभग 1532,', '\'नसोल्सुक का छर\' का पाठ्य-परिवेश (setting)', '\'नसोल्सुक का छर\' का पात्र-चित्रण'],
                   hint: 'यदि अटके तो **कक्षा 11 के नोड c11_hin_a_cbse_13_002 (जाग तुझको दूर जाना — पद्यांश-वार भावार्थ)** पर.',
                   misconception: '**विशिष्ट भ्रम:** छात्र "पद्यांश-वार भावार्थ" को **"पूरी कविता का सारांश"** समझते हैं और परीक्षा में 5-6 पद्यांशों को मिलाकर एक लंबा पैरा.' }
           ],
             remediations: { '5-6-cbse-2-4': { steps: ['**चरण 1:** छात्र को एक **एकल पद्यांश** (दोनों गीतों में से कोई एक) दें और कहें: "केवल इस पद्यांश के 3 वाक्यों में.', '**चरण 2:** उसके उत्तर में **कठिन शब्द, बिंब, अलंकार, केंद्रीय भाव से संबंध** — इन 4 तत्वों को अलग-अलग रंग से रेखांकित.', '**चरण 3:** यदि कोई तत्व छूटा हो, तो उसी पद्यांश पर दोबारा लिखने को कहें — इस बार **चेकलिस्ट** साथ रखकर। 4.', '**पुनः निदान:** अगले सप्ताह वही पद्यांश देकर समय-सीमा (5 मिनट) में लिखवाएँ — यदि 4/4 तत्व आए, तो अगले पद्यांश पर बढ़ें।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_003', difficulty: 'standard',
-          question: 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को.',
+          question: '\'नसोल्सुक का छर\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में.',
           hint: 'यदि stanza पहचान में कठिनाई हो, तो c12_hin_a_cbse_01_002 (पद्यांश-वार भावार्थ) की दोबारा.',
           misconception: 'छात्र अक्सर मानते हैं कि यदि दो कविताओं में同じ छंद है, तो उनका पद्य-विन्यास完全的に同じ है, जैसे देवसेना का गीत और कार्नेलयिा.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित',
-                  options: ['काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित', 'कवि परिचय और पृष्ठभूमि का अर्थ है', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'केंद्रीय भाव (Central Idea) कविता का वह मूल संदेश या सार है जिसे कवि संप्रेषित करना चाहता'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'नसोल्सुक का छर\' का पाठ्य-परिवेश (setting)',
+                  options: ['\'नसोल्सुक का छर\' का पाठ्य-परिवेश (setting)', 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = गोस्वामी तुलसीदास का जीवन-वृत्त (जन्म लगभग 1532,', '\'नसोल्सुक का छर\' का कथानक', '\'नसोल्सुक का छर\' का पात्र-चित्रण'],
                   hint: 'यदि stanza पहचान में कठिनाई हो, तो c12_hin_a_cbse_01_002 (पद्यांश-वार भावार्थ) की दोबारा समीक्षा.',
                   misconception: 'छात्र अक्सर मानते हैं कि यदि दो कविताओं में同じ छंद है, तो उनका पद्य-विन्यास完全的に同じ है, जैसे देवसेना का गीत और कार्नेलयिा का गीत में साम्यिका.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को दोनों गीतों की एक पंक्तियों में लय चिह्नित करने के लिए कहिए (उदाहरण: तालियों से beats गिनिए)। फिर stanza-wise.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_004', difficulty: 'standard',
-          question: 'केंद्रीय भाव (Central Idea) कविता का वह मूल संदेश या सार है जिसे कवि संप्रेषित.',
+          question: '\'नसोल्सुक का छर\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
           hint: 'If stuck, revisit Class 11 node c11_hin_a_cbse_13_004 (जाग तुझको दूर जाना — केंद्रीय भाव.',
           misconception: '**विशिष्ट भ्रम:** छात्र अक्सर समझते हैं कि "केंद्रीय भाव" और "प्रधान रस" एक ही चीज़ के दो नाम हैं — जैसे "देवसेना का.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'केंद्रीय भाव (Central Idea) कविता का वह मूल संदेश या सार है जिसे कवि संप्रेषित करना चाहता',
-                  options: ['केंद्रीय भाव (Central Idea) कविता का वह मूल संदेश या सार है जिसे कवि संप्रेषित करना चाहता', 'कवि परिचय और पृष्ठभूमि का अर्थ है', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'नसोल्सुक का छर\' का पात्र-चित्रण',
+                  options: ['\'नसोल्सुक का छर\' का पात्र-चित्रण', 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = गोस्वामी तुलसीदास का जीवन-वृत्त (जन्म लगभग 1532,', '\'नसोल्सुक का छर\' का कथानक', '\'नसोल्सुक का छर\' का पाठ्य-परिवेश (setting)'],
                   hint: 'If stuck, revisit Class 11 node c11_hin_a_cbse_13_004 (जाग तुझको दूर जाना — केंद्रीय भाव और रस) and.',
                   misconception: '**विशिष्ट भ्रम:** छात्र अक्सर समझते हैं कि "केंद्रीय भाव" और "प्रधान रस" एक ही चीज़ के दो नाम हैं — जैसे "देवसेना का गीत = वीर रस" और.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को दोनों कविताएँ **मौन वाचन** कराएँ, फिर **स्वर वाचन** — ध्वनि और लय पर ध्यान दें। 2.', 'पूछें: "कौन-सी पंक्ति पढ़कर तुम्हारी भुजाएँ फड़कीं?', '(वीर रस) कौन-सी पंक्ति पढ़कर आँखें नम हुईं?', '(करुण रस)" — इससे रस की **अनुभूति** पकड़ में आएगी। 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_005', difficulty: 'standard',
-          question: 'छंद काव्य की वह निश्चित संरचना है जिसमें पदों के वर्णों या मात्राओं का क्रमबद्ध.',
+          question: '\'नसोल्सुक का छर\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे.',
           hint: 'यदि अटके तो Class 11 के छंद नोड्स (c11_hin_a_cbse_13_005 आदि) के \'मात्रा-गणना अभ्यास\'.',
           misconception: 'छात्र समझते हैं कि \'छंद पहचानना\' केवल पदों के नाम याद रखना है (जैसे \'यह दोहा है\', \'यह चौपाई है\')। वास्तव में.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'छंद काव्य की वह निश्चित संरचना है जिसमें पदों के वर्णों या मात्राओं का क्रमबद्ध विधान',
-                  options: ['छंद काव्य की वह निश्चित संरचना है जिसमें पदों के वर्णों या मात्राओं का क्रमबद्ध विधान', 'कवि परिचय और पृष्ठभूमि का अर्थ है', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'नसोल्सुक का छर\' के सहायक पात्र',
+                  options: ['\'नसोल्सुक का छर\' के सहायक पात्र', 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = गोस्वामी तुलसीदास का जीवन-वृत्त (जन्म लगभग 1532,', '\'नसोल्सुक का छर\' का कथानक', '\'नसोल्सुक का छर\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके तो Class 11 के छंद नोड्स (c11_hin_a_cbse_13_005 आदि) के \'मात्रा-गणना अभ्यास\' दोहराएँ.',
                   misconception: 'छात्र समझते हैं कि \'छंद पहचानना\' केवल पदों के नाम याद रखना है (जैसे \'यह दोहा है\', \'यह चौपाई है\')। वास्तव में बोर्ड/कुशलता परीक्षा में पूछा.' }
           ],
             remediations: { 'wrong-idea': { steps: ['चरण 1: Class 11 के छंद नोड (c11_hin_a_cbse_13_005, c11_hin_a_cbse_14_005, c11_hin_a_cbse_15_005, c11_hin_a_cbse_16_005).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_01_006', difficulty: 'standard',
-          question: 'अलंकार (Figure of Speech) काव्य-भाषा की वह विशेष रचनात्मक युक्ति है जिसमें.',
+          question: '\'नसोल्सुक का छर\' का मुख्य विषय — \'नसोल्सुक का छर\' का केंद्रीय भाव और संदेश',
           hint: 'यदि अलंकार पहचानने में अटकें: **c11_hin_a_cbse_13_006** (जाग तुझको दूर जाना — अलंकार).',
           misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **अलंकार पहचानना = नाम बता देना** (यह अनुप्रास है, यह रूपक है)। वे **उद्धरण.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार (Figure of Speech) काव्य-भाषा की वह विशेष रचनात्मक युक्ति है जिसमें शब्दों के',
-                  options: ['अलंकार (Figure of Speech) काव्य-भाषा की वह विशेष रचनात्मक युक्ति है जिसमें शब्दों के', 'कवि परिचय और पृष्ठभूमि का अर्थ है', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद/पद्यांश का **स्वतंत्र अर्थ स्पष्ट', 'काव्य-संरचना पद्य के रूप, stanza वितरण, पंक्तियों की संख्या और उनके संबंध को संदर्भित'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'नसोल्सुक का छर\' का मुख्य विषय',
+                  options: ['\'नसोल्सुक का छर\' का मुख्य विषय', 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = गोस्वामी तुलसीदास का जीवन-वृत्त (जन्म लगभग 1532,', '\'नसोल्सुक का छर\' का कथानक', '\'नसोल्सुक का छर\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अलंकार पहचानने में अटकें: **c11_hin_a_cbse_13_006** (जाग तुझको दूर जाना — अलंकार) दोबारा करें.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि **अलंकार पहचानना = नाम बता देना** (यह अनुप्रास है, यह रूपक है)। वे **उद्धरण नहीं देते**.' }
           ],

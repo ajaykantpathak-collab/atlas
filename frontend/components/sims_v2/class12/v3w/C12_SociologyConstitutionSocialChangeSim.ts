@@ -6,13 +6,13 @@ import C12_SociologyConstitutionSocialChangeSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_sociologyconstitutionsocialchangesim: SimDef = {
     id: 'v3w_c12_sociologyconstitutionsocialchangesim',
-    title: 'Constitution Social Change',
+    title: 'Caste in Contemporary India: Continuity and Change in Ritual and Secular Dimensions',
     subtitle: 'Covers continuity (endogamy, domestic rituals, caste-based social networks) and change.',
     classLevel: 12, subject: 'sociology', topic: 'Caste in Contemporary India: Continuity and Change in Ritual and Secular Dimensions',
     chapters: [],
     nodeIds: ['c12_soc_cbse_03_004', 'c12_soc_cbse_09_010', 'c12_soc_cbse_03_007', 'c12_soc_cbse_03_008', 'c12_soc_cbse_09_001', 'c12_soc_cbse_09_003', 'c12_soc_cbse_09_008', 'c12_soc_cbse_09_011', 'c12_soc_cbse_10_010', 'c12_soc_cbse_03_003', 'c12_soc_cbse_09_006', 'c12_soc_cbse_09_007', 'c12_soc_cbse_10_003', 'c12_soc_cbse_10_004', 'c12_soc_cbse_10_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a 22-year-old engineering graduate from a traditional Brahmin family in Bengaluru who eats in the.', goal: 'Master Constitution Social Change.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a 22-year-old engineering graduate from a traditional Brahmin family in Bengaluru who eats in the.', goal: 'Master Caste in Contemporary India: Continuity and Change in Ritual and Secular Dimensions.' },
     discovery: {
         question: 'Compare the long-term consequences of Sanskritisation vs. Christianisation on tribal kinship and gender relations.',
         options: ['Sanskritisation typically *strengthens patriarchal control* and *reinforces', 'both modernise the tribe', '**Sanskritisation = Hinduisation = becoming Hindu**'],
@@ -80,7 +80,7 @@ export const w_c12_sociologyconstitutionsocialchangesim: SimDef = {
             { text: 'Synthesize — the case illustrates all five critiques simultaneously: mobility without equality, internalised.', faded: true, blankAnswer: 'The Rathore case demonstrates: (1) Positional change.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_soc_cbse_09_010', title: 'Identify each idea',
-          dissect: { specimen: 'Constitution Social Change', spots: [
+          dissect: { specimen: 'Caste in Contemporary India: Continuity and Change in Ritual and Secular Dimensions', spots: [
             { id: 's1', label: 'Caste in contemporary India refers', prompt: 'Which idea is this? — Caste in contemporary India refers to the persistence of the traditional varna-jati.', answer: 'Caste in contemporary India refers', options: ['Caste in contemporary India refers', 'The role of the state', 'Tribal integration refers to the', 'The family in India is'] },
             { id: 's2', label: 'The role of the state', prompt: 'Which idea is this? — The role of the state in cultural change refers to the deliberate use of state power —.', answer: 'The role of the state', options: ['The role of the state', 'Caste in contemporary India refers', 'Tribal integration refers to the', 'The family in India is'] },
             { id: 's3', label: 'Tribal integration refers to the', prompt: 'Which idea is this? — Tribal integration refers to the historical and ongoing processes through which tribal.', answer: 'Tribal integration refers to the', options: ['Tribal integration refers to the', 'Caste in contemporary India refers', 'The role of the state', 'The family in India is'] },
@@ -89,7 +89,7 @@ export const w_c12_sociologyconstitutionsocialchangesim: SimDef = {
             { id: 's6', label: 'Critiques of Sanskritisation refer to', prompt: 'Which idea is this? — Critiques of Sanskritisation refer to the sociological arguments that challenge M.N.', answer: 'Critiques of Sanskritisation refer to', options: ['Critiques of Sanskritisation refer to', 'Caste in contemporary India refers', 'The role of the state', 'Tribal integration refers to the'] }
           ] } }
     ],
-    explore: { component: C12_SociologyConstitutionSocialChangeSim, prompt: 'Explore the interactive — Constitution Social Change' },
+    explore: { component: C12_SociologyConstitutionSocialChangeSim, prompt: 'Explore the interactive — Caste in Contemporary India: Continuity and Change in Ritual and Secular Dimensions' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_soc_cbse_03_004', difficulty: 'standard',
           question: 'Caste in contemporary India refers to the persistence of the traditional.',

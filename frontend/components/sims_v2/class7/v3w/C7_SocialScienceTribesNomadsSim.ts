@@ -6,13 +6,13 @@ import C7_SocialScienceTribesNomadsSim from '../../../simulations/c6_12/C7_Socia
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_socialsciencetribesnomadssim: SimDef = {
     id: 'v3w_c7_socialsciencetribesnomadssim',
-    title: 'Social Science Tribes Nomads',
+    title: 'Janapadas: Early Kingdoms and Their Formation',
     subtitle: 'Covers the socio-political transition, land settlement patterns, and early political.',
     classLevel: 7, subject: 'science', topic: 'Janapadas: Early Kingdoms and Their Formation',
     chapters: [],
     nodeIds: ['c7_hist_ch01_002', 'c7_hist_ch01_003', 'c7_hist_ch01_004', 'c7_hist_ch01_005', 'c7_hist_ch01_010', 'c7_hist_ch02_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine visiting an old village where generations of your family have farmed the exact same plots of land,.', goal: 'Master Social Science Tribes Nomads.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine visiting an old village where generations of your family have farmed the exact same plots of land,.', goal: 'Master Janapadas: Early Kingdoms and Their Formation.' },
     discovery: {
         question: 'What major geographical feature defined the region where the most powerful Mahajanapadas, such as Magadha and Kosala, grew during the first millennium BCE?',
         options: ['The fertile middle basin of the Ganga river system (Gangetic plains)', 'the Thar desert', 'the Deccan plateau'],
@@ -75,7 +75,7 @@ export const w_c7_socialsciencetribesnomadssim: SimDef = {
             { text: 'Trace the cause-effect chain from increased food production and military strength to the ability to conquer and tax.', faded: true, blankAnswer: 'Iron ore enabled the clearing of tough forested land for.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_hist_ch01_003', title: 'Identify each idea',
-          dissect: { specimen: 'Social Science Tribes Nomads', spots: [
+          dissect: { specimen: 'Janapadas: Early Kingdoms and Their Formation', spots: [
             { id: 's1', label: 'Janapadas were early territorial states', prompt: 'Which idea is this? — Janapadas were early territorial states that emerged in the Indian subcontinent around.', answer: 'Janapadas were early territorial states', options: ['Janapadas were early territorial states', 'The Mahajanapadas were sixteen large', 'The geographical environment of the', 'The governance systems of the'] },
             { id: 's2', label: 'The Mahajanapadas were sixteen large', prompt: 'Which idea is this? — The Mahajanapadas were sixteen large, powerful territorial states that emerged in ancient.', answer: 'The Mahajanapadas were sixteen large', options: ['The Mahajanapadas were sixteen large', 'Janapadas were early territorial states', 'The geographical environment of the', 'The governance systems of the'] },
             { id: 's3', label: 'The geographical environment of the', prompt: 'Which idea is this? — The geographical environment of the Gangetic plains, characterised by fertile alluvial.', answer: 'The geographical environment of the', options: ['The geographical environment of the', 'Janapadas were early territorial states', 'The Mahajanapadas were sixteen large', 'The governance systems of the'] },
@@ -84,7 +84,7 @@ export const w_c7_socialsciencetribesnomadssim: SimDef = {
             { id: 's6', label: 'The transition from kingdoms janapadas', prompt: 'Which idea is this? — The transition from kingdoms (*janapadas* and *mahajanapadas*) to empires in ancient.', answer: 'The transition from kingdoms janapadas', options: ['The transition from kingdoms janapadas', 'Janapadas were early territorial states', 'The Mahajanapadas were sixteen large', 'The geographical environment of the'] }
           ] } }
     ],
-    explore: { component: C7_SocialScienceTribesNomadsSim, prompt: 'Explore the interactive — Social Science Tribes Nomads' },
+    explore: { component: C7_SocialScienceTribesNomadsSim, prompt: 'Explore the interactive — Janapadas: Early Kingdoms and Their Formation' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_hist_ch01_002', difficulty: 'standard',
           question: 'Janapadas were early territorial states that emerged in the Indian subcontinent.',

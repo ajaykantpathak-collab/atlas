@@ -78,7 +78,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Historical Evolution Of Home Science In",
+    "title": "Historical Evolution of Home Science:",
     "text": "The historical evolution of Home Science in India refers to the process beginning in the early 20th century where distinct disciplines like Foods and Nutrition, Clothing and Textiles, and Extension Education were unified under the banner of \"Home Science\" in",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1837,7 +1837,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Fibre Properties For Spinnability Refer To",
+    "title": "Fibre Properties For Spinnability",
     "text": "Fibre properties for spinnability refer to the intrinsic characteristics—specifically fibre length, tensile strength, flexibility, and surface friction/cohesion—that enable fibres to be mechanically twisted into a continuous, cohesive yarn.",
     "emoji": "🏠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1891,7 +1891,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Specialised Fabric Constructions Refer To",
+    "title": "Specialised Fabric Construction: Braiding,",
     "text": "Specialised fabric constructions refer to non-woven, non-knitted textile structures created by interlacing, interlooping, or knotting yarns in specific geometric patterns.",
     "emoji": "🏠",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2693,15 +2693,13 @@ export const C11_HS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_hs_ch06",
-  "title": "Levels Of Communication Refer To The",
+  "title": "Levels Of Communication",
   "subtitle": "Home Science · Chapter 6",
   "classLevel": 11,
   "mode": "senior",
   "subject": "home science",
-  "topic": "Levels Of Communication Refer To The",
-  "chapters": [
-   "Home Science Ch6: Levels Of Communication Refer To The"
-  ],
+  "topic": "Levels Of Communication",
+  "chapters": ["Home Science Ch6: Levels Of Communication"],
   "nodeIds": [
    "c11_hs_cbse_06_003",
    "c11_hs_cbse_06_011",
@@ -2714,7 +2712,7 @@ export const C11_HS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Levels Of Communication Refer To in real working life?",
+   "question": "Who uses Levels Of Communication in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -2725,7 +2723,7 @@ export const C11_HS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Levels Of Communication Refer To The",
+    "title": "Levels Of Communication",
     "text": "Levels of communication refer to the categorization of communication based on the number of participants and the direction of message flow, specifically: intra-personal (within oneself, involving self-talk, reflection, and internal processing), inter-personal",
     "emoji": "🏠",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2890,7 +2888,7 @@ export const C11_HS_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Levels Of Communication Refer mastered! 🎯",
+  "successLine": "Levels Of Communication mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
@@ -3679,7 +3677,7 @@ export const C11_HS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Growth And Developmental Milestones In",
+    "title": "Growth and Developmental Milestones",
     "text": "Growth and developmental milestones in infancy (0-12 months) refer to the sequential, age-specific achievements in physical dimensions (weight, length, head/chest circumference) and functional capacities (feeding skills, motor control, immune maturation) that",
     "emoji": "🏠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4335,7 +4333,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Clothing Requirements For Infancy (birth To",
+    "title": "Clothing Requirements For Infancy",
     "text": "Clothing requirements for infancy (birth to six months) refer to the specific garment types, fabric properties, design features, and safety considerations essential for newborns whose primary activities are feeding, sleeping, and eliminating, with emphasis on",
     "emoji": "🏠",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -6084,7 +6082,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Common Stain Removal Methods Refer To",
+    "title": "Common Stain Removal Methods",
     "text": "Common stain removal methods refer to the systematic, reagent-specific procedures for eliminating identified foreign matter from cotton fabric using techniques (scraping, dipping, sponging, drop method) matched to stain chemistry (vegetable, animal, oil,",
     "emoji": "🏠",
     "bgColor": "from-amber-400 to-orange-500"
@@ -6102,7 +6100,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Methods Of Washing Fabrics Refer To",
+    "title": "Methods Of Washing Fabrics",
     "text": "Methods of washing fabrics refer to the mechanical techniques (friction, kneading/squeezing, suction, machine agitation) selected based on fibre type, fabric construction, and soil level to dislodge dirt and hold it in suspension.",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"

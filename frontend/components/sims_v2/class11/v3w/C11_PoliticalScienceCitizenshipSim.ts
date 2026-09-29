@@ -6,13 +6,13 @@ import C11_PoliticalScienceCitizenshipSim from '../../../simulations/c6_12/C11_P
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_politicalsciencecitizenshipsim: SimDef = {
     id: 'v3w_c11_politicalsciencecitizenshipsim',
-    title: 'Citizenship',
+    title: 'What is citizenship: Full and equal membership of a political community',
     subtitle: 'This node covers the core definition of citizenship as \'full and equal membership\', the.',
     classLevel: 11, subject: 'political_science', topic: 'What is citizenship: Full and equal membership of a political community',
     chapters: [],
     nodeIds: ['c11_ps_cbse_06_001', 'c11_ps_cbse_06_002', 'c11_ps_cbse_06_003', 'c11_ps_cbse_06_004', 'c11_ps_cbse_06_005', 'c11_ps_cbse_06_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a student from Bihar moving to Mumbai for an IT job but facing demands for \'local preference\' in.', goal: 'Master Citizenship.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a student from Bihar moving to Mumbai for an IT job but facing demands for \'local preference\' in.', goal: 'Master What is citizenship: Full and equal membership of a political community.' },
     discovery: {
         question: 'According to the NCERT Class 11 Political Theory textbook, how is citizenship defined in the opening section of Chapter 6?',
         options: ['Citizenship is defined as "full and equal membership of a political community."', 'full and equal membership of a political community', 'citizenship is the right to vote'],
@@ -72,7 +72,7 @@ export const w_c11_politicalsciencecitizenshipsim: SimDef = {
             { text: 'Note alternative – Ravi may later apply for citizenship by registration (Section 5) or naturalisation (Section 6) if.', faded: true, blankAnswer: 'Ravi is not an Indian citizen by birth because his mother.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_ps_cbse_06_002', title: 'Identify each idea',
-          dissect: { specimen: 'Citizenship', spots: [
+          dissect: { specimen: 'What is citizenship: Full and equal membership of a political community', spots: [
             { id: 's1', label: 'Citizenship is the status of', prompt: 'Which idea is this? — Citizenship is the status of full and equal membership in a political community (the.', answer: 'Citizenship is the status of', options: ['Citizenship is the status of', 'Citizenship as legal status refers', 'The liberal view of citizenship', 'The communitarian view of citizenship'] },
             { id: 's2', label: 'Citizenship as legal status refers', prompt: 'Which idea is this? — Citizenship as **legal status** refers to the formally recognized membership of an.', answer: 'Citizenship as legal status refers', options: ['Citizenship as legal status refers', 'Citizenship is the status of', 'The liberal view of citizenship', 'The communitarian view of citizenship'] },
             { id: 's3', label: 'The liberal view of citizenship', prompt: 'Which idea is this? — The liberal view of citizenship conceives the citizen as an autonomous rights-bearing.', answer: 'The liberal view of citizenship', options: ['The liberal view of citizenship', 'Citizenship is the status of', 'Citizenship as legal status refers', 'The communitarian view of citizenship'] },
@@ -81,7 +81,7 @@ export const w_c11_politicalsciencecitizenshipsim: SimDef = {
             { id: 's6', label: 'Jus soli right of the', prompt: 'Which idea is this? — Jus soli (right of the soil) grants citizenship to anyone born within a state\'s.', answer: 'Jus soli right of the', options: ['Jus soli right of the', 'Citizenship is the status of', 'Citizenship as legal status refers', 'The liberal view of citizenship'] }
           ] } }
     ],
-    explore: { component: C11_PoliticalScienceCitizenshipSim, prompt: 'Explore the interactive — Citizenship' },
+    explore: { component: C11_PoliticalScienceCitizenshipSim, prompt: 'Explore the interactive — What is citizenship: Full and equal membership of a political community' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_ps_cbse_06_001', difficulty: 'standard',
           question: 'Citizenship is the status of full and equal membership in a political community.',

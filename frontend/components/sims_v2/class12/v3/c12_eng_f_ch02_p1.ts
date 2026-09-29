@@ -19,48 +19,48 @@ export const c12_eng_f_ch02_p1: SimDef = {
         hook: 'Lost Spring is journalism, not fiction — two different cages: stateless 1971 migrants in Seemapuri and caste-bound bangle families in Firozabad. Pity is the wrong lens; the text anatomises a system — middlemen, police, \'karam\' — that keeps law on paper and children at furnaces.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a pre-reading strategy that equips students with the historical, social, economic, and authorial information necessary to access a text\'s deeper meanings.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Lost Spring\' (Flamingo, ch. 2) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_02_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Investigate two stolen childhoods like a reporter: separate migrant statelessness from caste entrapment, weigh the laws that exist against the nexus that ignores them, and decode what the title\'s \'spring\' really lost.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_02_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you see a young boy serving tea at a roadside stall near your school — he should be in Class 6, but he\'s wiping tables.',
+          caseStudy: { intro: 'Start with the author of \'Lost Spring\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who is the author of *Lost Spring*, and what is her professional background that shapes this text?', options: [
                 { text: 'Anees Jung, born in Rourkela (1944), raised in Hyderabad, educated in India and the USA', outcome: 'Anees Jung, born in Rourkela (1944), raised in Hyderabad, educated in India and the USA; she is.' },
                 { text: 'a novelist', outcome: 'Not quite — Students often think *Lost Spring* is "just a story about poor children" and focus only.', reveals: 'lost-spring-is-just-a' },
                 { text: 'a social worker', outcome: 'Not quite — Students often think *Lost Spring* is "just a story about poor children" and focus only.', reveals: 'lost-spring-is-just-a' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_02_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re watching a documentary that follows two children in different cities but cuts between them to show how their stories mirror each other.',
+          caseStudy: { intro: 'Trace \'Lost Spring\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What are the two main narrative threads in "Lost Spring" and where does each take place?', options: [
                 { text: 'The two threads are Saheb\'s story (a ragpicker in Seemapuri, Delhi) and Mukesh\'s story (a', outcome: 'The two threads are Saheb\'s story (a ragpicker in Seemapuri, Delhi) and Mukesh\'s story (a.' },
                 { text: 'three threads or placing both in the same city', outcome: 'Not quite — Students treat "Lost Spring" as a conventional short story with a single protagonist, linear plot.', reveals: 'students-treat-lost-spring-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_02_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are a journalist visiting Seemapuri and Firozabad today — what would you see, smell, hear, and feel?',
+          caseStudy: { intro: 'Identify where and when \'Lost Spring\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What are the two primary physical settings described in "Lost Spring," and what major industry or activity defines each?', options: [
                 { text: 'The two primary settings are Seemapuri (a slum on Delhi\'s periphery) defined by', outcome: 'The two primary settings are Seemapuri (a slum on Delhi\'s periphery) defined by rag-picking, and.' },
                 { text: 'only one setting or misidentifying the industry', outcome: 'Not quite — Students often treat setting as a static backdrop (e.g., "Seemapuri is a slum") rather than.', reveals: 'students-often-treat-setting-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_02_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re a journalist interviewing Saheb at the tea stall and Mukesh in the dark hutment — what would their answers reveal about their inner worlds?',
+          caseStudy: { intro: 'Pick the central figure in \'Lost Spring\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What are the two protagonists\' names in "Lost Spring," and which story does each belong to?', options: [
                 { text: 'The two protagonists are Saheb (from "Sometimes I find a Rupee in the garbage") and', outcome: 'The two protagonists are Saheb (from "Sometimes I find a Rupee in the garbage") and Mukesh (from "I.' },
                 { text: 'only one protagonist or confusing their stories', outcome: 'Not quite — Students treat Saheb and Mukesh as interchangeable "poor children" and write identical character.', reveals: 'students-treat-saheb-and-mukesh' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_02_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are a journalist interviewing people in Seemapuri and Firozabad.',
+          caseStudy: { intro: 'Spot the secondary figures in \'Lost Spring\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'Name three supporting characters from the Seemapuri section and three from the Firozabad section of "Lost Spring".', options: [
                 { text: 'Seemapuri: the barefoot boy who says "My mother did not bring them down from the shelf",', outcome: 'Seemapuri: the barefoot boy who says "My mother did not bring them down from the shelf", the boy.' },
                 { text: 'only protagonists or characters from other chapters', outcome: 'Not quite — Students often treat supporting characters as "background decoration" and write answers like "The.', reveals: 'students-often-treat-supporting-characters' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_02_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you see a child your age picking through a garbage heap at 7 AM while you wait for your school bus.',
+          caseStudy: { intro: 'Ask what \'Lost Spring\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the ONE sentence in the NCERT "About the Unit" box that explicitly states the primary theme of "Lost Spring"?', options: [
                 { text: '"The plight of street children forced into labour early in life and denied the', outcome: '"The plight of street children forced into labour early in life and denied the opportunity.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students confuse THEME with TOPIC or MORAL. They write "The theme is child labour" or "The theme.', reveals: 'students-confuse-theme-with-topic' },
@@ -80,12 +80,12 @@ export const c12_eng_f_ch02_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_02_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a pre-reading strategy that equips.',
+          question: '\'Lost Spring\' (Flamingo, ch. 2) — the context and background to this text: who.',
           hint: 'If stuck, revisit c11_eng_h_cbse_01_001 (Class 11 Hornbill Chapter 1 Before You Read) and.',
           misconception: 'Students often think *Lost Spring* is "just a story about poor children" and focus only on emotional pity.',
           parts: [
@@ -102,7 +102,7 @@ export const c12_eng_f_ch02_p1: SimDef = {
                   hint: 'If stuck, revisit c11_eng_h_cbse_01_001 (Class 11 Hornbill Chapter 1 Before You Read) and practise.',
                   misconception: 'Students often think *Lost Spring* is "just a story about poor children" and focus only on emotional pity.' }
           ],
-            remediations: { 'lost-spring-is-just-a': { steps: ['If a student cannot distinguish the two poverty traps or misses the journalistic genre: 1) Re-read the "About the.', '2) Create a two-column table: Seemapuri (Cause: 1971 migration, Work: ragpicking, Trap: statelessness) vs.', 'Firozabad (Cause: caste lineage, Work: bangle furnaces, Trap: middlemen-police nexus).', '3) Watch a 5-min documentary clip on Firozabad child labour (e.g., National Commission for Protection of Child Rights.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'lost-spring-is-just-a': { steps: ['If a student cannot distinguish the two poverty traps or misses the journalistic genre: 1) Re-read the "About the.', '2) Create a two-column table: Seemapuri (Cause: 1971 migration, Work: ragpicking, Trap: statelessness) vs.', 'Firozabad (Cause: caste lineage, Work: bangle furnaces, Trap: middlemen-police nexus).', '3) Watch a 5-min documentary clip on Firozabad child labour (e.g., National Commission for Protection of Child Rights.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_02_001', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -113,20 +113,20 @@ export const c12_eng_f_ch02_p1: SimDef = {
                   hint: 'If stuck, revisit c11_eng_h_cbse_01_001 (Class 11 Hornbill Chapter 1 Before You Read) and practise.',
                   misconception: 'Students often think *Lost Spring* is "just a story about poor children" and focus only on emotional pity.' }
           ],
-            remediations: { 'lost-spring-is-just-a': { steps: ['If a student cannot distinguish the two poverty traps or misses the journalistic genre: 1) Re-read the "About the.', '2) Create a two-column table: Seemapuri (Cause: 1971 migration, Work: ragpicking, Trap: statelessness) vs.', 'Firozabad (Cause: caste lineage, Work: bangle furnaces, Trap: middlemen-police nexus).', '3) Watch a 5-min documentary clip on Firozabad child labour (e.g., National Commission for Protection of Child Rights.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'lost-spring-is-just-a': { steps: ['If a student cannot distinguish the two poverty traps or misses the journalistic genre: 1) Re-read the "About the.', '2) Create a two-column table: Seemapuri (Cause: 1971 migration, Work: ragpicking, Trap: statelessness) vs.', 'Firozabad (Cause: caste lineage, Work: bangle furnaces, Trap: middlemen-police nexus).', '3) Watch a 5-min documentary clip on Firozabad child labour (e.g., National Commission for Protection of Child Rights.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_02_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure in "Lost Spring" refers to the author Anees Jung\'s.',
+          question: 'The plot/narrative arc of \'Lost Spring\' — what happens, in what order, and why.',
           hint: 'If stuck, revisit "Plot and Narrative Structure" from any Class 11 Hornbill/Woven Words.',
           misconception: 'Students treat "Lost Spring" as a conventional short story with a single protagonist, linear plot (exposition → climax.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot and Narrative Structure in "Lost Spring" refers to the author Anees Jung\'s',
-                  options: ['Plot and Narrative Structure in "Lost Spring" refers to the author Anees Jung\'s', '"Before You Read: Context and Background" is a pre-reading strategy that equips students', 'Setting refers to the time, place, and social environment in', 'Character analysis of the protagonist examines the central character\'s traits,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The plot/narrative arc of \'Lost Spring\'',
+                  options: ['The plot/narrative arc of \'Lost Spring\'', '\'Lost Spring\' (Flamingo, ch', 'The setting of \'Lost Spring\'', 'Character analysis in \'Lost Spring\''],
                   hint: 'If stuck, revisit "Plot and Narrative Structure" from any Class 11 Hornbill/Woven Words chapter.',
                   misconception: 'Students treat "Lost Spring" as a conventional short story with a single protagonist, linear plot (exposition → climax → resolution), and.' }
           ],
-            remediations: { 'students-treat-lost-spring-as': { steps: ['Have the student create a two-column timeline: left column = Saheb\'s narrative beats (garbage → tea-stall), right.', 'Ask: "Where does the author appear in each column?" Mark every "I see/ask/wonder".', 'Ask: "Which beats are *observed* vs.', '*told* (e.g., the Udipi anecdote)?" 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-lost-spring-as': { steps: ['Have the student create a two-column timeline: left column = Saheb\'s narrative beats (garbage → tea-stall), right.', 'Ask: "Where does the author appear in each column?" Mark every "I see/ask/wonder".', 'Ask: "Which beats are *observed* vs.', '*told* (e.g., the Udipi anecdote)?" 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_02_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social environment in which a narrative.',
+          question: 'The setting of \'Lost Spring\' — the place, time and atmosphere the text creates.',
           hint: 'If stuck, revisit Class 8 "Atmosphere: Heat, Silence and Anticipation in the Jungle".',
           misconception: 'Students often treat setting as a static backdrop (e.g., "Seemapuri is a slum") rather than an active force that shapes.',
           parts: [
@@ -135,9 +135,9 @@ export const c12_eng_f_ch02_p1: SimDef = {
                   hint: 'If stuck, revisit Class 8 "Atmosphere: Heat, Silence and Anticipation in the Jungle".',
                   misconception: 'Students often treat setting as a static backdrop (e.g., "Seemapuri is a slum") rather than an active force that shapes character and.' }
           ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['If a student cannot distinguish setting from atmosphere or link sensory details to thematic effect: 1) Have them reread.', '2) Ask them to complete a two-column table: "Detail from text" → "Feeling it creates in me." 3) Then guide them.', '4) Re-administer Diagnostic Question 4 as a check.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-setting-as': { steps: ['If a student cannot distinguish setting from atmosphere or link sensory details to thematic effect: 1) Have them reread.', '2) Ask them to complete a two-column table: "Detail from text" → "Feeling it creates in me." 3) Then guide them.', '4) Re-administer Diagnostic Question 4 as a check.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_02_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist examines the central character\'s traits.',
+          question: 'Character analysis in \'Lost Spring\' — the central figure(s), their traits, and.',
           hint: 'If unable to find textual evidence, return to c12_eng_f_cbse_02_002 (Plot) and annotate.',
           misconception: 'Students treat Saheb and Mukesh as interchangeable "poor children" and write identical character sketches for both.',
           parts: [
@@ -150,20 +150,20 @@ export const c12_eng_f_ch02_p1: SimDef = {
                   hint: 'If unable to find textual evidence, return to c12_eng_f_cbse_02_002 (Plot) and annotate every.',
                   misconception: 'Students treat Saheb and Mukesh as interchangeable "poor children" and write identical character sketches for both.' }
           ],
-            remediations: { 'students-treat-saheb-and-mukesh': { steps: ['Re-read the two stories separately, highlighting every verb associated with Saheb (scrounging, mutters, running.', 'Create a two-column table: Saheb\'s verbs show passivity/reactivity; Mukesh\'s show volition.', 'Re-attempt Diagnostic Question 4 using only verb evidence.', 'If still stuck, revisit node c12_eng_f_cbse_02_002 (Plot and Narrative Structure) to map each boy\'s narrative arc.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-saheb-and-mukesh': { steps: ['Re-read the two stories separately, highlighting every verb associated with Saheb (scrounging, mutters, running.', 'Create a two-column table: Saheb\'s verbs show passivity/reactivity; Mukesh\'s show volition.', 'Re-attempt Diagnostic Question 4 using only verb evidence.', 'If still stuck, revisit node c12_eng_f_cbse_02_002 (Plot and Narrative Structure) to map each boy\'s narrative arc.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_02_005', difficulty: 'standard',
-          question: 'Supporting characters in "Lost Spring" are the secondary figures who surround.',
+          question: 'Supporting characters in \'Lost Spring\' — the secondary figures who move the.',
           hint: 'Review c12_eng_f_cbse_02_004 for protagonist profiles and c12_eng_f_cbse_02_001 for the.',
           misconception: 'Students often treat supporting characters as "background decoration" and write answers like "The grandmother shows.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in "Lost Spring" are the secondary figures who surround the',
-                  options: ['Supporting characters in "Lost Spring" are the secondary figures who surround the', '"Before You Read: Context and Background" is a pre-reading strategy that equips students', 'Plot and Narrative Structure in "Lost Spring" refers to the author Anees Jung\'s', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in \'Lost Spring\'',
+                  options: ['Supporting characters in \'Lost Spring\'', '\'Lost Spring\' (Flamingo, ch', 'The plot/narrative arc of \'Lost Spring\'', 'The setting of \'Lost Spring\''],
                   hint: 'Review c12_eng_f_cbse_02_004 for protagonist profiles and c12_eng_f_cbse_02_001 for the migration.',
                   misconception: 'Students often treat supporting characters as "background decoration" and write answers like "The grandmother shows poverty is bad" or "The.' }
           ],
-            remediations: { 'students-often-treat-supporting-characters': { steps: ['If a student cannot move beyond plot-summary: 1.', 'Give them a two-column table: Column A = Supporting Character, Column B = Systemic Force They Represent (Caste.', 'Ask them to fill Column B for 5 characters using one textual quote per character.', 'Then have them write one PEEL paragraph: "The grandmother represents internalized caste oppression.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-supporting-characters': { steps: ['If a student cannot move beyond plot-summary: 1.', 'Give them a two-column table: Column A = Supporting Character, Column B = Systemic Force They Represent (Caste.', 'Ask them to fill Column B for 5 characters using one textual quote per character.', 'Then have them write one PEEL paragraph: "The grandmother represents internalized caste oppression.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_02_006', difficulty: 'standard',
-          question: 'The primary theme of "Lost Spring" is the systemic theft of childhood — how.',
+          question: 'The primary theme of \'Lost Spring\' — the central idea the whole text returns to.',
           hint: 'If unable to synthesize theme across two narratives, return to c12_eng_f_cbse_02_002 and.',
           misconception: 'Students confuse THEME with TOPIC or MORAL. They write "The theme is child labour" or "The theme is we should help poor.',
           parts: [
@@ -176,7 +176,7 @@ export const c12_eng_f_ch02_p1: SimDef = {
                   hint: 'If unable to synthesize theme across two narratives, return to c12_eng_f_cbse_02_002 and create.',
                   misconception: 'Students confuse THEME with TOPIC or MORAL. They write "The theme is child labour" or "The theme is we should help poor children." The.' }
           ],
-            remediations: { 'students-confuse-theme-with-topic': { steps: ['If the student cannot distinguish topic from theme: (1) Give them the NCERT "About the Unit" theme sentence.', '(2) Ask: "What three forces does this sentence name?', '(forced into labour, denied schooling, street children)." (3) Have them find ONE quote for Saheb and ONE for Mukesh.', '(4) Re-attempt Diagnostic Question 6.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-confuse-theme-with-topic': { steps: ['If the student cannot distinguish topic from theme: (1) Give them the NCERT "About the Unit" theme sentence.', '(2) Ask: "What three forces does this sentence name?', '(forced into labour, denied schooling, street children)." (3) Have them find ONE quote for Saheb and ONE for Mukesh.', '(4) Re-attempt Diagnostic Question 6.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

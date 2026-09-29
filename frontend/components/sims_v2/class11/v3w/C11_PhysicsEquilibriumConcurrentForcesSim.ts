@@ -6,13 +6,13 @@ import C11_PhysicsEquilibriumConcurrentForcesSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsequilibriumconcurrentforcessim: SimDef = {
     id: 'v3w_c11_physicsequilibriumconcurrentforcessim',
-    title: 'Equilibrium Concurrent Forces',
+    title: 'Equilibrium of a Particle',
     subtitle: 'This node covers translational equilibrium of a point particle under concurrent coplanar.',
     classLevel: 11, subject: 'physics', topic: 'Equilibrium of a Particle',
     chapters: [],
     nodeIds: ['c11_phy_cbse_04_007', 'c11_phy_cbse_04_002', 'c11_phy_cbse_04_008', 'c11_phy_cbse_04_014', 'c11_phy_cbse_06_004', 'c11_phy_cbse_06_006', 'c11_phy_cbse_06_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a ceiling fan hanging from a hook by a rod — it remains stationary despite gravity pulling it down.', goal: 'Master Equilibrium Concurrent Forces.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a ceiling fan hanging from a hook by a rod — it remains stationary despite gravity pulling it down.', goal: 'Master Equilibrium of a Particle.' },
     discovery: {
         question: 'A student argues: "A book lying on a table is in equilibrium because the weight **mg** and the normal reaction **R** are an action-reaction pair, so they.',
         options: ['The reasoning is incorrect', 'equilibrium means no forces act on the particle', 'action-reaction pairs cancel to produce equilibrium on a single body'],
@@ -79,7 +79,7 @@ export const w_c11_physicsequilibriumconcurrentforcessim: SimDef = {
             { text: 'Minimum μ. f_max = μ N_F → μ_min = f / N_F = 408 / 735 = 0.555.', faded: true, blankAnswer: '(a) N_W = 408 N, (b) N_F = 735 N, (c) μ_min = 0.555' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_04_002', title: 'Identify each idea',
-          dissect: { specimen: 'Equilibrium Concurrent Forces', spots: [
+          dissect: { specimen: 'Equilibrium of a Particle', spots: [
             { id: 's1', label: 'Equilibrium of a particle is', prompt: 'Which idea is this? — Equilibrium of a particle is the state in which the vector sum of all external forces.', answer: 'Equilibrium of a particle is', options: ['Equilibrium of a particle is', 'Newtons First Law of Motion', 'Common forces in mechanics are', 'A Free Body Diagram FBD'] },
             { id: 's2', label: 'Newtons First Law of Motion', prompt: 'Which idea is this? — Newton\'s First Law of Motion (Law of Inertia) states that a body remains in its state of.', answer: 'Newtons First Law of Motion', options: ['Newtons First Law of Motion', 'Equilibrium of a particle is', 'Common forces in mechanics are', 'A Free Body Diagram FBD'] },
             { id: 's3', label: 'Common forces in mechanics are', prompt: 'Which idea is this? — Common forces in mechanics are the fundamental contact and non-contact forces encountered.', answer: 'Common forces in mechanics are', options: ['Common forces in mechanics are', 'Equilibrium of a particle is', 'Newtons First Law of Motion', 'A Free Body Diagram FBD'] },
@@ -88,7 +88,7 @@ export const w_c11_physicsequilibriumconcurrentforcessim: SimDef = {
             { id: 's6', label: 'A rigid body is in', prompt: 'Which idea is this? — A rigid body is in mechanical equilibrium when both its linear momentum and angular.', answer: 'A rigid body is in', options: ['A rigid body is in', 'Equilibrium of a particle is', 'Newtons First Law of Motion', 'Common forces in mechanics are'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsEquilibriumConcurrentForcesSim, prompt: 'Explore the interactive — Equilibrium Concurrent Forces' },
+    explore: { component: C11_PhysicsEquilibriumConcurrentForcesSim, prompt: 'Explore the interactive — Equilibrium of a Particle' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_04_007', difficulty: 'standard',
           question: 'Equilibrium of a particle is the state in which the vector sum of all external.',

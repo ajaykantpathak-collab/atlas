@@ -6,13 +6,13 @@ import C11_HistoryLongtermCausesAllianceSim from '../../../simulations/c6_12/C11
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_historylongtermcausesalliancesim: SimDef = {
     id: 'v3w_c11_historylongtermcausesalliancesim',
-    title: 'Longterm Causes Alliance',
+    title: 'The Decline of the Mongol Empire and Its Legacy',
     subtitle: 'Covers the period from Möngke Khan\'s death (1259) to the fall of the Yuan Dynasty (1368).',
     classLevel: 11, subject: 'history', topic: 'The Decline of the Mongol Empire and Its Legacy',
     chapters: [],
     nodeIds: ['c11_hist_cbse_05_011', 'c11_hist_cbse_03_008', 'c11_hist_cbse_04_010', 'c11_hist_cbse_06_011', 'c11_hist_cbse_05_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re standing at the Qutub Minar complex in Delhi, looking at the Iron Pillar that has resisted.', goal: 'Master Longterm Causes Alliance.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re standing at the Qutub Minar complex in Delhi, looking at the Iron Pillar that has resisted.', goal: 'Master The Decline of the Mongol Empire and Its Legacy.' },
     discovery: {
         question: 'Evaluate the claim: "The 1054 Schism was primarily a diplomatic incident, not a theological rupture." Support your judgment with evidence.',
         options: ['The claim is **partially valid but incomplete**', 'just a quarrel between two men', 'inevitable theological split'],
@@ -73,7 +73,7 @@ export const w_c11_historylongtermcausesalliancesim: SimDef = {
             { text: 'Generalise — Mongol imperialism was *fiscally rational*: they held what paid for itself and could be garrisoned within.', faded: true, blankAnswer: 'The European campaign withdrew because the Succession.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_hist_cbse_03_008', title: 'Identify each idea',
-          dissect: { specimen: 'Longterm Causes Alliance', spots: [
+          dissect: { specimen: 'The Decline of the Mongol Empire and Its Legacy', spots: [
             { id: 's1', label: 'The decline of the Mongol', prompt: 'Which idea is this? — The decline of the Mongol Empire refers to the political fragmentation and gradual.', answer: 'The decline of the Mongol', options: ['The decline of the Mongol', 'The Great Schism of 1054', 'The Crusades 10951291 were a', 'The Crisis of Feudalism c'] },
             { id: 's2', label: 'The Great Schism of 1054', prompt: 'Which idea is this? — The Great Schism of 1054 was the formal separation between the Roman Catholic Church.', answer: 'The Great Schism of 1054', options: ['The Great Schism of 1054', 'The decline of the Mongol', 'The Crusades 10951291 were a', 'The Crisis of Feudalism c'] },
             { id: 's3', label: 'The Crusades 10951291 were a', prompt: 'Which idea is this? — The Crusades (1095–1291) were a series of religiously sanctioned military campaigns.', answer: 'The Crusades 10951291 were a', options: ['The Crusades 10951291 were a', 'The decline of the Mongol', 'The Great Schism of 1054', 'The Crisis of Feudalism c'] },
@@ -81,7 +81,7 @@ export const w_c11_historylongtermcausesalliancesim: SimDef = {
             { id: 's5', label: 'The Mongol Empire under gedei', prompt: 'Which idea is this? — The Mongol Empire under Ögedei Khan (r. 1229–1241) represents the second phase of Mongol.', answer: 'The Mongol Empire under gedei', options: ['The Mongol Empire under gedei', 'The decline of the Mongol', 'The Great Schism of 1054', 'The Crusades 10951291 were a'] }
           ] } }
     ],
-    explore: { component: C11_HistoryLongtermCausesAllianceSim, prompt: 'Explore the interactive — Longterm Causes Alliance' },
+    explore: { component: C11_HistoryLongtermCausesAllianceSim, prompt: 'Explore the interactive — The Decline of the Mongol Empire and Its Legacy' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hist_cbse_05_011', difficulty: 'standard',
           question: 'The decline of the Mongol Empire refers to the political fragmentation and.',

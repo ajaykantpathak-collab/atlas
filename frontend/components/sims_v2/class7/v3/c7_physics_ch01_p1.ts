@@ -128,8 +128,8 @@ export const c7_physics_ch01_p1: SimDef = {
           hint: 'Review c6_physics_ch01_004 to reconnect everyday observations with scientific tracking.',
           misconception: 'Students often believe that "technology always solves environmental problems," assuming that whatever negative.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Science and Society: Responsibility and Sustainability refers to the ethical duty of',
-                  options: ['Science and Society: Responsibility and Sustainability refers to the ethical duty of', 'Science as a process is a systematic method of inquiry used to investigate natural', 'The interconnectedness of science disciplines is the principle that natural phenomena', 'Observation and experimentation form the empirical foundation of science, where'],
+                { id: 'a', prompt: 'A small village uses diesel generators that consume 5 liters of diesel per hour to pump groundwater for irrigation.', answer: 'Identify given values: Fuel consumption rate = 5 liters/hour',
+                  options: ['Identify given values: Fuel consumption rate = 5 liters/hour', 'technology always solves environmental problems'],
                   hint: 'Review c6_physics_ch01_004 to reconnect everyday observations with scientific tracking of resources.',
                   misconception: 'Students often believe that "technology always solves environmental problems," assuming that whatever negative ecological impact.' }
           ],

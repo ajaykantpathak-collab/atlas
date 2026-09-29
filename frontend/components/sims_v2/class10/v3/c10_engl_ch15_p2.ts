@@ -72,7 +72,7 @@ export const c10_engl_ch15_p2: SimDef = {
           ],
             remediations: { 'students-treat-curiosity-and-perseverance': { steps: ['If the student separates the traits, do this 3-step fix: (1) Draw a circle diagram on paper: label four quadrants.', '(2) Walk through Ebright\'s timeline placing each event in the quadrant (e.g., Fair loss = Failure; Viceroy question.', '(3) Have them write one sentence: "Each discovery became the *next* curiosity because he *persevered* through the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_engl_cbse_15_008', difficulty: 'standard',
-          question: 'Character analysis of Richard Ebright focuses on identifying and explaining how.',
+          question: 'From \'English chapter c10_engl_cbse_15\': the skill or concept this node.',
           hint: 'If stuck, review **c10_engl_cbse_15_004 (county fair loss)** and **c10_engl_cbse_15_005.',
           misconception: 'Students equate **"competitive spirit" with "wanting to win prizes"** and write answers like "Ebright competed to get.',
           parts: [

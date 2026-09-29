@@ -631,7 +631,7 @@ export const C8_CIV_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "District And Subordinate Courts Form The",
+    "title": "District And Subordinate Courts Form",
     "text": "District and subordinate courts form the foundation of India's judicial hierarchy at the local level, handling civil and criminal cases directly accessible to ordinary citizens.",
     "emoji": "⚖️",
     "bgColor": "from-amber-400 to-orange-500"

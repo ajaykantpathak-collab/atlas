@@ -6,16 +6,16 @@ import C11_HistoryChangingCulturalTraditionsSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_historychangingculturaltraditionssim: SimDef = {
     id: 'v3w_c11_historychangingculturaltraditionssim',
-    title: 'Changing Cultural Traditions',
+    title: 'Women and the Family in Renaissance Society',
     subtitle: 'Covers Italian Renaissance society (1350–1550) with focus on Florence, Venice, and.',
     classLevel: 11, subject: 'history', topic: 'Women and the Family in Renaissance Society',
     chapters: [],
     nodeIds: ['c11_hist_cbse_07_011', 'c11_hist_cbse_01_003', 'c11_hist_cbse_02_008', 'c11_hist_cbse_07_004', 'c11_hist_cbse_02_011', 'c11_hist_cbse_01_011', 'c11_hist_cbse_07_007', 'c11_hist_cbse_05_009', 'c11_hist_cbse_05_010', 'c11_hist_cbse_02_005', 'c11_hist_cbse_07_001', 'c11_hist_cbse_07_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are visiting the Uffizi Gallery in Florence and see Bronzino\'s portrait of Eleonora di Toledo.', goal: 'Master Changing Cultural Traditions.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are visiting the Uffizi Gallery in Florence and see Bronzino\'s portrait of Eleonora di Toledo.', goal: 'Master Women and the Family in Renaissance Society.' },
     discovery: {
         question: 'Why did humanist educators like Vittorino da Feltre and Juan Luis Vives advocate Latin education for noble girls but explicitly forbid them from studying.',
-        options: ['Correct answer: Humanists viewed female education as ornamental', 'women were considered intellectually inferior', 'liberated'],
+        options: ['Humanists viewed female education as ornamental', 'women were considered intellectually inferior', 'liberated'],
         answer: 'Humanists viewed female education as ornamental',
         hook: 'Students believe the Renaissance "liberated" women because a few elite women (Isabella d\'Este, Laura Cereta, Cassandra.',
     },
@@ -81,7 +81,7 @@ export const w_c11_historychangingculturaltraditionssim: SimDef = {
             { text: 'Conclude that the epic articulates a civilisation\'s self-understanding: permanence lies in collective urban.', faded: true, blankAnswer: 'The ending reflects the Mesopotamian belief that the.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_hist_cbse_01_003', title: 'Identify each idea',
-          dissect: { specimen: 'Changing Cultural Traditions', spots: [
+          dissect: { specimen: 'Women and the Family in Renaissance Society', spots: [
             { id: 's1', label: 'The topic Women and the', prompt: 'Which idea is this? — The topic "Women and the Family in Renaissance Society" examines the social, legal, and.', answer: 'The topic Women and the', options: ['The topic Women and the', 'Cuneiform script is the wedge-shaped', 'The Late Roman Empire c', 'Renaissance Art c 13001600 CE'] },
             { id: 's2', label: 'Cuneiform script is the wedge-shaped', prompt: 'Which idea is this? — Cuneiform script is the wedge-shaped writing system developed in ancient Mesopotamia.', answer: 'Cuneiform script is the wedge-shaped', options: ['Cuneiform script is the wedge-shaped', 'The topic Women and the', 'The Late Roman Empire c', 'Renaissance Art c 13001600 CE'] },
             { id: 's3', label: 'The Late Roman Empire c', prompt: 'Which idea is this? — The Late Roman Empire (c. 284–476 CE) marks the transition from the Principate to the.', answer: 'The Late Roman Empire c', options: ['The Late Roman Empire c', 'The topic Women and the', 'Cuneiform script is the wedge-shaped', 'Renaissance Art c 13001600 CE'] },
@@ -90,7 +90,7 @@ export const w_c11_historychangingculturaltraditionssim: SimDef = {
             { id: 's6', label: 'The Legacy of Mesopotamian Civilisation', prompt: 'Which idea is this? — The Legacy of Mesopotamian Civilisation refers to the enduring intellectual, cultural,.', answer: 'The Legacy of Mesopotamian Civilisation', options: ['The Legacy of Mesopotamian Civilisation', 'The topic Women and the', 'Cuneiform script is the wedge-shaped', 'The Late Roman Empire c'] }
           ] } }
     ],
-    explore: { component: C11_HistoryChangingCulturalTraditionsSim, prompt: 'Explore the interactive — Changing Cultural Traditions' },
+    explore: { component: C11_HistoryChangingCulturalTraditionsSim, prompt: 'Explore the interactive — Women and the Family in Renaissance Society' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hist_cbse_07_011', difficulty: 'standard',
           question: 'The topic "Women and the Family in Renaissance Society" examines the social,.',
@@ -135,8 +135,8 @@ export const w_c11_historychangingculturaltraditionssim: SimDef = {
                   options: ['Mesopotamia lacked papyrus and had limited stone/wood', 'clay was more durable'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe cuneiform was an alphabet where each wedge equals a letter (like English), and that most Mesopotamians could.' },
-                { id: 'c', prompt: 'A scribe in 2600 BCE Uruk receives an order: "Record the delivery of 300 litres of barley to the temple storehouse, received from Farmer A, witnessed by.', answer: 'Steps: (1) Collect levigated clay from riverbed',
-                  options: ['Steps: (1) Collect levigated clay from riverbed', 'moist clay'],
+                { id: 'c', prompt: 'A scribe in 2600 BCE Uruk receives an order: "Record the delivery of 300 litres of barley to the temple storehouse, received from Farmer A, witnessed by.', answer: '(1) Collect levigated clay from riverbed',
+                  options: ['(1) Collect levigated clay from riverbed', 'moist clay'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe cuneiform was an alphabet where each wedge equals a letter (like English), and that most Mesopotamians could.' }
           ],

@@ -6,13 +6,13 @@ import C12_MathematicsInverseTrigPropertiesSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicsinversetrigpropertiessim: SimDef = {
     id: 'v3w_c12_mathematicsinversetrigpropertiessim',
-    title: 'Inverse Trig Properties',
+    title: 'Word Problems: Applications of Inverse Trigonometric Functions',
     subtitle: 'This node covers word problems solvable using basic inverse trigonometric functions.',
     classLevel: 12, subject: 'mathematics', topic: 'Word Problems: Applications of Inverse Trigonometric Functions',
     chapters: [],
     nodeIds: ['c12_math_cbse_02_008', 'c12_math_cbse_05_008', 'c12_math_cbse_02_001', 'c12_math_cbse_02_002', 'c12_math_cbse_02_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing 30 metres away from the base of a historic minar in Delhi and measure the angle of.', goal: 'Master Inverse Trig Properties.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing 30 metres away from the base of a historic minar in Delhi and measure the angle of.', goal: 'Master Word Problems: Applications of Inverse Trigonometric Functions.' },
     discovery: {
         question: 'Why is the domain of \\( \\sec^{-1} x \\) given as \\( \\mathbb{R} \\setminus (-1, 1) \\) (i.e., \\( x \\le -1 \\) or \\( x \\ge 1 \\))?',
         options: ['The secant function is \\( \\sec y = 1/\\cos y \\)', 'domain is all real numbers', 'it means \\( (\\sin x)^{-1} = \\frac{1}{\\sin x} = \\cosec x \\)'],
@@ -69,7 +69,7 @@ export const w_c12_mathematicsinversetrigpropertiessim: SimDef = {
             { text: 'Verify: \\( \\frac{\\pi}{6} \\) is in the principal range, and \\( \\tan \\frac{\\pi}{6} = \\frac{1}{\\sqrt{3}} = \\tan.', faded: true, blankAnswer: '\\( \\frac{\\pi}{6} \\)' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_05_008', title: 'Identify each idea',
-          dissect: { specimen: 'Inverse Trig Properties', spots: [
+          dissect: { specimen: 'Word Problems: Applications of Inverse Trigonometric Functions', spots: [
             { id: 's1', label: 'Word problems involving inverse trigonometric', prompt: 'Which idea is this? — Word problems involving inverse trigonometric functions require translating real-world.', answer: 'Word problems involving inverse trigonometric', options: ['Word problems involving inverse trigonometric', 'The derivative of an inverse', 'The inverse trigonometric functions are', 'The principal value branch of'] },
             { id: 's2', label: 'The derivative of an inverse', prompt: 'Which idea is this? — The derivative of an inverse trigonometric function \\( y = \\sin^{-1}x \\), \\( \\cos^{-1}x.', answer: 'The derivative of an inverse', options: ['The derivative of an inverse', 'Word problems involving inverse trigonometric', 'The inverse trigonometric functions are', 'The principal value branch of'] },
             { id: 's3', label: 'The inverse trigonometric functions are', prompt: 'Which idea is this? — The inverse trigonometric functions are defined by restricting the domains of the.', answer: 'The inverse trigonometric functions are', options: ['The inverse trigonometric functions are', 'Word problems involving inverse trigonometric', 'The derivative of an inverse', 'The principal value branch of'] },
@@ -77,7 +77,7 @@ export const w_c12_mathematicsinversetrigpropertiessim: SimDef = {
             { id: 's5', label: 'The properties of inverse trigonometric', prompt: 'Which idea is this? — The properties of inverse trigonometric functions are a set of identities that relate.', answer: 'The properties of inverse trigonometric', options: ['The properties of inverse trigonometric', 'Word problems involving inverse trigonometric', 'The derivative of an inverse', 'The inverse trigonometric functions are'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsInverseTrigPropertiesSim, prompt: 'Explore the interactive — Inverse Trig Properties' },
+    explore: { component: C12_MathematicsInverseTrigPropertiesSim, prompt: 'Explore the interactive — Word Problems: Applications of Inverse Trigonometric Functions' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_02_008', difficulty: 'standard',
           question: 'Word problems involving inverse trigonometric functions require translating.',

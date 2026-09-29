@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_ca_ch01_p2: SimDef = {
     id: 'v3_c12_ca_ch01_p2',
-    title: 'OVERVIEW OF · Part 2/2',
+    title: 'Computerised Accounting System · Part 2/2',
     subtitle: 'One entry, every ledger updated — what a computerised accounting system really is',
-    classLevel: 12, subject: 'computerised_accounting', topic: 'OVERVIEW OF · Part 2/2',
+    classLevel: 12, subject: 'computerised_accounting', topic: 'Computerised Accounting System · Part 2/2',
     chapters: ['c12_ca_ch01'],
     nodeIds: ['c12_ca_cbse_01_007', 'c12_ca_cbse_01_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

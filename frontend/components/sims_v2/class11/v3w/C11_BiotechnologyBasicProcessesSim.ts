@@ -6,13 +6,13 @@ import C11_BiotechnologyBasicProcessesSim from '../../../simulations/c6_12/C11_B
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biotechnologybasicprocessessim: SimDef = {
     id: 'v3w_c11_biotechnologybasicprocessessim',
-    title: 'nology Basic Processes',
+    title: 'RNA: Types and Structure',
     subtitle: 'Covers: mRNA (prokaryotic vs eukaryotic structure, 5\' cap, poly-A tail, UTRs), rRNA.',
     classLevel: 11, subject: 'biotechnology', topic: 'RNA: Types and Structure',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_03_007', 'c11_biotech_cbse_03_002', 'c11_biotech_cbse_03_003', 'c11_biotech_cbse_11_007', 'c11_biotech_cbse_01_003', 'c11_biotech_cbse_01_004', 'c11_biotech_cbse_01_007', 'c11_biotech_cbse_11_003', 'c11_biotech_cbse_11_004', 'c11_biotech_cbse_11_005', 'c11_biotech_cbse_11_009', 'c11_biotech_cbse_01_005', 'c11_biotech_cbse_01_006', 'c11_biotech_cbse_02_004', 'c11_biotech_cbse_02_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re a chef in a busy restaurant kitchen. DNA is the master recipe book locked in the head chef\'s.', goal: 'Master nology Basic Processes.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re a chef in a busy restaurant kitchen. DNA is the master recipe book locked in the head chef\'s.', goal: 'Master RNA: Types and Structure.' },
     discovery: {
         question: 'Name the three major types of RNA and state one primary function for each in a eukaryotic cell.',
         options: ['mRNA — carries genetic code from DNA to ribosome for protein synthesis', 'rRNA carries genetic code', 'tRNA makes ribosomes'],
@@ -79,7 +79,7 @@ export const w_c11_biotechnologybasicprocessessim: SimDef = {
             { text: 'Summarize classification: P1=White, P2=Green, P3=Blue.', faded: true, blankAnswer: 'P1 – White Biotechnology; P2 – Green Biotechnology; P3 –.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_biotech_cbse_03_002', title: 'Identify each idea',
-          dissect: { specimen: 'nology Basic Processes', spots: [
+          dissect: { specimen: 'RNA: Types and Structure', spots: [
             { id: 's1', label: 'RNA Ribonucleic Acid is a', prompt: 'Which idea is this? — RNA (Ribonucleic Acid) is a single-stranded polynucleotide polymer composed of.', answer: 'RNA Ribonucleic Acid is a', options: ['RNA Ribonucleic Acid is a', 'Amino acids are organic molecules', 'Protein structure is organized into', 'Sequence manipulation in biotechnology programming'] },
             { id: 's2', label: 'Amino acids are organic molecules', prompt: 'Which idea is this? — Amino acids are organic molecules with a central α-carbon bonded to four different.', answer: 'Amino acids are organic molecules', options: ['Amino acids are organic molecules', 'RNA Ribonucleic Acid is a', 'Protein structure is organized into', 'Sequence manipulation in biotechnology programming'] },
             { id: 's3', label: 'Protein structure is organized into', prompt: 'Which idea is this? — Protein structure is organized into four hierarchical levels: primary (linear amino acid.', answer: 'Protein structure is organized into', options: ['Protein structure is organized into', 'RNA Ribonucleic Acid is a', 'Amino acids are organic molecules', 'Sequence manipulation in biotechnology programming'] },
@@ -88,7 +88,7 @@ export const w_c11_biotechnologybasicprocessessim: SimDef = {
             { id: 's6', label: 'Biotechnology is categorized into four', prompt: 'Which idea is this? — Biotechnology is categorized into four major branches based on the application domain:.', answer: 'Biotechnology is categorized into four', options: ['Biotechnology is categorized into four', 'RNA Ribonucleic Acid is a', 'Amino acids are organic molecules', 'Protein structure is organized into'] }
           ] } }
     ],
-    explore: { component: C11_BiotechnologyBasicProcessesSim, prompt: 'Explore the interactive — nology Basic Processes' },
+    explore: { component: C11_BiotechnologyBasicProcessesSim, prompt: 'Explore the interactive — RNA: Types and Structure' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_biotech_cbse_03_007', difficulty: 'standard',
           question: 'RNA (Ribonucleic Acid) is a single-stranded polynucleotide polymer composed of.',

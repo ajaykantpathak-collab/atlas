@@ -6,13 +6,13 @@ import C11_BiologyMitosisSpindleSim from '../../../simulations/three/C11_Biology
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologymitosisspindlesim: SimDef = {
     id: 'v3w_c11_biologymitosisspindlesim',
-    title: 'Mitosis Spindle',
+    title: 'Mitosis: Prophase',
     subtitle: 'Covers prophase of mitosis in animal and plant cells as per NCERT Class 11: chromatin.',
     classLevel: 11, subject: 'biology', topic: 'Mitosis: Prophase',
     chapters: [],
     nodeIds: ['c11_bio_cbse_10_003', 'c11_bio_cbse_10_004', 'c11_bio_cbse_10_001', 'c11_bio_cbse_10_002', 'c11_bio_cbse_10_005', 'c11_bio_cbse_10_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe an onion root tip slide under a compound microscope — you see many cells, but a few look different:.', goal: 'Master Mitosis Spindle.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe an onion root tip slide under a compound microscope — you see many cells, but a few look different:.', goal: 'Master Mitosis: Prophase.' },
     discovery: {
         question: 'Explain why chromosomes become visible only during prophase even though DNA replication was completed in S phase.',
         options: ['During S phase, replicated DNA remains as loosely packed chromatin fibres', 'DNA replicates in prophase', 'chromosomes form in G2'],
@@ -78,7 +78,7 @@ export const w_c11_biologymitosisspindlesim: SimDef = {
             { text: 'Total: 4 spermatids, each n = 23, 1C DNA. Chromosome number unchanged from secondary spermatocyte (n→n) because.', faded: true, blankAnswer: 'Four spermatids, each with n = 23 chromosomes and 1C DNA.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_10_004', title: 'Identify each idea',
-          dissect: { specimen: 'Mitosis Spindle', spots: [
+          dissect: { specimen: 'Mitosis: Prophase', spots: [
             { id: 's1', label: 'Prophase is the first stage', prompt: 'Which idea is this? — Prophase is the first stage of karyokinesis in mitosis, following the S and G2 phases of.', answer: 'Prophase is the first stage', options: ['Prophase is the first stage', 'Metaphase anaphase and telophase are', 'The cell cycle is an', 'Interphase is the longest phase'] },
             { id: 's2', label: 'Metaphase anaphase and telophase are', prompt: 'Which idea is this? — Metaphase, anaphase, and telophase are the three sequential stages of karyokinesis.', answer: 'Metaphase anaphase and telophase are', options: ['Metaphase anaphase and telophase are', 'Prophase is the first stage', 'The cell cycle is an', 'Interphase is the longest phase'] },
             { id: 's3', label: 'The cell cycle is an', prompt: 'Which idea is this? — The cell cycle is an ordered sequence of events in which a eukaryotic cell duplicates its.', answer: 'The cell cycle is an', options: ['The cell cycle is an', 'Prophase is the first stage', 'Metaphase anaphase and telophase are', 'Interphase is the longest phase'] },
@@ -87,7 +87,7 @@ export const w_c11_biologymitosisspindlesim: SimDef = {
             { id: 's6', label: 'Meiosis II is the second', prompt: 'Which idea is this? — Meiosis II is the second sequential division of meiosis where sister chromatids of each.', answer: 'Meiosis II is the second', options: ['Meiosis II is the second', 'Prophase is the first stage', 'Metaphase anaphase and telophase are', 'The cell cycle is an'] }
           ] } }
     ],
-    explore: { component: C11_BiologyMitosisSpindleSim, prompt: 'Explore the interactive — Mitosis Spindle' },
+    explore: { component: C11_BiologyMitosisSpindleSim, prompt: 'Explore the interactive — Mitosis: Prophase' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_10_003', difficulty: 'standard',
           question: 'Prophase is the first stage of karyokinesis in mitosis, following the S and G2.',

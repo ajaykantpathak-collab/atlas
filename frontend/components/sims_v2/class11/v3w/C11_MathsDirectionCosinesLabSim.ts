@@ -6,13 +6,13 @@ import C11_MathsDirectionCosinesLabSim from '../../../simulations/three/C11_Math
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathsdirectioncosineslabsim: SimDef = {
     id: 'v3w_c11_mathsdirectioncosineslabsim',
-    title: 'Direction Cosines Lab',
+    title: 'Coordinates of a Point in 3D Space',
     subtitle: 'This node covers the 3D Cartesian coordinate system, coordinates of a point (x,y,z),.',
     classLevel: 11, subject: 'mathematics', topic: 'Coordinates of a Point in 3D Space',
     chapters: [],
     nodeIds: ['c11_math_cbse_12_001', 'c11_math_cbse_12_002', 'c11_math_cbse_12_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are an architect designing a multi-storey building in Mumbai.', goal: 'Master Direction Cosines Lab.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are an architect designing a multi-storey building in Mumbai.', goal: 'Master Coordinates of a Point in 3D Space.' },
     discovery: {
         question: 'Compare the number of coordinates needed to specify a point on a line, in a plane, and in space. Explain why the number increases with dimension.',
         options: ['Line: 1 coordinate (distance from origin along the line)', 'plane needs 3 coordinates', 'dimensions'],
@@ -53,13 +53,13 @@ export const w_c11_mathsdirectioncosineslabsim: SimDef = {
             { text: 'Compute distance WC using 3D distance formula: WC = √[(22-10)² + (32-20)² + (9-5)²] = √[12² + 12² + 4²] = √[144+144+16].', faded: true, blankAnswer: 'C = (22, 32, 9) metres; WC = 4√19 metres ≈ 17.44 metres.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_12_002', title: 'Identify each idea',
-          dissect: { specimen: 'Direction Cosines Lab', spots: [
+          dissect: { specimen: 'Coordinates of a Point in 3D Space', spots: [
             { id: 's1', label: 'A point in three-dimensional space', prompt: 'Which idea is this? — A point in three-dimensional space is uniquely identified by an ordered triplet (x, y, z).', answer: 'A point in three-dimensional space', options: ['A point in three-dimensional space', 'The distance between two points', 'Applications of 3D Coordinate Geometry'] },
             { id: 's2', label: 'The distance between two points', prompt: 'Which idea is this? — The distance between two points P(x₁, y₁, z₁) and Q(x₂, y₂, z₂) in three-dimensional.', answer: 'The distance between two points', options: ['The distance between two points', 'A point in three-dimensional space', 'Applications of 3D Coordinate Geometry'] },
             { id: 's3', label: 'Applications of 3D Coordinate Geometry', prompt: 'Which idea is this? — Applications of 3D Coordinate Geometry involve using the distance formula, section.', answer: 'Applications of 3D Coordinate Geometry', options: ['Applications of 3D Coordinate Geometry', 'A point in three-dimensional space', 'The distance between two points'] }
           ] } }
     ],
-    explore: { component: C11_MathsDirectionCosinesLabSim, prompt: 'Explore the interactive — Direction Cosines Lab' },
+    explore: { component: C11_MathsDirectionCosinesLabSim, prompt: 'Explore the interactive — Coordinates of a Point in 3D Space' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_12_001', difficulty: 'standard',
           question: 'A point in three-dimensional space is uniquely identified by an ordered triplet.',

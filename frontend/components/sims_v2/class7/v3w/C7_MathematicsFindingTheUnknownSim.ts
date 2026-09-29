@@ -6,13 +6,13 @@ import C7_MathematicsFindingTheUnknownSim from '../../../simulations/c6_12/C7_Ma
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsfindingtheunknownsim: SimDef = {
     id: 'v3w_c7_mathematicsfindingtheunknownsim',
-    title: 'Finding The Unknown',
+    title: 'Finding the Unknown: Balancing Both Sides',
     subtitle: 'Covers single-variable linear equations requiring addition, subtraction, multiplication,.',
     classLevel: 7, subject: 'mathematics', topic: 'Finding the Unknown: Balancing Both Sides',
     chapters: [],
     nodeIds: ['c7_math_ch15_002', 'c7_math_ch15_004', 'c7_math_ch15_005', 'c7_math_ch15_007', 'c7_math_ch15_010', 'c7_math_ch11_009', 'c7_math_ch05_007', 'c7_math_ch05_009', 'c7_math_ch09_003', 'c7_math_ch09_006', 'c7_math_ch09_009', 'c7_math_ch07_008', 'c7_math_ch15_001', 'c7_math_ch15_008', 'c7_math_ch15_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine you are at a local vegetable market in India, and a vegetable vendor uses a traditional beam balance.', goal: 'Master Finding The Unknown.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine you are at a local vegetable market in India, and a vegetable vendor uses a traditional beam balance.', goal: 'Master Finding the Unknown: Balancing Both Sides.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Finding the unknown by balancing both sides.', text: 'Finding the unknown by balancing both sides is the process of maintaining equality in an equation by performing identical operations on both the left-hand side (LHS) and right-hand side (RHS) until.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -71,7 +71,7 @@ export const w_c7_mathematicsfindingtheunknownsim: SimDef = {
                 { text: 'their difference', outcome: 'Not quite — Students frequently confuse the operations when using the formula $HCF \\times LCM = a \\times b$.', reveals: 'students-frequently-confuse-the-operations' }
             ] }] } }
     ],
-    explore: { component: C7_MathematicsFindingTheUnknownSim, prompt: 'Explore the interactive — Finding The Unknown' },
+    explore: { component: C7_MathematicsFindingTheUnknownSim, prompt: 'Explore the interactive — Finding the Unknown: Balancing Both Sides' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch15_002', difficulty: 'standard',
           question: 'Finding the unknown by balancing both sides is the process of maintaining.',

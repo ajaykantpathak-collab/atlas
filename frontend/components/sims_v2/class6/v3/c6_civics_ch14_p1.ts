@@ -85,8 +85,8 @@ export const c6_civics_ch14_p1: SimDef = {
           hint: 'Review the map of India and identify the different states and their unique languages.',
           misconception: 'Students often think "diversity" means "division" or that if people are different, they cannot get along.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Diversity is the presence of a wide variety of differences among people, including their',
-                  options: ['Diversity is the presence of a wide variety of differences among people, including their', 'Linguistic diversity refers to the existence of a wide variety of languages and dialects', 'Religious diversity refers to the presence of multiple different faiths and belief', 'Cultural diversity refers to the existence of a wide variety of customs, languages,'],
+                { id: 'a', prompt: 'If a new student joins your class from a different state, how can you show that you value diversity?', answer: 'Greet them warmly',
+                  options: ['Greet them warmly', 'diversity', 'division'],
                   hint: 'Review the map of India and identify the different states and their unique languages.',
                   misconception: 'Students often think "diversity" means "division" or that if people are different, they cannot get along.' }
           ],

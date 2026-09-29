@@ -99,6 +99,10 @@ export const c7_bio_ch03_p2: SimDef = {
                 { id: 'b', prompt: 'During a hot sunny afternoon in a garden in Rajasthan, why is it advantageous for a plant\'s stomata to remain partially or fully closed?', answer: 'To prevent excessive loss of water vapor through transpiration',
                   options: ['To prevent excessive loss of water vapor through transpiration', 'breathe in carbon dioxide and breathe out oxygen'],
                   hint: 'Review c7_bio_ch03_003 to examine leaf structure and how cells are arranged inside a leaf.',
+                  misconception: 'Students often believe that plants "breathe in carbon dioxide and breathe out oxygen" during the day, and do the reverse at night, viewing.' },
+                { id: 'c', prompt: 'A student applies a thin layer of transparent nail polish to the lower surface of a potted balsam leaf, blocking all the stomata on that side.', answer: 'Identify that stomata are the main entry points for carbon dioxide into the leaf',
+                  options: ['Identify that stomata are the main entry points for carbon dioxide into the leaf', 'breathe in carbon dioxide and breathe out oxygen'],
+                  hint: 'Review c7_bio_ch03_003 to examine leaf structure and how cells are arranged inside a leaf.',
                   misconception: 'Students often believe that plants "breathe in carbon dioxide and breathe out oxygen" during the day, and do the reverse at night, viewing.' }
           ],
             remediations: { 'plants-breathe-in-carbon-dioxide': { steps: ['1) Review the dual role of plant leaves: making food via photosynthesis and breaking down food via cellular respiration.', '2) Draw two parallel columns on a paper: Day (Sunlight present: Photosynthesis > Respiration) and Night (Darkness: Only.', '3) Trace the movement of oxygen and carbon dioxide through the stomata for each condition separately to show that gas.'], labTask: { instruction: 'On the interactive: give the plant 60% sunlight — watch its growth rate — then check.', widget: 'grow', validate: 'grow:sun=60' } } } },

@@ -6,16 +6,16 @@ import C11_AccountancyCashBookSimpleSim from '../../../simulations/c6_12/C11_Acc
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_accountancycashbooksimplesim: SimDef = {
     id: 'v3w_c11_accountancycashbooksimplesim',
-    title: 'Cash Book Simple',
+    title: 'Cash Book: Simple Cash Book',
     subtitle: 'This node covers only the Single Column Cash Book: format, recording rules, balancing,.',
     classLevel: 11, subject: 'accountancy', topic: 'Cash Book: Simple Cash Book',
     chapters: [],
     nodeIds: ['c11_acc_cbse_04_001', 'c11_acc_cbse_03_007', 'c11_acc_cbse_03_010', 'c11_acc_cbse_04_002', 'c11_acc_cbse_04_003', 'c11_acc_cbse_04_004', 'c11_acc_cbse_04_005', 'c11_acc_cbse_04_006', 'c11_acc_cbse_04_007', 'c11_acc_cbse_04_008', 'c11_acc_cbse_04_009', 'c11_acc_cbse_09_008', 'c11_acc_cbse_09_005', 'c11_acc_cbse_01_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you run a small kirana store. Every day you receive cash from customers and pay cash for purchases,.', goal: 'Master Cash Book Simple.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you run a small kirana store. Every day you receive cash from customers and pay cash for purchases,.', goal: 'Master Cash Book: Simple Cash Book.' },
     discovery: {
         question: 'In the ledger account for "Cash", a journal entry shows "Cash A/c Dr. 10,000 To Sales A/c 10,000".',
-        options: ['Correct answer: "Sales"', 'Capital', 'Furniture'],
+        options: ['"Sales"', 'Capital', 'Furniture'],
         answer: '"Sales"',
         hook: 'Students believe the Particulars column in a ledger account should repeat the account\'s own name (e.g., writing.',
     },
@@ -82,7 +82,7 @@ export const w_c11_accountancycashbooksimplesim: SimDef = {
             { text: 'Post monthly totals: Purchases A/c Dr. 1,62,675 (Sundries as per Purchase Book); Sales A/c Cr.', faded: true, blankAnswer: 'Purchase Book Total ₹1,62,675; Sales Book Total ₹1,08,020..' }
             ] } },
         { type: 'dissect', nodeId: 'c11_acc_cbse_03_007', title: 'Identify each idea',
-          dissect: { specimen: 'Cash Book Simple', spots: [
+          dissect: { specimen: 'Cash Book: Simple Cash Book', spots: [
             { id: 's1', label: 'A Simple Cash Book Single', prompt: 'Which idea is this? — A Simple Cash Book (Single Column Cash Book) is a subsidiary book that records only cash.', answer: 'A Simple Cash Book Single', options: ['A Simple Cash Book Single', 'A Journal is the primary', 'Posting is the systematic process', 'A Two-column Cash Book records'] },
             { id: 's2', label: 'A Journal is the primary', prompt: 'Which idea is this? — A Journal is the primary book of original entry where business transactions are recorded.', answer: 'A Journal is the primary', options: ['A Journal is the primary', 'A Simple Cash Book Single', 'Posting is the systematic process', 'A Two-column Cash Book records'] },
             { id: 's3', label: 'Posting is the systematic process', prompt: 'Which idea is this? — Posting is the systematic process of transferring journal entries to their respective.', answer: 'Posting is the systematic process', options: ['Posting is the systematic process', 'A Simple Cash Book Single', 'A Journal is the primary', 'A Two-column Cash Book records'] },
@@ -91,7 +91,7 @@ export const w_c11_accountancycashbooksimplesim: SimDef = {
             { id: 's6', label: 'The Purchase Book is a', prompt: 'Which idea is this? — The Purchase Book is a subsidiary book used exclusively to record all credit purchases of.', answer: 'The Purchase Book is a', options: ['The Purchase Book is a', 'A Simple Cash Book Single', 'A Journal is the primary', 'Posting is the systematic process'] }
           ] } }
     ],
-    explore: { component: C11_AccountancyCashBookSimpleSim, prompt: 'Explore the interactive — Cash Book Simple' },
+    explore: { component: C11_AccountancyCashBookSimpleSim, prompt: 'Explore the interactive — Cash Book: Simple Cash Book' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_acc_cbse_04_001', difficulty: 'standard',
           question: 'A Simple Cash Book (Single Column Cash Book) is a subsidiary book that records.',

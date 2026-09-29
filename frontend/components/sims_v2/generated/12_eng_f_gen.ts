@@ -9,15 +9,13 @@ import type { SimDef } from '../engine/types';
 export const C12_ENG_F_GEN: SimDef[] = [
  {
   "id": "gen_c12_eng_f_ch01",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch1: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch1: Before You Read: Context and Background"],
   "nodeIds": [
    "c12_eng_f_cbse_01_001",
    "c12_eng_f_cbse_01_002",
@@ -42,7 +40,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does \"Before You Read actually explain?",
+   "question": "In one line -- what does Before You Read: Context and actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -53,13 +51,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "\"Before You Read: Context and Background\" provides the essential historical, biographical, and cultural framework required to comprehend Alphonse Daudet's \"The Last Lesson.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Plot And Narrative Structure Refer To",
+    "title": "Plot And Narrative Structure",
     "text": "Plot and narrative structure refer to the organized sequence of events in a story and the techniques used to present them, including exposition, rising action, climax, falling action, resolution, point of view, and temporal arrangement.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
@@ -799,25 +797,23 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch02",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch2: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch2: Before You Read: Context and Background"],
   "nodeIds": [
    "c12_eng_f_cbse_02_001",
    "c12_eng_f_cbse_02_002",
@@ -842,7 +838,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does \"Before You Read actually explain?",
+   "question": "In one line -- what does Before You Read: Context and actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -853,13 +849,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "\"Before You Read: Context and Background\" is a pre-reading strategy that equips students with the historical, social, economic, and authorial information necessary to access a text's deeper meanings.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Plot And Narrative Structure In \"Lost",
+    "title": "Text: Plot and Narrative Structure",
     "text": "Plot and Narrative Structure in \"Lost Spring\" refers to the author Anees Jung's deliberate organization of two parallel real-life narratives — Saheb the ragpicker in Seemapuri and Mukesh the bangle-maker's son in Firozabad — into a cohesive non-fiction",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1495,25 +1491,23 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch03",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 3",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch3: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch3: Before You Read: Context and Background"],
   "nodeIds": [
    "c12_eng_f_cbse_03_001",
    "c12_eng_f_cbse_03_002",
@@ -1538,7 +1532,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if \"Before You Read suddenly stops working?",
+   "question": "What happens if Before You Read: Context and suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -1549,7 +1543,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "The \"Before You Read: Context and Background\" section provides essential preliminary information about the author (William O. Douglas), the autobiographical source (Of Men and Mountains), the geographical setting (Yakima, Washington), and the central",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2379,25 +2373,23 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch04",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 4",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch4: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch4: Before You Read: Context and Background"],
   "nodeIds": [
    "c12_eng_f_cbse_04_001",
    "c12_eng_f_cbse_04_002",
@@ -2422,7 +2414,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is \"Before You Read more about facts, or about reasoning?",
+   "question": "Is Before You Read: Context and more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -2433,7 +2425,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "\"Before You Read: Context and Background\" is a preparatory literary skill that equips students to activate prior knowledge, situate a text in its historical-cultural-authorial framework, and anticipate thematic concerns before engaging with the narrative,",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3360,25 +3352,23 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch05",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 5",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch5: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch5: Before You Read: Context and Background"],
   "nodeIds": [
    "c12_eng_f_cbse_05_001",
    "c12_eng_f_cbse_05_002",
@@ -3403,7 +3393,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does \"Before You Read actually explain?",
+   "question": "In one line -- what does Before You Read: Context and actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -3414,7 +3404,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "\"Before You Read: Context and Background\" is a pre-reading strategy that equips students with the historical, biographical, and conceptual framework necessary to comprehend the chapter \"Indigo\" by Louis Fischer.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3474,7 +3464,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Language Usage Analysis Examines How An",
+    "title": "Language Usage Analysis Examines How",
     "text": "Language usage analysis examines how an author's grammatical choices — sentence structure, verb forms, punctuation, direct vs. reported speech, and register — shape meaning, tone, and narrative effect in a literary text.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -3486,7 +3476,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking Analysis And",
+    "title": "Critical Thinking: Analysis",
     "text": "Critical thinking analysis and interpretation in literature is the systematic process of examining a text's deeper layers — themes, character motivations, narrative strategies, historical context, and authorial choices — to construct evidence-based arguments",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -4286,25 +4276,23 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch06",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 6",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch6: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch6: Before You Read: Context and Background"],
   "nodeIds": [
    "c12_eng_f_cbse_06_001",
    "c12_eng_f_cbse_06_002",
@@ -4329,7 +4317,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is \"Before You Read more about facts, or about reasoning?",
+   "question": "Is Before You Read: Context and more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -4340,13 +4328,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "\"Before You Read: Context and Background\" is a pre-reading activity that provides historical, cultural, and authorial context to help students understand the setting, themes, and significance of the prose piece \"Poets and Pancakes\" before engaging with the",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Plot And Narrative Structure In \"Poets And",
+    "title": "Text: Plot and Narrative Structure",
     "text": "Plot and narrative structure in \"Poets and Pancakes\" refers to the author Asokamitran's deliberate use of a rambling, associative first-person narrative that mimics the workings of memory — where one anecdote triggers another through thematic links rather",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -4418,7 +4406,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Writing Skills Based On \"Poets And",
+    "title": "Writing Skills: Based on the Chapter",
     "text": "Writing skills based on \"Poets and Pancakes\" involve crafting a humorous, rambling character sketch or narrative that adopts Asokamitran's chatty style: gentle irony, digressive transitions, exaggerated idiosyncrasies, and a conversational tone that masks",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
@@ -5225,25 +5213,23 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch07",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 7",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch7: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch7: Before You Read: Context and Background"],
   "nodeIds": [
    "c12_eng_f_cbse_07_001",
    "c12_eng_f_cbse_07_002",
@@ -5268,7 +5254,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses \"Before You Read in real working life?",
+   "question": "Who uses Before You Read: Context and in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -5279,7 +5265,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "The \"Before You Read: Context and Background\" section for \"The Interview\" provides the historical, cultural, and literary framework necessary to understand Christopher Silvester's introduction to *The Penguin Book of Interviews* and the subsequent interview",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
@@ -5879,11 +5865,11 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -6754,15 +6740,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_eng_f_ch09",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 9",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch9: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch9: Before You Read: Context and Background"],
   "nodeIds": [
    "c12_eng_f_cbse_09_001",
    "c12_eng_f_cbse_09_002",
@@ -6787,7 +6771,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses \"Before You Read in real working life?",
+   "question": "Who uses Before You Read: Context and in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -6798,7 +6782,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "\"Before You Read: Context and Background\" is a pre-reading strategy that prepares students to engage with a poem by providing essential information about the poet's life, the historical/social context of the work, and the central thematic concern — in this",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -6816,7 +6800,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist In",
+    "title": "Character Analysis Of The Protagonist",
     "text": "Character analysis of the protagonist in a poem involves examining the speaker's personality, emotions, internal conflicts, and development through their observations, thoughts, and actions as revealed in the text.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
@@ -7536,11 +7520,11 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -7656,7 +7640,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Literal Comprehension Questions Ask For",
+    "title": "Comprehension: Literal and Inferential",
     "text": "Literal comprehension questions ask for information directly stated in the text, while inferential comprehension questions require the reader to draw conclusions, make connections, or interpret implied meaning using textual evidence and reasoning.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -8271,15 +8255,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_eng_f_ch11",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 11",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch11: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch11: Before You Read: Context and Background"],
   "nodeIds": [
    "c12_eng_f_cbse_11_001",
    "c12_eng_f_cbse_11_002",
@@ -8304,7 +8286,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is \"Before You Read more about facts, or about reasoning?",
+   "question": "Is Before You Read: Context and more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -8315,7 +8297,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "\"Before You Read: Context and Background\" provides the essential biographical, historical, and literary framework needed to approach a poem. For \"A Thing of Beauty,\" this includes understanding John Keats as a Romantic poet, the Greek myth of Endymion and",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -8339,7 +8321,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "In Poetry, \"supporting Characters\" Refer To",
+    "title": "In Poetry, \"supporting Characters\"",
     "text": "In poetry, \"supporting characters\" refer to the collective voices, groups, or symbolic entities (e.g., humanity, nature, specific professions) that the poet references to advance the central idea.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -9100,25 +9082,23 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch12",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 12",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch12: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch12: Before You Read: Context and Background"],
   "nodeIds": [
    "c12_eng_f_cbse_12_001",
    "c12_eng_f_cbse_12_002",
@@ -9143,7 +9123,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see \"Before You Read directly with your eyes?",
+   "question": "Can you see Before You Read: Context and directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -9154,7 +9134,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "\"Before You Read: Context and Background\" is a preparatory literary skill where students examine the poet's life, historical period, socio-economic setting, and key thematic concerns before engaging with the poem, enabling them to activate prior knowledge and",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -9830,11 +9810,11 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },

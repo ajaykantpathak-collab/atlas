@@ -6,13 +6,13 @@ import C11_BiologyElectronTransportSystemSim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologyelectrontransportsystemsim: SimDef = {
     id: 'v3w_c11_biologyelectrontransportsystemsim',
-    title: 'Electron Transport System',
+    title: 'Respiratory Balance Sheet: ATP Yield',
     subtitle: 'Covers the step-wise accounting of ATP, NADH, and FADH₂ produced per glucose molecule in.',
     classLevel: 11, subject: 'biology', topic: 'Respiratory Balance Sheet: ATP Yield',
     chapters: [],
     nodeIds: ['c11_bio_cbse_12_007', 'c11_bio_cbse_08_006', 'c11_bio_cbse_12_001', 'c11_bio_cbse_12_005', 'c11_bio_cbse_12_006', 'c11_bio_cbse_11_001', 'c11_bio_cbse_11_002', 'c11_bio_cbse_11_003', 'c11_bio_cbse_11_008', 'c11_bio_cbse_08_005', 'c11_bio_cbse_09_007', 'c11_bio_cbse_14_001', 'c11_bio_cbse_15_008', 'c11_bio_cbse_16_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a marathon runner crossing the finish line — their muscles have consumed massive amounts of glucose.', goal: 'Master Electron Transport System.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a marathon runner crossing the finish line — their muscles have consumed massive amounts of glucose.', goal: 'Master Respiratory Balance Sheet: ATP Yield.' },
     discovery: {
         question: 'A student claims: "Since fermentation yields only 2 ATP per glucose and aerobic respiration yields 38 ATP, aerobic respiration is 19 times more efficient.".',
         options: ['The statement is incorrect', 'fold increase in ATP count', 'fold increase in energy capture efficiency'],
@@ -82,7 +82,7 @@ export const w_c11_biologyelectrontransportsystemsim: SimDef = {
             { text: 'Conclude that balanced excitation of both photosystems maximises O₂ evolution; far-red light causes PS I.', faded: true, blankAnswer: 'High O₂ at 440 nm and 650 nm (both photosystems excited);.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_08_006', title: 'Identify each idea',
-          dissect: { specimen: 'Electron Transport System', spots: [
+          dissect: { specimen: 'Respiratory Balance Sheet: ATP Yield', spots: [
             { id: 's1', label: 'The respiratory balance sheet is', prompt: 'Which idea is this? — The respiratory balance sheet is a theoretical calculation of the net ATP yield from the.', answer: 'The respiratory balance sheet is', options: ['The respiratory balance sheet is', 'Mitochondria are double-membrane-bound organelles present', 'Cellular respiration is the enzyme-mediated', 'The Krebs cycle tricarboxylic acidTCA'] },
             { id: 's2', label: 'Mitochondria are double-membrane-bound organelles present', prompt: 'Which idea is this? — Mitochondria are double-membrane-bound organelles present in almost all eukaryotic cells.', answer: 'Mitochondria are double-membrane-bound organelles present', options: ['Mitochondria are double-membrane-bound organelles present', 'The respiratory balance sheet is', 'Cellular respiration is the enzyme-mediated', 'The Krebs cycle tricarboxylic acidTCA'] },
             { id: 's3', label: 'Cellular respiration is the enzyme-mediated', prompt: 'Which idea is this? — Cellular respiration is the enzyme-mediated, stepwise oxidative breakdown of organic.', answer: 'Cellular respiration is the enzyme-mediated', options: ['Cellular respiration is the enzyme-mediated', 'The respiratory balance sheet is', 'Mitochondria are double-membrane-bound organelles present', 'The Krebs cycle tricarboxylic acidTCA'] },
@@ -91,7 +91,7 @@ export const w_c11_biologyelectrontransportsystemsim: SimDef = {
             { id: 's6', label: 'Photosynthesis in higher plants is', prompt: 'Which idea is this? — Photosynthesis in higher plants is a physico-chemical process occurring in chloroplasts.', answer: 'Photosynthesis in higher plants is', options: ['Photosynthesis in higher plants is', 'The respiratory balance sheet is', 'Mitochondria are double-membrane-bound organelles present', 'Cellular respiration is the enzyme-mediated'] }
           ] } }
     ],
-    explore: { component: C11_BiologyElectronTransportSystemSim, prompt: 'Explore the interactive — Electron Transport System' },
+    explore: { component: C11_BiologyElectronTransportSystemSim, prompt: 'Explore the interactive — Respiratory Balance Sheet: ATP Yield' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_12_007', difficulty: 'standard',
           question: 'The respiratory balance sheet is a theoretical calculation of the net ATP yield.',

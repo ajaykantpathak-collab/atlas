@@ -6,16 +6,16 @@ import C9_HistoryCivicsDefinitionConstitutionSignificanceSim from '../../../simu
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_historycivicsdefinitionconstitutionsignificancesim: SimDef = {
     id: 'v3w_c9_historycivicsdefinitionconstitutionsignificancesim',
-    title: 'Definition Constitution Significance',
+    title: 'Democracy: Definition and Core Principles',
     subtitle: 'This node covers the conceptual definition of democracy, its core principles (popular.',
     classLevel: 9, subject: 'history', topic: 'Democracy: Definition and Core Principles',
     chapters: [],
     nodeIds: ['c9_civ_ch1_1', 'c9_civ_ch1_3', 'c9_civ_ch2_1'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are reading a news report about a country that holds regular elections but the opposition leaders.', goal: 'Master Definition Constitution Significance.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are reading a news report about a country that holds regular elections but the opposition leaders.', goal: 'Master Democracy: Definition and Core Principles.' },
     discovery: {
         question: 'A country holds elections every five years with universal adult franchise.',
-        options: ['Correct answer: No, it lacks substantive democracy', 'yes because elections are held', 'democracy = majority rule'],
+        options: ['No, it lacks substantive democracy', 'yes because elections are held', 'democracy = majority rule'],
         answer: 'No, it lacks substantive democracy',
         hook: 'Students often think "democracy = majority rule" and therefore believe that if a government wins an election with 51%.',
     },
@@ -51,13 +51,13 @@ export const w_c9_historycivicsdefinitionconstitutionsignificancesim: SimDef = {
             { text: 'Conclude: The claim is partially correct on substantive grounds but wrong procedurally.', faded: true, blankAnswer: 'The government is procedurally legitimate (constitutionally.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_civ_ch1_3', title: 'Identify each idea',
-          dissect: { specimen: 'Definition Constitution Significance', spots: [
+          dissect: { specimen: 'Democracy: Definition and Core Principles', spots: [
             { id: 's1', label: 'Democracy is a system of', prompt: 'Which idea is this? — Democracy is a system of government in which supreme political power is vested in the.', answer: 'Democracy is a system of', options: ['Democracy is a system of', 'A constitution in a democracy', 'Elections are the constitutional mechanism'] },
             { id: 's2', label: 'A constitution in a democracy', prompt: 'Which idea is this? — A constitution in a democracy is the supreme fundamental law that establishes the.', answer: 'A constitution in a democracy', options: ['A constitution in a democracy', 'Democracy is a system of', 'Elections are the constitutional mechanism'] },
             { id: 's3', label: 'Elections are the constitutional mechanism', prompt: 'Which idea is this? — Elections are the constitutional mechanism through which citizens exercise their.', answer: 'Elections are the constitutional mechanism', options: ['Elections are the constitutional mechanism', 'Democracy is a system of', 'A constitution in a democracy'] }
           ] } }
     ],
-    explore: { component: C9_HistoryCivicsDefinitionConstitutionSignificanceSim, prompt: 'Explore the interactive — Definition Constitution Significance' },
+    explore: { component: C9_HistoryCivicsDefinitionConstitutionSignificanceSim, prompt: 'Explore the interactive — Democracy: Definition and Core Principles' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_civ_ch1_1', difficulty: 'standard',
           question: 'Democracy is a system of government in which supreme political power is vested.',

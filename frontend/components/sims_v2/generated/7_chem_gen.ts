@@ -110,7 +110,7 @@ export const C7_CHEM_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Physical Properties Comparison Of Metals And",
+    "title": "Physical Properties Comparison Of Metals",
     "text": "Physical properties comparison of metals and non-metals involves systematically contrasting their observable and measurable characteristics—such as physical state, appearance (lustre), hardness, malleability, ductility, thermal and electrical conductivity,",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"

@@ -19,7 +19,7 @@ export const c12_hin_ar_ch10_p3: SimDef = {
         hook: 'Don\'t read it as just a sad servant story — the context stages a power binary (master-servant, caste, literacy) that the child\'s innocent gaze both reveals and unsettles. The Avadhi dialect she speaks is authenticity itself: identity recorded with respect, not corrected.',
     },
     teaching: [
-        { title: 'भक्तनि — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह प्रक्रिया है जिसमें छात्र पाठ्य-सामग्री को तथ्यों, साक्ष्यों, साहित्यिक युक्तियों और प्रसंगिक संदर्भों के आधार पर.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'भक्तनि — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'आरोह भाग-2 — पाठ 10\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_10_013', title: 'Your mission',
@@ -28,6 +28,13 @@ export const c12_hin_ar_ch10_p3: SimDef = {
         context: 'See through the child-narrator\'s eyes: map the household\'s hierarchy before a word of plot, weigh dialect as dignity, and read a memory sketch as social evidence.',
         labels: ['भक्तनि — आलोचनात्मक चिंतन', 'भक्तनि — लेखन कौशल', 'भक्तनि — वाचन-श्रवण: चर्चा-बिंदु'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_10_015', title: 'भक्तनि — वाचन-श्रवण: चर्चा-बिंदु',
+          caseStudy: { intro: '\'आरोह भाग-2 — पाठ 10\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'What is the primary purpose of \'Speaking and Listening: Discussion Points\' in the CBSE Class 12 Hindi Aroh assessment framework?', options: [
+                { text: 'The primary purpose is to assess a student\'s ability to articulate critical,', outcome: 'The primary purpose is to assess a student\'s ability to articulate critical, evidence-based.' },
+                { text: 'to test if students read the chapter', outcome: 'Not quite — Students treat discussion points as **\'speech topics\'** — preparing a memorized monologue covering.', reveals: 'students-treat-discussion-points-as' },
+                { text: 'to check pronunciation', outcome: 'Not quite — Students treat discussion points as **\'speech topics\'** — preparing a memorized monologue covering.', reveals: 'students-treat-discussion-points-as' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_10_013', title: 'Use it in the wild',
           caseStudy: { intro: 'For a features-writing course, you\'re profiling the woman who\'s run your hostel kitchen for 30 years. Your editor wants a \'heartwarming\' ending where she cries as the final batch of students leaves — \'that\'s the emotional payoff.\'',
             decisions: [{ prompt: 'What would Mohan Rakesh\'s \'भक्तिन\' tell the editor?', options: [
@@ -47,38 +54,42 @@ export const c12_hin_ar_ch10_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह.',
-          hint: 'यदि फँस जाएँ तो **c12_hin_ar_cbse_10_008 (बिंब/रूपक)** और **c12_hin_ar_cbse_10_009.',
-          misconception: '**सबसे घातक भ्रांति:** *"आलोचनात्मक चिंतन का अर्थ है पाठ में कमियाँ निकालना (criticize = fault-finding)।"*.',
+          question: '\'आरोह भाग-2 — पाठ 10\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
+          hint: 'If stuck on "Interrogate" step: Return to c12_hin_ar_cbse_10_009 (Irony) and trace *one*.',
+          misconception: '**Misconception:** "Critical analysis means finding faults in the text or criticizing the author." **Why it\'s wrong:**.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह प्रक्रिया है',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन विश्लेषण और व्याख्या की वह प्रक्रिया है', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के', 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
-                  hint: 'यदि फँस जाएँ तो **c12_hin_ar_cbse_10_008 (बिंब/रूपक)** और **c12_hin_ar_cbse_10_009.',
-                  misconception: '**सबसे घातक भ्रांति:** *"आलोचनात्मक चिंतन का अर्थ है पाठ में कमियाँ निकालना (criticize = fault-finding)।"* **वास्तविकता:** क्रिटिकल थिंकिंग.' }
+                { id: 'a', prompt: 'Compare the portrayal of HkfDru\'s relationship with her *own* daughter (who dies) versus her relationship with the narrator\'s children.', answer: 'HkfDru\'s biological daughter dies neglected',
+                  options: ['HkfDru\'s biological daughter dies neglected', 'sadness'],
+                  hint: 'If stuck on "Interrogate" step: Return to c12_hin_ar_cbse_10_009 (Irony) and trace *one* ironic.',
+                  misconception: '**Misconception:** "Critical analysis means finding faults in the text or criticizing the author." **Why it\'s wrong:** Students equate.' }
           ],
-            remediations: { 'criticize-fault-finding': { steps: ['**चरणबद्ध उपचार (Remediation Path):** 1.', '**पुनर्निदान (Re-diagnostic):** छात्र से कहें — *"भक्तनि पाठ का कोई एक दृश्य चुनो और बताओ: यहाँ लेखक ने \'दिखाया\' (show).', 'अंतर स्पष्ट करो।"* — यदि वह \'बताया\' के उदाहरण दे (जैसे "लेखक ने लिखा भक्तनि दुखी थी"), तो **Show vs Tell** की अवधारणा.', '**माइक्रो-व्यायाम:** पाठ के 3 छोटे अंश (2-3 वाक्य) दें — प्रत्येक में **एक साहित्यिक युक्ति (बिंब/प्रतीक/विरोधाभास).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'misconception-critical-analysis-means-finding': { steps: ['If a student cannot move beyond summary or moral judgment: 1.', '**Revisit** c12_hin_ar_cbse_10_004 (Character Analysis) and c12_hin_ar_cbse_10_009 (Irony and Symbolism) — identify.', 'Now What?" template on a single paragraph: *What* does the text say?', '*So what* does it imply about power?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल का अर्थ है — किसी साहित्यिक पाठ (यहाँ \'भक्तनि\') के कथ्य.',
+          question: '\'आरोह भाग-2 — पाठ 10\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि प्रमाण (Evidence) चुनने में अटकें → c12_hin_ar_cbse_10_012 (बोध-प्रश्न) दोहराएँ; यदि.',
           misconception: '**भ्रांति:** "पाठ-आधारित लेखन का अर्थ है पाठ की कहानी अपने शब्दों में दोहरा देना (paraphrasing)।" **वास्तविकता:** बोर्ड.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल का अर्थ है',
-                  options: ['पाठ-आधारित लेखन कौशल का अर्थ है', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के', 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 10\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+                  options: ['\'आरोह भाग-2 — पाठ 10\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 10\' का कथानक — \'आरोह भाग-2 — पाठ 10\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 10\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि प्रमाण (Evidence) चुनने में अटकें → c12_hin_ar_cbse_10_012 (बोध-प्रश्न) दोहराएँ; यदि व्याख्या.',
                   misconception: '**भ्रांति:** "पाठ-आधारित लेखन का अर्थ है पाठ की कहानी अपने शब्दों में दोहरा देना (paraphrasing)।" **वास्तविकता:** बोर्ड परीक्षा (CBSE/ICSE).' }
           ],
             remediations: { 'paraphrasing-cbse-icse-cuet-evidence': { steps: ['**चरणबद्ध उपचार (Remediation Path):** 1.', '**तत्काल निदान:** छात्र से कहें — "प्रश्न पढ़ो, फिर बताओ: तुमसे *क्या* माँगा जा रहा है — कहानी सुनाना या राय देना?".', '**मॉडलिंग:** ऊपर दिए गए WORKED_EXAMPLE_3 की तरह एक कमज़ोर उत्तर लें, कक्षा में मिलकर उसे PEEL में बदलें — प्रत्येक चरण.', '**सूक्ष्म-अभ्यास (Micro-drill):** केवल **Evidence ढूँढना** — पाठ से 5 प्रश्न दें, प्रत्येक के लिए मात्र **एक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु एक सहयोगी शैक्षणिक प्रक्रिया है जिसमें शिक्षक और.',
-          hint: 'यदि चर्चा में भाग लेने में झिझक हो, तो **c12_hin_ar_cbse_10_012 (बोध-प्रश्न)** के.',
-          misconception: 'छात्र अक्सर मानते हैं कि **\'चर्चा-बिंदु\' का अर्थ है \'पाठ से प्रश्न बनाकर उनके उत्तर रटना\'**। वे चर्चा को **एकतरफा.',
+          question: '\'आरोह भाग-2 — पाठ 10\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'If stuck, revisit **c12_hin_ar_cbse_10_013 (Critical Thinking)** for analytical.',
+          misconception: 'Students treat discussion points as **\'speech topics\'** — preparing a memorized monologue covering plot summary + moral.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु एक सहयोगी शैक्षणिक प्रक्रिया है जिसमें शिक्षक और विद्यार्थी मिलकर',
-                  options: ['वाचन-श्रवण: चर्चा-बिंदु एक सहयोगी शैक्षणिक प्रक्रिया है जिसमें शिक्षक और विद्यार्थी मिलकर', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के', 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
-                  hint: 'यदि चर्चा में भाग लेने में झिझक हो, तो **c12_hin_ar_cbse_10_012 (बोध-प्रश्न)** के.',
-                  misconception: 'छात्र अक्सर मानते हैं कि **\'चर्चा-बिंदु\' का अर्थ है \'पाठ से प्रश्न बनाकर उनके उत्तर रटना\'**। वे चर्चा को **एकतरफा सूचना-हस्तांतरण** समझते.' }
+                { id: 'a', prompt: 'What is the primary purpose of \'Speaking and Listening: Discussion Points\' in the CBSE Class 12 Hindi Aroh assessment framework?', answer: 'The primary purpose is to assess a student\'s ability to articulate critical,',
+                  options: ['The primary purpose is to assess a student\'s ability to articulate critical,', 'to test if students read the chapter', 'to check pronunciation'],
+                  hint: 'If stuck, revisit **c12_hin_ar_cbse_10_013 (Critical Thinking)** for analytical frameworks and.',
+                  misconception: 'Students treat discussion points as **\'speech topics\'** — preparing a memorized monologue covering plot summary + moral lesson.' },
+                { id: 'b', prompt: 'A student says: "HkfDru is a tragic character because she is poor and uneducated." Identify the analytical gap in this statement and explain what textual.', answer: 'The statement reduces HkfDru to a victim of circumstances (poverty/illiteracy)',
+                  options: ['The statement reduces HkfDru to a victim of circumstances (poverty/illiteracy)', 'hath ka kaam', 'HkfDru ne mujhe jeena sikhaya'],
+                  hint: 'If stuck, revisit **c12_hin_ar_cbse_10_013 (Critical Thinking)** for analytical frameworks and.',
+                  misconception: 'Students treat discussion points as **\'speech topics\'** — preparing a memorized monologue covering plot summary + moral lesson.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**चरण 1:** विद्यार्थी से पूछें — "अगर तुम्हें इस पाठ का कोई एक दृश्य बदलना हो, तो कौन-सा और क्यों?" — यह **व्यक्तिगत.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-discussion-points-as': { steps: ['If a student defaults to monologue mode: **Step 1** — Stop them at 60 seconds.', 'Mujhe yeh sawal hai: \'HkfDru ne kabhi apni jaati nahi batayi.', 'Kyun?\' Ab jawab do." **Step 2** — If they stall, model: "Text mein jaati ka seedha zikr nahi, lekin \'neech jaat\'.', 'Yeh chhupana Verma ki strategy hai — jaati ko *structure* dikhana, nahi *label*." **Step 3** — Have them practice.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

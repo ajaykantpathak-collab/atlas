@@ -116,7 +116,7 @@ export const c8_engl_ch02_p3: SimDef = {
           misconception: 'Students often treat the mention of the Kumaon Regiment as merely a factual detail akin to noting someone\'s address.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The Kumaon Regiment is a historic infantry unit of the Indian Army, renowned for its',
-                  options: ['The Kumaon Regiment is a historic infantry unit of the Indian Army, renowned for its', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'Critical thinking in this context means analyzing the concepts of valour and sacrifice by'],
+                  options: ['The Kumaon Regiment is a historic infantry unit of the Indian Army, renowned for its', 'The historical context of the Kashmir Conflict and Operation Gulmarg (1947) refers to the', 'Comprehension of historical narratives involves analyzing textual evidence to explain', 'From \'English chapter c8_engl_ch2\': the skill or concept this node teaches, applied to'],
                   hint: 'If stuck, review the character analysis of Major Somnath Sharma (c8_engl_ch2_2) to recall explicit.',
                   misconception: 'Students often treat the mention of the Kumaon Regiment as merely a factual detail akin to noting someone\'s address, failing to recognize.' }
           ],

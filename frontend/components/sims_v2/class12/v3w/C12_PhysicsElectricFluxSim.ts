@@ -6,13 +6,13 @@ import C12_PhysicsElectricFluxSim from '../../../simulations/c6_12/C12_PhysicsEl
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicselectricfluxsim: SimDef = {
     id: 'v3w_c12_physicselectricfluxsim',
-    title: 'Electric Flux',
+    title: 'Electric Field: Definition and Calculation',
     subtitle: 'This node covers the definition of electric field, its calculation for a point charge,.',
     classLevel: 12, subject: 'physics', topic: 'Electric Field: Definition and Calculation',
     chapters: [],
     nodeIds: ['c12_phy_cbse_01_004', 'c12_phy_cbse_01_006', 'c12_phy_cbse_01_007', 'c12_phy_cbse_01_008', 'c12_phy_cbse_01_009', 'c12_phy_cbse_01_010', 'c12_phy_cbse_08_001', 'c12_phy_cbse_06_005', 'c12_phy_cbse_07_009', 'c12_phy_cbse_11_003', 'c12_phy_cbse_06_001', 'c12_phy_cbse_06_002', 'c12_phy_cbse_06_003', 'c12_phy_cbse_06_007', 'c12_phy_cbse_01_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you rub a plastic ruler against your dry hair and hold it near tiny bits of paper — the paper jumps.', goal: 'Master Electric Flux.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you rub a plastic ruler against your dry hair and hold it near tiny bits of paper — the paper jumps.', goal: 'Master Electric Field: Definition and Calculation.' },
     discovery: {
         question: 'What is the SI unit of electric field, and how is it derived from the definition \\(\\vec{E} = \\vec{F}/q\\)?',
         options: ['The SI unit is newton per coulomb (N/C)', 'without realizing it is equivalent', 'which inverts the definition'],
@@ -80,7 +80,7 @@ export const w_c12_physicselectricfluxsim: SimDef = {
             { text: 'Verify reasonableness: Field is uniform, so distance 5 cm does not appear in answer.', faded: true, blankAnswer: 'E = 1.13 × 10⁵ N/C away from sheet; electron acceleration =.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_01_006', title: 'Identify each idea',
-          dissect: { specimen: 'Electric Flux', spots: [
+          dissect: { specimen: 'Electric Field: Definition and Calculation', spots: [
             { id: 's1', label: 'Electric field at a point', prompt: 'Which idea is this? — Electric field at a point in space is defined as the electrostatic force per unit.', answer: 'Electric field at a point', options: ['Electric field at a point', 'Electric field lines are imaginary', 'Electric flux is a scalar', 'Gausss Law states that the'] },
             { id: 's2', label: 'Electric field lines are imaginary', prompt: 'Which idea is this? — Electric field lines are imaginary curves drawn in an electric field such that the.', answer: 'Electric field lines are imaginary', options: ['Electric field lines are imaginary', 'Electric field at a point', 'Electric flux is a scalar', 'Gausss Law states that the'] },
             { id: 's3', label: 'Electric flux is a scalar', prompt: 'Which idea is this? — Electric flux is a scalar measure of the number of electric field lines penetrating a.', answer: 'Electric flux is a scalar', options: ['Electric flux is a scalar', 'Electric field at a point', 'Electric field lines are imaginary', 'Gausss Law states that the'] },
@@ -88,7 +88,7 @@ export const w_c12_physicselectricfluxsim: SimDef = {
             { id: 's5', label: 'The electric field due to', prompt: 'Which idea is this? — The electric field due to an infinitely long straight wire with uniform linear charge.', answer: 'The electric field due to', options: ['The electric field due to', 'Electric field at a point', 'Electric field lines are imaginary', 'Electric flux is a scalar'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsElectricFluxSim, prompt: 'Explore the interactive — Electric Flux' },
+    explore: { component: C12_PhysicsElectricFluxSim, prompt: 'Explore the interactive — Electric Field: Definition and Calculation' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_01_004', difficulty: 'standard',
           question: 'Electric field at a point in space is defined as the electrostatic force per.',

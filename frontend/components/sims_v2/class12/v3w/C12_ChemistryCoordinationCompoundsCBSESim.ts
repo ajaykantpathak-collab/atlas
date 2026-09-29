@@ -6,13 +6,13 @@ import C12_ChemistryCoordinationCompoundsCBSESim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_chemistrycoordinationcompoundscbsesim: SimDef = {
     id: 'v3w_c12_chemistrycoordinationcompoundscbsesim',
-    title: 'Coordination Compounds CBSE',
+    title: 'Werner\'s Theory of Coordination Compounds',
     subtitle: 'Covers Werner\'s four postulates, primary/secondary valence distinction, coordination.',
     classLevel: 12, subject: 'chemistry', topic: 'Werner\'s Theory of Coordination Compounds',
     chapters: [],
     nodeIds: ['c12_chem_cbse_05_001', 'c12_chem_cbse_05_002', 'c12_chem_cbse_05_003', 'c12_chem_cbse_05_004', 'c12_chem_cbse_05_005', 'c12_chem_cbse_05_009', 'c12_chem_cbse_05_008', 'c12_chem_cbse_04_007', 'c12_chem_cbse_04_002', 'c12_chem_cbse_04_004', 'c12_chem_cbse_04_006', 'c12_chem_cbse_04_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe what happens when you add concentrated ammonia to a pink solution of cobalt(II) chloride — it turns.', goal: 'Master Coordination Compounds CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe what happens when you add concentrated ammonia to a pink solution of cobalt(II) chloride — it turns.', goal: 'Master Werner\'s Theory of Coordination Compounds.' },
     discovery: {
         question: 'Compare the behaviour in aqueous solution of Mohr\'s salt FeSO₄·(NH₄)₂SO₄·6H₂O (a double salt) and K₄[Fe(CN)₆] (a coordination compound).',
         options: ['Mohr\'s salt dissociates completely into simple ions: Fe²⁺, 2NH₄⁺, 2SO₄²⁻', 'both give Fe²⁺ test', 'K₄[Fe(CN)₆] gives Fe²⁺'],
@@ -79,7 +79,7 @@ export const w_c12_chemistrycoordinationcompoundscbsesim: SimDef = {
             { text: '4 mol Au produces 4 mol NaOH → moles NaOH = 0.100 mol. Mass = 0.100 × 40 = 4.00 g.', faded: true, blankAnswer: '(a) 400 mL of 0.5 M NaCN, (b) 560 mL O₂ at STP, (c) 4.00 g.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_chem_cbse_05_002', title: 'Identify each idea',
-          dissect: { specimen: 'Coordination Compounds CBSE', spots: [
+          dissect: { specimen: 'Werner\'s Theory of Coordination Compounds', spots: [
             { id: 's1', label: 'Werners theory proposes that in', prompt: 'Which idea is this? — Werner\'s theory proposes that in coordination compounds, a central metal atom/ion.', answer: 'Werners theory proposes that in', options: ['Werners theory proposes that in', 'IUPAC nomenclature of coordination compounds', 'Structural isomerism in coordination compounds', 'Geometrical isomerism in coordination compounds'] },
             { id: 's2', label: 'IUPAC nomenclature of coordination compounds', prompt: 'Which idea is this? — IUPAC nomenclature of coordination compounds provides a systematic set of rules to name.', answer: 'IUPAC nomenclature of coordination compounds', options: ['IUPAC nomenclature of coordination compounds', 'Werners theory proposes that in', 'Structural isomerism in coordination compounds', 'Geometrical isomerism in coordination compounds'] },
             { id: 's3', label: 'Structural isomerism in coordination compounds', prompt: 'Which idea is this? — Structural isomerism in coordination compounds occurs when two or more compounds have the.', answer: 'Structural isomerism in coordination compounds', options: ['Structural isomerism in coordination compounds', 'Werners theory proposes that in', 'IUPAC nomenclature of coordination compounds', 'Geometrical isomerism in coordination compounds'] },
@@ -88,7 +88,7 @@ export const w_c12_chemistrycoordinationcompoundscbsesim: SimDef = {
             { id: 's6', label: 'Coordination compounds are complex entities', prompt: 'Which idea is this? — Coordination compounds are complex entities where a central metal atom/ion is bonded to.', answer: 'Coordination compounds are complex entities', options: ['Coordination compounds are complex entities', 'Werners theory proposes that in', 'IUPAC nomenclature of coordination compounds', 'Structural isomerism in coordination compounds'] }
           ] } }
     ],
-    explore: { component: C12_ChemistryCoordinationCompoundsCBSESim, prompt: 'Explore the interactive — Coordination Compounds CBSE' },
+    explore: { component: C12_ChemistryCoordinationCompoundsCBSESim, prompt: 'Explore the interactive — Werner\'s Theory of Coordination Compounds' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_chem_cbse_05_001', difficulty: 'standard',
           question: 'Werner\'s theory proposes that in coordination compounds, a central metal.',

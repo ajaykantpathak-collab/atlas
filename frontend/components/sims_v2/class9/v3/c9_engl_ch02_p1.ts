@@ -123,7 +123,7 @@ export const c9_engl_ch02_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-perseverance-and': { steps: ['If a student separates the values, do this 3-step remediation: (1) Have them re-read the kiln disaster scene and list.', '(2) Ask: "Could she have solved the cracking problem without her grandmother\'s ash technique?" The answer (no) proves.', '(3) Then examine Arenla\'s final words: "You\'ve given our pottery new life." Ask: "What would happen to the tradition.', 'This makes the fusion visible in the text\'s cause-effect logic.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c9_engl_ch2_2', difficulty: 'standard',
-          question: 'Character analysis is the systematic examination of a literary character\'s.',
+          question: 'From \'Sentila\': the skill or concept this node teaches, applied to the actual.',
           hint: 'Review "Show, Don\'t Tell" in character analysis from c8_engl_ch4_2 (Rakesh\'s actions.',
           misconception: 'Students equate determination with dramatic struggle or verbal assertion (e.g., "She fought for her right!").',
           parts: [
@@ -138,7 +138,7 @@ export const c9_engl_ch02_p1: SimDef = {
           ],
             remediations: { 'students-equate-determination-with-dramatic': { steps: ['Re-read the wheel scene aloud — notice verbs: "returned", "listened", "adjusted", "waited".', 'Compare with Jahnavi (c6_english_u1_002): make a T-chart of "Spoken vs Silent Actions".', 'Write one PEEL paragraph using ONLY verbs from the text as evidence.', 'Ask: "What would happen if Sentila shouted?" — discuss with peer using cultural context (Naga village hierarchy).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c9_engl_ch2_3', difficulty: 'standard',
-          question: 'Character analysis of Arenla (Sentila\'s mother) involves examining her traits.',
+          question: 'From \'Sentila\': the skill or concept this node teaches, applied to the actual.',
           hint: 'Revisit c9_engl_ch2_2 (Sentila\'s character analysis) to understand the protagonist\'s.',
           misconception: 'Students label Arenla as "the opposing mother" or "the antagonist" without analyzing her motivations.',
           parts: [

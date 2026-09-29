@@ -19,7 +19,7 @@ export const c12_hin_v_ch02_p1: SimDef = {
         hook: 'Read it as calculation, not just sentiment — and notice what the classroom reveals: the fluent classmate\'s ease is cultural capital, not talent. Even the teacher\'s method is real pedagogy — rhythm, repetition and emotion make poems survive decades in a student\'s memory.',
     },
     teaching: [
-        { title: 'जूझ — पृष्ठभूमि और रचनाकार परिचय', text: '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक संदर्भ** तथा **रचनाकार के जीवन-दर्शन, लेखन-शैली एवं प्रमुख कृतियों** का संक्षिप्त परिचय है जो पाठ के गहन अध्ययन के.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'जूझ — पृष्ठभूमि और रचनाकार परिचय', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_v_cbse_02_001', title: 'Your mission',
@@ -28,6 +28,19 @@ export const c12_hin_v_ch02_p1: SimDef = {
         context: 'Follow a goat-herd into a classroom: weigh a mother\'s economic logic, decode what separates the ready student from the late one, and ask what made one teacher\'s verse unforgettable.',
         labels: ['जूझ — पृष्ठभूमि और', 'जूझ — कथानक और', 'जूझ — पाठ्य-परिवेश और', 'जूझ — पात्र-चित्रण: नायक/प्रमुख', 'जूझ — पात्र-चित्रण: सहायक', 'जूझ — मुख्य विषय'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_v_cbse_02_001', title: 'जूझ — पृष्ठभूमि और रचनाकार परिचय',
+          caseStudy: { intro: 'वितान भाग-2 खोलिए और पाठ 02 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: 'Who is the author of *ikB\'kkyk tkus osQ fy, eu rM+irk Fkk* and what is his primary literary identity?', options: [
+                { text: 'The author is V.K', outcome: 'The author is V.K. Anand (वी.के. आनंद), a noted Hindi writer and poet associated with the *Nayi.' },
+                { text: 'Premchand or Harivansh Rai Bachchan', outcome: 'Not quite — Students treat "context" as a static list of facts (author birth/death, publication year) rather.', reveals: 'students-treat-context-as-a' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_v_cbse_02_003', title: 'जूझ — पाठ्य-परिवेश और वातावरण',
+          caseStudy: { intro: '\'वितान भाग-2 — पाठ 2\' का परिवेश: \'वितान भाग-2 — पाठ 2\' — वितान भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्रीय भाव पाठ्यपुस्त — स्थान और समय मिलकर माहौल बनाते.',
+            decisions: [{ prompt: 'What are the three primary physical settings described in the chapter "ikB\'kkyk tkus osQ fy, eu rM+irk Fkk"?', options: [
+                { text: 'The three primary physical settings are: (1) the narrator\'s impoverished village home', outcome: 'The three primary physical settings are: (1) the narrator\'s impoverished village home with his.' },
+                { text: 'home and school', outcome: 'Not quite — Students often treat setting as a static list of locations ("home, school, teacher\'s house") and.', reveals: 'students-often-treat-setting-as' },
+                { text: 'examination hall', outcome: 'Not quite — Students often treat setting as a static list of locations ("home, school, teacher\'s house") and.', reveals: 'students-often-treat-setting-as' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_v_cbse_02_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Profiling a self-made poet for the alumni magazine, you compress his schooling into one line — \'attended village school\' — and spend the word count on his awards. Your subject objects: \'the whole story is in the teacher who stayed after class.\'',
             decisions: [{ prompt: 'What does the pacing of \'पाठशाला जाने के लिए मन तड़पता था\' confirm?', options: [
@@ -47,67 +60,82 @@ export const c12_hin_v_ch02_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_001', difficulty: 'standard',
-          question: '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक.',
-          hint: 'यदि फँस जाएँ तो **कक्षा 11 वितान के पाठ 1 (c11_hin_v_cbse_01_001)** का "रचनाकार-परिचय →.',
-          misconception: '**विशिष्ट भ्रांति:** *"पृष्ठभूमि और रचनाकार परिचय = रटने योग्य तथ्य (नाम, तारीख, कृतियों की सूची)।"* **वास्तविकता:**.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, revisit **c11_hin_v_cbse_02_001** (Lalu\'s context) and practice the "3-column.',
+          misconception: 'Students treat "context" as a static list of facts (author birth/death, publication year) rather than a dynamic lens.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक',
-                  options: ['"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,', 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें कथानक के प्रमुख'],
-                  hint: 'यदि फँस जाएँ तो **कक्षा 11 वितान के पाठ 1 (c11_hin_v_cbse_01_001)** का "रचनाकार-परिचय →.',
-                  misconception: '**विशिष्ट भ्रांति:** *"पृष्ठभूमि और रचनाकार परिचय = रटने योग्य तथ्य (नाम, तारीख, कृतियों की सूची)।"* **वास्तविकता:** बोर्ड परीक्षा (CBSE).' }
+                { id: 'a', prompt: 'Who is the author of *ikB\'kkyk tkus osQ fy, eu rM+irk Fkk* and what is his primary literary identity?', answer: 'The author is V.K',
+                  options: ['The author is V.K', 'Premchand or Harivansh Rai Bachchan'],
+                  hint: 'If stuck, revisit **c11_hin_v_cbse_02_001** (Lalu\'s context) and practice the "3-column table".',
+                  misconception: 'Students treat "context" as a static list of facts (author birth/death, publication year) rather than a dynamic lens.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**पुनः पढ़ें (Re-read):** NCERT पाठ्यपुस्तक के **पहले 2 पृष्ठ** (रचनाकार परिचय + पृष्ठभूमि) **पेंसिल लेकर** पढ़ें — हर.', '**तालिका बनाएँ (Make a table):** दो कॉलम — **कॉलम A: लेखक/पृष्ठभूमि का तथ्य** (जैसे: अनामिका मैथिली भाषी हैं, 1990 में.', '**लिखित अभ्यास (Written drill):** उपरोक्त तालिका के किन्हीं **3 बिंदुओं** पर 60-80 शब्दों के **संक्षिप्त उत्तर** लिखें.', '**पुनः-जाँच (Re-diagnostic):** उपरोक्त **DIAGNOSTIC_QUESTION_2** और **DIAGNOSTIC_QUESTION_3** का उत्तर बिना देखे लिखें।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-context-as-a': { steps: ['Re-read the Class 11 node **c11_hin_v_cbse_01_001** (Before You Read: Context and Background for Vitan Ch.1) — note how.', 'Create a 3-column table: *Historical Event → Textual Trace → Thematic Payoff* for Anand\'s life (e.g., Colonial.', 'Re-attempt Diagnostic Q2 and Q4 using the table.', 'If still stuck, watch the 12-min NCERT "Author Introduction" video for Vitan Ch.2 (DIKSHA portal) and pause to note.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_002', difficulty: 'standard',
-          question: '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम.',
+          question: '\'वितान भाग-2 — पाठ 2\' का कथानक — \'वितान भाग-2 — पाठ 2\' — वितान भाग-2 का पाठ।.',
           hint: 'यदि अटका हुआ महसूस हो तो कक्षा 11 वितान पाठ 1 या आरोह पाठ 1 के \'कथानक और आख्यान-संरचना\'.',
           misconception: 'छात्र प्रायः \'कथानक\' (Plot) और \'कहानी\' (Story) को समानार्थी मान लेते हैं: फॉरस्टर के शब्दों में, \'कहानी\' केवल.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि',
-                  options: ['\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,', 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें कथानक के प्रमुख'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-2 — पाठ 2\' का कथानक — \'वितान भाग-2 — पाठ 2\' — वितान भाग-2 का पाठ। पाठ का',
+                  options: ['\'वितान भाग-2 — पाठ 2\' का कथानक — \'वितान भाग-2 — पाठ 2\' — वितान भाग-2 का पाठ। पाठ का', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-2 — पाठ 2\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', '\'वितान भाग-2 — पाठ 2\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
                   hint: 'यदि अटका हुआ महसूस हो तो कक्षा 11 वितान पाठ 1 या आरोह पाठ 1 के \'कथानक और आख्यान-संरचना\' नोड.',
                   misconception: 'छात्र प्रायः \'कथानक\' (Plot) और \'कहानी\' (Story) को समानार्थी मान लेते हैं: फॉरस्टर के शब्दों में, \'कहानी\' केवल कालक्रमानुसार घटनाओं का योग.' }
           ],
             remediations: { 'plot-story': { steps: ['छात्र को फॉरस्टर का \'कहानी बनाम कथानक\' उदाहरण पुनः पढ़ाएँ (c11_hin_v_cbse_01_002 या c11_hin_a_cbse_01_002 देखें)। 2.', '\'जूझ\' की 5-6 प्रमुख घटनाएँ कार्ड पर लिखवाएँ और उन्हें कालक्रम (Story) और कारण-कार्य क्रम (Plot) में अलग-अलग जमाने को.', 'फ्लैशबैक वाले अंश (जैसे पिता की मृत्यु का प्रसंग) चिह्नित करवाएँ और पूछें: "यह अतीत की घटना वर्तमान संघर्ष को कैसे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_003', difficulty: 'standard',
-          question: 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक.',
-          hint: 'यदि परिवेश के तत्वों की पहचान में अटकें, तो कक्षा 11 वितान पाठ 2 के परिवेश-विश्लेषण नोड.',
-          misconception: 'छात्र अक्सर मानते हैं कि \'परिवेश\' केवल कहानी का \'बैकड्रॉप\' (पृष्ठभूमि) है जो स्थिर रहता है, जबकि वास्तव में "जूझ" में.',
+          question: '\'वितान भाग-2 — पाठ 2\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण.',
+          hint: 'If unable to separate description from narration, practice with c11_hin_v_cbse_02_003.',
+          misconception: 'Students often treat setting as a static list of locations ("home, school, teacher\'s house") and atmosphere as a single.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,',
-                  options: ['पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,', '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें कथानक के प्रमुख'],
-                  hint: 'यदि परिवेश के तत्वों की पहचान में अटकें, तो कक्षा 11 वितान पाठ 2 के परिवेश-विश्लेषण नोड.',
-                  misconception: 'छात्र अक्सर मानते हैं कि \'परिवेश\' केवल कहानी का \'बैकड्रॉप\' (पृष्ठभूमि) है जो स्थिर रहता है, जबकि वास्तव में "जूझ" में परिवेश गतिशील.' }
+                { id: 'a', prompt: 'Apply the concept of "temporal setting" to trace how the school atmosphere changes from the narrator\'s primary school days to his higher-class experience.', answer: 'Shift 1: Primary school',
+                  options: ['Shift 1: Primary school', 'teachers were nicer later'],
+                  hint: 'If unable to separate description from narration, practice with c11_hin_v_cbse_02_003 exercises.',
+                  misconception: 'Students often treat setting as a static list of locations ("home, school, teacher\'s house") and atmosphere as a single adjective per.' },
+                { id: 'b', prompt: 'Analyze how the "teacher\'s house" setting functions differently from both the home and school settings.', answer: 'The teacher\'s house is a liminal space',
+                  options: ['The teacher\'s house is a liminal space', 'just another school scene'],
+                  hint: 'If unable to separate description from narration, practice with c11_hin_v_cbse_02_003 exercises.',
+                  misconception: 'Students often treat setting as a static list of locations ("home, school, teacher\'s house") and atmosphere as a single adjective per.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें कि वह कहानी के 5 प्रमुख प्रसंग चुने और प्रत्येक में स्थान, समय, सामाजिक नियम, आर्थिक स्थिति, और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-setting-as': { steps: ['Have the student re-read ONLY the descriptive passages (skip dialogue/action) for three settings: opening home scene.', 'Create a three-column table: Column A = sensory details quoted (sound/sight/smell/touch), Column B = emotional effect.', 'Compare Column B across settings — student must articulate the shift from passive suffering to active engagement.', 'Re-attempt Diagnostic Question 4 using this table. If still stuck, revisit c11_hin_v_cbse_02_003 (Class 11 Setting and.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_003', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often treat setting as a static list of locations ("home, school, teacher\'s house") and atmosphere as a single.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the author\'s choice to end the chapter with the narrator returning to his village home after educational success.', answer: 'It reinforces the message',
+                  options: ['It reinforces the message', 'it shows he never really left', 'it undermines liberation'],
+                  hint: 'If unable to separate description from narration, practice with c11_hin_v_cbse_02_003 exercises.',
+                  misconception: 'Students often treat setting as a static list of locations ("home, school, teacher\'s house") and atmosphere as a single adjective per.' }
+          ],
+            remediations: { 'students-often-treat-setting-as': { steps: ['Have the student re-read ONLY the descriptive passages (skip dialogue/action) for three settings: opening home scene.', 'Create a three-column table: Column A = sensory details quoted (sound/sight/smell/touch), Column B = emotional effect.', 'Compare Column B across settings — student must articulate the shift from passive suffering to active engagement.', 'Re-attempt Diagnostic Question 4 using this table. If still stuck, revisit c11_hin_v_cbse_02_003 (Class 11 Setting and.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_004', difficulty: 'standard',
-          question: 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें कथानक के.',
+          question: '\'वितान भाग-2 — पाठ 2\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
           hint: 'यदि अटक जाएं, तो **\'साक्ष्य-आधारित तर्क\' (Evidence-Based Argument)** की मूल अवधारणा (Node.',
           misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि चरित्र-चित्रण में नायक के **\'गुणों की सूची\' (List of Traits)** बनाना पर्याप्त.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें कथानक के प्रमुख',
-                  options: ['पात्र-चित्रण (Character Sketch) एक विश्लेषणात्मक प्रक्रिया है जिसमें कथानक के प्रमुख', '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-2 — पाठ 2\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+                  options: ['\'वितान भाग-2 — पाठ 2\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-2 — पाठ 2\' का कथानक — \'वितान भाग-2 — पाठ 2\' — वितान भाग-2 का पाठ। पाठ का', '\'वितान भाग-2 — पाठ 2\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटक जाएं, तो **\'साक्ष्य-आधारित तर्क\' (Evidence-Based Argument)** की मूल अवधारणा (Node.',
                   misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि चरित्र-चित्रण में नायक के **\'गुणों की सूची\' (List of Traits)** बनाना पर्याप्त है — जैसे "वह ईमानदार.' }
           ],
             remediations: { 'list-of-traits': { steps: ['**पुनः पाठ पढ़ें (Re-read)** — Node **c12_hin_v_cbse_02_002** (कथानक) से नायक के **तीन प्रमुख मोड़ (Turning Points)**.', '**साक्ष्य तालिका बनाएं (Evidence Table)** — एक कागज पर तीन कॉलम बनाएं: **प्रसंग | पाठगत साक्ष्य (उद्धरण/सार) | प्रकट.', '**\'क्यों\' पूछने का अभ्यास (Why Drill)** — प्रत्येक गुण के लिए 3 बार "क्यों?" पूछें। उत्तर पाठ से ही आएगा। 4.', '**पुनः निदान (Re-diagnostic)**: Diagnostic Question 3 को दोबारा हल करें — इस बार दो प्रसंगों की तुलना में **\'परिवर्तन.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_005', difficulty: 'standard',
-          question: 'सहायक पात्र (Supporting Characters) वे पात्र हैं जो नायक के संघर्ष को संभव.',
+          question: '\'वितान भाग-2 — पाठ 2\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को.',
           hint: 'यदि फँस जाएँ: **c11_hin_v_cbse_01_005** (कक्षा 11 वितान पाठ 1 सहायक पात्र) दोबारा पढ़ें.',
           misconception: '**विशिष्ट भ्रम:** छात्र सहायक पात्रों को **"नायक की सहायता करने वाले साधन (tools/helpers)"** मानते हैं — जैसे वे नायक.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे पात्र हैं जो नायक के संघर्ष को संभव बनाते हैं,',
-                  options: ['सहायक पात्र (Supporting Characters) वे पात्र हैं जो नायक के संघर्ष को संभव बनाते हैं,', '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-2 — पाठ 2\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते',
+                  options: ['\'वितान भाग-2 — पाठ 2\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-2 — पाठ 2\' का कथानक — \'वितान भाग-2 — पाठ 2\' — वितान भाग-2 का पाठ। पाठ का', '\'वितान भाग-2 — पाठ 2\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि फँस जाएँ: **c11_hin_v_cbse_01_005** (कक्षा 11 वितान पाठ 1 सहायक पात्र) दोबारा पढ़ें — वहाँ.',
                   misconception: '**विशिष्ट भ्रम:** छात्र सहायक पात्रों को **"नायक की सहायता करने वाले साधन (tools/helpers)"** मानते हैं — जैसे वे नायक की \'सेवा\' के लिए ही.' }
           ],
             remediations: { 'tools-helpers': { steps: ['**चरण 1:** छात्र से कहें: "पाठ खोलें और **केवल उन पन्नों को पढ़ें जहाँ छोटे ठाकुर बोल नहीं रहा — जहाँ कोई और बोल रहा है.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_02_006', difficulty: 'standard',
-          question: '\'मुख्य विषय\' (Central Theme) वह केंद्रीय विचार या संदेश है जिसे रचनाकार पूरी.',
+          question: '\'वितान भाग-2 — पाठ 2\' का मुख्य विषय — \'वितान भाग-2 — पाठ 2\' का केंद्रीय भाव और.',
           hint: 'यदि फँसें तो: c12_hin_v_cbse_02_005 (माँ का चरित्र-चित्रण) के \'चरित्र-परिवर्तन\' खंड को.',
           misconception: '**विषय = कथानक का सारांश** — यह सबसे घातक भ्रम है। छात्र लिखते हैं: "जूझ भुवन नामक लड़के की कहानी है जो पढ़ना चाहता था.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'मुख्य विषय\' (Central Theme) वह केंद्रीय विचार या संदेश है जिसे रचनाकार पूरी रचना के',
-                  options: ['\'मुख्य विषय\' (Central Theme) वह केंद्रीय विचार या संदेश है जिसे रचनाकार पूरी रचना के', '"पृष्ठभूमि और रचनाकार परिचय" किसी साहित्यिक कृति के **ऐतिहासिक, सामाजिक, सांस्कृतिक', '\'जूझ\' का कथानक (Plot) घटनाओं का तार्किक और कारण-कार्य संबंध से बंधा हुआ क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है कथा में चित्रित वह समग्र भौगोलिक, सामाजिक, सांस्कृतिक,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-2 — पाठ 2\' का मुख्य विषय — \'वितान भाग-2 — पाठ 2\' का केंद्रीय भाव और संदेश',
+                  options: ['\'वितान भाग-2 — पाठ 2\' का मुख्य विषय — \'वितान भाग-2 — पाठ 2\' का केंद्रीय भाव और संदेश', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-2 — पाठ 2\' का कथानक — \'वितान भाग-2 — पाठ 2\' — वितान भाग-2 का पाठ। पाठ का', '\'वितान भाग-2 — पाठ 2\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि फँसें तो: c12_hin_v_cbse_02_005 (माँ का चरित्र-चित्रण) के \'चरित्र-परिवर्तन\' खंड को दोबारा पढ़ें.',
                   misconception: '**विषय = कथानक का सारांश** — यह सबसे घातक भ्रम है। छात्र लिखते हैं: "जूझ भुवन नामक लड़के की कहानी है जो पढ़ना चाहता था पर महाजन ने नहीं.' }
           ],

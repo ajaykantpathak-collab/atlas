@@ -19,7 +19,7 @@ export const c12_eng_f_ch11_p1: SimDef = {
         hook: 'The poem is an argument, not a mood: proposal → consequence → evidence → clarification. Fishermen harming themselves, \'wars with gas, wars with fire,\' a \'victory with no survivors\' — the images are evidence that activity without introspection is the real danger.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" provides the essential biographical, historical, and literary framework needed to approach a poem.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Keeping Quiet\' (Flamingo, ch. 11) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_11_001', title: 'Your mission',
@@ -29,42 +29,42 @@ export const c12_eng_f_ch11_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re scrolling through Instagram and see a breathtaking sunset photo — for a moment, your exam stress vanishes.',
+          caseStudy: { intro: 'Start with the author of \'Keeping Quiet\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who was John Keats, and what are two key facts about his life that are essential for understanding his poetry?', options: [
                 { text: 'John Keats (1795–1821) was a British Romantic poet who died of tuberculosis at 25', outcome: 'John Keats (1795–1821) was a British Romantic poet who died of tuberculosis at 25.' },
                 { text: 'He was a Victorian novelist', outcome: 'Not quite — Students think "context" means memorizing Keats\'s birth/death dates and the Endymion plot summary.', reveals: 'context-means-memorizing-keats-s' },
                 { text: 'context', outcome: 'Not quite — Students think "context" means memorizing Keats\'s birth/death dates and the Endymion plot summary.', reveals: 'context-means-memorizing-keats-s' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are listening to a friend tell an important story — they don\'t just blurt everything out at once; they pause, change tone, circle back, and build.',
+          caseStudy: { intro: 'Trace \'Keeping Quiet\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the primary structural feature that divides "Keeping Quiet" into distinct sections, and how many such sections are there?', options: [
                 { text: 'The poem is divided into five stanzas of varying lengths', outcome: 'The poem is divided into five stanzas of varying lengths. A wrong answer (e.g., "four stanzas".' },
                 { text: 'four stanzas', outcome: 'Not quite — Students believe "plot" and "narrative structure" only apply to stories with characters and events.', reveals: 'plot-and-narrative-structure-only' },
                 { text: 'it has no stanzas, it\'s free verse so structure doesn\'t matter', outcome: 'Not quite — Students believe "plot" and "narrative structure" only apply to stories with characters and events.', reveals: 'plot-and-narrative-structure-only' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are sitting in a noisy classroom during a free period — chatter, movement, phones buzzing. Suddenly, a teacher says, "Everyone, stop.',
+          caseStudy: { intro: 'Identify where and when \'Keeping Quiet\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the primary setting of "Keeping Quiet" — a specific geographical location, a historical period, or a universal moment of pause?', options: [
                 { text: 'The primary setting is a **universal, timeless moment of collective pause** imagined by', outcome: 'The primary setting is a **universal, timeless moment of collective pause** imagined by the poet.' },
                 { text: 'the 20th century', outcome: 'Not quite — **Misconception:** "Setting in a poem always means a physical place like a forest, village,.', reveals: 'misconception-setting-in-a-poem' },
                 { text: 'explain the setting', outcome: 'Not quite — **Misconception:** "Setting in a poem always means a physical place like a forest, village,.', reveals: 'misconception-setting-in-a-poem' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re sitting in a noisy classroom and someone suddenly says, "Let\'s all stop talking for twelve seconds and just breathe." That\'s the protagonist\'s.',
+          caseStudy: { intro: 'Pick the central figure in \'Keeping Quiet\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'Who is the protagonist in "Keeping Quiet," and what is his primary role in the poem?', options: [
                 { text: 'The protagonist is the poetic speaker (Neruda\'s persona) who acts as a guide urging', outcome: 'The protagonist is the poetic speaker (Neruda\'s persona) who acts as a guide urging humanity toward.' },
                 { text: 'there is no protagonist in a poem', outcome: 'Not quite — Students treat the protagonist as "just the poet talking" and miss that Neruda constructs.', reveals: 'students-treat-the-protagonist-as' },
                 { text: 'the protagonist is the earth', outcome: 'Not quite — Students treat the protagonist as "just the poet talking" and miss that Neruda constructs.', reveals: 'students-treat-the-protagonist-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re at a noisy family gathering where everyone argues at once — then someone suggests a minute of silence.',
+          caseStudy: { intro: 'Spot the secondary figures in \'Keeping Quiet\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List the five distinct groups or entities explicitly named or clearly implied in the poem "Keeping Quiet" that function as supporting.', options: [
                 { text: 'The five groups are: (1) the collective "we"/humanity, (2) fishermen in the cold sea, (3)', outcome: 'The five groups are: (1) the collective "we"/humanity, (2) fishermen in the cold sea, (3) the man.' },
                 { text: 'the Earth', outcome: 'Not quite — Students treat the poem\'s groups as literal character sketches (e.g., writing a biography of the.', reveals: 'students-treat-the-poem-s' },
                 { text: 'fishermen', outcome: 'Not quite — Students treat the poem\'s groups as literal character sketches (e.g., writing a biography of the.', reveals: 'students-treat-the-poem-s' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_11_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are sitting in a noisy classroom where everyone is shouting — then suddenly, a teacher asks for "two minutes of absolute silence." What happens.',
+          caseStudy: { intro: 'Ask what \'Keeping Quiet\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'State the primary theme of "Keeping Quiet" in one complete thematic sentence (not a phrase like "silence" or "peace").', options: [
                 { text: 'Correct answer: "The poem asserts that a deliberate, collective pause from speech and', outcome: 'Correct answer: "The poem asserts that a deliberate, collective pause from speech and action allows.' },
                 { text: 'A wrong answer like', outcome: 'Not quite — Students consistently confuse the poem\'s *advocacy for a moment of silence* with *advocacy for.', reveals: 'students-consistently-confuse-the-poem' }
@@ -88,12 +88,12 @@ export const c12_eng_f_ch11_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" provides the essential biographical.',
+          question: '\'Keeping Quiet\' (Flamingo, ch. 11) — the context and background to this text.',
           hint: 'If stuck, revisit c11_eng_w_cbse_01_001 (Woven Words Chapter 1 Before You Read) and re-do.',
           misconception: 'Students think "context" means memorizing Keats\'s birth/death dates and the Endymion plot summary.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" provides the essential biographical,',
-                  options: ['"Before You Read: Context and Background" provides the essential biographical,', 'Plot and Narrative Structure in a poem refers to the organization of ideas, images, and', 'In poetry, **setting** refers to the time, place, and social context in', 'In the poem "Keeping Quiet," the protagonist is the poetic persona'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'Keeping Quiet\' (Flamingo, ch',
+                  options: ['\'Keeping Quiet\' (Flamingo, ch', 'The plot/narrative arc of \'Keeping Quiet\'', 'The setting of \'Keeping Quiet\'', 'Character analysis in \'Keeping Quiet\''],
                   hint: 'If stuck, revisit c11_eng_w_cbse_01_001 (Woven Words Chapter 1 Before You Read) and re-do its.',
                   misconception: 'Students think "context" means memorizing Keats\'s birth/death dates and the Endymion plot summary.' }
           ],
@@ -114,7 +114,7 @@ export const c12_eng_f_ch11_p1: SimDef = {
           ],
             remediations: { 'context-means-memorizing-keats-s': { steps: ['If a student treats context as trivia: (1) Have them re-read the "Before You Read" questions and write answers *before*.', '(2) Give them three Keats facts (surgeon, brother\'s death, died at 25) and ask: "Which line in the poem does each fact.', '(3) Show a 2-mark board answer that cites biography without textual link (0 marks) vs.', 'one that says "Keats\'s medical training appears in \'clear rills / That for themselves a cooling covert make\' — precise.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure in a poem refers to the organization of ideas.',
+          question: 'The plot/narrative arc of \'Keeping Quiet\' — what happens, in what order, and.',
           hint: 'If stuck, revisit "stanza mapping" using a simpler poem (e.g., Frost\'s "Stopping.',
           misconception: 'Students believe "plot" and "narrative structure" only apply to stories with characters and events, so they say a lyric.',
           parts: [
@@ -125,7 +125,7 @@ export const c12_eng_f_ch11_p1: SimDef = {
           ],
             remediations: { 'plot-and-narrative-structure-only': { steps: ['Have the student physically mark the poem: number stanzas, draw arrows where focus shifts (self → group → nature → war.', 'Ask them to summarize each stanza in one phrase (e.g., "Call to silence", "Description of the moment", "Critique.', 'Compare this to a 5-paragraph essay structure — intro, body 1, body 2, body 3, conclusion.', 'Re-read the poem aloud, pausing deliberately at each stanza break, to hear the structural rhythm.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_003', difficulty: 'standard',
-          question: 'In poetry, **setting** refers to the time, place, and social context in which.',
+          question: 'The setting of \'Keeping Quiet\' — the place, time and atmosphere the text.',
           hint: 'If stuck, review "how imagery creates mood" in Class 11 poem nodes.',
           misconception: '**Misconception:** "Setting in a poem always means a physical place like a forest, village, or room." **Why it\'s.',
           parts: [
@@ -144,7 +144,7 @@ export const c12_eng_f_ch11_p1: SimDef = {
           ],
             remediations: { 'misconception-setting-in-a-poem': { steps: ['If a student cannot distinguish physical vs.', '**Revisit Class 7 node c7_engl_ch04_005** (Atmosphere: Heat, Silence and Anticipation in the Jungle) — note how "The.', '**Revisit Class 8 node c8_engl_ch4_1** (Setting: Mussoorie in the Himalayan Foothills) — identify concrete sensory.', '**Do a 5-minute exercise:** Read stanza 1 of "Keeping Quiet" aloud.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_004', difficulty: 'standard',
-          question: 'In the poem "Keeping Quiet," the protagonist is the poetic persona — the.',
+          question: 'Character analysis in \'Keeping Quiet\' — the central figure(s), their traits.',
           hint: 'If stuck on "who is speaking?", revisit c11_eng_w_cbse_01_004 (Class 11 poetic persona).',
           misconception: 'Students treat the protagonist as "just the poet talking" and miss that Neruda constructs a deliberate persona who.',
           parts: [
@@ -155,7 +155,7 @@ export const c12_eng_f_ch11_p1: SimDef = {
           ],
             remediations: { 'students-treat-the-protagonist-as': { steps: ['Re-read the poem marking ONLY the protagonist\'s verbs (imperatives, conditionals, modals).', 'Create a two-column table: Left = Protagonist\'s Action/Stance, Right = Line Reference.', 'Revisit c12_eng_f_cbse_11_002 (Plot and Narrative Structure) to map the protagonist\'s voice onto the poem\'s five-stanza.', 'Practice: Rewrite one stanza from the protagonist\'s perspective as a diary entry — this forces you to inhabit the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_005', difficulty: 'standard',
-          question: 'In poetry, "supporting characters" refer to the collective voices, groups,.',
+          question: 'Supporting characters in \'Keeping Quiet\' — the secondary figures who move the.',
           hint: 'Review "symbolic vs. literal character" in c11_eng_h_cbse_11_005 and the speaker analysis.',
           misconception: 'Students treat the poem\'s groups as literal character sketches (e.g., writing a biography of the salt gatherer) rather.',
           parts: [
@@ -170,7 +170,7 @@ export const c12_eng_f_ch11_p1: SimDef = {
           ],
             remediations: { 'students-treat-the-poem-s': { steps: ['Have the student re-read node 004 (Protagonist) to see how the *speaker* is also a construct, not a biography.', 'Assign: "Rewrite the salt gatherer\'s \'appearance\' in three lines — then delete all proper nouns.', 'Use c11_eng_h_cbse_11_005 (Class 11 Supporting Characters) to review how collective figures function in "The Voice.', 'Re-diagnose with DIAGNOSTIC_QUESTION_2: if they still merge salt gatherer and fishermen, they haven\'t grasped symbolic.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_11_006', difficulty: 'standard',
-          question: 'The primary theme of a poem is its central, unifying idea — the profound.',
+          question: 'The primary theme of \'Keeping Quiet\' — the central idea the whole text returns.',
           hint: 'If the student writes "The theme is silence" or "The theme is peace," they are stuck.',
           misconception: 'Students consistently confuse the poem\'s *advocacy for a moment of silence* with *advocacy for passivity or inaction*.',
           parts: [

@@ -93,7 +93,11 @@ export const c6_history_ch11: SimDef = {
                   options: ['The movement was launched in 1920', 'non-cooperation', 'armed rebellion', 'Non-Cooperation meant attacking British soldiers'],
                   hint: 'Review the definition of Satyagraha in the provided content.',
                   misconception: 'Students often think Non-Cooperation meant attacking British soldiers.' },
-                { id: 'b', prompt: 'How does "non-violent resistance" differ from a violent revolt?', answer: 'Non-violent resistance uses refusal to participate, whereas a revolt uses force',
+                { id: 'b', prompt: 'If you were a student in 1920 supporting this movement, what would you do differently in your daily routine?', answer: 'Identify the action (boycotting school)',
+                  options: ['Identify the action (boycotting school)', 'non-cooperation', 'armed rebellion', 'the movement was about physical fighting rather than peaceful withdrawal'],
+                  hint: 'Review the definition of Satyagraha in the provided content.',
+                  misconception: 'Students often think Non-Cooperation meant attacking British soldiers.' },
+                { id: 'c', prompt: 'How does "non-violent resistance" differ from a violent revolt?', answer: 'Non-violent resistance uses refusal to participate, whereas a revolt uses force',
                   options: ['Non-violent resistance uses refusal to participate, whereas a revolt uses force', 'satyagraha', 'non-cooperation', 'armed rebellion'],
                   hint: 'Review the definition of Satyagraha in the provided content.',
                   misconception: 'Students often think Non-Cooperation meant attacking British soldiers.' }
@@ -115,8 +119,8 @@ export const c6_history_ch11: SimDef = {
           hint: 'Review the concept of colonial taxation and why the British wanted to control salt.',
           misconception: 'Students often think the Civil Disobedience Movement was a small, secret group of people sneaking around to make salt.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The Civil Disobedience Movement was a non-violent protest started by Mahatma Gandhi in',
-                  options: ['The Civil Disobedience Movement was a non-violent protest started by Mahatma Gandhi in', 'The birth of Indian nationalism refers to the late 19th-century process where people', 'The Non-Cooperation Movement was a nationwide peaceful protest launched by Mahatma Gandhi', 'The Quit India Movement was a historic civil disobedience campaign launched by Mahatma'],
+                { id: 'a', prompt: 'If you were a villager in 1930, how would you show your support for this movement without using violence?', answer: 'Acknowledge the need for non-violence',
+                  options: ['Acknowledge the need for non-violence', '\'disobedience\' must involve fighting or physical harm'],
                   hint: 'Review the concept of colonial taxation and why the British wanted to control salt production.',
                   misconception: 'Students often think the Civil Disobedience Movement was a small, secret group of people sneaking around to make salt.' }
           ],
@@ -132,6 +136,10 @@ export const c6_history_ch11: SimDef = {
                   misconception: 'Students often think the Quit India Movement happened because India was already at war with Britain.' },
                 { id: 'b', prompt: 'Why did the Indian National Congress reject the Cripps Mission, leading to the Quit India Movement?', answer: 'The Congress rejected it',
                   options: ['The Congress rejected it', 'the Quit India Movement happened'],
+                  hint: 'Review the definition of a colony and why people want to be independent.',
+                  misconception: 'Students often think the Quit India Movement happened because India was already at war with Britain.' },
+                { id: 'c', prompt: 'If you were a person living in 1942, how would you interpret the slogan "Do or Die" in the context of the British refusal to leave?', answer: 'Acknowledge the extreme nature of the slogan',
+                  options: ['Acknowledge the extreme nature of the slogan', 'the Quit India Movement happened'],
                   hint: 'Review the definition of a colony and why people want to be independent.',
                   misconception: 'Students often think the Quit India Movement happened because India was already at war with Britain.' }
           ],
@@ -158,6 +166,10 @@ export const c6_history_ch11: SimDef = {
           parts: [
                 { id: 'a', prompt: 'On what date did India officially gain its independence from British rule?', answer: 'August 15, 1947',
                   options: ['August 15, 1947', 'the British government "split" India just to be mean or cause trouble'],
+                  hint: 'Review the timeline of the Indian National Congress and the rise of the Muslim League.',
+                  misconception: 'Students often think the British government "split" India just to be mean or cause trouble.' },
+                { id: 'b', prompt: 'If you were a leader in the Congress party in 1947, how would you explain the decision to accept partition?', answer: 'Acknowledge the goal of freedom',
+                  options: ['Acknowledge the goal of freedom', 'compromise', 'the British government "split" India just to be mean or cause trouble'],
                   hint: 'Review the timeline of the Indian National Congress and the rise of the Muslim League.',
                   misconception: 'Students often think the British government "split" India just to be mean or cause trouble.' }
           ],

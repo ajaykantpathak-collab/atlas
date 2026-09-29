@@ -6,13 +6,13 @@ import C12_InformaticsPracticesPandasSeries1Sim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_informaticspracticespandasseries1sim: SimDef = {
     id: 'v3w_c12_informaticspracticespandasseries1sim',
-    title: 'Informatics Practices Pandas Series1',
+    title: 'Handling missing data: isnull, dropna, and fillna',
     subtitle: 'This node covers detection (`isnull`, `notnull`), removal (`dropna` with parameters.',
     classLevel: 12, subject: 'science', topic: 'Handling missing data: isnull, dropna, and fillna',
     chapters: [],
     nodeIds: ['c12_ip_cbse_02_006', 'c12_ip_cbse_02_010', 'c12_ip_cbse_02_012', 'c12_ip_cbse_02_002', 'c12_ip_cbse_02_008', 'c12_ip_cbse_02_004', 'c12_ip_cbse_02_007', 'c12_ip_cbse_02_001', 'c12_ip_cbse_02_005', 'c12_ip_cbse_02_009', 'c12_ip_cbse_02_011', 'c12_ip_cbse_02_003', 'c12_ip_cbse_03_001', 'c12_ip_cbse_05_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you downloaded a CSV of Class 12 board exam results from your school portal, but some students were.', goal: 'Master Informatics Practices Pandas Series1.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you downloaded a CSV of Class 12 board exam results from your school portal, but some students were.', goal: 'Master Handling missing data: isnull, dropna, and fillna.' },
     discovery: {
         question: 'What does `df.isnull().sum()` return when applied to a DataFrame with 3 columns and 5 rows where column \'A\' has 2 NaN, column \'B\' has 0 NaN, and column \'C\' has.',
         options: ['It returns a Series with index [\'A\', \'B\', \'C\'] and values [2, 0, 5]', 'True/False', '`fillna(0)` is a universal "safe" fix for missing numeric data'],
@@ -84,7 +84,7 @@ export const w_c12_informaticspracticespandasseries1sim: SimDef = {
             { text: 'Confirm output shows columns AdmNo, Name, Class, Section, Marks with correct data alignment.', faded: true, blankAnswer: '```python' }
             ] } },
         { type: 'dissect', nodeId: 'c12_ip_cbse_02_010', title: 'Identify each idea',
-          dissect: { specimen: 'Informatics Practices Pandas Series1', spots: [
+          dissect: { specimen: 'Handling missing data: isnull, dropna, and fillna', spots: [
             { id: 's1', label: 'Missing data handling in Pandas', prompt: 'Which idea is this? — Missing data handling in Pandas refers to the systematic detection, removal, or.', answer: 'Missing data handling in Pandas', options: ['Missing data handling in Pandas', 'Filtering a DataFrame selects rows', 'Plotting from Pandas refers to', 'A Pandas DataFrame is a'] },
             { id: 's2', label: 'Filtering a DataFrame selects rows', prompt: 'Which idea is this? — Filtering a DataFrame selects rows that satisfy one or more logical conditions on column.', answer: 'Filtering a DataFrame selects rows', options: ['Filtering a DataFrame selects rows', 'Missing data handling in Pandas', 'Plotting from Pandas refers to', 'A Pandas DataFrame is a'] },
             { id: 's3', label: 'Plotting from Pandas refers to', prompt: 'Which idea is this? — Plotting from Pandas refers to using the built-in `.plot()` method on Series and.', answer: 'Plotting from Pandas refers to', options: ['Plotting from Pandas refers to', 'Missing data handling in Pandas', 'Filtering a DataFrame selects rows', 'A Pandas DataFrame is a'] },
@@ -93,7 +93,7 @@ export const w_c12_informaticspracticespandasseries1sim: SimDef = {
             { id: 's6', label: 'The read_csv and read_excel functions', prompt: 'Which idea is this? — The `read_csv()` and `read_excel()` functions in Pandas are used to import tabular data.', answer: 'The read_csv and read_excel functions', options: ['The read_csv and read_excel functions', 'Missing data handling in Pandas', 'Filtering a DataFrame selects rows', 'Plotting from Pandas refers to'] }
           ] } }
     ],
-    explore: { component: C12_InformaticsPracticesPandasSeries1Sim, prompt: 'Explore the interactive — Informatics Practices Pandas Series1' },
+    explore: { component: C12_InformaticsPracticesPandasSeries1Sim, prompt: 'Explore the interactive — Handling missing data: isnull, dropna, and fillna' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_ip_cbse_02_006', difficulty: 'standard',
           question: 'Missing data handling in Pandas refers to the systematic detection, removal, or.',

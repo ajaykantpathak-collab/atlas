@@ -104,13 +104,13 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Agriculture And Animal Domestication In The",
+    "title": "Agriculture and Animal Domestication",
     "text": "Agriculture and animal domestication in the Harappan economy refers to the subsistence strategies (c. 2600–1900 BCE) that sustained the Mature Harappan urban centres through the cultivation of diverse crops (wheat, barley, pulses, millets, limited rice) and",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Harappan Burial Practices Refer To The",
+    "title": "Harappan Burial Practices",
     "text": "Harappan burial practices refer to the mortuary customs of the Mature Harappan period (2600–1900 BCE), characterised by extended inhumation (body laid straight on back) in rectangular or oval pits, sometimes brick-lined, with grave goods including pottery,",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -678,7 +678,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Uttarapatha And Dakshinapatha (Southern",
+    "title": "Uttarapatha And Dakshinapatha",
     "text": "Uttarapatha (Northern Route) and Dakshinapatha (Southern Route) were the two principal long-distance trade arteries of ancient India (c. 600 BCE–600 CE), connecting the Gangetic plains with Central Asia, the northwest, and the Deccan peninsula, while maritime",
     "emoji": "🏛️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -690,7 +690,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Agricultural Expansion In Early India (c",
+    "title": "Agricultural Expansion In Early India",
     "text": "Agricultural expansion in early India (c. 600 BCE – 600 CE) involved the spread of irrigation technologies (wells, tanks, canals), the adoption of plough agriculture with iron-tipped ploughshares in alluvial valleys, and the practice of land grants —",
     "emoji": "🏛️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1388,7 +1388,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Four Varnas (Brahmana, Kshatriya, Vaishya",
+    "title": "Four Varnas",
     "text": "The Four Varnas (Brahmana, Kshatriya, Vaishya, Shudra) in the Dharmasutras represent a prescriptive, hierarchical social classification (c. 500 BCE–200 CE) that assigns specific occupations, ritual statuses, and duties (dharma) to each group: Brahmanas",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1406,7 +1406,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Nanda And",
+    "title": "Nanda And Maurya Dynasties",
     "text": "The Nanda (c. 345–321 BCE) and Maurya (c. 321–185 BCE) dynasties, emerging from the Magadha region, faced conflicting representations in Brahmanical, Buddhist, and Jain texts regarding their varna status.",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1418,13 +1418,13 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "This Topic Examines Social Groups In",
+    "title": "This Topic Examines Social Groups",
     "text": "This topic examines social groups in early India (c. 600 BCE–600 CE) that existed outside the theoretical four-varna framework, focusing on forest-dwellers (e.",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Bhagavad Gita (c. 200 BCE–200",
+    "title": "Bhagavad Gita",
     "text": "The Bhagavad Gita (c. 200 BCE–200 CE), embedded in the Mahabharata's Bhishma Parva, redefines the four-varna order as a qualitative classification based on guna (innate dispositions: sattva, rajas, tamas) and karma (actions/duties) rather than birth (jati)",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2071,15 +2071,13 @@ export const C12_HIST_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_hist_ch04",
-  "title": "Sacrificial Tradition In The",
+  "title": "Sacrificial Tradition",
   "subtitle": "History · Chapter 4",
   "classLevel": 12,
   "mode": "senior",
   "subject": "history",
-  "topic": "Sacrificial Tradition In The",
-  "chapters": [
-   "History Ch4: Sacrificial Tradition In The"
-  ],
+  "topic": "Sacrificial Tradition",
+  "chapters": ["History Ch4: Sacrificial Tradition"],
   "nodeIds": [
    "c12_hist_cbse_04_001",
    "c12_hist_cbse_04_002",
@@ -2101,7 +2099,7 @@ export const C12_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Sacrificial Tradition In The directly with your eyes?",
+   "question": "Can you see Sacrificial Tradition directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -2112,7 +2110,7 @@ export const C12_HIST_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Sacrificial Tradition In The",
+    "title": "Sacrificial Tradition",
     "text": "The sacrificial tradition (yajna) in the Vedic period (c. 1500–500 BCE) was a ritual system where offerings (ghee, grains, soma) were made into the sacred fire (Agni) to invoke deities like Indra, Agni, and Soma for material benefits (cattle, sons, health,",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2142,7 +2140,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Life Of Siddhartha Gautama (c",
+    "title": "Life Of Siddhartha Gautama",
     "text": "The life of Siddhartha Gautama (c. 563–483 BCE), who became the Buddha (\"Enlightened One\"), traces his journey from a sheltered prince of the Sakya clan in Kapilavastu to a renunciant who attained enlightenment at Bodh Gaya, taught the Four Noble Truths and",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2178,7 +2176,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Buddhist Textual Traditions Refer To The",
+    "title": "Buddhist Textual Traditions",
     "text": "Buddhist textual traditions refer to the three major linguistic corpora — Prakrit (particularly Pali), Sanskrit, and regional Prakrits — in which the Buddha's teachings (Dhamma), monastic rules (Vinaya), and philosophical treatises (Abhidhamma) were orally",
     "emoji": "🏛️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2699,7 +2697,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Sacrificial Tradition In The mastered! 🎯",
+  "successLine": "Sacrificial Tradition mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2812,7 +2810,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "This Node Synthesizes The Accounts Of",
+    "title": "This Node Synthesizes The Accounts",
     "text": "This node synthesizes the accounts of three medieval travellers — Al-Biruni (11th century, Uzbekistan), Ibn Battuta (14th century, Morocco), and François Bernier (17th century, France) — to analyze how their distinct motives (scholarly understanding,",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3405,7 +3403,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Nayanars (63 Poet-saints Devoted To",
+    "title": "The Nayanars",
     "text": "The Nayanars (63 poet-saints devoted to Shiva) and Alvars (12 poet-saints devoted to Vishnu) were Tamil devotional movements (c. 6th–9th century CE) that transformed South Indian religious practice by composing hymns in vernacular Tamil, identifying sacred",
     "emoji": "🏛️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -3417,7 +3415,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Alvar Saints (c. 6th–9th Century",
+    "title": "Alvar Saints",
     "text": "The Alvar saints (c. 6th–9th century CE) were Tamil poet-saints immersed in devotion to Vishnu, whose hymns were compiled as the *Nalayira Divyaprabandham* (Four Thousand Sacred Compositions), often called the \"Tamil Veda.",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4219,7 +4217,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Sangama Dynasty Was The",
+    "title": "Sangama Dynasty",
     "text": "The Sangama dynasty (1336–1485) was the founding dynasty of the Vijayanagara Empire, established by the brothers Harihara I and Bukka I in 1336 CE on the banks of the Tungabhadra River in present-day Karnataka.",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -4243,7 +4241,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Royal Centre Of Vijayanagara (c",
+    "title": "Royal Centre Of Vijayanagara",
     "text": "The Royal Centre of Vijayanagara (c. 1336–1565 CE) was the south-western zone of the capital city housing the palace complex, the Mahanavami Dibba (a massive carved platform for state rituals), the Lotus Mahal, the Hazara Rama temple, and elephant stables.",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4261,19 +4259,19 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Temple Architecture In Vijayanagara (c.",
+    "title": "Temple Architecture In Vijayanagara",
     "text": "Temple architecture in Vijayanagara (c. 1336–1565 CE) represents the imperial adaptation of the Dravida style, characterized by towering raya gopurams (royal gateways) that dwarf the central shrine's vimana, expansive mandapas (pillared halls) for ritual",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Irrigation And Water Management In",
+    "title": "Irrigation and Water Management: Tanks,",
     "text": "Irrigation and water management in Vijayanagara (c. 14th–16th century) refers to the systematic engineering of tanks, canals, and dams harnessing the Tungabhadra River and seasonal streams to support agriculture, urban needs, and royal complexes in an arid",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Battle Of Talikota (also Known",
+    "title": "Battle Of Talikota",
     "text": "The Battle of Talikota (also known as Rakshasi-Tangadi), fought in January 1565, was the decisive military confrontation where the combined forces of the Deccan Sultanates — Bijapur, Ahmadnagar, and Golconda — routed the Vijayanagara army led by Rama Raya,",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -4895,7 +4893,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Agricultural Production In Mughal India (c",
+    "title": "Agricultural Production In Mughal India",
     "text": "Agricultural production in Mughal India (c. 1556–1707) was organized around two main seasonal cycles — kharif (autumn, sown with monsoon rains) and rabi (spring, sown after monsoon) — yielding a diverse range of food grains (rice, wheat, millets), cash crops",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4919,13 +4917,13 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Zamindar's Military Retainers And The",
+    "title": "The Zamindar's Military Retainers",
     "text": "The Zamindar's Military Retainers and the Fortified Stronghold (Qila) refers to the armed contingents (cavalry, infantry, artillery, elephants) and fortified structures (qilachas) maintained by zamindars in Mughal India (c.",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Mughal Land Revenue System (c",
+    "title": "Mughal Land Revenue System",
     "text": "The Mughal land revenue system (c. 1556–1707) was the state's mechanism for assessing (jama) and collecting (hasil) the agricultural surplus as its primary income source.",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4949,7 +4947,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Trade In Agricultural Goods During The",
+    "title": "Trade in Agricultural Goods: Horses, Grain",
     "text": "Trade in agricultural goods during the Mughal era (16th–17th centuries) refers to the multi-layered exchange of food grains, cash crops (cotton, indigo, sugarcane, oilseeds), livestock (especially war horses), and forest products through periodic village",
     "emoji": "🏛️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -5758,13 +5756,13 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Jotedars Were a Class Of",
+    "title": "Jotedars Were a Class",
     "text": "The Jotedars were a class of rich peasants who emerged in North Bengal (particularly Dinajpur) during the late 18th and early 19th centuries. They acquired vast landholdings (sometimes thousands of acres), controlled local trade and moneylending, cultivated",
     "emoji": "🏛️",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Santhal Rebellion Was a",
+    "title": "Santhal Rebellion",
     "text": "The Santhal Rebellion (1855-56) was a major tribal uprising in the Rajmahal hills (present-day Jharkhand) where Santhal settlers, who had been invited to clear forests and establish plough agriculture in the demarcated Damin-i-Koh region (1832), revolted",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -5788,7 +5786,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Colonial Forest Acts (primarily The",
+    "title": "Colonial Forest Acts",
     "text": "The Colonial Forest Acts (primarily the Indian Forest Acts of 1865, 1878, and 1927) were legislative instruments through which the British colonial state asserted sovereign control over India's forests, categorising them as Reserved, Protected, or Village",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -5800,7 +5798,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Ryotwari System, Implemented In The",
+    "title": "Ryotwari System, Implemented",
     "text": "The Ryotwari system, implemented in the Bombay Deccan from the 1820s, was a land revenue settlement where the colonial state directly assessed and collected revenue from individual cultivators (ryots) based on estimated soil productivity, with periodic",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -6249,15 +6247,13 @@ export const C12_HIST_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_hist_ch10",
-  "title": "Mutiny At Meerut (10 May",
+  "title": "The Mutiny at Meerut: Mangal Pandey,",
   "subtitle": "History · Chapter 10",
   "classLevel": 12,
   "mode": "senior",
   "subject": "history",
-  "topic": "Mutiny At Meerut (10 May",
-  "chapters": [
-   "History Ch10: Mutiny At Meerut (10 May"
-  ],
+  "topic": "The Mutiny at Meerut: Mangal Pandey,",
+  "chapters": ["History Ch10: The Mutiny at Meerut: Mangal Pandey,"],
   "nodeIds": [
    "c12_hist_cbse_10_001",
    "c12_hist_cbse_10_002",
@@ -6278,7 +6274,7 @@ export const C12_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Mutiny At Meerut (10 May suddenly stops working?",
+   "question": "What happens if The Mutiny at Meerut: Mangal suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -6289,7 +6285,7 @@ export const C12_HIST_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Mutiny At Meerut (10 May",
+    "title": "Mutiny At Meerut",
     "text": "The Mutiny at Meerut (10 May 1857) was the violent outbreak by Bengal Army sepoys in Meerut cantonment triggered by the refusal to use Enfield rifle cartridges rumoured to be greased with cow and pig fat, which escalated into a coordinated attack on British",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -6307,7 +6303,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "This Topic Examines The Emergence And",
+    "title": "This Topic Examines The Emergence",
     "text": "This topic examines the emergence and roles of three prominent regional leaders—Rani Lakshmibai of Jhansi, Nana Saheb of Kanpur, and Tantia Tope—during the 1857 Revolt, focusing on how popular pressure and local grievances thrust them into leadership",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -6955,11 +6951,11 @@ export const C12_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about mutiny at meerut (10 may?",
+    "What surprised you about the mutiny at meerut: mangal pandey,?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Mutiny At Meerut (10 May mastered! 🎯",
+  "successLine": "The Mutiny at Meerut: Mangal mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -7014,7 +7010,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Non-Cooperation Movement Was a",
+    "title": "Non-Cooperation Movement",
     "text": "The Non-Cooperation Movement (1920–22) was a nationwide mass campaign led by Mahatma Gandhi and the Indian National Congress, combined with the Khilafat Movement, urging Indians to renounce all voluntary association with the British colonial government —",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -7032,7 +7028,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Gandhi's Constructive Programme Was a",
+    "title": "Gandhi's Constructive Programme",
     "text": "Gandhi's Constructive Programme (1920s-1940s) was a comprehensive social reform agenda that ran parallel to political resistance, centred on khadi (hand-spun cloth) for economic self-reliance, Harijan uplift (abolition of untouchability), village",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -7413,15 +7409,13 @@ export const C12_HIST_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_hist_ch12",
-  "title": "Constituent Assembly Was The",
+  "title": "Constituent Assembly",
   "subtitle": "History · Chapter 12",
   "classLevel": 12,
   "mode": "senior",
   "subject": "history",
-  "topic": "Constituent Assembly Was The",
-  "chapters": [
-   "History Ch12: Constituent Assembly Was The"
-  ],
+  "topic": "Constituent Assembly",
+  "chapters": ["History Ch12: Constituent Assembly"],
   "nodeIds": [
    "c12_hist_cbse_12_001",
    "c12_hist_cbse_12_002",
@@ -7443,7 +7437,7 @@ export const C12_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Constituent Assembly Was The more about facts, or about reasoning?",
+   "question": "Is Constituent Assembly more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -7454,7 +7448,7 @@ export const C12_HIST_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Constituent Assembly Was The",
+    "title": "Constituent Assembly",
     "text": "The Constituent Assembly (1946–1949) was the body tasked with framing India's Constitution, formed through indirect elections by provincial legislatures (not universal franchise), dominated by the Congress (82% members) after the Muslim League boycott, and",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -7472,7 +7466,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Debate On The Form Of",
+    "title": "Debate On The Form",
     "text": "The debate on the form of government in the Constituent Assembly (1946–1949) centered on whether India should adopt a parliamentary system (executive responsible to legislature, modeled on Britain) or a presidential system (separate executive and legislature,",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -7502,7 +7496,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Debate On Separate Electorates And",
+    "title": "Debate On Separate Electorates",
     "text": "The debate on separate electorates and minority rights in the Constituent Assembly (1946-1949) was a pivotal constitutional conflict over how religious, caste, and tribal minorities would be politically represented in independent India.",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -7520,7 +7514,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Indian Constitution's Sources Refer To",
+    "title": "Indian Constitution's Sources",
     "text": "The Indian Constitution's sources refer to the historical and international influences that shaped its provisions, primarily the Government of India Act 1935 (which provided the structural framework for federalism, provincial autonomy, and administrative",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -8094,7 +8088,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Constituent Assembly Was The mastered! 🎯",
+  "successLine": "Constituent Assembly mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

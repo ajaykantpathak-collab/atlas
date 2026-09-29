@@ -19,7 +19,7 @@ export const c11_eng_s_ch03_p1: SimDef = {
         hook: 'The body-swap isn\'t magic solving a problem — it\'s the visible shape of a decision: \'this is where your foot goes down.\'',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" refers to the essential historical, social, and biographical information about the playwright (J.B.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Mother\'s Day\' (Snapshots, ch. 3) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_s_cbse_03_001', title: 'Your mission',
@@ -29,41 +29,41 @@ export const c11_eng_s_ch03_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_03_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a play set in a London suburb in the 1950s, where a mother is taken for granted by her family.',
+          caseStudy: { intro: 'Start with the author of \'Mother\'s Day\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who is the playwright of "Mother\'s Day" and what is his primary literary concern?', options: [
                 { text: 'The playwright is J.B', outcome: 'The playwright is J.B. Priestley, a British novelist, playwright, and social commentator known for.' },
                 { text: 'context and background', outcome: 'Not quite — Students often think "context and background" means only the author\'s biography and the historical.', reveals: 'context-and-background-means-only' },
                 { text: 'a different author or saying he wrote only mysteries', outcome: 'Not quite — Students often think "context and background" means only the author\'s biography and the historical.', reveals: 'context-and-background-means-only' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_03_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re watching a 30-minute family argument where the mother suddenly stops serving tea, starts smoking, and insults her daughter\'s boyfriend — you\'d.',
+          caseStudy: { intro: 'Trace \'Mother\'s Day\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the inciting incident in "Mother\'s Day" and why does it occur at the specific moment it does in the play\'s timeline?', options: [
                 { text: 'The inciting incident is the personality swap between Mrs', outcome: 'The inciting incident is the personality swap between Mrs. Pearson and Mrs.' },
                 { text: 'Doris entering', outcome: 'Not quite — Students often treat the body-swap as mere fantasy plot device rather than a *structural metaphor*.', reveals: 'students-often-treat-the-body' },
                 { text: 'George coming home', outcome: 'Not quite — Students often treat the body-swap as mere fantasy plot device rather than a *structural metaphor*.', reveals: 'students-often-treat-the-body' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_03_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine walking into a friend\'s house and instantly sensing tension — dishes unwashed, silence heavy, someone storming off.',
+          caseStudy: { intro: 'Identify where and when \'Mother\'s Day\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'List four specific physical details of the Pearson living-room mentioned in the opening stage directions that establish the play\'s setting.', options: [
                 { text: 'Correct answer: (1) Small suburban semi-detached villa, (2) Two doors', outcome: 'Correct answer: (1) Small suburban semi-detached villa, (2) Two doors — one leading to front.' },
                 { text: 'living room', outcome: 'Not quite — Students treat setting as a static backdrop ("the room where it happens") and atmosphere as.', reveals: 'students-treat-setting-as-a' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_03_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you come home after a long day and everyone expects you to serve tea, iron clothes, and listen to complaints — without a single "thank you." That.',
+          caseStudy: { intro: 'Pick the central figure in \'Mother\'s Day\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What are the two contrasting vocal qualities the stage directions assign to Mrs. Pearson and Mrs. Fitzgerald at the opening of the play?', options: [
                 { text: 'Mrs', outcome: 'Mrs. Pearson speaks in a "light, flurried sort of tone, with a touch of suburban Cockney"; Mrs.' },
                 { text: 'deep voice, rather Irish perhaps', outcome: 'Not quite — Students often believe the body swap *permanently* changes Mrs. Pearson\'s personality, or that Mrs.', reveals: 'the-body-swap-permanently-changes' },
                 { text: 'the body swap *permanently* changes Mrs', outcome: 'Not quite — Students often believe the body swap *permanently* changes Mrs. Pearson\'s personality, or that Mrs.', reveals: 'the-body-swap-permanently-changes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_03_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re watching a family dinner where everyone talks over the mother — she serves, clears, and nods silently.',
+          caseStudy: { intro: 'Spot the secondary figures in \'Mother\'s Day\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'Identify the four supporting characters in "Mother\'s Day" and state one defining trait for each as established in the opening stage.', options: [
                 { text: 'The four supporting characters are: George Pearson (husband)', outcome: 'The four supporting characters are: George Pearson (husband) — described as "solemn.' },
                 { text: 'strong', outcome: 'Not quite — Students often treat supporting characters as "minor" and therefore less important for analysis.', reveals: 'students-often-treat-supporting-characters' },
                 { text: 'describes them only by name or confuses their traits (e', outcome: 'Not quite — Students often treat supporting characters as "minor" and therefore less important for analysis.', reveals: 'students-often-treat-supporting-characters' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_03_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you come home after a long day at school and your mother has not only cooked dinner but also washed your uniform, packed your bag, and remembered your.',
+          caseStudy: { intro: 'Ask what \'Mother\'s Day\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'State the primary theme of *Mother\'s Day* in one complete thematic sentence (not a topic like "motherhood" but a full idea like "The play.', options: [
                 { text: 'Correct answer: *The play argues that a mother\'s selfless labour is exploited by a', outcome: 'Correct answer: *The play argues that a mother\'s selfless labour is exploited by a complacent.' },
                 { text: 'The theme is that mothers work hard', outcome: 'Not quite — Students often think the primary theme is "Mrs Fitzgerald teaches Mrs Pearson to be strong".', reveals: 'the-primary-theme-is-mrs' },
@@ -88,7 +88,7 @@ export const c11_eng_s_ch03_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" refers to the essential historical.',
+          question: '\'Mother\'s Day\' (Snapshots, ch. 3) — the context and background to this text.',
           hint: 'If stuck, review the Class 9 node on dramatic structure (c9_engl_ch6_4) and the Class 10.',
           misconception: 'Students often think "context and background" means only the author\'s biography and the historical date.',
           parts: [
@@ -99,7 +99,7 @@ export const c11_eng_s_ch03_p1: SimDef = {
           ],
             remediations: { 'context-and-background-means-only': { steps: ['If a student cannot link context to the play\'s meaning, do this: (1) Give them a 3-column table: Context Detail | Play.', '(2) Fill one row together: "1950s gender roles" → "Mrs.', 'Pearson serves tea, irons, stays home" → "Shows her labor is invisible." (3) Ask them to complete two more rows using.', '(4) Have them write one sentence: "The play uses the one-act structure to compress the mother\'s rebellion into a single.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_002', difficulty: 'standard',
-          question: 'Plot and narrative structure in drama refers to the organized sequence.',
+          question: 'The plot/narrative arc of \'Mother\'s Day\' — what happens, in what order, and why.',
           hint: 'Review c9_engl_ch6_4 (Dramatic Structure: Acts, Scenes and Stage Directions) for.',
           misconception: 'Students often treat the body-swap as mere fantasy plot device rather than a *structural metaphor* for psychological.',
           parts: [
@@ -121,7 +121,7 @@ export const c11_eng_s_ch03_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-the-body': { steps: ['Have the student reread only the first 3 pages (up to the spell) and list every phrase showing Mrs.', 'Pearson\'s *internal* desire to change ("I keep making up my mind to have it out with them," "I don\'t know how.', 'Then read the Doris confrontation and highlight every action that *mirrors* those internal wishes (refusing tea.', 'Ask: "If the spell never happened, which of these actions could Mrs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and physical environment in which a literary.',
+          question: 'The setting of \'Mother\'s Day\' — the place, time and atmosphere the text creates.',
           hint: 'Review c7_engl_ch04_005 (Atmosphere: Heat, Silence and Anticipation) and c8_engl_ch4_1.',
           misconception: 'Students treat setting as a static backdrop ("the room where it happens") and atmosphere as a single fixed mood ("it\'s.',
           parts: [
@@ -144,7 +144,7 @@ export const c11_eng_s_ch03_p1: SimDef = {
           ],
             remediations: { 'students-treat-setting-as-a': { steps: ['Have the student re-read ONLY the stage directions (italicized text) from start to finish, highlighting every noun.', 'Create a two-column chart: left column = physical detail, right column = atmospheric effect (e.g., "muslin-covered.', 'Map the four atmospheric phases to specific page ranges using dialogue as evidence.', 'Ask: "If this play were set in a palace kitchen / a spaceship / a modern Mumbai flat, which atmospheric shifts would.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the central.',
+          question: 'Character analysis in \'Mother\'s Day\' — the central figure(s), their traits, and.',
           hint: 'Review "Stage Directions as Characterisation" in c11_eng_s_cbse_03_003 (Setting and.',
           misconception: 'Students often believe the body swap *permanently* changes Mrs. Pearson\'s personality, or that Mrs.',
           parts: [
@@ -155,7 +155,7 @@ export const c11_eng_s_ch03_p1: SimDef = {
           ],
             remediations: { 'the-body-swap-permanently-changes': { steps: ['Re-read the final exchange where Mrs.', 'Fitzgerald warns: "Don\'t you start any explaining or apologising — or you\'re done for." 2.', 'Highlight every stage direction showing Mrs.', 'Pearson\'s *own* voice returning ("now with Mrs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters examines how secondary figures in.',
+          question: 'Supporting characters in \'Mother\'s Day\' — the secondary figures who move the.',
           hint: 'Review the PEEL method from c11_eng_s_cbse_03_004 and re-read the stage directions for.',
           misconception: 'Students often treat supporting characters as "minor" and therefore less important for analysis, writing generic.',
           parts: [
@@ -170,7 +170,7 @@ export const c11_eng_s_ch03_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-supporting-characters': { steps: ['If a student writes generic descriptions, assign this 3-step remediation: (1) Create a four-column table: Character |.', '(2) For each character, find one line where they speak TO Mrs Pearson and one where they speak ABOUT her (to each other.', '(3) Rewrite one analytical paragraph using the PEEL structure, explicitly using the tabled evidence.', 'This forces movement from description to function-analysis.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_03_006', difficulty: 'standard',
-          question: 'The primary theme of a literary work is its central, unifying idea or insight.',
+          question: 'The primary theme of \'Mother\'s Day\' — the central idea the whole text returns.',
           hint: 'Review the distinction between **character arc** (individual change) and **thematic.',
           misconception: 'Students often think the primary theme is "Mrs Fitzgerald teaches Mrs Pearson to be strong" — focusing on the.',
           parts: [

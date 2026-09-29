@@ -6,13 +6,13 @@ import C12_MathematicsWallisFormulaReductionSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicswallisformulareductionsim: SimDef = {
     id: 'v3w_c12_mathematicswallisformulareductionsim',
-    title: 'Wallis Formula Reduction',
+    title: 'Integration by Parts: Rule and Formula',
     subtitle: 'Covers indefinite and definite integration by parts for products of algebraic,.',
     classLevel: 12, subject: 'mathematics', topic: 'Integration by Parts: Rule and Formula',
     chapters: [],
     nodeIds: ['c12_math_cbse_07_004', 'c12_math_cbse_03_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a civil engineering intern in Bengaluru calculating the bending moment in a simply supported.', goal: 'Master Wallis Formula Reduction.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a civil engineering intern in Bengaluru calculating the bending moment in a simply supported.', goal: 'Master Integration by Parts: Rule and Formula.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Integration by parts is a technique derived.', text: 'Integration by parts is a technique derived from the product rule of differentiation that transforms the integral of a product of two functions into a simpler integral.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -37,12 +37,12 @@ export const w_c12_mathematicswallisformulareductionsim: SimDef = {
             { text: 'Verify each operation was applied to the current matrix, not the original.', faded: true, blankAnswer: 'Final matrix = [[3, 1, 3], [2, 4, 4], [-4, 1, -5]]' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_03_010', title: 'Identify each idea',
-          dissect: { specimen: 'Wallis Formula Reduction', spots: [
+          dissect: { specimen: 'Integration by Parts: Rule and Formula', spots: [
             { id: 's1', label: 'Integration by parts is a', prompt: 'Which idea is this? — Integration by parts is a technique derived from the product rule of differentiation that.', answer: 'Integration by parts is a', options: ['Integration by parts is a', 'Elementary transformations or elementary operations'] },
             { id: 's2', label: 'Elementary transformations or elementary operations', prompt: 'Which idea is this? — Elementary transformations (or elementary operations) of a matrix are three specific.', answer: 'Elementary transformations or elementary operations', options: ['Elementary transformations or elementary operations', 'Integration by parts is a'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsWallisFormulaReductionSim, prompt: 'Explore the interactive — Wallis Formula Reduction' },
+    explore: { component: C12_MathematicsWallisFormulaReductionSim, prompt: 'Explore the interactive — Integration by Parts: Rule and Formula' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_03_010', difficulty: 'standard',
           question: 'Elementary transformations (or elementary operations) of a matrix are three.',

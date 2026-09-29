@@ -19,7 +19,7 @@ export const c12_hin_ar_ch03_p1: SimDef = {
         hook: 'Nayi Kavita broke with Chhayavad\'s romantic music for intellectual rigour and colloquial language. The twin poems test language both ways — in one, words are playthings freely mixed; in the other, language stammers and fails the very experience it tries to hold. Play and failure are the same anxiety.',
     },
     teaching: [
-        { title: 'कवतिा के बहाने, बात सीधी थी पर — कवि परिचय और पृष्ठभूमि', text: '\'कविता के बहाने, बात सीधी थी पर\' कविता के रचयिता कुँवर नारायण का संक्षिप्त जीवन परिचय, उनकी साहित्यिक यात्रा, प्रमुख कृतियाँ, रचनाधर्मिता (नई कविता आंदोलन में योगदान), और इस कविता की रचना-पृष्ठभूमि.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'कवतिा के बहाने, बात सीधी थी पर — कवि परिचय और पृष्ठभूमि', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_03_001', title: 'Your mission',
@@ -28,8 +28,15 @@ export const c12_hin_ar_ch03_p1: SimDef = {
         context: 'Enter the experimental decade: watch words treated as toys and then as traitors, weigh whether the poem about failed speech itself succeeds, and feel where a generation broke with the old music.',
         labels: ['कवतिा के बहाने, बात'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_03_001', title: 'कवतिा के बहाने, बात सीधी थी पर — कवि परिचय और पृष्ठभूमि',
+          caseStudy: { intro: 'आरोह भाग-2 खोलिए और पाठ 03 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: 'Name the literary movement associated with Jaishankar Prasad and identify its one defining characteristic that distinguishes it from.', options: [
+                { text: 'Jaishankar Prasad is associated with Nayi Kavita (New Poetry), specifically the Prayogvad', outcome: 'Jaishankar Prasad is associated with Nayi Kavita (New Poetry), specifically the Prayogvad.' },
+                { text: 'Chhayavad', outcome: 'Not quite — Students treat "context" as a static list of facts (birth date, awards, movement name) to.', reveals: 'students-treat-context-as-a' },
+                { text: 'Pragativad', outcome: 'Not quite — Students treat "context" as a static list of facts (birth date, awards, movement name) to.', reveals: 'students-treat-context-as-a' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_03_002', title: 'कवतिा के बहाने, बात सीधी थी पर — पद्यांश-वार भावार्थ',
-          caseStudy: { intro: 'You open your textbook to the poem and see 8-10 stanzas — it feels like a wall of text. **Start here:** Read the *first stanza aloud* twice. Notice the rhythm.',
+          caseStudy: { intro: '\'आरोह भाग-2 — पाठ 3\' का क्रम: शुरुआत आरोह-भाग-2-—-पाठ-3 से, घटनाएँ बढ़ती हैं, अंत \'आरोह भाग-2 पर।',
             decisions: [{ prompt: 'पद्यांश-वार भावार्थ और कविता के सारांश में मूल अंतर क्या है? एक वाक्य में लिखिए।', options: [
                 { text: '**Correct Answer:** पद्यांश-वार भावार्थ प्रत्येक पद्यांश के सूक्ष्म भाव, बिंब और प्रसंग', outcome: '**Correct Answer:** पद्यांश-वार भावार्थ प्रत्येक पद्यांश के सूक्ष्म भाव, बिंब और प्रसंग की.' },
                 { text: 'दोनों एक ही हैं', outcome: 'Not quite — **Specific Error:** Students treat "भावार्थ" as "शब्दार्थ" (word-meaning) or "अनुवाद".', reveals: 'specific-error-students-treat-as' },
@@ -54,18 +61,29 @@ export const c12_hin_ar_ch03_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_03_001', difficulty: 'standard',
-          question: '\'कविता के बहाने, बात सीधी थी पर\' कविता के रचयिता कुँवर नारायण का संक्षिप्त जीवन.',
-          hint: 'यदि \'नई कविता\' आंदोलन या आपातकाल की पृष्ठभूमि अस्पष्ट हो, तो कक्षा 11 हिंदी \'आरोह\' के.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर मानते हैं कि \'कवि परिचय\' का अर्थ केवल \'जीवनी तथ्य\' (जन्म, मृत्यु, पुस्तकें, पुरस्कार).',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, revisit Class 11 Chapter 12 (Muktibodh) "Before You Read" node.',
+          misconception: 'Students treat "context" as a static list of facts (birth date, awards, movement name) to be memorised for a 1-mark.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कविता के बहाने, बात सीधी थी पर\' कविता के रचयिता कुँवर नारायण का संक्षिप्त जीवन परिचय,',
-                  options: ['\'कविता के बहाने, बात सीधी थी पर\' कविता के रचयिता कुँवर नारायण का संक्षिप्त जीवन परिचय,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza/section) का क्रमानुसार,', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है', 'केंद्रीय भाव (Central Theme) कविता का वह **मूल विचार या संदेश** है जिसके चारों ओर सारी'],
-                  hint: 'यदि \'नई कविता\' आंदोलन या आपातकाल की पृष्ठभूमि अस्पष्ट हो, तो कक्षा 11 हिंदी \'आरोह\' के नोड्स.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर मानते हैं कि \'कवि परिचय\' का अर्थ केवल \'जीवनी तथ्य\' (जन्म, मृत्यु, पुस्तकें, पुरस्कार) याद करना है। वे यह.' }
+                { id: 'a', prompt: 'Compare the treatment of "language" in the two poems: "कविता के गुस्से" (where words are playthings) and "बात लह/ख थी" (where language fails to capture.', answer: 'In "कविता के गुस्से", language is material to mould',
+                  options: ['In "कविता के गुस्से", language is material to mould', 'about language'],
+                  hint: 'If stuck, revisit Class 11 Chapter 12 (Muktibodh) "Before You Read" node (c11_hin_ar_cbse_12_001).',
+                  misconception: 'Students treat "context" as a static list of facts (birth date, awards, movement name) to be memorised for a 1-mark question.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**पुनः पठन (Re-read):** NCERT पाठ्यपुस्तक के \'कवि परिचय\' बॉक्स को नहीं, बल्कि कुँवर नारायण के किसी साक्षात्कार.', '**मैपिंग एक्सरसाइज (Mapping):** एक टेबल बनाएं: कॉलम 1 में कवि के जीवन की 5 प्रमुख घटनाएं (जैसे: बचपन में पिता का निधन.', '**पीयर डिस्कशन (Peer Discussion):** किसी सहपाठी से पूछें: "अगर कुँवर नारायण आईएएस न होते, प्रोफेसर होते, तो क्या यह.', '**पुनः निदान (Re-diagnostic):** उपरोक्त DIAGNOSTIC_QUESTION_4 को दोबारा हल करें; अब उत्तर में \'जीवन घटना -> दृष्टिकोण.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-context-as-a': { steps: ['Have the student re-read the NCERT "वककजसग" (introductory note) and underline every phrase linking Prasad\'s *life*.', 'For each underlined phrase, ask: "Which line in the poem does this explain?" — force a textual match.', 'Assign a 3-sentence writing task: "Explain how Prasad\'s journalism shapes the dialogue structure in \'बात लह/ख थी\'."', 'Re-diagnose using Diagnostic Question 2 — the student must now produce a historically grounded prediction, not.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_03_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students treat "context" as a static list of facts (birth date, awards, movement name) to be memorised for a 1-mark.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the claim: "Jaishankar Prasad\'s \'बात लह/ख थी\' is a poem about the impossibility of communication." Support your judgement with two textual reasons.', answer: 'The claim is *partially true but incomplete*',
+                  options: ['The claim is *partially true but incomplete*', 'yes, it\'s about impossibility', 'no, they communicate'],
+                  hint: 'If stuck, revisit Class 11 Chapter 12 (Muktibodh) "Before You Read" node (c11_hin_ar_cbse_12_001).',
+                  misconception: 'Students treat "context" as a static list of facts (birth date, awards, movement name) to be memorised for a 1-mark question.' }
+          ],
+            remediations: { 'students-treat-context-as-a': { steps: ['Have the student re-read the NCERT "वककजसग" (introductory note) and underline every phrase linking Prasad\'s *life*.', 'For each underlined phrase, ask: "Which line in the poem does this explain?" — force a textual match.', 'Assign a 3-sentence writing task: "Explain how Prasad\'s journalism shapes the dialogue structure in \'बात लह/ख थी\'."', 'Re-diagnose using Diagnostic Question 2 — the student must now produce a historically grounded prediction, not.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_03_002', difficulty: 'standard',
-          question: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza/section) का.',
+          question: '\'आरोह भाग-2 — पाठ 3\' का कथानक — \'आरोह भाग-2 — पाठ 3\' — आरोह भाग-2 का पाठ। पाठ.',
           hint: 'If stuck, review "बिंब और प्रतीक की पहचान" from c11_hin_ar_cbse_16_006.',
           misconception: '**Specific Error:** Students treat "भावार्थ" as "शब्दार्थ" (word-meaning) or "अनुवाद" (translation).',
           parts: [
@@ -76,45 +94,45 @@ export const c12_hin_ar_ch03_p1: SimDef = {
           ],
             remediations: { 'specific-error-students-treat-as': { steps: ['**Step-by-step Remediation:** 1.', '**Revisit Node c11_hin_ar_cbse_16_002 (आओ, मलिकर बचाएँ — पद्यांश-वार भावार्थ):** Pick *one stanza* from that poem.', 'Write its *literal translation* (शब्दार्थ) on left side of notebook.', 'On right side, write: "कवि यहाँ क्या *महसूस* कर रहा है?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_03_003', difficulty: 'standard',
-          question: 'काव्य-संरचना और पद्य-विन्यास का अर्थ है — कविता के अंतर्निहित ढाँचे (छंद, लय.',
-          hint: 'यदि मात्रा-गण-यति में अटके: c11_hin_a_cbse_13_005 (छंद और लय-विधान) के \'मात्रा-गण अभ्यास\'.',
-          misconception: '**विशिष्ट भ्रम**: छात्र समझते हैं कि "काव्य-संरचना = छंद नाम बताना (जैसे चौपाई, दोहा, रोला)"। **वास्तविकता**: संरचना.',
+          question: '\'आरोह भाग-2 — पाठ 3\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण.',
+          hint: 'Review Class 11 poem analysis (c11_hin_ar_cbse_03_003) focusing on how setting.',
+          misconception: 'Students often treat setting as merely "where the poem happens" and atmosphere as a simple adjective like "sad".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य-संरचना और पद्य-विन्यास का अर्थ है',
-                  options: ['काव्य-संरचना और पद्य-विन्यास का अर्थ है', '\'कविता के बहाने, बात सीधी थी पर\' कविता के रचयिता कुँवर नारायण का संक्षिप्त जीवन परिचय,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza/section) का क्रमानुसार,', 'केंद्रीय भाव (Central Theme) कविता का वह **मूल विचार या संदेश** है जिसके चारों ओर सारी'],
-                  hint: 'यदि मात्रा-गण-यति में अटके: c11_hin_a_cbse_13_005 (छंद और लय-विधान) के \'मात्रा-गण अभ्यास\' खंड को.',
-                  misconception: '**विशिष्ट भ्रम**: छात्र समझते हैं कि "काव्य-संरचना = छंद नाम बताना (जैसे चौपाई, दोहा, रोला)"। **वास्तविकता**: संरचना = **छंद + लय-परिवर्तन.' }
+                { id: 'a', prompt: 'Identify two concrete images from "ckr lh/h Fkh ij" that establish the setting of "bhasha ke dar par" (at the door of language).', answer: 'Images: (1) "Bhasha ke paddh mein" (at language\'s door)',
+                  options: ['Images: (1) "Bhasha ke paddh mein" (at language\'s door)', 'vichar', 'picks abstract nouns (e'],
+                  hint: 'Review Class 11 poem analysis (c11_hin_ar_cbse_03_003) focusing on how setting is established.',
+                  misconception: 'Students often treat setting as merely "where the poem happens" and atmosphere as a simple adjective like "sad" or "happy".' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**तत्काल**: वर्ग 11 के छंद-परिचय नोड (c11_hin_a_cbse_13_005 / c11_hin_ar_cbse_16_005) से मात्रा-गण-यति की **अभ्यास.', '**अगला कदम**: किसी सरल कविता (जैसे \'पुष्प की अभिलाषा\') के 4 पद्यों का **पूर्ण संरचना-मानचित्र** बनाओ: मात्रा तालिका, गण.', '**पुनः निदान**: इस नोड के DIAGNOSTIC_QUESTION_3 को फिर से हल करो — यदि चरण 3-4 (पद-बंद → बिंब) अटके, तो.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-setting-as': { steps: ['Revisit Class 11 node c11_hin_ar_cbse_03_003 (Setting and Atmosphere) and re-do the graphic organizer: column 1.', 'Pick a simple Hindi poem (e.g., from Class 10) and practice the 4-step aloud reading: (a) mark place/time words, (b).', 'Return to this node and re-attempt Diagnostic Questions 3 and 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_03_004', difficulty: 'standard',
-          question: 'केंद्रीय भाव (Central Theme) कविता का वह **मूल विचार या संदेश** है जिसके चारों.',
-          hint: 'यदि विभाव/अनुभाव/संचारी की पहचान में अटकें → **c11_hin_a_cbse_13_004 (जाग तुझको दूर जाना.',
-          misconception: '**सबसे घातक गलतफहमी**: छात्र समझते हैं कि **\'रस\' का अर्थ \'भाव\' या \'मूड\' (Mood) होता है** — जैसे "कविता दुखी करती है तो.',
+          question: '\'आरोह भाग-2 — पाठ 3\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+          hint: 'If stuck, revisit the distinction between \'poet\' and \'speaker\' using the Class 11 node.',
+          misconception: 'Students often treat the poet-speaker as either (a) a fully fictional character like in a story, ignoring that the \'I\'.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'केंद्रीय भाव (Central Theme) कविता का वह **मूल विचार या संदेश** है जिसके चारों ओर सारी',
-                  options: ['केंद्रीय भाव (Central Theme) कविता का वह **मूल विचार या संदेश** है जिसके चारों ओर सारी', '\'कविता के बहाने, बात सीधी थी पर\' कविता के रचयिता कुँवर नारायण का संक्षिप्त जीवन परिचय,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza/section) का क्रमानुसार,', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है'],
-                  hint: 'यदि विभाव/अनुभाव/संचारी की पहचान में अटकें → **c11_hin_a_cbse_13_004 (जाग तुझको दूर जाना — केंद्रीय.',
-                  misconception: '**सबसे घातक गलतफहमी**: छात्र समझते हैं कि **\'रस\' का अर्थ \'भाव\' या \'मूड\' (Mood) होता है** — जैसे "कविता दुखी करती है तो करुण रस"।.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 3\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+                  options: ['\'आरोह भाग-2 — पाठ 3\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 3\' का कथानक — \'आरोह भाग-2 — पाठ 3\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 3\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'If stuck, revisit the distinction between \'poet\' and \'speaker\' using the Class 11 node.',
+                  misconception: 'Students often treat the poet-speaker as either (a) a fully fictional character like in a story, ignoring that the \'I\' is a deliberate.' }
           ],
-            remediations: { 'mood-aesthetic-relish-situation': { steps: ['**चरण 1**: छात्र से कहें — "कविता का कोई एक पद पढ़ो और बताओ: **यहाँ कौन दुखी/संकट में है (आश्रय)?** और **किस कारण.', 'श्रद्धा?" — जो महसूस हुआ, वही **रस** है। अब उसे **तकनीकी नाम (वीर, करुण, शांत...)** दो। **चरण 3**: पुनः निदान.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-poet': { steps: ['Have the student re-read both poems *only* marking first-person statements ("मैं", "मेरे", implied "I") and.', 'Ask: "If you didn\'t know the poet\'s name, what kind of person would you imagine from these words alone?" List 5.', 'Practice the PEEL structure on one trait using the worked example as a template.', 'Re-attempt Diagnostic Question 4 to test if the shift from external to internal is now visible.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_03_005', difficulty: 'standard',
-          question: 'छंद काव्य की वह निश्चित संरचनात्मक इकाई है जिसमें मात्राओं या वर्णों की एक.',
+          question: '\'आरोह भाग-2 — पाठ 3\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को.',
           hint: 'यदि मात्रा गिनने में अटकें: "संयुक्त व्यंजन और अनुस्वार को गुरु मानना भूल गये हैं".',
           misconception: '**छात्र समझते हैं: "छंद पहचानना = मात्रा गिनकर छंद का नाम बता देना।"** **वास्तविकता:** बोर्ड/प्रतियोगी परीक्षा में पूछा.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'छंद काव्य की वह निश्चित संरचनात्मक इकाई है जिसमें मात्राओं या वर्णों की एक निश्चित',
-                  options: ['छंद काव्य की वह निश्चित संरचनात्मक इकाई है जिसमें मात्राओं या वर्णों की एक निश्चित', '\'कविता के बहाने, बात सीधी थी पर\' कविता के रचयिता कुँवर नारायण का संक्षिप्त जीवन परिचय,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza/section) का क्रमानुसार,', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 3\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते',
+                  options: ['\'आरोह भाग-2 — पाठ 3\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 3\' का कथानक — \'आरोह भाग-2 — पाठ 3\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 3\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि मात्रा गिनने में अटकें: "संयुक्त व्यंजन और अनुस्वार को गुरु मानना भूल गये हैं" — कक्षा 11.',
                   misconception: '**छात्र समझते हैं: "छंद पहचानना = मात्रा गिनकर छंद का नाम बता देना।"** **वास्तविकता:** बोर्ड/प्रतियोगी परीक्षा में पूछा जाता है — *"छंद की.' }
           ],
             remediations: { 'rhythm-meaning-link': { steps: ['**तुरंत अभ्यास:** कक्षा 11 के छंद नोड्स (c11_hin_ar_cbse_16_005, c11_hin_a_cbse_13_005) से 5 पंक्तियाँ लेकर मात्रा-गणना.', '**लय-भाव जोड़:** वही पंक्तियाँ दो बार पढ़ो — पहली बार यन्त्रवत्, दूसरी बार भाव देकर; रिकॉर्ड करो और अंतर सुनो। 3.', '**पुनः निदान:** ऊपर का Diagnostic Q4 फिर से हल करो; यदि अब भी लय-भाव लिंक न बने, तो शिक्षक से \'गुरु-लघु का भाव-प्रभाव\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_03_006', difficulty: 'standard',
-          question: 'अलंकार (Alankar) refers to figures of speech in Hindi poetry where words are.',
+          question: '\'आरोह भाग-2 — पाठ 3\' का मुख्य विषय — \'आरोह भाग-2 — पाठ 3\' का केंद्रीय भाव और.',
           hint: 'यदि अटके: c11_hin_a_cbse_01_009 के "उपमा vs उत्प्रेक्षा" तुलना सारणी को दोबारा बनाएँ — 3.',
           misconception: '**विशिष्ट भ्रम**: छात्र मानते हैं कि "उपमा" और "उत्प्रेक्षा" एक ही हैं क्योंकि दोनों में तुलना होती है — वे पंक्ति "बात.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार (Alankar) refers to figures of speech in Hindi poetry where words are arranged or',
-                  options: ['अलंकार (Alankar) refers to figures of speech in Hindi poetry where words are arranged or', '\'कविता के बहाने, बात सीधी थी पर\' कविता के रचयिता कुँवर नारायण का संक्षिप्त जीवन परिचय,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक पद्यांश (stanza/section) का क्रमानुसार,', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 3\' का मुख्य विषय — \'आरोह भाग-2 — पाठ 3\' का केंद्रीय भाव और संदेश',
+                  options: ['\'आरोह भाग-2 — पाठ 3\' का मुख्य विषय — \'आरोह भाग-2 — पाठ 3\' का केंद्रीय भाव और संदेश', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 3\' का कथानक — \'आरोह भाग-2 — पाठ 3\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 3\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके: c11_hin_a_cbse_01_009 के "उपमा vs उत्प्रेक्षा" तुलना सारणी को दोबारा बनाएँ — 3 उदाहरण.',
                   misconception: '**विशिष्ट भ्रम**: छात्र मानते हैं कि "उपमा" और "उत्प्रेक्षा" एक ही हैं क्योंकि दोनों में तुलना होती है — वे पंक्ति "बात सीधी थी पर / उसमें.' }
           ],

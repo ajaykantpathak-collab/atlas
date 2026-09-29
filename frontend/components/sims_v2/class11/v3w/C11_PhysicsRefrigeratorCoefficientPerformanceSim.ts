@@ -6,13 +6,13 @@ import C11_PhysicsRefrigeratorCoefficientPerformanceSim from '../../../simulatio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsrefrigeratorcoefficientperformancesim: SimDef = {
     id: 'v3w_c11_physicsrefrigeratorcoefficientperformancesim',
-    title: 'Refrigerator Coefficient Performance',
+    title: 'Second Law of Thermodynamics: Kelvin-Planck and Clausius',
     subtitle: 'This node covers the two classical statements of the Second Law, their physical.',
     classLevel: 11, subject: 'physics', topic: 'Second Law of Thermodynamics: Kelvin-Planck and Clausius',
     chapters: [],
     nodeIds: ['c11_phy_cbse_11_009', 'c11_phy_cbse_11_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a hot cup of chai left on a table in a Delhi winter: it spontaneously cools down, transferring heat.', goal: 'Master Refrigerator Coefficient Performance.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a hot cup of chai left on a table in a Delhi winter: it spontaneously cools down, transferring heat.', goal: 'Master Second Law of Thermodynamics: Kelvin-Planck and Clausius.' },
     discovery: {
         question: 'An inventor proposes a refrigerator that transfers 500 J of heat from a cold compartment at 270 K to a hot room at 300 K *without any external electricity or.',
         options: ['Yes, it violates the Clausius statement', 'No, energy is conserved', 'sole result'],
@@ -45,12 +45,12 @@ export const w_c11_physicsrefrigeratorcoefficientperformancesim: SimDef = {
             { text: 'State final answer with units.', faded: true, blankAnswer: '31.3 W' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_11_012', title: 'Identify each idea',
-          dissect: { specimen: 'Refrigerator Coefficient Performance', spots: [
+          dissect: { specimen: 'Second Law of Thermodynamics: Kelvin-Planck and Clausius', spots: [
             { id: 's1', label: 'The Second Law of Thermodynamics', prompt: 'Which idea is this? — The Second Law of Thermodynamics introduces a fundamental directionality to natural.', answer: 'The Second Law of Thermodynamics', options: ['The Second Law of Thermodynamics', 'The Coefficient of Performance COP'] },
             { id: 's2', label: 'The Coefficient of Performance COP', prompt: 'Which idea is this? — The Coefficient of Performance (COP) of a refrigerator, denoted by α (alpha), is a.', answer: 'The Coefficient of Performance COP', options: ['The Coefficient of Performance COP', 'The Second Law of Thermodynamics'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsRefrigeratorCoefficientPerformanceSim, prompt: 'Explore the interactive — Refrigerator Coefficient Performance' },
+    explore: { component: C11_PhysicsRefrigeratorCoefficientPerformanceSim, prompt: 'Explore the interactive — Second Law of Thermodynamics: Kelvin-Planck and Clausius' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_11_009', difficulty: 'standard',
           question: 'The Second Law of Thermodynamics introduces a fundamental directionality to.',

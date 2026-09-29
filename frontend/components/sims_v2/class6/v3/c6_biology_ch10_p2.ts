@@ -59,6 +59,10 @@ export const c6_biology_ch10_p2: SimDef = {
                 { id: 'a', prompt: 'What is the general direction in which a plant shoot grows compared to the direction of a light source?', answer: 'The shoot grows toward the light source',
                   options: ['The shoot grows toward the light source', 'because they are thirsty'],
                   hint: 'Review the function of roots and stems from Chapter 10.',
+                  misconception: 'Students often think plants move "because they want to" or "because they are thirsty," implying conscious intent.' },
+                { id: 'b', prompt: 'A gardener wants to ensure their sunflower grows straight up. If a tree blocks light from the side, why might the sunflower bend?', answer: 'Identify the light source as the stimulus',
+                  options: ['Identify the light source as the stimulus', 'because they are thirsty'],
+                  hint: 'Review the function of roots and stems from Chapter 10.',
                   misconception: 'Students often think plants move "because they want to" or "because they are thirsty," implying conscious intent.' }
           ],
             remediations: { 'plants-move-because-they-want': { steps: ['Ask the student to identify a non-living object that responds to stimuli (like a thermometer).', 'Explain that plants, like the thermometer, have a built-in "reaction" to change, not a "thought" process.', 'Use the example of a sunflower: it doesn\'t "choose" to turn, it is "pulled" into that shape by its growth process.'], labTask: { instruction: 'On the interactive: give the plant 60% sunlight — watch its growth rate — then check.', widget: 'grow', validate: 'grow:sun=60' } } } },

@@ -19,7 +19,7 @@ export const c12_eng_v_ch02_p1: SimDef = {
         hook: 'The fable is double-barrelled satire: a prince who marries for tiger access mocks princely despotism, while a British officer\'s photo-op safaris skewer the Raj. The nonsense initials in his absurd title parody imperial honours — read the laughter as indictment.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'The "Before You Read: Context and Background" section for "The Tiger King" provides essential historical, biographical, and literary framing to understand the story\'s satire.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Tiger King\' (Vistas, ch. 2) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_02_001', title: 'Your mission',
@@ -29,28 +29,28 @@ export const c12_eng_v_ch02_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_02_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you\'re about to watch a period drama about a Maharaja who talks as a newborn and spends his life hunting tigers to cheat death.',
+          caseStudy: { intro: 'Start with the author of \'The Tiger King\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who is the author of "The Tiger King" and what was his primary profession besides being a writer?', options: [
                 { text: 'The author is Kalki, the pen name of R', outcome: 'The author is Kalki, the pen name of R. Krishnamurthy (1899–1954), a Tamil writer, journalist, and.' },
                 { text: 'a British officer', outcome: 'Not quite — Students often think "The Tiger King" is a historical account of a real Maharaja or a simple folk.', reveals: 'the-tiger-king-is-a' },
                 { text: 'The Tiger King', outcome: 'Not quite — Students often think "The Tiger King" is a historical account of a real Maharaja or a simple folk.', reveals: 'the-tiger-king-is-a' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_02_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re watching a period drama where the palace glitter hides absurdity — that\'s the world Kalki builds.',
+          caseStudy: { intro: 'Identify where and when \'The Tiger King\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'Define the difference between "setting" and "atmosphere" in a literary text.', options: [
                 { text: 'Setting is the where/when/who-context (Pratibandapuram, colonial era, royal court)', outcome: 'Setting is the where/when/who-context (Pratibandapuram, colonial era, royal court); atmosphere.' },
                 { text: 'setting is the mood', outcome: 'Not quite — Students treat setting as a static backdrop — "the story happens in a palace and forests" — and.', reveals: 'students-treat-setting-as-a' },
                 { text: 'conflates the two (e', outcome: 'Not quite — Students treat setting as a static backdrop — "the story happens in a palace and forests" — and.', reveals: 'students-treat-setting-as-a' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_02_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine a leader so terrified of a prediction that he restructures his entire kingdom — banning hunting, bribing colonial officers, marrying for tiger access.',
+          caseStudy: { intro: 'Pick the central figure in \'The Tiger King\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What specific prophecy do the astrologers make about the ten-day-old prince Jung Jung Bahadur, and how does the infant respond?', options: [
                 { text: 'The astrologers predict the prince will die', outcome: 'The astrologers predict the prince will die because he was born in the hour of the Bull, and the.' },
                 { text: 'and then growls', outcome: 'Not quite — Students often mistake the Maharaja\'s bare-handed tiger fights as evidence of genuine bravery.', reveals: 'students-often-mistake-the-maharaja' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students often mistake the Maharaja\'s bare-handed tiger fights as evidence of genuine bravery.', reveals: 'students-often-mistake-the-maharaja' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_02_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re a student who stays up all night "cheating fate" by memorizing only the predicted exam questions, but the paper comes from a completely.',
+          caseStudy: { intro: 'Ask what \'The Tiger King\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the central prophecy made about the Tiger King at his birth, and how does it drive the plot?', options: [
                 { text: 'The chief astrologer predicts the prince will die by a tiger', outcome: 'The chief astrologer predicts the prince will die by a tiger because he was born in the hour of the.' },
                 { text: 'the prophecy was about a war', outcome: 'Not quite — **Students often think the theme is "killing animals is wrong" or "the Maharaja got what.', reveals: 'students-often-think-the-theme' },
@@ -75,7 +75,7 @@ export const c12_eng_v_ch02_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_02_001', difficulty: 'standard',
-          question: 'The "Before You Read: Context and Background" section for "The Tiger King".',
+          question: '\'The Tiger King\' (Vistas, ch. 2) — the context and background to this text: who.',
           hint: 'If unclear on "princely states vs British India," review Class 12 History Chapter "The.',
           misconception: 'Students often think "The Tiger King" is a historical account of a real Maharaja or a simple folk tale about hunting.',
           parts: [
@@ -90,18 +90,18 @@ export const c12_eng_v_ch02_p1: SimDef = {
           ],
             remediations: { 'the-tiger-king-is-a': { steps: ['If the student conflates satire with history/folk tale: (1) Re-read the "Before You Read" box question — discuss how.', '(2) Compare the Maharaja\'s fake titles with real British honours (KCIE, GCSI) — ask: "Why would Kalki invent ridiculous.', '(4) Re-attempt Diagnostic Question 5 — if still stuck, revisit Class 11 Snapshots Chapter 1 "The Summer of the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_02_002', difficulty: 'standard',
-          question: 'Plot and narrative structure refer to the organized sequence of events (plot).',
+          question: 'The plot/narrative arc of \'The Tiger King\' — what happens, in what order, and.',
           hint: 'If stuck, review "story vs. discourse" using c11_eng_h_cbse_01_002 (The Portrait of.',
           misconception: 'Students often treat the Maharaja\'s marriage as a romantic subplot rather than a structural device.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot and narrative structure refer to the organized sequence of events (plot) and the',
-                  options: ['Plot and narrative structure refer to the organized sequence of events (plot) and the', 'The "Before You Read: Context and Background" section for "The Tiger King" provides', 'Setting refers to the time, place, and social-historical context in', 'Character analysis of the protagonist involves examining the main character\'s personality'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The plot/narrative arc of \'The Tiger King\'',
+                  options: ['The plot/narrative arc of \'The Tiger King\'', '\'The Tiger King\' (Vistas, ch', 'The setting of \'The Tiger King\'', 'Character analysis in \'The Tiger King\''],
                   hint: 'If stuck, review "story vs. discourse" using c11_eng_h_cbse_01_002 (The Portrait of a Lady) where.',
                   misconception: 'Students often treat the Maharaja\'s marriage as a romantic subplot rather than a structural device.' }
           ],
             remediations: { 'students-often-treat-the-maharaja': { steps: ['If a student cannot distinguish chronological vs.', 'narrative order, have them create a two-column timeline: Column A = events in story-world time (birth → death); Column.', 'Then ask: "Why does the narrator show you the end first?" Guide them to see that the frame narrator controls the.', 'Re-test with Diagnostic Question 1.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_02_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social-historical context in which.',
+          question: 'The setting of \'The Tiger King\' — the place, time and atmosphere the text.',
           hint: 'Review "identifying sensory details that create mood" from Class 11 Hornbill/Snapshots.',
           misconception: 'Students treat setting as a static backdrop — "the story happens in a palace and forests" — and atmosphere as a single.',
           parts: [
@@ -116,7 +116,7 @@ export const c12_eng_v_ch02_p1: SimDef = {
           ],
             remediations: { 'students-treat-setting-as-a': { steps: ['If the student cannot separate setting layers or link them to atmosphere shifts: (1) Have them re-read Section I and.', '(2) Give them a 3-column table: Setting Detail | Sensory/Descriptive Language | Atmosphere Created.', '(3) Practice with a micro-passage: "The dewan drove the car straight to the forest where the Maharaja was hunting.', 'When they reached the forest the tiger launched its satyagraha and refused to get out of the car." Ask: What setting.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_02_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the main character\'s.',
+          question: 'Character analysis in \'The Tiger King\' — the central figure(s), their traits.',
           hint: 'If stuck, re-do the STEAL chart for the Maharaja using only the first five paragraphs.',
           misconception: 'Students often mistake the Maharaja\'s bare-handed tiger fights as evidence of genuine bravery.',
           parts: [
@@ -128,8 +128,8 @@ export const c12_eng_v_ch02_p1: SimDef = {
                   options: ['He bans others to monopolize tiger kills for his tally of 100', 'to protect tigers', 'because he loved hunting'],
                   hint: 'If stuck, re-do the STEAL chart for the Maharaja using only the first five paragraphs of the story.',
                   misconception: 'Students often mistake the Maharaja\'s bare-handed tiger fights as evidence of genuine bravery.' },
-                { id: 'c', prompt: 'Apply the "STEAL" characterization method (Speech, Thoughts, Effect on others, Actions, Looks) to the Maharaja\'s interaction with the British officer\'s.', answer: 'Steps: (1) Speech: He refuses the officer\'s request firmly ("tiger hunt!',
-                  options: ['Steps: (1) Speech: He refuses the officer\'s request firmly ("tiger hunt!', 'he was brave'],
+                { id: 'c', prompt: 'Apply the "STEAL" characterization method (Speech, Thoughts, Effect on others, Actions, Looks) to the Maharaja\'s interaction with the British officer\'s.', answer: '(1) Speech: He refuses the officer\'s request firmly ("tiger hunt!',
+                  options: ['(1) Speech: He refuses the officer\'s request firmly ("tiger hunt!', 'he was brave'],
                   hint: 'If stuck, re-do the STEAL chart for the Maharaja using only the first five paragraphs of the story.',
                   misconception: 'Students often mistake the Maharaja\'s bare-handed tiger fights as evidence of genuine bravery.' }
           ],
@@ -146,18 +146,18 @@ export const c12_eng_v_ch02_p1: SimDef = {
           ],
             remediations: { 'students-often-mistake-the-maharaja': { steps: ['If a student cannot distinguish performative bravado from true courage: (1) Re-read the three instances where "the.', 'the tiger leapt upon him and he fought the beast with his bare hands." (2) Ask: "Does he hunt bare-handed by choice?', 'What does he do immediately after?', '(He continues shooting.)" (3) Contrast with the wooden tiger scene — he doesn\'t fight the sliver; he pulls it out and.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_02_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves examining the traits.',
+          question: 'Supporting characters in \'The Tiger King\' — the secondary figures who move the.',
           hint: 'If stuck, revisit the "Character Analysis: Supporting Characters" node from Class 11.',
           misconception: 'Students often treat supporting characters as mere "helpers" or "obstacles" to the protagonist\'s goal.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of supporting characters involves examining the traits, motivations,',
-                  options: ['Character analysis of supporting characters involves examining the traits, motivations,', 'The "Before You Read: Context and Background" section for "The Tiger King" provides', 'Plot and narrative structure refer to the organized sequence of events (plot) and the', 'Setting refers to the time, place, and social-historical context in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in \'The Tiger King\'',
+                  options: ['Supporting characters in \'The Tiger King\'', '\'The Tiger King\' (Vistas, ch', 'The plot/narrative arc of \'The Tiger King\'', 'The setting of \'The Tiger King\''],
                   hint: 'If stuck, revisit the "Character Analysis: Supporting Characters" node from Class 11 Hornbill.',
                   misconception: 'Students often treat supporting characters as mere "helpers" or "obstacles" to the protagonist\'s goal.' }
           ],
             remediations: { 'students-often-treat-supporting-characters': { steps: ['Re-read the text marking every scene where a supporting character speaks or acts without the Maharaja present (e.g.', 'For each, write: "This character represents ______ because ______." 3.', 'Watch a 10-minute video on "Satire in The Tiger King" (search "Kalki Tiger King satire supporting characters").', 'Re-attempt Diagnostic Question 4 — if you can link the hunters and shopkeeper through "fear-driven deceit", you\'ve.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_02_006', difficulty: 'standard',
-          question: 'The primary theme of "The Tiger King" is the **futility of human arrogance.',
+          question: 'The primary theme of \'The Tiger King\' — the central idea the whole text returns.',
           hint: 'If unable to separate plot from theme, revisit c12_eng_v_cbse_02_002 and list 5 major.',
           misconception: '**Students often think the theme is "killing animals is wrong" or "the Maharaja got what he deserved for hunting."**.',
           parts: [

@@ -19,7 +19,7 @@ export const c11_hin_v_ch05_p2: SimDef = {
         hook: 'Vishnu Prabhakar worked the Rajasthan State Archives for decades — these aren\'t fairy tales but itihaas, history as the people witnessed it.',
     },
     teaching: [
-        { title: 'पाठ 5 — गौण विषय', text: 'गौण विषय (Sub-theme/Minor Theme) वह द्वितीयक केंद्रीय विचार या प्रसंग है जो रचना के मुख्य विषय (Main Theme) के समानांतर चलता हुआ, उसे विस्तार, गहराई, विरोधाभास या संदर्भ प्रदान करता है और रचना के.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 5 — गौण विषय', text: '\'वितान भाग-1 — पाठ 5\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_v_cbse_05_007', title: 'Your mission',
@@ -28,8 +28,21 @@ export const c11_hin_v_ch05_p2: SimDef = {
         context: 'Match archival motifs (jauhar, sakha, bhamashah) to the folk narratives, then weigh why the story\'s trauma stays unresolved at the end.',
         labels: ['पाठ 5 — गौण', 'पाठ 5 — साहित्यिक', 'पाठ 5 — पदावली', 'पाठ 5 — व्याकरण', 'पाठ 5 — बोध-प्रश्न'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c11_hin_v_cbse_05_008', title: 'पाठ 5 — साहित्यिक युक्तियाँ: बिंब और रूपक',
+          caseStudy: { intro: '\'वितान भाग-1 — पाठ 5\' में बिंब ढूँढिए — वितान-भाग-1-—-पाठ-5 — ये दृश्य पाठ को जीवंत बनाते हैं।',
+            decisions: [{ prompt: 'Define "metaphor" and give one example from everyday Hindi usage (not from the textbook).', options: [
+                { text: 'A metaphor is a direct comparison between two unlike things stating one *is* the other', outcome: 'A metaphor is a direct comparison between two unlike things stating one *is* the other (e.g., "समय.' },
+                { text: 'like/as', outcome: 'Not quite — Students believe imagery is *only* visual description (e.g., "the sky was blue") and miss auditory.', reveals: 'imagery-is-only-visual-description' },
+                { text: 'बहादुर जैसे शेर', outcome: 'Not quite — Students believe imagery is *only* visual description (e.g., "the sky was blue") and miss auditory.', reveals: 'imagery-is-only-visual-description' }
+            ] }] } },
+        { type: 'case', nodeId: 'c11_hin_v_cbse_05_009', title: 'पाठ 5 — साहित्यिक युक्तियाँ: विरोधाभास और प्रतीक',
+          caseStudy: { intro: '\'वितान भाग-1 — पाठ 5\' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।',
+            decisions: [{ prompt: 'Define situational irony and give one example from daily life (not from the textbook).', options: [
+                { text: 'Situational irony occurs when the outcome of a situation is sharply contrary to what was', outcome: 'Situational irony occurs when the outcome of a situation is sharply contrary to what was expected.' },
+                { text: 'the burning pyre', outcome: 'Not quite — Students often confuse *symbolism* with *imagery* — thinking any vivid description (e.g., "the.', reveals: 'students-often-confuse-symbolism-with' }
+            ] }] } },
         { type: 'case', nodeId: 'c11_hin_v_cbse_05_010', title: 'पाठ 5 — पदावली: मुख्य शब्द',
-          caseStudy: { intro: 'Have you ever noticed how in your grandmother\'s kitchen, she doesn\'t just say "cook the dal" but says "दाल में *बघार* लगाओ" — that single word "बघार" carries.',
+          caseStudy: { intro: '\'वितान भाग-1 — पाठ 5\' के मुख्य शब्द: वितान-भाग-1-—-पाठ-5 — इनका अर्थ जानिए।',
             decisions: [{ prompt: '"पदावली: मुख्य शब्द" की परिभाषा देते हुए स्पष्ट कीजिए कि यह सामान्य \'कठिन शब्द\' या \'अधिक प्रयुक्त शब्द\' से किस प्रकार भिन्न है?', options: [
                 { text: '**Correct Answer:** मुख्य शब्द वे शब्द हैं जो पाठ के केन्द्रीय विषय, भावभूमि और विचारधारा', outcome: '**Correct Answer:** मुख्य शब्द वे शब्द हैं जो पाठ के केन्द्रीय विषय, भावभूमि और विचारधारा को वहन.' },
                 { text: 'difficult words', outcome: 'Not quite — **Specific Error:** Students believe that "मुख्य शब्द" = **words that appear in the textbook\'s.', reveals: 'specific-error-students-believe-that' },
@@ -54,78 +67,82 @@ export const c11_hin_v_ch05_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_007', difficulty: 'standard',
-          question: 'गौण विषय (Sub-theme/Minor Theme) वह द्वितीयक केंद्रीय विचार या प्रसंग है जो.',
+          question: '\'वितान भाग-1 — पाठ 5\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
           hint: 'यदि मुख्य विषय स्पष्ट न हो, तो c11_hin_v_cbse_05_006 के \'WORKED_EXAMPLE_1\' को दोहराएं.',
           misconception: 'छात्र अक्सर गौण विषय को \'उपकथानक\' (sub-plot) या \'प्रसंगिक विवरण\' (incidental detail) समझ लेते हैं — वे सोचते हैं कि कोई.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय (Sub-theme/Minor Theme) वह द्वितीयक केंद्रीय विचार या प्रसंग है जो रचना के मुख्य',
-                  options: ['गौण विषय (Sub-theme/Minor Theme) वह द्वितीयक केंद्रीय विचार या प्रसंग है जो रचना के मुख्य', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के ऐतिहासिक, सामाजिक, सांस्कृतिक परिवेश', 'कथानक (Plot) घटनाओं का वह सार्थक और कारण-कार्यबद्ध (causal) क्रम है जो संघर्ष (conflict)', 'पाठ्य-परिवेश (Setting) कथा का वह त्रि-आयामी ढाँचा है जिसमें स्थान (भूगोल), काल (ऐतिहासिक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-1 — पाठ 5\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
+                  options: ['\'वितान भाग-1 — पाठ 5\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-1 — पाठ 5\' का कथानक — \'वितान भाग-1 — पाठ 5\' — वितान भाग-1 का पाठ। पाठ का', '\'वितान भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि मुख्य विषय स्पष्ट न हो, तो c11_hin_v_cbse_05_006 के \'WORKED_EXAMPLE_1\' को दोहराएं जहां मुख्य.',
                   misconception: 'छात्र अक्सर गौण विषय को \'उपकथानक\' (sub-plot) या \'प्रसंगिक विवरण\' (incidental detail) समझ लेते हैं — वे सोचते हैं कि कोई भी छोटी घटना या.' }
           ],
             remediations: { 'sub-plot-incidental-detail': { steps: ['चरण 1: छात्र से कहें — "पाठ के 5 मुख्य प्रसंग लिखो जो तुम्हें याद हैं।" चरण 2: प्रत्येक प्रसंग के आगे लिखवाएं — "इस.', '(घटना नहीं, विचार — जैसे: \'विश्वासघात\', \'आशा\', \'पलायन\')।" चरण 3: अब मुख्य विषय (पिछले नोड से) लिखवाएं और पूछें: "कौन-से.', 'कौन-से समानांतर चल रहे हैं?" चरण 4: समानांतर चलने वाले विचारों में से वे चुनें जो कम से कम दो बार उभरे हों — वही गौण.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_008', difficulty: 'standard',
-          question: '**बिंब (Imagery)** साहित्यिक युक्ति है जिसमें लेखक इंद्रिय-अनुभवों (दृश्य.',
-          hint: 'यदि अटके तो **c11_hin_v_cbse_05_006 (मुख्य विषय और संदेश)** पर लौटें — विषय के 3-4.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर समझते हैं कि **रूपक केवल \'सजावट\' या \'सुंदरता\' के लिए होता है** — जैसे "आँखें झील हैं".',
+          question: '\'वितान भाग-1 — पाठ 5\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
+          hint: 'Re-read the chapter summary and theme analysis (node 006) to anchor device-hunting in the.',
+          misconception: 'Students believe imagery is *only* visual description (e.g., "the sky was blue") and miss auditory, olfactory, tactile.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery)** साहित्यिक युक्ति है जिसमें लेखक इंद्रिय-अनुभवों (दृश्य, श्रवण, घ्राण,',
-                  options: ['**बिंब (Imagery)** साहित्यिक युक्ति है जिसमें लेखक इंद्रिय-अनुभवों (दृश्य, श्रवण, घ्राण,', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के ऐतिहासिक, सामाजिक, सांस्कृतिक परिवेश', 'कथानक (Plot) घटनाओं का वह सार्थक और कारण-कार्यबद्ध (causal) क्रम है जो संघर्ष (conflict)', 'पाठ्य-परिवेश (Setting) कथा का वह त्रि-आयामी ढाँचा है जिसमें स्थान (भूगोल), काल (ऐतिहासिक'],
-                  hint: 'यदि अटके तो **c11_hin_v_cbse_05_006 (मुख्य विषय और संदेश)** पर लौटें — विषय के 3-4 की-वर्ड लिखें.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र अक्सर समझते हैं कि **रूपक केवल \'सजावट\' या \'सुंदरता\' के लिए होता है** — जैसे "आँखें झील हैं" केवल काव्यात्मक.' }
+                { id: 'a', prompt: 'Compare the metaphor "जिंदगी एक बोझ है" (life is a burden) with "जिंदगी एक नदी है" (life is a river).', answer: '"Burden" implies weight, exhaustion, and a desire to drop it',
+                  options: ['"Burden" implies weight, exhaustion, and a desire to drop it', 'the sky was blue', 'imagery is *only* visual description (e'],
+                  hint: 'Re-read the chapter summary and theme analysis (node 006) to anchor device-hunting in the central.',
+                  misconception: 'Students believe imagery is *only* visual description (e.g., "the sky was blue") and miss auditory, olfactory, tactile, and gustatory.' }
           ],
-            remediations: { 'conceptualization': { steps: ['**चरण 1:** छात्र से कहें — "किसी भी रूपक को लो (जैसे \'क्रोध आग है\') और **पाँच वाक्य** लिखो जो *केवल* रूपक के आधार पर.', '**चरण 2:** उसी रूपक को **उपमा** में बदलें ("क्रोध आग *जैसा* है") और पूछें — "कौन-से वाक्य अब अस्वाभाविक लगते हैं?".', '**चरण 3:** पाठ से एक रूपक लेकर **उपमेय-उपमान मैपिंग टेबल** बनवाएँ (स्तंभ: उपमान का गुण → उपमेय पर प्रभाव) — बोर्ड उत्तर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'imagery-is-only-visual-description': { steps: ['Take the student to a well-known Hindi poem (e.g., Nirala\'s "सरोज स्मृति") and explicitly label *five* sensory images.', 'Give two sentences: "वह शेर है" vs "वह शेर जैसा है".', 'Ask: "Which one makes \'he\' *become* the lion?', 'What qualities of lion now belong to \'he\'?" 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_008', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe imagery is *only* visual description (e.g., "the sky was blue") and miss auditory, olfactory, tactile.',
+          parts: [
+                { id: 'a', prompt: 'Critique this student claim: "The metaphor \'आशा की किरण\' (ray of hope) is clichéd and therefore ineffective in the chapter\'s climax." Defend or refute using.', answer: 'Refute: While common, its effectiveness here depends on *contextual preparation*',
+                  options: ['Refute: While common, its effectiveness here depends on *contextual preparation*', 'the sky was blue', 'imagery is *only* visual description (e'],
+                  hint: 'Re-read the chapter summary and theme analysis (node 006) to anchor device-hunting in the central.',
+                  misconception: 'Students believe imagery is *only* visual description (e.g., "the sky was blue") and miss auditory, olfactory, tactile, and gustatory.' }
+          ],
+            remediations: { 'imagery-is-only-visual-description': { steps: ['Take the student to a well-known Hindi poem (e.g., Nirala\'s "सरोज स्मृति") and explicitly label *five* sensory images.', 'Give two sentences: "वह शेर है" vs "वह शेर जैसा है".', 'Ask: "Which one makes \'he\' *become* the lion?', 'What qualities of lion now belong to \'he\'?" 3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_009', difficulty: 'standard',
-          question: '**विरोधाभास (Paradox):** एक ऐसा कथन जो पहली नज़र में असंगत या आत्म-विरोधी लगता.',
-          hint: 'यदि अटके तो **c11_hin_v_cbse_05_008 (बिंब और रूपक)** के कार्यित उदाहरण (worked examples).',
-          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **हर असंगत वाक्य विरोधाभास है** और **हर संज्ञा प्रतीक है**। **गलत तर्क का.',
+          question: '\'वितान भाग-1 — पाठ 5\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+          hint: 'If stuck, review node 008 (Imagery and Metaphor) focusing on the difference between.',
+          misconception: 'Students often confuse *symbolism* with *imagery* — thinking any vivid description (e.g., "the burning pyre") is.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**विरोधाभास (Paradox):** एक ऐसा कथन जो पहली नज़र में असंगत या आत्म-विरोधी लगता है, लेकिन',
-                  options: ['**विरोधाभास (Paradox):** एक ऐसा कथन जो पहली नज़र में असंगत या आत्म-विरोधी लगता है, लेकिन', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के ऐतिहासिक, सामाजिक, सांस्कृतिक परिवेश', 'कथानक (Plot) घटनाओं का वह सार्थक और कारण-कार्यबद्ध (causal) क्रम है जो संघर्ष (conflict)', 'पाठ्य-परिवेश (Setting) कथा का वह त्रि-आयामी ढाँचा है जिसमें स्थान (भूगोल), काल (ऐतिहासिक'],
-                  hint: 'यदि अटके तो **c11_hin_v_cbse_05_008 (बिंब और रूपक)** के कार्यित उदाहरण (worked examples) दोबारा.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **हर असंगत वाक्य विरोधाभास है** और **हर संज्ञा प्रतीक है**। **गलत तर्क का उदाहरण:** "वह रोता हुआ.' }
+                { id: 'a', prompt: 'In the chapter, the narrator\'s father says, "हम जल्दी लौट आएंगे" (We will return soon) while locking the house forever.', answer: 'This is verbal irony',
+                  options: ['This is verbal irony', 'situational irony', 'the burning pyre'],
+                  hint: 'If stuck, review node 008 (Imagery and Metaphor) focusing on the difference between *comparison*.',
+                  misconception: 'Students often confuse *symbolism* with *imagery* — thinking any vivid description (e.g., "the burning pyre") is a symbol.' },
+                { id: 'b', prompt: 'Compare the irony in the father\'s promise to return with the symbolism of the "टूटी हुई चारपाई" (broken cot) left behind.', answer: 'The father\'s verbal irony (promise vs',
+                  options: ['The father\'s verbal irony (promise vs', 'the burning pyre'],
+                  hint: 'If stuck, review node 008 (Imagery and Metaphor) focusing on the difference between *comparison*.',
+                  misconception: 'Students often confuse *symbolism* with *imagery* — thinking any vivid description (e.g., "the burning pyre") is a symbol.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**चरण 1:** छात्र से कहें: "पाठ से कोई 3 वाक्य छाँटो जो तुम्हें \'अजीब\' या \'उल्टे\' लगें। प्रत्येक के लिए लिखो: (क).', '(ख) रचनाकार क्या कहना चाहता है?', '(ग) क्या यह बात सीधी कही जा सकती थी?', 'क्यों नहीं?" — इससे विरोधाभास की **\'कथन-स्तरीय तनाव → गहन सत्य\' प्रक्रिया** स्पष्ट होगी। **चरण 2:** पाठ में आई 5 ठोस.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-symbolism-with': { steps: ['Re-teach the distinction: Imagery appeals to senses; symbolism assigns *reप्रस्तुतिal* meaning.', 'Use a non-text example: a wedding ring (image: gold circle) vs.', 'symbol (eternal commitment).', 'For irony, create a 3-column table: Type | Definition | Text Example.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_010', difficulty: 'standard',
-          question: 'पदावली: मुख्य शब्द (Key Vocabulary/Lexical Items) refers to the **curated set.',
+          question: '\'वितान भाग-1 — पाठ 5\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
           hint: 'If stuck, review **\'भावार्थ और लक्षणा\' (Connotation and Suggested Meaning)** from Class.',
           misconception: '**Specific Error:** Students believe that "मुख्य शब्द" = **words that appear in the textbook\'s "शब्दार्थ" (glossary).',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली: मुख्य शब्द (Key Vocabulary/Lexical Items) refers to the **curated set of',
-                  options: ['पदावली: मुख्य शब्द (Key Vocabulary/Lexical Items) refers to the **curated set of', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के ऐतिहासिक, सामाजिक, सांस्कृतिक परिवेश', 'कथानक (Plot) घटनाओं का वह सार्थक और कारण-कार्यबद्ध (causal) क्रम है जो संघर्ष (conflict)', 'पाठ्य-परिवेश (Setting) कथा का वह त्रि-आयामी ढाँचा है जिसमें स्थान (भूगोल), काल (ऐतिहासिक'],
-                  hint: 'If stuck, review **\'भावार्थ और लक्षणा\' (Connotation and Suggested Meaning)** from Class 10 Hindi.',
-                  misconception: '**Specific Error:** Students believe that "मुख्य शब्द" = **words that appear in the textbook\'s "शब्दार्थ" (glossary) box** or **words the.' }
-          ],
-            remediations: { 'specific-error-students-believe-that': { steps: ['**Targeted Remediation (4 Steps):** 1.', '**De-glossary Drill:** Give a 100-word unseen passage *without* a glossary.', 'Ask: "Circle 5 words that, if removed, would make the passage meaningless / change its core argument." Compare circles.', '**Morphological Expansion Exercise:** Take ONE candidate word (e.g., "याद").'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
-        { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_010', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: '**Specific Error:** Students believe that "मुख्य शब्द" = **words that appear in the textbook\'s "शब्दार्थ" (glossary).',
-          parts: [
-                { id: 'a', prompt: 'कक्षा 11 की बोर्ड परीक्षा में एक प्रश्न आया: "पाठ \'पदावली\' के किन्हीं तीन मुख्य शब्दों का चयन कर उनके माध्यम से पाठ के केन्द्रीय भाव की व्याख्या कीजिए।" एक.', answer: '**Correct Answer & Critique:** **कमियाँ:** (1) **चयन का औचित्य नहीं**',
-                  options: ['**Correct Answer & Critique:** **कमियाँ:** (1) **चयन का औचित्य नहीं**', 'विषय जीवन-मरण का संघर्ष है', '**E (Evidence):**', '**E (Explanation):**'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-1 — पाठ 5\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
+                  options: ['\'वितान भाग-1 — पाठ 5\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-1 — पाठ 5\' का कथानक — \'वितान भाग-1 — पाठ 5\' — वितान भाग-1 का पाठ। पाठ का', '\'वितान भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'If stuck, review **\'भावार्थ और लक्षणा\' (Connotation and Suggested Meaning)** from Class 10 Hindi.',
                   misconception: '**Specific Error:** Students believe that "मुख्य शब्द" = **words that appear in the textbook\'s "शब्दार्थ" (glossary) box** or **words the.' }
           ],
             remediations: { 'specific-error-students-believe-that': { steps: ['**Targeted Remediation (4 Steps):** 1.', '**De-glossary Drill:** Give a 100-word unseen passage *without* a glossary.', 'Ask: "Circle 5 words that, if removed, would make the passage meaningless / change its core argument." Compare circles.', '**Morphological Expansion Exercise:** Take ONE candidate word (e.g., "याद").'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_011', difficulty: 'standard',
-          question: 'पाठ में भाषा-प्रयोग का अर्थ है — रचनाकार द्वारा शब्दों, वाक्य-संरचना, मुहावरों.',
-          hint: 'यदि फँसें तो c11_hin_v_cbse_05_010 (पदावली: मुख्य शब्द) के \'शब्द-श्रेणी पहचान\' अभ्यास.',
-          misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि \'अच्छी भाषा\' = \'शुद्ध मानक हिंदी + अलंकारों की भरमार\'। **वास्तविकता**: पाठ 5.',
+          question: '\'वितान भाग-1 — पाठ 5\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य.',
+          hint: 'Review Class 10 Hindi Vyakaran: समास के भेद व विग्रह, वाच्य परिवर्तन (कर्तृ/कर्मणी), और.',
+          misconception: 'Students treat "grammar in text" as **spotting isolated rules** (e.g., "here is a passive verb") rather than **tracing.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग का अर्थ है',
-                  options: ['पाठ में भाषा-प्रयोग का अर्थ है', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के ऐतिहासिक, सामाजिक, सांस्कृतिक परिवेश', 'कथानक (Plot) घटनाओं का वह सार्थक और कारण-कार्यबद्ध (causal) क्रम है जो संघर्ष (conflict)', 'पाठ्य-परिवेश (Setting) कथा का वह त्रि-आयामी ढाँचा है जिसमें स्थान (भूगोल), काल (ऐतिहासिक'],
-                  hint: 'यदि फँसें तो c11_hin_v_cbse_05_010 (पदावली: मुख्य शब्द) के \'शब्द-श्रेणी पहचान\' अभ्यास दोहराएँ.',
-                  misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि \'अच्छी भाषा\' = \'शुद्ध मानक हिंदी + अलंकारों की भरमार\'। **वास्तविकता**: पाठ 5 में लेखक जान-बूझकर.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-1 — पाठ 5\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली',
+                  options: ['\'वितान भाग-1 — पाठ 5\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-1 — पाठ 5\' का कथानक — \'वितान भाग-1 — पाठ 5\' — वितान भाग-1 का पाठ। पाठ का', '\'वितान भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'Review Class 10 Hindi Vyakaran: समास के भेद व विग्रह, वाच्य परिवर्तन (कर्तृ/कर्मणी), और अव्यय/योजक.',
+                  misconception: 'Students treat "grammar in text" as **spotting isolated rules** (e.g., "here is a passive verb") rather than **tracing a grammatical.' }
           ],
-            remediations: { '5': { steps: ['**पहला कदम**: छात्र से कहें — "पाठ 5 के पृष्ठ X पर नायिका का वह संवाद पढ़ो जहाँ वह रोते-रोते बोलती है। उसमें व्याकरण की.', '**दूसरा कदम**: पूछें — "यही बात शुद्ध हिंदी में लिखो। अब दोनों पढ़ो — कौन-सा अधिक **मार्मिक** लगा?', '**तीसरा कदम**: समझाएँ — "लेखक ने त्रुटियाँ **जान-बूझकर** की हैं; इसे **शैलीगत विचलन** (stylistic deviation) कहते हैं।.', '**चौथा कदम**: छात्र से कहें — "अब पाठ के दो और प्रसंग ढूँढ़ो जहाँ लेखक ने व्याकरण तोड़ा हो और बताओ कौन-सा भाव उभारा गया.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-grammar-in-text': { steps: ['**Isolate one paragraph** (3-4 sentences) from the text.', '**Color-code**: verbs (blue), connectives (red), compounds (green), nominalizations (orange).', '**Ask for each color**: "What work does this do *in this sentence* and *for the paragraph\'s argument*?" 4.', '**Rewrite the paragraph** in simple active voice with no compounds — read both aloud.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_v_cbse_05_012', difficulty: 'standard',
-          question: 'वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका एक निश्चित, पाठ-आधारित.',
+          question: '\'वितान भाग-1 — पाठ 5\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
           hint: 'यदि अटके तो पहले नोड 006 (मुख्य विषय) और 008-009 (साहित्यिक युक्तियाँ) दोहराएँ — ये.',
           misconception: 'विद्यार्थी समझते हैं कि \'आशय-सूचक प्रश्न\' का अर्थ है "अपनी मनमर्जी की राय लिख दो" — इसलिए वे पाठ के साक्ष्य दिए बिना.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका एक निश्चित, पाठ-आधारित उत्तर होता है',
-                  options: ['वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका एक निश्चित, पाठ-आधारित उत्तर होता है', '\'पृष्ठभूमि और रचनाकार परिचय\' किसी साहित्यिक कृति के ऐतिहासिक, सामाजिक, सांस्कृतिक परिवेश', 'कथानक (Plot) घटनाओं का वह सार्थक और कारण-कार्यबद्ध (causal) क्रम है जो संघर्ष (conflict)', 'पाठ्य-परिवेश (Setting) कथा का वह त्रि-आयामी ढाँचा है जिसमें स्थान (भूगोल), काल (ऐतिहासिक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-1 — पाठ 5\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
+                  options: ['\'वितान भाग-1 — पाठ 5\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-1 — पाठ 5\' का कथानक — \'वितान भाग-1 — पाठ 5\' — वितान भाग-1 का पाठ। पाठ का', '\'वितान भाग-1 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके तो पहले नोड 006 (मुख्य विषय) और 008-009 (साहित्यिक युक्तियाँ) दोहराएँ — ये आशय-सूचक.',
                   misconception: 'विद्यार्थी समझते हैं कि \'आशय-सूचक प्रश्न\' का अर्थ है "अपनी मनमर्जी की राय लिख दो" — इसलिए वे पाठ के साक्ष्य दिए बिना सामान्य ज्ञान या नैतिक.' }
           ],

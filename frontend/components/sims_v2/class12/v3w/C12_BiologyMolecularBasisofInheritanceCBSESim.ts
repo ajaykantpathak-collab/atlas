@@ -6,13 +6,13 @@ import C12_BiologyMolecularBasisofInheritanceCBSESim from '../../../simulations/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologymolecularbasisofinheritancecbsesim: SimDef = {
     id: 'v3w_c12_biologymolecularbasisofinheritancecbsesim',
-    title: 'Molecular Basisof Inheritance CBSE',
+    title: 'Incomplete Dominance and Codominance',
     subtitle: 'This node covers incomplete dominance and codominance as exceptions to Mendel\'s law of.',
     classLevel: 12, subject: 'biology', topic: 'Incomplete Dominance and Codominance',
     chapters: [],
     nodeIds: ['c12_bio_cbse_05_004', 'c12_bio_cbse_05_006', 'c12_bio_cbse_05_008', 'c12_bio_cbse_05_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a garden with red, white, and pink snapdragon flowers growing side by side.', goal: 'Master Molecular Basisof Inheritance CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a garden with red, white, and pink snapdragon flowers growing side by side.', goal: 'Master Incomplete Dominance and Codominance.' },
     discovery: {
         question: 'A cross between two pink-flowered snapdragons produces 240 offspring. How many red, pink, and white flowers are expected?',
         options: ['Parental genotypes: R¹R² × R¹R² (where R¹ = red allele, R² = white allele)', 'incomplete dominance = blending inheritance', 'pink is dominant or misapplies the 3:1 ratio'],
@@ -60,14 +60,14 @@ export const w_c12_biologymolecularbasisofinheritancecbsesim: SimDef = {
             { text: 'Conclude: The mutation is a point mutation (substitution) that is silent due to degeneracy of the genetic code; the.', faded: true, blankAnswer: 'Silent point mutation; protein sequence remains.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_05_006', title: 'Identify each idea',
-          dissect: { specimen: 'Molecular Basisof Inheritance CBSE', spots: [
+          dissect: { specimen: 'Incomplete Dominance and Codominance', spots: [
             { id: 's1', label: 'Incomplete dominance is a genetic', prompt: 'Which idea is this? — Incomplete dominance is a genetic inheritance pattern where neither allele is completely.', answer: 'Incomplete dominance is a genetic', options: ['Incomplete dominance is a genetic', 'Sex determination in humans is', 'Sex-linked inheritance refers to the', 'A gene mutation is a'] },
             { id: 's2', label: 'Sex determination in humans is', prompt: 'Which idea is this? — Sex determination in humans is the biological mechanism where the XX/XY chromosomal.', answer: 'Sex determination in humans is', options: ['Sex determination in humans is', 'Incomplete dominance is a genetic', 'Sex-linked inheritance refers to the', 'A gene mutation is a'] },
             { id: 's3', label: 'Sex-linked inheritance refers to the', prompt: 'Which idea is this? — Sex-linked inheritance refers to the transmission of traits governed by genes located on.', answer: 'Sex-linked inheritance refers to the', options: ['Sex-linked inheritance refers to the', 'Incomplete dominance is a genetic', 'Sex determination in humans is', 'A gene mutation is a'] },
             { id: 's4', label: 'A gene mutation is a', prompt: 'Which idea is this? — A gene mutation is a permanent alteration in the DNA sequence of a gene, involving.', answer: 'A gene mutation is a', options: ['A gene mutation is a', 'Incomplete dominance is a genetic', 'Sex determination in humans is', 'Sex-linked inheritance refers to the'] }
           ] } }
     ],
-    explore: { component: C12_BiologyMolecularBasisofInheritanceCBSESim, prompt: 'Explore the interactive — Molecular Basisof Inheritance CBSE' },
+    explore: { component: C12_BiologyMolecularBasisofInheritanceCBSESim, prompt: 'Explore the interactive — Incomplete Dominance and Codominance' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_05_004', difficulty: 'standard',
           question: 'Incomplete dominance is a genetic inheritance pattern where neither allele is.',

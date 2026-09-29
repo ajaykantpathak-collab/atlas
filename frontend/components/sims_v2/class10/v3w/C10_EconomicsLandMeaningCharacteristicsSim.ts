@@ -6,13 +6,13 @@ import C10_EconomicsLandMeaningCharacteristicsSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_economicslandmeaningcharacteristicssim: SimDef = {
     id: 'v3w_c10_economicslandmeaningcharacteristicssim',
-    title: 'Land Meaning Characteristics',
+    title: 'Production Across Countries: MNCs and Global Production Chains',
     subtitle: 'This node covers the definition and functioning of MNCs, the concept of global production.',
     classLevel: 10, subject: 'economics', topic: 'Production Across Countries: MNCs and Global Production Chains',
     chapters: [],
     nodeIds: ['c10_eco_cbse_04_001', 'c10_eco_cbse_04_004', 'c10_eco_cbse_04_006', 'c10_eco_cbse_02_005', 'c10_eco_cbse_03_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you hold a smartphone assembled in India. Its processor was designed in the USA, the memory chips.', goal: 'Master Land Meaning Characteristics.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you hold a smartphone assembled in India. Its processor was designed in the USA, the memory chips.', goal: 'Master Production Across Countries: MNCs and Global Production Chains.' },
     discovery: {
         question: 'Define a Multinational Corporation (MNC) and give one example of an Indian MNC.',
         options: ['An MNC is a company that owns or controls production in two or more countries', 'a company that exports to other countries', 'global production chain'],
@@ -70,7 +70,7 @@ export const w_c10_economicslandmeaningcharacteristicssim: SimDef = {
             { text: 'Compare: Moneylender = ₹6,000; Bank = ₹583.33. Ratio = 10.3x. Yet sharecropper chooses moneylender because: (a) no land.', faded: true, blankAnswer: 'Moneylender interest = ₹6,000; Bank interest = ₹583.33;.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_eco_cbse_04_004', title: 'Identify each idea',
-          dissect: { specimen: 'Land Meaning Characteristics', spots: [
+          dissect: { specimen: 'Production Across Countries: MNCs and Global Production Chains', spots: [
             { id: 's1', label: 'A Multinational Corporation MNC is', prompt: 'Which idea is this? — A Multinational Corporation (MNC) is a company that owns or controls production of goods.', answer: 'A Multinational Corporation MNC is', options: ['A Multinational Corporation MNC is', 'Liberalisation of foreign trade and', 'The positive impact of globalisation', 'Unemployment in the three sectors'] },
             { id: 's2', label: 'Liberalisation of foreign trade and', prompt: 'Which idea is this? — Liberalisation of foreign trade and foreign investment policy refers to the deliberate.', answer: 'Liberalisation of foreign trade and', options: ['Liberalisation of foreign trade and', 'A Multinational Corporation MNC is', 'The positive impact of globalisation', 'Unemployment in the three sectors'] },
             { id: 's3', label: 'The positive impact of globalisation', prompt: 'Which idea is this? — The positive impact of globalisation on Indian consumers refers to increased access to a.', answer: 'The positive impact of globalisation', options: ['The positive impact of globalisation', 'A Multinational Corporation MNC is', 'Liberalisation of foreign trade and', 'Unemployment in the three sectors'] },
@@ -78,7 +78,7 @@ export const w_c10_economicslandmeaningcharacteristicssim: SimDef = {
             { id: 's5', label: 'Informal credit dependence refers to', prompt: 'Which idea is this? — Informal credit dependence refers to the reliance of low-income households on.', answer: 'Informal credit dependence refers to', options: ['Informal credit dependence refers to', 'A Multinational Corporation MNC is', 'Liberalisation of foreign trade and', 'The positive impact of globalisation'] }
           ] } }
     ],
-    explore: { component: C10_EconomicsLandMeaningCharacteristicsSim, prompt: 'Explore the interactive — Land Meaning Characteristics' },
+    explore: { component: C10_EconomicsLandMeaningCharacteristicsSim, prompt: 'Explore the interactive — Production Across Countries: MNCs and Global Production Chains' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_eco_cbse_04_001', difficulty: 'standard',
           question: 'A Multinational Corporation (MNC) is a company that owns or controls production.',

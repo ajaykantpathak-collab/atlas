@@ -6,13 +6,13 @@ import C11_ChemistryRedoxReactionsCBSESim from '../../../simulations/c6_12/C11_C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_chemistryredoxreactionscbsesim: SimDef = {
     id: 'v3w_c11_chemistryredoxreactionscbsesim',
-    title: 'Redox Reactions CBSE',
+    title: 'Oxidation and Reduction: Classical Concept',
     subtitle: 'Covers classical definitions of oxidation and reduction in terms of oxygen, hydrogen,.',
     classLevel: 11, subject: 'chemistry', topic: 'Oxidation and Reduction: Classical Concept',
     chapters: [],
     nodeIds: ['c11_chem_cbse_08_001', 'c11_chem_cbse_08_002', 'c11_chem_cbse_08_003', 'c11_chem_cbse_08_004', 'c11_chem_cbse_08_005', 'c11_chem_cbse_08_006', 'c11_chem_cbse_08_007', 'c11_chem_cbse_08_008', 'c11_chem_cbse_09_007', 'c11_chem_cbse_09_011', 'c11_chem_cbse_01_011', 'c11_chem_cbse_09_002', 'c11_chem_cbse_09_003', 'c11_chem_cbse_09_004', 'c11_chem_cbse_09_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe an iron nail left in monsoon rain — it develops a reddish-brown flaky coating (rust).', goal: 'Master Redox Reactions CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe an iron nail left in monsoon rain — it develops a reddish-brown flaky coating (rust).', goal: 'Master Oxidation and Reduction: Classical Concept.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Classical oxidation is defined as a chemical.', text: 'Classical oxidation is defined as a chemical process involving addition of oxygen or an electronegative element, removal of hydrogen or an electropositive element, or loss of electrons.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -78,7 +78,7 @@ export const w_c11_chemistryredoxreactionscbsesim: SimDef = {
             { text: 'Corrosion rate: Volume of Fe lost = mass/density = 1200/7.87 = 152.5 cm³.', faded: true, blankAnswer: '(a) 65.6 mA, (b) 0.00305 mm/year' }
             ] } },
         { type: 'dissect', nodeId: 'c11_chem_cbse_08_002', title: 'Identify each idea',
-          dissect: { specimen: 'Redox Reactions CBSE', spots: [
+          dissect: { specimen: 'Oxidation and Reduction: Classical Concept', spots: [
             { id: 's1', label: 'Classical oxidation is defined as', prompt: 'Which idea is this? — Classical oxidation is defined as a chemical process involving addition of oxygen or an.', answer: 'Classical oxidation is defined as', options: ['Classical oxidation is defined as', 'Oxidation number oxidation state is', 'The half-reaction method ion-electron method', 'The oxidation number method is'] },
             { id: 's2', label: 'Oxidation number oxidation state is', prompt: 'Which idea is this? — Oxidation number (oxidation state) is a signed integer assigned to an atom in a chemical.', answer: 'Oxidation number oxidation state is', options: ['Oxidation number oxidation state is', 'Classical oxidation is defined as', 'The half-reaction method ion-electron method', 'The oxidation number method is'] },
             { id: 's3', label: 'The half-reaction method ion-electron method', prompt: 'Which idea is this? — The half-reaction method (ion-electron method) balances redox reactions by separating the.', answer: 'The half-reaction method ion-electron method', options: ['The half-reaction method ion-electron method', 'Classical oxidation is defined as', 'Oxidation number oxidation state is', 'The oxidation number method is'] },
@@ -87,7 +87,7 @@ export const w_c11_chemistryredoxreactionscbsesim: SimDef = {
             { id: 's6', label: 'Corrosion is an electrochemical redox', prompt: 'Which idea is this? — Corrosion is an electrochemical redox process where a metal spontaneously oxidises in the.', answer: 'Corrosion is an electrochemical redox', options: ['Corrosion is an electrochemical redox', 'Classical oxidation is defined as', 'Oxidation number oxidation state is', 'The half-reaction method ion-electron method'] }
           ] } }
     ],
-    explore: { component: C11_ChemistryRedoxReactionsCBSESim, prompt: 'Explore the interactive — Redox Reactions CBSE' },
+    explore: { component: C11_ChemistryRedoxReactionsCBSESim, prompt: 'Explore the interactive — Oxidation and Reduction: Classical Concept' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_chem_cbse_08_001', difficulty: 'standard',
           question: 'Classical oxidation is defined as a chemical process involving addition of.',

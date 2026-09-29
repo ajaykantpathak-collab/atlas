@@ -6,13 +6,13 @@ import C10_GeographyEnergyResourcesConventionalSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_geographyenergyresourcesconventionalsim: SimDef = {
     id: 'v3w_c10_geographyenergyresourcesconventionalsim',
-    title: 'Energy Resources Conventional',
+    title: 'Non-Conventional Energy: Solar, Wind and Tidal Energy',
     subtitle: 'This node covers only solar, wind, and tidal energy in India — their geographical.',
     classLevel: 10, subject: 'geography', topic: 'Non-Conventional Energy: Solar, Wind and Tidal Energy',
     chapters: [],
     nodeIds: ['c10_geo_cbse_05_006', 'c10_geo_cbse_05_008', 'c10_geo_cbse_05_005', 'c10_geo_cbse_05_007', 'c10_geo_cbse_05_001', 'c10_geo_cbse_01_001', 'c10_geo_cbse_01_002', 'c10_geo_cbse_03_008', 'c10_geo_cbse_06_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Look at your own rooftop or a neighbour\'s house — you have likely seen blue-black rectangular panels angled.', goal: 'Master Energy Resources Conventional.' },
+    scenario: { role: 'a class 10 learner', intro: 'Look at your own rooftop or a neighbour\'s house — you have likely seen blue-black rectangular panels angled.', goal: 'Master Non-Conventional Energy: Solar, Wind and Tidal Energy.' },
     discovery: {
         question: 'On an outline map of India, mark and label: (a) the state with the highest installed wind power capacity, (b) the mountain pass enabling wind funneling in that.',
         options: ['the state with the highest installed wind power capacity, (', 'interior Madhya Pradesh', 'Sunderbans'],
@@ -80,7 +80,7 @@ export const w_c10_geographyenergyresourcesconventionalsim: SimDef = {
             { text: 'Verify with CBSE textbook examples — coal, petroleum, natural gas are consistently listed under abiotic/mineral.', faded: true, blankAnswer: 'Petroleum is abiotic because it is extracted as a mineral.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_geo_cbse_05_008', title: 'Identify each idea',
-          dissect: { specimen: 'Energy Resources Conventional', spots: [
+          dissect: { specimen: 'Non-Conventional Energy: Solar, Wind and Tidal Energy', spots: [
             { id: 's1', label: 'Non-conventional energy sources are renewable', prompt: 'Which idea is this? — Non-conventional energy sources are renewable, inexhaustible energy resources that do not.', answer: 'Non-conventional energy sources are renewable', options: ['Non-conventional energy sources are renewable', 'Conservation of minerals and energy', 'Conventional energy sources are non-renewable', 'A mineral is a naturally'] },
             { id: 's2', label: 'Conservation of minerals and energy', prompt: 'Which idea is this? — Conservation of minerals and energy resources refers to the planned and sustainable.', answer: 'Conservation of minerals and energy', options: ['Conservation of minerals and energy', 'Non-conventional energy sources are renewable', 'Conventional energy sources are non-renewable', 'A mineral is a naturally'] },
             { id: 's3', label: 'Conventional energy sources are non-renewable', prompt: 'Which idea is this? — Conventional energy sources are non-renewable fossil fuels — coal, petroleum, and natural.', answer: 'Conventional energy sources are non-renewable', options: ['Conventional energy sources are non-renewable', 'Non-conventional energy sources are renewable', 'Conservation of minerals and energy', 'A mineral is a naturally'] },
@@ -88,7 +88,7 @@ export const w_c10_geographyenergyresourcesconventionalsim: SimDef = {
             { id: 's5', label: 'A resource is any naturally', prompt: 'Which idea is this? — A resource is any naturally occurring substance or feature that satisfies human needs, is.', answer: 'A resource is any naturally', options: ['A resource is any naturally', 'Non-conventional energy sources are renewable', 'Conservation of minerals and energy', 'Conventional energy sources are non-renewable'] }
           ] } }
     ],
-    explore: { component: C10_GeographyEnergyResourcesConventionalSim, prompt: 'Explore the interactive — Energy Resources Conventional' },
+    explore: { component: C10_GeographyEnergyResourcesConventionalSim, prompt: 'Explore the interactive — Non-Conventional Energy: Solar, Wind and Tidal Energy' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_geo_cbse_05_006', difficulty: 'standard',
           question: 'Non-conventional energy sources are renewable, inexhaustible energy resources.',

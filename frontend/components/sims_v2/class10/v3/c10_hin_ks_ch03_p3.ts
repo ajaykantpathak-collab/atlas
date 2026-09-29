@@ -11,7 +11,7 @@ export const c10_hin_ks_ch03_p3: SimDef = {
     nodeIds: ['c10_hin_ks_cbse_03_013', 'c10_hin_ks_cbse_03_014', 'c10_hin_ks_cbse_03_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 10 learner', intro: 'You open the CBSE sample paper and see: "निम्नलिखित पंक्तियों का आशय स्पष्ट कीजिए" followed by four lines.', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 10 learner', intro: '\'क्षितिज भाग-2 — पाठ 3\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।', goal: 'Master every idea in this chapter.' },
     discovery: {
         question: 'दिए गए पदांश में "चंद्रवदन" शब्द आया है। केवल अलंकार का नाम लिखना पर्याप्त क्यों नहीं है? बोर्ड परीक्षा की दृष्टि से समझाइए।',
         options: ['**Correct answer:** केवल "उपमा अलंकार" लिखने से 1 में से 0.5 अंक मिलते हैं', 'उपमा अलंकार', '**What a wrong answer reveals:** If the student says'],
@@ -19,7 +19,7 @@ export const c10_hin_ks_ch03_p3: SimDef = {
         hook: '**Exact error:** Students treat *aashay-spashtikaran* as "write the bhaavarth in difficult Hindi" — they replace simple.',
     },
     teaching: [
-        { title: 'पाठ 3 — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: '**आशय-स्पष्टीकरण** (Explanation of purport/intent) is a structured written response where the student (1) states the literal meaning of the given lines, (2) identifies the central thought/emotion the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 3 — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: '\'क्षितिज भाग-2 — पाठ 3\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c10_hin_ks_cbse_03_013', title: 'Your mission',
@@ -28,7 +28,7 @@ export const c10_hin_ks_ch03_p3: SimDef = {
         labels: ['पाठ 3 — आशय-स्पष्टीकरण', 'पाठ 3 — परीक्षा-उत्तर', 'पाठ 3 — वाचन-पाठ'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c10_hin_ks_cbse_03_013', title: 'पाठ 3 — आशय-स्पष्टीकरण और विश्लेषण अभ्यास',
-          caseStudy: { intro: 'You open the CBSE sample paper and see: "निम्नलिखित पंक्तियों का आशय स्पष्ट कीजिए" followed by four lines from the Dev savaiya.',
+          caseStudy: { intro: '\'क्षितिज भाग-2 — पाठ 3\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।',
             decisions: [{ prompt: '"आशय-स्पष्टीकरण" और "भावार्थ" में क्या अंतर है? एक वाक्य में लिखिए।', options: [
                 { text: '**Correct answer:** भावार्थ केवल शब्दों का शाब्दिक अर्थ देता है, जबकि आशय-स्पष्टीकरण कवि', outcome: '**Correct answer:** भावार्थ केवल शब्दों का शाब्दिक अर्थ देता है, जबकि आशय-स्पष्टीकरण कवि के गहन.' },
                 { text: 'दोनों एक ही हैं', outcome: 'Not quite — **Exact error:** Students treat *aashay-spashtikaran* as "write the bhaavarth in difficult Hindi".', reveals: 'exact-error-students-treat-aashay' },
@@ -46,7 +46,7 @@ export const c10_hin_ks_ch03_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_hin_ks_cbse_03_013', difficulty: 'standard',
-          question: '**आशय-स्पष्टीकरण** (Explanation of purport/intent) is a structured written.',
+          question: '\'क्षितिज भाग-2 — पाठ 3\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
           hint: 'If stuck, review **c10_hin_ks_cbse_03_004** (केंद्रीय भाव और रस) for ras/sthayi bhava and.',
           misconception: '**Exact error:** Students treat *aashay-spashtikaran* as "write the bhaavarth in difficult Hindi" — they replace simple.',
           parts: [
@@ -61,12 +61,12 @@ export const c10_hin_ks_ch03_p3: SimDef = {
           ],
             remediations: { 'exact-error-students-treat-aashay': { steps: ['**Diagnose:** Ask the student to write *aashay* for a 2-line stanza.', 'If they produce only paraphrase, say: "यह भावार्थ है, आशय नहीं।" 2.', '**Model:** Show the 4-move template (literal → intent → device1+effect → device2+effect) on the *same* stanza.', '**Scaffold:** Give a fill-in-the-blank frame: "शाब्दिक अर्थ: ______.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_hin_ks_cbse_03_014', difficulty: 'standard',
-          question: 'परीक्षा-उत्तर लेखन कौशल वह व्यवस्थित प्रक्रिया है जिसमें छात्र प्रश्न की मांग.',
+          question: '\'क्षितिज भाग-2 — पाठ 3\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि अटका हुआ महसूस हो तो c10_hin_ks_cbse_03_013 (आशय-स्पष्टीकरण अभ्यास) पर लौटें — वहाँ.',
           misconception: 'छात्र समझते हैं कि "उत्तर लिखना = पाठ की बातें याद करके लिख देना" — इसलिए वे कविता की पंक्तियाँ रटते हैं और परीक्षा में.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल वह व्यवस्थित प्रक्रिया है जिसमें छात्र प्रश्न की मांग पहचानता है,',
-                  options: ['परीक्षा-उत्तर लेखन कौशल वह व्यवस्थित प्रक्रिया है जिसमें छात्र प्रश्न की मांग पहचानता है,', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, सामाजिक- सांस्कृतिक संदर्भ,', 'पद्यांश-वार भावार्थ (Stanza-wise Interpretation) का अर्थ है कविता के प्रत्येक पद्यांश', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के बाह्य और आंतरिक ढांचे से है: पदों/बंधों'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'क्षितिज भाग-2 — पाठ 3\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+                  options: ['\'क्षितिज भाग-2 — पाठ 3\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'क्षितिज भाग-2 — पाठ 3\' का कथानक — \'क्षितिज भाग-2 — पाठ 3\' — क्षितिज भाग-2 का पाठ। पाठ का', '\'क्षितिज भाग-2 — पाठ 3\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में'],
                   hint: 'यदि अटका हुआ महसूस हो तो c10_hin_ks_cbse_03_013 (आशय-स्पष्टीकरण अभ्यास) पर लौटें — वहाँ एक पंक्ति.',
                   misconception: 'छात्र समझते हैं कि "उत्तर लिखना = पाठ की बातें याद करके लिख देना" — इसलिए वे कविता की पंक्तियाँ रटते हैं और परीक्षा में वही उगल देते हैं.' }
           ],
@@ -77,7 +77,7 @@ export const c10_hin_ks_ch03_p3: SimDef = {
           misconception: 'छात्र समझते हैं कि "वाचन-पाठ" का अर्थ केवल जोर से पढ़ना है और "चर्चा-बिंदु" का अर्थ पुस्तक के पीछे दिए प्रश्नों को याद.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-पाठ का अर्थ है कविता/गद्य को सही उच्चारण, विराम चिह्न, लय और भाव के साथ जोर से पढ़ना',
-                  options: ['वाचन-पाठ का अर्थ है कविता/गद्य को सही उच्चारण, विराम चिह्न, लय और भाव के साथ जोर से पढ़ना', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, सामाजिक- सांस्कृतिक संदर्भ,', 'पद्यांश-वार भावार्थ (Stanza-wise Interpretation) का अर्थ है कविता के प्रत्येक पद्यांश', 'काव्य-संरचना और पद्य-विन्यास से तात्पर्य कविता के बाह्य और आंतरिक ढांचे से है: पदों/बंधों'],
+                  options: ['वाचन-पाठ का अर्थ है कविता/गद्य को सही उच्चारण, विराम चिह्न, लय और भाव के साथ जोर से पढ़ना', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'क्षितिज भाग-2 — पाठ 3\' का कथानक — \'क्षितिज भाग-2 — पाठ 3\' — क्षितिज भाग-2 का पाठ। पाठ का', '\'क्षितिज भाग-2 — पाठ 3\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में'],
                   hint: 'यदि अटकें तो c10_hin_ks_cbse_03_002 (भावार्थ) और c10_hin_ks_cbse_03_007 (प्रतीक-बिंब) को दोबारा.',
                   misconception: 'छात्र समझते हैं कि "वाचन-पाठ" का अर्थ केवल जोर से पढ़ना है और "चर्चा-बिंदु" का अर्थ पुस्तक के पीछे दिए प्रश्नों को याद करना है। वे कविता के.' }
           ],

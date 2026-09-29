@@ -6,13 +6,13 @@ import C6_ChemistryMatteranditscompositionSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_chemistrymatteranditscompositionsim: SimDef = {
     id: 'v3w_c6_chemistrymatteranditscompositionsim',
-    title: 'Matteranditscomposition',
+    title: 'What Are Materials and Why We Classify Them',
     subtitle: 'Covers the definition of materials/matter and the logic of classification based on.',
     classLevel: 6, subject: 'chemistry', topic: 'What Are Materials and Why We Classify Them',
     chapters: [],
     nodeIds: ['c6_chemistry_ch04_001', 'c6_chemistry_ch04_002', 'c6_chemistry_ch05_001', 'c6_chemistry_ch05_008', 'c6_chemistry_ch05_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you are looking at your school bag. Why is it made of fabric or plastic, but not glass?', goal: 'Master Matteranditscomposition.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you are looking at your school bag. Why is it made of fabric or plastic, but not glass?', goal: 'Master What Are Materials and Why We Classify Them.' },
     discovery: {
         question: 'What are the two essential characteristics that define anything as "matter"?',
         options: ['Matter must occupy space (volume) and have mass', 'it must be solid', 'transparent'],
@@ -61,7 +61,7 @@ export const w_c6_chemistrymatteranditscompositionsim: SimDef = {
                 { text: 'softer', outcome: 'Not quite — Students often think that "cooking" is only a physical change because the food just gets "softer".', reveals: 'cooking-is-only-a-physical' }
             ] }] } }
     ],
-    explore: { component: C6_ChemistryMatteranditscompositionSim, prompt: 'Explore the interactive — Matteranditscomposition' },
+    explore: { component: C6_ChemistryMatteranditscompositionSim, prompt: 'Explore the interactive — What Are Materials and Why We Classify Them' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_chemistry_ch04_001', difficulty: 'standard',
           question: 'Materials are substances used to create objects, and matter is anything that.',

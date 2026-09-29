@@ -19,7 +19,7 @@ export const c12_eng_k_ch19_p2: SimDef = {
         hook: 'Sci-fi couldn\'t exist before ~1800: only when the Industrial Revolution made change visible within one lifetime did \'the future\' become imaginable. The scientist is the priest\'s heir — both hold \'the secret of controlling the Universe\'; one through formulas, the other through laws.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas, motifs, or arguments that support, complicate, or run parallel to the primary theme of a text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'On Science Fiction\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_19_007', title: 'Your mission',
@@ -29,42 +29,42 @@ export const c12_eng_k_ch19_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are explaining to a friend why *Star Wars* feels like a Western and a fairy tale at the same time.',
+          caseStudy: { intro: 'Look beneath the main theme of \'On Science Fiction\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'Identify the specific phrase Asimov uses in Section II to define what makes a story science fiction, distinguishing it from genres like.', options: [
                 { text: 'Correct answer: "Science fiction is what it is, not through its content but through its', outcome: 'Correct answer: "Science fiction is what it is, not through its content but through its.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students often confuse **topics** with **themes**. They list "mythology," "mysteries," "John.', reveals: 'students-often-confuse-topics-with' },
                 { text: 'space travel', outcome: 'Not quite — Students often confuse **topics** with **themes**. They list "mythology," "mysteries," "John.', reveals: 'students-often-confuse-topics-with' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are explaining to a friend why your phone feels like "a magic wand" — you just used a metaphor to make an abstract tech concept concrete.',
+          caseStudy: { intro: 'Find the lines in \'On Science Fiction\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define imagery and metaphor in your own words, giving one example of each from everyday speech (not from the textbook).', options: [
                 { text: 'Imagery: descriptive language appealing to senses (e.g., "the coffee\'s bitter aroma', outcome: 'Imagery: descriptive language appealing to senses (e.g., "the coffee\'s bitter aroma curled through.' },
                 { text: 'Time is *like* a thief', outcome: 'Not quite — Students treat imagery and metaphor as *identification exercises* ("Spot the metaphor in Para 3").', reveals: 'students-treat-imagery-and-metaphor' },
                 { text: 'I saw a red car', outcome: 'Not quite — Students treat imagery and metaphor as *identification exercises* ("Spot the metaphor in Para 3").', reveals: 'students-treat-imagery-and-metaphor' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you\'re watching a sci-fi movie where a character uses a "communicator" — you instantly recognize it as a symbol for a smartphone, and there\'s irony.',
+          caseStudy: { intro: 'Look in \'On Science Fiction\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'What is the specific irony Asimov highlights when he compares the "crystal ball" to "television sets of today"?', options: [
                 { text: 'The irony is that the crystal ball', outcome: 'The irony is that the crystal ball — a magical object requiring supernatural power to see distant.' },
                 { text: 'both show pictures', outcome: 'Not quite — Students confuse Asimov\'s irony with mere "coincidence" or "difference" — e.g., writing "It\'s.', reveals: 'students-confuse-asimov-s-irony' },
                 { text: 'coincidence', outcome: 'Not quite — Students confuse Asimov\'s irony with mere "coincidence" or "difference" — e.g., writing "It\'s.', reveals: 'students-confuse-asimov-s-irony' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading Asimov\'s claim that "science fiction is a literary universe of no mean size" and you pause at "no mean size" — does it mean small.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'On Science Fiction\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the meaning of the phrase "no mean size" as used by Asimov in the sentence "Science fiction is a literary universe of no mean size"?', options: [
                 { text: 'The phrase "no mean size" is a litotes (understatement) meaning "very large" or', outcome: 'The phrase "no mean size" is a litotes (understatement) meaning "very large" or "immense." A wrong.' },
                 { text: 'no mean size', outcome: 'Not quite — Students often treat vocabulary in context as "guess the dictionary definition." They look.', reveals: 'students-often-treat-vocabulary-in' },
                 { text: 'very large', outcome: 'Not quite — Students often treat vocabulary in context as "guess the dictionary definition." They look.', reveals: 'students-often-treat-vocabulary-in' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are writing a formal essay for your CUET English paper and need to sound authoritative yet precise — just like Asimov does when he argues that.',
+          caseStudy: { intro: 'Read \'On Science Fiction\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'In the sentence "A \'sports story\' must have, as part of its content, some competitive activity," why can the verb "have" not be converted.', options: [
                 { text: 'Correct answer: "Have" is a stative transitive verb denoting possession or inclusion, not', outcome: 'Correct answer: "Have" is a stative transitive verb denoting possession or inclusion, not an action.' },
                 { text: 'because it\'s intransitive', outcome: 'Not quite — Students believe that ANY verb followed by a noun phrase can be passivized.', reveals: 'any-verb-followed-by-a' },
                 { text: 'ANY verb followed by a noun phrase can be passivized', outcome: 'Not quite — Students believe that ANY verb followed by a noun phrase can be passivized.', reveals: 'any-verb-followed-by-a' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_19_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re sitting in the CBSE exam hall and see a question: "Why does Asimov say myths fulfil the same emotional needs as science fiction?" Your heart.',
+          caseStudy: { intro: 'Answer \'On Science Fiction\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'According to Asimov in "On Science Fiction", what is the fundamental difference between the universe of myths/legends and the universe.', options: [
                 { text: 'The fundamental difference is that myths/legends depict a universe controlled by', outcome: 'The fundamental difference is that myths/legends depict a universe controlled by gods/demons who.' },
                 { text: 'myths are old, science fiction is new', outcome: 'Not quite — Students believe inferential questions allow "any reasonable opinion" and bring outside knowledge.', reveals: 'inferential-questions-allow-any-reasonable' },
@@ -89,7 +89,7 @@ export const c12_eng_k_ch19_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas, motifs, or arguments that support.',
+          question: 'Secondary themes in \'On Science Fiction\' — the supporting ideas and motifs that.',
           hint: 'If stuck, review c12_eng_k_cbse_19_006 (Primary Theme) and practice writing one-sentence.',
           misconception: 'Students often confuse **topics** with **themes**. They list "mythology," "mysteries," "John Campbell," or "Industrial.',
           parts: [
@@ -100,7 +100,7 @@ export const c12_eng_k_ch19_p2: SimDef = {
           ],
             remediations: { 'students-often-confuse-topics-with': { steps: ['If a student lists topics instead of themes: 1.', 'Ask: "What is Asimov *arguing* about mythology?', 'Complete this sentence: \'Asimov believes mythology and science fiction are similar because...\'" (Forces a thematic.', 'Have them re-read Section I, last paragraph ("The goals...'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'On Science Fiction\' — the vivid, sensory language that creates.',
           hint: 'Review "Tenor/Vehicle" in c11_eng_h_cbse_01_008 notes; practice on "Hope is a thing with.',
           misconception: 'Students treat imagery and metaphor as *identification exercises* ("Spot the metaphor in Para 3") rather than.',
           parts: [
@@ -126,7 +126,7 @@ export const c12_eng_k_ch19_p2: SimDef = {
           ],
             remediations: { 'students-treat-imagery-and-metaphor': { steps: ['Revisit c11_eng_h_cbse_01_008 (Class 11 Imagery/Metaphor) and annotate *one* poem using the vehicle/tenor/ground table.', 'Return to Asimov\'s Section I, paragraph 4 ("The beings who controlled...").', 'Build a 3-column table: Image/Metaphor | Sensory Channel / Vehicle-Tenor | Argumentative Function.', 'Re-attempt Diagnostic Q3 and Q4 with the table.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_009', difficulty: 'standard',
-          question: 'Irony in Asimov\'s essay is the contrast between what ancient myths presented.',
+          question: 'Irony and paradox in \'On Science Fiction\' — where opposite things are both.',
           hint: 'If stuck, review c11_eng_h_cbse_01_009 (Class 11 Irony and Symbolism) for definitions.',
           misconception: 'Students confuse Asimov\'s irony with mere "coincidence" or "difference" — e.g., writing "It\'s ironic that myths had.',
           parts: [
@@ -145,7 +145,7 @@ export const c12_eng_k_ch19_p2: SimDef = {
           ],
             remediations: { 'students-confuse-asimov-s-irony': { steps: ['Re-read Section I paragraphs 4–6 aloud, underlining every magical object and its modern counterpart Asimov names.', 'Make a two-column table: Column A = Mythical Object/Claim, Column B = Scientific Reality/Method.', 'For each row, write one sentence: "The irony is that ______." 4.', 'Revisit c12_eng_k_cbse_19_008 (Imagery and Metaphor) to distinguish metaphor (direct comparison) from symbol (object.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_010', difficulty: 'standard',
-          question: 'Vocabulary in Context: Key Words refers to the practice of determining the.',
+          question: 'Key vocabulary of \'On Science Fiction\' — the words and phrases you must know.',
           hint: 'If stuck, review c12_eng_k_cbse_19_008 and c12_eng_k_cbse_19_009 for irony and metaphor.',
           misconception: 'Students often treat vocabulary in context as "guess the dictionary definition." They look up "senescence" (aging) and.',
           parts: [
@@ -156,7 +156,7 @@ export const c12_eng_k_ch19_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-vocabulary-in': { steps: ['If a student gives only dictionary definitions, have them reread the specific paragraph containing the word and answer.', 'Repeat with three words until tone-awareness becomes automatic.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the systematic analysis of grammatical.',
+          question: 'Language and style in \'On Science Fiction\' — how the writer chose words.',
           hint: 'If stuck, review Class 11 Woven Words Chapter 1 Grammar node (c11_eng_w_cbse_01_011).',
           misconception: 'Students believe that ANY verb followed by a noun phrase can be passivized.',
           parts: [
@@ -175,7 +175,7 @@ export const c12_eng_k_ch19_p2: SimDef = {
           ],
             remediations: { 'any-verb-followed-by-a': { steps: ['Have the student list 10 verbs from the essay that take noun phrase objects.', 'For each, attempt passive transformation aloud.', 'When they hit "have," "lack," "resemble," discuss why the passive sounds wrong (no action transfer).', 'Create a two-column table: "Passivizable transitives" (take, place, involve, change, add, explain, reveal, demonstrate.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_19_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'On Science Fiction\' — questions answered straight.',
           hint: 'If stuck on question classification, revisit c11_eng_h_cbse_01_012 (Comprehension.',
           misconception: 'Students believe inferential questions allow "any reasonable opinion" and bring outside knowledge (e.g., "Asimov wrote.',
           parts: [

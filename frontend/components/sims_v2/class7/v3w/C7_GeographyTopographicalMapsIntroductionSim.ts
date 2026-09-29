@@ -6,13 +6,13 @@ import C7_GeographyTopographicalMapsIntroductionSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_geographytopographicalmapsintroductionsim: SimDef = {
     id: 'v3w_c7_geographytopographicalmapsintroductionsim',
-    title: 'Topographical Maps Introduction',
+    title: 'Physical Divisions of India: Mountains, Plains, Plateaus',
     subtitle: 'Covers the macro-level physical divisions of India (mountains, plains, plateaus, deserts,.',
     classLevel: 7, subject: 'geography', topic: 'Physical Divisions of India: Mountains, Plains, Plateaus',
     chapters: [],
     nodeIds: ['c7_geo_ch01_003', 'c7_geo_ch01_006', 'c7_geo_ch05_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'When you look at a relief map of India, you notice that the country is not a single uniform surface; it.', goal: 'Master Topographical Maps Introduction.' },
+    scenario: { role: 'a class 7 learner', intro: 'When you look at a relief map of India, you notice that the country is not a single uniform surface; it.', goal: 'Master Physical Divisions of India: Mountains, Plains, Plateaus.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'The physical divisions of India refer to the.', text: 'The physical divisions of India refer to the broad structural landform units—namely the Northern Mountains, the Northern Plains, the Peninsular Plateau, the Indian Desert, the Coastal Plains, and the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -46,13 +46,13 @@ export const w_c7_geographytopographicalmapsintroductionsim: SimDef = {
             { text: 'Conclude the logistical impact—mountain terrain dictates that supply lines are slow, weather-dependent, and require.', faded: true, blankAnswer: 'Logistics are severely constrained by extreme elevation.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_geo_ch01_006', title: 'Identify each idea',
-          dissect: { specimen: 'Topographical Maps Introduction', spots: [
+          dissect: { specimen: 'Physical Divisions of India: Mountains, Plains, Plateaus', spots: [
             { id: 's1', label: 'The physical divisions of India', prompt: 'Which idea is this? — The physical divisions of India refer to the broad structural landform units—namely the.', answer: 'The physical divisions of India', options: ['The physical divisions of India', 'The Peninsular Plateau is a', 'The Himalayan boundary between India'] },
             { id: 's2', label: 'The Peninsular Plateau is a', prompt: 'Which idea is this? — The Peninsular Plateau is a massive, triangular tableland composed of ancient crystalline.', answer: 'The Peninsular Plateau is a', options: ['The Peninsular Plateau is a', 'The physical divisions of India', 'The Himalayan boundary between India'] },
             { id: 's3', label: 'The Himalayan boundary between India', prompt: 'Which idea is this? — The Himalayan boundary between India and China is a high-altitude physical frontier.', answer: 'The Himalayan boundary between India', options: ['The Himalayan boundary between India', 'The physical divisions of India', 'The Peninsular Plateau is a'] }
           ] } }
     ],
-    explore: { component: C7_GeographyTopographicalMapsIntroductionSim, prompt: 'Explore the interactive — Topographical Maps Introduction' },
+    explore: { component: C7_GeographyTopographicalMapsIntroductionSim, prompt: 'Explore the interactive — Physical Divisions of India: Mountains, Plains, Plateaus' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_geo_ch01_003', difficulty: 'standard',
           question: 'The physical divisions of India refer to the broad structural landform.',

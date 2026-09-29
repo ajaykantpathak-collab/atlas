@@ -19,52 +19,52 @@ export const c11_eng_w_ch10_p1: SimDef = {
         hook: 'The sonnet argues like a lawyer — define by negation, turn at \'O no, it is an ever-fixed mark,\' then stake everything on a verdict no one can overturn.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'Before You Read: Context and Background for "Let Me Not to the Marriage of True Minds" involves understanding the poet William Shakespeare, the Shakespearean sonnet form (three quatrains and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'ever-fixed mark\' (Woven Words, ch. 10) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_10_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Mark the ABAB CDCD EFEF GG skeleton, find the volta at line 9, and try building your own quatrain that argues by negation.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_10_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to read a poem that claims real love never changes — even when circumstances do.',
+          caseStudy: { intro: 'Start with the author of \'ever-fixed mark\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'What is the rhyme scheme and stanza structure of a Shakespearean sonnet?', options: [
                 { text: 'A Shakespearean sonnet consists of three quatrains (four-line stanzas) followed by a', outcome: 'A Shakespearean sonnet consists of three quatrains (four-line stanzas) followed by a final couplet.' },
                 { text: 'Fair Youth', outcome: 'Not quite — Students often believe Sonnet 116 describes a specific romantic relationship (e.g., Shakespeare\'s.', reveals: 'sonnet-116-describes-a-specific' },
                 { text: 'Dark Lady', outcome: 'Not quite — Students often believe Sonnet 116 describes a specific romantic relationship (e.g., Shakespeare\'s.', reveals: 'sonnet-116-describes-a-specific' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_10_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you open the poem and see a block of 14 lines — you might wonder where to even begin. Start by reading it aloud once, just to hear the rhythm.',
+          caseStudy: { intro: 'Trace \'ever-fixed mark\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the rhyme scheme of a Shakespearean sonnet, and how many lines does it contain?', options: [
                 { text: 'A Shakespearean sonnet has 14 lines with the rhyme scheme abab cdcd efef gg', outcome: 'A Shakespearean sonnet has 14 lines with the rhyme scheme abab cdcd efef gg.' },
                 { text: 'abba abba cde cde', outcome: 'Not quite — Students often treat the sonnet as a miniature story with a "plot" involving characters (the poet.', reveals: 'students-often-treat-the-sonnet' },
                 { text: '12 lines', outcome: 'Not quite — Students often treat the sonnet as a miniature story with a "plot" involving characters (the poet.', reveals: 'students-often-treat-the-sonnet' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_10_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are describing the "world" of this poem to a friend who has never read it.',
+          caseStudy: { intro: 'Identify where and when \'ever-fixed mark\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the primary metaphorical setting established in the second quatrain of Sonnet 116?', options: [
                 { text: 'The primary metaphorical setting in the second quatrain is a maritime landscape: a stormy', outcome: 'The primary metaphorical setting in the second quatrain is a maritime landscape: a stormy sea with.' },
                 { text: 'a castle', outcome: 'Not quite — Students often believe "setting" in poetry must be a named place (Verona, a garden, a room) with.', reveals: 'setting-in-poetry-must-be' },
                 { text: 'a garden', outcome: 'Not quite — Students often believe "setting" in poetry must be a named place (Verona, a garden, a room) with.', reveals: 'setting-in-poetry-must-be' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_10_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re defending your best friend\'s reputation in court — you\'d gather specific incidents, words they spoke, and how they acted under pressure.',
+          caseStudy: { intro: 'Pick the central figure in \'ever-fixed mark\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'Who is the protagonist of Sonnet 116, and what grammatical evidence in the first quatrain establishes this character as an active agent.', options: [
                 { text: 'The protagonist is Love personified, established as an active agent through its role as', outcome: 'The protagonist is Love personified, established as an active agent through its role as grammatical.' },
                 { text: 'A wrong answer identifying', outcome: 'Not quite — Students consistently confuse the poetic speaker ("I" in the couplet) with the protagonist, writing.', reveals: 'students-consistently-confuse-the-poetic' },
                 { text: 'true minds', outcome: 'Not quite — Students consistently confuse the poetic speaker ("I" in the couplet) with the protagonist, writing.', reveals: 'students-consistently-confuse-the-poetic' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_10_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are watching a courtroom drama where Love is the defendant on trial for being "constant." The prosecution calls witnesses: Time with his sickle,.',
+          caseStudy: { intro: 'Spot the secondary figures in \'ever-fixed mark\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'Identify the four personified or symbolic supporting characters in Sonnet 116 and name the specific line or phrase where each appears.', options: [
                 { text: 'The four supporting characters are: (1) Time', outcome: 'The four supporting characters are: (1) Time — "Time\'s fool" and "his bending sickle\'s compass".' },
                 { text: 'character analysis', outcome: 'Not quite — Students believe "character analysis" only applies to human figures in novels or plays, so they.', reveals: 'character-analysis-only-applies-to' },
                 { text: 'protagonist', outcome: 'Not quite — Students believe "character analysis" only applies to human figures in novels or plays, so they.', reveals: 'character-analysis-only-applies-to' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_10_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine a friend says, "Love changes when life gets hard — that\'s just reality." Shakespeare\'s Sonnet 116 is his legal brief against that idea.',
+          caseStudy: { intro: 'Ask what \'ever-fixed mark\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of Shakespeare\'s Sonnet 116, "Let Me Not to the Marriage of True Minds"?', options: [
                 { text: 'The primary theme is the constancy and immutability of true love', outcome: 'The primary theme is the constancy and immutability of true love — love that does not change when.' },
                 { text: 'edge of doom', outcome: 'Not quite — Students often believe **"marriage of true minds" refers to a wedding ceremony or romantic.', reveals: 'marriage-of-true-minds-refers' },
@@ -84,12 +84,12 @@ export const c11_eng_w_ch10_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_10_001', difficulty: 'standard',
-          question: 'Before You Read: Context and Background for "Let Me Not to the Marriage of True.',
+          question: '\'ever-fixed mark\' (Woven Words, ch. 10) — the context and background to this.',
           hint: 'Review the sonnet structure lesson from Class 8 (c8_engl_ch1_14) and the metaphor lesson.',
           misconception: 'Students often believe Sonnet 116 describes a specific romantic relationship (e.g., Shakespeare\'s love for the "Fair.',
           parts: [
@@ -102,7 +102,7 @@ export const c11_eng_w_ch10_p1: SimDef = {
                   hint: 'Review the sonnet structure lesson from Class 8 (c8_engl_ch1_14) and the metaphor lesson from Class.',
                   misconception: 'Students often believe Sonnet 116 describes a specific romantic relationship (e.g., Shakespeare\'s love for the "Fair Youth" or "Dark Lady").' }
           ],
-            remediations: { 'sonnet-116-describes-a-specific': { steps: ['Have the student read Sonnet 116 alongside Sonnet 18 ("Shall I compare thee...") and Sonnet 130 ("My mistress\'.', 'Use a graphic organizer: label each quatrain\'s function (Definition → Metaphor 1 → Metaphor 2 → Time\'s challenge →.', 'Assign a 5-minute writing: "Define \'friendship\' using only negatives in four lines (ABAB)." This forces the student.', 'Show a 2-minute video on Elizabethan sonnet vogue (e.g., from BBC or NPTEL) to anchor the historical context.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'sonnet-116-describes-a-specific': { steps: ['Have the student read Sonnet 116 alongside Sonnet 18 ("Shall I compare thee...") and Sonnet 130 ("My mistress\'.', 'Use a graphic organizer: label each quatrain\'s function (Definition → Metaphor 1 → Metaphor 2 → Time\'s challenge →.', 'Assign a 5-minute writing: "Define \'friendship\' using only negatives in four lines (ABAB)." This forces the student.', 'Show a 2-minute video on Elizabethan sonnet vogue (e.g., from BBC or NPTEL) to anchor the historical context.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_10_001', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -113,9 +113,9 @@ export const c11_eng_w_ch10_p1: SimDef = {
                   hint: 'Review the sonnet structure lesson from Class 8 (c8_engl_ch1_14) and the metaphor lesson from Class.',
                   misconception: 'Students often believe Sonnet 116 describes a specific romantic relationship (e.g., Shakespeare\'s love for the "Fair Youth" or "Dark Lady").' }
           ],
-            remediations: { 'sonnet-116-describes-a-specific': { steps: ['Have the student read Sonnet 116 alongside Sonnet 18 ("Shall I compare thee...") and Sonnet 130 ("My mistress\'.', 'Use a graphic organizer: label each quatrain\'s function (Definition → Metaphor 1 → Metaphor 2 → Time\'s challenge →.', 'Assign a 5-minute writing: "Define \'friendship\' using only negatives in four lines (ABAB)." This forces the student.', 'Show a 2-minute video on Elizabethan sonnet vogue (e.g., from BBC or NPTEL) to anchor the historical context.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'sonnet-116-describes-a-specific': { steps: ['Have the student read Sonnet 116 alongside Sonnet 18 ("Shall I compare thee...") and Sonnet 130 ("My mistress\'.', 'Use a graphic organizer: label each quatrain\'s function (Definition → Metaphor 1 → Metaphor 2 → Time\'s challenge →.', 'Assign a 5-minute writing: "Define \'friendship\' using only negatives in four lines (ABAB)." This forces the student.', 'Show a 2-minute video on Elizabethan sonnet vogue (e.g., from BBC or NPTEL) to anchor the historical context.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_10_002', difficulty: 'standard',
-          question: 'In a Shakespearean sonnet, "plot and narrative structure" refers to the logical.',
+          question: 'The plot/narrative arc of \'ever-fixed mark\' — what happens, in what order, and.',
           hint: 'If stuck, review the definition of a Shakespearean sonnet (14 lines, iambic pentameter.',
           misconception: 'Students often treat the sonnet as a miniature story with a "plot" involving characters (the poet, a beloved, Time) and.',
           parts: [
@@ -128,9 +128,9 @@ export const c11_eng_w_ch10_p1: SimDef = {
                   hint: 'If stuck, review the definition of a Shakespearean sonnet (14 lines, iambic pentameter, abab cdcd.',
                   misconception: 'Students often treat the sonnet as a miniature story with a "plot" involving characters (the poet, a beloved, Time) and events (meeting.' }
           ],
-            remediations: { 'students-often-treat-the-sonnet': { steps: ['Ask the student to number the lines 1–14 and draw brackets around lines 1–4, 5–8, 9–12, 13–14.', 'Have them label each bracket: "Q1: Negative definition", "Q2: Positive metaphors", "Q3: Love vs Time", "C: Logical.', 'Read each bracket aloud as a separate "speech" and ask: "What is this speech trying to prove?" 4.', 'Finally, have them write one sentence that states the *entire* argument in their own words, using the structure: "True.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-sonnet': { steps: ['Ask the student to number the lines 1–14 and draw brackets around lines 1–4, 5–8, 9–12, 13–14.', 'Have them label each bracket: "Q1: Negative definition", "Q2: Positive metaphors", "Q3: Love vs Time", "C: Logical.', 'Read each bracket aloud as a separate "speech" and ask: "What is this speech trying to prove?" 4.', 'Finally, have them write one sentence that states the *entire* argument in their own words, using the structure: "True.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_10_003', difficulty: 'standard',
-          question: 'In poetry, setting refers to the metaphorical or imaginative landscape created.',
+          question: 'The setting of \'ever-fixed mark\' — the place, time and atmosphere the text.',
           hint: 'If stuck, review c7_engl_ch03_014 (Setting and Natural Imagery in the Poem) for practice.',
           misconception: 'Students often believe "setting" in poetry must be a named place (Verona, a garden, a room) with a clock-time (morning.',
           parts: [
@@ -139,9 +139,9 @@ export const c11_eng_w_ch10_p1: SimDef = {
                   hint: 'If stuck, review c7_engl_ch03_014 (Setting and Natural Imagery in the Poem) for practice.',
                   misconception: 'Students often believe "setting" in poetry must be a named place (Verona, a garden, a room) with a clock-time (morning, 16th century).' }
           ],
-            remediations: { 'setting-in-poetry-must-be': { steps: ['Ask the student to close their eyes and describe what they "see" when hearing "ever-fixed mark / That looks.', 'Have them draw the two quatrains as two distinct landscapes (sea with star; field with reaper).', 'Guide them to label each drawing with the atmosphere words: "steadfastness," "immunity," "eternity." 4.', 'Finally, ask: "If this poem were a movie, what would the opening shot be?" This forces concretization of metaphorical.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'setting-in-poetry-must-be': { steps: ['Ask the student to close their eyes and describe what they "see" when hearing "ever-fixed mark / That looks.', 'Have them draw the two quatrains as two distinct landscapes (sea with star; field with reaper).', 'Guide them to label each drawing with the atmosphere words: "steadfastness," "immunity," "eternity." 4.', 'Finally, ask: "If this poem were a movie, what would the opening shot be?" This forces concretization of metaphorical.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_10_004', difficulty: 'standard',
-          question: 'Character analysis in poetry examines how the poetic speaker constructs.',
+          question: 'Character analysis in \'ever-fixed mark\' — the central figure(s), their traits.',
           hint: 'Review subject-verb identification in inverted poetic syntax using.',
           misconception: 'Students consistently confuse the poetic speaker ("I" in the couplet) with the protagonist, writing answers like "The.',
           parts: [
@@ -150,9 +150,9 @@ export const c11_eng_w_ch10_p1: SimDef = {
                   hint: 'Review subject-verb identification in inverted poetic syntax using c11_eng_w_cbse_10_002\'s.',
                   misconception: 'Students consistently confuse the poetic speaker ("I" in the couplet) with the protagonist, writing answers like "The poet says love.' }
           ],
-            remediations: { 'students-consistently-confuse-the-poetic': { steps: ['Have the student circle every subject-verb pair in the poem (Love/is, Love/alters, Love/bends, it/looks, it/is.', 'Colour-code: one colour for Love as subject, another for the speaker ("I"), another for Time.', 'Ask "Who does the most verbs in this poem?"', 'Explain that the character who performs the most actions *is* the protagonist in poetry, regardless of who speaks the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-consistently-confuse-the-poetic': { steps: ['Have the student circle every subject-verb pair in the poem (Love/is, Love/alters, Love/bends, it/looks, it/is.', 'Colour-code: one colour for Love as subject, another for the speaker ("I"), another for Time.', 'Ask "Who does the most verbs in this poem?"', 'Explain that the character who performs the most actions *is* the protagonist in poetry, regardless of who speaks the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_10_005', difficulty: 'standard',
-          question: 'In poetry, supporting characters are personified entities, abstract forces,.',
+          question: 'Supporting characters in \'ever-fixed mark\' — the secondary figures who move the.',
           hint: 'Review c11_eng_w_cbse_10_008 (Literary Devices: Imagery and Metaphor) focusing on the.',
           misconception: 'Students believe "character analysis" only applies to human figures in novels or plays, so they either skip this topic.',
           parts: [
@@ -165,9 +165,9 @@ export const c11_eng_w_ch10_p1: SimDef = {
                   hint: 'Review c11_eng_w_cbse_10_008 (Literary Devices: Imagery and Metaphor) focusing on the.',
                   misconception: 'Students believe "character analysis" only applies to human figures in novels or plays, so they either skip this topic for poetry or force.' }
           ],
-            remediations: { 'character-analysis-only-applies-to': { steps: ['Ask the student to list every noun in the poem that performs an action (alters, bends, looks, shakes, comes, bears).', 'For each, ask "Is this Love itself, or something else?"', 'Group the "something else" into antagonists (Time, sickle, lips/cheeks) and analogs (star, bark).', 'Have them complete this sentence frame: "Time shows Love is _____ by _____; the Star shows Love is _____ by _____.".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'character-analysis-only-applies-to': { steps: ['Ask the student to list every noun in the poem that performs an action (alters, bends, looks, shakes, comes, bears).', 'For each, ask "Is this Love itself, or something else?"', 'Group the "something else" into antagonists (Time, sickle, lips/cheeks) and analogs (star, bark).', 'Have them complete this sentence frame: "Time shows Love is _____ by _____; the Star shows Love is _____ by _____.".'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_10_006', difficulty: 'standard',
-          question: 'The primary theme of a poem is its central, unifying idea or message that the.',
+          question: 'The primary theme of \'ever-fixed mark\' — the central idea the whole text.',
           hint: 'Review the structure of a Shakespearean sonnet (three quatrains and a couplet) and the.',
           misconception: 'Students often believe **"marriage of true minds" refers to a wedding ceremony or romantic marriage**.',
           parts: [
@@ -176,7 +176,7 @@ export const c11_eng_w_ch10_p1: SimDef = {
                   hint: 'Review the structure of a Shakespearean sonnet (three quatrains and a couplet) and the function.',
                   misconception: 'Students often believe **"marriage of true minds" refers to a wedding ceremony or romantic marriage**.' }
           ],
-            remediations: { 'marriage-of-true-minds-refers': { steps: ['**Clarify "marriage of true minds":** Have the student replace "marriage" with "union" or "bond" and "true minds" with.', '**Map the negatives:** Give the student a two-column table.', 'Column A: Every negative phrase ("not," "never," "no," "nor").', 'Column B: The positive quality it asserts.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'marriage-of-true-minds-refers': { steps: ['**Clarify "marriage of true minds":** Have the student replace "marriage" with "union" or "bond" and "true minds" with.', '**Map the negatives:** Give the student a two-column table.', 'Column A: Every negative phrase ("not," "never," "no," "nor").', 'Column B: The positive quality it asserts.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -25,7 +25,7 @@ export const c12_gram_ch80: SimDef = {
             { id: 's4', label: 'The boards editing task runs', prompt: 'Which idea is this? — The board\'s editing task runs a fixed error inventory across a passage — typically one.', answer: 'The boards editing task runs', options: ['The boards editing task runs', 'Punctuation is traffic control commas', 'Editing tasks at class 12', 'The apostrophe marks possession the'] }
           ] } },
         { type: 'build', nodeId: 'c12_gram_cbse_80_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Check each clause-join — comma alone = splice; add.', 'Colon only when what follows explains/lists what precedes.', 'Apostrophe = possession or contraction; test \'its\'.'], answer: 'Check each clause-join — comma alone = splice; add. Colon only when what follows explains/lists what precedes. Apostrophe = possession or contraction; test \'its\'.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Colon only when what follows explains/lists what precedes.', 'Apostrophe = possession or contraction; test \'its\'.', 'Check each clause-join — comma alone = splice; add.'], answer: 'Check each clause-join — comma alone = splice; add. Colon only when what follows explains/lists what precedes. Apostrophe = possession or contraction; test \'its\'.' } },
         { type: 'case', nodeId: 'c12_gram_ch80_004', title: 'You made it',
           caseStudy: { intro: 'You finished Punctuation is traffic control: commas separate. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

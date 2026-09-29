@@ -6,13 +6,13 @@ import C8_HistoryCivicsLucknowPact1916Sim from '../../../simulations/c6_12/C8_Hi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_historycivicslucknowpact1916sim: SimDef = {
     id: 'v3w_c8_historycivicslucknowpact1916sim',
-    title: 'Lucknow Pact1916',
+    title: 'Moderates vs Extremists in the Congress',
     subtitle: 'Covers the ideological differences, key leaders, methods, and the 1907 Surat Split.',
     classLevel: 8, subject: 'history', topic: 'Moderates vs Extremists in the Congress',
     chapters: [],
     nodeIds: ['c8_hist_ch4_4', 'c8_hist_ch4_2', 'c8_hist_ch4_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you and your friends want to change a school rule — some want to write a polite letter to the.', goal: 'Master Lucknow Pact1916.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you and your friends want to change a school rule — some want to write a polite letter to the.', goal: 'Master Moderates vs Extremists in the Congress.' },
     discovery: {
         question: 'Was the Gandhi-Irwin Pact (March 1931) a victory for the Civil Disobedience Movement? Defend your position with *two* specific pieces of evidence.',
         options: ['It was a *partial* victory', 'total victory', 'total betrayal'],
@@ -52,13 +52,13 @@ export const w_c8_historycivicslucknowpact1916sim: SimDef = {
             { text: 'Conclude — The march was choreographed *for* the camera, making colonial repression visible to a global audience for.', faded: true, blankAnswer: 'The Salt March was a calculated media spectacle: Gandhi.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_hist_ch4_2', title: 'Identify each idea',
-          dissect: { specimen: 'Lucknow Pact1916', spots: [
+          dissect: { specimen: 'Moderates vs Extremists in the Congress', spots: [
             { id: 's1', label: 'The Moderates vs Extremists debate', prompt: 'Which idea is this? — The Moderates vs Extremists debate (1885–1907) refers to the ideological split within the.', answer: 'The Moderates vs Extremists debate', options: ['The Moderates vs Extremists debate', 'The Revolt of 1857 was', 'The Civil Disobedience Movement 193034'] },
             { id: 's2', label: 'The Revolt of 1857 was', prompt: 'Which idea is this? — The Revolt of 1857 was a major, widespread uprising against British East India Company.', answer: 'The Revolt of 1857 was', options: ['The Revolt of 1857 was', 'The Moderates vs Extremists debate', 'The Civil Disobedience Movement 193034'] },
             { id: 's3', label: 'The Civil Disobedience Movement 193034', prompt: 'Which idea is this? — The Civil Disobedience Movement (1930–34) was a nationwide mass campaign of non-violent.', answer: 'The Civil Disobedience Movement 193034', options: ['The Civil Disobedience Movement 193034', 'The Moderates vs Extremists debate', 'The Revolt of 1857 was'] }
           ] } }
     ],
-    explore: { component: C8_HistoryCivicsLucknowPact1916Sim, prompt: 'Explore the interactive — Lucknow Pact1916' },
+    explore: { component: C8_HistoryCivicsLucknowPact1916Sim, prompt: 'Explore the interactive — Moderates vs Extremists in the Congress' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_hist_ch4_4', difficulty: 'standard',
           question: 'The Moderates vs Extremists debate (1885–1907) refers to the ideological split.',

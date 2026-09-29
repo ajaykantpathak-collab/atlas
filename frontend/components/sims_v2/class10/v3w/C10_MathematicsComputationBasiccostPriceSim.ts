@@ -6,13 +6,13 @@ import C10_MathematicsComputationBasiccostPriceSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_mathematicscomputationbasiccostpricesim: SimDef = {
     id: 'v3w_c10_mathematicscomputationbasiccostpricesim',
-    title: 'Computation Basiccost Price',
+    title: 'Word Problems: Surface Area and Volume of Combined Solids',
     subtitle: 'Covers word problems involving combinations of cylinder, cone, sphere, hemisphere, and.',
     classLevel: 10, subject: 'mathematics', topic: 'Word Problems: Surface Area and Volume of Combined Solids',
     chapters: [],
     nodeIds: ['c10_math_cbse_12_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine a water tank in your village shaped like a cylinder with a hemispherical top — the panchayat wants to.', goal: 'Master Computation Basiccost Price.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine a water tank in your village shaped like a cylinder with a hemispherical top — the panchayat wants to.', goal: 'Master Word Problems: Surface Area and Volume of Combined Solids.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Word problems on surface area and volume of.', text: 'Word problems on surface area and volume of combined solids require translating a real-world description of a 3D object (formed by joining two or more basic solids like cylinders, cones, hemispheres,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -29,7 +29,7 @@ export const w_c10_mathematicscomputationbasiccostpricesim: SimDef = {
             { text: 'Volume of wood = Volume of cone + Volume of cylinder = 1/3 πr₁²h₁ + πr₂²h₂ = 1/3 × 3.14 × 6.25 × 6 + 3.14 × 2.25 × 20 =.', faded: true, blankAnswer: 'Orange painted area = 63.585 cm², Yellow painted area =.' }
             ] } }
     ],
-    explore: { component: C10_MathematicsComputationBasiccostPriceSim, prompt: 'Explore the interactive — Computation Basiccost Price' },
+    explore: { component: C10_MathematicsComputationBasiccostPriceSim, prompt: 'Explore the interactive — Word Problems: Surface Area and Volume of Combined Solids' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_math_cbse_12_010', difficulty: 'standard',
           question: 'Word problems on surface area and volume of combined solids require translating.',

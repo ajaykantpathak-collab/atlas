@@ -6,13 +6,13 @@ import C9_MathematicsAreaTheoremsParallelogramsSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_mathematicsareatheoremsparallelogramssim: SimDef = {
     id: 'v3w_c9_mathematicsareatheoremsparallelogramssim',
-    title: 'Area Theorems Parallelograms',
+    title: 'Area of Rectangle and Parallelogram: Formulas',
     subtitle: 'Covers the derivation and application of area formulas for rectangles and parallelograms.',
     classLevel: 9, subject: 'mathematics', topic: 'Area of Rectangle and Parallelogram: Formulas',
     chapters: [],
     nodeIds: ['c9_math_ch6_4', 'c9_math_ch1_6', 'c9_math_ch6_6', 'c9_math_ch1_5', 'c9_math_ch1_8', 'c9_math_ch5_1', 'c9_math_ch5_3', 'c9_math_ch5_8', 'c9_math_ch6_1', 'c9_math_ch6_10', 'c9_math_ch6_11', 'c9_math_ch6_2', 'c9_math_ch6_5', 'c9_math_ch6_7', 'c9_math_ch6_8'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are designing a rectangular garden bed of length 12 m and breadth 8 m, and a parallelogram-shaped.', goal: 'Master Area Theorems Parallelograms.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are designing a rectangular garden bed of length 12 m and breadth 8 m, and a parallelogram-shaped.', goal: 'Master Area of Rectangle and Parallelogram: Formulas.' },
     discovery: {
         question: 'Explain why every diameter of a circle is a chord, but not every chord is a diameter. Use the definitions of chord and diameter in your reasoning.',
         options: ['A chord is any segment joining two points on the circle', 'diameter is longer', 'they are the same'],
@@ -78,7 +78,7 @@ export const w_c9_mathematicsareatheoremsparallelogramssim: SimDef = {
             { text: 'The region bounded by radii OC, OD and arc CD is a sector (sector O-CD).', faded: true, blankAnswer: '(i) Radius = 6 m (e.g., OA), (ii) Diameter AB = 12 m, (iii).' }
             ] } },
         { type: 'dissect', nodeId: 'c9_math_ch1_6', title: 'Identify each idea',
-          dissect: { specimen: 'Area Theorems Parallelograms', spots: [
+          dissect: { specimen: 'Area of Rectangle and Parallelogram: Formulas', spots: [
             { id: 's1', label: 'The area of a rectangle', prompt: 'Which idea is this? — The area of a rectangle is the product of its length and breadth (A = l × b), where.', answer: 'The area of a rectangle', options: ['The area of a rectangle', 'The distance formula calculates the', 'Herons Formula calculates the area', 'The distance between two points'] },
             { id: 's2', label: 'The distance formula calculates the', prompt: 'Which idea is this? — The distance formula calculates the length of the line segment joining two points.', answer: 'The distance formula calculates the', options: ['The distance formula calculates the', 'The area of a rectangle', 'Herons Formula calculates the area', 'The distance between two points'] },
             { id: 's3', label: 'Herons Formula calculates the area', prompt: 'Which idea is this? — Heron\'s Formula calculates the area of a triangle when the lengths of all three sides (a,.', answer: 'Herons Formula calculates the area', options: ['Herons Formula calculates the area', 'The area of a rectangle', 'The distance formula calculates the', 'The distance between two points'] },
@@ -87,7 +87,7 @@ export const w_c9_mathematicsareatheoremsparallelogramssim: SimDef = {
             { id: 's6', label: 'A circle is the set', prompt: 'Which idea is this? — A circle is the set of all points in a plane that are at a fixed distance (called the.', answer: 'A circle is the set', options: ['A circle is the set', 'The area of a rectangle', 'The distance formula calculates the', 'Herons Formula calculates the area'] }
           ] } }
     ],
-    explore: { component: C9_MathematicsAreaTheoremsParallelogramsSim, prompt: 'Explore the interactive — Area Theorems Parallelograms' },
+    explore: { component: C9_MathematicsAreaTheoremsParallelogramsSim, prompt: 'Explore the interactive — Area of Rectangle and Parallelogram: Formulas' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_math_ch6_4', difficulty: 'standard',
           question: 'The area of a rectangle is the product of its length and breadth (A = l × b),.',

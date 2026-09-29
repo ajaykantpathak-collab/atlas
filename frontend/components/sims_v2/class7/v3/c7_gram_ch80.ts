@@ -24,7 +24,7 @@ export const c7_gram_ch80: SimDef = {
             { id: 's3', label: 'Inside a sentence nouns do', prompt: 'Which idea is this? — Inside a sentence, nouns do different jobs: subject (does the action), object (receives.', answer: 'Inside a sentence nouns do', options: ['Inside a sentence nouns do', 'A clause is a group', 'Sentences multiply their verbs in'] }
           ] } },
         { type: 'build', nodeId: 'c7_gram_cbse_80_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Found one → does it start with a leaning word.', 'Look for a subject-verb pair.', 'Stands alone? → independent.'], answer: 'Look for a subject-verb pair. Found one → does it start with a leaning word. Stands alone? → independent.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Stands alone? → independent.', 'Found one → does it start with a leaning word.', 'Look for a subject-verb pair.'], answer: 'Look for a subject-verb pair. Found one → does it start with a leaning word. Stands alone? → independent.' } },
         { type: 'case', nodeId: 'c7_gram_cbse_80_003', title: 'You made it',
           caseStudy: { intro: 'You finished A clause is a group of words with its own. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

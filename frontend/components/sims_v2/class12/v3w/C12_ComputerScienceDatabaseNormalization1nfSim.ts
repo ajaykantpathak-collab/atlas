@@ -6,13 +6,13 @@ import C12_ComputerScienceDatabaseNormalization1nfSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_computersciencedatabasenormalization1nfsim: SimDef = {
     id: 'v3w_c12_computersciencedatabasenormalization1nfsim',
-    title: 'Database Normalization1nf',
+    title: 'Introduction to Databases and DBMS',
     subtitle: 'This node covers fundamental definitions: data vs information, database, DBMS, database.',
     classLevel: 12, subject: 'computer_science', topic: 'Introduction to Databases and DBMS',
     chapters: [],
     nodeIds: ['c12_cs_cbse_04_001', 'c12_cs_cbse_04_003', 'c12_cs_cbse_04_004', 'c12_cs_cbse_04_010', 'c12_cs_cbse_04_002', 'c12_cs_cbse_04_005', 'c12_cs_cbse_04_008', 'c12_cs_cbse_04_009', 'c12_cs_cbse_12_003', 'c12_cs_cbse_12_012', 'c12_cs_cbse_13_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you run a small online bookstore. Orders, customer details, book inventory, and payment records are.', goal: 'Master Database Normalization1nf.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you run a small online bookstore. Orders, customer details, book inventory, and payment records are.', goal: 'Master Introduction to Databases and DBMS.' },
     discovery: {
         question: 'What is the fundamental difference between a database and a DBMS? Give a one-sentence definition of each.',
         options: ['A database is the organized collection of data itself', 'DBMS is the database', 'database system'],
@@ -79,7 +79,7 @@ export const w_c12_computersciencedatabasenormalization1nfsim: SimDef = {
             { text: 'Explain non-candidate keys: Phone is not unique (two teachers may share a landline), so it cannot identify a tuple.', faded: true, blankAnswer: 'Candidate keys: {TeacherID}, {AadharNo}, {PAN}, {Email}..' }
             ] } },
         { type: 'dissect', nodeId: 'c12_cs_cbse_04_003', title: 'Identify each idea',
-          dissect: { specimen: 'Database Normalization1nf', spots: [
+          dissect: { specimen: 'Introduction to Databases and DBMS', spots: [
             { id: 's1', label: 'A database is an organized', prompt: 'Which idea is this? — A database is an organized collection of structured data stored electronically in a.', answer: 'A database is an organized', options: ['A database is an organized', 'A database model defines the', 'In the relational data model', 'Normalization is the systematic process'] },
             { id: 's2', label: 'A database model defines the', prompt: 'Which idea is this? — A database model defines the logical structure of a database, specifying how data is.', answer: 'A database model defines the', options: ['A database model defines the', 'A database is an organized', 'In the relational data model', 'Normalization is the systematic process'] },
             { id: 's3', label: 'In the relational data model', prompt: 'Which idea is this? — In the relational data model, a **relation** is a table with rows and columns where each.', answer: 'In the relational data model', options: ['In the relational data model', 'A database is an organized', 'A database model defines the', 'Normalization is the systematic process'] },
@@ -88,7 +88,7 @@ export const w_c12_computersciencedatabasenormalization1nfsim: SimDef = {
             { id: 's6', label: 'In a relational database a', prompt: 'Which idea is this? — In a relational database, a **key** is an attribute (or set of attributes) that uniquely.', answer: 'In a relational database a', options: ['In a relational database a', 'A database is an organized', 'A database model defines the', 'In the relational data model'] }
           ] } }
     ],
-    explore: { component: C12_ComputerScienceDatabaseNormalization1nfSim, prompt: 'Explore the interactive — Database Normalization1nf' },
+    explore: { component: C12_ComputerScienceDatabaseNormalization1nfSim, prompt: 'Explore the interactive — Introduction to Databases and DBMS' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_cs_cbse_04_001', difficulty: 'standard',
           question: 'A database is an organized collection of structured data stored electronically.',
@@ -125,8 +125,8 @@ export const w_c12_computersciencedatabasenormalization1nfsim: SimDef = {
                   options: ['In a hierarchical model, each child has exactly one parent', 'it can using pointers', 'obsolete'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think hierarchical and network models are "obsolete" and only of historical interest.' },
-                { id: 'c', prompt: 'Given a small network‑model diagram with two record types (Owner: Department, Member: Employee) and a set linking them, write the steps to find all employees.', answer: 'Steps: (1) Locate the \'CS\' department record (owner)',
-                  options: ['Steps: (1) Locate the \'CS\' department record (owner)', 'SELECT * FROM Employee WHERE dept=\'CS\'', 'obsolete'],
+                { id: 'c', prompt: 'Given a small network‑model diagram with two record types (Owner: Department, Member: Employee) and a set linking them, write the steps to find all employees.', answer: '(1) Locate the \'CS\' department record (owner)',
+                  options: ['(1) Locate the \'CS\' department record (owner)', 'SELECT * FROM Employee WHERE dept=\'CS\'', 'obsolete'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think hierarchical and network models are "obsolete" and only of historical interest.' }
           ],

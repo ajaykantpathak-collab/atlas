@@ -110,6 +110,10 @@ export const c6_history_ch10: SimDef = {
                 { id: 'a', prompt: 'Was the Battle of Plassey won primarily because of the Company’s superior weapons and training?', answer: 'No, it was won through treachery, specifically the bribery of Mir Jafar',
                   options: ['No, it was won through treachery, specifically the bribery of Mir Jafar', 'more modern', 'smarter', 'the British won because they were "more modern" or "smarter" than the Indians'],
                   hint: 'Review the earlier chapters on why Europeans came to India for trade.',
+                  misconception: 'Students often think the British won because they were "more modern" or "smarter" than the Indians.' },
+                { id: 'b', prompt: 'If you were a historian, why would you say Mir Jafar’s decision to switch sides was the most important moment of the battle?', answer: 'Acknowledge Mir Jafar was the Nawab\'s general',
+                  options: ['Acknowledge Mir Jafar was the Nawab\'s general', 'more modern', 'smarter', 'battles are only about who has more soldiers'],
+                  hint: 'Review the earlier chapters on why Europeans came to India for trade.',
                   misconception: 'Students often think the British won because they were "more modern" or "smarter" than the Indians.' }
           ],
             remediations: { 'the-british-won-because-they': { steps: ['Ask the student: "If I bribe your goalie to let the ball in, did I win because I’m a better football player?" 2.', 'Explain that the Company acted like the person who bribed the goalie.', 'Clarify that in 1757, the Company was small and needed local allies to gain power.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },

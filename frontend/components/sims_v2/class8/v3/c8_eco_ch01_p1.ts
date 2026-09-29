@@ -44,7 +44,7 @@ export const c8_eco_ch01_p1: SimDef = {
           caseStudy: { intro: 'Let us begin with a real-world scenario from Khurja, Uttar Pradesh, a town famous for pottery. Ramesh runs a small workshop making clay cups (*kulhads*).',
             decisions: [{ prompt: 'What is meant by "productivity" in a production process, and how is it calculated?', options: [
                 { text: 'Productivity is a measure of how efficiently inputs are converted into outputs', outcome: 'Productivity is a measure of how efficiently inputs are converted into outputs.' },
-                { text: 'the total amount of goods produced', outcome: 'Not quite — revisit the idea', reveals: 'wrong-idea' }
+                { text: 'the total amount of goods produced', outcome: 'Not quite — a wrong answer reveals:* If a student defines productivity simply as "the total amount of goods.', reveals: 'a-wrong-answer-reveals-if' }
             ] }] } },
         { type: 'scaffold', nodeId: 'c8_eco_ch1_12', title: 'Sustainable Production: Efficient Use of Resources',
           scaffold: { problem: 'A clay toy maker in pottery village uses 500 kg of clay to make 400 finished toys, while 100 kg of clay is ruined and wasted during.',
@@ -121,30 +121,42 @@ export const c8_eco_ch01_p1: SimDef = {
                 { id: 'a', prompt: 'Which of the following is classified strictly as an economic service rather than a physical good in daily life?', answer: 'B) A haircut received from a local barber at a salon',
                   options: ['B) A haircut received from a local barber at a salon', 'consumer good'],
                   hint: 'Review basic market transactions and the difference between buying a physical apple versus paying.',
+                  misconception: 'Students often think that any item purchased with money is automatically a "consumer good" and fail to realize that the exact same physical.' },
+                { id: 'b', prompt: 'A local bakery in Chennai produces 200 loaves of bread using flour, yeast, and an oven (valued at ₹4,000 total input cost) and sells them all to households for.', answer: 'Identify input cost (₹4,000) and total revenue from sale (₹6,000)',
+                  options: ['Identify input cost (₹4,000) and total revenue from sale (₹6,000)', 'consumer good'],
+                  hint: 'Review basic market transactions and the difference between buying a physical apple versus paying.',
                   misconception: 'Students often think that any item purchased with money is automatically a "consumer good" and fail to realize that the exact same physical.' }
           ],
             remediations: { 'any-item-purchased-with-money': { steps: ['To fix this, guide the student through a two-step questioning technique: First, ask "Can you touch and store this.', 'Second, ask "Who is using this item and for what purpose?" If a household uses it for personal living, it is a consumer.', 'If a business uses it to make other products or services for profit, it is a producer good.', 'Practice this with everyday items like a delivery scooter used by a courier company versus a family bicycle.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c8_eco_ch1_11', difficulty: 'standard',
           question: 'Technology in production refers to the application of scientific knowledge.',
           hint: 'Work step by step.',
-          misconception: 'Check each part.',
+          misconception: 'a wrong answer reveals:* If a student defines productivity simply as "the total amount of goods produced," they are.',
           parts: [
                 { id: 'a', prompt: 'What is meant by "productivity" in a production process, and how is it calculated?', answer: 'Productivity is a measure of how efficiently inputs are converted into outputs',
                   options: ['Productivity is a measure of how efficiently inputs are converted into outputs', 'the total amount of goods produced'],
                   hint: 'Think about the key idea.',
-                  misconception: '' },
+                  misconception: 'a wrong answer reveals:* If a student defines productivity simply as "the total amount of goods produced," they are confusing *total.' },
                 { id: 'b', prompt: 'Explain why introducing an automatic drip irrigation system on a farm is considered a "technological upgrade," even though the physical land and the water.', answer: 'Drip irrigation is a technological upgrade',
-                  options: ['Drip irrigation is a technological upgrade', 'it is just water and pipes, not computers', 'technology'],
+                  options: ['Drip irrigation is a technological upgrade', 'it is just water and pipes, not computers', 'technology', 'the total amount of goods produced'],
                   hint: 'Think about the key idea.',
-                  misconception: '' }
+                  misconception: 'a wrong answer reveals:* If a student defines productivity simply as "the total amount of goods produced," they are confusing *total.' },
+                { id: 'c', prompt: 'A textile workshop in Tiruppur has 5 tailors. Using manual sewing machines, they produce a total of 25 shirts per day.', answer: '**Step 1:** Identify initial data: Output = 25 shirts, Labour = 5 tailors',
+                  options: ['**Step 1:** Identify initial data: Output = 25 shirts, Labour = 5 tailors', 'the total amount of goods produced'],
+                  hint: 'Think about the key idea.',
+                  misconception: 'a wrong answer reveals:* If a student defines productivity simply as "the total amount of goods produced," they are confusing *total.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['Remember: Technology in production refers to the application of scientific knowledge, tools, techniques, and systems to combine factors of production.', 'Check that idea against the interactive, then try again.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'a-wrong-answer-reveals-if': { steps: ['Re-read the WALKTHROUGH above, then retry the diagnostic.', 'If it still feels unclear, open the prerequisite lesson linked on this page.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c8_eco_ch1_12', difficulty: 'standard',
           question: 'Sustainable production is the method of manufacturing goods and services using.',
           hint: 'Review c8_eco_ch1_1 to understand inputs and outputs, then examine how wasted inputs.',
           misconception: 'Students often think that "sustainable production" is purely an act of charity or environmental protection that has.',
           parts: [
-                { id: 'a', prompt: 'Analyze how shifting from traditional coal-powered electricity to solar energy affects a manufacturing firm\'s variable costs and its dependency on natural.', answer: 'Shifting to solar energy reduces long-term variable energy costs',
+                { id: 'a', prompt: 'A paper mill uses 1,000 kilograms of wood pulp to produce 800 kilograms of paper, generating 200 kilograms of waste sludge.', answer: 'Identify initial paper output: 800 kg',
+                  options: ['Identify initial paper output: 800 kg', 'sustainable production'],
+                  hint: 'Review c8_eco_ch1_1 to understand inputs and outputs, then examine how wasted inputs drive.',
+                  misconception: 'Students often think that "sustainable production" is purely an act of charity or environmental protection that has no relationship.' },
+                { id: 'b', prompt: 'Analyze how shifting from traditional coal-powered electricity to solar energy affects a manufacturing firm\'s variable costs and its dependency on natural.', answer: 'Shifting to solar energy reduces long-term variable energy costs',
                   options: ['Shifting to solar energy reduces long-term variable energy costs', 'sustainable production'],
                   hint: 'Review c8_eco_ch1_1 to understand inputs and outputs, then examine how wasted inputs drive.',
                   misconception: 'Students often think that "sustainable production" is purely an act of charity or environmental protection that has no relationship.' }
@@ -166,8 +178,8 @@ export const c8_eco_ch01_p1: SimDef = {
           hint: 'Review c8_eco_ch1_2 to refresh the basic categories of production inputs before focusing.',
           misconception: 'Students often confuse "land" as a factor of production with real estate property or urban plots used for housing.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Land as a factor of production refers to all natural resources—including soil, water,',
-                  options: ['Land as a factor of production refers to all natural resources—including soil, water,', 'The production process is the systematic method of combining various inputs (resources)', 'Goods are physical, tangible objects (like steel, rice, or laptops) that can be touched,', 'Technology in production refers to the application of scientific knowledge, tools,'],
+                { id: 'a', prompt: 'A farmer in Haryana owns 5 acres of land. Over three years, the farmer uses chemical fertilizers intensively, raising wheat production from 100 quintals to 140.', answer: 'Identify initial yield per acre: 100 quintals / 5 acres = 20 quintals/acre',
+                  options: ['Identify initial yield per acre: 100 quintals / 5 acres = 20 quintals/acre', 'higher output means more land was created'],
                   hint: 'Review c8_eco_ch1_2 to refresh the basic categories of production inputs before focusing.',
                   misconception: 'Students often confuse "land" as a factor of production with real estate property or urban plots used for housing.' }
           ],

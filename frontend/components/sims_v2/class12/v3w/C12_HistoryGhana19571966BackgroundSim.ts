@@ -6,13 +6,13 @@ import C12_HistoryGhana19571966BackgroundSim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_historyghana19571966backgroundsim: SimDef = {
     id: 'v3w_c12_historyghana19571966backgroundsim',
-    title: 'Ghana19571966Background',
+    title: 'Al-Biruni: Background, Arrival in India and the Kitab-ul-Hind',
     subtitle: 'Covers Al-Biruni’s life (973–1048), his arrival in Ghazni (1017), his Sanskrit studies.',
     classLevel: 12, subject: 'history', topic: 'Al-Biruni: Background, Arrival in India and the Kitab-ul-Hind',
     chapters: [],
     nodeIds: ['c12_hist_cbse_05_001', 'c12_hist_cbse_05_005', 'c12_hist_cbse_05_009', 'c12_hist_cbse_05_012', 'c12_hist_cbse_11_002', 'c12_hist_cbse_11_009', 'c12_hist_cbse_11_011', 'c12_hist_cbse_06_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Class 12 student visiting the Qutb Minar complex in Delhi and noticing the Iron Pillar — a.', goal: 'Master Ghana19571966Background.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Class 12 student visiting the Qutb Minar complex in Delhi and noticing the Iron Pillar — a.', goal: 'Master Al-Biruni: Background, Arrival in India and the Kitab-ul-Hind.' },
     discovery: {
         question: 'Why did Al-Biruni choose to write the *Kitab-ul-Hind* in Arabic rather than Persian or Sanskrit, and for whom did he intend it?',
         options: ['Arabic was the lingua franca of scholarship across the Islamic world', 'for the Mughal emperor', 'in Persian because it was the court language'],
@@ -79,7 +79,7 @@ export const w_c12_historyghana19571966backgroundsim: SimDef = {
             { text: 'Evaluate which view the Poona Pact implemented — it rejected separate electorates (Gandhi\'s win on principle) but.', faded: true, blankAnswer: 'Gandhi argued separate electorates would eternally.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_hist_cbse_05_005', title: 'Identify each idea',
-          dissect: { specimen: 'Ghana19571966Background', spots: [
+          dissect: { specimen: 'Al-Biruni: Background, Arrival in India and the Kitab-ul-Hind', spots: [
             { id: 's1', label: 'Al-Biruni 9731048 CE was a', prompt: 'Which idea is this? — Al-Biruni (973–1048 CE) was a Persian scholar from Khwarizm (present-day Uzbekistan) who.', answer: 'Al-Biruni 9731048 CE was a', options: ['Al-Biruni 9731048 CE was a', 'Ibn Battuta 13041377 was a', 'Franois Bernier 16201688 was a', 'This node synthesizes the accounts'] },
             { id: 's2', label: 'Ibn Battuta 13041377 was a', prompt: 'Which idea is this? — Ibn Battuta (1304–1377) was a Moroccan scholar and explorer whose travelogue, the *Rihla*.', answer: 'Ibn Battuta 13041377 was a', options: ['Ibn Battuta 13041377 was a', 'Al-Biruni 9731048 CE was a', 'Franois Bernier 16201688 was a', 'This node synthesizes the accounts'] },
             { id: 's3', label: 'Franois Bernier 16201688 was a', prompt: 'Which idea is this? — François Bernier (1620–1688) was a French physician, political philosopher, and historian.', answer: 'Franois Bernier 16201688 was a', options: ['Franois Bernier 16201688 was a', 'Al-Biruni 9731048 CE was a', 'Ibn Battuta 13041377 was a', 'This node synthesizes the accounts'] },
@@ -88,7 +88,7 @@ export const w_c12_historyghana19571966backgroundsim: SimDef = {
             { id: 's6', label: 'The Poona Pact 1932 was', prompt: 'Which idea is this? — The Poona Pact (1932) was an agreement between Mahatma Gandhi and Dr. B.R.', answer: 'The Poona Pact 1932 was', options: ['The Poona Pact 1932 was', 'Al-Biruni 9731048 CE was a', 'Ibn Battuta 13041377 was a', 'Franois Bernier 16201688 was a'] }
           ] } }
     ],
-    explore: { component: C12_HistoryGhana19571966BackgroundSim, prompt: 'Explore the interactive — Ghana19571966Background' },
+    explore: { component: C12_HistoryGhana19571966BackgroundSim, prompt: 'Explore the interactive — Al-Biruni: Background, Arrival in India and the Kitab-ul-Hind' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hist_cbse_05_001', difficulty: 'standard',
           question: 'Al-Biruni (973–1048 CE) was a Persian scholar from Khwarizm (present-day.',

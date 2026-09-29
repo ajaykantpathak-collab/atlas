@@ -6,13 +6,13 @@ import C9_EVSForestEcosystemsTropicalSim from '../../../simulations/c6_12/C9_EVS
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_evsforestecosystemstropicalsim: SimDef = {
     id: 'v3w_c9_evsforestecosystemstropicalsim',
-    title: 'Forest Ecosystems Tropical',
+    title: 'Weathering: Physical, Chemical and Biological',
     subtitle: 'This node covers the three weathering types, their mechanisms (e.g., frost wedging,.',
     classLevel: 9, subject: 'evs', topic: 'Weathering: Physical, Chemical and Biological',
     chapters: [],
     nodeIds: ['c9_geo_ch1_7', 'c9_geo_ch1_12'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are standing on a hillside near Bengaluru in the Deccan Plateau and notice large, curved sheets.', goal: 'Master Forest Ecosystems Tropical.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are standing on a hillside near Bengaluru in the Deccan Plateau and notice large, curved sheets.', goal: 'Master Weathering: Physical, Chemical and Biological.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Weathering is the in-situ breakdown and.', text: 'Weathering is the in-situ breakdown and decomposition of rocks and minerals at or near the Earth\'s surface through physical (mechanical), chemical, and biological processes, without significant.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -38,12 +38,12 @@ export const w_c9_evsforestecosystemstropicalsim: SimDef = {
             { text: 'Synthesize — All four factors (lithology, slope, toe erosion, rainfall, vegetation loss) align → Very High hazard.', faded: true, blankAnswer: 'Very High landslide hazard. The slope is critically.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_geo_ch1_12', title: 'Identify each idea',
-          dissect: { specimen: 'Forest Ecosystems Tropical', spots: [
+          dissect: { specimen: 'Weathering: Physical, Chemical and Biological', spots: [
             { id: 's1', label: 'Weathering is the in-situ breakdown', prompt: 'Which idea is this? — Weathering is the in-situ breakdown and decomposition of rocks and minerals at or near.', answer: 'Weathering is the in-situ breakdown', options: ['Weathering is the in-situ breakdown', 'Natural hazards are extreme geophysical'] },
             { id: 's2', label: 'Natural hazards are extreme geophysical', prompt: 'Which idea is this? — Natural hazards are extreme geophysical or hydrometeorological events — such as.', answer: 'Natural hazards are extreme geophysical', options: ['Natural hazards are extreme geophysical', 'Weathering is the in-situ breakdown'] }
           ] } }
     ],
-    explore: { component: C9_EVSForestEcosystemsTropicalSim, prompt: 'Explore the interactive — Forest Ecosystems Tropical' },
+    explore: { component: C9_EVSForestEcosystemsTropicalSim, prompt: 'Explore the interactive — Weathering: Physical, Chemical and Biological' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_geo_ch1_7', difficulty: 'standard',
           question: 'Weathering is the in-situ breakdown and decomposition of rocks and minerals at.',

@@ -6,13 +6,13 @@ import C7_MathematicsUnderstandingPercentageFractionSim from '../../../simulatio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsunderstandingpercentagefractionsim: SimDef = {
     id: 'v3w_c7_mathematicsunderstandingpercentagefractionsim',
-    title: 'Understanding Percentage Fraction',
+    title: 'Tenth Part: Understanding 1/10 as a Decimal',
     subtitle: 'Covers the understanding, representation, and conversion of tenths ($\\frac{1}{10}$ and.',
     classLevel: 7, subject: 'mathematics', topic: 'Tenth Part: Understanding 1/10 as a Decimal',
     chapters: [],
     nodeIds: ['c7_math_ch03_002', 'c7_math_ch01_001', 'c7_math_ch01_004', 'c7_math_ch01_005', 'c7_math_ch01_010', 'c7_math_ch01_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine you go to a stationery shop to buy a pencil, and the shopkeeper tells you it costs one rupee, but you.', goal: 'Master Understanding Percentage Fraction.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine you go to a stationery shop to buy a pencil, and the shopkeeper tells you it costs one rupee, but you.', goal: 'Master Tenth Part: Understanding 1/10 as a Decimal.' },
     discovery: {
         question: 'What is the place value of the digit 7 in the number $4,73,52,100$ according to the Indian numbering system?',
         options: ['The place value of 7 is $70,00,000$ (Seventy Lakhs)', 'Three crore four lakh', 'four lakh'],
@@ -78,7 +78,7 @@ export const w_c7_mathematicsunderstandingpercentagefractionsim: SimDef = {
             { text: 'Verify with estimation: $2,50,000 \\times 30 = 75,00,000$, which is very close to our calculated exact value of.', faded: true, blankAnswer: '73,74,300 metres' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch01_001', title: 'Identify each idea',
-          dissect: { specimen: 'Understanding Percentage Fraction', spots: [
+          dissect: { specimen: 'Tenth Part: Understanding 1/10 as a Decimal', spots: [
             { id: 's1', label: 'The tenth part represents one', prompt: 'Which idea is this? — The tenth part represents one of ten equal parts of a whole unit, expressed as the.', answer: 'The tenth part represents one', options: ['The tenth part represents one', 'The lakh is a unit', 'A crore is an 8-digit', 'Comparing and ordering large numbers'] },
             { id: 's2', label: 'The lakh is a unit', prompt: 'Which idea is this? — The lakh is a unit in the Indian numbering system equal to one hundred thousand.', answer: 'The lakh is a unit', options: ['The lakh is a unit', 'The tenth part represents one', 'A crore is an 8-digit', 'Comparing and ordering large numbers'] },
             { id: 's3', label: 'A crore is an 8-digit', prompt: 'Which idea is this? — A crore is an 8-digit number in the Indian numbering system equal to 100 lakhs or ten.', answer: 'A crore is an 8-digit', options: ['A crore is an 8-digit', 'The tenth part represents one', 'The lakh is a unit', 'Comparing and ordering large numbers'] },
@@ -87,7 +87,7 @@ export const w_c7_mathematicsunderstandingpercentagefractionsim: SimDef = {
             { id: 's6', label: 'Operations with large numbers multiplication', prompt: 'Which idea is this? — Operations with large numbers: multiplication and division involves finding the product.', answer: 'Operations with large numbers multiplication', options: ['Operations with large numbers multiplication', 'The tenth part represents one', 'The lakh is a unit', 'A crore is an 8-digit'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsUnderstandingPercentageFractionSim, prompt: 'Explore the interactive — Understanding Percentage Fraction' },
+    explore: { component: C7_MathematicsUnderstandingPercentageFractionSim, prompt: 'Explore the interactive — Tenth Part: Understanding 1/10 as a Decimal' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch03_002', difficulty: 'standard',
           question: 'The tenth part represents one of ten equal parts of a whole unit, expressed as.',

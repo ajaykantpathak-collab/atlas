@@ -6,13 +6,13 @@ import C11_HistoryEmpireThreeContinentsSim from '../../../simulations/c6_12/C11_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_historyempirethreecontinentssim: SimDef = {
     id: 'v3w_c11_historyempirethreecontinentssim',
-    title: 'Empire Three Continents',
+    title: 'The Mediterranean Sea and Roman Expansion',
     subtitle: 'Covers the Mediterranean as a geographical determinant of Roman imperial expansion and.',
     classLevel: 11, subject: 'history', topic: 'The Mediterranean Sea and Roman Expansion',
     chapters: [],
     nodeIds: ['c11_hist_cbse_02_002', 'c11_hist_cbse_02_008', 'c11_hist_cbse_02_001', 'c11_hist_cbse_02_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at Marina Beach in Chennai watching ships wait for the monsoon winds to change.', goal: 'Master Empire Three Continents.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at Marina Beach in Chennai watching ships wait for the monsoon winds to change.', goal: 'Master The Mediterranean Sea and Roman Expansion.' },
     discovery: {
         question: 'Name the three continents spanned by the Roman Empire at its peak and the two major rivers that formed its northern frontier.',
         options: ['The Roman Empire spanned Europe, Africa, and Asia', 'in all directions equally', 'Rome conquered up to the Urals'],
@@ -61,14 +61,14 @@ export const w_c11_historyempirethreecontinentssim: SimDef = {
             { text: 'Evaluate significance — this ended the cycle of civil war for two centuries (except 69 CE), but made emperors dependent.', faded: true, blankAnswer: 'Augustus replaced the Republic\'s militia system.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_hist_cbse_02_008', title: 'Identify each idea',
-          dissect: { specimen: 'Empire Three Continents', spots: [
+          dissect: { specimen: 'The Mediterranean Sea and Roman Expansion', spots: [
             { id: 's1', label: 'The Mediterranean Sea served as', prompt: 'Which idea is this? — The Mediterranean Sea served as the central geographical and economic artery of the Roman.', answer: 'The Mediterranean Sea served as', options: ['The Mediterranean Sea served as', 'The Late Roman Empire c', 'The Roman Empire 27 BCE', 'The Principate 27 BCE'] },
             { id: 's2', label: 'The Late Roman Empire c', prompt: 'Which idea is this? — The Late Roman Empire (c. 284–476 CE) marks the transition from the Principate to the.', answer: 'The Late Roman Empire c', options: ['The Late Roman Empire c', 'The Mediterranean Sea served as', 'The Roman Empire 27 BCE', 'The Principate 27 BCE'] },
             { id: 's3', label: 'The Roman Empire 27 BCE', prompt: 'Which idea is this? — The Roman Empire (27 BCE – 476 CE in the west; 1453 CE in the east) was a.', answer: 'The Roman Empire 27 BCE', options: ['The Roman Empire 27 BCE', 'The Mediterranean Sea served as', 'The Late Roman Empire c', 'The Principate 27 BCE'] },
             { id: 's4', label: 'The Principate 27 BCE', prompt: 'Which idea is this? — The Principate (27 BCE – 284 CE) was the political system established by Augustus.', answer: 'The Principate 27 BCE', options: ['The Principate 27 BCE', 'The Mediterranean Sea served as', 'The Late Roman Empire c', 'The Roman Empire 27 BCE'] }
           ] } }
     ],
-    explore: { component: C11_HistoryEmpireThreeContinentsSim, prompt: 'Explore the interactive — Empire Three Continents' },
+    explore: { component: C11_HistoryEmpireThreeContinentsSim, prompt: 'Explore the interactive — The Mediterranean Sea and Roman Expansion' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hist_cbse_02_002', difficulty: 'standard',
           question: 'The Mediterranean Sea served as the central geographical and economic artery of.',

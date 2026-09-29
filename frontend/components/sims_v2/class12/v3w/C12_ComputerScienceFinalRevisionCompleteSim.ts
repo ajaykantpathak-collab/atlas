@@ -6,13 +6,13 @@ import C12_ComputerScienceFinalRevisionCompleteSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_computersciencefinalrevisioncompletesim: SimDef = {
     id: 'v3w_c12_computersciencefinalrevisioncompletesim',
-    title: 'Final Revision Complete',
+    title: 'Exception Handling in Database Connectivity',
     subtitle: 'This node covers: (1) the hierarchy of mysql.connector exception classes (Error,.',
     classLevel: 12, subject: 'computer_science', topic: 'Exception Handling in Database Connectivity',
     chapters: [],
     nodeIds: ['c12_cs_cbse_06_010', 'c12_cs_cbse_10_010', 'c12_cs_cbse_06_008', 'c12_cs_cbse_10_005', 'c12_cs_cbse_08_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are building an online fee-payment portal for your school.', goal: 'Master Final Revision Complete.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are building an online fee-payment portal for your school.', goal: 'Master Exception Handling in Database Connectivity.' },
     discovery: {
         question: 'What is the base exception class for all mysql.connector errors, and which two specific subclasses would you catch to distinguish between "lost network.',
         options: ['The base class is `mysql.connector.Error`', 'specific enough', '`except mysql'],
@@ -66,7 +66,7 @@ export const w_c12_computersciencefinalrevisioncompletesim: SimDef = {
             { text: 'Wrap in try-except to catch FileNotFoundError for missing input and PermissionError for output', faded: true, blankAnswer: '```python' }
             ] } },
         { type: 'dissect', nodeId: 'c12_cs_cbse_10_010', title: 'Identify each idea',
-          dissect: { specimen: 'Final Revision Complete', spots: [
+          dissect: { specimen: 'Exception Handling in Database Connectivity', spots: [
             { id: 's1', label: 'Exception handling in database connectivity', prompt: 'Which idea is this? — Exception handling in database connectivity is the practice of using Python\'s.', answer: 'Exception handling in database connectivity', options: ['Exception handling in database connectivity', 'Exception handling in file operations', 'Closing database connection and resources', 'The with statement in Python'] },
             { id: 's2', label: 'Exception handling in file operations', prompt: 'Which idea is this? — Exception handling in file operations is the practice of using Python\'s.', answer: 'Exception handling in file operations', options: ['Exception handling in file operations', 'Exception handling in database connectivity', 'Closing database connection and resources', 'The with statement in Python'] },
             { id: 's3', label: 'Closing database connection and resources', prompt: 'Which idea is this? — Closing database connection and resources refers to the explicit release of the cursor.', answer: 'Closing database connection and resources', options: ['Closing database connection and resources', 'Exception handling in database connectivity', 'Exception handling in file operations', 'The with statement in Python'] },
@@ -74,7 +74,7 @@ export const w_c12_computersciencefinalrevisioncompletesim: SimDef = {
             { id: 's5', label: 'A stack is a linear', prompt: 'Which idea is this? — A **stack** is a linear data structure that follows the **Last-In-First-Out (LIFO)**.', answer: 'A stack is a linear', options: ['A stack is a linear', 'Exception handling in database connectivity', 'Exception handling in file operations', 'Closing database connection and resources'] }
           ] } }
     ],
-    explore: { component: C12_ComputerScienceFinalRevisionCompleteSim, prompt: 'Explore the interactive — Final Revision Complete' },
+    explore: { component: C12_ComputerScienceFinalRevisionCompleteSim, prompt: 'Explore the interactive — Exception Handling in Database Connectivity' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_cs_cbse_06_010', difficulty: 'standard',
           question: 'Exception handling in database connectivity is the practice of using Python\'s.',

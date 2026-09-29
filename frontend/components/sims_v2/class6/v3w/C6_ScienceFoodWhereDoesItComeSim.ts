@@ -6,13 +6,13 @@ import C6_ScienceFoodWhereDoesItComeSim from '../../../simulations/c6_12/C6_Scie
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_sciencefoodwheredoesitcomesim: SimDef = {
     id: 'v3w_c6_sciencefoodwheredoesitcomesim',
-    title: 'Food Where Does It Come',
+    title: 'Combustion: Burning and Its Characteristics',
     subtitle: 'This node covers the definition, requirements (fuel, oxygen, heat), and products of.',
     classLevel: 6, subject: 'science', topic: 'Combustion: Burning and Its Characteristics',
     chapters: [],
     nodeIds: ['c6_chemistry_ch05_004', 'c6_biology_ch10_001', 'c6_biology_ch10_002', 'c6_biology_ch09_005', 'c6_biology_ch09_006', 'c6_biology_ch09_007', 'c6_chemistry_ch05_002', 'c6_chemistry_ch05_001', 'c6_chemistry_ch05_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why a candle flame glows or why a wood fire keeps us warm on a winter night?', goal: 'Master Food Where Does It Come.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why a candle flame glows or why a wood fire keeps us warm on a winter night?', goal: 'Master Combustion: Burning and Its Characteristics.' },
     discovery: {
         question: 'Is it possible to have combustion if you have plenty of fuel and oxygen, but no way to provide initial heat? Justify your answer.',
         options: ['No, combustion will not occur', 'combustion happens spontaneously without an ignition source', 'combustion is merely "fire," rather than a chemical reaction involving oxygen'],
@@ -73,7 +73,7 @@ export const w_c6_sciencefoodwheredoesitcomesim: SimDef = {
             { text: 'Interpretation: This is a balanced start because it covers all three major nutrient categories.', faded: true, blankAnswer: 'This is a balanced meal as it contains Carbohydrates.' }
             ] } }
     ],
-    explore: { component: C6_ScienceFoodWhereDoesItComeSim, prompt: 'Explore the interactive — Food Where Does It Come' },
+    explore: { component: C6_ScienceFoodWhereDoesItComeSim, prompt: 'Explore the interactive — Combustion: Burning and Its Characteristics' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_chemistry_ch05_004', difficulty: 'standard',
           question: 'Combustion is a chemical change where a substance reacts rapidly with oxygen,.',

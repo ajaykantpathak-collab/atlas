@@ -6,13 +6,13 @@ import C10_MathematicsQuadraticEquationsIntroductionSim from '../../../simulatio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_mathematicsquadraticequationsintroductionsim: SimDef = {
     id: 'v3w_c10_mathematicsquadraticequationsintroductionsim',
-    title: 'Quadratic Equations Introduction',
+    title: 'Equations Reducible to Pair of Linear Equations (Substitution)',
     subtitle: 'This node covers equations reducible to linear form via reciprocal substitution (1/x,.',
     classLevel: 10, subject: 'mathematics', topic: 'Equations Reducible to Pair of Linear Equations (Substitution)',
     chapters: [],
     nodeIds: ['c10_math_cbse_03_008', 'c10_math_cbse_03_009', 'c10_math_cbse_03_010', 'c10_math_cbse_04_001', 'c10_math_cbse_04_002', 'c10_math_cbse_04_003', 'c10_math_cbse_04_004', 'c10_math_cbse_04_005', 'c10_math_cbse_04_006', 'c10_math_cbse_04_007', 'c10_math_cbse_04_008', 'c10_math_cbse_04_009', 'c10_math_cbse_04_010', 'c10_math_cbse_04_011', 'c10_math_cbse_04_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine a carpenter charges ₹500 for making 2 tables and 3 chairs, but ₹700 for 3 tables and 2 chairs — this.', goal: 'Master Quadratic Equations Introduction.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine a carpenter charges ₹500 for making 2 tables and 3 chairs, but ₹700 for 3 tables and 2 chairs — this.', goal: 'Master Equations Reducible to Pair of Linear Equations (Substitution).' },
     discovery: {
         question: 'What are the expressions for downstream speed and upstream speed if the speed of a boat in still water is x km/h and the speed of the stream is y km/h?',
         options: ['Downstream speed = (x + y) km/h, Upstream speed = (x - y) km/h', 'upstream means going up, so add the stream speed', '"upstream means going up, so add the stream speed" or confuse'],
@@ -87,7 +87,7 @@ export const w_c10_mathematicsquadraticequationsintroductionsim: SimDef = {
             { text: 'Apply zero-product property: \\(x + 20 = 0 \\Rightarrow x = -20\\) (reject, breadth cannot be negative) or \\(x - 10 = 0.', faded: true, blankAnswer: 'Breadth = 10 metres, Length = 20 metres.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_math_cbse_03_009', title: 'Identify each idea',
-          dissect: { specimen: 'Quadratic Equations Introduction', spots: [
+          dissect: { specimen: 'Equations Reducible to Pair of Linear Equations (Substitution)', spots: [
             { id: 's1', label: 'Equations reducible to a pair', prompt: 'Which idea is this? — Equations reducible to a pair of linear equations in two variables are non-linear.', answer: 'Equations reducible to a pair', options: ['Equations reducible to a pair', 'Word problems on age and', 'Upstreamdownstream problems involve a boat', 'A quadratic equation in one'] },
             { id: 's2', label: 'Word problems on age and', prompt: 'Which idea is this? — Word problems on age and number involve translating real-life situations about people\'s.', answer: 'Word problems on age and', options: ['Word problems on age and', 'Equations reducible to a pair', 'Upstreamdownstream problems involve a boat', 'A quadratic equation in one'] },
             { id: 's3', label: 'Upstreamdownstream problems involve a boat', prompt: 'Which idea is this? — Upstream/downstream problems involve a boat or swimmer moving in a river with a constant.', answer: 'Upstreamdownstream problems involve a boat', options: ['Upstreamdownstream problems involve a boat', 'Equations reducible to a pair', 'Word problems on age and', 'A quadratic equation in one'] },
@@ -96,7 +96,7 @@ export const w_c10_mathematicsquadraticequationsintroductionsim: SimDef = {
             { id: 's6', label: 'The method of solving a', prompt: 'Which idea is this? — The method of solving a quadratic equation \\(ax^2 + bx + c = 0\\) (where \\(a, b, c \\in.', answer: 'The method of solving a', options: ['The method of solving a', 'Equations reducible to a pair', 'Word problems on age and', 'Upstreamdownstream problems involve a boat'] }
           ] } }
     ],
-    explore: { component: C10_MathematicsQuadraticEquationsIntroductionSim, prompt: 'Explore the interactive — Quadratic Equations Introduction' },
+    explore: { component: C10_MathematicsQuadraticEquationsIntroductionSim, prompt: 'Explore the interactive — Equations Reducible to Pair of Linear Equations (Substitution)' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_math_cbse_03_008', difficulty: 'standard',
           question: 'Equations reducible to a pair of linear equations in two variables are.',

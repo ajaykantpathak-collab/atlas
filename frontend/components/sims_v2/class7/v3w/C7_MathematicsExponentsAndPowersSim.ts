@@ -6,13 +6,13 @@ import C7_MathematicsExponentsAndPowersSim from '../../../simulations/c6_12/C7_M
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsexponentsandpowerssim: SimDef = {
     id: 'v3w_c7_mathematicsexponentsandpowerssim',
-    title: 'Exponents And Powers',
+    title: 'Shifting Decimal Point When Multiplying/Dividing by 10, 100, 1000',
     subtitle: 'Covers multiplication and division of finite decimals by positive powers of 10 (10, 100,.',
     classLevel: 7, subject: 'mathematics', topic: 'Shifting Decimal Point When Multiplying/Dividing by 10, 100, 1000',
     chapters: [],
     nodeIds: ['c7_math_ch12_006', 'c7_math_ch04_007', 'c7_math_ch02_002', 'c7_math_ch11_008', 'c7_math_ch12_001', 'c7_math_ch12_002', 'c7_math_ch12_005', 'c7_math_ch04_008', 'c7_math_ch01_009', 'c7_math_ch02_008', 'c7_math_ch04_006', 'c7_math_ch01_002', 'c7_math_ch01_008', 'c7_math_ch11_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine you are at the vegetable market buying tomatoes, and the shopkeeper tells you that 1 kg costs ₹45.85,.', goal: 'Master Exponents And Powers.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine you are at the vegetable market buying tomatoes, and the shopkeeper tells you that 1 kg costs ₹45.85,.', goal: 'Master Shifting Decimal Point When Multiplying/Dividing by 10, 100, 1000.' },
     discovery: {
         question: 'What does the letter \'D\' stand for in the BODMAS rule used for evaluating arithmetic expressions?',
         options: ['The letter \'D\' stands for Division', 'Decimal', 'Double'],
@@ -78,7 +78,7 @@ export const w_c7_mathematicsexponentsandpowerssim: SimDef = {
             { text: 'Place the decimal point two places from the right in the product $32700$, resulting in $327.00$, with units in rupees.', faded: true, blankAnswer: '₹327.00' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch04_007', title: 'Identify each idea',
-          dissect: { specimen: 'Exponents And Powers', spots: [
+          dissect: { specimen: 'Shifting Decimal Point When Multiplying/Dividing by 10, 100, 1000', spots: [
             { id: 's1', label: 'Multiplying a decimal number by', prompt: 'Which idea is this? — Multiplying a decimal number by 10, 100, or 1000 shifts the decimal point to the right by.', answer: 'Multiplying a decimal number by', options: ['Multiplying a decimal number by', 'Combining like terms is the', 'Evaluating an arithmetic expression requires', 'Finding the Least Common Multiple'] },
             { id: 's2', label: 'Combining like terms is the', prompt: 'Which idea is this? — Combining like terms is the algebraic process of simplifying expressions by adding or.', answer: 'Combining like terms is the', options: ['Combining like terms is the', 'Multiplying a decimal number by', 'Evaluating an arithmetic expression requires', 'Finding the Least Common Multiple'] },
             { id: 's3', label: 'Evaluating an arithmetic expression requires', prompt: 'Which idea is this? — Evaluating an arithmetic expression requires computing its final numerical value by.', answer: 'Evaluating an arithmetic expression requires', options: ['Evaluating an arithmetic expression requires', 'Multiplying a decimal number by', 'Combining like terms is the', 'Finding the Least Common Multiple'] },
@@ -86,7 +86,7 @@ export const w_c7_mathematicsexponentsandpowerssim: SimDef = {
             { id: 's5', label: 'Decimals are an extension of', prompt: 'Which idea is this? — Decimals are an extension of our place value system used to represent numbers smaller.', answer: 'Decimals are an extension of', options: ['Decimals are an extension of', 'Multiplying a decimal number by', 'Combining like terms is the', 'Evaluating an arithmetic expression requires'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsExponentsAndPowersSim, prompt: 'Explore the interactive — Exponents And Powers' },
+    explore: { component: C7_MathematicsExponentsAndPowersSim, prompt: 'Explore the interactive — Shifting Decimal Point When Multiplying/Dividing by 10, 100, 1000' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch12_006', difficulty: 'standard',
           question: 'Multiplying a decimal number by 10, 100, or 1000 shifts the decimal point to.',

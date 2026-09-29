@@ -102,8 +102,8 @@ export const c12_geo_ch19_p2: SimDef = {
                   options: ['For skewed distributions, the median is a more representative central value', 'mean deviation about mean is always better', 'quartile deviation and mean deviation are interchangeable'],
                   hint: 'If stuck on quartile location, revisit the median formula for grouped data (c12_geo_cbse_19_004).',
                   misconception: 'Students often think quartile deviation and mean deviation are interchangeable because both measure dispersion.' },
-                { id: 'b', prompt: 'Given the following ungrouped data of annual rainfall (in mm) for 7 districts in Rajasthan: 450, 520, 380, 610, 490, 550, 420. Calculate the quartile deviation.', answer: 'Steps: 1) Arrange in ascending order: 380, 420, 450, 490, 520, 550, 610',
-                  options: ['Steps: 1) Arrange in ascending order: 380, 420, 450, 490, 520, 550, 610', 'quartile deviation and mean deviation are interchangeable'],
+                { id: 'b', prompt: 'Given the following ungrouped data of annual rainfall (in mm) for 7 districts in Rajasthan: 450, 520, 380, 610, 490, 550, 420. Calculate the quartile deviation.', answer: 'Arrange in ascending order: 380, 420, 450, 490, 520, 550',
+                  options: ['Arrange in ascending order: 380, 420, 450, 490, 520, 550', 'quartile deviation and mean deviation are interchangeable'],
                   hint: 'If stuck on quartile location, revisit the median formula for grouped data (c12_geo_cbse_19_004).',
                   misconception: 'Students often think quartile deviation and mean deviation are interchangeable because both measure dispersion.' },
                 { id: 'c', prompt: 'Compare the quartile deviation and mean deviation for the same dataset: which is more affected by an extreme value like 1200 mm added to the Rajasthan rainfall.', answer: 'Mean deviation is more affected',
@@ -117,8 +117,8 @@ export const c12_geo_ch19_p2: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think quartile deviation and mean deviation are interchangeable because both measure dispersion.',
           parts: [
-                { id: 'a', prompt: 'Design a geographical investigation to compare the dispersion of literacy rates across districts of two Indian states (e.g., Kerala and Bihar) using quartile.', answer: 'Steps: 1) Collect district-wise literacy rates for both states',
-                  options: ['Steps: 1) Collect district-wise literacy rates for both states', 'quartile deviation and mean deviation are interchangeable'],
+                { id: 'a', prompt: 'Design a geographical investigation to compare the dispersion of literacy rates across districts of two Indian states (e.g., Kerala and Bihar) using quartile.', answer: 'Collect district-wise literacy rates for both states',
+                  options: ['Collect district-wise literacy rates for both states', 'quartile deviation and mean deviation are interchangeable'],
                   hint: 'If stuck on quartile location, revisit the median formula for grouped data (c12_geo_cbse_19_004).',
                   misconception: 'Students often think quartile deviation and mean deviation are interchangeable because both measure dispersion.' }
           ],

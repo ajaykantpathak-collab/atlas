@@ -6,13 +6,13 @@ import C11_BiotechToolsTechniquesCBSESim from '../../../simulations/c6_12_new/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biotechtoolstechniquescbsesim: SimDef = {
     id: 'v3w_c11_biotechtoolstechniquescbsesim',
-    title: 'Tools Techniques CBSE',
+    title: 'Branches of Biotechnology: Blue, Green, Red and White',
     subtitle: 'This node covers the four-colour classification system (Blue, Green, Red, White) as.',
     classLevel: 11, subject: 'biotechnology', topic: 'Branches of Biotechnology: Blue, Green, Red and White',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_01_004', 'c11_biotech_cbse_01_006', 'c11_biotech_cbse_10_001', 'c11_biotech_cbse_10_004', 'c11_biotech_cbse_10_005', 'c11_biotech_cbse_10_006', 'c11_biotech_cbse_10_007', 'c11_biotech_cbse_10_009', 'c11_biotech_cbse_01_008', 'c11_biotech_cbse_10_008', 'c11_biotech_cbse_01_003', 'c11_biotech_cbse_01_005', 'c11_biotech_cbse_09_009', 'c11_biotech_cbse_11_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you walk into a supermarket and see four products: a packet of Bt cotton seeds, a vial of recombinant.', goal: 'Master Tools Techniques CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you walk into a supermarket and see four products: a packet of Bt cotton seeds, a vial of recombinant.', goal: 'Master Branches of Biotechnology: Blue, Green, Red and White.' },
     discovery: {
         question: 'Classify the following into the correct branch and justify in one sentence each: (a) Production of human growth hormone in E.',
         options: ['Production of human growth hormone in E', 'Red uses rDNA, White uses fermentation', 'the colour code indicates the *technique* used (e'],
@@ -82,7 +82,7 @@ export const w_c11_biotechtoolstechniquescbsesim: SimDef = {
             { text: 'Refinement strategy: (a) Check 2Fo-Fc and Fo-Fc electron density maps at Gly78 — if density is weak, rebuild with φ/ψ.', faded: true, blankAnswer: 'Favored = 87.8% (fails ≥90% threshold), Outliers = 0.56%.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_biotech_cbse_01_006', title: 'Identify each idea',
-          dissect: { specimen: 'Tools Techniques CBSE', spots: [
+          dissect: { specimen: 'Branches of Biotechnology: Blue, Green, Red and White', spots: [
             { id: 's1', label: 'Biotechnology is categorized into four', prompt: 'Which idea is this? — Biotechnology is categorized into four major branches based on the application domain:.', answer: 'Biotechnology is categorized into four', options: ['Biotechnology is categorized into four', 'Biotechnology in medicine Red Biotechnology', 'Protein Structure Databases are curated', 'Homology modelling is a computational'] },
             { id: 's2', label: 'Biotechnology in medicine Red Biotechnology', prompt: 'Which idea is this? — Biotechnology in medicine (Red Biotechnology) encompasses the application of recombinant.', answer: 'Biotechnology in medicine Red Biotechnology', options: ['Biotechnology in medicine Red Biotechnology', 'Biotechnology is categorized into four', 'Protein Structure Databases are curated', 'Homology modelling is a computational'] },
             { id: 's3', label: 'Protein Structure Databases are curated', prompt: 'Which idea is this? — Protein Structure Databases are curated repositories that store experimentally determined.', answer: 'Protein Structure Databases are curated', options: ['Protein Structure Databases are curated', 'Biotechnology is categorized into four', 'Biotechnology in medicine Red Biotechnology', 'Homology modelling is a computational'] },
@@ -91,7 +91,7 @@ export const w_c11_biotechtoolstechniquescbsesim: SimDef = {
             { id: 's6', label: 'The Ramachandran Plot is a', prompt: 'Which idea is this? — The Ramachandran Plot is a two-dimensional scatter plot of the backbone dihedral angles φ.', answer: 'The Ramachandran Plot is a', options: ['The Ramachandran Plot is a', 'Biotechnology is categorized into four', 'Biotechnology in medicine Red Biotechnology', 'Protein Structure Databases are curated'] }
           ] } }
     ],
-    explore: { component: C11_BiotechToolsTechniquesCBSESim, prompt: 'Explore the interactive — Tools Techniques CBSE' },
+    explore: { component: C11_BiotechToolsTechniquesCBSESim, prompt: 'Explore the interactive — Branches of Biotechnology: Blue, Green, Red and White' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_biotech_cbse_01_004', difficulty: 'standard',
           question: 'Biotechnology is categorized into four major branches based on the application.',

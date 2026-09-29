@@ -6,13 +6,13 @@ import C11_BiologyLipidBilayerMembraneSim from '../../../simulations/three/C11_B
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologylipidbilayermembranesim: SimDef = {
     id: 'v3w_c11_biologylipidbilayermembranesim',
-    title: 'Lipid Bilayer Membrane',
+    title: 'Cell Membrane: Fluid Mosaic Model',
     subtitle: 'This node covers the structural organization of the plasma membrane according to the.',
     classLevel: 11, subject: 'biology', topic: 'Cell Membrane: Fluid Mosaic Model',
     chapters: [],
     nodeIds: ['c11_bio_cbse_08_003', 'c11_bio_cbse_08_005', 'c11_bio_cbse_08_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a drop of blood under a microscope — red blood cells maintain their biconcave shape while squeezing.', goal: 'Master Lipid Bilayer Membrane.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a drop of blood under a microscope — red blood cells maintain their biconcave shape while squeezing.', goal: 'Master Cell Membrane: Fluid Mosaic Model.' },
     discovery: {
         question: 'List the four major molecular components of the plasma membrane in the Fluid Mosaic Model and state the orientation of phospholipids in the bilayer.',
         options: ['The four components are: (1) Phospholipids', 'proteins form a layer on both sides', 'sandwich model'],
@@ -53,13 +53,13 @@ export const w_c11_biologylipidbilayermembranesim: SimDef = {
             { text: 'Lysosomal activity (Fraction B) is unaffected by gas conditions as it handles turnover, not photorespiration.', faded: true, blankAnswer: 'Fraction A = peroxisomes (photorespiration, H₂O₂ detox);.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_08_005', title: 'Identify each idea',
-          dissect: { specimen: 'Lipid Bilayer Membrane', spots: [
+          dissect: { specimen: 'Cell Membrane: Fluid Mosaic Model', spots: [
             { id: 's1', label: 'The Fluid Mosaic Model describes', prompt: 'Which idea is this? — The Fluid Mosaic Model describes the plasma membrane as a dynamic, quasi-fluid.', answer: 'The Fluid Mosaic Model describes', options: ['The Fluid Mosaic Model describes', 'The endomembrane system is a', 'Microbodies are small single-membrane-bound organelles'] },
             { id: 's2', label: 'The endomembrane system is a', prompt: 'Which idea is this? — The endomembrane system is a coordinated network of membrane-bound organelles—endoplasmic.', answer: 'The endomembrane system is a', options: ['The endomembrane system is a', 'The Fluid Mosaic Model describes', 'Microbodies are small single-membrane-bound organelles'] },
             { id: 's3', label: 'Microbodies are small single-membrane-bound organelles', prompt: 'Which idea is this? — Microbodies are small, single-membrane-bound organelles (e.g., peroxisomes, glyoxysomes).', answer: 'Microbodies are small single-membrane-bound organelles', options: ['Microbodies are small single-membrane-bound organelles', 'The Fluid Mosaic Model describes', 'The endomembrane system is a'] }
           ] } }
     ],
-    explore: { component: C11_BiologyLipidBilayerMembraneSim, prompt: 'Explore the interactive — Lipid Bilayer Membrane' },
+    explore: { component: C11_BiologyLipidBilayerMembraneSim, prompt: 'Explore the interactive — Cell Membrane: Fluid Mosaic Model' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_08_003', difficulty: 'standard',
           question: 'The Fluid Mosaic Model describes the plasma membrane as a dynamic, quasi-fluid.',
@@ -72,6 +72,17 @@ export const w_c11_biologylipidbilayermembranesim: SimDef = {
                   misconception: 'Students believe "fluid mosaic" means the membrane is a homogeneous liquid where all components drift freely like molecules in water.' },
                 { id: 'b', prompt: 'A researcher treats human red blood cells with an enzyme that cleaves carbohydrate moieties from membrane glycoproteins.', answer: 'cell-cell recognition and (',
                   options: ['cell-cell recognition and (', 'fluid mosaic'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "fluid mosaic" means the membrane is a homogeneous liquid where all components drift freely like molecules in water.' }
+          ],
+            remediations: { 'fluid-mosaic-means-the-membrane': { steps: ['Revisit the FRAP experiment concept — watch a 2-minute animation of fluorescence recovery (search "FRAP membrane.', 'Draw a membrane cross-section showing three barriers to free diffusion: (a) lipid raft (cholesterol-rich), (b).', 'For each barrier, name one protein whose movement it restricts (e.g., GPI-anchored protein in raft; Band 3 in RBC.', 'Explain to a peer why "fluid" ≠ "homogeneous" using the analogy of a crowded dance floor with VIP sections and barriers.'] } } },
+        { type: 'subpart', nodeId: 'c11_bio_cbse_08_003', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe "fluid mosaic" means the membrane is a homogeneous liquid where all components drift freely like.',
+          parts: [
+                { id: 'a', prompt: 'Design a simple experiment using Fluorescence Recovery After Photobleaching (FRAP) to demonstrate lateral mobility of a transmembrane protein in a live.', answer: '(1) Label the transmembrane protein with a fluorescent tag (e.g., GFP fusion or',
+                  options: ['(1) Label the transmembrane protein with a fluorescent tag (e.g., GFP fusion or', 'fluid mosaic'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students believe "fluid mosaic" means the membrane is a homogeneous liquid where all components drift freely like molecules in water.' }
           ],

@@ -6,13 +6,13 @@ import C10_MathematicsFactorisingPolynomialCompletelySim from '../../../simulati
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_mathematicsfactorisingpolynomialcompletelysim: SimDef = {
     id: 'v3w_c10_mathematicsfactorisingpolynomialcompletelysim',
-    title: 'Factorising Polynomial Completely',
+    title: 'Finding Zeros of a Polynomial Using Division Algorithm',
     subtitle: 'Covers finding all zeros of cubic and quartic polynomials with real coefficients when at.',
     classLevel: 10, subject: 'mathematics', topic: 'Finding Zeros of a Polynomial Using Division Algorithm',
     chapters: [],
     nodeIds: ['c10_math_cbse_02_009', 'c10_math_cbse_02_010', 'c10_math_cbse_02_005', 'c10_math_cbse_02_007', 'c10_math_cbse_01_012', 'c10_math_cbse_02_001', 'c10_math_cbse_02_002', 'c10_math_cbse_02_003', 'c10_math_cbse_02_004', 'c10_math_cbse_02_006', 'c10_math_cbse_02_008', 'c10_math_cbse_02_011', 'c10_math_cbse_01_006', 'c10_math_cbse_01_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you are designing a rectangular garden bed where the length is 2 metres more than the breadth, and a.', goal: 'Master Factorising Polynomial Completely.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you are designing a rectangular garden bed where the length is 2 metres more than the breadth, and a.', goal: 'Master Finding Zeros of a Polynomial Using Division Algorithm.' },
     discovery: {
         question: 'Compare the Division Algorithm for integers and polynomials. Identify two structural similarities and one key difference in how "size" is measured.',
         options: ['**Correct Answer:** **Similarities:** 1', 'size is the coefficient', 'polynomials use the value at x=10'],
@@ -85,7 +85,7 @@ export const w_c10_mathematicsfactorisingpolynomialcompletelysim: SimDef = {
             { text: 'Since the coefficient of x² is positive, the parabola opens upward. It crosses the x-axis at x = -5 and x = 2.', faded: true, blankAnswer: 'Zeros: x = -5 and x = 2. Geometrically: graph of y = x² +.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_math_cbse_02_010', title: 'Identify each idea',
-          dissect: { specimen: 'Factorising Polynomial Completely', spots: [
+          dissect: { specimen: 'Finding Zeros of a Polynomial Using Division Algorithm', spots: [
             { id: 's1', label: 'The Division Algorithm for polynomials', prompt: 'Which idea is this? — The Division Algorithm for polynomials states that for any polynomials \\(p(x)\\) and.', answer: 'The Division Algorithm for polynomials', options: ['The Division Algorithm for polynomials', 'Factorisation of a polynomial using', 'For a quadratic polynomial px', 'Finding HCF and LCM from'] },
             { id: 's2', label: 'Factorisation of a polynomial using', prompt: 'Which idea is this? — Factorisation of a polynomial using the division algorithm is the process of expressing a.', answer: 'Factorisation of a polynomial using', options: ['Factorisation of a polynomial using', 'The Division Algorithm for polynomials', 'For a quadratic polynomial px', 'Finding HCF and LCM from'] },
             { id: 's3', label: 'For a quadratic polynomial px', prompt: 'Which idea is this? — For a quadratic polynomial \\(p(x) = ax^2 + bx + c\\) where \\(a \\neq 0\\), if \\(\\alpha\\) and.', answer: 'For a quadratic polynomial px', options: ['For a quadratic polynomial px', 'The Division Algorithm for polynomials', 'Factorisation of a polynomial using', 'Finding HCF and LCM from'] },
@@ -93,7 +93,7 @@ export const w_c10_mathematicsfactorisingpolynomialcompletelysim: SimDef = {
             { id: 's5', label: 'The zeros of a polynomial', prompt: 'Which idea is this? — The zeros of a polynomial p(x) are the x-coordinates of the points where the graph of y =.', answer: 'The zeros of a polynomial', options: ['The zeros of a polynomial', 'The Division Algorithm for polynomials', 'Factorisation of a polynomial using', 'For a quadratic polynomial px'] }
           ] } }
     ],
-    explore: { component: C10_MathematicsFactorisingPolynomialCompletelySim, prompt: 'Explore the interactive — Factorising Polynomial Completely' },
+    explore: { component: C10_MathematicsFactorisingPolynomialCompletelySim, prompt: 'Explore the interactive — Finding Zeros of a Polynomial Using Division Algorithm' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_math_cbse_02_009', difficulty: 'standard',
           question: 'The Division Algorithm for polynomials states that for any polynomials \\(p(x)\\).',

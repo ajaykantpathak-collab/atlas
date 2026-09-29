@@ -19,7 +19,7 @@ export const c7_engl_ch02_p1: SimDef = {
         hook: 'Dr Dolittle is not merely a funny pet collector. Losing income, patients, and social standing are sacrifices — and when his parrot teaches him that animals have their own language, pets become voices worth listening to, not objects.',
     },
     teaching: [
-        { title: 'Character Analysis: Dr. Dolittle and His Love for Animals', text: 'Character analysis of Dr. John Dolittle examines his personality traits, actions, motivations, and deep compassion for animals, which define him as a gentle and unorthodox physician.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Character Analysis: Dr. Dolittle and His Love for Animals', text: 'From \'English chapter c7_engl_ch02\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c7_engl_ch02_001', title: 'Your mission',
@@ -66,12 +66,12 @@ export const c7_engl_ch02_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_engl_ch02_001', difficulty: 'standard',
-          question: 'Character analysis of Dr. John Dolittle examines his personality traits.',
+          question: 'From \'English chapter c7_engl_ch02\': the skill or concept this node teaches.',
           hint: 'Review c6_english_u2_012 to refresh basic vocabulary and simple character descriptions.',
           misconception: 'Students often assume Dr. Dolittle is merely a eccentric pet lover who is silly or incompetent, failing to recognize.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of Dr',
-                  options: ['Character analysis of Dr', 'Polynesia the parrot acts as a wise mentor, translator, and moral compass for Dr', 'The narrative arc that traces Dr', 'The theme of communication between humans and animals explores how empathy, patience, and'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c7_engl_ch02\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c7_engl_ch02\': the skill or concept this node teaches, applied to', 'Polynesia the parrot acts as a wise mentor, translator, and moral compass for Dr', 'The narrative arc that traces Dr', 'The theme of communication between humans and animals explores how empathy, patience, and'],
                   hint: 'Review c6_english_u2_012 to refresh basic vocabulary and simple character descriptions before.',
                   misconception: 'Students often assume Dr. Dolittle is merely a eccentric pet lover who is silly or incompetent, failing to recognize that his deep empathy.' }
           ],
@@ -119,7 +119,7 @@ export const c7_engl_ch02_p1: SimDef = {
           misconception: 'Students often assume that animal communication in the story is magical or that animals simply speak English in secret.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The theme of communication between humans and animals explores how empathy, patience, and',
-                  options: ['The theme of communication between humans and animals explores how empathy, patience, and', 'Character analysis of Dr', 'Polynesia the parrot acts as a wise mentor, translator, and moral compass for Dr', 'The narrative arc that traces Dr'],
+                  options: ['The theme of communication between humans and animals explores how empathy, patience, and', 'From \'English chapter c7_engl_ch02\': the skill or concept this node teaches, applied to', 'Polynesia the parrot acts as a wise mentor, translator, and moral compass for Dr', 'The narrative arc that traces Dr'],
                   hint: 'Review the scenes where Polynesia explains bird-talk to Dr. Dolittle to see how language.',
                   misconception: 'Students often assume that animal communication in the story is magical or that animals simply speak English in secret, missing the.' }
           ],
@@ -141,7 +141,7 @@ export const c7_engl_ch02_p1: SimDef = {
           misconception: 'Students often confuse "animal noises" (like barking, meowing, or chirping) with the literary concept of "animal.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The literary concept that non-human animals possess their own structured systems of',
-                  options: ['The literary concept that non-human animals possess their own structured systems of', 'Character analysis of Dr', 'Polynesia the parrot acts as a wise mentor, translator, and moral compass for Dr', 'The narrative arc that traces Dr'],
+                  options: ['The literary concept that non-human animals possess their own structured systems of', 'From \'English chapter c7_engl_ch02\': the skill or concept this node teaches, applied to', 'Polynesia the parrot acts as a wise mentor, translator, and moral compass for Dr', 'The narrative arc that traces Dr'],
                   hint: 'Review the basic plot points where Dr. Dolittle interacts with his pets in Chapter 2 before.',
                   misconception: 'Students often confuse "animal noises" (like barking, meowing, or chirping) with the literary concept of "animal language" (possessing.' }
           ],

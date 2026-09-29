@@ -6,13 +6,13 @@ import C12_ChemistryAminesandDiazoniumSaltsCBSESim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_chemistryaminesanddiazoniumsaltscbsesim: SimDef = {
     id: 'v3w_c12_chemistryaminesanddiazoniumsaltscbsesim',
-    title: 'Aminesand Diazonium Salts CBSE',
+    title: 'Diazonium Salts: Preparation and Reactions',
     subtitle: 'This node covers: (a) preparation of aryldiazonium salts (diazotisation) with conditions;.',
     classLevel: 12, subject: 'chemistry', topic: 'Diazonium Salts: Preparation and Reactions',
     chapters: [],
     nodeIds: ['c12_chem_cbse_09_009', 'c12_chem_cbse_09_006', 'c12_chem_cbse_09_010', 'c12_chem_cbse_09_002', 'c12_chem_cbse_09_004', 'c12_chem_cbse_09_007', 'c12_chem_cbse_09_001', 'c12_chem_cbse_09_003', 'c12_chem_cbse_09_005', 'c12_chem_cbse_09_008', 'c12_chem_cbse_07_004', 'c12_chem_cbse_07_009', 'c12_chem_cbse_06_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a bottle of aniline in the laboratory — it is a colourless liquid that turns brown on exposure to air.', goal: 'Master Aminesand Diazonium Salts CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a bottle of aniline in the laboratory — it is a colourless liquid that turns brown on exposure to air.', goal: 'Master Diazonium Salts: Preparation and Reactions.' },
     discovery: {
         question: 'Compare the Sandmeyer reaction and the Gattermann reaction for introducing chlorine or bromine into an aromatic ring via diazonium salts.',
         options: ['Sandmeyer uses CuCl/CuBr (Cu⁺ salts) in corresponding HX', 'both give same yield', 'copper powder is a catalyst'],
@@ -80,7 +80,7 @@ export const w_c12_chemistryaminesanddiazoniumsaltscbsesim: SimDef = {
             { text: 'Verify with NCERT Table 9.3: the given pKb values match the order (C₂H₅)₂NH > (C₂H₅)₃N > C₂H₅NH₂ > NH₃.', faded: true, blankAnswer: '(a) Kb(C₂H₅NH₂) = 5.13×10⁻⁴, Kb((C₂H₅)₂NH) = 1.00×10⁻³,.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_chem_cbse_09_006', title: 'Identify each idea',
-          dissect: { specimen: 'Aminesand Diazonium Salts CBSE', spots: [
+          dissect: { specimen: 'Diazonium Salts: Preparation and Reactions', spots: [
             { id: 's1', label: 'Diazonium salts are a class', prompt: 'Which idea is this? — Diazonium salts are a class of organic compounds with the general formula Ar–N₂⁺X⁻ (where.', answer: 'Diazonium salts are a class', options: ['Diazonium salts are a class', 'Physical properties of amines refer', 'A coupling reaction is an', 'IUPAC nomenclature of amines systematically'] },
             { id: 's2', label: 'Physical properties of amines refer', prompt: 'Which idea is this? — Physical properties of amines refer to the observable characteristics (state, odor,.', answer: 'Physical properties of amines refer', options: ['Physical properties of amines refer', 'Diazonium salts are a class', 'A coupling reaction is an', 'IUPAC nomenclature of amines systematically'] },
             { id: 's3', label: 'A coupling reaction is an', prompt: 'Which idea is this? — A coupling reaction is an electrophilic aromatic substitution where an aryldiazonium ion.', answer: 'A coupling reaction is an', options: ['A coupling reaction is an', 'Diazonium salts are a class', 'Physical properties of amines refer', 'IUPAC nomenclature of amines systematically'] },
@@ -89,7 +89,7 @@ export const w_c12_chemistryaminesanddiazoniumsaltscbsesim: SimDef = {
             { id: 's6', label: 'Basicity of amines refers to', prompt: 'Which idea is this? — Basicity of amines refers to their ability to act as Lewis bases by donating the lone.', answer: 'Basicity of amines refers to', options: ['Basicity of amines refers to', 'Diazonium salts are a class', 'Physical properties of amines refer', 'A coupling reaction is an'] }
           ] } }
     ],
-    explore: { component: C12_ChemistryAminesandDiazoniumSaltsCBSESim, prompt: 'Explore the interactive — Aminesand Diazonium Salts CBSE' },
+    explore: { component: C12_ChemistryAminesandDiazoniumSaltsCBSESim, prompt: 'Explore the interactive — Diazonium Salts: Preparation and Reactions' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_chem_cbse_09_009', difficulty: 'standard',
           question: 'Diazonium salts are a class of organic compounds with the general formula.',

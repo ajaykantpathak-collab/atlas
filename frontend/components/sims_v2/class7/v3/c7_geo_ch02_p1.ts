@@ -95,6 +95,10 @@ export const c7_geo_ch02_p1: SimDef = {
                 { id: 'b', prompt: 'Why can two neighboring cities in Uttar Pradesh experience completely different weather conditions on the exact same afternoon?', answer: 'Because weather elements like local wind direction, cloud cover, and localized',
                   options: ['Because weather elements like local wind direction, cloud cover, and localized', 'weather'],
                   hint: 'Review Grade 6 concepts on atmospheric observations and basic weather diaries before attempting.',
+                  misconception: 'Students often think that "weather" only refers to whether it is raining or sunny, completely ignoring that wind speed, atmospheric.' },
+                { id: 'c', prompt: 'If a weather station in Chennai records a sudden drop in temperature accompanied by a sharp increase in wind speed and heavy downpours, which specific.', answer: 'Identify the recorded variables: temperature drop, wind speed increase, heavy',
+                  options: ['Identify the recorded variables: temperature drop, wind speed increase, heavy', 'weather', 'weather is a static condition that only changes across seasons'],
+                  hint: 'Review Grade 6 concepts on atmospheric observations and basic weather diaries before attempting.',
                   misconception: 'Students often think that "weather" only refers to whether it is raining or sunny, completely ignoring that wind speed, atmospheric.' }
           ],
             remediations: { 'weather-only-refers-to-whether': { steps: ['To fix this, guide the student to step outside and systematically check three distinct things: feel the air.', 'Emphasize that weather is the combined total of all these active elements happening simultaneously around us, whether.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },

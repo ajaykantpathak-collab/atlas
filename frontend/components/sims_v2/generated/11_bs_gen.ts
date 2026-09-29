@@ -1392,7 +1392,7 @@ export const C11_BS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Resources Required For E-business Refer To",
+    "title": "Resources Required For E-business",
     "text": "Resources required for e-business refer to the essential technological infrastructure comprising hardware (servers, computers, networking devices), software (operating systems, databases, e-commerce platforms, security protocols), and data (product catalogs,",
     "emoji": "🏢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1906,7 +1906,7 @@ export const C11_BS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Corporate Social Responsibility Under The",
+    "title": "Corporate Social Responsibility (CSR):",
     "text": "Corporate Social Responsibility (CSR) under the Companies Act 2013 is a mandatory obligation for eligible companies to spend at least 2% of their average net profits of the preceding three financial years on activities specified in Schedule VII, such as",
     "emoji": "🏢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2408,7 +2408,7 @@ export const C11_BS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Retained Earnings Refer To The",
+    "title": "Retained Earnings Refer To The Portion",
     "text": "Retained earnings refer to the portion of a company's net profit after tax that is not distributed as dividends to shareholders but is reinvested in the business for future growth and expansion.",
     "emoji": "🏢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2432,7 +2432,7 @@ export const C11_BS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Factors Affecting Choice Of Source Of",
+    "title": "Factors Affecting Choice Of Source",
     "text": "Factors affecting choice of source of finance refer to the criteria a business evaluates—such as cost, risk, control, purpose, time period, financial strength, tax benefits, and legal form—to select the most appropriate mix of funding sources for its specific",
     "emoji": "🏢",
     "bgColor": "from-rose-400 to-pink-500"

@@ -154,8 +154,8 @@ export const c12_biotech_ch05_p2: SimDef = {
           hint: 'If stuck, review c11_bio_cbse_09_007 for metabolite structures and.',
           misconception: 'Students often think metabolomics is just "measuring many metabolites" and confuse it with targeted metabolite assays.',
           parts: [
-                { id: 'a', prompt: 'A researcher wants to identify biomarkers for drought stress in wheat. She collects leaf samples from control and drought-treated plants at noon and midnight.', answer: 'Steps: (1) Rapid harvesting and immediate freezing in liquid nitrogen to arrest',
-                  options: ['Steps: (1) Rapid harvesting and immediate freezing in liquid nitrogen to arrest', 'measuring many metabolites'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Metabolomics is the comprehensive study of the complete set of small-molecule metabolites',
+                  options: ['Metabolomics is the comprehensive study of the complete set of small-molecule metabolites', 'A genome is the complete set of genetic material (DNA) present in a cell of an organism,', 'Structural genomics is the systematic determination and analysis of the three-dimensional', 'Functional genomics is the branch of genomics that aims to understand how the'],
                   hint: 'If stuck, review c11_bio_cbse_09_007 for metabolite structures and c11_biotech_cbse_12_004 for.',
                   misconception: 'Students often think metabolomics is just "measuring many metabolites" and confuse it with targeted metabolite assays (e.g., measuring only.' }
           ],

@@ -6,13 +6,13 @@ import C10_ScienceChemicalReactionsAndEquationsSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_sciencechemicalreactionsandequationssim: SimDef = {
     id: 'v3w_c10_sciencechemicalreactionsandequationssim',
-    title: 'Chemical Reactions And Equations',
+    title: 'Chemical Reactions: Identifying a Chemical Change (Signs)',
     subtitle: 'Covers the five classic signs of a chemical change (gas evolution, precipitate formation,.',
     classLevel: 10, subject: 'science', topic: 'Chemical Reactions: Identifying a Chemical Change (Signs)',
     chapters: [],
     nodeIds: ['c10_chem_cbse_01_001', 'c10_chem_cbse_01_002', 'c10_chem_cbse_01_003', 'c10_chem_cbse_01_004', 'c10_chem_cbse_01_005', 'c10_chem_cbse_01_006', 'c10_chem_cbse_01_007', 'c10_chem_cbse_01_008', 'c10_chem_cbse_01_009', 'c10_bio_cbse_01_002', 'c10_bio_cbse_01_003', 'c10_chem_cbse_02_004', 'c10_chem_cbse_02_005', 'c10_chem_cbse_02_006', 'c10_chem_cbse_02_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Begin with a real-world observation: a student notices a white deposit on the bathroom tiles (limescale) that.', goal: 'Master Chemical Reactions And Equations.' },
+    scenario: { role: 'a class 10 learner', intro: 'Begin with a real-world observation: a student notices a white deposit on the bathroom tiles (limescale) that.', goal: 'Master Chemical Reactions: Identifying a Chemical Change (Signs).' },
     discovery: {
         question: 'Why is the reaction CaO(s) + H₂O(l) → Ca(OH)₂(aq) classified as a combination reaction, even though one reactant is a compound and the product is a solution?',
         options: ['It is a combination reaction', 'because it produces heat', 'because CaO is a solid and water is liquid'],
@@ -82,7 +82,7 @@ export const w_c10_sciencechemicalreactionsandequationssim: SimDef = {
             { text: 'Assign state symbols. PbI₂ is insoluble (yellow precipitate) → (s). KNO₃ is soluble → (aq).', faded: true, blankAnswer: 'Pb(NO₃)₂(aq) + 2KI(aq) → PbI₂(s) + 2KNO₃(aq); Yellow.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_chem_cbse_01_002', title: 'Identify each idea',
-          dissect: { specimen: 'Chemical Reactions And Equations', spots: [
+          dissect: { specimen: 'Chemical Reactions: Identifying a Chemical Change (Signs)', spots: [
             { id: 's1', label: 'A chemical change chemical reaction', prompt: 'Which idea is this? — A chemical change (chemical reaction) is a process in which one or more substances.', answer: 'A chemical change chemical reaction', options: ['A chemical change chemical reaction', 'A chemical equation is a', 'A combination reaction is a', 'A decomposition reaction is a'] },
             { id: 's2', label: 'A chemical equation is a', prompt: 'Which idea is this? — A chemical equation is a symbolic representation of a chemical reaction where reactants.', answer: 'A chemical equation is a', options: ['A chemical equation is a', 'A chemical change chemical reaction', 'A combination reaction is a', 'A decomposition reaction is a'] },
             { id: 's3', label: 'A combination reaction is a', prompt: 'Which idea is this? — A combination reaction is a chemical reaction in which two or more reactants (elements or.', answer: 'A combination reaction is a', options: ['A combination reaction is a', 'A chemical change chemical reaction', 'A chemical equation is a', 'A decomposition reaction is a'] },
@@ -91,7 +91,7 @@ export const w_c10_sciencechemicalreactionsandequationssim: SimDef = {
             { id: 's6', label: 'A double displacement reaction is', prompt: 'Which idea is this? — A double displacement reaction is a chemical reaction in which two ionic compounds in.', answer: 'A double displacement reaction is', options: ['A double displacement reaction is', 'A chemical change chemical reaction', 'A chemical equation is a', 'A combination reaction is a'] }
           ] } }
     ],
-    explore: { component: C10_ScienceChemicalReactionsAndEquationsSim, prompt: 'Explore the interactive — Chemical Reactions And Equations' },
+    explore: { component: C10_ScienceChemicalReactionsAndEquationsSim, prompt: 'Explore the interactive — Chemical Reactions: Identifying a Chemical Change (Signs)' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_chem_cbse_01_001', difficulty: 'standard',
           question: 'A chemical change (chemical reaction) is a process in which one or more.',

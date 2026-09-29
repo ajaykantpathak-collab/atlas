@@ -6,13 +6,13 @@ import C12_EcoNationalIncomeCBSESim from '../../../simulations/c6_12_new/C12_Eco
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_econationalincomecbsesim: SimDef = {
     id: 'v3w_c12_econationalincomecbsesim',
-    title: 'National Income CBSE',
+    title: 'Basic Concepts: GDP, GNP, NNP and National Income',
     subtitle: 'This node covers the definitions and algebraic interrelationships of the four main.',
     classLevel: 12, subject: 'economics', topic: 'Basic Concepts: GDP, GNP, NNP and National Income',
     chapters: [],
     nodeIds: ['c12_eco_cbse_08_001', 'c12_eco_cbse_08_002', 'c12_eco_cbse_08_004', 'c12_eco_cbse_08_005', 'c12_eco_cbse_08_006', 'c12_eco_cbse_08_008', 'c12_eco_cbse_08_009', 'c12_eco_cbse_08_010', 'c12_eco_cbse_01_006', 'c12_eco_cbse_01_008', 'c12_eco_cbse_07_001', 'c12_eco_cbse_07_002', 'c12_eco_cbse_07_005', 'c12_eco_cbse_10_003', 'c12_eco_cbse_10_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you read a headline: "India\'s GDP grows at 7.2% in 2023-24." GDP measures production inside India\'s.', goal: 'Master National Income CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you read a headline: "India\'s GDP grows at 7.2% in 2023-24." GDP measures production inside India\'s.', goal: 'Master Basic Concepts: GDP, GNP, NNP and National Income.' },
     discovery: {
         question: 'Explain why GDP plus net factor income from abroad equals GNP, and give a concrete Indian example of a factor income flow that is added and one that is.',
         options: ['GNP measures income earned by a country\'s residents regardless of location', 'Domestic', 'National'],
@@ -80,7 +80,7 @@ export const w_c12_econationalincomecbsesim: SimDef = {
             { text: 'Compute NFIA = Received – Paid = 4.0 – 4.8 = –₹0.8 lakh crore (net outflow).', faded: true, blankAnswer: 'Net Exports = –₹8.3 lakh crore; NFIA = –₹0.8 lakh crore.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_eco_cbse_08_002', title: 'Identify each idea',
-          dissect: { specimen: 'National Income CBSE', spots: [
+          dissect: { specimen: 'Basic Concepts: GDP, GNP, NNP and National Income', spots: [
             { id: 's1', label: 'Gross Domestic Product GDP is', prompt: 'Which idea is this? — Gross Domestic Product (GDP) is the market value of all final goods and services produced.', answer: 'Gross Domestic Product GDP is', options: ['Gross Domestic Product GDP is', 'Gross and Net aggregates differ', 'The circular flow of income', 'The Value Added Method Product'] },
             { id: 's2', label: 'Gross and Net aggregates differ', prompt: 'Which idea is this? — Gross and Net aggregates differ by consumption of fixed capital (depreciation): Net =.', answer: 'Gross and Net aggregates differ', options: ['Gross and Net aggregates differ', 'Gross Domestic Product GDP is', 'The circular flow of income', 'The Value Added Method Product'] },
             { id: 's3', label: 'The circular flow of income', prompt: 'Which idea is this? — The circular flow of income illustrates the continuous flow of money, goods, and services.', answer: 'The circular flow of income', options: ['The circular flow of income', 'Gross Domestic Product GDP is', 'Gross and Net aggregates differ', 'The Value Added Method Product'] },
@@ -89,7 +89,7 @@ export const w_c12_econationalincomecbsesim: SimDef = {
             { id: 's6', label: 'Net Exports NX is the', prompt: 'Which idea is this? — Net Exports (NX) is the difference between a country\'s total exports of goods and.', answer: 'Net Exports NX is the', options: ['Net Exports NX is the', 'Gross Domestic Product GDP is', 'Gross and Net aggregates differ', 'The circular flow of income'] }
           ] } }
     ],
-    explore: { component: C12_EcoNationalIncomeCBSESim, prompt: 'Explore the interactive — National Income CBSE' },
+    explore: { component: C12_EcoNationalIncomeCBSESim, prompt: 'Explore the interactive — Basic Concepts: GDP, GNP, NNP and National Income' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eco_cbse_08_001', difficulty: 'standard',
           question: 'Gross Domestic Product (GDP) is the market value of all final goods and.',

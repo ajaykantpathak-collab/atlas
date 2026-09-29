@@ -6,13 +6,13 @@ import C9_ScienceTissuesInActionSim from '../../../simulations/c6_12/C9_ScienceT
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_sciencetissuesinactionsim: SimDef = {
     id: 'v3w_c9_sciencetissuesinactionsim',
-    title: 'Tissues In Action',
+    title: 'Plant Tissues: Meristematic vs Permanent Tissues',
     subtitle: 'Covers the fundamental distinction between meristematic and permanent tissues in plants,.',
     classLevel: 9, subject: 'science', topic: 'Plant Tissues: Meristematic vs Permanent Tissues',
     chapters: [],
     nodeIds: ['c9_bio_ch2_1', 'c9_bio_ch2_2', 'c9_bio_ch2_3', 'c9_bio_ch2_4', 'c9_bio_ch2_6', 'c9_bio_ch2_8', 'c9_bio_ch3_2', 'c9_bio_ch3_11'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Observe a young mango sapling growing taller each month and a mature banyan tree trunk thickening over years.', goal: 'Master Tissues In Action.' },
+    scenario: { role: 'a class 9 learner', intro: 'Observe a young mango sapling growing taller each month and a mature banyan tree trunk thickening over years.', goal: 'Master Plant Tissues: Meristematic vs Permanent Tissues.' },
     discovery: {
         question: 'A student examines a transverse section of a maize stem and sees thick-walled, lignified, dead cells with narrow lumens surrounding the vascular bundles.',
         options: ['This is sclerenchyma (specifically fibers)', 'parenchyma', 'no change'],
@@ -79,7 +79,7 @@ export const w_c9_sciencetissuesinactionsim: SimDef = {
             { text: 'Verify directionality at each stage: receptor → sensory → interneuron → motor → effector (one-way flow)', faded: true, blankAnswer: 'Pain receptor (skin) → Sensory neuron (dorsal root.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_bio_ch2_2', title: 'Identify each idea',
-          dissect: { specimen: 'Tissues In Action', spots: [
+          dissect: { specimen: 'Plant Tissues: Meristematic vs Permanent Tissues', spots: [
             { id: 's1', label: 'Meristematic tissue consists of undifferentiated', prompt: 'Which idea is this? — Meristematic tissue consists of undifferentiated, actively dividing cells with dense.', answer: 'Meristematic tissue consists of undifferentiated', options: ['Meristematic tissue consists of undifferentiated', 'Meristematic tissues are groups of', 'Simple permanent tissues are groups', 'Complex permanent tissues are heterogeneous'] },
             { id: 's2', label: 'Meristematic tissues are groups of', prompt: 'Which idea is this? — Meristematic tissues are groups of immature, undifferentiated plant cells that retain the.', answer: 'Meristematic tissues are groups of', options: ['Meristematic tissues are groups of', 'Meristematic tissue consists of undifferentiated', 'Simple permanent tissues are groups', 'Complex permanent tissues are heterogeneous'] },
             { id: 's3', label: 'Simple permanent tissues are groups', prompt: 'Which idea is this? — Simple permanent tissues are groups of structurally similar, non-dividing cells derived.', answer: 'Simple permanent tissues are groups', options: ['Simple permanent tissues are groups', 'Meristematic tissue consists of undifferentiated', 'Meristematic tissues are groups of', 'Complex permanent tissues are heterogeneous'] },
@@ -88,7 +88,7 @@ export const w_c9_sciencetissuesinactionsim: SimDef = {
             { id: 's6', label: 'Nervous tissue is a specialized', prompt: 'Which idea is this? — Nervous tissue is a specialized animal tissue composed of neurons (structural and.', answer: 'Nervous tissue is a specialized', options: ['Nervous tissue is a specialized', 'Meristematic tissue consists of undifferentiated', 'Meristematic tissues are groups of', 'Simple permanent tissues are groups'] }
           ] } }
     ],
-    explore: { component: C9_ScienceTissuesInActionSim, prompt: 'Explore the interactive — Tissues In Action' },
+    explore: { component: C9_ScienceTissuesInActionSim, prompt: 'Explore the interactive — Plant Tissues: Meristematic vs Permanent Tissues' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_bio_ch2_1', difficulty: 'standard',
           question: 'Meristematic tissue consists of undifferentiated, actively dividing cells with.',

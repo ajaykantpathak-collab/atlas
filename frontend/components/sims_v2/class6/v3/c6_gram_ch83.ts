@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c6_gram_ch83: SimDef = {
     id: 'v3_c6_gram_ch83',
-    title: '\'a\' and \'an\' introduce something new and.',
+    title: 'Articles: A and An in Everyday Writing',
     subtitle: 'Covers the basic article algorithm. Does NOT cover zero-article rules or quantifiers.',
-    classLevel: 6, subject: 'gram', topic: '\'a\' and \'an\' introduce something new and.',
+    classLevel: 6, subject: 'gram', topic: 'Articles: A and An in Everyday Writing',
     chapters: ['c6_gram_ch83'],
     nodeIds: ['c6_gram_cbse_83_001', 'c6_gram_cbse_83_002', 'c6_gram_cbse_83_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

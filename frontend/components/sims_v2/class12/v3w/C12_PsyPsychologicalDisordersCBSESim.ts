@@ -6,13 +6,13 @@ import C12_PsyPsychologicalDisordersCBSESim from '../../../simulations/c6_12_new
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_psypsychologicaldisorderscbsesim: SimDef = {
     id: 'v3w_c12_psypsychologicaldisorderscbsesim',
-    title: 'Psy Psychological Disorders CBSE',
+    title: 'Concepts of Abnormality: The Four Ds and Approaches to Defining Abnormal Behaviour',
     subtitle: 'This node covers the Four Ds, the two definitional approaches (social-norms deviation and.',
     classLevel: 12, subject: 'science', topic: 'Concepts of Abnormality: The Four Ds and Approaches to Defining Abnormal Behaviour',
     chapters: [],
     nodeIds: ['c12_psy_cbse_04_001', 'c12_psy_cbse_04_002', 'c12_psy_cbse_04_003', 'c12_psy_cbse_04_004', 'c12_psy_cbse_04_005', 'c12_psy_cbse_04_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine two students before the board exams: **Riya** feels “butterflies in the stomach,” studies intensely.', goal: 'Master Psy Psychological Disorders CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine two students before the board exams: **Riya** feels “butterflies in the stomach,” studies intensely.', goal: 'Master Concepts of Abnormality: The Four Ds and Approaches to Defining Abnormal Behaviour.' },
     discovery: {
         question: '**REMEMBER**: State the Four Ds of abnormality and give a one-sentence description of each.',
         options: ['**Correct answer**: 1', 'deviance', 'distress'],
@@ -77,7 +77,7 @@ export const w_c12_psypsychologicaldisorderscbsesim: SimDef = {
             { text: 'Conclusion — meets full DSM-5 criteria for OCD with good insight.', faded: true, blankAnswer: 'Yes, meets DSM-5 criteria for OCD (good insight specifier)..' }
             ] } }
     ],
-    explore: { component: C12_PsyPsychologicalDisordersCBSESim, prompt: 'Explore the interactive — Psy Psychological Disorders CBSE' },
+    explore: { component: C12_PsyPsychologicalDisordersCBSESim, prompt: 'Explore the interactive — Concepts of Abnormality: The Four Ds and Approaches to Defining Abnormal Behaviour' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_psy_cbse_04_001', difficulty: 'standard',
           question: 'Abnormal behaviour is characterised by the **Four Ds** — **deviance**.',

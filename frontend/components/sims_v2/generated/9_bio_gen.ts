@@ -398,7 +398,7 @@ export const C9_BIO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c9_bio_ch02",
-  "title": "Meristematic Tissue Consists Of",
+  "title": "Meristematic Tissue Consists",
   "subtitle": "Biology · Chapter 2",
   "classLevel": 9,
   "mode": "senior",
@@ -438,7 +438,7 @@ export const C9_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Meristematic Tissue Consists Of",
+    "title": "Plant Tissues: Meristematic vs Permanent",
     "text": "Meristematic tissue consists of undifferentiated, actively dividing cells with dense cytoplasm, thin cell walls, and prominent nuclei that retain the capacity for continuous division, while permanent tissue comprises differentiated cells that have lost the",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"

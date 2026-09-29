@@ -6,13 +6,13 @@ import C8_MathematicsPropertiesRationalNumbersSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicspropertiesrationalnumberssim: SimDef = {
     id: 'v3w_c8_mathematicspropertiesrationalnumberssim',
-    title: 'Properties Rational Numbers',
+    title: 'Multiplying Powers with the Same Base: am x an = am+n',
     subtitle: 'Covers multiplication of powers with the same base where the base is a non-zero integer.',
     classLevel: 8, subject: 'mathematics', topic: 'Multiplying Powers with the Same Base: am x an = am+n',
     chapters: [],
     nodeIds: ['c8_math_ch2_7', 'c8_math_ch13_5', 'c8_math_ch13_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you are folding a paper: each fold doubles the layers.', goal: 'Master Properties Rational Numbers.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you are folding a paper: each fold doubles the layers.', goal: 'Master Multiplying Powers with the Same Base: am x an = am+n.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'When multiplying two powers with the same.', text: 'When multiplying two powers with the same base, we keep the base unchanged and add the exponents. For any non-zero integer \\(a\\) and positive integers \\(m\\) and \\(n\\), \\(a^m \\times a^n = a^{m+n}\\).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -46,13 +46,13 @@ export const w_c8_mathematicspropertiesrationalnumberssim: SimDef = {
             { text: 'Compute: x = 20. Verify: 4(20) + 15 = 80 + 15 = 95.', faded: true, blankAnswer: '₹20 per pen' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch13_5', title: 'Identify each idea',
-          dissect: { specimen: 'Properties Rational Numbers', spots: [
+          dissect: { specimen: 'Multiplying Powers with the Same Base: am x an = am+n', spots: [
             { id: 's1', label: 'When multiplying two powers with', prompt: 'Which idea is this? — When multiplying two powers with the same base, we keep the base unchanged and add the.', answer: 'When multiplying two powers with', options: ['When multiplying two powers with', 'An algebraic expression is a', 'The transposition method is a'] },
             { id: 's2', label: 'An algebraic expression is a', prompt: 'Which idea is this? — An algebraic expression is a combination of variables, constants, and arithmetic.', answer: 'An algebraic expression is a', options: ['An algebraic expression is a', 'When multiplying two powers with', 'The transposition method is a'] },
             { id: 's3', label: 'The transposition method is a', prompt: 'Which idea is this? — The transposition method is a technique for solving linear equations in one variable.', answer: 'The transposition method is a', options: ['The transposition method is a', 'When multiplying two powers with', 'An algebraic expression is a'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsPropertiesRationalNumbersSim, prompt: 'Explore the interactive — Properties Rational Numbers' },
+    explore: { component: C8_MathematicsPropertiesRationalNumbersSim, prompt: 'Explore the interactive — Multiplying Powers with the Same Base: am x an = am+n' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch2_7', difficulty: 'standard',
           question: 'When multiplying two powers with the same base, we keep the base unchanged and.',

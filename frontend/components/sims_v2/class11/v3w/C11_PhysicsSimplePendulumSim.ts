@@ -6,13 +6,13 @@ import C11_PhysicsSimplePendulumSim from '../../../simulations/c6_12/C11_Physics
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicssimplependulumsim: SimDef = {
     id: 'v3w_c11_physicssimplependulumsim',
-    title: 'Simple Pendulum',
+    title: 'Periodic and Oscillatory Motion: Definitions',
     subtitle: 'This node covers definitions of periodic motion, oscillatory motion, period, frequency,.',
     classLevel: 11, subject: 'physics', topic: 'Periodic and Oscillatory Motion: Definitions',
     chapters: [],
     nodeIds: ['c11_phy_cbse_13_001', 'c11_phy_cbse_13_002', 'c11_phy_cbse_13_003', 'c11_phy_cbse_13_004', 'c11_phy_cbse_13_005', 'c11_phy_cbse_13_010', 'c11_phy_cbse_13_007', 'c11_phy_cbse_13_009', 'c11_phy_cbse_05_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a ceiling fan rotating at constant speed — its motion repeats but the blade does not move to and fro.', goal: 'Master Simple Pendulum.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a ceiling fan rotating at constant speed — its motion repeats but the blade does not move to and fro.', goal: 'Master Periodic and Oscillatory Motion: Definitions.' },
     discovery: {
         question: 'State the defining equation for displacement in SHM and name each symbol with its SI unit.',
         options: ['The defining equation is \\( x(t) = A \\cos(\\omega t + \\phi) \\)', 'periodic', 'simple harmonic'],
@@ -82,7 +82,7 @@ export const w_c11_physicssimplependulumsim: SimDef = {
             { text: 'Verify: v_max = 0.707 m/s is reasonable for a 2 kg block on a stiff spring; v at x = 3 cm is less than v_max.', faded: true, blankAnswer: '(a) 4.9 cm, (b) 14.1 rad/s, (c) x(t) = 0.050 cos(14.14 t).' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_13_002', title: 'Identify each idea',
-          dissect: { specimen: 'Simple Pendulum', spots: [
+          dissect: { specimen: 'Periodic and Oscillatory Motion: Definitions', spots: [
             { id: 's1', label: 'Periodic motion is a motion', prompt: 'Which idea is this? — Periodic motion is a motion that repeats itself identically after a fixed interval of.', answer: 'Periodic motion is a motion', options: ['Periodic motion is a motion', 'Simple Harmonic Motion SHM is', 'In Simple Harmonic Motion SHM', 'In Simple Harmonic Motion the'] },
             { id: 's2', label: 'Simple Harmonic Motion SHM is', prompt: 'Which idea is this? — Simple Harmonic Motion (SHM) is a special type of periodic oscillatory motion where the.', answer: 'Simple Harmonic Motion SHM is', options: ['Simple Harmonic Motion SHM is', 'Periodic motion is a motion', 'In Simple Harmonic Motion SHM', 'In Simple Harmonic Motion the'] },
             { id: 's3', label: 'In Simple Harmonic Motion SHM', prompt: 'Which idea is this? — In Simple Harmonic Motion (SHM), displacement x(t) = A cos(ωt + φ) describes the position.', answer: 'In Simple Harmonic Motion SHM', options: ['In Simple Harmonic Motion SHM', 'Periodic motion is a motion', 'Simple Harmonic Motion SHM is', 'In Simple Harmonic Motion the'] },
@@ -91,7 +91,7 @@ export const w_c11_physicssimplependulumsim: SimDef = {
             { id: 's6', label: 'Word problems in SHM applications', prompt: 'Which idea is this? — Word problems in SHM applications require translating a physical oscillatory system.', answer: 'Word problems in SHM applications', options: ['Word problems in SHM applications', 'Periodic motion is a motion', 'Simple Harmonic Motion SHM is', 'In Simple Harmonic Motion SHM'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsSimplePendulumSim, prompt: 'Explore the interactive — Simple Pendulum' },
+    explore: { component: C11_PhysicsSimplePendulumSim, prompt: 'Explore the interactive — Periodic and Oscillatory Motion: Definitions' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_13_001', difficulty: 'standard',
           question: 'Periodic motion is a motion that repeats itself identically after a fixed.',

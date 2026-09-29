@@ -6,7 +6,7 @@ import C9_EconApplicationsInterdependenceSectorsPrimarySim from '../../../simula
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_econapplicationsinterdependencesectorsprimarysim: SimDef = {
     id: 'v3w_c9_econapplicationsinterdependencesectorsprimarysim',
-    title: 'Interdependence of Sectors',
+    title: 'Factors of Production: Land, Labour, Capital, Entrepreneurship',
     subtitle: 'Covers the definition, characteristics, rewards, and interdependence of the four factors.',
     classLevel: 9, subject: 'economics', topic: 'Factors of Production: Land, Labour, Capital, Entrepreneurship',
     chapters: [],
@@ -51,7 +51,7 @@ export const w_c9_econapplicationsinterdependencesectorsprimarysim: SimDef = {
             { text: 'Synthesize: The mixed economy uses public sector for *access/equity* (rural electrification) and price regulation for.', faded: true, blankAnswer: 'The government correctly uses public provision to correct a.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_eco_ch1_11', title: 'Identify each idea',
-          dissect: { specimen: 'Interdependence of Sectors', spots: [
+          dissect: { specimen: 'Factors of Production: Land, Labour, Capital, Entrepreneurship', spots: [
             { id: 's1', label: 'Factors of production are the', prompt: 'Which idea is this? — Factors of production are the scarce economic resources used to create goods and.', answer: 'Factors of production are the', options: ['Factors of production are the', 'Indias Post-1991 Economic Reforms refer', 'A mixed economy is an'] },
             { id: 's2', label: 'Indias Post-1991 Economic Reforms refer', prompt: 'Which idea is this? — India\'s Post-1991 Economic Reforms refer to the structural adjustment programme initiated.', answer: 'Indias Post-1991 Economic Reforms refer', options: ['Indias Post-1991 Economic Reforms refer', 'Factors of production are the', 'A mixed economy is an'] },
             { id: 's3', label: 'A mixed economy is an', prompt: 'Which idea is this? — A mixed economy is an economic system that combines elements of both market economies and.', answer: 'A mixed economy is an', options: ['A mixed economy is an', 'Factors of production are the', 'Indias Post-1991 Economic Reforms refer'] }

@@ -6,13 +6,13 @@ import C12_MathsMatrixTransformsSim from '../../../simulations/three/C12_MathsMa
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathsmatrixtransformssim: SimDef = {
     id: 'v3w_c12_mathsmatrixtransformssim',
-    title: 'Matrix Transforms',
+    title: 'Elementary Transformations of a Matrix',
     subtitle: 'This node covers the definition, notation, and application of the three elementary.',
     classLevel: 12, subject: 'mathematics', topic: 'Elementary Transformations of a Matrix',
     chapters: [],
     nodeIds: ['c12_math_cbse_03_010', 'c12_math_cbse_03_001', 'c12_math_cbse_03_005', 'c12_math_cbse_03_008', 'c12_math_cbse_07_005', 'c12_math_cbse_09_006', 'c12_math_cbse_04_003', 'c12_math_cbse_04_006', 'c12_math_cbse_04_008', 'c12_math_cbse_04_009', 'c12_math_cbse_04_010', 'c12_math_cbse_03_002', 'c12_math_cbse_03_003', 'c12_math_cbse_03_004', 'c12_math_cbse_03_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re a cryptographer in Bengaluru trying to decode a message encoded as a 3×3 matrix.', goal: 'Master Matrix Transforms.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re a cryptographer in Bengaluru trying to decode a message encoded as a 3×3 matrix.', goal: 'Master Elementary Transformations of a Matrix.' },
     discovery: {
         question: 'A student writes: "The matrix B = [5] is a row matrix because it has one row." Is this correct? Explain why or why not.',
         options: ['The statement is incorrect', 'only a row matrix', 'the first subscript is column and the second is row (i'],
@@ -81,7 +81,7 @@ export const w_c12_mathsmatrixtransformssim: SimDef = {
             { text: 'Particular solution: \\(x^2 - y^2 = -3x\\) or \\(x^2 + 3x - y^2 = 0\\).', faded: true, blankAnswer: '** \\(x^2 + 3x - y^2 = 0\\) (or \\(y^2 = x^2 + 3x\\))' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_03_001', title: 'Identify each idea',
-          dissect: { specimen: 'Matrix Transforms', spots: [
+          dissect: { specimen: 'Elementary Transformations of a Matrix', spots: [
             { id: 's1', label: 'Elementary transformations or elementary operations', prompt: 'Which idea is this? — Elementary transformations (or elementary operations) of a matrix are three specific.', answer: 'Elementary transformations or elementary operations', options: ['Elementary transformations or elementary operations', 'A matrix is an ordered', 'Matrix multiplication is a binary', 'The transpose of a matrix'] },
             { id: 's2', label: 'A matrix is an ordered', prompt: 'Which idea is this? — A matrix is an ordered rectangular array of numbers or functions arranged in rows and.', answer: 'A matrix is an ordered', options: ['A matrix is an ordered', 'Elementary transformations or elementary operations', 'Matrix multiplication is a binary', 'The transpose of a matrix'] },
             { id: 's3', label: 'Matrix multiplication is a binary', prompt: 'Which idea is this? — Matrix multiplication is a binary operation that produces a matrix from two matrices.', answer: 'Matrix multiplication is a binary', options: ['Matrix multiplication is a binary', 'Elementary transformations or elementary operations', 'A matrix is an ordered', 'The transpose of a matrix'] },
@@ -90,7 +90,7 @@ export const w_c12_mathsmatrixtransformssim: SimDef = {
             { id: 's6', label: 'A first-order first-degree differential equation', prompt: 'Which idea is this? — A first-order, first-degree differential equation of the form \\(\\frac{dy}{dx} = F(x, y)\\).', answer: 'A first-order first-degree differential equation', options: ['A first-order first-degree differential equation', 'Elementary transformations or elementary operations', 'A matrix is an ordered', 'Matrix multiplication is a binary'] }
           ] } }
     ],
-    explore: { component: C12_MathsMatrixTransformsSim, prompt: 'Explore the interactive — Matrix Transforms' },
+    explore: { component: C12_MathsMatrixTransformsSim, prompt: 'Explore the interactive — Elementary Transformations of a Matrix' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_03_010', difficulty: 'standard',
           question: 'Elementary transformations (or elementary operations) of a matrix are three.',

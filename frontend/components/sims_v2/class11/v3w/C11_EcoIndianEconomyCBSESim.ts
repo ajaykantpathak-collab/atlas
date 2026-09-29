@@ -6,13 +6,13 @@ import C11_EcoIndianEconomyCBSESim from '../../../simulations/c6_12_new/C11_EcoI
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_ecoindianeconomycbsesim: SimDef = {
     id: 'v3w_c11_ecoindianeconomycbsesim',
-    title: 'Indian Economy CBSE',
+    title: 'Planning and Five Year Plans: Objectives and Features',
     subtitle: 'This node covers the conceptual foundation of Indian planning: the four goals, the.',
     classLevel: 11, subject: 'economics', topic: 'Planning and Five Year Plans: Objectives and Features',
     chapters: [],
     nodeIds: ['c11_eco_cbse_02_001', 'c11_eco_cbse_01_005', 'c11_eco_cbse_01_012', 'c11_eco_cbse_07_007', 'c11_eco_cbse_03_008', 'c11_eco_cbse_02_003', 'c11_eco_cbse_02_004', 'c11_eco_cbse_02_007', 'c11_eco_cbse_02_008', 'c11_eco_cbse_02_011', 'c11_eco_cbse_01_002', 'c11_eco_cbse_01_011', 'c11_eco_cbse_02_005', 'c11_eco_cbse_02_006', 'c11_eco_cbse_02_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine your family is planning a major home renovation over the next five years.', goal: 'Master Indian Economy CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine your family is planning a major home renovation over the next five years.', goal: 'Master Planning and Five Year Plans: Objectives and Features.' },
     discovery: {
         question: 'Compare the impact of railways on (a) village self-sufficiency and (b) volume of India\'s exports.',
         options: ['village self-sufficiency and (', 'exports brought gold into India', 'modernised'],
@@ -82,7 +82,7 @@ export const w_c11_ecoindianeconomycbsesim: SimDef = {
             { text: 'Interpret: The Second Plan needed to build a heavy industry capital stock of ₹2,700 crore by 1960-61 to achieve the.', faded: true, blankAnswer: '₹2,700 crore' }
             ] } },
         { type: 'dissect', nodeId: 'c11_eco_cbse_01_005', title: 'Identify each idea',
-          dissect: { specimen: 'Indian Economy CBSE', spots: [
+          dissect: { specimen: 'Planning and Five Year Plans: Objectives and Features', spots: [
             { id: 's1', label: 'A Five Year Plan in', prompt: 'Which idea is this? — A Five Year Plan in India is a comprehensive policy document formulated by the Planning.', answer: 'A Five Year Plan in', options: ['A Five Year Plan in', 'Commercialisation of crops refers to', 'Infrastructure under colonial rule refers', 'Environmental degradation refers to the'] },
             { id: 's2', label: 'Commercialisation of crops refers to', prompt: 'Which idea is this? — Commercialisation of crops refers to the structural shift in Indian agriculture under.', answer: 'Commercialisation of crops refers to', options: ['Commercialisation of crops refers to', 'A Five Year Plan in', 'Infrastructure under colonial rule refers', 'Environmental degradation refers to the'] },
             { id: 's3', label: 'Infrastructure under colonial rule refers', prompt: 'Which idea is this? — Infrastructure under colonial rule refers to the basic physical and organizational.', answer: 'Infrastructure under colonial rule refers', options: ['Infrastructure under colonial rule refers', 'A Five Year Plan in', 'Commercialisation of crops refers to', 'Environmental degradation refers to the'] },
@@ -91,7 +91,7 @@ export const w_c11_ecoindianeconomycbsesim: SimDef = {
             { id: 's6', label: 'The Mahalanobis Model implemented in', prompt: 'Which idea is this? — The Mahalanobis Model, implemented in India\'s Second Five Year Plan (1956-61), is a.', answer: 'The Mahalanobis Model implemented in', options: ['The Mahalanobis Model implemented in', 'A Five Year Plan in', 'Commercialisation of crops refers to', 'Infrastructure under colonial rule refers'] }
           ] } }
     ],
-    explore: { component: C11_EcoIndianEconomyCBSESim, prompt: 'Explore the interactive — Indian Economy CBSE' },
+    explore: { component: C11_EcoIndianEconomyCBSESim, prompt: 'Explore the interactive — Planning and Five Year Plans: Objectives and Features' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eco_cbse_02_001', difficulty: 'standard',
           question: 'A Five Year Plan in India is a comprehensive policy document formulated by the.',

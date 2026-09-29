@@ -6,13 +6,13 @@ import C6_ScienceDiversityInTheLivingWorldSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_sciencediversityinthelivingworldsim: SimDef = {
     id: 'v3w_c6_sciencediversityinthelivingworldsim',
-    title: 'Diversity In The Living World',
+    title: 'What Are Materials and Why We Classify Them',
     subtitle: 'This node covers the biological necessity of oxygen for respiration and carbon for.',
-    classLevel: 6, subject: 'science', topic: 'Are Non-metals Essential for Life?',
+    classLevel: 6, subject: 'science', topic: 'What Are Materials and Why We Classify Them',
     chapters: [],
     nodeIds: ['c6_chemistry_ch04_001', 'c6_biology_ch10_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why we can build a house out of iron, but our own bodies are made of something.', goal: 'Master Diversity In The Living World.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why we can build a house out of iron, but our own bodies are made of something.', goal: 'Master What Are Materials and Why We Classify Them.' },
     discovery: {
         question: 'Why would a human be unable to survive for more than a few minutes without oxygen?',
         options: ['Oxygen is required for cells to perform respiration and extract energy from food', 'it keeps us cool', 'more important'],
@@ -41,12 +41,12 @@ export const w_c6_sciencediversityinthelivingworldsim: SimDef = {
             { text: 'Relate this to the wilting of the plant.', faded: true, blankAnswer: 'The plant wilts because the roots are suffocating from a.' }
             ] } },
         { type: 'dissect', nodeId: 'c6_biology_ch10_004', title: 'Identify each idea',
-          dissect: { specimen: 'Diversity In The Living World', spots: [
+          dissect: { specimen: 'What Are Materials and Why We Classify Them', spots: [
             { id: 's1', label: 'Non-metals are materials that are', prompt: 'Which idea is this? — Non-metals are materials that are essential for supporting biological life processes,.', answer: 'Non-metals are materials that are', options: ['Non-metals are materials that are', 'Plant respiration is the process'] },
             { id: 's2', label: 'Plant respiration is the process', prompt: 'Which idea is this? — Plant respiration is the process by which all living plant cells take in oxygen and.', answer: 'Plant respiration is the process', options: ['Plant respiration is the process', 'Non-metals are materials that are'] }
           ] } }
     ],
-    explore: { component: C6_ScienceDiversityInTheLivingWorldSim, prompt: 'Explore the interactive — Diversity In The Living World' },
+    explore: { component: C6_ScienceDiversityInTheLivingWorldSim, prompt: 'Explore the interactive — What Are Materials and Why We Classify Them' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_chemistry_ch04_006', difficulty: 'standard',
           question: 'Non-metals are materials that are essential for supporting biological life.',

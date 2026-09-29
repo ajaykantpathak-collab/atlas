@@ -6,13 +6,13 @@ import C12_BiotechnologyTranslationInitiationElongationSim from '../../../simula
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biotechnologytranslationinitiationelongationsim: SimDef = {
     id: 'v3w_c12_biotechnologytranslationinitiationelongationsim',
-    title: 'nology Translation Initiation Elongation',
+    title: 'Primary Culture vs Established Cell Lines',
     subtitle: 'Covers: definitions, isolation methods (explant vs. enzymatic disaggregation), concept of.',
     classLevel: 12, subject: 'biotechnology', topic: 'Primary Culture vs Established Cell Lines',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_08_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are testing a new hepatotoxicity drug. You have two options: (1) primary human hepatocytes.', goal: 'Master nology Translation Initiation Elongation.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are testing a new hepatotoxicity drug. You have two options: (1) primary human hepatocytes.', goal: 'Master Primary Culture vs Established Cell Lines.' },
     discovery: {
         question: 'A researcher isolates cells from a mouse liver using collagenase digestion and cultures them for the first time.',
         options: ['This is a primary cell culture', 'established cell line', 'clonal population'],
@@ -33,7 +33,7 @@ export const w_c12_biotechnologytranslationinitiationelongationsim: SimDef = {
             { text: 'Interpret result. Fibroblast purity drops from 85% to ~52% in just 3 passages due to faster-growing keratinocyte.', faded: true, blankAnswer: '~52% fibroblast purity at passage 3 (down from 85% at P0).' }
             ] } }
     ],
-    explore: { component: C12_BiotechnologyTranslationInitiationElongationSim, prompt: 'Explore the interactive — nology Translation Initiation Elongation' },
+    explore: { component: C12_BiotechnologyTranslationInitiationElongationSim, prompt: 'Explore the interactive — Primary Culture vs Established Cell Lines' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_biotech_cbse_08_002', difficulty: 'standard',
           question: 'Primary cell culture is the initial heterogeneous population of cells isolated.',

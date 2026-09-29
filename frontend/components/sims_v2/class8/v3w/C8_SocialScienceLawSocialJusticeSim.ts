@@ -6,13 +6,13 @@ import C8_SocialScienceLawSocialJusticeSim from '../../../simulations/c6_12/C8_S
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_socialsciencelawsocialjusticesim: SimDef = {
     id: 'v3w_c8_socialsciencelawsocialjusticesim',
-    title: 'Social Science Law Social Justice',
+    title: 'Law and Justice: Connection Between Them',
     subtitle: 'Covers the philosophical and practical relationship between enacted laws and the broader.',
     classLevel: 8, subject: 'science', topic: 'Law and Justice: Connection Between Them',
     chapters: [],
     nodeIds: ['c8_civ_ch3_2', 'c8_civ_ch3_1', 'c8_civ_ch3_11', 'c8_civ_ch3_3', 'c8_civ_ch3_4', 'c8_civ_ch3_7', 'c8_civ_ch3_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine a new municipal rule is passed requiring all street vendors to pay a heavy daily fee, which suddenly.', goal: 'Master Social Science Law Social Justice.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine a new municipal rule is passed requiring all street vendors to pay a heavy daily fee, which suddenly.', goal: 'Master Law and Justice: Connection Between Them.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Law and justice are deeply interconnected.', text: 'Law and justice are deeply interconnected pillars of a democratic society; laws are the formal rules established by the legislature, while justice is the moral and constitutional ideal that ensures.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -72,7 +72,7 @@ export const w_c8_socialsciencelawsocialjusticesim: SimDef = {
             { text: 'State the conclusion—the subordinate criminal court delivers a verdict of acquittal or conviction based on proof beyond.', faded: true, blankAnswer: 'The case starts with a police investigation and is tried in.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_civ_ch3_1', title: 'Identify each idea',
-          dissect: { specimen: 'Social Science Law Social Justice', spots: [
+          dissect: { specimen: 'Law and Justice: Connection Between Them', spots: [
             { id: 's1', label: 'Law and justice are deeply', prompt: 'Which idea is this? — Law and justice are deeply interconnected pillars of a democratic society; laws are the.', answer: 'Law and justice are deeply', options: ['Law and justice are deeply', 'Justice is the fundamental moral', 'Alternative Dispute Resolution ADR refers', 'The judiciary is the third'] },
             { id: 's2', label: 'Justice is the fundamental moral', prompt: 'Which idea is this? — Justice is the fundamental moral and legal principle that ensures fairness, equality, and.', answer: 'Justice is the fundamental moral', options: ['Justice is the fundamental moral', 'Law and justice are deeply', 'Alternative Dispute Resolution ADR refers', 'The judiciary is the third'] },
             { id: 's3', label: 'Alternative Dispute Resolution ADR refers', prompt: 'Which idea is this? — Alternative Dispute Resolution (ADR) refers to mechanisms like mediation and arbitration.', answer: 'Alternative Dispute Resolution ADR refers', options: ['Alternative Dispute Resolution ADR refers', 'Law and justice are deeply', 'Justice is the fundamental moral', 'The judiciary is the third'] },
@@ -81,7 +81,7 @@ export const w_c8_socialsciencelawsocialjusticesim: SimDef = {
             { id: 's6', label: 'District and subordinate courts form', prompt: 'Which idea is this? — District and subordinate courts form the foundation of India\'s judicial hierarchy at the.', answer: 'District and subordinate courts form', options: ['District and subordinate courts form', 'Law and justice are deeply', 'Justice is the fundamental moral', 'Alternative Dispute Resolution ADR refers'] }
           ] } }
     ],
-    explore: { component: C8_SocialScienceLawSocialJusticeSim, prompt: 'Explore the interactive — Social Science Law Social Justice' },
+    explore: { component: C8_SocialScienceLawSocialJusticeSim, prompt: 'Explore the interactive — Law and Justice: Connection Between Them' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_civ_ch3_2', difficulty: 'standard',
           question: 'Law and justice are deeply interconnected pillars of a democratic society; laws.',

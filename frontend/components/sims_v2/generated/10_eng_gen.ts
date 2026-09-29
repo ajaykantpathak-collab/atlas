@@ -76,7 +76,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Theme Of \"Faith, Hope And",
+    "title": "Theme Of \"Faith, Hope\"",
     "text": "The theme of \"Faith, Hope and Human Generosity vs Naivety\" in *A Letter to God* explores the tension between Lencho's absolute, unquestioning belief in divine intervention (faith/hope) and his inability to recognize human kindness as the actual source of help",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -88,7 +88,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of The Postmaster In",
+    "title": "Character Analysis Of The Postmaster",
     "text": "Character analysis of the postmaster in \"A Letter to God\" involves examining his traits, actions, and motivations to understand how he functions as a symbol of human kindness, empathy, and selfless generosity in contrast to Lencho's unwavering but naive faith.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
@@ -634,25 +634,25 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "The Twin Obligations Refer To",
+    "title": "The Twin Obligations Refer To Nelson",
     "text": "The Twin Obligations refer to Nelson Mandela's articulation in \"Long Walk to Freedom\" that every individual has two fundamental duties: an obligation to their family (parents, spouse, children) and an obligation to their people (community, nation, humanity).",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Mandela's Reflection On Freedom In \"Long",
+    "title": "The Meaning of Freedom: Mandela's",
     "text": "Mandela's reflection on freedom in \"Long Walk to Freedom\" is his evolved understanding that true liberty is not merely the absence of physical chains or the ability to enjoy personal privileges, but the collective emancipation where no individual's freedom is",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Courage, As Defined By Nelson Mandela In",
+    "title": "Courage and Resilience: Mandela's",
     "text": "Courage, as defined by Nelson Mandela in *Long Walk to Freedom*, is not the absence of fear but the triumph over it — the ability to act rightly despite terror.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "The Theme Of \"Triumph Of",
+    "title": "Theme: Triumph of Justice, Equality",
     "text": "The theme of \"Triumph of Justice, Equality and Democratic Values\" in Nelson Mandela's *Long Walk to Freedom* refers to the central idea that persistent, non-violent resistance against institutionalized oppression (apartheid) ultimately leads to the",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1419,7 +1419,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "The Theme Of \"Courage, Self-Reliance",
+    "title": "Theme: Courage, Self-Reliance and Facing",
     "text": "The theme of \"Courage, Self-Reliance and Facing the Unknown\" in \"Two Stories About Flying\" refers to the central idea that true independence is achieved when an individual confronts fear internally, acts without external guarantees, and trusts their own",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2737,7 +2737,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Cultural Diversity And Regional Identity In",
+    "title": "Theme: Cultural Diversity and Regional",
     "text": "Cultural diversity and regional identity in \"Glimpses of India\" refers to the way the three prose pieces — \"A Baker from Goa,\" \"Coorg,\" and \"Tea from Assam\" — each portray a distinct region's unique history, landscape, people, and traditions, while together",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -3357,7 +3357,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "This Topic Examines The Logistical And",
+    "title": "This Topic Examines The Logistical",
     "text": "This topic examines the logistical and emotional challenges Maxwell faces while transporting Mijbil the otter from Iraq to London, focusing on the sequence of events, problem-solving, and the narrative techniques used to convey the journey's tension and humor.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3375,7 +3375,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of Maxwell In \"Mijbil",
+    "title": "Character Analysis: Maxwell as a Patient",
     "text": "Character analysis of Maxwell in \"Mijbil the Otter\" involves examining how the narrator's actions, observations, and reflections reveal his patience and attentiveness as a pet owner, using textual evidence to support inferences about his personality and the",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3902,7 +3902,7 @@ export const C10_ENG_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "This Node Introduces Valli, An",
+    "title": "Valli: An Eight-Year-Old's Curiosity About",
     "text": "This node introduces Valli, an eight-year-old girl whose intense curiosity about the bus that passes her village daily becomes the driving force of the narrative.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3914,7 +3914,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "This Topic Examines Valli's Sensory And",
+    "title": "This Topic Examines Valli's Sensory",
     "text": "This topic examines Valli's sensory and emotional journey during her first bus ride in \"Madam Rides the Bus,\" focusing on how the author uses the conductor's character to reveal Valli's growing independence and the theme of childhood curiosity meeting adult",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
@@ -3926,13 +3926,13 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Valli's Refusal To Leave The Bus At The",
+    "title": "Valli's Refusal to Leave the Bus:",
     "text": "Valli's refusal to leave the bus at the town terminus is a pivotal character moment where the eight-year-old asserts her autonomy by rejecting the conductor's offer to explore the town, choosing instead to remain on the bus for the return journey —",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "The Theme \"Growing Up, Curiosity",
+    "title": "Theme: Growing Up, Curiosity and the Loss",
     "text": "The theme \"Growing Up, Curiosity and the Loss of Innocence\" in *Madam Rides the Bus* refers to the central idea that Valli’s solo bus journey represents a child’s transition from sheltered ignorance to a more mature awareness of life’s harsh realities, driven",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4391,7 +4391,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Theme Of Impermanence In \"The Sermon At",
+    "title": "Theme: Impermanence of Life and the Path",
     "text": "The theme of impermanence (anicca) in \"The Sermon at Benares\" is the universal truth that all life is transient and subject to death, and the path to peace lies in accepting this reality rather than resisting it through grief or attachment.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4918,7 +4918,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "The Theme Of \"Absurdity Of",
+    "title": "Theme: Absurdity of Social Status, Pride",
     "text": "The theme of \"Absurdity of Social Status, Pride and Petty Disputes\" in *The Proposal* refers to Chekhov's satirical portrayal of how landowning characters prioritize trivial property disagreements and wounded egos over the life-changing event of a marriage",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4936,7 +4936,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Comedy As a Genre In \"The",
+    "title": "Comedy as a Genre: Humour, Exaggeration",
     "text": "Comedy as a genre in \"The Proposal\" uses humour (verbal wit, situational absurdity), exaggeration (hyperbolic language, overblown reactions to trivial matters), and satire (mocking the landed gentry's obsession with property, status, and trivial disputes) to",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
@@ -5655,7 +5655,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "The Theme Of \"Responsible Pet",
+    "title": "Theme: Responsible Pet Ownership",
     "text": "The theme of \"Responsible Pet Ownership and the Danger of Overindulgence\" in *A Triumph of Surgery* refers to the central message that true care for a pet requires meeting its biological needs (balanced diet, exercise, discipline) rather than satisfying the",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -6121,7 +6121,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Character Analysis Of Anil In \"The",
+    "title": "Anil: A Kind, Trusting Young Man Who",
     "text": "Character analysis of Anil in \"The Thief's Story\" involves examining his personality traits (kindness, trust, simplicity), his actions (employing Hari, teaching him to read/write, ignoring the theft), and his role as a catalyst for Hari's transformation,",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -6635,19 +6635,19 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Pivotal Plot Device In \"The",
+    "title": "Ausable's Clever Lie: The Non-Existent",
     "text": "A pivotal plot device in \"The Midnight Visitor\" where Ausable fabricates a detailed, convincing description of a non-existent balcony outside his hotel window to manipulate Max's escape route, demonstrating how intellectual deception can neutralize physical",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "The Climax Of \"The Midnight",
+    "title": "The Climax Of \"The Midnight Visitor\"",
     "text": "The climax of \"The Midnight Visitor\" where a knock at the door triggers Max's fatal escape attempt: Ausable's fabricated balcony story convinces Max that the police are arriving, causing him to jump from the sixth-floor window to his death, while the visitor",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Theme \"Wit And Presence Of Mind Over",
+    "title": "Theme: Wit and Presence of Mind Over",
     "text": "The theme \"Wit and Presence of Mind Over Physical Strength\" refers to the central idea that intelligence, quick thinking, and psychological manipulation can defeat an opponent who relies solely on weapons, physical power, or intimidation.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -7778,19 +7778,19 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "This Topic Examines The Episode In",
+    "title": "This Topic Examines The Episode",
     "text": "This topic examines the episode in H.G. Wells' \"Footprints without Feet\" where the invisible scientist Griffin enters a drapery shop to steal clothes, causing the shopkeeper to experience terrifying, inexplicable movements of garments and an unseen presence,",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "This Node Covers The Analysis Of",
+    "title": "This Node Covers The Analysis",
     "text": "This node covers the analysis of the prose episode in H.G. Wells' \"Footprints without Feet\" where the invisible scientist Griffin arrives at the village of Iping, stays at the Coach and Horses inn, and commits a burglary at the vicar's house.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Theme \"Misuse Of Scientific Discovery And",
+    "title": "Theme: Misuse of Scientific Discovery",
     "text": "The theme \"Misuse of Scientific Discovery and Its Consequences\" refers to the central idea in *Footprints without Feet* that scientific breakthroughs, when pursued without ethical responsibility or used for selfish, harmful purposes, inevitably lead to the",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -8311,7 +8311,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Theme Of \"Curiosity, Perseverance And The",
+    "title": "Theme: Curiosity, Perseverance",
     "text": "The theme of \"Curiosity, Perseverance and the Making of a Scientist\" refers to the central idea that scientific achievement is driven not by innate genius alone, but by a sustained cycle of asking questions (curiosity) and refusing to quit despite failures",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
@@ -9504,7 +9504,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "The Theme \"Education As Empowerment",
+    "title": "Theme: Education as Empowerment and Dignity",
     "text": "The theme \"Education as Empowerment and Dignity of the Girl Child\" in *Bholi* refers to the central idea that formal schooling and supportive mentorship transform a marginalized, voiceless girl into a self-respecting individual capable of asserting her",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -10118,7 +10118,7 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Martian Invasion Plan In \"The Book That",
+    "title": "The Martian Invasion of Earth in 2040:",
     "text": "The Martian invasion plan in \"The Book That Saved the Earth\" refers to Think-Tank's strategic blueprint for conquering Earth in 2040, which involves sending a manned probe (the crew of Omega, Iota, and Oop) to gather intelligence from an Earth library,",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -10136,13 +10136,13 @@ export const C10_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "This Topic Covers The Climax And",
+    "title": "This Topic Covers The Climax",
     "text": "This topic covers the climax and resolution of the play where the Martians, led by Think-Tank, discover a book of Mother Goose nursery rhymes in a 20th-century library and misinterpret the literal imagery (e.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Theme \"The Power Of Books And The Absurdity",
+    "title": "Theme: The Power of Books and the Absurdity",
     "text": "The theme \"The Power of Books and the Absurdity of Misunderstanding\" refers to the central idea that books (and by extension, knowledge and culture) can have unexpected power to influence events, while misunderstandings arising from lack of context or literal",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"

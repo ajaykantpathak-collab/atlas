@@ -100,7 +100,11 @@ export const c6_geography_ch03: SimDef = {
                   options: ['It comes from the Arabic word "mausim,"', 'rainy clouds', 'the monsoon is just "rainy clouds" that appear out of nowhere'],
                   hint: 'Review the concept of how land heats up faster than water during the day or summer.',
                   misconception: 'Students often believe that the monsoon is just "rainy clouds" that appear out of nowhere.' },
-                { id: 'b', prompt: 'Compare the summer monsoon to a giant "delivery system." What is it delivering, and why is it essential?', answer: 'It delivers moisture/water from the ocean to the land',
+                { id: 'b', prompt: 'If 75% of India\'s annual rainfall happens between June and September, what would likely happen to farming if the wind direction did not reverse?', answer: 'Identify that crops depend on this 75% of water',
+                  options: ['Identify that crops depend on this 75% of water', 'rainy clouds', 'rain happens randomly rather than due to this specific wind pattern', 'the monsoon is just "rainy clouds" that appear out of nowhere'],
+                  hint: 'Review the concept of how land heats up faster than water during the day or summer.',
+                  misconception: 'Students often believe that the monsoon is just "rainy clouds" that appear out of nowhere.' },
+                { id: 'c', prompt: 'Compare the summer monsoon to a giant "delivery system." What is it delivering, and why is it essential?', answer: 'It delivers moisture/water from the ocean to the land',
                   options: ['It delivers moisture/water from the ocean to the land', 'rainy clouds', 'the monsoon is just "rainy clouds" that appear out of nowhere'],
                   hint: 'Review the concept of how land heats up faster than water during the day or summer.',
                   misconception: 'Students often believe that the monsoon is just "rainy clouds" that appear out of nowhere.' }
@@ -158,6 +162,10 @@ export const c6_geography_ch03: SimDef = {
           parts: [
                 { id: 'a', prompt: 'Which Indian region is known as a "cold desert" and experiences temperatures as low as minus 30 degrees Celsius?', answer: 'Ladakh is the cold desert',
                   options: ['Ladakh is the cold desert', 'all deserts are hot'],
+                  hint: 'Review the definitions of "altitude" and "precipitation" in the textbook.',
+                  misconception: 'Students often assume that all deserts are hot. They associate the word "desert" only with sand and heat (like the Thar), failing.' },
+                { id: 'b', prompt: 'If you were traveling from the Thar Desert to the tropical climate of Kerala, how would you change your packing strategy?', answer: 'Identify Thar as hot/dry (needs loose cotton, sun protection)',
+                  options: ['Identify Thar as hot/dry (needs loose cotton, sun protection)', 'dry heat', 'humid heat', 'all deserts are hot'],
                   hint: 'Review the definitions of "altitude" and "precipitation" in the textbook.',
                   misconception: 'Students often assume that all deserts are hot. They associate the word "desert" only with sand and heat (like the Thar), failing.' }
           ],

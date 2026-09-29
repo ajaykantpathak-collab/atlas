@@ -145,8 +145,8 @@ export const c11_ip_ch07_p1: SimDef = {
                   options: ['This is the **Schema Navigator** (or Navigator panel)', 'Query Editor', 'data inside tables', 'I uninstalled Workbench, is my data gone?'],
                   hint: 'Revisit c11_ip_cbse_07_002 (Relational Data Model) to recall table/tuple/attribute terminology, and.',
                   misconception: 'Students often think **MySQL Workbench *is* the database** (the actual data storage).' },
-                { id: 'c', prompt: 'You have connected to the MySQL server in Workbench. You want to see the structure (column names, data types) of the `STUDENT` table in the `school_db` schema.', answer: 'Steps: 1) In Navigator panel, ensure `Schemas` tab is selected',
-                  options: ['Steps: 1) In Navigator panel, ensure `Schemas` tab is selected', 'write `DESC STUDENT;` in query editor', 'I uninstalled Workbench, is my data gone?', '**MySQL Workbench *is* the database** (the actual data storage)'],
+                { id: 'c', prompt: 'You have connected to the MySQL server in Workbench. You want to see the structure (column names, data types) of the `STUDENT` table in the `school_db` schema.', answer: 'In Navigator panel, ensure `Schemas` tab is selected',
+                  options: ['In Navigator panel, ensure `Schemas` tab is selected', 'write `DESC STUDENT;` in query editor', 'I uninstalled Workbench, is my data gone?', '**MySQL Workbench *is* the database** (the actual data storage)'],
                   hint: 'Revisit c11_ip_cbse_07_002 (Relational Data Model) to recall table/tuple/attribute terminology, and.',
                   misconception: 'Students often think **MySQL Workbench *is* the database** (the actual data storage).' }
           ],

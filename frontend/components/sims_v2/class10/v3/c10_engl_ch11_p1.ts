@@ -113,7 +113,7 @@ export const c10_engl_ch11_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-hari-s': { steps: ['Have the student re-read the paragraph where Hari says "I knew that if I could cook well..." and underline the phrase.', 'Ask: "If Hari truly liked cooking, why does he say \'I could get a job *anywhere*\'?" Guide them to see the instrumental.', 'Practice writing one PEEL paragraph contrasting *action* (cooking) vs. *motive* (employability/theft access).', 'Compare with a Class 6 character (e.g., Suraj) where action=motive, to cement the Class 10 shift to analyzing subtext.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_engl_cbse_11_002', difficulty: 'standard',
-          question: 'Character analysis of Anil in "The Thief\'s Story" involves examining his.',
+          question: 'From \'The Thief\': the skill or concept this node teaches, applied to the actual.',
           hint: 'If stuck, review PEEL structure from c9_engl_ch1_2 and re-read the three key Anil scenes.',
           misconception: 'Students often write: "Anil is foolish because he trusts a thief." This error comes from reading the story as.',
           parts: [
@@ -178,7 +178,7 @@ export const c10_engl_ch11_p1: SimDef = {
           misconception: 'Students often write that Hari returns the money solely because he fears Anil will discover the theft, ignoring the.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Theme is the central idea or underlying message that a literary work conveys about human',
-                  options: ['Theme is the central idea or underlying message that a literary work conveys about human', 'Hari Singh is the fifteen-year-old first-person narrator and protagonist of "The Thief\'s', 'Character analysis of Anil in "The Thief\'s Story" involves examining his personality', 'This topic examines the pivotal moment in "The Thief\'s Story" when Hari Singh, a habitual'],
+                  options: ['Theme is the central idea or underlying message that a literary work conveys about human', 'Hari Singh is the fifteen-year-old first-person narrator and protagonist of "The Thief\'s', 'From \'The Thief\': the skill or concept this node teaches, applied to the actual text', 'This topic examines the pivotal moment in "The Thief\'s Story" when Hari Singh, a habitual'],
                   hint: 'If stuck, re-watch the scene-summary videos for nodes 003 (theft), 004 (return), and 005.',
                   misconception: 'Students often write that Hari returns the money solely because he fears Anil will discover the theft, ignoring the textual evidence that.' }
           ],

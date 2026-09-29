@@ -465,15 +465,13 @@ export const C7_HIST_GEN: SimDef[] = [
  },
  {
   "id": "gen_c7_hist_ch02",
-  "title": "Transition From Kingdoms (*janapadas* And",
+  "title": "From Kingdoms to Empires: The Transition",
   "subtitle": "History · Chapter 2",
   "classLevel": 7,
   "mode": "senior",
   "subject": "history",
-  "topic": "Transition From Kingdoms (*janapadas* And",
-  "chapters": [
-   "History Ch2: Transition From Kingdoms (*janapadas* And"
-  ],
+  "topic": "From Kingdoms to Empires: The Transition",
+  "chapters": ["History Ch2: From Kingdoms to Empires: The Transition"],
   "nodeIds": [
    "c7_hist_ch02_001",
    "c7_hist_ch02_002",
@@ -494,7 +492,7 @@ export const C7_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Transition From Kingdoms outside the classroom?",
+   "question": "Quick guess -- where do you meet From Kingdoms to Empires: The outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -505,13 +503,13 @@ export const C7_HIST_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Transition From Kingdoms (*janapadas* And",
+    "title": "Transition From Kingdoms",
     "text": "The transition from kingdoms (*janapadas* and *mahajanapadas*) to empires in ancient India (around the 6th to 4th centuries BCE) marks a major political shift where smaller, localized tribal or territorial states were consolidated into vast, centralized",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Magadha Empire Was One Of",
+    "title": "Magadha Empire Was One",
     "text": "The Magadha Empire was one of the most powerful Mahajanapadas in ancient India, located in the Gangetic plain between the 6th and 4th centuries BCE, which expanded rapidly due to strategic geographical advantages, fertile land, and iron resources.",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -968,25 +966,23 @@ export const C7_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about transition from kingdoms (*janapadas* and?",
+    "What surprised you about from kingdoms to empires: the transition?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Transition From Kingdoms mastered! 🎯",
+  "successLine": "From Kingdoms to Empires: mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c7_hist_ch03",
-  "title": "Post-Maurya Period (c. 200 BCE",
+  "title": "Post-Maurya Period: Age of Reorganisation",
   "subtitle": "History · Chapter 3",
   "classLevel": 7,
   "mode": "senior",
   "subject": "history",
-  "topic": "Post-Maurya Period (c. 200 BCE",
-  "chapters": [
-   "History Ch3: Post-Maurya Period (c. 200 BCE"
-  ],
+  "topic": "Post-Maurya Period: Age of Reorganisation",
+  "chapters": ["History Ch3: Post-Maurya Period: Age of Reorganisation"],
   "nodeIds": [
    "c7_hist_ch03_001",
    "c7_hist_ch03_002",
@@ -1007,7 +1003,7 @@ export const C7_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Post-Maurya Period (c. 200 BCE actually explain?",
+   "question": "In one line -- what does Post-Maurya Period: Age of actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -1018,7 +1014,7 @@ export const C7_HIST_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Post-Maurya Period (c. 200 BCE",
+    "title": "Post-Maurya Period",
     "text": "The post-Maurya period (c. 200 BCE – 300 CE) was an age of political fragmentation and vibrant reorganisation across the Indian subcontinent following the collapse of the centralised Mauryan Empire.",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1048,7 +1044,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Gandhara And Mathura Schools Of",
+    "title": "Gandhara And Mathura Schools",
     "text": "The Gandhara and Mathura Schools of Art were two major artistic traditions that flourished during the Kushana period (approx. 1st to 3rd century CE) in the northwestern subcontinent and the Gangetic plains, respectively.",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1072,13 +1068,13 @@ export const C7_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "During The 6th Century BCE And",
+    "title": "During The 6th Century BCE",
     "text": "During the 6th century BCE and the subsequent post-Mauryan reorganisation period, northern India witnessed profound religious transformations with the rise of Buddhism, founded by Siddhartha Gautama (the Buddha), and Jainism, systematised by Mahavira.",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Art And Architecture Of The",
+    "title": "Art And Architecture",
     "text": "The art and architecture of the post-Maurya reorganisation period (c. 200 BCE – 300 CE) reflect a dynamic era of political division and cultural synthesis, marked by the extensive patronage of rock-cut caves, structural stupas, and distinct regional",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1457,25 +1453,23 @@ export const C7_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about post-maurya period (c. 200 bce?",
+    "What surprised you about post-maurya period: age of reorganisation?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Post-Maurya Period (c. 200 BCE mastered! 🎯",
+  "successLine": "Post-Maurya Period: Age mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c7_hist_ch04",
-  "title": "Origins And Rise Of The",
+  "title": "Origins And Rise",
   "subtitle": "History · Chapter 4",
   "classLevel": 7,
   "mode": "senior",
   "subject": "history",
-  "topic": "Origins And Rise Of The",
-  "chapters": [
-   "History Ch4: Origins And Rise Of The"
-  ],
+  "topic": "Origins And Rise",
+  "chapters": ["History Ch4: Origins And Rise"],
   "nodeIds": [
    "c7_hist_ch04_001",
    "c7_hist_ch04_002",
@@ -1496,7 +1490,7 @@ export const C7_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Origins And Rise Of The in real working life?",
+   "question": "Who uses Origins And Rise in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -1507,13 +1501,13 @@ export const C7_HIST_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Origins And Rise Of The",
+    "title": "Origins And Rise",
     "text": "The origins and rise of the Gupta Empire trace how a small regional dynasty in Magadha rose to political prominence in the early 4th century CE, eventually unifying northern India into a powerful, centralized state.",
     "emoji": "🏛️",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "This Topic Covers The Reigns Of",
+    "title": "This Topic Covers The Reigns",
     "text": "This topic covers the reigns of Chandragupta I and his son Samudragupta, who laid the foundations and engineered the massive military expansion of the Gupta Empire across northern and central India during the 4th century CE.",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1525,7 +1519,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Administration And Governance Under The",
+    "title": "Administration and Governance Under",
     "text": "Administration and governance under the Guptas (c. 4th to 6th centuries CE) refers to the political structure, bureaucratic organization, and provincial division through which the Gupta emperors ruled Northern and Central India, characterized by a mix of",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1919,7 +1913,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Origins And Rise Of The mastered! 🎯",
+  "successLine": "Origins And Rise mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2000,7 +1994,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Extensive Networks Of Ancient And",
+    "title": "Extensive Networks Of Ancient",
     "text": "The extensive networks of ancient and medieval pilgrimage routes that spanned across the Indian subcontinent, physically and culturally connecting North India to South India through holy riverbanks, temples, and tirthas.",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2416,7 +2410,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Rule Of Harshavardhana In The",
+    "title": "Rule Of Harshavardhana",
     "text": "The rule of Harshavardhana in the 7th century CE (606–647 CE) marked a significant period of political consolidation in Northern India, centered around his capital city of Kannauj, following the decline of the Gupta Empire.",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2458,7 +2452,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "This Node Explores The Development Of",
+    "title": "This Node Explores The Development",
     "text": "This node explores the development of regional languages, classical literature, royal inscriptions (prashastis), and centers of learning in India between the 6th and 10th centuries CE.",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2858,7 +2852,7 @@ export const C7_HIST_GEN: SimDef[] = [
  },
  {
   "id": "gen_c7_hist_ch08",
-  "title": "Historical Context Of India As a Home For",
+  "title": "Historical Context Of India As a Home",
   "subtitle": "History · Chapter 8",
   "classLevel": 7,
   "mode": "senior",
@@ -2897,7 +2891,7 @@ export const C7_HIST_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Historical Context Of India As a Home For",
+    "title": "India as a Home for Migrants: Historical",
     "text": "The historical context of India as a home for migrants refers to the subcontinent's millennia-long tradition of welcoming, absorbing, and integrating diverse foreign populations, traders, refugees, and settlers fleeing persecution or seeking new opportunities",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2927,7 +2921,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "The Integration And Contribution Of",
+    "title": "The Integration And Contribution Of Muslim",
     "text": "The integration and contribution of Muslim communities in the Indian subcontinent refers to the profound historical process through which diverse Muslim groups settled, adapted, and deeply enriched Indian society, culture, language, architecture, and",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"

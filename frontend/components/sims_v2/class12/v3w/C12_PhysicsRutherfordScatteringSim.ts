@@ -6,13 +6,13 @@ import C12_PhysicsRutherfordScatteringSim from '../../../simulations/three/C12_P
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsrutherfordscatteringsim: SimDef = {
     id: 'v3w_c12_physicsrutherfordscatteringsim',
-    title: 'Rutherford Scattering',
+    title: 'Rutherford\'s Nuclear Model: Alpha Scattering Experiment',
     subtitle: 'This node covers: (a) the historical alpha-scattering experiment and its key.',
     classLevel: 12, subject: 'physics', topic: 'Rutherford\'s Nuclear Model: Alpha Scattering Experiment',
     chapters: [],
     nodeIds: ['c12_phy_cbse_12_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine holding a thin gold leaf used in Indian traditional sweets (varak) — it is so thin that light passes.', goal: 'Master Rutherford Scattering.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine holding a thin gold leaf used in Indian traditional sweets (varak) — it is so thin that light passes.', goal: 'Master Rutherford\'s Nuclear Model: Alpha Scattering..' },
     discovery: {
         question: 'The Geiger-Marsden experiment used a gold foil of thickness 2.1 × 10⁻⁷ m.',
         options: ['**Step 1:** Atomic diameter ≈ 2 × 1.4 × 10⁻¹⁰ m = 2.8 × 10⁻¹⁰ m', 'thin foil reduces absorption', 'multiple scattering increases large-angle events'],
@@ -33,7 +33,7 @@ export const w_c12_physicsrutherfordscatteringsim: SimDef = {
             { text: 'N₂ = 1000 × 0.01792 = 17.92 ≈ 18 particles per minute.', faded: true, blankAnswer: '18 particles per minute (at 90°).' }
             ] } }
     ],
-    explore: { component: C12_PhysicsRutherfordScatteringSim, prompt: 'Explore the interactive — Rutherford Scattering' },
+    explore: { component: C12_PhysicsRutherfordScatteringSim, prompt: 'Explore the interactive — Rutherford\'s Nuclear Model: Alpha Scattering Experiment' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_12_001', difficulty: 'standard',
           question: 'Rutherford\'s nuclear model of the atom states that the entire positive charge.',

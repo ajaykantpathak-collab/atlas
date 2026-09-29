@@ -178,8 +178,8 @@ export const c12_geo_ch20_p2: SimDef = {
                   options: ['Correlation does not imply causation', 'no correlation', 'a scatter diagram with points forming a clear curve (e'],
                   hint: 'Revisit c12_geo_cbse_20_001 (axis scaling rules) and c12_geo_cbse_20_005 (plotting points on line.',
                   misconception: 'Students often believe that a scatter diagram with points forming a clear curve (e.g., parabolic) indicates "no correlation" because it.' },
-                { id: 'b', prompt: 'Given the following paired data for 5 hill stations: Altitude (m): 1200, 1500, 1800, 2100, 2400; Mean July Temp (°C): 22.4, 20.5, 18.7, 16.8, 15.0.', answer: 'Steps: (1) X-axis: Altitude 1000–2500 m, 1 cm = 200 m',
-                  options: ['Steps: (1) X-axis: Altitude 1000–2500 m, 1 cm = 200 m', 'no correlation', 'a scatter diagram with points forming a clear curve (e'],
+                { id: 'b', prompt: 'Given the following paired data for 5 hill stations: Altitude (m): 1200, 1500, 1800, 2100, 2400; Mean July Temp (°C): 22.4, 20.5, 18.7, 16.8, 15.0.', answer: '(1) X-axis: Altitude 1000–2500 m, 1 cm = 200 m',
+                  options: ['(1) X-axis: Altitude 1000–2500 m, 1 cm = 200 m', 'no correlation', 'a scatter diagram with points forming a clear curve (e'],
                   hint: 'Revisit c12_geo_cbse_20_001 (axis scaling rules) and c12_geo_cbse_20_005 (plotting points on line.',
                   misconception: 'Students often believe that a scatter diagram with points forming a clear curve (e.g., parabolic) indicates "no correlation" because it.' }
           ],

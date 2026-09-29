@@ -6,13 +6,13 @@ import C11_MathematicsSetsRepresentationsEmptySim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathematicssetsrepresentationsemptysim: SimDef = {
     id: 'v3w_c11_mathematicssetsrepresentationsemptysim',
-    title: 'Sets Representations Empty',
+    title: 'Introduction to Sets: Definition and Notation',
     subtitle: 'This node covers: definition of a set (well-defined collection), element notation (∈, ∉),.',
     classLevel: 11, subject: 'mathematics', topic: 'Introduction to Sets: Definition and Notation',
     chapters: [],
     nodeIds: ['c11_math_cbse_01_001', 'c11_math_cbse_01_010', 'c11_math_cbse_02_002', 'c11_math_cbse_02_003', 'c11_math_cbse_06_005', 'c11_math_cbse_01_002', 'c11_math_cbse_01_004', 'c11_math_cbse_01_006', 'c11_math_cbse_01_007', 'c11_math_cbse_01_008', 'c11_math_cbse_01_009', 'c11_math_cbse_01_011', 'c11_math_cbse_02_001', 'c11_math_cbse_02_004', 'c11_math_cbse_01_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are the class representative tasked with creating a list of students who scored above 90% in the.', goal: 'Master Sets Representations Empty.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are the class representative tasked with creating a list of students who scored above 90% in the.', goal: 'Master Introduction to Sets: Definition and Notation.' },
     discovery: {
         question: 'State the definition of intersection of two sets A and B using set-builder notation and the symbol ∈.',
         options: ['A ∩ B = {x : x ∈ A and x ∈ B}', 'disjoint', 'different descriptions'],
@@ -80,7 +80,7 @@ export const w_c11_mathematicssetsrepresentationsemptysim: SimDef = {
             { text: 'Conclusion: 2024 → empty; 2025 → singleton; 2026 → finite (with 3 elements).', faded: true, blankAnswer: '2024: empty set; 2025: singleton set; 2026: finite set (3.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_01_010', title: 'Identify each idea',
-          dissect: { specimen: 'Sets Representations Empty', spots: [
+          dissect: { specimen: 'Introduction to Sets: Definition and Notation', spots: [
             { id: 's1', label: 'A set is a well-defined', prompt: 'Which idea is this? — A set is a well-defined collection of distinct objects, where "well-defined" means for.', answer: 'A set is a well-defined', options: ['A set is a well-defined', 'The intersection of two sets', 'The Cartesian product of two', 'A relation R from a'] },
             { id: 's2', label: 'The intersection of two sets', prompt: 'Which idea is this? — The intersection of two sets A and B, denoted by A ∩ B, is the set of all elements that.', answer: 'The intersection of two sets', options: ['The intersection of two sets', 'A set is a well-defined', 'The Cartesian product of two', 'A relation R from a'] },
             { id: 's3', label: 'The Cartesian product of two', prompt: 'Which idea is this? — The Cartesian product of two non-empty sets A and B, denoted A × B, is the set of all.', answer: 'The Cartesian product of two', options: ['The Cartesian product of two', 'A set is a well-defined', 'The intersection of two sets', 'A relation R from a'] },
@@ -89,7 +89,7 @@ export const w_c11_mathematicssetsrepresentationsemptysim: SimDef = {
             { id: 's6', label: 'A set is classified by', prompt: 'Which idea is this? — A set is classified by its cardinality (number of elements): an **empty set** (denoted φ.', answer: 'A set is classified by', options: ['A set is classified by', 'A set is a well-defined', 'The intersection of two sets', 'The Cartesian product of two'] }
           ] } }
     ],
-    explore: { component: C11_MathematicsSetsRepresentationsEmptySim, prompt: 'Explore the interactive — Sets Representations Empty' },
+    explore: { component: C11_MathematicsSetsRepresentationsEmptySim, prompt: 'Explore the interactive — Introduction to Sets: Definition and Notation' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_01_001', difficulty: 'standard',
           question: 'A set is a well-defined collection of distinct objects, where "well-defined".',

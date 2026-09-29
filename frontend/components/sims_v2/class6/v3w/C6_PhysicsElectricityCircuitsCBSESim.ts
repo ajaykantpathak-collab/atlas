@@ -6,13 +6,13 @@ import C6_PhysicsElectricityCircuitsCBSESim from '../../../simulations/c6_12/C6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_physicselectricitycircuitscbsesim: SimDef = {
     id: 'v3w_c6_physicselectricitycircuitscbsesim',
-    title: 'Electricity Circuits CBSE',
+    title: 'A Torchlight and Its Parts',
     subtitle: 'This node covers the basic components and the concept of an "open" vs.',
     classLevel: 6, subject: 'physics', topic: 'A Torchlight and Its Parts',
     chapters: [],
     nodeIds: ['c6_physics_ch03_011', 'c6_physics_ch03_012', 'c6_physics_ch03_013', 'c6_physics_ch03_014', 'c6_physics_ch03_015', 'c6_physics_ch03_017', 'c6_physics_ch03_016'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why your torchlight doesn\'t stay on all the time, even when the battery is inside?', goal: 'Master Electricity Circuits CBSE.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why your torchlight doesn\'t stay on all the time, even when the battery is inside?', goal: 'Master A Torchlight and Its Parts.' },
     discovery: {
         question: 'Name the three basic components found inside a standard torchlight that allow it to function.',
         options: ['The three components are the battery, the bulb, and the switch', 'used up', 'electricity is "used up" by the bulb and vanishes'],
@@ -71,7 +71,7 @@ export const w_c6_physicselectricitycircuitscbsesim: SimDef = {
                 { text: 'gets used up', outcome: 'Not quite — Students often think that electricity "gets used up" as it travels through each bulb, causing them.', reveals: 'electricity-gets-used-up-as' }
             ] }] } }
     ],
-    explore: { component: C6_PhysicsElectricityCircuitsCBSESim, prompt: 'Explore the interactive — Electricity Circuits CBSE' },
+    explore: { component: C6_PhysicsElectricityCircuitsCBSESim, prompt: 'Explore the interactive — A Torchlight and Its Parts' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_physics_ch03_011', difficulty: 'standard',
           question: 'A torchlight is a portable electrical system that generates light by creating a.',

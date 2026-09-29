@@ -6,13 +6,13 @@ import C12_PhysicsRayOpticsAndOpticalInstrumentsSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsrayopticsandopticalinstrumentssim: SimDef = {
     id: 'v3w_c12_physicsrayopticsandopticalinstrumentssim',
-    title: 'Ray Optics And Optical Instruments',
+    title: 'Spherical Mirrors: Mirror Formula and Magnification',
     subtitle: 'This node covers: derivation of mirror formula and magnification for spherical mirrors.',
     classLevel: 12, subject: 'physics', topic: 'Spherical Mirrors: Mirror Formula and Magnification',
     chapters: [],
     nodeIds: ['c12_phy_cbse_09_002', 'c12_phy_cbse_09_006', 'c12_phy_cbse_09_007', 'c12_phy_cbse_09_003', 'c12_phy_cbse_09_004', 'c12_phy_cbse_09_008', 'c12_phy_cbse_09_010', 'c12_phy_cbse_09_011', 'c12_phy_cbse_10_007', 'c12_phy_cbse_09_001', 'c12_phy_cbse_09_009', 'c12_phy_cbse_09_005', 'c12_phy_cbse_10_001', 'c12_phy_cbse_10_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe the side-view mirror of a parked car (convex mirror): objects appear smaller and farther than they.', goal: 'Master Ray Optics And Optical Instruments.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe the side-view mirror of a parked car (convex mirror): objects appear smaller and farther than they.', goal: 'Master Spherical Mirrors: Mirror Formula and Magnification.' },
     discovery: {
         question: 'State the formula for the effective focal length \\(F\\) of three thin lenses of focal lengths \\(f_1, f_2, f_3\\) placed in contact.',
         options: ['\\(\\frac{1}{F} = \\frac{1}{f_1} + \\frac{1}{f_2} + \\frac{1}{f_3}\\)', 'does nothing', 'behaves like a plane glass plate'],
@@ -84,7 +84,7 @@ export const w_c12_physicsrayopticsandopticalinstrumentssim: SimDef = {
             { text: 'Physical reasonableness: δ = 30° is positive and less than (i+e) = 90°.', faded: true, blankAnswer: '(a) δ = 30°. (b) r1 ≈ 25.4°, r2 ≈ 34.6°. (c) No, the ray.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_09_006', title: 'Identify each idea',
-          dissect: { specimen: 'Ray Optics And Optical Instruments', spots: [
+          dissect: { specimen: 'Spherical Mirrors: Mirror Formula and Magnification', spots: [
             { id: 's1', label: 'The mirror formula relates the', prompt: 'Which idea is this? — The mirror formula relates the object distance (u), image distance (v), and focal length.', answer: 'The mirror formula relates the', options: ['The mirror formula relates the', 'The thin lens formula relates', 'The combination of thin lenses', 'Refraction is the bending of'] },
             { id: 's2', label: 'The thin lens formula relates', prompt: 'Which idea is this? — The thin lens formula relates the object distance (u), image distance (v), and focal.', answer: 'The thin lens formula relates', options: ['The thin lens formula relates', 'The mirror formula relates the', 'The combination of thin lenses', 'Refraction is the bending of'] },
             { id: 's3', label: 'The combination of thin lenses', prompt: 'Which idea is this? — The combination of thin lenses in contact refers to an optical system where two or more.', answer: 'The combination of thin lenses', options: ['The combination of thin lenses', 'The mirror formula relates the', 'The thin lens formula relates', 'Refraction is the bending of'] },
@@ -93,7 +93,7 @@ export const w_c12_physicsrayopticsandopticalinstrumentssim: SimDef = {
             { id: 's6', label: 'A prism is a transparent', prompt: 'Which idea is this? — A prism is a transparent optical medium bounded by two plane refracting surfaces inclined.', answer: 'A prism is a transparent', options: ['A prism is a transparent', 'The mirror formula relates the', 'The thin lens formula relates', 'The combination of thin lenses'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsRayOpticsAndOpticalInstrumentsSim, prompt: 'Explore the interactive — Ray Optics And Optical Instruments' },
+    explore: { component: C12_PhysicsRayOpticsAndOpticalInstrumentsSim, prompt: 'Explore the interactive — Spherical Mirrors: Mirror Formula and Magnification' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_09_002', difficulty: 'standard',
           question: 'The mirror formula relates the object distance (u), image distance (v), and.',

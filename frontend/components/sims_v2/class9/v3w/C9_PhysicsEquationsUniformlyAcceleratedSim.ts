@@ -6,13 +6,13 @@ import C9_PhysicsEquationsUniformlyAcceleratedSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_physicsequationsuniformlyacceleratedsim: SimDef = {
     id: 'v3w_c9_physicsequationsuniformlyacceleratedsim',
-    title: 'Equations Uniformly Accelerated',
+    title: 'Equations of Motion: Derivation',
     subtitle: 'This node covers the algebraic and graphical derivation of the three equations of motion.',
     classLevel: 9, subject: 'physics', topic: 'Equations of Motion: Derivation',
     chapters: [],
     nodeIds: ['c9_physics_ch2_8', 'c9_physics_ch2_9', 'c9_physics_ch2_7', 'c9_physics_ch2_3', 'c9_physics_ch2_11', 'c9_physics_ch2_10', 'c9_physics_ch2_2', 'c9_physics_ch2_4', 'c9_physics_ch2_5', 'c9_physics_ch2_6'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine a motorcycle at a traffic signal in Delhi – it starts from rest and accelerates uniformly to cross.', goal: 'Master Equations Uniformly Accelerated.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine a motorcycle at a traffic signal in Delhi – it starts from rest and accelerates uniformly to cross.', goal: 'Master Equations of Motion: Derivation.' },
     discovery: {
         question: 'Two cyclists start from the same point on a straight road. Cyclist A moves with constant velocity 5 m/s.',
         options: ['At t=2s: s_A = 5×2 = 10 m', 'B is always ahead', 'A is always ahead'],
@@ -79,7 +79,7 @@ export const w_c9_physicsequationsuniformlyacceleratedsim: SimDef = {
             { text: 'Compute centripetal acceleration: \\(a_c = \\omega^2 r = (12.57)^2 \\times 0.6 = 158 \\times 0.6 = 94.8\\ \\text{m/s}^2\\).', faded: true, blankAnswer: '(a) \\(\\omega = 4\\pi \\approx 12.6\\ \\text{rad/s}\\), (b) \\(v.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_physics_ch2_9', title: 'Identify each idea',
-          dissect: { specimen: 'Equations Uniformly Accelerated', spots: [
+          dissect: { specimen: 'Equations of Motion: Derivation', spots: [
             { id: 's1', label: 'The three equations of motion', prompt: 'Which idea is this? — The three equations of motion are mathematical relationships that connect the five.', answer: 'The three equations of motion', options: ['The three equations of motion', 'Equations of Motion Applications involve', 'A velocity-time graph plots velocity', 'Velocity is a vector quantity'] },
             { id: 's2', label: 'Equations of Motion Applications involve', prompt: 'Which idea is this? — Equations of Motion Applications involve using the three kinematic equations (v = u + at,.', answer: 'Equations of Motion Applications involve', options: ['Equations of Motion Applications involve', 'The three equations of motion', 'A velocity-time graph plots velocity', 'Velocity is a vector quantity'] },
             { id: 's3', label: 'A velocity-time graph plots velocity', prompt: 'Which idea is this? — A velocity-time graph plots velocity (m/s) on the vertical axis against time (s) on the.', answer: 'A velocity-time graph plots velocity', options: ['A velocity-time graph plots velocity', 'The three equations of motion', 'Equations of Motion Applications involve', 'Velocity is a vector quantity'] },
@@ -88,7 +88,7 @@ export const w_c9_physicsequationsuniformlyacceleratedsim: SimDef = {
             { id: 's6', label: 'Uniform circular motion is the', prompt: 'Which idea is this? — Uniform circular motion is the motion of an object traveling at a constant speed along a.', answer: 'Uniform circular motion is the', options: ['Uniform circular motion is the', 'The three equations of motion', 'Equations of Motion Applications involve', 'A velocity-time graph plots velocity'] }
           ] } }
     ],
-    explore: { component: C9_PhysicsEquationsUniformlyAcceleratedSim, prompt: 'Explore the interactive — Equations Uniformly Accelerated' },
+    explore: { component: C9_PhysicsEquationsUniformlyAcceleratedSim, prompt: 'Explore the interactive — Equations of Motion: Derivation' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_physics_ch2_8', difficulty: 'standard',
           question: 'The three equations of motion are mathematical relationships that connect the.',
@@ -170,8 +170,8 @@ export const w_c9_physicsequationsuniformlyacceleratedsim: SimDef = {
                   options: ['The statement is false', 'slowing down', 'a negative slope on a v-t graph always means "slowing down"'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that a negative slope on a v-t graph always means "slowing down".' },
-                { id: 'b', prompt: 'Design a simple experiment using a smartphone\'s accelerometer and a toy car on a ramp to verify that the area under a velocity-time graph equals displacement.', answer: 'Steps: (1) Place phone on toy car, start accelerometer recording',
-                  options: ['Steps: (1) Place phone on toy car, start accelerometer recording', 'slowing down', 'a negative slope on a v-t graph always means "slowing down"'],
+                { id: 'b', prompt: 'Design a simple experiment using a smartphone\'s accelerometer and a toy car on a ramp to verify that the area under a velocity-time graph equals displacement.', answer: '(1) Place phone on toy car, start accelerometer recording',
+                  options: ['(1) Place phone on toy car, start accelerometer recording', 'slowing down', 'a negative slope on a v-t graph always means "slowing down"'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think that a negative slope on a v-t graph always means "slowing down".' }
           ],

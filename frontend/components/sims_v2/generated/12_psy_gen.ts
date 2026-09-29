@@ -9,7 +9,7 @@ import type { SimDef } from '../engine/types';
 export const C12_PSY_GEN: SimDef[] = [
  {
   "id": "gen_c12_psy_ch02",
-  "title": "Individual Differences Refer To The",
+  "title": "Individual Differences Refer",
   "subtitle": "Psychology · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
@@ -45,7 +45,7 @@ export const C12_PSY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Individual Differences Refer To The",
+    "title": "Individual Differences: Nature,",
     "text": "Individual differences refer to the distinctiveness and variability among people in their psychological characteristics (such as intelligence, personality, aptitude, interests, values) and behavior patterns, arising from the complex interplay of hereditary",
     "emoji": "🧠",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -754,7 +754,7 @@ export const C12_PSY_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Historical Background And Classification Of",
+    "title": "Historical Background and Classification",
     "text": "Historical Background and Classification of Disorders refers to the evolution of explanatory models for abnormal behaviour (supernatural, biological, psychological) from ancient times to the modern bio-psycho-social approach, and the standardized systems",
     "emoji": "🧠",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1508,7 +1508,7 @@ export const C12_PSY_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "S.M. Mohsin's Two-Step Concept Of",
+    "title": "S.M. Mohsin's Two-Step Concept Of Attitude",
     "text": "S.M. Mohsin's Two-Step Concept of Attitude Change proposes that attitude change occurs through a sequential process: (1) Identification — the target person develops liking and regard for the source, psychologically putting themselves in the source's place,",
     "emoji": "🧠",
     "bgColor": "from-violet-400 to-purple-500"

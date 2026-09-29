@@ -19,7 +19,7 @@ export const c12_eng_v_ch01_p3: SimDef = {
         hook: 'Finney grounds the impossible in the mundane — a tan gabardine suit, a stamp collection, a wife to get home to — so fantasy borrows credibility. Even the stamps are contested ground: the psychiatrist calls them \'refuge,\' Charley calls them inheritance from a gentler era.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the disciplined process of actively examining, interpreting, and evaluating a text\'s deeper meanings by questioning assumptions, weighing textual evidence.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Third Level\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_01_013', title: 'Your mission',
@@ -29,21 +29,21 @@ export const c12_eng_v_ch01_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_01_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re Charley, standing in a crowded metro station after a terrible day — deadlines, traffic, news alerts about war and inflation — and you suddenly.',
+          caseStudy: { intro: 'Analyse \'The Third Level\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What does the psychiatrist mean by "waking-dream wish fulfillment" in the context of Charley\'s experience?', options: [
                 { text: 'The psychiatrist means Charley\'s discovery of the third level is not an objective reality', outcome: 'The psychiatrist means Charley\'s discovery of the third level is not an objective reality but.' },
                 { text: 'the psychiatrist thinks Charley is lying', outcome: 'Not quite — Students believe "critical thinking" means picking one interpretation (either "it\'s all in his.', reveals: 'critical-thinking-means-picking-one' },
                 { text: 'it means the third level is a dream Charley had while sleeping', outcome: 'Not quite — Students believe "critical thinking" means picking one interpretation (either "it\'s all in his.', reveals: 'critical-thinking-means-picking-one' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_01_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing Question 3: "\'The modern world is full of insecurity, fear, war, worry and stress.\' What are the ways in which.',
+          caseStudy: { intro: 'For written answers on \'The Third Level\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does PEEL stand for in the context of writing structured answers for Class 12 English board exams?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explain, Conclusion', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarizing the story or writing.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarizing the story or writing.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_01_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a book club where everyone has read "The Third Level" but interpretations differ wildly: some say Charley time-traveled, others say.',
+          caseStudy: { intro: 'Talk through \'The Third Level\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'List three discussion points derived from "The Third Level" that would be suitable for a 10-minute group discussion in a Class 12 ASL.', options: [
                 { text: 'Strong discussion points include: (1) "Is the third level a real time portal or a', outcome: 'Strong discussion points include: (1) "Is the third level a real time portal or a psychological.' },
                 { text: 'A wrong answer would list factual recall questions like', outcome: 'Not quite — Students believe "discussion points" are just comprehension questions asked aloud.', reveals: 'discussion-points-are-just-comprehension' },
@@ -68,12 +68,12 @@ export const c12_eng_v_ch01_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the disciplined process of actively.',
+          question: 'Critical thinking on \'The Third Level\' — analysing the text to reach.',
           hint: 'If stuck, review c12_eng_v_cbse_01_012 for inferential question practice and.',
           misconception: 'Students believe "critical thinking" means picking one interpretation (either "it\'s all in his head" or "time travel.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis is the disciplined process of actively examining,',
-                  options: ['Critical thinking in literary analysis is the disciplined process of actively examining,', 'The "Before You Read" section is a pre-reading activity that activates prior knowledge,', 'Plot is the sequence of events that make up a story, while narrative structure refers to', 'Setting is the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'The Third Level\'',
+                  options: ['Critical thinking on \'The Third Level\'', '\'The Third Level\' (Vistas, ch', 'The plot/narrative arc of \'The Third Level\'', 'The setting of \'The Third Level\''],
                   hint: 'If stuck, review c12_eng_v_cbse_01_012 for inferential question practice and c11_eng_h_cbse_01_013.',
                   misconception: 'Students believe "critical thinking" means picking one interpretation (either "it\'s all in his head" or "time travel is real") and.' }
           ],
@@ -90,7 +90,7 @@ export const c12_eng_v_ch01_p3: SimDef = {
           ],
             remediations: { 'critical-thinking-means-picking-one': { steps: ['Have the student re-read the psychiatrist\'s dialogue (para 1) and Charley\'s counter-arguments (grandfather\'s peaceful.', 'Create a two-column table: "Evidence for Psychological Escape" vs.', 'Practice writing a PEEL paragraph that *starts* with "The text supports both readings..." and uses evidence from both.', 'Re-attempt Diagnostic Question 5. If still stuck, revisit c12_eng_v_cbse_01_009 (Irony and Symbolism) to see how the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter "The Third Level" refers to the ability.',
+          question: 'Writing skills from \'The Third Level\' — using the text as a model.',
           hint: 'If unable to write PEEL paragraphs, revisit Class 11 Writing Skills.',
           misconception: 'Students believe "writing skills based on the chapter" means summarizing the story or writing a character sketch.',
           parts: [
@@ -109,7 +109,7 @@ export const c12_eng_v_ch01_p3: SimDef = {
           ],
             remediations: { 'writing-skills-based-on-the': { steps: ['If a student cannot produce a PEEL paragraph with two textual evidences: 1) Revisit c12_eng_v_cbse_01_012.', '2) Revisit c11_eng_h_cbse_01_014 / c11_eng_w_cbse_01_014 (Class 11 Writing Skills) for PEEL refresher with simpler.', '3) Do a targeted drill: give the student 3 insight questions from "The Third Level", ask them to highlight 2 quotes per.', '4) Re-diagnose using DIAGNOSTIC_QUESTION_3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_01_015', difficulty: 'standard',
-          question: 'Discussion points are open-ended, text-grounded questions or prompts designed.',
+          question: 'Discussion points on \'The Third Level\' — speaking and listening around the text.',
           hint: 'If stuck, revisit c12_eng_v_cbse_01_013 (Critical Thinking) for analysis models and.',
           misconception: 'Students believe "discussion points" are just comprehension questions asked aloud.',
           parts: [

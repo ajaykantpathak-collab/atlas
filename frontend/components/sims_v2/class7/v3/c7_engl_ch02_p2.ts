@@ -19,7 +19,7 @@ export const c7_engl_ch02_p2: SimDef = {
         hook: 'Dr Dolittle is not merely a funny pet collector. Losing income, patients, and social standing are sacrifices — and when his parrot teaches him that animals have their own language, pets become voices worth listening to, not objects.',
     },
     teaching: [
-        { title: 'Vocabulary in Context: scholar, vet, cracker, sense', text: 'Vocabulary in Context refers to the practice of deducing or understanding the precise meaning of words—such as "scholar," "vet," "cracker," and "sense"—by analyzing how they are used within the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Vocabulary in Context: scholar, vet, cracker, sense', text: 'From \'English chapter c7_engl_ch02\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c7_engl_ch02_007', title: 'Your mission',
@@ -88,7 +88,7 @@ export const c7_engl_ch02_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_engl_ch02_007', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the practice of deducing or understanding the.',
+          question: 'From \'English chapter c7_engl_ch02\': the skill or concept this node teaches.',
           hint: 'Review Class 6 strategies for context clues (looking for definition clues, example clues.',
           misconception: 'Students often assume that words like "vet" or "scholar" have only one rigid definition that never shifts based.',
           parts: [
@@ -115,7 +115,7 @@ export const c7_engl_ch02_p2: SimDef = {
           misconception: 'Students often believe that character traits are *only* established through explicit author descriptions (e.g., "He was.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The way an author uses spoken words (dialogue) between characters and their distinct',
-                  options: ['The way an author uses spoken words (dialogue) between characters and their distinct', 'Character analysis of Dr', 'Polynesia the parrot acts as a wise mentor, translator, and moral compass for Dr', 'The narrative arc that traces Dr'],
+                  options: ['The way an author uses spoken words (dialogue) between characters and their distinct', 'From \'English chapter c7_engl_ch02\': the skill or concept this node teaches, applied to', 'Polynesia the parrot acts as a wise mentor, translator, and moral compass for Dr', 'The narrative arc that traces Dr'],
                   hint: 'Review the basic definition of dialogue and practice identifying who is speaking in a short story.',
                   misconception: 'Students often believe that character traits are *only* established through explicit author descriptions (e.g., "He was a kind man") and.' }
           ],
@@ -140,7 +140,7 @@ export const c7_engl_ch02_p2: SimDef = {
           ],
             remediations: { 'dr': { steps: ['Dolittle learned magically, guide them back to the text step-by-step.', 'Ask: "Who spoke to him first?', 'What did Polynesia tell him about the difference between short-hand bird talk and long-hand talking?" Point out.', 'Explain that just like learning French or Hindi in school, Dr.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c7_engl_ch02_010', difficulty: 'standard',
-          question: 'Critical thinking about animals involves developing deep empathy to understand.',
+          question: 'From \'English chapter c7_engl_ch02\': the skill or concept this node teaches.',
           hint: 'Review c7_engl_ch02_004 to see practical examples of how Dr. Dolittle interprets animal.',
           misconception: 'Students often confuse anthropomorphism (giving human traits to animals in fairy tales, like wearing clothes) with.',
           parts: [

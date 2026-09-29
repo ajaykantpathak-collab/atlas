@@ -19,38 +19,38 @@ export const c12_eng_f_ch03_p1: SimDef = {
         hook: 'This isn\'t a swimming story — it\'s an autopsy of fear by a man who later sat 36 years on the US Supreme Court. Two events matter separately: the beach planted the aversion, the pool crystallised it. And the fear wasn\'t irrational — it was proportionate to nearly dying twice.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'The "Before You Read: Context and Background" section provides essential preliminary information about the author (William O.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Deep Water\' (Flamingo, ch. 3) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_03_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Trace fear\'s full anatomy: separate the beach origin from the pool trauma, watch terror \'hold him firmly in its grip\', then follow the belt-and-pulley drills that dismantled it piece by piece.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_03_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a movie based on a true story — you\'d want to know who the real person is, where it happened, and why it matters.',
+          caseStudy: { intro: 'Start with the author of \'Deep Water\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who is William O. Douglas, and what significant position did he hold in the US government?', options: [
                 { text: 'William O', outcome: 'William O. Douglas (1898–1980) was an American jurist who served as an Associate Justice of the.' },
                 { text: 'he was a swimming instructor', outcome: 'Not quite — Students often treat "Before You Read" as optional background trivia — skipping the author\'s.', reveals: 'students-often-treat-before-you' },
                 { text: 'he wrote fiction novels', outcome: 'Not quite — Students often treat "Before You Read" as optional background trivia — skipping the author\'s.', reveals: 'students-often-treat-before-you' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_03_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re watching a movie that starts with the hero drowning, then flashes back to show how he got there, then jumps forward to his training montage, and.',
+          caseStudy: { intro: 'Trace \'Deep Water\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'Identify the inciting incident in "Deep Water" and explain why the California beach memory (father laughing as waves knock down 3-year-old.', options: [
                 { text: 'The inciting incident is the big boy throwing Douglas into the deep end of the YMCA pool', outcome: 'The inciting incident is the big boy throwing Douglas into the deep end of the YMCA pool ("He.' },
                 { text: 'the inciting incident is Douglas deciding to learn to swim', outcome: 'Not quite — Students believe "plot structure" means only listing events in order (first this happened, then.', reveals: 'plot-structure-means-only-listing' },
                 { text: 'plot structure', outcome: 'Not quite — Students believe "plot structure" means only listing events in order (first this happened, then.', reveals: 'plot-structure-means-only-listing' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_03_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re watching a movie where the hero nearly drowns — but the camera keeps cutting to the lifeguard who freezes, the bully who laughs, the coach who.',
+          caseStudy: { intro: 'Spot the secondary figures in \'Deep Water\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List the four most significant supporting characters in "Deep Water" and state one specific action each takes that directly affects Douglas.', options: [
                 { text: 'The four most significant supporting characters are: (1) The big bruiser boy', outcome: 'The four most significant supporting characters are: (1) The big bruiser boy — tosses Douglas into.' },
                 { text: 'the YMCA pool', outcome: 'Not quite — Students treat supporting characters as *passive background* — e.g., "The instructor taught him.', reveals: 'students-treat-supporting-characters-as' },
                 { text: 'the YMCA pool" as a character or omitting the instructor', outcome: 'Not quite — Students treat supporting characters as *passive background* — e.g., "The instructor taught him.', reveals: 'students-treat-supporting-characters-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_03_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re standing at the edge of a pool, heart pounding, remembering a time you almost drowned — that visceral memory is exactly where Douglas begins.',
+          caseStudy: { intro: 'Ask what \'Deep Water\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'State the primary theme of "Deep Water" in one sentence, using the exact phrasing the chapter\'s final paragraph implies.', options: [
                 { text: 'Correct answer: The primary theme is that fear itself', outcome: 'Correct answer: The primary theme is that fear itself — not the dangerous situation — is the true.' },
                 { text: 'The theme is learning to swim', outcome: 'Not quite — Students often think the primary theme is "determination" or "perseverance" because Douglas.', reveals: 'the-primary-theme-is-determination' },
@@ -70,12 +70,12 @@ export const c12_eng_f_ch03_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_001', difficulty: 'standard',
-          question: 'The "Before You Read: Context and Background" section provides essential.',
+          question: '\'Deep Water\' (Flamingo, ch. 3) — the context and background to this text: who.',
           hint: 'If unsure about autobiographical analysis, review Class 11 Hornbill Chapter 1 node.',
           misconception: 'Students often treat "Before You Read" as optional background trivia — skipping the author\'s Supreme Court tenure, the.',
           parts: [
@@ -84,9 +84,9 @@ export const c12_eng_f_ch03_p1: SimDef = {
                   hint: 'If unsure about autobiographical analysis, review Class 11 Hornbill Chapter 1 node.',
                   misconception: 'Students often treat "Before You Read" as optional background trivia — skipping the author\'s Supreme Court tenure, the memoir source,.' }
           ],
-            remediations: { 'students-often-treat-before-you': { steps: ['If the student cannot articulate the author\'s identity, the two traumas, or the safe-vs-treacherous setting contrast.', '(2) Draw a two-column table: "Beach (age 3-4)" vs.', '"Pool (age 10-11)" — fill in sensory details (waves vs.', 'tiles, father\'s laughter vs.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-before-you': { steps: ['If the student cannot articulate the author\'s identity, the two traumas, or the safe-vs-treacherous setting contrast.', '(2) Draw a two-column table: "Beach (age 3-4)" vs.', '"Pool (age 10-11)" — fill in sensory details (waves vs.', 'tiles, father\'s laughter vs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_002', difficulty: 'standard',
-          question: 'Plot and narrative structure in "Deep Water" refers to the organization.',
+          question: 'The plot/narrative arc of \'Deep Water\' — what happens, in what order, and why.',
           hint: 'If confused about narrative vs chronological order: Revisit c11_eng_w_cbse_02_002 (Woven.',
           misconception: 'Students believe "plot structure" means only listing events in order (first this happened, then that).',
           parts: [
@@ -95,7 +95,7 @@ export const c12_eng_f_ch03_p1: SimDef = {
                   hint: 'If confused about narrative vs chronological order: Revisit c11_eng_w_cbse_02_002 (Woven Words.',
                   misconception: 'Students believe "plot structure" means only listing events in order (first this happened, then that).' }
           ],
-            remediations: { 'plot-structure-means-only-listing': { steps: ['Have the student draw a timeline of CHRONOLOGICAL events (beach age 3 → YMCA age 10 → years of avoidance → instructor.', 'Have them draw a second timeline of NARRATIVE ORDER (beach flashback → YMCA incident → rescue → years compressed →.', 'Ask: "Why does Douglas show the beach memory RIGHT BEFORE the YMCA throw?" Guide to: "To prove the fear was already.', 'Re-attempt Diagnostic Question 1 and 4 with this dual-timeline visual.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'plot-structure-means-only-listing': { steps: ['Have the student draw a timeline of CHRONOLOGICAL events (beach age 3 → YMCA age 10 → years of avoidance → instructor.', 'Have them draw a second timeline of NARRATIVE ORDER (beach flashback → YMCA incident → rescue → years compressed →.', 'Ask: "Why does Douglas show the beach memory RIGHT BEFORE the YMCA throw?" Guide to: "To prove the fear was already.', 'Re-attempt Diagnostic Question 1 and 4 with this dual-timeline visual.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_002', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -106,9 +106,9 @@ export const c12_eng_f_ch03_p1: SimDef = {
                   hint: 'If confused about narrative vs chronological order: Revisit c11_eng_w_cbse_02_002 (Woven Words.',
                   misconception: 'Students believe "plot structure" means only listing events in order (first this happened, then that).' }
           ],
-            remediations: { 'plot-structure-means-only-listing': { steps: ['Have the student draw a timeline of CHRONOLOGICAL events (beach age 3 → YMCA age 10 → years of avoidance → instructor.', 'Have them draw a second timeline of NARRATIVE ORDER (beach flashback → YMCA incident → rescue → years compressed →.', 'Ask: "Why does Douglas show the beach memory RIGHT BEFORE the YMCA throw?" Guide to: "To prove the fear was already.', 'Re-attempt Diagnostic Question 1 and 4 with this dual-timeline visual.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'plot-structure-means-only-listing': { steps: ['Have the student draw a timeline of CHRONOLOGICAL events (beach age 3 → YMCA age 10 → years of avoidance → instructor.', 'Have them draw a second timeline of NARRATIVE ORDER (beach flashback → YMCA incident → rescue → years compressed →.', 'Ask: "Why does Douglas show the beach memory RIGHT BEFORE the YMCA throw?" Guide to: "To prove the fear was already.', 'Re-attempt Diagnostic Question 1 and 4 with this dual-timeline visual.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and physical environment in which.',
+          question: 'The setting of \'Deep Water\' — the place, time and atmosphere the text creates.',
           hint: 'If unable to separate physical detail from psychological projection, practice with.',
           misconception: 'Students treat setting as a static "where" and atmosphere as a list of mood adjectives (scary, peaceful).',
           parts: [
@@ -117,20 +117,20 @@ export const c12_eng_f_ch03_p1: SimDef = {
                   hint: 'If unable to separate physical detail from psychological projection, practice with a simple.',
                   misconception: 'Students treat setting as a static "where" and atmosphere as a list of mood adjectives (scary, peaceful).' }
           ],
-            remediations: { 'students-treat-setting-as-a': { steps: ['If a student cannot distinguish setting from atmosphere or track atmospheric shifts: (1) Have them reread only the YMCA.', '(2) Ask them to read the same passage aloud twice — first in a calm voice, then in a panicked voice — to hear how.', '(3) Have them complete a two-column table: "Physical Detail" vs.', '"Psychological Effect" for 5 details.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-setting-as-a': { steps: ['If a student cannot distinguish setting from atmosphere or track atmospheric shifts: (1) Have them reread only the YMCA.', '(2) Ask them to read the same passage aloud twice — first in a calm voice, then in a panicked voice — to hear how.', '(3) Have them complete a two-column table: "Physical Detail" vs.', '"Psychological Effect" for 5 details.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist examines the central figure\'s personality.',
+          question: 'Character analysis in \'Deep Water\' — the central figure(s), their traits, and.',
           hint: 'Review "first-person narrative perspective" from c9_engl_ch1_007 (Grandmother\'s literacy.',
           misconception: 'Students treat Douglas as a passive victim who "got over it" rather than an active agent who ENGINEERED his recovery.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of the protagonist examines the central figure\'s personality traits,',
-                  options: ['Character analysis of the protagonist examines the central figure\'s personality traits,', 'The "Before You Read: Context and Background" section provides essential preliminary', 'Plot and narrative structure in "Deep Water" refers to the organization of events in', 'Setting refers to the time, place, and physical environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis in \'Deep Water\'',
+                  options: ['Character analysis in \'Deep Water\'', '\'Deep Water\' (Flamingo, ch', 'The plot/narrative arc of \'Deep Water\'', 'The setting of \'Deep Water\''],
                   hint: 'Review "first-person narrative perspective" from c9_engl_ch1_007 (Grandmother\'s literacy journey).',
                   misconception: 'Students treat Douglas as a passive victim who "got over it" rather than an active agent who ENGINEERED his recovery.' }
           ],
-            remediations: { 'students-treat-douglas-as-a': { steps: ['Have the student create a three-column timeline: Phase | Age | Key Actions | Internal State (use text quotes).', 'Ask: "What specific step did the instructor teach FIRST?', 'Why that order?" (Answer: belt support → face under/exhale → kicking → integration — physiological before.', 'Assign: Rewrite the "bruiser boy" paragraph (Diagnostic 6) but from the INSTRUCTOR\'s perspective.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-douglas-as-a': { steps: ['Have the student create a three-column timeline: Phase | Age | Key Actions | Internal State (use text quotes).', 'Ask: "What specific step did the instructor teach FIRST?', 'Why that order?" (Answer: belt support → face under/exhale → kicking → integration — physiological before.', 'Assign: Rewrite the "bruiser boy" paragraph (Diagnostic 6) but from the INSTRUCTOR\'s perspective.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters examines how secondary figures in.',
+          question: 'Supporting characters in \'Deep Water\' — the secondary figures who move the.',
           hint: 'Revisit c11_eng_h_cbse_01_005 (Character Analysis: Supporting Characters) for the.',
           misconception: 'Students treat supporting characters as *passive background* — e.g., "The instructor taught him to swim" (flat summary).',
           parts: [
@@ -143,9 +143,9 @@ export const c12_eng_f_ch03_p1: SimDef = {
                   hint: 'Revisit c11_eng_h_cbse_01_005 (Character Analysis: Supporting Characters) for the.',
                   misconception: 'Students treat supporting characters as *passive background* — e.g., "The instructor taught him to swim" (flat summary) instead of "The.' }
           ],
-            remediations: { 'students-treat-supporting-characters-as': { steps: ['If a student cannot move beyond plot-summary: (1) Give them a two-column table: Column A = "Character Action/Dialogue".', '(2) Have them fill it for the bruiser, instructor, mother, father using *only* text evidence.', '(3) Then ask: "If you removed this character, what specific stage of Douglas\'s fear/conquest would collapse?" (4).', 'This forces the shift from *who did what* to *what they represent in the architecture of fear*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-supporting-characters-as': { steps: ['If a student cannot move beyond plot-summary: (1) Give them a two-column table: Column A = "Character Action/Dialogue".', '(2) Have them fill it for the bruiser, instructor, mother, father using *only* text evidence.', '(3) Then ask: "If you removed this character, what specific stage of Douglas\'s fear/conquest would collapse?" (4).', 'This forces the shift from *who did what* to *what they represent in the architecture of fear*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_03_006', difficulty: 'standard',
-          question: 'The primary theme of "Deep Water" is the conquest of fear through deliberate.',
+          question: 'The primary theme of \'Deep Water\' — the central idea the whole text returns to.',
           hint: 'If stuck, return to c12_eng_f_cbse_03_002 and map the three acts on a timeline: label.',
           misconception: 'Students often think the primary theme is "determination" or "perseverance" because Douglas practices for months.',
           parts: [
@@ -162,7 +162,7 @@ export const c12_eng_f_ch03_p1: SimDef = {
                   hint: 'If stuck, return to c12_eng_f_cbse_03_002 and map the three acts on a timeline: label each act with.',
                   misconception: 'Students often think the primary theme is "determination" or "perseverance" because Douglas practices for months.' }
           ],
-            remediations: { 'the-primary-theme-is-determination': { steps: ['If the student confuses plot with theme: (1) Have them reread the final two paragraphs only.', '(2) Ask: "What does Douglas say the experience *meant*?" (3) Have them list three things the essay is NOT about (e.g.', '(4) Then ask: "What single psychological truth remains?" Guide them to "fear itself is the enemy." Re-diagnostic: Ask.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'the-primary-theme-is-determination': { steps: ['If the student confuses plot with theme: (1) Have them reread the final two paragraphs only.', '(2) Ask: "What does Douglas say the experience *meant*?" (3) Have them list three things the essay is NOT about (e.g.', '(4) Then ask: "What single psychological truth remains?" Guide them to "fear itself is the enemy." Re-diagnostic: Ask.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

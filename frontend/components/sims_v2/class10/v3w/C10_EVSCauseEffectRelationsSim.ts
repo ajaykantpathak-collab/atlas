@@ -6,16 +6,16 @@ import C10_EVSCauseEffectRelationsSim from '../../../simulations/c6_12/C10_EVSCa
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_evscauseeffectrelationssim: SimDef = {
     id: 'v3w_c10_evscauseeffectrelationssim',
-    title: 'Cause Effect Relations',
+    title: 'Reproductive Health: Contraception Methods and Their Importance',
     subtitle: 'This node covers the classification, mechanism, and importance of contraceptive methods.',
     classLevel: 10, subject: 'evs', topic: 'Reproductive Health: Contraception Methods and Their Importance',
     chapters: [],
     nodeIds: ['c10_bio_cbse_03_011', 'c10_chem_cbse_01_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine seeing a government poster in your neighbourhood clinic showing a small family with the message "Hum.', goal: 'Master Cause Effect Relations.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine seeing a government poster in your neighbourhood clinic showing a small family with the message "Hum.', goal: 'Master Reproductive Health: Contraception Methods and Their Importance.' },
     discovery: {
         question: 'Name any four contraceptive methods and state the category (barrier, chemical, surgical, natural) each belongs to.',
-        options: ['Correct answer: Condom (barrier), Oral contraceptive pills (chemical), Vasectomy', 'copper-T', 'killing the egg'],
+        options: ['Condom (barrier), Oral contraceptive pills (chemical), Vasectomy', 'copper-T', 'killing the egg'],
         answer: 'Condom (barrier), Oral contraceptive pills (chemical), Vasectomy',
         hook: 'Students believe that all hormonal contraceptives (pills, implants, injections) work by "killing the egg" or causing.',
     },
@@ -43,12 +43,12 @@ export const w_c10_evscauseeffectrelationssim: SimDef = {
             { text: 'Conclude: Sample A undergoes aerobic oxidation continuously; sample B is protected by both reactant removal (N₂.', faded: true, blankAnswer: 'Sample A allows continuous oxygen supply and light.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_chem_cbse_01_010', title: 'Identify each idea',
-          dissect: { specimen: 'Cause Effect Relations', spots: [
+          dissect: { specimen: 'Reproductive Health: Contraception Methods and Their Importance', spots: [
             { id: 's1', label: 'Contraception refers to the deliberate', prompt: 'Which idea is this? — Contraception refers to the deliberate use of artificial methods, devices, or practices.', answer: 'Contraception refers to the deliberate', options: ['Contraception refers to the deliberate', 'Rancidity is the slow oxidation'] },
             { id: 's2', label: 'Rancidity is the slow oxidation', prompt: 'Which idea is this? — Rancidity is the slow oxidation of fats and oils (triglycerides) in food materials by.', answer: 'Rancidity is the slow oxidation', options: ['Rancidity is the slow oxidation', 'Contraception refers to the deliberate'] }
           ] } }
     ],
-    explore: { component: C10_EVSCauseEffectRelationsSim, prompt: 'Explore the interactive — Cause Effect Relations' },
+    explore: { component: C10_EVSCauseEffectRelationsSim, prompt: 'Explore the interactive — Reproductive Health: Contraception Methods and Their Importance' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_bio_cbse_03_011', difficulty: 'standard',
           question: 'Contraception refers to the deliberate use of artificial methods, devices, or.',

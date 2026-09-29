@@ -6,13 +6,13 @@ import C8_MathematicsProportionalReasoning1Sim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicsproportionalreasoning1sim: SimDef = {
     id: 'v3w_c8_mathematicsproportionalreasoning1sim',
-    title: 'Proportional Reasoning1',
+    title: 'Proportional Change: Multiplicative vs Additive Changes',
     subtitle: 'Covers identification and comparison of multiplicative vs additive changes in.',
     classLevel: 8, subject: 'mathematics', topic: 'Proportional Change: Multiplicative vs Additive Changes',
     chapters: [],
     nodeIds: ['c8_math_ch7_1', 'c8_math_ch7_10', 'c8_math_ch10_3', 'c8_math_ch7_4', 'c8_math_ch7_5', 'c8_math_ch7_6', 'c8_math_ch7_8', 'c8_math_ch7_9', 'c8_math_ch10_10', 'c8_math_ch10_5', 'c8_math_ch10_7', 'c8_math_ch10_9', 'c8_math_ch12_12', 'c8_math_ch12_5'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you are helping your mother adjust a recipe for *aloo paratha* filling.', goal: 'Master Proportional Reasoning1.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you are helping your mother adjust a recipe for *aloo paratha* filling.', goal: 'Master Proportional Change: Multiplicative vs Additive Changes.' },
     discovery: {
         question: 'Riya has a 10 cm × 6 cm photo. She wants to enlarge it to a width of 25 cm.',
         options: ['The original aspect ratio is 10:6 = 5:3', 'adding keeps the shape the same', 'change'],
@@ -78,7 +78,7 @@ export const w_c8_mathematicsproportionalreasoning1sim: SimDef = {
             { text: 'Verify: 12.5 kg costs ₹625, so 3.2 kg (which is less than half) should cost less than ₹312.50. ₹160 is reasonable.', faded: true, blankAnswer: '₹160' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch7_10', title: 'Identify each idea',
-          dissect: { specimen: 'Proportional Reasoning1', spots: [
+          dissect: { specimen: 'Proportional Change: Multiplicative vs Additive Changes', spots: [
             { id: 's1', label: 'Proportional change refers to a', prompt: 'Which idea is this? — Proportional change refers to a change where quantities vary in a constant ratio.', answer: 'Proportional change refers to a', options: ['Proportional change refers to a', 'When an image is scaled', 'Calculating actual distances from map', 'Two ratios ab and cd'] },
             { id: 's2', label: 'When an image is scaled', prompt: 'Which idea is this? — When an image is scaled (enlarged or reduced), its width-to-height ratio (aspect ratio).', answer: 'When an image is scaled', options: ['When an image is scaled', 'Proportional change refers to a', 'Calculating actual distances from map', 'Two ratios ab and cd'] },
             { id: 's3', label: 'Calculating actual distances from map', prompt: 'Which idea is this? — Calculating actual distances from map scales uses the Representative Fraction (RF) or.', answer: 'Calculating actual distances from map', options: ['Calculating actual distances from map', 'Proportional change refers to a', 'When an image is scaled', 'Two ratios ab and cd'] },
@@ -87,7 +87,7 @@ export const w_c8_mathematicsproportionalreasoning1sim: SimDef = {
             { id: 's6', label: 'The unitary method is a', prompt: 'Which idea is this? — The unitary method is a technique for solving proportional problems by first finding the.', answer: 'The unitary method is a', options: ['The unitary method is a', 'Proportional change refers to a', 'When an image is scaled', 'Calculating actual distances from map'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsProportionalReasoning1Sim, prompt: 'Explore the interactive — Proportional Reasoning1' },
+    explore: { component: C8_MathematicsProportionalReasoning1Sim, prompt: 'Explore the interactive — Proportional Change: Multiplicative vs Additive Changes' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch7_1', difficulty: 'standard',
           question: 'Proportional change refers to a change where quantities vary in a constant.',

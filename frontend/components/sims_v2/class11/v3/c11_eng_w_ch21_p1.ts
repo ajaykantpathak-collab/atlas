@@ -19,48 +19,48 @@ export const c11_eng_w_ch21_p1: SimDef = {
         hook: 'The essay\'s real claim isn\'t \'science vs. poetry\' — it\'s that Newton and Keats ran the same two moves: fit the world to patterns, then remake patterns for the world.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'Before You Read: Context and Background is a preparatory section that provides essential information about the author, historical-intellectual context, key concepts, and central questions of the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Patterns of Creativity\' (Woven Words, ch. 21) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_21_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Map the essay\'s paragraphs as thesis, parallel anecdotes and synthesis, then weigh whether the returning \'child on the seashore\' closes the argument or just repeats it.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_21_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a documentary where a famous astrophysicist argues that the creative process of a poet like Keats and a scientist like Newton.',
+          caseStudy: { intro: 'Start with the author of \'Patterns of Creativity\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who is the author of "Patterns of Creativity" and what is his primary scientific achievement?', options: [
                 { text: 'The author is S', outcome: 'The author is S. Chandrasekhar (Subrahmanyan Chandrasekhar), a Nobel Prize-winning astrophysicist.' },
                 { text: 'a poet or a different scientist', outcome: 'Not quite — Students often believe this essay merely contrasts science and poetry (science = facts, poetry.', reveals: 'this-essay-merely-contrasts-science' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_21_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are asked to explain how a filmmaker structures a documentary about two different crafts — say, a potter and a physicist — to show their surprising.',
+          caseStudy: { intro: 'Trace \'Patterns of Creativity\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the thesis statement of "Patterns of Creativity" and in which paragraph does it first appear?', options: [
                 { text: 'The thesis is that both poetry and science rely on imaginative leaps and pattern-making,', outcome: 'The thesis is that both poetry and science rely on imaginative leaps and pattern-making, and.' },
                 { text: 'the creative process in science and in art is essentially the same', outcome: 'Not quite — Students often treat "plot" in an essay as a mere summary of content ("first he talks about Keats.', reveals: 'students-often-treat-plot-in' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_21_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re reading a scientist\'s reflection on why poets and scientists see creativity differently — you notice the essay doesn\'t have a "scene" like.',
+          caseStudy: { intro: 'Identify where and when \'Patterns of Creativity\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the primary historical-intellectual setting of S. Chandrasekhar\'s "Patterns of Creativity," and which famous 1959 lecture does.', options: [
                 { text: 'The essay is set in the mid-20th century scientific establishment, implicitly responding', outcome: 'The essay is set in the mid-20th century scientific establishment, implicitly responding to C.P.' },
                 { text: 'it\'s set in a laboratory', outcome: 'Not quite — Students treat "setting" in essays as physical location (e.g., "Cambridge University") and.', reveals: 'students-treat-setting-in-essays' },
                 { text: 'it\'s about ancient Greece', outcome: 'Not quite — Students treat "setting" in essays as physical location (e.g., "Cambridge University") and.', reveals: 'students-treat-setting-in-essays' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_21_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re asked: "The essayist in \'Patterns of Creativity\' isn\'t just reporting facts — they\'re *arguing* through a distinct personality.',
+          caseStudy: { intro: 'Pick the central figure in \'Patterns of Creativity\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the primary distinction between analyzing a protagonist in a fictional narrative versus analyzing the essayist\'s persona in.', options: [
                 { text: 'In fiction, the protagonist is a *constructed character* with traits, desires, and arc', outcome: 'In fiction, the protagonist is a *constructed character* with traits, desires, and arc revealed.' },
                 { text: 'both have feelings and backstory', outcome: 'Not quite — Students treat the essayist as a *transparent window* on the topic ("the author explains.', reveals: 'students-treat-the-essayist-as' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_21_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are reading "Patterns of Creativity" and notice the narrator mentions a poet and a scientist in conversation—how do you know they are not just.',
+          caseStudy: { intro: 'Spot the secondary figures in \'Patterns of Creativity\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'Define "supporting character" in the context of a non-fiction essay like "Patterns of Creativity."', options: [
                 { text: 'A supporting character in an essay is any named or distinctly portrayed individual (other', outcome: 'A supporting character in an essay is any named or distinctly portrayed individual (other than the.' },
                 { text: 'any person mentioned', outcome: 'Not quite — Students treat supporting characters in essays as "minor characters" from fiction—hunting for.', reveals: 'students-treat-supporting-characters-in' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_21_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are asked: "Is scientific discovery more like solving a puzzle or writing a poem?" This question mirrors the core tension Chandrasekhar explores.',
+          caseStudy: { intro: 'Ask what \'Patterns of Creativity\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of S. Chandrasekhar\'s essay "Patterns of Creativity"? State it in one sentence using abstract nouns.', options: [
                 { text: 'The primary theme is the fundamental unity of the creative impulse in science and poetry,', outcome: 'The primary theme is the fundamental unity of the creative impulse in science and poetry, both.' },
                 { text: 'Science and poetry are different', outcome: 'Not quite — Students often confuse the *topic* ("creativity in science and poetry") with the *theme* ("the.', reveals: 'students-often-confuse-the-topic' },
@@ -80,12 +80,12 @@ export const c11_eng_w_ch21_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_21_001', difficulty: 'standard',
-          question: 'Before You Read: Context and Background is a preparatory section that provides.',
+          question: '\'Patterns of Creativity\' (Woven Words, ch. 21) — the context and background.',
           hint: 'Review the Class 10 chapter on Richard Ebright (c10_engl_cbse_15_001) for scientific.',
           misconception: 'Students often believe this essay merely contrasts science and poetry (science = facts, poetry = emotions).',
           parts: [
@@ -94,18 +94,18 @@ export const c11_eng_w_ch21_p1: SimDef = {
                   hint: 'Review the Class 10 chapter on Richard Ebright (c10_engl_cbse_15_001) for scientific creativity and.',
                   misconception: 'Students often believe this essay merely contrasts science and poetry (science = facts, poetry = emotions).' }
           ],
-            remediations: { 'this-essay-merely-contrasts-science': { steps: ['If the student holds this misconception: 1.', 'Have them re-read the author\'s note and first two paragraphs, highlighting every phrase indicating similarity ("common.', 'Create a two-column Venn diagram: left column "Keats\'s Process", right column "Newton\'s Process", middle "Shared.', 'Fill the middle with "Assimilation → Accommodation" using one concrete example from each (e.g., Keats: sonnet form →.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'this-essay-merely-contrasts-science': { steps: ['If the student holds this misconception: 1.', 'Have them re-read the author\'s note and first two paragraphs, highlighting every phrase indicating similarity ("common.', 'Create a two-column Venn diagram: left column "Keats\'s Process", right column "Newton\'s Process", middle "Shared.', 'Fill the middle with "Assimilation → Accommodation" using one concrete example from each (e.g., Keats: sonnet form →.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_21_002', difficulty: 'standard',
-          question: 'Plot in a non-fiction essay refers to the logical sequence of ideas, arguments.',
+          question: 'The plot/narrative arc of \'Patterns of Creativity\' — what happens, in what.',
           hint: 'If stuck, review the "Before You Read" node for historical context, then practice.',
           misconception: 'Students often treat "plot" in an essay as a mere summary of content ("first he talks about Keats, then Newton") and.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot in a non-fiction essay refers to the logical sequence of ideas, arguments, and',
-                  options: ['Plot in a non-fiction essay refers to the logical sequence of ideas, arguments, and', 'Before You Read: Context and Background is a preparatory section that provides essential', 'Setting in a non-fiction essay refers to the historical, intellectual, and cultural', 'Character analysis of the protagonist in an essay involves examining the author\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The plot/narrative arc of \'Patterns of Creativity\'',
+                  options: ['The plot/narrative arc of \'Patterns of Creativity\'', '\'Patterns of Creativity\' (Woven Words, ch', 'The setting of \'Patterns of Creativity\'', 'Character analysis in \'Patterns of Creativity\''],
                   hint: 'If stuck, review the "Before You Read" node for historical context, then practice labeling.',
                   misconception: 'Students often treat "plot" in an essay as a mere summary of content ("first he talks about Keats, then Newton") and ignore the.' }
           ],
-            remediations: { 'students-often-treat-plot-in': { steps: ['Give the student a blank paragraph-function template (Thesis / Example A / Example B / Analogy / Synthesis.', 'Have them re-read the essay *only* to fill the template, ignoring content details.', 'Ask: "If you removed Paragraph 3, what would the argument lose?" — forcing them to articulate structural necessity.', 'Finally, have them re-order the template cards into a different structure (e.g., problem-solution) and defend why the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-plot-in': { steps: ['Give the student a blank paragraph-function template (Thesis / Example A / Example B / Analogy / Synthesis.', 'Have them re-read the essay *only* to fill the template, ignoring content details.', 'Ask: "If you removed Paragraph 3, what would the argument lose?" — forcing them to articulate structural necessity.', 'Finally, have them re-order the template cards into a different structure (e.g., problem-solution) and defend why the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_21_002', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -116,9 +116,9 @@ export const c11_eng_w_ch21_p1: SimDef = {
                   hint: 'If stuck, review the "Before You Read" node for historical context, then practice labeling.',
                   misconception: 'Students often treat "plot" in an essay as a mere summary of content ("first he talks about Keats, then Newton") and ignore the.' }
           ],
-            remediations: { 'students-often-treat-plot-in': { steps: ['Give the student a blank paragraph-function template (Thesis / Example A / Example B / Analogy / Synthesis.', 'Have them re-read the essay *only* to fill the template, ignoring content details.', 'Ask: "If you removed Paragraph 3, what would the argument lose?" — forcing them to articulate structural necessity.', 'Finally, have them re-order the template cards into a different structure (e.g., problem-solution) and defend why the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-plot-in': { steps: ['Give the student a blank paragraph-function template (Thesis / Example A / Example B / Analogy / Synthesis.', 'Have them re-read the essay *only* to fill the template, ignoring content details.', 'Ask: "If you removed Paragraph 3, what would the argument lose?" — forcing them to articulate structural necessity.', 'Finally, have them re-order the template cards into a different structure (e.g., problem-solution) and defend why the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_21_003', difficulty: 'standard',
-          question: 'Setting in a non-fiction essay refers to the historical, intellectual, and.',
+          question: 'The setting of \'Patterns of Creativity\' — the place, time and atmosphere the.',
           hint: 'If stuck, review c11_eng_w_cbse_21_001 — specifically the "Two Cultures" lecture summary.',
           misconception: 'Students treat "setting" in essays as physical location (e.g., "Cambridge University") and "atmosphere" as general mood.',
           parts: [
@@ -127,9 +127,9 @@ export const c11_eng_w_ch21_p1: SimDef = {
                   hint: 'If stuck, review c11_eng_w_cbse_21_001 — specifically the "Two Cultures" lecture summary and.',
                   misconception: 'Students treat "setting" in essays as physical location (e.g., "Cambridge University") and "atmosphere" as general mood ("serious,".' }
           ],
-            remediations: { 'students-treat-setting-in-essays': { steps: ['If a student gives physical-location answers: 1) Show them the opening paragraph — ask "Where is the author.', 'Ask: "What *weather* does each sentence create?" 3) Have them map three "atmosphere words" per section and connect each.', '4) Practice: rewrite a neutral sentence ("Science and poetry are different") into three atmospheres: melancholic.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-setting-in-essays': { steps: ['If a student gives physical-location answers: 1) Show them the opening paragraph — ask "Where is the author.', 'Ask: "What *weather* does each sentence create?" 3) Have them map three "atmosphere words" per section and connect each.', '4) Practice: rewrite a neutral sentence ("Science and poetry are different") into three atmospheres: melancholic.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_21_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in an essay involves examining the.',
+          question: 'Character analysis in \'Patterns of Creativity\' — the central figure(s), their.',
           hint: 'If stuck, review "argumentative moves annotation" from c11_eng_w_cbse_21_002.',
           misconception: 'Students treat the essayist as a *transparent window* on the topic ("the author explains creativity") rather than.',
           parts: [
@@ -138,9 +138,9 @@ export const c11_eng_w_ch21_p1: SimDef = {
                   hint: 'If stuck, review "argumentative moves annotation" from c11_eng_w_cbse_21_002 — specifically the.',
                   misconception: 'Students treat the essayist as a *transparent window* on the topic ("the author explains creativity") rather than a *constructed arguer*.' }
           ],
-            remediations: { 'students-treat-the-essayist-as': { steps: ['Have the student reread *only the first and last paragraphs* and list every "I/we" statement, modal verb (must, should.', 'Ask: "If this essayist were a character in a play, what *role* are they playing?', '(e.g., the mediator, the revelator, the skeptic)" 3.', 'Map each body paragraph to a *rhetorical move*: concession, analogy, distinction, synthesis.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-the-essayist-as': { steps: ['Have the student reread *only the first and last paragraphs* and list every "I/we" statement, modal verb (must, should.', 'Ask: "If this essayist were a character in a play, what *role* are they playing?', '(e.g., the mediator, the revelator, the skeptic)" 3.', 'Map each body paragraph to a *rhetorical move*: concession, analogy, distinction, synthesis.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_21_005', difficulty: 'standard',
-          question: 'Supporting characters in an essay are individuals (real or referenced) who.',
+          question: 'Supporting characters in \'Patterns of Creativity\' — the secondary figures who.',
           hint: 'Revisit node 004 and re-read the essay marking every "I think/feel" statement by the.',
           misconception: 'Students treat supporting characters in essays as "minor characters" from fiction—hunting for personality quirks.',
           parts: [
@@ -149,9 +149,9 @@ export const c11_eng_w_ch21_p1: SimDef = {
                   hint: 'Revisit node 004 and re-read the essay marking every "I think/feel" statement by the narrator—this.',
                   misconception: 'Students treat supporting characters in essays as "minor characters" from fiction—hunting for personality quirks, backstories, or emotional.' }
           ],
-            remediations: { 'students-treat-supporting-characters-in': { steps: ['Ask the student to list every person the narrator *quotes* or *describes in action* (ignore passing mentions).', 'For each, write: "This person stands for ______ kind of creativity because ______." 3.', 'Have them check: Does the narrator *use* this person to move the argument forward?', 'If yes, it\'s a supporting character; if no, it\'s a passing reference.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-supporting-characters-in': { steps: ['Ask the student to list every person the narrator *quotes* or *describes in action* (ignore passing mentions).', 'For each, write: "This person stands for ______ kind of creativity because ______." 3.', 'Have them check: Does the narrator *use* this person to move the argument forward?', 'If yes, it\'s a supporting character; if no, it\'s a passing reference.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_21_006', difficulty: 'standard',
-          question: 'The primary theme of an essay is its central, unifying idea that the author.',
+          question: 'The primary theme of \'Patterns of Creativity\' — the central idea the whole text.',
           hint: 'Review "argument mapping" for non-fiction: identify the claim, the evidence for each.',
           misconception: 'Students often confuse the *topic* ("creativity in science and poetry") with the *theme* ("the structural unity.',
           parts: [
@@ -160,7 +160,7 @@ export const c11_eng_w_ch21_p1: SimDef = {
                   hint: 'Review "argument mapping" for non-fiction: identify the claim, the evidence for each claim, and the.',
                   misconception: 'Students often confuse the *topic* ("creativity in science and poetry") with the *theme* ("the structural unity of creative processes.' }
           ],
-            remediations: { 'students-often-confuse-the-topic': { steps: ['If a student cannot distinguish topic from theme: 1) Have them list 5 topics in the essay (e.g., Kepler, beauty.', '2) Ask: "What does the author *say* about each?" 3) Guide them to see the repeated claim: "In each case, creativity.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-confuse-the-topic': { steps: ['If a student cannot distinguish topic from theme: 1) Have them list 5 topics in the essay (e.g., Kepler, beauty.', '2) Ask: "What does the author *say* about each?" 3) Guide them to see the repeated claim: "In each case, creativity.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

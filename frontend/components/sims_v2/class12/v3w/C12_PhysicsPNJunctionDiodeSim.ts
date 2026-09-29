@@ -6,13 +6,13 @@ import C12_PhysicsPNJunctionDiodeSim from '../../../simulations/three/C12_Physic
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicspnjunctiondiodesim: SimDef = {
     id: 'v3w_c12_physicspnjunctiondiodesim',
-    title: 'PNJunction Diode',
+    title: 'p-n Junction: Formation and Depletion Layer',
     subtitle: 'This node covers the formation of a p-n junction, the creation of the depletion layer,.',
     classLevel: 12, subject: 'physics', topic: 'p-n Junction: Formation and Depletion Layer',
     chapters: [],
     nodeIds: ['c12_phy_cbse_14_003', 'c12_phy_cbse_14_004', 'c12_phy_cbse_14_002', 'c12_phy_cbse_14_008', 'c12_phy_cbse_14_009', 'c12_phy_cbse_14_007', 'c12_phy_cbse_14_001', 'c12_phy_cbse_14_005', 'c12_phy_cbse_14_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you have two adjacent rooms: one filled with red balls (holes) and the other with blue balls.', goal: 'Master PNJunction Diode.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you have two adjacent rooms: one filled with red balls (holes) and the other with blue balls.', goal: 'Master p-n Junction: Formation and Depletion Layer.' },
     discovery: {
         question: 'Why does the diffusion current decrease as the depletion layer widens during junction formation?',
         options: ['As the depletion layer widens, the electric field strength increases', 'diffusion stops because carriers run out', 'empty space'],
@@ -73,7 +73,7 @@ export const w_c12_physicspnjunctiondiodesim: SimDef = {
             { text: 'Load voltage variation due to rz: ΔIz = 51.7 - 31.7 = 20 mA. ΔVz = rz × ΔIz = 15 × 0.020 = 0.3 V.', faded: true, blankAnswer: '(a) Constraints conflict; no single Rs works for full Vin.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_14_004', title: 'Identify each idea',
-          dissect: { specimen: 'PNJunction Diode', spots: [
+          dissect: { specimen: 'p-n Junction: Formation and Depletion Layer', spots: [
             { id: 's1', label: 'A p-n junction is formed', prompt: 'Which idea is this? — A p-n junction is formed when a p-type semiconductor and an n-type semiconductor are.', answer: 'A p-n junction is formed', options: ['A p-n junction is formed', 'A p-n junction diode is', 'An intrinsic semiconductor is a', 'A junction transistor is a'] },
             { id: 's2', label: 'A p-n junction diode is', prompt: 'Which idea is this? — A p-n junction diode is a two-terminal semiconductor device formed by joining p-type and.', answer: 'A p-n junction diode is', options: ['A p-n junction diode is', 'A p-n junction is formed', 'An intrinsic semiconductor is a', 'A junction transistor is a'] },
             { id: 's3', label: 'An intrinsic semiconductor is a', prompt: 'Which idea is this? — An **intrinsic semiconductor** is a pure semiconductor crystal (e.g., Si, Ge) in which.', answer: 'An intrinsic semiconductor is a', options: ['An intrinsic semiconductor is a', 'A p-n junction is formed', 'A p-n junction diode is', 'A junction transistor is a'] },
@@ -82,7 +82,7 @@ export const w_c12_physicspnjunctiondiodesim: SimDef = {
             { id: 's6', label: 'A Zener diode is a', prompt: 'Which idea is this? — A Zener diode is a specially designed, heavily doped p-n junction diode that operates.', answer: 'A Zener diode is a', options: ['A Zener diode is a', 'A p-n junction is formed', 'A p-n junction diode is', 'An intrinsic semiconductor is a'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsPNJunctionDiodeSim, prompt: 'Explore the interactive — PNJunction Diode' },
+    explore: { component: C12_PhysicsPNJunctionDiodeSim, prompt: 'Explore the interactive — p-n Junction: Formation and Depletion Layer' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_14_003', difficulty: 'standard',
           question: 'A p-n junction is formed when a p-type semiconductor and an n-type.',

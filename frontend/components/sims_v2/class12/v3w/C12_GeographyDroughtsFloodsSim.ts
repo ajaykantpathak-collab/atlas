@@ -6,13 +6,13 @@ import C12_GeographyDroughtsFloodsSim from '../../../simulations/c6_12/C12_Geogr
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_geographydroughtsfloodssim: SimDef = {
     id: 'v3w_c12_geographydroughtsfloodssim',
-    title: 'Droughts Floods',
+    title: 'Variability of Rainfall and Water Scarcity in India',
     subtitle: 'Covers: (a) spatial and temporal variability of Indian monsoon rainfall including.',
     classLevel: 12, subject: 'geography', topic: 'Variability of Rainfall and Water Scarcity in India',
     chapters: [],
     nodeIds: ['c12_geo_cbse_12_003', 'c12_geo_cbse_17_007', 'c12_geo_cbse_19_008', 'c12_geo_cbse_12_004', 'c12_geo_cbse_12_005', 'c12_geo_cbse_12_006', 'c12_geo_cbse_12_011', 'c12_geo_cbse_17_006', 'c12_geo_cbse_17_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Start with a real-world observation: "Check the IMD rainfall map for your district — you\'ll see some years.', goal: 'Master Droughts Floods.' },
+    scenario: { role: 'a class 12 learner', intro: 'Start with a real-world observation: "Check the IMD rainfall map for your district — you\'ll see some years.', goal: 'Master Variability of Rainfall and Water Scarcity in India.' },
     discovery: {
         question: 'Name the four seismic zones of India (Zone II to V) in order of increasing hazard and state the primary tectonic feature responsible for Zone V.',
         options: ['Zone II (Low), Zone III (Moderate), Zone IV (High), Zone V (Very High)', 'drought = no rain', 'flood = too much rain'],
@@ -79,7 +79,7 @@ export const w_c12_geographydroughtsfloodssim: SimDef = {
             { text: 'Add soil amendment. Apply gypsum 5 t/ha in Year 1, green manure (dhaincha) pre-Kharif Years 2-3.', faded: true, blankAnswer: 'Transition to mustard-guar rotation with drip/sprinkler.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_geo_cbse_17_007', title: 'Identify each idea',
-          dissect: { specimen: 'Droughts Floods', spots: [
+          dissect: { specimen: 'Variability of Rainfall and Water Scarcity in India', spots: [
             { id: 's1', label: 'Variability of rainfall refers to', prompt: 'Which idea is this? — Variability of rainfall refers to the spatial and temporal fluctuations in precipitation.', answer: 'Variability of rainfall refers to', options: ['Variability of rainfall refers to', 'Natural disasters in India are', 'Percentiles and quartiles are measures', 'A multipurpose river project is'] },
             { id: 's2', label: 'Natural disasters in India are', prompt: 'Which idea is this? — Natural disasters in India are extreme geophysical or hydro-meteorological events —.', answer: 'Natural disasters in India are', options: ['Natural disasters in India are', 'Variability of rainfall refers to', 'Percentiles and quartiles are measures', 'A multipurpose river project is'] },
             { id: 's3', label: 'Percentiles and quartiles are measures', prompt: 'Which idea is this? — Percentiles and quartiles are measures of relative position that divide a geographical.', answer: 'Percentiles and quartiles are measures', options: ['Percentiles and quartiles are measures', 'Variability of rainfall refers to', 'Natural disasters in India are', 'A multipurpose river project is'] },
@@ -88,7 +88,7 @@ export const w_c12_geographydroughtsfloodssim: SimDef = {
             { id: 's6', label: 'The Indira Gandhi Canal formerly', prompt: 'Which idea is this? — The Indira Gandhi Canal (formerly Rajasthan Canal) is India\'s longest canal system.', answer: 'The Indira Gandhi Canal formerly', options: ['The Indira Gandhi Canal formerly', 'Variability of rainfall refers to', 'Natural disasters in India are', 'Percentiles and quartiles are measures'] }
           ] } }
     ],
-    explore: { component: C12_GeographyDroughtsFloodsSim, prompt: 'Explore the interactive — Droughts Floods' },
+    explore: { component: C12_GeographyDroughtsFloodsSim, prompt: 'Explore the interactive — Variability of Rainfall and Water Scarcity in India' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_12_003', difficulty: 'standard',
           question: 'Variability of rainfall refers to the spatial and temporal fluctuations in.',

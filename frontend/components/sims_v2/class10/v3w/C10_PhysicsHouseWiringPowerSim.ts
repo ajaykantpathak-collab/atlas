@@ -6,13 +6,13 @@ import C10_PhysicsHouseWiringPowerSim from '../../../simulations/c6_12/C10_Physi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_physicshousewiringpowersim: SimDef = {
     id: 'v3w_c10_physicshousewiringpowersim',
-    title: 'House Wiring Power',
+    title: 'Applications of Heating Effect: Electric Heater, Bulb, Fuse',
     subtitle: 'Covers the working principles and simple numerical problems on electric heater,.',
     classLevel: 10, subject: 'physics', topic: 'Applications of Heating Effect: Electric Heater, Bulb, Fuse',
     chapters: [],
     nodeIds: ['c10_phy_cbse_01_009', 'c10_phy_cbse_01_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Observe the electric heater in your home during winter: when you switch it on, the coil becomes red-hot and.', goal: 'Master House Wiring Power.' },
+    scenario: { role: 'a class 10 learner', intro: 'Observe the electric heater in your home during winter: when you switch it on, the coil becomes red-hot and.', goal: 'Master Applications of Heating Effect: Electric Heater, Bulb, Fuse.' },
     discovery: {
         question: 'State the two essential properties of the material used for the filament of an incandescent bulb and explain why each property is necessary.',
         options: ['The filament material (tungsten) must have: (1) High resistivity', 'low resistance to allow more current', 'higher wattage appliance has higher resistance'],
@@ -43,12 +43,12 @@ export const w_c10_physicshousewiringpowersim: SimDef = {
             { text: 'Power: P₁ = V²/R₁ = (240)²/6 = 57600/6 = 9600 W = 9.6 kW; P₂ = V²/R₂ = 57600/12 = 4800 W = 4.8 kW.', faded: true, blankAnswer: '** (a) 4 Ω, (b) 60 A, (c) 40 A (6 Ω bulb), 20 A (12 Ω.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_phy_cbse_01_007', title: 'Identify each idea',
-          dissect: { specimen: 'House Wiring Power', spots: [
+          dissect: { specimen: 'Applications of Heating Effect: Electric Heater, Bulb, Fuse', spots: [
             { id: 's1', label: 'The heating effect of electric', prompt: 'Which idea is this? — The heating effect of electric current is utilized in appliances where electrical energy.', answer: 'The heating effect of electric', options: ['The heating effect of electric', 'In a parallel combination of'] },
             { id: 's2', label: 'In a parallel combination of', prompt: 'Which idea is this? — In a parallel combination of resistors, the potential difference (voltage) across each.', answer: 'In a parallel combination of', options: ['In a parallel combination of', 'The heating effect of electric'] }
           ] } }
     ],
-    explore: { component: C10_PhysicsHouseWiringPowerSim, prompt: 'Explore the interactive — House Wiring Power' },
+    explore: { component: C10_PhysicsHouseWiringPowerSim, prompt: 'Explore the interactive — Applications of Heating Effect: Electric Heater, Bulb, Fuse' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_phy_cbse_01_009', difficulty: 'standard',
           question: 'The heating effect of electric current is utilized in appliances where.',
@@ -78,8 +78,8 @@ export const w_c10_physicshousewiringpowersim: SimDef = {
                   options: ['Unsafe', 'copper wire will melt', 'higher wattage appliance has higher resistance', 'stronger'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students think that "higher wattage appliance has higher resistance" because they associate higher power with "stronger" heating.' },
-                { id: 'b', prompt: 'Design a simple experiment using a 9 V battery, nichrome wire of different lengths, and a small LED to demonstrate that a fuse wire must be thin and of.', answer: 'Steps: (1) Connect a 30 cm nichrome wire in series with LED and 9 V battery',
-                  options: ['Steps: (1) Connect a 30 cm nichrome wire in series with LED and 9 V battery', 'higher wattage appliance has higher resistance', 'stronger'],
+                { id: 'b', prompt: 'Design a simple experiment using a 9 V battery, nichrome wire of different lengths, and a small LED to demonstrate that a fuse wire must be thin and of.', answer: '(1) Connect a 30 cm nichrome wire in series with LED and 9 V battery',
+                  options: ['(1) Connect a 30 cm nichrome wire in series with LED and 9 V battery', 'higher wattage appliance has higher resistance', 'stronger'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students think that "higher wattage appliance has higher resistance" because they associate higher power with "stronger" heating.' }
           ],

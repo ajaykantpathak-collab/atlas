@@ -75,8 +75,8 @@ export const c7_engl_ch05_p2: SimDef = {
           hint: 'Review Class 6 vocabulary strategies where students look at punctuation marks and.',
           misconception: 'Students often confuse the abstract noun *homage* with physical objects like *monuments* or *medals*, believing that.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in context refers to determining the precise meaning of advanced thematic',
-                  options: ['Vocabulary in context refers to determining the precise meaning of advanced thematic', 'Letters as a form of communication serve as a personal, tangible bridge between', 'This topic explores the historical context of India\'s post-independence wars, examining', 'The National War Memorial is a monumental tribute built to honour and remember soldiers'],
+                { id: 'a', prompt: 'In the sentence, "The architect envisioned a grand circular wall resembling the ancient Chakravyuh formation," use contextual clues to define the word.', answer: '(1) Identify the subject (the architect) and the object (a grand circular wall)',
+                  options: ['(1) Identify the subject (the architect) and the object (a grand circular wall)', 'envisioned', 'paying homage'],
                   hint: 'Review Class 6 vocabulary strategies where students look at punctuation marks and conjunctions.',
                   misconception: 'Students often confuse the abstract noun *homage* with physical objects like *monuments* or *medals*, believing that "paying homage" means.' }
           ],
@@ -97,8 +97,8 @@ export const c7_engl_ch05_p2: SimDef = {
           hint: 'Review basic letter parts (salutation, body, sign-off) and practice rewriting.',
           misconception: 'Students often confuse epistolary writing with regular formal letter-writing (like writing a complaint to a municipal.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The epistolary form is a literary device in',
-                  options: ['The epistolary form is a literary device in', 'Letters as a form of communication serve as a personal, tangible bridge between', 'This topic explores the historical context of India\'s post-independence wars, examining', 'The National War Memorial is a monumental tribute built to honour and remember soldiers'],
+                { id: 'a', prompt: 'Analyze the opening lines of a fictional soldier\'s letter: "Siachen Glacier, 14th November.', answer: '(1) Locate the dateline ("Siachen Glacier, 14th November") to establish exact',
+                  options: ['(1) Locate the dateline ("Siachen Glacier, 14th November") to establish exact', 'the dateline is just a title'],
                   hint: 'Review basic letter parts (salutation, body, sign-off) and practice rewriting a third-person.',
                   misconception: 'Students often confuse epistolary writing with regular formal letter-writing (like writing a complaint to a municipal corporation or.' }
           ],
@@ -115,12 +115,12 @@ export const c7_engl_ch05_p2: SimDef = {
           ],
             remediations: { 'students-often-confuse-the-factual': { steps: ['To fix this, guide the student back to the text with specific prompts.', 'Say: "Look at the adjectives the author uses to describe the soldier\'s hands, not just the name of the battle.', 'Are they talking about guns, or are they talking about courage and fear?', 'In English comprehension, we look at *how* words make us feel about history, not just the calendar dates." Have them.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c7_engl_ch05_010', difficulty: 'standard',
-          question: 'Critical thinking about the cost of freedom and peace involves analyzing the.',
+          question: 'From \'English chapter c7_engl_ch05\': the skill or concept this node teaches.',
           hint: 'Review c7_engl_ch05_004 to reconnect with the core emotion of gratitude before attempting.',
           misconception: 'Students often think "peace" is the natural, default state of human society and that soldiers only fight when someone.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking about the cost of freedom and peace involves analyzing the immense',
-                  options: ['Critical thinking about the cost of freedom and peace involves analyzing the immense', 'Letters as a form of communication serve as a personal, tangible bridge between', 'This topic explores the historical context of India\'s post-independence wars, examining', 'The National War Memorial is a monumental tribute built to honour and remember soldiers'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c7_engl_ch05\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c7_engl_ch05\': the skill or concept this node teaches, applied to', 'Letters as a form of communication serve as a personal, tangible bridge between', 'This topic explores the historical context of India\'s post-independence wars, examining', 'The National War Memorial is a monumental tribute built to honour and remember soldiers'],
                   hint: 'Review c7_engl_ch05_004 to reconnect with the core emotion of gratitude before attempting critical.',
                   misconception: 'Students often think "peace" is the natural, default state of human society and that soldiers only fight when someone deliberately causes.' }
           ],

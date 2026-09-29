@@ -6,13 +6,13 @@ import C12_PsychologyHumanisticTraitTheoriesSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_psychologyhumanistictraittheoriessim: SimDef = {
     id: 'v3w_c12_psychologyhumanistictraittheoriessim',
-    title: 'Humanistic Trait Theories',
+    title: 'Culture and Self: Western Individualistic vs Indian Collectivistic Perspectives',
     subtitle: 'This node covers the NCERT Section "Culture and Self" (pages 27-28): the distinction.',
     classLevel: 12, subject: 'psychology', topic: 'Culture and Self: Western Individualistic vs Indian Collectivistic Perspectives',
     chapters: [],
     nodeIds: ['c12_psy_cbse_02_003', 'c12_psy_cbse_02_004', 'c12_psy_cbse_02_006', 'c12_psy_cbse_02_005', 'c12_psy_cbse_02_010', 'c12_psy_cbse_02_011', 'c12_psy_cbse_01_001', 'c12_psy_cbse_02_009', 'c12_psy_cbse_02_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine an Indian student, Priya, who gets admitted to a university in the USA.', goal: 'Master Humanistic Trait Theories.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine an Indian student, Priya, who gets admitted to a university in the USA.', goal: 'Master Culture and Self: Western Individualistic vs Indian Collectivistic Perspectives.' },
     discovery: {
         question: 'Rahul, raised in a traditional joint family in Varanasi, accepts a job in Mumbai against his parents\' wish that he stay nearby.',
         options: ['Rahul\'s conflict arises', 'Rahul is torn between Indian and Western values', 'This error arises'],
@@ -79,7 +79,7 @@ export const w_c12_psychologyhumanistictraittheoriessim: SimDef = {
             { text: 'Specify therapeutic condition — Unconditional positive regard from a counsellor: "Your worth isn\'t tied to your career.', faded: true, blankAnswer: 'Real self = painter; Ideal self = commerce professional;.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_psy_cbse_02_004', title: 'Identify each idea',
-          dissect: { specimen: 'Humanistic Trait Theories', spots: [
+          dissect: { specimen: 'Culture and Self: Western Individualistic vs Indian Collectivistic Perspectives', spots: [
             { id: 's1', label: 'The cultural perspective on self', prompt: 'Which idea is this? — The cultural perspective on self refers to how culture shapes the way individuals define.', answer: 'The cultural perspective on self', options: ['The cultural perspective on self', 'Type approaches to personality categorise', 'Eysencks theory proposes three biologically-based', 'Trait approaches to personality conceptualize'] },
             { id: 's2', label: 'Type approaches to personality categorise', prompt: 'Which idea is this? — Type approaches to personality categorise individuals into discrete, qualitatively.', answer: 'Type approaches to personality categorise', options: ['Type approaches to personality categorise', 'The cultural perspective on self', 'Eysencks theory proposes three biologically-based', 'Trait approaches to personality conceptualize'] },
             { id: 's3', label: 'Eysencks theory proposes three biologically-based', prompt: 'Which idea is this? — Eysenck\'s theory proposes three biologically-based personality dimensions:.', answer: 'Eysencks theory proposes three biologically-based', options: ['Eysencks theory proposes three biologically-based', 'The cultural perspective on self', 'Type approaches to personality categorise', 'Trait approaches to personality conceptualize'] },
@@ -88,7 +88,7 @@ export const w_c12_psychologyhumanistictraittheoriessim: SimDef = {
             { id: 's6', label: 'The Humanistic Approach to personality', prompt: 'Which idea is this? — The Humanistic Approach to personality emphasizes individuals\' innate drive toward.', answer: 'The Humanistic Approach to personality', options: ['The Humanistic Approach to personality', 'The cultural perspective on self', 'Type approaches to personality categorise', 'Eysencks theory proposes three biologically-based'] }
           ] } }
     ],
-    explore: { component: C12_PsychologyHumanisticTraitTheoriesSim, prompt: 'Explore the interactive — Humanistic Trait Theories' },
+    explore: { component: C12_PsychologyHumanisticTraitTheoriesSim, prompt: 'Explore the interactive — Culture and Self: Western Individualistic vs Indian Collectivistic Perspectives' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_psy_cbse_02_003', difficulty: 'standard',
           question: 'The cultural perspective on self refers to how culture shapes the way.',

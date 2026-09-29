@@ -19,43 +19,43 @@ export const c12_eng_k_ch13_p1: SimDef = {
         hook: '\'Blood\' is confessional poetry — a feminist voice interrogating her own inheritance. The decaying tharavad and the dying matriarch are one body; the speaker flees, feels the betrayal, and still hears \'the rattle of its death\' from every town she lives in. Inheritance is a haunting, not a keepsake.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" is a preparatory section that provides essential biographical, historical, cultural, and literary information about the poet and the poem to help students.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Blood\' (Kaleidoscope, ch. 13) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_13_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Walk the ancestral house of South Malabar: map the poem\'s three timeframes, weigh the great-grandmother\'s devotion against the speaker\'s flight, and decide if the ending offers closure — or a haunting that rides on.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_13_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you stand before an old family home — walls cracked, roof tiles missing, weeds choking the courtyard — and feel a pull in your chest: this house holds.',
+          caseStudy: { intro: 'Start with the author of \'Blood\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'What is the literary term for a poem that draws directly on the poet\'s personal life, family history, and emotional conflicts, often using.', options: [
                 { text: 'The term is **confessional poetry**', outcome: 'The term is **confessional poetry**. A wrong answer (e.g., "autobiographical poetry," "narrative.' },
                 { text: 'autobiographical poetry', outcome: 'Not quite — Students often read "Blood" as a **simple nostalgic poem about a grandmother and a decaying house**.', reveals: 'students-often-read-blood-as' },
                 { text: 'narrative poetry', outcome: 'Not quite — Students often read "Blood" as a **simple nostalgic poem about a grandmother and a decaying house**.', reveals: 'students-often-read-blood-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_13_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine walking into your great-grandmother\'s ancestral home after twenty years — the cracked walls, the smell of damp earth, the sound of rats in the ceiling.',
+          caseStudy: { intro: 'Identify where and when \'Blood\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the primary physical setting of the poem "Blood" as established in the first stanza?', options: [
                 { text: 'The primary physical setting is an ancestral house in South Malabar, Kerala, described as', outcome: 'The primary physical setting is an ancestral house in South Malabar, Kerala, described as three.' },
                 { text: 'a modern city house', outcome: 'Not quite — Students often treat setting as a static list of places (house, sands, sea) and atmosphere as.', reveals: 'students-often-treat-setting-as' },
                 { text: 'a temple', outcome: 'Not quite — Students often treat setting as a static list of places (house, sands, sea) and atmosphere as.', reveals: 'students-often-treat-setting-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_13_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re listening to a grandparent recount family history — you hear pride, nostalgia, and perhaps regret in their voice.',
+          caseStudy: { intro: 'Pick the central figure in \'Blood\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'Who is the protagonist/speaker in Kamala Das\'s poem "Blood," and what is their relationship to the great-grandmother?', options: [
                 { text: 'The protagonist is the poet-speaker ("I"), the great-grandmother\'s great-granddaughter,', outcome: 'The protagonist is the poet-speaker ("I"), the great-grandmother\'s great-granddaughter, who.' },
                 { text: 'the great-grandmother is the protagonist', outcome: 'Not quite — Students consistently identify the great-grandmother as the protagonist because she dominates the.', reveals: 'students-consistently-identify-the-great' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_13_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are listening to an elderly relative describe a grand ancestral home that no longer exists — their stories feel like a different world.',
+          caseStudy: { intro: 'Spot the secondary figures in \'Blood\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'Identify the two supporting characters explicitly named or referenced in the poem "Blood" by Kamala Das.', options: [
                 { text: 'The two supporting characters are the great-grandmother and the speaker\'s brother', outcome: 'The two supporting characters are the great-grandmother and the speaker\'s brother.' },
                 { text: 'the prince, the rats, or the snake-gods', outcome: 'Not quite — Students often treat the great-grandmother as a mere "storyteller" who provides background.', reveals: 'students-often-treat-the-great' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_13_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re standing in front of your own childhood home, watching it crumble — you promised to fix it, but life got in the way.',
+          caseStudy: { intro: 'Ask what \'Blood\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the childhood promise the speaker makes to her great-grandmother in the first section of the poem?', options: [
                 { text: 'The speaker promises: "When I grow old, / And very very rich / I shall rebuild the fallen', outcome: 'The speaker promises: "When I grow old, / And very very rich / I shall rebuild the fallen walls.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students consistently confuse the *great-grandmother\'s* aristocratic nostalgia with the *poem\'s*.', reveals: 'students-consistently-confuse-the-great' },
@@ -75,12 +75,12 @@ export const c12_eng_k_ch13_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_13_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" is a preparatory section that.',
+          question: '\'Blood\' (Kaleidoscope, ch. 13) — the context and background to this text: who.',
           hint: 'If stuck, revisit Class 11 "Literary Devices: Imagery and Metaphor".',
           misconception: 'Students often read "Blood" as a **simple nostalgic poem about a grandmother and a decaying house** — missing its sharp.',
           parts: [
@@ -89,7 +89,7 @@ export const c12_eng_k_ch13_p1: SimDef = {
                   hint: 'If stuck, revisit Class 11 "Literary Devices: Imagery and Metaphor" (c11_eng_h_cbse_01_008) and.',
                   misconception: 'Students often read "Blood" as a **simple nostalgic poem about a grandmother and a decaying house** — missing its sharp critique of **caste.' }
           ],
-            remediations: { 'students-often-read-blood-as': { steps: ['If a student cannot distinguish the great-grandmother\'s worldview from the poem\'s critique, do this 3-step remediation.', 'How do you know?" (Answer: "She told us" — it\'s reported speech.) (2) **List all verbs associated with the.', 'Compare agency: she *receives* and *narrates*; the speaker *acts*, *fails*, *leaves*, *haunted*, *judges herself*.', '(3) **Write a two-sentence defense of the speaker** using only poem evidence — e.g., "She tried to grow rich to save.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-read-blood-as': { steps: ['If a student cannot distinguish the great-grandmother\'s worldview from the poem\'s critique, do this 3-step remediation.', 'How do you know?" (Answer: "She told us" — it\'s reported speech.) (2) **List all verbs associated with the.', 'Compare agency: she *receives* and *narrates*; the speaker *acts*, *fails*, *leaves*, *haunted*, *judges herself*.', '(3) **Write a two-sentence defense of the speaker** using only poem evidence — e.g., "She tried to grow rich to save.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_13_001', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -100,20 +100,20 @@ export const c12_eng_k_ch13_p1: SimDef = {
                   hint: 'If stuck, revisit Class 11 "Literary Devices: Imagery and Metaphor" (c11_eng_h_cbse_01_008) and.',
                   misconception: 'Students often read "Blood" as a **simple nostalgic poem about a grandmother and a decaying house** — missing its sharp critique of **caste.' }
           ],
-            remediations: { 'students-often-read-blood-as': { steps: ['If a student cannot distinguish the great-grandmother\'s worldview from the poem\'s critique, do this 3-step remediation.', 'How do you know?" (Answer: "She told us" — it\'s reported speech.) (2) **List all verbs associated with the.', 'Compare agency: she *receives* and *narrates*; the speaker *acts*, *fails*, *leaves*, *haunted*, *judges herself*.', '(3) **Write a two-sentence defense of the speaker** using only poem evidence — e.g., "She tried to grow rich to save.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-read-blood-as': { steps: ['If a student cannot distinguish the great-grandmother\'s worldview from the poem\'s critique, do this 3-step remediation.', 'How do you know?" (Answer: "She told us" — it\'s reported speech.) (2) **List all verbs associated with the.', 'Compare agency: she *receives* and *narrates*; the speaker *acts*, *fails*, *leaves*, *haunted*, *judges herself*.', '(3) **Write a two-sentence defense of the speaker** using only poem evidence — e.g., "She tried to grow rich to save.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_13_002', difficulty: 'standard',
-          question: 'Plot and narrative structure in a narrative poem refer to the sequence.',
+          question: 'The plot/narrative arc of \'Blood\' — what happens, in what order, and why the.',
           hint: 'Review narrative poetry features (c6_english_u1_006) and practice identifying time shifts.',
           misconception: 'Students often read “Blood” as a simple linear autobiography from childhood to adulthood, missing the embedded.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot and narrative structure in a narrative poem refer to the sequence of events (plot)',
-                  options: ['Plot and narrative structure in a narrative poem refer to the sequence of events (plot)', '"Before You Read: Context and Background" is a preparatory section that provides', 'Setting in poetry refers to the time, place, and cultural environment where the poem\'s', 'Character analysis of the protagonist in a poem involves identifying the speaker/persona,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The plot/narrative arc of \'Blood\'',
+                  options: ['The plot/narrative arc of \'Blood\'', '\'Blood\' (Kaleidoscope, ch', 'The setting of \'Blood\'', 'Character analysis in \'Blood\''],
                   hint: 'Review narrative poetry features (c6_english_u1_006) and practice identifying time shifts in "King.',
                   misconception: 'Students often read “Blood” as a simple linear autobiography from childhood to adulthood, missing the embedded flashback of the.' }
           ],
-            remediations: { 'students-often-read-blood-as': { steps: ['Have the student create a three‑column timeline: Column A = Stanza/Section, Column B = Time Period (Childhood.', 'Ask them to retell the poem in strict chronological order (great‑grandmother’s youth → childhood listening → death →.', 'Compare the chronological retelling with the poem’s actual order to highlight the structural reordering.', 'Re‑read the poem aloud, pausing at each voice shift, and annotate the pronouns and verb tenses that signal the change.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-read-blood-as': { steps: ['Have the student create a three‑column timeline: Column A = Stanza/Section, Column B = Time Period (Childhood.', 'Ask them to retell the poem in strict chronological order (great‑grandmother’s youth → childhood listening → death →.', 'Compare the chronological retelling with the poem’s actual order to highlight the structural reordering.', 'Re‑read the poem aloud, pausing at each voice shift, and annotate the pronouns and verb tenses that signal the change.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_13_003', difficulty: 'standard',
-          question: 'Setting in poetry refers to the time, place, and cultural environment where the.',
+          question: 'The setting of \'Blood\' — the place, time and atmosphere the text creates.',
           hint: 'Review Class 11 poetry nodes on imagery and atmosphere (e.g., c11_eng_h_cbse_01_008.',
           misconception: 'Students often treat setting as a static list of places (house, sands, sea) and atmosphere as a single adjective.',
           parts: [
@@ -122,9 +122,9 @@ export const c12_eng_k_ch13_p1: SimDef = {
                   hint: 'Review Class 11 poetry nodes on imagery and atmosphere (e.g., c11_eng_h_cbse_01_008.',
                   misconception: 'Students often treat setting as a static list of places (house, sands, sea) and atmosphere as a single adjective ("sad").' }
           ],
-            remediations: { 'students-often-treat-setting-as': { steps: ['Have the student re-read the poem with three coloured pens: one for physical setting details, one for temporal markers.', 'Ask them to draw a simple timeline of the house\'s life and mark the atmosphere at each stage.', 'Then assign a focused re-diagnostic: "Pick one stanza and explain how its sensory details create a specific atmosphere.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-setting-as': { steps: ['Have the student re-read the poem with three coloured pens: one for physical setting details, one for temporal markers.', 'Ask them to draw a simple timeline of the house\'s life and mark the atmosphere at each stage.', 'Then assign a focused re-diagnostic: "Pick one stanza and explain how its sensory details create a specific atmosphere.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_13_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a poem involves identifying the.',
+          question: 'Character analysis in \'Blood\' — the central figure(s), their traits, and how.',
           hint: 'Review c11_eng_h_cbse_01_004 (Character Analysis: Protagonist) — the "A Photograph".',
           misconception: 'Students consistently identify the great-grandmother as the protagonist because she dominates the middle stanzas with.',
           parts: [
@@ -133,20 +133,20 @@ export const c12_eng_k_ch13_p1: SimDef = {
                   hint: 'Review c11_eng_h_cbse_01_004 (Character Analysis: Protagonist) — the "A Photograph" speaker.',
                   misconception: 'Students consistently identify the great-grandmother as the protagonist because she dominates the middle stanzas with vivid storytelling.' }
           ],
-            remediations: { 'students-consistently-identify-the-great': { steps: ['Have the student reread only the first-person lines ("When we were children," "When I grow old," "I looked deep," "I.', 'Ask: "Whose consciousness holds the poem together?" 3.', 'Compare with c11_eng_h_cbse_01_004 (Character Analysis: Protagonist) where the speaker in "A Photograph" is similarly.', 'Re-attempt DIAGNOSTIC_QUESTION_1 and DIAGNOSTIC_QUESTION_2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-consistently-identify-the-great': { steps: ['Have the student reread only the first-person lines ("When we were children," "When I grow old," "I looked deep," "I.', 'Ask: "Whose consciousness holds the poem together?" 3.', 'Compare with c11_eng_h_cbse_01_004 (Character Analysis: Protagonist) where the speaker in "A Photograph" is similarly.', 'Re-attempt DIAGNOSTIC_QUESTION_1 and DIAGNOSTIC_QUESTION_2.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_13_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters in poetry involves identifying.',
+          question: 'Supporting characters in \'Blood\' — the secondary figures who move the story.',
           hint: 'If stuck, review the "Character Analysis: Supporting Characters" node from Class 11.',
           misconception: 'Students often treat the great-grandmother as a mere "storyteller" who provides background information, missing that.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of supporting characters in poetry involves identifying figures other',
-                  options: ['Character analysis of supporting characters in poetry involves identifying figures other', '"Before You Read: Context and Background" is a preparatory section that provides', 'Plot and narrative structure in a narrative poem refer to the sequence of events (plot)', 'Setting in poetry refers to the time, place, and cultural environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Supporting characters in \'Blood\'',
+                  options: ['Supporting characters in \'Blood\'', '\'Blood\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Blood\'', 'The setting of \'Blood\''],
                   hint: 'If stuck, review the "Character Analysis: Supporting Characters" node from Class 11.',
                   misconception: 'Students often treat the great-grandmother as a mere "storyteller" who provides background information, missing that she *is* the.' }
           ],
-            remediations: { 'students-often-treat-the-great': { steps: ['Reread the poem focusing *only* on lines spoken by or about the great-grandmother.', 'Mark each line with "G" and ask: What does this reveal about her values, her blindness, her power?', 'Do the same for the brother (mark "B").', 'Notice how few marks exist — then infer why the poet chose that silence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-great': { steps: ['Reread the poem focusing *only* on lines spoken by or about the great-grandmother.', 'Mark each line with "G" and ask: What does this reveal about her values, her blindness, her power?', 'Do the same for the brother (mark "B").', 'Notice how few marks exist — then infer why the poet chose that silence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_13_006', difficulty: 'standard',
-          question: 'The primary theme of a poem is its central, unifying idea — the core insight.',
+          question: 'The primary theme of \'Blood\' — the central idea the whole text returns to.',
           hint: 'If stuck on speaker vs poet: revisit c11_eng_w_cbse_01_006 (Theme: Primary Theme and.',
           misconception: 'Students consistently confuse the *great-grandmother\'s* aristocratic nostalgia with the *poem\'s* primary theme.',
           parts: [
@@ -155,7 +155,7 @@ export const c12_eng_k_ch13_p1: SimDef = {
                   hint: 'If stuck on speaker vs poet: revisit c11_eng_w_cbse_01_006 (Theme: Primary Theme and Message.',
                   misconception: 'Students consistently confuse the *great-grandmother\'s* aristocratic nostalgia with the *poem\'s* primary theme.' }
           ],
-            remediations: { 'students-consistently-confuse-the-great': { steps: ['Re-read only the first and last stanzas aloud — ignore the middle. Ask: "Who is speaking? What do they feel?"', 'List every "I" statement in the poem. Sort them: childhood "I" vs adult "I".', 'Write one sentence: "The poem is about ______ realising ______." Fill blanks with the speaker\'s name and the specific.', 'Compare this sentence to the great-grandmother\'s stories. The gap between them IS the theme.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-consistently-confuse-the-great': { steps: ['Re-read only the first and last stanzas aloud — ignore the middle. Ask: "Who is speaking? What do they feel?"', 'List every "I" statement in the poem. Sort them: childhood "I" vs adult "I".', 'Write one sentence: "The poem is about ______ realising ______." Fill blanks with the speaker\'s name and the specific.', 'Compare this sentence to the great-grandmother\'s stories. The gap between them IS the theme.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -6,13 +6,13 @@ import C7_MathematicsConnectingTheDotsSim from '../../../simulations/c6_12/C7_Ma
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsconnectingthedotssim: SimDef = {
     id: 'v3w_c7_mathematicsconnectingthedotssim',
-    title: 'Connecting The Dots',
+    title: 'Explorations in Grids: Number Patterns in Arrays',
     subtitle: 'Covers rectangular, square, and triangular arrangements of numbers in grid layouts up to.',
     classLevel: 7, subject: 'mathematics', topic: 'Explorations in Grids: Number Patterns in Arrays',
     chapters: [],
     nodeIds: ['c7_math_ch06_004', 'c7_math_ch15_001', 'c7_math_ch15_007', 'c7_math_ch10_010', 'c7_math_ch11_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine you are arranging chairs in the school assembly hall for the annual sports day, placing them in rows.', goal: 'Master Connecting The Dots.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine you are arranging chairs in the school assembly hall for the annual sports day, placing them in rows.', goal: 'Master Explorations in Grids: Number Patterns in Arrays.' },
     discovery: {
         question: 'Find the first three common multiples of 6 and 8.',
         options: ['Step 1: List the multiples of 6: 6, 12, 18, 24, 30, 36, 42, 48, 54, 72', 'common multiples', 'common factors'],
@@ -69,7 +69,7 @@ export const w_c7_mathematicsconnectingthedotssim: SimDef = {
             { text: 'Convert the seconds into minutes and add to 7:00 AM. 60 seconds = 1 minute (7:01 AM); 120 seconds = 2 minutes (7:02.', faded: true, blankAnswer: '7:01 AM, 7:02 AM, and 7:03 AM' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch15_001', title: 'Identify each idea',
-          dissect: { specimen: 'Connecting The Dots', spots: [
+          dissect: { specimen: 'Explorations in Grids: Number Patterns in Arrays', spots: [
             { id: 's1', label: 'Explorations in grids and arrays', prompt: 'Which idea is this? — Explorations in grids and arrays involves discovering numerical patterns and algebraic.', answer: 'Explorations in grids and arrays', options: ['Explorations in grids and arrays', 'An equation is a mathematical', 'Setting up equations from word', 'Patterns in integer operations involve'] },
             { id: 's2', label: 'An equation is a mathematical', prompt: 'Which idea is this? — An equation is a mathematical statement that shows two algebraic expressions are equal,.', answer: 'An equation is a mathematical', options: ['An equation is a mathematical', 'Explorations in grids and arrays', 'Setting up equations from word', 'Patterns in integer operations involve'] },
             { id: 's3', label: 'Setting up equations from word', prompt: 'Which idea is this? — Setting up equations from word problems is the process of translating a real-world verbal.', answer: 'Setting up equations from word', options: ['Setting up equations from word', 'Explorations in grids and arrays', 'An equation is a mathematical', 'Patterns in integer operations involve'] },
@@ -77,7 +77,7 @@ export const w_c7_mathematicsconnectingthedotssim: SimDef = {
             { id: 's5', label: 'Common multiples are numbers that', prompt: 'Which idea is this? — Common multiples are numbers that are exact multiples of two or more given numbers,.', answer: 'Common multiples are numbers that', options: ['Common multiples are numbers that', 'Explorations in grids and arrays', 'An equation is a mathematical', 'Setting up equations from word'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsConnectingTheDotsSim, prompt: 'Explore the interactive — Connecting The Dots' },
+    explore: { component: C7_MathematicsConnectingTheDotsSim, prompt: 'Explore the interactive — Explorations in Grids: Number Patterns in Arrays' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch06_004', difficulty: 'standard',
           question: 'Explorations in grids and arrays involves discovering numerical patterns and.',

@@ -6,13 +6,13 @@ import C11_BiotechnologyChromatographyExchangePaperSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biotechnologychromatographyexchangepapersim: SimDef = {
     id: 'v3w_c11_biotechnologychromatographyexchangepapersim',
-    title: 'nology Chromatography Exchange Paper',
+    title: 'Chromatography: Gel Filtration and Ion Exchange',
     subtitle: 'This node covers the principles, matrices (dextran/agarose/polyacrylamide for gel.',
     classLevel: 11, subject: 'biotechnology', topic: 'Chromatography: Gel Filtration and Ion Exchange',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_12_004', 'c11_biotech_cbse_03_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you have a crude bacterial lysate containing your target protein (50 kDa, pI 6.5) mixed with larger.', goal: 'Master nology Chromatography Exchange Paper.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you have a crude bacterial lysate containing your target protein (50 kDa, pI 6.5) mixed with larger.', goal: 'Master Chromatography: Gel Filtration and Ion Exchange.' },
     discovery: {
         question: 'A mixture contains Protein A (pI 4.5), Protein B (pI 7.0), and Protein C (pI 9.5).',
         options: ['At pH 8.0: Protein A (pI 4.5) is negatively charged → binds strongly', 'more negative binds less', 'more negative requires more counter-ions to displace'],
@@ -42,12 +42,12 @@ export const w_c11_biotechnologychromatographyexchangepapersim: SimDef = {
             { text: 'Draw Haworth projections: α‑D‑glucopyranose (anomeric OH down) and β‑D‑glucopyranose (anomeric OH up).', faded: true, blankAnswer: 'Molecular formula C₆H₁₂O₆; the sugar is D‑glucose (an.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_biotech_cbse_03_001', title: 'Identify each idea',
-          dissect: { specimen: 'nology Chromatography Exchange Paper', spots: [
+          dissect: { specimen: 'Chromatography: Gel Filtration and Ion Exchange', spots: [
             { id: 's1', label: 'Chromatography is a separation technique', prompt: 'Which idea is this? — Chromatography is a separation technique where components of a mixture are distributed.', answer: 'Chromatography is a separation technique', options: ['Chromatography is a separation technique', 'Carbohydrates are polyhydroxy aldehydes or'] },
             { id: 's2', label: 'Carbohydrates are polyhydroxy aldehydes or', prompt: 'Which idea is this? — Carbohydrates are polyhydroxy aldehydes or ketones, or substances that yield such.', answer: 'Carbohydrates are polyhydroxy aldehydes or', options: ['Carbohydrates are polyhydroxy aldehydes or', 'Chromatography is a separation technique'] }
           ] } }
     ],
-    explore: { component: C11_BiotechnologyChromatographyExchangePaperSim, prompt: 'Explore the interactive — nology Chromatography Exchange Paper' },
+    explore: { component: C11_BiotechnologyChromatographyExchangePaperSim, prompt: 'Explore the interactive — Chromatography: Gel Filtration and Ion Exchange' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_biotech_cbse_12_004', difficulty: 'standard',
           question: 'Chromatography is a separation technique where components of a mixture are.',

@@ -109,7 +109,7 @@ export const c10_engl_ch04_p2: SimDef = {
           ],
             remediations: { 'the-holocaust-started-with-mass': { steps: ['Create a two-column timeline: left column = Nazi laws/decrees (1933–1944), right column = corresponding diary entry.', 'Highlight three stages: legal exclusion (1933–1939), ghettoization/segregation (1940–1941), deportation/hiding.', 'Practice writing one PEEL paragraph linking a specific law (e.g., "Jews must surrender bicycles, 1942") to Anne\'s.', 'Use the CBSE sample paper\'s case-based question on "Anne\'s list of decrees" as a template.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c10_engl_cbse_04_009', difficulty: 'standard',
-          question: 'Character analysis of Anne Frank involves systematically examining her.',
+          question: 'From \'English chapter c10_engl_cbse_04\': the skill or concept this node.',
           hint: 'Review the PEEL paragraph structure from Class 9 (c9_engl_ch1_5 writing component) and.',
           misconception: 'Students equate "maturity" with "being serious/adult-like" and therefore miss that Anne\'s playfulness, sarcasm, mood.',
           parts: [

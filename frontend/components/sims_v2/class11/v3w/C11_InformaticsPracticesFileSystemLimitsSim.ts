@@ -6,13 +6,13 @@ import C11_InformaticsPracticesFileSystemLimitsSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_informaticspracticesfilesystemlimitssim: SimDef = {
     id: 'v3w_c11_informaticspracticesfilesystemlimitssim',
-    title: 'Informatics Practices File System Limits',
+    title: 'Introduction to Data, Database and Database Management System',
     subtitle: 'This node covers: data vs information, file system limitations (redundancy,.',
     classLevel: 11, subject: 'science', topic: 'Introduction to Data, Database and Database Management System',
     chapters: [],
     nodeIds: ['c11_ip_cbse_07_001', 'c11_ip_cbse_08_011', 'c11_ip_cbse_01_007', 'c11_ip_cbse_01_009', 'c11_ip_cbse_02_003', 'c11_ip_cbse_06_002', 'c11_ip_cbse_08_010', 'c11_ip_cbse_07_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine your school library still uses paper registers: one register for book details, another for student.', goal: 'Master Informatics Practices File System Limits.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine your school library still uses paper registers: one register for book details, another for student.', goal: 'Master Introduction to Data, Database and Database Management System.' },
     discovery: {
         question: 'Explain why "data inconsistency" is a more dangerous problem than "data redundancy" in a file system, using the example of a student\'s name correction across.',
         options: ['Redundancy wastes storage', 'redundancy uses more disk space', 'Primary Key = Unique Identifier'],
@@ -81,7 +81,7 @@ export const w_c11_informaticspracticesfilesystemlimitssim: SimDef = {
             { text: 'Call `f.close()` to flush buffers and release the file.', faded: true, blankAnswer: '```python' }
             ] } }
     ],
-    explore: { component: C11_InformaticsPracticesFileSystemLimitsSim, prompt: 'Explore the interactive — Informatics Practices File System Limits' },
+    explore: { component: C11_InformaticsPracticesFileSystemLimitsSim, prompt: 'Explore the interactive — Introduction to Data, Database and Database Management System' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_ip_cbse_07_001', difficulty: 'standard',
           question: 'A Database Management System (DBMS) is a software system that enables users to.',

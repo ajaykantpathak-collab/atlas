@@ -6,13 +6,13 @@ import C11_ComputerScienceComputerArchitectureNeumannSim from '../../../simulati
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_computersciencecomputerarchitectureneumannsim: SimDef = {
     id: 'v3w_c11_computersciencecomputerarchitectureneumannsim',
-    title: 'Computer Architecture Neumann',
+    title: 'Introduction to Computers and their Evolution',
     subtitle: 'This node covers the fundamental definition of a computer system, its hardware components.',
     classLevel: 11, subject: 'computer_science', topic: 'Introduction to Computers and their Evolution',
     chapters: [],
     nodeIds: ['c11_cs_cbse_01_001', 'c11_cs_cbse_01_002', 'c11_cs_cbse_01_004', 'c11_cs_cbse_01_005', 'c11_cs_cbse_01_009', 'c11_cs_cbse_01_010', 'c11_cs_cbse_11_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re using your smartphone to send a message - you type on the screen (input), the phone processes.', goal: 'Master Computer Architecture Neumann.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re using your smartphone to send a message - you type on the screen (input), the phone processes.', goal: 'Master Introduction to Computers and their Evolution.' },
     discovery: {
         question: 'Explain why a computer with only RAM but no secondary storage cannot have software permanently installed, even if the RAM is large enough to hold the operating.',
         options: ['RAM is volatile memory - its contents are lost when power is turned off', 'RAM is too slow', 'secondary storage is faster'],
@@ -78,7 +78,7 @@ export const w_c11_computersciencecomputerarchitectureneumannsim: SimDef = {
             { text: 'Conclude that POST (Power-On Self-Test) is the stage skipped during warm boot.', faded: true, blankAnswer: 'First scenario: cold boot. Second scenario: warm boot..' }
             ] } }
     ],
-    explore: { component: C11_ComputerScienceComputerArchitectureNeumannSim, prompt: 'Explore the interactive — Computer Architecture Neumann' },
+    explore: { component: C11_ComputerScienceComputerArchitectureNeumannSim, prompt: 'Explore the interactive — Introduction to Computers and their Evolution' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_cs_cbse_01_001', difficulty: 'standard',
           question: 'A computer is an electronic device that accepts data (input), processes it.',

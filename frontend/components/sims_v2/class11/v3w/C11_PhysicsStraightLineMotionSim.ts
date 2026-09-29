@@ -6,13 +6,13 @@ import C11_PhysicsStraightLineMotionSim from '../../../simulations/three/C11_Phy
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicsstraightlinemotionsim: SimDef = {
     id: 'v3w_c11_physicsstraightlinemotionsim',
-    title: 'Straight Line Motion',
+    title: 'Position, Path Length and Displacement',
     subtitle: 'This node covers: definition of position coordinate, path length, and displacement for.',
     classLevel: 11, subject: 'physics', topic: 'Position, Path Length and Displacement',
     chapters: [],
     nodeIds: ['c11_phy_cbse_02_001', 'c11_phy_cbse_02_005', 'c11_phy_cbse_02_009', 'c11_phy_cbse_02_011', 'c11_phy_cbse_04_001', 'c11_phy_cbse_04_002', 'c11_phy_cbse_04_007', 'c11_phy_cbse_03_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe an auto-rickshaw moving on a straight Delhi road from Connaught Place (origin) towards India Gate.', goal: 'Master Straight Line Motion.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe an auto-rickshaw moving on a straight Delhi road from Connaught Place (origin) towards India Gate.', goal: 'Master Position, Path Length and Displacement.' },
     discovery: {
         question: 'A ball is thrown vertically upward with initial speed 20 m/s. At the highest point of its motion, what are the values of velocity and acceleration?',
         options: ['At the highest point: velocity v = 0 m/s', 'momentarily at rest', 'no net force'],
@@ -81,7 +81,7 @@ export const w_c11_physicsstraightlinemotionsim: SimDef = {
             { text: 'Check reasonableness: f_s = 30 N. If μ_s ≥ 0.2, no slipping occurs (f_s ≤ μ_s N ⇒ 30 ≤ μ_s × 150 ⇒ μ_s ≥ 0.2).', faded: true, blankAnswer: '30 N, horizontally forward (in direction of train\'s.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_02_005', title: 'Identify each idea',
-          dissect: { specimen: 'Straight Line Motion', spots: [
+          dissect: { specimen: 'Position, Path Length and Displacement', spots: [
             { id: 's1', label: 'Position is the location of', prompt: 'Which idea is this? — Position is the location of a point object specified by its coordinate (x) on a chosen.', answer: 'Position is the location of', options: ['Position is the location of', 'Kinematic equations for uniformly accelerated', 'Stopping distance is the total', 'Word problems in motion in'] },
             { id: 's2', label: 'Kinematic equations for uniformly accelerated', prompt: 'Which idea is this? — Kinematic equations for uniformly accelerated motion are a set of three algebraic.', answer: 'Kinematic equations for uniformly accelerated', options: ['Kinematic equations for uniformly accelerated', 'Position is the location of', 'Stopping distance is the total', 'Word problems in motion in'] },
             { id: 's3', label: 'Stopping distance is the total', prompt: 'Which idea is this? — Stopping distance is the total displacement of a vehicle from the instant the brakes are.', answer: 'Stopping distance is the total', options: ['Stopping distance is the total', 'Position is the location of', 'Kinematic equations for uniformly accelerated', 'Word problems in motion in'] },
@@ -90,7 +90,7 @@ export const w_c11_physicsstraightlinemotionsim: SimDef = {
             { id: 's6', label: 'Newtons First Law of Motion', prompt: 'Which idea is this? — Newton\'s First Law of Motion (Law of Inertia) states that a body remains in its state of.', answer: 'Newtons First Law of Motion', options: ['Newtons First Law of Motion', 'Position is the location of', 'Kinematic equations for uniformly accelerated', 'Stopping distance is the total'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsStraightLineMotionSim, prompt: 'Explore the interactive — Straight Line Motion' },
+    explore: { component: C11_PhysicsStraightLineMotionSim, prompt: 'Explore the interactive — Position, Path Length and Displacement' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_02_001', difficulty: 'standard',
           question: 'Position is the location of a point object specified by its coordinate (x) on a.',

@@ -139,8 +139,8 @@ export const c11_hist_ch01_p1: SimDef = {
                   options: ['Mesopotamia lacked papyrus and had limited stone/wood', 'clay was more durable'],
                   hint: 'Revisit c11_hist_cbse_01_002 — focus on the bullae (clay envelopes) and how token impressions.',
                   misconception: 'Students often believe cuneiform was an alphabet where each wedge equals a letter (like English), and that most Mesopotamians could.' },
-                { id: 'c', prompt: 'A scribe in 2600 BCE Uruk receives an order: "Record the delivery of 300 litres of barley to the temple storehouse, received from Farmer A, witnessed.', answer: 'Steps: (1) Collect levigated clay from riverbed',
-                  options: ['Steps: (1) Collect levigated clay from riverbed', 'moist clay'],
+                { id: 'c', prompt: 'A scribe in 2600 BCE Uruk receives an order: "Record the delivery of 300 litres of barley to the temple storehouse, received from Farmer A, witnessed.', answer: '(1) Collect levigated clay from riverbed',
+                  options: ['(1) Collect levigated clay from riverbed', 'moist clay'],
                   hint: 'Revisit c11_hist_cbse_01_002 — focus on the bullae (clay envelopes) and how token impressions.',
                   misconception: 'Students often believe cuneiform was an alphabet where each wedge equals a letter (like English), and that most Mesopotamians could.' }
           ],

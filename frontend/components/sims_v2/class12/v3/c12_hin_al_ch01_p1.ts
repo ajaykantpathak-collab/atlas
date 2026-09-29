@@ -19,7 +19,7 @@ export const c12_hin_al_ch01_p1: SimDef = {
         hook: 'This isn\'t a funeral rite — it\'s feudal economics with the corpse as collateral, turning even death into a transaction. Renu was a Quit India fighter and rural journalist: the आंचलिक dialect and documented detail make it an indictment, not a village sketch.',
     },
     teaching: [
-        { title: 'सूरदास की झोंपड़ी — पृष्ठभूमि और रचनाकार परिचय', text: 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके सामाजिक-धार्मिक संदर्भ और रचना के प्रेरणा स्रोतों को समझाता है, जिससे पाठ के गहरे अर्थों की व्याख्या की जा सके।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'सूरदास की झोंपड़ी — पृष्ठभूमि और रचनाकार परिचय', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_al_cbse_01_001', title: 'Your mission',
@@ -28,6 +28,12 @@ export const c12_hin_al_ch01_p1: SimDef = {
         context: 'Enter Renu\'s Bihar as a documentarian: decode the custom that auctions the dead, weigh the zamindar-peasant power imbalance, and read dialect as resistance.',
         labels: ['सूरदास की झोंपड़ी —'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_al_cbse_01_001', title: 'सूरदास की झोंपड़ी — पृष्ठभूमि और रचनाकार परिचय',
+          caseStudy: { intro: 'अंतराल भाग-2 खोलिए और पाठ 01 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: 'Who is the author of "लड़कनक की साईँ" and what is the literal meaning of the word \'साईँ\' in the title?', options: [
+                { text: 'The author is Phanishwar Nath Renu (फणीश्वरनाथ रेणु), a prominent आंचलिक कथाकार from Bihar', outcome: 'The author is Phanishwar Nath Renu (फणीश्वरनाथ रेणु), a prominent आंचलिक कथाकार from Bihar.' },
+                { text: 'Premchand or defining \'साईँ\' as a funeral ritual', outcome: 'Not quite — Students often treat "Before You Read" as a skippable summary and assume \'साईँ\' is merely a funeral.', reveals: 'students-often-treat-before-you' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_al_cbse_01_001', title: 'Use it in the wild',
           caseStudy: { intro: 'On an NGO internship in a village, you watch a moneylender stall a poor family\'s funeral until they \'settle his dues\' — the crowd shrugs that debt must be honoured. Your field note reads: \'cruel individual.\'',
             decisions: [{ prompt: 'What does the context of Renu\'s \'साईँ\' add to that diagnosis?', options: [
@@ -47,67 +53,82 @@ export const c12_hin_al_ch01_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_001', difficulty: 'standard',
-          question: 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन.',
-          hint: 'यदि फंसें तो कक्षा 11 के पृष्ठभूमि और रचनाकार परिचय (c11_hin_a_cbse_01_001) की अवधारणा को.',
-          misconception: 'छात्र अक्सर सूरदास की झोंपड़ी को उनके जीवन के एक विशिष्ट ऐतिहासिक घटना से जोड़कर समझते हैं, जैसे मानते हैं कि वे वास्तव.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, review the "पाठ परिचय" section of any Class 11 Hindi chapter (e.g.',
+          misconception: 'Students often treat "Before You Read" as a skippable summary and assume \'साईँ\' is merely a funeral ceremony.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके',
-                  options: ['सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और', 'मुख्य पात्र या नायक वह केंद्रीय किरदार है जिसकी गतिविधियां, निर्णय और संघर्ष कहानी के'],
-                  hint: 'यदि फंसें तो कक्षा 11 के पृष्ठभूमि और रचनाकार परिचय (c11_hin_a_cbse_01_001) की अवधारणा को दोबारा.',
-                  misconception: 'छात्र अक्सर सूरदास की झोंपड़ी को उनके जीवन के एक विशिष्ट ऐतिहासिक घटना से जोड़कर समझते हैं, जैसे मानते हैं कि वे वास्तव में किसी विशेष.' }
+                { id: 'a', prompt: 'Explain in your own words why the custom of \'साईँ\' emerged in rural Bihar and what it tells us about the relationship between peasants and landlords.', answer: '\'साईँ\' emerged because peasants had no access to formal credit',
+                  options: ['\'साईँ\' emerged because peasants had no access to formal credit', 'poverty'],
+                  hint: 'If stuck, review the "पाठ परिचय" section of any Class 11 Hindi chapter (e.g.',
+                  misconception: 'Students often treat "Before You Read" as a skippable summary and assume \'साईँ\' is merely a funeral ceremony.' },
+                { id: 'b', prompt: 'Phanishwar Nath Renu participated in the 1942 Quit India Movement and worked as a journalist in rural Bihar.', answer: 'His involvement in the freedom struggle exposed him to the gap between political',
+                  options: ['His involvement in the freedom struggle exposed him to the gap between political', 'he wrote realistically'],
+                  hint: 'If stuck, review the "पाठ परिचय" section of any Class 11 Hindi chapter (e.g.',
+                  misconception: 'Students often treat "Before You Read" as a skippable summary and assume \'साईँ\' is merely a funeral ceremony.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि पाठ में किस जगह स्पष्ट रूप से कहा गया है कि झोंपड़ी का अर्थ आंतरिक है - जैसे कि इसमें शुद्ध हृदय.', 'अंत में, एक सरल उदाहरण दीजिए: जैसे हम कहते हैं "दिल का घर साफ रखो" और मतलब आंतरिक शुद्धता से लगाते हैं, वैसे ही सूरदास.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-before-you': { steps: ['Re‑read the "पाठ परिचय" (Text Introduction) in the NCERT textbook and underline every proper noun (author, region.', 'Watch a 5‑minute video on "जमींदारी प्रथा और ग्रामीण ऋण" (e.g., from NCERT’s official YouTube channel) to visualize the.', 'Discuss with the teacher: "If the landlord already owns the land, why does he need the body?" — this question forces.', 'Re‑attempt Diagnostic Questions 2 and 4; if answers improve, move forward.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often treat "Before You Read" as a skippable summary and assume \'साईँ\' is merely a funeral ceremony.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the claim: "A reader can fully appreciate \'लड़कनक की साईँ\' without any knowledge of the historical context or the custom of \'साईँ\' because the story’s.', answer: 'The claim is false',
+                  options: ['The claim is false', 'universalist'],
+                  hint: 'If stuck, review the "पाठ परिचय" section of any Class 11 Hindi chapter (e.g.',
+                  misconception: 'Students often treat "Before You Read" as a skippable summary and assume \'साईँ\' is merely a funeral ceremony.' }
+          ],
+            remediations: { 'students-often-treat-before-you': { steps: ['Re‑read the "पाठ परिचय" (Text Introduction) in the NCERT textbook and underline every proper noun (author, region.', 'Watch a 5‑minute video on "जमींदारी प्रथा और ग्रामीण ऋण" (e.g., from NCERT’s official YouTube channel) to visualize the.', 'Discuss with the teacher: "If the landlord already owns the land, why does he need the body?" — this question forces.', 'Re‑attempt Diagnostic Questions 2 and 4; if answers improve, move forward.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_002', difficulty: 'standard',
-          question: 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो.',
-          hint: 'अगर फंसे हों तो c11_hin_a_cbse_01_002 के \'कथानक के सोपान\' और \'आख्यान-युक्तियां\' खंड.',
-          misconception: 'छात्र अक्सर समझते हैं कि \'कथानक\' और \'आख्यान-संरचना\' पर्यायवाची हैं — जैसे \'कहानी क्या हुई\' और \'कहानी कैसे कही गई\' में.',
+          question: '\'ल्वज्नकल की >कसईम+ह\' का कथानक — \'ल्वज्नकल की >कसईम+ह\' — अंतराल भाग-2 का पाठ।.',
+          hint: 'If unable to map reading vs. chronological order, practice with a परिचित film (e.g.',
+          misconception: 'Students equate "plot" with "what happens" and "structure" with "beginning-middle-end", treating them as synonyms.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध',
-                  options: ['कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और', 'मुख्य पात्र या नायक वह केंद्रीय किरदार है जिसकी गतिविधियां, निर्णय और संघर्ष कहानी के'],
-                  hint: 'अगर फंसे हों तो c11_hin_a_cbse_01_002 के \'कथानक के सोपान\' और \'आख्यान-युक्तियां\' खंड दोहराएं.',
-                  misconception: 'छात्र अक्सर समझते हैं कि \'कथानक\' और \'आख्यान-संरचना\' पर्यायवाची हैं — जैसे \'कहानी क्या हुई\' और \'कहानी कैसे कही गई\' में कोई अंतर नहीं। असल.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'ल्वज्नकल की >कसईम+ह\' का कथानक',
+                  options: ['\'ल्वज्नकल की >कसईम+ह\' का कथानक', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'ल्वज्नकल की >कसईम+ह\' का पाठ्य-परिवेश (setting)', '\'ल्वज्नकल की >कसईम+ह\' का पात्र-चित्रण'],
+                  hint: 'If unable to map reading vs. chronological order, practice with a परिचित film (e.g., "Baghban".',
+                  misconception: 'Students equate "plot" with "what happens" and "structure" with "beginning-middle-end", treating them as synonyms.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें — \'पाठ की 8-10 प्रमुख घटनाएं कागज पर तीर के निशान (→) से जोड़कर लिखो जैसे वे घटीं (कालानुक्रम)।\'.', 'कहां दो दृश्य साथ-साथ चले?\' चरण 3: दोनों टाइमलाइन साथ रखकर अंतर चिह्नित करें — यही आख्यान-संरचना है। चरण 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-equate-plot-with-what': { steps: ['Have the student take ANY short story (even a fable) and create a two-column table: Column A = events in reading order.', 'For every row where A ≠ B, write one sentence: "The author places [event] here instead of chronologically to achieve.', 'Practice with the NCERT story — map the ledger scene (reading order: late; chronological: middle) and articulate its.', 'Re-attempt Diagnostic Question 3. If still stuck, revisit c11_hin_ar_cbse_01_002 (Class 11 Plot basics) and.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_003', difficulty: 'standard',
-          question: 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक.',
+          question: '\'ल्वज्नकल की >कसईम+ह\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण.',
           hint: 'यदि अटके, तो कक्षा 11 के \'हुसैन की कहानी अपनी ज़बानी\' (c11_hin_al_cbse_01_003) का.',
           misconception: 'छात्र अक्सर \'परिवेश\' (Setting) को केवल \'स्थान और समय\' (Place and Time) मान लेते हैं, और \'वातावरण\' (Atmosphere) को.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और',
-                  options: ['पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और', 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'मुख्य पात्र या नायक वह केंद्रीय किरदार है जिसकी गतिविधियां, निर्णय और संघर्ष कहानी के'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'ल्वज्नकल की >कसईम+ह\' का पाठ्य-परिवेश (setting)',
+                  options: ['\'ल्वज्नकल की >कसईम+ह\' का पाठ्य-परिवेश (setting)', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'ल्वज्नकल की >कसईम+ह\' का कथानक', '\'ल्वज्नकल की >कसईम+ह\' का पात्र-चित्रण'],
                   hint: 'यदि अटके, तो कक्षा 11 के \'हुसैन की कहानी अपनी ज़बानी\' (c11_hin_al_cbse_01_003) का परिवेश-वातावरण.',
                   misconception: 'छात्र अक्सर \'परिवेश\' (Setting) को केवल \'स्थान और समय\' (Place and Time) मान लेते हैं, और \'वातावरण\' (Atmosphere) को \'मौसम\' (Weather) समझते.' }
           ],
             remediations: { 'setting-place-and-time': { steps: ['चरण 1: छात्र को कहानी के पहले दो पैराग्राफ जोर से पढ़वाएं और हर संज्ञा (Noun) को घेरने को कहें — फिर पूछें: \'इनमें से.', 'लेखक ने इन्हें क्यों चुना?\' चरण 3: छात्र से कहें कि वह झोंपड़ी का चित्र बनाए और हर भाग को लेबल करे — फिर प्रत्येक लेबल.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_004', difficulty: 'standard',
-          question: 'मुख्य पात्र या नायक वह केंद्रीय किरदार है जिसकी गतिविधियां, निर्णय और संघर्ष.',
+          question: '\'ल्वज्नकल की >कसईम+ह\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
           hint: 'यदि छात्र मुख्य पात्र की पहचान में कठिनाई महसूस कर रहा है, तो उसे पात्र के आंतरिक लक्षणों.',
           misconception: 'छात्र अक्सर मुख्य पात्र की पहचान करते समय केवल उसके बाहरी दिखावे, सामाजिक स्थिति या कहानी में आने वाली बारंबारता पर.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य पात्र या नायक वह केंद्रीय किरदार है जिसकी गतिविधियां, निर्णय और संघर्ष कहानी के',
-                  options: ['मुख्य पात्र या नायक वह केंद्रीय किरदार है जिसकी गतिविधियां, निर्णय और संघर्ष कहानी के', 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'ल्वज्नकल की >कसईम+ह\' का पात्र-चित्रण',
+                  options: ['\'ल्वज्नकल की >कसईम+ह\' का पात्र-चित्रण', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'ल्वज्नकल की >कसईम+ह\' का कथानक', '\'ल्वज्नकल की >कसईम+ह\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि छात्र मुख्य पात्र की पहचान में कठिनाई महसूस कर रहा है, तो उसे पात्र के आंतरिक लक्षणों (विचार.',
                   misconception: 'छात्र अक्सर मुख्य पात्र की पहचान करते समय केवल उसके बाहरी दिखावे, सामाजिक स्थिति या कहानी में आने वाली बारंबारता पर निर्भर करते हैं, जैसे.' }
           ],
             remediations: { 'wrong-idea': { steps: ['यदि छात्र इस गलती को दोहराता है, तो उसे निम्नलिखित चरणों का पालन करना चाहिए: - चरण 1: पाठ को दोबारा पढ़ें और प्रत्येक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_005', difficulty: 'standard',
-          question: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के.',
+          question: '\'ल्वज्नकल की >कसईम+ह\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को.',
           hint: 'यदि नायक की विशेषताएं (तर्कशीलता, गरिमा, विद्रोह) स्पष्ट न हों, तो c12_hin_al_cbse_01_004.',
           misconception: 'छात्र मानते हैं कि सहायक पात्रों का चित्रण केवल \'उनके नाम और एक वाक्य में भूमिका\' लिखना है। **गलत:** बोर्ड/CUET में.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के साथ कथानक',
-                  options: ['सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के साथ कथानक', 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'ल्वज्नकल की >कसईम+ह\' के सहायक पात्र',
+                  options: ['\'ल्वज्नकल की >कसईम+ह\' के सहायक पात्र', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'ल्वज्नकल की >कसईम+ह\' का कथानक', '\'ल्वज्नकल की >कसईम+ह\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि नायक की विशेषताएं (तर्कशीलता, गरिमा, विद्रोह) स्पष्ट न हों, तो c12_hin_al_cbse_01_004 के.',
                   misconception: 'छात्र मानते हैं कि सहायक पात्रों का चित्रण केवल \'उनके नाम और एक वाक्य में भूमिका\' लिखना है। **गलत:** बोर्ड/CUET में पूछा जाता है — "पुजारी.' }
           ],
             remediations: { 'cuet': { steps: ['चरण 1: c12_hin_al_cbse_01_002 (कथानक) दोबारा पढ़ें — घटनाक्रम में सहायक पात्र कब-कहाँ आते हैं, चिह्नित करें। चरण 2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_01_006', difficulty: 'standard',
-          question: 'किसी पाठ का मुख्य विषय वह केंद्रीय विचार या भाव है जिसे लेखक दोहराता, विकसित.',
+          question: '\'ल्वज्नकल की >कसईम+ह\' का मुख्य विषय — \'ल्वज्नकल की >कसईम+ह\' का केंद्रीय भाव और.',
           hint: 'यदि फंसें तो c12_hin_al_cbse_01_002 (कथानक और आख्यान-संरचना) पर दोबारा जाएं — घटनाओं के.',
           misconception: 'छात्र अक्सर मुख्य विषय को पाठ के पहले या最后 वाक्य से जोड़कर मान लेते हैं कि वह वहीं स्पष्ट रूप से लिखा है — जैसे यदि पाठ.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'किसी पाठ का मुख्य विषय वह केंद्रीय विचार या भाव है जिसे लेखक दोहराता, विकसित करता और',
-                  options: ['किसी पाठ का मुख्य विषय वह केंद्रीय विचार या भाव है जिसे लेखक दोहराता, विकसित करता और', 'सूरदास की झोंपड़ी का पृष्ठभूमि और रचनाकार परिचय वह विवरण है जो सूरदास के जीवन, उनके', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', 'पाठ्य-परिवेश (Setting) किसी रचना में कथानक घटित होने का भौतिक, सामाजिक, ऐतिहासिक और'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'ल्वज्नकल की >कसईम+ह\' का मुख्य विषय',
+                  options: ['\'ल्वज्नकल की >कसईम+ह\' का मुख्य विषय', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'ल्वज्नकल की >कसईम+ह\' का कथानक', '\'ल्वज्नकल की >कसईम+ह\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फंसें तो c12_hin_al_cbse_01_002 (कथानक और आख्यान-संरचना) पर दोबारा जाएं — घटनाओं के क्रम को.',
                   misconception: 'छात्र अक्सर मुख्य विषय को पाठ के पहले या最后 वाक्य से जोड़कर मान लेते हैं कि वह वहीं स्पष्ट रूप से लिखा है — जैसे यदि पाठ शुरू में "झोंपड़ी.' }
           ],

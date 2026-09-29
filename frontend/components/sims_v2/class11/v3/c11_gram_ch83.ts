@@ -24,7 +24,7 @@ export const c11_gram_ch83: SimDef = {
             { id: 's3', label: 'Clause-type constraints override sequence of', prompt: 'Which idea is this? — Clause-type constraints override sequence of tenses: adverbial clauses of reason.', answer: 'Clause-type constraints override sequence of', options: ['Clause-type constraints override sequence of', 'In complex sentences the subordinate', 'Sequence of tenses is the'] }
           ] } },
         { type: 'build', nodeId: 'c11_gram_cbse_83_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Purpose — may (present zone) / might (past zone).', 'Time clauses for the future use present form — \'when.', 'Fix the main clause\'s zone.'], answer: 'Fix the main clause\'s zone. Purpose — may (present zone) / might (past zone). Time clauses for the future use present form — \'when.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Fix the main clause\'s zone.', 'Purpose — may (present zone) / might (past zone).', 'Time clauses for the future use present form — \'when.'], answer: 'Fix the main clause\'s zone. Purpose — may (present zone) / might (past zone). Time clauses for the future use present form — \'when.' } },
         { type: 'case', nodeId: 'c11_gram_ch83_003', title: 'You made it',
           caseStudy: { intro: 'You finished In complex sentences the subordinate tense must. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

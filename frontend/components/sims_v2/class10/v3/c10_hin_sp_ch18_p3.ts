@@ -11,10 +11,10 @@ export const c10_hin_sp_ch18_p3: SimDef = {
     nodeIds: ['c10_hin_sp_cbse_18_013', 'c10_hin_sp_cbse_18_014', 'c10_hin_sp_cbse_18_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 10 learner', intro: 'कल्पना करें: परीक्षा में एक पद्यांश दिया गया है — "मनुष्यता का धर्म निभाना ही सच्ची पूजा है" — और पूछा जाता.', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 10 learner', intro: '\'अर्थ लिखिए\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।', goal: 'Master every idea in this chapter.' },
     // discovery omitted — no cleanly extractable hook in this chapter
     teaching: [
-        { title: 'मनुष्यता — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण किसी पद्यांश/गद्यांश के **प्रतीकात्मक, भावनात्मक और दार्शनिक अर्थ** को तर्कसंगत ढंग से खोलने की प्रक्रिया है, जिसमें प्रसंग, कथन, व्याख्या और सार-संक्षेप के चार चरणों से गुजरकर.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'मनुष्यता — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: '\'अर्थ लिखिए\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c10_hin_sp_cbse_18_013', title: 'Your mission',
@@ -34,34 +34,34 @@ export const c10_hin_sp_ch18_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_hin_sp_cbse_18_013', difficulty: 'standard',
-          question: 'आशय-स्पष्टीकरण किसी पद्यांश/गद्यांश के **प्रतीकात्मक, भावनात्मक और दार्शनिक.',
+          question: '\'अर्थ लिखिए\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'यदि फँस जाएँ तो **c10_hin_sp_cbse_18_002 (भावार्थ)** और **c10_hin_sp_cbse_18_006/007.',
           misconception: '**विशिष्ट भ्रम:** विद्यार्थी मानते हैं कि आशय-स्पष्टीकरण में **\'कठिन शब्दों के अर्थ\' लिखना ही काफी है**। वे प्रसंग नहीं.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण किसी पद्यांश/गद्यांश के **प्रतीकात्मक, भावनात्मक और दार्शनिक अर्थ** को',
-                  options: ['आशय-स्पष्टीकरण किसी पद्यांश/गद्यांश के **प्रतीकात्मक, भावनात्मक और दार्शनिक अर्थ** को', 'कवि परिचय में कवि का जीवन-परिचय, साहित्यिक योगदान, युग-प्रवृत्तियाँ और रचनाधर्मिता शामिल', 'पद्यांश-वार भावार्थ (Stanza-wise Detailed Meaning) is the analytical process of', 'काव्य-संरचना (poetic structure) कविता के आंतरिक और बाह्य ढाँचे का वह सुनियोजित विन्यास है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अर्थ लिखिए\' का आलोचनात्मक चिंतन',
+                  options: ['\'अर्थ लिखिए\' का आलोचनात्मक चिंतन', 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = माखनलाल चतुर्वेदी का जीवन-वृत्त (जन्म 4 अप्रैल', '\'अर्थ लिखिए\' का कथानक', '\'अर्थ लिखिए\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फँस जाएँ तो **c10_hin_sp_cbse_18_002 (भावार्थ)** और **c10_hin_sp_cbse_18_006/007.',
                   misconception: '**विशिष्ट भ्रम:** विद्यार्थी मानते हैं कि आशय-स्पष्टीकरण में **\'कठिन शब्दों के अर्थ\' लिखना ही काफी है**। वे प्रसंग नहीं देते, अलंकार/बिंब.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**पहला कदम:** विद्यार्थी को एक छोटा पद्यांश दें और केवल **प्रसंग पहचानने** को कहें — "यह कविता के किस भाग से है?', 'पहले/मध्य/अंत?" — जब तक वह 3/3 सही न करे। 2.', '**दूसरा कदम:** उसी पद्यांश पर **कथन लिखवाएँ** — "सरल भाषा में बताओ कवि क्या कह रहा है?" — शब्दार्थ न लिखने दें। 3.', '**तीसरा कदम:** **एक अलंकार/बिंब चुनकर** उसकी भूमिका समझाएँ — "यहाँ \'ज्योति\' क्यों आई?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_hin_sp_cbse_18_014', difficulty: 'standard',
-          question: 'परीक्षा-उत्तर लेखन कौशल वह व्यवस्थित प्रक्रिया है जिसमें विद्यार्थी प्रश्न की.',
+          question: '\'अर्थ लिखिए\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि फँसें तो c10_hin_sp_cbse_18_008 (मुख्य भाव) और c10_hin_sp_cbse_18_013.',
           misconception: 'विद्यार्थी समझते हैं कि \'उत्तर लिखना\' = \'पाठ्य-पुस्तक की पंक्तियाँ नकल करना\' या \'रटे हुए वाक्य लिखना\'। वास्तव में बोर्ड.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल वह व्यवस्थित प्रक्रिया है जिसमें विद्यार्थी प्रश्न की मांग',
-                  options: ['परीक्षा-उत्तर लेखन कौशल वह व्यवस्थित प्रक्रिया है जिसमें विद्यार्थी प्रश्न की मांग', 'कवि परिचय में कवि का जीवन-परिचय, साहित्यिक योगदान, युग-प्रवृत्तियाँ और रचनाधर्मिता शामिल', 'पद्यांश-वार भावार्थ (Stanza-wise Detailed Meaning) is the analytical process of', 'काव्य-संरचना (poetic structure) कविता के आंतरिक और बाह्य ढाँचे का वह सुनियोजित विन्यास है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अर्थ लिखिए\' पर पाठ-आधारित लेखन',
+                  options: ['\'अर्थ लिखिए\' पर पाठ-आधारित लेखन', 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = माखनलाल चतुर्वेदी का जीवन-वृत्त (जन्म 4 अप्रैल', '\'अर्थ लिखिए\' का कथानक', '\'अर्थ लिखिए\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फँसें तो c10_hin_sp_cbse_18_008 (मुख्य भाव) और c10_hin_sp_cbse_18_013 (आशय-स्पष्टीकरण) दोहराएं.',
                   misconception: 'विद्यार्थी समझते हैं कि \'उत्तर लिखना\' = \'पाठ्य-पुस्तक की पंक्तियाँ नकल करना\' या \'रटे हुए वाक्य लिखना\'। वास्तव में बोर्ड परीक्षक PEEL ढांचे.' }
           ],
             remediations: { 'peel-5-3-1': { steps: ['चरण 1: विद्यार्थी को एक कमजोर उत्तर (केवल पंक्तियाँ नकल) और एक सशक्त उत्तर (PEEL) साथ रखकर दिखाएं — अंतर स्पष्ट करें।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_hin_sp_cbse_18_015', difficulty: 'standard',
-          question: 'वाचन-पाठ (Reading Aloud & Silent Reading) कविता/गद्य को सही उच्चारण, लय, विराम.',
+          question: '\'अर्थ लिखिए\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का.',
           hint: 'यदि अटका हुआ लगे: c10_hin_sp_cbse_18_002 (भावार्थ) और c10_hin_sp_cbse_18_004 (केंद्रीय.',
           misconception: 'छात्र समझते हैं कि **वाचन-पाठ = केवल सही उच्चारण** और **चर्चा = शिक्षक के प्रश्नों का उत्तर देना**। वास्तव में: वाचन.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-पाठ (Reading Aloud & Silent Reading) कविता/गद्य को सही उच्चारण, लय, विराम और भाव के',
-                  options: ['वाचन-पाठ (Reading Aloud & Silent Reading) कविता/गद्य को सही उच्चारण, लय, विराम और भाव के', 'कवि परिचय में कवि का जीवन-परिचय, साहित्यिक योगदान, युग-प्रवृत्तियाँ और रचनाधर्मिता शामिल', 'पद्यांश-वार भावार्थ (Stanza-wise Detailed Meaning) is the analytical process of', 'काव्य-संरचना (poetic structure) कविता के आंतरिक और बाह्य ढाँचे का वह सुनियोजित विन्यास है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अर्थ लिखिए\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'अर्थ लिखिए\' पर वाचन-श्रवण और चर्चा-बिंदु', 'इस पाठ का रचनाकार-परिचय व पृष्ठभूमि = माखनलाल चतुर्वेदी का जीवन-वृत्त (जन्म 4 अप्रैल', '\'अर्थ लिखिए\' का कथानक', '\'अर्थ लिखिए\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटका हुआ लगे: c10_hin_sp_cbse_18_002 (भावार्थ) और c10_hin_sp_cbse_18_004 (केंद्रीय भाव) को.',
                   misconception: 'छात्र समझते हैं कि **वाचन-पाठ = केवल सही उच्चारण** और **चर्चा = शिक्षक के प्रश्नों का उत्तर देना**। वास्तव में: वाचन में **भाव-लय-विराम**.' }
           ],

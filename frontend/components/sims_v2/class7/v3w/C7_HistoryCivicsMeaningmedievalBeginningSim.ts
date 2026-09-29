@@ -6,13 +6,13 @@ import C7_HistoryCivicsMeaningmedievalBeginningSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_historycivicsmeaningmedievalbeginningsim: SimDef = {
     id: 'v3w_c7_historycivicsmeaningmedievalbeginningsim',
-    title: 'Meaningmedieval Beginning',
+    title: 'Janapadas: Early Kingdoms and Their Formation',
     subtitle: 'Covers the socio-political transition, land settlement patterns, and early political.',
     classLevel: 7, subject: 'history', topic: 'Janapadas: Early Kingdoms and Their Formation',
     chapters: [],
     nodeIds: ['c7_hist_ch01_002', 'c7_hist_ch01_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine visiting an old village where generations of your family have farmed the exact same plots of land,.', goal: 'Master Meaningmedieval Beginning.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine visiting an old village where generations of your family have farmed the exact same plots of land,.', goal: 'Master Janapadas: Early Kingdoms and Their Formation.' },
     discovery: {
         question: 'What major metal technology became widespread around the 6th century BCE and helped clear the dense forests of the Gangetic plains?',
         options: ['Iron was the metal technology that became widespread during this period', 'Bronze', 'Copper'],
@@ -41,12 +41,12 @@ export const w_c7_historycivicsmeaningmedievalbeginningsim: SimDef = {
             { text: 'Connect the agricultural surplus to urban growth: surplus grain freed non-farming specialists (such as metalworkers,.', faded: true, blankAnswer: 'Iron tools enabled deep ploughing and forest clearance in.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_hist_ch01_001', title: 'Identify each idea',
-          dissect: { specimen: 'Meaningmedieval Beginning', spots: [
+          dissect: { specimen: 'Janapadas: Early Kingdoms and Their Formation', spots: [
             { id: 's1', label: 'Janapadas were early territorial states', prompt: 'Which idea is this? — Janapadas were early territorial states that emerged in the Indian subcontinent around.', answer: 'Janapadas were early territorial states', options: ['Janapadas were early territorial states', 'The Second Urbanisation refers to'] },
             { id: 's2', label: 'The Second Urbanisation refers to', prompt: 'Which idea is this? — The Second Urbanisation refers to the historical period around the 6th century BCE in.', answer: 'The Second Urbanisation refers to', options: ['The Second Urbanisation refers to', 'Janapadas were early territorial states'] }
           ] } }
     ],
-    explore: { component: C7_HistoryCivicsMeaningmedievalBeginningSim, prompt: 'Explore the interactive — Meaningmedieval Beginning' },
+    explore: { component: C7_HistoryCivicsMeaningmedievalBeginningSim, prompt: 'Explore the interactive — Janapadas: Early Kingdoms and Their Formation' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_hist_ch01_001', difficulty: 'standard',
           question: 'The Second Urbanisation refers to the historical period around the 6th century.',

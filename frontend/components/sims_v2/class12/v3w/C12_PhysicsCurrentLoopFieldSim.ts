@@ -6,13 +6,13 @@ import C12_PhysicsCurrentLoopFieldSim from '../../../simulations/three/C12_Physi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicscurrentloopfieldsim: SimDef = {
     id: 'v3w_c12_physicscurrentloopfieldsim',
-    title: 'Current Loop Field',
+    title: 'Biot-Savart Law: Statement and Applications',
     subtitle: 'This node covers the statement of Biot-Savart law, its vector nature, the constant µ₀,.',
     classLevel: 12, subject: 'physics', topic: 'Biot-Savart Law: Statement and Applications',
     chapters: [],
     nodeIds: ['c12_phy_cbse_04_004', 'c12_phy_cbse_04_005', 'c12_phy_cbse_04_001', 'c12_phy_cbse_04_007', 'c12_phy_cbse_04_008', 'c12_phy_cbse_04_006', 'c12_phy_cbse_04_002', 'c12_phy_cbse_04_009', 'c12_phy_cbse_04_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a compass needle placed near a straight wire carrying current from a battery — the needle deflects.', goal: 'Master Current Loop Field.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a compass needle placed near a straight wire carrying current from a battery — the needle deflects.', goal: 'Master Biot-Savart Law: Statement and Applications.' },
     discovery: {
         question: 'State the formula for the magnetic force on a charge \\(q\\) moving with velocity \\(\\vec{v}\\) in a magnetic field \\(\\vec{B}\\). What is its SI unit?',
         options: ['**Correct answer:** \\(\\vec{F}_m = q(\\vec{v} \\times \\vec{B})\\)', 'magnetic force can increase or decrease the speed of a charged particle', 'aligned'],
@@ -79,7 +79,7 @@ export const w_c12_physicscurrentloopfieldsim: SimDef = {
             { text: 'Check continuity at surface **r** = **a** = 2.5 mm: **B** = μ₀**I**/(2π**a**) = (4π×10⁻⁷×15)/(2π×2.5×10⁻³) = 1.2 × 10⁻³.', faded: true, blankAnswer: '** (a) 4.8 × 10⁻⁴ T (0.48 mT) directed tangentially.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_04_005', title: 'Identify each idea',
-          dissect: { specimen: 'Current Loop Field', spots: [
+          dissect: { specimen: 'Biot-Savart Law: Statement and Applications', spots: [
             { id: 's1', label: 'The Biot-Savart law gives the', prompt: 'Which idea is this? — The Biot-Savart law gives the magnetic field dB produced at a point P by an infinitesimal.', answer: 'The Biot-Savart law gives the', options: ['The Biot-Savart law gives the', 'The magnetic field on the', 'The Lorentz force is the', 'The magnetic field inside a'] },
             { id: 's2', label: 'The magnetic field on the', prompt: 'Which idea is this? — The magnetic field on the axis of a circular current loop is the vector sum of.', answer: 'The magnetic field on the', options: ['The magnetic field on the', 'The Biot-Savart law gives the', 'The Lorentz force is the', 'The magnetic field inside a'] },
             { id: 's3', label: 'The Lorentz force is the', prompt: 'Which idea is this? — The Lorentz force is the total electromagnetic force experienced by a charge \\(q\\) moving.', answer: 'The Lorentz force is the', options: ['The Lorentz force is the', 'The Biot-Savart law gives the', 'The magnetic field on the', 'The magnetic field inside a'] },
@@ -88,7 +88,7 @@ export const w_c12_physicscurrentloopfieldsim: SimDef = {
             { id: 's6', label: 'Amperes circuital law states that', prompt: 'Which idea is this? — Ampere\'s circuital law states that for any closed loop (called an Amperian loop) in a.', answer: 'Amperes circuital law states that', options: ['Amperes circuital law states that', 'The Biot-Savart law gives the', 'The magnetic field on the', 'The Lorentz force is the'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsCurrentLoopFieldSim, prompt: 'Explore the interactive — Current Loop Field' },
+    explore: { component: C12_PhysicsCurrentLoopFieldSim, prompt: 'Explore the interactive — Biot-Savart Law: Statement and Applications' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_04_004', difficulty: 'standard',
           question: 'The Biot-Savart law gives the magnetic field dB produced at a point P by an.',

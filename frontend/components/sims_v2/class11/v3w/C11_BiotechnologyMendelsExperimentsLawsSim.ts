@@ -6,16 +6,16 @@ import C11_BiotechnologyMendelsExperimentsLawsSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biotechnologymendelsexperimentslawssim: SimDef = {
     id: 'v3w_c11_biotechnologymendelsexperimentslawssim',
-    title: 'nology Mendels Experiments Laws',
+    title: 'Mendel\'s Experiments: Choice of Organism and Method',
     subtitle: 'This node covers the rationale for choosing garden pea and the experimental methodology.',
     classLevel: 11, subject: 'biotechnology', topic: 'Mendel\'s Experiments: Choice of Organism and Method',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_06_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a plant breeder in 1850 trying to discover the rules of inheritance — you cannot see genes,.', goal: 'Master nology Mendels Experiments Laws.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a plant breeder in 1850 trying to discover the rules of inheritance — you cannot see genes,.', goal: 'Master Mendel\'s Experiments: Choice of Organism and Method.' },
     discovery: {
         question: 'State any four characteristics of garden pea (*Pisum sativum*) that made it an ideal model organism for Mendel\'s inheritance experiments.',
-        options: ['Correct answer: (1) Annual plant', 'easy to grow', 'common plant'],
+        options: ['(1) Annual plant', 'easy to grow', 'common plant'],
         answer: '(1) Annual plant',
         hook: 'Students often believe Mendel chose pea plants simply because they were "common" or "easy to grow in the monastery.',
     },
@@ -33,7 +33,7 @@ export const w_c11_biotechnologymendelsexperimentslawssim: SimDef = {
             { text: 'Write a justification linking the top scorer\'s features to Mendel\'s experimental needs (pure lines, controlled crosses,.', faded: true, blankAnswer: 'Scoring Table (illustrative):' }
             ] } }
     ],
-    explore: { component: C11_BiotechnologyMendelsExperimentsLawsSim, prompt: 'Explore the interactive — nology Mendels Experiments Laws' },
+    explore: { component: C11_BiotechnologyMendelsExperimentsLawsSim, prompt: 'Explore the interactive — Mendel\'s Experiments: Choice of Organism and Method' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_biotech_cbse_06_001', difficulty: 'standard',
           question: 'Mendel selected garden pea (*Pisum sativum*) as his model organism because it.',

@@ -31,7 +31,7 @@ from sqlalchemy import select, text
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from backend.database import get_db
-from backend.deps import get_current_user_optional
+from backend.deps import get_current_user, get_current_user_optional, is_staff
 from backend.models.user import User
 from backend.services.exam_service import (
     AnswerInput,
@@ -315,6 +315,23 @@ async def _get_session_or_404(db: AsyncSession, exam_id: str) -> ExamSessionDB:
     return row
 
 
+def _require_session_owner(session: ExamSessionDB, user: User) -> None:
+    """BUGFIX (pillar-6, round 2): exam session ids are small sequential
+    integers, so submit/result/strategy were trivially enumerable cross-user
+    (IDOR) and creation accepted fully anonymous callers, writing a
+    ``students`` row + exam session per anonymous request. Ownership rule:
+
+    * the session's owner, or
+    * any staff (teacher/admin), or
+    * legacy GUEST_UUID sessions (created before auth was required) stay
+      reachable so pre-existing guest flows do not break.
+    """
+    owner = str(session.student_id)
+    if owner == str(user.id) or owner == GUEST_UUID or is_staff(user):
+        return
+    raise HTTPException(status_code=403, detail="NOT_YOUR_EXAM_SESSION")
+
+
 async def _paper_question_ids(db: AsyncSession, session_id: int) -> List[str]:
     row = (await db.execute(select(ExamPaperDB).where(ExamPaperDB.session_id == session_id))).scalar_one_or_none()
     if row is None:
@@ -339,10 +356,15 @@ async def _paper_map(db: AsyncSession, session_id: int) -> dict:
 @exam_router.post("")
 async def create_exam(
     body: CreateExamDTO,
-    user: Optional[User] = Depends(get_current_user_optional),
+    user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
-    """Generate a fresh ISC paper via ExamService and return it as ExamDetail."""
+    """Generate a fresh ISC paper via ExamService and return it as ExamDetail.
+
+    BUGFIX (pillar-6, round 2): this used ``get_current_user_optional``, so an
+    anonymous caller could create exam sessions (a DB write per request).
+    Authentication is now required — 401 without a valid token.
+    """
     subject = _SUBJECT_MAP.get(body.subject.strip().lower())
     if subject is None:
         raise HTTPException(
@@ -407,11 +429,12 @@ async def create_exam(
 async def submit_exam(
     exam_id: str,
     body: SubmitExamDTO,
-    user: Optional[User] = Depends(get_current_user_optional),
+    user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
     """Grade the attempt with ExamService and return the full TS ExamResult."""
     session = await _get_session_or_404(db, exam_id)
+    _require_session_owner(session, user)
     qids = await _paper_question_ids(db, session.id)
 
     # grade EVERY question — unanswered ones come back not_attempted.
@@ -449,10 +472,11 @@ async def submit_exam(
 @exam_router.get("/{exam_id}/result")
 async def get_exam_result(
     exam_id: str,
-    user: Optional[User] = Depends(get_current_user_optional),
+    user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
     session = await _get_session_or_404(db, exam_id)
+    _require_session_owner(session, user)
     svc = ExamService(db)
     try:
         result = await svc.get_exam_result(session.id)
@@ -465,7 +489,7 @@ async def get_exam_result(
 @exam_router.get("/{exam_id}/strategy")
 async def get_exam_strategy(
     exam_id: str,
-    user: Optional[User] = Depends(get_current_user_optional),
+    user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
     session = await _get_session_or_404(db, exam_id)

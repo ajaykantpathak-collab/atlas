@@ -19,7 +19,7 @@ export const c12_hin_ar_ch10_p1: SimDef = {
         hook: 'Don\'t read it as just a sad servant story — the context stages a power binary (master-servant, caste, literacy) that the child\'s innocent gaze both reveals and unsettles. The Avadhi dialect she speaks is authenticity itself: identity recorded with respect, not corrected.',
     },
     teaching: [
-        { title: 'भक्तनि — पृष्ठभूमि और रचनाकार परिचय', text: 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के लेखक/कवि के व्यक्तित्व, कालखंड, सामाजिक-सांस्कृतिक परिवेश, साहित्यिक योगदान तथा रचना-प्रक्रिया को समझकर रचना के मूल.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'भक्तनि — पृष्ठभूमि और रचनाकार परिचय', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_10_001', title: 'Your mission',
@@ -28,6 +28,32 @@ export const c12_hin_ar_ch10_p1: SimDef = {
         context: 'See through the child-narrator\'s eyes: map the household\'s hierarchy before a word of plot, weigh dialect as dignity, and read a memory sketch as social evidence.',
         labels: ['भक्तनि — पृष्ठभूमि और', 'भक्तनि — कथानक और', 'भक्तनि — पाठ्य-परिवेश और', 'भक्तनि — पात्र-चित्रण: नायक/प्रमुख', 'भक्तनि — पात्र-चित्रण: सहायक', 'भक्तनि — मुख्य विषय'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_10_001', title: 'भक्तनि — पृष्ठभूमि और रचनाकार परिचय',
+          caseStudy: { intro: 'आरोह भाग-2 खोलिए और पाठ 10 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: '**REMEMBER:** Who is the author of *HkfDru* and what is the source collection of this sketch?', options: [
+                { text: 'The author is Mahadevi Verma (1907–1987), a major Hindi poet and social reformer', outcome: 'The author is Mahadevi Verma (1907–1987), a major Hindi poet and social reformer.' },
+                { text: 'Before You Read', outcome: 'Not quite — Students often treat the “Before You Read” section as optional background trivia and skip it.', reveals: 'students-often-treat-the-before' },
+                { text: 'another author like Premchand or citing a different book like *Yama*', outcome: 'Not quite — Students often treat the “Before You Read” section as optional background trivia and skip it.', reveals: 'students-often-treat-the-before' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_10_002', title: 'भक्तनि — कथानक और आख्यान-संरचना',
+          caseStudy: { intro: '\'आरोह भाग-2 — पाठ 10\' का क्रम: शुरुआत आरोह-भाग-2-—-पाठ-10 से, घटनाएँ बढ़ती हैं, अंत \'आरोह भाग-2 पर।',
+            decisions: [{ prompt: 'What is the narrative point of view used in "HkfDru", and who is the narrator?', options: [
+                { text: 'The story is narrated in the first person by Mohan Rakesh (the author himself), who', outcome: 'The story is narrated in the first person by Mohan Rakesh (the author himself), who observes HkfDru.' },
+                { text: 'third person omniscient', outcome: 'Not quite — Students often confuse *plot* (what happens) with *narrative structure* (how it\'s told).', reveals: 'students-often-confuse-plot-what' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_10_003', title: 'भक्तनि — पाठ्य-परिवेश और वातावरण',
+          caseStudy: { intro: '\'आरोह भाग-2 — पाठ 10\' का परिवेश: \'आरोह भाग-2 — पाठ 10\' — आरोह भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्रीय भाव पाठ्यपुस्तक — स्थान और समय मिलकर माहौल बनाते.',
+            decisions: [{ prompt: 'What are the three main components of setting in a narrative, and which component is most prominent in the opening paragraphs of "HkfDru"?', options: [
+                { text: 'The three components are physical (place), temporal (time), and social (environment)', outcome: 'The three components are physical (place), temporal (time), and social (environment).' },
+                { text: 'time and place', outcome: 'Not quite — Students often treat setting as a static list of places (kitchen, courtyard, room) and atmosphere.', reveals: 'students-often-treat-setting-as' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_10_004', title: 'भक्तनि — पात्र-चित्रण: नायक/प्रमुख पात्र',
+          caseStudy: { intro: 'मुख्य पात्र की पहचान, कार्य और विकास — \'आरोह भाग-2 — पाठ 10\' में आरोह-भाग-2-—-पाठ-10 से पात्र उभरता है।',
+            decisions: [{ prompt: 'What is HkfDru\'s real name, and why does she refuse to reveal it to the narrator?', options: [
+                { text: 'HkfDru never reveals her real name', outcome: 'HkfDru never reveals her real name; she says "I never use my name" and when asked during a police.' },
+                { text: 'She forgot her name', outcome: 'Not quite — Students treat HkfDru as a "simple, illiterate servant" and write sketches listing traits like.', reveals: 'students-treat-hkfdru-as-a' },
+                { text: 'life-knowledge', outcome: 'Not quite — Students treat HkfDru as a "simple, illiterate servant" and write sketches listing traits like.', reveals: 'students-treat-hkfdru-as-a' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_10_001', title: 'Use it in the wild',
           caseStudy: { intro: 'For a features-writing course, you\'re profiling the woman who\'s run your hostel kitchen for 30 years. Your editor wants a \'heartwarming\' ending where she cries as the final batch of students leaves — \'that\'s the emotional payoff.\'',
             decisions: [{ prompt: 'What would Mohan Rakesh\'s \'भक्तिन\' tell the editor?', options: [
@@ -47,67 +73,82 @@ export const c12_hin_ar_ch10_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_001', difficulty: 'standard',
-          question: 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना.',
-          hint: 'यदि फँस जाएँ तो कक्षा 11 का नोड c11_hin_ar_cbse_10_001 (पृष्ठभूमि और रचनाकार परिचय).',
-          misconception: 'छात्र अक्सर समझते हैं कि \'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ केवल लेखक की जन्मतिथि, मृत्युतिथि, प्रमुख कृतियाँ और.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, revisit c11_hin_ar_cbse_01_001 (Class 11 Chapter 1 Before You Read) and re‑do.',
+          misconception: 'Students often treat the “Before You Read” section as optional background trivia and skip it.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के',
-                  options: ['पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के', 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है', 'पात्र-चित्रण (Character Sketch) का अर्थ है किसी पात्र के **बाह्य व्यक्तित्व (वेश-भूषा,'],
-                  hint: 'यदि फँस जाएँ तो कक्षा 11 का नोड c11_hin_ar_cbse_10_001 (पृष्ठभूमि और रचनाकार परिचय) दोहराएँ जहाँ.',
-                  misconception: 'छात्र अक्सर समझते हैं कि \'पृष्ठभूमि और रचनाकार परिचय\' का अर्थ केवल लेखक की जन्मतिथि, मृत्युतिथि, प्रमुख कृतियाँ और पुरस्कार रट लेना है। वे.' }
+                { id: 'a', prompt: '**REMEMBER:** Who is the author of *HkfDru* and what is the source collection of this sketch?', answer: 'The author is Mahadevi Verma (1907–1987), a major Hindi poet and social reformer',
+                  options: ['The author is Mahadevi Verma (1907–1987), a major Hindi poet and social reformer', 'Before You Read', 'another author like Premchand or citing a different book like *Yama*'],
+                  hint: 'If stuck, revisit c11_hin_ar_cbse_01_001 (Class 11 Chapter 1 Before You Read) and re‑do its.',
+                  misconception: 'Students often treat the “Before You Read” section as optional background trivia and skip it.' },
+                { id: 'b', prompt: '**APPLY:** The “Before You Read” section mentions that the story uses *Avadhi/Braj* dialect words (e.g., *bZ dmu*, *jksVh*, *nky*).', answer: 'Example: *bZ dmu* (बहुत बड़ी बात)',
+                  options: ['Example: *bZ dmu* (बहुत बड़ी बात)', 'picks a standard Hindi word (e'],
+                  hint: 'If stuck, revisit c11_hin_ar_cbse_01_001 (Class 11 Chapter 1 Before You Read) and re‑do its.',
+                  misconception: 'Students often treat the “Before You Read” section as optional background trivia and skip it.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र से कहें: "मैथिलीशरण गुप्त की कोई एक कविता (जैसे \'भारत-भारती\' का अंश) पढ़ो और बताओ कि इसमें गुप्त जी का अपना जीवन.', 'कक्षा 11 के नोड c11_hin_ar_cbse_10_001 (पाठ 10 — पृष्ठभूमि और रचनाकार परिचय) को दोबारा पढ़ें जहाँ इसी प्रक्रिया को सरल.', 'पुनः निदान: छात्र से भक्तिन के किसी एक प्रसंग (जैसे मंदिर प्रवेश) को गुप्त जी के गांधीवादी विचारों से जोड़कर 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-before': { steps: ['Re‑read the “Before You Read” box in the NCERT textbook (pages 62‑63) slowly, underlining every proper noun (Mahadevi.', 'Make a 4‑column table: Author Detail | Story Source | Setting | Social Issue.', 'Fill each column with one phrase from the text.', 'Watch a 5‑minute YouTube summary of Mahadevi Verma’s life (search “Mahadevi Verma biography NCERT”).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often treat the “Before You Read” section as optional background trivia and skip it.',
+          parts: [
+                { id: 'a', prompt: '**EVALUATE:** The “Before You Read” section calls *HkfDru* a *laLej.kkRed js[kkfp=k* (realistic sketch).', answer: 'Yes, the label is appropriate',
+                  options: ['Yes, the label is appropriate', 'just a memory', 'fiction because it’s written later'],
+                  hint: 'If stuck, revisit c11_hin_ar_cbse_01_001 (Class 11 Chapter 1 Before You Read) and re‑do its.',
+                  misconception: 'Students often treat the “Before You Read” section as optional background trivia and skip it.' }
+          ],
+            remediations: { 'students-often-treat-the-before': { steps: ['Re‑read the “Before You Read” box in the NCERT textbook (pages 62‑63) slowly, underlining every proper noun (Mahadevi.', 'Make a 4‑column table: Author Detail | Story Source | Setting | Social Issue.', 'Fill each column with one phrase from the text.', 'Watch a 5‑minute YouTube summary of Mahadevi Verma’s life (search “Mahadevi Verma biography NCERT”).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_002', difficulty: 'standard',
-          question: 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है.',
-          hint: 'अगर \'कथानक vs कथा\' भेद स्पष्ट नहीं तो c11_hin_ar_cbse_10_002 के \'WORKED_EXAMPLE_1\'.',
-          misconception: 'विद्यार्थी समझते हैं कि \'कथानक = घटनाओं का सारांश\' और \'आख्यान-संरचना = फ्लैशबैक की उपस्थिति मात्र\'। **वास्तविक भूल:**.',
+          question: '\'आरोह भाग-2 — पाठ 10\' का कथानक — \'आरोह भाग-2 — पाठ 10\' — आरोह भाग-2 का पाठ। पाठ.',
+          hint: 'Review "narrative time vs. story time" in c11_hin_ar_cbse_10_002 — practice with a short.',
+          misconception: 'Students often confuse *plot* (what happens) with *narrative structure* (how it\'s told).',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि',
-                  options: ['कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के', 'पाठ्य-परिवेश और वातावरण का अर्थ है', 'पात्र-चित्रण (Character Sketch) का अर्थ है किसी पात्र के **बाह्य व्यक्तित्व (वेश-भूषा,'],
-                  hint: 'अगर \'कथानक vs कथा\' भेद स्पष्ट नहीं तो c11_hin_ar_cbse_10_002 के \'WORKED_EXAMPLE_1\' (राजा-रानी.',
-                  misconception: 'विद्यार्थी समझते हैं कि \'कथानक = घटनाओं का सारांश\' और \'आख्यान-संरचना = फ्लैशबैक की उपस्थिति मात्र\'। **वास्तविक भूल:** वे नहीं देखते कि.' }
+                { id: 'a', prompt: 'The story opens with HkfDru cooking in the kitchen. Why does the author choose this mundane activity as the opening scene instead of starting with her.', answer: 'The opening domestic scene grounds the reader in HkfDru\'s present reality',
+                  options: ['The opening domestic scene grounds the reader in HkfDru\'s present reality', 'to introduce the setting'],
+                  hint: 'Review "narrative time vs. story time" in c11_hin_ar_cbse_10_002 — practice with a short story like.',
+                  misconception: 'Students often confuse *plot* (what happens) with *narrative structure* (how it\'s told).' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: c12_hin_ar_cbse_10_001 (पृष्ठभूमि) दोबारा पढ़ो — रचनाकार का \'प्रयोगधर्मी\' स्वरूप समझो। चरण 2: पाठ के पहले 3 पैरा.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-plot-what': { steps: ['If a student cannot separate narrative order from chronological order: (1) Give them a 5-event summary of a परिचित.', '(2) Ask them to reorder chronologically.', '(3) Then ask: "Why did the filmmaker choose this narrative order?" (4) Apply the same two-step to "HkfDru": list events.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_003', difficulty: 'standard',
-          question: 'पाठ्य-परिवेश और वातावरण का अर्थ है — रचना में वर्णित भौगोलिक स्थान, ऐतिहासिक.',
-          hint: 'यदि अटके तो कक्षा 11 के नोड c11_hin_ar_cbse_10_003 \'पाठ्य-परिवेश और वातावरण\' को दोबारा.',
-          misconception: 'विद्यार्थी अक्सर \'परिवेश\' (setting) को केवल \'कहाँ और कब\' (where and when) तक सीमित कर देते हैं — वे भौगोलिक स्थान और.',
+          question: '\'आरोह भाग-2 — पाठ 10\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण.',
+          hint: 'If stuck, review Class 11 "Setting and Atmosphere" node (c11_hin_ar_cbse_01_003) and.',
+          misconception: 'Students often treat setting as a static list of places (kitchen, courtyard, room) and atmosphere as a single adjective.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश और वातावरण का अर्थ है',
-                  options: ['पाठ्य-परिवेश और वातावरण का अर्थ है', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के', 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि', 'पात्र-चित्रण (Character Sketch) का अर्थ है किसी पात्र के **बाह्य व्यक्तित्व (वेश-भूषा,'],
-                  hint: 'यदि अटके तो कक्षा 11 के नोड c11_hin_ar_cbse_10_003 \'पाठ्य-परिवेश और वातावरण\' को दोबारा पढ़ें — वहाँ.',
-                  misconception: 'विद्यार्थी अक्सर \'परिवेश\' (setting) को केवल \'कहाँ और कब\' (where and when) तक सीमित कर देते हैं — वे भौगोलिक स्थान और ऐतिहासिक काल लिखकर.' }
+                { id: 'a', prompt: 'Explain how the description of HkfDru\'s daily routine in the kitchen creates a specific atmosphere.', answer: 'The kitchen routine',
+                  options: ['The kitchen routine', 'it shows she works hard'],
+                  hint: 'If stuck, review Class 11 "Setting and Atmosphere" node (c11_hin_ar_cbse_01_003) and practice on.',
+                  misconception: 'Students often treat setting as a static list of places (kitchen, courtyard, room) and atmosphere as a single adjective (sad, tense).' }
           ],
-            remediations: { 'setting-where-and-when-class': { steps: ['चरण 1: विद्यार्थी से कहें — \'पाठ खोलो, पहले पन्ने पर जहाँ काशी का वर्णन है, वहाँ पेंसिल से हर संज्ञा (घाट, गंगा, मंदिर.', 'दो सूचियाँ बनाओ।\' चरण 3: कहो — \'अब एक वाक्य लिखो जिसमें दोनों सूचियों का कोई एक-एक शब्द आए और बताए कि चीज़ ने भावना.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-setting-as': { steps: ['Have the student re-read only the first and last five paragraphs of "HkfDru" and highlight every sensory word (smell.', 'Ask: "How does the kitchen feel at 5 AM vs 10 PM?', 'Then map each sensory detail to an emotional effect (e.g., smoke smell → suffocation).', 'Finally, write two sentences: "The setting is ____.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_004', difficulty: 'standard',
-          question: 'पात्र-चित्रण (Character Sketch) का अर्थ है किसी पात्र के **बाह्य व्यक्तित्व.',
-          hint: 'यदि **द्वंद्वात्मक संबंध (Dialectical Relationship)** समझ न आए, तो.',
-          misconception: '**विशिष्ट भ्रांति**: "भक्तिन एक **आदर्श नौकरानी (Ideal Servant)** है जो मालकिन के प्रति **समर्पित और आज्ञाकारी** रहती.',
+          question: '\'आरोह भाग-2 — पाठ 10\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+          hint: 'If stuck on separating narrator\'s view from author\'s view: review c11_hin_ar_cbse_05_004.',
+          misconception: 'Students treat HkfDru as a "simple, illiterate servant" and write sketches listing traits like "hardworking, honest.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पात्र-चित्रण (Character Sketch) का अर्थ है किसी पात्र के **बाह्य व्यक्तित्व (वेश-भूषा,',
-                  options: ['पात्र-चित्रण (Character Sketch) का अर्थ है किसी पात्र के **बाह्य व्यक्तित्व (वेश-भूषा,', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के', 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
-                  hint: 'यदि **द्वंद्वात्मक संबंध (Dialectical Relationship)** समझ न आए, तो **c11_hin_ar_cbse_02_004.',
-                  misconception: '**विशिष्ट भ्रांति**: "भक्तिन एक **आदर्श नौकरानी (Ideal Servant)** है जो मालकिन के प्रति **समर्पित और आज्ञाकारी** रहती है।" **यह गलत क्यों.' }
+                { id: 'a', prompt: 'What is HkfDru\'s real name, and why does she refuse to reveal it to the narrator?', answer: 'HkfDru never reveals her real name',
+                  options: ['HkfDru never reveals her real name', 'She forgot her name', 'life-knowledge'],
+                  hint: 'If stuck on separating narrator\'s view from author\'s view: review c11_hin_ar_cbse_05_004 (Usne Kaha.',
+                  misconception: 'Students treat HkfDru as a "simple, illiterate servant" and write sketches listing traits like "hardworking, honest, loyal" with generic.' }
           ],
-            remediations: { 'ideal-servant-1': { steps: ['**चरण 1**: छात्र को **पाठ के तीन प्रसंग** दें जहाँ भक्तिन **आज्ञा नहीं मानती / सलाह देती है / नाराज़ होती है** — उन्हें.', 'लेखिका ने उसे रोका क्यों नहीं?" **चरण 3**: **c12_hin_ar_cbse_10_003 (पाठ्य-परिवेश और वातावरण)** दोबारा पढ़वाएँ — वहाँ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-hkfdru-as-a': { steps: ['Re-read the three key confrontation scenes: (a) the naming/police verification incident (p.63), (b) the cooking.', 'For each, write: What does the narrator EXPECT?', 'Revisit node c11_hin_ar_cbse_01_004 (Class 11 Character Analysis: Protagonist) to review the PEEL framework for.', 'Re-attempt Diagnostic Question 3 using the gap-analysis method — this forces evidence-based reasoning over.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_005', difficulty: 'standard',
-          question: 'सहायक पात्र वे पात्र हैं जो नायक/प्रमुख पात्र के साथ अंतःक्रिया करके कथानक को.',
+          question: '\'आरोह भाग-2 — पाठ 10\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को.',
           hint: 'यदि भक्तिन के चरित्र के आयाम अस्पष्ट हैं, तो तुरंत c12_hin_ar_cbse_10_004 के.',
           misconception: '**विशिष्ट भ्रांति:** छात्र सहायक पात्रों को **\'कम महत्वपूर्ण पात्र\' (less important characters)** मानते हैं और उनके.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र वे पात्र हैं जो नायक/प्रमुख पात्र के साथ अंतःक्रिया करके कथानक को गति देते',
-                  options: ['सहायक पात्र वे पात्र हैं जो नायक/प्रमुख पात्र के साथ अंतःक्रिया करके कथानक को गति देते', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के', 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 10\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते',
+                  options: ['\'आरोह भाग-2 — पाठ 10\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 10\' का कथानक — \'आरोह भाग-2 — पाठ 10\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 10\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि भक्तिन के चरित्र के आयाम अस्पष्ट हैं, तो तुरंत c12_hin_ar_cbse_10_004 के WORKED_EXAMPLE_1 और.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र सहायक पात्रों को **\'कम महत्वपूर्ण पात्र\' (less important characters)** मानते हैं और उनके चरित्र-चित्रण में केवल.' }
           ],
             remediations: { 'less-important-characters': { steps: ['**चरण 1:** छात्र से कहें — \'पाठ खोलो और सास/मालकिन/गाँव की स्त्रियों के **केवल संवाद** (dialogues) निकालकर अलग कागज़ पर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_10_006', difficulty: 'standard',
-          question: 'किसी साहित्यिक कृति का **मुख्य विषय (Main Theme)** वह केंद्रीय विचार, सत्य या.',
+          question: '\'आरोह भाग-2 — पाठ 10\' का मुख्य विषय — \'आरोह भाग-2 — पाठ 10\' का केंद्रीय भाव और.',
           hint: 'यदि अटके तो **Class 11 आरोह भाग-1, पाठ 1 के \'मुख्य विषय और संदेश\'.',
           misconception: '**सबसे घातक भ्रम:** छात्र समझते हैं कि *भक्तनि* का मुख्य विषय **"विधवा स्त्री का कष्ट"** या **"ठाकुर की क्रूरता"** है।.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'किसी साहित्यिक कृति का **मुख्य विषय (Main Theme)** वह केंद्रीय विचार, सत्य या भाव होता है',
-                  options: ['किसी साहित्यिक कृति का **मुख्य विषय (Main Theme)** वह केंद्रीय विचार, सत्य या भाव होता है', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक विश्लेषण-प्रक्रिया है जिसमें किसी रचना के', 'कथानक (plot) किसी रचना में घटनाओं का कारण-कार्य-संबंध युक्त तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश और वातावरण का अर्थ है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 10\' का मुख्य विषय — \'आरोह भाग-2 — पाठ 10\' का केंद्रीय भाव और संदेश',
+                  options: ['\'आरोह भाग-2 — पाठ 10\' का मुख्य विषय — \'आरोह भाग-2 — पाठ 10\' का केंद्रीय भाव और संदेश', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 10\' का कथानक — \'आरोह भाग-2 — पाठ 10\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 10\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके तो **Class 11 आरोह भाग-1, पाठ 1 के \'मुख्य विषय और संदेश\' (c11_hin_ar_cbse_01_006)** को.',
                   misconception: '**सबसे घातक भ्रम:** छात्र समझते हैं कि *भक्तनि* का मुख्य विषय **"विधवा स्त्री का कष्ट"** या **"ठाकुर की क्रूरता"** है। **वास्तविकता:** ये.' }
           ],

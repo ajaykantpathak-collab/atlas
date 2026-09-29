@@ -627,7 +627,7 @@ export const C11_CS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Algorithm Efficiency Measures The",
+    "title": "Efficiency of Algorithms: Time and Space",
     "text": "Algorithm efficiency measures the computational resources an algorithm consumes as a function of input size, primarily time complexity (number of basic operations executed) and space complexity (memory cells used), expressed using asymptotic notations (Big-O,",
     "emoji": "💻",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1337,7 +1337,7 @@ export const C11_CS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "In Python, Data Types Classify The",
+    "title": "In Python, Data Types Classify",
     "text": "In Python, data types classify the kind of value a variable holds, determining the operations allowed and the memory representation. The four fundamental scalar types are: int (arbitrary-precision signed integers, e.",
     "emoji": "💻",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1871,7 +1871,7 @@ export const C11_CS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Relational Operators In Python (==, !=",
+    "title": "Relational Operators In Python",
     "text": "Relational operators in Python (==, !=, >, <, >=, <=) compare two operands and evaluate to a Boolean value (True or False). A Boolean expression is any valid combination of operands, relational operators, and logical operators (and, or, not) that ultimately",
     "emoji": "💻",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1925,7 +1925,7 @@ export const C11_CS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Break Statement Immediately Terminates The",
+    "title": "Break Statement Immediately Terminates",
     "text": "The break statement immediately terminates the nearest enclosing loop (while or for), transferring control to the statement following the loop.",
     "emoji": "💻",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2614,7 +2614,7 @@ export const C11_CS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "String Methods Upper, Lower, Find, And",
+    "title": "String Methods: upper, lower, find, replace",
     "text": "String methods upper(), lower(), find(), and replace() are built-in functions that return new strings with specific transformations: upper() converts all alphabetic characters to uppercase, lower() converts all to lowercase, find(sub[, start[, end]]) returns",
     "emoji": "💻",
     "bgColor": "from-violet-400 to-purple-500"
@@ -3345,7 +3345,7 @@ export const C11_CS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Converting Between Lists, Tuples, And",
+    "title": "Converting Between Lists, Tuples",
     "text": "Converting between lists, tuples, and dictionaries in Python refers to the process of transforming data from one collection type to another using built-in constructors (list(), tuple(), dict()) and methods (items(), keys(), values()), while preserving the",
     "emoji": "💻",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3786,7 +3786,7 @@ export const C11_CS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Keyword Arguments In",
+    "title": "Keyword Arguments",
     "text": "Keyword arguments (or named arguments) in Python allow passing values to a function by explicitly specifying the parameter name along with the value during the function call, using the syntax parameter_name=value.",
     "emoji": "💻",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3798,7 +3798,7 @@ export const C11_CS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Variable Scope Defines The Region Of a",
+    "title": "Scope of Variables: Local and Global",
     "text": "Variable scope defines the region of a program where a variable is accessible. In Python, a variable declared inside a function has local scope (accessible only within that function), while a variable declared outside all functions has global scope",
     "emoji": "💻",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -4830,7 +4830,7 @@ export const C11_CS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Safe Browsing Practices Refer To The",
+    "title": "Safe Browsing Practices",
     "text": "Safe Browsing Practices refer to the set of proactive measures and habits (such as verifying HTTPS, avoiding suspicious links, using strong unique passwords, and managing privacy settings) that protect a user's data and device while accessing the internet.",
     "emoji": "💻",
     "bgColor": "from-amber-400 to-orange-500"

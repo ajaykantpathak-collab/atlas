@@ -54,7 +54,7 @@ export const C12_ECO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "The Central Problems Of An",
+    "title": "The Central Problems Of An Economy",
     "text": "The central problems of an economy — What to produce, How to produce, and For whom to produce — arise because resources are scarce relative to unlimited human wants.",
     "emoji": "📈",
     "bgColor": "from-violet-400 to-purple-500"
@@ -78,7 +78,7 @@ export const C12_ECO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Microeconomics Studies The Behaviour Of",
+    "title": "Microeconomics and Macroeconomics:",
     "text": "Microeconomics studies the behaviour of individual economic agents — households and firms — and the determination of prices and quantities in specific markets, taking aggregate variables as given.",
     "emoji": "📈",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2114,13 +2114,13 @@ export const C12_ECO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Microeconomics Studies The Behaviour Of",
+    "title": "Distinction Between Microeconomics",
     "text": "Microeconomics studies the behaviour of individual economic agents (households, firms) and the determination of prices and quantities in specific markets.",
     "emoji": "📈",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Circular Flow Of Income In",
+    "title": "Circular Flow Of Income",
     "text": "The circular flow of income in a two-sector model illustrates the continuous flow of money, goods, services, and factor payments between households (who own factors of production and consume goods) and firms (who hire factors and produce goods), where",
     "emoji": "📈",
     "bgColor": "from-emerald-400 to-teal-500"

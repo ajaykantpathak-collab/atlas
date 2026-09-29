@@ -19,7 +19,7 @@ export const c8_engl_ch01_p1: SimDef = {
         hook: 'Setting isn\'t wallpaper — it changes what characters can even say. In a court where disrespect is dangerous, a joke becomes the only safe weapon, which is exactly why Tenali Ramakrishna\'s wit mattered.',
     },
     teaching: [
-        { title: 'Setting: Vijayanagara Empire Under Krishnadeva Raya', text: 'Setting refers to the time, place, and socio-cultural environment in which a story occurs; in historical narratives set in the Vijayanagara Empire under King Krishnadeva Raya, the setting encompasses.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Setting: Vijayanagara Empire Under Krishnadeva Raya', text: 'From \'English chapter c8_engl_ch1\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c8_engl_ch1_1', title: 'Your mission',
@@ -73,12 +73,12 @@ export const c8_engl_ch01_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_engl_ch1_1', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and socio-cultural environment in which.',
+          question: 'From \'English chapter c8_engl_ch1\': the skill or concept this node teaches.',
           hint: 'If stuck, review how physical surroundings create mood in Class 7 story settings before.',
           misconception: 'Students often mistake "setting" as merely a passive physical location (e.g., "a palace in South India") rather than.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Setting refers to the time, place, and socio-cultural environment in',
-                  options: ['Setting refers to the time, place, and socio-cultural environment in', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual', 'Retelling a story with wit and humour involves taking a base narrative and enhancing it'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c8_engl_ch1\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c8_engl_ch1\': the skill or concept this node teaches, applied to', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual', 'Retelling a story with wit and humour involves taking a base narrative and enhancing it'],
                   hint: 'If stuck, review how physical surroundings create mood in Class 7 story settings before evaluating.',
                   misconception: 'Students often mistake "setting" as merely a passive physical location (e.g., "a palace in South India") rather than an active literary.' }
           ],
@@ -89,7 +89,7 @@ export const c8_engl_ch01_p1: SimDef = {
           misconception: 'Students often write comprehension answers as simple plot retellings (e.g., "Tenali did a trick, the King laughed, and.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Comprehension of narrative resolution in folk literature involves analyzing how a',
-                  options: ['Comprehension of narrative resolution in folk literature involves analyzing how a', 'Setting refers to the time, place, and socio-cultural environment in', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual', 'Retelling a story with wit and humour involves taking a base narrative and enhancing it'],
+                  options: ['Comprehension of narrative resolution in folk literature involves analyzing how a', 'From \'English chapter c8_engl_ch1\': the skill or concept this node teaches, applied to', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual', 'Retelling a story with wit and humour involves taking a base narrative and enhancing it'],
                   hint: 'If stuck on constructing comprehension answers, review node `c8_engl_ch1_5` to recap Tenali\'s.',
                   misconception: 'Students often write comprehension answers as simple plot retellings (e.g., "Tenali did a trick, the King laughed, and then they stopped.' }
           ],
@@ -100,7 +100,7 @@ export const c8_engl_ch01_p1: SimDef = {
           misconception: 'Students frequently misinterpret \'wit\' as merely making childish jokes or using deceitful tricks, and \'force\'.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual',
-                  options: ['Wit versus force as tools of diplomacy is the critical evaluation of how intellectual', 'Setting refers to the time, place, and socio-cultural environment in', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Retelling a story with wit and humour involves taking a base narrative and enhancing it'],
+                  options: ['Wit versus force as tools of diplomacy is the critical evaluation of how intellectual', 'From \'English chapter c8_engl_ch1\': the skill or concept this node teaches, applied to', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Retelling a story with wit and humour involves taking a base narrative and enhancing it'],
                   hint: 'If stuck, review node `c8_engl_ch1_5` to see the exact steps Tenali Ramakrishna took to resolve the.',
                   misconception: 'Students frequently misinterpret \'wit\' as merely making childish jokes or using deceitful tricks, and \'force\' as strictly physical combat.' }
           ],
@@ -148,7 +148,7 @@ export const c8_engl_ch01_p1: SimDef = {
           misconception: 'Students often confuse eye-rhyme (words that look visually similar, such as *crown* and *own*, or *cough* and.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Rhyme scheme is the patterned arrangement of rhyming sounds at the ends of poetic lines,',
-                  options: ['Rhyme scheme is the patterned arrangement of rhyming sounds at the ends of poetic lines,', 'Setting refers to the time, place, and socio-cultural environment in', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual'],
+                  options: ['Rhyme scheme is the patterned arrangement of rhyming sounds at the ends of poetic lines,', 'From \'English chapter c8_engl_ch1\': the skill or concept this node teaches, applied to', 'Comprehension of narrative resolution in folk literature involves analyzing how a', 'Wit versus force as tools of diplomacy is the critical evaluation of how intellectual'],
                   hint: 'If stuck, read the final words of each line in isolation out loud, ignore line meanings.',
                   misconception: 'Students often confuse eye-rhyme (words that look visually similar, such as *crown* and *own*, or *cough* and *through*) with true phonetic.' }
           ],

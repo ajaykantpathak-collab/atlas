@@ -6,13 +6,13 @@ import C12_GeographyIndiaLocationalSettingSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_geographyindialocationalsettingsim: SimDef = {
     id: 'v3w_c12_geographyindialocationalsettingsim',
-    title: 'India Locational Setting',
+    title: 'Natural Disasters: Earthquakes, Floods, Droughts, Cyclones in India',
     subtitle: 'Covers only the four major natural disasters in the Indian context: earthquakes (seismic.',
     classLevel: 12, subject: 'geography', topic: 'Natural Disasters: Earthquakes, Floods, Droughts, Cyclones in India',
     chapters: [],
     nodeIds: ['c12_geo_cbse_17_007', 'c12_geo_cbse_12_007', 'c12_geo_cbse_17_008', 'c12_geo_cbse_21_001', 'c12_geo_cbse_21_003', 'c12_geo_cbse_21_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Start with a real observation: "Look at the news — every year we hear of Assam floods, Maharashtra droughts,.', goal: 'Master India Locational Setting.' },
+    scenario: { role: 'a class 12 learner', intro: 'Start with a real observation: "Look at the news — every year we hear of Assam floods, Maharashtra droughts,.', goal: 'Master Natural Disasters: Earthquakes, Floods, Droughts, Cyclones in India.' },
     discovery: {
         question: 'Name the four seismic zones of India (Zone II to V) in order of increasing hazard and state the primary tectonic feature responsible for Zone V.',
         options: ['Zone II (Low), Zone III (Moderate), Zone IV (High), Zone V (Very High)', 'drought = no rain', 'flood = too much rain'],
@@ -79,7 +79,7 @@ export const w_c12_geographyindialocationalsettingsim: SimDef = {
             { text: 'Pilot test the protocol at 2 known sites near school, time the recording per site (target < 10 min), check if peer can.', faded: true, blankAnswer: 'A complete field protocol with metadata header, coded.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_geo_cbse_12_007', title: 'Identify each idea',
-          dissect: { specimen: 'India Locational Setting', spots: [
+          dissect: { specimen: 'Natural Disasters: Earthquakes, Floods, Droughts, Cyclones in India', spots: [
             { id: 's1', label: 'Natural disasters in India are', prompt: 'Which idea is this? — Natural disasters in India are extreme geophysical or hydro-meteorological events —.', answer: 'Natural disasters in India are', options: ['Natural disasters in India are', 'Traditional rainwater harvesting methods in', 'Human-made industrial disasters are catastrophic', 'A field survey in geography'] },
             { id: 's2', label: 'Traditional rainwater harvesting methods in', prompt: 'Which idea is this? — Traditional rainwater harvesting methods in India are indigenous, community-managed.', answer: 'Traditional rainwater harvesting methods in', options: ['Traditional rainwater harvesting methods in', 'Natural disasters in India are', 'Human-made industrial disasters are catastrophic', 'A field survey in geography'] },
             { id: 's3', label: 'Human-made industrial disasters are catastrophic', prompt: 'Which idea is this? — Human-made industrial disasters are catastrophic events resulting from technological or.', answer: 'Human-made industrial disasters are catastrophic', options: ['Human-made industrial disasters are catastrophic', 'Natural disasters in India are', 'Traditional rainwater harvesting methods in', 'A field survey in geography'] },
@@ -88,7 +88,7 @@ export const w_c12_geographyindialocationalsettingsim: SimDef = {
             { id: 's6', label: 'Field data collection recording and', prompt: 'Which idea is this? — Field data collection recording and documentation techniques refer to the systematic.', answer: 'Field data collection recording and', options: ['Field data collection recording and', 'Natural disasters in India are', 'Traditional rainwater harvesting methods in', 'Human-made industrial disasters are catastrophic'] }
           ] } }
     ],
-    explore: { component: C12_GeographyIndiaLocationalSettingSim, prompt: 'Explore the interactive — India Locational Setting' },
+    explore: { component: C12_GeographyIndiaLocationalSettingSim, prompt: 'Explore the interactive — Natural Disasters: Earthquakes, Floods, Droughts, Cyclones in India' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_17_007', difficulty: 'standard',
           question: 'Natural disasters in India are extreme geophysical or hydro-meteorological.',

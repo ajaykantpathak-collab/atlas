@@ -6,13 +6,13 @@ import C8_MathematicsLinearEquationsInOneVariableSim from '../../../simulations/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicslinearequationsinonevariablesim: SimDef = {
     id: 'v3w_c8_mathematicslinearequationsinonevariablesim',
-    title: 'Linear Equations In One Variable',
+    title: 'Word Problems Translating to Linear Equations',
     subtitle: 'This node covers translation of word problems involving a single unknown leading to.',
     classLevel: 8, subject: 'mathematics', topic: 'Word Problems Translating to Linear Equations',
     chapters: [],
     nodeIds: ['c8_math_ch13_10', 'c8_math_ch13_11', 'c8_math_ch13_8', 'c8_math_ch13_9', 'c8_math_ch10_10', 'c8_math_ch13_2', 'c8_math_ch7_7', 'c8_math_ch13_4', 'c8_math_ch13_1', 'c8_math_ch13_5', 'c8_math_ch13_6', 'c8_math_ch10_9', 'c8_math_ch7_5', 'c8_math_ch10_1', 'c8_math_ch13_7'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you and your friend are saving money for a cricket bat costing ₹1,200.', goal: 'Master Linear Equations In One Variable.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you and your friend are saving money for a cricket bat costing ₹1,200.', goal: 'Master Word Problems Translating to Linear Equations.' },
     discovery: {
         question: 'In a rectangle, the length is 5 cm more than the breadth. The perimeter is 50 cm. A student writes: 2(x + 5) + 2x = 50.',
         options: ['x represents the breadth in cm', 'consecutive numbers', 'consecutive even/odd numbers'],
@@ -76,7 +76,7 @@ export const w_c8_mathematicslinearequationsinonevariablesim: SimDef = {
             { text: 'Write verbal steps: 1) Think of a number. 2) Multiply it by 2. 3) Add 20. 4) Subtract 4. 5) Divide by 2.', faded: true, blankAnswer: 'Trick: Think of a number → Multiply by 2 → Add 20 →.' }
             ] } }
     ],
-    explore: { component: C8_MathematicsLinearEquationsInOneVariableSim, prompt: 'Explore the interactive — Linear Equations In One Variable' },
+    explore: { component: C8_MathematicsLinearEquationsInOneVariableSim, prompt: 'Explore the interactive — Word Problems Translating to Linear Equations' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch13_10', difficulty: 'standard',
           question: 'Translating word problems into linear equations is the process of identifying.',

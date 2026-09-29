@@ -19,7 +19,7 @@ export const c12_hin_a_ch05_p1: SimDef = {
         hook: 'The potter and his wheel are one system — body, skill and cyclical tradition; when the wheel stops, a culture stops. Journalism taught Lalak the colloquial register that reaches beyond Haryana — local speech, universal hearing.',
     },
     teaching: [
-        { title: 'रघुवीर सहाय — कवि परिचय और पृष्ठभूमि', text: 'रघुवीर सहाय (1929–1990) हिंदी के प्रमुख आधुनिक कवि, पत्रकार और संपादक हैं जिनकी रचनाएँ स्वातंत्र्योत्तर भारत के मोहभंग, राजनैतिक छल, और मध्यवर्गीय नैतिक संकट को बेबाकी से उजागर करती हैं। उनकी कविता.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'रघुवीर सहाय — कवि परिचय और पृष्ठभूमि', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_05_001', title: 'Your mission',
@@ -28,6 +28,26 @@ export const c12_hin_a_ch05_p1: SimDef = {
         context: 'Listen at the potter\'s wheel: weigh dialect as documentary fidelity, read man and wheel as a single craft, and feel what\'s lost when such poems stop being written.',
         labels: ['रघुवीर सहाय — कवि', 'रघुवीर सहाय — पद्यांश-वार', 'रघुवीर सहाय — काव्य-संरचना', 'रघुवीर सहाय — केंद्रीय', 'रघुवीर सहाय — छंद', 'रघुवीर सहाय — साहित्यिक'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_05_001', title: 'रघुवीर सहाय — कवि परिचय और पृष्ठभूमि',
+          caseStudy: { intro: 'अंतरा भाग-2 खोलिए और पाठ 05 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: 'What is the primary profession of Jagdish Lalak apart from being a poet, and how does it shape his poetic language?', options: [
+                { text: 'Jagdish Lalak was a journalist and radio editor', outcome: 'Jagdish Lalak was a journalist and radio editor; his professional exposure to everyday speech and.' },
+                { text: 'he was a teacher', outcome: 'Not quite — Students often think “context and background” means memorising the poet’s birth/death dates and.', reveals: 'context-and-background-means-memorising' },
+                { text: 'context and background', outcome: 'Not quite — Students often think “context and background” means memorising the poet’s birth/death dates and.', reveals: 'context-and-background-means-memorising' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_05_004', title: 'रघुवीर सहाय — केंद्रीय भाव और रस',
+          caseStudy: { intro: 'मुख्य पात्र की पहचान, कार्य और विकास — \'अंतरा भाग-2 — पाठ 5\' में अंतरा-भाग-2-—-पाठ-5 से पात्र उभरता है।',
+            decisions: [{ prompt: 'Identify the protagonist of the poem "olar vk;k" and state one physical detail the poet uses to establish her age and frailty in the.', options: [
+                { text: 'The protagonist is the old woman (olar)', outcome: 'The protagonist is the old woman (olar). A physical detail is "cM+s&cM+s fi;jk, iÙks" (trembling.' },
+                { text: 'the poet or the crow as protagonist', outcome: 'Not quite — Students often treat the protagonist as a mere symbol of "old age" or "tradition" and write generic.', reveals: 'students-often-treat-the-protagonist' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_05_005', title: 'रघुवीर सहाय — छंद और लय-विधान',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 5\' में सहायक पात्र पहचानिए — जो मुख्य पात्र की सहायता करते हैं।',
+            decisions: [{ prompt: 'In the poem "ओलार वक;क", who is the \'nk\' (child) and what is their single action in the poem?', options: [
+                { text: 'The \'nk\' is the child listener who, upon hearing the oriole\'s song, asks the bird to sing', outcome: 'The \'nk\' is the child listener who, upon hearing the oriole\'s song, asks the bird to sing again.' },
+                { text: 'the child is the poet', outcome: 'Not quite — Students treat supporting characters in poetry as \'minor characters in a story\' — they look for.', reveals: 'students-treat-supporting-characters-in' },
+                { text: 'the child catches the bird', outcome: 'Not quite — Students treat supporting characters in poetry as \'minor characters in a story\' — they look for.', reveals: 'students-treat-supporting-characters-in' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_05_001', title: 'Use it in the wild',
           caseStudy: { intro: 'For a documentary assignment on the old woman who has carried loads at the mandi for fifty years, your partner wants to end on a sponsor\'s donation — \'give it a clean resolution so it doesn\'t feel unfinished.\'',
             decisions: [{ prompt: 'What does the ending of Nagarjun\'s poem about the old woman suggest?', options: [
@@ -47,67 +67,86 @@ export const c12_hin_a_ch05_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_05_001', difficulty: 'standard',
-          question: 'रघुवीर सहाय (1929–1990) हिंदी के प्रमुख आधुनिक कवि, पत्रकार और संपादक हैं जिनकी.',
-          hint: 'अगर \'नई कविता\' और \'समकालीन कविता\' का भेद स्पष्ट न हो, तो कक्षा 11 हिंदी अंतरा की.',
-          misconception: 'छात्र अक्सर रघुवीर सहाय को \'निराला/मुक्तिबोध की परंपरा का कठिन कवि\' मानकर उनके जीवन-परिचय को \'रटने लायक तथ्य\' समझ लेते.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, revisit the Class 11 “Before You Read” node (c11_hin_ar_cbse_01_001) and.',
+          misconception: 'Students often think “context and background” means memorising the poet’s birth/death dates and a list of works.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'रघुवीर सहाय (1929–1990) हिंदी के प्रमुख आधुनिक कवि, पत्रकार और संपादक हैं जिनकी रचनाएँ',
-                  options: ['रघुवीर सहाय (1929–1990) हिंदी के प्रमुख आधुनिक कवि, पत्रकार और संपादक हैं जिनकी रचनाएँ', 'पद्यांश-वार भावार्थ वह प्रक्रिया है जिसमें कविता के प्रत्येक अनुभाग (पद्यांश) को अलग-अलग', 'काव्य-संरचना और पद्य-विन्यास कविता के आंतरिक ढाँचे', 'केंद्रीय भाव वह मूल विचार या सन्देश है जो कविता के माध्यम से कवि व्यक्त करना चाहता है,'],
-                  hint: 'अगर \'नई कविता\' और \'समकालीन कविता\' का भेद स्पष्ट न हो, तो कक्षा 11 हिंदी अंतरा की \'पाठ्यक्रम संरचना\'.',
-                  misconception: 'छात्र अक्सर रघुवीर सहाय को \'निराला/मुक्तिबोध की परंपरा का कठिन कवि\' मानकर उनके जीवन-परिचय को \'रटने लायक तथ्य\' समझ लेते हैं। असल में सहाय की.' }
+                { id: 'a', prompt: 'What is the primary profession of Jagdish Lalak apart from being a poet, and how does it shape his poetic language?', answer: 'Jagdish Lalak was a journalist and radio editor',
+                  options: ['Jagdish Lalak was a journalist and radio editor', 'he was a teacher', 'context and background'],
+                  hint: 'If stuck, revisit the Class 11 “Before You Read” node (c11_hin_ar_cbse_01_001) and practise the.',
+                  misconception: 'Students often think “context and background” means memorising the poet’s birth/death dates and a list of works.' },
+                { id: 'b', prompt: 'Explain in your own words why the introduction mentions “ns\'kt (rn~Hko) \'kCnksa” (dialect words) in the poem “olar vk;k”.', answer: 'The poet uses Haryanvi dialect words to authentically capture the potter’s world',
+                  options: ['The poet uses Haryanvi dialect words to authentically capture the potter’s world', 'context and background'],
+                  hint: 'If stuck, revisit the Class 11 “Before You Read” node (c11_hin_ar_cbse_01_001) and practise the.',
+                  misconception: 'Students often think “context and background” means memorising the poet’s birth/death dates and a list of works.' },
+                { id: 'c', prompt: 'Compare the function of the potter in “olar vk;k” with the function of the “chak” (wheel) in the same poem.', answer: 'The potter represents the human agent',
+                  options: ['The potter represents the human agent', 'context and background'],
+                  hint: 'If stuck, revisit the Class 11 “Before You Read” node (c11_hin_ar_cbse_01_001) and practise the.',
+                  misconception: 'Students often think “context and background” means memorising the poet’s birth/death dates and a list of works.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को \'दिनमान\' के किसी पुराने अंक का संपादकीय पढ़वाएँ (ऑनलाइन उपलब्ध) — देखें कि संपादक कैसे \'सरकारी भाषा\' को काटता.', 'कक्षा में \'राष्ट्रपति भवन\' कविता का पहला पैरा जोर से पढ़वाएँ — पूछें: "यहाँ कौन बोल रहा है?', 'तुलना करवाएँ: निराला की \'राम की शक्तिपूजा\' vs सहाय की \'लोग भूल गए हैं\' — दोनों में \'शक्ति\' कहाँ है?', 'पुनः डायग्नोस्टिक प्रश्न 2 और 4 दें — अब छात्र \'संपादक-कवि द्वैत\' पहचान पाएगा।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'context-and-background-means-memorising': { steps: ['Ask the student to re‑read the introductory note and underline every phrase that describes Lalak’s profession, region.', 'For each underlined phrase, have them write one sentence connecting it to something they expect to see in the poems.', 'Give them a short unseen paragraph about another writer (e.g., a farmer‑poet) and ask them to predict two poetic.', 'Review the predictions together, emphasising the “bio → text” arrow.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_05_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often think “context and background” means memorising the poet’s birth/death dates and a list of works.',
+          parts: [
+                { id: 'a', prompt: 'Critique the statement: “Jagdish Lalak’s use of dialect makes his poetry accessible only to readers from Haryana.” Defend your position with evidence from the.', answer: 'The statement is false',
+                  options: ['The statement is false', 'local colour', 'exclusivity', 'context and background'],
+                  hint: 'If stuck, revisit the Class 11 “Before You Read” node (c11_hin_ar_cbse_01_001) and practise the.',
+                  misconception: 'Students often think “context and background” means memorising the poet’s birth/death dates and a list of works.' }
+          ],
+            remediations: { 'context-and-background-means-memorising': { steps: ['Ask the student to re‑read the introductory note and underline every phrase that describes Lalak’s profession, region.', 'For each underlined phrase, have them write one sentence connecting it to something they expect to see in the poems.', 'Give them a short unseen paragraph about another writer (e.g., a farmer‑poet) and ask them to predict two poetic.', 'Review the predictions together, emphasising the “bio → text” arrow.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_05_002', difficulty: 'standard',
-          question: 'पद्यांश-वार भावार्थ वह प्रक्रिया है जिसमें कविता के प्रत्येक अनुभाग (पद्यांश).',
+          question: '\'अंतरा भाग-2 — पाठ 5\' का कथानक — \'अंतरा भाग-2 — पाठ 5\' — अंतरा भाग-2 का पाठ।.',
           hint: 'यदि छात्र भावार्थ निकालने में कठिनाई महसूस कर रहा है, तो उसे c12_hin_a_cbse_05_001 (कवि.',
           misconception: 'छात्र अक्सर यह मान लेते हैं कि यदि वे पद्यांश के सभी शब्दों के शब्दार्थ जानते हैं तो उन्होंने उसका भावार्थ निकाल लिया.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्यांश-वार भावार्थ वह प्रक्रिया है जिसमें कविता के प्रत्येक अनुभाग (पद्यांश) को अलग-अलग',
-                  options: ['पद्यांश-वार भावार्थ वह प्रक्रिया है जिसमें कविता के प्रत्येक अनुभाग (पद्यांश) को अलग-अलग', 'रघुवीर सहाय (1929–1990) हिंदी के प्रमुख आधुनिक कवि, पत्रकार और संपादक हैं जिनकी रचनाएँ', 'काव्य-संरचना और पद्य-विन्यास कविता के आंतरिक ढाँचे', 'केंद्रीय भाव वह मूल विचार या सन्देश है जो कविता के माध्यम से कवि व्यक्त करना चाहता है,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 5\' का कथानक — \'अंतरा भाग-2 — पाठ 5\' — अंतरा भाग-2 का पाठ। पाठ का',
+                  options: ['\'अंतरा भाग-2 — पाठ 5\' का कथानक — \'अंतरा भाग-2 — पाठ 5\' — अंतरा भाग-2 का पाठ। पाठ का', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', '\'अंतरा भाग-2 — पाठ 5\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
                   hint: 'यदि छात्र भावार्थ निकालने में कठिनाई महसूस कर रहा है, तो उसे c12_hin_a_cbse_05_001 (कवि परिचय और.',
                   misconception: 'छात्र अक्सर यह मान लेते हैं कि यदि वे पद्यांश के सभी शब्दों के शब्दार्थ जानते हैं तो उन्होंने उसका भावार्थ निकाल लिया है, जैसे कि कोई.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को सबसे पहले एक 간단한 वाक्य दें जैसे "मैं ठीक हूँ" और पूछें कि क्या यह हमेशा सच्चा है - फिर बताएँ कि टोन, संदर्भ और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_05_003', difficulty: 'standard',
-          question: 'काव्य-संरचना और पद्य-विन्यास कविता के आंतरिक ढाँचे — stanza विभाजन, पंक्तियों.',
+          question: '\'अंतरा भाग-2 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण.',
           hint: 'कक्षा 11 में काव्य-संरचना और पद्य-विन्यास (c11_hin_a_cbse_05_003) की अवधारणा को पुनः.',
           misconception: 'छात्र अक्सर मानते हैं कि रघुवीर सहाय की कविता में असमान stanza लंबाई, बदलता rhyme scheme, या अनियमित meter केवल तकनीकी.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य-संरचना और पद्य-विन्यास कविता के आंतरिक ढाँचे',
-                  options: ['काव्य-संरचना और पद्य-विन्यास कविता के आंतरिक ढाँचे', 'रघुवीर सहाय (1929–1990) हिंदी के प्रमुख आधुनिक कवि, पत्रकार और संपादक हैं जिनकी रचनाएँ', 'पद्यांश-वार भावार्थ वह प्रक्रिया है जिसमें कविता के प्रत्येक अनुभाग (पद्यांश) को अलग-अलग', 'केंद्रीय भाव वह मूल विचार या सन्देश है जो कविता के माध्यम से कवि व्यक्त करना चाहता है,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित',
+                  options: ['\'अंतरा भाग-2 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 5\' का कथानक — \'अंतरा भाग-2 — पाठ 5\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 5\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
                   hint: 'कक्षा 11 में काव्य-संरचना और पद्य-विन्यास (c11_hin_a_cbse_05_003) की अवधारणा को पुनः देखें — विशेष.',
                   misconception: 'छात्र अक्सर मानते हैं कि रघुवीर सहाय की कविता में असमान stanza लंबाई, बदलता rhyme scheme, या अनियमित meter केवल तकनीकी गलतियाँ या व्याकरणिक.' }
           ],
             remediations: { 'stanza': { steps: ['छात्र को पहले एक परिचित पारंपरिक कविता (जैसे दोहा या sorath) दें और पूछें कि इसका रूप कैसा है और यह भाव को कैसे सहारा.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_05_004', difficulty: 'standard',
-          question: 'केंद्रीय भाव वह मूल विचार या सन्देश है जो कविता के माध्यम से कवि व्यक्त करना.',
-          hint: 'यदि छात्र केंद्रीय भाव और रस में अंतर नहीं कर पा रहा है, तो उसे c12_hin_a_cbse_05_002.',
-          misconception: 'छात्र अक्सर मानते हैं कि रस केवल कविता में उपस्थित emocion शब्दों (जैसे "दुःख", "खुशी") से निर्धारित होता है—जैसे कि.',
+          question: '\'अंतरा भाग-2 — पाठ 5\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+          hint: 'If stuck, review "Text: Plot and Narrative Structure" (c12_hin_a_cbse_05_002).',
+          misconception: 'Students often treat the protagonist as a mere symbol of "old age" or "tradition" and write generic essays about Indian.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'केंद्रीय भाव वह मूल विचार या सन्देश है जो कविता के माध्यम से कवि व्यक्त करना चाहता है,',
-                  options: ['केंद्रीय भाव वह मूल विचार या सन्देश है जो कविता के माध्यम से कवि व्यक्त करना चाहता है,', 'रघुवीर सहाय (1929–1990) हिंदी के प्रमुख आधुनिक कवि, पत्रकार और संपादक हैं जिनकी रचनाएँ', 'पद्यांश-वार भावार्थ वह प्रक्रिया है जिसमें कविता के प्रत्येक अनुभाग (पद्यांश) को अलग-अलग', 'काव्य-संरचना और पद्य-विन्यास कविता के आंतरिक ढाँचे'],
-                  hint: 'यदि छात्र केंद्रीय भाव और रस में अंतर नहीं कर पा रहा है, तो उसे c12_hin_a_cbse_05_002 (भावार्थ) और.',
-                  misconception: 'छात्र अक्सर मानते हैं कि रस केवल कविता में उपस्थित emocion शब्दों (जैसे "दुःख", "खुशी") से निर्धारित होता है—जैसे कि अगर कविता में "दुःख".' }
+                { id: 'a', prompt: 'Identify the protagonist of the poem "olar vk;k" and state one physical detail the poet uses to establish her age and frailty in the opening stanza.', answer: 'The protagonist is the old woman (olar)',
+                  options: ['The protagonist is the old woman (olar)', 'the poet or the crow as protagonist'],
+                  hint: 'If stuck, review "Text: Plot and Narrative Structure" (c12_hin_a_cbse_05_002) to re-establish the.',
+                  misconception: 'Students often treat the protagonist as a mere symbol of "old age" or "tradition" and write generic essays about Indian elderly women.' }
           ],
-            remediations: { 'emocion': { steps: ['छात्र को दिखाइए कि एक ही शब्द "दुःख" दो अलग-अलग कविताओं में दो अलग-अलग रस उत्पन्न कर सकता है: एक कविता में जहां यह धीमे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-protagonist': { steps: ['Re-read the poem aloud, circling every ns\'kt word (enueghuk, ngj&ngj, fiQjdh, uanu&ou) and every bodily sensation.', 'Revisit node c12_hin_a_cbse_05_002 (Plot) to map the protagonist\'s actions chronologically: remembering → walking →.', 'Practice writing one PEEL paragraph using ONLY dialect words as evidence (e.g., "The word \'ngj&ngj\' shows...").', 'Re-attempt Diagnostic Question 4 with this constraint: every claim must quote a dialect word.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_05_005', difficulty: 'standard',
-          question: 'छंद कविता का वह निश्चित मात्रिक या वार्णिक ढांचा है जिसमें प्रत्येक पंक्ति के.',
-          hint: 'यदि मात्रा गिनने में अटके: प्रत्येक शब्द को बोलकर, ताली बजाकर गुरु/लघु पहचानें — लिखित.',
-          misconception: '**सबसे बड़ी भ्रांति:** "छंद = तुकबंदी (राइम)" और "लय = गाना गाने जैसा"। छात्र सोचते हैं कि अंत में आने वाले शब्द.',
+          question: '\'अंतरा भाग-2 — पाठ 5\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को.',
+          hint: 'If stuck, review the \'Speaker vs. Listener\' distinction in c12_hin_a_cbse_05_004 and the.',
+          misconception: 'Students treat supporting characters in poetry as \'minor characters in a story\' — they look for personality traits.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'छंद कविता का वह निश्चित मात्रिक या वार्णिक ढांचा है जिसमें प्रत्येक पंक्ति के चरणों में',
-                  options: ['छंद कविता का वह निश्चित मात्रिक या वार्णिक ढांचा है जिसमें प्रत्येक पंक्ति के चरणों में', 'रघुवीर सहाय (1929–1990) हिंदी के प्रमुख आधुनिक कवि, पत्रकार और संपादक हैं जिनकी रचनाएँ', 'पद्यांश-वार भावार्थ वह प्रक्रिया है जिसमें कविता के प्रत्येक अनुभाग (पद्यांश) को अलग-अलग', 'काव्य-संरचना और पद्य-विन्यास कविता के आंतरिक ढाँचे'],
-                  hint: 'यदि मात्रा गिनने में अटके: प्रत्येक शब्द को बोलकर, ताली बजाकर गुरु/लघु पहचानें — लिखित नियम से पहले.',
-                  misconception: '**सबसे बड़ी भ्रांति:** "छंद = तुकबंदी (राइम)" और "लय = गाना गाने जैसा"। छात्र सोचते हैं कि अंत में आने वाले शब्द मिलते-जुलते हों (जैसे.' }
+                { id: 'a', prompt: 'Compare the role of the \'child\' in "ओलार वक;क" with the role of the \'peacock/parrot\' in "रक्सM+ks".', answer: 'The child in "ओलार वक;क" represents human *interruption*',
+                  options: ['The child in "ओलार वक;क" represents human *interruption*', 'both are just part of the setting'],
+                  hint: 'If stuck, review the \'Speaker vs. Listener\' distinction in c12_hin_a_cbse_05_004 and the \'Symbol.',
+                  misconception: 'Students treat supporting characters in poetry as \'minor characters in a story\' — they look for personality traits, backstories,.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से कहें — "किसी भी कविता की एक पंक्ति लो, प्रत्येक शब्द के नीचे \'गु\' (गुरु) या \'ल\' (लघु) लिखो। नियम: दीर्घ.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-supporting-characters-in': { steps: ['Have the student re-read both poems *only* marking nouns that are not the speaker (\'मैं\', \'हम\', \'dfo\').', 'For each marked noun, ask: "If I delete this noun, what specific meaning disappears?" 3.', 'Make a two-column table: Column A = Supporting Element, Column B = Thematic Function (not description).', 'Practice writing one-sentence functional statements for each (e.g., "The child\'s request = human desire to repeat the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_05_006', difficulty: 'standard',
-          question: 'अलंकार वे साहित्यिक युक्तियाँ हैं जो भाषा में सजावट, प्रभाव और गहराई लाने के.',
+          question: '\'अंतरा भाग-2 — पाठ 5\' का मुख्य विषय — \'अंतरा भाग-2 — पाठ 5\' का केंद्रीय भाव और.',
           hint: 'यदि छात्र रूपक और उपमा में अंतर नहीं कर पा रहा है तो उसे c12_hin_a_cbse_05_002.',
           misconception: 'छात्र अक्सर रूपक और उपमा के बीच के अंतर को ध्वनि या लय के आधार पर समझने की कोशिश करते हैं, जबकि वास्तविक अंतर तुलना के.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार वे साहित्यिक युक्तियाँ हैं जो भाषा में सजावट, प्रभाव और गहराई लाने के लिए प्रयोग',
-                  options: ['अलंकार वे साहित्यिक युक्तियाँ हैं जो भाषा में सजावट, प्रभाव और गहराई लाने के लिए प्रयोग', 'रघुवीर सहाय (1929–1990) हिंदी के प्रमुख आधुनिक कवि, पत्रकार और संपादक हैं जिनकी रचनाएँ', 'पद्यांश-वार भावार्थ वह प्रक्रिया है जिसमें कविता के प्रत्येक अनुभाग (पद्यांश) को अलग-अलग', 'काव्य-संरचना और पद्य-विन्यास कविता के आंतरिक ढाँचे'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 5\' का मुख्य विषय — \'अंतरा भाग-2 — पाठ 5\' का केंद्रीय भाव और संदेश',
+                  options: ['\'अंतरा भाग-2 — पाठ 5\' का मुख्य विषय — \'अंतरा भाग-2 — पाठ 5\' का केंद्रीय भाव और संदेश', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 5\' का कथानक — \'अंतरा भाग-2 — पाठ 5\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 5\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि छात्र रूपक और उपमा में अंतर नहीं कर पा रहा है तो उसे c12_hin_a_cbse_05_002 (पद्यांश-वार.',
                   misconception: 'छात्र अक्सर रूपक और उपमा के बीच के अंतर को ध्वनि या लय के आधार पर समझने की कोशिश करते हैं, जबकि वास्तविक अंतर तुलना के तरीके में है: उपमा.' }
           ],

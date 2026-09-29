@@ -6,13 +6,13 @@ import C10_MathematicsGeometricProgressionFirstSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_mathematicsgeometricprogressionfirstsim: SimDef = {
     id: 'v3w_c10_mathematicsgeometricprogressionfirstsim',
-    title: 'Geometric Progression First',
+    title: 'Sum of AP Given First Term, Last Term and Number of Terms',
     subtitle: 'This node covers the derivation, application, and problem-solving using Sₙ = n/2 (a + l).',
     classLevel: 10, subject: 'mathematics', topic: 'Sum of AP Given First Term, Last Term and Number of Terms',
     chapters: [],
     nodeIds: ['c10_math_cbse_05_009', 'c10_math_cbse_05_010', 'c10_math_cbse_05_011', 'c10_math_cbse_05_012', 'c10_math_cbse_05_001', 'c10_math_cbse_05_002', 'c10_math_cbse_05_003', 'c10_math_cbse_05_004', 'c10_math_cbse_05_006', 'c10_math_cbse_05_007', 'c10_math_cbse_05_008', 'c10_math_cbse_05_005', 'c10_math_cbse_06_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you are saving money in a piggy bank: you put ₹10 on day 1, ₹15 on day 2, ₹20 on day 3, and so on,.', goal: 'Master Geometric Progression First.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you are saving money in a piggy bank: you put ₹10 on day 1, ₹15 on day 2, ₹20 on day 3, and so on,.', goal: 'Master Sum of AP Given First Term, Last Term and Number of Terms.' },
     discovery: {
         question: 'A student says: "The heights of students in a class form an AP because they increase." Explain why this reasoning is incorrect and state the precise condition.',
         options: ['Heights of students do not necessarily increase by a constant difference', 'increasing', 'constant difference'],
@@ -81,7 +81,7 @@ export const w_c10_mathematicsgeometricprogressionfirstsim: SimDef = {
             { text: 'Verify: The sequence decreases by 3 each time: 25, 22, 19, 16, 13, 10, 7, 4. The 8th term is indeed 4.', faded: true, blankAnswer: 'General form: \\(25, 25+(-3), 25+2(-3), 25+3(-3), \\dots\\) or.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_math_cbse_05_010', title: 'Identify each idea',
-          dissect: { specimen: 'Geometric Progression First', spots: [
+          dissect: { specimen: 'Sum of AP Given First Term, Last Term and Number of Terms', spots: [
             { id: 's1', label: 'The sum of the first', prompt: 'Which idea is this? — The sum of the first n terms of an arithmetic progression when the first term (a), the.', answer: 'The sum of the first', options: ['The sum of the first', 'In an Arithmetic Progression AP', 'Word problems on Arithmetic Progressions', 'Word problems on instalments and'] },
             { id: 's2', label: 'In an Arithmetic Progression AP', prompt: 'Which idea is this? — In an Arithmetic Progression (AP), the nth term a_n and the sum of the first n terms S_n.', answer: 'In an Arithmetic Progression AP', options: ['In an Arithmetic Progression AP', 'The sum of the first', 'Word problems on Arithmetic Progressions', 'Word problems on instalments and'] },
             { id: 's3', label: 'Word problems on Arithmetic Progressions', prompt: 'Which idea is this? — Word problems on Arithmetic Progressions involve translating a real-life situation where.', answer: 'Word problems on Arithmetic Progressions', options: ['Word problems on Arithmetic Progressions', 'The sum of the first', 'In an Arithmetic Progression AP', 'Word problems on instalments and'] },
@@ -90,7 +90,7 @@ export const w_c10_mathematicsgeometricprogressionfirstsim: SimDef = {
             { id: 's6', label: 'An Arithmetic Progression AP in', prompt: 'Which idea is this? — An Arithmetic Progression (AP) in its general form is an ordered sequence of numbers.', answer: 'An Arithmetic Progression AP in', options: ['An Arithmetic Progression AP in', 'The sum of the first', 'In an Arithmetic Progression AP', 'Word problems on Arithmetic Progressions'] }
           ] } }
     ],
-    explore: { component: C10_MathematicsGeometricProgressionFirstSim, prompt: 'Explore the interactive — Geometric Progression First' },
+    explore: { component: C10_MathematicsGeometricProgressionFirstSim, prompt: 'Explore the interactive — Sum of AP Given First Term, Last Term and Number of Terms' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_math_cbse_05_009', difficulty: 'standard',
           question: 'The sum of the first n terms of an arithmetic progression when the first term.',

@@ -6,13 +6,13 @@ import C11_EconomicsEmploymentInformalisationSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_economicsemploymentinformalisationsim: SimDef = {
     id: 'v3w_c11_economicsemploymentinformalisationsim',
-    title: 'Employment Informalisation',
+    title: 'Economically Active Population: Labour Force and Workforce',
     subtitle: 'Covers: definitions of economic activity/worker/workforce/unemployed, worker-population.',
     classLevel: 11, subject: 'economics', topic: 'Economically Active Population: Labour Force and Workforce',
     chapters: [],
     nodeIds: ['c11_eco_cbse_06_002', 'c11_eco_cbse_06_004', 'c11_eco_cbse_06_005', 'c11_eco_cbse_06_009', 'c11_eco_cbse_06_001', 'c11_eco_cbse_06_003', 'c11_eco_cbse_06_006', 'c11_eco_cbse_06_007', 'c11_eco_cbse_06_008', 'c11_eco_cbse_06_010', 'c11_eco_cbse_06_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at a busy Delhi Metro station at 8 AM: you see office-goers with ID cards, a street.', goal: 'Master Employment Informalisation.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at a busy Delhi Metro station at 8 AM: you see office-goers with ID cards, a street.', goal: 'Master Economically Active Population: Labour Force and Workforce.' },
     discovery: {
         question: 'Analyse the trend in Table 6.3: Share of casual wage labourers rose from 23.2% (1972–73) to 31.8% (1993–94) then fell to 19.9% (2023–24), while regular.',
         options: ['Phase 1 (1972–1994): **Casualisation**', 'growth', 'Labour Force = Workforce'],
@@ -82,7 +82,7 @@ export const w_c11_economicsemploymentinformalisationsim: SimDef = {
             { text: 'Compute national shares: Primary = (247.12/545)×100 = 45.3%; Secondary = (136.43/545)×100 = 25.0%; Tertiary =.', faded: true, blankAnswer: 'National workers: Primary ~247M, Secondary ~136M, Tertiary.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_eco_cbse_06_004', title: 'Identify each idea',
-          dissect: { specimen: 'Employment Informalisation', spots: [
+          dissect: { specimen: 'Economically Active Population: Labour Force and Workforce', spots: [
             { id: 's1', label: 'The Economically Active Population Labour', prompt: 'Which idea is this? — The **Economically Active Population** (Labour Force) comprises all persons who are.', answer: 'The Economically Active Population Labour', options: ['The Economically Active Population Labour', 'Growth of employment refers to', 'The formal sector comprises all', 'Economic activities are all human'] },
             { id: 's2', label: 'Growth of employment refers to', prompt: 'Which idea is this? — Growth of employment refers to the rate of change in the total number of workers engaged.', answer: 'Growth of employment refers to', options: ['Growth of employment refers to', 'The Economically Active Population Labour', 'The formal sector comprises all', 'Economic activities are all human'] },
             { id: 's3', label: 'The formal sector comprises all', prompt: 'Which idea is this? — The formal sector comprises all public sector establishments and private sector.', answer: 'The formal sector comprises all', options: ['The formal sector comprises all', 'The Economically Active Population Labour', 'Growth of employment refers to', 'Economic activities are all human'] },
@@ -90,7 +90,7 @@ export const w_c11_economicsemploymentinformalisationsim: SimDef = {
             { id: 's5', label: 'Sectoral distribution of workforce refers', prompt: 'Which idea is this? — Sectoral distribution of workforce refers to the percentage distribution of a country\'s.', answer: 'Sectoral distribution of workforce refers', options: ['Sectoral distribution of workforce refers', 'The Economically Active Population Labour', 'Growth of employment refers to', 'The formal sector comprises all'] }
           ] } }
     ],
-    explore: { component: C11_EconomicsEmploymentInformalisationSim, prompt: 'Explore the interactive — Employment Informalisation' },
+    explore: { component: C11_EconomicsEmploymentInformalisationSim, prompt: 'Explore the interactive — Economically Active Population: Labour Force and Workforce' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eco_cbse_06_002', difficulty: 'standard',
           question: 'The **Economically Active Population** (Labour Force) comprises all persons who.',

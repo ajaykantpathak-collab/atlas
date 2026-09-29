@@ -19,7 +19,7 @@ export const c12_eng_f_ch12_p3: SimDef = {
         hook: 'For the Romantics beauty isn\'t decoration — it\'s survival equipment. Keats, a surgeon who abandoned medicine and was dying of TB, builds his case on Endymion\'s endless quest: a thing of beauty is \'an endless fountain of immortal drink\' precisely because life is short and dark.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the disciplined process of examining a text\'s components—structure, language, imagery, tone, and context—to form an evidence-based interpretation of its.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'A Roadside Stand\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_12_013', title: 'Your mission',
@@ -29,21 +29,21 @@ export const c12_eng_f_ch12_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_12_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a journalist visiting a roadside stall on a highway outside your city: you see the faded paint, the hopeful produce, and the cars speeding past.',
+          caseStudy: { intro: 'Analyse \'A Roadside Stand\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the literal meaning of the phrase "the flower of cities from sinking and withering faint" in the first stanza, and which economic.', options: [
                 { text: 'The phrase means that the money earned from rural produce (via the roadside stand)', outcome: 'The phrase means that the money earned from rural produce (via the roadside stand) sustains the.' },
                 { text: 'cities give money to villages', outcome: 'Not quite — Students often treat the poem as a simple "rich vs. poor" morality tale and conclude the speaker.', reveals: 'students-often-treat-the-poem' },
                 { text: 'cash flow', outcome: 'Not quite — Students often treat the poem as a simple "rich vs. poor" morality tale and conclude the speaker.', reveals: 'students-often-treat-the-poem' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_12_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall and see: "How does Frost portray the plight of the rural poor in \'A Roadside Stand\'?" You know the poem, but your answer feels.',
+          caseStudy: { intro: 'For written answers on \'A Roadside Stand\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing literature answers for CBSE Class 12?', options: [
                 { text: 'PEEL stands for **Point, Evidence, Explanation, Link**', outcome: 'PEEL stands for **Point, Evidence, Explanation, Link**. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explanation, Line', outcome: 'Not quite — Students believe "writing skills based on the chapter" means **summarizing the poem**.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe "writing skills based on the chapter" means **summarizing the poem**.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_12_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are driving on a highway and see a small shack selling berries — do you stop, or speed past?',
+          caseStudy: { intro: 'Talk through \'A Roadside Stand\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of assigning roles (Facilitator, Evidence Keeper, Connector, Summariser) in a structured literary discussion?', options: [
                 { text: 'The roles ensure equitable participation, keep the discussion grounded in textual', outcome: 'The roles ensure equitable participation, keep the discussion grounded in textual evidence, connect.' },
                 { text: 'to make it fun', outcome: 'Not quite — Students believe a "good discussion" means everyone agrees politely and shares feelings.', reveals: 'a-good-discussion-means-everyone' },
@@ -68,18 +68,18 @@ export const c12_eng_f_ch12_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_12_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the disciplined process of examining.',
+          question: 'Critical thinking on \'A Roadside Stand\' — analysing the text to reach.',
           hint: 'If the speaker/poet distinction blurs, re-read the last two stanzas and ask: "Would Frost.',
           misconception: 'Students often treat the poem as a simple "rich vs. poor" morality tale and conclude the speaker is a pure sympathizer.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis is the disciplined process of examining a text\'s',
-                  options: ['Critical thinking in literary analysis is the disciplined process of examining a text\'s', '"Before You Read: Context and Background" is a preparatory literary skill where students', 'Plot and Narrative Structure in a poem refers to the organization of events, images, and', 'Setting in poetry refers to the time, place, and social environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'A Roadside Stand\'',
+                  options: ['Critical thinking on \'A Roadside Stand\'', '\'A Roadside Stand\' (Flamingo, ch', 'The plot/narrative arc of \'A Roadside Stand\'', 'The setting of \'A Roadside Stand\''],
                   hint: 'If the speaker/poet distinction blurs, re-read the last two stanzas and ask: "Would Frost *himself*.',
                   misconception: 'Students often treat the poem as a simple "rich vs. poor" morality tale and conclude the speaker is a pure sympathizer.' }
           ],
             remediations: { 'students-often-treat-the-poem': { steps: ['Re-read the last two stanzas aloud, circling every first-person pronoun ("I," "myself," "me").', 'A city-dweller like me?" 3.', 'Write a 50-word paragraph: "The speaker\'s guilt is not innocent because..." using the phrase "complicit silence." 4.', 'Re-attempt Diagnostic Question 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_12_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter refers to the ability to compose.',
+          question: 'Writing skills from \'A Roadside Stand\' — using the text as a model.',
           hint: 'If stuck, revisit c12_eng_f_cbse_12_013 (Critical Thinking) to recall analytical points.',
           misconception: 'Students believe "writing skills based on the chapter" means **summarizing the poem**.',
           parts: [
@@ -109,7 +109,7 @@ export const c12_eng_f_ch12_p3: SimDef = {
           ],
             remediations: { 'writing-skills-based-on-the': { steps: ['** Give a 5-mark question. Ask them to **highlight every sentence that contains a direct quote or specific phrase.', '** Provide a model PEEL answer for the same question. Have them **color-code** Point (blue), Evidence (green).', '** Assign a new question. Require a **PEEL outline in bullets** before full sentences: - Point: - Evidence 1 (quote.', '** Re-diagnose after 48 hours with a similar question. If they still summarize, revisit **c12_eng_f_cbse_12_013.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_12_015', difficulty: 'standard',
-          question: 'Speaking and Listening Discussion Points are structured conversation prompts.',
+          question: 'Discussion points on \'A Roadside Stand\' — speaking and listening around the.',
           hint: 'If stuck, revisit c12_eng_f_cbse_12_013 (Critical Thinking) and practice writing three.',
           misconception: 'Students believe a "good discussion" means everyone agrees politely and shares feelings.',
           parts: [

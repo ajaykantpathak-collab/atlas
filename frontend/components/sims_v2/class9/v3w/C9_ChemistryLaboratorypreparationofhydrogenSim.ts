@@ -6,13 +6,13 @@ import C9_ChemistryLaboratorypreparationofhydrogenSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_chemistrylaboratorypreparationofhydrogensim: SimDef = {
     id: 'v3w_c9_chemistrylaboratorypreparationofhydrogensim',
-    title: 'Laboratorypreparationofhydrogen',
+    title: 'Separation of Immiscible Liquids: Separating Funnel',
     subtitle: 'Covers separation of two immiscible liquids (e.g., water and oil, water and chloroform).',
     classLevel: 9, subject: 'chemistry', topic: 'Separation of Immiscible Liquids: Separating Funnel',
     chapters: [],
     nodeIds: ['c9_chem_ch1_7', 'c9_chem_ch1_8'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Observe how oil floats on water when you wash an oily utensil — the two liquids form clear layers instead of.', goal: 'Master Laboratorypreparationofhydrogen.' },
+    scenario: { role: 'a class 9 learner', intro: 'Observe how oil floats on water when you wash an oily utensil — the two liquids form clear layers instead of.', goal: 'Master Separation of Immiscible Liquids: Separating Funnel.' },
     discovery: {
         question: 'A student pours a mixture of water (density 1.0 g/cm³) and carbon tetrachloride (density 1.6 g/cm³) into a separating funnel.',
         options: ['Carbon tetrachloride will form the lower layer', 'water will be lower', 'water is always the reference without checking numbers'],
@@ -45,12 +45,12 @@ export const w_c9_chemistrylaboratorypreparationofhydrogensim: SimDef = {
             { text: 'Verify: Test a crystal with starch solution — blue-black colour confirms iodine. Sand shows no colour change.', faded: true, blankAnswer: 'Pure iodine crystals collected on funnel walls; sand.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_chem_ch1_8', title: 'Identify each idea',
-          dissect: { specimen: 'Laboratorypreparationofhydrogen', spots: [
+          dissect: { specimen: 'Separation of Immiscible Liquids: Separating Funnel', spots: [
             { id: 's1', label: 'A separating funnel is a', prompt: 'Which idea is this? — A separating funnel is a laboratory apparatus used to separate two immiscible liquids of.', answer: 'A separating funnel is a', options: ['A separating funnel is a', 'Sublimation is a physical change'] },
             { id: 's2', label: 'Sublimation is a physical change', prompt: 'Which idea is this? — Sublimation is a physical change of state in which a solid transforms directly into a gas.', answer: 'Sublimation is a physical change', options: ['Sublimation is a physical change', 'A separating funnel is a'] }
           ] } }
     ],
-    explore: { component: C9_ChemistryLaboratorypreparationofhydrogenSim, prompt: 'Explore the interactive — Laboratorypreparationofhydrogen' },
+    explore: { component: C9_ChemistryLaboratorypreparationofhydrogenSim, prompt: 'Explore the interactive — Separation of Immiscible Liquids: Separating Funnel' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_chem_ch1_7', difficulty: 'standard',
           question: 'A separating funnel is a laboratory apparatus used to separate two immiscible.',

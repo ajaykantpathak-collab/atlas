@@ -61,7 +61,11 @@ export const c6_geography_ch01_p2: SimDef = {
                   options: ['The rainfall is usually less than 25 centimetres per year', 'deserts are just "hot sand" and that no one lives there'],
                   hint: 'Review the definition of rainfall and temperature in the chapter\'s intro.',
                   misconception: 'Students often believe deserts are just "hot sand" and that no one lives there.' },
-                { id: 'b', prompt: 'Compare the daytime and nighttime temperatures in the Thar Desert. How does this affect people living there?', answer: 'Days are extremely hot, while nights can be quite cold',
+                { id: 'b', prompt: 'If you were living in the Thar, why would it be difficult to grow crops that require a lot of water?', answer: 'Identify crop water needs vs',
+                  options: ['Identify crop water needs vs', 'scarcity', 'hot sand', 'deserts are just "hot sand" and that no one lives there'],
+                  hint: 'Review the definition of rainfall and temperature in the chapter\'s intro.',
+                  misconception: 'Students often believe deserts are just "hot sand" and that no one lives there.' },
+                { id: 'c', prompt: 'Compare the daytime and nighttime temperatures in the Thar Desert. How does this affect people living there?', answer: 'Days are extremely hot, while nights can be quite cold',
                   options: ['Days are extremely hot, while nights can be quite cold', 'always hot', 'hot sand', 'deserts are "always hot" 24/7'],
                   hint: 'Review the definition of rainfall and temperature in the chapter\'s intro.',
                   misconception: 'Students often believe deserts are just "hot sand" and that no one lives there.' }

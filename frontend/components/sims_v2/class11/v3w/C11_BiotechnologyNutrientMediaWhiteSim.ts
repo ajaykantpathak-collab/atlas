@@ -6,13 +6,13 @@ import C11_BiotechnologyNutrientMediaWhiteSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biotechnologynutrientmediawhitesim: SimDef = {
     id: 'v3w_c11_biotechnologynutrientmediawhitesim',
-    title: 'nology Nutrient Media White',
+    title: 'Cell Culture: Animal and Plant Cell Culture Techniques',
     subtitle: 'This node covers: (1) Animal cell culture — primary culture vs cell lines, culture media.',
     classLevel: 11, subject: 'biotechnology', topic: 'Cell Culture: Animal and Plant Cell Culture Techniques',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_12_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you need to produce a life-saving monoclonal antibody for cancer treatment — you cannot extract it.', goal: 'Master nology Nutrient Media White.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you need to produce a life-saving monoclonal antibody for cancer treatment — you cannot extract it.', goal: 'Master Cell Culture: Animal and Plant Cell Culture Techniques.' },
     discovery: {
         question: 'A student prepares MS medium for plant tissue culture but forgets to add agar. The medium remains liquid after autoclaving.',
         options: ['Without agar, the medium lacks a solid support matrix', 'nutrients not absorbed', 'animal cells need serum, plant cells need hormones'],
@@ -34,7 +34,7 @@ export const w_c11_biotechnologynutrientmediawhitesim: SimDef = {
             { text: 'Bring to final 500 mL with water. Sterile filter (0.22 μm). Store at 4°C, warm to 37°C before use.', faded: true, blankAnswer: '6.7 g DMEM powder, 2.25 g glucose, 1.85 g NaHCO₃, 50 mL.' }
             ] } }
     ],
-    explore: { component: C11_BiotechnologyNutrientMediaWhiteSim, prompt: 'Explore the interactive — nology Nutrient Media White' },
+    explore: { component: C11_BiotechnologyNutrientMediaWhiteSim, prompt: 'Explore the interactive — Cell Culture: Animal and Plant Cell Culture Techniques' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_biotech_cbse_12_011', difficulty: 'standard',
           question: 'Cell culture is the laboratory technique of growing and maintaining animal or.',

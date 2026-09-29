@@ -6,13 +6,13 @@ import C6_ScienceTemperatureAndItsMeasurementSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_sciencetemperatureanditsmeasurementsim: SimDef = {
     id: 'v3w_c6_sciencetemperatureanditsmeasurementsim',
-    title: 'Temperature And Its Measurement',
+    title: 'Heat vs Temperature: Understanding the Difference',
     subtitle: 'This node covers the conceptual difference between heat and temperature and the.',
     classLevel: 6, subject: 'science', topic: 'Heat vs Temperature: Understanding the Difference',
     chapters: [],
     nodeIds: ['c6_physics_ch07_024', 'c6_physics_ch07_019', 'c6_physics_ch07_020', 'c6_physics_ch08_027', 'c6_physics_ch08_033', 'c6_physics_ch08_029'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why a small cup of tea feels hot enough to burn your tongue, but a giant swimming pool.', goal: 'Master Temperature And Its Measurement.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why a small cup of tea feels hot enough to burn your tongue, but a giant swimming pool.', goal: 'Master Heat vs Temperature: Understanding the Difference.' },
     discovery: {
         question: 'What is the primary device used to measure the temperature of an object?',
         options: ['A thermometer', 'a calorimeter', 'a heater'],
@@ -67,7 +67,7 @@ export const w_c6_sciencetemperatureanditsmeasurementsim: SimDef = {
             { text: 'Conclude the total time is 135 minutes.', faded: true, blankAnswer: '135 minutes' }
             ] } }
     ],
-    explore: { component: C6_ScienceTemperatureAndItsMeasurementSim, prompt: 'Explore the interactive — Temperature And Its Measurement' },
+    explore: { component: C6_ScienceTemperatureAndItsMeasurementSim, prompt: 'Explore the interactive — Heat vs Temperature: Understanding the Difference' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_physics_ch07_024', difficulty: 'standard',
           question: 'Heat is a form of energy related to the total motion of molecules in a.',

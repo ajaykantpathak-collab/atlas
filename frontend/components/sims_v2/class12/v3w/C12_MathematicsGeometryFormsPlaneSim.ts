@@ -6,13 +6,13 @@ import C12_MathematicsGeometryFormsPlaneSim from '../../../simulations/c6_12/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_mathematicsgeometryformsplanesim: SimDef = {
     id: 'v3w_c12_mathematicsgeometryformsplanesim',
-    title: 'Geometry Forms Plane',
+    title: 'Shortest Distance Between Two Skew Lines',
     subtitle: 'This node covers only the shortest distance between two **skew lines** (non-parallel,.',
     classLevel: 12, subject: 'mathematics', topic: 'Shortest Distance Between Two Skew Lines',
     chapters: [],
     nodeIds: ['c12_math_cbse_11_004', 'c12_math_cbse_10_005', 'c12_math_cbse_10_007', 'c12_math_cbse_11_003', 'c12_math_cbse_11_006', 'c12_math_cbse_11_007', 'c12_math_cbse_11_008', 'c12_math_cbse_11_009', 'c12_math_cbse_11_010', 'c12_math_cbse_10_008', 'c12_math_cbse_04_004', 'c12_math_cbse_11_001', 'c12_math_cbse_10_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are an architect designing a modern building in Mumbai.', goal: 'Master Geometry Forms Plane.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are an architect designing a modern building in Mumbai.', goal: 'Master Shortest Distance Between Two Skew Lines.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'The shortest distance between two skew lines.', text: 'The shortest distance between two skew lines in three-dimensional space is the length of the unique line segment that is perpendicular to both lines.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -76,7 +76,7 @@ export const w_c12_mathematicsgeometryformsplanesim: SimDef = {
             { text: 'The vector equation is \\(\\mathbf{r} \\cdot (4\\mathbf{i} - 2\\mathbf{j} + 5\\mathbf{k}) = 19\\).', faded: true, blankAnswer: 'Vector equation: \\(\\mathbf{r} \\cdot (4\\mathbf{i} -.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_math_cbse_10_005', title: 'Identify each idea',
-          dissect: { specimen: 'Geometry Forms Plane', spots: [
+          dissect: { specimen: 'Shortest Distance Between Two Skew Lines', spots: [
             { id: 's1', label: 'The shortest distance between two', prompt: 'Which idea is this? — The shortest distance between two skew lines in three-dimensional space is the length of.', answer: 'The shortest distance between two', options: ['The shortest distance between two', 'The vector cross product of', 'The section formula for vectors', 'The angle between two lines'] },
             { id: 's2', label: 'The vector cross product of', prompt: 'Which idea is this? — The vector (cross) product of two non-zero vectors **a** and **b**, denoted by **a** ×.', answer: 'The vector cross product of', options: ['The vector cross product of', 'The shortest distance between two', 'The section formula for vectors', 'The angle between two lines'] },
             { id: 's3', label: 'The section formula for vectors', prompt: 'Which idea is this? — The section formula for vectors gives the position vector of a point R that divides the.', answer: 'The section formula for vectors', options: ['The section formula for vectors', 'The shortest distance between two', 'The vector cross product of', 'The angle between two lines'] },
@@ -85,7 +85,7 @@ export const w_c12_mathematicsgeometryformsplanesim: SimDef = {
             { id: 's6', label: 'A plane in three-dimensional space', prompt: 'Which idea is this? — A plane in three-dimensional space is uniquely determined if it passes through a given.', answer: 'A plane in three-dimensional space', options: ['A plane in three-dimensional space', 'The shortest distance between two', 'The vector cross product of', 'The section formula for vectors'] }
           ] } }
     ],
-    explore: { component: C12_MathematicsGeometryFormsPlaneSim, prompt: 'Explore the interactive — Geometry Forms Plane' },
+    explore: { component: C12_MathematicsGeometryFormsPlaneSim, prompt: 'Explore the interactive — Shortest Distance Between Two Skew Lines' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_math_cbse_11_004', difficulty: 'standard',
           question: 'The shortest distance between two skew lines in three-dimensional space is the.',

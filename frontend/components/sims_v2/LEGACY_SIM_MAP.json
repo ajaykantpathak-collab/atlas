@@ -3,7 +3,7 @@
     "tool": "backend/tools/build_legacy_sim_map.py",
     "scope": "frontend/components/simulations: class1-class5, maths, loose subject folders (bio/chem/cs/evs/geo/physics if non-empty) + root-level shared widgets. EXCLUDED: c6_12* (owned by c6_12 mapper), three/, _* archive/backup folders.",
     "dedupeReference": "frontend/components/sims_v2/SIMS_V2_QUALITY.json",
-    "v2QualitySha256": "7a46a546584be3a4072e9da4d2f3be63a1722463db4f255a9c9670484fc3a4b1",
+    "v2QualitySha256": "f06d7c28e0d536166e72b28d140e45f10ccb0f3d60a8cff4e0ed2f32b11a5647",
     "v2EntriesUsed": 176,
     "topicKeyScheme": "g{class}.{slug} = class-band sim (g1..g5); m0.{slug} = loose maths/ simple-machine sims (unpinned class); infra.{slug} = shared root widget, not a topic sim",
     "verdictRules": [
@@ -16,8 +16,8 @@
   "summary": {
     "totalEntries": 142,
     "countsPerVerdict": {
-      "SUPERSEDED": 55,
-      "KEEP-UNIQUE": 81,
+      "SUPERSEDED": 46,
+      "KEEP-UNIQUE": 90,
       "KEEP-MASTER": 6
     },
     "perFolder": {
@@ -386,11 +386,9 @@
       "lines": 712,
       "bytes": 38024,
       "kind": "topic-sim",
-      "dedupeVerdict": "SUPERSEDED",
-      "v2CoveredBy": [
-        "cs_basics"
-      ],
-      "evidence": "v2 covers topic: cs_basics(PERFECT)"
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "v2 covers topic: cs_basics(PERFECT) [pillar-3 audit 2026-09-29] v2 coverage id(s) no longer exist in SIM_INDEX.json; legacy game still wired in lib/gameRegistry.ts — sole coverage, verdict downgraded SUPERSEDED→KEEP-UNIQUE."
     },
     {
       "file": "frontend/components/simulations/class1/ComputerInputGame.tsx",
@@ -833,11 +831,9 @@
       "lines": 893,
       "bytes": 40791,
       "kind": "topic-sim",
-      "dedupeVerdict": "SUPERSEDED",
-      "v2CoveredBy": [
-        "cs_files"
-      ],
-      "evidence": "v2 covers topic: cs_files(PERFECT) -- cs_files covers files/folders; paint-tool slice partial"
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "v2 covers topic: cs_files(PERFECT) -- cs_files covers files/folders; paint-tool slice partial [pillar-3 audit 2026-09-29] v2 coverage id(s) no longer exist in SIM_INDEX.json; legacy game still wired in lib/gameRegistry.ts — sole coverage, verdict downgraded SUPERSEDED→KEEP-UNIQUE."
     },
     {
       "file": "frontend/components/simulations/class2/DirectionsMapGame.tsx",
@@ -1366,11 +1362,9 @@
       "lines": 960,
       "bytes": 42078,
       "kind": "topic-sim",
-      "dedupeVerdict": "SUPERSEDED",
-      "v2CoveredBy": [
-        "cs_internet"
-      ],
-      "evidence": "v2 covers topic: cs_internet(PERFECT)"
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "v2 covers topic: cs_internet(PERFECT) [pillar-3 audit 2026-09-29] v2 coverage id(s) no longer exist in SIM_INDEX.json; legacy game still wired in lib/gameRegistry.ts — sole coverage, verdict downgraded SUPERSEDED→KEEP-UNIQUE."
     },
     {
       "file": "frontend/components/simulations/class3/LandformsGame.tsx",
@@ -1474,11 +1468,9 @@
       "lines": 906,
       "bytes": 41027,
       "kind": "topic-sim",
-      "dedupeVerdict": "SUPERSEDED",
-      "v2CoveredBy": [
-        "sci_matter"
-      ],
-      "evidence": "v2 covers topic: sci_matter(PERFECT)"
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "v2 covers topic: sci_matter(PERFECT) [pillar-3 audit 2026-09-29] v2 coverage id(s) no longer exist in SIM_INDEX.json; legacy game still wired in lib/gameRegistry.ts — sole coverage, verdict downgraded SUPERSEDED→KEEP-UNIQUE."
     },
     {
       "file": "frontend/components/simulations/class3/MentalMathGame.tsx",
@@ -1788,11 +1780,9 @@
       "lines": 937,
       "bytes": 42047,
       "kind": "topic-sim",
-      "dedupeVerdict": "SUPERSEDED",
-      "v2CoveredBy": [
-        "cs_logic"
-      ],
-      "evidence": "v2 covers topic: cs_logic(PERFECT) -- stepwise thinking/algorithm slices covered; Logo slice partial"
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "v2 covers topic: cs_logic(PERFECT) -- stepwise thinking/algorithm slices covered; Logo slice partial [pillar-3 audit 2026-09-29] v2 coverage id(s) no longer exist in SIM_INDEX.json; legacy game still wired in lib/gameRegistry.ts — sole coverage, verdict downgraded SUPERSEDED→KEEP-UNIQUE."
     },
     {
       "file": "frontend/components/simulations/class4/ChangesTransportGame.tsx",
@@ -1939,11 +1929,9 @@
       "lines": 930,
       "bytes": 39658,
       "kind": "topic-sim",
-      "dedupeVerdict": "SUPERSEDED",
-      "v2CoveredBy": [
-        "sci_force"
-      ],
-      "evidence": "v2 covers topic: sci_force(PERFECT)"
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "v2 covers topic: sci_force(PERFECT) [pillar-3 audit 2026-09-29] v2 coverage id(s) no longer exist in SIM_INDEX.json; legacy game still wired in lib/gameRegistry.ts — sole coverage, verdict downgraded SUPERSEDED→KEEP-UNIQUE."
     },
     {
       "file": "frontend/components/simulations/class4/FractionsGame.tsx",
@@ -2010,11 +1998,9 @@
       "lines": 951,
       "bytes": 42091,
       "kind": "topic-sim",
-      "dedupeVerdict": "SUPERSEDED",
-      "v2CoveredBy": [
-        "sci_light"
-      ],
-      "evidence": "v2 covers topic: sci_light(PERFECT)"
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "v2 covers topic: sci_light(PERFECT) [pillar-3 audit 2026-09-29] v2 coverage id(s) no longer exist in SIM_INDEX.json; legacy game still wired in lib/gameRegistry.ts — sole coverage, verdict downgraded SUPERSEDED→KEEP-UNIQUE."
     },
     {
       "file": "frontend/components/simulations/class4/LinesMeasurementGame.tsx",
@@ -2370,11 +2356,9 @@
       "lines": 891,
       "bytes": 37325,
       "kind": "topic-sim",
-      "dedupeVerdict": "SUPERSEDED",
-      "v2CoveredBy": [
-        "sci_body"
-      ],
-      "evidence": "v2 covers topic: sci_body(PERFECT)"
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "v2 covers topic: sci_body(PERFECT) [pillar-3 audit 2026-09-29] v2 coverage id(s) no longer exist in SIM_INDEX.json; legacy game still wired in lib/gameRegistry.ts — sole coverage, verdict downgraded SUPERSEDED→KEEP-UNIQUE."
     },
     {
       "file": "frontend/components/simulations/class5/ComputerHistoryGame.tsx",
@@ -2801,11 +2785,9 @@
       "lines": 838,
       "bytes": 38253,
       "kind": "topic-sim",
-      "dedupeVerdict": "SUPERSEDED",
-      "v2CoveredBy": [
-        "sci_body"
-      ],
-      "evidence": "v2 covers topic: sci_body(PERFECT) -- skeleton subdomain of v2 sci_body (Body Systems)"
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "v2 covers topic: sci_body(PERFECT) -- skeleton subdomain of v2 sci_body (Body Systems) [pillar-3 audit 2026-09-29] v2 coverage id(s) no longer exist in SIM_INDEX.json; legacy game still wired in lib/gameRegistry.ts — sole coverage, verdict downgraded SUPERSEDED→KEEP-UNIQUE."
     },
     {
       "file": "frontend/components/simulations/class5/SoftwareGame.tsx",

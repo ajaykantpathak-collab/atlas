@@ -6,13 +6,13 @@ import C12_PhysicsSemiconductorElectronicsMaterialsDevicesAndSim from '../../../
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicssemiconductorelectronicsmaterialsdevicesandsim: SimDef = {
     id: 'v3w_c12_physicssemiconductorelectronicsmaterialsdevicesandsim',
-    title: 'Semiconductor Electronics Materials Devices And',
+    title: 'p-n Junction Diode: Forward and Reverse Bias',
     subtitle: 'Covers: forward bias operation (minority carrier injection, exponential I-V relation,.',
     classLevel: 12, subject: 'physics', topic: 'p-n Junction Diode: Forward and Reverse Bias',
     chapters: [],
     nodeIds: ['c12_phy_cbse_14_004', 'c12_phy_cbse_14_002', 'c12_phy_cbse_14_008', 'c12_phy_cbse_14_001', 'c12_phy_cbse_14_003', 'c12_phy_cbse_03_004', 'c12_phy_cbse_03_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a simple LED torch: when you flip the switch, the LED lights up instantly; if you accidentally insert.', goal: 'Master Semiconductor Electronics Materials Devices And.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a simple LED torch: when you flip the switch, the LED lights up instantly; if you accidentally insert.', goal: 'Master p-n Junction Diode: Forward and Reverse Bias.' },
     discovery: {
         question: 'A student claims: "In reverse bias, the diode current is zero because the barrier becomes infinite." Evaluate this statement and correct it.',
         options: ['The statement is false', 'very high resistance', 'infinite resistance'],
@@ -75,7 +75,7 @@ export const w_c12_physicssemiconductorelectronicsmaterialsdevicesandsim: SimDef
             { text: 'T = 20.0 + 359 = 379 °C. Check: Copper melts at 1085°C, so 379°C is physically plausible for a resistor under power.', faded: true, blankAnswer: '379 °C' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_14_002', title: 'Identify each idea',
-          dissect: { specimen: 'Semiconductor Electronics Materials Devices And', spots: [
+          dissect: { specimen: 'p-n Junction Diode: Forward and Reverse Bias', spots: [
             { id: 's1', label: 'A p-n junction diode is', prompt: 'Which idea is this? — A p-n junction diode is a two-terminal semiconductor device formed by joining p-type and.', answer: 'A p-n junction diode is', options: ['A p-n junction diode is', 'An intrinsic semiconductor is a', 'A junction transistor is a', 'Energy bands in solids are'] },
             { id: 's2', label: 'An intrinsic semiconductor is a', prompt: 'Which idea is this? — An **intrinsic semiconductor** is a pure semiconductor crystal (e.g., Si, Ge) in which.', answer: 'An intrinsic semiconductor is a', options: ['An intrinsic semiconductor is a', 'A p-n junction diode is', 'A junction transistor is a', 'Energy bands in solids are'] },
             { id: 's3', label: 'A junction transistor is a', prompt: 'Which idea is this? — A junction transistor is a three-terminal semiconductor device consisting of two p-n.', answer: 'A junction transistor is a', options: ['A junction transistor is a', 'A p-n junction diode is', 'An intrinsic semiconductor is a', 'Energy bands in solids are'] },
@@ -84,7 +84,7 @@ export const w_c12_physicssemiconductorelectronicsmaterialsdevicesandsim: SimDef
             { id: 's6', label: 'Resistivity is an intrinsic', prompt: 'Which idea is this? — Resistivity (ρ) is an intrinsic material property quantifying how strongly a material.', answer: 'Resistivity is an intrinsic', options: ['Resistivity is an intrinsic', 'A p-n junction diode is', 'An intrinsic semiconductor is a', 'A junction transistor is a'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsSemiconductorElectronicsMaterialsDevicesAndSim, prompt: 'Explore the interactive — Semiconductor Electronics Materials Devices And' },
+    explore: { component: C12_PhysicsSemiconductorElectronicsMaterialsDevicesAndSim, prompt: 'Explore the interactive — p-n Junction Diode: Forward and Reverse Bias' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_14_004', difficulty: 'standard',
           question: 'A p-n junction diode is a two-terminal semiconductor device formed by joining.',

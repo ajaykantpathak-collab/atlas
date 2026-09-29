@@ -6,13 +6,13 @@ import C11_EconomicsPlanningEconomicDevelopmentSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_economicsplanningeconomicdevelopmentsim: SimDef = {
     id: 'v3w_c11_economicsplanningeconomicdevelopmentsim',
-    title: 'Planning Economic Development',
+    title: 'Low Level of Economic Development Under British Rule',
     subtitle: 'Covers the macroeconomic consequences of colonial policies on national income,.',
     classLevel: 11, subject: 'economics', topic: 'Low Level of Economic Development Under British Rule',
     chapters: [],
     nodeIds: ['c11_eco_cbse_01_002', 'c11_eco_cbse_01_007', 'c11_eco_cbse_01_012', 'c11_eco_cbse_08_004', 'c11_eco_cbse_02_001', 'c11_eco_cbse_02_009', 'c11_eco_cbse_02_011', 'c11_eco_cbse_04_008', 'c11_eco_cbse_08_001', 'c11_eco_cbse_08_006', 'c11_eco_cbse_08_007', 'c11_eco_cbse_08_008', 'c11_eco_cbse_08_010', 'c11_eco_cbse_08_011', 'c11_eco_cbse_01_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are an economic historian examining two snapshots of India: one from 1750 showing thriving.', goal: 'Master Planning Economic Development.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are an economic historian examining two snapshots of India: one from 1750 showing thriving.', goal: 'Master Low Level of Economic Development Under British Rule.' },
     discovery: {
         question: 'State the approximate share of the modern industrial sector in India\'s GDP at the time of independence, and name the two industries that dominated this sector.',
         options: ['The modern industrial sector contributed less than 5% to GDP at independence', '15-20%', 'iron and steel'],
@@ -78,7 +78,7 @@ export const w_c11_economicsplanningeconomicdevelopmentsim: SimDef = {
                 { text: 'zero imports', outcome: 'Not quite — Students often believe import substitution means "zero imports" or "complete ban on foreign goods.".', reveals: 'import-substitution-means-zero-imports' }
             ] }] } }
     ],
-    explore: { component: C11_EconomicsPlanningEconomicDevelopmentSim, prompt: 'Explore the interactive — Planning Economic Development' },
+    explore: { component: C11_EconomicsPlanningEconomicDevelopmentSim, prompt: 'Explore the interactive — Low Level of Economic Development Under British Rule' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eco_cbse_01_002', difficulty: 'standard',
           question: 'Low level of economic development under British rule refers to the systematic.',

@@ -6,13 +6,13 @@ import C12_ChemistryPhenolsSim from '../../../simulations/c6_12/C12_ChemistryPhe
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_chemistryphenolssim: SimDef = {
     id: 'v3w_c12_chemistryphenolssim',
-    title: 'Phenols',
+    title: 'Classification of Alcohols: Primary, Secondary, Tertiary',
     subtitle: 'This node covers ONLY the classification of monohydric aliphatic alcohols into primary,.',
     classLevel: 12, subject: 'chemistry', topic: 'Classification of Alcohols: Primary, Secondary, Tertiary',
     chapters: [],
     nodeIds: ['c12_chem_cbse_07_001', 'c12_chem_cbse_07_002', 'c12_chem_cbse_07_004', 'c12_chem_cbse_07_005', 'c12_chem_cbse_07_006', 'c12_chem_cbse_07_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: when you rub hand sanitiser (mostly ethanol, a primary alcohol) on your.', goal: 'Master Phenols.' },
+    scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: when you rub hand sanitiser (mostly ethanol, a primary alcohol) on your.', goal: 'Master Classification of Alcohols: Primary, Secondary, Tertiary.' },
     discovery: {
         question: 'A student claims: "All secondary alcohols have the general formula R–CH(OH)–R\' where R and R\' are different alkyl groups." Analyse this statement and correct.',
         options: ['The statement is partially correct but incomplete', 'secondary', 'chiral'],
@@ -78,7 +78,7 @@ export const w_c12_chemistryphenolssim: SimDef = {
             { text: 'Verify Saytzeff vs Hofmann — only one alkene possible due to quaternary C-3 having no β-H.', faded: true, blankAnswer: 'Major product: 2,3-dimethylbut-1-ene. Mechanism:.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_chem_cbse_07_002', title: 'Identify each idea',
-          dissect: { specimen: 'Phenols', spots: [
+          dissect: { specimen: 'Classification of Alcohols: Primary, Secondary, Tertiary', spots: [
             { id: 's1', label: 'Alcohols are organic compounds in', prompt: 'Which idea is this? — Alcohols are organic compounds in which a hydroxyl (–OH) group is attached to an sp³.', answer: 'Alcohols are organic compounds in', options: ['Alcohols are organic compounds in', 'Alcohols can be prepared from', 'Phenols are aromatic compounds where', 'Physical properties of alcohols and'] },
             { id: 's2', label: 'Alcohols can be prepared from', prompt: 'Which idea is this? — Alcohols can be prepared from haloalkanes via nucleophilic substitution (SN1/SN2) using.', answer: 'Alcohols can be prepared from', options: ['Alcohols can be prepared from', 'Alcohols are organic compounds in', 'Phenols are aromatic compounds where', 'Physical properties of alcohols and'] },
             { id: 's3', label: 'Phenols are aromatic compounds where', prompt: 'Which idea is this? — Phenols are aromatic compounds where a hydroxyl (–OH) group is directly attached to an.', answer: 'Phenols are aromatic compounds where', options: ['Phenols are aromatic compounds where', 'Alcohols are organic compounds in', 'Alcohols can be prepared from', 'Physical properties of alcohols and'] },
@@ -87,7 +87,7 @@ export const w_c12_chemistryphenolssim: SimDef = {
             { id: 's6', label: 'Dehydration of alcohols is an', prompt: 'Which idea is this? — Dehydration of alcohols is an acid-catalyzed elimination reaction where a water molecule.', answer: 'Dehydration of alcohols is an', options: ['Dehydration of alcohols is an', 'Alcohols are organic compounds in', 'Alcohols can be prepared from', 'Phenols are aromatic compounds where'] }
           ] } }
     ],
-    explore: { component: C12_ChemistryPhenolsSim, prompt: 'Explore the interactive — Phenols' },
+    explore: { component: C12_ChemistryPhenolsSim, prompt: 'Explore the interactive — Classification of Alcohols: Primary, Secondary, Tertiary' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_chem_cbse_07_001', difficulty: 'standard',
           question: 'Alcohols are organic compounds in which a hydroxyl (–OH) group is attached to.',

@@ -6,13 +6,13 @@ import C10_ScienceAcidsBasesAndSaltsSim from '../../../simulations/c6_12/C10_Sci
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_scienceacidsbasesandsaltssim: SimDef = {
     id: 'v3w_c10_scienceacidsbasesandsaltssim',
-    title: 'Acids Bases And Salts',
+    title: 'Acids and Bases: Introduction, Properties and Examples',
     subtitle: 'This node covers the Arrhenius definition of acids and bases, their physical and chemical.',
     classLevel: 10, subject: 'science', topic: 'Acids and Bases: Introduction, Properties and Examples',
     chapters: [],
     nodeIds: ['c10_chem_cbse_02_001', 'c10_chem_cbse_02_005', 'c10_chem_cbse_02_006', 'c10_chem_cbse_02_007', 'c10_chem_cbse_02_010', 'c10_chem_cbse_02_011', 'c10_chem_cbse_02_002', 'c10_chem_cbse_02_003', 'c10_chem_cbse_02_008', 'c10_chem_cbse_02_004', 'c10_chem_cbse_02_009', 'c10_chem_cbse_02_012', 'c10_chem_cbse_04_012', 'c10_chem_cbse_03_006', 'c10_chem_cbse_03_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Start with a real-world observation: When you squeeze lemon juice on a cut, it stings; when you use baking.', goal: 'Master Acids Bases And Salts.' },
+    scenario: { role: 'a class 10 learner', intro: 'Start with a real-world observation: When you squeeze lemon juice on a cut, it stings; when you use baking.', goal: 'Master Acids and Bases: Introduction, Properties and Examples.' },
     discovery: {
         question: 'A student adds dilute HCl to a white solid X. A colourless gas Y evolves which turns lime water milky.',
         options: ['X = CaCO₃ (calcium carbonate), Y = CO₂', 'white solid', 'limestone'],
@@ -80,7 +80,7 @@ export const w_c10_scienceacidsbasesandsaltssim: SimDef = {
             { text: 'Calculate gas volumes at STP: Volume = moles × 22.4 L/mol. Cl₂ = 5 × 22.4 = 112 L. H₂ = 5 × 22.4 = 112 L.', faded: true, blankAnswer: 'NaOH = 400 g; Cl₂ = 112 L at STP; H₂ = 112 L at STP.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_chem_cbse_02_005', title: 'Identify each idea',
-          dissect: { specimen: 'Acids Bases And Salts', spots: [
+          dissect: { specimen: 'Acids and Bases: Introduction, Properties and Examples', spots: [
             { id: 's1', label: 'Acids are substances that release', prompt: 'Which idea is this? — Acids are substances that release hydrogen ions (H⁺) in aqueous solution, while bases are.', answer: 'Acids are substances that release', options: ['Acids are substances that release', 'When an acid reacts with', 'A neutralisation reaction is a', 'Acids react with metal oxides'] },
             { id: 's2', label: 'When an acid reacts with', prompt: 'Which idea is this? — When an acid reacts with a metal carbonate (CO₃²⁻) or metal hydrogencarbonate (HCO₃⁻), it.', answer: 'When an acid reacts with', options: ['When an acid reacts with', 'Acids are substances that release', 'A neutralisation reaction is a', 'Acids react with metal oxides'] },
             { id: 's3', label: 'A neutralisation reaction is a', prompt: 'Which idea is this? — A neutralisation reaction is a chemical reaction in which an acid reacts with a base to.', answer: 'A neutralisation reaction is a', options: ['A neutralisation reaction is a', 'Acids are substances that release', 'When an acid reacts with', 'Acids react with metal oxides'] },
@@ -89,7 +89,7 @@ export const w_c10_scienceacidsbasesandsaltssim: SimDef = {
             { id: 's6', label: 'The chlor-alkali process is the', prompt: 'Which idea is this? — The chlor-alkali process is the industrial electrolysis of concentrated aqueous sodium.', answer: 'The chlor-alkali process is the', options: ['The chlor-alkali process is the', 'Acids are substances that release', 'When an acid reacts with', 'A neutralisation reaction is a'] }
           ] } }
     ],
-    explore: { component: C10_ScienceAcidsBasesAndSaltsSim, prompt: 'Explore the interactive — Acids Bases And Salts' },
+    explore: { component: C10_ScienceAcidsBasesAndSaltsSim, prompt: 'Explore the interactive — Acids and Bases: Introduction, Properties and Examples' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_chem_cbse_02_001', difficulty: 'standard',
           question: 'Acids are substances that release hydrogen ions (H⁺) in aqueous solution, while.',

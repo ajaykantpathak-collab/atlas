@@ -6,13 +6,13 @@ import C12_PhysicsHuygensWavefrontsSim from '../../../simulations/three/C12_Phys
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicshuygenswavefrontssim: SimDef = {
     id: 'v3w_c12_physicshuygenswavefrontssim',
-    title: 'Huygens Wavefronts',
+    title: 'Huygens\' Principle: Wavefront Construction',
     subtitle: 'This node covers the definition of wavefront, types of wavefronts (spherical, plane),.',
     classLevel: 12, subject: 'physics', topic: 'Huygens\' Principle: Wavefront Construction',
     chapters: [],
     nodeIds: ['c12_phy_cbse_10_001', 'c12_phy_cbse_10_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe the circular ripples spreading outward when a pebble is dropped into a still pond — each ring is a.', goal: 'Master Huygens Wavefronts.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe the circular ripples spreading outward when a pebble is dropped into a still pond — each ring is a.', goal: 'Master Huygens\' Principle: Wavefront Construction.' },
     discovery: {
         question: 'Define a wavefront and state Huygens\' Principle in your own words. What is the shape of the wavefront from a point source in a homogeneous isotropic medium?',
         options: ['A wavefront is the locus of points oscillating in the same phase', 'wavefront is the path of a light ray', 'wavelets are planar'],
@@ -43,12 +43,12 @@ export const w_c12_physicshuygenswavefrontssim: SimDef = {
             { text: 'Verify: v₂ < c, r < i, λ₂ < λ₁ — all consistent with denser medium.', faded: true, blankAnswer: '(a) r ≈ 32.0°, (b) λ_water / λ_air = 0.75, (c) v_water =.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_10_002', title: 'Identify each idea',
-          dissect: { specimen: 'Huygens Wavefronts', spots: [
+          dissect: { specimen: 'Huygens\' Principle: Wavefront Construction', spots: [
             { id: 's1', label: 'A wavefront is the locus', prompt: 'Which idea is this? — A wavefront is the locus of all points in a medium that oscillate in the same phase at a.', answer: 'A wavefront is the locus', options: ['A wavefront is the locus', 'Huygens principle states that every'] },
             { id: 's2', label: 'Huygens principle states that every', prompt: 'Which idea is this? — Huygens\' principle states that every point on a wavefront acts as a source of secondary.', answer: 'Huygens principle states that every', options: ['Huygens principle states that every', 'A wavefront is the locus'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsHuygensWavefrontsSim, prompt: 'Explore the interactive — Huygens Wavefronts' },
+    explore: { component: C12_PhysicsHuygensWavefrontsSim, prompt: 'Explore the interactive — Huygens\' Principle: Wavefront Construction' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_10_001', difficulty: 'standard',
           question: 'A wavefront is the locus of all points in a medium that oscillate in the same.',

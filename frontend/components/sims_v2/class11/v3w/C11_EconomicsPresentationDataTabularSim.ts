@@ -6,13 +6,13 @@ import C11_EconomicsPresentationDataTabularSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_economicspresentationdatatabularsim: SimDef = {
     id: 'v3w_c11_economicspresentationdatatabularsim',
-    title: 'Presentation Data Tabular',
+    title: 'Environmental Degradation: Deforestation and Biodiversity Loss',
     subtitle: 'Covers: Causes of deforestation (commercial logging, shifting cultivation, encroachment,.',
     classLevel: 11, subject: 'economics', topic: 'Environmental Degradation: Deforestation and Biodiversity Loss',
     chapters: [],
     nodeIds: ['c11_eco_cbse_07_006', 'c11_eco_cbse_07_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a policy analyst in Madhya Pradesh where a mining company seeks clearance to divert 500.', goal: 'Master Presentation Data Tabular.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a policy analyst in Madhya Pradesh where a mining company seeks clearance to divert 500.', goal: 'Master Environmental Degradation: Deforestation and Biodiversity Loss.' },
     discovery: {
         question: 'Compare the biodiversity loss from two scenarios: (A) Clearing 1,000 hectares of contiguous primary forest for a highway, vs (B) Clearing 1,000 hectares of the.',
         options: ['Scenario B causes significantly greater biodiversity loss', 'same area cleared = same impact', 'poor people cutting trees for survival'],
@@ -47,12 +47,12 @@ export const w_c11_economicspresentationdatatabularsim: SimDef = {
             { text: 'But aggregate extraction: 10 million × 4.38 tonnes = 43.8 million tonnes/year.', faded: true, blankAnswer: '(a) Fuelwood: 18 MJ/day; LPG equivalent: 0.652 kg/day. (b).' }
             ] } },
         { type: 'dissect', nodeId: 'c11_eco_cbse_07_010', title: 'Identify each idea',
-          dissect: { specimen: 'Presentation Data Tabular', spots: [
+          dissect: { specimen: 'Environmental Degradation: Deforestation and Biodiversity Loss', spots: [
             { id: 's1', label: 'Deforestation is the permanent conversion', prompt: 'Which idea is this? — Deforestation is the permanent conversion of forest land to non-forest uses (agriculture,.', answer: 'Deforestation is the permanent conversion', options: ['Deforestation is the permanent conversion', 'Sustainable Development Policies and Programmes'] },
             { id: 's2', label: 'Sustainable Development Policies and Programmes', prompt: 'Which idea is this? — Sustainable Development Policies and Programmes in India refer to the specific government.', answer: 'Sustainable Development Policies and Programmes', options: ['Sustainable Development Policies and Programmes', 'Deforestation is the permanent conversion'] }
           ] } }
     ],
-    explore: { component: C11_EconomicsPresentationDataTabularSim, prompt: 'Explore the interactive — Presentation Data Tabular' },
+    explore: { component: C11_EconomicsPresentationDataTabularSim, prompt: 'Explore the interactive — Environmental Degradation: Deforestation and Biodiversity Loss' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eco_cbse_07_006', difficulty: 'standard',
           question: 'Deforestation is the permanent conversion of forest land to non-forest uses.',

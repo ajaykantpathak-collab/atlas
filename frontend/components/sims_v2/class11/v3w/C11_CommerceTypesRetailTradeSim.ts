@@ -6,13 +6,13 @@ import C11_CommerceTypesRetailTradeSim from '../../../simulations/c6_12/C11_Comm
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_commercetypesretailtradesim: SimDef = {
     id: 'v3w_c11_commercetypesretailtradesim',
-    title: 'Types Retail Trade',
+    title: 'Internal Trade: Meaning, Types and Importance',
     subtitle: 'This node covers the meaning, classification (wholesale vs retail), and economic.',
     classLevel: 11, subject: 'business_studies', topic: 'Internal Trade: Meaning, Types and Importance',
     chapters: [],
     nodeIds: ['c11_bs_cbse_10_001', 'c11_bs_cbse_10_002', 'c11_bs_cbse_10_003', 'c11_bs_cbse_10_008', 'c11_bs_cbse_10_011', 'c11_bs_cbse_01_007', 'c11_bs_cbse_10_006', 'c11_bs_cbse_10_009', 'c11_bs_cbse_10_004', 'c11_bs_cbse_10_005', 'c11_bs_cbse_10_007', 'c11_bs_cbse_01_004', 'c11_bs_cbse_01_005', 'c11_bs_cbse_01_006', 'c11_bs_cbse_01_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you walk into your neighbourhood kirana store to buy a packet of biscuits — that biscuit was.', goal: 'Master Types Retail Trade.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you walk into your neighbourhood kirana store to buy a packet of biscuits — that biscuit was.', goal: 'Master Internal Trade: Meaning, Types and Importance.' },
     discovery: {
         question: 'A farmer in Punjab sells wheat to a flour mill in Punjab. The flour mill sells flour to a wholesaler in Delhi. The wholesaler sells to a retailer in Mumbai.',
         options: ['All four transactions are internal trade', 'internal trade', 'local trade'],
@@ -84,7 +84,7 @@ export const w_c11_commercetypesretailtradesim: SimDef = {
             { text: 'Verify against definition: Trade = transfer of ownership; Internal = within national boundaries; Wholesale = to.', faded: true, blankAnswer: 'Transaction 1: Internal wholesale trade. Transaction 2:.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bs_cbse_10_002', title: 'Identify each idea',
-          dissect: { specimen: 'Types Retail Trade', spots: [
+          dissect: { specimen: 'Internal Trade: Meaning, Types and Importance', spots: [
             { id: 's1', label: 'Internal trade refers to the', prompt: 'Which idea is this? — Internal trade refers to the buying and selling of goods and services within the.', answer: 'Internal trade refers to the', options: ['Internal trade refers to the', 'Wholesale trade refers to the', 'Retail trade refers to the', 'Mail order houses are retail'] },
             { id: 's2', label: 'Wholesale trade refers to the', prompt: 'Which idea is this? — Wholesale trade refers to the purchase and sale of goods and services in large quantities.', answer: 'Wholesale trade refers to the', options: ['Wholesale trade refers to the', 'Internal trade refers to the', 'Retail trade refers to the', 'Mail order houses are retail'] },
             { id: 's3', label: 'Retail trade refers to the', prompt: 'Which idea is this? — Retail trade refers to the business activity of purchasing goods in relatively large.', answer: 'Retail trade refers to the', options: ['Retail trade refers to the', 'Internal trade refers to the', 'Wholesale trade refers to the', 'Mail order houses are retail'] },
@@ -92,7 +92,7 @@ export const w_c11_commercetypesretailtradesim: SimDef = {
             { id: 's5', label: 'Trade is the branch of', prompt: 'Which idea is this? — Trade is the branch of commerce concerned with the buying, selling, and exchange of goods.', answer: 'Trade is the branch of', options: ['Trade is the branch of', 'Internal trade refers to the', 'Wholesale trade refers to the', 'Retail trade refers to the'] }
           ] } }
     ],
-    explore: { component: C11_CommerceTypesRetailTradeSim, prompt: 'Explore the interactive — Types Retail Trade' },
+    explore: { component: C11_CommerceTypesRetailTradeSim, prompt: 'Explore the interactive — Internal Trade: Meaning, Types and Importance' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bs_cbse_10_001', difficulty: 'standard',
           question: 'Internal trade refers to the buying and selling of goods and services within.',

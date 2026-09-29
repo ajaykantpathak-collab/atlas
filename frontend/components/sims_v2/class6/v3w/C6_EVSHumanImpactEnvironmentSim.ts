@@ -6,13 +6,13 @@ import C6_EVSHumanImpactEnvironmentSim from '../../../simulations/c6_12/C6_EVSHu
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_evshumanimpactenvironmentsim: SimDef = {
     id: 'v3w_c6_evshumanimpactenvironmentsim',
-    title: 'Human Impact Environment',
+    title: 'Are All Changes Desirable? Good and Bad Changes',
     subtitle: 'This node covers the classification of changes based on utility and impact.',
     classLevel: 6, subject: 'evs', topic: 'Are All Changes Desirable? Good and Bad Changes',
     chapters: [],
     nodeIds: ['c6_chemistry_ch05_007', 'c6_geography_ch03_019', 'c6_geography_ch02_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever noticed that while you love the smell of a fresh, juicy mango, you feel sad when that same.', goal: 'Master Human Impact Environment.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever noticed that while you love the smell of a fresh, juicy mango, you feel sad when that same.', goal: 'Master Are All Changes Desirable? Good and Bad Changes.' },
     discovery: {
         question: 'Is the rusting of a bicycle chain a desirable or undesirable change? Why?',
         options: ['It is an undesirable change', 'desirable', '"fast" changes are desirable and "slow" changes are undesirable'],
@@ -48,7 +48,7 @@ export const w_c6_evshumanimpactenvironmentsim: SimDef = {
             { text: 'Protect the yield from moisture.', faded: true, blankAnswer: 'The farmer should hire extra help to harvest the crop.' }
             ] } }
     ],
-    explore: { component: C6_EVSHumanImpactEnvironmentSim, prompt: 'Explore the interactive — Human Impact Environment' },
+    explore: { component: C6_EVSHumanImpactEnvironmentSim, prompt: 'Explore the interactive — Are All Changes Desirable? Good and Bad Changes' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_chemistry_ch05_007', difficulty: 'standard',
           question: 'A change is considered "desirable" if it provides a benefit or fulfills a human.',

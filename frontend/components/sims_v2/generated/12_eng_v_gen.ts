@@ -131,7 +131,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter \"The",
+    "title": "Writing Skills: Based on the Chapter",
     "text": "Writing Skills based on the chapter \"The Third Level\" refers to the ability to compose structured, evidence-based responses (analytical, creative, and comparative) that demonstrate understanding of the text's themes (escapism, time-space intersection, reality",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
@@ -872,15 +872,13 @@ export const C12_ENG_V_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_eng_v_ch02",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch2: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch2: Before You Read: Context and Background"],
   "nodeIds": [
    "c12_eng_v_cbse_02_001",
    "c12_eng_v_cbse_02_002",
@@ -905,7 +903,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is \"Before You Read more about facts, or about reasoning?",
+   "question": "Is Before You Read: Context and more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -916,13 +914,13 @@ export const C12_ENG_V_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "The \"Before You Read: Context and Background\" section for \"The Tiger King\" provides essential historical, biographical, and literary framing to understand the story's satire.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Plot And Narrative Structure Refer To",
+    "title": "Plot And Narrative Structure",
     "text": "Plot and narrative structure refer to the organized sequence of events (plot) and the technique used to present them (narrative structure) in a story.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
@@ -994,7 +992,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter \"The",
+    "title": "Writing Skills: Based on the Chapter",
     "text": "Writing Skills based on the chapter \"The Tiger King\" refers to the ability to compose structured, evidence-based responses (analytical paragraphs, character sketches, thematic essays, and critical commentaries) that demonstrate understanding of the story's",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1662,11 +1660,11 @@ export const C12_ENG_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1722,7 +1720,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Plot And Narrative Structure In",
+    "title": "Plot And Narrative Structure",
     "text": "Plot and narrative structure in a non-fiction travelogue like \"Journey to the End of the Earth\" refers to the sequence of events (plot) and the artistic arrangement of those events (structure) to convey the author's physical journey, scientific insights, and",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1734,19 +1732,19 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist In",
+    "title": "Character Analysis Of The Protagonist",
     "text": "Character analysis of the protagonist in a first-person non-fiction travelogue involves examining the narrator's personality traits, motivations, emotional responses, and intellectual growth as revealed through their observations, reflections, and",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Supporting Characters In \"Journey To The",
+    "title": "Character Analysis: Supporting Characters",
     "text": "Supporting characters in \"Journey to the End of the Earth\" are the individuals who accompany the narrator on the Antarctic expedition and whose roles, perspectives, and actions illuminate the chapter's central themes of climate change, geological history, and",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Primary Theme Of \"Journey To The End Of The",
+    "title": "Theme: Primary Theme and Message",
     "text": "The primary theme of \"Journey to the End of the Earth\" is the interconnectedness of Earth's geological history, human impact, and ecological balance as revealed through Antarctica, conveying the message that understanding the planet's past is essential for",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1794,7 +1792,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Writing Skills Based On The",
+    "title": "Writing Skills Based On The Chapter",
     "text": "Writing Skills based on the chapter \"Journey to the End of the Earth\" refers to the ability to compose structured, evidence-based texts (articles, speeches, reports, letters, analytical paragraphs) that draw on the chapter's themes — climate change,",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3630,15 +3628,13 @@ export const C12_ENG_V_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_eng_v_ch05",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 5",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch5: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch5: Before You Read: Context and Background"],
   "nodeIds": [
    "c12_eng_v_cbse_05_001",
    "c12_eng_v_cbse_05_002",
@@ -3663,7 +3659,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if \"Before You Read suddenly stops working?",
+   "question": "What happens if Before You Read: Context and suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -3674,7 +3670,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "\"Before You Read: Context and Background\" is a pre-reading strategy that provides essential information about the author, genre, historical/literary context, setting, main characters, and the central thematic question of a text to activate prior knowledge and",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3752,7 +3748,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter \"On The",
+    "title": "Writing Skills: Based on the Chapter",
     "text": "Writing Skills based on the chapter \"On the Face of It\" refers to the ability to produce structured, evidence-based written responses (character sketches, theme analyses, diary entries, letters, articles, analytical paragraphs) that demonstrate understanding",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4390,25 +4386,23 @@ export const C12_ENG_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_v_ch06",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 6",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch6: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch6: Before You Read: Context and Background"],
   "nodeIds": [
    "c12_eng_v_cbse_06_001",
    "c12_eng_v_cbse_06_002",
@@ -4433,7 +4427,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses \"Before You Read in real working life?",
+   "question": "Who uses Before You Read: Context and in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -4444,7 +4438,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "The \"Before You Read: Context and Background\" section for \"Memories of Childhood\" provides the essential historical, cultural, and biographical framework for the two autobiographical narratives.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4522,7 +4516,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Writing Skills Based On \"Memories Of",
+    "title": "Writing Skills: Based on the Chapter",
     "text": "Writing Skills based on \"Memories of Childhood\" refers to the ability to compose structured, evidence-based responses — such as analytical essays, articles, speeches, letters, diary entries, and reports — that draw on the chapter's themes of marginalization,",
     "emoji": "📘",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -5023,11 +5017,11 @@ export const C12_ENG_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

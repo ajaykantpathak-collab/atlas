@@ -78,12 +78,12 @@ export const c7_engl_ch01_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-the-setting': { steps: ['Guide the student by asking: "If the village were located in a flat, dry desert instead of a coastal riverbank, would.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c7_engl_ch01_002', difficulty: 'standard',
-          question: 'Character analysis of Jahnavi examines her traits, actions, speech, desires.',
+          question: 'From \'English chapter c7_engl_ch01\': the skill or concept this node teaches.',
           hint: 'Review basic trait words (e.g., determined, resilient, curious) and match them to simple.',
           misconception: 'Students often confuse a character\'s external circumstances (like being poor or unable to attend school) with their.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of Jahnavi examines her traits, actions, speech, desires, and inner',
-                  options: ['Character analysis of Jahnavi examines her traits, actions, speech, desires, and inner', 'The story setting encompasses the physical location, environmental details, and cultural', 'Gender barriers to education refer to social, cultural, and economic obstacles that', 'Personification is a literary device where non-human things—such as a river, the wind, or'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c7_engl_ch01\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c7_engl_ch01\': the skill or concept this node teaches, applied to', 'The story setting encompasses the physical location, environmental details, and cultural', 'Gender barriers to education refer to social, cultural, and economic obstacles that', 'Personification is a literary device where non-human things—such as a river, the wind, or'],
                   hint: 'Review basic trait words (e.g., determined, resilient, curious) and match them to simple character.',
                   misconception: 'Students often confuse a character\'s external circumstances (like being poor or unable to attend school) with their internal character.' }
           ],
@@ -93,8 +93,8 @@ export const c7_engl_ch01_p1: SimDef = {
           hint: 'Review node c7_engl_ch01_002 to re-examine Jahnavi\'s dreams and what she hopes to learn.',
           misconception: 'Students often confuse gender barriers with simple financial poverty.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Gender barriers to education refer to social, cultural, and economic obstacles that',
-                  options: ['Gender barriers to education refer to social, cultural, and economic obstacles that', 'The story setting encompasses the physical location, environmental details, and cultural', 'Character analysis of Jahnavi examines her traits, actions, speech, desires, and inner', 'Personification is a literary device where non-human things—such as a river, the wind, or'],
+                { id: 'a', prompt: 'In the story, Jahnavi is denied schooling not because she lacks intelligence, but because of traditional family roles.', answer: 'Read the elder\'s statement carefully',
+                  options: ['Read the elder\'s statement carefully', 'the elder is just giving good practical advice'],
                   hint: 'Review node c7_engl_ch01_002 to re-examine Jahnavi\'s dreams and what she hopes to learn in school.',
                   misconception: 'Students often confuse gender barriers with simple financial poverty.' }
           ],
@@ -135,7 +135,7 @@ export const c7_engl_ch01_p1: SimDef = {
           misconception: 'Students often think that Jahnavi\'s conversation with the river is just a fairy-tale element meant to add magic.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The plot of Jahnavi\'s conversation with the river represents a pivotal narrative turning',
-                  options: ['The plot of Jahnavi\'s conversation with the river represents a pivotal narrative turning', 'The story setting encompasses the physical location, environmental details, and cultural', 'Character analysis of Jahnavi examines her traits, actions, speech, desires, and inner', 'Gender barriers to education refer to social, cultural, and economic obstacles that'],
+                  options: ['The plot of Jahnavi\'s conversation with the river represents a pivotal narrative turning', 'The story setting encompasses the physical location, environmental details, and cultural', 'From \'English chapter c7_engl_ch01\': the skill or concept this node teaches, applied to', 'Gender barriers to education refer to social, cultural, and economic obstacles that'],
                   hint: 'Review node c7_engl_ch01_004 on personification and how authors use nature as a character.',
                   misconception: 'Students often think that Jahnavi\'s conversation with the river is just a fairy-tale element meant to add magic, completely missing its.' }
           ],
@@ -146,7 +146,7 @@ export const c7_engl_ch01_p1: SimDef = {
           misconception: 'Students often think that a character has courage only if they perform a loud, dramatic, or physically dangerous act.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The theme of courage to pursue one\'s dreams explores a character\'s inner strength,',
-                  options: ['The theme of courage to pursue one\'s dreams explores a character\'s inner strength,', 'The story setting encompasses the physical location, environmental details, and cultural', 'Character analysis of Jahnavi examines her traits, actions, speech, desires, and inner', 'Gender barriers to education refer to social, cultural, and economic obstacles that'],
+                  options: ['The theme of courage to pursue one\'s dreams explores a character\'s inner strength,', 'The story setting encompasses the physical location, environmental details, and cultural', 'From \'English chapter c7_engl_ch01\': the skill or concept this node teaches, applied to', 'Gender barriers to education refer to social, cultural, and economic obstacles that'],
                   hint: 'Review node c7_engl_ch01_002 to remind yourself of Jahnavi\'s core dream and the barriers in her way.',
                   misconception: 'Students often think that a character has courage only if they perform a loud, dramatic, or physically dangerous act.' }
           ],

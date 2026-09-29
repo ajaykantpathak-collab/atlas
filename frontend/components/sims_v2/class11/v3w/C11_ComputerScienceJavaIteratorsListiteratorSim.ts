@@ -6,13 +6,13 @@ import C11_ComputerScienceJavaIteratorsListiteratorSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_computersciencejavaiteratorslistiteratorsim: SimDef = {
     id: 'v3w_c11_computersciencejavaiteratorslistiteratorsim',
-    title: 'Java Iterators Listiterator',
+    title: 'for Loop and the range() Function',
     subtitle: 'This node covers the syntax and semantics of the `for` loop, the `range()` function with.',
     classLevel: 11, subject: 'computer_science', topic: 'for Loop and the range() Function',
     chapters: [],
     nodeIds: ['c11_cs_cbse_05_009', 'c11_cs_cbse_07_011', 'c11_cs_cbse_05_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you need to print "Happy Birthday" 5 times for a classmate\'s card.', goal: 'Master Java Iterators Listiterator.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you need to print "Happy Birthday" 5 times for a classmate\'s card.', goal: 'Master for Loop and the range() Function.' },
     discovery: {
         question: 'What is the exact output of the following code snippet? ```python for val in range(2, 10, 3): print(val, end=\' \') ```',
         options: ['Correct output: `2 5 8 ` (with a trailing space)', 'the stop value is inclusive', 'start defaults to 0 even when two arguments are given'],
@@ -52,13 +52,13 @@ export const w_c11_computersciencejavaiteratorslistiteratorsim: SimDef = {
             { text: 'Test with roll `110` (exists) and roll `999` (does not exist). Verify that the `else` block runs only for `999`.', faded: true, blankAnswer: 'For input 110 → "Assignment submitted". For input 999 →.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_cs_cbse_07_011', title: 'Identify each idea',
-          dissect: { specimen: 'Java Iterators Listiterator', spots: [
+          dissect: { specimen: 'for Loop and the range() Function', spots: [
             { id: 's1', label: 'A for loop in Python', prompt: 'Which idea is this? — A `for` loop in Python is a definite iteration construct that executes a block of code.', answer: 'A for loop in Python', options: ['A for loop in Python', 'Traversing a dictionary using loops', 'In Python the else clause'] },
             { id: 's2', label: 'Traversing a dictionary using loops', prompt: 'Which idea is this? — Traversing a dictionary using loops is the process of systematically accessing each.', answer: 'Traversing a dictionary using loops', options: ['Traversing a dictionary using loops', 'A for loop in Python', 'In Python the else clause'] },
             { id: 's3', label: 'In Python the else clause', prompt: 'Which idea is this? — In Python, the `else` clause attached to a `for` or `while` loop executes exactly once.', answer: 'In Python the else clause', options: ['In Python the else clause', 'A for loop in Python', 'Traversing a dictionary using loops'] }
           ] } }
     ],
-    explore: { component: C11_ComputerScienceJavaIteratorsListiteratorSim, prompt: 'Explore the interactive — Java Iterators Listiterator' },
+    explore: { component: C11_ComputerScienceJavaIteratorsListiteratorSim, prompt: 'Explore the interactive — for Loop and the range() Function' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_cs_cbse_05_009', difficulty: 'standard',
           question: 'A `for` loop in Python is a definite iteration construct that executes a block.',

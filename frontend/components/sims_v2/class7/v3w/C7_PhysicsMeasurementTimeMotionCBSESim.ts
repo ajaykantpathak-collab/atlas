@@ -6,13 +6,13 @@ import C7_PhysicsMeasurementTimeMotionCBSESim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_physicsmeasurementtimemotioncbsesim: SimDef = {
     id: 'v3w_c7_physicsmeasurementtimemotioncbsesim',
-    title: 'Measurement Time Motion CBSE',
+    title: 'Units of Speed and Their Conversions',
     subtitle: 'Covers the mathematical conversion between kilometres per hour and metres per second for.',
     classLevel: 7, subject: 'physics', topic: 'Units of Speed and Their Conversions',
     chapters: [],
     nodeIds: ['c7_physics_ch04_010', 'c7_physics_ch04_002', 'c7_physics_ch04_004', 'c7_physics_ch04_005', 'c7_physics_ch04_006', 'c7_physics_ch04_007', 'c7_physics_ch04_008', 'c7_physics_ch04_009', 'c7_physics_ch04_001', 'c7_physics_ch04_003', 'c7_physics_ch01_007', 'c7_physics_ch06_002', 'c7_physics_ch06_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine riding a bicycle down an Indian village road where the speedometer or milestone markers indicate.', goal: 'Master Measurement Time Motion CBSE.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine riding a bicycle down an Indian village road where the speedometer or milestone markers indicate.', goal: 'Master Units of Speed and Their Conversions.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Speed can be expressed in different units.', text: 'Speed can be expressed in different units such as metres per second ($\\text{m/s}$) or kilometres per hour ($\\text{km/h}$), where the Standard International (SI) unit is metres per second.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -73,7 +73,7 @@ export const w_c7_physicsmeasurementtimemotioncbsesim: SimDef = {
             { text: 'Compute the numerical value and cancel the units ($\\text{m/s} \\times \\text{s} = \\text{m}$): $d = 2400 \\text{ m}$.', faded: true, blankAnswer: '2400 m' }
             ] } },
         { type: 'dissect', nodeId: 'c7_physics_ch04_002', title: 'Identify each idea',
-          dissect: { specimen: 'Measurement Time Motion CBSE', spots: [
+          dissect: { specimen: 'Units of Speed and Their Conversions', spots: [
             { id: 's1', label: 'Speed can be expressed in', prompt: 'Which idea is this? — Speed can be expressed in different units such as metres per second ($\\text{m/s}$) or.', answer: 'Speed can be expressed in', options: ['Speed can be expressed in', 'A simple pendulum consists of', 'Modern timekeeping devices such as', 'Comparing speeds involves determining which'] },
             { id: 's2', label: 'A simple pendulum consists of', prompt: 'Which idea is this? — A simple pendulum consists of a small metallic ball (called the bob) suspended from a.', answer: 'A simple pendulum consists of', options: ['A simple pendulum consists of', 'Speed can be expressed in', 'Modern timekeeping devices such as', 'Comparing speeds involves determining which'] },
             { id: 's3', label: 'Modern timekeeping devices such as', prompt: 'Which idea is this? — Modern timekeeping devices, such as quartz clocks, digital watches, and electronic.', answer: 'Modern timekeeping devices such as', options: ['Modern timekeeping devices such as', 'Speed can be expressed in', 'A simple pendulum consists of', 'Comparing speeds involves determining which'] },
@@ -82,7 +82,7 @@ export const w_c7_physicsmeasurementtimemotioncbsesim: SimDef = {
             { id: 's6', label: 'The mathematical relationship between speed', prompt: 'Which idea is this? — The mathematical relationship between speed ($v$), distance ($d$), and time ($t$) states.', answer: 'The mathematical relationship between speed', options: ['The mathematical relationship between speed', 'Speed can be expressed in', 'A simple pendulum consists of', 'Modern timekeeping devices such as'] }
           ] } }
     ],
-    explore: { component: C7_PhysicsMeasurementTimeMotionCBSESim, prompt: 'Explore the interactive — Measurement Time Motion CBSE' },
+    explore: { component: C7_PhysicsMeasurementTimeMotionCBSESim, prompt: 'Explore the interactive — Units of Speed and Their Conversions' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_physics_ch04_010', difficulty: 'standard',
           question: 'Speed can be expressed in different units such as metres per second.',

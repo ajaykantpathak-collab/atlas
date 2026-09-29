@@ -17,9 +17,13 @@ from typing import List, Optional
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 from pydantic import BaseModel
 
+import logging
+
 from backend.deps import get_current_user_optional
 from backend.models.user import User
 from backend.services.graph_service import GraphService
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api/graph", tags=["graph"])
 
@@ -50,9 +54,10 @@ async def get_graph_stats():
     try:
         return await GraphService.get_stats()
     except Exception as e:
+        logger.warning("graph endpoint degraded, neo4j error: %s", e)
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail=f"Neo4j unavailable: {str(e)}",
+            detail="Knowledge graph temporarily unavailable",
         )
 
 
@@ -60,7 +65,8 @@ async def get_graph_stats():
 async def get_node(node_id: str):
     """Get a single knowledge node by its node_id."""
     node = await GraphService.get_node(node_id)
-    if node is None:
+    # An empty dict is as good as absent — never 200 on an unknown node.
+    if not node:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail=f"Node '{node_id}' not found",
@@ -79,9 +85,10 @@ async def get_nodes_by_class(
         nodes = await GraphService.get_nodes_by_class(board, class_level, subject)
         return {"nodes": nodes, "count": len(nodes)}
     except Exception as e:
+        logger.warning("graph endpoint degraded, neo4j error: %s", e)
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail=f"Neo4j unavailable: {str(e)}",
+            detail="Knowledge graph temporarily unavailable",
         )
 
 
@@ -95,9 +102,10 @@ async def search_nodes(
         nodes = await GraphService.search_nodes(q, limit)
         return {"nodes": nodes, "count": len(nodes), "query": q}
     except Exception as e:
+        logger.warning("graph endpoint degraded, neo4j error: %s", e)
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail=f"Neo4j unavailable: {str(e)}",
+            detail="Knowledge graph temporarily unavailable",
         )
 
 
@@ -115,9 +123,10 @@ async def get_prerequisites(
         prereqs = await GraphService.get_all_prerequisites(node_id, max_depth)
         return {"node_id": node_id, "prerequisites": prereqs, "count": len(prereqs)}
     except Exception as e:
+        logger.warning("graph endpoint degraded, neo4j error: %s", e)
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail=f"Neo4j unavailable: {str(e)}",
+            detail="Knowledge graph temporarily unavailable",
         )
 
 
@@ -131,9 +140,10 @@ async def get_unlocks(
         unlocks = await GraphService.get_all_unlocks(node_id, max_depth)
         return {"node_id": node_id, "unlocks": unlocks, "count": len(unlocks)}
     except Exception as e:
+        logger.warning("graph endpoint degraded, neo4j error: %s", e)
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail=f"Neo4j unavailable: {str(e)}",
+            detail="Knowledge graph temporarily unavailable",
         )
 
 
@@ -147,9 +157,10 @@ async def get_related(node_id: str):
         related = await GraphService.get_related_nodes(node_id)
         return {"node_id": node_id, "related": related, "count": len(related)}
     except Exception as e:
+        logger.warning("graph endpoint degraded, neo4j error: %s", e)
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail=f"Neo4j unavailable: {str(e)}",
+            detail="Knowledge graph temporarily unavailable",
         )
 
 
@@ -172,9 +183,10 @@ async def find_gaps(req: GapAnalysisRequest):
             "root_gap_count": len(root_gaps),
         }
     except Exception as e:
+        logger.warning("graph endpoint degraded, neo4j error: %s", e)
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail=f"Neo4j unavailable: {str(e)}",
+            detail="Knowledge graph temporarily unavailable",
         )
 
 
@@ -196,9 +208,10 @@ async def get_learning_path(req: LearningPathRequest):
             "steps": len(path),
         }
     except Exception as e:
+        logger.warning("graph endpoint degraded, neo4j error: %s", e)
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail=f"Neo4j unavailable: {str(e)}",
+            detail="Knowledge graph temporarily unavailable",
         )
 
 
@@ -213,7 +226,8 @@ async def get_graph_for_visualization(
         graph = await GraphService.get_graph_for_visualization(board, class_level, subject)
         return graph
     except Exception as e:
+        logger.warning("graph endpoint degraded, neo4j error: %s", e)
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail=f"Neo4j unavailable: {str(e)}",
+            detail="Knowledge graph temporarily unavailable",
         )

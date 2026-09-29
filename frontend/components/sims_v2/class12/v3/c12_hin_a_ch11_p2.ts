@@ -19,7 +19,7 @@ export const c12_hin_a_ch11_p2: SimDef = {
         hook: 'Reading all three as \'social reform tales\' flattens his evolution — Kafan\'s Ghisu-Madhav aren\'t just poor, they\'re a verdict on a system. And his nine-language reach lives inside the prose: rustic village speech beside Sanskritised commentary is strategy, not inconsistency.',
     },
     teaching: [
-        { title: 'सुमरिनिी के मनके — गौण विषय', text: 'गौण विषय वह आधारभूत विचार या संदेश है जो मुख्य विषय को सपोर्ट करता है, सीधे-केंद्रित नहीं बल्कि अप्रत्यक्ष रूप से पात्रों, घटनाओं या संवादों के माध्यम से उभरता है, और कहानी की गहराई और बहुआयामीता.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'सुमरिनिी के मनके — गौण विषय', text: '\'अंतरा भाग-2 — पाठ 11\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_11_007', title: 'Your mission',
@@ -28,6 +28,25 @@ export const c12_hin_a_ch11_p2: SimDef = {
         context: 'Read Premchand across his own evolution: separate the reformer\'s hope from the disillusioned analyst, weigh resignation as authorial act, and test whether education alone transforms material life.',
         labels: ['सुमरिनिी के मनके —'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_11_007', title: 'सुमरिनिी के मनके — गौण विषय',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 11\' में अंतरा-भाग-2-—-पाठ-11 जैसे सहायक विचार आते हैं।',
+            decisions: [{ prompt: 'Define "secondary theme" in your own words and give one example from any story you have read previously.', options: [
+                { text: 'A secondary theme is a supporting idea that complements the main theme, often explored', outcome: 'A secondary theme is a supporting idea that complements the main theme, often explored through.' },
+                { text: 'school', outcome: 'Not quite — Students often treat **topics** as themes. For example, they write "The secondary theme.', reveals: 'students-often-treat-topics-as' },
+                { text: 'family', outcome: 'Not quite — Students often treat **topics** as themes. For example, they write "The secondary theme.', reveals: 'students-often-treat-topics-as' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_11_009', title: 'सुमरिनिी के मनके — साहित्यिक युक्तियाँ: विरोधाभास और प्रतीक',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 11\' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।',
+            decisions: [{ prompt: 'Define situational irony and give one example from "काका साहब" where the outcome contradicts the characters\' expectations.', options: [
+                { text: 'Situational irony occurs when actions produce an outcome opposite to what was intended or', outcome: 'Situational irony occurs when actions produce an outcome opposite to what was intended or expected.' },
+                { text: 'irony is just sarcasm', outcome: 'Not quite — Students conflate irony with mere coincidence or bad luck (e.g., "it\'s ironic that the boy ran away.', reveals: 'students-conflate-irony-with-mere' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_11_010', title: 'सुमरिनिी के मनके — पदावली: मुख्य शब्द',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 11\' के मुख्य शब्द: अंतरा-भाग-2-—-पाठ-11 — इनका अर्थ जानिए।',
+            decisions: [{ prompt: 'List any five key words from the story "ckyd cp x;k" along with their meanings as provided in the textbook\'s vocabulary section.', options: [
+                { text: 'Correct answer: Any five from the list, e.g., okf"kZdksRlo (lkykuk tylk), uqekb\'k', outcome: 'Correct answer: Any five from the list, e.g., okf"kZdksRlo (lkykuk tylk), uqekb\'k (izn\'kZuh].' },
+                { text: 'dksYgw = car', outcome: 'Not quite — Students treat the vocabulary list as a memorization task: "word = meaning".', reveals: 'students-treat-the-vocabulary-list' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_11_007', title: 'Use it in the wild',
           caseStudy: { intro: 'At a school internship, a tribal scholarship boy refuses to recite the expected answers or name the textbook he was handed — he just says he belongs to the wild and slips away. The staff room has already filed him as \'difficult, unteachable.\'',
             decisions: [{ prompt: 'What does the story \'बालक बच गया\' read in his refusal?', options: [
@@ -47,67 +66,78 @@ export const c12_hin_a_ch11_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_11_007', difficulty: 'standard',
-          question: 'गौण विषय वह आधारभूत विचार या संदेश है जो मुख्य विषय को सपोर्ट करता है.',
-          hint: 'यदि मुख्य विषय की पहचान में कठिनाई हो, तो c12_hin_a_cbse_11_006 (मुख्य विषय और संदेश) नोड.',
-          misconception: 'छात्र अक्सर गौण विषय को मुख्य विषय का \'उप-विषय\' या \'घटक\' मानते हैं, जैसे कि यदि मुख्य विषय \'संघर्ष\' है तो गौण विषय.',
+          question: '\'अंतरा भाग-2 — पाठ 11\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
+          hint: 'If stuck on topic vs. theme, review the "Theme vs. Topic" exercise in Class 11 node.',
+          misconception: 'Students often treat **topics** as themes. For example, they write "The secondary theme is *school*" or "*time*".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण विषय वह आधारभूत विचार या संदेश है जो मुख्य विषय को सपोर्ट करता है, सीधे-केंद्रित नहीं',
-                  options: ['गौण विषय वह आधारभूत विचार या संदेश है जो मुख्य विषय को सपोर्ट करता है, सीधे-केंद्रित नहीं', '\'सुमिरनी के मनके\' सुप्रसिद्ध कथाकार **मैत्रेयी पुष्पा** द्वारा रचित एक **आंचलिक उपन्यास**', '\'कथानक\' (Plot) कहानी की घटनाओं का कारण-परिणाम-आधारित तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश वह ऐतिहासिक, सामाजिक, सांस्कृतिक और भौतिक परिस्थिति है जिसमें कोई पाठ लिखा'],
-                  hint: 'यदि मुख्य विषय की पहचान में कठिनाई हो, तो c12_hin_a_cbse_11_006 (मुख्य विषय और संदेश) नोड पर वापस.',
-                  misconception: 'छात्र अक्सर गौण विषय को मुख्य विषय का \'उप-विषय\' या \'घटक\' मानते हैं, जैसे कि यदि मुख्य विषय \'संघर्ष\' है तो गौण विषय सिर्फ \'संघर्ष के प्रकार\'.' }
+                { id: 'a', prompt: 'Read this new paragraph: "The headmaster checked the attendance register every morning.', answer: '**Secondary theme:** "Institutional power enforces conformity through public',
+                  options: ['**Secondary theme:** "Institutional power enforces conformity through public', 'punishment is bad'],
+                  hint: 'If stuck on topic vs. theme, review the "Theme vs. Topic" exercise in Class 11 node.',
+                  misconception: 'Students often treat **topics** as themes. For example, they write "The secondary theme is *school*" or "*time*" instead of "The secondary.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['यदि छात्र गौण विषय को मुख्य विषय का mere subset मान रहे हैं, तो उन्हें इस अभ्यास से शुरू करवाइए: (1) पाठ से एक ऐसा क्षण.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-topics-as': { steps: ['**Revisit Node 006 (Primary Theme):** Reread the primary theme analysis.', 'Write one sentence distinguishing primary vs.', 'secondary theme using the analogy: "Primary theme = the trunk of the tree; secondary themes = branches." 2.', '**Re-read the Three Stories with a "Theme Hunt" Lens:** For each story, fill a 3-column table: *Episode/Detail* |.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_11_007', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often treat **topics** as themes. For example, they write "The secondary theme is *school*" or "*time*".',
+          parts: [
+                { id: 'a', prompt: 'Critique the view that the secondary theme of "fear" in "क्यद भागा" is more effectively conveyed than the secondary theme of "fatalism" in "सीस पूँछ एक".', answer: '**Judgment:** The theme of fear is more effectively conveyed',
+                  options: ['**Judgment:** The theme of fear is more effectively conveyed', 'I liked the first story more'],
+                  hint: 'If stuck on topic vs. theme, review the "Theme vs. Topic" exercise in Class 11 node.',
+                  misconception: 'Students often treat **topics** as themes. For example, they write "The secondary theme is *school*" or "*time*" instead of "The secondary.' }
+          ],
+            remediations: { 'students-often-treat-topics-as': { steps: ['**Revisit Node 006 (Primary Theme):** Reread the primary theme analysis.', 'Write one sentence distinguishing primary vs.', 'secondary theme using the analogy: "Primary theme = the trunk of the tree; secondary themes = branches." 2.', '**Re-read the Three Stories with a "Theme Hunt" Lens:** For each story, fill a 3-column table: *Episode/Detail* |.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_11_008', difficulty: 'standard',
-          question: 'बिंब वह शब्द या वाक्यांश है जो पाठ में किसी वस्तु, व्यक्ति या भावना की स्पष्ट.',
+          question: '\'अंतरा भाग-2 — पाठ 11\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
           hint: 'यदि फंसे तो Class 11 के अलंकार (बिंब और रूपक) के podstawिक definiions को दोहराएँ।',
           misconception: 'छात्र अक्सर मानते हैं कि बिंब और रूपक एक ही चीज़ हैं क्योंकि दोनों में "तुलना" या "चित्रण" शामिल होता है, और इसलिए वे.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बिंब वह शब्द या वाक्यांश है जो पाठ में किसी वस्तु, व्यक्ति या भावना की स्पष्ट,',
-                  options: ['बिंब वह शब्द या वाक्यांश है जो पाठ में किसी वस्तु, व्यक्ति या भावना की स्पष्ट,', '\'सुमिरनी के मनके\' सुप्रसिद्ध कथाकार **मैत्रेयी पुष्पा** द्वारा रचित एक **आंचलिक उपन्यास**', '\'कथानक\' (Plot) कहानी की घटनाओं का कारण-परिणाम-आधारित तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश वह ऐतिहासिक, सामाजिक, सांस्कृतिक और भौतिक परिस्थिति है जिसमें कोई पाठ लिखा'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 11\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
+                  options: ['\'अंतरा भाग-2 — पाठ 11\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 11\' का कथानक — \'अंतरा भाग-2 — पाठ 11\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 11\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि फंसे तो Class 11 के अलंकार (बिंब और रूपक) के podstawिक definiions को दोहराएँ।',
                   misconception: 'छात्र अक्सर मानते हैं कि बिंब और रूपक एक ही चीज़ हैं क्योंकि दोनों में "तुलना" या "चित्रण" शामिल होता है, और इसलिए वे किसी वाक्य में उपमा.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को दो अलग-अलग वाक्य दीजिए: एक शुद्ध बिंब ("नील आकाश में चमकता सूरज") और एक शुद्ध रूपक ("वह सूरज है")। पहले उनसे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_11_009', difficulty: 'standard',
-          question: 'विरोधाभास वह साहित्यिक युक्ति है जिसमें शब्दों का प्रत्यक्ष अर्थ और निहित अर्थ.',
-          hint: 'यदि फंस रहे हैं, तो c12_hin_a_cbse_11_008 (बिंब और रूपक) की समीक्षा करें, क्योंकि.',
-          misconception: 'छात्र अक्सर विरोधाभास को केवल वाक्य के शब्दों के उल्टा अर्थ (जैसे "अच्छा" कहकर "बुरा" मतलब लेना) मान लेते हैं, जबकि.',
+          question: '\'अंतरा भाग-2 — पाठ 11\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+          hint: 'If stuck on "is this irony or just contrast?", return to Class 11 node.',
+          misconception: 'Students conflate irony with mere coincidence or bad luck (e.g., "it\'s ironic that the boy ran away and got lost" —.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'विरोधाभास वह साहित्यिक युक्ति है जिसमें शब्दों का प्रत्यक्ष अर्थ और निहित अर्थ एक-दूसरे',
-                  options: ['विरोधाभास वह साहित्यिक युक्ति है जिसमें शब्दों का प्रत्यक्ष अर्थ और निहित अर्थ एक-दूसरे', '\'सुमिरनी के मनके\' सुप्रसिद्ध कथाकार **मैत्रेयी पुष्पा** द्वारा रचित एक **आंचलिक उपन्यास**', '\'कथानक\' (Plot) कहानी की घटनाओं का कारण-परिणाम-आधारित तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश वह ऐतिहासिक, सामाजिक, सांस्कृतिक और भौतिक परिस्थिति है जिसमें कोई पाठ लिखा'],
-                  hint: 'यदि फंस रहे हैं, तो c12_hin_a_cbse_11_008 (बिंब और रूपक) की समीक्षा करें, क्योंकि विरोधाभास अक्सर.',
-                  misconception: 'छात्र अक्सर विरोधाभास को केवल वाक्य के शब्दों के उल्टा अर्थ (जैसे "अच्छा" कहकर "बुरा" मतलब लेना) मान लेते हैं, जबकि सुमरिनिी के मनके में.' }
+                { id: 'a', prompt: 'Explain in your own words why the spectacles (ऐनक) in "आंखों की झूठी गवाही" function as a symbol, not just a plot device.', answer: 'The spectacles symbolize specialized knowledge that gatekeeps truth',
+                  options: ['The spectacles symbolize specialized knowledge that gatekeeps truth', 'spectacles help the old man see'],
+                  hint: 'If stuck on "is this irony or just contrast?", return to Class 11 node c11_hin_ar_cbse_11_009 and.',
+                  misconception: 'Students conflate irony with mere coincidence or bad luck (e.g., "it\'s ironic that the boy ran away and got lost" — no, that\'s just.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र से कहिए: "इस वाक्य को दो बार पढ़िए—एक बार सिर्फ शब्दों के अनुसार, दूसरी बार पात्र की आँखों, हाथों और surroundings.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-conflate-irony-with-mere': { steps: ['Re-read "काका साहब" marking every moment where a character\'s statement contradicts their action or the outcome — label.', 'List all objects appearing in all three stories; for each, ask "Does this represent an abstract idea beyond its.', 'Write one paragraph per device using the template: "In [story], [device] appears when [context].', 'Compare your analysis with the model answers in node c12_hin_a_cbse_11_013 (Critical Thinking).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_11_010', difficulty: 'standard',
-          question: 'पदावली: मुख्य शब्द उन महत्वपूर्ण शब्दों को कहते हैं जो पाठ के केंद्रीय विषय.',
-          hint: 'यदि फंसे तो पाठ के कथानक-संरचना (c12_hin_a_cbse_11_002) और प्रमुख पात्र-चित्रण.',
-          misconception: 'छात्र अक्सर मुख्य शब्दों को केवल उनके शब्दकोश अर्थ तक सीमित रखते हैं और पाठ के संदर्भ में उनके भावात्मक, प्रतीकात्मक या.',
+          question: '\'अंतरा भाग-2 — पाठ 11\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
+          hint: 'If stuck, review the "context clues" strategy from Class 11 (c11_hin_ar_cbse_01_010).',
+          misconception: 'Students treat the vocabulary list as a memorization task: "word = meaning".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली: मुख्य शब्द उन महत्वपूर्ण शब्दों को कहते हैं जो पाठ के केंद्रीय विषय, भाव या संदेश',
-                  options: ['पदावली: मुख्य शब्द उन महत्वपूर्ण शब्दों को कहते हैं जो पाठ के केंद्रीय विषय, भाव या संदेश', '\'सुमिरनी के मनके\' सुप्रसिद्ध कथाकार **मैत्रेयी पुष्पा** द्वारा रचित एक **आंचलिक उपन्यास**', '\'कथानक\' (Plot) कहानी की घटनाओं का कारण-परिणाम-आधारित तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश वह ऐतिहासिक, सामाजिक, सांस्कृतिक और भौतिक परिस्थिति है जिसमें कोई पाठ लिखा'],
-                  hint: 'यदि फंसे तो पाठ के कथानक-संरचना (c12_hin_a_cbse_11_002) और प्रमुख पात्र-चित्रण.',
-                  misconception: 'छात्र अक्सर मुख्य शब्दों को केवल उनके शब्दकोश अर्थ तक सीमित रखते हैं और पाठ के संदर्भ में उनके भावात्मक, प्रतीकात्मक या द्विआर्थी अर्थ को.' }
+                { id: 'a', prompt: 'In "?kM+h osQ iq”ksZ", the author writes "n`"Vkar" (mnkgj.k) when explaining why he gives the example of the watch.', answer: 'Everyday "mnkgj.k" is a simple illustration',
+                  options: ['Everyday "mnkgj.k" is a simple illustration', 'both mean the same thing', 'illustration', 'evidence'],
+                  hint: 'If stuck, review the "context clues" strategy from Class 11 (c11_hin_ar_cbse_01_010): look for.',
+                  misconception: 'Students treat the vocabulary list as a memorization task: "word = meaning".' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को पाठ से एक वाक्य देकर पूछिए कि इस वाक्य में कौन सा शब्द भाव सबसे अधिक ले रहा है और क्यों; फिर शब्दकोश अर्थ और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-the-vocabulary-list': { steps: ['Re-read the specific paragraph where the word appears.', 'Cover the glossary; write your own contextual meaning in Hindi.', 'Compare with the textbook glossary — note every difference in nuance.', 'Write two sentences: one using the dictionary meaning, one using the contextual meaning.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_11_011', difficulty: 'standard',
-          question: 'पाठ में भाषा-प्रयोग से तात्पर्य उस पाठ में प्रयुक्त हिन्दी व्याकरण के नियमों.',
+          question: '\'अंतरा भाग-2 — पाठ 11\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य.',
           hint: 'यदि छात्र समास के प्रकारों की पहचान में भ्रमित है, तो वे c11_hin_a_cbse_11_011節を復習し、特に.',
           misconception: 'छात्र frecuentemente यह मानते हैं कि यदि दो शब्द एक साथ लिखे गए हैं (जैसे \'सुमरिनिी\'), तो उनका अवश्य कोई समास होगा.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ में भाषा-प्रयोग से तात्पर्य उस पाठ में प्रयुक्त हिन्दी व्याकरण के नियमों, जैसे संधि,',
-                  options: ['पाठ में भाषा-प्रयोग से तात्पर्य उस पाठ में प्रयुक्त हिन्दी व्याकरण के नियमों, जैसे संधि,', '\'सुमिरनी के मनके\' सुप्रसिद्ध कथाकार **मैत्रेयी पुष्पा** द्वारा रचित एक **आंचलिक उपन्यास**', '\'कथानक\' (Plot) कहानी की घटनाओं का कारण-परिणाम-आधारित तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश वह ऐतिहासिक, सामाजिक, सांस्कृतिक और भौतिक परिस्थिति है जिसमें कोई पाठ लिखा'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 11\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली',
+                  options: ['\'अंतरा भाग-2 — पाठ 11\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 11\' का कथानक — \'अंतरा भाग-2 — पाठ 11\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 11\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि छात्र समास के प्रकारों की पहचान में भ्रमित है, तो वे c11_hin_a_cbse_11_011節を復習し、特に तत्पुरुष और.',
                   misconception: 'छात्र frecuentemente यह मानते हैं कि यदि दो शब्द एक साथ लिखे गए हैं (जैसे \'सुमरिनिी\'), तो उनका अवश्य कोई समास होगा — जबकि वास्तव में, कुछ.' }
           ],
             remediations: { 'frecuentemente': { steps: ['छात्र को दिखाइए कि शब्दकोश में \'सुमरिनिी\' कैसे दिया गया है — यदि यह एक अटूट शब्द (अव्यय) के रूप में आता है, तो сначала.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_11_012', difficulty: 'standard',
-          question: 'वस्तुनिष्ठ बोध-प्रश्न वे प्रश्न हैं जिनका उत्तर पाठ में स्पष्टतः दिए गए तथ्यों.',
+          question: '\'अंतरा भाग-2 — पाठ 11\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
           hint: 'यदि प्रतीक-व्याख्या में अटके तो **c12_hin_a_cbse_11_008 (बिंब-रूपक) और.',
           misconception: '**विशिष्ट भ्रांति:** *"आशय-सूचक प्रश्न का उत्तर देने के लिए पाठ की पंक्तियाँ याद करके उद्धृत करना ही पर्याप्त है; अपनी.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ बोध-प्रश्न वे प्रश्न हैं जिनका उत्तर पाठ में स्पष्टतः दिए गए तथ्यों, घटनाओं,',
-                  options: ['वस्तुनिष्ठ बोध-प्रश्न वे प्रश्न हैं जिनका उत्तर पाठ में स्पष्टतः दिए गए तथ्यों, घटनाओं,', '\'सुमिरनी के मनके\' सुप्रसिद्ध कथाकार **मैत्रेयी पुष्पा** द्वारा रचित एक **आंचलिक उपन्यास**', '\'कथानक\' (Plot) कहानी की घटनाओं का कारण-परिणाम-आधारित तार्किक क्रम है, जबकि', 'पाठ्य-परिवेश वह ऐतिहासिक, सामाजिक, सांस्कृतिक और भौतिक परिस्थिति है जिसमें कोई पाठ लिखा'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 11\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
+                  options: ['\'अंतरा भाग-2 — पाठ 11\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 11\' का कथानक — \'अंतरा भाग-2 — पाठ 11\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 11\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि प्रतीक-व्याख्या में अटके तो **c12_hin_a_cbse_11_008 (बिंब-रूपक) और c12_hin_a_cbse_11_009.',
                   misconception: '**विशिष्ट भ्रांति:** *"आशय-सूचक प्रश्न का उत्तर देने के लिए पाठ की पंक्तियाँ याद करके उद्धृत करना ही पर्याप्त है; अपनी व्याख्या लिखने की.' }
           ],

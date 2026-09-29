@@ -19,7 +19,7 @@ export const c12_eng_k_ch06_p2: SimDef = {
         hook: 'Metaphysical poetry argues through conceits, not pretty comparisons: morning shadows are the disguises lovers \'ourselves produced\'; afternoon shadows fall inward, blinding the deceivers. It\'s called a Lecture — the shadow is the syllabus.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the subordinate but significant ideas that run alongside the primary theme in a literary work, enriching the central message by exploring related dimensions such as time.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'A Lecture Upon the Shadow\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_06_007', title: 'Your mission',
@@ -29,33 +29,33 @@ export const c12_eng_k_ch06_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_06_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re watching a time-lapse video of a tree\'s shadow moving across a garden from dawn to dusk — the shadow changes length, direction, and clarity, but.',
+          caseStudy: { intro: 'Look beneath the main theme of \'A Lecture Upon the Shadow\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a secondary theme in literature, and how does it differ from the primary theme?', options: [
                 { text: 'A secondary theme is a subordinate but significant idea that supports, complicates, or', outcome: 'A secondary theme is a subordinate but significant idea that supports, complicates, or enriches the.' },
                 { text: 'less important themes', outcome: 'Not quite — Students often treat secondary themes as a "list of other topics in the poem" (e.g., "time,".', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_06_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you\'re standing outside at 7 AM, then at 12 PM, then at 4 PM — notice how your shadow stretches, shrinks, then stretches again in a different.',
+          caseStudy: { intro: 'Find the lines in \'A Lecture Upon the Shadow\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'What is the central extended metaphor in "A Lecture Upon the Shadow," and what two things are being compared?', options: [
                 { text: 'The central extended metaphor compares the **changing shadows cast by the sun throughout', outcome: 'The central extended metaphor compares the **changing shadows cast by the sun throughout a day**.' },
                 { text: 'love is a shadow', outcome: 'Not quite — **Misconception:** "Metaphor and imagery are just decorative language — the poet uses pretty words.', reveals: 'misconception-metaphor-and-imagery-are' },
                 { text: 'shadows represent time', outcome: 'Not quite — **Misconception:** "Metaphor and imagery are just decorative language — the poet uses pretty words.', reveals: 'misconception-metaphor-and-imagery-are' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_06_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are reading the poem and notice the title promises a "Lecture Upon the Shadow" — but the speaker spends most of the time talking about love.',
+          caseStudy: { intro: 'Look in \'A Lecture Upon the Shadow\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'What is the central symbol in "A Lecture Upon the Shadow" and what does it represent in the first stanza (morning)?', options: [
                 { text: 'The central symbol is the **shadow**', outcome: 'The central symbol is the **shadow**. In the first stanza, the morning shadows — long, cast before.' },
                 { text: 'shadows represent time', outcome: 'Not quite — Students frequently **conflate the shadow with love itself**, writing "the shadow symbolises love".', reveals: 'students-frequently-conflate-the-shadow' },
                 { text: 'shadows represent death', outcome: 'Not quite — Students frequently **conflate the shadow with love itself**, writing "the shadow symbolises love".', reveals: 'students-frequently-conflate-the-shadow' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_06_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you find a 400-year-old letter in your grandmother\'s attic — the spelling looks \'wrong\' (shoppe, olde, goode), there are no apostrophes in possessives.',
+          caseStudy: { intro: 'Read \'A Lecture Upon the Shadow\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'List the six words from Donne\'s poem that the NCERT Language Work box explicitly identifies as carrying a terminal \'-e\' no longer used.', options: [
                 { text: 'The six words are: houres, shadowes, Sunne, noone, clearnesse, behinde', outcome: 'The six words are: houres, shadowes, Sunne, noone, clearnesse, behinde.' },
                 { text: 'loves" or "doe', outcome: 'Not quite — Students treat archaic spellings (houres, shadowes) as \'typos\' or \'old-fashioned mistakes\' rather.', reveals: 'students-treat-archaic-spellings-houres' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_06_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re in the CBSE exam hall and the question reads: "What do the morning shadows represent in the poem?" The answer isn\'t directly written — you must.',
+          caseStudy: { intro: 'Answer \'A Lecture Upon the Shadow\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Define literal comprehension in your own words and give one example of a literal question from "A Lecture Upon the Shadow".', options: [
                 { text: 'Literal comprehension involves extracting information directly stated in the text without', outcome: 'Literal comprehension involves extracting information directly stated in the text without.' },
                 { text: 'It represents maturity', outcome: 'Not quite — Students believe inferential questions invite personal opinion ("I think the poet means...") and.', reveals: 'inferential-questions-invite-personal-opinion' },
@@ -80,7 +80,7 @@ export const c12_eng_k_ch06_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_007', difficulty: 'standard',
-          question: 'Secondary themes are the subordinate but significant ideas that run alongside.',
+          question: 'Secondary themes in \'A Lecture Upon the Shadow\' — the supporting ideas and.',
           hint: 'Revisit c12_eng_k_cbse_06_006 (Primary Theme) and map the poem\'s three stanzas to the.',
           misconception: 'Students often treat secondary themes as a "list of other topics in the poem" (e.g., "time," "shadows," "morning,".',
           parts: [
@@ -95,7 +95,7 @@ export const c12_eng_k_ch06_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-secondary-themes': { steps: ['If the student cannot distinguish motif from theme: (1) Have them list 5 recurring images/words in the poem (shadow.', '(2) For each, ask: "What *idea* does this image make you think about?" — the answer is the *theme* (e.g., shadow → "the.', '(3) Have them complete this stem for three motifs: "Donne uses [motif] to explore the idea that [theme] because.', 'Remediation node: c11_eng_h_cbse_01_007 (Class 11 Theme: Secondary Themes) for foundational practice.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'A Lecture Upon the Shadow\' — the vivid, sensory language that.',
           hint: 'If stuck, review Class 11 "The Voice of the Rain" (c11_eng_h_cbse_02_008) — trace how.',
           misconception: '**Misconception:** "Metaphor and imagery are just decorative language — the poet uses pretty words to describe love.".',
           parts: [
@@ -110,7 +110,7 @@ export const c12_eng_k_ch06_p2: SimDef = {
           ],
             remediations: { 'misconception-metaphor-and-imagery-are': { steps: ['**Revisit the metaphor\'s mechanics:** Draw a quick diagram — stick figure, sun at three positions (low, overhead, low.', 'Label: Morning = long shadow ahead; Noon = shadow under feet; Afternoon = long shadow behind.', '**Map each shadow to a love-stage** using the poem\'s exact phrases: "infant loves," "high\'st degree," "loves faint." 3.', '**Ask:** "What does the shadow *do* in each phase?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or situations.',
+          question: 'Irony and paradox in \'A Lecture Upon the Shadow\' — where opposite things are.',
           hint: 'If stuck, return to the "vehicle vs. tenor" exercise in c12_eng_k_cbse_06_008 and.',
           misconception: 'Students frequently **conflate the shadow with love itself**, writing "the shadow symbolises love" or "the shadow.',
           parts: [
@@ -125,18 +125,18 @@ export const c12_eng_k_ch06_p2: SimDef = {
           ],
             remediations: { 'students-frequently-conflate-the-shadow': { steps: ['**Re-read the poem physically**: stand up, use a lamp as the "sun," and walk toward/away from it at three "times.', 'Map each observation to a stanza.', '**Revisit node c12_eng_k_cbse_06_008 (Imagery and Metaphor)** — specifically the distinction between *vehicle* and.', 'The shadow is the vehicle; the tenor shifts across stanzas.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_010', difficulty: 'standard',
-          question: 'Vocabulary in Context for "A Lecture Upon the Shadow" involves identifying and.',
+          question: 'Key vocabulary of \'A Lecture Upon the Shadow\' — the words and phrases you must.',
           hint: 'If stuck, review the Language Work box on NCERT page 92 and practice with.',
           misconception: 'Students believe the extra *-e* in *houres, shadowes, Sunne* indicates a different pronunciation (e.g., two syllables.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context for "A Lecture Upon the Shadow" involves identifying and',
-                  options: ['Vocabulary in Context for "A Lecture Upon the Shadow" involves identifying and', '"Before You Read: Context and Background" provides the essential historical,', 'In a metaphysical poem like Donne\'s "A Lecture Upon the Shadow", narrative structure', 'In poetry, **setting** refers to the temporal and spatial context established by the poet'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Key vocabulary of \'A Lecture Upon the Shadow\'',
+                  options: ['Key vocabulary of \'A Lecture Upon the Shadow\'', '\'A Lecture Upon the Shadow\' (Kaleidoscope, ch', 'The plot/narrative arc of \'A Lecture Upon the Shadow\'', 'The setting of \'A Lecture Upon the Shadow\''],
                   hint: 'If stuck, review the Language Work box on NCERT page 92 and practice with c11_eng_h_cbse_06_010.',
                   misconception: 'Students believe the extra *-e* in *houres, shadowes, Sunne* indicates a different pronunciation (e.g., two syllables: *hour-es*).' }
           ],
             remediations: { 'the-extra-e-in-houres': { steps: ['Re-read the Language Work box in the NCERT (page 92) and underline the three explicit instructions: notice spellings.', 'Take a modern sentence (“The child’s toy”) and rewrite it in Donne’s style (*the childs toy*).', 'Pick any two adjectives from the poem (*diligent, false, westward*) and write their isolated meaning vs.', 'their meaning in the phrase.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_011', difficulty: 'standard',
-          question: 'This node focuses on analysing archaic language features in John Donne\'s.',
+          question: 'Language and style in \'A Lecture Upon the Shadow\' — how the writer chose words.',
           hint: 'If stuck on archaic semantics, review the concept of \'semantic shift\' using "brave" (OE.',
           misconception: 'Students treat archaic spellings (houres, shadowes) as \'typos\' or \'old-fashioned mistakes\' rather than systematic.',
           parts: [
@@ -147,7 +147,7 @@ export const c12_eng_k_ch06_p2: SimDef = {
           ],
             remediations: { 'students-treat-archaic-spellings-houres': { steps: ['Re-read the NCERT Language Work box (p. 92-93) and underline every word the textbook explicitly labels as archaic.', 'Create a three-column table: Archaic Form | Modern Equivalent | Reason for Change (e.g., houres → hours | terminal -e.', 'For possessives, find three more examples in the poem without apostrophes (e.g., "loves philosophy", "shadowes flow".', 'Re-attempt Diagnostic Questions 2 and 3. If still stuck, review c11_eng_h_cbse_01_011 (Class 11 Grammar: Language.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_06_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require retrieving information explicitly.',
+          question: 'Literal comprehension of \'A Lecture Upon the Shadow\' — questions answered.',
           hint: 'Revisit c12_eng_k_cbse_06_002 (Plot and Narrative Structure) for the two-part timeline.',
           misconception: 'Students believe inferential questions invite personal opinion ("I think the poet means...") and don\'t require textual.',
           parts: [

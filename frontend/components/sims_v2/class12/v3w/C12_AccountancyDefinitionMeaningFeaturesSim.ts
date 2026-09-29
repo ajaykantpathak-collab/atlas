@@ -6,13 +6,13 @@ import C12_AccountancyDefinitionMeaningFeaturesSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_accountancydefinitionmeaningfeaturessim: SimDef = {
     id: 'v3w_c12_accountancydefinitionmeaningfeaturessim',
-    title: 'Definition Meaning Features',
+    title: 'Partnership: Definition and Essential Features under the Act',
     subtitle: 'This node covers the legal definition of partnership under the Indian Partnership Act,.',
     classLevel: 12, subject: 'accountancy', topic: 'Partnership: Definition and Essential Features under the Act',
     chapters: [],
     nodeIds: ['c12_acc_cbse_01_001', 'c12_acc_cbse_05_001', 'c12_acc_cbse_06_001', 'c12_acc_cbse_07_001', 'c12_acc_cbse_09_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine two friends, Rohan and Sohan, start a food truck business.', goal: 'Master Definition Meaning Features.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine two friends, Rohan and Sohan, start a food truck business.', goal: 'Master Partnership: Definition and Essential Features under the Act.' },
     discovery: {
         question: 'Rahul and Priya jointly own a building and rent it out, sharing the rental income equally. They have no agreement to carry on any business.',
         options: ['No, it is not a partnership', 'profit-sharing alone creates partnership, ignoring the business requirement', 'sharing profits automatically means a partnership exists'],
@@ -71,7 +71,7 @@ export const w_c12_accountancydefinitionmeaningfeaturessim: SimDef = {
             { text: 'Present in a table for clarity.', faded: true, blankAnswer: '(1) Operating Inflow, (2) Investing Outflow, (3) Financing.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_acc_cbse_05_001', title: 'Identify each idea',
-          dissect: { specimen: 'Definition Meaning Features', spots: [
+          dissect: { specimen: 'Partnership: Definition and Essential Features under the Act', spots: [
             { id: 's1', label: 'Partnership is a relation between', prompt: 'Which idea is this? — Partnership is a relation between two or more persons who have agreed to share the.', answer: 'Partnership is a relation between', options: ['Partnership is a relation between', 'A share is a unit', 'A debenture is a written', 'Financial Statements of a Company'] },
             { id: 's2', label: 'A share is a unit', prompt: 'Which idea is this? — A share is a unit of ownership in a company that entitles the holder to a proportionate.', answer: 'A share is a unit', options: ['A share is a unit', 'Partnership is a relation between', 'A debenture is a written', 'Financial Statements of a Company'] },
             { id: 's3', label: 'A debenture is a written', prompt: 'Which idea is this? — A debenture is a written instrument acknowledging a debt under the common seal of a.', answer: 'A debenture is a written', options: ['A debenture is a written', 'Partnership is a relation between', 'A share is a unit', 'Financial Statements of a Company'] },
@@ -79,7 +79,7 @@ export const w_c12_accountancydefinitionmeaningfeaturessim: SimDef = {
             { id: 's5', label: 'A Cash Flow Statement is', prompt: 'Which idea is this? — A Cash Flow Statement is a financial statement prepared as per Accounting Standard-3.', answer: 'A Cash Flow Statement is', options: ['A Cash Flow Statement is', 'Partnership is a relation between', 'A share is a unit', 'A debenture is a written'] }
           ] } }
     ],
-    explore: { component: C12_AccountancyDefinitionMeaningFeaturesSim, prompt: 'Explore the interactive — Definition Meaning Features' },
+    explore: { component: C12_AccountancyDefinitionMeaningFeaturesSim, prompt: 'Explore the interactive — Partnership: Definition and Essential Features under the Act' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_acc_cbse_01_001', difficulty: 'standard',
           question: 'Partnership is a relation between two or more persons who have agreed to share.',

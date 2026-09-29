@@ -4,9 +4,9 @@ import type { SimDef } from '../../engine/types';
  * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
 export const c12_ca_ch01_p1: SimDef = {
     id: 'v3_c12_ca_ch01_p1',
-    title: 'OVERVIEW OF · Part 1/2',
+    title: 'Computerised Accounting System · Part 1/2',
     subtitle: 'One entry, every ledger updated — what a computerised accounting system really is',
-    classLevel: 12, subject: 'computerised_accounting', topic: 'OVERVIEW OF · Part 1/2',
+    classLevel: 12, subject: 'computerised_accounting', topic: 'Computerised Accounting System · Part 1/2',
     chapters: ['c12_ca_ch01'],
     nodeIds: ['c12_ca_cbse_01_001', 'c12_ca_cbse_01_002', 'c12_ca_cbse_01_003', 'c12_ca_cbse_01_004', 'c12_ca_cbse_01_005', 'c12_ca_cbse_01_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
@@ -187,8 +187,8 @@ export const c12_ca_ch01_p1: SimDef = {
           hint: 'Revisit Class 11 node c11_acc_cbse_08_001 (Financial Statements: Meaning and Objectives).',
           misconception: 'Students treat “Advantages” (Section 1.6) and “Salient Features” (Section 1.3) as interchangeable lists.',
           parts: [
-                { id: 'a', prompt: 'A mid-sized firm processes 15,000 transactions/month. Under manual accounting, 4 clerks take 12 days to close monthly books at ₹18,000/month labour cost.', answer: 'Steps: (1) Manual cost = ₹18,000',
-                  options: ['Steps: (1) Manual cost = ₹18,000', 'economy … of accounting *data*'],
+                { id: 'a', prompt: 'A mid-sized firm processes 15,000 transactions/month. Under manual accounting, 4 clerks take 12 days to close monthly books at ₹18,000/month labour cost.', answer: '(1) Manual cost = ₹18,000',
+                  options: ['(1) Manual cost = ₹18,000', 'economy … of accounting *data*'],
                   hint: 'Revisit Class 11 node c11_acc_cbse_08_001 (Financial Statements: Meaning and Objectives) and trace.',
                   misconception: 'Students treat “Advantages” (Section 1.6) and “Salient Features” (Section 1.3) as interchangeable lists.' }
           ],

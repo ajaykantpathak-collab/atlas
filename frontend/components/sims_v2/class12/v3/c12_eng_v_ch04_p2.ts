@@ -19,7 +19,7 @@ export const c12_eng_v_ch04_p2: SimDef = {
         hook: 'Pearl S. Buck wrote this DURING the war — an American raised in China who could see both sides without caricature. Judging Sadao by peacetime logic (\'just call the police\') misses that the police meant execution; the dilemma only works inside its history.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas or motifs in a literary work that support, contrast with, or add complexity to the primary theme.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Enemy\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_04_007', title: 'Your mission',
@@ -29,35 +29,35 @@ export const c12_eng_v_ch04_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_04_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are a doctor in a war zone and an injured enemy soldier is brought to you.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Enemy\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'Define "secondary theme" in literature and name one secondary theme from "The Enemy" other than the primary theme of duty vs.', options: [
                 { text: 'A secondary theme is a recurring idea that supports or complicates the main theme', outcome: 'A secondary theme is a recurring idea that supports or complicates the main theme.' },
                 { text: 'the theme is war', outcome: 'Not quite — Students often treat secondary themes as a random list of topics ("war," "love," "family") rather.', reveals: 'students-often-treat-secondary-themes' },
                 { text: 'the theme is love', outcome: 'Not quite — Students often treat secondary themes as a random list of topics ("war," "love," "family") rather.', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_04_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are a film director adapting "The Enemy" into a movie.',
+          caseStudy: { intro: 'Find the lines in \'The Enemy\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define imagery and metaphor. Give one example of each from "The Enemy".', options: [
                 { text: 'Imagery: descriptive language appealing to senses', outcome: 'Imagery: descriptive language appealing to senses. Example: "The surf beyond the beach was spiked.' },
                 { text: 'Those islands yonder, they are the stepping stones to the future for Japan', outcome: 'Not quite — Students often think imagery is only visual description. They miss auditory, tactile, olfactory.', reveals: 'imagery-is-only-visual-description' },
                 { text: 'stepping stones', outcome: 'Not quite — Students often think imagery is only visual description. They miss auditory, tactile, olfactory.', reveals: 'imagery-is-only-visual-description' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_04_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading the scene where Sadao operates on the American soldier and encounter the word **"stanch"**: *"his trained hands seemed of their own.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Enemy\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: '**REMEMBER:** List any four words from "The Enemy" that are specific to Japanese culture or setting (e.g., clothing, architecture, customs).', options: [
                 { text: '**Correct Answer:** 1', outcome: '**Correct Answer:** 1. **haori** – a loose outer garment worn over the kimono (explicitly defined.' },
                 { text: 'surgeon', outcome: 'Not quite — **Misconception:** "Vocabulary in Context means memorizing the dictionary definition of difficult.', reveals: 'misconception-vocabulary-in-context-means' },
                 { text: 'operation', outcome: 'Not quite — **Misconception:** "Vocabulary in Context means memorizing the dictionary definition of difficult.', reveals: 'misconception-vocabulary-in-context-means' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_04_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are writing a diary entry as Dr Sadao the night he finds the wounded soldier.',
+          caseStudy: { intro: 'Read \'The Enemy\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the tense used in the sentence: "He had been sent at twenty-two to America to learn all that could be learned of surgery and.', options: [
                 { text: 'Past perfect passive: "had been sent"', outcome: 'Past perfect passive: "had been sent". It indicates an action completed before another past time.' },
                 { text: 'was sent', outcome: 'Not quite — Students often think "should" in conditionals always means advice (e.g., "You should study").', reveals: 'should-in-conditionals-always-means' },
                 { text: 'should', outcome: 'Not quite — Students often think "should" in conditionals always means advice (e.g., "You should study").', reveals: 'should-in-conditionals-always-means' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_04_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re sitting in the CBSE exam hall holding the "The Enemy" extract: Sadao finds the wounded American on the shore.',
+          caseStudy: { intro: 'Answer \'The Enemy\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify whether the following question is literal or inferential: "What was the nationality of the wounded man washed ashore?" Explain.', options: [
                 { text: 'This is a LITERAL question', outcome: 'This is a LITERAL question. The text explicitly states: "A white man!" and "A sailor...' },
                 { text: 'finding details', outcome: 'Not quite — Students believe "inferential = guesswork" and write personal opinions ("I think Sadao is kind").', reveals: 'inferential-guesswork-and-write-personal' },
@@ -82,7 +82,7 @@ export const c12_eng_v_ch04_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas or motifs in a literary work that.',
+          question: 'Secondary themes in \'The Enemy\' — the supporting ideas and motifs that deepen.',
           hint: 'If stuck, review the "Theme: Primary Theme and Message" node (c12_eng_v_cbse_04_006) and.',
           misconception: 'Students often treat secondary themes as a random list of topics ("war," "love," "family") rather than as *arguments.',
           parts: [
@@ -104,7 +104,7 @@ export const c12_eng_v_ch04_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student cannot distinguish primary/secondary themes or write theme statements: (1) Have them re-read the "Reading.', '(2) Give them a 3-column table: Column A = Topic (e.g., Prejudice), Column B = Textual Evidence (quote + page), Column.', '(3) Model one row together: Topic: Racial Hatred | Evidence: Yumi\'s "I have never washed a white man" (p.31) |.', '(4) Assign them to complete two rows independently, then peer-review using the rubric: "Does Column C express.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid and descriptive language that appeals to the senses.',
+          question: 'Imagery in \'The Enemy\' — the vivid, sensory language that creates word-pictures.',
           hint: 'Review the definitions and examples of imagery (all five senses) and metaphor (direct.',
           misconception: 'Students often think imagery is only visual description. They miss auditory, tactile, olfactory, and gustatory imagery.',
           parts: [
@@ -115,18 +115,18 @@ export const c12_eng_v_ch04_p2: SimDef = {
           ],
             remediations: { 'imagery-is-only-visual-description': { steps: ['If the student cannot identify non-visual imagery, have them reread the operation scene (pages 32-35) and list every.', 'For metaphor confusion, give them a T-chart: Column A "Literal term", Column B "Compared to", Column C "Meaning".', 'Practice with "stepping stones", "cardinal sin", "sea caught him".', 'Then re-attempt diagnostic question 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'The Enemy\' — where opposite things are both true,.',
           hint: 'If stuck, review c12_eng_v_cbse_04_004 for Sadao\'s dual identity (Japanese patriot.',
           misconception: 'Students often confuse irony with mere coincidence or bad luck.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where the intended meaning of words or events is opposite to',
-                  options: ['Irony is a literary device where the intended meaning of words or events is opposite to', 'The "Before You Read" context provides the historical, cultural, and ethical framework', 'Plot and narrative structure refers to the deliberate arrangement of story events', 'Setting in "The Enemy" refers to the specific time (World War II), place (Japanese'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'The Enemy\'',
+                  options: ['Irony and paradox in \'The Enemy\'', '\'The Enemy\' (Vistas, ch', 'The plot/narrative arc of \'The Enemy\'', 'The setting of \'The Enemy\''],
                   hint: 'If stuck, review c12_eng_v_cbse_04_004 for Sadao\'s dual identity (Japanese patriot.',
                   misconception: 'Students often confuse irony with mere coincidence or bad luck.' }
           ],
             remediations: { 'students-often-confuse-irony-with': { steps: ['If a student cannot distinguish irony types or identify symbols with evidence: (1) Have them create a three-column.', '(2) Re-read only the General-Sadao dialogue (pages 39-40) and the escape scene (pages 42-44) with a highlighter.', '(3) Practice with a simpler text first — use the Class 10 "Letter to God" node (c10_engl_cbse_01_007) where Lencho\'s.', '(4) Return to this node and re-attempt Diagnostic Questions 3 and 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'The Enemy\' — the words and phrases you must know to read the.',
           hint: 'If stuck on Step 3 (Analyze Modifiers), review **c9_engl_ch1_008** (Class 9 "Vocabulary.',
           misconception: '**Misconception:** "Vocabulary in Context means memorizing the dictionary definition of difficult words listed in the.',
           parts: [
@@ -141,7 +141,7 @@ export const c12_eng_v_ch04_p2: SimDef = {
           ],
             remediations: { 'misconception-vocabulary-in-context-means': { steps: ['**Immediate:** Re-read the "Walkthrough" 5-step protocol (Locate → Object/Subject → Modifiers → Infer → Verify).', '**Targeted Practice:** Take the 12 key words from the *Worked Examples* below.', 'For each, write: (a) the exact sentence from the text, (b) the part of speech in that sentence, (c) the contextual.', '**Re-diagnostic:** Attempt **Diagnostic Question 3** and **4** again without notes.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the study of how grammatical.',
+          question: 'Language and style in \'The Enemy\' — how the writer chose words, sentences and.',
           hint: 'If stuck, review Class 11 grammar nodes on conditionals and reported speech.',
           misconception: 'Students often think "should" in conditionals always means advice (e.g., "You should study").',
           parts: [
@@ -156,7 +156,7 @@ export const c12_eng_v_ch04_p2: SimDef = {
           ],
             remediations: { 'should-in-conditionals-always-means': { steps: ['Review the three conditional types with emphasis on second conditional using "should/would" for hypothetical.', 'Locate all conditionals in the text (there are several) and classify them.', 'Practice converting direct speech to reported speech using the text\'s dialogues.', 'Re-attempt diagnostic questions 2 and 5.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_04_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve information.',
+          question: 'Literal comprehension of \'The Enemy\' — questions answered straight from the.',
           hint: 'If stuck, review c11_eng_h_cbse_01_012 (Class 11 Hornbill Comprehension) — specifically.',
           misconception: 'Students believe "inferential = guesswork" and write personal opinions ("I think Sadao is kind") instead.',
           parts: [

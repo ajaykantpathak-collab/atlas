@@ -6,13 +6,13 @@ import C12_GeoLandResourcesAgricultureCBSESim from '../../../simulations/c6_12_n
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_geolandresourcesagriculturecbsesim: SimDef = {
     id: 'v3w_c12_geolandresourcesagriculturecbsesim',
-    title: 'Geo Land Resources Agriculture CBSE',
+    title: 'Land Resources in India: Utilisation Pattern and Categories',
     subtitle: 'Covers the nine-fold land use classification, reporting vs geographical area distinction,.',
     classLevel: 12, subject: 'science', topic: 'Land Resources in India: Utilisation Pattern and Categories',
     chapters: [],
     nodeIds: ['c12_geo_cbse_11_001', 'c12_geo_cbse_09_011', 'c12_geo_cbse_12_002', 'c12_geo_cbse_11_003', 'c12_geo_cbse_12_001', 'c12_geo_cbse_12_009', 'c12_geo_cbse_11_002', 'c12_geo_cbse_11_004', 'c12_geo_cbse_11_005', 'c12_geo_cbse_11_011', 'c12_geo_cbse_05_001', 'c12_geo_cbse_05_004', 'c12_geo_cbse_05_005', 'c12_geo_cbse_05_007', 'c12_geo_cbse_05_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe your local village/tehsil revenue map — you will see columns for "forest", "culturable waste",.', goal: 'Master Geo Land Resources Agriculture CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe your local village/tehsil revenue map — you will see columns for "forest", "culturable waste",.', goal: 'Master Land Resources in India: Utilisation Pattern and Categories.' },
     discovery: {
         question: 'Define "reporting area" and explain how it differs from "geographical area" in the context of Indian land use statistics.',
         options: ['Reporting area is the total area for', 'they are the same', 'current fallow'],
@@ -80,7 +80,7 @@ export const w_c12_geolandresourcesagriculturecbsesim: SimDef = {
             { text: 'Economic viability — drip/sprinkler capital cost ~₹1.2 lakh/ha (subsidy 55% under PMKSY).', faded: true, blankAnswer: 'The conservation package saves ~16,000 m³/year (32%).' }
             ] } },
         { type: 'dissect', nodeId: 'c12_geo_cbse_09_011', title: 'Identify each idea',
-          dissect: { specimen: 'Geo Land Resources Agriculture CBSE', spots: [
+          dissect: { specimen: 'Land Resources in India: Utilisation Pattern and Categories', spots: [
             { id: 's1', label: 'Land use categories are the', prompt: 'Which idea is this? — Land use categories are the nine-fold classification of India\'s reporting area maintained.', answer: 'Land use categories are the', options: ['Land use categories are the', 'Population-resource relationship examines how population', 'Indias drainage system comprises two', 'Common Property Resources CPRs are'] },
             { id: 's2', label: 'Population-resource relationship examines how population', prompt: 'Which idea is this? — Population-resource relationship examines how population size, distribution, density,.', answer: 'Population-resource relationship examines how population', options: ['Population-resource relationship examines how population', 'Land use categories are the', 'Indias drainage system comprises two', 'Common Property Resources CPRs are'] },
             { id: 's3', label: 'Indias drainage system comprises two', prompt: 'Which idea is this? — India\'s drainage system comprises two distinct categories: Himalayan rivers (Indus,.', answer: 'Indias drainage system comprises two', options: ['Indias drainage system comprises two', 'Land use categories are the', 'Population-resource relationship examines how population', 'Common Property Resources CPRs are'] },
@@ -89,7 +89,7 @@ export const w_c12_geolandresourcesagriculturecbsesim: SimDef = {
             { id: 's6', label: 'Water conservation in India refers', prompt: 'Which idea is this? — Water conservation in India refers to the systematic management, protection, and.', answer: 'Water conservation in India refers', options: ['Water conservation in India refers', 'Land use categories are the', 'Population-resource relationship examines how population', 'Indias drainage system comprises two'] }
           ] } }
     ],
-    explore: { component: C12_GeoLandResourcesAgricultureCBSESim, prompt: 'Explore the interactive — Geo Land Resources Agriculture CBSE' },
+    explore: { component: C12_GeoLandResourcesAgricultureCBSESim, prompt: 'Explore the interactive — Land Resources in India: Utilisation Pattern and Categories' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_11_001', difficulty: 'standard',
           question: 'Land use categories are the nine-fold classification of India\'s reporting area.',

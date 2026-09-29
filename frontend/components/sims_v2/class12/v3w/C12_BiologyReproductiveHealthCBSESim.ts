@@ -6,13 +6,13 @@ import C12_BiologyReproductiveHealthCBSESim from '../../../simulations/c6_12_new
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologyreproductivehealthcbsesim: SimDef = {
     id: 'v3w_c12_biologyreproductivehealthcbsesim',
-    title: 'Reproductive Health CBSE',
+    title: 'Gametogenesis: Spermatogenesis',
     subtitle: 'Covers: spermatogonial mitosis, primary/secondary spermatocyte meiosis, spermiogenesis.',
     classLevel: 12, subject: 'biology', topic: 'Gametogenesis: Spermatogenesis',
     chapters: [],
     nodeIds: ['c12_bio_cbse_03_003', 'c12_bio_cbse_03_009', 'c12_bio_cbse_04_001', 'c12_bio_cbse_04_005', 'c12_bio_cbse_04_007', 'c12_bio_cbse_09_002', 'c12_bio_cbse_03_001', 'c12_bio_cbse_03_002', 'c12_bio_cbse_03_006', 'c12_bio_cbse_03_008', 'c12_bio_cbse_09_001', 'c12_bio_cbse_09_003', 'c12_bio_cbse_08_002', 'c12_bio_cbse_08_008', 'c12_bio_cbse_08_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Start with a real-world observation: a healthy adult male produces ~100–300 million sperm daily — ask "How.', goal: 'Master Reproductive Health CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Start with a real-world observation: a healthy adult male produces ~100–300 million sperm daily — ask "How.', goal: 'Master Gametogenesis: Spermatogenesis.' },
     discovery: {
         question: 'A histology slide shows a seminiferous tubule cross-section with large cells having prominent nucleoli near the basement membrane, smaller cells with condensed.',
         options: ['The large basal cells are Type B spermatogonia / early primary spermatocytes', 'spermatozoa are abundant', 'lumen is full of sperm'],
@@ -77,7 +77,7 @@ export const w_c12_biologyreproductivehealthcbsesim: SimDef = {
             { text: 'Conclusion: Ration severely energy-deficient. Cow will lose body condition (mobilize fat → NEFA → ketosis risk).', faded: true, blankAnswer: 'Ration provides 14.4 kg DMI (deficit 3.1 kg), 14.4 Mcal.' }
             ] } }
     ],
-    explore: { component: C12_BiologyReproductiveHealthCBSESim, prompt: 'Explore the interactive — Reproductive Health CBSE' },
+    explore: { component: C12_BiologyReproductiveHealthCBSESim, prompt: 'Explore the interactive — Gametogenesis: Spermatogenesis' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_03_003', difficulty: 'standard',
           question: 'Spermatogenesis is the continuous, cyclic process in the seminiferous tubules.',

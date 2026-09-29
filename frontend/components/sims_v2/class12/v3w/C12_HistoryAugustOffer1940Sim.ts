@@ -6,13 +6,13 @@ import C12_HistoryAugustOffer1940Sim from '../../../simulations/c6_12/C12_Histor
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_historyaugustoffer1940sim: SimDef = {
     id: 'v3w_c12_historyaugustoffer1940sim',
-    title: 'August Offer1940',
+    title: 'The Quit India Movement (1942): Do or Die, Underground Activity and Repression',
     subtitle: 'This node covers the Quit India Movement from the failure of the Cripps Mission (March.',
     classLevel: 12, subject: 'history', topic: 'The Quit India Movement (1942): Do or Die, Underground Activity and Repression',
     chapters: [],
     nodeIds: ['c12_hist_cbse_11_006', 'c12_hist_cbse_11_010', 'c12_hist_cbse_11_011', 'c12_hist_cbse_09_006', 'c12_hist_cbse_03_004', 'c12_hist_cbse_04_001', 'c12_hist_cbse_07_005', 'c12_hist_cbse_12_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing at the August Kranti Maidan in Mumbai where Gandhi gave the “Do or Die” speech on 8.', goal: 'Master August Offer1940.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing at the August Kranti Maidan in Mumbai where Gandhi gave the “Do or Die” speech on 8.', goal: 'Master The Quit India Movement (1942): Do or Die, Underground Activity and Repression.' },
     discovery: {
         question: 'Why did the Cabinet Mission Plan (1946) fail to prevent Partition, despite proposing a united India with a loose federal structure?',
         options: ['The Cabinet Mission Plan failed', 'British didn\'t want unity', 'divide and rule'],
@@ -80,7 +80,7 @@ export const w_c12_historyaugustoffer1940sim: SimDef = {
             { text: 'Conclude the mutual dependence — king provided resources (dakshina, protection); Brahmanas provided ritual legitimacy.', faded: true, blankAnswer: 'The ashvamedha solved the later Vedic king\'s legitimation.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_hist_cbse_11_010', title: 'Identify each idea',
-          dissect: { specimen: 'August Offer1940', spots: [
+          dissect: { specimen: 'The Quit India Movement (1942): Do or Die, Underground Activity and Repression', spots: [
             { id: 's1', label: 'The Quit India Movement August', prompt: 'Which idea is this? — The Quit India Movement (August 1942 – September 1944) was the final mass civil.', answer: 'The Quit India Movement August', options: ['The Quit India Movement August', 'The Partition of India 1947', 'Gandhis assassination refers to the', 'The Paharias were a tribal'] },
             { id: 's2', label: 'The Partition of India 1947', prompt: 'Which idea is this? — The Partition of India (1947) refers to the division of British India into two.', answer: 'The Partition of India 1947', options: ['The Partition of India 1947', 'The Quit India Movement August', 'Gandhis assassination refers to the', 'The Paharias were a tribal'] },
             { id: 's3', label: 'Gandhis assassination refers to the', prompt: 'Which idea is this? — Gandhi\'s assassination refers to the killing of Mohandas Karamchand Gandhi on 30 January.', answer: 'Gandhis assassination refers to the', options: ['Gandhis assassination refers to the', 'The Quit India Movement August', 'The Partition of India 1947', 'The Paharias were a tribal'] },
@@ -89,7 +89,7 @@ export const w_c12_historyaugustoffer1940sim: SimDef = {
             { id: 's6', label: 'The sacrificial tradition yajna in', prompt: 'Which idea is this? — The sacrificial tradition (yajna) in the Vedic period (c. 1500–500 BCE) was a ritual.', answer: 'The sacrificial tradition yajna in', options: ['The sacrificial tradition yajna in', 'The Quit India Movement August', 'The Partition of India 1947', 'Gandhis assassination refers to the'] }
           ] } }
     ],
-    explore: { component: C12_HistoryAugustOffer1940Sim, prompt: 'Explore the interactive — August Offer1940' },
+    explore: { component: C12_HistoryAugustOffer1940Sim, prompt: 'Explore the interactive — The Quit India Movement (1942): Do or Die, Underground Activity and Repression' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hist_cbse_11_006', difficulty: 'standard',
           question: 'The Quit India Movement (August 1942 – September 1944) was the final mass civil.',

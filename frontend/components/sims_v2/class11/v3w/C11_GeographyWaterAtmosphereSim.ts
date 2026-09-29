@@ -6,13 +6,13 @@ import C11_GeographyWaterAtmosphereSim from '../../../simulations/c6_12/C11_Geog
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geographywateratmospheresim: SimDef = {
     id: 'v3w_c11_geographywateratmospheresim',
-    title: 'Water Atmosphere',
+    title: 'Branches of Geography: Physical Geography and Its Sub-branches',
     subtitle: 'This node covers the classification, definition, and scope of Physical Geography and its.',
     classLevel: 11, subject: 'geography', topic: 'Branches of Geography: Physical Geography and Its Sub-branches',
     chapters: [],
     nodeIds: ['c11_geo_cbse_01_004', 'c11_geo_cbse_02_006', 'c11_geo_cbse_10_003', 'c11_geo_cbse_26_003', 'c11_geo_cbse_01_007', 'c11_geo_cbse_01_010', 'c11_geo_cbse_02_004', 'c11_geo_cbse_02_008', 'c11_geo_cbse_06_004', 'c11_geo_cbse_26_001', 'c11_geo_cbse_26_005', 'c11_geo_cbse_01_008', 'c11_geo_cbse_01_009', 'c11_geo_cbse_02_007', 'c11_geo_cbse_18_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe their immediate surroundings — the slope of the school ground, the.', goal: 'Master Water Atmosphere.' },
+    scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe their immediate surroundings — the slope of the school ground, the.', goal: 'Master Branches of Geography: Physical Geography and Its Sub-branches.' },
     discovery: {
         question: 'Name the six major sub-branches of Physical Geography as classified in the NCERT Class 11 textbook and state the primary focus of each in one phrase.',
         options: ['The six major sub-branches are: (1) Geomorphology', 'Meteorology', 'Climatology'],
@@ -75,7 +75,7 @@ export const w_c11_geographywateratmospheresim: SimDef = {
             { text: 'Synthesize — the Indo-Gangetic Plain is a *product* of the interaction: tectonics provided the relief and basin,.', faded: true, blankAnswer: 'The Indo-Gangetic Plain formed by the deposition of.' }
             ] } }
     ],
-    explore: { component: C11_GeographyWaterAtmosphereSim, prompt: 'Explore the interactive — Water Atmosphere' },
+    explore: { component: C11_GeographyWaterAtmosphereSim, prompt: 'Explore the interactive — Branches of Geography: Physical Geography and Its Sub-branches' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_01_004', difficulty: 'standard',
           question: 'Physical Geography is the branch of geography that systematically studies the.',

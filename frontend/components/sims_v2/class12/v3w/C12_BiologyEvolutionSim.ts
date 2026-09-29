@@ -6,13 +6,13 @@ import C12_BiologyEvolutionSim from '../../../simulations/c6_12/C12_BiologyEvolu
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologyevolutionsim: SimDef = {
     id: 'v3w_c12_biologyevolutionsim',
-    title: 'Evolution',
+    title: 'Origin of Life: Oparin-Haldane Theory',
     subtitle: 'Covers the Oparin-Haldane hypothesis, Miller-Urey experiment, and the concept of.',
     classLevel: 12, subject: 'biology', topic: 'Origin of Life: Oparin-Haldane Theory',
     chapters: [],
     nodeIds: ['c12_bio_cbse_07_001', 'c12_bio_cbse_07_002', 'c12_bio_cbse_07_003', 'c12_bio_cbse_07_004', 'c12_bio_cbse_07_006', 'c12_bio_cbse_07_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a droplet of oil in water — it forms a sphere with a boundary separating inside from outside, yet it.', goal: 'Master Evolution.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a droplet of oil in water — it forms a sphere with a boundary separating inside from outside, yet it.', goal: 'Master Origin of Life: Oparin-Haldane Theory.' },
     discovery: {
         question: 'A student claims: "Miller-Urey proved life originated exactly as Oparin-Haldane described." Evaluate this statement.',
         options: ['The statement is FALSE', 'necessary condition demonstrated', 'sufficient mechanism proven'],
@@ -79,7 +79,7 @@ export const w_c12_biologyevolutionsim: SimDef = {
             { text: 'Conclude: Allopatric speciation completed with both prezygotic (pollinator preference) and postzygotic (hybrid.', faded: true, blankAnswer: 'Allopatric speciation with prezygotic (pollinator.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_07_002', title: 'Identify each idea',
-          dissect: { specimen: 'Evolution', spots: [
+          dissect: { specimen: 'Origin of Life: Oparin-Haldane Theory', spots: [
             { id: 's1', label: 'The Oparin-Haldane theory proposes that', prompt: 'Which idea is this? — The Oparin-Haldane theory proposes that life originated on early Earth through a gradual.', answer: 'The Oparin-Haldane theory proposes that', options: ['The Oparin-Haldane theory proposes that', 'Darwins theory of natural selection', 'Evidences for evolution from paleontology', 'Biochemical and molecular evidences for'] },
             { id: 's2', label: 'Darwins theory of natural selection', prompt: 'Which idea is this? — Darwin\'s theory of natural selection proposes that evolution occurs through the.', answer: 'Darwins theory of natural selection', options: ['Darwins theory of natural selection', 'The Oparin-Haldane theory proposes that', 'Evidences for evolution from paleontology', 'Biochemical and molecular evidences for'] },
             { id: 's3', label: 'Evidences for evolution from paleontology', prompt: 'Which idea is this? — Evidences for evolution from paleontology and anatomy demonstrate that present-day.', answer: 'Evidences for evolution from paleontology', options: ['Evidences for evolution from paleontology', 'The Oparin-Haldane theory proposes that', 'Darwins theory of natural selection', 'Biochemical and molecular evidences for'] },
@@ -88,7 +88,7 @@ export const w_c12_biologyevolutionsim: SimDef = {
             { id: 's6', label: 'Speciation is the evolutionary process', prompt: 'Which idea is this? — Speciation is the evolutionary process by which populations of a single species diverge.', answer: 'Speciation is the evolutionary process', options: ['Speciation is the evolutionary process', 'The Oparin-Haldane theory proposes that', 'Darwins theory of natural selection', 'Evidences for evolution from paleontology'] }
           ] } }
     ],
-    explore: { component: C12_BiologyEvolutionSim, prompt: 'Explore the interactive — Evolution' },
+    explore: { component: C12_BiologyEvolutionSim, prompt: 'Explore the interactive — Origin of Life: Oparin-Haldane Theory' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_07_001', difficulty: 'standard',
           question: 'The Oparin-Haldane theory proposes that life originated on early Earth through.',

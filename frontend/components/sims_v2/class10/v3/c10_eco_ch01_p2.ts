@@ -117,10 +117,6 @@ export const c10_eco_ch01_p2: SimDef = {
                 { id: 'a', prompt: 'Critique the argument: "Since BMI is a simple ratio, it should replace per capita income as the primary measure of development because it directly captures.', answer: 'BMI captures only nutritional status, ignoring education, income, gender equity,',
                   options: ['BMI captures only nutritional status, ignoring education, income, gender equity,', 'normal'],
                   hint: 'If stuck, review metric unit conversion (cm to m) and practice squaring decimals; also revisit.',
-                  misconception: 'Students often believe BMI directly measures body fat percentage and that a "normal" BMI guarantees good health.' },
-                { id: 'b', prompt: 'Design a mini-survey plan for your class to collect height/weight data, compute BMI, and present findings in a way that highlights the link between nutrition.', answer: 'Steps: 1) Obtain consent',
-                  options: ['Steps: 1) Obtain consent', 'normal'],
-                  hint: 'If stuck, review metric unit conversion (cm to m) and practice squaring decimals; also revisit.',
                   misconception: 'Students often believe BMI directly measures body fat percentage and that a "normal" BMI guarantees good health.' }
           ],
             remediations: { 'bmi-directly-measures-body-fat': { steps: ['Revisit the formula: practice 5 calculations with mixed units (cm, kg) converting height to meters first.', 'Plot a simple scatter graph of height vs weight for 10 classmates; draw BMI contour lines (18.5, 25, 30) to visualize.', 'Read the NCERT "Development" chapter box on BMI limitations (page 12-13) and list three specific limitations with.', 'Explain to a peer why BMI alone cannot determine anemia or vitamin D deficiency.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },

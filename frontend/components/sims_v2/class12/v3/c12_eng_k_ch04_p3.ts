@@ -19,31 +19,31 @@ export const c12_eng_k_ch04_p3: SimDef = {
         hook: 'Conrad the master mariner builds the story in layers — tap-room gossip, Hagberd\'s own voice, the son\'s mercenary return — each stripping his self-mythology. The sailcloth suit and the unplanted spade aren\'t props; they\'re a man suspended between the sea he fled and the tomorrow he invented.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining a text beyond its literal meaning to interpret themes, evaluate character motivations, analyze narrative techniques, and synthesize evidence.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Tomorrow\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_04_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Walk Colebrook\'s coast like a psychologist: peel the story-within-a-story layers, weigh Bessie\'s complicity against Harry\'s brutal clarity, and answer the question — when does hope become a prison?',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_04_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a detective asked to solve a mystery: Why does Captain Hagberd insist his son will return "tomorrow" for seven years, and what does that.',
+          caseStudy: { intro: 'Analyse \'Tomorrow\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the primary literary device Conrad uses when Captain Hagberd repeatedly says "tomorrow" to mean both a literal day and.', options: [
                 { text: 'The primary device is **symbolism**', outcome: 'The primary device is **symbolism** — "tomorrow" functions as a symbol of Hagberd\'s delusional.' },
                 { text: 'repetition', outcome: 'Not quite — Students often believe "critical analysis" means listing literary devices (metaphor, irony.', reveals: 'critical-analysis-means-listing-literary' },
                 { text: 'foreshadowing', outcome: 'Not quite — Students often believe "critical analysis" means listing literary devices (metaphor, irony.', reveals: 'critical-analysis-means-listing-literary' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_04_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall facing a 6-mark question: "How does Conrad use the \'tomorrow\' motif to reveal Captain Hagberd\'s madness?" You freeze because.',
+          caseStudy: { intro: 'For written answers on \'Tomorrow\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'Define the PEEL structure for literature answers and state what each letter stands for.', options: [
                 { text: 'PEEL = Point (topic sentence stating your argument), Evidence (brief textual quote or', outcome: 'PEEL = Point (topic sentence stating your argument), Evidence (brief textual quote or reference).' },
                 { text: 'Point, Example, Explain, Conclusion', outcome: 'Not quite — Students believe "writing skills" means memorizing model answers for predicted questions.', reveals: 'writing-skills-means-memorizing-model' },
                 { text: 'writing skills', outcome: 'Not quite — Students believe "writing skills" means memorizing model answers for predicted questions.', reveals: 'writing-skills-means-memorizing-model' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_04_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a literature circle where someone claims "Captain Hagberd isn\'t really mad — he\'s just stubborn." How do you respond without just saying "I.',
+          caseStudy: { intro: 'Talk through \'Tomorrow\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the two discussion prompts given in the "Talking about the Text" section of the NCERT textbook for "Tomorrow"?', options: [
                 { text: 'The two prompts are: (1) \'Every mental state, even madness, has its equilibrium based', outcome: 'The two prompts are: (1) \'Every mental state, even madness, has its equilibrium based upon.' },
                 { text: 'comprehension questions or appreciation questions', outcome: 'Not quite — Students treat "discussion" as "sharing opinions" rather than "building arguments with evidence.".', reveals: 'students-treat-discussion-as-sharing' }
@@ -62,12 +62,12 @@ export const c12_eng_k_ch04_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_04_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining a text beyond its.',
+          question: 'Critical thinking on \'Tomorrow\' — analysing the text to reach evidence-based.',
           hint: 'If stuck, review the "Understanding the Text" questions on NCERT page 68 — they are.',
           misconception: 'Students often believe "critical analysis" means listing literary devices (metaphor, irony, symbolism) without.',
           parts: [
@@ -84,7 +84,7 @@ export const c12_eng_k_ch04_p3: SimDef = {
                   hint: 'If stuck, review the "Understanding the Text" questions on NCERT page 68 — they are ready-made.',
                   misconception: 'Students often believe "critical analysis" means listing literary devices (metaphor, irony, symbolism) without explaining *how* each device.' }
           ],
-            remediations: { 'critical-analysis-means-listing-literary': { steps: ['Re-read the "Stop and Think" questions in the NCERT text (pages 39–68) — they model the analytical moves this node.', 'Revisit node **c12_eng_k_cbse_04_009** (Irony and Symbolism) and **c12_eng_k_cbse_04_006** (Primary Theme) to refresh.', 'Practice the PEEL structure on a single paragraph: e.g., "How does the fence/railing function as a symbol?" Write one.', 'If still stuck, return to Class 11 critical thinking nodes **c11_eng_h_cbse_01_013** and **c11_eng_h_cbse_04_013** for.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-listing-literary': { steps: ['Re-read the "Stop and Think" questions in the NCERT text (pages 39–68) — they model the analytical moves this node.', 'Revisit node **c12_eng_k_cbse_04_009** (Irony and Symbolism) and **c12_eng_k_cbse_04_006** (Primary Theme) to refresh.', 'Practice the PEEL structure on a single paragraph: e.g., "How does the fence/railing function as a symbol?" Write one.', 'If still stuck, return to Class 11 critical thinking nodes **c11_eng_h_cbse_01_013** and **c11_eng_h_cbse_04_013** for.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_04_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -95,9 +95,9 @@ export const c12_eng_k_ch04_p3: SimDef = {
                   hint: 'If stuck, review the "Understanding the Text" questions on NCERT page 68 — they are ready-made.',
                   misconception: 'Students often believe "critical analysis" means listing literary devices (metaphor, irony, symbolism) without explaining *how* each device.' }
           ],
-            remediations: { 'critical-analysis-means-listing-literary': { steps: ['Re-read the "Stop and Think" questions in the NCERT text (pages 39–68) — they model the analytical moves this node.', 'Revisit node **c12_eng_k_cbse_04_009** (Irony and Symbolism) and **c12_eng_k_cbse_04_006** (Primary Theme) to refresh.', 'Practice the PEEL structure on a single paragraph: e.g., "How does the fence/railing function as a symbol?" Write one.', 'If still stuck, return to Class 11 critical thinking nodes **c11_eng_h_cbse_01_013** and **c11_eng_h_cbse_04_013** for.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-listing-literary': { steps: ['Re-read the "Stop and Think" questions in the NCERT text (pages 39–68) — they model the analytical moves this node.', 'Revisit node **c12_eng_k_cbse_04_009** (Irony and Symbolism) and **c12_eng_k_cbse_04_006** (Primary Theme) to refresh.', 'Practice the PEEL structure on a single paragraph: e.g., "How does the fence/railing function as a symbol?" Write one.', 'If still stuck, return to Class 11 critical thinking nodes **c11_eng_h_cbse_01_013** and **c11_eng_h_cbse_04_013** for.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_04_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter "Tomorrow" involve the ability to compose.',
+          question: 'Writing skills from \'Tomorrow\' — using the text as a model or springboard for.',
           hint: 'Review c12_eng_k_cbse_04_008 (Imagery/Metaphor) and c12_eng_k_cbse_04_009.',
           misconception: 'Students believe "writing skills" means memorizing model answers for predicted questions.',
           parts: [
@@ -106,18 +106,18 @@ export const c12_eng_k_ch04_p3: SimDef = {
                   hint: 'Review c12_eng_k_cbse_04_008 (Imagery/Metaphor) and c12_eng_k_cbse_04_009 (Irony/Symbolism).',
                   misconception: 'Students believe "writing skills" means memorizing model answers for predicted questions.' }
           ],
-            remediations: { 'writing-skills-means-memorizing-model': { steps: ['If a student cannot adapt content to question demands: 1) Have them deconstruct 3 past board questions on "Tomorrow".', '2) Practice rewriting one PEEL paragraph for each question type using the *same* evidence but different Points/Links.', '3) Use node c12_eng_k_cbse_04_013 (Critical Thinking) to rehearse question variation.', '4) Re-attempt Diagnostic Question 3 with a new prompt: "Analyze the fence as a narrative device."'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-means-memorizing-model': { steps: ['If a student cannot adapt content to question demands: 1) Have them deconstruct 3 past board questions on "Tomorrow".', '2) Practice rewriting one PEEL paragraph for each question type using the *same* evidence but different Points/Links.', '3) Use node c12_eng_k_cbse_04_013 (Critical Thinking) to rehearse question variation.', '4) Re-attempt Diagnostic Question 3 with a new prompt: "Analyze the fence as a narrative device."'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_04_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Tomorrow\' — speaking and listening around the text.',
           hint: 'If unable to cite evidence fluently, return to c12_eng_k_cbse_04_013 and complete the.',
           misconception: 'Students treat "discussion" as "sharing opinions" rather than "building arguments with evidence." They say "I think.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to the structured oral communication',
-                  options: ['Speaking and Listening: Discussion Points refers to the structured oral communication', '"Before You Read: Context and Background" provides the historical, biographical, and', 'Plot and narrative structure refers to the organization of events in a story, including', 'Setting in literature refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'Tomorrow\'',
+                  options: ['Discussion points on \'Tomorrow\'', '\'Tomorrow\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Tomorrow\'', 'The setting of \'Tomorrow\''],
                   hint: 'If unable to cite evidence fluently, return to c12_eng_k_cbse_04_013 and complete the "Evidence.',
                   misconception: 'Students treat "discussion" as "sharing opinions" rather than "building arguments with evidence." They say "I think Harry is selfish".' }
           ],
-            remediations: { 'students-treat-discussion-as-sharing': { steps: ['If a student cannot move beyond opinion-sharing: (1) Assign them the "Evidence Detective" role in the next discussion.', '(2) Use the "Two-Minute Rule": each speaker must quote or paraphrase a specific textual moment within their first two.', '(3) Practice with a low-stakes text (e.g., a newspaper editorial) to drill the "Claim → Evidence → Reasoning" loop.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-discussion-as-sharing': { steps: ['If a student cannot move beyond opinion-sharing: (1) Assign them the "Evidence Detective" role in the next discussion.', '(2) Use the "Two-Minute Rule": each speaker must quote or paraphrase a specific textual moment within their first two.', '(3) Practice with a low-stakes text (e.g., a newspaper editorial) to drill the "Claim → Evidence → Reasoning" loop.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

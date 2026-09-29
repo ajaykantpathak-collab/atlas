@@ -6,13 +6,13 @@ import C7_MathematicsAlgebraicExpressionsSim from '../../../simulations/c6_12/C7
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsalgebraicexpressionssim: SimDef = {
     id: 'v3w_c7_mathematicsalgebraicexpressionssim',
-    title: 'Algebraic Expressions',
+    title: 'Introduction to Arithmetic Expressions: Terms and Values',
     subtitle: 'Covers arithmetic expressions containing numbers and basic operations (+, -, ×, ÷) with.',
     classLevel: 7, subject: 'mathematics', topic: 'Introduction to Arithmetic Expressions: Terms and Values',
     chapters: [],
     nodeIds: ['c7_math_ch02_001', 'c7_math_ch02_002', 'c7_math_ch02_003', 'c7_math_ch02_004', 'c7_math_ch02_005', 'c7_math_ch02_006', 'c7_math_ch02_007', 'c7_math_ch02_008', 'c7_math_ch02_009', 'c7_math_ch02_010', 'c7_math_ch04_002', 'c7_math_ch04_003', 'c7_math_ch04_004', 'c7_math_ch04_005', 'c7_math_ch04_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine you go to a stationery shop in your neighborhood and buy 3 notebooks for ₹25 each and 2 pens for ₹10.', goal: 'Master Algebraic Expressions.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine you go to a stationery shop in your neighborhood and buy 3 notebooks for ₹25 each and 2 pens for ₹10.', goal: 'Master Introduction to Arithmetic Expressions: Terms and Values.' },
     discovery: {
         question: 'What does the letter \'D\' stand for in the BODMAS rule used for evaluating arithmetic expressions?',
         options: ['The letter \'D\' stands for Division', 'Decimal', 'Double'],
@@ -79,7 +79,7 @@ export const w_c7_mathematicsalgebraicexpressionssim: SimDef = {
             { text: 'Add the computed products together with units: $900 + 180 = 1080$ notebooks.', faded: true, blankAnswer: '1080 notebooks' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch02_002', title: 'Identify each idea',
-          dissect: { specimen: 'Algebraic Expressions', spots: [
+          dissect: { specimen: 'Introduction to Arithmetic Expressions: Terms and Values', spots: [
             { id: 's1', label: 'An arithmetic expression is a', prompt: 'Which idea is this? — An arithmetic expression is a combination of numbers and operational symbols (+, -, ×, ÷).', answer: 'An arithmetic expression is a', options: ['An arithmetic expression is a', 'Evaluating an arithmetic expression requires', 'Comparing arithmetic expressions involves evaluating', 'Equivalent expressions are arithmetic or'] },
             { id: 's2', label: 'Evaluating an arithmetic expression requires', prompt: 'Which idea is this? — Evaluating an arithmetic expression requires computing its final numerical value by.', answer: 'Evaluating an arithmetic expression requires', options: ['Evaluating an arithmetic expression requires', 'An arithmetic expression is a', 'Comparing arithmetic expressions involves evaluating', 'Equivalent expressions are arithmetic or'] },
             { id: 's3', label: 'Comparing arithmetic expressions involves evaluating', prompt: 'Which idea is this? — Comparing arithmetic expressions involves evaluating two separate expressions using the.', answer: 'Comparing arithmetic expressions involves evaluating', options: ['Comparing arithmetic expressions involves evaluating', 'An arithmetic expression is a', 'Evaluating an arithmetic expression requires', 'Equivalent expressions are arithmetic or'] },
@@ -88,7 +88,7 @@ export const w_c7_mathematicsalgebraicexpressionssim: SimDef = {
             { id: 's6', label: 'The distributive property in arithmetic', prompt: 'Which idea is this? — The distributive property in arithmetic expressions states that multiplying a number by a.', answer: 'The distributive property in arithmetic', options: ['The distributive property in arithmetic', 'An arithmetic expression is a', 'Evaluating an arithmetic expression requires', 'Comparing arithmetic expressions involves evaluating'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsAlgebraicExpressionsSim, prompt: 'Explore the interactive — Algebraic Expressions' },
+    explore: { component: C7_MathematicsAlgebraicExpressionsSim, prompt: 'Explore the interactive — Introduction to Arithmetic Expressions: Terms and Values' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch02_001', difficulty: 'standard',
           question: 'An arithmetic expression is a combination of numbers and operational symbols.',

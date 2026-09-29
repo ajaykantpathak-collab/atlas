@@ -6,13 +6,13 @@ import C12_PhysicsElectrostaticSystemChargesSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicselectrostaticsystemchargessim: SimDef = {
     id: 'v3w_c12_physicselectrostaticsystemchargessim',
-    title: 'Electrostatic System Charges',
+    title: 'Superposition Principle for Electric Forces',
     subtitle: 'This node covers the superposition principle for discrete point charges in vacuum/air as.',
     classLevel: 12, subject: 'physics', topic: 'Superposition Principle for Electric Forces',
     chapters: [],
     nodeIds: ['c12_phy_cbse_01_003', 'c12_phy_cbse_01_004', 'c12_phy_cbse_02_001', 'c12_phy_cbse_02_002', 'c12_phy_cbse_02_004', 'c12_phy_cbse_02_005', 'c12_phy_cbse_01_001', 'c12_phy_cbse_01_005', 'c12_phy_cbse_02_009', 'c12_phy_cbse_01_002', 'c12_phy_cbse_01_006', 'c12_phy_cbse_02_007', 'c12_phy_cbse_02_012', 'c12_phy_cbse_02_003', 'c12_phy_cbse_02_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you rub a plastic ruler with wool and bring it near small paper bits on your desk — they jump up.', goal: 'Master Electrostatic System Charges.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you rub a plastic ruler with wool and bring it near small paper bits on your desk — they jump up.', goal: 'Master Superposition Principle for Electric Forces.' },
     discovery: {
         question: 'What is the SI unit of electric field, and how is it derived from the definition \\(\\vec{E} = \\vec{F}/q\\)?',
         options: ['The SI unit is newton per coulomb (N/C)', 'without realizing it is equivalent', 'which inverts the definition'],
@@ -79,7 +79,7 @@ export const w_c12_physicselectrostaticsystemchargessim: SimDef = {
             { text: 'Verify sign: all charges positive → all pair energies positive → total positive (repulsive system).', faded: true, blankAnswer: '\\(1.95\\,\\text{J}\\) (approx)' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_01_004', title: 'Identify each idea',
-          dissect: { specimen: 'Electrostatic System Charges', spots: [
+          dissect: { specimen: 'Superposition Principle for Electric Forces', spots: [
             { id: 's1', label: 'The superposition principle for electric', prompt: 'Which idea is this? — The superposition principle for electric forces states that the net electrostatic force.', answer: 'The superposition principle for electric', options: ['The superposition principle for electric', 'Electric field at a point', 'Electrostatic potential at a point', 'The electrostatic potential at a'] },
             { id: 's2', label: 'Electric field at a point', prompt: 'Which idea is this? — Electric field at a point in space is defined as the electrostatic force per unit.', answer: 'Electric field at a point', options: ['Electric field at a point', 'The superposition principle for electric', 'Electrostatic potential at a point', 'The electrostatic potential at a'] },
             { id: 's3', label: 'Electrostatic potential at a point', prompt: 'Which idea is this? — Electrostatic potential at a point in an electric field is the work done by an external.', answer: 'Electrostatic potential at a point', options: ['Electrostatic potential at a point', 'The superposition principle for electric', 'Electric field at a point', 'The electrostatic potential at a'] },
@@ -88,7 +88,7 @@ export const w_c12_physicselectrostaticsystemchargessim: SimDef = {
             { id: 's6', label: 'The electrostatic potential energy of', prompt: 'Which idea is this? — The electrostatic potential energy of a system of point charges is the total work done by.', answer: 'The electrostatic potential energy of', options: ['The electrostatic potential energy of', 'The superposition principle for electric', 'Electric field at a point', 'Electrostatic potential at a point'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsElectrostaticSystemChargesSim, prompt: 'Explore the interactive — Electrostatic System Charges' },
+    explore: { component: C12_PhysicsElectrostaticSystemChargesSim, prompt: 'Explore the interactive — Superposition Principle for Electric Forces' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_01_003', difficulty: 'standard',
           question: 'The superposition principle for electric forces states that the net.',

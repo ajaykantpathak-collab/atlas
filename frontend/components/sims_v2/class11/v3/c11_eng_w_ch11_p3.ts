@@ -19,7 +19,7 @@ export const c11_eng_w_ch11_p3: SimDef = {
         hook: 'Even the song is \'fresh-peeled\' — a kitchen verb, raw and domestic, not \'melodious\'; Larkin refuses the poetic word on purpose.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the disciplined process of actively examining a text\'s components—such as imagery, structure, tone, and thematic implications—to construct a reasoned.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Coming\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_11_013', title: 'Your mission',
@@ -29,20 +29,20 @@ export const c11_eng_w_ch11_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_11_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you hear a bird singing suddenly on a cold January evening in Delhi—it feels wrong, yet hopeful. That tension is exactly where this poem begins.',
+          caseStudy: { intro: 'Analyse \'Coming\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the primary function of the thrush\'s song in the first stanza of "Coming"?', options: [
                 { text: 'The thrush\'s song announces the imminent arrival of spring ("It will be spring soon"),', outcome: 'The thrush\'s song announces the imminent arrival of spring ("It will be spring soon"), acting as.' },
                 { text: 'It describes a bird singing', outcome: 'Not quite — Students conflate *identifying* a literary device (e.g., "There is a simile in stanza 2") with.', reveals: 'students-conflate-identifying-a-literary' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_11_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re asked: "How does Larkin use the thrush\'s song to convey the arrival of spring?" A weak answer might just say: "The thrush sings and it means.',
+          caseStudy: { intro: 'For written answers on \'Coming\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing literature answers?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explanation, Line', outcome: 'Not quite — Students believe "writing about a poem" means explaining what each stanza *says* in their own.', reveals: 'writing-about-a-poem-means' },
                 { text: 'writing about a poem', outcome: 'Not quite — Students believe "writing about a poem" means explaining what each stanza *says* in their own.', reveals: 'writing-about-a-poem-means' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_11_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a literature circle where everyone has read "Coming" but interpretations differ wildly — one classmate thinks the poem is purely joyful about.',
+          caseStudy: { intro: 'Talk through \'Coming\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the three essential components of a text-anchored discussion point for a poem like "Coming"?', options: [
                 { text: 'A text-anchored discussion point requires: (1) a specific reference to the poem (line,', outcome: 'A text-anchored discussion point requires: (1) a specific reference to the poem (line, image,.' },
                 { text: 'opinions', outcome: 'Not quite — Students believe "discussion" means sharing personal feelings or vague agreements ("I liked the.', reveals: 'discussion-means-sharing-personal-feelings' },
@@ -67,18 +67,18 @@ export const c11_eng_w_ch11_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_11_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the disciplined process of actively.',
+          question: 'Critical thinking on \'Coming\' — analysing the text to reach evidence-based.',
           hint: 'If stuck, review the "Literary Devices: Imagery and Metaphor" node.',
           misconception: 'Students conflate *identifying* a literary device (e.g., "There is a simile in stanza 2") with *analyzing* it.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis is the disciplined process of actively examining a',
-                  options: ['Critical thinking in literary analysis is the disciplined process of actively examining a', 'Context and background in literary study refers to the biographical, historical, and', 'Plot and narrative structure in poetry refers to the organized sequence of events,', 'Setting in poetry refers to the specific time, place, and physical environment where the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'Coming\'',
+                  options: ['Critical thinking on \'Coming\'', '\'Coming\' (Woven Words, ch', 'The plot/narrative arc of \'Coming\'', 'The setting of \'Coming\''],
                   hint: 'If stuck, review the "Literary Devices: Imagery and Metaphor" node (c11_eng_w_cbse_11_008) and.',
                   misconception: 'Students conflate *identifying* a literary device (e.g., "There is a simile in stanza 2") with *analyzing* it.' }
           ],
             remediations: { 'students-conflate-identifying-a-literary': { steps: ['Return to the simile and ask the student to draw two stick-figure panels: Panel A = the thrush singing (certain.', 'Have them write one sentence connecting Panel A to Panel B using the word "because." 3.', 'Guide them to see that the *structure* of the poem *is* that connection: nature\'s certainty triggers the speaker\'s.', 'Finally, ask them to rewrite their analysis paragraph using the sentence: "Larkin uses the simile not to explain the.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_11_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter "Coming" refers to the ability to compose.',
+          question: 'Writing skills from \'Coming\' — using the text as a model or springboard for.',
           hint: 'If stuck, revisit c11_eng_w_cbse_11_008 (imagery/metaphor) and c11_eng_w_cbse_11_013.',
           misconception: 'Students believe "writing about a poem" means explaining what each stanza *says* in their own words.',
           parts: [
@@ -104,7 +104,7 @@ export const c11_eng_w_ch11_p3: SimDef = {
           ],
             remediations: { 'writing-about-a-poem-means': { steps: ['Give the student a model PEEL paragraph on a different poem (e.g., "The Cherry Tree" from Class 8).', 'Colour-code each sentence: Point (blue), Evidence (green), Explanation (orange), Link (red).', 'Ask them to label each sentence in their own "Coming" answer with the same colours.', 'Any uncoloured sentence is either summary or fluff—delete or convert.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_11_015', difficulty: 'standard',
-          question: 'Speaking and Listening discussion points are structured conversational.',
+          question: 'Discussion points on \'Coming\' — speaking and listening around the text.',
           hint: 'If stuck, review c11_eng_w_cbse_11_008 (Literary Devices: Imagery and Metaphor) for the.',
           misconception: 'Students believe "discussion" means sharing personal feelings or vague agreements ("I liked the bird part") rather than.',
           parts: [

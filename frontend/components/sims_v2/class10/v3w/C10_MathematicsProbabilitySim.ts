@@ -6,13 +6,13 @@ import C10_MathematicsProbabilitySim from '../../../simulations/c6_12/C10_Mathem
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_mathematicsprobabilitysim: SimDef = {
     id: 'v3w_c10_mathematicsprobabilitysim',
-    title: 'Probability',
+    title: 'Classical Definition of Probability: Equally Likely Outcomes',
     subtitle: 'This node covers the classical definition of probability with equally likely outcomes and.',
     classLevel: 10, subject: 'mathematics', topic: 'Classical Definition of Probability: Equally Likely Outcomes',
     chapters: [],
     nodeIds: ['c10_math_cbse_14_001', 'c10_math_cbse_14_002', 'c10_math_cbse_14_003', 'c10_math_cbse_14_004', 'c10_math_cbse_14_005', 'c10_math_cbse_14_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine tossing a fair coin. There are two possible outcomes: Heads (H) and Tails (T).', goal: 'Master Probability.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine tossing a fair coin. There are two possible outcomes: Heads (H) and Tails (T).', goal: 'Master Classical Definition of Probability: Equally Likely Outcomes.' },
     discovery: {
         question: 'When rolling a single die, a student defines event E = {2, 4, 6} and event F = {1, 3, 5}. The student claims E and F are complementary events.',
         options: ['Yes, the claim is correct', 'complementary', 'equally likely'],
@@ -79,7 +79,7 @@ export const w_c10_mathematicsprobabilitysim: SimDef = {
             { text: 'Verify: 0 ≤ 1/2 ≤ 1 ✓. All classifications consistent with the formula.', faded: true, blankAnswer: '(a) Certain, P = 1. (b) Impossible, P = 0. (c) Probable, P.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_math_cbse_14_002', title: 'Identify each idea',
-          dissect: { specimen: 'Probability', spots: [
+          dissect: { specimen: 'Classical Definition of Probability: Equally Likely Outcomes', spots: [
             { id: 's1', label: 'The classical definition of probability', prompt: 'Which idea is this? — The classical definition of probability states that if an experiment has n equally likely.', answer: 'The classical definition of probability', options: ['The classical definition of probability', 'The sample space of a', 'The probability of an event', 'An elementary event is an'] },
             { id: 's2', label: 'The sample space of a', prompt: 'Which idea is this? — The sample space of a random experiment is the set of all possible outcomes of that.', answer: 'The sample space of a', options: ['The sample space of a', 'The classical definition of probability', 'The probability of an event', 'An elementary event is an'] },
             { id: 's3', label: 'The probability of an event', prompt: 'Which idea is this? — The probability of an event E, denoted P(E), is defined as the ratio of the number of.', answer: 'The probability of an event', options: ['The probability of an event', 'The classical definition of probability', 'The sample space of a', 'An elementary event is an'] },
@@ -88,7 +88,7 @@ export const w_c10_mathematicsprobabilitysim: SimDef = {
             { id: 's6', label: 'An impossible event has probability', prompt: 'Which idea is this? — An impossible event has probability 0 — it can never occur under any circumstances.', answer: 'An impossible event has probability', options: ['An impossible event has probability', 'The classical definition of probability', 'The sample space of a', 'The probability of an event'] }
           ] } }
     ],
-    explore: { component: C10_MathematicsProbabilitySim, prompt: 'Explore the interactive — Probability' },
+    explore: { component: C10_MathematicsProbabilitySim, prompt: 'Explore the interactive — Classical Definition of Probability: Equally Likely Outcomes' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_math_cbse_14_001', difficulty: 'standard',
           question: 'The classical definition of probability states that if an experiment has n.',

@@ -6,13 +6,13 @@ import C11_EVSInternationalLegalRegimesSim from '../../../simulations/c6_12/C11_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_evsinternationallegalregimessim: SimDef = {
     id: 'v3w_c11_evsinternationallegalregimessim',
-    title: 'International Legal Regimes',
+    title: 'National Parks and Wildlife Sanctuaries: Distinction and Examples',
     subtitle: 'This node covers the legal distinction, declaration criteria, management objectives, and.',
     classLevel: 11, subject: 'evs', topic: 'National Parks and Wildlife Sanctuaries: Distinction and Examples',
     chapters: [],
     nodeIds: ['c11_geo_cbse_15_005', 'c11_geo_cbse_15_008', 'c11_geo_cbse_19_008', 'c11_geo_cbse_09_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at the boundary of Jim Corbett National Park in Uttarakhand and then travel to the.', goal: 'Master International Legal Regimes.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at the boundary of Jim Corbett National Park in Uttarakhand and then travel to the.', goal: 'Master National Parks and Wildlife Sanctuaries: Distinction and Examples.' },
     discovery: {
         question: 'On an outline map of India, you see a protected area in the Sundarbans delta marked as a National Park and another in the same region marked as a Wildlife.',
         options: ['Step 1: Identify the conservation objective', 'the Sanctuary was created first', 'the National Park is for tourists'],
@@ -61,14 +61,14 @@ export const w_c11_evsinternationallegalregimessim: SimDef = {
             { text: 'Verify: the gorge depth and the river\'s transverse course across the structural grain confirm antecedent origin.', faded: true, blankAnswer: 'The Brahmaputra is an antecedent river that maintained its.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_geo_cbse_15_008', title: 'Identify each idea',
-          dissect: { specimen: 'International Legal Regimes', spots: [
+          dissect: { specimen: 'National Parks and Wildlife Sanctuaries: Distinction and Examples', spots: [
             { id: 's1', label: 'A National Park is a', prompt: 'Which idea is this? — A National Park is a strictly protected area declared under Section 35 of the Wildlife.', answer: 'A National Park is a', options: ['A National Park is a', 'The Wildlife Protection Act 1972', 'Conservation of mineral and energy', 'The drainage system of India'] },
             { id: 's2', label: 'The Wildlife Protection Act 1972', prompt: 'Which idea is this? — The Wildlife Protection Act (1972) is an Indian parliamentary legislation that provides a.', answer: 'The Wildlife Protection Act 1972', options: ['The Wildlife Protection Act 1972', 'A National Park is a', 'Conservation of mineral and energy', 'The drainage system of India'] },
             { id: 's3', label: 'Conservation of mineral and energy', prompt: 'Which idea is this? — Conservation of mineral and energy resources refers to the systematic management,.', answer: 'Conservation of mineral and energy', options: ['Conservation of mineral and energy', 'A National Park is a', 'The Wildlife Protection Act 1972', 'The drainage system of India'] },
             { id: 's4', label: 'The drainage system of India', prompt: 'Which idea is this? — The drainage system of India comprises two distinct river regimes: Himalayan rivers.', answer: 'The drainage system of India', options: ['The drainage system of India', 'A National Park is a', 'The Wildlife Protection Act 1972', 'Conservation of mineral and energy'] }
           ] } }
     ],
-    explore: { component: C11_EVSInternationalLegalRegimesSim, prompt: 'Explore the interactive — International Legal Regimes' },
+    explore: { component: C11_EVSInternationalLegalRegimesSim, prompt: 'Explore the interactive — National Parks and Wildlife Sanctuaries: Distinction and Examples' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_15_005', difficulty: 'standard',
           question: 'A National Park is a strictly protected area declared under Section 35 of the.',

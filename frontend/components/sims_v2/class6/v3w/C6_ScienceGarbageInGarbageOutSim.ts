@@ -6,13 +6,13 @@ import C6_ScienceGarbageInGarbageOutSim from '../../../simulations/c6_12/C6_Scie
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_sciencegarbageingarbageoutsim: SimDef = {
     id: 'v3w_c6_sciencegarbageingarbageoutsim',
-    title: 'Garbage In Garbage Out',
+    title: 'Respiration in Animals: How Breathing Works',
     subtitle: 'This node covers the mechanics of breathing (diaphragm and rib movement) and the purpose.',
     classLevel: 6, subject: 'science', topic: 'Respiration in Animals: How Breathing Works',
     chapters: [],
     nodeIds: ['c6_biology_ch09_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever noticed how your chest moves when you take a deep breath after running?', goal: 'Master Garbage In Garbage Out.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever noticed how your chest moves when you take a deep breath after running?', goal: 'Master Respiration in Animals: How Breathing Works.' },
     discovery: {
         question: 'When you inhale, the diaphragm moves downward. What do you think happens to the diaphragm when you exhale?',
         options: ['It moves upward, pushing against the lungs to help squeeze the air out', 'stays the same', 'moves down again'],
@@ -31,7 +31,7 @@ export const w_c6_sciencegarbageingarbageoutsim: SimDef = {
                 { text: 'the lungs themselves "pull" the air in, similar to a sponge soaking up water', outcome: 'Not quite — Students often think that the lungs themselves "pull" the air in, similar to a sponge soaking up.', reveals: 'the-lungs-themselves-pull-the' }
             ] }] } }
     ],
-    explore: { component: C6_ScienceGarbageInGarbageOutSim, prompt: 'Explore the interactive — Garbage In Garbage Out' },
+    explore: { component: C6_ScienceGarbageInGarbageOutSim, prompt: 'Explore the interactive — Respiration in Animals: How Breathing Works' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_biology_ch09_004', difficulty: 'standard',
           question: 'Breathing is the mechanical action of moving air into and out of the lungs to.',

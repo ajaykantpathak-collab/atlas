@@ -19,7 +19,7 @@ export const c12_eng_f_ch09_p2: SimDef = {
         hook: 'The poem\'s engine isn\'t the airport drive — it\'s the thought she \'put away.\' Confessional poetry runs on suppression and eruption: the old familiar ache, the smile that says \'see you soon\' while fearing otherwise. Kerala\'s matrilineal bond is the cultural weight under every line.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying, complementary ideas in a literary work that support and enrich the primary theme, often revealing deeper layers of human experience such as the passage of time.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'My Mother at Sixty-six\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_09_007', title: 'Your mission',
@@ -29,34 +29,34 @@ export const c12_eng_f_ch09_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_09_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are sitting beside an elderly parent at a railway station, watching the world rush by while time seems to slow down for them — this poem captures.',
+          caseStudy: { intro: 'Look beneath the main theme of \'My Mother at Sixty-six\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a secondary theme in poetry, and how does it differ from the primary theme?', options: [
                 { text: 'A secondary theme is a supporting idea that runs parallel to the primary theme, adding', outcome: 'A secondary theme is a supporting idea that runs parallel to the primary theme, adding depth and.' },
                 { text: 'less important themes', outcome: 'Not quite — Students often treat secondary themes as a "list of other topics mentioned in the poem" (e.g.', reveals: 'students-often-treat-secondary-themes' },
                 { text: 'Secondary themes are trees, children, and moon', outcome: 'Not quite — Students often treat secondary themes as a "list of other topics mentioned in the poem" (e.g.', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_09_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are sitting in a car watching your grandmother doze off beside you — her skin paper-thin, colour drained, mouth slightly open.',
+          caseStudy: { intro: 'Find the lines in \'My Mother at Sixty-six\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "imagery" and "metaphor" in your own words, giving one example of each from everyday language (not from the poem).', options: [
                 { text: 'Imagery: Language appealing to senses (e.g., "The kitchen smelled of frying cumin and', outcome: 'Imagery: Language appealing to senses (e.g., "The kitchen smelled of frying cumin and onions".' },
                 { text: 'her face *looked like* a corpse', outcome: 'Not quite — Students believe "imagery" means only visual description (pictures in the mind) and that any.', reveals: 'imagery-means-only-visual-description' },
                 { text: 'imagery', outcome: 'Not quite — Students believe "imagery" means only visual description (pictures in the mind) and that any.', reveals: 'imagery-means-only-visual-description' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_09_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are at a railway station saying goodbye to a grandparent; you smile and wave, but inside you fear it might be the last time.',
+          caseStudy: { intro: 'Look in \'My Mother at Sixty-six\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'What is the basic definition of irony as a literary device?', options: [
                 { text: 'Irony is a literary device where there is a contradiction between what is said or', outcome: 'Irony is a literary device where there is a contradiction between what is said or expected and what.' },
                 { text: 'irony is a funny coincidence', outcome: 'Not quite — Students often think the poet\'s smile is genuine happiness or relief, missing that it is.', reveals: 'the-poet-s-smile-is' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_09_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Start by asking the student to read the poem aloud and notice how the entire poem flows as one long sentence.',
+          caseStudy: { intro: 'Read \'My Mother at Sixty-six\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'What is the overall sentence structure of "My Mother at Sixty-six," and how is it punctuated?', options: [
                 { text: 'The poem is written as a single sentence punctuated only by commas and ending with an', outcome: 'The poem is written as a single sentence punctuated only by commas and ending with an ellipsis.' },
                 { text: 'multiple sentences', outcome: 'Not quite — Students often think "grammar in poetry" means finding errors or labeling parts of speech.', reveals: 'grammar-in-poetry-means-finding' },
                 { text: 'uses full stops', outcome: 'Not quite — Students often think "grammar in poetry" means finding errors or labeling parts of speech.', reveals: 'grammar-in-poetry-means-finding' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_09_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and see the question: "Why does the poet \'smile and smile and smile\'?" Your first instinct might be to write "because.',
+          caseStudy: { intro: 'Answer \'My Mother at Sixty-six\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the defining characteristic of a literal comprehension question?', options: [
                 { text: 'A literal comprehension question asks for information that is explicitly stated in the', outcome: 'A literal comprehension question asks for information that is explicitly stated in the text and can.' },
                 { text: 'It asks for the main idea', outcome: 'Not quite — Students treat inferential questions as "opinion questions" and write personal feelings ("I think.', reveals: 'students-treat-inferential-questions-as' },
@@ -81,7 +81,7 @@ export const c12_eng_f_ch09_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_09_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying, complementary ideas in a literary work.',
+          question: 'Secondary themes in \'My Mother at Sixty-six\' — the supporting ideas and motifs.',
           hint: 'If stuck, return to c12_eng_f_cbse_09_006 and practice the "Theme-Evidence-Explanation".',
           misconception: 'Students often treat secondary themes as a "list of other topics mentioned in the poem" (e.g., "trees, children.',
           parts: [
@@ -107,7 +107,7 @@ export const c12_eng_f_ch09_p2: SimDef = {
           ],
             remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student cannot distinguish images from themes: (1) Have them complete this sentence frame for each image: "The.', '(3) Label each cluster with a thematic statement (not a noun).', '(4) Verify each thematic statement connects to the primary theme (aging/separation).', 'Remediation node: c12_eng_f_cbse_09_006 (Primary Theme) — revisit how the primary theme was derived from textual.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_09_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'My Mother at Sixty-six\' — the vivid, sensory language that creates.',
           hint: 'If unable to separate imagery from metaphor, return to c6_english_u1_005 and.',
           misconception: 'Students believe "imagery" means only visual description (pictures in the mind) and that any comparison using "like/as".',
           parts: [
@@ -126,7 +126,7 @@ export const c12_eng_f_ch09_p2: SimDef = {
           ],
             remediations: { 'imagery-means-only-visual-description': { steps: ['Revisit c6_english_u1_005 (Poetic Devices: Rhyme Scheme, Metaphor, Imagery) and c7_engl_ch01_008 (Literary Devices.', 'Do a "sense-hunt" exercise: take any paragraph from the newspaper, highlight every word appealing to sight, sound.', 'Practice converting 5 similes into metaphors by deleting "like/as" and adjusting the verb (e.g., "Her smile *was*.', 'Re-read the poem *only* for the mother\'s images — list them in order.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_09_009', difficulty: 'standard',
-          question: 'Irony in literature is a contrast between expectation and reality, where the.',
+          question: 'Irony and paradox in \'My Mother at Sixty-six\' — where opposite things are both.',
           hint: 'If stuck, review the irony/symbolism definitions in c11_eng_h_cbse_01_009 and the imagery.',
           misconception: 'Students often think the poet\'s smile is genuine happiness or relief, missing that it is a deliberate mask.',
           parts: [
@@ -137,29 +137,29 @@ export const c12_eng_f_ch09_p2: SimDef = {
           ],
             remediations: { 'the-poet-s-smile-is': { steps: ['Re-read the poem aloud, pausing at each comma to note the speaker\'s shifting focus.', 'Make a two-column table: left column "Outward Action/Words", right column "Inner Feeling" — fill it for the smile, the.', 'For each symbol (moon, trees, children), write the literal meaning and the abstract idea it evokes.', 'Re-attempt Diagnostic Questions 2 and 3; if still stuck, revisit Class 11 node c11_eng_h_cbse_01_009 on irony and.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_09_010', difficulty: 'standard',
-          question: 'Vocabulary in context refers to the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'My Mother at Sixty-six\' — the words and phrases you must.',
           hint: 'If stuck, review **c11_eng_h_cbse_01_010 Worked Example 2** (Substitution Test on "The.',
           misconception: '**Misconception:** "Learning vocabulary for this poem means memorizing the NCERT glossary meanings (sprinting = short.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in context refers to the skill of determining the precise meaning,',
-                  options: ['Vocabulary in context refers to the skill of determining the precise meaning,', '"Before You Read: Context and Background" is a pre-reading strategy that prepares', 'Plot and narrative structure in poetry refers to the sequence of events and the', 'Setting in poetry refers to the time, place, and physical environment where the poem'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Key vocabulary of \'My Mother at Sixty-six\'',
+                  options: ['Key vocabulary of \'My Mother at Sixty-six\'', '\'My Mother at Sixty-six\' (Flamingo, ch', 'The plot/narrative arc of \'My Mother at Sixty-six\'', 'The setting of \'My Mother at Sixty-six\''],
                   hint: 'If stuck, review **c11_eng_h_cbse_01_010 Worked Example 2** (Substitution Test on "The Road Not.',
                   misconception: '**Misconception:** "Learning vocabulary for this poem means memorizing the NCERT glossary meanings (sprinting = short fast race, wan.' }
           ],
             remediations: { 'misconception-learning-vocabulary-for-this': { steps: ['**Revisit c11_eng_h_cbse_01_010 / c11_eng_h_cbse_02_010 (Class 11 Vocabulary nodes):** Re-learn the.', '**Re-read the poem aloud** focusing **only on the 11 key words**.', 'For each, ask: "If I change this word to a synonym, what specific picture/feeling disappears?" 3.', '**Do the Substitution Test (Diagnostic Q3)** for *ashen, sprinting, spilling, wan, smile* — write 3 synonyms each and.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_09_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to analyzing how the poet\'s.',
+          question: 'Language and style in \'My Mother at Sixty-six\' — how the writer chose words.',
           hint: 'Review participle phrases in c11_eng_h_cbse_02_011 (Grammar: Language Usage - Tense and.',
           misconception: 'Students often think "grammar in poetry" means finding errors or labeling parts of speech.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Grammar: Language Usage in the Text refers to analyzing how the poet\'s grammatical',
-                  options: ['Grammar: Language Usage in the Text refers to analyzing how the poet\'s grammatical', '"Before You Read: Context and Background" is a pre-reading strategy that prepares', 'Plot and narrative structure in poetry refers to the sequence of events and the', 'Setting in poetry refers to the time, place, and physical environment where the poem'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language and style in \'My Mother at Sixty-six\'',
+                  options: ['Language and style in \'My Mother at Sixty-six\'', '\'My Mother at Sixty-six\' (Flamingo, ch', 'The plot/narrative arc of \'My Mother at Sixty-six\'', 'The setting of \'My Mother at Sixty-six\''],
                   hint: 'Review participle phrases in c11_eng_h_cbse_02_011 (Grammar: Language Usage - Tense and Aspect).',
                   misconception: 'Students often think "grammar in poetry" means finding errors or labeling parts of speech.' }
           ],
             remediations: { 'grammar-in-poetry-means-finding': { steps: ['Have the student read the poem aloud three times, marking every comma and line break with a slash (/).', 'Ask them to circle all -ing words and label each as participle or gerund.', 'Have them rewrite the poem as normal sentences (with full stops) and compare the emotional effect.', 'Revisit c11_eng_h_cbse_01_011 (Class 11 Grammar: Language Usage) for participle phrases and single-sentence structures.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_09_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require retrieving information explicitly.',
+          question: 'Literal comprehension of \'My Mother at Sixty-six\' — questions answered straight.',
           hint: 'If stuck, re-read the poem aloud focusing on sound and rhythm, then revisit.',
           misconception: 'Students treat inferential questions as "opinion questions" and write personal feelings ("I think the poet is sad").',
           parts: [

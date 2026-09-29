@@ -19,7 +19,7 @@ export const c12_hin_v_ch01_p3: SimDef = {
         hook: 'The villain isn\'t poverty — it\'s prosperity: \'log kya kahenge\' replaces love with performance, and the silver wedding of marriage becomes a silver waiting room for the parents. Vanaprastha was chosen withdrawal; the retirement home is bureaucratic deposit — that\'s the modernity critique.',
     },
     teaching: [
-        { title: 'सल्विर वैडिंग — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ की गहन जाँच-पड़ताल है जिसमें पाठ के स्पष्ट अर्थ (explicit meaning) से आगे जाकर उसके निहितार्थ (implicit meaning), अंतर्विरोध, लेखकीय उद्देश्य.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'सल्विर वैडिंग — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'वितान भाग-2 — पाठ 1\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_v_cbse_01_013', title: 'Your mission',
@@ -29,7 +29,7 @@ export const c12_hin_v_ch01_p3: SimDef = {
         labels: ['सल्विर वैडिंग — आलोचनात्मक', 'सल्विर वैडिंग — लेखन', 'सल्विर वैडिंग — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'build', nodeId: 'c12_hin_v_cbse_01_014', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['प्रश्न का कीवर्ड पहचानें — "द्वंद्व" (conflict).', 'Point लिखें — "यशोधर का चरित्र परंपरागत मूल्यों और आधुनिक.', 'Evidence चुनें (2 विशिष्ट क्षण) — (अ) रजत जयंती की.', 'Explanation लिखें — (अ) उसकी चुप्पी परंपरा के भार तले.', 'Link लिखें — "यह द्वंद्व उपन्यास के केंद्रीय विषय \'पीढ़ीगत.'], answer: 'प्रश्न का कीवर्ड पहचानें — "द्वंद्व" (conflict). Point लिखें — "यशोधर का चरित्र परंपरागत मूल्यों और आधुनिक. Evidence चुनें (2 विशिष्ट क्षण) — (अ) रजत जयंती की. Explanation लिखें — (अ) उसकी चुप्पी परंपरा के भार तले. Link लिखें — "यह द्वंद्व उपन्यास के केंद्रीय विषय \'पीढ़ीगत.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['प्रश्न का कीवर्ड पहचानें — "द्वंद्व" (conflict).', 'Evidence चुनें (2 विशिष्ट क्षण) — (अ) रजत जयंती की.', 'Point लिखें — "यशोधर का चरित्र परंपरागत मूल्यों और आधुनिक.', 'Link लिखें — "यह द्वंद्व उपन्यास के केंद्रीय विषय \'पीढ़ीगत.', 'Explanation लिखें — (अ) उसकी चुप्पी परंपरा के भार तले.'], answer: 'प्रश्न का कीवर्ड पहचानें — "द्वंद्व" (conflict). Point लिखें — "यशोधर का चरित्र परंपरागत मूल्यों और आधुनिक. Evidence चुनें (2 विशिष्ट क्षण) — (अ) रजत जयंती की. Explanation लिखें — (अ) उसकी चुप्पी परंपरा के भार तले. Link लिखें — "यह द्वंद्व उपन्यास के केंद्रीय विषय \'पीढ़ीगत.' } },
         { type: 'case', nodeId: 'c12_hin_v_cbse_01_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Volunteering at an old-age home, you find one resident, Shyam Lal, drifting mid-sentence into stories of his dead friend Phunkun whenever a train whistle sounds. The coordinator wants him \'redirected to the present\' every time.',
             decisions: [{ prompt: 'What does the story\'s dual-timeline structure say about that redirection?', options: [
@@ -49,34 +49,34 @@ export const c12_hin_v_ch01_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_01_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ की गहन जाँच-पड़ताल है.',
+          question: '\'वितान भाग-2 — पाठ 1\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
           hint: 'अगर अटकें तो c12_hin_v_cbse_01_012 (बोध-प्रश्न) पर लौटें — वहाँ प्रमाण ढूँढ़ने का अभ्यास.',
           misconception: 'छात्र समझते हैं कि \'आलोचनात्मक चिंतन\' = \'पाठ की कमियाँ निकालना\' या \'अपनी राय लिखना\'। असल में यह **पाठ-आधारित साक्ष्य.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ की गहन जाँच-पड़ताल है जिसमें पाठ',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ की गहन जाँच-पड़ताल है जिसमें पाठ', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक अनुशासन है जिसमें किसी रचना के सृजन-काल की', '**कथानक** घटनाओं का तार्किक-कारणात्मक क्रम है (घटना अ → घटना ब → घटना स), जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना का भौगोलिक, ऐतिहासिक, सामाजिक-सांस्कृतिक और भावनात्मक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-2 — पाठ 1\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+                  options: ['\'वितान भाग-2 — पाठ 1\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-2 — पाठ 1\' का कथानक — \'वितान भाग-2 — पाठ 1\' — वितान भाग-2 का पाठ। पाठ का', '\'वितान भाग-2 — पाठ 1\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'अगर अटकें तो c12_hin_v_cbse_01_012 (बोध-प्रश्न) पर लौटें — वहाँ प्रमाण ढूँढ़ने का अभ्यास है।',
                   misconception: 'छात्र समझते हैं कि \'आलोचनात्मक चिंतन\' = \'पाठ की कमियाँ निकालना\' या \'अपनी राय लिखना\'। असल में यह **पाठ-आधारित साक्ष्य (textual evidence) से.' }
           ],
             remediations: { 'textual-evidence': { steps: ['छात्र को पाठ का एक छोटा अंश (5-6 पंक्तियाँ) दें और कहें: "यहाँ लेखक ने **क्या** कहा, **कैसे** कहा, और **क्यों** ऐसा कहा.', 'फिर उससे पूछें: "अगर यहाँ \'और\' की जगह \'लेकिन\' होता तो अर्थ कैसे बदलता?" — यह **भाषा-चयन (diction)** की संवेदनशीलता.', 'अंत में उससे एक **दावा-प्रमाण-व्याख्या (Claim-Evidence-Explanation)** तालिका भरवाएँ जिसमें तीन कॉलम हों — इससे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_01_014', difficulty: 'standard',
-          question: '"लेखन कौशल: पाठ-आधारित" is the competency of constructing structured.',
+          question: '\'वितान भाग-2 — पाठ 1\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि PEEL संरचना समझ न आए: c11_hin_v_cbse_01_014 (कक्षा 11 वितान लेखन कौशल) के.',
           misconception: '**विशिष्ट भ्रांति:** "अच्छा उत्तर = पाठ की अधिक से अधिक जानकारी लिख देना।" **वास्तविकता:** CBSE बोर्ड परीक्षा में *अधिक.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"लेखन कौशल: पाठ-आधारित" is the competency of constructing structured, evidence-backed',
-                  options: ['"लेखन कौशल: पाठ-आधारित" is the competency of constructing structured, evidence-backed', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक अनुशासन है जिसमें किसी रचना के सृजन-काल की', '**कथानक** घटनाओं का तार्किक-कारणात्मक क्रम है (घटना अ → घटना ब → घटना स), जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना का भौगोलिक, ऐतिहासिक, सामाजिक-सांस्कृतिक और भावनात्मक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-2 — पाठ 1\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+                  options: ['\'वितान भाग-2 — पाठ 1\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-2 — पाठ 1\' का कथानक — \'वितान भाग-2 — पाठ 1\' — वितान भाग-2 का पाठ। पाठ का', '\'वितान भाग-2 — पाठ 1\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि PEEL संरचना समझ न आए: c11_hin_v_cbse_01_014 (कक्षा 11 वितान लेखन कौशल) के WORKED_EXAMPLE_1 को.',
                   misconception: '**विशिष्ट भ्रांति:** "अच्छा उत्तर = पाठ की अधिक से अधिक जानकारी लिख देना।" **वास्तविकता:** CBSE बोर्ड परीक्षा में *अधिक लिखने* पर अंक नहीं.' }
           ],
             remediations: { 'cbse': { steps: ['**निदान:** छात्र से एक पुराना उत्तर लें — PEEL लेबल (P, E, E, L) लगाने को कहें। यदि वे नहीं लगा पाते → संरचना समझ नहीं.', '**उपचार:** c12_hin_v_cbse_01_014 के WORKED_EXAMPLE_1 को साथ पढ़ें — प्रत्येक चरण पर रुकें, पूछें: "यहाँ Point कहाँ.', 'Evidence कहाँ शुरू होता है?" 3.', '**अभ्यास:** एक ही प्रश्न पर 3 उत्तर लिखवाएं: (अ) बिना PEEL, (ब) केवल P+E, (स) पूर्ण PEEL — फिर CBSE नमूना अंकन योजना से.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_v_cbse_01_015', difficulty: 'standard',
-          question: '\'वाचन-श्रवण: चर्चा-बिंदु\' एक सहयोगी शिक्षण प्रक्रिया है जिसमें छात्र किसी.',
+          question: '\'वितान भाग-2 — पाठ 1\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
           hint: 'यदि अटका हुआ महसूस हो तो: c12_hin_v_cbse_01_013 (आलोचनात्मक चिंतन) पर लौटें — वहाँ दी गई.',
           misconception: 'छात्र समझते हैं कि \'चर्चा-बिंदु\' का अर्थ है — पाठ से 5-10 प्रश्न तैयार कर लेना जिनके \'सही उत्तर\' शिक्षक को पता हों।.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वाचन-श्रवण: चर्चा-बिंदु\' एक सहयोगी शिक्षण प्रक्रिया है जिसमें छात्र किसी साहित्यिक पाठ',
-                  options: ['\'वाचन-श्रवण: चर्चा-बिंदु\' एक सहयोगी शिक्षण प्रक्रिया है जिसमें छात्र किसी साहित्यिक पाठ', 'पृष्ठभूमि और रचनाकार परिचय वह साहित्यिक अनुशासन है जिसमें किसी रचना के सृजन-काल की', '**कथानक** घटनाओं का तार्किक-कारणात्मक क्रम है (घटना अ → घटना ब → घटना स), जबकि', 'पाठ्य-परिवेश (Setting) किसी रचना का भौगोलिक, ऐतिहासिक, सामाजिक-सांस्कृतिक और भावनात्मक'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वितान भाग-2 — पाठ 1\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।',
+                  options: ['\'वितान भाग-2 — पाठ 1\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'वितान भाग-2 — पाठ 1\' का कथानक — \'वितान भाग-2 — पाठ 1\' — वितान भाग-2 का पाठ। पाठ का', '\'वितान भाग-2 — पाठ 1\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटका हुआ महसूस हो तो: c12_hin_v_cbse_01_013 (आलोचनात्मक चिंतन) पर लौटें — वहाँ दी गई.',
                   misconception: 'छात्र समझते हैं कि \'चर्चा-बिंदु\' का अर्थ है — पाठ से 5-10 प्रश्न तैयार कर लेना जिनके \'सही उत्तर\' शिक्षक को पता हों। वास्तव में, चर्चा-बिंदु.' }
           ],

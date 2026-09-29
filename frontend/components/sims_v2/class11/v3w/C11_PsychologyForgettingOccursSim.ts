@@ -6,13 +6,13 @@ import C11_PsychologyForgettingOccursSim from '../../../simulations/c6_12/C11_Ps
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_psychologyforgettingoccurssim: SimDef = {
     id: 'v3w_c11_psychologyforgettingoccurssim',
-    title: 'Forgetting Occurs',
+    title: 'Theories of Forgetting: Interference, Decay and Repression',
     subtitle: 'Covers three major forgetting theories (trace decay, interference, repression) with.',
     classLevel: 11, subject: 'psychology', topic: 'Theories of Forgetting: Interference, Decay and Repression',
     chapters: [],
     nodeIds: ['c11_psy_cbse_06_007', 'c11_psy_cbse_06_004', 'c11_psy_cbse_06_006', 'c11_psy_cbse_06_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you studied Hindi vocabulary yesterday, then French vocabulary today, and now you cannot recall the.', goal: 'Master Forgetting Occurs.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you studied Hindi vocabulary yesterday, then French vocabulary today, and now you cannot recall the.', goal: 'Master Theories of Forgetting: Interference, Decay and Repression.' },
     discovery: {
         question: 'State the core assumption of Trace Decay Theory and name the classic experimental finding that contradicts it.',
         options: ['**Core assumption**: Memory traces are physical changes in the brain that fade', 'sleep reduces interference so decay is proven', 'awake group forgot less'],
@@ -61,14 +61,14 @@ export const w_c11_psychologyforgettingoccurssim: SimDef = {
             { text: 'Connect to the constructive model — the participant is not *forgetting* the story (forgetting would produce gaps); they.', faded: true, blankAnswer: 'The participant\'s recall shows systematic transformations.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_psy_cbse_06_004', title: 'Identify each idea',
-          dissect: { specimen: 'Forgetting Occurs', spots: [
+          dissect: { specimen: 'Theories of Forgetting: Interference, Decay and Repression', spots: [
             { id: 's1', label: 'Forgetting theories explain why stored', prompt: 'Which idea is this? — Forgetting theories explain why stored information becomes inaccessible: **Trace Decay.', answer: 'Forgetting theories explain why stored', options: ['Forgetting theories explain why stored', 'Long-term memory LTM is a', 'Forgetting is the inability to', 'Memory as a constructive process'] },
             { id: 's2', label: 'Long-term memory LTM is a', prompt: 'Which idea is this? — Long-term memory (LTM) is a relatively permanent memory system with virtually unlimited.', answer: 'Long-term memory LTM is a', options: ['Long-term memory LTM is a', 'Forgetting theories explain why stored', 'Forgetting is the inability to', 'Memory as a constructive process'] },
             { id: 's3', label: 'Forgetting is the inability to', prompt: 'Which idea is this? — Forgetting is the inability to retrieve previously stored information from long-term.', answer: 'Forgetting is the inability to', options: ['Forgetting is the inability to', 'Forgetting theories explain why stored', 'Long-term memory LTM is a', 'Memory as a constructive process'] },
             { id: 's4', label: 'Memory as a constructive process', prompt: 'Which idea is this? — Memory as a constructive process refers to the understanding that memory is not a.', answer: 'Memory as a constructive process', options: ['Memory as a constructive process', 'Forgetting theories explain why stored', 'Long-term memory LTM is a', 'Forgetting is the inability to'] }
           ] } }
     ],
-    explore: { component: C11_PsychologyForgettingOccursSim, prompt: 'Explore the interactive — Forgetting Occurs' },
+    explore: { component: C11_PsychologyForgettingOccursSim, prompt: 'Explore the interactive — Theories of Forgetting: Interference, Decay and Repression' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_psy_cbse_06_007', difficulty: 'standard',
           question: 'Forgetting theories explain why stored information becomes inaccessible:.',

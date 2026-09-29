@@ -133,8 +133,8 @@ export const c8_eco_ch01_p2: SimDef = {
           hint: 'Review c8_eco_ch1_2 to refresh the core definitions of each individual factor before.',
           misconception: 'Students often think that factors of production can be substituted infinitely without limits—believing that if you add.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The interconnection between factors of production refers to the essential economic',
-                  options: ['The interconnection between factors of production refers to the essential economic', 'The production process is the systematic method of combining various inputs (resources)', 'Goods are physical, tangible objects (like steel, rice, or laptops) that can be touched,', 'Technology in production refers to the application of scientific knowledge, tools,'],
+                { id: 'a', prompt: 'A garment factory in Tirupur has 50 sewing machines (capital) and 50 workers (labour), but due to poor management (entrepreneurship), workers sit idle because.', answer: 'Identify initial output (100 shirts) with flawed entrepreneurship',
+                  options: ['Identify initial output (100 shirts) with flawed entrepreneurship', 'factors operate independently of management'],
                   hint: 'Review c8_eco_ch1_2 to refresh the core definitions of each individual factor before looking at how.',
                   misconception: 'Students often think that factors of production can be substituted infinitely without limits—believing that if you add more capital.' }
           ],

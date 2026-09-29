@@ -6,16 +6,16 @@ import C9_BiologyAnimalKingdomClassificationSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_biologyanimalkingdomclassificationsim: SimDef = {
     id: 'v3w_c9_biologyanimalkingdomclassificationsim',
-    title: 'Animal Kingdom Classification',
+    title: 'Need for Classification of Living Organisms',
     subtitle: 'This node covers the *reasons* and *necessity* for classification systems (organization,.',
     classLevel: 9, subject: 'biology', topic: 'Need for Classification of Living Organisms',
     chapters: [],
     nodeIds: ['c9_bio_ch4_3', 'c9_bio_ch4_4', 'c9_bio_ch4_5', 'c9_bio_ch4_7', 'c9_bio_ch4_8', 'c9_bio_ch2_6', 'c9_bio_ch2_7', 'c9_bio_ch4_6'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine walking into a massive library in Delhi where millions of books are piled randomly on the floor with.', goal: 'Master Animal Kingdom Classification.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine walking into a massive library in Delhi where millions of books are piled randomly on the floor with.', goal: 'Master Need for Classification of Living Organisms.' },
     discovery: {
         question: 'A farmer in Punjab discovers an unknown insect damaging wheat crops.',
-        options: ['Correct answer: Classification groups organisms with shared characteristics', 'the scientist knew the name', 'naming things'],
+        options: ['Classification groups organisms with shared characteristics', 'the scientist knew the name', 'naming things'],
         answer: 'Classification groups organisms with shared characteristics',
         hook: 'Students often believe classification is primarily about "naming things" or "putting labels on organisms" — a static.',
     },
@@ -80,7 +80,7 @@ export const w_c9_biologyanimalkingdomclassificationsim: SimDef = {
             { text: 'Remodeling — osteoclasts and osteoblasts reshape the bone to original architecture; the sequence ensures initial.', faded: true, blankAnswer: 'The stages involve blood (hematoma), areolar tissue.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_bio_ch4_4', title: 'Identify each idea',
-          dissect: { specimen: 'Animal Kingdom Classification', spots: [
+          dissect: { specimen: 'Need for Classification of Living Organisms', spots: [
             { id: 's1', label: 'Classification is the scientific process', prompt: 'Which idea is this? — Classification is the scientific process of grouping living organisms into hierarchical.', answer: 'Classification is the scientific process', options: ['Classification is the scientific process', 'Classification criteria are the fundamental', 'The Five Kingdom Classification is', 'The hierarchical classification system organizes'] },
             { id: 's2', label: 'Classification criteria are the fundamental', prompt: 'Which idea is this? — Classification criteria are the fundamental, heritable characteristics — such as cell.', answer: 'Classification criteria are the fundamental', options: ['Classification criteria are the fundamental', 'Classification is the scientific process', 'The Five Kingdom Classification is', 'The hierarchical classification system organizes'] },
             { id: 's3', label: 'The Five Kingdom Classification is', prompt: 'Which idea is this? — The Five Kingdom Classification is a phylogenetic system proposed by R.H.', answer: 'The Five Kingdom Classification is', options: ['The Five Kingdom Classification is', 'Classification is the scientific process', 'Classification criteria are the fundamental', 'The hierarchical classification system organizes'] },
@@ -89,7 +89,7 @@ export const w_c9_biologyanimalkingdomclassificationsim: SimDef = {
             { id: 's6', label: 'Connective tissue is a type', prompt: 'Which idea is this? — Connective tissue is a type of animal tissue characterized by widely spaced cells.', answer: 'Connective tissue is a type', options: ['Connective tissue is a type', 'Classification is the scientific process', 'Classification criteria are the fundamental', 'The Five Kingdom Classification is'] }
           ] } }
     ],
-    explore: { component: C9_BiologyAnimalKingdomClassificationSim, prompt: 'Explore the interactive — Animal Kingdom Classification' },
+    explore: { component: C9_BiologyAnimalKingdomClassificationSim, prompt: 'Explore the interactive — Need for Classification of Living Organisms' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_bio_ch4_3', difficulty: 'standard',
           question: 'Classification is the scientific process of grouping living organisms into.',

@@ -19,31 +19,31 @@ export const c11_eng_s_ch01_p3: SimDef = {
         hook: '\'Proud first, honest next\' — the boys\' loophole collapses the moment Mourad himself snaps, \'Are you inviting a member of the Garoghlanian family to steal?\'',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves systematically examining a text\'s components—character motivations, narrative choices, symbolic patterns, and thematic tensions—to construct.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Summer of the Beautiful White Horse\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_s_cbse_01_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Separate the adult narrator\'s nostalgia from nine-year-old Aram\'s excuses, order the events chronologically, and place the real moment of moral reckoning.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_01_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re a detective called to a scene where a boy claims he didn\'t steal a horse he\'s been riding for weeks—how do you separate what he says from what.',
+          caseStudy: { intro: 'Analyse \'The Summer of the Beautiful White Horse\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'Define "narrative irony" as it operates in first-person retrospective narration, and give one example from the story\'s opening paragraph.', options: [
                 { text: 'Narrative irony occurs when the narrating "I" (adult Aram) possesses knowledge or', outcome: 'Narrative irony occurs when the narrating "I" (adult Aram) possesses knowledge or perspective that.' },
                 { text: 'I think Mourad is crazy like his uncle', outcome: 'Not quite — Students consistently confuse *interpretation* with *opinion*—they write "I think Mourad is crazy.', reveals: 'students-consistently-confuse-interpretation-wit' },
                 { text: 'analysis', outcome: 'Not quite — Students consistently confuse *interpretation* with *opinion*—they write "I think Mourad is crazy.', reveals: 'students-consistently-confuse-interpretation-wit' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_01_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re asked: "How does the story show that honesty is more valued than survival in the Garoghlanian tribe?" A struggling student often writes a plot.',
+          caseStudy: { intro: 'For written answers on \'The Summer of the Beautiful White Horse\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'Define the PEEL structure for analytical paragraph writing and state one reason why it is required in Class 11 board exam answers.', options: [
                 { text: 'PEEL stands for Point (topic sentence stating the argument), Evidence (textual detail or', outcome: 'PEEL stands for Point (topic sentence stating the argument), Evidence (textual detail or quote).' },
                 { text: 'what happens', outcome: 'Not quite — Students believe that "writing skills based on the chapter" means *retelling the story in their own.', reveals: 'writing-skills-based-on-the' },
                 { text: 'why it matters', outcome: 'Not quite — Students believe that "writing skills based on the chapter" means *retelling the story in their own.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_s_cbse_01_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a literary circle where someone asks, "Was it really stealing if they returned the horse better than they found it?" You notice the.',
+          caseStudy: { intro: 'Talk through \'The Summer of the Beautiful White Horse\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'List three distinct thematic tensions in the story that could sustain a 10-minute group discussion, and for each, provide one specific.', options: [
                 { text: 'Correct answer: (1) Honesty vs', outcome: 'Correct answer: (1) Honesty vs. Desire — Aram\'s rationalization: "If you were crazy about horses...' },
                 { text: 'discussion points', outcome: 'Not quite — Students believe "discussion points" are just personal reactions ("I liked the horse part").', reveals: 'discussion-points-are-just-personal' },
@@ -63,21 +63,21 @@ export const c11_eng_s_ch01_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_01_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves systematically examining.',
+          question: 'Critical thinking on \'The Summer of the Beautiful White Horse\' — analysing the.',
           hint: 'Review "first-person retrospective narration" in c11_eng_s_cbse_01_002 (Plot and.',
           misconception: 'Students consistently confuse *interpretation* with *opinion*—they write "I think Mourad is crazy like his uncle".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis involves systematically examining a text\'s',
-                  options: ['Critical thinking in literary analysis involves systematically examining a text\'s', '"Before You Read: Context and Background" is a pre-reading strategy that provides', 'Plot and Narrative Structure refers to the organized sequence of events in a story', 'Setting refers to the time, place, and social context in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'The Summer of the Beautiful White Horse\'',
+                  options: ['Critical thinking on \'The Summer of the Beautiful White Horse\'', '\'The Summer of the Beautiful White Horse\' (Snapshots, ch', 'The plot/narrative arc of \'The Summer of the Beautiful White Horse\'', 'The setting of \'The Summer of the Beautiful White Horse\''],
                   hint: 'Review "first-person retrospective narration" in c11_eng_s_cbse_01_002 (Plot and Narrative.',
                   misconception: 'Students consistently confuse *interpretation* with *opinion*—they write "I think Mourad is crazy like his uncle" instead of "The text.' }
           ],
-            remediations: { 'students-consistently-confuse-interpretation-wit': { steps: ['Show the student two paragraphs on the same claim (e.g., "Mourad is wild")—one opinion-based ("I feel Mourad is wild.', 'Have them label each sentence as "claim," "evidence," or "explanation" to visualize the missing architecture.', 'Assign a micro-task: find three textual details that *show* (don\'t tell) Aram\'s fear during his solo ride, then write.', 'Reinforce: every interpretive claim must carry its own textual warrant.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-consistently-confuse-interpretation-wit': { steps: ['Show the student two paragraphs on the same claim (e.g., "Mourad is wild")—one opinion-based ("I feel Mourad is wild.', 'Have them label each sentence as "claim," "evidence," or "explanation" to visualize the missing architecture.', 'Assign a micro-task: find three textual details that *show* (don\'t tell) Aram\'s fear during his solo ride, then write.', 'Reinforce: every interpretive claim must carry its own textual warrant.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_01_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -92,9 +92,9 @@ export const c11_eng_s_ch01_p3: SimDef = {
                   hint: 'Review "first-person retrospective narration" in c11_eng_s_cbse_01_002 (Plot and Narrative.',
                   misconception: 'Students consistently confuse *interpretation* with *opinion*—they write "I think Mourad is crazy like his uncle" instead of "The text.' }
           ],
-            remediations: { 'students-consistently-confuse-interpretation-wit': { steps: ['Show the student two paragraphs on the same claim (e.g., "Mourad is wild")—one opinion-based ("I feel Mourad is wild.', 'Have them label each sentence as "claim," "evidence," or "explanation" to visualize the missing architecture.', 'Assign a micro-task: find three textual details that *show* (don\'t tell) Aram\'s fear during his solo ride, then write.', 'Reinforce: every interpretive claim must carry its own textual warrant.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-consistently-confuse-interpretation-wit': { steps: ['Show the student two paragraphs on the same claim (e.g., "Mourad is wild")—one opinion-based ("I feel Mourad is wild.', 'Have them label each sentence as "claim," "evidence," or "explanation" to visualize the missing architecture.', 'Assign a micro-task: find three textual details that *show* (don\'t tell) Aram\'s fear during his solo ride, then write.', 'Reinforce: every interpretive claim must carry its own textual warrant.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_01_014', difficulty: 'standard',
-          question: 'Writing skills based on a literary chapter involve the ability to produce.',
+          question: 'Writing skills from \'The Summer of the Beautiful White Horse\' — using the text.',
           hint: 'If stuck, return to c11_eng_s_cbse_01_012 (Comprehension) and practice "Quote → Infer →.',
           misconception: 'Students believe that "writing skills based on the chapter" means *retelling the story in their own words*.',
           parts: [
@@ -103,9 +103,9 @@ export const c11_eng_s_ch01_p3: SimDef = {
                   hint: 'If stuck, return to c11_eng_s_cbse_01_012 (Comprehension) and practice "Quote → Infer → Explain".',
                   misconception: 'Students believe that "writing skills based on the chapter" means *retelling the story in their own words* or *memorising a sample answer*.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['**Diagnose the gap:** Ask the student to underline every textual reference in their answer.', 'If zero — they\'re summarising.', 'If vague ("the horse scene") — they\'re not anchoring.', '**Model one PEEL cycle together:** Pick a micro-claim ("Mourad understands horses better than people").'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['**Diagnose the gap:** Ask the student to underline every textual reference in their answer.', 'If zero — they\'re summarising.', 'If vague ("the horse scene") — they\'re not anchoring.', '**Model one PEEL cycle together:** Pick a micro-claim ("Mourad understands horses better than people").'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_s_cbse_01_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured practice.',
+          question: 'Discussion points on \'The Summer of the Beautiful White Horse\' — speaking and.',
           hint: 'If stuck, review c11_eng_s_cbse_01_013 (Critical Thinking) for analysis models and.',
           misconception: 'Students believe "discussion points" are just personal reactions ("I liked the horse part") or comprehension questions.',
           parts: [
@@ -122,7 +122,7 @@ export const c11_eng_s_ch01_p3: SimDef = {
                   hint: 'If stuck, review c11_eng_s_cbse_01_013 (Critical Thinking) for analysis models and.',
                   misconception: 'Students believe "discussion points" are just personal reactions ("I liked the horse part") or comprehension questions ("Why did Aram fall.' }
           ],
-            remediations: { 'discussion-points-are-just-personal': { steps: ['Show a 2-minute video transcript of a "weak" discussion (opinions, interruptions, no text) vs.', 'a "strong" one (claims, citations, building on peers).', 'Give students 5 plot moments; have them convert each into a discussion point using the Claim-Evidence-Question-Theme.', 'Peer review: "Does this question have a \'right answer\' in the text?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'discussion-points-are-just-personal': { steps: ['Show a 2-minute video transcript of a "weak" discussion (opinions, interruptions, no text) vs.', 'a "strong" one (claims, citations, building on peers).', 'Give students 5 plot moments; have them convert each into a discussion point using the Claim-Evidence-Question-Theme.', 'Peer review: "Does this question have a \'right answer\' in the text?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

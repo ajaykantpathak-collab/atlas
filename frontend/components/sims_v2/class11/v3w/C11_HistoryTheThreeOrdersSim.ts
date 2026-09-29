@@ -6,13 +6,13 @@ import C11_HistoryTheThreeOrdersSim from '../../../simulations/c6_12/C11_History
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_historythethreeorderssim: SimDef = {
     id: 'v3w_c11_historythethreeorderssim',
-    title: 'The Three Orders',
+    title: 'Feudal Society: The Three Orders of Medieval Europe',
     subtitle: 'This node covers the conceptual framework of the Three Orders (origins, ideology, and.',
     classLevel: 11, subject: 'history', topic: 'Feudal Society: The Three Orders of Medieval Europe',
     chapters: [],
     nodeIds: ['c11_hist_cbse_06_001', 'c11_hist_cbse_06_002', 'c11_hist_cbse_06_005', 'c11_hist_cbse_06_008', 'c11_hist_cbse_07_007', 'c11_hist_cbse_07_009', 'c11_hist_cbse_06_003', 'c11_hist_cbse_06_004', 'c11_hist_cbse_06_011', 'c11_hist_cbse_06_007', 'c11_hist_cbse_07_004', 'c11_hist_cbse_07_010', 'c11_hist_cbse_04_002', 'c11_hist_cbse_04_010', 'c11_hist_cbse_02_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are visiting the ruins of a medieval European cathedral — say, Chartres in France — and notice.', goal: 'Master The Three Orders.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are visiting the ruins of a medieval European cathedral — say, Chartres in France — and notice.', goal: 'Master Feudal Society: The Three Orders of Medieval Europe.' },
     discovery: {
         question: 'In which century did the "Three Orders" conceptual model (Oratores, Bellatores, Laboratores) first appear in European written sources, and which bishop is most.',
         options: ['The model appears in the early 11th century (c', '9th century', 'Charlemagne'],
@@ -81,7 +81,7 @@ export const w_c11_historythethreeorderssim: SimDef = {
             { text: 'Conclude — Alberti didn\'t copy a Roman house (none survived intact); he *synthesised* Vitruvius\'s textual rules into a.', faded: true, blankAnswer: 'Palazzo Rucellai demonstrates the shift from *fortress* to.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_hist_cbse_06_002', title: 'Identify each idea',
-          dissect: { specimen: 'The Three Orders', spots: [
+          dissect: { specimen: 'Feudal Society: The Three Orders of Medieval Europe', spots: [
             { id: 's1', label: 'Feudal society in medieval Europe', prompt: 'Which idea is this? — Feudal society in medieval Europe (c. 9th–15th century) was a hierarchical social,.', answer: 'Feudal society in medieval Europe', options: ['Feudal society in medieval Europe', 'The First Order refers to', 'The manor was the basic', 'The revival of towns and'] },
             { id: 's2', label: 'The First Order refers to', prompt: 'Which idea is this? — The First Order refers to the clergy – the ordained religious hierarchy of the Roman.', answer: 'The First Order refers to', options: ['The First Order refers to', 'Feudal society in medieval Europe', 'The manor was the basic', 'The revival of towns and'] },
             { id: 's3', label: 'The manor was the basic', prompt: 'Which idea is this? — The manor was the basic economic and social unit of feudal Europe (9th–15th centuries), a.', answer: 'The manor was the basic', options: ['The manor was the basic', 'Feudal society in medieval Europe', 'The First Order refers to', 'The revival of towns and'] },
@@ -90,7 +90,7 @@ export const w_c11_historythethreeorderssim: SimDef = {
             { id: 's6', label: 'Renaissance Architecture c 14001600 CE', prompt: 'Which idea is this? — Renaissance Architecture (c. 1400–1600 CE) refers to the revival and creative adaptation.', answer: 'Renaissance Architecture c 14001600 CE', options: ['Renaissance Architecture c 14001600 CE', 'Feudal society in medieval Europe', 'The First Order refers to', 'The manor was the basic'] }
           ] } }
     ],
-    explore: { component: C11_HistoryTheThreeOrdersSim, prompt: 'Explore the interactive — The Three Orders' },
+    explore: { component: C11_HistoryTheThreeOrdersSim, prompt: 'Explore the interactive — Feudal Society: The Three Orders of Medieval Europe' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hist_cbse_06_001', difficulty: 'standard',
           question: 'Feudal society in medieval Europe (c. 9th–15th century) was a hierarchical.',

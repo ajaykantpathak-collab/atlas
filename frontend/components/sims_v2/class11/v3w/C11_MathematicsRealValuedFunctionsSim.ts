@@ -6,13 +6,13 @@ import C11_MathematicsRealValuedFunctionsSim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathematicsrealvaluedfunctionssim: SimDef = {
     id: 'v3w_c11_mathematicsrealvaluedfunctionssim',
-    title: 'Real Valued Functions',
+    title: 'Trigonometric Functions: sin, cos, tan Definition',
     subtitle: 'This node covers the unit-circle definitions of \\(\\sin x, \\cos x, \\tan x\\) and their.',
     classLevel: 11, subject: 'mathematics', topic: 'Trigonometric Functions: sin, cos, tan Definition',
     chapters: [],
     nodeIds: ['c11_math_cbse_03_003', 'c11_math_cbse_03_005', 'c11_math_cbse_03_007', 'c11_math_cbse_03_008', 'c11_math_cbse_03_009', 'c11_math_cbse_06_006', 'c11_math_cbse_02_006', 'c11_math_cbse_02_007', 'c11_math_cbse_02_008', 'c11_math_cbse_02_009', 'c11_math_cbse_02_010', 'c11_math_cbse_02_012', 'c11_math_cbse_03_004', 'c11_math_cbse_03_006', 'c11_math_cbse_03_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a giant Ferris wheel at a fair in Delhi with radius 10 metres.', goal: 'Master Real Valued Functions.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a giant Ferris wheel at a fair in Delhi with radius 10 metres.', goal: 'Master Trigonometric Functions: sin, cos, tan Definition.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'For any angle \\(x\\) measured in radians, let.', text: 'For any angle \\(x\\) measured in radians, let \\(P(a, b)\\) be the point on the unit circle \\(x^2 + y^2 = 1\\) such that the arc length from \\((1,0)\\) to \\(P\\) along the circle is \\(x\\) (anticlockwise.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -75,7 +75,7 @@ export const w_c11_mathematicsrealvaluedfunctionssim: SimDef = {
             { text: 'Verify all corners satisfy all constraints. (0,0)✓, (25,0)✓, (0,20)✓, (20,10)✓.', faded: true, blankAnswer: 'Inequalities: 2x + y ≤ 50, x + 2y ≤ 40, x ≥ 0, y ≥ 0..' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_03_005', title: 'Identify each idea',
-          dissect: { specimen: 'Real Valued Functions', spots: [
+          dissect: { specimen: 'Trigonometric Functions: sin, cos, tan Definition', spots: [
             { id: 's1', label: 'For any angle x measured', prompt: 'Which idea is this? — For any angle \\(x\\) measured in radians, let \\(P(a, b)\\) be the point on the unit circle.', answer: 'For any angle x measured', options: ['For any angle x measured', 'Trigonometric functions of any angle', 'The domain of a trigonometric', 'The Pythagorean identities are three'] },
             { id: 's2', label: 'Trigonometric functions of any angle', prompt: 'Which idea is this? — Trigonometric functions of any angle are defined using the unit circle: for an angle.', answer: 'Trigonometric functions of any angle', options: ['Trigonometric functions of any angle', 'For any angle x measured', 'The domain of a trigonometric', 'The Pythagorean identities are three'] },
             { id: 's3', label: 'The domain of a trigonometric', prompt: 'Which idea is this? — The domain of a trigonometric function is the set of all real numbers (angles in radians).', answer: 'The domain of a trigonometric', options: ['The domain of a trigonometric', 'For any angle x measured', 'Trigonometric functions of any angle', 'The Pythagorean identities are three'] },
@@ -84,7 +84,7 @@ export const w_c11_mathematicsrealvaluedfunctionssim: SimDef = {
             { id: 's6', label: 'A linear inequality in two', prompt: 'Which idea is this? — A linear inequality in two variables is an inequality of the form ax + by < c, ax + by >.', answer: 'A linear inequality in two', options: ['A linear inequality in two', 'For any angle x measured', 'Trigonometric functions of any angle', 'The domain of a trigonometric'] }
           ] } }
     ],
-    explore: { component: C11_MathematicsRealValuedFunctionsSim, prompt: 'Explore the interactive — Real Valued Functions' },
+    explore: { component: C11_MathematicsRealValuedFunctionsSim, prompt: 'Explore the interactive — Trigonometric Functions: sin, cos, tan Definition' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_03_003', difficulty: 'standard',
           question: 'For any angle \\(x\\) measured in radians, let \\(P(a, b)\\) be the point on the.',

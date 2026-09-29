@@ -19,7 +19,7 @@ export const c12_hin_a_ch09_p1: SimDef = {
         hook: 'The two poems are one argument in two moods — private virah counting sleepless nights, then a public challenge daring the world to fault the guru. And the folk words aren\'t weakness: refined Braj deliberately fused with raw speech is craft, not compromise.',
     },
     teaching: [
-        { title: 'घनानंद — कवि परिचय और पृष्ठभूमि', text: 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ, सामाजिक परिस्थितियों, और साहित्यिक प्रभावों का अध्ययन जो उसकी रचना के विषय, शैली, और भावना को आकार देते हैं।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'घनानंद — कवि परिचय और पृष्ठभूमि', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_09_001', title: 'Your mission',
@@ -28,6 +28,27 @@ export const c12_hin_a_ch09_p1: SimDef = {
         context: 'Follow the mendicant\'s nights: feel repetition stretch time in the longing poem, then stand in the marketplace challenge — and weigh a devotion that survives its own rejection.',
         labels: ['घनानंद — कवि परिचय', 'घनानंद — पद्यांश-वार भावार्थ', 'घनानंद — काव्य-संरचना और', 'घनानंद — केंद्रीय भाव', 'घनानंद — छंद और', 'घनानंद — साहित्यिक युक्तियाँ'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_09_001', title: 'घनानंद — कवि परिचय और पृष्ठभूमि',
+          caseStudy: { intro: 'अंतरा भाग-2 खोलिए और पाठ 09 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: 'Who was ?kukuan’s guru, and what pivotal event altered the poet’s life trajectory?', options: [
+                { text: '?kukuan’s guru was Latu (lqtku)', outcome: '?kukuan’s guru was Latu (lqtku). Because of his close relationship with Latu, ?kukuan gained.' },
+                { text: 'Surdas', outcome: 'Not quite — Students often confuse ?kukuan with the more famous "Kabir" or "Surdas" because all three are.', reveals: 'students-often-confuse-kukuan-with' },
+                { text: 'Kabir or Tulsidas as guru, or missing the exile/curse', outcome: 'Not quite — Students often confuse ?kukuan with the more famous "Kabir" or "Surdas" because all three are.', reveals: 'students-often-confuse-kukuan-with' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_09_002', title: 'घनानंद — पद्यांश-वार भावार्थ',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 9\' का क्रम: शुरुआत अंतरा-भाग-2-—-पाठ-9 से, घटनाएँ बढ़ती हैं, अंत \'अंतरा भाग-2 पर।',
+            decisions: [{ prompt: 'What are the five standard stages of a narrative arc, and which stage typically contains the poem\'s turning point?', options: [
+                { text: 'The five stages are exposition, rising action, climax, falling action, and denouement', outcome: 'The five stages are exposition, rising action, climax, falling action, and denouement.' },
+                { text: 'beginning, middle, end', outcome: 'Not quite — Students often treat "plot" in poetry as a simple summary of what happens, ignoring how stanza.', reveals: 'students-often-treat-plot-in' },
+                { text: 'beginning, middle, end" or placing the turning point in the exposition', outcome: 'Not quite — Students often treat "plot" in poetry as a simple summary of what happens, ignoring how stanza.', reveals: 'students-often-treat-plot-in' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_09_004', title: 'घनानंद — केंद्रीय भाव और रस',
+          caseStudy: { intro: 'मुख्य पात्र की पहचान, कार्य और विकास — \'अंतरा भाग-2 — पाठ 9\' में अंतरा-भाग-2-—-पाठ-9 से पात्र उभरता है।',
+            decisions: [{ prompt: 'Who is the protagonist in Kukuan\'s dohas, and what is his primary relationship that drives the poem?', options: [
+                { text: 'The protagonist is the poetic speaker (Kukuan himself as the lover-poet), and his primary', outcome: 'The protagonist is the poetic speaker (Kukuan himself as the lover-poet), and his primary.' },
+                { text: 'Lakshmi is the protagonist', outcome: 'Not quite — Students treat the protagonist as a fictional character *separate* from the poet Kukuan, writing.', reveals: 'students-treat-the-protagonist-as' },
+                { text: 'the sakhi', outcome: 'Not quite — Students treat the protagonist as a fictional character *separate* from the poet Kukuan, writing.', reveals: 'students-treat-the-protagonist-as' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_09_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Your team\'s short play about waiting for exam results ends on the protagonist\'s whispered plea, still unanswered. The director wants to add a closing scene where the result actually arrives \'so the climax is real.\'',
             decisions: [{ prompt: 'What does this chapter\'s treatment of unresolved longing say?', options: [
@@ -47,67 +68,86 @@ export const c12_hin_a_ch09_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_001', difficulty: 'standard',
-          question: 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ.',
-          hint: 'यदि फंसे तो कक्षा 11 के किसी भी पाठ के \'पृष्ठभूमि और रचनाकार परिचय\' (जैसे.',
-          misconception: 'छात्र अक्सर यह मान लेते हैं कि घनानंद की कविता का सामाजिक संदेश केवल इसलिए है क्योंकि उनका समय ऐसा था — अर्थात, वे.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, review the "Context and Background" section of Class 11 Chapter 1.',
+          misconception: 'Students often confuse ?kukuan with the more famous "Kabir" or "Surdas" because all three are Bhakti-era, use Braj, and.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ, सामाजिक',
-                  options: ['कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ, सामाजिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक stanza (पद) या पंक्तियों के समूह का', 'काव्य-संरचना कविता के समग्र रूप को संदर्भित करती है', 'केंद्रीय भाव वह मुख्य विचार या संदेश है जो कविता के माध्यम से कवि व्यक्त करना चाहता है,'],
-                  hint: 'यदि फंसे तो कक्षा 11 के किसी भी पाठ के \'पृष्ठभूमि और रचनाकार परिचय\' (जैसे c11_hin_a_cbse_01_001) को.',
-                  misconception: 'छात्र अक्सर यह मान लेते हैं कि घनानंद की कविता का सामाजिक संदेश केवल इसलिए है क्योंकि उनका समय ऐसा था — अर्थात, वे सामाजिक सुधारक इसलिए बने.' }
+                { id: 'a', prompt: 'Who was ?kukuan’s guru, and what pivotal event altered the poet’s life trajectory?', answer: '?kukuan’s guru was Latu (lqtku)',
+                  options: ['?kukuan’s guru was Latu (lqtku)', 'Surdas', 'Kabir or Tulsidas as guru, or missing the exile/curse'],
+                  hint: 'If stuck, review the "Context and Background" section of Class 11 Chapter 1.',
+                  misconception: 'Students often confuse ?kukuan with the more famous "Kabir" or "Surdas" because all three are Bhakti-era, use Braj, and write guru-bhakti.' },
+                { id: 'b', prompt: 'Explain why ?kukuan is described as "lk{kkr jlewfrZ" (intense emotional poet) and how his language reflects this intensity.', answer: '?kukuan earners the label "lk{kkr jlewfrZ"',
+                  options: ['?kukuan earners the label "lk{kkr jlewfrZ"', 'Braj language', 'emotion', 'Surdas'],
+                  hint: 'If stuck, review the "Context and Background" section of Class 11 Chapter 1.',
+                  misconception: 'Students often confuse ?kukuan with the more famous "Kabir" or "Surdas" because all three are Bhakti-era, use Braj, and write guru-bhakti.' },
+                { id: 'c', prompt: 'Compare the emotional tone of Poem 1 (viraha/longing) with Poem 2 (samvad/challenge). What does this shift reveal about ?kukuan’s conception of guru-bhakti?', answer: 'Poem 1 is inward, private, soaked in separation-pain (viraha)',
+                  options: ['Poem 1 is inward, private, soaked in separation-pain (viraha)', 'Surdas'],
+                  hint: 'If stuck, review the "Context and Background" section of Class 11 Chapter 1.',
+                  misconception: 'Students often confuse ?kukuan with the more famous "Kabir" or "Surdas" because all three are Bhakti-era, use Braj, and write guru-bhakti.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['इस गलतफहमी को दूर करने के लिए, छात्र से कहिए कि वह घनानंद के जीवन की दो 구체िक घटनाएँ लिखे — जैसे: (1) उनका जन्म एक ऐसे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-kukuan-with': { steps: ['Re-read the NCERT introductory paragraph (before the poems) and underline every biographical fact (dates, guru’s name.', 'Create a two-column table: left column = life event, right column = poetic consequence (e.g., exile → wandering.', 'Watch a 5-minute YouTube lecture on "Braj Bhakti poets: ?kukuan" (search exactly) to hear the dialect pronunciation.', 'Re-attempt Diagnostic Questions 1 and 4; if still incorrect, revisit Class 11 node c11_hin_ar_cbse_09_001.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often confuse ?kukuan with the more famous "Kabir" or "Surdas" because all three are Bhakti-era, use Braj, and.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the claim: "?kukuan’s use of folk dialects (e.g., \'owQdHkjh\', \'cgjk;cs\') weakens his literary status compared to poets who use pure Braj." Defend your.', answer: 'The claim is false',
+                  options: ['The claim is false', 'Surdas'],
+                  hint: 'If stuck, review the "Context and Background" section of Class 11 Chapter 1.',
+                  misconception: 'Students often confuse ?kukuan with the more famous "Kabir" or "Surdas" because all three are Bhakti-era, use Braj, and write guru-bhakti.' }
+          ],
+            remediations: { 'students-often-confuse-kukuan-with': { steps: ['Re-read the NCERT introductory paragraph (before the poems) and underline every biographical fact (dates, guru’s name.', 'Create a two-column table: left column = life event, right column = poetic consequence (e.g., exile → wandering.', 'Watch a 5-minute YouTube lecture on "Braj Bhakti poets: ?kukuan" (search exactly) to hear the dialect pronunciation.', 'Re-attempt Diagnostic Questions 1 and 4; if still incorrect, revisit Class 11 node c11_hin_ar_cbse_09_001.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_002', difficulty: 'standard',
-          question: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक stanza (पद) या पंक्तियों के.',
-          hint: 'यदि भावार्थ निकालते समय कठिनाई हो, तो कक्षा 11 के पद्यांश-वार भावार्थ.',
-          misconception: 'छात्र अक्सर इस भूल में पड़ते हैं कि stanza-वार भावार्थ निकालते समय, वे कठिन शब्दों के अर्थ खोजकर या अलंकार की पहचान.',
+          question: '\'अंतरा भाग-2 — पाठ 9\' का कथानक — \'अंतरा भाग-2 — पाठ 9\' — अंतरा भाग-2 का पाठ।.',
+          hint: 'Review the narrative arc mapping exercise from Class 11 Chapter 1.',
+          misconception: 'Students often treat "plot" in poetry as a simple summary of what happens, ignoring how stanza breaks, line enjambment.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक stanza (पद) या पंक्तियों के समूह का',
-                  options: ['पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक stanza (पद) या पंक्तियों के समूह का', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ, सामाजिक', 'काव्य-संरचना कविता के समग्र रूप को संदर्भित करती है', 'केंद्रीय भाव वह मुख्य विचार या संदेश है जो कविता के माध्यम से कवि व्यक्त करना चाहता है,'],
-                  hint: 'यदि भावार्थ निकालते समय कठिनाई हो, तो कक्षा 11 के पद्यांश-वार भावार्थ (c11_hin_a_cbse_09_002) के.',
-                  misconception: 'छात्र अक्सर इस भूल में पड़ते हैं कि stanza-वार भावार्थ निकालते समय, वे कठिन शब्दों के अर्थ खोजकर या अलंकार की पहचान करके अपना काम पूरा मान.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 9\' का कथानक — \'अंतरा भाग-2 — पाठ 9\' — अंतरा भाग-2 का पाठ। पाठ का',
+                  options: ['\'अंतरा भाग-2 — पाठ 9\' का कथानक — \'अंतरा भाग-2 — पाठ 9\' — अंतरा भाग-2 का पाठ। पाठ का', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 9\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', '\'अंतरा भाग-2 — पाठ 9\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
+                  hint: 'Review the narrative arc mapping exercise from Class 11 Chapter 1 (c11_hin_ar_cbse_01_002) where.',
+                  misconception: 'Students often treat "plot" in poetry as a simple summary of what happens, ignoring how stanza breaks, line enjambment, and speaker shifts.' }
           ],
-            remediations: { 'stanza': { steps: ['यदि छात्र इस भूल में फँसता है, तो उसे इस प्रकार सुधारें: 1.', 'उसे एक सरल stanza दें जिसमें स्पष्ट भाव हो (जैसे "रात आई, मैं अकेला बैठा रो पड़ा") 2.', 'पूछें: "इस पंक्ति से तुम क्या महसूस करते हो?" और उसके उत्तर को लिखें 3.', 'फिर पूछें: "कवि ने \'अकेला बैठा\' क्यों कहा?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-plot-in': { steps: ['Have the student re-read the first poem and physically mark each stanza with a label: E (exposition), R (rising),.', 'Ask them to justify each label with one line reference.', 'If they cannot distinguish rising from climax, give a mini-lesson using a परिचित Hindi film song with clear narrative.', 'Re-assess by having them analyze the second poem\'s dialogue turns as structural beats.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_003', difficulty: 'standard',
-          question: 'काव्य-संरचना कविता के समग्र रूप को संदर्भित करती है — स्ट्रोफों की संख्या, उनकी.',
+          question: '\'अंतरा भाग-2 — पाठ 9\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण.',
           hint: 'यदि छात्र छंद की पहचान में फंसे हैं, तो उन्हें शब्द को धीरे-धीरे बोलकर अंतिम ध्वनि पर.',
           misconception: 'छात्र अक्सर मानते हैं कि यदि दो शब्दों के अंत में समान अक्षर आ रहे हैं (जैसे \'빛\' और \'गति\' दोनों में \'ति\'), तो वे छंदित.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य-संरचना कविता के समग्र रूप को संदर्भित करती है',
-                  options: ['काव्य-संरचना कविता के समग्र रूप को संदर्भित करती है', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ, सामाजिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक stanza (पद) या पंक्तियों के समूह का', 'केंद्रीय भाव वह मुख्य विचार या संदेश है जो कविता के माध्यम से कवि व्यक्त करना चाहता है,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 9\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित',
+                  options: ['\'अंतरा भाग-2 — पाठ 9\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 9\' का कथानक — \'अंतरा भाग-2 — पाठ 9\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 9\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
                   hint: 'यदि छात्र छंद की पहचान में फंसे हैं, तो उन्हें शब्द को धीरे-धीरे बोलकर अंतिम ध्वनि पर ध्यान देना.',
                   misconception: 'छात्र अक्सर मानते हैं कि यदि दो शब्दों के अंत में समान अक्षर आ रहे हैं (जैसे \'빛\' और \'गति\' दोनों में \'ति\'), तो वे छंदित हैं — जबकि असल में.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को देवनागरी लिपि में शब्दों को ध्वनिक इकाइयों में तोड़ने का अभ्यास करवाएँ — जैसे \'गति\' को ग+ति, \'빛\' को 빛 (एक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_004', difficulty: 'standard',
-          question: 'केंद्रीय भाव वह मुख्य विचार या संदेश है जो कविता के माध्यम से कवि व्यक्त करना.',
-          hint: 'यदि छात्र केंद्रीय भाव और रस को अलग नहीं कर पा रहा है, तो पिछले नोड c12_hin_a_cbse_09_002.',
-          misconception: 'छात्र अक्सर केंद्रीय भाव और रस को पर्यायवाची मान लेते हैं और परीक्षा में दोनों के लिए एक ही उत्तर लिख देते हैं, जैसे.',
+          question: '\'अंतरा भाग-2 — पाठ 9\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+          hint: 'If stuck on "who is speaking?", return to the biography in c12_hin_a_cbse_09_001 — Kukuan.',
+          misconception: 'Students treat the protagonist as a fictional character *separate* from the poet Kukuan, writing "the poet creates.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'केंद्रीय भाव वह मुख्य विचार या संदेश है जो कविता के माध्यम से कवि व्यक्त करना चाहता है,',
-                  options: ['केंद्रीय भाव वह मुख्य विचार या संदेश है जो कविता के माध्यम से कवि व्यक्त करना चाहता है,', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ, सामाजिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक stanza (पद) या पंक्तियों के समूह का', 'काव्य-संरचना कविता के समग्र रूप को संदर्भित करती है'],
-                  hint: 'यदि छात्र केंद्रीय भाव और रस को अलग नहीं कर पा रहा है, तो पिछले नोड c12_hin_a_cbse_09_002.',
-                  misconception: 'छात्र अक्सर केंद्रीय भाव और रस को पर्यायवाची मान लेते हैं और परीक्षा में दोनों के लिए एक ही उत्तर लिख देते हैं, जैसे शांत रस लिखते समय वे.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 9\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+                  options: ['\'अंतरा भाग-2 — पाठ 9\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 9\' का कथानक — \'अंतरा भाग-2 — पाठ 9\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 9\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'If stuck on "who is speaking?", return to the biography in c12_hin_a_cbse_09_001 — Kukuan *names.',
+                  misconception: 'Students treat the protagonist as a fictional character *separate* from the poet Kukuan, writing "the poet creates a character who.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को बताइए कि केंद्रीय भाव वह \'क्या\' है (विषय-वस्तु) और रस वह \'कैसे महसूस होता है\' है (अनुभव)। एक stepwise अभ्यास.', '(यह केंद्रीय भाव है), (3) फिर पूछिए कि इस पंक्ति को पढ़कर आप कैसा महसूस करते हैं?', '(यह रस है), (4) तुलना करिए कि उत्तर अलग क्यों हैं, (5) उदाहरण दें - जैसे "भय से मुक्त ho जिव" से संदेश मिलता है मुक्ति.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-the-protagonist-as': { steps: ['Re-read both dohas aloud, circling every first-person pronoun/verb (मैं, मेरा, चाहूं, देखूं, सुनूं, भयो).', 'List only what the *speaker* says/does — ignore Lakshmi\'s actions or the sakhi\'s mention.', 'Revisit Class 11 node **c11_hin_ar_cbse_09_004** (Character Analysis: Protagonist) for the "speaker vs.', 'character" distinction in Kabir/Dadu.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_005', difficulty: 'standard',
-          question: 'छंद कविता में स्वर-व्यंजनों की मात्रा (गुरु-लघु) का पूर्व निर्धारित क्रम है जो.',
+          question: '\'अंतरा भाग-2 — पाठ 9\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को.',
           hint: 'Work step by step.',
           misconception: 'छात्र často छंद को केवल तुकबंदी से जोड़कर समझते हैं — जैसे यदि दो पंक्तियों में अंत में तुकबंदी है (जैसे "जाने" और.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'छंद कविता में स्वर-व्यंजनों की मात्रा (गुरु-लघु) का पूर्व निर्धारित क्रम है जो पंक्तियों',
-                  options: ['छंद कविता में स्वर-व्यंजनों की मात्रा (गुरु-लघु) का पूर्व निर्धारित क्रम है जो पंक्तियों', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ, सामाजिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक stanza (पद) या पंक्तियों के समूह का', 'काव्य-संरचना कविता के समग्र रूप को संदर्भित करती है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 9\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते',
+                  options: ['\'अंतरा भाग-2 — पाठ 9\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 9\' का कथानक — \'अंतरा भाग-2 — पाठ 9\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 9\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'Recall the definition.',
                   misconception: 'छात्र často छंद को केवल तुकबंदी से जोड़कर समझते हैं — जैसे यदि दो पंक्तियों में अंत में तुकबंदी है (जैसे "जाने" और "अनझे"), तो वे मान लेते.' }
           ],
             remediations: { 'asto': { steps: ['यदि छात्र छंद को केवल तुकबंदी से जोड़कर समझ रहा है, तो उसे निम्नलिखित चरण-दर-चरण अभ्यास करवाइए: पहला कदम: किसी भी दो.', 'वह शायद कहेगा हाँ क्योंकि तुक है। तीसरा कदम: अब उसे प्रत्येक पंक्ति के हर अक्षर पर मात्रा निर्धारित करने के लिए कहिए.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_006', difficulty: 'standard',
-          question: 'अलंकार वे साहित्यिक युक्तियाँ हैं जो भाषा में शब्दों के अर्थ, ध्वनि या व्यवस्था.',
+          question: '\'अंतरा भाग-2 — पाठ 9\' का मुख्य विषय — \'अंतरा भाग-2 — पाठ 9\' का केंद्रीय भाव और.',
           hint: 'यदि छात्र अलंकार के प्रकारों के बीच भ्रम में हो (जैसे रूपक और उपमा में अंतर नहीं कर पा.',
           misconception: 'छात्र अक्सर सोचते हैं कि अलंकार की पहचान करना पर्याप्त है — जैसे "यहाँ अनुप्रास है" या "यह रूपक है" लिख देना — और बोर्ड.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार वे साहित्यिक युक्तियाँ हैं जो भाषा में शब्दों के अर्थ, ध्वनि या व्यवस्था में',
-                  options: ['अलंकार वे साहित्यिक युक्तियाँ हैं जो भाषा में शब्दों के अर्थ, ध्वनि या व्यवस्था में', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ, सामाजिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक stanza (पद) या पंक्तियों के समूह का', 'काव्य-संरचना कविता के समग्र रूप को संदर्भित करती है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 9\' का मुख्य विषय — \'अंतरा भाग-2 — पाठ 9\' का केंद्रीय भाव और संदेश',
+                  options: ['\'अंतरा भाग-2 — पाठ 9\' का मुख्य विषय — \'अंतरा भाग-2 — पाठ 9\' का केंद्रीय भाव और संदेश', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 9\' का कथानक — \'अंतरा भाग-2 — पाठ 9\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 9\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि छात्र अलंकार के प्रकारों के बीच भ्रम में हो (जैसे रूपक और उपमा में अंतर नहीं कर पा रहा हो), तो.',
                   misconception: 'छात्र अक्सर सोचते हैं कि अलंकार की पहचान करना पर्याप्त है — जैसे "यहाँ अनुप्रास है" या "यह रूपक है" लिख देना — और बोर्ड परीक्षा में full.' }
           ],

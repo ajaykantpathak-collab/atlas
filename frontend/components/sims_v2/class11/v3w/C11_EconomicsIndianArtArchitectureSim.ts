@@ -6,13 +6,13 @@ import C11_EconomicsIndianArtArchitectureSim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_economicsindianartarchitecturesim: SimDef = {
     id: 'v3w_c11_economicsindianartarchitecturesim',
-    title: 'Indian Art Architecture',
+    title: 'Quality of Employment: Wages, Working Conditions and Social Security',
     subtitle: 'Covers wage determination mechanisms (minimum wages, fair wages, living wages), working.',
     classLevel: 11, subject: 'economics', topic: 'Quality of Employment: Wages, Working Conditions and Social Security',
     chapters: [],
     nodeIds: ['c11_eco_cbse_06_011', 'c11_eco_cbse_07_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine a 28-year-old delivery partner for a food aggregator platform in Bengaluru — he works 12-hour shifts,.', goal: 'Master Indian Art Architecture.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a 28-year-old delivery partner for a food aggregator platform in Bengaluru — he works 12-hour shifts,.', goal: 'Master Quality of Employment: Wages, Working Conditions and Social Security.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'Quality of employment refers to the.', text: 'Quality of employment refers to the multidimensional assessment of a job beyond mere employment status, encompassing adequacy of wages (real wages adjusted for inflation and purchasing power),.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -38,12 +38,12 @@ export const w_c11_economicsindianartarchitecturesim: SimDef = {
             { text: 'Required annual intensity improvement rate from 2023-2030: (18.04/19.25)^(1/7) - 1 = -0.9% per year (i.e., intensity.', faded: true, blankAnswer: '(a) 18.04 g CO2/₹ (using 2011-12 series); (b) Already.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_eco_cbse_07_011', title: 'Identify each idea',
-          dissect: { specimen: 'Indian Art Architecture', spots: [
+          dissect: { specimen: 'Quality of Employment: Wages, Working Conditions and Social Security', spots: [
             { id: 's1', label: 'Quality of employment refers to', prompt: 'Which idea is this? — Quality of employment refers to the multidimensional assessment of a job beyond mere.', answer: 'Quality of employment refers to', options: ['Quality of employment refers to', 'Global environmental issues refer to'] },
             { id: 's2', label: 'Global environmental issues refer to', prompt: 'Which idea is this? — Global environmental issues refer to planetary-scale ecological disruptions—primarily.', answer: 'Global environmental issues refer to', options: ['Global environmental issues refer to', 'Quality of employment refers to'] }
           ] } }
     ],
-    explore: { component: C11_EconomicsIndianArtArchitectureSim, prompt: 'Explore the interactive — Indian Art Architecture' },
+    explore: { component: C11_EconomicsIndianArtArchitectureSim, prompt: 'Explore the interactive — Quality of Employment: Wages, Working Conditions and Social Security' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eco_cbse_06_011', difficulty: 'standard',
           question: 'Quality of employment refers to the multidimensional assessment of a job beyond.',

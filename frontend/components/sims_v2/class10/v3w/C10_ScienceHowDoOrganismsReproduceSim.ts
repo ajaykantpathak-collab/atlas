@@ -6,13 +6,13 @@ import C10_ScienceHowDoOrganismsReproduceSim from '../../../simulations/c6_12/C1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_sciencehowdoorganismsreproducesim: SimDef = {
     id: 'v3w_c10_sciencehowdoorganismsreproducesim',
-    title: 'How Do Organisms Reproduce',
+    title: 'Acquired vs Inherited Traits: Distinction and Examples',
     subtitle: 'This node covers the distinction between acquired and inherited traits with examples from.',
     classLevel: 10, subject: 'science', topic: 'Acquired vs Inherited Traits: Distinction and Examples',
     chapters: [],
     nodeIds: ['c10_bio_cbse_04_006', 'c10_bio_cbse_04_007', 'c10_bio_cbse_04_005', 'c10_bio_cbse_04_009', 'c10_bio_cbse_04_001', 'c10_bio_cbse_03_001', 'c10_bio_cbse_03_003', 'c10_bio_cbse_03_004', 'c10_bio_cbse_04_010', 'c10_bio_cbse_04_008', 'c10_bio_cbse_04_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Observe a wrestler with highly developed muscles from years of training — his children are not born with.', goal: 'Master How Do Organisms Reproduce.' },
+    scenario: { role: 'a class 10 learner', intro: 'Observe a wrestler with highly developed muscles from years of training — his children are not born with.', goal: 'Master Acquired vs Inherited Traits: Distinction and Examples.' },
     discovery: {
         question: 'A student writes: "A blacksmith develops strong arm muscles due to hammering.',
         options: ['The error is assuming acquired traits are inherited', 'it is inherited', 'giraffes stretched necks to reach leaves, so offspring inherited long necks'],
@@ -81,7 +81,7 @@ export const w_c10_sciencehowdoorganismsreproducesim: SimDef = {
             { text: 'Propose a strategy — introduce sexual reproduction by growing strawberries from seeds (cross-pollination between.', faded: true, blankAnswer: 'The crop was wiped out because asexual reproduction via.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_bio_cbse_04_007', title: 'Identify each idea',
-          dissect: { specimen: 'How Do Organisms Reproduce', spots: [
+          dissect: { specimen: 'Acquired vs Inherited Traits: Distinction and Examples', spots: [
             { id: 's1', label: 'Acquired traits are characteristics developed', prompt: 'Which idea is this? — Acquired traits are characteristics developed by an organism during its lifetime due to.', answer: 'Acquired traits are characteristics developed', options: ['Acquired traits are characteristics developed', 'Charles Darwins Theory of Evolution', 'Sex determination in humans is', 'Fossils are preserved remains or'] },
             { id: 's2', label: 'Charles Darwins Theory of Evolution', prompt: 'Which idea is this? — Charles Darwin\'s Theory of Evolution by Natural Selection states that populations of.', answer: 'Charles Darwins Theory of Evolution', options: ['Charles Darwins Theory of Evolution', 'Acquired traits are characteristics developed', 'Sex determination in humans is', 'Fossils are preserved remains or'] },
             { id: 's3', label: 'Sex determination in humans is', prompt: 'Which idea is this? — Sex determination in humans is the biological process by which the sex of an offspring is.', answer: 'Sex determination in humans is', options: ['Sex determination in humans is', 'Acquired traits are characteristics developed', 'Charles Darwins Theory of Evolution', 'Fossils are preserved remains or'] },
@@ -90,7 +90,7 @@ export const w_c10_sciencehowdoorganismsreproducesim: SimDef = {
             { id: 's6', label: 'Reproduction is the biological process', prompt: 'Which idea is this? — Reproduction is the biological process by which living organisms produce new individuals.', answer: 'Reproduction is the biological process', options: ['Reproduction is the biological process', 'Acquired traits are characteristics developed', 'Charles Darwins Theory of Evolution', 'Sex determination in humans is'] }
           ] } }
     ],
-    explore: { component: C10_ScienceHowDoOrganismsReproduceSim, prompt: 'Explore the interactive — How Do Organisms Reproduce' },
+    explore: { component: C10_ScienceHowDoOrganismsReproduceSim, prompt: 'Explore the interactive — Acquired vs Inherited Traits: Distinction and Examples' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_bio_cbse_04_006', difficulty: 'standard',
           question: 'Acquired traits are characteristics developed by an organism during its.',

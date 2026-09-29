@@ -6,13 +6,13 @@ import C7_MathematicsPerimeterAndAreaSim from '../../../simulations/c6_12/C7_Mat
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsperimeterandareasim: SimDef = {
     id: 'v3w_c7_mathematicsperimeterandareasim',
-    title: 'Perimeter And Area',
+    title: 'Equilateral Triangles: Construction and Properties',
     subtitle: 'Covers the definition, properties (equal sides and 60° interior angles), and.',
     classLevel: 7, subject: 'mathematics', topic: 'Equilateral Triangles: Construction and Properties',
     chapters: [],
     nodeIds: ['c7_math_ch07_002', 'c7_math_ch04_010', 'c7_math_ch07_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine you are an architect designing a stained-glass window for a school auditorium in Delhi, and you need.', goal: 'Master Perimeter And Area.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine you are an architect designing a stained-glass window for a school auditorium in Delhi, and you need.', goal: 'Master Equilateral Triangles: Construction and Properties.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'An equilateral triangle is a special.', text: 'An equilateral triangle is a special three-sided polygon in which all three sides are equal in length and all three interior angles are equal, measuring exactly 60° each.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -46,13 +46,13 @@ export const w_c7_mathematicsperimeterandareasim: SimDef = {
             { text: 'State the final classification and total fencing requirement with correct units.', faded: true, blankAnswer: 'Isosceles triangle; Total fencing required is $33\\text{ m}$.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_math_ch04_010', title: 'Identify each idea',
-          dissect: { specimen: 'Perimeter And Area', spots: [
+          dissect: { specimen: 'Equilateral Triangles: Construction and Properties', spots: [
             { id: 's1', label: 'An equilateral triangle is a', prompt: 'Which idea is this? — An equilateral triangle is a special three-sided polygon in which all three sides are.', answer: 'An equilateral triangle is a', options: ['An equilateral triangle is a', 'An algebraic expression describing a', 'Triangles are classified based on'] },
             { id: 's2', label: 'An algebraic expression describing a', prompt: 'Which idea is this? — An algebraic expression describing a geometric pattern uses variables (like $n$) to.', answer: 'An algebraic expression describing a', options: ['An algebraic expression describing a', 'An equilateral triangle is a', 'Triangles are classified based on'] },
             { id: 's3', label: 'Triangles are classified based on', prompt: 'Which idea is this? — Triangles are classified based on the equality of their side lengths into three types: an.', answer: 'Triangles are classified based on', options: ['Triangles are classified based on', 'An equilateral triangle is a', 'An algebraic expression describing a'] }
           ] } }
     ],
-    explore: { component: C7_MathematicsPerimeterAndAreaSim, prompt: 'Explore the interactive — Perimeter And Area' },
+    explore: { component: C7_MathematicsPerimeterAndAreaSim, prompt: 'Explore the interactive — Equilateral Triangles: Construction and Properties' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch07_002', difficulty: 'standard',
           question: 'An equilateral triangle is a special three-sided polygon in which all three.',

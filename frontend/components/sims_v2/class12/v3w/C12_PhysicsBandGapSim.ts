@@ -6,13 +6,13 @@ import C12_PhysicsBandGapSim from '../../../simulations/three/C12_PhysicsBandGap
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsbandgapsim: SimDef = {
     id: 'v3w_c12_physicsbandgapsim',
-    title: 'Band Gap',
+    title: 'Energy Bands in Solids: Conductor, Insulator, Semiconductor',
     subtitle: 'This node covers: (a) Formation of energy bands from atomic levels, (b) Classification of.',
     classLevel: 12, subject: 'physics', topic: 'Energy Bands in Solids: Conductor, Insulator, Semiconductor',
     chapters: [],
     nodeIds: ['c12_phy_cbse_14_001', 'c12_phy_cbse_14_002', 'c12_phy_cbse_14_003', 'c12_phy_cbse_14_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a copper wire (excellent conductor), a plastic ruler (insulator), and a silicon chip (semiconductor).', goal: 'Master Band Gap.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a copper wire (excellent conductor), a plastic ruler (insulator), and a silicon chip (semiconductor).', goal: 'Master Energy Bands in Solids: Conductor, Insulator,..' },
     discovery: {
         question: '**UNDERSTAND:** In the covalent-bond model of silicon, a pentavalent phosphorus atom replaces a silicon atom.',
         options: ['The four phosphorus electrons participating in covalent bonds become part of the', 'all five electrons become free', 'the fifth electron is in the conduction band already'],
@@ -60,14 +60,14 @@ export const w_c12_physicsbandgapsim: SimDef = {
             { text: 'Verify: Power dissipated in diode = I × V_diode = 4.85 mA × 0.72 V ≈ 3.5 mW (safe for 1N4007).', faded: true, blankAnswer: '(a) 4.85 mA, (b) 2.28 V, (c) 20 Ω' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_14_002', title: 'Identify each idea',
-          dissect: { specimen: 'Band Gap', spots: [
+          dissect: { specimen: 'Energy Bands in Solids: Conductor, Insulator, Semiconductor', spots: [
             { id: 's1', label: 'Energy bands in solids are', prompt: 'Which idea is this? — Energy bands in solids are continuous ranges of allowed energy levels for electrons,.', answer: 'Energy bands in solids are', options: ['Energy bands in solids are', 'An intrinsic semiconductor is a', 'A p-n junction is formed', 'A p-n junction diode is'] },
             { id: 's2', label: 'An intrinsic semiconductor is a', prompt: 'Which idea is this? — An **intrinsic semiconductor** is a pure semiconductor crystal (e.g., Si, Ge) in which.', answer: 'An intrinsic semiconductor is a', options: ['An intrinsic semiconductor is a', 'Energy bands in solids are', 'A p-n junction is formed', 'A p-n junction diode is'] },
             { id: 's3', label: 'A p-n junction is formed', prompt: 'Which idea is this? — A p-n junction is formed when a p-type semiconductor and an n-type semiconductor are.', answer: 'A p-n junction is formed', options: ['A p-n junction is formed', 'Energy bands in solids are', 'An intrinsic semiconductor is a', 'A p-n junction diode is'] },
             { id: 's4', label: 'A p-n junction diode is', prompt: 'Which idea is this? — A p-n junction diode is a two-terminal semiconductor device formed by joining p-type and.', answer: 'A p-n junction diode is', options: ['A p-n junction diode is', 'Energy bands in solids are', 'An intrinsic semiconductor is a', 'A p-n junction is formed'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsBandGapSim, prompt: 'Explore the interactive — Band Gap' },
+    explore: { component: C12_PhysicsBandGapSim, prompt: 'Explore the interactive — Energy Bands in Solids: Conductor, Insulator, Semiconductor' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_14_001', difficulty: 'standard',
           question: 'Energy bands in solids are continuous ranges of allowed energy levels for.',

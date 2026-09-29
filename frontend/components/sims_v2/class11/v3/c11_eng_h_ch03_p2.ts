@@ -19,7 +19,7 @@ export const c11_eng_h_ch03_p2: SimDef = {
         hook: 'This is a cold case, not a chronicle — every jump backward is a clue the 2005 scan was called in to read.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas or messages that run alongside the primary theme, enriching the text by exploring complementary aspects of the human experience, historical context,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Discovering Tut: the Saga Continues\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_03_007', title: 'Your mission',
@@ -29,42 +29,42 @@ export const c11_eng_h_ch03_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_03_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are watching a documentary where scientists use a CT scanner on a 3,300-year-old mummy — the main story is about what they discover, but the film.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Discovering Tut: the Saga Continues\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a secondary theme in a literary text?', options: [
                 { text: 'A secondary theme is a significant but subordinate idea that supports or contrasts with', outcome: 'A secondary theme is a significant but subordinate idea that supports or contrasts with the primary.' },
                 { text: 'a minor detail', outcome: 'Not quite — Students often mistake recurring motifs (gold, curses, mummies) for themes.', reveals: 'students-often-mistake-recurring-motifs' },
                 { text: 'a subplot', outcome: 'Not quite — Students often mistake recurring motifs (gold, curses, mummies) for themes.', reveals: 'students-often-mistake-recurring-motifs' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_03_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are standing in the Valley of the Kings at 6 p.m. on 5 January 2005: the wind is gritty on your face, the sky is a bruised purple, and.',
+          caseStudy: { intro: 'Find the lines in \'Discovering Tut: the Saga Continues\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "imagery" and "metaphor" precisely as literary devices, and give one example of each from the first two paragraphs of "Discovering.', options: [
                 { text: 'Imagery: sensory language creating mental pictures/sensations (e.g., "Dark-bellied clouds', outcome: 'Imagery: sensory language creating mental pictures/sensations (e.g., "Dark-bellied clouds had.' },
                 { text: 'like a hammer', outcome: 'Not quite — Students treat "imagery" as synonymous with "visual description" and "metaphor" as any comparison.', reveals: 'students-treat-imagery-as-synonymous' },
                 { text: 'description', outcome: 'Not quite — Students treat "imagery" as synonymous with "visual description" and "metaphor" as any comparison.', reveals: 'students-treat-imagery-as-synonymous' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_03_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are a detective examining a crime scene where the clues seem to contradict each other: the security system meant to protect the vault is what.',
+          caseStudy: { intro: 'Look in \'Discovering Tut: the Saga Continues\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define situational irony and give one example from the chapter where the outcome of an action is the opposite of what was intended.', options: [
                 { text: 'Situational irony occurs when the actual outcome of a situation is starkly different from', outcome: 'Situational irony occurs when the actual outcome of a situation is starkly different from what was.' },
                 { text: 'Carter found the tomb', outcome: 'Not quite — Students frequently confuse **irony** with **coincidence** or **bad luck** (e.g., "It\'s ironic that.', reveals: 'students-frequently-confuse-irony-with' },
                 { text: 'The scanner broke', outcome: 'Not quite — Students frequently confuse **irony** with **coincidence** or **bad luck** (e.g., "It\'s ironic that.', reveals: 'students-frequently-confuse-irony-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_03_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading the sentence "Dark-bellied clouds had scudded across the desert sky" and you pause at "scudded." You don\'t know it.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Discovering Tut: the Saga Continues\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the primary contextual clue that distinguishes "forensic reconstruction" from a general "reconstruction" in the opening paragraph.', options: [
                 { text: 'The primary clue is the phrase "precise data for an accurate forensic reconstruction"', outcome: 'The primary clue is the phrase "precise data for an accurate forensic reconstruction" linked to "CT.' },
                 { text: 'rebuilding the tomb', outcome: 'Not quite — Students believe "vocabulary in context" means guessing a synonym that fits the sentence.', reveals: 'vocabulary-in-context-means-guessing' },
                 { text: 'forensic', outcome: 'Not quite — Students believe "vocabulary in context" means guessing a synonym that fits the sentence.', reveals: 'vocabulary-in-context-means-guessing' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_03_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading a forensic report on a 3,300-year-old mummy — you would expect precise word pairings like "computed tomography" not "computer body.',
+          caseStudy: { intro: 'Read \'Discovering Tut: the Saga Continues\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Define "collocation" and give one example from the chapter "Discovering Tut" that is NOT "funerary treasures".', options: [
                 { text: 'A collocation is a predictable, habitual co-occurrence of two or more words that sounds', outcome: 'A collocation is a predictable, habitual co-occurrence of two or more words that sounds natural.' },
                 { text: 'any adjective+noun pair like \'big tomb\'', outcome: 'Not quite — Students treat "Working with Words" as a vocabulary list to memorise rather than a linguistic.', reveals: 'students-treat-working-with-words' },
                 { text: 'stunning artefacts', outcome: 'Not quite — Students treat "Working with Words" as a vocabulary list to memorise rather than a linguistic.', reveals: 'students-treat-working-with-words' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_03_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are reading a news report about a scientific discovery: the headline gives you the literal facts (who, what, when), but to understand *why*.',
+          caseStudy: { intro: 'Answer \'Discovering Tut: the Saga Continues\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the primary difference between a literal comprehension question and an inferential comprehension question?', options: [
                 { text: 'A literal question\'s answer is directly stated in the text (e.g., "When was the CT scan', outcome: 'A literal question\'s answer is directly stated in the text (e.g., "When was the CT scan done?" – "5.' },
                 { text: 'Literal questions are easy, inferential are hard', outcome: 'Not quite — Students often think inferential questions are "opinion questions" with no right answer, so they.', reveals: 'inferential-questions-are-opinion-questions' },
@@ -89,18 +89,18 @@ export const c11_eng_h_ch03_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas or messages that run alongside the.',
+          question: 'Secondary themes in \'Discovering Tut: the Saga Continues\' — the supporting.',
           hint: 'Review the primary theme analysis in node 006 and the plot summary in node 002 to see.',
           misconception: 'Students often mistake recurring motifs (gold, curses, mummies) for themes.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the underlying ideas or messages that run alongside the primary',
-                  options: ['Secondary themes are the underlying ideas or messages that run alongside the primary', 'Before You Read: Context and Background provides essential historical, cultural, and', 'Plot is the sequence of events that make up a story, while narrative structure refers to', 'Setting refers to the time, place, and physical environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes in \'Discovering Tut: the Saga Continues\'',
+                  options: ['Secondary themes in \'Discovering Tut: the Saga Continues\'', '\'Discovering Tut: the Saga Continues\' (Hornbill, ch', 'The plot/narrative arc of \'Discovering Tut: the Saga Continues\'', 'The setting of \'Discovering Tut: the Saga Continues\''],
                   hint: 'Review the primary theme analysis in node 006 and the plot summary in node 002 to see where.',
                   misconception: 'Students often mistake recurring motifs (gold, curses, mummies) for themes.' }
           ],
             remediations: { 'students-often-mistake-recurring-motifs': { steps: ['Ask the student to list five nouns that appear repeatedly in the text (e.g., gold, scanner, curse, resin, tomb).', 'For each noun, ask: "What human idea or conflict does this represent?" 3.', 'Guide them to phrase the answer as a complete sentence with an abstract noun (e.g., "The conflict between preservation.', 'Have them match each abstract idea to two textual moments.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Discovering Tut: the Saga Continues\' — the vivid, sensory language.',
           hint: 'Review "tenor/vehicle/ground" terminology using a simple poem (e.g., "Hope is the thing.',
           misconception: 'Students treat "imagery" as synonymous with "visual description" and "metaphor" as any comparison.',
           parts: [
@@ -111,7 +111,7 @@ export const c11_eng_h_ch03_p2: SimDef = {
           ],
             remediations: { 'students-treat-imagery-as-synonymous': { steps: ['**Re-sensitize senses**: Have the student close eyes while you read Para 1 aloud; they list every sensation felt (wind.', '**Metaphor surgery**: Take "cementing" — ask "If I replace this with \'sticking firmly\', what is lost?" (Answer: the.', 'Metaphor sort**: Give 5 comparisons from text; student sorts into two columns, justifying each.', '**Cross-domain mapping**: Practice creating metaphors where vehicle is from ancient Egypt, tenor is modern tech (as.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_009', difficulty: 'standard',
-          question: 'Irony in literature is a contrast between expectation and reality—where the.',
+          question: 'Irony and paradox in \'Discovering Tut: the Saga Continues\' — where opposite.',
           hint: 'If stuck, review the irony examples in Class 10 "A Letter to God" (c10_engl_cbse_01_005).',
           misconception: 'Students frequently confuse **irony** with **coincidence** or **bad luck** (e.g., "It\'s ironic that the scanner broke".',
           parts: [
@@ -141,7 +141,7 @@ export const c11_eng_h_ch03_p2: SimDef = {
           ],
             remediations: { 'students-frequently-confuse-irony-with': { steps: ['**Isolate the mechanism**: Give the student two side-by-side sentences: "The fire station burned down" (irony) vs.', '"The fire station had a fire drill" (coincidence).', 'Ask: "What was the *purpose* of the fire station?', 'What *actually happened*?" 2.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of inferring precise meanings of words and.',
+          question: 'Key vocabulary of \'Discovering Tut: the Saga Continues\' — the words and phrases.',
           hint: 'Review Class 9-10 vocabulary nodes on context clues (c9_engl_ch1_8, c10_engl_cbse_02_009).',
           misconception: 'Students believe "vocabulary in context" means guessing a synonym that fits the sentence grammatically.',
           parts: [
@@ -156,18 +156,18 @@ export const c11_eng_h_ch03_p2: SimDef = {
           ],
             remediations: { 'vocabulary-in-context-means-guessing': { steps: ['If a student gives only a generic synonym, do this: (1) Return to the exact sentence.', '(2) Ask: "What is the subject?', 'What is the weather doing?" (3) Have them list 5 verbs for cloud movement (drift, race, billow, scud, gather).', '(4) Ask which verb fits "dark-bellied" + "angry wind" + "veiling stars." (5) Show how "scudded" is the only one.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_011', difficulty: 'standard',
-          question: 'Language usage in the text refers to the study of how lexical items combine.',
+          question: 'Language and style in \'Discovering Tut: the Saga Continues\' — how the writer.',
           hint: 'If stuck on collocation identification, review Class 6 "Adjectives and Adverbs".',
           misconception: 'Students treat "Working with Words" as a vocabulary list to memorise rather than a linguistic analysis task.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language usage in the text refers to the study of how lexical items combine into fixed',
-                  options: ['Language usage in the text refers to the study of how lexical items combine into fixed', 'Before You Read: Context and Background provides essential historical, cultural, and', 'Plot is the sequence of events that make up a story, while narrative structure refers to', 'Setting refers to the time, place, and physical environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language and style in \'Discovering Tut: the Saga Continues\'',
+                  options: ['Language and style in \'Discovering Tut: the Saga Continues\'', '\'Discovering Tut: the Saga Continues\' (Hornbill, ch', 'The plot/narrative arc of \'Discovering Tut: the Saga Continues\'', 'The setting of \'Discovering Tut: the Saga Continues\''],
                   hint: 'If stuck on collocation identification, review Class 6 "Adjectives and Adverbs" (c6_english_u3_028).',
                   misconception: 'Students treat "Working with Words" as a vocabulary list to memorise rather than a linguistic analysis task.' }
           ],
             remediations: { 'students-treat-working-with-words': { steps: ['Give the student a two-column table: Column A = 10 collocations from text, Column B = "Register".', 'Ask them to complete it using a dictionary.', 'Then have them rewrite paragraph 4 replacing each collocation with a synonym — discuss how tone shifts.', 'Finally, assign a mini-research: "Find one Indian language with <10,000 speakers and trace its domain loss over 50.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'Discovering Tut: the Saga Continues\' — questions.',
           hint: 'If stuck, review c11_eng_h_cbse_03_002 (Plot) to re-sequence events, and.',
           misconception: 'Students often think inferential questions are "opinion questions" with no right answer, so they write personal guesses.',
           parts: [

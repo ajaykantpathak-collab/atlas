@@ -19,7 +19,7 @@ export const c11_eng_h_ch08_p3: SimDef = {
         hook: 'The old road moved fabric; Middleton\'s road moves meaning — same track, different cargo.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation in the context of \'Silk Road\' involves examining the travelogue\'s narrative techniques, thematic depth, and the author\'s perspective to evaluate how.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Silk Road\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_08_013', title: 'Your mission',
@@ -29,14 +29,14 @@ export const c11_eng_h_ch08_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_08_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you have just returned from a school trip to Ladakh and your friend asks, "How was it?" You don\'t recount every meal and toilet break; you.',
+          caseStudy: { intro: 'For written answers on \'Silk Road\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the primary difference between note-making and summarising in terms of output format and purpose?', options: [
                 { text: 'Note-making uses abbreviated points, nominalised verbs, and symbols for personal reference', outcome: 'Note-making uses abbreviated points, nominalised verbs, and symbols for personal reference.' },
                 { text: 'summary is just shorter notes', outcome: 'Not quite — Students believe "using big vocabulary" impresses examiners. They replace simple text words with.', reveals: 'using-big-vocabulary-impresses-examiners' },
                 { text: 'using big vocabulary', outcome: 'Not quite — Students believe "using big vocabulary" impresses examiners. They replace simple text words with.', reveals: 'using-big-vocabulary-impresses-examiners' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_08_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are sitting in a circle with classmates after reading Nick Middleton\'s journey to Mount Kailash.',
+          caseStudy: { intro: 'Talk through \'Silk Road\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of a \'discussion point\' in a literature class based on a chapter like "Silk Road"?', options: [
                 { text: 'The primary purpose is to explore the text\'s deeper meanings', outcome: 'The primary purpose is to explore the text\'s deeper meanings — themes, character motivations.' },
                 { text: 'to summarize the story', outcome: 'Not quite — Students often think a discussion point is just a summary question (e.g., "What happens.', reveals: 'a-discussion-point-is-just' },
@@ -61,18 +61,18 @@ export const c11_eng_h_ch08_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation in the context of \'Silk Road\'.',
+          question: 'Critical thinking on \'Silk Road\' — analysing the text to reach evidence-based.',
           hint: 'If stuck, return to c11_eng_h_cbse_08_012 and practice writing 3-sentence evidence-based.',
           misconception: 'Students often confuse \'critical analysis\' with \'listing literary devices.\' They identify a metaphor (\'the wind was.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical Thinking: Analysis and Interpretation in the context of \'Silk Road\' involves',
-                  options: ['Critical Thinking: Analysis and Interpretation in the context of \'Silk Road\' involves', '"Before You Read: Context and Background" is a preparatory section that provides', 'Plot and Narrative Structure in "Silk Road" refers to the sequence of events (plot) and', 'Setting refers to the time, place, and physical environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'Silk Road\'',
+                  options: ['Critical thinking on \'Silk Road\'', '\'Silk Road\' (Hornbill, ch', 'The plot/narrative arc of \'Silk Road\'', 'The setting of \'Silk Road\''],
                   hint: 'If stuck, return to c11_eng_h_cbse_08_012 and practice writing 3-sentence evidence-based answers.',
                   misconception: 'Students often confuse \'critical analysis\' with \'listing literary devices.\' They identify a metaphor (\'the wind was a blade\') and stop.' }
           ],
             remediations: { 'students-often-confuse-critical-analysis': { steps: ['Take a single dense paragraph (e.g., the description of the kora start).', 'Annotate *only* the verbs and adjectives describing the narrator\'s body.', 'Annotate *only* the verbs and adjectives describing the pilgrims\' bodies.', 'Write three sentences comparing the two lists: what does the grammatical contrast (passive suffering vs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_014', difficulty: 'standard',
-          question: 'Summarising is the skill of condensing a text to its essential meaning.',
+          question: 'Writing skills from \'Silk Road\' — using the text as a model or springboard for.',
           hint: 'If stuck, review **c11_eng_h_cbse_08_012 (Comprehension: Inferential Questions)**.',
           misconception: 'Students believe "using big vocabulary" impresses examiners. They replace simple text words with thesaurus synonyms.',
           parts: [
@@ -87,7 +87,7 @@ export const c11_eng_h_ch08_p3: SimDef = {
           ],
             remediations: { 'using-big-vocabulary-impresses-examiners': { steps: ['Give the student a familiar 100-word text (e.g., a fairy tale).', 'Ask them to tell it in 3 sentences orally — this bypasses writing anxiety.', 'Transcribe their oral summary.', 'Highlight the connectors they used naturally ("so", "but", "then").'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_08_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Silk Road\' — speaking and listening around the text.',
           hint: 'If stuck, review c11_eng_h_cbse_08_013 (Critical Thinking) to practice turning textual.',
           misconception: 'Students often think a discussion point is just a summary question (e.g., "What happens at Darchen?") or a personal.',
           parts: [

@@ -114,12 +114,17 @@ async def build_passport(db: AsyncSession, user_id: str) -> Dict[str, Any]:
     overall = round(total_mastered / total_nodes * 100, 1) if total_nodes else 0.0
 
     # recent activity
+    # BUGFIX (pillar-6, round 2): this used ``.all()``, which returns Row
+    # objects keyed by the entity — ``a.activity_type`` then raised
+    # AttributeError for ANY user with at least one activity row, 500-ing
+    # /api/passport/me and /api/progress/mastery/*. The first activity a new
+    # student logged bricked their passport.
     arows = (await db.execute(
         sa_select(ActivityLog)
         .where(ActivityLog.user_id == user_id)
         .order_by(sa_desc(ActivityLog.created_at))
         .limit(10)
-    )).all()
+    )).scalars().all()
     recent = [
         {"type": a.activity_type, "title": a.title, "subject": a.subject,
          "score": a.score, "when": str(a.created_at)}

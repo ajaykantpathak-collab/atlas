@@ -6,13 +6,13 @@ import C11_HistoryWritingCityLifeSim from '../../../simulations/c6_12/C11_Histor
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_historywritingcitylifesim: SimDef = {
     id: 'v3w_c11_historywritingcitylifesim',
-    title: 'Writing City Life',
+    title: 'The Temple and the Palace as Centres of Power',
     subtitle: 'Covers the emergence of temple institutions (c. 5000 BCE), transition to palace authority.',
     classLevel: 11, subject: 'history', topic: 'The Temple and the Palace as Centres of Power',
     chapters: [],
     nodeIds: ['c11_hist_cbse_01_005', 'c11_hist_cbse_01_001', 'c11_hist_cbse_01_004', 'c11_hist_cbse_01_010', 'c11_hist_cbse_01_002', 'c11_hist_cbse_01_003', 'c11_hist_cbse_01_011', 'c11_hist_cbse_01_006', 'c11_hist_cbse_01_009', 'c11_hist_cbse_07_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at the Great Bath of Mohenjo-daro from your Class 6 studies — a massive public.', goal: 'Master Writing City Life.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at the Great Bath of Mohenjo-daro from your Class 6 studies — a massive public.', goal: 'Master The Temple and the Palace as Centres of Power.' },
     discovery: {
         question: 'Why did the temple in southern Mesopotamia gradually take on economic functions like oil pressing, grain grinding, and textile weaving, rather than remaining.',
         options: ['The temple became an economic organiser', 'priests wanted profit', 'kings forced temples to work'],
@@ -80,7 +80,7 @@ export const w_c11_historywritingcitylifesim: SimDef = {
             { text: 'Evaluate systemic impact — these constraints made cuneiform slow to write, bulky to store, and unsuited for rapid.', faded: true, blankAnswer: 'Clay\'s plasticity and sun-drying dictated small, flat.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_hist_cbse_01_001', title: 'Identify each idea',
-          dissect: { specimen: 'Writing City Life', spots: [
+          dissect: { specimen: 'The Temple and the Palace as Centres of Power', spots: [
             { id: 's1', label: 'The Temple and the Palace', prompt: 'Which idea is this? — The Temple and the Palace as Centres of Power refers to the dual institutional framework.', answer: 'The Temple and the Palace', options: ['The Temple and the Palace', 'Mesopotamia Greek mesos middle potamos', 'Sumerian city-states were independent temple-centered', 'Cities as centres of specialised'] },
             { id: 's2', label: 'Mesopotamia Greek mesos middle potamos', prompt: 'Which idea is this? — Mesopotamia (Greek: *mesos* \'middle\', *potamos* \'river\') refers to the historical region.', answer: 'Mesopotamia Greek mesos middle potamos', options: ['Mesopotamia Greek mesos middle potamos', 'The Temple and the Palace', 'Sumerian city-states were independent temple-centered', 'Cities as centres of specialised'] },
             { id: 's3', label: 'Sumerian city-states were independent temple-centered', prompt: 'Which idea is this? — Sumerian city-states were independent, temple-centered urban settlements in southern.', answer: 'Sumerian city-states were independent temple-centered', options: ['Sumerian city-states were independent temple-centered', 'The Temple and the Palace', 'Mesopotamia Greek mesos middle potamos', 'Cities as centres of specialised'] },
@@ -89,7 +89,7 @@ export const w_c11_historywritingcitylifesim: SimDef = {
             { id: 's6', label: 'Cuneiform script is the wedge-shaped', prompt: 'Which idea is this? — Cuneiform script is the wedge-shaped writing system developed in ancient Mesopotamia.', answer: 'Cuneiform script is the wedge-shaped', options: ['Cuneiform script is the wedge-shaped', 'The Temple and the Palace', 'Mesopotamia Greek mesos middle potamos', 'Sumerian city-states were independent temple-centered'] }
           ] } }
     ],
-    explore: { component: C11_HistoryWritingCityLifeSim, prompt: 'Explore the interactive — Writing City Life' },
+    explore: { component: C11_HistoryWritingCityLifeSim, prompt: 'Explore the interactive — The Temple and the Palace as Centres of Power' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hist_cbse_01_005', difficulty: 'standard',
           question: 'The Temple and the Palace as Centres of Power refers to the dual institutional.',
@@ -246,8 +246,8 @@ export const w_c11_historywritingcitylifesim: SimDef = {
                   options: ['Mesopotamia lacked papyrus and had limited stone/wood', 'clay was more durable'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe cuneiform was an alphabet where each wedge equals a letter (like English), and that most Mesopotamians could.' },
-                { id: 'c', prompt: 'A scribe in 2600 BCE Uruk receives an order: "Record the delivery of 300 litres of barley to the temple storehouse, received from Farmer A, witnessed by.', answer: 'Steps: (1) Collect levigated clay from riverbed',
-                  options: ['Steps: (1) Collect levigated clay from riverbed', 'moist clay'],
+                { id: 'c', prompt: 'A scribe in 2600 BCE Uruk receives an order: "Record the delivery of 300 litres of barley to the temple storehouse, received from Farmer A, witnessed by.', answer: '(1) Collect levigated clay from riverbed',
+                  options: ['(1) Collect levigated clay from riverbed', 'moist clay'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe cuneiform was an alphabet where each wedge equals a letter (like English), and that most Mesopotamians could.' }
           ],

@@ -6,16 +6,16 @@ import C10_EconomicsPerfectCompetitionMeaningSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_economicsperfectcompetitionmeaningsim: SimDef = {
     id: 'v3w_c10_economicsperfectcompetitionmeaningsim',
-    title: 'Perfect Competition Meaning',
+    title: 'Impact of Globalisation in India: Positive Effects on Consumers and Producers',
     subtitle: 'Covers positive effects on consumers (choice, price, quality, variety) and producers.',
     classLevel: 10, subject: 'economics', topic: 'Impact of Globalisation in India: Positive Effects on Consumers and Producers',
     chapters: [],
     nodeIds: ['c10_eco_cbse_04_006', 'c10_eco_cbse_04_002', 'c10_eco_cbse_04_007', 'c10_eco_cbse_04_009', 'c10_eco_cbse_04_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you walk into an electronics store in 2024 to buy a smartphone.', goal: 'Master Perfect Competition Meaning.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you walk into an electronics store in 2024 to buy a smartphone.', goal: 'Master Impact of Globalisation in India: Positive Effects on Consumers and Producers.' },
     discovery: {
         question: 'Compare the impact of globalisation on a large Indian IT services firm (e.g., TCS) versus a small traditional handloom weaver in Varanasi.',
-        options: ['Correct answer: The IT firm benefits more', 'IT firms are bigger so they win', 'globalisation benefits consumers ONLY through cheaper imported goods'],
+        options: ['The IT firm benefits more', 'IT firms are bigger so they win', 'globalisation benefits consumers ONLY through cheaper imported goods'],
         answer: 'The IT firm benefits more',
         hook: 'Students believe globalisation benefits consumers ONLY through cheaper imported goods.',
     },
@@ -71,7 +71,7 @@ export const w_c10_economicsperfectcompetitionmeaningsim: SimDef = {
             { text: 'Interpret economically: The firm saves ₹2.55 crore on the same import volume, lowering its cost of production.', faded: true, blankAnswer: 'Customs duty savings = ₹2,55,00,000 (₹2.55 crore).' }
             ] } },
         { type: 'dissect', nodeId: 'c10_eco_cbse_04_002', title: 'Identify each idea',
-          dissect: { specimen: 'Perfect Competition Meaning', spots: [
+          dissect: { specimen: 'Impact of Globalisation in India: Positive Effects on Consumers and Producers', spots: [
             { id: 's1', label: 'The positive impact of globalisation', prompt: 'Which idea is this? — The positive impact of globalisation on Indian consumers refers to increased access to a.', answer: 'The positive impact of globalisation', options: ['The positive impact of globalisation', 'Foreign trade refers to the', 'The negative effects of globalisation', 'Multinational Corporations MNCs are large'] },
             { id: 's2', label: 'Foreign trade refers to the', prompt: 'Which idea is this? — Foreign trade refers to the exchange of goods, services, and capital across international.', answer: 'Foreign trade refers to the', options: ['Foreign trade refers to the', 'The positive impact of globalisation', 'The negative effects of globalisation', 'Multinational Corporations MNCs are large'] },
             { id: 's3', label: 'The negative effects of globalisation', prompt: 'Which idea is this? — The negative effects of globalisation on small producers in India refer to the adverse.', answer: 'The negative effects of globalisation', options: ['The negative effects of globalisation', 'The positive impact of globalisation', 'Foreign trade refers to the', 'Multinational Corporations MNCs are large'] },
@@ -79,7 +79,7 @@ export const w_c10_economicsperfectcompetitionmeaningsim: SimDef = {
             { id: 's5', label: 'Liberalisation of foreign trade and', prompt: 'Which idea is this? — Liberalisation of foreign trade and foreign investment policy refers to the deliberate.', answer: 'Liberalisation of foreign trade and', options: ['Liberalisation of foreign trade and', 'The positive impact of globalisation', 'Foreign trade refers to the', 'The negative effects of globalisation'] }
           ] } }
     ],
-    explore: { component: C10_EconomicsPerfectCompetitionMeaningSim, prompt: 'Explore the interactive — Perfect Competition Meaning' },
+    explore: { component: C10_EconomicsPerfectCompetitionMeaningSim, prompt: 'Explore the interactive — Impact of Globalisation in India: Positive Effects on Consumers and Producers' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_eco_cbse_04_006', difficulty: 'standard',
           question: 'The positive impact of globalisation on Indian consumers refers to increased.',

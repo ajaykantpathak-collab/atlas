@@ -6,16 +6,16 @@ import C12_GeoTransportCommunicationCBSESim from '../../../simulations/c6_12_new
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_geotransportcommunicationcbsesim: SimDef = {
     id: 'v3w_c12_geotransportcommunicationcbsesim',
-    title: 'Geo Transport Communication CBSE',
+    title: 'Transport: Definition and Importance in Economy',
     subtitle: 'This node covers the conceptual definition of transport, its economic significance.',
     classLevel: 12, subject: 'science', topic: 'Transport: Definition and Importance in Economy',
     chapters: [],
     nodeIds: ['c12_geo_cbse_08_001', 'c12_geo_cbse_08_002', 'c12_geo_cbse_08_004', 'c12_geo_cbse_08_006', 'c12_geo_cbse_08_010', 'c12_geo_cbse_08_011', 'c12_geo_cbse_15_011', 'c12_geo_cbse_15_012', 'c12_geo_cbse_07_001', 'c12_geo_cbse_07_002', 'c12_geo_cbse_07_003', 'c12_geo_cbse_07_004', 'c12_geo_cbse_07_005', 'c12_geo_cbse_04_010', 'c12_geo_cbse_08_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine standing at a railway crossing in your town: a goods train loaded with coal from Jharkhand passes,.', goal: 'Master Geo Transport Communication CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine standing at a railway crossing in your town: a goods train loaded with coal from Jharkhand passes,.', goal: 'Master Transport: Definition and Importance in Economy.' },
     discovery: {
         question: 'A farmer in western Uttar Pradesh grows sugarcane. The nearest sugar mill is 40 km away by road, but the road is unpaved and becomes unusable in monsoon.',
-        options: ['Correct answer: Implicit transport cost = ₹340 – ₹280 = ₹60/quintal', 'loss due to middlemen', 'transport importance = connectivity'],
+        options: ['Implicit transport cost = ₹340 – ₹280 = ₹60/quintal', 'loss due to middlemen', 'transport importance = connectivity'],
         answer: 'Implicit transport cost = ₹340 – ₹280 = ₹60/quintal',
         hook: 'Students think "transport importance = connectivity" and write vague statements like "it connects places." The precise.',
     },
@@ -78,7 +78,7 @@ export const w_c12_geotransportcommunicationcbsesim: SimDef = {
                 { text: 'Bengaluru', outcome: 'Not quite — **Students think "globalisation = internet" and believe physical transport (ships, rail, trucks) is.', reveals: 'students-think-globalisation-internet-and' }
             ] }] } }
     ],
-    explore: { component: C12_GeoTransportCommunicationCBSESim, prompt: 'Explore the interactive — Geo Transport Communication CBSE' },
+    explore: { component: C12_GeoTransportCommunicationCBSESim, prompt: 'Explore the interactive — Transport: Definition and Importance in Economy' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_08_001', difficulty: 'standard',
           question: 'Transport is the physical movement of people, goods, and services from one.',

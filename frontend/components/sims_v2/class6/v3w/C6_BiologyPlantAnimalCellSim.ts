@@ -6,13 +6,13 @@ import C6_BiologyPlantAnimalCellSim from '../../../simulations/c6_12/C6_BiologyP
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_biologyplantanimalcellsim: SimDef = {
     id: 'v3w_c6_biologyplantanimalcellsim',
-    title: 'Plant Animal Cell',
+    title: 'How Do Plants Grow? From Seed to Tree',
     subtitle: 'This node covers the fundamental concept that plants perform gas exchange for.',
-    classLevel: 6, subject: 'biology', topic: 'Do Plants Respire? Gas Exchange in Plants',
+    classLevel: 6, subject: 'biology', topic: 'How Do Plants Grow? From Seed to Tree',
     chapters: [],
     nodeIds: ['c6_biology_ch10_001', 'c6_biology_ch10_002', 'c6_biology_ch09_001', 'c6_biology_ch09_002', 'c6_biology_ch09_005', 'c6_biology_ch09_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered if a tree "breathes" while you are sleeping at night?', goal: 'Master Plant Animal Cell.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered if a tree "breathes" while you are sleeping at night?', goal: 'Master How Do Plants Grow? From Seed to Tree.' },
     discovery: {
         question: 'Why does the body need accessory organs like the liver and pancreas if we already have a long muscular tube?',
         options: ['The tube holds the food, but the accessory organs provide essential juices that', 'digestion', '"digestion" only happens in the stomach'],
@@ -73,7 +73,7 @@ export const w_c6_biologyplantanimalcellsim: SimDef = {
             { text: 'Arteries branch into tiny vessels that reach the muscle cells.', faded: true, blankAnswer: 'The oxygen is transported via the blood, pumped by the.' }
             ] } }
     ],
-    explore: { component: C6_BiologyPlantAnimalCellSim, prompt: 'Explore the interactive — Plant Animal Cell' },
+    explore: { component: C6_BiologyPlantAnimalCellSim, prompt: 'Explore the interactive — How Do Plants Grow? From Seed to Tree' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_biology_ch10_004', difficulty: 'standard',
           question: 'Plant respiration is the process by which all living plant cells take in oxygen.',

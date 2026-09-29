@@ -6,13 +6,13 @@ import C12_HistoryPeasantsZamindarsStateSim from '../../../simulations/c6_12/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_historypeasantszamindarsstatesim: SimDef = {
     id: 'v3w_c12_historypeasantszamindarsstatesim',
-    title: 'Peasants Zamindars State',
+    title: 'The Village Community: Headman (Muqaddam), Patwari and Collective Responsibility',
     subtitle: 'This node covers the internal structure and functioning of the Mughal village community:.',
     classLevel: 12, subject: 'history', topic: 'The Village Community: Headman (Muqaddam), Patwari and Collective Responsibility',
     chapters: [],
     nodeIds: ['c12_hist_cbse_08_003', 'c12_hist_cbse_08_005', 'c12_hist_cbse_08_006', 'c12_hist_cbse_08_007', 'c12_hist_cbse_08_009', 'c12_hist_cbse_08_011', 'c12_hist_cbse_08_012', 'c12_hist_cbse_09_002', 'c12_hist_cbse_08_001', 'c12_hist_cbse_08_004', 'c12_hist_cbse_08_010', 'c12_hist_cbse_08_002', 'c12_hist_cbse_09_004', 'c12_hist_cbse_09_007', 'c12_hist_cbse_10_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are visiting a present-day gram panchayat office in rural India and see the sarpanch and.', goal: 'Master Peasants Zamindars State.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are visiting a present-day gram panchayat office in rural India and see the sarpanch and.', goal: 'Master The Village Community: Headman (Muqaddam), Patwari and Collective Responsibility.' },
     discovery: {
         question: 'A village panchayat in 1650 Punjab receives a petition from lower-caste cultivators complaining that the zamindar\'s officials are demanding begar (unpaid.',
         options: ['Desertion was effective', 'peasants had no power', 'desertion was rare'],
@@ -82,7 +82,7 @@ export const w_c12_historypeasantszamindarsstatesim: SimDef = {
             { text: 'State fiscal benefit: (a) higher revenue rates on cotton land, (b) market dues at haats (zamindar’s share, part of.', faded: true, blankAnswer: 'Cotton linked Deccan villages to global markets via a.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_hist_cbse_08_005', title: 'Identify each idea',
-          dissect: { specimen: 'Peasants Zamindars State', spots: [
+          dissect: { specimen: 'The Village Community: Headman (Muqaddam), Patwari and Collective Responsibility', spots: [
             { id: 's1', label: 'The village community in Mughal', prompt: 'Which idea is this? — The village community in Mughal India (c. 1550–1700) was a collective social unit.', answer: 'The village community in Mughal', options: ['The village community in Mughal', 'Zamindars in Mughal India c', 'The Zamindars Military Retainers and', 'The Mughal land revenue system'] },
             { id: 's2', label: 'Zamindars in Mughal India c', prompt: 'Which idea is this? — Zamindars in Mughal India (c. 1556–1707) were landed proprietors who held extensive.', answer: 'Zamindars in Mughal India c', options: ['Zamindars in Mughal India c', 'The village community in Mughal', 'The Zamindars Military Retainers and', 'The Mughal land revenue system'] },
             { id: 's3', label: 'The Zamindars Military Retainers and', prompt: 'Which idea is this? — The Zamindar\'s Military Retainers and the Fortified Stronghold (Qila) refers to the armed.', answer: 'The Zamindars Military Retainers and', options: ['The Zamindars Military Retainers and', 'The village community in Mughal', 'Zamindars in Mughal India c', 'The Mughal land revenue system'] },
@@ -91,7 +91,7 @@ export const w_c12_historypeasantszamindarsstatesim: SimDef = {
             { id: 's6', label: 'Trade in agricultural goods during', prompt: 'Which idea is this? — Trade in agricultural goods during the Mughal era (16th–17th centuries) refers to the.', answer: 'Trade in agricultural goods during', options: ['Trade in agricultural goods during', 'The village community in Mughal', 'Zamindars in Mughal India c', 'The Zamindars Military Retainers and'] }
           ] } }
     ],
-    explore: { component: C12_HistoryPeasantsZamindarsStateSim, prompt: 'Explore the interactive — Peasants Zamindars State' },
+    explore: { component: C12_HistoryPeasantsZamindarsStateSim, prompt: 'Explore the interactive — The Village Community: Headman (Muqaddam), Patwari and Collective Responsibility' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hist_cbse_08_003', difficulty: 'standard',
           question: 'The village community in Mughal India (c. 1550–1700) was a collective social.',

@@ -19,7 +19,7 @@ export const c12_hin_a_ch02_p3: SimDef = {
         hook: 'Nirala outgrew Chhayavad\'s self-centred lyricism — from subjective romance to epic history, satire and metaphysical inquiry. His language had \'many forms and levels\': the same pen wrote high-Sanskrit prayer and village-cornfield satire. Grief was the fuel; craft was the engine.',
     },
     teaching: [
-        { title: 'सरोज स्मृति — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण और विश्लेषण अभ्यास में छात्र को कविता के पद्यांश का विस्तृत भावार्थ देना, काव्यात्मक युक्तियों की पहचान करना, और केंद्रीय भाव से जोड़कर व्याख्या करना सिखाया जाता है।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'सरोज स्मृति — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: '\'अंतरा भाग-2 — पाठ 2\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_02_013', title: 'Your mission',
@@ -28,6 +28,20 @@ export const c12_hin_a_ch02_p3: SimDef = {
         context: 'Trace a poet\'s alchemy: follow the losses that forged him, map his leap beyond Chhayavad\'s bounds, and hear one voice speak in epic Sanskrit and village Avadhi both.',
         labels: ['सरोज स्मृति — आशय-स्पष्टीकरण', 'सरोज स्मृति — परीक्षा-उत्तर', 'सरोज स्मृति — वाचन-पाठ'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_02_014', title: 'सरोज स्मृति — परीक्षा-उत्तर लेखन कौशल',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 2\' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।',
+            decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing literature answers?', options: [
+                { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
+                { text: 'Paragraph, Example, Explain, Line', outcome: 'Not quite — Students believe "writing skills" means memorizing model answers for predicted questions.', reveals: 'writing-skills-means-memorizing-model' },
+                { text: 'writing skills', outcome: 'Not quite — Students believe "writing skills" means memorizing model answers for predicted questions.', reveals: 'writing-skills-means-memorizing-model' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_02_015', title: 'सरोज स्मृति — वाचन-पाठ और चर्चा-बिंदु',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 2\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'What is the primary purpose of a structured literary discussion in a Class 12 Hindi classroom?', options: [
+                { text: 'The primary purpose is to develop students\' ability to articulate evidence‑based', outcome: 'The primary purpose is to develop students\' ability to articulate evidence‑based interpretations.' },
+                { text: 'to memorize the poem', outcome: 'Not quite — Students often treat speaking and listening as "just talking" and believe that sharing personal.', reveals: 'students-often-treat-speaking-and' },
+                { text: 'It was sad', outcome: 'Not quite — Students often treat speaking and listening as "just talking" and believe that sharing personal.', reveals: 'students-often-treat-speaking-and' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_02_013', title: 'Use it in the wild',
           caseStudy: { intro: 'You\'re making a memorial film for a departed grandparent. The editor wants strict chronology — birth, childhood, marriage, death — \'so it\'s clear.\' Your best asset is a single fading photograph of her as a young woman.',
             decisions: [{ prompt: 'What does the structure of Agyeya\'s \'लज्जत लेखा\' advise?', options: [
@@ -47,38 +61,61 @@ export const c12_hin_a_ch02_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_013', difficulty: 'standard',
-          question: 'आशय-स्पष्टीकरण और विश्लेषण अभ्यास में छात्र को कविता के पद्यांश का विस्तृत.',
+          question: '\'अंतरा भाग-2 — पाठ 2\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
           hint: 'यदि फंसे हों तो पद्यांश-वार भावार्थ (c12_hin_a_cbse_02_002) की दोबारा समीक्षा करें और.',
           misconception: 'छात्र अक्सर आशय-स्पष्टीकरण में केवल पद्यांश के शब्दार्थ का अनुवाद करके भाव-विश्लेषण को छोड़ देते हैं, जैसे "फूलों की.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण और विश्लेषण अभ्यास में छात्र को कविता के पद्यांश का विस्तृत भावार्थ देना,',
-                  options: ['आशय-स्पष्टीकरण और विश्लेषण अभ्यास में छात्र को कविता के पद्यांश का विस्तृत भावार्थ देना,', 'सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद या पंक्तियों के समूह का गहन विश्लेषण', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के पदों (stanzas), पंक्तियों, छंद-विधान, लय'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 2\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+                  options: ['\'अंतरा भाग-2 — पाठ 2\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 2\' का कथानक — \'अंतरा भाग-2 — पाठ 2\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 2\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि फंसे हों तो पद्यांश-वार भावार्थ (c12_hin_a_cbse_02_002) की दोबारा समीक्षा करें और विशेष रूप से.',
                   misconception: 'छात्र अक्सर आशय-स्पष्टीकरण में केवल पद्यांश के शब्दार्थ का अनुवाद करके भाव-विश्लेषण को छोड़ देते हैं, जैसे "फूलों की चादर" को बस "फूलों से.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को बताइए कि पहले पद्यांश को दो बार पढ़िए: पहली बार सिर्फ शब्दों को समझने के लिए, दूसरी बार भाव महसूस करने के लिए।.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_014', difficulty: 'standard',
-          question: 'परीक्षा-उत्तर लेखन कौशल (\'सरोज स्मृति\' के संदर्भ में) वह संरचित लेखन-प्रक्रिया.',
-          hint: 'यदि उत्तर-लेखन कठिन लगे तो पहले आशय-स्पष्टीकरण के सरल अभ्यास करें — एक पंक्ति का अर्थ और.',
-          misconception: 'छात्र मान लेते हैं कि काव्य-प्रश्न का उत्तर \'भावना\' लिखने से पूरा हो जाता है। सटीक गलत कदम: वे दावा लिखकर रुक जाते हैं.',
+          question: '\'अंतरा भाग-2 — पाठ 2\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+          hint: 'If the student cannot generate a Point for a given question, they should re-read the.',
+          misconception: 'Students believe "writing skills" means memorizing model answers for predicted questions.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल (\'सरोज स्मृति\' के संदर्भ में) वह संरचित लेखन-प्रक्रिया है जिसमें',
-                  options: ['परीक्षा-उत्तर लेखन कौशल (\'सरोज स्मृति\' के संदर्भ में) वह संरचित लेखन-प्रक्रिया है जिसमें', 'सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद या पंक्तियों के समूह का गहन विश्लेषण', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के पदों (stanzas), पंक्तियों, छंद-विधान, लय'],
-                  hint: 'यदि उत्तर-लेखन कठिन लगे तो पहले आशय-स्पष्टीकरण के सरल अभ्यास करें — एक पंक्ति का अर्थ और भाव बताना.',
-                  misconception: 'छात्र मान लेते हैं कि काव्य-प्रश्न का उत्तर \'भावना\' लिखने से पूरा हो जाता है। सटीक गलत कदम: वे दावा लिखकर रुक जाते हैं — \'कवि शोकग्रस्त है\'.' }
+                { id: 'a', prompt: 'What does the acronym PEEL stand for in the context of writing literature answers?', answer: 'PEEL stands for Point, Evidence, Explanation, Link',
+                  options: ['PEEL stands for Point, Evidence, Explanation, Link', 'Paragraph, Example, Explain, Line', 'writing skills', '"writing skills" means memorizing model answers for predicted questions'],
+                  hint: 'If the student cannot generate a Point for a given question, they should re-read the Critical.',
+                  misconception: 'Students believe "writing skills" means memorizing model answers for predicted questions.' },
+                { id: 'b', prompt: 'A student writes: "In the poem, the father misses his daughter. He sees her in the rainbow.', answer: 'Weaknesses: (1) No textual evidence',
+                  options: ['Weaknesses: (1) No textual evidence', 'writing skills', '"writing skills" means memorizing model answers for predicted questions'],
+                  hint: 'If the student cannot generate a Point for a given question, they should re-read the Critical.',
+                  misconception: 'Students believe "writing skills" means memorizing model answers for predicted questions.' }
           ],
-            remediations: { '3-5': { steps: ['PEEL ढाँचा स्मरण कराएँ — एक प्रश्न पर चारों परतें अलग-अलग रंग से लिखवाएँ ताकि हर परत दिखे। 2.', 'दो उत्तर दिखाएँ — एक सिर्फ-दावा, एक पूर्ण-PEEL — और अंक-अंतर बतवाएँ (1 अंक बनाम 3 अंक)। 3.', 'एक पंक्ति दें और पूछें \'यह पंक्ति शोक को कैसे दिखाती है?\' — \'क्या कहती है\' नहीं। 4.', 'समय-बंधित अभ्यास: 3-अंकीय उत्तर 5 मिनट में PEEL-ढाँचे में संरचित करवाएँ। 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-means-memorizing-model': { steps: ['Have the student take one past board question (e.g., 2023: "ljkst osQ uo&oèkw :i dk o.kZu dhft,") and write a fresh.', 'Together, highlight each PEEL component in their answer using four coloured pens.', 'Identify missing components (usually Explanation and Link).', 'Rewrite only the weak paragraphs, keeping the strong Point and Evidence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_014', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe "writing skills" means memorizing model answers for predicted questions.',
+          parts: [
+                { id: 'a', prompt: 'Write a 50-word diary entry dated the day after the rainbow scene, from the father\'s perspective in "ljkst Le`fr", using first-person voice, sensory detail.', answer: 'A strong entry captures the father\'s raw voice: "aj fir vkewy uoy ns[kk',
+                  options: ['A strong entry captures the father\'s raw voice: "aj fir vkewy uoy ns[kk', 'writing skills', '"writing skills" means memorizing model answers for predicted questions'],
+                  hint: 'If the student cannot generate a Point for a given question, they should re-read the Critical.',
+                  misconception: 'Students believe "writing skills" means memorizing model answers for predicted questions.' }
+          ],
+            remediations: { 'writing-skills-means-memorizing-model': { steps: ['Have the student take one past board question (e.g., 2023: "ljkst osQ uo&oèkw :i dk o.kZu dhft,") and write a fresh.', 'Together, highlight each PEEL component in their answer using four coloured pens.', 'Identify missing components (usually Explanation and Link).', 'Rewrite only the weak paragraphs, keeping the strong Point and Evidence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_02_015', difficulty: 'standard',
-          question: 'वाचन-पाठ और चर्चा-बिंदु (\'सरोज स्मृति\' के संदर्भ में) वह मौखिक-सहयोगी कौशल है.',
-          hint: 'यदि चर्चा-बिंदु न बन पाएँ तो पहले पाठ पर सरल \'क्यों/कैसे\' प्रश्न लिखने का अभ्यास करें.',
-          misconception: 'छात्र मान लेते हैं कि चर्चा-बिंदु का अर्थ है पाठ से कोई भी प्रश्न बनाना। सटीक गलत कदम: वे तथ्यात्मक प्रश्न लिखते हैं.',
+          question: '\'अंतरा भाग-2 — पाठ 2\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'If stuck, review the "Literary Devices: Imagery and Metaphor" (c12_hin_a_cbse_02_008) and.',
+          misconception: 'Students often treat speaking and listening as "just talking" and believe that sharing personal feelings without.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-पाठ और चर्चा-बिंदु (\'सरोज स्मृति\' के संदर्भ में) वह मौखिक-सहयोगी कौशल है जिसमें',
-                  options: ['वाचन-पाठ और चर्चा-बिंदु (\'सरोज स्मृति\' के संदर्भ में) वह मौखिक-सहयोगी कौशल है जिसमें', 'सरोज स्मृति सरोजिनी नायडू की कविता का एक संग्रह है, जो उनके व्यक्तिगत अनुभवों,', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक छंद या पंक्तियों के समूह का गहन विश्लेषण', 'काव्य-संरचना और पद्य-विन्यास का अर्थ है कविता के पदों (stanzas), पंक्तियों, छंद-विधान, लय'],
-                  hint: 'यदि चर्चा-बिंदु न बन पाएँ तो पहले पाठ पर सरल \'क्यों/कैसे\' प्रश्न लिखने का अभ्यास करें — फिर उन्हें.',
-                  misconception: 'छात्र मान लेते हैं कि चर्चा-बिंदु का अर्थ है पाठ से कोई भी प्रश्न बनाना। सटीक गलत कदम: वे तथ्यात्मक प्रश्न लिखते हैं (\'कविता किसने लिखी?\'.' }
+                { id: 'a', prompt: 'What is the primary purpose of a structured literary discussion in a Class 12 Hindi classroom?', answer: 'The primary purpose is to develop students\' ability to articulate evidence‑based',
+                  options: ['The primary purpose is to develop students\' ability to articulate evidence‑based', 'to memorize the poem', 'It was sad'],
+                  hint: 'If stuck, review the "Literary Devices: Imagery and Metaphor" (c12_hin_a_cbse_02_008) and "Critical.',
+                  misconception: 'Students often treat speaking and listening as "just talking" and believe that sharing personal feelings without textual anchoring.' },
+                { id: 'b', prompt: 'During a discussion on the metaphor "nq[k gh thou dh dFkk jgh", a peer says, "This means life is short." How would you apply the concept of metaphor analysis.', answer: 'Step 1: Identify the tenor (life) and vehicle (unfinished story)',
+                  options: ['Step 1: Identify the tenor (life) and vehicle (unfinished story)', 'life is short', 'It was sad'],
+                  hint: 'If stuck, review the "Literary Devices: Imagery and Metaphor" (c12_hin_a_cbse_02_008) and "Critical.',
+                  misconception: 'Students often treat speaking and listening as "just talking" and believe that sharing personal feelings without textual anchoring.' },
+                { id: 'c', prompt: 'Compare two possible discussion openings: (A) "I felt sad reading this poem." (B) "The repetition of \'Fkj&Fkj&Fkj\' in stanza 2 creates a rhythmic echo of the.', answer: 'Opening B is more productive',
+                  options: ['Opening B is more productive', 'It was sad'],
+                  hint: 'If stuck, review the "Literary Devices: Imagery and Metaphor" (c12_hin_a_cbse_02_008) and "Critical.',
+                  misconception: 'Students often treat speaking and listening as "just talking" and believe that sharing personal feelings without textual anchoring.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['बंद-प्रश्न और खुले-प्रश्न के जोड़े दिखाकर अंतर समझाएँ — \'क्या हुआ?\' बनाम \'क्यों ऐसा हुआ और इसका क्या अर्थ है?\' 2.', 'पाठ का एक अंश पढ़कर तीन चर्चा-बिंदु निकालवाएँ — फिर उन्हें खुले/बंद में वर्गीकृत करवाएँ। 3.', 'वाचन का मॉडल दें — एक अंश भाव के साथ पढ़ें, फिर बिना भाव के — अंतर सुनवाएँ। 4.', 'युगल-चर्चा करवाएँ जहाँ दोनों को विपरीत पक्ष रखना हो — \'स्मरण सांत्वना है\' बनाम \'स्मरण पीड़ा है\'। 5.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-speaking-and': { steps: ['Revisit the poem with a highlighter: mark every image, metaphor, and sound device.', 'Practice the "Quote‑Analyse‑Question" routine: pick one marked line, write a two‑sentence analysis, then frame an open.', 'Record a 1‑minute solo response, playback, and check for textual evidence and analytical vocabulary.', 'Pair with a peer and do a timed 2‑minute exchange using the routine; give each other feedback on evidence use.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

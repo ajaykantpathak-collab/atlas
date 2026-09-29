@@ -6,16 +6,16 @@ import C12_BiologyMicrosporogenesisPollenGrainSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologymicrosporogenesispollengrainsim: SimDef = {
     id: 'v3w_c12_biologymicrosporogenesispollengrainsim',
-    title: 'Microsporogenesis Pollen Grain',
+    title: 'Flower: Structure and Function',
     subtitle: 'Covers the morphology and function of the four floral whorls (calyx, corolla, androecium,.',
     classLevel: 12, subject: 'biology', topic: 'Flower: Structure and Function',
     chapters: [],
     nodeIds: ['c12_bio_cbse_02_001', 'c12_bio_cbse_02_002', 'c12_bio_cbse_02_003', 'c12_bio_cbse_02_006', 'c12_bio_cbse_02_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a hibiscus flower in your garden or a mustard flower in a field — notice how the green sepals protect.', goal: 'Master Microsporogenesis Pollen Grain.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a hibiscus flower in your garden or a mustard flower in a field — notice how the green sepals protect.', goal: 'Master Flower: Structure and Function.' },
     discovery: {
         question: 'Name the four whorls of a typical angiosperm flower in correct acropetal order (from base to apex) and state the primary function of each whorl in one phrase.',
-        options: ['Correct answer: Calyx (sepals) – protection of bud', 'complete flower = bisexual flower', 'incomplete flower = unisexual flower'],
+        options: ['Calyx (sepals) – protection of bud', 'complete flower = bisexual flower', 'incomplete flower = unisexual flower'],
         answer: 'Calyx (sepals) – protection of bud',
         hook: 'Students often think "complete flower = bisexual flower" and "incomplete flower = unisexual flower." They memorize the.',
     },
@@ -70,7 +70,7 @@ export const w_c12_biologymicrosporogenesispollengrainsim: SimDef = {
             { text: 'Verify by checking that no trait contradicts anemophily (e.g., sticky pollen would contradict).', faded: true, blankAnswer: 'The species is anemophilous (wind-pollinated). The.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_02_002', title: 'Identify each idea',
-          dissect: { specimen: 'Microsporogenesis Pollen Grain', spots: [
+          dissect: { specimen: 'Flower: Structure and Function', spots: [
             { id: 's1', label: 'A flower is the specialized', prompt: 'Which idea is this? — A flower is the specialized reproductive shoot of an angiosperm, composed of four.', answer: 'A flower is the specialized', options: ['A flower is the specialized', 'The stamen is the male', 'Microsporogenesis is the process in', 'Pollination is the transfer of'] },
             { id: 's2', label: 'The stamen is the male', prompt: 'Which idea is this? — The stamen is the male reproductive organ of a flowering plant, consisting of a.', answer: 'The stamen is the male', options: ['The stamen is the male', 'A flower is the specialized', 'Microsporogenesis is the process in', 'Pollination is the transfer of'] },
             { id: 's3', label: 'Microsporogenesis is the process in', prompt: 'Which idea is this? — Microsporogenesis is the process in flowering plants where diploid microspore mother.', answer: 'Microsporogenesis is the process in', options: ['Microsporogenesis is the process in', 'A flower is the specialized', 'The stamen is the male', 'Pollination is the transfer of'] },
@@ -78,7 +78,7 @@ export const w_c12_biologymicrosporogenesispollengrainsim: SimDef = {
             { id: 's5', label: 'Agents of pollination are biotic', prompt: 'Which idea is this? — Agents of pollination are biotic (insects, birds, bats) and abiotic (wind, water) vectors.', answer: 'Agents of pollination are biotic', options: ['Agents of pollination are biotic', 'A flower is the specialized', 'The stamen is the male', 'Microsporogenesis is the process in'] }
           ] } }
     ],
-    explore: { component: C12_BiologyMicrosporogenesisPollenGrainSim, prompt: 'Explore the interactive — Microsporogenesis Pollen Grain' },
+    explore: { component: C12_BiologyMicrosporogenesisPollenGrainSim, prompt: 'Explore the interactive — Flower: Structure and Function' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_02_001', difficulty: 'standard',
           question: 'A flower is the specialized reproductive shoot of an angiosperm, composed of.',
@@ -190,8 +190,8 @@ export const w_c12_biologymicrosporogenesispollengrainsim: SimDef = {
                   options: ['Correct', 'any pollen transfer between different flowers is cross-pollination'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that any pollen transfer between different flowers is cross-pollination.' },
-                { id: 'b', prompt: 'Design a simple field experiment to determine whether a newly discovered flowering plant is predominantly autogamous or xenogamous.', answer: 'Steps: (1) Bag several buds before anthesis to exclude pollinators',
-                  options: ['Steps: (1) Bag several buds before anthesis to exclude pollinators', 'observe insects visiting', 'any pollen transfer between different flowers is cross-pollination'],
+                { id: 'b', prompt: 'Design a simple field experiment to determine whether a newly discovered flowering plant is predominantly autogamous or xenogamous.', answer: '(1) Bag several buds before anthesis to exclude pollinators',
+                  options: ['(1) Bag several buds before anthesis to exclude pollinators', 'observe insects visiting', 'any pollen transfer between different flowers is cross-pollination'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often believe that any pollen transfer between different flowers is cross-pollination.' }
           ],
@@ -220,8 +220,8 @@ export const w_c12_biologymicrosporogenesispollengrainsim: SimDef = {
           hint: 'Same idea, different angle.',
           misconception: 'Students often think “hydrophily means pollen floats on water like a boat” and assume all water-pollinated flowers are.',
           parts: [
-                { id: 'a', prompt: 'Design a simple field observation to distinguish whether a common roadside weed (e.g., Parthenium) is wind- or insect-pollinated.', answer: 'Steps: (1) Watch the plant for 15 min during peak flowering',
-                  options: ['Steps: (1) Watch the plant for 15 min during peak flowering', 'hydrophily means pollen floats on water like a boat', 'all water-pollinated flowers are surface-floating (epihydrophily)'],
+                { id: 'a', prompt: 'Design a simple field observation to distinguish whether a common roadside weed (e.g., Parthenium) is wind- or insect-pollinated.', answer: '(1) Watch the plant for 15 min during peak flowering',
+                  options: ['(1) Watch the plant for 15 min during peak flowering', 'hydrophily means pollen floats on water like a boat', 'all water-pollinated flowers are surface-floating (epihydrophily)'],
                   hint: 'Check your reasoning on the interactive.',
                   misconception: 'Students often think “hydrophily means pollen floats on water like a boat” and assume all water-pollinated flowers are surface-floating.' }
           ],

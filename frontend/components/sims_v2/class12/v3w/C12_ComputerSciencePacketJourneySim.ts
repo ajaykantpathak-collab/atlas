@@ -6,13 +6,13 @@ import C12_ComputerSciencePacketJourneySim from '../../../simulations/c6_12/C12_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_computersciencepacketjourneysim: SimDef = {
     id: 'v3w_c12_computersciencepacketjourneysim',
-    title: 'Packet Journey',
+    title: 'Tree and Hybrid Topology',
     subtitle: 'This node covers tree topology (definition, structure as star-bus combination,.',
     classLevel: 12, subject: 'computer_science', topic: 'Tree and Hybrid Topology',
     chapters: [],
     nodeIds: ['c12_cs_cbse_02_005', 'c12_cs_cbse_02_007', 'c12_cs_cbse_02_009', 'c12_cs_cbse_01_003', 'c12_cs_cbse_01_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine your school wants to connect three buildings — Admin Block, Science Block, and Library — each having.', goal: 'Master Packet Journey.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine your school wants to connect three buildings — Admin Block, Science Block, and Library — each having.', goal: 'Master Tree and Hybrid Topology.' },
     discovery: {
         question: 'A company uses a hybrid topology combining star and ring. The star segment connects workstations to a switch in each department; the ring segment connects.',
         options: ['Only that workstation loses connectivity', 'the whole department goes down', 'the ring breaks'],
@@ -70,7 +70,7 @@ export const w_c12_computersciencepacketjourneysim: SimDef = {
             { text: 'Rules 2 and 3 are not evaluated (first-match policy). The video call works.', faded: true, blankAnswer: 'The firewall allows the server\'s reply packet because it.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_cs_cbse_02_007', title: 'Identify each idea',
-          dissect: { specimen: 'Packet Journey', spots: [
+          dissect: { specimen: 'Tree and Hybrid Topology', spots: [
             { id: 's1', label: 'Tree topology is a hierarchical', prompt: 'Which idea is this? — Tree topology is a hierarchical network structure where a root node (central hub).', answer: 'Tree topology is a hierarchical', options: ['Tree topology is a hierarchical', 'The TCPIP Transmission Control ProtocolInternet', 'Circuit switching establishes a dedicated', 'Network devices are hardware components'] },
             { id: 's2', label: 'The TCPIP Transmission Control ProtocolInternet', prompt: 'Which idea is this? — The TCP/IP (Transmission Control Protocol/Internet Protocol) protocol suite is a.', answer: 'The TCPIP Transmission Control ProtocolInternet', options: ['The TCPIP Transmission Control ProtocolInternet', 'Tree topology is a hierarchical', 'Circuit switching establishes a dedicated', 'Network devices are hardware components'] },
             { id: 's3', label: 'Circuit switching establishes a dedicated', prompt: 'Which idea is this? — Circuit switching establishes a dedicated end-to-end physical path between sender and.', answer: 'Circuit switching establishes a dedicated', options: ['Circuit switching establishes a dedicated', 'Tree topology is a hierarchical', 'The TCPIP Transmission Control ProtocolInternet', 'Network devices are hardware components'] },
@@ -78,7 +78,7 @@ export const w_c12_computersciencepacketjourneysim: SimDef = {
             { id: 's5', label: 'Network security encompasses measures to', prompt: 'Which idea is this? — Network security encompasses measures to protect network infrastructure and data from.', answer: 'Network security encompasses measures to', options: ['Network security encompasses measures to', 'Tree topology is a hierarchical', 'The TCPIP Transmission Control ProtocolInternet', 'Circuit switching establishes a dedicated'] }
           ] } }
     ],
-    explore: { component: C12_ComputerSciencePacketJourneySim, prompt: 'Explore the interactive — Packet Journey' },
+    explore: { component: C12_ComputerSciencePacketJourneySim, prompt: 'Explore the interactive — Tree and Hybrid Topology' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_cs_cbse_02_005', difficulty: 'standard',
           question: 'Tree topology is a hierarchical network structure where a root node (central.',

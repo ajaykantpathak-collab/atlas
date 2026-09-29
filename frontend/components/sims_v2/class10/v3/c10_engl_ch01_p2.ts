@@ -19,7 +19,7 @@ export const c10_engl_ch01_p2: SimDef = {
         hook: 'Lencho isn\'t a fool — he\'s a man with no bank, no insurance, no helpline. When no human institution will help, absolute faith in God is the only plan left.',
     },
     teaching: [
-        { title: 'Irony in \'A Letter to God\': The Twist of Lencho\'s Second Letter', text: 'Irony in \'A Letter to God\' refers to the contrast between what Lencho expects and what actually happens, particularly in his second letter where he accuses the post office employees of stealing the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Irony in \'A Letter to God\': The Twist of Lencho\'s Second Letter', text: 'From \'English chapter c10_engl_cbse_01\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c10_engl_cbse_01_007', title: 'Your mission',
@@ -61,7 +61,7 @@ export const c10_engl_ch01_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_engl_cbse_01_007', difficulty: 'standard',
-          question: 'Irony in \'A Letter to God\' refers to the contrast between what Lencho expects.',
+          question: 'From \'English chapter c10_engl_cbse_01\': the skill or concept this node.',
           hint: 'If stuck, review c10_engl_cbse_01_003 (first letter), c10_engl_cbse_01_004 (postmaster\'s.',
           misconception: 'Students often think irony simply means "something funny or unexpected." In board exams, they write: "The irony is that.',
           parts: [
@@ -95,7 +95,7 @@ export const c10_engl_ch01_p2: SimDef = {
           ],
             remediations: { 'irony-simply-means-something-funny': { steps: ['If a student gives the "unexpected amount" answer, do NOT say "review irony definition." Instead: 1) Ask: "Who actually.', '2) Ask: "Who does Lencho blame in the second letter?" (Same people).', '3) Say: "The irony is the *match* between the givers and the blamed.', 'Write one sentence using this pattern: \'Lencho calls ___ crooks, but they are actually ___.\' " 4) Have them rewrite.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c10_engl_cbse_01_008', difficulty: 'standard',
-          question: 'Character analysis of the postmaster in "A Letter to God" involves examining.',
+          question: 'From \'English chapter c10_engl_cbse_01\': the skill or concept this node.',
           hint: 'Review the PEEL/TEE structure from c9_engl_ch1_2 (Krishtakka analysis) and practice with.',
           misconception: 'Students often think the postmaster\'s kindness is merely "doing a good deed" or "being a nice boss." They miss that.',
           parts: [

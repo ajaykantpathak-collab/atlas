@@ -19,37 +19,37 @@ export const c12_eng_k_ch04_p2: SimDef = {
         hook: 'Conrad the master mariner builds the story in layers — tap-room gossip, Hagberd\'s own voice, the son\'s mercenary return — each stripping his self-mythology. The sailcloth suit and the unplanted spade aren\'t props; they\'re a man suspended between the sea he fled and the tomorrow he invented.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying ideas that run parallel to the primary theme, enriching the narrative by exploring complementary aspects of human experience such as isolation, the illusion.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Tomorrow\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_04_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Walk Colebrook\'s coast like a psychologist: peel the story-within-a-story layers, weigh Bessie\'s complicity against Harry\'s brutal clarity, and answer the question — when does hope become a prison?',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_04_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re watching a play where the main actor (Captain Hagberd) is so focused on his "tomorrow" that he doesn\'t notice the crumbling walls around him.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Tomorrow\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'Define "secondary theme" in the context of a short story and give one example from "Tomorrow" other than the captain\'s obsessive hope.', options: [
                 { text: 'A secondary theme is a recurring idea that supports or contrasts with the primary theme,', outcome: 'A secondary theme is a recurring idea that supports or contrasts with the primary theme, adding.' },
                 { text: 'the captain digs the garden', outcome: 'Not quite — Students often treat secondary themes as "minor themes" and list them without showing how they.', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_04_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are describing a nightmare to a friend: you don\'t just say "it was scary", you say "the walls were breathing, the air tasted of copper, a cold hand.',
+          caseStudy: { intro: 'Find the lines in \'Tomorrow\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define imagery and metaphor in your own words, and give one example of each from "Tomorrow" (do not use the sailcloth suit or the sea-god.', options: [
                 { text: '**Correct answer**: Imagery is descriptive language appealing to the senses (e.g.,', outcome: '**Correct answer**: Imagery is descriptive language appealing to the senses (e.g., auditory: "the.' },
                 { text: 'like a man roughened out of granite', outcome: 'Not quite — Students often think **any comparison is a metaphor** and **any description is imagery**.', reveals: 'any-comparison-is-a-metaphor' },
                 { text: '**any comparison is a metaphor** and **any description is imagery**', outcome: 'Not quite — Students often think **any comparison is a metaphor** and **any description is imagery**.', reveals: 'any-comparison-is-a-metaphor' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_04_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading "Tomorrow" and encounter "He was possessed of some little money evidently, because he bought a plot of ground, and had a pair of ugly.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Tomorrow\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What does the phrase "possessed of" mean in the opening paragraph of "Tomorrow": "He was possessed of some little money evidently"?', options: [
                 { text: 'Correct: (b) owning/having', outcome: 'Correct: (b) owning/having. In this context, "possessed of" is a formal/legalistic phrase meaning.' },
                 { text: 'money evidently', outcome: 'Not quite — Students often treat "vocabulary in context" as **matching words to dictionary definitions**.', reveals: 'students-often-treat-vocabulary-in' },
                 { text: 'because', outcome: 'Not quite — Students often treat "vocabulary in context" as **matching words to dictionary definitions**.', reveals: 'students-often-treat-vocabulary-in' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_04_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading a mystery novel and notice the author uses short, fragmented sentences during a chase scene.',
+          caseStudy: { intro: 'Read \'Tomorrow\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'What is the primary narrative tense used in "Tomorrow", and how does the author signal a shift to a character\'s internal thought?', options: [
                 { text: 'The primary narrative tense is past tense', outcome: 'The primary narrative tense is past tense. Shifts to internal thought are often signaled by free.' },
                 { text: 'present tense', outcome: 'Not quite — Students often think "language usage" only means identifying parts of speech (nouns, verbs).', reveals: 'language-usage-only-means-identifying' },
@@ -69,23 +69,23 @@ export const c12_eng_k_ch04_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_04_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying ideas that run parallel to the primary.',
+          question: 'Secondary themes in \'Tomorrow\' — the supporting ideas and motifs that deepen.',
           hint: 'Review node 006 (primary theme) and node 004-005 (character analyses) — specifically the.',
           misconception: 'Students often treat secondary themes as "minor themes" and list them without showing how they **interact with the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the underlying ideas that run parallel to the primary theme,',
-                  options: ['Secondary themes are the underlying ideas that run parallel to the primary theme,', '"Before You Read: Context and Background" provides the historical, biographical, and', 'Plot and narrative structure refers to the organization of events in a story, including', 'Setting in literature refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes in \'Tomorrow\'',
+                  options: ['Secondary themes in \'Tomorrow\'', '\'Tomorrow\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Tomorrow\'', 'The setting of \'Tomorrow\''],
                   hint: 'Review node 006 (primary theme) and node 004-005 (character analyses) — specifically the captain\'s.',
                   misconception: 'Students often treat secondary themes as "minor themes" and list them without showing how they **interact with the primary theme**.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['If the student cannot move beyond listing, do this 3-step remediation: (1) Re-read node 006 (primary theme) and write.', '(2) Take each secondary theme candidate (isolation, appearance/reality, exploitation, sea/land, time) and complete this.', 'Re-attempt diagnostic Q4 after this.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-secondary-themes': { steps: ['If the student cannot move beyond listing, do this 3-step remediation: (1) Re-read node 006 (primary theme) and write.', '(2) Take each secondary theme candidate (isolation, appearance/reality, exploitation, sea/land, time) and complete this.', 'Re-attempt diagnostic Q4 after this.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_04_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Tomorrow\' — the vivid, sensory language that creates word-pictures.',
           hint: 'If stuck on tenor/vehicle, review c11_eng_h_cbse_01_008 worked example on "The Laburnum.',
           misconception: 'Students often think **any comparison is a metaphor** and **any description is imagery**.',
           parts: [
@@ -98,7 +98,7 @@ export const c12_eng_k_ch04_p2: SimDef = {
                   hint: 'If stuck on tenor/vehicle, review c11_eng_h_cbse_01_008 worked example on "The Laburnum Top".',
                   misconception: 'Students often think **any comparison is a metaphor** and **any description is imagery**.' }
           ],
-            remediations: { 'any-comparison-is-a-metaphor': { steps: ['If the student mislabels simile as metaphor: **Step 1** — Revisit c11_eng_h_cbse_01_008 (Class 11 Hornbill Literary.', '**Step 2** — Do the "Simile vs Metaphor Sort": Write 10 comparisons from "Tomorrow" on cards; sort into two piles.', '**Step 3** — Re-attempt Diagnostic Question 1 & 3.', 'If the student lists non-sensory facts as imagery: **Step 1** — Highlight every adjective in a paragraph; keep only.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'any-comparison-is-a-metaphor': { steps: ['If the student mislabels simile as metaphor: **Step 1** — Revisit c11_eng_h_cbse_01_008 (Class 11 Hornbill Literary.', '**Step 2** — Do the "Simile vs Metaphor Sort": Write 10 comparisons from "Tomorrow" on cards; sort into two piles.', '**Step 3** — Re-attempt Diagnostic Question 1 & 3.', 'If the student lists non-sensory facts as imagery: **Step 1** — Highlight every adjective in a paragraph; keep only.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_04_008', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -109,9 +109,9 @@ export const c12_eng_k_ch04_p2: SimDef = {
                   hint: 'If stuck on tenor/vehicle, review c11_eng_h_cbse_01_008 worked example on "The Laburnum Top".',
                   misconception: 'Students often think **any comparison is a metaphor** and **any description is imagery**.' }
           ],
-            remediations: { 'any-comparison-is-a-metaphor': { steps: ['If the student mislabels simile as metaphor: **Step 1** — Revisit c11_eng_h_cbse_01_008 (Class 11 Hornbill Literary.', '**Step 2** — Do the "Simile vs Metaphor Sort": Write 10 comparisons from "Tomorrow" on cards; sort into two piles.', '**Step 3** — Re-attempt Diagnostic Question 1 & 3.', 'If the student lists non-sensory facts as imagery: **Step 1** — Highlight every adjective in a paragraph; keep only.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'any-comparison-is-a-metaphor': { steps: ['If the student mislabels simile as metaphor: **Step 1** — Revisit c11_eng_h_cbse_01_008 (Class 11 Hornbill Literary.', '**Step 2** — Do the "Simile vs Metaphor Sort": Write 10 comparisons from "Tomorrow" on cards; sort into two piles.', '**Step 3** — Re-attempt Diagnostic Question 1 & 3.', 'If the student lists non-sensory facts as imagery: **Step 1** — Highlight every adjective in a paragraph; keep only.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_04_009', difficulty: 'standard',
-          question: 'Irony in literature is a contrast between expectation and reality — what.',
+          question: 'Irony and paradox in \'Tomorrow\' — where opposite things are both true,.',
           hint: 'If stuck, re-read the "Stop and Think" questions in the NCERT text — they are designed.',
           misconception: 'Students often confuse *situational irony* (outcome contradicts expectation) with *dramatic irony* (audience knows more.',
           parts: [
@@ -120,9 +120,9 @@ export const c12_eng_k_ch04_p2: SimDef = {
                   hint: 'If stuck, re-read the "Stop and Think" questions in the NCERT text — they are designed to guide you.',
                   misconception: 'Students often confuse *situational irony* (outcome contradicts expectation) with *dramatic irony* (audience knows more than character).' }
           ],
-            remediations: { 'students-often-confuse-situational-irony': { steps: ['If a student conflates irony types: (1) Have them create a three-column table: Type / Definition / Example from.', '(2) For symbols: use the "literal → metaphorical" two-step: pick an object (spade), state its literal use (digging.', '(3) Re-diagnose with Diagnostic Question 3 and 4 — require them to name the irony type and trace the symbol\'s two.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-confuse-situational-irony': { steps: ['If a student conflates irony types: (1) Have them create a three-column table: Type / Definition / Example from.', '(2) For symbols: use the "literal → metaphorical" two-step: pick an object (spade), state its literal use (digging.', '(3) Re-diagnose with Diagnostic Question 3 and 4 — require them to name the irony type and trace the symbol\'s two.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_04_010', difficulty: 'standard',
-          question: 'Vocabulary in context refers to the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'Tomorrow\' — the words and phrases you must know to read the.',
           hint: 'If unable to move beyond dictionary meaning: Revisit **c12_eng_k_cbse_04_006** (Primary.',
           misconception: 'Students often treat "vocabulary in context" as **matching words to dictionary definitions**.',
           parts: [
@@ -143,9 +143,9 @@ export const c12_eng_k_ch04_p2: SimDef = {
                   hint: 'If unable to move beyond dictionary meaning: Revisit **c12_eng_k_cbse_04_006** (Primary Theme) and.',
                   misconception: 'Students often treat "vocabulary in context" as **matching words to dictionary definitions**.' }
           ],
-            remediations: { 'students-often-treat-vocabulary-in': { steps: ['If a student gives dictionary meanings without textual anchoring: 1.', '**Re-read the specific paragraph** where the word appears (e.g., "morbid" in para 2).', '**Highlight 3 context clues**: surrounding adjectives, character actions, narrative tone.', '**Write a "Context Definition"** in this format: "In this story, [word] means [contextual meaning] because [clue 1].'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-vocabulary-in': { steps: ['If a student gives dictionary meanings without textual anchoring: 1.', '**Re-read the specific paragraph** where the word appears (e.g., "morbid" in para 2).', '**Highlight 3 context clues**: surrounding adjectives, character actions, narrative tone.', '**Write a "Context Definition"** in this format: "In this story, [word] means [contextual meaning] because [clue 1].'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_04_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the study of how an author.',
+          question: 'Language and style in \'Tomorrow\' — how the writer chose words, sentences and.',
           hint: 'Review Class 11 Grammar nodes (c11_eng_h_cbse_01_011, etc.) for definitions and examples.',
           misconception: 'Students often think "language usage" only means identifying parts of speech (nouns, verbs) or figures of speech.',
           parts: [
@@ -158,9 +158,9 @@ export const c12_eng_k_ch04_p2: SimDef = {
                   hint: 'Review Class 11 Grammar nodes (c11_eng_h_cbse_01_011, etc.) for definitions and examples of these.',
                   misconception: 'Students often think "language usage" only means identifying parts of speech (nouns, verbs) or figures of speech in isolation.' }
           ],
-            remediations: { 'language-usage-only-means-identifying': { steps: ['Revisit the concept of free indirect discourse using a simpler text (e.g., a short passage from a Class 10 story).', 'Practice converting direct speech to free indirect discourse to see the blending of voices.', 'Re-read the "Tomorrow" passage where Hagberd says "Tomorrow" repeatedly; map each occurrence to narrative time (past.', 'Then re-attempt Diagnostic Question 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'language-usage-only-means-identifying': { steps: ['Revisit the concept of free indirect discourse using a simpler text (e.g., a short passage from a Class 10 story).', 'Practice converting direct speech to free indirect discourse to see the blending of voices.', 'Re-read the "Tomorrow" passage where Hagberd says "Tomorrow" repeatedly; map each occurrence to narrative time (past.', 'Then re-attempt Diagnostic Question 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_04_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require retrieving facts, details, or sequences.',
+          question: 'Literal comprehension of \'Tomorrow\' — questions answered straight from the text.',
           hint: 'If stuck on finding evidence: Re-read c12_eng_k_cbse_04_002 (Plot) and use the "Stop and.',
           misconception: 'Students treat inferential questions as "give your opinion" and write answers without textual evidence.',
           parts: [
@@ -173,7 +173,7 @@ export const c12_eng_k_ch04_p2: SimDef = {
                   hint: 'If stuck on finding evidence: Re-read c12_eng_k_cbse_04_002 (Plot) and use the "Stop and Think".',
                   misconception: 'Students treat inferential questions as "give your opinion" and write answers without textual evidence.' }
           ],
-            remediations: { 'students-treat-inferential-questions-as': { steps: ['If a student cannot distinguish question types or support inferences: 1) Use c12_eng_k_cbse_04_002 (Plot) to create.', '2) Practice with c11_eng_h_cbse_01_012 (Class 11 Comprehension node) using simpler texts.', '3) For each inferential answer, force the "Evidence Sandwich": Quote → Inference → Quote.', '4) Re-diagnose with DIAGNOSTIC_QUESTION_4 & 5 until they consistently cite two clues.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-inferential-questions-as': { steps: ['If a student cannot distinguish question types or support inferences: 1) Use c12_eng_k_cbse_04_002 (Plot) to create.', '2) Practice with c11_eng_h_cbse_01_012 (Class 11 Comprehension node) using simpler texts.', '3) For each inferential answer, force the "Evidence Sandwich": Quote → Inference → Quote.', '4) Re-diagnose with DIAGNOSTIC_QUESTION_4 & 5 until they consistently cite two clues.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

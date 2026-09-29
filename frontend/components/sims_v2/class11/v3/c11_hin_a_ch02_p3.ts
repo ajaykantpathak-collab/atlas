@@ -11,10 +11,10 @@ export const c11_hin_a_ch02_p3: SimDef = {
     nodeIds: ['c11_hin_a_cbse_02_013', 'c11_hin_a_cbse_02_014', 'c11_hin_a_cbse_02_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 11 learner', intro: 'Think of the last time you argued with a friend about a movie\'s ending — you didn\'t just say "it was good,".', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 11 learner', intro: '\'रचनाकार परिचय\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।', goal: 'Master every idea in this chapter.' },
     // discovery omitted — no cleanly extractable hook in this chapter
     teaching: [
-        { title: 'पाठ 2 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) एक व्यवस्थित बौद्धिक प्रक्रिया है जिसमें पाठ के विभिन्न अवयवों (शिल्प, भाषा, संरचना, प्रसंग) का सूक्ष्म विश्लेषण करके उनके पारस्परिक संबंधों एवं निहितार्थों की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 2 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'रचनाकार परिचय\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_a_cbse_02_013', title: 'Your mission',
@@ -23,7 +23,7 @@ export const c11_hin_a_ch02_p3: SimDef = {
         labels: ['पाठ 2 — आलोचनात्मक', 'पाठ 2 — लेखन', 'पाठ 2 — वाचन-श्रवण'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'case', nodeId: 'c11_hin_a_cbse_02_013', title: 'पाठ 2 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या',
-          caseStudy: { intro: 'Think of the last time you argued with a friend about a movie\'s ending — you didn\'t just say "it was good," you pointed to *specific scenes*, *dialogues*, and.',
+          caseStudy: { intro: '\'रचनाकार परिचय\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।',
             decisions: [{ prompt: 'पाठ्य विश्लेषण (Textual Analysis) और व्याख्या (Interpretation) में मूलभूत अंतर क्या है? एक-एक उदाहरण देकर स्पष्ट कीजिए।', options: [
                 { text: '**Correct Answer:** विश्लेषण पाठ को उसके अवयवों (शब्द, वाक्य, बिंब, प्रतीक, संरचना) में', outcome: '**Correct Answer:** विश्लेषण पाठ को उसके अवयवों (शब्द, वाक्य, बिंब, प्रतीक, संरचना) में विघटित करके.' },
                 { text: 'both mean explaining the text', outcome: 'Not quite — **"अच्छी व्याख्या वही है जिसमें अधिक से अधिक अलंकार/युक्तियाँ गिनाई जाएँ।"** यह Class 11 का सबसे.', reveals: 'class-11-listing-analysing' }
@@ -40,7 +40,7 @@ export const c11_hin_a_ch02_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_a_cbse_02_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) एक व्यवस्थित बौद्धिक प्रक्रिया है जिसमें.',
+          question: '\'रचनाकार परिचय\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'If stuck, immediately revisit **c11_hin_a_cbse_02_008** and **c11_hin_a_cbse_02_009** for.',
           misconception: '**"अच्छी व्याख्या वही है जिसमें अधिक से अधिक अलंकार/युक्तियाँ गिनाई जाएँ।"** यह Class 11 का सबसे घातक भ्रम है। छात्र.',
           parts: [
@@ -51,23 +51,23 @@ export const c11_hin_a_ch02_p3: SimDef = {
           ],
             remediations: { 'class-11-listing-analysing': { steps: ['**चरणबद्ध उपचार (Targeted Remediation):** 1.', '**मॉडलिंग (Modeling):** शिक्षक एक ही अंश के दो उत्तर दिखाए — एक \'सूची-प्रकार\' (2/5 अंक), एक \'विश्लेषण-प्रकार\' (5/5 अंक).', '**संस्करण अभ्यास (Scaffolding):** "क्यों?" का **तीन बार** अभ्यास करवाए: - युक्ति क्या है?', '→ रूपक - यह यहाँ क्या *कर* रही है?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_a_cbse_02_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें छात्र किसी दिए गए गद्यांश या.',
+          question: '\'रचनाकार परिचय\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि फंसे हों, तो **c11_hin_a_cbse_02_013 (आलोचनात्मक चिंतन)** के \'विश्लेषण चरण\' को.',
           misconception: '**विशिष्ट भ्रांति:** "पाठ-आधारित उत्तर में पाठ की **कहानी/सारांश** लिखने से अंक मिलते हैं क्योंकि इससे पता चलता है कि.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें छात्र किसी दिए गए गद्यांश या पद्यांश का गहन',
-                  options: ['पाठ-आधारित लेखन कौशल वह प्रक्रिया है जिसमें छात्र किसी दिए गए गद्यांश या पद्यांश का गहन', '\'पृष्ठभूमि\' का अर्थ है रचना के निर्माण के पीछे कार्यरत ऐतिहासिक, सामाजिक, सांस्कृतिक और', 'कथानक (Plot) किसी रचना में घटनाओं का कारण-परिणाम (Cause-Effect) संबंध से बंधा हुआ तार्किक', 'पाठ्य-परिवेश और वातावरण (Setting and Atmosphere) किसी रचना में वर्णित **काल, स्थान,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'रचनाकार परिचय\' पर पाठ-आधारित लेखन',
+                  options: ['\'रचनाकार परिचय\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'रचनाकार परिचय\' का कथानक', '\'रचनाकार परिचय\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फंसे हों, तो **c11_hin_a_cbse_02_013 (आलोचनात्मक चिंतन)** के \'विश्लेषण चरण\' को दोहराएं.',
                   misconception: '**विशिष्ट भ्रांति:** "पाठ-आधारित उत्तर में पाठ की **कहानी/सारांश** लिखने से अंक मिलते हैं क्योंकि इससे पता चलता है कि हमने पाठ पढ़ा है।".' }
           ],
             remediations: { 'cbse-class-11-marking-scheme': { steps: ['**चरणबद्ध उपचार (Remediation):** 1.', '**पहचान:** छात्र से कहें — "अपना लिखा उत्तर पढ़ो और हर वाक्य के आगे लिखो: यह **बिंदु** है, यह **साक्ष्य** है, यह.', '**मॉडलिंग:** उसी प्रश्न का एक **उत्कृष्ट नमूना उत्तर** दिखाएं (शिक्षक द्वारा लिखित) और साथ में PEEL लेबलिंग करें। छात्र.', '**अभ्यास:** एक **अति-लघु पाठांश (50 शब्द)** दें और केवल **एक PEEL पैराग्राफ** लिखने को कहें — विषय: "इस पाठांश में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_a_cbse_02_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु एक संरचित साहित्यिक कौशल है जिसमें शिक्षार्थी किसी पाठ.',
+          question: '\'रचनाकार परिचय\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का.',
           hint: 'यदि अटके तो **c11_hin_a_cbse_02_013 (आलोचनात्मक चिंतन)** दोहराएँ — विशेष रूप से.',
           misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि चर्चा-बिंदु बनाने के लिए पाठ का **सारांश (summary)** पता होना पर्याप्त है। वे.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु एक संरचित साहित्यिक कौशल है जिसमें शिक्षार्थी किसी पाठ का मौन',
-                  options: ['वाचन-श्रवण: चर्चा-बिंदु एक संरचित साहित्यिक कौशल है जिसमें शिक्षार्थी किसी पाठ का मौन', '\'पृष्ठभूमि\' का अर्थ है रचना के निर्माण के पीछे कार्यरत ऐतिहासिक, सामाजिक, सांस्कृतिक और', 'कथानक (Plot) किसी रचना में घटनाओं का कारण-परिणाम (Cause-Effect) संबंध से बंधा हुआ तार्किक', 'पाठ्य-परिवेश और वातावरण (Setting and Atmosphere) किसी रचना में वर्णित **काल, स्थान,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'रचनाकार परिचय\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'रचनाकार परिचय\' पर वाचन-श्रवण और चर्चा-बिंदु', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'रचनाकार परिचय\' का कथानक', '\'रचनाकार परिचय\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटके तो **c11_hin_a_cbse_02_013 (आलोचनात्मक चिंतन)** दोहराएँ — विशेष रूप से \'पाठ्य-साक्ष्य से.',
                   misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि चर्चा-बिंदु बनाने के लिए पाठ का **सारांश (summary)** पता होना पर्याप्त है। वे **कथानक-घटनाएँ (plot.' }
           ],

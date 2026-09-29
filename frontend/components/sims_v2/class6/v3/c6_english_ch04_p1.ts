@@ -73,13 +73,13 @@ export const c6_english_ch04_p1: SimDef = {
           misconception: 'Students often think the "plot" is just a list of everything a character does, including unimportant things like eating.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The "plot" is the sequence of events that make up a story\'s action, while the "setting"',
-                  options: ['The "plot" is the sequence of events that make up a story\'s action, while the "setting"', 'Character analysis is the process of identifying a character\'s personality traits,', 'Courage and adventure are literary themes where a character chooses to face something', 'Personification is a literary device where human traits, emotions, or actions are given'],
+                  options: ['The "plot" is the sequence of events that make up a story\'s action, while the "setting"', 'From \'is the sequence of events that make up a story\': the skill or concept this node', 'Courage and adventure are literary themes where a character chooses to face something', 'Personification is a literary device where human traits, emotions, or actions are given'],
                   hint: 'Review the concept of "Chronological Order" (the timeline of events).',
                   misconception: 'Students often think the "plot" is just a list of everything a character does, including unimportant things like eating or sleeping.' }
           ],
             remediations: { 'the-plot-is-just-a': { steps: ['Ask the student to pick the three most important moments in the story that changed what the character was doing.', 'Tell them to ignore the "boring" parts like sitting still.', 'Explain that plot is like a mountain—you start at the bottom, climb through the action, and reach the peak of the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_english_u4_032', difficulty: 'standard',
-          question: 'Character analysis is the process of identifying a character\'s personality.',
+          question: 'From \'is the sequence of events that make up a story\': the skill or concept.',
           hint: 'Review "identifying key details" if the student cannot cite specific actions.',
           misconception: 'Students often confuse "actions" with "traits." For example, they might say "Suraj is a train-watcher" instead.',
           parts: [
@@ -133,7 +133,7 @@ export const c6_english_ch04_p1: SimDef = {
           misconception: 'Students often confuse personification with simply describing an object\'s function.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Personification is a literary device where human traits, emotions, or actions are given',
-                  options: ['Personification is a literary device where human traits, emotions, or actions are given', 'The "plot" is the sequence of events that make up a story\'s action, while the "setting"', 'Character analysis is the process of identifying a character\'s personality traits,', 'Courage and adventure are literary themes where a character chooses to face something'],
+                  options: ['Personification is a literary device where human traits, emotions, or actions are given', 'The "plot" is the sequence of events that make up a story\'s action, while the "setting"', 'From \'is the sequence of events that make up a story\': the skill or concept this node', 'Courage and adventure are literary themes where a character chooses to face something'],
                   hint: 'Review basic parts of speech, specifically verbs, to ensure they can identify what an object.',
                   misconception: 'Students often confuse personification with simply describing an object\'s function.' }
           ],

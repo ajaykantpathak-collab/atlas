@@ -110,8 +110,8 @@ export const c7_geo_ch04_p2: SimDef = {
           hint: 'Review c7_geo_ch04_006 to reconnect how water and soil dictate crop choices before.',
           misconception: 'Students often think that all agricultural landscapes in India look the same because "farming is just growing crops,".',
           parts: [
-                { id: 'a', prompt: 'A region in Punjab receives reliable canal irrigation and has flat, alluvial soil.', answer: 'Steps: 1) Identify flat alluvial soil and canal water availability',
-                  options: ['Steps: 1) Identify flat alluvial soil and canal water availability', 'farming is just growing crops'],
+                { id: 'a', prompt: 'A region in Punjab receives reliable canal irrigation and has flat, alluvial soil.', answer: 'Identify flat alluvial soil and canal water availability',
+                  options: ['Identify flat alluvial soil and canal water availability', 'farming is just growing crops'],
                   hint: 'Review c7_geo_ch04_006 to reconnect how water and soil dictate crop choices before studying overall.',
                   misconception: 'Students often think that all agricultural landscapes in India look the same because "farming is just growing crops," ignoring how physical.' }
           ],
@@ -132,8 +132,8 @@ export const c7_geo_ch04_p2: SimDef = {
           hint: 'Review c7_geo_ch04_007 for traditional practices and c7_geo_ch04_008 for modern.',
           misconception: 'Students often think that "sustainable farming" simply means going back entirely to ancient farming methods and.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Sustainable farming integrates traditional ecological knowledge with contemporary',
-                  options: ['Sustainable farming integrates traditional ecological knowledge with contemporary', 'Agriculture in India is the cultivation of crops, raising of livestock, and management of', 'Types of farming in India refer to the distinct methods and systems by', 'Rabi and Kharif are the two primary cropping seasons in India, determined by the monsoon'],
+                { id: 'a', prompt: 'A farmer in Punjab notices declining soil fertility and rising groundwater salinity due to intensive chemical use and excessive tube-well pumping.', answer: 'Identify problems: Chemical overuse depletes soil nutrients',
+                  options: ['Identify problems: Chemical overuse depletes soil nutrients', 'sustainable farming'],
                   hint: 'Review c7_geo_ch04_007 for traditional practices and c7_geo_ch04_008 for modern techniques to see.',
                   misconception: 'Students often think that "sustainable farming" simply means going back entirely to ancient farming methods and rejecting all modern.' }
           ],

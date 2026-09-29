@@ -42,7 +42,7 @@ export const C9_CIV_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Historical Democratic Traditions Refer To",
+    "title": "Historical Democratic Traditions: Athens",
     "text": "Historical democratic traditions refer to early systems of governance where citizens participated in decision-making, including the Athenian democracy (5th century BCE, direct democracy with assembly voting), the Roman Republic (representative elements with",
     "emoji": "⚖️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -239,7 +239,7 @@ export const C9_CIV_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Free And Fair Elections Refer To",
+    "title": "Free And Fair Elections",
     "text": "Free and fair elections refer to a democratic process where every eligible citizen can vote without coercion, all candidates and parties compete on an equal footing, the election machinery operates independently, and the results accurately reflect the voters'",
     "emoji": "⚖️",
     "bgColor": "from-amber-400 to-orange-500"

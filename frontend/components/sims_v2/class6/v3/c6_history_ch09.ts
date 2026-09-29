@@ -93,6 +93,10 @@ export const c6_history_ch09: SimDef = {
                 { id: 'a', prompt: 'Who was the first ruler of the Mughal Empire in India?', answer: 'Babur',
                   options: ['Babur', 'Babur was already a powerful Indian King who just took over Delhi'],
                   hint: 'Review the meaning of "Dynasty" and "Empire."',
+                  misconception: 'Students often think Babur was already a powerful Indian King who just took over Delhi.' },
+                { id: 'b', prompt: 'If you were Babur, why would you look at a new land as a "land of opportunity"?', answer: 'Acknowledge previous struggles',
+                  options: ['Acknowledge previous struggles', 'Babur was already a powerful Indian King who just took over Delhi'],
+                  hint: 'Review the meaning of "Dynasty" and "Empire."',
                   misconception: 'Students often think Babur was already a powerful Indian King who just took over Delhi.' }
           ],
             remediations: { 'babur-was-already-a-powerful': { steps: ['Ask the student: "Where was Babur born?" 2.', 'Point to Uzbekistan on a map.', 'Explain: "Babur was like a traveler who decided to build a house in a new neighborhood.', 'He wasn\'t born in the house; he had to win the right to live there." 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },

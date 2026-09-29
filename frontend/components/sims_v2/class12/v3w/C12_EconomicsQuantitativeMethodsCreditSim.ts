@@ -6,13 +6,13 @@ import C12_EconomicsQuantitativeMethodsCreditSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_economicsquantitativemethodscreditsim: SimDef = {
     id: 'v3w_c12_economicsquantitativemethodscreditsim',
-    title: 'Quantitative Methods Credit',
+    title: 'Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR)',
     subtitle: 'This node covers the definitions, legal basis, computation, and macroeconomic effects of.',
     classLevel: 12, subject: 'economics', topic: 'Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR)',
     chapters: [],
     nodeIds: ['c12_eco_cbse_09_006', 'c12_eco_cbse_08_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you deposit ₹10,000 in your savings account at a commercial bank.', goal: 'Master Quantitative Methods Credit.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you deposit ₹10,000 in your savings account at a commercial bank.', goal: 'Master Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR).' },
     discovery: {
         question: 'If a bank\'s NDTL is ₹500 crore, CRR is 4.5%, and SLR is 18%, calculate the amount the bank must hold as CRR reserves with RBI and as SLR assets.',
         options: ['CRR reserve = 4.5% of ₹500 crore = ₹22.5 crore (held with RBI, interest-free)', 'idle money', 'CRR and SLR reserves are "idle money" that banks cannot use at all'],
@@ -42,12 +42,12 @@ export const w_c12_economicsquantitativemethodscreditsim: SimDef = {
             { text: 'Annualized growth rate: (1.441)^(1/11) - 1 = 1.034 - 1 = 3.4% per annum (using compound annual growth rate formula).', faded: true, blankAnswer: '2011-12: ₹72,198; 2022-23: ₹1,04,064; Annualized growth:.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_eco_cbse_08_010', title: 'Identify each idea',
-          dissect: { specimen: 'Quantitative Methods Credit', spots: [
+          dissect: { specimen: 'Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR)', spots: [
             { id: 's1', label: 'Cash Reserve Ratio CRR is', prompt: 'Which idea is this? — Cash Reserve Ratio (CRR) is the fraction of a commercial bank\'s net demand and time.', answer: 'Cash Reserve Ratio CRR is', options: ['Cash Reserve Ratio CRR is', 'Real GDP per Capita is'] },
             { id: 's2', label: 'Real GDP per Capita is', prompt: 'Which idea is this? — Real GDP per Capita is the inflation-adjusted total value of all final goods and services.', answer: 'Real GDP per Capita is', options: ['Real GDP per Capita is', 'Cash Reserve Ratio CRR is'] }
           ] } }
     ],
-    explore: { component: C12_EconomicsQuantitativeMethodsCreditSim, prompt: 'Explore the interactive — Quantitative Methods Credit' },
+    explore: { component: C12_EconomicsQuantitativeMethodsCreditSim, prompt: 'Explore the interactive — Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR)' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eco_cbse_09_006', difficulty: 'standard',
           question: 'Cash Reserve Ratio (CRR) is the fraction of a commercial bank\'s net demand and.',

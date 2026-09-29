@@ -19,7 +19,7 @@ export const c7_engl_ch03_p1: SimDef = {
         hook: 'Failure is not foolishness. A room scattered with wires and half-built gadgets mirrors a mind that prioritizes creating over tidying — and real invention has always advanced by trial and error.',
     },
     teaching: [
-        { title: 'Character Analysis: Anand the Young Inventor', text: 'Character analysis of Anand the Young Inventor involves examining his traits, actions, motivations, and interactions in the story "My Brother\'s Great Invention" to understand his personality as.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Character Analysis: Anand the Young Inventor', text: 'From \'My Brother\': the skill or concept this node teaches, applied to the actual text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c7_engl_ch03_001', title: 'Your mission',
@@ -66,18 +66,18 @@ export const c7_engl_ch03_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_engl_ch03_001', difficulty: 'standard',
-          question: 'Character analysis of Anand the Young Inventor involves examining his traits.',
+          question: 'From \'My Brother\': the skill or concept this node teaches, applied to the.',
           hint: 'Review c6_english_u2_012 to practice linking specific character actions to personality.',
           misconception: 'Students often confuse Anand\'s chaotic failures with laziness or stupidity.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis of Anand the Young Inventor involves examining his traits, actions,',
-                  options: ['Character analysis of Anand the Young Inventor involves examining his traits, actions,', 'Character analysis of Anita, the narrator and sister in "My Brother\'s Great Invention,"', 'The plot of a story refers to the sequence of events that make up the narrative,', 'This topic explores the overarching theme of curiosity, invention, and the scientific'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'My Brother\': the skill or concept this node teaches, applied to the actual text',
+                  options: ['From \'My Brother\': the skill or concept this node teaches, applied to the actual text', 'The plot of a story refers to the sequence of events that make up the narrative,', 'This topic explores the overarching theme of curiosity, invention, and the scientific', 'The literary device of situational humour shown through Papa\'s exasperated, bemused, and'],
                   hint: 'Review c6_english_u2_012 to practice linking specific character actions to personality adjectives.',
                   misconception: 'Students often confuse Anand\'s chaotic failures with laziness or stupidity.' }
           ],
             remediations: { 'students-often-confuse-anand-s': { steps: ['If a student thinks Anand is just unintelligent because his gadgets fail, guide them step-by-step: 1.', 'Ask them to look up what materials Anand uses (dynamos, wires, old clocks).', 'Explain that building a working circuit or alarm requires technical understanding, even if it goes off at the wrong.', 'Read aloud a line where Anand explains *how* his machine works.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c7_engl_ch03_002', difficulty: 'standard',
-          question: 'Character analysis of Anita, the narrator and sister in "My Brother\'s Great.',
+          question: 'From \'My Brother\': the skill or concept this node teaches, applied to the.',
           hint: 'Review c6_english_u3_022 on character analysis and how authors show personality through.',
           misconception: 'Students often assume that because Anita is critical or amused by Anand\'s failed inventions, she dislikes him or wants.',
           parts: [
@@ -120,7 +120,7 @@ export const c7_engl_ch03_p1: SimDef = {
           misconception: 'Students often confuse curiosity and the scientific spirit with being messy or creating trouble around the house.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'This topic explores the overarching theme of curiosity, invention, and the scientific',
-                  options: ['This topic explores the overarching theme of curiosity, invention, and the scientific', 'Character analysis of Anand the Young Inventor involves examining his traits, actions,', 'Character analysis of Anita, the narrator and sister in "My Brother\'s Great Invention,"', 'The plot of a story refers to the sequence of events that make up the narrative,'],
+                  options: ['This topic explores the overarching theme of curiosity, invention, and the scientific', 'From \'My Brother\': the skill or concept this node teaches, applied to the actual text', 'From \'My Brother\': the skill or concept this node teaches, applied to the actual text', 'The plot of a story refers to the sequence of events that make up the narrative,'],
                   hint: 'Review the difference between what a character does on the surface (plot) and what lesson.',
                   misconception: 'Students often confuse curiosity and the scientific spirit with being messy or creating trouble around the house.' }
           ],
@@ -131,7 +131,7 @@ export const c7_engl_ch03_p1: SimDef = {
           misconception: 'Students often mistake Papa\'s theatrical sighs and dramatic complaints for genuine anger and cruelty.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The literary device of situational humour shown through Papa\'s exasperated, bemused, and',
-                  options: ['The literary device of situational humour shown through Papa\'s exasperated, bemused, and', 'Character analysis of Anand the Young Inventor involves examining his traits, actions,', 'Character analysis of Anita, the narrator and sister in "My Brother\'s Great Invention,"', 'The plot of a story refers to the sequence of events that make up the narrative,'],
+                  options: ['The literary device of situational humour shown through Papa\'s exasperated, bemused, and', 'From \'My Brother\': the skill or concept this node teaches, applied to the actual text', 'From \'My Brother\': the skill or concept this node teaches, applied to the actual text', 'The plot of a story refers to the sequence of events that make up the narrative,'],
                   hint: 'Review c6_english_u2_011 to see how authors use comical mishaps and character reactions.',
                   misconception: 'Students often mistake Papa\'s theatrical sighs and dramatic complaints for genuine anger and cruelty.' }
           ],
@@ -141,8 +141,23 @@ export const c7_engl_ch03_p1: SimDef = {
           hint: 'Review Class 6 concepts on plot and setting, specifically focusing on how characters.',
           misconception: 'Students often believe that "setting" in a story is merely a passive description of the background scenery (like.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The literary concept of "Setting" in a family home and a young tinkerer\'s world refers to',
-                  options: ['The literary concept of "Setting" in a family home and a young tinkerer\'s world refers to', 'Character analysis of Anand the Young Inventor involves examining his traits, actions,', 'Character analysis of Anita, the narrator and sister in "My Brother\'s Great Invention,"', 'The plot of a story refers to the sequence of events that make up the narrative,'],
+                { id: 'a', prompt: 'Analyze how the physical layout and boundaries of a family home create immediate conflict when Anand tests his inventions.', answer: 'Identify the confined space of the home (hallways, doors, living rooms)',
+                  options: ['Identify the confined space of the home (hallways, doors, living rooms)', 'setting'],
+                  hint: 'Review Class 6 concepts on plot and setting, specifically focusing on how characters interact with.',
+                  misconception: 'Students often believe that "setting" in a story is merely a passive description of the background scenery (like weather or furniture) that.' },
+                { id: 'b', prompt: 'Compare the quiet, orderly expectations of Papa\'s living room with the chaotic, wire-strewn reality of Anand\'s tinkering space.', answer: 'Examine Papa\'s need for peace and order in common areas',
+                  options: ['Examine Papa\'s need for peace and order in common areas', 'setting'],
+                  hint: 'Review Class 6 concepts on plot and setting, specifically focusing on how characters interact with.',
+                  misconception: 'Students often believe that "setting" in a story is merely a passive description of the background scenery (like weather or furniture) that.' }
+          ],
+            remediations: { 'setting-in-a-story-is': { steps: ['If a student treats setting as just a list of furniture, guide them by asking two targeted questions: 1.', '"Where exactly is Anand standing, and what objects are touching his hands?" 2.', '"How would this scene change if he were outside in an open playground instead of inside a crowded family home?" Explain.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c7_engl_ch03_006', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often believe that "setting" in a story is merely a passive description of the background scenery (like.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate whether the family home setting is essential to the humor of Anand\'s failed inventions. Defend your judgment with reasoning.', answer: 'State a clear judgment: Yes, the family home is essential',
+                  options: ['State a clear judgment: Yes, the family home is essential', 'setting'],
                   hint: 'Review Class 6 concepts on plot and setting, specifically focusing on how characters interact with.',
                   misconception: 'Students often believe that "setting" in a story is merely a passive description of the background scenery (like weather or furniture) that.' }
           ],

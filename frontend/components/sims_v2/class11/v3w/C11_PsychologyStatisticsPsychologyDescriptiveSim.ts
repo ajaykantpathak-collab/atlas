@@ -6,13 +6,13 @@ import C11_PsychologyStatisticsPsychologyDescriptiveSim from '../../../simulatio
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_psychologystatisticspsychologydescriptivesim: SimDef = {
     id: 'v3w_c11_psychologystatisticspsychologydescriptivesim',
-    title: 'Statistics Psychology Descriptive',
+    title: 'Analysis of Data: Descriptive Statistics',
     subtitle: 'This node covers descriptive statistics for psychological data analysis: measures of.',
     classLevel: 11, subject: 'psychology', topic: 'Analysis of Data: Descriptive Statistics',
     chapters: [],
     nodeIds: ['c11_psy_cbse_02_009', 'c11_psy_cbse_02_001', 'c11_psy_cbse_02_002', 'c11_psy_cbse_02_003', 'c11_psy_cbse_02_004', 'c11_psy_cbse_02_006', 'c11_psy_cbse_02_008', 'c11_psy_cbse_02_010', 'c11_psy_cbse_08_009', 'c11_psy_cbse_08_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you conducted a survey on "study hours per week" for 30 Class XI students and got raw scores: 5, 8,.', goal: 'Master Statistics Psychology Descriptive.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you conducted a survey on "study hours per week" for 30 Class XI students and got raw scores: 5, 8,.', goal: 'Master Analysis of Data: Descriptive Statistics.' },
     discovery: {
         question: 'A researcher computes standard deviation for "reaction time in milliseconds" data and gets SD = -4.2 ms.',
         options: ['Standard deviation cannot be negative', 'SD can be negative if data is below mean', 'standard deviation is just the average distance from the mean'],
@@ -80,7 +80,7 @@ export const w_c11_psychologystatisticspsychologydescriptivesim: SimDef = {
             { text: 'Verify feasibility — 360 students × 15-min questionnaire = 90 hours total; feasible within 2 weeks with 2 research.', faded: true, blankAnswer: 'Population = 1,200 Class 11 students; Method = Stratified.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_psy_cbse_02_001', title: 'Identify each idea',
-          dissect: { specimen: 'Statistics Psychology Descriptive', spots: [
+          dissect: { specimen: 'Analysis of Data: Descriptive Statistics', spots: [
             { id: 's1', label: 'Descriptive statistics in psychology refers', prompt: 'Which idea is this? — Descriptive statistics in psychology refers to the quantitative methods used to organize,.', answer: 'Descriptive statistics in psychology refers', options: ['Descriptive statistics in psychology refers', 'The goals of psychological enquiry', 'Psychological data refers to the', 'The Observational Method is a'] },
             { id: 's2', label: 'The goals of psychological enquiry', prompt: 'Which idea is this? — The goals of psychological enquiry are the five systematic objectives that guide.', answer: 'The goals of psychological enquiry', options: ['The goals of psychological enquiry', 'Descriptive statistics in psychology refers', 'Psychological data refers to the', 'The Observational Method is a'] },
             { id: 's3', label: 'Psychological data refers to the', prompt: 'Which idea is this? — Psychological data refers to the systematically collected information about individuals\'.', answer: 'Psychological data refers to the', options: ['Psychological data refers to the', 'Descriptive statistics in psychology refers', 'The goals of psychological enquiry', 'The Observational Method is a'] },
@@ -89,7 +89,7 @@ export const w_c11_psychologystatisticspsychologydescriptivesim: SimDef = {
             { id: 's6', label: 'Survey research is a method', prompt: 'Which idea is this? — Survey research is a method of collecting data from a predefined group of respondents.', answer: 'Survey research is a method', options: ['Survey research is a method', 'Descriptive statistics in psychology refers', 'The goals of psychological enquiry', 'Psychological data refers to the'] }
           ] } }
     ],
-    explore: { component: C11_PsychologyStatisticsPsychologyDescriptiveSim, prompt: 'Explore the interactive — Statistics Psychology Descriptive' },
+    explore: { component: C11_PsychologyStatisticsPsychologyDescriptiveSim, prompt: 'Explore the interactive — Analysis of Data: Descriptive Statistics' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_psy_cbse_02_009', difficulty: 'standard',
           question: 'Descriptive statistics in psychology refers to the quantitative methods used to.',

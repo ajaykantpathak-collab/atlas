@@ -6,13 +6,13 @@ import C12_BusinessStudiesCoordinationMeaningCoordinationSim from '../../../simu
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_businessstudiescoordinationmeaningcoordinationsim: SimDef = {
     id: 'v3w_c12_businessstudiescoordinationmeaningcoordinationsim',
-    title: 'Coordination Meaning Coordination',
+    title: 'Management: Meaning, Definition and Characteristics',
     subtitle: 'This node covers the meaning, definitions (Koontz & Weihrich, Trewelly & Newport,.',
     classLevel: 12, subject: 'business_studies', topic: 'Management: Meaning, Definition and Characteristics',
     chapters: [],
     nodeIds: ['c12_bs_cbse_01_001', 'c12_bs_cbse_01_008', 'c12_bs_cbse_05_003', 'c12_bs_cbse_05_005', 'c12_bs_cbse_05_006', 'c12_bs_cbse_05_010', 'c12_bs_cbse_08_001', 'c12_bs_cbse_01_002', 'c12_bs_cbse_01_003', 'c12_bs_cbse_01_004', 'c12_bs_cbse_01_005', 'c12_bs_cbse_01_006', 'c12_bs_cbse_01_007', 'c12_bs_cbse_05_004', 'c12_bs_cbse_02_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are Smita Rai from Namchi Designer Candles — you have 20 women workers, limited funds, a Diwali.', goal: 'Master Coordination Meaning Coordination.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are Smita Rai from Namchi Designer Candles — you have 20 women workers, limited funds, a Diwali.', goal: 'Master Management: Meaning, Definition and Characteristics.' },
     discovery: {
         question: 'A factory manager achieves the annual production target of 10,000 units but uses 20% more raw material and 30% more labour hours than the industry standard.',
         options: ['The manager is **effective but not efficient**', 'A student who says', 'confuses goal attainment with resource optimisation'],
@@ -78,7 +78,7 @@ export const w_c12_businessstudiescoordinationmeaningcoordinationsim: SimDef = {
             { text: 'Communicate the policy, train regional heads on vendor evaluation, and set a review date after two quarters to adjust.', faded: true, blankAnswer: 'New policy: Corporate retains vendor empanelment, annual.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bs_cbse_01_008', title: 'Identify each idea',
-          dissect: { specimen: 'Coordination Meaning Coordination', spots: [
+          dissect: { specimen: 'Management: Meaning, Definition and Characteristics', spots: [
             { id: 's1', label: 'Management is the process of', prompt: 'Which idea is this? — Management is the process of planning, organising, staffing, directing, and controlling.', answer: 'Management is the process of', options: ['Management is the process of', 'Coordination is the process of', 'Organisational structure is the framework', 'Divisional structure is an organisational'] },
             { id: 's2', label: 'Coordination is the process of', prompt: 'Which idea is this? — Coordination is the process of synchronizing the activities of different departments,.', answer: 'Coordination is the process of', options: ['Coordination is the process of', 'Management is the process of', 'Organisational structure is the framework', 'Divisional structure is an organisational'] },
             { id: 's3', label: 'Organisational structure is the framework', prompt: 'Which idea is this? — Organisational structure is the framework that defines how activities such as task.', answer: 'Organisational structure is the framework', options: ['Organisational structure is the framework', 'Management is the process of', 'Coordination is the process of', 'Divisional structure is an organisational'] },
@@ -87,7 +87,7 @@ export const w_c12_businessstudiescoordinationmeaningcoordinationsim: SimDef = {
             { id: 's6', label: 'Decentralisation is the systematic delegation', prompt: 'Which idea is this? — Decentralisation is the systematic delegation of decision-making authority to the lowest.', answer: 'Decentralisation is the systematic delegation', options: ['Decentralisation is the systematic delegation', 'Management is the process of', 'Coordination is the process of', 'Organisational structure is the framework'] }
           ] } }
     ],
-    explore: { component: C12_BusinessStudiesCoordinationMeaningCoordinationSim, prompt: 'Explore the interactive — Coordination Meaning Coordination' },
+    explore: { component: C12_BusinessStudiesCoordinationMeaningCoordinationSim, prompt: 'Explore the interactive — Management: Meaning, Definition and Characteristics' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bs_cbse_01_001', difficulty: 'standard',
           question: 'Management is the process of planning, organising, staffing, directing, and.',

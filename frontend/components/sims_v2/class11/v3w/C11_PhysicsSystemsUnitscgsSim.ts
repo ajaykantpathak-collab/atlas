@@ -6,13 +6,13 @@ import C11_PhysicsSystemsUnitscgsSim from '../../../simulations/c6_12/C11_Physic
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicssystemsunitscgssim: SimDef = {
     id: 'v3w_c11_physicssystemsunitscgssim',
-    title: 'Systems Unitscgs',
+    title: 'Introduction to Units and Measurement',
     subtitle: 'This node covers the conceptual foundation of measurement: the need for units,.',
     classLevel: 11, subject: 'physics', topic: 'Introduction to Units and Measurement',
     chapters: [],
     nodeIds: ['c11_phy_cbse_01_001', 'c11_phy_cbse_01_002', 'c11_phy_cbse_01_003', 'c11_phy_cbse_10_008', 'c11_phy_cbse_10_010', 'c11_phy_cbse_05_004', 'c11_phy_cbse_13_001', 'c11_phy_cbse_13_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Look at the ceiling fan in your classroom — its blades rotate at a certain speed.', goal: 'Master Systems Unitscgs.' },
+    scenario: { role: 'a class 11 learner', intro: 'Look at the ceiling fan in your classroom — its blades rotate at a certain speed.', goal: 'Master Introduction to Units and Measurement.' },
     discovery: {
         question: 'A student measures the length of a lab table and records it as "2.5". The teacher says the measurement is incomplete.',
         options: ['The measurement is incomplete', 'the number is enough', 'add the instrument name'],
@@ -80,7 +80,7 @@ export const w_c11_physicssystemsunitscgssim: SimDef = {
             { text: 'Work-energy theorem: W_net = ΔK = K_f - K_i = 4,000 - 16,000 = -12,000 J = -12 kJ.', faded: true, blankAnswer: 'Initial K = 16.0 kJ, Final K = 4.0 kJ, Work done by wood =.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_01_002', title: 'Identify each idea',
-          dissect: { specimen: 'Systems Unitscgs', spots: [
+          dissect: { specimen: 'Introduction to Units and Measurement', spots: [
             { id: 's1', label: 'Measurement is the process of', prompt: 'Which idea is this? — Measurement is the process of comparing a physical quantity with a chosen standard called.', answer: 'Measurement is the process of', options: ['Measurement is the process of', 'The International System of Units', 'Significant figures are the digits', 'Calorimetry is the experimental technique'] },
             { id: 's2', label: 'The International System of Units', prompt: 'Which idea is this? — The International System of Units (SI) is the globally accepted coherent system of.', answer: 'The International System of Units', options: ['The International System of Units', 'Measurement is the process of', 'Significant figures are the digits', 'Calorimetry is the experimental technique'] },
             { id: 's3', label: 'Significant figures are the digits', prompt: 'Which idea is this? — Significant figures are the digits in a measured value that are known reliably plus the.', answer: 'Significant figures are the digits', options: ['Significant figures are the digits', 'Measurement is the process of', 'The International System of Units', 'Calorimetry is the experimental technique'] },
@@ -89,7 +89,7 @@ export const w_c11_physicssystemsunitscgssim: SimDef = {
             { id: 's6', label: 'Kinetic energy is the energy', prompt: 'Which idea is this? — Kinetic energy is the energy possessed by a body due to its motion, defined as the work.', answer: 'Kinetic energy is the energy', options: ['Kinetic energy is the energy', 'Measurement is the process of', 'The International System of Units', 'Significant figures are the digits'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsSystemsUnitscgsSim, prompt: 'Explore the interactive — Systems Unitscgs' },
+    explore: { component: C11_PhysicsSystemsUnitscgsSim, prompt: 'Explore the interactive — Introduction to Units and Measurement' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_01_001', difficulty: 'standard',
           question: 'Measurement is the process of comparing a physical quantity with a chosen.',

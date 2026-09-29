@@ -6,13 +6,13 @@ import C8_MathematicsComparingQuantitiesSim from '../../../simulations/c6_12/C8_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_mathematicscomparingquantitiessim: SimDef = {
     id: 'v3w_c8_mathematicscomparingquantitiessim',
-    title: 'Comparing Quantities',
+    title: 'Ratios with More Than Two Terms: Multi-Term Ratios',
     subtitle: 'This node covers multi-term ratios with up to four terms, including simplification using.',
     classLevel: 8, subject: 'mathematics', topic: 'Ratios with More Than Two Terms: Multi-Term Ratios',
     chapters: [],
     nodeIds: ['c8_math_ch10_4', 'c8_math_ch8_10', 'c8_math_ch8_11', 'c8_math_ch8_7', 'c8_math_ch10_3', 'c8_math_ch7_10', 'c8_math_ch8_1', 'c8_math_ch8_2', 'c8_math_ch8_3', 'c8_math_ch8_4', 'c8_math_ch8_5', 'c8_math_ch8_6', 'c8_math_ch10_10', 'c8_math_ch10_5', 'c8_math_ch10_6'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine three friends — Anil, Bina, and Chirag — invest ₹12,000, ₹18,000, and ₹30,000 respectively in a small.', goal: 'Master Comparing Quantities.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine three friends — Anil, Bina, and Chirag — invest ₹12,000, ₹18,000, and ₹30,000 respectively in a small.', goal: 'Master Ratios with More Than Two Terms: Multi-Term Ratios.' },
     discovery: {
         question: 'What is the formula to calculate the discount amount when the marked price and discount percentage are given?',
         options: ['Discount Amount = (Discount Percentage × Marked Price) ÷ 100', 'Discount Amount = (Discount Percentage × Selling Price) ÷ 100', 'discount is always on marked price'],
@@ -78,7 +78,7 @@ export const w_c8_mathematicscomparingquantitiessim: SimDef = {
             { text: 'Verify: new dimensions 45 cm × 30 cm give ratio 45/30 = 3/2, matching original 3/2. Units are cm. Answer: 30 cm.', faded: true, blankAnswer: '30 cm' }
             ] } },
         { type: 'dissect', nodeId: 'c8_math_ch8_10', title: 'Identify each idea',
-          dissect: { specimen: 'Comparing Quantities', spots: [
+          dissect: { specimen: 'Ratios with More Than Two Terms: Multi-Term Ratios', spots: [
             { id: 's1', label: 'A multi-term ratio compares three', prompt: 'Which idea is this? — A multi-term ratio compares three or more quantities of the same kind, written as.', answer: 'A multi-term ratio compares three', options: ['A multi-term ratio compares three', 'Simple interest applications involve using', 'Discount is a reduction offered', 'Profit and loss are financial'] },
             { id: 's2', label: 'Simple interest applications involve using', prompt: 'Which idea is this? — Simple interest applications involve using the formula \\(SI = \\frac{P \\times R \\times.', answer: 'Simple interest applications involve using', options: ['Simple interest applications involve using', 'A multi-term ratio compares three', 'Discount is a reduction offered', 'Profit and loss are financial'] },
             { id: 's3', label: 'Discount is a reduction offered', prompt: 'Which idea is this? — Discount is a reduction offered on the marked price (list price) of an item, expressed as.', answer: 'Discount is a reduction offered', options: ['Discount is a reduction offered', 'A multi-term ratio compares three', 'Simple interest applications involve using', 'Profit and loss are financial'] },
@@ -87,7 +87,7 @@ export const w_c8_mathematicscomparingquantitiessim: SimDef = {
             { id: 's6', label: 'When an image is scaled', prompt: 'Which idea is this? — When an image is scaled (enlarged or reduced), its width-to-height ratio (aspect ratio).', answer: 'When an image is scaled', options: ['When an image is scaled', 'A multi-term ratio compares three', 'Simple interest applications involve using', 'Discount is a reduction offered'] }
           ] } }
     ],
-    explore: { component: C8_MathematicsComparingQuantitiesSim, prompt: 'Explore the interactive — Comparing Quantities' },
+    explore: { component: C8_MathematicsComparingQuantitiesSim, prompt: 'Explore the interactive — Ratios with More Than Two Terms: Multi-Term Ratios' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_math_ch10_4', difficulty: 'standard',
           question: 'A multi-term ratio compares three or more quantities of the same kind, written.',

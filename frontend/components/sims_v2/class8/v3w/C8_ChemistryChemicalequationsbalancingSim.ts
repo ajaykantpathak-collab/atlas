@@ -6,13 +6,13 @@ import C8_ChemistryChemicalequationsbalancingSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_chemistrychemicalequationsbalancingsim: SimDef = {
     id: 'v3w_c8_chemistrychemicalequationsbalancingsim',
-    title: 'Chemicalequationsbalancing',
+    title: 'Particle Arrangement and Movement in Gases',
     subtitle: 'Covers the arrangement, movement, inter-particle distance, and forces of attraction.',
     classLevel: 8, subject: 'chemistry', topic: 'Particle Arrangement and Movement in Gases',
     chapters: [],
     nodeIds: ['c8_chem_ch2_8', 'c8_chem_ch2_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'When you open a bottle of perfume in one corner of a living room, the pleasant fragrance quickly spreads to.', goal: 'Master Chemicalequationsbalancing.' },
+    scenario: { role: 'a class 8 learner', intro: 'When you open a bottle of perfume in one corner of a living room, the pleasant fragrance quickly spreads to.', goal: 'Master Particle Arrangement and Movement in Gases.' },
     discovery: {
         question: 'Which state of matter possesses the largest inter-particle space among solids, liquids, and gases?',
         options: ['Gases possess the largest inter-particle space', 'solids', 'liquids'],
@@ -33,12 +33,12 @@ export const w_c8_chemistrychemicalequationsbalancingsim: SimDef = {
             { text: 'Conclude that because water fills these preexisting gaps, the total volume does not simply add up to 100 mL, proving.', faded: true, blankAnswer: 'The total volume is less than 100 mL because water.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_chem_ch2_9', title: 'Identify each idea',
-          dissect: { specimen: 'Chemicalequationsbalancing', spots: [
+          dissect: { specimen: 'Particle Arrangement and Movement in Gases', spots: [
             { id: 's1', label: 'In gases particles are arranged', prompt: 'Which idea is this? — In gases, particles are arranged with very large empty spaces between them and move about.', answer: 'In gases particles are arranged', options: ['In gases particles are arranged', 'Inter-particle space refers to the'] },
             { id: 's2', label: 'Inter-particle space refers to the', prompt: 'Which idea is this? — Inter-particle space refers to the empty microscopic gaps that exist between the.', answer: 'Inter-particle space refers to the', options: ['Inter-particle space refers to the', 'In gases particles are arranged'] }
           ] } }
     ],
-    explore: { component: C8_ChemistryChemicalequationsbalancingSim, prompt: 'Explore the interactive — Chemicalequationsbalancing' },
+    explore: { component: C8_ChemistryChemicalequationsbalancingSim, prompt: 'Explore the interactive — Particle Arrangement and Movement in Gases' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_chem_ch2_9', difficulty: 'standard',
           question: 'Inter-particle space refers to the empty microscopic gaps that exist between.',

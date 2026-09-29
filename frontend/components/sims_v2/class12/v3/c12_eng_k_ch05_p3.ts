@@ -19,31 +19,31 @@ export const c12_eng_k_ch05_p3: SimDef = {
         hook: 'One centimetre is the gap between a mother\'s dignity and the world\'s crooked rulers — and Bi Shu-min writes it with a doctor\'s clinical eye. Even the old woman\'s dishonest \'fitness scales\' that flatter height are satire: the only character honest about the racket is the one running it.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the disciplined process of actively examining a text\'s explicit and implicit meanings, evaluating the author\'s choices (structure, language, perspective).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'One Centimetre\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_05_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Measure the measurers: compare the bus\'s peeling paint line and the temple\'s \'earthworm\' mark, weigh Tao Ying\'s flawless motherhood against the system\'s small corruptions, and decide what a centimetre can hold.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_05_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a juror in a court where the "defendant" is the temple guard who humiliated Tao Ying and Xiao Ye.',
+          caseStudy: { intro: 'Analyse \'One Centimetre\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the primary function of the "Stop and Think" questions inserted by the textbook editors at pages 72, 76, 81 in the story?', options: [
                 { text: 'The "Stop and Think" questions are pedagogical prompts designed to guide readers from', outcome: 'The "Stop and Think" questions are pedagogical prompts designed to guide readers from literal.' },
                 { text: 'They are just comprehension check questions', outcome: 'Not quite — Students often think "critical analysis" means finding *one* correct hidden meaning the author.', reveals: 'critical-analysis-means-finding-one' },
                 { text: 'critical analysis', outcome: 'Not quite — Students often think "critical analysis" means finding *one* correct hidden meaning the author.', reveals: 'critical-analysis-means-finding-one' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_05_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re in the exam hall and the question reads: "How does Bi Shu-min use the \'one centimetre\' as a symbol to explore the gap between parental ideals.',
+          caseStudy: { intro: 'For written answers on \'One Centimetre\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'Define the PEEL paragraph structure and state its four components in order.', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. Point: a clear topic sentence stating the.' },
                 { text: 'Quote, Analysis, Conclusion', outcome: 'Not quite — Students believe "writing skills based on the chapter" means *retelling the story* in different.', reveals: 'writing-skills-based-on-the' },
                 { text: 'analytical reasoning', outcome: 'Not quite — Students believe "writing skills based on the chapter" means *retelling the story* in different.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_05_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are in a book club where someone says, "Tao Ying was wrong to hit Xiao Ye — no excuse." How do you respond?',
+          caseStudy: { intro: 'Talk through \'One Centimetre\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the two discussion topics explicitly listed under "Talking about the Text" in the NCERT textbook for "One Centimetre"?', options: [
                 { text: 'The two topics are: (1) "The way a child looks at the world is very different from that', outcome: 'The two topics are: (1) "The way a child looks at the world is very different from that of.' },
                 { text: 'The way a child looks at the world is very different from that of an adult', outcome: 'Not quite — Students often treat "discussion" as a series of disconnected opinions ("I think Tao Ying was.', reveals: 'students-often-treat-discussion-as' },
@@ -63,12 +63,12 @@ export const c12_eng_k_ch05_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_05_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the disciplined process of actively.',
+          question: 'Critical thinking on \'One Centimetre\' — analysing the text to reach.',
           hint: 'If stuck, revisit c12_eng_k_cbse_05_012 (Comprehension: Literal and Inferential.',
           misconception: 'Students often think "critical analysis" means finding *one* correct hidden meaning the author intended.',
           parts: [
@@ -85,7 +85,7 @@ export const c12_eng_k_ch05_p3: SimDef = {
                   hint: 'If stuck, revisit c12_eng_k_cbse_05_012 (Comprehension: Literal and Inferential Questions) and.',
                   misconception: 'Students often think "critical analysis" means finding *one* correct hidden meaning the author intended.' }
           ],
-            remediations: { 'critical-analysis-means-finding-one': { steps: ['If a student reduces analysis to moral labeling (good/bad characters), do: 1) Assign a "contradiction hunt" — find 3.', '2) Have them write a two-column table: "What the character says/thinks" vs.', '"What the narrative shows".', '3) Ask: "If the guard is the villain, why does the narrator call him \'just doing his job\' and show him nervous?" 4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-finding-one': { steps: ['If a student reduces analysis to moral labeling (good/bad characters), do: 1) Assign a "contradiction hunt" — find 3.', '2) Have them write a two-column table: "What the character says/thinks" vs.', '"What the narrative shows".', '3) Ask: "If the guard is the villain, why does the narrator call him \'just doing his job\' and show him nervous?" 4).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_05_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -100,9 +100,9 @@ export const c12_eng_k_ch05_p3: SimDef = {
                   hint: 'If stuck, revisit c12_eng_k_cbse_05_012 (Comprehension: Literal and Inferential Questions) and.',
                   misconception: 'Students often think "critical analysis" means finding *one* correct hidden meaning the author intended.' }
           ],
-            remediations: { 'critical-analysis-means-finding-one': { steps: ['If a student reduces analysis to moral labeling (good/bad characters), do: 1) Assign a "contradiction hunt" — find 3.', '2) Have them write a two-column table: "What the character says/thinks" vs.', '"What the narrative shows".', '3) Ask: "If the guard is the villain, why does the narrator call him \'just doing his job\' and show him nervous?" 4).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-finding-one': { steps: ['If a student reduces analysis to moral labeling (good/bad characters), do: 1) Assign a "contradiction hunt" — find 3.', '2) Have them write a two-column table: "What the character says/thinks" vs.', '"What the narrative shows".', '3) Ask: "If the guard is the villain, why does the narrator call him \'just doing his job\' and show him nervous?" 4).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_05_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter "One Centimetre" refers to the ability.',
+          question: 'Writing skills from \'One Centimetre\' — using the text as a model or springboard.',
           hint: 'If stuck, revisit c12_eng_k_cbse_05_013 (Critical Thinking) for analysis practice and.',
           misconception: 'Students believe "writing skills based on the chapter" means *retelling the story* in different formats (e.g., "Write.',
           parts: [
@@ -123,9 +123,9 @@ export const c12_eng_k_ch05_p3: SimDef = {
                   hint: 'If stuck, revisit c12_eng_k_cbse_05_013 (Critical Thinking) for analysis practice and.',
                   misconception: 'Students believe "writing skills based on the chapter" means *retelling the story* in different formats (e.g., "Write the story as a diary.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits a plot-summary diary entry or a trait-list character sketch: **Step 1** — Show them a side-by-side.', '**Step 2** — Highlight the three differences: (a) thesis-driven opening, (b) embedded evidence with literary terms, (c).', '**Step 3** — Have them rewrite *one paragraph* of their answer using the PEEL template from Worked Example 1.', '**Step 4** — Re-diagnose using Diagnostic Question 3 (diary entry) — they must score "strong response" criteria before.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits a plot-summary diary entry or a trait-list character sketch: **Step 1** — Show them a side-by-side.', '**Step 2** — Highlight the three differences: (a) thesis-driven opening, (b) embedded evidence with literary terms, (c).', '**Step 3** — Have them rewrite *one paragraph* of their answer using the PEEL template from Worked Example 1.', '**Step 4** — Re-diagnose using Diagnostic Question 3 (diary entry) — they must score "strong response" criteria before.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_05_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to structured oral activities.',
+          question: 'Discussion points on \'One Centimetre\' — speaking and listening around the text.',
           hint: 'If stuck, review c12_eng_k_cbse_05_013 (Critical Thinking) for analytical frameworks and.',
           misconception: 'Students often treat "discussion" as a series of disconnected opinions ("I think Tao Ying was nice," "I think the guard.',
           parts: [
@@ -142,7 +142,7 @@ export const c12_eng_k_ch05_p3: SimDef = {
                   hint: 'If stuck, review c12_eng_k_cbse_05_013 (Critical Thinking) for analytical frameworks and.',
                   misconception: 'Students often treat "discussion" as a series of disconnected opinions ("I think Tao Ying was nice," "I think the guard was mean") rather.' }
           ],
-            remediations: { 'students-often-treat-discussion-as': { steps: ['If a student defaults to opinion-sharing without evidence: (1) Pause the discussion.', '(2) Ask: "Which moment in the text made you think that?', 'Read the line aloud." (3) Model a PEEL response using their opinion as the Point.', '(4) Have them practice with a new prompt: "The Writer\'s advice to Tao Ying was manipulative." (5) Require them to cite.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-discussion-as': { steps: ['If a student defaults to opinion-sharing without evidence: (1) Pause the discussion.', '(2) Ask: "Which moment in the text made you think that?', 'Read the line aloud." (3) Model a PEEL response using their opinion as the Point.', '(4) Have them practice with a new prompt: "The Writer\'s advice to Tao Ying was manipulative." (5) Require them to cite.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

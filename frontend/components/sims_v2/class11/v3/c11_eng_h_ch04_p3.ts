@@ -19,7 +19,7 @@ export const c11_eng_h_ch04_p3: SimDef = {
         hook: 'Judging Shanshui by European realism is a rigged test — the European painter lends you his eyes; the Chinese painter invites you into his mind.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the ability to deconstruct a non-fiction argumentative text by identifying the author\'s central thesis, evaluating the evidence and rhetorical.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Landscape of the Soul\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_04_013', title: 'Your mission',
@@ -29,21 +29,21 @@ export const c11_eng_h_ch04_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_04_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a member of a youth climate action group preparing a presentation for your school assembly.',
+          caseStudy: { intro: 'Analyse \'Landscape of the Soul\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the central thesis of Nani Palkhivala\'s "The Ailing Planet" and where is it explicitly stated in the text?', options: [
                 { text: 'The central thesis is that humanity has undergone a revolutionary shift from a', outcome: 'The central thesis is that humanity has undergone a revolutionary shift from a mechanistic to.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students believe "critical thinking" means *criticizing* or *finding faults* with the text.', reveals: 'critical-thinking-means-criticizing-or' },
                 { text: 'critical thinking', outcome: 'Not quite — Students believe "critical thinking" means *criticizing* or *finding faults* with the text.', reveals: 'critical-thinking-means-criticizing-or' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_04_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and the question reads: "Write an article on \'The Role of the Green Movement in Saving Our Ailing Planet\' based on the.',
+          caseStudy: { intro: 'For written answers on \'Landscape of the Soul\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing structured answers?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explain, Line', outcome: 'Not quite — Students believe "writing skills" means reproducing chapter summary points in paragraph form.', reveals: 'writing-skills-means-reproducing-chapter' },
                 { text: 'writing skills', outcome: 'Not quite — Students believe "writing skills" means reproducing chapter summary points in paragraph form.', reveals: 'writing-skills-means-reproducing-chapter' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_04_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a group of four discussing why the Chinese painter Wu Daozi walked into his own painting and disappeared.',
+          caseStudy: { intro: 'Talk through \'Landscape of the Soul\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of "Talking about the text" discussion points in the NCERT textbook for Class 11?', options: [
                 { text: 'The primary purpose is to develop oral communication skills by encouraging students to', outcome: 'The primary purpose is to develop oral communication skills by encouraging students to explore.' },
                 { text: 'to memorize answers for exams', outcome: 'Not quite — Students treat discussion as a turn-taking exercise where each person gives a pre-prepared answer.', reveals: 'students-treat-discussion-as-a' }
@@ -67,7 +67,7 @@ export const c11_eng_h_ch04_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_04_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the ability to deconstruct.',
+          question: 'Critical thinking on \'Landscape of the Soul\' — analysing the text to reach.',
           hint: 'If stuck, review the "argument mapping" technique from Class 10 (c10_engl_cbse_02_008.',
           misconception: 'Students believe "critical thinking" means *criticizing* or *finding faults* with the text.',
           parts: [
@@ -86,7 +86,7 @@ export const c11_eng_h_ch04_p3: SimDef = {
           ],
             remediations: { 'critical-thinking-means-criticizing-or': { steps: ['If a student produces a fault-finding response: (1) Ask: "What is the author *trying to achieve* in this paragraph?".', '(2) Have them label each paragraph: "Claim," "Evidence," "Analogy," "Counter-argument addressed," "Call to action." (3).', 'This builds the habit of *structural seeing* before *evaluative judging*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_04_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter refer to the ability to compose structured.',
+          question: 'Writing skills from \'Landscape of the Soul\' — using the text as a model.',
           hint: 'Review c11_eng_h_cbse_04_012 (Comprehension) for evidence-location practice and.',
           misconception: 'Students believe "writing skills" means reproducing chapter summary points in paragraph form.',
           parts: [
@@ -116,12 +116,12 @@ export const c11_eng_h_ch04_p3: SimDef = {
           ],
             remediations: { 'writing-skills-means-reproducing-chapter': { steps: ['Give the student a 6-mark question and a sample answer with PEEL components colour-coded (Point=blue, Evidence=green.', 'Ask them to label each sentence in their own answer with P/E/E/L.', 'Have them rewrite one paragraph adding the missing colour.', 'Practice with a new question, insisting on colour-coding before submission.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_04_015', difficulty: 'standard',
-          question: 'Speaking and Listening Discussion Points are structured prompts designed.',
+          question: 'Discussion points on \'Landscape of the Soul\' — speaking and listening around.',
           hint: 'Review the "eye of the painter vs eye of the viewer" distinction in the prose and the.',
           misconception: 'Students treat discussion as a turn-taking exercise where each person gives a pre-prepared answer unrelated to what.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening Discussion Points are structured prompts designed to facilitate',
-                  options: ['Speaking and Listening Discussion Points are structured prompts designed to facilitate', '"Before You Read: Context and Background" prepares students to understand a literary text', 'Plot and narrative structure in a non-fiction argumentative essay refers to the', 'Setting in "Landscape of the Soul" refers to the conceptual and philosophical spaces'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'Landscape of the Soul\'',
+                  options: ['Discussion points on \'Landscape of the Soul\'', '\'Landscape of the Soul\' (Hornbill, ch', 'The plot/narrative arc of \'Landscape of the Soul\'', 'The setting of \'Landscape of the Soul\''],
                   hint: 'Review the "eye of the painter vs eye of the viewer" distinction in the prose and the three stanzas.',
                   misconception: 'Students treat discussion as a turn-taking exercise where each person gives a pre-prepared answer unrelated to what others said.' }
           ],

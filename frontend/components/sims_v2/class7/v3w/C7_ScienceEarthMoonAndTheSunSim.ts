@@ -6,13 +6,13 @@ import C7_ScienceEarthMoonAndTheSunSim from '../../../simulations/c6_12/C7_Scien
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_scienceearthmoonandthesunsim: SimDef = {
     id: 'v3w_c7_scienceearthmoonandthesunsim',
-    title: 'Earth Moon And The Sun',
+    title: 'Eclipses: Conditions for Occurrence',
     subtitle: 'Covers the geometric and orbital conditions necessary for solar and lunar eclipses,.',
     classLevel: 7, subject: 'science', topic: 'Eclipses: Conditions for Occurrence',
     chapters: [],
     nodeIds: ['c7_physics_ch06_006', 'c7_physics_ch06_007', 'c7_physics_ch06_008', 'c7_physics_ch06_009', 'c7_physics_ch06_001', 'c7_physics_ch06_002', 'c7_physics_ch06_003', 'c7_physics_ch06_004', 'c7_physics_ch06_005', 'c7_physics_ch06_010', 'c7_physics_ch03_006', 'c7_physics_ch03_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'When you hold a small ball between a table lamp and a wall, you can easily make a shadow on the wall, but.', goal: 'Master Earth Moon And The Sun.' },
+    scenario: { role: 'a class 7 learner', intro: 'When you hold a small ball between a table lamp and a wall, you can easily make a shadow on the wall, but.', goal: 'Master Eclipses: Conditions for Occurrence.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'An eclipse occurs when one celestial body.', text: 'An eclipse occurs when one celestial body moves into the shadow of another, which requires a precise alignment of the Sun, Earth, and Moon in a nearly straight line.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -73,7 +73,7 @@ export const w_c7_scienceearthmoonandthesunsim: SimDef = {
             { text: 'Compute the final value with unit tracking: $S = 15^\\circ/\\text{h}$, which matches the expected steady rate of Earth\'s.', faded: true, blankAnswer: '15 °/h' }
             ] } },
         { type: 'dissect', nodeId: 'c7_physics_ch06_007', title: 'Identify each idea',
-          dissect: { specimen: 'Earth Moon And The Sun', spots: [
+          dissect: { specimen: 'Eclipses: Conditions for Occurrence', spots: [
             { id: 's1', label: 'An eclipse occurs when one', prompt: 'Which idea is this? — An eclipse occurs when one celestial body moves into the shadow of another, which.', answer: 'An eclipse occurs when one', options: ['An eclipse occurs when one', 'A solar eclipse is an', 'A lunar eclipse is an', 'The phases of the moon'] },
             { id: 's2', label: 'A solar eclipse is an', prompt: 'Which idea is this? — A solar eclipse is an astronomical phenomenon that occurs when the Moon passes directly.', answer: 'A solar eclipse is an', options: ['A solar eclipse is an', 'An eclipse occurs when one', 'A lunar eclipse is an', 'The phases of the moon'] },
             { id: 's3', label: 'A lunar eclipse is an', prompt: 'Which idea is this? — A lunar eclipse is an astronomical event that occurs when the Earth passes directly.', answer: 'A lunar eclipse is an', options: ['A lunar eclipse is an', 'An eclipse occurs when one', 'A solar eclipse is an', 'The phases of the moon'] },
@@ -82,7 +82,7 @@ export const w_c7_scienceearthmoonandthesunsim: SimDef = {
             { id: 's6', label: 'The apparent movement of the', prompt: 'Which idea is this? — The apparent movement of the Sun across the sky refers to the daily east-to-west motion.', answer: 'The apparent movement of the', options: ['The apparent movement of the', 'An eclipse occurs when one', 'A solar eclipse is an', 'A lunar eclipse is an'] }
           ] } }
     ],
-    explore: { component: C7_ScienceEarthMoonAndTheSunSim, prompt: 'Explore the interactive — Earth Moon And The Sun' },
+    explore: { component: C7_ScienceEarthMoonAndTheSunSim, prompt: 'Explore the interactive — Eclipses: Conditions for Occurrence' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_physics_ch06_006', difficulty: 'standard',
           question: 'An eclipse occurs when one celestial body moves into the shadow of another,.',

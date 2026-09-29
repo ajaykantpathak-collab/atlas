@@ -6,13 +6,13 @@ import C11_BiologyLocomotionAndMovementSim from '../../../simulations/c6_12/C11_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologylocomotionandmovementsim: SimDef = {
     id: 'v3w_c11_biologylocomotionandmovementsim',
-    title: 'Locomotion And Movement',
+    title: 'Types of Movement: Amoeboid, Ciliary, Muscular',
     subtitle: 'This node covers the classification, cellular mechanism, and physiological examples of.',
     classLevel: 11, subject: 'biology', topic: 'Types of Movement: Amoeboid, Ciliary, Muscular',
     chapters: [],
     nodeIds: ['c11_bio_cbse_17_001', 'c11_bio_cbse_17_006', 'c11_bio_cbse_17_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'When you sneeze, dust particles trapped in your trachea are expelled - this is ciliary movement at work.', goal: 'Master Locomotion And Movement.' },
+    scenario: { role: 'a class 11 learner', intro: 'When you sneeze, dust particles trapped in your trachea are expelled - this is ciliary movement at work.', goal: 'Master Types of Movement: Amoeboid, Ciliary, Muscular.' },
     discovery: {
         question: 'Name the type of movement exhibited by human leucocytes and macrophages, and identify the cytoskeletal element primarily responsible for it.',
         options: ['Amoeboid movement', 'ciliary movement', 'muscular movement'],
@@ -52,13 +52,13 @@ export const w_c11_biologylocomotionandmovementsim: SimDef = {
             { text: 'Classification: Humerus is a forelimb bone → appendicular skeleton.', faded: true, blankAnswer: 'Right humerus, appendicular skeleton.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_17_006', title: 'Identify each idea',
-          dissect: { specimen: 'Locomotion And Movement', spots: [
+          dissect: { specimen: 'Types of Movement: Amoeboid, Ciliary, Muscular', spots: [
             { id: 's1', label: 'Amoeboid ciliary and muscular movements', prompt: 'Which idea is this? — Amoeboid, ciliary, and muscular movements are the three fundamental types of cellular.', answer: 'Amoeboid ciliary and muscular movements', options: ['Amoeboid ciliary and muscular movements', 'A joint articulation is a', 'The human skeletal system is'] },
             { id: 's2', label: 'A joint articulation is a', prompt: 'Which idea is this? — A joint (articulation) is a point of contact between two or more bones, or between bone.', answer: 'A joint articulation is a', options: ['A joint articulation is a', 'Amoeboid ciliary and muscular movements', 'The human skeletal system is'] },
             { id: 's3', label: 'The human skeletal system is', prompt: 'Which idea is this? — The human skeletal system is a framework of 206 bones and associated cartilages divided.', answer: 'The human skeletal system is', options: ['The human skeletal system is', 'Amoeboid ciliary and muscular movements', 'A joint articulation is a'] }
           ] } }
     ],
-    explore: { component: C11_BiologyLocomotionAndMovementSim, prompt: 'Explore the interactive — Locomotion And Movement' },
+    explore: { component: C11_BiologyLocomotionAndMovementSim, prompt: 'Explore the interactive — Types of Movement: Amoeboid, Ciliary, Muscular' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_17_001', difficulty: 'standard',
           question: 'Amoeboid, ciliary, and muscular movements are the three fundamental types of.',

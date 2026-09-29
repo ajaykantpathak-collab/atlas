@@ -6,13 +6,13 @@ import C12_ComputerScienceJavaStreamFilterSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_computersciencejavastreamfiltersim: SimDef = {
     id: 'v3w_c12_computersciencejavastreamfiltersim',
-    title: 'Java Stream Filter',
+    title: 'Client-Server Architecture and Peer-to-Peer Model',
     subtitle: 'This node covers the conceptual definitions, characteristics, advantages, disadvantages,.',
     classLevel: 12, subject: 'computer_science', topic: 'Client-Server Architecture and Peer-to-Peer Model',
     chapters: [],
     nodeIds: ['c12_cs_cbse_01_009', 'c12_cs_cbse_10_009', 'c12_cs_cbse_10_011', 'c12_cs_cbse_01_010', 'c12_cs_cbse_03_001', 'c12_cs_cbse_03_002', 'c12_cs_cbse_03_003', 'c12_cs_cbse_03_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you want to watch a movie: you open Netflix (client) which requests the video from Netflix\'s powerful.', goal: 'Master Java Stream Filter.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you want to watch a movie: you open Netflix (client) which requests the video from Netflix\'s powerful.', goal: 'Master Client-Server Architecture and Peer-to-Peer Model.' },
     discovery: {
         question: 'A startup wants to build a real-time multiplayer game for 10,000 concurrent players with low latency. They have limited budget for server infrastructure.',
         options: ['Recommend Client-Server with cloud-based auto-scaling game servers', 'Peer-to-Peer means no server at all', 'P2P has zero infrastructure cost'],
@@ -80,7 +80,7 @@ export const w_c12_computersciencejavastreamfiltersim: SimDef = {
             { text: 'Validate nesting: all tags closed in reverse order, no block-in-inline violations. Save as .html and open in browser.', faded: true, blankAnswer: 'Complete HTML5 document as described (see code in.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_cs_cbse_10_009', title: 'Identify each idea',
-          dissect: { specimen: 'Java Stream Filter', spots: [
+          dissect: { specimen: 'Client-Server Architecture and Peer-to-Peer Model', spots: [
             { id: 's1', label: 'Client-Server architecture is a distributed', prompt: 'Which idea is this? — Client-Server architecture is a distributed application structure that partitions tasks.', answer: 'Client-Server architecture is a distributed', options: ['Client-Server architecture is a distributed', 'Text file operations for counting', 'The pickle module in Python', 'Network security encompasses measures to'] },
             { id: 's2', label: 'Text file operations for counting', prompt: 'Which idea is this? — Text file operations for counting words, lines, and characters involve reading a text.', answer: 'Text file operations for counting', options: ['Text file operations for counting', 'Client-Server architecture is a distributed', 'The pickle module in Python', 'Network security encompasses measures to'] },
             { id: 's3', label: 'The pickle module in Python', prompt: 'Which idea is this? — The `pickle` module in Python provides a way to serialize (pickle) and deserialize.', answer: 'The pickle module in Python', options: ['The pickle module in Python', 'Client-Server architecture is a distributed', 'Text file operations for counting', 'Network security encompasses measures to'] },
@@ -89,7 +89,7 @@ export const w_c12_computersciencejavastreamfiltersim: SimDef = {
             { id: 's6', label: 'HTML HyperText Markup Language uses', prompt: 'Which idea is this? — HTML (HyperText Markup Language) uses **tags** (keywords enclosed in angle brackets like.', answer: 'HTML HyperText Markup Language uses', options: ['HTML HyperText Markup Language uses', 'Client-Server architecture is a distributed', 'Text file operations for counting', 'The pickle module in Python'] }
           ] } }
     ],
-    explore: { component: C12_ComputerScienceJavaStreamFilterSim, prompt: 'Explore the interactive — Java Stream Filter' },
+    explore: { component: C12_ComputerScienceJavaStreamFilterSim, prompt: 'Explore the interactive — Client-Server Architecture and Peer-to-Peer Model' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_cs_cbse_01_009', difficulty: 'standard',
           question: 'Client-Server architecture is a distributed application structure that.',

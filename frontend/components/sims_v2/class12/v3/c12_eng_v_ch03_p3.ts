@@ -19,30 +19,30 @@ export const c12_eng_v_ch03_p3: SimDef = {
         hook: 'This isn\'t a travelogue — it\'s a geological argument wearing a journey\'s clothes. Antarctica\'s ice cores hold half a million years of carbon records; Gondwana\'s breakup rearranged the climate once, and our emissions are rearranging it again — the same scale of forcing, at a thousand times the speed.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves examining a text beyond its surface meaning to evaluate the author\'s purpose, perspective, and techniques, and to interpret how these elements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Journey to the End of the Earth\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_v_cbse_03_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Join Students on Ice at the bottom of the world: read the continent as archive — Gondwana\'s drift, the circumpolar current, the frozen carbon diary — and weigh why teenagers, not tourists, were taken there.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_03_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a policy-maker reading this travelogue to decide whether to fund Antarctic research.',
+          caseStudy: { intro: 'Analyse \'Journey to the End of the Earth\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the primary purpose of Tishani Doshi\'s narrative in "Journey to the End of the Earth"?', options: [
                 { text: 'The primary purpose is to advocate for planetary awareness by showing how Antarctica\'s', outcome: 'The primary purpose is to advocate for planetary awareness by showing how Antarctica\'s geological.' },
                 { text: 'to describe a travel experience', outcome: 'Not quite — Students often treat critical thinking as \'giving an opinion\' about the text (e.g., \'I liked the.', reveals: 'students-often-treat-critical-thinking' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_03_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you just returned from a school trip to a glacier in Ladakh and your principal asks you to write a speech for the morning assembly on "Why Melting.',
+          caseStudy: { intro: 'For written answers on \'Journey to the End of the Earth\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'Define the PEEL structure and state the recommended word limit for a CBSE Class 12 Article writing task.', options: [
                 { text: 'PEEL stands for Point (topic sentence), Evidence (textual quote/fact), Explanation', outcome: 'PEEL stands for Point (topic sentence), Evidence (textual quote/fact), Explanation (analysis.' },
                 { text: 'PEEL is for essays only', outcome: 'Not quite — Students believe "using chapter content" means summarising the story in their writing.', reveals: 'using-chapter-content-means-summarising' },
                 { text: 'word limit is 200 words', outcome: 'Not quite — Students believe "using chapter content" means summarising the story in their writing.', reveals: 'using-chapter-content-means-summarising' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_v_cbse_03_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you are at a youth climate summit and need to discuss the urgency of protecting Antarctica.',
+          caseStudy: { intro: 'Talk through \'Journey to the End of the Earth\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'List two discussion topics from the chapter that relate to climate change.', options: [
                 { text: 'Correct answer: (1) The melting of the West Antarctic ice sheet and its impact on sea', outcome: 'Correct answer: (1) The melting of the West Antarctic ice sheet and its impact on sea levels; (2).' },
                 { text: 'global warming', outcome: 'Not quite — Students think discussion points are just personal opinions ("I think...") without textual.', reveals: 'discussion-points-are-just-personal' },
@@ -62,32 +62,32 @@ export const c12_eng_v_ch03_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves examining a text beyond its.',
+          question: 'Critical thinking on \'Journey to the End of the Earth\' — analysing the text.',
           hint: 'If stuck, review the difference between \'theme\' and \'thesis\' using node.',
           misconception: 'Students often treat critical thinking as \'giving an opinion\' about the text (e.g., \'I liked the description.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis involves examining a text beyond its surface',
-                  options: ['Critical thinking in literary analysis involves examining a text beyond its surface', 'The "Before You Read" section is a pre-reading pedagogical tool that activates prior', 'Plot and narrative structure in a non-fiction travelogue like "Journey to the End of the', 'Setting refers to the time, place, and physical environment where a narrative unfolds'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'Journey to the End of the Earth\'',
+                  options: ['Critical thinking on \'Journey to the End of the Earth\'', '\'Journey to the End of the Earth\' (Vistas, ch', 'The plot/narrative arc of \'Journey to the End of the Earth\'', 'The setting of \'Journey to the End of the Earth\''],
                   hint: 'If stuck, review the difference between \'theme\' and \'thesis\' using node c12_eng_v_cbse_03_006, then.',
                   misconception: 'Students often treat critical thinking as \'giving an opinion\' about the text (e.g., \'I liked the description of icebergs\') rather than.' }
           ],
-            remediations: { 'students-often-treat-critical-thinking': { steps: ['Revisit node c12_eng_v_cbse_03_008 (Literary Devices: Imagery and Metaphor) to identify specific devices in the text.', 'Practice the PEEL structure (Point, Evidence, Explanation, Link) using a short passage: pick one claim about author\'s.', 'Re-attempt Diagnostic Question 4 with the PEEL scaffold.', 'If still struggling, review Class 11 critical thinking nodes (e.g., c11_eng_h_cbse_01_013) for analytical frameworks.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-critical-thinking': { steps: ['Revisit node c12_eng_v_cbse_03_008 (Literary Devices: Imagery and Metaphor) to identify specific devices in the text.', 'Practice the PEEL structure (Point, Evidence, Explanation, Link) using a short passage: pick one claim about author\'s.', 'Re-attempt Diagnostic Question 4 with the PEEL scaffold.', 'If still struggling, review Class 11 critical thinking nodes (e.g., c11_eng_h_cbse_01_013) for analytical frameworks.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter "Journey to the End of the Earth" refers.',
+          question: 'Writing skills from \'Journey to the End of the Earth\' — using the text as.',
           hint: 'If stuck, revisit c11_eng_h_cbse_01_014 (Class 11 Article Writing) and practise PEEL.',
           misconception: 'Students believe "using chapter content" means summarising the story in their writing.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing Skills based on the chapter "Journey to the End of the Earth" refers to the',
-                  options: ['Writing Skills based on the chapter "Journey to the End of the Earth" refers to the', 'The "Before You Read" section is a pre-reading pedagogical tool that activates prior', 'Plot and narrative structure in a non-fiction travelogue like "Journey to the End of the', 'Setting refers to the time, place, and physical environment where a narrative unfolds'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing skills from \'Journey to the End of the Earth\'',
+                  options: ['Writing skills from \'Journey to the End of the Earth\'', '\'Journey to the End of the Earth\' (Vistas, ch', 'The plot/narrative arc of \'Journey to the End of the Earth\'', 'The setting of \'Journey to the End of the Earth\''],
                   hint: 'If stuck, revisit c11_eng_h_cbse_01_014 (Class 11 Article Writing) and practise PEEL.',
                   misconception: 'Students believe "using chapter content" means summarising the story in their writing.' }
           ],
-            remediations: { 'using-chapter-content-means-summarising': { steps: ['Show the student a side-by-side comparison: a 3-mark summary paragraph vs.', 'a 5-mark PEEL paragraph on the same topic.', 'Have them highlight every sentence in their draft and label it P, E, E, or L.', 'Sentences that don\'t fit any label are likely summary — delete or convert.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'using-chapter-content-means-summarising': { steps: ['Show the student a side-by-side comparison: a 3-mark summary paragraph vs.', 'a 5-mark PEEL paragraph on the same topic.', 'Have them highlight every sentence in their draft and label it P, E, E, or L.', 'Sentences that don\'t fit any label are likely summary — delete or convert.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_014', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -102,18 +102,18 @@ export const c12_eng_v_ch03_p3: SimDef = {
                   hint: 'If stuck, revisit c11_eng_h_cbse_01_014 (Class 11 Article Writing) and practise PEEL.',
                   misconception: 'Students believe "using chapter content" means summarising the story in their writing.' }
           ],
-            remediations: { 'using-chapter-content-means-summarising': { steps: ['Show the student a side-by-side comparison: a 3-mark summary paragraph vs.', 'a 5-mark PEEL paragraph on the same topic.', 'Have them highlight every sentence in their draft and label it P, E, E, or L.', 'Sentences that don\'t fit any label are likely summary — delete or convert.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'using-chapter-content-means-summarising': { steps: ['Show the student a side-by-side comparison: a 3-mark summary paragraph vs.', 'a 5-mark PEEL paragraph on the same topic.', 'Have them highlight every sentence in their draft and label it P, E, E, or L.', 'Sentences that don\'t fit any label are likely summary — delete or convert.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_v_cbse_03_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to structured oral activities.',
+          question: 'Discussion points on \'Journey to the End of the Earth\' — speaking and listening.',
           hint: 'Revisit the theme nodes (006, 007) and list three theme statements with two quotes each.',
           misconception: 'Students think discussion points are just personal opinions ("I think...") without textual anchoring.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to structured oral activities where',
-                  options: ['Speaking and Listening: Discussion Points refers to structured oral activities where', 'The "Before You Read" section is a pre-reading pedagogical tool that activates prior', 'Plot and narrative structure in a non-fiction travelogue like "Journey to the End of the', 'Setting refers to the time, place, and physical environment where a narrative unfolds'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'Journey to the End of the Earth\'',
+                  options: ['Discussion points on \'Journey to the End of the Earth\'', '\'Journey to the End of the Earth\' (Vistas, ch', 'The plot/narrative arc of \'Journey to the End of the Earth\'', 'The setting of \'Journey to the End of the Earth\''],
                   hint: 'Revisit the theme nodes (006, 007) and list three theme statements with two quotes each.',
                   misconception: 'Students think discussion points are just personal opinions ("I think...") without textual anchoring.' }
           ],
-            remediations: { 'discussion-points-are-just-personal': { steps: ['Remediation: 1) Revisit c12_eng_v_cbse_03_006 (Primary Theme) and 007 (Secondary Themes) to list theme statements with.', '2) Practice turning each theme into an open-ended question using the stem "How does the text suggest...?" 3) Do.', '4) Re-diagnose with Diagnostic Question 3 to check if the student can now counter a misconception with evidence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'discussion-points-are-just-personal': { steps: ['Remediation: 1) Revisit c12_eng_v_cbse_03_006 (Primary Theme) and 007 (Secondary Themes) to list theme statements with.', '2) Practice turning each theme into an open-ended question using the stem "How does the text suggest...?" 3) Do.', '4) Re-diagnose with Diagnostic Question 3 to check if the student can now counter a misconception with evidence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

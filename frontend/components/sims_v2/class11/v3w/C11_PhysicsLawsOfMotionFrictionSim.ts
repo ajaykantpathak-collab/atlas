@@ -6,13 +6,13 @@ import C11_PhysicsLawsOfMotionFrictionSim from '../../../simulations/c6_12/C11_P
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_physicslawsofmotionfrictionsim: SimDef = {
     id: 'v3w_c11_physicslawsofmotionfrictionsim',
-    title: 'Laws Of Motion Friction',
+    title: 'Aristotle\'s Fallacy and Galileo\'s Experiment',
     subtitle: 'Covers the historical transition from Aristotelian to Galilean/Newtonian mechanics,.',
     classLevel: 11, subject: 'physics', topic: 'Aristotle\'s Fallacy and Galileo\'s Experiment',
     chapters: [],
     nodeIds: ['c11_phy_cbse_04_001', 'c11_phy_cbse_04_002', 'c11_phy_cbse_04_008', 'c11_phy_cbse_04_009', 'c11_phy_cbse_04_010', 'c11_phy_cbse_04_011', 'c11_phy_cbse_04_012', 'c11_phy_cbse_04_013', 'c11_phy_cbse_04_014', 'c11_phy_cbse_04_006', 'c11_phy_cbse_04_003', 'c11_phy_cbse_12_001', 'c11_phy_cbse_07_001', 'c11_phy_cbse_02_009', 'c11_phy_cbse_06_014'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a marble rolling on a smooth floor versus a rough carpet—on the smooth floor it travels farther.', goal: 'Master Laws Of Motion Friction.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a marble rolling on a smooth floor versus a rough carpet—on the smooth floor it travels farther.', goal: 'Master Aristotle\'s Fallacy and Galileo\'s Experiment.' },
     discovery: {
         question: 'A ball is released from rest at height h on a smooth (frictionless) inclined plane. It rolls down and up a second smooth inclined plane of the same angle.',
         options: ['On the second inclined plane, the ball reaches exactly height h (conservation of', 'it stops after a finite distance', 'inertia is a force that keeps things moving'],
@@ -78,7 +78,7 @@ export const w_c11_physicslawsofmotionfrictionsim: SimDef = {
             { text: 'Check reasonableness: 0.0735 N is very small (≈ 7.5 gf), consistent with rolling friction being much smaller than.', faded: true, blankAnswer: '0.0735 N (or 7.35 × 10⁻² N) in the direction of motion.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_phy_cbse_04_002', title: 'Identify each idea',
-          dissect: { specimen: 'Laws Of Motion Friction', spots: [
+          dissect: { specimen: 'Aristotle\'s Fallacy and Galileo\'s Experiment', spots: [
             { id: 's1', label: 'Aristotles fallacy is the incorrect', prompt: 'Which idea is this? — Aristotle\'s fallacy is the incorrect assertion that a continuous external force is.', answer: 'Aristotles fallacy is the incorrect', options: ['Aristotles fallacy is the incorrect', 'Newtons First Law of Motion', 'Common forces in mechanics are', 'Friction is a contact force'] },
             { id: 's2', label: 'Newtons First Law of Motion', prompt: 'Which idea is this? — Newton\'s First Law of Motion (Law of Inertia) states that a body remains in its state of.', answer: 'Newtons First Law of Motion', options: ['Newtons First Law of Motion', 'Aristotles fallacy is the incorrect', 'Common forces in mechanics are', 'Friction is a contact force'] },
             { id: 's3', label: 'Common forces in mechanics are', prompt: 'Which idea is this? — Common forces in mechanics are the fundamental contact and non-contact forces encountered.', answer: 'Common forces in mechanics are', options: ['Common forces in mechanics are', 'Aristotles fallacy is the incorrect', 'Newtons First Law of Motion', 'Friction is a contact force'] },
@@ -87,7 +87,7 @@ export const w_c11_physicslawsofmotionfrictionsim: SimDef = {
             { id: 's6', label: 'Rolling friction is the resistive', prompt: 'Which idea is this? — Rolling friction is the resistive force that opposes the motion of a body (such as a.', answer: 'Rolling friction is the resistive', options: ['Rolling friction is the resistive', 'Aristotles fallacy is the incorrect', 'Newtons First Law of Motion', 'Common forces in mechanics are'] }
           ] } }
     ],
-    explore: { component: C11_PhysicsLawsOfMotionFrictionSim, prompt: 'Explore the interactive — Laws Of Motion Friction' },
+    explore: { component: C11_PhysicsLawsOfMotionFrictionSim, prompt: 'Explore the interactive — Aristotle\'s Fallacy and Galileo\'s Experiment' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_phy_cbse_04_001', difficulty: 'standard',
           question: 'Aristotle\'s fallacy is the incorrect assertion that a continuous external force.',

@@ -19,7 +19,7 @@ export const c12_hin_ar_ch07_p2: SimDef = {
         hook: 'His five forms here aren\'t experiments — they\'re classical metres mastered and matched to mood: चप्पय\'s even matras for philosophy, दोहा\'s rolling asymmetry for narrative. Variety is discipline, not rebellion; form follows function.',
     },
     teaching: [
-        { title: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: '**प्रतीक (Symbol):** काव्य में प्रयुक्त वह शब्द, वस्तु, पात्र या घटना जो अपने स्थूल अर्थ के अतिरिक्त एक गहरा, अमूर्त, व्यापक अर्थ (भाव, विचार, सिद्धांत) को संकेतित/व्यंजित करता है। **बिंब.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: '\'आरोह भाग-2 — पाठ 7\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_07_007', title: 'Your mission',
@@ -30,8 +30,8 @@ export const c12_hin_ar_ch07_p2: SimDef = {
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'dissect', nodeId: 'c12_hin_ar_cbse_07_008', title: 'Identify each idea',
           dissect: { specimen: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप · Part 2/3', spots: [
-            { id: 's1', label: '- -', prompt: 'Which idea is this? — पद्य में भाषा-प्रयोग का अर्थ है — काव्य की छंदबद्ध संरचना में शब्दों के चयन, उनके.', answer: '- -', options: ['- -', '- - -'] },
-            { id: 's2', label: '- - -', prompt: 'Which idea is this? — वस्तुनिष्ठ प्रश्न (Objective Questions) पाठ के प्रत्यक्ष तथ्यों, घटनाओं, पात्रों या.', answer: '- - -', options: ['- - -', '- -'] }
+            { id: 's1', label: '- -', prompt: 'Which idea is this? — \'आरोह भाग-2 — पाठ 7\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली चुनी।', answer: '- -', options: ['- -', '- - -'] },
+            { id: 's2', label: '- - -', prompt: 'Which idea is this? — \'आरोह भाग-2 — पाठ 7\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।', answer: '- - -', options: ['- - -', '- -'] }
           ] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_07_007', title: 'Use it in the wild',
           caseStudy: { intro: 'You\'re cutting a farewell video for a beloved coach. A teammate says the interview clips where the players hesitate before thanking him \'break the flow\' and should be dropped so the highlight reel stays \'propulsive.\'',
@@ -52,67 +52,78 @@ export const c12_hin_ar_ch07_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_007', difficulty: 'standard',
-          question: '**प्रतीक (Symbol):** काव्य में प्रयुक्त वह शब्द, वस्तु, पात्र या घटना जो अपने.',
+          question: '\'आरोह भाग-2 — पाठ 7\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
           hint: 'यदि अटके: **c11_hin_ar_cbse_07_008 (बिंब और रूपक)** के \'बिंब के प्रकार\' खंड व.',
           misconception: '**सबसे घातक भ्रम:** छात्र **\'बिंब\' और \'प्रतीक\' को परस्पर विनिमेय (Interchangeable) मान लेते हैं**। **उदाहरण:** "लक्ष्मण.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**प्रतीक (Symbol):** काव्य में प्रयुक्त वह शब्द, वस्तु, पात्र या घटना जो अपने स्थूल अर्थ',
-                  options: ['**प्रतीक (Symbol):** काव्य में प्रयुक्त वह शब्द, वस्तु, पात्र या घटना जो अपने स्थूल अर्थ', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 7\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
+                  options: ['\'आरोह भाग-2 — पाठ 7\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 7\' का कथानक — \'आरोह भाग-2 — पाठ 7\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 7\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि अटके: **c11_hin_ar_cbse_07_008 (बिंब और रूपक)** के \'बिंब के प्रकार\' खंड व.',
                   misconception: '**सबसे घातक भ्रम:** छात्र **\'बिंब\' और \'प्रतीक\' को परस्पर विनिमेय (Interchangeable) मान लेते हैं**। **उदाहरण:** "लक्ष्मण मूर्च्छित पड़े हैं".' }
           ],
             remediations: { 'interchangeable': { steps: ['**तत्काल पुनरावृत्ति:** Class 11 के नोड **c11_hin_ar_cbse_07_008 (बिंब और रूपक)** व **c11_hin_ar_cbse_07_009 (विरोधाभास.', '**माइक्रो-अभ्यास:** कवितावली के किसी 4-5 पंक्ति के अंश से **2 बिंब + 2 प्रतीक** निकालकर **अलग-अलग कॉलम** में लिखें.', '**पुनः निदान:** उपरोक्त DIAGNOSTIC_QUESTION_1 व 2 को बिना नोट्स देखे हल करें। यदि फिर गलती हो, तो शिक्षक से **\'बिंब.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_008', difficulty: 'standard',
-          question: 'कवितावली (उत्तरकांड) के \'लक्ष्मण-मूर्च्छा और राम का विलाप\' प्रसंग में गोस्वामी.',
-          hint: 'यदि \'राजधर्म\' या \'लोकमंगल\' अस्पष्ट हो → कक्षा 11 आरोह गद्य खंड \'आवारा मसीहा\'.',
-          misconception: '**विशिष्ट भ्रांति:** "कवितावली में राम का विलाप देखकर लगता है वे **कमज़ोर, भावुक, और अधीर** हैं — वे राजा जैसे नहीं.',
+          question: '\'आरोह भाग-2 — पाठ 7\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
+          hint: 'If stuck on vehicle/tenor: practice with 10 Hindi proverbs (e.g., "haath kangan ko aarsi.',
+          misconception: 'Students treat imagery and metaphor as identification tasks: "Find the metaphor in stanza 2" → underline "isV dh vkx" →.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कवितावली (उत्तरकांड) के \'लक्ष्मण-मूर्च्छा और राम का विलाप\' प्रसंग में गोस्वामी तुलसीदास',
-                  options: ['कवितावली (उत्तरकांड) के \'लक्ष्मण-मूर्च्छा और राम का विलाप\' प्रसंग में गोस्वामी तुलसीदास', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
-                  hint: 'यदि \'राजधर्म\' या \'लोकमंगल\' अस्पष्ट हो → कक्षा 11 आरोह गद्य खंड \'आवारा मसीहा\'.',
-                  misconception: '**विशिष्ट भ्रांति:** "कवितावली में राम का विलाप देखकर लगता है वे **कमज़ोर, भावुक, और अधीर** हैं — वे राजा जैसे नहीं लगते।" **क्यों होती.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 7\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
+                  options: ['\'आरोह भाग-2 — पाठ 7\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 7\' का कथानक — \'आरोह भाग-2 — पाठ 7\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 7\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'If stuck on vehicle/tenor: practice with 10 Hindi proverbs (e.g., "haath kangan ko aarsi kya".',
+                  misconception: 'Students treat imagery and metaphor as identification tasks: "Find the metaphor in stanza 2" → underline "isV dh vkx" → done.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**पुनर्पाठ (Re-read):** प्रसंग के **पहले 3 पद** केवल भावार्थ के लिए पढ़ें — राम के संबोधन बदलते देखें: "लखनु प्रानु" →.', '**तुलनात्मक चार्ट बनाएँ:** दो कॉलम — "व्यक्तिगत शोक के शब्द" और "सार्वजनिक कर्तव्य के शब्द" — प्रत्येक पद से 2-2 उदाहरण.', '**मौखिक व्याख्या:** किसी साथी को 2 मिनट में समझाएँ: "राम यहाँ क्यों रोते हैं और फिर क्यों चुप हो जाते हैं?" — यदि आप.', '**पुनः निदान (Re-diagnostic):** DIAGNOSTIC_QUESTION_2 और _5 फिर से हल करें — अबकी बार **\'व्यष्टि से समष्टि\'** और **\'शोक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-imagery-and-metaphor': { steps: ['Re-read c11_hin_ar_cbse_07_008 (Class 11 Imagery & Metaphor) focusing ONLY on the \'vehicle/tenor\' distinction table and.', 'Take Poem 1, stanza 1. Circle 5 sensory words. For each, write: Sense → Concrete Noun → Abstract Idea it carries.', 'Find the central metaphor. Fill a 2-column table: Vehicle (concrete farming term) | Tenor (abstract life concept) |.', 'Re-attempt Diagnostic Q2 and Q4. If still stuck, the gap is \'abstraction from concrete\' — practice with 5 daily-life.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_008', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students treat imagery and metaphor as identification tasks: "Find the metaphor in stanza 2" → underline "isV dh vkx" →.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate this claim: "The extended metaphor of \'jke\' (Rama) as \'isV\' (harvest/life) in the third poem (èkwr dgkS) is more effective for a modern urban reader.', answer: 'Correct evaluation: Refute',
+                  options: ['Correct evaluation: Refute', 'urban readers relate to Rama as ideal'],
+                  hint: 'If stuck on vehicle/tenor: practice with 10 Hindi proverbs (e.g., "haath kangan ko aarsi kya".',
+                  misconception: 'Students treat imagery and metaphor as identification tasks: "Find the metaphor in stanza 2" → underline "isV dh vkx" → done.' }
+          ],
+            remediations: { 'students-treat-imagery-and-metaphor': { steps: ['Re-read c11_hin_ar_cbse_07_008 (Class 11 Imagery & Metaphor) focusing ONLY on the \'vehicle/tenor\' distinction table and.', 'Take Poem 1, stanza 1. Circle 5 sensory words. For each, write: Sense → Concrete Noun → Abstract Idea it carries.', 'Find the central metaphor. Fill a 2-column table: Vehicle (concrete farming term) | Tenor (abstract life concept) |.', 'Re-attempt Diagnostic Q2 and Q4. If still stuck, the gap is \'abstraction from concrete\' — practice with 5 daily-life.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_009', difficulty: 'standard',
-          question: '**गौण भाव** (Subsidiary Sentiment) काव्य में वह द्वितीयक भाव है जो मुख्य भाव.',
-          hint: 'यदि मुख्य कथा-प्रवाह ही स्पष्ट न हो, तो पहले **c12_hin_ar_cbse_07_002 (कथानक और.',
-          misconception: '**सबसे आम भ्रम:** छात्र **गौण भाव** को \'मुख्य भाव का उप-भाव\' (Sub-emotion) मान लेते हैं — जैसे करुण रस में \'शोक\' मुख्य.',
+          question: '\'आरोह भाग-2 — पाठ 7\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
+          hint: 'If stuck on "symbol vs metaphor," review **c12_hin_ar_cbse_07_008 WORKED_EXAMPLE_2**.',
+          misconception: '**Misconception:** "Irony and symbolism are separate devices — irony is for prose/criticism, symbolism is for.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**गौण भाव** (Subsidiary Sentiment) काव्य में वह द्वितीयक भाव है जो मुख्य भाव (राम का',
-                  options: ['**गौण भाव** (Subsidiary Sentiment) काव्य में वह द्वितीयक भाव है जो मुख्य भाव (राम का', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
-                  hint: 'यदि मुख्य कथा-प्रवाह ही स्पष्ट न हो, तो पहले **c12_hin_ar_cbse_07_002 (कथानक और आख्यान-संरचना)** व.',
-                  misconception: '**सबसे आम भ्रम:** छात्र **गौण भाव** को \'मुख्य भाव का उप-भाव\' (Sub-emotion) मान लेते हैं — जैसे करुण रस में \'शोक\' मुख्य भाव है तो \'आँसू.' }
+                { id: 'a', prompt: 'In the *doha* "isV gh oQks ipr] cspr csVk&csVdh" (तीर ही को पार, चस्पा चस्पा चस्पा), explain why the arrow (तीर) is a **symbol** and not merely a metaphor.', answer: '**Correct Answer:** A metaphor is a direct comparison ("A is B")',
+                  options: ['**Correct Answer:** A metaphor is a direct comparison ("A is B")', 'metaphor for devotion'],
+                  hint: 'If stuck on "symbol vs metaphor," review **c12_hin_ar_cbse_07_008 WORKED_EXAMPLE_2** (metaphor.',
+                  misconception: '**Misconception:** "Irony and symbolism are separate devices — irony is for prose/criticism, symbolism is for poems/beauty." **Why it\'s.' }
           ],
-            remediations: { 'sub-emotion': { steps: ['**चरण 1:** छात्र से कहें: "पाठ को फिर से पढ़ो, इस बार **लाल पेन से** हर उस वाक्य/पंक्ति को रेखांकित करो जो **लक्ष्मण.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'misconception-irony-and-symbolism-are': { steps: ['If the student cannot integrate irony and symbolism: 1.', '**Re-read** the three poems and prose *only for contrasts* — highlight every "परंतु/लेकिन" moment (e.g., king becomes.', '**Make a two-column table**: Column A = Concrete Object (arrow, dust, forest, bow, fire); Column B = Abstract Meaning.', '**Practice the "So what?" drill**: For each entry, ask "How does the *irony* deepen this symbol?" — e.g., "Dust.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_010', difficulty: 'standard',
-          question: 'पदावली के अंतर्गत कवितावली (उत्तरकांड) के पदों में प्रयुक्त कठिन ब्रजभाषा.',
-          hint: 'यदि व्युत्पत्ति में अटके तो c11_hin_ar_cbse_07_011 (व्याकरण: पाठ में भाषा-प्रयोग) के.',
-          misconception: '**सबसे घातक भ्रम:** "कठिन शब्दों का अर्थ शब्दकोश से ढूँढ़कर लिख देना पर्याप्त है।" **वास्तविकता:** तुलसीदास के शब्द.',
+          question: '\'आरोह भाग-2 — पाठ 7\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
+          hint: 'If stuck on a word\'s contextual meaning: (1) Locate its *exact line* in the poem/prose.',
+          misconception: '**Misconception:** "Vocabulary in context means memorizing the \'shabdarth\' (word-meanings) list at the end of the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली के अंतर्गत कवितावली (उत्तरकांड) के पदों में प्रयुक्त कठिन ब्रजभाषा शब्दों,',
-                  options: ['पदावली के अंतर्गत कवितावली (उत्तरकांड) के पदों में प्रयुक्त कठिन ब्रजभाषा शब्दों,', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
-                  hint: 'यदि व्युत्पत्ति में अटके तो c11_hin_ar_cbse_07_011 (व्याकरण: पाठ में भाषा-प्रयोग) के.',
-                  misconception: '**सबसे घातक भ्रम:** "कठिन शब्दों का अर्थ शब्दकोश से ढूँढ़कर लिख देना पर्याप्त है।" **वास्तविकता:** तुलसीदास के शब्द **प्रसंग-सापेक्ष** हैं।.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 7\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
+                  options: ['\'आरोह भाग-2 — पाठ 7\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 7\' का कथानक — \'आरोह भाग-2 — पाठ 7\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 7\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'If stuck on a word\'s contextual meaning: (1) Locate its *exact line* in the poem/prose.',
+                  misconception: '**Misconception:** "Vocabulary in context means memorizing the \'shabdarth\' (word-meanings) list at the end of the chapter for the board.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**पुनर्पाठ:** संबंधित पद को **सस्वर 3 बार पढ़ें**, कठिन शब्दों को घेरें। 2.', '**मूल-रूप खोज:** प्रत्येक घिरे शब्द का **मूल रूप** (धातु/संज्ञा + प्रत्यय) लिखें — c11_hin_ar_cbse_07_010 (पदावली.', '**प्रसंग-मिलान:** पद का **भाव/रस** पहचानें (करुण/वीर/शांत) और जाँचें कि शब्दार्थ उससे मेल खाता है या नहीं। 4.', '**पुनः-निदान:** DIAGNOSTIC_QUESTION_3 ("प्रान बाँधि") का उत्तर बिना देखे लिखें; यदि "आत्महत्या" जैसा अर्थ आए तो चरण 2-3.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'misconception-vocabulary-in-context-means': { steps: ['**Revisit the shabdarth list** (NCERT pg 45-46) and for *each* word, write: (a) Dictionary meaning, (b).', '**Re-read c12_hin_ar_cbse_07_008 (Imagery/Metaphor)** and c12_hin_ar_cbse_07_009 (Irony/Symbolism) — vocabulary *is*.', 'Identify 3 words that function as metaphors (e.g., \'isV dh vkx\' = separation\'s pain).', '**Practice:** Take 5 words from the list.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_011', difficulty: 'standard',
-          question: 'पद्य में भाषा-प्रयोग का अर्थ है — काव्य की छंदबद्ध संरचना में शब्दों के चयन.',
+          question: '\'आरोह भाग-2 — पाठ 7\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और.',
           hint: 'यदि समास-विग्रह या प्रत्यय-पहचान में अटके हों, तो तुरंत **c11_hin_ar_cbse_16_011 (पद्य.',
           misconception: 'छात्र समझते हैं कि \'पद्य में भाषा-प्रयोग\' का अर्थ केवल **कठिन शब्दों के अर्थ लिखना** या **अलंकारों के नाम गिनाना** है।.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पद्य में भाषा-प्रयोग का अर्थ है',
-                  options: ['पद्य में भाषा-प्रयोग का अर्थ है', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 7\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली चुनी।',
+                  options: ['\'आरोह भाग-2 — पाठ 7\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली चुनी।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 7\' का कथानक — \'आरोह भाग-2 — पाठ 7\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 7\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि समास-विग्रह या प्रत्यय-पहचान में अटके हों, तो तुरंत **c11_hin_ar_cbse_16_011 (पद्य में.',
                   misconception: 'छात्र समझते हैं कि \'पद्य में भाषा-प्रयोग\' का अर्थ केवल **कठिन शब्दों के अर्थ लिखना** या **अलंकारों के नाम गिनाना** है। वे **व्याकरणिक रूप.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**चरण 1:** छात्र से कहें — "पद से 5 शब्द चुनो जिनके रूप तुम्हें अस्पष्ट लगते हैं (जैसे व्याकुल, मूर्च्छा, विलाप, अनाथ.', '**चरण 2:** प्रत्येक शब्द का **रूपांतर-विच्छेद** कराएं: मूल धातु/प्रातिपदिक + प्रत्यय + विभक्ति/वचन (उदाहरण: व्याकुल.', '**चरण 3:** पूछें — "यदि कवि \'व्याकुल\' के स्थान पर \'दुःखित\' (दुःख + इन्) प्रयोग करता तो अर्थ में क्या अंतर आता?" — इससे.', '**चरण 4:** पुनः निदान प्रश्न 2 और 3 हल कराएं — अब छात्र व्याकरणिक रूप को अर्थ से जोड़ पाएगा।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_012', difficulty: 'standard',
-          question: 'वस्तुनिष्ठ प्रश्न (Objective Questions) पाठ के प्रत्यक्ष तथ्यों, घटनाओं.',
+          question: '\'आरोह भाग-2 — पाठ 7\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
           hint: 'यदि आशय-सूचक उत्तर में साक्ष्य नहीं दे पा रहे हों, तो c12_hin_ar_cbse_07_008 (बिंब-रूपक).',
           misconception: 'छात्र समझते हैं कि आशय-सूचक प्रश्नों का उत्तर \'अपनी भाषा में\' लिखने का अर्थ \'पाठ से दूर जाकर कल्पना करना\' है — जबकि.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वस्तुनिष्ठ प्रश्न (Objective Questions) पाठ के प्रत्यक्ष तथ्यों, घटनाओं, पात्रों या',
-                  options: ['वस्तुनिष्ठ प्रश्न (Objective Questions) पाठ के प्रत्यक्ष तथ्यों, घटनाओं, पात्रों या', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 7\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
+                  options: ['\'आरोह भाग-2 — पाठ 7\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 7\' का कथानक — \'आरोह भाग-2 — पाठ 7\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 7\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि आशय-सूचक उत्तर में साक्ष्य नहीं दे पा रहे हों, तो c12_hin_ar_cbse_07_008 (बिंब-रूपक) और.',
                   misconception: 'छात्र समझते हैं कि आशय-सूचक प्रश्नों का उत्तर \'अपनी भाषा में\' लिखने का अर्थ \'पाठ से दूर जाकर कल्पना करना\' है — जबकि वास्तव में \'अपनी भाषा.' }
           ],

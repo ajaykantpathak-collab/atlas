@@ -6,13 +6,13 @@ import C11_GeographyNaturalHazardsSim from '../../../simulations/c6_12/C11_Geogr
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geographynaturalhazardssim: SimDef = {
     id: 'v3w_c11_geographynaturalhazardssim',
-    title: 'Natural Hazards',
+    title: 'Natural Hazards vs Natural Disasters: Distinction and Classification',
     subtitle: 'This node covers the conceptual distinction between hazard and disaster, the UNISDR/UNDRR.',
     classLevel: 11, subject: 'geography', topic: 'Natural Hazards vs Natural Disasters: Distinction and Classification',
     chapters: [],
     nodeIds: ['c11_geo_cbse_11_001', 'c11_geo_cbse_11_008', 'c11_geo_cbse_03_009', 'c11_geo_cbse_06_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Begin with a real-world observation: show two photographs — one of the 2001 Bhuj earthquake devastation.', goal: 'Master Natural Hazards.' },
+    scenario: { role: 'a class 11 learner', intro: 'Begin with a real-world observation: show two photographs — one of the 2001 Bhuj earthquake devastation.', goal: 'Master Natural Hazards vs Natural Disasters: Distinction and Classification.' },
     discovery: {
         question: 'The 2004 Indian Ocean tsunami was triggered by a megathrust earthquake off Sumatra.',
         options: ['Primary hazard: geophysical (earthquake)', 'geophysical', 'natural disaster'],
@@ -62,13 +62,13 @@ export const w_c11_geographynaturalhazardssim: SimDef = {
             { text: 'Conclude: fissure eruption in an intraplate hotspot setting.', faded: true, blankAnswer: 'Fissure eruption; intraplate hotspot (Réunion plume).' }
             ] } },
         { type: 'dissect', nodeId: 'c11_geo_cbse_11_008', title: 'Identify each idea',
-          dissect: { specimen: 'Natural Hazards', spots: [
+          dissect: { specimen: 'Natural Hazards vs Natural Disasters: Distinction and Classification', spots: [
             { id: 's1', label: 'A natural hazard is a', prompt: 'Which idea is this? — A natural hazard is a natural process or phenomenon (e.g., earthquake, flood, cyclone).', answer: 'A natural hazard is a', options: ['A natural hazard is a', 'Disaster management is the systematic', 'Volcanism is the process by'] },
             { id: 's2', label: 'Disaster management is the systematic', prompt: 'Which idea is this? — Disaster management is the systematic process of planning, organizing, and implementing.', answer: 'Disaster management is the systematic', options: ['Disaster management is the systematic', 'A natural hazard is a', 'Volcanism is the process by'] },
             { id: 's3', label: 'Volcanism is the process by', prompt: 'Which idea is this? — Volcanism is the process by which molten rock (magma), gases, and solid fragments from.', answer: 'Volcanism is the process by', options: ['Volcanism is the process by', 'A natural hazard is a', 'Disaster management is the systematic'] }
           ] } }
     ],
-    explore: { component: C11_GeographyNaturalHazardsSim, prompt: 'Explore the interactive — Natural Hazards' },
+    explore: { component: C11_GeographyNaturalHazardsSim, prompt: 'Explore the interactive — Natural Hazards vs Natural Disasters: Distinction and Classification' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_11_001', difficulty: 'standard',
           question: 'A natural hazard is a natural process or phenomenon (e.g., earthquake, flood,.',

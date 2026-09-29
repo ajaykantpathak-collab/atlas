@@ -1,5 +1,6 @@
 /** GENERATED — wrapped masters class 12. Rebuilt by tools/wrap_masters.mjs. */
 import type { SimDef } from '../engine/types';
+import { w_c12_chemistrychemicalkineticssim } from './v3w/C12_ChemistryChemicalKineticsSim';
 import { w_c12_biologydnahelixsim } from './v3w/C12_BiologyDNAHelixSim';
 import { w_c12_biologyproteinstructuresim } from './v3w/C12_BiologyProteinStructureSim';
 import { w_c12_mathsdefiniteintegralriemannsim } from './v3w/C12_MathsDefiniteIntegralRiemannSim';
@@ -20,6 +21,7 @@ import { w_c12_physicsrutherfordscatteringsim } from './v3w/C12_PhysicsRutherfor
 import { w_c12_physicsyoungdoubleslitsim } from './v3w/C12_PhysicsYoungDoubleSlitSim';
 
 export const CLASS12_V3W_SIMS: SimDef[] = [
+    w_c12_chemistrychemicalkineticssim,
     w_c12_biologydnahelixsim,
     w_c12_biologyproteinstructuresim,
     w_c12_mathsdefiniteintegralriemannsim,

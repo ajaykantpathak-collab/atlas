@@ -579,7 +579,7 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Python's Character Set Defines The",
+    "title": "Python's Character Set Defines The Valid",
     "text": "Python's character set defines the valid Unicode characters (letters, digits, symbols, whitespace) that can appear in source code; tokens are the smallest syntactic units (keywords, identifiers, literals, operators, punctuators) formed from these characters;",
     "emoji": "🗂️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -603,7 +603,7 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "In Python, Data Types Classify The",
+    "title": "In Python, Data Types Classify",
     "text": "In Python, data types classify the kind of value a variable holds, determining the operations allowed and the memory representation. The five fundamental built-in data types are int (integer numbers of unlimited precision), float (floating-point numbers with",
     "emoji": "🗂️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1173,13 +1173,13 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Relational Operators In Python (==, !=",
+    "title": "Relational Operators In Python",
     "text": "Relational operators in Python (==, !=, >, <, >=, <=) compare two operands and evaluate to a Boolean value (True or False). Boolean expressions combine relational expressions using logical operators (and, or, not) following precedence rules: not > and > or,",
     "emoji": "🗂️",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "If Statement",
+    "title": "The If Statement Is a Conditional",
     "text": "The if statement is a conditional control structure that executes a block of indented statements only when the specified Boolean condition evaluates to True; if the condition evaluates to False, the block is skipped entirely and execution continues with the",
     "emoji": "🗂️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1209,7 +1209,7 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "While Loop",
+    "title": "A While Loop Is An Entry-controlled",
     "text": "A while loop is an entry-controlled iteration construct that repeatedly executes a block of statements as long as a specified boolean condition evaluates to True; the condition is tested before each iteration, and the loop terminates immediately when the",
     "emoji": "🗂️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1227,13 +1227,13 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Break Statement Immediately Terminates The",
+    "title": "break and continue Statements in Loops",
     "text": "The break statement immediately terminates the innermost loop it is placed in, transferring control to the first statement after the loop; the continue statement skips the remaining statements in the current iteration of the innermost loop and proceeds",
     "emoji": "🗂️",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Infinite Loop Occurs When a",
+    "title": "Infinite Loop Occurs When",
     "text": "An infinite loop occurs when a loop's termination condition never becomes false due to missing or incorrect update of the loop control variable, causing the program to execute indefinitely.",
     "emoji": "🗂️",
     "bgColor": "from-violet-400 to-purple-500"

@@ -159,7 +159,11 @@ export const c11_hs_ch04_p2: SimDef = {
           hint: 'Review the three dimensions of time (work time, non-work time, rest and leisure time) and.',
           misconception: 'Students believe effective time management means creating a rigid, minute-by-minute schedule that maximizes study hours.',
           parts: [
-                { id: 'a', prompt: 'Compare two time plans for a Sunday: Plan X — 10 hours continuous study with 30 min lunch break; Plan Y — 4 study blocks of 90 min each separated by 30 min.', answer: 'Plan Y is superior',
+                { id: 'a', prompt: 'A student\'s peak productivity is 6:00–9:00 AM and 7:00–9:00 PM. She has school 7:00 AM–1:00 PM, tuition 3:00–5:00 PM, and wants 8 hours sleep.', answer: 'Block fixed commitments: school 7–13, tuition 15–17, sleep 22–6 (8 hrs)',
+                  options: ['Block fixed commitments: school 7–13, tuition 15–17, sleep 22–6 (8 hrs)', 'wasted'],
+                  hint: 'Review the three dimensions of time (work time, non-work time, rest and leisure time) and the.',
+                  misconception: 'Students believe effective time management means creating a rigid, minute-by-minute schedule that maximizes study hours and minimizes.' },
+                { id: 'b', prompt: 'Compare two time plans for a Sunday: Plan X — 10 hours continuous study with 30 min lunch break; Plan Y — 4 study blocks of 90 min each separated by 30 min.', answer: 'Plan Y is superior',
                   options: ['Plan Y is superior', 'more hours = better', 'wasted'],
                   hint: 'Review the three dimensions of time (work time, non-work time, rest and leisure time) and the.',
                   misconception: 'Students believe effective time management means creating a rigid, minute-by-minute schedule that maximizes study hours and minimizes.' }

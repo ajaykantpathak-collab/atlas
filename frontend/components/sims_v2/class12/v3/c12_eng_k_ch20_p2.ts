@@ -19,43 +19,43 @@ export const c12_eng_k_ch20_p2: SimDef = {
         hook: 'Tagore rewrote a crude legend of magic and lust into \'a psychological drama of intense spiritual conflict.\' Prakriti — named for nature\'s raw life-force — gets her humanity in Act I; Act II is the danger: freedom that hasn\'t learned to love without grasping. Self-humiliation, he wrote, is a sin worse than self-murder.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the subordinate ideas or motifs that run alongside the primary theme in a literary work, enriching the narrative by exploring complementary aspects of human experience, society.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'s devotion but from selfless love that respects the other\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_20_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Stage the collision: weigh the earth-spell against the monk\'s sadhana, track how gratitude curdles into possession, and judge who pays the price of a consciousness that overreached.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_20_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are watching a play where the main story is about a girl breaking caste barriers, but you notice other threads: a mother\'s sacrifice, a monk\'s.',
+          caseStudy: { intro: 'Look beneath the main theme of \'s devotion but from selfless love that respects the other\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is a secondary theme in literature, and how does it differ from the primary theme?', options: [
                 { text: 'A secondary theme is a subordinate idea that supports or complements the primary theme,', outcome: 'A secondary theme is a subordinate idea that supports or complements the primary theme, exploring.' },
                 { text: 'secondary themes are just \'subplots\' or minor stories', outcome: 'Not quite — Students often think secondary themes are just \'subplots\' or minor stories.', reveals: 'secondary-themes-are-just-subplots' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_20_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Think of a time you described a heartbreak not as "I was sad" but as "my chest was a hollow cave where wind howled." That instinct — using concrete sensory.',
+          caseStudy: { intro: 'Find the lines in \'s devotion but from selfless love that respects the other\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "imagery" and "metaphor" in your own words, and give one example of each from *Chandalika* Act I.', options: [
                 { text: 'Imagery: language appealing to senses (e.g., "the very crows on the amloki branches are', outcome: 'Imagery: language appealing to senses (e.g., "the very crows on the amloki branches are gasping for.' },
                 { text: 'imagery is just pictures', outcome: 'Not quite — Students often treat imagery as "descriptive writing" and metaphor as "fancy comparison," missing.', reveals: 'students-often-treat-imagery-as' },
                 { text: 'Give me water', outcome: 'Not quite — Students often treat imagery as "descriptive writing" and metaphor as "fancy comparison," missing.', reveals: 'students-often-treat-imagery-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_20_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are watching a scene where Prakriti, an “untouchable” girl, finally feels worthy because a monk accepts water from her hands — yet that same.',
+          caseStudy: { intro: 'Look in \'s devotion but from selfless love that respects the other\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define **situational irony** and give one example from *Chandalika* Act I where the outcome contradicts the character’s intention.', options: [
                 { text: 'Situational irony occurs when actions produce an outcome opposite to what was intended', outcome: 'Situational irony occurs when actions produce an outcome opposite to what was intended.' },
                 { text: 'bad luck', outcome: 'Not quite — Students often treat irony as synonymous with “unfortunate coincidence” (e.g., “It’s ironic that.', reveals: 'students-often-treat-irony-as' },
                 { text: 'coincidence', outcome: 'Not quite — Students often treat irony as synonymous with “unfortunate coincidence” (e.g., “It’s ironic that.', reveals: 'students-often-treat-irony-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_20_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are a director rehearsing *Chandalika*: you notice Prakriti\'s lines start with hesitant questions ("What call is that?") but turn into fierce.',
+          caseStudy: { intro: 'Read \'s devotion but from selfless love that respects the other\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the sentence type of Prakriti\'s line: "Give me water, give me water." (Act I) Is it declarative, interrogative, imperative,.', options: [
                 { text: 'Imperative', outcome: 'Imperative. The line is a direct command/request addressed to the monk, repeated for emotional.' },
                 { text: 'repetition makes it a statement rather than a persistent demand', outcome: 'Not quite — Students treat grammar analysis as labeling parts of speech (noun, verb, tense) rather than.', reveals: 'students-treat-grammar-analysis-as' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_20_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and the first comprehension question asks: "Why does Prakriti say her caste was drowned in the water she gave Ananda?".',
+          caseStudy: { intro: 'Answer \'s devotion but from selfless love that respects the other\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify whether the following question is literal or inferential: "What does Prakriti\'s mother fear will happen if she works a spell.', options: [
                 { text: 'This is a **literal** question', outcome: 'This is a **literal** question because the answer is directly stated in the text: Mother says, "I.' },
                 { text: 'inference', outcome: 'Not quite — Students often treat inferential questions as "guessing games" and write vague responses like "It.', reveals: 'students-often-treat-inferential-questions' },
@@ -75,21 +75,21 @@ export const c12_eng_k_ch20_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_007', difficulty: 'standard',
-          question: 'Secondary themes are the subordinate ideas or motifs that run alongside the.',
+          question: 'Secondary themes in \'s devotion but from selfless love that respects the other\'.',
           hint: 'Review the primary theme node (006) and the Class 11 secondary theme nodes.',
           misconception: 'Students often think secondary themes are just \'subplots\' or minor stories.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are the subordinate ideas or motifs that run alongside the primary theme',
-                  options: ['Secondary themes are the subordinate ideas or motifs that run alongside the primary theme', '"Before You Read: Context and Background" provides the essential historical, social,', 'Plot is the sequence of causally linked events that form the story of a drama', 'Setting in drama refers to the time, place, and social environment where the action'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes in \'s devotion but from selfless love that respects the other\'',
+                  options: ['Secondary themes in \'s devotion but from selfless love that respects the other\'', '\'s devotion but from selfless love that respects the other\' (Kaleidoscope, ch', 'The plot/narrative arc of \'s devotion but from selfless love that respects the other\'', 'The setting of \'s devotion but from selfless love that respects the other\''],
                   hint: 'Review the primary theme node (006) and the Class 11 secondary theme nodes (c11_eng_h_cbse_01_007.',
                   misconception: 'Students often think secondary themes are just \'subplots\' or minor stories.' }
           ],
-            remediations: { 'secondary-themes-are-just-subplots': { steps: ['If the student cannot distinguish secondary themes, have them re-read Act I focusing only on the mother\'s speeches.', 'Ask: \'What concerns does the mother voice that are not Prakriti\'s main desire for Ananda?\' List them (caste purity.', 'Then map each to a secondary theme.', 'Next, re-do Diagnostic 4 with this list.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'secondary-themes-are-just-subplots': { steps: ['If the student cannot distinguish secondary themes, have them re-read Act I focusing only on the mother\'s speeches.', 'Ask: \'What concerns does the mother voice that are not Prakriti\'s main desire for Ananda?\' List them (caste purity.', 'Then map each to a secondary theme.', 'Next, re-do Diagnostic 4 with this list.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_007', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -100,9 +100,9 @@ export const c12_eng_k_ch20_p2: SimDef = {
                   hint: 'Review the primary theme node (006) and the Class 11 secondary theme nodes (c11_eng_h_cbse_01_007.',
                   misconception: 'Students often think secondary themes are just \'subplots\' or minor stories.' }
           ],
-            remediations: { 'secondary-themes-are-just-subplots': { steps: ['If the student cannot distinguish secondary themes, have them re-read Act I focusing only on the mother\'s speeches.', 'Ask: \'What concerns does the mother voice that are not Prakriti\'s main desire for Ananda?\' List them (caste purity.', 'Then map each to a secondary theme.', 'Next, re-do Diagnostic 4 with this list.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'secondary-themes-are-just-subplots': { steps: ['If the student cannot distinguish secondary themes, have them re-read Act I focusing only on the mother\'s speeches.', 'Ask: \'What concerns does the mother voice that are not Prakriti\'s main desire for Ananda?\' List them (caste purity.', 'Then map each to a secondary theme.', 'Next, re-do Diagnostic 4 with this list.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'s devotion but from selfless love that respects the other\' — the.',
           hint: 'If unable to separate sensory imagery from metaphor, revisit Class 11 node.',
           misconception: 'Students often treat imagery as "descriptive writing" and metaphor as "fancy comparison," missing that in *Chandalika*.',
           parts: [
@@ -111,9 +111,9 @@ export const c12_eng_k_ch20_p2: SimDef = {
                   hint: 'If unable to separate sensory imagery from metaphor, revisit Class 11 node c11_eng_h_cbse_01_008.',
                   misconception: 'Students often treat imagery as "descriptive writing" and metaphor as "fancy comparison," missing that in *Chandalika* both are structural.' }
           ],
-            remediations: { 'students-often-treat-imagery-as': { steps: ['Re-read Act I, highlighting every sensory word in three colours: heat/dust (oppression), water/coolness (liberation).', 'List the five explicit metaphors Prakriti speaks (e.g., "flower sprung from poison-plant," "Ganges mingles with Jumna").', 'For each, write: tenor (subject), vehicle (image), and thematic function.', 'Re-attempt Diagnostic Questions 3 and 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-imagery-as': { steps: ['Re-read Act I, highlighting every sensory word in three colours: heat/dust (oppression), water/coolness (liberation).', 'List the five explicit metaphors Prakriti speaks (e.g., "flower sprung from poison-plant," "Ganges mingles with Jumna").', 'For each, write: tenor (subject), vehicle (image), and thematic function.', 'Re-attempt Diagnostic Questions 3 and 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_009', difficulty: 'standard',
-          question: 'Irony in drama is a contrast between expectation and reality, often revealing.',
+          question: 'Irony and paradox in \'s devotion but from selfless love that respects the.',
           hint: 'If stuck, review the “Imagery and Metaphor” worked examples in c12_eng_k_cbse_20_008.',
           misconception: 'Students often treat irony as synonymous with “unfortunate coincidence” (e.g., “It’s ironic that Mother dies”) and.',
           parts: [
@@ -122,9 +122,9 @@ export const c12_eng_k_ch20_p2: SimDef = {
                   hint: 'If stuck, review the “Imagery and Metaphor” worked examples in c12_eng_k_cbse_20_008 to practice.',
                   misconception: 'Students often treat irony as synonymous with “unfortunate coincidence” (e.g., “It’s ironic that Mother dies”) and symbolism as a simple.' }
           ],
-            remediations: { 'students-often-treat-irony-as': { steps: ['Re-read Act I focusing only on Prakriti’s speeches: highlight every phrase where she describes water, fire, or her “new.', 'Re-read Act II’s mirror sequences: note what the mirror *shows* vs.', 'what Prakriti *says* she sees.', 'Use the table below to map each symbol’s Act I meaning vs.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-irony-as': { steps: ['Re-read Act I focusing only on Prakriti’s speeches: highlight every phrase where she describes water, fire, or her “new.', 'Re-read Act II’s mirror sequences: note what the mirror *shows* vs.', 'what Prakriti *says* she sees.', 'Use the table below to map each symbol’s Act I meaning vs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_010', difficulty: 'standard',
-          question: 'Vocabulary in Context refers to the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'s devotion but from selfless love that respects the other\'.',
           hint: 'If stuck, return to c12_eng_k_cbse_20_002 (Plot) and map the top 10 recurring nouns/verbs.',
           misconception: 'Students often treat vocabulary questions as "give the dictionary meaning" tasks.',
           parts: [
@@ -133,9 +133,9 @@ export const c12_eng_k_ch20_p2: SimDef = {
                   hint: 'If stuck, return to c12_eng_k_cbse_20_002 (Plot) and map the top 10 recurring nouns/verbs across.',
                   misconception: 'Students often treat vocabulary questions as "give the dictionary meaning" tasks.' }
           ],
-            remediations: { 'students-often-treat-vocabulary-questions': { steps: ['If a student cannot move beyond dictionary definitions: (1) Have them re-read Act I, highlighting every occurrence.', '(2) For each, write two columns: "Literal Meaning" vs.', '"What the Character *Means*." (3) Practice one 100-word answer: "How does the meaning of \'chandalini\' change from.', 'This builds the habit of tracking semantic shift — a skill tested in both board long-answers and CUET critical.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-vocabulary-questions': { steps: ['If a student cannot move beyond dictionary definitions: (1) Have them re-read Act I, highlighting every occurrence.', '(2) For each, write two columns: "Literal Meaning" vs.', '"What the Character *Means*." (3) Practice one 100-word answer: "How does the meaning of \'chandalini\' change from.', 'This builds the habit of tracking semantic shift — a skill tested in both board long-answers and CUET critical.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the systematic analysis.',
+          question: 'Language and style in \'s devotion but from selfless love that respects the.',
           hint: 'Review c6_english_u4_038 (Sentence Structure and Types of Sentences) with practice.',
           misconception: 'Students treat grammar analysis as labeling parts of speech (noun, verb, tense) rather than investigating how syntactic.',
           parts: [
@@ -152,9 +152,9 @@ export const c12_eng_k_ch20_p2: SimDef = {
                   hint: 'Review c6_english_u4_038 (Sentence Structure and Types of Sentences) with practice exercises.',
                   misconception: 'Students treat grammar analysis as labeling parts of speech (noun, verb, tense) rather than investigating how syntactic choices *perform*.' }
           ],
-            remediations: { 'students-treat-grammar-analysis-as': { steps: ['Revisit c12_eng_k_cbse_20_010 (Vocabulary) to recall key words like \'spell\', \'chant\', \'caste\'.', 'Re-read Act I focusing only on punctuation marks — highlight every ?, !, .', 'Complete a table: Speaker | Sentence Type | Frequency | Thematic Implication.', 'Write one PEEL paragraph using the table.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-grammar-analysis-as': { steps: ['Revisit c12_eng_k_cbse_20_010 (Vocabulary) to recall key words like \'spell\', \'chant\', \'caste\'.', 'Re-read Act I focusing only on punctuation marks — highlight every ?, !, .', 'Complete a table: Speaker | Sentence Type | Frequency | Thematic Implication.', 'Write one PEEL paragraph using the table.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require students to retrieve information.',
+          question: 'Literal comprehension of \'s devotion but from selfless love that respects the.',
           hint: 'If stuck, re-read Act I focusing on Prakriti\'s dialogue with Mother — highlight every.',
           misconception: 'Students often treat inferential questions as "guessing games" and write vague responses like "It shows she is sad".',
           parts: [
@@ -167,7 +167,7 @@ export const c12_eng_k_ch20_p2: SimDef = {
                   hint: 'If stuck, re-read Act I focusing on Prakriti\'s dialogue with Mother — highlight every line where.',
                   misconception: 'Students often treat inferential questions as "guessing games" and write vague responses like "It shows she is sad" without anchoring.' }
           ],
-            remediations: { 'students-often-treat-inferential-questions': { steps: ['Revisit **c12_eng_k_cbse_20_002** (Plot and Narrative Structure) to re-familiarise with the sequence of events.', 'Re-read **c12_eng_k_cbse_20_004** and **c12_eng_k_cbse_20_005** (Character Analyses) to recall character motivations.', 'Practice the "evidence → inference" template on five literal questions from the NCERT "Thinking about the Play".', 'Self-check: For each inferential answer, highlight the textual evidence in yellow and the logical connector in green.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-inferential-questions': { steps: ['Revisit **c12_eng_k_cbse_20_002** (Plot and Narrative Structure) to re-familiarise with the sequence of events.', 'Re-read **c12_eng_k_cbse_20_004** and **c12_eng_k_cbse_20_005** (Character Analyses) to recall character motivations.', 'Practice the "evidence → inference" template on five literal questions from the NCERT "Thinking about the Play".', 'Self-check: For each inferential answer, highlight the textual evidence in yellow and the logical connector in green.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

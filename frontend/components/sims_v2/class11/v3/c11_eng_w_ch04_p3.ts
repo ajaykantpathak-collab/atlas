@@ -19,7 +19,7 @@ export const c11_eng_w_ch04_p3: SimDef = {
         hook: 'The story is a double helix — Watson chases the whimsical fake plot while Holmes reads the real one in an American spelling and a frayed coat.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis is the disciplined process of evaluating a text\'s deeper structures—such as narrative strategy, character psychology, thematic coherence, and authorial.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Adventure of the Three Garridebs\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_04_013', title: 'Your mission',
@@ -29,20 +29,20 @@ export const c11_eng_w_ch04_p3: SimDef = {
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_04_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you are a forensic auditor examining a financial statement: the numbers (plot events) are correct, but you must detect the *intent* behind the.',
+          caseStudy: { intro: 'Analyse \'The Adventure of the Three Garridebs\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'Define "dramatic irony" as it operates in the scene where John Garrideb (Killer Evans) presents the advertisement for Howard Garrideb.', options: [
                 { text: 'Dramatic irony occurs when the audience possesses knowledge that a character lacks,', outcome: 'Dramatic irony occurs when the audience possesses knowledge that a character lacks, creating.' },
                 { text: 'It\'s ironic because the ad has American spellings', outcome: 'Not quite — Students equate "critical analysis" with "finding faults" or "expressing personal opinions.".', reveals: 'students-equate-critical-analysis-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_04_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you sit in the exam hall and see a question: "How does Conan Doyle use the \'three Garridebs\' ruse to reveal Holmes\'s deductive brilliance and the.',
+          caseStudy: { intro: 'For written answers on \'The Adventure of the Three Garridebs\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'Define the PEEL structure for writing a literature answer and state the purpose of each component.', options: [
                 { text: 'PEEL stands for Point (topic sentence answering the question), Evidence (textual', outcome: 'PEEL stands for Point (topic sentence answering the question), Evidence (textual detail/quote).' },
                 { text: 'PEEL means writing a paragraph with a quote', outcome: 'Not quite — Students believe "writing a literature answer" means retelling the story in their own words.', reveals: 'writing-a-literature-answer-means' },
                 { text: 'writing a literature answer', outcome: 'Not quite — Students believe "writing a literature answer" means retelling the story in their own words.', reveals: 'writing-a-literature-answer-means' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_04_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine your book club is meeting to discuss a Sherlock Holmes story where the detective gets shot protecting his friend.',
+          caseStudy: { intro: 'Talk through \'The Adventure of the Three Garridebs\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'List the three discussion topics given in the NCERT textbook under "Talking About the Text" for "The Adventure of the Three Garridebs".', options: [
                 { text: 'The three topics are: (1) The Holmes-Watson relationship as revealed by the "cold mask"', outcome: 'The three topics are: (1) The Holmes-Watson relationship as revealed by the "cold mask" quote, (2).' },
                 { text: 'comprehension questions', outcome: 'Not quite — Students believe a literary discussion is a series of individual speeches where each person states.', reveals: 'a-literary-discussion-is-a' }
@@ -66,18 +66,18 @@ export const c11_eng_w_ch04_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis is the disciplined process of evaluating.',
+          question: 'Critical thinking on \'The Adventure of the Three Garridebs\' — analysing the.',
           hint: 'If stuck, return to node c11_eng_w_cbse_04_012 and practice converting three inferential.',
           misconception: 'Students equate "critical analysis" with "finding faults" or "expressing personal opinions." In this story, they often.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis is the disciplined process of evaluating a text\'s',
-                  options: ['Critical thinking in literary analysis is the disciplined process of evaluating a text\'s', '"Before You Read: Context and Background" provides the essential historical, literary,', 'Plot and narrative structure refer to the organized sequence of events in a story and the', 'Setting is the specific time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'The Adventure of the Three Garridebs\'',
+                  options: ['Critical thinking on \'The Adventure of the Three Garridebs\'', '\'The Adventure of the Three Garridebs\' (Woven Words, ch', 'The plot/narrative arc of \'The Adventure of the Three Garridebs\'', 'The setting of \'The Adventure of the Three Garridebs\''],
                   hint: 'If stuck, return to node c11_eng_w_cbse_04_012 and practice converting three inferential answers.',
                   misconception: 'Students equate "critical analysis" with "finding faults" or "expressing personal opinions." In this story, they often write: "Holmes was.' }
           ],
             remediations: { 'students-equate-critical-analysis-with': { steps: ['Have the student list three "opinions" they hold about the story (e.g., "Evans is evil," "Holmes is brilliant," "The.', 'For each, ask: "What specific textual pattern (repeated image, structural parallel, lexical choice) *forces* this.', 'Replace the opinion with a claim about *authorial construction*: "Conan Doyle characterizes Evans through..." 4.', 'Practice with a single paragraph: identify the technique, quote the evidence, explain the effect.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter refers to the ability to compose.',
+          question: 'Writing skills from \'The Adventure of the Three Garridebs\' — using the text.',
           hint: 'If stuck, review c11_eng_w_cbse_04_013 (Critical Thinking) to generate interpretive.',
           misconception: 'Students believe "writing a literature answer" means retelling the story in their own words.',
           parts: [
@@ -92,12 +92,12 @@ export const c11_eng_w_ch04_p3: SimDef = {
           ],
             remediations: { 'writing-a-literature-answer-means': { steps: ['Show the student a side-by-side comparison: a 2-mark narrative summary vs a 6-mark PEEL answer on the same question.', 'Highlight the four PEEL sentences in the strong answer with coloured pens (Point=blue, Evidence=green.', 'Give them a "PEEL checklist" bookmark: Does my first sentence answer the question?', 'Do I explain the quote\'s effect?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_04_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'The Adventure of the Three Garridebs\' — speaking and.',
           hint: 'Review the \'Critical Thinking: Analysis and Interpretation\' node (c11_eng_w_cbse_04_013).',
           misconception: 'Students believe a literary discussion is a series of individual speeches where each person states their opinion.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Speaking and Listening: Discussion Points refers to the structured oral communication',
-                  options: ['Speaking and Listening: Discussion Points refers to the structured oral communication', '"Before You Read: Context and Background" provides the essential historical, literary,', 'Plot and narrative structure refer to the organized sequence of events in a story and the', 'Setting is the specific time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Discussion points on \'The Adventure of the Three Garridebs\'',
+                  options: ['Discussion points on \'The Adventure of the Three Garridebs\'', '\'The Adventure of the Three Garridebs\' (Woven Words, ch', 'The plot/narrative arc of \'The Adventure of the Three Garridebs\'', 'The setting of \'The Adventure of the Three Garridebs\''],
                   hint: 'Review the \'Critical Thinking: Analysis and Interpretation\' node (c11_eng_w_cbse_04_013) for.',
                   misconception: 'Students believe a literary discussion is a series of individual speeches where each person states their opinion.' }
           ],

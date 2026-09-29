@@ -72,7 +72,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Muhammad Bin Tughlaq (reign 1325–1351",
+    "title": "Muhammad Bin Tughlaq",
     "text": "Muhammad bin Tughlaq (reign 1325–1351 CE) was a ruler of the Tughlaq Dynasty of the Delhi Sultanate who is famous for introducing highly ambitious, innovative administrative and economic experiments—such as shifting his capital to Daulatabad and launching a",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -96,7 +96,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "First Battle Of Panipat (21",
+    "title": "First Battle Of Panipat",
     "text": "The First Battle of Panipat (21 April 1526) was a landmark military conflict fought near Panipat (modern Haryana) between the invading Central Asian ruler Zahir-ud-din Muhammad Babur and Ibrahim Lodi, the last Sultan of Delhi.",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -515,16 +515,13 @@ export const C8_HIST_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_hist_ch02",
-  "title": "Term 'Marathas' Historically Designates The",
+  "title": "Term 'Marathas' Historically Designates",
   "subtitle": "History · Chapter 2",
   "classLevel": 8,
   "mode": "senior",
   "subject": "history",
-  "topic": "Term 'Marathas' Historically Designates The",
-  "chapters": [
-   "History Ch2: Term 'Marathas' Historically Designates The",
-   "History Ch3: Term 'Marathas' Historically Designates The"
-  ],
+  "topic": "Term 'Marathas' Historically Designates",
+  "chapters": ["History Ch2: Term 'Marathas' Historically Designates", "History Ch3: Term 'Marathas' Historically Designates"],
   "nodeIds": [
    "c8_hist_ch2_1",
    "c8_hist_ch2_2",
@@ -558,13 +555,13 @@ export const C8_HIST_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Term 'Marathas' Historically Designates The",
+    "title": "Term 'Marathas' Historically Designates",
     "text": "The term 'Marathas' historically designates the Marathi-speaking peasant-warrior population originating in the rugged Deccan plateau of Maharashtra, whose collective identity coalesced between the 13th and 17th centuries through common agrarian ties (Kunbi",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Yadava Dynasty (also Known As",
+    "title": "Yadava Dynasty",
     "text": "The Yadava Dynasty (also known as the Seuna dynasty, c. 1187–1317 CE) was a major medieval South Asian power centered at Devagiri (modern Daulatabad in Maharashtra) that politically unified the Marathi-speaking region, established Marathi as an administrative",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -576,7 +573,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Chhatrapati Shivaji Maharaj Was The",
+    "title": "Chhatrapati Shivaji Maharaj",
     "text": "Chhatrapati Shivaji Maharaj (1630–1680) was the founder of the Maratha Empire in western India. Born at Shivneri Fort to Shahaji Bhonsle and Jijabai, his early life was shaped by his mother's moral teachings, training under Dadoji Konddeo, and the influence",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -588,7 +585,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Shivaji's Military Campaigns And",
+    "title": "Shivaji's Military Campaigns and Fort",
     "text": "Shivaji's military campaigns and fort-building strategy (mid-to-late 17th century) transformed the Western Ghats into a secure homeland (*Swarajya*) through the use of highly disciplined guerrilla warfare (*Ganimi Kava*) and a formidable network of over 300",
     "emoji": "🏛️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -612,7 +609,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Mughal-Maratha Wars Were a",
+    "title": "Mughal-Maratha Wars",
     "text": "The Mughal-Maratha Wars (1680–1707) were a series of intense military conflicts fought between Mughal Emperor Aurangzeb and the Maratha State in the Deccan plateau.",
     "emoji": "🏛️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1228,7 +1225,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Revolt Of 1857 Was a",
+    "title": "Revolt Of 1857",
     "text": "The Revolt of 1857 was a major, widespread uprising against British East India Company rule in India, occurring from May 1857 to June 1858, involving sepoys (Indian soldiers), peasants, landlords, and rulers across northern and central India, triggered by the",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1505,7 +1502,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Conservation Of Architectural Heritage In",
+    "title": "Conservation of Architectural Heritage",
     "text": "Conservation of architectural heritage in modern India refers to the post-1947 systematic efforts by the Indian state, archaeological institutions, and civil society to protect, preserve, and manage historic monuments and sites through legislation (Ancient",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"

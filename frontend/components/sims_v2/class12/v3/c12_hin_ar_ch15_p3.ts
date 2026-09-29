@@ -19,7 +19,7 @@ export const c12_hin_ar_ch15_p3: SimDef = {
         hook: 'His argument is structural, not just moral: liberty, equality, fraternity are non-negotiables, and \'dignity of labour\' means choosing work without caste prejudice. The essay\'s fire is autobiography turned into constitutional philosophy — lived reality forged into law.',
     },
     teaching: [
-        { title: 'श्रम वभिाजन और जाति-प्रथा और मेरी कल्पना का आदर्श समाज — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) इस संदर्भ में डॉ. आंबेडकर के निबंध के तर्कों की आंतरिक संगति, साक्ष्य-आधारित व्याख्या, और अंतर्निहित पूर्वाग्रहों की पहचान करने की बौद्धिक प्रक्रिया है, जिससे.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'श्रम वभिाजन और जाति-प्रथा और मेरी कल्पना का आदर्श समाज — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'जे फोह्क्तु वक्ज त्क्फ्र इज़फक्क\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_15_013', title: 'Your mission',
@@ -28,11 +28,13 @@ export const c12_hin_ar_ch15_p3: SimDef = {
         context: 'Argue alongside Ambedkar: link each childhood wound to its constitutional answer, test whether legal bans end discrimination, and apply \'dignity of labour\' to today\'s interview rooms.',
         labels: ['श्रम वभिाजन और जाति-प्रथा'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c12_hin_ar_cbse_15_014', title: 'Identify each idea',
-          dissect: { specimen: 'श्रम वभिाजन और जाति-प्रथा और मेरी कल्पना का आदर्श समाज · Part 3/3', spots: [
-            { id: 's1', label: '- -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल का अर्थ है — किसी दिए गए पाठ (गद्य/पद्य) के विशिष्ट अंशों, प्रसंगों.', answer: '- -', options: ['- -', '- - -'] },
-            { id: 's2', label: '- - -', prompt: 'Which idea is this? — \'श्रम विभाजन\' उत्पादन प्रक्रिया में कार्यों का विशेषीकरण है जिससे दक्षता बढ़ती है.', answer: '- - -', options: ['- - -', '- -'] }
-          ] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_15_014', title: 'श्रम वभिाजन और जाति-प्रथा और मेरी कल्पना का आदर्श समाज — लेखन कौशल: पाठ-आधारित',
+          caseStudy: { intro: '\'जे फोह्क्तु वक्ज त्क्फ्र इज़फक्क\' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।',
+            decisions: [{ prompt: 'What does the \'E\' in PEEL stand for, and what specific function does it serve in a board exam answer?', options: [
+                { text: 'The \'E\' stands for **Explanation**', outcome: 'The \'E\' stands for **Explanation** — it is the step where you interpret HOW the evidence supports.' },
+                { text: 'Example', outcome: 'Not quite — **"Good writing = flowery language and long quotes."** Students believe examiners reward.', reveals: 'good-writing-flowery-language-and' },
+                { text: 'Evidence', outcome: 'Not quite — **"Good writing = flowery language and long quotes."** Students believe examiners reward.', reveals: 'good-writing-flowery-language-and' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_15_013', title: 'Use it in the wild',
           caseStudy: { intro: 'In a debate, the opposing side argues: \'Caste is irrelevant now — admission should be purely on merit.\' Your turn to respond.',
             decisions: [{ prompt: 'How would Ambedkar\'s essay structure the rebuttal?', options: [
@@ -52,34 +54,42 @@ export const c12_hin_ar_ch15_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_15_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) इस संदर्भ में डॉ. आंबेडकर के निबंध के.',
+          question: '\'जे फोह्क्तु वक्ज त्क्फ्र इज़फक्क\' का आलोचनात्मक चिंतन — विश्लेषण करके.',
           hint: 'यदि टूलमिन मॉडल (दावा/साक्ष्य/वारंट) अस्पष्ट है → तुरंत **c11_hin_ar_cbse_15_013** (कक्षा.',
           misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि आंबेडकर का \'आदर्श समाज\' एक **यूटोपिया (दूर का सपना)** है जिसे वे \'अच्छी बातें\'.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) इस संदर्भ में डॉ',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) इस संदर्भ में डॉ', '**पृष्ठभूमि और रचनाकार परिचय** किसी पाठ के रचनाकालीन सामाजिक-राजनीतिक-सांस्कृतिक परिवेश', 'कथानक घटनाओं का तार्किक-कारणात्मक क्रम है जो रचना का कंकाल बनाता है; आख्यान-संरचना उन', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना का वह बाहरी ढांचा है जिसमें काल (समय), स्थान'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'जे फोह्क्तु वक्ज त्क्फ्र इज़फक्क\' का आलोचनात्मक चिंतन',
+                  options: ['\'जे फोह्क्तु वक्ज त्क्फ्र इज़फक्क\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'जे फोह्क्तु वक्ज त्क्फ्र इज़फक्क\' का कथानक', '\'जे फोह्क्तु वक्ज त्क्फ्र इज़फक्क\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि टूलमिन मॉडल (दावा/साक्ष्य/वारंट) अस्पष्ट है → तुरंत **c11_hin_ar_cbse_15_013** (कक्षा 11 आरोह.',
                   misconception: '**विशिष्ट भ्रम:** छात्र मानते हैं कि आंबेडकर का \'आदर्श समाज\' एक **यूटोपिया (दूर का सपना)** है जिसे वे \'अच्छी बातें\' कहकर सजाते हैं।.' }
           ],
             remediations: { 'practical-necessity': { steps: ['**पुनर्पाठ (Re-read):** पाठ के अंतिम 3 पैराग्राफ (आदर्श समाज पर) पढ़ें — चिह्नित करें: "Democracy is a mode.', '**तर्क-मानचित्र (Argument map) बनाएँ:** कागज पर खींचें: जाति → गतिहीनता → वर्ग-हित टकराव → लोकतंत्र विफल → आदर्श समाज.', '**तुलना-कार्य:** गांधी के \'हरिजन\' लेख (वर्णाश्रम बचाव) और आंबेडकर के \'एनिहिलेशन ऑफ कास्ट\' (खंडन) के **एक-एक पैरा**.', '**पुनः निदान:** उपरोक्त DIAGNOSTIC_QUESTION_4 और 5 फिर से हल करें — अब तर्क-चरण (Logical steps) गिनकर लिखें।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_15_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल का अर्थ है — किसी दिए गए पाठ (गद्य/पद्य) के विशिष्ट अंशों.',
-          hint: 'यदि फँस जाएँ तो **c12_hin_ar_cbse_15_006 (मुख्य विषय)** और **c12_hin_ar_cbse_15_009.',
-          misconception: '**विशिष्ट भ्रांति:** *"पाठ-आधारित उत्तर लिखने का अर्थ है पाठ का अनुवाद या सारांश लिख देना।"* **वास्तविकता:** बोर्ड.',
+          question: '\'जे फोह्क्तु वक्ज त्क्फ्र इज़फक्क\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर.',
+          hint: 'If evidence retrieval is slow: revisit c12_hin_ar_cbse_15_012 (Comprehension) and create.',
+          misconception: '**"Good writing = flowery language and long quotes."** Students believe examiners reward Sanskritized Hindi, poetic.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल का अर्थ है',
-                  options: ['पाठ-आधारित लेखन कौशल का अर्थ है', '**पृष्ठभूमि और रचनाकार परिचय** किसी पाठ के रचनाकालीन सामाजिक-राजनीतिक-सांस्कृतिक परिवेश', 'कथानक घटनाओं का तार्किक-कारणात्मक क्रम है जो रचना का कंकाल बनाता है; आख्यान-संरचना उन', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना का वह बाहरी ढांचा है जिसमें काल (समय), स्थान'],
-                  hint: 'यदि फँस जाएँ तो **c12_hin_ar_cbse_15_006 (मुख्य विषय)** और **c12_hin_ar_cbse_15_009.',
-                  misconception: '**विशिष्ट भ्रांति:** *"पाठ-आधारित उत्तर लिखने का अर्थ है पाठ का अनुवाद या सारांश लिख देना।"* **वास्तविकता:** बोर्ड परीक्षा में.' }
+                { id: 'a', prompt: 'What does the \'E\' in PEEL stand for, and what specific function does it serve in a board exam answer?', answer: 'The \'E\' stands for **Explanation**',
+                  options: ['The \'E\' stands for **Explanation**', 'Example', 'Evidence', 'lack of critical engagement'],
+                  hint: 'If evidence retrieval is slow: revisit c12_hin_ar_cbse_15_012 (Comprehension) and create a 2-column.',
+                  misconception: '**"Good writing = flowery language and long quotes."** Students believe examiners reward Sanskritized Hindi, poetic phrasing, and copying.' },
+                { id: 'b', prompt: 'A student writes: "Ambedkar believed in equality because he said \'all men are equal\' and he fought for Dalit rights.', answer: 'The answer has **Point** and **Evidence** but **no Explanation (E)**',
+                  options: ['The answer has **Point** and **Evidence** but **no Explanation (E)**', 'Good writing = flowery language and long quotes'],
+                  hint: 'If evidence retrieval is slow: revisit c12_hin_ar_cbse_15_012 (Comprehension) and create a 2-column.',
+                  misconception: '**"Good writing = flowery language and long quotes."** Students believe examiners reward Sanskritized Hindi, poetic phrasing, and copying.' },
+                { id: 'c', prompt: 'Analyze this student\'s opening sentence for a 150-word answer: "In the chapter \'Jeevan Darshan\', Dr.', answer: '**Penalties:** (1) **Vagueness penalty**',
+                  options: ['**Penalties:** (1) **Vagueness penalty**', 'Good writing = flowery language and long quotes'],
+                  hint: 'If evidence retrieval is slow: revisit c12_hin_ar_cbse_15_012 (Comprehension) and create a 2-column.',
+                  misconception: '**"Good writing = flowery language and long quotes."** Students believe examiners reward Sanskritized Hindi, poetic phrasing, and copying.' }
           ],
-            remediations: { 'text-evidenced': { steps: ['**चरण 1 — निदान:** विद्यार्थी से कहें कि वह अपना अंतिम लिखा उत्तर लाए और प्रत्येक पैराग्राफ के आगे **P, E, Ex, L** लेबल.', 'Evidence यह वाक्य लूँगा क्योंकि इसमें \'अमानवीय\' शब्द है...', 'Explanation में मैं बताऊँगा कि यह शब्द प्रतीकात्मक रूप से..."* **चरण 4 — पुनः निदान:** अगले सप्ताह समान पैटर्न का नया.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'good-writing-flowery-language-and': { steps: ['** Give them a 6-mark answer written in "student style" (long quotes, emotional language, no PEEL) and the *same.', '** Have them highlight every analytical verb in the strong version (e.g., "redefines," "operationalizes,".', '** Assign a 3-mark question daily for 5 days; require rough-work evidence-listing before writing.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_15_015', difficulty: 'standard',
-          question: '\'श्रम विभाजन\' उत्पादन प्रक्रिया में कार्यों का विशेषीकरण है जिससे दक्षता बढ़ती.',
+          question: '\'जे फोह्क्तु वक्ज त्क्फ्र इज़फक्क\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने.',
           hint: 'यदि फँसें तो **c12_hin_ar_cbse_15_006 (मुख्य विषय और संदेश)** पर लौटें — वहाँ लेखक के.',
           misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि \'श्रम विभाजन\' और \'जाति-प्रथा\' दोनों "काम बाँटने" के तरीके हैं — इसलिए दोनों में.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'श्रम विभाजन\' उत्पादन प्रक्रिया में कार्यों का विशेषीकरण है जिससे दक्षता बढ़ती है',
-                  options: ['\'श्रम विभाजन\' उत्पादन प्रक्रिया में कार्यों का विशेषीकरण है जिससे दक्षता बढ़ती है', '**पृष्ठभूमि और रचनाकार परिचय** किसी पाठ के रचनाकालीन सामाजिक-राजनीतिक-सांस्कृतिक परिवेश', 'कथानक घटनाओं का तार्किक-कारणात्मक क्रम है जो रचना का कंकाल बनाता है; आख्यान-संरचना उन', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना का वह बाहरी ढांचा है जिसमें काल (समय), स्थान'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'जे फोह्क्तु वक्ज त्क्फ्र इज़फक्क\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'जे फोह्क्तु वक्ज त्क्फ्र इज़फक्क\' पर वाचन-श्रवण और चर्चा-बिंदु', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'जे फोह्क्तु वक्ज त्क्फ्र इज़फक्क\' का कथानक', '\'जे फोह्क्तु वक्ज त्क्फ्र इज़फक्क\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फँसें तो **c12_hin_ar_cbse_15_006 (मुख्य विषय और संदेश)** पर लौटें — वहाँ लेखक के तर्कों का.',
                   misconception: '**विशिष्ट भ्रम:** छात्र समझते हैं कि \'श्रम विभाजन\' और \'जाति-प्रथा\' दोनों "काम बाँटने" के तरीके हैं — इसलिए दोनों में कोई खास फर्क नहीं।.' }
           ],

@@ -19,7 +19,7 @@ export const c12_eng_k_ch15_p1: SimDef = {
         hook: 'Woolf believed life is \'a luminous halo,\' not a chain of episodes — so stream of consciousness isn\'t first-person rambling but the deliberate music of a mind moving. The mark, the fire, the tree are just launchpads; the real action is thought itself.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'The "Before You Read: Context and Background" section provides essential biographical, historical, and literary information about Virginia Woolf and the modernist movement to prepare students for the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Mark on the Wall\' (Kaleidoscope, ch. 15) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_15_001', title: 'Your mission',
@@ -29,41 +29,41 @@ export const c12_eng_k_ch15_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_15_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine opening a story expecting a beginning, middle, and end, but instead finding a narrator staring at a wall, thinking about Shakespeare, snails, and the.',
+          caseStudy: { intro: 'Start with the author of \'The Mark on the Wall\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who was Virginia Woolf, and what literary group was she associated with?', options: [
                 { text: 'Virginia Woolf (1882–1941) was a British modernist novelist, essayist, and publisher,', outcome: 'Virginia Woolf (1882–1941) was a British modernist novelist, essayist, and publisher, central.' },
                 { text: 'Victorian novelist', outcome: 'Not quite — Students often think "context" means "summary of the story" or "list of facts about the author\'s.', reveals: 'context-means-summary-of-the' },
                 { text: 'Romantic poet', outcome: 'Not quite — Students often think "context" means "summary of the story" or "list of facts about the author\'s.', reveals: 'context-means-summary-of-the' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_15_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are sitting in an exam hall and the invigilator announces “Five minutes left.” Your mind instantly jumps: the ticking clock → your unfinished.',
+          caseStudy: { intro: 'Trace \'The Mark on the Wall\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the primary narrative technique Virginia Woolf uses in "The Mark on the Wall" to replace a conventional event‑based plot?', options: [
                 { text: 'The primary technique is stream‑of‑consciousness narration', outcome: 'The primary technique is stream‑of‑consciousness narration, which presents the continuous.' },
                 { text: 'first‑person narration', outcome: 'Not quite — Students often think “stream of consciousness” means “random, disorganized thoughts.” In Woolf.', reveals: 'stream-of-consciousness-means-random' },
                 { text: 'flashback', outcome: 'Not quite — Students often think “stream of consciousness” means “random, disorganized thoughts.” In Woolf.', reveals: 'stream-of-consciousness-means-random' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_15_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are sitting in a quiet room on a winter afternoon, staring at a small mark on the wall.',
+          caseStudy: { intro: 'Identify where and when \'The Mark on the Wall\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the primary physical setting of the essay "The Mark on the Wall" as described in the opening paragraph?', options: [
                 { text: 'The primary physical setting is a room in winter with a fire burning, a mantelpiece', outcome: 'The primary physical setting is a room in winter with a fire burning, a mantelpiece holding three.' },
                 { text: 'a garden', outcome: 'Not quite — Students often think "setting" in this essay is only the room and the mark, and "atmosphere".', reveals: 'setting-in-this-essay-is' },
                 { text: 'a train', outcome: 'Not quite — Students often think "setting" in this essay is only the room and the mark, and "atmosphere".', reveals: 'setting-in-this-essay-is' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_15_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you meet someone who, instead of answering "How are you?", describes the history of the teacup they\'re holding, the geometry of steam, and a childhood.',
+          caseStudy: { intro: 'Pick the central figure in \'The Mark on the Wall\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the narrative point of view used in "The Mark on the Wall," and how does it differ from a traditional third-person omniscient.', options: [
                 { text: 'The essay uses first-person stream-of-consciousness narration', outcome: 'The essay uses first-person stream-of-consciousness narration.' },
                 { text: 'third person limited', outcome: 'Not quite — Students often treat the narrator as Virginia Woolf\'s direct autobiography or as a generic "woman.', reveals: 'students-often-treat-the-narrator' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_15_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are sitting in an exam hall and the question asks: "How do the supporting characters in \'The Mark on the Wall\' reveal the narrator\'s state.',
+          caseStudy: { intro: 'Spot the secondary figures in \'The Mark on the Wall\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List three supporting characters (or figures) that appear in the narrator\'s thoughts in "The Mark on the Wall" and state one thing each.', options: [
                 { text: 'Correct answer: (1) The previous occupants of the house', outcome: 'Correct answer: (1) The previous occupants of the house — represent the transience of ownership and.' },
                 { text: 'the narrator', outcome: 'Not quite — Students often treat the supporting figures as "characters in a story" with independent existence.', reveals: 'students-often-treat-the-supporting' },
                 { text: 'the snail', outcome: 'Not quite — Students often treat the supporting figures as "characters in a story" with independent existence.', reveals: 'students-often-treat-the-supporting' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_15_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Have you ever stared at a tiny crack on the ceiling and found your mind drifting from a childhood memory to a historical fact to a philosophical question.',
+          caseStudy: { intro: 'Ask what \'The Mark on the Wall\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the primary theme of "The Mark on the Wall" as reflected in the narrator\'s shifting thoughts?', options: [
                 { text: 'The primary theme is the fluid, associative nature of human consciousness and the tension', outcome: 'The primary theme is the fluid, associative nature of human consciousness and the tension between.' },
                 { text: 'the theme is identifying a snail', outcome: 'Not quite — Students often think the primary theme is the mystery of the mark\'s identity (nail, rose-leaf.', reveals: 'the-primary-theme-is-the' },
@@ -88,7 +88,7 @@ export const c12_eng_k_ch15_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_15_001', difficulty: 'standard',
-          question: 'The "Before You Read: Context and Background" section provides essential.',
+          question: '\'The Mark on the Wall\' (Kaleidoscope, ch. 15) — the context and background.',
           hint: 'If stuck, review c11_eng_h_cbse_01_001: identify the difference between "Virginia Woolf.',
           misconception: 'Students often think "context" means "summary of the story" or "list of facts about the author\'s life." They memorize.',
           parts: [
@@ -102,8 +102,19 @@ export const c12_eng_k_ch15_p1: SimDef = {
                   misconception: 'Students often think "context" means "summary of the story" or "list of facts about the author\'s life." They memorize Woolf\'s dates and.' }
           ],
             remediations: { 'context-means-summary-of-the': { steps: ['**Revisit the blurb in the textbook (p.', '136):** Underline every claim about Woolf\'s *beliefs* (not facts).', '**Watch a 5-min video** on "Bloomsbury Group philosophy" (search "Bloomsbury Group modernism rejection Victorian").', '**Re-read the first two paragraphs of the essay** asking: *Which sentence shows Woolf practicing what the blurb.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
+        { type: 'subpart', nodeId: 'c12_eng_k_cbse_15_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often think "context" means "summary of the story" or "list of facts about the author\'s life." They memorize.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate this claim: "Knowing about the Bloomsbury Group\'s rejection of Victorian morality and aesthetics is essential to understanding \'The Mark on the.', answer: '**Position:** Essential, but not sufficient',
+                  options: ['**Position:** Essential, but not sufficient', 'Not essential — it\'s just a story about a mark', 'context', 'summary of the story'],
+                  hint: 'If stuck, review c11_eng_h_cbse_01_001: identify the difference between "Virginia Woolf was born.',
+                  misconception: 'Students often think "context" means "summary of the story" or "list of facts about the author\'s life." They memorize Woolf\'s dates and.' }
+          ],
+            remediations: { 'context-means-summary-of-the': { steps: ['**Revisit the blurb in the textbook (p.', '136):** Underline every claim about Woolf\'s *beliefs* (not facts).', '**Watch a 5-min video** on "Bloomsbury Group philosophy" (search "Bloomsbury Group modernism rejection Victorian").', '**Re-read the first two paragraphs of the essay** asking: *Which sentence shows Woolf practicing what the blurb.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_15_002', difficulty: 'standard',
-          question: 'In "The Mark on the Wall," plot refers not to a sequence of external events but.',
+          question: 'The plot/narrative arc of \'The Mark on the Wall\' — what happens, in what order.',
           hint: 'If the student cannot distinguish “events outside the character” from “events inside the.',
           misconception: 'Students often think “stream of consciousness” means “random, disorganized thoughts.” In Woolf, every leap has.',
           parts: [
@@ -114,7 +125,7 @@ export const c12_eng_k_ch15_p1: SimDef = {
           ],
             remediations: { 'stream-of-consciousness-means-random': { steps: ['Have the student re‑read only the first two pages and highlight every phrase that signals a shift (e.g., “But for that.', 'For each highlight, ask: “What sensory or verbal cue in the previous sentence pulled the mind here?” 3.', 'Draw a flowchart: Mark → nail → miniature → former occupants → lost possessions → tube‑ride metaphor → after‑life.', 'Assign a 5‑minute freewrite imitating the pattern (see Diagnostic Q6) and compare the student’s transitions to Woolf’s.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_15_003', difficulty: 'standard',
-          question: 'Setting and atmosphere in "The Mark on the Wall" refer to the physical.',
+          question: 'The setting of \'The Mark on the Wall\' — the place, time and atmosphere the text.',
           hint: 'If stuck, revisit c11_eng_h_cbse_01_003 (Setting and Atmosphere in Hornbill) and practice.',
           misconception: 'Students often think "setting" in this essay is only the room and the mark, and "atmosphere" is just the mood.',
           parts: [
@@ -125,7 +136,7 @@ export const c12_eng_k_ch15_p1: SimDef = {
           ],
             remediations: { 'setting-in-this-essay-is': { steps: ['If a student cannot distinguish physical setting from mental landscape, have them: (1) reread the first three.', '(2) Then highlight every sentence that moves away from the room (knights, former occupants, lost possessions.', '(3) Discuss how each mental leap is sparked by a physical detail.', '(4) Re-attempt Diagnostic Question 3.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_15_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a stream-of-consciousness essay.',
+          question: 'Character analysis in \'The Mark on the Wall\' — the central figure(s), their.',
           hint: 'If confused, revisit c11_eng_h_cbse_01_004 (Character Analysis: Protagonist in "The.',
           misconception: 'Students often treat the narrator as Virginia Woolf\'s direct autobiography or as a generic "woman thinking." The.',
           parts: [
@@ -140,7 +151,7 @@ export const c12_eng_k_ch15_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-the-narrator': { steps: ['Re-read the first three paragraphs of the essay aloud, marking every "I" statement.', 'List 10 distinct topics the mind visits (e.g., previous tenants, lost possessions, Shakespeare, antiquary).', 'For each, ask: "What does this reveal about the thinker\'s values/fears/desires?" 4.', 'Revisit c12_eng_k_cbse_15_002 (Plot/Narrative Structure) to confirm the non-linear structure.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_15_005', difficulty: 'standard',
-          question: 'Supporting characters in "The Mark on the Wall" are the figures — real.',
+          question: 'Supporting characters in \'The Mark on the Wall\' — the secondary figures who.',
           hint: 'If stuck, review the definition of stream-of-consciousness in c12_eng_k_cbse_15_002 (Plot.',
           misconception: 'Students often treat the supporting figures as "characters in a story" with independent existence, analyzing them for.',
           parts: [
@@ -150,24 +161,13 @@ export const c12_eng_k_ch15_p1: SimDef = {
                   misconception: 'Students often treat the supporting figures as "characters in a story" with independent existence, analyzing them for personality traits.' }
           ],
             remediations: { 'students-often-treat-the-supporting': { steps: ['If a student cannot distinguish mental projections from narrative characters, guide them through this 3-step.', '(2) For each figure, ask: "Does the narrator see/hear this person, or does she *invent* them?" (3) Rewrite one.', 'Then re-attempt Diagnostic Question 2.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
-        { type: 'subpart', nodeId: 'c12_eng_k_cbse_15_005', difficulty: 'advanced',
-          question: 'Prove it again — new questions.',
-          hint: 'Same idea, different angle.',
-          misconception: 'Students often treat the supporting figures as "characters in a story" with independent existence, analyzing them for.',
-          parts: [
-                { id: 'a', prompt: 'Evaluate the statement: "The final voice (\'I\'m going out to buy a newspaper...', answer: 'Correct answer: Challenge',
-                  options: ['Correct answer: Challenge', 'agrees reveals a plot-based reading habit'],
-                  hint: 'If stuck, review the definition of stream-of-consciousness in c12_eng_k_cbse_15_002 (Plot and.',
-                  misconception: 'Students often treat the supporting figures as "characters in a story" with independent existence, analyzing them for personality traits.' }
-          ],
-            remediations: { 'students-often-treat-the-supporting': { steps: ['If a student cannot distinguish mental projections from narrative characters, guide them through this 3-step.', '(2) For each figure, ask: "Does the narrator see/hear this person, or does she *invent* them?" (3) Rewrite one.', 'Then re-attempt Diagnostic Question 2.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_15_006', difficulty: 'standard',
-          question: 'The primary theme of "The Mark on the Wall" is the fluid, associative nature.',
+          question: 'The primary theme of \'The Mark on the Wall\' — the central idea the whole text.',
           hint: 'If stuck, review the definition of stream of consciousness in Class 11 Hornbill Chapter 1.',
           misconception: 'Students often think the primary theme is the mystery of the mark\'s identity (nail, rose-leaf, snail) and that the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of "The Mark on the Wall" is the fluid, associative nature of human',
-                  options: ['The primary theme of "The Mark on the Wall" is the fluid, associative nature of human', 'The "Before You Read: Context and Background" section provides essential biographical,', 'In "The Mark on the Wall," plot refers not to a sequence of external events but to the', 'Setting and atmosphere in "The Mark on the Wall" refer to the physical environment (a'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The primary theme of \'The Mark on the Wall\'',
+                  options: ['The primary theme of \'The Mark on the Wall\'', '\'The Mark on the Wall\' (Kaleidoscope, ch', 'The plot/narrative arc of \'The Mark on the Wall\'', 'The setting of \'The Mark on the Wall\''],
                   hint: 'If stuck, review the definition of stream of consciousness in Class 11 Hornbill Chapter 1 (The.',
                   misconception: 'Students often think the primary theme is the mystery of the mark\'s identity (nail, rose-leaf, snail) and that the essay is a puzzle to.' }
           ],

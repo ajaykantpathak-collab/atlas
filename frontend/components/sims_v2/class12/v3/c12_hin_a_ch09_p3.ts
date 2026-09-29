@@ -19,7 +19,7 @@ export const c12_hin_a_ch09_p3: SimDef = {
         hook: 'The two poems are one argument in two moods — private virah counting sleepless nights, then a public challenge daring the world to fault the guru. And the folk words aren\'t weakness: refined Braj deliberately fused with raw speech is craft, not compromise.',
     },
     teaching: [
-        { title: 'घनानंद — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें किसी पद्यांश या गद्यांश के शब्दों के शाब्दिक अर्थ को पार करके लेखक के अंतर्निहित भाव, संदेश, संदर्भ और उद्देश्य को समझा और स्पष्ट किया जाता है।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'घनानंद — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: '\'अंतरा भाग-2 — पाठ 9\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_09_013', title: 'Your mission',
@@ -28,6 +28,13 @@ export const c12_hin_a_ch09_p3: SimDef = {
         context: 'Follow the mendicant\'s nights: feel repetition stretch time in the longing poem, then stand in the marketplace challenge — and weigh a devotion that survives its own rejection.',
         labels: ['घनानंद — आशय-स्पष्टीकरण और', 'घनानंद — परीक्षा-उत्तर लेखन', 'घनानंद — वाचन-पाठ और'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_09_014', title: 'घनानंद — परीक्षा-उत्तर लेखन कौशल',
+          caseStudy: { intro: '\'अंतरा भाग-2 — पाठ 9\' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।',
+            decisions: [{ prompt: 'What is the PEEL structure for writing literature answers, and what does each letter stand for in the context of poetry analysis?', options: [
+                { text: 'PEEL stands for Point (main argument about the poem), Evidence (specific line/word from', outcome: 'PEEL stands for Point (main argument about the poem), Evidence (specific line/word from the text).' },
+                { text: 'Point, Example, Explain, Conclusion', outcome: 'Not quite — Students believe "writing skills for poetry" means memorizing model answers for each question.', reveals: 'writing-skills-for-poetry-means' },
+                { text: 'specifically demands thematic connection, not just summary', outcome: 'Not quite — Students believe "writing skills for poetry" means memorizing model answers for each question.', reveals: 'writing-skills-for-poetry-means' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_09_013', title: 'Use it in the wild',
           caseStudy: { intro: 'Your team\'s short play about waiting for exam results ends on the protagonist\'s whispered plea, still unanswered. The director wants to add a closing scene where the result actually arrives \'so the climax is real.\'',
             decisions: [{ prompt: 'What does this chapter\'s treatment of unresolved longing say?', options: [
@@ -47,38 +54,57 @@ export const c12_hin_a_ch09_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_013', difficulty: 'standard',
-          question: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें किसी पद्यांश या गद्यांश के शब्दों के.',
+          question: '\'अंतरा भाग-2 — पाठ 9\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
           hint: 'यदि छात्र आशय स्पष्टीकरण में कठिनाई महसूस कर रहा है, तो उसे पद्यांश-वार भावार्थ.',
           misconception: 'छात्र अक्सर आशय-स्पष्टीकरण को केवल पद्यांश के कठिन शब्दों के अर्थ लिखने या एक-एक वाक्य का शब्दार्थ अनुवाद करने तक सीमित.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें किसी पद्यांश या गद्यांश के शब्दों के शाब्दिक अर्थ',
-                  options: ['आशय-स्पष्टीकरण वह प्रक्रिया है जिसमें किसी पद्यांश या गद्यांश के शब्दों के शाब्दिक अर्थ', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ, सामाजिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक stanza (पद) या पंक्तियों के समूह का', 'काव्य-संरचना कविता के समग्र रूप को संदर्भित करती है'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 9\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+                  options: ['\'अंतरा भाग-2 — पाठ 9\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 9\' का कथानक — \'अंतरा भाग-2 — पाठ 9\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 9\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि छात्र आशय स्पष्टीकरण में कठिनाई महसूस कर रहा है, तो उसे पद्यांश-वार भावार्थ.',
                   misconception: 'छात्र अक्सर आशय-स्पष्टीकरण को केवल पद्यांश के कठिन शब्दों के अर्थ लिखने या एक-एक वाक्य का शब्दार्थ अनुवाद करने तक सीमित मानते हैं, जैसे कि.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक पद्यांश लें (जैसे \'घनानंद\' का पहला पद्यांश) और उससे पहले केवल शब्दार्थ लिखने के बजाय, उनसे पूछिए.', 'कौन से शब्द या चित्र इस भावना को बनाते हैं?" फिर उन्हें मार्गदर्शन कीजिए कि वे भावना की पहचान करें, समर्थन करने वाले.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_014', difficulty: 'standard',
-          question: 'परीक्षा-उत्तर लेखन कौशल का अर्थ है प्रश्न की मांग को समझकर, सटीक सामग्री चुनकर.',
-          hint: 'यदि छात्र PEEL संरचना में फंस रहा है, तो उसे पहले c12_hin_a_cbse_09_013 (आशय-स्पष्टीकरण.',
-          misconception: 'छात्र अक्सर मानते हैं कि अगर वे कविता का सही अर्थ जानते हैं, तो उत्तर लिखने का तरीका कोई फर्क नहीं पड़ता; वे लंबे.',
+          question: '\'अंतरा भाग-2 — पाठ 9\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+          hint: 'If stuck on Explanation step: Revisit c12_hin_a_cbse_09_008 (Imagery/Metaphor) and 009.',
+          misconception: 'Students believe "writing skills for poetry" means memorizing model answers for each question.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल का अर्थ है प्रश्न की मांग को समझकर, सटीक सामग्री चुनकर, उसे PEEL',
-                  options: ['परीक्षा-उत्तर लेखन कौशल का अर्थ है प्रश्न की मांग को समझकर, सटीक सामग्री चुनकर, उसे PEEL', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ, सामाजिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक stanza (पद) या पंक्तियों के समूह का', 'काव्य-संरचना कविता के समग्र रूप को संदर्भित करती है'],
-                  hint: 'यदि छात्र PEEL संरचना में फंस रहा है, तो उसे पहले c12_hin_a_cbse_09_013 (आशय-स्पष्टीकरण अभ्यास) पर.',
-                  misconception: 'छात्र अक्सर मानते हैं कि अगर वे कविता का सही अर्थ जानते हैं, तो उत्तर लिखने का तरीका कोई फर्क नहीं पड़ता; वे लंबे पैराग्राफ लिख देते हैं.' }
+                { id: 'a', prompt: 'A student writes: "कुकुआन के पहले दोहे में बादल बरसते हैं और मोर नाचते हैं जिससे विरहिणी को दुःख होता है।" Identify TWO specific weaknesses in this answer.', answer: 'Weakness 1: No direct textual evidence',
+                  options: ['Weakness 1: No direct textual evidence', 'writing skills for poetry', '"writing skills for poetry" means memorizing model answers for each question'],
+                  hint: 'If stuck on Explanation step: Revisit c12_hin_a_cbse_09_008 (Imagery/Metaphor) and 009.',
+                  misconception: 'Students believe "writing skills for poetry" means memorizing model answers for each question.' },
+                { id: 'b', prompt: 'Apply the PEEL structure to answer: "दूसरे दोहे में \'रात\' और \'सुबह\' के चक्र का क्या महत्व है?" Write a complete 4-sentence PEEL paragraph.', answer: 'Point: The night-dawn cycle symbolizes the endless waiting in virah',
+                  options: ['Point: The night-dawn cycle symbolizes the endless waiting in virah', 'बहु बेरि', 'writing skills for poetry', '"writing skills for poetry" means memorizing model answers for each question'],
+                  hint: 'If stuck on Explanation step: Revisit c12_hin_a_cbse_09_008 (Imagery/Metaphor) and 009.',
+                  misconception: 'Students believe "writing skills for poetry" means memorizing model answers for each question.' },
+                { id: 'c', prompt: 'Compare how the FIRST doha uses AUDITORY imagery (sound) versus the SECOND doha using VISUAL imagery (sight). Which creates a stronger sense of virah?', answer: 'First doha: Auditory',
+                  options: ['First doha: Auditory', 'Both are equal', 'writing skills for poetry', '"writing skills for poetry" means memorizing model answers for each question'],
+                  hint: 'If stuck on Explanation step: Revisit c12_hin_a_cbse_09_008 (Imagery/Metaphor) and 009.',
+                  misconception: 'Students believe "writing skills for poetry" means memorizing model answers for each question.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक कमजोर उत्तर (जैसे केवल कविता का सारांश) और एक मजबूत उत्तर (PEEL संरचना में) कैसे अलग हैं। फिर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-for-poetry-means': { steps: ['Have the student pick ONE 3-mark question from the chapter\'s exercise (e.g., Q4 on poetic features).', 'Together, highlight the 3 key words in the question (e.g., "काव्यगत विशेषताएँ" = imagery, language, emotion).', 'For each key word, find ONE line from the dohas — write it verbatim.', 'For each line, complete this sentence starter: "This line uses [device] to show [effect] which connects to [theme].'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_014', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe "writing skills for poetry" means memorizing model answers for each question.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate this student claim: "कुकुआन की भाषा सरल ब्रजभाषा है इसलिए उनके दोहे समझने में आसान हैं।" Defend or refute using specific vocabulary from the text.', answer: 'Refute',
+                  options: ['Refute', '(colloquial)', 'writing skills for poetry', '"writing skills for poetry" means memorizing model answers for each question'],
+                  hint: 'If stuck on Explanation step: Revisit c12_hin_a_cbse_09_008 (Imagery/Metaphor) and 009.',
+                  misconception: 'Students believe "writing skills for poetry" means memorizing model answers for each question.' }
+          ],
+            remediations: { 'writing-skills-for-poetry-means': { steps: ['Have the student pick ONE 3-mark question from the chapter\'s exercise (e.g., Q4 on poetic features).', 'Together, highlight the 3 key words in the question (e.g., "काव्यगत विशेषताएँ" = imagery, language, emotion).', 'For each key word, find ONE line from the dohas — write it verbatim.', 'For each line, complete this sentence starter: "This line uses [device] to show [effect] which connects to [theme].'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_09_015', difficulty: 'standard',
-          question: 'वाचन-पाठ वह प्रक्रिया है जिसमें कविता या गद्यांश को सही उच्चारण, विराम, स्वर.',
-          hint: 'यदि छात्र लय पहचान में कठिनाई महसूस कर रहा है, तो वर्ग 11 के वाचन-श्रवण मॉड्यूल.',
-          misconception: 'छात्र अक्सर मानते हैं कि कविता के वाचन में केवल उच्चारण की शुद्धता मायने रखती है, और लय, ताल या भाव पर ध्यान नहीं देते.',
+          question: '\'अंतरा भाग-2 — पाठ 9\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
+          hint: 'If stuck on textual evidence retrieval: Re-read node 008 (Imagery/Metaphor) and node 009.',
+          misconception: 'Students treat "discussion points" as *topic sentences for essays* — e.g., writing "Guru is like a lamp" as a bullet.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-पाठ वह प्रक्रिया है जिसमें कविता या गद्यांश को सही उच्चारण, विराम, स्वर modulation',
-                  options: ['वाचन-पाठ वह प्रक्रिया है जिसमें कविता या गद्यांश को सही उच्चारण, विराम, स्वर modulation', 'कवि परिचय और पृष्ठभूमि का अर्थ है कवि के व्यक्तिगत जीवन, ऐतिहासिक संदर्भ, सामाजिक', 'पद्यांश-वार भावार्थ का अर्थ है कविता के प्रत्येक stanza (पद) या पंक्तियों के समूह का', 'काव्य-संरचना कविता के समग्र रूप को संदर्भित करती है'],
-                  hint: 'यदि छात्र लय पहचान में कठिनाई महसूस कर रहा है, तो वर्ग 11 के वाचन-श्रवण मॉड्यूल.',
-                  misconception: 'छात्र अक्सर मानते हैं कि कविता के वाचन में केवल उच्चारण की शुद्धता मायने रखती है, और लय, ताल या भाव पर ध्यान नहीं देते — जैसे वे मानते हैं.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'अंतरा भाग-2 — पाठ 9\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।',
+                  options: ['\'अंतरा भाग-2 — पाठ 9\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'अंतरा भाग-2 — पाठ 9\' का कथानक — \'अंतरा भाग-2 — पाठ 9\' — अंतरा भाग-2 का पाठ। पाठ का', '\'अंतरा भाग-2 — पाठ 9\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
+                  hint: 'If stuck on textual evidence retrieval: Re-read node 008 (Imagery/Metaphor) and node 009.',
+                  misconception: 'Students treat "discussion points" as *topic sentences for essays* — e.g., writing "Guru is like a lamp" as a bullet point.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को पहले एक सरल दोहा (जैसे संत की वाणी) देकर बोलें: "इस पंक्ति को अपने हाथ पर ताल रखकर पढ़िए — प्रत्येक ताल पर एक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-discussion-points-as': { steps: ['If a student produces essay-style bullets: (1) Have them pick one bullet and convert it into a *contestable claim*.', '(3) Record 2-minute exchanges; replay and tag each move: "Evidence offered," "Counter-claim," "Clarification sought,".'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

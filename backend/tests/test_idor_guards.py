@@ -30,7 +30,8 @@ from types import SimpleNamespace
 import pytest
 from fastapi import HTTPException
 
-from backend.api import analytics, intelligence
+from backend.api import accessibility, analytics, intelligence
+from backend.routers import learning_upgrades
 from backend.deps import is_staff, require_self_or_staff
 
 STUDENT_ID = "3f2a1b4c-5d6e-7f80-91a2-b3c4d5e6f701"
@@ -70,7 +71,55 @@ GUARDED_ENDPOINTS = [
     (analytics, "student_timeline", "require_self_or_staff"),
     (intelligence, "get_calibration", "require_self_or_staff"),
     (intelligence, "record_confidence", "get_current_user"),
+    # pillar-6 batch: per-user learning-upgrades + accessibility routes
+    (learning_upgrades, "review_queue", "require_self_or_staff"),
+    (learning_upgrades, "review_upcoming", "require_self_or_staff"),
+    (learning_upgrades, "next_best", "require_self_or_staff"),
+    (learning_upgrades, "mastery_passport", "require_self_or_staff"),
+    (learning_upgrades, "student_misconception_profile", "require_self_or_staff"),
+    (learning_upgrades, "review_grade", "get_current_user"),
+    (accessibility, "get_accessibility", "require_self_or_staff"),
+    (accessibility, "update_accessibility", "require_self_or_staff"),
 ]
+
+
+def test_me_routes_are_registered_before_the_parameterized_ones():
+    """FastAPI matches in registration order: a literal route declared AFTER
+    ``/{user_id}`` is unreachable (the parameter swallows "me"), which is how
+    /api/passport/me and friends 500'd with ``uuid.UUID('me')``."""
+    from backend.routers import learning_upgrades as lu
+
+    order = {}
+    for i, route in enumerate(lu.router.routes):
+        order[route.path] = i
+    for me_path, param_path in [
+        ("/api/review/queue/me", "/api/review/queue/{student_id}"),
+        ("/api/review/upcoming/me", "/api/review/upcoming/{student_id}"),
+        ("/api/path/next-best/me", "/api/path/next-best/{student_id}"),
+        ("/api/passport/me", "/api/passport/{student_id}"),
+    ]:
+        assert me_path in order, f"{me_path} missing from the router"
+        assert param_path in order, f"{param_path} missing from the router"
+        assert order[me_path] < order[param_path], (
+            f"{me_path} must be registered BEFORE {param_path} "
+            "(the parameterized route shadows the literal otherwise)"
+        )
+
+
+def test_accessibility_uses_the_real_database_layer():
+    """Regression: the module imported ``services.database`` /
+    ``services.models`` — packages that do not exist — so every DB-backed
+    call on /api/accessibility/* raised ModuleNotFoundError (500)."""
+    from backend.database import Base
+    from backend.models.accessibility import AccessibilityPreferencesModel
+
+    assert "accessibility_preferences" in Base.metadata.tables
+    import backend.api.accessibility as acc
+
+    src = inspect.getsource(acc)
+    assert "from services." not in src, (
+        "accessibility.py regressed to the phantom 'services' package"
+    )
 
 
 @pytest.mark.parametrize("module,func_name,guard_name", GUARDED_ENDPOINTS)

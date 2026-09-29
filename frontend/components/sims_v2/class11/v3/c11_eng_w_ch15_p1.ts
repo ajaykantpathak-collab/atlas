@@ -19,50 +19,50 @@ export const c11_eng_w_ch15_p1: SimDef = {
         hook: 'No narrator mediates — you\'re locked inside a consciousness that feels no guilt, and that entrapment is the poem\'s point.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'This node introduces the essential context for studying Ted Hughes\' "Hawk Roosting": the poet\'s biography and distinctive style, the poem\'s form as a dramatic monologue, and its central thematic.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Hawk Roosting\' (Woven Words, ch. 15) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_15_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Track the stanza openings from \'I sit\' to \'Nothing has changed,\' and test whether the rigid quatrains are decoration or the cage the argument builds.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_15_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine watching a nature documentary where a hawk perches motionless at the top of a tree, eyes closed, utterly still—yet the narrator says this bird sees.',
+          caseStudy: { intro: 'Start with the author of \'Hawk Roosting\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who is Ted Hughes and what is he known for in his poetry?', options: [
                 { text: 'Ted Hughes (1930–1998) was a British Poet Laureate known for his intense, often violent', outcome: 'Ted Hughes (1930–1998) was a British Poet Laureate known for his intense, often violent depictions.' },
                 { text: 'He wrote romantic love poems', outcome: 'Not quite — Students often think the poem is simply a description of a hawk\'s life, missing that it is.', reveals: 'the-poem-is-simply-a' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_15_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you are listening to a powerful leader giving a speech justifying their absolute authority — they start with their physical position, move to the.',
+          caseStudy: { intro: 'Trace \'Hawk Roosting\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the primary structural difference between a narrative poem like "The Rime of the Ancient Mariner" and a dramatic monologue like.', options: [
                 { text: 'A narrative poem tells a story with external events, characters, and a chronological plot', outcome: 'A narrative poem tells a story with external events, characters, and a chronological plot.' },
                 { text: 'both have characters', outcome: 'Not quite — Students often treat the hawk\'s statements as the *poet\'s* beliefs, missing that the monologue form.', reveals: 'students-often-treat-the-hawk' },
                 { text: 'no plot', outcome: 'Not quite — Students often treat the hawk\'s statements as the *poet\'s* beliefs, missing that the monologue form.', reveals: 'students-often-treat-the-hawk' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_15_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you are sitting on a high branch in a dense forest, feeling the wind and looking down at the world below. That is the hawk\'s perspective.',
+          caseStudy: { intro: 'Identify where and when \'Hawk Roosting\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What is the physical setting described in the first stanza of "Hawk Roosting"?', options: [
                 { text: 'The physical setting is the top of a wood (forest), where the hawk sits with eyes closed,', outcome: 'The physical setting is the top of a wood (forest), where the hawk sits with eyes closed, its feet.' },
                 { text: 'the sky', outcome: 'Not quite — Students often think "setting" only means the physical location (the wood) and "atmosphere" only.', reveals: 'setting-only-means-the-physical' },
                 { text: 'a nest', outcome: 'Not quite — Students often think "setting" only means the physical location (the wood) and "atmosphere" only.', reveals: 'setting-only-means-the-physical' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_15_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re watching a wildlife documentary where the camera zooms into a hawk\'s eyes and suddenly the hawk starts narrating its own life philosophy.',
+          caseStudy: { intro: 'Pick the central figure in \'Hawk Roosting\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the narrative perspective of "Hawk Roosting" and who is the speaker?', options: [
                 { text: 'The poem is written in first-person dramatic monologue from the perspective of a hawk', outcome: 'The poem is written in first-person dramatic monologue from the perspective of a hawk.' },
                 { text: 'third-person narrator describing a hawk', outcome: 'Not quite — Students often treat the hawk as a simple "villain" or "nature red in tooth and claw" and write.', reveals: 'students-often-treat-the-hawk' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_15_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine watching a wildlife documentary where the camera follows only the predator — the other animals and the landscape become mere background.',
+          caseStudy: { intro: 'Spot the secondary figures in \'Hawk Roosting\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List three supporting characters or elements in "Hawk Roosting" that are not the hawk itself.', options: [
                 { text: 'The sun, the air (air\'s buoyancy), the trees (high trees, rough bark), the earth (earth\'s', outcome: 'The sun, the air (air\'s buoyancy), the trees (high trees, rough bark), the earth (earth\'s face).' },
                 { text: 'character', outcome: 'Not quite — Students often believe a dramatic monologue has *no* supporting characters because only one voice.', reveals: 'a-dramatic-monologue-has-no' },
                 { text: 'speaker', outcome: 'Not quite — Students often believe a dramatic monologue has *no* supporting characters because only one voice.', reveals: 'a-dramatic-monologue-has-no' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_15_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are watching a nature documentary where a hawk perches motionless at the top of a tree, surveying everything below with cold confidence.',
+          caseStudy: { intro: 'Ask what \'Hawk Roosting\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the single most repeated grammatical subject in the poem, and what does its frequency immediately suggest about the poem\'s central.', options: [
                 { text: 'The most repeated subject is "I" (appearing in every stanza)', outcome: 'The most repeated subject is "I" (appearing in every stanza). Its frequency signals that the poem.' },
                 { text: 'the trees', outcome: 'Not quite — Students often confuse the *hawk\'s stated philosophy* ("I kill where I please because it is all.', reveals: 'students-often-confuse-the-hawk' },
@@ -82,12 +82,12 @@ export const c11_eng_w_ch15_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_15_001', difficulty: 'standard',
-          question: 'This node introduces the essential context for studying Ted Hughes\' "Hawk.',
+          question: '\'Hawk Roosting\' (Woven Words, ch. 15) — the context and background to this.',
           hint: 'Review the PEEL method for poem analysis (c8_engl_ch1_17) and the concept of persona.',
           misconception: 'Students often think the poem is simply a description of a hawk\'s life, missing that it is a constructed persona.',
           parts: [
@@ -96,18 +96,18 @@ export const c11_eng_w_ch15_p1: SimDef = {
                   hint: 'Review the PEEL method for poem analysis (c8_engl_ch1_17) and the concept of persona in dramatic.',
                   misconception: 'Students often think the poem is simply a description of a hawk\'s life, missing that it is a constructed persona through which Hughes.' }
           ],
-            remediations: { 'the-poem-is-simply-a': { steps: ['If a student holds this misconception, guide them to: 1) Identify the speaker (hawk, not Hughes).', '2) Note the absence of moral judgment in the poem.', '3) Compare with other Hughes poems (e.g., "The Jaguar") where animals are observed, not given voice.', '4) Discuss how dramatic monologue creates irony by letting a flawed speaker reveal themselves.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-poem-is-simply-a': { steps: ['If a student holds this misconception, guide them to: 1) Identify the speaker (hawk, not Hughes).', '2) Note the absence of moral judgment in the poem.', '3) Compare with other Hughes poems (e.g., "The Jaguar") where animals are observed, not given voice.', '4) Discuss how dramatic monologue creates irony by letting a flawed speaker reveal themselves.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_15_002', difficulty: 'standard',
-          question: 'Plot and narrative structure in a poem refers to the logical progression.',
+          question: 'The plot/narrative arc of \'Hawk Roosting\' — what happens, in what order, and.',
           hint: 'Review c6_english_u1_006 (Narrative Poetry features) and c11_eng_w_cbse_15_001 (monologue.',
           misconception: 'Students often treat the hawk\'s statements as the *poet\'s* beliefs, missing that the monologue form *ironically*.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot and narrative structure in a poem refers to the logical progression of ideas,',
-                  options: ['Plot and narrative structure in a poem refers to the logical progression of ideas,', 'This node introduces the essential context for studying Ted Hughes\' "Hawk Roosting": the', 'Setting refers to the physical and temporal backdrop of a literary work—where and when', 'Character analysis of a protagonist in poetry involves examining the speaker\'s persona,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The plot/narrative arc of \'Hawk Roosting\'',
+                  options: ['The plot/narrative arc of \'Hawk Roosting\'', '\'Hawk Roosting\' (Woven Words, ch', 'The setting of \'Hawk Roosting\'', 'Character analysis in \'Hawk Roosting\''],
                   hint: 'Review c6_english_u1_006 (Narrative Poetry features) and c11_eng_w_cbse_15_001 (monologue context).',
                   misconception: 'Students often treat the hawk\'s statements as the *poet\'s* beliefs, missing that the monologue form *ironically* exposes the hawk\'s logic.' }
           ],
-            remediations: { 'students-often-treat-the-hawk': { steps: ['Have the student outline the poem as a *legal brief*: Statement of Position (stanza 1), Evidence (stanzas 2-3).', 'Ask: "If this were a courtroom, what is the hawk *trying to prove*?" 3.', 'Physically cut the poem into six strips; have them reorder and justify — they\'ll discover only one order makes logical.', 'Contrast with a Class 10 poem like "The Ball Poem" (loss → realization → acceptance) to show *both* have arcs, just.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-hawk': { steps: ['Have the student outline the poem as a *legal brief*: Statement of Position (stanza 1), Evidence (stanzas 2-3).', 'Ask: "If this were a courtroom, what is the hawk *trying to prove*?" 3.', 'Physically cut the poem into six strips; have them reorder and justify — they\'ll discover only one order makes logical.', 'Contrast with a Class 10 poem like "The Ball Poem" (loss → realization → acceptance) to show *both* have arcs, just.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_15_002', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -118,9 +118,9 @@ export const c11_eng_w_ch15_p1: SimDef = {
                   hint: 'Review c6_english_u1_006 (Narrative Poetry features) and c11_eng_w_cbse_15_001 (monologue context).',
                   misconception: 'Students often treat the hawk\'s statements as the *poet\'s* beliefs, missing that the monologue form *ironically* exposes the hawk\'s logic.' }
           ],
-            remediations: { 'students-often-treat-the-hawk': { steps: ['Have the student outline the poem as a *legal brief*: Statement of Position (stanza 1), Evidence (stanzas 2-3).', 'Ask: "If this were a courtroom, what is the hawk *trying to prove*?" 3.', 'Physically cut the poem into six strips; have them reorder and justify — they\'ll discover only one order makes logical.', 'Contrast with a Class 10 poem like "The Ball Poem" (loss → realization → acceptance) to show *both* have arcs, just.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-hawk': { steps: ['Have the student outline the poem as a *legal brief*: Statement of Position (stanza 1), Evidence (stanzas 2-3).', 'Ask: "If this were a courtroom, what is the hawk *trying to prove*?" 3.', 'Physically cut the poem into six strips; have them reorder and justify — they\'ll discover only one order makes logical.', 'Contrast with a Class 10 poem like "The Ball Poem" (loss → realization → acceptance) to show *both* have arcs, just.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_15_003', difficulty: 'standard',
-          question: 'Setting refers to the physical and temporal backdrop of a literary work—where.',
+          question: 'The setting of \'Hawk Roosting\' — the place, time and atmosphere the text.',
           hint: 'Review how to annotate a poem for sensory details and emotional tone (Class 10 poetry.',
           misconception: 'Students often think "setting" only means the physical location (the wood) and "atmosphere" only means weather.',
           parts: [
@@ -129,9 +129,9 @@ export const c11_eng_w_ch15_p1: SimDef = {
                   hint: 'Review how to annotate a poem for sensory details and emotional tone (Class 10 poetry analysis.',
                   misconception: 'Students often think "setting" only means the physical location (the wood) and "atmosphere" only means weather.' }
           ],
-            remediations: { 'setting-only-means-the-physical': { steps: ['If a student conflates setting and atmosphere, have them list every noun denoting place or natural element in the poem.', 'Then, next to each, write the adjective or verb that shows the hawk\'s attitude toward it (e.g., "convenience,".', 'This makes visible how setting is filtered through the hawk\'s ego to create atmosphere.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'setting-only-means-the-physical': { steps: ['If a student conflates setting and atmosphere, have them list every noun denoting place or natural element in the poem.', 'Then, next to each, write the adjective or verb that shows the hawk\'s attitude toward it (e.g., "convenience,".', 'This makes visible how setting is filtered through the hawk\'s ego to create atmosphere.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_15_004', difficulty: 'standard',
-          question: 'Character analysis of a protagonist in poetry involves examining the speaker\'s.',
+          question: 'Character analysis in \'Hawk Roosting\' — the central figure(s), their traits.',
           hint: 'If confused about dramatic monologue, review c11_eng_w_cbse_15_001 (Context) and.',
           misconception: 'Students often treat the hawk as a simple "villain" or "nature red in tooth and claw" and write a moralistic essay.',
           parts: [
@@ -144,9 +144,9 @@ export const c11_eng_w_ch15_p1: SimDef = {
                   hint: 'If confused about dramatic monologue, review c11_eng_w_cbse_15_001 (Context) and.',
                   misconception: 'Students often treat the hawk as a simple "villain" or "nature red in tooth and claw" and write a moralistic essay condemning its cruelty.' }
           ],
-            remediations: { 'students-often-treat-the-hawk': { steps: ['1) Have the student re-read stanza 3 aloud, emphasizing "No arguments assert my right" — ask: "Does the hawk *defend*.', 'Or does it *not need* arguments?" 2) Contrast with Macbeth or a corrupt politician who *uses* sophistry (lies.', '3) Assign a 50-word micro-analysis: "Explain why \'My manners are tearing off heads\' is not a confession of bad manners.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-hawk': { steps: ['1) Have the student re-read stanza 3 aloud, emphasizing "No arguments assert my right" — ask: "Does the hawk *defend*.', 'Or does it *not need* arguments?" 2) Contrast with Macbeth or a corrupt politician who *uses* sophistry (lies.', '3) Assign a 50-word micro-analysis: "Explain why \'My manners are tearing off heads\' is not a confession of bad manners.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_15_005', difficulty: 'standard',
-          question: 'In "Hawk Roosting," supporting characters are the non-speaking natural entities.',
+          question: 'Supporting characters in \'Hawk Roosting\' — the secondary figures who move the.',
           hint: 'Review c11_eng_w_cbse_15_004 (protagonist analysis) and c11_eng_w_cbse_15_002 (monologue.',
           misconception: 'Students often believe a dramatic monologue has *no* supporting characters because only one voice speaks.',
           parts: [
@@ -155,9 +155,9 @@ export const c11_eng_w_ch15_p1: SimDef = {
                   hint: 'Review c11_eng_w_cbse_15_004 (protagonist analysis) and c11_eng_w_cbse_15_002 (monologue structure).',
                   misconception: 'Students often believe a dramatic monologue has *no* supporting characters because only one voice speaks.' }
           ],
-            remediations: { 'a-dramatic-monologue-has-no': { steps: ['Have the student re-read the poem and highlight every noun that is not a body part of the hawk (sun, air, trees, earth.', 'For each highlighted word, ask: "If this thing could talk, what would it say about the hawk?" 3.', 'Guide them to write one sentence from that entity\'s perspective.', 'Connect each response to the hawk\'s arrogance — this builds the analytical link between supporting character and.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'a-dramatic-monologue-has-no': { steps: ['Have the student re-read the poem and highlight every noun that is not a body part of the hawk (sun, air, trees, earth.', 'For each highlighted word, ask: "If this thing could talk, what would it say about the hawk?" 3.', 'Guide them to write one sentence from that entity\'s perspective.', 'Connect each response to the hawk\'s arrogance — this builds the analytical link between supporting character and.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_15_006', difficulty: 'standard',
-          question: 'The primary theme of a poem is its central, unifying idea that emerges from the.',
+          question: 'The primary theme of \'Hawk Roosting\' — the central idea the whole text returns.',
           hint: 'If stuck, review "Character Analysis: Protagonist" (c11_eng_w_cbse_15_004) and practice.',
           misconception: 'Students often confuse the *hawk\'s stated philosophy* ("I kill where I please because it is all mine") with the *poem\'s.',
           parts: [
@@ -166,7 +166,7 @@ export const c11_eng_w_ch15_p1: SimDef = {
                   hint: 'If stuck, review "Character Analysis: Protagonist" (c11_eng_w_cbse_15_004) and practice the.',
                   misconception: 'Students often confuse the *hawk\'s stated philosophy* ("I kill where I please because it is all mine") with the *poem\'s theme*.' }
           ],
-            remediations: { 'students-often-confuse-the-hawk': { steps: ['Have the student read the poem again, this time physically marking every "I" statement with a highlighter.', 'Ask: "If this hawk were a human dictator giving a speech, which lines would sound like propaganda?" 3.', 'Guide them to list three things the hawk *ignores* (e.g., death, other perspectives, time).', 'Co-write a thesis: "Hughes uses the hawk\'s arrogant monologue to expose how absolute power blinds the holder to its own.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-confuse-the-hawk': { steps: ['Have the student read the poem again, this time physically marking every "I" statement with a highlighter.', 'Ask: "If this hawk were a human dictator giving a speech, which lines would sound like propaganda?" 3.', 'Guide them to list three things the hawk *ignores* (e.g., death, other perspectives, time).', 'Co-write a thesis: "Hughes uses the hawk\'s arrogant monologue to expose how absolute power blinds the holder to its own.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

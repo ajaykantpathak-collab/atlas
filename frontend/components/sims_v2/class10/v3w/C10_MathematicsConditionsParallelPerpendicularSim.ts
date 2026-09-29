@@ -6,13 +6,13 @@ import C10_MathematicsConditionsParallelPerpendicularSim from '../../../simulati
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_mathematicsconditionsparallelperpendicularsim: SimDef = {
     id: 'v3w_c10_mathematicsconditionsparallelperpendicularsim',
-    title: 'Conditions Parallel Perpendicular',
+    title: 'Basic Proportionality Theorem (Thales\' Theorem)',
     subtitle: 'Covers the Basic Proportionality Theorem (BPT) statement, proof using area of triangles,.',
     classLevel: 10, subject: 'mathematics', topic: 'Basic Proportionality Theorem (Thales\' Theorem)',
     chapters: [],
     nodeIds: ['c10_math_cbse_06_003', 'c10_math_cbse_06_004', 'c10_math_cbse_12_006', 'c10_math_cbse_03_001', 'c10_math_cbse_03_002', 'c10_math_cbse_03_003', 'c10_math_cbse_03_007', 'c10_math_cbse_07_010', 'c10_math_cbse_06_009', 'c10_math_cbse_07_001', 'c10_math_cbse_07_003', 'c10_math_cbse_07_005', 'c10_math_cbse_07_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you are designing a triangular garden plot with vertices at three trees.', goal: 'Master Conditions Parallel Perpendicular.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you are designing a triangular garden plot with vertices at three trees.', goal: 'Master Basic Proportionality Theorem (Thales\' Theorem).' },
     discovery: {
         question: 'In ΔPQR, a line ST is drawn intersecting PQ at S and PR at T. A student writes PS/SQ = PT/TR and claims BPT applies.',
         options: ['The student must verify that ST || QR', 'triangle must be similar', 'angles must be equal'],
@@ -80,7 +80,7 @@ export const w_c10_mathematicsconditionsparallelperpendicularsim: SimDef = {
             { text: 'Conclude: The system is inconsistent — the lines are parallel.', faded: true, blankAnswer: 'The system is inconsistent (parallel lines). No solution.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_math_cbse_06_004', title: 'Identify each idea',
-          dissect: { specimen: 'Conditions Parallel Perpendicular', spots: [
+          dissect: { specimen: 'Basic Proportionality Theorem (Thales\' Theorem)', spots: [
             { id: 's1', label: 'If a line is drawn', prompt: 'Which idea is this? — If a line is drawn parallel to one side of a triangle intersecting the other two sides at.', answer: 'If a line is drawn', options: ['If a line is drawn', 'The Converse of Basic Proportionality', 'A frustum of a right', 'A pair of linear equations'] },
             { id: 's2', label: 'The Converse of Basic Proportionality', prompt: 'Which idea is this? — The Converse of Basic Proportionality Theorem states: If a line divides any two sides of.', answer: 'The Converse of Basic Proportionality', options: ['The Converse of Basic Proportionality', 'If a line is drawn', 'A frustum of a right', 'A pair of linear equations'] },
             { id: 's3', label: 'A frustum of a right', prompt: 'Which idea is this? — A frustum of a right circular cone is the solid obtained when a right circular cone is.', answer: 'A frustum of a right', options: ['A frustum of a right', 'If a line is drawn', 'The Converse of Basic Proportionality', 'A pair of linear equations'] },
@@ -88,7 +88,7 @@ export const w_c10_mathematicsconditionsparallelperpendicularsim: SimDef = {
             { id: 's5', label: 'A system of two linear', prompt: 'Which idea is this? — A system of two linear equations in two variables is consistent if it has at least one.', answer: 'A system of two linear', options: ['A system of two linear', 'If a line is drawn', 'The Converse of Basic Proportionality', 'A frustum of a right'] }
           ] } }
     ],
-    explore: { component: C10_MathematicsConditionsParallelPerpendicularSim, prompt: 'Explore the interactive — Conditions Parallel Perpendicular' },
+    explore: { component: C10_MathematicsConditionsParallelPerpendicularSim, prompt: 'Explore the interactive — Basic Proportionality Theorem (Thales\' Theorem)' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_math_cbse_06_003', difficulty: 'standard',
           question: 'If a line is drawn parallel to one side of a triangle intersecting the other.',

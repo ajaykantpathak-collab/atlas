@@ -19,7 +19,7 @@ export const c12_hin_ar_ch07_p1: SimDef = {
         hook: 'His five forms here aren\'t experiments — they\'re classical metres mastered and matched to mood: चप्पय\'s even matras for philosophy, दोहा\'s rolling asymmetry for narrative. Variety is discipline, not rebellion; form follows function.',
     },
     teaching: [
-        { title: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप — कवि परिचय और पृष्ठभूमि', text: 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए पदों में लक्ष्मण-मूर्छा प्रसंग के माध्यम से राम के विरह-विलाप और मानवीय संवेदनाओं का चित्रण किया गया है, जहाँ.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप — कवि परिचय और पृष्ठभूमि', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_ar_cbse_07_001', title: 'Your mission',
@@ -28,12 +28,33 @@ export const c12_hin_ar_ch07_p1: SimDef = {
         context: 'Enter the Bhakti workshop: place Tulsidas among the saints, learn what each chhand is built to carry, and weigh how a \'simple\' language shift levelled a hierarchy.',
         labels: ['कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c12_hin_ar_cbse_07_002', title: 'Identify each idea',
-          dissect: { specimen: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप · Part 1/3', spots: [
-            { id: 's1', label: '- -', prompt: 'Which idea is this? — यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की.', answer: '- -', options: ['- -', '- - -', '- -'] },
-            { id: 's2', label: '- - -', prompt: 'Which idea is this? — काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र.', answer: '- - -', options: ['- - -', '- -', '- -'] },
-            { id: 's3', label: '- -', prompt: 'Which idea is this? — छंद काव्य की वह निश्चित संरचना है जिसमें प्रत्येक चरण (पंक्ति) में मात्राओं या वर्णों की.', answer: '- -', options: ['- -', '- -', '- - -'] }
-          ] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_07_001', title: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप — कवि परिचय और पृष्ठभूमि',
+          caseStudy: { intro: 'आरोह भाग-2 खोलिए और पाठ 07 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: 'Who was Goswami Tulsidas, and what is his most famous work? (Answer in 1-2 sentences.)', options: [
+                { text: 'Goswami Tulsidas (c', outcome: 'Goswami Tulsidas (c. 1532–1623) was a 16th-century Ramanandi Vaishnava saint and poet, best known.' },
+                { text: 'Surdas or Kabir, or citing the *Mahabharata*', outcome: 'Not quite — Students believe all five poems in this chapter are excerpts from the *Ramcharitmanas*.', reveals: 'all-five-poems-in-this' },
+                { text: 'all five poems in this chapter are excerpts from the *Ramcharitmanas*', outcome: 'Not quite — Students believe all five poems in this chapter are excerpts from the *Ramcharitmanas*.', reveals: 'all-five-poems-in-this' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_07_003', title: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप — काव्य-संरचना और पद्य-विन्यास',
+          caseStudy: { intro: '\'आरोह भाग-2 — पाठ 7\' का परिवेश: \'आरोह भाग-2 — पाठ 7\' — आरोह भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्रीय भाव पाठ्यपुस्तक — स्थान और समय मिलकर माहौल बनाते हैं।',
+            decisions: [{ prompt: 'Identify two specific phrases from the first poem of "dforkoyh" (beginning with "fdlch fdlku...") that establish the rural village setting.', options: [
+                { text: 'Correct answer: "isV dh vkx" (sugarcane juice) reveals agricultural economy and local', outcome: 'Correct answer: "isV dh vkx" (sugarcane juice) reveals agricultural economy and local produce.' },
+                { text: 'the poem is set in a village', outcome: 'Not quite — Students believe "setting = place name only" and "atmosphere = mood adjective only".', reveals: 'setting-place-name-only-and' },
+                { text: 'setting = place name only', outcome: 'Not quite — Students believe "setting = place name only" and "atmosphere = mood adjective only".', reveals: 'setting-place-name-only-and' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_07_005', title: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप — छंद और लय-विधान',
+          caseStudy: { intro: '\'आरोह भाग-2 — पाठ 7\' में सहायक पात्र पहचानिए — जो मुख्य पात्र की सहायता करते हैं।',
+            decisions: [{ prompt: 'In the poem "y{e.k&ewPNkZ", which specific line shows Bharat\'s explicit rejection of royal comforts, and what single word in that line.', options: [
+                { text: 'The line is "feyb u txr lgksnj Hkzkrk"', outcome: 'The line is "feyb u txr lgksnj Hkzkrk" — the word "lgksnj" (like a hermit/ascetic) signals Bharat\'s.' },
+                { text: 'mgk¡ jke yfNeufg fugkjh', outcome: 'Not quite — Students treat "supporting character analysis" as listing traits (loyal, brave, sad) rather than.', reveals: 'students-treat-supporting-character-analysis' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_ar_cbse_07_006', title: 'कवतिावली (उत्तरकांड से), लक्ष्मण-मूर्च्छा और राम का वलिाप — साहित्यिक युक्तियाँ: अलंकार',
+          caseStudy: { intro: 'सब घटनाएँ \'आरोह भाग-2 — पाठ 7\' में \'आरोह भाग-2 — पाठ 7\' का केंद्रीय भाव और संदेश की ओर ले जाती हैं — यही मुख्य विषय है।',
+            decisions: [{ prompt: 'What is the definition of \'primary theme\' in a literary text, and how does it differ from the plot?', options: [
+                { text: 'The primary theme is the central idea or universal insight about life/human nature that', outcome: 'The primary theme is the central idea or universal insight about life/human nature that the work.' },
+                { text: 'Theme is Rama\'s exile', outcome: 'Not quite — Students often think the primary theme is "Rama is God" or "Tulsidas wrote Ramcharitmanas" — i.e.', reveals: 'the-primary-theme-is-rama' },
+                { text: 'Rama is God', outcome: 'Not quite — Students often think the primary theme is "Rama is God" or "Tulsidas wrote Ramcharitmanas" — i.e.', reveals: 'the-primary-theme-is-rama' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_ar_cbse_07_001', title: 'Use it in the wild',
           caseStudy: { intro: 'You\'re cutting a farewell video for a beloved coach. A teammate says the interview clips where the players hesitate before thanking him \'break the flow\' and should be dropped so the highlight reel stays \'propulsive.\'',
             decisions: [{ prompt: 'What would Tulsidas\'s design of the Guha episode argue?', options: [
@@ -53,71 +74,98 @@ export const c12_hin_ar_ch07_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_001', difficulty: 'standard',
-          question: 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड.',
-          hint: 'यदि छंद गणना या ब्रजभाषा में अटके तो c11_hin_ar_cbse_16_001 (आओ, मिलकर बचाएँ — कवि परिचय.',
-          misconception: 'छात्र समझते हैं कि कवितावली केवल रामचरितमानस का \'ब्रजभाषा अनुवाद\' या \'संक्षिप्त संस्करण\' है — जबकि सत्य यह है कि.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, review Class 11 Hindi Aroh Chapter 1 (c11_hin_ar_cbse_01_001) \'Before You Read\'.',
+          misconception: 'Students believe all five poems in this chapter are excerpts from the *Ramcharitmanas*.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए',
-                  options: ['कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र', 'काव्य में **केंद्रीय भाव** वह मूल संवेदना या विचार-धारा है जो सम्पूर्ण रचना को सूत्रबद्ध'],
-                  hint: 'यदि छंद गणना या ब्रजभाषा में अटके तो c11_hin_ar_cbse_16_001 (आओ, मिलकर बचाएँ — कवि परिचय और.',
-                  misconception: 'छात्र समझते हैं कि कवितावली केवल रामचरितमानस का \'ब्रजभाषा अनुवाद\' या \'संक्षिप्त संस्करण\' है — जबकि सत्य यह है कि कवितावली स्वतंत्र रचना है.' }
+                { id: 'a', prompt: 'Who was Goswami Tulsidas, and what is his most famous work? (Answer in 1-2 sentences.)', answer: 'Goswami Tulsidas (c',
+                  options: ['Goswami Tulsidas (c', 'Surdas or Kabir, or citing the *Mahabharata*', 'all five poems in this chapter are excerpts from the *Ramcharitmanas*'],
+                  hint: 'If stuck, review Class 11 Hindi Aroh Chapter 1 (c11_hin_ar_cbse_01_001) \'Before You Read\' which.',
+                  misconception: 'Students believe all five poems in this chapter are excerpts from the *Ramcharitmanas*.' },
+                { id: 'b', prompt: 'Given the following metrical description, identify the poetic form (chhand) used in the first poem of this chapter (dforkoyh): "Each stanza has four lines.', answer: 'The form is **pkSikbZ** (चप्पय)',
+                  options: ['The form is **pkSikbZ** (चप्पय)', 'A wrong answer like', 'chaupai', 'all five poems in this chapter are excerpts from the *Ramcharitmanas*'],
+                  hint: 'If stuck, review Class 11 Hindi Aroh Chapter 1 (c11_hin_ar_cbse_01_001) \'Before You Read\' which.',
+                  misconception: 'Students believe all five poems in this chapter are excerpts from the *Ramcharitmanas*.' },
+                { id: 'c', prompt: 'Compare the poetic form *nksgk* (used in the second poem) with *pkSikbZ* (used in the first).', answer: '*pkSikbZ* (4 lines × 16 matras) creates a balanced, meditative rhythm suited for',
+                  options: ['*pkSikbZ* (4 lines × 16 matras) creates a balanced, meditative rhythm suited for', 'analyze', 'all five poems in this chapter are excerpts from the *Ramcharitmanas*'],
+                  hint: 'If stuck, review Class 11 Hindi Aroh Chapter 1 (c11_hin_ar_cbse_01_001) \'Before You Read\' which.',
+                  misconception: 'Students believe all five poems in this chapter are excerpts from the *Ramcharitmanas*.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['चरण 1: छात्र से पूछें — "रामचरितमानस और कवितावली में राम का एक अंतर बताओ" — यदि न बता पाए तो c11_hin_ar_cbse_07_001.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'all-five-poems-in-this': { steps: ['Re-read the NCERT \'Before You Read\' box (page 39-40) and highlight every work-title mentioned (Kavitavali, Gitavali.', 'Create a 2-column table: Column A = Poem name in chapter (dforkoyh, nksgk, etc.), Column B = Source work (from textbook.', 'Watch a 10-minute YouTube video "Tulsidas ki pramukh rachnayein" (search in Hindi) to hear the works named aloud.', 'Re-attempt Diagnostic Question 4 — if you can now say "dforkoyh is from Kavitavali, hence philosophical," the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe all five poems in this chapter are excerpts from the *Ramcharitmanas*.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the claim: "Tulsidas\'s use of multiple chhands in a single chapter shows he was experimenting with form, not following tradition." Defend or refute.', answer: 'Refute',
+                  options: ['Refute', 'experimentation', 'modernist experimentation', 'all five poems in this chapter are excerpts from the *Ramcharitmanas*'],
+                  hint: 'If stuck, review Class 11 Hindi Aroh Chapter 1 (c11_hin_ar_cbse_01_001) \'Before You Read\' which.',
+                  misconception: 'Students believe all five poems in this chapter are excerpts from the *Ramcharitmanas*.' },
+                { id: 'b', prompt: 'Write a *doha* (2 lines, 24+24 matras) in Tulsidas\'s style on the theme "Guru\'s grace," using the vocabulary register (tatsam + tadbhav mix) typical of his.', answer: 'A valid attempt must: (1) Use exactly two lines',
+                  options: ['A valid attempt must: (1) Use exactly two lines', 'all five poems in this chapter are excerpts from the *Ramcharitmanas*'],
+                  hint: 'If stuck, review Class 11 Hindi Aroh Chapter 1 (c11_hin_ar_cbse_01_001) \'Before You Read\' which.',
+                  misconception: 'Students believe all five poems in this chapter are excerpts from the *Ramcharitmanas*.' }
+          ],
+            remediations: { 'all-five-poems-in-this': { steps: ['Re-read the NCERT \'Before You Read\' box (page 39-40) and highlight every work-title mentioned (Kavitavali, Gitavali.', 'Create a 2-column table: Column A = Poem name in chapter (dforkoyh, nksgk, etc.), Column B = Source work (from textbook.', 'Watch a 10-minute YouTube video "Tulsidas ki pramukh rachnayein" (search in Hindi) to hear the works named aloud.', 'Re-attempt Diagnostic Question 4 — if you can now say "dforkoyh is from Kavitavali, hence philosophical," the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_002', difficulty: 'standard',
-          question: 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें.',
+          question: '\'आरोह भाग-2 — पाठ 7\' का कथानक — \'आरोह भाग-2 — पाठ 7\' — आरोह भाग-2 का पाठ। पाठ.',
           hint: 'यदि अटके तो **c11_hin_ar_cbse_13_006 (अलंकार)** और **c11_hin_ar_cbse_13_004 (रस)** को.',
           misconception: '**छात्र अक्सर समझते हैं कि राम का विलाप \'कमज़ोरी\' या \'मोह-माया\' है**, क्योंकि वे राम को केवल \'ईश्वर/अवतार\' के फ्रेम में.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की',
-                  options: ['यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र', 'काव्य में **केंद्रीय भाव** वह मूल संवेदना या विचार-धारा है जो सम्पूर्ण रचना को सूत्रबद्ध'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 7\' का कथानक — \'आरोह भाग-2 — पाठ 7\' — आरोह भाग-2 का पाठ। पाठ का कथानक,',
+                  options: ['\'आरोह भाग-2 — पाठ 7\' का कथानक — \'आरोह भाग-2 — पाठ 7\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 7\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', '\'आरोह भाग-2 — पाठ 7\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
                   hint: 'यदि अटके तो **c11_hin_ar_cbse_13_006 (अलंकार)** और **c11_hin_ar_cbse_13_004 (रस)** को दोबारा पढ़ें.',
                   misconception: '**छात्र अक्सर समझते हैं कि राम का विलाप \'कमज़ोरी\' या \'मोह-माया\' है**, क्योंकि वे राम को केवल \'ईश्वर/अवतार\' के फ्रेम में देखते हैं।.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**पुनः पढ़ें:** कक्षा 11 के नोड **c11_hin_ar_cbse_13_004 (जाग तुझको दूर जाना — केंद्रीय भाव और रस)** और.', '**अभ्यास करें:** इसी अध्याय के **c12_hin_ar_cbse_07_001 (पृष्ठभूमि और रचनाकार परिचय)** से तुलसीदास का \'लीला-दर्शन\'.', '**लिखित अभ्यास:** पद्यांश के **प्रत्येक पद का अन्वय (गद्य रूप) लिखें**, फिर **अलंकार-छंद-रस की सारणी बनाएँ**। 4.', '**पुनः निदान:** उपरोक्त **DIAGNOSTIC_QUESTION_4 और 5** को दोबारा हल करें — अबकी बार **\'विभाव-अनुभाव-व्यभिचारी\' और.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_003', difficulty: 'standard',
-          question: 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और.',
-          hint: 'यदि फंसें तो दोहा और चौपाई के मात्रा-pattern (24 मात्रा का दोहा, चौपाई की variability) और.',
-          misconception: 'छात्र अक्सर मानते हैं कि दोहा और चौपाई जैसे छंद-forms केवल सजावटी तत्व हैं या इनका चयन यादृच्छिक होता है; वे मानते हैं.',
+          question: '\'आरोह भाग-2 — पाठ 7\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण.',
+          hint: 'If stuck, review Class 11 "Text: Setting and Atmosphere" (c11_hin_ar_cbse_07_003).',
+          misconception: 'Students believe "setting = place name only" and "atmosphere = mood adjective only". They write: "Setting is village.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र',
-                  options: ['काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य में **केंद्रीय भाव** वह मूल संवेदना या विचार-धारा है जो सम्पूर्ण रचना को सूत्रबद्ध'],
-                  hint: 'यदि फंसें तो दोहा और चौपाई के मात्रा-pattern (24 मात्रा का दोहा, चौपाई की variability) और उनके.',
-                  misconception: 'छात्र अक्सर मानते हैं कि दोहा और चौपाई जैसे छंद-forms केवल सजावटी तत्व हैं या इनका चयन यादृच्छिक होता है; वे मानते हैं कि भाव केवल शब्दों.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 7\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित',
+                  options: ['\'आरोह भाग-2 — पाठ 7\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 7\' का कथानक — \'आरोह भाग-2 — पाठ 7\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 7\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।'],
+                  hint: 'If stuck, review Class 11 "Text: Setting and Atmosphere" (c11_hin_ar_cbse_07_003) — specifically.',
+                  misconception: 'Students believe "setting = place name only" and "atmosphere = mood adjective only". They write: "Setting is village.' }
           ],
-            remediations: { 'forms': { steps: ['छात्र से कहिए कि वह पद्यांश को धीरे-धीरे आवाज़ में पढ़े—प्रत्येक stanza के बाद रुके और महसूस करे कि उसकी आवाज़ में क्या.', 'जब राम रोते हैं, तो क्या वह बहती हुई लगती है?" इस अनुभव के बाद दोहा और चौपाई के संरचनात्मक अंतर पर लौटिए—इस तरह शारीरिक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'setting-place-name-only-and': { steps: ['If the student cannot move beyond "setting = village, atmosphere = sad": Step 1 — Have them re-read only the first.', 'Step 2 — Ask: "If you remove these words, what is lost?" Guide them to see the poem becomes abstract.', 'Step 3 — Give them a 3-column table: Column A = Textual phrase, Column B = Sense appealed to (sight/smell/etc.), Column.', 'Step 4 — Assign: Do the same for stanza 1 of "èkwr dgkS..." independently.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_004', difficulty: 'standard',
-          question: 'काव्य में **केंद्रीय भाव** वह मूल संवेदना या विचार-धारा है जो सम्पूर्ण रचना को.',
+          question: '\'आरोह भाग-2 — पाठ 7\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
           hint: 'यदि रस-सूत्र के अवयव भूल गए हों, तो **c11_hin_ar_cbse_16_004** (कक्षा 11 की \'आओ, मिलकर.',
           misconception: '**भ्रम:** *"करुण रस = केवल रोना/शोक व्यक्त करना।"* **वास्तविकता:** करुण रस की निष्पत्ति के लिए **विभाव-अनुभाव-व्यभिचारी.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'काव्य में **केंद्रीय भाव** वह मूल संवेदना या विचार-धारा है जो सम्पूर्ण रचना को सूत्रबद्ध',
-                  options: ['काव्य में **केंद्रीय भाव** वह मूल संवेदना या विचार-धारा है जो सम्पूर्ण रचना को सूत्रबद्ध', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'आरोह भाग-2 — पाठ 7\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।',
+                  options: ['\'आरोह भाग-2 — पाठ 7\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'आरोह भाग-2 — पाठ 7\' का कथानक — \'आरोह भाग-2 — पाठ 7\' — आरोह भाग-2 का पाठ। पाठ का कथानक,', '\'आरोह भाग-2 — पाठ 7\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित'],
                   hint: 'यदि रस-सूत्र के अवयव भूल गए हों, तो **c11_hin_ar_cbse_16_004** (कक्षा 11 की \'आओ, मिलकर बचाएँ\' कविता.',
                   misconception: '**भ्रम:** *"करुण रस = केवल रोना/शोक व्यक्त करना।"* **वास्तविकता:** करुण रस की निष्पत्ति के लिए **विभाव-अनुभाव-व्यभिचारी का सुसंगत संयोग**.' }
           ],
             remediations: { 'wrong-idea': { steps: ['**पुनः पढ़ो** c12_hin_ar_cbse_07_001 (पृष्ठभूमि/रचनाकार) — तुलसीदास का **भक्ति-दर्शन** समझो। 2.', '**अभ्यास करो** c12_hin_ar_cbse_07_002 (कथानक) — प्रसंग की **क्रमबद्धता** पक्की करो। 3.', '**लिखो** एक तालिका: विभाव (आलम्बन/उद्दीपन), अनुभाव (कायिक/सात्त्विक), व्यभिचारी — प्रत्येक के सामने पंक्ति-संदर्भ सहित।.', '**परीक्षण:** किसी मित्र को समझाओ कि *"राम का गिरना केवल नाटक नहीं, करुण रस का कायिक अनुभाव है"* — यदि तुम स्पष्ट कर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_005', difficulty: 'standard',
-          question: 'छंद काव्य की वह निश्चित संरचना है जिसमें प्रत्येक चरण (पंक्ति) में मात्राओं या.',
-          hint: 'यदि मात्रिक गणना में अटकें, तो **c11_hin_ar_cbse_16_005** के \'मात्रिक गणना अभ्यास\' खंड को.',
-          misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'छंद = कविता की कोई भी पंक्ति\'** और **\'लय = तुक (राइम)\'**। **वास्तविकता:**.',
+          question: '\'आरोह भाग-2 — पाठ 7\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को.',
+          hint: 'If stuck on locating evidence, review c12_hin_ar_cbse_07_002 (Plot) to map which poem.',
+          misconception: 'Students treat "supporting character analysis" as listing traits (loyal, brave, sad) rather than analyzing *structural.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'छंद काव्य की वह निश्चित संरचना है जिसमें प्रत्येक चरण (पंक्ति) में मात्राओं या वर्णों की',
-                  options: ['छंद काव्य की वह निश्चित संरचना है जिसमें प्रत्येक चरण (पंक्ति) में मात्राओं या वर्णों की', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
-                  hint: 'यदि मात्रिक गणना में अटकें, तो **c11_hin_ar_cbse_16_005** के \'मात्रिक गणना अभ्यास\' खंड को दोहराएं.',
-                  misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि **\'छंद = कविता की कोई भी पंक्ति\'** और **\'लय = तुक (राइम)\'**। **वास्तविकता:** - छंद **गणितीय.' }
+                { id: 'a', prompt: 'In the poem "y{e.k&ewPNkZ", which specific line shows Bharat\'s explicit rejection of royal comforts, and what single word in that line signals his ascetic.', answer: 'The line is "feyb u txr lgksnj Hkzkrk"',
+                  options: ['The line is "feyb u txr lgksnj Hkzkrk"', 'mgk¡ jke yfNeufg fugkjh'],
+                  hint: 'If stuck on locating evidence, review c12_hin_ar_cbse_07_002 (Plot) to map which poem covers which.',
+                  misconception: 'Students treat "supporting character analysis" as listing traits (loyal, brave, sad) rather than analyzing *structural function*.' },
+                { id: 'b', prompt: 'Explain in your own words why Tulsidas portrays Bharat weeping ("eu egq¡ tkr ljkgr") while receiving Rama\'s sandals, rather than showing him calm or resolute.', answer: 'Bharat\'s tears humanize his devotion',
+                  options: ['Bharat\'s tears humanize his devotion', 'it shows he is sad'],
+                  hint: 'If stuck on locating evidence, review c12_hin_ar_cbse_07_002 (Plot) to map which poem covers which.',
+                  misconception: 'Students treat "supporting character analysis" as listing traits (loyal, brave, sad) rather than analyzing *structural function*.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**मात्रिक गणना का दैनिक अभ्यास:** प्रतिदिन कवितावली के 2-2 चरणों की मात्रा गिनें (गुरु/लघु चिह्नित करें), यति स्थल पर.', '**लय-अनुभूति के लिए वाचन:** प्रत्येक पद को तीन बार पढ़ें — (क) द्रुत, (ख) मध्यम, (ग) विलंबित — और नोट करें कि कौन-सी.', '**पुनः निदान:** उपरोक्त **DIAGNOSTIC_QUESTION_3** (मात्रिक गणना) और **DIAGNOSTIC_QUESTION_4** (लय-भेद विश्लेषण) को फिर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-supporting-character-analysis': { steps: ['If a student gives trait-list answers: (1) Have them re-read the board marking scheme for "character analysis".', '(2) Assign a 5-minute drill: pick ONE doha about Bharat, write *only* the function sentence: "This line shows Bharat.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_ar_cbse_07_006', difficulty: 'standard',
-          question: 'अलंकार (Figure of Speech) वह साहित्यिक युक्ति है जिसमें शब्दों के विशेष.',
-          hint: 'यदि अटके तो **कक्षा 11 अंतरा के पाठ 13, 14, 15, 16 के अलंकार नोड्स (c11_hin_a_cbse_13_006.',
-          misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि **"मानो/ज्यों/इव" शब्द आते ही उपमा है** और **"है/होता है" आए तो रूपक** — जबकि.',
+          question: '\'आरोह भाग-2 — पाठ 7\' का मुख्य विषय — \'आरोह भाग-2 — पाठ 7\' का केंद्रीय भाव और.',
+          hint: 'If stuck, revisit the "Theme vs Topic" table in c11_hin_ar_cbse_07_006 and practice with.',
+          misconception: 'Students often think the primary theme is "Rama is God" or "Tulsidas wrote Ramcharitmanas" — i.e., they state the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'अलंकार (Figure of Speech) वह साहित्यिक युक्ति है जिसमें शब्दों के विशेष विन्यास,',
-                  options: ['अलंकार (Figure of Speech) वह साहित्यिक युक्ति है जिसमें शब्दों के विशेष विन्यास,', 'कवितावली गोस्वामी तुलसीदास रचित ब्रजभाषा का एक प्रबंध काव्य है जिसके उत्तरकांड से लिए गए', 'यह पद्यांश **तुलसीदास कृत \'कवितावली\' के उत्तरकांड** से लिया गया है, जिसमें **लक्ष्मण की', 'काव्य-संरचना कविता के संगठित रूप को संदर्भित करती है—जैसे stanza, पद्यांश, और समग्र'],
-                  hint: 'यदि अटके तो **कक्षा 11 अंतरा के पाठ 13, 14, 15, 16 के अलंकार नोड्स (c11_hin_a_cbse_13_006 आदि)**.',
-                  misconception: '**विशिष्ट भ्रांति**: छात्र मानते हैं कि **"मानो/ज्यों/इव" शब्द आते ही उपमा है** और **"है/होता है" आए तो रूपक** — जबकि तुलसीदास (और श्रेष्ठ.' }
+                { id: 'a', prompt: 'In the poem "fdlch fdlku", the line "isV gh dks ipr] cspr csVk&csVdh" (the arrow alone is the support, it saves again and again) appears.', answer: 'Step 1: Identify the symbol',
+                  options: ['Step 1: Identify the symbol', 'the arrow saves them', 'Rama is God', 'Tulsidas wrote Ramcharitmanas'],
+                  hint: 'If stuck, revisit the "Theme vs Topic" table in c11_hin_ar_cbse_07_006 and practice with the three.',
+                  misconception: 'Students often think the primary theme is "Rama is God" or "Tulsidas wrote Ramcharitmanas" — i.e., they state the *subject* or a *fact*.' }
           ],
-            remediations: { 'structure': { steps: ['**चरणबद्ध उपचार**: 1) छात्र को **पद-चिह्न (Marker words) भुलाकर** केवल **संरचना (Structure)** पर ध्यान देना सिखाएँ.', 'यदि हाँ → रूपक; यदि **तुलना स्पष्ट (Explicit comparison)** है → उपमा।" 2) **5-5 पंक्तियों** के दो समूह दें — एक उपमा.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'the-primary-theme-is-rama': { steps: ['If a student cannot distinguish theme from topic: 1) Give them three परिचित stories (e.g., Cinderella, Mahabharata,.', '2) Return to node c12_hin_ar_cbse_07_002 (Plot) and c12_hin_ar_cbse_07_004 (Protagonist) — have them list plot points.', '4) Re-diagnose with DIAGNOSTIC_QUESTION_2 after 2 days.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

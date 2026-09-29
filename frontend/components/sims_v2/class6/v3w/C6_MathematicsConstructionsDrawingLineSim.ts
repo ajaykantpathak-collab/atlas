@@ -6,13 +6,13 @@ import C6_MathematicsConstructionsDrawingLineSim from '../../../simulations/c6_1
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_mathematicsconstructionsdrawinglinesim: SimDef = {
     id: 'v3w_c6_mathematicsconstructionsdrawinglinesim',
-    title: 'Constructions Drawing Line',
+    title: 'Introduction to Geometric Construction',
     subtitle: 'This node covers the introduction to geometric tools and the basic concept of.',
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Geometric Construction',
     chapters: [],
     nodeIds: ['c6_math_ch11_113', 'c6_math_ch11_114', 'c6_math_ch11_115', 'c6_math_ch10_108', 'c6_math_ch07_080', 'c6_math_ch07_081', 'c6_math_ch11_118', 'c6_math_ch11_117', 'c6_math_ch07_070', 'c6_math_ch07_071', 'c6_math_ch07_072', 'c6_math_ch11_116', 'c6_math_ch10_105', 'c6_math_ch10_109'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you are asked to draw a perfect square on a piece of paper; if you just use a pencil, it might look.', goal: 'Master Constructions Drawing Line.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you are asked to draw a perfect square on a piece of paper; if you just use a pencil, it might look.', goal: 'Master Introduction to Geometric Construction.' },
     discovery: {
         question: 'What is a "line of symmetry" in a paper-cutting activity? [Recall]',
         options: ['It is the specific line along', 'overlapping', 'mirroring'],
@@ -77,7 +77,7 @@ export const w_c6_mathematicsconstructionsdrawinglinesim: SimDef = {
             { text: 'Use your ruler to draw a line connecting the two intersection points; this line passes through the 5cm mark.', faded: true, blankAnswer: 'A line crossing segment AB at the 5cm mark at a 90° angle.' }
             ] } },
         { type: 'dissect', nodeId: 'c6_math_ch11_114', title: 'Identify each idea',
-          dissect: { specimen: 'Constructions Drawing Line', spots: [
+          dissect: { specimen: 'Introduction to Geometric Construction', spots: [
             { id: 's1', label: 'Geometric construction is the systematic', prompt: 'Which idea is this? — Geometric construction is the systematic and precise process of drawing figures like.', answer: 'Geometric construction is the systematic', options: ['Geometric construction is the systematic', 'A line segment is the', 'Constructing an angle is the', 'Creating symmetric shapes involves constructing'] },
             { id: 's2', label: 'A line segment is the', prompt: 'Which idea is this? — A line segment is the shortest path between two distinct points on a surface, possessing.', answer: 'A line segment is the', options: ['A line segment is the', 'Geometric construction is the systematic', 'Constructing an angle is the', 'Creating symmetric shapes involves constructing'] },
             { id: 's3', label: 'Constructing an angle is the', prompt: 'Which idea is this? — Constructing an angle is the process of using a protractor and a straightedge to create a.', answer: 'Constructing an angle is the', options: ['Constructing an angle is the', 'Geometric construction is the systematic', 'A line segment is the', 'Creating symmetric shapes involves constructing'] },
@@ -86,7 +86,7 @@ export const w_c6_mathematicsconstructionsdrawinglinesim: SimDef = {
             { id: 's6', label: 'A perpendicular line is a', prompt: 'Which idea is this? — A perpendicular line is a line that meets another at a right angle (90°), while an angle.', answer: 'A perpendicular line is a', options: ['A perpendicular line is a', 'Geometric construction is the systematic', 'A line segment is the', 'Constructing an angle is the'] }
           ] } }
     ],
-    explore: { component: C6_MathematicsConstructionsDrawingLineSim, prompt: 'Explore the interactive — Constructions Drawing Line' },
+    explore: { component: C6_MathematicsConstructionsDrawingLineSim, prompt: 'Explore the interactive — Introduction to Geometric Construction' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_math_ch11_113', difficulty: 'standard',
           question: 'Geometric construction is the systematic and precise process of drawing figures.',

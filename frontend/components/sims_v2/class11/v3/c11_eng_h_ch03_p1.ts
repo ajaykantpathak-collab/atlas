@@ -19,7 +19,7 @@ export const c11_eng_h_ch03_p1: SimDef = {
         hook: 'This is a cold case, not a chronicle — every jump backward is a clue the 2005 scan was called in to read.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'Before You Read: Context and Background provides essential historical, cultural, and scientific information about King Tutankhamun, the discovery of his tomb, and modern forensic techniques (like.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Discovering Tut: the Saga Continues\' (Hornbill, ch. 3) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_03_001', title: 'Your mission',
@@ -29,33 +29,33 @@ export const c11_eng_h_ch03_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_03_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are a detective arriving at a 3,300-year-old crime scene where the evidence was badly handled by the first investigators in 1922.',
+          caseStudy: { intro: 'Start with the author of \'Discovering Tut: the Saga Continues\', then the period, then the literary context — background turns a text from a puzzle into a story.',
             decisions: [{ prompt: 'Who was Howard Carter and what is his connection to King Tutankhamun?', options: [
                 { text: 'Howard Carter was the British archaeologist who discovered Tutankhamun\'s nearly intact', outcome: 'Howard Carter was the British archaeologist who discovered Tutankhamun\'s nearly intact tomb in the.' },
                 { text: 'Carter was a pharaoh', outcome: 'Not quite — Students often think "context" means just memorizing dates and names (e.g., Tut died in 1323 BCE.', reveals: 'context-means-just-memorizing-dates' },
                 { text: 'Carter built the tomb', outcome: 'Not quite — Students often think "context" means just memorizing dates and names (e.g., Tut died in 1323 BCE.', reveals: 'context-means-just-memorizing-dates' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_03_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine standing in the Valley of the Kings at 6 p.m. on a January evening: the wind whips "ghostly dust devils," dark clouds scud across the sky, and the.',
+          caseStudy: { intro: 'Identify where and when \'Discovering Tut: the Saga Continues\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'Identify the specific time and date mentioned in the opening paragraph of the text, and name the two primary physical locations where the.', options: [
                 { text: 'The text states: "It was 6 p.m', outcome: 'The text states: "It was 6 p.m. on 5 January 2005." The two primary locations are the rock-cut tomb.' },
                 { text: 'Valley of the Kings', outcome: 'Not quite — Students often confuse *setting* (the where/when) with *atmosphere* (the mood), treating them.', reveals: 'students-often-confuse-setting-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_03_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re a detective meeting a 3,300-year-old "witness" who cannot speak — only his bones, burial goods, and the stories of those who found him can.',
+          caseStudy: { intro: 'Pick the central figure in \'Discovering Tut: the Saga Continues\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the primary textual evidence the author uses to establish King Tut\'s historical identity and lineage in the passage?', options: [
                 { text: 'The author establishes Tut\'s identity through: (1) his parentage', outcome: 'The author establishes Tut\'s identity through: (1) his parentage — "Amenhotep III — Tut\'s father.' },
                 { text: 'Amenhotep III — Tut\'s father or grandfather', outcome: 'Not quite — Students treat King Tut as a *fictional character* with personality traits (brave, curious, tragic).', reveals: 'students-treat-king-tut-as' },
                 { text: 'His son Amenhotep IV succeeded him', outcome: 'Not quite — Students treat King Tut as a *fictional character* with personality traits (brave, curious, tragic).', reveals: 'students-treat-king-tut-as' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_03_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are a forensic investigator reviewing a case file.',
+          caseStudy: { intro: 'Spot the secondary figures in \'Discovering Tut: the Saga Continues\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List the names of at least five supporting characters (individuals or groups) mentioned in the text "Discovering Tut: the Saga Continues,".', options: [
                 { text: 'Modern: Howard Carter (archaeologist), Zahi Hawass (Secretary General, Supreme Council of', outcome: 'Modern: Howard Carter (archaeologist), Zahi Hawass (Secretary General, Supreme Council.' },
                 { text: 'supporting characters', outcome: 'Not quite — Students often think "supporting characters" in non-fiction are only the living people (Carter.', reveals: 'supporting-characters-in-non-fiction' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_03_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you are a detective standing in the Valley of the Kings: the wind howls, the CT scanner hums, and a 3,300-year-old pharaoh lies before you.',
+          caseStudy: { intro: 'Ask what \'Discovering Tut: the Saga Continues\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'State the primary theme of "Discovering Tut: the Saga Continues" in one sentence using the formula: "The text explores [abstract concept].', options: [
                 { text: '**Correct answer:** The text explores the evolving relationship between scientific', outcome: '**Correct answer:** The text explores the evolving relationship between scientific investigation.' },
                 { text: 'The theme is King Tut\'s death', outcome: 'Not quite — Students often believe the primary theme is **"The mystery of Tutankhamun\'s death"** because the.', reveals: 'the-primary-theme-is-the' },
@@ -80,12 +80,12 @@ export const c11_eng_h_ch03_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_001', difficulty: 'standard',
-          question: 'Before You Read: Context and Background provides essential historical.',
+          question: '\'Discovering Tut: the Saga Continues\' (Hornbill, ch. 3) — the context and.',
           hint: 'Review the Class 6-8 History chapters on "Early Civilizations" (Mesopotamia/Egypt) and.',
           misconception: 'Students often think "context" means just memorizing dates and names (e.g., Tut died in 1323 BCE, Carter found tomb.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Before You Read: Context and Background provides essential historical, cultural, and',
-                  options: ['Before You Read: Context and Background provides essential historical, cultural, and', 'Plot is the sequence of events that make up a story, while narrative structure refers to', 'Setting refers to the time, place, and physical environment in', 'Character analysis of a protagonist in non-fiction narrative involves examining how the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'Discovering Tut: the Saga Continues\' (Hornbill, ch',
+                  options: ['\'Discovering Tut: the Saga Continues\' (Hornbill, ch', 'The plot/narrative arc of \'Discovering Tut: the Saga Continues\'', 'The setting of \'Discovering Tut: the Saga Continues\'', 'Character analysis in \'Discovering Tut: the Saga Continues\''],
                   hint: 'Review the Class 6-8 History chapters on "Early Civilizations" (Mesopotamia/Egypt) and the Class 10.',
                   misconception: 'Students often think "context" means just memorizing dates and names (e.g., Tut died in 1323 BCE, Carter found tomb in 1922).' }
           ],
@@ -106,18 +106,18 @@ export const c11_eng_h_ch03_p1: SimDef = {
           ],
             remediations: { 'context-means-just-memorizing-dates': { steps: ['If a student cannot explain the causal links, use a "Three-Card Timeline" activity: write each phase (Burial.', 'Ask the student to arrange them and draw arrows showing how each phase *caused* problems or opportunities for the next.', 'Verbally prompt: "Because Carter chiselled the mummy in 1922, what problem did the 2005 team face?" "Because Akhenaten.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_002', difficulty: 'standard',
-          question: 'Plot is the sequence of events that make up a story, while narrative structure.',
+          question: 'The plot/narrative arc of \'Discovering Tut: the Saga Continues\' — what happens.',
           hint: 'Review the plot diagram (Freytag\'s Pyramid) and practice labeling the stages in.',
           misconception: 'Students often treat the historical flashbacks (Akhenaten, Tut\'s restoration) as mere "background information" separate.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Plot is the sequence of events that make up a story, while narrative structure refers to',
-                  options: ['Plot is the sequence of events that make up a story, while narrative structure refers to', 'Before You Read: Context and Background provides essential historical, cultural, and', 'Setting refers to the time, place, and physical environment in', 'Character analysis of a protagonist in non-fiction narrative involves examining how the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The plot/narrative arc of \'Discovering Tut: the Saga Continues\'',
+                  options: ['The plot/narrative arc of \'Discovering Tut: the Saga Continues\'', '\'Discovering Tut: the Saga Continues\' (Hornbill, ch', 'The setting of \'Discovering Tut: the Saga Continues\'', 'Character analysis in \'Discovering Tut: the Saga Continues\''],
                   hint: 'Review the plot diagram (Freytag\'s Pyramid) and practice labeling the stages in a familiar Class 10.',
                   misconception: 'Students often treat the historical flashbacks (Akhenaten, Tut\'s restoration) as mere "background information" separate from the main plot.' }
           ],
             remediations: { 'students-often-treat-the-historical': { steps: ['Have the student create a two-column table: left column = events in text order, right column = same events.', 'Ask them to draw arrows connecting each flashback to the modern investigation question it answers (e.g., Akhenaten\'s.', 'Practice writing one analytical sentence per flashback using the stem: "The flashback to _____ serves the investigation.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and physical environment in which.',
+          question: 'The setting of \'Discovering Tut: the Saga Continues\' — the place, time and.',
           hint: 'If stuck, review "Sensory Imagery and Suspense Building" (c7_engl_ch04_008) and practice.',
           misconception: 'Students often confuse *setting* (the where/when) with *atmosphere* (the mood), treating them as interchangeable.',
           parts: [
@@ -128,7 +128,7 @@ export const c11_eng_h_ch03_p1: SimDef = {
           ],
             remediations: { 'students-often-confuse-setting-the': { steps: ['Have the student reread only the first paragraph and underline every sensory detail (wind, dust devils, clouds, sky.', 'Ask: "What single mood do these details *together* create?', 'Find the word in the text that names it." (Answer: "eerie" appears later but is prepared here).', 'Give a two-column table: Column A = Sensory Detail, Column B = Mood Contribution.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_004', difficulty: 'standard',
-          question: 'Character analysis of a protagonist in non-fiction narrative involves examining.',
+          question: 'Character analysis in \'Discovering Tut: the Saga Continues\' — the central.',
           hint: 'If stuck, review c11_eng_h_cbse_03_002 (Plot and Narrative Structure) to map the two.',
           misconception: 'Students treat King Tut as a *fictional character* with personality traits (brave, curious, tragic) rather than.',
           parts: [
@@ -143,7 +143,7 @@ export const c11_eng_h_ch03_p1: SimDef = {
           ],
             remediations: { 'students-treat-king-tut-as': { steps: ['Have the student re-read the opening paragraph and list: *What does the text say Tut DID vs.', 'what OTHERS did TO/ABOUT him?* (He died, was buried, changed name, ruled 9 years — 4 actions.', 'Others: discovered, scanned, chiselled, X-rayed, carried, joked about curse — 6+ actions).', 'Create a two-column table: "Direct Evidence from Tut\'s Time" (garlands, gold, name change, 9-year reign) vs.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters in a non-fiction narrative involves.',
+          question: 'Supporting characters in \'Discovering Tut: the Saga Continues\' — the secondary.',
           hint: 'Re-read the text with a highlighter: mark every proper noun referring to a person.',
           misconception: 'Students often think "supporting characters" in non-fiction are only the living people (Carter, Hawass).',
           parts: [
@@ -158,7 +158,7 @@ export const c11_eng_h_ch03_p1: SimDef = {
           ],
             remediations: { 'supporting-characters-in-non-fiction': { steps: ['If the student lists only modern figures: Ask, "Who are the people from Tut\'s family tree discussed in the text?', 'How does the author characterize Akhenaten through Ray Johnson\'s words?" Guide them to see that Johnson\'s "wacky" and.', 'If the student writes biography: Model the difference.', '"Biography: Carter discovered the tomb in 1922.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_03_006', difficulty: 'standard',
-          question: 'The primary theme of a literary text is the central, unifying idea or insight.',
+          question: 'The primary theme of \'Discovering Tut: the Saga Continues\' — the central idea.',
           hint: 'If stuck, re-read the "Understanding the text" Q1(iv) and Q2(iv) in the NCERT — they.',
           misconception: 'Students often believe the primary theme is **"The mystery of Tutankhamun\'s death"** because the chapter discusses.',
           parts: [

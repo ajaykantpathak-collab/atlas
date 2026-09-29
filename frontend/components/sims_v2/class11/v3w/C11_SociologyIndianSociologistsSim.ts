@@ -6,13 +6,13 @@ import C11_SociologyIndianSociologistsSim from '../../../simulations/c6_12/C11_S
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_sociologyindiansociologistssim: SimDef = {
     id: 'v3w_c11_sociologyindiansociologistssim',
-    title: 'Indian Sociologists',
+    title: 'Origin and Institutional History of Sociology in India: Bombay and Calcutta Departments',
     subtitle: 'This node covers the origin and early institutional history (1919-1950s) of sociology.',
     classLevel: 11, subject: 'sociology', topic: 'Origin and Institutional History of Sociology in India: Bombay and Calcutta Departments',
     chapters: [],
     nodeIds: ['c11_soc_cbse_10_001', 'c11_soc_cbse_10_002', 'c11_soc_cbse_10_003', 'c11_soc_cbse_10_004', 'c11_soc_cbse_10_006', 'c11_soc_cbse_10_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a student in 1919 Bombay: sociology doesn\'t exist as a subject in any Indian university, yet.', goal: 'Master Indian Sociologists.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are a student in 1919 Bombay: sociology doesn\'t exist as a subject in any Indian university, yet.', goal: 'Master Origin and Institutional History of Sociology in India: Bombay and Calcutta Departments.' },
     discovery: {
         question: 'Explain why the University of Calcutta\'s early association with sociology was through an anthropology department rather than a sociology department, and how.',
         options: ['Calcutta\'s first engagement was through anthropology', 'tribal/native', 'modern/civilised'],
@@ -81,7 +81,7 @@ export const w_c11_sociologyindiansociologistssim: SimDef = {
             { text: 'Verify living tradition — the core myth (shruti) remains, the customary practice (smriti) adapted via collective.', faded: true, blankAnswer: 'Shruti = Ayyanar protector myth; Smriti (old) = male-only.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_soc_cbse_10_002', title: 'Identify each idea',
-          dissect: { specimen: 'Indian Sociologists', spots: [
+          dissect: { specimen: 'Origin and Institutional History of Sociology in India: Bombay and Calcutta Departments', spots: [
             { id: 's1', label: 'The institutional history of sociology', prompt: 'Which idea is this? — The institutional history of sociology in India refers to the formal establishment and.', answer: 'The institutional history of sociology', options: ['The institutional history of sociology', 'The colonial context of Indian', 'Accidental Pioneers refers to scholars', 'GS Ghurye 18931983 is the'] },
             { id: 's2', label: 'The colonial context of Indian', prompt: 'Which idea is this? — The colonial context of Indian modernity refers to the historical condition where India\'s.', answer: 'The colonial context of Indian', options: ['The colonial context of Indian', 'The institutional history of sociology', 'Accidental Pioneers refers to scholars', 'GS Ghurye 18931983 is the'] },
             { id: 's3', label: 'Accidental Pioneers refers to scholars', prompt: 'Which idea is this? — Accidental Pioneers refers to scholars like L.K. Ananthakrishna Iyer and Sarat Chandra.', answer: 'Accidental Pioneers refers to scholars', options: ['Accidental Pioneers refers to scholars', 'The institutional history of sociology', 'The colonial context of Indian', 'GS Ghurye 18931983 is the'] },
@@ -90,7 +90,7 @@ export const w_c11_sociologyindiansociologistssim: SimDef = {
             { id: 's6', label: 'DP Mukerjis concept of living', prompt: 'Which idea is this? — D.P. Mukerji\'s concept of \'living tradition\' refers to a dynamic social process where.', answer: 'DP Mukerjis concept of living', options: ['DP Mukerjis concept of living', 'The institutional history of sociology', 'The colonial context of Indian', 'Accidental Pioneers refers to scholars'] }
           ] } }
     ],
-    explore: { component: C11_SociologyIndianSociologistsSim, prompt: 'Explore the interactive — Indian Sociologists' },
+    explore: { component: C11_SociologyIndianSociologistsSim, prompt: 'Explore the interactive — Origin and Institutional History of Sociology in India: Bombay and Calcutta Departments' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_soc_cbse_10_001', difficulty: 'standard',
           question: 'The institutional history of sociology in India refers to the formal.',

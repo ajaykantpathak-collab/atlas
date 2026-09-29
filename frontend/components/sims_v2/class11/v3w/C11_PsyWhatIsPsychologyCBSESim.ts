@@ -6,13 +6,13 @@ import C11_PsyWhatIsPsychologyCBSESim from '../../../simulations/c6_12_new/C11_P
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_psywhatispsychologycbsesim: SimDef = {
     id: 'v3w_c11_psywhatispsychologycbsesim',
-    title: 'Psy What Is Psychology CBSE',
+    title: 'Functionalism: William James and Stream of Consciousness',
     subtitle: 'This node covers William James\'s functionalism, the stream of consciousness concept.',
     classLevel: 11, subject: 'science', topic: 'Functionalism: William James and Stream of Consciousness',
     chapters: [],
     nodeIds: ['c11_psy_cbse_01_005', 'c11_psy_cbse_06_008', 'c11_psy_cbse_03_004'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re watching a cricket match on TV while simultaneously thinking about your upcoming exam, hearing.', goal: 'Master Psy What Is Psychology CBSE.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re watching a cricket match on TV while simultaneously thinking about your upcoming exam, hearing.', goal: 'Master Functionalism: William James and Stream of Consciousness.' },
     discovery: {
         question: 'Critique this statement using James\'s principles: "Since consciousness is a continuous stream, we can never scientifically study it—science requires fixed,.',
         options: ['Invalid criticism', 'stream of consciousness', 'stream of thought'],
@@ -52,13 +52,13 @@ export const w_c11_psywhatispsychologycbsesim: SimDef = {
             { text: 'Reflect on how this assessment uses reflex integration as a window into CNS maturation.', faded: true, blankAnswer: '(a) Typical — rooting normally gone by 3–6 mo. (b) Typical.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_psy_cbse_06_008', title: 'Identify each idea',
-          dissect: { specimen: 'Psy What Is Psychology CBSE', spots: [
+          dissect: { specimen: 'Functionalism: William James and Stream of Consciousness', spots: [
             { id: 's1', label: 'Functionalism is a school of', prompt: 'Which idea is this? — Functionalism is a school of psychology founded by William James that studies the.', answer: 'Functionalism is a school of', options: ['Functionalism is a school of', 'Memory as a constructive process', 'Neonate and infant reflexes are'] },
             { id: 's2', label: 'Memory as a constructive process', prompt: 'Which idea is this? — Memory as a constructive process refers to the understanding that memory is not a.', answer: 'Memory as a constructive process', options: ['Memory as a constructive process', 'Functionalism is a school of', 'Neonate and infant reflexes are'] },
             { id: 's3', label: 'Neonate and infant reflexes are', prompt: 'Which idea is this? — Neonate and infant reflexes are involuntary, automatic motor responses to specific.', answer: 'Neonate and infant reflexes are', options: ['Neonate and infant reflexes are', 'Functionalism is a school of', 'Memory as a constructive process'] }
           ] } }
     ],
-    explore: { component: C11_PsyWhatIsPsychologyCBSESim, prompt: 'Explore the interactive — Psy What Is Psychology CBSE' },
+    explore: { component: C11_PsyWhatIsPsychologyCBSESim, prompt: 'Explore the interactive — Functionalism: William James and Stream of Consciousness' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_psy_cbse_01_005', difficulty: 'standard',
           question: 'Functionalism is a school of psychology founded by William James that studies.',

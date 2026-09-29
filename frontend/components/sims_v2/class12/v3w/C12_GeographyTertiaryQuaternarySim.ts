@@ -6,13 +6,13 @@ import C12_GeographyTertiaryQuaternarySim from '../../../simulations/c6_12/C12_G
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_geographytertiaryquaternarysim: SimDef = {
     id: 'v3w_c12_geographytertiaryquaternarysim',
-    title: 'Tertiary Quaternary',
+    title: 'Tertiary Activities: Definition and Types',
     subtitle: 'Covers: definition, key characteristics (intangibility, non-storability, simultaneity of.',
     classLevel: 12, subject: 'geography', topic: 'Tertiary Activities: Definition and Types',
     chapters: [],
     nodeIds: ['c12_geo_cbse_07_001', 'c12_geo_cbse_07_002', 'c12_geo_cbse_07_005', 'c12_geo_cbse_07_006', 'c12_geo_cbse_07_007', 'c12_geo_cbse_07_010', 'c12_geo_cbse_07_011', 'c12_geo_cbse_06_007', 'c12_geo_cbse_06_011', 'c12_geo_cbse_02_009', 'c12_geo_cbse_07_009', 'c12_geo_cbse_07_003', 'c12_geo_cbse_07_004', 'c12_geo_cbse_06_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a typical urban morning: a student uses a metro (transport), checks WhatsApp (communication), buys.', goal: 'Master Tertiary Quaternary.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a typical urban morning: a student uses a metro (transport), checks WhatsApp (communication), buys.', goal: 'Master Tertiary Activities: Definition and Types.' },
     discovery: {
         question: 'Evaluate the statement: "India\'s tertiary sector contributes ~54% to GDP but employs only ~32% of the workforce (PLFS 2022-23); therefore, tertiary growth has.',
         options: ['Correct evaluation: "Partly true but incomplete', 'A wrong answer blaming only', 'ignores structural dualism'],
@@ -81,7 +81,7 @@ export const w_c12_geographytertiaryquaternarysim: SimDef = {
             { text: 'Synthesize into a viability report: the city meets educational threshold but needs digital infrastructure upgrade and.', faded: true, blankAnswer: 'Coimbatore has strong engineering colleges and.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_geo_cbse_07_002', title: 'Identify each idea',
-          dissect: { specimen: 'Tertiary Quaternary', spots: [
+          dissect: { specimen: 'Tertiary Activities: Definition and Types', spots: [
             { id: 's1', label: 'Tertiary activities are service-sector economic', prompt: 'Which idea is this? — Tertiary activities are service-sector economic activities that provide intangible.', answer: 'Tertiary activities are service-sector economic', options: ['Tertiary activities are service-sector economic', 'Trade and commerce as tertiary', 'Professional business and personal services', 'Quaternary activities are knowledge-based economic'] },
             { id: 's2', label: 'Trade and commerce as tertiary', prompt: 'Which idea is this? — Trade and commerce as tertiary activities refer to the buying, selling, and exchange of.', answer: 'Trade and commerce as tertiary', options: ['Trade and commerce as tertiary', 'Tertiary activities are service-sector economic', 'Professional business and personal services', 'Quaternary activities are knowledge-based economic'] },
             { id: 's3', label: 'Professional business and personal services', prompt: 'Which idea is this? — Professional, business, and personal services are specialized tertiary activities that.', answer: 'Professional business and personal services', options: ['Professional business and personal services', 'Tertiary activities are service-sector economic', 'Trade and commerce as tertiary', 'Quaternary activities are knowledge-based economic'] },
@@ -89,7 +89,7 @@ export const w_c12_geographytertiaryquaternarysim: SimDef = {
             { id: 's5', label: 'Quaternary activities involve highly skilled', prompt: 'Which idea is this? — Quaternary activities involve highly skilled professionals engaged in knowledge-based.', answer: 'Quaternary activities involve highly skilled', options: ['Quaternary activities involve highly skilled', 'Tertiary activities are service-sector economic', 'Trade and commerce as tertiary', 'Professional business and personal services'] }
           ] } }
     ],
-    explore: { component: C12_GeographyTertiaryQuaternarySim, prompt: 'Explore the interactive — Tertiary Quaternary' },
+    explore: { component: C12_GeographyTertiaryQuaternarySim, prompt: 'Explore the interactive — Tertiary Activities: Definition and Types' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_geo_cbse_07_001', difficulty: 'standard',
           question: 'Tertiary activities are service-sector economic activities that provide.',

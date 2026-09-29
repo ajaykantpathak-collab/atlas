@@ -19,31 +19,31 @@ export const c11_eng_w_ch05_p3: SimDef = {
         hook: 'A motif that returns at exposition, climax and resolution isn\'t decoration — it\'s the story\'s pulse.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical Thinking: Analysis and Interpretation is the disciplined process of examining a literary text beyond its surface narrative to uncover implicit meanings, evaluate authorial choices, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Pappachi\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_05_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Trace the pigeon motif through the arc\'s nodes and show how the resumed morning ritual has quietly changed by the end.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_05_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re asked in the board exam: "The moth in the story is not just an insect; it is a metaphor for Pappachi\'s fractured ego." How would you begin?',
+          caseStudy: { intro: 'Analyse \'Pappachi\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'Define "dramatic irony" as it operates in "Pappachi\'s Moth" and give one precise example from the text where the reader knows more than.', options: [
                 { text: 'Dramatic irony occurs when the audience possesses knowledge that a character lacks,', outcome: 'Dramatic irony occurs when the audience possesses knowledge that a character lacks, creating.' },
                 { text: 'critical analysis', outcome: 'Not quite — Students believe "critical analysis" means finding *one* hidden meaning the author "intended".', reveals: 'critical-analysis-means-finding-one' },
                 { text: 'intended', outcome: 'Not quite — Students believe "critical analysis" means finding *one* hidden meaning the author "intended".', reveals: 'critical-analysis-means-finding-one' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_05_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are staring at a 6-mark question: "How does the author succeed in raising crucial social issues not through open criticism but through subtle.',
+          caseStudy: { intro: 'For written answers on \'Pappachi\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing literature answers?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explain, Line', outcome: 'Not quite — Students believe "writing a good answer" means retelling the story in order — "First Pappachi.', reveals: 'writing-a-good-answer-means' },
                 { text: 'writing a good answer', outcome: 'Not quite — Students believe "writing a good answer" means retelling the story in order — "First Pappachi.', reveals: 'writing-a-good-answer-means' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_05_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a literature circle where everyone has read "Pappachi\'s Moth" but disagrees on whether Chacko\'s physical intervention was justified or.',
+          caseStudy: { intro: 'Talk through \'Pappachi\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the three specific discussion prompts listed under "TALKING ABOUT THE TEXT" in the NCERT textbook for "Pappachi\'s Moth"?', options: [
                 { text: 'The three prompts are: (1) Chacko\'s firmness in dealing with the irrational behaviour of', outcome: 'The three prompts are: (1) Chacko\'s firmness in dealing with the irrational behaviour of his.' },
                 { text: 'discussion', outcome: 'Not quite — Students believe "discussion" means sharing personal opinions ("I feel bad for Mammachi") rather.', reveals: 'discussion-means-sharing-personal-opinions' },
@@ -63,12 +63,12 @@ export const c11_eng_w_ch05_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_05_013', difficulty: 'standard',
-          question: 'Critical Thinking: Analysis and Interpretation is the disciplined process.',
+          question: 'Critical thinking on \'Pappachi\' — analysing the text to reach evidence-based.',
           hint: 'Review c11_eng_w_cbse_05_009 (Irony and Symbolism) — re-do the "match device to effect".',
           misconception: 'Students believe "critical analysis" means finding *one* hidden meaning the author "intended" (e.g., "the moth.',
           parts: [
@@ -77,7 +77,7 @@ export const c11_eng_w_ch05_p3: SimDef = {
                   hint: 'Review c11_eng_w_cbse_05_009 (Irony and Symbolism) — re-do the "match device to effect" exercise.',
                   misconception: 'Students believe "critical analysis" means finding *one* hidden meaning the author "intended" (e.g., "the moth = death").' }
           ],
-            remediations: { 'critical-analysis-means-finding-one': { steps: ['If a student reduces symbols to single meanings: (1) Give them a 3-column table: Column A = textual detail.', '(2) Model with the moth: Detail = "named after Acting Director he disliked" → Context = professional betrayal →.', '(3) Require them to find 2 details for *each* of 3 symbols (moth, Plymouth, violin) that support *different* readings.', '(4) Have them write one paragraph synthesizing the tension: "While the moth initially represents X, its posthumous.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-finding-one': { steps: ['If a student reduces symbols to single meanings: (1) Give them a 3-column table: Column A = textual detail.', '(2) Model with the moth: Detail = "named after Acting Director he disliked" → Context = professional betrayal →.', '(3) Require them to find 2 details for *each* of 3 symbols (moth, Plymouth, violin) that support *different* readings.', '(4) Have them write one paragraph synthesizing the tension: "While the moth initially represents X, its posthumous.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_05_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -88,9 +88,9 @@ export const c11_eng_w_ch05_p3: SimDef = {
                   hint: 'Review c11_eng_w_cbse_05_009 (Irony and Symbolism) — re-do the "match device to effect" exercise.',
                   misconception: 'Students believe "critical analysis" means finding *one* hidden meaning the author "intended" (e.g., "the moth = death").' }
           ],
-            remediations: { 'critical-analysis-means-finding-one': { steps: ['If a student reduces symbols to single meanings: (1) Give them a 3-column table: Column A = textual detail.', '(2) Model with the moth: Detail = "named after Acting Director he disliked" → Context = professional betrayal →.', '(3) Require them to find 2 details for *each* of 3 symbols (moth, Plymouth, violin) that support *different* readings.', '(4) Have them write one paragraph synthesizing the tension: "While the moth initially represents X, its posthumous.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'critical-analysis-means-finding-one': { steps: ['If a student reduces symbols to single meanings: (1) Give them a 3-column table: Column A = textual detail.', '(2) Model with the moth: Detail = "named after Acting Director he disliked" → Context = professional betrayal →.', '(3) Require them to find 2 details for *each* of 3 symbols (moth, Plymouth, violin) that support *different* readings.', '(4) Have them write one paragraph synthesizing the tension: "While the moth initially represents X, its posthumous.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_05_014', difficulty: 'standard',
-          question: 'Writing skills based on the chapter refer to the ability to compose structured.',
+          question: 'Writing skills from \'Pappachi\' — using the text as a model or springboard for.',
           hint: 'If stuck, review c8_engl_ch1_17 (PEEL method for poems) and c11_eng_w_cbse_05_009.',
           misconception: 'Students believe "writing a good answer" means retelling the story in order — "First Pappachi retired, then Mammachi.',
           parts: [
@@ -103,9 +103,9 @@ export const c11_eng_w_ch05_p3: SimDef = {
                   hint: 'If stuck, review c8_engl_ch1_17 (PEEL method for poems) and c11_eng_w_cbse_05_009 (irony/symbolism.',
                   misconception: 'Students believe "writing a good answer" means retelling the story in order — "First Pappachi retired, then Mammachi made pickles, then.' }
           ],
-            remediations: { 'writing-a-good-answer-means': { steps: ['Show the student a side-by-side comparison: a 2-mark narrative answer vs a 6-mark analytical answer on the *same.', 'Highlight every sentence in the strong answer as P, E, E, or L.', 'Give them a "PEEL template" with sentence starters: "The author suggests that...', '[Point] This is seen when...'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-a-good-answer-means': { steps: ['Show the student a side-by-side comparison: a 2-mark narrative answer vs a 6-mark analytical answer on the *same.', 'Highlight every sentence in the strong answer as P, E, E, or L.', 'Give them a "PEEL template" with sentence starters: "The author suggests that...', '[Point] This is seen when...'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_05_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'Pappachi\' — speaking and listening around the text.',
           hint: 'If stuck, review c11_eng_w_cbse_05_012 (literal/inferential comprehension) to rebuild.',
           misconception: 'Students believe "discussion" means sharing personal opinions ("I feel bad for Mammachi") rather than textual analysis.',
           parts: [
@@ -118,7 +118,7 @@ export const c11_eng_w_ch05_p3: SimDef = {
                   hint: 'If stuck, review c11_eng_w_cbse_05_012 (literal/inferential comprehension) to rebuild.',
                   misconception: 'Students believe "discussion" means sharing personal opinions ("I feel bad for Mammachi") rather than textual analysis ("The text shows.' }
           ],
-            remediations: { 'discussion-means-sharing-personal-opinions': { steps: ['If a student offers only opinion: 1) Pause and ask "Which line in the story makes you say that?" 2) Wait for them.', '3) If they cannot, model it: "When I argue Mammachi is resilient, I point to paragraph 2 where she \'decided to persist.', 'Repeat until they self-correct.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'discussion-means-sharing-personal-opinions': { steps: ['If a student offers only opinion: 1) Pause and ask "Which line in the story makes you say that?" 2) Wait for them.', '3) If they cannot, model it: "When I argue Mammachi is resilient, I point to paragraph 2 where she \'decided to persist.', 'Repeat until they self-correct.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

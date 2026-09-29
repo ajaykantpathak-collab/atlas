@@ -6,13 +6,13 @@ import C11_EconomicsMeasuresDispersionDefinitionSim from '../../../simulations/c
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_economicsmeasuresdispersiondefinitionsim: SimDef = {
     id: 'v3w_c11_economicsmeasuresdispersiondefinitionsim',
-    title: 'Measures Dispersion Definition',
+    title: 'State of India\'s Environment: Air Pollution and Quality',
     subtitle: 'Covers: sources and types of air pollutants in India (vehicular, industrial, thermal.',
     classLevel: 11, subject: 'economics', topic: 'State of India\'s Environment: Air Pollution and Quality',
     chapters: [],
     nodeIds: ['c11_eco_cbse_07_004', 'c11_eco_cbse_07_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at a busy Delhi intersection at 8 AM on a November morning — the air smells of.', goal: 'Master Measures Dispersion Definition.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at a busy Delhi intersection at 8 AM on a November morning — the air smells of.', goal: 'Master State of India\'s Environment: Air Pollution and Quality.' },
     discovery: {
         question: 'Analyze the following two scenarios and identify which violates carrying capacity and which violates absorptive capacity.',
         options: ['Correct analysis: Scenario A violates **carrying capacity** (extraction 15,000 >', 'pollution', 'renewable resources are unlimited and can never be exhausted'],
@@ -44,12 +44,12 @@ export const w_c11_economicsmeasuresdispersiondefinitionsim: SimDef = {
             { text: 'Economic interpretation: The forest is the limiting resource. At 120 households, biomass stock declines annually →.', faded: true, blankAnswer: 'Forest carrying capacity exceeded (600 > 500 tonnes/year);.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_eco_cbse_07_001', title: 'Identify each idea',
-          dissect: { specimen: 'Measures Dispersion Definition', spots: [
+          dissect: { specimen: 'State of India\'s Environment: Air Pollution and Quality', spots: [
             { id: 's1', label: 'Air pollution refers to the', prompt: 'Which idea is this? — Air pollution refers to the contamination of the atmosphere by harmful substances —.', answer: 'Air pollution refers to the', options: ['Air pollution refers to the', 'Environment is the total planetary'] },
             { id: 's2', label: 'Environment is the total planetary', prompt: 'Which idea is this? — Environment is the total planetary inheritance comprising the totality of all biotic.', answer: 'Environment is the total planetary', options: ['Environment is the total planetary', 'Air pollution refers to the'] }
           ] } }
     ],
-    explore: { component: C11_EconomicsMeasuresDispersionDefinitionSim, prompt: 'Explore the interactive — Measures Dispersion Definition' },
+    explore: { component: C11_EconomicsMeasuresDispersionDefinitionSim, prompt: 'Explore the interactive — State of India\'s Environment: Air Pollution and Quality' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eco_cbse_07_004', difficulty: 'standard',
           question: 'Air pollution refers to the contamination of the atmosphere by harmful.',

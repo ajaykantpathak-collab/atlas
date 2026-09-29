@@ -6,13 +6,13 @@ import C12_PsyTherapeuticApproachesCBSESim from '../../../simulations/c6_12_new/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_psytherapeuticapproachescbsesim: SimDef = {
     id: 'v3w_c12_psytherapeuticapproachescbsesim',
-    title: 'Psy Therapeutic Approaches CBSE',
+    title: 'Classification of Psychotherapies: Psychodynamic, Behavioural and Existential Parameters',
     subtitle: 'This node covers the six-parameter classification framework for the three major.',
     classLevel: 12, subject: 'science', topic: 'Classification of Psychotherapies: Psychodynamic, Behavioural and Existential Parameters',
     chapters: [],
     nodeIds: ['c12_psy_cbse_05_003', 'c12_psy_cbse_05_004', 'c12_psy_cbse_05_008', 'c12_psy_cbse_05_010', 'c12_psy_cbse_05_001', 'c12_psy_cbse_05_002', 'c12_psy_cbse_05_009', 'c12_psy_cbse_05_006', 'c12_psy_cbse_05_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a Class 12 student, Rohan, who experiences intense anxiety before exams.', goal: 'Master Psy Therapeutic Approaches CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a Class 12 student, Rohan, who experiences intense anxiety before exams.', goal: 'Master Classification of Psychotherapies: Psychodynamic, Behavioural and Existential Parameters.' },
     discovery: {
         question: 'A client seeks therapy for social anxiety. The therapist focuses on "faulty conditioning patterns" and "maladaptive thought patterns" acquired through.',
         options: ['This therapist follows behavioural therapy', 'faulty learning of behaviours and cognitions', 'intrapsychic conflicts from childhood'],
@@ -83,7 +83,7 @@ export const w_c12_psytherapeuticapproachescbsesim: SimDef = {
             { text: 'Verify the statement covers all three components without jargon.', faded: true, blankAnswer: '"Rohan, this is completely voluntary — we work together.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_psy_cbse_05_004', title: 'Identify each idea',
-          dissect: { specimen: 'Psy Therapeutic Approaches CBSE', spots: [
+          dissect: { specimen: 'Classification of Psychotherapies: Psychodynamic, Behavioural and Existential Parameters', spots: [
             { id: 's1', label: 'Classification of psychotherapies is the', prompt: 'Which idea is this? — Classification of psychotherapies is the systematic categorisation of therapeutic.', answer: 'Classification of psychotherapies is the', options: ['Classification of psychotherapies is the', 'Behaviour therapy is a therapeutic', 'Humanistic-existential therapy is a non-directive', 'Gestalt Therapy developed by Fritz'] },
             { id: 's2', label: 'Behaviour therapy is a therapeutic', prompt: 'Which idea is this? — Behaviour therapy is a therapeutic approach based on learning theory principles that.', answer: 'Behaviour therapy is a therapeutic', options: ['Behaviour therapy is a therapeutic', 'Classification of psychotherapies is the', 'Humanistic-existential therapy is a non-directive', 'Gestalt Therapy developed by Fritz'] },
             { id: 's3', label: 'Humanistic-existential therapy is a non-directive', prompt: 'Which idea is this? — Humanistic-existential therapy is a non-directive, growth-oriented approach that views.', answer: 'Humanistic-existential therapy is a non-directive', options: ['Humanistic-existential therapy is a non-directive', 'Classification of psychotherapies is the', 'Behaviour therapy is a therapeutic', 'Gestalt Therapy developed by Fritz'] },
@@ -92,7 +92,7 @@ export const w_c12_psytherapeuticapproachescbsesim: SimDef = {
             { id: 's6', label: 'Therapeutic alliance is the collaborative', prompt: 'Which idea is this? — Therapeutic alliance is the collaborative, trusting, and confidential partnership between.', answer: 'Therapeutic alliance is the collaborative', options: ['Therapeutic alliance is the collaborative', 'Classification of psychotherapies is the', 'Behaviour therapy is a therapeutic', 'Humanistic-existential therapy is a non-directive'] }
           ] } }
     ],
-    explore: { component: C12_PsyTherapeuticApproachesCBSESim, prompt: 'Explore the interactive — Psy Therapeutic Approaches CBSE' },
+    explore: { component: C12_PsyTherapeuticApproachesCBSESim, prompt: 'Explore the interactive — Classification of Psychotherapies: Psychodynamic, Behavioural and Existential Parameters' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_psy_cbse_05_003', difficulty: 'standard',
           question: 'Classification of psychotherapies is the systematic categorisation of.',

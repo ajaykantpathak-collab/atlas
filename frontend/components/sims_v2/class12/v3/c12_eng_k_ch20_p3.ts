@@ -19,31 +19,31 @@ export const c12_eng_k_ch20_p3: SimDef = {
         hook: 'Tagore rewrote a crude legend of magic and lust into \'a psychological drama of intense spiritual conflict.\' Prakriti — named for nature\'s raw life-force — gets her humanity in Act I; Act II is the danger: freedom that hasn\'t learned to love without grasping. Self-humiliation, he wrote, is a sin worse than self-murder.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis refers to the disciplined process of actively examining, questioning, and evaluating a dramatic text to uncover deeper meanings, assess authorial choices, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'s devotion but from selfless love that respects the other\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_20_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Stage the collision: weigh the earth-spell against the monk\'s sadhana, track how gratitude curdles into possession, and judge who pays the price of a consciousness that overreached.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_20_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re watching Chandalika performed on stage: Prakriti sits by the well, the Mother chants spells, a mirror reflects a monk\'s agony miles away.',
+          caseStudy: { intro: 'Analyse \'s devotion but from selfless love that respects the other\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'What is the central dramatic irony in Act I of Chandalika regarding Prakriti\'s understanding of Ananda\'s "Give me water"?', options: [
                 { text: 'The dramatic irony is that Prakriti interprets Ananda\'s request for water as a personal', outcome: 'The dramatic irony is that Prakriti interprets Ananda\'s request for water as a personal call and.' },
                 { text: 'his word was given', outcome: 'Not quite — Students often read Prakriti\'s desire for Ananda as simple romantic/sexual lust, citing lines like.', reveals: 'students-often-read-prakriti-s' },
                 { text: 'passes by without recognising her', outcome: 'Not quite — Students often read Prakriti\'s desire for Ananda as simple romantic/sexual lust, citing lines like.', reveals: 'students-often-read-prakriti-s' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_20_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you face this board question: *"How does Tagore use the mirror as a dramatic device to reveal Prakriti’s inner turmoil?"* Most students freeze because.',
+          caseStudy: { intro: 'For written answers on \'s devotion but from selfless love that respects the other\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'Identify the four components of the PEEL structure used for writing analytical answers in Class 12 English.', options: [
                 { text: 'PEEL stands for Point (topic sentence stating the argument), Evidence (textual quote or', outcome: 'PEEL stands for Point (topic sentence stating the argument), Evidence (textual quote or reference).' },
                 { text: 'Plot, Event, Emotion, Lesson', outcome: 'Not quite — Students believe a "good answer" for *Chandalika* means quoting long passages from the play.', reveals: 'a-good-answer-for-chandalika' },
                 { text: 'good answer', outcome: 'Not quite — Students believe a "good answer" for *Chandalika* means quoting long passages from the play.', reveals: 'a-good-answer-for-chandalika' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_20_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a college seminar where everyone has read "Chandalika" and the professor asks: "Why does Prakriti\'s \'new birth\' lead to tragedy?" You need.',
+          caseStudy: { intro: 'Talk through \'s devotion but from selfless love that respects the other\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary purpose of a literary discussion in a Class 12 English classroom?', options: [
                 { text: 'The primary purpose is to collaboratively explore the text\'s meanings by sharing', outcome: 'The primary purpose is to collaboratively explore the text\'s meanings by sharing interpretations.' },
                 { text: 'to prove the teacher\'s interpretation is correct', outcome: 'Not quite — Students often think a literary discussion is about sharing personal opinions ("I feel Prakriti was.', reveals: 'a-literary-discussion-is-about' },
@@ -63,12 +63,12 @@ export const c12_eng_k_ch20_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis refers to the disciplined process.',
+          question: 'Critical thinking on \'s devotion but from selfless love that respects the.',
           hint: 'If stuck, return to c12_eng_k_cbse_20_009 (Irony and Symbolism) and re-analyse the.',
           misconception: 'Students often read Prakriti\'s desire for Ananda as simple romantic/sexual lust, citing lines like "I want him beyond.',
           parts: [
@@ -81,9 +81,9 @@ export const c12_eng_k_ch20_p3: SimDef = {
                   hint: 'If stuck, return to c12_eng_k_cbse_20_009 (Irony and Symbolism) and re-analyse the well-water and.',
                   misconception: 'Students often read Prakriti\'s desire for Ananda as simple romantic/sexual lust, citing lines like "I want him beyond all measure" and the.' }
           ],
-            remediations: { 'students-often-read-prakriti-s': { steps: ['If a student reduces Prakriti\'s desire to lust: (1) Have them re-read the Introduction\'s transformation statement.', 'transformed into a psychological drama of intense spiritual conflict").', '(2) Ask: "Why does Prakriti call Ananda \'my redeemer\' and \'my creator\' — what did he *create*?" (3) Direct them.', '(4) Assign a comparative writing task: "Contrast the Buddhist legend\'s \'lust of a chandal girl\' with Tagore\'s \'tragedy.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-read-prakriti-s': { steps: ['If a student reduces Prakriti\'s desire to lust: (1) Have them re-read the Introduction\'s transformation statement.', 'transformed into a psychological drama of intense spiritual conflict").', '(2) Ask: "Why does Prakriti call Ananda \'my redeemer\' and \'my creator\' — what did he *create*?" (3) Direct them.', '(4) Assign a comparative writing task: "Contrast the Buddhist legend\'s \'lust of a chandal girl\' with Tagore\'s \'tragedy.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_014', difficulty: 'standard',
-          question: 'Writing skills for *Chandalika* refer to the ability to compose structured.',
+          question: 'Writing skills from \'s devotion but from selfless love that respects the other\'.',
           hint: 'If stuck, revisit c12_eng_k_cbse_20_013 (Critical Thinking) to refresh theme/device.',
           misconception: 'Students believe a "good answer" for *Chandalika* means quoting long passages from the play.',
           parts: [
@@ -92,7 +92,7 @@ export const c12_eng_k_ch20_p3: SimDef = {
                   hint: 'If stuck, revisit c12_eng_k_cbse_20_013 (Critical Thinking) to refresh theme/device inventory, then.',
                   misconception: 'Students believe a "good answer" for *Chandalika* means quoting long passages from the play.' }
           ],
-            remediations: { 'a-good-answer-for-chandalika': { steps: ['If a student cannot distinguish summary from analysis, do this 15-minute drill: (1) Give them a 5-sentence plot summary.', '(2) Ask them to highlight every sentence that *interprets* rather than *narrates* — there will be zero.', '(3) Show a model PEEL paragraph on the same scene.', '(4) Have them convert one summary sentence into a Point+Evidence+Explanation triplet.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'a-good-answer-for-chandalika': { steps: ['If a student cannot distinguish summary from analysis, do this 15-minute drill: (1) Give them a 5-sentence plot summary.', '(2) Ask them to highlight every sentence that *interprets* rather than *narrates* — there will be zero.', '(3) Show a model PEEL paragraph on the same scene.', '(4) Have them convert one summary sentence into a Point+Evidence+Explanation triplet.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_014', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -103,9 +103,9 @@ export const c12_eng_k_ch20_p3: SimDef = {
                   hint: 'If stuck, revisit c12_eng_k_cbse_20_013 (Critical Thinking) to refresh theme/device inventory, then.',
                   misconception: 'Students believe a "good answer" for *Chandalika* means quoting long passages from the play.' }
           ],
-            remediations: { 'a-good-answer-for-chandalika': { steps: ['If a student cannot distinguish summary from analysis, do this 15-minute drill: (1) Give them a 5-sentence plot summary.', '(2) Ask them to highlight every sentence that *interprets* rather than *narrates* — there will be zero.', '(3) Show a model PEEL paragraph on the same scene.', '(4) Have them convert one summary sentence into a Point+Evidence+Explanation triplet.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'a-good-answer-for-chandalika': { steps: ['If a student cannot distinguish summary from analysis, do this 15-minute drill: (1) Give them a 5-sentence plot summary.', '(2) Ask them to highlight every sentence that *interprets* rather than *narrates* — there will be zero.', '(3) Show a model PEEL paragraph on the same scene.', '(4) Have them convert one summary sentence into a Point+Evidence+Explanation triplet.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_20_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to structured oral activities.',
+          question: 'Discussion points on \'s devotion but from selfless love that respects the.',
           hint: 'If stuck, revisit c12_eng_k_cbse_20_013 (Critical Thinking) for analytical frameworks and.',
           misconception: 'Students often think a literary discussion is about sharing personal opinions ("I feel Prakriti was wrong to use.',
           parts: [
@@ -118,7 +118,7 @@ export const c12_eng_k_ch20_p3: SimDef = {
                   hint: 'If stuck, revisit c12_eng_k_cbse_20_013 (Critical Thinking) for analytical frameworks and.',
                   misconception: 'Students often think a literary discussion is about sharing personal opinions ("I feel Prakriti was wrong to use magic") without anchoring.' }
           ],
-            remediations: { 'a-literary-discussion-is-about': { steps: ['If a student falls into this misconception, do this 3-step remediation: 1) Show a 2-minute video of a model literary.', '2) Give the student a "Discussion Evidence Card" with three columns: My Point | Textual Quote | Page/Act.', 'Have them fill it for one theme before the next discussion.', '3) In the next practice discussion, assign them the role of "Evidence Monitor" — they must note whether each speaker.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-literary-discussion-is-about': { steps: ['If a student falls into this misconception, do this 3-step remediation: 1) Show a 2-minute video of a model literary.', '2) Give the student a "Discussion Evidence Card" with three columns: My Point | Textual Quote | Page/Act.', 'Have them fill it for one theme before the next discussion.', '3) In the next practice discussion, assign them the role of "Evidence Monitor" — they must note whether each speaker.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

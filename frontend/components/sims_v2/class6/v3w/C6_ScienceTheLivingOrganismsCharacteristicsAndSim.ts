@@ -6,13 +6,13 @@ import C6_ScienceTheLivingOrganismsCharacteristicsAndSim from '../../../simulati
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_sciencethelivingorganismscharacteristicsandsim: SimDef = {
     id: 'v3w_c6_sciencethelivingorganismscharacteristicsandsim',
-    title: 'The Living Organisms Characteristics And',
+    title: 'What Are Materials and Why We Classify Them',
     subtitle: 'This node covers the biological necessity of oxygen for respiration and carbon for.',
-    classLevel: 6, subject: 'science', topic: 'Are Non-metals Essential for Life?',
+    classLevel: 6, subject: 'science', topic: 'What Are Materials and Why We Classify Them',
     chapters: [],
     nodeIds: ['c6_chemistry_ch04_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why we can build a house out of iron, but our own bodies are made of something.', goal: 'Master The Living Organisms Characteristics And.' },
+    scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why we can build a house out of iron, but our own bodies are made of something.', goal: 'Master What Are Materials and Why We Classify Them.' },
     discovery: {
         question: 'Why would a human be unable to survive for more than a few minutes without oxygen?',
         options: ['Oxygen is required for cells to perform respiration and extract energy from food', 'it keeps us cool', 'more important'],
@@ -32,7 +32,7 @@ export const w_c6_sciencethelivingorganismscharacteristicsandsim: SimDef = {
             { text: 'Group them based on these two categories.', faded: true, blankAnswer: 'Structural: Iron nail, Gold ring, Copper wire;.' }
             ] } }
     ],
-    explore: { component: C6_ScienceTheLivingOrganismsCharacteristicsAndSim, prompt: 'Explore the interactive — The Living Organisms Characteristics And' },
+    explore: { component: C6_ScienceTheLivingOrganismsCharacteristicsAndSim, prompt: 'Explore the interactive — What Are Materials and Why We Classify Them' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_chemistry_ch04_006', difficulty: 'standard',
           question: 'Non-metals are materials that are essential for supporting biological life.',

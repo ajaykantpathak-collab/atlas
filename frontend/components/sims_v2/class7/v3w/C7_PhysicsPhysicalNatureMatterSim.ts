@@ -6,13 +6,13 @@ import C7_PhysicsPhysicalNatureMatterSim from '../../../simulations/c6_12/C7_Phy
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_physicsphysicalnaturemattersim: SimDef = {
     id: 'v3w_c7_physicsphysicalnaturemattersim',
-    title: 'Physical Nature Matter',
+    title: 'Branches of Science: Physics, Chemistry, Biology, Earth Science',
     subtitle: 'Covers the identification and definition of physics as a distinct branch of natural.',
     classLevel: 7, subject: 'physics', topic: 'Branches of Science: Physics, Chemistry, Biology, Earth Science',
     chapters: [],
     nodeIds: ['c7_physics_ch01_006', 'c7_physics_ch05_002', 'c7_physics_ch01_002', 'c7_physics_ch01_008', 'c7_physics_ch01_010', 'c7_physics_ch04_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'When you look at a ceiling fan spinning in your classroom or a bicycle moving down an Indian street, you are.', goal: 'Master Physical Nature Matter.' },
+    scenario: { role: 'a class 7 learner', intro: 'When you look at a ceiling fan spinning in your classroom or a bicycle moving down an Indian street, you are.', goal: 'Master Branches of Science: Physics, Chemistry, Biology, Earth Science.' },
     discovery: {
         question: 'What term best describes the scientific habit of questioning established ideas and testing them against new evidence rather than accepting them blindly?',
         options: ['Scientific temper', 'memorization', 'assumption'],
@@ -78,7 +78,7 @@ export const w_c7_physicsphysicalnaturemattersim: SimDef = {
             { text: 'Verify if the speeds are equal across all intervals. Since $15\\text{ m/s} = 15\\text{ m/s} = 15\\text{ m/s}$, the motion.', faded: true, blankAnswer: 'Uniform motion; speed in all intervals is 15 m/s.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_physics_ch05_002', title: 'Identify each idea',
-          dissect: { specimen: 'Physical Nature Matter', spots: [
+          dissect: { specimen: 'Branches of Science: Physics, Chemistry, Biology, Earth Science', spots: [
             { id: 's1', label: 'Physics is the branch of', prompt: 'Which idea is this? — Physics is the branch of science that studies matter, energy, motion, force, and their.', answer: 'Physics is the branch of', options: ['Physics is the branch of', 'Luminous objects are those that', 'The interconnectedness of science disciplines', 'The role of experiments in'] },
             { id: 's2', label: 'Luminous objects are those that', prompt: 'Which idea is this? — Luminous objects are those that emit their own light by converting various forms of.', answer: 'Luminous objects are those that', options: ['Luminous objects are those that', 'Physics is the branch of', 'The interconnectedness of science disciplines', 'The role of experiments in'] },
             { id: 's3', label: 'The interconnectedness of science disciplines', prompt: 'Which idea is this? — The interconnectedness of science disciplines is the principle that natural phenomena.', answer: 'The interconnectedness of science disciplines', options: ['The interconnectedness of science disciplines', 'Physics is the branch of', 'Luminous objects are those that', 'The role of experiments in'] },
@@ -87,7 +87,7 @@ export const w_c7_physicsphysicalnaturemattersim: SimDef = {
             { id: 's6', label: 'Uniform linear motion is the', prompt: 'Which idea is this? — Uniform linear motion is the motion of an object along a straight line where it covers.', answer: 'Uniform linear motion is the', options: ['Uniform linear motion is the', 'Physics is the branch of', 'Luminous objects are those that', 'The interconnectedness of science disciplines'] }
           ] } }
     ],
-    explore: { component: C7_PhysicsPhysicalNatureMatterSim, prompt: 'Explore the interactive — Physical Nature Matter' },
+    explore: { component: C7_PhysicsPhysicalNatureMatterSim, prompt: 'Explore the interactive — Branches of Science: Physics, Chemistry, Biology, Earth Science' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_physics_ch01_006', difficulty: 'standard',
           question: 'Physics is the branch of science that studies matter, energy, motion, force,.',

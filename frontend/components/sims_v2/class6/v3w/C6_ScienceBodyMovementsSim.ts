@@ -6,13 +6,13 @@ import C6_ScienceBodyMovementsSim from '../../../simulations/c6_12/C6_ScienceBod
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_sciencebodymovementssim: SimDef = {
     id: 'v3w_c6_sciencebodymovementssim',
-    title: 'Body Movements',
+    title: 'Respiration and Circulation: How Oxygen Reaches Cells',
     subtitle: 'This node covers the transport of oxygen via the circulatory system.',
     classLevel: 6, subject: 'science', topic: 'Respiration and Circulation: How Oxygen Reaches Cells',
     chapters: [],
     nodeIds: ['c6_biology_ch09_008', 'c6_biology_ch09_001', 'c6_biology_ch09_003', 'c6_biology_ch09_004', 'c6_biology_ch09_005', 'c6_biology_ch09_007', 'c6_physics_ch12_049', 'c6_physics_ch07_019', 'c6_physics_ch07_020', 'c6_physics_ch07_022', 'c6_physics_ch07_021', 'c6_physics_ch12_048', 'c6_physics_ch07_024'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine you are waiting for a delivery of a parcel at your home.', goal: 'Master Body Movements.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine you are waiting for a delivery of a parcel at your home.', goal: 'Master Respiration and Circulation: How Oxygen Reaches Cells.' },
     discovery: {
         question: 'What is the primary role of the heart in the context of oxygen transport?',
         options: ['The heart acts as a muscular pump that contracts to move blood through the body', 'makes air', 'stores oxygen'],
@@ -73,7 +73,7 @@ export const w_c6_sciencebodymovementssim: SimDef = {
             { text: 'Interpretation: This is a balanced start because it covers all three major nutrient categories.', faded: true, blankAnswer: 'This is a balanced meal as it contains Carbohydrates.' }
             ] } }
     ],
-    explore: { component: C6_ScienceBodyMovementsSim, prompt: 'Explore the interactive — Body Movements' },
+    explore: { component: C6_ScienceBodyMovementsSim, prompt: 'Explore the interactive — Respiration and Circulation: How Oxygen Reaches Cells' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_biology_ch09_008', difficulty: 'standard',
           question: 'The circulatory system acts as the body\'s transport highway, using the heart as.',

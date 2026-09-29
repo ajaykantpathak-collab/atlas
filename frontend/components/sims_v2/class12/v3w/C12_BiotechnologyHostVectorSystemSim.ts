@@ -6,13 +6,13 @@ import C12_BiotechnologyHostVectorSystemSim from '../../../simulations/c6_12/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biotechnologyhostvectorsystemsim: SimDef = {
     id: 'v3w_c12_biotechnologyhostvectorsystemsim',
-    title: 'nology Host Vector System',
+    title: 'Host-Vector System: Concept and Essential Components',
     subtitle: 'This node covers the conceptual framework of host-vector systems, the essential features.',
     classLevel: 12, subject: 'biotechnology', topic: 'Host-Vector System: Concept and Essential Components',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_01_001', 'c12_biotech_cbse_01_002', 'c12_biotech_cbse_01_003', 'c12_biotech_cbse_01_004', 'c12_biotech_cbse_01_005', 'c12_biotech_cbse_01_010', 'c12_biotech_cbse_01_012', 'c12_biotech_cbse_03_003', 'c12_biotech_cbse_03_010', 'c12_biotech_cbse_04_001', 'c12_biotech_cbse_04_002', 'c12_biotech_cbse_04_003', 'c12_biotech_cbse_04_005', 'c12_biotech_cbse_10_004', 'c12_biotech_cbse_08_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you have a human insulin gene and want bacteria to produce insulin for diabetic patients.', goal: 'Master nology Host Vector System.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you have a human insulin gene and want bacteria to produce insulin for diabetic patients.', goal: 'Master Host-Vector System: Concept and Essential Components.' },
     discovery: {
         question: 'What are the four essential features that a DNA molecule must possess to function as a cloning vector in a host-vector system?',
         options: ['The four essential features are: (1) Origin of replication (ori)', 'promoter', 'terminator'],
@@ -81,7 +81,7 @@ export const w_c12_biotechnologyhostvectorsystemsim: SimDef = {
             { text: 'Divide: N = (-6.907755) / (-0.00027911) ≈ 24,749. Round up to 25,000 clones.', faded: true, blankAnswer: '25,000 independent BAC clones (rounded up to nearest.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_biotech_cbse_01_002', title: 'Identify each idea',
-          dissect: { specimen: 'nology Host Vector System', spots: [
+          dissect: { specimen: 'Host-Vector System: Concept and Essential Components', spots: [
             { id: 's1', label: 'A host-vector system is a', prompt: 'Which idea is this? — A host-vector system is a compatible pair of a living host cell (which provides the.', answer: 'A host-vector system is a', options: ['A host-vector system is a', 'E coli is the most', 'Saccharomyces cerevisiae bakers yeast is', 'The Baculovirus-Insect Cell Expression System'] },
             { id: 's2', label: 'E coli is the most', prompt: 'Which idea is this? — E. coli is the most widely used prokaryotic host for gene cloning due to its.', answer: 'E coli is the most', options: ['E coli is the most', 'A host-vector system is a', 'Saccharomyces cerevisiae bakers yeast is', 'The Baculovirus-Insect Cell Expression System'] },
             { id: 's3', label: 'Saccharomyces cerevisiae bakers yeast is', prompt: 'Which idea is this? — Saccharomyces cerevisiae (baker\'s yeast) is a unicellular, non-pathogenic, GRAS-status.', answer: 'Saccharomyces cerevisiae bakers yeast is', options: ['Saccharomyces cerevisiae bakers yeast is', 'A host-vector system is a', 'E coli is the most', 'The Baculovirus-Insect Cell Expression System'] },
@@ -90,7 +90,7 @@ export const w_c12_biotechnologyhostvectorsystemsim: SimDef = {
             { id: 's6', label: 'BACs Bacterial Artificial Chromosomes and', prompt: 'Which idea is this? — BACs (Bacterial Artificial Chromosomes) and YACs (Yeast Artificial Chromosomes) are.', answer: 'BACs Bacterial Artificial Chromosomes and', options: ['BACs Bacterial Artificial Chromosomes and', 'A host-vector system is a', 'E coli is the most', 'Saccharomyces cerevisiae bakers yeast is'] }
           ] } }
     ],
-    explore: { component: C12_BiotechnologyHostVectorSystemSim, prompt: 'Explore the interactive — nology Host Vector System' },
+    explore: { component: C12_BiotechnologyHostVectorSystemSim, prompt: 'Explore the interactive — Host-Vector System: Concept and Essential Components' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_biotech_cbse_01_001', difficulty: 'standard',
           question: 'A host-vector system is a compatible pair of a living host cell (which provides.',

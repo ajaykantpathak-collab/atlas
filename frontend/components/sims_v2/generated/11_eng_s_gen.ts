@@ -9,15 +9,13 @@ import type { SimDef } from '../engine/types';
 export const C11_ENG_S_GEN: SimDef[] = [
  {
   "id": "gen_c11_eng_s_ch01",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 1",
   "classLevel": 11,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch1: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch1: Before You Read: Context and Background"],
   "nodeIds": [
    "c11_eng_s_cbse_01_001",
    "c11_eng_s_cbse_01_002",
@@ -42,7 +40,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if \"Before You Read suddenly stops working?",
+   "question": "What happens if Before You Read: Context and suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -53,7 +51,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "\"Before You Read: Context and Background\" is a pre-reading strategy that provides essential historical, cultural, and biographical information about the author, setting, and key concepts to activate prior knowledge and build a framework for comprehending the",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
@@ -694,25 +692,23 @@ export const C11_ENG_S_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_eng_s_ch02",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 2",
   "classLevel": 11,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch2: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch2: Before You Read: Context and Background"],
   "nodeIds": [
    "c11_eng_s_cbse_02_001",
    "c11_eng_s_cbse_02_002",
@@ -737,7 +733,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is \"Before You Read more about facts, or about reasoning?",
+   "question": "Is Before You Read: Context and more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -748,13 +744,13 @@ export const C11_ENG_S_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "\"Before You Read: Context and Background\" is a pre-reading pedagogical framework that establishes the historical, cultural, and biographical framework necessary to comprehend a literary text, specifically situating Marga Minco's \"The Address\" within the Nazi",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Plot And Narrative Structure In \"The",
+    "title": "Text: Plot and Narrative Structure",
     "text": "Plot and narrative structure in \"The Address\" refers to the deliberate arrangement of events across two distinct timeframes (pre-War and post-War) using first-person retrospective narration, where the chronological sequence is disrupted by flashbacks to",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
@@ -826,7 +822,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter \"The",
+    "title": "Writing Skills: Based on the Chapter",
     "text": "Writing Skills based on the chapter \"The Address\" refers to the ability to compose structured, evidence-based responses (analytical paragraphs, diary entries, letters, articles, or character sketches) that demonstrate understanding of the text's themes,",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1392,25 +1388,23 @@ export const C11_ENG_S_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_eng_s_ch03",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 3",
   "classLevel": 11,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch3: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch3: Before You Read: Context and Background"],
   "nodeIds": [
    "c11_eng_s_cbse_03_001",
    "c11_eng_s_cbse_03_002",
@@ -1435,7 +1429,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if \"Before You Read suddenly stops working?",
+   "question": "What happens if Before You Read: Context and suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -1446,7 +1440,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "\"Before You Read: Context and Background\" refers to the essential historical, social, and biographical information about the playwright (J.B. Priestley), the period (1950s post-war Britain), the genre (one-act play, social comedy), and the central issue (the",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2080,11 +2074,11 @@ export const C11_ENG_S_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2767,15 +2761,13 @@ export const C11_ENG_S_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_eng_s_ch05",
-  "title": "\"Before You Read",
+  "title": "Before You Read: Context and Background",
   "subtitle": "English · Chapter 5",
   "classLevel": 11,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read",
-  "chapters": [
-   "English Ch5: \"Before You Read"
-  ],
+  "topic": "Before You Read: Context and Background",
+  "chapters": ["English Ch5: Before You Read: Context and Background"],
   "nodeIds": [
    "c11_eng_s_cbse_05_001",
    "c11_eng_s_cbse_05_002",
@@ -2800,7 +2792,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is \"Before You Read more about facts, or about reasoning?",
+   "question": "Is Before You Read: Context and more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -2811,13 +2803,13 @@ export const C11_ENG_S_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "\"Before You Read",
+    "title": "Before You Read: Context and Background",
     "text": "\"Before You Read: Context and Background\" refers to the preliminary study of a text's author, historical period, literary tradition, genre conventions, and central thematic concerns before engaging with the actual narrative, enabling students to activate",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Plot And Narrative Structure Refer To",
+    "title": "Plot And Narrative Structure",
     "text": "Plot and narrative structure refer to the organized sequence of events in a story and the framework that arranges them, including exposition, rising action, climax, falling action, and resolution.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
@@ -3423,11 +3415,11 @@ export const C11_ENG_S_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read?",
+    "What surprised you about before you read: context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read mastered! 🎯",
+  "successLine": "Before You Read: Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

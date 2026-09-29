@@ -6,13 +6,13 @@ import C11_BiologyMitosisdetailedStagesSim from '../../../simulations/c6_12/C11_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_biologymitosisdetailedstagessim: SimDef = {
     id: 'v3w_c11_biologymitosisdetailedstagessim',
-    title: 'Mitosisdetailed Stages',
+    title: 'Cell Cycle: Phases and Duration',
     subtitle: 'Covers the definition, phases, and typical duration of the eukaryotic cell cycle as per.',
     classLevel: 11, subject: 'biology', topic: 'Cell Cycle: Phases and Duration',
     chapters: [],
     nodeIds: ['c11_bio_cbse_10_001', 'c11_bio_cbse_10_004', 'c11_bio_cbse_10_005', 'c11_bio_cbse_10_006', 'c11_bio_cbse_10_002', 'c11_bio_cbse_10_003', 'c11_bio_cbse_10_007', 'c11_bio_cbse_02_004', 'c11_bio_cbse_08_009', 'c11_bio_cbse_04_006', 'c11_bio_cbse_04_014', 'c11_bio_cbse_12_001', 'c11_bio_cbse_11_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe a healing skin wound: new cells appear daily to close the gap.', goal: 'Master Mitosisdetailed Stages.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe a healing skin wound: new cells appear daily to close the gap.', goal: 'Master Cell Cycle: Phases and Duration.' },
     discovery: {
         question: 'What are the two main phases of the cell cycle, and which phase occupies more than 95% of the total cycle duration in a typical human cell?',
         options: ['The two main phases are Interphase and M Phase', 'M Phase is longer', 'Interphase is a resting phase where nothing happens'],
@@ -78,7 +78,7 @@ export const w_c11_biologymitosisdetailedstagessim: SimDef = {
             { text: 'Conclude: at late prophase, chromosome number = 16 (2n), DNA content = 4C.', faded: true, blankAnswer: 'Late prophase: chromosome number = 16 (2n), DNA content =.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_bio_cbse_10_004', title: 'Identify each idea',
-          dissect: { specimen: 'Mitosisdetailed Stages', spots: [
+          dissect: { specimen: 'Cell Cycle: Phases and Duration', spots: [
             { id: 's1', label: 'The cell cycle is an', prompt: 'Which idea is this? — The cell cycle is an ordered sequence of events in which a eukaryotic cell duplicates its.', answer: 'The cell cycle is an', options: ['The cell cycle is an', 'Metaphase anaphase and telophase are', 'Mitosis is an equational cell', 'Meiosis I is the reductional'] },
             { id: 's2', label: 'Metaphase anaphase and telophase are', prompt: 'Which idea is this? — Metaphase, anaphase, and telophase are the three sequential stages of karyokinesis.', answer: 'Metaphase anaphase and telophase are', options: ['Metaphase anaphase and telophase are', 'The cell cycle is an', 'Mitosis is an equational cell', 'Meiosis I is the reductional'] },
             { id: 's3', label: 'Mitosis is an equational cell', prompt: 'Which idea is this? — Mitosis is an equational cell division process in which a single diploid parent cell.', answer: 'Mitosis is an equational cell', options: ['Mitosis is an equational cell', 'The cell cycle is an', 'Metaphase anaphase and telophase are', 'Meiosis I is the reductional'] },
@@ -87,7 +87,7 @@ export const w_c11_biologymitosisdetailedstagessim: SimDef = {
             { id: 's6', label: 'Prophase is the first stage', prompt: 'Which idea is this? — Prophase is the first stage of karyokinesis in mitosis, following the S and G2 phases of.', answer: 'Prophase is the first stage', options: ['Prophase is the first stage', 'The cell cycle is an', 'Metaphase anaphase and telophase are', 'Mitosis is an equational cell'] }
           ] } }
     ],
-    explore: { component: C11_BiologyMitosisdetailedStagesSim, prompt: 'Explore the interactive — Mitosisdetailed Stages' },
+    explore: { component: C11_BiologyMitosisdetailedStagesSim, prompt: 'Explore the interactive — Cell Cycle: Phases and Duration' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_bio_cbse_10_001', difficulty: 'standard',
           question: 'The cell cycle is an ordered sequence of events in which a eukaryotic cell.',

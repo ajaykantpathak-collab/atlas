@@ -99,6 +99,10 @@ export const c6_history_ch06: SimDef = {
                 { id: 'b', prompt: 'Why do historians call the medieval period a time of "transformation"?', answer: 'It is called a time of transformation',
                   options: ['It is called a time of transformation', 'static', 'Medieval', 'Stone Age'],
                   hint: 'Review the basic concept of "Time Periods" in history.',
+                  misconception: 'Students often believe that "Medieval" means the time before humans had technology or settled life.' },
+                { id: 'c', prompt: 'If you were a historian, how would you decide that a new "period" has begun in a region?', answer: 'Observe if the ruling power has changed',
+                  options: ['Observe if the ruling power has changed', 'periods', 'Medieval', 'Stone Age'],
+                  hint: 'Review the basic concept of "Time Periods" in history.',
                   misconception: 'Students often believe that "Medieval" means the time before humans had technology or settled life.' }
           ],
             remediations: { 'medieval-means-the-time-before': { steps: ['Ask the student to look at a timeline and point out the Harappan civilization (ancient) vs.', 'the Mughal Empire (medieval).', 'Explain that "Ancient" is like the foundation of a building, while "Medieval" is the structure built on top of it.', 'Have them list three things (like food, language, or buildings) that exist today but started in the medieval period.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
@@ -111,7 +115,11 @@ export const c6_history_ch06: SimDef = {
                   options: ['Bhakti means "devotion" or an intense, loving surrender to God', 'Bhakti', '"Bhakti" is just a new type of ritual'],
                   hint: 'Review the concept of social hierarchy in early Indian society.',
                   misconception: 'Students often think "Bhakti" is just a new type of ritual. They struggle to understand that it is actually the *removal* of rituals.' },
-                { id: 'b', prompt: 'How does the Bhakti movement change the role of the "priest" in society?', answer: 'It reduces the priest\'s authority',
+                { id: 'b', prompt: 'If you were a person living in a village in the 8th century, why might you prefer a Bhakti saint over a traditional priest who only performs rituals?', answer: 'Identify the priest\'s role (rituals)',
+                  options: ['Identify the priest\'s role (rituals)', 'accessibility', 'personal comfort', 'Bhakti'],
+                  hint: 'Review the concept of social hierarchy in early Indian society.',
+                  misconception: 'Students often think "Bhakti" is just a new type of ritual. They struggle to understand that it is actually the *removal* of rituals.' },
+                { id: 'c', prompt: 'How does the Bhakti movement change the role of the "priest" in society?', answer: 'It reduces the priest\'s authority',
                   options: ['It reduces the priest\'s authority', 'Bhakti', 'the movement was about fighting people rather than changing ideas', '"Bhakti" is just a new type of ritual'],
                   hint: 'Review the concept of social hierarchy in early Indian society.',
                   misconception: 'Students often think "Bhakti" is just a new type of ritual. They struggle to understand that it is actually the *removal* of rituals.' }
@@ -135,6 +143,10 @@ export const c6_history_ch06: SimDef = {
           parts: [
                 { id: 'a', prompt: 'What is the primary way a Sufi saint (pir) sought to connect with God?', answer: 'Sufis sought to connect with God through love, devotion, and meditation',
                   options: ['Sufis sought to connect with God through love, devotion, and meditation', 'by following strict laws', 'hermits', 'Sufis were just "hermits" who lived alone in caves'],
+                  hint: 'Review the definition of "mysticism"—the search for a direct, personal experience of the divine.',
+                  misconception: 'Students often think Sufis were just "hermits" who lived alone in caves.' },
+                { id: 'b', prompt: 'If you were a person living in a busy, stressful city, why would you visit a Sufi saint?', answer: 'Identify the need (seeking peace/guidance)',
+                  options: ['Identify the need (seeking peace/guidance)', 'hermits', 'Sufis were only for political or worldly gain', 'Sufis were just "hermits" who lived alone in caves'],
                   hint: 'Review the definition of "mysticism"—the search for a direct, personal experience of the divine.',
                   misconception: 'Students often think Sufis were just "hermits" who lived alone in caves.' }
           ],

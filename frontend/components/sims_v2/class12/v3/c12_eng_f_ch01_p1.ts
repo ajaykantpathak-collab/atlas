@@ -19,48 +19,48 @@ export const c12_eng_f_ch01_p1: SimDef = {
         hook: 'The Franco-Prussian War isn\'t background trivia — it IS the plot. Berlin\'s decree banning French drives every detail: the bulletin board, the villagers\' guilt, M. Hamel\'s Sunday clothes. Read the history as the conflict, not the décor.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: '"Before You Read: Context and Background" provides the essential historical, biographical, and cultural framework required to comprehend Alphonse Daudet\'s "The Last Lesson." It encompasses the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'The Last Lesson\' (Flamingo, ch. 1) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_f_cbse_01_001', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Walk into that last classroom as a witness: decode how the language decree turns grammar into resistance, and trace what the pigeons, the primer and \'Vive la France!\' are really saying.',
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine your school principal announces tomorrow that Hindi/English will be replaced by a language you\'ve never studied — how would you feel during that final.',
+          caseStudy: { intro: 'Start with the author of \'The Last Lesson\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'What was the immediate administrative order from Berlin that forms the historical backdrop of "The Last Lesson"?', options: [
                 { text: 'The order mandated that only German be taught in the schools of Alsace and Lorraine,', outcome: 'The order mandated that only German be taught in the schools of Alsace and Lorraine, effectively.' },
                 { text: 'the order closed all schools', outcome: 'Not quite — Students frequently treat the Franco-Prussian War as mere "background information" — a date.', reveals: 'students-frequently-treat-the-franco' },
                 { text: 'the order expelled French teachers', outcome: 'Not quite — Students frequently treat the Franco-Prussian War as mere "background information" — a date.', reveals: 'students-frequently-treat-the-franco' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re Franz walking into that silent classroom — the story begins with your dread of a scolding, but the real conflict isn\'t about participles.',
+          caseStudy: { intro: 'Trace \'The Last Lesson\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the narrative point of view in "The Last Lesson," and who is the narrator?', options: [
                 { text: 'The story uses first-person retrospective narration with Franz as the narrator', outcome: 'The story uses first-person retrospective narration with Franz as the narrator — he recounts events.' },
                 { text: 'third-person omniscient', outcome: 'Not quite — Students confuse the *announcement* of the last lesson (rising action) with the *climax*.', reveals: 'students-confuse-the-announcement-of' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine walking into your classroom on the last day of school before it closes forever — the desks are the same, but the air feels different, heavy with.',
+          caseStudy: { intro: 'Identify where and when \'The Last Lesson\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'What are the three specific time markers in "The Last Lesson" that anchor the story historically and structurally?', options: [
                 { text: 'The three time markers are: (1) the Franco-Prussian War period (1870-1871) establishing', outcome: 'The three time markers are: (1) the Franco-Prussian War period (1870-1871) establishing historical.' },
                 { text: 'the last day of school', outcome: 'Not quite — Students treat setting as a static list of "where and when" facts (Alsace, 1870, schoolroom) rather.', reveals: 'students-treat-setting-as-a' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re Franz sitting in that silent classroom, suddenly realizing your language is being taken away — what would you notice first?',
+          caseStudy: { intro: 'Pick the central figure in \'The Last Lesson\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What is the narrative point of view in "The Last Lesson," and how does it limit or expand our understanding of Franz\'s character?', options: [
                 { text: 'The story uses first-person narration from Franz\'s perspective', outcome: 'The story uses first-person narration from Franz\'s perspective.' },
                 { text: 'third person omniscient', outcome: 'Not quite — Students treat Franz as a passive victim who "suddenly realizes" the importance of French, writing.', reveals: 'students-treat-franz-as-a' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you\'re watching a play where the main actor is silent; the supporting cast carries the emotional weight.',
+          caseStudy: { intro: 'Spot the secondary figures in \'The Last Lesson\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List the supporting characters in "The Last Lesson" and give one defining trait for each, based on the text.', options: [
                 { text: 'Supporting characters include: M', outcome: 'Supporting characters include: M. Hamel (dedicated, patriotic, transformative), old Hauser.' },
                 { text: 'Wachter mocks him', outcome: 'Not quite — Students often treat supporting characters as mere background, listing traits without linking.', reveals: 'students-often-treat-supporting-characters' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_f_cbse_01_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine waking up to a government order announcing that from tomorrow your mother tongue will be banned in schools and replaced by the conqueror\'s language.',
+          caseStudy: { intro: 'Ask what \'The Last Lesson\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the exact phrasing of the primary theme as given in the "About the Unit" section of the NCERT textbook for "The Last Lesson"?', options: [
                 { text: 'Correct answer: "The pain that is inflicted on the people of a territory by its', outcome: 'Correct answer: "The pain that is inflicted on the people of a territory by its conquerors.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — **Misconception:** "The primary theme is \'regret for not studying\' or \'the last day of school\'.".', reveals: 'misconception-the-primary-theme-is' },
@@ -87,21 +87,21 @@ export const c12_eng_f_ch01_p1: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_001', difficulty: 'standard',
-          question: '"Before You Read: Context and Background" provides the essential historical.',
+          question: '\'The Last Lesson\' (Flamingo, ch. 1) — the context and background to this text.',
           hint: 'If unable to connect the decree to the classroom scene, re-read the textbook\'s first.',
           misconception: 'Students frequently treat the Franco-Prussian War as mere "background information" — a date to memorise — rather than.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '"Before You Read: Context and Background" provides the essential historical,',
-                  options: ['"Before You Read: Context and Background" provides the essential historical,', 'Plot and narrative structure refer to the organized sequence of events in a story and the', 'Setting refers to the time, place, and social environment in', 'Character analysis of the protagonist involves examining the central character\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'The Last Lesson\' (Flamingo, ch',
+                  options: ['\'The Last Lesson\' (Flamingo, ch', 'The plot/narrative arc of \'The Last Lesson\'', 'The setting of \'The Last Lesson\'', 'Character analysis in \'The Last Lesson\''],
                   hint: 'If unable to connect the decree to the classroom scene, re-read the textbook\'s first three.',
                   misconception: 'Students frequently treat the Franco-Prussian War as mere "background information" — a date to memorise — rather than the *active engine*.' }
           ],
-            remediations: { 'students-frequently-treat-the-franco': { steps: ['Re-read the textbook\'s introductory paragraph and "About the author" box aloud.', 'Watch a 5-minute animated map of the Franco-Prussian War (search "Franco-Prussian War 1870 map animation").', 'List the Treaty of Frankfurt\'s three key terms: territory, indemnity, language.', 'Re-attempt Diagnostic Question 4 — if still unable to explain the bulletin-board\'s shifting role, revisit.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-frequently-treat-the-franco': { steps: ['Re-read the textbook\'s introductory paragraph and "About the author" box aloud.', 'Watch a 5-minute animated map of the Franco-Prussian War (search "Franco-Prussian War 1870 map animation").', 'List the Treaty of Frankfurt\'s three key terms: territory, indemnity, language.', 'Re-attempt Diagnostic Question 4 — if still unable to explain the bulletin-board\'s shifting role, revisit.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_001', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -112,9 +112,9 @@ export const c12_eng_f_ch01_p1: SimDef = {
                   hint: 'If unable to connect the decree to the classroom scene, re-read the textbook\'s first three.',
                   misconception: 'Students frequently treat the Franco-Prussian War as mere "background information" — a date to memorise — rather than the *active engine*.' }
           ],
-            remediations: { 'students-frequently-treat-the-franco': { steps: ['Re-read the textbook\'s introductory paragraph and "About the author" box aloud.', 'Watch a 5-minute animated map of the Franco-Prussian War (search "Franco-Prussian War 1870 map animation").', 'List the Treaty of Frankfurt\'s three key terms: territory, indemnity, language.', 'Re-attempt Diagnostic Question 4 — if still unable to explain the bulletin-board\'s shifting role, revisit.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-frequently-treat-the-franco': { steps: ['Re-read the textbook\'s introductory paragraph and "About the author" box aloud.', 'Watch a 5-minute animated map of the Franco-Prussian War (search "Franco-Prussian War 1870 map animation").', 'List the Treaty of Frankfurt\'s three key terms: territory, indemnity, language.', 'Re-attempt Diagnostic Question 4 — if still unable to explain the bulletin-board\'s shifting role, revisit.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_002', difficulty: 'standard',
-          question: 'Plot and narrative structure refer to the organized sequence of events in.',
+          question: 'The plot/narrative arc of \'The Last Lesson\' — what happens, in what order, and.',
           hint: 'Review Class 11 Hornbill Chapter 1 (c11_eng_h_cbse_01_002) plot analysis section and.',
           misconception: 'Students confuse the *announcement* of the last lesson (rising action) with the *climax*.',
           parts: [
@@ -123,9 +123,9 @@ export const c12_eng_f_ch01_p1: SimDef = {
                   hint: 'Review Class 11 Hornbill Chapter 1 (c11_eng_h_cbse_01_002) plot analysis section and Class 10 "The.',
                   misconception: 'Students confuse the *announcement* of the last lesson (rising action) with the *climax*. They write: "The climax is when M.' }
           ],
-            remediations: { 'students-confuse-the-announcement-of': { steps: ['If a student misidentifies the climax, have them re-read paragraphs 14-16 (writing lesson) and 20-22 (resolution).', 'Ask: "Where does the tension become unbearable?', 'Where does the community act as one body?" Then have them trace the emotional arc: anxiety → puzzlement → shock →.', 'The peak is the collective defiance (writing lesson), not the shock (announcement).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-confuse-the-announcement-of': { steps: ['If a student misidentifies the climax, have them re-read paragraphs 14-16 (writing lesson) and 20-22 (resolution).', 'Ask: "Where does the tension become unbearable?', 'Where does the community act as one body?" Then have them trace the emotional arc: anxiety → puzzlement → shock →.', 'The peak is the collective defiance (writing lesson), not the shock (announcement).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_003', difficulty: 'standard',
-          question: 'Setting refers to the time, place, and social environment in which a story.',
+          question: 'The setting of \'The Last Lesson\' — the place, time and atmosphere the text.',
           hint: 'If stuck, review "atmosphere through sensory details" from c7_engl_ch04_005 and "setting.',
           misconception: 'Students treat setting as a static list of "where and when" facts (Alsace, 1870, schoolroom) rather than a dynamic.',
           parts: [
@@ -134,9 +134,9 @@ export const c12_eng_f_ch01_p1: SimDef = {
                   hint: 'If stuck, review "atmosphere through sensory details" from c7_engl_ch04_005 and "setting.',
                   misconception: 'Students treat setting as a static list of "where and when" facts (Alsace, 1870, schoolroom) rather than a dynamic force that changes.' }
           ],
-            remediations: { 'students-treat-setting-as-a': { steps: ['Have the student reread only the descriptive passages (skip dialogue) and highlight every sensory word — sound, sight.', 'Make a two-column table: "Physical Detail" | "Atmospheric Effect" for 5 details.', 'Revisit c12_eng_f_cbse_01_001 (Context) to confirm historical setting, then c12_eng_f_cbse_01_002 (Plot) to map.', 'Re-attempt Diagnostic Question 4 — if still unable to link sound to phase, practice with a familiar scene (exam hall.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-setting-as-a': { steps: ['Have the student reread only the descriptive passages (skip dialogue) and highlight every sensory word — sound, sight.', 'Make a two-column table: "Physical Detail" | "Atmospheric Effect" for 5 details.', 'Revisit c12_eng_f_cbse_01_001 (Context) to confirm historical setting, then c12_eng_f_cbse_01_002 (Plot) to map.', 'Re-attempt Diagnostic Question 4 — if still unable to link sound to phase, practice with a familiar scene (exam hall.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist involves examining the central.',
+          question: 'Character analysis in \'The Last Lesson\' — the central figure(s), their traits.',
           hint: 'If stuck on narrative perspective, review c11_eng_h_cbse_01_004 (Class 11 Protagonist.',
           misconception: 'Students treat Franz as a passive victim who "suddenly realizes" the importance of French, writing answers like "Franz.',
           parts: [
@@ -157,9 +157,9 @@ export const c12_eng_f_ch01_p1: SimDef = {
                   hint: 'If stuck on narrative perspective, review c11_eng_h_cbse_01_004 (Class 11 Protagonist Analysis).',
                   misconception: 'Students treat Franz as a passive victim who "suddenly realizes" the importance of French, writing answers like "Franz changed because the.' }
           ],
-            remediations: { 'students-treat-franz-as-a': { steps: ['If a student writes "Franz changed because M.', 'Hamel scolded him," do NOT re-teach the plot.', 'Instead: (1) Have them re-read the recitation scene (paragraph starting "While I was thinking of all this, I heard.', '(2) Ask: "What does Franz DO that no one told him to do?" (3) Assign a 50-word rewrite: "Franz\'s transformation.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-franz-as-a': { steps: ['If a student writes "Franz changed because M.', 'Hamel scolded him," do NOT re-teach the plot.', 'Instead: (1) Have them re-read the recitation scene (paragraph starting "While I was thinking of all this, I heard.', '(2) Ask: "What does Franz DO that no one told him to do?" (3) Assign a 50-word rewrite: "Franz\'s transformation.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_005', difficulty: 'standard',
-          question: 'Character analysis of supporting characters involves examining their traits.',
+          question: 'Supporting characters in \'The Last Lesson\' — the secondary figures who move the.',
           hint: 'If stuck, re-read the scenes where M. Hamel addresses the class and the villagers are.',
           misconception: 'Students often treat supporting characters as mere background, listing traits without linking to theme or protagonist\'s.',
           parts: [
@@ -180,9 +180,9 @@ export const c12_eng_f_ch01_p1: SimDef = {
                   hint: 'If stuck, re-read the scenes where M. Hamel addresses the class and the villagers are introduced.',
                   misconception: 'Students often treat supporting characters as mere background, listing traits without linking to theme or protagonist\'s development.' }
           ],
-            remediations: { 'students-often-treat-supporting-characters': { steps: ['If a student cannot link character to theme, guide them to: 1) Re-read the scene where M.', 'Hamel speaks about French as "the key to their prison." 2) Note the villagers\' primer and tears.', '3) Use the PEEL template: Point (character represents X), Evidence (quote), Explanation (connect to theme), Link (to.', 'Have them practice with one character first, then expand.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-supporting-characters': { steps: ['If a student cannot link character to theme, guide them to: 1) Re-read the scene where M.', 'Hamel speaks about French as "the key to their prison." 2) Note the villagers\' primer and tears.', '3) Use the PEEL template: Point (character represents X), Evidence (quote), Explanation (connect to theme), Link (to.', 'Have them practice with one character first, then expand.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_f_cbse_01_006', difficulty: 'standard',
-          question: 'The primary theme of "The Last Lesson" is the profound pain and cultural.',
+          question: 'The primary theme of \'The Last Lesson\' — the central idea the whole text.',
           hint: 'If unable to separate theme from plot, re-read the NCERT "Understanding the text" Q1 and.',
           misconception: '**Misconception:** "The primary theme is \'regret for not studying\' or \'the last day of school\'." **Why it happens:**.',
           parts: [
@@ -191,7 +191,7 @@ export const c12_eng_f_ch01_p1: SimDef = {
                   hint: 'If unable to separate theme from plot, re-read the NCERT "Understanding the text" Q1 and "Talking.',
                   misconception: '**Misconception:** "The primary theme is \'regret for not studying\' or \'the last day of school\'." **Why it happens:** Students latch onto.' }
           ],
-            remediations: { 'misconception-the-primary-theme-is': { steps: ['Re-read the **"About the Unit" box** (last page of the chapter) and copy the exact "Theme" sentence.', 'Re-read the **three "Understanding the text" questions** at the end of the story; note how Q1 ("people suddenly realise.', 'Complete this **micro-task**: List 4 phrases from the story that directly reference language loss (e.g., "teach only.', 'Re-attempt **Diagnostic Question 2** and **4** with this lens.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'misconception-the-primary-theme-is': { steps: ['Re-read the **"About the Unit" box** (last page of the chapter) and copy the exact "Theme" sentence.', 'Re-read the **three "Understanding the text" questions** at the end of the story; note how Q1 ("people suddenly realise.', 'Complete this **micro-task**: List 4 phrases from the story that directly reference language loss (e.g., "teach only.', 'Re-attempt **Diagnostic Question 2** and **4** with this lens.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

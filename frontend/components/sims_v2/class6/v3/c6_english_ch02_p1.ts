@@ -86,18 +86,18 @@ export const c6_english_ch02_p1: SimDef = {
           misconception: 'Students often think "humour" only means "telling a joke." They fail to see that humour can also come from a situation.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'A plot is the sequence of major events that make up a story, while humour refers to the',
-                  options: ['A plot is the sequence of major events that make up a story, while humour refers to the', 'Character analysis is the process of examining a character\'s traits, motivations, and', 'Communication and empathy are the abilities to understand, share, and respond to the', 'Tone in poetry is the poet\'s emotional attitude toward the subject (e.g., playful,'],
+                  options: ['A plot is the sequence of major events that make up a story, while humour refers to the', 'From \'English chapter c6_english_u2\': the skill or concept this node teaches, applied to', 'Communication and empathy are the abilities to understand, share, and respond to the', 'Tone in poetry is the poet\'s emotional attitude toward the subject (e.g., playful,'],
                   hint: 'Review the "Let us discuss" sections in the chapter for simple plot summaries.',
                   misconception: 'Students often think "humour" only means "telling a joke." They fail to see that humour can also come from a situation being strange.' }
           ],
             remediations: { 'humour-only-means-telling-a': { steps: ['If a student struggles, ask them: "What would happen if your teacher acted like a student and you acted like the.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c6_english_u2_012', difficulty: 'standard',
-          question: 'Character analysis is the process of examining a character\'s traits.',
+          question: 'From \'English chapter c6_english_u2\': the skill or concept this node teaches.',
           hint: 'Review the "Let us discuss" sections in the chapter to see how characters react to events.',
           misconception: 'Students often confuse \'feelings\' with \'traits.\' A feeling is temporary (like feeling sad because of a rainstorm), but.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Character analysis is the process of examining a character\'s traits, motivations, and',
-                  options: ['Character analysis is the process of examining a character\'s traits, motivations, and', 'A plot is the sequence of major events that make up a story, while humour refers to the', 'Communication and empathy are the abilities to understand, share, and respond to the', 'Tone in poetry is the poet\'s emotional attitude toward the subject (e.g., playful,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c6_english_u2\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c6_english_u2\': the skill or concept this node teaches, applied to', 'A plot is the sequence of major events that make up a story, while humour refers to the', 'Communication and empathy are the abilities to understand, share, and respond to the', 'Tone in poetry is the poet\'s emotional attitude toward the subject (e.g., playful,'],
                   hint: 'Review the "Let us discuss" sections in the chapter to see how characters react to events.',
                   misconception: 'Students often confuse \'feelings\' with \'traits.\' A feeling is temporary (like feeling sad because of a rainstorm), but a trait is a lasting.' }
           ],
@@ -160,7 +160,7 @@ export const c6_english_ch02_p1: SimDef = {
           misconception: 'Students often try to make all five lines the same length or ignore the rhythm entirely.',
           parts: [
                 { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'A limerick is a short, five-line poem that follows a bouncy "AABBA" rhyme scheme and is',
-                  options: ['A limerick is a short, five-line poem that follows a bouncy "AABBA" rhyme scheme and is', 'A plot is the sequence of major events that make up a story, while humour refers to the', 'Character analysis is the process of examining a character\'s traits, motivations, and', 'Communication and empathy are the abilities to understand, share, and respond to the'],
+                  options: ['A limerick is a short, five-line poem that follows a bouncy "AABBA" rhyme scheme and is', 'A plot is the sequence of major events that make up a story, while humour refers to the', 'From \'English chapter c6_english_u2\': the skill or concept this node teaches, applied to', 'Communication and empathy are the abilities to understand, share, and respond to the'],
                   hint: 'Review basic rhyming word lists (e.g., cat/hat/bat).',
                   misconception: 'Students often try to make all five lines the same length or ignore the rhythm entirely.' }
           ],

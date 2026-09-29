@@ -6,13 +6,13 @@ import C6_ScienceComponentsOfFoodSim from '../../../simulations/c6_12/C6_Science
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_sciencecomponentsoffoodsim: SimDef = {
     id: 'v3w_c6_sciencecomponentsoffoodsim',
-    title: 'Components Of Food',
+    title: 'What is a Balanced Diet?',
     subtitle: 'This node covers the definition and components of a balanced diet within the context of.',
     classLevel: 6, subject: 'science', topic: 'What is a Balanced Diet?',
     chapters: [],
     nodeIds: ['c6_biology_ch09_007', 'c6_biology_ch09_001', 'c6_biology_ch09_003', 'c6_biology_ch09_005', 'c6_biology_ch09_006', 'c6_chemistry_ch05_004', 'c6_chemistry_ch05_007', 'c6_chemistry_ch05_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Think about how you feel after eating a heavy meal of just sweets versus a meal with dal, roti, and.', goal: 'Master Components Of Food.' },
+    scenario: { role: 'a class 6 learner', intro: 'Think about how you feel after eating a heavy meal of just sweets versus a meal with dal, roti, and.', goal: 'Master What is a Balanced Diet?.' },
     discovery: {
         question: 'Why is it important to eat fruits and vegetables in their raw or lightly cooked state when possible?',
         options: ['Cooking at high heat can destroy sensitive nutrients like Vitamin C', 'because it tastes better', 'balanced'],
@@ -72,7 +72,7 @@ export const w_c6_sciencecomponentsoffoodsim: SimDef = {
                 { text: 'combustion is merely "fire," rather than a chemical reaction involving oxygen', outcome: 'Not quite — Students often believe that combustion is merely "fire," rather than a chemical reaction involving.', reveals: 'combustion-is-merely-fire' }
             ] }] } }
     ],
-    explore: { component: C6_ScienceComponentsOfFoodSim, prompt: 'Explore the interactive — Components Of Food' },
+    explore: { component: C6_ScienceComponentsOfFoodSim, prompt: 'Explore the interactive — What is a Balanced Diet?' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_biology_ch09_007', difficulty: 'standard',
           question: 'A balanced diet is a daily food pattern that provides the body with the right.',

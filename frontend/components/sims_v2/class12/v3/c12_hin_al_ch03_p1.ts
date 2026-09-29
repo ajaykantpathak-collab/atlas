@@ -19,7 +19,7 @@ export const c12_hin_al_ch03_p1: SimDef = {
         hook: 'This isn\'t nostalgia — it\'s evidence: 128 years of rainfall data, drought years defined, oak loss breaking the water cycle. Shivani was a rights-based journalist; her personal memory of mountain air is testimony in a case against ecologically blind development.',
     },
     teaching: [
-        { title: 'अपना मालवा-खाऊ-उजाड़ू सभ्यता में — पृष्ठभूमि और रचनाकार परिचय', text: 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-आर्थिक परिस्थितियों, युग के संदर्भ और लेखन शैली का अध्ययन करना, ताकि पाठ के गहरे अर्थ और लेखक के उद्देश्य को समझा जा सके।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'अपना मालवा-खाऊ-उजाड़ू सभ्यता में — पृष्ठभूमि और रचनाकार परिचय', text: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के निर्णायक तथ्यों (जन्म-स्थान व काल, साहित्यिक युग या धारा, प्रमुख रचनाएँ, विचारधारा) और रचना-काल की.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_al_cbse_03_001', title: 'Your mission',
@@ -28,11 +28,19 @@ export const c12_hin_al_ch03_p1: SimDef = {
         context: 'Stand where the springs dried: read the rainfall record as indictment, follow oak loss to thermal shift to sensory death, and try on Shivani\'s inversion — development as the soil\'s incapacity.',
         labels: ['अपना मालवा-खाऊ-उजाड़ू सभ्यता में'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'dissect', nodeId: 'c12_hin_al_cbse_03_002', title: 'Identify each idea',
-          dissect: { specimen: 'अपना मालवा-खाऊ-उजाड़ू सभ्यता में · Part 1/3', spots: [
-            { id: 's1', label: '-- -', prompt: 'Which idea is this? — कथानक (Plot) घटनाओं का कारण-कार्य शृंखला में व्यवस्थित क्रमिक प्रस्तुतीकरण है, जबकि.', answer: '-- -', options: ['-- -', '-- -'] },
-            { id: 's2', label: '-- -', prompt: 'Which idea is this? — पाठ्य-परिवेश वह भाषा, शैली, संरचना और शब्दचयन है जिसमें कहानी लिखी गई है, जबकि वातावरण वह.', answer: '-- -', options: ['-- -', '-- -'] }
-          ] } },
+        { type: 'case', nodeId: 'c12_hin_al_cbse_03_001', title: 'अपना मालवा-खाऊ-उजाड़ू सभ्यता में — पृष्ठभूमि और रचनाकार परिचय',
+          caseStudy: { intro: 'अंतराल भाग-2 खोलिए और पाठ 03 के आरंभ के \'पाठ के बारे में / रचनाकार-परिचय\' खंड तक चलिए। वहाँ चार बातें नोट कीजिए — (1) रचनाकार का नाम और जन्म-मृत्यु का काल, (2).',
+            decisions: [{ prompt: 'According to the NCERT introduction, what specific meteorological data does the text cite to evidence ecological change in the Kumaon.', options: [
+                { text: 'The text cites annual rainfall records: only one year (1899) had "flI+kZQ 15-75 bap"', outcome: 'The text cites annual rainfall records: only one year (1899) had "flI+kZQ 15-75 bap" (15-75 inches).' },
+                { text: 'temperature data', outcome: 'Not quite — Students treat the "Before You Read" section as skippable *background trivia* (author birth/death.', reveals: 'students-treat-the-before-you' },
+                { text: 'deforestation rates', outcome: 'Not quite — Students treat the "Before You Read" section as skippable *background trivia* (author birth/death.', reveals: 'students-treat-the-before-you' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_al_cbse_03_002', title: 'अपना मालवा-खाऊ-उजाड़ू सभ्यता में — कथानक और आख्यान-संरचना',
+          caseStudy: { intro: '\'कंकाल में टमाटर की खेती\' का क्रम: शुरुआत कंकाल-में-टमाटर-की-खेती से, घटनाएँ बढ़ती हैं, अंत \'कंकाल में टमाटर की खेती\' का केंद्रीय भाव और संदेश पर।',
+            decisions: [{ prompt: 'What are the three distinct time-frames the narrative moves between, and what specific textual markers (words/phrases) signal each shift?', options: [
+                { text: 'Correct: (1) Present industrial reality', outcome: 'Correct: (1) Present industrial reality — marked by "vkleku cknyksa", "FkksM+h nsj", "fpyfpykrh.' },
+                { text: 'How does the author structure his argument?', outcome: 'Not quite — Students confuse "plot" (what happens) with "narrative structure" (how it\'s arranged).', reveals: 'students-confuse-plot-what-happens' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_al_cbse_03_001', title: 'Use it in the wild',
           caseStudy: { intro: 'Back in your hill hometown for a family wedding, you find the oak ridge replaced by a concrete parking strip and the spring your grandmother drew from now dry. A cousin shrugs: \'That\'s just nostalgia — the road and hotels are development.\'',
             decisions: [{ prompt: 'How would Shivani\'s framing in \'अपना मालवा\' answer him?', options: [
@@ -52,67 +60,90 @@ export const c12_hin_al_ch03_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_03_001', difficulty: 'standard',
-          question: 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-आर्थिक.',
-          hint: 'यदि फंसे हुए महसूस हो तो कक्षा 11 के किसी भी पाठ के लेखक परिचय नोड (जैसे.',
-          misconception: 'छात्र अक्सर मानते हैं कि लेखक का परिचय केवल जन्म तिथि और प्रमुख कार्यों की सूची भर है — जैसे "ज्योतिबा फुले 1827 में.',
+          question: 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के.',
+          hint: 'If stuck, review c11_hin_ar_cbse_03_001 "Before You Read" — specifically how the.',
+          misconception: 'Students treat the "Before You Read" section as skippable *background trivia* (author birth/death dates, village.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-आर्थिक परिस्थितियों, युग के',
-                  options: ['पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-आर्थिक परिस्थितियों, युग के', 'कथानक (Plot) घटनाओं का कारण-कार्य शृंखला में व्यवस्थित क्रमिक प्रस्तुतीकरण है, जबकि', 'पाठ्य-परिवेश वह भाषा, शैली, संरचना और शब्दचयन है जिसमें कहानी लिखी गई है, जबकि वातावरण वह', 'कथानक में नायक या प्रमुख पात्र वह मुख्य पात्र है जिसके अनुभव, संघर्ष और विकास कथा की'],
-                  hint: 'यदि फंसे हुए महसूस हो तो कक्षा 11 के किसी भी पाठ के लेखक परिचय नोड (जैसे c11_hin_a_cbse_01_001) को.',
-                  misconception: 'छात्र अक्सर मानते हैं कि लेखक का परिचय केवल जन्म तिथि और प्रमुख कार्यों की सूची भर है — जैसे "ज्योतिबा फुले 1827 में पैदा हुए, उन्होंने.' }
+                { id: 'a', prompt: 'The introduction mentions Shivani\'s journalistic career: "xkaèkh] fouksck vkSj t;izdk\'k osQ vkn\'kks± esa ;dhu j[kus okys izHkk"k th us tulÙkk dks lkekftd.', answer: 'Shivani\'s journalism was explicitly advocacy-oriented',
+                  options: ['Shivani\'s journalism was explicitly advocacy-oriented', 'viuk ekyok', 'ekyo èkjrh xgu xaHkhj', 'development'],
+                  hint: 'If stuck, review c11_hin_ar_cbse_03_001 "Before You Read" — specifically how the introduction\'s.',
+                  misconception: 'Students treat the "Before You Read" section as skippable *background trivia* (author birth/death dates, village location) rather than the.' },
+                { id: 'b', prompt: 'Compare the two descriptions of the village air in the introduction: (1) "ekyo èkjrh xgu xaHkhj, Mx&Mx jksVh, ix&ix uhj" and (2) "unh ukys lw[k x, ix&ix uhj.', answer: 'Shift 1: "ekyo èkjrh" (cold/sweet/fragrant) → "unh ukys lw[k" (warm/hot winds)',
+                  options: ['Shift 1: "ekyo èkjrh" (cold/sweet/fragrant) → "unh ukys lw[k" (warm/hot winds)', 'air became hot'],
+                  hint: 'If stuck, review c11_hin_ar_cbse_03_001 "Before You Read" — specifically how the introduction\'s.',
+                  misconception: 'Students treat the "Before You Read" section as skippable *background trivia* (author birth/death dates, village location) rather than the.' }
           ],
-            remediations: { '1827': { steps: ['छात्र को पहले ज्योतिबा फुले के जीवन के तीन प्रमुख पहलुओं पर ध्यान केंद्रित करने के लिए कहें: (1) उनकी सामाजिक पृष्ठभूमि.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-the-before-you': { steps: ['If a student cannot articulate the *argumentative function* of the introduction: (1) Have them re-read *only* the seven.', '(2) Map each question to a specific sentence in the introduction — e.g., Q6 maps to "ge ftls fodkl dh vkS|ksfxd lH;rk.', '(4) Re-diagnostic: Ask student to rewrite Q6 as a statement they must defend in a debate.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_03_002', difficulty: 'standard',
-          question: 'कथानक (Plot) घटनाओं का कारण-कार्य शृंखला में व्यवस्थित क्रमिक प्रस्तुतीकरण है.',
-          hint: 'यदि अटका लगे तो c11_hin_a_cbse_01_002 (आरोह पाठ 1 कथानक-संरचना) के \'कथानक बनाम आख्यान\'.',
-          misconception: 'विद्यार्थी समझते हैं कि \'कथानक\' और \'आख्यान-संरचना\' पर्यायवाची हैं — दोनों का अर्थ \'कहानी का क्रम\' मान लेते हैं। असल में.',
+          question: '\'कंकाल में टमाटर की खेती\' का कथानक — \'कंकाल में टमाटर की खेती\' — अंतराल भाग-2.',
+          hint: 'If stuck, revisit c11_hin_ar_cbse_02_002 "frame narrative and retrospective narration".',
+          misconception: 'Students confuse "plot" (what happens) with "narrative structure" (how it\'s arranged).',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक (Plot) घटनाओं का कारण-कार्य शृंखला में व्यवस्थित क्रमिक प्रस्तुतीकरण है, जबकि',
-                  options: ['कथानक (Plot) घटनाओं का कारण-कार्य शृंखला में व्यवस्थित क्रमिक प्रस्तुतीकरण है, जबकि', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-आर्थिक परिस्थितियों, युग के', 'पाठ्य-परिवेश वह भाषा, शैली, संरचना और शब्दचयन है जिसमें कहानी लिखी गई है, जबकि वातावरण वह', 'कथानक में नायक या प्रमुख पात्र वह मुख्य पात्र है जिसके अनुभव, संघर्ष और विकास कथा की'],
-                  hint: 'यदि अटका लगे तो c11_hin_a_cbse_01_002 (आरोह पाठ 1 कथानक-संरचना) के \'कथानक बनाम आख्यान\' तुलना चार्ट.',
-                  misconception: 'विद्यार्थी समझते हैं कि \'कथानक\' और \'आख्यान-संरचना\' पर्यायवाची हैं — दोनों का अर्थ \'कहानी का क्रम\' मान लेते हैं। असल में कथानक = घटनाओं का.' }
+                { id: 'a', prompt: 'What are the three distinct time-frames the narrative moves between, and what specific textual markers (words/phrases) signal each shift?', answer: 'Correct: (1) Present industrial reality',
+                  options: ['Correct: (1) Present industrial reality', 'How does the author structure his argument?'],
+                  hint: 'If stuck, revisit c11_hin_ar_cbse_02_002 "frame narrative and retrospective narration" — draw.',
+                  misconception: 'Students confuse "plot" (what happens) with "narrative structure" (how it\'s arranged).' },
+                { id: 'b', prompt: 'Explain in your own words how the author\'s physical walk through the village (from bankSj to usekoj to pacy) functions as the narrative\'s structural spine.', answer: 'Correct: The walk creates a spatial-temporal map',
+                  options: ['Correct: The walk creates a spatial-temporal map', 'setting', 'structure'],
+                  hint: 'If stuck, revisit c11_hin_ar_cbse_02_002 "frame narrative and retrospective narration" — draw.',
+                  misconception: 'Students confuse "plot" (what happens) with "narrative structure" (how it\'s arranged).' },
+                { id: 'c', prompt: 'Analyze the placement of the rainfall statistics (1878-1999) in the middle of the personal narrative. What structural work does this data do?', answer: 'Correct: The data sits at the narrative\'s emotional climax',
+                  options: ['Correct: The data sits at the narrative\'s emotional climax', 'information', 'structural device'],
+                  hint: 'If stuck, revisit c11_hin_ar_cbse_02_002 "frame narrative and retrospective narration" — draw.',
+                  misconception: 'Students confuse "plot" (what happens) with "narrative structure" (how it\'s arranged).' }
           ],
-            remediations: { 'fabula': { steps: ['चरण 1: विद्यार्थी से कहें — पाठ की १० प्रमुख घटनाएँ कागज़ पर तारीख़-वार लिखो (कथानक)। चरण 2: अब पाठ खोलकर देखो लेखक ने.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-confuse-plot-what-happens': { steps: ['Re-read only the first and last paragraphs. Identify the exact words that show the "before" and "after" states.', 'Number the paragraphs 1-20. Label each with its dominant time-frame (Present/Past/Historical/Reflective).', 'Draw a line graph with x-axis = paragraph number, y-axis = temporal distance from present.', 'Explain to a peer: "The author doesn\'t tell the story in order; he tells it in the order memory forces it on him."'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_al_cbse_03_002', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students confuse "plot" (what happens) with "narrative structure" (how it\'s arranged).',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the effectiveness of the ending: "gekjh vkt dh lH;rk bu ufn;ksa dks vius xans ikuh osQ ukys cuk jgh gSA".', answer: 'Correct: Yes',
+                  options: ['Correct: Yes', 'it\'s sad'],
+                  hint: 'If stuck, revisit c11_hin_ar_cbse_02_002 "frame narrative and retrospective narration" — draw.',
+                  misconception: 'Students confuse "plot" (what happens) with "narrative structure" (how it\'s arranged).' }
+          ],
+            remediations: { 'students-confuse-plot-what-happens': { steps: ['Re-read only the first and last paragraphs. Identify the exact words that show the "before" and "after" states.', 'Number the paragraphs 1-20. Label each with its dominant time-frame (Present/Past/Historical/Reflective).', 'Draw a line graph with x-axis = paragraph number, y-axis = temporal distance from present.', 'Explain to a peer: "The author doesn\'t tell the story in order; he tells it in the order memory forces it on him."'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_03_003', difficulty: 'standard',
-          question: 'पाठ्य-परिवेश वह भाषा, शैली, संरचना और शब्दचयन है जिसमें कहानी लिखी गई है, जबकि.',
+          question: '\'कंकाल में टमाटर की खेती\' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और.',
           hint: 'यदि पाठ्य-परिवेश या वातावरण की पहचान में कठिनाई हो, तो कथानक और आख्यान-संरचना.',
           misconception: 'छात्र अक्सर मानते हैं कि पाठ्य-परिवेश केवल कठिन शब्दों के उपयोग को mean करता है, और वातावरण सिर्फ़ कहानी के घटनाक्रम से.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ्य-परिवेश वह भाषा, शैली, संरचना और शब्दचयन है जिसमें कहानी लिखी गई है, जबकि वातावरण वह',
-                  options: ['पाठ्य-परिवेश वह भाषा, शैली, संरचना और शब्दचयन है जिसमें कहानी लिखी गई है, जबकि वातावरण वह', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-आर्थिक परिस्थितियों, युग के', 'कथानक (Plot) घटनाओं का कारण-कार्य शृंखला में व्यवस्थित क्रमिक प्रस्तुतीकरण है, जबकि', 'कथानक में नायक या प्रमुख पात्र वह मुख्य पात्र है जिसके अनुभव, संघर्ष और विकास कथा की'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंकाल में टमाटर की खेती\' का पाठ्य-परिवेश (setting)',
+                  options: ['\'कंकाल में टमाटर की खेती\' का पाठ्य-परिवेश (setting)', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंकाल में टमाटर की खेती\' का कथानक', '\'कंकाल में टमाटर की खेती\' का पात्र-चित्रण'],
                   hint: 'यदि पाठ्य-परिवेश या वातावरण की पहचान में कठिनाई हो, तो कथानक और आख्यान-संरचना.',
                   misconception: 'छात्र अक्सर मानते हैं कि पाठ्य-परिवेश केवल कठिन शब्दों के उपयोग को mean करता है, और वातावरण सिर्फ़ कहानी के घटनाक्रम से जुड़ा feeling है.' }
           ],
             remediations: { 'mean': { steps: ['छात्र को दिखाइए कि दो वाक्य लें: "हम भोजन करते हैं" और "हमारा खाऊ जारी है" — पहले से शब्दचयन और सामाजिक टिप्पणी में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_03_004', difficulty: 'standard',
-          question: 'कथानक में नायक या प्रमुख पात्र वह मुख्य पात्र है जिसके अनुभव, संघर्ष और विकास.',
+          question: '\'कंकाल में टमाटर की खेती\' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और.',
           hint: 'यदि फँसें तो कक्षा 11 के पाठ 3 के पाठ्य-परिवेश और वातावरण (c11_hin_a_cbse_03_003) को पुनः.',
           misconception: 'छात्र अक्सर प्रमुख पात्र के चरित्र-चित्रण को केवल उसकी \'सकारात्मक\' गुणों (जैसे साहस, ईमानदारी) तक सीमित रखते हैं और.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'कथानक में नायक या प्रमुख पात्र वह मुख्य पात्र है जिसके अनुभव, संघर्ष और विकास कथा की',
-                  options: ['कथानक में नायक या प्रमुख पात्र वह मुख्य पात्र है जिसके अनुभव, संघर्ष और विकास कथा की', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-आर्थिक परिस्थितियों, युग के', 'कथानक (Plot) घटनाओं का कारण-कार्य शृंखला में व्यवस्थित क्रमिक प्रस्तुतीकरण है, जबकि', 'पाठ्य-परिवेश वह भाषा, शैली, संरचना और शब्दचयन है जिसमें कहानी लिखी गई है, जबकि वातावरण वह'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंकाल में टमाटर की खेती\' का पात्र-चित्रण',
+                  options: ['\'कंकाल में टमाटर की खेती\' का पात्र-चित्रण', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंकाल में टमाटर की खेती\' का कथानक', '\'कंकाल में टमाटर की खेती\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फँसें तो कक्षा 11 के पाठ 3 के पाठ्य-परिवेश और वातावरण (c11_hin_a_cbse_03_003) को पुनः देखें.',
                   misconception: 'छात्र अक्सर प्रमुख पात्र के चरित्र-चित्रण को केवल उसकी \'सकारात्मक\' गुणों (जैसे साहस, ईमानदारी) तक सीमित रखते हैं और उसकी कमजोरियों.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को पहले एक सरल पात्र (जैसे किसी लोककथा के नायक) लें और उससे पूछें: "इस पात्र की कौन सी कार्रवाई आपको बताती है कि.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_03_005', difficulty: 'standard',
-          question: 'सहायक पात्र वे पात्र होते हैं जो मुख्य पात्र के साथ बातचीत करके उसकी विशेषताओं.',
+          question: '\'कंकाल में टमाटर की खेती\' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ.',
           hint: 'यदि फंसें तो c11_hin_a_cbse_03_004 (पात्र-चित्रण: नायक/प्रमुख पात्र) की दोहराव करें.',
           misconception: 'छात्र अक्सर मानते हैं कि सहायक पात्र का कार्य केवल मुख्य पात्र की मदद करना है (जैसे उसकी योजना में सहयोग करना या उसे.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'सहायक पात्र वे पात्र होते हैं जो मुख्य पात्र के साथ बातचीत करके उसकी विशेषताओं को उजागर',
-                  options: ['सहायक पात्र वे पात्र होते हैं जो मुख्य पात्र के साथ बातचीत करके उसकी विशेषताओं को उजागर', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-आर्थिक परिस्थितियों, युग के', 'कथानक (Plot) घटनाओं का कारण-कार्य शृंखला में व्यवस्थित क्रमिक प्रस्तुतीकरण है, जबकि', 'पाठ्य-परिवेश वह भाषा, शैली, संरचना और शब्दचयन है जिसमें कहानी लिखी गई है, जबकि वातावरण वह'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंकाल में टमाटर की खेती\' के सहायक पात्र',
+                  options: ['\'कंकाल में टमाटर की खेती\' के सहायक पात्र', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंकाल में टमाटर की खेती\' का कथानक', '\'कंकाल में टमाटर की खेती\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फंसें तो c11_hin_a_cbse_03_004 (पात्र-चित्रण: नायक/प्रमुख पात्र) की दोहराव करें, जिसमें मुख्य.',
                   misconception: 'छात्र अक्सर मानते हैं कि सहायक पात्र का कार्य केवल मुख्य पात्र की मदद करना है (जैसे उसकी योजना में सहयोग करना या उसे सलाह देना), जबकि.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को पहले मुख्य पात्र के साथ एक संघर्षपूर्ण संबंध वाले पात्र की पहचान करने के लिए कहें (जैसे जो मुख्य पात्र की.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_al_cbse_03_006', difficulty: 'standard',
-          question: 'मुख्य विषय वह केंद्रीय विचार या अवधारणा है जो लेखक अपनी रचना के माध्यम से.',
+          question: '\'कंकाल में टमाटर की खेती\' का मुख्य विषय — \'कंकाल में टमाटर की खेती\' का केंद्रीय.',
           hint: 'यदि फंसे हुए हों तो कक्षा 11 के मुख्य विषय और संदेश (c11_hin_a_cbse_01_006) की अवधारणा को.',
           misconception: 'छात्र अक्सर मुख्य विषय को कहानी के शीर्षक या एक विशिष्ट घटना (जैसे "खाऊ की भूख") से जोड़कर समझते हैं, जबकि यह पूरी.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'मुख्य विषय वह केंद्रीय विचार या अवधारणा है जो लेखक अपनी रचना के माध्यम से दोहराना चाहता',
-                  options: ['मुख्य विषय वह केंद्रीय विचार या अवधारणा है जो लेखक अपनी रचना के माध्यम से दोहराना चाहता', 'पृष्ठभूमि और रचनाकार परिचय का अर्थ है लेखक के जीवन, सामाजिक-आर्थिक परिस्थितियों, युग के', 'कथानक (Plot) घटनाओं का कारण-कार्य शृंखला में व्यवस्थित क्रमिक प्रस्तुतीकरण है, जबकि', 'पाठ्य-परिवेश वह भाषा, शैली, संरचना और शब्दचयन है जिसमें कहानी लिखी गई है, जबकि वातावरण वह'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंकाल में टमाटर की खेती\' का मुख्य विषय',
+                  options: ['\'कंकाल में टमाटर की खेती\' का मुख्य विषय', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंकाल में टमाटर की खेती\' का कथानक', '\'कंकाल में टमाटर की खेती\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फंसे हुए हों तो कक्षा 11 के मुख्य विषय और संदेश (c11_hin_a_cbse_01_006) की अवधारणा को दोहराएँ।',
                   misconception: 'छात्र अक्सर मुख्य विषय को कहानी के शीर्षक या एक विशिष्ट घटना (जैसे "खाऊ की भूख") से जोड़कर समझते हैं, जबकि यह पूरी कहानी के माध्यम से.' }
           ],

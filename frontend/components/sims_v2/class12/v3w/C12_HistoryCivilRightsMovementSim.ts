@@ -6,13 +6,13 @@ import C12_HistoryCivilRightsMovementSim from '../../../simulations/c6_12/C12_Hi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_historycivilrightsmovementsim: SimDef = {
     id: 'v3w_c12_historycivilrightsmovementsim',
-    title: 'Civil Rights Movement',
+    title: 'The Rowlatt Satyagraha (1919): The Act, the Hartal and Jallianwala Bagh',
     subtitle: 'This node covers: the Rowlatt Act\'s legislative background (Sidney Rowlatt Committee,.',
     classLevel: 12, subject: 'history', topic: 'The Rowlatt Satyagraha (1919): The Act, the Hartal and Jallianwala Bagh',
     chapters: [],
     nodeIds: ['c12_hist_cbse_11_002', 'c12_hist_cbse_11_003', 'c12_hist_cbse_11_004', 'c12_hist_cbse_11_005', 'c12_hist_cbse_11_006', 'c12_hist_cbse_10_011', 'c12_hist_cbse_01_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing at the Jallianwala Bagh memorial in Amritsar today — the bullet marks on the walls,.', goal: 'Master Civil Rights Movement.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing at the Jallianwala Bagh memorial in Amritsar today — the bullet marks on the walls,.', goal: 'Master The Rowlatt Satyagraha (1919): The Act, the Hartal and Jallianwala Bagh.' },
     discovery: {
         question: 'What was the specific date of the Jallianwala Bagh massacre, who gave the firing order, and what was the crowd gathered for?',
         options: ['The Jallianwala Bagh massacre occurred on 13 April 1919 (Baisakhi day)', 'Gandhi was leading the protest', 'it was a planned satyagraha meeting'],
@@ -79,7 +79,7 @@ export const w_c12_historycivilrightsmovementsim: SimDef = {
             { text: 'Synthesize — the Act changed the machinery; the Proclamation changed the narrative.', faded: true, blankAnswer: 'The Government of India Act (1858) legally transferred.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_hist_cbse_11_003', title: 'Identify each idea',
-          dissect: { specimen: 'Civil Rights Movement', spots: [
+          dissect: { specimen: 'The Rowlatt Satyagraha (1919): The Act, the Hartal and Jallianwala Bagh', spots: [
             { id: 's1', label: 'The Rowlatt Satyagraha MarchApril 1919', prompt: 'Which idea is this? — The Rowlatt Satyagraha (March–April 1919) was the first all-India mass protest organised.', answer: 'The Rowlatt Satyagraha MarchApril 1919', options: ['The Rowlatt Satyagraha MarchApril 1919', 'The Non-Cooperation Movement 192022 was', 'The Civil Disobedience Movement 1930-34', 'The Gandhi-Irwin Pact March 1931'] },
             { id: 's2', label: 'The Non-Cooperation Movement 192022 was', prompt: 'Which idea is this? — The Non-Cooperation Movement (1920–22) was a nationwide mass campaign led by Mahatma.', answer: 'The Non-Cooperation Movement 192022 was', options: ['The Non-Cooperation Movement 192022 was', 'The Rowlatt Satyagraha MarchApril 1919', 'The Civil Disobedience Movement 1930-34', 'The Gandhi-Irwin Pact March 1931'] },
             { id: 's3', label: 'The Civil Disobedience Movement 1930-34', prompt: 'Which idea is this? — The Civil Disobedience Movement (1930-34) was a mass nationalist campaign launched by.', answer: 'The Civil Disobedience Movement 1930-34', options: ['The Civil Disobedience Movement 1930-34', 'The Rowlatt Satyagraha MarchApril 1919', 'The Non-Cooperation Movement 192022 was', 'The Gandhi-Irwin Pact March 1931'] },
@@ -88,7 +88,7 @@ export const w_c12_historycivilrightsmovementsim: SimDef = {
             { id: 's6', label: 'The Queens Proclamation of 1858', prompt: 'Which idea is this? — The Queen\'s Proclamation of 1858, issued by Queen Victoria on November 1, 1858, formally.', answer: 'The Queens Proclamation of 1858', options: ['The Queens Proclamation of 1858', 'The Rowlatt Satyagraha MarchApril 1919', 'The Non-Cooperation Movement 192022 was', 'The Civil Disobedience Movement 1930-34'] }
           ] } }
     ],
-    explore: { component: C12_HistoryCivilRightsMovementSim, prompt: 'Explore the interactive — Civil Rights Movement' },
+    explore: { component: C12_HistoryCivilRightsMovementSim, prompt: 'Explore the interactive — The Rowlatt Satyagraha (1919): The Act, the Hartal and Jallianwala Bagh' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hist_cbse_11_002', difficulty: 'standard',
           question: 'The Rowlatt Satyagraha (March–April 1919) was the first all-India mass protest.',

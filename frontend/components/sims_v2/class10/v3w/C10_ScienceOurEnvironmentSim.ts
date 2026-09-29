@@ -6,13 +6,13 @@ import C10_ScienceOurEnvironmentSim from '../../../simulations/c6_12/C10_Science
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_scienceourenvironmentsim: SimDef = {
     id: 'v3w_c10_scienceourenvironmentsim',
-    title: 'Our Environment',
+    title: 'Conventional Sources of Energy: Fossil Fuels (Coal, Petroleum)',
     subtitle: 'This node covers the origin, composition, calorific value, extraction, and direct uses of.',
     classLevel: 10, subject: 'science', topic: 'Conventional Sources of Energy: Fossil Fuels (Coal, Petroleum)',
     chapters: [],
     nodeIds: ['c10_phy_cbse_03_001', 'c10_phy_cbse_03_002', 'c10_phy_cbse_03_005', 'c10_phy_cbse_03_006', 'c10_phy_cbse_03_008', 'c10_phy_cbse_03_009', 'c10_phy_cbse_03_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Begin with a real-world observation: when you see a coal-fired stove in a roadside tea stall or a petrol pump.', goal: 'Master Our Environment.' },
+    scenario: { role: 'a class 10 learner', intro: 'Begin with a real-world observation: when you see a coal-fired stove in a roadside tea stall or a petrol pump.', goal: 'Master Conventional Sources of Energy: Fossil Fuels (Coal, Petroleum).' },
     discovery: {
         question: 'Compare the environmental impact of burning coal versus petroleum in terms of (a) CO₂ emissions per unit energy, (b) sulphur dioxide emissions, and (c) solid.',
         options: ['CO₂ emissions per unit energy, (', 'fossil fuels are just old plants/animals that turned into fuel', 'reserves'],
@@ -82,7 +82,7 @@ export const w_c10_scienceourenvironmentsim: SimDef = {
             { text: 'Recommendation. Diesel generator is better for 24×7 critical load (refrigerator) despite recurring cost and emissions.', faded: true, blankAnswer: 'Solar PV usable output = 16.8 kWh/day (insufficient for.' }
             ] } },
         { type: 'dissect', nodeId: 'c10_phy_cbse_03_002', title: 'Identify each idea',
-          dissect: { specimen: 'Our Environment', spots: [
+          dissect: { specimen: 'Conventional Sources of Energy: Fossil Fuels (Coal, Petroleum)', spots: [
             { id: 's1', label: 'Fossil fuels are non-renewable energy', prompt: 'Which idea is this? — Fossil fuels are non-renewable energy sources formed from the decomposed remains of.', answer: 'Fossil fuels are non-renewable energy', options: ['Fossil fuels are non-renewable energy', 'A thermal power plant converts', 'Energy from the sea refers', 'Geothermal energy is the thermal'] },
             { id: 's2', label: 'A thermal power plant converts', prompt: 'Which idea is this? — A thermal power plant converts the chemical energy of fossil fuels (coal, oil, natural.', answer: 'A thermal power plant converts', options: ['A thermal power plant converts', 'Fossil fuels are non-renewable energy', 'Energy from the sea refers', 'Geothermal energy is the thermal'] },
             { id: 's3', label: 'Energy from the sea refers', prompt: 'Which idea is this? — Energy from the sea refers to the harnessing of three distinct forms of renewable energy.', answer: 'Energy from the sea refers', options: ['Energy from the sea refers', 'Fossil fuels are non-renewable energy', 'A thermal power plant converts', 'Geothermal energy is the thermal'] },
@@ -91,7 +91,7 @@ export const w_c10_scienceourenvironmentsim: SimDef = {
             { id: 's6', label: 'Renewable energy sources are those', prompt: 'Which idea is this? — Renewable energy sources are those that are naturally replenished on a human timescale.', answer: 'Renewable energy sources are those', options: ['Renewable energy sources are those', 'Fossil fuels are non-renewable energy', 'A thermal power plant converts', 'Energy from the sea refers'] }
           ] } }
     ],
-    explore: { component: C10_ScienceOurEnvironmentSim, prompt: 'Explore the interactive — Our Environment' },
+    explore: { component: C10_ScienceOurEnvironmentSim, prompt: 'Explore the interactive — Conventional Sources of Energy: Fossil Fuels (Coal, Petroleum)' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_phy_cbse_03_001', difficulty: 'standard',
           question: 'Fossil fuels are non-renewable energy sources formed from the decomposed.',

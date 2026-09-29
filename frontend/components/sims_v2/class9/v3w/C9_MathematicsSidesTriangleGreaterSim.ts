@@ -6,13 +6,13 @@ import C9_MathematicsSidesTriangleGreaterSim from '../../../simulations/c6_12/C9
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_mathematicssidestrianglegreatersim: SimDef = {
     id: 'v3w_c9_mathematicssidestrianglegreatersim',
-    title: 'Sides Triangle Greater',
+    title: 'Perimeter of Plane Figures: Rectangle, Triangle, Square',
     subtitle: 'Covers perimeter formulas for rectangles, squares, and triangles (including isosceles and.',
     classLevel: 9, subject: 'mathematics', topic: 'Perimeter of Plane Figures: Rectangle, Triangle, Square',
     chapters: [],
     nodeIds: ['c9_math_ch6_1', 'c9_math_ch6_5', 'c9_math_ch6_6', 'c9_math_ch6_7', 'c9_math_ch6_4'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine you are helping your family fence a rectangular garden that is 12 metres long and 8 metres wide.', goal: 'Master Sides Triangle Greater.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine you are helping your family fence a rectangular garden that is 12 metres long and 8 metres wide.', goal: 'Master Perimeter of Plane Figures: Rectangle, Triangle, Square.' },
     discovery: {
         question: 'An isosceles triangle has a perimeter of 36 cm. The base is 4 cm less than each equal side. Find the length of each side.',
         options: ['Let each equal side be $x$ cm', '4 cm less', '2(l+b)'],
@@ -69,7 +69,7 @@ export const w_c9_mathematicssidestrianglegreatersim: SimDef = {
             { text: 'Verify: Perimeter = 2(30+20) = 100 m ✓. Area = 600 m².', faded: true, blankAnswer: '600 m²' }
             ] } },
         { type: 'dissect', nodeId: 'c9_math_ch6_5', title: 'Identify each idea',
-          dissect: { specimen: 'Sides Triangle Greater', spots: [
+          dissect: { specimen: 'Perimeter of Plane Figures: Rectangle, Triangle, Square', spots: [
             { id: 's1', label: 'The perimeter of a plane', prompt: 'Which idea is this? — The perimeter of a plane figure is the total length of its boundary, calculated as the.', answer: 'The perimeter of a plane', options: ['The perimeter of a plane', 'The area of a triangle', 'Herons Formula calculates the area', 'Herons formula enables calculation of'] },
             { id: 's2', label: 'The area of a triangle', prompt: 'Which idea is this? — The area of a triangle is half the product of any side chosen as the base and the.', answer: 'The area of a triangle', options: ['The area of a triangle', 'The perimeter of a plane', 'Herons Formula calculates the area', 'Herons formula enables calculation of'] },
             { id: 's3', label: 'Herons Formula calculates the area', prompt: 'Which idea is this? — Heron\'s Formula calculates the area of a triangle when the lengths of all three sides (a,.', answer: 'Herons Formula calculates the area', options: ['Herons Formula calculates the area', 'The perimeter of a plane', 'The area of a triangle', 'Herons formula enables calculation of'] },
@@ -77,7 +77,7 @@ export const w_c9_mathematicssidestrianglegreatersim: SimDef = {
             { id: 's5', label: 'The area of a rectangle', prompt: 'Which idea is this? — The area of a rectangle is the product of its length and breadth (A = l × b), where.', answer: 'The area of a rectangle', options: ['The area of a rectangle', 'The perimeter of a plane', 'The area of a triangle', 'Herons Formula calculates the area'] }
           ] } }
     ],
-    explore: { component: C9_MathematicsSidesTriangleGreaterSim, prompt: 'Explore the interactive — Sides Triangle Greater' },
+    explore: { component: C9_MathematicsSidesTriangleGreaterSim, prompt: 'Explore the interactive — Perimeter of Plane Figures: Rectangle, Triangle, Square' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_math_ch6_1', difficulty: 'standard',
           question: 'The perimeter of a plane figure is the total length of its boundary, calculated.',

@@ -19,7 +19,7 @@ export const c12_eng_k_ch16_p1: SimDef = {
         hook: 'Bergman insists film is closer to music than literature — it hits emotion through rhythm and montage, not intellect. That\'s why he calls the script \'a very imperfect technical basis\': dialogue survives translation, but a film\'s breathing — its moods, tones, tensions — never fits into words.',
     },
     teaching: [
-        { title: 'Before You Read: Context and Background', text: 'This node provides the essential historical, biographical, and conceptual background required to approach Ingmar Bergman\'s autobiographical essay "Film-Making" and the accompanying interview with.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Before You Read: Context and Background', text: '\'Film-Making\' (Kaleidoscope, ch. 16) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_eng_k_cbse_16_001', title: 'Your mission',
@@ -29,40 +29,40 @@ export const c12_eng_k_ch16_p1: SimDef = {
         labels: ['Before You Read: Context', 'Text: Plot and Narrative', 'Text: Setting and Atmosphere', 'Character Analysis: Protagonist', 'Character Analysis: Supporting Characters', 'Theme: Primary Theme'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_001', title: 'Before You Read: Context and Background',
-          caseStudy: { intro: 'Imagine you are about to watch a classic film by a director called "the poet of the human face" but you know nothing about him or his era.',
+          caseStudy: { intro: 'Start with the author of \'Film-Making\', then the period, then the literary context — background turns a text from a puzzle into a story you can read.',
             decisions: [{ prompt: 'Who is Ingmar Bergman and name two of his famous films mentioned in the text.', options: [
                 { text: 'Ingmar Bergman (1918–2007) was a renowned Swedish film director known for stark', outcome: 'Ingmar Bergman (1918–2007) was a renowned Swedish film director known for stark black-and-white.' },
                 { text: 'conjurer', outcome: 'Not quite — Students often believe Bergman completely opposes adapting books into films.', reveals: 'bergman-completely-opposes-adapting-books' },
                 { text: 'Bergman completely opposes adapting books into films', outcome: 'Not quite — Students often believe Bergman completely opposes adapting books into films.', reveals: 'bergman-completely-opposes-adapting-books' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_002', title: 'Text: Plot and Narrative Structure',
-          caseStudy: { intro: 'Imagine you\'re watching a documentary about a master chef: it doesn\'t just show the final dish; it flashes back to the chef\'s grandmother\'s kitchen, then to.',
+          caseStudy: { intro: 'Trace \'Film-Making\' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning.',
             decisions: [{ prompt: 'What is the opening anecdote of Bergman\'s essay, and what structural function does it serve in the overall narrative?', options: [
                 { text: 'The essay opens with the cranes circling over the Dalarna landscape during the shooting', outcome: 'The essay opens with the cranes circling over the Dalarna landscape during the shooting of *The.' },
                 { text: 'Bergman first saw cranes, then remembered childhood, then discussed rhythm', outcome: 'Not quite — Students treat Bergman\'s essay as a linear autobiography — listing childhood, then first projector.', reveals: 'students-treat-bergman-s-essay' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_003', title: 'Text: Setting and Atmosphere',
-          caseStudy: { intro: 'Imagine you\'re watching a film where the opening shot is a freezing Swedish forest at 7:30 AM — snowflakes, grey sky, cranes circling.',
+          caseStudy: { intro: 'Identify where and when \'Film-Making\' is set, and how the setting shapes its mood and meaning.',
             decisions: [{ prompt: 'Identify the *first* physical setting described in Bergman\'s essay and state the exact time, temperature, and one sensory detail mentioned.', options: [
                 { text: 'The first setting is the landscape of Dalarna during the shooting of *The Virgin Spring*:', outcome: 'The first setting is the landscape of Dalarna during the shooting of *The Virgin Spring*: early.' },
                 { text: 'grey, rain-dimmed sky', outcome: 'Not quite — Students treat "setting" as mere location (Sweden, studio, vicarage) and "atmosphere" as a synonym.', reveals: 'students-treat-setting-as-mere' },
                 { text: 'the grandmother\'s apartment', outcome: 'Not quite — Students treat "setting" as mere location (Sweden, studio, vicarage) and "atmosphere" as a synonym.', reveals: 'students-treat-setting-as-mere' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_004', title: 'Character Analysis: Protagonist',
-          caseStudy: { intro: 'Imagine you\'re watching a masterclass where a legendary director reveals not just *how* they make films, but *why* they see the world differently.',
+          caseStudy: { intro: 'Pick the central figure in \'Film-Making\' — track their actions, words and choices to see who they really are.',
             decisions: [{ prompt: 'What are the two childhood objects Bergman describes that first sparked his fascination with moving images, and what sensory details does.', options: [
                 { text: 'The magic lantern (metal box, carbide lamp smell, coloured glass slides of Red Riding', outcome: 'The magic lantern (metal box, carbide lamp smell, coloured glass slides of Red Riding Hood where.' },
                 { text: 'conjurer', outcome: 'Not quite — Students often treat Bergman\'s autobiographical narrator as a transparent window to the "real".', reveals: 'students-often-treat-bergman-s' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_005', title: 'Character Analysis: Supporting Characters',
-          caseStudy: { intro: 'Imagine you are assembling a documentary about a famous director.',
+          caseStudy: { intro: 'Spot the secondary figures in \'Film-Making\' — how do they help, block or reveal the main character?',
             decisions: [{ prompt: 'List the seven supporting figures Bergman explicitly names in the essay (including the interview section) and state the one specific.', options: [
                 { text: '**Correct answer:** 1', outcome: '**Correct answer:** 1. **Father & Mother** – Created a "strict middle-class home" Bergman rebelled.' },
                 { text: 'the crane', outcome: 'Not quite — **Misconception:** "Supporting characters in non-fiction are just background info — less important.', reveals: 'misconception-supporting-characters-in-non' },
                 { text: 'the magic lantern', outcome: 'Not quite — **Misconception:** "Supporting characters in non-fiction are just background info — less important.', reveals: 'misconception-supporting-characters-in-non' }
             ] }] } },
         { type: 'case', nodeId: 'c12_eng_k_cbse_16_006', title: 'Theme: Primary Theme and Message',
-          caseStudy: { intro: 'Imagine you\'re watching a film and suddenly wonder: "Where did this image come from?',
+          caseStudy: { intro: 'Ask what \'Film-Making\' keeps circling back to — that repeated idea is the primary theme.',
             decisions: [{ prompt: 'What is the central metaphor Bergman uses to describe his ideal role as a film-maker, and what does it imply about artistic identity?', options: [
                 { text: 'The central metaphor is the **cathedral of Chartres**, where anonymous craftsmen', outcome: 'The central metaphor is the **cathedral of Chartres**, where anonymous craftsmen — master builders.' },
                 { text: 'the conjurer', outcome: 'Not quite — Students treat the essay as **Bergman\'s biography** ("he had a magic lantern, then a projector.', reveals: 'students-treat-the-essay-as' },
@@ -87,7 +87,7 @@ export const c12_eng_k_ch16_p1: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_001', difficulty: 'standard',
-          question: 'This node provides the essential historical, biographical, and conceptual.',
+          question: '\'Film-Making\' (Kaleidoscope, ch. 16) — the context and background to this text.',
           hint: 'If stuck, review c11_eng_h_cbse_01_001 (Before You Read for Hornbill Chapter 1) to see.',
           misconception: 'Students often believe Bergman completely opposes adapting books into films.',
           parts: [
@@ -117,7 +117,7 @@ export const c12_eng_k_ch16_p1: SimDef = {
           ],
             remediations: { 'bergman-completely-opposes-adapting-books': { steps: ['If the student cannot identify Bergman\'s significance: have them watch the opening 5 minutes of *The Seventh Seal*.', 'Then re-attempt Diagnostic Question 1.', 'If the student conflates Bergman\'s and Eco\'s views: create a two-column table labeled "Bergman" and "Eco" with rows for.', 'Fill it using direct quotes from the text.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_002', difficulty: 'standard',
-          question: 'Plot and Narrative Structure in a non-fiction film essay refers to the author\'s.',
+          question: 'The plot/narrative arc of \'Film-Making\' — what happens, in what order, and why.',
           hint: 'Review Class 11 Hornbill Chapter 1 "The Portrait of a Lady" — Khushwant Singh uses.',
           misconception: 'Students treat Bergman\'s essay as a linear autobiography — listing childhood, then first projector, then mentors, then.',
           parts: [
@@ -136,18 +136,18 @@ export const c12_eng_k_ch16_p1: SimDef = {
           ],
             remediations: { 'students-treat-bergman-s-essay': { steps: ['Have the student physically cut the essay into 8 sections (by heading).', 'Ask them to rearrange in *chronological order of Bergman\'s life* — they\'ll see it\'s impossible (cathedral metaphor.', 'Then ask: "If not time, what logic connects Section 1 to Section 2?', 'Map the associative links on a whiteboard: cranes → thread from unconscious → conjuring → rhythm → music → literature.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_003', difficulty: 'standard',
-          question: 'In non-fiction prose like Bergman\'s essay, **setting** refers to the specific.',
+          question: 'The setting of \'Film-Making\' — the place, time and atmosphere the text creates.',
           hint: 'If stuck, return to c11_eng_h_cbse_01_003 and practice the "Sensory Detail -> Atmosphere.',
           misconception: 'Students treat "setting" as mere location (Sweden, studio, vicarage) and "atmosphere" as a synonym for "mood.".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'In non-fiction prose like Bergman\'s essay, **setting** refers to the specific physical,',
-                  options: ['In non-fiction prose like Bergman\'s essay, **setting** refers to the specific physical,', 'This node provides the essential historical, biographical, and conceptual background', 'Plot and Narrative Structure in a non-fiction film essay refers to the author\'s', 'Character analysis of the protagonist in a non-fiction autobiographical text involves'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The setting of \'Film-Making\'',
+                  options: ['The setting of \'Film-Making\'', '\'Film-Making\' (Kaleidoscope, ch', 'The plot/narrative arc of \'Film-Making\'', 'Character analysis in \'Film-Making\''],
                   hint: 'If stuck, return to c11_eng_h_cbse_01_003 and practice the "Sensory Detail -> Atmosphere ->.',
                   misconception: 'Students treat "setting" as mere location (Sweden, studio, vicarage) and "atmosphere" as a synonym for "mood." In Bergman, setting.' }
           ],
             remediations: { 'students-treat-setting-as-mere': { steps: ['Re-read the opening paragraph (Dalarna) and the "Childhood Foretells Future" section.', 'Make a two-column table: Column A = Setting (quote phrase), Column B = What the setting *does* (e.g., "makes us drop.', 'For each row, name the atmosphere created (e.g., "reverent interruption," "childhood dread," "industrial suffocation").', 'Re-attempt Diagnostic Question 4 using this table.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_004', difficulty: 'standard',
-          question: 'Character analysis of the protagonist in a non-fiction autobiographical text.',
+          question: 'Character analysis in \'Film-Making\' — the central figure(s), their traits, and.',
           hint: 'If stuck, review c11_eng_h_cbse_02_004 (Mandela\'s self-presentation in "Long Walk.',
           misconception: 'Students often treat Bergman\'s autobiographical narrator as a transparent window to the "real" Ingmar Bergman, listing.',
           parts: [
@@ -158,7 +158,7 @@ export const c12_eng_k_ch16_p1: SimDef = {
           ],
             remediations: { 'students-often-treat-bergman-s': { steps: ['If a student falls into the biography trap: 1) Have them re-read the "Childhood Foretells Future" section and highlight.', '2) Assign a T-chart: left column "What the child experienced," right column "What the adult filmmaker *claims*.', '3) For the religion error: locate the "clergyman\'s son" paragraph and distinguish "religious emotion" (rejected) from.', '4) Re-diagnostic: Ask them to explain why Bergman *chooses* the Chartres story (anonymous builders) over a story about.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_005', difficulty: 'standard',
-          question: 'In a non-fiction autobiographical essay like Bergman\'s "Film-Making,".',
+          question: 'Supporting characters in \'Film-Making\' — the secondary figures who move the.',
           hint: 'If stuck, review the difference between "character sketch" (descriptive) and "character.',
           misconception: '**Misconception:** "Supporting characters in non-fiction are just background info — less important than the.',
           parts: [
@@ -169,7 +169,7 @@ export const c12_eng_k_ch16_p1: SimDef = {
           ],
             remediations: { 'misconception-supporting-characters-in-non': { steps: ['**Remediation path (3 steps):** 1.', '**Re-read only the "Significant Persons" and "Interview" sections** with a two-column table: Column A = Name, Column.', 'Do not summarize — copy the *exact words* Bergman uses for each lesson.', '**Map each lesson to the "Cathedral" metaphor:** For each figure, complete the sentence: "This person laid the stone.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c12_eng_k_cbse_16_006', difficulty: 'standard',
-          question: 'The primary theme of Ingmar Bergman\'s "Film-Making" is the nature of cinema.',
+          question: 'The primary theme of \'Film-Making\' — the central idea the whole text returns to.',
           hint: 'If stuck, re-read "The Rhythm of a Film" and "Cathedral-building" side-by-side; list what.',
           misconception: 'Students treat the essay as **Bergman\'s biography** ("he had a magic lantern, then a projector, then became.',
           parts: [

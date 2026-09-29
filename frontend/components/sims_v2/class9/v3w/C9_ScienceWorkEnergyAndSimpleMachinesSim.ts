@@ -6,13 +6,13 @@ import C9_ScienceWorkEnergyAndSimpleMachinesSim from '../../../simulations/c6_12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_scienceworkenergyandsimplemachinessim: SimDef = {
     id: 'v3w_c9_scienceworkenergyandsimplemachinessim',
-    title: 'Work Energy And Simple Machines',
+    title: 'Law of Conservation of Energy: Examples',
     subtitle: 'Covers mechanical energy conservation in systems with only conservative forces (gravity,.',
     classLevel: 9, subject: 'science', topic: 'Law of Conservation of Energy: Examples',
     chapters: [],
     nodeIds: ['c9_physics_ch4_8', 'c9_physics_ch4_10', 'c9_physics_ch4_1', 'c9_physics_ch4_11', 'c9_physics_ch4_2', 'c9_physics_ch4_3', 'c9_physics_ch4_4', 'c9_physics_ch4_5', 'c9_physics_ch4_7', 'c9_physics_ch4_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Watch a child on a swing in a playground: at the highest point the swing stops momentarily (zero kinetic,.', goal: 'Master Work Energy And Simple Machines.' },
+    scenario: { role: 'a class 9 learner', intro: 'Watch a child on a swing in a playground: at the highest point the swing stops momentarily (zero kinetic,.', goal: 'Master Law of Conservation of Energy: Examples.' },
     discovery: {
         question: 'Two students, Arjun and Meera, push identical boxes with the same force of 80 N. Arjun\'s box moves 5 m before stopping. Meera\'s box moves 12 m before stopping.',
         options: ['Arjun\'s work = 80 N × 5 m = 400 J', 'same work because same force', 'doing work'],
@@ -77,7 +77,7 @@ export const w_c9_scienceworkenergyandsimplemachinessim: SimDef = {
             { text: 'Verify: 70 J is reasonable for a cricket ball; 700 N ≈ 70 kg-weight, plausible for a bat impact.', faded: true, blankAnswer: '(a) 70 J, (b) 700 N' }
             ] } },
         { type: 'dissect', nodeId: 'c9_physics_ch4_10', title: 'Identify each idea',
-          dissect: { specimen: 'Work Energy And Simple Machines', spots: [
+          dissect: { specimen: 'Law of Conservation of Energy: Examples', spots: [
             { id: 's1', label: 'The Law of Conservation of', prompt: 'Which idea is this? — The Law of Conservation of Energy states that in an isolated system where only.', answer: 'The Law of Conservation of', options: ['The Law of Conservation of', 'Mechanical Advantage MA of a', 'Work is a scalar physical', 'The Work-Energy Theorem states that'] },
             { id: 's2', label: 'Mechanical Advantage MA of a', prompt: 'Which idea is this? — Mechanical Advantage (MA) of a pulley system is the ratio of the load lifted to the.', answer: 'Mechanical Advantage MA of a', options: ['Mechanical Advantage MA of a', 'The Law of Conservation of', 'Work is a scalar physical', 'The Work-Energy Theorem states that'] },
             { id: 's3', label: 'Work is a scalar physical', prompt: 'Which idea is this? — Work is a scalar physical quantity defined as the product of the magnitude of the force.', answer: 'Work is a scalar physical', options: ['Work is a scalar physical', 'The Law of Conservation of', 'Mechanical Advantage MA of a', 'The Work-Energy Theorem states that'] },
@@ -85,7 +85,7 @@ export const w_c9_scienceworkenergyandsimplemachinessim: SimDef = {
             { id: 's5', label: 'Work done by a force', prompt: 'Which idea is this? — Work done by a force is zero when the force applied on an object is perpendicular to the.', answer: 'Work done by a force', options: ['Work done by a force', 'The Law of Conservation of', 'Mechanical Advantage MA of a', 'Work is a scalar physical'] }
           ] } }
     ],
-    explore: { component: C9_ScienceWorkEnergyAndSimpleMachinesSim, prompt: 'Explore the interactive — Work Energy And Simple Machines' },
+    explore: { component: C9_ScienceWorkEnergyAndSimpleMachinesSim, prompt: 'Explore the interactive — Law of Conservation of Energy: Examples' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_physics_ch4_8', difficulty: 'standard',
           question: 'The Law of Conservation of Energy states that in an isolated system where only.',

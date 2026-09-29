@@ -6,13 +6,13 @@ import C12_BiologySexualReproductionFloweringPlantsSim from '../../../simulation
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologysexualreproductionfloweringplantssim: SimDef = {
     id: 'v3w_c12_biologysexualreproductionfloweringplantssim',
-    title: 'Sexual Reproduction Flowering Plants',
+    title: 'Outbreeding Devices: Preventing Self-Pollination',
     subtitle: 'This node covers outbreeding devices (dichogamy, herkogamy, self-incompatibility, male.',
     classLevel: 12, subject: 'biology', topic: 'Outbreeding Devices: Preventing Self-Pollination',
     chapters: [],
     nodeIds: ['c12_bio_cbse_02_008', 'c12_bio_cbse_01_003', 'c12_bio_cbse_01_004', 'c12_bio_cbse_02_001', 'c12_bio_cbse_07_007', 'c12_bio_cbse_02_002', 'c12_bio_cbse_02_004', 'c12_bio_cbse_02_010', 'c12_bio_cbse_01_001', 'c12_bio_cbse_01_002', 'c12_bio_cbse_02_003', 'c12_bio_cbse_02_005', 'c12_bio_cbse_02_006', 'c12_bio_cbse_02_007', 'c12_bio_cbse_02_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a mustard field in Punjab where a farmer notices that isolated plants produce very few seeds, but.', goal: 'Master Sexual Reproduction Flowering Plants.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a mustard field in Punjab where a farmer notices that isolated plants produce very few seeds, but.', goal: 'Master Outbreeding Devices: Preventing Self-Pollination.' },
     discovery: {
         question: 'A plant breeder working with Brassica napus (rapeseed) finds that self-pollination fails to set seeds even though pollen is viable and stigma is receptive.',
         options: ['The device is sporophytic self-incompatibility (SSI)', 'outbreeding devices', 'pollination agents'],
@@ -79,7 +79,7 @@ export const w_c12_biologysexualreproductionfloweringplantssim: SimDef = {
             { text: 'Conclude — specimen is at pre-meiotic/meiotic stage; tapetum is in secretory phase, preparing to support.', faded: true, blankAnswer: 'The anther is at the pre-meiotic to meiotic stage.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_01_003', title: 'Identify each idea',
-          dissect: { specimen: 'Sexual Reproduction Flowering Plants', spots: [
+          dissect: { specimen: 'Outbreeding Devices: Preventing Self-Pollination', spots: [
             { id: 's1', label: 'Outbreeding devices are structural temporal', prompt: 'Which idea is this? — Outbreeding devices are structural, temporal, biochemical, or genetic mechanisms in.', answer: 'Outbreeding devices are structural temporal', options: ['Outbreeding devices are structural temporal', 'Vegetative propagation is a mode', 'Sexual reproduction is a biological', 'A flower is the specialized'] },
             { id: 's2', label: 'Vegetative propagation is a mode', prompt: 'Which idea is this? — Vegetative propagation is a mode of asexual reproduction in plants where new individuals.', answer: 'Vegetative propagation is a mode', options: ['Vegetative propagation is a mode', 'Outbreeding devices are structural temporal', 'Sexual reproduction is a biological', 'A flower is the specialized'] },
             { id: 's3', label: 'Sexual reproduction is a biological', prompt: 'Which idea is this? — Sexual reproduction is a biological process involving the formation and fusion of male.', answer: 'Sexual reproduction is a biological', options: ['Sexual reproduction is a biological', 'Outbreeding devices are structural temporal', 'Vegetative propagation is a mode', 'A flower is the specialized'] },
@@ -88,7 +88,7 @@ export const w_c12_biologysexualreproductionfloweringplantssim: SimDef = {
             { id: 's6', label: 'The stamen is the male', prompt: 'Which idea is this? — The stamen is the male reproductive organ of a flowering plant, consisting of a.', answer: 'The stamen is the male', options: ['The stamen is the male', 'Outbreeding devices are structural temporal', 'Vegetative propagation is a mode', 'Sexual reproduction is a biological'] }
           ] } }
     ],
-    explore: { component: C12_BiologySexualReproductionFloweringPlantsSim, prompt: 'Explore the interactive — Sexual Reproduction Flowering Plants' },
+    explore: { component: C12_BiologySexualReproductionFloweringPlantsSim, prompt: 'Explore the interactive — Outbreeding Devices: Preventing Self-Pollination' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_02_008', difficulty: 'standard',
           question: 'Outbreeding devices are structural, temporal, biochemical, or genetic.',

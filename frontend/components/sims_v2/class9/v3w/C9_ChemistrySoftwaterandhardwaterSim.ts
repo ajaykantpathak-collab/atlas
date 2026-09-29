@@ -6,16 +6,16 @@ import C9_ChemistrySoftwaterandhardwaterSim from '../../../simulations/c6_12/C9_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_chemistrysoftwaterandhardwatersim: SimDef = {
     id: 'v3w_c9_chemistrysoftwaterandhardwatersim',
-    title: 'Softwaterandhardwater',
+    title: 'Properties of Ionic Compounds vs Covalent Compounds',
     subtitle: 'Covers comparison of physical properties (state, melting/boiling point, solubility,.',
     classLevel: 9, subject: 'chemistry', topic: 'Properties of Ionic Compounds vs Covalent Compounds',
     chapters: [],
     nodeIds: ['c9_chem_ch3_8'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Begin with a real-world observation: ask students why common salt (NaCl) dissolves in water and conducts.', goal: 'Master Softwaterandhardwater.' },
+    scenario: { role: 'a class 9 learner', intro: 'Begin with a real-world observation: ask students why common salt (NaCl) dissolves in water and conducts.', goal: 'Master Properties of Ionic Compounds vs Covalent Compounds.' },
     discovery: {
         question: 'Compare the solubility of NaCl (ionic) and CCl₄ (covalent) in water and in benzene (organic solvent).',
-        options: ['Correct answer: NaCl dissolves in water (polar)', 'both dissolve in water', 'all compounds dissolve in water and does not link polarity to solubility'],
+        options: ['NaCl dissolves in water (polar)', 'both dissolve in water', 'all compounds dissolve in water and does not link polarity to solubility'],
         answer: 'NaCl dissolves in water (polar)',
         hook: 'Students often think that because HCl is a gas and dissolves in water to conduct electricity, it is an ionic compound.',
     },
@@ -33,7 +33,7 @@ export const w_c9_chemistrysoftwaterandhardwatersim: SimDef = {
             { text: 'Verify with solubility – A should dissolve in water (polar) but not in organic solvents; B may dissolve in organic.', faded: true, blankAnswer: 'A is ionic (e.g., NaCl); B is covalent molecular (e.g.,.' }
             ] } }
     ],
-    explore: { component: C9_ChemistrySoftwaterandhardwaterSim, prompt: 'Explore the interactive — Softwaterandhardwater' },
+    explore: { component: C9_ChemistrySoftwaterandhardwaterSim, prompt: 'Explore the interactive — Properties of Ionic Compounds vs Covalent Compounds' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_chem_ch3_8', difficulty: 'standard',
           question: 'Ionic compounds are crystalline solids formed by electrostatic attraction.',

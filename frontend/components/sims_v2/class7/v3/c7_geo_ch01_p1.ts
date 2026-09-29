@@ -75,8 +75,8 @@ export const c7_geo_ch01_p1: SimDef = {
           hint: 'Review basic map coordinates, equator, and prime meridian from earlier geography lessons.',
           misconception: 'Students often confuse latitude and longitude, thinking that longitude lines measure distance north and south of the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'India\'s location, latitude, longitude, and extent refer to its precise geographical',
-                  options: ['India\'s location, latitude, longitude, and extent refer to its precise geographical', 'The Indian Subcontinent is a distinct geographical and cultural region in South Asia that', 'The physical divisions of India refer to the broad structural landform units—namely the', 'The Himalayan Mountain Range forms the majestic northern boundary of India, stretching in'],
+                { id: 'a', prompt: 'If a traveler moves from Kanyakumari (approx. 8°N) to Srinagar (approx.', answer: 'Identify Kanyakumari\'s latitude as 8°N and Srinagar\'s latitude as 34°N',
+                  options: ['Identify Kanyakumari\'s latitude as 8°N and Srinagar\'s latitude as 34°N', 'climate stays the same across latitudes'],
                   hint: 'Review basic map coordinates, equator, and prime meridian from earlier geography lessons before.',
                   misconception: 'Students often confuse latitude and longitude, thinking that longitude lines measure distance north and south of the equator, or they.' }
           ],

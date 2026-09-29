@@ -6,13 +6,13 @@ import C12_PhysicsEMWavePropagationSim from '../../../simulations/three/C12_Phys
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_physicsemwavepropagationsim: SimDef = {
     id: 'v3w_c12_physicsemwavepropagationsim',
-    title: 'EMWave Propagation',
+    title: 'Properties of Electromagnetic Waves',
     subtitle: 'Covers: transverse nature, mathematical representation (sinusoidal plane wave), speed in.',
     classLevel: 12, subject: 'physics', topic: 'Properties of Electromagnetic Waves',
     chapters: [],
     nodeIds: ['c12_phy_cbse_08_004', 'c12_phy_cbse_10_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a microwave oven: the rotating turntable ensures even heating because the microwaves form standing.', goal: 'Master EMWave Propagation.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a microwave oven: the rotating turntable ensures even heating because the microwaves form standing.', goal: 'Master Properties of Electromagnetic Waves.' },
     discovery: {
         question: 'A plane EM wave in vacuum has electric field amplitude \\(E_0 = 120 \\text{ N/C}\\).',
         options: ['From Maxwell’s equations, the wave speed \\(c = E_0/B_0\\)', 'they are just proportional', 'out of phase'],
@@ -43,12 +43,12 @@ export const w_c12_physicsemwavepropagationsim: SimDef = {
             { text: 'Verify reasonableness: final intensity is \\(1/8\\) of the original intensity at the polaroid (1/2 from first polaroid ×.', faded: true, blankAnswer: 'Transmitted intensity after first polaroid = 0.995 W/m² (or.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_phy_cbse_10_008', title: 'Identify each idea',
-          dissect: { specimen: 'EMWave Propagation', spots: [
+          dissect: { specimen: 'Properties of Electromagnetic Waves', spots: [
             { id: 's1', label: 'An electromagnetic wave is a', prompt: 'Which idea is this? — An electromagnetic wave is a self-propagating transverse wave consisting of mutually.', answer: 'An electromagnetic wave is a', options: ['An electromagnetic wave is a', 'Polarization is the phenomenon of'] },
             { id: 's2', label: 'Polarization is the phenomenon of', prompt: 'Which idea is this? — Polarization is the phenomenon of restricting the oscillations of the electric field.', answer: 'Polarization is the phenomenon of', options: ['Polarization is the phenomenon of', 'An electromagnetic wave is a'] }
           ] } }
     ],
-    explore: { component: C12_PhysicsEMWavePropagationSim, prompt: 'Explore the interactive — EMWave Propagation' },
+    explore: { component: C12_PhysicsEMWavePropagationSim, prompt: 'Explore the interactive — Properties of Electromagnetic Waves' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_phy_cbse_08_004', difficulty: 'standard',
           question: 'An electromagnetic wave is a self-propagating transverse wave consisting of.',

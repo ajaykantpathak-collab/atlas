@@ -6,13 +6,13 @@ import C11_GeographyAtmosphericCirculationSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geographyatmosphericcirculationsim: SimDef = {
     id: 'v3w_c11_geographyatmosphericcirculationsim',
-    title: 'Atmospheric Circulation',
+    title: 'Evolution of the Atmosphere: Primordial vs Present Atmosphere',
     subtitle: 'Covers the origin and staged evolution of Earth\'s atmosphere from planetary accretion.',
     classLevel: 11, subject: 'geography', topic: 'Evolution of the Atmosphere: Primordial vs Present Atmosphere',
     chapters: [],
     nodeIds: ['c11_geo_cbse_02_006', 'c11_geo_cbse_01_004', 'c11_geo_cbse_02_007', 'c11_geo_cbse_10_002', 'c11_geo_cbse_02_004', 'c11_geo_cbse_02_008', 'c11_geo_cbse_01_007', 'c11_geo_cbse_01_010', 'c11_geo_cbse_10_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Observe the air around you right now — invisible, odourless, yet precisely 21% oxygen that allows you to.', goal: 'Master Atmospheric Circulation.' },
+    scenario: { role: 'a class 11 learner', intro: 'Observe the air around you right now — invisible, odourless, yet precisely 21% oxygen that allows you to.', goal: 'Master Evolution of the Atmosphere: Primordial vs Present Atmosphere.' },
     discovery: {
         question: 'Explain why the primordial atmosphere\'s hydrogen and helium escaped to space, while nitrogen and carbon dioxide were retained, using the concepts of molecular.',
         options: ['Hydrogen (2 g/mol) and helium (4 g/mol) have low molecular masses', 'gravity pulled heavier gases down', 'oxygen appeared suddenly and uniformly across the planet at the GOE (2'],
@@ -81,7 +81,7 @@ export const w_c11_geographyatmosphericcirculationsim: SimDef = {
             { text: 'Conclude — these are plausible early chemosynthetic or anaerobic photosynthetic organisms in a hydrothermal setting,.', faded: true, blankAnswer: 'The microfossils are consistent with early prokaryotic life.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_geo_cbse_01_004', title: 'Identify each idea',
-          dissect: { specimen: 'Atmospheric Circulation', spots: [
+          dissect: { specimen: 'Evolution of the Atmosphere: Primordial vs Present Atmosphere', spots: [
             { id: 's1', label: 'The evolution of Earths atmosphere', prompt: 'Which idea is this? — The evolution of Earth\'s atmosphere refers to the multi-stage process by which the.', answer: 'The evolution of Earths atmosphere', options: ['The evolution of Earths atmosphere', 'Physical Geography is the branch', 'The evolution of the hydrosphere', 'The Indian monsoon is a'] },
             { id: 's2', label: 'Physical Geography is the branch', prompt: 'Which idea is this? — Physical Geography is the branch of geography that systematically studies the natural.', answer: 'Physical Geography is the branch', options: ['Physical Geography is the branch', 'The evolution of Earths atmosphere', 'The evolution of the hydrosphere', 'The Indian monsoon is a'] },
             { id: 's3', label: 'The evolution of the hydrosphere', prompt: 'Which idea is this? — The evolution of the hydrosphere refers to the geological process by which water vapor.', answer: 'The evolution of the hydrosphere', options: ['The evolution of the hydrosphere', 'The evolution of Earths atmosphere', 'Physical Geography is the branch', 'The Indian monsoon is a'] },
@@ -90,7 +90,7 @@ export const w_c11_geographyatmosphericcirculationsim: SimDef = {
             { id: 's6', label: 'The origin of life on', prompt: 'Which idea is this? — The origin of life on Earth refers to the natural process by which non-living matter.', answer: 'The origin of life on', options: ['The origin of life on', 'The evolution of Earths atmosphere', 'Physical Geography is the branch', 'The evolution of the hydrosphere'] }
           ] } }
     ],
-    explore: { component: C11_GeographyAtmosphericCirculationSim, prompt: 'Explore the interactive — Atmospheric Circulation' },
+    explore: { component: C11_GeographyAtmosphericCirculationSim, prompt: 'Explore the interactive — Evolution of the Atmosphere: Primordial vs Present Atmosphere' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_02_006', difficulty: 'standard',
           question: 'The evolution of Earth\'s atmosphere refers to the multi-stage process by which.',

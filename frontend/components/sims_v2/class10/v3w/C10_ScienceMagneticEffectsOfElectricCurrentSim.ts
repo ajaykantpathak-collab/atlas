@@ -6,13 +6,13 @@ import C10_ScienceMagneticEffectsOfElectricCurrentSim from '../../../simulations
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_sciencemagneticeffectsofelectriccurrentsim: SimDef = {
     id: 'v3w_c10_sciencemagneticeffectsofelectriccurrentsim',
-    title: 'Magnetic Effects Of Electric Current',
+    title: 'Magnetic Field Due to a Solenoid and Electromagnet',
     subtitle: 'Covers the magnetic field pattern of a solenoid, factors affecting its strength (current,.',
     classLevel: 10, subject: 'science', topic: 'Magnetic Field Due to a Solenoid and Electromagnet',
     chapters: [],
     nodeIds: ['c10_phy_cbse_02_004', 'c10_phy_cbse_02_009', 'c10_phy_cbse_02_007', 'c10_phy_cbse_02_001', 'c10_phy_cbse_02_002', 'c10_phy_cbse_02_003', 'c10_phy_cbse_02_005', 'c10_phy_cbse_02_008', 'c10_phy_cbse_02_010', 'c10_phy_cbse_01_004', 'c10_phy_cbse_01_008', 'c10_phy_cbse_01_009', 'c10_phy_cbse_01_010', 'c10_phy_cbse_01_011', 'c10_phy_cbse_02_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Observe a doorbell or an electric crane lifting scrap metal — both use electromagnets.', goal: 'Master Magnetic Effects Of Electric Current.' },
+    scenario: { role: 'a class 10 learner', intro: 'Observe a doorbell or an electric crane lifting scrap metal — both use electromagnets.', goal: 'Master Magnetic Field Due to a Solenoid and Electromagnet.' },
     discovery: {
         question: 'Two magnetic field lines are drawn intersecting each other in a student\'s diagram.',
         options: ['Magnetic field lines cannot intersect', 'intersection means stronger field', 'it\'s allowed in some cases'],
@@ -80,7 +80,7 @@ export const w_c10_sciencemagneticeffectsofelectriccurrentsim: SimDef = {
             { text: 'Verify: For a small coil with moderate current, a field of ~0.5 mT is reasonable (Earth\'s field is ~0.05 mT).', faded: true, blankAnswer: '\\( 4.71 \\times 10^{-4} \\, \\text{T} \\) (or 0.471 mT)' }
             ] } },
         { type: 'dissect', nodeId: 'c10_phy_cbse_02_009', title: 'Identify each idea',
-          dissect: { specimen: 'Magnetic Effects Of Electric Current', spots: [
+          dissect: { specimen: 'Magnetic Field Due to a Solenoid and Electromagnet', spots: [
             { id: 's1', label: 'A solenoid is a long', prompt: 'Which idea is this? — A solenoid is a long helical coil of insulated copper wire that produces a nearly uniform.', answer: 'A solenoid is a long', options: ['A solenoid is a long', 'An electric motor is a', 'An electric fuse is a', 'A magnetic field is the'] },
             { id: 's2', label: 'An electric motor is a', prompt: 'Which idea is this? — An electric motor is a device that converts electrical energy into mechanical energy of.', answer: 'An electric motor is a', options: ['An electric motor is a', 'A solenoid is a long', 'An electric fuse is a', 'A magnetic field is the'] },
             { id: 's3', label: 'An electric fuse is a', prompt: 'Which idea is this? — An electric fuse is a safety device consisting of a short length of wire made of a.', answer: 'An electric fuse is a', options: ['An electric fuse is a', 'A solenoid is a long', 'An electric motor is a', 'A magnetic field is the'] },
@@ -89,7 +89,7 @@ export const w_c10_sciencemagneticeffectsofelectriccurrentsim: SimDef = {
             { id: 's6', label: 'The magnetic field at the', prompt: 'Which idea is this? — The magnetic field at the centre of a current-carrying circular loop is a vector quantity.', answer: 'The magnetic field at the', options: ['The magnetic field at the', 'A solenoid is a long', 'An electric motor is a', 'An electric fuse is a'] }
           ] } }
     ],
-    explore: { component: C10_ScienceMagneticEffectsOfElectricCurrentSim, prompt: 'Explore the interactive — Magnetic Effects Of Electric Current' },
+    explore: { component: C10_ScienceMagneticEffectsOfElectricCurrentSim, prompt: 'Explore the interactive — Magnetic Field Due to a Solenoid and Electromagnet' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_phy_cbse_02_004', difficulty: 'standard',
           question: 'A solenoid is a long helical coil of insulated copper wire that produces a.',

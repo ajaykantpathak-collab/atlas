@@ -6,13 +6,13 @@ import C11_GeographyMapProjectionsSim from '../../../simulations/c6_12/C11_Geogr
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_geographymapprojectionssim: SimDef = {
     id: 'v3w_c11_geographymapprojectionssim',
-    title: 'Map Projections',
+    title: 'Maps: Definition, Types and Essential Elements',
     subtitle: 'This node covers the definition of a map, its essential elements (title, scale,.',
     classLevel: 11, subject: 'geography', topic: 'Maps: Definition, Types and Essential Elements',
     chapters: [],
     nodeIds: ['c11_geo_cbse_22_001', 'c11_geo_cbse_22_002', 'c11_geo_cbse_22_003', 'c11_geo_cbse_22_005', 'c11_geo_cbse_22_006', 'c11_geo_cbse_22_007', 'c11_geo_cbse_22_008', 'c11_geo_cbse_23_002', 'c11_geo_cbse_23_004', 'c11_geo_cbse_23_005', 'c11_geo_cbse_23_006', 'c11_geo_cbse_23_007', 'c11_geo_cbse_23_008', 'c11_geo_cbse_23_009', 'c11_geo_cbse_15_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Begin by showing students a familiar object: a Google Maps screenshot of their school locality on a phone.', goal: 'Master Map Projections.' },
+    scenario: { role: 'a class 11 learner', intro: 'Begin by showing students a familiar object: a Google Maps screenshot of their school locality on a phone.', goal: 'Master Maps: Definition, Types and Essential Elements.' },
     discovery: {
         question: 'A map has a Statement of Scale: "2 cm represents 1 km". If this map is reduced to half its original size during photocopying, what happens to the accuracy of.',
         options: ['The Statement of Scale and R.F', 'all three become wrong', 'only R.F'],
@@ -81,7 +81,7 @@ export const w_c11_geographymapprojectionssim: SimDef = {
             { text: 'Check shape preservation: h = k only when cos φ = sec φ → cos² φ = 1 → φ = 0° (equator).', faded: true, blankAnswer: 'The projection is equal-area (h × k = 1 everywhere) but.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_geo_cbse_22_002', title: 'Identify each idea',
-          dissect: { specimen: 'Map Projections', spots: [
+          dissect: { specimen: 'Maps: Definition, Types and Essential Elements', spots: [
             { id: 's1', label: 'A map is a scaled', prompt: 'Which idea is this? — A map is a scaled, symbolized, and generalized representation of the whole or a part of.', answer: 'A map is a scaled', options: ['A map is a scaled', 'The history of map making', 'Map scale is the precise', 'Map reading is the systematic'] },
             { id: 's2', label: 'The history of map making', prompt: 'Which idea is this? — The history of map making traces the evolution of cartography from ancient symbolic.', answer: 'The history of map making', options: ['The history of map making', 'A map is a scaled', 'Map scale is the precise', 'Map reading is the systematic'] },
             { id: 's3', label: 'Map scale is the precise', prompt: 'Which idea is this? — Map scale is the precise ratio or relationship between a distance measured on a map and.', answer: 'Map scale is the precise', options: ['Map scale is the precise', 'A map is a scaled', 'The history of map making', 'Map reading is the systematic'] },
@@ -90,7 +90,7 @@ export const w_c11_geographymapprojectionssim: SimDef = {
             { id: 's6', label: 'Map projection is the systematic', prompt: 'Which idea is this? — Map projection is the systematic transformation of the Earth\'s three-dimensional curved.', answer: 'Map projection is the systematic', options: ['Map projection is the systematic', 'A map is a scaled', 'The history of map making', 'Map scale is the precise'] }
           ] } }
     ],
-    explore: { component: C11_GeographyMapProjectionsSim, prompt: 'Explore the interactive — Map Projections' },
+    explore: { component: C11_GeographyMapProjectionsSim, prompt: 'Explore the interactive — Maps: Definition, Types and Essential Elements' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_geo_cbse_22_001', difficulty: 'standard',
           question: 'A map is a scaled, symbolized, and generalized representation of the whole or a.',

@@ -6,13 +6,13 @@ import C7_PhysicsLightReflectionMirrorsCBSESim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_physicslightreflectionmirrorscbsesim: SimDef = {
     id: 'v3w_c7_physicslightreflectionmirrorscbsesim',
-    title: 'Light Reflection Mirrors CBSE',
+    title: 'Reflection of Light: Laws of Reflection',
     subtitle: 'Covers regular (specular) reflection on flat plane mirrors and surfaces, angle.',
     classLevel: 7, subject: 'physics', topic: 'Reflection of Light: Laws of Reflection',
     chapters: [],
     nodeIds: ['c7_physics_ch05_006', 'c7_physics_ch05_007', 'c7_physics_ch05_009', 'c7_physics_ch05_011', 'c7_physics_ch05_010', 'c7_physics_ch05_002', 'c7_physics_ch05_003', 'c7_physics_ch05_001', 'c7_physics_ch05_004', 'c7_physics_ch05_005', 'c7_physics_ch05_008', 'c7_physics_ch01_008'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine holding a pocket mirror in the sunlight and bouncing a bright patch of light onto a classroom wall.', goal: 'Master Light Reflection Mirrors CBSE.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine holding a pocket mirror in the sunlight and bouncing a bright patch of light onto a classroom wall.', goal: 'Master Reflection of Light: Laws of Reflection.' },
     discovery: {
         question: 'What type of reflecting surfaces are used inside a standard school periscope?',
         options: ['Plane mirrors are used inside a standard school periscope', 'convex mirrors', 'concave mirrors'],
@@ -78,7 +78,7 @@ export const w_c7_physicslightreflectionmirrorscbsesim: SimDef = {
             { text: 'Group the items into final categories: Luminous = Tube light, Sun; Non-luminous = Wooden desk, Chalkboard.', faded: true, blankAnswer: 'Luminous: Tube light, Sun; Non-luminous: Wooden desk,.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_physics_ch05_007', title: 'Identify each idea',
-          dissect: { specimen: 'Light Reflection Mirrors CBSE', spots: [
+          dissect: { specimen: 'Reflection of Light: Laws of Reflection', spots: [
             { id: 's1', label: 'The laws of reflection state', prompt: 'Which idea is this? — The laws of reflection state that when light falls on a smooth, reflective surface, the.', answer: 'The laws of reflection state', options: ['The laws of reflection state', 'The image formed by a', 'A periscope is an optical', 'A real image is formed'] },
             { id: 's2', label: 'The image formed by a', prompt: 'Which idea is this? — The image formed by a plane mirror is virtual, erect, of the exact same size as the.', answer: 'The image formed by a', options: ['The image formed by a', 'The laws of reflection state', 'A periscope is an optical', 'A real image is formed'] },
             { id: 's3', label: 'A periscope is an optical', prompt: 'Which idea is this? — A periscope is an optical instrument that uses two plane mirrors placed parallel to each.', answer: 'A periscope is an optical', options: ['A periscope is an optical', 'The laws of reflection state', 'The image formed by a', 'A real image is formed'] },
@@ -87,7 +87,7 @@ export const w_c7_physicslightreflectionmirrorscbsesim: SimDef = {
             { id: 's6', label: 'Luminous objects are those that', prompt: 'Which idea is this? — Luminous objects are those that emit their own light by converting various forms of.', answer: 'Luminous objects are those that', options: ['Luminous objects are those that', 'The laws of reflection state', 'The image formed by a', 'A periscope is an optical'] }
           ] } }
     ],
-    explore: { component: C7_PhysicsLightReflectionMirrorsCBSESim, prompt: 'Explore the interactive — Light Reflection Mirrors CBSE' },
+    explore: { component: C7_PhysicsLightReflectionMirrorsCBSESim, prompt: 'Explore the interactive — Reflection of Light: Laws of Reflection' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_physics_ch05_006', difficulty: 'standard',
           question: 'The laws of reflection state that when light falls on a smooth, reflective.',

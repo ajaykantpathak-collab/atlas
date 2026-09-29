@@ -127,8 +127,8 @@ export const c8_physics_ch03_p2: SimDef = {
                   options: ['The statement is incorrect', 'no forces', 'balanced forces', 'no contact forces'],
                   hint: 'If stuck, review c8_physics_ch3_1 (Force: Definition as Push or Pull) and c8_physics_ch3_2 (Effects.',
                   misconception: 'Students believe "balanced forces mean the object is at rest." They forget that an object moving at constant velocity (e.g., a bicycle.' },
-                { id: 'b', prompt: 'Design a simple experiment using a spring balance, a wooden block (with a hook), a rough tabletop, and a smooth plastic sheet to demonstrate the transition.', answer: 'Steps: 1) Place block on rough table',
-                  options: ['Steps: 1) Place block on rough table', 'balanced forces mean the object is at rest', '"balanced forces mean the object is at rest'],
+                { id: 'b', prompt: 'Design a simple experiment using a spring balance, a wooden block (with a hook), a rough tabletop, and a smooth plastic sheet to demonstrate the transition.', answer: 'Place block on rough table',
+                  options: ['Place block on rough table', 'balanced forces mean the object is at rest', '"balanced forces mean the object is at rest'],
                   hint: 'If stuck, review c8_physics_ch3_1 (Force: Definition as Push or Pull) and c8_physics_ch3_2 (Effects.',
                   misconception: 'Students believe "balanced forces mean the object is at rest." They forget that an object moving at constant velocity (e.g., a bicycle.' }
           ],

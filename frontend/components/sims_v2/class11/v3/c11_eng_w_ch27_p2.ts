@@ -19,7 +19,7 @@ export const c11_eng_w_ch27_p2: SimDef = {
         hook: 'It\'s episodic, not linear — the same disaster loops with variations, and the comedy is that expertise itself becomes the hazard.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the subordinate ideas or motifs that run alongside the primary theme in a literary work, providing additional layers of meaning, reinforcing the central message, or offering.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Bridges\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_27_007', title: 'Your mission',
@@ -29,35 +29,35 @@ export const c11_eng_w_ch27_p2: SimDef = {
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
             observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_27_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you take your smartphone to a repair shop for a tiny glitch, but each "expert" who touches it creates new problems until the phone becomes unusable.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Bridges\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a secondary theme in literature?', options: [
                 { text: 'A secondary theme is a subordinate idea or motif that supports, complements, or adds', outcome: 'A secondary theme is a subordinate idea or motif that supports, complements, or adds depth to the.' },
                 { text: 'the main message of the story', outcome: 'Not quite — Students often think any recurring topic (e.g., "watches," "repair shops," "time") is a secondary.', reveals: 'any-recurring-topic-e' },
                 { text: 'watches', outcome: 'Not quite — Students often think any recurring topic (e.g., "watches," "repair shops," "time") is a secondary.', reveals: 'any-recurring-topic-e' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_27_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you\'re watching a dance performance where the dancer\'s hands suddenly clutch her stomach – you *feel* her hunger without a word spoken.',
+          caseStudy: { intro: 'Find the lines in \'Bridges\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define imagery and list the five senses it engages. Give one example of each type from daily life (not from the text).', options: [
                 { text: 'Imagery is descriptive language that appeals to the five senses: visual (sight – e.g.,', outcome: 'Imagery is descriptive language that appeals to the five senses: visual (sight – e.g., "crimson.' },
                 { text: 'visual description', outcome: 'Not quite — Students treat imagery as "adjectives" and metaphor as "any comparison".', reveals: 'students-treat-imagery-as-adjectives' },
                 { text: 'imagination', outcome: 'Not quite — Students treat imagery as "adjectives" and metaphor as "any comparison".', reveals: 'students-treat-imagery-as-adjectives' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_27_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading the essay and come across the word "infraction" in the sentence: "The only reason one was called to Miss Cox\'s office was because.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Bridges\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the meaning of "infraction" as used in the essay, and which context clue helps you determine it?', options: [
                 { text: 'Infraction means a violation or breach of a rule', outcome: 'Infraction means a violation or breach of a rule. The context clue is the list of possible minor.' },
                 { text: 'a meeting', outcome: 'Not quite — Students often think "dubious assertion" means a false statement, but "dubious" means doubtful.', reveals: 'dubious-assertion-means-a-false' },
                 { text: 'a punishment', outcome: 'Not quite — Students often think "dubious assertion" means a false statement, but "dubious" means doubtful.', reveals: 'dubious-assertion-means-a-false' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_27_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are reading the opening line: "If my younger self could see me now she would be incredulous." You notice the unusual verb combination "could see...',
+          caseStudy: { intro: 'Read \'Bridges\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the tense and mood of the verb phrase "would have been" in the sentence: "That I would work in the field of dance...', options: [
                 { text: 'The verb phrase "would have been" is in the **conditional perfect** (or "would have +', outcome: 'The verb phrase "would have been" is in the **conditional perfect** (or "would have + past.' },
                 { text: 'simple past', outcome: 'Not quite — Students believe "grammar analysis" means circling verbs and labeling tenses.', reveals: 'grammar-analysis-means-circling-verbs' },
                 { text: 'future', outcome: 'Not quite — Students believe "grammar analysis" means circling verbs and labeling tenses.', reveals: 'grammar-analysis-means-circling-verbs' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_27_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re reading a mystery novel: the detective finds a muddy footprint (literal fact), but infers the culprit wore boots and came from the garden.',
+          caseStudy: { intro: 'Answer \'Bridges\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify the question type: "What was the author\'s mother\'s reaction when she saw the author imitating Mumtaz Ali\'s dance at age seven?".', options: [
                 { text: 'Literal', outcome: 'Literal. The text explicitly states: "my mother, who was quietly watching, was the one who said.' },
                 { text: 'any opinion', outcome: 'Not quite — Students believe inferential questions allow "any opinion" as long as it sounds reasonable.', reveals: 'inferential-questions-allow-any-opinion' },
@@ -82,7 +82,7 @@ export const c11_eng_w_ch27_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_27_007', difficulty: 'standard',
-          question: 'Secondary themes are the subordinate ideas or motifs that run alongside the.',
+          question: 'Secondary themes in \'Bridges\' — the supporting ideas and motifs that deepen the.',
           hint: 'If stuck, review the "Topic vs. Theme" distinction using the fable "The Tortoise and the.',
           misconception: 'Students often think any recurring topic (e.g., "watches," "repair shops," "time") is a secondary theme.',
           parts: [
@@ -116,7 +116,7 @@ export const c11_eng_w_ch27_p2: SimDef = {
           ],
             remediations: { 'any-recurring-topic-e': { steps: ['Ask the student to write three complete sentences starting with "The essay suggests that..." about the watch, the.', 'Have them label each as primary or secondary by checking if it summarizes the whole essay or only a supporting strand.', 'Guide them to convert topics into themes: "watchmakers" → "the danger of unquestioned authority." 4.', 'Practice with a familiar fable (e.g., "The Tortoise and the Hare") to reinforce the topic-vs-theme distinction before.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_27_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Bridges\' — the vivid, sensory language that creates word-pictures.',
           hint: 'Review the difference between simile (using \'like\'/\'as\') and metaphor (direct equation).',
           misconception: 'Students treat imagery as "adjectives" and metaphor as "any comparison".',
           parts: [
@@ -127,18 +127,18 @@ export const c11_eng_w_ch27_p2: SimDef = {
           ],
             remediations: { 'students-treat-imagery-as-adjectives': { steps: ['**Re-read with a sensory highlighter**: Assign five colours (V/A/O/G/T).', 'Mark every sensory word in the temple and death paragraphs.', '**Vehicle-Tenor mapping**: For each metaphor (patchwork, mist, cassettes, trading agent, loom), draw a two-column table.', 'List vehicle qualities in left, tenor mappings in right.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_27_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words is opposite.',
+          question: 'Irony and paradox in \'Bridges\' — where opposite things are both true,.',
           hint: 'Review the plot summary (c11_eng_w_cbse_27_002) and the imagery/metaphor node.',
           misconception: 'Students often confuse irony with mere coincidence or bad luck.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony is a literary device where the intended meaning of words is opposite to their',
-                  options: ['Irony is a literary device where the intended meaning of words is opposite to their', '"Before You Read: Context and Background" is a pre-reading strategy that equips students', 'Plot and narrative structure refer to the organized sequence of events in a story (plot)', 'Setting in a prose essay refers to the time, place, and social environment where the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'Bridges\'',
+                  options: ['Irony and paradox in \'Bridges\'', '\'Bridges\' (Woven Words, ch', 'The plot/narrative arc of \'Bridges\'', 'The setting of \'Bridges\''],
                   hint: 'Review the plot summary (c11_eng_w_cbse_27_002) and the imagery/metaphor node.',
                   misconception: 'Students often confuse irony with mere coincidence or bad luck.' }
           ],
             remediations: { 'students-often-confuse-irony-with': { steps: ['If a student confuses irony types, have them create a three-column table: Type | Definition | Example from "My Watch".', 'Fill it together using the text.', 'For symbolism, ask: "If the watch were a character, what would it want?', 'What does its death mean?" Guide them to map the watch\'s journey (perfect → fast → slow → stop) to the arc of human.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_27_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the meaning of unfamiliar.',
+          question: 'Key vocabulary of \'Bridges\' — the words and phrases you must know to read the.',
           hint: 'If stuck, review the "Context Clues" strategy from Class 10 (node c10_engl_cbse_02_009).',
           misconception: 'Students often think "dubious assertion" means a false statement, but "dubious" means doubtful or questionable, not.',
           parts: [
@@ -153,18 +153,18 @@ export const c11_eng_w_ch27_p2: SimDef = {
           ],
             remediations: { 'dubious-assertion-means-a-false': { steps: ['Re-read the specific paragraphs where each key word appears, highlighting the sentences before and after.', 'For each word, write down the context clues (definition, example, contrast, tone).', 'Practice the word pairs by creating a two-column table: one column for each word, with a sentence from the text (or.', 'Check your sentences with a peer or teacher to ensure the distinction is clear.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_27_011', difficulty: 'standard',
-          question: 'Language Usage in the Text refers to the systematic analysis of grammatical.',
+          question: 'Language and style in \'Bridges\' — how the writer chose words, sentences and.',
           hint: 'Review "Verb Phrase Identification" and "Tense-Mood Mapping" from Class 10 grammar.',
           misconception: 'Students believe "grammar analysis" means circling verbs and labeling tenses.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language Usage in the Text refers to the systematic analysis of grammatical',
-                  options: ['Language Usage in the Text refers to the systematic analysis of grammatical', '"Before You Read: Context and Background" is a pre-reading strategy that equips students', 'Plot and narrative structure refer to the organized sequence of events in a story (plot)', 'Setting in a prose essay refers to the time, place, and social environment where the'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Language and style in \'Bridges\'',
+                  options: ['Language and style in \'Bridges\'', '\'Bridges\' (Woven Words, ch', 'The plot/narrative arc of \'Bridges\'', 'The setting of \'Bridges\''],
                   hint: 'Review "Verb Phrase Identification" and "Tense-Mood Mapping" from Class 10 grammar workbook (Unit.',
                   misconception: 'Students believe "grammar analysis" means circling verbs and labeling tenses.' }
           ],
             remediations: { 'grammar-analysis-means-circling-verbs': { steps: ['Give the student the second paragraph only.', 'Ask them to highlight every verb phrase in two colors: one for past perfect, one for simple past.', 'Have them write a one-sentence reason for each color change (e.g., "Past perfect for habitual actions before the main.', 'Finally, ask them to rewrite the paragraph using *only* simple past and read both aloud to hear the loss of temporal.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_27_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'Bridges\' — questions answered straight from the text.',
           hint: 'If stuck, review the "Understanding the Text" questions in the NCERT textbook (page 196).',
           misconception: 'Students believe inferential questions allow "any opinion" as long as it sounds reasonable.',
           parts: [

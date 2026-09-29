@@ -142,8 +142,8 @@ export const c12_geo_ch04_p2: SimDef = {
                   options: ['Correct answer: (1) All-weather road connectivity', 'lack of hospitals', 'lack of funds', 'rural problems are the same everywhere in India'],
                   hint: 'If stuck on settlement patterns → revisit c11_geo_cbse_17_002 (Rural Settlement Types).',
                   misconception: 'Students think "rural problems are the same everywhere in India — just lack of money." They write generic answers like "villages lack.' },
-                { id: 'b', prompt: 'A village in Bundelkhand (Central India, hard rock terrain) has 1,200 population. It receives 800 mm annual rainfall (June-Sept).', answer: 'Steps: (a) Demand = 1,200 × 70 lpcd = 84,000 litres/day = 84 m³/day',
-                  options: ['Steps: (a) Demand = 1,200 × 70 lpcd = 84,000 litres/day = 84 m³/day', 'rural problems are the same everywhere in India', 'villages lack roads, hospitals, schools', 'infrastructure'],
+                { id: 'b', prompt: 'A village in Bundelkhand (Central India, hard rock terrain) has 1,200 population. It receives 800 mm annual rainfall (June-Sept).', answer: '(a) Demand = 1,200 × 70 lpcd = 84,000 litres/day = 84 m³/day',
+                  options: ['(a) Demand = 1,200 × 70 lpcd = 84,000 litres/day = 84 m³/day', 'rural problems are the same everywhere in India', 'villages lack roads, hospitals, schools', 'infrastructure'],
                   hint: 'If stuck on settlement patterns → revisit c11_geo_cbse_17_002 (Rural Settlement Types).',
                   misconception: 'Students think "rural problems are the same everywhere in India — just lack of money." They write generic answers like "villages lack.' }
           ],

@@ -119,7 +119,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Vastu-nishth Questions Test Recall Of",
+    "title": "'ऊँचा खड़ा हिमालय' के वस्तुनिष्ठ प्रश्न",
     "text": "Vastu-nishth (objective) questions test recall of explicit facts, details, or events directly stated in the text. Aashay-soochak (inferential/intent-indicative) questions require students to read between the lines, using textual evidence to deduce implied",
     "emoji": "🎓",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1504,7 +1504,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "वस्तुनिष्ठ प्रश्न Have a",
+    "title": "'पावस का प्रथम दिवस' के वस्तुनिष्ठ",
     "text": "वस्तुनिष्ठ प्रश्न (Objective Questions) have a single, fact-based answer directly stated in the text (who, what, where, when). आशय-सूचक प्रश्न (Inferential Questions) require the reader to combine text evidence with reasoning to reach a conclusion not",
     "emoji": "🎓",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4537,7 +4537,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "वस्तुनिष्ठ प्रश्न Have a",
+    "title": "'एंजेला' के वस्तुनिष्ठ प्रश्न — जिनके",
     "text": "वस्तुनिष्ठ प्रश्न (Objective Questions) have a single, factual answer directly stated in the text (who, what, when, where). आशय-सूचक प्रश्न (Inferential/Intent Questions) require the reader to read between the lines, combine clues from the text with logic,",
     "emoji": "🎓",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -6533,7 +6533,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "\"वाचन-श्रवण",
+    "title": "'रण-बीच चौकड़ी भर-भरकर' पर वाचन-श्रवण और",
     "text": "\"वाचन-श्रवण: चर्चा-बिंदु\" refers to the skill of identifying key discussion points from a text (वाचन/reading) or an audio input (श्रवण/listening), and then participating in a structured conversation where students express opinions, ask questions, and respond",
     "emoji": "🎓",
     "bgColor": "from-emerald-400 to-teal-500"

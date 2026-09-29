@@ -1020,7 +1020,7 @@ export const C11_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Cryptogamae And Phanerogamae Represent The",
+    "title": "Classification of Plants: Cryptogamae",
     "text": "Cryptogamae and Phanerogamae represent the two major sub-divisions of Kingdom Plantae based on the presence or absence of seeds and flowers; Cryptogamae (hidden reproduction) include non-seed-bearing, non-flowering plants such as algae, bryophytes, and",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1032,7 +1032,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Chlorophyceae, Phaeophyceae, And",
+    "title": "Chlorophyceae, Phaeophyceae, Rhodophyceae",
     "text": "Chlorophyceae, Phaeophyceae, and Rhodophyceae are the three major classes of algae distinguished primarily by their photosynthetic pigment composition (chlorophylls a,b; chlorophylls a,c,fucoxanthin; chlorophylls a,d,phycoerythrin respectively), stored food",
     "emoji": "🌿",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2996,7 +2996,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Root Anatomy Of Dicotyledonous And",
+    "title": "Anatomy of Dicot and Monocot Roots",
     "text": "The root anatomy of dicotyledonous and monocotyledonous plants refers to the internal structural organization of primary root tissues in transverse section, characterized by distinct arrangements of epiblema, cortex, endodermis with Casparian strips,",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -3789,7 +3789,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Frog's Nervous System Comprises a",
+    "title": "Frog's Nervous System Comprises",
     "text": "The frog's nervous system comprises a central nervous system (brain and spinal cord), a peripheral nervous system (10 pairs of cranial nerves and spinal nerves), and an autonomic nervous system (sympathetic and parasympathetic divisions) that coordinates",
     "emoji": "🌿",
     "bgColor": "from-amber-400 to-orange-500"
@@ -6463,7 +6463,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Transport Of Carbon Dioxide In",
+    "title": "Transport Of Carbon Dioxide In Blood",
     "text": "Transport of carbon dioxide in blood occurs through three mechanisms: (1) dissolution in plasma (7%), (2) formation of carbamino compounds with haemoglobin (20-25%), and (3) conversion to bicarbonate ions (HCO₃⁻) via carbonic anhydrase catalysis in",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -7399,15 +7399,13 @@ export const C11_BIO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_bio_ch16",
-  "title": "Human Excretory System Consists Of",
+  "title": "Human Excretory System",
   "subtitle": "Biology · Chapter 16",
   "classLevel": 11,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Human Excretory System Consists Of",
-  "chapters": [
-   "Biology Ch16: Human Excretory System Consists Of"
-  ],
+  "topic": "Human Excretory System",
+  "chapters": ["Biology Ch16: Human Excretory System"],
   "nodeIds": [
    "c11_bio_cbse_16_001",
    "c11_bio_cbse_16_002",
@@ -7425,7 +7423,7 @@ export const C11_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Human Excretory System Consists Of outside the classroom?",
+   "question": "Quick guess -- where do you meet Human Excretory System outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -7436,7 +7434,7 @@ export const C11_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Human Excretory System Consists Of",
+    "title": "Human Excretory System",
     "text": "The human excretory system consists of a pair of bean-shaped kidneys located retroperitoneally between the last thoracic and third lumbar vertebrae, each containing approximately one million nephrons as functional units, along with a pair of ureters, a",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -9123,7 +9121,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Hormones Of The Heart, Kidney, And",
+    "title": "Hormones of Heart, Kidney",
     "text": "Hormones of the heart, kidney, and gastrointestinal tract are peptide hormones secreted by non-endocrine tissues that regulate blood pressure, erythropoiesis, and digestive secretions respectively.",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"

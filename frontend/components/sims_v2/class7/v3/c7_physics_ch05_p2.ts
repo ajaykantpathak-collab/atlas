@@ -172,7 +172,11 @@ export const c7_physics_ch05_p2: SimDef = {
                   options: ['An image in a plane mirror is virtual', 'virtual', 'you can touch a virtual image if you put your hand behind a plane mirror'],
                   hint: 'Review c7_physics_ch05_007 to reinforce how plane mirrors form images behind the reflecting surface.',
                   misconception: 'Students often think that "virtual" means the image is not real and therefore no light is involved, or they believe that you can touch.' },
-                { id: 'c', prompt: 'Analyze the orientation of images: Can a real image ever be erect (upright), and can a virtual image ever be inverted? Explain your reasoning.', answer: 'Real images are almost always inverted (upside down) relative to the object',
+                { id: 'c', prompt: 'If a convex lens forms an image of a candle flame on a white cardboard screen placed 30 cm away from the lens, is this image real or virtual, and why?', answer: 'Identify that the image is formed on a white cardboard screen',
+                  options: ['Identify that the image is formed on a white cardboard screen', 'virtual', 'you can touch a virtual image if you put your hand behind a plane mirror'],
+                  hint: 'Review c7_physics_ch05_007 to reinforce how plane mirrors form images behind the reflecting surface.',
+                  misconception: 'Students often think that "virtual" means the image is not real and therefore no light is involved, or they believe that you can touch.' },
+                { id: 'd', prompt: 'Analyze the orientation of images: Can a real image ever be erect (upright), and can a virtual image ever be inverted? Explain your reasoning.', answer: 'Real images are almost always inverted (upside down) relative to the object',
                   options: ['Real images are almost always inverted (upside down) relative to the object', 'virtual', 'you can touch a virtual image if you put your hand behind a plane mirror'],
                   hint: 'Review c7_physics_ch05_007 to reinforce how plane mirrors form images behind the reflecting surface.',
                   misconception: 'Students often think that "virtual" means the image is not real and therefore no light is involved, or they believe that you can touch.' }

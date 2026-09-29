@@ -142,6 +142,10 @@ export const c8_chem_ch03_p1: SimDef = {
                 { id: 'a', prompt: 'What term is used to describe a mixture that has a uniform composition throughout?', answer: 'A homogeneous mixture',
                   options: ['A homogeneous mixture', 'heterogeneous', 'if a mixture is liquid, it must automatically be homogeneous'],
                   hint: 'Review basic solubility properties from Class 6 materials properties chapters before analyzing.',
+                  misconception: 'Students often think that if a mixture is liquid, it must automatically be homogeneous.' },
+                { id: 'b', prompt: 'A student mixes 10 g of common salt in 100 mL of water and takes samples from the top, middle, and bottom of the beaker. Each sample tastes equally salty.', answer: 'Observe that every sample tastes the same',
+                  options: ['Observe that every sample tastes the same', 'if a mixture is liquid, it must automatically be homogeneous'],
+                  hint: 'Review basic solubility properties from Class 6 materials properties chapters before analyzing.',
                   misconception: 'Students often think that if a mixture is liquid, it must automatically be homogeneous.' }
           ],
             remediations: { 'if-a-mixture-is-liquid': { steps: ['To fix this, take a clear glass of water and mix a spoonful of turmeric powder or chalk dust into it.', 'Shine a flashlight through the glass to show light scattering (Tyndall effect) and let it sit for a few minutes to show.', 'Emphasize that if you can see distinct parts, floating bits, or cloudiness due to undissolved matter, the mixture.'], labTask: { instruction: 'On the interactive: set radius to 60 — how does the volume respond? — then check.', widget: 'solid', validate: 'solid:radius=60' } } } },

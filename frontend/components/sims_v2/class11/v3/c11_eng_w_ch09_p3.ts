@@ -19,24 +19,24 @@ export const c11_eng_w_ch09_p3: SimDef = {
         hook: 'The poem doesn\'t pretend the peacock is in the room — it\'s a \'blue shadow\' falling on someone reading, glimpsed across a gap the poem refuses to hide.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in poetry analysis involves moving beyond literal comprehension to examine how a poet\'s choices in structure, imagery, and language create layered meanings, evaluating the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'The Peacock\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_09_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Order the sensory signals that announce the bird — shadow, wind, silenced bees, stretching cat — then judge whether free verse mimics its darting.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_09_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you are sitting in the exam hall and the question reads: "How does Sujata Bhatt capture the elusive nature of the peacock in the poem?" Your mind goes.',
+          caseStudy: { intro: 'For written answers on \'The Peacock\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What does the acronym PEEL stand for in the context of writing a literature answer?', options: [
                 { text: 'PEEL stands for Point, Evidence, Explanation, Link', outcome: 'PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., "Paragraph, Example.' },
                 { text: 'Paragraph, Example, Explanation, Line', outcome: 'Not quite — Students believe "writing a poetry answer" means paraphrasing the poem line-by-line in prose order.', reveals: 'writing-a-poetry-answer-means' },
                 { text: 'writing a poetry answer', outcome: 'Not quite — Students believe "writing a poetry answer" means paraphrasing the poem line-by-line in prose order.', reveals: 'writing-a-poetry-answer-means' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_09_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a literature circle where your group must decide: "Why does the poet choose the peacock — not a parrot or kingfisher — to represent the.',
+          caseStudy: { intro: 'Talk through \'The Peacock\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What are the two discussion prompts explicitly given in the NCERT "Try This Out" section for "The Peacock"?', options: [
                 { text: 'The two prompts are: (1) "In English the peacock is associated with pride', outcome: 'The two prompts are: (1) "In English the peacock is associated with pride.' },
                 { text: 'A wrong answer (e.g', outcome: 'Not quite — Students treat "Speaking and Listening" as informal chat: they share personal feelings ("I love.', reveals: 'students-treat-speaking-and-listening' },
@@ -56,21 +56,21 @@ export const c11_eng_w_ch09_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_09_013', difficulty: 'standard',
-          question: 'Critical thinking in poetry analysis involves moving beyond literal.',
+          question: 'Critical thinking on \'The Peacock\' — analysing the text to reach evidence-based.',
           hint: 'Review c11_eng_w_cbse_09_008 (Imagery/Metaphor) focusing on the "colour progression".',
           misconception: 'Students often treat the second stanza as a literal "how-to guide" for birdwatching, missing that the "book" and.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in poetry analysis involves moving beyond literal comprehension to',
-                  options: ['Critical thinking in poetry analysis involves moving beyond literal comprehension to', '"Before You Read: Context and Background" is a preparatory literary skill where students', 'In poetry, narrative structure refers to the organized sequence of events, images, and', 'Setting in poetry refers to the time, place, and physical environment where the poem\'s'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'The Peacock\'',
+                  options: ['Critical thinking on \'The Peacock\'', '\'The Peacock\' (Woven Words, ch', 'The plot/narrative arc of \'The Peacock\'', 'The setting of \'The Peacock\''],
                   hint: 'Review c11_eng_w_cbse_09_008 (Imagery/Metaphor) focusing on the "colour progression" exercise, and.',
                   misconception: 'Students often treat the second stanza as a literal "how-to guide" for birdwatching, missing that the "book" and "concentration" are.' }
           ],
-            remediations: { 'students-often-treat-the-second': { steps: ['Ask the student to reread stanza 2 aloud, noticing the shift from imperative ("sit," "read") to conditional ("The.', 'A blue shadow *will* fall").', 'Have them list the *sequence* of natural events (wind → bees → cat → shadow) and mark which are caused by the bird vs.', 'Prompt: "Does the peacock come *because* you read, or does reading create the *state* in which the peacock *can*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-second': { steps: ['Ask the student to reread stanza 2 aloud, noticing the shift from imperative ("sit," "read") to conditional ("The.', 'A blue shadow *will* fall").', 'Have them list the *sequence* of natural events (wind → bees → cat → shadow) and mark which are caused by the bird vs.', 'Prompt: "Does the peacock come *because* you read, or does reading create the *state* in which the peacock *can*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_09_013', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -81,9 +81,9 @@ export const c11_eng_w_ch09_p3: SimDef = {
                   hint: 'Review c11_eng_w_cbse_09_008 (Imagery/Metaphor) focusing on the "colour progression" exercise, and.',
                   misconception: 'Students often treat the second stanza as a literal "how-to guide" for birdwatching, missing that the "book" and "concentration" are.' }
           ],
-            remediations: { 'students-often-treat-the-second': { steps: ['Ask the student to reread stanza 2 aloud, noticing the shift from imperative ("sit," "read") to conditional ("The.', 'A blue shadow *will* fall").', 'Have them list the *sequence* of natural events (wind → bees → cat → shadow) and mark which are caused by the bird vs.', 'Prompt: "Does the peacock come *because* you read, or does reading create the *state* in which the peacock *can*.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-the-second': { steps: ['Ask the student to reread stanza 2 aloud, noticing the shift from imperative ("sit," "read") to conditional ("The.', 'A blue shadow *will* fall").', 'Have them list the *sequence* of natural events (wind → bees → cat → shadow) and mark which are caused by the bird vs.', 'Prompt: "Does the peacock come *because* you read, or does reading create the *state* in which the peacock *can*.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_09_014', difficulty: 'standard',
-          question: 'Writing Skills for poetry analysis at the senior secondary level involve the.',
+          question: 'Writing skills from \'The Peacock\' — using the text as a model or springboard.',
           hint: 'If stuck, return to node c11_eng_w_cbse_09_008 (Imagery and Metaphor) and re-do the.',
           misconception: 'Students believe "writing a poetry answer" means paraphrasing the poem line-by-line in prose order.',
           parts: [
@@ -92,9 +92,9 @@ export const c11_eng_w_ch09_p3: SimDef = {
                   hint: 'If stuck, return to node c11_eng_w_cbse_09_008 (Imagery and Metaphor) and re-do the "Evidence Hunt".',
                   misconception: 'Students believe "writing a poetry answer" means paraphrasing the poem line-by-line in prose order.' }
           ],
-            remediations: { 'writing-a-poetry-answer-means': { steps: ['If a student submits a narrative retelling: 1) Stop them.', '2) Hand them a highlighter and ask them to highlight every sentence that states an *interpretation* (e.g., "shows,".', '*plot* ("happens," "sees," "goes").', '3) If zero interpretation sentences exist, have them rewrite using only the PEEL template: "One way the poet shows X.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-a-poetry-answer-means': { steps: ['If a student submits a narrative retelling: 1) Stop them.', '2) Hand them a highlighter and ask them to highlight every sentence that states an *interpretation* (e.g., "shows,".', '*plot* ("happens," "sees," "goes").', '3) If zero interpretation sentences exist, have them rewrite using only the PEEL template: "One way the poet shows X.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_09_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points refers to the structured oral.',
+          question: 'Discussion points on \'The Peacock\' — speaking and listening around the text.',
           hint: 'If stuck, return to node 008 (Imagery and Metaphor) and node 009 (Irony and Symbolism).',
           misconception: 'Students treat "Speaking and Listening" as informal chat: they share personal feelings ("I love peacocks") or general.',
           parts: [
@@ -103,7 +103,7 @@ export const c11_eng_w_ch09_p3: SimDef = {
                   hint: 'If stuck, return to node 008 (Imagery and Metaphor) and node 009 (Irony and Symbolism) to rebuild.',
                   misconception: 'Students treat "Speaking and Listening" as informal chat: they share personal feelings ("I love peacocks") or general knowledge ("It\'s our.' }
           ],
-            remediations: { 'students-treat-speaking-and-listening': { steps: ['Have the student re-read the poem aloud, marking every sensory detail (visual, auditory, tactile) with a coloured pen.', 'Ask them to convert each marked detail into a "discussion seed" question: e.g., "Why \'pipal tree\' specifically?" →.', 'Practice a 2-minute "evidence-only" turn: they must speak using only phrases from the poem.', 'Debrief: "Which seeded question generated the richest exchange?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-speaking-and-listening': { steps: ['Have the student re-read the poem aloud, marking every sensory detail (visual, auditory, tactile) with a coloured pen.', 'Ask them to convert each marked detail into a "discussion seed" question: e.g., "Why \'pipal tree\' specifically?" →.', 'Practice a 2-minute "evidence-only" turn: they must speak using only phrases from the poem.', 'Debrief: "Which seeded question generated the richest exchange?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -111,6 +111,14 @@ const misSlug = (s) => slug((s ?? '').replace(/^(students?\s+(often\s+)?(think|b
 const STOP_END = /\b(the|a|an|of|to|in|is|are|that|and|or|for|with|by|it|its)\.?$/i;
 const shortAnswer = (a) => {
     let t = (a ?? '').replace(/\s+/g, ' ').trim();
+    // authored step-list answers: keep the FIRST step's own text instead of
+    // the literal "Steps: 1)" scaffold (a bare "Steps: 1" is a placeholder)
+    if (/^steps?\s*:/i.test(t)) {
+        t = t.replace(/^steps?\s*:\s*/i, '').replace(/^\d+\s*[).]\s*/, '');
+        const stepItems = t.split(/\s+\d+\s*[).]\s*/);
+        if (stepItems.length > 1 && stepItems[0].split(' ').length >= 3) t = stepItems[0];
+        else t = stepItems.join(' ');
+    }
     t = (t.split(/(?<=[.!?])\s+/)[0] ?? t);
     for (const m of [' because ', ' — ', ' which ', ' since ', '; ', ' as it ', ' this is ', ' a wrong answer', ' a student']) {
         const i = t.toLowerCase().indexOf(m);
@@ -711,7 +719,7 @@ export const ${chapterId.replace(/-/g, '_')}: SimDef = {
     id: 'v3_${chapterId}',
     title: '${esc(auth?.title ?? simTitle)}',
     subtitle: '${esc(auth?.subtitle ?? sent(n0.SCOPE_BOUNDARY ?? '', 90))}',
-    classLevel: ${cls}, subject: '${esc(normSubj(subj))}', topic: '${esc(simTitle)}',
+    classLevel: ${cls}, subject: '${esc(normSubj(subj))}', topic: '${esc(auth?.title ?? simTitle)}',
     chapters: ['${chapterBase}'],
     nodeIds: [${nodeIds.map(x => `'${x}'`).join(', ')}],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

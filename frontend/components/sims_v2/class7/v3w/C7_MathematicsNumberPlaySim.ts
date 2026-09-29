@@ -6,13 +6,13 @@ import C7_MathematicsNumberPlaySim from '../../../simulations/c6_12/C7_Mathemati
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_mathematicsnumberplaysim: SimDef = {
     id: 'v3w_c7_mathematicsnumberplaysim',
-    title: 'Number Play',
+    title: 'Parity Arguments in Problem Solving',
     subtitle: 'Covers parity arguments applied to integer sequences, grid-based movement, and simple.',
     classLevel: 7, subject: 'mathematics', topic: 'Parity Arguments in Problem Solving',
     chapters: [],
     nodeIds: ['c7_math_ch06_007'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Imagine you are playing a game with 15 coins placed on a table, all showing heads up.', goal: 'Master Number Play.' },
+    scenario: { role: 'a class 7 learner', intro: 'Imagine you are playing a game with 15 coins placed on a table, all showing heads up.', goal: 'Master Parity Arguments in Problem Solving.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'A parity argument is a problem-solving.', text: 'A parity argument is a problem-solving strategy that uses the properties of even and odd numbers to prove whether certain configurations, games, or tasks are possible or impossible.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -28,7 +28,7 @@ export const w_c7_mathematicsnumberplaysim: SimDef = {
             { text: 'Test parity conservation: Starting from an even sum (0), 1 move gives an odd sum, 2 moves give an even sum, 3 moves.', faded: true, blankAnswer: 'Yes, the state can be reached in an odd number of moves.' }
             ] } }
     ],
-    explore: { component: C7_MathematicsNumberPlaySim, prompt: 'Explore the interactive — Number Play' },
+    explore: { component: C7_MathematicsNumberPlaySim, prompt: 'Explore the interactive — Parity Arguments in Problem Solving' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_math_ch06_007', difficulty: 'standard',
           question: 'A parity argument is a problem-solving strategy that uses the properties of.',

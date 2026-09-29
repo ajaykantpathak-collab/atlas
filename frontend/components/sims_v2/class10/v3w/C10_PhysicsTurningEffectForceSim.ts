@@ -6,13 +6,13 @@ import C10_PhysicsTurningEffectForceSim from '../../../simulations/c6_12/C10_Phy
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_physicsturningeffectforcesim: SimDef = {
     id: 'v3w_c10_physicsturningeffectforcesim',
-    title: 'Turning Effect Force',
+    title: 'Magnetic Field Due to a Circular Loop (Right-Hand Thumb Rule)',
     subtitle: 'This node covers the magnetic field produced by a current-carrying circular loop (single.',
     classLevel: 10, subject: 'physics', topic: 'Magnetic Field Due to a Circular Loop (Right-Hand Thumb Rule)',
     chapters: [],
     nodeIds: ['c10_phy_cbse_02_003', 'c10_phy_cbse_02_008', 'c10_phy_cbse_02_009', 'c10_phy_cbse_02_004', 'c10_phy_cbse_02_001', 'c10_phy_cbse_02_005'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Begin with a real-world observation: take a circular copper wire loop (like a bangle) connected to a battery.', goal: 'Master Turning Effect Force.' },
+    scenario: { role: 'a class 10 learner', intro: 'Begin with a real-world observation: take a circular copper wire loop (like a bangle) connected to a battery.', goal: 'Master Magnetic Field Due to a Circular Loop (Right-Hand Thumb Rule).' },
     discovery: {
         question: 'A circular coil of 50 turns and area 0.02 m² is placed perpendicular to a uniform magnetic field of 0.5 T. The field is reduced to zero uniformly in 0.1 s.',
         options: ['Initial flux per turn Φ₁ = BA cos0° = 0.5 × 0.02 × 1 = 0.01 Wb', 'induced emf exists as long as magnetic field is present', 'a static magnetic field can induce a current in a stationary coil'],
@@ -80,7 +80,7 @@ export const w_c10_physicsturningeffectforcesim: SimDef = {
             { text: 'Calculate acceleration: a = F/m = 0.24 N / 0.005 kg = 48 m/s².', faded: true, blankAnswer: 'Force = 0.24 N, Acceleration = 48 m/s².' }
             ] } },
         { type: 'dissect', nodeId: 'c10_phy_cbse_02_008', title: 'Identify each idea',
-          dissect: { specimen: 'Turning Effect Force', spots: [
+          dissect: { specimen: 'Magnetic Field Due to a Circular Loop (Right-Hand Thumb Rule)', spots: [
             { id: 's1', label: 'The magnetic field at the', prompt: 'Which idea is this? — The magnetic field at the centre of a current-carrying circular loop is a vector quantity.', answer: 'The magnetic field at the', options: ['The magnetic field at the', 'Electromagnetic induction is the phenomenon', 'An electric motor is a', 'A solenoid is a long'] },
             { id: 's2', label: 'Electromagnetic induction is the phenomenon', prompt: 'Which idea is this? — Electromagnetic induction is the phenomenon where a changing magnetic flux through a.', answer: 'Electromagnetic induction is the phenomenon', options: ['Electromagnetic induction is the phenomenon', 'The magnetic field at the', 'An electric motor is a', 'A solenoid is a long'] },
             { id: 's3', label: 'An electric motor is a', prompt: 'Which idea is this? — An electric motor is a device that converts electrical energy into mechanical energy of.', answer: 'An electric motor is a', options: ['An electric motor is a', 'The magnetic field at the', 'Electromagnetic induction is the phenomenon', 'A solenoid is a long'] },
@@ -89,7 +89,7 @@ export const w_c10_physicsturningeffectforcesim: SimDef = {
             { id: 's6', label: 'The force experienced by a', prompt: 'Which idea is this? — The force experienced by a current-carrying conductor placed in a uniform magnetic field.', answer: 'The force experienced by a', options: ['The force experienced by a', 'The magnetic field at the', 'Electromagnetic induction is the phenomenon', 'An electric motor is a'] }
           ] } }
     ],
-    explore: { component: C10_PhysicsTurningEffectForceSim, prompt: 'Explore the interactive — Turning Effect Force' },
+    explore: { component: C10_PhysicsTurningEffectForceSim, prompt: 'Explore the interactive — Magnetic Field Due to a Circular Loop (Right-Hand Thumb Rule)' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_phy_cbse_02_003', difficulty: 'standard',
           question: 'The magnetic field at the centre of a current-carrying circular loop is a.',

@@ -19,7 +19,7 @@ export const c12_hin_a_ch07_p3: SimDef = {
         hook: 'Eknath was a Brahmin who wrote for the marginalised — the Abhang\'s plain Marathi, folk rhythm and a woman\'s voice are the reform, not simplification. This is poetry made to be walked and sung, not recited from a throne.',
     },
     teaching: [
-        { title: 'बारहमासा — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: 'आशय-स्पष्टीकरण का अर्थ है कविता के किसी पद्यांश के भावात्मक और tematischer गहराई को समझकर उसकी व्याख्या करना, जिसमें कवि के भाव, उपयोग किए गए साहित्यिक युक्तियाँ, और केंद्रीय संदेश का विश्लेषण शामिल.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'बारहमासा — आशय-स्पष्टीकरण और विश्लेषण अभ्यास', text: '\'कंजकली\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_07_013', title: 'Your mission',
@@ -28,8 +28,27 @@ export const c12_hin_a_ch07_p3: SimDef = {
         context: 'March with the Varkaris: learn what makes an Abhang an Abhang, read hunger as both road and spirit, and hear how a saint smuggled equality into a song.',
         labels: ['बारहमासा — आशय-स्पष्टीकरण और', 'बारहमासा — परीक्षा-उत्तर लेखन', 'बारहमासा — वाचन-पाठ और'],
             observePrompt: 'What did the flow interactive show you?' } },
-        { type: 'build', nodeId: 'c12_hin_a_cbse_07_015', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['स्वर मिलान देखें: "आई" का अंतिम स्वर ई है, "छूटा" का अंतिम.', 'व्यंजन मिलान जाँचें: दोनों शब्दों में अंत्य व्यंजन नहीं है.', 'असमान तुक की धीमी,断裂 वाली लय को गर्मी के अचानक, असहज आगमन.', 'प्रत्येक अंतिम शब्द के स्वर-व्यंजन पैटर्न को अलग-अलग बोलकर.', 'पंक्ति को धीरे-धीरे आवाज़ में पढ़कर अंतिम शब्दों "आई" और.'], answer: 'पंक्ति को धीरे-धीरे आवाज़ में पढ़कर अंतिम शब्दों "आई" और. प्रत्येक अंतिम शब्द के स्वर-व्यंजन पैटर्न को अलग-अलग बोलकर. स्वर मिलान देखें: "आई" का अंतिम स्वर ई है, "छूटा" का अंतिम. व्यंजन मिलान जाँचें: दोनों शब्दों में अंत्य व्यंजन नहीं है. असमान तुक की धीमी,断裂 वाली लय को गर्मी के अचानक, असहज आगमन.' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_07_013', title: 'बारहमासा — आशय-स्पष्टीकरण और विश्लेषण अभ्यास',
+          caseStudy: { intro: '\'कंजकली\' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।',
+            decisions: [{ prompt: 'What is the primary function of the folk dialect (nksgk&pkSikbZ) in efyd eqgEen tk;lh\'s poem "ckjgeklk"?', options: [
+                { text: 'The folk dialect authenticates the rural woman\'s voice, grounds the poem in a specific', outcome: 'The folk dialect authenticates the rural woman\'s voice, grounds the poem in a specific cultural.' },
+                { text: 'decorative', outcome: 'Not quite — Students often treat dialect words as "difficult vocabulary" to be translated into standard Hindi.', reveals: 'students-often-treat-dialect-words' },
+                { text: 'merely stylistic', outcome: 'Not quite — Students often treat dialect words as "difficult vocabulary" to be translated into standard Hindi.', reveals: 'students-often-treat-dialect-words' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_07_014', title: 'बारहमासा — परीक्षा-उत्तर लेखन कौशल',
+          caseStudy: { intro: '\'कंजकली\' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।',
+            decisions: [{ prompt: 'What are the four mandatory components of a diary entry format in CBSE Class 12 Hindi?', options: [
+                { text: 'The four mandatory components are: (1) Date and day, (2) Time (optional but recommended),', outcome: 'The four mandatory components are: (1) Date and day, (2) Time (optional but recommended), (3).' },
+                { text: 'subject line', outcome: 'Not quite — Students often write a **summary of the poem** when asked for a creative response (diary entry.', reveals: 'students-often-write-a-summary' },
+                { text: 'address', outcome: 'Not quite — Students often write a **summary of the poem** when asked for a creative response (diary entry.', reveals: 'students-often-write-a-summary' }
+            ] }] } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_07_015', title: 'बारहमासा — वाचन-पाठ और चर्चा-बिंदु',
+          caseStudy: { intro: '\'कंजकली\' का वाचन कीजिए — फिर चर्चा में राय रखिए।',
+            decisions: [{ prompt: 'What is the primary thematic thread that connects all three stanzas of "ckjgeklk" and how does the progression from stanza 1 to stanza 3.', options: [
+                { text: 'The primary thread is *viraha* (separation-longing) experienced through the monsoon night', outcome: 'The primary thread is *viraha* (separation-longing) experienced through the monsoon night.' },
+                { text: 'sadness', outcome: 'Not quite — Students treat "discussion points" as *opinion-sharing* ("I feel the poem is sad") rather than.', reveals: 'students-treat-discussion-points-as' },
+                { text: 'waiting to speak', outcome: 'Not quite — Students treat "discussion points" as *opinion-sharing* ("I feel the poem is sad") rather than.', reveals: 'students-treat-discussion-points-as' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_07_013', title: 'Use it in the wild',
           caseStudy: { intro: 'You\'re editing a folk-style music video of a woman waiting through the night for someone who doesn\'t come. A teammate wants to cut the repeated shots — lamp, doorway, her face — because \'repetition is dead screen time.\'',
             decisions: [{ prompt: 'What does Mahadevi Verma\'s \'बारहमासा\'-style waiting poem say?', options: [
@@ -49,38 +68,57 @@ export const c12_hin_a_ch07_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_013', difficulty: 'standard',
-          question: 'आशय-स्पष्टीकरण का अर्थ है कविता के किसी पद्यांश के भावात्मक और tematischer.',
-          hint: 'यदि छात्र भावगत विश्लेषण में फंसे तो उसे पद्यांश-वार भावार्थ (c12_hin_a_cbse_07_002) पर.',
-          misconception: 'छात्र अक्सर बारहमासा की पंक्तियों का भावगत अर्थ बताते समय केवल शब्दार्थ का अनुवाद कर देते हैं, जैसे "सUN पड़ी अगни तपति.',
+          question: '\'कंजकली\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
+          hint: 'If stuck, revisit c12_hin_a_cbse_07_008 (Imagery and Metaphor) and c12_hin_a_cbse_07_009.',
+          misconception: 'Students often treat dialect words as "difficult vocabulary" to be translated into standard Hindi, missing that the.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आशय-स्पष्टीकरण का अर्थ है कविता के किसी पद्यांश के भावात्मक और tematischer गहराई को समझकर',
-                  options: ['आशय-स्पष्टीकरण का अर्थ है कविता के किसी पद्यांश के भावात्मक और tematischer गहराई को समझकर', 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत', '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of a poem,', '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**'],
-                  hint: 'यदि छात्र भावगत विश्लेषण में फंसे तो उसे पद्यांश-वार भावार्थ (c12_hin_a_cbse_07_002) पर दोबारा काम.',
-                  misconception: 'छात्र अक्सर बारहमासा की पंक्तियों का भावगत अर्थ बताते समय केवल शब्दार्थ का अनुवाद कर देते हैं, जैसे "सUN पड़ी अगни तपति re" को सिर्फ "सूर्य.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंजकली\' का आलोचनात्मक चिंतन',
+                  options: ['\'कंजकली\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंजकली\' का कथानक', '\'कंजकली\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, revisit c12_hin_a_cbse_07_008 (Imagery and Metaphor) and c12_hin_a_cbse_07_009 (Irony and.',
+                  misconception: 'Students often treat dialect words as "difficult vocabulary" to be translated into standard Hindi, missing that the dialect *is* the poem\'s.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि कविता की कोई एक पंक्ति लें (जैसे "बासंती रागु बिनु सोहागन") और पूछिए: "इसमें क्या भाव छिपा हो सकता.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-dialect-words': { steps: ['Have the student read the poem aloud in the dialect, noting which words "feel" different from their standard Hindi.', 'Ask them to rewrite one stanza in standard Hindi and compare emotional impact — they\'ll hear the loss of intimacy.', 'Direct them to c12_hin_a_cbse_07_008 (Imagery and Metaphor) and c12_hin_a_cbse_07_009 (Irony and Symbolism) to see how.', 'Re-diagnose with Question 2 to check if they now grasp temporal-emotional progression.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_014', difficulty: 'standard',
-          question: 'परीक्षा-उत्तर लेखन कौशल वह 체계िक विधि है जिसके द्वारा छात्र कविता के प्रश्नों के.',
-          hint: 'यदि छात्र उत्तर में प्रमाण और स्पष्टीकरण को जोड़ने में कठिनाई महसूस कर रहा है, तो उसे.',
-          misconception: 'छात्र अक्सर मानते हैं कि बारहमासा कविता के प्रश्नों के उत्तर में केवल कविता के शब्द-कोश (कठिन शब्दों के अर्थ) लिख देने.',
+          question: '\'कंजकली\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+          hint: 'If stuck, re‑read the poem aloud focusing on sensory words; then list 5 images with.',
+          misconception: 'Students often write a **summary of the poem** when asked for a creative response (diary entry, dialogue, etc.).',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'परीक्षा-उत्तर लेखन कौशल वह 체계िक विधि है जिसके द्वारा छात्र कविता के प्रश्नों के उत्तर को',
-                  options: ['परीक्षा-उत्तर लेखन कौशल वह 체계िक विधि है जिसके द्वारा छात्र कविता के प्रश्नों के उत्तर को', 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत', '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of a poem,', '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**'],
-                  hint: 'यदि छात्र उत्तर में प्रमाण और स्पष्टीकरण को जोड़ने में कठिनाई महसूस कर रहा है, तो उसे.',
-                  misconception: 'छात्र अक्सर मानते हैं कि बारहमासा कविता के प्रश्नों के उत्तर में केवल कविता के शब्द-कोश (कठिन शब्दों के अर्थ) लिख देने से पूर्ण अंक मिल.' }
+                { id: 'a', prompt: 'Why must a diary entry based on Kanjakali be written in first person rather than third person?', answer: 'First person captures the protagonist’s subjective emotions',
+                  options: ['First person captures the protagonist’s subjective emotions', 'third person is more formal'],
+                  hint: 'If stuck, re‑read the poem aloud focusing on sensory words; then list 5 images with stanza numbers.',
+                  misconception: 'Students often write a **summary of the poem** when asked for a creative response (diary entry, dialogue, etc.).' },
+                { id: 'b', prompt: 'Write a four‑line dialogue between Kanjakali and the peacock (मोर) using imagery from the poem’s first and third stanzas.', answer: '**Steps:** 1',
+                  options: ['**Steps:** 1', 'बरसात की बूँदें मेरे आँगन में गाती हैं, मोर नाचो ना!', 'तेरी पायल की झंकार सुनी, तब ही तो नाचूँ मैं रे!', 'बादल गरजे, दिल डोले, सखी बनी घटा आज।'],
+                  hint: 'If stuck, re‑read the poem aloud focusing on sensory words; then list 5 images with stanza numbers.',
+                  misconception: 'Students often write a **summary of the poem** when asked for a creative response (diary entry, dialogue, etc.).' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि एक कमजोर उत्तर (जैसे: "सुख-संपदा का त्याग means त्याग करना") को कैसे PEEL संरचना में बदलें: पहले.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-write-a-summary': { steps: ['**Revisit format templates**: Use node c12_hin_a_cbse_07_013 (Critical Thinking) to review the exact structure of each.', '**Evidence hunting**: Go back to nodes c12_hin_a_cbse_07_003 (Setting) and 07_008 (Imagery) and list 5 concrete.', '**Guided draft**: Fill a PEEL template for one format (e.g., diary entry) with teacher scaffolding, then write.', '**Re‑diagnose**: Attempt Diagnostic Question 3 again; if still struggling, practice dialogue writing with a simpler.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_015', difficulty: 'standard',
-          question: 'बारहमासा की वाचन-पाठ और चर्चा-बिंदु वह प्रक्रिया है जिसमें कविता की पंक्तियों.',
-          hint: 'यदि छात्र वाचन में लय पहचानने में कठिनाई महसूस कर रहा है, तो उसे ताल बजाकर या हाथ तालि से.',
-          misconception: 'बारहमासा की वाचन-पाठ में छात्र अक्सर यह मानते हैं कि यदि वे पंक्तियों को तेज़ी से पढ़ लें तो उनका काम पूरा हो गया है.',
+          question: '\'कंजकली\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।',
+          hint: 'Revisit c12_hin_a_cbse_07_010 (Vocabulary) for dialect mastery and c12_hin_a_cbse_07_008.',
+          misconception: 'Students treat "discussion points" as *opinion-sharing* ("I feel the poem is sad") rather than *evidence-based literary.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बारहमासा की वाचन-पाठ और चर्चा-बिंदु वह प्रक्रिया है जिसमें कविता की पंक्तियों को सही',
-                  options: ['बारहमासा की वाचन-पाठ और चर्चा-बिंदु वह प्रक्रिया है जिसमें कविता की पंक्तियों को सही', 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत', '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of a poem,', '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**'],
-                  hint: 'यदि छात्र वाचन में लय पहचानने में कठिनाई महसूस कर रहा है, तो उसे ताल बजाकर या हाथ तालि से लय का.',
-                  misconception: 'बारहमासा की वाचन-पाठ में छात्र अक्सर यह मानते हैं कि यदि वे पंक्तियों को तेज़ी से पढ़ लें तो उनका काम पूरा हो गया है, और वे.' }
+                { id: 'a', prompt: 'A classmate claims: "The dialect words in \'ckjgeklk\' (like \'nsol\', \'fufl\', \'nwHkj\') are just decorative — the poem would mean the same in standard Hindi." How.', answer: 'The dialect *is* the meaning',
+                  options: ['The dialect *is* the meaning', 'waiting to speak', 'group discussion'],
+                  hint: 'Revisit c12_hin_a_cbse_07_010 (Vocabulary) for dialect mastery and c12_hin_a_cbse_07_008.',
+                  misconception: 'Students treat "discussion points" as *opinion-sharing* ("I feel the poem is sad") rather than *evidence-based literary conversation*.' },
+                { id: 'b', prompt: 'Design a 90-second discussion opening for a peer group that uses the image \'iQkxqu iou >dksjs cgk\' (stanza 4) to explore gendered waiting.', answer: 'Sample opening: "The line \'iQkxqu iou >dksjs cgk\'',
+                  options: ['Sample opening: "The line \'iQkxqu iou >dksjs cgk\'', 'waiting to speak', 'group discussion'],
+                  hint: 'Revisit c12_hin_a_cbse_07_010 (Vocabulary) for dialect mastery and c12_hin_a_cbse_07_008.',
+                  misconception: 'Students treat "discussion points" as *opinion-sharing* ("I feel the poem is sad") rather than *evidence-based literary conversation*.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['यदि छात्र इस गलती को दोहरा रहा है, तो उसे प्रत्येक पंक्ति को तीन चरणों में पढ़ने के लिए कहें: (1) पहले धीरे-धीरे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-treat-discussion-points-as': { steps: ['Have the student re-read stanza 2 aloud, marking every verb showing the woman\'s *action* (not feeling) — e.g., \'tkMs+\'.', 'Ask: "What does she *do* while waiting?" — forcing textual grounding.', 'Practice a 60-second response to: "Stanza 2 shows waiting as *labor* — agree/disagree with one verb as evidence." 4.', 'Record and replay — student self-corrects for textual anchors.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+        { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_015', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students treat "discussion points" as *opinion-sharing* ("I feel the poem is sad") rather than *evidence-based literary.',
+          parts: [
+                { id: 'a', prompt: 'Critique this interpretation: "Tulsidas wrote \'ckjgeklk\' to protest patriarchal norms because the woman speaks boldly to her absent husband." Defend or refute.', answer: 'Refute',
+                  options: ['Refute', 'waiting to speak', 'group discussion'],
+                  hint: 'Revisit c12_hin_a_cbse_07_010 (Vocabulary) for dialect mastery and c12_hin_a_cbse_07_008.',
+                  misconception: 'Students treat "discussion points" as *opinion-sharing* ("I feel the poem is sad") rather than *evidence-based literary conversation*.' }
+          ],
+            remediations: { 'students-treat-discussion-points-as': { steps: ['Have the student re-read stanza 2 aloud, marking every verb showing the woman\'s *action* (not feeling) — e.g., \'tkMs+\'.', 'Ask: "What does she *do* while waiting?" — forcing textual grounding.', 'Practice a 60-second response to: "Stanza 2 shows waiting as *labor* — agree/disagree with one verb as evidence." 4.', 'Record and replay — student self-corrects for textual anchors.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

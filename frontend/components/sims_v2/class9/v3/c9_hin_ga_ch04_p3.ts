@@ -11,10 +11,10 @@ export const c9_hin_ga_ch04_p3: SimDef = {
     nodeIds: ['c9_hin_ga_cbse_04_013', 'c9_hin_ga_cbse_04_014', 'c9_hin_ga_cbse_04_015'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
 
-    scenario: { role: 'a class 9 learner', intro: 'क्या तुमने कभी कोई पहेली हल की है जहाँ टुकड़े अलग-अलग बिखरे हों और तुम्हें पूरी तस्वीर बनानी हो?', goal: 'Master every idea in this chapter.' },
+    scenario: { role: 'a class 9 learner', intro: '\'साँवले सपनों की याद\' का विश्लेषण — महात्मा गांधी (आत्मकथा) का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।', goal: 'Master every idea in this chapter.' },
     // discovery omitted — no cleanly extractable hook in this chapter
     teaching: [
-        { title: 'पाठ 4 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहरे अर्थ को खोजने की प्रक्रिया है जिसमें **विश्लेषण** (पाठ को छोटे-छोटे भागों में तोड़कर उनके परस्पर संबंध समझना) और **व्याख्या** (उन भागों के संयुक्त.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 4 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'साँवले सपनों की याद\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c9_hin_ga_cbse_04_013', title: 'Your mission',
@@ -24,8 +24,8 @@ export const c9_hin_ga_ch04_p3: SimDef = {
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'dissect', nodeId: 'c9_hin_ga_cbse_04_014', title: 'Identify each idea',
           dissect: { specimen: 'पाठ 4 · Part 3/3', spots: [
-            { id: 's1', label: '4 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह क्षमता है जिसमें छात्र किसी साहित्यिक.', answer: '4 -', options: ['4 -', '4 - -'] },
-            { id: 's2', label: '4 - -', prompt: 'Which idea is this? — चर्चा-बिंदु (Discussion Points) are open-ended, analytical prompts derived from a text.', answer: '4 - -', options: ['4 - -', '4 -'] }
+            { id: 's1', label: '4 -', prompt: 'Which idea is this? — \'साँवले सपनों की याद\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।', answer: '4 -', options: ['4 -', '4 - -'] },
+            { id: 's2', label: '4 - -', prompt: 'Which idea is this? — \'साँवले सपनों की याद\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।', answer: '4 - -', options: ['4 - -', '4 -'] }
           ] } },
         { type: 'case', nodeId: 'c9_hin_ga_cbse_04_015', title: 'You made it',
           caseStudy: { intro: 'You finished पाठ 4 — every node, every misconception, earned not given.',
@@ -39,34 +39,34 @@ export const c9_hin_ga_ch04_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c9_hin_ga_cbse_04_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहरे अर्थ को खोजने की प्रक्रिया है.',
+          question: '\'साँवले सपनों की याद\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित.',
           hint: 'यदि अटका हुआ महसूस हो तो **c9_hin_ga_cbse_04_008 (बिंब-रूपक) और c9_hin_ga_cbse_04_009.',
           misconception: 'छात्र समझते हैं कि \'आलोचनात्मक चिंतन\' का अर्थ है **पाठ में कमियाँ निकालना** (fault-finding) या **अपनी पसंद-नापसंद.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहरे अर्थ को खोजने की प्रक्रिया है जिसमें',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहरे अर्थ को खोजने की प्रक्रिया है जिसमें', 'पृष्ठभूमि किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक संदर्भ होता', 'कथानक (Plot) किसी रचना में घटनाओं का कारण-परिणाम से बंधा तार्किक क्रम है जिसमें आरंभ,', 'पाठ्य-परिवेश (Setting/Context) किसी रचना में घटनाओं के घटित होने का समग्र ढाँचा है जिसमें'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'साँवले सपनों की याद\' का आलोचनात्मक चिंतन',
+                  options: ['\'साँवले सपनों की याद\' का आलोचनात्मक चिंतन', 'इस पाठ का पृष्ठभूमि और रचनाकार परिचय', '\'साँवले सपनों की याद\' का कथानक', '\'साँवले सपनों की याद\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटका हुआ महसूस हो तो **c9_hin_ga_cbse_04_008 (बिंब-रूपक) और c9_hin_ga_cbse_04_009.',
                   misconception: 'छात्र समझते हैं कि \'आलोचनात्मक चिंतन\' का अर्थ है **पाठ में कमियाँ निकालना** (fault-finding) या **अपनी पसंद-नापसंद बताना** (personal.' }
           ],
             remediations: { 'fault-finding-personal-opinion': { steps: ['**शब्द बदलो:** \'आलोचनात्मक\' के स्थान पर \'गहन\' (deep) या \'विवेचनात्मक\' (analytical) शब्द सोचो — नकारात्मकता हटेगी। 2.', '**तीन प्रश्न पूछो हर अंश पर:** (क) यहाँ क्या लिखा है?', '— तीसरा प्रश्न ही व्याख्या का द्वार खोलता है। 3.', '**साक्ष्य-अर्थ जोड़ी बनाओ:** कॉपी में दो कॉलम बनाओ — बायाँ: "पाठ से वाक्य/शब्द"; दायाँ: "यह क्या कर रहा है?" — जब तक.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c9_hin_ga_cbse_04_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह क्षमता है जिसमें छात्र किसी.',
+          question: '\'साँवले सपनों की याद\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि अटका हुआ महसूस हो, तो **c9_hin_ga_cbse_04_013 (आलोचनात्मक चिंतन: विश्लेषण और.',
           misconception: '**भ्रांति:** *"पाठ-आधारित उत्तर में पाठ की अधिक से अधिक पंक्तियाँ उद्धृत कर देने से पूरे अंक मिल जाते हैं।"*.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह क्षमता है जिसमें छात्र किसी साहित्यिक',
-                  options: ['पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह क्षमता है जिसमें छात्र किसी साहित्यिक', 'पृष्ठभूमि किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक संदर्भ होता', 'कथानक (Plot) किसी रचना में घटनाओं का कारण-परिणाम से बंधा तार्किक क्रम है जिसमें आरंभ,', 'पाठ्य-परिवेश (Setting/Context) किसी रचना में घटनाओं के घटित होने का समग्र ढाँचा है जिसमें'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'साँवले सपनों की याद\' पर पाठ-आधारित लेखन',
+                  options: ['\'साँवले सपनों की याद\' पर पाठ-आधारित लेखन', 'इस पाठ का पृष्ठभूमि और रचनाकार परिचय', '\'साँवले सपनों की याद\' का कथानक', '\'साँवले सपनों की याद\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटका हुआ महसूस हो, तो **c9_hin_ga_cbse_04_013 (आलोचनात्मक चिंतन: विश्लेषण और व्याख्या)** के.',
                   misconception: '**भ्रांति:** *"पाठ-आधारित उत्तर में पाठ की अधिक से अधिक पंक्तियाँ उद्धृत कर देने से पूरे अंक मिल जाते हैं।"* **वास्तविकता:** यह **मध्य.' }
           ],
             remediations: { '6-8-9-your-thinking': { steps: ['**चरण 1 — निदान (Diagnose):** छात्र से कहें: *"अपना लिखा उत्तर पढ़ो और हर वाक्य के आगे P / E / E / L लिखो — कौन-सा.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c9_hin_ga_cbse_04_015', difficulty: 'standard',
-          question: 'चर्चा-बिंदु (Discussion Points) are open-ended, analytical prompts derived from.',
+          question: '\'साँवले सपनों की याद\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और.',
           hint: 'If stuck, review "बोध-प्रश्न: वस्तुनिष्ठ और आशय-सूचक" (c9_hin_ga_cbse_04_012) for.',
           misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि चर्चा-बिंदु का उत्तर देते समय "अपनी राय" (Personal Opinion) देनी है, और "पाठ से.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'चर्चा-बिंदु (Discussion Points) are open-ended, analytical prompts derived from a text',
-                  options: ['चर्चा-बिंदु (Discussion Points) are open-ended, analytical prompts derived from a text', 'पृष्ठभूमि किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक, सांस्कृतिक और राजनीतिक संदर्भ होता', 'कथानक (Plot) किसी रचना में घटनाओं का कारण-परिणाम से बंधा तार्किक क्रम है जिसमें आरंभ,', 'पाठ्य-परिवेश (Setting/Context) किसी रचना में घटनाओं के घटित होने का समग्र ढाँचा है जिसमें'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'साँवले सपनों की याद\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'साँवले सपनों की याद\' पर वाचन-श्रवण और चर्चा-बिंदु', 'इस पाठ का पृष्ठभूमि और रचनाकार परिचय', '\'साँवले सपनों की याद\' का कथानक', '\'साँवले सपनों की याद\' का पाठ्य-परिवेश (setting)'],
                   hint: 'If stuck, review "बोध-प्रश्न: वस्तुनिष्ठ और आशय-सूचक" (c9_hin_ga_cbse_04_012) for evidence-location.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र मानते हैं कि चर्चा-बिंदु का उत्तर देते समय "अपनी राय" (Personal Opinion) देनी है, और "पाठ से प्रमाण" (Textual.' }
           ],

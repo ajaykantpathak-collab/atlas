@@ -19,30 +19,30 @@ export const c11_eng_h_ch11_p3: SimDef = {
         hook: 'Each stanza offers a different \'when\' — adult hypocrisy, independent thought, a mind of one\'s own — then the pivot rejects \'when\' altogether.',
     },
     teaching: [
-        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking in literary analysis involves systematically examining a poem\'s structural choices, linguistic patterns, and thematic developments to construct an evidence-based interpretation that.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Critical Thinking: Analysis and Interpretation', text: 'Critical thinking on \'Childhood\' — analysing the text to reach evidence-based judgements.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_11_013', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Line up the poem\'s three candidate answers for when childhood ends, then evaluate whether the infant\'s face resolves the quest or deepens its irony.',
         labels: ['Critical Thinking: Analysis', 'Writing Skills: Based', 'Speaking and Listening: Discussion'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_11_013', title: 'Critical Thinking: Analysis and Interpretation',
-          caseStudy: { intro: 'Imagine you\'re a detective examining a crime scene where the "victim" is your own childhood.',
+          caseStudy: { intro: 'Analyse \'Childhood\' — is the writer\'s purpose achieved? Support your judgement with textual evidence.',
             decisions: [{ prompt: 'Identify the refrain in "Childhood" and state its literal meaning in the poem.', options: [
                 { text: 'The refrain is "When did my childhood go?" repeated at the start of stanzas 1, 2, and 3', outcome: 'The refrain is "When did my childhood go?" repeated at the start of stanzas 1, 2, and 3.' },
                 { text: 'Was it the day I ceased to be eleven', outcome: 'Not quite — Students believe the poem\'s three stanzas offer three *alternative* answers to "when," and they.', reveals: 'the-poem-s-three-stanzas' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_11_014', title: 'Writing Skills: Based on the Chapter',
-          caseStudy: { intro: 'Imagine you\'re asked in the board exam: "The poem \'Childhood\' explores the painful transition from innocence to awareness.',
+          caseStudy: { intro: 'For written answers on \'Childhood\', cite the text — evidence-based writing proves your reading.',
             decisions: [{ prompt: 'What is the PEEL structure for writing an analytical paragraph, and what does each letter stand for in the context of literature answer.', options: [
                 { text: 'PEEL stands for Point (topic sentence stating the argument), Evidence (textual quote or', outcome: 'PEEL stands for Point (topic sentence stating the argument), Evidence (textual quote or reference).' },
                 { text: 'Point, Example, Explain, Leave', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarizing the poem or retelling its.', reveals: 'writing-skills-based-on-the' },
                 { text: 'writing skills based on the chapter', outcome: 'Not quite — Students believe "writing skills based on the chapter" means summarizing the poem or retelling its.', reveals: 'writing-skills-based-on-the' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_11_015', title: 'Speaking and Listening: Discussion Points',
-          caseStudy: { intro: 'Imagine you\'re in a book club meeting where everyone has read "Childhood" but interpreted the ending differently — some think the poet finds childhood in.',
+          caseStudy: { intro: 'Talk through \'Childhood\' — share your reading, listen to others, and let the text settle the argument.',
             decisions: [{ prompt: 'What is the primary structural feature of the poem "Childhood" that organizes the poet\'s inquiry into the loss of innocence?', options: [
                 { text: 'The poem uses a refrain ("When did my childhood go?") repeated in the first three', outcome: 'The poem uses a refrain ("When did my childhood go?") repeated in the first three stanzas, each.' },
                 { text: 'It has four stanzas of equal length', outcome: 'Not quite — Students believe a "good discussion" means speaking the most or sharing relatable personal stories.', reveals: 'a-good-discussion-means-speaking' },
@@ -62,32 +62,32 @@ export const c11_eng_h_ch11_p3: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_11_013', difficulty: 'standard',
-          question: 'Critical thinking in literary analysis involves systematically examining.',
+          question: 'Critical thinking on \'Childhood\' — analysing the text to reach evidence-based.',
           hint: 'Review c11_eng_h_cbse_11_002 (narrative structure) to remap the poem\'s three accusations.',
           misconception: 'Students believe the poem\'s three stanzas offer three *alternative* answers to "when," and they must pick the "correct".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking in literary analysis involves systematically examining a poem\'s',
-                  options: ['Critical thinking in literary analysis involves systematically examining a poem\'s', '"Before You Read: Context and Background" is a preparatory stage where students activate', 'Plot and narrative structure in a poem refer to the organized sequence of ideas,', 'Setting in poetry refers to the temporal, spatial, and psychological backdrop against'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Critical thinking on \'Childhood\'',
+                  options: ['Critical thinking on \'Childhood\'', '\'Childhood\' (Hornbill, ch', 'The plot/narrative arc of \'Childhood\'', 'The setting of \'Childhood\''],
                   hint: 'Review c11_eng_h_cbse_11_002 (narrative structure) to remap the poem\'s three accusations as.',
                   misconception: 'Students believe the poem\'s three stanzas offer three *alternative* answers to "when," and they must pick the "correct" one.' }
           ],
-            remediations: { 'the-poem-s-three-stanzas': { steps: ['Have the student physically arrange three index cards labeled "Social," "Intellectual," "Spiritual" and match each.', 'Ask: "If stanza 1 never happened, would stanza 3 still make sense?" to force recognition of interdependence.', 'Model a "layered thesis" sentence: "Natten portrays maturation as a three-stage erosion: first trust in others (stanza.', 'Practice writing a single paragraph integrating all three stanzas using transition phrases like "This external.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'the-poem-s-three-stanzas': { steps: ['Have the student physically arrange three index cards labeled "Social," "Intellectual," "Spiritual" and match each.', 'Ask: "If stanza 1 never happened, would stanza 3 still make sense?" to force recognition of interdependence.', 'Model a "layered thesis" sentence: "Natten portrays maturation as a three-stage erosion: first trust in others (stanza.', 'Practice writing a single paragraph integrating all three stanzas using transition phrases like "This external.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_11_014', difficulty: 'standard',
-          question: 'Writing Skills based on the chapter "Childhood" refers to the ability.',
+          question: 'Writing skills from \'Childhood\' — using the text as a model or springboard for.',
           hint: 'Review node 008 (Imagery/Metaphor) and 009 (Irony/Symbolism) for evidence; review node.',
           misconception: 'Students believe "writing skills based on the chapter" means summarizing the poem or retelling its story.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing Skills based on the chapter "Childhood" refers to the ability to produce',
-                  options: ['Writing Skills based on the chapter "Childhood" refers to the ability to produce', '"Before You Read: Context and Background" is a preparatory stage where students activate', 'Plot and narrative structure in a poem refer to the organized sequence of ideas,', 'Setting in poetry refers to the temporal, spatial, and psychological backdrop against'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Writing skills from \'Childhood\'',
+                  options: ['Writing skills from \'Childhood\'', '\'Childhood\' (Hornbill, ch', 'The plot/narrative arc of \'Childhood\'', 'The setting of \'Childhood\''],
                   hint: 'Review node 008 (Imagery/Metaphor) and 009 (Irony/Symbolism) for evidence; review node 013 for.',
                   misconception: 'Students believe "writing skills based on the chapter" means summarizing the poem or retelling its story.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits a summary instead of analysis: (1) Highlight every sentence that merely retells the poem in yellow.', '(2) Ask: "Does this sentence make a claim about *how* the poem works, or just *what* happens?" (3) Have them rewrite.', '(4) Practice with a new prompt: "Write three analytical Points about the refrain—no plot mention allowed." This trains.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits a summary instead of analysis: (1) Highlight every sentence that merely retells the poem in yellow.', '(2) Ask: "Does this sentence make a claim about *how* the poem works, or just *what* happens?" (3) Have them rewrite.', '(4) Practice with a new prompt: "Write three analytical Points about the refrain—no plot mention allowed." This trains.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_11_014', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -98,9 +98,9 @@ export const c11_eng_h_ch11_p3: SimDef = {
                   hint: 'Review node 008 (Imagery/Metaphor) and 009 (Irony/Symbolism) for evidence; review node 013 for.',
                   misconception: 'Students believe "writing skills based on the chapter" means summarizing the poem or retelling its story.' }
           ],
-            remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits a summary instead of analysis: (1) Highlight every sentence that merely retells the poem in yellow.', '(2) Ask: "Does this sentence make a claim about *how* the poem works, or just *what* happens?" (3) Have them rewrite.', '(4) Practice with a new prompt: "Write three analytical Points about the refrain—no plot mention allowed." This trains.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'writing-skills-based-on-the': { steps: ['If a student submits a summary instead of analysis: (1) Highlight every sentence that merely retells the poem in yellow.', '(2) Ask: "Does this sentence make a claim about *how* the poem works, or just *what* happens?" (3) Have them rewrite.', '(4) Practice with a new prompt: "Write three analytical Points about the refrain—no plot mention allowed." This trains.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_11_015', difficulty: 'standard',
-          question: 'Speaking and Listening: Discussion Points for the poem "Childhood" refers.',
+          question: 'Discussion points on \'Childhood\' — speaking and listening around the text.',
           hint: 'If stuck, review the "Critical Thinking: Analysis and Interpretation" node.',
           misconception: 'Students believe a "good discussion" means speaking the most or sharing relatable personal stories.',
           parts: [
@@ -109,7 +109,7 @@ export const c11_eng_h_ch11_p3: SimDef = {
                   hint: 'If stuck, review the "Critical Thinking: Analysis and Interpretation" node (c11_eng_h_cbse_11_013).',
                   misconception: 'Students believe a "good discussion" means speaking the most or sharing relatable personal stories.' }
           ],
-            remediations: { 'a-good-discussion-means-speaking': { steps: ['**Model the CER pattern explicitly**: Write a sample contribution on the board: "Claim: Stanza 2 identifies hypocrisy.', 'Evidence: \'They preached of love and acted so differently.\' Reasoning: The enjambment between \'love\' and \'acted\'.', '**Practice with a "fishbowl"**: 4 students discuss while others tally CER usage on a checklist.', '**Assign roles**: Evidence Finder (locates lines), Device Detective (names techniques), Connector (links to theme).'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'a-good-discussion-means-speaking': { steps: ['**Model the CER pattern explicitly**: Write a sample contribution on the board: "Claim: Stanza 2 identifies hypocrisy.', 'Evidence: \'They preached of love and acted so differently.\' Reasoning: The enjambment between \'love\' and \'acted\'.', '**Practice with a "fishbowl"**: 4 students discuss while others tally CER usage on a checklist.', '**Assign roles**: Evidence Finder (locates lines), Device Detective (names techniques), Connector (links to theme).'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -6,13 +6,13 @@ import C6_ScienceExploringMagnetsSim from '../../../simulations/c6_12/C6_Science
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c6_scienceexploringmagnetssim: SimDef = {
     id: 'v3w_c6_scienceexploringmagnetssim',
-    title: 'Exploring Magnets',
+    title: 'What is Science and Why It Matters',
     subtitle: 'This node covers the definition of science and the basic scientific method (observation,.',
     classLevel: 6, subject: 'science', topic: 'What is Science and Why It Matters',
     chapters: [],
     nodeIds: ['c6_physics_ch01_001', 'c6_physics_ch01_004', 'c6_physics_ch02_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 6 learner', intro: 'Imagine your favorite flashlight suddenly stops working; what is the first thing you do?', goal: 'Master Exploring Magnets.' },
+    scenario: { role: 'a class 6 learner', intro: 'Imagine your favorite flashlight suddenly stops working; what is the first thing you do?', goal: 'Master What is Science and Why It Matters.' },
     discovery: {
         question: 'If you guess why a plant is dying, is that the end of the scientific process? Why or why not?',
         options: ['No, it is not the end', 'testing', 'if their "guess" (hypothesis) turns out to be wrong, they have failed at science'],
@@ -38,7 +38,7 @@ export const w_c6_scienceexploringmagnetssim: SimDef = {
             { text: 'Draw a small sketch of each leaf type next to its description.', faded: true, blankAnswer: 'A table with columns for "Leaf Shape" and "Count,".' }
             ] } }
     ],
-    explore: { component: C6_ScienceExploringMagnetsSim, prompt: 'Explore the interactive — Exploring Magnets' },
+    explore: { component: C6_ScienceExploringMagnetsSim, prompt: 'Explore the interactive — What is Science and Why It Matters' },
     challenges: [
         { type: 'subpart', nodeId: 'c6_physics_ch01_001', difficulty: 'standard',
           question: 'Science is a systematic method of exploring the natural world by making.',

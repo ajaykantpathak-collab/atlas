@@ -6,13 +6,13 @@ import C11_EconomicsDefinitionEconomicsAdamSim from '../../../simulations/c6_12/
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_economicsdefinitioneconomicsadamsim: SimDef = {
     id: 'v3w_c11_economicsdefinitioneconomicsadamsim',
-    title: 'Definition Economics Adam',
+    title: 'Workers and Employment: Key Definitions and Concepts',
     subtitle: 'Covers the NCERT definitions of economic activity, worker, worker-population ratio, and.',
     classLevel: 11, subject: 'economics', topic: 'Workers and Employment: Key Definitions and Concepts',
     chapters: [],
     nodeIds: ['c11_eco_cbse_06_001', 'c11_eco_cbse_06_002', 'c11_eco_cbse_06_005', 'c11_eco_cbse_06_006', 'c11_eco_cbse_06_008', 'c11_eco_cbse_06_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at a busy chowk in your town at 8 AM: a vegetable vendor arranging produce.', goal: 'Master Definition Economics Adam.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at a busy chowk in your town at 8 AM: a vegetable vendor arranging produce.', goal: 'Master Workers and Employment: Key Definitions and Concepts.' },
     discovery: {
         question: '**UNDERSTAND LEVEL:** Explain why the worker-population ratio for rural women (34.8%) is higher than for urban women (20.7%) in 2023-24 (Table 6.1), despite.',
         options: ['**Correct Answer:** Rural women participate more', 'self-employed = entrepreneur with capital and employees', 'casual worker = only construction/agricultural labour'],
@@ -82,7 +82,7 @@ export const w_c11_economicsdefinitioneconomicsadamsim: SimDef = {
             { text: 'Interpret: Formal sector grew faster (8.9%) than total (1.48%), but from a very small base.', faded: true, blankAnswer: 'Total employment CAGR: 1.48% per year; Formal sector CAGR:.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_eco_cbse_06_002', title: 'Identify each idea',
-          dissect: { specimen: 'Definition Economics Adam', spots: [
+          dissect: { specimen: 'Workers and Employment: Key Definitions and Concepts', spots: [
             { id: 's1', label: 'Economic activities are all human', prompt: 'Which idea is this? — Economic activities are all human endeavours that contribute to the gross national.', answer: 'Economic activities are all human', options: ['Economic activities are all human', 'The Economically Active Population Labour', 'The formal sector comprises all', 'The informal sector comprises all'] },
             { id: 's2', label: 'The Economically Active Population Labour', prompt: 'Which idea is this? — The **Economically Active Population** (Labour Force) comprises all persons who are.', answer: 'The Economically Active Population Labour', options: ['The Economically Active Population Labour', 'Economic activities are all human', 'The formal sector comprises all', 'The informal sector comprises all'] },
             { id: 's3', label: 'The formal sector comprises all', prompt: 'Which idea is this? — The formal sector comprises all public sector establishments and private sector.', answer: 'The formal sector comprises all', options: ['The formal sector comprises all', 'Economic activities are all human', 'The Economically Active Population Labour', 'The informal sector comprises all'] },
@@ -90,7 +90,7 @@ export const w_c11_economicsdefinitioneconomicsadamsim: SimDef = {
             { id: 's5', label: 'Unemployment measurement in India refers', prompt: 'Which idea is this? — Unemployment measurement in India refers to the statistical methodologies used by the.', answer: 'Unemployment measurement in India refers', options: ['Unemployment measurement in India refers', 'Economic activities are all human', 'The Economically Active Population Labour', 'The formal sector comprises all'] }
           ] } }
     ],
-    explore: { component: C11_EconomicsDefinitionEconomicsAdamSim, prompt: 'Explore the interactive — Definition Economics Adam' },
+    explore: { component: C11_EconomicsDefinitionEconomicsAdamSim, prompt: 'Explore the interactive — Workers and Employment: Key Definitions and Concepts' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eco_cbse_06_001', difficulty: 'standard',
           question: 'Economic activities are all human endeavours that contribute to the gross.',

@@ -6,13 +6,13 @@ import C12_PsychologyMeaningStressNatureSim from '../../../simulations/c6_12/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_psychologymeaningstressnaturesim: SimDef = {
     id: 'v3w_c12_psychologymeaningstressnaturesim',
-    title: 'Meaning Stress Nature',
+    title: 'Depressive and Bipolar Disorders: Symptoms, Risk Factors and Suicide Prevention',
     subtitle: 'Covers: symptom criteria for Major Depressive Disorder, Persistent Depressive Disorder,.',
     classLevel: 12, subject: 'psychology', topic: 'Depressive and Bipolar Disorders: Symptoms, Risk Factors and Suicide Prevention',
     chapters: [],
     nodeIds: ['c12_psy_cbse_04_008', 'c12_psy_cbse_03_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine a Class 12 student, Rohan, who has stopped attending tuition, sleeps 14 hours daily, says "nothing.', goal: 'Master Meaning Stress Nature.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine a Class 12 student, Rohan, who has stopped attending tuition, sleeps 14 hours daily, says "nothing.', goal: 'Master Depressive and Bipolar Disorders: Symptoms, Risk Factors and Suicide Prevention.' },
     discovery: {
         question: 'Critique the school\'s proposed suicide prevention policy: "We will hold an assembly showing a graphic film about suicide consequences to scare students away.',
         options: ['The policy is **harmful and contraindicated**', 'awareness', 'prevention'],
@@ -46,12 +46,12 @@ export const w_c12_psychologymeaningstressnaturesim: SimDef = {
             { text: 'Conclude that the *same stressor* produced opposite strain types because of divergent appraisals, illustrating the.', faded: true, blankAnswer: 'Stressor: Fest decoration responsibility. Meera:.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_psy_cbse_03_001', title: 'Identify each idea',
-          dissect: { specimen: 'Meaning Stress Nature', spots: [
+          dissect: { specimen: 'Depressive and Bipolar Disorders: Symptoms, Risk Factors and Suicide Prevention', spots: [
             { id: 's1', label: 'Depressive Disorders are characterized by', prompt: 'Which idea is this? — Depressive Disorders are characterized by persistent depressed mood or loss of.', answer: 'Depressive Disorders are characterized by', options: ['Depressive Disorders are characterized by', 'Stress is a dynamic transactional'] },
             { id: 's2', label: 'Stress is a dynamic transactional', prompt: 'Which idea is this? — Stress is a dynamic, transactional process in which an individual perceives and appraises.', answer: 'Stress is a dynamic transactional', options: ['Stress is a dynamic transactional', 'Depressive Disorders are characterized by'] }
           ] } }
     ],
-    explore: { component: C12_PsychologyMeaningStressNatureSim, prompt: 'Explore the interactive — Meaning Stress Nature' },
+    explore: { component: C12_PsychologyMeaningStressNatureSim, prompt: 'Explore the interactive — Depressive and Bipolar Disorders: Symptoms, Risk Factors and Suicide Prevention' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_psy_cbse_04_008', difficulty: 'standard',
           question: 'Depressive Disorders are characterized by persistent depressed mood or loss of.',

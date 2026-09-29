@@ -65,6 +65,12 @@ DEPTH_PATHS = {
 }
 GEN_DIR = os.path.join(ROOT, "frontend", "components", "sims_v2", "generated")
 CAREERS_PATH = os.path.join(ROOT, "frontend", "components", "world", "careers_by_chapter.json")
+# curriculum topics (node_id -> topic) from the source layer -- only used to
+# rescue mangled slide titles; absent dir degrades to the head-term path.
+# Same env var + default as tools/build_simdefs.mjs (SIM_NODE_SRC = source dir).
+SRC_DIR = os.environ.get(
+    "SIM_NODE_SRC",
+    r"C:\Users\Alesha4285\Desktop\enhanced_nodes\source")
 
 # ------------------------------------------------------------------ tunables
 MIN_USABLE_MISSING = 3       # purity guard: usable diagnostics per MISSING node
@@ -328,6 +334,13 @@ def head_term(definition: str) -> str:
     d = clean(definition)
     if not d:
         return ""
+    # LaTeX markup ($\text{CO}_2$, \(a^2\)) and *emphasis* markers are debris
+    # in a topic phrase -- strip them BEFORE cue-cutting so their braces can
+    # never defeat the bracket tidy below (they are what produced titles like
+    # "Carbon Dioxide _2$)").
+    d = re.sub(r"\$[^$]*\$", " ", d)
+    d = re.sub(r"\\[{(\[]|\\[})\]]", " ", d)
+    d = d.replace("*", " ")
     cut = None
     for cue in (":", " is ", " are ", " refers to ", " means ", " describes "):
         i = d.find(cue)
@@ -335,10 +348,58 @@ def head_term(definition: str) -> str:
             cut = i if cut is None else min(cut, i)
     head = d[:cut].strip() if cut else " ".join(d.split()[:6])
     head = re.sub(r"^(the|a|an)\s+", "", head, flags=re.I)
-    head = re.sub(r"[\(\[\{].*?[\)\]\}]", "", head).strip(" ,;:—-.")
-    if len(head) < 3 or len(head) > 64:
-        head = " ".join(d.split()[:5]).strip(" ,;:.—-")
+    head = _tidy_head(head)
+    _opener = head.split()[0].lower() if head.split() else ""
+    if (len(head) < 3 or len(head.split()) < 2
+            or _opener in {"if", "when", "while", "whether", "suppose",
+                           "because", "although", "since"}):
+        # cue cut stopped inside the opening clause ("If p", "Set A") --
+        # widen to the first comma so the head carries a full noun phrase
+        wide = d.split(",")[0].strip()
+        wide = re.sub(r"^(the|a|an)\s+", "", wide, flags=re.I)
+        wide = _tidy_head(wide)
+        if 2 <= len(wide.split()) <= 10 and len(wide) <= 64:
+            head = wide
+        else:
+            head = _tidy_head(" ".join(d.split()[:6]))
+    if len(head) > 64:
+        head = _tidy_head(" ".join(d.split()[:6]))
     return head
+
+
+def _tidy_head(head: str) -> str:
+    """Bracket tidy for a candidate head: strip same-type bracket pairs,
+    then any trailing unmatched '(' group, then dangling connectives --
+    never leaves ')'/'$'/'^' fragments like the old brace-as-closer regex."""
+    prev = None
+    while prev != head:
+        prev = head
+        head = re.sub(r"\([^()]*\)", " ", head)
+        head = re.sub(r"\[[^\[\]]*\]", " ", head)
+    head = re.sub(r"\s{2,}", " ", head)
+    i = head.find("(")
+    if 0 <= i:
+        head = head[:i]                      # unmatched "(" -- drop the tail
+    # raw (undelimited) math debris: cut before any LaTeX command token or
+    # equation tail, and drop superscript/brace fragments
+    toks = head.split()
+    for k, tk in enumerate(toks):
+        if "\\" in tk or tk in {"=", "≈", "≠", "≤", "≥"} or re.search(r"[{}^$]", tk):
+            toks = toks[:k]
+            break
+    head = " ".join(toks).strip(" ,;:—-.").strip(" ,;:—-.")
+    # strip RUNS of dangling connectives and linking verbs ("... Refer To",
+    # "... States That For", "... Consists Of" read broken as headings)
+    for _ in range(4):
+        new = re.sub(r"\s+(?:in|and|or|of|to|the|a|an|for|with|from|on|at|by"
+                     r"|that|which|is|are|was|were|states?|refers?|consists?"
+                     r"|means|describes?|occurs?|includes?|contains?|encompasses?"
+                     r"|involves?|represents?|requires?|called|known)\.?$",
+                     "", head, flags=re.I)
+        if new == head:
+            break
+        head = new
+    return head.strip(" ,;:—-.")
 
 
 def title_case(s: str) -> str:
@@ -347,6 +408,80 @@ def title_case(s: str) -> str:
         out.append(w if (w.isupper() or w.isdigit() or len(w) == 1)
                    else w[:1].upper() + w[1:])
     return " ".join(out)[:52].strip()
+
+
+def non_dangling_trim(text: str, limit: int) -> str:
+    """trim(), then back off any dangling connective the cut leaves --
+    a page heading like "Distance ... In The" reads broken."""
+    t = trim(text, limit)
+    for _ in range(3):
+        new = re.sub(r"\s+(?:in|and|or|of|to|the|a|an|for|with|from|on|at|by)\.?$",
+                     "", t, flags=re.I)
+        if new == t or len(new) < 8:
+            break
+        t = new
+    return t
+
+
+SLIDE_DEBRIS_RE = re.compile(r"[\\$\{\}\^]")
+SLIDE_DANG_RE = re.compile(
+    r"\s+(?:in|and|or|of|to|the|a|an|for|with|from|on|at|by|vs|versus)\.?$",
+    re.I)
+
+
+def _slide_title_mangled(t: str) -> bool:
+    """Mechanical mangling classes a 44-char hard cut can leave: LaTeX
+    debris, unbalanced brackets, dangling connective tail, clause fragment."""
+    if not t:
+        return True
+    if SLIDE_DEBRIS_RE.search(t):
+        return True
+    if t.count("(") != t.count(")") or t.count("[") != t.count("]"):
+        return True
+    if t.count('"') % 2 == 1:              # cut inside a quoted title
+        return True
+    if SLIDE_DANG_RE.search(t):
+        return True
+    w = t.split()
+    if w and w[0].lower() in {"if", "when", "while", "whether", "suppose",
+                              "because", "although", "since"} and len(w) <= 3:
+        return True
+    return False
+
+
+def slide_title(definition: str, idx: int, topic: str = "") -> str:
+    """Teaching-slide title for a node.  Primary: the historical head-term
+    expression (byte-stable for every already-clean title).  When that
+    expression is mechanically mangled, fall back to the node's curriculum
+    topic, then to cleaning the mangled string itself -- never to invented
+    content.  Deterministic."""
+    t = trim(title_case(head_term(definition)) or f"Node {idx + 1}", 44)
+    if not _slide_title_mangled(t):
+        return t
+    tp = (topic or "").strip()
+    if tp and not _slide_title_mangled(non_dangling_trim(tp, 44)):
+        return non_dangling_trim(tp, 44)
+    s = re.sub(r"\$[^$]*\$", " ", t)
+    s = re.sub(r"\\[{(\[]|\\[})\]]", " ", s)
+    s = re.sub(r"[\\{}\^$]", " ", s)
+    s = re.sub(r"\s{2,}", " ", s).strip(" ,;:—-.")
+    i = s.find("(")
+    if 0 <= i and s.count("(", 0, i) == 0:
+        s = s[:i]                          # unmatched ( -> drop the tail
+    toks = s.split()
+    for k, tk in enumerate(toks):
+        if "\\" in tk or re.search(r"[{}^$]", tk) or tk in {"=", "≈", "≠", "≤", "≥"}:
+            toks = toks[:k]
+            break
+    s = " ".join(toks).strip(" ,;:—-.")
+    for _ in range(4):
+        new = SLIDE_DANG_RE.sub("", s)
+        if new == s:
+            break
+        s = new
+    if s.count('"') % 2 == 1:              # title cut inside a quoted name
+        s += '"'
+    return s.strip(" ,;:—-.")
 
 
 def node_head(node) -> str:
@@ -767,6 +902,20 @@ class Compiler:
         self.careers = {}
         if os.path.exists(CAREERS_PATH):
             self.careers = json.load(open(CAREERS_PATH, encoding="utf-8"))
+        self.src_topics = {}
+        if os.path.isdir(SRC_DIR):
+            for f in sorted(os.listdir(SRC_DIR)):
+                if not f.endswith(".json"):
+                    continue
+                try:
+                    data = json.load(open(os.path.join(SRC_DIR, f), encoding="utf-8"))
+                except Exception:
+                    continue
+                if isinstance(data, list):
+                    for n in data:
+                        if isinstance(n, dict) and n.get("node_id"):
+                            self.src_topics[n["node_id"]] = \
+                                (n.get("topic") or "").strip()
         self.depth = {}
         for c in classes:
             d = json.load(open(DEPTH_PATHS[c], encoding="utf-8"))
@@ -1075,7 +1224,8 @@ class Compiler:
         teaching = []
         for i, (nid, node, entry, verdict, diags, definition, cands) in enumerate(chunk):
             slide = {
-                "title": trim(title_case(head_term(definition)) or f"Node {i + 1}", 44),
+                "title": slide_title(definition, i,
+                                     self.src_topics.get(nid, "")),
                 "text": trim(definition, 260),
                 "emoji": emoji,
                 "bgColor": SLIDE_BGS[h32(nid + "bg") % len(SLIDE_BGS)],
@@ -1131,7 +1281,7 @@ class Compiler:
         chap_list = merged_chaps or [chap]
         defn = {
             "id": sim_id,
-            "title": trim(topic, 48),
+            "title": non_dangling_trim(topic, 48),
             "subtitle": trim(f"{label} · Chapter {chap}" +
                              (f" · Part {part}" if parts > 1 else ""), 60),
             "classLevel": cls,
@@ -1147,7 +1297,7 @@ class Compiler:
             "challenges": challenges,
             "reflect": {"prompts": [f"What surprised you about {topic.lower()}?",
                                     "Which challenge was hardest -- and why?"]},
-            "successLine": trim(topic, 30) + " mastered! 🎯",
+            "successLine": non_dangling_trim(topic, 30) + " mastered! 🎯",
             "tryAgainLine": "Re-read the slides -- every answer hides in them.",
         }
         if len(challenges) > SAMPLE_CHALLENGES:

@@ -6,13 +6,13 @@ import C11_MathematicsVariousFormsEquationSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c11_mathematicsvariousformsequationsim: SimDef = {
     id: 'v3w_c11_mathematicsvariousformsequationsim',
-    title: 'Various Forms Equation',
+    title: 'Slope: Parallel and Perpendicular Lines',
     subtitle: 'Covers slope criteria for parallelism and perpendicularity of straight lines in the.',
     classLevel: 11, subject: 'mathematics', topic: 'Slope: Parallel and Perpendicular Lines',
     chapters: [],
     nodeIds: ['c11_math_cbse_10_007', 'c11_math_cbse_10_005', 'c11_math_cbse_10_006', 'c11_math_cbse_10_008', 'c11_math_cbse_10_009', 'c11_math_cbse_10_010', 'c11_math_cbse_10_011', 'c11_math_cbse_10_012', 'c11_math_cbse_10_013'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a rectangular garden bed in your backyard.', goal: 'Master Various Forms Equation.' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a rectangular garden bed in your backyard.', goal: 'Master Slope: Parallel and Perpendicular Lines.' },
     discovery: {
         question: 'State the condition for two lines with slopes m₁ and m₂ to be (i) parallel, (ii) perpendicular. What is the slope of a line parallel to the y-axis?',
         options: ['(i) m₁ = m₂; (ii) m₁ × m₂ = -1 (provided neither is vertical)', 'm₁ = -m₂ for perpendicular', 'slope of y-axis is 0'],
@@ -81,7 +81,7 @@ export const w_c11_mathematicsvariousformsequationsim: SimDef = {
             { text: 'The y-intercept is \\(c = -1\\). The track crosses the y-axis at \\((0, -1)\\).', faded: true, blankAnswer: 'Equation: \\(y = 2x - 1\\); y-intercept distance = 1 km.' }
             ] } },
         { type: 'dissect', nodeId: 'c11_math_cbse_10_005', title: 'Identify each idea',
-          dissect: { specimen: 'Various Forms Equation', spots: [
+          dissect: { specimen: 'Slope: Parallel and Perpendicular Lines', spots: [
             { id: 's1', label: 'Two non-vertical lines are parallel', prompt: 'Which idea is this? — Two non-vertical lines are parallel if and only if their slopes are equal (m₁ = m₂).', answer: 'Two non-vertical lines are parallel', options: ['Two non-vertical lines are parallel', 'The area of a triangle', 'The slope or gradient of', 'The angle between two intersecting'] },
             { id: 's2', label: 'The area of a triangle', prompt: 'Which idea is this? — The area of a triangle with vertices at coordinates A(x₁, y₁), B(x₂, y₂), and C(x₃, y₃).', answer: 'The area of a triangle', options: ['The area of a triangle', 'Two non-vertical lines are parallel', 'The slope or gradient of', 'The angle between two intersecting'] },
             { id: 's3', label: 'The slope or gradient of', prompt: 'Which idea is this? — The slope (or gradient) of a non-vertical line is defined as the tangent of the angle of.', answer: 'The slope or gradient of', options: ['The slope or gradient of', 'Two non-vertical lines are parallel', 'The area of a triangle', 'The angle between two intersecting'] },
@@ -90,7 +90,7 @@ export const w_c11_mathematicsvariousformsequationsim: SimDef = {
             { id: 's6', label: 'The two-point form gives the', prompt: 'Which idea is this? — The two-point form gives the equation of a straight line passing through two distinct.', answer: 'The two-point form gives the', options: ['The two-point form gives the', 'Two non-vertical lines are parallel', 'The area of a triangle', 'The slope or gradient of'] }
           ] } }
     ],
-    explore: { component: C11_MathematicsVariousFormsEquationSim, prompt: 'Explore the interactive — Various Forms Equation' },
+    explore: { component: C11_MathematicsVariousFormsEquationSim, prompt: 'Explore the interactive — Slope: Parallel and Perpendicular Lines' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_math_cbse_10_007', difficulty: 'standard',
           question: 'Two non-vertical lines are parallel if and only if their slopes are equal (m₁ =.',

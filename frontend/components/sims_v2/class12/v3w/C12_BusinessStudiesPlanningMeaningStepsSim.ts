@@ -6,13 +6,13 @@ import C12_BusinessStudiesPlanningMeaningStepsSim from '../../../simulations/c6_
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_businessstudiesplanningmeaningstepssim: SimDef = {
     id: 'v3w_c12_businessstudiesplanningmeaningstepssim',
-    title: 'Planning Meaning Steps',
+    title: 'Planning: Meaning, Definition and Features',
     subtitle: 'This node covers the meaning, definition, and seven features of planning (focus on.',
     classLevel: 12, subject: 'business_studies', topic: 'Planning: Meaning, Definition and Features',
     chapters: [],
     nodeIds: ['c12_bs_cbse_04_001', 'c12_bs_cbse_05_001', 'c12_bs_cbse_08_001', 'c12_bs_cbse_09_006', 'c12_bs_cbse_04_002', 'c12_bs_cbse_04_003', 'c12_bs_cbse_04_005', 'c12_bs_cbse_04_008', 'c12_bs_cbse_04_009', 'c12_bs_cbse_06_002', 'c12_bs_cbse_08_002', 'c12_bs_cbse_08_003', 'c12_bs_cbse_08_010', 'c12_bs_cbse_06_001', 'c12_bs_cbse_09_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the captain of a cricket team (like Rohit Sharma) before an IPL final.', goal: 'Master Planning Meaning Steps.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are the captain of a cricket team (like Rohit Sharma) before an IPL final.', goal: 'Master Planning: Meaning, Definition and Features.' },
     discovery: {
         question: 'Evaluate this claim: "Since planning is continuous, a company should never finish writing its annual plan — it should keep revising it throughout the year." Is.',
         options: ['Incorrect claim', 'continuous process', 'continuous tinkering'],
@@ -82,7 +82,7 @@ export const w_c12_businessstudiesplanningmeaningstepssim: SimDef = {
             { text: 'Justify each: Without (a), revenue targets are baseless; without (b), product launch may face compliance delays;.', faded: true, blankAnswer: 'Four premises: (1) External-Economic: Urban organic snack.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bs_cbse_05_001', title: 'Identify each idea',
-          dissect: { specimen: 'Planning Meaning Steps', spots: [
+          dissect: { specimen: 'Planning: Meaning, Definition and Features', spots: [
             { id: 's1', label: 'Planning is the primary managerial', prompt: 'Which idea is this? — Planning is the primary managerial function of deciding in advance *what* to do, *how* to.', answer: 'Planning is the primary managerial', options: ['Planning is the primary managerial', 'Organising is the management function', 'Controlling is the management function', 'Financial Planning is the process'] },
             { id: 's2', label: 'Organising is the management function', prompt: 'Which idea is this? — Organising is the management function that follows planning, involving the identification.', answer: 'Organising is the management function', options: ['Organising is the management function', 'Planning is the primary managerial', 'Controlling is the management function', 'Financial Planning is the process'] },
             { id: 's3', label: 'Controlling is the management function', prompt: 'Which idea is this? — Controlling is the management function of ensuring that actual organisational activities.', answer: 'Controlling is the management function', options: ['Controlling is the management function', 'Planning is the primary managerial', 'Organising is the management function', 'Financial Planning is the process'] },
@@ -91,7 +91,7 @@ export const w_c12_businessstudiesplanningmeaningstepssim: SimDef = {
             { id: 's6', label: 'The planning process is a', prompt: 'Which idea is this? — The planning process is a systematic sequence of seven logical steps — setting.', answer: 'The planning process is a', options: ['The planning process is a', 'Planning is the primary managerial', 'Organising is the management function', 'Controlling is the management function'] }
           ] } }
     ],
-    explore: { component: C12_BusinessStudiesPlanningMeaningStepsSim, prompt: 'Explore the interactive — Planning Meaning Steps' },
+    explore: { component: C12_BusinessStudiesPlanningMeaningStepsSim, prompt: 'Explore the interactive — Planning: Meaning, Definition and Features' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bs_cbse_04_001', difficulty: 'standard',
           question: 'Planning is the primary managerial function of deciding in advance *what* to.',

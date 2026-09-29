@@ -1110,13 +1110,13 @@ export const C12_CA_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Basic Steps For Creating Graphs/charts In",
+    "title": "Basics Steps",
     "text": "The basic steps for creating graphs/charts in Excel involve: (1) entering structured data with clear row/column headers, (2) selecting the relevant data range, (3) choosing an appropriate chart type from the Insert tab, (4) formatting chart elements (titles,",
     "emoji": "🖥️",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Advantages Of Using Graphs And",
+    "title": "Advantages Of Using Graphs",
     "text": "The advantages of using graphs and charts in computerised accounting refer to the three core benefits — exploration (discovering hidden relationships between variables), presentation (communicating complex data quickly and clearly), and persuasion (convincing",
     "emoji": "🖥️",
     "bgColor": "from-emerald-400 to-teal-500"

@@ -19,7 +19,7 @@ export const c11_hin_ar_ch13_p3: SimDef = {
         hook: 'The three stanzas aren\'t consecutive scenes — public chaos, private terror and eternal law are stacked as simultaneous faces of one Emergency-era moment.',
     },
     teaching: [
-        { title: 'पाठ 13 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ के गहन परीक्षण की वह प्रक्रिया है जिसमें पाठ की संरचना, भाषा-प्रयोग, अंतर्निहित मान्यताओं, लेखकीय दृष्टिकोण और सामाजिक-सांस्कृतिक संदर्भों को.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 13 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'लकीरें खींचते हुए\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_13_013', title: 'Your mission',
@@ -30,8 +30,8 @@ export const c11_hin_ar_ch13_p3: SimDef = {
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'dissect', nodeId: 'c11_hin_ar_cbse_13_014', title: 'Identify each idea',
           dissect: { specimen: 'पाठ 13 · Part 3/3', spots: [
-            { id: 's1', label: '13 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन एक कौशल है जिसमें छात्र दिए गए पाठ्यांश से साक्ष्य का उपयोग करके स्पष्ट.', answer: '13 -', options: ['13 -', '13 - -'] },
-            { id: 's2', label: '13 - -', prompt: 'Which idea is this? — \'वाचन-श्रवण: चर्चा-बिंदु\' एक सहयोगात्मक भाषा कौशल है जिसमें शिक्षार्थी किसी साहित्यिक पाठ.', answer: '13 - -', options: ['13 - -', '13 -'] }
+            { id: 's1', label: '13 -', prompt: 'Which idea is this? — \'लकीरें खींचते हुए\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।', answer: '13 -', options: ['13 -', '13 - -'] },
+            { id: 's2', label: '13 - -', prompt: 'Which idea is this? — \'लकीरें खींचते हुए\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।', answer: '13 - -', options: ['13 - -', '13 -'] }
           ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_13_013', title: 'Use it in the wild',
           caseStudy: { intro: 'At a protest-poetry evening, a student reads Nagarjun\'s poem and interprets it as a literal street scene: \'Police burn stakes, children run, the poet hides, then calls himself a king — confusing sequence, honestly.\'',
@@ -52,38 +52,38 @@ export const c11_hin_ar_ch13_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_13_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ के गहन परीक्षण की वह.',
+          question: '\'लकीरें खींचते हुए\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'यदि फँस जाएँ तो **पाठ 13 के बिंब-प्रतीक (c11_hin_ar_cbse_13_008, 009) और मुख्य पदावली.',
           misconception: '**विशिष्ट भ्रांति:** "आलोचनात्मक चिंतन का अर्थ है पाठ में \'कमियाँ निकालना\' या लेखक से \'असहमत होना\'।" **गलत तर्क का.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ के गहन परीक्षण की वह प्रक्रिया है',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) किसी साहित्यिक पाठ के गहन परीक्षण की वह प्रक्रिया है', 'पृष्ठभूमि (Background) किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक, सांस्कृतिक और', 'कथानक (Plot) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध से बंधा होता', 'पाठ्य-परिवेश और वातावरण किसी साहित्यिक कृति में कथानक के घटित होने वाला समग्र भौतिक,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'लकीरें खींचते हुए\' का आलोचनात्मक चिंतन',
+                  options: ['\'लकीरें खींचते हुए\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'लकीरें खींचते हुए\' का कथानक', '\'लकीरें खींचते हुए\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फँस जाएँ तो **पाठ 13 के बिंब-प्रतीक (c11_hin_ar_cbse_13_008, 009) और मुख्य पदावली.',
                   misconception: '**विशिष्ट भ्रांति:** "आलोचनात्मक चिंतन का अर्थ है पाठ में \'कमियाँ निकालना\' या लेखक से \'असहमत होना\'।" **गलत तर्क का स्रोत:** \'आलोचना\' शब्द.' }
           ],
             remediations: { 'critical-analytical-reading': { steps: ['**चरण 1:** छात्र से कहें: "पाठ का कोई एक वाक्य चुनो जो तुम्हें \'सामान्य\' लगे। अब उस वाक्य के **हर शब्द** से पूछो: \'तुम.', 'तुम्हारी जगह कोई और शब्द होता तो अर्थ कैसे बदलता?\'" **चरण 2:** छात्र को **\'क्या\' (What) → \'कैसे\' (How) → \'क्यों\'.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_13_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन एक कौशल है जिसमें छात्र दिए गए पाठ्यांश से साक्ष्य का उपयोग.',
+          question: '\'लकीरें खींचते हुए\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
           hint: 'यदि छात्र फंस जाए, तो पहले पाठ के मुख्य विषय (c11_hin_ar_cbse_13_006) और पात्र-चित्रण.',
           misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर में जितने अधिक उद्धरण डालेंगे, उतना ही मजबूत उत्तर होगा, इसलिए वे पंक्तियों.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन एक कौशल है जिसमें छात्र दिए गए पाठ्यांश से साक्ष्य का उपयोग करके स्पष्ट,',
-                  options: ['पाठ-आधारित लेखन एक कौशल है जिसमें छात्र दिए गए पाठ्यांश से साक्ष्य का उपयोग करके स्पष्ट,', 'पृष्ठभूमि (Background) किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक, सांस्कृतिक और', 'कथानक (Plot) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध से बंधा होता', 'पाठ्य-परिवेश और वातावरण किसी साहित्यिक कृति में कथानक के घटित होने वाला समग्र भौतिक,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'लकीरें खींचते हुए\' पर पाठ-आधारित लेखन',
+                  options: ['\'लकीरें खींचते हुए\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'लकीरें खींचते हुए\' का कथानक', '\'लकीरें खींचते हुए\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि छात्र फंस जाए, तो पहले पाठ के मुख्य विषय (c11_hin_ar_cbse_13_006) और पात्र-चित्रण.',
                   misconception: 'छात्र अक्सर मानते हैं कि पाठ-आधारित उत्तर में जितने अधिक उद्धरण डालेंगे, उतना ही मजबूत उत्तर होगा, इसलिए वे पंक्तियों को बिना सोचे-समझे.' }
           ],
             remediations: { 'wrong-idea': { steps: ['पहले छात्र से कहिए कि वह अपने उत्तर में सभी उद्धरणों को चिह्नित करके देखे कि क्या प्रत्येक के बाद उसका अपना स्पष्टीकरण.', 'यह किस भाव, लक्षण, या विषय की ओर इशारा करता है?" इस प्रश्न के उत्तर को लिखवाकर दिखाइए कि यही स्पष्टीकरण है। अंत में.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_13_015', difficulty: 'standard',
-          question: '\'वाचन-श्रवण: चर्चा-बिंदु\' एक सहयोगात्मक भाषा कौशल है जिसमें शिक्षार्थी किसी.',
-          hint: 'यदि अटके तो \'आलोचनात्मक चिंतन: विश्लेषण और व्याख्या\' (c11_hin_ar_cbse_13_013) के.',
-          misconception: 'छात्र अक्सर समझते हैं कि \'चर्चा-बिंदु\' का अर्थ है पाठ के \'मुख्य विषय\' या \'संदेश\' को दोहराना — वे पाठ को एक निश्चित अर्थ.',
+          question: '\'लकीरें खींचते हुए\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श.',
+          hint: 'यदि अटके: c11_hin_ar_cbse_13_008 (Literary Devices: Imagery and Metaphor) पर लौटकर.',
+          misconception: '**विशिष्ट भ्रांति:** "चर्चा बिंदुओं (discussion points) का अर्थ है कविता के प्रश्नों के उत्तर याद करके बोल देना।" **गलत.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'वाचन-श्रवण: चर्चा-बिंदु\' एक सहयोगात्मक भाषा कौशल है जिसमें शिक्षार्थी किसी साहित्यिक पाठ',
-                  options: ['\'वाचन-श्रवण: चर्चा-बिंदु\' एक सहयोगात्मक भाषा कौशल है जिसमें शिक्षार्थी किसी साहित्यिक पाठ', 'पृष्ठभूमि (Background) किसी रचना के लिखे जाने का ऐतिहासिक, सामाजिक, सांस्कृतिक और', 'कथानक (Plot) घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध से बंधा होता', 'पाठ्य-परिवेश और वातावरण किसी साहित्यिक कृति में कथानक के घटित होने वाला समग्र भौतिक,'],
-                  hint: 'यदि अटके तो \'आलोचनात्मक चिंतन: विश्लेषण और व्याख्या\' (c11_hin_ar_cbse_13_013) के \'बहुअर्थकता\' खंड.',
-                  misconception: 'छात्र अक्सर समझते हैं कि \'चर्चा-बिंदु\' का अर्थ है पाठ के \'मुख्य विषय\' या \'संदेश\' को दोहराना — वे पाठ को एक निश्चित अर्थ वाला दस्तावेज मानते.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'लकीरें खींचते हुए\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'लकीरें खींचते हुए\' पर वाचन-श्रवण और चर्चा-बिंदु', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'लकीरें खींचते हुए\' का कथानक', '\'लकीरें खींचते हुए\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'यदि अटके: c11_hin_ar_cbse_13_008 (Literary Devices: Imagery and Metaphor) पर लौटकर \'फाटक\', \'मेज\'.',
+                  misconception: '**विशिष्ट भ्रांति:** "चर्चा बिंदुओं (discussion points) का अर्थ है कविता के प्रश्नों के उत्तर याद करके बोल देना।" **गलत तर्क:** छात्र समझते.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को पाठ 13 का कोई एक विवादास्पद प्रसंग (जैसे नायक का अंतिम निर्णय) दें और पूछें: "यदि तुम नायक की जगह होते, तो.', 'और यदि तुम उसकी माँ होते?" — दो भूमिकाएँ निभवाएँ। 2.', 'फिर दोनों उत्तरों को आमने-सामने रखकर पूछें: "दोनों सही कैसे हो सकते हैं?" — यहीं \'चर्चा-बिंदु\' जन्मता है। 3.', 'अब पाठ से दो-दो वाक्य ढूँढ़ने को कहें जो प्रत्येक भूमिका का समर्थन करें। 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'discussion-points-speaking-skill-theme': { steps: ['**लक्षित उपचार (3 चरण):** 1.', '**मौन पाठ → मौखिक टिप्पणी:** छात्र को कविता का एक पद देकर कहें: "इसे पढ़ो और **एक वाक्य** में बोलो कि इस पद में \'रेखा\'.', '**सुनकर जवाब देना:** शिक्षक एक दावा बोले ("दूसरे पद में \'मेज\' सत्ता की मेज है"), छात्र **केवल** "सहमत/असहमत.', '**त्रिकोणीय चर्चा:** तीन छात्र — एक **दावा** करे, दूसरा **प्रतिदावा** करे, तीसरा **संश्लेषण** (synthesis) करे। हर चरण.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

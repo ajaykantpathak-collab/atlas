@@ -6,13 +6,13 @@ import C7_ScienceAdolescenceAStageOfGrowthSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c7_scienceadolescenceastageofgrowthsim: SimDef = {
     id: 'v3w_c7_scienceadolescenceastageofgrowthsim',
-    title: 'Adolescence AStage Of Growth',
+    title: 'Life Stages of Humans: Infancy to Old Age',
     subtitle: 'Covers the broad overview of all human life stages from infancy to old age, focusing on.',
     classLevel: 7, subject: 'science', topic: 'Life Stages of Humans: Infancy to Old Age',
     chapters: [],
     nodeIds: ['c7_bio_ch01_001', 'c7_bio_ch01_002', 'c7_bio_ch01_003', 'c7_bio_ch01_004', 'c7_bio_ch01_005', 'c7_bio_ch01_007', 'c7_bio_ch01_008', 'c7_bio_ch01_009', 'c7_bio_ch01_012', 'c7_bio_ch01_006', 'c7_bio_ch01_010', 'c7_bio_ch01_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 7 learner', intro: 'Look at a family photo album: you see a tiny newborn baby, a toddler taking first steps, a school-going.', goal: 'Master Adolescence AStage Of Growth.' },
+    scenario: { role: 'a class 7 learner', intro: 'Look at a family photo album: you see a tiny newborn baby, a toddler taking first steps, a school-going.', goal: 'Master Life Stages of Humans: Infancy to Old Age.' },
     discovery: {
         question: 'What is the standard age range defined for the period of adolescence in humans?',
         options: ['The standard age range for adolescence is 10 to 19 years', 'adolescence', 'puberty'],
@@ -78,7 +78,7 @@ export const w_c7_scienceadolescenceastageofgrowthsim: SimDef = {
             { text: 'Conclude that Priya\'s balanced diet must incorporate dairy and calcium-rich foods to support bone elongation and.', faded: true, blankAnswer: 'Priya needs to include calcium-rich foods like milk, curd,.' }
             ] } },
         { type: 'dissect', nodeId: 'c7_bio_ch01_002', title: 'Identify each idea',
-          dissect: { specimen: 'Adolescence AStage Of Growth', spots: [
+          dissect: { specimen: 'Life Stages of Humans: Infancy to Old Age', spots: [
             { id: 's1', label: 'The life stages of humans', prompt: 'Which idea is this? — The life stages of humans refer to the continuous, progressive biological phases of.', answer: 'The life stages of humans', options: ['The life stages of humans', 'Adolescence is the transitional period', 'The rapid and marked increase', 'Changes indicating reproductive maturity refer'] },
             { id: 's2', label: 'Adolescence is the transitional period', prompt: 'Which idea is this? — Adolescence is the transitional period of physical, psychological, and social development.', answer: 'Adolescence is the transitional period', options: ['Adolescence is the transitional period', 'The life stages of humans', 'The rapid and marked increase', 'Changes indicating reproductive maturity refer'] },
             { id: 's3', label: 'The rapid and marked increase', prompt: 'Which idea is this? — The rapid and marked increase in height and weight during adolescence, driven by the.', answer: 'The rapid and marked increase', options: ['The rapid and marked increase', 'The life stages of humans', 'Adolescence is the transitional period', 'Changes indicating reproductive maturity refer'] },
@@ -87,7 +87,7 @@ export const w_c7_scienceadolescenceastageofgrowthsim: SimDef = {
             { id: 's6', label: 'A balanced diet during adolescence', prompt: 'Which idea is this? — A balanced diet during adolescence is a daily food intake containing appropriate.', answer: 'A balanced diet during adolescence', options: ['A balanced diet during adolescence', 'The life stages of humans', 'Adolescence is the transitional period', 'The rapid and marked increase'] }
           ] } }
     ],
-    explore: { component: C7_ScienceAdolescenceAStageOfGrowthSim, prompt: 'Explore the interactive — Adolescence AStage Of Growth' },
+    explore: { component: C7_ScienceAdolescenceAStageOfGrowthSim, prompt: 'Explore the interactive — Life Stages of Humans: Infancy to Old Age' },
     challenges: [
         { type: 'subpart', nodeId: 'c7_bio_ch01_001', difficulty: 'standard',
           question: 'The life stages of humans refer to the continuous, progressive biological.',

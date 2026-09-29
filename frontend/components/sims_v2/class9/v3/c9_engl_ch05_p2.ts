@@ -113,12 +113,12 @@ export const c9_engl_ch05_p2: SimDef = {
           ],
             remediations: { 'inspirational-language-is-simply-using': { steps: ['Return to the interview text and annotate every sentence that made you feel motivated.', 'For each annotated sentence, name the device (e.g., "antithesis in \'not limitation but vehicle\'").', 'Create a two-column table: Device | Effect on Reader.', 'Practice converting three plain statements ("Don\'t give up," "Study hard," "Be confident") into motivational versions.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c9_engl_ch5_8', difficulty: 'standard',
-          question: 'Vocabulary in Context for this chapter means identifying, analyzing, and.',
+          question: 'From \'English chapter c9_engl_ch5\': the skill or concept this node teaches.',
           hint: 'If stuck on connotation, review Class 8 "valour vs bravery" distinction (c8_engl_ch2_9).',
           misconception: 'Students treat "disability vocabulary" as a static list of **synonyms** (e.g., *handicapped = disabled.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context for this chapter means identifying, analyzing, and accurately using',
-                  options: ['Vocabulary in Context for this chapter means identifying, analyzing, and accurately using', 'A text summary is a concise, structured restatement of a non-fiction passage that', 'A structured discussion on inclusion and accessibility in sports examines how physical,', 'Resilience and Overcoming Adversity as a literary theme refers to the central message'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'From \'English chapter c9_engl_ch5\': the skill or concept this node teaches, applied to',
+                  options: ['From \'English chapter c9_engl_ch5\': the skill or concept this node teaches, applied to', 'A text summary is a concise, structured restatement of a non-fiction passage that', 'A structured discussion on inclusion and accessibility in sports examines how physical,', 'Resilience and Overcoming Adversity as a literary theme refers to the central message'],
                   hint: 'If stuck on connotation, review Class 8 "valour vs bravery" distinction (c8_engl_ch2_9) — same.',
                   misconception: 'Students treat "disability vocabulary" as a static list of **synonyms** (e.g., *handicapped = disabled = differently-abled = special.' }
           ],

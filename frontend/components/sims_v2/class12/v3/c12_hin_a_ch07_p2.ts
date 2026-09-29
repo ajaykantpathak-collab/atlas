@@ -19,7 +19,7 @@ export const c12_hin_a_ch07_p2: SimDef = {
         hook: 'Eknath was a Brahmin who wrote for the marginalised — the Abhang\'s plain Marathi, folk rhythm and a woman\'s voice are the reform, not simplification. This is poetry made to be walked and sung, not recited from a throne.',
     },
     teaching: [
-        { title: 'बारहमासा — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: '**बिंब (Imagery):** काव्य में प्रयुक्त वे शब्द-युग्म या पदावली जो पाठक की पाँचों इंद्रियों (दृष्टि, श्रवण, घ्राण, स्पर्श, स्वाद) को उद्दीप्त कर **मूर्त संवेदनात्मक अनुभूति** उत्पन्न करते हैं।.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'बारहमासा — साहित्यिक युक्तियाँ: प्रतीक और बिंब', text: '\'कंजकली\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c12_hin_a_cbse_07_007', title: 'Your mission',
@@ -28,6 +28,13 @@ export const c12_hin_a_ch07_p2: SimDef = {
         context: 'March with the Varkaris: learn what makes an Abhang an Abhang, read hunger as both road and spirit, and hear how a saint smuggled equality into a song.',
         labels: ['बारहमासा — साहित्यिक युक्तियाँ', 'बारहमासा — मुख्य भाव', 'बारहमासा — गौण भाव', 'बारहमासा — पदावली: कठिन', 'बारहमासा — व्याकरण: पद्य', 'बारहमासा — बोध-प्रश्न: वस्तुनिष्ठ'],
             observePrompt: 'What did the flow interactive show you?' } },
+        { type: 'case', nodeId: 'c12_hin_a_cbse_07_010', title: 'बारहमासा — पदावली: कठिन शब्द और मुहावरे',
+          caseStudy: { intro: '\'कंजकली\' के मुख्य शब्द: कंजकली — इनका अर्थ जानिए।',
+            decisions: [{ prompt: 'What is the primary reason the poet uses dialect words like *nsol*, *fufl*, and *lhÅ* instead of standard Hindi equivalents like *din*.', options: [
+                { text: 'Correct answer: To authentically capture the rural speaker\'s voice, cultural rootedness,', outcome: 'Correct answer: To authentically capture the rural speaker\'s voice, cultural rootedness, and.' },
+                { text: 'to make the poem difficult', outcome: 'Not quite — Students memorize the NCERT glossary meanings (*nsol = din, fufl = raat*) and reproduce them.', reveals: 'students-memorize-the-ncert-glossary' },
+                { text: 'because old Hindi was different', outcome: 'Not quite — Students memorize the NCERT glossary meanings (*nsol = din, fufl = raat*) and reproduce them.', reveals: 'students-memorize-the-ncert-glossary' }
+            ] }] } },
         { type: 'case', nodeId: 'c12_hin_a_cbse_07_007', title: 'Use it in the wild',
           caseStudy: { intro: 'You\'re editing a folk-style music video of a woman waiting through the night for someone who doesn\'t come. A teammate wants to cut the repeated shots — lamp, doorway, her face — because \'repetition is dead screen time.\'',
             decisions: [{ prompt: 'What does Mahadevi Verma\'s \'बारहमासा\'-style waiting poem say?', options: [
@@ -47,67 +54,67 @@ export const c12_hin_a_ch07_p2: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_007', difficulty: 'standard',
-          question: '**बिंब (Imagery):** काव्य में प्रयुक्त वे शब्द-युग्म या पदावली जो पाठक की.',
-          hint: 'यदि अटके: कक्षा 11 अंतरा के \'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_007) का \'चातक-प्रतीक\'.',
-          misconception: '**विशिष्ट भ्रम:** छात्र **\'बिंब\' को \'रूपक/उपमा\' मान लेते हैं** क्योंकि दोनों में \'तुलना\' या \'चित्रण\' होता है। उदाहरण.',
+          question: '\'कंजकली\' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।',
+          hint: 'If stuck, review the primary theme of "ckjgeklk" (spiritual liberation through Guru\'s.',
+          misconception: 'Students often think secondary themes are just \'sub-topics\' or \'less important topics\' that can be listed without.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '**बिंब (Imagery):** काव्य में प्रयुक्त वे शब्द-युग्म या पदावली जो पाठक की पाँचों',
-                  options: ['**बिंब (Imagery):** काव्य में प्रयुक्त वे शब्द-युग्म या पदावली जो पाठक की पाँचों', 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत', '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of a poem,', '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**'],
-                  hint: 'यदि अटके: कक्षा 11 अंतरा के \'जाग तुझको दूर जाना\' (c11_hin_a_cbse_13_007) का \'चातक-प्रतीक\' और \'बादल.',
-                  misconception: '**विशिष्ट भ्रम:** छात्र **\'बिंब\' को \'रूपक/उपमा\' मान लेते हैं** क्योंकि दोनों में \'तुलना\' या \'चित्रण\' होता है। उदाहरण: "चाँद सा मुखड़ा".' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंजकली\' के गौण विषय',
+                  options: ['\'कंजकली\' के गौण विषय', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंजकली\' का कथानक', '\'कंजकली\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, review the primary theme of "ckjgeklk" (spiritual liberation through Guru\'s grace) and.',
+                  misconception: 'Students often think secondary themes are just \'sub-topics\' or \'less important topics\' that can be listed without analysis.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['**पुनः पढ़ें:** c11_hin_a_cbse_13_007 (जाग तुझको दूर जाना — प्रतीक और बिंब) तथा c11_hin_a_cbse_14_007 (बादल को घरिते.', '**अभ्यास करें:** बारहमासा के **एक मास (जैसे जेठ या सावन)** के पद्यांश लें। हर संज्ञा/विशेषण के आगे **[इंद्रिय-टैग]**.', '**प्रश्न पूछें:** "यह बिंब कविता में किस भाव को मूर्त कर रहा है?" — उत्तर लिखें: "बिंब X → इंद्रिय Y → प्रतीकार्थ Z →.', '**पुनः निदान:** उपरोक्त DIAGNOSTIC_QUESTION_3 और 4 दोबारा हल करें। यदि अब सही होते हैं, तो अगले नोड.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'secondary-themes-are-just-sub': { steps: ['If a student cannot distinguish primary vs secondary themes or cannot trace a theme across stanzas: (1) Have them.', '(2) Ask: "Which of these does Kabir return to most?', 'Which one solves the problem?" — that\'s the primary theme.', '(3) For each other color, write one sentence: "This theme shows ___ and it pushes the seeker toward ___." (4) Practice.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_008', difficulty: 'standard',
-          question: 'बारहमासा में मुख्य भाव वह केंद्रित मनोभाव है जो संपूर्ण कविता के माध्यम से.',
+          question: '\'कंजकली\' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।',
           hint: 'यदि फंसें तो c12_hin_a_cbse_07_002: बारहमासा — पद्यांश-वार भावार्थ पर वापस जाएं और.',
           misconception: 'छात्र अक्सर बारहमासा के मुख्य भाव को वह भाव मान लेते हैं जो किसी एक विशेष महीने (जैसे वैशाख में अनुराग या कार्तिक में.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बारहमासा में मुख्य भाव वह केंद्रित मनोभाव है जो संपूर्ण कविता के माध्यम से विकसित होता',
-                  options: ['बारहमासा में मुख्य भाव वह केंद्रित मनोभाव है जो संपूर्ण कविता के माध्यम से विकसित होता', 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत', '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of a poem,', '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंजकली\' में बिंब (imagery)',
+                  options: ['\'कंजकली\' में बिंब (imagery)', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंजकली\' का कथानक', '\'कंजकली\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फंसें तो c12_hin_a_cbse_07_002: बारहमासा — पद्यांश-वार भावार्थ पर वापस जाएं और प्रत्येक महीने.',
                   misconception: 'छात्र अक्सर बारहमासा के मुख्य भाव को वह भाव मान लेते हैं जो किसी एक विशेष महीने (जैसे वैशाख में अनुराग या कार्तिक में विरह) में सबसे तीव्र.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र से कहिए कि वह कविता की एक तालिका बनाए—पहले स्तंभ में महीने का नाम, दूसरे में प्रमुख भाव, तीसरे में भाव की तीव्रता.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_009', difficulty: 'standard',
-          question: 'गौण भाव वे द्वितीयक भाव या चित्र हैं जो कविता के मुख्य भाव को समर्थन, विपरीत.',
+          question: '\'कंजकली\' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।',
           hint: 'यदि गौण भाव और मुख्य emoción के बीच संबंध समझ नहीं आ रहा है, तो c12_hin_a_cbse_07_008.',
           misconception: 'छात्र अक्सर गौण भाव को बस \'मुख्य भाव के अतिरिक्त सजावटी विवरण\' समझ बैठते हैं और सोचते हैं कि उनका केवल कविता को लम्बा.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'गौण भाव वे द्वितीयक भाव या चित्र हैं जो कविता के मुख्य भाव को समर्थन, विपरीत, या',
-                  options: ['गौण भाव वे द्वितीयक भाव या चित्र हैं जो कविता के मुख्य भाव को समर्थन, विपरीत, या', 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत', '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of a poem,', '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंजकली\' में विरोधाभास',
+                  options: ['\'कंजकली\' में विरोधाभास', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंजकली\' का कथानक', '\'कंजकली\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि गौण भाव और मुख्य emoción के बीच संबंध समझ नहीं आ रहा है, तो c12_hin_a_cbse_07_008 (केंद्रीय भाव.',
                   misconception: 'छात्र अक्सर गौण भाव को बस \'मुख्य भाव के अतिरिक्त सजावटी विवरण\' समझ बैठते हैं और सोचते हैं कि उनका केवल कविता को लम्बा या सुंदर बनाने का.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को पहले एक स्पष्ट विपरीत उदाहरण दें: श्लोक "हरियाली भर आई है, कोयल कूकती है, पर मेरा मन तो उदास है" पूछिए कि यहाँ.', 'अकेला बैठा प्रेमी) ताकि वह सक्रिय रूप से विरोध की पहचान करना सीखे।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_010', difficulty: 'standard',
-          question: 'पदावली: कठिन शब्द और मुहावरे वह अध्ययन है जिसमें कविता में प्रयुक्त अपरिचित या.',
-          hint: 'यदि फंसे हैं तो कक्षा 11 के किसी भी पाठ (जैसे c11_hin_a_cbse_01_010 से.',
-          misconception: 'छात्र अक्सर कठिन शब्दों और मुहावरों को शब्दश: अर्थ लेकर समझते हैं, जैसे "हाथ पीले करना" को literally हाथों के पीले होने.',
+          question: '\'कंजकली\' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।',
+          hint: 'If stuck, revisit Class 11 node c11_hin_ar_cbse_07_010 (Vocabulary in Context: Key Words).',
+          misconception: 'Students memorize the NCERT glossary meanings (*nsol = din, fufl = raat*) and reproduce them in exams as \'meanings\'.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पदावली: कठिन शब्द और मुहावरे वह अध्ययन है जिसमें कविता में प्रयुक्त अपरिचित या',
-                  options: ['पदावली: कठिन शब्द और मुहावरे वह अध्ययन है जिसमें कविता में प्रयुक्त अपरिचित या', 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत', '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of a poem,', '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**'],
-                  hint: 'यदि फंसे हैं तो कक्षा 11 के किसी भी पाठ (जैसे c11_hin_a_cbse_01_010 से c11_hin_a_cbse_07_010) में.',
-                  misconception: 'छात्र अक्सर कठिन शब्दों और मुहावरों को शब्दश: अर्थ लेकर समझते हैं, जैसे "हाथ पीले करना" को literally हाथों के पीले होने के रूप में लेते.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंजकली\' की पदावली',
+                  options: ['\'कंजकली\' की पदावली', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंजकली\' का कथानक', '\'कंजकली\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'If stuck, revisit Class 11 node c11_hin_ar_cbse_07_010 (Vocabulary in Context: Key Words).',
+                  misconception: 'Students memorize the NCERT glossary meanings (*nsol = din, fufl = raat*) and reproduce them in exams as \'meanings\'.' }
           ],
-            remediations: { 'wrong-idea': { steps: ['छात्र को दिखाइए कि "हाथ पीले करना" मुहावरे के दो हिस्से हैं: literal (हाथों का रंग) और idiomatic (काम में निपुणता)। फिर.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-memorize-the-ncert-glossary': { steps: ['If a student cannot move beyond glossary meanings: (1) Give them stanza 1 only.', 'What picture comes to mind with *nsol* that *din* erases?" (2) Have them replace each dialect word with its standard.', '(3) Assign: "Find 3 words in your home language that have no exact Hindi/English equivalent.', 'Write what they *feel* like." Re-diagnose with Diagnostic Question 2.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_011', difficulty: 'standard',
-          question: 'बारहमासा कविता में भाषा-प्रयोग से तात्पर्य उस विशिष्ट शब्द-चयन, वाक्य-संरचना.',
+          question: '\'कंजकली\' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली चुनी।',
           hint: 'यदि भाषा के प्रयोग के भाव पर प्रभाव को समझने में कठिनाई हो तो पहले c12_hin_a_cbse_07_005.',
           misconception: 'बारहमासा की कविता में भाषा के प्रयोग को समझते समय छात्र अक्सर यह मान लेते हैं कि यदि शब्दों का शब्दकोश अर्थ समझ आ गया.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बारहमासा कविता में भाषा-प्रयोग से तात्पर्य उस विशिष्ट शब्द-चयन, वाक्य-संरचना, और शैलीगत',
-                  options: ['बारहमासा कविता में भाषा-प्रयोग से तात्पर्य उस विशिष्ट शब्द-चयन, वाक्य-संरचना, और शैलीगत', 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत', '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of a poem,', '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंजकली\' में भाषा-प्रयोग',
+                  options: ['\'कंजकली\' में भाषा-प्रयोग', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंजकली\' का कथानक', '\'कंजकली\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि भाषा के प्रयोग के भाव पर प्रभाव को समझने में कठिनाई हो तो पहले c12_hin_a_cbse_07_005 (छंद और.',
                   misconception: 'बारहमासा की कविता में भाषा के प्रयोग को समझते समय छात्र अक्सर यह मान लेते हैं कि यदि शब्दों का शब्दकोश अर्थ समझ आ गया है तो कविता समझ गई है.' }
           ],
             remediations: { 'wrong-idea': { steps: ['छात्र को सबसे पहले एक सरल हिंदी वाक्य दें जैसे "मैं स्कूल जा रहा हूँ" और पूछिए कि इसका अर्थ बदलने के लिए आप क्या बदल.', 'फिर उन्हें दिखाइए कि यदि हम इसे "स्कूल जा रहा हूँ मैं" (उलटा वाक्य) लिखते हैं तो emphasis कैसे बदलता है, या "मैं-मैं.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c12_hin_a_cbse_07_012', difficulty: 'standard',
-          question: 'बोध-प्रश्न वे प्रश्न हैं जो पाठ की विषयवस्तु, भाव, शिल्प और भाषा की समझ की जाँच.',
+          question: '\'कंजकली\' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।',
           hint: 'यदि किसी माह का बिंब-प्रतीक याद न आए तो c12_hin_a_cbse_07_002 (पद्यांश-वार भावार्थ) की.',
           misconception: 'छात्र समझते हैं कि आशय-सूचक प्रश्नों का उत्तर **\'कवि क्या कहना चाहता है\'** के बजाय **\'मुझे क्या लगता है\'** लिख देना है।.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'बोध-प्रश्न वे प्रश्न हैं जो पाठ की विषयवस्तु, भाव, शिल्प और भाषा की समझ की जाँच करते हैं',
-                  options: ['बोध-प्रश्न वे प्रश्न हैं जो पाठ की विषयवस्तु, भाव, शिल्प और भाषा की समझ की जाँच करते हैं', 'बारहमासा हिन्दी साहित्य की एक प्रसिद्ध काव्य-परम्परा है जिसमें वर्ष के बारह महीनों (चैत', '"पद्यांश-वार भावार्थ" means the **stanza-by-stanza detailed explanation** of a poem,', '**काव्य-संरचना** का अर्थ है कविता के **भीतरी ढाँचे का विश्लेषण**'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'कंजकली\' के वस्तुनिष्ठ प्रश्न',
+                  options: ['\'कंजकली\' के वस्तुनिष्ठ प्रश्न', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'कंजकली\' का कथानक', '\'कंजकली\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि किसी माह का बिंब-प्रतीक याद न आए तो c12_hin_a_cbse_07_002 (पद्यांश-वार भावार्थ) की तालिका.',
                   misconception: 'छात्र समझते हैं कि आशय-सूचक प्रश्नों का उत्तर **\'कवि क्या कहना चाहता है\'** के बजाय **\'मुझे क्या लगता है\'** लिख देना है। उदाहरण: "मुझे लगता.' }
           ],

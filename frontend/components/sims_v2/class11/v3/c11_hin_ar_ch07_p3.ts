@@ -19,7 +19,7 @@ export const c11_hin_ar_ch07_p3: SimDef = {
         hook: 'Anchalik fiction\'s trick: village dialect and folk detail aren\'t decoration — they\'re the machinery that makes the bureaucracy look absurd.',
     },
     teaching: [
-        { title: 'पाठ 7 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन अध्ययन की वह प्रक्रिया है जिसमें शिक्षार्थी पाठ्य-सामग्री को पूर्वाग्रहों से मुक्त होकर तार्किक आधार पर जाँचता-परखता है, उसके अंतर्निहित अर्थ, संरचना.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'पाठ 7 — आलोचनात्मक चिंतन: विश्लेषण और व्याख्या', text: '\'टेकु का इस्म+\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_hin_ar_cbse_07_013', title: 'Your mission',
@@ -30,8 +30,8 @@ export const c11_hin_ar_ch07_p3: SimDef = {
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'dissect', nodeId: 'c11_hin_ar_cbse_07_014', title: 'Identify each idea',
           dissect: { specimen: 'पाठ 7 · Part 3/3', spots: [
-            { id: 's1', label: '7 -', prompt: 'Which idea is this? — पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र किसी दिए गए.', answer: '7 -', options: ['7 -', '7 - -'] },
-            { id: 's2', label: '7 - -', prompt: 'Which idea is this? — वाचन-श्रवण: चर्चा-बिंदु एक **संरचित शैक्षिक प्रक्रिया** है जिसमें शिक्षार्थी किसी पाठ का.', answer: '7 - -', options: ['7 - -', '7 -'] }
+            { id: 's1', label: '7 -', prompt: 'Which idea is this? — \'टेकु का इस्म+\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।', answer: '7 -', options: ['7 -', '7 - -'] },
+            { id: 's2', label: '7 - -', prompt: 'Which idea is this? — \'टेकु का इस्म+\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।', answer: '7 - -', options: ['7 - -', '7 -'] }
           ] } },
         { type: 'case', nodeId: 'c11_hin_ar_cbse_07_013', title: 'Use it in the wild',
           caseStudy: { intro: 'For a satire evening you pick Renu\'s story of a leopard cub passed between the Forest, Agriculture and Revenue departments while its mother waits. A classmate edits your script: \'Cut two of the three office refusals — they\'re repetitive — and make the climax the cub being rescued by officials.\'',
@@ -52,34 +52,34 @@ export const c11_hin_ar_ch07_p3: SimDef = {
     predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_07_013', difficulty: 'standard',
-          question: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन अध्ययन की वह प्रक्रिया है.',
+          question: '\'टेकु का इस्म+\' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।',
           hint: 'यदि अटकें तो नोड 008 (बिंब/रूपक) और 009 (विरोधाभास/प्रतीक) पर लौटें — साहित्यिक युक्तियाँ.',
           misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि "आलोचनात्मक चिंतन" का अर्थ है **पाठ में कमियाँ निकालना (Finding faults)** या.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन अध्ययन की वह प्रक्रिया है जिसमें',
-                  options: ['आलोचनात्मक चिंतन (Critical Thinking) पाठ के गहन अध्ययन की वह प्रक्रिया है जिसमें', '**पृष्ठभूमि और रचनाकार परिचय** का अर्थ है', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना में वर्णित **भौगोलिक स्थान, ऐतिहासिक काल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'टेकु का इस्म+\' का आलोचनात्मक चिंतन',
+                  options: ['\'टेकु का इस्म+\' का आलोचनात्मक चिंतन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'टेकु का इस्म+\' का कथानक', '\'टेकु का इस्म+\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि अटकें तो नोड 008 (बिंब/रूपक) और 009 (विरोधाभास/प्रतीक) पर लौटें — साहित्यिक युक्तियाँ ही.',
                   misconception: '**विशिष्ट भ्रांति:** छात्र समझते हैं कि "आलोचनात्मक चिंतन" का अर्थ है **पाठ में कमियाँ निकालना (Finding faults)** या **अपनी निजी राय देना.' }
           ],
             remediations: { 'finding-faults-personal-opinion-internal': { steps: ['**चरण 1:** छात्र से कहें: "आलोचना शब्द से \'नकारात्मक\' भाव हटाएँ। यहाँ आलोचना = **परीक्षण (Testing)**। जैसे वैज्ञानिक.', '\'अत्यधिक\' या \'काफ़ी\' क्यों नहीं?" — छात्र शब्द-चयन (Diction) पर ध्यान दे, यह विश्लेषण की पहली सीढ़ी है। **चरण 3:** PEEL.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_07_014', difficulty: 'standard',
-          question: 'पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र.',
-          hint: 'यदि फँसें तो **c11_hin_ar_cbse_07_013 (आलोचनात्मक चिंतन)** और **c11_hin_ar_cbse_07_006.',
-          misconception: 'छात्र मानते हैं कि **\'पाठ का सारांश (Summary) लिख देना ही पाठ-आधारित उत्तर है\'**, जबकि बोर्ड परीक्षा **\'विश्लेषण.',
+          question: '\'टेकु का इस्म+\' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।',
+          hint: 'Review c11_hin_ar_cbse_07_006 (Theme: Primary Theme) and c11_hin_ar_cbse_07_013 (Critical.',
+          misconception: 'छात्र अक्सर मानते हैं कि \'लेखन कौशल\' का अर्थ केवल \'सुंदर भाषा में लिखना\' या \'कहानी का सारांश लिखना\' है। वे PEEL संरचना.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र किसी दिए गए',
-                  options: ['पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह प्रक्रिया है जिसमें छात्र किसी दिए गए', '**पृष्ठभूमि और रचनाकार परिचय** का अर्थ है', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना में वर्णित **भौगोलिक स्थान, ऐतिहासिक काल,'],
-                  hint: 'यदि फँसें तो **c11_hin_ar_cbse_07_013 (आलोचनात्मक चिंतन)** और **c11_hin_ar_cbse_07_006 (मुख्य.',
-                  misconception: 'छात्र मानते हैं कि **\'पाठ का सारांश (Summary) लिख देना ही पाठ-आधारित उत्तर है\'**, जबकि बोर्ड परीक्षा **\'विश्लेषण (Analysis)\'** मांगती है।.' }
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'टेकु का इस्म+\' पर पाठ-आधारित लेखन',
+                  options: ['\'टेकु का इस्म+\' पर पाठ-आधारित लेखन', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'टेकु का इस्म+\' का कथानक', '\'टेकु का इस्म+\' का पाठ्य-परिवेश (setting)'],
+                  hint: 'Review c11_hin_ar_cbse_07_006 (Theme: Primary Theme) and c11_hin_ar_cbse_07_013 (Critical Thinking).',
+                  misconception: 'छात्र अक्सर मानते हैं कि \'लेखन कौशल\' का अर्थ केवल \'सुंदर भाषा में लिखना\' या \'कहानी का सारांश लिखना\' है। वे PEEL संरचना को \'स्कूल का नियम\'.' }
           ],
-            remediations: { 'summary': { steps: ['**पहचान कराएं:** छात्र से कहें — "अपना लिखा उत्तर पढ़ो और हर वाक्य के आगे लिखो: P / E / Ex / L। यदि कोई वाक्य इनमें से.', '**मॉडलिंग दिखाएं:** उसी प्रश्न का एक कमजोर उत्तर (केवल सार) और एक बलवंत उत्तर (PEEL) साथ-साथ रखें; छात्र से अंतर.', '**अभ्यास कराएं:** एक छोटा पाठांश (5-6 पंक्ति) दें; कहें — "केवल **एक** Point बनाओ, **एक** Evidence ढूंढो, **दो.', '**फीडबैक लूप:** हर अभ्यास में लाल पेन से केवल P/E/Ex/L लेबल लगवाएं, व्याकरण नहीं; जब लेबल सही आने लगें, तब भाषा सुधारें।'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'peel': { steps: ['चरण 1: छात्र से कहें - "एक वाक्य में बताओ: यह कहानी किस बारे में है?" (अपेक्षित: "नौकरशाही की संवेदनहीनता के बारे.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
         { type: 'subpart', nodeId: 'c11_hin_ar_cbse_07_015', difficulty: 'standard',
-          question: 'वाचन-श्रवण: चर्चा-बिंदु एक **संरचित शैक्षिक प्रक्रिया** है जिसमें शिक्षार्थी.',
+          question: '\'टेकु का इस्म+\' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का.',
           hint: 'यदि फँसें तो **c11_hin_ar_cbse_07_013 (आलोचनात्मक चिंतन)** के **"दावा-प्रमाण-वार्ता".',
           misconception: '**विशिष्ट भ्रांति**: छात्र समझते हैं कि **चर्चा-बिंदु = "अपनी राय बोलना"** है, इसलिए वे **तैयारी नहीं करते**, **पाठ.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'वाचन-श्रवण: चर्चा-बिंदु एक **संरचित शैक्षिक प्रक्रिया** है जिसमें शिक्षार्थी किसी पाठ का',
-                  options: ['वाचन-श्रवण: चर्चा-बिंदु एक **संरचित शैक्षिक प्रक्रिया** है जिसमें शिक्षार्थी किसी पाठ का', '**पृष्ठभूमि और रचनाकार परिचय** का अर्थ है', 'कथानक (Plot) किसी रचना में घटनाओं का तार्किक और कालानुक्रमिक क्रम है जो कारण-कार्य संबंध', '**पाठ्य-परिवेश (Setting/Context)** किसी रचना में वर्णित **भौगोलिक स्थान, ऐतिहासिक काल,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: '\'टेकु का इस्म+\' पर वाचन-श्रवण और चर्चा-बिंदु',
+                  options: ['\'टेकु का इस्म+\' पर वाचन-श्रवण और चर्चा-बिंदु', 'रचनाकार-परिचय और पृष्ठभूमि एक चयनात्मक विवरण-कौशल है: रचना से पहले रचनाकार के जीवन के', '\'टेकु का इस्म+\' का कथानक', '\'टेकु का इस्म+\' का पाठ्य-परिवेश (setting)'],
                   hint: 'यदि फँसें तो **c11_hin_ar_cbse_07_013 (आलोचनात्मक चिंतन)** के **"दावा-प्रमाण-वार्ता".',
                   misconception: '**विशिष्ट भ्रांति**: छात्र समझते हैं कि **चर्चा-बिंदु = "अपनी राय बोलना"** है, इसलिए वे **तैयारी नहीं करते**, **पाठ नहीं खोलते**, और.' }
           ],

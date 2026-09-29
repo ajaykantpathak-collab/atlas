@@ -6,13 +6,13 @@ import C8_SciencePressureWindsStormsAndCyclonesSim from '../../../simulations/c6
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_sciencepressurewindsstormsandcyclonessim: SimDef = {
     id: 'v3w_c8_sciencepressurewindsstormsandcyclonessim',
-    title: 'Pressure Winds Storms And Cyclones',
+    title: 'Cyclone Preparedness and Safety Measures',
     subtitle: 'Covers practical safety measures for Indian coastal and inland regions affected by.',
     classLevel: 8, subject: 'science', topic: 'Cyclone Preparedness and Safety Measures',
     chapters: [],
     nodeIds: ['c8_physics_ch4_11', 'c8_physics_ch4_10', 'c8_physics_ch4_12', 'c8_physics_ch4_5', 'c8_physics_ch4_7', 'c8_physics_ch4_8', 'c8_physics_ch4_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'Imagine you are in Odisha during October and the IMD issues a "Red Alert" for a Very Severe Cyclonic Storm.', goal: 'Master Pressure Winds Storms And Cyclones.' },
+    scenario: { role: 'a class 8 learner', intro: 'Imagine you are in Odisha during October and the IMD issues a "Red Alert" for a Very Severe Cyclonic Storm.', goal: 'Master Cyclone Preparedness and Safety Measures.' },
     discovery: {
         question: 'Compare the safety of two houses during a cyclone: House A is a pucca (concrete) single-story house on stilts 2 m above ground in a coastal zone.',
         options: ['House A is safer against storm surge', 'House B is safer for both', 'cyclone safety = only evacuation to shelter'],
@@ -78,7 +78,7 @@ export const w_c8_sciencepressurewindsstormsandcyclonessim: SimDef = {
             { text: 'Wind direction: Vane points to where wind comes FROM. NW = 315° (or "north-westerly").', faded: true, blankAnswer: 'Wind speed = 1.2 m/s (4.32 km/h). Wind direction = 315°.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_physics_ch4_10', title: 'Identify each idea',
-          dissect: { specimen: 'Pressure Winds Storms And Cyclones', spots: [
+          dissect: { specimen: 'Cyclone Preparedness and Safety Measures', spots: [
             { id: 's1', label: 'Cyclone preparedness and safety measures', prompt: 'Which idea is this? — Cyclone preparedness and safety measures refer to the systematic actions taken before,.', answer: 'Cyclone preparedness and safety measures', options: ['Cyclone preparedness and safety measures', 'A cyclone is a large-scale', 'The Coriolis Effect is the', 'Atmospheric pressure is the pressure'] },
             { id: 's2', label: 'A cyclone is a large-scale', prompt: 'Which idea is this? — A cyclone is a large-scale low-pressure weather system characterized by spiraling inward.', answer: 'A cyclone is a large-scale', options: ['A cyclone is a large-scale', 'Cyclone preparedness and safety measures', 'The Coriolis Effect is the', 'Atmospheric pressure is the pressure'] },
             { id: 's3', label: 'The Coriolis Effect is the', prompt: 'Which idea is this? — The Coriolis Effect is the apparent deflection of moving air (wind) or any object moving.', answer: 'The Coriolis Effect is the', options: ['The Coriolis Effect is the', 'Cyclone preparedness and safety measures', 'A cyclone is a large-scale', 'Atmospheric pressure is the pressure'] },
@@ -87,7 +87,7 @@ export const w_c8_sciencepressurewindsstormsandcyclonessim: SimDef = {
             { id: 's6', label: 'Wind direction is the compass', prompt: 'Which idea is this? — Wind direction is the compass direction from which the wind originates (e.g., a northerly.', answer: 'Wind direction is the compass', options: ['Wind direction is the compass', 'Cyclone preparedness and safety measures', 'A cyclone is a large-scale', 'The Coriolis Effect is the'] }
           ] } }
     ],
-    explore: { component: C8_SciencePressureWindsStormsAndCyclonesSim, prompt: 'Explore the interactive — Pressure Winds Storms And Cyclones' },
+    explore: { component: C8_SciencePressureWindsStormsAndCyclonesSim, prompt: 'Explore the interactive — Cyclone Preparedness and Safety Measures' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_physics_ch4_11', difficulty: 'standard',
           question: 'Cyclone preparedness and safety measures refer to the systematic actions taken.',

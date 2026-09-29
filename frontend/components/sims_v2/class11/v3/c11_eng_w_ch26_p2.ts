@@ -19,44 +19,44 @@ export const c11_eng_w_ch26_p2: SimDef = {
         hook: 'The title is the thesis: her life episodes — a mother\'s death, an agriculture college, a guru\'s advice — are bridges she builds into her art.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are subordinate ideas that run alongside the primary theme, emerging through recurring motifs, contrasts, or subsidiary arguments in the text; they enrich the central message.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Story\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_26_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Connect each life episode to the choreography it later fed, then test whether \'Bridges\' or \'The Reluctant Dancer\' names the real theme.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_26_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are reading "Bridges" and notice the author repeatedly contrasts old stone bridges with modern steel ones, and also describes how festivals bring.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Story\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the defining characteristic that distinguishes a secondary theme from a mere supporting detail in an essay?', options: [
                 { text: 'A secondary theme is a recurring idea that appears in multiple sections of the text and', outcome: 'A secondary theme is a recurring idea that appears in multiple sections of the text and offers.' },
                 { text: 'a secondary theme is just a minor detail', outcome: 'Not quite — Students often think any recurring topic (e.g., "rivers" or "construction materials") is.', reveals: 'any-recurring-topic-e' },
                 { text: 'rivers', outcome: 'Not quite — Students often think any recurring topic (e.g., "rivers" or "construction materials") is.', reveals: 'any-recurring-topic-e' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_26_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are trying to explain a complex idea—like "time" or "story structure"—to a friend who finds abstract talk boring.',
+          caseStudy: { intro: 'Find the lines in \'The Story\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'What is the primary difference between a simile and a metaphor, and which one does Forster use when he writes, "It runs like a backbone—or.', options: [
                 { text: 'A simile uses "like" or "as" to compare two things', outcome: 'A simile uses "like" or "as" to compare two things; a metaphor states one thing *is* another.' },
                 { text: 'backbone', outcome: 'Not quite — Students often treat imagery and metaphor as **decorative "add-ons"**—pretty language that makes.', reveals: 'students-often-treat-imagery-and' },
                 { text: 'tape-worm', outcome: 'Not quite — Students often treat imagery and metaphor as **decorative "add-ons"**—pretty language that makes.', reveals: 'students-often-treat-imagery-and' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_26_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you are reading Forster\'s essay and notice he calls the story a "tape-worm" — a parasite — yet also calls it the "highest factor common to all novels.".',
+          caseStudy: { intro: 'Look in \'The Story\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define verbal irony and situational irony in your own words, giving one example from Forster\'s essay for each.', options: [
                 { text: 'Verbal irony: Forster says "I respect and admire the first speaker" (the vague motor-bus', outcome: 'Verbal irony: Forster says "I respect and admire the first speaker" (the vague motor-bus driver).' },
                 { text: 'irony is when something funny happens', outcome: 'Not quite — Students equate irony with "unexpected outcome" or "sarcasm" and treat symbols as fixed codes.', reveals: 'students-equate-irony-with-unexpected' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_26_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you\'re reading Forster\'s essay and encounter "atavistic form" describing the story—you\'ve never seen this word before, but the sentence says "I wish.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Story\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'Define the term "atavistic" as used in Forster\'s phrase "low atavistic form" and identify which contextual clue (contrast, tone,.', options: [
                 { text: 'Atavistic means relating to ancestral characteristics reappearing after generations', outcome: 'Atavistic means relating to ancestral characteristics reappearing after generations; primitive.' },
                 { text: 'modern', outcome: 'Not quite — Students treat "vocabulary in context" as "guess the dictionary definition from nearby words".', reveals: 'students-treat-vocabulary-in-context' },
                 { text: 'sophisticated', outcome: 'Not quite — Students treat "vocabulary in context" as "guess the dictionary definition from nearby words".', reveals: 'students-treat-vocabulary-in-context' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_26_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you\'re in the board exam and see a question: "According to Forster, why does Scheherazade survive?" Your heart races—is this asking for a direct quote.',
+          caseStudy: { intro: 'Answer \'The Story\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'Identify whether the following question is literal or inferential: "What three types of voices does Forster describe responding to the.', options: [
                 { text: 'This is a LITERAL question', outcome: 'This is a LITERAL question. The answer is directly stated in the first paragraph: the good-tempered.' },
                 { text: 'personal opinion', outcome: 'Not quite — Students believe inferential questions allow "personal opinion" answers without textual evidence.', reveals: 'inferential-questions-allow-personal-opinion' },
@@ -76,12 +76,12 @@ export const c11_eng_w_ch26_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_007', difficulty: 'standard',
-          question: 'Secondary themes are subordinate ideas that run alongside the primary theme.',
+          question: 'Secondary themes in \'The Story\' — the supporting ideas and motifs that deepen.',
           hint: 'If stuck, review the primary theme node (c11_eng_w_cbse_26_006) and re-read the essay.',
           misconception: 'Students often think any recurring topic (e.g., "rivers" or "construction materials") is a secondary theme.',
           parts: [
@@ -90,7 +90,7 @@ export const c11_eng_w_ch26_p2: SimDef = {
                   hint: 'If stuck, review the primary theme node (c11_eng_w_cbse_26_006) and re-read the essay marking every.',
                   misconception: 'Students often think any recurring topic (e.g., "rivers" or "construction materials") is a secondary theme.' }
           ],
-            remediations: { 'any-recurring-topic-e': { steps: ['Ask the student to list five recurring concrete images in "Bridges" (e.g., stone, river, festival, commuters, carvings).', 'For each image, ask: "What abstract idea does this image suggest?" (e.g., stone → endurance).', 'Group the abstract ideas into clusters that appear in at least two distinct sections.', 'Have the student write a one-sentence thematic statement for each cluster.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'any-recurring-topic-e': { steps: ['Ask the student to list five recurring concrete images in "Bridges" (e.g., stone, river, festival, commuters, carvings).', 'For each image, ask: "What abstract idea does this image suggest?" (e.g., stone → endurance).', 'Group the abstract ideas into clusters that appear in at least two distinct sections.', 'Have the student write a one-sentence thematic statement for each cluster.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_007', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -101,9 +101,9 @@ export const c11_eng_w_ch26_p2: SimDef = {
                   hint: 'If stuck, review the primary theme node (c11_eng_w_cbse_26_006) and re-read the essay marking every.',
                   misconception: 'Students often think any recurring topic (e.g., "rivers" or "construction materials") is a secondary theme.' }
           ],
-            remediations: { 'any-recurring-topic-e': { steps: ['Ask the student to list five recurring concrete images in "Bridges" (e.g., stone, river, festival, commuters, carvings).', 'For each image, ask: "What abstract idea does this image suggest?" (e.g., stone → endurance).', 'Group the abstract ideas into clusters that appear in at least two distinct sections.', 'Have the student write a one-sentence thematic statement for each cluster.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'any-recurring-topic-e': { steps: ['Ask the student to list five recurring concrete images in "Bridges" (e.g., stone, river, festival, commuters, carvings).', 'For each image, ask: "What abstract idea does this image suggest?" (e.g., stone → endurance).', 'Group the abstract ideas into clusters that appear in at least two distinct sections.', 'Have the student write a one-sentence thematic statement for each cluster.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'The Story\' — the vivid, sensory language that creates word-pictures.',
           hint: 'If stuck, review **c11_eng_w_cbse_26_006 (Theme: Primary Theme and Message)**.',
           misconception: 'Students often treat imagery and metaphor as **decorative "add-ons"**—pretty language that makes the essay.',
           parts: [
@@ -116,9 +116,9 @@ export const c11_eng_w_ch26_p2: SimDef = {
                   hint: 'If stuck, review **c11_eng_w_cbse_26_006 (Theme: Primary Theme and Message)** — specifically the.',
                   misconception: 'Students often treat imagery and metaphor as **decorative "add-ons"**—pretty language that makes the essay "beautiful"—rather than.' }
           ],
-            remediations: { 'students-often-treat-imagery-and': { steps: ['**Re-read Paragraph 3 aloud** with a pencil: circle every noun/verb appealing to senses (shock-heads, gaping, campfire.', 'Ask: "If I delete these words, does Forster\'s *argument* about suspense survive?" (No—the biological urgency vanishes).', '**Map the Tape-Worm** on paper: Draw a segmented worm.', 'Label segments: "Arbitrary Start," "Breakfast," "Dinner," "Tuesday," "Death," "Decay," "Arbitrary End." Write Forster\'s.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-imagery-and': { steps: ['**Re-read Paragraph 3 aloud** with a pencil: circle every noun/verb appealing to senses (shock-heads, gaping, campfire.', 'Ask: "If I delete these words, does Forster\'s *argument* about suspense survive?" (No—the biological urgency vanishes).', '**Map the Tape-Worm** on paper: Draw a segmented worm.', 'Label segments: "Arbitrary Start," "Breakfast," "Dinner," "Tuesday," "Death," "Decay," "Arbitrary End." Write Forster\'s.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_009', difficulty: 'standard',
-          question: 'Irony is a literary device where there is a contrast between expectation and.',
+          question: 'Irony and paradox in \'The Story\' — where opposite things are both true,.',
           hint: 'Review c11_eng_w_cbse_26_008 Worked Example 2 on metaphor identification; then re-read.',
           misconception: 'Students equate irony with "unexpected outcome" or "sarcasm" and treat symbols as fixed codes (e.g., "dove = peace").',
           parts: [
@@ -131,20 +131,20 @@ export const c11_eng_w_ch26_p2: SimDef = {
                   hint: 'Review c11_eng_w_cbse_26_008 Worked Example 2 on metaphor identification; then re-read Forster.',
                   misconception: 'Students equate irony with "unexpected outcome" or "sarcasm" and treat symbols as fixed codes (e.g., "dove = peace").' }
           ],
-            remediations: { 'students-equate-irony-with-unexpected': { steps: ['Return to the three voices (paragraph 1) and have the student read them aloud, noting tone shifts.', 'Ask: "Which voice does Forster *actually* inhabit?" Guide them to see he occupies the third voice *while criticizing.', 'Trace the tape-worm/backbone image across three paragraphs (2, 3, 4).', 'Have the student underline every occurrence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-equate-irony-with-unexpected': { steps: ['Return to the three voices (paragraph 1) and have the student read them aloud, noting tone shifts.', 'Ask: "Which voice does Forster *actually* inhabit?" Guide them to see he occupies the third voice *while criticizing.', 'Trace the tape-worm/backbone image across three paragraphs (2, 3, 4).', 'Have the student underline every occurrence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_010', difficulty: 'standard',
-          question: 'Vocabulary in Context is the skill of determining the precise meaning.',
+          question: 'Key vocabulary of \'The Story\' — the words and phrases you must know to read the.',
           hint: 'If stuck, re-read the "three voices" opening (paragraphs 1-3) and the Scheherazade.',
           misconception: 'Students treat "vocabulary in context" as "guess the dictionary definition from nearby words" rather than "reconstruct.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in Context is the skill of determining the precise meaning, connotation, and',
-                  options: ['Vocabulary in Context is the skill of determining the precise meaning, connotation, and', '"Before You Read: Context and Background" provides essential preparatory knowledge about', 'Plot is the logical and causal arrangement of events in a narrative, distinct from the', 'Setting and Atmosphere in a non-fiction literary essay refers to the physical, temporal,'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Key vocabulary of \'The Story\'',
+                  options: ['Key vocabulary of \'The Story\'', '\'The Story\' (Woven Words, ch', 'The plot/narrative arc of \'The Story\'', 'The setting of \'The Story\''],
                   hint: 'If stuck, re-read the "three voices" opening (paragraphs 1-3) and the Scheherazade passage.',
                   misconception: 'Students treat "vocabulary in context" as "guess the dictionary definition from nearby words" rather than "reconstruct the author\'s precise.' }
           ],
-            remediations: { 'students-treat-vocabulary-in-context': { steps: ['Have the student locate the target word in the text and read the *entire sentence* aloud, then the *preceding and.', 'Ask: "What grammatical role does this word play?', '(Adverb modifying \'replied\'?', 'Adjective modifying \'form\'?'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-treat-vocabulary-in-context': { steps: ['Have the student locate the target word in the text and read the *entire sentence* aloud, then the *preceding and.', 'Ask: "What grammatical role does this word play?', '(Adverb modifying \'replied\'?', 'Adjective modifying \'form\'?'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_011', difficulty: 'standard',
-          question: 'Language usage in the text refers to the author\'s deliberate grammatical and.',
+          question: 'Language and style in \'The Story\' — how the writer chose words, sentences and.',
           hint: 'Review Class 6-8 grammar nodes on pronouns (c6_english_u1_008), sentence structure.',
           misconception: 'Students often think \'language usage\' means only vocabulary meanings (like \'atavistic\', \'ingenious\') and overlook.',
           parts: [
@@ -153,9 +153,9 @@ export const c11_eng_w_ch26_p2: SimDef = {
                   hint: 'Review Class 6-8 grammar nodes on pronouns (c6_english_u1_008), sentence structure.',
                   misconception: 'Students often think \'language usage\' means only vocabulary meanings (like \'atavistic\', \'ingenious\') and overlook *grammatical* choices.' }
           ],
-            remediations: { 'language-usage-means-only-vocabulary': { steps: ['Give the student two short extracts: one from Forster\'s essay (paragraph 1) and one from a formal literary criticism.', 'Ask them to circle every \'I, you, we, let\'s, it\'s, so to speak\' in Forster and note their absence in the formal text.', 'Have them rewrite one Forster sentence into formal style, then articulate *what was lost* (immediacy, character voice.', 'Finally, return to the Note and ask: \'Which style does Forster say the novel prefers?\' to close the loop.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'language-usage-means-only-vocabulary': { steps: ['Give the student two short extracts: one from Forster\'s essay (paragraph 1) and one from a formal literary criticism.', 'Ask them to circle every \'I, you, we, let\'s, it\'s, so to speak\' in Forster and note their absence in the formal text.', 'Have them rewrite one Forster sentence into formal style, then articulate *what was lost* (immediacy, character voice.', 'Finally, return to the Note and ask: \'Which style does Forster say the novel prefers?\' to close the loop.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_26_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'The Story\' — questions answered straight from the.',
           hint: 'If stuck, review c11_eng_w_cbse_26_002 (Plot and Narrative Structure) to re-read.',
           misconception: 'Students believe inferential questions allow "personal opinion" answers without textual evidence.',
           parts: [
@@ -168,7 +168,7 @@ export const c11_eng_w_ch26_p2: SimDef = {
                   hint: 'If stuck, review c11_eng_w_cbse_26_002 (Plot and Narrative Structure) to re-read Forster\'s key.',
                   misconception: 'Students believe inferential questions allow "personal opinion" answers without textual evidence.' }
           ],
-            remediations: { 'inferential-questions-allow-personal-opinion': { steps: ['Show them a 2-mark board answer—highlight how every sentence begins with "The text states..." or "Forster writes...".', 'Give them a literal question disguised as inferential ("Why does Forster call the story a tape-worm?") and have them.', 'Practice the "Evidence → Inference → Explanation" three-column table until they automatically hunt for textual anchors.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'inferential-questions-allow-personal-opinion': { steps: ['Show them a 2-mark board answer—highlight how every sentence begins with "The text states..." or "Forster writes...".', 'Give them a literal question disguised as inferential ("Why does Forster call the story a tape-worm?") and have them.', 'Practice the "Evidence → Inference → Explanation" three-column table until they automatically hunt for textual anchors.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

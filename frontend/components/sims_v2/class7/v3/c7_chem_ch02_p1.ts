@@ -135,7 +135,11 @@ export const c7_chem_ch02_p1: SimDef = {
                   options: ['Formation of one or more new substances with different properties', 'something looks different'],
                   hint: 'Review the definitions of new substance formation and reversibility in nodes c7_chem_ch02_002 and.',
                   misconception: 'Students often assume that any change involving a change in appearance—such as melting, dissolving, or boiling—is a chemical change because.' },
-                { id: 'b', prompt: 'Compare the melting of solid candle wax and the burning of candle wick thread with wax vapor.', answer: 'Melting the wax is a physical change (state chang',
+                { id: 'b', prompt: 'A student dissolves 10 grams of common salt (sodium chloride) in a beaker of water and then heats the solution until all water evaporates completely, leaving.', answer: 'Identify the process: dissolving salt in water and recovering it by evaporation',
+                  options: ['Identify the process: dissolving salt in water and recovering it by evaporation', 'something looks different'],
+                  hint: 'Review the definitions of new substance formation and reversibility in nodes c7_chem_ch02_002 and.',
+                  misconception: 'Students often assume that any change involving a change in appearance—such as melting, dissolving, or boiling—is a chemical change because.' },
+                { id: 'c', prompt: 'Compare the melting of solid candle wax and the burning of candle wick thread with wax vapor.', answer: 'Melting the wax is a physical change (state chang',
                   options: ['Melting the wax is a physical change (state chang', 'something looks different'],
                   hint: 'Review the definitions of new substance formation and reversibility in nodes c7_chem_ch02_002 and.',
                   misconception: 'Students often assume that any change involving a change in appearance—such as melting, dissolving, or boiling—is a chemical change because.' }

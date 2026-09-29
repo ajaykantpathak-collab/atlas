@@ -6,13 +6,13 @@ import C8_GeographyRepresentationGeographicalFeaturesSim from '../../../simulati
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c8_geographyrepresentationgeographicalfeaturessim: SimDef = {
     id: 'v3w_c8_geographyrepresentationgeographicalfeaturessim',
-    title: 'Representation Geographical Features',
+    title: 'Physical Maps: Reading Colours (Blue, Green, Brown, White)',
     subtitle: 'Covers reading and interpreting standard relief colors (blue, green, yellow, brown,.',
     classLevel: 8, subject: 'geography', topic: 'Physical Maps: Reading Colours (Blue, Green, Brown, White)',
     chapters: [],
     nodeIds: ['c8_geo_ch2_4', 'c8_geo_ch2_1', 'c8_geo_ch2_3', 'c8_geo_ch2_6', 'c8_geo_ch2_7'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 8 learner', intro: 'When looking at a physical map of India, you immediately notice broad green areas along the northern river.', goal: 'Master Representation Geographical Features.' },
+    scenario: { role: 'a class 8 learner', intro: 'When looking at a physical map of India, you immediately notice broad green areas along the northern river.', goal: 'Master Physical Maps: Reading Colours (Blue, Green, Brown, White).' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
         { title: 'A physical map uses a standardized.', text: 'A physical map uses a standardized international color convention to represent the relief (elevation above sea level) and depth (bathymetric depth below sea level) of Earth\'s natural surface.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
@@ -47,7 +47,7 @@ export const w_c8_geographyrepresentationgeographicalfeaturessim: SimDef = {
             { text: 'Verify and conclude based on ocean positioning: Route A is the direct route across the Pacific Ocean, avoiding the.', faded: true, blankAnswer: 'Route A (heading east across the Pacific Ocean) is.' }
             ] } },
         { type: 'dissect', nodeId: 'c8_geo_ch2_1', title: 'Identify each idea',
-          dissect: { specimen: 'Representation Geographical Features', spots: [
+          dissect: { specimen: 'Physical Maps: Reading Colours (Blue, Green, Brown, White)', spots: [
             { id: 's1', label: 'A physical map uses a', prompt: 'Which idea is this? — A physical map uses a standardized international color convention to represent the relief.', answer: 'A physical map uses a', options: ['A physical map uses a', 'The Earth is an oblate', 'Map distortion refers to the', 'Unique physical features of each'] },
             { id: 's2', label: 'The Earth is an oblate', prompt: 'Which idea is this? — The Earth is an oblate spheroid (also described as a geoid), meaning it is a sphere.', answer: 'The Earth is an oblate', options: ['The Earth is an oblate', 'A physical map uses a', 'Map distortion refers to the', 'Unique physical features of each'] },
             { id: 's3', label: 'Map distortion refers to the', prompt: 'Which idea is this? — Map distortion refers to the unavoidable alteration of spatial properties—specifically.', answer: 'Map distortion refers to the', options: ['Map distortion refers to the', 'A physical map uses a', 'The Earth is an oblate', 'Unique physical features of each'] },
@@ -55,7 +55,7 @@ export const w_c8_geographyrepresentationgeographicalfeaturessim: SimDef = {
             { id: 's5', label: 'The worlds oceans form a', prompt: 'Which idea is this? — The world\'s oceans form a vast, interconnected body of saline water covering.', answer: 'The worlds oceans form a', options: ['The worlds oceans form a', 'A physical map uses a', 'The Earth is an oblate', 'Map distortion refers to the'] }
           ] } }
     ],
-    explore: { component: C8_GeographyRepresentationGeographicalFeaturesSim, prompt: 'Explore the interactive — Representation Geographical Features' },
+    explore: { component: C8_GeographyRepresentationGeographicalFeaturesSim, prompt: 'Explore the interactive — Physical Maps: Reading Colours (Blue, Green, Brown, White)' },
     challenges: [
         { type: 'subpart', nodeId: 'c8_geo_ch2_4', difficulty: 'standard',
           question: 'A physical map uses a standardized international color convention to represent.',

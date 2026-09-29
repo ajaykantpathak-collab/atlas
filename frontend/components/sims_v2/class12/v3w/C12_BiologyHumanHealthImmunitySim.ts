@@ -6,13 +6,13 @@ import C12_BiologyHumanHealthImmunitySim from '../../../simulations/c6_12/C12_Bi
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_biologyhumanhealthimmunitysim: SimDef = {
     id: 'v3w_c12_biologyhumanhealthimmunitysim',
-    title: 'Human Health Immunity',
+    title: 'Infectious Diseases: Mode of Transmission',
     subtitle: 'Covers classification of transmission modes (direct contact, droplet, airborne,.',
     classLevel: 12, subject: 'biology', topic: 'Infectious Diseases: Mode of Transmission',
     chapters: [],
     nodeIds: ['c12_bio_cbse_08_002', 'c12_bio_cbse_08_003', 'c12_bio_cbse_08_004', 'c12_bio_cbse_08_005', 'c12_bio_cbse_08_008', 'c12_bio_cbse_08_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a classmate sneezing without covering their mouth — droplets travel ~1 metre and land on your desk.', goal: 'Master Human Health Immunity.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a classmate sneezing without covering their mouth — droplets travel ~1 metre and land on your desk.', goal: 'Master Infectious Diseases: Mode of Transmission.' },
     discovery: {
         question: 'A village uses a common pond for bathing, washing cattle, and drawing drinking water. During monsoon, cases of acute diarrhoea spike.',
         options: ['Mode: vehicle-borne (water)', 'vector-borne', 'vehicle-borne'],
@@ -81,7 +81,7 @@ export const w_c12_biologyhumanhealthimmunitysim: SimDef = {
             { text: 'Timeline: 6-12h: tremor, anxiety, insomnia (autonomic hyperactivity); 12-24h: hallucinations (visual, auditory);.', faded: true, blankAnswer: 'He will experience autonomic hyperactivity within 6-12h,.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_bio_cbse_08_003', title: 'Identify each idea',
-          dissect: { specimen: 'Human Health Immunity', spots: [
+          dissect: { specimen: 'Infectious Diseases: Mode of Transmission', spots: [
             { id: 's1', label: 'Mode of transmission refers to', prompt: 'Which idea is this? — Mode of transmission refers to the specific pathway by which an infectious agent.', answer: 'Mode of transmission refers to', options: ['Mode of transmission refers to', 'Immunity is the ability of', 'Active immunity is the immunity', 'Vaccination is the deliberate administration'] },
             { id: 's2', label: 'Immunity is the ability of', prompt: 'Which idea is this? — Immunity is the ability of an organism to resist or eliminate potentially harmful foreign.', answer: 'Immunity is the ability of', options: ['Immunity is the ability of', 'Mode of transmission refers to', 'Active immunity is the immunity', 'Vaccination is the deliberate administration'] },
             { id: 's3', label: 'Active immunity is the immunity', prompt: 'Which idea is this? — Active immunity is the immunity developed by an individual\'s own immune system in.', answer: 'Active immunity is the immunity', options: ['Active immunity is the immunity', 'Mode of transmission refers to', 'Immunity is the ability of', 'Vaccination is the deliberate administration'] },
@@ -90,7 +90,7 @@ export const w_c12_biologyhumanhealthimmunitysim: SimDef = {
             { id: 's6', label: 'Drug and alcohol abuse refers', prompt: 'Which idea is this? — Drug and alcohol abuse refers to the chronic, non-medical use of psychoactive substances.', answer: 'Drug and alcohol abuse refers', options: ['Drug and alcohol abuse refers', 'Mode of transmission refers to', 'Immunity is the ability of', 'Active immunity is the immunity'] }
           ] } }
     ],
-    explore: { component: C12_BiologyHumanHealthImmunitySim, prompt: 'Explore the interactive — Human Health Immunity' },
+    explore: { component: C12_BiologyHumanHealthImmunitySim, prompt: 'Explore the interactive — Infectious Diseases: Mode of Transmission' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_bio_cbse_08_002', difficulty: 'standard',
           question: 'Mode of transmission refers to the specific pathway by which an infectious.',

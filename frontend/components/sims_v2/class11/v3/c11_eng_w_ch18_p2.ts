@@ -19,50 +19,50 @@ export const c11_eng_w_ch18_p2: SimDef = {
         hook: 'The grandmother says \'trees are sacred\'; the father \'massacred them all\' — the poem lets both be true, and makes you watch the saw do it slowly.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are the underlying, supporting ideas in a literary work that complement the primary theme, adding layers of meaning and complexity.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'Felling of the Banyan Tree\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_w_cbse_18_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Label the stages of a felling — order, warning, seven days of sawing, fifty men, revealed rings — then test the ending where the tree \'grows and seethes in one\'s dreams.\'',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_18_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you are standing in a metro station in Mumbai, watching thousands of people rush past concrete pillars—where a banyan tree once stood.',
+          caseStudy: { intro: 'Look beneath the main theme of \'Felling of the Banyan Tree\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'List two secondary themes in "Felling of the Banyan Tree" other than environmental destruction.', options: [
                 { text: 'Correct answer: Any two of: (1) Conflict between tradition and modernity (grandmother\'s', outcome: 'Correct answer: Any two of: (1) Conflict between tradition and modernity (grandmother\'s sacred view.' },
                 { text: 'love for trees', outcome: 'Not quite — Students often treat secondary themes as a checklist of "topics mentioned in the poem" (e.g.', reveals: 'students-often-treat-secondary-themes' },
                 { text: 'father\'s authority', outcome: 'Not quite — Students often treat secondary themes as a checklist of "topics mentioned in the poem" (e.g.', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_18_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are standing on that hill in Baroda, hearing the saws bite into the banyan\'s branches for seven days. The poem makes you *feel* that violence.',
+          caseStudy: { intro: 'Find the lines in \'Felling of the Banyan Tree\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define imagery and metaphor in your own words, giving one example of each from everyday language (not from the poem).', options: [
                 { text: '**Correct Answer:** Imagery is descriptive language appealing to the senses (e.g., "the', outcome: '**Correct Answer:** Imagery is descriptive language appealing to the senses (e.g., "the acrid smell.' },
                 { text: 'Time is *like* a thief', outcome: 'Not quite — Students often treat imagery as mere "decoration" and metaphor as a "fancy synonym".', reveals: 'students-often-treat-imagery-as' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_18_009', title: 'Literary Devices: Irony and Symbolism',
-          caseStudy: { intro: 'Imagine you\'re standing in a Mumbai high-rise, hearing your grandmother describe a banyan tree that once shaded your ancestral home in Baroda — a tree your.',
+          caseStudy: { intro: 'Look in \'Felling of the Banyan Tree\' for moments where the surface meaning hides a deeper opposite — that\'s irony/paradox.',
             decisions: [{ prompt: 'Define situational irony and give one example from the poem where the outcome of an action is the opposite of what was intended or expected.', options: [
                 { text: 'Situational irony occurs when actions produce an outcome contrary to what was intended or', outcome: 'Situational irony occurs when actions produce an outcome contrary to what was intended or logically.' },
                 { text: 'the tree was big so it was hard to cut', outcome: 'Not quite — Students often conflate *symbolism* with *metaphor*, treating the banyan tree as a mere comparison.', reveals: 'students-often-conflate-symbolism-with' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_18_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading the poem and encounter the word "scraggy" describing the banyan\'s roots.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'Felling of the Banyan Tree\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the primary strategy for determining the meaning of an unfamiliar word in a poem when a dictionary is not available?', options: [
                 { text: 'The primary strategy is contextual inference: using surrounding words, imagery, tone, and', outcome: 'The primary strategy is contextual inference: using surrounding words, imagery, tone, and.' },
                 { text: 'guess randomly', outcome: 'Not quite — Students believe vocabulary in context means finding a single dictionary synonym that fits the.', reveals: 'vocabulary-in-context-means-finding' },
                 { text: 'skip the word', outcome: 'Not quite — Students believe vocabulary in context means finding a single dictionary synonym that fits the.', reveals: 'vocabulary-in-context-means-finding' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_18_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you are watching a video of a tree being cut down — the camera zooms in on the axe, then pans to the falling leaves, then shows the rings of the trunk.',
+          caseStudy: { intro: 'Read \'Felling of the Banyan Tree\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the tense of the verb phrase "used to say" in the line "Trees are sacred my grandmother used to say" and state its grammatical.', options: [
                 { text: 'The verb phrase "used to say" is in the **past habitual** aspect (often called', outcome: 'The verb phrase "used to say" is in the **past habitual** aspect (often called "semi-modal used to".' },
                 { text: 'simple past', outcome: 'Not quite — Students often think "analyzing language usage" means **labeling parts of speech** (e.g., "this.', reveals: 'analyzing-language-usage-means-labeling' },
                 { text: 'analyzing language usage', outcome: 'Not quite — Students often think "analyzing language usage" means **labeling parts of speech** (e.g., "this.', reveals: 'analyzing-language-usage-means-labeling' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_w_cbse_18_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are sitting in an exam hall and the first question asks: "What was the circumference of the banyan tree\'s trunk?" You can point to the exact line.',
+          caseStudy: { intro: 'Answer \'Felling of the Banyan Tree\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the difference between a literal comprehension question and an inferential comprehension question?', options: [
                 { text: 'A literal comprehension question asks for information explicitly stated in the text', outcome: 'A literal comprehension question asks for information explicitly stated in the text (e.g., "How.' },
                 { text: 'questions about the text', outcome: 'Not quite — Students often treat inferential questions as "opinion questions" where any personal interpretation.', reveals: 'students-often-treat-inferential-questions' }
@@ -81,12 +81,12 @@ export const c11_eng_w_ch18_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_007', difficulty: 'standard',
-          question: 'Secondary themes are the underlying, supporting ideas in a literary work that.',
+          question: 'Secondary themes in \'Felling of the Banyan Tree\' — the supporting ideas and.',
           hint: 'If stuck, review node 006 (Primary Theme) to re-anchor the central argument, then re-read.',
           misconception: 'Students often treat secondary themes as a checklist of "topics mentioned in the poem" (e.g., "family," "dreams,".',
           parts: [
@@ -95,9 +95,9 @@ export const c11_eng_w_ch18_p2: SimDef = {
                   hint: 'If stuck, review node 006 (Primary Theme) to re-anchor the central argument, then re-read the poem.',
                   misconception: 'Students often treat secondary themes as a checklist of "topics mentioned in the poem" (e.g., "family," "dreams," "history") rather than.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student lists topics instead of themes: (1) Ask: "What *argument* does the poem make about this topic?', 'Complete: \'The poem suggests that family...\'" (2) Have them trace one topic (e.g., dreams) across three stanzas, noting.', '(3) Require them to write one thematic statement per topic using the template: "Through [topic], the poem reveals that.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-secondary-themes': { steps: ['If a student lists topics instead of themes: (1) Ask: "What *argument* does the poem make about this topic?', 'Complete: \'The poem suggests that family...\'" (2) Have them trace one topic (e.g., dreams) across three stanzas, noting.', '(3) Require them to write one thematic statement per topic using the template: "Through [topic], the poem reveals that.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'Felling of the Banyan Tree\' — the vivid, sensory language that.',
           hint: 'Review the definitions and function of imagery and metaphor in Class 10 poetry analysis.',
           misconception: 'Students often treat imagery as mere "decoration" and metaphor as a "fancy synonym".',
           parts: [
@@ -110,7 +110,7 @@ export const c11_eng_w_ch18_p2: SimDef = {
                   hint: 'Review the definitions and function of imagery and metaphor in Class 10 poetry analysis.',
                   misconception: 'Students often treat imagery as mere "decoration" and metaphor as a "fancy synonym".' }
           ],
-            remediations: { 'students-often-treat-imagery-as': { steps: ['Give the student three isolated sentences: one with only visual imagery, one with tactile+olfactory, one with a clear.', 'Ask them to label the senses and the tenor/vehicle.', 'Have them complete a two-column table: Column A = "Quoted Phrase", Column B = "Sense(s) Targeted + Effect on Reader".', 'Ask them to rewrite their earlier "beautiful/old" answer using the sentence stem: "By comparing the tree\'s rings.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-imagery-as': { steps: ['Give the student three isolated sentences: one with only visual imagery, one with tactile+olfactory, one with a clear.', 'Ask them to label the senses and the tenor/vehicle.', 'Have them complete a two-column table: Column A = "Quoted Phrase", Column B = "Sense(s) Targeted + Effect on Reader".', 'Ask them to rewrite their earlier "beautiful/old" answer using the sentence stem: "By comparing the tree\'s rings.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_008', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -121,9 +121,9 @@ export const c11_eng_w_ch18_p2: SimDef = {
                   hint: 'Review the definitions and function of imagery and metaphor in Class 10 poetry analysis.',
                   misconception: 'Students often treat imagery as mere "decoration" and metaphor as a "fancy synonym".' }
           ],
-            remediations: { 'students-often-treat-imagery-as': { steps: ['Give the student three isolated sentences: one with only visual imagery, one with tactile+olfactory, one with a clear.', 'Ask them to label the senses and the tenor/vehicle.', 'Have them complete a two-column table: Column A = "Quoted Phrase", Column B = "Sense(s) Targeted + Effect on Reader".', 'Ask them to rewrite their earlier "beautiful/old" answer using the sentence stem: "By comparing the tree\'s rings.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-imagery-as': { steps: ['Give the student three isolated sentences: one with only visual imagery, one with tactile+olfactory, one with a clear.', 'Ask them to label the senses and the tenor/vehicle.', 'Have them complete a two-column table: Column A = "Quoted Phrase", Column B = "Sense(s) Targeted + Effect on Reader".', 'Ask them to rewrite their earlier "beautiful/old" answer using the sentence stem: "By comparing the tree\'s rings.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_009', difficulty: 'standard',
-          question: 'Irony is a literary device where the intended meaning of words or events.',
+          question: 'Irony and paradox in \'Felling of the Banyan Tree\' — where opposite things are.',
           hint: 'If stuck, review c11_eng_w_cbse_18_008 (imagery/metaphor) for the literal/figurative.',
           misconception: 'Students often conflate *symbolism* with *metaphor*, treating the banyan tree as a mere comparison ("the tree is like.',
           parts: [
@@ -136,20 +136,20 @@ export const c11_eng_w_ch18_p2: SimDef = {
                   hint: 'If stuck, review c11_eng_w_cbse_18_008 (imagery/metaphor) for the literal/figurative boundary, and.',
                   misconception: 'Students often conflate *symbolism* with *metaphor*, treating the banyan tree as a mere comparison ("the tree is like history") rather than.' }
           ],
-            remediations: { 'students-often-conflate-symbolism-with': { steps: ['If a student cannot distinguish symbolism from metaphor, have them list five physical details of the banyan tree from.', 'Then ask: "Which of these *is* the history/ecology/memory, and which *represents* it?" Guide them to see the rings.', 'For irony, give a three-column table: Expectation (grandmother\'s words, tree\'s resilience, speaker\'s safety) | Reality.', 'Have them fill it using only poem phrases.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-conflate-symbolism-with': { steps: ['If a student cannot distinguish symbolism from metaphor, have them list five physical details of the banyan tree from.', 'Then ask: "Which of these *is* the history/ecology/memory, and which *represents* it?" Guide them to see the rings.', 'For irony, give a three-column table: Expectation (grandmother\'s words, tree\'s resilience, speaker\'s safety) | Reality.', 'Have them fill it using only poem phrases.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_010', difficulty: 'standard',
-          question: 'Vocabulary in context refers to the skill of determining the meaning.',
+          question: 'Key vocabulary of \'Felling of the Banyan Tree\' — the words and phrases you must.',
           hint: 'If stuck, review "Imagery and Metaphor" (c11_eng_w_cbse_18_008) to practice spotting.',
           misconception: 'Students believe vocabulary in context means finding a single dictionary synonym that fits the sentence.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Vocabulary in context refers to the skill of determining the meaning, connotation, and',
-                  options: ['Vocabulary in context refers to the skill of determining the meaning, connotation, and', 'Context and background for "Felling of the Banyan Tree" involves understanding the poet', 'Plot and Narrative Structure in a narrative poem refers to the organized sequence of', 'Setting in poetry refers to the time, place, and cultural context in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Key vocabulary of \'Felling of the Banyan Tree\'',
+                  options: ['Key vocabulary of \'Felling of the Banyan Tree\'', '\'Felling of the Banyan Tree\' (Woven Words, ch', 'The plot/narrative arc of \'Felling of the Banyan Tree\'', 'The setting of \'Felling of the Banyan Tree\''],
                   hint: 'If stuck, review "Imagery and Metaphor" (c11_eng_w_cbse_18_008) to practice spotting visual clues.',
                   misconception: 'Students believe vocabulary in context means finding a single dictionary synonym that fits the sentence.' }
           ],
-            remediations: { 'vocabulary-in-context-means-finding': { steps: ['If a student defaults to dictionary definitions, have them: (1) reread the stanza aloud, noting images and sounds; (2).', 'Repeat with three poem words.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'vocabulary-in-context-means-finding': { steps: ['If a student defaults to dictionary definitions, have them: (1) reread the stanza aloud, noting images and sounds; (2).', 'Repeat with three poem words.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_011', difficulty: 'standard',
-          question: 'Language usage in a literary text refers to the deliberate grammatical.',
+          question: 'Language and style in \'Felling of the Banyan Tree\' — how the writer chose.',
           hint: 'If stuck, review "Finite vs Non-finite Verbs" and "Tense vs Aspect" from Class 10 grammar.',
           misconception: 'Students often think "analyzing language usage" means **labeling parts of speech** (e.g., "this is a verb, this is.',
           parts: [
@@ -158,18 +158,18 @@ export const c11_eng_w_ch18_p2: SimDef = {
                   hint: 'If stuck, review "Finite vs Non-finite Verbs" and "Tense vs Aspect" from Class 10 grammar.',
                   misconception: 'Students often think "analyzing language usage" means **labeling parts of speech** (e.g., "this is a verb, this is an adjective").' }
           ],
-            remediations: { 'analyzing-language-usage-means-labeling': { steps: ['**Re-teach the "Grammar as Camera" metaphor**: Show two photos of the same event — one wide shot (active voice, "Father.', 'Ask: "Which grammar matches which photo?" 2.', '**Color-code the poem**: Verbs in red (past), blue (present), green (participles).', 'Physically see the patterns.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'analyzing-language-usage-means-labeling': { steps: ['**Re-teach the "Grammar as Camera" metaphor**: Show two photos of the same event — one wide shot (active voice, "Father.', 'Ask: "Which grammar matches which photo?" 2.', '**Color-code the poem**: Verbs in red (past), blue (present), green (participles).', 'Physically see the patterns.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_w_cbse_18_012', difficulty: 'standard',
-          question: 'Literal comprehension questions require answers directly stated in the text.',
+          question: 'Literal comprehension of \'Felling of the Banyan Tree\' — questions answered.',
           hint: 'If stuck, review node 18_002 (Plot and Narrative Structure) to re-establish the sequence.',
           misconception: 'Students often treat inferential questions as "opinion questions" where any personal interpretation is acceptable.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Literal comprehension questions require answers directly stated in the text, while',
-                  options: ['Literal comprehension questions require answers directly stated in the text, while', 'Context and background for "Felling of the Banyan Tree" involves understanding the poet', 'Plot and Narrative Structure in a narrative poem refers to the organized sequence of', 'Setting in poetry refers to the time, place, and cultural context in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Literal comprehension of \'Felling of the Banyan Tree\'',
+                  options: ['Literal comprehension of \'Felling of the Banyan Tree\'', '\'Felling of the Banyan Tree\' (Woven Words, ch', 'The plot/narrative arc of \'Felling of the Banyan Tree\'', 'The setting of \'Felling of the Banyan Tree\''],
                   hint: 'If stuck, review node 18_002 (Plot and Narrative Structure) to re-establish the sequence of events.',
                   misconception: 'Students often treat inferential questions as "opinion questions" where any personal interpretation is acceptable.' }
           ],
-            remediations: { 'students-often-treat-inferential-questions': { steps: ['If a student cannot distinguish literal from inferential, use a two-column sorting activity: write 5 questions from the.', '"Why did the insects and birds leave?").', 'Have the student sort them into "Answer in the text" and "Answer from clues." Then, for each inferential question.', '2) Find two related details in the poem.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'students-often-treat-inferential-questions': { steps: ['If a student cannot distinguish literal from inferential, use a two-column sorting activity: write 5 questions from the.', '"Why did the insects and birds leave?").', 'Have the student sort them into "Answer in the text" and "Answer from clues." Then, for each inferential question.', '2) Find two related details in the poem.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

@@ -6,13 +6,13 @@ import C10_MathematicsCoordinateGeometrySim from '../../../simulations/c6_12/C10
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c10_mathematicscoordinategeometrysim: SimDef = {
     id: 'v3w_c10_mathematicscoordinategeometrysim',
-    title: 'Coordinate Geometry',
+    title: 'Section Formula: Finding the Midpoint',
     subtitle: 'This node covers the midpoint formula as a special case of the internal section formula.',
     classLevel: 10, subject: 'mathematics', topic: 'Section Formula: Finding the Midpoint',
     chapters: [],
     nodeIds: ['c10_math_cbse_07_005', 'c10_math_cbse_07_006', 'c10_math_cbse_07_007', 'c10_math_cbse_07_008', 'c10_math_cbse_07_009', 'c10_math_cbse_06_007', 'c10_math_cbse_06_009', 'c10_math_cbse_06_011', 'c10_math_cbse_10_003', 'c10_math_cbse_10_006', 'c10_math_cbse_10_008', 'c10_math_cbse_10_010', 'c10_math_cbse_11_010', 'c10_math_cbse_07_001', 'c10_math_cbse_07_003'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 10 learner', intro: 'Imagine you are designing a rectangular garden plot for your school\'s eco-club.', goal: 'Master Coordinate Geometry.' },
+    scenario: { role: 'a class 10 learner', intro: 'Imagine you are designing a rectangular garden plot for your school\'s eco-club.', goal: 'Master Section Formula: Finding the Midpoint.' },
     discovery: {
         question: 'Points A(2, 3), B(6, 7), C(8, 3), and D(4, -1) form a quadrilateral.',
         options: ['Find midpoints of diagonals AC and BD', 'diagonals of a parallelogram bisect each other', 'distance from origin'],
@@ -70,7 +70,7 @@ export const w_c10_mathematicscoordinategeometrysim: SimDef = {
             { text: 'Interpret: The tower is 100 m high. Check: scale factor = 48/1.2 = 40; 2.5 × 40 = 100. Correct.', faded: true, blankAnswer: '100 m' }
             ] } },
         { type: 'dissect', nodeId: 'c10_math_cbse_07_006', title: 'Identify each idea',
-          dissect: { specimen: 'Coordinate Geometry', spots: [
+          dissect: { specimen: 'Section Formula: Finding the Midpoint', spots: [
             { id: 's1', label: 'The midpoint of a line', prompt: 'Which idea is this? — The midpoint of a line segment joining two points A(x₁, y₁) and B(x₂, y₂) is the point.', answer: 'The midpoint of a line', options: ['The midpoint of a line', 'The section formula for internal', 'The area of a triangle', 'Three points Ax y Bx'] },
             { id: 's2', label: 'The section formula for internal', prompt: 'Which idea is this? — The section formula for internal division states that if a point P(x, y) divides the line.', answer: 'The section formula for internal', options: ['The section formula for internal', 'The midpoint of a line', 'The area of a triangle', 'Three points Ax y Bx'] },
             { id: 's3', label: 'The area of a triangle', prompt: 'Which idea is this? — The area of a triangle with vertices A(x₁, y₁), B(x₂, y₂), and C(x₃, y₃) in the Cartesian.', answer: 'The area of a triangle', options: ['The area of a triangle', 'The midpoint of a line', 'The section formula for internal', 'Three points Ax y Bx'] },
@@ -78,7 +78,7 @@ export const w_c10_mathematicscoordinategeometrysim: SimDef = {
             { id: 's5', label: 'The SAS Side-Angle-Side similarity criterion', prompt: 'Which idea is this? — The SAS (Side-Angle-Side) similarity criterion states that if one angle of a triangle is.', answer: 'The SAS Side-Angle-Side similarity criterion', options: ['The SAS Side-Angle-Side similarity criterion', 'The midpoint of a line', 'The section formula for internal', 'The area of a triangle'] }
           ] } }
     ],
-    explore: { component: C10_MathematicsCoordinateGeometrySim, prompt: 'Explore the interactive — Coordinate Geometry' },
+    explore: { component: C10_MathematicsCoordinateGeometrySim, prompt: 'Explore the interactive — Section Formula: Finding the Midpoint' },
     challenges: [
         { type: 'subpart', nodeId: 'c10_math_cbse_07_005', difficulty: 'standard',
           question: 'The midpoint of a line segment joining two points A(x₁, y₁) and B(x₂, y₂) is.',

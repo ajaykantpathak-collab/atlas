@@ -133,6 +133,10 @@ export const c8_bio_ch02_p2: SimDef = {
                 { id: 'a', prompt: 'Which class of organic macromolecules is primarily responsible for tissue growth, cellular repair, and the synthesis of biological catalysts known as enzymes?', answer: 'Proteins are the correct answer',
                   options: ['Proteins are the correct answer', 'fat-free'],
                   hint: 'Review basic food components and energy changes in food from Class 6 chemistry.',
+                  misconception: 'Students often believe that "fat-free" diets are entirely beneficial for health and that all fats are harmful chemical substances that.' },
+                { id: 'b', prompt: 'A student analyzes a food sample and finds it contains carbon, hydrogen, oxygen, and nitrogen in specific amino acid arrangements.', answer: 'Identify the nutrient as protein based on the presence of nitrogen',
+                  options: ['Identify the nutrient as protein based on the presence of nitrogen', 'fat-free'],
+                  hint: 'Review basic food components and energy changes in food from Class 6 chemistry.',
                   misconception: 'Students often believe that "fat-free" diets are entirely beneficial for health and that all fats are harmful chemical substances that.' }
           ],
             remediations: { 'fat-free-diets-are-entirely': { steps: ['Clarify that lipids (fats) are essential macro-nutrients required for cell membrane integrity, hormone synthesis, and.', 'Explain the chemical difference between harmful trans/saturated fats and beneficial unsaturated fats found in nuts and.'], labTask: { instruction: 'On the interactive: raise the heart rate to 80 bpm — watch the ECG trace — then check.', widget: 'heart', validate: 'heart:rate=80' } } } },

@@ -901,7 +901,7 @@ export const C6_GEO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Climate And Agriculture Describe The",
+    "title": "Climate and Agriculture: How Weather Shapes",
     "text": "Climate and agriculture describe the relationship where specific weather conditions—such as temperature, rainfall, and sunlight—directly determine which crops can successfully grow in a particular region.",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1695,7 +1695,7 @@ export const C6_GEO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Trade And Economic Relations Refer To",
+    "title": "Trade And Economic Relations",
     "text": "Trade and economic relations refer to the exchange of goods, resources, and services between India and its neighbouring countries to support mutual economic development.",
     "emoji": "🌍",
     "bgColor": "from-emerald-400 to-teal-500"

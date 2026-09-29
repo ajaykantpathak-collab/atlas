@@ -19,44 +19,44 @@ export const c11_eng_h_ch06_p2: SimDef = {
         hook: 'The gift lands because the title was always about him — a man translated into a harder version of himself, finally read kindly.',
     },
     teaching: [
-        { title: 'Theme: Secondary Themes', text: 'Secondary themes are subsidiary ideas or motifs that run alongside the primary theme, enriching the text by exploring complementary or contrasting aspects of human experience.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Theme: Secondary Themes', text: 'Secondary themes in \'The Browning Version\' — the supporting ideas and motifs that deepen the text.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
         { type: 'mission', nodeId: 'c11_eng_h_cbse_06_007', title: 'Your mission',
-          mission: { widget: 'flow', validate: 'flow:stage=80',
-            instruction: 'On the lab: walk the process to the final stage — what order did it take?.',
+          mission: { widget: 'timeline', validate: 'timeline:year=80',
+            instruction: 'On the lab: scrub to 80% through the era — what came before what?.',
         context: 'Track how a single room, a few visitors and some dialogue build a lifetime of failure — then place the true climax: the gift, or the final speech.',
         labels: ['Theme: Secondary Themes', 'Literary Devices: Imagery', 'Literary Devices: Irony', 'Vocabulary in Context: Key', 'Grammar: Language Usage', 'Comprehension: Literal and Inferential'],
-            observePrompt: 'What did the flow interactive show you?' } },
+            observePrompt: 'What did the timeline interactive show you?' } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_06_007', title: 'Theme: Secondary Themes',
-          caseStudy: { intro: 'Imagine you\'re trekking through a mountain pass — the main path (primary theme) gets you to the destination, but the side trails (secondary themes) reveal.',
+          caseStudy: { intro: 'Look beneath the main theme of \'The Browning Version\' for the recurring secondary ideas that give it layers.',
             decisions: [{ prompt: 'What is the definition of a secondary theme in literature, and how does it differ from the primary theme?', options: [
                 { text: 'A secondary theme is a subsidiary idea that runs parallel to the primary theme, exploring', outcome: 'A secondary theme is a subsidiary idea that runs parallel to the primary theme, exploring.' },
                 { text: 'less important themes', outcome: 'Not quite — Students often treat secondary themes as "sub-plots" or "minor topics" — listing things like.', reveals: 'students-often-treat-secondary-themes' },
                 { text: 'list the themes', outcome: 'Not quite — Students often treat secondary themes as "sub-plots" or "minor topics" — listing things like.', reveals: 'students-often-treat-secondary-themes' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_06_008', title: 'Literary Devices: Imagery and Metaphor',
-          caseStudy: { intro: 'Imagine you are watching a scene where a tired teacher sits alone in a dusty classroom, tapping a ruler on a desk — the sound echoes like a heartbeat in.',
+          caseStudy: { intro: 'Find the lines in \'The Browning Version\' that paint pictures — imagery is how the text comes alive.',
             decisions: [{ prompt: 'Define "organic imagery" and give one example from "The Browning Version" (describe the scene, do not quote).', options: [
                 { text: 'Organic imagery appeals to internal bodily sensations (hunger, thirst, fatigue, nausea,', outcome: 'Organic imagery appeals to internal bodily sensations (hunger, thirst, fatigue, nausea, heartbeat).' },
                 { text: 'imagery about nature', outcome: 'Not quite — Students believe "imagery = only visual description" and "metaphor = any comparison".', reveals: 'imagery-only-visual-description-and' },
                 { text: 'organic', outcome: 'Not quite — Students believe "imagery = only visual description" and "metaphor = any comparison".', reveals: 'imagery-only-visual-description-and' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_06_010', title: 'Vocabulary in Context: Key Words',
-          caseStudy: { intro: 'Imagine you are reading the play and come across the word "agog" in Taplow\'s line: "I\'m agog to know." You don\'t know the word, but you notice the context:.',
+          caseStudy: { intro: 'Note the difficult or loaded words in \'The Browning Version\' — their meaning carries the text\'s precision.',
             decisions: [{ prompt: 'What is the primary strategy for inferring the meaning of an unfamiliar word in a literary text like "The Browning Version"?', options: [
                 { text: 'The primary strategy is to use context clues—words, phrases, or sentences surrounding the', outcome: 'The primary strategy is to use context clues—words, phrases, or sentences surrounding the.' },
                 { text: 'look it up in a dictionary immediately', outcome: 'Not quite — Students often think vocabulary in context means memorizing dictionary definitions of difficult.', reveals: 'vocabulary-in-context-means-memorizing' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_06_011', title: 'Grammar: Language Usage in the Text',
-          caseStudy: { intro: 'Imagine you\'re reading a friend\'s travel blog about a Himalayan road trip — you notice they write "The road wound up the mountain" not "The mountain was wound.',
+          caseStudy: { intro: 'Read \'The Browning Version\' for style: what words did the writer choose, and what effect do they create?',
             decisions: [{ prompt: 'Identify the grammatical term for the underlined structure in this sentence from the text: "Tsetan sized me up as we clambered into his.', options: [
                 { text: 'The underlined structure "as we clambered into his car" is a **subordinate adverbial', outcome: 'The underlined structure "as we clambered into his car" is a **subordinate adverbial clause.' },
                 { text: 'as we clambered into his car', outcome: 'Not quite — Students believe "language usage" means listing grammatical labels (e.g., "this is a past tense.', reveals: 'language-usage-means-listing-grammatical' },
                 { text: 'language usage', outcome: 'Not quite — Students believe "language usage" means listing grammatical labels (e.g., "this is a past tense.', reveals: 'language-usage-means-listing-grammatical' }
             ] }] } },
         { type: 'case', nodeId: 'c11_eng_h_cbse_06_012', title: 'Comprehension: Literal and Inferential Questions',
-          caseStudy: { intro: 'Imagine you are reading a friend\'s travel blog about a trip to Ladakh.',
+          caseStudy: { intro: 'Answer \'The Browning Version\' questions by finding the facts in the text — the answer is on the page.',
             decisions: [{ prompt: 'What is the primary difference between a literal comprehension question and an inferential comprehension question?', options: [
                 { text: 'A literal question asks for information directly stated in the text (e.g., "At what', outcome: 'A literal question asks for information directly stated in the text (e.g., "At what altitude did.' },
                 { text: 'They write vague responses like', outcome: 'Not quite — Students often believe inferential questions have no "right" answer because they are "just.', reveals: 'inferential-questions-have-no-right' },
@@ -76,21 +76,21 @@ export const c11_eng_h_ch06_p2: SimDef = {
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],
-    explore: { lab: 'flow', prompt: 'Explore the flow interactive — watch what changes!' },
+    explore: { lab: 'timeline', prompt: 'Explore the timeline interactive — watch what changes!' },
     observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
-    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'flow', verifyPrompt: 'Try it — were you right?' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'timeline', verifyPrompt: 'Try it — were you right?' },
     challenges: [
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_06_007', difficulty: 'standard',
-          question: 'Secondary themes are subsidiary ideas or motifs that run alongside the primary.',
+          question: 'Secondary themes in \'The Browning Version\' — the supporting ideas and motifs.',
           hint: 'If stuck, review c11_eng_h_cbse_06_006 worked examples — practice writing the primary.',
           misconception: 'Students often treat secondary themes as "sub-plots" or "minor topics" — listing things like "dogs," "altitude," "tea,".',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes are subsidiary ideas or motifs that run alongside the primary theme,',
-                  options: ['Secondary themes are subsidiary ideas or motifs that run alongside the primary theme,', '"Before You Read: Context and Background" provides the essential historical,', 'Plot and narrative structure in drama refers to the arrangement of events and actions in', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Secondary themes in \'The Browning Version\'',
+                  options: ['Secondary themes in \'The Browning Version\'', '\'The Browning Version\' (Hornbill, ch', 'The plot/narrative arc of \'The Browning Version\'', 'The setting of \'The Browning Version\''],
                   hint: 'If stuck, review c11_eng_h_cbse_06_006 worked examples — practice writing the primary theme.',
                   misconception: 'Students often treat secondary themes as "sub-plots" or "minor topics" — listing things like "dogs," "altitude," "tea," "Norbu" as separate.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['Have the student create a two-column table: Column A = concrete detail from text (e.g., "mastiffs chase car"), Column.', 'Practice with 5 details from "Silk Road" and 5 from "Father to Son." 3.', 'Then cluster Column B entries into 3-4 theme groups.', 'Finally, write one PEEL paragraph per cluster using two Column A details as Evidence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-secondary-themes': { steps: ['Have the student create a two-column table: Column A = concrete detail from text (e.g., "mastiffs chase car"), Column.', 'Practice with 5 details from "Silk Road" and 5 from "Father to Son." 3.', 'Then cluster Column B entries into 3-4 theme groups.', 'Finally, write one PEEL paragraph per cluster using two Column A details as Evidence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_06_007', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
@@ -101,9 +101,9 @@ export const c11_eng_h_ch06_p2: SimDef = {
                   hint: 'If stuck, review c11_eng_h_cbse_06_006 worked examples — practice writing the primary theme.',
                   misconception: 'Students often treat secondary themes as "sub-plots" or "minor topics" — listing things like "dogs," "altitude," "tea," "Norbu" as separate.' }
           ],
-            remediations: { 'students-often-treat-secondary-themes': { steps: ['Have the student create a two-column table: Column A = concrete detail from text (e.g., "mastiffs chase car"), Column.', 'Practice with 5 details from "Silk Road" and 5 from "Father to Son." 3.', 'Then cluster Column B entries into 3-4 theme groups.', 'Finally, write one PEEL paragraph per cluster using two Column A details as Evidence.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-secondary-themes': { steps: ['Have the student create a two-column table: Column A = concrete detail from text (e.g., "mastiffs chase car"), Column.', 'Practice with 5 details from "Silk Road" and 5 from "Father to Son." 3.', 'Then cluster Column B entries into 3-4 theme groups.', 'Finally, write one PEEL paragraph per cluster using two Column A details as Evidence.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_06_008', difficulty: 'standard',
-          question: 'Imagery is the use of vivid, sensory language that appeals to the five senses.',
+          question: 'Imagery in \'The Browning Version\' — the vivid, sensory language that creates.',
           hint: 'Review "sensory modality classification" — practice labeling each adjective in.',
           misconception: 'Students believe "imagery = only visual description" and "metaphor = any comparison".',
           parts: [
@@ -120,20 +120,20 @@ export const c11_eng_h_ch06_p2: SimDef = {
                   hint: 'Review "sensory modality classification" — practice labeling each adjective in a descriptive.',
                   misconception: 'Students believe "imagery = only visual description" and "metaphor = any comparison".' }
           ],
-            remediations: { 'imagery-only-visual-description-and': { steps: ['Have the student close their eyes and read aloud Crocker-Harris\'s first monologue — ask: "What do you *hear*?', 'What do you *feel in your chest*?" 2.', 'Give them a two-column table: "Explicit Metaphor" vs "Implied Metaphor" — fill three rows together from the text.', 'Assign: "Rewrite the \'dusty classroom\' description using *only* sound, smell, and touch words." 4.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'imagery-only-visual-description-and': { steps: ['Have the student close their eyes and read aloud Crocker-Harris\'s first monologue — ask: "What do you *hear*?', 'What do you *feel in your chest*?" 2.', 'Give them a two-column table: "Explicit Metaphor" vs "Implied Metaphor" — fill three rows together from the text.', 'Assign: "Rewrite the \'dusty classroom\' description using *only* sound, smell, and touch words." 4.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_06_009', difficulty: 'standard',
-          question: 'Irony in literature is a contrast between expectation and reality, where the.',
+          question: 'Irony and paradox in \'The Browning Version\' — where opposite things are both.',
           hint: 'Re-read the Taplow-Crocker-Harris scene (Act 1) and the final gift-giving moment.',
           misconception: 'Students often treat every unexpected event as "irony" (e.g., "It\'s ironic that Taplow likes the strict teacher").',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony in literature is a contrast between expectation and reality, where the intended',
-                  options: ['Irony in literature is a contrast between expectation and reality, where the intended', '"Before You Read: Context and Background" provides the essential historical,', 'Plot and narrative structure in drama refers to the arrangement of events and actions in', 'Setting refers to the time, place, and social environment in'],
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'Irony and paradox in \'The Browning Version\'',
+                  options: ['Irony and paradox in \'The Browning Version\'', '\'The Browning Version\' (Hornbill, ch', 'The plot/narrative arc of \'The Browning Version\'', 'The setting of \'The Browning Version\''],
                   hint: 'Re-read the Taplow-Crocker-Harris scene (Act 1) and the final gift-giving moment; annotate every.',
                   misconception: 'Students often treat every unexpected event as "irony" (e.g., "It\'s ironic that Taplow likes the strict teacher").' }
           ],
-            remediations: { 'students-often-treat-every-unexpected': { steps: ['Give the student three index cards labelled VERBAL, SITUATIONAL, DRAMATIC.', 'Read aloud five moments from the play (e.g., Crocker-Harris\'s "popular" remark; the Headmaster\'s early pension cut.', 'Ask the student to hold up the correct card for each and articulate the *contradiction* (words vs.', 'If they mis-sort, ask: "What does the audience know that the speaker doesn\'t?" or "What did the character expect would.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'students-often-treat-every-unexpected': { steps: ['Give the student three index cards labelled VERBAL, SITUATIONAL, DRAMATIC.', 'Read aloud five moments from the play (e.g., Crocker-Harris\'s "popular" remark; the Headmaster\'s early pension cut.', 'Ask the student to hold up the correct card for each and articulate the *contradiction* (words vs.', 'If they mis-sort, ask: "What does the audience know that the speaker doesn\'t?" or "What did the character expect would.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_06_010', difficulty: 'standard',
-          question: 'Vocabulary in Context: Key Words refers to the skill of inferring the meaning.',
+          question: 'Key vocabulary of \'The Browning Version\' — the words and phrases you must know.',
           hint: 'If stuck, review Class 10 vocabulary-in-context node c10_engl_cbse_02_009 (Mandela.',
           misconception: 'Students often think vocabulary in context means memorizing dictionary definitions of difficult words from the play.',
           parts: [
@@ -146,9 +146,9 @@ export const c11_eng_h_ch06_p2: SimDef = {
                   hint: 'If stuck, review Class 10 vocabulary-in-context node c10_engl_cbse_02_009 (Mandela speech) and.',
                   misconception: 'Students often think vocabulary in context means memorizing dictionary definitions of difficult words from the play.' }
           ],
-            remediations: { 'vocabulary-in-context-means-memorizing': { steps: ['If a student falls back on memorization, guide them through a three-step drill: (1) Pick any unfamiliar word from the.', '(2) Cover the dictionary; write down the sentence it appears in plus the two sentences before and after.', '(3) Highlight every clue (tone, contrast, character reaction) and write a one-sentence inference.', 'Repeat with five words until they see patterns.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'vocabulary-in-context-means-memorizing': { steps: ['If a student falls back on memorization, guide them through a three-step drill: (1) Pick any unfamiliar word from the.', '(2) Cover the dictionary; write down the sentence it appears in plus the two sentences before and after.', '(3) Highlight every clue (tone, contrast, character reaction) and write a one-sentence inference.', 'Repeat with five words until they see patterns.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_06_011', difficulty: 'standard',
-          question: 'Grammar: Language Usage in the Text refers to the systematic analysis of how.',
+          question: 'Language and style in \'The Browning Version\' — how the writer chose words.',
           hint: 'Review "Finite vs Non-finite Clauses" and "Tense-Aspect System in Narrative" from Class.',
           misconception: 'Students believe "language usage" means listing grammatical labels (e.g., "this is a past tense verb") without.',
           parts: [
@@ -157,9 +157,9 @@ export const c11_eng_h_ch06_p2: SimDef = {
                   hint: 'Review "Finite vs Non-finite Clauses" and "Tense-Aspect System in Narrative" from Class 10 Grammar.',
                   misconception: 'Students believe "language usage" means listing grammatical labels (e.g., "this is a past tense verb") without explaining **why that form.' }
           ],
-            remediations: { 'language-usage-means-listing-grammatical': { steps: ['Give the student a two-column table: Column A = grammatical feature (e.g., "participial phrase"), Column B = textual.', 'Model one row together: "Having opened his door, Tsetan jumped out" → fronted participial phrase creates simultaneity.', 'Student completes three more rows from the text.', 'Student writes one 40-word answer linking a feature to narrative purpose using the frame: "The writer uses [feature].'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } },
+            remediations: { 'language-usage-means-listing-grammatical': { steps: ['Give the student a two-column table: Column A = grammatical feature (e.g., "participial phrase"), Column B = textual.', 'Model one row together: "Having opened his door, Tsetan jumped out" → fronted participial phrase creates simultaneity.', 'Student completes three more rows from the text.', 'Student writes one 40-word answer linking a feature to narrative purpose using the frame: "The writer uses [feature].'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } },
         { type: 'subpart', nodeId: 'c11_eng_h_cbse_06_012', difficulty: 'standard',
-          question: 'Literal comprehension involves retrieving information explicitly stated in the.',
+          question: 'Literal comprehension of \'The Browning Version\' — questions answered straight.',
           hint: 'If stuck, review the plot summary (c11_eng_h_cbse_06_002) and character profiles.',
           misconception: 'Students often believe inferential questions have no "right" answer because they are "just opinions." They write vague.',
           parts: [
@@ -176,7 +176,7 @@ export const c11_eng_h_ch06_p2: SimDef = {
                   hint: 'If stuck, review the plot summary (c11_eng_h_cbse_06_002) and character profiles.',
                   misconception: 'Students often believe inferential questions have no "right" answer because they are "just opinions." They write vague responses like "The.' }
           ],
-            remediations: { 'inferential-questions-have-no-right': { steps: ['Give the student a short paragraph from "Silk Road" and three questions: one literal, one inferential, one opinion.', 'Have them label each and highlight the text evidence for the first two.', 'For the inferential, guide them to write: "The text says X, which suggests Y because Z." 4.', 'Practice this "Evidence → Inference → Justification" scaffold daily until they automatically seek textual anchors.'], labTask: { instruction: 'On the interactive: walk the process to the final stage — what order did it take? — then check.', widget: 'flow', validate: 'flow:stage=80' } } } }
+            remediations: { 'inferential-questions-have-no-right': { steps: ['Give the student a short paragraph from "Silk Road" and three questions: one literal, one inferential, one opinion.', 'Have them label each and highlight the text evidence for the first two.', 'For the inferential, guide them to write: "The text says X, which suggests Y because Z." 4.', 'Practice this "Evidence → Inference → Justification" scaffold daily until they automatically seek textual anchors.'], labTask: { instruction: 'On the interactive: scrub to 80% through the era — what came before what? — then check.', widget: 'timeline', validate: 'timeline:year=80' } } } }
     ],
     reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
     successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',

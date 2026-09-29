@@ -153,8 +153,8 @@ export const c8_math_ch09_p1: SimDef = {
                   options: ['The side length of the new square is the diagonal of the original square', 'to double the area of a square, they should double the side length'],
                   hint: 'Review constructing perpendiculars (Class 6 Construction c6_math_ch11_116) and area of square.',
                   misconception: 'Students often think that to double the area of a square, they should double the side length.' },
-                { id: 'b', prompt: 'Construct a square with double the area of a square of side 3 cm. Show the steps of construction and calculate the area of the new square to verify.', answer: 'Steps: 1) Draw square ABCD of side 3 cm',
-                  options: ['Steps: 1) Draw square ABCD of side 3 cm', 'to double the area of a square, they should double the side length'],
+                { id: 'b', prompt: 'Construct a square with double the area of a square of side 3 cm. Show the steps of construction and calculate the area of the new square to verify.', answer: 'Draw square ABCD of side 3 cm',
+                  options: ['Draw square ABCD of side 3 cm', 'to double the area of a square, they should double the side length'],
                   hint: 'Review constructing perpendiculars (Class 6 Construction c6_math_ch11_116) and area of square.',
                   misconception: 'Students often think that to double the area of a square, they should double the side length.' }
           ],

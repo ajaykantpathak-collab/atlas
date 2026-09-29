@@ -91,8 +91,8 @@ export const c6_economics_ch11: SimDef = {
           hint: 'Review the definition of "Economic Activities" in your textbook.',
           misconception: 'Students often think barter means "selling things for a cheaper price." They confuse the *method* of payment (goods vs.',
           parts: [
-                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'The barter system is an early method of trade where people exchanged goods or services',
-                  options: ['The barter system is an early method of trade where people exchanged goods or services', 'Double coincidence of wants is a situation in a barter system where two people must', 'Commodity money refers to the earliest form of currency where items with their own', 'Money is a universally accepted tool that functions as a medium of exchange, a measure of'],
+                { id: 'a', prompt: 'If you are a farmer with wheat and you want a pair of shoes, what must happen for a successful barter?', answer: 'Identify your supply (wheat)',
+                  options: ['Identify your supply (wheat)', 'selling things for a cheaper price', 'barter means "selling things for a cheaper price'],
                   hint: 'Review the definition of "Economic Activities" in your textbook.',
                   misconception: 'Students often think barter means "selling things for a cheaper price." They confuse the *method* of payment (goods vs.' }
           ],

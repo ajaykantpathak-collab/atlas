@@ -6,13 +6,13 @@ import C12_ChemistryElectrochemistryCBSESim from '../../../simulations/c6_12/C12
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_chemistryelectrochemistrycbsesim: SimDef = {
     id: 'v3w_c12_chemistryelectrochemistrycbsesim',
-    title: 'Electrochemistry CBSE',
+    title: 'Electrochemical Cells: Galvanic and Electrolytic',
     subtitle: 'Covers: construction and working of galvanic cells (Daniell cell as primary example),.',
     classLevel: 12, subject: 'chemistry', topic: 'Electrochemical Cells: Galvanic and Electrolytic',
     chapters: [],
     nodeIds: ['c12_chem_cbse_02_001', 'c12_chem_cbse_02_002', 'c12_chem_cbse_02_003', 'c12_chem_cbse_02_004', 'c12_chem_cbse_02_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Observe a simple Daniell cell in the lab: a zinc rod in ZnSO₄ solution and a copper rod in CuSO₄ solution.', goal: 'Master Electrochemistry CBSE.' },
+    scenario: { role: 'a class 12 learner', intro: 'Observe a simple Daniell cell in the lab: a zinc rod in ZnSO₄ solution and a copper rod in CuSO₄ solution.', goal: 'Master Electrochemical Cells: Galvanic and Electrolytic.' },
     discovery: {
         question: 'A student calculates K for a reaction with E°_cell = 0.46 V and n = 2 at 298 K and gets K = 3.92 × 10¹⁵.',
         options: ['The statement is false', 'thermodynamically favorable', 'goes to completion'],
@@ -70,7 +70,7 @@ export const w_c12_chemistryelectrochemistrycbsesim: SimDef = {
             { text: 'Apply Nernst equation at 298 K: Ecell = E°cell – (0.0591/4) log Q = 1.67 – (0.014775) log(5 × 10⁸) = 1.67 – 0.014775 ×.', faded: true, blankAnswer: 'Ecell = 1.54 V (approx). Corrosion is spontaneous.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_chem_cbse_02_002', title: 'Identify each idea',
-          dissect: { specimen: 'Electrochemistry CBSE', spots: [
+          dissect: { specimen: 'Electrochemical Cells: Galvanic and Electrolytic', spots: [
             { id: 's1', label: 'An electrochemical cell is a', prompt: 'Which idea is this? — An electrochemical cell is a device that interconverts chemical energy and electrical.', answer: 'An electrochemical cell is a', options: ['An electrochemical cell is a', 'Standard electrode potential E is', 'The Nernst equation quantitatively relates', 'The equilibrium constant K of'] },
             { id: 's2', label: 'Standard electrode potential E is', prompt: 'Which idea is this? — Standard electrode potential (E°) is the potential difference developed between a metal.', answer: 'Standard electrode potential E is', options: ['Standard electrode potential E is', 'An electrochemical cell is a', 'The Nernst equation quantitatively relates', 'The equilibrium constant K of'] },
             { id: 's3', label: 'The Nernst equation quantitatively relates', prompt: 'Which idea is this? — The Nernst equation quantitatively relates the electrode potential of a half-cell (or the.', answer: 'The Nernst equation quantitatively relates', options: ['The Nernst equation quantitatively relates', 'An electrochemical cell is a', 'Standard electrode potential E is', 'The equilibrium constant K of'] },
@@ -78,7 +78,7 @@ export const w_c12_chemistryelectrochemistrycbsesim: SimDef = {
             { id: 's5', label: 'Corrosion is an electrochemical process', prompt: 'Which idea is this? — Corrosion is an electrochemical process where a metal deteriorates due to oxidation by.', answer: 'Corrosion is an electrochemical process', options: ['Corrosion is an electrochemical process', 'An electrochemical cell is a', 'Standard electrode potential E is', 'The Nernst equation quantitatively relates'] }
           ] } }
     ],
-    explore: { component: C12_ChemistryElectrochemistryCBSESim, prompt: 'Explore the interactive — Electrochemistry CBSE' },
+    explore: { component: C12_ChemistryElectrochemistryCBSESim, prompt: 'Explore the interactive — Electrochemical Cells: Galvanic and Electrolytic' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_chem_cbse_02_001', difficulty: 'standard',
           question: 'An electrochemical cell is a device that interconverts chemical energy and.',

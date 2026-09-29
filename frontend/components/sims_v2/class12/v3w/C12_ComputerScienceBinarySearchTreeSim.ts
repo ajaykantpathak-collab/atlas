@@ -6,13 +6,13 @@ import C12_ComputerScienceBinarySearchTreeSim from '../../../simulations/c6_12/C
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c12_computersciencebinarysearchtreesim: SimDef = {
     id: 'v3w_c12_computersciencebinarysearchtreesim',
-    title: 'Binary Search Tree',
+    title: 'Recursive Functions: Concept and Examples',
     subtitle: 'This node covers the concept of recursion, structure of a recursive function (base case,.',
     classLevel: 12, subject: 'computer_science', topic: 'Recursive Functions: Concept and Examples',
     chapters: [],
     nodeIds: ['c12_cs_cbse_09_008', 'c12_cs_cbse_11_012', 'c12_cs_cbse_08_001'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing in a queue and want to know your position from the front.', goal: 'Master Binary Search Tree.' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing in a queue and want to know your position from the front.', goal: 'Master Recursive Functions: Concept and Examples.' },
     discovery: {
         question: 'Explain in your own words why a recursive function must have a base case and why each recursive call must progress toward that base case.',
         options: ['The base case provides the stopping condition', 'efficiency', 'zero times anything is zero'],
@@ -51,13 +51,13 @@ export const w_c12_computersciencebinarysearchtreesim: SimDef = {
             { text: 'Verify — if the trolley were a queue (FIFO), the first returned book would be reshelved first, which is not what the.', faded: true, blankAnswer: 'Data structure: Stack. Principle: LIFO (Last In, First.' }
             ] } },
         { type: 'dissect', nodeId: 'c12_cs_cbse_11_012', title: 'Identify each idea',
-          dissect: { specimen: 'Binary Search Tree', spots: [
+          dissect: { specimen: 'Recursive Functions: Concept and Examples', spots: [
             { id: 's1', label: 'A recursive function in Python', prompt: 'Which idea is this? — A recursive function in Python is a function that calls itself during its execution to.', answer: 'A recursive function in Python', options: ['A recursive function in Python', 'Searching is the algorithmic process', 'A data structure is a'] },
             { id: 's2', label: 'Searching is the algorithmic process', prompt: 'Which idea is this? — Searching is the algorithmic process of locating a target element within a data structure.', answer: 'Searching is the algorithmic process', options: ['Searching is the algorithmic process', 'A recursive function in Python', 'A data structure is a'] },
             { id: 's3', label: 'A data structure is a', prompt: 'Which idea is this? — A data structure is a specialized format for organizing, processing, retrieving, and.', answer: 'A data structure is a', options: ['A data structure is a', 'A recursive function in Python', 'Searching is the algorithmic process'] }
           ] } }
     ],
-    explore: { component: C12_ComputerScienceBinarySearchTreeSim, prompt: 'Explore the interactive — Binary Search Tree' },
+    explore: { component: C12_ComputerScienceBinarySearchTreeSim, prompt: 'Explore the interactive — Recursive Functions: Concept and Examples' },
     challenges: [
         { type: 'subpart', nodeId: 'c12_cs_cbse_09_008', difficulty: 'standard',
           question: 'A recursive function in Python is a function that calls itself during its.',

@@ -6,13 +6,13 @@ import C9_ScienceHowForcesAffectMotionSim from '../../../simulations/c6_12/C9_Sc
  * Regenerate via tools/wrap_masters.mjs. */
 export const w_c9_sciencehowforcesaffectmotionsim: SimDef = {
     id: 'v3w_c9_sciencehowforcesaffectmotionsim',
-    title: 'How Forces Affect Motion',
+    title: 'Work-Energy Theorem: Statement and Meaning',
     subtitle: 'Covers the Work-Energy Theorem (W_net = delta_KE), its derivation from Newton\'s Second.',
-    classLevel: 9, subject: 'science', topic: 'Simple Machines: Inclined Planes and Levers',
+    classLevel: 9, subject: 'science', topic: 'Work-Energy Theorem: Statement and Meaning',
     chapters: [],
-    nodeIds: ['c9_physics_ch4_11', 'c9_physics_ch4_2', 'c9_physics_ch4_3', 'c9_physics_ch4_7', 'c9_physics_ch6_8', 'c9_physics_ch5_7'],
+    nodeIds: ['c9_physics_ch4_3', 'c9_physics_ch4_2', 'c9_physics_ch4_7', 'c10_phy_cbse_01_004', 'c9_physics_ch5_3'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
-    scenario: { role: 'a class 9 learner', intro: 'Imagine pushing a box from rest until it reaches 5 m/s. You did work on the box — you applied a force over a.', goal: 'Master How Forces Affect Motion.' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine pushing a box from rest until it reaches 5 m/s. You did work on the box — you applied a force over a.', goal: 'Master Work-Energy Theorem: Statement and Meaning.' },
     discovery: {
         question: 'A net force of 10 N acts on a 2 kg object over a distance of 5 m. The object starts from rest. Find the final velocity using the Work-Energy Theorem.',
         options: ['Step 1: Calculate work', 'change in kinetic energy', 'kinetic energy'],
@@ -23,7 +23,7 @@ export const w_c9_sciencehowforcesaffectmotionsim: SimDef = {
         { title: 'The Work-Energy Theorem states that the net.', text: 'The Work-Energy Theorem states that the net work done by all forces acting on a body equals the change in its kinetic energy: W_net = delta_KE = (1/2)mv^2 - (1/2)mu^2, where m is mass, v is final.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
     ],
     beats: [
-        { type: 'scaffold', nodeId: 'c9_physics_ch4_11', title: 'The Work-Energy Theorem states that the.',
+        { type: 'scaffold', nodeId: 'c9_physics_ch4_3', title: 'The Work-Energy Theorem states that the.',
           scaffold: { problem: 'A 1500 kg car accelerates from 10 m/s to 20 m/s. Calculate the net work done on the car using the Work-Energy Theorem.',
             steps: [
             { text: 'Identify the formula. W_net = delta_KE = (1/2)mv^2 - (1/2)mu^2.' },
@@ -58,21 +58,21 @@ export const w_c9_sciencehowforcesaffectmotionsim: SimDef = {
             { text: '(b) At h = 0.5 m, PE = mgh = 0.05 × 10 × 0.5 = 0.25 J. Then KE = ME - PE = 0.8 - 0.25 = 0.55 J.' },
             { text: 'Verify: At h=0.5 m, PE=0.25 J, KE=0.55 J, sum=0.8 J. At h_max=1.6 m, PE=0.05×10×1.6=0.8 J, KE=0. Both consistent.', faded: true, blankAnswer: '(a) Maximum height = 1.6 m; (b) Speed at height 0.5 m =.' }
             ] } },
-        { type: 'scaffold', nodeId: 'c9_physics_ch6_8', title: 'Resistance is the opposition a.',
+        { type: 'scaffold', nodeId: 'c10_phy_cbse_01_004', title: 'Resistance is the opposition a.',
           scaffold: { problem: 'A copper wire has resistivity 1.7e-8 ohm*m, length 5 m, and cross-sectional area 2e-6 m^2. Calculate its resistance.',
             steps: [
             { text: 'Identify the formula. R = rho * L / A.' },
             { text: 'Substitute. R = 1.7e-8 * 5 / 2e-6 = 8.5e-8 / 2e-6 = 4.25e-2 = 0.0425 ohms.' },
             { text: 'Interpret. The resistance is 0.0425 ohms — very low, as expected for copper (good conductor).', faded: true, blankAnswer: 'R = 1.7e-8 * 5 / 2e-6 = 0.0425 ohms. The resistance is.' }
             ] } },
-        { type: 'scaffold', nodeId: 'c9_physics_ch5_7', title: 'Characteristics of sound waves are the.',
+        { type: 'scaffold', nodeId: 'c9_physics_ch5_3', title: 'Characteristics of sound waves are the.',
           scaffold: { problem: 'A sound wave has frequency 680 Hz and travels at 340 m/s. Calculate its wavelength and time period.',
             steps: [
             { text: 'Wavelength. lambda = v/f = 340/680 = 0.5 m.' },
             { text: 'Time period. T = 1/f = 1/680 = 0.00147 s (approximately 1.47 ms).', faded: true, blankAnswer: 'Wavelength = 340/680 = 0.5 m. Time period = 1/680 = 0.00147.' }
             ] } },
         { type: 'dissect', nodeId: 'c9_physics_ch4_2', title: 'Identify each idea',
-          dissect: { specimen: 'How Forces Affect Motion', spots: [
+          dissect: { specimen: 'Work-Energy Theorem: Statement and Meaning', spots: [
             { id: 's1', label: 'The Work-Energy Theorem states that', prompt: 'Which idea is this? — The Work-Energy Theorem states that the net work done by all forces acting on a body.', answer: 'The Work-Energy Theorem states that', options: ['The Work-Energy Theorem states that', 'Work done by a force', 'Mechanical energy is the total', 'Resistance is the opposition a'] },
             { id: 's2', label: 'Work done by a force', prompt: 'Which idea is this? — Work done by a force is zero when the force applied on an object is perpendicular to the.', answer: 'Work done by a force', options: ['Work done by a force', 'The Work-Energy Theorem states that', 'Mechanical energy is the total', 'Resistance is the opposition a'] },
             { id: 's3', label: 'Mechanical energy is the total', prompt: 'Which idea is this? — Mechanical energy is the total energy possessed by an object due to its motion and.', answer: 'Mechanical energy is the total', options: ['Mechanical energy is the total', 'The Work-Energy Theorem states that', 'Work done by a force', 'Resistance is the opposition a'] },
@@ -80,9 +80,9 @@ export const w_c9_sciencehowforcesaffectmotionsim: SimDef = {
             { id: 's5', label: 'Characteristics of sound waves are', prompt: 'Which idea is this? — Characteristics of sound waves are the measurable properties that describe a sound wave:.', answer: 'Characteristics of sound waves are', options: ['Characteristics of sound waves are', 'The Work-Energy Theorem states that', 'Work done by a force', 'Mechanical energy is the total'] }
           ] } }
     ],
-    explore: { component: C9_ScienceHowForcesAffectMotionSim, prompt: 'Explore the interactive — How Forces Affect Motion' },
+    explore: { component: C9_ScienceHowForcesAffectMotionSim, prompt: 'Explore the interactive — Work-Energy Theorem: Statement and Meaning' },
     challenges: [
-        { type: 'subpart', nodeId: 'c9_physics_ch4_11', difficulty: 'standard',
+        { type: 'subpart', nodeId: 'c9_physics_ch4_3', difficulty: 'standard',
           question: 'The Work-Energy Theorem states that the net work done by all forces acting on a.',
           hint: 'Revisit c9_physics_ch4_1 (Work) for the definition of work and c9_physics_ch4_2 (Kinetic.',
           misconception: 'Students confuse "change in kinetic energy" (delta_KE) with "kinetic energy" (KE).',
@@ -97,7 +97,7 @@ export const w_c9_sciencehowforcesaffectmotionsim: SimDef = {
                   misconception: 'Students confuse "change in kinetic energy" (delta_KE) with "kinetic energy" (KE).' }
           ],
             remediations: { 'students-confuse-change-in-kinetic': { steps: ['Show an object moving at constant velocity.', 'Emphasize: W = delta_KE (change), not W = KE (value).', 'Practice: calculate delta_KE = (1/2)mv^2 - (1/2)mu^2.', 'Check signs: speeding up (positive delta_KE, positive work); slowing down (negative delta_KE, negative work).'] } } },
-        { type: 'subpart', nodeId: 'c9_physics_ch4_11', difficulty: 'advanced',
+        { type: 'subpart', nodeId: 'c9_physics_ch4_3', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
           misconception: 'Students confuse "change in kinetic energy" (delta_KE) with "kinetic energy" (KE).',
@@ -202,7 +202,7 @@ export const w_c9_sciencehowforcesaffectmotionsim: SimDef = {
                   misconception: 'Students often believe that mechanical energy is conserved only when an object moves vertically (like free fall or vertical throw) but not.' }
           ],
             remediations: { 'mechanical-energy-is-conserved-only': { steps: ['Place a dynamics cart on a frictionless air track inclined at 30°.', 'Mark three positions: top (h=0.5 m), middle (h=0.25 m), bottom (h=0).', 'Use a motion sensor to measure speed at each position.', 'Calculate KE=½mv² and PE=mgh at each point.', 'Show that KE+PE is constant (within sensor error).', 'Repeat with a curved track (same vertical drop) to demonstrate path independence.'] } } },
-        { type: 'subpart', nodeId: 'c9_physics_ch6_8', difficulty: 'standard',
+        { type: 'subpart', nodeId: 'c10_phy_cbse_01_004', difficulty: 'standard',
           question: 'Resistance is the opposition a conductor offers to electric current, measured.',
           hint: 'Revisit c9_physics_ch6_7 (Ohm\'s Law) for the definition of resistance as R = V/I.',
           misconception: 'Students think thicker wires have more resistance because they have "more material." The exact error: they reason that.',
@@ -217,7 +217,7 @@ export const w_c9_sciencehowforcesaffectmotionsim: SimDef = {
                   misconception: 'Students think thicker wires have more resistance because they have "more material." The exact error: they reason that more material = more.' }
           ],
             remediations: { 'thicker-wires-have-more-resistance': { steps: ['Long pipe = more resistance (more friction).', 'Wide pipe = less resistance (more space).', 'L in numerator (more L = more R).', 'A in denominator (more A = less R).'] } } },
-        { type: 'subpart', nodeId: 'c9_physics_ch6_8', difficulty: 'advanced',
+        { type: 'subpart', nodeId: 'c10_phy_cbse_01_004', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
           misconception: 'Students think thicker wires have more resistance because they have "more material." The exact error: they reason that.',
@@ -232,7 +232,7 @@ export const w_c9_sciencehowforcesaffectmotionsim: SimDef = {
                   misconception: 'Students think thicker wires have more resistance because they have "more material." The exact error: they reason that more material = more.' }
           ],
             remediations: { 'thicker-wires-have-more-resistance': { steps: ['Long pipe = more resistance (more friction).', 'Wide pipe = less resistance (more space).', 'L in numerator (more L = more R).', 'A in denominator (more A = less R).'] } } },
-        { type: 'subpart', nodeId: 'c9_physics_ch5_7', difficulty: 'standard',
+        { type: 'subpart', nodeId: 'c9_physics_ch5_3', difficulty: 'standard',
           question: 'Characteristics of sound waves are the measurable properties that describe a.',
           hint: 'Revisit c9_physics_ch5_2 (Production of Sound) for the concept of vibration and.',
           misconception: 'Students confuse amplitude (loudness) with frequency (pitch). The exact error: they think louder sounds are.',
@@ -243,7 +243,7 @@ export const w_c9_sciencehowforcesaffectmotionsim: SimDef = {
                   misconception: 'Students confuse amplitude (loudness) with frequency (pitch). The exact error: they think louder sounds are higher-pitched and quieter.' }
           ],
             remediations: { 'students-confuse-amplitude-loudness-with': { steps: ['Play a tone at fixed frequency, varying amplitude — students hear it get louder/quieter, not change pitch.', 'Play tones at fixed amplitude, varying frequency — students hear pitch change, not loudness.', 'Conclude: amplitude = loudness, frequency = pitch.', 'Practice: v = f * lambda calculations.'] } } },
-        { type: 'subpart', nodeId: 'c9_physics_ch5_7', difficulty: 'advanced',
+        { type: 'subpart', nodeId: 'c9_physics_ch5_3', difficulty: 'advanced',
           question: 'Prove it again — new questions.',
           hint: 'Same idea, different angle.',
           misconception: 'Students confuse amplitude (loudness) with frequency (pitch). The exact error: they think louder sounds are.',
